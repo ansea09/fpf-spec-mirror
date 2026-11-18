@@ -6,12 +6,12 @@ section_id: "A.7:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__013_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:11 — SoTA‑Echoing"
-line_start: 26721
-line_end: 26729
+line_start: 26733
+line_end: 26741
 dependencies:
   - "A.1"
   - "A.10"

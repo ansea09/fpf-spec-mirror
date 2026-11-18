@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 39626
-line_end: 39641
+line_start: 39649
+line_end: 39664
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -36,5 +36,5 @@ keywords:
 
 * **Confusing planning with an application.** A description of intended editions or planned fillings does not establish argument bindings or launch values. Keep the P2W baseline separate and record effective application references in Audit.
 
-* **GateDecision leakage.** Emitting or implying GateDecision/GateLog as part of the `indicatorize` step (gate decisions are separated from suite steps; keep UINDM at guard+audit level).
+* **GateDecision leakage.** Emitting or implying GateDecision/GateLog as part of the `indicatorize` step.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.MOVE.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
-line_start: 107260
-line_end: 107644
+line_start: 107308
+line_end: 107692
 dependencies:
   - "A.1.STM"
   - "A.10"

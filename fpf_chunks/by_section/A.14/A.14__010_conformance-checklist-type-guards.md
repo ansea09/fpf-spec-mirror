@@ -6,12 +6,12 @@ section_id: "A.14:9"
 section_title: "Conformance Checklist - type guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_conformance-checklist-type-guards.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Conformance Checklist - type guards"
-line_start: 29622
-line_end: 29721
+line_start: 29636
+line_end: 29735
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 | ID            | Requirement                                                                                 | Purpose                                                 |
 | ------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | **CC-A14-0** | A local system-role kind **MUST NOT** occur as a node in any `partOf` chain by kind identity; a `U.System` classified by that kind remains eligible for holon mereology on its independent system identity. `U.Method` **MUST NOT** occur in A.14 structural `ComponentOf` or structural `partOf` chains by method identity alone; A.3.1 and B.1.5 define submethod assembly. If an admission predicate establishes a different entity, such as a `SystemRoleKindDescription`, Work occurrence, `U.SystemRoleAssignment` occurrence, `SystemRoleKindRelationStructure`, method relation structure, or episteme, name that entity, assertion, and subject-pattern locator. | Keeps local system-role kinds out of holon mereology by kind identity and keeps method holarchy out of structural component mereology while preserving admitted entities. |
-| **CC‑A14‑0a** | `U.MethodDescription` / `U.WorkPlan` and other describing epistemes **MAY** participate in `partOf` only as `U.Episteme` nodes: content `ConstituentOf`, measured text `PortionOf`, or `PhaseOf` for a proper interval of one unchanged C.2.1 identity. A changed C.2.1 discriminator identifies another episteme; connect two such identities only through an independently obtaining `EpistemeEditionRelation`. They **MUST NOT** be asserted as `ut:StructPartOf` of any `U.System`. | Allows episteme structure and temporal restriction without smuggling Methods or automatic edition continuity into structure. |
+| **CC‑A14‑0a** | `U.MethodDescription` / `U.WorkPlan` and other describing epistemes **MAY** participate in `partOf` only as `U.Episteme` nodes: content `ConstituentOf`, `PortionOf` when the epistemes themselves meet :5.1, or `PhaseOf` for a proper interval of one unchanged C.2.1 identity. A changed C.2.1 discriminator identifies another episteme; connect two such identities only through an independently obtaining `EpistemeEditionRelation`. They **MUST NOT** be asserted as `ut:StructPartOf` of any `U.System`. | Allows episteme structure and temporal restriction without smuggling Methods or automatic edition continuity into structure. |
 | **CC‑A14‑0b** | A collection-belonging relation **MUST NOT** be inferred or auto-rewritten as any `partOf` sub-relation. This non-inference does not prohibit a separately grounded constructive part relation for the same entities. | Separates collection belonging from parthood without assuming they can never coexist. |
 | **CC‑A14‑0c** | `SerialStepOf` / `ParallelFactorOf` **MUST NOT** appear in any `partOf` chain or table in A.14; model order and concurrency potential via **A.15** and direct method-composition patterns such as `B.1.5`. If a node linked by those relations is also a submethod, state that `U.Method` claim separately before using method holarchy. | Prevents the “order‑as‑structure” and “edge-as-part” category errors.       |
 
@@ -136,7 +136,7 @@ keywords:
 | Smell | Likely error | Fix |
 | --- | --- | --- |
 | “20% of the chassis” | A percentage substitutes for the structural or measured-extent predicate. | Establish ComponentOf for an integrated part; state a separate PortionOf claim for same-stuff extent under its measure and boundary conditions. The percentage alone establishes neither. |
-| “Chapter 2 is 15% of the book” | Content assembly and text measure are collapsed. | State the chapter's conceptual contribution as ConstituentOf and its measured text share as a separate PortionOf claim when their respective conditions hold. |
+| “Chapter 2 is 15% of the book” | Content assembly and text measure are collapsed. | State the chapter's conceptual contribution as ConstituentOf. Measure the chapter and book text in a selected expression; use PortionOf only when the measured entities independently meet :5.1. |
 | “Safety is an aspect of the design.” | Characteristic, concern, viewpoint, or structural aspect remains unresolved. | Recover the claim. Use AspectOf only with an identified aspect, bearer, facet rule, occurrence, and identity condition. |
 | “The dashboard slice is an aspect of the reactor.” | A view or projection is made into a world-side part. | Use the view, publication, or representation pattern; add AspectOf only for an independently established reactor aspect. |
 | “Spec v2 overlaps v1.” | A version label is asked to decide identity and phase. | Compare C.2.1 identities and test edition continuity; use PhaseOf only for one unchanged episteme over a proper interval. |
@@ -147,7 +147,7 @@ keywords:
 | Receiving use | Mereological hooks (what A.14 supplies) | Key effect |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | **System aggregation decision (B.1.2:4)** | Add measures of disjoint portions only under :5.1 and the selected whole-characteristic rule in B.1.2:4.4. Establish ComponentOf and boundary integration separately. AspectOf remains facet-local structural parthood; PhaseOf requires its own holon identity and temporal restriction. | Supports justified quantitative roll-up while preserving the distinct component, aspect and phase claims. |
-| **Γ\_epist (B.1.3)** | PortionOf of text or data uses a declared measure; ConstituentOf composes arguments or sections; AspectOf is available only for an independently admitted episteme-dependent structural aspect under a declared facet rule. A viewpoint, view, heading, or projection remains with E.17 or C.29. PhaseOf may restrict one unchanged episteme to a proper interval. | Preserves provenance and prevents description choices from creating episteme parts. |
+| **Γ\_epist (B.1.3)** | ConstituentOf composes claim-bearing parts such as arguments or sections. Measure text or data extent on its selected expression or carrier; a separate PortionOf claim requires :5.1. AspectOf is available only for an independently admitted episteme-dependent structural aspect under a declared facet rule. A viewpoint, view, heading, or projection remains with E.17 or C.29. PhaseOf may restrict one unchanged episteme to a proper interval. | Preserves provenance and prevents description choices from creating episteme parts. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** supplies proper temporal restrictions, including nested or overlapping windows. A separately selected partition supplies non-overlap and coverage only for its own cells. Order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs). | Ensures chronological consistency without turning every temporal restriction into one partition. |
 | **Γ\_method (B.1.5)** | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its `EntityOfConcern` is one admitted `U.Method` and it makes at least one substantive claim about that Method as a way of doing under A.3.2. A graph may represent those claims; use C.29 when a separate mathematical-representation choice, transfer, or reliance question remains. When a recipe refers to stuff-like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure. |
 | **Γ\_work (B.1.6)** | For a Work consumption claim such as “consumed 5 kg from Tank A”, identify the consumed fuel as a PortionOf the stock before consumption under its mass measure and boundary rule. | Connects the portion identity to the consumption delta; B.1.6 supplies the resource-balance account. |

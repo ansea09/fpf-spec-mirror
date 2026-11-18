@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.1.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-line_start: 42841
-line_end: 43052
+line_start: 42864
+line_end: 43075
 dependencies:
   - "A.1"
   - "A.10"
@@ -55,8 +55,8 @@ Typical moments:
 
 - If the current relation word is a mereology question, use `A.14`.
 - If the current part-whole claim needs constructional grounding, use `C.13`.
-- If the current object is architecture selected structure, use `A.22` and `C.30`.
-- If the current expression is mathematical-lens choice, use `C.29`.
+- For an architectural claim about a selected structure, use `A.22` and `C.30`.
+- To choose a mathematical representation, use `C.29`.
 - If the current question is performed work, use `A.15.1`.
 
 ### B.1.1:1 - Problem Frame

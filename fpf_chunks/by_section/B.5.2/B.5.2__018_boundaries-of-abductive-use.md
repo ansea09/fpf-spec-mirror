@@ -6,12 +6,12 @@ section_id: "B.5.2:17"
 section_title: "Boundaries of abductive use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__018_boundaries-of-abductive-use.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:17 — Boundaries of abductive use"
-line_start: 52096
-line_end: 52100
+line_start: 52125
+line_end: 52129
 dependencies:
   - "A.10"
   - "A.16"

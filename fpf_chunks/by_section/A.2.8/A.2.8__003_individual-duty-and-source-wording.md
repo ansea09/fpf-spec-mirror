@@ -6,12 +6,12 @@ section_id: "A.2.8:0.1"
 section_title: "Individual Duty and Source Wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_individual-duty-and-source-wording.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:0.1 — Individual Duty and Source Wording"
-line_start: 8485
-line_end: 8490
+line_start: 8497
+line_end: 8502
 dependencies:
   - "A.10"
   - "A.15.1"

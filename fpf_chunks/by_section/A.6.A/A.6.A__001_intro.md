@@ -6,12 +6,12 @@ section_id: "A.6.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:intro — Intro"
-line_start: 22740
-line_end: 22783
+line_start: 22752
+line_end: 22795
 dependencies:
   - "A.15"
   - "A.16"

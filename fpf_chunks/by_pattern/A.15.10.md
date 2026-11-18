@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.10.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.10 — Resume Work"
-line_start: 33777
-line_end: 33989
+line_start: 33793
+line_end: 34005
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -203,7 +203,7 @@ A continuation depends on more than a position. Purpose selects what matters, th
 
 Preparing a cue and resuming later are temporally related contributions. During continuation, applying the subject method and regulating the return can contribute simultaneously to the encompassing work.
 
-Their occurrence does not by itself establish Method parthood; use B.1.5 when that relation matters. A longer interruption and a higher method level are also different distinctions.
+Their occurrence does not by itself establish Method parthood; use B.1.5 when that relation matters.
 
 Configuration recovery testing asks whether a dependency withstands a condition; this method supplies the ordinary preparation and reconstruction that can be performed or tested. A configuration test is not a mandatory predecessor of every return.
 

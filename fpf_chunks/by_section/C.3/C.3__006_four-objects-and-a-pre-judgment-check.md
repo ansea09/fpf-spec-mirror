@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Four Objects and a Pre-judgment Check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_four-objects-and-a-pre-judgment-check.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Four Objects and a Pre-judgment Check"
-line_start: 57545
-line_end: 57559
+line_start: 57554
+line_end: 57568
 dependencies:
   - "A.1"
   - "A.11"
@@ -55,7 +55,7 @@ Keep these four objects separately recoverable:
 | classification judgment | One evaluation for an admissible exact candidate, kind, signature edition, and context slice with result `true`, `false`, or `unknown`. It is not a direct relation occurrence by default. | `C.3.2` |
 | `KindExtension(k, slice)` | An optional set-valued representation of candidates whose admissible judgment is `true` for the fixed signature edition and slice. | `C.3.2`; `C.29` when a separate mathematical representation or transfer issue affects the use |
 
-Before the judgment, C.3.2 returns `admissible` or `not-applicable`. Candidate mismatch with the declared `ValueKind`, or a slice outside declared applicability, is `not-applicable` and no three-valued judgment is formed. Missing support or an unavailable dependency for an admissible candidate instead yields `unknown`.
+Before the judgment, C.3.2 returns `admissible` or `not-applicable`. Candidate mismatch with the declared `ValueKind`, or a slice outside declared applicability, is `not-applicable` and no three-valued judgment is formed. For an admissible candidate, return `unknown` when the available grounds leave the criterion unsettled.
 
 The kind does not carry scope. A `KindSignature` episteme may carry its own `U.ClaimScope`, and a separate classification assertion carries the scope of that assertion. The `U.ContextSlice` is an evaluation input.
 

@@ -6,12 +6,12 @@ section_id: "C.17:10"
 section_title: "Manager quick start"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__012_manager-quick-start.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:10 — Manager quick start"
-line_start: 63472
-line_end: 63494
+line_start: 63495
+line_end: 63517
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,10 +50,10 @@ keywords:
 
 ### C.17:10 - Manager quick start
 
-1. Name the bearer, comparison corpus, objective, and must-criteria.
+1. Identify the bearer and what the receiver needs to judge. Name the reference for novelty, the objective for usefulness or the applicable condition for eligibility.
 2. State the smallest supported difference and consequence; stop if that answers the question.
 3. When numbers matter, select the space and specification and build each coordinate through C.16 or C.2.1.
-4. Compare with declared gates and a partial order; keep incomparability visible. When a retained set matters, report its declared `Diversity_P` or other needed set reading without turning that reading into selection policy.
+4. For a comparison of profiles, apply the declared eligibility and dominance rules. Preserve open comparisons and established incomparability. When a retained set matters, report its declared `Diversity_P` or other needed set reading.
 5. Pass generation or retention questions to C.18, pool-policy questions to C.19, selector-facing declarations to G.5, and choice questions to C.11, with the result references each needs.
 
 #### C.17:10.1 - Optional one-page comparison brief

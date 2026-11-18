@@ -6,12 +6,12 @@ section_id: "C.28.CM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:intro — Intro"
-line_start: 71714
-line_end: 71719
+line_start: 71741
+line_end: 71746
 dependencies:
   - "A.15.9"
   - "B.5.2"

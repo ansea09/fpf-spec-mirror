@@ -6,12 +6,12 @@ section_id: "A.6.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:7 — Conformance Checklist"
-line_start: 17283
-line_end: 17302
+line_start: 17295
+line_end: 17314
 dependencies:
   - "A.15.1"
   - "A.17"

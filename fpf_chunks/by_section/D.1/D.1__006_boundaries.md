@@ -6,12 +6,12 @@ section_id: "D.1:3"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__006_boundaries.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:3 — Boundaries"
-line_start: 96338
-line_end: 96351
+line_start: 96366
+line_end: 96379
 dependencies:
   - "A.1"
   - "A.1.CSD"

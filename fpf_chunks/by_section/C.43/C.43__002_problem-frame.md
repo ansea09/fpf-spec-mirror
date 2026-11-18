@@ -6,12 +6,12 @@ section_id: "C.43:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:1 — Problem frame"
-line_start: 94958
-line_end: 94975
+line_start: 94986
+line_end: 95003
 dependencies:
   - "A.12"
   - "C.11"

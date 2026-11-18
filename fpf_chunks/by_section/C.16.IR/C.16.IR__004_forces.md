@@ -6,12 +6,12 @@ section_id: "C.16.IR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__004_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:3 — Forces"
-line_start: 61730
-line_end: 61740
+line_start: 61749
+line_end: 61759
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

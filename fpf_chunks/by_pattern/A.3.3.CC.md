@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.CC.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
-line_start: 12741
-line_end: 12952
+line_start: 12753
+line_end: 12964
 dependencies:
   - "A.17"
   - "A.18"
@@ -209,7 +209,7 @@ Constraint-based construction connects the subject's arrangement to the mathemat
 
 The result can be useful before a transition law exists. Keeping that stopping point allows division of work: one participant constructs the configuration description, another supplies interaction or operation rules, and another computes a receiving result. Their contributions remain connected through interpretable participant values and conditions.
 
-Implicit descriptions, parametrizations and finite enumeration expose different operations. Treating one as universally preferable would make the Method fail on either constrained geometry or a small discrete problem. The representation can be refined at the scale its use needs. C.29.1 handles the more general transfer between accounts; here the construction specifically obtains compatible arrangements.
+Implicit descriptions, parametrizations and finite enumeration expose different operations. Treating one as universally preferable would make the Method fail on either constrained geometry or a small discrete problem. C.29.1 handles the more general transfer between accounts; here the construction specifically obtains compatible arrangements.
 
 ### A.3.3.CC:11 - SoTA-Echoing
 

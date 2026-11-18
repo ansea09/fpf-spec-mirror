@@ -6,12 +6,12 @@ section_id: "E.5.2.L:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2.L/E.5.2.L__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.5.2.L — Languages, Expressions and Interpretation"
   - "E.5.2.L:6 — Bias-Annotation"
-line_start: 102174
-line_end: 102177
+line_start: 102220
+line_end: 102223
 dependencies:
   - "A.6.3.RT"
   - "C.2.1"

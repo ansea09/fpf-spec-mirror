@@ -6,12 +6,12 @@ section_id: "C.39.WI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:7 — Conformance Checklist"
-line_start: 88486
-line_end: 88498
+line_start: 88514
+line_end: 88526
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

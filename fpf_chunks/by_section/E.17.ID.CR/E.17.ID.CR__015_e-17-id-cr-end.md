@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:End"
 section_title: "E.17.ID.CR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__015_e-17-id-cr-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:End — E.17.ID.CR:End"
-line_start: 116340
-line_end: 116341
+line_start: 116388
+line_end: 116389
 dependencies:
   - "A.15"
   - "A.15.2"

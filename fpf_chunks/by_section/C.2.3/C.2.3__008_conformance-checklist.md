@@ -6,12 +6,12 @@ section_id: "C.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:7 — Conformance Checklist"
-line_start: 55552
-line_end: 55569
+line_start: 55573
+line_end: 55590
 dependencies:
   - "A.16"
   - "A.18"
@@ -41,7 +41,7 @@ keywords:
 - `CC-F-2` A local ordinal summary **SHALL** declare its scale and mapping. Arithmetic over its levels is invalid unless a separately justified quantitative scale is established.
 - `CC-F-3` A claim of greater formality **SHALL** name the strengthened property or declared order. It **SHALL NOT** imply greater truth, trust or scope by itself.
 - `CC-F-4` Status, maturity or tool labels **MUST NOT** substitute for the assessment of expression properties.
-- `CC-F-5` A local refinement or sublevel **SHALL** preserve its declared parent criteria; a cross-scale comparison requires an explicit meaning-preserving basis.
+- `CC-F-5` A subdivision of a local formality scale **SHALL** retain the criteria for the level it subdivides. Comparing levels on different scales requires a basis that preserves the meaning of the properties being compared.
 - `CC-F-6` A composite assessment **SHALL** cover the essential content and inferences of the named whole. It **SHALL NOT** inherit a property from constituents without the composition preserving that property.
 - `CC-F-7` Implementations **MUST NOT** average unrelated formality properties or local ranks into an undeclared score.
 - `CC-F-8` Changes in G, R or CL **SHALL NOT** change an expression assessment unless its own grounds change.

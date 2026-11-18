@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:4 — Solution"
-line_start: 97999
-line_end: 98245
+line_start: 98027
+line_end: 98273
 dependencies:
   - "C.20"
   - "C.33"
@@ -268,7 +268,7 @@ For a durable ecosystem-architecture answer, use the following operations as the
 
 When placing a foundational contribution, identify what would settle a disagreement about it. Give a Core rule the premises its users need. If several Core definitions depend on one commitment and their separate passages cannot reliably keep it consistent, state it once in Core and refer to it from those definitions. Put a method of deriving those premises or testing their physical interpretation with the discipline that can correct it. A separate edition earns its place when independent consumers must adopt the same commitments and check compatibility as they change. A reading order can be supplied in the Reference. Use B.5.MR when the claim concerns refinement or abstraction between models.
 
-Models supplied by Core, DPFs and LPFs can form a chain of levels of model abstraction when their assertions and interpretations establish the B.5.MR comparison for the receiving inquiry. A formal construction, transdisciplinary principle, disciplinary model and local model may participate in that chain. Their containing publications are not themselves successive model completions, and a Suite's location does not set the abstraction level of every assertion it carries. A method for testing a physical interpretation remains with the discipline that can correct it even when its result supplies a premise used in Core.
+Core, DPFs and LPFs can supply models at several levels. When each pair passes the B.5.MR comparison for the same inquiry, read the chain from a formal construction through a transdisciplinary principle, a disciplinary model and a local model towards an individual model as **levels of model refinement**. In reverse, read **levels of model abstraction**. A DPF can carry a foundational construction as well as a disciplinary model. A method for testing a physical interpretation belongs with the discipline that can correct it, even when its result supplies a premise for Core.
 
 Use this routing table when a proposed change is ambiguous. Its rows are common routes, not a closed taxonomy:
 

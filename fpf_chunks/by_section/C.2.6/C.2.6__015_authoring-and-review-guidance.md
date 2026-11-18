@@ -6,12 +6,12 @@ section_id: "C.2.6:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__015_authoring-and-review-guidance.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:14 — Authoring and Review Guidance"
-line_start: 56635
-line_end: 56645
+line_start: 56642
+line_end: 56652
 dependencies:
   - "A.10"
   - "A.16"

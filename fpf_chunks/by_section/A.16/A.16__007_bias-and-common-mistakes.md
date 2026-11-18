@@ -6,12 +6,12 @@ section_id: "A.16:6"
 section_title: "Bias and common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__007_bias-and-common-mistakes.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:6 — Bias and common mistakes"
-line_start: 35018
-line_end: 35033
+line_start: 35034
+line_end: 35049
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 A.16 biases authors toward typed movement and away from “it naturally matured.” Make the move recoverable in sufficient existing content; add a note only for information the receiving use would otherwise lose.
 
 - **Trajectory-wrapper inflation.** Do not wrap every move in A.16.0.
-- **Pattern-as-form or form-face collapse.** A pattern, publication form, episteme, occurrence, carrier, and MVPK face remain different.
+- **Presentation substituted for content.** Selecting an MVPK face does not establish conformance to the cue or route form. Recover the expression and applicable rules; keep the episteme, form, publication occurrence and carrier distinct under E.24.PUB.
 - **Identity laundering.** A new form is not automatically a new episteme; changed C.2.1 content cannot be hidden as reformatting.
 - **Irreversible maturity story.** Reopen, sketch-backoff, respecify, and retire are admissible.
 - **Route/fork confusion.** Several routes in one publication are not separate successor epistemes.

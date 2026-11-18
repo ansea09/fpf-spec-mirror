@@ -6,12 +6,12 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 103423
-line_end: 103472
+line_start: 103469
+line_end: 103518
 dependencies:
   - "E.10"
   - "E.10.MOVE"

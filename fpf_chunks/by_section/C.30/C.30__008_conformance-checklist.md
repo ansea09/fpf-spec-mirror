@@ -6,12 +6,12 @@ section_id: "C.30:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:7 — Conformance Checklist"
-line_start: 75208
-line_end: 75222
+line_start: 75235
+line_end: 75249
 dependencies:
   - "A.1"
   - "A.10"

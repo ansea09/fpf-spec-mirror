@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__010_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:6 — Bias-Annotation"
-line_start: 37845
-line_end: 37851
+line_start: 37866
+line_end: 37872
 dependencies:
   - "A.0"
   - "A.19"

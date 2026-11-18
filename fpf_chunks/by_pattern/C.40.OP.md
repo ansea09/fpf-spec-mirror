@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OP.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
-line_start: 92385
-line_end: 92596
+line_start: 92413
+line_end: 92624
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -104,7 +104,7 @@ A path can preserve alternatives without selecting a programme. Human capability
 
 Preserve materially different candidates, including conditional directions and a useful baseline, when their retention reasons remain current. Keep a candidate ruled out for this use outside its live opportunity set, with enough explanation to avoid rediscovering the same defeated claim. Preserve other uses separately when their basis remains supported. A historical record can remain useful without being a live option.
 
-Use a comparison only for the question it answers. A result about non-domination requires a declared comparator, complete relevant coordinates, and admissibility basis. A retained candidate need not be non-dominated now. Different contribution premises or horizons may support only a partial comparison; do not invent one scalar ranking to make the portfolio look settled.
+Use a comparison for the question it answers. To establish non-domination, identify the eligible rivals and the declared comparator. For each rival, use supported values, bounds or another justified comparison to rule out its dominating the candidate. Name any rival whose unresolved comparison could change front membership. A useful stepping stone can be retained on the strength of what it enables. Different premises or horizons may support only a partial comparison.
 
 Make resource interactions visible when retention itself competes for scarce attention, expertise, access, or maintenance. If the available retention allowance cannot support the set, return the needed allocation or reduction decision to its authorized owner. Meanwhile, describe only what the available maintenance supports. Do not silently make every member “available” by naming it in the portfolio.
 

@@ -6,12 +6,12 @@ section_id: "E.2:7"
 section_title: "Conformance Checklist — BLP"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__008_conformance-checklist-blp.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:7 — Conformance Checklist — BLP"
-line_start: 97453
-line_end: 97473
+line_start: 97481
+line_end: 97501
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,7 +46,7 @@ keywords:
 | ------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | **CC‑BLP.1** | An activated comparison declares the α/δ tolerances, units and receiving conditions it uses, directly or through a policy profile. | Makes the comparison reproducible. |
 | **CC‑BLP.2** | A Scale-Audit is required only when selected by the claim/risk or an independently applicable profile; it retains BLP-1a–e responses, uncertainty and pins. | Matches audit burden to the claimed use. |
-| **CC‑BLP.3** | A scale-based selection cites BLP-2 and the applicable precedence rules; non-dominance yields no scale preference unless a separate local policy decides it. | Separates evidence from policy preference. |
+| **CC‑BLP.3** | A scale-based comparison identifies the BLP-2 result and the applicable precedence rules. Retain `no scale-based preference` and its grounds when equivalence or a trade-off is established or the ordering remains open. If a local rule also decides the choice, record that decision and its separate basis. | Keeps the performance comparison available after the project chooses. |
 | **CC‑BLP.4** | A heuristic meeting BLP-4's activated debt conditions is logged with scope, review, expiry and de-hardening plan. | Keeps durable overrides inspectable. |
 | **CC‑BLP.5** | Prescription form follows the task/control requirement; adaptation follows its product policy, permission, change authority and guards. | Preserves warranted procedures and bounded autonomy. |
 | **CC‑BLP.6** | Decision-material resource accounts use A.15.1, A.15.2, B.1.6, C.16 and A.10; an assurance claim uses B.3. A separately activated stronger profile retains its required accounts and oversight. | Preserves applicable resource and assurance duties. |

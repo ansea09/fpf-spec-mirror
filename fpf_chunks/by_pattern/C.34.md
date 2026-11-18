@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.34.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
-line_start: 84884
-line_end: 85092
+line_start: 84912
+line_end: 85120
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

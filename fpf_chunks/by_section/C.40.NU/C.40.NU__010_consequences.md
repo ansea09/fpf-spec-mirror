@@ -6,12 +6,12 @@ section_id: "C.40.NU:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:9 — Consequences"
-line_start: 91686
-line_end: 91691
+line_start: 91714
+line_end: 91719
 dependencies:
   - "C.17"
   - "C.18"

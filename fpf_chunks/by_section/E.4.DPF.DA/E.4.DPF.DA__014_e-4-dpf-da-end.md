@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:End"
 section_title: "E.4.DPF.DA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__014_e-4-dpf-da-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:End — E.4.DPF.DA:End"
-line_start: 101051
-line_end: 101052
+line_start: 101079
+line_end: 101080
 dependencies:
   - "A.1.1"
   - "A.10"

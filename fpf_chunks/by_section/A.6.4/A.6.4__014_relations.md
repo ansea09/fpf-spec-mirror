@@ -6,12 +6,12 @@ section_id: "A.6.4:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:13 — Relations"
-line_start: 20858
-line_end: 20863
+line_start: 20870
+line_end: 20875
 dependencies:
   - "A.10"
   - "A.15"

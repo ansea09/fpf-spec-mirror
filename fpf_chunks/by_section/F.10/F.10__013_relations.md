@@ -6,12 +6,12 @@ section_id: "F.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:12 — Relations"
-line_start: 130404
-line_end: 130411
+line_start: 130457
+line_end: 130464
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.16.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:5 — Archetypal Grounding"
-line_start: 35476
-line_end: 35482
+line_start: 35492
+line_end: 35498
 dependencies:
   - "A.16"
   - "A.16.0"

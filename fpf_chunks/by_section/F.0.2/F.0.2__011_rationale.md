@@ -6,12 +6,12 @@ section_id: "F.0.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:10 — Rationale"
-line_start: 126179
-line_end: 126184
+line_start: 126232
+line_end: 126237
 dependencies:
   - "A.2.4"
   - "C.2.1"

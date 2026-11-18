@@ -6,12 +6,12 @@ section_id: "C.3.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:0 — Use This When"
-line_start: 57843
-line_end: 57856
+line_start: 57852
+line_end: 57865
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -37,7 +37,7 @@ Use this pattern when repeated typed reasoning needs one explicit kind criterion
 
 **Primary EntityOfConcern.** One classification use: candidate, kind, `KindSignature` edition, context slice, pre-judgment admissibility, and—only when admissible—the judgment value.
 
-**First useful move.** Write the readable result first: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Before evaluating, confirm that a pump candidate and this slice are within the declaration's candidate domain and applicability. Cite support only when the receiving use relies on it; create a reusable signature or extension only for repeated or set-consuming use.
+**First useful move.** Write the readable result first: For this plant’s operating report, a cooling pump is a pump circulating coolant through the heat exchanger during the reporting interval. The circuit connections and the interval’s flow reading establish that Pump #14 did so. Before evaluating, confirm that a pump candidate and this slice are within the declaration's candidate domain and applicability. Cite support only when the receiving use relies on it; create a reusable signature or extension only for repeated or set-consuming use.
 
 **Not this pattern when.** Use the direct subject pattern to establish the candidate and the quality, relation, episteme, status, publication occurrence, or other condition named by the criterion; A.14 for membership in a collection; C.3.3 for a claimed correspondence between distinct kinds; C.29 for a separate mathematical representation or transfer question; and `E.24.UK` for admission of another durable public kind.
 

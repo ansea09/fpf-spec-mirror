@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__004_policy-clauses-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative)"
-line_start: 64557
-line_end: 64603
+line_start: 64584
+line_end: 64630
 dependencies:
   - "A.0"
   - "A.10"
@@ -58,7 +58,7 @@ When the scale claim is current, choose evidence proportional to the bearer, sta
 - (g) **Claim-matched tests:** use knee or budget-constrained regret tests only when the asserted advantage depends on a knee or dominance inside the audited window.
 
 **BLP-2 — Preference rule with alpha and delta tolerances.**
-Among admissible options with comparable budgets, using `alpha` when a tolerance is needed, and comparable assurance under any applicable `delta` when an assurance result is material to this use, a scale-based preference is warranted when one option’s response over the audited range Pareto-dominates the other’s, with uncertainty accounted for. Apply any required assurance condition; a comparison that consumes no assurance result does not create one merely to fill `delta`. If no option dominates within the evidence bounds, `C.19.1` returns `no scale-based preference`; it does not turn greater generality into an empirical winner. A separately declared project policy may break that tie in favor of a more general bearer, but the result shall be labeled as that local policy or analogy, not as the empirical Bitter Lesson, and its E/E-LOG tie-breaker and edition shall be cited. For an agentic use, keep any alpha and delta values in the C.19.1 comparison, local-policy or waiver result consumed by the C.24 CallPlan.
+Among admissible options at comparable budgets, evaluate the performance contrast at the points and on the objectives that matter to the receiving choice. Apply `alpha` when a tolerance is needed and `delta` when the use depends on an assurance comparison. Account for uncertainty in the contrast, including dependence when the runs are paired. A scale-based preference over the audited range requires established Pareto dominance there. If the responses are equivalent under the comparison rule, each wins on a different point or objective, or the evidence still admits materially different orderings, report `no scale-based preference` and say which of these conclusions is supported. A separately declared local policy can decide only the cases covered by its terms. Cite the policy and its E/E-LOG edition for that choice. For an agentic use, keep the applicable `alpha` and `delta` in the comparison, local-policy or waiver result consumed by the C.24 CallPlan.
 > **BLP‑2.1 — Valid waiver grounds (override transparency).**
 >
 > Overrides of a declared local generality preference are allowed **only** when:

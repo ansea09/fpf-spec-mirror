@@ -6,12 +6,12 @@ section_id: "D.2:5"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__008_archetypal-grounding-worked-slice.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:5 — Archetypal Grounding (Worked Slice)"
-line_start: 96529
-line_end: 96538
+line_start: 96557
+line_end: 96566
 dependencies:
   - "A.1"
   - "A.15"

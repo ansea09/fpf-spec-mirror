@@ -6,12 +6,12 @@ section_id: "G.2:End"
 section_title: "G.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__014_g-2-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:End — G.2:End"
-line_start: 136733
-line_end: 136736
+line_start: 136790
+line_end: 136793
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

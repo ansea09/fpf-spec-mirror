@@ -6,12 +6,12 @@ section_id: "B.5.FM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:6 — Bias-Annotation"
-line_start: 50689
-line_end: 50694
+line_start: 50718
+line_end: 50723
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

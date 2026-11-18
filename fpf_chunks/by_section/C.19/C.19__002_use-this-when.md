@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0 — Use this when"
-line_start: 64072
-line_end: 64108
+line_start: 64097
+line_end: 64133
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -76,7 +76,7 @@ If a proposed pool-policy premise is expressed as *learning progress*, informati
 
 For loop-engineering practice, use this first output only when the question is pool policy over live candidates such as loops, harnesses, workflows, method families, or framework seeds. A `C.19` record may say that the pool should widen, keep its frontier, narrow to an internal subset, or sunset a line under a declared lens. If the question leaves pool policy, retain the established result or qualified open question and use the handoff in `C.19:4.4`.
 
-The first useful output states the live pool, governing lens or policy, treatment and the event that would justify changing it. A sufficient ordinary explanation can complete that result. When recording it for reuse, use `governingLens` and one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`. If another question has become current, set `nextQuestionPatternLocator` from `C.19:4.4` instead of inventing another `currentTreatment`.
+When a treatment is supported, state the live pool, governing policy, treatment and the event that would justify changing it. A sufficient ordinary explanation can complete that result. To record it for reuse, use `governingLens` and one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`. When a missing fact or commitment can change the treatment, report what is established and identify what would settle the choice. Use `nextQuestionPatternLocator` from `C.19:4.4` when another question has become current.
 
 A claim-bearing account of the pool treatment is an episteme under `C.2.1`; identify its EntityOfConcern and claim content when that identity matters. An existing adequate account can supply it.
 

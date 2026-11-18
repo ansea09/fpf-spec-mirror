@@ -6,12 +6,12 @@ section_id: "A.2.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8755
-line_end: 8767
+line_start: 8767
+line_end: 8779
 dependencies:
   - "A.10"
   - "A.15.1"

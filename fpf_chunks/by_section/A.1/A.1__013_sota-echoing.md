@@ -6,7 +6,7 @@ section_id: "A.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__013_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:11 — SoTA-Echoing"

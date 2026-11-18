@@ -6,12 +6,12 @@ section_id: "C.26.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__003_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:2 — Problem"
-line_start: 69453
-line_end: 69460
+line_start: 69480
+line_end: 69487
 dependencies:
   - "A.10"
   - "A.15"

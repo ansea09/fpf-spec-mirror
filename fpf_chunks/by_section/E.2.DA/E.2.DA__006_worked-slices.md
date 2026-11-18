@@ -6,12 +6,12 @@ section_id: "E.2.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__006_worked-slices.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:5 — Worked slices"
-line_start: 97692
-line_end: 97703
+line_start: 97720
+line_end: 97731
 dependencies:
   - "A.19.ECS"
   - "E.10"

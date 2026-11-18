@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
-line_start: 74572
-line_end: 75278
+line_start: 74599
+line_end: 75305
 dependencies:
   - "A.1"
   - "A.10"

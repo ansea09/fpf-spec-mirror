@@ -6,12 +6,12 @@ section_id: "A.6.F:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:7 — Conformance Checklist"
-line_start: 23708
-line_end: 23723
+line_start: 23720
+line_end: 23735
 dependencies:
   - "A.10"
   - "A.15"

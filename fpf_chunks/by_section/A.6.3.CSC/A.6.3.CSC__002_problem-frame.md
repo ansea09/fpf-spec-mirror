@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:1 — Problem frame"
-line_start: 18681
-line_end: 18705
+line_start: 18693
+line_end: 18717
 dependencies:
   - "A.15"
   - "A.20"
@@ -53,5 +53,5 @@ When the result must travel independently or endpoint or construction identity m
 State the use limit and return through the distinction that was lost or weakened, or the additional support the proposed use requires. Apply `F.19:4` when deciding whether an explicit warning or denied downstream use helps the intended reader. A positive narrower-use statement may already make the boundary clear; the underlying admissibility condition remains in force.
 
 
-**Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT for a representation-medium change whose material issue is the scheme; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9 for a Bridge and its separately stated bounded-use claim; F.9.1 only for a separate stance note about such a claim; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
+**Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT when the receiving operation depends on a change of representation language or reasoning medium; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9 for a Bridge and its separately stated bounded-use claim; F.9.1 only for a separate stance note about such a claim; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
 

@@ -6,12 +6,12 @@ section_id: "D.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__010_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:6 — Conformance Checklist"
-line_start: 96548
-line_end: 96556
+line_start: 96576
+line_end: 96584
 dependencies:
   - "A.1"
   - "A.15"

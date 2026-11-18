@@ -6,12 +6,12 @@ section_id: "E.9:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:7 — Conformance Checklist"
-line_start: 104326
-line_end: 104358
+line_start: 104372
+line_end: 104404
 dependencies:
   - "A.10"
   - "A.15.1"

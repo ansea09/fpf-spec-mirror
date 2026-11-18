@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.DA.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
-line_start: 97511
-line_end: 97787
+line_start: 97539
+line_end: 97815
 dependencies:
   - "A.19.ECS"
   - "E.10"

@@ -6,12 +6,12 @@ section_id: "G.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:1 — Problem frame"
-line_start: 139205
-line_end: 139210
+line_start: 139262
+line_end: 139267
 dependencies:
   - "A.10"
   - "A.21"

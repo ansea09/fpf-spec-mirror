@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:4 — Solution"
-line_start: 55809
-line_end: 55874
+line_start: 55830
+line_end: 55888
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -96,14 +96,7 @@ For this pattern, a published facet profile is reviewable when:
 A polished label, one strong facet, or one memorable route note does not by itself yield an admissible profile reading. The profile remains conformant only when the named facets stay explicit and decomposable.
 
 #### C.2.LS:4.3 - Composite readings
-A language-state judgement may be composite, but the composite shall be decomposable. For example, a cue may be:
-
-- low `AE`,
-- medium `CD`,
-- derived from an identified trace, with any evidential use separately qualified,
-- and representation-wise mixed rather than purely symbolic.
-
-A conforming profile makes this decomposition visible rather than hiding it under one stage label such as "early" or "raw".
+For a diagnostic note, ask what the wording lets a reader identify and which explanations the observations still permit. A note can name two sensors, their readings and the time window precisely while leaving both a calibration fault and a sampling delay open. Cite the trace from which the readings were derived. If the decision also depends on how the sensor encodes them, inspect that encoding. A table listing the two readings can supply the user with symbolic labels while leaving the internal code unknown.
 
 #### C.2.LS:4.4 - Corridor map note
 For a map of the related language-state patterns, see `C.2.2a:15`.

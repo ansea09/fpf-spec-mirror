@@ -6,12 +6,12 @@ section_id: "E.14:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__013_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:10 — Consequences"
-line_start: 112376
-line_end: 112384
+line_start: 112424
+line_end: 112432
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -26,7 +26,7 @@ keywords:
 
 | Benefits | Trade-offs and mitigations |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Human-first clarity.** Readers see the **Working-Model layer** as the canonical publication form. Direct claims carry no assurance fields by default; selected assurance remains purpose-driven and below the claims. | **Extra author discipline only when assurance is current.** Declaring the required posture and writing a short grounding account takes effort; the authoring template and style guide keep that addition bounded. |
+| **Human-first clarity.** Readers see the readable **Working-Model claims** first. Direct claims carry no assurance fields by default; selected assurance remains purpose-driven and below the claims. | **Extra author discipline only when assurance is current.** Declaring the required posture and writing a short grounding account takes effort; the authoring template and style guide keep that addition bounded. |
 | **Progressive assurance.** Teams can start with the direct claim and add Mapping, Logical, Constructive, or Empirical support as needed without changing the visible relation. | **Risk of “forever-light.”** Some models may remain weakly assured; formal maturity checks and assurance prompts show where risk warrants more support. |
 | **Layer hygiene.** Order and temporal claims remain distinct from parthood, while independently grounded Work parts and proper phases remain admissible. | **Split attention.** Authors must learn to keep relation families distinct; mitigated by the Tell-Show-Show pedagogy across architectural patterns. |
 | **Spec cohesion.** The same section order and safety subsections (Bias‑Annotation, Conformance Checklist) keep patterns comparable and auditable.             | **Tighter prose.** Patterns grow by a few concise checks; mitigated by the canonical template.                                                                               |

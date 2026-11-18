@@ -6,12 +6,12 @@ section_id: "C.29.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:4 — Solution"
-line_start: 74042
-line_end: 74139
+line_start: 74069
+line_end: 74166
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -53,7 +53,7 @@ Use the available premises for a conditional design. An assertion about a perfor
 
 #### C.29.3:4.2 - Construct input preparation
 
-Explain how a required input is set in the system. Identify the physical or operational state that represents it: a stored value, an applied signal, an arranged material stock or another prepared condition.
+Explain how a required input is set in the system. Identify the state of the executing arrangement that represents it: a stored value, an applied signal, an arranged material stock or another prepared condition.
 
 Determine the admitted range and the relevant distinctions. A signed field has a finite range. A voltage input has units and a reference. A stock of three exclusive cards differs from two independent stocks of three. Recover initial state when the input is interpreted relative to it.
 

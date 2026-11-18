@@ -6,12 +6,12 @@ section_id: "C.32.ACS:End"
 section_title: "C.32.ACS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__014_c-32-acs-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:End — C.32.ACS:End"
-line_start: 81770
-line_end: 81771
+line_start: 81798
+line_end: 81799
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 114885
-line_end: 114928
+line_start: 114933
+line_end: 114976
 dependencies:
   - "A.10"
   - "A.15.4"

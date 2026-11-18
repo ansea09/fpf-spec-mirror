@@ -6,12 +6,12 @@ section_id: "C.2.6:13"
 section_title: "Worked Examples and Bridge-Loss Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__014_worked-examples-and-bridge-loss-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:13 — Worked Examples and Bridge-Loss Cases"
-line_start: 56620
-line_end: 56634
+line_start: 56627
+line_end: 56641
 dependencies:
   - "A.10"
   - "A.16"

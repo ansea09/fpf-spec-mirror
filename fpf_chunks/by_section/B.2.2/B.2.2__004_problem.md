@@ -6,12 +6,12 @@ section_id: "B.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__004_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:2 — Problem"
-line_start: 45788
-line_end: 45797
+line_start: 45815
+line_end: 45824
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,5 +48,5 @@ When system recognition and the claims about the new whole are conflated:
 2. **System claims become rhetoric.** A collective name is used in place of System-recognition grounds or of the additional facts that the claim needs, such as an objective, coordination relation, or capability envelope.
 3. **Supervision is overread.** A coordination mechanism is treated as a containing whole, safety warrant, or system recognition without the corresponding facts.
 4. **Transformation is confused with containment.** One system changing another holon is treated as part-whole construction instead of transformation and work.
-5. **Architecture description replaces architecture.** Dashboards, diagrams, simulations, bills, and digital twins are treated as the operating system rather than descriptions of it.
+5. **Representation is mistaken for the represented system.** Dashboards, diagrams, simulations, bills, and digital twins are identified with the system they represent.
 

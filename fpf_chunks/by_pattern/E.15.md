@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
-line_start: 112435
-line_end: 112687
+line_start: 112483
+line_end: 112735
 dependencies:
   - "C.18"
   - "C.19"

@@ -6,12 +6,12 @@ section_id: "A.15.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__003_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:2 — Problem"
-line_start: 32270
-line_end: 32275
+line_start: 32286
+line_end: 32291
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,5 +43,5 @@ keywords:
 
 The same happening can be approached through three legitimate concerns. A project manager may need the identity, cost, completion, or result of one Work whole, but a result or measure remains its own subject when that is what the claim asserts. A process engineer may need one reusable `U.Method`, one A.22-selected `U.Structure` whose organization changes the next question or action, or a `TransformationFlowStructure`. A case worker may need to follow one named subject or claim to a bounded closure while keeping any relevant downstream use outside that closure.
 
-Treating these concerns as three views of one unspecified "project situation" loses the subjects. Treating them as three sibling kinds duplicates ontics already supplied by `U.Work`, `U.Method`, `U.Transformation`, selected structures, epistemes, characteristic bearers and assignments, relation occurrences, and continuing referents. The engineering problem is to recover the subject or claim and its direct relations while keeping familiar Plain wording available for retrieval.
+Treating these concerns as three views of one unspecified "project situation" loses the subjects. Treating them as three sibling kinds duplicates ontics already supplied by `U.Work`, `U.Method`, `U.Transformation`, selected structures, epistemes, characteristic bearers and assignments, relation occurrences, and continuing referents. The problem is to recover the subject or claim and its direct relations while keeping familiar Plain wording available for retrieval.
 

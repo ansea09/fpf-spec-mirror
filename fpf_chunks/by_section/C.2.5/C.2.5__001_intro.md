@@ -6,12 +6,12 @@ section_id: "C.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:intro — Intro"
-line_start: 56297
-line_end: 56310
+line_start: 56304
+line_end: 56317
 dependencies:
   - "A.16"
   - "A.16.0"

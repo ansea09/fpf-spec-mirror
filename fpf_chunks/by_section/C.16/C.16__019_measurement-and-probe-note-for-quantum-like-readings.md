@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__019_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 61460
-line_end: 61486
+line_start: 61479
+line_end: 61505
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ Use C.16 first when the object is a sensor reading, survey response, dashboard v
 
 Recover the ordinary measurement chain first:
 
-1. name the measurand or subject, Characteristic, Scale, value or Level, applicable Unit and time stance; identify preference only when the use evaluates the result;
+1. identify the subject and the quantity or other Characteristic measured, then the Scale, value or Level, applicable Unit and time stance. State a preference when the use evaluates the result;
 2. separate reusable method and model from dated work and actual bindings;
 3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
 4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and

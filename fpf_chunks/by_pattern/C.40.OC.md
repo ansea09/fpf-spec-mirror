@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OC.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
-line_start: 91227
-line_end: 91519
+line_start: 91255
+line_end: 91547
 dependencies:
   - "C.11.CRC"
   - "C.16"

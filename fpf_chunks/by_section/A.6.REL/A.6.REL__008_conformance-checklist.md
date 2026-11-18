@@ -6,12 +6,12 @@ section_id: "A.6.REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:7 — Conformance Checklist"
-line_start: 16749
-line_end: 16764
+line_start: 16761
+line_end: 16776
 dependencies:
   - "A.6.0"
   - "A.6.5"

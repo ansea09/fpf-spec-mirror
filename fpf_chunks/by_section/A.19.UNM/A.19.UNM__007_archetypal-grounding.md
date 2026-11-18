@@ -6,12 +6,12 @@ section_id: "A.19.UNM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__007_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:5 — Archetypal Grounding"
-line_start: 39254
-line_end: 39284
+line_start: 39277
+line_end: 39307
 dependencies:
 keywords:
   - "CV→NCV"

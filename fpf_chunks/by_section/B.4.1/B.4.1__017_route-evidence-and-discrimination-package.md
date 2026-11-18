@@ -6,12 +6,12 @@ section_id: "B.4.1:20"
 section_title: "Route Evidence and Discrimination Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__017_route-evidence-and-discrimination-package.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:20 — Route Evidence and Discrimination Package"
-line_start: 48119
-line_end: 48134
+line_start: 48148
+line_end: 48163
 dependencies:
   - "A.15"
   - "A.16"

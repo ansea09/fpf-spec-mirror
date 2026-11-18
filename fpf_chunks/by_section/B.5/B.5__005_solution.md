@@ -6,12 +6,12 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:4 — Solution"
-line_start: 48173
-line_end: 48353
+line_start: 48202
+line_end: 48382
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -58,7 +58,7 @@ When you can follow a concept's explanation but cannot yet interpret the situati
 When the situation has no usable model yet, begin with the contrast the answer must resolve. Inspect one case or the actual arrangement. Describe what happens and which proposed change or comparison matters. Separate observations from the explanation you are about to try.
 
 1. **Choose what must remain distinguishable.** Identify participants, states or quantities whose differences could change the answer. Use observed differences and possible interventions to propose a boundary: what can vary separately, what connects those parts, and what surrounding conditions affect them? Keep a distinction when you can explain its consequence for the question.
-2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. For a physical model, use physical knowledge to choose the law that the mathematical account will express.
+2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
 3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 

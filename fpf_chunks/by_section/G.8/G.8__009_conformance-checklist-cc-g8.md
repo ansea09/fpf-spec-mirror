@@ -6,12 +6,12 @@ section_id: "G.8:8"
 section_title: "Conformance Checklist (CC‑G8)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__009_conformance-checklist-cc-g8.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:8 — Conformance Checklist (CC‑G8)"
-line_start: 139567
-line_end: 139608
+line_start: 139624
+line_end: 139665
 dependencies:
   - "A.10"
   - "A.21"

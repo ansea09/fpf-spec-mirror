@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:4 — Solution"
-line_start: 11672
-line_end: 11764
+line_start: 11684
+line_end: 11776
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -37,7 +37,7 @@ Prepare and perform a bounded introduction, observe its later use, and decide wh
 4. **Select the capability branch.** Omit capability detail that cannot change the attempt, interpretation, or decision. When the decision does rely on capability, recover the `A.2.2` basis: holder, Work family, envelope, measures, qualification window, evidence, and currentness. If existing capability is adequate and no relevant capability change is required or asserted, retain it as a reliance or observation condition; no development result is needed. A missing capability basis returns that `A.2.2` question, not an automatic development prescription. Only when a capability-change claim is needed, consume a compatible `E.23.CDI` or domain development result naming holder, Work family, baseline, target, intervention, representative transfer Work, evidence, and currentness. If that required result is missing or stale, name the gap and the next governing development decision or stop; A.3.1.MI does not fill it.
 5. **Bound authorization and protected conditions.** Recover the authorization rules that apply to each intended change. Identify the deciding System and any assignment, permission or authority relation those rules use, with its participants and scope. If a particular decision Work is asserted, recover A.13 and independently A.15.1, with F.6 only for precise assignment-bound attribution. Name participating Systems, confidentiality and safety stops, and protected conditions. Expertise, sponsorship, project position, ownership, tool control, assignment, permission, and authority are not interchangeable bases.
 6. **Plan decision-relevant observations before intervention.** Select only positions that can change the decision: acceptability or rejection; appropriateness or fit; feasibility; enactment or fidelity; burden or cost; reach; sustainment; changes to named targets or to the introduction strategy; and the outside result. Keep acceptability as a stakeholder observation, formal fit or transfer with A.3.1.FT, enactment with A.15.1, bounded reach as observed participation, and a population-level continuation question with C.36.MC. Preserve A.3.1.WT trial, A.3.1.FT fit, and C.11.MV worth questions as distinct inputs or later uses. Use §4.5 when selecting these observations requires distinguishing delivery, mechanism, adaptation and context explanations.
-7. **Plan separate target and introduction-strategy adaptation records.** First classify every planned or observed modification as a change to the Method-related target or a change to the way it is introduced. Record what changed, when, planned or reactive status, decision-maker and any applicable authorization predicate, affected level, reason and conditions.
+7. **Plan separate target and introduction-strategy adaptation records.** First classify every planned or observed modification as a change to the Method-related target or a change to the way it is introduced. Record what changed, when, planned or reactive status, decision-maker and any applicable authorization predicate, reason and conditions. Identify the recipients or recipient group and the delivery setting to which the modification applies.
 
    For a target change, name the affected Method semantics, description, support, capability input, fit claim, cultural question, or local-use condition. For an introduction-strategy change, name the admitted introduction Method or candidate introduction account, its admissibly classified description episteme, and any separate WorkPlan claim. An adaptation does not by itself change the kind or status of an account, description, plan, Method or Work.
 
@@ -64,7 +64,7 @@ Keep the smallest account that lets the receiver make the bounded decision. The 
 | introduction strategy | Admitted introduction Method or status-preserved candidate introduction account; its maintained result; a candidate description episteme before admission, or a `U.MethodDescription` only after A.3.1 admission and A.3.2 classification; any separately governed WorkPlan; intended conditions, version and window, evidence, and strategy modification kept separate from target modification. |
 | introduction and later Work | Separately admitted actual Work, performers, enacted admitted Methods, history, extent, containing Systems, changed subjects, relation occurrences, results, failed entry, non-use, and gaps. |
 | decision-relevant observations | Selected acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result positions, each with its own subject, claim, evidence, disposition, and next action. |
-| adaptation | Target or introduction-strategy classification; what changed and which target, strategy, description, or separate WorkPlan it changed; the recorded kind and status of each affected item; when; planned/reactive status; decision-maker and any applicable authorization predicate; affected level; reason and conditions; maintained result; and receiving action or stop. |
+| adaptation | Target or introduction-strategy classification; what changed and which target, strategy, description, or separate WorkPlan it changed; the recorded kind and status of each affected item; when; planned/reactive status; decision-maker and any applicable authorization predicate; recipients and delivery settings covered by the modification; reason and conditions; maintained result; and receiving action or stop. |
 | causal reliance, when needed | C.28 question and result, supported use, unsupported stronger use, conditions, validity threat, residual uncertainty and reopen trigger. Observation or association limits stay in the substantive result where they matter to its use. |
 | return | `keep`, `revise`, `branch`, `replace`, `stop`, or retained set; particular maintained claim or edition affected; local decision, named receiver, or stop; any selected next observation; bounded non-use and reopen condition. |
 

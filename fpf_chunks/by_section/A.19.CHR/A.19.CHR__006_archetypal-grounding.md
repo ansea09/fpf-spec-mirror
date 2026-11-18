@@ -6,12 +6,12 @@ section_id: "A.19.CHR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:5 — Archetypal Grounding"
-line_start: 38746
-line_end: 38763
+line_start: 38769
+line_end: 38786
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -51,7 +51,7 @@ keywords:
 
 #### A.19.CHR:5.1 - `U.System` vignette
 
-A system-level decision must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
+A decision about a system must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
 
 Use the filled reference selection in §4.8.1 as the baseline: contracts, scales, methods, time rule and policies yield a retained set of two offers. When the inputs instead come from tests or field trials, replace the stipulated case evidence with the evidence required by the CN-Spec/CG-Spec; incomplete evidence follows the declared failure rule. A claimed dated Work and any launch witness require their independent enactment basis. Any semantic/kind/plane relation or flow/gate crossing retains its own required anchors.
 

@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution - Construct and interpret a measurement (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-construct-and-interpret-a-measurement-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution - Construct and interpret a measurement (Normative)"
-line_start: 61165
-line_end: 61282
+line_start: 61180
+line_end: 61299
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.1 - Name the measurand and measurement subject
 
-**M‑SUB‑1.** Name the measurand: the quantity or characteristic intended to be measured. When FPF uses a non-quantity Characteristic, name the subject and the Characteristic whose Scale position is being attributed.
+**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. A pressure at one port and the maximum pressure anywhere in a vessel are different measurands. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
 
 **M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 
@@ -106,6 +106,8 @@ Start writing before every choice is settled: identify the wanted distinction, p
 5. **Choose the useful return.** Supply the interpreted value, interval or conditional result when it answers the question. Otherwise identify which change could resolve the remaining ambiguity: refine the relation, change the measurement arrangement, obtain an applicable calibration or narrow the conclusion. Choose further observation by the distinction it can resolve and the work it demands, using C.11.DUA when that choice needs deliberation. C.16.RM compares changes to models, arrangements and calculation, then carries the selected repair through the interpretation while retaining the wanted quantity.
 
 When an observed discrepancy matters, compare its plausible sources in the subject account, measurement relation and actual arrangement. Change the contribution that can alter the answer; sometimes removing an unwanted influence from the arrangement is more useful than modeling it in greater detail. A model-development result states the relation and what it would establish. A claim about a performed measurement also identifies the work and obtained result under §§5.3-5.5.
+
+Instrument resolution describes how small a change in the measured quantity can produce a perceptible change in indication. Extra display digits alone establish neither that capability nor a smaller uncertainty in the result. When comparing two measurement models, hold the question, subject and conditions fixed or establish how the observations bear on the same quantity. Apply B.5.MR:4.2 if the claim is that the second model strictly refines the first. A change of instrument may supply new evidence for that comparison.
 
 #### C.16:5.4 - Recover input quantities, output quantity, and uncertainty
 

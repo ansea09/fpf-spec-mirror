@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__010_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:6 — Bias-Annotation"
-line_start: 37413
-line_end: 37419
+line_start: 37433
+line_end: 37439
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:

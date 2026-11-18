@@ -6,12 +6,12 @@ section_id: "G.6:End"
 section_title: "G.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__014_g-6-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:End — G.6:End"
-line_start: 138785
-line_end: 138786
+line_start: 138842
+line_end: 138843
 dependencies:
   - "A.10"
   - "A.10.1"

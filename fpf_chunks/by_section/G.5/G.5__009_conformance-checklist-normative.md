@@ -6,12 +6,12 @@ section_id: "G.5:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__009_conformance-checklist-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:7 — Conformance Checklist (normative)"
-line_start: 138301
-line_end: 138356
+line_start: 138358
+line_end: 138413
 dependencies:
   - "C.11"
   - "C.18"

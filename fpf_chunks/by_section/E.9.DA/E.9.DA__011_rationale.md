@@ -6,12 +6,12 @@ section_id: "E.9.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:10 — Rationale"
-line_start: 104840
-line_end: 104845
+line_start: 104886
+line_end: 104891
 dependencies:
   - "A.19.ECS"
   - "E.10"

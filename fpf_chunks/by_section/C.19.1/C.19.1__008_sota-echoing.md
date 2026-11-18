@@ -6,12 +6,12 @@ section_id: "C.19.1:5.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__008_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:5.1 — SoTA-Echoing"
-line_start: 64648
-line_end: 64655
+line_start: 64675
+line_end: 64682
 dependencies:
   - "A.0"
   - "A.10"

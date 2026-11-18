@@ -6,12 +6,12 @@ section_id: "G.Core:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:5 — Archetypal grounding"
-line_start: 135260
-line_end: 135270
+line_start: 135317
+line_end: 135327
 dependencies:
   - "A.15.3"
   - "A.19"

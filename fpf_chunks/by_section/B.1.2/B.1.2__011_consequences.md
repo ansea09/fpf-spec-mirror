@@ -6,12 +6,12 @@ section_id: "B.1.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__011_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:8 — Consequences"
-line_start: 43233
-line_end: 43247
+line_start: 43256
+line_end: 43270
 dependencies:
   - "A.1"
   - "A.10"

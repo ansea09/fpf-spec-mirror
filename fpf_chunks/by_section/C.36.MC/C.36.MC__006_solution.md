@@ -6,12 +6,12 @@ section_id: "C.36.MC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:4 — Solution"
-line_start: 95933
-line_end: 96043
+line_start: 95961
+line_end: 96071
 dependencies:
   - "A.15.1"
   - "A.3.1"

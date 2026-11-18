@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:12 — Relations"
-line_start: 126543
-line_end: 126551
+line_start: 126596
+line_end: 126604
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

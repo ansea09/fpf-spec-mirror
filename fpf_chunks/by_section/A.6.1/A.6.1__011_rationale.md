@@ -6,12 +6,12 @@ section_id: "A.6.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:10 — Rationale"
-line_start: 17922
-line_end: 17933
+line_start: 17932
+line_end: 17943
 dependencies:
   - "A.1"
   - "A.1.1"

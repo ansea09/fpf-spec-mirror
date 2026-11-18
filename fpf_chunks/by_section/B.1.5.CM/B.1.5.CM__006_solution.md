@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:4 — Solution"
-line_start: 44690
-line_end: 44721
+line_start: 44715
+line_end: 44746
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -36,7 +36,7 @@ Recover the proposed whole's semantics, test whole and participant identity sepa
 5. **Test the positive branch.** Record an obtaining composition only when the whole and parts are identified as Methods and the required `B.1.5` relations are shown to obtain within the bounded claim.
 6. **Return the prospective branch when needed.** State the candidate whole, participant statuses, proposed relation sets, guards, adapters, alternatives, recovery, variation points, burdens and unresolved conditions needed for the receiving use. A traceable proposal can answer that use while its stronger whole claim remains unresolved.
 7. **Return a supported partial result.** When missing whole semantics, identity, or a relation prevents a useful candidate account, return the supported fragment, relation claim, WorkPlan question, or stop. Keep the missing grounds explicit.
-8. **Choose a useful continuation when needed.** Use C.11.DUA to compare the result a realizable implementation or trial could add with its full burden, including access, allocation, authority and the available window. When that Work is selected, name its observations, acceptance and failure conditions, any required authority, and the reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or lower result and the limitation that matters to its recipient.
+8. **Choose a useful continuation when needed.** Use C.11.DUA to compare the result a realizable implementation or trial could add with its full burden, including access, allocation, authority and the available window. When that Work is selected, name its observations, acceptance and failure conditions, any required authority, and the reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or partial result and the limitation that matters to its recipient.
 
 #### B.1.5.CM:4.2 - Record the Result
 
@@ -45,7 +45,7 @@ Recover the proposed whole's semantics, test whole and participant identity sepa
 | use and whole semantics | Intended result or preserved condition and receiving use; the whole semantics needed for the returned claim, including operations or invariant, applicability, participants and any relevant variation, bounds or reidentification conditions. A prospective or partial result keeps missing identity or relation grounds explicit. |
 | participant account | Each subject, kind or status, identity basis or open condition, and proposed contribution. |
 | relation sets | Each load-bearing relation, its participants, truth status, grounds and any guard required for its receiving use. |
-| branch verdict | Obtaining composition result, prospective candidate account, or lower return with decisive reason. |
+| branch verdict | Obtaining composition result, prospective candidate account, or partial result with decisive reason. |
 | prospective content | The guards, adapters, alternatives, recovery, stops, burdens, variation points and unresolved conditions that change the intended contribution or receiving use. |
 | continuation, when selected | Later Work and observations, any required authority, acceptance/failure and reconsideration condition; a realization/test WorkPlan where its coordination needs one. |
 

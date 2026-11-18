@@ -6,12 +6,12 @@ section_id: "A.19.UNM:11"
 section_title: "SoTA-Echoing — preserve the answer needed after normalization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__013_sota-echoing-preserve-the-answer-needed-after-normalization.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:11 — SoTA-Echoing — preserve the answer needed after normalization"
-line_start: 39359
-line_end: 39370
+line_start: 39382
+line_end: 39393
 dependencies:
 keywords:
   - "CV→NCV"

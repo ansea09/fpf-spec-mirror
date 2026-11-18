@@ -6,12 +6,12 @@ section_id: "A.6.RCD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:0 — Use This When"
-line_start: 22101
-line_end: 22133
+line_start: 22113
+line_end: 22145
 dependencies:
   - "A.11"
   - "A.6.0"

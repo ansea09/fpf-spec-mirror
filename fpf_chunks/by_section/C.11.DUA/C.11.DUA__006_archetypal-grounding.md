@@ -6,12 +6,12 @@ section_id: "C.11.DUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:5 — Archetypal Grounding"
-line_start: 60442
-line_end: 60510
+line_start: 60453
+line_end: 60521
 dependencies:
   - "A.10"
   - "C.11"
@@ -80,18 +80,18 @@ A successful rehearsal makes the revised materials available and saves four hour
 
 **Completed advice.** “Run the half-hour setup rehearsal to settle compatibility with this room's tools. If the revised materials work, use them for the four sessions; otherwise retain the current exercise. Under our stated estimates, that information saves an expected ninety minutes of instructor time after its cost. Keep the learning-effect claim open.”
 
-The team next performs the rehearsal and uses its result to select materials for these sessions. The rehearsal tests compatibility with the stated room and tools. If domain review finds unacceptable participant risk or a binding evidence prerequisite, the proposed use must satisfy that condition before it enters the available set.
+The advice gives the team a decision it can now make about the rehearsal. Compatibility with the stated room and tools becomes known only after the rehearsal is performed. If domain review identifies an unacceptable participant risk or a binding evidence prerequisite, meet the governing condition before using the materials.
 
 **Opposed cost condition.** Suppose the same discriminating rehearsal now requires three hours of instructor time, still within the available preparation window. Its expected gross preparation saving remains two hours. The completed advice changes: “Retain the current exercise for these four sessions. The proposed rehearsal would cost an expected hour more than it saves. The current materials meet the course requirements; the comparative learning-effect claim remains unresolved.” A longer study remains a separate research proposal whose attainable contribution and burden must be justified for its own receiving use.
 
 
 #### C.11.DUA:5.4 - Earn a long research horizon
 
-A research group has two rival explanations of a recurrent anomaly. Neither currently supports an intervention. Suppose an available instrument and four-week allocation can discriminate a prediction on which the models differ; a much broader survey would exhaust the year's allocation without separating them.
+A research group has two rival explanations of a recurrent anomaly. Neither yet supports an intervention. For one instrument setting their predicted ranges overlap in the middle and differ at the ends, even after allowing for measurement error. The instrument is available for four weeks. A broader survey would exhaust the year's allocation without separating the predictions.
 
-The receiving use is model discrimination within the year's research program. Compare the attainable contrast and broader survey against retaining both models and spending the allocation elsewhere.
+The group must choose a design for its next instrument. A result compatible with only one model would change that design. The group judges the chance and value of resolving this design choice worth the four weeks, after comparing the best other use of that time. A result in the overlap would leave both models in contention.
 
-**Completed advice.** “Run the four-week discriminating measurement. Under the stated model predictions, its result will eliminate or revise one explanation and inform the next instrument design. The broader survey does not presently distinguish those predictions and consumes the remaining allocation. Reconsider the measurement if instrument sensitivity cannot separate them.”
+**Completed advice.** “Use the four weeks for the measurement. Compare the observed result, including its uncertainty, with both prediction ranges. If only one accommodates it, use that finding in the design choice. If both do, retain both explanations. If neither does, check the measurement and reconsider both models. The broader survey offers no comparable basis for the design choice.”
 
-The useful result sought is explanatory progress and a better basis for later research. No immediate operational intervention is needed to justify that contribution. If the sensitivity condition fails, the proposed measurement cannot distinguish the model predictions; revise the design or retain the unresolved models.
+The attainable gain is a better basis for instrument design. No immediate operational intervention is required. If instrument uncertainty makes every attainable result compatible with both predictions, or a more valuable use of the four weeks becomes available, reconsider the allocation.
 

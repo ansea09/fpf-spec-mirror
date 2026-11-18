@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 43904
-line_end: 44122
+line_start: 43927
+line_end: 44147
 dependencies:
   - "A.1"
   - "A.15"
@@ -137,9 +137,11 @@ State each whole-forming fact in ordinary domain language before choosing its re
 | parallel | which branch Methods may proceed without a mutual order, the independence condition, and the join condition that must hold before the whole continues |
 | guarded choice | which alternative Method is selected, the selection condition, what happens when no guard or several guards hold, and which whole contains that choice |
 | iteration | which part Method repeats, what establishes another iteration, and the stop or failure condition |
-| refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
+| Method refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
 | fallback or dispatch | which primary and alternative Methods are involved, the trigger for using the alternative, and whether the statement belongs to this whole or only to a selector registry |
 | adapter or typed join | which upstream result meaning satisfies which downstream precondition, which adapter Method or governed correspondence is needed when those meanings differ, and which condition or failure route governs continuation |
+
+Use B.5.MR for refinement or abstraction between models of Methods. Establish a comparison between the Methods themselves through A.3.1's identity and relation conditions. The model comparison alone replaces no constituent Method.
 
 Before using a first–then or vertical list as Method architecture, make both checks.
 

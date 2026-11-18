@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 38288
-line_end: 38333
+line_start: 38311
+line_end: 38356
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -42,7 +42,7 @@ keywords:
 This example arranges the information needed to specify the comparison basis. A.19.UNM defines normalization terms; A.19.UINDM defines indicatorization; C.16 governs measurement and evidence backing; G.0 supplies the applicable admission conditions.
 
 ```
-CN‑frame: <Name>      Edition: <edition>      Bearer: <bearer ref>
+CN‑frame: <Name>      Edition: <edition>      Bearer: <bearer or bearer-kind ref>
 ComparisonBasis: <corpus, baseline, reference state, or declared comparison set>
 ScopeAndWindow: <scope ref and qualification interval, when used>
 IntendedUse: <claim, comparison, admission, or aggregation use>

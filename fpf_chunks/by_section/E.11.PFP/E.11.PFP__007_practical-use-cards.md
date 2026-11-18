@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 110956
-line_end: 111091
+line_start: 111004
+line_end: 111139
 dependencies:
   - "A.3.2"
   - "C.29"

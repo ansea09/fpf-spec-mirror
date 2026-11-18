@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 62798
-line_end: 63000
+line_start: 62817
+line_end: 63021
 dependencies:
   - "A.10"
   - "A.16"
@@ -46,13 +46,13 @@ keywords:
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 
 **A completed ordinary repair.** A report says “architecture quality improved,” but its supplied comparison concerns two editions of an architecture description. Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. It asserts no change to the system's availability or security. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
-A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
+A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
 The following pairs make alternative interpretations of each draft inspectable. Use these transitional ascriptions only while selecting the intended reading; once it is known, publish its endpoint form directly.
 
-The examples stipulate the named objects and source relations. The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme.
+The examples stipulate their named objects and source relations. Each non-`none` `comparisonFrameRef` identifies an A.19.CPM comparison of two admitted profiles under an applicable comparator. Each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme.
 
 A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them. In the model and architecture improvement examples, the cited result claim asserts the improvement under its named comparison frame; the ascription record refers to that claim.
 
@@ -99,10 +99,12 @@ qualityTermAscription(
   witnessRefs = {ClosedLoopTraceSet_41},
   evidenceProvenancePathRefs = {ControlEvidencePath_41},
   empiricalGroundingRelationRef = EGR_ControlAdequacyResult_41,
-  endpointPatternLocator = C.25,
+  endpointSourceRelationRef = ClosedLoopCriterionBundleDefinition_5,
   admissibleUse = interpret the supplied control-adequacy result within Horizon_H and EnvClass_E
 )
 ```
+
+`ClosedLoopCriterionBundleDefinition_5` identifies the control criteria applied over Horizon_H in EnvClass_E. The comparison with the baseline uses the admitted controller profiles and comparator identified by ControlBaselineComparison_CF5.
 
 #### C.16.Q:5.3 - Show (Preconceptual fit and explanatory merit)
 
@@ -117,7 +119,7 @@ qualityTermAscription(
   qualitySense = QS.PreconceptualFit,
   effectiveReferenceScheme = FeltFitArticulationScheme_3,
   probeOrModelFrameRef = ExemplarPack_EP3,
-  comparisonFrameRef = ExemplarContrastFrame_ECF3,
+  comparisonFrameRef = none,
   evaluatorRef = ReviewerGroup_A,
   viewpointRef = none,
   normalForm = SignalPack,
@@ -132,7 +134,7 @@ qualityTermAscription(
 )
 ```
 
-The explicit `none` values matter: episode notes are witnesses to articulation, not automatic provenance or empirical grounding.
+Here ExemplarPack_EP3 records the episodes the participants compared and what felt different to them. That is enough to discuss the change in problem framing. The episode notes witness the articulation. No profile comparison or empirical measurement was made.
 
 **Partial interpretation B — explanatory merit**
 ```text
@@ -141,7 +143,7 @@ qualityTermAscription(
   qualitySense = QS.ExplanatoryMerit,
   effectiveReferenceScheme = ExplanationCriticismScheme_5,
   probeOrModelFrameRef = CriticismBundle_CB4,
-  comparisonFrameRef = RivalExplanationComparison_CF4,
+  comparisonFrameRef = none,
   evaluatorRef = TheoryReviewPanel,
   viewpointRef = none,
   referencePlane = episteme,
@@ -156,7 +158,7 @@ qualityTermAscription(
 )
 ```
 
-`CriticismBundleDefinitionSource_CB4` cites the supplied definition of the explanatory-merit Bundle. Its criticism criteria determine that endpoint; the shared word “Bundle” does not make C.25 the governor of explanatory merit.
+In CritiqueSheet_14 the panel compares explanations N5 and N4 against the counterexamples. N5 accounts for the response after the input was removed, which N4 predicts should end immediately. This finding concerns that response under the stated conditions. `CriticismBundleDefinitionSource_CB4` cites the supplied definition of the explanatory-merit Bundle. Its criticism criteria determine that endpoint; the shared word “Bundle” does not make C.25 the governor of explanatory merit.
 
 This record identifies an explanatory-merit reading. What is to be defined, how that merit affects the work, and in what sense it precedes the definition remain unresolved until the criticism account supplies them. Preserve those parts of the draft; the sense ascription alone does not complete its repair.
 
@@ -225,7 +227,7 @@ qualityTermAscription(
   qualitySense = QS.UseValue,
   effectiveReferenceScheme = QDUseValueScheme_9,
   probeOrModelFrameRef = CG_Frame_9,
-  comparisonFrameRef = ArchiveComparatorFrame_9,
+  comparisonFrameRef = none,
   evaluatorRef = SelectorPolicy_P4,
   viewpointRef = none,
   normalForm = Objective,

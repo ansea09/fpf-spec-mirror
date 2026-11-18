@@ -6,12 +6,12 @@ section_id: "C.11.DUA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:intro — Intro"
-line_start: 60319
-line_end: 60328
+line_start: 60330
+line_end: 60339
 dependencies:
   - "A.10"
   - "C.11"

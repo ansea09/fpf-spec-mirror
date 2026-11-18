@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.USCM.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
-line_start: 39693
-line_end: 40038
+line_start: 39716
+line_end: 40061
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -46,7 +46,7 @@ keywords:
 
 FPF’s Characterization (CHR) suite treats scoring as a **mechanism boundary** (authoritative membership: `A.19.CHR:4.2`). Suite membership is a **set** (order has no semantics); any intended ordering is expressed only via `suite_protocols` (`A.19.CHR:4.5`), under the suite obligations (`A.19.CHR:4.3`).
 
-Within the canonical suite-closed protocol, USCM appears as the `score` stage (after `normalize` and `indicatorize`, before comparison and selection). USCM’s surface is admissibility-first: it produces **score measures** from admitted profiles while remaining constrained by the admissibility gate (`CG-Spec.SCP`) and by scale-lawfulness (CSLC).
+Within the canonical suite-closed protocol, USCM appears as the `score` stage (after `normalize` and `indicatorize`, before comparison and selection). USCM’s surface is admissibility-first: it produces **score measures** from admitted profiles while remaining constrained by the ScaleComplianceProfile (`CG-Spec.SCP`) and by scale-lawfulness (CSLC).
 
 USCM exists to keep a distinction between:
 
@@ -82,7 +82,7 @@ Engineering teams often need to convert an admitted (indicator or NCV) profile i
 
 6. **Evolvability vs didactic usability.** Interfaces must remain evolvable (stable SlotKind surface; method semantics externalized), while the spec remains teachable: a reader must find USCM’s purpose, boundary, laws, guard behavior, and audit minimum in one place.
 
-7. **P2W separation and gate/guard separation.** Planned baseline binding, including editions and policy ids, belongs to WorkPlanning plan items; gate decisions belong under gate patterns and work‑enactment logs belong with `WorkEnactment`. USCM must expose eligibility and audit pins without turning into a gate or a planner.
+7. **P2W separation and gate/guard separation.** On a P2W path, selection of planned editions and policy ids belongs to WorkPlanning plan items; gate decisions belong under gate patterns and work‑enactment logs belong with `WorkEnactment`. USCM must expose eligibility and audit pins without turning into a gate or a planner.
 
 ### A.19.USCM:4 - Solution
 
@@ -119,7 +119,7 @@ Scoring-method semantics remain outside the suite core. The selected `ScoringMet
   * **SubjectKind:** `ReadingContent`, supplied by the reading contents in InputProfileSlot; each retains its bearer, Characteristic and Scale.
   * **RangedValueKind:** `ReadingContent`; Score transforms the admitted profile under the selected method, and ScoreEligibility assesses that proposed transformation.
   * **SliceBasis:** any declared `U.ClaimScope`, selected `U.ContextSlice` members or qualification window that qualify the scoring result or its intended use.
-  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the evaluated bearer, criteria, comparison or reference basis and intended result use, under any scope, slice or window conditions required by that use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
+  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the evaluated bearer, criteria, comparison or reference basis and intended result use, under any scope, slice or window conditions required by that use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` constrains the permitted scoring transformations.
   * Results are declared per operation: the score-measure profile and the eligibility judgment.
 
 **Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.
@@ -314,7 +314,7 @@ A USCM publication or use is conformant if it satisfies:
 
 Scoring can lose semantic precision through hidden normalization, illegal arithmetic, implicit thresholds or uncertainty coercion. USCM requires the following commitments to remain explicit:
 
-* **Admissibility first:** all transforms are justified by `CG‑Spec.SCP` and CSLC.
+* **Admissibility first:** transformations satisfy the restrictions in `CG‑Spec.SCP` and CSLC.
 * **No hidden steps:** normalization is explicit (UNM), aggregation is explicit (ULSAM), ordering is explicit (CPM/SelectorMechanism).
 * **Uncertainty is visible:** admissibility is tri‑state; unknown is not coerced.
 * **Recoverable audit basis:** effective editions and the effective evidence policy remain traceable.

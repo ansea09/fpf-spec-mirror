@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:End"
 section_title: "A.15.8.MS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__015_a-15-8-ms-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:End — A.15.8.MS:End"
-line_start: 33585
-line_end: 33586
+line_start: 33601
+line_end: 33602
 dependencies:
   - "A.15.8"
   - "A.19"

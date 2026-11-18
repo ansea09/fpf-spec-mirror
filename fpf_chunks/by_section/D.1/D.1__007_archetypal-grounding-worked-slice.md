@@ -6,12 +6,12 @@ section_id: "D.1:4"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__007_archetypal-grounding-worked-slice.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:4 — Archetypal Grounding (Worked Slice)"
-line_start: 96352
-line_end: 96367
+line_start: 96380
+line_end: 96395
 dependencies:
   - "A.1"
   - "A.1.CSD"

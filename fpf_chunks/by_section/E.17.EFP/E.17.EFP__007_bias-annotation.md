@@ -6,12 +6,12 @@ section_id: "E.17.EFP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:6 — Bias-Annotation"
-line_start: 115486
-line_end: 115490
+line_start: 115534
+line_end: 115538
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.16.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:10 — Rationale"
-line_start: 35504
-line_end: 35506
+line_start: 35520
+line_end: 35522
 dependencies:
   - "A.16"
   - "A.16.0"

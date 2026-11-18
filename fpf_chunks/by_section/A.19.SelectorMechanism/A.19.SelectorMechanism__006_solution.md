@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:4 — Solution"
-line_start: 40804
-line_end: 40978
+line_start: 40827
+line_end: 41001
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -186,7 +186,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 
   These neighboring objects support replay. The finite basis is a binding of the selection application, and none of them is selector-declaration content or a generic result container.
 
-#### A.19.SelectorMechanism:4.2 - Boundary and layering rules
+#### A.19.SelectorMechanism:4.2 - Selection boundaries and dependencies
 
 0. **Selection conditions are explicit values, not a new object kind.** The application binds `CriteriaSlot` plus effective selector-policy refs, defaults, and `degrade` failure behavior. Acceptance and admission predicates remain separate. `SelectionSlot` contains only the resulting candidate set; eligibility, conditions, scope, evidence, and replay metadata stay outside it.
 

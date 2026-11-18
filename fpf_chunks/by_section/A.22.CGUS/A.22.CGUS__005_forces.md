@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:3 — Forces"
-line_start: 42268
-line_end: 42277
+line_start: 42291
+line_end: 42300
 dependencies:
   - "A.10"
   - "A.15"

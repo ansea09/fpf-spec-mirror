@@ -6,12 +6,12 @@ section_id: "E.22:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:6 — Bias annotation"
-line_start: 122333
-line_end: 122338
+line_start: 122381
+line_end: 122386
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

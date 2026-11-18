@@ -6,12 +6,12 @@ section_id: "C.2.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:7 — Conformance Checklist"
-line_start: 56158
-line_end: 56164
+line_start: 56165
+line_end: 56171
 dependencies:
   - "A.13"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.5.RR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:9 — Consequences"
-line_start: 50469
-line_end: 50474
+line_start: 50498
+line_end: 50503
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

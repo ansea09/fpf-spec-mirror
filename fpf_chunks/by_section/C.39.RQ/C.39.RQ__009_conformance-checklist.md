@@ -6,12 +6,12 @@ section_id: "C.39.RQ:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:7 — Conformance Checklist"
-line_start: 88968
-line_end: 88983
+line_start: 88996
+line_end: 89011
 dependencies:
   - "A.3.1"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "A.6.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__003_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:2 — Problem"
-line_start: 25473
-line_end: 25486
+line_start: 25485
+line_end: 25498
 dependencies:
   - "A.1.1"
   - "A.10"

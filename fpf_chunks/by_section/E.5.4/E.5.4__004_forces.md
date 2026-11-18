@@ -6,12 +6,12 @@ section_id: "E.5.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__004_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:3 — Forces"
-line_start: 102294
-line_end: 102301
+line_start: 102340
+line_end: 102347
 dependencies:
   - "E.3"
   - "E.5"

@@ -6,12 +6,12 @@ section_id: "B.1.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:0 — Use This When"
-line_start: 43059
-line_end: 43086
+line_start: 43082
+line_end: 43109
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,5 +64,5 @@ Typical moments:
 - If the question is a functional claim, use its behavior or realization predicate; use `A.6.F` when the function wording is unresolved and `C.30.ASV` when architecture-view conformance is needed.
 - If bearer allocation or parthood is the question, use the allocation or part-relation pattern; use `A.6.M` only when module or interface wording needs repair.
 - If a mathematical aggregation lens is the question, use `C.29`.
-- If the question is project system-of-interest designation, system-role assignment, Work, transformation, service or access, evidence, description, or publication, use that subject pattern; B.1.2 neither identifies nor defines those relations.
+- For the system-of-interest role in an extended enterprise or the system-in-hand for local investigation or change, use `A.1.STM` and `A.1.SCR`. For a technical system-role assignment, Work, transformation, service or access, evidence, description, or publication, use its subject pattern.
 

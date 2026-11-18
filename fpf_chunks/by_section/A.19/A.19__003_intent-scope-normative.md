@@ -6,12 +6,12 @@ section_id: "A.19:1"
 section_title: "Intent & Scope (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__003_intent-scope-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:1 — Intent & Scope (Normative)"
-line_start: 36136
-line_end: 36153
+line_start: 36156
+line_end: 36173
 dependencies:
   - "A.10"
   - "A.15"

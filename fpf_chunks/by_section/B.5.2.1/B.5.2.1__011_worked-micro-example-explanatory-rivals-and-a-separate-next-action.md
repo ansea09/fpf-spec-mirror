@@ -6,12 +6,12 @@ section_id: "B.5.2.1:10"
 section_title: "Worked micro-example: explanatory rivals and a separate next action"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__011_worked-micro-example-explanatory-rivals-and-a-separate-next-action.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:10 — Worked micro-example: explanatory rivals and a separate next action"
-line_start: 52486
-line_end: 52512
+line_start: 52515
+line_end: 52541
 dependencies:
   - "A.17"
   - "A.18"

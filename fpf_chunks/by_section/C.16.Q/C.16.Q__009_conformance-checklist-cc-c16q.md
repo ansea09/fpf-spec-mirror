@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 63011
-line_end: 63053
+line_start: 63032
+line_end: 63074
 dependencies:
   - "A.10"
   - "A.16"
@@ -48,7 +48,7 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 2. **CC-C16Q-2 - Exact bearer and arity.**
    The bearer designator or tuple is explicit; description, carrier, evaluator, viewpoint, work, and result are not substituted for it.
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
-   The domain-local probe or model frame and the separately governed comparison frame or explicit `none` are stated and reviewable; no generic field silently selects either frame.
+   Identify the domain procedure and the basis for any comparison made there. Give the A.19.CPM frame for a comparison of admitted profiles under its comparator, and `none` when that operation is absent. A missing profile or comparator leaves a claim that requires the operation unresolved.
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
    The effective reference scheme is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
@@ -62,7 +62,7 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 9. **CC-C16Q-9 - No silent sense rewrite.**
    Any semantic change preserves the distinctions of the declared change lexicon; changing sense, scheme, frame, scope, or neighboring relation silently is forbidden.
 10. **CC-C16Q-10 - QD default.**
-    In search, selection, or NQD practice, *quality* resolves to `QS.UseValue` unless overridden explicitly.
+    When *quality* denotes the selector's Q head, use `QS.UseValue` unless an explicit interpretation applies. Identify the bearer of a claim about the quality of an input, a search procedure or its record.
 11. **CC-C16Q-11 - Engineering family discipline.**
     Engineering `-ility` uses resolve to one explicit `U.Characteristic` or one explicit `Bundle`, preferably a `Q-Bundle` when composite; they do not remain free-floating adjectives.
 12. **CC-C16Q-12 - Functional separation.**

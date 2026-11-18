@@ -6,12 +6,12 @@ section_id: "C.16.Q:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:3 — Forces"
-line_start: 62424
-line_end: 62432
+line_start: 62443
+line_end: 62451
 dependencies:
   - "A.10"
   - "A.16"
@@ -46,5 +46,5 @@ keywords:
 * **Distributed substrate vs local publication.** Some evaluative signals arise in distributed or embodied substrates but must later be published in explicit local forms.
 * **Comparability vs non-reduction.** Engineering and selection settings need comparability, but not every evaluative signal is an admissible metric.
 * **Cross-tradition dialogue vs false unification.** The framework should permit parallels without asserting identity.
-* **Progressive articulation.** A term may begin as a felt signal and later become a bundle, proxy set, or objective.
+* **Progressive articulation.** A person can notice a mismatch before being able to name a criterion. An account of what they noticed can guide a choice of measure or objective. To claim a measured value, establish how the measure bears on the characteristic and obtain the observation.
 

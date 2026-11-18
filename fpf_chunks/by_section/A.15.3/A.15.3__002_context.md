@@ -6,12 +6,12 @@ section_id: "A.15.3:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__002_context.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:1 — Context"
-line_start: 31205
-line_end: 31210
+line_start: 31221
+line_end: 31226
 dependencies:
   - "A.15.1"
   - "A.15.2"

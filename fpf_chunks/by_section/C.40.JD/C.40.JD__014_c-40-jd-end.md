@@ -6,12 +6,12 @@ section_id: "C.40.JD:End"
 section_title: "C.40.JD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__014_c-40-jd-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:End — C.40.JD:End"
-line_start: 93396
-line_end: 93397
+line_start: 93424
+line_end: 93425
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

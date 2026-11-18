@@ -6,12 +6,12 @@ section_id: "E.3:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__006_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:5 — Conformance Checklist"
-line_start: 97844
-line_end: 97852
+line_start: 97872
+line_end: 97880
 dependencies:
   - "E.1"
   - "E.2"

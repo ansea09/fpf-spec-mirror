@@ -6,12 +6,12 @@ section_id: "D.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__015_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:11 — Relations"
-line_start: 96580
-line_end: 96588
+line_start: 96608
+line_end: 96616
 dependencies:
   - "A.1"
   - "A.15"

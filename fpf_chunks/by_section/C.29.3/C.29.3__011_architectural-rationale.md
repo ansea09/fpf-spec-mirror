@@ -6,12 +6,12 @@ section_id: "C.29.3:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__011_architectural-rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:10 — Architectural Rationale"
-line_start: 74283
-line_end: 74316
+line_start: 74310
+line_end: 74343
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -25,7 +25,7 @@ keywords:
 
 #### C.29.3:10.1 - Why realization needs its own method
 
-Mathematical result transfer compares accounts and their operations. Computational formulation constructs a procedure for the requested result. Realization begins with that procedure and asks how an executing arrangement supplies it. Its new work is preparation, physical or operational execution, readout and comparison under the conditions of use.
+Mathematical result transfer compares accounts and their operations. Computational formulation constructs a procedure for the requested result. Realization begins with that procedure and asks how an executing arrangement supplies it. Its new work is input preparation, execution by the embodied arrangement, readout and comparison under the conditions of use.
 
 A.6.1 provides the declaration and realization relation. It leaves the design and interpretation of an executing arrangement to the method that uses the relation. C.29.3 supplies that constructive work within the mathematical-use family. The method can be entered with an available computation.
 

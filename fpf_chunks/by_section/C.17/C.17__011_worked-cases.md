@@ -6,12 +6,12 @@ section_id: "C.17:9"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__011_worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:9 — Worked cases"
-line_start: 63432
-line_end: 63471
+line_start: 63455
+line_end: 63494
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,11 +52,11 @@ keywords:
 
 #### C.17:9.1 - Pump design: stop early or open the measurement branch
 
-Identify `P-22` as the exact design episteme. Compared with the admitted five-year pump-design set, its inspected split-clamp arrangement is a supported difference. Assembly evidence supports shorter assembly than the current shop design P-11, and the candidate must not require new tooling. The cited comparison uses the same assembly task and conditions. State what was inspected and the limit of that support. Stop here when the discussion needs neither a quantified coordinate nor a reusable result.
+Identify `P-22` as the exact design episteme. Compared with the admitted five-year pump-design set, its inspected split-clamp arrangement is a supported difference. Assembly evidence supports shorter assembly than the current shop design P-11, and the candidate must not require new tooling. The cited comparison uses the same assembly task and conditions. State what was inspected and the limit of that support. A second shop asking the same question can use the supported conclusion when its assembly conditions and comparison basis match.
 
-To use Novelty value `0.42`, cite `P22-NoveltyResult-4`, an already constituted C.16 measurement-result episteme. Its chain identifies P-22 as the measurement subject, the Novelty Characteristic and Scale, exact similarity Method, the calibrated `[0,1]` CAD-graph similarity result used by the declared Novelty construction, encoder and model edition, uncertainty, dated measurement Work, actual bindings, time, and evidence. The Method compares `P22-CADGraph-7`, produced from and representing P-22 under `CADGraphProjection-2`, with graphs produced by the same projection for every corpus design; the result states that this projection omits surface finish and manufacturing tolerances. If the current action measures novelty, constitute that chain first. State the no-tooling-change coordinate as a C.2.1 ascription under its declared criterion unless it was independently measured.
+To use Novelty value `0.42`, cite `P22-NoveltyResult-4`, an already constituted C.16 measurement-result episteme. Its chain identifies P-22 as the measurement subject, the Novelty Characteristic and Scale, exact similarity Method, the calibrated `[0,1]` CAD-graph similarity result used by the declared Novelty construction, encoder and model edition, uncertainty, dated measurement Work, actual bindings, time, and evidence. The Method compares `P22-CADGraph-7`, produced from and representing P-22 under `CADGraphProjection-2`, with graphs produced by the same projection for every corpus design; the result states that this projection omits surface finish and manufacturing tolerances. If the current action measures novelty, constitute that chain first. To resolve the tooling requirement, compare the proposed operations with the available tooling and record what that comparison establishes. It remains open while only the requirement is known.
 
-One `CreativityEvaluationResult` may cite those coordinates and state only that P-22 is eligible for the current comparison and lies on the declared non-dominated set. Building that result does not assert separate overall-assessment Work.
+A `CreativityEvaluationResult` can now report the supported difference and the assembly comparison with P-11. To establish eligibility, check each applicable must-condition. To place P-22 on a non-dominated front, use the declared comparison over eligible rivals (§7). The two results about P-22 alone leave its front membership open.
 
 If an audit later asserts that an overall assessment occurred, identify the evaluator System, its exact assignment, `PumpCreativityAssessment-17` Work, and `PumpCreativityAssessmentMethod-2`; state that the Work enacts the Method. The MethodDescription explains the Method, the result states claims, and coordinate-measurement Work stays separate. Do not add an A.6.1 operation application merely because those values are recorded. If the audit separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application.
 
@@ -76,7 +76,7 @@ For `Cardio-Readmit-H4`, the held-out AUROC is `0.79` against a `0.75` baseline 
 
 #### C.17:9.4 - Product reframing
 
-`OnboardingFrame-v1` treats onboarding as one completion task; `OnboardingFrame-v2` separates job setup from obtaining the first result. The declared ReframeDelta rule returns `BoundaryShift`, supported by the frame diff and a simpler causal map. In a four-week A/B comparison, v2 reduces median time-to-value by 22% against the control baseline, clearing the 20% objective. Exploratory Work used 9 of the 12 allowed staff-days, so the realized risk-budget ratio is `0.75` with no overrun. The frame diff, A/B report, WorkPlan, and Work records support the result. This evidence can inform the later choice; it does not make the choice.
+`OnboardingFrame-v1` treats onboarding as one completion task; `OnboardingFrame-v2` separates job setup from obtaining the first result. The declared ReframeDelta rule returns `BoundaryShift`, supported by the frame diff and a simpler causal map. Suppose a four-week A/B trial assigns users at random to the existing one-task procedure or to a revised procedure with separate job setup and first-result activities. The revised group’s median time-to-value was 22% lower on the same outcome definition, clearing the 20% objective for this trial. The frame comparison establishes what changed in the model. The trial evaluates the procedures the groups used. Exploratory Work used 9 of the 12 allowed staff-days, so the realized risk-budget ratio is `0.75` with no overrun. The frame diff, A/B report, WorkPlan, and Work records support the result. This evidence can inform the later choice; it does not make the choice.
 
 #### C.17:9.5 - Scientific and policy proposals
 

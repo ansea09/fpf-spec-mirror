@@ -6,7 +6,7 @@ section_id: "A.0:4"
 section_title: "Solution - Normative onboarding glossary and publication hooks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__005_solution-normative-onboarding-glossary-and-publication-hooks.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:4 — Solution - Normative onboarding glossary and publication hooks"
@@ -70,10 +70,10 @@ keywords:
 | **Diversity_P (declared retained set)** | Coverage or dispersion of the declared retained set under a named measurement policy; declare **ReferencePlane**. Its change on adding one candidate is **DeltaDiversity_P**. | C.17, C.18 |
 | **E/E‑LOG**               | *Named, versioned **explore↔exploit** policy*; governs when to widen space vs refine candidates; **policy‑id is published**.                                   | C.19       |
 | **ReferencePlane**        | *Where a value lives:* **world** (system), **concept** (definition), **episteme** (about a claim). For a plane relation, retain its source/target planes and basis. Cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation; any numerical assurance penalty requires an applicable B.3 model. | F.9, G.Core:4.2.3 |
-| **Scale Variables (S)**  | *The **monotone knobs** along which improvement is expected* (e.g., parameterisation breadth, data exposure, iteration budget, resolution). **Declare S** for any generator/selector claimed to scale. | C.18.1       |
-| **Scale Elasticity (χ)** | *Qualitative class of improvement when moving along S* (e.g., **rising**, **knee**, **flat** in the declared window). Used as a **selection lens**; numeric laws live in domain contexts.              | C.18.1       |
+| **Scale Variables (S)** | Ordered settings such as iteration budget, data exposure or resolution. For a scale claim, identify which settings vary, the tasks, the response of interest and the range examined. | C.18.1 |
+| **Scale Elasticity (χ)** | A supported response class (*rising*, *knee*, *flat* or *declining*) over the tested settings, or a wider range when a model or bound justifies the extension. Leave the class open when evidence is insufficient. | C.18.1 |
 | **BLP (Bitter‑Lesson Preference)** | A preference supported by a comparable, uncertainty-qualified scale comparison; begin with a **cheap scale-claim probe**. **No scale claim yet** or **no scale-based preference** are valid results. A local generality policy is a separate declared basis. | C.19.1, C.24 |
-| **Iso‑Scale Parity**  | *Fair comparison across candidates at equalised **scale budgets** along S*; may also include **scale‑probes** (two points) to test elasticity.                                                         | G.9, C.18.1  |
+| **Iso‑Scale Parity** | A comparison of candidates at matched resource settings under a justified common basis. To assess change with scale, compare responses at distinct settings. A knee needs at least three ordered settings along one coordinate or specified path, with evidence for the change in slope. | G.9, C.18.1 |
 
 *(Use **LEX‑BUNDLE** for the applicable measurement and scope terminology.)*
 
@@ -83,7 +83,7 @@ keywords:
 
 
 1. **UTS surface (Part F).** When a **UTS row describes a generator, selector, typed portfolio publication, or set-return publication surface**, it **MUST** surface each glossary value or policy used by the declared operation or independently required by the receiving use. Type each reported value's applicable **units, scale, polarity and ReferencePlane** under **MM‑CHR** and **CG‑Spec**, and cite its defining basis, including `DescriptorMapRef` and `DistanceDefRef` when used or required. *(Row schema: F.17; shipping via G.10.)*
-2. **Parity & edition pins (Part G).** When QD/OEE is in scope, **pin the editions and policies used by the operation or required by its receiving use**, including `DescriptorMapRef.edition`, `DistanceDefRef.edition`, the `CharacteristicSpaceRef` with its separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1 and `TransferRulesRef.edition` where applicable; record `PathSliceId` when required by that use. **G.9** supplies the pin requirements for a parity use. Treat **illumination/coverage as report‑only telemetry**; publish an **Illumination Map** where G‑kit mandates parity records. **Declare S** (Scale Variables) and run at least one **scale‑probe** (two points along S) when claiming **scale‑amenability**. **Dominance policy defaults to `ParetoOnly`;** including illumination in dominance **MUST** cite a CAL policy‑id.
+2. **Parity & edition pins (Part G).** When QD/OEE is in scope, **pin the editions and policies used by the operation or required by its receiving use**, including `DescriptorMapRef.edition`, `DistanceDefRef.edition`, the `CharacteristicSpaceRef` with its separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1 and `TransferRulesRef.edition` where applicable; record `PathSliceId` when required by that use. **G.9** supplies the pin requirements for a parity use. Treat **illumination/coverage as report‑only telemetry**; publish an **Illumination Map** where G‑kit mandates parity records. For an empirical claim about how performance changes with scale, declare **S** and use comparison evidence at distinct settings. Reuse an applicable **scale‑probe**. A theoretical prediction states the assumptions and range that support it. **Dominance policy defaults to `ParetoOnly`;** including illumination in dominance **MUST** cite a CAL policy‑id.
 3. **Tell‑Show‑Show (E.7/E.8).** Any architectural pattern that claims generative behaviour **MUST** embed **both** a **U.System** and a **U.Episteme** illustration using this glossary (manager‑first didactics).
 
 

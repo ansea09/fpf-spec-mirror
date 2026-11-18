@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.23.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
-line_start: 67266
-line_end: 67560
+line_start: 67293
+line_end: 67587
 dependencies:
   - "A.10"
   - "B.3"

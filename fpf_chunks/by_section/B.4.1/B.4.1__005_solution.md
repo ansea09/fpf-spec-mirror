@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:4 — Solution"
-line_start: 47915
-line_end: 48002
+line_start: 47944
+line_end: 48031
 dependencies:
   - "A.15"
   - "A.16"
@@ -38,7 +38,7 @@ After cue stabilization, state the candidate continuations and any selected rout
 
 `Observe -> Notice -> Stabilize -> Route`
 
-Publish the route package as a `RoutedCueSet`, normally downstream of `PreArticulationCuePack`.
+Publish the route account in the `RoutedCueSet` form, normally downstream of `PreArticulationCuePack`. `RoutedCueSet` names the reusable publication rules defined below. The filled account states candidate routes and selection claims; C.2.1 governs its episteme identity. Its expression follows the route-form rules and, when selected, the presentation rules of an MVPK face under E.17.
 
 The route publication should identify:
 
@@ -55,7 +55,7 @@ This keeps later handoff reviewable while leaving downstream claims and results 
 For specialization-sensitive routes, state the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 
 #### B.4.1:4.1 - `RoutedCueSet` shape
-A conforming routed cue set may publish:
+A conforming route account may include these fields:
 
 - `sourceCuePackRef`
 - `candidateRouteSet`
@@ -78,7 +78,7 @@ The status reports which candidate routes remain live and any selection made; en
 
 Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
 
-`publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form.
+Use `publicationFaceRefs` when publication or review needs to identify the selected MVPK face forms. An expression of the route account or a later typed account follows its content form's rules and the presentation rules of any selected MVPK face. Selecting a face alone does not establish that the content rules are satisfied.
 
 One `RoutedCueSet` can describe several candidate routes. A lineage fork requires distinct successor epistemes or project records under their identity and lineage rules. Use `C.2.1` for episteme identity; publication availability remains separate under `E.24.PUB`.
 
@@ -111,7 +111,7 @@ Use `SubstrateDiversificationRoute` when the cue raises a question about whether
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
 #### B.4.1:4.3 - Projection discipline
-Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**, rendered, when needed, on an existing MVPK face. The subject pattern governs the downstream claim.
+Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**; its expression may also follow an existing MVPK face's presentation rules. The subject pattern governs the downstream claim.
 
 A routed cue set may support these continuations:
 

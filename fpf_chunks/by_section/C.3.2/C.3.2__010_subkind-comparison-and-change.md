@@ -6,12 +6,12 @@ section_id: "C.3.2:8"
 section_title: "Subkind Comparison and Change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__010_subkind-comparison-and-change.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:8 — Subkind Comparison and Change"
-line_start: 57945
-line_end: 57966
+line_start: 57954
+line_end: 57975
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -46,6 +46,6 @@ Keep these changes distinct:
 | criterion, candidate domain, applicability, `EntityOfConcern`, or scheme changes | another declaration episteme; `KindSignature` qualification and any edition relation are checked separately as in section 5; C.3.1 decides kind continuity | another kind merely by edition |
 | candidate fails ValueKind or slice applicability | `not-applicable`; no judgment | `unknown` or `false` |
 | candidate state changes | reevaluate in the relevant slice when admissible | a new signature or kind |
-| support or dependency becomes unavailable | `unknown` for an admissible request | `not-applicable` or known `false` |
+| support or a dependency becomes unavailable | retain an independently settled judgement or return `unknown` if the criterion is unsettled | `not-applicable` or automatic non-membership |
 | publication form changes | another form or carrier may express the same episteme | another signature, kind, or classification |
 

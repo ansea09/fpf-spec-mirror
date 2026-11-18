@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:5"
 section_title: "Archetypal Grounding - Workplace Introduction and Revision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__007_archetypal-grounding-workplace-introduction-and-revision.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:5 — Archetypal Grounding - Workplace Introduction and Revision"
-line_start: 11765
-line_end: 11800
+line_start: 11777
+line_end: 11812
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -33,7 +33,7 @@ Record acceptability or rejection, appropriateness or fit, feasibility, enactmen
 
 The Digital Vaccine case supplies three sequential action-research cycles in an operating health-services ecosystem. For each cycle, record the Method-related target, the introduction strategy and its status, its separately identified description, and any separate WorkPlan. Then record prioritization, performed introduction or validation Work, observation, target adaptation, strategy adaptation, and revision for the bounded concern. The evaluation remains ex ante and case-specific and establishes neither Method admission, long-term effect, nor transfer to the other elicited domains.
 
-The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, decision-maker and any applicable authorization basis, affected level, reason, and conditions. Use these observations for adaptation and spread questions; causal reliance requires C.28.
+The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, decision-maker and any applicable authorization basis, the recipients and delivery settings covered by the modification, reason, and conditions. Use these observations for adaptation and spread questions; causal reliance requires C.28.
 
 Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI uses these comparators to distinguish the target, the introduction strategy and their observed effects. Method admission, Work, relation, capability, authority and cultural claims retain their separate FPF grounds.
 

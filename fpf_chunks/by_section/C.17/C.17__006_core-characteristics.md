@@ -6,12 +6,12 @@ section_id: "C.17:4"
 section_title: "Core characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_core-characteristics.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:4 — Core characteristics"
-line_start: 63272
-line_end: 63322
+line_start: 63293
+line_end: 63343
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ Novelty describes supported difference from a finite comparison corpus under one
 
 `Novelty = 1 - max similarity(bearer, corpus member)`
 
-A declared normalization to `[0,1]` may be part of the Method; state its source Scale and transformation. If the Method uses another similarity or distance Scale, state the lawful coordinate construction and resulting Scale instead of reusing this formula. Subtracting an unrestricted result from one does not make it bounded.
+The maximum requires a nonempty set of comparable members. To report it for the whole declared corpus, establish the largest value, either directly or by bounding the remaining similarities by a value already attained. With partial coverage, report the supported bounds or identify the subset for which a value is known. An empty corpus needs a separately defined initialization convention if a value is required. A declared normalization to `[0,1]` may be part of the Method; state its source Scale and transformation. If the Method uses another similarity or distance Scale, state the lawful coordinate construction and resulting Scale instead of reusing this formula. Subtracting an unrestricted result from one does not make it bounded.
 
 When the Method compares representations or observations rather than the evaluated bearers themselves, name each bearer and the value compared, together with the describing, projection, measurement, or other stated relation that lets the comparison support the bearer-level claim. Use a compatible basis for corpus members, or state the mapping and relevant loss. A direct like-for-like comparison of epistemes needs no extra representation relation.
 
@@ -83,7 +83,7 @@ Novelty and Surprise answer different questions. A bearer may be unlike the sele
 
 #### C.17:4.4 - ConstraintFit: which must-criteria hold?
 
-ConstraintFit reports satisfaction of the declared must-constraints under their predicates and source epistemes. Use `E.5`, `D.1`-`D.5`, or a service-acceptance pattern only when it supplies the predicate or source for the current must-criterion. A ratio such as `passed declared must-constraints / all declared must-constraints` is allowed when the applicable set is nonempty and any criticality weights are explicit. If no must-constraint applies, omit the ratio and state that fact when the receiving use needs it; other eligibility conditions remain to be satisfied.
+ConstraintFit reports satisfaction of the declared must-constraints under their predicates and source epistemes. Use `E.5`, `D.1`-`D.5`, or a service-acceptance pattern only when it supplies the predicate or source for the current must-criterion. A ratio such as `passed applicable must-constraints / all applicable must-constraints` is allowed when the applicable set is nonempty and the count treats each condition equally. State separately which applicable conditions are unverified and which failed. A weighted result needs its own declared rule and weights. If no must-constraint applies, omit the ratio and state that fact when the receiving use needs it; other eligibility conditions remain to be satisfied.
 
 A failing must-constraint makes the bearer ineligible for the affected use unless the receiving constraint or decision pattern recognizes an independently obtaining exception or waiver effect. A waiver speech act alone does not change eligibility. If no pattern defines the needed effect, return the missing relation rather than treating communication as authorization.
 

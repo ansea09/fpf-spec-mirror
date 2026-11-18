@@ -6,12 +6,12 @@ section_id: "C.29:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:7 — Archetypal Grounding"
-line_start: 72918
-line_end: 72964
+line_start: 72945
+line_end: 72991
 dependencies:
   - "A.1.1"
   - "A.10"

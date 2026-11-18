@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.MWA.PP.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
-line_start: 82895
-line_end: 83552
+line_start: 82923
+line_end: 83580
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

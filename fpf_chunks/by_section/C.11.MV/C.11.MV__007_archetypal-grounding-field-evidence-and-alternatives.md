@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 60722
-line_end: 60772
+line_start: 60733
+line_end: 60783
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -32,7 +32,7 @@ The sustainable-design study supplies three families of separate workshop observ
 
 The source reports immediate participant-perceived value of activities and mindsets and warns against theoretical-only recommendations. It does not itself supply one named receiver's feasible current-alternative set, a common decision, matched alternative Work, or a counterfactual basis.
 
-For a C.11.MV use, establish those positions locally, preserve explicit incomparability and the missing counterfactual basis, and retain voluntary-participation selection bias, unmatched timing, immediate self-report, long-term, causal, transfer, and recombination limits before returning a worth action.
+Use those observations for the participant experiences they document. For a present choice, identify the feasible options, recipient and decision rule. A binding constraint or an already established difference can settle that choice. If it depends on a comparative effect on later work, account for voluntary participation, unmatched timing and participants, immediate self-report and any missing basis for transfer, causation or combining workshops. Return what can be decided with those limits.
 
 The Halogen case can supply evidence about project demands, practitioner skill sets, organization, and cyclic adaptation. It can justify a `branch` or variant question when conditions differ, but one firm's history does not make its repertoire universally preferable.
 
@@ -51,11 +51,11 @@ In the constructed EC-417 case, the team must release a controller firmware and 
 | B2 | Use B's integration and reconciliation order and retain the same evidence history, but allocate `1.60 h` of that preparation to the supplier-configuration role and `0.40 h` to the safety engineer. | Estimated peak safety demand is `2.80 h`, within the same limit; the supplier's preparation remains part of the total burden. |
 | Stop or next slot | Stop the proposed change or defer the release to an authorized later slot when the required conditions cannot be met. | State the delay or foregone result and the condition needed to reconsider. |
 
-Keep the comparison tied to this decision and make burden, confidentiality, holder capabilities, project, user, provider, repository, PLM and CI Systems, Agent-performed Work, direct relations, recovery, side effects, reversibility, and evidence limits explicit. The three A.15.8.MS support tasks establish their bounded task observations only; the three-release WorkPlan supplies no release-worth evidence.
+B2 moves preparation work to another role. Verify that its holder can absorb the 1.60 hours in the required window, is qualified to prepare the difference, and can access the relevant evidence under the supplier's confidentiality conditions. Include the work that allocation displaces and how project, user and provider Systems exchange, check and recover the records through the repository, PLM and CI systems. Three A.15.8.MS support tasks establish only the results observed on those tasks. A three-release WorkPlan describes intended work.
 
 Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`.
 
-The timing and capacity estimates support rejecting B's overloaded safety allocation and retaining B2 as a proposal for at most three trials under its entry conditions. If those conditions cannot be met, return stop/next-slot or the signed-first A alternative with its timing consequence.
+With evidence at D−8, A misses the original slot. B exceeds the safety engineer's limit. B2 reduces the estimated demand on that engineer from 4.40 to 2.80 hours, within 3.20 hours. Recommend at most three trials if B2 also meets the supplier and trial-entry conditions. The responsible holder can select a trial on those grounds. If it cannot proceed, defer or stop, or seek a decision to change the slot for A. Arrival of signed evidence by D−21 would reopen A for the original slot.
 
 An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. The observed support-task results, with the tailoring operation still undefined and its permission/authority stop untested, do not establish that stronger result.
 

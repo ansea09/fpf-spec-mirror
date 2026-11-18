@@ -6,12 +6,12 @@ section_id: "G.8:14"
 section_title: "Author’s quick checklist (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__015_author-s-quick-checklist-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:14 — Author’s quick checklist (informative)"
-line_start: 139656
-line_end: 139669
+line_start: 139713
+line_end: 139726
 dependencies:
   - "A.10"
   - "A.21"

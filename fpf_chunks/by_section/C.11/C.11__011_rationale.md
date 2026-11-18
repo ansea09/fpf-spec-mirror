@@ -6,12 +6,12 @@ section_id: "C.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:10 — Rationale"
-line_start: 59835
-line_end: 59846
+line_start: 59846
+line_end: 59857
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,7 +54,7 @@ keywords:
 
 A live option set and a live choice among that set are not the same question as generating options, governing a candidate pool, or sequencing execution. Keeping that distinction explicit is what makes the doctrine usable rather than ceremonial.
 
-`DecisionSubject` is the better default chooser term because decision theory often applies to persons, teams, organizations, and other system-bearing collectivities. `Agent` remains useful, but only when an explicit agency claim is being made.
+`DecisionSubject` covers a person, a technical system or an organized body for the particular decision. Use `A.13` when a claim about agency itself needs examination.
 
 A minimal mathematical floor is necessary because choice doctrine without one stable object stack quickly turns into verbal drift. But a pattern also fails if it keeps only the object names and never shows how those objects discipline an actual choice. That is why `Solution` here is procedural: it must carry the path from `OptionSet` through one `ChoiceRule` to one `ChoiceResult`, including the stop-or-probe decision, rather than only one survey of neighboring theories.
 

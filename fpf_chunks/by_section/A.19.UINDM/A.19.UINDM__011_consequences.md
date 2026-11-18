@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__011_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:9 — Consequences"
-line_start: 39642
-line_end: 39654
+line_start: 39665
+line_end: 39677
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

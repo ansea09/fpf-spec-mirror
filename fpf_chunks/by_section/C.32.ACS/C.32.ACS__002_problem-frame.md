@@ -6,12 +6,12 @@ section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:1 — Problem frame"
-line_start: 81488
-line_end: 81577
+line_start: 81516
+line_end: 81605
 dependencies:
   - "A.1.1"
   - "A.10"

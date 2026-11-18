@@ -6,12 +6,12 @@ section_id: "A.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:5 — Archetypal Grounding"
-line_start: 14074
-line_end: 14097
+line_start: 14086
+line_end: 14109
 dependencies:
   - "A.1"
   - "A.1.1"

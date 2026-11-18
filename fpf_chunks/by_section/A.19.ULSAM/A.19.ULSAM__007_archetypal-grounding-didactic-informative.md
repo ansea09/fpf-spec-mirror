@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:5"
 section_title: "Archetypal grounding (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__007_archetypal-grounding-didactic-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:5 — Archetypal grounding (didactic, informative)"
-line_start: 40206
-line_end: 40231
+line_start: 40229
+line_end: 40254
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -44,7 +44,7 @@ keywords:
    `MeasureSetSlot = {m₁, m₂, …, m_k}`.
 2. The team wants a single “readiness” measure `m_ready` to be used as an input to later comparison/selection.
    Define the question this aggregate would answer and its acceptance or comparison use; a readiness label supplies no aggregation law.
-3. ULSAM forces three questions before folding:
+3. Before folding, answer:
    - **Admissibility:** Is the fold admissible under `CGSpecSlot.SCP` (units/scale) and `CGSpecSlot.Γ_fold` (declared fold kinds)?
    - **Evidence:** Is the evidence posture sufficient under `MinimalEvidence`? If not, do we `degrade` or `abstain`?
    - **Policy identity:** What is the identity of the fold (which ΓFoldRef, which edition)?

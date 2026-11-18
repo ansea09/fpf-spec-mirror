@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__012_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:10 — Rationale"
-line_start: 12366
-line_end: 12371
+line_start: 12378
+line_end: 12383
 dependencies:
   - "A.3.2"
   - "C.37"

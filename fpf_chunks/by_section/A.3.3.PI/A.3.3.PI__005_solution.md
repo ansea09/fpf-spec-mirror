@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:4 — Solution"
-line_start: 13231
-line_end: 13300
+line_start: 13243
+line_end: 13312
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

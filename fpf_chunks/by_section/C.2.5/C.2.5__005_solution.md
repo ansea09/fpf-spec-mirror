@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 56324
-line_end: 56374
+line_start: 56331
+line_end: 56381
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -80,7 +80,7 @@ C.2.4 assesses how explicit this content is. Writing out the alternatives and th
 A text may be highly explicit but low-closure, or low-explicitness but already high-closure by policy. Those states shall not be collapsed.
 
 #### C.2.5:4.4 - Change discipline
-Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. When closure decreases, make the prior fixation, reason for reopening and still-binding remainder recoverable. Use `A.16.2` when a published framing, route or use claim must be revised or the applicable fixation rule requires that move; add a note only when the existing material is insufficient.
+For a higher `CD` reading, identify what the relevant scale anchor adds (:4.2). Depending on the anchor, the grounds can be different predictions for still-live alternatives, evidence excluding an alternative, a selected route, or a rule changing when a choice can be reopened. A rule can strengthen the reopening condition while the same route remains selected. Report only the change the evidence supports. When closure decreases, make the prior fixation, reason for reopening and still-binding remainder recoverable. Use `A.16.2` when a published framing, route or use claim must be revised or the applicable fixation rule requires that move; add a note only when the existing material is insufficient.
 
 An ordinary PatternID in `governingPatternRef` locates the FPF rule relevant to the closure claim. Use a separate `relationFunctionClaimRef` for its exact defining or constraining `ClaimGraph` only when admissible interpretation, comparison, migration, publication, or reuse depends on that exact rule identity (`E.10`, `E.4.PFR`). Use `authoritySourceRef` when a non-pattern source carries the relevant authority.
 

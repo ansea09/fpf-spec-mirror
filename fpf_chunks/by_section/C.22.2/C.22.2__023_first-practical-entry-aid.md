@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 67188
-line_end: 67215
+line_start: 67215
+line_end: 67242
 dependencies:
   - "A.10"
   - "A.15"

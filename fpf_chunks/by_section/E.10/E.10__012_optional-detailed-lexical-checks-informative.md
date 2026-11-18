@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Optional detailed lexical checks (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_optional-detailed-lexical-checks-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Optional detailed lexical checks (informative)"
-line_start: 106435
-line_end: 106446
+line_start: 106483
+line_end: 106494
 dependencies:
   - "A.10"
   - "A.15"

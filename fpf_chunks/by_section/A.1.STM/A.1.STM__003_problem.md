@@ -6,7 +6,7 @@ section_id: "A.1.STM:1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__003_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:1 — Problem"
@@ -37,7 +37,7 @@ keywords:
 
 Division of labour lets different participants work on components, methods, descriptions, tools and provider organizations. Their local choices become coherent only if they can explain what common outcome those choices are intended to obtain. A component may meet its specification while the whole remains unusable; a provider may become efficient at producing something its intended users do not need. Local completion alone cannot settle the shared project purpose.
 
-A **system-of-interest (SoI)** is the system whose intended use, and the benefit sought from it, give a cooperation of creators its common purpose. The participants connect their contributions to bringing about, changing, sustaining or retiring that system in light of its use and effects. A project account can carry this common SoI through one temporary body of work; each supporting project need not acquire a separate SoI. The same machine can be the SoI of its manufacturer's product undertaking and a means of production for a component manufacturer. Its identity need not change when that relation differs. Before a future system exists, describe the intended system and use without asserting an actual holder.
+The **system-of-interest (SoI)** is the product System that a particular extended enterprise is organized to create, change, sustain in use or retire. An extended enterprise organizes participating enterprises and other organizations through agreements about their work, supplied results, decisions and means. Agents acting for those organizations establish or accept the objectives and commitments. Intended use, expected benefit and the effects of ending use give reasons for those decisions. A participant can undertake only a bounded part, such as a commissioned alteration or a period of maintenance. A project account can carry this common SoI through one temporary body of work; each supporting project need not acquire a separate SoI. The same machine can be the SoI of its manufacturer's product undertaking and a means of production for a component manufacturer. Its identity need not change when that relation differs. Before a future system exists, describe the intended system and use without asserting an actual holder.
 
 The **current subject of inquiry or local work** answers a different question: what must this participant understand, obtain or change now? It can be a component, test rig, creator organization, Method or episteme. For a system, **system-in-hand** or **our system** can identify that local subject once the participant's relation to it is clear.
 

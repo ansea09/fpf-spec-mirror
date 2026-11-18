@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:7 — Conformance Checklist"
-line_start: 44789
-line_end: 44799
+line_start: 44814
+line_end: 44824
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -29,6 +29,6 @@ keywords:
 - [ ] The positive branch requires identified whole and parts plus obtaining `B.1.5` relations.
 - [ ] The prospective branch preserves proposed truth and includes the guards, adapters, alternatives, recovery, stops, burdens and unresolved conditions needed by the receiving use.
 - [ ] WorkPlan, performed Work, observations, MethodDescription, and Method identity remain distinct.
-- [ ] The result can lower below a candidate whole when load-bearing semantics or relations are missing.
-- [ ] A supported account or lower result can complete its receiving use. Any selected continuation has a worthwhile feasible contribution and names the needed later Work, observations, any required authority, acceptance/failure and reconsideration.
+- [ ] When load-bearing semantics or relations are missing, a supported fragment or relation claim can be returned without a complete candidate account.
+- [ ] A supported account or partial result can complete its receiving use. Any selected continuation has a worthwhile feasible contribution and names the needed later Work, observations, any required authority, acceptance/failure and reconsideration.
 

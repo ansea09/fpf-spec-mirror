@@ -6,12 +6,12 @@ section_id: "E.12:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__010_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:9 — Relations"
-line_start: 111764
-line_end: 111770
+line_start: 111812
+line_end: 111818
 dependencies:
   - "C.11.DUA"
   - "E.13"

@@ -6,12 +6,12 @@ section_id: "A.15.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__012_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:11 — SoTA-Echoing"
-line_start: 34207
-line_end: 34228
+line_start: 34223
+line_end: 34244
 dependencies:
   - "A.15"
   - "A.15.7"

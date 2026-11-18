@@ -6,12 +6,12 @@ section_id: "A.19.CPM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 40624
-line_end: 40665
+line_start: 40647
+line_end: 40688
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -42,7 +42,7 @@ keywords:
   *Avoid:* keep `CompareEligibility` as the mechanism-level tri-state predicate and assign gate decisions to their governing pattern.
 
 * **Anti‑pattern: “SlotKind drift.”**
-  *Symptom:* renaming or re‑purposing `LeftProfileSlot`, `RightProfileSlot`, `ComparatorSpecSlot`, or `ComparisonResultSlot` across specializations or across CHR layers.
+  *Symptom:* renaming or re‑purposing `LeftProfileSlot`, `RightProfileSlot`, `ComparatorSpecSlot`, or `ComparisonResultSlot` in CHR mechanism descriptions and their specializations.
   *Avoid:* use the suite SlotKind lexicon (`A.19.CHR:4.2.1`) and keep SlotIndex as a derived projection.
 
 * **Anti‑pattern: “Smuggling plan‑binding into CPM.”**

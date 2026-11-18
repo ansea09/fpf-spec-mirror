@@ -6,12 +6,12 @@ section_id: "D.4:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__014_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:10 — SoTA-Echoing"
-line_start: 97039
-line_end: 97048
+line_start: 97067
+line_end: 97076
 dependencies:
   - "A.1.CSD"
   - "A.10"

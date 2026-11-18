@@ -6,12 +6,12 @@ section_id: "C.2.3:17"
 section_title: "Guidance for developing and examining expressions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__018_guidance-for-developing-and-examining-expressions.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:17 — Guidance for developing and examining expressions"
-line_start: 55739
-line_end: 55752
+line_start: 55760
+line_end: 55773
 dependencies:
   - "A.16"
   - "A.18"

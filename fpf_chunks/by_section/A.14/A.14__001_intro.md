@@ -6,12 +6,12 @@ section_id: "A.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:intro — Intro"
-line_start: 29430
-line_end: 29443
+line_start: 29442
+line_end: 29455
 dependencies:
   - "A.1"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 **What goes wrong if missed.** Teams count members as components, portions as components, aspects as separate wholes, or phases as separate objects; constructive traces and Working-Model relation claims then ground the wrong EntityOfConcern.
 
-**What this buys.** One human-facing relation catalogue that keeps constructive components and constituents, measured portions, bearer-dependent aspects, proper temporal phases, and collection belonging under each collection's own rule distinct without inventing a catch-all *aspect* or *member* vocabulary.
+**What this buys.** One relation catalogue that keeps constructive components and constituents, measured portions, bearer-dependent aspects, proper temporal phases, and collection belonging under each collection's own rule distinct without inventing a catch-all *aspect* or *member* vocabulary.
 
 **Not this pattern when.** Use the direct pattern when the current question is only a selected Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17.0`/`E.17.1`), representation or projection (`C.29` or its direct projection pattern), temporal claim without a `PhaseOf` relation (`C.27.TA`), constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), or general U-kind admission (`E.24.UK`).
 

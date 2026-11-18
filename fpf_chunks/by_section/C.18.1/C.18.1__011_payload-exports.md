@@ -6,12 +6,12 @@ section_id: "C.18.1:10"
 section_title: "Payload — exports"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__011_payload-exports.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:10 — Payload — exports"
-line_start: 64010
-line_end: 64019
+line_start: 64035
+line_end: 64044
 dependencies:
   - "C.16"
   - "C.17"
@@ -48,5 +48,5 @@ keywords:
 **UTS row template (conceptual).**
 `SLL.Card@Context := S=(ordered variables; applicable units=…; phase when relevant=…), ScaleWindow=[LOW…HIGH], Probe=(points=…, design=…, uncertainty basis=…, seeds?=…, CI?=…), χ?=rising|knee|flat|declining, ParityNotes=(iso=true|false; invariants=…), Bridge/Φ/Ψ=(…), PolicyIds=(…), PathSliceId=(…)`.
 
-Here `χ?` means that the class is omitted when unresolved; uncertainty is not a fifth behavior class. Keep the probe account and its limitation available to the receiving comparison. An unassigned class cannot support a class-dependent preference.
+Here `χ?` means that the class is omitted when unresolved; uncertainty is not a fifth behavior class. Keep the probe account and its limitation available to the receiving comparison. An unassigned class cannot support a class-dependent preference. Use the linked profile or the probe account to recover the response statistic, task family, tested settings and conditions, and the grounds for any conclusion between or beyond those settings.
 

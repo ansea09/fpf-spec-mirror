@@ -6,12 +6,12 @@ section_id: "B.2.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 45936
-line_end: 45945
+line_start: 45963
+line_end: 45972
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,6 +47,6 @@ keywords:
 | Named aggregate as system | "The platform" or "the fleet" is treated as a system because it has a name. | Identify one candidate and apply the A.1 and `U.System` criteria; if either fails or cannot be determined, withhold system-result recognition and return that failure or `unknown` to B.2 without inferring that the old whole is sufficient. |
 | Component certificate transfer | Individual part certificates are used as result-system assurance. | Re-base assurance through B.2.2:4.5 and evidence-use patterns. |
 | Controller as containing whole | A controller or external system is treated as the new whole because it changes the parts. | Use A.12 and A.3.4 for the acting-side and transformation claims. Use B.2.5 for a supervisor-subholon feedback question and a part-whole pattern for the claimed parthood. |
-| Dashboard as system | A monitoring model is treated as the operating system. | Use episteme, publication, source-use, C.30.AD, or digital-twin description patterns. |
+| Dashboard as represented system | A monitoring model is identified with the system it monitors. | Use episteme, publication, source-use, C.30.AD, or digital-twin description patterns for the monitoring account; recover the monitored system independently. |
 | Capability jump as system MHT | A metric improves and the result is called a new system. | Perform B.2's ordinary existing-whole comparison; return to capability, characteristic, Method, Work, or architecture patterns if the existing whole remains sufficient. |
 

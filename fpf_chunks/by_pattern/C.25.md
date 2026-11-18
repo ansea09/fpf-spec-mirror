@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.25.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
-line_start: 68026
-line_end: 68471
+line_start: 68053
+line_end: 68498
 dependencies:
   - "A.15"
   - "A.18"

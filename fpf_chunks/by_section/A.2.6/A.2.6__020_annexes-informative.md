@@ -6,12 +6,12 @@ section_id: "A.2.6:19"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_annexes-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:19 — Annexes (informative)"
-line_start: 7783
-line_end: 7830
+line_start: 7795
+line_end: 7842
 dependencies:
   - "A.1.1"
   - "A.15.1"

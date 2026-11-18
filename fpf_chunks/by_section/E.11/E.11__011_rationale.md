@@ -6,12 +6,12 @@ section_id: "E.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:10 — Rationale"
-line_start: 109651
-line_end: 109656
+line_start: 109699
+line_end: 109704
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

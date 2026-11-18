@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:0 — Use This When"
-line_start: 12209
-line_end: 12227
+line_start: 12221
+line_end: 12239
 dependencies:
   - "A.3.2"
   - "C.37"

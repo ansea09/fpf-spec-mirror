@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.13.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
-line_start: 29220
-line_end: 29429
+line_start: 29232
+line_end: 29441
 dependencies:
   - "A.10"
   - "A.12"
@@ -174,7 +174,7 @@ The profile values above are illustrative assumptions, not measured results. The
 - The team’s retrospectives name an activity, not a measured rate of internal-model update. `MP: High` remains an assumption; E.10.LRN keeps model change and capability acquisition separate.
 
 **Key takeaway from grounding:**
-The same ontology works for a thermostat, a predictive controller, a learning System, and a collective System: classification by a local kind and an obtaining assignment are both stated, while scope, situation, Work, evidence, profile, and grade remain separate. An exact ISO claim episteme may be cited in an A.10 evidence-provenance account or a B.3 assurance claim; any direct relation relied on by that account or claim must actually obtain under its own defining rule. Its file carrier merely bears a publication form.
+The same ontology works for a thermostat, a predictive controller, a learning System, and a collective System: classification by a local kind and an obtaining assignment are both stated, while scope, situation, Work, evidence, profile, and grade remain separate. An exact ISO claim episteme may be cited in an A.10 evidence-provenance account or a B.3 assurance claim; any direct relation relied on by that account or claim must actually obtain under its own defining rule. The file carrier bears an expression conforming to a publication form.
 
 #### A.13:5.1 - Construct a measured profile for a calibration use
 

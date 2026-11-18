@@ -6,12 +6,12 @@ section_id: "A.8:5"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:5 — Relations"
-line_start: 27559
-line_end: 27566
+line_start: 27571
+line_end: 27578
 dependencies:
   - "A.11"
   - "C.3"

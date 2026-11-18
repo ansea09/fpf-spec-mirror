@@ -6,12 +6,12 @@ section_id: "A.16:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__012_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:11 — Relations"
-line_start: 35075
-line_end: 35080
+line_start: 35091
+line_end: 35096
 dependencies:
   - "A.13"
   - "A.15.1"

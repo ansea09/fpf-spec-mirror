@@ -6,12 +6,12 @@ section_id: "B.5.PI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__004_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:3 — Forces"
-line_start: 52782
-line_end: 52792
+line_start: 52811
+line_end: 52821
 dependencies:
   - "A.1.STM"
   - "A.15.11"

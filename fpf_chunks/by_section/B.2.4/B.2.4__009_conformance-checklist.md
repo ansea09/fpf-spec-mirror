@@ -6,12 +6,12 @@ section_id: "B.2.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:6 — Conformance Checklist"
-line_start: 46387
-line_end: 46397
+line_start: 46414
+line_end: 46424
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "F.3:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__003_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:2 — Problem Frame"
-line_start: 127267
-line_end: 127277
+line_start: 127320
+line_end: 127330
 dependencies:
   - "A.11"
   - "A.7"

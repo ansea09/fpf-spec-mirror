@@ -6,12 +6,12 @@ section_id: "A.16:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:1 — Problem frame"
-line_start: 34868
-line_end: 34873
+line_start: 34884
+line_end: 34889
 dependencies:
   - "A.13"
   - "A.15.1"

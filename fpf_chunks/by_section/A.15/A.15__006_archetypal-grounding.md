@@ -6,12 +6,12 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 30004
-line_end: 30051
+line_start: 30018
+line_end: 30065
 dependencies:
   - "A.10"
   - "A.13"

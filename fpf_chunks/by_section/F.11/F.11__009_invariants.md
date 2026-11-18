@@ -6,12 +6,12 @@ section_id: "F.11:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__009_invariants.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:8 — Invariants"
-line_start: 130528
-line_end: 130538
+line_start: 130581
+line_end: 130591
 dependencies:
   - "A.13"
   - "A.15"

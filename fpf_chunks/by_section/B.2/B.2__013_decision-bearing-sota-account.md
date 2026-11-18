@@ -6,12 +6,12 @@ section_id: "B.2:11"
 section_title: "Decision-bearing SoTA account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__013_decision-bearing-sota-account.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:11 — Decision-bearing SoTA account"
-line_start: 45467
-line_end: 45479
+line_start: 45492
+line_end: 45504
 dependencies:
   - "A.1"
   - "A.10"

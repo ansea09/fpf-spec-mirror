@@ -6,12 +6,12 @@ section_id: "C.11.MV:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:0 — Use This When"
-line_start: 60587
-line_end: 60612
+line_start: 60598
+line_end: 60623
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -42,8 +42,8 @@ Conformance, familiarity, one favourable occurrence or Method popularity alone d
 | domain result | The result in the receiving practice that the Method-related Work is intended to help produce or protect. | A Method task pass, conformance result, or positive report is not automatically the domain result. |
 | burden | Time, cognitive, coordination, resource, maintenance, transition, or evidence burden observed or credibly estimated for the alternative. | Burden is not one scalar unless an explicitly defined aggregation is justified for the decision. |
 | capability demand | The holder, Work family or result class, operating envelope, measures, qualification window, and evidence required for reliance. | Training completion, title, assignment, permission, authority, or one success does not establish capability. |
-| side effect | A result outside the primary intended result that may help or harm the decision. | An unobserved possibility remains a risk or gap, not an effect. |
-| opportunity cost | The named alternative Work, investment, learning, evidence, or receiving result displaced by the choice. | “Cost” without the forgone course is not yet an opportunity-cost claim. |
+| side effect | A consequence beyond the primary intended result. Identify who may benefit or be harmed. | Distinguish an observed effect from a forecast, with the grounds and uncertainty of the forecast. |
+| opportunity cost | The benefit forgone from the best feasible alternative use of the scarce resource. State whose work or benefit is displaced. | Time spent is a burden. Its opportunity cost depends on what else could have been achieved in that time. |
 | reversibility | The conditions, time, information, and retained alternatives needed to undo or branch the choice. | A reversible tool setting does not make changed Method semantics, lost evidence, or organizational commitment reversible. |
 | evidence strength | The qualified reach of observations, reports, comparisons, contribution or causal claims for this cell and window. | It is not a confidence adjective detached from source, use, and missing basis. |
 | practical-worth decision | A bounded `keep`, `revise`, `replace`, `branch`, or `stop` result with reasons, unresolved trade-offs, and what that action preserves, creates, or changes. | It transfers neither as universal Method rank nor as authority to implement the decision. |

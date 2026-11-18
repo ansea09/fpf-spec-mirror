@@ -6,12 +6,12 @@ section_id: "E.9.DA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:intro — Intro"
-line_start: 104419
-line_end: 104422
+line_start: 104465
+line_end: 104468
 dependencies:
   - "A.19.ECS"
   - "E.10"

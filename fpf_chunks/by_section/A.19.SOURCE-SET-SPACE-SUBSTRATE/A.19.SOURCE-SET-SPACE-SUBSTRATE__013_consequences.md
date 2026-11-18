@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__013_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:9 — Consequences"
-line_start: 37451
-line_end: 37464
+line_start: 37471
+line_end: 37484
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:
@@ -41,7 +43,7 @@ keywords:
 **Benefits**
 
 - Readers can see what the line is acting on, what spaces it distinguishes, what relation is declared between the two space refs, and what outcome load it claims.
-- `A.19`, `C.18`, `G.5`, and `G.10` stay coordinated without collapsing into one layer.
+- The source and space declaration can be reused for representation, selector-result declaration and publication.
 - Heavier qualifiers such as declared map refs, metrics, transitions, and bridge-loss notes remain usable without being forced into every initial declaration.
 
 **Trade-offs**

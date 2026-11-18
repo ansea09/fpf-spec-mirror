@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:intro — Intro"
-line_start: 116610
-line_end: 116653
+line_start: 116658
+line_end: 116701
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 45886
-line_end: 45912
+line_start: 45913
+line_end: 45939
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 
 #### B.2.2:5.1 - Search-And-Rescue Swarm
 
-Before MHT, the project has individual drones with local navigation and maintenance records. After MHT, the object may be one search-and-rescue swarm if the result whole has its mission objective, coordination relation, external command relation, capability envelope, and swarm-level risks.
+In this constructed case, B.2 has compared an established drone-system whole with the proposed coordinated search arrangement. Its supported result is that the prior whole cannot meet the search use while retaining its identity, and it names the proposed search-and-rescue swarm as the candidate new whole. The project retains individual-drone navigation and maintenance records. Test the candidate below; its mission objective, coordination relation, external command relation, capability envelope and swarm-level risks retain their own grounds.
 
 - **Candidate new whole:** the search-and-rescue swarm named by B.2.
 - **A.1 basis:** drone constituents, obtaining formation and coverage-coordination relations, the governed swarm assembly, the swarm reidentification rule, and the whole-level area-search characteristic; its boundary, command and mission interfaces, operating characteristics, and identity-preservation conditions also fit the applicable larger rescue-system construction rule.

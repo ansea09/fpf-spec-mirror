@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms and Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_norms-and-invariants.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:6 — Norms and Invariants"
-line_start: 58373
-line_end: 58402
+line_start: 58382
+line_end: 58411
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -29,7 +29,7 @@ keywords:
 
 **KUA-01 (Definition).** A `KindUseAdaptationDeclaration` SHALL be a named, versioned C.2.1 declaration episteme with exact base kind as EntityOfConcern, effective scheme, pinned base signature, receiving use, adaptation type, candidate constraints, vocabulary bindings, applicability, dependencies, intended guard use, and separate scope expectations. Its formality characterizes the episteme.
 
-**KUA-02 (Not a new kind).** A declaration MUST NOT introduce a kind or subkind fact. Stable refinement requires an independently recovered kind and C.3.1 obtaining test.
+**KUA-02 (Not a new kind).** A declaration MUST NOT introduce a kind or subkind fact. Claiming a new subkind requires an independently identified kind and the C.3.1 test for inclusion.
 
 **KUA-03 (Admissibility before judgment).** Fixed candidate, kind, base-signature edition, adaptation-declaration edition, and slice first yield `admissible` or `not-applicable`. Only an admissible request yields `true`, `false`, or `unknown`; implicit `latest` and guard-result coercion are forbidden.
 

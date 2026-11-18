@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 46096
-line_end: 46167
+line_start: 46123
+line_end: 46194
 dependencies:
   - "A.1"
   - "A.10"
@@ -104,5 +104,5 @@ A set of clauses, examples, and annexes can become a standard episteme only when
 
 The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, recover each performer through A.13 and admit the Work independently under A.15.1. Add F.6 only if the account consumes precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work intact. If the same finding invalidates an admission premise, apply `CC-B2.3-5`.
 
-The PDF file is a presentation carrier; its layout may supply a publication form.
+The PDF file carries an expression of the standard. A selected publication form supplies the reusable rules that this expression follows.
 

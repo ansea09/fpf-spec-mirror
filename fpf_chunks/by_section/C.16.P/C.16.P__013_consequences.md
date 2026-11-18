@@ -6,12 +6,12 @@ section_id: "C.16.P:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__013_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:12 — Consequences"
-line_start: 62329
-line_end: 62336
+line_start: 62348
+line_end: 62355
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "C.16.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:4 — Solution"
-line_start: 62205
-line_end: 62248
+line_start: 62224
+line_end: 62267
 dependencies:
   - "A.17"
   - "A.18"
@@ -39,7 +39,7 @@ Rewrite the claim so the reader can recover its subject, the relevant characteri
 2. **Recover the bearer.** Name the subject being characterized. For a relational Characteristic, retain the tuple required by its definition.
 3. **Recover the construction.** Use §5 to identify what the wording means. A trigger can be ordinary prose; its appearance does not create an FPF kind.
 4. **Use a recovered subject rule directly.** Once the construction is clear, apply its subject pattern from §6 or the relevant domain practice.
-5. **Repair what remains hidden.** Recover the contributions needed by this claim: for a measurement, its Characteristic, Scale and interpretation; for a comparison, its reference or comparator set; for a threshold, its predicate and applicability; for an indicator, the indicated property or claim and the direct relation, including distortion risk when it is a proxy. Keep necessary use and stop conditions. If an indicator relation is required but no governing rule can state or test it, return `missing-governor` rather than storing an `indicatorRole` label. Use A.6.RCD:0.1 to distinguish that absent rule from missing case facts or a failed positive test. Add explanatory non-use guards only under the F.19:4 test.
+5. **Repair what remains hidden.** Recover the contributions needed by this claim: for a proposed measurement, its Characteristic, Scale and method; for an observed value, its observation and interpretation; for a computed or assigned value, the model or rule and the inputs it uses; for a calculation, the operations that the Scale admits; for a comparison, its reference or comparator set; for a threshold, its predicate and applicability; for an indicator, the indicated property or claim and the direct relation, including distortion risk when it is a proxy. Keep necessary use and stop conditions. If an indicator relation is required but no governing rule can state or test it, return `missing-governor` rather than storing an `indicatorRole` label. Use A.6.RCD:0.1 to distinguish that absent rule from missing case facts or a failed positive test. Add explanatory non-use guards only under the F.19:4 test.
 6. **Separate further claims.** A measurement or score may contribute to evidence, a decision or another use. Apply the governing conditions for that additional claim; repairing the characterization alone does not establish it.
 7. **Return a useful statement.** Say what the reader can now recognize, compare or conclude, or which missing contribution leaves the claim unresolved. Type-correct wording with no useful interpretation is insufficient.
 

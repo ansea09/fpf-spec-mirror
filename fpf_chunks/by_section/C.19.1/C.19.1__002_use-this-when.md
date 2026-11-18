@@ -6,12 +6,12 @@ section_id: "C.19.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:0 — Use This When"
-line_start: 64521
-line_end: 64550
+line_start: 64548
+line_end: 64577
 dependencies:
   - "A.0"
   - "A.10"
@@ -66,7 +66,7 @@ Apply the pattern that defines and tests the current question: `C.30` or `C.32` 
 First examine the scale claim and its available basis before selecting a `Scale-Audit`. This cheap scale-claim probe may use an existing adequate account; it does not by itself require a new experiment or note. Identify the two candidates and their direct patterns, task family or receiving use, proposed scale predicate, objective vector, comparison basis, feasible evidence, safety boundary and stakes. Return one of four results:
 
 - `no scale claim yet`: no supported scale claim is available. State whether no such claim is needed or which claimed basis remains unresolved. A bounded use may proceed under its direct pattern only if it needs no missing scale conclusion or override of a declared preference; this result supplies neither preference nor waiver;
-- `local analogy or policy`: identify the non-computational bearer family, policy edition, available bearer-appropriate basis and any further evidence needed for the proposed use;
+- `local analogy or policy`: for an analogy, identify the bearer family, the proposed transfer and its grounds. For a local selection policy, identify the actual candidates, the policy edition and the condition under which it decides their use. This can include a policy governing two computational methods.
 - `bounded scale comparison`: state the smallest parity and uncertainty method adequate for this use;
 - `full Scale-Audit selected`: state why the claim, stakes, feasible evidence, and receiving use justify the added work.
 

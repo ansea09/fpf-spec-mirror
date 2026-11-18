@@ -6,12 +6,12 @@ section_id: "A.19.CN:5"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__006_conformance-checklist-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:5 — Conformance Checklist (normative)"
-line_start: 38056
-line_end: 38085
+line_start: 38079
+line_end: 38108
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -41,7 +41,7 @@ keywords:
 
 > These checks establish the declared comparison basis. Assurance and cross-team reuse still require the evidence and relation conditions of their receiving claims.
 
-**CC‑A19.D1‑1 (Local identity and scope).** Every CN-frame **MUST** identify its name and edition, bearer, characteristic space, reference or comparison basis, intended use, and any scope/window that qualifies the readings. The same label under another scheme or edition is not evidence of the same frame.
+**CC‑A19.D1‑1 (Local identity and scope).** Every CN-frame **MUST** identify its name and edition, bearer or bearer kind, characteristic space, reference or comparison basis, intended use, and any scope/window that qualifies the readings. The same label under another scheme or edition is not evidence of the same frame.
 
 **CC‑A19.D1‑2 (Scales, units and preference).** Each characteristic slot in `cs_basis` **MUST** declare its Scale and value meanings, and its Unit when that Scale has one. A comparison that ranks values by desirability **MUST** state its preference rule. Descriptive comparisons need no preference rule.
 

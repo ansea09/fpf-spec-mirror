@@ -6,12 +6,12 @@ section_id: "A.19.USCM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:3 — Forces"
-line_start: 39739
-line_end: 39754
+line_start: 39762
+line_end: 39777
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -37,5 +37,5 @@ keywords:
 
 6. **Evolvability vs didactic usability.** Interfaces must remain evolvable (stable SlotKind surface; method semantics externalized), while the spec remains teachable: a reader must find USCM’s purpose, boundary, laws, guard behavior, and audit minimum in one place.
 
-7. **P2W separation and gate/guard separation.** Planned baseline binding, including editions and policy ids, belongs to WorkPlanning plan items; gate decisions belong under gate patterns and work‑enactment logs belong with `WorkEnactment`. USCM must expose eligibility and audit pins without turning into a gate or a planner.
+7. **P2W separation and gate/guard separation.** On a P2W path, selection of planned editions and policy ids belongs to WorkPlanning plan items; gate decisions belong under gate patterns and work‑enactment logs belong with `WorkEnactment`. USCM must expose eligibility and audit pins without turning into a gate or a planner.
 

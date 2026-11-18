@@ -6,12 +6,12 @@ section_id: "A.2.1:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__012_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:10 — Consequences"
-line_start: 5365
-line_end: 5375
+line_start: 5377
+line_end: 5387
 dependencies:
   - "A.15"
   - "A.15.1"

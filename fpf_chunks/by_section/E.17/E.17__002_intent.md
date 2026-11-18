@@ -6,12 +6,12 @@ section_id: "E.17:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__002_intent.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:1 — Intent"
-line_start: 114410
-line_end: 114413
+line_start: 114458
+line_end: 114461
 dependencies:
   - "A.10"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "C.36.RP:End"
 section_title: "C.36.RP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__014_c-36-rp-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:End — C.36.RP:End"
-line_start: 95866
-line_end: 95867
+line_start: 95894
+line_end: 95895
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

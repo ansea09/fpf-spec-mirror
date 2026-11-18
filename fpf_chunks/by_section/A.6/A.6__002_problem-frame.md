@@ -6,12 +6,12 @@ section_id: "A.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:1 — Problem frame"
-line_start: 14248
-line_end: 14269
+line_start: 14260
+line_end: 14281
 dependencies:
   - "A.10"
   - "A.15"

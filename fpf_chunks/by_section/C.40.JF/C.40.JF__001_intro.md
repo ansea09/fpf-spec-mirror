@@ -6,12 +6,12 @@ section_id: "C.40.JF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:intro — Intro"
-line_start: 92173
-line_end: 92180
+line_start: 92201
+line_end: 92208
 dependencies:
   - "A.10"
   - "A.15.9"

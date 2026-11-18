@@ -6,12 +6,12 @@ section_id: "A.22:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:9 — Consequences"
-line_start: 42191
-line_end: 42199
+line_start: 42214
+line_end: 42222
 dependencies:
   - "A.1"
   - "A.1.1"

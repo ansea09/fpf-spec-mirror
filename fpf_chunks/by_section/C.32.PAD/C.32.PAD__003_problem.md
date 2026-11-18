@@ -6,12 +6,12 @@ section_id: "C.32.PAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__003_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:2 — Problem"
-line_start: 83904
-line_end: 83916
+line_start: 83932
+line_end: 83944
 dependencies:
   - "A.1.STM"
   - "A.10"

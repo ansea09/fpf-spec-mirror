@@ -6,12 +6,12 @@ section_id: "C.3.2:6"
 section_title: "Admissibility and One Candidate Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__008_admissibility-and-one-candidate-judgment.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:6 — Admissibility and One Candidate Judgment"
-line_start: 57909
-line_end: 57932
+line_start: 57918
+line_end: 57941
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -43,7 +43,7 @@ These are local result notations, not newly admitted kinds, A.14 membership occu
 2. **Pin the inputs.** Name candidate, kind, exact signature edition, and exact slice; avoid implicit `latest` or `current`.
 3. **Check admissibility.** If the candidate does not satisfy the declared candidate `ValueKind` or interpretation, or the slice is outside declared applicability, return `not-applicable` and stop. Do not form `J`.
 4. **Evaluate the governed condition.** For an admissible candidate, a satisfied criterion gives `true`; a known failed criterion gives `false`.
-5. **Keep non-settlement visible.** Missing support or an unavailable declared dependency gives `unknown`, not `false`.
+5. **Keep non-settlement visible.** Use the evaluation rule for the criterion. If it requires two conditions and one is known to fail, the conjunction is `false` even when the other is unmeasured. Return `unknown` when the available facts leave the criterion unsettled.
 6. **Distinguish condition from evidentiary use.** A measurement result, source episteme, certification, registration, publication occurrence, legal-status relation, or record may itself be a criterion condition only when the signature says so and that condition obtains under its direct pattern. Its mere use as evidence for some other condition creates neither that condition nor membership.
 7. **Separate guard disposition.** A guard checks admissibility, scope coverage, and any judgment as separate predicates. It may decline use on `not-applicable` or `unknown` without converting either to `false`.
 

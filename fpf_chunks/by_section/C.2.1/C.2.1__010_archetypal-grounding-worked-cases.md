@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 54122
-line_end: 54204
+line_start: 54151
+line_end: 54233
 dependencies:
   - "A.1"
   - "A.10"

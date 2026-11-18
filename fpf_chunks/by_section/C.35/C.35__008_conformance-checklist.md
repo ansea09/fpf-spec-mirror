@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:7 — Conformance checklist"
-line_start: 85325
-line_end: 85336
+line_start: 85353
+line_end: 85364
 dependencies:
   - "A.22"
   - "A.6.M"

@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 59263
-line_end: 59729
+line_start: 59274
+line_end: 59733
 dependencies:
   - "A.10"
   - "A.13"
@@ -78,20 +78,20 @@ The OptionSet choice question begins only after an option set already exists. It
 
 #### C.11:4.2 - Decision discipline over a live option set
 
-A conforming `C.11` pass applies a choice discipline to an `OptionSet` and ends with one explicit `ChoiceResult` under one explicit `ChoiceRule`. Naming schools of decision theory does not complete the comparison.
+Apply the `ChoiceRule` to the available `OptionSet`. A completed comparison yields one explicit `ChoiceResult` under that rule. If the basis still leaves the requested single choice open, §4.2.4 explains what to return to the holder now.
 
-1. **Fix the chooser and the choice-bearing level.**
-   State one `DecisionSubject` and one `DecisionSubjectGranularity`.
-   If who or what carries the choice is disputed, recover the applicable basis for that attribution. Use `A.13` when the unresolved claim concerns precise agency.
+1. **Identify the chooser.**
+   Name the `DecisionSubject`. Use `DecisionSubjectGranularity` to identify the unit to which the choice is attributed in this arrangement, for example a controller, a committee or an organization acting through a delegate. If attribution to a component or its containing system changes the result, establish their actual relation and which decision each makes.
+   Distinguish the chooser from participants who provide evidence, advice or execution. Use `A.13` for a disputed claim about agency and the applicable assignment or mandate for a claim about who can decide.
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
    If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. Use `C.39` when a way to obtain the result still needs explanation, or `C.40` when usable material needs feasible variation and examination. Use `C.18` when generation-account or archive/front claims are needed.
 
 3. **Make the comparison basis explicit.**
-   State one `PreferenceOrder` or one `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`.
+   State the preference or measure, current facts and uncertainty, and the `OutcomeModel` used to estimate each option’s consequences. Identify the use for which the options must qualify and any condition that excludes an option regardless of its score. Apply the same interpretation, horizon and material assumptions across options.
    The comparison is not usable if some options are being judged under one belief state and other options under one later, unmarked update.
-   If two options are only comparable after one further probe or one model revision that changes the belief state or outcome model before comparison, say that the current comparison is unfinished and apply step 5; an unmarked basis shift does not complete the comparison.
+   If rival outcome models give different rankings, compare all relevant options under each credible model. Show which conclusions hold across them and which depend on an unresolved assumption. A new measurement may update a parameter or the model. A disputed preference or mandate requires its own decision.
 
 4. **Choose the dependence layer that governs the case.**
    Start from the evidential baseline when the choice is being compared through likely outcomes under the current `BeliefState`.
@@ -100,19 +100,19 @@ A conforming `C.11` pass applies a choice discipline to an `OptionSet` and ends 
    Use the least-committing dependence layer that still covers the live case, and do not switch layers across options without saying so explicitly.
 
 5. **Compare a live inquiry alternative before commitment.**
-   An inquiry alternative is live when a current proposal, consequential uncertainty, anomaly or applicable requirement supplies a plausible way for further information or computation to change this choice or its warranted use.
+   Consider another observation or computation when a plausible outcome could change the choice, the claim supporting it or the use for which it is admissible. Identify whose time or other resources the inquiry consumes. A mandatory check has the force and scope of its governing rule.
    Apply the probe-worthiness test to that alternative, stating the feasible probe, budget, cost and relevant information or computation value at the precision the choice needs. Otherwise this step adds no investigation or recording requirement. An empty form field does not activate inquiry, and no new search is required to certify that no other inquiry exists.
-   This rule is local or myopic: it judges the best next feasible probe over the current `OptionSet` and current comparison basis, not one full sequential or non-myopic experimental program. Richer `OED` lines may strengthen this doctrine, but the local `C.11` closure rule already has to decide whether the next feasible probe can still change the current choice.
-   If no feasible further probe fits the remaining `ProbeBudget`, or if the best available probe no longer justifies its `CostToProbe`, close under the current comparison basis.
-   If a feasible probe is still worth its cost, and that probe could still change which option survives or whether the current `OptionSet` should be rejected, run it, update the `BeliefState` and `OutcomeModel`, and return to step 3.
+   Compare the best attainable next probe for this choice. A longer sequential experiment design can be a separate question. If an inquiry is binding, apply its governing terms to eligibility or use.
+   When no worthwhile feasible probe remains, apply the choice rule to the evidence available. The cost of more inquiry can justify stopping. Selecting an option still needs grounds for its eligibility and preference. If a binding prerequisite remains unmet, keep the affected choice or use open, narrow it where the rule permits, or select an eligible alternative.
+   If the expected gain warrants a feasible probe, return `probe again` and name it. After someone performs the probe, use its actual result to update the comparison. An inconclusive observation can leave the ranking unchanged.
    If one choice result is already fixed and the remaining probe would change only execution-path description, call-plan ordering, enactment budget, or checkpointing of that chosen option, stop treating the probe as local choice doctrine and apply `C.24`.
 
-6. **Apply one `ChoiceRule` and emit one `ChoiceResult` plus the next question.**
-   End with one explicit result: `choose now`, `reject current set`, `probe again`, or `reroute because this is no longer local choice`.
-   If the result is `choose now`, name the selected option or retained tie-set and the comparison basis supporting it; add the outcome of a live inquiry comparison or a limitation needed by the decision or its recipient.
+6. **Apply the `ChoiceRule` and report what it supports.**
+   A completed comparison has one result form: `choose now`, `reject current set`, `probe again`, or `reroute because this is no longer local choice`. An open comparison can still inform the holder under §4.2.4.
+   For `choose now`, give the option or retained set and its grounds. State whether the alternatives in a retained set are equally preferred or incomparable, and which further decision, if any, remains.
    If the result is `reject current set`, name the reason no current option survives under the present basis and, when more work follows, the neighboring question that now takes over.
    If the result is `probe again`, name the next probe and the exact comparison defect it is supposed to repair.
-   A `C.11` pass is done only when it names the lawful choice result and the reason that result is lawful.
+   State the conditions under which the result follows from the rule. If another person or system must adopt the recommendation, the result can go to them now.
 
 ##### C.11:4.2a - Receive heterogeneous premises without relabeling them as signals
 
@@ -139,23 +139,23 @@ An inactive inquiry item requires no empty value, no no-probe statement and no w
 
 The comparison is still unfinished, not yet wrong but not yet closeable, when any of the following remains true:
 
-- the chooser is still shifting between person, team, organization, or another collectivity-bearing level;
+- the comparison moves between a participant’s preference and the collective decision without establishing whose rule applies;
 - the option set is still changing while the record also claims to rank the options;
 - one option is being judged under one belief state and another under one later update that is not itself declared as the next probe result;
 - one heavier dependence layer is invoked for rhetorical force, but the record never states what defect of the lighter comparison it repairs;
-- the record says more information would help, but never says which probe could still change the choice and why.
+- the record asks for more information without identifying a feasible inquiry and a plausible result that would change which option qualifies, the preference between options, or the claim on which the recipient could rely.
 
 ##### C.11:4.2.1a - Minimal admissible decision semantics
 
 This minimal choice doctrine does not settle every decision-theory dispute, but it already supports some semantic distinctions by value and rules out others.
 
-The following are lawful in this `C.11` body when they are stated explicitly:
+The comparison can use the following when their basis is explicit:
 
 - an incomplete or partially ordered `PreferenceOrder`, with unresolved alternatives retained explicitly, a worthwhile further probe, or an unfinished comparison; incomparability alone does not justify `reject current set`, which requires the current rule to exclude every option;
 - one `EvaluativeMeasure` for magnitude, threshold, or trade-off-sensitive cases, so long as the measure being used now is explicit enough to explain why the current result follows under it;
 - one temporary unresolved criterion conflict, so long as the record says whether the present comparison is using one priority order, one threshold, one explicit trade-off measure, or one unfinished state that still blocks closure;
 - one explicit `BeliefState` revision, so long as it enters the comparison as one named probe result or one named model repair rather than as one silent basis shift;
-- one widened `DecisionSubject` at person, team, organization, or other collectivity-bearing level, so long as the current subject-bearing level is explicit and the record does not hide unresolved cross-scale or cross-collective conflict behind one generic chooser label.
+- a collective `DecisionSubject` when the decision is attributed to that body under its actual decision arrangement. If members disagree, establish the aggregation or delegation rule needed for the collective result.
 
 The following are not admissible in this `C.11` body:
 
@@ -164,21 +164,21 @@ The following are not admissible in this `C.11` body:
 - treating unresolved cross-scale or cross-collectivity conflict as a settled local ranking before the aggregation question has been resolved;
 - using a record's form as a substitute for a stated comparison doctrine.
 
-These distinctions change the result: a partial order can leave alternatives unresolved, a trade-off measure can settle a comparison, and conflicting collective objectives can leave it unfinished. When using the `retainedTieSet` field for unresolved alternatives, state whether they are equally preferred or incomparable. A partial order does not turn incomparability into equality.
+A partial order can leave alternatives incomparable. Equal preference means that the rule treats two alternatives as tied. If the receiving task accepts a set, the `retainedTieSet` field can list the retained alternatives and state which of these conditions holds. If the task needs one course, identify the applicable tie-break or the decision still needed.
 
 ##### C.11:4.2.2 - Probe-worthiness rule
 
-Another probe is worth doing only when all three conditions hold together:
+Use the following three conditions to appraise an optional next probe for this choice. An independently binding condition continues to govern the affected option or use.
 
 - the probe fits inside the remaining `ProbeBudget`;
-- the expected gain from the probe, through `ValueOfInformation` or `ValueOfComputation`, is large enough to justify its `CostToProbe`;
-- the probe can change the local choice result by changing the ranking, breaking or creating a tie, showing that no current option survives, repairing one missing comparison, or showing that the question should reroute.
+- the expected improvement in the decision or its warranted use from the information or computation justifies the full `CostToProbe`, including delay and work displaced;
+- a plausible result could change which option qualifies or is preferred, resolve a tie, reveal that the current set fails, change what use is warranted, or move the question elsewhere.
 
 This is the local or myopic probe-worthiness rule for `C.11`: judge the best next feasible probe over the current `OptionSet`, not one whole non-myopic experiment design over longer horizons. Later sequential or non-myopic `OED` may strengthen this doctrine, but they do not relocate the local-choice question outside `C.11`.
 
-Do not keep probing merely because uncertainty remains. Uncertainty is ordinary. What matters is whether one feasible next probe can still change what should be chosen, or whether the current `OptionSet` should be rejected, from the current local choice question.
+Remaining uncertainty alone gives no reason to probe. State what plausible outcomes would change for the chooser. If every attainable result leaves the decision and its warranted use unchanged, this decision supplies no gain from that optional inquiry. An independently required check still follows its own rule.
 
-If the best available next probe cannot change the local choice result, or its expected gain cannot justify its cost, state one explicit `ChoiceResult` under the current basis and current `ChoiceRule`.
+If no worthwhile probe is available, state what the current basis and `ChoiceRule` support. If they leave the choice unresolved, name the missing premise or authority.
 
 If the next probe would no longer change which option survives but would only change how one already-chosen option gets enacted, budgeted, or checkpointed, the question has already crossed to `C.24`.
 
@@ -187,11 +187,11 @@ If the next probe would no longer change which option survives but would only ch
 `ChoiceRule` and `ChoiceResult` are not the same kind of thing.
 
 - `ChoiceRule` is the doctrine or operator that says how the current comparison basis, dependence layer, and any applicable probe-worthiness value support one `ChoiceResult`.
-- `ChoiceResult` is the emitted record stating which choice result is lawful now under that rule.
+- `ChoiceResult` records the conclusion reached by applying that rule to the present comparison.
 
-The operational answer of this pattern is therefore one emitted `ChoiceResult` under one explicit `ChoiceRule`. The result is complete only when it states the choice result and the condition that makes that result lawful.
+A usable `ChoiceResult` gives the selected disposition and the grounds for it. It can inform a later decision or take effect directly under a delegated decision procedure. To establish which occurred, use the record of that decision or procedure.
 
-Only four result forms are lawful here:
+The record has four result forms:
 
 - `choose now`
 - `reject current set`
@@ -208,7 +208,7 @@ For `choose now`, the emitted `ChoiceResult` should show:
 For `reject current set`, the emitted `ChoiceResult` should show:
 
 - that no member of the current `OptionSet` survives under the present comparison basis;
-- the shared defect, threshold failure, or dominated-outcome reason that defeats the current set;
+- the reason each option fails the stated conditions. Some options may fail for different reasons;
 - the next neighboring question only when more work now follows, such as new option generation or one explicit escalation path.
 
 For `probe again`, the emitted `ChoiceResult` should show:
@@ -227,15 +227,15 @@ For `reroute`, the emitted `ChoiceResult` should show:
 The comparison may close as `choose now` only when all of the following are true together:
 
 - the current `OptionSet` is stable enough that no further options are being invented for this comparison;
-- the current comparison basis is explicit enough to state why one option survives or why one tie-set remains;
-- no still-feasible next probe is expected to change the survivor relation with enough expected value to justify its cost;
+- the common basis and rule identify an eligible preferred option, or a set that the receiving task accepts. State whether the retained alternatives tie or remain incomparable;
+- no feasible optional probe offers enough expected improvement in the selection or its warranted use to justify its full cost, and the selection meets the applicable prerequisites;
 - the record still concerns local choice rather than pool policy, selector-result declaration, publication availability, or enactment.
 
 The comparison may close as `reject current set` only when all of the following are true together:
 
 - the current `OptionSet` is explicit and stable enough to reject as the present choice set;
 - the current comparison basis is explicit enough to show why no member survives under the present basis;
-- no still-feasible next probe is expected to rescue one member with enough expected value to justify its cost;
+- no feasible optional probe offers enough expected improvement to justify its cost in reconsidering that rejection or its warranted use;
 - the result is still one local choice conclusion rather than a pool-policy, selector-result declaration, publication-availability, or enactment result.
 
 Assess the probe conditions above from the current basis and any live inquiry alternative. They are conditions of a warranted choice, not a requirement to produce a separate account of omitted checking.
@@ -245,8 +245,7 @@ The comparison should close as `probe again` only when all of the following are 
 - one next probe is named by value;
 - that probe fits the remaining `ProbeBudget`;
 - its expected contribution to the choice justifies its `CostToProbe`;
-- that probe is expected to repair one named comparison defect;
-- that repaired defect could still change which option survives, whether the current set should be rejected, or whether the question should reroute.
+- at least one attainable result could change which option qualifies or is preferred, which claim or use is warranted, or where the question belongs. State what an inconclusive result would leave open when that matters.
 
 The comparison should close as `reroute` when the record shows that the decision question has changed:
 
@@ -258,7 +257,7 @@ The comparison should close as `reroute` when the record shows that the decision
 - to `C.24` when one choice result already exists and the next task is now sequencing, enactment, or execution-path probe work;
 - to `G.5` when the next task is declaring or naming selector-facing selected-set content; when that result already exists, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and audience availability.
 
-If none of those closure conditions can yet be satisfied, the record is still unfinished. Richer terminology alone does not satisfy those conditions.
+If no closure condition holds, send the comparison the available basis supports. Identify the eligible alternatives, the missing comparison or priority, and who can settle it. For a requested single choice, retaining several candidates can inform the decision holder while their choice remains open. Record a `ChoiceResult` when the rule supports one of the four forms.
 
 ##### C.11:4.2.5 - Minimal decision-record form
 
@@ -286,7 +285,7 @@ ProbeDecisionValue(  # conditional as described above
 ChoiceResult(
   choiceDisposition = choose_now | reject_current_set | probe_again | reroute,
   selectedOption or retainedTieSet or rejectedCurrentSet or nextProbe or rerouteOwner,
-  reason this result is lawful now
+  grounds for this disposition under the current rule
 )
 ```
 
@@ -332,7 +331,7 @@ The comparative question changes: the working question is no longer only what th
 Typical choice results are:
 
 - `choose now` because, under the declared intervention structure, one option now causally dominates or remains the survivor and no remaining feasible probe can change that comparison with enough expected gain to justify its cost;
-- `probe again` because one intervention-relevant uncertainty still blocks a lawful causal comparison and one named next probe could still change which option causally survives;
+- `probe again` because an uncertainty about the effect of an intervention prevents the current comparison and the proposed probe could change which option is preferred;
 - `reroute` because the intervention-use question has already moved from local choice into enactment planning, protocol design, or one neighboring question.
 
 The causal repair is incomplete if the comparison still treats options only as evidence after invoking causal language, or if an `InterventionModel` is named without stating what defect of the lighter evidential comparison it repairs.
@@ -362,7 +361,7 @@ This minimal choice doctrine makes that social-expectation pressure explicit, bu
 Typical choice results are:
 
 - `probe again` because one further embodied observation, coupled update, or explicit role-expectation clarification can still change the state estimate enough to reverse the current survivor relation;
-- `choose now` because delay itself now worsens the state being managed, closes the window in which the preferred option remains feasible, or leaves no lawful time for one more socially mediated check;
+- `choose now` when further delay would close the window for an eligible option and the current comparison supports choosing it;
 - `reroute` because the question has already become enactment sequencing or agent-characterization work rather than local choice.
 
 `C.11` keeps the choice question visible there, but `A.13` still governs the narrower question of what kind of agent or agential system is in play. For measured characteristic and evidence claims, use `A.17` for Characteristic identity and arity, `A.18` for Scale and Coordinate bindings, `A.19` for the declared space and reusable predicate, `C.16` for the measurement account, and `A.10` for bounded reliance on the evidence. `C.24` still governs sequencing and enactment once a choice result has already been fixed.
@@ -387,9 +386,9 @@ Do not promote this line to the unmarked default unless those repaired limitatio
 
 Do not invoke this line merely because a case feels psychologically subtle. Invoke it when one changed order, framing, response pattern, or incompatible-question structure changes the comparison state or the survivor relation in the live choice.
 
-If no causal, subjunctive, active-inference, or quantum-like refinement is needed for a live limitation, stay with the classical evidential baseline.
+Use the evidential comparison when its dependence assumptions suffice for the decision. If two approaches recommend different options, identify the assumption responsible and what could decide between their uses.
 
-The family map is a set of refinements over the same choice question, with neighboring questions kept distinct.
+These approaches can model the same choice under different assumptions. A causal or order-sensitive model may reverse a recommendation. To claim that one model strictly refines another, compare their feasible possibilities for the same inquiry and interpretation under B.5.MR. Establish what the second preserves and which previously possible answer it excludes.
 #### C.11:4.4 - Reroute as soon as the question stops being local choice
 
 Use `C.11` while the question remains: from this current `OptionSet`, what should the `DecisionSubject` choose, and is another probe worth its cost before commitment?
@@ -406,9 +405,7 @@ Reroute immediately when the question changes:
 
   If that result already exists and the current question is presentation or availability to an audience, use `E.17` for the source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
-`ProbeBudget` stays here while it means the epistemic or deliberative budget for one more probe before choice and while that probe can still change which option survives or whether the current set should be rejected. When the same word now means execution budget, call budget, enactment budget, or execution-path scouting after one choice result already exists, the question has moved to `C.24`.
-
-`ValueOfInformation` and `ValueOfComputation` also stay theory-side here as comparative criteria while the question is still local choice among the current options. If one more probe could still change which option survives or whether the current set should be rejected, stay in `C.11`. If the choice result is already fixed and those criteria now govern only execution-path sequencing, call-plan ordering, or enactment of the chosen option, the question has crossed to `C.24`. `C.19` and `C.24` may consume the criteria, but they do not become the doctrine authorities for them.
+`ProbeBudget` covers the resources available for further observation or deliberation while the choice or reliance on it can still change. `ValueOfInformation` and `ValueOfComputation` express the expected improvement compared with deciding now. Once the choice and its permitted use are settled, the budget for performing or sequencing the selected work belongs to C.24. C.19 and C.24 may use these measures in their own decisions.
 
 Outside this pattern remain candidate generation, pool-wide exploration policy, selector-facing set-result declaration, publication availability, and execution planning.
 
@@ -425,7 +422,7 @@ The applicable objects from this inventory are required because the decision rec
 
 ##### C.11:4.5.1 - Always explicit versus conditionally activated objects
 
-The following objects should be explicit in every usable `C.11` decision record:
+A completed `C.11` decision record makes the following objects explicit. For a comparison sent while the decision is open, identify the usable premises and the missing basis under §4.2.4.
 
 - `DecisionSubject` and `DecisionSubjectGranularity`;
 - `OptionSet`;
@@ -439,20 +436,20 @@ The following objects activate when the case needs them:
 
 - `InterventionModel` for causal repair;
 - `CounterfactualModel` plus `SubjunctiveDependenceRelation` for success-first or predictor-coupled repair;
-- `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` when one more probe or one more computation pass is still live.
+- For a live inquiry, identify its `ProbeActionSet`, `ProbeBudget` and `CostToProbe`. Use `ValueOfInformation` for new observations, `ValueOfComputation` for additional reasoning over available evidence, or both when the inquiry needs both.
 
 Use these names or ordinary wording that makes the applicable objects and their roles in the comparison recoverable.
 
 Immediate lexical commitments:
 
 - the default chooser term is `DecisionSubject`, not `Agent`;
-- `DecisionSubjectGranularity` names the chooser-bearing level when the question is about whether the chooser is one person, team, organization, or another collectivity-bearing system rather than one generic scalar or coordinate;
+- `DecisionSubjectGranularity` identifies the unit to which the decision is attributed. A committee may decide for itself or on behalf of an organization under a mandate. Where scale matters, identify the actual part and whole. B.5.MR compares the levels of abstraction or refinement of two models for a given inquiry; the same chooser can use both models.
 - use `A.6.P` if a relation's predicate or participants remain unclear, and `A.6.5` when its argument or slot structure needs clarification.
 
 Local plain glosses for the load-bearing inventory:
 
-- `DecisionSubject`: who or what is carrying this choice now, whether that is one person, one team, one committee, one organization, or another collectivity-bearing system;
-- `DecisionSubjectGranularity`: the level at which the choice is being attributed, such as person-level, team-level, or organization-level; an "agent" label alone does not specify that level;
+- `DecisionSubject`: the system making the decision, which can be a person, an automated controller, a committee or another organized body;
+- `DecisionSubjectGranularity`: the unit to which the choice is attributed in this arrangement. A committee member can submit an individual ranking and the committee can decide by vote;
 - `OptionSet`: the concrete options already on the table now;
 - `PreferenceOrder`: the current better-than / worse-than ordering over those options for this decision subject;
 - `EvaluativeMeasure`: the explicit utility-style or desirability-style scoring measure used when the case needs magnitudes, thresholds, or trade-offs rather than only one ordering;
@@ -461,30 +458,26 @@ Local plain glosses for the load-bearing inventory:
 - `InterventionModel`: the part of the model that says how the world changes because one option is actually taken;
 - `CounterfactualModel`: the model used to compare relevant non-actual alternatives or alternate decision procedures;
 - `SubjunctiveDependenceRelation`: the dependence between this choice and one predictor, one linked chooser, or one structurally similar decision procedure when intervention talk alone is not enough;
-- `ChoiceRule`: the current choice doctrine or operator that says what conditions make `choose now`, `reject current set`, `probe again`, or `reroute` lawful in this case;
-- `ChoiceResult`: the emitted result record saying which of those lawful choice results follows now under the current `ChoiceRule`;
-- `ProbeActionSet`: the further checks, measurements, simulations, or questions that can still be run before commitment;
-- `ProbeBudget`: the remaining time, money, attention, or tolerated delay available for those pre-choice probes;
-- `CostToProbe`: the cost of another measurement, question, simulation, trial, or delay before commitment;
-- `ValueOfInformation`: the expected gain from learning more before choosing;
-- `ValueOfComputation`: the expected gain from spending more reasoning or compute before choosing.
+- `ChoiceRule`: the rule for evaluating the current alternatives and any worthwhile probe, and for reaching one of the four result forms;
+- `ChoiceResult`: the disposition that follows from applying that rule, with the grounds the receiving use needs;
+- `ProbeActionSet`: checks, measurements, simulations or questions available while the choice or its warranted use can still change;
+- `ProbeBudget`: the money, time, attention or delay available for those inquiries;
+- `CostToProbe`: the resources an inquiry would consume, including the work or benefit displaced by its delay;
+- `ValueOfInformation`: the expected improvement in the decision from using the possible observation results, compared with choosing on what is known now;
+- `ValueOfComputation`: the expected improvement in the decision from performing the proposed additional computation. Compare either gain with the inquiry’s cost on the same basis and count that cost once.
 
-What follows from `DecisionSubject` being wider than `Agent`:
-
-- the chooser in `C.11` need not be one person-like agent;
-- a team, committee, organization, or coupled human-tool system may be the `DecisionSubject` when that is the level at which the choice is being made;
-- the pattern therefore does not force agency characterization to do the job of naming who or what is currently choosing.
+A person may make a decision, an organization may decide by an agreed procedure, or an automated controller may choose under delegated limits. An analyst, AI assistant or tool can also supply comparisons while another party decides. Identify the actual arrangement before attributing the decision.
 
 This floor is enough to keep choice doctrine inspectable and stable. It does not yet assume one full branch-specific quantum-like package or one cross-scale geometry-heavy package.
 
 ##### C.11:4.5.2 - Boundary on multilevel and social-expectation doctrine
 
-`DecisionSubject` and `DecisionSubjectGranularity` are the local answer to human-only and individual-only narrowing. They keep the chooser explicit at person, team, organization, or other collectivity-bearing level so the doctrine does not silently collapse back into one generic individual agent.
+`DecisionSubject` and `DecisionSubjectGranularity` identify who makes the choice and whether it is an individual or collective decision. Several participants can contribute evidence or carry out the chosen course. Attribution to a larger system requires grounds for its decision, such as a collective rule or an authorized delegate acting within a mandate.
 
 This minimal choice doctrine does not fully settle the broader questions that can accompany that chooser-bearing scope, including:
 
 - collective aggregation doctrine over conflicting preferences or criteria;
-- cross-scale or cross-collective conflict between person-, team-, organization-, or broader system-level objectives;
+- conflicts between the objectives of a participant, a group and a containing organization whose decisions are linked in this case;
 - one full `ROE` or social-expectation structure for socially scaffolded choice;
 - one full multilevel or geometry-heavy formal package for those cross-scale or cross-collective questions.
 
@@ -513,7 +506,7 @@ A `C.11` pass is finished enough for practical use when all three conditions hol
 
 An inactive inquiry item adds no placeholder or omission account to this tuple or finish condition.
 
-If the case remains tied or underdetermined under the current basis, say that directly and keep the tie-set explicit. A lawful `ChoiceResult` may still be `probe again` or `reroute`, but it must not assert a winner that the current basis does not support.
+If the current rule leaves alternatives tied or incomparable, report which and what that means for the receiving task. A result that retains several eligible options can supply a request for a set. Choosing one of them requires a rule or a decision by the designated chooser.
 
 If those conditions are missing, retain the unfinished comparison and identify the premise or decision still needed.
 

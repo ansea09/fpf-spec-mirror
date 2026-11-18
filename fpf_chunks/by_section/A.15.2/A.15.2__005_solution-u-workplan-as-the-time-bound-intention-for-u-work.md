@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 30911
-line_end: 31007
+line_start: 30925
+line_end: 31023
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "B.1.4"
   - "B.1.6"
   - "B.3"
+  - "B.5.MR"
   - "C.2.1"
   - "C.27.TA"
   - "C.32.P2S"
@@ -127,8 +128,10 @@ Common plan-content claim families include:
 
 * **precedence or dependency constraints** naming source and target item designators, start or finish conditions, and any prerequisite or gate condition;
 * **overlap or exclusivity constraints** naming the scheduling policy and the windows it permits or excludes;
-* **refinement claims** stating which intended-performance designator is preserved and which window, constraint, target, or budget is tightened; and
+* **model-refinement claims** comparing two plan models for one coordination inquiry about the same intended work under B.5.MR; and
 * **alternative claims** stating the alternatives and the independently governed condition used to choose among them.
+
+For that comparison, recover what each plan model permits and requires. Establish how every completion of the proposed refined model is read against the earlier model. At least one completion must exist, and every completion must satisfy the earlier assertions under that reading. Strict refinement also excludes an earlier admitted answer; abstraction uses the converse comparison and checks the conclusion still needed. A tighter window, constraint, target or budget can supply the restriction. Check it together with the other assertions. C.2.1 identifies each plan episteme and any edition continuity separately; §4.5 tests later Work against a plan.
 
 Start with the readable plan constraint—for example, “item B starts only after clearance claim C for item A is current.” Keep that claim inside the WorkPlan ClaimGraph and name the two item designators, the condition, scope, and qualification. Display order alone establishes no world-side ordering or Work parthood. When the receiving use needs a stable parameterized plan rule, A.6.RCD may supply a predicate-definition episteme. Open relation-kind admission only when a named receiver must distinguish occurrences of that relation; then E.24/E.24.UK and the standalone direct pattern must supply obtaining and identity before A.6.REL is used. If the rule, its source predicates, or occurrence identity cannot be stated, return the corresponding A.6.RCD blocker rather than minting `Precedes_pl`, `MutuallyExclusive_pl`, `Refines_pl`, or another pseudo-kind here.
 

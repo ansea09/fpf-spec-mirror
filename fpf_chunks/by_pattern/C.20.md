@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.20.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
-line_start: 64860
-line_end: 65273
+line_start: 64887
+line_end: 65300
 dependencies:
   - "A.1"
   - "A.14"
@@ -288,7 +288,7 @@ The examples distinguish the field candidate from a system, episteme and the rel
 | **Concept contribution** | Acceptance clauses and evaluation templates bound to exact rigs and windows are epistemes used by the plant system and its Work, not concepts owned by the system. | Canon content can include causality models, design rules, proofs, benchmarks, formal knowledge bases, proof carriers, and concept schemas under their direct episteme, form, or representation patterns. | Ask which exact claim-bearing contribution is constitutive and which whole-forming claim states how it connects to the assembly; conceptual relevance alone creates no part. |
 | **Symbolic representation** | Local SOP and checklist notation can express plant procedures for one bounded use. | CLIF, RDF/TriG, proof scripts, diagrams, and other notation packages can express or represent canon content. | E.17/E.24.PUB and C.29 govern form, carrier, publication, and representation; symbolic appearance identifies none of System, Episteme, or Discipline. |
 | **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, system-role kinds or assignments, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or formula alone establishes neither candidate's construction. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
-| **Evidence-lane contrast** | LA test campaigns with freshness windows, VA design proofs, and TA tool qualifications can support exact plant-side claims. | VA proofs over kinds, LA replications or meta-analyses, and TA evidence for checkers can support exact canon or construction claims. | A.10 keeps the exact source, currentness, and reliance needed by the use. When an actual named assurance claim is current, B.3 adds only the characteristics and result fields that its argument consumes. Evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
+| **Evidence-lane contrast** | Plant tests can supply validation evidence (LA). A design proof can supply verification evidence (VA). Check that the quantities used by the tests and proof correspond when the argument connects them, and check any tool qualification on which the argument relies. | A proof over kinds can establish a formal consequence. Replications or a meta-analysis can support an empirical claim. If a checker produced a relied-on result, establish its qualification for that check. | A.10 keeps the exact source, currentness, and reliance needed by the use. When an actual named assurance claim is current, B.3 adds only the characteristics and result fields that its argument consumes. Evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
 
 #### C.20:5.1 - Safety engineering as a positive construction
 
@@ -411,7 +411,7 @@ A discipline is durable because a governed practice-and-knowledge assembly can c
 
 Keeping organizations, Work, methods, epistemes, structures, Bridges, comparisons, publications, evidence, and health readings separate lets each object affect the discipline claim through its actual relation, without making it an automatic part or identity discriminator.
 
-This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and ordinary evidence-bearing reliance explicit under A.10 and any actual named assurance claim explicit under B.3. It also lets plural traditions, obtaining directed Bridges with use-specific tolerated loss and any material observed loss kept visible, typed health readings, and TA/VA/LA evidence lanes remain inspectable together.
+This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and ordinary evidence-bearing reliance explicit under A.10 and any actual named assurance claim explicit under B.3. It also lets plural traditions, obtaining directed Bridges with use-specific tolerated loss and any material observed loss kept visible, typed health readings, and the grounds for verification, validation and correspondence of meanings remain inspectable together.
 
 Scale compliance, B.3's requirement for an applicable domain model and stated assumptions, and Bridge hygiene stay with their subject patterns: C.20 adopts their constraints for a named use but defines no universal field score or reliability fold. Charisma, prestige, institutional reach, or a field name cannot substitute for the required construction, Characteristics, and source evidence.
 

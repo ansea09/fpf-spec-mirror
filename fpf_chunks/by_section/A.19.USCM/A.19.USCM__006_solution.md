@@ -6,12 +6,12 @@ section_id: "A.19.USCM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:4 — Solution"
-line_start: 39755
-line_end: 39882
+line_start: 39778
+line_end: 39905
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -58,7 +58,7 @@ Scoring-method semantics remain outside the suite core. The selected `ScoringMet
   * **SubjectKind:** `ReadingContent`, supplied by the reading contents in InputProfileSlot; each retains its bearer, Characteristic and Scale.
   * **RangedValueKind:** `ReadingContent`; Score transforms the admitted profile under the selected method, and ScoreEligibility assesses that proposed transformation.
   * **SliceBasis:** any declared `U.ClaimScope`, selected `U.ContextSlice` members or qualification window that qualify the scoring result or its intended use.
-  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the evaluated bearer, criteria, comparison or reference basis and intended result use, under any scope, slice or window conditions required by that use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
+  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the evaluated bearer, criteria, comparison or reference basis and intended result use, under any scope, slice or window conditions required by that use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` constrains the permitted scoring transformations.
   * Results are declared per operation: the score-measure profile and the eligibility judgment.
 
 **Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.

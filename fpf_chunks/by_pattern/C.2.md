@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
-line_start: 53194
-line_end: 53331
+line_start: 53223
+line_end: 53360
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,7 +67,7 @@ Every F–G–R computation names the claim and its `U.ClaimScope`. If a path ch
 
 ### C.2:1 - Problem Frame
 
-**`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon) are two admitted holon kinds. KD-CAL is the primary composition pattern for `U.Episteme`, giving engineers a way to say (a) which expression properties an episteme supplies for the receiving use (**F**), (b) where its claim is asserted to apply (**G**), (c) how well that claim is warranted for the receiving use (**R**), and (d) how closely **two** epistemes coincide (**CL**). C.2.1 supplies the constitution test: claim content, one EntityOfConcern, and one effective reference scheme. Grounding, edition, viewpoint, view, representation, publication, form, and carrier remain neighboring objects or relations governed by their respective patterns.
+**`U.System`** (physically embodied and acting) and **`U.Episteme`** (knowledge holon) are two admitted holon kinds. KD-CAL is the primary composition pattern for `U.Episteme`, giving engineers a way to say (a) which expression properties an episteme supplies for the receiving use (**F**), (b) where its claim is asserted to apply (**G**), (c) how well that claim is warranted for the receiving use (**R**), and (d) how closely **two** epistemes coincide (**CL**). C.2.1 supplies the constitution test: claim content, one EntityOfConcern, and one effective reference scheme. Grounding, edition, viewpoint, view, representation, publication, form, and carrier remain neighboring objects or relations governed by their respective patterns.
 
 ### C.2:2 - Problem
 

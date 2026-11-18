@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 115491
-line_end: 115530
+line_start: 115539
+line_end: 115578
 dependencies:
   - "A.10"
   - "A.15"

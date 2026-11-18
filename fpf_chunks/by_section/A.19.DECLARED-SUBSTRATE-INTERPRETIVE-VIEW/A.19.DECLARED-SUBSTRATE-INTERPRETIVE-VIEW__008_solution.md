@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__008_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4 — Solution"
-line_start: 37624
-line_end: 37807
+line_start: 37645
+line_end: 37828
 dependencies:
   - "A.0"
   - "A.19"
@@ -42,7 +42,7 @@ keywords:
 
 Declare interpretive views as substrate-side only readings over one already-declared substrate-bearing basis, keep them explicitly under existing view law, and reserve atlas form for the cases that truly need it.
 
-#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.1 - Declared-substrate interpretive-view record and outside work
+#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.1 - Interpretive-view content and related work
 
 Use this pattern to declare:
 
@@ -106,7 +106,7 @@ The view may foreground the substrate's `OutcomeMapRef`, `SpaceMetricRef`, `Tran
 **IV-5 - Thin interpretation and atlas interpretation are different profiles.**
 Ordinary `DeclaredSubstrateInterpretiveView` is a complete admissible profile, not a placeholder. `DeclaredSubstrateAtlasView` is used only when the fuller composite inspection question is real.
 
-**IV-6 - Atlas form requires a complete composite record.**
+**IV-6 - Atlas form keeps its constituent views and connections recoverable.**
 If atlas form is active, the view must keep the base substrate, the active source or set result, the relevant `TypedSetViews`, any cited spaces, any cited declared map refs, and any qualifiers explicit enough for the reader to recover how those parts answer the inspection question.
 
 **IV-7 - Local specialization stays local.**
@@ -148,7 +148,7 @@ Many cases need one interpretive view but not one atlas-form interpretation pack
 
 Use thin interpretation when a direct explanation answers the inspection question, including when it cites a needed metric, map, transition or loss qualification.
 
-#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.7 - Atlas form is fuller interpretation and needs a complete record
+#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.7 - Atlas form combines views and their connections
 
 Use `DeclaredSubstrateAtlasView` when the inspection question requires showing how several declared views, spaces, maps or qualifications relate within the same substrate.
 The minimal admissible atlas-form interpretation declaration therefore contains:
@@ -216,7 +216,7 @@ Once the interpretation is sufficient, stop. Select a neighboring pattern only f
 
 - Use `G.2` when the interpretive view becomes palette-first, tradition-facing atlas work. That is one local specialization of atlas interpretation, not the common family head.
 - Use `F.18` when the question under repair is label choice around interpretive-view, atlas, palette, or declared-map-ref language. Naming notes may explain the labels, but they do not change the base substrate or the inspection question.
-- Use `A.6.P` when one passage collapses view, surface, space, map, or palette into one umbrella word. Repair the layer split first, then continue.
+- Use `A.6.P` when one passage collapses view, surface, space, map, or palette into one umbrella word. Recover the intended predicate and its participants, then continue.
 - Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base interpretive view declaration.
 - Use the corresponding pattern in §4.10 when the remaining question concerns selector outcomes, shipping, publication, live-pool policy or action planning.
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 24243
-line_end: 24408
+line_start: 24255
+line_end: 24420
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -136,7 +136,7 @@ readable assertion of the recovered direct relation
   +-- explicit occurrence individuation, when a named claim or direct relation relies on occurrence identity
       +-- relation-occurrence description episteme, when a receiving episteme describes the occurrence
       +-- stable relation-occurrence reference, when a receiving episteme contains a designation of it
-  +-- local C.3 kind with an extent rule under C.3.2, when membership, substitution, quantification, or subkind use is current
+  +-- local C.3 kind under C.3.2, when membership, substitution, quantification, or subkind use is current
 ```
 
 The branches are independent thresholds; explicit occurrence individuation does not require a `RelationSignature`. The direct-relation definition supplies the obtaining predicate and direct occurrence-identity rule, while current case facts or constituting history must satisfy the predicate before that rule distinguishes an occurrence.
@@ -166,7 +166,7 @@ The declaration's local `ValueKind` constrains the actual participant correspond
 
 Every assignment species declares its own participant meanings, predicate, applicability, and occurrence-identity rule. It adds another participant meaning only when its corresponding participant changes the predicate or occurrence identity. A `KindSignature`, system-role-taxonomy episteme, effective reference scheme, bridge, or model-use structure may interpret a receiving assertion or use when needed; it is not another participant merely because it helps interpret the claim.
 
-`assignmentInterval` is not another SlotKind or a ValueKind admitted for a relation participant. It is a local content value in an assignment assertion or relation-occurrence description. The field states the currently known temporal extent of one occurrence, including an explicit open end when the occurrence is current. Under `A.2.1`, an occurrence of one direct species begins when its predicate starts obtaining for all fixed actual participants and continues while it obtains without interruption. Closing an open temporal description refines the same occurrence when continuity holds. A missing-evidence interval remains unknown and establishes neither continuity nor a split. The direct rule ends the occurrence when a participant changes or its predicate ceases to obtain; demonstrated non-assignment supports concluding that it ended. A.2.5 defines assignment-state predicates and direct state relations; the patterns for capability, performed Work, and supporting claims retain their distinct definitions.
+`assignmentInterval` is not another SlotKind or a ValueKind admitted for a relation participant. It is a local content value in an assignment assertion or relation-occurrence description. The field states the currently known temporal extent of one occurrence, including an explicit open end when the occurrence is current. Under `A.2.1`, an occurrence of one direct species begins when its predicate starts obtaining for all fixed actual participants and continues while it obtains without interruption. A later assertion that supplies the end time can refer to the same occurrence when obtaining was uninterrupted. C.2.1 identifies the revised assertion separately. A missing-evidence interval remains unknown and establishes neither continuity nor a split. The direct rule ends the occurrence when a participant changes or its predicate ceases to obtain; demonstrated non-assignment supports concluding that it ended. A.2.5 defines assignment-state predicates and direct state relations; the patterns for capability, performed Work, and supporting claims retain their distinct definitions.
 
 #### A.6.5:4.8 - Recover interface and port relations before declaring slots
 

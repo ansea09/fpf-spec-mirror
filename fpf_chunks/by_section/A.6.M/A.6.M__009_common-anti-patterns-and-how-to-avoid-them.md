@@ -6,12 +6,12 @@ section_id: "A.6.M:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 24111
-line_end: 24124
+line_start: 24123
+line_end: 24136
 dependencies:
   - "A.10"
   - "A.20"

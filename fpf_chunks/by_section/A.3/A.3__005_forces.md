@@ -6,12 +6,12 @@ section_id: "A.3:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:4 — Forces"
-line_start: 9573
-line_end: 9582
+line_start: 9585
+line_end: 9594
 dependencies:
   - "A.10"
   - "A.12-A.15"

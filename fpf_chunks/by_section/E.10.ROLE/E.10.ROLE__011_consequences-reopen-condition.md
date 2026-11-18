@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:9"
 section_title: "Consequences — Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__011_consequences-reopen-condition.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:9 — Consequences — Reopen Condition"
-line_start: 108256
-line_end: 108263
+line_start: 108304
+line_end: 108311
 dependencies:
   - "A.2"
   - "A.2.1"

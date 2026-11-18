@@ -6,12 +6,12 @@ section_id: "A.19.CN:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:intro — Intro"
-line_start: 37919
-line_end: 37932
+line_start: 37940
+line_end: 37953
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -41,7 +41,7 @@ keywords:
 
 > **Status:** Stable
 
-> **Scope.** Use a CN-frame to state which values may be compared for one bearer and intended use. Declare the characteristic space, chart and comparison basis in CN-Spec, adding normalization when needed. Maintain editions retained for later reuse or shared use, and apply the conditions for each proposed reuse.
+> **Scope.** Use a CN-frame to state which values may be compared for the intended use. The specification can apply to one bearer or to members of a named bearer kind; each reading retains the subject or participants it concerns. Declare the characteristic space, chart and comparison basis in CN-Spec, adding normalization when needed. Maintain editions retained for later reuse or shared use, and apply the conditions for each proposed reuse.
 >
 > **Use this when** readings need a recoverable comparison basis or a changed basis may affect their reuse. Keep the bearer, Characteristic and Scale meanings, observation or evaluation basis and intended comparison together. An already sufficient account can serve as CN-Spec; its notation is unrestricted. Apply the corresponding `A.19` mechanism pattern when normalization, indicatorization, scoring, aggregation, comparison or selection is needed. C.16 governs measurement backing and G.0 governs the applicable admission conditions.
 >

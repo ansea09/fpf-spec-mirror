@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.P2S.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
-line_start: 80758
-line_end: 81273
+line_start: 80786
+line_end: 81301
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -40,7 +40,7 @@ keywords:
 
 Use this pattern when an architect or architecture-responsible practitioner has a stated receiving-use basis and must carry its architecture pressure through selected structures, candidate synthesis, project architecture decision, realization Work, actual-structure feedback, and the next action selected for the current question.
 
-In a systemic product undertaking, recover the common SoI and useful use that justify the architecture. In work on its creator, keep the organization as the architectural subject and connect its needed capability to that product use. An independently warranted non-system result retains its own receiving question. When a needed use, boundary or functioning hypothesis remains unclear, recover that basis before relying on the dependent architecture choice.
+In a systemic product undertaking, recover the product SoI, the extended enterprise organized for it and the intended use or withdrawal from use that justifies the architecture. In work on its creator, keep the organization as the architectural subject and connect its needed capability to that product use. An independently warranted non-system result retains its own receiving question. When a needed use, boundary or functioning hypothesis remains unclear, recover that basis before relying on the dependent architecture choice.
 
 Common starting situations include:
 
@@ -215,7 +215,7 @@ Second, the flow starts inside the boundary or disappears into relation rows. An
 
 Apply the smallest useful part of the action sequence below. Create or update `ProblemToStructureArchitecturingFlowCard@Project` only when its record is useful for that work. The numbered presentation guides attention; it is not by itself a claim about the order, identity, or occurrence of project Work or actual transformations. When the applicable rule in another pattern fully answers the current question, use that pattern and stop there. Continue P2S only while the connected project-local architecturing flow remains the object of the question.
 
-Before selecting internal structure, state the expected receiving change, the beneficiary or relying use, its operating time and relevant encompassing functioning, and the hypothesis by which the proposed result could support that use. In a systemic product account, recover the common SoI and its actual or intended boundary. Move toward use and upward through the relevant part–whole relations. Explain how the parts of the encompassing whole function together and derive the system's required contribution before moving inward to construction or backward to creation.
+Before selecting internal structure, state the expected receiving change, the beneficiary or relying use, its operating time and relevant encompassing functioning, and the hypothesis by which the proposed result could support that use. In a systemic product account, recover the SoI, its extended enterprise and agreements under A.1.STM:4.1, and its actual or intended boundary. Move toward use and upward through the relevant part–whole relations. Explain how the parts of the encompassing whole function together and derive the system's required contribution before moving inward to construction or backward to creation.
 
 A creator, owner or larger project is not a containing System by that fact. A merely intended system stays in plan or description content. A.1 and A.1.SCR govern actual-system recognition; A.15.6 recovers the project Work, designation and local subject.
 
@@ -233,7 +233,7 @@ Use A.1.STM:4.1–4.3 when the common use basis or the local subject's contribut
 
 Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted problem-side record or accepted C.22.2 `ProblemCard` episteme plus the carried distinction into the next FPF use. A C.32.P2S use carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, and actual-structure feedback. The practitioner then uses the pattern for the next question. The analogy ends when that question is method, work, telemetry, publication, or improvement-loop use; use its pattern rather than stretching P2S into generic process management.
 
-1. Recover the problem pressure or architecture concern together with its receiving-use basis. B.5.PI can expose it before a complaint or actual Problem. Name the expected environmental or relying-use change, beneficiary or user, operating time and relevant encompassing relations, common product SoI and boundary hypothesis where a systemic product account is current, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. For the systemic product account, derive required functioning from how the system contributes with the other parts of its encompassing whole.
+1. Recover the problem pressure or architecture concern together with its receiving-use basis. B.5.PI can expose it before a complaint or actual Problem. Name the expected environmental or relying-use change, beneficiary or user, operating time and relevant encompassing relations, product SoI, extended enterprise, agreement basis and boundary hypothesis where a systemic product account is current, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. For the systemic product account, derive required functioning from how the system contributes with the other parts of its encompassing whole.
 
    If the pressure is still only a cue, use C.22.2 and cite the resulting `ProblemCard` episteme when it becomes the accepted input. If an actual Problem is claimed, cite an independently obtaining C.22.PFR `ProblematicForRelation`; the card and its fields create no such occurrence.
 
@@ -404,7 +404,7 @@ The local `A.15.PROD` entity-identity-inception claim uses the applicable PumpSk
 
 A later `C.30.AD` or `C.30.ASV` record describes the actual structure; use `C.32.ACE` to evaluate service-access coupling. When coupling is worse than the selected expectation, the eval result returns to decision repair or new synthesis. Neither the description, evaluation, identity-inception claim, completion claim, nor shared assembly work proves conformance to the selected architecture or transformation composition.
 
-**Workshop capability with finite acceptance.** A workshop-development project must enable the delivery of machined components with an agreed surface finish under the expected order flow. The components in their receiving use supply the product SoI; the workshop is the architectural subject. One candidate adds a machine, another combines that machine with a revised production Method, qualified operators, suitable measurement and secured material access, and a third obtains suitable external machining. The architect compares their actual capacity, handovers, cost and provision conditions.
+**Workshop capability with finite acceptance.** A workshop-development project must enable the delivery of machined components with an agreed surface finish under the expected order flow. The workshop and receiving organizations have agreed supply and acceptance obligations for those components. The components are the SoIs of their extended enterprise; the workshop is the architectural subject. One candidate adds a machine, another combines that machine with a revised production Method, qualified operators, suitable measurement and secured material access, and a third obtains suitable external machining. The architect compares their actual capacity, handovers, cost and provision conditions.
 
 A machine-only candidate cannot establish the workshop capability while the measurement Method or skilled operator is absent. A bounded acquisition project may still deliver and accept the machine. For the capability project, choose a supported combination or a bounded investigation of the unresolved fit; carry that distinction to PAD.
 

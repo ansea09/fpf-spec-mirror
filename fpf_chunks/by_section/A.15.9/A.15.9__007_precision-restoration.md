@@ -6,12 +6,12 @@ section_id: "A.15.9:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__007_precision-restoration.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:6 — Precision restoration"
-line_start: 33706
-line_end: 33719
+line_start: 33722
+line_end: 33735
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "C.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__004_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:3 — Forces"
-line_start: 59253
-line_end: 59262
+line_start: 59264
+line_end: 59273
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,6 +57,6 @@ keywords:
 | Choice doctrine versus candidate formation and generation | `C.11` must govern choice among already-available options without taking over their formation or development. |
 | Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
 | Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
-| Decision subject versus narrower agent language | The chooser may be one person, one team, one organization, or another collectivity-bearing system. The pattern must not silently force all cases into one narrow `Agent` reading. |
+| Individual and collective choice | A person, a technical system or a body acting jointly can make a choice. Participation in the comparison does not by itself establish who made the decision. |
 | Minimal mathematical floor versus premature heavy formalism | The pattern needs a stable object stack for disciplined reasoning and inspection, but it should not treat a full quantum-like or geometry-heavy package as already settled. |
 

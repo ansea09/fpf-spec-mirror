@@ -6,12 +6,12 @@ section_id: "C.3.5:1"
 section_title: "Purpose"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__002_purpose.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:1 — Purpose"
-line_start: 58520
-line_end: 58531
+line_start: 58529
+line_end: 58542
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -34,7 +34,9 @@ keywords:
 
 Teams need a quick answer to a planning question: is this local kind intended as a curated instance-like cohort, a behavioral pattern, a formal invariant-bearing kind, or a kind considered up to structural equivalence? The answer can guide where declaration rigor and assurance effort are likely to pay off. An ordinary description of those planning needs is sufficient when a shared tag adds no useful distinction.
 
-KindAT gives that planning vocabulary while keeping the governing objects separate:
+KindAT records how one local kind is treated for catalogue and planning work. Comparing the levels of abstraction of two models requires a shared inquiry and interpretation (B.5.MR). Suppose one-day and three-day schedules both satisfy a service policy. A revised model keeps the earlier commitments and limits the interval to at most two days. If the one-day schedule is still feasible, the three-day schedule shows which previously possible answer the model excludes. The kind of service order can keep the same K tag throughout.
+
+Use the governing objects for their respective decisions:
 
 - the local kind and its order remain under C.3/C.3.1;
 - the `KindSignature` remains a declaration episteme whose expression properties may change under C.2.3;

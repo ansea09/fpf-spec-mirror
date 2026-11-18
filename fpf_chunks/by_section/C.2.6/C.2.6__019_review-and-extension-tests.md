@@ -6,12 +6,12 @@ section_id: "C.2.6:18"
 section_title: "Review and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__019_review-and-extension-tests.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:18 — Review and Extension Tests"
-line_start: 56682
-line_end: 56692
+line_start: 56689
+line_end: 56699
 dependencies:
   - "A.10"
   - "A.16"

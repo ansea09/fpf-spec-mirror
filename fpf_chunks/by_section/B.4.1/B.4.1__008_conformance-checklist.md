@@ -6,12 +6,12 @@ section_id: "B.4.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:7 — Conformance Checklist"
-line_start: 48013
-line_end: 48020
+line_start: 48042
+line_end: 48049
 dependencies:
   - "A.15"
   - "A.16"
@@ -37,7 +37,7 @@ keywords:
 - `CC-B.4.1-1` Observe output **SHALL NOT** be forced into `AnomalyStatement` when articulation threshold is not met.
 - `CC-B.4.1-2` A routed cue set **SHALL** name its `candidateRouteSet`.
 - `CC-B.4.1-3` When route selection occurs, `routeDecision`, `selectedRoute`, and `routeRationale` **SHALL** be explicit.
-- `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named, but route-bearing form and publication face **SHALL NOT** be collapsed.
+- `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named. The expression **SHALL** satisfy the route-form requirements as well as the presentation rules of any selected MVPK face.
 - `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** be treated as establishing a late endpoint result.
 - `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 

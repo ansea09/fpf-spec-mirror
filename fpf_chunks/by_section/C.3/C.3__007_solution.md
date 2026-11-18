@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:5 — Solution"
-line_start: 57560
-line_end: 57575
+line_start: 57569
+line_end: 57584
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,13 +48,13 @@ keywords:
 
 Use the lightest object that answers the current typed-reasoning question.
 
-First identify what the sentence lets the recipient do. “Repair this stool” designates an item. “Which seats count as stools in this catalogue?” calls for a membership criterion. “Count the stools in the May delivery” also requires identification of the delivery and the units present. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. A membership claim about a kind, identification of an individual and inclusion in such a family require their own grounds. A catalogue row or plural noun can help locate the question. Neither supplies those grounds by itself. F.19:4.3.1 explains how to retain the distinction in working prose.
+First identify what the sentence lets the recipient do. “Repair this stool” designates an item. For this catalogue, suppose a stool is a seat designed for one person, with neither back nor arms. To classify a seat, inspect those features. To count stools in the May delivery, identify its units and apply the catalogue criterion to each. A list of two confirmed stools settles the total only if the delivery inventory and classifications account for every possible member. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. A membership claim about a kind, identification of an individual and inclusion in such a family require their own grounds. A catalogue row or plural noun can help locate the question. Neither supplies those grounds by itself. F.19:4.3.1 explains how to retain the distinction in working prose.
 
 1. **Recover the kind.** Name the candidate domain and the operative membership distinction: what an intended member must satisfy and what separates a relevant non-member. Record the continuity rule used when that distinction changes. Keep practice/source provenance as a cue to compare definitions, not as an automatic identity key. Do not store the current use, ClaimScope, context slice, or reference scheme on the kind.
 2. **Use C.3.1 for subkind and continuity.** A `U.SubkindOf` fact obtains through exact criterion entailment under an aligned interpretation or through exhaustive evaluation over a deliberately closed finite domain. The facts form a preorder. Opposite facts between distinct kinds may express classification equivalence for that applicability; a consumer may order the resulting equivalence groups without identifying the kinds.
 3. **Use C.3.2 for declaration and admissible judgment.** A repeated condition may justify a `KindSignature`. First check candidate `ValueKind` and applicability. Only an admissible application returns `true`, `false`, or `unknown`.
 4. **Let the governed criterion condition decide.** A direct quality, relation, construction, episteme, registration, certification, publication occurrence, legal status, or other governed condition makes the criterion hold when the criterion names it. An observation, record, or source used merely as evidence does not constitute an independently governed condition. Use each condition's direct pattern.
-5. **Keep four outcomes distinct.** `not-applicable` means the judgment should not be formed. For an admissible candidate, a satisfied criterion gives `true`, a known failed criterion gives `false`, and missing support or an unavailable required dependency gives `unknown`. A guard may decline use without rewriting any of these results.
+5. **Keep four outcomes distinct.** `not-applicable` means the judgment should not be formed. For an admissible candidate, a satisfied criterion gives `true`, a known failed criterion gives `false`, and an unsettled criterion gives `unknown`. Missing facts elsewhere in a compound criterion leave an independently settled result intact. A guard may decline use without rewriting any of these results.
 6. **Materialize an extension only for use.** A query, quantification, comparison, or review may need `KindExtension(k, slice)`. It represents admissible candidates judged `true`; notation, rows, or set membership do not create an ontic collection or classification relation.
 7. **Keep scope, formality, Work, and publication separate.** Formality characterizes the declaration episteme. Scope belongs to claims or capabilities. `U.Work` is a kind and `W : U.Work` is one independently grounded dated work occurrence. Plans, logs, cards, field bundles, carriers, and rows remain their own objects.
 

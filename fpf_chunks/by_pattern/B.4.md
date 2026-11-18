@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
-line_start: 47701
-line_end: 47890
+line_start: 47730
+line_end: 47919
 dependencies:
   - "A.12"
   - "A.15.1"

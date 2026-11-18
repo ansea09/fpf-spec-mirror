@@ -6,12 +6,12 @@ section_id: "E.4.FPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:5 — Archetypal Grounding"
-line_start: 99084
-line_end: 99124
+line_start: 99112
+line_end: 99152
 dependencies:
   - "C.33"
   - "C.34"

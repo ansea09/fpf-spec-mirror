@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
-line_start: 56695
-line_end: 56889
+line_start: 56702
+line_end: 56896
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -76,8 +76,8 @@ A local alias such as `EncodingBasis` shall identify the factors and readings it
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |
 |---|---|---|
-| `LocalityDistribution` | Is the representation concentrated in local units or distributed across many units? | local / mixed / distributed |
-| `Sparsity` | How concentrated are activation, representation use, or descriptive marks? | sparse / mixed / dense |
+| `LocalityDistribution` | Which units distinguish the represented value on the declared encoding basis? Does one unit suffice, or is a combination needed? | local / mixed / distributed |
+| `Sparsity` | What share of the declared units is active or used for the value being represented? | sparse / mixed / dense |
 | `Symbolicity` | How explicit are the symbolic structures and tokens? | symbolic / mixed / subsymbolic |
 
 Before comparing factors, identify the representation and the units being described. A model-side code and its written summary need not have the same factors.

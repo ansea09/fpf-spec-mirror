@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:4"
 section_title: "Solution (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__006_solution-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:4 — Solution (normative)"
-line_start: 40103
-line_end: 40205
+line_start: 40126
+line_end: 40228
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -125,7 +125,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
 
 #### A.19.ULSAM:4.2 - Interpretation notes (didactic, informative)
 
-- **Identify the fold and its governing conditions.** The fold is the aggregation rule; ΓFoldRef identifies the selected rule. Its use is a policy-level commitment: `GammaFoldSlot` MUST be resolvable to `CGSpecSlot.Γ_fold` routing or a pinned override. A calculation can still have occurred without that citation, but its conformance and reuse basis remain unresolved until the rule is recovered.
+- **Identify the fold and its governing conditions.** The fold is the aggregation rule; ΓFoldRef identifies the selected rule. `GammaFoldSlot` MUST be resolvable to `CGSpecSlot.Γ_fold` routing or a pinned override. A calculation can still have occurred without that citation, but its conformance and reuse basis remain unresolved until the rule is recovered.
 - **ULSAM is not normalization.** ULSAM does not establish comparability by itself: it does not normalize, rescale, or “align units” as a hidden convenience. If a compare‑on‑invariants surface is required, invoke UNM upstream and cite the effective pins in Audit.
 - **Keep separate measures when sufficient.** If separate measures answer the receiving question, keep them separate. Use `CPM` for a needed comparison and `SelectorMechanism` for a needed selection, under their declared partial-order and set-return rules. A fold can discard distinctions; state which distinctions the declared fold preserves and loses.
 - **Recover the actual contributors.** Existing input and calculation content may already establish the contributor subset; use the optional ContributorSet output when it supplies needed recoverability. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Conversely, copying the assertion about one box does not make two boxes or authorize counting its mass twice. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.

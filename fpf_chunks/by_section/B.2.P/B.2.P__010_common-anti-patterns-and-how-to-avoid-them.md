@@ -6,12 +6,12 @@ section_id: "B.2.P:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 45702
-line_end: 45714
+line_start: 45729
+line_end: 45741
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 | Collection receives agency by wording | A community, pool, fleet, or base acts because the noun is collective. | Recover membership, collection-as-whole, acting collective system, whole-level characteristic, or MHT separately. |
 | Metric jump as new whole | Benchmark improvement is declared as emergence. | Establish what characteristic or benchmark changed under its measurement or evaluation rule, preserving the grounds needed for that inference. Use B.2 when whole identity remains the question. |
 | Title mnemonic as authority | MET or MFT is used as if the acronym named the thing or claim under discussion. | Recover an episteme-whole reidentification claim, capability or functioning facts, their episteme or function pattern, or source-only wording. |
-| Description as in-life whole | A model, dashboard, report, or twin is treated as the system because it depicts the system. | Use episteme, publication, architecture-description, source-use, or digital-twin description patterns for the description; independently recover any in-life holon under its pattern. |
+| Representation as represented whole | A model, dashboard, report, or twin is identified with the holon it represents merely because it represents it. | For a model, recover the modeled entity, the entity used as its model and the grounds for that use through C.2.1:4.0.3 and the subject Method. For a description, recover its claims, expression and publication under their patterns. Recognize each claimed holon under its own pattern. |
 | Evidence decides ontology | Missing or stale evidence is taken to end a whole, while a current record is taken to create one. | Keep construction and reidentification world-side; evaluate support, currentness, and reliance separately. |
 | Selected structure as new whole | A bounded model-use structure or Context Map is called a meta-system. | Keep dependent `U.Structure` under A.1.1 and A.22, and identify any candidate new system independently. |
 

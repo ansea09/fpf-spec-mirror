@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
-line_start: 116342
-line_end: 116609
+line_start: 116390
+line_end: 116657
 dependencies:
   - "A.16.0"
   - "A.7"

@@ -6,7 +6,7 @@ section_id: "A.1.SCR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__003_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:1 — Problem frame"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.1.SCR:1 - Problem frame
 
-Familiar nouns can pull attention toward the wrong system or erase a supported proposed-system reading. *Mastery* may name a capability or the physical/operational whole `SutureControl-M17`. *Session* may name Work, an interval, a record, or `GameSessionWhole-GS204`. *Access* may name promise, permission, state, bearer, Work, or `InternetAccessArrangement-CA17`. *Program* may mean code, a Method, an intended designator, a deployed realization, or a run. The engineering cost is a wrong actor, identity boundary, change bearer, capability holder, or project system-of-interest—and the same error occurs when a convenient neighboring referent replaces the entity before A.1 evaluates it.
+Familiar nouns can pull attention toward the wrong system or erase a supported proposed-system reading. *Mastery* may name a capability or the physically embodied whole `SutureControl-M17`. *Session* may name Work, an interval, a record, or `GameSessionWhole-GS204`. *Access* may name promise, permission, state, bearer, Work, or `InternetAccessArrangement-CA17`. *Program* may mean code, a Method, an intended designator, a deployed realization, or a run. The engineering cost is a wrong actor, identity boundary, change bearer, capability holder, or project system-of-interest—and the same error occurs when a convenient neighboring referent replaces the entity before A.1 evaluates it.
 
 A.1 is the pattern for constructive recognition under admitted holon kinds. A.1.SCR does not relax or duplicate that criterion. It tells the practitioner when the complete test is worth doing, permits an immediate subject-pattern exit when it is not, and returns one result tied to a concrete decision.
 

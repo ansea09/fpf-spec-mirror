@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 45966
-line_end: 45977
+line_start: 45993
+line_end: 46004
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,5 +50,5 @@ FPF adapts this distinction in B.2.2:4.3 by recovering the controller or distrib
 
 Acting on an object and being part of it are different relations. A.12, A.3.4, A.15.1, A.14, and C.13 remain separate subject patterns.
 
-Descriptions can track a system without being the system. Use episteme, description, representation, and publication patterns for the descriptive item; recover the operating system independently as EoC.
+Descriptions can track a system without being that system. Use episteme, description, representation, and publication patterns for the descriptive item; recover the operating system independently as EoC.
 

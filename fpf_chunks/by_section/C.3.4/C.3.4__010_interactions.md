@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:8 — Interactions"
-line_start: 58409
-line_end: 58429
+line_start: 58418
+line_end: 58438
 dependencies:
   - "A.2.6"
   - "C.2.1"

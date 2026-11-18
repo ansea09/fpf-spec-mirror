@@ -6,12 +6,12 @@ section_id: "A.16.1:20"
 section_title: "Witness and Carrier Triage"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__020_witness-and-carrier-triage.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:20 — Witness and Carrier Triage"
-line_start: 35590
-line_end: 35600
+line_start: 35606
+line_end: 35616
 dependencies:
   - "A.16"
   - "A.16.0"

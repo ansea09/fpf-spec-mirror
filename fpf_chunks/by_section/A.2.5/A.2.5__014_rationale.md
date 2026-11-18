@@ -6,12 +6,12 @@ section_id: "A.2.5:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__014_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:11 — Rationale"
-line_start: 6943
-line_end: 6950
+line_start: 6955
+line_end: 6962
 dependencies:
   - "A.15"
   - "A.15.1"

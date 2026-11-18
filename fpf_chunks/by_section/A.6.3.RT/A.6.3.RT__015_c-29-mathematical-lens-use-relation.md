@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:12b — C.29 mathematical-lens use relation"
-line_start: 19886
-line_end: 19889
+line_start: 19898
+line_end: 19901
 dependencies:
   - "A.1.1"
   - "A.10"

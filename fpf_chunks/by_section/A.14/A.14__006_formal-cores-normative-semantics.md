@@ -6,12 +6,12 @@ section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"
-line_start: 29497
-line_end: 29590
+line_start: 29509
+line_end: 29604
 dependencies:
   - "A.1"
   - "A.15"
@@ -61,6 +61,8 @@ keywords:
 **Applicability.** Any `U.Holon` that carries an **extensive** measure μ on the chosen scope
 (examples: mass, volume, length‑of‑text, byte size, wall‑time budget).
 
+Several expressions of one episteme can have different text lengths, pagination or encoded sizes. Attach the measure to the selected expression or carrier state, using C.2.1 and E.24.PUB to keep its identity separate from the episteme. An A.14 `PortionOf` claim additionally requires independently admitted part and whole holons. Ordinary counting within an expression can use that expression domain's rules directly.
+
 **Primitive.** `PortionOf(x, y)` means: *x is a measured part of y of the same kind of stuff/content, allowing x = y; the strict case is ProperPortionOf under POR-2*.
 
 **Axioms (A14‑POR‑\*)**
@@ -79,7 +81,7 @@ If a proposed proper part has zero measure or the same measure as the whole, use
 
 - ✔ “5 kg from a 20 kg billet” — PortionOf.
 - ✔ Two disjoint 5 kg cuts from the same 20 kg billet have a 10 kg join under the same mass unit and boundary rule; that join is still a ProperPortionOf the billet.
-- ✔ “The report text rendered on pages 1–10” — PortionOf when the identified text span and whole report text satisfy the same-content and boundary rules, using page count under fixed pagination or a separately established token count.
+- ✔ “The report text rendered on pages 1–10” — measure the span within the selected expression under fixed pagination or a separately established token count. Use PortionOf when the span and whole text are independently admitted holons and satisfy the same-content, measure and boundary rules.
 - ✘ “The pump module of the plant” as an integrated structural part — use **ComponentOf** for that claim, not PortionOf.
 - ✘ “The Methods section of the paper” as a conceptual part of its argument — use **ConstituentOf** for that claim, not PortionOf.
 

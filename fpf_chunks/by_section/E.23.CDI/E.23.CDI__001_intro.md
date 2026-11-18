@@ -6,12 +6,12 @@ section_id: "E.23.CDI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:intro — Intro"
-line_start: 123100
-line_end: 123107
+line_start: 123148
+line_end: 123155
 dependencies:
   - "A.15.1"
   - "A.2.2"

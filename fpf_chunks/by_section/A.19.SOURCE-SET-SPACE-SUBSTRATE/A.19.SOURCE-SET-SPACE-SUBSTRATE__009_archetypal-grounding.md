@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__009_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:5 — Archetypal Grounding"
-line_start: 37345
-line_end: 37412
+line_start: 37365
+line_end: 37432
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:
@@ -40,7 +42,7 @@ keywords:
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.1 - System
 
-One QD line keeps saying that one archive is both the search-side role and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor layer into the space itself.
+One QD line keeps saying that one archive is both the search-side role and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor map into the space itself.
 
 In this constructed case, `Archive-12` is the selected candidate set. The declared descriptor map assigns behavior Coordinates to its members; the separately declared neighborhood metric is used to assess coverage in that same behavior space.
 
@@ -99,8 +101,8 @@ Use the pattern this way across different working situations:
 
 | Working situation | What to do with this pattern | What must stay explicit | Common miss avoided |
 | --- | --- | --- | --- |
-| Archive-side QD line where navigation and evaluation stay in one declared behavior space | Use the shared-space profile. Recover the source basis, both space uses, their same-space relation, the source-to-outcome connection and its limitations; add descriptor/metric qualifiers when used. | The archive as source set, both role-refs, the same declared space and applicable qualifications. | Treating the archive or descriptor layer as if it were the space itself. |
+| Archive-side QD line where navigation and evaluation stay in one declared behavior space | Use the shared-space profile. Recover the source basis, both space uses, their same-space relation, the source-to-outcome connection and its limitations; add descriptor/metric qualifiers when used. | The archive as source set, both role-refs, the same declared space and applicable qualifications. | Treating the archive or descriptor map as if it were the space itself. |
 | Derived tradition/front line that is judged against one different outcome space | Use the cross-space profile. Keep the derivation and base palette recoverable where the receiving use depends on them; add `DerivedViewKind` and `BasePaletteRef` when needed or required by its selected publication contract. | The derived view stays derived, the needed base palette remains recoverable, and the cross-space relation stays explicit. | Letting the visible front replace the base palette or hiding the adoption model's limitations. |
-| Learned, adaptive, or uncertainty-bearing line where the space is declared but heavier qualification remains case-bound | Keep the substrate core recoverable and state the uncertainty, adaptation or refresh conditions that affect the receiving use. Add a posture token when the selected interface requires it. | The reader can distinguish the declared substrate from unresolved accuracy, applicability or stability claims. | Pretending every case is either fully transparent or fully described by one metric stack. |
+| Learned, adaptive, or uncertainty-bearing line where the space is declared but heavier qualification remains case-bound | Keep the substrate core recoverable and state the uncertainty, adaptation or refresh conditions that affect the receiving use. Add a posture token when the selected interface requires it. | The reader can distinguish the declared substrate from unresolved accuracy, applicability or stability claims. | Pretending every case is either fully transparent or fully described by one metric specification. |
 | Shortlist or publication note that only says what set result or publication form is shown or shipped | Do not use this pattern. Apply `G.5` or `G.10`. | The note stays publication-facing instead of imitating substrate depth. | Padding publication metadata with pseudo-substrate language. |
 

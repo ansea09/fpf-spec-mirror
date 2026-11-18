@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__004_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:3 — Forces"
-line_start: 20261
-line_end: 20270
+line_start: 20273
+line_end: 20282
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -45,7 +45,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Selected source structure vs human sequence | A reader often needs an ordered path, while the selected source structure may be a graph, mechanism, option set, architecture, or evidence field rather than a line. |
+| Selected source structure vs reader sequence | A reader often needs an ordered path, while the selected source structure may be a graph, mechanism, option set, architecture, or evidence field rather than a line. |
 | Engagement vs truth boundary | Tension, viewpoint, protagonist, and pacing can help attention, but they do not widen truth, evidence, authority, ethical permission, or admissible downstream use. |
 | Compression vs recoverability | A narrative foregrounds some structure and leaves other structure behind. The useful loss must be visible. |
 | Event comprehension vs non-event structure | Some selected source structures involve events and actions; others involve dependencies, constraints, alternatives, or architectures. The pattern must support both without forcing a fiction model. |

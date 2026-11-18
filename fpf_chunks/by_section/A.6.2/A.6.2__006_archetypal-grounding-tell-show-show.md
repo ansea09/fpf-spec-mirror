@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 18249
-line_end: 18336
+line_start: 18261
+line_end: 18348
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -33,9 +33,9 @@ keywords:
 
 ### A.6.2:5 - Archetypal Grounding (Tell–Show–Show)
 
-The examples below show how EFEM is intended to be used across the EntityOfConcern and Description-episteme boundary, specification-use refinements, and Viewpoint/MVPK publication lanes.
+The examples below show how EFEM is intended to be used across the EntityOfConcern and Description-episteme boundary, specification use, and Viewpoint/MVPK publication lanes.
 
-#### A.6.2:5.1 - Typed specification-use refinement `Specify_DescEp_SpecDesc` (species of EFEM)
+#### A.6.2:5.1 - Conservative arrow to an episteme used as a specification: `Specify_DescEp_SpecDesc`
 
 *Context.* You have a `U.MethodDescription` for a safety check and want a more formal description of the same Method for a named specification use, with checkable constraints or test-harness obligations. Before calling the relation conservative, identify the claims that already support those constraints.
 
@@ -57,7 +57,7 @@ If an author chooses a new threshold, acceptance condition, harness obligation, 
 
 Keeping episteme identity, describing use, and production separate matches A.7 and E.10.D2. Under C.2.1, each Description episteme is identified by its complete claim content, its own EntityOfConcern reference, and its effective ReferenceScheme; any describing use or production relation is separately identified.
 
-`Specify_DescEp_SpecDesc` is an optional EFEM species once a specification-use or refinement gate admits that use. E.10.D2 governs specification-use admission, A.7 governs the Description/Specification distinction, and the declared `Specify_DescEp_SpecDesc` arrow carries the episteme-to-episteme relation.
+`Specify_DescEp_SpecDesc` is an optional EFEM species under the conditions above. E.10.D2 governs the receiving specification use; the declared arrow relates the two independently identified epistemes. If the endpoints serve as models, B.5.MR separately tests a refinement or abstraction claim.
 
 #### A.6.2:5.2 - Internal normalisation of a View (species of EFEM, `entityOfConcernChangeMode = preserve`)
 

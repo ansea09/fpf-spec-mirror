@@ -6,12 +6,12 @@ section_id: "A.19.CHR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:10 — Rationale"
-line_start: 38881
-line_end: 38892
+line_start: 38904
+line_end: 38915
 dependencies:
   - "A.15.2"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution - start with the direct move; add a ConstructorSignature for named reuse"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-start-with-the-direct-move-add-a-constructorsignature-for-named-reuse.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:4 — Solution - start with the direct move; add a ConstructorSignature for named reuse"
-line_start: 25870
-line_end: 25965
+line_start: 25882
+line_end: 25977
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -63,7 +63,7 @@ The two signatures remain separate C.2.1 epistemes. State only the relation that
 * when both signatures are merely relevant to the same local question, name them without inventing a pair relation; and
 * if a receiving use needs a relation between them, use its direct rule or A.6.RCD for a missing rule; add explicit occurrence identity only when needed. A new framework pattern follows E.24, and a proposed U-kind follows E.24.UK. A.6.S admits no generic pair relation.
 
-`TargetSignature` and `ConstructorSignature` are Tech designations of each signature's place in this use, not local system-role kinds. A publication may explain TargetSignature as “the signature being engineered”; it need not introduce the abbreviation *SoI*. Do not conflate the TargetSignature with its C.2.1 EntityOfConcern. Distinct signature editions remain distinct epistemes when their C.2.1 discriminator triples differ; any empirical-grounding, edition, continuity, dependency, source-use, or publication relation remains separately identified.
+`TargetSignature` and `ConstructorSignature` are Tech designations of each signature's place in this use, not local system-role kinds. A publication may explain TargetSignature as “the signature being engineered”. SoI designates a product System in an extended enterprise under A.1.STM, rather than this episteme. Do not conflate the TargetSignature with its C.2.1 EntityOfConcern. Distinct signature editions remain distinct epistemes when their C.2.1 discriminator triples differ; any empirical-grounding, edition, continuity, dependency, source-use, or publication relation remains separately identified.
 
 
 #### A.6.S:4.2 - Choose the constructor vocabulary that the receiving use needs

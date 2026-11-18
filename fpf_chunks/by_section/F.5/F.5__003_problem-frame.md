@@ -6,12 +6,12 @@ section_id: "F.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:1 — Problem Frame"
-line_start: 127895
-line_end: 127906
+line_start: 127948
+line_end: 127959
 dependencies:
   - "A.10"
   - "A.15"

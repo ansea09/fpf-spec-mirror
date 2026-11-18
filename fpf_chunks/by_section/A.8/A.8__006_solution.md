@@ -6,12 +6,12 @@ section_id: "A.8:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:3 — Solution"
-line_start: 27457
-line_end: 27492
+line_start: 27469
+line_end: 27504
 dependencies:
   - "A.11"
   - "C.3"

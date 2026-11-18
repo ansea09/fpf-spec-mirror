@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "Retained-set and optional applied readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_retained-set-and-optional-applied-readings.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:5 — Retained-set and optional applied readings"
-line_start: 63323
-line_end: 63369
+line_start: 63344
+line_end: 63392
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 `Diversity_P` describes coverage or dispersion of one declared retained set under a named measurement policy. A local policy may, for example:
 
-- take the average pairwise distance among the admitted members under one declared descriptor map, distance Method, and Scale; or
+- take the average pairwise distance under one declared descriptor map, distance Method and Scale. Identify the pairs the statistic covers. The whole-set mean requires at least one pair and enough information to determine the sum over all eligible pairs. A mean calculated only over observed pairs measures that subset. Give its coverage.
 - report how much of a declared feature partition is covered, using a stated covering radius or k-cover rule.
 
 The result identifies the retained set and membership rule, measurement-policy and Scale editions, descriptor or feature source editions, distance or covering definition, comparison window, and evidence. A distance matrix or coverage map can show the calculation. When sensitivity to the kernel, distance definition, covering threshold or admitted-member set can change the receiving decision, use an adequate existing analysis or make the needed comparison and report its consequence. Keep a result on a fixed basis qualified by that basis; claim robustness only with grounds for it.
@@ -62,6 +62,8 @@ The result identifies the retained set and membership rule, measurement-policy a
 For a candidate `h` and retained set `S`, the same local policy may use the marginal reading `DeltaDiversity_P`, also written `ΔDiversity_P`:
 
 `DeltaDiversity_P(h | S) = Diversity_P(S plus h) - Diversity_P(S)`
+
+This difference requires both readings to be defined by the policy. For a starting set with no eligible pair, report the missing pairwise value or identify the policy’s declared initialization convention.
 
 Illumination is a report over `Diversity_P`, such as a coverage map or QD-score summary. It is telemetry, not a primitive characteristic and not part of the default dominance set. Use `C.18` to maintain an Archive or Front and `C.19` to state any pool policy that uses these readings.
 

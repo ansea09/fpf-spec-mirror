@@ -6,12 +6,12 @@ section_id: "C.11.DUA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:1 — Problem frame"
-line_start: 60329
-line_end: 60340
+line_start: 60340
+line_end: 60351
 dependencies:
   - "A.10"
   - "C.11"
@@ -30,7 +30,7 @@ keywords:
 
 **Use this when** a report, expert answer, review comment, rule or checklist asks somebody to act, wait, investigate or supply evidence, but it is unclear how that demand helps their present question or whether they can carry it out.
 
-An engineer reports that a discharge criterion was below the incoming background level. A colleague wants help examining the criterion. A useful answer can attribute the report and distinguish total level from the operation's contribution. Requiring an archive search before making that distinction spends effort without improving that answer. If the colleague later wants to publish who imposed the criterion, the receiving question changes: a contemporary record may now be worth obtaining. The method below reaches a completed answer in both situations.
+An engineer reports that a discharge criterion was below the incoming background level. A colleague examining the criterion can use an attributed report and the distinction between total level and the operation's contribution. An archive search would add work without improving that answer. If the colleague intends to publish who imposed the criterion, a contemporary record may be worth seeking. An answer about which inquiry is worth making can be complete while the authorship of the criterion is still unknown.
 
 The broad activity is decision support through advice. This pattern addresses the branch in which advice turns uncertainty or a requirement into consequential work for its recipient. Its subject is the **advice statement or requirement being composed or examined**, including the action or inquiry it demands. An empirical claim, recommendation, method instruction and binding requirement retain their different meanings and force. The method recovers the demand, appraises it and returns a usable continuation.
 

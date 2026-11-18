@@ -6,12 +6,12 @@ section_id: "B.3.5:11"
 section_title: "Conformance Checklist (normative, author-facing)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__013_conformance-checklist-normative-author-facing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:11 — Conformance Checklist (normative, author-facing)"
-line_start: 47595
-line_end: 47609
+line_start: 47624
+line_end: 47638
 dependencies:
   - "B.3"
   - "C.13"
@@ -31,6 +31,6 @@ keywords:
 | **CC‑CT2R‑5a (Set trace reports).** | The elected set trace names the collection, the entity said to belong, the already established occurrence, the collection's own belongs-to rule, and the identity conditions. The set trace supplies no structural-composition reliability. | Keeps optional assurance from becoming ontology. |
 | **CC‑CT2R‑6 (Mapping fit).** | Where a claim relies on a mapping or alignment, the author **SHALL** state its applicability, preserved/lost distinctions and consequence for this claim. Any quantitative reliability adjustment needs a justified receiving model, compatible Scale and calculation; a CL label alone supplies none. | Keep integration limits inspectable without invented reliability arithmetic. |
 | **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
-| **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its Mapping, Logical, Constructive, or Empirical grounding.                                                  | Preserve unidirectional dependence of layers.                             |
+| **CC‑CT2R‑8 (Layer direction).**                | Present the readable Working-Model claim before its needed Mapping, Logical, Constructive or Empirical support. Authors **SHALL NOT** let assurance notation or record structure dictate the public vocabulary. If support defeats or narrows the claim, revise the claim under its defining pattern and expose the change.                                                  | Preserve unidirectional dependence of layers.                             |
 | **CC‑CT2R‑9 (Claim and scope).** | Authors **SHALL** state the assurance claim and its applicable scope. Design and run claims retain their distinct subjects, evidence and conditions. | Prevent unsupported transfer between design and performed Work while retaining relevant evidence contributions. |
 

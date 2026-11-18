@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:0 — Use This When"
-line_start: 70946
-line_end: 71029
+line_start: 70973
+line_end: 71056
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:intro — Intro"
-line_start: 111981
-line_end: 111984
+line_start: 112029
+line_end: 112032
 dependencies:
   - "B.3.5"
   - "C.13"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
-line_start: 43827
-line_end: 44287
+line_start: 43850
+line_end: 44312
 dependencies:
   - "A.1"
   - "A.15"
@@ -213,9 +213,11 @@ State each whole-forming fact in ordinary domain language before choosing its re
 | parallel | which branch Methods may proceed without a mutual order, the independence condition, and the join condition that must hold before the whole continues |
 | guarded choice | which alternative Method is selected, the selection condition, what happens when no guard or several guards hold, and which whole contains that choice |
 | iteration | which part Method repeats, what establishes another iteration, and the stop or failure condition |
-| refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
+| Method refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
 | fallback or dispatch | which primary and alternative Methods are involved, the trigger for using the alternative, and whether the statement belongs to this whole or only to a selector registry |
 | adapter or typed join | which upstream result meaning satisfies which downstream precondition, which adapter Method or governed correspondence is needed when those meanings differ, and which condition or failure route governs continuation |
+
+Use B.5.MR for refinement or abstraction between models of Methods. Establish a comparison between the Methods themselves through A.3.1's identity and relation conditions. The model comparison alone replaces no constituent Method.
 
 Before using a first–then or vertical list as Method architecture, make both checks.
 
@@ -380,7 +382,7 @@ The two claims can finish this protocol comparison. If the receiving question in
 
 The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established.
 
-A wall poster may be a carrier bearing a publication form; a `U.MethodDescription` edition is a different claim-bearing episteme, and a publication occurrence is what makes that edition available to an audience.
+A wall poster may be a carrier bearing an expression that conforms to a publication form. A `U.MethodDescription` edition is the claim-bearing episteme conveyed by the expression; a publication occurrence makes that edition available to an audience for a bounded use.
 
 For intake Work, recover each performer through A.13 and admit the Work independently through A.15.1. Only if this comparison also consumes which assignment covered that Work should it separately check the A.2.1 occurrence and obtaining F.6 attribution; capability or admission claims consumed by entry remain separate. None of these facts is a Method part.
 

@@ -6,12 +6,12 @@ section_id: "A.16.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:4 — Solution"
-line_start: 35629
-line_end: 35658
+line_start: 35645
+line_end: 35678
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,13 +36,17 @@ keywords:
 ### A.16.2:4 - Solution
 This pattern defines the retreat, reframing, and retirement side of the `A.16` move family.
 
+Identify the claim or question being reconsidered, its subject, the intended next use, the alternatives and the current grounds for closure. State which of those commitments remain supported. Choose a move by what must change: closure, the publication form, the framing or route specification, or current use. Apply A.16:4.3 to any resulting episteme-identity change.
+
 #### A.16.2:4.1 - Move family
 | Move | When to use it | What remains stable | What may change |
 |---|---|---|---|
-| `reopen` | the current family is still right, but closure was over-committed | family and major orientation | closure, rival set, guards |
+| `reopen` | the inquiry or intended use remains appropriate, but closure was over-committed | the supported inquiry or intended use and relevant witnesses | closure, rival set, guards |
 | `sketchBackoff` | the current publication form overstates articulation or stability | witnesses, traces, some anchors | publication form, articulation-explicitness value, route certainty |
-| `respecify` | the family remains plausible, but the framing scaffold, route specification, or facet-profile reading is wrong | broad domain, witness base, and major family commitments | framing scaffold, route specification, facet-profile reading |
+| `respecify` | the inquiry or intended use remains appropriate, but the framing, route specification, or facet-profile reading is wrong | the supported inquiry or intended use and relevant witnesses | framing, route specification, facet-profile reading |
 | `retire` | a cue, route-bearing publication, episteme, or branch is no longer current or no longer worth preserving | recorded history and any cited witnesses that still matter | current-use or retirement status, successor information, and any separately established relation change |
+
+One revision can both restore alternatives and replace a framing or route specification. State both `reopen` and `respecify`, with the grounds for each change. These names describe what changed; they prescribe no fixed order. Reopening alternatives alone leaves the framing in place, while replacing a framing does not establish its conclusions.
 
 `respecify` is narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
 
@@ -52,7 +56,7 @@ Make the following content recoverable for each retreat or retirement move; add 
 - source publication form,
 - source articulation, closure, route plurality or selection, endpoint-use disposition, publication availability, and current-use status insofar as each is current,
 - trigger or counter-evidence,
-- target family or target publication form when there is one; a retired branch may have no successor,
+- target publication form, inquiry or intended use when one is selected; a retired branch may have no successor,
 - retained witnesses,
 - withdrawn assumptions, route claims, endpoint-use or current-use claims, and any authority, responsibility, permission, or commitment relation that separately changes,
 - required dependent updates under §20;

@@ -6,7 +6,7 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
@@ -71,7 +71,7 @@ When the decision still depends on systemhood, recover all six A.1 constructive 
 | Composition-grounded whole-level characteristic | Which characteristic follows from the actual assembly rather than from a label, plan, measurement, or one constituent? |
 | Possible participation in a larger constructive assembly | Which boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicable governed construction rule? |
 
-Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity.
+Then apply the already admitted `U.System` condition: the whole is physically embodied and has an organization of constituents and interactions through which it can causally participate in Work or transformation while preserving identity.
 
 #### A.1.SCR:4.4 - Return one decision-bearing result
 
@@ -101,20 +101,20 @@ When service or access wording is the unresolved phrase, start in A.6.P §4.11a.
 
 #### A.1.SCR:4.7 - Connect recognition to the project SoI
 
-The **system-of-interest (SoI)** is the system whose intended use and expected benefit give the relevant cooperation of creators its common purpose. A.1.STM:4.1 distinguishes it from the **system-in-hand**, the system locally being investigated or changed. An organization can be that engineering subject while its product or products remain the SoI. A machine or component supplied as a usable product can be the SoI of its own product undertaking under the receiving-use and fitness obligations explained there.
+The **system-of-interest (SoI)** is the product System that a particular extended enterprise is organized to create, change, sustain in use or retire. A.1.STM:4.1 distinguishes it from the **system-in-hand**, the system locally being investigated or changed. An organization can be that engineering subject while its product or products remain the SoI. A machine or component supplied as a usable product can be the SoI of its own product undertaking under the receiving-use and fitness obligations explained there.
 
-Recognition under A.1 establishes the System; the cooperation's purpose and designation need their own basis. One project can concern several systems and other results, while this recognition question tests the entity on which the current claim relies.
+Recognition under A.1 establishes the System; the extended enterprise, agents' objectives, agreements and designation need their own basis. One project can concern several systems and other results, while this recognition question tests the entity on which the current claim relies.
 
 A plan or decision can designate the project SoI or select a local subject. Recover which claim is current and keep these questions separate:
 
 1. identify the actual System, or keep an intended future holder as a designator in plan, decision or description content;
-2. recover the designation and intended use; when common project purpose is claimed, recover the participants' working agreement rather than infer it from the designation alone;
+2. recover the grounds for the choice: for a SoI designation, identify the extended enterprise, intended use or withdrawal from use, participants' working agreement and agents who established or accepted the objectives; for a local-subject choice, identify the inquiry or engineering purpose;
 3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
 4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance or later-use fact under its own governor;
-5. test any technical system-role classification and A.2.1 assignment separately; a local `SystemOfInterestSystemRole` criterion using this Library meaning must express the product-use and cooperation basis, rather than select any system being investigated or engineered; and
+5. test any technical system-role classification and A.2.1 assignment separately; a local `SystemOfInterestSystemRole` criterion using this Library meaning must express the product's role in the named extended enterprise and its agreed undertaking, rather than select any system being investigated or engineered; and
 6. use A.1.STM when the recognized System or a local result must be connected to the common SoI's intended use. If that basis is already supported, its section 4.4 retains the narrower route: locate the first unsupported dependency, use its subject pattern, and return the answer or a named stop.
 
-For example, a production team can recognize the factory as the actual System whose layout and capabilities it is changing. That recognition supports organizational engineering without making the factory the SoI of those works. The usable machines it must supply remain the product SoI. The project can close when sufficient evidence supports the factory's agreed capability under A.1.STM:4.1.1. A prospective factory design still describes an intended system, and recognition remains open until its actual identity grounds hold.
+For example, a production team can recognize the factory as the actual System whose layout and capabilities it is changing. That recognition supports organizational engineering without making the factory the SoI of those works. The machines that its extended enterprise is organized to supply remain the product SoIs. The project can close when sufficient evidence supports the factory's agreed capability under A.1.STM:4.1.1. A prospective factory design still describes an intended system, and recognition remains open until its actual identity grounds hold.
 
 A future SoI or a series of intended instances can likewise be described before any actual holder exists. Agreement about the SoI role and required kind of holder is not recognition of an individual System. A.1.STM:4.2 keeps these prospective and actual claims distinct.
 
@@ -126,5 +126,5 @@ Infer no project designation from system recognition, affectedness, familiar wor
 
 #### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
 
-Ask what physically or operationally exists, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes.
+Ask how the proposed whole is physically realized, how its constituents interact, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes.
 

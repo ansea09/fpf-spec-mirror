@@ -6,12 +6,12 @@ section_id: "E.17.1:End"
 section_title: "E.17.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__022_e-17-1-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:End — E.17.1:End"
-line_start: 113977
-line_end: 113978
+line_start: 114025
+line_end: 114026
 dependencies:
   - "A.16.0"
   - "A.22"

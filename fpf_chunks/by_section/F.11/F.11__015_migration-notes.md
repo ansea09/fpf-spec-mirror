@@ -6,12 +6,12 @@ section_id: "F.11:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__015_migration-notes.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:14 — Migration notes"
-line_start: 130624
-line_end: 130632
+line_start: 130677
+line_end: 130685
 dependencies:
   - "A.13"
   - "A.15"

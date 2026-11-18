@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__009_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:9 — Consequences"
-line_start: 82633
-line_end: 82642
+line_start: 82661
+line_end: 82670
 dependencies:
   - "A.10"
   - "A.19.CPM"

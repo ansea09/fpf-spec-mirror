@@ -6,12 +6,12 @@ section_id: "C.16.RM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:4 — Solution"
-line_start: 61960
-line_end: 62027
+line_start: 61979
+line_end: 62046
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -62,7 +62,7 @@ For each available repair, change the corresponding part of the relation and det
 
 A difference measurement is useful when the target changes between two observations in a known way while the influences being cancelled remain sufficiently stable. A larger input resistance is useful when the loading relation shows how much it reduces the consequential error. Repeating an unchanged observation needs its own error or dynamics account to support a narrower conclusion.
 
-Prefer an already available comparison or a small reversible change when it can settle the repair choice. If several explanations predict the same result of a proposed test, that test cannot select among them. Use C.11.DUA to compare the gain from an attainable further observation with its effort and delay.
+Prefer an available comparison or a small reversible change when it can settle the repair choice. If two explanations predict the same indication under every condition of the proposed test, a deterministic reading cannot distinguish them. For probabilistic predictions compare likelihoods for the recorded value, or the probabilities assigned to its reported interval or category, as appropriate. A result possible under both explanations can still favor one. Use C.11.DUA to compare the gain from an attainable observation with its effort and delay.
 
 The needed conclusion sets the reach of diagnosis. Replacing a defective assembly and obtaining the required response may restore the measurement without identifying which internal component failed. Retain the unresolved cause if later reliability, maintenance or causal explanation depends on it. Use C.28 when the required result is a causal attribution.
 

@@ -6,12 +6,12 @@ section_id: "C.27.TA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:3 — Forces"
-line_start: 70706
-line_end: 70715
+line_start: 70733
+line_end: 70742
 dependencies:
   - "A.10"
   - "A.15.1"

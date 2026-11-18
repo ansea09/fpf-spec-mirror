@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:4 — Solution"
-line_start: 18730
-line_end: 18871
+line_start: 18742
+line_end: 18883
 dependencies:
   - "A.15"
   - "A.20"
@@ -166,7 +166,7 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 **Well-formedness constraint CSC-WF-0 (ordinary bounded use).** An ordinary local candidate is usable only while its source is adjacent or directly linked, the present use and must-retain distinctions are explicit, any loss and anything added or strengthened beyond source support are visible together with the supported-use boundary, and return remains cheap. This provisional comparison asserts neither exact endpoint identity nor an independently transferable CSC construction.
 
-**Well-formedness constraint CSC-WF-1 (exact controlled-coarsening construction).** An exact or independently reused CSC account is well formed only when it identifies `X`, `Y`, and `c : X -> Y`; the same EntityOfConcern; one declared narrower admissible use; controlled loss; and one visible return to `X`, established source relations, or the pattern that supplies the needed definition, constraint, test, or method. A source publication, declared set, model, graph, state representation, evidence set, open corpus, folder, topic, search cluster, form, or carrier cannot substitute for either endpoint.
+**Well-formedness constraint CSC-WF-1 (exact controlled-coarsening construction).** An exact or independently reused CSC account is well formed only when it identifies `X`, `Y`, and `c : X -> Y`; the same EntityOfConcern; one declared narrower admissible use; controlled loss; and one visible return to `X`, established source relations, or the pattern that supplies the needed definition, constraint, test, or method. Identify the claim-bearing whole under C.2.1; a model, graph, state representation or selected set qualifies only when it satisfies those conditions. Keep its publication, form and carrier separate. An open corpus, folder, topic or search cluster alone does not identify either endpoint.
 
 **Well-formedness constraint CSC-WF-2 (no authority upgrade).** A coarsened rendering does not gain evidence, bridge, work, approval, gate, or adjudication authority by repetition, fluency, audience convenience, citation, or publication on a more visible publication face or channel.
 

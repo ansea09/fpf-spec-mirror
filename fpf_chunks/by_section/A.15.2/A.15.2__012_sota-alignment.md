@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 31114
-line_end: 31124
+line_start: 31130
+line_end: 31140
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "B.1.4"
   - "B.1.6"
   - "B.3"
+  - "B.5.MR"
   - "C.2.1"
   - "C.27.TA"
   - "C.32.P2S"

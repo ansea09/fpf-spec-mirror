@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 5823
-line_end: 6035
+line_start: 5835
+line_end: 6047
 dependencies:
   - "A.2.2"
   - "A.2.8"

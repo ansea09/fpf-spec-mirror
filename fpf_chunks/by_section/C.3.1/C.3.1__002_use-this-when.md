@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:0 — Use This When"
-line_start: 57681
-line_end: 57694
+line_start: 57690
+line_end: 57703
 dependencies:
   - "A.1"
   - "A.11"
@@ -52,7 +52,7 @@ Use this pattern when work must recover one reusable kind, decide whether one ki
 
 **Primary EntityOfConcern.** One `U.Kind` individual recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule; or one proposed `U.SubkindOf` relation between kind participants within declared applicability.
 
-**First useful move.** Write the ordinary claim first: `CoolingPumpKind is a subkind of PumpKind because every candidate that satisfies the declared cooling-pump condition also satisfies the pump condition.` Then name the criteria and applicability that make that statement true. Introduce an occurrence designator or formal equivalence grouping only when a receiver uses it.
+**First useful move.** Write the two criteria so the reader can test inclusion. If this plant defines a cooling pump as a pump that circulates coolant through a heat exchanger, anything meeting that criterion already meets the pump criterion. Establish that both uses of “pump” have the same meaning. Introduce an occurrence identifier or a formal equivalence grouping only when the receiving use needs it.
 
 **Not this pattern when.** Use C.3.2 for a declaration, admissibility result, candidate classification, or extension; C.3.3 only for a claimed correspondence between independently identified distinct kinds; and `E.24.UK` when admitting another durable public kind rather than using an already admitted `U.Kind` individual.
 

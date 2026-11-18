@@ -6,12 +6,12 @@ section_id: "G.Core:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:8 — Common anti-patterns and how to avoid them"
-line_start: 135309
-line_end: 135331
+line_start: 135366
+line_end: 135388
 dependencies:
   - "A.15.3"
   - "A.19"

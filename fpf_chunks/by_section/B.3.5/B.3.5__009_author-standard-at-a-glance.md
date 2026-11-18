@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 47465
-line_end: 47480
+line_start: 47494
+line_end: 47509
 dependencies:
   - "B.3"
   - "C.13"
@@ -23,7 +23,7 @@ keywords:
 
 When you add or import a relation edge:
 
-1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting meta-level axioms. If no publication choice or requirement elects CT2R-LOG, publish that claim and stop.
+1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting general mereological axioms. If no publication choice or requirement elects CT2R-LOG, publish that claim and stop.
 
 2. **When CT2R-LOG is elected, attach `tv:groundedBy`**:
 

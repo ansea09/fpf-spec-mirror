@@ -6,12 +6,12 @@ section_id: "F.3:9"
 section_title: "Self-checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__010_self-checks.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:9 — Self-checks"
-line_start: 127361
-line_end: 127369
+line_start: 127414
+line_end: 127422
 dependencies:
   - "A.11"
   - "A.7"

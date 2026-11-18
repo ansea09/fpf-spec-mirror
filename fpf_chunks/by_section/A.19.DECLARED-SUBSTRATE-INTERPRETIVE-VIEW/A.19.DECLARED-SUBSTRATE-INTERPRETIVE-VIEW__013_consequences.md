@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__013_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:9 — Consequences"
-line_start: 37882
-line_end: 37895
+line_start: 37903
+line_end: 37916
 dependencies:
   - "A.0"
   - "A.19"
@@ -42,7 +42,7 @@ keywords:
 
 **Benefits**
 
-- Readers get one explicit interpretive layer without losing the declared substrate.
+- Readers can inspect the source sets, spaces and relations while keeping their declarations recoverable.
 - FPF keeps one common interpretive-view family without forcing `G.2` or another local specialization to carry the whole interpretive requirement.
 - Atlas-form interpretation remains available where it helps, but thinner interpretive views stay lawful.
 

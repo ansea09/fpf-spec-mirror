@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.MR.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
-line_start: 61493
-line_end: 61703
+line_start: 61512
+line_end: 61722
 dependencies:
   - "A.3.3"
   - "B.5.FM"
@@ -89,7 +89,7 @@ Describe a consequential effect where it enters the relation. An offset at an in
 
 Retain an unknown influential value as unknown. Available bounds or a justified probability model can support a useful conditional answer. Do not assign zero solely because the influence has not been measured.
 
-Compare omission with inclusion at the needed result. A simple limiting case or a bound can show that an influence is negligible for this question. Keep the condition under which that conclusion holds, so a tighter requirement can reopen it.
+Compare omission with inclusion for the conclusion the user needs. An ideal limit can check the relation. To omit an influence under the actual operating conditions, show why including it leaves the required conclusion intact. For a value estimate, a bound on the change over the operating range can show that the change fits the accuracy needed. Retain the conditions and any tolerance used.
 
 #### C.16.MR:4.4 - Compose the relation and obtain a first result
 

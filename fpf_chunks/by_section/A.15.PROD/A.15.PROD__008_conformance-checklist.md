@@ -6,12 +6,12 @@ section_id: "A.15.PROD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:7 — Conformance Checklist"
-line_start: 34731
-line_end: 34753
+line_start: 34747
+line_end: 34769
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-A15.PROD-1` | The receiving use selects production-work participation, entity-identity inception, production completion, or a subset. One branch conclusion is never another branch's answer; shared facts support each branch only through its own predicate and applicability. |
-| `CC-A15.PROD-2` | `currentWork` and `productionWork` designate A.15.1 Work occurrences admitted under `U.Work`, not plans, labels, projects, methods, logs, publications, or records that describe those occurrences. |
+| `CC-A15.PROD-2` | `currentWork` and `productionWork` designate A.15.1 Work occurrences admitted under `U.Work`, not plans, labels, methods, logs, publications, or records that describe those occurrences. |
 | `CC-A15.PROD-3` | The whole-work branch names actual `enactsMethod`, method applicability and intended production effect, affected referent, work-to-change facts, and the criterion current for the receiver. |
 | `CC-A15.PROD-4` | The proper-part branch names an A.15.1 work-part relation and gives the containing work the same grounding required by the whole-work branch. |
 | `CC-A15.PROD-5` | Every actual transformation is independently identified under A.3.4; work, method, samples, temporal subdivision, and flow representations do not imply transformation composition. |

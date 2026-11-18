@@ -6,12 +6,12 @@ section_id: "C.3.1:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__015_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:13 — SoTA-Echoing"
-line_start: 57824
-line_end: 57827
+line_start: 57833
+line_end: 57836
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.3.1:13 - SoTA-Echoing
 
-For a subkind question restricted to a deliberately closed finite domain, the exhaustive branch in `C.3.1:4.1` can suffice: check every candidate's admissibility and evaluate those admissible under both declarations, leaving no `unknown` and no narrower `true` without a broader `true`. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
+For a subkind question restricted to a deliberately closed finite domain, the exhaustive branch in `C.3.1:4.1` can suffice: check every candidate's admissibility and evaluate those admissible under both declarations, resolving every case that could conceal a narrower member falling outside the broader kind. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
 

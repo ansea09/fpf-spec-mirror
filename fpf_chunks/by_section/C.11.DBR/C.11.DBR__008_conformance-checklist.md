@@ -6,12 +6,12 @@ section_id: "C.11.DBR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:7 — Conformance Checklist"
-line_start: 60264
-line_end: 60273
+line_start: 60275
+line_end: 60284
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -31,7 +31,7 @@ keywords:
 - The later result is qualified and compared at a commensurate scope and horizon, or the decisive mismatch is explicit.
 - Materiality follows the use's constraint, comparison or applicability condition; a no-material finding can finish without a new choice.
 - Affected uses follow established reliance; preserved results retain their grounds, and uninspected branches remain outside the conclusion.
-- A material branch supplies a bounded current question. The subject Method returns its own result before any completed overview cites it.
+- A material change identifies a decision to reconsider. An overview may cite the holder's recorded decision or report the available recommendation and identify the choice still open.
 - Recommendations, causal claims, authority, planning and performed work keep their own grounds and limits.
 - The method stops at the useful result or precise gap and adds no duplicate pass to an adequate direct subject Method.
 

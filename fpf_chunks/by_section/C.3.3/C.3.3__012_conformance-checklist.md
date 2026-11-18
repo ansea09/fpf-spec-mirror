@@ -6,12 +6,12 @@ section_id: "C.3.3:11"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__012_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:11 — Conformance Checklist"
-line_start: 58264
-line_end: 58280
+line_start: 58273
+line_end: 58289
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -31,7 +31,7 @@ keywords:
 | **KB-02** | A KindBridge maps neither Scope nor sense; add A.2.6 when the receiving use needs a scope relation, and F.9 when it needs a sense relation. |
 | **KB-03** | Participants, distinctness, direction, predicate, applicability, definedness, and participant-determined identity are recoverable. Scheme/signature/assertion/card/publication editions qualify interpretation or reliance but do not reidentify the occurrence. |
 | **KB-04** | Receiving classification checks admissibility before a fresh three-valued judgment. Source truth is never copied; bridge refusal does not rewrite the receiving result. |
-| **KB-05** | An order-preservation assertion names source and target subkind facts and the two bridge relations used. |
+| **KB-05** | An order-preservation assertion names the source and target subkind facts and establishes identity or a directional bridge at each endpoint. |
 | **KB-06** | Inversion is non-preservation with loss; unsettled order remains unknown. |
 | **KB-07** | Collapse designates affected source order facts and lost distinctions without rewriting either kind order. |
 | **KB-08** | `CL^k` is an assessment in the bridge assertion and does not alter kind identity, formality, scope, or abstraction facet. |

@@ -6,12 +6,12 @@ section_id: "C.2.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:12 — Relations"
-line_start: 55607
-line_end: 55614
+line_start: 55628
+line_end: 55635
 dependencies:
   - "A.16"
   - "A.18"

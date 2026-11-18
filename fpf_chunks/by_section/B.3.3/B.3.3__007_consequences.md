@@ -6,12 +6,12 @@ section_id: "B.3.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__007_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:6 — Consequences"
-line_start: 47133
-line_end: 47138
+line_start: 47160
+line_end: 47165
 dependencies:
   - "A.10"
   - "B.3"

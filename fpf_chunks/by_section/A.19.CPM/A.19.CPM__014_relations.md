@@ -6,12 +6,12 @@ section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:12 — Relations"
-line_start: 40694
-line_end: 40719
+line_start: 40717
+line_end: 40742
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "C.11.MV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:3 — Forces"
-line_start: 60625
-line_end: 60636
+line_start: 60636
+line_end: 60647
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

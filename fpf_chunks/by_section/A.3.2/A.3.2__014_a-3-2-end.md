@@ -6,12 +6,12 @@ section_id: "A.3.2:End"
 section_title: "A.3.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__014_a-3-2-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:End — A.3.2:End"
-line_start: 12202
-line_end: 12203
+line_start: 12214
+line_end: 12215
 dependencies:
   - "A.1.1"
   - "A.10"

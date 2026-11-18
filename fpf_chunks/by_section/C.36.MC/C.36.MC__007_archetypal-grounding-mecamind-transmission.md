@@ -6,12 +6,12 @@ section_id: "C.36.MC:5"
 section_title: "Archetypal Grounding - MeCaMinD Transmission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__007_archetypal-grounding-mecamind-transmission.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:5 — Archetypal Grounding - MeCaMinD Transmission"
-line_start: 96044
-line_end: 96107
+line_start: 96072
+line_end: 96135
 dependencies:
   - "A.15.1"
   - "A.3.1"

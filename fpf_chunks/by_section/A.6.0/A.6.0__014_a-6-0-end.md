@@ -6,12 +6,12 @@ section_id: "A.6.0:End"
 section_title: "A.6.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__014_a-6-0-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:End — A.6.0:End"
-line_start: 17381
-line_end: 17382
+line_start: 17393
+line_end: 17394
 dependencies:
   - "A.15.1"
   - "A.17"

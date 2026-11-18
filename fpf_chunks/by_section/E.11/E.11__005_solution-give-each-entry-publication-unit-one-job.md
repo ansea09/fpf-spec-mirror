@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 108967
-line_end: 109459
+line_start: 109015
+line_end: 109507
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -202,7 +202,7 @@ Apply the same compact entry shape each time: recognizable situation; practical 
 
   The smallest result names that subject, the pattern used to identify or constrain it, and the claim the current decision may make—or the missing identity, relation, closure basis, or information.
 
-  When a source says *target system*, recover whether it means the project system-of-interest. Use **system-of-interest** for that project role in the resulting English account; the phrase alone establishes neither identity nor the role.
+  When a source says *target system*, recover whether it means the product System of an extended enterprise under A.1.STM:4.1. Use **system-of-interest** for that role in the resulting English account; the phrase alone establishes neither identity nor the role.
 
   Keep plans, decisions, work-to-system relations, system-role classifications, assignments, participation, responsibility, and authority separate. If *role* still hides the claim, use `E.10.ROLE`. Stop when the recovered subject and claim answer the decision; use `A.1.SCR` only if systemhood still changes the answer.
 - **A claimed bounded context may be only a label, boundary picture, team, or subsystem.** Open `A.1.1` with the engineering decision, one exact model edition, and its exact use locus. Recover the smallest direct applicability, assigned-Work use, or fixed-content coherence relation first and stop there when it answers the decision.

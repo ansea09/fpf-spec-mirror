@@ -6,12 +6,12 @@ section_id: "E.24.PUB:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__008_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:6 — Bias Annotation"
-line_start: 125079
-line_end: 125089
+line_start: 125127
+line_end: 125137
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"

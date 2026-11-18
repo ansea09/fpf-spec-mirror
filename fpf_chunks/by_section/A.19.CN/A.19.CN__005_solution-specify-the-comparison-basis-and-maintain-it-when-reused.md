@@ -6,12 +6,12 @@ section_id: "A.19.CN:4"
 section_title: "Solution — Specify the comparison basis and maintain it when reused"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__005_solution-specify-the-comparison-basis-and-maintain-it-when-reused.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:4 — Solution — Specify the comparison basis and maintain it when reused"
-line_start: 37966
-line_end: 38055
+line_start: 37987
+line_end: 38078
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -80,7 +80,9 @@ CN‑Spec {
 }
 ```
 
-**Reading:** the CN-frame is the selected characteristic space and chart for one named bearer and use. The normalization block is needed for normalization-based comparison; coordinatewise comparison can omit it. Add maintenance arrangements when the specification is retained for later reuse or maintained as a shared edition. `CN‑Spec` fixes the editions, comparison basis, qualifying scope/window and admission evidence needed by that use, with normalization references and aggregation choices when used. A.19.UNM defines normalization semantics, A.19.UINDM defines indicatorization, C.16 supplies measurement and evidence backing, and G.0 supplies the applicable admission conditions. A `Γ_fold` cites its law and applicability basis. Its property codes express only the claims needed by this use; A.9 supplies an unresolved law choice or property check, while ULSAM retains the CHR fold and admissibility rules.
+**Reading:** the CN-frame is the selected characteristic space and chart for the declared bearer or bearer kind and intended use. When `bearer_ref` identifies a kind to delimit the candidate bearers, the specification applies to readings about members of that kind. Each reading retains the individual subject or participant tuple required by its Characteristic under A.19. Apply the admission and comparison conditions to the actual operand pair.
+
+The normalization block is needed for normalization-based comparison; coordinatewise comparison can omit it. Add maintenance arrangements when the specification is retained for later reuse or maintained as a shared edition. `CN‑Spec` fixes the editions, comparison basis, qualifying scope/window and admission evidence needed by that use, with normalization references and aggregation choices when used. A.19.UNM defines normalization semantics, A.19.UINDM defines indicatorization, C.16 supplies measurement and evidence backing, and G.0 supplies the applicable admission conditions. A `Γ_fold` cites its law and applicability basis. Its property codes express only the claims needed by this use; A.9 supplies an unresolved law choice or property check, while ULSAM retains the CHR fold and admissibility rules.
 
 The space reference selects the space itself. Add `characteristicSpaceDescriptionRef` when the selected use needs one definition or description edition; UNM and UINDM require this pin for their applications. Resolve the pair under A.19:5.1.1.1 and check that the description supplies the basis of that same space. An unchanged space may have a different description episteme, and a changed basis may require a different space even when the description retains its familiar title.
 

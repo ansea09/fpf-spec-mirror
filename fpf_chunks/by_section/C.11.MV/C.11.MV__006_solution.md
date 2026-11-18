@@ -6,12 +6,12 @@ section_id: "C.11.MV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:4 — Solution"
-line_start: 60637
-line_end: 60721
+line_start: 60648
+line_end: 60732
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -26,7 +26,7 @@ keywords:
 
 C.11 and C.11.DUA supply choice and the appraisal of demanded work. The comparison here constructs their Method-option input: the attainable receiving contribution, all relevant bearers of learning, transition and recurring burden, feasible alternatives and the condition under which keeping the current way is preferable.
 
-Compare feasible current alternatives in the named decision situation using separate consequence and evidence positions, preserve incomparability and branch conditions, and return one bounded action with its result-specific follow-up: no repair return for `keep`, a named decision or maintained result to create or change for `revise`, `replace`, or `branch`, and the stopped use plus any unresolved trade-off for `stop`.
+Compare the feasible alternatives for the same receiving decision. Identify who would obtain each result and who would carry each burden. If the decision rule settles the trade-off, give the supported action and the follow-up in §4.1. If deciding between alternatives requires a preference or authority the evaluator lacks, return the alternatives that remain and identify whose decision is needed.
 
 #### C.11.MV:4.1 - Pattern-Use Unfolding
 
@@ -36,7 +36,7 @@ Compare feasible current alternatives in the named decision situation using sepa
 4. **Assemble the available basis by alternative.** Use current A.3.1.QM qualification, credible domain estimates or judgement, and structural constraints alongside A.3.1.WT actual Work, A.3.1.CC corrections and A.3.1.FT fit or transfer results where available and relevant. Distinguish observed results from estimates, recover the source and conditions of each relied-on claim, and retain the missing basis that limits the decision. Absence of evidence for one alternative is not evidence of its inferiority.
 5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
-7. **Keep trade-offs visible.** Show where one alternative improves a domain result but increases burden, side effect, exposure, or opportunity cost. Use `A.19.CPM` for non-trivial multi-criteria comparison and `A.19.SelectorMechanism` when a set-valued selection is needed. Do not invent a total order or scalar winner.
+7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
 8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
 9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and any unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves any unresolved trade-off and stopped use without inventing a correction owner.
@@ -69,23 +69,23 @@ This also makes stopping constructive. A `stop` can protect scarce Work or avoid
 
 #### C.11.MV:4.4 - Minimal Constructed Worth Replay
 
-Continue the constructed temperature-sensor review case. The decision is how `Calibration-Team-A` should review reports through day D30. Alternative `ALT-M` retains admitted `M-Unit-Review-1`, description edition 4, and the manual conversion table; for the present review decision it uses the representation repaired in A.3.1.CC. Alternative `ALT-L` uses the current lightweight checklist that verifies tolerance but has no explicit unit-normalization step. `ALT-S` stops the proposed Method change and keeps the present release hold until a supported permissible continuation is available.
+`Calibration-Team-A` is choosing how to review reports through day D30. Until now, reviewers have used a lightweight tolerance checklist (`ALT-L`) for both uniform-unit and mixed-source reports. Their current procedure permits a tolerance decision on the displayed numbers without first establishing common units. An admitted alternative, `M-Unit-Review-1` (`ALT-M`), requires the reviewer to establish common units, compare the normalized values against the declared tolerance and stop release if a mismatch remains unresolved. A manual conversion table is available. Use description edition 4 with the representation repair from A.3.1.CC. `ALT-S` keeps release on hold when neither review can support it. A difference in checklist wording alone would not establish a difference in the permitted review actions.
 
 The evidence for `ALT-M` includes the two earlier admitted A.3.1.WT occurrences of `M-Unit-Review-1` performed by the same qualified `Reviewer-17`: seven minutes on the ordinary same-unit report and twelve minutes plus one table lookup on the mixed-unit report; both decisions were correct and the mixed-unit release was stopped. A separate constructed matched replay of `ALT-L`, admitted as `W-L-Rep-1` and `W-L-Disc-1` under the same holder, team, report pair, and window, took five and six minutes. It accepted the ordinary report but failed to expose the mixed-unit mismatch.
 
 The replay supplies no causal claim beyond these occurrences and no evidence about another holder or automated support route. The two earlier A.3.1.WT observations are not trials of the later representation repair in A.3.1.CC.
 
-| Position | `ALT-M` | `ALT-L` | `ALT-S` |
+| What is compared | `ALT-M` | `ALT-L` | `ALT-S` |
 | --- | --- | --- | --- |
 | domain result | Correct decisions in both observed reports; mixed-unit release stopped. | Correct ordinary decision; mixed-unit mismatch not exposed. | No additional report released; mixed-unit risk remains contained but current release Work stops. |
 | burden | Seven and twelve minutes; one lookup; current capability and table required. | Five and six minutes; lower observed burden. | Delay and missing release result; no new review burden. |
 | side effect and opportunity | More explicit trace and stop; consumes review time. | Faster but leaves the named unit hazard exposed. | Preserves safety while displacing release and comparison Work. |
-| reversibility | Checklist and representation can be reverted while evidence is retained. | Already current; reverting loses no transition Work but retains the exposed hazard. | Reopen after the missing comparison or support basis is supplied. |
+| reversibility | The team can revert the rule for choosing a review procedure while retaining earlier review records. | Already in use. Continuing with it for mixed-source reports retains the exposed hazard. | Reopen when the comparison or support needed for release is available. |
 | evidence strength | Two constructed teaching occurrences, not field evidence. | Two constructed teaching occurrences, not field evidence. | Consequence follows from the stated stop; downstream cost is unmeasured. |
 
-Return `branch`: require `ALT-M` for reports whose sources can use different unit systems; retain `ALT-L` for the bounded same-unit situation. The discriminator is recoverable source-unit variability, not reviewer preference. Retain `ALT-S` as the stop when that variability cannot be recovered.
+Recommend a `branch` through D30. Where source units may vary, use `ALT-M` so that the release decision depends on establishing common units. Where the input source guarantees common units, retain `ALT-L`. If the source units cannot be established and the formal review cannot resolve them, retain `ALT-S`. The two matched reports support the observed differences in review decisions and effort. Use of the repaired representation has yet to be observed.
 
-No earlier decision about this unit-variability branch is supplied in the constructed case. Return the branch to A.3.1.MV as new applicability entry `APP-UnitReview-TeamA-D30`, recording the three alternatives, the source-unit discriminator and the D30 window. It records when to use the existing alternatives; it changes no Method identity and claims no contradicted predecessor.
+In this constructed case the team holds the review decision, has the reviewer and table available, and adopts that recommendation for the D30 window. Record the new applicability entry `APP-UnitReview-TeamA-D30` through A.3.1.MV, including the three alternatives and the source-unit condition. The team changed when reviewers use each procedure. The earlier observations still concern the procedures used on those reports.
 
 This result covers the stated conditions through D30. For a later reliance, use A.10.1 to identify which premises remain applicable and which qualification, condition or evidence gap needs renewal. A real expiry still limits use; new field investigation is selected for its useful obtainable answer, not merely because the date advanced.
 

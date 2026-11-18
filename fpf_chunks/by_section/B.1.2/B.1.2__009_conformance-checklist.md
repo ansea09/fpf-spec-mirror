@@ -6,12 +6,12 @@ section_id: "B.1.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:6 — Conformance Checklist"
-line_start: 43209
-line_end: 43222
+line_start: 43232
+line_end: 43245
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,5 +50,5 @@ keywords:
 | `CC-B1.2-6` | Changing, controlling, teaching, measuring, or repairing another holon does not make that holon a part of the acting system; any containing-whole claim has its part-whole relation. |
 | `CC-B1.2-7` | Description artifacts, models, dashboards, digital twins, and registers remain distinct from the system holon and from any selected structure they describe. |
 | `CC-B1.2-8` | Any coordinating `U.Structure` has all four A.22 discriminators and remains non-agentive; otherwise the results stay a plurality. |
-| `CC-B1.2-9` | Environment, containing system, project system-of-interest, and any claim or model-use qualifier remain separately identified; `Context` is not used as their common owner. |
+| `CC-B1.2-9` | Environment, containing system, the system-of-interest role in a named extended enterprise, the local system-in-hand, and any claim or model-use qualifier remain separately identified; `Context` is not used as their common owner. |
 

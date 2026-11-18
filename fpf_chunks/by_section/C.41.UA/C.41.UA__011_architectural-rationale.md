@@ -6,12 +6,12 @@ section_id: "C.41.UA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__011_architectural-rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:10 — Architectural Rationale"
-line_start: 94198
-line_end: 94203
+line_start: 94226
+line_end: 94231
 dependencies:
   - "A.10"
   - "A.15.1"

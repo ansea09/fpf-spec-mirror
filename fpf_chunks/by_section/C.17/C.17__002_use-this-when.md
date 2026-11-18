@@ -6,12 +6,12 @@ section_id: "C.17:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:0 — Use this when"
-line_start: 63180
-line_end: 63201
+line_start: 63201
+line_end: 63222
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,19 +50,19 @@ keywords:
 
 ### C.17:0 - Use this when
 
-Use C.17 when someone must say whether a design, code change, theory, policy proposal, dated Work occurrence, or finite candidate set—the bearer being discussed—is new relative to a named comparison basis and useful for a stated objective or must-criterion.
+Use C.17 to judge the novelty, usefulness or eligibility of a design, code change, theory, policy proposal, dated Work occurrence or finite candidate set. A claim about novelty names what the bearer differs from. A claim about usefulness names what it helps achieve. A claim about eligibility names the conditions it must meet.
 
 If the claim arrives as *learning progress*, *learned novelty*, or information gain described as *learning*, and the bearer or result is still hidden, apply `E.10.LRN` and the direct result owner first. Enter C.17 only after identifying the bearer and the novelty, use, surprise, creativity, or other characterization question. Stop at the direct result when there is no characterization question to answer.
 
 Begin with the smallest useful answer:
 1. identify the bearer being discussed;
-2. say what it is new compared with;
-3. say which objective, acceptance criterion, or must-constraint matters;
-4. state the supported difference, its practical consequence, the evidence used, and the limit of that support.
+2. for a claim of novelty, identify what the bearer is compared with.
+3. for a claim of usefulness or eligibility, identify the objective or applicable must-criterion.
+4. state what the evidence supports for that claim and where its support ends.
 
-Stop there when a qualitative answer is enough. A discussion does not need a score, profile, reusable record, or dated assessment merely because it uses the words *novel*, *useful*, or *creative*.
+Stop when the qualitative answer meets the intended use. Another team can reuse that answer with its evidence, comparison basis or criterion, and limits. Check that those grounds still apply to its question.
 
-Open the stronger branch only when the receiving use needs a quantified coordinate, a comparison-ready result, later reliance, or an audit trail. Then every coordinate must follow its measurement or ascription route before the coordinate claims can support a bounded aggregate result.
+Develop a coordinate when the receiver needs its value. A direct qualitative comparison can answer which features differ between two designs. Prepare profiles when the receiving use needs to compare their coordinates under a declared comparator, for example to test dominance across criteria. For later inspection, preserve the grounds for the claim actually made.
 
 **What changes in practice.** A team can replace an unqualified creativity label with the comparison basis, practical criterion, supported difference, consequence, uncertainty, and stopping point. When numbers matter, it can also reproduce the complete result chain.
 

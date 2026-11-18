@@ -6,12 +6,12 @@ section_id: "G.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:12 — Relations"
-line_start: 136702
-line_end: 136732
+line_start: 136759
+line_end: 136789
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

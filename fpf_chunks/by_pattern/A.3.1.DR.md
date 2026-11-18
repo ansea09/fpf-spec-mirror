@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.DR.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
-line_start: 10448
-line_end: 10656
+line_start: 10460
+line_end: 10668
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -132,7 +132,7 @@ The dossier uses open sections but preserves unlike kinds:
 | Local section | Recovered entries and statuses | Decision-bearing slice |
 | --- | --- | --- |
 | Methods and candidate accounts | identified `M-HW-Verify`, `M-SW-Integrate`, `M-Supplier-Approve`, `M-Release-Authorize`; candidate `C-Evidence-Reconcile-Internal`, `C-Evidence-Reconcile-Supplier`, `C-AI-Trace-Review`, and proposed whole `C-EC-Release-v2` | Each Method or account keeps its source claims, required inputs/results, support, evidence, and limits. |
-| descriptions, representations, and source claims | stage table, release checklist, supplier procedure, AI prompt, bundle records | These epistemes may describe or evidence a Method/account; none is promoted by its section. |
+| descriptions, representations, and source claims | stage table, release checklist, supplier procedure, AI prompt, bundle records | These items can express or support claims about a Method/account. Identify any episteme by its claim content, EntityOfConcern and effective ReferenceScheme. |
 | Systems, support, and access | PLM, CI, test rig, AI provider, and provider-access condition | Availability and access are separate from Method identity and fit. |
 | capabilities and assignments | safety competence, supplier-configuration responsibility, and release-authority assignment | Capability, responsibility, and authority are checked for the receiving use. |
 | inputs, results, premises, and evidence | pinout schema, evidence bundle, verification result, confidentiality premise, and dated records | Each item keeps its direct kind and use. |

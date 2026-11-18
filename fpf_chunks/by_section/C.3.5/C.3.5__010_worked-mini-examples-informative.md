@@ -6,12 +6,12 @@ section_id: "C.3.5:9"
 section_title: "Worked mini-examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__010_worked-mini-examples-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:9 — Worked mini-examples (informative)"
-line_start: 58639
-line_end: 58645
+line_start: 58650
+line_end: 58656
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -32,8 +32,8 @@ keywords:
 
 ### C.3.5:9 - Worked mini-examples (informative)
 
-- **K0.** `Account_US_GAAP_2025_Q1_Cohort`: use candidate judgments in the pinned quarter slice; do not infer a broad kind from one query result.
-- **K1.** `CacheableRequest`: make retry/idempotence behavior evaluable in a named signature edition and test diverse failure modes.
+- **K0.** `Account_US_GAAP_2025_Q1_Cohort`: suppose the approved quarter roster defines this cohort. Check the account identifier against that edition of the roster. Counting the confirmed entries answers a separate question.
+- **K1.** `RetrySafeRequest`: the declared criterion permits repeating a request after a lost reply without duplicating its intended effect. Check that property for the admitted failures, including a reply lost after the first execution completed.
 - **K2.** `Account`: use explicit posting and balance invariants, test relevant subkinds, and evaluate each candidate with the signature edition and slice.
 - **K3.** `UndirectedGraph` up to node relabeling: state the equivalence notion and require equivalence witnesses that preserve it. Any KindBridge use additionally needs the distinct-kind correspondence and preservation basis required by C.3.3.
 

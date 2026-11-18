@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 57349
-line_end: 57443
+line_start: 57358
+line_end: 57452
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,10 +58,10 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation: exact E.18 `PathSlice` and E.18.1 carry-through relation among the named records when those objects are current
   RepresentationOrCorrespondenceUse: highlighted nodes and edges render the selected E.18 `PathSlice`; the highlight adds no work ordering
   SourceOrPublicationRelation: none
-  TemptingStrongerActionClaim: ordered work route for the team
+  DisputedInference: ordered work route for the team
   RecoveredGoverningPattern: E.18.1, with A.15.2 or A.15.1 only if planned or dated work is current
   RetainedUse: selected graph path and carry-through relation for inspection
-  BlockedStrongerActionClaim: no work route or prescribed workflow by path shape alone
+  ConclusionAndGrounds: no work route or prescribed workflow by path shape alone
   StopOrReopenCondition: stop at inspection of the selected path and carry-through relation; use A.15.2 for a prescribed work sequence. If a separate mathematical transfer is proposed, establish its C.29 correspondence and limits before relying on that transfer. Reopen when the selected graph, source or intended work relation changes
 ```
 
@@ -113,10 +113,10 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their subject patterns
   RepresentationOrCorrespondenceUse: the rendering identifies the selected E.18 path; a proposed inference from its edges to physical heat flow lacks its correspondence and boundary conditions
   SourceOrPublicationRelation: none
-  TemptingStrongerActionClaim: graph path authorizes physical valve-change work
+  DisputedInference: graph path authorizes physical valve-change work
   RecoveredGoverningPattern: E.18 for graph inspection; C.29 for the unresolved mathematical transfer; A.10 when its source-to-use account must remain replayable; A.21, A.15.2 or A.15.1 only for a current gate, work-plan or dated-Work question
   RetainedUse: graph inspection and identification of the missing heat-flow correspondence
-  BlockedStrongerActionClaim: no release, gate passage, physical intervention, or work occurrence by highlighted path alone
+  ConclusionAndGrounds: no release, gate passage, physical intervention, or work occurrence by highlighted path alone
   StopOrReopenCondition: keep the proposed physical inference unresolved until the correspondence, material losses and boundary conditions support it under C.29; operational reliance also needs the applicable validation and gate or authority result. Reuse adequate existing domain/model documentation. Reopen when that basis or intended intervention changes
 ```
 
@@ -132,10 +132,10 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; recover any direct support relation under its subject pattern, with A.2.4 for an episteme's evidence use and A.10 for a needed replayable source-to-use account
   RepresentationOrCorrespondenceUse: rows identify the compared candidate guides and columns reproduce named score values with their scales and source references; the ranking adds no approval relation
   SourceOrPublicationRelation: none
-  TemptingStrongerActionClaim: ranked row approves biological intervention
+  DisputedInference: ranked row approves biological intervention
   RecoveredGoverningPattern: C.16 or A.19 for characteristics when current; A.2.4 for an episteme's evidence use; A.10 when the source-to-use account must remain replayable; A.15.2 for experimental work plan; A.21 or authority pattern only if approval or gate claim is current
   RetainedUse: source-finding, candidate comparison, and constraint review
-  BlockedStrongerActionClaim: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
+  ConclusionAndGrounds: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
   StopOrReopenCondition: stop at the supported comparison under the stated score meanings and source conditions. Use C.29 when a separate mathematical-representation choice, transfer or reliance question remains. Intervention approval needs its applicable authority or gate result; resolve unclear “role authorization” through E.10.ROLE, distinguishing a missing rule from missing facts under a known rule. Reopen when the scores, protocol or intended use changes
 ```
 

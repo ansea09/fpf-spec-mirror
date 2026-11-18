@@ -6,12 +6,12 @@ section_id: "C.2.2a:13"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_worked-examples.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:13 — Worked Examples"
-line_start: 55399
-line_end: 55430
+line_start: 55428
+line_end: 55451
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,15 +47,7 @@ keywords:
 ### C.2.2a:13 - Worked Examples
 
 #### C.2.2a:13.1 - Inquiry cue before endpoint capture
-A position claim for a research cue note may state:
-
-- `F`: the terms needed for the inquiry are defined, while the proposed inferences remain in prose,
-- low articulation explicitness,
-- low closure,
-- the relevant bodily observation or trace derivation, stated as a separate claim under C.2.6,
-- and mixed representation factors.
-
-Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose looks polished.
+An inquiry note says that two meters gave different readings under the same recorded operating conditions. It identifies the meters and their units. It names calibration drift and a sampling-time difference as possible causes, with no observation yet to distinguish them. A reader can recover a diagnostic question and two live explanations. The display uses names and numbers. If the comparison concerns the code inside either meter, its distribution across internal units is still unknown. Use the established readings for the diagnostic inquiry. Entry to a pattern that needs a specific relation or causal conclusion depends on that pattern’s own conditions.
 
 #### C.2.2a:13.2 - Routed operator alert note
 Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings and separate use condition are:
@@ -71,7 +63,7 @@ If an accepted reference-gauge reading of 72 kPa for the same sample t21 exclude
 Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
-An adequacy note using identified assertions from an architecture description may state explicit vocabulary and predicates, articulation sufficient for the described comparisons, mid-level closure and symbolic representation. Its account names the document edition and accessible assertions needed for that judgement under C.2.6. Its position can be compared in the same chart as a bodily-observation cue when the selected Characteristics and Scales have the same meanings; source and access claims remain separate.
+A review note asks whether the architecture description specifies who acknowledges a storage fault. The cited edition names two possible responders and leaves their assignment open. A reviewer can identify the unresolved choice and the evidence still needed. Before assigning a closure level, check whether either responder has been ruled out or chosen and what would allow that choice to be reopened. Compare the note with an observation report on the same chart only for facets assessed on the same basis. Keep the source of each assessment available.
 
 #### C.2.2a:13.4 - Polished prose is not closure
 A prose rewrite may look cleaner, more compact, or more manager-readable than the source cue and still remain low in closure or articulation explicitness. If the underlying slot values, uncertainty, and route plurality remain unchanged, then publication polish changes the rendering or carrier lane, not the chart position by itself.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.4.P.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
-line_start: 13786
-line_end: 14022
+line_start: 13798
+line_end: 14034
 dependencies:
   - "A.10"
   - "A.15.1"

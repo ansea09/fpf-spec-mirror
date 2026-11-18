@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 40979
-line_end: 41025
+line_start: 41002
+line_end: 41048
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -60,7 +60,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 
 **Outcome.**
 
-* Under that bound `degrade` policy, `SelectEligibility` returns `degrade`, excludes OptionC without coercing unknown evidence, and `SelectionSlot` returns `{OptionA, OptionB}`.
+* Under that bound `degrade` policy, `SelectEligibility` returns `degrade`. `Select` then excludes OptionC under that policy and returns `{OptionA, OptionB}`, bound to `SelectionSlot`.
 * If either required comparison involving OptionC instead had `GuardDecision = abstain`, that basis member would have no output binding, `SelectEligibility` would return `abstain`, and no selected-set value would be created. Neither guard value is a member of `ComparisonResultSlot` or `SelectionSlot`.
 * The selection or eligibility application, finite CPM application basis, policies and returned value or explicit absence preserve the branch taken. An A.10 provenance account is added for the bounded reliance at issue; any dated Work claim requires the independent grounds in §4.1.
 

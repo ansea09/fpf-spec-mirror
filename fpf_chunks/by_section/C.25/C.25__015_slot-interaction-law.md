@@ -6,12 +6,12 @@ section_id: "C.25:14"
 section_title: "Slot Interaction Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__015_slot-interaction-law.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:14 — Slot Interaction Law"
-line_start: 68267
-line_end: 68288
+line_start: 68294
+line_end: 68315
 dependencies:
   - "A.15"
   - "A.18"

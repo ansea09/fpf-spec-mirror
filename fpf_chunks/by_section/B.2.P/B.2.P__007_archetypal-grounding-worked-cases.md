@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 45625
-line_end: 45675
+line_start: 45651
+line_end: 45702
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,12 +61,13 @@ If whole identity remains in question, use B.2 and, for its new-system candidate
 
 Recover:
 
-- Which claims concern the model as a description episteme, and which concern its mathematical expression or lens use?
+- What is used as the model, which entity does the inquiry concern, and which operation or observation on the model supports the inference?
+- If the model is a claim-bearing episteme, what are its claims and interpretation? If a mathematical expression or lens is used, what calculation and correspondence does the inference need?
 - Is robustness a characteristic-space claim?
 - Is the result a benchmark artifact?
 - Does the claim concern reidentifying the actual holon?
 
-Apply the model or evaluation rule to the recovered result and C.16 to its characteristic claim. Recover the assumptions, correspondence and evidence used by that inference; apply A.10 when a source-to-use account is needed, and C.29 for a remaining representation, transfer or reliance question. An adequate calculation can finish. Use B.2 when the actual whole's identity remains the question.
+When a physical specimen or observed performance is used as a model, distinguish it from an episteme reporting its observations or results, as C.2.1:4.0.3 explains. Apply the model or evaluation rule to the recovered result and C.16 to its characteristic claim. Recover the assumptions, correspondence and evidence used by that inference; apply A.10 when a source-to-use account is needed, and C.29 for a remaining representation, transfer or reliance question. An adequate calculation can finish. Use B.2 when the actual whole's identity remains the question.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 

@@ -6,12 +6,12 @@ section_id: "C.11.DUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:4 — Solution"
-line_start: 60360
-line_end: 60441
+line_start: 60371
+line_end: 60452
 dependencies:
   - "A.10"
   - "C.11"
@@ -34,7 +34,7 @@ Start from what the recipient is trying to settle. Recover the work hidden in th
 
 Identify the question the recipient needs answered and the horizon at which an improvement matters. Read an existing instruction as something somebody would have to perform: what would they believe, do, stop doing, postpone or spend if they followed it?
 
-Recover a missing performer, resource, access, time condition or authority when it can change feasibility or the recommendation. An unavailable data set or a study that finishes after the decision window is a different option from an available timely check. Do not turn a simple answer into a universal plan form.
+Recover the performer, resources, access, time or authority that affects feasibility. A study ending after the decision window serves a different use. For a request for help, establish whose result is wanted. For a shared deliverable, identify the work each participant can supply. If the recipient is to acquire an ability, identify what they must later do under the support conditions intended for that use and what performance would show it. Successful joint work alone warrants the claim about the deliverable (Library Reference §9.3.1).
 
 For a text review, examine the connected passage that creates the demand, including its steps, mandatory fields and completion clauses. “Consider further evidence” and “obtain it before proceeding” impose different work. A final template can impose work that the preceding prose made optional.
 
@@ -52,7 +52,7 @@ Resolve these questions when relevant to the receiving use; they are not three m
 
 If the relevant distinction or possible result is not yet expressible, use B.5:4.1.2 to develop grounds from an accessible episode, source or attempt. The immediate comparison can concern a bounded exploration likely to improve the description or reveal a dependency. It need not promise a particular discovery. Return with the basis obtained before demanding a specific action-changing answer. Appraising an already formulated inquiry and constructing its missing basis are different contributions.
 
-When an inquiry is proposed or a consequential uncertainty, anomaly or applicable requirement makes one live, identify a plausible result that would change the conclusion, choice or warranted use. Compare obtaining that result with the feasible alternatives. These may include using present knowledge, a smaller reversible step, a different source, a narrower claim, deferral or stopping.
+For an optional inquiry, identify a plausible result that would change the conclusion, choice or warranted use. Compare it with using present knowledge, taking a smaller reversible step, using a different source, narrowing the claim, deferring or stopping. For a binding inquiry, identify the work due, its recipient and the evidence or report owed under the governing rule. Compare permitted ways of meeting it. A duty to measure and report can hold whatever the reading is.
 
 Include the attainable inquiry's cost, delay, displaced work and downside. Compare what it adds to the present configuration and horizon; `C.11.CRC` supplies that missing comparison when needed. A large uncertainty is not sufficient reason for a large study. Ask how resolving it could improve this use. A cheap probe that can change an irreversible commitment deserves a different answer from an expensive check whose plausible results leave the useful answer unchanged.
 

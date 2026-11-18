@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__004_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:2 — Problem"
-line_start: 57192
-line_end: 57202
+line_start: 57199
+line_end: 57209
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:6 — Worked cases"
-line_start: 46920
-line_end: 46961
+line_start: 46947
+line_end: 46988
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ What changes in practice: the design decision is evaluated against `0.81`, not a
 
 Starting sentence: “The dashboard approves launch.”
 
-The dashboard is a publication face. Suppose it displays `GateDecision GD-17`, which records that a named gate passed for release candidate R. The repaired sentence is: “The dashboard shows GateDecision GD-17 for release candidate R; the decision, not the display, records that the gate passed.”
+Suppose the dashboard displays `GateDecision GD-17`, which records that a named gate passed for release candidate R. The repaired sentence is: “The dashboard shows GateDecision GD-17 for release candidate R; the decision, not the display, records that the gate passed.”
 
 Use A.21 and the release or permission pattern that consumes the gate decision. No assurance claim is present, so B.3 stops. If the dashboard does not resolve a gate decision, it is only a cue and launch approval remains unresolved.
 

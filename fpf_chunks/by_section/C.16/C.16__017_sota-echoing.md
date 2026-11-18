@@ -6,12 +6,12 @@ section_id: "C.16:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__017_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:14.1 — SoTA-Echoing"
-line_start: 61411
-line_end: 61428
+line_start: 61430
+line_end: 61447
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ These sources contribute different parts of measurement interpretation. Their qu
 | [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) | Citable identifiers distinguish quantity kinds, units, dimensions and datatypes. Source-local citation needs no additional semantic mapping; a different intended local sense does. | A shared URI does not establish the same measurand, Scale, model, calibration regime or direct comparability. |
 | [W3C/OGC SOSA/SSN Recommendation, 19 October 2017](https://www.w3.org/TR/vocab-ssn/), and [2023 Edition First Public Working Draft, 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) | Observation and procedure accounts can supply relevant subject, property and measurement information. Interpret each claim under its cited edition; a draft proposal carries its stated draft status. | An observation graph does not by itself establish FPF Work identity, actual bindings, a measurement result, its episteme or a later use. A correspondence claim needs its own basis. |
 
-**Value and result distinctions.** [VIM3 entry 1.1](https://jcgm.bipm.org/vim/en/1.1.html), [entry 1.9](https://jcgm.bipm.org/vim/en/1.9.html) and [entry 1.27](https://jcgm.bipm.org/vim/en/1.27.html) distinguish a quantity, its adopted unit reference and a quantity-value scale; [entry 2.9](https://jcgm.bipm.org/vim/en/2.9.html) includes attributed values and the information needed to interpret a measurement result. These distinctions support the separation used here. FPF also uses nominal Scales and non-measurement evaluations; VIM terminology does not classify all such readings or admit an FPF kind. `ReadingContent` is the bounded FPF interface construction in :5.5.1.
+**Value and result distinctions.** [VIM3 entry 1.1](https://jcgm.bipm.org/vim/en/1.1.html), [entry 1.9](https://jcgm.bipm.org/vim/en/1.9.html) and [entry 1.27](https://jcgm.bipm.org/vim/en/1.27.html) distinguish a quantity, its adopted unit reference and a quantity-value scale; [entry 2.9](https://jcgm.bipm.org/vim/en/2.9.html) includes attributed values and the information needed to interpret a measurement result. The [measurand (entry 2.3)](https://jcgm.bipm.org/vim/en/2.3.html), [indication (entry 4.1)](https://jcgm.bipm.org/vim/en/4.1.html) and [resolution (entry 4.14)](https://jcgm.bipm.org/vim/en/4.14.html) locate three different questions in the measurement. FPF also uses nominal Scales and non-measurement evaluations; VIM terminology does not classify all such readings or admit an FPF kind. `ReadingContent` is the bounded FPF interface construction in :5.5.1.
 
 **Constructing and revising the model.** GUM-6:2020, §§7, 9-10 and 12, supplies the distinction between the measurement principle, effects of implementation and adequacy for use. Section :5.3.1 turns that distinction into a construction and an ambiguity test. The circuit and assessment cases work this instruction using their stated subject models.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.CP.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
-line_start: 27191
-line_end: 27401
+line_start: 27203
+line_end: 27413
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -32,7 +32,7 @@ keywords:
 
 ### A.7.CP:0 - Use this when
 
-Use this pattern when reasoning, ontology analysis, choice, or reconciliation relies on a broad constructive claim and another person must be able to recover which claim, receiving claim or result, posture, scope, work occurrence, and interval carried that reliance.
+Use this pattern when reasoning, ontology analysis, choice, or reconciliation relies on a broad constructive claim and another reader must be able to recover which claim, receiving claim or result, posture, scope, work occurrence, and interval carried that reliance.
 
 The first useful move is to name the dated reasoning work, each claim-bearing result or receiving decision it is forming, the `A7CP-*` claim IDs used for that result, and whether each use is an `adoptedPremise` or `conditionalAssumption`. Leave the other compact claims latent.
 

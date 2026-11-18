@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.2.DE.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
-line_start: 12204
-line_end: 12390
+line_start: 12216
+line_end: 12402
 dependencies:
   - "A.3.2"
   - "C.37"

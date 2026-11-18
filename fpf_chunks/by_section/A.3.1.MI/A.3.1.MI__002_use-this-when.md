@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:0 — Use This When"
-line_start: 11625
-line_end: 11647
+line_start: 11637
+line_end: 11659
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when a Method or an interpretable proposal can be tried in real practice and the next decision depends on what its introduction and later use reveal. The target can remain a proposal: preserve that status and distinguish it from the independently admitted Methods enacted in the attempt. Start with the receiving result and the decision the observations could change.
 
-For an ordinary first use, explain what the team tried to establish, what it did, what was later observed or could not begin, and what to keep, revise, branch, replace or stop. Separate a change to the target way from a change to how people obtain, learn or use it. The [Harbor application (IS.Application:1.3)](https://github.com/ailev/FPF/blob/main/DPFs/IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#isapplication13---use-a31mi-to-separate-what-happened-from-what-is-claimed) shows this small account leading directly to a receiving action.
+For an ordinary first use, explain what the team tried to establish, what it did, what was later observed or could not begin, and what to keep, revise, branch, replace or stop. Separate a change to the target way from a change to how intended users obtain, learn or use it. The [Harbor application (IS.Application:1.3)](https://github.com/ailev/FPF/blob/main/DPFs/IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#isapplication13---use-a31mi-to-separate-what-happened-from-what-is-claimed) shows this small account leading directly to a receiving action.
 
 Add the subjects, relations and evidence needed by the claims on which that decision relies. Sections 4.1–4.2 keep those conditions available: a capability claim needs its holder and grounds; a change governed by an authorization rule needs that basis; a causal explanation needs C.28. A description, plan, completed introduction and successful later use remain different results. Introduction can finish while access, fitness or later performance still fails.
 

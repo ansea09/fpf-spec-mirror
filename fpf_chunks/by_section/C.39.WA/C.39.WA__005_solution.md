@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87519
-line_end: 87646
+line_start: 87547
+line_end: 87674
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -84,7 +84,7 @@ A relation identifies how its participants are connected. A returned claim also 
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
 
-**Identify a claimed refinement.** When an account of a system, method or field treats one model as more concrete than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
+**Check a claim of strict refinement.** When an account of a system, method or field treats one model as more concrete than another, keep the inquiry fixed. Show that at least one design, execution or other completion remains feasible, that each preserves the earlier assertions and that a previously admissible answer is excluded. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 gives the grounds for a separate claim about constituents and wholes.
 
 **Identify the subject and relation before moving.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
 

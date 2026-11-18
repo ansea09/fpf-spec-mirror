@@ -6,12 +6,12 @@ section_id: "A.3.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:9 — Consequences"
-line_start: 12695
-line_end: 12700
+line_start: 12707
+line_end: 12712
 dependencies:
   - "A.1.1"
   - "A.10"

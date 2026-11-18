@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__005_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1 — Problem frame"
-line_start: 37587
-line_end: 37599
+line_start: 37608
+line_end: 37620
 dependencies:
   - "A.0"
   - "A.19"
@@ -40,7 +40,7 @@ keywords:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1 - Problem frame
 
-Once one source-set and search/outcome-space substrate has been declared, many lines still need one second-order interpretive view for ordinary work.
+A declared source-set and search/outcome-space substrate may still need an interpretation that answers a reader's inspection question.
 
 Examples include:
 

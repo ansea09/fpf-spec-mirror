@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 62433
-line_end: 62797
+line_start: 62452
+line_end: 62816
 dependencies:
   - "A.10"
   - "A.16"
@@ -63,7 +63,7 @@ A transitional ascription makes an unresolved quality interpretation explicit un
 
 `qualityTermAscription(...)` is the canonical transitional quality-term repair form when the endpoint choice is not yet fixed. The form is not a relation kind by default and does not replace the endpoint source.
 
-Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the neighboring result or reliance claim they bear on.
+Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, A.19.CPM profile comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the neighboring result or reliance claim they bear on.
 
 The transitional form is:
 
@@ -78,7 +78,7 @@ qualityTermAscription :=
   evaluatorRef: exact evaluator or policy ref | none,
   viewpointRef: U.ViewpointRef | none,
   referencePlane?,
-  representationLanguageRef?: U.RepresentationLanguageRef,
+  representationLanguageRef?: U.EntityRef with referent satisfying RepresentationLanguage (E.5.2.L:4.3),
   normalForm: SignalPack | Characteristic | Bundle | Objective,
   claimScope: U.ClaimScope,
   contextSliceRefs?: exact U.ContextSlice refs,
@@ -99,7 +99,7 @@ qualityTermAscription :=
 }
 ```
 
-`effectiveReferenceScheme`, `probeOrModelFrameRef`, `comparisonFrameRef`, and `claimScope` are explicit even when the comparison value is `none`; no generic `context` or `frame` slot defines their semantics. A probe or model frame remains the exact domain-local probe/model configuration. A comparison frame resolves the applicable `CG-Spec`, comparator edition, comparison scope, reference plane, and interval under A.19.CPM; it is not a universal `Frame` kind.
+`effectiveReferenceScheme`, `probeOrModelFrameRef`, `comparisonFrameRef`, and `claimScope` are explicit. Use the probe or model frame for the domain procedure, including any qualitative comparison it makes. Reserve `comparisonFrameRef` for a comparison of admitted profiles under A.19.CPM. It identifies the `CG-Spec`, comparator edition, comparison scope, reference plane and interval. Set it to `none` when the claim uses no such profile comparison.
 
 The record designates, but does not embed, a viewpoint. A non-`none` `viewpointRef` is one `U.ViewpointRef` whose governed resolution yields an exact viewpoint episteme; the reference, the viewpoint episteme, and the evaluator remain different objects.
 
@@ -173,7 +173,7 @@ Where:
 * **`defaultNormalForm`** ∈
   `{ SignalPack, Characteristic, Bundle, Objective }`
 * **`admissibleNormalForms`** is the explicitly declared set of admissible normal forms for the sense.
-  `defaultNormalForm` names the primary normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. `probeOrModelFrameKind` constrains only the domain-local probe/model configuration, while `comparisonFrameRequired` states whether a separate A.19.CPM comparison configuration must be named. `bridgePolicy` can require F.9 recovery or forbid silent reuse, but it cannot establish a Bridge. If the quality ascription is published, handle publication face, form, unit, carrier, and rendering questions under E.17, E.8, or the applicable publication pattern.
+  `defaultNormalForm` names the primary normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. `probeOrModelFrameKind` constrains only the domain-local probe/model configuration, while `comparisonFrameRequired` states whether the endpoint calls for two admitted profiles and their A.19.CPM comparator. `bridgePolicy` can require F.9 recovery or forbid silent reuse, but it cannot establish a Bridge. If the quality ascription is published, handle publication face, form, unit, carrier, and rendering questions under E.17, E.8, or the applicable publication pattern.
 
 #### C.16.Q:4.3 - Normative starter set of sense families
 
@@ -220,7 +220,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
    Name the exact domain-local exemplar pack, probe pack, test or criticism pack, Q-bundle definition, CG-frame, acceptance specification, control horizon, or other governed probe/model configuration.
 
 5. **Comparison frame.**
-   Name the exact A.19.CPM-governed comparison configuration separately, including the effective comparator and comparison scope when a comparison is made. Publish `none` when the ascription proposes no comparison; do not let the probe/model frame silently select one.
+   For a comparison of profiles under A.19.CPM, name the admitted profiles and the applicable comparator and comparison scope. If the claim needs such a comparison and an input is missing, say which conclusion is still open. For a domain comparison that uses a different operation, describe what was compared and on what grounds in the probe or model frame and in the claim. Use `comparisonFrameRef = none` whenever the claim uses no CPM comparison. When both operations are used, identify the grounds for each.
 
 6. **Evaluator and viewpoint reference.**
    State the evaluator or policy and, independently, either one `U.ViewpointRef` or `none`. A non-`none` reference SHALL resolve to one exact viewpoint episteme under E.17.0; neither the reference nor its resolution is the evaluator.
@@ -296,7 +296,7 @@ A conforming objective contains:
 C.16.Q SHALL prevent the collapse of **function or capability** claims into **quality-family** claims.
 
 * A statement about **what a system does** uses `A.6.F` first when function-like wording hides the FPF kind, relation, or claim, then applies the pattern for the recovered capability, Method, Work, system-role kind or assignment, `A.6.M` module-interface, architecture, mathematical, evidence, assurance, gate, decision, or release claim.
-* A statement about **how well, how safely, how robustly, or how maintainably** it does so belongs to `QS.EngineeringQualityFamily`.
+* Choose the sense of **how well** by the bearer and the evaluation. Maintaining the controlled quantity under a stated class of disturbances over a given horizon uses `QS.ControlAdequacy`. Evaluating a system's maintainability under stated service conditions uses `QS.EngineeringQualityFamily`.
 * “Quality characteristic” and “functional characteristic” SHALL NOT be used as interchangeable labels.
 * In engineering contexts, `-ility` names are **quality-family labels**, not automatically Characteristics.
   They become admissible only as one explicit `U.Characteristic` or one explicit `Bundle` (preferably expressed through `Q-Bundle` when composite).
@@ -384,7 +384,7 @@ In **Tech and normative prose**:
   * a family label immediately rewritten into one explicit `U.Characteristic` or `Q-Bundle`;
 * a claim using **quality requirement or quality requirements** SHALL make the required head and its requirement or acceptance relation recoverable. Use the applicable rule for that claim; a named Characteristic, Q-Bundle head or objective can supply the evaluated content. The phrase itself establishes no requirement or acceptance result;
 * **architecture quality or architectural quality** MUST NOT appear without an explicit bearer lane (`EntityOfConcern being described`, `description` or another `episteme`, publication face, or carrier when the carrier itself is described or evaluated) and, when omission changes meaning, an explicit `referencePlane`;
-* in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
+* when **quality** denotes a QD or NQD selector's Q head, use **`QS.UseValue`** by default. For wording about the reliability of a recorded input, recover what the recording procedure established;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;
 * if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; use the recovered subject rule directly, or `A.6.A` while the action meaning remains unclear, with source-tradition `affordance` wording retaining its cited meaning when used;
@@ -397,7 +397,7 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 
 1. Select a **`QualitySense`** and retain rival candidates while the intended sense remains unresolved.
 2. Name the exact bearer, effective ReferenceScheme, `U.ClaimScope`, and any meaning-changing `Γ_time`, reference plane, language of the selected expression, or substrate.
-3. Name the probe or model frame and the separate comparison frame or explicit `none`; then name evaluator and `U.ViewpointRef` independently.
+3. Name the probe or model frame and record any comparison it makes. Give the separate A.19.CPM frame when comparing admitted profiles under a declared comparator, or `none` otherwise; then name evaluator and `U.ViewpointRef` independently.
 4. Choose an admissible **normal form** and identify any separately constituted quality-result claim.
 5. Add exemplars, probes, characteristic heads, bundle members, objective pins, witness refs, and exact A.10 evidence-provenance paths as needed. Cite empirical grounding only through an independently obtaining relation.
 6. If the use depends on cross-local correspondence, resolve exact F.17 cells, the obtaining F.9 Bridge, and the separate bounded-use claim. Add a Card only as optional packaging and an F.9.1 stance note only as optional reader help about that claim.

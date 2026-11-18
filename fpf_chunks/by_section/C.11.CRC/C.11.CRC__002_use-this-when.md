@@ -6,12 +6,12 @@ section_id: "C.11.CRC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:0 — Use This When"
-line_start: 59939
-line_end: 59948
+line_start: 59950
+line_end: 59959
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 
 Use this pattern when a proposed finite change is being justified by “what it adds,” but its contribution has not been compared with the current configuration under the conditions that matter to the receiving decision. The change may add, replace or remove something; it may also acquire information before a later commitment.
 
-**First useful result.** Return one `C.2.1` episteme that compares a realizable finite changed configuration with the current configuration under a declared basis. State the result coordinates and resource coordinates, interactions, uncertainty, option effects, unsupported overreads, and the named receiving question that can consume the claim. It can supply local choice under `C.11`, construction of a continuation under `C.43`, or a subject Method that compares proposed changes. The comparison does not choose the option.
+**First useful result.** Tell the decision maker what would change with the proposal over the period they care about, compared with continuing without it. Include who gains or loses, the resources needed and any later choice it opens or closes. State which findings are estimates and what would change the comparison. This account is a `C.2.1` episteme. It supplies a premise for a choice (C.11), for planning later actions (C.43), or for the receiving design Method.
 
 **Cheap exit.** If an existing domain calculation or `A.19`/`C.11` account already states the same finite baseline and change with the material comparison conditions and reopen condition, use it directly.
 

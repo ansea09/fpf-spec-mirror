@@ -6,12 +6,12 @@ section_id: "E.11.PUA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:10 — Rationale"
-line_start: 110338
-line_end: 110349
+line_start: 110386
+line_end: 110397
 dependencies:
   - "A.13"
   - "A.15"

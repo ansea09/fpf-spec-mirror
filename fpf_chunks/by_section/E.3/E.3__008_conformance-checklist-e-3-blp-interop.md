@@ -6,12 +6,12 @@ section_id: "E.3:7"
 section_title: "Conformance Checklist — E.3 ↔ BLP Interop"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__008_conformance-checklist-e-3-blp-interop.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:7 — Conformance Checklist — E.3 ↔ BLP Interop"
-line_start: 97918
-line_end: 97927
+line_start: 97946
+line_end: 97955
 dependencies:
   - "E.1"
   - "E.2"
@@ -35,7 +35,7 @@ keywords:
 
 | ID          | Requirement                                                                                                          | Purpose                          |
 | ----------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| **CC‑E3.10** | Precedence list includes **BLP** **below** E/E‑LOG and **above** product tactics; conflicts handled via **BLP‑waiver** discipline. | Makes BLP’s standing auditable. |
+| **CC‑E3.10** | Place **BLP** below E/E‑LOG and above product tactics. Resolve conflicts by the applicable precedence rules. Invoke the BLP exception procedure when seeking an exception to a preference that would otherwise decide the case (§6 and CC‑E3.11). | Identifies the governing rule and any required exception. |
 | **CC‑E3.11** | A DRR invoking an exception to an applicable BLP/generality policy identifies that policy and meets its waiver, evidence and conditional debt requirements. Specialization or a fixed procedure alone creates no exception. | Keeps overrides visible without manufacturing them. |
 | **CC‑E3.12** | Each agentic plan declares an **AutonomyProfileId** (e.g., L0–L4) with explicit budgets. Add `explore_share` and the **E/E‑LOG EmitterPolicyRef** only when the plan uses that live-pool profile under C.24 ATC-4. | Aligns autonomy with assurance. |
 | **CC‑E3.13** | L1+ executions emit **CallGraphs** with editioned policy/method ids and budget deltas; L3+ include adaptation status. | Ensures replayability & audit. |

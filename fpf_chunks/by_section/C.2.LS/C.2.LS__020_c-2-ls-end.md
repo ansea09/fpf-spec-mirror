@@ -6,12 +6,12 @@ section_id: "C.2.LS:End"
 section_title: "C.2.LS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__020_c-2-ls-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:End — C.2.LS:End"
-line_start: 56064
-line_end: 56065
+line_start: 56071
+line_end: 56072
 dependencies:
   - "A.16"
   - "A.16.0"

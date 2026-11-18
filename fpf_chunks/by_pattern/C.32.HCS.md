@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.HCS.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
-line_start: 81274
-line_end: 81481
+line_start: 81302
+line_end: 81509
 dependencies:
   - "A.19"
   - "C.11"

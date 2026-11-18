@@ -6,12 +6,12 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 81087
-line_end: 81137
+line_start: 81115
+line_end: 81165
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -76,7 +76,7 @@ The local `A.15.PROD` entity-identity-inception claim uses the applicable PumpSk
 
 A later `C.30.AD` or `C.30.ASV` record describes the actual structure; use `C.32.ACE` to evaluate service-access coupling. When coupling is worse than the selected expectation, the eval result returns to decision repair or new synthesis. Neither the description, evaluation, identity-inception claim, completion claim, nor shared assembly work proves conformance to the selected architecture or transformation composition.
 
-**Workshop capability with finite acceptance.** A workshop-development project must enable the delivery of machined components with an agreed surface finish under the expected order flow. The components in their receiving use supply the product SoI; the workshop is the architectural subject. One candidate adds a machine, another combines that machine with a revised production Method, qualified operators, suitable measurement and secured material access, and a third obtains suitable external machining. The architect compares their actual capacity, handovers, cost and provision conditions.
+**Workshop capability with finite acceptance.** A workshop-development project must enable the delivery of machined components with an agreed surface finish under the expected order flow. The workshop and receiving organizations have agreed supply and acceptance obligations for those components. The components are the SoIs of their extended enterprise; the workshop is the architectural subject. One candidate adds a machine, another combines that machine with a revised production Method, qualified operators, suitable measurement and secured material access, and a third obtains suitable external machining. The architect compares their actual capacity, handovers, cost and provision conditions.
 
 A machine-only candidate cannot establish the workshop capability while the measurement Method or skilled operator is absent. A bounded acquisition project may still deliver and accept the machine. For the capability project, choose a supported combination or a bounded investigation of the unresolved fit; carry that distinction to PAD.
 

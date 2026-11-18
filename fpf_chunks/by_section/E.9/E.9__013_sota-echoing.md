@@ -6,12 +6,12 @@ section_id: "E.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__013_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:11 — SoTA-Echoing"
-line_start: 104396
-line_end: 104407
+line_start: 104442
+line_end: 104453
 dependencies:
   - "A.10"
   - "A.15.1"

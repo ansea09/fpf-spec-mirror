@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.CC.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
-line_start: 11022
-line_end: 11223
+line_start: 11034
+line_end: 11235
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -116,13 +116,13 @@ Use the existing claim and finding records or a concise account that preserves t
 
 Teams stop repairing the nearest document or declaring the whole Method inconsistent. They can identify the defeated claim, distinguish construction from description, representation, support, and evidence, and send one correction to its maintained owner.
 
-The correction becomes cheaper to review and safer to reuse. Unaffected claims keep their status, and later fit and worth judgments receive a precise repaired input rather than a package-wide confidence label.
+The correction becomes cheaper to review and safer to reuse. Unaffected claims keep their status, and later fit and worth judgments receive a repaired input rather than a package-wide confidence label.
 
 #### A.3.1.CC:4.4 - Minimal Constructed Coherence Replay
 
 Continue the constructed A.3.1.WT trial of admitted `M-Unit-Review-1`. Construction result `CCR-UR-1` states that unit identification and normalization precede tolerance comparison. MethodDescription edition 4 says the same and exposes the unresolved-mismatch stop.
 
-Only one current action is at issue: `Reviewer-17` must use the flow representation to guide pre-release unit review. Direct use result `C37-UR-Flow-4` therefore takes the C.37 exit rather than opening C.37.MP. It returns to that Method and description edition, requires unit identification, normalization before tolerance comparison, the comparison branch, and the unresolved-mismatch stop, and uses governed representation result `REP-UR-Flow-4`.
+One current action is at issue: `Reviewer-17` must use the flow representation to guide pre-release unit review. The use relies on C.37 selection result `C37-UR-Flow-4`, whose claim about that action is now checked. The result identifies that Method and description edition, requires unit identification, normalization before tolerance comparison, the comparison branch, and the unresolved-mismatch stop, and uses governed representation result `REP-UR-Flow-4`.
 
 Claim: that representation exposes those operations in order for the named review action. A.2.4 classifies the intended preparation use; A.10 path `P-UR-Flow-4` carries the current-edition premise with `RelianceDisposition=pass` for the review window. Receiving task criterion `UR-PreRelease-Guide-4` permits use only while those claims remain exposed. The row omits unrelated support-edition detail, preserves Method, description, representation, and Work status, is `select` for that action, and returns a missing exposure to the direct representation governor and this use row.
 

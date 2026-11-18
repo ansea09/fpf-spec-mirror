@@ -6,12 +6,12 @@ section_id: "C.2.7:17"
 section_title: "Factor Interaction and Cross-Facet Reading Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__018_factor-interaction-and-cross-facet-reading-rule.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:17 — Factor Interaction and Cross-Facet Reading Rule"
-line_start: 56858
-line_end: 56868
+line_start: 56865
+line_end: 56875
 dependencies:
   - "A.16"
   - "A.16.0"

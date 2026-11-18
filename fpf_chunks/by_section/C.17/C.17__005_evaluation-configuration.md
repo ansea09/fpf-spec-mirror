@@ -6,12 +6,12 @@ section_id: "C.17:3"
 section_title: "Evaluation configuration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__005_evaluation-configuration.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:3 — Evaluation configuration"
-line_start: 63255
-line_end: 63271
+line_start: 63276
+line_end: 63292
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.17:3 - Evaluation configuration
 
-The configuration must make these questions answerable:
+Use the questions that govern the coordinate or comparison being made:
 
 - Which bearer is evaluated, for which use and ClaimScope, over which selected slices and window?
 - Which CharacteristicSpace and `A.19.ECS` specification supply the Characteristics, Scales, value meanings, missingness rules, and admissible comparisons?

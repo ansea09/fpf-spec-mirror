@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — Declaration, Correspondence, and Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_solution-declaration-correspondence-and-judgment.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:5 — Solution — Declaration, Correspondence, and Judgment"
-line_start: 58345
-line_end: 58372
+line_start: 58354
+line_end: 58381
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -49,5 +49,5 @@ When a use moves to another practice, source, or team, compare the base-kind mem
 - if independently identified kinds are distinct and the use claims a directional correspondence, establish the C.3.3 `KindBridge`; use the receiving signature and adaptation declaration and, when the receiving use is candidate-bearing, make a fresh receiving judgment; and
 - if two adaptation declarations differ in constraints or bindings, a separate `KindUseAdaptationCorrespondenceDeclaration` may name source declaration as EntityOfConcern and state target, direction, deterministic rule, definedness, loss, and effective scheme. It creates no bridge or target truth.
 
-A stable conceptual refinement may justify another kind and an obtaining C.3.1 subkind fact. A declaration, correspondence, judgment, catalog row, or representation creates neither.
+A recurring local test can distinguish members of a narrower kind. Identify that kind by its criterion, then use C.3.1 to establish its relation to the base kind. A declaration or catalogue row can record the result.
 

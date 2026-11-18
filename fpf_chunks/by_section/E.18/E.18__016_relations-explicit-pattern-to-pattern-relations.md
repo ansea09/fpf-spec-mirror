@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 118044
-line_end: 118083
+line_start: 118092
+line_end: 118131
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

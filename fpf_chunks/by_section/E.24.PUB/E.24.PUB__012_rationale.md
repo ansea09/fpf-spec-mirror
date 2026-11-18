@@ -6,12 +6,12 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:10 — Rationale"
-line_start: 125123
-line_end: 125134
+line_start: 125171
+line_end: 125182
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"

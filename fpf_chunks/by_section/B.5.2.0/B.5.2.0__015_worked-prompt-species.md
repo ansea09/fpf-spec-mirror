@@ -6,12 +6,12 @@ section_id: "B.5.2.0:13"
 section_title: "Worked Prompt Species"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__015_worked-prompt-species.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:13 — Worked Prompt Species"
-line_start: 52245
-line_end: 52268
+line_start: 52274
+line_end: 52297
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -59,5 +59,5 @@ New contention logs can support one rival more strongly while the latency questi
 
 If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
 
-The same `AnomalyStatement` layout can express that reporting question and a question about a real slowdown in another service. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
+The reporting question and a question about an actual slowdown in another service can be expressed in accounts that use the same `AnomalyStatement` layout. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
 

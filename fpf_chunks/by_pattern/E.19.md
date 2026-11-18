@@ -6,15 +6,17 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 120097
-line_end: 120906
+line_start: 120145
+line_end: 120954
 dependencies:
   - "A.15.1"
+  - "A.6.1"
   - "A.6.P"
   - "B.5.MR"
+  - "C.3.1"
   - "E.10"
   - "E.2.DA"
   - "E.21"
@@ -25,6 +27,7 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
+  - "U.SubkindOf"
 keywords:
   - "(see H-8)"
   - "inside the predicate)"
@@ -202,7 +205,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
    The pattern **SHOULD NOT** be overloaded or significantly expand requirements or dependencies without an explicit reason and impact record.
    Checks include: scope containment, split/refactor recommendations when warranted, and contradiction scans against neighbor patterns in Relations.
    The pattern SHOULD balance cohesion and coupling across FPF.
-   If the pattern defines specialization or an abstraction stack, it SHOULD NOT mix slot interfaces or parameters from different abstraction positions; use explicit `⊑/⊑⁺` or `Uses` cuts instead.
+   Identify which kind or declaration owns each slot or parameter. For a subkind use the membership criteria of `U.SubkindOf` in C.3.1. For a specialized mechanism use its own declaration rules (A.6.1:4.8). A slot added by the specialization does not become mandatory in its parent. Use `Uses` for a dependency on another pattern. When two models of the same work or system are compared, B.5.MR establishes what their assertions preserve and whether a previously admissible answer is excluded.
 9. **Substantive solution and locus adequacy**
    For the reviewed pattern, ask a short set of questions about its problem and the change under review. Does the pattern still solve the stated problem? Are the decision points and applications of the relevant patterns correct? Are kind boundaries and selected companion or projection functions preserved? Has anything worsened? Are the SoTA rows current enough for the claim they discipline? Does that claim have enough support without excess material?
 10. **Triggered method, performer, work, and result separation**

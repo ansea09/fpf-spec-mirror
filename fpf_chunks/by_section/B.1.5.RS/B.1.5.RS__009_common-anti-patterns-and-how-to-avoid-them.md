@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44590
-line_end: 44599
+line_start: 44615
+line_end: 44624
 dependencies:
   - "A.3.1"
   - "B.1.5"

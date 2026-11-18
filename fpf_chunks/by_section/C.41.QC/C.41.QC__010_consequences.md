@@ -6,12 +6,12 @@ section_id: "C.41.QC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:9 — Consequences"
-line_start: 94554
-line_end: 94557
+line_start: 94582
+line_end: 94585
 dependencies:
   - "A.10"
   - "C.41"

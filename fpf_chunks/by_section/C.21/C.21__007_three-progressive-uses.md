@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "Three progressive uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_three-progressive-uses.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — Three progressive uses"
-line_start: 65403
-line_end: 65416
+line_start: 65430
+line_end: 65443
 dependencies:
   - "A.10"
   - "A.17-A.18"

@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:4 — Solution"
-line_start: 19929
-line_end: 20018
+line_start: 19941
+line_end: 20030
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.6.3.RT.OE:4 - Solution
 
-Recover the next operation, prepare its participating parts under an available scheme, arrange them around the relation the operation needs, and try that operation. Use its success or failure to keep or repair the expression.
+Recover the next operation, prepare its participating parts under an available representation language, arrange them around the relation the operation needs, and try that operation. Use its success or failure to keep or repair the expression.
 
 **Recover the operation → identify participating parts → expose their relation → check interpretation → perform the operation → retain the usable expression.**
 
@@ -54,7 +54,7 @@ The construction can stop with a useful distinction or an explicit question. Bef
 
 #### A.6.3.RT.OE:4.2 - Give recurring parts a stable interpretation
 
-Identify which elements must remain recognizable across the expression. Use the selected scheme's names, positions, types, units, binding rules or temporal references to keep them connected.
+Identify which elements must remain recognizable across the expression. Use the selected language's names, positions, types, units, binding rules or temporal references to keep them connected.
 
 When one part belongs to different groupings, retain its identity through the change of grouping. A line can be examined as a circle's radius and then as a triangle's side. A quantity can appear in two equations whose combination depends on it denoting the same value under the same conditions.
 
@@ -79,7 +79,7 @@ Choose the arrangement from the operation:
 | Needed operation | Useful arrangement | What must remain interpretable |
 | --- | --- | --- |
 | Combine two relations through a shared part | Place the relations together and keep the common part identifiable in both groupings. | Which occurrence refers to that part, and under which conditions. |
-| Apply an operation to a compound expression | Make the grouping and scope available through the scheme's delimiters, layout or formation rules. | Which elements are arguments of which operation. |
+| Apply an operation to a compound expression | Make the grouping and scope available through the language's delimiters, layout or formation rules. | Which elements are arguments of which operation. |
 | Compare quantities or alternatives | Use a shared order, unit, origin or other applicable reference. | The comparison relation and any transformation used to obtain it. |
 | Coordinate a sequence with a recurring process | Place the signs against an explicit temporal or positional reference. | Start, duration, recurrence and what stays constant. |
 | Continue a partial construction | Retain the earlier objects and expose the attachment or joining condition for the next part. | Which relations are given, constructed or still conjectured. |
@@ -102,7 +102,7 @@ When the expression is used as a replacement for another, A.6.3.RT compares the 
 
 Use the subject Method to perform the intended operation on the prepared expression. Inspect the transition: which parts were selected, how they were combined and what result followed.
 
-If the operation cannot be followed, locate what is missing. The expression may hide a shared part, omit a scope delimiter or lack a stable reference. Repair that contribution. If the notation lacks a required distinction, return to scheme selection or design. If the subject inference or construction lacks a premise or operation, return to that Method.
+If the operation cannot be followed, locate what is missing. The expression may hide a shared part, omit a scope delimiter or lack a stable reference. Repair that contribution. If the notation lacks a required distinction, return to selection or design of the representation language. If the subject inference or construction lacks a premise or operation, return to that Method.
 
 Keep a new conclusion with the construction or argument that establishes it. A diagram can make the argument possible while the argument still supplies the conclusion's justification. Drawing scale, apparent symmetry or a coincident mark supports a subject claim only through the applicable rules.
 

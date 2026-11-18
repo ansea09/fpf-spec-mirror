@@ -6,12 +6,12 @@ section_id: "C.16.RM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:5 — Archetypal Grounding"
-line_start: 62028
-line_end: 62097
+line_start: 62047
+line_end: 62116
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -66,17 +66,17 @@ A source has open-circuit voltage E and internal resistance Rs between 0.8 and 1
 
 With Rm = 1 MΩ and an ideal reading V = 5 V, the compatible bound is 9 ≤ E ≤ 11 V. It leaves the question E ≤ 10.5 V unresolved.
 
-One option is to determine Rs more closely and correct the loaded reading. Another is to reduce loading. The second option is available here: change to a meter with Rm = 100 MΩ. Assume the same passive-source model and resistance range apply to the new measurement. If its ideal reading is 9.9 V, then:
+One option is to bound Rs more closely and correct the first reading. Another is to reduce loading in a new measurement. Use a meter with Rm = 100 MΩ. Suppose the same passive-source law and resistance range hold at the new reading. If its ideal indication is 9.9 V, the open-circuit voltage **at that reading** satisfies:
 
 `9.9*(1 + 0.8/100) ≤ E ≤ 9.9*(1 + 1.2/100),`
 
-so 9.9792 ≤ E ≤ 10.0188 V. The bound settles E ≤ 10.5 V while Rs remains unresolved. The repair reduces the unknown resistance's influence on this conclusion.
+so 9.9792 ≤ E ≤ 10.0188 V. The new reading alone settles E ≤ 10.5 V at that time without determining Rs. To answer the question about the earlier time as well, establish that E stayed the same or bound its change tightly enough for the threshold. If both E and Rs stayed the same, the two ideal readings can also be solved jointly by C.16.IR:5.1.
 
 Restore a supplied reading-error bound of ±0.1 V for the new meter. The positive factors give:
 
 `9.8*1.008 ≤ E ≤ 10.0*1.012,`
 
-or 9.8784 ≤ E ≤ 10.12 V. The same decision remains settled. A more demanding threshold could make the error bound consequential again. Meter range, voltage stability and the loading model belong to the physical premises supporting this use.
+or 9.8784 ≤ E ≤ 10.12 V at the new reading. The threshold is still met. For a lower threshold the stated reading error could change the decision. The conclusion depends on the meter's operating range and the loading model.
 
 #### C.16.RM:5.3 - Recompute a rate from retained observations
 

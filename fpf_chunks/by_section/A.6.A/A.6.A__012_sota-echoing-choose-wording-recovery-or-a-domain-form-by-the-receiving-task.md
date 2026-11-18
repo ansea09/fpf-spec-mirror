@@ -6,12 +6,12 @@ section_id: "A.6.A:11"
 section_title: "SoTA-Echoing — choose wording recovery or a domain form by the receiving task"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__012_sota-echoing-choose-wording-recovery-or-a-domain-form-by-the-receiving-task.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:11 — SoTA-Echoing — choose wording recovery or a domain form by the receiving task"
-line_start: 23311
-line_end: 23335
+line_start: 23323
+line_end: 23347
 dependencies:
   - "A.15"
   - "A.16"

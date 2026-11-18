@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:5"
 section_title: "Archetypal Grounding — EC-417 Individual Stops"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__007_archetypal-grounding-ec-417-individual-stops.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:5 — Archetypal Grounding — EC-417 Individual Stops"
-line_start: 10736
-line_end: 10755
+line_start: 10748
+line_end: 10767
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

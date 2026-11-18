@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 56422
-line_end: 56437
+line_start: 56429
+line_end: 56444
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,7 +44,7 @@ To assign `CD`, ask:
 - what would count as an admissible reopen trigger?
 
 #### C.2.5:14.2 - Review prompt
-An assurance reader should identify the narrowing and its source under :16.2, including a policy or protocol when it fixes the route. Confident tone or an appeal to hierarchy alone does not establish that fixity.
+An assurance reader should use the applicable anchor in :4.2: identify the contrasts that organize still-live alternatives, the alternatives excluded, the choice made, or the rule that now governs reopening. State the grounds for that reading (:16.2). Confident tone or an appeal to hierarchy alone does not establish that fixity.
 
 #### C.2.5:14.3 - Governance note
 Whenever a claim about a gate, commitment, or endpoint use depends on `CD`, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.

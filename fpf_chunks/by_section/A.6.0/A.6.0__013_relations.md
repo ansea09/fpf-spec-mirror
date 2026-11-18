@@ -6,12 +6,12 @@ section_id: "A.6.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:12 — Relations"
-line_start: 17371
-line_end: 17380
+line_start: 17383
+line_end: 17392
 dependencies:
   - "A.15.1"
   - "A.17"

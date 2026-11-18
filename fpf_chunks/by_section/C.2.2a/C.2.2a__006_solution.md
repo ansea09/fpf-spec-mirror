@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 55263
-line_end: 55345
+line_start: 55292
+line_end: 55374
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -112,7 +112,7 @@ A conforming account shall not infer:
 Where operationally meaningful thresholds exist, they must be published on the relevant slots rather than being disguised as informal `F` sublevels.
 
 #### C.2.2a:4.7 - Position versus publication form
-A position claim states facet readings about the identified episteme. Witnesses provide grounds for those readings; a particular expression expresses the claim for the bounded use and may follow a selected reusable publication form, including an MVPK face. An independently identified carrier bears that same expression under E.24.PUB. Changing the expression, form, or carrier does not by itself change a facet reading. Any later publication qualified under an endpoint subject pattern still needs that pattern's conditions.
+Identify the expression or component whose properties supplied each reading, and the expression in which the assessor reports it. Reformatting the assessment table can preserve every reading about the earlier alert. Rewriting the alert can change its articulation even if the assessor uses the same table. Check the affected facet on the changed expression. The table can follow a reusable publication form, including an MVPK face, and its carrier can be identified under E.24.PUB. A subsequent publication has to satisfy the conditions of its receiving pattern.
 
 #### C.2.2a:4.8 - Threshold publication discipline
 If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.

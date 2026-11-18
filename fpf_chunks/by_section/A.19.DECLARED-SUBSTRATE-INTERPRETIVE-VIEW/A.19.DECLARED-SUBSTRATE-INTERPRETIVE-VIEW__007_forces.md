@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__007_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:3 — Forces"
-line_start: 37613
-line_end: 37623
+line_start: 37634
+line_end: 37644
 dependencies:
   - "A.0"
   - "A.19"
@@ -43,7 +43,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Existing view law vs local usefulness | The interpretive view must be useful in local substrate work, but it cannot invent a second `view` ontology beside `A.6.3` and `E.17.0`. |
-| Substrate stability vs interpretive help | Readers need one interpretive layer, but that interpretive layer must not redefine the substrate. |
+| Substrate stability vs interpretive help | Readers may need help interpreting the declared substrate while retaining its source sets, spaces and relations. |
 | Thin interpretation vs atlas-form reading | Some cases need only one light interpretive view; others genuinely need one fuller atlas-form reading. The pattern must admit both without making the fuller form default. |
 | Recoverability vs convenience | Derived tradition or palette views help reading, but they must not hide the base palette, base source set, or active declared spaces. |
 | Qualifier richness vs semantic inflation | Declared map refs, metrics, transition qualifiers, and distortion notes are often useful, but they must stay optional interpretive qualifiers rather than new mandatory core. |

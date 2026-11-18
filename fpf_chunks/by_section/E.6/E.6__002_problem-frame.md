@@ -6,12 +6,12 @@ section_id: "E.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:1 — Problem frame"
-line_start: 102362
-line_end: 102367
+line_start: 102408
+line_end: 102413
 dependencies:
   - "E.2"
 keywords:

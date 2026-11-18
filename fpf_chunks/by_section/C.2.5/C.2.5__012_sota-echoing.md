@@ -6,12 +6,12 @@ section_id: "C.2.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__012_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:11 — SoTA-Echoing"
-line_start: 56402
-line_end: 56404
+line_start: 56409
+line_end: 56411
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.16:10"
 section_title: "Conformance Checklist (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__013_conformance-checklist-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:10 — Conformance Checklist (Normative)"
-line_start: 61374
-line_end: 61388
+line_start: 61393
+line_end: 61407
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 
 For a proposed model, apply the subject, scale, model and applicable calibration checks. Apply work and result checks when asserting a performed measurement, and later-use checks when making that later claim.
 
-1. **Subject:** one measurand or measurement subject is named, with correct entity or relation arity.
+1. **Subject:** identify the entity or ordered tuple, then the quantity or other Characteristic sought under the stated conditions.
 2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
 3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.

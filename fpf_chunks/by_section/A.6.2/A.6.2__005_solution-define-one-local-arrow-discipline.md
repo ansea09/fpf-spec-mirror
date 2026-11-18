@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define one local arrow discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-one-local-arrow-discipline.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:4 — Solution — define one local arrow discipline"
-line_start: 18060
-line_end: 18248
+line_start: 18070
+line_end: 18260
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -58,6 +58,8 @@ The ordinary FPF objects remain separate:
 * an operation application and any Work that computes, authors, or changes an episteme are identified only when they occur.
 
 The A.6.3 viewing branch has endpoint epistemes about the same EntityOfConcern. The A.6.4 retargeting branch has endpoints about independently different entities. A receiving-use claim adds the separate bounded-use assertion `q`; a judgement about a current case tests its facts against `q`.
+
+When the endpoint epistemes serve as models, use B.5.MR for a refinement or abstraction claim. Recover the assertions and admitted answers at each endpoint, and establish the interpretation used to compare them. More formal or checkable wording alone does not establish that one model is more concrete.
 
 #### A.6.2:4.2 - Direct signature components (A.6.0 alignment)
 
@@ -111,7 +113,7 @@ For any arrow `f : X→Y` presented as an effect-free episteme morphism:
    * `entityOfConcernRef(E) : U.EntityRef` — designates E's EntityOfConcern;
    * `selectedViewpointRef?(use) : U.ViewpointRef` — only when the named describing use selects one viewpoint; this is not a component of E's identity;
    * `referenceScheme(E)` — the effective designation and interpretation rules recovered for E under C.2.1:4.1.1;
-   * `representationLanguageRef?(use, endpoint, expression) : U.RepresentationLanguageRef` — when the comparison needs the language selected for an expression, identify the endpoint, the expression used there and the conventions selected in this use. A single episteme can be expressed in several languages. Resolve the reference with the applicable binding. C.29 governs any mathematical-lens use.
+   * `representationLanguageRef?(use, endpoint, expression) : U.EntityRef` — its referent must satisfy RepresentationLanguage under E.5.2.L:4.3. When the comparison needs the language selected for an expression, identify the endpoint, the expression used there and the conventions selected in this use. A single episteme can be expressed in several languages. Resolve the reference with the applicable binding. C.29 governs any mathematical-lens use.
    * a separately current neighboring fact — name the `EpistemeEditionRelation`, A.10 evidence or provenance relation, or other governed predicate and its participants when the arrow family reads or compares it; do not collect these facts in a generic projection. If E asserts such a fact, that assertion is already part of `content(E)`.
 
    Content, EntityOfConcern and effective interpretation rules are recovered from the episteme at the endpoint. A describing use can select a viewpoint. If the law uses the language of an expression, resolve it for the expression and endpoint selected in that use. Establish each further relation on its own grounds. The arrow family's declared endpoint kinds and predicates determine admissibility. If its law additionally classifies content or scheme candidates for substitution, recover that classification's own domain and criterion; endpoint membership supplies no general constituent ValueKind. C.2.1:4.2.1 governs that stronger typed use.

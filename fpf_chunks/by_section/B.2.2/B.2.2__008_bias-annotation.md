@@ -6,12 +6,12 @@ section_id: "B.2.2:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__008_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:5.4 — Bias-Annotation"
-line_start: 45913
-line_end: 45922
+line_start: 45940
+line_end: 45949
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,6 +47,6 @@ keywords:
 | Named aggregate as system | A fleet, platform, or cell name is treated as system recognition. | Apply B.2 to one candidate; require the A.1 criterion and the `U.System` criterion. |
 | Component evidence transfer | Component certificates are read as assurance for the proposed new whole after its recognition under `U.System`. | Assess applicability to the result-system claim through the evidence or assurance relations; reuse a matching assessment, rather than transferring support by label. |
 | Coordination as whole | A controller, protocol, or coordination relation is treated as automatic system MHT. | Recover the obtaining relation, then require B.2 whole reidentification plus A.1 and `U.System` recognition; keep any support separate. |
-| Description as system | Dashboard, simulation, model, twin, or bill is treated as the operating system. | Use episteme, publication, source-use, and architecture-description patterns for description objects. |
+| Representation as represented system | A dashboard, simulation, model, twin, or bill is identified with the system it represents. | Recover the represented system, the representing entity and the grounds for that use. C.2.1:4.0.3 distinguishes model use from episteme identity; apply the description or publication patterns to those separate claims. Any claim that the representing entity is itself a System needs its own A.1 test. |
 | Transformation as containment | An external system changes a holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12 for the acting side, A.3.4 for the transformation, and A.15.1 for any claimed Work. Use B.2.5 when supervisor-subholon feedback is the question and a part-whole pattern when parthood is claimed. |
 

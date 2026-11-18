@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:1 — Problem Frame"
-line_start: 10453
-line_end: 10482
+line_start: 10465
+line_end: 10494
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

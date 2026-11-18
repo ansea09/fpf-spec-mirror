@@ -6,12 +6,12 @@ section_id: "C.35:End"
 section_title: "C.35:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__014_c-35-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:End — C.35:End"
-line_start: 85403
-line_end: 85404
+line_start: 85431
+line_end: 85432
 dependencies:
   - "A.22"
   - "A.6.M"

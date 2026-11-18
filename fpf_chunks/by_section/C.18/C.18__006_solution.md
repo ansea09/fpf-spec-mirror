@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 63634
-line_end: 63817
+line_start: 63657
+line_end: 63842
 dependencies:
   - "A.15"
   - "A.19"
@@ -202,6 +202,8 @@ Then state the smallest supported mode:
 
 The first result is one ordinary `C.2.1` claim naming the earlier and candidate space declarations, changed component, mode wording, counterfactual or trajectory evidence, uncertainty, blocked stronger claim, and next governing relation. Use `C.28` for a causal claim that the component change produced the new reachability. Use `C.11.CRC` when a finite space-changing intervention must be compared with the current configuration, and `C.11` for the later choice.
 
+To establish that a change opened a possibility, identify a candidate or action reachable under the new rules and explain what kept it out under the earlier rules. An earlier search may simply have missed it. If the question is whether the whole space expanded, also establish that every previously admitted possibility still has a counterpart under the new rules. A change can open some possibilities and close others.
+
 Stop at ordinary same-space exploration when no action depends on the stronger mode. Reopen only when the candidate grammar, generator, operator set, evaluator, retention/reproduction rule, goals/actions, environment, evidence, or receiving decision changes.
 
 **Worked micro-case.** A cooling-module search previously admits only fixed rectangular layouts assembled by the same connection operators and evaluated under the same thermal/maintainability comparator. A new layout far from the archive remains exploratory if those rules still admit it. For this comparison, take a validated curved-channel building block and its construction operator as supplied inputs. Adding them is expansive only when the earlier generator could not express the resulting layouts and the comparison still uses a compatible higher-order regime. If the operator itself is missing, C.39.RO and the applicable subject Methods must supply its construction before that addition can be claimed. Replacing candidate admission and retention with a context-adaptive rule that changes which successors count is transformational only when the earlier/candidate rule mapping and observed reachability support that stronger claim. A higher novelty score alone establishes none of these transitions.
@@ -211,7 +213,7 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 
 
 - Start from one declared candidate or eligibility set.
-- Return the non-dominated front from the relation-token set under the declared comparator or dominance set.
+- Apply the declared dominance relation to eligible candidates for the same use. One eligible rival that dominates a candidate settles its exclusion. To establish membership, rule out domination by every eligible rival, using the comparisons or a bound that covers them. Two candidates may be incomparable because each does better on a different criterion. Missing evidence about a criterion can instead leave their relation open. If the front is computed over a set of recorded comparisons, state which candidates and comparisons those records cover before using it to judge the underlying alternatives.
 - Return the exploration archive separately when the question concerns retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, check which intended archive/front uses or values become worse or more fragile when that signal improves. State the affected uses or values, or the checked loci when none worsened, and cite the policy or decision authority that admits the promotion and any trade-off. If this basis or authority is missing, keep the signal as telemetry. Use it as a bounded tie-breaker only when a separate applicable policy already admits that use.

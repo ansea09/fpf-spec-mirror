@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:4 — Solution"
-line_start: 47342
-line_end: 47403
+line_start: 47369
+line_end: 47432
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,12 +21,14 @@ keywords:
 
 ### B.3.5:4 - Solution
 
+The Working-Model and Assurance layers name E.14's presentation order: the claim first, its needed support accessible underneath. When two models are being compared for abstraction or refinement, use B.5.MR's comparison of their admitted answers.
+
 CT2R-LOG distinguishes an optional link between relation designations from the grounding link and validation flag required for each covered assertion:
 
 1. **Alias link (lexical).**
    **`tv:AliasOf`** may link a local relation designation to the accepted Tech designation of the same relation in that use. The definition in :5 fixes both endpoints and the conditions for using this alternative label. Cite the relation pattern to recover the relation’s meaning.
 
-2. **Grounding link (assurance level).**
+2. **Grounding link (assurance).**
    Each relation assertion covered by this elected profile carries `tv:groundedBy` according to its relation kind:
 
    * **ComponentOf, PortionOf, or AspectOf** requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. PortionOf uses the measured-portion profile in `C.13:4.1.1`; AspectOf uses the facet profile. This requirement follows the asserted relation, including measured text portions, and does not make those two profiles interchangeable.

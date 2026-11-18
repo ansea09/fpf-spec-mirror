@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:1 — Problem frame"
-line_start: 19898
-line_end: 19909
+line_start: 19910
+line_end: 19921
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -28,11 +28,11 @@ keywords:
 
 Use this pattern when the available content and notation do not yet give the practitioner an expression with which to perform the needed operation. A diagram contains the right objects but obscures their shared parts. An instruction groups alternatives differently from the work it should guide. A rhythmic phrase has known durations but its entry against a recurring cycle is hard to follow. Two reports may suggest a difficulty before the practitioner has obtained the distinction or question needed to investigate it.
 
-An **operative expression** is an expression prepared for a specified use: calculating, comparing, inferring, constructing or coordinating an action. Its signs can be written, drawn, spoken or gestural. The selected notation supplies their formation and interpretation rules; the subject Method supplies the operation to perform.
+An **operative expression** is an expression prepared for a specified use: calculating, comparing, inferring, constructing or coordinating an action. Its signs can be written, drawn, spoken or gestural. The selected representation language supplies their formation and interpretation rules; the subject Method supplies the operation to perform.
 
 **First useful move.** Select one attainable operation, even provisionally, then identify the parts of the content that must be examined together. When the final question is unknown, compare two available cases or separate their observed events; use what this attempt reveals to develop that question. To compare the sides of a constructed triangle, keep each segment recognizable both as a triangle side and as a radius of the circle used to construct it.
 
 The result is a usable expression and the interpretation needed for its next use. A representation change can also need A.6.3.RT's comparison with the source. Any new subject result obtained while using the expression has its own construction or argument.
 
-The examples require their stated geometric, grammatical or rhythmic conventions. Use an existing expression directly when the intended operation is already straightforward. Choose another scheme when the available one cannot express a needed distinction. Designing new notation rules or learning a subject operation remains separate work when either is missing.
+The examples require their stated geometric, grammatical or rhythmic conventions. Use an existing expression directly when the intended operation is already straightforward. Choose another representation language when the available one cannot express a needed distinction. Designing new notation rules or learning a subject operation remains separate work when either is missing.
 

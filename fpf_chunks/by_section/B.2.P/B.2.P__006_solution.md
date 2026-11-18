@@ -6,12 +6,12 @@ section_id: "B.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:4 — Solution"
-line_start: 45548
-line_end: 45624
+line_start: 45573
+line_end: 45650
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -78,7 +78,8 @@ Retain the source phrase beside the recovered claim and replacement only when th
 | Mathematical emergence, scale, coarse-graining, graph, morphism, benchmark, or MSPD expression | Apply the mathematical rule and subject pattern to the recovered claim; an adequate calculation can finish. Use `C.29` for a remaining representation-choice, correspondence, transfer or reliance question. | ontology by mathematical spelling |
 | Metric or benchmark mirage | Identify the characteristic or benchmark and its measurement or evaluation rule, retaining the source and correspondence grounds the inference uses. Apply `A.10` for a needed source-to-use account and `C.29` for a remaining mathematical representation or transfer question. | MHT or system admission |
 | Collection or collective wording mixed with emergence, MHT, or synergy | First recover membership, collection-as-whole, acting collective, whole-level characteristic, or MHT | collection admission by B.2.P |
-| Publication, model, dashboard, theory-text, or report claim | `C.2.1` for episteme identity and content; `E.17` for a needed publication face; `E.24.PUB` for publication, availability, expression or carrier distinctions; `C.30.AD` for an architecture-description question; a source-use pattern for the corresponding source claim | in-life whole by description alone |
+| Model-use or model-comparison claim | C.2.1:4.0.3 distinguishes a claim-bearing episteme from a physical specimen or observed performance used as a model. Recover the modeled entity, operation or observation, and grounds for the inference under the subject Method. Use B.5.MR for refinement or abstraction between models. | reidentification of the modeled holon merely because the model changed |
+| Publication, dashboard, theory-text, or report claim | `C.2.1` for episteme identity and content; `E.17` for a needed publication face; `E.24.PUB` for publication, availability, expression or carrier distinctions; `C.30.AD` for an architecture-description question; a source-use pattern for the corresponding source claim | in-life whole by description alone |
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 

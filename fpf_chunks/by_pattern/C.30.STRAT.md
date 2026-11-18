@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
-line_start: 76268
-line_end: 76536
+line_start: 76295
+line_end: 76564
 dependencies:
   - "A.10"
   - "A.15"
@@ -157,6 +157,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Selected structure or structural view | `layer`, `level`, `stack`, `block`, `view` | The selected, hidden, lost, or preserved structure; view selection; correspondence; source return; an `ArchitectureClaim` when claim content is needed; and a separate `ArchitectureRelation` only when that relation obtains. | `A.22`, `C.30`, `C.30.ASV`, or the applicable C.30 subpattern. |
 | Module, interface, or substitution | `block`, `cache`, `router`, `expert`, sometimes `layer` or `stack` | Module boundary, interface specification, substitutability relation, variation point, conformance relation, or reliance boundary. | `A.6.M`; stop using C.30.STRAT once that relation is clear. |
 | Function or transformation flow | `block`, `expert`, `cache`, `router`, `gate`, sometimes `layer` | Transformation or effect, path selection, graph node, path or crossing, architecture-to-flow relation, or E.18 flow valuation. | `A.6.F`, `E.18`, or `C.30.TFS-REL`. |
+| Levels of model abstraction or refinement | `level`, `more concrete model`, `more abstract model` | The two models, their common inquiry and interpretation, the completions that preserve earlier assertions, and which answer differs if a strict step is claimed. | `B.5.MR:4.2–4.3` |
 | Characteristic, scale, or mathematical lens | `level`, `tier`, `ladder`, `rung`, `layer`, `stack`, `block` | Characteristic and bearer, coordinate or value, scoring method, comparison criterion, scale window, resolution, coarse-graining, preserved or lost structure, lens-use result, and stop condition only where the claim needs them. State separately how the subject is mapped to a scale value; a scale or band does not by itself establish levels in the subject. | `C.16.P`, the applicable characterization pattern, or `C.29`. |
 | Episteme, publication, view, or source use | `stack`, `layer`, `section`, `view`, `cache`, `gate` | Description episteme, publication unit, face, form, carrier, source-currentness or source-use relation, source-return condition, or ordinary publication label. | `C.2.P` for a remaining epistemic distinction; otherwise use `C.2.1` for episteme content, `E.17.0` for `U.View` membership, `E.17` for reader-facing publication of an accepted account, `E.24.PUB` for publication availability, or the pattern defining the source-use claim. |
 | State, currentness, time, or dynamics | `cache`, `stable`, `level`, `readiness`, sometimes `gate` | Bearer, state frame and values, validity window, currentness relation, dynamics, temporal aspect or rate band, authored temporal-claim adequacy, and reopen condition. | `A.19.SPR` only while the state-family meaning is unresolved; otherwise `A.3.3`, `C.27.TA`, `C.27`, or the applicable state or temporal pattern. |
@@ -186,7 +187,7 @@ Use the source context and receiving question to select plausible readings from 
 | Source label family | Recovery discipline |
 | --- | --- |
 | `layer` | Do not choose by the word. Test control structure; selected structure or structural view; module or interface; scale or mathematical lens; and publication or source-use meanings. |
-| `level` | Before relying on “X is at or above level L,” name the subject, what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the claim is asserted, proposed, assumed, or illustrated. List order, a diagram row, first-then sequence, carrier section, curriculum, scale label, stage sequence, or coarse-grained view supplies none of these. Then test holon or aggregation use only when a named relation or structure pattern defines it; otherwise test characteristic or scale, ordinal classification, organization scope, Work scope, evidence scope, publication grouping, or ordinary source-label non-use. |
+| `level` | Before relying on “X is at or above level L,” name the subject, what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the claim is asserted, proposed, assumed, or illustrated. List order, a diagram row, first-then sequence, carrier section, curriculum, scale label, stage sequence, or coarse-grained view supplies none of these. Then test holon or aggregation use only when a named relation or structure pattern defines it; when the level concerns what two models permit for one inquiry, use B.5.MR. Otherwise test characteristic or scale, ordinal classification, organization scope, Work scope, evidence scope, publication grouping, or ordinary source-label non-use. |
 | `tier` | Test deployment, service, organization, classification, aggregation, and publication meanings. When the sentence makes one of those claims, use the pattern that defines or tests it; `tier` itself is not the ontology. |
 | `stack` | Test signature or slot construction, relation set or relation chain, architecture or control arrangement, aggregation arrangement, virtualization arrangement, deployment arrangement, publication-section ordering, or ordinary source-label non-use. A stack is not architecture by itself. |
 | `ladder` and `rung` | Test ordinal or classification scale, declared maturity or readiness progression, C.28 causal-use ladder or rung, publication taxonomy, or ordinary source-label non-use. Do not use ladder wording for an undeclared progression scale. |

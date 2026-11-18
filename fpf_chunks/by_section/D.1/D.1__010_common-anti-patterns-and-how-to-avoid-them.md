@@ -6,12 +6,12 @@ section_id: "D.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96386
-line_end: 96394
+line_start: 96414
+line_end: 96422
 dependencies:
   - "A.1"
   - "A.1.CSD"

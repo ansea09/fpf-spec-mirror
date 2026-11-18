@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 64129
-line_end: 64416
+line_start: 64154
+line_end: 64443
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -147,7 +147,7 @@ The following **lens profiles** are **illustrative heuristics, not norms**. Prac
 
 **Canonical record vocabulary.** A serialized `PoolPolicyResult` uses the field `governingLens` and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`. Reader prose may say *widen*, *keep the frontier*, *narrow to a subset*, or *sunset a line*, but those phrases are labels, not alternate serialized values. Do not use `lens` as a second field name.
 
-At the end of a C.19 use, make the treatment and its grounds explicit. A record preserves the account when later inspection or reuse needs it.
+When the policy and available evidence support a treatment, state the treatment and its grounds. A record preserves that result for later inspection or reuse. An inquiry can also establish why the choice of treatment remains open (§4.3).
 
 That result should state:
 
@@ -180,6 +180,8 @@ A supported pool-treatment conclusion identifies the pool and its next treatment
 - Close as `keep_frontier` when keeping the live lines is warranted under the current policy. A line retained for later reconsideration need not receive a new probe.
 - Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without implying that one scalar winner has already been chosen.
 - Close as `sunset_line` when a line's prospective contribution, feasible continuation or retention no longer warrants its burden under the pool policy. Failure to graduate is not enough. Its archived result may still be retained under C.18 when that separate retention remains useful.
+
+When comparing two policies, hold the candidate lines, evidence and pool question fixed and apply each policy. Identify any treatment the change permits or excludes under those conditions. Applying the same policy to newly generated candidates or newly observed performance can also change the treatment. State which input changed so the next team can tell whether to revise its policy, update the pool or use the new evidence.
 
 When the question has stopped being pool policy, carry the established result or qualified open question into the applicable handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
 
@@ -221,7 +223,7 @@ Retain every supporting information-acquisition, capability, novelty, objective,
 
 These inputs may support `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`; none becomes a generic signal or cue, default `Q`, dominance coordinate, probe choice, or selector-facing shortlist by entering the record.
 
-If a needed value is unknown, preserve the supported account and leave only the dependent treatment judgement open.
+When the available evidence leaves the treatment open, report the pool, applicable policy, remaining treatments and the premise that would decide among them. Reserve `PoolPolicyResult` and its `currentTreatment` field for a treatment that can already be justified.
 
 #### C.19:4.3a - Worked closure slice
 
@@ -331,5 +333,5 @@ When the retained set must be declared for downstream comparison, registry use, 
 
 When the question is which option to choose, pass the fixed option set and comparison basis to `C.11`. For planning or performed work, use the applicable A.15 pattern. Use `C.24` after the action or option is fixed and tool or service calls must be planned. When the question concerns edition, source, descriptor, policy or evidence currentness, use `G.11`. Retain the established pool-policy result or the qualified open question in each handoff.
 
-For the handoff, preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
+For the handoff, identify the pool question and preserve the evidence the receiver can use. For an established treatment, give the treatment and its change trigger. For an open choice, give the possible treatments and the fact or agreement that would decide between them. Include an archive or front reference when the account relies on one. The receiving pattern governs declaration, publication, choice, work or refresh.
 

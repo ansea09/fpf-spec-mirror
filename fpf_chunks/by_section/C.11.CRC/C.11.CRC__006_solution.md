@@ -6,12 +6,12 @@ section_id: "C.11.CRC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:4 — Solution"
-line_start: 59978
-line_end: 60040
+line_start: 59989
+line_end: 60051
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -47,9 +47,9 @@ keywords:
 Construct the smallest finite counterfactual comparison that can change the answer to one named choice or construction question.
 
 1. **Name the receiving question.** State who needs the comparison, the choice or construction it informs, when the result must be available, and which consequence could change that work. For a local `C.11` choice, identify its deciding System, `DecisionSubject` and current `OptionSet` or option-set question. For ongoing control, policy design or development, identify the continuation, rule, direction or means being compared and its receiving Method; a local option set need not already exist.
-2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, the holder or beneficiary and what it holds or benefits from, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
+2. **Establish the baseline.** Identify the actual or currently relied-on configuration `S0`. Describe how it would operate without the proposed change over the comparison period, including changes already expected. Set the system boundary, identify the affected Systems, who holds or benefits from what, and what is held fixed. When an omitted affected System could change the answer, use A.1.CSD and bring back consequences applicable to this configuration, change, period and evidence window. Give the grounds for using a historical, empty or ideal baseline if the question calls for one.
 3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, planned transition work, reversibility, and excluded variants.
-4. **Fix horizon and scenarios.** State the interval, relevant states or scenarios, timing assumptions, and any decision or evidence window. Do not combine results from incompatible horizons without an explicit mapping.
+4. **Fix the horizon and scenarios.** Compare both configurations over the same interval under the same external scenarios. Preserve differences in timing or later conditions caused by the proposed change. Where the evidence covers different intervals, explain how it supports that comparison or leave the affected consequence unresolved.
 5. **Declare result coordinates.** Name the result vector whose coordinates can change the decision and the protected coordinates that may not be silently scalarized. Include affected-System consequences and distributional differences when they matter to the comparison.
 6. **Declare resource coordinates.** For the action, transition, information acquisition, and computation, name the attention, capital, time, material, energy, and other resources consumed or expected to be consumed in this field case. State required authority separately as an admissibility condition. Keep costs of evaluating and realizing the change distinct.
 7. **Recover constraints and interactions.** State active and potentially activated constraints, complements, substitutes, thresholds, congestion, downstream effects, common causes, overlaps, and double-counting risks.

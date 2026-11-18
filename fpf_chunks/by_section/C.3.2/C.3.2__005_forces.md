@@ -6,12 +6,12 @@ section_id: "C.3.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__005_forces.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:3 — Forces"
-line_start: 57867
-line_end: 57878
+line_start: 57876
+line_end: 57887
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -32,7 +32,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Readable use vs reusable declaration | One case should stay ordinary, while repeated classification needs a stable criterion and assumptions. |
-| Admissibility vs uncertainty | Candidate or slice mismatch means no judgment; missing knowledge for an admissible request means `unknown`. |
+| Admissibility vs uncertainty | A candidate or slice outside the declaration receives no judgment. An admissible candidate receives `unknown` when the available facts leave its membership undecided. |
 | Criterion condition vs evidentiary use | The direct condition named by the criterion can be physical, relational, epistemic, institutional, or publication-dependent; use as evidence alone creates none of them. |
 | False vs unknown | Known criterion failure differs from unavailable support or dependency. |
 | Intent vs extension | A declaration can stay fixed while candidate state or selected slice changes the true-candidate set. |

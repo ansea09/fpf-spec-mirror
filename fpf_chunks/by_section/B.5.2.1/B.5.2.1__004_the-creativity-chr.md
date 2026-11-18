@@ -6,12 +6,12 @@ section_id: "B.5.2.1:3"
 section_title: "The Creativity‑CHR"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__004_the-creativity-chr.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:3 — The Creativity‑CHR"
-line_start: 52357
-line_end: 52374
+line_start: 52386
+line_end: 52403
 dependencies:
   - "A.17"
   - "A.18"

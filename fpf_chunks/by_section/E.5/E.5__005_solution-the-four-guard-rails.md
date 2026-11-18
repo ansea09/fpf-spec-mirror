@@ -6,12 +6,12 @@ section_id: "E.5:4"
 section_title: "Solution — the Four Guard‑Rails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__005_solution-the-four-guard-rails.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:4 — Solution — the Four Guard‑Rails"
-line_start: 101845
-line_end: 101862
+line_start: 101873
+line_end: 101890
 dependencies:
   - "E.2"
   - "E.3"

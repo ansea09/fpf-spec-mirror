@@ -6,12 +6,12 @@ section_id: "B.5.2.0:0"
 section_title: "Question, account and publication form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__002_question-account-and-publication-form.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:0 — Question, account and publication form"
-line_start: 52119
-line_end: 52122
+line_start: 52148
+line_end: 52151
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,5 +39,5 @@ keywords:
 
 ### B.5.2.0:0 - Question, account and publication form
 
-`U.AbductivePrompt` is a claim-bearing account of one open explanatory question. It records the question, its scope, prompt species and motivating grounds. It is a same-individual-dependent kind under `U.Episteme`: the account keeps C.2.1 identity, and §4.2.2 supplies its prompt-membership test. It may seed `B.5.2` when those grounds and the applicable language-state thresholds support rival comparison. The reusable form expresses the account; it can also express another account of another question.
+`U.AbductivePrompt` is a claim-bearing account of one open explanatory question. It records the question, its scope, prompt species and motivating grounds. It is a same-individual-dependent kind under `U.Episteme`: the account keeps C.2.1 identity, and §4.2.2 supplies its prompt-membership test. It may seed `B.5.2` when those grounds and the applicable language-state thresholds support rival comparison. Expressions of accounts about different questions can follow the same reusable publication form.
 

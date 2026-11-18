@@ -6,12 +6,12 @@ section_id: "C.32.PAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:4 — Solution"
-line_start: 83928
-line_end: 84032
+line_start: 83956
+line_end: 84060
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -68,7 +68,7 @@ Establish the decision relation with its exact composite project `U.Work`, candi
 
 Work in this order:
 
-1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. For a needed compound project-selection claim, apply A.15.6:4.1a to its sufficient local semantics and case facts. Return `missing-substrate[project-selection-conjunction]` only for unavailable required semantics; missing or failed facts retain their own outcomes.
+1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, recover the named extended enterprise and agreement grounds under A.1.STM:4.1; cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. For a needed compound project-selection claim, apply A.15.6:4.1a to its sufficient local semantics and case facts. Return `missing-substrate[project-selection-conjunction]` only for unavailable required semantics; missing or failed facts retain their own outcomes.
 2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
 3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.24.PUB` for the occurrence and audience availability; add `E.17` when a source-backed face and source return are needed.
 4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.

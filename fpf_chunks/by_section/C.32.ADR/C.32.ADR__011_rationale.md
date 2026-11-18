@@ -6,12 +6,12 @@ section_id: "C.32.ADR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:10 — Rationale"
-line_start: 84329
-line_end: 84336
+line_start: 84357
+line_end: 84364
 dependencies:
   - "A.10"
   - "A.15"

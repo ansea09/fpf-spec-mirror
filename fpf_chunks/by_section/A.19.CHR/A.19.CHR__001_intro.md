@@ -6,12 +6,12 @@ section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:intro — Intro"
-line_start: 38355
-line_end: 38367
+line_start: 38378
+line_end: 38390
 dependencies:
   - "A.15.2"
   - "A.15.3"

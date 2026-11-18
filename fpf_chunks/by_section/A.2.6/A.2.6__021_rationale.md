@@ -6,12 +6,12 @@ section_id: "A.2.6:20"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__021_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:20 — Rationale"
-line_start: 7831
-line_end: 7927
+line_start: 7843
+line_end: 7939
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -96,7 +96,7 @@ These comparisons suggest two useful questions: which conditions matter to the r
 | Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
 | Serial dependency               | **Intersection**                                | **Intersection of scopes**           | —                    | ordinal “more/less general” language                                  |
 | Scope edits                     | **ΔG+ (widen), ΔG− (narrow), Refit, Translate** | **Widen, narrow, refit, translate**  | —                    | implicit widening                                     |
-| Optional didactics              | **`Detail (D)`, `AbstractionTier (AT)`**        | **Detail and abstraction tier**      | **D / AT**           | avoid as G substitutes                                                |
+| Optional didactics | **`Detail (D)`, `KindAT` for the intended treatment of a kind** | **Detail and kind abstraction tier** | **D / AT** | establish scope separately from either annotation |
 
 **Naming rationale:**
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.8.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
-line_start: 56890
-line_end: 57147
+line_start: 56897
+line_end: 57154
 dependencies:
   - "A.17"
   - "A.18"
@@ -176,8 +176,8 @@ A service account states:
 A second expression adds this diagram while retaining those four sentences:
 
 ```text
-API --write--> Store --update--> Replica --read by--> Reports
-API <--durable-write confirmation-- Store
+API returns "stored" <--only after-- Store confirms durable write
+Store --source of updates to--> Replica --read by--> Reports
 ```
 
 The reader is an engineer familiar with durable writes and replicas. Select these four relations:

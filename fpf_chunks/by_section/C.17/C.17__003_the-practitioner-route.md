@@ -6,12 +6,12 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"
-line_start: 63202
-line_end: 63231
+line_start: 63223
+line_end: 63252
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,20 +52,20 @@ keywords:
 
 #### C.17:1.1 - Qualitative first move
 
-Name the bearer, comparison set, practical objective or must-criterion, observed or argued difference, supported consequence, evidence, and limitation. A useful statement can be as simple as:
+Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
 
 > Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 
 This is a C.17 result for an ordinary design discussion. It does not imply a numerical Novelty value or an overall assessment occurrence.
 
-#### C.17:1.2 - Quantified or reusable branch
+#### C.17:1.2 - Obtain a coordinate or compare profiles
 
-When a quantified, comparison-ready, or reusable result is needed:
+When the receiver needs a coordinate or a comparison of coordinate profiles under a declared comparator, use the steps that supply its grounds.
 
 1. select one A.19 CharacteristicSpace and its `A.19.ECS` specification;
-2. fix the finite comparison corpus, inclusion rule, source editions, scope, comparison window, and evidence;
-3. identify the objective, acceptance criterion, and must-constraints used;
-4. identify the similarity or measurement Method used and any model, encoder, distance definition, invariances, calibration, and uncertainty basis it needs;
+2. for a corpus-relative claim, fix the finite comparison corpus, inclusion rule, source editions, scope, comparison window and evidence.
+3. for a usefulness or eligibility claim, identify the objective, acceptance criterion or applicable must-constraints.
+4. identify how each requested value is obtained and the inputs, assumptions or observations it requires.
 5. for each coordinate, cite an existing complete `C.16` measurement result, perform and constitute the missing C.16 measurement, or state a `C.2.1` non-measurement ascription under its declared rule;
 6. form only the aggregate conclusion needed by the receiving comparison;
 7. add an optional profile payload, representation, or record only when a named receiver needs it.

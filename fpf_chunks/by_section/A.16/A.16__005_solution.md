@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 34889
-line_end: 34983
+line_start: 34905
+line_end: 34999
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -73,14 +73,14 @@ This is the canonical move table. Later examples apply it; they do not define an
 | `projection` | one aspect of an explicit route must be foregrounded without claiming endpoint admission | a typed route-bounded partial publication on an existing MVPK face | what is foregrounded, what is omitted or lost, and how reopen remains possible |
 | `formalize` | articulation or closure can increase under a named later rule | a more explicit symbolic, slot, or normal-form publication | the rule used, changed facets, and any new evidence-generating Work boundary |
 | `operationalize` | selected content is ready to face a method, Work, gate, or other operational question | the episteme or project record is docked to the pattern that defines or tests that use | the downstream contribution, its guard, and any world-facing Work boundary |
-| `reopen` | the current route, frame, or closure no longer holds | a publication in the same broad family expresses the reduced closure claim | reopened rivals, retained witnesses, and which prior endpoint-use or current-use claim no longer holds |
+| `reopen` | the inquiry or intended use remains appropriate, but closure was over-committed | the publication expresses the reopened alternatives and reduced closure claim | reopened rivals, retained witnesses, and which prior endpoint-use or current-use claim no longer holds |
 | `sketchBackoff` | an endpoint-bound or operational form over-commits the available grounds | an exploratory cue-bearing form becomes admissible again | retained anchors and witnesses, withdrawn closure, and the next safe question |
-| `respecify` | the broad family remains plausible but its framing scaffold, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, invariants that stay fixed, and any episteme-identity change |
+| `respecify` | the inquiry or intended use remains appropriate, but its framing, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, what remains supported, and any episteme-identity change |
 | `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, retired object, preserved history, and supported successor information or an unresolved successor question when the receiving use needs it |
 
 The table names moves, not the resulting objects. `PreArticulationCuePack` and `RoutedCueSet` are publication forms defined elsewhere. `U.AbductivePrompt` is the question account defined by `B.5.2.0`; its publication form is selected separately. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
 
-`projection` means route-bounded partialization. Its result must be a typed publication form; an MVPK face alone or an untyped placeholder is not enough. `respecify` changes framing, route specification, or a facet-profile reading. Precision repair remains with `A.6.P` or `C.16.Q`; recovery of an ambiguous action-oriented claim or question remains with `A.6.A`.
+`projection` means route-bounded partialization. Publish its result in a typed publication form. An expression must satisfy that form's content requirements as well as the presentation rules of any selected MVPK face; a face label or an untyped placeholder supplies no such conformance. `respecify` changes framing, route specification, or a facet-profile reading. A revision can also reopen closure; state both changes when both occur, using A.16.2:4.1. Precision repair remains with `A.6.P` or `C.16.Q`; recovery of an ambiguous action-oriented claim or question remains with `A.6.A`.
 
 Do not use A.16 to decide measurement admissibility, Bridge substitution, endpoint ontology, or another subject claim. Name the applicable pattern and test directly; A.16 coordinates only the publication move that makes that question current.
 

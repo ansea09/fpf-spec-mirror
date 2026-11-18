@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 125528
-line_end: 125613
+line_start: 125581
+line_end: 125666
 dependencies:
   - "A.1.1"
   - "A.11"

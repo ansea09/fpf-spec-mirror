@@ -6,12 +6,12 @@ section_id: "A.11.OP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:5 — Archetypal Grounding"
-line_start: 28753
-line_end: 28804
+line_start: 28765
+line_end: 28816
 dependencies:
   - "A.10"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 47487
-line_end: 47582
+line_start: 47516
+line_end: 47611
 dependencies:
   - "B.3"
   - "C.13"
@@ -81,7 +81,7 @@ For every relation instance covered by an elected B.3.5 profile, the author **MU
 Execution order, parallelism or interval inclusion alone **SHALL NOT** establish a part-whole relation. State Method composition under B.1.5 and temporal facts under C.27; use B.1.4 when those recovered relations must be aggregated. Independently established A.15.1 Work-part relations and A.14 proper-phase relations for unchanged non-Work carriers remain admissible under their own rules.
 
 **S‑6 (Unidirectional dependence).**
-CT2R‑LOG may *consume* Compose‑CAL and KD‑CAL conceptually; it **SHALL NOT** redefine them. Meaning flows **downward only** (Kernel → Extension → Context → Instance).
+CT2R‑LOG may *consume* Compose‑CAL and KD‑CAL conceptually; it **SHALL NOT** redefine them. Present the readable Working-Model claim before its needed assurance account. Assurance notation and record structure **SHALL NOT** dictate the public relation vocabulary. If support defeats or narrows the claim, revise it under its defining pattern and make the change visible, as E.14-P.2 requires.
 
 **S‑7 (Register discipline).**
 When naming relations in an alias declaration, authors **SHOULD** use the accepted Tech designation and, where available and permitted by E.10, its Plain twin. Obey the minimal-generality and rewrite rules (LEX-BUNDLE). Keep the declared local meaning and use recoverable when comparing labels across contexts.

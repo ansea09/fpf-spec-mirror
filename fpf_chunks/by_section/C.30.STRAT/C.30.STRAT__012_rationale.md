@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__012_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:10 — Rationale"
-line_start: 76506
-line_end: 76509
+line_start: 76534
+line_end: 76537
 dependencies:
   - "A.10"
   - "A.15"

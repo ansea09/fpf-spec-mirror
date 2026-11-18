@@ -6,12 +6,12 @@ section_id: "A.14:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 29722
-line_end: 29731
+line_start: 29736
+line_end: 29745
 dependencies:
   - "A.1"
   - "A.15"

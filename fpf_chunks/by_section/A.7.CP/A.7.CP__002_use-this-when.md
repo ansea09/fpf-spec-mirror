@@ -6,12 +6,12 @@ section_id: "A.7.CP:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:0 — Use this when"
-line_start: 27197
-line_end: 27206
+line_start: 27209
+line_end: 27218
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.7.CP:0 - Use this when
 
-Use this pattern when reasoning, ontology analysis, choice, or reconciliation relies on a broad constructive claim and another person must be able to recover which claim, receiving claim or result, posture, scope, work occurrence, and interval carried that reliance.
+Use this pattern when reasoning, ontology analysis, choice, or reconciliation relies on a broad constructive claim and another reader must be able to recover which claim, receiving claim or result, posture, scope, work occurrence, and interval carried that reliance.
 
 The first useful move is to name the dated reasoning work, each claim-bearing result or receiving decision it is forming, the `A7CP-*` claim IDs used for that result, and whether each use is an `adoptedPremise` or `conditionalAssumption`. Leave the other compact claims latent.
 

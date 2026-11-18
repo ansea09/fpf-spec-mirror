@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.24.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
-line_start: 67561
-line_end: 68025
+line_start: 67588
+line_end: 68052
 dependencies:
   - "A.10"
   - "A.15"
@@ -432,7 +432,7 @@ Vendor A and Vendor B both publish a route called `search`. `vendor_a_search_v2`
 
 The cheap C.19.1 probe for `BatchSearchMethod_3` and `IndexedSearchMethod_6` returns `bounded scale comparison` for the same repository-search task and `10k–100k files` window. The comparison then uses elapsed time and missed-match rate from `repo_search_benchmark_12`, including uncertainty and cost limits, and warrants a preference for `IndexedSearchMethod_6` only inside that window.
 
-If one Method is evidenced only on small text files and the other only on large mixed repositories, the comparison returns `no scale-based preference`. A project may separately cite a local policy or `BLP-waiver`; neither changes the empirical result.
+If the evidence for one Method covers only small text files and the evidence for the other covers only large mixed repositories, the task difference leaves their relative performance on the receiving workload open. Return `no scale-based preference`. A tie-break written for established equivalent performance does not apply to that finding. The project can use a local policy that covers the actual case or seek a waiver when overriding a preference that would otherwise decide the use.
 
 **Near misses.** A route label with no recovered Method remains probe material. A plan with no Work is still intent. A trace row does not prove performer, assignment, Method, or service acceptance. A satisfied `commitTrigger` with no checkpoint decision leaves the proposed route unadopted.
 

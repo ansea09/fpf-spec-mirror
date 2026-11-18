@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__003_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:2 — Problem"
-line_start: 82181
-line_end: 82188
+line_start: 82209
+line_end: 82216
 dependencies:
   - "A.10"
   - "A.12"

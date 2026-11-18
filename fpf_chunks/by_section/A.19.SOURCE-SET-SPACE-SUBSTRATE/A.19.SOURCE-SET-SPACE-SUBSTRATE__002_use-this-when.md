@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0 — Use this when"
-line_start: 37048
-line_end: 37090
+line_start: 37068
+line_end: 37110
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:
@@ -38,7 +40,7 @@ keywords:
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:0 - Use this when
 
-Use this pattern when one working line depends on all of the following at once:
+Use this pattern when a search, comparison or synthesis depends on all of the following:
 
 - one declared source set or composition of source sets still matters and must stay recoverable;
 - one search-side space reference and one outcome-side space reference must both be explicit;
@@ -53,7 +55,7 @@ Not this pattern when:
 - you only need to declare or compare `CharacteristicSpace` itself, with no source-set or source-to-outcome requirement; use `A.19`;
 - you are publishing selector or shipping metadata such as `SelectorOutcomeKind`, `SetResultFamily`, `HandoffKind`, or public shortlist identity; use `G.5` or `G.10`;
 - you are building one interpretive view over an already-declared substrate; use `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` or a local specialization such as `G.2`;
-- you are deciding live pool policy, frontier retention, or next-move planning; use `C.19` or `C.24`.
+- you need live-pool or frontier-retention policy; use `C.19`. Use `A.15.7` to choose a situation-responsive next action and `C.24` to plan tool or service calls after the action is fixed.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:0.1 - What goes wrong if missed
 

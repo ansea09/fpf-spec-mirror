@@ -6,12 +6,12 @@ section_id: "G.11:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__012_rationale-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:10 — Rationale (informative)"
-line_start: 141089
-line_end: 141096
+line_start: 141146
+line_end: 141153
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

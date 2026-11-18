@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:intro — Intro"
-line_start: 30204
-line_end: 30246
+line_start: 30218
+line_end: 30260
 dependencies:
   - "A.1"
   - "A.10"

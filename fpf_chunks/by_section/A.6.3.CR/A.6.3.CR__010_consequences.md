@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:9 — Consequences"
-line_start: 19343
-line_end: 19350
+line_start: 19355
+line_end: 19362
 dependencies:
   - "A.15"
   - "A.6.2"

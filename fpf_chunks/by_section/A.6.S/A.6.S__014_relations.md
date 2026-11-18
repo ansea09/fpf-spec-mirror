@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:12 — Relations"
-line_start: 26067
-line_end: 26090
+line_start: 26079
+line_end: 26102
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
   * A.1, A.13, and A.15.1 — System admission, the complete actual-performer core including local-kind classification and an obtaining A.2.1 assignment, and independent dated-Work admission; F.6 follows only for precise attribution through that same assignment
   * C.2.1 — episteme identity through claim content, EntityOfConcern, and effective ReferenceScheme, with empirical grounding and edition continuity kept as separate direct relations
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
-  * E.10 and LEX discipline — if the publication uses Plain twins (“SoI”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
+  * E.10 and LEX discipline — if the publication uses Plain twins (“the signature being engineered”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
   * A.6.3 — Episteme viewing — EntityOfConcern-preserving episteme construction
   * A.6.4 — EntityOfConcern-retargeting arrows, their separate C.2.1 bounded-use assertions, and separate current-case judgements
   * A.6.5 — relation-declaration slot discipline

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.7.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
-line_start: 102439
-line_end: 102508
+line_start: 102485
+line_end: 102554
 dependencies:
   - "E.5.4"
   - "E.6"
@@ -44,7 +44,7 @@ A purely abstract statement risks two failures:
 
 Every architectural pattern **SHALL** include a dedicated section titled **“Archetypal Grounding”** that shows the rule and its applicability through concrete cases. Use FPF's two canonical archetypes where the rule applies:
 
-1. **`U.System`** — an acting physical or operational holon.
+1. **`U.System`** — a physically embodied acting holon.
 2. **`U.Episteme`** — a non-agentive claim-bearing holon.
 
 When the rule applies across both, use the **Tell-Show-Show** sequence below. When it intentionally applies to only one substrate, supply that case and the scope justification required by CC-AG.3.

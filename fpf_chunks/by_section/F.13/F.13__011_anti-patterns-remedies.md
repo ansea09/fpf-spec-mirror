@@ -6,12 +6,12 @@ section_id: "F.13:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__011_anti-patterns-remedies.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:10 — Anti‑patterns & remedies"
-line_start: 131089
-line_end: 131105
+line_start: 131142
+line_end: 131158
 dependencies:
   - "F.1"
   - "F.17"

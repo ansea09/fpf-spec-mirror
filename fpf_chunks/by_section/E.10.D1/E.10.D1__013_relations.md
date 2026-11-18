@@ -6,12 +6,12 @@ section_id: "E.10.D1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:12 — Relations"
-line_start: 108488
-line_end: 108501
+line_start: 108536
+line_end: 108549
 dependencies:
   - "A.1.1"
   - "A.2.6"

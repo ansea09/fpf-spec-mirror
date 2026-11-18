@@ -6,12 +6,12 @@ section_id: "B.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__004_problem.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:2 — Problem"
-line_start: 45132
-line_end: 45142
+line_start: 45157
+line_end: 45167
 dependencies:
   - "A.1"
   - "A.10"

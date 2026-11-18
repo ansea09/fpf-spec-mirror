@@ -6,12 +6,12 @@ section_id: "A.6.4:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 20768
-line_end: 20785
+line_start: 20780
+line_end: 20797
 dependencies:
   - "A.10"
   - "A.15"

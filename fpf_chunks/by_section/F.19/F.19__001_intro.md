@@ -6,12 +6,12 @@ section_id: "F.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:intro — Intro"
-line_start: 134514
-line_end: 134530
+line_start: 134571
+line_end: 134587
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

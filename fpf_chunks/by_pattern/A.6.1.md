@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.1.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
-line_start: 17383
-line_end: 17977
+line_start: 17395
+line_end: 17987
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -475,8 +475,6 @@ Practical payoff: the declaration captures reusable publication-operation semant
 #### A.6.1:5.6 - Reduced ordinary use
 
 An engineer states, "this conversion is admitted only for values in the calibrated interval." No later claim reuses an operation family, compares declarations, identifies an actual application, or refers to a realization occurrence. The direct sentence and its governing characteristic and measurement patterns are enough. No mechanism episteme is opened.
-
-Practical payoff: precision grows only when a receiving use needs reusable mechanism identity or an application binding.
 
 #### A.6.1:5.7 - Recognition evaluation: Pump #37
 

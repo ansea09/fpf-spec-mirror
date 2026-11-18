@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.PROD.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
-line_start: 34242
-line_end: 34845
+line_start: 34258
+line_end: 34861
 dependencies:
   - "A.1"
   - "A.10"
@@ -300,7 +300,7 @@ Consider a subject-specific derived relation kind when a named use consumes occu
 
 Assurance may warrant reliance on the claim. Work, change, entity inception, and completion remain established by their branch predicates and obtaining facts.
 
-**Assurance scope by use.** Replay only what the reliance consumes. A model or declaration checks claim content, one truthful `EntityOfConcern`, reference scheme, participants, predicates, polarity, and boundary indexing.
+**Assurance scope by use.** Replay only what the reliance consumes. For assurance of a model or declaration, check claim content, one truthful `EntityOfConcern`, reference scheme, participants, predicates, polarity, and boundary indexing.
 
 A conformance use checks that the selected branch reaches one grounded answer or blocker and stops. Each assurance use assesses the stated claim; it neither widens that claim nor replaces the branch predicates and facts.
 
@@ -528,7 +528,7 @@ In the failing variant, the same constructor lacks the change-to-identity conjun
 | Check | Requirement |
 | --- | --- |
 | `CC-A15.PROD-1` | The receiving use selects production-work participation, entity-identity inception, production completion, or a subset. One branch conclusion is never another branch's answer; shared facts support each branch only through its own predicate and applicability. |
-| `CC-A15.PROD-2` | `currentWork` and `productionWork` designate A.15.1 Work occurrences admitted under `U.Work`, not plans, labels, projects, methods, logs, publications, or records that describe those occurrences. |
+| `CC-A15.PROD-2` | `currentWork` and `productionWork` designate A.15.1 Work occurrences admitted under `U.Work`, not plans, labels, methods, logs, publications, or records that describe those occurrences. |
 | `CC-A15.PROD-3` | The whole-work branch names actual `enactsMethod`, method applicability and intended production effect, affected referent, work-to-change facts, and the criterion current for the receiver. |
 | `CC-A15.PROD-4` | The proper-part branch names an A.15.1 work-part relation and gives the containing work the same grounding required by the whole-work branch. |
 | `CC-A15.PROD-5` | Every actual transformation is independently identified under A.3.4; work, method, samples, temporal subdivision, and flow representations do not imply transformation composition. |

@@ -6,12 +6,12 @@ section_id: "C.3.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__018_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:16 — Rationale"
-line_start: 58063
-line_end: 58066
+line_start: 58072
+line_end: 58075
 dependencies:
   - "A.14"
   - "A.2.6"

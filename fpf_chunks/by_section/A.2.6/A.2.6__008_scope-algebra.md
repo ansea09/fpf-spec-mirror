@@ -6,12 +6,12 @@ section_id: "A.2.6:7"
 section_title: "Scope Algebra"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_scope-algebra.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:7 — Scope Algebra"
-line_start: 7325
-line_end: 7426
+line_start: 7337
+line_end: 7438
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -80,8 +80,8 @@ Under **USM**, `U.ClaimScope` is a **set‑valued** **USM scope object** over `U
 **2) G composes via `∩` / `SpanUnion`, not via `min` / `avg`.**
 USM already fixes composition: along a **dependent path** use **intersection**; across **independent support lines** publish **SpanUnion**. None of these operations relies on (or preserves) any linear order. An ordinal “G ladder” invites people to take **minimums/averages**, which is **incorrect** for sets and breaks the established algebra.
 
-**3) Abstraction level is orthogonal to G.**
-A ladder from instances through patterns and formal types to equivalence up to isomorphism describes an abstraction or typing distinction. That distinction does not determine where a claim holds. **Abstraction** can be described by the optional **`AbstractionTier (AT)`** facet; **applicability** is **`U.ClaimScope (G)`**.
+**3) Identify what an abstraction level compares.**
+C.3.5's optional `KindAT` facet describes how a particular kind is intended to be used. Its anchors run from instance-oriented use, such as cataloguing a particular cohort, to treating structures up to isomorphism. To compare the levels of abstraction or refinement of two models, use B.5.MR. To establish where an assertion holds, identify the context slices in its `U.ClaimScope (G)`. These judgements can change independently.
 
 **4) A G ladder breaks locality and Bridge semantics.**
 When exact local senses require translation, an obtaining F.9 Bridge establishes their direct semantic relation while a separate C.2.1 claim states the proposed mapping rule and tolerated loss. There is no canonical way to translate an ordinal G level: the mapped area may be narrower or differently factored. USM translates exact sets only through that bounded claim and keeps A.10 or B.3 reliance separate rather than rewriting G.

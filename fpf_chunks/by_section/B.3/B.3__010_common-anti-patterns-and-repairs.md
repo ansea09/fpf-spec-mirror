@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_common-anti-patterns-and-repairs.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:8 — Common anti-patterns and repairs"
-line_start: 46989
-line_end: 47001
+line_start: 47016
+line_end: 47028
 dependencies:
   - "A.10"
   - "A.15.1"

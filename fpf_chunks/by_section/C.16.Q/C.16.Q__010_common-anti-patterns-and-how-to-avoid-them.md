@@ -6,12 +6,12 @@ section_id: "C.16.Q:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 63054
-line_end: 63069
+line_start: 63075
+line_end: 63090
 dependencies:
   - "A.10"
   - "A.16"
@@ -44,13 +44,13 @@ keywords:
 | Anti-pattern | Symptom | Why it fails | How to avoid or repair |
 | --- | --- | --- | --- |
 | **Magic scalar quality** | one number silently stands for several evaluative families | conflates senses and bearers and ignores scoring legality | publish the known endpoint or an explicit transitional `QualitySense` with an admissible normal form |
-| **Preconceptual-as-metric** | felt fit is presented as if it were already a measured characteristic | erases articulation stage and overstates evidence | keep it as `SignalPack` until an admissible proxy is declared |
+| **Preconceptual-as-metric** | felt fit is presented as if it were already a measured characteristic | erases articulation stage and overstates evidence | report the felt mismatch when that answers the question. If a measured indicator is needed, formulate its criterion, justify the proxy and obtain the observation |
 | **Engineering adjective drift** | *reliable, maintainable, or high-quality* appear with no explicit Characteristic or Q-Bundle | hides measurement shape and scope | rewrite to one `U.Characteristic` or one `Q-Bundle` |
 | **Selector ambiguity** | *quality in QD and NQD* is left undefined | breaks comparability and selection semantics | default to `QS.UseValue` unless another objective head is declared explicitly |
 | **Model-quality collapse** | latent fit, explanatory merit, and control adequacy are merged under one phrase | destroys bearer and frame distinctions | state the distinct claims under their endpoints; use separate transitional ascriptions only while the meanings remain unresolved |
 | **Architecture-vs-description collapse** | *architecture quality* is used with no explicit bearer lane | collapses the system-side bearer into its description, carrier, or publication face | publish the bearer lane explicitly and select `QS.EngineeringQualityFamily` or `QS.ArchitecturalDescriptionFitness` |
 | **Action-invitation-as-quality** | action invitations are narrated as if they were evaluations | the rewrite hides action semantics instead of clarifying them | stop the Q-rewrite and use the subject rule for the recovered claim or question; use `A.6.A` only while the action meaning remains unclear; state the claim or question and the participants and conditions its use needs; retain the cited source meaning of `affordance` when that source-local term is used |
-| **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM comparison frame, and ClaimScope separately |
+| **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM frame if used, and ClaimScope separately |
 | **Embedded viewpoint** | the record stores a viewpoint-looking value as evaluator or generic context | collapses reference, viewpoint episteme, evaluator, and result | store one governed `U.ViewpointRef` or `none`; resolve it under E.17.0 and keep evaluator separate |
 | **Witness-is-grounding** | a test report, trace, score, or filled record is cited as empirical grounding | presence of a carrier or result label establishes no direct relation | name witness refs and A.10 path separately; cite an exact obtaining `EpistemeEmpiricalGroundingRelation` or `none` |
 | **Bridge-by-label or stance note** | shared *quality* wording or an F.9.1 stance word is treated as the cross-local relation or use authority | creates false identity, silent loss, and unauthorized substitution | resolve exact F.17 cells, test and cite the F.9 Bridge, then state the separate bounded-use claim; add a Card only as optional packaging and a stance note only when its `EntityOfConcern` is that claim |

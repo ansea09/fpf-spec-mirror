@@ -6,12 +6,12 @@ section_id: "C.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:0 — Use This When"
-line_start: 63589
-line_end: 63606
+line_start: 63612
+line_end: 63629
 dependencies:
   - "A.15"
   - "A.19"
@@ -44,7 +44,7 @@ keywords:
 
 Use this pattern when generating or retaining variants raises a practical question: which candidates belong on the current front, which should remain available for exploration, and what changed in the basis for those decisions? A retained stepping stone can matter even when another candidate currently dominates it.
 
-**First useful move.** Name the candidate set, the comparison or retention rule needed, and the supported return. If the question asks only which candidates are non-dominated, return that front under the declared comparator. If it asks what to keep for later exploration, state the archive membership and its retention reason. Keep the two answers distinct when both are needed.
+**First useful move.** Name the candidate set, the comparison or retention rule needed, and the supported return. For a front, establish which eligible candidates are non-dominated under the declared comparator. Where a missing comparison could change membership, report the candidates whose status can already be settled and identify the open comparison. If it asks what to keep for later exploration, state the archive membership and its retention reason. Keep the two answers distinct when both are needed.
 
 When a retention reason is not yet supportable, use B.5:4.1.2 on the candidate, source or failed attempt to develop what later inquiry or action it could enable and under which conditions. Compare that attainable contribution and the retention commitment through C.11.DUA:4.2–4.2.1; use an already adequate basis directly. C.19:4.0 develops this connection when the question concerns treatment of a live pool. Return the supported archive-membership decision, or the particular retention claim still open and the attainable contribution needed to settle it.
 

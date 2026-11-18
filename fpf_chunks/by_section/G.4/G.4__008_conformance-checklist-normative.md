@@ -6,12 +6,12 @@ section_id: "G.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__008_conformance-checklist-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:7 — Conformance Checklist (normative)"
-line_start: 137558
-line_end: 137579
+line_start: 137615
+line_end: 137636
 dependencies:
   - "A.10"
   - "A.13"

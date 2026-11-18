@@ -6,12 +6,12 @@ section_id: "C.11.DBR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:4 — Solution"
-line_start: 60161
-line_end: 60217
+line_start: 60172
+line_end: 60228
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -53,7 +53,7 @@ The comparison has three useful outcomes:
 | Material difference | Identify the lost, changed or newly relevant premise and prepare the affected current choice. The observation does not itself select the response. |
 | Comparison unresolved | Name the missing premise, interpretation or alignment and the useful conclusion still available. Consider a smaller answer, an attainable inquiry or a stop through C.11.DUA. |
 
-These are findings, not universal decision statuses. A large numerical difference may be irrelevant to the named choice, while a small change crossing its constraint may be decisive. An unknown cause need not prevent acting on a supported consequence. A costly investigation is unwarranted when its attainable answers would not change this use.
+These are findings about the named use. A large numerical difference can leave a choice intact while a small one crosses its constraint. An unknown cause need not prevent acting on a supported consequence. End an optional investigation for this choice when its attainable answers cannot improve what the recipient can decide or rely on. A separately binding investigation remains due under its governing terms.
 
 #### C.11.DBR:4.3 - Bound what changes and preserve the rest
 
@@ -74,11 +74,11 @@ Choose the continuation by what is now missing:
 - Use A.15.7 for a next-action question in ongoing Work. Use the applicable problem-framing or construction Method when the question or means must change before options can be compared.
 - State which decision or authority is missing when only an analyst's recommendation is available. A recommendation can be the useful completed contribution while the authority holder's decision remains outstanding.
 
-The receiving Method makes its own decision and returns that result directly to its consumers. Only afterward, if the receiving work needs an overview, complete the reconsideration account by citing the returned result. Thus the input does not depend on a decision it already contains. No common vocabulary of continue, stop or revise replaces the subject's result.
+The person, controller or authorized body that holds the decision uses the receiving Method. Return its decision to those who depend on it. An analyst who has only made a recommendation can deliver that recommendation now and identify the decision still outstanding. If an overview is needed, cite the decision once made, using the terms of the receiving practice.
 
 #### C.11.DBR:4.5 - Carry the result to its next use and stop
 
-Explain what remains usable, what current result has been obtained and which next contribution is still missing. If the current choice calls for intended work or a revised plan, A.15.2 separately supplies that WorkPlan. Permission, an available performer and actual performance still require their own grounds. Updating a reconsideration account performs none of that work.
+Explain what remains usable, what current result has been obtained and which contribution is missing. If the decision calls for planned work, the responsible planner can use A.15.2 to prepare or revise the WorkPlan. Establish separately who may carry it out, who is available and what was actually performed.
 
 Stop when the included uses have a supported preservation answer, an obtained current decision, or a precise unresolved contribution. Stop earlier when a narrower answer completes the receiving question. Preserve a reason and a condition for another return only where later reliance needs them. A new observation, changed use or newly discovered dependency can reopen the comparison it could materially change; independently preserved results remain usable.
 

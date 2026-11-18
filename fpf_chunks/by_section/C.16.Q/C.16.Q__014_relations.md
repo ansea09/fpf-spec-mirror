@@ -6,12 +6,12 @@ section_id: "C.16.Q:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:12 — Relations"
-line_start: 63134
-line_end: 63171
+line_start: 63155
+line_end: 63192
 dependencies:
   - "A.10"
   - "A.16"
@@ -51,7 +51,7 @@ keywords:
   * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets;
   * **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`;
   * **A.2.6** for `U.ClaimScope` and `U.ContextSlice`;
-  * **A.19.CPM** for comparison;
+  * **A.19.CPM** for a comparison of admitted profiles under its comparator;
   * **A.10** for evidence-provenance and bounded reliance;
   * **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy;
   * **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use;
@@ -75,5 +75,5 @@ Admissible endpoints after repair include:
 Quality wording whose intended claim is already recoverable can use the applicable endpoint directly. A known endpoint needs no additional `qualityTermAscription(...)` record.
 
 #### C.16.Q:12.3 - What C.16.Q leaves to other patterns
-C.16.Q does not define or test articulation-state characteristics, Bridge truth, bounded-use claims, stance-note identity, evidence-provenance, empirical grounding, comparison operations, viewpoint resolution, or representation factors. Use `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, or the applicable representation pattern for those questions.
+C.16.Q does not define or test articulation-state characteristics, Bridge truth, bounded-use claims, stance-note identity, evidence-provenance, empirical grounding, profile comparison operations, viewpoint resolution, or representation factors. Use `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, or the applicable representation pattern for those questions.
 

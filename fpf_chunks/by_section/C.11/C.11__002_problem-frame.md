@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 59216
-line_end: 59242
+line_start: 59227
+line_end: 59253
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,23 +57,23 @@ keywords:
 
 **Use this when.** Use this pattern when one `DecisionSubject` already has an `OptionSet` in hand and the question is how to choose among those already-available options under uncertainty, preference, causal or subjunctive dependence, and bounded probing or computation.
 
-**First output.** The first useful output explicitly identifies one `DecisionSubject`, one `OptionSet`, the comparison basis and `ChoiceRule`, and the resulting `ChoiceResult`. That result states whether the lawful choice is to choose now, reject the current set, probe more, or move to a neighboring question.
+**First useful result.** Identify who makes this choice, the alternatives, what each could lead to, and the rule used to compare them. State which option or options the rule supports, why all fail, what further inquiry is worth doing, or where the remaining question belongs. When another party decides, that comparison can serve as advice. To report an actual decision, establish who made it or which authorized procedure put its result into effect.
 
-If that first output still cannot be stated, the local comparison is unfinished or the question belongs to a neighboring pattern.
+When a choice is still open, give the recipient the comparison available now, the missing grounds and who can settle it. A supported recommendation or an unfinished comparison can be delivered before the holder decides.
 
 **First-minute questions.**
 
-- Who or what is actually choosing here, and at what chooser-bearing level?
+- Who or what makes this choice? If several participants contributed, to whom is the decision attributed?
 - What options are already on the table now?
 - What current basis is being used to compare them?
-- What next probe could still change the choice, if any?
+- What could a further observation or calculation change about the choice or what the recipient can rely on?
 - Is this still local choice, or has the question moved to a neighboring problem—for example, search, pool policy, selector-result declaration, publication availability, or enactment?
 
 **When advice still hides the decision.** Use `C.11.DUA` when a recommendation or evidence demand still needs its receiving question, demanded work or requirement merits recovered. Return here when a current chooser and options support a local choice. An already adequate choice uses this pattern directly.
 
 **Typical reroutes.** For candidate construction or development, use `C.38`–`C.40` as specified in §4.4; that section also distinguishes pool policy, selected-set publication and enactment. Use `A.13` when agency itself is at issue, or `A.18`/`A.19` when Scale bindings or a declared CharacteristicSpace or reusable predicate are the unresolved question.
 
-**What this pattern buys.** This pattern gives one stable place to compare classical, causal, success-first or subjunctive, bounded-resource, active-inference-adjacent, and quantum-like decision lines while keeping search, selection, and planning doctrine with their respective questions. In practice it buys one explicit answer to four questions: choose now, reject the current set, probe again, or reroute.
+**What the chooser gets.** The same options can yield different recommendations if they indicate an outcome, bring it about, or depend on what another chooser will do. Identify the dependence that matters, then check which alternatives the current facts support and what further inquiry could change.
 
 **Not this pattern when.** Do not start here when the current question is still generating candidate options, setting exploration or exploitation policy over a candidate pool, declaring selector-facing set-result content, making that result available to an audience, or sequencing execution under an operational plan.
 

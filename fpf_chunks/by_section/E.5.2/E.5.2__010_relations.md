@@ -6,12 +6,12 @@ section_id: "E.5.2:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__010_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:9 — Relations"
-line_start: 102110
-line_end: 102118
+line_start: 102138
+line_end: 102146
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

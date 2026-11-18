@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:7 — Conformance Checklist"
-line_start: 11814
-line_end: 11829
+line_start: 11826
+line_end: 11841
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -31,7 +31,7 @@ keywords:
 - [ ] Assignment, permission, authority, access, use, enactment, and other relations name predicates, participants, scope, and obtaining basis.
 - [ ] Later Work is independently admitted; candidate accounts are not enacted, and only independently admitted Methods may fill an enactment claim.
 - [ ] Decision-relevant acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result observations remain separate.
-- [ ] Every adaptation distinguishes target change from introduction-strategy change and records the affected target, strategy and status, identified description episteme, separate WorkPlan, support or local-use condition; time and planned/reactive status; decision-maker and any applicable authorization; level, reason and conditions; maintained result; and receiving action or stop.
+- [ ] Every adaptation distinguishes target change from introduction-strategy change and records the affected target, strategy and status, identified description episteme, separate WorkPlan, support or local-use condition; time and planned/reactive status; decision-maker and any applicable authorization; recipients and delivery settings covered by the modification, reason and conditions; maintained result; and receiving action or stop.
 - [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
 - [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
 - [ ] A.3.1.FT receives a bounded fit or transfer question, C.36.MC a bounded population-level cultural question, and A.3.1.MV/A.15.8.MS/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. A.3.2.DE receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.

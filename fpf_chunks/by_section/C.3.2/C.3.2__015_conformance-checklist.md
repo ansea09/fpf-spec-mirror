@@ -6,12 +6,12 @@ section_id: "C.3.2:13"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__015_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:13 — Conformance Checklist"
-line_start: 58026
-line_end: 58042
+line_start: 58035
+line_end: 58051
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -35,7 +35,7 @@ keywords:
 | `CC-C32-2` | The signature's EntityOfConcern is the kind, and its content names candidate ValueKind/domain, criterion, applicability, scheme, assumptions, dependencies, formality, and any extent rule. |
 | `CC-C32-3` | Candidate mismatch or slice outside applicability yields `not-applicable` and no judgment; only admissible requests return `true`, `false`, or `unknown`. |
 | `CC-C32-4` | The directly governed condition named by the criterion decides satisfaction. Evidentiary use alone does not constitute an independently governed condition; an episteme, relation, status, or publication occurrence may be the condition when its direct pattern says so. |
-| `CC-C32-5` | Missing support or unavailable dependency for an admissible request yields `unknown`, distinct from known `false`. |
+| `CC-C32-5` | An admissible evaluation yields `unknown` when missing support or an unavailable dependency leaves the criterion unsettled. Preserve a conclusion established by the remaining facts. |
 | `CC-C32-6` | No world-side collection-belonging claim, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from judgment or extension. |
 | `CC-C32-7` | A separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind. |
 | `CC-C32-8` | Subkind checks compare admissible judgments and use C.3.1's criterion-entailment or exhaustive closed-domain branch; samples only support an assertion. |

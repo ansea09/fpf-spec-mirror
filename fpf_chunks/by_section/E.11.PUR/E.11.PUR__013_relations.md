@@ -6,12 +6,12 @@ section_id: "E.11.PUR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:12 — Relations"
-line_start: 110809
-line_end: 110814
+line_start: 110857
+line_end: 110862
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.1.STM:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__014_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:12 — Rationale"
-line_start: 4579
-line_end: 4584
+line_start: 4591
+line_end: 4596
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -35,7 +35,7 @@ keywords:
 
 ### A.1.STM:12 - Rationale
 
-The project-role and use account makes division of labour intelligible: it lets a participant explain why a local choice matters to people outside that task. The larger whole's functioning at the operating time explains what contribution the system must make together with the other parts of that whole. Requirements derived from that account constrain plausible internal construction; construction constrains the Methods and capabilities needed to obtain it. Merely naming neighbours or desired effects leaves the reason for those requirements incomplete. These dependencies explain the mantra's order. A complaint can lead back to the same grounds, while proactive examination can reveal an unanswered question before its consequences are felt. Criticism and experience explain the returns.
+The account of the product's role in the extended enterprise and its use makes division of labour intelligible: it lets a participant explain why a local choice matters to people outside that task. The larger whole's functioning at the operating time explains what contribution the system must make together with the other parts of that whole. Requirements derived from that account constrain plausible internal construction; construction constrains the Methods and capabilities needed to obtain it. Merely naming neighbours or desired effects leaves the reason for those requirements incomplete. These dependencies explain the mantra's order. A complaint can lead back to the same grounds, while proactive examination can reveal an unanswered question before its consequences are felt. Criticism and experience explain the returns.
 
-The same reasoning applies recursively to builders without making creation a composition relation or every builder a Work performer. Separating the project role from System identity preserves this organizing principle across different projects and before a holder exists. Separating local completion from receiving use lets a team finish bounded work without mistaking that completion for success of the whole undertaking.
+The same reasoning applies recursively to builders without making creation a composition relation or every builder a Work performer. Separating the product role in an extended enterprise from System identity preserves this organizing principle across different projects and before a holder exists. Separating local completion from receiving use lets a team finish bounded work without mistaking that completion for success of the whole undertaking.
 

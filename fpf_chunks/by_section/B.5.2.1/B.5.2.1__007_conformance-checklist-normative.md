@@ -6,12 +6,12 @@ section_id: "B.5.2.1:6"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__007_conformance-checklist-normative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:6 — Conformance Checklist (normative)"
-line_start: 52431
-line_end: 52463
+line_start: 52460
+line_end: 52492
 dependencies:
   - "A.17"
   - "A.18"

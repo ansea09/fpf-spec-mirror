@@ -6,12 +6,12 @@ section_id: "C.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:intro — Intro"
-line_start: 59206
-line_end: 59215
+line_start: 59217
+line_end: 59226
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,5 +58,5 @@ keywords:
 
 **At a glance.** `C.11` is the choice-calculus pattern for the moment when options exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
 
-This is a bounded choice use of decision theory, not a claim that all decision problems have one level, a fixed purpose or discrete alternatives. **C.43** connects such a choice to construction of alternatives, conditional future responses, realization and revision in ongoing control. One option here may itself be a policy or trajectory whose construction and qualification belong to the relevant Method.
+The alternatives may include a policy or a trajectory. Use C.43 when the practitioner must also construct alternatives, connect a choice to later observations and actions, or revise the course during execution.
 

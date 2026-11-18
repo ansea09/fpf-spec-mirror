@@ -6,12 +6,12 @@ section_id: "B.5.MR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__010_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:9 — Consequences"
-line_start: 50874
-line_end: 50877
+line_start: 50903
+line_end: 50906
 dependencies:
   - "B.1"
   - "B.5.FM"

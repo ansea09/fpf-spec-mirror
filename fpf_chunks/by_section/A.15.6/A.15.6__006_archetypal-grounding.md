@@ -6,12 +6,12 @@ section_id: "A.15.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:5 — Archetypal Grounding"
-line_start: 32530
-line_end: 32596
+line_start: 32546
+line_end: 32612
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -53,7 +53,7 @@ The diagnosis, bearing-replacement, controller-production-and-installation and q
 
 The five project qualifications add only what this use needs. A local C.2.1 claim may record that the admitted composite Work fulfilled the intended-performance designation under the stated policy; the claim uses that local rule. `MaintenanceTeam-4` and `ControllerAssemblyCell-2` remain the performer Systems, with identities distinct from the project Work. A failed pump-qualification test may leave actual project Work while the intended result remains unachieved.
 
-Apply section 4.1a to the project system-of-interest. The plan and upgrade decision designate the already existing `PumpUnit-3`; direct Work-to-pump and Work-to-change facts separately say how the pump matters. Classification under a local `SystemOfInterestSystemRole` and any assignment occurrence require their own tests. A proposed controller remains plan content until its identity rule first holds; production completion, later operation, classification, and assignment are separate claims.
+Apply section 4.1a to the project system-of-interest. The operator, controller supplier and maintenance organization have agreed the upgrade work and responsibilities, forming the extended enterprise for this alteration. Their plan and upgrade decision designate the already existing `PumpUnit-3`; direct Work-to-pump and Work-to-change facts separately say how the pump matters. Classification under a local `SystemOfInterestSystemRole` and any assignment occurrence require their own tests. A proposed controller remains plan content until its identity rule first holds; production completion, later operation, classification, and assignment are separate claims.
 
 Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result.
 
@@ -87,7 +87,7 @@ One learner's changing mastery is a case concern only for claims about that lear
 
 **Research case: an experimental materials campaign.** The finite campaign prepares alloy specimens, performs load tests, and analyzes measurements. Admit its composite occurrence under the full A.15.1:4.1 test, then assert the grounded relations to independently admitted preparation, testing and analysis Work parts and apply section 4.1's five project qualifications.
 
-Identify the reusable experimental `U.Method` separately from the protocol episteme; the latter is a MethodDescription only under A.3.2. The selected preparation-test-analysis organization is a transformation-flow structure only when that organization changes the research decision. Each specimen remains the affected referent followed through preparation and testing. The hypothesis, preregistration, measurement-result episteme and article are separately identified epistemes. A surprising measurement becomes a Problem only when the C.22.PFR condition and applicability relations obtain.
+Identify the reusable experimental `U.Method` separately from the protocol episteme; the latter is a MethodDescription only under A.3.2. The selected preparation-test-analysis organization is a transformation-flow structure only when that organization changes the research decision. Each specimen remains the affected referent followed through preparation and testing. Identify the claim-bearing epistemes under C.2.1, keeping the hypothesis, preregistration claims and measurement results distinguishable. Use E.24.PUB to identify their expression and publication uses, including the article. A surprising measurement becomes a Problem only when the C.22.PFR condition and applicability relations obtain.
 
 Project progress, protocol improvement, specimen history, result interpretation and publication can therefore change independently.
 

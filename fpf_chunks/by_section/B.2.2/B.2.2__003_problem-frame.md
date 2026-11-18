@@ -6,12 +6,12 @@ section_id: "B.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__003_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:1 — Problem Frame"
-line_start: 45778
-line_end: 45787
+line_start: 45805
+line_end: 45814
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 
 `B.2` is holon-general. `B.2.2` is its `U.System` specialization.
 
-B.2.2 tests whether B.2's proposed new whole satisfies A.1 and has a physical or operational organization through which it is eligible to act causally in work or transformation while preserving its identity—the `U.System` criterion.
+B.2.2 tests whether B.2's proposed new whole satisfies A.1, is physically embodied, and has an organization through which it is eligible to act causally in work or transformation while preserving its identity—the `U.System` criterion.
 
 If it does, recover the separately governed system-level claims needed by the case, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about that recognized result system.
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__007_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:5 — Archetypal Grounding"
-line_start: 55346
-line_end: 55352
+line_start: 55375
+line_end: 55381
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,5 +49,5 @@ keywords:
 
 **Show (System).** A service disturbance is a system-side phenomenon. The positioned `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
+**Show (Episteme).** The research note in :13.1 names a discrepancy and two possible causes. Its reader can compare the causes but cannot yet attribute the discrepancy to either one. To assess the internal encoding of the readings, the reader would need evidence about the meters. The typography of the note supplies no such evidence.
 

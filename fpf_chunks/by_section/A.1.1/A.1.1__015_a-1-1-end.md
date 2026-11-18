@@ -6,7 +6,7 @@ section_id: "A.1.1:End"
 section_title: "A.1.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__015_a-1-1-end.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:End — A.1.1:End"

@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 65638
-line_end: 65849
+line_start: 65665
+line_end: 65876
 dependencies:
   - "A.6.0"
   - "C.16"

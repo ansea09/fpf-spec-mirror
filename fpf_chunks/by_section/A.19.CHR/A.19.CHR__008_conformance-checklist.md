@@ -6,12 +6,12 @@ section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 38774
-line_end: 38859
+line_start: 38797
+line_end: 38882
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -53,7 +53,7 @@ A CHR mechanism-suite publication set is conformant to **A.19.CHR** iff all appl
 
 #### A.19.CHR:7.1 - Suite object checks
 
-**CC‑A67CHR‑1 (Correct kind and level).**
+**CC‑A67CHR‑1 (Correct description kind).**
 A conforming `CHRMechanismSuiteDescription` SHALL be a `MechSuiteDescription` instance and SHALL NOT be encoded as a `MechFamilyDescription`.
 
 **CC‑A67CHR‑1a (Stable citation handle).**

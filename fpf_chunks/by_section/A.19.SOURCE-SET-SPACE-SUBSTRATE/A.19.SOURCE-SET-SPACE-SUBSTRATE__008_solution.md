@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__008_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:4 — Solution"
-line_start: 37163
-line_end: 37344
+line_start: 37183
+line_end: 37364
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:
@@ -38,11 +40,11 @@ keywords:
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:4 - Solution
 
-Declare the source-set or search/outcome-space line through one substrate stack, keep only the core mandatory, and place every other requirement in conditional fields, interpretive qualifiers, or companion declarations.
+Declare the source set, both space uses and the source-to-outcome relation with its limitations. Add conditional fields or companion declarations when the intended use requires them.
 
-#### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.1 - Declared relation-and-ref-position stack and outside work
+#### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.1 - Substrate declaration and related work
 
-Use this pattern to declare only the substrate stack below:
+Use this pattern to declare:
 
 - the source set, or composition of source sets, used by the search or comparison;
 - the recoverable source-set identity when the family name alone would be ambiguous;
@@ -59,9 +61,9 @@ Do not use this pattern to declare:
 - live pool policy or enactment planning;
 - or optional interpretive-view families that interpret or reorganize an already-declared substrate.
 
-#### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.2 - Minimal declaration stack
+#### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.2 - Minimal declaration
 
-Use the following notation-independent stack:
+The notation below names the required content and conditional fields:
 
 ```text
 SourceSetSpaceSubstrate := <
@@ -97,7 +99,7 @@ The two reference fields designate A.19 spaces. `SpaceRefRelationKind` reports w
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.3 - Substrate declaration laws (SS-0..SS-7)
 
-**SS-0 - One substrate line, one stack.**
+**SS-0 - Required declaration content.**
 Treat a line as declared substrate only if one recoverable source-set basis, two recoverable space refs, one explicit ref-to-ref relation kind, one explicit source-to-outcome relation, and one explicit posture are present together.
 
 **SS-1 - Ref typing is preserved.**
@@ -113,7 +115,7 @@ The reader must be able to recover the source set and its declared family. For a
 `DistortionPosture` must say whether the line is transparent for current use or qualified by loss, metric/model dependence, transition dependence, uncertainty, learning/adaptation, or instability under refresh. State all material qualifications, even when one primary token is used for indexing. A token alone supplies no error bound, validation result or permission to rely on the outcome.
 
 **SS-5 - Conditional and qualifier fields stay subordinate.**
-`SourceSetComposition`, `DerivedViewKind`, `BasePaletteRef`, `OutcomeMapRef`, `SpaceMetricRef`, `TransitionRelationRef`, and `BridgeDistortionNote` may clarify the substrate, but they do not replace the core stack and do not become mandatory everywhere.
+`SourceSetComposition`, `DerivedViewKind`, `BasePaletteRef`, `OutcomeMapRef`, `SpaceMetricRef`, `TransitionRelationRef`, and `BridgeDistortionNote` may clarify the substrate, but they do not replace the required declaration content and do not become mandatory everywhere.
 
 **SS-6 - Publication and policy stay outside.**
 Publication metadata, shortlist identity, live-pool policy, and enactment policy remain neighboring decisions. A substrate line may feed them, but it does not decide them.
@@ -187,7 +189,7 @@ When a neighboring line already uses `DescriptorMapRef` or `DistanceDefRef`, doc
 - but neither one replaces `SearchSpaceRef` or `OutcomeSpaceRef`;
 - and `CharacteristicSpace` remains a different kind from `DescriptorMap`.
 
-Use this docking rule whenever a reader could otherwise mistake one local representation layer for the whole search-side or outcome-side space reference.
+Use this rule when a reader could mistake a descriptor map or distance definition for the declared space.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.10 - Publication and shipping remain downstream consumers
 
@@ -213,7 +215,7 @@ Once the substrate is declared, select the neighboring pattern for the remaining
 - Use `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` when the next requirement is interpretive help over the same substrate. The interpretive view may foreground the line, but it does not become the ontology.
 - Use `G.2` when that interpretation becomes palette-first, tradition-facing atlas work. Keep the base palette and the cited substrate recoverable while doing it.
 - Use `A.6.P` when one passage collapses source set, space ref, interpretive view, atlas view, or map/ref wording into one umbrella word. Repair the wording back to the substrate declaration before adding more theory.
-- Use `F.18` when the problem is label choice or naming-side comparison around this stack. Naming notes may explain why one head is better named; they do not settle the substrate relation.
+- Use `F.18` when the problem is label choice or naming-side comparison around this declaration. Naming notes may explain why one head is better named; they do not settle the substrate relation.
 - Use `A.0` when the task is cold-reader glossing of these tokens. Glosses explain the terms; the source, spaces, relation and limitations required by §4.2 must still be recoverable from the account.
 
 If a neighboring use needs a changed source-to-outcome relation or qualification, revise the declaration and reconsider the conclusions that depend on the change. Reuse unaffected content.

@@ -6,12 +6,12 @@ section_id: "B.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:0 — Use This When"
-line_start: 42608
-line_end: 42634
+line_start: 42631
+line_end: 42657
 dependencies:
   - "A.1"
   - "A.14"

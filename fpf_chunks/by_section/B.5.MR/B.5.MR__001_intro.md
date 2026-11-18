@@ -6,12 +6,12 @@ section_id: "B.5.MR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:intro — Intro"
-line_start: 50765
-line_end: 50769
+line_start: 50794
+line_end: 50798
 dependencies:
   - "B.1"
   - "B.5.FM"

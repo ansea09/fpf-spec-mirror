@@ -6,12 +6,12 @@ section_id: "A.6.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:10 — Rationale"
-line_start: 17335
-line_end: 17350
+line_start: 17347
+line_end: 17362
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -55,5 +55,5 @@ Laws state the reusable regularities. Applicability states where those regularit
 
 `RelationSignature` is a use of `U.Signature` because it has the same episteme identity and content duties. Introducing a second root kind would duplicate those duties while leaving obtaining and occurrence identity with direct relation patterns anyway.
 
-Progressive elaboration protects didactic primacy. A practitioner can begin with a readable relation sentence and add formal declaration only when reuse creates value. Exactness is increased for a named claim or operation.
+A practitioner can begin with a readable relation sentence and add a reusable declaration when reuse creates value.
 

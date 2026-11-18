@@ -6,12 +6,12 @@ section_id: "A.14:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__008_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:7 — Archetypal Grounding"
-line_start: 29605
-line_end: 29615
+line_start: 29619
+line_end: 29629
 dependencies:
   - "A.1"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 
 | Relation | Physical or engineering-design example | Text, publication, or episteme example or boundary |
 | --- | --- | --- |
-| **PortionOf** | 50 L from the 200 L fuel stock in Tank-A, under one volume measure and its stated conditions. | The report text on pages 1–10 within a 120-page edition under fixed pagination; token count is a separate measure. |
+| **PortionOf** | 50 L from the 200 L fuel stock in Tank-A, under one volume measure and its stated conditions. | Text on pages 1–10 of one 120-page expression under fixed pagination, with the text span and whole independently established as holons. Token count is a separate measure. |
 | **ComponentOf** | Impeller ComponentOf PumpUnit. | The printed region occupied by Figure 2, independently identified as a physical part of the poster. |
 | **ConstituentOf** | Control law ConstituentOf Controller Design. | Lemma A ConstituentOf Theorem Proof. |
 | **AspectOf** | ThermalEnvelope-7 AspectOf Reactor-7 under the thermal-boundary rule; `A.14:5.3` shows the bearer, enclosure, occurrence, identity, preservation, and ending conditions. | A selected view, concern, heading, or projection of an episteme is not AspectOf. Use this relation only if a bearer-dependent structural aspect, facet rule, occurrence, and aspect identity are independently established. |

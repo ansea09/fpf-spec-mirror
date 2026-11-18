@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 53392
-line_end: 54027
+line_start: 53421
+line_end: 54056
 dependencies:
   - "A.1"
   - "A.10"
@@ -287,7 +287,7 @@ Open a row below only when its first column names the reader's next sentence or 
 | A decision or evaluation will accept, reject, or withhold reliance because of evidence. | the exact evidence-use relation and the grounds needed for the claim and use; evidence storage alone is insufficient | `A.2.4` for the evidence-use relation and the direct pattern for the claim; `A.10` when its source-to-use account must remain replayable; `B.3` when a named assurance claim is at issue |
 | Reviewers must inspect or revise a classification judgment as an independent claim-bearing object. | one classification assertion episteme about the exact candidate, plus the exact governing criterion | C.2.1:4.2.3 with `A.1` or `C.3.2`; `E.24.UK` only for public U-kind admission |
 | A reader must establish that a later episteme continues an earlier one as an edition. | one exact `EpistemeEditionRelation` occurrence, with the source use and continuity rule required by its predicate | C.2.1:4.5 |
-| A reader must compare informational models by refinement or abstraction. | their interpreted assertions and admitted answers for the receiving inquiry; test preservation and, when a more concrete or more abstract position is claimed, strictness | B.5.MR |
+| A reader must compare informational models by refinement or abstraction. | the models' interpreted assertions and the answers their admissible completions yield for the same inquiry. Test feasibility and preservation. To call one model more concrete or more abstract, also establish a strict difference. | B.5.MR |
 | An account must assert that particular Work occurred. | identify the actual performer and admit the dated Work independently; if the account also attributes it to an assignment, test that attribution separately | `A.13` and `A.15.1`; `F.6` only for the stated attribution |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the exact publication occurrence, expression and independently identified carrier, with reusable form conformance when needed | `E.17` and `E.24.PUB` |
 | A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the chosen representation, the conventions for interpreting it, the operations and the correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |

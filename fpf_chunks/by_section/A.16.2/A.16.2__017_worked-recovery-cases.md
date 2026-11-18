@@ -6,12 +6,12 @@ section_id: "A.16.2:18"
 section_title: "Worked Recovery Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__017_worked-recovery-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:18 — Worked Recovery Cases"
-line_start: 35737
-line_end: 35750
+line_start: 35757
+line_end: 35770
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,7 @@ keywords:
 ### A.16.2:18 - Worked Recovery Cases
 
 #### A.16.2:18.1 - Reopening a routed evaluative note
-An evaluative note may have reached a high closure state under one route, but new contrasts give the reviewer grounds to reconsider a serious rival. `reopen` is admissible when the bearer, family, and witness base remain largely intact but the closure claim must be relaxed.
+An evaluative note may have reached a high closure state under one route, but new contrasts give the reviewer grounds to reconsider a serious rival. `reopen` is admissible when the evaluative question and its subject remain supported but the closure claim must be relaxed. Retain the witnesses that still support the inquiry.
 
 #### A.16.2:18.2 - Sketch-backoff from prompt to cue pack
 An abductive prompt may later prove over-committed because its open question was formulated before the cue anchors had stabilized. The admissible recovery is to sketch-backoff to `PreArticulationCuePack`, preserving the cue carriers while withdrawing the prompt-readiness and current-use claims.

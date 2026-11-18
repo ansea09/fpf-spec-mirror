@@ -6,12 +6,12 @@ section_id: "C.2.LS:13"
 section_title: "Worked Examples and Composition Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__014_worked-examples-and-composition-notes.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:13 — Worked Examples and Composition Notes"
-line_start: 55922
-line_end: 55976
+line_start: 55936
+line_end: 55983
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -74,17 +74,10 @@ The profile states:
 The alert has a complete question and still-open diagnostic alternatives. Its code factors and operator-loop connection answer different questions; no one facet replaces the others.
 
 #### C.2.LS:13.2 - Research cue before lexical repair
-An inquiry note reporting a mismatch noticed through bodily observation may state:
-
-- low `AE`,
-- very low `CD`,
-- the C.2.6 account of the observer, bodily observation and reported mismatch, including any exemplars or instrumental trace that contribute,
-- and any representation readings needed for the next use, assessed on the note's identified expression under C.2.7.
-
-Use the profile to identify what the next question still needs. `A.16.1` preserves the cue; `A.6.P` can recover an unclear relation, and `B.5.2` starts from an admissible `U.AbductivePrompt`. Apply the receiving pattern's conditions when choosing the move.
+An observer reports a vibration just after startup. The note identifies the machine, the observer and the occasion. It leaves open what changed and which part vibrated. The next investigator can locate the observation and seek a comparison or a trace. If a later summary proposes a cause, identify which evidence supports that claim. A.16.1 can preserve the initial cue. Use A.6.P for an unclear relation or B.5.2 when the material supplies the conditions for an abductive prompt.
 
 #### C.2.LS:13.3 - Architecture-description case
-A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD` and symbolic in its representation-factor bundle. Its C.2.6 account identifies the document edition and assertions used for the adequacy judgement. The profile keeps description-side adequacy distinct from system-side engineering quality.
+A note evaluates whether a named edition of an architecture description assigns a responder to each failure mode. For one mode the description names two possible responders and gives no rule for choosing between them. The note can express this finding precisely. The assignment remains open in the description. To determine who responded in service, inspect the record of that incident.
 
 #### C.2.LS:13.4 - Same `F`, different profile
 Two notes may supply the same required expression properties and still differ sharply in articulation, closure, source and use conditions, and representation factors. One may be used in an operator's check procedure with diagnostic alternatives still open; another may assess a document's assertions with comparatively closed alternatives. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.

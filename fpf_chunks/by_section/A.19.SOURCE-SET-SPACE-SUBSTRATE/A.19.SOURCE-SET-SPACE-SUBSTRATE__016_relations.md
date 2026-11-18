@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__016_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:12 — Relations"
-line_start: 37485
-line_end: 37491
+line_start: 37506
+line_end: 37512
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:
@@ -39,7 +41,7 @@ keywords:
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:12 - Relations
 
 - **Builds on:** `A.19`, `A.17`, `A.18`.
-- **Coordinates with:** `C.18`, `C.19`, `G.5`, `G.10`, `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`, `A.6.P`, `A.0`.
+- **Coordinates with:** `C.18`, `C.19`, `A.15.7`, `C.24`, `G.5`, `G.10`, `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`, `A.6.P`, `A.0`.
 - **Used by:** `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` and interpretive or atlas methods when a receiving use needs a derived view over the declared substrate.
 - **Does not replace:** selector outcome publication, shipping metadata, live pool policy, or enactment planning.
 

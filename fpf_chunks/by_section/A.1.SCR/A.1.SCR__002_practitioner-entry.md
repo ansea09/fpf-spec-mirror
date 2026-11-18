@@ -6,7 +6,7 @@ section_id: "A.1.SCR:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__002_practitioner-entry.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:0 — Practitioner entry"
@@ -34,7 +34,7 @@ keywords:
 
 **Subject-pattern and proposed-system readings.** “We develop the surgeon's mastery” ordinarily concerns the person and their actual ability, training Work or evaluation. Use A.2.2 for the ability under stated conditions; an account of it has that independently identified person as its subject. Training can change the ability while the report stays unchanged; editing the report alone changes no ability. Select the assertion episteme as subject only when the question concerns that assertion.
 
-If the source instead proposes the physically or operationally realized whole `SutureControl-M17`, identify that `U.Entity` and evaluate it—not a substituted surgeon or capability—under the already admitted `U.System` kind. Choose the reading on which the current decision depends.
+If the source instead proposes the physically realized whole `SutureControl-M17`, identify that `U.Entity` and evaluate it—not a substituted surgeon or capability—under the already admitted `U.System` kind. Choose the reading on which the current decision depends.
 
 **Near-identical non-system case.** `PumpKit-37` contains parts of the same types and carries the same product label, but its constituents are not assembled by the required part relations, it has no composition-grounded pumping characteristic, and it cannot participate in the plant installation while preserving pump identity. The first result is: **the kit is not the pump system; the current subjects are the material collection and its description.**
 

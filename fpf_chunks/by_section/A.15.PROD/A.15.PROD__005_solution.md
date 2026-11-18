@@ -6,12 +6,12 @@ section_id: "A.15.PROD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:4 — Solution"
-line_start: 34321
-line_end: 34531
+line_start: 34337
+line_end: 34547
 dependencies:
   - "A.1"
   - "A.10"
@@ -222,7 +222,7 @@ Consider a subject-specific derived relation kind when a named use consumes occu
 
 Assurance may warrant reliance on the claim. Work, change, entity inception, and completion remain established by their branch predicates and obtaining facts.
 
-**Assurance scope by use.** Replay only what the reliance consumes. A model or declaration checks claim content, one truthful `EntityOfConcern`, reference scheme, participants, predicates, polarity, and boundary indexing.
+**Assurance scope by use.** Replay only what the reliance consumes. For assurance of a model or declaration, check claim content, one truthful `EntityOfConcern`, reference scheme, participants, predicates, polarity, and boundary indexing.
 
 A conformance use checks that the selected branch reaches one grounded answer or blocker and stops. Each assurance use assesses the stated claim; it neither widens that claim nor replaces the branch predicates and facts.
 

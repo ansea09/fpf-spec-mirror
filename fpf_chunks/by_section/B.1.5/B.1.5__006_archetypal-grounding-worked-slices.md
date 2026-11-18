@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 44123
-line_end: 44188
+line_start: 44148
+line_end: 44213
 dependencies:
   - "A.1"
   - "A.15"
@@ -85,7 +85,7 @@ The two claims can finish this protocol comparison. If the receiving question in
 
 The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established.
 
-A wall poster may be a carrier bearing a publication form; a `U.MethodDescription` edition is a different claim-bearing episteme, and a publication occurrence is what makes that edition available to an audience.
+A wall poster may be a carrier bearing an expression that conforms to a publication form. A `U.MethodDescription` edition is the claim-bearing episteme conveyed by the expression; a publication occurrence makes that edition available to an audience for a bounded use.
 
 For intake Work, recover each performer through A.13 and admit the Work independently through A.15.1. Only if this comparison also consumes which assignment covered that Work should it separately check the A.2.1 occurrence and obtaining F.6 attribution; capability or admission claims consumed by entry remain separate. None of these facts is a Method part.
 

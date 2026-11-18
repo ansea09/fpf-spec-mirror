@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.FM.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.FM — Construct a Model for the Question"
-line_start: 50505
-line_end: 50764
+line_start: 50534
+line_end: 50793
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -113,7 +113,7 @@ Starting material can come from more than one source. A known model may need to 
 
 Keep coupled choices compatible. If liquid leaving a closed vessel increases the space occupied by trapped gas, a pressure calculation must use that changed space. If two classes of formal objects permit different extensions, their counts must remain distinguishable until the extension is performed.
 
-Use an expression that lets you carry out the next inference: an annotated sketch, a table of permitted operations, equations, a physical surrogate or a computational construction. A physical surrogate has its material behavior; establish which of its results can inform the original situation. C.29 helps construct and use a mathematical representation, including when no mathematical object has been selected. A.6.3.RT helps when the expression prevents the operation.
+Use an expression that lets you carry out the next inference: an annotated sketch, a table of permitted operations, equations or a computational construction. When a physical surrogate is used as the model, establish which results of observing or testing its material behavior can inform the original situation. C.29 helps construct and use a mathematical representation, including when no mathematical object has been selected. A.6.3.RT helps when the expression prevents the operation.
 
 #### B.5.FM:4.4 - Obtain the smallest useful consequence
 

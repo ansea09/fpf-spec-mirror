@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:12 — Relations"
-line_start: 76523
-line_end: 76534
+line_start: 76551
+line_end: 76562
 dependencies:
   - "A.10"
   - "A.15"

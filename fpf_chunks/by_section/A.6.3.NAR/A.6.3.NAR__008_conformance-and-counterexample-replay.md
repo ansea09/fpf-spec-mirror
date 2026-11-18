@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__008_conformance-and-counterexample-replay.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:7 — Conformance and counterexample replay"
-line_start: 20521
-line_end: 20551
+line_start: 20533
+line_end: 20563
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -64,7 +64,7 @@ Counterexample replay:
 | --- | --- |
 | Ordinary entry | A team can turn an architecture trade-off structure into a useful explanatory sequence and loss note without first inventing `X`, `Y`, `n`, Work, or assurance records. |
 | Preserve vs retarget | Exact NAR requires the same EntityOfConcern; a different narrated concern requires A.6.4 even when derived from `X`. |
-| Same vs different scheme | Narrative order may be primary in either case. A material scheme change additionally opens RT, but scheme difference alone establishes neither `n` nor correspondence. |
+| Same vs different scheme | Narrative order may be primary in either case. Use RT as well when a change of representation language or reasoning medium supports an operation beyond narrative ordering. Scheme difference alone establishes neither `n` nor correspondence. |
 | Candidate vs `U.View` | A valid narrative episteme and NAR construction can fail conformance to viewpoint P. That failed test grants no `U.View` membership through P; conformance to another viewpoint remains independent. |
 | Source publication/form/carrier | A publication can make `X` available and a form or carrier can express it; none becomes `X`, and a narrative page or audio file is not `Y`. |
 | Narrative order | Chronology, tension, or didactic order is a declared construction rule, not automatically world-side event order, proof order, performed-Work order, or an obtaining relation. |

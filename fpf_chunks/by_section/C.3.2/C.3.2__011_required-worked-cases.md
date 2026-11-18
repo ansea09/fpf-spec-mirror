@@ -6,12 +6,12 @@ section_id: "C.3.2:9"
 section_title: "Required Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__011_required-worked-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:9 — Required Worked Cases"
-line_start: 57967
-line_end: 57996
+line_start: 57976
+line_end: 58005
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -47,7 +47,7 @@ A row carries label `Customer`, but the claim asks whether account holder #441 i
 
 #### C.3.2:9.5 - Unavailable measurement
 
-Pump #14 remains an admissible physical candidate in later slice `S-15`, but a required flow-measurement dependency is unavailable. The judgment is `unknown`. A safety guard may decline reliance; it does not return `false` or remove the pump from a historical `S-14` extension.
+For `S-15`, the maintenance team verifies that the edition of `CoolingPumpSignature-2` in use also applies to that slice and that Pump #14 is an admissible candidate. The required flow reading is missing and the remaining evidence leaves the criterion unsettled. The judgement is `unknown`. The safety guard may decline reliance. The result recorded for `S-14` retains its own basis.
 
 #### C.3.2:9.6 - Not-applicable request
 

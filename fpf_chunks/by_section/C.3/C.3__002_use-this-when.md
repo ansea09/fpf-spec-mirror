@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 57504
-line_end: 57517
+line_start: 57513
+line_end: 57526
 dependencies:
   - "A.1"
   - "A.11"
@@ -54,7 +54,7 @@ Use this pattern when a claim needs a reusable kind, a subkind comparison, a jud
 
 **Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use asks. The exact `KindSignature` edition makes its effective designation and interpretation rules recoverable; the scheme and practice/source provenance are not stored on the kind.
 
-**First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
+**First useful move.** Write the ordinary conclusion first. For example: For this plant’s operating report, a cooling pump is a pump circulating coolant through the heat exchanger during the reporting interval. The circuit connections and the interval’s flow reading establish that Pump #14 did so. Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
 
 **Not this pattern when.** Use `E.24.UK` when the question is admission of another durable public FPF U-kind. Use the direct subject pattern when the question is whether a physical quality, relation, registration, certification, publication occurrence, Work, or other governed condition obtains. Use `A.2.6` for claim, work, or publication scope and `C.29` when a separate mathematical representation or transfer question remains.
 

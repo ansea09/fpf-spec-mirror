@@ -6,12 +6,12 @@ section_id: "E.2:6"
 section_title: "Policy — Bitter‑Lesson Preference (BLP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__007_policy-bitter-lesson-preference-blp.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:6 — Policy — Bitter‑Lesson Preference (BLP)"
-line_start: 97429
-line_end: 97452
+line_start: 97457
+line_end: 97480
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 * (d) **Resources and assurance:** retain decision-material resource accounts through A.15.1, A.15.2, B.1.6, C.16 and A.10 as applicable. A named assurance claim uses B.3; independently applicable assurance and oversight requirements remain binding.
 * (e) **Objectives and tolerances:** declare quality, risk, cost and any illumination coordinate promoted by an explicit CAL policy. State units and the budget/assurance tolerances α/δ used by the comparison. Publish the audit's edition and policy pins through G.11.
 
-**BLP-2 — Usable-performance preference.** Among admissible options under the receiving conditions, with comparable assurance within δ and budget within α when those tolerances are used, prefer the option whose response over the usable audited range Pareto-dominates the other's, accounting for uncertainty. If neither dominates, return `no scale-based preference`. A preference for greater generality can then follow only from a separately declared project policy under E.3; label that basis and its costs instead of reporting an empirical winner.
+**BLP-2 — Usable-performance preference.** Among admissible options under the receiving conditions, with comparable assurance within δ and budgets within α when those tolerances apply, prefer the option whose usable performance is shown to Pareto-dominate across the audited range. Evaluate uncertainty in the performance contrast, including dependence between paired observations. Return `no scale-based preference` when the comparison establishes equivalence, establishes a trade-off, or leaves the ordering open. Say which outcome the evidence supports. A project policy under E.3 can decide the cases covered by its terms. Cite that policy and the cost of applying it for the resulting choice.
 
 **BLP-3 — Task-appropriate prescription.** Positive procedures and prohibitions are both available under their task or control needs. A mandated safety procedure keeps its force. Minimal prescription and autonomous sequencing need their justified policy, authority and guards; neither follows from a scale comparison. Ordinary use of a positive procedure requires no BLP waiver solely because a general search alternative exists.
 

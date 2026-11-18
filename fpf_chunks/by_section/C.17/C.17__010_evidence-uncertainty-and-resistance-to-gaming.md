@@ -6,12 +6,12 @@ section_id: "C.17:8"
 section_title: "Evidence, uncertainty, and resistance to gaming"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__010_evidence-uncertainty-and-resistance-to-gaming.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:8 — Evidence, uncertainty, and resistance to gaming"
-line_start: 63403
-line_end: 63431
+line_start: 63426
+line_end: 63454
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,8 +54,8 @@ Every quantitative result names its derivation or evidence and the calibration, 
 
 Apply these anti-Goodhart guards:
 
-- pair Novelty with Use-Value or ConstraintFit;
-- freeze the comparison corpus, encoder or model, and Scale edition for the result; a load-bearing change creates a new result basis;
+- when novelty is used to support an approval or a preference, also establish the relevant usefulness or eligibility.
+- identify the editions of the corpus, encoder, model or Scale the result actually uses. A change to those grounds can require a new calculation.
 - keep Illumination as telemetry unless an explicit policy promotes it for a named use;
 - check delayed practical consequences, such as retention, maintenance burden, or cost-to-serve, before treating a proxy improvement as a practical gain;
 - connect `DiversityOfSearch` to the declared experimentation allowance and report overspend;

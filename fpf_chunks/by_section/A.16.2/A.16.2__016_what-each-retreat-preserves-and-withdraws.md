@@ -6,12 +6,12 @@ section_id: "A.16.2:17"
 section_title: "What each retreat preserves and withdraws"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__016_what-each-retreat-preserves-and-withdraws.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:17 — What each retreat preserves and withdraws"
-line_start: 35723
-line_end: 35736
+line_start: 35743
+line_end: 35756
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,13 +36,13 @@ keywords:
 ### A.16.2:17 - What each retreat preserves and withdraws
 
 #### A.16.2:17.1 - Reopen
-`reopen` usually preserves the family and much of the surrounding structure while withdrawing closure. It reintroduces rival possibilities without claiming that the entire earlier publication was inadmissible.
+`reopen` retains the inquiry or intended use while withdrawing closure. It reintroduces rival possibilities and preserves the other supported claims; the entire earlier publication need not have been inadmissible.
 
 #### A.16.2:17.2 - Sketch-backoff
 `sketchBackoff` withdraws the closure, route selection or stronger-use disposition that the available grounds no longer support; it preserves the historical fact of any earlier test. It typically preserves witnesses, exemplars, or cue anchors while withdrawing the over-committing publication form. Establish any change in authority under its own predicate and facts, including an act when required; a changed publication form alone does not establish that change.
 
 #### A.16.2:17.3 - Respecify
-`respecify` keeps the broad family but changes framing scaffold, route specification, or facet-profile reading. It is neither pure retreat nor silent edit: it retains the supported content while identifying any changed episteme under C.2.1. Assert continuity only when its relation obtains; apply governing patterns for semantic slot repair.
+`respecify` retains the inquiry or intended use but changes its framing, route specification or facet-profile reading. Retain the supported content and identify any changed episteme under C.2.1. Assert continuity only when its relation obtains; apply governing patterns for semantic slot repair.
 
 #### A.16.2:17.4 - Retire
 `retire` ends current use of the cue, episteme, route-bearing publication, or branch while preserving its history. Report supported successor information or an unresolved successor question as §4.2 requires. Publication availability and any actual authority relation remain separate claims.

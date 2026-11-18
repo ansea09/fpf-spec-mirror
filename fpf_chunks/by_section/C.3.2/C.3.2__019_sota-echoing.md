@@ -6,12 +6,12 @@ section_id: "C.3.2:17"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__019_sota-echoing.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:17 — SoTA-Echoing"
-line_start: 58067
-line_end: 58070
+line_start: 58076
+line_end: 58079
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,5 +29,5 @@ keywords:
 
 ### C.3.2:17 - SoTA-Echoing
 
-A refusal can suffice when the receiver needs only the guard decision. If the receiver needs classification or a further action, `C.3.2:6` preserves the relevant differences: an unsuitable request yields `not-applicable` and no judgment; missing grounds for an admissible request yield `unknown`; an admissible candidate's known criterion failure yields `false`. Collapsing them into `false` would assert non-membership for a mismatch or missing grounds. Correct the request or seek missing grounds only when a further answer is needed; an adequate negative or unresolved answer can finish the work.
+A refusal can suffice when the receiver needs only the guard decision. If the receiver needs classification or a further action, `C.3.2:6` preserves the relevant differences: an unsuitable request yields `not-applicable` and no judgment; an admissible request yields `unknown` when the available facts leave the criterion undecided; an admissible candidate's known criterion failure yields `false`. Collapsing them into `false` would assert non-membership for a mismatch or missing grounds. Correct the request or seek missing grounds only when a further answer is needed; an adequate negative or unresolved answer can finish the work.
 

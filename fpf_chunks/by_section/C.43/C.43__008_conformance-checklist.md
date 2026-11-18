@@ -6,12 +6,12 @@ section_id: "C.43:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:7 — Conformance Checklist"
-line_start: 95407
-line_end: 95422
+line_start: 95435
+line_end: 95450
 dependencies:
   - "A.12"
   - "C.11"

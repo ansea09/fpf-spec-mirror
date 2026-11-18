@@ -6,12 +6,12 @@ section_id: "A.2.6:12"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__013_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:12 — Bias-Annotation"
-line_start: 7620
-line_end: 7623
+line_start: 7632
+line_end: 7635
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -33,5 +33,5 @@ keywords:
 
 ### A.2.6:12 - Bias-Annotation
 
-USM counters three recurring biases. First, scope wording can hide a claim that the object is usable everywhere; require an addressable `U.ContextSlice` instead of a vague domain phrase. Second, abstract wording can be mistaken for wider scope; keep abstraction tier and detail separate from `U.Scope`. Third, publication convenience can be mistaken for content permission; `U.PublicationScope` bounds the publication surface and does not widen `U.ClaimScope` or `U.WorkScope`.
+USM counters three recurring biases. First, a vague domain phrase can imply universal applicability. Identify the applicable `U.ContextSlice`. Second, readers may mistake an abstraction level or amount of detail for a wider scope. Establish scope by its context slices. Third, publication convenience can suggest permission to widen a claim. `U.PublicationScope` bounds the publication surface, while `U.ClaimScope` and `U.WorkScope` govern their respective uses.
 

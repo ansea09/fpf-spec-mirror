@@ -6,12 +6,12 @@ section_id: "C.19.1:5"
 section_title: "Archetypal grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__007_archetypal-grounding-post-2015-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:5 — Archetypal grounding (post-2015; informative)"
-line_start: 64627
-line_end: 64647
+line_start: 64654
+line_end: 64674
 dependencies:
   - "A.0"
   - "A.10"
@@ -61,5 +61,5 @@ These computational examples illustrate where a scale comparison may be useful; 
 
 The specialist wins at the first probed budget, while the general method wins at the other two even after allowing for the supplied uncertainty. Neither response dominates across all three probed budgets. Return `no scale-based preference` for that whole comparison; the word general does not reverse it. The result supports the stated comparisons at those points, not an interpolated law between them or a claim outside the window.
 
-If the receiving choice is confined to 100 CPU-seconds, the specialist's bounded advantage can be used under that question's comparison rule. A separately declared prefer-general policy, if applicable, needs its own tie-break or waiver treatment. No such policy is stipulated here, so no waiver or debt entry is created merely to report these results. Changing the task family, hardware-cost account or budget window reopens the dependent comparison. This is a constructed application, not a new benchmark finding.
+If the receiving choice is confined to 100 CPU-seconds, the specialist's bounded advantage can be used under that question's comparison rule. A separately declared prefer-general policy, if applicable, needs its own tie-break or waiver treatment. No such policy is stipulated here, so no waiver or debt entry is created merely to report these results. If a tariff changes, measured CPU time can remain usable while monetary costs are recalculated. If the task mix changes, compatible results for the affected groups can sometimes be reweighted. A previously untested group needs its own evidence or justified transfer. Reuse only the conclusions supported for the new choice. This is a constructed application, not a new benchmark finding.
 

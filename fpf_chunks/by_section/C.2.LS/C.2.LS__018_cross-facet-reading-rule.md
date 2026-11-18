@@ -6,12 +6,12 @@ section_id: "C.2.LS:17"
 section_title: "Cross-Facet Reading Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__018_cross-facet-reading-rule.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:17 — Cross-Facet Reading Rule"
-line_start: 56035
-line_end: 56045
+line_start: 56042
+line_end: 56052
 dependencies:
   - "A.16"
   - "A.16.0"

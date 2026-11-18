@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:4 — Solution"
-line_start: 45808
-line_end: 45885
+line_start: 45835
+line_end: 45912
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ Before calling the candidate a system result:
 
 1. execute the A.1 criterion over the candidate's constituents, obtaining constructive relations, governed assembly, reidentification rule, and composition-grounded whole characteristic;
 2. show that its boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent;
-3. apply the `U.System` criterion to that individual: its physical or operational organization must make it eligible to act causally in work or transformation while preserving its identity;
+3. apply the `U.System` criterion to that individual: establish that it is physically embodied and that its organization makes it eligible to act causally in work or transformation while preserving its identity;
 4. recover only the additional system facts used by the case—including any delimitation, objective, commitments, coordination, capability, system-role kind or assignment, method, work, transformation, functioning, architecture, evidence, assurance, or temporal claim—and state each through the pattern that defines its object or relation; and
 5. keep the classification judgment, evidence or assurance, currentness, and receiving reliance separate from those world-side facts.
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.1"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__016_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:9.1 — Archetypal Grounding"
-line_start: 107957
-line_end: 107965
+line_start: 108005
+line_end: 108013
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,5 +70,5 @@ keywords:
 | Architecture text repeatedly says diagrams, ADRs, dashboards, and views are not architecture. | Use the architecture and structure row, then apply the defining or constraining rule and practical guidance located through `C.30.P` or `C.30.AD` according to the recovered architecture field. | C.30 remains about architecture and selected structures, not a generic diagram-warning pattern. |
 | Method text uses algorithm, workflow, solver, proof, and program as one family. | Recover one exact Method, each exact method-side relation, and an A.22-selected `MethodRelationStructure` only when a named use depends on their organization; recover a one-method description episteme, formal substrate, mechanism, work plan, dated Work, result, or representation separately. | Do not assign one typed value to several kinds because one source label was shared. |
 | A dashboard or evidence-path wording is treated as permission or release. | Use the declarative-representation row; then state the exact evidence, gate, authority, or release assertion under its own defining or constraining rule; identify an exact `ClaimGraph` only when the receiving use depends on that identity. | Graph and provenance relations remain legitimate when they are not overread as routes, calls, permissions, or releases. |
-| A candidate Systems Engineering DPF repeatedly encounters a source guide’s term for the system-of-interest, while its subject pattern distinguishes that project role from the current local subject and other transformed holons. | The DPF author cites that identified domain claim in a local entry, keeps the source term quoted where needed, and uses `F.19` to write the practitioner sentence. If the DPF has not yet settled which holon is at issue, the wording route stops and returns to the DPF content decision. | The example demonstrates placement and return; it does not establish a Systems Engineering claim in FPF or add the guide term to the shared trigger table. |
+| A candidate Systems Engineering DPF repeatedly encounters a source guide’s term for the system-of-interest, while its subject pattern distinguishes that product role in an extended enterprise from the current local subject and other transformed holons. | The DPF author cites that identified domain claim in a local entry, keeps the source term quoted where needed, and uses `F.19` to write the practitioner sentence. If the DPF has not yet settled which holon is at issue, the wording route stops and returns to the DPF content decision. | The example demonstrates placement and return; it does not establish a Systems Engineering claim in FPF or add the guide term to the shared trigger table. |
 

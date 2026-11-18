@@ -6,12 +6,12 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 80764
-line_end: 80915
+line_start: 80792
+line_end: 80943
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -35,7 +35,7 @@ keywords:
 
 Use this pattern when an architect or architecture-responsible practitioner has a stated receiving-use basis and must carry its architecture pressure through selected structures, candidate synthesis, project architecture decision, realization Work, actual-structure feedback, and the next action selected for the current question.
 
-In a systemic product undertaking, recover the common SoI and useful use that justify the architecture. In work on its creator, keep the organization as the architectural subject and connect its needed capability to that product use. An independently warranted non-system result retains its own receiving question. When a needed use, boundary or functioning hypothesis remains unclear, recover that basis before relying on the dependent architecture choice.
+In a systemic product undertaking, recover the product SoI, the extended enterprise organized for it and the intended use or withdrawal from use that justifies the architecture. In work on its creator, keep the organization as the architectural subject and connect its needed capability to that product use. An independently warranted non-system result retains its own receiving question. When a needed use, boundary or functioning hypothesis remains unclear, recover that basis before relying on the dependent architecture choice.
 
 Common starting situations include:
 

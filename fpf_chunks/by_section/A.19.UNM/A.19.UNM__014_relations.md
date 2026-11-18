@@ -6,12 +6,12 @@ section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:12 — Relations"
-line_start: 39371
-line_end: 39389
+line_start: 39394
+line_end: 39412
 dependencies:
 keywords:
   - "CV→NCV"
@@ -36,7 +36,7 @@ keywords:
 - `A.19.CHR` (CHR suite boundary; slot lexicon; suite protocols)
 - `A.19.CN` (CN_Spec normalization + comparability routing)
 - `C.16` (MM‑CHR evidence/calibration carriers)
-- `G.0` (CG-frame admissibility gates used downstream)
+- `G.0` (CG-Spec admissibility and evidence conditions used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
 - `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
 - `C.29` when the chosen function, equivalence or quotient leaves an unresolved representation or transfer question; use an adequate local calculation. `B.3` applies to a named assurance claim.

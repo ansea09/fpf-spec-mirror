@@ -6,12 +6,12 @@ section_id: "B.5.2.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:intro — Intro"
-line_start: 52103
-line_end: 52118
+line_start: 52132
+line_end: 52147
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,5 +51,5 @@ keywords:
 
 **What this buys.** A common entry criterion for abduction: prompt species, open question, scope and motivating grounds remain recoverable while candidate explanations stay open.
 
-**Not this pattern when.** When the object is still a raw cue (`B.4.1`), a language-state threshold claim (`C.2.4`, `C.2.5`), a chosen hypothesis (`B.5.2`), or a selector decision about methods, substrates, or portfolios.
+**Not this pattern when.** When the object is a cue that still needs preservation or stabilization (`A.16.1`), a language-state threshold claim (`C.2.4`, `C.2.5`), a chosen hypothesis (`B.5.2`), or a selector decision about methods, substrates, or portfolios.
 

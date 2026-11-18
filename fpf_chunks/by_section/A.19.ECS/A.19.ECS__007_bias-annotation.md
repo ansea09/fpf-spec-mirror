@@ -6,12 +6,12 @@ section_id: "A.19.ECS:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:5.1 — Bias-Annotation"
-line_start: 36694
-line_end: 36699
+line_start: 36714
+line_end: 36719
 dependencies:
   - "A.17-A.19"
   - "C.16"

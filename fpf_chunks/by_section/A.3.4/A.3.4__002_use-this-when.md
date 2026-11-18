@@ -6,12 +6,12 @@ section_id: "A.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:0 — Use This When"
-line_start: 13442
-line_end: 13464
+line_start: 13454
+line_end: 13476
 dependencies:
   - "A.1"
   - "A.10"

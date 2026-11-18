@@ -6,12 +6,12 @@ section_id: "C.19.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__007_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:5 — Archetypal Grounding"
-line_start: 64780
-line_end: 64800
+line_start: 64807
+line_end: 64827
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -49,7 +49,7 @@ The setup difference is 38 hours and the per-handoff saving is 8 minutes: the me
 
 An admitted maintenance-information System performs the dated configuration and application Work using the selected ontology-backed Method. The account recovers the System's A.13 core and independently admits the Work under A.15.1. Because the current question is whether setup cost is repaid across the handoffs and consumes no assignment-bound attribution, this example does not open F.6 or expose assignment identity, species, participants, or attribution detail. A later attribution-bearing claim adds F.6 through the same obtaining A.13 assignment.
 
-A separately admitted maintenance-decision System then performs decision Work using the selected Method. Its A.13 core and independent A.15.1 Work admission are recoverable; this setup-cost example consumes no assignment-bound attribution, so F.6 remains unopened. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. If repair or audit cost does not fall after the declared sample, reopen the apparatus application.
+A separately admitted maintenance-decision System then performs decision Work using the selected Method. Its A.13 core and independent A.15.1 Work admission are recoverable; this setup-cost example consumes no assignment-bound attribution, so F.6 remains unopened. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. To check the forecast, compare actual setup and effort per audited handoff on comparable work and verify that the required guarantee still holds. Reconsider the application if the revised costs, guarantee or expected number of handoffs change which path is worth using.
 
 **One-off naming repair.** A team already has the typed-relation method for one local, reversible naming decision. No rival is live and the current method has a credible small path, so no option set or choice result is created. The team performs the minimal wording and typing work and returns a scoped terminology decision. Recurrence, integration, a failed result, or a stronger guarantee may later open candidate generation and choice.
 

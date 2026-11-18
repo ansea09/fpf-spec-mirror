@@ -6,12 +6,12 @@ section_id: "F.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__012_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:10 — Rationale"
-line_start: 128117
-line_end: 128124
+line_start: 128170
+line_end: 128177
 dependencies:
   - "A.10"
   - "A.15"

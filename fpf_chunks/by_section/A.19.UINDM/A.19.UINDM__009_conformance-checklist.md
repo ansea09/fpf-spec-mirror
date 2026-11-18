@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:7 — Conformance Checklist"
-line_start: 39600
-line_end: 39625
+line_start: 39623
+line_end: 39648
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -40,7 +40,7 @@ A UINDM publication or use is conformant if it satisfies:
 6. **Recheck eligibility for reuse.** Another bearer, scope and window, basis, plane, or intended use gets a fresh eligibility decision; any F.9 Bridge, kind relation, or plane relation is cited only when the conclusion relies on that obtaining relation, with loss assessed under the receiving-use rule and any numerical assurance penalty applied under A.6.7:4.2(2).
 
 7. **Gate/guard separation + lexeme discipline.** UINDM uses `…Eligibility` returning `GuardDecision ∈ {pass|degrade|abstain}` and does not embed GateDecision/GateLog in suite steps.
-   Reserved gate‑lexemes (e.g., `…Guard`) are not used for mechanism‑level predicates; the mechanism stays at the guard/admissibility layer.
+   Reserved gate‑lexemes (e.g., `…Guard`) are not used for indicatorization eligibility predicates.
 
 8. **Planning and actual use.** On a P2W path, an A.15.2 WorkPlan selects the intended editions; A.15.3 governs typed filling only for independently declared positions. Record the application and its effective bindings under §4.1, keeping the refs and pins needed for replay in Audit.
 

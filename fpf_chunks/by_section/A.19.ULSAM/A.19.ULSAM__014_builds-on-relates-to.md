@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:12"
 section_title: "Builds on / Relates to"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__014_builds-on-relates-to.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:12 — Builds on / Relates to"
-line_start: 40295
-line_end: 40309
+line_start: 40318
+line_end: 40332
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -35,7 +35,7 @@ keywords:
 - `A.6.1` (operation declarations and application/binding rules).
 - `A.6.1 §4.2` (operation-local argument/result declarations as the source of SlotIndex).
 - `A.19.CHR` (CHR suite boundary; stage `fold_Γ?`; CHR SlotKind Lexicon).
-- `G.0` (`CG-Spec.Γ_fold`, `CG-Spec.SCP`, `CG-Spec.MinimalEvidence`; admissibility gate).
+- `G.0` (`CG-Spec.Γ_fold`, `CG-Spec.SCP`, `CG-Spec.MinimalEvidence`; fold, admissibility and evidence conditions).
 - `A.18` (CSLC).
 - `B.3` (support dependence and the justified model for any `R_eff` calculation).
 

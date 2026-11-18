@@ -6,12 +6,12 @@ section_id: "C.28.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__002_problem-frame.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:1 — Problem frame"
-line_start: 71950
-line_end: 71959
+line_start: 71977
+line_end: 71986
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

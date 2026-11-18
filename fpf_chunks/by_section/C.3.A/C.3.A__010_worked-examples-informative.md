@@ -6,12 +6,12 @@ section_id: "C.3.A:9"
 section_title: "Worked examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__010_worked-examples-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:9 — Worked examples (informative)"
-line_start: 58899
-line_end: 58912
+line_start: 58910
+line_end: 58923
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 
 **E1 — Same-context braking claim.** A policy quantified over `Vehicle` pins `VehicleSignature@v4`; the receiver pins `PassengerCarSignature@v3`. Declaration admission establishes `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)`.
 
-Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; on `true`, C.3.1 monotonicity supplies the Vehicle-side consequence needed by the universal claim. A missing axle dependency yields `unknown` and a separate refusal.
+Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; on `true`, C.3.1 monotonicity supplies the Vehicle-side consequence needed by the universal claim. If axle data are missing and the remaining facts do not settle this VIN’s classification, the judgement is `unknown` and the guard separately refuses the use.
 
 **E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored.
 

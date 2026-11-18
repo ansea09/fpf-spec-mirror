@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:4 — Solution"
-line_start: 32291
-line_end: 32529
+line_start: 32307
+line_end: 32545
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -142,13 +142,13 @@ Whole-project roll-up requires obtaining work-parthood plus an aggregation polic
 
 Start with the local work and its purpose in an ordinary sentence: **this temporary work is intended to establish this result for this product use or other stated receiving purpose**. Name the composite project `U.Work` when it has been performed; while it is only intended, name the `U.WorkPlan`. Recover the actual subject or intended-subject designator, the plan or decision that selected it, the change or use being pursued, and the next decision needing that account. For organizational work, distinguish the creator being engineered, its promised capability, the local result and the product use that gives them their reason.
 
-The **system-of-interest (SoI)** is the system whose intended use and expected benefit give the relevant cooperation of creators its common purpose. A temporary project can contribute to that common purpose without having a distinct SoI. The **current subject of inquiry or local work** answers what must be understood, obtained or changed now; for a system, use **system-in-hand** or **our system** with the relevant participant's relation stated.
+The **system-of-interest (SoI)** is the product System that a particular extended enterprise is organized to create, change, sustain in use or retire. The extended enterprise is the organization System. Keep it distinct from performed work and work plans; section 4.1 supplies the conditions for admitting actual composite project Work. Agents acting for the participating organizations establish or accept the objectives and commitments. Several projects can serve the same SoI. The **current subject of inquiry or local work** answers what must be understood, obtained or changed now; for a system, use **system-in-hand** or **our system** with the relevant participant's relation stated.
 
 A product undertaking can supply a usable test rig to laboratories and have that instrument as its SoI. A project developing the pump-test laboratory engineers a creator whose capability is justified by the pumps' qualification needs. A contract, performer or budget change for that same work does not change this distinction. Several products and other results can matter to one project; retain each use and the shared constraints relevant to the decision.
 
 A.1.STM:4.0–4.3 develops this use basis. It follows receiving changes at the selected operating time and moves from the system boundary to the larger whole of which the system is, or is intended to be, a part. The joint functioning of that whole's parts grounds the system's required contribution before the reasoning turns inward to construction and backward to Methods and creator contributions. If that whole is unknown, the missing account must be investigated before relying on a dependent function or construction judgement.
 
-Section 4.1.1 connects organizational design, provision and finite acceptance through the required product use and creator capability. The organization remains engineerable even when it is sold as a business. A new product supply requires its own use and bounded fitness obligations; an economic product label alone supplies neither. A local result can close while wider use remains open.
+A.1.STM:4.1.1 connects organizational design, provision and finite acceptance through the required product use and creator capability. The organization remains engineerable even when it is sold as a business. A new product supply requires its own use and bounded fitness obligations; an economic product label alone supplies neither. A local result can close while wider use remains open.
 
 Research has its own epistemic acceptance, including a supported negative result; when it serves a capability decision, its fitness for that decision is an additional question. Keep a missing or contested system-and-use basis open only where the current systemic question needs it.
 
@@ -160,7 +160,7 @@ After inception, relate the actual System to the earlier description through the
 
 For a series or family, keep the common requirements and the later individual holders distinct; a specification or collection does not become one System. A.1.STM:4.2 develops this case.
 
-Project designation, local system-role classification, and system-role assignment are separate claims. The ordinary explanation is sufficient while participants only need to understand the system's place in the cooperation. When classification matters, identify the local system-role kind and its feature criterion under A.2, then test the actual System against it. A local `SystemOfInterestSystemRole` using this Library meaning must express the product's intended use and expected benefit, the relevant cooperation's common purpose and designation grounds under A.1.STM:4.1. A criterion selecting whatever an observer investigates or engineers answers a different question. Calling an organization that kind does not replace the product SoI in organizational work.
+Project designation, local system-role classification, and system-role assignment are separate claims. The ordinary explanation is sufficient while participants only need to understand the system's place in the cooperation. When classification matters, identify the local system-role kind and its feature criterion under A.2, then test the actual System against it. A local `SystemOfInterestSystemRole` using this Library meaning must express the named extended enterprise, its agreements for the product's creation, change, sustaining in use or retirement, the intended use or withdrawal from use and designation grounds under A.1.STM:4.1. A criterion selecting whatever an observer investigates or engineers answers a different question. Calling an organization that kind does not replace the product SoI in organizational work.
 
 When assignment identity or its window matters, select a declared `U.SystemRoleAssignment` species under A.2.1. Recover its holder position, declaration-local assigned-kind domain, predicate, applicability, additional participants and occurrence rule. Use a system-role kind value only if it belongs to that species' declared domain, and assert an occurrence only when its obtaining facts satisfy the declaration. Classification is a prerequisite only if those rules consume it. An assignment can therefore be established without a separate holder-classification claim.
 

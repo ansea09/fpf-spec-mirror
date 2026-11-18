@@ -6,12 +6,12 @@ section_id: "A.7:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__012_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:10 — Consequences"
-line_start: 26704
-line_end: 26720
+line_start: 26716
+line_end: 26732
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 | Benefits | Trade‑offs / Mitigations |
 |---------|---------------------------|
-| **Category-error detection and correction.** Clear separation of System and Episteme, `EntityOfConcern` and Description-episteme boundary, specification use or refinement, and publication availability helps expose recurring modeling defects. | Name publication face, form, unit, carrier, and rendering uses when the distinction matters; E.8 supplies publication-face guidance. |
+| **Category-error detection and correction.** Clear separation of System and Episteme, `EntityOfConcern` and Description-episteme boundary, specification use and model refinement, and publication availability helps expose recurring modeling defects. | Name publication face, form, unit, carrier, and rendering uses when the distinction matters; E.8 supplies publication-face guidance. |
 | **Audit and explanation share referents.** References distinguish the evidence episteme, target claim, carrier and any needed source-currentness claim. Different publication faces can explain or expose those same values. | Add only the face and reference detail the receiving use needs. |
 | **Cross-context and plane safety.** Faces expose an obtaining F.9 Bridge only for two local senses and keep any separate bounded-use claim and optional `CL` distinct; cross-plane use exposes its applicable plane relation. | Authors must name only current relations and policies; tooling may assist, but no penalty follows automatically from context, plane, Bridge, or `CL`. |
 

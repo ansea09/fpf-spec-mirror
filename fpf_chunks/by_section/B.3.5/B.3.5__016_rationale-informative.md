@@ -6,12 +6,12 @@ section_id: "B.3.5:14"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__016_rationale-informative.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:14 — Rationale (informative)"
-line_start: 47634
-line_end: 47659
+line_start: 47663
+line_end: 47688
 dependencies:
   - "B.3"
   - "C.13"
@@ -22,7 +22,7 @@ keywords:
 ### B.3.5:14 - Rationale (informative)
 
 **14.1 Why canonical‑first?**
-CT2R-LOG treats the **human-readable, task-appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers use to reason, decide, and communicate. The formal layers **ground** that form; they do not replace it. Authors state the relation readers need, then point to the support required by the selected assurance use.
+CT2R-LOG puts a readable, task-appropriate relation claim first in the published account because engineers and managers use it to reason, decide and communicate. The relation's defining pattern supplies its meaning. The selected assurance account makes the grounds needed for that use inspectable.
 
 **14.2 Why distinguish the two `tv:` links?**
 `tv:AliasOf` connects designations so a reader can recover which relation an expression names. `tv:groundedBy` connects a covered assertion to the account supporting that assertion. An agreed glossary meaning can remain stable while a component is removed and the earlier construction account ceases to support the current claim. Conversely, a changed glossary can require a new interpretation while the physical assembly stays unchanged. Keeping these subjects distinct tells the author what to re-examine. Both links can be expressed in prose or another suitable notation.

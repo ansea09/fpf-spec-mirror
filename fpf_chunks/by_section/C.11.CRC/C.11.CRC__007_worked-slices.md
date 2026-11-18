@@ -6,12 +6,12 @@ section_id: "C.11.CRC:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__007_worked-slices.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:5 — Worked Slices"
-line_start: 60041
-line_end: 60062
+line_start: 60052
+line_end: 60073
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -46,15 +46,15 @@ keywords:
 
 #### C.11.CRC:5.1 - Flood-pump modernization
 
-The current station configuration `FPS7-C19` supports bounded discharge use. A candidate bearing-temperature sensor is not compared with “no pump” or by its isolated diagnostic accuracy. The finite comparison uses `FPS7-C19` as `S0`; sensor, placement, cabling, controller, maintenance access, calibration, and operating procedure changes as `Δ`; and the installed candidate as `S1`.
+Station `FPS7-C19` currently supports bounded discharge use. Compare two ways of operating it over the coming service interval. In `S0` the station continues with its existing diagnostics and scheduled maintenance. In the proposed `S1` it uses an additional bearing-temperature sensor. The change `Δ` includes placement, cabling, controller changes, access for maintenance, calibration and operating procedure. Both forecasts use the same loading scenarios. Neither forecast establishes that the sensor has been installed.
 
 Result coordinates include discharge continuity, failure detection, maintenance access, recoverability, and evidence continuity. Resource coordinates include outage time and maintenance burden plus the resource costs of installation work, calibration, and observation.
 
-The current result is indeterminate because placement and maintenance evidence are missing; another observed-load window can change the decision. The chooser may return `probe again` under `C.11` if that window supplies a feasible, worthwhile probe that could change the choice.
+Two gaps affect this proposal. Establish whether the proposed location can be reached during an allowed maintenance window. To assess earlier warning, compare the proposed signal with the existing diagnostics under the loads where their indications might differ. A load observation alone cannot establish access. Price each attainable check against the choice it can change (C.11.DUA). If access is impossible at this location, compare a feasible placement or retain the current configuration.
 
 #### C.11.CRC:5.2 - Capability-development programme
 
-Adding one pattern to a programme is compared with the person's current mastered and externally supported set, not with an empty curriculum. The comparison names target later Work, prerequisite complementarity, time to competent use, support dependence, critical-error detection, transfer and retention evidence, and future option value. A newly produced artifact or recent exercise-score gain can be evidence for a bounded claim, but neither is automatically the candidate element's capability contribution.
+For the same later assignment, compare continuing with the present programme and normally available support against adding the proposed practice. Include prerequisites, practice time, the support provider's time and work displaced elsewhere, and the expected time to competent use. Determine what the participant did and what an assistant supplied. A jointly completed artifact can meet the immediate need. To judge a gain in the participant's capability, compare earlier performance with performance on a later comparable task under the support conditions promised for later work. Transfer, retention and detection of critical errors need observations suited to those claims.
 
 #### C.11.CRC:5.3 - Operations constraint intervention
 
@@ -62,5 +62,5 @@ A positive shadow price for one bottleneck supports a local statement about rela
 
 #### C.11.CRC:5.4 - Capital allocation
 
-A project is compared with the current portfolio and financing/operating configuration. The comparison includes cannibalization, shared resources, risk concentration, financing constraints, irreversibility, staging, information gained before later commitments, and displaced options. NPV, real-options, scenario, and portfolio Methods remain Corporate Finance practice; this pattern supplies the finite comparison returned to that practice or to `C.11` when a local choice is the receiving question.
+Compare the portfolio over the decision horizon with and without the proposed project. If it would displace another investment, include what that investment would have produced in the feasible alternative. Compare shared resources, cannibalization, risk concentration, financing constraints, staging, irreversibility and information available before later commitments. Corporate Finance supplies the NPV, real-options, scenario and portfolio Methods. Return the finite comparison to that practice or to C.11 when it informs a local choice.
 

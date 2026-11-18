@@ -6,12 +6,12 @@ section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:4 — Solution"
-line_start: 38387
-line_end: 38745
+line_start: 38410
+line_end: 38768
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -234,7 +234,7 @@ The existing claim identifiers resolve to the rules below. The rules are stated 
 | L-A67CHR-01 | §4.2 membership set semantics |
 | L-A67CHR-02, L-A67CHR-03, A-A67CHR-02 | §§4.1.2 and 4.6 planned baseline and its separation from enactment |
 | A-A67CHR-01 | §4.5 operation/edition resolution |
-| D-A67CHR-01, D-A67CHR-02 | CC-A67CHR-1 kind and level |
+| D-A67CHR-01, D-A67CHR-02 | CC-A67CHR-1 description kind |
 | D-A67CHR-03 | §4.2 and CC-A67CHR-2 canonical membership |
 | D-A67CHR-04 | §4.4 and CC-A67CHR-3 specification references |
 | D-A67CHR-05 | §§4.3.1 and 4.4; CC-A67CHR-13 transport/crossing content |

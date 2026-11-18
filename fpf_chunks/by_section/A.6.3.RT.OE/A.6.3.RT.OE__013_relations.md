@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:12 — Relations"
-line_start: 20190
-line_end: 20202
+line_start: 20202
+line_end: 20214
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -27,13 +27,13 @@ keywords:
 ### A.6.3.RT.OE:12 - Relations
 
 - **A.6.3.RT** compares content carried between source and target representations.
-- **E.5.2** governs recoverable interpretation and portable conceptual meaning.
+- **E.5.2** governs recoverable interpretation and portable conceptual meaning; **E.5.2.L** defines the representation language and distinguishes its conventions from the effective interpretation of a particular episteme.
 - **B.5.RC and B.5.RA** recover a missing construction or argument.
 - **B.5.RR** carries a changed premise through the dependent reasoning.
 - **B.5.QD and C.40.CD** develop the next question when a result changes the inquiry; **B.5.WN** carries a thought through notes and later occasions when that continuation is needed.
 - **C.3.1** supplies the distinction between a domain kind, its individuals and the upper-kind claims used in a typed expression.
 - **C.37** selects representations that jointly support a working use.
 - **C.2.8** characterizes structure recoverable by a specified recipient under stated conditions.
-- **A.6.0 and A.6.1** describe reusable scheme vocabulary, rules or operations when those declarations are needed.
+- **A.6.0 and A.6.1** describe reusable language vocabulary, rules or operations when those declarations are needed.
 - **The applicable subject Method** supplies the construction, inference, calculation or performance carried out with the expression.
 

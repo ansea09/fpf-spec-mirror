@@ -6,12 +6,12 @@ section_id: "C.17:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__015_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:13 — Consequences"
-line_start: 63532
-line_end: 63539
+line_start: 63555
+line_end: 63562
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 **Benefits.** Teams can discuss novelty and value before building a metric stack; stronger results remain reproducible and comparable; trade-offs and incomparability stay visible; and generation, policy, choice, Work, evidence, and publication keep their own boundaries. No particular tool or rendering is required: an implementation is suitable when it preserves the declared configuration, result chain, evidence, and limits.
 
-**Costs.** Quantified claims require a fixed corpus, explicit Scales and Methods, evidence, uncertainty, and edition discipline. Cross-source and cross-scale comparisons sometimes remain incomparable.
+**Costs.** Quantitative claims require declared Scales, the relevant methods and inputs, and the evidence and uncertainty needed for their use. A corpus-relative value also requires a fixed comparison set. Comparing results across sources or Scales may require extra evidence or a justified correspondence.
 
 **Limits.** A C.17 result does not prove that a bearer is good, authorize Work, define universal novelty, supply a selection policy, or establish assurance. It makes the bounded claims and their dependencies inspectable.
 

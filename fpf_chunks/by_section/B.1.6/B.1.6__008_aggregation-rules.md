@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Aggregation Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_aggregation-rules.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:5 — Aggregation Rules"
-line_start: 44977
-line_end: 45010
+line_start: 45002
+line_end: 45035
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ When a dated aggregation occurrence is asserted or required, use A.13 to identif
 
 **Uncertainty and provenance.** Propagate measurement, model and conversion uncertainty under the operative rule where it affects the result or use. Keep the necessary sources and derivations recoverable. Use A.10 for needed replayable source-to-use reliance and G.6 for a needed stable address of that chain, preserving any Work, measurement, policy-application and transformation facts the use requires.
 
-**Plan/result separation.** Keep expected use from a method description or WorkPlan as planned and resource readiness under A.15.5. Use A.15.1 and the measurement or aggregation predicates for performed Work and measured results.
+**Estimates, plans and performed use.** An estimated or derived resource value retains its source values, model and conditions; a planned amount retains its planning basis. The same value may serve both uses. Keep resource readiness under A.15.5. Use A.15.1 and the measurement or aggregation predicates for performed Work and measured results.
 
 **Efficiency and yield.** A ratio or yield claim names its input resource results, output or domain result, attribution bases and applicable comparison rule. Any asserted dated aggregation Work retains its independent grounds. Explain a claimed gain through the measurement, accounting and domain-result grounds on which it depends; use B.2 when whole identity remains the question.
 

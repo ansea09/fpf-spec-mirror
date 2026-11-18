@@ -6,12 +6,12 @@ section_id: "E.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__011_consequences.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:9 — Consequences"
-line_start: 104374
-line_end: 104382
+line_start: 104420
+line_end: 104428
 dependencies:
   - "A.10"
   - "A.15.1"

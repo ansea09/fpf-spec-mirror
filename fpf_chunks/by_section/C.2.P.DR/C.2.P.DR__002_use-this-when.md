@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:0 — Use this when"
-line_start: 57154
-line_end: 57183
+line_start: 57161
+line_end: 57190
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ Use this pattern when the appearance of a representation is being used to establ
 
 **First useful move.** Identify the expression and the claim being inferred from it. Recover what the expression states or represents, then apply the rule for the disputed claim. Return wording that preserves the supported use and identifies what remains unestablished. A sentence can suffice. Use a `DeclarativeRepresentationRepair` note only when the receiving use needs a separately inspectable repair.
 
-**Quick example.** A heat-flow graph in a reactor-cooling review can show preserved and lost flow relations. It does not authorize a valve change by graph shape. The repair keeps the graph path as graph structure, returns release or gate reliance to the gate, source, and evidence patterns, and blocks the hidden work-permission claim.
+**Quick example.** A heat-flow graph can express which flow paths a design retains. To decide whether someone may change a valve, check whether the applicable rule permits that person to do so under the current conditions. The graph can still answer the flow question while permission remains unknown.
 
 Use this pattern especially when:
 

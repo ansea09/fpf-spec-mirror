@@ -6,12 +6,12 @@ section_id: "C.16:12"
 section_title: "Carry a reading into a calculation and revise its basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__011_carry-a-reading-into-a-calculation-and-revise-its-basis.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:12 — Carry a reading into a calculation and revise its basis"
-line_start: 61356
-line_end: 61363
+line_start: 61373
+line_end: 61382
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,9 +55,11 @@ keywords:
 
 ### C.16:12 - Carry a reading into a calculation and revise its basis
 
-A retained account attributes temperature `20 °C ± 1 °C` to Pump P over window W under a named specification and model; the interval is a bound for this example. Its content is a `ReadingContent` member. Relying on it as a measurement result still needs the performed-measurement and uncertainty grounds above. The Coordinate 20 on the Celsius Scale, the interval, the reading content and an episteme stating that content answer different questions.
+A retained account attributes temperature `20 °C ± 1 °C` to Pump P over window W under a named specification and model; this example admits every additive error from −1 to +1 °C and has no further constraint on temperature. Its content is a `ReadingContent` member. Relying on it as a measurement result still needs the performed-measurement and uncertainty grounds above. The Coordinate 20 on the Celsius Scale, the interval, the reading content and an episteme stating that content answer different questions.
 
 A declared scoring rule reads that Celsius position and assigns `g(c)=c/40` on `[0,40]`, with higher temperature preferred in this illustrative use. With the required admission grounds, it returns score content for P at W: `0.5`, bounded by `[0.475,0.525]` under this interval-propagation rule. That content can pass to a comparator accepting this score Scale and bound. The scoring calculation supplies no second temperature measurement. If an upstream UNM instead supplies `293.15 K`, the number cannot fill the Celsius argument. Apply the declared inverse conversion, or select a kelvin-input scoring rule whose correspondence is established.
 
-Now comparison of the written model and calibration record reveals that the measurement needs a `+2 °C` correction not included before. The corrected account attributes `[21,23] °C`, and this same scoring rule gives `[0.525,0.575]`. Recover whether the specification already permitted this calibrated correction or must itself change. Preserve the earlier assertion and its basis, then reconsider the scores and comparisons that relied on it. A new window W2 instead needs a new attribution for W2; it can leave the Characteristic, Scale, specification and scoring rule unchanged. These returns follow from the general identity and replacement rules, not from the displayed numbers alone.
+Now comparison of the written model and calibration record reveals that the measurement needs an exact `+2 °C` correction not included before. With the same admitted reading errors, the corrected account attributes `[21,23] °C`, and this same scoring rule gives `[0.525,0.575]`. Recover whether the specification already permitted this calibrated correction or must itself change. Preserve the earlier assertion and its basis, then reconsider the scores and comparisons that relied on it. A new window W2 instead needs a new attribution for W2; it can leave the Characteristic, Scale, specification and scoring rule unchanged. These returns follow from the general identity and replacement rules, not from the displayed numbers alone.
+
+For the question “which temperatures are compatible with this account at W?”, 19 °C was admitted only by the earlier bound and 23 °C only by the corrected one. The correction revises the model-based attribution. A further observation at W, justified under the corrected model, could instead exclude some of its previously compatible temperatures while preserving its other assertions.
 

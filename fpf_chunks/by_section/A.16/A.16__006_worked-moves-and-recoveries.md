@@ -6,12 +6,12 @@ section_id: "A.16:5"
 section_title: "Worked moves and recoveries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__006_worked-moves-and-recoveries.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:5 — Worked moves and recoveries"
-line_start: 34984
-line_end: 35017
+line_start: 35000
+line_end: 35033
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -81,9 +81,9 @@ A `RoutedCueSet` may keep evaluative and abductive routes live. If review later 
 
 If an evaluative note starts guiding Work planning, make the changed route or operational use explicit in the existing material or an accompanying note. Apply A.15.2 to the WorkPlan content. Name an acting system, Method, system-role assignment, or Work only when the claim depends on that distinction.
 
-#### A.16:5.7 - Form, pattern, and face stay distinct
+#### A.16:5.7 - Recover the content rules behind a face
 
-“The move publishes a Tech face” and “the move enters A.6.P” omit the form. Name the typed publication form first, the object or claim that the cited pattern defines, constrains, or tests second, and the MVPK face only when rendering or review depends on it.
+“The move publishes a Tech face” identifies presentation rules but leaves the required route content unstated. “The move enters A.6.P” names a pattern without identifying its contribution. Name the typed content form and the object or claim that the cited pattern defines, constrains, or tests; identify the selected MVPK face when rendering or review depends on it.
 
 #### A.16:5.8 - Short compound histories
 

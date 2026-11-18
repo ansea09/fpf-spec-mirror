@@ -6,12 +6,12 @@ section_id: "B.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__011_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:10 — Rationale"
-line_start: 47868
-line_end: 47871
+line_start: 47897
+line_end: 47900
 dependencies:
   - "A.12"
   - "A.15.1"

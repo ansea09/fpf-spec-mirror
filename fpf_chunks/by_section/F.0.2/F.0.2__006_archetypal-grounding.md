@@ -6,12 +6,12 @@ section_id: "F.0.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:5 — Archetypal Grounding"
-line_start: 126075
-line_end: 126125
+line_start: 126128
+line_end: 126178
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -50,11 +50,11 @@ A lexical crosswalk that maps both *using system* and *containing system* to one
 
 The comparison concerns **priority within an iterative process**. Starting from an internal construction can narrow the alternatives before the outside behavior and operating conditions are known. Begin with the outside-use question. Once the information needed for a particular design question is explicit, explore construction and feasibility while refining the use account; leave a dependent construction choice open while its decisive use conditions remain unknown.
 
-The author records the **provisional synthesis** branch at local locator `SE-CS-USE-01` with this claim: **“For one Systems Engineering concept decision, first establish the proposed outside behavior, operating conditions and system-of-interest sufficiently to compare internal constructions. Develop and test candidate constructions against that use; refine both accounts as new information arrives, and reopen the use, boundary or construction when realization evidence defeats it. State the subjects and direct relations that change the decision.”** This retains the proposal's outside-before-inside priority, reconciled with dependency-aware concurrent and iterative work.
+The author records the **provisional synthesis** branch at local locator `SE-CS-USE-01` with this claim: **“For one Systems Engineering concept decision, first establish the proposed outside behavior, operating conditions and system-in-hand sufficiently to compare internal constructions. Develop and test candidate constructions against that use; refine both accounts as new information arrives, and reopen the use, boundary or construction when realization evidence defeats it. State the subjects and direct relations that change the decision.”** This retains the proposal's outside-before-inside priority, reconciled with dependency-aware concurrent and iterative work.
 
 **Replay the clock choice.** A team begins comparing gear arrangements for a clock. In this constructed case, asking where and how the clock will be used reveals a requirement for millisecond timing beside a rocket engine, with vibration and 30 g acceleration. The next result is an explicit timing-and-environment use hypothesis; the team compares and tests constructions against it before selecting one. Timing accuracy and vibration resistance can be investigated in parallel once their required operating conditions are stated. If feasibility evidence defeats the proposed clock use, revise that use or the system concept and compare again.
 
-A key/lock case changes another premise: investigating the intended change from a locked to an unlocked door shifts the system-of-interest from the key to the lock, with the key treated as a subsystem in that decomposition. Recover the selected boundary before comparing mechanical, electronic or biometric realizations. The retained function stays visible while the construction alternatives change.
+A key/lock case changes another premise: investigating the intended change from a locked to an unlocked door shifts the immediate engineering subject from the key to the lock arrangement, with the key treated as a subsystem in the proposed decomposition. That change of focus does not by itself change the product SoI: recover the extended enterprise, its product and agreements under A.1.STM:4.1 when that designation matters. Recover the selected boundary before comparing mechanical, electronic or biometric realizations. The retained function stays visible while the construction alternatives change.
 
 In this worked case, the later Systems Engineering DPF content decision cites `SE-CS-USE-01` with this source edition and records `used as proposed`. The applied use-and-system-concept move stays in the Systems Engineering DPF; general claim, parthood and function-bearing rules stay in FPF. Reopen `SE-CS-USE-01` when a source changes the linked action or boundary, a counterexample shows that the proposal cannot guide the decision, or the receiving decision changes its intended use.
 

@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 60965
-line_end: 60998
+line_start: 60978
+line_end: 61013
 dependencies:
   - "A.1"
   - "A.14"
@@ -34,6 +34,8 @@ keywords:
 PumpSkid #7 is assembled from identified Pump, Motor, Baseframe, Manifold, enclosure, pipe, cable, and connector entities. The direct mechanical, electrical, and fluid part-relation patterns identify the fastening, coupling, enclosure, terminal, flange, and seal occurrences. The skid assembly method or rule states how those facts form the candidate, and the skid reidentification rule says which replacements preserve PumpSkid #7.
 
 The shorthand `Γ_m.sum{Pump, Motor, Baseframe, Manifold, ...}` is truthful only with those facts beside it. It records an integrated-assembly construction; it does not make the relations obtain. The composition sustains skid-level boundary, interface, load-envelope, and operating characteristics not attributable to one constituent alone.
+
+A more detailed account can establish more about the same motor, such as the torque it can deliver. To compare two models of **skid performance**, use the same question about the skid in both. State how the model of the coupled parts predicts the whole's performance. Under B.5.MR:4.2 a strict refinement preserves the earlier assertions in every admissible configuration, admits at least one configuration, and rules out a previously possible performance answer.
 
 The same parts unconnected on a pallet do not form the skid. A bill of materials and drawing are epistemes about intended or possible assembly. They do not substitute for actual part relations, assembly, or identity. The same part set connected in a different assembly may constitute another whole.
 

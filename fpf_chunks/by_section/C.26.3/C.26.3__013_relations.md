@@ -6,12 +6,12 @@ section_id: "C.26.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:12 — Relations"
-line_start: 70154
-line_end: 70169
+line_start: 70181
+line_end: 70196
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:4 — Solution"
-line_start: 52136
-line_end: 52202
+line_start: 52165
+line_end: 52231
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -88,7 +88,7 @@ An unfilled layout, an underspecified cue and an account that asserts its prefer
 
 Use §4.2 and §17 to judge whether that account supports entry into B.5.2 now. An account can remain identifiable after its grounds have failed or its question has been answered. Keep it available as the earlier entry and record the warranted continuation; its earlier admission does not authorize a new run without current grounds.
 
-The same question may have several accounts with different claims or effective schemes. Additional evidence changes account identity only when it changes one of C.2.1's identity constituents; adding an evidence relation alone need not do so. A reusable publication form can express different accounts. E.24.PUB governs the selected account's expression and publication; A.6.3.RT governs a prose-to-table transfer when that representation changes. A note containing several questions may express several prompt accounts in the same document.
+The same question may have several accounts with different claims or effective schemes. Additional evidence changes account identity only when it changes one of C.2.1's identity constituents; adding an evidence relation alone need not do so. Expressions of different accounts can follow the same reusable publication form. E.24.PUB governs the selected account's expression and publication; A.6.3.RT governs a prose-to-table transfer when that representation changes. A note containing several questions may express several prompt accounts in the same document.
 
 When returning to an earlier abductive inquiry, determine what changed and what the receiving work still needs before choosing a continuation:
 

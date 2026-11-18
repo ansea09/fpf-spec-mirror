@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__014_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:12 — Relations"
-line_start: 41123
-line_end: 41149
+line_start: 41146
+line_end: 41172
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

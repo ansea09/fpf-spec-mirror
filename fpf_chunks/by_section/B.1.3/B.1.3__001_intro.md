@@ -6,12 +6,12 @@ section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:intro — Intro"
-line_start: 43264
-line_end: 43280
+line_start: 43287
+line_end: 43303
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 **What changes in practice.** Identify the target claim, each input's support role and dependencies before combining them. Return a justified calculation or a reasoned synthesis with its limitations; preserve provenance and conflicts. Return identity, edition, temporal restriction, Work, publication, and assurance questions to their subject patterns.
 
-**Mereology and identity (A.14/C.2.1).** Use **ConstituentOf** for semantic parts and **PortionOf** only for quantitative splits of texts/data with declared μ. Use `PhaseOf` only for a proper interval of one unchanged C.2.1 episteme. When a MethodDescription or document episteme's claim content, EntityOfConcern, or effective ReferenceScheme changes, identify another episteme and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Work segmentation uses A.15.1; no **ComponentOf** is used here.
+**Mereology and identity (A.14/C.2.1).** Use **ConstituentOf** for semantic parts. Measure a text or data split on its selected expression or carrier under C.2.1 and E.24.PUB; use **PortionOf** only when those measured entities independently meet A.14:5.1. Use `PhaseOf` only for a proper interval of one unchanged C.2.1 episteme. When a MethodDescription or document episteme's claim content, EntityOfConcern, or effective ReferenceScheme changes, identify another episteme and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Work segmentation uses A.15.1; no **ComponentOf** is used here.
 
 > **Plain‑English headline.**
 > **Γ\_epist** composes **epistemic holons** (claims, models, datasets, arguments) into a **single episteme** while preserving **provenance** and distinguishing the support, limitations, and conceptual mappings on which its conclusion depends. B.3 governs the meaning and model of any assurance calculation. This is a **semantic and evidential composition**, not a physical sum or a universal confidence fold.

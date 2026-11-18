@@ -6,12 +6,12 @@ section_id: "D.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__013_rationale.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:9 — Rationale"
-line_start: 97035
-line_end: 97038
+line_start: 97063
+line_end: 97066
 dependencies:
   - "A.1.CSD"
   - "A.10"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.3.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.29.3 — Computational Realization"
-line_start: 74005
-line_end: 74351
+line_start: 74032
+line_end: 74378
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -89,7 +89,7 @@ Use the available premises for a conditional design. An assertion about a perfor
 
 #### C.29.3:4.2 - Construct input preparation
 
-Explain how a required input is set in the system. Identify the physical or operational state that represents it: a stored value, an applied signal, an arranged material stock or another prepared condition.
+Explain how a required input is set in the system. Identify the state of the executing arrangement that represents it: a stored value, an applied signal, an arranged material stock or another prepared condition.
 
 Determine the admitted range and the relevant distinctions. A signed field has a finite range. A voltage input has units and a reference. A stock of three exclusive cards differs from two independent stocks of three. Recover initial state when the input is interpreted relative to it.
 
@@ -302,7 +302,7 @@ Constructing those connections can cost more than the displayed calculation. Reu
 
 #### C.29.3:10.1 - Why realization needs its own method
 
-Mathematical result transfer compares accounts and their operations. Computational formulation constructs a procedure for the requested result. Realization begins with that procedure and asks how an executing arrangement supplies it. Its new work is preparation, physical or operational execution, readout and comparison under the conditions of use.
+Mathematical result transfer compares accounts and their operations. Computational formulation constructs a procedure for the requested result. Realization begins with that procedure and asks how an executing arrangement supplies it. Its new work is input preparation, execution by the embodied arrangement, readout and comparison under the conditions of use.
 
 A.6.1 provides the declaration and realization relation. It leaves the design and interpretation of an executing arrangement to the method that uses the relation. C.29.3 supplies that constructive work within the mathematical-use family. The method can be entered with an available computation.
 

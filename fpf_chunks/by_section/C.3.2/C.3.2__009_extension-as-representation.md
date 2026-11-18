@@ -6,12 +6,12 @@ section_id: "C.3.2:7"
 section_title: "Extension as Representation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__009_extension-as-representation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:7 — Extension as Representation"
-line_start: 57933
-line_end: 57944
+line_start: 57942
+line_end: 57953
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -33,7 +33,7 @@ Materialize `KindExtension(k, slice)` only when a named query, quantification, c
 
 - Pin the signature edition even though the compact name shows only `k` and `slice`.
 - State the candidate domain without inventing `U.EntitySet`.
-- Include exactly admissible candidates whose judgment is `true`. Keep `unknown` and `not-applicable` distinct when the receiver needs those exclusions explained.
+- Include each admissible candidate whose judgement is `true`. Their count answers “how many are confirmed?” To bound how many in the population could qualify, establish the complete inventory and account for every possible member. The lower bound is the confirmed count. For the upper bound add each remaining candidate whose membership has not been ruled out, including any still unevaluated. An `unknown` judgement records an inconclusive evaluation. An unevaluated candidate has no judgement yet. An incomplete inventory by itself supplies no finite upper bound for the whole population. An inadmissible request returns `not-applicable` without a judgement.
 - Treat braces, rows, indexes, or database results as representations. They create neither a collection holon, A.14 membership occurrence, direct classification relation, nor criterion condition.
 - Use C.29 when interpretation, preservation or transfer of the represented set leaves a separate mathematical question. Otherwise finish the local calculation under the kind and query rules.
 

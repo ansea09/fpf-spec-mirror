@@ -6,14 +6,15 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__004_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b — First-minute operator cue and confusion guide"
-line_start: 37103
-line_end: 37125
+line_start: 37123
+line_end: 37145
 dependencies:
   - "A.0"
+  - "A.15.7"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -21,6 +22,7 @@ dependencies:
   - "A.6.P"
   - "C.18"
   - "C.19"
+  - "C.24"
   - "G.10"
   - "G.5"
 keywords:
@@ -52,10 +54,10 @@ If one of these facts cannot yet be recovered, preserve the established source a
 
 | If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |
-| "Which space are we searching in and which space are we judging in?" | `A.19.SOURCE-SET-SPACE-SUBSTRATE` | This pattern governs the dual-ref substrate stack. |
+| "Which space are we searching in and which space are we judging in?" | `A.19.SOURCE-SET-SPACE-SUBSTRATE` | This pattern governs the source set, both space uses and the source-to-outcome relation. |
 | "How should I help the reader inspect that already-declared line?" | `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` | That is one interpretive reading over the substrate, not the substrate declaration itself. |
-| "What do we publish, ship, keep live, or plan next?" | `G.5`, `G.10`, `C.19`, or `C.24` | Those are downstream output or policy questions. |
-| "I only need one space declaration." | `A.19` | No source-to-outcome substrate stack is in play yet. |
+| "What do we publish, ship, keep live, or plan next?" | Use the corresponding alternative in §0. | Distinguish publication, live-pool policy, next-action choice and call planning for an already fixed action. |
+| "I only need one space declaration." | `A.19` | No source-to-outcome relation needs to be declared. |
 
 A descriptor map or distance definition supplies one part of this account; it does not identify the source set and both spaces by itself.
 

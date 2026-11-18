@@ -6,12 +6,12 @@ section_id: "E.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__001_intro.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:intro — Intro"
-line_start: 101818
-line_end: 101821
+line_start: 101846
+line_end: 101849
 dependencies:
   - "E.2"
   - "E.3"

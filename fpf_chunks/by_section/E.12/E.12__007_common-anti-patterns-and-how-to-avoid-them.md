@@ -6,12 +6,12 @@ section_id: "E.12:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 111709
-line_end: 111716
+line_start: 111757
+line_end: 111764
 dependencies:
   - "C.11.DUA"
   - "E.13"

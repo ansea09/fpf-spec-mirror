@@ -6,12 +6,12 @@ section_id: "A.2.9:5"
 section_title: "Worked Communication Uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__008_worked-communication-uses.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:5 — Worked Communication Uses"
-line_start: 9369
-line_end: 9458
+line_start: 9381
+line_end: 9470
 dependencies:
   - "A.10"
   - "A.13"

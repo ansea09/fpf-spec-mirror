@@ -6,12 +6,12 @@ section_id: "A.8:3.1"
 section_title: "Archetypal Grounding - Diversity Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__007_archetypal-grounding-diversity-evidence.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:3.1 — Archetypal Grounding - Diversity Evidence"
-line_start: 27493
-line_end: 27522
+line_start: 27505
+line_end: 27534
 dependencies:
   - "A.11"
   - "C.3"
@@ -32,7 +32,7 @@ Test one proposed contribution across different domain families. If it fails a v
 
 | Candidate under test | Domain-family projections | What must stay the same | What may differ |
 | --- | --- | --- | --- |
-| `U.System` | thermodynamic control volume; biological cell or organism; cyber-physical system | acting physical or operational holon satisfying all six constructive components and the applicable kind-specific condition in A.1:4.2–4.3 | boundary physics, substrate, observability, and control style |
+| `U.System` | thermodynamic control volume; biological cell or organism; cyber-physical system | physically embodied acting holon satisfying all six constructive components and the applicable kind-specific condition in A.1:4.2–4.3 | boundary physics, substrate, observability, and control style |
 | `U.Episteme` | theorem or proof text; clinical guideline; model card or safety case | claim-bearing non-agentive knowledge object that can be used, cited, revised, or published | carrier, notation, authority source, and assurance regime |
 | `U.Work` | machining run; lab assay; review or approval act | dated performed occurrence: use the complete A.15.1 admission, including A.1:4.2's six common constructive components, A.13's actual-performer basis, grounded performance history, enacted Method and extent, and facts establishing containment of the complete occurrence under a declared System boundary; F.6 adds an assignment check only when the current use must also say under which assignment the Work was performed | physical medium, institutional form, measurement trace, and evidence carrier |
 

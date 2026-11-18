@@ -6,12 +6,12 @@ section_id: "C.3.2:10"
 section_title: "Additional Transfer Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__012_additional-transfer-cases.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:10 — Additional Transfer Cases"
-line_start: 57997
-line_end: 58004
+line_start: 58006
+line_end: 58013
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -32,6 +32,6 @@ keywords:
 | Case | Repaired use |
 | --- | --- |
 | Vehicle and PassengerCar | Check candidate admissibility and use C.3.1's obtaining branch; a registry result is an extension representation, not `U.EntitySet`. |
-| AuthenticatedRequest | Name the standard and key-validity dependency. An admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
+| AuthenticatedRequest | Name the standard and key-validity dependency. If the remaining facts do not settle authentication, an admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
 | AdultPatient | Pin jurisdictional threshold, measurement time, and candidate identity. A patient with missing birth support is `unknown`; a non-person value rejected by ValueKind is `not-applicable`. |
 

@@ -6,12 +6,12 @@ section_id: "C.32.ADA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__008_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:7 — Conformance Checklist"
-line_start: 84596
-line_end: 84610
+line_start: 84624
+line_end: 84638
 dependencies:
   - "A.1.1"
   - "A.10"

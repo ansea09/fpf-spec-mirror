@@ -6,12 +6,12 @@ section_id: "F.17:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__022_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:15 — Relations"
-line_start: 133528
-line_end: 133537
+line_start: 133585
+line_end: 133594
 dependencies:
   - "A.1.1"
   - "A.10"

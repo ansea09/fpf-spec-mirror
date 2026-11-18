@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.ECSPF.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
-line_start: 103795
-line_end: 104058
+line_start: 103841
+line_end: 104104
 dependencies:
   - "A.19.ECS"
   - "C.25"

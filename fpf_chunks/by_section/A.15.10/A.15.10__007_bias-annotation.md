@@ -6,12 +6,12 @@ section_id: "A.15.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.10 — Resume Work"
   - "A.15.10:6 — Bias-Annotation"
-line_start: 33914
-line_end: 33919
+line_start: 33930
+line_end: 33935
 dependencies:
   - "A.15"
   - "A.15.5"

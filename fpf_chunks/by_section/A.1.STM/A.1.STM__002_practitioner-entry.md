@@ -6,7 +6,7 @@ section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:0 — Practitioner entry"
@@ -35,7 +35,7 @@ keywords:
 
 ### A.1.STM:0 - Practitioner entry
 
-**Use this when.** Use this pattern when participants have knowledge about parts of a project but need to connect it into one systemic account: what should change in use, which system can make that difference, how it could function and be constructed, how it can be obtained, and how its creators can work together. Their answers must fit together, not merely be plausible separately. Identify the relevant project **system-of-interest (SoI)**, or systems-of-interest when several matter, and the receiving uses relevant to that decision. Use the pattern also when participants say "our system" but leave its project context, contribution or receiving use unclear. A narrower use is to locate the first unsupported dependency when the connected account is already sufficient.
+**Use this when.** Use this pattern when participants have knowledge about parts of a project but need to connect it into one systemic account: what should change in use, which system can make that difference, how it could function and be constructed, how it can be obtained, and how its creators can work together. Their answers must fit together, not merely be plausible separately. Identify the product **system-of-interest (SoI)**, the extended enterprise in which it has that role, and the receiving use relevant to the decision. Retain several SoIs when their uses or shared commitments matter. Use the pattern also when participants say "our system" but leave its project context, contribution or receiving use unclear. A narrower use is to locate the first unsupported dependency when the connected account is already sufficient.
 
 **First useful move.** You may arrive with a felt difficulty, a proposed change or a project account worth examining before trouble is noticed. Section 4.0 connects those entries. For a systemic project question, recover what should become different or remain possible in use, for whom and when. From the system's boundary, look upward to the larger functioning whole and the joint action of its parts. Use that account to derive the system's needed contribution before justifying its internal construction and the work needed to obtain it. Reuse a sufficient existing account; when the larger whole is unknown, investigate that question. Sections 4.1–4.3 develop this order, 4.3.1 connects the answers, and 4.4 locates a bounded gap.
 
@@ -47,5 +47,5 @@ This is the Plain long mantra. Its first moves establish the use that gives the 
 
 **Not this pattern when.** A known local system-recognition, service/access, architecture, Method, Work, transformation, evidence or closure question can be answered through its subject pattern. Such a result need not reopen the whole project account. Use this pattern when the common basis or the connection to it is itself at issue.
 
-**What this buys.** Participants can form and criticize a connected project account, justify why its choices belong together, find a consequential incompatibility or missing answer, and revise the affected part without losing the whole. They distinguish project roles, current local subjects and the receiving connections between undertakings, while preserving valid local results. The account can remain ordinary prose and existing project descriptions; no new universal project record is required.
+**What this buys.** Participants can form and criticize a connected project account, justify why its choices belong together, find a consequential incompatibility or missing answer, and revise the affected part without losing the whole. They distinguish a System's product role in an extended enterprise, the current local subject and the receiving connections between undertakings, while preserving valid local results. The account can remain ordinary prose and existing project descriptions; no new universal project record is required.
 

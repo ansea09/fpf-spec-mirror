@@ -6,12 +6,12 @@ section_id: "A.21:11"
 section_title: "SoTA echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__013_sota-echo.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:11 — SoTA echo"
-line_start: 41683
-line_end: 41691
+line_start: 41706
+line_end: 41714
 dependencies:
   - "A.10"
   - "A.15.5"

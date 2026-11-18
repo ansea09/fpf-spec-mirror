@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:7 — Conformance Checklist"
-line_start: 33512
-line_end: 33529
+line_start: 33528
+line_end: 33545
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -32,7 +32,7 @@ keywords:
 - [ ] Observed pass, observed failure, untested, feature-level insufficiency, missing information, and an unresolved use-bounded row are not substituted for one another.
 - [ ] A sufficient direct route has supported mandatory task coverage, acceptable burden and respected stops; it makes no smallest-or-best claim. A comparative singleton has its declared comparison and selection basis; unresolved comparison preserves candidates, abstention, a split boundary, or a missing priority or test.
 - [ ] A simple task uses the cheap branch; configuration or recovery testing reuses A.15.8, and non-trivial comparison or selection reuses A.19 rather than copying their kernels.
-- [ ] Project, user, provider, repository, tool, and automation Systems and their access, assignment, permission, authority, capability, publication, direct System-use, Work, and task-result facts remain separate.
+- [ ] Project Work, intended-work content and the performing organization remain distinct under A.15.6. Participating Systems and their access, assignment, permission, authority, capability, publication, direct System-use, Work and task-result claims retain their own grounds.
 - [ ] A curated collection has a project or namespace, purpose, current rule, identified membership predicates, edition policy, and return conditions.
 - [ ] An A.22 selected-structure result has all four identity discriminators for the named use; any unresolved required value retains its A.22-qualified result. A proposal may remain a proposal. A claimed dated selection Work has its separate performance basis.
 - [ ] Each positive task result rests on observed performance and the relations used. Any claimed dated Work has its independent A.13 and A.15.1 basis; assignment-bound attribution additionally uses F.6.

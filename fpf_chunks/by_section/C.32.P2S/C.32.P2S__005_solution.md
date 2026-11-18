@@ -6,12 +6,12 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 80939
-line_end: 81086
+line_start: 80967
+line_end: 81114
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -35,7 +35,7 @@ keywords:
 
 Apply the smallest useful part of the action sequence below. Create or update `ProblemToStructureArchitecturingFlowCard@Project` only when its record is useful for that work. The numbered presentation guides attention; it is not by itself a claim about the order, identity, or occurrence of project Work or actual transformations. When the applicable rule in another pattern fully answers the current question, use that pattern and stop there. Continue P2S only while the connected project-local architecturing flow remains the object of the question.
 
-Before selecting internal structure, state the expected receiving change, the beneficiary or relying use, its operating time and relevant encompassing functioning, and the hypothesis by which the proposed result could support that use. In a systemic product account, recover the common SoI and its actual or intended boundary. Move toward use and upward through the relevant part–whole relations. Explain how the parts of the encompassing whole function together and derive the system's required contribution before moving inward to construction or backward to creation.
+Before selecting internal structure, state the expected receiving change, the beneficiary or relying use, its operating time and relevant encompassing functioning, and the hypothesis by which the proposed result could support that use. In a systemic product account, recover the SoI, its extended enterprise and agreements under A.1.STM:4.1, and its actual or intended boundary. Move toward use and upward through the relevant part–whole relations. Explain how the parts of the encompassing whole function together and derive the system's required contribution before moving inward to construction or backward to creation.
 
 A creator, owner or larger project is not a containing System by that fact. A merely intended system stays in plan or description content. A.1 and A.1.SCR govern actual-system recognition; A.15.6 recovers the project Work, designation and local subject.
 
@@ -53,7 +53,7 @@ Use A.1.STM:4.1–4.3 when the common use basis or the local subject's contribut
 
 Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted problem-side record or accepted C.22.2 `ProblemCard` episteme plus the carried distinction into the next FPF use. A C.32.P2S use carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, and actual-structure feedback. The practitioner then uses the pattern for the next question. The analogy ends when that question is method, work, telemetry, publication, or improvement-loop use; use its pattern rather than stretching P2S into generic process management.
 
-1. Recover the problem pressure or architecture concern together with its receiving-use basis. B.5.PI can expose it before a complaint or actual Problem. Name the expected environmental or relying-use change, beneficiary or user, operating time and relevant encompassing relations, common product SoI and boundary hypothesis where a systemic product account is current, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. For the systemic product account, derive required functioning from how the system contributes with the other parts of its encompassing whole.
+1. Recover the problem pressure or architecture concern together with its receiving-use basis. B.5.PI can expose it before a complaint or actual Problem. Name the expected environmental or relying-use change, beneficiary or user, operating time and relevant encompassing relations, product SoI, extended enterprise, agreement basis and boundary hypothesis where a systemic product account is current, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. For the systemic product account, derive required functioning from how the system contributes with the other parts of its encompassing whole.
 
    If the pressure is still only a cue, use C.22.2 and cite the resulting `ProblemCard` episteme when it becomes the accepted input. If an actual Problem is claimed, cite an independently obtaining C.22.PFR `ProblematicForRelation`; the card and its fields create no such occurrence.
 

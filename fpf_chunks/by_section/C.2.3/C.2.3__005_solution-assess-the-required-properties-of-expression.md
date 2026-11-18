@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - Assess the required properties of expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-assess-the-required-properties-of-expression.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:4 — Solution - Assess the required properties of expression"
-line_start: 55486
-line_end: 55539
+line_start: 55507
+line_end: 55560
 dependencies:
   - "A.16"
   - "A.18"
@@ -69,7 +69,7 @@ A local ordinal summary is possible when its levels have nested criteria. For ex
 - those conditions plus explicit acceptance predicates and their interpretation;
 - those conditions plus expressed derivations for a specified set of obligations.
 
-The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team's levels are not comparable merely because they use the same numbers.
+The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team’s levels are comparable only to the extent that their criteria support the same comparison. When the expressions are used as models, B.5.MR asks a different question. For a fixed inquiry and interpretation, which answers does each model admit? Rewriting a ceiling of thirty minutes as an equivalent predicate can make it executable while admitting exactly the same durations. Lowering the ceiling to twenty minutes can exclude a previously admissible duration in the same notation.
 
 Arithmetic, averages and numerical differences are not licensed by an ordinal scale. Where a change is described as an increase in formality, identify the strengthened property or the established order that makes that claim meaningful. A new logic, extra subsystem or larger toolchain is not such a property by itself.
 

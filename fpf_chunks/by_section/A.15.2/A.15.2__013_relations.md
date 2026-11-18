@@ -6,12 +6,12 @@ section_id: "A.15.2:7e"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7e — Relations"
-line_start: 31125
-line_end: 31130
+line_start: 31141
+line_end: 31146
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "B.1.4"
   - "B.1.6"
   - "B.3"
+  - "B.5.MR"
   - "C.2.1"
   - "C.27.TA"
   - "C.32.P2S"
@@ -59,6 +60,6 @@ keywords:
 ### A.15.2:7e - Relations
 
 * **Builds on:** C.2.1 for episteme identity and local assertion identity; `A.15` for System-Role-Method-Work alignment; `A.15.1` for independently identified performed Work occurrences admitted under `U.Work`; A.2.1 for direct `U.SystemRoleAssignment` species; A.2.2 for qualified holder-ability claims, thresholds and fit conditions; A.3.1 for `U.Method`; and A.3.2 for `U.MethodDescription`.
-* **Coordinates with:** A.15.3 for planned filling against governed declarations; A.6.1 for operation argument and result declarations; A.6.5 for RelationSignature participant declarations; A.6.RCD for the existing-direct/local-compound/reusable-predicate/relation-kind economy; E.24/E.24.UK for any later kind admission; A.6.REL only after an admitted direct or derived relation needs occurrence discipline; A.15.4 for work-relevant appearance-based reliance repair; A.15.5 for work-entry readiness; C.27.TA for direct temporal-aspect claims; B.1.4 for temporal aggregation; B.1.6 for performed-resource aggregation; A.10 for accounts of independently established evidence-provenance relations; B.3 for assurance; A.20 for internal constraint results and A.21 for gate decisions; C.32.P2S for architecturing-flow references to intended work; E.17 for publication-use questions; and F.9 only for cross-context `SchemeSenseCell` correspondence, with any proposed use and reliance routed through checklist item 7.
+* **Coordinates with:** B.5.MR for refinement and abstraction comparisons between plan models; A.15.3 for planned filling against governed declarations; A.6.1 for operation argument and result declarations; A.6.5 for RelationSignature participant declarations; A.6.RCD for the existing-direct/local-compound/reusable-predicate/relation-kind economy; E.24/E.24.UK for any later kind admission; A.6.REL only after an admitted direct or derived relation needs occurrence discipline; A.15.4 for work-relevant appearance-based reliance repair; A.15.5 for work-entry readiness; C.27.TA for direct temporal-aspect claims; B.1.4 for temporal aggregation; B.1.6 for performed-resource aggregation; A.10 for accounts of independently established evidence-provenance relations; B.3 for assurance; A.20 for internal constraint results and A.21 for gate decisions; C.32.P2S for architecturing-flow references to intended work; E.17 for publication-use questions; and F.9 only for cross-context `SchemeSenseCell` correspondence, with any proposed use and reliance routed through checklist item 7.
 * **Used by:** P2W carry-through when accepted problem-side content must guide work planning, and P2S carry-through when architecture-selected structures require intended-work epistemes. Both uses keep present plan subject, possible future performance, readiness, performed Work, actual use, evidence, gate, comparison, result, and downstream effect separately governed.
 

@@ -6,12 +6,12 @@ section_id: "C.3:14"
 section_title: "Detail Map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__016_detail-map.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:14 — Detail Map"
-line_start: 57653
-line_end: 57666
+line_start: 57662
+line_end: 57675
 dependencies:
   - "A.1"
   - "A.11"

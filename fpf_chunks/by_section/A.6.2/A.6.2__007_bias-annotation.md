@@ -6,12 +6,12 @@ section_id: "A.6.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__007_bias-annotation.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:6 — Bias-Annotation"
-line_start: 18337
-line_end: 18346
+line_start: 18349
+line_end: 18358
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -39,5 +39,5 @@ keywords:
 
 * **Arrow domain and use-local semantics.** EFEM names the formal domain of each arrow family. When a receiving-use claim is made, a separate `q` carries the receiving-use invariant, visible loss, conditions, and polarity; a current-case judgement separately tests the facts. Scope, operating conditions, and selected viewpoint enter only when they change that proposition or judgement. An obtaining semantic Bridge between two local senses, a ReferencePlane relation, and any transport application remain separately identified; no implicit cross-local or cross-plane EFEM is permitted.
 
-* **EntityOfConcern and Description-episteme boundary and specification-use/refinement respect.** EFEM never collapses an EntityOfConcern with a Description episteme or with a specification-use refinement. C.2.1 identifies each Description episteme directly; any authoring, measurement, observation, model, source-use, representation, or refinement relation is stated only when it is current. A specification refinement can be represented by an EFEM arrow only after a specification-use or refinement gate admits it; any application that produces the refined episteme remains separate.
+* **EntityOfConcern, Description episteme and specification use.** Keep the EntityOfConcern distinct from the Description episteme, and identify any specification use separately. C.2.1 identifies each Description episteme directly; any authoring, measurement, observation, model, source-use, representation, or refinement relation is stated only when it is current. A.6.2:5.1 gives an optional conservative arrow to an episteme admitted for specification use. The arrow must satisfy its own laws; any application that produces the receiving episteme remains separate. A comparison of endpoint models by refinement or abstraction uses B.5.MR.
 

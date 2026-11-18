@@ -6,12 +6,12 @@ section_id: "E.18:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 117975
-line_end: 117984
+line_start: 118023
+line_end: 118032
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

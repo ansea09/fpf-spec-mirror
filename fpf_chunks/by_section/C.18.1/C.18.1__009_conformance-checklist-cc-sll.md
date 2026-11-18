@@ -6,12 +6,12 @@ section_id: "C.18.1:6"
 section_title: "Conformance Checklist (CC-SLL)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__009_conformance-checklist-cc-sll.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:6 — Conformance Checklist (CC-SLL)"
-line_start: 63998
-line_end: 64005
+line_start: 64023
+line_end: 64030
 dependencies:
   - "C.16"
   - "C.17"
@@ -43,8 +43,8 @@ keywords:
 ### C.18.1:6 - Conformance Checklist (CC-SLL)
 
 1. `S` declared **or** `S = N/A` with rationale.
-2. **Scale-probe** performed; the supported **χ** or unresolved classification recorded with the applicable uncertainty treatment and any **replicates and CI** used; invariants disclosed.
-3. **iso-scale parity** or **loss notes**; any numerical assurance penalty justified by its receiving B.3 model; editions and any seeds used pinned; ComparatorSet cited.
-4. If illumination is used as a tie-breaker, the selector cites the admitting policy, **χ** and **lens id** in **E/E-LOG** provenance.
+2. For an empirical scale comparison, give the probe settings, response, task family, invariants and applicable uncertainty. Name the supported class or the remaining uncertainty. With observations at only one setting, report what is established there and leave the scale comparison open.
+3. A matched-scale claim has established iso-scale parity, with the editions, seeds when used, and comparator recoverable. If the resource regimes cannot be matched, report the individual results or a narrower comparison whose grounds hold. Any numerical assurance penalty has a basis in the receiving B.3 model.
+4. An illumination tie-break cites the policy admitting it and its **lens id** in **E/E-LOG** provenance. When that policy depends on **χ**, include the supported class or leave the dependent preference open.
 5. Knee claims cite the **policy threshold**, slope-comparison method and applicable uncertainty or error basis; include the statistical significance level and any CI level when those are used.
 

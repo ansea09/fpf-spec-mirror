@@ -6,12 +6,12 @@ section_id: "C.2.3:14"
 section_title: "Assessing formality in practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__015_assessing-formality-in-practice.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:14 — Assessing formality in practice"
-line_start: 55663
-line_end: 55688
+line_start: 55684
+line_end: 55709
 dependencies:
   - "A.16"
   - "A.18"

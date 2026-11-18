@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.WT.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
-line_start: 10817
-line_end: 11021
+line_start: 10829
+line_end: 11033
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -199,7 +199,7 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 
 Trial Work produces inspectable evidence. Failures and missing premises survive as useful results, and later assurance decisions can compare the same occurrences without changing their identity or truth status.
 
-The cost is more explicit occurrence recovery and narrower conclusions. Projects must record the performer, enacted Method and situation, together with the capability, support, direct relations, burdens and source limits that affect the receiving question, and they may finish a costly trial with a precise gap instead of a favourable verdict.
+The cost is more explicit occurrence recovery and narrower conclusions. Projects must record the performer, enacted Method and situation, together with the capability, support, direct relations, burdens and source limits that affect the receiving question, and they may finish a costly trial with a gap instead of a favourable verdict.
 
 ### A.3.1.WT:10 - Rationale
 

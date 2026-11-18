@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:5 — Archetypal Grounding"
-line_start: 20019
-line_end: 20124
+line_start: 20031
+line_end: 20136
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

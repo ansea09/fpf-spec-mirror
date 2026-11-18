@@ -6,12 +6,12 @@ section_id: "B.2.P:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:6 — Conformance Checklist"
-line_start: 45686
-line_end: 45701
+line_start: 45713
+line_end: 45728
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 | `CC-B2P-2` | No generic `U.Emergence` is created. |
 | `CC-B2P-3` | Whole reidentification requires B.2; B.2.P does not declare MHT. |
 | `CC-B2P-4` | Collection admission remains with subject patterns. Collection wording entangled with emergence or MHT selects B.2.P for clarification, not for admission. |
-| `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, math-lens, publication, and source-use claims keep their subject patterns. |
+| `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, model-use, model-comparison, math-lens, publication, and source-use claims keep their subject patterns. |
 | `CC-B2P-6` | Source mnemonics and result-field spellings do not identify subject patterns or become U-kinds. |
 | `CC-B2P-7` | Replacement wording is reread in its complete natural span through F.19 with E.10 cues inside; only a remaining FPF question opens the applicable lexical or subject rule before live use. |
 | `CC-B2P-8` | Whole-reidentification recovery identifies the existing whole, changed facts and identity rule, then retains a supported sufficient explanation, establishes insufficiency, or states the deciding gap. In a selected new-whole branch, apply the A.1 criterion, including governed larger-assembly compatibility, and the kind-specific criterion; preserve a failed or unresolved recognition result. First constitution or recognition without a prior whole returns to A.1 and the subject pattern. |

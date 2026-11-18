@@ -6,12 +6,12 @@ section_id: "C.2.LS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__006_archetypal-grounding.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:5 — Archetypal Grounding"
-line_start: 55875
-line_end: 55881
+line_start: 55889
+line_end: 55895
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,5 +47,5 @@ A team may say a draft is "still forming" for different reasons. The profile let
 
 **Operator alert.** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
 
-**Inquiry note.** An inquiry note can be low articulation while reporting identified exemplars and observations.
+**Inquiry note.** A station note records the service identifier, date and actual arrival time for each of three trains at the same station. The reader can identify all three events. To compare their delays, obtain each scheduled arrival from the applicable timetable and compare it with the matching actual arrival on the same time basis.
 

@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:5"
 section_title: "Worked Build and Test Replays"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__007_worked-build-and-test-replays.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:5 — Worked Build and Test Replays"
-line_start: 33350
-line_end: 33498
+line_start: 33366
+line_end: 33514
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -30,7 +30,7 @@ The two retrieval Works occur within the admitted containing System `Calibration
 
 `CalibrationEngineer-5` must retrieve the current description of admitted Method `M-Calibrate-Sensor-B` for planned calibration Work. The pass criterion is: return `MD-Calibrate-Sensor-B-v4`, its current status, applicability to sensor family B, and the stop for an unknown serial class. The failure criterion is return of another edition or omission of status, applicability, or stop.
 
-This is one receiver and one action. Candidate `REP-Cal-B-Retrieval-1` is a `C.2.1` episteme constituted by the maintained index row. Its use claim is that v4 is the current family-B description and carries the unknown-serial stop for this retrieval. It exposes currentness, applicability, the stop, and publication link; it withholds a stable audit digest and makes no capability, permission, authority, Work, or calibration-result claim.
+This is one receiver and one action. Candidate `REP-Cal-B-Retrieval-1` is a `C.2.1` episteme whose claim content is expressed in the maintained index row. Its use claim is that v4 is the current family-B description and carries the unknown-serial stop for this retrieval. It exposes currentness, applicability, the stop, and publication link; it withholds a stable audit digest and makes no capability, permission, authority, Work, or calibration-result claim.
 
 The A.15.8.MS task row is the owning domain result for this use and carries the receiving task criterion, observation, and return. That one embedded realization supplies the complete one-result/one-use selection boundary, so the `C.37` direct exit applies: no C.37.MP profile row and no duplicate standalone C.37 account are created.
 

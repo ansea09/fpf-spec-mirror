@@ -6,12 +6,12 @@ section_id: "A.17:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__002_context.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:1 — Context"
-line_start: 35791
-line_end: 35794
+line_start: 35811
+line_end: 35814
 dependencies:
   - "A.17"
   - "A.18"

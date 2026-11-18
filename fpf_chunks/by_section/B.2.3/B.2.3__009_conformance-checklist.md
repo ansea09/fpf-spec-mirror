@@ -6,12 +6,12 @@ section_id: "B.2.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:6 — Conformance Checklist"
-line_start: 46178
-line_end: 46189
+line_start: 46205
+line_end: 46216
 dependencies:
   - "A.1"
   - "A.10"

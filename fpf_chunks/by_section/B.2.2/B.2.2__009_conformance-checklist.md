@@ -6,12 +6,12 @@ section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 45923
-line_end: 45935
+line_start: 45950
+line_end: 45962
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,5 +51,5 @@ keywords:
 | `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |
 | `CC-B2.2-6` | Acting-system participation, transformation, and work are separated from parthood. |
 | `CC-B2.2-7` | Component assurance is not silently transferred to the result system. |
-| `CC-B2.2-8` | Recover the episteme, representation, or publication claim for a description, dashboard, simulation, or digital twin separately from recognition of the operating system it describes, even when that system is the EoC. |
+| `CC-B2.2-8` | Recover the model-use, episteme, representation or publication claim separately from recognition of the System it concerns. If the representing entity is itself claimed to be a System, test that entity separately under A.1. |
 

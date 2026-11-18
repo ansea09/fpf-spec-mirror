@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__006_solution.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:4 — Solution"
-line_start: 33262
-line_end: 33349
+line_start: 33278
+line_end: 33365
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -56,7 +56,7 @@ If the task set, a required comparison basis, or the task evidence needed to jud
    **Direct branch:** use the owning complete one-result/one-use answer and its material limits. When the A.15.8.MS task row owns the use, retain the applicable complete C.37 basis there if later use needs reconstruction; otherwise finish the sufficient immediate answer. Do not create a C.37.MP row or duplicate standalone account, or report their absence as a gap.
 
    **Profile branch:** when complementary governed representations serve unlike named actions, consume one complete C.37.MP profile. Require one complete C.37-bearing row for every action, then require the separate cross-use result that returns all rows to the same Method source and records correspondences, conflicting omissions, edition relations, keep-separate decisions, and changes that reopen several rows. If the source account, a subject result, reliance or receiving layer, one action row, or the cross-use result is missing, stale, or for another action set, return that gap instead of importing colocated artifacts as a profile.
-3. **Identify the participating Systems and required relations.** Keep the project, users, provider, repository, tools, and automation as independently identified Systems where applicable. Establish the relations required by the named tasks and configuration, such as access, provision, assignment, permission, authority, capability, publication, or direct System use. Keep these predicates distinct; return a missing required relation rather than inferring it from configuration.
+3. **Identify the participating Systems and required relations.** Identify the participating Systems independently, including the users and providers and any repositories, tools or automation that qualify under A.1. Use A.15.6 when project wording leaves the Work, intended-work content or performing organization unclear. Establish the relations required by the named tasks and configuration, such as access, provision, assignment, permission, authority, capability, publication, or direct System use. Keep these predicates distinct; return a missing required relation rather than inferring it from configuration.
 4. **Assess the available route and compare for a live choice.** For a small reversible task, keep an available configuration when the task evidence supports every mandatory criterion, no stop is violated, and its burden is acceptable for this use. This sufficient result needs neither a second route nor a proof that no smaller route exists.
 
    Open comparison when a failed criterion, material burden, changed task, or plausible alternative could change the configuration decision enough to justify the comparison's cost.

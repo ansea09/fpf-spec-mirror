@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.4.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
-line_start: 13436
-line_end: 13785
+line_start: 13448
+line_end: 13797
 dependencies:
   - "A.1"
   - "A.10"
@@ -196,7 +196,7 @@ In the earlier case record, `P14-REL-2026` is absent; at that epistemic stage, k
 
 When the use needs the following contributions, keep their different objects and criteria recoverable:
 
-| Layer | Object to keep distinct | Where to check it |
+| Claim or use | Object to keep distinct | Where to check it |
 | --- | --- | --- |
 | actual bounded change | one `U.Transformation` | A.3.4 identifies the continuing subject, extent, boundary conditions, before/during/after facts, and continuity rule |
 | facts about the changed subject | relation occurrences and characteristic-state facts that hold | each subject pattern defines the participants, obtaining rule, and identity |

@@ -6,12 +6,12 @@ section_id: "F.9.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__013_relations.md"
-commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
+commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:12 — Relations"
-line_start: 130076
-line_end: 130090
+line_start: 130129
+line_end: 130143
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
