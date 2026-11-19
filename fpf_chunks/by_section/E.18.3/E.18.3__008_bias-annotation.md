@@ -6,12 +6,12 @@ section_id: "E.18.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__008_bias-annotation.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:6 — Bias-Annotation"
-line_start: 119651
-line_end: 119661
+line_start: 119672
+line_end: 119682
 dependencies:
   - "A.10"
   - "A.15"

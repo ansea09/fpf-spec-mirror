@@ -6,12 +6,12 @@ section_id: "C.34:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__008_conformance-checklist.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:7 — Conformance checklist"
-line_start: 85116
-line_end: 85126
+line_start: 85123
+line_end: 85133
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -50,7 +50,7 @@ keywords:
 | --- | --- |
 | `CC-C34-1` | Source and target structures are named before the mapping claim. |
 | `CC-C34-2` | The selected mapping is warranted and sufficient for the declared use; no stronger result is required merely to complete the assessment. |
-| `CC-C34-3` | Preserved relations or constraints and any material loss or uncertainty are stated; absence of a preservation result is distinguished from an observed loss. |
+| `CC-C34-3` | The account identifies the facts that support the intended inference in the target and the direction in which they carry over. Where independently assigned relations could change the decision, the account establishes them or identifies the decision that remains open. |
 | `CC-C34-4` | Relation-type semantics, observation class, directionality, and scope are present when they affect use. |
 | `CC-C34-5` | Each current mathematical-lens, view, description, Bridge, conformance, candidate-synthesis, measurement, eval, decision, evidence, assurance, gate, release, or work-authorization claim uses the pattern that defines or tests it. |
 | `CC-C34-6` | The supported use and its grounds are clear, with any material limitation, recovery condition and rule required by the next reliance. |

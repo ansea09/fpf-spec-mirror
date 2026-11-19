@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 87038
-line_end: 87350
+line_start: 87058
+line_end: 87370
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

@@ -6,12 +6,12 @@ section_id: "C.36.RP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:5 — Archetypal Grounding"
-line_start: 95859
-line_end: 95886
+line_start: 95880
+line_end: 95907
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -47,7 +47,7 @@ In this constructed case, an ensemble uses an eight-pulse cycle with onsets at 0
 
 Adding two modulo eight gives 2, 5 and 0, or the ordered onset set 0, 2, 5. The operation depends on knowing the cycle, what an onset position means and how positions wrap at its end. Retaining those meanings lets a contributor produce the changed phrase.
 
-One musician demonstrates the original and changed phrases while counting the cycle. Another participant may use written marks or a computational representation. The ensemble retains a way to obtain the rotation and perform it in the receiving arrangement. Its musical practice supplies the performance and judgement of fit.
+One musician demonstrates both phrases while counting the cycle. If the ensemble's commission is to perform the supplied arrangement, the musicians may use the marked parts and count together. A rehearsal can establish that result. If a musician is to arrange future rotations, give that musician a new offset and the original phrase. Leave them to determine the new onsets using the support the ensemble normally provides. Their calculation and its use in the changed phrase can show that they applied the rotation to the new offset. A performance of the already demonstrated phrase can leave that question open.
 
 The new phrase can become material for another variation. That continuation uses the operation and its means of performance. A claim about which phrase listeners find interesting adds the listener and musical-use question through E.10.INT.
 

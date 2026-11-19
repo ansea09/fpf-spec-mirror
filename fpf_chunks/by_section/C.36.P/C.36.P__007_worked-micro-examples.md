@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 95697
-line_end: 95731
+line_start: 95718
+line_end: 95752
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,23 +60,23 @@ keywords:
 
 #### C.36.P:5.1 - "The Platform Changed The Style"
 
-Short ordinary statement: `Here “platform” refers to the short-video recommendation System and to the visibility, recognition, and selection relations around it. The claim is that changes in those relations altered which dance variants were copied and retained.`
+The editor finds two records. The recommender changed the relative visibility of two dance variants, and the later published clips show a different mix. Those records can support the visibility and publication claims over the clips covered. “The platform changed the style” could also mean that dancers copied a different movement because of the recommendations, or that classes retained the change. Either is a further claim. To establish copying from this source, trace the relevant exposure and the dancers' use of the movement. For causal influence or continued class use, examine the corresponding comparison or later work.
 
-That short statement may be enough. If the result must be handed on or reused, retain it as:
+An editorial note for someone deciding how to present the evidence can read as follows.
 
 ```text
 CulturalEvolutionWordingRecoveryLine:
   triggerSpan: "platform changed the style"
   wordingUse: “platform” names the recommender and its visibility infrastructure
-  claimScope: this circulation and teaching-cycle comparison
-  recoveredObjects: short-video recommendation System; dance-variant set
-  recoveredRelations: recommendation mediation; visibility; recognition; selection
-  recoveredClaim: these relations changed which variants were copied and retained
-  applicablePatternRefs: A.1, C.36
-  retainedSourceLabelUse: keep "platform" as the source label for the recommender and visibility infrastructure
-  admissibleUse: discuss how visibility and recognition changed retained dance variants
-  blockedUse: treat platform as a root cultural kind or style as one global kind
-  nextUseOrStop: use C.36 for the case; use C.18 or G.11 only if archive or refresh is next
+  claimScope: relative visibility and the mix of variants in the covered periods and published clips
+  recoveredObjects: short-video recommendation System; dance variants; published clips
+  recoveredRelations: change in the recorded relative visibility of the two variants in the recommender; change in the share of each variant among the covered clips
+  recoveredClaim: visibility changed and a different mix appeared in the covered published clips
+  applicablePatternRefs: C.36 for transmission or retention; C.28 for a causal comparison
+  retainedSourceLabelUse: "platform" denotes the recommender in the visibility claim
+  admissibleUse: report the observed change in the clips and identify the question about dancers' choices
+  blockedUse: attributing a change in copying or in the classes’ repertoire to the recommender on these records alone
+  nextUseOrStop: publish the supported account now, or obtain evidence about the dancers if the intended claim depends on it
 ```
 
 #### C.36.P:5.2 - "This Tradition Is An Attractor"

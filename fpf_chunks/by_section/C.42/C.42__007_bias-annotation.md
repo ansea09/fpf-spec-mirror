@@ -6,12 +6,12 @@ section_id: "C.42:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__007_bias-annotation.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:6 — Bias-Annotation"
-line_start: 94966
-line_end: 94971
+line_start: 94986
+line_end: 94991
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

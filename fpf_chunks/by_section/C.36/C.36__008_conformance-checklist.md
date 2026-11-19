@@ -6,12 +6,12 @@ section_id: "C.36:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_conformance-checklist.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:7 — Conformance Checklist"
-line_start: 85880
-line_end: 85895
+line_start: 85900
+line_end: 85915
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,7 +68,7 @@ keywords:
 | **CC-C36-3 — Recovered objects** | Familiar words such as *culture*, *style*, *tradition*, *practice*, *platform*, *regime*, and *technique* do not stand in for several unseparated FPF objects or relations. |
 | **CC-C36-4 — Project choice** | A project decision or authorization is recorded through the pattern for that claim and is not offered as evidence of transmission, recognition, selection, retention, loss, intervention performance, or effect. |
 | **CC-C36-5 — Proposal, Work, and effect** | A proposed intervention, planned Work, performed Work, actual transformation, Work-to-change relation, and measured effect remain separate. Every asserted Work occurrence has A.13-qualified performers and independent A.15.1 admission. Assignment and F.6 refs appear only when the card or receiving use expressly represents precise assignment-bound attribution. |
-| **CC-C36-6 — Population observation** | Observed spread, popularity, persistence, or loss identifies its population, period, relation, observation basis and any measurement being relied on; it neither authorizes the project nor proves the intervention caused the observation. |
+| **CC-C36-6 — Population observation** | The account specifies the change claimed, the unit and period of observation, and how each counted case meets the criterion. For a group conclusion, the coverage or justified inference from the observations supports the decision. Claims about a particular transmission or an intervention effect identify their own grounds. |
 | **CC-C36-7 — Mediation** | A platform, recommender, archive, publication, or provider is named by its kind and relation. Mediation does not become selection, value, authority, or cultural control by label. |
 | **CC-C36-8 — Separate effect test** | The intervention's expected effect, observed value, measurement relation, and effect claim are recoverable separately; observing a value alone does not prove the effect. |
 | **CC-C36-9 — Neighbor boundary** | Use the patterns for archive/front, pool, selected-set, local-choice, publication, architecture, currentness, transformation, Work, and mathematical-model claims when those claims are at issue. |

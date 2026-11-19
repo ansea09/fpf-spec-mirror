@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 85501
-line_end: 85580
+line_start: 85511
+line_end: 85590
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,7 +82,7 @@ The practitioner gets one small statement of the cultural relations now supporte
 
 #### C.36:1.3 - First useful move
 
-Start with one ordinary sentence. For example: `In this dance school, teachers transmit variants through teaching, the festival archive retains and presents records of variants, jury recognition and peer copying select variants, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action. A qualified current account or a decision to continue the existing arrangement may finish without a new intervention.
+State what someone needs to decide about the practice. A school choosing whether to keep an archive for its next class can use evidence that a teacher and learners retrieved a variant and performed it under the conditions that class will have. To credit a teacher with transmitting a specific change, establish what the learners received from that teacher and what they subsequently used. To estimate how widely the change spread, identify the eligible classes and how their use was observed. Use the smallest of these inquiries that answers the decision.
 
 When a card helps retain or share the result, use:
 

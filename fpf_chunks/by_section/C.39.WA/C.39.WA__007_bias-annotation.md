@@ -6,12 +6,12 @@ section_id: "C.39.WA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__007_bias-annotation.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:6 — Bias-Annotation"
-line_start: 87800
-line_end: 87805
+line_start: 87820
+line_end: 87825
 dependencies:
   - "C.20"
   - "C.39.QR"

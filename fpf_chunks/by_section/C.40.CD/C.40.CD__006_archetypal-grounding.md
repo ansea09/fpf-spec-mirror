@@ -6,12 +6,12 @@ section_id: "C.40.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:5 — Archetypal Grounding"
-line_start: 90373
-line_end: 90423
+line_start: 90393
+line_end: 90443
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

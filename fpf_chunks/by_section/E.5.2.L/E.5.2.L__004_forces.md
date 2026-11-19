@@ -6,12 +6,12 @@ section_id: "E.5.2.L:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2.L/E.5.2.L__004_forces.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "E.5.2.L — Languages, Expressions and Interpretation"
   - "E.5.2.L:3 — Forces"
-line_start: 102229
-line_end: 102232
+line_start: 102250
+line_end: 102253
 dependencies:
   - "A.6.3.RT"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "C.41.TF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__002_problem-frame.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:1 — Problem frame"
-line_start: 93890
-line_end: 93897
+line_start: 93910
+line_end: 93917
 dependencies:
   - "C.37"
   - "C.41"

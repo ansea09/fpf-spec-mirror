@@ -6,12 +6,12 @@ section_id: "C.40.OP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__011_rationale.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:10 — Rationale"
-line_start: 92661
-line_end: 92666
+line_start: 92681
+line_end: 92686
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

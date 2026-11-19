@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:7 — Conformance checklist"
-line_start: 85413
-line_end: 85424
+line_start: 85422
+line_end: 85433
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -59,5 +59,5 @@ keywords:
 | `CC-C35-4` | A positive structure reference passes all four A.22 discriminators. An unestablished claim about existing organization remains unresolved; a refuted claim stays refuted; a proposal stays modal. C.32 may use a qualified provisional result without treating an unestablished or proposed organization as obtaining architecture. |
 | `CC-C35-5` | Bearer or realization detail appears only when the intended use relies on feasibility or realization; any such question uses the rule that defines or tests it. |
 | `CC-C35-6` | Use the pattern for each archive, front, pool, publication, eval, measurement, mathematical-lens, decision, evidence, assurance, gate, release, Method, or Work claim; an absent claim creates no C.35 field-filling duty. |
-| `CC-C35-7` | The first result states the supported next use and any condition, limit or return that changes reliance. A next-claim or rule reference is added only when the receiving action relies on reidentifying it independently. |
+| `CC-C35-7` | The first result states what it warrants for the receiving decision. Feasibility has a qualified witness or other sufficient grounds. Claims of impossibility, optimality or uniqueness identify the alternatives covered or excluded and the grounds for that conclusion. |
 

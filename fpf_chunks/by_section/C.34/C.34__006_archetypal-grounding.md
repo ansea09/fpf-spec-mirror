@@ -6,12 +6,12 @@ section_id: "C.34:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:5 — Archetypal Grounding"
-line_start: 85076
-line_end: 85105
+line_start: 85083
+line_end: 85112
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -48,9 +48,9 @@ keywords:
 
 C.34 is the pattern for a declared architecture preservation claim. It is used when a practitioner says that one description, view, model, generated output, or realized observation is same enough as another for a specific architecture use. The account identifies a sufficient warranted mapping, preserved structure, direction, scope and supported use, together with any material loss or uncertainty and the rule needed by further reliance.
 
-View and description case. Two architecture diagrams are edge-isomorphic. In one diagram an edge means data dependency; in the other it means control authority. C.34 records mapping mode `nearSameness`, preserved node partition, lost relation-type semantics, and non-admissible use "control separation decision."
+**What a pair of diagrams preserves.** Two diagrams show all three stations A, B and C, with links A–B and B–C. In one, a link records data dependency. In the other, it records control authority. For the question “which stations are joined by some path when link direction and meaning are ignored?”, both give the same answer. Matching all the stations and links preserves connected components under that definition.
 
-Recover the relation semantics through `C.30.ASV`, `C.30.TFS-REL` or `C.30.LCA` before relying on the mapping for control separation. Its supported node-partition use remains available.
+A planner now needs the crew responsible for each station. One crew could have A and B and another C, or one crew could have all three, with exactly the links shown. Connectivity leaves both crew assignments possible. The current allocation record can identify the responsible crew, as can a rule assigning stations by connected component together with the current assignment of each component to a crew. To dispatch a crew, use the duty rule for this shift. If it sends the responsible crew, the assignment settles whom to send. If it provides cover for an unavailable crew, also check who is on duty. If the decision concerns who may authorize a control action, inspect the control relation with its direction and meaning intact. Use `C.30.ASV` or `C.30.LCA` when that relation needs recovery.
 
 Source model and generated graph case. A code-agent dependency graph matches module names in the model used as the source, but marks several edges inferred and several regions unexplored. C.34 records the observation class and directionality, the supported dependency correspondence, and the dynamic wiring whose preservation is still unestablished.
 

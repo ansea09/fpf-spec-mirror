@@ -6,12 +6,12 @@ section_id: "E.23.CAE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:5 — Archetypal Grounding"
-line_start: 123613
-line_end: 123644
+line_start: 123634
+line_end: 123665
 dependencies:
   - "A.15.7"
   - "A.15.8"

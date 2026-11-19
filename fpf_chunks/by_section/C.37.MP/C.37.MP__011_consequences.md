@@ -6,12 +6,12 @@ section_id: "C.37.MP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__011_consequences.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:9 — Consequences"
-line_start: 86464
-line_end: 86469
+line_start: 86484
+line_end: 86489
 dependencies:
   - "A.10"
   - "A.3.1"

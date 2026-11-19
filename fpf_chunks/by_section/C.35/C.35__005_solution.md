@@ -6,12 +6,12 @@ section_id: "C.35:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__005_solution.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:4 — Solution"
-line_start: 85329
-line_end: 85367
+line_start: 85336
+line_end: 85376
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -51,7 +51,9 @@ keywords:
 
 ### C.35:4 - Solution
 
-Start with the result, the organization it concerns and its supported next use. State any unresolved condition or material limitation and how it can be resolved. A sentence or an existing account can suffice.
+Ask what decision the result can settle. One candidate checked against every applicable constraint can establish feasibility within the model. It may complete a commission to find any suitable design. A claim that no design qualifies requires grounds that cover every admissible alternative, such as an exhaustive search or a proof of incompatible constraints. A search that stops without a candidate can still tell the next designer which alternatives were examined. When one design uses less energy and another takes less time, both can be nondominated. To call a design nondominated, exclude alternatives that do at least as well on every stated criterion and better on one. State the set over which this was established. A claim that a design is best needs a ranking or trade-off rule for the commission and grounds that the design ranks at least as high as every admissible alternative. A verified bound may settle that comparison. If the leading alternatives remain incomparable under that rule, report the choice that still calls for a preference. A unique optimum also excludes ties for the best value. A unique feasible design excludes every other feasible design regardless of preference.
+
+Judge the result and its production separately. A verified design can serve the commission whoever suggested it. To credit an agent with designing the organization, identify the decisions left open by the input, the method or generator, and the evidence that the agent made them. A fixed input that already specifies the organization can support an assessment of how the agent checked it. Claims about the installed organization depend on evidence about the installation. State any material limit or next check in the existing account when possible.
 
 Use the smallest sufficient path:
 

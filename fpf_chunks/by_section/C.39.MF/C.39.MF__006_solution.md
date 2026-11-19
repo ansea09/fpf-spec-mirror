@@ -6,12 +6,12 @@ section_id: "C.39.MF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__006_solution.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:4 — Solution"
-line_start: 88139
-line_end: 88171
+line_start: 88159
+line_end: 88191
 dependencies:
   - "A.15.6"
   - "A.3.1"

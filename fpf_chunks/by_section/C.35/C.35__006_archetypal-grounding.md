@@ -6,12 +6,12 @@ section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:5 — Archetypal Grounding"
-line_start: 85368
-line_end: 85401
+line_start: 85377
+line_end: 85410
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -53,25 +53,25 @@ keywords:
 
 C.35 is the pattern for admitting or rejecting a generated or discovered result before another architecture claim relies on it. The result may come from search, clustering, query, learning, transformation, simulation, or discovery. C.35 does not search, select, decide, or realize architecture. It asks what the result is, which organization it concerns, whether the claim about that organization is established, refuted or unestablished, or instead presents a proposal, what use it supports, and which conditions or limitations affect further reliance.
 
-**Generated claim and diagram not yet architecture.** An LLM returns proposal claim `MedicalDeviceProposal-7` and diagram `MedicalDeviceDiagram-7`. The ordinary C.35 result is:
+**What a generated proposal establishes.** An LLM returns proposal `MedicalDeviceProposal-7` and diagram `MedicalDeviceDiagram-7`. An architect considering it for the candidate set records the following.
 
 ```text
 Result: MedicalDeviceProposal-7.
-Organization: a proposed device organization; its constituents and relations do not yet obtain.
-Next-use condition: C.32 may use it after the missing safety constraint and bearer question are explicit.
-Limit and return: do not read the proposal or diagram as A.22 structure or decision; return to the claim when either gap changes.
+Organization: proposed arrangement of device components. The proposal leaves open which parts of that arrangement are already installed.
+Next use: C.32 may examine the proposed arrangement as an alternative now. Its feasibility remains open.
+Limit and return: before relying on feasibility, establish the applicable constraints and that components capable of meeting them can be provided under the intended conditions. To establish what is installed, use the device's applicable as-built evidence.
 ```
 
 This is enough for the immediate candidate-use boundary. Add the generative-proposal branch only if the receiver relies on its constraints, omissions, or validation needs.
 
 Treat `MedicalDeviceDiagram-7` as a separate representation when graphical correspondence matters, using C.30.AD or C.30.ASV for its architecture description or view and C.29 when a mathematical-representation choice, transfer, or reliance question remains. A source or preservation account requires a declared baseline.
 
-**DSM and MDM clustering.** A DSM modularization returns a clustering result based on co-change and interface hints. This is the discovery branch: C.35 identifies the claim-bearing cluster result and its extraction basis and records which dependencies are observed, which modular interpretation is inferred, what remains unknown, which matrix region was covered or unexplored, the uncertainty, and the validation needed before use. The inferred modular organization remains an unestablished claim about the existing organization until the needed constituents, obtaining relations, applied constraints and use frame are supported. A proposed reorganization remains a distinct modal claim.
+**DSM and MDM clustering.** A team groups the rows of a dependency matrix using co-change observations and interface data. Check whether the reported groups satisfy the grouping rule on that matrix. If the rule allows several groupings, the saved output identifies the one returned by this run. Reproduction also suffices when the procedure and its inputs determine the same choice, including any tie-breaking or random choices that mattered. To infer that the corresponding components perform one function, the team must relate the observed dependencies to that function and check what the matrix omits. A different decision is to reorganize the components into those groups. That proposal needs a reason the new allocation would serve the design. Use the discovery or proposal branch for the claim actually made.
 
 Retain the matrix's mapping to the represented dependencies and the validity conditions of its operations; use C.29 when choosing, transferring, or relying on that representation remains unresolved. A comparison with an earlier modularization may add a declared baseline and preservation account, but clustering alone does not require one.
 
 
-**NAS result.** A multi-objective NAS run returns a modal architecture claim about a proposed neural organization together with a graph representation and Pareto result. This is the generative-proposal branch: C.35 keeps those identities separate and records the search constraints, proposed organization content, known deployment and evidence omissions, bearer boundary, and validation and eval needs.
+**NAS result.** A multi-objective neural architecture search returns a proposed neural organization and its graph. No evaluated alternative matched or improved on the proposal on every criterion and improved on it on at least one. Report that comparison over the evaluated set. To report the same conclusion over the full search space, establish coverage or a bound that excludes a dominating alternative. Keep the search constraints, hardware conditions and validation needed for deployment with the proposal.
 
 The graph represents the proposal; C.29 applies when a separate mathematical-representation choice, transfer, or reliance question remains. The graph does not prove that the proposed relation occurrences obtain. C.35 does not invent a preserved-dataflow claim unless the run explicitly transforms or compares against a declared baseline.
 

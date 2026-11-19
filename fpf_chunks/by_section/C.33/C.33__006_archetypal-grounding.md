@@ -6,12 +6,12 @@ section_id: "C.33:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:5 — Archetypal Grounding"
-line_start: 84877
-line_end: 84898
+line_start: 84879
+line_end: 84900
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -54,9 +54,9 @@ keywords:
 
 C.33 assesses what selected structure a partial carrier captures, what it leaves out, and which practical use it supports. The carrier may be a diagram, decision record, query result, eval report, code-agent map, neural-network architecture review, method handoff, or observation of the realized holon. Apply the rule or test needed by a further claim. Add C.2.1 identity only if that claim must travel independently.
 
-System case. An ADR-like record says "use event-carried integration with bounded exception." C.33 records that the carrier captures the selected integration style, exception boundary, and method expectation. It does not capture lower-level placement constraints, schema evolution burden, runtime data custody, or deployment topology. The admissible use is decision memory and method handoff; the non-admissible use is proof that the realized modules have the intended architecture.
+**An integration decision.** An approved decision record says “use event-carried integration with bounded exceptions.” A team can cite the adopted integration style. To decide whether a particular interface qualifies for an exception, the team needs the condition defining the exceptions. If the record gives that condition, the team can apply it to the interface. If the record only says “bounded,” check whether an applicable contract or policy already decides the case. If admitting and refusing the interface are both consistent with the available rules, ask the decision owner to resolve the exception before relying on it.
 
-Obtain the missing structure through the affected account: C.30.AD for the description, C.32.ADR for its decision record, C.32.PAD when the decision itself needs reconsideration, or C.32 synthesis when a structural change is needed.
+To answer which interfaces actually use event-carried integration, inspect evidence about the installed interfaces. A verified as-built inventory attached to the same record can already supply it. Use C.30.AD for the architecture description or C.32.ADR for the decision record. Reopen the decision under C.32.PAD if the rule itself needs to change.
 
 Episteme case. A code-agent relation graph finds imports, call edges, inferred module roles, and candidate invariants. C.33 records relation observation class `observed | inferred | unknownRegionPresent`, typed relation semantics, confidence class, active-passive gap when present, unexplored regions, and lost runtime or deployment structure.
 
@@ -68,7 +68,7 @@ C.33 separately names affected characteristics such as latency, compute, memory,
 
 Architecture narrative case. A team narrative says "we moved from candidate A to candidate B because data custody forced placement P and made latency trade-off T acceptable." C.33 records the structural content and decision context the narrative captures: the move from candidate A to candidate B, data-custody constraint, placement constraint, and trade-off.
 
-C.33 separately states the missing-structure return condition. It also records lost or hidden structure such as rejected candidate details, quantitative evals, module interfaces, and realization evidence. The narrative can help decision memory or team orientation; it is not by itself an architecture description, decision authority, or evidence of realized structure.
+The statement gives the team's reason for changing candidates. To use B under a tighter latency limit, establish that its latency meets the new limit under the intended load. An existing validated bound can settle that question. If both A and B remain eligible and the commission calls for choosing between them, compare them under the criteria that decide this choice. To establish which placement was installed, check applicable as-built evidence. Use the evidence already in the account when it settles the question.
 
 The account is sufficient when it establishes what the carrier supports for the intended use. A further claim may need an architecture description, view, evaluation, evidence, decision or authorization under its own rule; C.33 identifies the missing structural contribution and returns that question to the applicable pattern.
 

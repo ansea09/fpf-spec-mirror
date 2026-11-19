@@ -6,12 +6,12 @@ section_id: "C.37.MM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__004_forces.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:3 — Forces"
-line_start: 86755
-line_end: 86758
+line_start: 86775
+line_end: 86778
 dependencies:
   - "B.5.MR"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__004_forces.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:3 — Forces"
-line_start: 99850
-line_end: 99860
+line_start: 99871
+line_end: 99881
 dependencies:
   - "A.1.1"
   - "A.13"

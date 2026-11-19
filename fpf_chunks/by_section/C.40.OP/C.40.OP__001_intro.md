@@ -6,12 +6,12 @@ section_id: "C.40.OP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__001_intro.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:intro — Intro"
-line_start: 92480
-line_end: 92487
+line_start: 92500
+line_end: 92507
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

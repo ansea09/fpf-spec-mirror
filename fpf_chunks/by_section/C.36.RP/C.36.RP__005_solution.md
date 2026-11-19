@@ -6,12 +6,12 @@ section_id: "C.36.RP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__005_solution.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:4 — Solution"
-line_start: 95788
-line_end: 95858
+line_start: 95809
+line_end: 95879
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -88,7 +88,7 @@ Perform the receiving work when implementation is part of the assignment. Have t
 
 Compare the result with the question that led to this work. If the result is usable, continue the activity it enables. If it fails, locate the missing operation, interpretation, access or capability and repair that part. Reuse contributions whose conditions hold.
 
-A proposal can finish by explaining the selected arrangement and what remains to be carried out. Report an achieved transfer from the receiving use that occurred. For a claim that the method persisted across participants or over time, C.36 supplies the corresponding cultural-relation question and the observations that support it.
+State what the handoff was to deliver. Receipt of the agreed procedure and working access can complete a handoff of access before the recipient's first shift. To establish transmission through use, identify what the recipient obtained through the arrangement and where they used it. If a specialist supplied a calculation and the receiver interpreted it correctly, the result can establish that they completed that assignment together. To rely on the receiver to reconstruct the calculation after the specialist leaves, examine their work under that changed condition. Use C.36 for claims about spread or persistence across a population.
 
 #### C.36.RP:4.6 - Keep the means of renewal available
 

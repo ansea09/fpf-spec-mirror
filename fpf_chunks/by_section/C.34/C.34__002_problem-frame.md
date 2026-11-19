@@ -6,12 +6,12 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:1 — Problem frame"
-line_start: 84978
-line_end: 85030
+line_start: 84981
+line_end: 85033
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -93,7 +93,7 @@ After using C.34, another practitioner can recover the claimed correspondence, p
 
 What C.34 buys in practice: the practitioner can say "same enough for this use" without implying stronger equivalence. The pattern makes sameness conditional on preserved relation, declared loss, and receiving use.
 
-Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name any relation that does not survive, and choose a warranted mapping that supports the next use without seeking a stronger result unless needed.
+Name the conclusion you want to carry from one model to the other. Identify what makes it true in the first. Look for that relation, or a rule from which it follows, in the second.
 
 For a current claim limited to mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization, use the pattern that defines or tests it. Use C.34 only for the architecture-specific preservation claim.
 

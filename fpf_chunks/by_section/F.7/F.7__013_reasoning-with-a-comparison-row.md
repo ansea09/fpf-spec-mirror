@@ -6,12 +6,12 @@ section_id: "F.7:12"
 section_title: "Reasoning with a comparison row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__013_reasoning-with-a-comparison-row.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:12 — Reasoning with a comparison row"
-line_start: 128844
-line_end: 128854
+line_start: 128865
+line_end: 128875
 dependencies:
   - "A.6.9"
   - "B.3"

@@ -6,7 +6,7 @@ section_id: "A.16.0:14"
 section_title: "Filled history: a restart incident loses its scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__015_filled-history-a-restart-incident-loses-its-scope.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:14 — Filled history: a restart incident loses its scope"

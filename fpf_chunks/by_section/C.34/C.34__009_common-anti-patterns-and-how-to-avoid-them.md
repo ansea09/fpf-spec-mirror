@@ -6,12 +6,12 @@ section_id: "C.34:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 85127
-line_end: 85138
+line_start: 85134
+line_end: 85145
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -48,7 +48,7 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair move |
 | --- | --- | --- |
-| Edge-isomorphism overread | Isomorphic graphs can preserve shape while changing edge meaning, relation observation class, or use. | Record relation-type semantics, preserved relation, lost relation, and non-admissible use. |
+| Edge-isomorphism overread | The same pattern of links can coexist with different responsibilities or directions of control. | Derive properties defined by the preserved links. For a claim about an assigned relation, match the assignments or establish the rule and facts that determine them. |
 | Semantic-loss hiding | A projection or coarsening can look clean because it drops the structure that the next decision needs. | Name lost structure and preservation-loss return condition before comparison, decision repair, or candidate admission. |
 | Exact-equivalence overclaim | Exact equivalence is stronger than most architecture uses need and is often false. | Use a warranted correspondence, projection, abstraction, coarsening, simulation relation or near-sameness when sufficient. Exact equivalence may be retained when independently justified. |
 | Generated graph proof overclaim | A generated graph can match labels or topology while hiding dynamic wiring, confidence, or unexplored regions. | Use C.34 only for the preservation claim; handle generated-carrier admission under `C.35`, and apply the rules that define evidence, assurance, gate, or release claims when those claims are current. |

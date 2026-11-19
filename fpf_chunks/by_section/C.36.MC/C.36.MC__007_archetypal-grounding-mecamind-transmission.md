@@ -6,12 +6,12 @@ section_id: "C.36.MC:5"
 section_title: "Archetypal Grounding - MeCaMinD Transmission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__007_archetypal-grounding-mecamind-transmission.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:5 — Archetypal Grounding - MeCaMinD Transmission"
-line_start: 96139
-line_end: 96202
+line_start: 96160
+line_end: 96223
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.36.MC:5 - Archetypal Grounding - MeCaMinD Transmission
 
-The MeCaMinD record enters through the candidate/observed-practice branch. The source describes movement-design practices and later facilitation Work but does not establish A.3.1 Method admission or an A.15.1 enactment occurrence for a candidate whole. The receiving action is to turn a design challenge into a usable session, not merely to retrieve a card. The transmitting participants are the core team and teachers; the receiving participants are five novice facilitators; the interval covers card development through the August 2023 school.
+The MeCaMinD record enters through the candidate/observed-practice branch. The source describes movement-design practices and later facilitation Work but does not establish A.3.1 Method admission or an A.15.1 enactment occurrence for a candidate whole. The receiving action is to turn a design challenge into a usable session, not merely to retrieve a card. The investigation concerns what five novice facilitators obtained from the core team's materials or the teachers and used in their sessions, from card development through the August 2023 school.
 
 The source's 4 M framework connects the intended movement concept, the participants' required mood, the selected activities and possible modifications. These contributions serve different functions: an activity that warms up a group does not by that fact produce the wanted design insight. Cards provide instructions and selection information; the Game Board helps arrange a coherent session and retain alternatives. Teachers helped newcomers overcome literal adherence to instructions and consider combining activities. Thus the receiving problem includes obtaining the decision about adaptation, not only making the text legible.
 
@@ -34,11 +34,11 @@ One reported session addressed reluctance to suggest or accept walking meetings.
 
 A facilitator therefore needs a connected account: which intended result guides selection, how the activities prepare for or contribute to that result, what may be changed, and how the plan remains available during performance. Rich information can help preparation while a concise reminder is more useful during action. A.3.2.DE develops the missing account; C.37.MP relates its preparation and performance uses; A.15.8.MS obtains the corresponding support. The applicable capability-development Method supplies learning and feedback when the recipient cannot yet make the required decision. Their joint contribution is not replaced by listing those providers or by declaring the final plan correct.
 
-For the bounded cultural claim, the value is the recoverable way of using the selected practices to prepare and run a session. Local compound predicate `MEC-TransmissionPredicate-1` is positive for one novice only when, under the named observed conditions, their later admitted facilitation Work contains a recoverable session plan and performed session using the candidate practice. Carrier access followed by an unusable plan or inability to perform the session is the discriminating negative. A.6.RCD stops at that local claim; no new relation kind or occurrence identity is admitted. Keep this claim separate from its evidence and the particular facilitation Work. The reported project-designers' position supports a historical account of changes to project materials, not an assignment, permission or authority predicate for a future intervention and not authority over novice choices. Preserve card content and layout, the set, the board, self-study, teaching, tutoring, background and local decisions as their different subjects. Their co-occurrence does not show which contribution was necessary.
+For this case, `MEC-TransmissionPredicate-1` concerns a way of preparing or conducting a session that a facilitator obtained from a particular source and used. Identify the source and the receiving action. The authors document how one facilitator selected a warm-up from the cards and used a second group game suggested by a teacher. The session plan and the account of that suggestion connect the teacher to this particular choice. The teacher could pass on a game developed elsewhere. A plan and a successful session on their own establish performance under the observed conditions. If the facilitator already knew the procedure, these observations alone leave transmission from the named teacher open. A.6.RCD keeps the claim local to the identified source, recipient, practice and interval. The project designers' account of revising their materials establishes their role in that past work. Any decision about changing a future course requires the corresponding authority. [Study of the novice facilitators, Table 1 and discussion of warm-up activities](https://academic.oup.com/iwc/article/38/2/214/8099905)
 
 Two explanations can matter to a later choice. H-MEC-1 says the revised cards and board support a usable plan after self-study, before tutoring. H-MEC-2 says teaching, tutoring, background or local tailoring supplies indispensable support. Reported later facilitation is a bounded positive observation; overload and reliance on the board expose conditions a simpler account must address. The available observations do not isolate the explanations.
 
-Return `branch`: retain the five-novice claim for the combined observed conditions and keep card-only transmission `unknown`. That account can finish without another experiment. If a receiving use requires less tutoring, first name the planning or adaptation action the recipient must now perform without it. Compare the useful attainable answer and whole burden of an equivalent task before and after tutoring, including preparation, background and local tailoring. Do not prescribe the study merely because the hypotheses differ.
+Return `branch`. All five facilitators prepared and ran sessions with the support available at the school. That result supports retaining the arrangement for a comparable course. Credit particular materials or teachers with the choices that the study traces to them. How the same facilitators would have planned using the cards alone remains open. If a later course needs less tutoring, name the planning or adaptation the facilitator must undertake with the reduced support and examine that work under the changed conditions. Seek a comparison that accounts for prior practice and differences between tasks if the decision turns on the effect of tutoring.
 
 A useful new adaptation need not contradict the earlier description. When a receiving repertoire or future support use warrants keeping it, recover the changed operation and conditions, then use A.3.1.MV for a proposed reusable difference or A.3.2.DE, C.37.MP, A.15.8.MS for an explanation, representation or support contribution. A future card intervention stops at `missing-change-authorization` until the needed authorization is recovered. Neither this account nor a proposed inquiry establishes Method admission, independent capability, long-term retention, wider recognition or selection, adoption beyond the five facilitators, or causality; causal reliance opens C.28.
 

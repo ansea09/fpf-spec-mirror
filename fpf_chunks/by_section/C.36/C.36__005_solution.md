@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 85608
-line_end: 85772
+line_start: 85618
+line_end: 85790
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,7 +69,15 @@ These are separate facts. For every claimed Work occurrence, recover each perfor
 
 Cultural-evolution engineering proposes or performs a deliberate change to one or more of these relations. Proposal, performed Work, actual transformation, measured effect, responsibility, authority, selected structure, and publication are different claims. Assert each as obtaining only when its own predicate is satisfied.
 
-Keep a project choice separate from what happens across a practice or population. A project may choose or authorize an intervention, but that does not show that variants were transmitted, recognized, selected, retained, or lost. Conversely, observed spread or persistence does not authorize the project action or show that it succeeded. When both questions matter, record the project choice and performed intervention through their own patterns, then record the cultural relations and their observed change here.
+Ask what would count as the change for the decision at hand. A decision to adopt a method may already be enough to schedule its introduction. A first execution can settle whether someone used it on that occasion. To entrust another group with the work, establish what the recipients can do with the tools, instruction and help they will actually have. If the practice includes an adviser or a shared tool, successful use with that support can meet the commission. A claim about performing without that help calls for evidence under the changed condition.
+
+To trace transmission, identify the operation or choice that a recipient retains, the source they obtained it from, and its use in their own work. Decide what may vary across performances while preserving that operation. To establish transmission from a particular source, identify something that links the receiving work to that source. One well-documented handoff can suffice. Similar performances can also come from separate invention or a common third source. A work record can identify an immediate teacher, peer or publication while leaving the first inventor unknown. Seek that earlier history when the claim depends on it. Evidence of use may already suffice to continue the practice.
+
+For a claim about a group, specify whom or what you are counting, over what period and what qualifies as use. Count plays as play events. To count people or teams reached, count distinct recipients. For a count of users, establish which recipients performed the relevant work. If estimating a proportion from a sample, explain how the sampled work represents the population and how much uncertainty matters to the decision. Date the work as well as the arrival of its evidence. A growing file of confirmations may document earlier uses. When a network expands, the number of users can rise while the proportion using the method stays the same. Give the counts and their populations. To establish a change among the original participants, follow those participants over comparable opportunities to use the method.
+
+For a target stated as a minimum, count the confirmed qualifying cases. Reaching the minimum settles that criterion. To decide whether it has been missed, include unreported cases that could have qualified during the period. For a deadline still ahead, include uses that could still take place. If even an upper bound falls short, the target is out of reach. Where several groups need the same remaining teacher or session, check which uses can take place together before promising the target can still be met. If the evidence settles neither outcome, report the confirmed count and what could change the decision.
+
+A causal claim about an intervention needs grounds that distinguish its effect from other changes that would produce the same observations. Use C.28 for that inference. A project with the authority and a sufficient practical reason can decide its own next action while a claim about the wider population remains open.
 
 When the question is how the practice may develop, retain credible hypotheses whose differences could change the continuation, forecast, or warranted use. State the uncertainty that matters; a fixed number of hypotheses is not a completion condition. Use `B.5` and `B.5.2` for a needed hypothesis account and its consequences. A bounded forecast or continuation may be complete on the available basis while a stronger explanation remains unresolved.
 
@@ -116,7 +124,7 @@ A stylistic similarity alone does not establish that an audience recognizes or l
 
 #### C.36:4.2 - Intervention Card
 
-Use an intervention card when a project must retain the identity of a proposed or performed intervention. First write the ordinary claim: what relation will change, by what proposed action, what effect is expected, how it will be measured, and what would stop or redirect the attempt. For example: `The festival proposes earlier jury feedback to improve adoption in the next teaching cycle. Observe adoption during that cycle; use A.15.2 for the plan and A.3.4 for any actual change. A claim that the feedback change caused adoption needs its own causal basis.`
+Use an intervention card when the project needs to identify a proposed or performed intervention later. State the action, the relation expected to change and what would warrant continuing, revising or stopping. A festival might offer earlier jury feedback so instructors can use it in the next syllabus revision. An approved syllabus revision establishes which change the editor adopted. A draft produced from the feedback establishes what the proposed text says. To report adoption, identify the editorial action or the rule that put the revision into effect. To establish that classes used the selected variants, examine the teaching and work of those classes. To attribute a difference in use to earlier feedback, examine what else changed and what grounds the comparison. Use A.15.2 for the plan and A.3.4 for a claimed actual change.
 
 Keep proposal and performance separate. The full card below is an assurance expansion, not a first-use form.
 

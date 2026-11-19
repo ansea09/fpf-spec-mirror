@@ -6,12 +6,12 @@ section_id: "C.33:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__008_conformance-checklist.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:7 — Conformance checklist"
-line_start: 84909
-line_end: 84919
+line_start: 84911
+line_end: 84921
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -56,7 +56,7 @@ keywords:
 | --- | --- |
 | `CC-C33-1` | The account identifies the described holon, architecture concern and intended use, selected structures, carrier or observation, grounds of the adequacy or insufficiency conclusion, and any material ClaimScope or qualification window. |
 | `CC-C33-2` | Captured selected structure is stated as relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization. |
-| `CC-C33-3` | Expected but uncaptured structure and lost or hidden structure are stated when the next use depends on them. |
+| `CC-C33-3` | The account identifies what an omission leaves open for the intended use. A conclusion drawn from the absence of an entry identifies why a matching entry would have been recorded and visible. |
 | `CC-C33-4` | Observer, access or budget conditions are stated when they limit recovery or the use of an agent-produced, learned, probed or source-derived carrier; a formal epiplexity-style estimate retains its model conditions. |
 | `CC-C33-5` | Each current mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, or publication claim uses the pattern that defines or tests it. |
 | `CC-C33-6` | The supported use and any material limits are clear. A required source return names the missing structure and the question, rule or test needed to obtain it. |

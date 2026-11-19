@@ -6,12 +6,12 @@ section_id: "C.40.NP:End"
 section_title: "C.40.NP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__014_c-40-np-end.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:End — C.40.NP:End"
-line_start: 93641
-line_end: 93642
+line_start: 93661
+line_end: 93662
 dependencies:
   - "C.18"
   - "C.19"

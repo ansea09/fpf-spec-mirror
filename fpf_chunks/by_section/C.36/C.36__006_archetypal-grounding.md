@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Archetypal Grounding"
-line_start: 85773
-line_end: 85867
+line_start: 85791
+line_end: 85887
 dependencies:
   - "A.1"
   - "A.10"
@@ -115,7 +115,9 @@ CulturalEvolutionCaseCard@Context:
   RefreshRefs: refresh when platform mediation, judging, canon, or teaching adoption changes
 ```
 
-The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set result declaration, or an intervention card that targets recognition, pedagogy, canon, or platform mediation. If publication is at issue, use `E.24.PUB` for its occurrence and audience availability, with `E.17` when it is a source-backed projection. The card alone does not prove that the targeted change occurred.
+Suppose the festival needs six of its eight partner classes to teach the variant before it commissions a shared rehearsal. The timetable lists all eight classes, the archive records 90 plays of the clip, and judges scored the festival performance highly. These records can support scheduling, a report on recorded plays and an account of jury recognition. To make the rehearsal decision, count distinct partner classes in which the variant was taught during the agreed period. If six class records document it, the festival can commission the rehearsal on that criterion. Two confirmations and six outstanding reports justify saying that at least two classes taught it. After the period closes, suppose three classes confirmed teaching and three established that they taught no session using the variant. Even if both remaining classes taught it, the total could reach only five. The target was missed. If the period is still open, check which classes have time to teach and which share an instructor or a session before committing the festival. To credit the clip with supplying a change, look for its use in teaching or rehearsal.
+
+The project's next move may concern the archive (`C.18`), the pool of variants (`C.19`), a declared selection (`G.5`), teaching, recognition or platform mediation. Use `E.24.PUB` for a publication occurrence or audience availability and `E.17` for a source-backed projection.
 
 If the case also claims a new level, new holon, model-use or scope reframe, feedback-down relation, whole reidentification, cross-scope frustration residual, or interlevel ethical conflict, keep the C.36 result and test the additional claim separately.
 
@@ -123,9 +125,9 @@ For example, use B.2 or B.2.P for MHT and whole reidentification; A.1 or the app
 
 #### C.36:5.3 - AI-Agent Framework Culture
 
-A team develops several AI-agent framework variants and notices that evaluation dashboards change which agent patterns the community copies. The cultural-evolution case includes agent-framework method families, work products, benchmark or dashboard publications, recognition and selection regimes, mediating systems, memory epistemes, and refresh. The case keeps those values visible before the project decides whether to change the benchmark, generate new variants, declare a selected-set result, publish it, or revise the method family.
+A team sees the same agent patterns rising in its benchmark rankings and appearing in more community projects. The team can report the observed co-occurrence within the rankings and projects actually examined. The rankings could have influenced the projects. A change in the work teams undertake, a common template, or a change in which projects become visible could also produce this record.
 
-If the team chooses a new benchmark, that is a project choice, not evidence that the wider practice selected it. Record the choice with `C.11` and any planned or performed change through the Work and change patterns. Use C.36 separately for later evidence that agent patterns were generated, copied, recognized, selected, retained, or lost across the practice. Widespread persistence does not retroactively authorize the project choice.
+Suppose the benchmark rewards passing fixed examples and the team's own commission requires agents to adapt to changed inputs. The team can change its evaluation to test that commission directly. To claim that the changed dashboard altered other teams' choices, establish which teams could see it, what choices they made, and what comparison or other causal evidence distinguishes dashboard influence from the alternatives. A repository history can already establish one team's use of a particular template. It can leave open why the template became more frequent across the community. Record the project decision with `C.11`, and examine transmission, selection or retention across the practice here when that wider conclusion matters.
 
 #### C.36:5.4 - Neighbor boundaries
 

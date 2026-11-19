@@ -6,12 +6,12 @@ section_id: "E.8:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__007_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:5 — Archetypal Grounding"
-line_start: 103496
-line_end: 103531
+line_start: 103517
+line_end: 103552
 dependencies:
   - "E.10"
   - "E.10.MOVE"

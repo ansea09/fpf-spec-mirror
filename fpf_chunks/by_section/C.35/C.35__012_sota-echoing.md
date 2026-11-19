@@ -6,12 +6,12 @@ section_id: "C.35:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__012_sota-echoing.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:11 — SoTA-Echoing"
-line_start: 85460
-line_end: 85472
+line_start: 85469
+line_end: 85482
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -53,7 +53,8 @@ keywords:
 
 | Source or practice line | Use of the contribution | Contribution to the assessment | Boundary of use |
 | --- | --- | --- | --- |
-| MBSE query and view generation | Adapt query results as discovery while separating the claim-bearing result, represented object, representation, and publication-side availability. | Identifies query or extraction basis, separate observed, inferred, and unknown content, covered and unexplored model region, uncertainty, validation, and `C.30.AD` / `C.30.ASV` exits. | Query or view output is not architecture, realized structure, or proof. Reopen when result identity, model edition, query rule, viewpoint, represented object, coverage, or relied-on availability changes. |
+| MBSE query and view generation | Identify the source, selection rule and coverage of the query. | A complete, validated query can settle a claim about the model. | Claims about the installed architecture depend on evidence connecting that model to the installation. Reopen when the model edition, represented object, query or coverage changes. |
+| [Google OR-Tools, CP-SAT solver statuses](https://developers.google.com/optimization/cp/cp_solver) | Read a feasible witness, a proof of infeasibility, an optimum or an inconclusive stop according to the stated result. | Helps decide whether a search has already fulfilled the commission or whether coverage or a bound is still needed. | Solver conclusions apply to the encoded constraints, objective and stopping conditions. |
 | Graph grammars and model transformations | Adapt rule-governed transformation as the transformation branch. | Identifies source and result objects, transformation trace, preserved structure, lost structure, and C.34 preservation exit. | Grammar or transformation output does not prove adequacy, feasibility, or realization. Reopen when transformation rules, source object, result object, trace, or constraints change. |
 | DSM, MDM, and modularization practice including Jiang and Luo, arXiv:2604.28018 | Adapt modularization and LLM-assisted DSM work as discovery. | Identifies extraction basis, observed dependencies, inferred clusters, unknown functional-bearer semantics, coverage, uncertainty, validation, and C.31 plus C.32 exits. | Cluster, partition, or MDM slice is not candidate architecture adequacy. Reopen when relation matrix, covered region, modularity objective, functional prior, validation, or solution pool changes. |
 | Multi-objective NAS and Sukthanker et al., arXiv:2402.18213 | Adapt multi-objective search as a generative-proposal source. | Identifies constraints, proposed neural organization, known omissions, validation needs, search criteria, bearer boundary, eval return, and C.32 admission condition. | A Pareto point or neural graph is not holonic architecture adequacy. Preservation is claimed only against a declared baseline. Reopen when search space, constraints, criteria, hardware target, proposal content, or eval trace changes. |

@@ -6,12 +6,12 @@ section_id: "E.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__001_intro.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:intro — Intro"
-line_start: 102471
-line_end: 102474
+line_start: 102492
+line_end: 102495
 dependencies:
   - "E.2"
 keywords:

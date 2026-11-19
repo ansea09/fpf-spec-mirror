@@ -6,12 +6,12 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:4 — Solution"
 line_start: 84854
-line_end: 84876
+line_end: 84878
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,7 +52,9 @@ keywords:
 
 ### C.33:4 - Solution
 
-Assess the captured structure for the declared architecture use. Explain what the carrier supports and obtain any missing structure needed for further reliance. Use the optional note when it makes that explanation easier to retain or share.
+Start with the decision the reader must make. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
+
+If two arrangements both fit the record, work out what each would allow the reader to do. Proceed if the same action is justified in both and in every other arrangement still possible. If the answer changes, look for the assignment, rule or observation that would settle it. It may already be in the record. Use the optional note when someone needs to retain or share the grounds for the decision.
 
 Work in this order:
 

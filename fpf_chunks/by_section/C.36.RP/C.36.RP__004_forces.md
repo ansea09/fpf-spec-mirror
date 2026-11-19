@@ -6,12 +6,12 @@ section_id: "C.36.RP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__004_forces.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:3 — Forces"
-line_start: 95778
-line_end: 95787
+line_start: 95799
+line_end: 95808
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

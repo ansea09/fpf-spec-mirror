@@ -6,12 +6,12 @@ section_id: "C.36.RP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__008_conformance-checklist.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:7 — Conformance Checklist"
-line_start: 95893
-line_end: 95902
+line_start: 95914
+line_end: 95923
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -33,7 +33,7 @@ keywords:
 - [ ] The found gap names an operation, interpretation, access or capability that can change that work.
 - [ ] The selected arrangement makes the required contributions obtainable by their receivers.
 - [ ] Acquisition, explanation or provision is suited to the participant and the required use.
-- [ ] A claimed performed transfer is supported by the receiving use that occurred; proposals retain what remains to be done.
+- [ ] Judge the handoff against the commission. Receipt of the agreed procedure and working access establish delivery when those are the promised results. A claim that the recipient used the transmitted method identifies the use and its connection to the source. A proposal states what still has to be put in place.
 - [ ] Retained material and help support the intended later use or variation.
 - [ ] Continuation, renewal or stopping follows the work's value and remaining difficulty.
 

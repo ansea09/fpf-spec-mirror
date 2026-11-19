@@ -6,7 +6,7 @@ section_id: "A.1.STM:End"
 section_title: "A.1.STM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__016_a-1-stm-end.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:End — A.1.STM:End"

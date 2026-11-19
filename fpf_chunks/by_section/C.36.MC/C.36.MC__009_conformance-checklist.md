@@ -6,12 +6,12 @@ section_id: "C.36.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__009_conformance-checklist.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:7 — Conformance Checklist"
-line_start: 96216
-line_end: 96234
+line_start: 96237
+line_end: 96255
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -36,7 +36,7 @@ keywords:
 - [ ] C.27 is used only for a temporal adequacy claim, A.3.3 only for a transition law, C.28 only for causal reliance, A.15.7 only during ongoing Work, and C.11 only after a chooser and OptionSet exist.
 - [ ] A claim of tested change or later retention uses the Work and interval observations it asserts, without automatically reidentifying one occurrence across intervals. Missing later evidence withholds only the dependent claim.
 - [ ] Practitioner or constructed-Method consequences, non-use, burden, adaptation, and rejection remain separate from the cultural predicate.
-- [ ] When transmission or adaptation is the receiving problem, the account connects the recipient's needed decision, preserved requirements, changed operation, explanation and actual support. A finished answer supplied by a teacher is not credited as the recipient's capability.
+- [ ] A transmission claim identifies what the recipient obtained from the claimed source and used. A capability or authorship claim identifies the decisions supplied and those the recipient made. The observed result can support continued joint work with the available help.
 - [ ] An unresolved explanation remains `unknown` where relevant without erasing an independently supported continuation, narrower claim, or stop.
 - [ ] Separate cases, populations, organizational Systems, histories, predicates, and effects are not joined.
 - [ ] A return names either the particular defeated claim or edition, or a useful new contribution and its receiving use. A.3.1.MV preserves candidate status for a proposed reusable semantic difference; explanation content, a one-action representation, a multi-use profile and support retain their respective A.3.2.DE, C.37, C.37.MP and A.15.8.MS results. Origin, changed content and evidence limits remain visible. Mere novelty or population spread establishes none of these needs.

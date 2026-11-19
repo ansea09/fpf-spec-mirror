@@ -6,12 +6,12 @@ section_id: "C.37.CF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__006_archetypal-grounding.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:5 — Archetypal Grounding"
-line_start: 86599
-line_end: 86682
+line_start: 86619
+line_end: 86702
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

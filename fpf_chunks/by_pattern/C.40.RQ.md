@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.RQ.md"
-commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
+commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
-line_start: 92692
-line_end: 92928
+line_start: 92712
+line_end: 92948
 dependencies:
   - "A.10"
   - "A.10.1"
