@@ -6,12 +6,12 @@ section_id: "E.5:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__010_relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:9 — Relations"
-line_start: 102033
-line_end: 102044
+line_start: 102116
+line_end: 102127
 dependencies:
   - "E.2"
   - "E.3"

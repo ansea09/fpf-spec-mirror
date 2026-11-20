@@ -6,12 +6,12 @@ section_id: "C.39.WA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:5 — Archetypal Grounding"
-line_start: 87779
-line_end: 87836
+line_start: 87822
+line_end: 87879
 dependencies:
   - "C.20"
   - "C.39.QR"

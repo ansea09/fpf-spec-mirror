@@ -6,12 +6,12 @@ section_id: "E.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__011_relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:10 — Relations"
-line_start: 98071
-line_end: 98076
+line_start: 98146
+line_end: 98151
 dependencies:
   - "E.1"
   - "E.2"
@@ -33,7 +33,7 @@ keywords:
 
 ### E.3:10 - Relations
 * **Depends on:** `E.1`, `E.2`
-* **Governs:** All subsequent patterns and DRRs; Guard‑Rail patterns reference CC‑PT.
+* **Governs:** Classification and precedence when an FPF pattern or DRR introduces, changes or compares principles. Guard‑Rail patterns reference CC‑PT. Section 6 also governs the oversight profile for agentic tool use.
 
 
 

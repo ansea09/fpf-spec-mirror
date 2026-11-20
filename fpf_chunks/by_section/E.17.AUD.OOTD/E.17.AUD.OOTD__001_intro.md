@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__001_intro.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:intro — Intro"
-line_start: 117120
-line_end: 117158
+line_start: 117235
+line_end: 117273
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 **Exact C.2.1 projection.** Only when the unit carries one identified claim-bearing episteme `E`, and its primary subject is the entity that the claims of `E` concern, may the author state `publicationUnitPrimarySubject = EntityOfConcern(E)`. Otherwise do not infer an `EntityOfConcernRef` from a topic label or interpretation alone, or use a primary-subject transition as evidence that the `C.2.1` participant changed.
 
-**Publication unit.** Here this means one bounded note, memo, sheet, review aid, screen, table, or short section that people are expected to read as one unit.
+**Publication unit.** A bounded note, memo, sheet, review aid, screen, table or short section intended for a person or an agent to interpret as one unit. A machine-only operating note qualifies when its recipient needs to interpret the whole note.
 
 **Use this when.** A note, memo, sheet, screen, table, comparison aid, or other publication unit can sound continuous even as it shifts what it is mainly about, which question it foregrounds, what it claims or asks the reader to do, or which wider process it appears to license. Use this pattern when local word repair is no longer enough and the unit needs stable answers about its subject, the move it makes, its permitted use, and the work that remains outside.
 
@@ -72,7 +72,7 @@ keywords:
 - the question under repair is view, face, carrier, or publication architecture rather than publication-unit interpretation instability;
 - the unit is already being used to approve, assign, adjudicate, or direct work and should use the downstream decision, work, or reliance publication appropriate to that use.
 
-**Quick recovery.** If this situation fits, write the ordinary natural-language declaration in `E.17.AUD.OOTD:4.3` and compare it with the nearest worked slice in `E.17.AUD.OOTD:5.1` through `E.17.AUD.OOTD:5.6`. Use the six diagnostic prompts only if it is hard to state the declaration accurately. If one clear sentence or two short sentences settle the case, stop there. A card or further assurance is unnecessary for that ordinary result.
+**Quick recovery.** If this situation fits, write the ordinary natural-language declaration in `E.17.AUD.OOTD:4.3` and compare it with the nearest worked slice in `E.17.AUD.OOTD:5.1` through `E.17.AUD.OOTD:5.6`. Use the six diagnostic prompts only if it is hard to state the declaration accurately. For a request to clarify scope, one or two sentences can finish the work. If the unit owes its reader an assessment, include the criterion, relevant facts and resulting judgment.
 
 **What this pattern does.** `PublicationUnit Stability Discipline` names the broader family. `PublicationUnit Primary-Subject Discipline` is the local writing-and-review pattern for making one unit's primary subject, carried move, downstream-use boundary, and outside-work boundary clear together.
 

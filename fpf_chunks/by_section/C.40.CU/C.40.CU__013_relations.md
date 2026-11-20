@@ -6,12 +6,12 @@ section_id: "C.40.CU:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__013_relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:12 — Relations"
-line_start: 90775
-line_end: 90789
+line_start: 90818
+line_end: 90832
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

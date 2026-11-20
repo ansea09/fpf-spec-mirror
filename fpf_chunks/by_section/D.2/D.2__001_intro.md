@@ -6,19 +6,18 @@ section_id: "D.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__001_intro.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:intro — Intro"
-line_start: 96564
-line_end: 96577
+line_start: 96622
+line_end: 96635
 dependencies:
   - "A.1"
   - "A.15"
   - "A.3.4"
   - "B.1"
   - "C.11.DUA"
-  - "C.13"
   - "C.16"
   - "C.29"
   - "C.30.ILC"
@@ -35,11 +34,11 @@ keywords:
 > **Status:** Stable
 
 
-**Use this when.** An action or arrangement may benefit one affected entity while harming another across levels or scopes, or responsibility is assigned across levels.
+**Use this when.** A proposed action may benefit one party and impose a cost or risk on another, or it may change who is responsible for the consequences. The parties can be parts of one system, members of overlapping groups or users affected through a shared service.
 
 **Not this pattern when.** If only the value frame is missing, use `D.1`. If `D.3` has already described the conflict, use that result. If the conflict has to be mediated or used in a decision, use `D.4`. If the concern is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
-**What goes wrong if missed.** A local improvement is treated as ethically sufficient while another declared level, scope, or affected holon carries the harm.
+**What goes wrong if missed.** A team sees the improvement it sought and recommends the change while somebody else loses access, takes on work or bears a new risk.
 
-**What this buys.** Identify who or what may bear a loss, explain how the affected scopes are related, and choose the question to examine next.
+**What this buys.** Identify who or what may bear a consequence, explain how the action could reach them, and choose the ethical question that needs an answer.
 

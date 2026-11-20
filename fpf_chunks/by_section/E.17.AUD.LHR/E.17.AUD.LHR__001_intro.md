@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__001_intro.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:intro — Intro"
-line_start: 116765
-line_end: 116808
+line_start: 116883
+line_end: 116926
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ The local result is the repaired head, its kind and reading, the primary entity 
 
 Use the five questions in `E.17.AUD.LHR:3.2` to recover the local repair.
 
-**Local-repair threshold.** One local repair should restore the meaning of the overloaded head, its kind and local reading, the primary entity or relation when one is active, and the action or question the sentence carries. If the next sentence borrows a different kind, reading, or outside-work boundary from the same head, the problem extends beyond that repair.
+**Local-repair threshold.** One local repair should restore the meaning of the overloaded head, its kind and local reading, the primary entity or relation when one is active, and the action or question the sentence carries. If the evidence leaves two readings open, retain the content both support. Resolve the difference only if it affects the question at hand. If the next sentence borrows a different kind, reading, or outside-work boundary from the same head, the problem extends beyond that repair.
 
-**When to use a neighboring pattern.** If one local repair stabilizes the unit and the remaining question is a bounded comparison over pinned source epistemes or publications, use `E.17.ID.CR` (`ComparativeReviewUnit`). If the repaired unit still cannot keep one primary subject, one carried move, and one outside-work boundary visible, use `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`). Adding more qualifiers to the same head will not settle that question.
+**When to use a neighboring pattern.** If one local repair stabilizes the unit and the remaining question is a bounded comparison over pinned source epistemes or publications, use `E.17.ID.CR` (`ComparativeReviewUnit`). If its subjects, carried moves or outside-work boundary remain unclear after the word is repaired, use `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`). Adding more qualifiers to the same head will not settle that question.
 

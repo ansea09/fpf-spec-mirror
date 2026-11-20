@@ -6,12 +6,12 @@ section_id: "E.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__009_consequences.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:8 — Consequences"
-line_start: 98063
-line_end: 98067
+line_start: 98138
+line_end: 98142
 dependencies:
   - "E.1"
   - "E.2"
@@ -34,5 +34,5 @@ keywords:
 ### E.3:8 - Consequences
 *Positive* — Makes priorities and unresolved conflicts inspectable before the dependent action.
 
-*Cost* — A conflict outside the declared ordering needs an authorized governance decision. Holding that action can delay work, but avoids silently giving a new priority to whichever rule happens to be encountered first.
+*Cost* — A conflict can delay the dependent work until a competent holder decides the case. Changing the priority for future uses can take longer and calls for the authority to amend the governing terms.
 

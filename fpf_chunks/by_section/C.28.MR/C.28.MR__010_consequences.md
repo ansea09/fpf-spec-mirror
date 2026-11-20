@@ -6,12 +6,12 @@ section_id: "C.28.MR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__010_consequences.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:9 — Consequences"
-line_start: 72161
-line_end: 72168
+line_start: 72163
+line_end: 72170
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

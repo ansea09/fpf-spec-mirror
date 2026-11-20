@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 110811
-line_end: 110890
+line_start: 110902
+line_end: 110981
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ If new information makes that check capable of preventing a consequential loss, 
 
 A clinical team needs both a terminology repair and an evidence-basis review before revising a protocol. Neither result is a prerequisite for the other in the current context.
 
-State an unordered coordination: the team may use either pattern first or use them in parallel. No coordination episteme or ordering relation is required for that local judgement.
+State an unordered coordination with respect to the two results. Neither is a prerequisite for the other. Available working hours may still determine which pattern can be used first. With a flexible calendar one practitioner can choose either sequence. To schedule the uses concurrently, check that the people, permissions and resources for both are available in the same interval. The local judgement needs no coordination episteme or ordering relation.
 
 If the later protocol revision becomes a named reliance that needs the coordination replayable, materialize one `PatternUseCoordination@Context` with `orderingMode=unordered` and no ordering relations. Coordinating these two uses establishes neither a lifecycle nor a WorkPlan.
 

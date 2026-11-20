@@ -6,12 +6,12 @@ section_id: "E.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__004_forces.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:3 — Forces"
-line_start: 101971
-line_end: 101979
+line_start: 102054
+line_end: 102062
 dependencies:
   - "E.2"
   - "E.3"
@@ -28,6 +28,6 @@ keywords:
 |-------|---------|
 | **Abstraction vs Concrete Use** | Keep concept definitions stable while illustrating them with useful examples from real situations. |
 | **Universality vs Convention** | A familiar notation can be convenient, but tying a cross-domain rule to that notation limits its use elsewhere. |
-| **Modularity vs Integration** | Keep layers independent despite the temptation to cross-link them for speed. |
+| **Modularity vs Integration** | Authors want readers to find related work in either direction while keeping Core meanings independent of tools and teaching material. |
 | **Cross-Domain Use vs Perspective** | Claims intended for several domains can reflect contributors’ disciplinary and cultural assumptions. |
 

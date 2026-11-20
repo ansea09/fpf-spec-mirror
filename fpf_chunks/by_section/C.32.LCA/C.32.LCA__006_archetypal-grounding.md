@@ -6,12 +6,12 @@ section_id: "C.32.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:5 — Archetypal Grounding"
-line_start: 80676
-line_end: 80747
+line_start: 80684
+line_end: 80757
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -86,6 +86,8 @@ A forecast of a likely change can allow reversible preparation before approval. 
 The installer checks the panel in place and reports completion or a problem to the coordinator. The table bounds physical installation. If the venue also needs confirmation by 16:00, include time for this check and report or establish that the approved release already covers them. A missing report leaves the installation status open. One person may perform several contributions when the demands still fit. Their number does not determine a management hierarchy.
 
 The timing implication is mathematical under its premises. The premises about people, authority, resources and duration need organizational support and observation; they are not supplied by the equation. In actual use, distinguish a committed service bound, an empirical estimate and a planning assumption.
+
+The same hour-long bound can cover another panel presented on its own if the path from the content change to physical installation includes all its work and waiting, with the same upper bounds, authority and available capacity. An added wait for material to set can break the bound even if the four operations take the same time. A promise to confirm completion needs a bound through confirmation. To promise two installations with overlapping windows, account for the shared editor and printer across both. One approval can serve both panels only when it covers both and arrives in time for each. Place the shared work and the remaining work on the joint schedule.
 
 #### C.32.LCA:5.3 - The smaller sufficient result
 

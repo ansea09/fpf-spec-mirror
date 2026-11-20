@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.SR.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
-line_start: 94356
-line_end: 94535
+line_start: 94405
+line_end: 94584
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -71,9 +71,9 @@ In a progress conversation or report, examine what is absent as well as what is 
 
 #### C.41.SR:4.2 - Test how the contributions support the whole
 
-Ask what each local answer establishes and what the shared conclusion additionally needs. Does it concern the same subject configuration and occasion? Is the necessary intermediate result available? Are the contributions compatible in their use of time, people and resources?
+Start with the decision about the whole and its acceptance conditions. Which conditions must all hold, which alternatives are allowed, and what has to work at the connection between contributions? Establish which conditions the local answers cover for the same configuration and occasion, including the availability of intermediate results and the joint demands on time, people and resources. If those grounds settle the shared question, give the answer and its grounds to whoever makes the decision. An established failure of a required condition can settle the question in the negative. If one admissible alternative fails, judge the others on their own grounds. If the question remains open, identify what would settle it. Participants may need to interpret an observation, obtain a missing one, agree on a handover or allocate a resource. Tell the decision maker what the available answers already establish.
 
-Name the relevant relation instead of inferring it from a checklist's nesting. A supplier can enable work; a schedule allowance can affect its feasibility; a model can describe the subject; one observation can support several conclusions. None becomes a physical part of another subject merely by appearing below it in a list. Recover what a changed local condition changes for each consuming claim.
+Name the relevant relation instead of inferring it from a checklist's nesting. A supplier can enable work; a schedule allowance can affect its feasibility; a model can describe the subject; one observation can support several conclusions. Identify the facts it supplies to each. Two records derived from the same observation count as one source when independent confirmation matters. For a physical part–whole claim, identify the part and the whole in the work itself. Recover what a changed local condition changes for each consuming claim.
 
 A local Method can contribute to an encompassing Method during the same performance. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) explains the composition distinction; its consequence here is to examine the whole's conditions when interpreting constituent work. Service availability enables the work; establish separately how the performed contribution enters the encompassing Method.
 
@@ -137,7 +137,7 @@ The worked case below connects these moves to the room, materials and workshop. 
 
 **Local representation and occasion.** C.41.TF preserves the session, room and materials references in the relevant local views. C.41.OF arranges the observation while the room and content are available. A missing capable interpreter returns to capability support; an unavailable room returns to scheduling.
 
-**Local answers and simultaneous contribution.** Through C.41.UA, the technician establishes equipment conditions and the facilitator compares projected and physical examples. The projection check contributes to equipment preparation and preparation of the workshop at the same time. Its relation to the whole changes what is checked: a test image alone cannot establish the example's use.
+**Local answers and simultaneous contribution.** Through C.41.UA the technician establishes equipment conditions and the facilitator compares the projected example with the physical card. One well-grounded comparison can settle whether those two versions agree. Both participants can use it, even if they record it in separate lists. If projection is essential to the commissioned exercise, a confirmed projector failure rules out running it as planned. If the exercise also permits printed copies, that failure rules out the screen option. The organizer can use the printed option when the copies, participants' access and other conditions of that exercise are established.
 
 **Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
 
@@ -156,7 +156,7 @@ A central record can also shift maintenance work to whoever has the least author
 For the shared conclusion being used, inspect:
 
 - Which local claims support it, and do their subject, meaning and occasion match its use?
-- What condition of the whole is not established by the constituent answers?
+- Which conditions and connections does the shared decision require, which do the available answers establish, and what, if anything, remains open?
 - Are missing arrangement, missing observation and substantive conflict distinguished?
 - Does each changed premise reopen the reliance it affects?
 - Can participants recover the next contribution in their working tools without unnecessary duplication?

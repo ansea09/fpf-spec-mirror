@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.3.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
-line_start: 55474
-line_end: 55800
+line_start: 55476
+line_end: 55802
 dependencies:
   - "A.16"
   - "A.18"

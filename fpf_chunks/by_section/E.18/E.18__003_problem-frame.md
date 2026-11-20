@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 117558
-line_end: 117579
+line_start: 117669
+line_end: 117690
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -53,7 +53,7 @@ Without a common **structure discipline**:
 
 * flows look ad-hoc and **non-comparable**;
 * structural crossings fail to name the changed state binding, its from/to values and establishing basis, any applicable rule and current application, or the separate gate decision;
-* MVPK faces carry **hidden arithmetic** or restate input and output;
+* MVPK faces carry **hidden arithmetic** or present their own version of the governing input and output declarations;
 * set‑returning selection is silently replaced by **single scores**;
 * cycles run without a **budget** and refresh happens **out of band**.
 

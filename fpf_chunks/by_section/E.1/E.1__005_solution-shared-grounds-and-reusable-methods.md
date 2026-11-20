@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — Shared Grounds and Reusable Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-shared-grounds-and-reusable-methods.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:4 — Solution — Shared Grounds and Reusable Methods"
-line_start: 97428
-line_end: 97451
+line_start: 97497
+line_end: 97520
 dependencies:
   - "E.2"
 keywords:
@@ -36,7 +36,7 @@ FPF expresses these shared grounds and reusable contributions through:
 1. a **Kernel** of admitted universal meta-concepts and the rules that define their meanings and relations;
 2. **patterns** that explain reusable methods, state their conditions and grounds, and apply or extend shared distinctions without replacing their governing meanings;
 3. a **pattern language** (*Architectural* ► why/ how; *Definitional* ► what) with embedded **Conformance Checklist (CC)**;
-4. **Design Rationale Records (DRRs)** that govern safe, auditable evolution;
+4. **Design Rationale Records (DRRs)** that preserve the grounds for changes to FPF and make them available for audit;
 5. three **core invariants** that every artefact must honour
 
    * **Evolvability** — change is expected and governed;

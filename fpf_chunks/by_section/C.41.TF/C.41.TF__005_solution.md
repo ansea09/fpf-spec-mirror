@@ -6,12 +6,12 @@ section_id: "C.41.TF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:4 — Solution"
-line_start: 93953
-line_end: 93996
+line_start: 93998
+line_end: 94043
 dependencies:
   - "C.37"
   - "C.41"
@@ -36,6 +36,8 @@ For each answer, make recoverable what is being asked, what counts as an answer 
 
 Distinguish a reusable instruction from a filled claim. “Count the cards against the contents description” is part of the template's help. “Twenty cards present in S, observed at 10:00” is an instance answer and its basis. [FPF A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32---umethoddescription-description-episteme-for-a-way-of-doing) governs a MethodDescription claim when the template has an already admitted Method as its EntityOfConcern and makes at least one substantive claim about that Method as a way of doing.
 
+If a form opens with an answer already entered, make its source recoverable where the user needs to act on it. A suggested value still needs grounds. An observation from an earlier occasion can supply the answer when its subject, criterion and conditions still apply. A record of a new check identifies what was actually examined. These distinctions let the recipient use adequate prior work and identify any check that remains to be made.
+
 #### C.41.TF:4.2 - Give answers enough expressive range
 
 Use answer forms that preserve consequential distinctions. In the examples here, **Yes** asserts the question's condition on the stated basis; **No** denies it on such a basis; **unknown** says the available grounds do not settle it; **not checked** says no check was performed for this occasion. These are local answer meanings, not a universal state taxonomy. An old adequate result may be reused even when no fresh check occurred.
@@ -52,7 +54,7 @@ Add observation time, description edition, performer or evidence reference when 
 
 Choose paper, editable text, a table or a working application according to the occasion. Transpose or split the presentation only while preserving the associations needed to interpret an answer: subject, question, comparison basis, answer and grounds. Keep shared reference information visible or directly reachable in each local view.
 
-Retain one form when it serves the receiving uses. Make another view only for an access or interpretation difficulty, and compare both with the same filled cases. Include the effort of preparing the view, recovering references during use and updating affected copies. Deriving views from shared content can reduce divergent copies; a separate generator is worthwhile only when that saving exceeds its setup and maintenance cost.
+Retain one form when it serves the receiving uses. Make another view when it will resolve an access or interpretation difficulty. To hand over one record, compare the answers and their grounds as they reach its recipient. To approve a view for future records, establish how the form keeps each answer and its grounds with the right question, subject and comparison basis across the entries it must support. If two fields could be confused, try values that would call for different actions if exchanged. Following the field definitions through to the displayed questions may already establish how entries are carried over. Include preparation, looking up references and updating copies in the cost of maintaining a second view. Generating the views from shared content can be worth the effort when it prevents enough copying and update errors.
 
 For a maintained aid, make clear which question set and template edition are in use. A corrected wording question in the working application can coexist unnoticed with an obsolete printed form or presentation. Derive needed views from the same maintained content where practical; otherwise identify how affected copies are updated or withdrawn. Preserve the earlier question and comparison basis when historical answers still refer to them. The useful result is a recoverable current form and interpretable earlier records; a separate modeling application is worthwhile only if it helps sustain that result.
 
@@ -60,7 +62,7 @@ Inspect what entering an answer does in the chosen tool. A mark may record a com
 
 An outline that puts each item under one heading can hide another relevant relationship. One comparison of the projected example with the cards may contribute both to display preparation and to exercise preparation. Preserve both uses when they affect the next action; use a cross-reference or a small relation table if one parent heading cannot express them. Do not infer that the subject has only one such relation from the form's single indentation.
 
-Replay one satisfactory answer, one negative answer and one unresolved case in the proposed form. When the intended recipient's interpretation or next move remains uncertain, ask a representative recipient to recover the question and next move. Use that response to locate the missing explanation. Compare the proposed repair's benefit with preparation, answering and maintenance effort. Return a missing distinction to the template, a misunderstood question to selection, and inaccessible observation to C.41.OF.
+Where interpretation of the answer forms is in doubt, replay the different answers that matter to the next action, including a supported negative or an unresolved answer where users need them. If the intended recipient's interpretation remains uncertain, ask someone who will use the form in those conditions to recover the question and decide what to do with the answer. Use that response to locate the missing explanation. Compare the repair's benefit with preparation, answering and maintenance effort. Return a missing answer distinction to the template, a question that asks about the wrong condition to selection, and an inaccessible observation to C.41.OF.
 
 When transfer changes the speaker or recipient, recover relative references through [FPF A.6.P.RI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a6pri---recover-agent-relative-references-for-action): “my cards” or “our current description” can acquire a different referent in a copied view. Check the question's associations after the change even when its words are unchanged.
 

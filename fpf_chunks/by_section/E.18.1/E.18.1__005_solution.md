@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 118354
-line_end: 118709
+line_start: 118469
+line_end: 118824
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -231,7 +231,7 @@ Each continuation names one applicable pattern reference and one question or use
 | Receiving use | Decide which mathematical-lens result is needed before formal-substrate declaration and method comparison. |
 | Next practical question | Which structure is preserved, which is lost, and where does the heat-flow lens stop? |
 | Applicable pattern | `C.29` Mathematical Lens Use. |
-| Result written and use it answers | The C.29 local lens-use result: target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
+| Result written and use it answers | The C.29 result in §4.2 gives the net heat rate at the fixture boundary and identifies a spatial difference that the total omits. A method comparison concerned with whole-fixture heat balance can use it under those conditions. |
 | Local non-overread | This positive C.29 continuation selects no Method, MethodDescription, WorkPlan, dated Work, evidence verdict or gate result. Method comparison remains a separate continuation and waits until its comparator, measurement basis and candidate-set relation are current. |
 | Return condition | When a measurement, reference plane, or source-currentness relation changes, reapply the pattern for that value and reopen only the dependent P2W continuation. |
 
@@ -303,8 +303,8 @@ Use the first three rows for an ordinary case. Open the fourth only when the sou
 | What the reader has | Do now | Result or stop |
 |---|---|---|
 | Accepted `ProblemCard@Context PC-FAB-042`: the cooling-fixture deformation is not one more tuning defect because method comparison must preserve a heat-flow invariant. | Carry that distinction into the question: "Which structure does the proposed mathematical lens preserve, which does it lose, and where does its use stop?" | One recognizable receiving question; no method, declaration, plan, or work claim yet. |
-| That question names one mathematical-lens relation. | In the Relations map, select `C.29` once and apply its Solution to the cooling-fixture subject and comparison use. | `CoolingFixtureHeatFlowLensUse-042`: preserved structure, lost deformation factors, payoff for method comparison, declared use, and stop. |
-| The `C.29` result still carries the accepted heat-flow distinction. | Continue with that value; stop before method comparison until its comparator, candidate set, and measurement basis are current. | A useful positive P2W continuation. No compact note is needed unless another user must replay it. |
+| The candidate fixture model admits two heating zones. For this calculation it takes 120 W in, rejects 80 W and 40 W through the two zone paths, and counts no other energy exchange. | Apply `C.29` to the fixture boundary. Add the outward heat rates and subtract them from the input: 120 − (80 + 40) = 0 W. | `CoolingFixtureHeatFlowLensUse-042` establishes zero net energy accumulation for those modeled rates. It preserves the whole-fixture balance needed by the comparison. |
+| The downstream decision also concerns deformation. | Try another distribution, 60 W and 60 W out for the same 120 W in. The whole-fixture balance still closes. With equal zone-to-sink conductances to the same sink, the unequal split can require unequal zone temperatures. | Use the sum for the balance. For deformation, recover the spatial temperature field or adequate bounds, the supports and material response, or an applicable test. To compare Methods, also establish the candidates, comparator and measurement basis. |
 | The same source also shows a `FormalSubstrate` signature. | Split the signature claim from the lens-use claim. Apply `A.6.0` only if its defined subject, ranged value, and selected profile can be named. | A separate declaration result, or a stopped declaration cue. The signature neither replaces the `C.29` result nor selects a method. |
 
 In this example the ordinary route uses one carried distinction, one concrete question, one map lookup, one result from the pattern that answers the question, and one visible stop.

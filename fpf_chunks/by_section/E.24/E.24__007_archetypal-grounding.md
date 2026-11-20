@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 124389
-line_end: 124448
+line_start: 124518
+line_end: 124577
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -70,7 +70,7 @@ Keep its source-use status `quote-only` in every case below. The fixed EntityOfC
 The recovered objects are already governed: `Pump37ServiceMethodDescription_v2` under A.3.2, `Pump37WeeklyMaintenancePlan_2026Q3` under A.15.2, dated Work occurrence `Pump37ServiceWork_2026-07-18` under A.15.1, and selected `Pump37MaintenanceFlowStructure` under E.18. The expression and provenance do not choose the ontology disposition; the receiving use and recovered evidence do.
 
 1. **Direct-use result.** A manual editor needs to check the one claim that `Pump37ServiceMethodDescription_v2` describes the service method used in the manual. A.3.2 closes that readable claim. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `DirectUseResult` points to the exact assertion, the identified method-description episteme, and A.3.2. Do not add a coordination episteme or a workflow ontic.
-2. **Bounded-episteme result.** A weekly scheduling review needs the method description, current work plan, dated Work occurrence, and selected flow structure read together because each claim explains how Pump #37 will be serviced that week. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `BoundedEpistemeResult` points to `Pump37WorkflowScheduling_v1`, a bounded episteme under C.2.1 whose EntityOfConcern is Pump #37. A.1 identifies the pump. No current dependent use requires that claim package as ontology. Leave every designated object under its exact predicate, subject assertion, and defining or constraining `ClaimGraph`.
+2. **Bounded-episteme result.** A weekly scheduling review needs the method description, current work plan, dated Work occurrence, and selected flow structure read together because each claim explains how Pump #37 will be serviced that week. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `BoundedEpistemeResult` points to `Pump37WorkflowScheduling_v1`, a bounded episteme under C.2.1 whose EntityOfConcern is Pump #37. A.1 identifies the pump. For this scheduling decision the equipment, plan and work claims each retain their own governor. The known dependent uses give no reason to settle their package as a durable unit. Leave every designated object under its exact predicate, subject assertion, and defining or constraining `ClaimGraph`.
 3. **Durable-ontic threshold—not met by the current fixture.** The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`. A positive `DurableOnticResult` would have to point to an independently identified ontology-unit individual such as `MaintenanceWorkflowOntic_v1`, its stable identity or constitution rule, and the exact reliance of multiple A.3.2, A.15.2, A.15.1, and E.18 consumers on that one unit. Those facts are absent, so this fixture has no durable result; when this stronger use is the active question, its `UnresolvedResult` names the missing identity and reliance evidence. The source expression and recurring four-object list do not identify a durable ontic.
 4. **Unresolved stop.** The same manual may ask only to “align the workflow” while leaving open whether the concern is the method description, plan, dated Work, flow structure, Pump #37, or an admitted whole or selected structure. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `UnresolvedResult` records that no exact governed payload has been recovered and names the missing identity evidence. Keep the quote and provenance, and split any direct claims that are already valid; do not turn the phrase or list into a subject.
 

@@ -6,12 +6,12 @@ section_id: "E.5:4"
 section_title: "Solution — the Four Guard‑Rails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__005_solution-the-four-guard-rails.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:4 — Solution — the Four Guard‑Rails"
-line_start: 101980
-line_end: 101997
+line_start: 102063
+line_end: 102080
 dependencies:
   - "E.2"
   - "E.3"
@@ -35,7 +35,7 @@ Linting and automation remain outside Core and are optional unless a separate op
 |---|------------|------------------|
 | **GR‑1** | **DevOps Lexical Firewall** | Pull of implementation, governance, automation, and DevOps concerns |
 | **GR‑2** | **Notational Independence** | Notation lock‑in |
-| **GR‑3** | **Unidirectional Dependency** | Convenience cycles |
+| **GR‑3** | **Unidirectional Dependency** | A claim relies on a family that may not supply it, or imports form a cycle. |
 | **GR‑4** | **Cross‑Disciplinary Bias Audit** | Disciplinary monoculture |
 
 For the detailed rule behind each guard-rail, see **E.5.1 – E.5.4**.

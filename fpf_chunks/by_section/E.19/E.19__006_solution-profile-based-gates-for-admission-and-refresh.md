@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 120324
-line_end: 120875
+line_start: 120447
+line_end: 120998
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -241,7 +241,7 @@ Checks include:
 
 * the suite remains a **Description-level** object: it enumerates member A.6.1 declaration epistemes through exact `MechanismDeclarationRef` values under A.6.7:4.1 and declares shared requirements/pins, but does **not** define mechanism blocks (`OperationAlgebra`, `Transport`, `Audit`, …) and is not used as a mechanism node,
 * membership has **set semantics**: `mechanisms` contains no duplicates, and member order has no meaning. Express any intended ordering only in `suite_protocols`,
-* suite protocols satisfy **A.6.7 WF-MS-2**: if `suite_protocols` is present, each step resolves to a selected member edition and a declaration-local operation in that edition; membership alone does not resolve the step,
+* each step of a supplied `suite_protocols` resolves to its selected member edition and declaration-local operation under **A.6.7 WF-MS-2**. Test the handover the suite promises. One jointly admissible, accepted transfer can establish possibility. A guarantee must cover the outputs the producer may deliver under the agreed conditions. For alternatives listed separately, check their membership without requiring a joint execution,
 * the suite is not a family of implementations: it MUST NOT be encoded as a `MechFamilyDescription` (families remain “many realizations of one mechanism”, not “many mechanisms”),
 * the suite creates no transport exception. Apply `A.6.7:4.2` according to the claim. An F.9 semantic correspondence needs its obtaining Bridge, a C.3.3 kind correspondence needs its own basis, and a separately claimed plane relation remains governed by the rule defining that plane relation. A changed entity, edition, plane or notation alone creates none of those relations. Retain every activated channel's references and receiving-use conditions under `G.Core:4.2.3`. Loss assessment follows the receiving-use rule, numerical assurance penalties satisfy A.6.7:4.2(2), and the suite carries pins rather than CL/Φ/Ψ/Φ_plane tables,
 * CG/CN authority pins remain explicit references to the single governance card and legality gate: if suite protocols include numeric comparison/aggregation/scoring, they cite `CG‑Spec` (SCP + Γ-fold + MinimalEvidence) and (where applicable) `CN‑Spec`, rather than duplicating “local CG‑Spec-like” content,
@@ -402,15 +402,15 @@ mode requires no result row or durable disposition.
 Selected evidence modes may include:
 
 1. **PCP-ENTRY-E1 — cold-reader recognition or pattern-selection task**
-   Given a real case signal, can a reader identify the pattern body that directly governs the case or an admissible set of candidate patterns?
-   One short task is enough. Ask about the alternative in item 2 only when an observed choice or independent local cues make it plausible for the intended reader and the distinction changes selection or use. Otherwise omit item 2.
+   Given a real case signal, what entry, set of candidate patterns or justified stopping point can the reader identify?
+   One short task can establish the entry, admissible set of candidates or justified stop this reader selected from this signal with the material provided. If the prompt supplies the intended entry, the response shows what the reader can do with that cue. For a claim of improved discovery, compare what readers could find with the old and new entries on comparable tasks under conditions suited to the claim. Identify the readers and signals covered and account for prior exposure when it can affect the choice. Ask about the alternative in item 2 only when an observed choice or independent local cues make it plausible for the intended reader and the distinction changes selection or use. Otherwise omit item 2.
 
    ```text
-   Given this entry-recognition phrase, name:
-   1. the first candidate pattern,
-   2. when grounded, one tempting wrong pattern,
-   3. the admissible entry stop,
-   4. the governing entry or applicable projection function.
+   Given the working situation and these entry cues:
+   1. Identify an applicable first entry, a set of plausible candidates, or the reason to stop.
+   2. If relevant, distinguish a plausible alternative that would change the choice.
+   3. Say what the available cues let you settle and where you would stop.
+   4. If a governing entry or projection function can be determined, identify it.
    ```
 
 2. **PCP-ENTRY-E2 — wrong-pattern and wrong-entry trap**
@@ -568,9 +568,9 @@ Follow the short first-use rendering's action and result logic against a concret
 
 **Replay each triggered enumeration or coordination under `F.19`.** Apply its contribution, coordination/list, and foregrounding rules in `F.19:4`, including the return to a defining or testing pattern when an FPF kind, relation, or structure remains hidden. Review a member separately only when its membership or contribution can fail independently or require a different repair. An unchanged series covered by the same rule needs no positive entry. A blanket `all lists are coherent` conclusion cannot replace the reading.
 
-Desk replay is the ordinary evidence mode for affected uses, changed wording groups, new action-guiding paragraphs, the positive Solution, and enumerations. Escalate to a cold reader, AI agent, or observed-work exercise when competing actions remain plausible, a near-miss boundary or result distinction is not recoverable by inspection, a transfer is uncertain, or a missed failure has high consequence.
+Desk replay is the ordinary way to check whether a changed passage still warrants an earlier use or gives the reader a new, usable choice. Examine the assumptions and the reasoning through the consequential branches. If the uncertainty concerns the words, ask a fresh reader to recover the choice or boundary from the passage with the material available in ordinary use. If it concerns what practitioners do, examine their work under the claimed conditions. A competent reader may also supply a valid proof or counterexample. Check that argument on its own grounds.
 
-When a claim extends recurring applicability beyond the exact cases, do not treat three examples alone—the traditional rule of three—as validation. When the claim's value or consequence warrants it, select a proportionate qualitative practitioner survey, action-research cycle, or case study. Select the additional evidence by risk. It is not a universal benchmark or a requirement for an ordinary rewrite. E.19 defines repair or finding outputs while leaving ordinal coordinate values and `PatternQualityStatus` to the full E.21 evaluation.
+For a claim that a rule works throughout a stated domain, use a derivation, an exhaustive check of a finite domain, or a division into cases with grounds that they cover the domain and that the argument holds within each. Numerical agreement or a successful reading on one case cannot, by itself, establish the general claim. For a proposed application, a valid argument and established conditions at the site can warrant using the rule. To report what actually happened, select observations of the work. To attribute an improvement to the rule, select a comparison suited to the practitioners and conditions claimed. A practitioner survey, case study or action-research cycle can help where those observations answer the question. When the claim concerns the organization of a whole, establish the relevant relations between its parts. For another level of model abstraction, establish which assumptions and answers carry across. The same argument can cover several levels when its conditions hold at each. Select further work according to the consequence of being wrong. E.21 owns ordinal values and `PatternQualityStatus` for a full evaluation.
 
 #### E.19:4.4 - Decision outcomes
 

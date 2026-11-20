@@ -6,12 +6,12 @@ section_id: "E.1:7"
 section_title: "Relations & Precedence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__008_relations-precedence.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:7 — Relations & Precedence"
-line_start: 97502
-line_end: 97506
+line_start: 97571
+line_end: 97575
 dependencies:
   - "E.2"
 keywords:
@@ -27,7 +27,7 @@ keywords:
 ---
 
 ### E.1:7 - Relations & Precedence
-Pattern E.1 governs **E.2 Eleven Pillars** and the Guard‑Rail set **E.5**; any later pattern that conflicts with E.1 **MUST** be revised via a DRR before entering the Canon.
+E.1 supplies the charter commitments for **E.2 Eleven Pillars** and **E.5 Guard-Rails**. If a proposed FPF rule contradicts an applicable charter commitment, identify the conflicting provisions. The proposal **MUST** be revised through E.9 before admission under the current charter. For a team using the method, its own governing terms determine who may adopt a local rule.
 
 
 

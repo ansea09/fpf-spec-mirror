@@ -6,12 +6,12 @@ section_id: "C.41.UA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:4 — Solution"
-line_start: 94243
-line_end: 94282
+line_start: 94292
+line_end: 94331
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,5 +60,5 @@ If a change is selected, recover how it could produce the intended result: the s
 
 Distinguish the selected work from checking and recording it. A decision to replace a card does not establish that the card was replaced. After the change, check the affected question on adequate grounds. An operating-case continuation Method separates continuation, performance, records and resulting state when an operating case needs another action; an applicable operating-control Method addresses the quality and reliability question in continuing operation.
 
-Keep historical answers and unaffected grounds. Reopen other questions only where the change can defeat their basis. Stop when the selected questions are sufficiently answered for the intended use, or report which observation, interpretation, capability or decision is missing. Use C.41.SR when several participants' reliance is affected.
+Keep historical answers and unaffected grounds. Reopen other questions only where the change can defeat their basis. Stop when the selected questions are sufficiently answered for the intended use, or report which observation, interpretation, capability or decision is missing. Use C.41.SR when a decision depends on how several answers fit together or a changed premise can affect a conclusion drawn from them. One person can need that reconciliation. Several recipients can also use a single sufficient answer directly.
 

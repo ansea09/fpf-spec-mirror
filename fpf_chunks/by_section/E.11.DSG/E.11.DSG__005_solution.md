@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 111468
-line_end: 111646
+line_start: 111561
+line_end: 111739
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -184,9 +184,9 @@ Recommendation, alternative, dependency, compatibility, and co-listing remain se
 
 Call a combination sufficient when it satisfies the required result and sufficiency rule within the recoverable candidate boundary. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist.
 
-Claim that every returned item is necessary only when removing any one makes the result insufficient.
+To test one deletion, remove the item, keep the other resources and conditions fixed, and judge whether the promised result is still available. Report which deletions defeat this particular combination.
 
-This item-necessity test does not establish the smallest combination: that claim also needs a size criterion and a comparison or argument showing that no smaller in-scope combination is sufficient.
+Call the combination **minimal under inclusion** if no proper subset suffices. Single deletions settle that question when sufficiency is monotone under adding eligible items. Otherwise a smaller subset may work even though every single deletion fails. An engagement can accept either a trio or a solo and decline a duo. To claim the **smallest** combination, give the size criterion and establish that no smaller in-scope combination, including an alternative outside this set, suffices.
 
 Return the strongest supported conclusion. Established sufficiency remains usable when item necessity or minimal size is unestablished; when sufficiency itself remains open, name the missing premise and qualify the combination accordingly.
 

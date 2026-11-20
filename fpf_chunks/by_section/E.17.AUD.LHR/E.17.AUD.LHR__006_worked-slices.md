@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 116938
-line_end: 117060
+line_start: 117056
+line_end: 117175
 dependencies:
   - "A.10"
   - "A.15"
@@ -129,14 +129,11 @@ After one sentence, the same unit starts talking as if it were:
 - the decision object;
 - and the rollout work that follows if approval is recorded.
 
-Local repair can still restore the overloaded local lexical head:
-- overloaded local lexical head = `document`;
-- restored lexical-head kind = review publication unit;
-- active local reading = publication unit, not decision object or rollout work;
-- carried move = record the current release reasoning visible in this unit;
-- outside work = approval, rollout execution, release, gate, policy, assurance, or adjudication question.
+First identify what the entry actually contains. The word `document` can be replaced by `release note` on the quoted sentence alone. Its heading leaves open whether the entry gives a reviewer’s recommendation, an authorized outcome, or both. If all the reader needs is the note about the release question, the local repair can finish there.
 
-The repaired head alone does not stabilize the unit. Later sentences still shift between the object of the decision, the comparison of evidence, and the work after the decision. The local repair exposes the remaining defect: the unit cannot keep one object, one move, and one outside-work boundary visible.
+If the entry attributes “defer until the seal test passes” to the authorized release owner and the provenance confirms that decision for this candidate, the editor can report the deferral. If the reviewer only recommended deferral, report the recommendation. An entry that contains both can identify the reasoning and the decision. If the distinction matters and the source leaves it open, state which outcome remains unknown and what would settle it.
+
+In this example the following paragraphs still move from weighing evidence to reporting a decision and then to carrying out rollout. Mark the change of move and the boundary of the work that follows. A heading alone cannot grant rollout authority.
 
 **Recovery reading.** Keep the restored head as the local result and stop expanding the local repair. Apply `E.17.AUD.OOTD` because the unit’s reading still shifts after that repair.
 

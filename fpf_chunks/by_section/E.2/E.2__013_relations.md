@@ -6,12 +6,12 @@ section_id: "E.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__013_relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:12 — Relations"
-line_start: 97635
-line_end: 97643
+line_start: 97704
+line_end: 97712
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,9 +43,9 @@ keywords:
 ### E.2:12 - Relations
 
 * **Depends on:** `E.1` – pillars operationalise the mission.
-* **Refined by:** All subsequent patterns in the Core Specification.
+* **Applied by:** Later Core patterns use the pillars relevant to their decisions. When a pattern also claims strict model refinement, compare the two models for the same inquiry. The proposed model must admit a feasible completion, preserve the earlier commitments in every completion and exclude a formerly admissible answer. [B.5.MR:4.2](#b5mr42---test-preservation-and-strictness) gives the test when the models use different languages.
 * **Mathematical support path:** `C.29` supports pillar-impact arguments only for adequacy of mathematical lenses used to express first-principles structure. It does not amend pillar content, priority, or conformance.
-* **Governs:** Every DRR, tool, and pedagogical artefact linked to FPF.
+* **Governs:** FPF proposals and artifacts where a pillar sets a condition of conformance. A team using an FPF publication can identify which provisions it has adopted for its own work.
 
 
 

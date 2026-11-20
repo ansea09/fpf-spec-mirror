@@ -6,12 +6,12 @@ section_id: "E.5.4:4"
 section_title: "Solution — Principle‑Taxonomy‑Guided Bias Audit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__005_solution-principle-taxonomy-guided-bias-audit.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:4 — Solution — Principle‑Taxonomy‑Guided Bias Audit"
-line_start: 102455
-line_end: 102477
+line_start: 102544
+line_end: 102555
 dependencies:
   - "E.3"
   - "E.5"
@@ -20,24 +20,13 @@ keywords:
 
 ### E.5.4:4 - Solution — Principle‑Taxonomy‑Guided Bias Audit
 
-1. **Bias‑Lens set**
-   Every normative pattern is assessed through **five lenses** that match the
-   Principle classes from **E.3**:
-   `Gov`, `Arch`, `Epist` (epistemological and ontological), `Prag`, `Did`.
+**Examine the rule from all five classes in E.3.** Gov asks who can decide or change what the rule relies on. Arch asks which parts, interfaces or invariants the result depends on. Epist asks what the terms refer to and what supports the inference. Prag asks whether the work is feasible and worth doing for its intended use. Did asks what the reader needs to recognize and do in their role, with the help available for the intended use. If independent performance is promised, check which choices the reader must make. For each, ask whether the emphasis is justified and whether an omission would change how someone uses the rule. E.3:4.1 assigns a principle to one class for precedence. Here the same rule is examined from all five. Give each concern the weight its effect on use warrants.
 
-2. **Equilibrium question**
-   For each lens ask:
-   *“Does the pattern give this class more weight than its use justifies, or omit a concern from this class that changes use?”*
-   *Examples:*
-   *   Over‑reliance on `Epist` precision may ignore `Prag` cost.
-   *   An `Arch` metaphor may hide meaning the `Did` audience needs.
+**State what carries across disciplines.** Express the rule without its example. Name the action or conclusion it licenses and the conditions it relies on. For each discipline in which you claim it applies, explain what plays the relevant parts there and how its practice supplies the conditions. One argument can cover several disciplines when their definitions or work arrangements establish the same relation. A case can illustrate how to use that argument. A shared word, an attractive analogy or successful joint work can suggest a transfer to investigate.
 
-3. **Scope‑or‑Balance rule**
-   * If an unjustified imbalance is found and universality is intended, revise the claims or explanation to correct the weighting or address the neglected concern.
-   * If a domain‑specific pattern has an intentional imbalance, state its scope. For example, *“Applies primarily to thermodynamic systems.”*
+Match the grounds to the conclusion. A derivation together with a warranted interpretation can establish what follows under specified conditions. For a predicted change in performance, use an adequate comparison in the receiving practice or explain why evidence from elsewhere bears on the effect under the receiving conditions. Account for material differences such as workload or case mix. To say who may act, recover the decision or rule that gives that authority. Where a condition is unknown, state what the recipient can already conclude and what they would have to establish for the further use.
 
-4. **Bias annotation**
-   The pattern carries a short **Bias-Annotation** reporting the result of the five-lens examination, including any material weighting, its justification, and the scope or correction needed for the intended use.
+**Test the boundary.** If a plausible alternative gives a different conclusion, try a case that decides between the two. A derivation can already settle the claim throughout the stated scope. If an instance meets the stated conditions and contradicts a factual conclusion asserted for every such instance, revise that claim. For a normative rule, distinguish breaking the rule from a valid exception to it. An unauthorized release can show a violation. An authorized exception can disprove the claim that every release requires the same approval. To retain a narrower rule, name a condition the practitioner can establish independently of the promised result and show why the conclusion follows within it. A case outside the conditions can expose a limit to use. It can also defeat a separate promise that every intended recipient will meet those conditions. For a claim about frequency or average effect, examine what the observations support about that frequency or effect.
 
-   Keep workflow checklists, reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
+**Report the material result.** The Bias-Annotation records the justified emphasis and any repair or scope limit that changes use. If a local rule is intended for one practice, explain the local condition that matters. For universal-core placement of a durable U-kind, A.8:3 and E.24.UK govern the projections into at least three foundationally different domain families and the other admission conditions. Workflow checklists, reviewer metadata and data-format advice belong outside Core.
 

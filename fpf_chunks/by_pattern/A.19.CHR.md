@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CHR.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
-line_start: 38378
-line_end: 38956
+line_start: 38380
+line_end: 38958
 dependencies:
   - "A.15.2"
   - "A.15.3"

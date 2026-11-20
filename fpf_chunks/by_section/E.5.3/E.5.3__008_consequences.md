@@ -6,12 +6,12 @@ section_id: "E.5.3:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__008_consequences.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
   - "E.5.3:7 — Consequences"
-line_start: 102417
-line_end: 102423
+line_start: 102506
+line_end: 102512
 dependencies:
   - "E.4"
   - "E.5"
@@ -22,6 +22,6 @@ keywords:
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
-| Core stays free of tool churn and tutorial bias. | Authors must create abstraction layers in Tooling instead of inserting hooks into Core. |
-| Tooling and Pedagogy can change without a Core release. | Slight duplication occurs when several tools target the same concept. Shared Core definitions mitigate it. |
+| Core can supply meanings independently as tools change. | A tool-specific convention may still be useful in the tooling or teaching material that relies on it. |
+| Different families can revise their contributions independently where the uses allow it. | A change to a shared claim may reach several readers. Follow that claim to each affected use under E.4.PFR:3.4. |
 

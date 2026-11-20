@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21587
-line_end: 21596
+line_start: 21589
+line_end: 21598
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

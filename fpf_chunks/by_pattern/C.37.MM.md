@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.MM.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
-line_start: 86765
-line_end: 86851
+line_start: 86775
+line_end: 86874
 dependencies:
   - "B.5.MR"
   - "C.2.1"
@@ -45,6 +45,19 @@ Adding material from more specialists can improve coverage while making a contra
 Name the intended inference, action or reproduction task and its possible outcomes. Identify which model supplies which premise. For each premise recover the modeled entity, conditions, interpretation and relevant edition. A local name for several models supplies a convenient reference. If the proposed **multimodel** is to be relied on as a coordinated set, establish the consequential connections that let the models support this use.
 
 When several models concern the same entity, establish its identity across them. When they concern different entities, state the actual relation. A system, the work that produces it and a cost estimate for that work can all affect one design decision. The estimate's use depends on what work it covers. For an admitted holon, B.1 and the kind-specific method govern the inference from the constituents and their organization to a whole-level result. A modeled relation with independently identified participants needs no presumption of physical parts.
+
+##### C.37.MM:4.1.1 - Choose and connect the required ranges
+
+Start with what the recipient has to decide or obtain. Work back from the conditions for that result. Where a choice is open, identify a difference that would change it. The commission may specify the ranges to consider or leave their selection to you.
+
+1. Identify the types of entities and actions that can affect that result. For each relevant kind of holon, follow its own composition as far as the decision needs. A system has integrated components. A composite Method admits particular Methods under its construction rule. For composite dated Work, establish which actual performances did a constitutive part of that very job. An overlapping or earlier performance can help without belonging to it. An episteme can depend on several claims with a common ground. For a discipline, identify the knowledge and practice its working arrangement integrates. A part, an available alternative and an external supplier can play different parts in the decision.
+2. For each inference, identify what its model can leave open. Which alternatives must remain distinguishable for this inquiry? Can a general rule settle it throughout the stated range? Use B.5.MR when comparing models towards greater abstraction or refinement. You can change the scope of composition while holding model abstraction fixed, or compare models of the same whole while holding its composition in view.
+3. Connect the results. Name who or what participates and the relation on which the inference depends. Work enacts a Method. A system participates in the Work. A report relies on an observation made during that Work. These links may be needed together. A rule at every eligible scale, an influence across scales and a result of several working together each need grounds for the connection they assert. A control layer adds its own functional organization when the decision depends on it.
+4. Trace the explanation forward to the recipient's decision. Could all the local claims stay true while a different connection changed that decision? If so, recover the missing connection when it is available. If it is unavailable, give the warranted partial answer and identify the condition that still decides the original question. A partial result can finish the commission when it already settles the recipient’s criterion. For an assertion covering a range, show why the grounds hold throughout it. One governing rule or a sufficient bound can sometimes settle the entire question.
+
+For example, a receiving shift needs to know whether two language desks can jointly issue consistent stop instructions today. The desks are components of one publishing service. Comparing the stop clauses belongs to the release Method. Identify the reviews actually performed as contributions to this release. Check that each signed report covers the translation now ready to issue and identifies its applicable source edition. An earlier, independent review of those same texts can support their consistency when the release terms accept it. That reliance need not make the earlier review part of today’s Work. Both reviews can be correct while one source calls for a stop before the next operation and the other calls for it afterwards. Following the reports back to their sources reveals the conflict. If the sources differ only elsewhere, both translations convey the same applicable stop condition, and the commission accepts that equivalence, consistency is established. Suppose that both approved texts are ready, the desks have authority to issue them, the required staff and channels are available to both in the agreed release window today, and these are the remaining release conditions. The desks can jointly issue the consistent instructions in that window. If one desk has no usable route to the shift before the deadline, joint issue in that window is unavailable even when the instructions agree. A claim that the shift actually received them needs evidence of delivery.
+
+The general result is a connected account of the conditions for one receiving action. The principle about agreement applies across disciplines. Editorial work makes the relation concrete through the applicable clauses, a local release procedure can further restrict which editions qualify, and one actual issue supplies evidence about identified texts and reviews. A larger service could still be examined on one occasion. The number or size of its desks assigns no level of model abstraction. Keep the account's declared types and ranges when applying the method to a different action. C.39.QR:4.1 gives the return from an example to that commission.
 
 #### C.37.MM:4.2 - Test the joint conclusion
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
-line_start: 113119
-line_end: 113676
+line_start: 113230
+line_end: 113789
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -528,9 +528,11 @@ View episteme E conforms to P. A web publication uses expression X1 following re
 
 A functional view names transformation F and a structural view names module M. A project claim says M realizes F. The shared system EntityOfConcern and aligned diagram positions do not establish realization. Identify F and M, apply the direct realization-relation pattern, then identify an assertion episteme about that occurrence if review needs it. A traceability matrix may represent the assertion and occurrence through an explicit correspondence; C.29 applies when that use requires a mathematical lens. Its cell is not the realization relation.
 
-#### E.17.0:5.7 - Procedural view is not a method description
+#### E.17.0:5.7 - When a procedural view also describes a Method
 
-A TEVB procedural view E concerns holon H and carries claims about methods, order, state, concurrency, and recovery through their exact relations to H. E may conform to procedural viewpoint P and therefore be a `U.View`, but it is not a `U.MethodDescription` because its EntityOfConcern is H rather than one admitted method. A method-description view retargets to the method and uses a viewpoint whose target-kind criterion admits methods.
+A team reads a procedural episteme E about its factory to learn how the factory recovers after a stoppage. E is a `U.View` if it conforms to the selected procedural viewpoint P. E mentions the restart Method in its account of the factory. Its `EntityOfConcern` is the factory.
+
+In a second case, an engineer writes an episteme M about the admitted restart Method itself. M qualifies as a `U.MethodDescription` when it describes how that Method is carried out under A.3.2. For a view claim, select a procedural viewpoint Q whose target criterion admits the Method and check whether M conforms to Q. When both conditions hold, the same M is a `U.View` under Q and a `U.MethodDescription`. If M omits a recovery branch required by Q, it can still qualify as a MethodDescription. A claim that a crew actually restarted the factory needs evidence of the work.
 
 ### E.17.0:6 - Consequences
 

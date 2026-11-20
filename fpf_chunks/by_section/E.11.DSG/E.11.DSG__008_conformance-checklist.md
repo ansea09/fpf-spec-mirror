@@ -6,12 +6,12 @@ section_id: "E.11.DSG:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__008_conformance-checklist.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:7 — Conformance Checklist"
-line_start: 111701
-line_end: 111717
+line_start: 111794
+line_end: 111810
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -42,7 +42,7 @@ keywords:
 | `CC-DSG.3` Different subjects and boundaries | Discipline, Suite edition, constituent DPFs, external frameworks, supporting Reference, available results, MethodDescriptions, lookup Work, answer, publication and access remain distinct. The Reference's product boundary follows its actual use and change needs. |
 | `CC-DSG.4` Progressive detail | Date, status, author, evidence, relation, product-series state, warning, and reopen detail appears when it changes identification, reader action, truth, or named reliance. |
 | `CC-DSG.5` Answer discipline | Each returned item is classified and stated separately as an available result of its actual kind and supplying product, a `MethodDescription` reference, direct-source evidence, or a named unavailable result. Its readable contribution or blocker is explicit; maintenance appears only when it changes use, and recommendation, alternative, dependency, compatibility, and co-listing create none of those relations. |
-| `CC-DSG.6` Sufficiency and stronger claims | A claimed sufficient combination satisfies the required result and sufficiency rule within its candidate boundary. A claim that every item is necessary requires the removal test; a “smallest” claim additionally requires a size criterion and grounds excluding smaller sufficient combinations. An unresolved stronger claim does not erase established sufficiency. An unresolved sufficiency premise remains explicit. |
+| `CC-DSG.6` Sufficiency and stronger claims | A sufficient combination meets the result and its criterion inside the stated candidate boundary. A deletion test settles that deletion. Minimality under inclusion covers every proper subset, by comparison or argument. A smallest-size claim covers the other eligible combinations as well. Retain a demonstrated sufficient result and state any open condition when it affects the choice. |
 | `CC-DSG.7` Change and return honesty | A changed supplying contribution reopens the affected answer. Moves and splits return to complete current explanations without losing required Methods or importing public migration history. Unsupported composition claims are corrected. Unavailability limits the claimed route or coverage without erasing the discipline or forbidding a sufficient direct DPF use. |
 | `CC-DSG.8` Derivative boundary | Expression, translation or other derivative, an established edition-continuity relation, language-specific product, and carrier are distinguished by their actual identity, source, scheme, reader-use, and maintenance facts. |
 | `CC-DSG.9` Plain-language whole passage | The complete changed passage can be read by an engineer or manager without reconstructing ontology notation; exact triples and relation terms appear only where they change identification or a stronger claim. |

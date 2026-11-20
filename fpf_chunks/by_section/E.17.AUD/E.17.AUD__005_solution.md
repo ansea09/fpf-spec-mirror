@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:4 — Solution"
-line_start: 116540
-line_end: 116651
+line_start: 116655
+line_end: 116769
 dependencies:
   - "A.16.0"
   - "A.7"
@@ -35,6 +35,8 @@ keywords:
 
 > Name what the unit is mainly about, the publication move it carries, the claim that remains outside, and one repair choice. Apply another pattern only when that choice requires it.
 
+A joint decision may require two subjects and the relation between them. Keep that connection readable. A note assessing agreement between the catalog and checkout must let the reader compare the responses the catalog can return with those checkout can handle. The connected claims can share one short passage or occupy marked sections that the reader can use together. For a scope notice, simply identifying the subjects and the question can suffice.
+
 #### E.17.AUD:4.0 - Plain working terms
 
 - `publication unit under review` = one note, memo, sheet, table, screen, or short section that readers inspect as one unit;
@@ -53,8 +55,8 @@ Use the terms above only when their distinctions change the repair choice.
 
 A locally admissible interpretation keeps four entries available for inspection by value:
 - one publication unit under review;
-- one primary subject;
-- one carried publication move over that primary subject;
+- the primary subject, or the subjects whose relation matters to the reading;
+- the move about that subject, or the moves whose connection the reader needs for one question;
 - one outside boundary to work, work planning, decision, gate, or reliance claim, with one light boundary type when that distinction matters: neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation.
 
 If the publication unit changes any of those four without saying so, its interpretation has shifted, however polished the sentences look.
@@ -67,7 +69,7 @@ If the publication unit changes any of those four without saying so, its interpr
 - `bounded comparison`: if the unit is stable, apply `E.17.ID.CR`;
 - `leave publication-unit stability`: the live question concerns work, work planning, decision, gate, evidence, explanation, reliance, carrier or front-end work, or another claim that this pattern does not test; apply the relevant pattern and name the exact project object or record.
 
-Leave the narrower whole-unit check to `PublicationUnit Primary-Subject Discipline`. Its question is whether this unit can still keep one stable primary subject, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim.
+Leave the narrower whole-unit check to `PublicationUnit Primary-Subject Discipline`. Its question is whether this unit can still keep a stable primary subject or connected subjects needed for one decision, a recognizable publication move, and an outside boundary to work, work planning, decision, gate, or reliance claim.
 
 #### E.17.AUD:4.3 - Inherited dynamic frame
 
@@ -88,7 +90,7 @@ Treat one publication unit as a readable unit. Do **not** identify it automatica
 
 Those objects may matter, but mentioning them in the same note, sheet, or screen does not make them the current publication-unit problem.
 
-**Publication-unit boundary choice.** A `PublicationUnit` boundary is valid when a careful reader would naturally inspect that bounded item as carrying one primary publication move over one primary subject, with one visible outside boundary to work, work planning, decision, gate, reliance claim, or neighboring pattern application.
+**Publication-unit boundary choice.** One subject, one move and a visible boundary with outside work suffice for an ordinary short note. A joint decision can require several subjects and moves in one readable unit. Keep their relation visible in the passage or in marked sections. For example, one section can specify which responses a catalog returns and another can test which of them checkout accepts. Readers need both to judge the interface. Mark the boundary with work, work planning, decisions, gates, reliance claims and neighboring pattern applications. If the unit undertakes one of them, use its governing rule.
 
 Choose the bounded item that carries the claim being made or effect being repaired. Do not choose a smaller boundary merely to hide a downstream overclaim, or a larger one merely to absorb several primary subjects into one unit.
 
@@ -105,8 +107,8 @@ When a wider repair needs these distinctions, use the seven questions to recover
 | Row | Ordinary prompt |
 | --- | --- |
 | 1 | Which publication unit is under review? |
-| 2 | What is that unit mainly about in this interpretation? |
-| 3 | What publication move does the unit make about that subject in this interpretation? |
+| 2 | What is the unit mainly about? Which subjects must the reader consider together if their relation matters? |
+| 3 | What does the unit assert or ask the reader to do? If it carries linked moves, how do they contribute to the reader’s question? |
 | 4 | What downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside this unit, and is that boundary mainly a neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation? |
 | 5 | Does the present problem call for repair of an overloaded local head, stabilization of the whole unit’s primary subject, bounded comparison, or another neighboring pattern? |
 | 6 | Is the current form label (`note`, `sheet`, `table`, `screen`, and similar ordinary labels) naming only the presentation form, or are readers taking it to change the publication unit under review or the kind of downstream claim or effect they infer? |
@@ -115,11 +117,12 @@ When a wider repair needs these distinctions, use the seven questions to recover
 #### E.17.AUD:4.6 - Choose the next pattern
 
 - If row 5 points to one overloaded local lexical head, apply `Local Head Restoration`.
-- If row 5 shows that the whole publication unit still cannot keep one stable primary subject, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim visible, apply `PublicationUnit Primary-Subject Discipline`.
+- If row 5 shows that readers cannot follow the subjects and moves the unit connects or the boundary with work, planning, decision, gate or reliance, apply `PublicationUnit Primary-Subject Discipline`.
 - If the publication unit is stable enough and its move is bounded comparison over available source publications, apply `E.17.ID.CR ComparativeReviewUnit`.
 - If the main problem is explanation classification over an existing face, apply the neighboring explanation pattern.
 - If claim content, representation, coarsening, or the primary EntityOfConcern changes, apply the relevant `A.6.3` or `A.6.4` pattern before checking a later publication form here.
-- If the active problem situation is publication form, bridge or hypothesis work, or a downstream claim or effect, leave the publication-unit stability family, apply the relevant pattern, and name the exact project object or record when one is needed.
+- If wording alone suggests approval, repair the unit to say what its source warrants. If an authorized decision exists, identify its issuer, scope and outcome. If the reader needs a decision that is still owed, put the choice and grounds before the responsible authority. Check which act the governing rule makes decisive. An authorized publication can constitute the decision itself or bring an earlier decision into effect. Establish the issuer, act and form required for the particular claim.
+- If the active problem concerns publication form, bridge or hypothesis work, or another downstream action, apply its direct pattern and identify the project object or record the work needs.
 
 #### E.17.AUD:4.7 - Local naming rule
 

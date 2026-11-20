@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.QC.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
-line_start: 94536
-line_end: 94731
+line_start: 94585
+line_end: 94780
 dependencies:
   - "A.10"
   - "C.41"
@@ -69,13 +69,13 @@ Name this intended inference and next move. Challenge both false reassurance and
 
 #### C.41.QC:4.2 - Construct a discriminating challenge
 
-Choose cases with known or competently established differences relevant to the criterion. Include a satisfactory case and a plausible failure. Vary the property of interest while holding irrelevant differences small enough to interpret the result. For a subjective criterion, recover the judgement basis and a meaningful disagreement rather than inventing a false objective threshold.
+Choose a challenge whose answer could change the proposed reliance. Use cases with known or competently established differences relevant to the criterion. When qualification depends on detecting both a satisfactory result and a plausible failure, include both and vary the property of interest while keeping other differences small enough to interpret the verdict. One established false pass can already rule out a checker as a guarantee that every accepted item meets the criterion. For a subjective criterion, recover the judgement basis and a meaningful disagreement.
 
 Predict which answers those differences support before inspecting the checker output. Then compare the outputs with adequate grounds for those expected distinctions. A false pass and a false failure can have different costs; inspect both where they affect the work.
 
 Where a rubric may drive the verdict independently of the subject, also hold the subject facts fixed and change the question. Establish what answer the new predicate supports before asking the checker. A reversed condition can call for the opposite answer; if only wording changes and the question stays the same, the expected answer stays the same. This distinction tests responsiveness to meaning without requiring every wording change to reverse a result.
 
-When uncertainty concerns the judging arrangement, compare it on those grounded cases with a cheaper or less interfering alternative.
+When a decision about the judging arrangement depends on whether an alternative would give adequate answers with less effort or interference, compare the alternatives on the grounded cases. A question about whether the existing arrangement can be relied on may already be settled by its observations or by a known failure.
 
 Grouping criteria can save calls; separating them can reveal interference. Repetition and a rule for combining verdicts may reduce sampling instability, but repeated agreement cannot correct a consistent error or supply independent truth.
 
@@ -99,9 +99,9 @@ A stronger second model can help investigate disagreement, but its score needs g
 
 #### C.41.QC:4.3 - State the bounded result and a return condition
 
-State what the qualification supports: which criterion, checking means, cases, conditions and receiving use it covers. State detected defects and residual uncertainty in terms that change action. A narrow successful probe does not establish all-domain accuracy.
+State which decisions the qualification supports. A grounded check on one item can settle the disposition of that item. When relying on a checker across a class of items, establish why its observations and decision rule detect the differences that matter throughout that class, or bound the claim by the evidence available. Testing one checker on one kind of item and another checker on a different kind establishes what happened in those pairings. To use them interchangeably, examine the untried combinations that matter or establish why the change cannot affect the answer the recipient needs. If the intended decision permits a rate of error, evidence about that rate must cover the population and operating conditions to which it will be applied. Report detected defects and remaining uncertainty where they change what the recipient can accept or needs to inspect.
 
-If the criterion misses a work question, return to C.41. If the form corrupts its meaning, return to C.41.TF. If access or capability is missing, return to C.41.OF or its supplier. If the checker fails, repair, replace or restrict its use and repeat the affected challenge. Compare the gain with the qualification and operating cost through [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option).
+If the criterion misses a work question, return to C.41. If the form corrupts its meaning, return to C.41.TF. If access or capability is missing, return to C.41.OF or its supplier. A false pass, a false rejection or a failure to return a needed answer can justify withdrawing the checker from that use or limiting it to conditions for which adequate evidence already exists. Before relying on a repaired or replacement checker, establish that it gives the answer the criterion calls for under the affected conditions. Repeat the affected challenge if that evidence is still missing. Compare the gain with the qualification and operating cost through [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option).
 
 Keep the qualification separate from subject answers. C.41.UA establishes what is true of the subject on its occasion.
 

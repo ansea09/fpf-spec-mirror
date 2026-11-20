@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 114596
-line_end: 114971
+line_start: 114709
+line_end: 115084
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -416,7 +416,7 @@ These are local field names, not members of a catalogue of public kinds. A forma
 
 1. **Name source and reader/use.** Point to the current source account and say what this reader must understand or do.
 2. **Choose the minimum face set.** Start with one face; add another only when a different reader/use needs different detail or form. Copy no claim that the source does not carry, and state material omissions.
-3. **Publish, compare, and stop.** Check the face against the source and stop when the named reader/use is served. Add viewpoint, scope, occurrence, pin, bridge, evidence, gate, or assurance records only when that stronger use makes their identities material.
+3. **Try the reader's intended use.** If the reader needs to locate the source, a usable return to it can finish the task. If the reader must decide or act, follow that decision using the face and what the reader can access with the necessary permission and time. Carry a missing condition from the source onto the face, or provide a usable return to it. Stop when the declared use is served. Add viewpoint, scope, occurrence, pin, bridge, evidence, gate or assurance records only where their identities matter.
 
-For the optional morphism profile, declare `F_face`, pin numeric or comparable content once, and run only the composition and promotion tests claimed by the selected faces. A *-Lite* face may drop optional fields but never add or strengthen claims.
+For the optional morphism profile, declare `F_face`, pin numeric or comparable content once, and establish the composition or promotion claim at its stated extent under §6. A *-Lite* face may omit optional fields and retains the strength and scope of the source claims.
 

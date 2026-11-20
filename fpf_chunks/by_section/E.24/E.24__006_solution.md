@@ -6,12 +6,12 @@ section_id: "E.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__006_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:4 — Solution"
-line_start: 123867
-line_end: 124388
+line_start: 123996
+line_end: 124517
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -314,10 +314,10 @@ An ontic-introduction decision identifies each direct relation needed by the sel
 Choose the branch with three observable thresholds before opening the ontology object map:
 
 - **Direct use closes the case** when one readable claim under current subject patterns gives the named receiving use what it needs. Point to that claim and stop; do not add a coordination episteme or ontic.
-- **A bounded local episteme is needed** when one named receiving use must read several already governed claims together, but no other current pattern relies on their package as reusable ontology. Identify that one episteme under C.2.1 and keep every governed object under its direct pattern.
-- **A durable ontic is needed** only when multiple current patterns must reuse the same independently identified ontology unit and would otherwise duplicate or disagree about its identity or constitution and minimal relation set.
+- **A bounded local episteme is needed** when the named use requires several independently governed claims about one identified subject to be read together. Reuse an adequate account or identify the bounded episteme under C.2.1. Check the dependencies that could change this choice. Each claim retains its direct governor.
+- **A durable ontic is needed** when multiple current patterns require the same independently identified ontology unit and would otherwise duplicate or disagree about its identity, constitution or necessary relations. Check existing settlements first. Repeated citations or shared words alone give no such reason.
 
-If none of the three thresholds can yet be demonstrated, record an unresolved stop. Source provenance remains the separate source-use status under E.24:4.0 and can accompany any of the three resolved branches.
+A crew choosing a pump instruction may need the equipment identity, the revision in force and the crew’s permission together. Those claims can settle the crew’s decision. If a known consumer may require their package as a reusable ontology unit, identify the dependence and resolve the durable question to the extent the evidence permits. An unknown unrelated use leaves the crew’s established result intact. When a missing fact could change the disposition, state that fact and the scope left open. Source provenance has its own status under §4.0 on every branch.
 
 Use this short card to keep the effort of first use low. State the recognizable situation, the use that must close, and the exact subject; run the three thresholds; then fill `ontologyDispositionResult` last. Work and decision are examples of receiving use, alongside comparison, preservation, teaching, publication, and reference use.
 
@@ -332,9 +332,9 @@ OnticIntroductionFirstUse:
   decisionEntityOfConcern: one independently identified pre-judgment candidate entity, proposal episteme, or source-construct entity; it stays fixed across the branch result.
   decisionEntityOfConcernGovernor: the direct rule that identifies that candidate before judgment.
   branchThresholdResult:
-    directUseCloses: yes or no; the one readable claim and current pattern that close the receiving use.
-    boundedCoordinationNeeded: yes or no; the several governed claims that must be read together for this use, plus confirmation that no current pattern relies on their package as ontology.
-    durableReuseNeeded: yes or no; the multiple current patterns that must reuse one ontology unit and the identity, constitution, or relation-set disagreement that would otherwise recur.
+    directUseCloses: state yes, no or unresolved and identify the one readable assertion and its governor, when that assertion settles the use.
+    boundedCoordinationNeeded: state yes, no or unresolved. Identify the claims to read together, the subject and receiving use they cover, and any known dependence that could change this disposition.
+    durableReuseNeeded: state yes, no or unresolved. Identify the patterns requiring the same unit, the recurring disagreement or duplication its settlement would prevent, and any existing adequate settlement.
   ontologyDispositionResult:
     disposition: fill last from those thresholds: subject-pattern-use | bounded-local-episteme | durable-ontic | unresolved-stop.
     directUseResult?: exact closing assertion and direct pattern locators.
@@ -554,7 +554,7 @@ For that bounded use:
 - identify each other governed entity and direct relation designated by those claims;
 - cite the pattern governing each direct relation rather than restating its participant or identity rules;
 - state an ontic overread only when its correction passes the F.19:4 test in E.24:4.0;
-- stop before dependent patterns treat this one episteme as a durable ontology unit.
+- reopen the durable test if a dependent pattern requires the identity, constitution or relations of the package itself.
 
 **Positive example.** `Pump37MaintenanceCoordination_v1` has Pump #37 as its EntityOfConcern. Its ClaimGraph may designate the current maintenance plan, dated work, enacted method, and direct relations because every claim explains how this pump is maintained for the named scheduling decision. Pump #37's A.1 identity is independent of the coordinating episteme.
 

@@ -6,12 +6,12 @@ section_id: "E.5.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__002_problem-frame.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
   - "E.5.3:1 — Problem frame"
-line_start: 102364
-line_end: 102366
+line_start: 102449
+line_end: 102451
 dependencies:
   - "E.4"
   - "E.5"
@@ -19,5 +19,5 @@ keywords:
 ---
 
 ### E.5.3:1 - Problem frame
-Use this pattern when an FPF artefact imports or otherwise depends on another artefact. FPF separates the Conceptual Core, Tooling Reference and Pedagogical Companion under E.4. The dependency direction must preserve that separation while allowing the outer families to change.
+Use this pattern to decide whether one FPF member may rely on another member, in the same family or a different one, for a definition, rule or procedure. Name the work that needs the supplier and what that work takes from it. A reader who follows a link for an optional illustration can use the original rule independently. For an assertion about two framework editions, establish the dependency under E.4.PFR:3.4.
 

@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 117598
-line_end: 117970
+line_start: 117709
+line_end: 118085
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -101,7 +101,7 @@ S remains the same only while O/R/C/F remain the same. A new valuation, alias, p
 `OperationalGate` is the E.18 check locus when a gate or check position is present. A.20 supplies an internal-constraint result when the claim about that constraint is at issue. When a gate decision is current, A.21 supplies the profile application, independently identified check-application results, `GateDecisionResult`, and rationale. A `DecisionLog` is added only for a current audit, history, replay, or reuse need.
 
 For structural reinterpretation, E.18 adds a structure-local placement rule: retain the independently identified A.6.4 arrow r, affirmative q, current-case judgement of `satisfies`, their basis and `PathSliceId`. With unchanged `CtxState`, this placement is not a GateCrossing. For a changed binding, state its from/to values, establishing basis and any applicable declaration, rule and current application; add a GateCrossing when an applicable gate profile governs that transition. A Bridge, card, UTS row, optional `CL`, witness publication, gate decision or permission claim supplies neither r, q’s polarity nor the case judgement.
-> **MVPK integration (import).** Every locus with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.18 reuses MVPK's source-reference, pin, declared-order, and no-new-claim rules. Input/output non-duplication and functorial publication apply within E.17's optional morphism profile. E.18 adds the structure-scope constraints in S3 and **CC-E18-09 and CC-E18-10**; it does not define a second publication semantics.
+> **MVPK integration (import).** Every locus with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.18 reuses MVPK's source-reference, pin, declared-order, and no-new-claim rules. The optional morphism profile keeps the signature authoritative and checks the claimed publication composition under E.17:6. E.18 adds the structure-scope constraints in S3 and **CC-E18-09 and CC-E18-10**; it does not define a second publication semantics.
 
 **GateCrossing (normative)**
 
@@ -182,6 +182,8 @@ Mathematical path composition concatenates sequences with matching endpoints and
 
 The conditions of a concatenation must be checked even if its two paths were individually admissible. A join that requires A and B cannot be enabled by a path from A with B omitted. Their applicable joint rule, rather than two binary arrows, determines the continuation.
 
+For a joint performance, check the shared capacity, commitments and conditions at the times the connected actions need them. A sufficient upper bound on their joint demand can establish compliance with a limit. To promise a particular configuration, establish one compatible assignment of modes, resources and times that the intended performers can use. Retain common evidence as a shared premise wherever two branches depend on it. E.18.2 gives a worked case where combining the separate descriptions preserves a limit and introduces an unattainable mode.
+
 For each relevant position-use, recover CtxState sigma = <L, P, Evec, D> under 5.1. A raw connection step preserves these use bindings; it does not assert equality of the physical states of all participants. Account explicitly for each changed binding. Where an applicable profile governs the transition, represent it at one OperationalGate by its GateCrossing. Retain SquareLaw evidence when the crossing rule requires it, Gamma pins on compare and launch faces, and any applicable LaunchGate condition for design/run changes. StructuralReinterpretation retains the separately established r, q and current-case judgement under CC-E18-06-EX.
 
 A FlowValuation use therefore names S, the declared domain and value channels, nu and its regime, the relevant position-use bindings and any admissible path used by the claim. PublicationScopeId and PathSliceId are included when publication or slice-addressed use requires them.
@@ -201,7 +203,7 @@ When the question instead depends on a particular delivery, receipt, displacemen
 
 Use split and join only as selected-structure relations inside one `TransformationFlowStructure`. A split separates one source locus, variant set, problem-side cue, or candidate family into several identified loci or flow valuations. A join relates several identified loci, selected sets, gates, measurements, or refresh returns back to one current structure position. Neither operation creates a new FPF kind, a new pattern, or a prescribed work procedure.
 
-Minimum split-and-join use names the selected `TransformationFlowStructure`, the actual split or join predicate and its complete participants, any applicable membership-change policy, the obtaining selector relation and its returned set or archive when a selector is involved, the selected-set result declaration when current, the publication relation when that value is published, and all slices needed for the actual dependency closure when currentness changes (5.13).
+Minimum split-and-join use names the selected `TransformationFlowStructure`, the actual split or join predicate and its complete participants, any applicable membership-change policy, the selector-facing outcome when selection is at issue and the actual result binding when a selector has returned a value, the selected-set result declaration when current, the publication relation when that value is published, and all slices needed for the actual dependency closure when currentness changes (5.13).
 
 Apply the definitions and tests in `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, and `G.5` when comparator, selector, archive, pool, or result-declaration claims are current; use `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability, `A.21` for a gate claim, and `G.11` for a refresh claim.
 
@@ -247,16 +249,18 @@ E.18 imports E.17 in full and associates MVPK faces with `PublicationScope` (USM
 **MVPK remains the source for:**
 * the set of face designators (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`),
 * pin discipline and Publication Characteristics (PC),
-* “no new claims; in the optional morphism profile, no re‑listing of inputs and outputs and no Γ‑semantics on publication morphisms”.
+* source fidelity, one authoritative signature for inputs and outputs in the optional morphism profile, and separation of publication morphisms from the resource use of performed Work.
 
 E.18 adds only the following **structure-scope obligations** to those rules for faces published over transformation-flow paths:
 
 1. **Crossings on faces.** When a face publishes a GateCrossing, it cites the `CrossingRef`, `ChangedBindingAccountRefs[]`, `GateId`, and any current `GateDecisionResult`, optional `DecisionLog`, policy-application, or permission-claim refs. An F.9 Bridge block appears only for a separately established cross-semantic use; its optional card and `CL` do not replace those refs.
 2. **Edition refs on faces.** A face that cites `CG-Spec`, `ComparatorSet`, `UNM.TransportRegistryPhi`, or another versioned value cites that value and its edition. Edition citation alone requires no Bridge Card, UTS row, or semantic Bridge.
-3. **ComparatorSet and set returns (structure-scope).** Any `ComparatorSet` and `SetSemanticsRef` used along a transformation-flow path carries **edition identifiers**; affected uses are reconsidered when a relied-on premise changes, and faces are **re-emitted** when the result or an applicable publication rule requires it; faces with comparison **return sets and declared partial orders** (no hidden scalarization), reusing MVPK's declared-order discipline.
+3. **Comparison and selection on a face.** Identify the editions of any `ComparatorSet` and `SetSemanticsRef` the path uses. For a source contrast, report what the comparison establishes under its criteria. If a selection or ordering is published, preserve its actual result, declared order and any supported scalarization. Reconsider affected uses when a relied-on premise changes and re-emit a face when the result or an applicable publication rule requires it.
 4. **Gamma_time on compare and launch faces.** Every current compare or launch publication face on an E.18 path pins `Gamma_time`; implicit *latest* is not admissible. A.21 cites the current profile application and qualification window. **CHR avoids acceptance thresholds** (*NoThresholdsInCHR*); gate and threshold claims are carried by A.21 and Part G, while actual performed facts are established through independently obtaining relations involving exact Work occurrences under A.15.1. A source `unknown`, `notRun`, or error remains explicit before the current profile rule maps it to a gate decision.
 
 > MVPK supplies the "signature" naming rule, the optional morphism profile's input-output rule, arithmetic-visibility rules, and material numeric-pin requirements (E.17 §5.4-5.5). E.18 **does not weaken** those rules; `CC-E18-09` states the additional constraints on faces published along transformation-flow paths.
+
+The recipient may read the needed input or output declarations in the identified signature edition through a timely authorized route, including a checked offline copy. When no such route is available and the face is to support that decision, include the operative declarations on the face, attribute them to the signature edition and retain the material pins. Check the accessible expression against the source.
 
 **Lean publish-mode (AssuranceLane-Lite).** Lean changes publication faces only, not policy or checks. A current face cites the `profileApplicationRef`, identified `GateCheckApplicationResult` refs, and `GateDecisionResultRef`; it cites a `DecisionLogRef` only when an audit, history, replay, or reuse record is current. The underlying check-application results remain unchanged.
 
@@ -293,7 +297,7 @@ A penalty requires an applicable current policy and its rule application. Cite P
 Use the following conditions to decide whether the comparison is admissible:
 
 * Compare on an already adequate common basis. Apply A.19.UNM before comparison when the CN-Spec, applicable protocol or receiving use requires re-expression. UNM admits different normalization methods. Retain the method used for this case, its invariants and edition, and any transport rule used. The comparison and aggregation still require their applicable rule, admissible operands and evidence. A missing compatible basis remains a comparison gap; a normalization label does not supply it.
-* If the comparator defines a **declared partial order**, then returns are **sets or archives** (Pareto or Archive); if a **total order** is declared, it is the one provided by the comparator; otherwise set semantics apply and covert scalarization is out of scope here.
+* A comparison can settle a relation between two candidates under the stated criteria. Preserve a partial or total order when the comparator actually defines it. For a shortlist, joint-use set or archive, report the result returned by the selected procedure under its declared semantics. Identify any scalarization and its basis.
 * If a claim is **ordinal-only**, publish comparison results under its declared order. Arithmetic transforms such as means and z-scores require a separately governed scoring method and Scale that support them under C.16; naming a comparator or downstream policy does not supply that justification.
 
 Edition-aware publication records for sets or archives (e.g., QD archives) pin `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and the `CharacteristicSpaceRef` with its separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1 when applicable; refresh covers all actual dependent uses under 5.13.
@@ -303,7 +307,7 @@ For current selector, archive, pool, selected-set result-declaration, comparator
 #### E.18:5.6 - S6 - Cycle discipline (Selection ↔ Planning)
 
 * The selected structure may center a loop between the `SelectionAndTuning` locus, whose relation satisfies the named selector and comparator definitions or tests, and the `WorkPlanning` locus, which binds one `A.15.2 U.WorkPlan`. Any A.15.3 planned-filling row remains declaration-local content inside that WorkPlan.
-* The Selection-Planning loop is represented under local **budget and max_iter** in `Γ_time`; at expiry, the selector relation returns its declared current set or archive outcome, such as `CandidateSet`, with the applicable partial-optimality status. If the next step needs changed tuning, a separately identified `U.WorkPlan` with any declaration-local A.15.3 planned-filling rows, or a separately identified configuration or policy that passes its own applicable rule, carries that tuning; it is not another entity returned by the selector. Further improvement is placed in the **next `PathSlice`** only through that explicit planning, configuration, policy, or refresh continuation.
+* Declare the local **budget and max_iter** in `Γ_time`. At expiry report the outcome supported under G.5:4.4b–4.4e. An admitted selection may have returned a set, including an empty shortlist under its criteria. Missing required grounds can justify abstention, and the declared handoff or escalation requires its own grounds. A search stopped by the budget establishes optimality only with a proof or adequate coverage of the stated domain. For a result over explored candidates, give that extent. If further tuning is needed, identify a separate `U.WorkPlan` with any A.15.3 declaration-local planned-filling rows, or a configuration or policy that passes its applicable rule. Carry it into the next `PathSlice` through its planning, configuration, policy or refresh relation.
 * **Establish the comparison basis before the loop.** Use it directly when adequate; apply UNM when normalization is required. If the applicable measurement, currentness or UNM check finds missing or stale measurements, retain that finding. A request for fresh measurements does not by itself establish a refresh plan.
 
   If the receiving use plans measurement refresh, A.15.2 identifies the WorkPlan; when a reusable declaration member must be pinned, A.15.3 adds only a declaration-local row inside that WorkPlan. For later dated refresh Work, recover each actual performer through A.13 and let A.15.1 independently admit the occurrence. Add F.6 only when the receiving use also consumes precise assignment-bound attribution; F.6 neither discovers the performer nor supplies classification, and its failure alone leaves independently admitted Work intact. Keep the later measurement and calibration separate. A `RefreshReport@Context` is likewise separate from the request, plan, Work, measurement, and calibration.
@@ -313,9 +317,9 @@ For current selector, archive, pool, selected-set result-declaration, comparator
 > **Refresh orchestration.** Telemetry records and publications that designate an identified Work occurrence are **slice-scoped**, editions re-pinned, and faces **re-emitted**. Telemetry remains a separate episteme and does not constitute the occurrence.
 
 #### E.18:5.7 - S7 - Selector semantics (G.5) and parity harness (G.9)
-E.18 keeps set-return, archive preservation, and comparator refs visible along the path. In current selector or comparator cases, use `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` for selector, archive, dominance, or comparator semantics.
+For a selector-facing outcome, keep the selection, its result binding when one exists, the declared outcome and any exploration archive identifiable along the path. Use `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9` and `G.11` for their selector, archive, dominance, comparison and refresh rules.
 
-* **Selectors return sets.** Default **DominanceRegime** is `ParetoOnly`; **IlluminationSummary** (telemetry summary) and any coverage and regret telemetry quantities are **report-only telemetry**, excluded from dominance **unless** a CAL policy promotes them as declared dominance inputs (policy-id in SCR).
+* **Apply set semantics to set returns.** For an admitted Select, preserve the actual `CandidateSet` and its binding. For abstention, preserve the failed or unknown condition. The default **DominanceRegime** is `ParetoOnly`. **IlluminationSummary**, coverage and regret remain report-only telemetry unless a CAL policy identifies them as dominance inputs (policy id in SCR).
 
 `PortfolioMode=Archive` retains exploration evidence under G.5:4.4e and CC-G5.23. It neither activates QD nor names the emitted selector outcome. When an actual selector relation constructs or returns a QD archive, retain that archive under its C.18 and ArchiveConfig basis; a G.5 outcome is declared separately under G.5:4.4b–4.4e.
 

@@ -6,12 +6,12 @@ section_id: "E.18.2:5"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__008_conformance-checklist.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:5 — Conformance checklist"
-line_start: 119150
-line_end: 119162
+line_start: 119273
+line_end: 119285
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 - `CC-E18.2-1` The current EntityOfConcern is `TransformationFlowMathematicalDescription@Context`, not the selected E.18 TFS or E.18.NET network itself.
 - `CC-E18.2-2` Exactly one described ontic subject branch is present: `DescribedTransformationFlowStructureRef?` or `DescribedTransformationFlowStructureNetworkRef?`. The optional `DescribedSliceOrLocusRef?` resolves through the selected E.18 or E.18.NET subject and does not duplicate its fields.
 - `CC-E18.2-3` The mathematical expression family is named without minting a new U-kind.
-- `CC-E18.2-4` Preserved structure, lost structure, declared use, and boundary stop are named when the expression is claim-bearing.
+- `CC-E18.2-4` For a claim-bearing expression, state its declared use, the structure preserved and lost, and its `BoundaryStop`. Identify which inference would require returning to the omitted information or obtaining other grounds. If the claim is that combining the summaries preserves the answer from the detailed models, establish that comparison for the stated domain. For the decision itself, a sufficient bound can settle a threshold, a jointly admissible case or an existence proof can establish possibility, and independent grounds can settle the requested answer.
 - `CC-E18.2-5` C.29 is used when mathematical-lens adequacy, payoff, obstruction, preserved/lost structure, or stop condition is being evaluated beyond the local description relation.
 - `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, wiring, and network-expression language can describe the selected subject mathematically. To assert which ontic structure or network is selected, identify it independently using E.18 or E.18.NET.
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.

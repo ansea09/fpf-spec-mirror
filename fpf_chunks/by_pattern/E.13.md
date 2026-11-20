@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
-line_start: 111928
-line_end: 112135
+line_start: 112023
+line_end: 112234
 dependencies:
   - "A.10"
   - "A.21"
@@ -150,7 +150,7 @@ Whenever a proxy improves under optimization pressure, ask what became worse or 
 
 Check at least usability, affordability, safety or harm boundary, maintainability, domain fit, source preservation, decision quality, learning, and neighboring-pattern fit when they are live in the case.
 
-If nothing worsened, identify what was checked. If nothing was checked, do not claim value alignment.
+Report the affected decisions, protected qualities and interactions covered by the comparison. A gain for one shift can be established even while the effect on another is unknown. If both shifts depend on the same specialist in the same hour, examine what the specialist can deliver to both before claiming a gain for the service as a whole.
 
 #### E.13:4.4 - Require a Minimally Viable Value Slice
 
@@ -161,6 +161,10 @@ State whether the slice is an illustration, desk replay, or observed use, and wh
 The slice may be small. It must show the intended value for the declared use. A proxy reading alone is insufficient.
 
 A worked illustration can explain how a proposed repair would serve that value; it does not by itself establish an observed gain. Keep any claim about actual improvement within the comparison and evidence that support it.
+
+A wrong dispatch costs 20 minutes and an extra check costs one minute per dispatch. If the check reduces the probability of a wrong dispatch by at least 0.1 in the intended work, the expected net saving is at least one minute per dispatch, with other costs unchanged. Describing how the check might catch an error identifies the mechanism. For the saving, establish the probability difference or a sufficient bound. A decline in recorded errors can also reflect changes in staffing, reporting or the jobs accepted.
+
+Use partial evidence when it already settles the decision. For a course of twelve people, five verified successes, three verified failures and four unknown outcomes give five to nine successes. An at-least-40% target is met and an at-least-80% target is missed. A 60% target remains open. Reports of ease from the same respondents answer a question about their experience. A rate for future courses needs a basis covering those participants and conditions.
 
 #### E.13:4.5 - Repair by Value Movement
 

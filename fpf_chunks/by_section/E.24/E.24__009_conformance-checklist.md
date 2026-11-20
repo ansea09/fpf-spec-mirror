@@ -6,12 +6,12 @@ section_id: "E.24:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_conformance-checklist.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:6 — Conformance Checklist"
-line_start: 124464
-line_end: 124497
+line_start: 124593
+line_end: 124626
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -51,7 +51,7 @@ A direct result closes from its current assertion and direct pattern. An inactiv
 | `CC-E24-1` | The cheap card names the recognizable situation, one exact receiving use, one ontology disposition, any current source use, and one independently identified pre-judgment EntityOfConcern with its identity governor. That subject stays fixed; exactly one typed result points to the closing assertions, bounded episteme, durable ontic, or unresolved reason. Ordinary direct, bounded, and unresolved cases close here unless a stated full-form guard is true. Work and decision are examples of receiving use, not universal prerequisites. A working phrase, topic cluster, heading, or list is never accepted as the EntityOfConcern merely because it opened the inquiry. |
 | `CC-E24-1a` | The decision keeps two layers explicit. At the instance layer, every included direct relation names actual participant identities and meanings, any kind conditions required by its predicate, and its direct governor. At the ontology/declaration layer, typed decision claims state why each kind, relation rule, declaration, pattern, and dependent reliance belongs; no world-side occurrence among those declaration-level objects is implied. Any identity-bearing relation is marked explicitly. |
 | `CC-E24-1b` | The author characterizes the current case, runs existing-governor reuse, exact-identity, relation-or-constitution, dependent-use, and non-duplication tests, and fills the ontology disposition last. Its summary placement near the top of a card is not evidence that it was selected first. |
-| `CC-E24-1c` | Direct use is selected when one readable governed claim closes the receiving use; bounded episteme when that use needs several governed claims read together but no pattern consumes their package as ontology; durable ontic only when multiple current patterns must reuse one independently identified ontology unit and would otherwise duplicate or disagree about identity, constitution, or the minimal relation set. |
+| `CC-E24-1c` | Use one governed assertion when it settles the named use. Coordinate several governed claims when the use needs them together. Check known dependencies that could change the disposition. A durable ontic needs multiple current patterns to reuse the same independently identified unit to avoid duplicating or disagreeing about its identity, constitution or necessary relations. Keep any established local result when a broader dependence remains unresolved. |
 | `CC-E24-2` | Existing exact rule content is checked by value before a new ontic is selected. For a relation-kind candidate, the decision cites the exact direct relation pattern passage, which states participant meanings, obtaining, applicability, and occurrence identity, or an `A.6.RCD` result that returns a derived or primitive candidate with that proposed direct subject settlement. Local claim and predicate-definition results are not admitted as relation kinds. |
 | `CC-E24-3` | When the durable branch is selected, the decision states the proposed ontic's stable identity criteria and says what does and does not change that identity. |
 | `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, independent participant-identification rules, required kind conditions, obtaining condition, and occurrence identity. A typed use additionally requires independently governed participant ranges and complete A.6.5 SlotSpecs; ontic settlement supplies no missing kind admission. |

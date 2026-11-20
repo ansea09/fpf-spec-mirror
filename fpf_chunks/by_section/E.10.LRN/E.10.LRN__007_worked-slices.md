@@ -6,12 +6,12 @@ section_id: "E.10.LRN:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__007_worked-slices.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:5 — Worked Slices"
-line_start: 106912
-line_end: 106943
+line_start: 106997
+line_end: 107030
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,9 @@ keywords:
 
 “A coach taught Lee to swim” opens a teaching-Work claim. Recover coach and Lee as Systems, the dated coaching and practice Work, enacted Method, conditions, and intended result.
 
-“Lee learned to swim” opens a holder-capability claim. Recover target swimming Work, support conditions, observed performance, transfer conditions, and evidence. The capability claim leaves the causal route open. The teaching claim does not prove the capability claim. A later causal question uses `C.28`.
+A supervisor needs to know whether Lee can swim one length of this pool unaided today. A recent observed crossing can settle that question if the stroke, distance, support and conditions match. To say that Lee **learned** to do it during the course, establish what Lee could do at the start. A prior swimming record can supply that comparison. A successful crossing after coaching is compatible with Lee having been able to swim the length beforehand.
+
+To credit a particular teaching Method with the change, examine the alternatives that could explain it under `C.28`. If a new aid and coaching were always used together, evidence can support their combined use while leaving their separate effects open. An assignment in open water needs grounds for transferring the pool result to those conditions.
 
 #### E.10.LRN:5.2 - GAN training
 

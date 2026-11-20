@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 118199
-line_end: 118238
+line_start: 118314
+line_end: 118353
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -64,7 +64,7 @@ keywords:
 
 **UNM and comparability**
 * **E.18 -> uses -> A.19.UNM when normalization is required.** Reuse an adequate common basis directly. Otherwise establish the normalization and its applicable declarations under UNM; publish the `CG-Spec`, `ComparatorSet` and `UNM.TransportRegistryPhi` values consumed.
-* **E.18 -> constrains -> G.5 SelectionAndTuning.** Set-returning, comparator-pinned decisions and no hidden scalarization; cite the selector-declared set, handoff, abstain, or escalation outcome. Any next-step tuning remains in its separately identified `U.WorkPlan` with any declaration-local A.15.3 planned-filling rows, or in a separately identified configuration or policy that passes its own applicable rule, with no launch-value slot filling.
+* **E.18 -> constrains -> G.5 SelectionAndTuning.** Source-backed outcomes, edition-pinned comparators when used, and explicit scalarization; cite the selector-declared set, handoff, abstain, or escalation outcome. Any next-step tuning remains in its separately identified `U.WorkPlan` with any declaration-local A.15.3 planned-filling rows, or in a separately identified configuration or policy that passes its own applicable rule, with no launch-value slot filling.
 * **E.18 -> constrains -> G.11 EvaluatingAndRefreshing.** EditionBumpProposal, any applicable two-phase update through the normalization declaration, and dependency-closed refresh through addressed slices. When current, identify `RefreshPlan@Context`, dated Work, later measurement and calibration, and `RefreshReport@Context` separately; no request, plan, record, audit artefact, or publication substitutes for another or becomes the returned world-side result by label.
 
 **Work boundary**

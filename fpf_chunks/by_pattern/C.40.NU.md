@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.NU.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
-line_start: 91654
-line_end: 91856
+line_start: 91697
+line_end: 91899
 dependencies:
   - "C.17"
   - "C.18"

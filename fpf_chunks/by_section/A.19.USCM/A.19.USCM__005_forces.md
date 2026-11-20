@@ -6,12 +6,12 @@ section_id: "A.19.USCM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__005_forces.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:3 — Forces"
-line_start: 39762
-line_end: 39777
+line_start: 39764
+line_end: 39779
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

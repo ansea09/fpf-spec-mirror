@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.FPF.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
-line_start: 98997
-line_end: 99337
+line_start: 99074
+line_end: 99414
 dependencies:
   - "C.33"
   - "C.34"
@@ -216,7 +216,7 @@ Use these steps for the FPF edition:
 
    Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3's entry guidance and unmatched-question return, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
 
-   Apply `E.11`'s use test before assigning card form, and use the current FPF declaration above for every selected key and form plus the English reading-burden measure and two limits. Add another public cue only when a named reader decision or action needs it.
+   Apply `E.11`'s use test before assigning card form, and use the current FPF declaration above for every selected key and form plus the English compactness measure and two limits. Add another public cue only when a named reader decision or action needs it.
 
    For the established all-in-one FPF carrier, add Readme through the same non-pattern table grammar already used for Architectural Reference, preserve the compact pre-ToC shape, and keep the exact line-position and native-ToC assertions in the builder regression. Keep FPF-specific source selection, body order, and assembly here; the carrier and form remain separate from the FPF edition.
 5. Readme, Architectural Reference, ToC, the public opening, cards, and the pattern collection are publication units. Reusable rules for arranging them supply the publication form. Identify the particular expression of the selected edition that follows those rules.
@@ -347,7 +347,7 @@ In the repaired candidate, DUA-2, PUR-2 and Ways-1 match their selected sources,
 
 ### E.4.FPF:9 - Consequences
 
-Authors can reproduce an FPF publication by building its Readme, Architectural Reference, ToC and pattern-body units, arranging them in all-in-one or split forms, and publishing them through identified files, sites, volumes or bundles. Skill, MCP, search or retrieval access can expose that publication while keeping edition, publication and access claims distinct. The same declaration keeps FPF's few direct and cross-pattern examples, their forms, and the two reading-burden limits aligned across authoring, assembly, and validation. The selected examples show how to use the pattern language, while the unmatched-question return keeps further discovery available.
+Authors can reproduce an FPF publication by building its Readme, Architectural Reference, ToC and pattern-body units, arranging them in all-in-one or split forms, and publishing them through identified files, sites, volumes or bundles. Skill, MCP, search or retrieval access can expose that publication while keeping edition, publication and access claims distinct. The same declaration keeps FPF's few direct and cross-pattern examples, their forms, and the two length limits aligned across authoring, assembly, and validation. The selected examples show how to use the pattern language, while the unmatched-question return keeps further discovery available.
 
 Stewards face an extra distinction: whole-FPF form differs from DPF authoring, package adequacy, individual pattern quality, and first-entry publication. The extra work is justified because those problems require different evidence and can fail in different ways.
 

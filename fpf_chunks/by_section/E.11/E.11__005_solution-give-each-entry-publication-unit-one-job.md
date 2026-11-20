@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 109122
-line_end: 109614
+line_start: 109209
+line_end: 109703
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -108,6 +108,8 @@ The displayed entries illustrate how the pattern language can help. When both us
 The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
 Before selecting a card, compare the proposed entry with the same truthful content but no mantra. If a cold reader can still recognize the situation, choose the direct pattern and any plainly conditioned next use, recover the first result or blocker, and return after interruption or repetition just as reliably, keep a locator or ordinary entry.
+
+Decide what readers need to recover, with what aids and after what delay. Seeing the answer on the first attempt can teach it for the second. Use comparable unfamiliar tasks, or compare readers whose prior preparation and assignment to conditions allow the mnemonic's effect to be distinguished. Faster initial learning, a correct first choice and successful return after an interruption answer different questions. One reader can show the route that reader took. A claim about repeated use across the intended audience needs grounds covering those readers and tasks.
 
 Select a card only when, without the repeatable formula, the reader is materially more likely to lose a choice-changing question, intermediate result, check, branch, or return, and repeating the mantra restores that reasoning.
 
@@ -339,7 +341,7 @@ Read each published entry first in the form the public will see. A passing ordin
 
 For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`.
 
-After one read, a cold engineer or manager can repeat the formula in their own words, name the first useful result or blocker, follow `Start with` to the direct pattern and any conditioned next use, and use the same key to recover any optional expansion. The direct pattern remains authoritative.
+On a first reading, ask the reader to put the formula in their own words, name the first useful result or blocker, follow `Start with` to the direct pattern and any conditioned next use, and recover the optional expansion by its key. Check later return under the conditions specified for the card. The direct pattern remains authoritative.
 
 A short slogan that loses a choice-changing distinction fails, and a form-valid card that provides no mnemonic gain returns to ordinary-entry or locator form.
 
@@ -378,7 +380,7 @@ A blocker states the missing rule or information and carries no fulfilled result
 
 Give every selectable public entry one stable semantic key so the reader can return to the same situation after wording, grouping, or presentation changes. The product maintains one declaration that assigns each key exactly one ordinary-entry or card form. An optional expansion repeats its enclosing card key only to remain findable; it is not another selectable occurrence. This rule creates no universal entry kind or second key registry.
 
-`E.4.FPF` carries the current FPF example-key and form declaration plus its language-appropriate reading-burden measure and two maxima. A DPF or LPF carries its own product declaration under `E.4.DPF`. E.11 therefore does not maintain another FPF key list or treat displayed examples as product coverage.
+`E.4.FPF` carries the current FPF example-key and form declaration plus its language-appropriate compactness measure and two maxima. A DPF or LPF carries its own product declaration under `E.4.DPF`. E.11 therefore does not maintain another FPF key list or treat displayed examples as product coverage.
 
 E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`.
 

@@ -6,12 +6,12 @@ section_id: "A.7.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__005_forces.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:3 — Forces"
-line_start: 26816
-line_end: 26825
+line_start: 26818
+line_end: 26827
 dependencies:
   - "A.11"
   - "A.7"

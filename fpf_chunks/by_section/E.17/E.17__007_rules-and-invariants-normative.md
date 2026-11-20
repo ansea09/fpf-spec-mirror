@@ -6,12 +6,12 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 114972
-line_end: 115003
+line_start: 115085
+line_end: 115116
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -46,23 +46,23 @@ keywords:
 
 ### E.17:6 - Rules and Invariants (normative)
 
-**Publication-composition local test bundle.** A face that claims compositional publication passes five local tests:
+**Local publication-composition test.** For a claim about specified objects, arrows and forms, check the applicable local properties. For a law over a category, use the domain-wide conditions below.
 
 1. `identity`: `Emit_s(id_X)` is the identity face morphism for `FaceObj_s(X)`;
-2. `composition witness`: the face for `g o f` matches the composition of the faces for f and g, or is marked non-compositional or explanatory-only;
-3. `no-new-claim diff`: comparison with the selected source episteme shows only formatting, indexing, pinning, or conservative construction;
+2. `composition witness`: compare the face for `g o f` with the composition of the faces for f and g under the selected equality. A verified match supports this pair. A failed comparison leaves the composition claim unavailable for this pair.
+3. `no-new-claim diff`: compare the meaning and conditions of the face with the selected source episteme, including any paraphrase, pin or conservative construction.
 4. `monotone promotion`: a richer face adds fields, pins, or typing without retracting or strengthening the source claim;
 5. `scope non-widening`: `U.PublicationScope` stays within the claim or work scope used by the selected description.
 
-For composable arrows `X -f-> Y -g-> Z` and `s,t` in `F_face`:
+For the optional formal profile, declare the source objects and arrows in scope, the target face category for each form `s`, and the equality used there. Give the rule that sends each object X to `FaceObj_s(X)` and each source arrow `f : X -> Y` to an arrow `Emit_s(f) : FaceObj_s(X) -> FaceObj_s(Y)`. Specify its action on the information retained by the face. If two source inputs have the same face representation but require different represented outputs, that information alone cannot determine the proposed action (C.29.1:4.4).
 
 1. **Functoriality and typing per face.**
-   * `Emit_s(id_X) = id_{FaceObj_s(X)}`.
-   * `Emit_s(g o f) = Emit_s(g) o Emit_s(f)` only when the face carries the local witness.
+   * For each object X in the claimed domain, `Emit_s(id_X) = id_{FaceObj_s(X)}`.
+   * For every composable pair `X -f-> Y -g-> Z` in that domain, `Emit_s(g o f) = Emit_s(g) o Emit_s(f)`. Derive the laws from the action on arrows, check the identities and all pairs of a finite domain, or define the action on a generating presentation and show that it respects its defining relations and extends to the specified action. A use concerning one composite can end at its verified equality.
    * If `f : X -> Y`, then `Emit_s(f) : FaceObj_s(X) -> FaceObj_s(Y)` is total in the selected formal substrate. An ill-typed composite blocks that formal claim. Weakening conformance does not repair it.
 2. **Face-promotion coherence.**
    * If `s <= t`, the t-face is a more explicit publication form for the same selected source claims.
-   * `PromoteFace[s->t]_X : FaceObj_s(X) -> FaceObj_t(X)` is natural in X.
+   * For a natural promotion give a component `PromoteFace[s->t]_X : FaceObj_s(X) -> FaceObj_t(X)` for every object. For every arrow `f : X -> Y`, establish `PromoteFace[s->t]_Y o Emit_s(f) = Emit_t(f) o PromoteFace[s->t]_X`. For functors on the stated domain, checking the squares on generators suffices when they generate all arrows. For a claim about just one arrow, its square is sufficient.
    * Identity and composition of `PromoteFace` follow the selected formal substrate. `AssuranceLane` is outside the default formality chain.
 3. **Source episteme and construction.**
    * Every `Emit_s` use names the source episteme edition. It resolves a `publicationViewpointRef` only when the selected episteme is claimed as a `U.View` or the formal operation's definition depends on that viewpoint.

@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_worked-cases.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:5 — Worked cases"
-line_start: 114386
-line_end: 114446
+line_start: 114499
+line_end: 114559
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -78,7 +78,7 @@ E can assert or describe RA without becoming RA. Any responsibility of S remains
 
 #### E.17.2:5.4 - One view, two publications
 
-Module-interface view E is published as an interactive model and as a printed inspection sheet. Both publication occurrences select the same episteme edition. Their forms and carriers differ. Both publications involve the same E, its conformance occurrence, and its `U.View` membership.
+Module-interface view E is published as an interactive model and as a printed inspection sheet. Both publication occurrences select the same episteme edition. Their forms and carriers differ. Both publications involve the same E, its conformance occurrence, and its `U.View` membership. If an inspector needs the interface’s load limit offline, the sheet can support the decision by carrying the applicable condition and its source or by providing a route the inspector can use in time. A link back to the interactive model can already suffice for a reader who only needs to locate it.
 
 #### E.17.2:5.5 - DDD Context Mapping method and product
 

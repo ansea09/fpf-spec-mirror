@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 109615
-line_end: 109752
+line_start: 109704
+line_end: 109841
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -58,7 +58,7 @@ Suppose a new `A.6.3.RT` edition restores a progressive representation result: a
 
 Repair only the affected `WORKING-DOCUMENTS` branch so its first result and escalation triggers match the direct pattern. The card heading and general question remain unchanged when readers still recognize the same situation.
 
-If the repair changes the cross-pattern path that the mantra must help the reader recover, or its first result or return, compare the same truthful entry with and without the mantra after a delay or interruption. Reuse a still-applicable comparison for unchanged mnemonic content and use. Keep the card only when the comparison supports a material mnemonic gain. If the two forms perform alike, use an ordinary entry or locator; if the mantra hides the result or return, repair or drop it.
+If the repair changes the cross-pattern path that the mantra must help the reader recover, or its first result or return, compare the same truthful entry with and without the mantra after the relevant delay or interruption. Use equally informative task inputs and allow for what readers learned in any earlier attempt. Reuse a still-applicable comparison for unchanged mnemonic content and use. Keep the card only when the comparison supports a material mnemonic gain. If the comparison supports equivalence for the intended use, use an ordinary entry or locator; if the mantra hides the result or return, repair or drop it.
 
 #### E.11:5.5 - A better first-click rate can make discovery worse
 

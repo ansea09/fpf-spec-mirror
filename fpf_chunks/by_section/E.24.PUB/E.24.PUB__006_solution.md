@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:4 — Solution"
-line_start: 124998
-line_end: 125187
+line_start: 125127
+line_end: 125322
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -174,11 +174,15 @@ For form-mediated availability through C, the same X must witness expression, be
 
 ##### E.24.PUB:4.2.1 - Keep the granularity of the availability claim
 
-A consumer can claim continuous availability of E to A for U over an interval when, at every time in that interval, at least one appropriate X and C provides that availability. If the consumer fixes F, C or a set of permitted carriers, retain those constraints in that claim.
+If the undertaking is to provide access by a deadline, establish that each intended reader can use an allowed expression and carrier in time. To conclude that assigned reading was completed, establish that the assigned readers actually read the required material by the deadline. For continuous access, each reader must have such a route at every relevant time. Routes may differ between readers and may change during the interval. On each form-mediated route, the same X must express E, be borne by C and satisfy the required form. Keep any fixed edition, expression, form or carrier specified for the job. Delivery to a delegate can satisfy an undertaking to the group when its receiving rule grants that role. An entitlement for each member requires coverage of each member.
 
-A change of exact publication does not prove an interruption of this broader availability. A gap is established when the required availability fails across the permitted alternatives. Failure of one copy or route alone does not establish that broader gap.
+If everyone must use one carrier, identify a carrier accessible to all as required. Its accessible expressions can differ when the job permits. If the carrier must stay the same throughout, identify that same carrier across the interval. A single exclusive login can serve two readers in turn. It fails a requirement for simultaneous independent sessions. Joint reading of a display can suffice when the group needs one shared session.
 
-This broader statement needs no new public publication kind or generic occurrence unless a receiving use independently needs its identity.
+For a joint log, identify the agreed record and its accepted starting version. Check who may enter or merge changes and whether the intended readers can see the agreed entries when needed, including how competing edits are resolved. A shared read-only file and disconnected personal annotations allow reading but leave the joint entries unavailable. Authorized replicas that reconcile by 18:00 can serve an end-of-shift log. A team that needs the changes at noon must establish visibility by noon. Require one physical log only if that is part of the job.
+
+One established route suffices wherever it covers the requirement, even with an unknown backup. A failover guarantee with established starting conditions, capacity and transitions can cover the interval, including the switch. If a reader loses one route and a permitted alternative is unverified, coverage for that reader and time remains open. Established failure of every allowed route for that reader at that time refutes continuous access for everyone. Retain the readers, uses and times for which access is established.
+
+Availability establishes an opportunity to act. If actual delivery, receipt, reading or amendment is commissioned, establish the specified event. For an agreed final log, verify the specified content in the accepted version. If a particular edit or author matters, check the amendment and any required attribution. These cases use the ordinary publication relations without a new kind.
 
 #### E.24.PUB:4.3 - Use progressive explicitness
 
@@ -189,6 +193,8 @@ Use the smallest statement that supports the current work:
 3. **Contested availability:** state the `EpistemePublicationRelation` participants, obtaining evidence, and occurrence identity.
 4. **Contested expression:** open `PublicationExpressionRelation` and the applicable representation, preservation or loss pattern; inspect form conformance when the claim relies on it.
 5. **Contested carrier availability:** open `PublicationExpressionBearingRelation` plus the direct carrier-currentness or access pattern; preserve the fixed or quantified alternatives of the actual availability claim.
+
+If a crew needs an operating limit from a cited instruction, an accessible route to the relevant passage or sufficient source-attributed content on its offline card can each support the decision. A locator can finish a locating task. Check that the needed condition can be recovered in time when the task is to decide how to operate.
 
 Do not materialize all five levels as a standing publication card. Stop as soon as the receiving use can distinguish the operative object and relation.
 
@@ -224,5 +230,5 @@ A designator designates and a governed reference resolves to a referent. Neither
 
 In a pattern about an ontic, structure, architecture, characteristic space, method, or another subject, explain the subject's identity, relations, practical problem, and solution before publication details. Add E.24.PUB only when the receiving use depends on distinguishing the description, selected edition, form, carrier, audience, or bounded use.
 
-When the EntityOfConcern is a description episteme, the same rule applies one level up. The description stays the subject; publication of that description is a neighboring relation.
+An engineer checking the clearance of Pump #37 is asking about the pump. If the question becomes what its inspection card specifies, the card episteme becomes the subject. A verified reading of the card answers the second question. Using its value for the installed pump requires grounds that the measurement applies to that pump at the relevant time. A change of holonic scale requires a whole–part relation, such as the pump and its impeller. To compare levels of model abstraction, use B.5.MR on models of the same subject under the same inquiry and interpretation. If a summary drops a constraint, check which answers that change permits and whether the user relied on their exclusion. Publication of the card remains a separate relation.
 

@@ -6,12 +6,12 @@ section_id: "E.4.PFR:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Archetypal Grounding"
-line_start: 101466
-line_end: 101550
+line_start: 101545
+line_end: 101633
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -61,6 +61,10 @@ If a later Core relation-function maintenance replay must enumerate every CGUS p
 Start with the readable dependency assertion. The edition labels below are illustrative. `FPF@C1` contains the cited Core claims:
 
 > `CodexProcessFramework@L1` depends on `FPF@C1` for local process authoring: its revision guidance applies E.8:4.1.2, item 6, which requires repair of stale direct consumers in the same authoring increment; its evaluation guidance applies E.21:4.3's rule for an adjacent-value rationale in each coordinate result. Removing or materially changing either claim reopens the corresponding local guidance. Changing the selected FPF edition also requires checking these dependencies.
+
+A local review manual uses the evaluation guidance to judge scores. If the direct-consumer repair rule changes, revisit the local revision guidance. The manual's score judgement can still use the adjacent-value rule if its grounds hold. If that rule changes, trace the change through the local evaluation guidance to the manual. Adopting a different pinned Core edition still calls for the edition checks specified above.
+
+Suppose the manual accepts either a signed assessment under the named edition or an independently validated repeat assessment on the same scale. Either can support the score decision while it remains valid. Withdrawal of the signed assessment matters immediately if the repeat is only planned. If both assessments use the same faulty scale, agreement between them cannot rescue the score. A request specifically for the signed assessment under that edition still needs the signed assessment.
 
 Choose the representation from the receiver's job. A cross-relation comparison may use one generic PFR row. An edition-impact or refresh receiver may use one dependency-specific record. This receiver needs the relied-on content and refresh fields, so it uses only the dependency record:
 

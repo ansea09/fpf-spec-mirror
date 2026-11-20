@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:0 — Use This When"
-line_start: 124939
-line_end: 124963
+line_start: 125068
+line_end: 125092
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -44,7 +44,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 
 **First useful move.** Put the intended receiving use in the bounded-use declaration. Then say which episteme is available, to which declared audience, for which bounded use, through which expression and carrier.
 
-Name a reusable form when its constraints matter. Cite a separate plan, decision question or `U.WorkPlan` only when it independently exists and changes the publication claim. Distinguish availability from a claim of actual access or use.
+Name a reusable form when its constraints matter. Cite a separate plan, decision question or `U.WorkPlan` only when it independently exists and changes the publication claim. Distinguish availability from a claim of actual access or use. When a team needs access, decide who needs to do what, by when. Apply §4.2.1 when different routes or conditions could change that answer.
 
 Open fuller relation detail when needed to resolve disputed availability, its boundary or publication-occurrence identity.
 

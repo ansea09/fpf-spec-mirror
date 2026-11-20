@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:6"
 section_title: "Boundary dispositions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__007_boundary-dispositions.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:6 — Boundary dispositions"
-line_start: 117061
-line_end: 117084
+line_start: 117176
+line_end: 117199
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,11 +51,11 @@ Use a different governing pattern when:
 | The repaired local lexical head is no longer the main problem and the publication unit still has unstable primary-subject or carried-move reading. | `E.17.AUD.LHR:3.2 Row 5`: one local repair no longer stabilizes one object, one move, and one outside-work boundary. | `E.17.AUD.LHR:5.5` |
 | The same unit is already stable enough and the remaining question is one bounded comparative review move over already pinned source epistemes or publications. | `E.17.AUD.LHR:3.2 Row 5`: the local lexical head now has a clear reading and the remaining question is the bounded comparison, not one more local repair. | `E.17.AUD.LHR:5.4` |
 | Outside observation or environmental change has changed what the same local unit can claim. | The local-repair threshold plus the stop-and-reopen safeguard: do not keep appending new pressure to the same unit. | `E.17.AUD.LHR:5.6` |
-| The unit is being used to communicate approval or a gate or adjudication decision, or to direct execution work. | `E.17.AUD.LHR:3.2 Row 4` plus the outside-work field: the sentence is no longer naming one overloaded local lexical head inside one review publication unit. | `E.17.AUD.LHR:5.5` and `E.17.AUD.LHR:5.6` |
+| A claim about approval, a gate, adjudication or execution still needs to be established. | `E.17.AUD.LHR:3.2 Row 4`. To communicate an existing decision, cite the authoritative outcome. If the authorized choice or action is still owed, identify it for the responsible party. | `E.17.AUD.LHR:5.5` and `E.17.AUD.LHR:5.6` |
 
 The comparison-side neighbor is `E.17.ID.CR ComparativeReviewUnit`: use that governing pattern when the local lexical head now has a clear reading, the unit already stays about the same primary subject, and the remaining question is one bounded comparison over already available source epistemes or publications.
 
-The main publication-unit neighbor is `E.17.AUD.OOTD PublicationUnit Primary-Subject Discipline`: use that governing pattern when local lexical-head repair is no longer enough and the whole publication unit still cannot keep one stable primary subject, one carried move, and one outside-work boundary visible.
+The main publication-unit neighbor is `E.17.AUD.OOTD PublicationUnit Primary-Subject Discipline`: use that governing pattern when local lexical-head repair is no longer enough and the reader still cannot follow the unit’s subjects, moves or outside-work boundary.
 
 Treat those as neighboring recoveries, not as a required sequence. Some cases will stop after one local repair, some will apply bounded comparison under `E.17.ID.CR`, and some will apply publication-unit stabilization under `E.17.AUD.OOTD` once the question the unit supports changes.
 

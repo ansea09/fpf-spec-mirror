@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.4.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
-line_start: 96985
-line_end: 97193
+line_start: 97046
+line_end: 97258
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -78,6 +78,8 @@ Recover the conflict, develop feasible alternatives, compare their consequences 
 5. **Return the supported recommendation or decision.** If the comparison basis and available options are settled, C.11 supplies the local choice. If the value conflict remains unresolved, give the conditional alternatives, the missing agreement or authority, or a refusal or impasse. Do not manufacture a common scalar to force a winner. State a residual consequence and a reconsideration condition when they matter to this use. A recommendation does not establish consent, permission or performed work.
 
 Use the same reasoning when the option is advice, publication, a technical change or a change to a method. Identify how its possible use can affect other participants; describing one's contribution as analysis leaves that question open. The relevant causal and responsibility relations need their basis.
+
+Decide the reach of the proposed action. For a decision on behalf of a group, establish which procedure gives the decision force, whose work or rights it covers, and who can carry it out. Record a member’s dissent when it matters to the decision or its consequences. If the recipient wants a standing rule, examine the cases the rule would permit. A change in exposure, access, authority or available means can reverse the comparison. Where the same premises support the recommendation throughout the proposed use, the existing reasoning can cover those cases.
 
 #### D.4:2.2 - Retain the decision basis when the work needs it
 
@@ -170,6 +172,8 @@ For this constructed decision, the participants' stated orderings are:
 Both orderings prefer the voluntary option to either original alternative. The team can recommend it on this basis without adding the ordinal ranks or deciding how much privacy one unit of access is worth. The judgement concerns these supplied preferences and feature conditions. The technical feature, the permitted voluntary arrangement and each participant's choice are separate contributions to its use.
 
 Now suppose the team instead needs guaranteed coverage of a required shift. Voluntary windows do not guarantee that contribution. The previous recommendation remains an answer to finding a willing specialist, but does not answer the changed staffing question. Return to the staffing arrangement and its affected commitments. A new assignment, another resource or a changed service promise may be needed.
+
+If a second team asks only how to find a willing specialist, it can use the same recommendation when the feature is available, the applicable permission covers that use and the affected participants’ privacy and access judgements still support that option. A decision to offer the feature across the organization can authorize making it available to both teams. Each disclosure still depends on the choice or other authority governing that disclosure.
 
 #### D.4:4.2 - Keep a useful decision when a stronger claim is unavailable
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.MS.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
-line_start: 33225
-line_end: 33602
+line_start: 33227
+line_end: 33604
 dependencies:
   - "A.15.8"
   - "A.19"

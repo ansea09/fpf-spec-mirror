@@ -6,12 +6,12 @@ section_id: "E.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__007_bias-annotation.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:6 — Bias-Annotation"
-line_start: 98413
-line_end: 98429
+line_start: 98490
+line_end: 98506
 dependencies:
   - "C.20"
   - "C.33"
@@ -52,7 +52,7 @@ keywords:
 
 The recurrent drift is publication-first architecture: the visible file, all-in-one carrier, card deck, table of contents, or graph is treated as the architecture because it is what a reader sees first. The repair is to name the selected structures and dependency direction first, then use publication patterns to expose them.
 
-Another recurrent drift is Core absorption: useful domain or local material is pulled into the Core because it is well written or broadly reusable. The repair is to ask which domain or local situation the claim addresses and which framework edition should depend on which more stable edition.
+A useful local rule may suggest a Core amendment. Identify what makes the rule hold across the domains where readers would apply it. If its conclusions still depend on one practice's convention or authority, publish those conclusions with that practice. Credit the local source for the discovery when a transdisciplinary argument can stand on its own.
 
 | Lens | Declared bias and counter-check |
 | --- | --- |

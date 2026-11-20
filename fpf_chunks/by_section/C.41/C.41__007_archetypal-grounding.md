@@ -6,12 +6,12 @@ section_id: "C.41:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__007_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:5 — Archetypal Grounding"
-line_start: 93824
-line_end: 93867
+line_start: 93869
+line_end: 93912
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -53,7 +53,7 @@ Begin with [C.41](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41---selec
 
 The worked case below explains those conditional moves. Resume at the unresolved contribution after interruption; if the questions have been answered but the aid's worth remains unknown, continue with **Worth and improvement** and [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option).
 
-**Selection.** C.41 separates the physical-set description from the assumption that this set will serve the exercise. The three selected questions concern contents/readability, wording and assembly. A separate exercise trial addresses instructional usefulness. The result is a bounded question set with sources for its answers.
+**Selection.** Here the facilitator supplied the description, and the three questions concern contents and readability, wording and assembly. With grounded answers the packer can settle whether this set meets that description for delivery. To commission the packer to design checks for future sets, give the packer the work and its acceptance conditions and examine which omissions the packer identified, which questions the packer selected and why. An earlier design with those choices can serve. The facilitator's separate trial addresses what the set enables participants to do in the exercise.
 
 **Construction.** C.41.TF puts the set and description reference once above the questions. The packing view carries count/readability and assembly; the facilitator's view carries wording comparison. Both retain S and v2. The answer forms allow a supported negative or an unresolved question. The transposed example in C.41.TF shows the same answers without changing their subject.
 

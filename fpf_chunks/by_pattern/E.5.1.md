@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.1.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
-line_start: 102047
-line_end: 102128
+line_start: 102130
+line_end: 102211
 dependencies:
   - "E.5"
 keywords:
@@ -44,7 +44,7 @@ Apply the **Lexical Firewall** to the subject the text governs:
 2. **Retain the syntax needed to test conformance of a concrete subject.**
    When a rule governs a publication form, protocol or grammar, it **MAY** state the exact syntax needed to apply that subject's conformance condition. Name the subject and its edition or use boundary. The exception applies only where replacing the syntax with a conceptual alias would remove an operative condition.
 
-   A heading marker in a heading grammar qualifies. An unrelated build command does not. Calling executable code a grammar example supplies no exception.
+   E.8 H-2 specifies the characters that separate a heading identifier from its title. An editor can explain the separator in prose. To decide whether a submitted heading conforms, inspect the characters in that heading. A correct explanation of the rule can accompany a heading that fails it. An unrelated build command belongs with the tool that uses it.
 
 3. **Keep executable teaching in its teaching or Tooling source.**
    A Core concept needing a runnable illustration cites the teaching or Tooling artifact by conceptual name. Runnable teaching programs, concrete execution paths and commands remain there. A subject-defining syntax fragment under item 2 is not a runnable illustration merely because it appears in a code span or block.

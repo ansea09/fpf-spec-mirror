@@ -6,12 +6,12 @@ section_id: "C.41.OF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:5 — Archetypal Grounding"
-line_start: 94146
-line_end: 94159
+line_start: 94195
+line_end: 94208
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -25,7 +25,7 @@ The seminar organizer originally emails a spreadsheet a day before delivery. The
 
 The repaired arrangement puts the three questions and the v2 description in the preparation workspace. The packer counts and inspects during assembly; the facilitator compares wording where instructional interpretation is needed. Before closing the box, the organizer confirms the set and unresolved questions.
 
-Another reminder email would leave the missing access and late occasion unchanged. A permanent second observer would add effort before the team knows which difficulty remains. The organizer instead joins one initial use to inspect access and interpretation, then examines an ordinary later use if the arrangement will be relied on. Continued assistance is selected only for a difficulty that the revised arrangement still cannot resolve.
+Another reminder email would leave the missing access and late occasion unchanged. The organizer joins one initial use to inspect access and interpretation. To decide whether the new arrangement can be used routinely, the organizer can draw on a comparable ordinary use under the revised conditions. If the available evidence covers only the assisted use and the independent decision still matters, observe that decision at an ordinary packing occasion. Continued help or a second observer is worth arranging when it addresses a difficulty still present.
 
 On first use, “readable” turns out to be interpreted differently by two people. They inspect the cards under the intended display conditions and ask the facilitator what the exercise needs. Repair that interpretation in the criterion and nearby help before asking the packer to answer again.
 

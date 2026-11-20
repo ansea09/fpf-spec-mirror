@@ -6,12 +6,12 @@ section_id: "C.40.PC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__011_rationale.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:10 — Rationale"
-line_start: 92025
-line_end: 92030
+line_start: 92068
+line_end: 92073
 dependencies:
   - "A.15.9"
   - "A.2.3"

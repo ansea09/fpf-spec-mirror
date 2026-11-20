@@ -6,12 +6,12 @@ section_id: "C.42:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:5 — Archetypal Grounding"
-line_start: 94931
-line_end: 95004
+line_start: 94980
+line_end: 95055
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -64,7 +64,9 @@ The resulting 370 minutes include the recovery instead of hiding it. The record 
 
 The group can keep the change within these supported conditions while continuing the ordinary comparison.
 
-If correction persists because some supposedly matching identifiers have different meanings, the original prevention premise fails for those rows. The group reopens that interpretation and retains the useful deletion of the duplicate presentation.
+Consider a group with the same four weekly records whose month-end reviewer also needs the reasons that observations were excluded. Only the presentation gives those reasons. The four packets still support acceptance of the weekly work. The month-end use rules out dropping every presentation. If preparation staff know which packets go to month-end review, they can retain the presentation for those packets. To retire it there too, the group can put the reasons in the authoritative table and establish that the reviewer can retrieve them for the edition under review. The work of recording and using those reasons belongs in the revised comparison.
+
+If correction persists because some supposedly matching identifiers have different meanings, the original prevention premise fails for those rows. The group reopens that interpretation. It can still omit the presentation for packets where the presentation serves no further use.
 
 If the recipient later needs an annotated presentation for a new audience, the deletion decision is reconsidered for that use; the source-identity improvement can remain.
 

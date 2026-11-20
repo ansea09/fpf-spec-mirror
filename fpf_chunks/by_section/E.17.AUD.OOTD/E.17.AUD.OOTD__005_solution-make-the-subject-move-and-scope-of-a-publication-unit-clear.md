@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
 pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:4"
-section_title: "Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
+section_title: "Solution - make the subject, move and scope of a publication unit clear"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-stabilize-one-publication-unit-one-primary-subject-one-move-and-one-outside-work-boundary.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-make-the-subject-move-and-scope-of-a-publication-unit-clear.md"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
-  - "E.17.AUD.OOTD:4 — Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
-line_start: 117194
-line_end: 117332
+  - "E.17.AUD.OOTD:4 — Solution - make the subject, move and scope of a publication unit clear"
+line_start: 117309
+line_end: 117447
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ dependencies:
 keywords:
 ---
 
-### E.17.AUD.OOTD:4 - Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary
+### E.17.AUD.OOTD:4 - Solution - make the subject, move and scope of a publication unit clear
 
 #### E.17.AUD.OOTD:4.1 - Manager-first entry
 
@@ -58,7 +58,7 @@ If the problem is still confined to one vague local lexical head, start with `E.
 
 #### E.17.AUD.OOTD:4.1.a - Plain working terms
 
-- **Publication unit** = a bounded piece of writing or display that people are meant to read as a whole, such as a note, memo, sheet, table, or guided screen.
+- **Publication unit** = a bounded piece of writing or display that the intended person or agent is meant to interpret as a whole, such as a note, memo, sheet, table or guided screen. A validator asked only to check syntax can finish with that result.
 - **Primary subject** = what that bounded unit is mainly about for the current reading. It is an ordinary local publication term, not a new ontological kind.
 - **Concern** = the question, aspect, or issue foregrounded about that subject. The concern can change while the subject remains the same.
 - **`EntityOfConcern`** = the one `U.Entity` occupying the entity-participant position in the `C.2.1` constitution of one identified claim-bearing episteme. Neither a topic label nor a writing question identifies that participant by itself.
@@ -69,7 +69,7 @@ If the problem is still confined to one vague local lexical head, start with `E.
 
 #### E.17.AUD.OOTD:4.1.b - What can change
 
-Treat the publication unit under review as one bounded readable unit with one primary subject for the current reading. That local subject declaration does not make the unit itself the source episteme, `C.2.1` `EntityOfConcern`, publication form, carrier, or E.24.PUB publication occurrence.
+Treat the publication unit as the bounded material the reader is meant to interpret together. One primary subject and move suffice for a simple reading. Where a decision depends on linked sections, identify each section’s subject and move and show how their connection supports the judgment. Identifying the unit this way leaves the source episteme, its `C.2.1` `EntityOfConcern`, the publication form, carrier and E.24.PUB occurrence under their own identity rules.
 
 Keep five change types distinct:
 1. a **subject change** changes what the unit is mainly about;
@@ -98,7 +98,7 @@ Once the carried episteme `E` is identified, the author may add the conditional 
 - downstream gate, approval, execution, or decision pressure;
 - invention of a publication-wide `EntityOfConcern` when no identified claim-bearing episteme supplies one.
 
-**Ordinary stop rule.** If one natural-language declaration plus the nearest worked slice settle the case, stop there. A transition is required only when one occurred, and a neighboring-pattern reference only when a concrete unresolved question remains. A unit that has established one primary subject, one carried move, and one outside-work boundary needs no further assurance solely to establish them again. Ordinary use requires no diagnostic card, `ClaimGraph`, evidence dossier, assurance result, work record, or `C.2.1` projection unless a separate receiving use independently needs one.
+**Ordinary stop rule.** If the commission is to clarify what a unit covers, a clear declaration can finish it. When the reader needs a judgment about the subject, state the judgment and the grounds it needs. A transition is required only when one occurred, and a neighboring-pattern reference only when a concrete unresolved question remains. A unit that has established one primary subject, one carried move, and one outside-work boundary needs no further assurance solely to establish them again. Ordinary use requires no diagnostic card, `ClaimGraph`, evidence dossier, assurance result, work record, or `C.2.1` projection unless a separate receiving use independently needs one.
 
 #### E.17.AUD.OOTD:4.2.a - Choose the least-cost suitable unit architecture
 
@@ -113,17 +113,17 @@ Compare four repairs before deciding to split:
 | **Retain one multi-subject unit with marked sections** | the sections have clear local headings and moves, their dependency or shared decision question makes joint reading useful, and one scope/non-scope declaration prevents overread | section boundaries still leave audience, claim, or permitted-use changes hidden |
 | **Split into separate units** | subjects serve different readers or actions, need independent reuse or approval, or one part falls outside the declared scope of the other | the split creates navigation, duplication, synchronization, or decision-assembly cost without reducing ambiguity |
 
-Choose the least-cost option that preserves comprehension, the exact meaning of each claim, intended use, and protection against overread. Do not optimize the count of subjects, sections, or documents. If a multi-subject container has no truthful umbrella subject and no joint reader use, treat it as a collection of units or split it; do not invent a broad subject to satisfy this pattern.
+Choose the least-cost option that preserves the meaning of the claims and the reader’s intended use. When the decision turns on a relation between two subjects, keep the comparison and its grounds available together in one passage or in connected, marked sections. Where there is no truthful umbrella subject or joint use, treat the material as separate units or split it. Give connected subjects their own headings when that helps the reader follow the relation. Expected savings in reading effort can guide a design choice. To report what particular readers actually understood, use evidence from their reading.
 
 #### E.17.AUD.OOTD:4.3 - Ordinary declaration and optional diagnostic
 
-The complete ordinary result is one natural-language declaration from which a reader can recover:
+A declaration of scope is complete when it gives the reader the following information.
 - the bounded publication unit;
-- its primary subject;
+- its primary subject or the subjects whose connection matters to this use;
 - the claim or communicative move it carries; and
 - the wider work or use that remains outside.
 
-One sentence or two short sentences are enough. For example:
+One or two sentences can state that scope.
 
 > This review note compares the interface-boundary options under the current incident evidence. Rollout responsibility and approval remain outside this note.
 
@@ -133,8 +133,8 @@ When the sentence is hard to write or a reviewer suspects a hidden shift, use th
 
 | Prompt | Diagnostic question |
 | --- | --- |
-| 1 | What material am I asking people to read as one bounded publication unit? |
-| 2 | What is its primary subject? In other words, what is it mainly about? |
+| 1 | What material is the intended reader to interpret as one bounded unit? |
+| 2 | What is it mainly about? If the decision connects subjects, which subjects and relation must readers see together? |
 | 3 | Which concern is foregrounded, and what claim or communicative move does the unit carry? |
 | 4 | What downstream use is permitted or blocked, and what wider work is outside this unit? |
 | 5 | Has subject, concern, carried move, downstream use, or the `C.2.1` entity participant changed, and does the unit say precisely what changed? |

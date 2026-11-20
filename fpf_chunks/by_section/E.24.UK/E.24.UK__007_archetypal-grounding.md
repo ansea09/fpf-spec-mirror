@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 125688
-line_end: 125773
+line_start: 125826
+line_end: 125911
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -79,17 +79,17 @@ In each closed replay, the `E24UK-*` reference identifies the admission-result e
 2. **Coverage.** `U.Structure` supplies the one base identity. The two specialization conditions add stable action-facing membership to that same individual; neither needs an independent root or an identity-dependence relation to a context-like bearer.
 3. **Membership and near-misses.** A.22 first identifies `PressControlUse_S` from exact constituents `PressControlModel-5`, `Press-3`, and `PressControllerCode-17`; selected obtaining `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation` occurrences; an exact applied safety-control constraint claim whose proposition refers to the claim scope used by that selection; and the named use “decide whether operating use and controller-code maintenance belong to one bounded model-use organization.” That claim may state a proposition about the scope or its A.2.6 membership predicate; neither the bare scope nor the membership outcome is the constraint claim. Only then may the same `PressControlUse_S` satisfy `BoundedModelUseStructure`.
 
-   The supplier-to-billing material currently supplies only a proposed six-part crossing organization—source `SupplierUse_S`, target `BillingUse_S`, direction, required fit, permitted loss, and claim scope. `SupplierToBillingTranslation_R` and `SupplierBillingCrossing_S` are not asserted: no compatible exact crossing predicate and current facts make the crossing obtain, so the A.22 relation-occurrence discriminator and base identity are unavailable.
+   The supplier-to-billing proposal sets out `SupplierUse_S`, `BillingUse_S`, direction, required fit, permitted loss and claim scope. It supplies neither an applicable predicate and facts establishing the crossing `SupplierToBillingTranslation_R` nor a selection establishing `SupplierBillingCrossing_S` as the structure for this analysis. Withhold those two assertions in this case.
 
-   Only after that predicate is defined, current facts satisfy it, and all four A.22 discriminators are established may the same identified structure satisfy the conditional crossing-analysis specialization. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram, and its publication occurrence identify none of those structures and grant no specialization membership.
+   If a crossing obtains, it can serve as a selected relation. To establish positive membership, identify the structure itself by all four A.22 discriminators and show that it meets §4.2a, including the several bounded model-use constituents. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram and its publication supply no such grounds on their own.
 4. **Eight tests and settlement.** Governed base-structure and bounded-model-use individuals, A.22 identity and positive bounded-model-use membership witnesses, action-facing model-use needs, non-duplication, A.22 as direct locus, the relevant settlements, and by-value reliance are present.
 
-   For the conditional crossing-analysis specialization, this replay settles only the same-individual-dependent membership rule and its action-facing need; it has no positive witness and no public F.17 row while the direct crossing governor is absent.
+   For the conditional crossing-analysis specialization, this replay establishes the rule and its action-facing need. The positive membership of the proposed supplier-to-billing structure remains unestablished, and the public naming decision remains pending.
 
    A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
 5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` records the current named `same-individual-dependent` specialization; `E24UK-AR-A22-CROSSING-RULE-R12-01` records only the conditional `same-individual-dependent` crossing-analysis rule without asserting a current member or public term. Each specialization implies `U.Structure` membership only for the same individual that satisfies its exact A.22 condition.
 
-   If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain the base `U.Structure` and any independently established specialization. Withhold the specialization whose condition failed. Do not repair the failure with a context label, another structure identity, holonhood, or view typing.
+   If base identity is unestablished, retain the warranted description or representation. If the base structure is established, retain it and any supported specialization. Reject a specialization for this candidate when a necessary condition is known to fail. If the condition is unknown, leave membership open. To conclude that the whole domain has no members, show that its conditions are incompatible there or check a demonstrably complete population.
 
    Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
 

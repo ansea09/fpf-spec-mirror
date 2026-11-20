@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System and Episteme cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-and-episteme-cases.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:6 — Archetypal Grounding (System and Episteme cases)"
-line_start: 112384
-line_end: 112435
+line_start: 112485
+line_end: 112538
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -27,6 +27,8 @@ keywords:
 #### E.14:6.1 - `U.System` — Working‑Model first, Constructive grounding available
 
 * **Publication (Working‑Model).** Authors state structure using familiar relations (e.g., *Impeller* **ut\:ComponentOf** *Pump*; *Pump* **ut\:ComponentOf** *Skid*).
+
+  For the installed skid, establish the impeller's place in this pump and this pump's place in this skid. A drawing may prescribe these connections for every conforming assembly. To use that drawing for a claim about the delivered skid, connect it to this configuration and its actual assembly. The drawing itself can settle what the design prescribes.
 * **Assurance (downward grounding).** When the publication elects `B.3.5`, first recover the exact skid, parts, direct fastening, coupling, enclosure, terminal, flange, and seal occurrences, the applicable skid assembly rule, and the skid reidentification rule.
 
   Then link the readable claim to one current C.2.1 `sum` trace that reports those facts and declare `validationMode=axiomatic`.

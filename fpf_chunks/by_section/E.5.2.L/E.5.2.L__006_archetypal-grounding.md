@@ -6,12 +6,12 @@ section_id: "E.5.2.L:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2.L/E.5.2.L__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5.2.L — Languages, Expressions and Interpretation"
   - "E.5.2.L:5 — Archetypal Grounding"
-line_start: 102321
-line_end: 102326
+line_start: 102406
+line_end: 102411
 dependencies:
   - "A.6.3.RT"
   - "C.2.1"
@@ -24,5 +24,5 @@ keywords:
 
 **A system and its designation.** A maintenance planner finds equipment code P-17 on a drawing. The drawing and maintenance register use the same form. The designated pump depends on the issuing plant and the date of assignment. A later reassignment can change which pump a job concerns within the same code language. To route the job, resolve the assignment in force when the work is to be done. To establish what happened to the pump, consult the work evidence.
 
-**An episteme and its reading.** Two teams accept exactly the same measurement table. On ordinary numeric entries they calculate the same totals. One report explicitly instructs its reader to treat an empty cell as zero. The other uses it for a missing observation. The teams can share the table language and still obtain different counts of observed values under the reports' effective rules. If a new edition of the table language mandates one reading for every report, the change now concerns that edition. Neither report by itself establishes the counterfactual readings of every conforming report.
+**An episteme and its reading.** Two reports use the same table language. Each lists two scheduled gauge readings, 8 in the morning and a blank at noon. One report instructs the reader to use zero for a blank when calculating the daily mean. The other omits blanks and gives the number of readings used. With these entries the first report gives a mean of 4. The second gives 8 from one reading. To report that the gauge actually read zero, establish that the noon measurement took place and yielded zero. A reliable witness can establish this. So can a record of that reading, including a blank when there are grounds that the recorder used it to record a measured zero on this occasion. An arithmetic default supplies no such observation. If a new edition of the table language prescribes a calculation for every report, the scope of the convention changes. A rule in one report governs that report.
 

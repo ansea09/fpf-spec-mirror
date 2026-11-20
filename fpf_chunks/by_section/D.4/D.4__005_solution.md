@@ -6,12 +6,12 @@ section_id: "D.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:2 — Solution"
-line_start: 97019
-line_end: 97088
+line_start: 97080
+line_end: 97151
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -45,6 +45,8 @@ Recover the conflict, develop feasible alternatives, compare their consequences 
 5. **Return the supported recommendation or decision.** If the comparison basis and available options are settled, C.11 supplies the local choice. If the value conflict remains unresolved, give the conditional alternatives, the missing agreement or authority, or a refusal or impasse. Do not manufacture a common scalar to force a winner. State a residual consequence and a reconsideration condition when they matter to this use. A recommendation does not establish consent, permission or performed work.
 
 Use the same reasoning when the option is advice, publication, a technical change or a change to a method. Identify how its possible use can affect other participants; describing one's contribution as analysis leaves that question open. The relevant causal and responsibility relations need their basis.
+
+Decide the reach of the proposed action. For a decision on behalf of a group, establish which procedure gives the decision force, whose work or rights it covers, and who can carry it out. Record a member’s dissent when it matters to the decision or its consequences. If the recipient wants a standing rule, examine the cases the rule would permit. A change in exposure, access, authority or available means can reverse the comparison. Where the same premises support the recommendation throughout the proposed use, the existing reasoning can cover those cases.
 
 #### D.4:2.2 - Retain the decision basis when the work needs it
 

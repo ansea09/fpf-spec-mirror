@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:4 — Solution"
-line_start: 98134
-line_end: 98380
+line_start: 98211
+line_end: 98457
 dependencies:
   - "C.20"
   - "C.33"
@@ -255,7 +255,7 @@ For a durable ecosystem-architecture answer, use the following operations as the
 2. Name the family member being created, used, or changed.
 3. Name only the fields from `FPFEcosystemArchitectureRecord@Context` that this architecture claim uses. For PF work, the pattern-language publication carrier exposes a reader-facing expression of the selected problem-and-solution architecture.
 4. If the family member is FPF itself as a framework edition, open `E.4.FPF` for form, presentation carriers, access routes, and whole-FPF adequacy routing.
-5. Apply `E.5.3`: dependencies point toward more stable framework editions. FPF Core does not depend on domain or local frameworks.
+5. Identify the content another edition supplies and the work that needs it. For Conceptual Core, Tooling and Pedagogy, check the permitted import directions in `E.5.3`. For framework editions, apply `E.4.PFR:3.4`. An LPF may rely on a DPF, and either may rely directly on Core. Core must supply its transdisciplinary rule and grounds independently of those domain and local frameworks.
 6. State publication and first-entry claims using `E.11` and `E.17`; state framework-carrier structure-account assertions using `E.4.FPF` for FPF itself or `E.4.DPF`/`E.4.DPF.DA` for domain and local frameworks.
 7. State pattern-use recommendation claims using `E.11.PUR`.
 8. When a framework-architecture question is open, record the selected answer in one `E.9` DRR and use `E.4.PFAD` to profile its framework-specific content. Use `C.32.PAD` only for a project architecture decision and `C.32.ADR` only to project such a decision into an ADR-like publication.

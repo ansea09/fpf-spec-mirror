@@ -6,12 +6,12 @@ section_id: "C.42:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:4 — Solution"
-line_start: 94772
-line_end: 94930
+line_start: 94821
+line_end: 94979
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -44,7 +44,7 @@ Follow a proposed deletion through its actual uses. Ask what would become unavai
 
 When a local action belongs to several larger undertakings, B.1.5.EW helps recover those encompassing uses; B.1.5.RS evaluates a replacement against what each affected whole relies on.
 
-Follow indirect uses only while they can change the decision. Unknown use prevents an unrestricted deletion, not every bounded change.
+Decide which work can cease. To omit an operation on one job, establish what each affected recipient can obtain on that job without it. To remove the operation from a recurring method, say which jobs would proceed without it. One eligible job in which a recipient would lose a required result rules out that proposal as written. A narrower change may still work if the performer can recognize the exceptions in time and keep an adequate way to serve them. Follow an indirect use when its loss could change this decision.
 
 Separate three conclusions:
 
@@ -167,7 +167,7 @@ Use limited exposure, retained alternatives, parallel provision or another suita
 
 Compare the intended difference with what occurs in the receiving work. Was the needed result obtained, with its safeguards and support? Did whole effort or relevant delay decrease, for whom, and under which conditions? Include transition work and exceptional cases at the scope of the claim.
 
-This account of the total effect and a new decision about future work use different cost bases, as explained in §4.5. A successful demonstration or completed instruction is not yet evidence of sustained ordinary performance.
+The decision about work still to come uses the cost comparison in §4.5. Keep the grounds for two conclusions distinct. To retire a step across a class of work, establish what happens to the need it served. The output may have no further use. A change at the source may prevent the difficulty that required correction. If a recipient still needs what the step supplied, establish how they will obtain it throughout that class. A checked property of a common source may settle that question. Where exceptions are possible, establish how the performer recognizes them before reliance and what the recipient can then use. A hold is adequate only for a use that permits it. To claim a saving in ordinary use, compare the work that actually recurs, including exceptions and work transferred to others, over the period claimed. The replacement can preserve every required result and still cost more to run.
 
 Distinguish a useful result from its explanation. Observed improvement can support keeping a local arrangement while leaving causal attribution uncertain. If the claimed advantage depends on attributing the effect to one intervention, C.28.CM supplies the further causal question. A.3.1.MI keeps introduction, contextual support and the later performance claim separate.
 

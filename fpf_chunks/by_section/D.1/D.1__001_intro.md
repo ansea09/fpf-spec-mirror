@@ -6,12 +6,12 @@ section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:intro — Intro"
-line_start: 96341
-line_end: 96356
+line_start: 96397
+line_end: 96412
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,7 +40,7 @@ keywords:
 
 **Use this when.** The value basis of an ethical claim or proposed action is unclear.
 
-If that ethical claim is current but a possibly consequence-bearing System has not yet been identified, or the affected-System set is not adequate, use `A.1.CSD` first. Return to D.1 with the bounded discovery account or the reason identification remains unresolved. Use that account to clarify the value concern.
+Use `A.1.CSD` when the judgement depends on who could bear a consequence and the affected systems are still unclear. A conditional value premise can be examined for a class of participants. To apply it to a proposed action, establish whom the action reaches and which conditions of the premise hold. Retain a missing participant or consequence as an open question when it could change the judgement.
 
 
 **Not this pattern when.** If the question is already a conflict across declared levels or scopes, use `D.3`. If the question is how to mediate that conflict or use it in a decision, use `D.4`. If the question is bias, fairness, human or group impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.

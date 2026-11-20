@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 115518
-line_end: 115640
+line_start: 115633
+line_end: 115755
 dependencies:
   - "A.10"
   - "A.15"
@@ -154,12 +154,12 @@ If a text carries a new hypothesis or another changed claim, first constitute it
 
 #### E.17.EFP:5.7 - Human-authored and generated task replay against the simpler alternative
 
-These two qualitative task replays inform a local architecture choice. Neither is an empirical study of performance. Each case compares EFP with the least-cost source-linked note on comprehension, semantic preservation, author/check time, and prevention of overread.
+These editorial comparisons ask what the displayed text preserves and what its reader would need for the intended use. The author can decide which form to publish by examining the two texts. Observed comprehension, effort and error rates require evidence from the corresponding use.
 
-| Task and credible simpler alternative | Comprehension | Semantic preservation | Author/check time | Overread prevention | Non-dominated result |
+| Task and simpler alternative | What the reader can find | Meaning preserved | Comparison the author must make | Use the text supports | Editorial decision |
 |---|---|---|---|---|---|
-| **Human-authored shift note.** An engineer writes two sentences that repeat inspection note N-14 without changing its claims. Simpler alternative: `Reader orientation; source N-14; not an operating procedure.` | The simple sentence is as easy to understand as an EFP class note. | The source locator and unchanged wording preserve the needed tether. | The simple note is shorter to write and check. | `not an operating procedure` blocks the only credible overread. | The simpler note dominates. Do not apply EFP. Use the source/publication pattern and stop. |
-| **Generated incident explanation.** A generated paragraph restates one observed recovery and adds `therefore the design is robust`. Simpler alternative: attach a source link and label the paragraph `AI summary`. | Both versions are readable. | The simple label misses the widened robustness claim. EFP's identity-and-bounded-sufficiency screen detects another target claim and prevents source identity from being inherited. | EFP adds one focused claim comparison. No full metadata block is needed. | EFP blocks reliance on the widened claim until its target episteme and source-to-target relation exist. | EFP is non-dominated when the generated text will be reviewed, reused, disputed, or relied on. Keep the identity screen, class only after identity, bounded/blocked use, and reopen. Add trace or evidence only for the named reliance. |
+| **Human-authored shift note.** An engineer writes two sentences repeating inspection note N-14. The alternative is a source-linked orientation note. | The two sentences name the inspection and direct the reader to N-14. | Check the repeated claims and the conditions attached to them in N-14. | Compare the two sentences with their source. | The shift note serves as orientation and identifies N-14. The inspection record retains the uses supported by its own contents and conditions. A request to find the operating procedure needs a usable return to that procedure. A shift decision requiring two connected conditions must make both recoverable in time. | Where the simple note provides the commissioned orientation, publish it with the source return and the limit of use. |
+| **Generated incident explanation.** A report of one recovery adds `therefore the design is robust`. The alternative labels it `AI summary` and links the report. | Both versions display the new conclusion. | The source supports the recorded recovery. Design-wide robustness needs its own target claim and grounds. | Compare the scope of the added assertion with that of the source. | The editor can catch the unsupported inference even when the source link resolves. | Apply the EFP identity screen. Classify the explanation only after identifying its target and keep its use within the supported scope. |
 
 The first case establishes the simpler-note boundary through unchanged claims, source recovery and a sufficient use limit. The same boundary applies when a generator produces that adequate note. In the second case, the added robustness claim calls for the identity and support check; a human author could make the same addition. The external literature supplies grounds for the generated, model-facing and interactive populations it studies.
 

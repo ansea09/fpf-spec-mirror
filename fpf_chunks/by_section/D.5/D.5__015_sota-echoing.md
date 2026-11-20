@@ -6,12 +6,12 @@ section_id: "D.5:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__015_sota-echoing.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:10 — SoTA-Echoing"
-line_start: 97378
-line_end: 97381
+line_start: 97445
+line_end: 97450
 dependencies:
   - "A.10"
   - "B.3"
@@ -31,4 +31,6 @@ keywords:
 ### D.5:10 - SoTA-Echoing
 
 For deciding what a fairness result supports, **adapt** C.16’s measurement interpretation and C.28:4.6’s claim-specific identification and estimation conditions. Against the aggregate-accuracy inference in :6, :2–4 retain the qualified metric result and obtain the additional causal basis only for a conclusion that needs it. Section :3.1 reuses an adequate audit account and selects further work from the reliance, while a missing required basis leaves the stronger conclusion unsupported. B.3 supplies any assurance relation and D.4 its ethical decision use. Reopen the affected basis when the population, intended use, claimed effect, evidence conditions or binding requirement changes.
+
+Kearns, Neel, Roth and Wu show how a classifier can meet a parity condition for each of several predefined groups while violating it for a subgroup defined by a combination of attributes. Section 2 uses that distinction to select the group a claim concerns. Which criterion matters and which population it covers still come from the receiving use. [Preventing Fairness Gerrymandering (2018)](https://proceedings.mlr.press/v80/kearns18a.html)
 

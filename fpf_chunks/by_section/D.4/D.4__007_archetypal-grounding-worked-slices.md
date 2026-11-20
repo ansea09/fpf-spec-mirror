@@ -6,12 +6,12 @@ section_id: "D.4:4"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__007_archetypal-grounding-worked-slices.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:4 — Archetypal Grounding (Worked Slices)"
-line_start: 97102
-line_end: 97132
+line_start: 97165
+line_end: 97197
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -54,6 +54,8 @@ For this constructed decision, the participants' stated orderings are:
 Both orderings prefer the voluntary option to either original alternative. The team can recommend it on this basis without adding the ordinal ranks or deciding how much privacy one unit of access is worth. The judgement concerns these supplied preferences and feature conditions. The technical feature, the permitted voluntary arrangement and each participant's choice are separate contributions to its use.
 
 Now suppose the team instead needs guaranteed coverage of a required shift. Voluntary windows do not guarantee that contribution. The previous recommendation remains an answer to finding a willing specialist, but does not answer the changed staffing question. Return to the staffing arrangement and its affected commitments. A new assignment, another resource or a changed service promise may be needed.
+
+If a second team asks only how to find a willing specialist, it can use the same recommendation when the feature is available, the applicable permission covers that use and the affected participants’ privacy and access judgements still support that option. A decision to offer the feature across the organization can authorize making it available to both teams. Each disclosure still depends on the choice or other authority governing that disclosure.
 
 #### D.4:4.2 - Keep a useful decision when a stronger claim is unavailable
 

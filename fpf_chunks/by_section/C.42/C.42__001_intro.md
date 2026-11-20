@@ -6,12 +6,12 @@ section_id: "C.42:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__001_intro.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:intro — Intro"
-line_start: 94732
-line_end: 94737
+line_start: 94781
+line_end: 94786
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

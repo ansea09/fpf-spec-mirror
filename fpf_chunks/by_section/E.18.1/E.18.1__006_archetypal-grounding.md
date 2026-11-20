@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 118710
-line_end: 118817
+line_start: 118825
+line_end: 118932
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -144,7 +144,7 @@ These examples show how to fill and replay the compact note in `4.1`.
 | Receiving use | Determine the mathematical-lens result needed before any formal-substrate declaration or method comparison. |
 | Next practical question | Which structure is preserved, which is lost, and where does the heat-flow lens stop? |
 | Applicable pattern | `C.29` Mathematical Lens Use. |
-| Result written and use it answers | A C.29 local lens-use result naming target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
+| Result written and use it answers | For a candidate loop regime with 100 W supplied, 100 W removed and no other energy exchange, the energy accumulation rate is 0 W. If removal falls to 90 W with the other premises unchanged, the rate becomes +10 W and that regime cannot be steady. Either balance leaves the spatial temperature profile open. Use the result to compare net heat rates, and return to the spatial model or suitable observations for deformation. |
 | Local non-overread | Method comparison waits until comparator, measurement, and candidate-set relations are named. A later `A.6.0` signature declaration is a separate continuation. |
 
 **Port-throughput continuation split.**

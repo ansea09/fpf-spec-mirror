@@ -6,12 +6,12 @@ section_id: "C.41.SR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:5 — Archetypal Grounding"
-line_start: 94436
-line_end: 94481
+line_start: 94485
+line_end: 94530
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -58,7 +58,7 @@ The worked case below connects these moves to the room, materials and workshop. 
 
 **Local representation and occasion.** C.41.TF preserves the session, room and materials references in the relevant local views. C.41.OF arranges the observation while the room and content are available. A missing capable interpreter returns to capability support; an unavailable room returns to scheduling.
 
-**Local answers and simultaneous contribution.** Through C.41.UA, the technician establishes equipment conditions and the facilitator compares projected and physical examples. The projection check contributes to equipment preparation and preparation of the workshop at the same time. Its relation to the whole changes what is checked: a test image alone cannot establish the example's use.
+**Local answers and simultaneous contribution.** Through C.41.UA the technician establishes equipment conditions and the facilitator compares the projected example with the physical card. One well-grounded comparison can settle whether those two versions agree. Both participants can use it, even if they record it in separate lists. If projection is essential to the commissioned exercise, a confirmed projector failure rules out running it as planned. If the exercise also permits printed copies, that failure rules out the screen option. The organizer can use the printed option when the copies, participants' access and other conditions of that exercise are established.
 
 **Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
 

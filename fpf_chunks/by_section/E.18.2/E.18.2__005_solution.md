@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 119018
-line_end: 119123
+line_start: 119133
+line_end: 119242
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,7 +77,11 @@ For a one-TFS description, recover the E.18 selection S and the mappings the exp
 
 A valuation claim uses E.18:5.2’s tagged connection/cut domain, declared channels and regime. A value on a drawn binary edge is not automatically a value on r or on a cut. Name the cut’s path family, boundary and crossing incidences, and declare any aggregation rule. A coarse drawing may omit detail, but an inference that needs an omitted n-ary argument, multiplicity or boundary must return to the complete representation. Record that loss and stop the unsupported inference.
 
+When the question is whether a proposed calculation on the summaries preserves an answer, compare the two orders for that answer. Connect the detailed models under the subject's constraints and interpret the result, then compare it with combining the summaries and their retained relations. A proof about the admitted arrangements can establish the comparison. For a threshold or an existence question, stop when a sufficient bound, compatible realization or independent ground already gives the required answer. A summary can give an exact answer if all admitted detailed cases it merges agree on that answer and the proposed calculation returns it. For a complete list of attainable outcomes, cover every detailed case and establish a detailed realization for each listed outcome. For one possibility, a single compatible realization or an existence proof suffices (C.29.1:4.3–4.5, C.37.MM:4.2).
+
 Empty-path identity and associative concatenation belong to the mathematical description. Check E.18’s complete-path admissibility separately, including required side inputs, editions, modes and budgets. Those laws establish neither actual execution nor a prescribed Work order.
+
+For a guaranteed limit, an upper bound on all outcomes of a nonempty admissible domain can suffice. When the agreed criterion permits a specified risk, compare a supported probability or risk bound with that criterion. A list of possible outcomes by itself gives no probability. Reopen the omitted relation only when the available answer leaves the intended judgement open.
 
 #### E.18.2:4.2 - Expression families
 
@@ -87,7 +91,7 @@ Empty-path identity and associative concatenation belong to the mathematical des
 | mathematical path or path slice | reachability, carried relation, currentness slice, refresh locality, or crossing-local replay | not a project procedure or performed sequence |
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
 | morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
-| quotient, fold, coarsening, refinement, or factorization | coarser/finer partitioning, aggregation, retained/lost structure, and alternative decomposition | not an identity claim without preserved/lost structure and return condition |
+| quotient, fold, coarsening, refinement, or factorization | coarser or finer partitions, aggregation, retained or lost structure, and alternative decomposition | Compare the answer before and after this operation using §4.1. To claim strict model refinement under B.5.MR:4.2, hold the inquiry and interpretation fixed, show a feasible completion, establish preservation by all new completions and identify a previously admissible answer now excluded. |
 | algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | Apply A.6.0 for a separately needed formal-substrate declaration, A.6.1 for a reusable law-governed operation declaration and its application or realization claims, and the relevant subject and evidence patterns for any empirical-law claim. The mathematical expression alone establishes none of those claims. |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow structure | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
 

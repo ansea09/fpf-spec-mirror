@@ -6,19 +6,18 @@ section_id: "D.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__015_relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:11 — Relations"
-line_start: 96715
-line_end: 96723
+line_start: 96774
+line_end: 96782
 dependencies:
   - "A.1"
   - "A.15"
   - "A.3.4"
   - "B.1"
   - "C.11.DUA"
-  - "C.13"
   - "C.16"
   - "C.29"
   - "C.30.ILC"
@@ -32,7 +31,7 @@ keywords:
 ### D.2:11 - Relations
 
 - Builds on `D.1` for ethical value frame boundary.
-- Builds on `A.1`, `B.1`, and `C.13` for holon, level, scope, and part-whole grounding.
+- Use `A.1`, `B.1` and `C.13` to recover holons and composition, and `A.2.6` to establish where a claim applies.
 - Coordinates with `D.3` for the interlevel ethical conflict description and with `D.4` for mediation or decision use.
 - Coordinates with `D.5` for bias, fairness, impact audit, causal-fairness audit consumption, and ethical assurance.
 - Coordinates with `C.11.DUA` when a proposed inquiry or disputed protective requirement needs contribution, feasibility, and burden appraisal.

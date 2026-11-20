@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:4 — Solution"
-line_start: 41812
-line_end: 42163
+line_start: 41814
+line_end: 42165
 dependencies:
   - "A.1"
   - "A.1.1"

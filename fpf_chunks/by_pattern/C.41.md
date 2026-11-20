@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
-line_start: 93682
-line_end: 93922
+line_start: 93725
+line_end: 93967
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -83,6 +83,8 @@ Across this family, ask whether the important work questions are covered, their 
 
 Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the questions, observations, mappings, counterexamples and consequences in the later sections.
 
+**What does a filled checklist establish?** Read the existing answers and their grounds before asking for another check. If they meet the acceptance conditions for this delivery, the recipient can act on them. A completed checklist can express a model of one delivery (L0). Its template may embody the team's model of a repeatable local check (L1). When the commission is to develop a disciplinary model of what to check (L2) using the transdisciplinary model of question selection here (L3), show which conditions of the discipline's work matter to the decision and how the chosen questions reveal them. A filled form can also carry that reasoning if its author records the design choice. When the assignment is to use an approved question set, the performer can take it as given. To credit the performer with applying the checklist, trace the answers to the checks they made or the prior results they chose to reuse. To credit them with selecting the questions, identify which choices the brief, form or helper supplied and which the performer made and justified. An earlier selection or a change the performer made to the form can supply that evidence.
+
 The constructed examples here illustrate reasoning and possible use. They do not report measured effectiveness. Human-use studies and AI evaluation studies inform the Methods under the limits in [C.41:11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4111---sota-echoing) and the supplying patterns' SoTA-Echoing sections. Practical adoption depends on capabilities, access, working conditions and the result people value.
 
 The arrangement favors visible, discussable omissions. It can underrepresent tacit expertise, unusual events and concerns that people cannot safely voice. Keep open inquiry alongside the selected questions. Watch for time displaced from the work, repeated uninterpretable answers, prefilled records and harmful reliance on a narrow pass. Use those observations to change or remove the aid.
@@ -152,7 +154,7 @@ A question can support prevention, preparation for a possible failure or recover
 
 A canvas can prompt inquiry as well as confirm conditions. “Who will use this result, and why?” may initiate a conversation that develops an account; “Have we identified the intended users?” asks about that account. Select the prompt that serves this occasion, and distinguish obtaining an answer from judging its adequacy. Filled sections can expose missing connections without establishing that the described proposal will work. For a seminar proposal, naming participants, activities and available support does not establish that those participants can attend or that the activities help them learn. Keep the substantive assumptions and grounds available for discussion; use the appropriate domain practice to test them.
 
-Challenge the set with one plausible failure and one satisfactory case. Would they receive distinguishable answers? Does a missing item hide a consequential difference? Does an included item duplicate an already available adequate result? Use C.41.QC when the criterion or checking means itself remains uncertain.
+A known failure within the proposed use that would pass every question already refutes the claim that passing suffices for acceptance. If the question is which difference the set can detect, compare a satisfactory result with a plausible failure. Would their answers lead the user to act differently where the work calls for it? Distinguishing one pair shows which difference the questions can expose. For reliance beyond that pair, trace the consequential conditions of the work to the questions and their grounds, or limit the proposed use to the conditions supported so far. Reuse an adequate qualification. An existing observation can answer a question for this delivery. Before dropping that question from the maintained list, check how later users will obtain the answer or why they can make their decision without it. Use C.41.QC where the criterion or checking means still needs examination.
 
 #### C.41:4.3 - Select coverage and a useful stopping point
 
@@ -194,7 +196,7 @@ Begin with [C.41](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41---selec
 
 The worked case below explains those conditional moves. Resume at the unresolved contribution after interruption; if the questions have been answered but the aid's worth remains unknown, continue with **Worth and improvement** and [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option).
 
-**Selection.** C.41 separates the physical-set description from the assumption that this set will serve the exercise. The three selected questions concern contents/readability, wording and assembly. A separate exercise trial addresses instructional usefulness. The result is a bounded question set with sources for its answers.
+**Selection.** Here the facilitator supplied the description, and the three questions concern contents and readability, wording and assembly. With grounded answers the packer can settle whether this set meets that description for delivery. To commission the packer to design checks for future sets, give the packer the work and its acceptance conditions and examine which omissions the packer identified, which questions the packer selected and why. An earlier design with those choices can serve. The facilitator's separate trial addresses what the set enables participants to do in the exercise.
 
 **Construction.** C.41.TF puts the set and description reference once above the questions. The packing view carries count/readability and assembly; the facilitator's view carries wording comparison. Both retain S and v2. The answer forms allow a supported negative or an unresolved question. The transposed example in C.41.TF shows the same answers without changing their subject.
 

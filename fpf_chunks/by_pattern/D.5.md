@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
-line_start: 97194
-line_end: 97395
+line_start: 97259
+line_end: 97464
 dependencies:
   - "A.10"
   - "B.3"
@@ -70,6 +70,8 @@ The failure is to treat technical verification as sufficient for a fairness or e
 ### D.5:2 - Solution
 
 Identify the object, the bias or fairness concern, and the use the answer must support. Give the result warranted by the available basis, with the affected groups and limitations that change that use. A metric comparison can finish at its qualified measurement result; recognizing a value conflict returns to `D.3` or `D.4`.
+
+For a claim about a group, state what the conclusion attributes to whom. An eligibility rule can establish who is entitled to a service under its stated conditions. Whether people received the service depends on what happened. For a measured rate, identify the unit counted, the numerator and denominator, the period and which eligible units entered the evidence. An overall rate can meet its target while a subgroup misses it. Rates for two overlapping groups can each meet the target while their intersection falls short. Subtracting a subgroup’s numerator and denominator from the corresponding population counts gives the counts outside that subgroup. Use them for another named group only if it covers exactly the remaining records. If the evidence already establishes the required outcome for every member of the covered population, the same member-by-member finding holds within each subgroup. A verified violation can refute such an all-member claim without establishing how frequent the violation is. For a different population or period, establish which conditions of the rule or of the empirical comparison still apply.
 
 An intended audit, fairness, or assurance conclusion must satisfy its evidence conditions. A missing basis leaves that conclusion unsupported. Select further investigation and the record it needs for that claim or decision, using §3.1.
 
@@ -171,7 +173,7 @@ Use `B.3` for the assurance relation. Establish the needed evidence and its curr
 
 ### D.5:6 - Archetypal Grounding (Worked Slice)
 
-A hiring-screening model has high aggregate accuracy and an internal note says it is "fair." D.5 first asks what fairness claim is being made. If the claim is only a metric disparity comparison, give the metric or evaluation result with its affected groups, intended use, and material limits, then stop. A recipient can reuse or publish that bounded comparison without treating it as a conclusion that hiring is fair. An intended stronger conclusion reopens its missing basis.
+Suppose a hiring-screening model agreed with a reviewed reference decision on 90 of 100 applications. Each applicant in the comparison submitted one application, and ten of the applicants belong to the group under review. All ten discrepancies could fall inside that group or all ten could fall outside it. A reliable subtotal of agreements for those ten applications, or a count from the corresponding decisions, can establish the observed group rate. If applicants can submit repeatedly, a rate per person also needs a rule for counting their decisions. An estimate for a wider population needs grounds for extending the comparison and an account of its uncertainty. A judgement about fair treatment also needs a criterion for what counts as fair in that use. People unable to submit an application are outside this calculation. A claim about access must account for them.
 
 If the team claims counterfactual fairness, C.28 must expose the causal estimand, additional counterfactual-identifiability assumptions, and an estimate with its consistency result when that estimate is relied on. Missing conditions lower the C.28 support result before D.5 decides its audit use. If the audit exposes a conflict between company efficiency and applicant harm across declared scopes, D.3 describes that conflict and D.4 guides its decision use.
 
@@ -214,6 +216,8 @@ Audit depth follows what a claim or decision needs from the result. A compact ac
 ### D.5:10 - SoTA-Echoing
 
 For deciding what a fairness result supports, **adapt** C.16’s measurement interpretation and C.28:4.6’s claim-specific identification and estimation conditions. Against the aggregate-accuracy inference in :6, :2–4 retain the qualified metric result and obtain the additional causal basis only for a conclusion that needs it. Section :3.1 reuses an adequate audit account and selects further work from the reliance, while a missing required basis leaves the stronger conclusion unsupported. B.3 supplies any assurance relation and D.4 its ethical decision use. Reopen the affected basis when the population, intended use, claimed effect, evidence conditions or binding requirement changes.
+
+Kearns, Neel, Roth and Wu show how a classifier can meet a parity condition for each of several predefined groups while violating it for a subgroup defined by a combination of attributes. Section 2 uses that distinction to select the group a claim concerns. Which criterion matters and which population it covers still come from the receiving use. [Preventing Fairness Gerrymandering (2018)](https://proceedings.mlr.press/v80/kearns18a.html)
 
 ### D.5:11 - Relations
 

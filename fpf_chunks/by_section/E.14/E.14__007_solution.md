@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:4 — Solution"
-line_start: 112211
-line_end: 112287
+line_start: 112310
+line_end: 112388
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -42,6 +42,8 @@ The **recognition text** is the working text that a cold practitioner, manager, 
 The **assurance text** is the heavier text that carries declaration, object discipline, modeling lens, law, return conditions, and other assurance work.
 
 The assurance text may justify, tighten, or audit the working text, but it must not silently replace or strengthen the recognition-text claim.
+
+Keep the target assertion, its subject and its scope visible through both blocks. Supporting premises may concern other subjects. For Pump-37, calibration of the instrument and the measurement Work can support the vibration reading at 09:00. That reading completes an order for the measurement. A service decision also needs the applicable criterion and operating conditions. A conclusion about a fleet needs grounds covering the relevant pumps.
 Where episteme-publication-heavy or transform-heavy patterns need a compact ontological account, the assurance text should expose three things explicitly:
 - the ontic target or EntityOfConcern;
 - the modeling substrate or mathematical lens when one is load-bearing;

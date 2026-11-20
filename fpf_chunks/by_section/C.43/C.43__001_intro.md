@@ -6,12 +6,12 @@ section_id: "C.43:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__001_intro.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:intro — Intro"
-line_start: 95086
-line_end: 95091
+line_start: 95137
+line_end: 95142
 dependencies:
   - "A.12"
   - "C.11"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.QR.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
-line_start: 87388
-line_end: 87616
+line_start: 87411
+line_end: 87643
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -60,6 +60,10 @@ C.39 supplies construction of an obtaining way; the subject practice supplies it
 #### C.39.QR:4.1 - Recover the question independently of the proposed answer
 
 Read the initiating request and applicable clarifications. Recover the subject, the question about it, the result needed by the recipient and the conditions that make that result sufficient. Include a source-coverage commitment, time horizon or authority boundary when it affects the answer. An example in the request can locate a difficulty while leaving the assigned scope broader.
+
+**Check the first restatement before it becomes someone's assignment.** Compare what a colleague could deliver by following your words with the initiating commission and its clarifications. Identify who asked, who is to do the work and who will use it when these differ. Keep the receiving action, the recipient, the types of entities and actions in view, and any ranges the conclusion has to cover. A commission may concern several kinds of holons, different ranges of composition for each, and a range of model abstraction. It may ask about what holds at each level, a relation between levels, or something that depends on several together. Naming the end points leaves that last connection to be established. If the commission leaves someone to choose the ranges or connections, retain both the choice and the person or agent entrusted with it. The eventual recipient may simply need the resulting decision.
+
+Say where a narrowing occurs and what it permits. “The restatement changed the kind of action.” “The example shows what happens at one scale.” “We still owe an explanation of how decisions across those scales affect one another.” When a concrete example helps, introduce it as an example and state which part of the argument it illustrates. Return to the assigned types, ranges and receiving action before selecting the next edit, inference or handover. Try removing the example: can a colleague still say what to do, for whom, over which ranges, and what would count as completion? If a whole family of decisions was reduced to one familiar decision, say so at that level and restore the family in the next instruction. Naming a different instance leaves the same omission. For a request confined to that one case, answering it can finish the job. C.37.MM:4.1.1 develops the joint work when several models are needed.
 
 Distinguish the requirement from the author's proposed decomposition or solution. Derive an initial expectation from the requested use and competent subject knowledge. A proposal to explain a discipline needs its organizing problems, principles, Methods and relations at a suitable depth. A proposal to restore a service needs the relevant functioning and operating conditions. These expectations have different substantive bases.
 

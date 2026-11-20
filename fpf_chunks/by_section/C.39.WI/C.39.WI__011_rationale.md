@@ -6,12 +6,12 @@ section_id: "C.39.WI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__011_rationale.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:10 — Rationale"
-line_start: 88649
-line_end: 88654
+line_start: 88692
+line_end: 88697
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

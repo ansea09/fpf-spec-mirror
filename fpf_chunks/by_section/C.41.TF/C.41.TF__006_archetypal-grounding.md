@@ -6,12 +6,12 @@ section_id: "C.41.TF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:5 — Archetypal Grounding"
-line_start: 93997
-line_end: 94023
+line_start: 94044
+line_end: 94072
 dependencies:
   - "C.37"
   - "C.41"
@@ -43,6 +43,8 @@ Suppose the wide table on a small screen separates the answer from its S/v2 refe
 | Set assembled for delivery? | Yes: assembled, observed 10:10 |
 
 If entries are recorded at 10:12, that time describes the recording. It neither changes the observation times nor shows when each condition first became true. A split view for counting and a view for wording comparison retain the S/v2 references and the relevant observation grounds.
+
+The explanations and times help the recipient check the three associations in this record. All three verdicts happen to be Yes. A display that copies the wording verdict into the assembly row would give the same verdicts here. Keep the described contents and wording, but leave the set unpacked. The assembly row must now show No with the observation of the unpacked set. The wording row can still show Yes from the comparison with v2. The two answers show that the wording matches v2 and the set is unpacked. If an assembled set is still due, the packer assembles it. If the recipient asked only for its present state, the packer can return the two answers with their grounds. It tests this particular copying error. Other fields and answer meanings need grounds of their own when approving the view for wider use.
 
 For an AI-assisted importer, a template can ask for an observed catalogue before and after a malformed input, with a reference to the input and the comparison performed. A field headed “Tests pass” loses the question if it is detached from those cases. When an observation tool fails, the form supports “unknown: post-import catalogue was not obtained”; it does not coerce the agent into a positive completion entry.
 

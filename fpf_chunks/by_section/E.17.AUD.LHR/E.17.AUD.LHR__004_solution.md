@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 116843
-line_end: 116925
+line_start: 116961
+line_end: 117043
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ Use these five questions to recover an ordinary local repair:
 | --- | --- |
 | 1 | Which trigger word is carrying unresolved semantic load? |
 | 2 | What lexical-head kind is it naming here? |
-| 3 | Which local reading is primary here? |
+| 3 | Which reading does the wording and its source support here? If several fit, what common content suffices, and what fact would distinguish them if it matters? |
 | 4 | What active primary entity or relation, carried action or question under repair, and outside work are in play here? |
 | 5 | After one local repair, is local restoration enough, or does another governing FPF pattern or project-side FPF kind and reference named by value now govern the case? |
 
@@ -84,7 +84,7 @@ The nearest worked slices for those three repair dispositions are:
 If the local case is close to a neighbouring-pattern boundary and the ordinary card already stabilizes the unit, add these checks:
 - overloaded local lexical head;
 - restored lexical-head kind;
-- restored active local reading;
+- the supported local reading, or what is established across the remaining readings;
 - restored active primary entity or relation;
 - restored carried action or question under repair;
 - restored outside-work boundary;
@@ -104,7 +104,7 @@ Do not use it to rescue a unit whose publication-unit reading still shifts, and 
 Use this order when one local lexical head is carrying too much:
 1. name the overloaded word;
 2. restore the lexical-head kind;
-3. restore the active local reading;
+3. recover the supported reading. If several remain, state what still holds and check a distinguishing fact only when the difference matters to the reader’s work;
 4. restore the active primary entity or relation when one is active;
 5. restore the carried action or question under repair, if any;
 6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
@@ -114,7 +114,7 @@ A narrowing qualifier alone does not count as restoration.
 Treat this order as one local repair aid, not as a canonical flow.
 Steps 1-6 restore the overloaded local lexical head; step 7 classifies what the repaired unit supports as the next move.
 
-- If step 6 keeps reopening because the same unit still cannot hold one stable primary subject, one carried move, and one outside-work boundary, stop local repair and apply `E.17.AUD.OOTD`.
+- If step 6 keeps reopening because the reader still cannot follow which subjects and moves the unit connects or what remains outside, apply `E.17.AUD.OOTD`.
 - If the local lexical head now has a clear reading and the only remaining question is one bounded contrast over already available source epistemes or publications, apply `E.17.ID.CR`. The comparison alone does not require a fuller local repair record.
 - If the head is clear and no neighboring reading has become primary, stop without adding the extension.
 

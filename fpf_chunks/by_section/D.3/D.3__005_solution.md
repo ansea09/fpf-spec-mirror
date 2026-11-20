@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:2 — Solution"
-line_start: 96763
-line_end: 96844
+line_start: 96822
+line_end: 96905
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,18 +44,18 @@ Identify the sides needed to explain the conflict. At least two claims are invol
 
 1. the ethical claim that states the concern in ordinary language;
 2. the affected entity;
-3. the declared level relation, claim scope, or Work extent that locates the concern;
+3. how the proposed action reaches that entity. Identify the whole and constituent if composition matters, the people or work covered if their extent matters, and the conditions on which this side’s claim relies;
 4. the value premise under which the consequence matters, with a frame-edition reference when the reasoning uses one;
 5. the expected benefit, harm, or constraint and its consequence horizon; and
 6. the evidence use or uncertainty only when the side relies on it.
 
-Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
+Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. To establish that all the claims can be met together, give a feasible arrangement or other sufficient grounds. To establish that they cannot, show why every arrangement meeting those claims would violate a constraint that applies. When an attempted arrangement fails, ask which alternatives its reason for failure also rules out. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
 
 A short working note can be sufficient. Develop a more elaborate description only when its intended use requires the additional content.
 
 #### D.3:2.2 - Reusable conflict description
 
-When another reader or later use must cite, compare, revise, or publish the result, identify one `InterlevelEthicalConflictDescription`. This is an ordinary local name for one C.2.1 `U.Episteme`.
+Identify the account of the conflict when another reader needs to cite, compare, revise or publish that account. A short note can serve. The account is one C.2.1 `U.Episteme`, here called an `InterlevelEthicalConflictDescription`. If a publication reports one observation, identify the source for that observation.
 
 Apply the C.2.1 identity test:
 
@@ -96,6 +96,8 @@ InterlevelEthicalConflictDescription — C.2.1 identity:
 ```
 
 When a restriction on the whole description matters, `descriptionClaimScopeRef` identifies the conditions under which its claims apply. Identify any subsystem affected on one side. The subject of the whole description can still be a fleet-wide decision. Change that subject only if the claim is now about the subsystem itself. Each side can also have its own ClaimScope or refer to a particular Work and its extent. Give the whole description its own scope when that further restriction matters.
+
+For another setting, carry over the reasoning that connects the action to a consequence under a value premise. Check whether the same dependency, value premise and relevant constraints apply there. One affected party may belong to several groups. Count distinct people once for a headcount. For a claim about burdens, establish whether that person experiences one burden reported twice or distinct burdens. State what can be concluded about the whole under the relevant counting or composition rule.
 
 The `plainStatement` must name the incompatibility, trade-off, parity, or other tension claimed among the sides. In an ordinary case, it remains claim content in the description. If a receiving use relies on a separately obtaining direct relation, cite the relation definition and occurrence with its participants, applicability, and identity. If no adequate governor exists, record the `A.6.RCD` missing-governor result. Merely filling a reference field never makes a direct relation obtain.
 

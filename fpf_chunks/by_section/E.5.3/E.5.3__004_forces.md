@@ -6,12 +6,12 @@ section_id: "E.5.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__004_forces.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
   - "E.5.3:3 — Forces"
-line_start: 102371
-line_end: 102378
+line_start: 102456
+line_end: 102463
 dependencies:
   - "E.4"
   - "E.5"
@@ -22,7 +22,7 @@ keywords:
 
 | Force | Tension |
 |-------|---------|
-| **Agility vs Stability** | Tooling must iterate quickly, while changes to Core must remain slow and deliberate. |
-| **Reuse vs Isolation** | Authors want to reuse helper concepts, but Core cannot depend on volatile code. |
-| **Simplicity** | The rule must be testable and unambiguous and must allow legitimate upward imports. |
+| **Independent revision** | Tool authors need room to change an implementation while Core readers can still interpret the rule it checks. Either publication may be revised frequently. |
+| **Reuse** | A guide can teach a Core rule directly or teach a procedure that also uses a tool. The two uses rely on different suppliers. |
+| **Assurance** | An import list makes cycles visible. Establishing which claims a user needs takes a reading of the content. |
 

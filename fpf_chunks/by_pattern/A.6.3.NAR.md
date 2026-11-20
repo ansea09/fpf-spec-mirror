@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.NAR.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
-line_start: 20217
-line_end: 20622
+line_start: 20219
+line_end: 20624
 dependencies:
   - "A.10"
   - "A.22.CGUS"

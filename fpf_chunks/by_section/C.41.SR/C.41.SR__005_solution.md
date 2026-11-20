@@ -6,12 +6,12 @@ section_id: "C.41.SR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:4 — Solution"
-line_start: 94386
-line_end: 94435
+line_start: 94435
+line_end: 94484
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -42,9 +42,9 @@ In a progress conversation or report, examine what is absent as well as what is 
 
 #### C.41.SR:4.2 - Test how the contributions support the whole
 
-Ask what each local answer establishes and what the shared conclusion additionally needs. Does it concern the same subject configuration and occasion? Is the necessary intermediate result available? Are the contributions compatible in their use of time, people and resources?
+Start with the decision about the whole and its acceptance conditions. Which conditions must all hold, which alternatives are allowed, and what has to work at the connection between contributions? Establish which conditions the local answers cover for the same configuration and occasion, including the availability of intermediate results and the joint demands on time, people and resources. If those grounds settle the shared question, give the answer and its grounds to whoever makes the decision. An established failure of a required condition can settle the question in the negative. If one admissible alternative fails, judge the others on their own grounds. If the question remains open, identify what would settle it. Participants may need to interpret an observation, obtain a missing one, agree on a handover or allocate a resource. Tell the decision maker what the available answers already establish.
 
-Name the relevant relation instead of inferring it from a checklist's nesting. A supplier can enable work; a schedule allowance can affect its feasibility; a model can describe the subject; one observation can support several conclusions. None becomes a physical part of another subject merely by appearing below it in a list. Recover what a changed local condition changes for each consuming claim.
+Name the relevant relation instead of inferring it from a checklist's nesting. A supplier can enable work; a schedule allowance can affect its feasibility; a model can describe the subject; one observation can support several conclusions. Identify the facts it supplies to each. Two records derived from the same observation count as one source when independent confirmation matters. For a physical part–whole claim, identify the part and the whole in the work itself. Recover what a changed local condition changes for each consuming claim.
 
 A local Method can contribute to an encompassing Method during the same performance. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) explains the composition distinction; its consequence here is to examine the whole's conditions when interpreting constituent work. Service availability enables the work; establish separately how the performed contribution enters the encompassing Method.
 

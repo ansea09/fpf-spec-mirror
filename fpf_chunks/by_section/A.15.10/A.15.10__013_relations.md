@@ -6,12 +6,12 @@ section_id: "A.15.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__013_relations.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "A.15.10 — Resume Work"
   - "A.15.10:12 — Relations"
-line_start: 33992
-line_end: 34003
+line_start: 33994
+line_end: 34005
 dependencies:
   - "A.15"
   - "A.15.5"

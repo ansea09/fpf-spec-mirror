@@ -6,12 +6,12 @@ section_id: "E.5:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__006_archetypal-grounding-system-episteme.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:5 — Archetypal Grounding (System / Episteme)"
-line_start: 101998
-line_end: 102006
+line_start: 102081
+line_end: 102089
 dependencies:
   - "E.2"
   - "E.3"
@@ -28,6 +28,6 @@ keywords:
 |------------|-------------------|----------------------|
 | GR‑1 | Definition of `U.System` never cites file formats or build scripts. | Definition of `U.Episteme` avoids naming specific proof engines. |
 | GR‑2 | A meaning-preserving mapping between text and diagram retains the pump boundary invariant. | A meaning-preserving mapping between algebraic and graph expressions retains F‑G‑R semantics. |
-| GR‑3 | A sizing helper imports Core invariants. Core never imports helper tutorials. | A learning guide cites the R‑score. Core does not derive its semantics from the guide. |
-| GR‑4 | Bias audit removes thermo‑mechanical jargon from a “universal” pattern. | Audit replaces physics‑centric metaphors in a trust pattern. |
+| GR‑3 | A sizing helper imports Core invariants. Core supplies their meaning independently of the helper. | A learning guide uses the Core definition of R‑score. A Core reader may follow a return link for an illustration and can interpret the definition without it. |
+| GR‑4 | The author limits “the earlier check settles acceptance” to the diameter criterion and the shaft state the measurement covers. A bound on one side can be combined with a check on the other. | The author establishes what the register’s date field records and limits the conclusion to that date until there are grounds for using it as the date of the event. |
 

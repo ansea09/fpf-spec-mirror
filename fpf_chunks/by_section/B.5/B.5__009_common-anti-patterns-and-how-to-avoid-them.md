@@ -6,12 +6,12 @@ section_id: "B.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48534
-line_end: 48543
+line_start: 48536
+line_end: 48545
 dependencies:
   - "A.10"
   - "B.5.1"

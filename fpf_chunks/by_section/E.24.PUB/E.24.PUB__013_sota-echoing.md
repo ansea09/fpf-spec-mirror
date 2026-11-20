@@ -6,12 +6,12 @@ section_id: "E.24.PUB:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__013_sota-echoing.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:11 — SoTA-Echoing"
-line_start: 125290
-line_end: 125322
+line_start: 125425
+line_end: 125460
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -44,12 +44,15 @@ The practical question is what an audience can obtain for a stated use, and whic
 | --- | --- | --- |
 | Exact publication with fixed E, A, U, X and C | Which expression of this episteme was available to this audience, for this use, through this carrier? | Select it when the provided content or copy matters. Comparing X first makes an expression change visible without inferring a change of E. |
 | Form-mediated availability with a permitted expression X | Is some expression of E conforming to F available through C for A and U? | This is sufficient when the receiving use needs availability in that form. It leaves the particular X open; identify X as well when the question becomes what exactly was provided. |
+| Individual routes, possibly changing over time | Can each intended reader reach E when needed? | Establish one permitted route per reader and required time. A supported failover arrangement can establish continuous coverage. |
+| Shared carrier or session | Can the intended group use the required carrier together? | Check the same-carrier and simultaneous-use conditions that the job specifies, including permissions and capacity. |
+| Shared editing | Can the group maintain the agreed version by the deadline? | Check authority to edit, reconciliation and timely visibility of the entries. Synchronized replicas can serve one logical log. |
 | Exact publication with mandatory F as an additional participant | Which exact expression and reusable form were provided? | Record a selected F through form conformance. Making F a fixed participant of every publication requires a separate form selection even when the receiving use needs only the ordinary expression. |
 | Identify a publication change with a change of E | Did the account itself change? | This collapses two comparisons. Carrier or expression changes can preserve E; recover E through C.2.1 and compare its publication separately. |
 
 For form-mediated availability, one and the same X must satisfy expression, bearing and form conformance. An adequate expression elsewhere and a different conforming expression on C do not establish that C makes E available. This shared witness is the binding that the two separate existential support claims leave open.
 
-When publication obtains with a different X or C, it is another exact occurrence. Broader availability can nevertheless continue while at least one permitted expression and carrier remains available at every time in the stated interval. Keep any form or carrier restriction that the receiving use requires. A failure of one copy establishes a broader gap only if all permitted alternatives fail.
+A change of X or C gives a different exact occurrence. The broader claim survives when the permitted routes still cover the promised work for every required reader and time. Loss of one reader’s only permitted route breaks a guarantee to everyone even while others can still read. For a claim about an actual delivery or edit, identify evidence of that event.
 
 The cost of the exact comparison is selecting the expression domain and equality, carrier identity, and relevant time interval before comparing publications. A continuing managed file and an immutable snapshot answer different identity questions. For ordinary use, the readable publication sentence suffices; recover this detail when its alternatives can change the answer.
 

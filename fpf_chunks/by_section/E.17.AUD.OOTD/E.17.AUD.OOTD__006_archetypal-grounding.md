@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:5 — Archetypal grounding"
-line_start: 117333
-line_end: 117407
+line_start: 117448
+line_end: 117518
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,22 +51,18 @@ A short architecture memo begins with:
 Three paragraphs later it says:
 `We should therefore assign rollout responsibility to platform and stage migration in two sprints.`
 
-The memo needs more than a lexical repair.
-The memo's primary subject began as the service boundary, but its carried move changed from describing or assessing that boundary to proposing responsibility assignment and a two-sprint rollout; its apparent downstream use changed from understanding to planning and decision. None of those changes by itself proves that the `C.2.1` `EntityOfConcern` of an identified carried episteme changed.
-Repair the memo in one of two ways:
-- keep the note about the boundary and push rollout outside;
-- or make the changed move and downstream use explicit and use a downstream decision or rollout publication.
+The memo moved from the interface to a proposal to assign and schedule rollout. Mark the transition if the reader needs both, or put independent rollout work in its own unit. Moving from describing to assessing the same interface need not change the `C.2.1` `EntityOfConcern` of the episteme.
 
-**Repaired two-sentence memo.** `This memo assesses the proposed service boundary between catalog and checkout. Rollout sequencing, responsibility assignment, and approval remain outside this memo.`
+For an introduction, “This note introduces the service boundary between catalog and checkout. Rollout is outside its scope” can finish the job. For an assessment, keep the two sides together and give the finding. Suppose checkout must handle every agreed catalog response. The catalog can return “item unavailable” and checkout accepts only a priced item. The current interface therefore fails that requirement. One such response settles this failure. To establish compatibility for that requirement, show that checkout handles every agreed response under the stated conditions.
 
-**Result.** The author publishes those two sentences and stops. A rollout record opens only if rollout later becomes current work.
+Either finding can guide an interface decision. Where a broader assessment also depends on an unknown deployment condition, identify what remains open. A rollout assignment requires the responsible authority’s action.
 
 #### E.17.AUD.OOTD:5.2 - Operations note shifting into approval
 
 An incident note begins as a comparative review of timing variance and operator context.
 It ends as if it already recommends a production action.
 
-The incident episode may remain the primary subject while the foregrounded concern changes and the carried move shifts from comparison to recommendation. Keep the review unit about the episode and the contrast it is surfacing; put action approval in an explicit outside-work or downstream decision text.
+The incident may stay the primary subject while the move changes from comparison to recommendation. Mark the change if the reader needs both. To communicate an existing approval, cite its authoritative outcome and scope. When approval is needed and still pending, give the decision-maker the proposal and its grounds.
 
 Use `C.11` if the new text chooses among already available actions. If an actual approving communication and an instituted permission matter, keep the `A.2.9` communicative Work and the `A.2.8.PER` grant relation separate. Use `A.21` only when a current `OperationalGate(profile)` publishes a gate decision.
 

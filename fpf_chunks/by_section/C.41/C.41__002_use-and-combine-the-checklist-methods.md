@@ -6,12 +6,12 @@ section_id: "C.41:0"
 section_title: "Use and combine the checklist Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__002_use-and-combine-the-checklist-methods.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:0 — Use and combine the checklist Methods"
-line_start: 93688
-line_end: 93752
+line_start: 93731
+line_end: 93797
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -77,6 +77,8 @@ One centralized checklist can be sufficient when everyone has the relevant acces
 Across this family, ask whether the important work questions are covered, their meanings survive the chosen forms, people can answer at the right occasion, the answers have adequate grounds, shared conclusions follow from the contributions supplied, and uncertain criteria have been challenged. Inherit adequate answers from prior use; revisit the part changed by new evidence or conditions. Each pattern's Conformance Checklist makes its own contribution inspectable.
 
 Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the questions, observations, mappings, counterexamples and consequences in the later sections.
+
+**What does a filled checklist establish?** Read the existing answers and their grounds before asking for another check. If they meet the acceptance conditions for this delivery, the recipient can act on them. A completed checklist can express a model of one delivery (L0). Its template may embody the team's model of a repeatable local check (L1). When the commission is to develop a disciplinary model of what to check (L2) using the transdisciplinary model of question selection here (L3), show which conditions of the discipline's work matter to the decision and how the chosen questions reveal them. A filled form can also carry that reasoning if its author records the design choice. When the assignment is to use an approved question set, the performer can take it as given. To credit the performer with applying the checklist, trace the answers to the checks they made or the prior results they chose to reuse. To credit them with selecting the questions, identify which choices the brief, form or helper supplied and which the performer made and justified. An earlier selection or a change the performer made to the form can supply that evidence.
 
 The constructed examples here illustrate reasoning and possible use. They do not report measured effectiveness. Human-use studies and AI evaluation studies inform the Methods under the limits in [C.41:11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4111---sota-echoing) and the supplying patterns' SoTA-Echoing sections. Practical adoption depends on capabilities, access, working conditions and the result people value.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
-line_start: 76320
-line_end: 76589
+line_start: 76322
+line_end: 76595
 dependencies:
   - "A.10"
   - "A.15"
@@ -165,6 +165,10 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Ordinary source-label non-use | any source label | No FPF claim remains after the sentence is read in context. | No precision-restoration pattern; keep ordinary wording, quote it, reduce its use, or block reliance. |
 
 **Functional layers and modular levels.** A functional layer groups functions by what they contribute or are intended to achieve. A module interface states conditions under which another module can use or replace what it supplies. To speak of modular levels, name the order, such as enclosure by a composite module or an acyclic dependency among modules. Two peers may exchange data through a well-defined interface. Their exchange alone supplies no higher or lower module. Dependencies can leave some modules unordered. When a numbered level for each module matters, state how the levels are assigned. A functional layer can span several modules and a module can serve several functions. Use A.6.F for the functional contribution and A.6.M for the module and interface claims.
+
+**Composition, extent and model abstraction.** A system-composition level locates an identified system along a stated chain of integrated components. Physical size requires a named quantity, such as length, and a basis for comparison. For a Method, Work, episteme or discipline, recover the composition relation for that kind. Following several such chains in one inquiry requires the links that connect them. When a number is used for a level, recover the ordering and the reference whole. A composition with several branches need not give all participants one common ranking. Model abstraction compares what two models admit for the same inquiry under B.5.MR.
+
+In a functional account, *functional layer* names the local kind of grouping defined by its organizing contribution. Identify a particular grouping through its organizing function, its membership criterion and the functions included in that design or operation. Different Methods can realise the same functional layer. When the source uses *layer* to designate the repeatable Method itself, identify that Method under A.3.1. Call the Method composite when its construction admits the specified constituent Methods and organizes their contributions under B.1.5.CM. If the layer denotes a functional grouping, the composition claim concerns its implementing Method. Membership of that Method in a further encompassing Method needs its own basis. A supervisor's command to a controller may establish a control relation across layers while both perform separate Methods. Use C.30.LCA or C.32.LCA for that relation. Library.Reference:6.2.2 collects the working terms for these different uses.
 
 **When a level claim matters.** When a later decision or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim.
 

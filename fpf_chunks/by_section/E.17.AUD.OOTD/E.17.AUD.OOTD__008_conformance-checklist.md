@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__008_conformance-checklist.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:7 — Conformance Checklist"
-line_start: 117412
-line_end: 117434
+line_start: 117523
+line_end: 117545
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ### E.17.AUD.OOTD:7 - Conformance Checklist
 
-**Checklist scope.** Use this checklist when checking a claimed application of this pattern, not as nine required authoring steps. The one- or two-sentence ordinary declaration remains a complete result. Inspect only the rows implicated by the unit, transition, `EntityOfConcern` projection, neighboring claim, or unit-architecture choice, and do not publish a nine-row record by default.
+**Checklist scope.** Use this checklist when checking a claimed application of this pattern, not as nine required authoring steps. A short declaration can settle scope. When the unit is commissioned to assess its subject, check that the reader also gets the judgment and its grounds. Inspect only the rows implicated by the unit, transition, `EntityOfConcern` projection, neighboring claim, or unit-architecture choice, and do not publish a nine-row record by default.
 
 1. **CC-OOTD-1 - One publication unit is explicit.**
    The text identifies the publication unit under review as one note, memo, sheet, screen, table, or section meant to be read as one unit.

@@ -6,12 +6,12 @@ section_id: "E.3:6"
 section_title: "Illustrative Conflict Resolution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__007_illustrative-conflict-resolution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:6 — Illustrative Conflict Resolution"
-line_start: 97988
-line_end: 98052
+line_start: 98061
+line_end: 98127
 dependencies:
   - "E.1"
   - "E.2"
@@ -35,9 +35,11 @@ keywords:
 
 **Same-kind wording.** First recover the intended kind under A.1. For an identified U.System, compare the plain name System with its technical expression U.System; both name the same kind. P-1 supports a precise, economical expression, while P-2 expressly gives human comprehension priority over theoretical or tooling purity. Use the familiar wording where it preserves the required meaning and make the technical designation recoverable where needed. The default Arch-over-Did order does not reverse that explicit P-2 priority. U.System is a proper subtype of U.Holon: replacing a non-System Holon with System would change the subject’s extension before any legitimate wording comparison.
 
-**Two Gov rules with no priority.** Suppose two rules at the same source level apply to publishing report R to audience A at noon: rule G1 requires that action and G2 forbids it. Both are Gov and neither has priority over the other. Return G1/G2, R, A and the noon window as the unresolved conflict; hold publication. Merely listing the class and an acyclic graph does not settle it. The rule-governing authority can authorize an applicable priority or scope amendment with the §4.2 rationale. A proposed priority has no effect before the required authorization; an authorized amendment outside this action's scope leaves this conflict unresolved.
+**Two Gov rules with no priority.** G1 requires publishing report R to audience A at noon. G2 forbids the same publication. Both are Gov and have the same FPF precedence rank. Hold the report. Suppose the charter gives a duty officer power to decide individual report disputes. Naming the officer leaves today's decision open. If the officer rules that R must be withheld from A today, apply that ruling. Tomorrow's report still falls under the standing rules. A proposed change to their priority needs a decision from the authority empowered to change it.
 
 **Changed case.** Suppose an authorized G2-over-G1 priority is in force for R, A and the noon window. G2 governs, so publication is forbidden; this pair needs no further priority resolution. A proposed G1-over-G2 edge would create a cycle and is rejected. The existing priority and G2's prohibition remain in force.
+
+**Three provisions, two notice channels.** A service must send a notice today through either channel A or channel B. One provision closes A and another closes B. Both channels are working, yet there is no permitted way to send the required notice. Any two of these provisions could be met together. Report all three and the outstanding duty. If an authorized, effective exception opens A for this notice, send it through A. The restriction on B and the terms for tomorrow’s notices still apply.
 
 **BLP and a guard.** If an applicable E.5 guard excludes a proposed implementation dependency, BLP-6 gives that guard priority over BLP. Compare those rules in their current scope, not the E.2 and E.5 files as whole nodes. B.3 enters the policy ordering for an assurance requirement consumed by the use.
 

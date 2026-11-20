@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.12.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
-line_start: 111763
-line_end: 111927
+line_start: 111856
+line_end: 112022
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -62,7 +62,7 @@ FPF makes **Didactic Primacy (Pillar P-2)** an architectural principle. The Rati
 
 The primary purpose of the FPF is to enhance the cognitive capabilities (qualified holder ability under A.2.2) of a reasoning system, team, organization, or other acting holon in service of its objectives.
 
-The creation of assurance-bearing epistemes or publications with high assurance levels and epistemic scores is a *means to that end*. Any architectural decision that increases formal rigor at the cost of clarity or usability must be explicitly justified by a demonstrable gain in that holder's ability to reason effectively.
+Any architectural decision that increases formal rigour at the cost of clarity or usability must explicitly justify the gain in reasoning that warrants this cost. A checked bound can let an experienced engineer rule out an infeasible operating mode today. That decision with the proof available can be the entire benefit of the work. To claim that the engineer has acquired a lasting ability, compare relevant performances over time with the aids available on the intended job.
 
 #### E.12:4.2 - Mechanism 1: The Rationale Mandate
 
@@ -71,6 +71,8 @@ Every key assurance episteme or publication, such as an assurance case or proof 
 *   **Nature:** The `rationale` is a narrative explanation of the cognitive benefit.
 *   **Content:** It **MUST** answer: *"How does this level of formal assurance help the agent understand the problem better or make a more reliable decision?"*
 *   **Purpose:** The author explains what the formal assurance helps the user understand or decide. An empty or perfunctory rationale indicates that the assurance work may be an exercise in formalism for its own sake.
+
+Name the decision the assurance makes possible. To claim that the work now takes less effort, compare the work required at comparable correctness, including preparation or help that the job calls for.
 
 > **The "So What?" Test for Managers**
 >

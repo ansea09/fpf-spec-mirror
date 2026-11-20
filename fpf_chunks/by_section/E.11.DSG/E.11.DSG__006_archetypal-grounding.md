@@ -6,12 +6,12 @@ section_id: "E.11.DSG:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__006_archetypal-grounding.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:5 — Archetypal Grounding"
-line_start: 111647
-line_end: 111693
+line_start: 111740
+line_end: 111786
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -37,7 +37,7 @@ keywords:
 
 #### E.11.DSG:5.1 - Organization change and continuing operation
 
-A manager asks how to reorganize a service without losing control of daily operation. A useful Reference answer can be three sentences: name the organization-change result for the organizational change; name the operations result for continuing operation; stop when those two contributions answer the question, or return the missing result. Co-use establishes no dependency between the DPFs.
+A manager asks how to reorganize a service while daily operation continues. Name the proposed change and who can keep accepting today's orders during each transfer of responsibility. If the sole authorized dispatcher has two incompatible mandatory duties at the same time, the proposed staffing cannot keep both covered. To promise continuity, change the timing or establish who else can take a duty. If the handovers and staffing cover the interval, the manager has a sufficient arrangement. A joint use on this project establishes no dependency between the two DPFs.
 
 If the decision is safety-critical or legally constrained, add the exact source date, jurisdiction or applicability, authority boundary, warning, and reopen condition because those values change the answer and action. The simple and expanded answers use the same distinctions; they carry different justified detail.
 
@@ -45,7 +45,7 @@ If the decision is safety-critical or legally constrained, add the exact source 
 
 A Reference may combine results from narrative, language-practice and pedagogical DPFs for one lesson-planning question. It labels each as a constituent or an external supplier according to the actual field architecture; their co-use alone creates no Suite.
 
-Explain the contribution and conditions of the resources included together and judge whether their combination supplies the lesson-planning result. Claim that every item is necessary only if removing any one defeats that result. Retain an established sufficient combination without that stronger claim; distinguish it from alternatives or a combination whose sufficiency is still open.
+Explain how the selected resources together provide what the lesson planner needs. Keep that sufficient combination when the order asks for one that works. If the planner needs to omit resources, test the proposed omissions, using the criterion in §4.4 for a claim about every proper subset. Retain the alternatives still available.
 
 A Spanish translation of an English Reference is a derivative episteme when its effective scheme changes. It remains in the same Reference product only while it uses the same reader and use, access rule, warning rule, later-review rule, and retirement rule. A separately established maintenance relation changes product identity only when the identity rule says so. A different Spanish use or current state may select another Reference product even when its title and cited DPFs remain recognizable.
 

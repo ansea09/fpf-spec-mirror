@@ -6,19 +6,18 @@ section_id: "D.2:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__007_boundaries.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:4 — Boundaries"
-line_start: 96658
-line_end: 96663
+line_start: 96717
+line_end: 96722
 dependencies:
   - "A.1"
   - "A.15"
   - "A.3.4"
   - "B.1"
   - "C.11.DUA"
-  - "C.13"
   - "C.16"
   - "C.29"
   - "C.30.ILC"
@@ -33,5 +32,5 @@ keywords:
 
 D.2 recognizes ethical concerns across levels and scopes. Use the corresponding subject method to judge a conflict, mediate it or conduct an audit.
 
-Levels and scopes are declared relations in the situation. If a mathematical lens is needed for scale, frustration, optimization, Pareto comparison, or renormalization-like reasoning, use `C.29` and the applicable pattern for the object.
+An affected population identifies who may experience a change. A composition relation identifies a whole and its constituent. A claim’s scope identifies the conditions under which the assertion applies (`A.2.6`). A proposed use can fall within the stated scope while evidence for its predicted effect is still missing. The same fact can matter to more than one of these questions. A change to a service can affect an entire organization on one occasion. To use that explanation for future decisions, identify what would carry the effect again. `B.5.MR` compares what models fix or leave open. Use `C.29` when a mathematical representation is needed to examine scale, a trade-off or an allocation.
 

@@ -6,12 +6,12 @@ section_id: "B.5.PI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__012_sota-echoing.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:11 — SoTA-Echoing"
-line_start: 52991
-line_end: 53008
+line_start: 52993
+line_end: 53010
 dependencies:
   - "A.1.STM"
   - "A.15.11"

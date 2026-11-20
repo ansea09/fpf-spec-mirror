@@ -6,12 +6,12 @@ section_id: "B.5.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:4 — Solution"
-line_start: 52687
-line_end: 52699
+line_start: 52689
+line_end: 52701
 dependencies:
   - "A.7.1"
   - "B.5"

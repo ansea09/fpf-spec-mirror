@@ -6,12 +6,12 @@ section_id: "C.43:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__005_solution.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:4 — Solution"
-line_start: 95129
-line_end: 95429
+line_start: 95180
+line_end: 95482
 dependencies:
   - "A.12"
   - "C.11"
@@ -49,9 +49,11 @@ In an explanatory inquiry, the proposed regulated characteristic and its relatio
 
 Keep three questions available. **Description** recovers the relations that obtain, their participants and the consequential gaps. **Explanation** derives what those relations do under the stated conditions, including an unwanted result. **Design** compares changes that could make the continuation more suitable. A descriptive or explanatory inquiry can finish without prescribing a new arrangement. In design, an intelligible description of the incumbent supplies a comparison basis, not a reason to retain it.
 
-Control can be open over a selected interval. An input is selected or set from the initial situation and then executed without using later observations to correct it within that interval. Establish the conditions under which that choice remains adequate. A later decision can close a wider loop by using the resulting observation.
+Control can be open over the interval being examined. A controller may follow a fixed schedule or adjust its input to a measured incoming disturbance before the disturbance affects the process. Trace how it sets the input and how the input reaches the controlled system. If the controller also uses an observation of the resulting state to select a later intervention, that return supplies a feedback path. Both paths can operate in one arrangement.
 
-Feedback exists where a subsequent influence depends on returned observations; that dependence can remain operative while the observed value and the resulting input stay unchanged. Whether the response is timely and beneficial requires an explanation. Use **C.30.LCA** to recover these obtaining relations and **C.32.LCA** when changing their organization is the needed result.
+Feedback operates when an observation returned from the controlled system can affect a subsequent intervention on that system. Identify the decision and the interval. Which different reading could change the action, its timing or the decision to continue it? Several readings can call for the same action. To establish what happened on a particular occasion, recover the rule or judgement actually used and the information that reached it. A fixed schedule and an observation-dependent rule can produce the same recorded command. Evidence of how the decision was made can distinguish them even when the command stayed the same.
+
+For a claim about the whole arrangement, state the property at issue and how it follows from what the parts do. If two loads account for the entire circuit load, their active powers add. Readings taken at the same instant give the total at that instant. Limits that apply to both loads in the same operating mode give an upper bound on the total. Whether both loads can reach their limits together is a further question. Where regulators share capacity or change one another’s inputs, follow the connections that affect the claimed response. A unit can correct its own backlog while its allocation follows a fixed schedule. Several units can also produce a common response through their interactions. To extend a conclusion to other operating conditions, establish which limits, decision rules and connections still apply. Use **C.30.LCA** to describe the control relations and **C.32.LCA** when their organization needs to change.
 
 The subject of the decision, the information and interventions available to each participant, and the physical realization can have different boundaries. One device can estimate, choose, act and modify its means. Several participants can jointly supply one influence, and each can be influenced by the others. Recover the contributions and how they are connected before allocating them to parts.
 
@@ -162,7 +164,7 @@ Keep feasibility, outcome preference and assurance distinct in the comparison. A
 
 Follow the chosen continuation through the participants and means that must realize it. Establish what action is needed, who or what can perform it, what resources and permissions it uses, and when the effect is needed. The calculation, communication, agreement and execution consume time and capacity. Include them when they can change the option's availability or result.
 
-Check coupled uses of scarce means. Two independently feasible actions can compete for the same machine, specialist, energy reserve or decision authority. An action that meets the immediate objective can exhaust the reserve required to respond later. Resolve those interactions in the whole continuation, rather than assuming that local feasibility composes.
+Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. To promise completion, fit attainable durations, eligible performers and dependencies into the available windows.
 
 Choose the organization of decisions where it is unresolved. One rapid feedback response may protect the system while a slower plan is revised. Alternatively, the relevant decisions may need to be made together. Different timescales do not by themselves require layers, and organizational titles do not establish update rates. Use **C.32.LCA** to construct or change the observation, decision and intervention arrangement when those relations are the limiting condition.
 
@@ -219,7 +221,7 @@ These returns can also change the means of further action. When the receiving wo
 
 The common account makes theories comparable through the questions they answer. To use a specialization, identify its representation of the system and information, available actions, outcome criterion, execution assumptions and warranted conclusion. Preserve what its additional assumptions make possible and what it leaves to another contribution.
 
-**Compact improvement, decision and learning cycles.** First establish whether the source prescribes a way, offers an explanatory heuristic or reminds a prepared practitioner of a known way. Relate a prescription to its operations, actual or proposed performance, provision and authority. Use a heuristic to investigate the relationships it explains before selecting an intervention. One performer may supply several control contributions, and several performers may share one; recover the relationship before assigning a level.
+**Compact improvement, decision and learning cycles.** First establish whether the source prescribes a way, offers an explanatory heuristic or reminds a prepared practitioner of a known way. Relate a prescription to its operations, actual or proposed performance, provision and authority. Use a heuristic to investigate the relationships it explains before selecting an intervention. One performer may supply several control contributions, and several performers may share one. For a claimed control layer, identify the reference, limit or rule it sets and how this can affect the other controller’s action. For a feedback claim, also identify the returned observation and how it can change that setting. B.5.MR compares what models of those decisions specify or leave open.
 
 [Library.Reference:6.5](FPF-LIBRARY-REFERENCE.md#libraryreference65---compact-cycles-in-working-control-arrangements) develops the family connections, a sufficient short choice and the returns caused by changed conditions. Use an already adequate method; expand the arrangement where a missing dependency requires it.
 
@@ -265,7 +267,7 @@ A record of training or a recommender's estimate can inform this inquiry; the re
 
 For instance, additional practice can develop an absent judgement; a changed division of work can instead obtain that judgement from someone already capable. The two interventions can deliver the same immediate answer while leaving different capabilities and dependencies.
 
-The method stack contains several relations. Recover the relation that makes a proposed change consequential:
+To decide how to develop a Method or capability, identify the relation through which the proposed change could affect the agent’s subsequent work.
 
 | Related structure | Connection to recover | How it guides an intervention |
 | --- | --- | --- |
@@ -276,7 +278,7 @@ The method stack contains several relations. Recover the relation that makes a p
 | Observation and decision at different scopes | Which local differences matter to an encompassing choice, and which aggregate hides them | Change the observation or its use; apply **C.30.ILC** and **C.32.MLAO** when the conflict crosses the identified scopes. |
 | Changes on different timescales | How long an effect takes to become observable, usable and retained | Coordinate practice, feedback, deployment and reconsideration by those delays rather than by organizational rank. |
 
-One organization can remain the developing subject while it changes a working Method, the preparation of its performers and its way of choosing further development. These changes do not require one universal hierarchy. A service provider can affect an encompassing result without becoming part of its recipient. A Method that improves another can have that Method as its subject rather than its constituent. Explain the relation before using a change at one position to predict another.
+One organization can remain the developing subject while it changes a working Method, the preparation of its performers and its way of choosing further development. These changes do not require one universal hierarchy. A service provider can affect an encompassing result without becoming part of its recipient. A Method that improves another can have that Method as its subject rather than its constituent. Before claiming an improvement in the receiving Method, explain what the development work changes in that Method and how this affects its use.
 
 **Construct a complete intervention.** Explain the causal and constructive connections: the proposed work changes a named subject; that change makes a contribution obtainable; the contribution enables receiving work; the receiving result changes further possibilities. Include the preparation, assistance and transition that make those connections feasible.
 

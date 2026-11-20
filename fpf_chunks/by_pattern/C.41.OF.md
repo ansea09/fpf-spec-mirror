@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.OF.md"
-commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
+commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
-line_start: 94077
-line_end: 94212
+line_start: 94126
+line_end: 94261
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -81,9 +81,9 @@ When a new observation of representative work is needed, use [A.3.1.WT](https://
 
 Choose observations from the unresolved question. An existing reliable record may settle whether the aid appeared at the intended occasion. That appearance alone does not settle whether a participant understood or acted on a concern; use evidence of that interaction when it matters. Use a bounded observation of representative work before choosing continuing oversight. Include the observer's effort and any change their presence makes to the work.
 
-A first assisted use can reveal unfamiliar wording or a missing observation route. Provide enough help to diagnose and repair the obstacle, then distinguish what the user can do with that help from what is independently repeatable. Ask whether the aid changed the work result and what effort it moved to other people or tools.
+During an assisted use, establish who interpreted the question, obtained the observation and chose the response. The result may be sufficient for this handoff with the available help. If someone supplied the interpretation, credit the user with the work they actually did. When deciding what the user can do on other occasions, identify the support that will be available then and the decisions the user will have to make. Examine the effect on the work result and the effort moved to other participants or tools.
 
-After the assisted occasion, examine an ordinary later use where continued reliance matters. Compare when the aid influenced the work with the observations and entries made. A late record can faithfully report an earlier observation; it is different from inventing answers for omitted checks. Repair the reason for bypassing or fictional completion, including poor fit, missing access or incentives that suppress truthful answers. Choose any continuing oversight through the work arrangement; a penalty is not a universal checklist-design remedy.
+If ordinary use is still in doubt, look for an existing performance by the intended user with the applicable form, support and work conditions. Observe another occasion when the available evidence leaves a consequential question unanswered. Compare when the aid influenced the work with the observations and entries made. A late record can faithfully report an earlier observation. For entries made without the required check, repair the obstacle, such as missing access or incentives that discourage a truthful answer. Choose continuing oversight only where it serves the work.
 
 Return a meaning defect to C.41.TF, a coverage defect to C.41, an inadequate check to C.41.QC, and a missing capability or resource to its supplying practice. When the fitting decision still needs a worth comparison, use [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option). Use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) when a decision to change or retire the aid depends on its introduction and later use. Stop when the arrangement works at worthwhile cost; do not keep adding ceremony merely because some use remains irregular.
 
@@ -93,7 +93,7 @@ The seminar organizer originally emails a spreadsheet a day before delivery. The
 
 The repaired arrangement puts the three questions and the v2 description in the preparation workspace. The packer counts and inspects during assembly; the facilitator compares wording where instructional interpretation is needed. Before closing the box, the organizer confirms the set and unresolved questions.
 
-Another reminder email would leave the missing access and late occasion unchanged. A permanent second observer would add effort before the team knows which difficulty remains. The organizer instead joins one initial use to inspect access and interpretation, then examines an ordinary later use if the arrangement will be relied on. Continued assistance is selected only for a difficulty that the revised arrangement still cannot resolve.
+Another reminder email would leave the missing access and late occasion unchanged. The organizer joins one initial use to inspect access and interpretation. To decide whether the new arrangement can be used routinely, the organizer can draw on a comparable ordinary use under the revised conditions. If the available evidence covers only the assisted use and the independent decision still matters, observe that decision at an ordinary packing occasion. Continued help or a second observer is worth arranging when it addresses a difficulty still present.
 
 On first use, “readable” turns out to be interpreted differently by two people. They inspect the cards under the intended display conditions and ask the facilitator what the exercise needs. Repair that interpretation in the criterion and nearby help before asking the packer to answer again.
 
