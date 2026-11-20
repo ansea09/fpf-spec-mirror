@@ -6,12 +6,12 @@ section_id: "E.4.FPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:4 — Solution"
-line_start: 99027
-line_end: 99199
+line_start: 99046
+line_end: 99218
 dependencies:
   - "C.33"
   - "C.34"

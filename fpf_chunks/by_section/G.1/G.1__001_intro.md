@@ -6,12 +6,12 @@ section_id: "G.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__001_intro.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:intro — Intro"
-line_start: 135888
-line_end: 135906
+line_start: 135907
+line_end: 135925
 dependencies:
   - "A.10"
   - "A.15.2"

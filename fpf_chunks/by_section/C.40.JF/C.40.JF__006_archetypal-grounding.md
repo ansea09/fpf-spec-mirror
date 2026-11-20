@@ -6,12 +6,12 @@ section_id: "C.40.JF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__006_archetypal-grounding.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:5 — Archetypal Grounding"
-line_start: 92394
-line_end: 92433
+line_start: 92413
+line_end: 92452
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -29,7 +29,7 @@ keywords:
 
 Consider a constructed engineering-organization case. Two departments want better acceptance preparation during an eight-week period. The current arrangement is manual review. Candidate A supports one department with a qualified reviewer; candidate B supports the other with the same specialist. The following are stipulated case premises, not reported field evidence.
 
-The relevant practice has qualified each direction separately for its own use. Each needs two specialist hours every week for all eight weeks. The organization has confirmed only two hours per week for this inquiry, after existing obligations. The protected condition is no overtime or loss of urgent operating cover. Setup and the remaining dependencies are covered in each separate qualification.
+The relevant practice has qualified each direction separately for its own use. Each requires the same specialist to review its own confidential work for two hours every week for all eight weeks. Each review occupies the specialist for the full two hours, and the departments' access conditions require separate reviews. The organization has confirmed only two hours per week for this inquiry, after existing obligations. The protected condition is no overtime or loss of urgent operating cover. Setup and the remaining dependencies are covered in each separate qualification.
 
 | Claim | Joint test and result |
 | --- | --- |
@@ -37,7 +37,7 @@ The relevant practice has qualified each direction separately for its own use. E
 | B alone | Its two weekly hours fit the same availability when A is absent; retain its bounded individual reachability. |
 | A and B together | Four hours are required in each overlapping week, against two available; the combination is ruled out for this horizon and protection. |
 | A followed by B | Both need eight weeks, so moving B after A does not fit the original eight-week horizon. A longer horizon would be a revised claim requiring its own availability and continuing-demand basis. |
-| Shared support for A and B | “The specialist can cover both at once” is an unqualified new configuration, not a consequence of the individual results. |
+| Shared support for A and B | A joint briefing could serve both if both needed the same guidance and joint access were permitted. Here each needs its own review. A redesigned service would have to meet both review needs within the available time and permissions. |
 
 The useful answer is not “development is impossible.” Both separate directions remain candidates. The organization can request the combined-work estimate for a shared-support configuration, examine another provider, or later consider a different horizon. Those possibilities require their own qualification. Choosing between A and B remains a separate decision.
 
@@ -61,5 +61,5 @@ If the qualified data result excludes that operational use, reject the access-de
 
 #### C.40.JF:5.4 - All pairs fit but the whole combination does not
 
-All pairs can fit while the whole set does not. In a separate arithmetic illustration, three non-shareable seven-hour activities each draw on one eighteen-hour budget. Every pair needs fourteen hours; all three need twenty-one. The deficit rules out that combination under those premises. It does not choose an optimal subset. The same issue arises when two six-hour demands compete for eight hours of shared capacity in an organization inquiry.
+All pairs can fit while the whole set does not. In a separate arithmetic illustration, three non-shareable seven-hour activities each draw on one eighteen-hour budget. Every pair needs fourteen hours; all three need twenty-one. The deficit rules out that combination under those premises. It does not choose an optimal subset. Two separate six-hour reviews likewise exceed eight available hours if each occupies the same reviewer throughout.
 

@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:4 — Solution"
-line_start: 107438
-line_end: 107587
+line_start: 107457
+line_end: 107606
 dependencies:
   - "A.1.STM"
   - "A.10"

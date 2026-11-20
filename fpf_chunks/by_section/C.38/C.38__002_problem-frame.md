@@ -6,12 +6,12 @@ section_id: "C.38:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__002_problem-frame.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:1 — Problem frame"
-line_start: 86851
-line_end: 86875
+line_start: 86858
+line_end: 86882
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -41,7 +41,7 @@ keywords:
 
 **What changes in practice.** Instead of comparing *buy* against *AI* or *internal* as if the labels were peer kinds, the practitioner asks how each whole way could make the same accepted result available. Duplicate labels merge, materially different ways under one label split, and omitted integration, evidence, support, capability, custody, resource, consequence, and exit burdens become visible before commitment.
 
-**When to stop.** Stop if a direct domain Method already returns the complete useful comparison for this result and use, if one mandatory path leaves no real comparison decision, or if a complete `OptionSet` already exists and only `C.11` is needed.
+**When to stop.** If the receiver can already obtain the ordered result on the agreed terms and no further choice or appraisal is due under the applicable commission, show how the existing provision meets those terms and omit the proposed new work. If one authorized way suffices and no comparison is due, use the direct domain Method. A domain comparison that already answers the decision can go straight to the chooser. Use `C.11` when only the choice from a complete `OptionSet` remains.
 
 **Use another pattern for these questions:**
 

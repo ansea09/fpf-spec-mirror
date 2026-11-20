@@ -6,12 +6,12 @@ section_id: "E.15:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__010_consequences.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:9 — Consequences"
-line_start: 112774
-line_end: 112781
+line_start: 112793
+line_end: 112800
 dependencies:
   - "C.18"
   - "C.19"

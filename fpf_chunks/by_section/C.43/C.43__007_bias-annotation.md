@@ -6,12 +6,12 @@ section_id: "C.43:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__007_bias-annotation.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:6 — Bias-Annotation"
-line_start: 95516
-line_end: 95521
+line_start: 95535
+line_end: 95540
 dependencies:
   - "A.12"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "C.38:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__012_relations.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:11 — Relations"
-line_start: 87046
-line_end: 87053
+line_start: 87059
+line_end: 87066
 dependencies:
   - "A.10"
   - "A.15.9"

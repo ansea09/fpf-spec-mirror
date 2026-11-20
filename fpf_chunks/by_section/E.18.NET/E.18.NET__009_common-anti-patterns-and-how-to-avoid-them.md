@@ -6,12 +6,12 @@ section_id: "E.18.NET:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 120179
-line_end: 120191
+line_start: 120198
+line_end: 120210
 dependencies:
   - "A.1.STM"
   - "A.12"

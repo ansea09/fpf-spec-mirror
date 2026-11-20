@@ -6,12 +6,12 @@ section_id: "C.38:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:4 — Solution"
-line_start: 86896
-line_end: 86954
+line_start: 86903
+line_end: 86963
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -31,13 +31,15 @@ keywords:
 
 ### C.38:4 - Solution
 
-Fix one result, receiving use, situation, horizon, and acceptance basis. Construct at least two materially different complete ways by resolving labels into the Agents, Work, Methods, Systems, values, relations, conditions, and enabling branches that can change this decision. Ask the same decision-changing questions of every way, preserve unknowns, then freeze only complete-enough ways for `C.11`.
+First establish what the receiver can obtain if present arrangements continue. Check access, fitness for the intended use and availability over the required period. An item in a supplier’s catalogue or a file in an archive establishes availability to this receiver only if the receiver can use it on those terms. Where something is missing, name it. That may leave only a permission to obtain or an adaptation to make. Use `C.42` if removing existing work would affect the provision on which the receiver relies.
+
+If a choice is still due, give every way the same test. Continuing the present arrangement may itself qualify, with its ongoing costs and dependencies. A required appraisal may also use it to show what would happen without a change, even when it fails a condition for selection. An appraisal of a named change against that baseline can answer its commissioned question directly. If the choice concerns alternative ways to obtain the result, construct comparable ways and pass them to `C.11`.
 
 #### C.38:4.1 - Follow the seven-step same-result sequence
 
-1. **Fix one result question.** Name the sought result by its direct governed kind, the receiver and use, applicable configuration or situation, horizon, acceptance conditions, deciding System, authority boundary, and commitment the decision may make. If rows seek a System, performed service, capability, access relation, and episteme interchangeably, split the questions before comparing.
-2. **Recover available inputs and gaps.** Use available subject and specialist results only where they fit the same question. Apply `A.15.9` only when one bounded result from another practice is missing or needs qualification. That request or return is an input to a way, not the whole way and not the choice.
-3. **Construct at least two materially different complete ways.** Use labels only as prompts. For each surviving way, describe the relevant proposed or available Agents, Work, Methods, Systems, values, provision or access relations, enabling branches, and conditions through which the same result could become available. Mark every decision-bearing premise as supported now, proposed, or unknown. Merge labels that resolve to the same decision-changing contents; split ways under one label when a content difference can change the choice. If no second way can be supported, return the missing-alternative or search gap rather than fabricating a peer. When the gap is an unexplained obtaining operation, use `C.39` to develop a candidate explanation or identify the unresolved contribution. Its sufficient-one-way result does not complete this comparison.
+1. **Fix the result of the commission.** Name the receiver, intended use, horizon, conditions for acceptance, and who can commit to a way of obtaining it. Separate unlike ends. If the commission requires both delivery now and the receiving team’s ability to do a later job under changed conditions, keep both in every way. State what will count as an acceptable delivery and, separately, what the team must decide or perform on the later job and what help it may use.
+2. **Find what is already available and what is missing.** Use earlier work when its conditions still apply. Prior independent performance can establish the team’s capability if it covers the change in question. When the team must exercise independent judgement, establish which choices the brief, tools or helper already supply and examine the choices the team makes on its own. If the order calls for constructing a rule for a class of jobs, examine an earlier work product or give a task that leaves the consequential choices open. Check how the team justified the rule and where it applies. When the order calls for applying an approved rule, give the team that rule. A supplier’s accepted delivery establishes the delivery. Credit the team with decisions evidenced by its own work. Seek a missing or unqualified result from another practice through `A.15.9`.
+3. **Construct at least two materially different complete ways.** Use labels only as prompts. For each surviving way, describe the relevant proposed or available Agents, Work, Methods, Systems, values, provision or access relations, enabling branches, and conditions through which the same result could become available. Mark every decision-bearing premise as supported now, proposed, or unknown. Merge labels that resolve to the same decision-changing contents; split ways under one label when a content difference can change the choice. A way may combine delivery by a provider with work through which the team acquires and demonstrates the required capability. State how that capability will be checked and mark it as proposed until there is evidence. When the gap is an unexplained obtaining operation, use `C.39` to develop a candidate explanation or identify the unresolved contribution. A single supported way can close a request for a way to proceed. For a commissioned choice between ways to obtain the result, report a missing second eligible way as a gap in the comparison.
 4. **Use one decision-changing parity basis.** Ask the same bounded questions of every way: result and availability condition; performers, Work, Methods, and means; production, transfer, provision, access, custody, or ownership; fit, interfaces, integration, and configuration; evidence, uncertainty, and assurance; support, maintenance, change, exit, and recovery; capability consequences; resources; and consequences for affected Systems. Omit a group only when it cannot change this choice. Keep a decision-reversing unknown as a visible gap.
 5. **Restore comparability without forcing totality.** Keep the result, receiving use, acceptance conditions, situation, configuration boundary, evidence horizon, and burden categories shared. Use ordinary comparison when the ordering is direct. Use `A.19.CPM` and `A.19.SelectorMechanism` only when evidence gates, partial orders, incomparability, abstention, or set-valued retention matter. Do not hide protected conditions inside an unexplained score.
 6. **Freeze and hand off a finite option set.** Put only complete-enough whole ways into the current `OptionSet`, with gaps that the chooser can see. When local choice is current, apply `C.11`. Its result may choose one way or a retained tie-set, reject the current set, probe again, or reroute. `C.38` does not choose by implication and does not gain the chooser's authority.
@@ -85,6 +87,6 @@ The episteme, table, document, or diagram that carries the claims does not, mere
 
 #### C.38:4.5 - Separate recognition from assurance
 
-- **Recognition.** A candidate list whose labels name unlike things, or whose rows omit different burdens, is enough to open `C.38`. Two parallel ordinary descriptions can be enough for a reversible decision.
+- **Recognition.** Start with the receiving use. If the ordered result is already available, establish whether anyone still has a choice to make. When several ways remain and their labels conceal differences that matter to that choice, two parallel descriptions can suffice for a reversible decision.
 - **Assurance.** Consequential use checks that every row seeks the same result on the same basis, every actual premise has direct support, modal premises remain modal, protected conditions remain visible, and no omitted burden can plausibly reverse the choice unnoticed. Domain acceptance, assurance, authority, realization, and release stay with their direct Methods.
 

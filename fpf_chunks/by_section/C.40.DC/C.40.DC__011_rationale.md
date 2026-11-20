@@ -6,12 +6,12 @@ section_id: "C.40.DC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__011_rationale.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:10 — Rationale"
-line_start: 92255
-line_end: 92260
+line_start: 92274
+line_end: 92279
 dependencies:
   - "A.3.1"
   - "A.3.2"

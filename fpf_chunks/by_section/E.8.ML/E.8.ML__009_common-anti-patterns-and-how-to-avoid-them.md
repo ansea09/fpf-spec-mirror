@@ -6,12 +6,12 @@ section_id: "E.8.ML:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 103884
-line_end: 103893
+line_start: 103903
+line_end: 103912
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

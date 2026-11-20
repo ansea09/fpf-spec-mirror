@@ -6,12 +6,12 @@ section_id: "C.40:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 90207
-line_end: 90218
+line_start: 90224
+line_end: 90235
 dependencies:
   - "C.11"
   - "C.18"

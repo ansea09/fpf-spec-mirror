@@ -1565,7 +1565,7 @@ For this worked example, define the operational requirement as follows: a qualif
 
 ##### FPF.Reference:16.5.4.2 - Compare proposed ways to meet the need
 
-The nightly windows require 56 hours of coverage per week. Qualified members of the internal team can cover 12 of those 56 hours without conflicting with their other assignments. The internal roster leaves 44 hours uncovered.
+The nightly windows require 56 hours of coverage per week. Qualified members of the internal team have 12 hours available without conflicting with their other assignments. No night assignment has been established. Even if the owner assigns those 12 hours and verifies the required response, another 44 hours still need staff.
 
 Assume an external provider offers all 56 hours for 600 units per week, within a budget of 800. The proposed service includes a qualified operator and replacement coverage. For the declared incident class, its proposed serial bounds are 0.5 minutes for alarm delivery, 1 minute for the operator to take responsibility for the incident, 1.5 minutes for diagnosis and 1 minute to start mitigation. Their sum is 4 minutes. These are offer terms to verify, not observed performance.
 
@@ -1573,16 +1573,16 @@ The existing automation can route an alarm but cannot select and start the requi
 
 | Alternative under the stipulated facts | Result of comparison | What could change that result |
 | --- | --- | --- |
-| Extend the current internal roster | Incomplete: 12 of 56 required hours are available; obtaining the other 44 hours is unexplained | Availability, assignments, replacement, response capability and full cost of the additional coverage |
+| Extend the internal roster | Staff have 12 hours available. The proposed roster has no identified staff for the other 44 hours. | Assignments, replacement, response capability and the full cost of covering all 56 hours |
 | Obtain the offered external provision | Offered price is within the budget and the proposed response bound meets the target; total cost and operating conditions remain to qualify | Setup and continuing owner work, unavailable replacement, failed access, a failed bound or unacceptable contractual conditions |
 | Use the present automation alone | Missing the required diagnosis and mitigation capability | A separately developed and authorized capability with suitable assurance |
 | Restrict the promise to daytime | Does not meet the stated receiving use | An authorized revision of that need and its accepted consequences |
 
-The comparison is unfinished. C.38 exposes the missing internal way: who could cover the other 44 hours, with what replacement, response capability, assignments and full cost? The external offer also leaves setup, verification and continuing owner work to qualify. Those contributions could change the comparison. Once the service owner has enough information to compare the alternatives, the owner can use C.11 to choose. The following paragraphs develop the external proposal. If the owner chooses the offer, the parties must still agree on terms, and the service must be provided and verified before the owner can rely on it.
+Continuing the current arrangements leaves night coverage unverified. To assess a full internal roster, identify who could cover the other 44 hours, on what assignments and at what cost. To assess the external offer, qualify its total cost, terms and operating conditions. If a comparison is due, a second provider or a mixed roster could also supply a credible alternative. If the commission is to secure coverage and one qualified offer suffices, the owner can proceed within the purchasing authority. The parties must agree on terms and verify actual provision before anyone can rely on night coverage.
 
 ##### FPF.Reference:16.5.4.3 - Specify the missing procurement and operating results
 
-Before choosing, the service owner needs an adequately supported external proposal. It must identify the covered hours, response obligations, full cost, replacement and withdrawal conditions, the provider's required access, and who can authorize and make the proposed commitments. These details must support comparison with the internal way under C.38 and the subsequent choice under C.11.
+Before committing to the external service, the service owner needs an adequately supported external proposal. It must identify the covered hours, response obligations, full cost, replacement and withdrawal conditions, the provider's required access, and who can authorize and make the proposed commitments. If a sourcing choice is due, use those same conditions to compare the ways under C.38 and take the choice to C.11.
 
 That proposal is still missing. No procurement method or qualified provider result that establishes it is supplied here. A.15.9 can help request a bounded specialist result, such as an assessment of the proposed response time; it cannot supply the missing procurement operation.
 
@@ -1594,9 +1594,9 @@ Before authorizing the arrangement, examine a relevant consequence outside the i
 
 ##### FPF.Reference:16.5.4.4 - Return the result and its remaining conditions
 
-The worked result is a partial comparison and requirements for a conditional external arrangement. Before a choice can be supported, the service owner still needs an adequate proposal and a complete enough internal alternative. The first subject-domain gap is a way to obtain and qualify that proposal. After a supported choice and agreement, staffing, working access, authority and operating evidence would still have to be established before anyone could claim night coverage. For framework development, carry these two missing operations and their required results into E.4.PFAD's decision about an existing or new subject-domain contribution. The original conditional daytime calculation remains valid.
+The planner can identify staff time for 12 of the 56 required hours. The remaining 44 are a gap in the proposed internal roster. The external offer is still a proposal. The next procurement task is to obtain and qualify that offer. A commission to compare two ways also needs a credible second way or a statement of what prevents the comparison. After agreement, the service still needs staffing, working access, authority and operating evidence. Take the procurement and operating gaps to E.4.PFAD when deciding which subject-domain practice can supply each result. The original conditional daytime calculation remains valid.
 
-Once the comparison has supported a choice and the selected arrangement has the required commitments and operating evidence, the owner can decide whether to rely on the night service at the stated scope. Communication then conveys the qualified result and its remaining limits. Understanding, commitment, acquired capability and observed response remain different outcomes along this construction.
+Once the service has been authorized and the commitments and operating evidence are in place, the owner can decide whether to rely on the night service at the stated scope. Communication then conveys the qualified result and its remaining limits. Understanding, commitment, acquired capability and observed response remain different outcomes along this construction.
 
 Change the whole condition to two simultaneous incidents. The offered bounds apply only to one. Compare parallel provision, a second authorized responder or a justified prioritization with a changed service promise; return an unmet requirement if no continuation is supported. Retain the verified meaning of the alarm and each applicable diagnosis; reopen concurrent capacity and its implications for time, cost and authority.
 

@@ -6,12 +6,12 @@ section_id: "C.40.PC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__006_archetypal-grounding.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:5 — Archetypal Grounding"
-line_start: 91942
-line_end: 91965
+line_start: 91961
+line_end: 91984
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -46,5 +46,5 @@ The inquiry rejects this lead for the current use. It does not claim that the te
 
 A research group suspects that an evaluation loses important failure cases when several task types are pooled. The proposed contribution is a reproducible comparison between the pooled and separated analyses, with explicit limits on what any difference would establish.
 
-The problem is provisional: no result yet shows that the suspected loss changes the relevant scientific conclusion. The next question is whether the comparison exposes a conclusion-changing discrepancy on an admissible dataset. A negative answer closes or narrows the hypothesis; a positive answer motivates further research. Publication, funding, and improved model performance are not part of the proposed epistemic result.
+First establish what the group wants to know. If it needs a conclusion for this dataset, return the two analyses and explain whether pooling changed that conclusion. If the separated analysis reproducibly reveals an important failure that pooling concealed on an admissible dataset, that dataset establishes that such a loss is possible. A change in the numerical summaries alone can leave every important failure visible. Agreement on that dataset leaves the possibility open elsewhere. A claim about how often the loss occurs needs evidence about the population of datasets. If the requested comparison answers the group's question, the work can end there. The group can choose a further inquiry when its answer would matter.
 

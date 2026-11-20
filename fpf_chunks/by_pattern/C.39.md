@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 87058
-line_end: 87370
+line_start: 87071
+line_end: 87387
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -149,9 +149,13 @@ Keep an unavailable domain operation visible. General guidance can identify a re
 
 #### C.39:4.4 - Refine only what can change the answer
 
-Follow a constituent contribution further when its unresolved obtaining way could change the whole's result, feasibility or burden. State that effect before opening another search. A qualified existing operation can remain intact while one missing connection is developed.
+**Which constituent operation needs further work?**
 
-Choose the next level by the decision it enables, not by a fixed decomposition depth. Stop when the explanation is sufficient for that decision. If it is not, name the missing operation or support question and what observation would allow reconsideration.
+Start from the decision about the Method as a whole. Which result must one operation supply to another? A known bound on that result may already settle the decision even while the exact value or the way of obtaining it remains unknown. When the decision is still open, identify what is missing. If a suitable operation exists, its performer may need an input, access or an assignment. If the available operations cannot produce the required result under the stated conditions, develop the missing operation or change how they are connected.
+
+To explain a composite Method, identify the repeatable action of the whole and the result it obtains. Show how the constituent operations together obtain that result under their operating conditions. Where one Method supplies an input to another and each has its own result, describing that exchange may be all the receiver needs.
+
+To compare two models of a Method, name the question both must answer. What ways of carrying out the Method does the proposed model allow? Show that at least one is possible and that each satisfies the earlier model's assertions when read in its terms. A strict refinement also rules out an answer the earlier model allowed. Explaining the parts can leave the allowed answers unchanged. B.5.MR:4.1–4.2 gives the comparison for other modeled entities and inquiries.
 
 Compare further inquiry with using the adequate current answer, narrowing the sought result and stopping. Include the effort and displaced work. A technically interesting uncertainty need not be resolved when none of its attainable answers would change the current decision.
 

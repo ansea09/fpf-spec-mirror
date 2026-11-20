@@ -6,12 +6,12 @@ section_id: "D.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96673
-line_end: 96681
+line_start: 96692
+line_end: 96700
 dependencies:
   - "A.1"
   - "A.15"

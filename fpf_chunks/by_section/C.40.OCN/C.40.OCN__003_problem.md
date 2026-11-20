@@ -6,12 +6,12 @@ section_id: "C.40.OCN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__003_problem.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:2 — Problem"
-line_start: 90793
-line_end: 90796
+line_start: 90812
+line_end: 90815
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -28,5 +28,5 @@ keywords:
 
 ### C.40.OCN:2 - Problem
 
-A promising means can be mistaken for a worthwhile result, and a plausible direction for an attainable one. Separate search, problem, support and qualification results then leave the practitioner to invent their connection. The required result is one inspectable opportunity whose useful contribution, conditions, uncertainty and next question remain connected.
+A promising means can be mistaken for a worthwhile result, and a plausible direction for an attainable one. Separate search, problem, support and qualification results then leave the practitioner to invent their connection. The practitioner needs to show the recipient what the proposed contribution could make possible and under what conditions it is attainable. The inquiry may show that the current arrangement is adequate. It can also identify a missing condition whose resolution would change the decision.
 

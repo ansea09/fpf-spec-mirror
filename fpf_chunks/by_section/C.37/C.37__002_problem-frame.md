@@ -6,7 +6,7 @@ section_id: "C.37:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__002_problem-frame.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:1 — Problem frame"
@@ -46,7 +46,7 @@ This is the one-use selection branch of representation work. Decide how the rece
 
 **Primary working reader.** A practitioner who has more than one plausible way of seeing or carrying information into an action and needs a selection without building a universal representation taxonomy.
 
-**First useful move.** Name the receiving System and action or decision in one sentence. For each candidate, name the result it already has, the claim this use would rely on, what the candidate exposes and withholds, and the result that permits, declines, or leaves that use unresolved. Stop after one row if one row is enough.
+**First useful move.** Name the receiver and what they must decide or do. Which fact permits the next action or rules an alternative out? Find a source for that fact. A second source may resolve a question the first leaves open or supply corroboration required by the governing rule.
 
 **First useful result.** One complete use-bounded representation-selection account: one or more candidate claims with their material loss, basis and receiving action supported, declined or unresolved. It can be the immediate working answer; the row form and persistent record are not required when no later use needs them. Its use boundary is `<receiving System, action or decision>`.
 

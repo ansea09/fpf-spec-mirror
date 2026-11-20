@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.JD.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
-line_start: 93274
-line_end: 93512
+line_start: 93293
+line_end: 93531
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -79,7 +79,7 @@ Keep external contributions visible without treating useful assistance as a fail
 
 #### C.40.JD:4.3 - Rejoin in consequential work and distinguish what changed
 
-Bring the available way, performer and provision together in one consequential receiving occasion. Ordinary work supplies the material and stakes; the developed way supplies the operation; the performer enacts it; the arrangement supplies the necessary conditions. The work changes its own subject, such as a service, engineered system or decision. To establish a change in the holder’s capability, examine what it can now perform or organize with the assistance intended for later use.
+Bring the available way, performer and provision together in one consequential receiving occasion. Ordinary work supplies the material and stakes; the developed way supplies the operation; the performer enacts it; the arrangement supplies the necessary conditions. The work changes its own subject, such as a service, engineered system or decision. This performance can show what the holder can do or organize with the help intended for later use. To judge a change in capability, compare it with grounded evidence of what the same holder could do earlier. Account for differences in the task, access and help that could explain the change in performance. If the earlier capability is unknown, qualify the present performance and leave the change open.
 
 Use the work and its appropriate examination to recover three distinct results where they matter:
 
@@ -87,7 +87,7 @@ Use the work and its appropriate examination to recover three distinct results w
 - what the developing subject can now do, under which retained assistance and conditions;
 - what the attempt revealed about the way and its provision.
 
-The first goes back into ordinary operation. The second changes the starting position for subsequent development. The third can change the Method, help, organization or the earlier direction. A useful result that still depends on a specialist remains useful. It does not establish independent capability, nor does that limit invalidate the delivered service.
+The receiving activity can use its result. Those choosing further work can use what they know about the holder's present capability, including a capability it already had. What the attempt reveals about the Method or its provision can change the next decision. When a specialist made the critical choice, the delivered service and the holder's own contribution can each be credited at the scope the work supports.
 
 Use the development or provision Method selected for the holder to make the named operation available. Check the receiving performance under the promised assistance and state what capability the evidence supports for the holder and arrangement. C.40.CU, E.23.CDI and the subject evaluation Methods provide the corresponding construction and qualification.
 
@@ -192,7 +192,7 @@ The lead has to locate which condition is consequential. For the well-supported 
 
 Those enactments would support only what the performance evidence establishes. If the lead independently notices the premise difference and formulates the consequential question but still needs a specialist's technical result, retain that bounded capability with its support dependence. Do not call it complete subject expertise. If the adviser still chooses the difference and every consequential operation, retain the delivered project result and assisted performance, and continue the missing development.
 
-The useful change is not merely familiarity with a new test. The lead can now turn an ill-formed scheduling complaint into a meaningful question about an obtaining way, seek the result that changes a commitment and preserve a sufficient existing way when no new inquiry is warranted. That changes which situations she can handle and which further difficulties she can see.
+The later cases show what the lead can do with the agreed help. If comparable earlier work shows that she could not identify the premise or frame the question under those conditions, her later choices support a gain in those operations. If earlier records show that she made those choices whenever the source information was available, the skill was already present. If missing access had blocked an earlier commitment, restoring that access removes the documented obstacle. Protected time or specialist help may also have made the present commitment possible. If those conditions changed together, the contribution of access alone may remain unknown. Either finding can guide the next assignment. Attributing a gain to the adviser's intervention also requires grounds for separating its effect from other changes.
 
 #### C.40.JD:5.3 - Support several masteries in a company without centralising every judgement
 

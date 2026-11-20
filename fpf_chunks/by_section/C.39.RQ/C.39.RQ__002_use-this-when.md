@@ -6,12 +6,12 @@ section_id: "C.39.RQ:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__002_use-this-when.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:0 — Use This When"
-line_start: 88896
-line_end: 88922
+line_start: 88913
+line_end: 88939
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when a Method, an established-family or project-local grouping choice, or a proposed Method/Work/support structure may fail in the project's situation. Enter when the practical question concerns the receiving result, performer capabilities, technical or organizational conditions, variability, evidence, authority, or acceptable burden and those conditions are not yet explicit enough for individual qualification or architecture comparison.
 
-Begin with the situation family, intended or current Work, receiving professional result, and the level of the Method decision. State the contributions that a Method or several Methods must make without preselecting which candidate supplies them. Place every resulting criterion with the Method, description, performer capability, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, support/access relation, responsibility, cultural subject, or receiving result it concerns.
+Begin with the recurring situation, the intended or actual Work and the result its recipient needs. Identify the decision that the criteria will serve. Selecting one Method and arranging several Methods to run together can impose different conditions on the same work. State what must be achieved before selecting a candidate. Attach each criterion to what it constrains, such as the Method, a performer's capability, an assignment, permission to act, the authority to decide, the support available or the result delivered.
 
 The first useful result is a bounded set of criteria with subjects, allowed variation, evidence needs, satisfaction observations, and stops. A criterion can be ready for later use even when no candidate currently meets it. Enter also when the present question concerns the justification of a criterion. That use can finish with a supported requirement recommendation and the criterion's current force or amendment limit, without selecting a Method.
 

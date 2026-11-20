@@ -6,12 +6,12 @@ section_id: "C.40.OD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__002_problem-frame.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:1 — Problem frame"
-line_start: 92955
-line_end: 92970
+line_start: 92974
+line_end: 92989
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -36,5 +36,5 @@ The Method can guide self-development with assistance, work by organizational le
 
 For one adequate bounded improvement with available means and no consequential connection problem, use its direct Method. Do not build a network description merely to redescribe that work. Conversely, a bounded contract may be one contribution to continuing development without promising to provide its whole future.
 
-To direct this development from the conditions it faces, use **C.43:4.8** to connect observation, advice, choice and intervention across the working Method, developing capability and provision. Supply it with the present possibilities, proposed directions and the conditions under which contributions can be obtained. C.40.DC supplies alternatives from successive attained configurations; C.40.JD returns the receiving work result, changed capability with retained assistance, and knowledge about the Method and provision. C.40.NP can supply the next worthwhile problem after complete success. The control account returns which dependency, timing, allocation or observation must change for this construction to proceed. This relationship preserves new problem formation and epistemic results rather than treating development as execution toward one permanently fixed target.
+To direct this development from the conditions it faces, use **C.43:4.8** to connect observation, advice, choice and intervention across the working Method, developing capability and provision. Supply it with the present possibilities, proposed directions and the conditions under which contributions can be obtained. C.40.DC supplies alternatives from successive attained configurations; C.40.JD establishes what the receiving activity obtained, what the holder demonstrated with the available help and what the work revealed about the Method and its provision. A claim that the holder gained a capability also needs evidence of what it could do earlier. When continuing development is wanted, C.40.NP helps those responsible choose a worthwhile problem from the new starting point. The control account returns which dependency, timing, allocation or observation must change for this construction to proceed. This relationship preserves new problem formation and epistemic results rather than treating development as execution toward one permanently fixed target.
 

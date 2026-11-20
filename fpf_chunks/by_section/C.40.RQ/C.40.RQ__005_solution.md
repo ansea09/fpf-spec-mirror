@@ -6,12 +6,12 @@ section_id: "C.40.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:4 — Solution"
-line_start: 92749
-line_end: 92830
+line_start: 92768
+line_end: 92849
 dependencies:
   - "A.10"
   - "A.10.1"

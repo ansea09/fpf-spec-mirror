@@ -6,12 +6,12 @@ section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:4 — Solution"
 line_start: 86024
-line_end: 86159
+line_end: 86163
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -47,7 +47,7 @@ Use one action spine:
 5. mark the row `select`, `decline`, or `unresolved` for the named use and give its return trigger;
 6. co-record only rows that support the same receiver and action or decision.
 
-**Local mantra.** *One receiver, one action. Recover each candidate under its direct pattern. Name the claim, reliance, loss, receiving conditions, disposition, and return. Put rows together only for that action.*
+**Local mantra.** *Who must decide or act? Which fact settles what they can do? Where does that fact come from? What remains open? Which change would make us decide again?*
 
 The mantra is a recall aid, not a decision rule. The receiving pattern still emits the choice, gate, permission, authorization, or domain result.
 
@@ -59,7 +59,11 @@ Write one sentence:
 <receiving System> must <take this action or make this decision>.
 ```
 
-Every row in the account uses that same receiver and action. A diagram used to select a proposed Method edition and the same diagram used later to tailor that Method have different use accounts. Reuse unaffected candidate and source results; reconsider the claims, losses and conditions that change with the action. Adjacent actions, one project, one carrier or one meeting do not merge their use boundaries.
+Start with the rule for the decision. State which alternatives it admits, rules out or leaves for comparison. Connect each fact you use to the part of the rule it satisfies. A source can reliably establish a fact that explains why someone proposed an option. The decision may still turn entirely on another fact. Apply the rule with the first fact unknown or changed, holding the other grounds fixed. If the answer could change, identify the check that would settle it. If the answer holds across the remaining possibilities, you can give it now.
+
+A second source may independently support the same premise. Losing one source then leaves the other available. If the governing rule requires two independent observations or a particular authorization, that condition is itself a premise. Where it matters for action or review, say which sources supported the decision, which the rule required and which answer a different question.
+
+Every row in an account concerns the same receiver and action. A diagram used to select a proposed Method edition and the same diagram used later to tailor that Method have different use accounts. Reuse the supported facts that carry over and reconsider the ones on which the new action depends.
 
 If one direct pattern already returns the complete representation–operation choice and limits for this use, take that direct exit. Do not add C.37 merely to rename its result.
 
@@ -81,7 +85,7 @@ Use ready qualified inputs in the receiving comparison or construction; an unfin
 
 #### C.37:4.3 - State exposure, loss, and the row disposition
 
-For each candidate, state only distinctions that change the receiving action:
+For each candidate, record what the receiver can establish with it. Keep the facts that affect the choice, its grounds or the permission to act.
 
 - what it exposes, foregrounds, or preserves;
 - what it withholds, omits, loses, transforms, or leaves uncertain;
@@ -94,7 +98,7 @@ Use exactly these ordinary row dispositions:
 | Disposition | Use |
 | --- | --- |
 | `select` | The required subject identity and relations are established, the reliance basis supports the bounded claim, and the conditions imposed on its use by the receiving rule hold. Use the claim in the receiving operation; obtain its eventual result there. An A.10 `degrade` disposition narrows the selected claim. |
-| `decline` | A required result is negative, the applicable receiving rule excludes the stated contribution, or the candidate's loss makes the attempted use inadmissible. State the retained weaker use, if any. |
+| `decline` | The fact has no part in this decision, the receiving rule excludes its use, or the candidate cannot support the claim attempted. State another use the fact supports when that matters to a recipient. |
 | `unresolved` | A required identity, relation, currentness fact, reliance path, disposition, or receiving result is missing or ambiguous. Name what would reopen the row. |
 
 Selection is use-bounded. It does not make the candidate true, complete, current, published, conforming, relied on, assured, or authorized outside the claim and action stated in the row.
@@ -139,7 +143,7 @@ Retention preserves the needed separation: direct subject result, optional A.2.4
 
 #### C.37:4.6 - Keep co-use local to one action
 
-`Co-use` means only that the same receiver relies on two or more completed rows for one action or decision. Each row keeps its own direct result, premise, reliance boundary, loss, and return trigger. One positive row cannot repair another row's missing subject result or reliance path.
+A receiver **co-uses** representations when they rely on claims from two or more of them for one action. Show how those claims work together. They can establish different premises or independently corroborate the same one. A list of documents that the receiver consulted leaves this question unanswered. Each source keeps its own limits and the conditions under which it must be checked again.
 
 Co-use does not establish:
 
@@ -170,5 +174,5 @@ Use an already adequate source-to-use account. A new A.10 path or disposition is
 | A candidate is called a view but `EpistemeViewpointConformanceRelation(E,P)` fails or cannot be evaluated. | Decline it for the view-dependent use or mark that row unresolved. C.37 cannot grant `U.View` membership. Another independently positive direct basis may support a different row and claim. |
 | A candidate is a mathematical graph or other mathematical object. | Identify the object and the subject relations on which the claim depends. Use an adequate domain result; use `C.29` when a separate mathematical representation, transfer, or reliance question remains. C.37 neither admits the object nor makes the mapping obtain. |
 | A candidate is an ordinary non-graph diagram. | Identify its episteme and subject. Require the conformance, representation, correspondence or domain grounds needed for the selected claim. Preserve its evidence and reliance basis; use A.10 for a still-implicit or required replayable source-to-use account. Publication, carrier, provenance or C.2.P.DR repair supplies no missing subject or action ground. |
-| Several project, process, or case viewpoints concern one Work. | Co-record them only when each can change the same action about that independently identified Work. A viewpoint for another action starts another account. |
+| Several project, process or case viewpoints concern one Work. | Co-use their claims when each supplies or corroborates grounds for the same action about that Work. A view for another action has its own use account. |
 

@@ -6,12 +6,12 @@ section_id: "C.39.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__006_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:4 — Solution"
-line_start: 88946
-line_end: 89007
+line_start: 88963
+line_end: 89024
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -46,10 +46,10 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 5. **Separate variation from invariants.** Name lawful branches, substitutions, timing ranges, and local adaptations. Mark non-negotiable result, safety, confidentiality, authority, or evidence conditions.
 
    If a criterion's justification is the question, use §4.4 to appraise it while retaining its current force. An already justified criterion needs no new appraisal.
-6. **Set burdens at the right level.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
+6. **Identify who bears each burden and when.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
 7. **Name evidence and observations.** For every decision-changing criterion, state what record or observation a later evaluation needs, its edition or window when material, and what would count as satisfied, failed, or unknown. Do not turn the requested evidence into a fit verdict.
 8. **State acceptance, stop, and reopen rules.** Say when the criteria set is adequate for its next use, which missing fact stops that route, and which situation or source change requires rebuilding it. A stop may route to capability, support, authority, product, or Work redesign rather than Method selection.
-9. **Return without selecting.** Make the criteria available by subject and decision level; an adequate existing account can carry them. Send individual subject questions to A.3.1.QM and combined structure questions to C.32.MWA.PP only when their entry conditions hold.
+9. **Return without selecting.** For each criterion, state what it constrains and which decision depends on it. An adequate existing account can carry the criteria. Use A.3.1.QM to qualify one identified Method, retain or exclude a candidate account, or examine a connection that can be assessed on its own. Use C.32.MWA.PP when combined work, provision or shared constraints can change the decision.
 
 #### C.39.RQ:4.2 - Record the Result
 
@@ -57,9 +57,9 @@ Use the rows that carry the present result. For a disputed criterion, retain the
 
 | Result position | Content for the present use |
 | --- | --- |
-| use and situation family | Receiving Work/result, decision level, scope, window, representative variations, and exclusions. |
+| use and situation family | Receiving Work and result, decision to be made, scope, window, representative variations, and exclusions. |
 | required contributions | Candidate-neutral Method contributions and the result or preserved condition each must support. |
-| criterion rows | Criterion ID, subject/relation, requirement or bound, allowed variation, non-negotiable status, and decision level. |
+| criterion rows | Criterion ID, subject/relation, requirement or bound, allowed variation, non-negotiable status, and decision that uses the criterion. |
 | capability, assignment, permission, and authority | Required performer capabilities; separate responsibility and access conditions; covering Work assignments; permission and decision-authority relations; and evidence for each. |
 | technical and organizational conditions | Inputs, support/provider conditions, evidence timing, reversibility, coordination, and other situated constraints. |
 | burden limits | Participant, Work scope, applicable time window, bound and its basis, how satisfaction can be determined, and any material transfer of burden. |

@@ -6,12 +6,12 @@ section_id: "C.39.MF:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__002_use-this-when.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:0 — Use This When"
-line_start: 88113
-line_end: 88136
+line_start: 88130
+line_end: 88153
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when a project says that its “methodology”, “process”, “workflow”, or “way of working” must change, but the decision subject is ambiguous. The concern may be one Method, several related Methods, an established Method family, a temporary comparison grouping, or something else such as a tool, capability, support arrangement, description, resource, or project System.
 
-Begin with the result that is missing, late, unsafe, or too costly and the representative Work in which that result matters. Recover the Methods and candidate accounts already visible there before choosing the level of focus.
+Begin with the result that is missing, late, unsafe, or too costly and the Work in which it matters. Identify the Methods already used there and any accounts that still need examination. What could change the decision about that result: improving one Method, changing how Methods work together, or securing the tool, capability or service the work requires?
 
 The first useful move is to compare the plausible focus options: one Method, an established family or project-local grouping, named Method relations, or a non-Method return. This gives later repertoire, qualification, or architecture Work a supported subject and the relations it needs to address, without inventing a Method or a composite.
 

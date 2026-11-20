@@ -6,12 +6,12 @@ section_id: "E.4.FPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__001_intro.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:intro — Intro"
-line_start: 98978
-line_end: 98983
+line_start: 98997
+line_end: 99002
 dependencies:
   - "C.33"
   - "C.34"

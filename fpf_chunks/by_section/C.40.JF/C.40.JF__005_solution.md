@@ -6,12 +6,12 @@ section_id: "C.40.JF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:4 — Solution"
-line_start: 92325
-line_end: 92393
+line_start: 92344
+line_end: 92412
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -47,7 +47,7 @@ An existing result for another holder or configuration is not automatically a re
 
 #### C.40.JF:4.3 - Test the combination, not just its ingredients
 
-Put jointly necessary conditions on one compatible basis. Recover the time intervals, resource quantities, operating and transition demands, availability restrictions, and protection limits. Do not add estimates from incompatible scenarios or treat the same resource as available twice.
+Put jointly necessary conditions on one compatible basis. Recover the time intervals, resource quantities, operating and transition demands, availability restrictions, and protection limits. Before adding the demands on one provider, establish which operations must be performed separately and which one performance can supply to several recipients. Count shared work once and each separate demand in the time window in which it must be met. If sharing is undecided and would change feasibility, keep the two outcomes open.
 
 Ask which conditions compete, complement, substitute for, or interfere with one another. Inspect common causes and shared suppliers, thresholds, congestion, delays, continuing obligations, and evidence dependencies where they can change the result. Two claims derived from the same unqualified assumption do not independently support the combination.
 
@@ -78,9 +78,9 @@ Write the result at the smallest affected scope.
 
 “Conditional” is useful only when the condition changes the result. State what a positive and a negative answer would do. Do not retain a known-infeasible direction as merely awaiting more evidence, or call an unanswered question a negative result.
 
-An ordinary return can be two sentences:
+A short answer may suffice.
 
-> Each support direction can operate alone during the eight-week inquiry, but both require the same engineer for two hours each week and only two hours are available. The joint direction is ruled out under the no-overtime protection; retain the separate candidates, and qualify a shared-support configuration only if its combined demand could change that result.
+> The two departments each need two hours of the same engineer's time every week. For this inquiry the engineer must review each department's confidential material separately. Two hours a week are available. Either review fits. Together they need four hours, so they cannot both be delivered in the eight weeks while urgent operating cover is protected.
 
 This return need not become a large dependency register. Expand it when several recipients, delayed reuse, disagreement, or consequence makes the basis hard to recover.
 

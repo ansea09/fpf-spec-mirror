@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.MM.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
-line_start: 86760
-line_end: 86844
+line_start: 86765
+line_end: 86851
 dependencies:
   - "B.5.MR"
   - "C.2.1"
@@ -50,7 +50,9 @@ When several models concern the same entity, establish its identity across them.
 
 State how the claims from the models are to be read together. Align such matters as units, conditions, time, configuration and whether a value was stipulated, observed or predicted when the conclusion depends on them. Check whether the commitments can all hold in the same case. Pairwise compatibility can leave the whole set inconsistent. If no case satisfies all the commitments, trace the conflict to the models or their interpretation. If information is missing, identify the premise or correspondence needed to settle compatibility.
 
-To establish that an outcome is possible under these models, exhibit one jointly admissible case with that outcome. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
+To establish that an outcome is possible under these models, show that at least one jointly admissible case has that outcome. You can exhibit such a case or prove that it exists. If the recipient needs a setting they can actually use, recover one and check it against the conditions. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
+
+Ask whether the outstanding uncertainty affects the decision you owe. Two interpretations can yield different estimates and still put every admissible result on the same side of a decision threshold. That can settle the choice while the estimate remains open. If admissible interpretations give different choices, recover the convention, observation or model relation that separates them. When the set of possible interpretations is itself open, qualify the answer to the ones examined.
 
 A claim about a candidate is distinct from a claim about how an actual system performed. To use a test result from an observed system, state what was observed and which target claim it supports under which conditions. B.5.MR supplies the test for a further claim that joint use strictly refines the earlier model. A gain in interpretation can occur while the set of eligible candidates stays the same.
 
@@ -70,7 +72,7 @@ When an observation, model edition or interpretation changes, follow the consequ
 
 Two accounts bear on the same stipulated preference relation over three alternatives. The first reports that A is preferred to B, the second that B and C are tied. With a shared population, comparison conditions and the premise that these judgments are readings of one complete and transitive weak order, the two claims imply that A is preferred to C. If a blank in the second table means “uncompared”, the tie is missing and the conclusion is open. The two files can remain as they are. A recipient needs the applicable interpretation of that entry and the grounds for the common relation. Observed human choices require evidence for any claim that this weak-order interpretation fits them.
 
-An engineering team receives a design and a table of life-cycle cost estimates. It can read the units and still be unable to adapt the estimate to a new maintenance interval. Field observations of failures and a fixed catalogue replacement schedule can yield the same sum for the original interval. Ask which method produced the estimate and recover its inputs before revising it. Under SYSE.7 a narrowly defined decision may need just one of these descriptions. A commission for a whole-system account can require additional engineering coverage.
+An engineering team receives a design and an annual maintenance estimate of €12,000 for one service visit. The contract file identifies two possible charging arrangements. One charges €12,000 per visit. The other charges €12,000 per year for up to two visits. The signed schedule that selects the arrangement is missing. Both account for the old figure. For two visits next year the estimates are €24,000 and €12,000. The team can confirm that the service charge fits a €25,000 annual allowance under either arrangement, provided those are the only possible terms and the allowance covers that charge alone. With an €18,000 allowance, one arrangement fits and the other exceeds the budget. The team needs to establish which arrangement applies. Reconstructing the original estimate or pricing a third visit would also require further information. A wider commission to account for the system throughout its life may require additional engineering coverage under SYSE.7.
 
 ### C.37.MM:6 - Bias-Annotation
 
@@ -79,7 +81,7 @@ Readers commonly give precedence to the most precise-looking model. A model prec
 ### C.37.MM:7 - Conformance Checklist
 
 - The intended result, the modeled entities, each model's contribution and the indispensable relations are recoverable.
-- The joint inference has the support its conclusion needs. A claim of possibility has a jointly admissible case with that outcome. A guarantee covers every jointly admissible case and the models admit at least one. A conflict or gap leads back to the affected premise.
+- The account tests whether the models admit a joint case. A possibility claim has an example satisfying the joint conditions or a sound argument that such a case exists. A guarantee covers every jointly admissible case and at least one such case exists. An unresolved value can still settle the receiving decision if every admissible value yields the same choice. An inconsistent set is reported as a conflict.
 - Material supplied at handover is sufficient for the recipient's actual use, including the production method for repeating, adapting or checking its derivation, and the grounds of comparison for an independent check.
 
 ### C.37.MM:8 - Common Anti-Patterns and How to Avoid Them
@@ -100,7 +102,7 @@ Megamodeling in model-driven engineering makes models and typed relations, inclu
 
 ### C.37.MM:12 - Relations
 
-C.37 governs co-use for one action. C.37.MP governs several actions that depend on one method representation. C.2.1 supplies the identity of each model episteme, E.17.0 governs viewpoint and view when asserted, B.5.MR compares model commitments, and SYSE.7 applies this method in engineering.
+C.37 governs co-use for one action. C.37.MP relates different uses of representations of the same Method description or candidate account. C.2.1 supplies the identity of each model episteme, E.17.0 governs viewpoint and view when asserted, B.5.MR compares model commitments, and SYSE.7 applies this method in engineering.
 
 ### C.37.MM:End
 

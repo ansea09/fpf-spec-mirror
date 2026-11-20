@@ -6,12 +6,12 @@ section_id: "C.40.OD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__001_intro.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:intro — Intro"
-line_start: 92949
-line_end: 92954
+line_start: 92968
+line_end: 92973
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

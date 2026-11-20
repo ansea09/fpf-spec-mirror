@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 86993
-line_end: 87011
+line_start: 87004
+line_end: 87022
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -33,7 +33,7 @@ keywords:
 
 A use conforms only when the checks needed by its claimed comparison pass:
 
-1. One governed result, receiver, use, situation or configuration, horizon, acceptance basis, deciding System, and authority boundary are explicit.
+1. The result, receiver, use, horizon, acceptance conditions and decision authority are explicit. Existing provision has been checked against the same terms. If the commission includes the receiver’s later capability, the comparison identifies the work that would establish it and the assistance allowed.
 2. At least two materially different complete-enough ways seek that same result. Duplicate labels merge and material differences under one label split.
 3. Every decision-bearing premise is visibly supported now, proposed, or unknown; proposed or unknown premises establish no actual capability, authority, Work, provision, delivery, acceptance, availability, or use.
 4. The same decision-changing parity questions are applied to every way; an omitted group is justified by irrelevance to this choice.

@@ -6,12 +6,12 @@ section_id: "C.38:10"
 section_title: "Rationale and SoTA use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__011_rationale-and-sota-use.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:10 — Rationale and SoTA use"
-line_start: 87036
-line_end: 87045
+line_start: 87047
+line_end: 87058
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -36,6 +36,8 @@ The practice question is how to construct several decision-ready ways to obtain 
 An initial table may contain labels such as internal, provider, buy, build, partner, procurement vehicle or lifecycle stage. Scoring those labels before recovering their contents can mix unlike alternatives and hide integration, evidence, support, capability, custody, consequence, recovery and exit burdens. `C.38` repairs that defect by fixing one result and receiver, resolving every label into a whole possible-future way, applying a bounded parity basis, marking unknowns without inventing current relations, and stopping before local choice or actual Work.
 
 The common comparison depends on its domain inputs. Systems Engineering supplies the engineered-System conditions, specialist criteria, realization and assurance; the recording Method supplies artistic, participatory and production requirements. Those differences determine what a complete way must include. When a domain Method already returns the sufficient comparison, use that result directly.
+
+In formal appraisal, the expected result of continuing current arrangements supplies a baseline even when it falls short of the objective. In procurement, the buyer can commission knowledge and skills transfer alongside the immediate deliverable and specify how transfer will be assessed. These practices answer different questions in the comparison. [HM Treasury, The Green Book, chapter 4](https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026) · [Cabinet Office, The Consultancy Playbook, Knowledge and skills](https://www.gov.uk/government/publications/the-consultancy-playbook/the-consultancy-playbook-html).
 
 Reopen the affected candidate or parity question when a decision-changing premise changes. Reconsider the comparison approach when an available direct Method supplies the needed result more economically or when evidence shows that the current comparison hides a consequential burden.
 

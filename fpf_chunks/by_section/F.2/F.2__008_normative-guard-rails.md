@@ -6,12 +6,12 @@ section_id: "F.2:7"
 section_title: "Normative guard-rails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__008_normative-guard-rails.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:7 — Normative guard-rails"
-line_start: 127254
-line_end: 127264
+line_start: 127273
+line_end: 127283
 dependencies:
   - "A.11"
   - "A.7"

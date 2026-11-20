@@ -6,12 +6,12 @@ section_id: "F.11:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__017_didactic-distillation.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:16 — Didactic distillation"
-line_start: 130792
-line_end: 130795
+line_start: 130811
+line_end: 130814
 dependencies:
   - "A.13"
   - "A.15"

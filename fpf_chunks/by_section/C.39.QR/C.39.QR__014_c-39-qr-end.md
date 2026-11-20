@@ -6,12 +6,12 @@ section_id: "C.39.QR:End"
 section_title: "C.39.QR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__014_c-39-qr-end.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:End — C.39.QR:End"
-line_start: 87598
-line_end: 87599
+line_start: 87615
+line_end: 87616
 dependencies:
   - "C.11.DUA"
   - "C.39"

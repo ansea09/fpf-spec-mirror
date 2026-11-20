@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RO.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
-line_start: 87888
-line_end: 88105
+line_start: 87905
+line_end: 88122
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -104,7 +104,7 @@ Keep the conclusion at that supported scope. Choose further proof, model develop
 
 #### C.39.RO:4.5 - Examine a changed use
 
-Instantiate the operation on the selected changed input. Perform its steps and interpret the output. Choose a change that exercises what was generalized: more inputs, a different arrangement, a boundary condition or a changed constituent.
+Choose a changed input that tests the proposed generalization, such as a larger input set, a different arrangement, a boundary condition or a changed constituent. Apply the operation and interpret what you obtain. With stipulated physical conditions, a calculation can give a required setting, a bound or a prediction. To report what an apparatus actually delivered, use evidence from that run, such as a calibrated measurement of the delivery.
 
 Compare the obtained result with the receiving question. If the operation returns a failure witness, use it to change the proposed action or question. If an assumption fails, repair the dependent part or narrow the application conditions.
 
@@ -112,9 +112,9 @@ A worked changed case can expose a defect in the proposed operation. The scope o
 
 #### C.39.RO:4.6 - Make the operation usable at the receiving point
 
-Give the next practitioner the input meanings, the operation, its result and the conditions needed for that use. Keep the reason or worked construction accessible where adaptation will depend on it. A concise name helps retrieval when it reflects what the operation does.
+What will the next practitioner do with the operation? To apply it, the practitioner needs to know what the inputs mean, which conditions to check, how to obtain the output and what decision the output supports. Sometimes a justified bound or an impossibility result already settles that decision. Give the practitioner the grounds and the conditions under which they hold.
 
-Stop when the receiving use can instantiate the operation or understand its supported limit.
+To adapt the operation, the practitioner also needs to know why it works, which assumptions the new use affects and which parts can still be used. If the assignment is to develop a reusable operation independently, identify which construction choices the practitioner made and what was already supplied by the example, a tool or a colleague. Observing the practitioner correctly apply a supplied operation supports a claim about that performance. A claim about independent construction needs evidence of the practitioner's own choices and their grounds.
 
 ### C.39.RO:5 - Archetypal Grounding
 

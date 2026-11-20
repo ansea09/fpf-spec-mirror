@@ -6,12 +6,12 @@ section_id: "E.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__011_consequences.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:9 — Consequences"
-line_start: 103630
-line_end: 103637
+line_start: 103649
+line_end: 103656
 dependencies:
   - "E.10"
   - "E.10.MOVE"

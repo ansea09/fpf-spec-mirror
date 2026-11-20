@@ -6,12 +6,12 @@ section_id: "C.37.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:4 — Solution"
-line_start: 86548
-line_end: 86618
+line_start: 86551
+line_end: 86623
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -62,9 +62,11 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 
 When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, the expression being tested and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
-Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability.
+Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes what was returned in that trial. Attribute recovery or application to the reader when their observed work and the help available support that inference. A correct answer of unknown origin can still serve its intended use while authorship stays open. One response cannot establish maximum performance or reliability across a population.
 
-State what changed in content, what changed in expression, and what preparation, help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression.
+Before interpreting a correct answer, reconstruct what each reader received. The text, prompt, examples, available tools or another participant may already have chosen the unit of comparison, the rule for matching two entries, or the action to take. Credit the reader with the choice they made. Following a supplied rule can be exactly the intended use.
+
+A stronger claim may be that the reader can turn a general method into a rule for work in a discipline. Give the reader the general method and material from that discipline. Leave the consequential modeling choices open. Ask them to construct and justify a rule that another practitioner could apply. Use it on a change for which plausible rules would give different answers. An illustration of the principle or a fresh set of numbers for an already specified calculation provides different evidence. B.5.MR:4.3 explains how to test a claim that someone used a transdisciplinary principle (L3) to construct a repeatable rule for a discipline (L2).
 
 Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 

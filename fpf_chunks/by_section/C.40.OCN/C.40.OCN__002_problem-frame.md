@@ -6,12 +6,12 @@ section_id: "C.40.OCN:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__002_problem-frame.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:1 — Problem frame"
-line_start: 90779
-line_end: 90792
+line_start: 90798
+line_end: 90811
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -38,5 +38,5 @@ Do not use this Method to reopen an adequate option set merely because more idea
 
 A complete first return can be modest: “This contribution could address the named receiving-use problem, but only if access to these records and the required review support can be obtained. The next question is whether the data owner can provide that bounded access.” Missing feasibility does not have to erase the useful problem; it prevents a stronger reachability claim.
 
-The first useful result is a candidate opportunity with a worthwhile problem or proposed promise, dependencies, bounded reachability rationale, uncertainty and a next discriminating question.
+A useful result can be a candidate opportunity with a worthwhile problem or a proposed promise to a recipient, the conditions under which it is attainable and what is still uncertain. The inquiry can also establish that the proposal has no worthwhile use under the stated conditions. Give the recipient a further question when its answer could change a decision they face.
 

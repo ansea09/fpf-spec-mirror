@@ -6,12 +6,12 @@ section_id: "C.37.MM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:4 — Solution"
-line_start: 86779
-line_end: 86806
+line_start: 86784
+line_end: 86813
 dependencies:
   - "B.5.MR"
   - "C.2.1"
@@ -32,7 +32,9 @@ When several models concern the same entity, establish its identity across them.
 
 State how the claims from the models are to be read together. Align such matters as units, conditions, time, configuration and whether a value was stipulated, observed or predicted when the conclusion depends on them. Check whether the commitments can all hold in the same case. Pairwise compatibility can leave the whole set inconsistent. If no case satisfies all the commitments, trace the conflict to the models or their interpretation. If information is missing, identify the premise or correspondence needed to settle compatibility.
 
-To establish that an outcome is possible under these models, exhibit one jointly admissible case with that outcome. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
+To establish that an outcome is possible under these models, show that at least one jointly admissible case has that outcome. You can exhibit such a case or prove that it exists. If the recipient needs a setting they can actually use, recover one and check it against the conditions. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
+
+Ask whether the outstanding uncertainty affects the decision you owe. Two interpretations can yield different estimates and still put every admissible result on the same side of a decision threshold. That can settle the choice while the estimate remains open. If admissible interpretations give different choices, recover the convention, observation or model relation that separates them. When the set of possible interpretations is itself open, qualify the answer to the ones examined.
 
 A claim about a candidate is distinct from a claim about how an actual system performed. To use a test result from an observed system, state what was observed and which target claim it supports under which conditions. B.5.MR supplies the test for a further claim that joint use strictly refines the earlier model. A gain in interpretation can occur while the set of eligible candidates stays the same.
 

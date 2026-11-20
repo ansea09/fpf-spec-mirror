@@ -6,12 +6,12 @@ section_id: "E.10:20"
 section_title: "Quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__022_quick-card.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:20 — Quick card"
-line_start: 106749
-line_end: 106757
+line_start: 106768
+line_end: 106776
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.37.MP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__006_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:4 — Solution"
-line_start: 86320
-line_end: 86380
+line_start: 86323
+line_end: 86383
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -76,7 +76,7 @@ Begin with a claim that two uses must interpret together: an input identity, an 
 
 1. **Recover what each expression asks its user to do or conclude.** Read the expression with its legend, surrounding instructions and source edition. Identify the subject, input or result, operation, condition and stop that affect this use. A table cell such as “ready” may abbreviate several conditions; a diagram edge may assert that one condition is sufficient. Recover those meanings before matching words or shapes.
 2. **Establish the common referents and interpretation.** Determine which Method claim, input or result each expression concerns. Use the applicable naming, measurement or domain rule to resolve different labels, units, reference times or levels of detail. State the mapping and the evidence or definition that supports it. When an essential meaning cannot be recovered, name the missing interpretation and return to its source or responsible practitioner. Keep the other supported correspondences.
-3. **Compare the claims under the conditions that matter.** Substitute the recovered meanings into the two instructions. Check whether they require the same relevant action or permit the same conclusion, where one is narrower, and where one introduces or omits a condition. Try a positive case and a case at the boundary that could distinguish them. This establishes the bounded content comparison; observing a user or testing an implementation answers a further question. A documented mapping does not establish a different direct relation merely by naming it; use that relation's defining or testing method when the receiving action requires it.
+3. **Compare what the two instructions let their users do.** Recover the action, reference time and conditions in each instruction. For one pending job, apply both to the established facts and compare the decisions. To replace one instruction with the other for future jobs, check the rules across the conditions in which the replacement will be used, including every exception that can change the decision. One admissible disagreement defeats that claim. Selected trials can reveal a disagreement. Equivalence needs a reason the comparison covers every relevant input or class of inputs. Observing a user or testing an implementation answers a further question.
 4. **Separate correspondence from dependence.** Two accounts may agree without one being derived from the other. For each result that could need refreshing, identify the source claim used and how it contributes: for example, a readiness cell abbreviates two conditions jointly, while a performer instruction states the actions needed to satisfy them. An independently maintained rule needs its own basis. A tool's label or a person's correct answer does not show which rule its calculation implements.
 5. **Return a usable cross-use result.** Relate the shared claim and its supported interpretation to each affected use row. Preserve useful omissions: a supervisor may need the readiness condition without the operator's detailed steps, provided that omitted detail is not needed for the supervisor's action. Record an unresolved correspondence and name its missing input rather than treating every row as equivalent or unusable.
 6. **Follow a substantive change through the result it changes.** Replace the changed premise in each known dependent explanation or calculation and determine which action, result or stop changes. Revise that owned result and reconsider the use that consumes it. F.0.2.RC:4.4 develops this refresh and the return when dependency reach is unknown; A.3.1.CC handles a contradicted maintained claim. Repeat the affected boundary case after repair. Preserve another result only because its own basis still supports its declared use, not because it is in another file.

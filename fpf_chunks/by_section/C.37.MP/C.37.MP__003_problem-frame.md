@@ -6,12 +6,12 @@ section_id: "C.37.MP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__003_problem-frame.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:1 — Problem Frame"
-line_start: 86296
-line_end: 86301
+line_start: 86299
+line_end: 86304
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.37.MP:1 - Problem Frame
 
-Method material serves unlike actions. A performer needs actions, inputs, results, guards, and stops. A method engineer compares contribution and variation. A support builder needs tool, resource, permission, and feedback positions. An assessor needs evidence and the qualifications, uncertainty and return conditions that affect the assessment. Project, process, and case viewpoints may expose different claims about the same independently admitted Method-related Work when each viewpoint can change the same action.
+Method material serves unlike actions. A performer needs actions, inputs, results, guards, and stops. A method engineer compares contribution and variation. A support builder needs tool, resource, permission, and feedback positions. An assessor needs evidence and the qualifications, uncertainty and return conditions that affect the assessment. Project, process, and case viewpoints may expose different claims about the same independently admitted Method-related Work when the corresponding views supply or corroborate grounds for the same action.
 
 One representation rarely serves every action without hiding something. The problem is to relate several use-specific selections while preserving Method identity, candidate status, description currentness, WorkPlan versus Work, the direct authority of every selected result, and the limits of every carried claim.
 

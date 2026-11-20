@@ -6,12 +6,12 @@ section_id: "C.37:11"
 section_title: "SoTA-Echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__012_sota-echoing-informative.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:11 — SoTA-Echoing  (informative)"
-line_start: 86247
-line_end: 86256
+line_start: 86249
+line_end: 86259
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -43,6 +43,7 @@ keywords:
 | Dutilh Novaes, *Formal Languages in Logic* (2012), and Krämer, “Why notational iconicity is a form of operational iconicity” (2017), conceptual and diagrammatic-reasoning lineage already used by C.2.1 | Representation and notation can change what users can inspect, compare, calculate, or infer; each row therefore states exposure, loss, and bounded use. | Reasoning affordance does not identify the represented subject, make a direct relation obtain, or authorize the receiving action. |
 | [W3C PROV-O Recommendation](https://www.w3.org/TR/prov-o/), 2013, stable provenance lineage used by A.10 and C.2.1 | Preserve source, entity, activity, and derivation distinctions when they are material to bounded reliance. | Provenance alone is not truth, currentness, permission, assurance, decision, or evidence of actual use. |
 | [Decision Theory, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/fall2023/entries/decision-theory/), stable baseline used by C.11 | Fix the chooser, option or action question, comparison basis, and explicit receiving result rather than ending with an informed-looking inventory. | C.37 does not replace C.11 or turn every representation-selection question into one universal decision calculus. |
+| [NASA Systems Engineering Handbook, §6.8, Decision Analysis](https://www.nasa.gov/reference/6-8-decision-analysis/) | Use mandatory criteria to determine eligibility, compare the eligible alternatives against the other criteria, and examine uncertainty where it could change the recommendation. | Meeting an entry criterion by itself gives no preference between eligible alternatives. |
 
 Reopen this source use when newer representation, provenance, view, or decision practice supplies a lower-effort way to keep the same direct-result and receiving-action boundaries, or when interoperability requires a common standalone account kind that cannot preserve them through ordinary C.2.1 identity and direct references.
 

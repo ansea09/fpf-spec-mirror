@@ -6,12 +6,12 @@ section_id: "C.37.MM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__012_sota-echoing.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:11 — SoTA-Echoing"
-line_start: 86835
-line_end: 86838
+line_start: 86842
+line_end: 86845
 dependencies:
   - "B.5.MR"
   - "C.2.1"

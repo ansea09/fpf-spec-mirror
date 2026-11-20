@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__010_relations.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:9 — Relations"
-line_start: 117087
-line_end: 117098
+line_start: 117106
+line_end: 117117
 dependencies:
   - "A.10"
   - "A.15"

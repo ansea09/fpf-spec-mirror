@@ -6,12 +6,12 @@ section_id: "F.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__002_use-this-when.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:0 — Use This When"
-line_start: 127653
-line_end: 127690
+line_start: 127672
+line_end: 127709
 dependencies:
   - "A.15"
   - "A.15.1"

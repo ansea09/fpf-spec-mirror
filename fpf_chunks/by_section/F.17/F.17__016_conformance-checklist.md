@@ -6,12 +6,12 @@ section_id: "F.17:13.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_conformance-checklist.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:13.5 — Conformance Checklist"
-line_start: 133588
-line_end: 133601
+line_start: 133607
+line_end: 133620
 dependencies:
   - "A.1.1"
   - "A.10"

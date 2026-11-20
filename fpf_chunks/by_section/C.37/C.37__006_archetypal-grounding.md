@@ -6,12 +6,12 @@ section_id: "C.37:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__006_archetypal-grounding.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:5 — Archetypal Grounding"
-line_start: 86160
-line_end: 86193
+line_start: 86164
+line_end: 86194
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -40,21 +40,18 @@ keywords:
 
 #### C.37:5.1 - Qualified premises for a bounded-trial decision
 
-`MethodEngineer-ME1` must select or decline `MethodChange-MC7` as the proposed Method edition for one bounded trial in planned Work item `WP4`. This one decision is the receiving use for all three rows.
+`MethodEngineer-ME1` must choose between keeping the current Method edition for Work item `WP4` and preparing and running a one-hour trial of `MethodChange-MC7`. The commissioning rule admits a proposal only when its estimated total time fits a three-hour budget. The current edition fits. MC7 requires an estimated four hours of preparation before the one-hour trial. Both figures charge the same time budget.
 
-In this constructed case, the options are to prepare and run the MC7 trial or retain the current Method edition. WP4 provides a one-hour trial slot. The stipulated setup estimate for MC7 is four additional hours, while the applicable total setup-and-trial ceiling is three hours. Retaining the current edition is feasible within that ceiling. These case facts are additional planning inputs; WorkRecord-W19 does not establish the setup estimate or predict the benefit of MC7.
+Under C.11 the result `CR7` is `choose now`: retain the current edition for WP4. The preparation estimate alone exceeds the ceiling. The planned hour gives the fuller estimate of five hours. This calculation settles eligibility under the stated planning rule. How long preparation would actually take remains unmeasured.
 
-C.11 result CR7 is `choose now`: ME1 selects retaining the current edition and declines MC7 for this WP4 use because 4 + 1 hours exceeds the three-hour ceiling. The selected comparison criterion is compliance with that total budget; the earlier rework record supplies motivation, not permission to exceed it. Reopen CR7 if the setup estimate, budget, options or trial conditions materially change. The decision makes no claim that the planned trial occurred.
+| Source considered | What the source supports | Use in this decision |
+| --- | --- | --- |
+| The commissioning rule, the setup estimate for MC7 and the estimate for retaining the current edition | The applicable ceiling and the estimated time required by each option under the trial conditions. | `select` for the budget comparison. Reopen it if the rule, estimate, alternatives or trial conditions change. |
+| Trial item in `WorkPlan-WP4` | A.15.2 identifies a planned one-hour slot. A.10 path `P-WP4` supports that limited claim (`pass`). | `select` for estimating the full trial time. The four-hour setup estimate is already sufficient to exclude MC7. A claim that the trial took place would require a record of the Work. |
+| Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the MethodDescription and its proposed order of work. Path `P-MD5` supports reading that order (`pass`). | `decline` as a premise for choosing on budget. The engineer can use the diagram to prepare an eligible trial. Revisit the estimate if a change of order changes the work it covers. |
+| `WorkRecord-W19` about the earlier `Work-W19` | A.13 and A.15.1 establish the earlier assignments and Work. The record identified under C.2.1 reports rework in those conditions. Path `P-W19` supports that observation within its comparability limit (`degrade`). | `decline` for the budget comparison. The record explains why the change was proposed. It supplies neither the new setup estimate nor evidence that MC7 prevents the old breakdown. |
 
-| Candidate | Direct result, reliance, and receiving result | Exposed and withheld | Disposition and return |
-| --- | --- | --- | --- |
-| Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the episteme as a MethodDescription about `Method-M2`. A.2.4 may classify its intended evidence use. A.10 path `P-MD5` carries the premise “edition 5 states the proposed MC7 action order,” its source/currentness window, direct decision-use relation, and `RelianceDisposition=pass`. Receiving result: CR7, defined above. | Exposes proposed sequence and handoff; withholds actual effort, achieved result, and future performer availability. | `select` for proposed-way claims only; return if the edition, intended Method, path, or reliance window changes. |
-| `WorkPlan-WP4` trial item | A.15.2 identifies the schedule-of-intent episteme and its planned performer, interval, and capability conditions. A.2.4 may classify the intended use. A.10 path `P-WP4` carries the premise “WP4 currently provides the named trial slot and conditions,” source/currentness, direct decision-use relation, and `RelianceDisposition=pass`. Receiving result: CR7, defined above. | Exposes a bounded trial slot and intended conditions; withholds actual occurrence, performance, and result. | `select` for the stated trial-slot availability and intended conditions only; return if the plan, performer, interval, capability condition, path, or disposition changes. |
-| `WorkRecord-W19` about actual `Work-W19` | A.13 establishes the performers' assignment bases; A.15.1 admits the dated Work independently. C.2.1 identifies the record episteme. A.2.4 may classify its intended use. A.10 path `P-W19` carries the premise “WorkRecord-W19 reports the stated rework and effort under the named earlier conditions,” its provenance and decision-use relation, and `RelianceDisposition=degrade` to that comparability-limited premise. Receiving result: CR7, defined above. | Exposes observed breakdown and effort under the earlier edition and conditions; withholds proof that MC7 fixes the breakdown or that the trial planned in WP4 will reproduce those observations. | `select` only for the narrowed comparability-qualified premise; return if the observed conditions, path, currentness, disposition, or relevance to MC7 changes. |
-
-The completed account retains two pass premises and the comparability-limited degrade premise as inputs to CR7. Declining MC7 for WP4 does not make those representations unusable as decision premises; it states the result obtained using them and the additional budget facts.
-
-None of the three rows proves that MC7 improves the Method. If the same diagram is later used for a tailoring choice or WorkRecord-W19 for a learning decision, establish that different use account, reusing unaffected premises and reconsidering changed dependencies.
+Raise the ceiling to five hours with the estimates unchanged. MC7 now meets the budget rule. If the engineer was asked only whether the trial fits, they can answer yes on the estimates. Choosing it over the current edition would require a reason to prefer it among the eligible options. To guarantee completion by the deadline, establish that every admissible duration meets it. To rule out timely completion, establish that every admissible duration exceeds it. A reliable upper bound at or below the deadline establishes the first claim. A lower bound strictly above it establishes the second. A five-hour upper bound against a three-hour limit leaves open the possibility of finishing sooner. An estimate alone settles neither claim.
 
 #### C.37:5.2 - Failed diagram use
 
@@ -66,7 +63,7 @@ If the direct release gate or permission pattern instead returns a negative resu
 
 #### C.37:5.3 - One decision now and a later reader's need
 
-In section 5.1, the engineer completes the current comparison using the three independently qualified inputs and the stated budget facts. The direct receiving result and material limits are already clear: the description supplies proposed order, the plan supplies intent rather than performed Work, and the earlier record supplies only its comparability-limited observation. If no later use needs another account of this comparison, the answer is complete without a standalone C.37 record. The rules for those claims still govern required source and receiving-result evidence.
+The engineer can finish the current comparison by giving the planning rule, the estimates and the resulting choice. The source of the four-hour estimate matters even though the workflow diagram and the earlier work record have identifiable editions. Neither supplies that estimate.
 
-Now suppose a later trial reviewer must reconstruct why those inputs were usable for WP4. That use needs the claims, source and reliance boundaries, losses, dispositions and receiving result—not merely “MC7 declined.” Retain the complete basis in the existing same-use decision account if it can carry it, otherwise in one identifiable account. A new receiving decision still requires its own use-bounded selection; the retained earlier basis is not authority for the new action.
+A later reviewer may need to reconstruct the choice. Give them the estimates used, what each covered, the budget in force and the alternatives compared. If they also need to reconstruct why MC7 was proposed, give them the earlier rework record and its comparability limit. Keep this basis once in the existing decision account when it can serve those uses.
 

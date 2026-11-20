@@ -6,7 +6,7 @@ section_id: "A.15.6:End"
 section_title: "A.15.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__014_a-15-6-end.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:End — A.15.6:End"

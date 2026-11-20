@@ -6,12 +6,12 @@ section_id: "C.39.RQ:5"
 section_title: "Archetypal Grounding — EC-417 Situational Criteria"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__007_archetypal-grounding-ec-417-situational-criteria.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:5 — Archetypal Grounding — EC-417 Situational Criteria"
-line_start: 89008
-line_end: 89071
+line_start: 89025
+line_end: 89088
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -25,7 +25,7 @@ keywords:
 
 The situation family is a safety-relevant controller change combining firmware and supplier-originated harness geometry under a fixed release calendar. The intended Work produces one released change with traceable affected requirements, implementation revisions, verification results, evidence status, and human release authority. Some cases have signed supplier evidence before integration; others have only versioned provisional evidence until later. AI support may suggest trace links but may not receive confidential geometry or decide release.
 
-Three views describe the same release Work. The project view exposes dates, allocations, and authority; the process view exposes recurring supplier-evidence, integration, verification, and release-result correspondences; the case view exposes how new evidence changes the next decision for one release. These views help find criteria. They create neither additional Work nor a Method.
+Three accounts inform the release decision. The project plan gives dates, allocations and decision authority. The process account shows how supplier evidence, integration and verification support a release decision across changes. The case record shows which evidence is available for this release and how it affects the next decision. Use each account to identify criteria for what it describes.
 
 Required Method contributions are stated without selecting an architecture: produce the affected hardware verification result; integrate the implementation against a versioned evidence state; produce signed supplier approval or a missing-approval stop; and return release, withhold, or next-slot authorization under named human authority. Evidence reconciliation and trace review are additional candidate contributions, not pre-admitted Methods.
 
@@ -45,7 +45,7 @@ F.6 tests precise assignment-bound attribution when that claim is needed; a fail
 
 Responsibility, access, capability, assignment, permission, authority, performed Work, and decision result therefore remain separately testable. The AI provider is a separate System and is holder or subject of none of these assignments or relations.
 
-| Criterion | Subject and decision level | Requirement, variation, and bound | Evidence needed and stop |
+| Criterion | Subject of the criterion and decision it affects | Requirement, variation, and bound | Evidence needed and stop |
 | --- | --- | --- | --- |
 | `SC-TRACE-01` | EC-417 receiving result and its requirement/implementation/verification correspondence | every affected safety requirement links to one or more named current implementation revisions and one or more named verification results; every correspondence link remains inspectable, while representation format may vary | versioned trace record; an affected requirement with no current implementation-revision link or no verification-result link is `failed` and stops safety closure |
 | `SC-CONF-01` | supplier-geometry information and AI-provider access relation | confidential supplier geometry stays outside the AI provider; using no AI is allowable | access configuration and handling record; any provider exposure is `failed` and stops the AI-supported route |

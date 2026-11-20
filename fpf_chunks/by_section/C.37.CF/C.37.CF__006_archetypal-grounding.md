@@ -6,12 +6,12 @@ section_id: "C.37.CF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__006_archetypal-grounding.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:5 — Archetypal Grounding"
-line_start: 86619
-line_end: 86702
+line_start: 86624
+line_end: 86707
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -41,7 +41,7 @@ The receiving action is deciding whether an earlier review may support a current
 
 Initially, the facts say that the change is display-only, the claims and question are unchanged, and the qualification window is current. All variants can support reuse. The later condition says that a new recheck needs an argument outside the available excerpts and that the retained dossier contains only its locator.
 
-B and C state the local stop and preservation instructions; A does not contain that distinction. This establishes a content-coverage difference in the constructed texts. It does not show that an actual reader preferred or used C more effectively than B. A reader comparison would still be needed for that form claim.
+B and C state the local stop and preservation instructions; A does not contain that distinction. This establishes a content-coverage difference in the constructed texts. It does not show that an actual reader preferred or used C more effectively than B. A reader comparison would still be needed for that form claim. The first task lets the reader use a stated review rule. To find out whether they can devise a review rule for their own discipline, give them records from that practice and leave the criteria for reusing work for them to choose and justify.
 
 For the revision, retain the missing stop information and withhold the table-superiority claim.
 

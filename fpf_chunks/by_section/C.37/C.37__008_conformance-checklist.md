@@ -6,12 +6,12 @@ section_id: "C.37:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__008_conformance-checklist.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:7 — Conformance Checklist"
-line_start: 86204
-line_end: 86221
+line_start: 86205
+line_end: 86222
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -45,7 +45,7 @@ keywords:
 | `CC-C37.3` Direct subject result | Each row identifies the candidate, subject, rule governing the subject claim, and every positive relation required by the selected claim. |
 | `CC-C37.4` A.2.4 bounded | First evidence-use or status-use classification is optional and never substitutes for provenance, reliance, or action authority. |
 | `CC-C37.5` Reliance bounded | A relied-on claim has the source, support and actual use conditions it needs. Use A.10 when the source-to-use account remains implicit or must be replayable; then preserve its path, use relation and current `RelianceDisposition`, with the currentness, challenge, unsupported-use boundary and return conditions material to that reliance. |
-| `CC-C37.6` Receiving result separate | The choice, gate, permission, authorization, acceptance, or domain pattern supplies the action result. |
+| `CC-C37.6` Receiving result | The governing rule and the premises relied on account for the choice, gate, permission, acceptance or other action result. The account identifies what remains open when those premises decide only eligibility. |
 | `CC-C37.7` Exposure and loss | Each selected or declined claim states what is exposed or preserved and what is withheld, lost, transformed, or uncertain. |
 | `CC-C37.8` Row disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
 | `CC-C37.9` Return visible | Every row names the source or governing pattern and the condition that reopens selection. |

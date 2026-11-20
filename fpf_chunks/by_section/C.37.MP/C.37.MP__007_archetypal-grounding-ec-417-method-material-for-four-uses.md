@@ -6,12 +6,12 @@ section_id: "C.37.MP:5"
 section_title: "Archetypal Grounding - EC-417 Method Material for Four Uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__007_archetypal-grounding-ec-417-method-material-for-four-uses.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:5 — Archetypal Grounding - EC-417 Method Material for Four Uses"
-line_start: 86381
-line_end: 86446
+line_start: 86384
+line_end: 86449
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -46,7 +46,7 @@ C.37.MP relates these use-specific selections in cross-use profile `MRP-EC417-Cr
 | keep-separate decisions | The decision table, action-and-guard episteme, support-task episteme, three candidate readings, their viewpoint editions, each direct conformance judgment, and the receiving decision retain their own governors and statuses. The profile creates no integrated super-view, collection, selected structure, or new MethodDescription edition. |
 | cross-use return | A changed candidate status, source edition, B2 alternative, evidence-entry boundary, or recovery/stop claim reopens every affected row and this profile relation. A changed support task reopens the support row. The unresolved reopen row returns only when Work identity, the three direct `E.17.0` judgments, their claims, and the A.10 disposition needed by that premise use are available; later change to any of those bases reopens it. |
 
-The fourth row asks about one completed trial, so its three proposed readings concern that independently admitted Work. This case does not select the subject of every project, process, or case account. Each becomes a `U.View` only through its own positive `E.17.0` judgment against a viewpoint edition, and co-recording them is useful only when each can change the same reopen decision. The profile does not make an integrated super-view.
+The fourth row asks about one completed trial, so its three proposed readings concern that independently admitted Work. This case does not select the subject of every project, process, or case account. Each becomes a `U.View` only through its own positive `E.17.0` judgment against a viewpoint edition, and their claims belong in the same decision account when each supplies or corroborates grounds for deciding whether to reopen the trial. The profile does not make an integrated super-view.
 
 A timeline, dependency network, state-transition drawing, or other node-link material supports a mathematical use through its identified formal object, correspondence, preserved and lost structure, and inference conditions. Use an adequate domain result directly; use `C.29` when a separate representation, transfer, or reliance question remains. Appearance or vocabulary alone does not establish that mathematical basis.
 
@@ -74,11 +74,11 @@ The current instruction says: “At the planned inspection time, use a calibrati
 
 To relate the accounts, the method engineer first expands “calibration current” into the age condition and compares its subject and reference time with the instruction. Both concern the certificate for this equipment at this planned inspection time. The supervisor's two-column conjunction corresponds to the two preparation conditions, although the table omits the operator's recovery steps. That omission is acceptable for deciding preparation readiness; it would be insufficient as the operator's only instruction.
 
-A certificate aged 20 days with the fixture checked gives a positive preparation result in both accounts. A certificate aged 31 days does not. An unknown date cannot be treated as age zero or as a satisfied condition. These cases check the recovered meaning, including the rare stop; they do not prove that an operator will apply the instruction correctly.
+With the fixture checked, a certificate aged 20 days permits preparation under both accounts. That settles today's preparation if those facts hold. For future use, compare the definitions themselves. Both include day 30, exclude day 31, and withhold readiness when the age is unknown or the fixture check is incomplete. The shared definition and conjunction explain why the two accounts agree for readiness across those conditions. An operator learning how to proceed after a stop needs the recovery instruction as well.
 
 The maintenance question needs one more distinction. The table's age test depends on the glossary definition, which points to the current instruction. Its fixture condition has a separate source.
 
-A prototype's green “ready” display has no available rule definition or inspected implementation. Matching that label to the supervisor's word cannot establish that it checks certificate age and the fixture jointly. Return the missing implementation basis to the support builder; retain the established instruction/table correspondence.
+The prototype displays green for today's 20-day certificate and completed fixture check. That is an observation about this run. A program that always displays green would give the same result. Before relying on the display for other inspections, inspect its rule or establish its behavior over the intended conditions with adequate coverage. Until then the supervisor can determine readiness from the instruction and the established job facts. The prototype's behavior on other inputs remains open.
 
 Now the Method owner changes the allowed age to 14 days for future inspections. The changed reusable entry condition belongs to the A.3.1.MV variant or revision question; the new document alone supplies no effectiveness evidence. A 20-day certificate now distinguishes the two rules.
 

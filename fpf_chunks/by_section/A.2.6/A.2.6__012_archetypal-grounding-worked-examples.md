@@ -6,7 +6,7 @@ section_id: "A.2.6:11"
 section_title: "Archetypal Grounding - Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_archetypal-grounding-worked-examples.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:11 — Archetypal Grounding - Worked Examples"

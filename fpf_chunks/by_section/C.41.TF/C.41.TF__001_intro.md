@@ -6,12 +6,12 @@ section_id: "C.41.TF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__001_intro.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:intro — Intro"
-line_start: 93904
-line_end: 93909
+line_start: 93923
+line_end: 93928
 dependencies:
   - "C.37"
   - "C.41"

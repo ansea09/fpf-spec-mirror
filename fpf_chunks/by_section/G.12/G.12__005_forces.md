@@ -6,12 +6,12 @@ section_id: "G.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__005_forces.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:3 — Forces"
-line_start: 141336
-line_end: 141345
+line_start: 141355
+line_end: 141364
 dependencies:
   - "A.19"
   - "A.2.6"

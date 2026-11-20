@@ -6,12 +6,12 @@ section_id: "F.12:12"
 section_title: "Reasoning about promise fulfilment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__013_reasoning-about-promise-fulfilment.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:12 — Reasoning about promise fulfilment"
-line_start: 131016
-line_end: 131030
+line_start: 131035
+line_end: 131049
 dependencies:
   - "A.10"
   - "A.15.1"

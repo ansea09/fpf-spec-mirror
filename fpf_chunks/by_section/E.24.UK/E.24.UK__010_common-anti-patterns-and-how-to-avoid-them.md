@@ -6,12 +6,12 @@ section_id: "E.24.UK:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 125791
-line_end: 125802
+line_start: 125810
+line_end: 125821
 dependencies:
   - "A.1.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__005_solution.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:4 — Solution"
-line_start: 126388
-line_end: 126428
+line_start: 126407
+line_end: 126447
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

@@ -6,12 +6,12 @@ section_id: "C.39.RQ:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__008_bias-annotation.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:6 — Bias-Annotation"
-line_start: 89072
-line_end: 89082
+line_start: 89089
+line_end: 89099
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -29,6 +29,6 @@ keywords:
 | candidate-shaped criteria | Requirements restate the familiar candidate's procedure. | State the contribution or protected condition before assigning a candidate. |
 | description-reification bias | Goal, rationale, framing, or mindset text becomes a world-side Method part or capability fact. | Place each answer with the description, account, capability, or cultural subject it concerns. |
 | capability-assignment-authority collapse | A capable System is assumed assigned and authorized, or an authority holder is assumed capable and assigned. | Record capability, responsibility, access, assignment, permission, authority, performed Work, and decision result separately. |
-| scalar-fit bias | Unlike safety, evidence, burden, and authority rows collapse into one score. | Preserve non-negotiable stops, unknowns, and decision levels. |
+| scalar-fit bias | Unlike safety, evidence, burden, and authority rows collapse into one score. | Keep each binding stop or unresolved criterion with the decision it affects. |
 | local-burden blindness | A passing individual estimate hides a combined peak or burden moved to another participant. | Attach burden to participant, scope, and window; route combined structures to C.32.MWA.PP. |
 

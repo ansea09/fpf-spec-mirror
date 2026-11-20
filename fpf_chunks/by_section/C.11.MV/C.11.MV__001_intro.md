@@ -6,7 +6,7 @@ section_id: "C.11.MV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__001_intro.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:intro — Intro"

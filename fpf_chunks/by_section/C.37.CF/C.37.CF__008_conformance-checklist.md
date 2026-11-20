@@ -6,12 +6,12 @@ section_id: "C.37.CF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__008_conformance-checklist.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:7 — Conformance Checklist"
-line_start: 86709
-line_end: 86718
+line_start: 86714
+line_end: 86723
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -24,7 +24,7 @@ keywords:
 - The receiving reader, subject, action, result and stop are fixed sufficiently for the comparison.
 - Content changes and representation changes are stated, including added or lost relations.
 - Every claimed contrast is supported by the available variants and conditions.
-- Reader learning, tool differences and other material confounds remain visible.
+- The account identifies the consequential choices the reader made and those already supplied by the text, task, tools or help. Credit for constructing a rule requires evidence from work in which that choice was open.
 - When a changed-condition return is tested, an initial answer precedes disclosure of that condition.
 - Observed burden is distinguished from estimated or unmeasured burden.
 - The result returns to the content, selection, trial or worth decision it informs.

@@ -6,12 +6,12 @@ section_id: "C.40.JD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__006_archetypal-grounding.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:5 — Archetypal Grounding"
-line_start: 93415
-line_end: 93464
+line_start: 93434
+line_end: 93483
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -52,7 +52,7 @@ The lead has to locate which condition is consequential. For the well-supported 
 
 Those enactments would support only what the performance evidence establishes. If the lead independently notices the premise difference and formulates the consequential question but still needs a specialist's technical result, retain that bounded capability with its support dependence. Do not call it complete subject expertise. If the adviser still chooses the difference and every consequential operation, retain the delivered project result and assisted performance, and continue the missing development.
 
-The useful change is not merely familiarity with a new test. The lead can now turn an ill-formed scheduling complaint into a meaningful question about an obtaining way, seek the result that changes a commitment and preserve a sufficient existing way when no new inquiry is warranted. That changes which situations she can handle and which further difficulties she can see.
+The later cases show what the lead can do with the agreed help. If comparable earlier work shows that she could not identify the premise or frame the question under those conditions, her later choices support a gain in those operations. If earlier records show that she made those choices whenever the source information was available, the skill was already present. If missing access had blocked an earlier commitment, restoring that access removes the documented obstacle. Protected time or specialist help may also have made the present commitment possible. If those conditions changed together, the contribution of access alone may remain unknown. Either finding can guide the next assignment. Attributing a gain to the adviser's intervention also requires grounds for separating its effect from other changes.
 
 #### C.40.JD:5.3 - Support several masteries in a company without centralising every judgement
 

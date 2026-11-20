@@ -6,7 +6,7 @@ section_id: "A.3.1.CC:5"
 section_title: "Archetypal Grounding - Representation Difficulty in SSFD"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__007_archetypal-grounding-representation-difficulty-in-ssfd.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:5 — Archetypal Grounding - Representation Difficulty in SSFD"

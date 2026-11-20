@@ -6,12 +6,12 @@ section_id: "C.42:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__002_problem-frame.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:1 — Problem frame"
-line_start: 94719
-line_end: 94732
+line_start: 94738
+line_end: 94751
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

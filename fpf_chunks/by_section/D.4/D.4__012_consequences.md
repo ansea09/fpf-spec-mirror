@@ -6,12 +6,12 @@ section_id: "D.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__012_consequences.md"
-commit_sha: "9fb0bff7ac2dfe82f068b03befe6b7303bcd7f5b"
+commit_sha: "d325a051ac7b2bb37cd870f90b4ed8b2d0426e58"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:7 — Consequences"
-line_start: 97147
-line_end: 97150
+line_start: 97166
+line_end: 97169
 dependencies:
   - "A.1.CSD"
   - "A.10"
