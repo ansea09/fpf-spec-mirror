@@ -6,12 +6,12 @@ section_id: "B.5.2.1:4"
 section_title: "Solution — NQD-Generate and its C.18 records"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__005_solution-nqd-generate-and-its-c-18-records.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:4 — Solution — NQD-Generate and its C.18 records"
-line_start: 52408
-line_end: 52431
+line_start: 52446
+line_end: 52469
 dependencies:
   - "A.17"
   - "A.18"
@@ -28,7 +28,7 @@ keywords:
 
 ### B.5.2.1:4 - Solution — **NQD-Generate and its C.18 records**
 
-**Method name (Plain/Unified Tech).** *NQD‑Generate* — a **U.Method** that, given (i) a **HypothesisSpace** and (ii) a **CharacteristicSpace** with a **CoverageGrid**, returns a *finite* candidate package: a **front over the declared `DominanceSet`** plus the retained archive/tie-break telemetry needed to keep diversity and novelty reviewable without making them default dominance dimensions.
+**Method name (Plain/Unified Tech).** *NQD‑Generate* — a **U.Method** that, given (i) a **HypothesisSpace** and (ii) a **CharacteristicSpace** with a **CoverageGrid**, returns a *finite* candidate package: a **front over the eligible candidates assessed in the run** under the declared `DominanceSet`, with any archive or tie-break telemetry required by the active policy or receiving use.
 
 **Minimal signature.**
 
@@ -45,8 +45,8 @@ The coordinate entries cite the constituted results used. When illumination is r
 **Strategy (notation‑neutral).**
 
 1. **Seeding and constructors.** Declare the explanatory question, hypothesis space and permitted variation operators in the MethodDescription. Initialize with admissible seeds: known explanations, random draws under that grammar or prior hypothesis-bearing epistemes with their grounds and limits. Name how an operator constructs a changed explanatory claim, for example by replacing a proposed mechanism or combining two mechanisms under a stated interaction assumption. When there are no seeds, use the declared finite enumeration or sampling rule.
-2. **Construct and assess.** Apply the selected variation operators to the seeds or retained candidates within the budget; record each resulting hypothesis and its parent/operator provenance. Then test candidate must-constraints for comparison and evaluate each required Q component. Keep an excluded candidate and its reason distinguishable from a candidate not yet generated. Maintain up to K retained entries per declared cell; obtain only the N, ΔDiversity_P and Surprise readings used under C.17, and any required retained-set illumination report. Deduplicate under the declared rule and threshold.
-3. **Budget‑bounded loop.** Iterate until the budget or declared coverage-convergence condition is reached, or the applicable C.19 policy ends active exploration; return the **(ε‑)Pareto front** over the declared `DominanceSet`. When the Context consumes the ordinary default, that means the declared `Q` components under `DefaultId.DominanceRegime`. Keep `N`, `D=ΔDiversity_P`, `Surprise`, and `IlluminationSummary` as archive/tie-break/telemetry signals unless one Context policy explicitly promotes one of them into dominance and records the policy id. `Use-Value` enters dominance only when the Context declares it inside the active `Q` tuple; otherwise it may appear as one decision-side/supporting side note.
+2. **Construct and assess.** Apply the selected variation operators to the seeds or retained candidates within the budget; record each resulting hypothesis and its parent/operator provenance. Then test candidate must-constraints for comparison and evaluate each required Q component. Keep an excluded candidate and its reason distinguishable from a candidate not yet generated. Maintain up to K retained entries per declared cell; obtain only the N, ΔDiversity_P and Surprise readings used under C.17, and any required retained-set illumination report. Apply the declared deduplication rule to the return for which it is valid. Keep distinct candidate identities or a way to recover them when the commission asks for every qualifying candidate. A common cell alone establishes only agreement on the cell descriptors.
+3. **Budget‑bounded loop.** Iterate until the budget or declared coverage-convergence condition is reached, or the applicable C.19 policy ends active exploration; report the front over the eligible comparison population under the declared `DominanceSet` and any applicable ε policy. To extend the front beyond that population, account for the remaining eligible possibilities under C.18:4.4. When the Context consumes the ordinary default, that means the declared `Q` components under `DefaultId.DominanceRegime`. Keep `N`, `D=ΔDiversity_P`, `Surprise`, and `IlluminationSummary` as archive/tie-break/telemetry signals unless one Context policy explicitly promotes one of them into dominance and records the policy id. `Use-Value` enters dominance only when the Context declares it inside the active `Q` tuple; otherwise it may appear as one decision-side/supporting side note.
 4. **Traceability.** Keep the generator settings, grids/metrics versions, seeds, policy, `TimeWindow`, filled cells and each exclusion’s reason recoverable in the generation and comparison account. Use C.18 for the archive and front returns. State how the final set was produced, including `ε`, `K` and deduplication. Keep any decision rationale required by the use in that account; reuse an adequate account.
-5. **Algorithmic freedom (informative).** Implementations MAY use MAP‑Elites/illumination, novelty search with local competition, Bayesian/surrogate‑assisted search, or deterministic enumerations; ε‑dominance or knee‑point thinning MAY be used *after* recording the full front in provenance.
+5. **Algorithmic freedom (informative).** Implementations MAY use MAP‑Elites/illumination, novelty search with local competition, Bayesian/surrogate‑assisted search, or deterministic enumerations; a tolerance that defines dominance belongs to the stated comparator. When ε or a knee-point rule is used only to thin an already computed front, preserve that front and identify the thinned return separately. For a promised approximation, establish the stated error guarantee over its domain. A coverage guarantee, for example, needs an attainable representative within the promised tolerance for every outcome it covers.
 

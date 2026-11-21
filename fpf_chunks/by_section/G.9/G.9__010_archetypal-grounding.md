@@ -6,12 +6,12 @@ section_id: "G.9:8"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__010_archetypal-grounding.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:8 — Archetypal grounding"
-line_start: 140490
-line_end: 140507
+line_start: 140711
+line_end: 140728
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -42,14 +42,15 @@ keywords:
   - "benchmark plan"
   - "comparator pins"
   - "freshness windows"
+  - "pairwise relations"
   - "parity harness"
-  - "selected-set outcomes"
+  - "selection when commissioned"
 ---
 
 ### G.9:8 — Archetypal grounding
 
 **Show-A — Multi-tradition parity for decision systems.**
-ParityPlan pins a rolling evidence window and comparator refs; ParityReport publishes a selected-set outcome plus the evidence trace. Family labels such as preference-learning comparators, causal decision pipelines, offline-RL evaluation pipelines, and robust BO-style selectors remain illustrative until a `G.2` SoTA pack or named current source pins the exact family being compared. The parity report must preserve the selected set or partial order rather than collapse everything into a single scalar.
+ParityPlan pins the evidence window and comparator references. ParityReport publishes what the comparison established and the supporting evidence. A commissioned selection adds its declared outcome. Preference-learning comparators, causal decision pipelines, offline-RL evaluation pipelines and robust BO-style selectors remain illustrative families until a G.2 SoTA pack or named current source identifies the family actually compared.
 
 **Show-B — QD parity (for example, CMA-MAE `arXiv:2205.10752` and DQD `arXiv:2106.03894`).**
 ParityPlan pins descriptor/distance definitions and archive insertion policy editions. ParityReport identifies the compared archive states, records the lawful comparison result and telemetry deltas, and keeps illumination summaries separate from dominance unless explicitly promoted.

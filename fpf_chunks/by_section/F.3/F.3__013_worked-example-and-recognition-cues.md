@@ -6,12 +6,12 @@ section_id: "F.3:12"
 section_title: "Worked example and recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__013_worked-example-and-recognition-cues.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:12 — Worked example and recognition cues"
-line_start: 127697
-line_end: 127738
+line_start: 127886
+line_end: 127927
 dependencies:
   - "A.11"
   - "A.7"
@@ -72,5 +72,5 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 
 #### F.3:12.6 - IEC 61131-3
 
-**Task.** Claim: a cyclic or event-driven runtime unit that invokes programs. Counterexample: a control algorithm or program description is not the task occurrence.
+**Task.** In the cited usage a task is a cyclic or event-driven runtime unit that invokes programs. Identify the configured task when the question concerns its schedule, an activation when the question concerns one trigger, and the particular program execution when asking what work occurred. The same task can invoke a program many times.
 

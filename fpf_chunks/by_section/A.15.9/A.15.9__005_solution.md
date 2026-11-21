@@ -6,12 +6,12 @@ section_id: "A.15.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:4 — Solution"
-line_start: 33649
-line_end: 33695
+line_start: 33689
+line_end: 33735
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,7 +38,7 @@ Begin with one receiving decision or piece of Work and one result that could cha
 1. **Name the receiving decision or Work.** State who will use the result, what action can change, and the consequence of delay or error. Do not begin with a department, profession, meeting, or document.
 2. **Inspect an already-available result first.** Identify the result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance needed. Use the result where adequate and retain the limit that matters.
 
-   A stale, wrong-configuration, unsupported, or merely authoritative-looking answer leaves that claim unqualified; an independently supported narrower answer can finish this use.
+   Check whether the result applies to this claim and configuration. A narrower result can settle the use when the receiving decision only needs that result. If the requested answer could still differ, state what remains unresolved.
 3. **Select acquisition before constructing the request.** When a missing result or proposed inquiry makes acquisition live, use `C.11.DUA` to compare an obtainable calculation, interpretation, limit, objection, observation, decision, or other contribution with the present answer, narrower action, alternative, deferral, or stop. Include formulation, qualification, delivery, supplier Work, interpretation and use, delay, displaced work, and downside within the receiving horizon.
 
    Being able to change the answer is necessary for a useful contribution, but does not alone make obtaining it worthwhile. If acquisition is selected, ask for the smallest result that can supply that contribution; permit a supported result, bounded objection, or blocker as its return.
@@ -57,7 +57,7 @@ The sequence is logical, not a compulsory workflow. Step 2 can close a useful na
 
 #### A.15.9:4.2 - Return the first result in ordinary language
 
-For a small reversible use, give the answer and retain only what its recipient needs to interpret it. When the existing contractor date is already admissible, for example: “Use the published cutoff for employee items. Keep the contractor submission date unchanged; that source does not cover the contractor batch.” This completes the present answer without a request or a statement explaining why no request was made.
+For a small reversible use, give the answer and retain only what its recipient needs to interpret it. For example, an administrator may ask for one date already authorized for a contractor submission. Give Thursday if its eligibility is established. For the different question of whether Friday would also qualify, a calendar that excludes contractors leaves Friday unresolved. Obtain the contractor cutoff when resolving that question is required and feasible.
 
 When acquisition has been selected under §4.1, a compact request may read:
 

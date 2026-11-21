@@ -6,12 +6,12 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__007_normative-definitions.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 7107
-line_end: 7336
+line_start: 7134
+line_end: 7356
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -217,18 +217,11 @@ The same scope may participate in differently selected relation occurrences or b
 
 **Subject and declared basis.** A qualified A.2.2 ability claim about an independently identified holder System designates its `U.WorkScope`. This is the set-valued work-condition basis of that claim, not a scope carried by a separate capability individual.
 
-**Meaning.** `U.WorkScope` is the set of `U.ContextSlice` values under which a capability's deliverability claim may be evaluated. Work-measure targets and qualification windows are checked separately at use time; they are not members or identity fields of the scope.
+**Meaning.** `U.WorkScope` is the set of `U.ContextSlice` values in which the holder's deliverability claim may be evaluated. Membership establishes that the claim covers these work conditions. Whether the holder meets the requested criterion there and whether its grounds are usable for this decision are separate questions.
 
-**Expression.** The capability declaration designates an exact `U.WorkScope` expressed only as conditions over `U.ContextSlice`: environment, versioned standards or platforms, resource regimes, exact local senses when current, and `gammaTime` only when time changes membership. Quantitative deliverables and qualification windows are not part of the scope value:
+**Expression.** Express Work scope as conditions over `U.ContextSlice`: environment, versioned standards or platforms, resource regimes, exact local senses when current, and `gammaTime` when time changes membership. A target for the delivered result belongs to WG‑2. A limit on the age of supporting evidence belongs to WG‑3.
 
-* Declare targets as **work-measure target sets** (e.g., latency <= L, throughput >= T, tolerance <= epsilon) bound in guards (WG‑2).
-* Declare inspection/recertification policies as **qualification-window policies** bound in guards (WG‑3).
-
-The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `qualificationWindowHolds(holderAbilityClaim, qualificationWindowPolicy, evaluationTime)`.
-
-Here `holderAbilityClaim` supplies the identified holder, claimed work conditions and bounds, and the declared support basis to which the qualification policy applies. The policy evaluates reliance at the stated time; its failure does not itself prove a loss of actual ability.
-
-**Method–Work gating.** A Work step’s guard MUST check that the target slice is **covered** by the capability’s Work scope **and** that required measures and qualification windows are satisfied.
+**Method–Work gating.** For the proposed `JobSlice`, establish scope coverage, compare the holder's supported performance with the receiving criterion and establish the grounds for relying on the claim at the time of decision. A verified ability to produce the named result can meet a qualitative requirement. Apply numerical bounds or a qualification interval when the receiving rule calls for them. If the decision covers several performances, coverage of each slice licenses those individual comparisons. A.2.2:3 establishes whether the holders and their means can supply the promised results together.
 
 **Composition and Delta-moves.** Work scope uses the same algebra as Claim scope (intersection / `spanUnion` / `translate` / `widen` / `narrow` / `refit`). Section 7.5 selects `translate` only for exact local-sense translation through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim and its current reliance branch.
 
@@ -236,10 +229,10 @@ Here `holderAbilityClaim` supplies the identified holder, claimed work condition
 
 **Required guard facets (capabilities).**
 
-* **Work-measure target set (mandatory).** A set of measurable targets with units and tolerated ranges, evaluated on the JobSlice.
-* **Qualification-window policy (mandatory for operational use).** A time policy stating when the capability is considered qualified; evaluated at the exact evaluation time selected by the receiving guard, not copied into `U.WorkScope`.
+* **Performance criterion (WG‑2).** Identify the required result, grade or measure and what would satisfy it on this slice. For a quantitative target give its units, direction and tolerated bounds.
+* **Current qualification for operational reliance (WG‑3).** Establish why the support for this holder, configuration and use still applies. Apply an inspection, calibration or recertification window at the specified time when the governing policy sets one.
 
-These facets are **separate** from `U.WorkScope` and belong to the evidence and reliance conditions. They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3); B.3 applies when an actual named assurance claim is current.
+These guard conditions accompany the scope membership test. B.3 applies when an actual named assurance claim is current.
 
 #### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or publication form
 **Carrier.** A publication view or form is rendered on a carrier; the carrier is a separate object.

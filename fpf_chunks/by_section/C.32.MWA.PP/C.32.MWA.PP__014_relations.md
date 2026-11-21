@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__014_relations.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:12 — Relations"
-line_start: 83612
-line_end: 83641
+line_start: 83655
+line_end: 83684
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

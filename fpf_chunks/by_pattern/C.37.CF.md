@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.CF.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
-line_start: 86531
-line_end: 86774
+line_start: 86574
+line_end: 86813
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -164,23 +164,20 @@ about the language arrangement: its entries serve independent questions, with di
 source returns. The existing arrangement is candidate A. The author proposes a shorter paragraph, B, and a
 table, C, for the same receiving question.
 
-**B — Selected explanation in prose.** Use F.0.2.MA to identify which source contributions were carried into the
-language. Use A.3.1.CC when a maintained claim contradicts its basis. Use F.0.2.RC when a promised source contribution
+**B — Selected explanation in prose.** Use F.0.2.MA to decide where a recovered source contribution belongs in the language. Use A.3.1.CC when a maintained claim contradicts its basis. Use F.0.2.RC when a promised source contribution
 cannot be recovered.
 
-Choose the entry for the missing result and return to the affected question and its basis. Grouping these
-entries does not establish parts of one Method; a MethodDescription still concerns its own admitted Method.
+Each entry can finish the question it answers. If you also need to choose where to start, identify the result still missing. To establish what a publication actually contains, compare its text with the allocation. Grouping the entries in an explanation leaves open which Methods are constituents of a particular whole.
 
 **C — The same selected claims in a table.**
 
 | Current question | Contribution to obtain |
 | --- | --- |
-| Which source contributions were carried into the language? | F.0.2.MA's source-allocation answer. |
+| Where does this recovered source contribution belong? | F.0.2.MA's source-allocation answer. |
 | A maintained claim contradicts its basis. What needs correction? | A.3.1.CC's coherence answer. |
 | A promised source contribution cannot be recovered. What is missing? | F.0.2.RC's reconstruction answer. |
 
-Choose the entry for the missing result and return to the affected question and its basis. Grouping these
-entries does not establish parts of one Method; a MethodDescription still concerns its own admitted Method.
+Each entry can finish the question it answers. If you also need to choose where to start, identify the result still missing. To establish what a publication actually contains, compare its text with the allocation. Grouping the entries in an explanation leaves open which Methods are constituents of a particular whole.
 
 **Make the comparison.** [C.37.CF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37cf---compare-content-and-form-changes) separates
 the available contrasts. B selects and rewrites content from A; A against B does not isolate a layout effect.
@@ -188,8 +185,7 @@ C rearranges B's selected claims while retaining its common conditions. B agains
 presentation difference. The full E.8.ML account remains available for conditions or questions beyond this
 selected explanation.
 
-For the stated task, the answer must preserve the reason for separate entries and select the first missing
-result. With an adequate allocation and one contradictory maintained claim, A.3.1.CC use is enough.
+For the stated question, explain why the entries can be used separately. A practitioner may need to allocate a recovered contribution while its claims are coherent, correct a contradiction while its allocation is known, or reconstruct missing content. Each result can therefore serve a different decision. For a further request to choose an entry, identify the missing result. With an adequate allocation and one contradictory maintained claim, A.3.1.CC can suffice.
 In a changed case, an argument needed for a new recheck becomes unavailable. Return the affected current-use
 claim and source relation, preserving the earlier answer and independently supported contributions. If the
 question becomes publication authorization, obtain that result separately.

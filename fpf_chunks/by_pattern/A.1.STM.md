@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.STM.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
-line_start: 4195
-line_end: 4618
+line_start: 4211
+line_end: 4634
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -351,7 +351,7 @@ Later, the operator and a removal company agree to withdraw the installation fro
 | Current question | Leave through | Near miss blocked here |
 | --- | --- | --- |
 | Is this exact existing entity a system? | A.1 and A.1.SCR | A noun, diagram box, plan, system-role label or assignment, or capability does not establish systemhood. |
-| Which omitted Systems may undergo relevant changes that alter the current decision or investigation? | A.1.CSD | Use the current frame as a starting point for A.1.CSD's bounded search; keep modal path claims distinct and add a separate actuality claim only when the direct predicate and its case conditions are supported. |
+| Which Systems may bear a change, and does the decision need one possibility, a complete list or a conclusion about several Systems together? | A.1.CSD | Start with the receiving work, challenge the current boundary and trace the possible or established connection. Use the coverage of the evidence, including a rule or shared bound where applicable, to decide whether a complete or empty answer is warranted. |
 | Which system is the project's SoI, and what is the current local subject? | A.15.6 for designation; section 4.1 here when the shared basis is unresolved | Distinguish the product role in an extended enterprise from local attention, the actual holder from a future description, and designation from agreement, classification and assignment. |
 | What is promised, provided, connected, permitted, or stopped? | A.6.P §4.11a, then its subject pattern | *Service* or *access* does not select a system or one service bundle. |
 | Which inside could support the outside use? | C.32.P2S and C.30 family | Architecture chosen before a stated outside-use hypothesis must return to that missing basis. |

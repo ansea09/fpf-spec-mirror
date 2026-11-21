@@ -6,12 +6,12 @@ section_id: "A.6.C:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:4 — Solution"
-line_start: 16067
-line_end: 16192
+line_start: 16091
+line_end: 16228
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -56,11 +56,11 @@ keywords:
 
 ### A.6.C:4 — Solution
 
-Use the four questions to recover the claims made, then classify them through A.6.B. The answers connect the promised content, any actual institution, the applicable conditions and the observed result only where the passage asserts those relations.
+Use the four questions to recover the claims made, then classify them through A.6.B. In interpreting a passage, preserve the relations it actually asserts. In deciding what an order has settled, establish the additional connections needed for the decision from the governing terms and the evidence.
 
 #### A.6.C:4.1 — Four questions for contract-like boundary wording
 
-When “contract”, “guarantee”, “promise”, “SLA”, or “interface agreement” leaves a consequential ambiguity, ask only the live questions below. A question may yield zero, one, or several atomic claims. Add corresponding rows only when stable reuse, decision, audit, dispute, or cross-face projection needs the Claim Register; the question itself is not a bundle part or direct-object kind.
+When unpacking contract-like wording or deciding what the terms and acts together establish, ask the questions that bear on that use. A question may yield zero, one, or several atomic claims. Add corresponding rows only when stable reuse, decision, audit, dispute, or cross-face projection needs the Claim Register; the question itself is not a bundle part or direct-object kind.
 
 1. **What was promised?**
 
@@ -114,6 +114,18 @@ When “contract”, “guarantee”, “promise”, “SLA”, or “interface 
      Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding questions a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent claims.
    * **Result or consequence:** only when the sentence asks for one, select the matching `A.15.1:4.6` row—an A.6.1 application/result binding or independently obtaining `WorkResultRelation`, A.15.PROD production branch, A.3.4 change, evaluation result, subject-specific delivery/transfer relation, or acceptance relation. An absent row stays absent.
    * **Evidence:** for a current evidence-use claim, name the supporting episteme, target claim and conditions required by its direct rule; use A.2.4 for first-use classification. Make the grounds required by any receiving reliance recoverable. Use A.10 when source recovery, provenance, currentness or bounded reliance must remain replayable; identify carriers and observation conditions when they affect the claim or its use.
+
+**Decide what the commission has settled.** Start with the decision someone needs to make. A buyer may be deciding whether to close an order. A supplier may need to know whether a correction is still due. Work from the request, the terms that took effect and the available records. If a counteroffer changed the deliverable, establish whether and when the parties adopted it. An unanswered request can be all that happened.
+
+For each condition on the next action, find what establishes it. For an owed action or result, identify who undertook to do or supply what for whom. Ask whether the same acceptable result could be produced another way and whether anyone is owed that particular performance in its own right. A supplier may commission an expert opinion to prepare its response. The customer may require the opinion as a condition of acceptance, or may have ordered the consultation itself. Look for the term or accepted change establishing each connection. A completed check may enable a later decision by the customer. It settles acceptance itself only if the agreement gives it that effect. Trace any promises between supplier and expert on their own terms. The supplier's need for the opinion can coexist with either customer arrangement. When the composition of the performed Work matters, B.1.5.EW:4.2 distinguishes a constituent action from work that supplies a result used by another. Follow each undertaking only as far as the receiving decision requires.
+
+Establish what counts as delivery and what counts as acceptance. Producing an item, declaring it ready, delivering it, a user learning of it, and a party accepting it can happen at different times. One notice can declare completion in one undertaking and supply the entire deliverable in another. An earlier decision can settle today's inquiry when it covers the result, recipient and conditions now at issue. If the order calls for a fresh decision, establish that it took place. If the order makes receipt at an agreed repository sufficient for acceptance, a receipt identifying the required item and deposit can settle both delivery and acceptance. An order can make acceptance effective on deposit while allowing later objections. Acceptance then holds from deposit and the right to object continues for the stated period. If acceptance instead takes effect at the end of the period unless someone objects, establish that the period elapsed and that no qualifying objection was made. An earlier decision can settle acceptance if the terms also authorise that route.
+
+Determine how the applicable rule combines the contributions. An authorised representative can accept for several recipients. A board's rule may require a quorum and a specified number of votes in favour. A clerk can record the decision the board reached. An order can instead require distinct assents, compatible parts, or a separate delivery to each recipient. Establish the scope of the mandate, the relevant acts and the connection between them that the rule requires. The records may cover different parts or editions when the rule recognises the correspondence. For a conclusion about a class of orders, show why the rule and the combination apply throughout that class, and which facts each order must supply.
+
+Apply the terms to the facts that can be established. If every history consistent with the terms and evidence gives the same answer, and at least one such history is possible, give that answer. If records conflict, check which record governs or whether independent grounds settle the decision. When the conflict remains unresolved and the other grounds do not suffice, leave that conclusion open. If different histories would give different answers, or the conflict prevents a conclusion, identify the fact needed, where to obtain it and when the recipient needs it. A recorded refusal or a missed binding deadline can rule out one route to acceptance. A negative conclusion for the whole order requires grounds covering every route the agreement allows for the date in question. A missing receipt can leave delivery open. An adverse assessment can itself complete an order for an assessment. Determine separately whether correction, payment or further service is due under the corresponding undertaking.
+
+**For example**, an archive orders a finding aid for two reading rooms. Its acceptance rule requires each room to approve the entries retained for it and both sets to use the same index. The east room accepts its entries in draft 6. The west room accepts its entries in draft 7. Either approval can establish a local decision. Both can establish acceptance of the combined aid if the retained entries are the approved ones and the two sets use the same index, as the order requires. An edit to the index that breaks this condition defeats that combination. If the order instead delegates acceptance of the entire aid to the head archivist, that officer's qualifying decision suffices. The same two room approvals then answer a different question.
 
 #### A.6.C:4.2 — Classification recipe into A.6.B (L/A/D/E)
 

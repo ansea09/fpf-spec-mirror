@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.1.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
-line_start: 136045
-line_end: 136520
+line_start: 136262
+line_end: 136737
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -180,7 +180,7 @@ The chassis inventories the cards and their connections so readers can view them
 
 * `CG‑FrameContext` and its **binding pins**:
 
-  * `entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩` *(pin set: `PartG.AuthoringMinimal`)*
+  * `entityOfConcern`, the entity or targets judged, with the `GroundingHolon` and `ReferencePlane` required by the frame (`PartG.AuthoringMinimal`); a test site can ground claims about different targets.
   * `CNSpecRef.edition`, `CGSpecRef.edition` *(pin set: `PartG.AuthoringMinimal`)*
   * `ReferenceMap` *(cite `G.0:CG‑Spec.ReferenceMap`; do not duplicate semantics)*
   * any declared crossing/policy pins *(pin set: `PartG.CrossingVisibilityPins`)*
@@ -461,7 +461,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 * **Recency bias.** To counter “newest paper wins”, apply the stated inclusion criteria under `G.2` and follow any update cadence the review requires.
 * **Novelty bias:** over‑rewarding novelty at the expense of legality/assurance (mitigate by making acceptance and assurance pins explicit and governed).
 * **Algorithmic favoritism:** baking a preferred generator into “the chassis” (mitigate by keeping M3 method‑agnostic and putting method‑specific wiring into Extensions).
-* **Scalarisation bias:** collapsing selected sets or partial orders into a single score (mitigate by set‑return discipline pinned through `G.Core`).
+* **Scalarisation bias:** collapsing a partial order or selected set into a single score. Follow G.Core for the comparator’s result and retain the actual selector outcome when selection is commissioned.
 * **Hidden‑crossing bias:** unqualified reuse across contexts (mitigate by retaining the correspondence and receiving-use pins required by `G.Core:4.2.3`).
 
 ### G.1:7 - Conformance Checklist (normative)

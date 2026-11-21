@@ -6,12 +6,12 @@ section_id: "C.32.LCA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:11 — SoTA-Echoing"
-line_start: 80811
-line_end: 80828
+line_start: 80854
+line_end: 80871
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

@@ -6,12 +6,12 @@ section_id: "A.1.CSD:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__011_consequences-and-reopen-condition.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:9 — Consequences and Reopen Condition"
-line_start: 4139
-line_end: 4146
+line_start: 4153
+line_end: 4160
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.1.CSD:9 - Consequences and Reopen Condition
 
-The pattern makes quiet and remote Systems discoverable without turning discovery into a role taxonomy or universal assessment procedure. It gives downstream work a qualified starting point: an actual bearer, an intended referent, a supported relation occurrence or modal path, a possible changed characteristic, and the useful constraint, alternative, qualified answer, or selected evidence-producing move.
+The receiving practitioner can act on a supported possibility, use a complete bounded list, or rely on a qualified exclusion or joint result when its grounds suffice. A credible path to one bearer can change a decision while the extent of other consequences remains open.
 
 The cost is explicit uncertainty and more disciplined relation handling. Some inquiries stop with a missing System-recognition or relation fact; that limit can be useful without commissioning the observation needed for a stronger claim.
 

@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:11 — SoTA-Echoing"
-line_start: 13421
-line_end: 13436
+line_start: 13445
+line_end: 13460
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

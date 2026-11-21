@@ -6,12 +6,12 @@ section_id: "F.16:8"
 section_title: "Worked micro-example"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__009_worked-micro-example.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:8 — Worked micro-example"
-line_start: 132503
-line_end: 132554
+line_start: 132696
+line_end: 132747
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,14 +39,12 @@ dependencies:
   - "F.7"
   - "F.9"
 keywords:
-  - "actual values"
-  - "boundary"
+  - "case values"
   - "direct relations"
   - "evidence"
-  - "exact sources"
-  - "optional cell"
-  - "optional comparison table"
-  - "practical gain"
+  - "general method"
+  - "joint conclusion"
+  - "scope"
   - "working situation"
 ---
 
@@ -72,7 +70,7 @@ If a separately recovered F.10 rule maps `Met` to `RequirementStatus=Satisfied` 
 
 **Replay and boundary.** The available and unavailable minutes sum to 43,200. The 40 unavailable minutes are below the permitted 43.2, and the computed ratio exceeds 0.999. With 50 unavailable minutes the same rule would return `NotMet`.
 
-If complete coverage were missing, this worked evidence basis would not support either conclusion; return the rule's missing-evidence question instead of inventing coverage or a pass.
+With missing observations, bound the unavailable time over the full window. Forty confirmed unavailable minutes and two unclassified minutes, with every other minute confirmed available, give at most 42 unavailable minutes. The threshold is met. Forty-four confirmed unavailable minutes already establish `NotMet`. If a qualifying and a failing history both fit the evidence, leave this threshold decision open. Apply any separately stipulated complete-trace or missing-data rule to the obligation it governs.
 
 #### F.16:8.1 - Applying the canvas to a multi-source availability case
 
@@ -96,7 +94,7 @@ If the case uses an indicator, apply E.13 only when that indicator is optimized 
 
 **Result.** A System performs evaluation Work, enacts the evaluation Method, and applies the declared availability rule to June's in-scope observations. The A.6.1 application binds those inputs and returns a result on the declared acceptance scale.
 
-Map the result to `RequirementStatus=Satisfied` or `RequirementStatus=Violated` only through the exact F.10 rule. If the evidence is inadequate, use `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or return the exact local result declared by the scale.
+Map the result to `RequirementStatus=Satisfied` or `RequirementStatus=Violated` only through the exact F.10 rule. When the available evidence permits both threshold outcomes, state what remains open. Report `EvidenceStatus=Inconclusive` or `RequirementStatus=Pending` only when the corresponding F.10 rule supports that status. Preserve any result the local acceptance scale prescribes.
 
 Create a verdict episteme only if another use needs it. State whether the promise was met, was not met, or cannot yet be judged from the evidence. The approved runbook establishes none of these results or statuses.
 

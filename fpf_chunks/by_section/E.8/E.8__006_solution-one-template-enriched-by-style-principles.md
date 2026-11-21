@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 102884
-line_end: 103620
+line_start: 103073
+line_end: 103809
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -84,7 +84,7 @@ Authors **MAY** add sections. Prefer expressing them as subsections under the ne
 2. **Problem**
 3. **Forces**
 4. **Solution**
-5. **Archetypal Grounding** (Tell-Show-Show; at least one content-bearing grounding slice, reduced grounding case, or ordinary/non-use boundary)
+5. **Archetypal Grounding** (E.7; show the decision in a fitting passage, case, comparison or ordinary/non-use boundary)
 6. **Bias‑Annotation**
 7. **Conformance Checklist**
 8. **Common Anti‑Patterns and How to Avoid Them** (grounded misuse, text-invited misreading, or a decision-relevant non-use boundary under `CC-SG.11`)
@@ -347,7 +347,7 @@ Finish with the chosen title and its truthful discovery cue. Keep the PatternID 
 | S-12 | Full claims over tags | Use a clause when a list item carries a claim or action. Labels, values, and locally complete steps need no artificial subject-and-verb expansion. Item count and sentence count are not verdicts. Use the `F.19` contribution and list tests. |
 | S-13 | SoTA-Echo structure | Name the practice question, selected best-known line, serious alternative or default, defect overcome, exact pattern mutation, source roles and limits, and reopen condition. Assign roles from answer-changing content, not authority, prevalence, freshness, or praise. An official source may be the best-known line if its answer wins. Lineage-only and identity/currentness-only material stays outside. |
 | S-14 | Didactic-content sufficiency | New and substantially revised patterns carry enough didactic content to be teachable without nearby project notes. |
-| S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice. Scenario names alone are not enough. |
+| S-15 | Ground an account of change | Identify what bears the changed property and show what establishes the change under the relevant conditions. For a change to a publication, select evidence for the property in question. Compare the relevant passages when the reader must recover a change of wording, meaning or argument. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
 | S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith. Planning shorthand and review-context dependencies are not admissible in pattern prose. |
 | S-18 | Intended-reader discipline | Address the intended framework user. Explain the Methods, their organization, alternatives, costs, and use-changing reasons in the public body. Keep current development, review, evaluation, projection, and landing correspondence in its own carrier under `E.8:4.2.3`. |
@@ -399,11 +399,11 @@ If the recognition text says “this pattern helps with a bounded working situat
 If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition text.
 It is not enough for universality to appear only later in a guidance or check sheet, declaration block, or `SoTA-Echoing` rationale.
 Make a broad claim recognizable through **heterogeneous reader or domain situations adequate to the claimed breadth**. Vary the reader when the claim concerns who can use the explanation. For a claim across disciplines, explain what enables the same operation or inference in the receiving disciplines. One argument can cover all disciplines that meet its premises. Where that depends on a disciplinary premise, show what establishes it in the receiving practice. The separate three-domain minimum in `A.8` applies to universal-core U-kind admission.
-When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
+When a compact matrix helps readers recognise the method across disciplines, F.16 is the preferred template. Show what each situation illustrates and what warrants the method across the claimed range. The general argument can be given within a worked case. When examples share a constraint or supply different premises of one conclusion, show how those premises support it together.
 If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
 
 **Additional didactic scaffolding** helps readers with a particular interpretation or learning difficulty after the necessary instruction is present. Useful additions can include:
-- at least one concrete source and resulting-publication slice in Archetypal Grounding when the pattern defines or constrains transforms or publication change;
+- grounding that shows the subject of a change, what changed and the grounds for that conclusion. Evidence for a change in an illustration, wording or access condition depends on the property at issue.
 - at least one boundary-heavy example or anti-example when nearby or companion patterns are easy to confuse;
 - reviewer guidance that says what to inspect first, names the neighboring FPF pattern that defines or constrains the failure mode, and gives the project-side FPF kind and reference by value for the claim or effect;
 - local mini-definitions or glossary material for recurring terms that would otherwise be recovered only from project context.
@@ -584,11 +584,11 @@ The raw/result prototype, the source-qualified comparison and the reduced single
 
 Determine the content owed to the reader from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation.
 
-Choose the check that fits the reader's promised use. For a conclusion about a holon drawn from its constituents, keep the level of model abstraction fixed. Could everything said about a constituent be true while the whole fails to do what the text promises? For a claim extending beyond one occurrence, compare like structural scopes, such as one whole office with another whole office. Could the occurrence be as reported while another permitted condition defeats the proposed rule? Where an explanation makes both moves, supply the missing connection and the grounds for the rule throughout its claimed use. A bounded account of one occurrence may already meet the reader’s need. For a claim across levels of composition, C.39.WA:4.2 explains how to establish that a relation holds at each eligible level or how work across levels produces a joint result.
+Choose the check that fits the reader's promised use. To isolate an inference from a constituent to a whole, compare the two at a fixed level of model abstraction where that comparison is meaningful. Could the statement about the constituent hold while the whole fails to do what the text promises? To isolate the reach of a rule across instances, compare like structural scopes and vary the permitted circumstances. When the question requires models at different levels of abstraction as well as several scales or kinds of holon, identify which distinctions the models of the parts preserve and which dependencies the conclusion about the whole requires. Separate models can allow each part to take either of two states while leaving open whether the parts may take the same state together. A conclusion about their joint behaviour needs that missing relation, or grounds that the answer holds for every permitted combination. C.39.SA:4 helps select the scopes, C.39.WA:4.2 deals with relations across composition scales, and C.37.MM:4.1.1 connects the models for that decision.
 
-A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case.
+A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case. Use C.39.GA to check and repair a missing general argument before relying on the example to teach it.
 
-When the promised capability is to choose and connect ranges, recover the choice still open to the learner after they received the commission and any help available before they decided. The heading, diagram or table may already identify the holon kinds, the whole and constituents, the level of model abstraction or the link that settles the decision. Credit the reader for the choices their own work supports. Give them the commission and usable information with the promised choices open when testing independent construction. Explain positively how to make those choices and use their connections under C.37.MM:4.1.1. When one illustration is removed, the reader should still be able to recover the method, its reach and the work it enables. Evidence of performance on that assignment can then be judged at the reach it actually covers.
+When the promised capability is to choose and connect ranges, recover the choice still open to the learner after they received the commission and any help available before they decided. The heading, diagram or table may already identify the holon kinds, the whole and constituents, the level of model abstraction or the link that settles the decision. Credit the reader for the choices their own work supports. Give them the commission and usable information with the promised choices open when testing independent construction. Explain positively how to make those choices and use their connections under C.37.MM:4.1.1. Vary the particular circumstances while keeping the author’s argument available, including a general derivation within a single illustration. Can the reader recover how to choose the ranges, connect them for the same decision and establish where that method works? Evidence of performance on that assignment can then be judged at the reach it actually covers.
 
 When the reader is learning to model a domain, say what the reader must do with the domain's own types. For a transdisciplinary principle, explain which distinction applies to those types, how to recognize the relation and what inference it warrants. For a domain principle, supply the field's own rule and its conditions. If the intended result is a way of working, explain how to select or construct the next operation, what it produces, and which dependent choices to revisit when its grounds change. A single publication may teach all of these. On unfamiliar material, ask the reader to select, relate or revise the local types and use them to reach a result in the recipient's terms. A worked case makes that reasoning inspectable. C.39.WA:4.3 distinguishes the relations used in such inferences.
 

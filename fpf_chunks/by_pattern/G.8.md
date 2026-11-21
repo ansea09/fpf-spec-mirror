@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.8.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
-line_start: 139494
-line_end: 139975
+line_start: 139713
+line_end: 140194
 dependencies:
   - "A.10"
   - "A.21"
@@ -181,7 +181,7 @@ SoS-LOGBundle@Context :=
 
   // Scope + spec pins (from GCorePinSetId.PartG.AuthoringMinimal)
   CG-FrameContext,
-  entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
+  entityOfConcern, GroundingHolon?, ReferencePlane, // subject of the LOG claim, empirical ground when used, and plane
   CNSpecRef.edition,
   CGSpecRef.edition,
 

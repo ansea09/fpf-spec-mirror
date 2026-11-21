@@ -6,18 +6,19 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:6 — Worked Cases"
-line_start: 5583
-line_end: 5643
+line_start: 5606
+line_end: 5668
 dependencies:
   - "A.1"
   - "A.15"
   - "A.2.3"
   - "A.2.6"
   - "C.2.1"
+  - "C.32.MWA.PP"
   - "E.23.CDI"
 keywords:
   - "Method-relative capability"
@@ -77,6 +78,8 @@ The deployed System is the holder; the algorithm paper and MethodDescription are
 `FinanceDept` can close books for eight legal entities under IFRS with ERP v12, staffing at or above six qualified people, and close duration below five business days. That is a capability of the organizational system.
 
 The monthly-close service promise is a promise-content claim. The actual close for March 2026 is performed Work. Staff assignments and their `SystemRoleAssignmentStateRelation` occurrences are neighboring claims. The capability statement keeps the department's ability measurable; a management report asserting it is an episteme about the department.
+
+Suppose two divisions ask the department to close eight separate entities each in the same five-day period. Its established ability covers eight. If both requests are allowed to fall due together, accepting each on that basis leaves the promise of sixteen open. If the documented ability covers any permitted mix of up to eight, a binding common limit of eight can make a joint promise possible. The allocation must follow an authorized rule and reach the department in time to act. Its staff must be available under the conditions of the assessment. If the evidence covers only the original eight entities, coverage of a different mix remains open. If the divisions instead need copies of the same close for the same eight entities, one close can serve both once the terms permit reuse and each can receive its copy by its deadline.
 
 #### A.2.2:6.4 - Episteme Anti-Case
 

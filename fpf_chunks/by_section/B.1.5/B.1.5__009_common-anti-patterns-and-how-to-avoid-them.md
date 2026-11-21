@@ -6,12 +6,12 @@ section_id: "B.1.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44250
-line_end: 44265
+line_start: 44290
+line_end: 44305
 dependencies:
   - "A.1"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 | --- | --- |
 | "The workflow diagram is the composite Method." | First govern the diagram as `U.MethodDescription` or another representation; identify the candidate and part Methods under A.3.1, then test `methodPartOf`, whole-forming claims at their A.6.RCD dispositions, whole semantics, boundary, and reidentification. |
 | "Step A is part of the Method because it is a box." | Recover whether the box denotes a `U.Method`, description node, plan item, Work occurrence, claim, or lens expression; test `methodPartOf` only for an independently identified Method. |
-| "Parallel branches can join because the picture rejoins." | State the independence, downstream precondition, join, any adapter or correspondence, and failure route in ordinary language; use A.6.RCD's lightest sufficient disposition and open a relation kind only for an independently accepted occurrence-semantics need. |
+| "Parallel branches can join because the picture rejoins." | State which branches may proceed in either order, what the receiver needs from them and which combinations satisfy that need. If the Method requires a join, specify its condition, any necessary correspondence and what becomes possible or remains blocked when it fails. Use A.6.RCD's lightest sufficient disposition. |
 | "The production plan lists five Methods, so the practice has five stages." | Preserve any setup, handoff, or continuation order. Then test the representative Work: Methods may contribute together in one Work whole or in overlapping Work occurrences. The plan's row order establishes neither a total sequence nor a subject level. |
 | "The selector table is the Method." | Use `G.5` for the selector. Select an A.22 structure when the receiving use needs that organization and all four discriminators are established; otherwise retain the sufficient local comparison. A composite Method needs its construction and whole-level commitments. |
 | "The run proved the method structure." | Record the run as `U.Work`; relate it to the method through `enactsMethod` and use evidence only through its governing relation. A successful run neither creates method parts nor settles reidentification. |

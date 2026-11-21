@@ -6,12 +6,12 @@ section_id: "A.2.6:21"
 section_title: "Relations - Cross-Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__022_relations-cross-pattern-coordination.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:21 — Relations - Cross-Pattern Coordination"
-line_start: 7940
-line_end: 7967
+line_start: 7962
+line_end: 7989
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 #### A.2.6:21.3 - With Work & Run (A.15)
 
 * **Work scope** delimits the exact job slices on which a capability's deliverability claim is evaluated.
-* Method–Work gates use **Work scope coverage** plus **measures** and **qualification windows**.
+* Method–Work gates establish Work scope coverage, satisfaction of the required result or measure, and qualification for this use. Apply a qualification window when the governing rule specifies one.
 
 #### A.2.6:21.4 - With exact F.9 Bridge occurrences
 
@@ -56,6 +56,6 @@ keywords:
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)
 
-* For operational capability use, the capability declaration MUST identify **Work scope**, **measure bounds** and the applicable **qualification-window policy**; gates MUST check coverage, target satisfaction and qualification under §10.3.
+* For operational capability use, identify the holder's **Work scope**, the **required performance criterion** and the **basis for current reliance**. Apply §10.3 to coverage, target satisfaction and qualification. Use the applicable units, bounds and validity periods where specified. A.2.2:3 governs the further inference from individual fits to the work that can be supplied together.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
 

@@ -6,12 +6,12 @@ section_id: "C.39.QR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:11 — SoTA-Echoing"
-line_start: 87621
-line_end: 87632
+line_start: 87672
+line_end: 87685
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -21,6 +21,8 @@ keywords:
 ---
 
 ### C.39.QR:11 - SoTA-Echoing
+
+Stanley and Szabó examine how the conversational setting can restrict the domain of a literal quantifier. McCarthy and Carter's corpus study distinguishes exaggeration in conversation through the surrounding turns and the speaker's purpose. Section 4.1.1 uses these observations to recover the commitment before testing it. Its echo question is a practical prompt. [On Quantifier Domain Restriction](https://doi.org/10.1111/1468-0017.00130) · [“There's millions of them”](https://doi.org/10.1016/S0378-2166(03)00116-4)
 
 The practice question is how to preserve an encompassing question through partial work and warranted appraisal at a burden suitable for repeated use. The selected line is the explicit connection in section 4 of question recovery, typed inference, adequacy comparison, constructive return and attention at consequential occasions.
 

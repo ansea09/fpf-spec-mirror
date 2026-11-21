@@ -6,12 +6,12 @@ section_id: "A.15.PROD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:4 — Solution"
-line_start: 34339
-line_end: 34549
+line_start: 34379
+line_end: 34589
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,7 +37,7 @@ keywords:
 
 ### A.15.PROD:4 - Solution
 
-The practitioner **MUST** choose one of the three production questions, name the Work and the affected referent, candidate basis, or produced entity involved, and gather only the facts that decide that question. The practitioner **MUST** state each answer as a separate local compound relation-bearing claim and **MUST** stop or return a blocker when a required predicate, criterion, applicability rule, boundary fact, work granularity, or transformation-composition rule is missing.
+The practitioner **MUST** choose one of the three production questions, identify the subject of the requested claim and gather the facts that decide it. Identify the Work when attributing a change or closing production. The practitioner **MUST** state each answer as a separate local compound relation-bearing claim and **MUST** stop or return a blocker when a required predicate, criterion, applicability rule, boundary fact, work granularity, or transformation-composition rule is missing.
 
 When the receiving use needs the separately referable claim, identify its C.2.1 episteme. When the receiving use also depends on availability to an audience through a form or carrier, establish the separate E.24.PUB publication occurrence.
 
@@ -50,7 +50,7 @@ One branch neither inherits facts from another nor turns the common method into 
 | Question | Claim content | Ordinary stopping result | What it does not establish |
 | --- | --- | --- | --- |
 | Production-work participation | `currentWork` is `productionWork`, or `currentWork` is a declared proper work part of `productionWork` | one local positive or negative compound claim, or a work-grounding blocker | entity inception, completion, delivery, acceptance, or a universal production-work kind |
-| Entity-identity inception | governed effects of `identityClosingWork` made `producedEntity` satisfy the rule in applicable `productIdentitySpecification` for the first time at `inceptionBoundary` | one local inception claim after the entity exists, plurality of incomparable minimal claims, or a blocker | production completion, later persistence, acceptance, or a reusable binary relation kind |
+| Entity-identity inception | `producedEntity` first satisfied the applicable `productIdentitySpecification` at `inceptionBoundary`. Attribution also identifies the governed effects of `identityClosingWork` | the first time or a supported bound on it. When attributing inception, the supported Work claim or claims, or the missing ground | production completion, later persistence, acceptance, or a reusable binary relation kind |
 | Production completion | `completionSubject` satisfies applicable `productionCompletionCriterion` at `completionBoundary`, and a separate declared closure predicate or local claim connects that satisfaction to `productionWork` | one state-satisfaction claim plus, when asserted, one historically indexed Work-completion claim; otherwise the closure blocker | entity inception, delivery, acceptance, release, publication, or availability |
 
 The three claims may cite overlapping facts. They remain different claims because they answer different receiving questions and can have different boundaries, criteria, and truthful C.2.1 `EntityOfConcern` values.
@@ -118,7 +118,7 @@ If the selected production claim uses only independently identified transformati
 
 Plain: **when this entity first exists**. `inceptionBoundary` is a case-local boundary designator, not a second technical term, claim kind, or relation kind.
 
-For this branch, the practitioner **MUST** complete all five steps:
+For a question about time, recover the applicable identity rule, its candidate basis and the period that could contain first existence. Establish that the rule held at the proposed boundary and that every earlier admissible boundary is excluded. A complete history of the relevant state can establish this time even when the worker is unknown. If only a later satisfying state is known, report existence by that time. When the recipient asks for the Work that brought the entity into existence, complete the following five steps:
 
 1. recover `productIdentitySpecification` as one C.2.1 predicate-definition episteme in the subject pattern that states the identity rule.
 
@@ -190,7 +190,7 @@ Open author-side semantic replay only when A.6.RCD:4.2 requires a substrate pin�
 | Branch | Least constructor over governed base claims | Hidden-participant, polarity, and time policy |
 | --- | --- | --- |
 | production-work participation | one typed conjunction over A.15.1 work identity, actual method enactment, method applicability and intended production effect, affected referent, direct work-to-change facts, the receiver's current criterion, and either work identity or one A.15.1 proper-part relation | every participant and conjunct remains named; no projection hides work, transformation, or criterion witnesses; a negative result requires the selected substrate's explicit negation law rather than absence of a base assertion |
-| entity-identity inception | one time-indexed conjunction over identity-specification applicability, work and governed effects, direct work-to-change and change-to-identity links, and satisfaction of the applicable identity predicate, followed by the substrate's earliest-satisfying-boundary selection over its declared ordered candidate-boundary domain | the candidate basis remains distinct from the after-side entity; work parts and actual transformations remain named or follow the substrate's explicit witness policy; incomparable minimal work composites remain plural, and A.15.PROD supplies no arbitrary minimization rule |
+| entity-identity inception | select the first boundary satisfying the applicable identity rule over the declared ordered domain. For attribution, include the Work, its governed effects and the Work-to-change and change-to-identity links that establish which Work brought this first satisfaction about | the candidate basis remains distinct from the after-side entity; work parts and actual transformations remain named or follow the substrate's explicit witness policy; incomparable minimal work composites remain plural, and A.15.PROD supplies no arbitrary minimization rule |
 | production completion | one boundary-indexed conjunction first states criterion satisfaction for `completionSubject`; a second conjunction states `productionWork`, that satisfaction claim, and the declared closure predicate or local closure rule | the claims keep their different entities of concern; no earliest-boundary operator is implied unless separately required, and missing closure semantics preserves satisfaction while blocking only Work completion |
 
 For DPF or FPF authoring and every other pin-triggering use, the responsible author or modeler **MUST** name the selected substrate and edition and replay its constructor inputs, output claim, applicability, hidden witnesses, polarity law, and temporal policy.

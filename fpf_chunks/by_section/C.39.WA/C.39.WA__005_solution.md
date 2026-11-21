@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87676
-line_end: 87821
+line_start: 87729
+line_end: 87874
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -40,7 +40,7 @@ The reviewer forms this expectation from the request and necessary subject groun
 
 #### C.39.WA:4.2 - Construct the organization the account must explain
 
-Recover or propose what connects the relevant contributions. Follow the required understanding or result backward to the objects, actions, relations and conditions on which it depends, then explain the proposed organization forward. C.39:4.2–4.3 supplies this constructive return when an operation or join is missing.
+When the explanation leaves open which parts and enclosing wholes to follow or which alternatives their models must distinguish, choose them for the reader’s task under C.39.SA:4. Recover or propose what connects the relevant contributions. Follow the required understanding or result backward to the objects, actions, relations and conditions on which it depends, then explain the proposed organization forward. C.39:4.2–4.3 supplies this constructive return when an operation or join is missing.
 
 For a Method, explain inputs, actions, choices, intermediate results, common conditions, alternatives and returns. A branch is usable when the reader can distinguish its applicability; an iteration needs a reason to continue and a condition for stopping.
 
@@ -134,7 +134,7 @@ Distinguish the operations needed for that return. Synthesis connects contributi
 
 Describe what the candidate explains, temporarily setting aside its title, field label and declaration of completeness. Compare that content with the expectation from section 4.1 across the assigned scope. Inspect the general construction and its relations as well as local claims. Recover what the cases concretize and which consequential variations of the declared subject they expose. Compare the knowledge and operations available in the general account with those displayed in its cases.
 
-If following a running case has shifted attention to its application domain, restore the explanation of the Method being taught and the return from its performance. Retain the useful case content.
+When the account solves a narrower problem and leaves the more general inference unwritten, use C.39.GA to find that step, restore its grounds and recheck the dependent conclusions. Keep the parts of the case that show how the inference works.
 
 For an account of a principle, identify the relation the reader can recover and the decisions it supports when relevant conditions change. A single worked example can supply the whole explanation if it gives the argument for that range. If a completed case shows how someone used an already chosen rule, accept that demonstration. When the commission also asks how to construct the rule, return the account for the missing choices and their grounds. An explanation of why one particular event occurred can be complete once it establishes the requested connection for that event.
 

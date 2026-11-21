@@ -6,12 +6,12 @@ section_id: "C.40.JF:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__002_problem-frame.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:1 — Problem Frame"
-line_start: 92358
-line_end: 92367
+line_start: 92545
+line_end: 92554
 dependencies:
   - "A.10"
   - "A.15.9"

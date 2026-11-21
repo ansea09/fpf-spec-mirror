@@ -6,12 +6,12 @@ section_id: "A.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:intro — Intro"
-line_start: 6994
-line_end: 7028
+line_start: 7019
+line_end: 7055
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -40,7 +40,7 @@ keywords:
 
 **Use this pattern when** a receiving action needs to decide whether a claim, capability, or publication use covers one combination of standards, environment, local sense, platform, cohort, or time selectors.
 
-**First useful move.** Name the claim, its `U.ClaimScope`, and the target `U.ContextSlice`; evaluate membership. Stop on `false`. On `unknown`, obtain the missing evaluation input, narrow the attempted use, or abstain. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, follow §7.5: name the obtaining F.9 Bridge and separate affirmative C.2.1 claim for this translation, then establish the A.10 evidence basis and applicable reliance condition before using the translated scope.
+**First useful move.** Identify what must cover the target `U.ContextSlice`. Use `U.ClaimScope` for a claim, `U.WorkScope` for the work conditions covered by a qualified ability claim, and `U.PublicationScope` for use of a publication. Test the slice against the selected scope. A `false` result rules out relying on that coverage. On `unknown`, obtain the missing input, use the grounds available for a narrower conclusion, or leave the membership question open. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, follow §7.5: name the obtaining F.9 Bridge and separate affirmative C.2.1 claim for this translation, then establish the A.10 evidence basis and applicable reliance condition before using the translated scope.
 
 For example, a workshop report supports a claim about checks made with a specified gauge, drawing revision and inspection period. Take the proposed job's values for these selectors as one slice and ask whether that slice is in the report's claim scope. The stool identified on the job card is the object being inspected. It can belong to the furniture kind used by the drawing, irrespective of whether this report covers the inspection. Two accepted checking methods might both work under the proposed conditions, or neither might work. A method can also work on jobs represented by several slices. Establish applicability from each method's rule, choose using the job's requirements when a choice is needed, then establish separately which method the technician used. Even a scope containing just one slice represents coverage. Its membership test does not perform any of these selections.
 
@@ -57,6 +57,8 @@ For example, a workshop report supports a claim about checks made with a specifi
 * For system capabilities, the only **scope type** is **`U.WorkScope`**.
 * For publication views or forms, the only **scope type** is **`U.PublicationScope`**.
 * The abstract architectural notion is **`U.Scope`** — a durable scope value identified extensionally through one exact `ContextSliceSet` value under the effective reference scheme. Intersection, SpanUnion, translation, widening, and narrowing operate on those extensions; refit changes an expression without changing the extension. `U.Scope` is **not** a `U.Characteristic` and MUST NOT appear in any `CharacteristicSpace`.
+
+In “every team signed”, the teams are the domain of the quantifier. Which teams signed is part of the content of the claim. In USM, a `U.ClaimScope` specifies the context slices where that claim applies. A single slice may include a claim about many teams. Checking that a slice belongs to the scope leaves the signatures to be established. To interpret “every” in an utterance, use C.39.QR:4.1.1.
 
 Use source terms such as *applicability*, *envelope*, *generality*, and *capability envelope* with their domain meanings. When they designate an FPF scope value, identify its kind through the names above.
 

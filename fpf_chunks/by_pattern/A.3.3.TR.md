@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.TR.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
-line_start: 12965
-line_end: 13205
+line_start: 12989
+line_end: 13229
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"
@@ -183,7 +183,7 @@ For nonnegative integers a and b with `a >= b > 0`, use integer division `a = k*
 
 From (30,18), the successive states are (18,12), (12,6), (6,0). The terminal result is 6. The second component is a nonnegative integer and decreases at every nonterminal step, establishing termination.
 
-By comparison, repeatedly swapping the two arguments also preserves their greatest common divisor but can alternate forever. Preservation alone did not establish progress. The Euclidean rule adds the remainder operation and a decreasing quantity.
+Keep the same inputs and stopping condition. A rule that returns `(a,b)` unchanged whenever `b > 0` preserves every common divisor at every step. From any such input it runs forever. What establishes termination for the Euclidean rule is the decrease of `b` within the nonnegative integers.
 
 This is a transition account for a mathematical construction. An implementation must supply integer operations with the assumed meanings; using a bounded machine representation introduces its own arithmetic conditions.
 

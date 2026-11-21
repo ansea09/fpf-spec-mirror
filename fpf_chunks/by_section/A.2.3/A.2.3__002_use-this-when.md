@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_use-this-when.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:0 — Use This When"
-line_start: 5779
-line_end: 5798
+line_start: 5805
+line_end: 5824
 dependencies:
   - "A.2.2"
   - "A.2.8"
@@ -39,7 +39,7 @@ Typical moments:
 
 - an SLA publication, service catalog, product offer, public API promise, utility offer, or government-service description contains a statement about what a consumer may rely on;
 - a team says "the service" but might mean promise content, provider organization, API, access point, delivery system, method, ticket, or performed work;
-- a fulfilment claim needs evaluation work that applies declared acceptance criteria to delivery-work facts, affected entities and post-work states, and any delivery or acceptance relation current for the use; the actual evaluation-operation result binding, optional verdict episteme, and A.10 evidence relations remain separate;
+- to judge fulfilment, apply the declared acceptance criteria to the delivery-work facts, affected entities and post-work states, and any delivery or acceptance relation the criteria require. Establish a particular evaluation Work when the criterion requires that performance or the claim concerns it. Its operation result, any verdict episteme and A.10 evidence relations each have their own grounds;
 
 **Primary EntityOfConcern.** The EntityOfConcern of this pattern is `U.PromiseContent`: a consumer-facing promise-content episteme. For each PromiseContent episteme, the exact C.2.1 EntityOfConcern is the A.2.3:4.1.1 `OutcomeSpec` episteme designated by `promisedOutcomeSpecRef`. Its claim graph states the promised outcome, any eligibility predicate, and acceptance claims; `accessSpec` separately describes the access method when that description is current.
 

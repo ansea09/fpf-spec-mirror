@@ -6,12 +6,12 @@ section_id: "C.40.JD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:intro — Intro"
-line_start: 93336
-line_end: 93341
+line_start: 93523
+line_end: 93528
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

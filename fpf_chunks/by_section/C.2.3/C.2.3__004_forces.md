@@ -6,12 +6,12 @@ section_id: "C.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__004_forces.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:3 — Forces"
-line_start: 55500
-line_end: 55510
+line_start: 55538
+line_end: 55548
 dependencies:
   - "A.16"
   - "A.18"

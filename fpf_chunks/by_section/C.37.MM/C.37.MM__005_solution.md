@@ -6,12 +6,12 @@ section_id: "C.37.MM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:4 — Solution"
-line_start: 86794
-line_end: 86836
+line_start: 86833
+line_end: 86875
 dependencies:
   - "B.5.MR"
   - "C.2.1"
@@ -30,7 +30,7 @@ When several models concern the same entity, establish its identity across them.
 
 ##### C.37.MM:4.1.1 - Choose and connect the required ranges
 
-Start with what the recipient has to decide or obtain. Work back from the conditions for that result. Where a choice is open, identify a difference that would change it. The commission may specify the ranges to consider or leave their selection to you.
+Start from the composition scales and model distinctions the decision calls for. If choosing a range is part of your task, use C.39.SA:4. If the intended recipient must choose, make the method and evidence for that choice available to them. In a multimodel, establish what each model contributes and how those contributions can hold together.
 
 1. Identify the types of entities and actions that can affect that result. For each relevant kind of holon, follow its own composition as far as the decision needs. A system has integrated components. A composite Method admits particular Methods under its construction rule. For composite dated Work, establish which actual performances did a constitutive part of that very job. An overlapping or earlier performance can help without belonging to it. An episteme can depend on several claims with a common ground. For a discipline, identify the knowledge and practice its working arrangement integrates. A part, an available alternative and an external supplier can play different parts in the decision.
 2. For each inference, identify what its model can leave open. Which alternatives must remain distinguishable for this inquiry? Can a general rule settle it throughout the stated range? Use B.5.MR when comparing models towards greater abstraction or refinement. You can change the scope of composition while holding model abstraction fixed, or compare models of the same whole while holding its composition in view.

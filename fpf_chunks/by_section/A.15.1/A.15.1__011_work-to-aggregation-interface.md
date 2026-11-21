@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Work-to-aggregation interface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_work-to-aggregation-interface.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:9 — Work-to-aggregation interface"
-line_start: 30739
-line_end: 30772
+line_start: 30779
+line_end: 30812
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,8 +64,8 @@ For utilization, lead time, cycle time, phase coverage or another temporal roll-
 
 When the `B.1.4` result selects the Work-interval profile, retain these use-specific choices:
 
-* **Union of intervals** for utilization or availability: preserve every covered instant and do not count overlap twice.
-* **Convex hull** `[min t_start, max t_end]` for lead time or cycle time: preserve elapsed span from first start to last end, including gaps.
+* **Union of intervals** gives the instants covered by at least one contributing interval. For time occupied or available, use intervals for which that specific resource status is established. For the fraction in that status, choose a denominator covering the same resource and assessment period.
+* **Convex hull** `[min t_start, max t_end]` gives the span of the selected intervals, including their gaps. To use this span as lead time or cycle time, establish that its endpoints coincide with the events named by that measure. If a request precedes the first work or delivery follows the last work, measure request-to-delivery time from those events.
 * **Declared algebraic behavior:** for either exact set-based policy, duplicate input is idempotent, input order is irrelevant, and adding intervals cannot shrink the union or hull. If another policy lacks those properties, name it rather than borrowing the union/hull result.
 
 Never switch union and hull silently between KPIs. The formulas above profile a recovered B.1.4 aggregation over Work intervals; the selected B.1.4 claim, not A.15.1, states the temporal result.

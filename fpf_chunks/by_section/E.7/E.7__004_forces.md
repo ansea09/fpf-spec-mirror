@@ -6,24 +6,22 @@ section_id: "E.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__004_forces.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:3 — Forces"
-line_start: 102687
-line_end: 102694
+line_start: 102884
+line_end: 102891
 dependencies:
-  - "E.5.4"
   - "E.6"
-  - "E.8"
 keywords:
 ---
 
 ### E.7:3 - Forces
 
-| Force | Tension |
-|-------|---------|
-| **Universality vs Concreteness** | How can concrete examples explain an abstract rule without making its scope seem limited to the illustrated cases? |
-| **Brevity vs Clarity** | The specification should stay concise, but two examples add length. |
-| **Rigour vs Accessibility** | How can an intuitive account convey the formal semantics? |
+| Force | Question for the author |
+|---|---|
+| Generality and grounding | Which relation warrants the conclusion throughout its stated application, and where can the reader see it at work? |
+| Scope and attention | Which wholes, constituents or interactions must the reader consider? At each relevant scale, which alternatives must the model distinguish? |
+| Brevity and explanation | Does the reader already have the grounds for the answer? What would a further illustration let them decide? |
 

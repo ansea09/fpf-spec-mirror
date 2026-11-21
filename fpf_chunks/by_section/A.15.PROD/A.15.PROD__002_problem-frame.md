@@ -6,12 +6,12 @@ section_id: "A.15.PROD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__002_problem-frame.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:1 — Problem Frame"
-line_start: 34274
-line_end: 34317
+line_start: 34314
+line_end: 34357
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ Keep each in its own C.2.1 episteme when persisted; never manufacture a union co
 **First useful move.** The practitioner **SHOULD** first ask which answer the receiving action or decision needs now:
 
 1. Is this dated Work the whole production Work for this use, or a declared proper part of it?
-2. Which identity rule applies to the candidate, and at what boundary did changes attributed to this Work first make that rule true so this entity began to exist?
+2. Under the applicable identity rule, when did this entity first exist? If the recipient also asks which Work brought it into existence, establish how that Work changed the conditions in the rule.
 3. Which subject state satisfies the applicable completion criterion, and which declared predicate or local claim makes that satisfaction close the production Work at this boundary?
 
 The practitioner **MUST NOT** substitute one branch's conclusion for another branch's answer. Shared facts may support more than one branch only through each branch's own predicate and applicability.
@@ -64,7 +64,7 @@ The practitioner **MUST NOT** substitute one branch's conclusion for another bra
 | Recognition situation | First current question | Blocked overread |
 | --- | --- | --- |
 | A fastening step is said to have "produced Car 42". | Is the step whole production work or a proper part, did Car 42 already exist, and which completion criterion is current? | The last visible step establishes neither first existence nor completion by narrative order. |
-| A culture run or spontaneous biological process is said to have "produced Batch B17". | Does the case satisfy the common performer/Work route in section 4.2; only then, which identity or completion branch is current? | Growth or reaction may ground a transformation, while production through Work requires independently admitted Work and its own attribution basis. |
+| A culture run or spontaneous biological process is said to have "produced Batch B17". | Does the user need the first time the batch existed, the time it met a state criterion, or attribution to particular Work? For attribution, apply the performer and Work route in section 4.2. | Growth or reaction may ground a transformation, while production through Work requires independently admitted Work and its own attribution basis. |
 | A build pipeline is said to have "produced ReleaseBinary 12". | Which dated build work and governed effects first established the artifact identity, or satisfied the build-completion criterion? | Build success, publication, release, deployment, and availability remain different claims. |
 
 **First worked replay — Car 42.** Apply the common performer/Work route in section 4.2 to `FasteningCell-7`, `NutFasteningWork-42`, and their enacted fastening Method. The named Work-to-change predicate, finishing-state criterion, and separate closure rule establish that the Work completed the required fastening; Car 42 already existed. A missing Work-to-change or Work-closure governor returns the blocker shown in case 5.1 while preserving the independently established Work, transformation, or state-satisfaction claim.

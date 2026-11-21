@@ -6,12 +6,12 @@ section_id: "F.12:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__010_micro-examples.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:9 — Micro-examples"
-line_start: 131111
-line_end: 131130
+line_start: 131302
+line_end: 131321
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,14 +54,14 @@ keywords:
 * **Promise content:** availability ≥ 99.9% for the named service scope in June.
 * **Delivery Work population:** the in-scope service-delivery occurrences during June, connected to the promise through the applicable A.2.3 relations.
 * **Evidence:** synthetic-probe observations, with regions and outage-detection coverage stated. If their measurement model directly concerns the promised availability characteristic, no proxy is added; otherwise the distinct probe-to-user indicator relation needs a defining or testing pattern.
-* **Evaluation:** a System performs evaluation Work; the exact application binds observed good time and total in-scope time and returns a value on the declared result scale.
-* **Status or summary:** map the result to `RequirementStatus=Satisfied` or `RequirementStatus=Violated` only when that F.10 rule applies. If the evidence basis is inadequate, use `EvidenceStatus=Inconclusive` and `RequirementStatus=Pending`, or the exact locally declared result. Plainly: met, not met, or cannot judge.
+* **Evaluation:** the evaluating System applies the rule to the June window. Verified good time gives a lower bound. Include any unclassified time that could still be good when finding the upper bound. Check whether either bound already settles the threshold, using the indicator relation and regional coverage above.
+* **Status or summary:** report whether the threshold was met, missed or remains open. Where a formal status is needed, apply the rule for that status and retain its basis.
 
 #### F.12:9.2 - Furnace temperature band
 
 The promise content states `[720,740] °C` during the soak phase. The delivery Work is the actual batch soak occurrence. Calibrated thermocouple observations either measure the product characteristic directly or use a separately defined sensor-location indicator relation.
 
-For this batch, evaluation Work applies the band rule and binds its result. An out-of-band result can support `RequirementStatus=Violated`; insufficient spatial evidence supports `EvidenceStatus=Inconclusive` and leaves the requirement pending unless the declared acceptance scale specifies another local result.
+For this batch, evaluation Work applies the band rule and binds its result. An out-of-band result can support `RequirementStatus=Violated` under its F.10 rule. If the spatial evidence permits both outcomes, report the limit. Use an evidence status or a local acceptance result when its own rule applies.
 
 #### F.12:9.3 - Incident restoration duration
 

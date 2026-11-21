@@ -6,12 +6,12 @@ section_id: "A.1.CSD:5"
 section_title: "Four First-Screen Situations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__007_four-first-screen-situations.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:5 — Four First-Screen Situations"
-line_start: 4057
-line_end: 4096
+line_start: 4069
+line_end: 4110
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -46,6 +46,8 @@ keywords:
 | A nutrient pulse in a bioreactor may change living and engineered Systems. | Trace supported feed and effluent relations separately from modal biological and operating paths, and recover actual whole/part facts. | Return the separate consequence claims and current limit; select spatial sampling, pressure observation, or effluent measurement only when their individual and combined contribution warrants the programme. |
 
 The same discovery action changes all four situations. Their domain Methods, quantities, evidence rules, and decisions remain different.
+
+For example, a district coordinator must notify every reading room whose official opening hours will change next week. The signed decision changes the hours of North and West and explicitly preserves the hours of every other room in the district. Comparing the new hours with the previous ones confirms that both changes qualify. North and West complete the list. If a staffing decision preserves every room's official hours, the complete list for that question is empty. To answer whether any visitor actually faced a closed door, use evidence of operation. The signed decision alone leaves that question open.
 
 #### A.1.CSD:5.1 - Minimally Viable Worked Case: Nutrient Pulse
 

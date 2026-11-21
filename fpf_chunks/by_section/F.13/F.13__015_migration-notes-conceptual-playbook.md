@@ -6,12 +6,12 @@ section_id: "F.13:14"
 section_title: "Migration notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__015_migration-notes-conceptual-playbook.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:14 — Migration notes (conceptual playbook)"
-line_start: 131511
-line_end: 131521
+line_start: 131702
+line_end: 131712
 dependencies:
   - "F.1"
   - "F.17"
@@ -36,10 +36,10 @@ keywords:
 
 1. **Recover the same meaning and use first.** Distinguish the expression from its exact cell and governed value. Use `renames` only for unchanged meaning and use; recover any subject change before settling the later name.
 2. **Keep aliases local.** Different semantic projections open F.9 only for a needed correspondence; the difference itself establishes no Bridge.
-3. **Prefer clarity over fashion.** Rename only when the new label offers a concrete recognition gain under F.5, such as removing an ambiguity.
+3. **Choose for the audience.** When proposing a new name under F.5, explain which actual reading difficulty it would resolve. An observed improvement in recognition requires a comparison with the previous form under relevant reading conditions.
 4. **Keep useful read-paths.** Preserve the legacy expressions readers need to interpret historical or continuing uses; keep unused synonyms out of the main presentation.
 5. **Keep historical reading clear.** For a rename, point from the legacy label to its preferred successor. For retirement without a single successor, point to the relevant meanings or rows.
 6. **Rows before names.** If a rename request coincides with a shift in what the row covers, **refactor rows** (F.7) first, then choose labels.
-7. **Edition changes.** Compare the affected definitions. If meaning changes, recover the subject-governed revision, replacement, split, merge or retirement and preserve the earlier claim. If meaning and use stay unchanged, rename only for a concrete recognition gain.
+7. **Edition changes.** Compare the affected definitions. When meaning changes, recover the revision, replacement, split, merge or retirement and preserve the earlier claim. If the source adopted a new designation for the same meaning and use, record that change and retain the historical alias. The new edition establishes its designation even when the audience preferred the old one.
 8. **Teach the delta.** In primers, show a **mini table** with legacy → preferred pairs only where readers will encounter both.
 

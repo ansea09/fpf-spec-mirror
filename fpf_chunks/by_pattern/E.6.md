@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.6.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
-line_start: 102592
-line_end: 102672
+line_start: 102791
+line_end: 102871
 dependencies:
   - "E.2"
 keywords:
@@ -82,7 +82,7 @@ This publication order does not require readers to traverse every Part. Practica
 | ID | Requirement |
 |----|-------------|
 | **CC‑DA.1** | Each Part **SHALL** open with a one-paragraph situational introduction before formal text. |
-| **CC‑DA.2** | Every architectural pattern **MUST** supply the grounding required by E.7: applicable System and Episteme illustrations, or the explicit single-substrate scope and justification under CC‑AG.3. |
+| **CC‑DA.2** | Every architectural pattern **MUST** ground its rule under E.7 in the practitioner's question, the kinds of things it concerns and the relation that warrants the answer. |
 | **CC‑DA.3** | Governance patterns (**Part E**) **SHALL NOT** appear before the Kernel in the main document flow. |
 | **CC‑DA.4** | Navigation aids **SHALL** distinguish document order from first-practical entry guidance. First-entry pattern-comparison guidance and expanded entry-disambiguation cases are informative and MAY cross Parts without implying a universal process history. |
 

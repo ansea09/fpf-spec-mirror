@@ -6,12 +6,12 @@ section_id: "A.19.USCM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 39974
-line_end: 39991
+line_start: 40014
+line_end: 40031
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

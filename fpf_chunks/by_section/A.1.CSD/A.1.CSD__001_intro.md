@@ -6,12 +6,12 @@ section_id: "A.1.CSD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:intro — Intro"
-line_start: 3913
-line_end: 3924
+line_start: 3915
+line_end: 3926
 dependencies:
   - "A.1"
   - "A.1.SCR"

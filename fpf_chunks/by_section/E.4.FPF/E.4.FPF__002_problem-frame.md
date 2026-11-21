@@ -6,12 +6,12 @@ section_id: "E.4.FPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__002_problem-frame.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:1 — Problem frame"
-line_start: 99080
-line_end: 99097
+line_start: 99273
+line_end: 99292
 dependencies:
   - "C.33"
   - "C.34"
@@ -52,6 +52,8 @@ Use this pattern when the work changes FPF publication units or forms—such as 
 Use it also when a skill-pack carrier or an MCP, retrieval, search, or assistant access route exposes the edition. When a public presentation carrier is in scope, use `E.11.PFP` for its common reader-facing form and this pattern for FPF-specific source selection and assembly.
 
 Use `E.4.DPF` when the framework is a domain or local framework grounded in FPF. Use `E.4` when the live question is only family placement and routing among framework members.
+
+If an edition needs new method content, use E.8:4.2.1.1 and :4.2.3 to write for the practitioner who must act. Use E.4.CM:4 when that practitioner needs a way to connect several contributions. An edition can faithfully reproduce a calculation whose author chose the model, while its intended reader still has to choose one for a new assignment. Follow that difference into the selected pattern before judging what its explanation supplies.
 
 A reader can identify the FPF edition, the reader-facing units and forms that expose it, and the exact presentation carriers that bear them. The account also tells the reader how to reach the edition and where to evaluate whole-FPF adequacy. A DPF or local framework may depend on FPF Core while remaining its own framework edition.
 

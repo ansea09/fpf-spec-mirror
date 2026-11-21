@@ -6,12 +6,12 @@ section_id: "A.15.PROD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__006_archetypal-grounding.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:5 — Archetypal Grounding"
-line_start: 34550
-line_end: 34734
+line_start: 34590
+line_end: 34774
 dependencies:
   - "A.1"
   - "A.10"
@@ -132,7 +132,7 @@ Delivery, class acceptance, and operational release remain separate. The sentenc
 
 #### A.15.PROD:5.3 - Nested and concurrent attribution
 
-**Work structure.** Factory work may contain project work, subassembly work, `identityClosingWork`, and completion-closing work. Every selected work-part relation remains explicit. Jointly necessary concurrent work parts use composite work under A.15.1.
+**Recover the joint contribution.** Begin with the identity rule for the particular product. Suppose the rule for a release requires the accepted bytes and a valid signed manifest for those same bytes in the store. Establish which Work supplied each and when the two conditions first held together. Identical service names and execution times could accompany a manifest for another build. That manifest would leave the rule unsatisfied. If both contributions were needed and both were performed within this production Work, identify the relevant composite under A.15.1. If an accepted manifest was already available and was reused, its availability contributes to the result. Attribute a new manifest-producing Work to this execution only on evidence that it occurred as part of it.
 
 **Plural minimal composites.** Two incomparable minimal work composites yield two local inception claims, each indexed by its identity-specification episteme and applicability basis. Nested or concurrent attribution creates no additional inception occurrence, and none of those work compositions establishes transformation composition.
 
@@ -154,7 +154,7 @@ A negative claim additionally needs the applicable non-obtaining criterion or co
 
 **Actual Work and change.** Mounting, wiring, fluid-connection, and whole-configuration changes may each be independently identified under A.3.4, and work parts may be grounded under A.15.1.
 
-**Inception basis.** A PumpSkid inception claim may proceed only when a named applicability predicate or filled local claim applies the PumpSkid identity-specification episteme to the candidate configuration and boundary. Named Work-to-change and change-to-identity predicates must also obtain for the participants and case facts. A missing applicability or link returns its blocker.
+**Inception basis.** Apply the PumpSkid identity rule to the candidate configuration at the relevant boundaries. To date first existence, establish the first satisfaction within the stated history or report the bound that history supplies. To attribute inception to the named assembly Work, also establish its relation to the changes and their role in first satisfying the identity rule. If those links remain open, retain the supported timing conclusion.
 
 **Transformation-composition boundary.** A claim that additionally requires positive composite-transformation identity or transformation parthood stops at `missing-governor[transformation-composition]`. Work or method decomposition supplies no proof of transformation decomposition.
 
@@ -178,7 +178,7 @@ If only the closure rule is missing, the state-satisfaction claim remains and on
 
 Assignment-bound attribution and F.6 are additional only when the receiving use consumes them; their absence is not itself a Work-membership failure.
 
-Entity inception and completion then need their own identity, state-satisfaction, and Work-closure governors. Do not turn observed growth into the missing performer-side basis.
+The identity rule and history can date first existence or bound it. Apply the state criterion to dated facts about the batch to establish when it met the condition, or the bound on that time that the facts support. Closing production Work requires an applicable closure rule and the Work to which it applies. Attribute the growth to a particular performer only when the relevant performance and its effect have been established.
 
 #### A.15.PROD:5.8 - Scrum Increment before review or release
 
@@ -194,7 +194,7 @@ Otherwise keep the product-state claim and return the Work-completion blocker.
 
 #### A.15.PROD:5.9 - ReleaseBinary 12: complete build-to-inception replay
 
-BuildOps asks one question: **when did `ReleaseBinary_12` first exist?** Verification, transfer, release, deployment, publication, and availability are not part of this answer. The constructed case uses one affected referent and one transformation; it does not hide an unnamed effect chain.
+BuildOps asks **when `ReleaseBinary_12` first existed**. A production reviewer additionally asks **which build Work brought it into existence**. The identity rule and the history of its satisfaction answer the first question. The second also requires a connection between the effects of this build and the first satisfying state.
 
 **Ordinary answer.** The runner performed the named Work under the applicable build Method. The named Work-to-change predicate connects that Work to the store-population transformation, and the named change-to-identity predicate says that the transformation made the applicable binary-identity rule become true first at 09:11. Therefore **`ReleaseBinary_12` first exists at 09:11 through this build Work; decide completion and later uses separately.** The table below supplies the assurance basis for that answer.
 
@@ -205,18 +205,18 @@ BuildOps asks one question: **when did `ReleaseBinary_12` first exist?** Verific
 | Actual transformation | A.3.4 independently identifies the one transformation consumed here: `ArtifactStorePopulationTransformation_12 : U.Transformation`, the change of `ArtifactStorePartition_12` from no complete candidate tuple at 09:00 to the written bytes, manifest, and digest at 09:11, after which that tuple remains fixed through build completion at 09:12. |
 | Work to change | A.15.1:6.7.1's BuildOps relation specification declares `BuildWorkPopulatedStore@BuildOps-v12(work, transformation)` with participant order `<work, transformation>`. Its stated test and the stipulated Work, application, target-binding, and transformation facts make `BuildWorkPopulatedStore@BuildOps-v12(ReleaseBinary12_BuildWork_2026-07-21T0900_0912, ArtifactStorePopulationTransformation_12)` obtain. Shared timing or the result binding alone would not establish this predicate. |
 | Identity criterion and applicability | Predicate-definition episteme `ReleaseBinaryIdentitySpec_v12` says that this BuildOps binary exists when one immutable byte sequence, manifest, and digest are fixed together and addressable by that digest in `ArtifactStorePartition_12`. Applicability claim `ReleaseBinaryIdentitySpecApplies-12` applies that episteme to `BuildOutputBasis_12`, the BuildOps-v12 context, and the ordered candidate boundaries from 09:00 through 09:12. This is the criterion episteme for the selected inception question; `BuildCompletionCriterion_v12` belongs to the separate completion question at 09:12. |
-| Change to identity | BuildOps predicate-definition episteme `ReleaseBinaryIdentityPredicates-v12` declares case-local predicate `StorePopulationClosedBinaryIdentity@BuildOps-v12(transformation, identitySpecification, candidateBasis, boundary, producedEntity)` with that participant order. Its test requires the governed store change to make the applicable identity rule false at every earlier candidate boundary and true at the named boundary. The stipulated case facts make it obtain for `<ArtifactStorePopulationTransformation_12, ReleaseBinaryIdentitySpec_v12, BuildOutputBasis_12, 09:11, ReleaseBinary_12>`. |
+| Change to identity | BuildOps predicate-definition episteme `ReleaseBinaryIdentityPredicates-v12` declares case-local predicate `StorePopulationClosedBinaryIdentity@BuildOps-v12(transformation, identitySpecification, candidateBasis, boundary, producedEntity)` with that participant order. Its test requires that the applicable identity rule did not hold at any earlier admissible candidate boundary and that the governed store change brought about its first satisfaction at the named boundary. The stipulated case facts make it obtain for `<ArtifactStorePopulationTransformation_12, ReleaseBinaryIdentitySpec_v12, BuildOutputBasis_12, 09:11, ReleaseBinary_12>`. |
 | Local result | C.2.1 episteme `ReleaseBinary12InceptionClaim` has `EntityOfConcern = ReleaseBinary_12` and states only that this entity first exists at 09:11 through the governed effects of `ReleaseBinary12_BuildWork_2026-07-21T0900_0912` under `ReleaseBinaryIdentitySpec_v12` and `ReleaseBinaryIdentitySpecApplies-12`. It asserts neither build completion nor verification, transfer, acceptance, release, deployment, publication, or availability. |
 
 **Nearest failing variant.**
 
 Keep every fact above, including the result binding, store transformation, work-to-change predicate, identity specification, applicability, ordered boundaries, and the state that satisfies the identity rule at 09:11. Remove only the declaration and obtaining fact for `StorePopulationClosedBinaryIdentity@BuildOps-v12`.
 
-The result is `missing-governor[RELEASE-BINARY-CHANGE-TO-IDENTITY]` for `<ArtifactStorePopulationTransformation_12, ReleaseBinaryIdentitySpec_v12, BuildOutputBasis_12, 09:11, ReleaseBinary_12>`. A timestamp, completed write, or `builtBinary` binding cannot replace that missing change-to-identity predicate.
+The remaining state evidence establishes that `ReleaseBinary_12` existed by 09:11 under the applicable rule. If independent records also exclude every earlier candidate boundary, BuildOps can still give 09:11 as the first time. If the earlier exclusions depended on the removed evidence, the exact first time remains open. For the separate attribution through this change the return is `missing-governor[RELEASE-BINARY-CHANGE-TO-IDENTITY]` for `<ArtifactStorePopulationTransformation_12, ReleaseBinaryIdentitySpec_v12, BuildOutputBasis_12, 09:11, ReleaseBinary_12>`.
 
 **Author-side replay of the same result.** Case substrate `ReleaseBinaryInceptionClaims-v1` defines a time-indexed conjunction over the named Work, performer basis, method applicability, the performed `storeWrite` application fact (not the later result binding), affected referent, transformation, work-to-change predicate, identity specification, applicability claim, and change-to-identity predicate.
 
 Its declared ordered boundary domain is 09:00-09:12, and its earliest-satisfying rule returns 09:11. The positive replay therefore yields `ReleaseBinary12InceptionClaim`.
 
-In the failing variant, the same constructor lacks the change-to-identity conjunct and returns `missing-governor[RELEASE-BINARY-CHANGE-TO-IDENTITY]`, as the ordinary replay does. These case-local predicates and this substrate introduce no universal production, work-to-change, or change-to-identity relation kind.
+In the failing variant this constructor lacks the change-to-identity conjunct and returns `missing-governor[RELEASE-BINARY-CHANGE-TO-IDENTITY]` for the claim attributing inception to the build Work. The independent time conclusion retains the extent supported by the state history. These case-local predicates and this substrate introduce no universal production, work-to-change, or change-to-identity relation kind.
 

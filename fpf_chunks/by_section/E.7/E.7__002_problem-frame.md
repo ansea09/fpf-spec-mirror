@@ -6,19 +6,18 @@ section_id: "E.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__002_problem-frame.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:1 — Problem frame"
-line_start: 102677
-line_end: 102679
+line_start: 102876
+line_end: 102879
 dependencies:
-  - "E.5.4"
   - "E.6"
-  - "E.8"
 keywords:
 ---
 
 ### E.7:1 - Problem frame
-Use this pattern when authoring an architectural pattern to show how its rule applies. Determine whether the rule applies to Systems, Epistemes or both, then construct the applicable cases alongside its general explanation.
+
+Use this pattern when writing or reviewing an architectural rule that somebody must apply. Identify the question the practitioner brings and the decision the rule lets them make. Choose a demonstration in which the reader can see what makes that decision warranted. A reader who came for a fact about one occurrence can use the fact directly.
 

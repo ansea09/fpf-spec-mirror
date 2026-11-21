@@ -6,12 +6,12 @@ section_id: "B.5.EA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:intro — Intro"
-line_start: 48594
-line_end: 48599
+line_start: 48632
+line_end: 48637
 dependencies:
   - "B.5"
   - "B.5.4"

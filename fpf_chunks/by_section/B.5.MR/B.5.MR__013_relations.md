@@ -6,12 +6,12 @@ section_id: "B.5.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__013_relations.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:12 — Relations"
-line_start: 50921
-line_end: 50924
+line_start: 50959
+line_end: 50962
 dependencies:
   - "B.1"
   - "B.5.FM"

@@ -6,12 +6,12 @@ section_id: "A.6.C:11"
 section_title: "Source contributions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__012_source-contributions.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:11 — Source contributions"
-line_start: 16400
-line_end: 16408
+line_start: 16438
+line_end: 16448
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,6 +57,8 @@ keywords:
 ### A.6.C:11 — Source contributions
 
 The following sources contribute distinct disciplines to boundary interpretation.
+
+* Dietz and Mulder distinguish production from the acts that request, promise, declare and accept a product. They connect several transactions for one order through the results each requires. In FPF, the terms governing a particular order determine what counts as its acceptance. [Enterprise Ontology, second edition, ch. 8, §§8.2.5–8.2.7](https://doi.org/10.1007/978-3-031-53361-7_8)
 
 * **BCP 14 (RFC 2119 and RFC 8174)** supplies the interpretation of capitalized requirement keywords. A.6.B separately classifies the claim; the visible keyword alone does not establish its object or whether an individual relation obtains.
 * **Behavioural and session types** describe typed interactions, including safety and progress properties. These support the distinction between model properties, admission conditions, implementer obligations and actual trace results.

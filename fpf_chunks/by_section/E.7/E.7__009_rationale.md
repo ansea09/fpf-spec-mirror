@@ -6,19 +6,18 @@ section_id: "E.7:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__009_rationale.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:8 — Rationale"
-line_start: 102731
-line_end: 102733
+line_start: 102919
+line_end: 102922
 dependencies:
-  - "E.5.4"
   - "E.6"
-  - "E.8"
 keywords:
 ---
 
 ### E.7:8 - Rationale
-Tell-Show-Show places the rule next to applicable cases and makes their shared conditions and differences inspectable. Making that connection explicit implements **P‑2 Didactic Primacy** while **P‑1 Cognitive Elegance** keeps the grounding proportionate to the rule’s scope. The five classes in E.5.4 can expose an assumption about a substrate. Establish which property the operation requires and where it is available. A case can show that the operation works for a system. To claim that only systems support it, establish why an episteme cannot supply the required property. When evidence covers only the system application, state that limit on the evidence.
+
+**P‑2 Didactic Primacy** requires the explanation to support the practitioner's work. **P‑1 Cognitive Elegance** favours the smallest demonstration that carries the needed reasoning. Change an assumption of the example while keeping the commission fixed. If the reader's justified answer changes, make the dependency visible. If a claim is universal over a stated domain, a counterexample inside that domain can settle the question against it. A successful instance supports the general claim only to the extent that its argument applies throughout that domain.
 

@@ -6,12 +6,12 @@ section_id: "C.18:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__008_archetypal-grounding.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:6 — Archetypal Grounding"
-line_start: 63867
-line_end: 63886
+line_start: 63906
+line_end: 63927
 dependencies:
   - "A.15"
   - "A.19"
@@ -58,5 +58,7 @@ keywords:
 
 A dominates B because both readings are lower. A and C are incomparable: A uses less energy, while C takes less service time. The front is therefore `{A, C}`. The project's archive policy also retains one representative of every admitted connector family for later recombination. B is the only available representative of family J, so the archive retains B even though B is absent from the front. That retention is a coverage decision under the stated policy, not evidence that B performs better or will produce a successful later design.
 
-“Front `{A, C}`; retain B in the archive as the family-J representative” answers this question. No selected-set declaration or design choice follows automatically. If another J-family variant arrives, reconsider retention under the same policy; if the comparator or measurement basis changes, recompute the affected front relations.
+Suppose a fourth eligible module matches A on both comparison coordinates. For these four modules the two nondominated objective vectors stay (8 kWh, 20 min) and (12 kWh, 15 min). A purchaser seeking one design per vector can use A and C. A request for the identities of every efficient module also requires the fourth identity. This conclusion extends to a larger eligible population only when the remaining designs are accounted for under the same comparison.
+
+For the original three modules, return front `{A, C}` and retain B in the archive as the family-J representative. No selected-set declaration or design choice follows automatically. If another J-family variant arrives, reconsider retention under the same policy; if the comparator or measurement basis changes, recompute the affected front relations.
 

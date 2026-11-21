@@ -6,12 +6,12 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 16381
-line_end: 16393
+line_start: 16419
+line_end: 16431
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,6 +64,6 @@ keywords:
 
 **Trade-offs and mitigations**
 
-* Additional authoring effort; mitigated by applying the unpacking only when contract-like wording leaves a consequential ambiguity, and by persisting a Claim Register entry only when stable reuse, decision, audit, dispute, or cross-face projection needs it.
+* Unpacking and connecting claims takes time. Stop when the wording is clear for its use or the available facts settle the receiving decision. Keep a Claim Register entry when stable reuse, decision, audit, dispute or cross-face projection calls for it.
 * Some stakeholders prefer “one sentence contract”; mitigated by MVPK faces that present curated projections while keeping the underlying claim set coherent.
 

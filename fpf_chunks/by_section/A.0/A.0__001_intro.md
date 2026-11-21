@@ -6,12 +6,12 @@ section_id: "A.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:intro — Intro"
-line_start: 2308
-line_end: 2316
+line_start: 2310
+line_end: 2318
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -58,7 +58,7 @@ keywords:
 ## A.0 - Generative Search Onboarding Glossary (NQD & E/E‑LOG)
 
 > **Status:** Stable
-**Use this when** choosing or describing a generative search or selection. This glossary identifies the values, policies and set-result kinds needed by that operation, and connects them to their definitions in C.17–C.19. Section 4.3 shows how to use those terms with G.5 selection and the publication requirements of the receiving task.
+**Use this when** deciding what a generative search should return, or interpreting a search someone has already run. Start from the decision the recipient has to make. Section 4.3 shows when one usable candidate is enough, when to preserve alternatives or construct a combination, and how to distinguish an exploration report from an exhaustive comparison.
 
 **Builds on.** E.2 (**P‑10 Open‑Ended Evolution; P‑2 Didactic Primacy**), A.5, C.17–C.19 - **Coordinates with.** E.7, E.8, E.10; F.17 (UTS); G.5, G.9–G.12 - **Constrains.** Any pattern/UTS row that **describes a generator, selector, typed portfolio publication, or set-return publication surface**.
 

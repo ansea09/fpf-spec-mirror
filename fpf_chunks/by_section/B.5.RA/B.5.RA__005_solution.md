@@ -6,12 +6,12 @@ section_id: "B.5.RA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:4 — Solution"
-line_start: 49999
-line_end: 50124
+line_start: 50037
+line_end: 50162
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -31,7 +31,7 @@ Recover the reasoning at both the level of its main contributions and the transi
 
 Name what the result would let you do: calculate a quantity, choose between alternatives, criticize a conclusion, adapt an argument or explain it to someone else. This determines how far recovery needs to go.
 
-Read the conclusion with its objects, domain and conditions. In a mathematical statement, recover the quantifiers: which objects are arbitrary, which may be chosen, and on what a chosen object may depend. In an empirical argument, recover what observations and inference support which population, conditions or phenomenon.
+Read the conclusion with its objects, domain and conditions. If an ordinary-language argument relies on “everyone”, “always” or another universal expression, use C.39.QR:4.1.1 to recover the domain and the force of the remark before testing the inference. In a mathematical statement, recover the quantifiers: which objects are arbitrary, which may be chosen, and on what a chosen object may depend. In an empirical argument, recover what observations and inference support which population, conditions or phenomenon.
 
 Locate the source's definitions when a word or symbol admits different readings that would change this use. If a formal statement accompanies an informal one, compare the part of their meanings on which the intended application depends. For example, whether zero is allowed among “natural numbers” can change the statement.
 

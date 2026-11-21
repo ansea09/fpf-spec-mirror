@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 98617
-line_end: 98906
+line_start: 98804
+line_end: 99097
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -38,6 +38,8 @@ Apply C.39's general construction and explanation to the framework reader's recu
 #### E.4.CM:4.1 - Recover the working question before assigning parts
 
 Start with the practitioner, working situation, sought result and conditions that make the result useful. Recover a worked attempt, a failure or a sufficiently explicit proposed case. Keep the original need when exploring a smaller attainable result. If the difficulty is not yet named, follow an ordinary result to its receiving use with B.5.PI: a document can have been delivered while its recipient still cannot continue the work.
+
+Who requested the result, what did the performer agree to supply, and who will use or accept it? Distinguish a proposed change of product or date from the revised undertaking the parties actually agreed. Where the conclusion depends on a handover, establish the act the agreement calls for and what shows that it occurred. Depositing an identified report can finish an order to deliver it. If the order requires acceptance, identify who can accept it and which act has that meaning under the agreement. An approved result from a supplier can finish an order to obtain it. When the reader must devise the way of working, identify the decisions they must make with the information and help available to them. When their assignment is to find out what result is needed, begin with the actions of its prospective users. If two interpretations would change the promised action, find out who can settle the difference. If both support the same action and its required justification, give that answer while the other difference remains open.
 
 Find candidate methods, rules and results by the change needed. In each candidate description recover the input, action, result, conditions and limits. A shared topic helps find a text; the receiving action determines what can be used from it. Include the necessary performer, preparation, means and access: an obtainable description does not supply them.
 
@@ -70,6 +72,8 @@ Then identify what the public framework must carry: the reusable action or relat
 #### E.4.CM:4.3 - Apply the relations at the framework's chosen scale
 
 C.39:4.3.1 supplies the general distinctions among result use, continuation, Method composition, enactment, variation, refinement, replacement and cross-domain use. C.30.ASV:4.5a helps choose the relations needed for the reader's question. Develop their account for that question; an FPF or DPF publication does not require one universal view set.
+
+Choose the composition scales and levels of model abstraction for the reader's decision with C.39.SA:4. Which operations form the Method? Which performances made up this job? Which premises support its conclusion? A system performs the Work, the Work can enact the Method, and a report can describe it. Trace the parts and the enclosing whole for each kind that matters. For each model ask which possible arrangements it must distinguish. A limit on total hours bounds the hours of each constituent job when all hours are nonnegative. To infer a result for the whole from its parts, establish how the parts combine. A rule can apply to every part while their interaction changes the result of the whole. To use a schedule and an authorisation together, establish that both cover the agreed work and time, or give the grounds for carrying a conclusion across the difference. C.37.MM:4.1.1 supplies that joint use, and B.5.MR:4.2 supplies the comparison when strict concretisation of one model is claimed.
 
 For example, an author connecting recording preparation to analysis must explain how a corrected recording obtains its interval qualification and how the analysis uses that result. Three marker offsets alone do not justify the interval, and a correction number alone is not an edited recording. The public account must expose the independent interval basis and editing operation or state which of them is missing. C.39:5.2–5.3 develops both the missing-way case and the qualified conditional connection.
 
@@ -130,7 +134,7 @@ For an account of several Methods, apply the corresponding questions to their ma
 
 Choose the expression that makes those answers usable: prose, notation, reading order, media and publication location. Each declared pattern keeps E.8's body form; the whole account keeps E.11.PFP's publication form. These are additional obligations of this framework use, not requirements on every ordinary Method description. A translation or short entry can preserve the Method; omitting an applicability condition can change it even when every Solution step remains.
 
-Develop one complete receiving case and a consequential changed condition. Follow the public references to the explanations that supply the needed content. The reader must get the missing constructive step and its reason from the publication or a declared obtainable supplier, rather than invent it during the trial. Distinguish changing a Method from performing it again and from revising its description. Reuse unaffected branches and valid earlier evidence. Use an unlike case when it can expose a falsely universal relation or hidden domain assumption.
+Develop a complete receiving case. Show which consequential conditions can change and why the conclusion follows over the range you claim. The general grounds can occur inside the example. For a choice assigned to the reader, start at the point before the example supplied its answer. Can the reader use the published explanation, their preparation and available support to make that choice? A heading, a form or a supplier may already have made it for them. Preserve the resulting work and use C.39.GA:4 to restore the missing step when the commission includes design. A different case can reveal a hidden restriction. An argument covering the allowed variation can settle the general question directly. Distinguish a change to the Method, another execution and a revision of its description. Reuse the branches and evidence whose conditions still hold.
 
 Keep the grounds connected as C.39:4.5 requires: need, nature of the proposal, development choices, the content supplied and claims. The framework adds a publication concern: the arrangement described and examined must be the one its readers receive, with necessary source reasoning and support still accessible. A local repair belongs at the source of the connected omission. Short cards, headings and source lists cannot close an absent public explanation.
 

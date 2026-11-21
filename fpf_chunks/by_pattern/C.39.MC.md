@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.MC.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
-line_start: 89203
-line_end: 89421
+line_start: 89390
+line_end: 89608
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -155,15 +155,15 @@ The Method engineer needs the description-review result now while keeping the wh
 | May P's proposed composition of W be described as obtaining? | W and participant identities are available, but B.1.5.CM/B.1.5 need the required relations. | Unknown: recover the basis of methodPartOf(M2,W). |
 | May this candidate be published? | The applicable publication decision has not been obtained. | Blocked: content review supplies no replacement for that decision. |
 
-The engineer uses A.15.7 to choose the available bounded review. The review lead will perform it; the engineer is the chooser in this case. The feedback condition is a review result or new evidence that changes the whole claim. Because the next meeting will rely on these distinctions, the engineer retains one situated result about P's architecture question, citing the existing A.3.1.QM results rather than copying them. No formal CGUS is needed for this use.
+Using A.15.7, the engineer selects description review as the next action and commissions it. The review lead compares their participant-identity claims with the existing identity results and finds support for W, M1 and M2 as identified Methods. The material examined still supplies no basis for the proposed inclusion of M2 in W. The lead gives the engineer those findings now. The first is usable in the meeting, and the second states which construction rule still needs examination. Because the next meeting will rely on these distinctions, the engineer retains one situated result about P's architecture question, citing the existing A.3.1.QM results rather than copying them. No formal CGUS is needed for this use.
 
 Before the next choice, the relevant procedure is inspected. Its construction rule places M2 outside W: M2 supplies optional advice but is neither required nor an admitted construction alternative. That changes the proposed composition claim, not the independently established identity of W, M1, or M2.
 
-The engineer returns the affected composition question to B.1.5.CM. The proposed relation set is not supported as W's obtaining composition; retain the useful support relation and return P for correction or another proposed arrangement. The participant A.3.1.QM results remain supported; the bounded review and publication blocker remain as before.
+The engineer returns the affected composition question to B.1.5.CM. The proposed relation set is not supported as W's obtaining composition; retain the useful support relation and return P for correction or another proposed arrangement. The engineer can use the completed comparison with the existing A.3.1.QM identity results at the meeting. Publication still requires its own decision.
 
 The new situated result changes the composition-claim and return content. It does not backdate a new Method, change independently established completed review Work, or announce a new structure from one new fact. If another proposed arrangement changes W's reusable semantics, that later proposal needs its identity question.
 
-What changed in practice is small but consequential: one changed source claim reopens one whole-account decision and its dependent uses, while available independent review continues.
+The newly inspected rule decides the composition question and changes the uses that depended on it. The completed identity comparison remains available for its original use.
 
 #### C.39.MC:5.2 - A Sufficient Description
 

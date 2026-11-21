@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 46784
-line_end: 46926
+line_start: 46824
+line_end: 46966
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -126,7 +126,7 @@ B.3 supplies no default fold. When the assurance argument combines quantitative 
 5. the calculation or ordered comparison;
 6. any rival rule that is plausible at comparable effort and could change the result or its warranted use.
 
-Use `min` only when the cited domain rule makes the weakest input a lower bound or bottleneck for the quantity. It is not universally conservative.
+Use `min` when the subject model explains what it means for the target quantity. For a bottleneck model it may give the value itself. For a probability of joint success, the smaller marginal probability gives an upper bound. State the direction of the bound before using it to decide a threshold.
 
 If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
 

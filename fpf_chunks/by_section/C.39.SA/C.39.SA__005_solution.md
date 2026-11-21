@@ -1,0 +1,35 @@
+---
+chunk_kind: "child"
+pattern_id: "C.39.SA"
+pattern_title: "Choose Composition Scales and Model Abstraction for the Task"
+section_id: "C.39.SA:4"
+section_title: "Solution"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.39.SA/C.39.SA__005_solution.md"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+heading_path:
+  - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
+  - "C.39.SA:4 — Solution"
+line_start: 88084
+line_end: 88094
+dependencies:
+  - "B.1"
+  - "B.5.MR"
+  - "C.37.MM"
+  - "C.39.GA"
+  - "C.39.QR"
+  - "F.19"
+keywords:
+---
+
+### C.39.SA:4 - Solution
+
+**Start with the work and its criterion.** Who will use the result, to do or explain what, with which choices still theirs? Establish the relevant subject, permissible conditions and information available by the time of the choice. Supplying one workable design allows the designer to choose its arrangement. Teaching someone to design for several settings requires a way for that person to choose. Deciding whether a threshold is met and giving an exact value can also require different evidence.
+
+1. **Follow the composition needed for that work.** Trace the recipient’s action from what they receive to what they must deliver or explain. Start with the whole that supplies, uses or constrains that result. Follow a dependency to its constituents or to an enclosing whole when altering their arrangement could change that use. Name each kind of holon and the relation that makes these particular constituents parts of it. Ask whether a different enclosing arrangement could change the answer while the facts about a constituent stay true. Ask whether different arrangements inside the whole could change the answer while its reported total stays the same. Follow the constituent relation in the direction the inference needs. For a Method, identify what its construction requires of a constituent Method. For performed Work, identify the actual performances that constituted that job. A job can enact a Method. An account in an inspection report can tell us something about the job. The account is an episteme, and its relation to the job is the one the decision must use. Trace each kind across its own scales. For a functional control layer, identify its responsibility, the Methods that implement it and the controllers that perform the work when those relations matter.
+2. **Find which alternatives the model must distinguish.** To form a first model, start with the action or explanation the recipient owes. Identify information that could distinguish two required answers and keep that distinction in the model. Then consider the situations the resulting model still treats alike. Could the recipient carry out each assigned operation with the information that remains? If indistinguishable situations require incompatible decisions or different grounds that the recipient must explain, preserve the difference or supply an observation available before that decision. For one action guaranteed to work, establish an admissible situation and a single action that works throughout the whole indistinguishable set. Compatibility in each pair need not give an action common to all. When a later choice is allowed, a rule based on information and authority available then may suffice. For a risk limit, retain the frequency, probability or justified bound the decision uses. The same list of possible outcomes can conceal very different risks.
+3. **Try releasing a choice fixed by the account.** What happens if a different permitted arrangement is used? If choosing one workable design is your job, deliver the chosen design with the grounds the order requires. If the recipient is to choose, show how they can recognize and use the permitted alternatives. A worked example can keep its particular design. Keep details required by the order and details that make the explanation intelligible. Identify which ones belong only to an illustration. One way can cover the entire promised range. Several ways can depend on the same unstated restriction. Where the recipient must explain a selection, show which information lets them make it and why the alternatives matter.
+4. **Establish what follows at each scale, between scales or from their joint use.** Does the decision need a rule at each eligible scale, a directed dependence from one scale or model to another, or a result that depends on several together? Identify the relation and give grounds for that claim. Check coupled choices under their joint constraint. A newly distinguished case may reveal a missing constituent or enclosing whole. Reopen the affected composition choice. Conversely, a shared constraint may change what the model has to distinguish. A subject rule, a sufficient bound or a justified empirical estimate can settle the task across its declared range. State its applicability. When the available grounds leave different required answers possible, identify the unresolved distinction and what would settle it.
+
+The result is a choice of composition scales for each relevant kind and of model abstraction for the intended use, with the connections and stopping grounds the recipient needs. A range need not contain every intervening description or form a rectangle with another range. When several selections give the required result, effort, access and the consequences of an error can decide between them.
+

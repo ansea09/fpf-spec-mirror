@@ -6,12 +6,12 @@ section_id: "G.Core:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:8 — Common anti-patterns and how to avoid them"
-line_start: 135611
-line_end: 135633
+line_start: 135817
+line_end: 135839
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -44,7 +44,7 @@ keywords:
   **Avoid:** Cite mandatory invariants through their `CC‑GCORE‑*` items and governing definitions. Reserve the Default Governing Definition Index for defaults, including constants and conditional default rules.
 
 * **Anti-pattern:** Turning partial orders into scalar ranks silently.
-  **Avoid:** keep the set returned under the partial order. A total ranking may guide a decision when the applicable comparator or policy explicitly admits it. A scalar summary used only for reporting leaves the selected set unchanged.
+  **Avoid:** report what the declared comparator established about its operands. To obtain a frontier, apply the dominance rule to the candidate domain (C.18). Use G.5-3 to select candidates or G.5-6 to declare members already fixed for this use. Any ranking that guides a decision needs an admitted comparator or policy.
 
 * **Anti-pattern:** Competing defaults scattered across multiple patterns.
   **Avoid:** Default Governing Definition Index; delegate duplicate statements to the one governing definition.

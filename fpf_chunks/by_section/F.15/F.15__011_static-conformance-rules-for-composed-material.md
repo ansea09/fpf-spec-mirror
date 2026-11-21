@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for composed material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-composed-material.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:9 — Static conformance rules for composed material"
-line_start: 132079
-line_end: 132117
+line_start: 132270
+line_end: 132310
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -78,6 +78,8 @@ When an existing NameCard or row supports the same governed value and admitted u
 A cited F.9 Bridge has two exact endpoint cells, one exact relation-semantic profile, a currently true kind-defined predicate, and all required dependencies. Its assertion/description episteme and optional Card remain separate.
 
 A separate C.2.1 claim affirms or rejects the proposed use of that Bridge in the stated direction, under the stated correspondence rule and loss tolerance. Use A.10 for ordinary reliance on the claim. Use B.3 when the receiving use needs a named assurance claim.
+
+For a use through several Bridges, follow F.9:14.7. State the direction of use at each link, the rule for using them together and the cumulative effect on the receiver’s decision. Two signed shifts of +0.4 satisfy a local tolerance of 0.5 each and exceed a final tolerance of 0.5 together. Established cancellation may meet the final tolerance. The chain can thus support a particular use. A claim that a direct A-to-C Bridge obtains has its own predicate test.
 
 **SCR-F15-S13 (Cross-local locality).**
 Use F.9 only for different `<ReferenceScheme, LocalSenseClaim>` projections and one named current correspondence use. Same-projection expression reuse stays with designation; different projections do not themselves establish a relation; when no current correspondence use exists, add no Bridge or bounded-use claim.

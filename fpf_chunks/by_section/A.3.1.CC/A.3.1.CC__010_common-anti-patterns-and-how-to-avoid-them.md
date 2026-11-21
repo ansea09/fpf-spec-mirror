@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11196
-line_end: 11205
+line_start: 11220
+line_end: 11229
 dependencies:
   - "A.10"
   - "A.15.8.MS"

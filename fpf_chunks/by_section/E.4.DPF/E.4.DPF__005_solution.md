@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 99978
-line_end: 100565
+line_start: 100173
+line_end: 100762
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -61,7 +61,7 @@ keywords:
 
 Use the first-hour route to help a reader new to the framework decide whether authoring should begin. This route answers that question before asking for proposal, dependency, naming, quality or publication material.
 
-1. Name the intended reader, recurring working problem and useful result. Identify the user by the work they need the framework for. Follow E.8:4.2.3 when the distinction between doing the work and assisting with it changes whose decision or capability the result demonstrates.
+1. Name the intended reader, recurring working problem and useful result. Identify the user by the work they need the framework for. Follow E.8:4.2.3 when the distinction between doing the work and assisting with it changes whose decision or capability the result demonstrates. Ask what the performer agreed to deliver, who receives or accepts it, and what choices the practitioner must make. If an existing result meets that order, show how to obtain and use it. When the reader must devise the connection among methods, E.4.CM:4.1–4.3 starts with the decisions still open to them.
 2. Recover candidate contributions from that problem and its sources before fitting them to the current Library: recurring practitioner problems, reusable moves or Methods, first useful results, ordinary stops or wrong-turn returns, and source or refresh boundaries. When the use spans several problem families, recover their consequential connections and the practice field or fields they serve. A field can include known Methods as well as missing ones; novelty of elementary operations is not its identity test.
 3. Inspect what FPF Core, existing domain or local frameworks, and current sources provide.
    - Treat a role or competence account, several independently reusable contributions, a Card or mantra spanning material relations, a plausible field and refresh boundary, a representative use across contributions, or visible action or result loss under one broad owner as a cue to compare, not as proof of a DPF.
@@ -127,6 +127,8 @@ Bring this account back to the proposed repertoire. Show why its grounds select,
 
 A successful application of the selected patterns supplies its bounded evidence, not the unexplained field account. Reuse an adequate current account and qualified source comparison rather than reconstructing them merely for a new edition.
 
+For each promised family of work, follow the decision from the information available before the example chose its units, methods or model. A recurring department-level method and the record of one performance can use the same form. If the reader must choose the relevant wholes and model distinctions, show how to tell whether a change in the receiver's work calls for a different selection. Explain why the original choice still serves when the same range and distinctions suffice. A field rule can already supply the needed choice in a local practice. Its local adoption alone leaves the alternatives admitted by that rule unchanged.
+
 Before authoring a new edition, the `E.4.PFAD` architecture answer states:
 
 - what field or practice the public name promises to cover, the intended reader, the first use, and the ordinary stop or wrong-turn return;
@@ -187,7 +189,7 @@ If the PFAD answer omits a required group or claim-to-question binding at the gr
 
 `E.4.DPF.DA` evaluates the resulting edition once. `D1DomainScopeAndUseAdequacy` preserves the reader, first use, stop or return, qualification window, truth boundary, and any locally warranted non-use boundary of every public practice contribution. `D4CoreDependencyAndDomainBoundaryAdequacy` tests FPF subtraction, domain filling, and exact external dependencies. `D5PackageFormLayeringAndRelationAdequacy` keeps answer, accepting decision, DRR, edition, package, publication, and carrier separate.
 
-`D7PracticeUtilityAndProblemResolutionAdequacy` uses the recognizable difficulty, practical move, and receiving result for each bounded claim without upgrading observed, planned, or missing evidence. `D8HeterogeneousCaseAndTransferAdequacy` uses representative cases, demonstrations or justified trials appropriate to the claimed use and preserves their support and transfer boundaries. `D11DomainSoTAAlignmentAdequacy` uses current domain sources, pressure evidence, limits, and reopen triggers.
+`D7PracticeUtilityAndProblemResolutionAdequacy` uses the recognizable difficulty, practical move, and receiving result for each bounded claim without upgrading observed, planned, or missing evidence. `D8HeterogeneousCaseAndTransferAdequacy` examines what justifies the claimed transfer. A common rule can cover a class of uses. A claim about what practitioners actually did in another setting needs evidence of their work under the relevant conditions. `D11DomainSoTAAlignmentAdequacy` uses current domain sources, pressure evidence, limits, and reopen triggers.
 
 `D12DomainProblemFamilyCoverageAdequacy` alone integrates the exact edition's several bounded public promises while retaining their different truth status; it cannot turn a prospective contribution into current practice coverage or erase an obtaining incumbent contribution.
 

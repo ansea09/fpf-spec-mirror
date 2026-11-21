@@ -6,12 +6,12 @@ section_id: "F.11:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__010_micro-examples.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:9 — Micro-examples"
-line_start: 130837
-line_end: 130844
+line_start: 131026
+line_end: 131033
 dependencies:
   - "A.13"
   - "A.15"
@@ -48,6 +48,6 @@ keywords:
 For each dated Work named here and in §11, take independent A.13/A.15.1 admission as a case premise. Its actual performers and obtaining assignments are recovered through that basis. Add F.6 only when a case also needs precise assignment-bound attribution.
 
 1. **Data pipeline deployment.** Method: delta-load transformation. MethodDescription: `etl_delta.py@v3` plus its documented rules. Work: the nightly run on 2025-07-14. No control output is material. Approval of the description and measured rows processed are separate claims.
-2. **Valve control.** Method: PID tuning and control method. MethodDescription: tuning sheet and cited IEC program description. Work: PLC task cycles from 18:00 to 18:30. Outputs: the exact setpoints and PWM duty values produced during those cycles. Temperature observations, not the commands alone, support a settling-time verdict.
+2. **Valve control.** The PLC runs the PID control method using gains recorded on its tuning sheet. The cycles from 18:00 to 18:30 produce PWM duty commands from a setpoint and measured temperature. A higher loop may produce the setpoint supplied to this loop. To establish tuning, identify the work in which someone selected or adjusted the gains. Judging settling time requires observations of the controlled temperature.
 3. **Clinical assay.** Method: ELISA. MethodDescription: kit IFU v7. Work: the assay run on batch B217. Robot commands are outputs during the Work; absorbance observations support the batch evaluation. IFU approval does not settle the batch verdict.
 

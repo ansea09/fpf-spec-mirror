@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 122724
-line_end: 123377
+line_start: 122913
+line_end: 123566
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

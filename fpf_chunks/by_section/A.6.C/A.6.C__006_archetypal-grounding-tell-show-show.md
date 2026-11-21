@@ -6,12 +6,12 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 16193
-line_end: 16318
+line_start: 16229
+line_end: 16356
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,6 +64,8 @@ When boundary contract-language leaves a consequential ambiguity, recover the cl
 2. **What was said, published, or instituted?** Identify only the asserted speech act, description/publication objects and institutional effects, under the conditions in §4.1.
 3. **What governance or permission-looking claim exists?** State either a generic D prescription with its normative source and applicability, an individual D claim about an obtaining commitment with its actual bearer and institution basis, or the selected `A6-AW-*` claim in its own quadrant. State responsibility separately under its admitted domain predicate or return its missing governor.
 4. **What happened, what followed, and what supports reliance?** State dated Work, each current result/change/delivery/acceptance claim, and each current evidence-use or reliance claim separately; omit absent claims.
+
+When acceptance or the work still due depends on how undertakings, conditions or acts fit together, use §4.1 to establish the required connection. This includes one order with several required acts. Identify what was accepted and what remains open or due.
 
 When those answers need stable reuse, decision, audit, dispute, or cross-face projection, write them in the one A.6.B Claim Register: one atomic statement, direct object, subject assertion, non-semantic pattern locator, and quadrant per row. Otherwise stop with the repaired atomic prose. Faces cite reused claim IDs or canonical locations; they do not create another bundle record.
 

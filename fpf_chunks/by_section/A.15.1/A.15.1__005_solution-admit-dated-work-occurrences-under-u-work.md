@@ -6,12 +6,12 @@ section_id: "A.15.1:4"
 section_title: "Solution — admit dated Work occurrences under U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-admit-dated-work-occurrences-under-u-work.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:4 — Solution — admit dated Work occurrences under U.Work"
-line_start: 30287
-line_end: 30441
+line_start: 30327
+line_end: 30481
 dependencies:
   - "A.1"
   - "A.10"
@@ -205,7 +205,7 @@ Start with the ordinary sentence the reader needs, then select exactly one row f
 | **Evaluation found V.** | identify the evaluation application and result binding or direct evaluation-result relation. Admit a separate evaluation `U.Work` only when that dated occurrence is claimed; identify a C.2.1 evaluation-result episteme when the result content needs its own reference | a performed evaluation, returned value and result episteme remain different objects; a value claim alone requires no additional Work identity |
 | **These observations support the claim.** | A.10 account of the independently established evidence-provenance relations supporting the named claim, or A.2.4 for the lighter episteme evidence-use relation | identify the claim supported and the bounded use; a Work-admission conclusion requires the complete §4.0–4.1 basis across the sources used |
 | **X was delivered or transferred.** | name the declared delivery or transfer predicate, its exact source, destination, transferred X, and any required occurrence or interval participants. Use A.2.3 for a separately current promise-content claim; if no delivery or transfer predicate governs the claimed transfer, return `missing-governor[delivery-or-transfer]` | production, a package, or a handoff label does not establish transfer |
-| **X was accepted.** | name the criterion, verdict and declared acceptance predicate with its actual participants. Identify evaluation or acceptance Work separately when that occurrence claim is needed. Use A.2.3 only for a current promise-content claim; if no predicate governs the asserted acceptance, return `missing-governor[acceptance]` | delivery, a passing evaluation value or evidence alone does not establish acceptance |
+| **X was accepted.** | Apply the declared acceptance predicate to X, its actual participants and the facts its conditions require. Identify a decision, verdict or dated evaluation or acceptance Work when the rule or claim requires it. Use A.2.3 for a promise-content claim. If no predicate governs the asserted acceptance, return `missing-governor[acceptance]`. | Delivery or a passing value settles acceptance when the rule gives it that effect and its other conditions hold. For a conclusion about several undertakings together, use A.6.C:4.1. |
 
-**Three-question result check.** (1) **Did the Work occur?** Recover its §4.0–4.1 admission basis; add F.6 only for the separate assignment-bound claim. (2) **What result or consequence is claimed?** Identify the returned value, entity, change, production claim or transfer through its §4.6 row. (3) **Who judged or accepted what, by which criterion and evidence?** Keep the judgment, returned value, evidence and acceptance relation distinct; add a dated evaluation Work identity only when that claim is needed. Stop after the last current question.
+**Three-question result check.** (1) **Did the Work occur?** Recover its §4.0–4.1 admission basis; add F.6 only for the separate assignment-bound claim. (2) **What result or consequence is claimed?** Identify the returned value, entity, change, production claim or transfer through its §4.6 row. (3) **What established the judgement or acceptance for this result?** For a judgement, apply the criterion to the relevant facts and identify the returned value and the evidence for it. For acceptance, identify the rule and the facts that establish whether its conditions were met. Where a decision by a participant was required, establish who made it and for whom. Add a dated evaluation Work identity when that occurrence is at issue. Stop after the last current question.
 

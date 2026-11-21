@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 30648
-line_end: 30738
+line_start: 30688
+line_end: 30778
 dependencies:
   - "A.1"
   - "A.10"
@@ -79,7 +79,7 @@ For an operation argument or result, name one identified A.6.1 application and i
 Any capability threshold relied on for a Work occurrence is the declared bound in the selected Method-side claim. Test it by a named A.2.2 capability-fit predicate against the qualified ability of the holder named by that condition for the required contribution, for the work interval or declared checkpoints. Apply a collective condition to the collective holder, an individual condition to its performer, and a condition required of every performer to each performer, as explained in §4.2. Name the predicate, holder and ability claim, required contribution, threshold, work need and result. If the fit predicate is absent, return `missing-governor[capability-fit]` and assert neither fit nor failed fit. A `U.Method` or `U.MethodDescription` may cite or describe the threshold but creates neither capability nor fit. State a failed fit in its evaluation-result episteme or direct characteristic/evaluation relation, never as an intrinsic work outcome.
 
 **CC-A15.1-8 (Acceptance criteria).**
-An acceptance claim names the criterion episteme or comparator specification, applicable conditions, returned verdict and declared acceptance predicate with its actual participants. Identify the evaluation or acceptance Work when its occurrence is claimed; the verdict alone does not require an additional Work identity. A claim of historical criterion continuity needs the C.2.1 `EpistemeEditionRelation`; a version label is insufficient. If no predicate governs acceptance, return `missing-governor[acceptance]`. Success class, measurement, comparison result and acceptance verdict remain distinct; none is a Work field or a condition of Work membership.
+An acceptance claim names the declared acceptance predicate, its participants, applicable conditions and the facts that establish the result. Where the rule calls for a comparison or verdict, identify the criterion episteme or comparator specification and its required result. Where an authorised act is decisive, establish the act and its authority for this result. Identify evaluation or acceptance Work when the claimed occurrence matters. A claim of historical criterion continuity needs the C.2.1 `EpistemeEditionRelation`; a version label is insufficient. If no predicate governs acceptance, return `missing-governor[acceptance]`. Success class, measurement, comparison result and acceptance verdict remain distinct; none is a Work field or a condition of Work membership.
 **CC-A15.1-9 (Resource attribution).**
 Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, a system-role kind or assignment, or an assertion of holder ability. If no predicate governs the needed performed-use claim, return `missing-governor[resource-use]`; keep any separately warranted estimates or derived values with their source values, model and conditions. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
 

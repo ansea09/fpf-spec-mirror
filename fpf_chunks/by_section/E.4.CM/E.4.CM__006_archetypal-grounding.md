@@ -6,12 +6,12 @@ section_id: "E.4.CM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__006_archetypal-grounding.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:5 — Archetypal Grounding"
-line_start: 98907
-line_end: 98982
+line_start: 99098
+line_end: 99175
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -43,7 +43,9 @@ The author locates a composition difficulty: the producer's grouping key is weak
 
 C.40.CD:5.1 develops this comparison. E.4.CM therefore selects reuse of that explanation rather than another pattern for these same operations. If a proposed card merely lists grouping and comparison, it should point to the available construction instead of asking the reader to invent the missing key.
 
-Now change the receiving rule to require a shared instrument revision too. Temperature matching alone no longer answers eligibility. If revisions are present, extend the key; if absent, return the unavailable comparison rather than treating omission as a match. This change illustrates what the public explanation must teach: derive the joining rule from the receiving condition and preserve partial results. It does not establish causality from one matched pair.
+Now change the receiving rule to require a shared instrument revision too. Temperature matching alone no longer answers eligibility. Matching revision identifiers can establish the new condition. A qualified record that the same instrument kept its revision throughout both observations can also establish it, even if the identifier is unknown. Evidence that the revisions differ rules out that pair. When both a match and a mismatch remain possible, leave its eligibility open and preserve any other pair already supported. This change illustrates what the public explanation must teach: derive the joining rule from the receiving condition and preserve partial results. It does not establish causality from one matched pair.
+
+For an order to supply the eligible pair, the team can accept T3–T4 from a qualified supplier under the agreed rule. For an order to design comparisons for future jobs, the reader needs to obtain the receiving question and derive the matching conditions. Giving them a form headed “setup and temperature” supplies that particular choice. They can still apply the rule, check the entries or identify a missing revision. If the supplier's report documents who originally derived the rule and on what grounds, that evidence can also answer a question about the earlier design.
 
 #### E.4.CM:5.2 - A larger contribution survives subtraction
 

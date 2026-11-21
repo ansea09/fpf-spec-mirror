@@ -6,12 +6,12 @@ section_id: "B.5.EA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__007_bias-annotation.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:6 — Bias-Annotation"
-line_start: 48716
-line_end: 48719
+line_start: 48754
+line_end: 48757
 dependencies:
   - "B.5"
   - "B.5.4"

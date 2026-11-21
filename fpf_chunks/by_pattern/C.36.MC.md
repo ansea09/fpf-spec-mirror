@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.MC.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
-line_start: 96059
-line_end: 96396
+line_start: 96246
+line_end: 96583
 dependencies:
   - "A.15.1"
   - "A.3.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
-line_start: 45779
-line_end: 46016
+line_start: 45819
+line_end: 46056
 dependencies:
   - "A.1"
   - "A.10"
@@ -186,7 +186,7 @@ In this constructed case, B.2 has compared an established drone-system whole wit
 - **System criterion:** the swarm has acting eligibility. This case also has its command-and-operating-area delimitation, mission objective, coordination relations, and external commitments.
 - **Assurance:** swarm-level tests support claims about the candidate; individual drone certificates remain component evidence. Their contribution to a swarm-level claim depends on that claim and the evidence's applicability.
 
-The old drone evidence remains relevant, but it is not enough for the swarm-level assurance claim.
+Choose the assurance claim about the swarm. If it requires every current member to hold a specified certificate, a complete membership list and a valid certificate for each member can settle it. If it requires the swarm to cover the search area, establish how the members’ paths together cover that area under the mission conditions. The same set of certified drones can fly overlapping paths that leave part of the area unsearched.
 
 #### B.2.2:5.2 - Cloud Platform
 

@@ -6,12 +6,12 @@ section_id: "G.9:7"
 section_title: "Anti‑patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__009_anti-patterns-and-remedies.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:7 — Anti‑patterns and remedies"
-line_start: 140480
-line_end: 140489
+line_start: 140701
+line_end: 140710
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -42,8 +42,9 @@ keywords:
   - "benchmark plan"
   - "comparator pins"
   - "freshness windows"
+  - "pairwise relations"
   - "parity harness"
-  - "selected-set outcomes"
+  - "selection when commissioned"
 ---
 
 ### G.9:7 — Anti‑patterns and remedies

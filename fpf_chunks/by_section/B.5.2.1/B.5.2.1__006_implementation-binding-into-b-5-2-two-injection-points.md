@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5"
 section_title: "Implementation & Binding into B.5.2 (two injection points)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__006_implementation-binding-into-b-5-2-two-injection-points.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:5 — Implementation & Binding into B.5.2 (two injection points)"
-line_start: 52432
-line_end: 52463
+line_start: 52470
+line_end: 52501
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,7 +40,7 @@ When the pattern is imported, use NQD-Generate for the selected generation contr
 
 Apply B.5.2 to return a qualified prime conjecture when its comparison warrants one, or an explicit abort, defer or split result. Deduction, evidence acquisition and action choice remain separate questions.
 
-Primary dominance test: compute the (ε-)Pareto front over the declared `DominanceSet`. When the Context consumes the ordinary default, that means the declared `Q` components. For tie-breaking, use only the constituted Novelty, ΔDiversity_P, Surprise or IlluminationSummary results named by the active C.19 policy. Optional archive or telemetry readings retain their declared use; promotion into dominance requires an explicit policy. `Use-Value` remains non-dominant unless the active `Q` tuple includes it.
+For the primary dominance test, identify the eligible assessed candidates and compute their front under the declared `DominanceSet` and applicable tolerance. When the Context consumes the ordinary default, that means the declared `Q` components. For tie-breaking, use only the constituted Novelty, ΔDiversity_P, Surprise or IlluminationSummary results named by the active C.19 policy. Optional archive or telemetry readings retain their declared use; promotion into dominance requires an explicit policy. `Use-Value` remains non-dominant unless the active `Q` tuple includes it.
 
 **Fallback when no narrower local policy is specified**
 > Use the ordinary default `DefaultId.DominanceRegime` from `G.Core/G.5` together with the active `C.19` policy-side defaults; in ordinary Q-front use this means the declared `Q` components, with `ConstraintFit=pass` as the **candidate admission condition for that front**, assessed after generation.
@@ -56,5 +56,5 @@ Use `Surprise` as a secondary tie-break only when the active C.19 policy names t
 
 #### B.5.2.1:5.1 - Distinguish the returned results
 
-Keep three results distinct: the front records non-domination under the declared `DominanceSet`; the `ExplorationArchive` records retention under its policy; a shortlist records the set selected for a named receiving use. Label each result supplied by the generator and preserve the complete front before any thinning.
+Identify the population used for the front, the coordinates in the `DominanceSet` and the distinct answers the commission requires. Preserve its computed front before thinning. Report retained candidates under their archive policy when an archive is due (CC‑B.5.2.1‑4a). A shortlist answers a subsequent selection question. A budget stop records the end of the run. For a report on niches actually tested, include the applicable tests, including tests whose candidates were discarded. For an exact front over the full hypothesis space, establish how the rest of that space is covered.
 

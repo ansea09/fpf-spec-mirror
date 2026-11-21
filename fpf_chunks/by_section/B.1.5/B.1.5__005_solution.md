@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 43929
-line_end: 44149
+line_start: 43969
+line_end: 44189
 dependencies:
   - "A.1"
   - "A.15"
@@ -133,8 +133,8 @@ State each whole-forming fact in ordinary domain language before choosing its re
 
 | Composition cue | What the claim must let a practitioner decide |
 | --- | --- |
-| serial | which earlier and later Methods participate in which whole, and which accepted result or preserved condition of the earlier Method must satisfy which precondition of the later Method before continuation |
-| parallel | which branch Methods may proceed without a mutual order, the independence condition, and the join condition that must hold before the whole continues |
+| serial | which part Methods belong to the whole, what requires their order, and what permits the later Method to start. If it consumes a result of the earlier Method, establish how that result meets its precondition |
+| parallel | which branches have no prescribed mutual order, which contributions the whole needs and which conditions they must meet together. Where continuation depends on combining results, establish that they can be combined. Account for shared resources across the permitted executions, including simultaneous access when required |
 | guarded choice | which alternative Method is selected, the selection condition, what happens when no guard or several guards hold, and which whole contains that choice |
 | iteration | which part Method repeats, what establishes another iteration, and the stop or failure condition |
 | Method refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
@@ -145,7 +145,7 @@ Use B.5.MR for refinement or abstraction between models of Methods. Establish a 
 
 Before using a first–then or vertical list as Method architecture, make both checks.
 
-1. **Preserve order.** Ask what must finish or become true before another Method can start or continue. Name the Methods, the required result or condition, any join or adapter, and the failure or stop route. Keep a first–then result as an unfolding or order claim; its position does not make it a subject level.
+1. **Preserve order.** Ask what must finish or become true before another Method can start or continue. Identify the source of the order. A protocol can require two independent assessments in sequence with the first assessment sealed until both finish. Other Methods need an actual handover. For those, identify the result, any join or adapter, and what happens when the receiving conditions fail. Keep a first–then result as an unfolding or order claim; its position does not make it a subject level.
 2. **Test simultaneous contribution.** Choose a representative working situation and ask whether several Methods contribute without forming one before-after chain. They may be enacted in one Work whole or in overlapping Work occurrences. When asserting dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
 
 Both answers may be true. A Method can contain an ordered segment while other Methods contribute during the same broader Work. The source's reading order and the fact that several Methods are used together decide neither which Methods are parts of one whole nor whether any level exists.

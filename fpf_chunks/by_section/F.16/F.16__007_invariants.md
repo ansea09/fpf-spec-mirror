@@ -6,12 +6,12 @@ section_id: "F.16:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__007_invariants.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:6 — Invariants"
-line_start: 132482
-line_end: 132493
+line_start: 132675
+line_end: 132686
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,20 +39,18 @@ dependencies:
   - "F.7"
   - "F.9"
 keywords:
-  - "actual values"
-  - "boundary"
+  - "case values"
   - "direct relations"
   - "evidence"
-  - "exact sources"
-  - "optional cell"
-  - "optional comparison table"
-  - "practical gain"
+  - "general method"
+  - "joint conclusion"
+  - "scope"
   - "working situation"
 ---
 
 ### F.16:6 - Invariants
 
-1. **Claim first.** The example states one recognizable claim and practical gain before its architecture.
+1. **Claim first.** The reader can identify the worked claim and its practical use. For a method to be reused, the reader can recover what to do when case values change, which premises must still hold and why they suffice.
 2. **Actual subjects.** World, claim, evidence, status, and use assertions attach to actual values, not lexical cells or rows.
 3. **Direct relations.** Every substantive relation cites the pattern that defines or tests it; F.9 is conditional on a real local-meaning relation, and the word *proxy* never supplies an indicator relation.
 4. **Optional aids.** F.17 cells and F.7 tables appear only when they reduce reader effort; their presence or layout does not supply evidence.
@@ -60,5 +58,5 @@ keywords:
 6. **Time and object distinctions.** MethodDescription, Work, observation, and output remain distinct; windows are stated when they change the result.
 7. **Agency precision.** Every asserted dated Work uses the performer's recovered A.13 core and independent A.15.1 admission. The core includes its obtaining assignment; add F.6 only when the worked claim needs precise assignment-bound attribution. Recover a separately needed local-kind or description claim under its own rule.
 8. **Evidence, evaluation, and boundary.** The page shows why the claim is supported. An evaluation retains its inputs, rule, result and applicable scale; any claimed or required evaluation Work, exact application, status and durable verdict assertion remain distinct. State the consequential limits of the result.
-9. **Didactic parsimony.** Every item changes the worked answer; optional machinery is omitted when it does not.
+9. **Didactic parsimony.** Keep what the reader needs for the worked answer or the promised method. A condition may leave the answer in this case unchanged and determine whether the method works elsewhere.
 

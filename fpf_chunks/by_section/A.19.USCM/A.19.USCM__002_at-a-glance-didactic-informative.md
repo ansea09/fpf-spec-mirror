@@ -6,12 +6,12 @@ section_id: "A.19.USCM:0"
 section_title: "At a glance — didactic, informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__002_at-a-glance-didactic-informative.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:0 — At a glance — didactic, informative"
-line_start: 39728
-line_end: 39737
+line_start: 39768
+line_end: 39777
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

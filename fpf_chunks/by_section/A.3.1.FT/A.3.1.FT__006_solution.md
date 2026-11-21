@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__006_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:4 — Solution"
-line_start: 11288
-line_end: 11340
+line_start: 11312
+line_end: 11364
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

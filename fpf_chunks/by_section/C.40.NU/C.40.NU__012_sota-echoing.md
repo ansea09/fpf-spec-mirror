@@ -6,12 +6,12 @@ section_id: "C.40.NU:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:11 — SoTA-Echoing"
-line_start: 91875
-line_end: 91886
+line_start: 92062
+line_end: 92073
 dependencies:
   - "C.17"
   - "C.18"

@@ -6,18 +6,19 @@ section_id: "A.2.2:7"
 section_title: "Reconsider the Claim, Its Support or Its Fit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__008_reconsider-the-claim-its-support-or-its-fit.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:7 — Reconsider the Claim, Its Support or Its Fit"
-line_start: 5644
-line_end: 5659
+line_start: 5669
+line_end: 5684
 dependencies:
   - "A.1"
   - "A.15"
   - "A.2.3"
   - "A.2.6"
   - "C.2.1"
+  - "C.32.MWA.PP"
   - "E.23.CDI"
 keywords:
   - "Method-relative capability"

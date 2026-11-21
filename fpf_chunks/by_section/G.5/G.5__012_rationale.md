@@ -6,12 +6,12 @@ section_id: "G.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__012_rationale.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:10 — Rationale"
-line_start: 138702
-line_end: 138710
+line_start: 138921
+line_end: 138929
 dependencies:
   - "C.11"
   - "C.18"
@@ -58,7 +58,7 @@ keywords:
 
 * **Why registries?** Stable row editions preserve the grouping and eligibility basis for later dispatch. Assurance records enter when required by the declared use or public-registration contract.
 * **Why separation via Extensions?** QD, OEE and preference-learning have different method semantics. Extensions let a selector use those semantics only for the task that needs them.
-* **Why set-return?** Partial orders are common and often the only admissible representation under heterogeneous scales; set-return preserves semantics and makes tie criteria explicit.
+* **Why name the result?** A comparator can establish that two candidates are incomparable under the stated criteria. Returning both as a shortlist needs the candidate domain and the selector’s rule. A handoff, abstention or escalation has its own grounds.
 * **Why explicit defaults with one declared source?** Indexing each default by its governing definition lets consumers use and revise the same rule.
 * **Why selected-set result declaration here?** Once the current question is to state retained alternatives or an all-member result for downstream use, the selector should declare that result directly instead of leaving it implicit in local choice, pool-policy, or enactment notes written for other purposes.
 * **Why `JointUseSet`?** A shortlist preserves alternatives for later choice; an all-member result says that removing one member changes the result for the named use. `JointUseSet` is a local `SetResultFamily` value using the existing member identities. `G.5-3 Select` may emit it only over exact Method candidates admitted through that kernel. `G.5-6 DeclareSetResult` covers already identified members with a current inclusion basis, including framework editions, without retyping them as Methods or asserting a relation among them.

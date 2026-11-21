@@ -6,12 +6,12 @@ section_id: "G.0:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:11 — SoTA‑Echoing"
-line_start: 136027
-line_end: 136036
+line_start: 136244
+line_end: 136253
 dependencies:
   - "A.10"
   - "A.17"
@@ -57,7 +57,7 @@ keywords:
 The pattern connects the following evaluation and governance practices:
 
 * treating abstention or deferral as an evaluation outcome, for example when the available evidence does not warrant the requested judgement (as in selective prediction),
-* preserving multiobjective / partial-order outputs as sets (set-valued reporting, Pareto and archive methods) rather than silently collapsing to a scalar,
+* preserving the declared result of a multiobjective comparison, including established incomparability, and a frontier or archive when the receiving operation calls for one,
 * versioning and pinning the evaluation surfaces and publishing the policy identifiers so the evaluation can be reproduced,
 * making evidence minima explicit and auditable (a conceptual analogue of modern reproducibility/robustness checklists and evaluation protocols),
 * keeping method-family specifics modular (e.g., QD/archives, open-ended exploration budgets) via explicit wiring to governing patterns rather than embedding method semantics into the universal legality gate.

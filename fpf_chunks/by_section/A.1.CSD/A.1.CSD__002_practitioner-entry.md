@@ -6,12 +6,12 @@ section_id: "A.1.CSD:0"
 section_title: "Practitioner Entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__002_practitioner-entry.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:0 — Practitioner Entry"
-line_start: 3925
-line_end: 3962
+line_start: 3927
+line_end: 3964
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -38,13 +38,13 @@ keywords:
 
 ### A.1.CSD:0 - Practitioner Entry
 
-**Use this when.** Use this pattern when proposed or observed Work, realization, operation, use, maintenance, misuse, failure, recovery, retirement, policy, or change may alter Systems omitted from the current decision or investigation, and finding one of them could change a probe, constraint, alternative, monitoring condition, explanation, or reopen decision.
+**Use this when.** A proposed or observed change may affect Systems outside the current account, or a decision depends on how far an existing finding reaches. The recipient may need one credible possibility, a complete list within agreed bounds, or grounds for a decision about several Systems together.
 
-Ask: **Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what should the receiver do next?**
+**Working question.** Which Systems could undergo the change that matters to this decision, and what would establish that the answer covers the cases the recipient relies on?
 
-**First useful move.** Name the exact focus and receiver. Generate a small set of concrete change-producing possibilities, trace outward through supported direct relations or explicitly modal path claims, and challenge the current boundary for a missing bearer.
+**First useful move.** Name the focus and what the recipient must decide. Identify the change that counts, when and where it matters, and who can determine that criterion. Use a rule covering the domain if one already settles the question. Otherwise trace a supported relation or possible path. Could a wider arrangement change the answer while everything reported about this System stays the same? Could the total stay the same while one recipient loses service?
 
-**First useful result.** Return the smallest bounded consequence account useful to the named decision or investigation. A qualified claim, retained constraint or alternative, modal path, or explicit unknown can finish the answer with its material limit. Further discovery is selected only when its obtainable contribution warrants the whole burden.
+**First useful result.** One supported possibility can justify retaining an alternative. A complete list requires grounds for every inclusion and for coverage of all qualifying Systems in its domain. The list can be empty. A bound on a shared property can settle a decision while individual effects remain unknown. Give the finding, its basis and the limit that matters to the recipient.
 
 **Cheap stop.** Stop if the current bearer set and consequence claims already support the receiver at the declared configuration, scope, horizon, and evidence window. Also stop the affected claim branch when an exact non-System finding or missing relation blocks its next claim; return that finding to its direct owner instead of inventing a System.
 

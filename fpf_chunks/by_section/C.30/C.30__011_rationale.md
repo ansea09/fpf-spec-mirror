@@ -6,12 +6,12 @@ section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 75301
-line_end: 75310
+line_start: 75344
+line_end: 75353
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.15.1:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30783
-line_end: 30798
+line_start: 30823
+line_end: 30838
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 
 * **"The log is the performed occurrence."** Dumping telemetry without recoverable candidate-action facts—every actual performer System's A.13 basis, at least one Method actually followed, time window, and at least one obtaining local containing-system relation, plus any other relation the receiving claim uses—does not establish Work. Recover and admit the occurrence independently, keep the log as evidence, and add F.6 only afterward when precise assignment-bound attribution is current.
 * **Record-handling-as-transformation.** ETL, copying, formatting, evaluation, or publication work is treated as proof that a record or dataset changed -> Keep the grounded Work occurrence, but assert actual change only after A.3.4 identifies the transformation and either a declared domain predicate with the exact Work and transformation participants obtains or a C.2.1 local compound claim under A.6.RCD disposition 2 exposes its substrate-admitted constructor, governed base predicates, actual participants, and case facts; otherwise return `missing-governor[work-to-change]`.
-* **Silent cross-locality acceptance.** "Ops accepted it, so audit accepts it." -> Name the criterion and verdict for each receiving use. Assert acceptance only through that use's declared predicate and actual participants. If no predicate governs the asserted acceptance, return `missing-governor[acceptance]`. Identify evaluation or acceptance Work separately when that occurrence claim is needed; identify a C.2.1 evaluation-result episteme when the result content needs its own reference. If the criteria use different local senses, test the F.9 Bridge, state the proposed cross-local comparison or substitution in a separate bounded-use claim, and check reliance; the Bridge itself transfers no acceptance.
+* **Silent cross-locality acceptance.** "Ops accepted it, so audit accepts it." -> Identify the acceptance rule for each receiving use and the facts it requires. Where one decision binds both recipients, establish that scope. Where their terms require separate decisions, identify the qualifying act for each. If no predicate governs the asserted acceptance, return `missing-governor[acceptance]`. Identify evaluation or acceptance Work separately when that occurrence claim is needed; identify a C.2.1 evaluation-result episteme when the result content needs its own reference. If the criteria use different local senses, test the F.9 Bridge, state the proposed cross-local comparison or substitution in a separate bounded-use claim, and check reliance; the Bridge itself transfers no acceptance.
 * **Description-change-as-occurrence-change.** Selecting another MethodDescription episteme is treated as automatically splitting or preserving Work -> State the description-selection change separately. For an identity question raised by an actual history change, first use the direct facts. Apply the named use's continuity-policy criterion only if the grouping remains ambiguous; the policy revises the judgment, not the occurrence. Call the descriptions editions only when their exact C.2.1 relation obtains.
 * **Performed cost and estimate collapse.** Treating an estimate or Method-level statistic as actual resource use -> recover the dated Work and its resource-use relations. Keep forecasts, allocation and derived statistics under their own accounting rules.
 * **Part ambiguity.** Mixing retries, episodes, and operational parts with no declared relation → Independently admit the participating Work occurrences, then assert the relation whose §4.1a predicate holds. For a retry claim, use the locally declared species required by §5.2.

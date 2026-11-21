@@ -6,33 +6,22 @@ section_id: "E.7:4"
 section_title: "Solution — mandatory Archetypal Grounding subsection"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__005_solution-mandatory-archetypal-grounding-subsection.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:4 — Solution — mandatory Archetypal Grounding subsection"
-line_start: 102695
-line_end: 102711
+line_start: 102892
+line_end: 102899
 dependencies:
-  - "E.5.4"
   - "E.6"
-  - "E.8"
 keywords:
 ---
 
 ### E.7:4 - Solution — mandatory *Archetypal Grounding* subsection
 
-Every architectural pattern **SHALL** include a dedicated section titled **“Archetypal Grounding”** that shows the rule and its applicability through concrete cases. Use FPF's two canonical archetypes where the rule applies:
+Every architectural pattern **SHALL** include a section headed **Archetypal Grounding**. Derive its content from the work promised in Solution. State the question, who must make the choice, which kinds of things the claim is about, and which relation supports the answer. A method can organize several constituent methods. A system can perform work by a method, and an episteme can report what happened. A fact about one of these can help answer a question about another when the connection is established.
 
-1. **`U.System`** — a physically embodied acting holon.
-2. **`U.Episteme`** — a non-agentive claim-bearing holon.
+Choose a fitting passage, case, comparison, or usable boundary of the rule. Show what the practitioner starts with, which decision they make and why it follows. When a passage changes the kind of holon, its scale of composition, or the level of abstraction of its model, identify the correspondence at the point the reader needs it. On returning to the commissioned question, use the part of the argument that survives this move. A demonstration can contain the entire general argument when its reasoning covers the permitted variations. A finding confined to one case carries that reach.
 
-When the rule applies across both, use the **Tell-Show-Show** sequence below. When it intentionally applies to only one substrate, supply that case and the scope justification required by CC-AG.3.
-
-The cases make application and limits inspectable. A claim of wider applicability needs proof or evidence for that wider scope.
-
-| Stage | Content |
-|-------|---------|
-| **Tell** | `Solution` states the rule and its applicability conditions. |
-| **Show #1** | `Archetypal Grounding` gives a concrete `U.System` case when applicable. |
-| **Show #2** | The same section gives a parallel `U.Episteme` case when applicable. |
+When `U.System` and `U.Episteme` disclose different conditions of the rule, show the difference. Rules about methods, work, disciplines or relationships across kinds need grounding in those subjects. For a range, explain what holds at each relevant scale or level, what transfers between them, or what they support only together, according to the claim. C.39.SA helps to select the range. C.37.MM connects findings from several models. F.19 returns to C.39.QR when a clear passage answers a different question, and to C.39.GA when the reader needs the omitted general argument.
 

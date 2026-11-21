@@ -6,12 +6,12 @@ section_id: "C.39.MF:5"
 section_title: "Archetypal Grounding — EC-417 Release Focus"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__007_archetypal-grounding-ec-417-release-focus.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:5 — Archetypal Grounding — EC-417 Release Focus"
-line_start: 88252
-line_end: 88282
+line_start: 88439
+line_end: 88469
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -46,7 +46,7 @@ The PLM, CI, test rig, AI provider, safety capability, and supplier responsibili
 | relations among the four Methods and two reconciliation accounts | selected because evidence timing, result use, allocation, and authority relations change the release decision |
 | test-rig support decision | retained as a rival non-Method return, but evidence does not make it the sole focus |
 
-The schedule exposes a timing conflict, the reusable accounts expose the checks and guards, and the case question identifies the evidence condition to settle. These connections support a Method-relation focus without making the three subjects one Work.
+The schedule puts the planned signature after integration. If integration requires that signature first, the plan conflicts with the required order. If the applicable method permits provisional integration and reconciliation before release, the dates alone leave feasibility open. Recover which evidence rule governs this case. These connections support a Method-relation focus without making the three subjects one Work.
 
 The first result is therefore a Method-relation focus. It creates no fifth Method and no composite.
 

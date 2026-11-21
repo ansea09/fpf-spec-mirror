@@ -6,12 +6,12 @@ section_id: "F.2:6"
 section_title: "Solution — three mental moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__007_solution-three-mental-moves.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:6 — Solution — three mental moves"
-line_start: 127391
-line_end: 127410
+line_start: 127580
+line_end: 127599
 dependencies:
   - "A.11"
   - "A.7"
@@ -49,5 +49,5 @@ Choose the LNF with minimal editing and explain the LocalSenseClaim. When the re
 
 Ask: **“What has this source use not established?”**
 
-Do not infer sameness, substitution, hierarchy or transfer across sources. Matching spelling alone cannot justify merging materially different uses across editions or languages. Keep the expression distinct from the value that the substantive claim concerns. Take a needed cross-source relation question to F.9.
+A local reading establishes what the expression denotes in its source. Take a proposed relation between source meanings to F.9. When the question is whether particular work followed a process, recover the method and the performed actions through F.11. Matching words across two records cannot establish performance.
 

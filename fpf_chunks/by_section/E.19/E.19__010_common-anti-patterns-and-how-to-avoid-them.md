@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 121076
-line_end: 121106
+line_start: 121265
+line_end: 121295
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -55,7 +55,7 @@ keywords:
 | **Form-only review** | Review time goes to formatting and micro-edits while the normative content, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat FPF-governed sections as depth loci and keep mechanical cleanup subordinate to semantic correction. |
 | **Checklist-clean but content-wrong** | The named profiles, lexical checks, and conformance rows are marked complete, but the repaired text no longer solves the stated problem, assigns a claim to the wrong locus, creates shadow authority, loses a selected companion or projection function, or adds needless boilerplate or support material. | Review accepts a locally tidy pattern while weakening the `FPF` guidance. | Apply substantive solution and locus adequacy: name local content questions, check the actual problem and the governing passages identified by value, ask what became worse, and widen the declared boundary by value when the fix belongs outside the initial reviewed pattern or subset. |
 | **Architecturally right, didactically thin** | The family is admissible, but readers still need project notes to understand what the pattern really governs. | Trust in the pattern depends on external context rather than the pattern text. | Add the missing problem frame, worked slices, local definitions, and guidance naming the concrete contribution of a relevant pattern or the project-side FPF kind and reference before admission. |
-| **Scenario-name grounding** | Grounding names a situation but does not show what the source and resulting publication look like. | Readers cannot tell why the case stays in the family or where it leaves the family. | Add concrete source and resulting-publication slices, especially for transform families and easy boundary confusions. |
+| **Scenario-name grounding** | The situation has a name but the reader cannot establish the relation the claim requires. | An account of a different subject can sound clear while the commissioned question remains open. | Show the grounds for the decision about the subject in question. Compare expressions when the question concerns their content. For a change in availability or in the thing described, use evidence that establishes that change. |
 | **Generic-head underspecification** | An FPF-governed phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the run leaves that head uninterpreted. | Review discusses the sentence before the object kind is stable. | Use the F.19:4 head-kind and precision-before-coarsening rules, with the object's defining pattern where its kind remains unresolved. |
 | **Qualifier-smuggled claim kind or admissible-use boundary** | A modifier such as `comparative`, `safe`, `interactive`, `reliable`, or `faithful` is doing the semantic work while the run treats the phrase as already precise. | The review blesses apparent precision without recovering the claim kind or admissible-use boundary. | Use F.19:4 to unpack the qualifier's claim kind, comparison criterion, and admissible or downstream-use boundary before accepting the phrase. |
 | **Mixed comparison criterion** | One sentence compares or ranks publication-form, carrier, process, authority-reference, or project-record values without a shared governed comparison basis. | The ranking's criterion or condition remains unjustified; different object kinds alone do not invalidate a shared criterion. | Use F.19:4's precision-before-coarsening rule and its comparison/condition-basis test. |

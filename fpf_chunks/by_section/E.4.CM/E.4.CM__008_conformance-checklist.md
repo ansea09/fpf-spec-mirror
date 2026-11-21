@@ -6,12 +6,12 @@ section_id: "E.4.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__008_conformance-checklist.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:7 — Conformance Checklist"
-line_start: 98987
-line_end: 99002
+line_start: 99180
+line_end: 99195
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -42,7 +42,7 @@ keywords:
 - Each reused description supplies the contribution claimed for it.
 - The same-situation comparison preserves a useful remainder without copying complete suppliers.
 - The public owner contains the explanation needed without private development material.
-- A complete case and a consequential changed condition show construction and adaptation.
+- The receiving case exposes the choices entrusted to the practitioner, the grounds that extend across the claimed conditions and any further use that needs evidence.
 - Construction, fit for the receiving result and practical worth have proportionate grounds. Constituent, repertoire and whole-Method claims keep their own limits; necessary training, tools and support remain visible.
 - The need and its basis, nature of the proposal, consequential development decisions, relied-on content and each asserted consequence are connected to their grounds. Evidence concerns the described arrangement and intended use; a missing ground is supplied, the construction is revised or the dependent claim is narrowed.
 - A short entry preserves its first move and returns to the full explanation.

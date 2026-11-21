@@ -6,12 +6,12 @@ section_id: "F.2:8"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__009_micro-examples.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:8 — Micro-examples"
-line_start: 127422
-line_end: 127432
+line_start: 127611
+line_end: 127621
 dependencies:
   - "A.11"
   - "A.7"
@@ -40,5 +40,5 @@ keywords:
 * **ITIL 4 (2020), selected service-management use** — expression and LNF `service-level objective`; Tech **SLO**; Plain **service target**; claim: “A target value or range for a service characteristic.”
 * **NIST RBAC (2004), RBAC scheme** — expression and LNF `role`; Tech **access role**; Plain **permission grouping**; claim: “A named grouping of permissions used in access-control assignment.”
 * **SOSA/SSN (2017), SOSA scheme** — expression and LNF `observation`; Tech **observation**; Plain **act of observing**; claim: “An act applying a procedure to a feature of interest to obtain a result.”
-* **IEC 61131-3, cited edition and runtime passage** — expression and LNF `task`; Tech **task**; Plain **scheduled program execution**; claim: “A cyclic or event-driven runtime unit that invokes programs.”
+* **IEC 61131-3, cited edition and runtime passage** — expression and LNF `task`; Tech **task**; Plain **unit that calls programs on a cycle or in response to an event**; claim: “A cyclic or event-driven runtime unit that invokes programs.”
 

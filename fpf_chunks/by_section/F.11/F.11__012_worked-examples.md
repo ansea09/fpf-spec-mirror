@@ -6,12 +6,12 @@ section_id: "F.11:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__012_worked-examples.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:11 — Worked examples"
-line_start: 130862
-line_end: 130892
+line_start: 131051
+line_end: 131081
 dependencies:
   - "A.13"
   - "A.15"
@@ -61,7 +61,7 @@ The plan does not establish SLO satisfaction. F.12 evaluates the promise from Wo
 * **Method:** PID with feed-forward.
 * **MethodDescription:** controller tuning sheet and program description.
 * **Work:** the actual PLC task cycles in the stated interval.
-* **Outputs:** setpoints and valve-duty values produced during those cycles.
+* **Outputs:** valve-duty commands from this loop. Its input setpoint can be an output of an identified higher loop. Attribute a tuning result to the work that selected the gains.
 * **Evidence:** temperature observations and their scale and unit basis.
 
 If the IEC task expression and a PROV Activity expression are related for reporting, state that exact F.9 relation and loss. It does not create the Work-to-output or evidence relations.

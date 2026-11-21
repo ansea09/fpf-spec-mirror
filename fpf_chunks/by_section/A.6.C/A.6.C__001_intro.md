@@ -6,12 +6,12 @@ section_id: "A.6.C:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:intro — Intro"
-line_start: 16007
-line_end: 16025
+line_start: 16031
+line_end: 16049
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,11 +63,11 @@ keywords:
 > **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.P:4.11a** (service/access subject-pattern recovery), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
 > **Naming boundary:** **F.18** may provide durable names for recovered terms when naming is current; it does not define or constrain the promise-content, speech-act, commitment, permission, work, evidence, or boundary ontology.
 > **Vocabulary boundary:** “Contract”, “SLA” and “guarantee” are Plain-level source cues. The four questions unpack their meaning without defining a new `Contract` kind.
-> **Purpose (one line):** Resolve consequential ambiguity in boundary contract language through the applicable four questions and atomic claims; use the A.6.B Claim Register only when the receiving use needs a record under §4.5.
+> **Purpose (one line):** Resolve the meaning of boundary contract language and decide what the governing terms and acts of the participants settle. Use the A.6.B Claim Register when the receiving use needs a record under §4.5.
 
-**Use this when.** Use `A.6.C` when words such as *contract*, *promise*, *guarantee*, *SLA*, or *interface agreement* leave a consequential ambiguity about what was promised, instituted, governed, performed, produced, delivered, accepted, or evidenced.
+**Use this when.** Use `A.6.C` when words such as *contract*, *promise*, *guarantee*, *SLA*, or *interface agreement* leave a consequential ambiguity about what was promised, instituted, governed, performed, produced, delivered, accepted, or evidenced. Also use it when several clear statements and acts have to be connected to decide whether an order is complete or who still owes work.
 
-**First useful move.** Rewrite the live passage so each assertion identifies its subject, predicate, operands, and governing source; apply only the questions that the passage makes live.
+**First useful move.** For a wording problem, rewrite the relevant assertion to identify its subject, predicate, operands and governing source. Keep the participants, values and conditions on which the assertion depends. For a decision about an order, begin with the undertaking in force and the facts that could change the recipient's decision. Use the corresponding questions in §4.1.
 
 **What changes in practice.** Familiar contract language can remain in Plain prose while technical and normative claims become classifiable under `A.6.B` and adjudicable through their direct sources.
 

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__008_conformance-checklist.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:7 — Conformance Checklist"
-line_start: 34749
-line_end: 34771
+line_start: 34789
+line_end: 34811
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 | `CC-A15.PROD-5` | Every actual transformation is independently identified under A.3.4; work, method, samples, temporal subdivision, and flow representations do not imply transformation composition. |
 | `CC-A15.PROD-6` | Every Work-to-change and change-to-identity link names a declared predicate with participant order and obtaining facts or a filled local A.6.RCD claim. Completion separately names the criterion-satisfaction predicate for `completionSubject` and the closure predicate or local claim for `productionWork`; neither substitutes for the other. |
 | `CC-A15.PROD-7` | `productIdentitySpecification` is identified as a C.2.1 episteme before inception without a surrogate future `producedEntity`; a named applicability predicate or filled local claim applies it to the candidate basis, subject context, and `inceptionBoundary`, and the entity is designated only after that applicable rule first holds. Publication availability, when required, is a separate E.24.PUB occurrence. Any claim that this is an edition of another specification names an obtaining C.2.1 `EpistemeEditionRelation`. |
-| `CC-A15.PROD-8` | A positive inception claim satisfies `A15PROD-D1` and names `identityClosingWork`, `productIdentitySpecification`, its named applicability predicate or filled local claim, `inceptionBoundary`, `producedEntity`, and first satisfaction of that applicable specification's rule. |
+| `CC-A15.PROD-8` | A claim of first existence satisfies `A15PROD-D1`. Identify `producedEntity`, `productIdentitySpecification`, its applicability basis, `inceptionBoundary` and the grounds for first satisfaction there. If the claim also attributes inception to `identityClosingWork`, identify that Work and the effects that satisfy §4.5. |
 | `CC-A15.PROD-9` | Concurrent or nested identity-closing work is composed only through A.15.1 work-part relations; incomparable minimal composites remain plural, and each local inception claim retains its identity-specification episteme and applicability basis. |
 | `CC-A15.PROD-10` | A completion use first names `completionSubject`, criterion episteme, applicability, boundary-state facts, and state-satisfaction predicate. A separate Work-completion claim names `productionWork` and the closure predicate or local claim that makes that satisfaction sufficient to close it. Missing closure semantics blocks only Work completion. |
 | `CC-A15.PROD-11` | Historical state-satisfaction and Work-completion claims retain their criterion episteme, applicability basis, boundary, and boundary-state facts. Rework, a later criterion, damage, loss, delivery, acceptance, release, publication, or availability receives a separate claim. |

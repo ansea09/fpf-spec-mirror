@@ -6,12 +6,12 @@ section_id: "C.40.DC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__013_relations.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:12 — Relations"
-line_start: 92335
-line_end: 92347
+line_start: 92522
+line_end: 92534
 dependencies:
   - "A.3.1"
   - "A.3.2"

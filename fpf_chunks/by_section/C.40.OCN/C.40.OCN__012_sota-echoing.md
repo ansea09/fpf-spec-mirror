@@ -6,12 +6,12 @@ section_id: "C.40.OCN:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:11 — SoTA-Echoing"
-line_start: 91123
-line_end: 91134
+line_start: 91310
+line_end: 91321
 dependencies:
   - "A.15.9"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Further recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_further-recognition-cues.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:11 — Further recognition cues"
-line_start: 127460
-line_end: 127484
+line_start: 127649
+line_end: 127673
 dependencies:
   - "A.11"
   - "A.7"
@@ -41,9 +41,9 @@ Use the completed PROV-O note as one source-backed input. The BPMN, SOSA/SSN and
 
 #### F.2:11.2 - Control and services
 
-* **State-space control source, cited passage and scheme** — `actuation`; Plain **control output**; claim: “A signal applied to influence plant state or output.”
-* **IEC 61131-3, cited runtime passage and scheme** — `task`; Plain **scheduled program execution**; claim as above.
-* **ITIL 4 (2020), incident-management use** — `incident`; Plain **reported service disruption**; claim: “An unplanned interruption or reduction in service quality.”
+* **State-space control source, cited passage and scheme** — `actuation`; Plain **signal applied to the plant**; claim: “A signal applied to influence plant state or output.”
+* **IEC 61131-3, cited runtime passage and scheme** — `task`; Plain **unit that calls programs on a cycle or in response to an event**; claim as above.
+* **ITIL 4 (2020), incident-management use** — `incident`; Plain **unplanned service interruption or loss of service quality**; claim: “An unplanned interruption or reduction in service quality.” A qualifying interruption may be unreported. If a contract starts its response clock at notification, establish that event separately.
 
 Use the source's service-disruption criteria to decide whether a reported plant fault also qualifies as an ITIL incident.
 

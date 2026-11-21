@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.8.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
-line_start: 27416
-line_end: 27582
+line_start: 27456
+line_end: 27622
 dependencies:
   - "A.11"
   - "C.3"

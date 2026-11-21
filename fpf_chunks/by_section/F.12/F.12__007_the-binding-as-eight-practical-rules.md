@@ -6,12 +6,12 @@ section_id: "F.12:6"
 section_title: "The binding, as eight practical rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__007_the-binding-as-eight-practical-rules.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:6 — The binding, as eight practical rules"
-line_start: 131032
-line_end: 131073
+line_start: 131223
+line_end: 131264
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -87,5 +87,5 @@ One generic Bridge cannot establish clause–Work fit, measurement, indicator va
 A monthly verdict, a batch verdict, and an incident verdict are different claims. A new promise, monitor, or window does not rewrite an earlier verdict.
 
 **R8 — Preserve result, status, and assertion boundaries.**
-Keep the operation result on its declared acceptance scale. Map it to `RequirementStatus=Satisfied` or `RequirementStatus=Violated` only through the exact F.10 rule. If evidence coverage, indicator adequacy, scale conversion, or relation support is insufficient, use `EvidenceStatus=Inconclusive`, leave `RequirementStatus=Pending`, or return the exact local result declared by the acceptance scale. Create a C.2.1 verdict episteme only when another use needs that durable assertion.
+Keep the result on its declared acceptance scale. When the evidence leaves more than one fulfilment outcome open, state the unresolved decision and its grounds. Assert a RequirementStatus such as `Satisfied`, `Violated` or `Pending`, or an EvidenceStatus such as `Inconclusive`, only under its applicable F.10 rule. Create a verdict episteme when another use needs that durable assertion.
 

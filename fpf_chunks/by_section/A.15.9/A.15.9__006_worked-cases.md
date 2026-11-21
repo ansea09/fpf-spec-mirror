@@ -6,12 +6,12 @@ section_id: "A.15.9:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__006_worked-cases.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:5 — Worked cases"
-line_start: 33696
-line_end: 33723
+line_start: 33736
+line_end: 33763
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,11 +31,11 @@ keywords:
 
 ### A.15.9:5 - Worked cases
 
-#### A.15.9:5.1 - Reuse closes a payroll scheduling question
+#### A.15.9:5.1 - Which payroll scheduling question can the existing result answer?
 
 An administrator asks whether moving one contractor submission from Thursday to Friday will miss the current pay run. The existing Thursday submission is already admissible under the contractor arrangement; only the proposed later date is unresolved. Before requesting new payroll Work, the administrator finds a dated payroll result covering the same payroll entity, cutoff, and calendar edition. The source is current for employee payments but explicitly excludes the contractor batch.
 
-The administrator returns: “Use the current result for employee items. Keep the contractor submission date unchanged; the checked source does not cover that batch.” The present scheduling answer is complete, while permission to move the contractor item remains unestablished. If moving it later becomes valuable enough to warrant an obtainable contractor-cutoff result, step 3 selects that acquisition.
+The answer about Friday is still open. The employee calendar would read the same whether the contractor cutoff was Thursday or Friday. If that answer is needed to decide on the move, obtain the rule for this contractor and this pay run while the choice is still available. For a recipient who only needs one date already known to make the current run, Thursday answers the question. An agreement to retain Thursday can close the scheduling decision.
 
 #### A.15.9:5.2 - A heat-pump choice needs one acoustic result
 

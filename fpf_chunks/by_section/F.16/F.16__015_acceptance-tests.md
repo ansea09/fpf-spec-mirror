@@ -6,12 +6,12 @@ section_id: "F.16:14"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__015_acceptance-tests.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:14 — Acceptance tests"
-line_start: 132627
-line_end: 132648
+line_start: 132820
+line_end: 132841
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,14 +39,12 @@ dependencies:
   - "F.7"
   - "F.9"
 keywords:
-  - "actual values"
-  - "boundary"
+  - "case values"
   - "direct relations"
   - "evidence"
-  - "exact sources"
-  - "optional cell"
-  - "optional comparison table"
-  - "practical gain"
+  - "general method"
+  - "joint conclusion"
+  - "scope"
   - "working situation"
 ---
 
@@ -61,8 +59,8 @@ keywords:
 * **SCR-F16-S05 (source and evidence).** Exact sources and editions and the A.10 evidence-use basis are visible where they affect the claim; B.3 appears only for an actual named assurance claim.
 * **SCR-F16-S06 (optional aids).** Cells and tables are omitted when they do not reduce reader effort; their presence or layout is not treated as evidence.
 * **SCR-F16-S07 (time and agency).** Windows, Work, System, assignment, and attribution are explicit when material.
-* **SCR-F16-S08 (one-page parsimony).** Every included item changes the answer; a larger case is split without losing its basis.
-* **SCR-F16-S09 (evaluation architecture).** When evaluation is present, its inputs, rule, supported result and applicable result scale are recoverable. Any claimed or rule-required performing System, evaluation Work, enacted Method and exact application/result binding satisfy their direct patterns; any selected EvidenceStatus, RequirementStatus or durable verdict assertion remains separate.
+* **SCR-F16-S08 (one-page parsimony).** Each item helps the reader establish the worked claim or use the promised operation. A split case preserves access to its joint premises and conclusion.
+* **SCR-F16-S09 (evaluation architecture).** When evaluation is present, its inputs, rule, supported result and applicable result scale are recoverable. Any claimed or rule-required performing System, evaluation Work, enacted Method and exact application/result binding satisfy their direct patterns; any selected EvidenceStatus, RequirementStatus or durable verdict assertion remains separate. For a claim about a class or a whole, the reader can recover the grounds for each aspect claimed. When the claim concerns interactions across a range, explain why the connection holds across that range. For an individual case, the evidence may settle that case directly.
 
 #### F.16:14.2 - Regression
 

@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 63661
-line_end: 63847
+line_start: 63699
+line_end: 63886
 dependencies:
   - "A.15"
   - "A.19"
@@ -212,10 +212,11 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 #### C.18:4.4 - Front And Archive Are Different Returns
 
 
-- Start from one declared candidate or eligibility set.
-- Apply the declared dominance relation to eligible candidates for the same use. With incomplete evidence, first establish that the observations admit at least one joint account of the candidates’ performance. Exclude a candidate if every admissible account contains an eligible rival that dominates it. Different accounts can identify different rivals. To establish front membership, rule out domination in every account. Two accounts that give different membership decisions establish that membership is open. A bound or proof can settle the decision without enumerating accounts.
+- Identify the population for the claim. Use `candidateSetRef` for the compared candidates and the comparator reference for the characteristics and dominance rule. If the commission ranges beyond evaluated or retained candidates, establish what can still occur in the rest of that domain.
+- Apply the declared dominance relation to eligible candidates for the same use. With incomplete evidence, consider which candidates could be eligible and what their performance could be, keeping all observations and shared constraints true together. Each such possibility for the candidates together is one admissible joint account. Establish that at least one exists. A candidate is excluded if in each account it is ineligible or an eligible rival dominates it. Name the applicable grounds. Different accounts can identify different rivals. To establish membership, show that the candidate is eligible and undominated in every account. Two accounts that give different membership decisions establish that membership is open. A bound or proof can settle the decision without enumerating accounts.
 - Two candidates may each do better on a different criterion. Their established trade-off differs from uncertainty about who does better. The identity of a rival may remain open after the evidence settles a candidate’s exclusion. If the front is computed over recorded comparisons, state which candidates and comparisons those records cover before using it to judge the underlying alternatives.
-- Return the exploration archive separately when the question concerns retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability.
+- For an exact answer, establish both inclusion and completeness for what the recipient counts. Each reported candidate must be eligible and nondominated across the claimed population. Every eligible nondominated candidate must be accounted for. With ordinary Pareto dominance, distinct candidates tied on every objective can all qualify. For the distinct attainable objective values, report each nondominated vector once. For one realization per vector, also supply an eligible candidate realizing each. For all efficient candidates, include every distinct qualifying identity or a representation from which they can be recovered. A bound can settle the value front while leaving tied identities open. Apply the same test across every jointly admissible account when observations are incomplete.
+- For an exploration archive, state which candidates the policy retained for coverage, diversity, later use or further search. Occupied cells count retained niches under the specified descriptors. To report regions visited or tested, use evidence of visits or tests, including discarded candidates when they count. Two runs can occupy the same cells after testing different regions.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, check which intended archive/front uses or values become worse or more fragile when that signal improves. State the affected uses or values, or the checked loci when none worsened, and cite the policy or decision authority that admits the promotion and any trade-off. If this basis or authority is missing, keep the signal as telemetry. Use it as a bounded tie-breaker only when a separate applicable policy already admits that use.
 - Use `RetentionIntent=steppingStone` when retention exists for frontier expansion or later curriculum value rather than current dominance.

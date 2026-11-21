@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 102749
-line_end: 102850
+line_start: 102938
+line_end: 103039
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -149,7 +149,7 @@ Name an FPF object by its known kind and state the relation the sentence uses. F
 
 Put detailed discovery in its dedicated carriers, including README, ToC, `E.11`, and keep compact pattern relations late in `Relations`. Do not repeat the same boundary or reference family in small prose variants.
 
-Use `E.8` to keep the pattern's positive subject and action guidance first. Apply `F.19` once to each changed natural span as the common precise-plain-language pass. Its connected reading owns language-general semantic completeness and contribution, coordination and foregrounding repair, kind and loss preservation, and local revalidation after wording changes. These facets form one connected `F.19` reading, not separate `E.8` checks.
+Use `E.8` to keep the pattern's positive subject and action guidance first. Apply `F.19` on the first draft and to each changed natural span. Its connected reading covers semantic completeness, the contribution and ordering of expressions, preservation of kinds and useful content, and local revalidation. Where a conclusion depends on holon composition or model abstraction, use F.19:4.3.1.1 on the explanation and on any mantra offered for separate use. If the grounds establish the conclusion only for a case or subclass and the pattern promises it more generally, use C.39.GA to restore the missing inference where the practitioner needs it.
 
 For FPF authoring, `E.8` adds the pattern-specific question: can the intended reader still recognize this pattern's `EntityOfConcern`, working situation, first action or judgement, first useful result, and action-changing boundary before optional modeling and assurance? A cold reader must recover that path from the pattern body. `F.19` governs the sentence-level recovery. Do not copy its method, regression table, or result boundary into a local authoring profile.
 

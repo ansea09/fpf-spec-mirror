@@ -6,12 +6,12 @@ section_id: "F.16:15"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__016_migration-notes.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:15 — Migration notes"
-line_start: 132649
-line_end: 132657
+line_start: 132842
+line_end: 132850
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,20 +39,18 @@ dependencies:
   - "F.7"
   - "F.9"
 keywords:
-  - "actual values"
-  - "boundary"
+  - "case values"
   - "direct relations"
   - "evidence"
-  - "exact sources"
-  - "optional cell"
-  - "optional comparison table"
-  - "practical gain"
+  - "general method"
+  - "joint conclusion"
+  - "scope"
   - "working situation"
 ---
 
 ### F.16:15 - Migration notes
 
-1. **Refactor source tours.** Recover the practical question and one claim; keep only sources that change that answer.
+1. **Refactor source tours.** Recover the receiving use and its worked claim. Keep the sources needed for that answer or the method the reader is meant to reuse.
 2. **Replace mandatory rows.** Retain a table only if it improves comparison; move substantive relations and conclusions back to their direct statements.
 3. **Replace cell subjects.** Name actual kinds, Systems, Work, claims, observations, values, and evidence; leave cells as optional wording addresses.
 4. **Split generic Bridges.** Restore MethodDescription membership, description use, enactment, performed-Work, measurement, evidence, reliance, fulfilment, kind, assignment, publication, or transformation claims as applicable. Add an indicator relation only when a defining or testing pattern supplies it; otherwise retain the blocker.

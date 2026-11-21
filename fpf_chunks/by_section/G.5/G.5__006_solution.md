@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:4 — Solution"
-line_start: 138117
-line_end: 138559
+line_start: 138334
+line_end: 138778
 dependencies:
   - "C.11"
   - "C.18"
@@ -263,6 +263,8 @@ The admissible selector outcome families here are:
 
 `G.5-3 Select` uses grounded candidates and the applicable eligibility/comparison basis. An admitted Select may return an empty candidate set under its declared criteria; a corresponding empty `Shortlist` retains that actual return, criteria and scope. An abstention instead records the failed or unknown condition and has no Select result binding. `G.5-6 DeclareSetResult` emits `SetResultOutcome` from exact already identified members and a current inclusion basis; it does not perform that upstream choice.
 
+When the recipient asks which members were agreed for joint use, the agreement can settle their membership. To recommend a feasible combination, establish that the members meet their uses together under the shared constraints. If several recipients may choose independently from menus, check the joint choices their rights permit. A promise to honor them all needs one jointly feasible way for the participants to act. Each participant must act alike in situations they cannot yet distinguish when they commit, within their own authority (C.11:4.2 and C.43:4.1.1). For a claim that the recipients actually used the members, establish the relevant Work.
+
 A `JointUseSet` uses this bounded representation:
 
 - `namedUse` states the one joint use;
@@ -366,7 +368,7 @@ When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPa
 | --- | --- |
 | The two pump Methods in §0.5 survive, with no admitted ordering. | Emit its unordered `Shortlist`; the receiver still has a choice to make. |
 | A declared comparator orders family_B before family_A for the specialist handoff. | Emit a `RankedShortlist` with `[family_B, family_A]`, the comparator and supporting basis pins, and the handoff use. A request for an order alone supplies no comparator. |
-| The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
+| The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet` with all three editions and the conditions under which the cohort is to use them. |
 | Required selection grounds are missing, or the established gates exclude every candidate. | Emit `AbstainOutcome` with the respective unknown or failed condition and its basis. Use `EscalationOutcome` only for a justified further inquiry or action. If an admitted Select application instead returns an empty set under its declared criteria, preserve that actual result and explain its scope. |
 
 The following extensions apply only when their corresponding mode is active. Their declared `Uses` and pins cite the governing semantics.

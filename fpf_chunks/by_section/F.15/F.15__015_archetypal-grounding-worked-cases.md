@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 132229
-line_end: 132293
+line_start: 132422
+line_end: 132486
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ The slice resolves `activity` under `PROVORunScheme-2026` and `task` under `IEC6
 F.15 result:
 
 * SCR-F15-S3 checks each exact triple; shared run-language does not merge them.
-* SCR-F15-S12 requires an obtaining F.9 occurrence before the comparison uses a semantic relation. Its Card is optional and its bounded-use claim is separate.
+* SCR-F15-S12 requires an obtaining F.9 occurrence before the comparison uses a semantic relation. Its Card is optional and its bounded-use claim is separate. When the claim concerns use of the whole chain, check the combined rule and tolerance. A commission confined to the local checks can finish there.
 * Any F.17 row must pass its own gate. It may contain the exact cells needed by the row use; table shape does not create the row.
 * An `ExecutionSystemRoleKindDescription` remains an F.4 episteme about one exact local `ExecutionSystemRole` under one scheme; it does not describe both cells, assign a system, or prove work.
 * If a later `task` sense becomes cyclic while the `activity` sense remains non-periodic, RSCR-F15-E4 and E9 compare exact later cells and Bridge candidates; evidence may change the use claim or reliance without silently rewriting the prior Bridge.

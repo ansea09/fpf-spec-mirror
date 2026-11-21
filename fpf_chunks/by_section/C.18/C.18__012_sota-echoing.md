@@ -6,12 +6,12 @@ section_id: "C.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__012_sota-echoing.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:10 — SoTA-Echoing"
-line_start: 63910
-line_end: 63922
+line_start: 63951
+line_end: 63965
 dependencies:
   - "A.15"
   - "A.19"
@@ -46,6 +46,8 @@ The cited editions contribute different parts of archive and front practice. Ret
 
 | Source and scope | Contribution | Use boundary |
 | --- | --- | --- |
+| [Dowson, Gandibleux and Kof, *MultiObjectiveAlgorithms.jl*, §1.1](https://optimization-online.org/wp-content/uploads/2025/07/MOAjuly2025.pdf) | Separates efficient decisions, their nondominated objective images and representative decisions for those images. | State which of these the receiving use requires and the eligible domain of the claim. |
+| [Tamby and Vanderpooten, *Enumeration of the Nondominated Set of Multiobjective Discrete Optimization Problems*](https://doi.org/10.1287/ijoc.2020.0953) | Rules out regions that could otherwise contain further nondominated points. | A valid exclusion argument can establish completeness without individually testing every candidate. |
 | Lin et al., *Quality-Diversity Optimization as Multi-Objective Optimization*, arXiv:2602.00478v1 (2026-01-31) | Treats QD/Q-front comparison through declared objective components and dominance. | Cell filling or popularity does not supply the comparator. Keep the front, archive, selected-set declaration and publication uses separate. |
 | Qin et al., *A survey on Quality-Diversity optimization: Approaches, applications, and challenges*, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979` | Surveys approaches, applications, archive/diversity use and open challenges. | Its taxonomy does not replace the retention, comparison or generation relations. G.5 governs a selected-set declaration; E.17/E.24.PUB govern its publication when needed. |
 | Batra et al., *Quality Diversity for Robot Learning: Limitations and Future Directions*, arXiv:2407.17515v1 (2024-07-09) | Makes retained exploration value, generalization pressure and archive limitations relevant beyond current dominance. | Bounded archive occupancy alone does not establish usefulness or open-ended evolution. State the retention basis and cite telemetry only when the claim relies on it. |

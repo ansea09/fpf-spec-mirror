@@ -6,12 +6,12 @@ section_id: "A.0:QF.1"
 section_title: "Early set-result and metric-kind vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__013_early-set-result-and-metric-kind-vocabulary.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1 — Early set-result and metric-kind vocabulary"
-line_start: 2453
-line_end: 2481
+line_start: 2455
+line_end: 2483
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -60,14 +60,14 @@ keywords:
 - Use `Palette` for a plurality-preserving set with no dominance semantics yet.
 - Use `TraditionPalette` only when the members are traditions gathered before later comparison or choice semantics are declared.
 - For methods, hypotheses, environment-method pairs, candidate explanations, or other member kinds, use `Palette` plus explicit `SubjectKind` instead of borrowing the `TraditionPalette` head.
-- Use `Front` only for a non-dominated set under one declared `DominanceSet`.
+- Use `Front` for nondominated candidates over an identified population under the declared `DominanceSet`. A report of the objective values they realize or one representative per value can merge distinct candidates (C.18:4.4).
 - Use `Q-Front` when the declared `DominanceSet` is the declared `Q` components.
 - Use `Archive` for a retained set whose purpose is coverage, stepping-stone retention, or frontier expansion rather than current non-domination.
 - Use `ExplorationArchive` for the broad retained exploration surface; it is the exploration-specific specialization of `Archive`.
 - Use `SteppingStoneSet` only for one narrower retained subset whose stated purpose is future frontier reach rather than the whole archive. It is not part of the ordinary first-pass public-head family for retained exploration.
 - Use `Shortlist` for the set chosen from one declared source set by one named lens.
 - Use `RankedShortlist` only when that shortlist is explicitly rank-ordered.
-- Use `JointUseSet` when every member is included for one named use; keep that use, keyed member entries, inclusion conditions, and basis pins under `G.5`.
+- Use `JointUseSet` when every named member is designated for one use. Give that use, keyed members, inclusion conditions and basis pins under G.5. Ground a claim of joint feasibility or actual use in the conditions or Work that establish it.
 - Use `ShortlistId` for the stable public token of one emitted shortlist; it is not the shortlist itself.
 - Use `ChoiceSet` only when the mathematical set object underlying one shortlist must be named explicitly; do not let it replace the public shortlist head.
 - Use `Q-set` for the declared current objective tuple that may ground the current `DominanceSet`.

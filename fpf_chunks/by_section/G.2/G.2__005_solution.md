@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:4 — Solution"
-line_start: 136569
-line_end: 136882
+line_start: 136786
+line_end: 137099
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -72,7 +72,7 @@ GCoreLinkageManifest := ⟨
     // Scope pins (G.2‑specific)
     CGFrameId, // identifies the exact CG-frame, which is the declared framing episteme; its cited ClaimGraph keeps source and edition, claim regions, EntityOfConcern, comparison basis, and intended use recoverable
     Tradition[],
-    entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
+    entityOfConcern, GroundingHolon?, ReferencePlane, // claim subject, empirical ground when used, and plane
     SoTA_SetId,
     SoTAPaletteDescriptionId,
 
@@ -142,7 +142,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
    Draft Name Cards + Minimal Definitional Sheets (MDS) + alias proposals (incl. concept‑set linkage where applicable), with the required publication pins.
 
 7. **`G.2g entityOfConcern Map`**
-   Map from key terms/claims/public ids to `GroundingHolon`, `ReferencePlane`, and minimal reference cues for later CHR/CAL authoring.
+   Map each key term, claim or public id to the entity or related targets its source claim concerns. Identify the empirical grounding holon when applicable, the reference plane and the cues needed to recover the claim for CHR/CAL authoring.
 
 8. **`G.2h PRISMA Flow Record`**
    A screening/eligibility trail for how sources entered the pack (method‑profile is allowed; see Extensions).

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.9.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
-line_start: 9146
-line_end: 9557
+line_start: 9168
+line_end: 9581
 dependencies:
   - "A.10"
   - "A.13"
@@ -276,6 +276,8 @@ A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.
 * **Multi-function:** `actTypes` is a **set**. When one actual communicative Work performs several recognizable functions, one speech-act occurrence carries all satisfied `actTypes`. Identify several occurrences only when the occurrence-identity rule in §4.1 finds distinct world-side grounds. Their records may share utterance or carrier references. If the named use admits competing segmentations, cite its continuity or segmentation rule or leave the boundary unresolved. Institutional effects remain separately referenceable (SA‑C5).
 
 * **Multi-party:** `addressedTo` is a set. Its optional members may be parties, exact local system-role kinds, or exact obtaining occurrences of directly declared `U.SystemRoleAssignment` species. State which branch each addressee uses. Identify the actual performer and establish any claimed authority, commitment, permission, responsibility or institutional effect under their applicable rules.
+
+A message addressed to two offices can inform both and record a decision made by one. To attribute acceptance to either office or to a body represented by both, establish who could act for whom, what the act covered and which combination of decisions the rule required. A single authorised decision can settle the whole order. Use A.6.C:4.1 when the decision also depends on what the parties separately undertook. Receipt, understanding and use by a particular addressee each need evidence about that addressee.
 
 ### A.2.9:5 — Worked Communication Uses
 

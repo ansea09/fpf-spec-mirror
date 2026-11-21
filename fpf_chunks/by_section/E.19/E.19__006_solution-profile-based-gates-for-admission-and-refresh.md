@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 120447
-line_end: 120998
+line_start: 120636
+line_end: 121187
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -159,7 +159,7 @@ Focus review effort where it can improve semantic and ontological trust. Keep ro
   * **Relations** that define compatibility and impact radius.
 * Check **mechanical corrections** briefly when their scope is limited to the named mechanical property and their semantic and practical effects are unchanged, for example a micro-typo or heading-format correction. For live recoverability or contribution questions in stylistic or narrative rewriting, including RFC-form deontic cleanup, use the whole-span `F.19` reading below. Automate a check only for a named property the tool tests. A clean result establishes that property alone. Semantics, ontology, practical usefulness and source currentness need their own grounds.
 * **Do not block semantic review on template and RFC compliance defects.** Missing header block fields (E.8 H-5), missing canonical sections, or a missing footer marker are fixable integrity defects. Record them as repair items and continue with the FPF-governed section checks in the same run.
-* **Whole-span precise language.** Reviewers SHOULD apply the complete connected Solution in `F.19` to the selected FPF-governed span: recover meaning, test the contribution of each optional expression, and compare useful content before and after repair. Retain its precision-before-coarsening order, cold intended-reader recovery, evidence-selection and coverage conditions. Use E.10 or the subject pattern only for an FPF meaning that remains unresolved.
+* **Whole-span precise language.** Reviewers SHOULD apply the complete connected Solution in `F.19` to the selected FPF-governed span: recover meaning, test the contribution of each optional expression, and compare useful content before and after repair. Retain its precision-before-coarsening order, cold intended-reader recovery, evidence-selection and coverage conditions. For a claim spanning kinds of holon, composition scales or levels of model abstraction, use F.19:4.3.1.1. If the text supports only a narrower conclusion, apply C.39.GA when it promises the broader argument. If an FPF meaning remains unresolved, use E.10 or its subject pattern.
 * **Precision-restoration distribution must be preserved.** Apply `CC-E19-21`; keep only review-specific questions here and use the declared language or subject owner for the repair.
 * **Review-specific continuity questions.** Apply these to the changed claim and affected uses:
   1. Is the pattern's own `EntityOfConcern`, first useful move, practical delta, and any action-changing applicability boundary recoverable, with its action guidance before auxiliary wording, publication, architecture-placement, package, or quality apparatus?
@@ -181,9 +181,9 @@ Check these connected uses:
 * **Performable guidance:** a worked application that makes the Method's own choices, intermediate results and continuation recoverable; useful Consequences and Anti-Patterns; and a clear adoption test. Select additional materially different applications when the declared use requires them.
 * **Subject and reader:** a short account of the primary EntityOfConcern, relation or claim record and any minimal modeling lens needed by typed declaration content. Give early technical terms nearby plain glosses. When several reader situations are served, state the primary working reader, concern and viewpoint.
 * **Recognition and assurance:** put first-use guidance before the declaration, modeling and review/check material needed for assurance. Keep its scope consistent with the recognition claim.
-* **Grounding and breadth:** connect explanatory SoTA rows to their working-reader implication and the cases or boundaries they discipline. A universal or transdisciplinary claim needs heterogeneous recognition situations adequate to that breadth; F.16 is the preferred compact example-matrix template.
+* **Grounding and breadth.** Connect explanatory SoTA rows to their working-reader implication and the cases or boundaries they discipline. Use heterogeneous recognition situations for a universal or transdisciplinary claim. Identify what each illustrates and where the grounds for the claimed range can be recovered. F.16 supplies a compact worked-example format.
 
-Compare the account with the promised subject before using a successful case as an adequacy result. Identify which general grounds explain the choices across the required variations and which differences change the action. Follow a continuing case back to that account when the example’s application problem begins to determine what the pattern teaches. Preserve its useful grounding, then obtain the missing explanation or varied application. Use E.21's scope and case-coverage coordinates when a quality value is required; a demonstration in one case does not settle a broader scope.
+Use C.39.GA when an explanation gives a sound answer for a narrower case or class and promises a more general method. Locate the first inference the recipient would have to supply, restore its grounds and check the conclusions that use it at the promised reach. An argument developed within one example can suffice. E.21 supplies scope and case-coverage coordinates when the decision needs a quality value.
 When admission or refresh includes precise-language repair, apply `CC-E19-7a`. It preserves practical guidance and the Plain/Tech relation under `E.2` `P-2` and `E.12`, with formal identity and dated-Work checks only under the conditions stated there. `F.19` governs the whole-span repair; `E.10` supplies compact cues and FPF routing.
 
 For a broad cleanup across several patterns, or any cleanup that touches FPF-governed Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, check whether the didactic function was harmed. In inspect-repair-verify, restore the working situation, first useful move, and the definition, constraint, test, or other pattern contribution needed by the claim; in independent findings, record the exact harm and repair direction. A positive `improved` or `preserved` account is required only when another evaluation makes that value one of its substantive results, and it belongs in that evaluation.

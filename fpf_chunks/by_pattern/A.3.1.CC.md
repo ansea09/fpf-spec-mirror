@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.CC.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
-line_start: 11034
-line_end: 11235
+line_start: 11058
+line_end: 11259
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -130,7 +130,7 @@ A.15.8.MS supplies the current conversion table used in `W-Disc-1`.
 
 The trial evidence records that `Reviewer-17` normalized the Celsius/Kelvin values before comparison and stopped the release decision. Inspection of `REP-UR-Flow-4`, however, shows identification followed directly by tolerance comparison; the normalization operation is absent. The finding is not “the Method is incoherent”. The construction claim, description claim, support edition, and observed Work agree within this slice. The contradicted claim is the `C37-UR-Flow-4` exposure claim for its action; no C.37.MP profile exists or is needed for this one-use case.
 
-Return `CORR-C37-UR-1`: revise governed representation result `REP-UR-Flow-4` and its direct use row to expose normalization and the unresolved-mismatch branch, or narrow the row's action, required claim, and omission account. Preserve `M-Unit-Review-1`, MethodDescription edition 4, `W-Disc-1`, its task result, and the conversion-table support result. Recheck the same exposure claim after repair. Do not infer fit or worth from the successful Work occurrence.
+Return `CORR-C37-UR-1` to the owner of the flow representation and its use row. For the commissioned pre-release review, restore the normalization step before tolerance comparison and show where an unresolved mismatch stops release. Recheck that a reviewer using this representation can recover both decisions. If the owner retains the view for a smaller task, identify that task in the row. The original reviewer still needs a qualifying guide or an agreed change to the commission. Preserve `M-Unit-Review-1`, MethodDescription edition 4, `W-Disc-1`, its task result and the conversion-table support result. The trial establishes what this reviewer did with the help actually available.
 
 | If the observed defect were instead... | Owner to reconsider | Result not to change automatically |
 | --- | --- | --- |

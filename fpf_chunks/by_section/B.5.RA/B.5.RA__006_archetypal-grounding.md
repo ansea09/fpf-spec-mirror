@@ -6,12 +6,12 @@ section_id: "B.5.RA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__006_archetypal-grounding.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:5 — Archetypal Grounding"
-line_start: 50125
-line_end: 50253
+line_start: 50163
+line_end: 50291
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -148,7 +148,7 @@ Ask, “Did Noah receive or see this parcel, or infer its arrival from the troll
 
 Noah's claim about the trolley can remain credible while his conclusion about the parcel is unsupported. The observation and inferred arrival were compressed into one attributed statement. The repair separates them and locates the missing connection.
 
-Ask what other work moves the trolley and whether this delivery was due to use it. Suppose the workshop uses the same trolley for outgoing parcels, and today's dispatch account explains its position. That removes the offered clue's claimed discrimination for this arrival. The recipient can check the receiving record or inspect the parcel location. Either would be a new ground; repeating Noah's title supplies none.
+Ask what other work moves the trolley and whether this delivery was due to use it. Suppose the workshop uses the same trolley for outgoing parcels, and today's dispatch account explains its position. That removes the offered clue's claimed discrimination for this arrival. A receiving record or inspection can provide fresh evidence of arrival. Its bearing on collection depends on what happens to the parts after receipt.
 
-This differs from a disagreement over the trustworthiness of a witness who saw the parcel. In that case the disputed ground would be the report. Here the observation is accepted and the disputed transition is from trolley position to this parcel's arrival. The first scheme has been abandoned for a substantive reason, the map has changed, and the next inquiry follows the remaining gap.
+This differs from a disagreement over the trustworthiness of a witness who saw the parcel. In that case the disputed ground would be the report. Here the observation is accepted and the disputed transition is from trolley position to this parcel's arrival. The dispatch record explains the trolley’s return and leaves the parcel’s arrival open. The assembler still needs to know whether these parts are ready to collect. A current collection record can settle that question. Receipt can suffice if the receiving arrangement makes these parts immediately available and they remain so at collection time. If parts may have been issued, held or moved, check their present availability. For a request confined to what Noah saw, his report already supplies the answer.
 

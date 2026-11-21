@@ -6,12 +6,12 @@ section_id: "A.1.CSD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__009_conformance-checklist.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:7 — Conformance Checklist"
-line_start: 4109
-line_end: 4125
+line_start: 4123
+line_end: 4139
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -42,12 +42,12 @@ keywords:
 | --- | --- |
 | `CC-A1-CSD-1` | names one exact focus entity and one exact receiving decision or investigation. |
 | `CC-A1-CSD-2` | states configuration when relevant, scope, horizon, and the possibilities examined. |
-| `CC-A1-CSD-3` | traces supported obtaining direct-relation occurrences separately from modal path claims and challenges the starting frame for possible consequence-bearing Systems that remain outside it, stopping relative to the named receiver rather than claiming exhaustive coverage. |
+| `CC-A1-CSD-3` | traces established relations and possible paths, tests the starting boundary against the receiving work and supplies coverage for any complete or negative finding it claims. |
 | `CC-A1-CSD-4` | gives every modal path a proposed relation kind, candidate participants, conditions, support, uncertainty, and its present use limit; a probe is conditional on selected attainable value. |
 | `CC-A1-CSD-5` | uses A.1/A.1.SCR for load-bearing System recognition and preserves non-System findings under their own kind or blocker. |
 | `CC-A1-CSD-6` | derives scale distinctions from exact holons, scopes, construction, delimitation, crossings, or a genuine B.2/B.2.2 question rather than a fixed ladder. |
 | `CC-A1-CSD-7` | states the possible or observed changed characteristic, exact bearer, conditions, time, evidence, uncertainty, and causal status. |
-| `CC-A1-CSD-8` | keeps unlike bearer, change, horizon, evidence, uncertainty, and receiver coordinates visible across scales. |
+| `CC-A1-CSD-8` | keeps each bearer's change and conditions available and establishes the dependence, rule or whole-level evidence used for a joint conclusion. |
 | `CC-A1-CSD-9` | identifies the constraint, alternative, probe, specialist return, monitoring condition, reversible step, or gap needed by the receiver. |
 | `CC-A1-CSD-10` | returns one ordinary C.2.1 episteme with one focus EntityOfConcern, exact ClaimGraph, and effective ReferenceScheme, or keeps the claims local. |
 | `CC-A1-CSD-11` | retains the missing bearer or path and reopen condition needed by the receiving use; any further inquiry is worthwhile and obtainable separately and as a programme, without a mandatory no-inquiry record. |

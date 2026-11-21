@@ -6,12 +6,12 @@ section_id: "F.12:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__005_core-idea-didactic.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:4 — Core idea (didactic)"
-line_start: 130997
-line_end: 131016
+line_start: 131186
+line_end: 131207
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,7 +61,9 @@ For an ordinary evaluation, the delivery facts, adequate observations, acceptanc
 8. the acceptance rule and the result scale it declares; examples include Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales; and
 9. the PromiseContentUse, delivery, fulfilment, measurement, evidence-use, any separately defined indicator or proxy, reliance, and status relations that connect these claims.
 
-The operation's result value comes first. A RequirementStatus assertion of `Satisfied` or `Violated` is available only through the exact acceptance result and its F.10 rule. Insufficient evidence can support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or it can yield a locally declared result such as `Inconclusive` when the acceptance scale says so; it never silently creates a mixed universal scale.
+The operation returns a value on its declared scale. A separate F.10 rule may warrant a RequirementStatus or EvidenceStatus for that result and use. If the evidence leaves the threshold open, say so. `Inconclusive` can itself be a local acceptance result when the scale provides for it.
+
+When the receiving decision concerns acceptance of a commissioned result, ask what effect the arrangement gives this evaluation. A passing value settles acceptance if the agreement makes it decisive and the other required conditions hold. A customer empowered to accept a disclosed deviation can accept an item whose measured value still misses the target. The terms determine what the acceptance covers and whether correction is still due. For several linked undertakings, use A.6.C:4.1.
 
 A plain summary may say **met**, **not met**, or **cannot judge** while distinguishing the result on its declared scale, the standing of the evidence and the status of the requirement.
 

@@ -6,12 +6,12 @@ section_id: "G.2:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 136956
-line_end: 136977
+line_start: 137173
+line_end: 137194
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -54,7 +54,7 @@ keywords:
 
 * **AP‑G2‑1: “One true SoTA score.”**
   **Avoid:** selecting a single unqualified scalar metric as “the” SoTA.
-  **Do instead:** represent evaluation constructs as families/variants; keep partial orders set‑returning (delegated).
+  **Do instead:** represent evaluation constructs as families or variants. Preserve the relationship established by each comparator and the candidates identified by any actual selection (G.Core).
 
 * **AP‑G2‑2: Fusion without explicit alignment proof.**
   **Avoid:** merging rival `Tradition` claims into one statement “by common sense.”

@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:End"
 section_title: "A.3.1.QM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__015_a-3-1-qm-end.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:End — A.3.1.QM:End"
-line_start: 10827
-line_end: 10828
+line_start: 10851
+line_end: 10852
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 140592
-line_end: 140875
+line_start: 140813
+line_end: 141096
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -104,7 +104,7 @@ SoTA‑Pack(Core) :=
   publicationScopeId,
   contextSliceId?,
   CG-FrameContext,
-  entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
+  entityOfConcern, GroundingHolon?, ReferencePlane, // subject of the pack-level claim, empirical ground when used, and plane
 
   // Governing spec refs (refs + edition pins; semantics governed by their patterns)
   CNSpecRef := ⟨A.19 ref, CNSpecRef.edition⟩,
@@ -113,7 +113,7 @@ SoTA‑Pack(Core) :=
   // Selector-facing selection/parity roster token (conceptual; no formats mandated)
   PortfolioRosterId?,        // produced by `G.10‑1` as part of composition; may cite ε and the applicable pinned regime/mode refs
 
-  // Cited payload packs/kits (ids only; semantics governed by the cited governing patterns)
+  // Cited payload packs/kits: resolve each claim’s subject through its own reference. One pack may carry a report on a pump and a comparison of inspection methods tested there.
   SoTAHarvestPackId?          // e.g., G.2 output id
   CHRPackId?                  // G.3 output id
   CALPackId?                  // G.4 output id

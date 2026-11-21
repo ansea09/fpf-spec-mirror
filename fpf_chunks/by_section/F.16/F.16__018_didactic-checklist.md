@@ -6,12 +6,12 @@ section_id: "F.16:17"
 section_title: "Didactic checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__018_didactic-checklist.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:17 — Didactic checklist"
-line_start: 132666
-line_end: 132677
+line_start: 132859
+line_end: 132871
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,14 +39,12 @@ dependencies:
   - "F.7"
   - "F.9"
 keywords:
-  - "actual values"
-  - "boundary"
+  - "case values"
   - "direct relations"
   - "evidence"
-  - "exact sources"
-  - "optional cell"
-  - "optional comparison table"
-  - "practical gain"
+  - "general method"
+  - "joint conclusion"
+  - "scope"
   - "working situation"
 ---
 
@@ -54,6 +52,7 @@ keywords:
 
 * Recognizable situation, failure, and gain?
 * One bounded worked claim and receiving use?
+* If the method is meant to transfer, which inputs and choices can change, and why does the operation still work? If several parts or pages supply the answer, what holds their results together across the stated range?
 * Actual values named?
 * Defining or testing pattern named for every substantive relation, with direct measurement checked before any proxy?
 * Exact sources and editions and evidence where material?

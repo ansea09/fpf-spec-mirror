@@ -6,12 +6,12 @@ section_id: "C.39.RO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__008_conformance-checklist.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:7 — Conformance Checklist"
-line_start: 88100
-line_end: 88109
+line_start: 88287
+line_end: 88296
 dependencies:
   - "A.3.1"
   - "A.3.2"

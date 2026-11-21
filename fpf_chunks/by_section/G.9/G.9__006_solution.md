@@ -6,12 +6,12 @@ section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__006_solution.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 140033
-line_end: 140410
+line_start: 140252
+line_end: 140631
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -42,8 +42,9 @@ keywords:
   - "benchmark plan"
   - "comparator pins"
   - "freshness windows"
+  - "pairwise relations"
   - "parity harness"
-  - "selected-set outcomes"
+  - "selection when commissioned"
 ---
 
 ### G.9:4 — Solution
@@ -77,7 +78,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
   `DefaultId.PortfolioMode`,
   `DefaultId.GammaFoldForR_eff`
   }
-  *(Defaults are cited through `G.Core.DefaultGoverningDefinitionIndex` (not restated here); the expected default governing definitions are `CC‑G5.28`, `CC‑G5.23`, and `CC‑G5.4` respectively.)*
+  *(Use each default when its operation needs it. G.Core.DefaultGoverningDefinitionIndex identifies the governing definitions CC‑G5.28, CC‑G5.23 and CC‑G5.4 respectively.)*
 
 * `CorePinSetIds` := {
   `GCorePinSetId.PartG.AuthoringMinimal`,
@@ -119,13 +120,13 @@ ParityPlan := ⟨
   TaskSignatureRef?, TaskMapRef?,           // conditional G.5 input; TaskMap only for current G.4 CAL gates
   entityOfConcernRef? := EntityOfConcernRef, // one-EntityOfConcern branch only
   targetRefs[]?,                            // exact-target branch only; existing kinds and editions
-  groundingHolonRef := GroundingHolonRef,
+  groundingHolonRef?,                       // required for the empirical grounding used by this claim
   referencePlaneRef := ReferencePlane,
   claimScopeRef := ClaimScope,
   EvaluationWindow,
   UNM_id?, NormalizationMethodId[]?, NormalizationMethodInstanceId[]?, // when “normalize, then compare” is required (ids only; semantics come from CN‑Spec / UNM)
   EpsilonDominance?,                       // optional ε-front thinning (ε≥0; id/param; pinned when used)
-  PortfolioMode?, DominanceRegime?,         // may be explicit or inherited via DefaultGoverningDefinition (semantics follow G.5)
+  PortfolioMode?, DominanceRegime?,         // cite each when the operation uses it, explicitly or through its governing default
   BaselineSet,                            // exact method-family or generator-family targets (ids; notation-independent)
   BaselineBindingRef,                      // evidence-backed baseline-set reference that says what counts as baseline
   FreshnessWindows,
@@ -166,7 +167,7 @@ ParityReport := ⟨
   parityPlanRef := ParityPlanRef,
   entityOfConcernRef?, targetRefs[]?,        // exactly one subject branch is present
   TaskSignatureRef?, TaskMapRef?,           // echoed when the selector branch is used
-  groundingHolonRef, referencePlaneRef,
+  groundingHolonRef?, referencePlaneRef,    // echo the empirical ground when used
   claimScopeRef, EvaluationWindow,
   BaselineSet, BaselineBindingRef, FreshnessWindows,
   CNSpecRef.edition, CGSpecRef.edition, ComparatorSpecRef.edition,
@@ -198,7 +199,7 @@ The report carries the `ParityPlanRef` and echoes the `BaselineBindingRef` used 
 Planning records the conditions needed to repeat and interpret the parity run:
 
 1. **Fix the baseline set.** Choose the exact `BaselineSet` (MethodFamilies, and optionally GeneratorFamilies) used as the comparison baseline. When SoS-log or source-maturity values change baseline eligibility or interpretation, cite `SoS‑LOGBundleId?` and the source-maturity ids by reference; acceptance-gate thresholds remain in `G.4` Acceptance.
-2. **Bind subject, scope, and evaluation window.** Choose exactly one subject branch: one `entityOfConcernRef`, or exact `targetRefs[]` under their existing kinds and editions. For G.5 families, use `MethodFamilyRowRef` or `GeneratorFamilyRowRef`, not a bare lineage id. Then record `groundingHolonRef`, `referencePlaneRef = ReferencePlane`, the chosen `ClaimScope` and `EvaluationWindow`. Keep the EntityOfConcern distinct from its grounding holon, and preserve the stated scope and window.
+2. **Bind subject, scope, and evaluation window.** Choose exactly one subject branch: one `entityOfConcernRef`, or exact `targetRefs[]` under their existing kinds and editions. For G.5 families, use `MethodFamilyRowRef` or `GeneratorFamilyRowRef`, not a bare lineage id. Record the `ReferencePlane`, `ClaimScope` and `EvaluationWindow`. An empirical claim identifies its `groundingHolonRef`. For a comparison of two proven operation-count bounds on a formal domain, identify the bounds, their proofs and the domain. A computer that stores a proof supplies no empirical premise merely by storing it.
 3. **Define baseline-set reference.** Declare what counts as the baseline and how it applies to the selected subject in `BaselineBindingRef` (for example, through an EvidenceGraph path slice or an upstream shipped package or publication-record id). If `BaselineSet` also supplies the exact compared targets, say so and use the same refs by value; otherwise keep baseline and subject refs distinct.
 4. **Equalise window (and budget, if pinned).** Declare a single `FreshnessWindows` and apply it across all baselines; if `Budgeting` is used/pinned, it MUST be shared/pinned across baselines as well.
 
@@ -206,8 +207,8 @@ Planning records the conditions needed to repeat and interpret the parity run:
 
 5. **Pin governance, CSLC comparability and admissibility references, and comparator references.** `CNSpecRef`, `CGSpecRef`, and `ComparatorSpecRef` are referenced with explicit edition pins.
 6. **Pin measurement/comparator definitions (conditional).** Where parity depends on mode‑specific definition records (e.g., DHC/QD/OEE), pin the relevant definition ids/editions/policies. The minimum required pins are declared by the applicable `Extensions` blocks (e.g., `G.9:Ext.DHCParityPins`, `G.9:Ext.QDArchiveParity`, `G.9:Ext.OEEParity`) and the referenced records they cite.
-7. **Bind comparator choice to CG-Spec (CSLC comparability and admissibility).** Any numeric comparison or aggregation MUST be CSLC‑admissible and cite the corresponding CG‑Spec entry (via `ComparatorSpecRef`). If Characteristics differ by unit, scale, or space, the plan MUST declare the ids used for “normalize, then compare” (`UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`) — ids only; semantics are defined elsewhere.
-8. **Declare order & PortfolioMode semantics.** Parity MUST preserve set‑return semantics; `PortfolioMode` and `DominanceRegime` are either explicitly pinned or cited through `G.Core.DefaultGoverningDefinitionIndex`. IlluminationSummary/coverage/regret remain telemetry unless a CAL policy explicitly promotes them (policy‑id pinned & recorded).
+7. **Bind comparator choice to CG-Spec.** Any numeric comparison or aggregation MUST be CSLC-admissible and cite the corresponding CG-Spec entry (`ComparatorSpecRef`). Compare corresponding coordinates on compatible scales and bases. A Pareto comparator can compare kWh with kWh and minutes with minutes in their own units. When a coordinate needs conversion or the admitted operation uses normalization, declare the applicable `UNM_id?`, `NormalizationMethodId[]?` and `NormalizationMethodInstanceId[]?` and establish that the mapping preserves the distinctions the comparator uses.
+8. **Declare the required result.** An admitted A.19.CPM comparison returns relation or poset tokens. Preserve established incomparability. `CompareEligibility` can also withhold comparison if required evidence is missing. Pin the dominance regime when using dominance, including for a frontier. Pin the portfolio mode when the operation uses one. Each can cite its applicable default through `G.Core.DefaultGoverningDefinitionIndex`. IlluminationSummary, coverage and regret remain telemetry unless a cited CAL policy promotes them.
 9. **Attach planned fillings when applicable.** If parity depends on planned slot fillings, this WorkPlan contains the relevant A.15.3 rows in `PlannedFillingRows[]`; each row points to a declaration member defined by its own pattern and has no independent reference or identity. Omit the field when no such row is needed.
 10. **Publish the relation and its receiving use (when invoked).** For distinct recovered F.17 meanings, establish the F.9 relation and the separate bounded-use claim and matching reliance. Cite G.7 calibration, CL and policy pins when that account uses them; its summary does not decide parity admissibility. Kind correspondence also requires receiving admissibility and fresh target classification under C.3.3. A plane relation keeps its own basis. Any numerical assurance penalty follows the applicable B.3 model for the named use.
 
@@ -217,6 +218,8 @@ For one run under the pinned plan, follow these steps:
 
 1. **Validate CSLC references and pins.** Validate the cited CSLC comparability and admissibility references, active pins, and witnesses. Apply the eligibility or acceptance checks required by the pinned comparison and refuse or abstain on non-admissible operations. When using G.5, record its branch trace in its own result vocabulary and use the planned `TaskSignatureRef`. Add the matching `TaskMapRef` when that selector uses G.4 CAL gates. If a live `A.21` gate consumes this check, cite its `GateDecisionResult` and add a `DecisionLog` only when needed for audit or reuse. The profile application and its action consequence remain governed by A.21; do not create a `G.9`-local CSLC gate.
 2. **Run the comparison and any required selection.** Apply the pinned comparator to the admissible comparison inputs and retain its lawful result shape in `ParityReport`. If a selector-facing result is required, apply **G.5** under the plan's exact task and conditional map refs and publish its declared outcome. An ordinary parity or benchmark report ends without G.5 when no selector result is needed.
+
+   Under componentwise minimization, A=(8,3) and B=(10,2) trade cost against time. An admitted comparison can return the singleton `{A ∥ B}`. If A and B are all eligible candidates, both are nondominated. Add C=(7,2) and the frontier becomes `{C}` while the relation between A and B stays the same. Under a comparator that admits intervals, take A=(8,[3,4]) and B=(10,2). Every allowed value for A’s time still gives incomparability. With A’s time in [1,4], A may dominate B or the two may trade off. Report only what the approved comparison supports. If two bounds used as evidence about the same profile contradict each other, resolve that conflict before reporting a relation. If the profiles are consistent and none meets the requested limits, that can settle the eligibility question. Separately, if a required calibration is missing, apply the evidence policy. An admitted narrower comparison can return only its justified tokens. An `abstain` decision leaves the comparison slot unbound.
 
     For a bounded-specialization comparison, the report should include the active specialization profiles or equivalent pins so readers can recover the work-measure threshold target, prior exposure, budget-to-threshold, post-threshold efficiency when relevant, transfer, retention, downside field, and any corridor-entry baseline or evidence note from the report.
 

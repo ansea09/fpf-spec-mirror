@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18`
+Commit SHA: `dba39812b83cac74dd2a3251c134cdc23dfaec86`
 
 Chunking method: `pattern-aware`
 
-Patterns: `406`
+Patterns: `408`
 
 ## Patterns
 
@@ -270,6 +270,8 @@ Patterns: `406`
 - [C.39 — Find and Develop a Way to Obtain a Result](by_pattern/C.39.md)
 - [C.39.QR — Return Results to the Original Question](by_pattern/C.39.QR.md)
 - [C.39.WA — Develop an Account of the Whole Subject](by_pattern/C.39.WA.md)
+- [C.39.GA — Restore a Missing General Argument](by_pattern/C.39.GA.md)
+- [C.39.SA — Choose Composition Scales and Model Abstraction for the Task](by_pattern/C.39.SA.md)
 - [C.39.RO — Turn a Construction into a Reusable Operation](by_pattern/C.39.RO.md)
 - [C.39.MF — Choose and Reopen a Method Development Focus](by_pattern/C.39.MF.md)
 - [C.39.WI — Discover Worthwhile Method Improvements](by_pattern/C.39.WI.md)

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__001_intro.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:intro — Intro"
-line_start: 34260
-line_end: 34273
+line_start: 34300
+line_end: 34313
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 
 **Name.** Separate production work, when this entity first exists, and when production was completed.
 
-**At a glance.** Production wording often compresses three questions: is this dated Work the whole production Work or only a declared part; when did changes attributed to that Work first make the applicable identity rule true so this entity began to exist; and, for completion, which subject state satisfied the criterion and which separate governor made that satisfaction close the production Work? This pattern answers each question with separate local claims. It introduces no universal production relation or production-work kind.
+**At a glance.** Production wording often compresses three questions: is this dated Work the whole production Work or only a declared part; when did this entity first satisfy the applicable identity rule, and which Work brought that about if attribution is required; and, for completion, which subject state satisfied the criterion and which separate governor made that satisfaction close the production Work? This pattern answers each question with separate local claims. It introduces no universal production relation or production-work kind.
 
 Call one specification or criterion an edition of another only when their C.2.1 `EpistemeEditionRelation` obtains.
 

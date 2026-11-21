@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__011_guard-patterns-esg-method-work.md"
-commit_sha: "5e9f4d868afa1f9db90d4c7ff6840bd55f3b8d18"
+commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 7475
-line_end: 7555
+line_start: 7495
+line_end: 7577
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -73,18 +73,20 @@ WorkScope(holderAbilityClaim) covers JobSlice
 ```
 
 **WG‑2 - work-measure target set satisfied** (mandatory for deliverables).
-Guards MUST compare the claimed attained bounds with the quantitative targets required for the JobSlice:
+Compare the holder's supported performance with the result required on the JobSlice. For a specified number, rate or tolerance, compare compatible measures including the uncertainty that could change the decision. For a named result or grade, apply its success predicate.
 
 ```
-SLO and target measures satisfied (latency ≤ L, throughput ≥ T, tolerance ≤ ε, … )
+holder performance on JobSlice satisfies the receiving criterion
 ```
 
-**WG‑3 - qualification-window policy holds** (mandatory for operational use).
-Operational guards MUST assert that the exact qualification-window predicate (qualification, inspection, or recertification) holds at the receiving guard's exact evaluation time:
+**WG‑3 - qualification for current reliance** (mandatory for operational use).
+Establish whether the grounds for the claim apply at the receiving decision time and to this holder, configuration and work. A governing time window has its own predicate:
 
 ```
 qualificationWindowHolds(holderAbilityClaim, qualificationWindowPolicy, evaluationTime) = true
 ```
+
+Where the rule relies on an unchanged configuration or a still-applicable verification, establish that condition. A date limit is needed when the rule makes age or expiry relevant.
 
 **WG-4 - Translation branch for capability use.**
 
@@ -93,7 +95,7 @@ Translate `U.WorkScope` only when its condition predicates use exact local sense
 Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. If the claim's rule and tolerance permit translation only for part of the source Work scope, identify that part and return its target image.
 
 **WG‑5 - Δ(WorkScope).**
-When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). A membership-preserving refit does not itself require new deliverability evidence for the unchanged slices.
+A wider Work scope admits new conditions for assessing the holder. To rely on deliverability there, establish that the available grounds cover the added conditions. An invariant or an applicable earlier qualification can cover a range at once. Obtain new evidence where the grounds run out. A membership-preserving refit retains the covered slices.
 
 #### A.2.6:10.4 - Translation guard
 
