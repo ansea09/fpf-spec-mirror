@@ -6,12 +6,12 @@ section_id: "B.1.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:6 — Conformance Checklist"
-line_start: 43274
-line_end: 43287
+line_start: 43280
+line_end: 43293
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,13 +42,13 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1.2-1` | The whole is already recognized under the admitted `U.System` kind, or the entity and unresolved A.1 recognition result or blocker are stated without promoting the proposal into a kind-like label. |
-| `CC-B1.2-2` | The named decision, system identity, and obtaining part and crossing relations are recoverable under their subject patterns. When a distinct use-relative inclusion/exclusion choice is claimed, it cites the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; without that predicate, source, and result it returns a missing-governor blocker. Any durable C.2.1 episteme states but does not create those facts. An optional selected structure separately satisfies all four A.22 discriminators. |
+| `CC-B1.2-1` | A design conclusion identifies the proposed whole and the stipulations on which the conclusion depends. When the conclusion needs an existing `U.System`, give its recognition under A.1 or identify the unresolved recognition question. |
+| `CC-B1.2-2` | The result identifies the system and the relations the named decision depends on. A design comparison states the assumed arrangements. Conclusions about as-built parts or actual crossings identify the obtaining relations under their subject patterns. When a distinct use-relative inclusion/exclusion choice is claimed, it cites the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; without that predicate, source, and result it returns a missing-governor blocker. Any durable C.2.1 episteme states but does not create those facts. An optional selected structure separately satisfies all four A.22 discriminators. |
 | `CC-B1.2-3` | External supply, signal, control, measurement, source, publication, evidence, transformation, or coupling claims retain participant bindings and relation patterns; none becomes parthood by crossing or importance. |
-| `CC-B1.2-4` | Functional elements, bearers, allocation or correspondence, and any physical or organizational parthood are identified separately. |
-| `CC-B1.2-5` | A whole-level characteristic names its bearer, characteristic relation or assignment, scale, aggregation or inference rule, evidence, and mathematical-lens boundary when current. |
+| `CC-B1.2-4` | When a conclusion uses functional elements, their bearers, an allocation or a part relation, it identifies the grounds for each relation used. |
+| `CC-B1.2-5` | A whole-level characteristic names its bearer, characteristic relation or assignment, scale and supporting evidence. A roll-up or other inference identifies the rule and any mathematical-lens boundary it uses. |
 | `CC-B1.2-6` | Changing, controlling, teaching, measuring, or repairing another holon does not make that holon a part of the acting system; any containing-whole claim has its part-whole relation. |
 | `CC-B1.2-7` | Description artifacts, models, dashboards, digital twins, and registers remain distinct from the system holon and from any selected structure they describe. |
-| `CC-B1.2-8` | Any coordinating `U.Structure` has all four A.22 discriminators and remains non-agentive; otherwise the results stay a plurality. |
+| `CC-B1.2-8` | A claim to have selected a `U.Structure` identifies its subject and establishes the four A.22 discriminators for that subject. A conditional conclusion about a proposed design identifies the stipulated organization that warrants it. |
 | `CC-B1.2-9` | Environment, containing system, the system-of-interest role in a named extended enterprise, the local system-in-hand, and any claim or model-use qualifier remain separately identified; `Context` is not used as their common owner. |
 

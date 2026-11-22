@@ -6,12 +6,12 @@ section_id: "E.4.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:7 — Conformance Checklist"
-line_start: 99180
-line_end: 99195
+line_start: 99302
+line_end: 99317
 dependencies:
   - "A.3.1"
   - "B.1.5"

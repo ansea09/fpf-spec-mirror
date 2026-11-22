@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:11 — Conformance checklist"
-line_start: 63560
-line_end: 63579
+line_start: 63669
+line_end: 63688
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 | `CC-C17-5` | Surprise identifies one model episteme and its separate training basis, modeled sample unit, encoding, size treatment, and discrete probability or continuous measure. A cross-bearer comparison uses a justified common extent, declared per-unit or code-length normalization, or another calibrated rule; otherwise the raw result stays basis-local. Use-Value identifies its objective or criterion; an improvement or gain also identifies its baseline and comparison or counterfactual Method. ConstraintFit identifies the must-constraints and their sources. AttributionIntegrity identifies the applicable duty set, the source or rule used to determine applicability, Scale, missingness rule, and evidence for each duty it evaluates. An empty applicable-duty set produces no numeric ratio; omit the characteristic or return explicit `not applicable`, distinct from an unresolved applicable duty. |
 | `CC-C17-6` | Each coordinate is either a complete C.16 measurement result or a C.2.1 non-measurement ascription under an explicit rule. A displayed number alone fails. |
 | `CC-C17-7` | Aggregate result, optional profile payload, representation or publication form, optional record, and any dated assessment Work remain distinct. |
-| `CC-C17-8` | Novelty is paired with Use-Value or ConstraintFit for approval-facing use; must-constraint failure remains an eligibility failure unless an independently valid exception applies. |
+| `CC-C17-8` | The comparison supplies the criterion the receiving rule requires. Establish each applicable Use-Value or ConstraintFit condition under its own rule. Reuse the novelty result when that rule makes it sufficient. A failed must-constraint excludes the bearer from the affected use unless a valid exception applies. |
 | `CC-C17-9` | Dominance names the characteristic subset, Scale compatibility, polarity, eligibility conditions, and comparison rule. Frontiers are computed from that rule; scalarization is explicit and primitive coordinates remain available. |
 | `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |

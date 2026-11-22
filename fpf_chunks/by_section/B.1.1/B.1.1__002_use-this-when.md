@@ -6,12 +6,12 @@ section_id: "B.1.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:0 — Use This When"
-line_start: 42912
-line_end: 42936
+line_start: 42916
+line_end: 42940
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ Typical moments:
 - a project needs to know whether a relation is part-whole, dependence, representation, influence, source use, publication use, or evidence relation;
 - a selected dependency structure will be expressed with a graph, table, matrix, or another mathematical or representation lens.
 
-**First useful move.** Name the dependency relation and its participants before choosing graph notation. Use B.1.1:4.3 to distinguish common relation kinds, then follow the pattern that defines or tests the relation in question.
+**First useful move.** Start with the decision and what would make its answer differ. Identify the participants and the relation that could transmit that difference before choosing graph notation. Use B.1.1:4.3 to distinguish common relation kinds, then follow the pattern that defines or tests the relation in question.
 
 **What goes wrong if missed.** A generic "depends on" edge can conceal different relations. External influence, order, or temporal dependence may be mistaken for parthood, and mathematical checks may appear precise while the relation being checked remains unclear.
 

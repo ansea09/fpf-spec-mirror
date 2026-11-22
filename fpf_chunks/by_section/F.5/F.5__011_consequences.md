@@ -6,12 +6,12 @@ section_id: "F.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__011_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:9 — Consequences"
-line_start: 128584
-line_end: 128603
+line_start: 128706
+line_end: 128725
 dependencies:
   - "A.10"
   - "A.15"

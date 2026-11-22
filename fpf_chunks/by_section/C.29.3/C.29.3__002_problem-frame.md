@@ -6,12 +6,12 @@ section_id: "C.29.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:1 — Problem frame"
-line_start: 74104
-line_end: 74115
+line_start: 74218
+line_end: 74229
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -25,7 +25,7 @@ keywords:
 
 **Use this when** a computation is available, but the proposed executing arrangement has not yet been connected to its inputs, operations and interpretable results. A motor interface may accept a different number from the one calculated. A circuit may produce a voltage whose scale differs from the input scale. A material admission procedure may preserve a count only while several people share the same stock of cards.
 
-Start with one input the work needs. Explain how it is prepared in the proposed system, which actions perform the computation and how the result is read. Compare the interpreted result with what the abstract computation requires. A failed input preparation, such as a command outside the interface's range, can already determine a useful repair.
+Start with the result the arrangement must deliver. For an input or history covered by the order, explain how the system is prepared, which actions perform the computation and how its result is read. Compare that result with what the recipient needs. An operating law can establish the comparison over its whole range. A particular input can expose a failure, such as a command outside the interface's range.
 
 The first result is a realization design under stated conditions, an interpreted result from an execution, or a failed connection with a proposed correction. The method helps construct and use that connection. The engineering of a circuit, controller, physical apparatus or administrative arrangement supplies the mechanisms that perform the computation.
 

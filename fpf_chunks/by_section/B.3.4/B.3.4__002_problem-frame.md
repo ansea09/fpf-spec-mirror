@@ -6,12 +6,12 @@ section_id: "B.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:1 — Problem Frame"
-line_start: 47227
-line_end: 47236
+line_start: 47273
+line_end: 47282
 dependencies:
   - "A.10"
   - "B.3"
@@ -20,17 +20,11 @@ dependencies:
   - "C.27.TA"
   - "G.11"
 keywords:
-  - "age"
-  - "changed premise"
-  - "epistemic debt"
-  - "evidence currentness"
-  - "qualification window"
-  - "refresh"
 ---
 
 ### B.3.4:1 - Problem Frame
 
-**Use this when.** An earlier result is being relied on now, and a changed condition or a due review may change whether it still supports the receiving claim. Begin with the relied-on use and the premise that may have changed.
+**Use this when.** Decide whether earlier evidence can still support a named use, or design the way a recipient will notice and act on a consequential change. Start with the claim, the use and when the decision must be made. For a question about past reliance, distinguish the conditions that held then from what the decision maker could know at the time.
 
 A bridge's earlier assessment may remain applicable to its unchanged bounded use, while a new traffic load defeats that assessment before its scheduled review. A library result can remain applicable to unchanged dependencies yet fail to address a newly discovered relevant vulnerability. The age of either report does not distinguish these cases.
 

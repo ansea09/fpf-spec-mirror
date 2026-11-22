@@ -6,12 +6,12 @@ section_id: "C.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:5 — Archetypal Grounding"
-line_start: 64492
-line_end: 64505
+line_start: 64601
+line_end: 64614
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -53,7 +53,7 @@ A product-search or architecture-search team can keep several family regions ali
 
 #### C.19:5.2 - Episteme grounding
 
-A SoTA pack often compares traditions that stay non-dominated for different reasons: one clears current evidence quality, one keeps broader transfer value, one preserves family coverage. The `C.19` result is then often `keep_frontier` or `narrow_to_subset`, rather than a scalarized winner.
+A source collection may retain one tradition for the range of its evidence and another because it makes a different family of questions accessible. Decide whether those contributions warrant their continuing cost under the current pool policy. To call a tradition nondominated, also establish under the declared comparator that no eligible rival dominates it. A line kept for later exploration may already have a dominating rival.
 
 #### C.19:5.3 - Collective and contextual grounding
 

@@ -254,50 +254,50 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| B.1 | **Holon Aggregation and Part-Whole Construction** | Stable | Recover what the aggregation claim is about before choosing a notation. For a part–whole claim, name the whole, parts, obtaining part relations and construction basis. Route collection belonging, Method composition, performed-Work parts and mathematical representations to their direct patterns; use C.13 for the construction account and B.2 only for whole reidentification. *Queries:* "Is this a part–whole claim or another kind of aggregation?", "What makes these objects parts of this whole?", "Which pattern supplies the construction or calculation?" | **Builds on:** A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, A.2.7, A.15, A.15.1, A.22, C.29, C.30, B.2, B.3.5. |
-| B.1.1 | **Dependency Structure and Relation Grounding** | Stable | Resolve what each claimed dependency means and which facts make the relation obtain before using its diagram in an aggregation or whole-level claim. Apply graph checks only through a declared representation and the relation's own rule. *Queries:* "Does this dependency mean parthood, order, supply or representation?", "What makes the relation obtain?", "Which conclusions can this graph check support?" | **Builds on:** B.1, A.14, C.13. **Coordinates with:** C.29, A.10, B.3.5. |
-| B.1.2 | **Coordinate Decisions About System Aggregation and Delimitation** | Stable | Coordinate one named aggregation or delimitation decision for one exact entity recognized as a system under A.1 or still being evaluated there. Recover system identity, obtaining part and assembly relations, exact boundary-crossing relations, any use-relative boundary choice, function/bearer allocations, whole-level characteristics, evidence, descriptions, and blockers from their direct owners; select a non-agentive A.22 U.Structure only when their joint organization changes the decision. *Queries:* "Which exact entity and decision are current?", "Which constituents are parts and which exact relations only cross the selected boundary?", "What direct result makes a use-relative inclusion or exclusion current?", "Does the joint organization itself require an A.22 structure?" | **Builds on:** B.1, A.1, A.14, C.13, A.22, and the direct relation owners selected for the current decision. **Coordinates with:** C.11, C.32.PAD, C.2.1, A.6.F, A.6.M, C.16, A.19, C.29, A.10, B.3, A.3.4, A.12, C.30, E.17, the exact crossing-relation owners, and B.2 when changed facts leave a consequential question about whether the existing whole still carries the claim or a new whole is required. |
-| B.1.3 | **Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation** | Stable | Synthesize exact epistemes for a named question, or compile an existing synthesis into one target reference scheme. Preserve source contributions, dependencies, conflicts and mapping limits. Return a justified aggregate calculation or a bounded reasoned synthesis without a common score. *Queries:* "How do I synthesize claims from heterogeneous sources?", "Which support can be combined, and which must stay separate?", "How do I compile the result for another reference scheme?" | **Builds on:** B.1, A.1, C.2. |
-| B.1.4 | **Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)** | Stable | Specify or compute the required aggregate from exact inputs and independently grounded order or temporal relations. Choose the combining rule and result, preserving temporal references, required identity and coverage/overlap conditions. Return a sufficient ordinary answer or the inspectable account the receiving use needs. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
+| B.1 | **Holon Aggregation and Part-Whole Construction** | Stable | Start with the decision about a whole, a part or their organization. Use a result about the subject directly if it settles the question. For a conclusion from composition, establish how the parts and their organization support it. For a design, state the proposed parts and relations. Route collection belonging, Method composition, performed-Work parts and mathematical representations to their direct patterns; use C.13 for the construction account and B.2 only for whole reidentification. *Queries:* "Is this a part–whole claim or another kind of aggregation?", "What makes these objects parts of this whole?", "Which pattern supplies the construction or calculation?" | **Builds on:** A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, A.2.7, A.15, A.15.1, A.22, C.29, C.30, B.2, B.3.5. |
+| B.1.1 | **Dependency Structure and Relation Grounding** | Stable | Identify what each dependency means for the question. An inference about a proposed design uses the relations stipulated for it. A claim about an actual dependency needs grounds that it obtains. Apply graph checks only through a declared representation and the relation's own rule. *Queries:* "Does this dependency mean parthood, order, supply or representation?", "What makes the relation obtain?", "Which conclusions can this graph check support?" | **Builds on:** B.1, A.14, C.13. **Coordinates with:** C.29, A.10, B.3.5. |
+| B.1.2 | **Coordinate Decisions About System Aggregation and Delimitation** | Stable | Determine which parts, allocations and external relations can affect a decision about a system or proposed assembly. Stated connections and requirements can support a conditional design comparison. For an existing assembly, establish the facts the answer depends on. Use A.1 when system identity matters and A.22 when claiming a selected structure. *Queries:* "Which system or proposed design does the decision concern?", "Which constituents are parts and which exact relations only cross the selected boundary?", "What direct result makes a use-relative inclusion or exclusion current?", "Does the joint organization itself require an A.22 structure?" | **Builds on:** B.1, A.1, A.14, C.13, A.22, and the direct relation owners selected for the current decision. **Coordinates with:** C.11, C.32.PAD, C.2.1, A.6.F, A.6.M, C.16, A.19, C.29, A.10, B.3, A.3.4, A.12, C.30, E.17, the exact crossing-relation owners, and B.2 when changed facts leave a consequential question about whether the existing whole still carries the claim or a new whole is required. |
+| B.1.3 | **Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation** | Stable | Choose and connect the claims and sources needed to answer a question, or compile an existing synthesis into a target reference scheme. Preserve material contributions, dependencies, conflicts and mapping limits. A claim about all eligible sources also needs grounds for its coverage. Return a justified aggregate calculation or a reasoned synthesis at the supported scope. *Queries:* "How do I synthesize claims from heterogeneous sources?", "Which support can be combined, and which must stay separate?", "How do I compile the result for another reference scheme?" | **Builds on:** B.1, A.1, C.2. |
+| B.1.4 | **Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)** | Stable | Choose a temporal or order-sensitive aggregate for the required conclusion. Establish the relevant order, reference and overlap conditions. Different admissible orders can give different values yet support the same decision. A promise to deliver a result by a deadline also requires timely completion. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
 | B.1.5 | **Gamma_method - Order-Sensitive Method Composition and Work Enactment** | Stable | *Keywords:* method composition, `methodPartOf`, submethod, order-sensitive method, method relation structure, composite-Method boundary account, typed join, A.6.RCD claim disposition, capability continuity, work enactment, method/work granularity, assurance hooks. *Queries:* "How do I combine methods?", "When is a step a submethod rather than a work part, plan item, or description node?", "Which part Methods stand in `methodPartOf`, and how do other whole-forming claims stop at A.6.RCD's lightest sufficient disposition?", "How do the composite-Method boundary account, typed joins, Gamma_ctx, Gamma_work, and B.3 assurance hooks stay distinct?" | **Builds on:** B.1, B.1.4, A.3.1, A.6.RCD. **Coordinates with:** A.15.1, B.1.6, B.3. |
-| B.1.5.EW | **Recover How Constituent Actions Enact Encompassing Work** | Stable | Start with one action and explain what encompassing work is being performed through it. Consider a relevant change in whole-work conditions to determine whether the action, its coordination or the requested result needs adjustment; recover missing constituent know-how or capability only as far as this use needs. *Queries:* "What larger work am I doing through this action?", "Why does an adequate isolated action fail in this combination?" | **Builds on:** B.1.5, A.15.1. **Coordinates with:** B.1.5.RS, A.22.CGUS, C.30.LCA, C.32.MWA. |
-| B.1.5.RS | **Evaluate a Method Replacement in Its Encompassing Uses** | Stable | Compare a replacement with the results, interactions and resource conditions required by each encompassing use; accept, restrict, adapt or reject the substitution. | **Builds on:** A.3.1, B.1.5. **Coordinates with:** B.1.5.EW, C.11.DUA, C.29. |
-| B.1.5.CM | **Construct and Qualify a Composite Method** | Stable | A proposed combination may be one Method, but cooperation or a shared provider does not establish that whole. Construct constituent contributions, interfaces and relation grounds, or return a useful lower claim. | A.3.1 and B.1.5 for identity/composition; B.1.5.EW and B.1.5.RS for enactment and replacement; C.32.MWA.PP for provision. |
-| B.1.6 | **Work-Resource Aggregation** | Stable | Justify a typed resource total, vector, interval or bounded estimate from warranted input values, identified accounting subjects, scope, time basis and operative rules. Preserve the grounds of actual Work and non-Work carrier phases; distinguish repeated resource contributions from different uses of one carrier. *Queries:* "Which resource values and subjects support this total?", "Does the account count one contribution twice?", "Which additional occurrence, policy-edition or provenance grounds does this use need?" | **Builds on:** A.15.1, C.2.1, C.16. **Coordinates with:** A.6.1, A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the pattern that defines the current comparison, assurance, transformation, reidentification or decision claim. |
-| B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Compare changed facts with explanations that preserve the existing whole's identity for the receiving use. Keep a sufficient existing whole, resolve a missing decisive basis, or test the proposed new whole under A.1 and its admitted kind before making a reidentification claim. Materialize a comparison or reidentification account when later work needs it. Use B.3 when the receiving claim and use require assurance. For a selected assertion or record edition, use G.11 for currentness; the receiving person or system decides reliance. *Queries:* "Which exact existing whole currently explains the claim?", "Which separately governed facts defeat that explanation?", "What exact new whole and admitted kind are proposed?", "Does the complete recognition and reidentification basis pass, fail, or remain unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
-| B.2.P | **Clarify Emergence and Meta-Holon Transition (MHT) Claims** | Stable | Repairs emergence, synergy, higher-level property, MHT, MET, MFT, metric mirage, and collection words entangled with whole-reidentification by recovering the claim kind first. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
-| B.2.2 | **Test the Proposed New Whole as a System** | Stable | Specialize B.2 when its one exact proposed new whole must be recognized under the already admitted `U.System` kind. Apply the complete A.1 construction test and direct system criterion to that same individual; keep delimitation, objective, coordination, capability, system-role kind or assignment, Method, Work, transformation, functioning, architecture, evidence, assurance, and time claims under their direct patterns, and re-base component evidence rather than transferring it by label. *Queries:* "Which exact candidate did B.2 identify for recognition?", "Does that same individual pass complete A.1 and the direct U.System criterion?", "Which additional result-system claims independently obtain?", "Which component evidence remains applicable to the recognized result system?" | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
-| B.2.3 | **Meta-Holon Transition With Episteme Result** | Stable | Test whether B.2's proposed new knowledge whole satisfies A.1 and the C.2.1 ClaimGraph–EntityOfConcern–ReferenceScheme constitution. Assess support when the receiving claim or use requires assurance; keep source synthesis, ordinary episteme changes and publication under their direct patterns when no whole-reidentification question remains. *Queries:* "Does this body of results constitute a new theory or knowledge whole?", "Which source evidence still supports the resulting claims?" | **Specializes:** B.2. **Builds on:** A.1, C.2.1, E.24.UK. **Coordinates with:** C.2.P, C.2.P.DR, E.17, A.10, B.3, B.3.5, C.29. |
-| B.2.4 | **Do Capability or Functioning Changes Require Whole Reidentification?** | Stable | B.2 specialization for cases where independently governed capability, functioning, or selected in-life transformation-flow facts leave a whole-reidentification question after direct-owner and existing-whole explanations are tested. Evidence bears on claims about those facts. | **Specializes:** B.2. **Coordinates with:** A.2.2, C.16, A.6.F, A.3.4, E.18, C.30.TFS-REL, A.15, A.15.1, A.6.M, C.30, C.29. |
-| B.2.5 | **Supervisor-Subholon Feedback Relation** | Stable | Identifies one supervising System, one or more supervised holons, the feedback it receives and its influence on them. A supervisor label or drawing can help locate the proposed arrangement; the feedback claim requires those relations to obtain. | **Builds on:** B.2, A.1, A.12. **Coordinates with:** A.2.1, A.3.4, C.30.LCA, C.29, A.10, B.3. |
-| B.3 | **Is This Claim Supported for This Use? — Trust and Assurance Calculus** | Stable | States whether one exact target claim is adequately supported for one named assurance use through an inspectable argument and the direct results it uses, with limits and reopen conditions. It defines no universal F-G-R/congruence score and does not turn a badge, record, evidence item, gate, permission, or publication into assurance. *Queries:* "What exact claim and use need assurance?", "Which argument and results support it?", "What remains unsupported and what reopens the conclusion?". | **Builds on:** C.2.1, A.2.4, A.10, G.6, A.2.6, C.16, C.16.Q, and the direct domain patterns for each input. **Coordinates with:** A.15.1, A.6.1, G.11, F.10, A.21, C.28, A.22, E.17, E.24.PUB, C.29, and the direct permission, release, safety, responsibility, and controlled-action patterns. |
-| B.3.3 | **Assurance Subtypes & Levels** | Stable | *Keywords:* use-qualified assurance, conceptual correspondence, verification, empirical validation, constructive support, assurance profile. *Queries:* "Does this evidence support the claim and use we rely on?", "What does this assurance level establish, and under which profile?" Use the selected profile to distinguish the support each contribution supplies. Different profiles can define different levels. | **Builds on:** B.3. **Coordinates with:** A.10, C.28, B.3.4, B.3.5. |
-| B.3.4 | **Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt** | Stable | *Keywords:* evidence currentness, age, changed premise, qualification window, refresh, epistemic debt. *Queries:* "Can older evidence still support this unchanged use?", "Which changed condition requires reconsideration, narrower use or a worthwhile refresh?" Keep real rights, calibration and promised-use limits; interpret debt only under an adopted planning model, without automatic truth decay or risk acceptance. | **Builds on:** B.3. **Coordinates with:** A.10, C.11, C.19.2, C.27.TA, G.11. |
-| B.3.5 | **Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)** | Stable | Use when a direct readable relation is already selected and you must decide whether a selected assurance profile needs a current support account. Keep collection-specific belonging and structural parthood separate; use the branch's current construction trace or other permitted support and declare its validation posture. If no profile is selected, keep the direct relation and stop. *Query:* "Do I need an additional assurance account for this already selected direct relation, and what current support does its branch require?" | **Builds on:** B.3, E.14, C.13. |
-| B.4 | **Coordinate Repeated Adaptation (Canonical Evolution Loop)** | Stable | Connect a subject's use, observations and cues about it, a proposed or actual change and renewed use. Apply its own identity rule to distinguish continuation, successor and separate Work occurrences; distinguish phases that occurred from proposed steps, and stop at a sufficient answer to the current question. *Queries:* "How do observations lead to a change that is actually used?", "Did the subject change, or only its description?", "What remains open after deployment?" | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
-| B.4.1 | **Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)** | Stable | Make possible continuations from a stabilized cue explicit, with their grounds and any missing facts needed for use or selection. Keep several routes live or state a justified selection; apply a downstream pattern for a selected further task under its own entry conditions. *Queries:* "Should this signal lead to intervention, inquiry or a requirement question?", "What would justify choosing one route?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
-| B.5 | **Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)** | Stable | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, B.5.EA for an experiential distinction not yet expressible, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
+| B.1.5.EW | **Recover How Constituent Actions Enact Encompassing Work** | Stable | Start with the question about an action or the encompassing work. Trace what a given action helps perform, or work back from the delivery to its constituent actions and external contributions. Follow a change in either direction when the requested explanation or correction depends on it. *Queries:* "What larger work am I doing through this action?", "Which actions formed this delivery?", "Why does an adequate isolated action fail in this combination?" | **Builds on:** B.1.5, A.15.1. **Coordinates with:** B.1.5.RS, A.22.CGUS, C.30.LCA, C.32.MWA. |
+| B.1.5.RS | **Evaluate a Method Replacement in Its Encompassing Uses** | Stable | Assess which uses the proposed replacement preserves. For one named use, follow the conditions that determine compatibility. For a common replacement, include constraints that the affected uses must meet together. Recommend or adopt a replacement when that decision is entrusted to you. | **Builds on:** A.3.1, B.1.5. **Coordinates with:** B.1.5.EW, C.11.DUA, C.29. |
+| B.1.5.CM | **Construct and Qualify a Composite Method** | Stable | Design a candidate Method from the result its users require, or assess a proposed combination. Choose which operations belong to the Method, which results others can supply and how the contributions must fit together. Qualify claims about the design and about an existing Method on their own grounds. | A.3.1 and B.1.5 for identity/composition; B.1.5.EW and B.1.5.RS for enactment and replacement; C.32.MWA.PP for provision. |
+| B.1.6 | **Work-Resource Aggregation** | Stable | Choose the accounting boundary and rule for the requested resource decision, or use an established account directly. Distinguish an exact total, a sufficient bound, an allocation among Works and the design of an accounting rule for future use. Keep actual resource use, estimates and phases of a continuing carrier on their respective grounds. *Queries:* "Which resource values and subjects support this total?", "Does the account count one contribution twice?", "How should future jobs account for a shared resource?" | **Builds on:** A.15.1, C.2.1, C.16. **Coordinates with:** A.6.1, A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the pattern that defines the current comparison, assurance, transformation, reidentification or decision claim. |
+| B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Decide whether the result in question needs a different whole. Distinguish how continuity could be preserved from whether the earlier whole actually continued. Apply the identity rule to what the evidence establishes about its history. To identify a new whole, establish its construction and kind. A design can specify how a whole would work before it exists. *Queries:* "Which changes can the same whole accommodate?", "What would establish a transition, and what can we decide if its history is unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
+| B.2.P | **Clarify Emergence and Meta-Holon Transition (MHT) Claims** | Stable | Recover what a claim about emergence or a “higher level” asks the recipient to judge. A new property of the same whole, a change of model and the formation of a different whole have different consequences. Use the meaning and comparison that can decide the question. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
+| B.2.2 | **Test the Proposed New Whole as a System** | Stable | Identify which operational whole the question concerns. If its boundary is open, compare arrangements that would produce the relevant result and choose the constituents and organization the question depends on. Apply A.1 and the system criterion to a claim that this System exists. For a transition, also establish what changed under the earlier identity rule. Reassess component evidence for the use at the scale of the System. | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
+| B.2.3 | **Meta-Holon Transition With Episteme Result** | Stable | Identify the knowledge whole needed for the inquiry and how its claims, subject and reference scheme hold together. Compare what can vary within the same whole with a change that would require another. Use A.1 and C.2.1 for recognition. Trace the premises needed for the resulting claims, including any relation that connects contributions from several sources. | **Specializes:** B.2. **Builds on:** A.1, C.2.1, E.24.UK. **Coordinates with:** C.2.P, C.2.P.DR, E.17, A.10, B.3, B.3.5, C.29. |
+| B.2.4 | **Do Capability or Functioning Changes Require Whole Reidentification?** | Stable | Establish which capability, contribution in use or functioning changed and which whole bears it. A different result can follow from a change within the same bearer. Use the identity conditions and evidence for the proposed whole when the answer depends on whether it changed. | **Specializes:** B.2. **Coordinates with:** A.2.2, C.16, A.6.F, A.3.4, E.18, C.30.TFS-REL, A.15, A.15.1, A.6.M, C.30, C.29. |
+| B.2.5 | **Supervisor-Subholon Feedback Relation** | Stable | For a proposed supervisory arrangement, work out what the supervising System would learn about the supervised holons and how its response could affect their work. For supervision in operation, trace what was observed, which influence reached the supervised work and how the observation informed that influence for those participants and that period. A report of one direction can answer a question confined to that contribution. | **Builds on:** B.2, A.1, A.12. **Coordinates with:** A.2.1, A.3.4, C.30.LCA, C.29, A.10, B.3. |
+| B.3 | **Is This Claim Supported for This Use? — Trust and Assurance Calculus** | Stable | Develop the argument needed for a recipient to rely on a claim. Identify the actual use, the conditions it requires, and which conclusions follow from the available grounds. For a joint decision connect the premises on which the combined use depends. A request to design a way to assess future claims also calls for the choice of evidence and criteria. *Queries:* "What can this recipient rely on now?", "Which differences must our criteria detect next time?" | **Builds on:** C.2.1, A.2.4, A.10, G.6, A.2.6, C.16, C.16.Q, and the direct domain patterns for each input. **Coordinates with:** A.15.1, A.6.1, G.11, F.10, A.21, C.28, A.22, E.17, E.24.PUB, C.29, and the direct permission, release, safety, responsibility, and controlled-action patterns. |
+| B.3.3 | **Assurance Subtypes & Levels** | Stable | Distinguish what conceptual correspondence, verification, empirical validation and construction each establish for a given use. Apply an existing assurance profile when it fits. To design one, derive the distinctions and criteria from the decisions it will govern and test what it would admit and refuse. An assurance level has meaning within its stated profile. | **Builds on:** B.3. **Coordinates with:** A.10, C.28, B.3.4, B.3.5. |
+| B.3.4 | **Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt** | Stable | Decide what earlier evidence still establishes for the requested use. Trace the premise affected by a change in subject, conditions or use and preserve conclusions that still follow. Reconsider, qualify or refresh the evidence where the decision depends on the affected premise. An adopted debt model can guide planning. | **Builds on:** B.3. **Coordinates with:** A.10, C.11, C.19.2, C.27.TA, G.11. |
+| B.3.5 | **Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)** | Stable | Find the relation on which the receiving claim depends. Belonging to a collection and being a constituent of a whole have different grounds, even when the participants are the same. Use the applicable relation rule. When an assurance profile calls for a support account, connect the selected relation to its construction trace or other admitted evidence. | **Builds on:** B.3, E.14, C.13. |
+| B.4 | **Coordinate Repeated Adaptation (Canonical Evolution Loop)** | Stable | Work from what must continue or change to the observation, decision and means of acting that the responsible participants need. In a design, show how the result of using a method or arrangement could inform the next decision. To establish what actually adapted, trace what the participants used and what they retained or changed. Use the subject's identity rule to distinguish a continuation from a successor. | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
+| B.4.1 | **Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)** | Stable | When others need an account of possible continuations, publish a cue with the choices it makes relevant, the grounds for them and what each recipient can decide. Identify information that could distinguish the routes in time. When the commission concerns a local decision that is already settled, the grounded answer can finish it. | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
+| B.5 | **Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)** | Stable | Use the recipient’s question to choose the reasoning contribution. Obtain the needed construction, explanation or argument from the subject’s premises and methods. A working question can contribute to that answer or open a different inquiry when choosing the direction is part of the work. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, B.5.EA for an experiential distinction not yet expressible, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
 | B.5.EA | **Articulate a Distinction from Experience** | Stable | Use when a participant recognizes something consequential in their experience but cannot yet express the distinction needed to continue. Return to an accessible episode, develop a correctable expression and use the resulting question or relation. | **Coordinates with:** B.5 and B.5.FM for reasoning and model construction; B.5.4 for situational recognition; B.5.RR for changed premises; C.11.DUA for worthwhile further work. |
 | B.5.WN | **Develop Lines of Thought with Notes** | Stable | Use when retained observations, reading or tentative thoughts do not yet help develop a question or argument. Formulate one thought with its grounds, make a consequential connection, follow what changes and leave a usable return. Keep a sufficient project record for ordinary continuation. *Queries:* "How can these notes develop an argument?", "What question emerges from this connection?", "What should remain for a later occasion?" | **Coordinates with:** B.5.EA, B.5.QD and B.5.RR for articulation, question development and revision; A.6.3.RT.OE for an operative expression; A.15.10 and A.15.11 for resumption and encounters; C.2.8 and C.11.DUA for usable recovery and worthwhile effort. |
 | B.5.MPC | **Connect Physical, Mathematical and Computational Reasoning** | Stable | Use when a physical question remains unanswered because the needed physical, mathematical or computational contributions do not yet connect. Start with an available contribution, recover its conditions, obtain a sufficient consequence and interpret it for the physical use. *Queries:* "Which missing contribution prevents the next move?", "What changes when a quantity, command or physical premise changes?", "How can people and AI agents divide this work?" | **Coordinates with:** B.5, A.3.3, C.16, A.6.3.RT, C.29, C.29.1, C.29.2, C.29.3, C.39 and C.40. |
-| B.5.MPC.R | **Repair a Physical-Mathematical-Computational Connection** | Stable | Use when a changed question or observed discrepancy breaks the joint physical answer. Locate the incompatible relation, interpretation, computation or execution; repair its contribution and carry the result back to the physical use. *Queries:* "Why is a correct calculation unusable here?", "What continues during a controller pause?", "Can these observations distinguish the physical cases?" | **Specializes:** the revision work in B.5 and B.5.MPC. **Uses:** B.5.RR, C.29.1, C.29.2, C.29.3, A.3.3, C.16, A.6.3.RT and A.15.9. |
-| B.5.RC | **Recover a Construction from Its Description** | Stable | Use when a description points to a result you need but leaves you unable to obtain it from available inputs. Recover producing operations and their prerequisites, work a small case forward, and establish the property needed for the next use or locate the missing contribution. *Queries:* "What must be available before this operation?", "How do these parts produce the required object?", "Which gap prevents the construction?" | **Coordinates with:** B.5 and B.5.RA for reasoning, A.6.3.RT for expression, C.29.1 and C.29.2 for mathematical transfer and computational formulation, and C.39 for a missing method. |
+| B.5.MPC.R | **Repair a Physical-Mathematical-Computational Connection** | Stable | Use when a changed question or a discrepancy breaks the connection to a physical answer. Identify which connection bears on the discrepancy. Designing a change that will work and establishing what produced a past reading can require different grounds. *Queries:* "Why is a correct calculation unusable here?", "What continues during a controller pause?", "Can these observations distinguish the physical cases?" | **Specializes:** the revision work in B.5 and B.5.MPC. **Uses:** B.5.RR, C.29.1, C.29.2, C.29.3, A.3.3, C.16, A.6.3.RT and A.15.9. |
+| B.5.RC | **Recover a Construction from Its Description** | Stable | When a description names a needed result, recover the operations and their joint prerequisites. Use an instance or a construction over the required class to establish the property the receiving work needs, or locate what is missing. *Queries:* "What must be available before this operation?", "How do these parts produce the required object?", "Which gap prevents the construction?" | **Coordinates with:** B.5 and B.5.RA for reasoning, A.6.3.RT for expression, C.29.1 and C.29.2 for mathematical transfer and computational formulation, and C.39 for a missing method. |
 | B.5.RA | **Recover an Argument for Use** | Stable | Use when you need to recover or challenge the reasoning behind a result for application, explanation or revision. Reconstruct unclear claims and dependencies; for an already clear defeasible argument, begin with a consequential critical question. Keep supported results and trace changes through affected grounds. *Queries:* "Why does this step follow?", "What does this lemma contribute to the whole argument?", "How can I turn this text into an argument map?", "Which critical question could change this conclusion?", "Does this reasoning support the use I need?" | **Coordinates with:** B.5 and B.5.RC for inquiry and construction; B.5.RR for revision; B.5.MPC for joint reasoning; C.2.8 and C.37 for recipient understanding and representation choice. |
 | B.5.RR | **Revise Reasoning After a Premise or Question Changes** | Stable | Use when a changed premise, question or application condition calls earlier reasoning into question. Follow the affected dependencies, retain sufficient alternatives, derive what now follows and apply the revised result. *Queries:* "Which part needs to be worked again?", "Does another argument still support the conclusion?", "What does the changed result let us do?" | **Coordinates with:** B.5, B.5.RA and B.5.RC for reasoning, B.5.MPC.R for joint physical reasoning, and C.11.DUA for further effort. |
-| B.5.FM | **Construct a Model for the Question** | Stable | Use when relevant facts or rules are available but no model yet supports the needed inference. Choose what the model must distinguish and how its parts are related, then derive a consequence for the task. *Queries:* "Which participants or interactions must the model include?", "How can I build a model before commissioning a calculation?", "What grouping makes the next operation possible?" | **Coordinates with:** B.5, B.5.4, C.29, A.3.3, C.16 and A.6.3.RT for model construction; B.5.RR and B.5.MPC.R for revision. |
+| B.5.FM | **Construct a Model for the Question** | Stable | Use when facts or rules are available but a model for the needed inference is missing. Choose the distinctions and relations the inference needs. Where part–whole structure matters, choose the relevant composition scales for each kind involved. *Queries:* "Which participants or interactions must the model include?", "How can I build a model before commissioning a calculation?", "What grouping makes the next operation possible?" | **Coordinates with:** B.5, B.5.4, C.29, A.3.3, C.16 and A.6.3.RT for model construction; B.5.RR and B.5.MPC.R for revision. |
 | B.5.MR | **Compare Models by Refinement and Abstraction** | Stable | Establish what one model preserves and what its admissible designs or executions determine for the same question. Read L0–L4 as levels of model abstraction and L4–L0 as levels of model refinement. Test a claimed strict difference and recheck any conclusion that depended on a restriction. | B.5.FM, B.5.TC, C.2.1, B.1 and C.37.MM. |
-| B.5.TU | **Construct a Use of an Unfamiliar Theory** | Stable | Use when a theory seems useful but its objects and reasoning have not yet been connected to a usable answer. Recover the needed operations, work one application and interpret its consequence for the question. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
-| B.5.TC | **Compare Theoretical Accounts for a Question** | Stable | Use when accounts appear to disagree or compete for a use. Construct their applications to the same case, locate the consequential difference and choose a sufficient account, complementary use or worthwhile inquiry. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
-| B.5.QD | **Develop a Question from a Result or Construction** | Stable | Use when a counterexample, result or newly available operation changes what could be investigated but the next question is unclear. Recover the changed dependency, construct the answer form and work a revealing case before choosing the inquiry. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
-| B.5.QD.CF | **Reformulate a Problem by Examining Its Conflicting Assumptions** | Stable | Use when needed outcomes appear incompatible and examining their premises could reveal another way. Recover the need, expose an assumed necessity or shared condition, construct a new question or candidate way, and return to the retained requirements. *Queries:* "Which assumption makes these requirements conflict?", "Is this means necessary?", "What remains impossible under the retained conditions?" | **Specializes:** B.5.QD. **Uses:** B.5.FM, B.5.RA and B.5.TC. **Coordinates with:** C.40.CD, C.11.DUA and B.1.5.EW. |
-| B.5.1 | **Coordinate Development States: Explore → Shape → Evidence → Operate** | Stable | Use when a project needs a shared account of whether a system or episteme is being explored, shaped, evaluated or operated. Name the development subject and the prerequisites for its intended transition; assess a claim's support for its use separately. *Queries:* "What development state is this subject in?", "What must hold before its next transition?", "Can a useful result be used before development reaches Operation?" | **Builds on:** B.5. |
-| B.5.2 | **Generate and Compare Candidate Explanations (Abductive Loop)** | Stable | Use when an anomaly, opportunity or probe question needs candidate explanations. Frame the question, generate candidates, compare explicit plausibility grounds and return a qualified conjecture or an abort, defer or split result. *Queries:* "What might explain this observation?", "Which rival explanations remain plausible?", "Can I retain a useful conjecture when a discriminating check is unavailable?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
+| B.5.TU | **Construct a Use of an Unfamiliar Theory** | Stable | When a theory seems useful, recover the operations the receiving question requires. Establish what an application or a general derivation makes possible and under which conditions it carries back. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
+| B.5.TC | **Compare Theoretical Accounts for a Question** | Stable | Relate apparently competing theories to the same question. Establish whether a comparison case, a general argument or complementary results provide the grounds the recipient needs. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
+| B.5.QD | **Develop a Question from a Result or Construction** | Stable | Use when a result changes what could be investigated and the next question is unclear. Recover the changed dependency and what an answer could establish. A case or a general argument can disclose an attainable next inquiry. Identify what its result would contribute to any answer still owed. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
+| B.5.QD.CF | **Reformulate a Problem by Examining Its Conflicting Assumptions** | Stable | When needed outcomes appear incompatible, identify the requirements that must hold together, recover what produces the conflict and examine an alternative under all retained conditions. An impossibility can settle the original feasibility question. *Queries:* "Which assumption makes these requirements conflict?", "Is this means necessary?", "What remains impossible under the retained conditions?" | **Specializes:** B.5.QD. **Uses:** B.5.FM, B.5.RA and B.5.TC. **Coordinates with:** C.40.CD, C.11.DUA and B.1.5.EW. |
+| B.5.1 | **Coordinate Development States: Explore → Shape → Evidence → Operate** | Stable | Choose the development subject from the decision about a system, an episteme or their contributions. Establish the conditions for its transition, including joint conditions for a service made up of separately developed contributions. Assess support for a claim about that subject according to its use. *Queries:* "What development state is this subject in?", "What must hold before its next transition?", "Can a useful result be used before development reaches Operation?" | **Builds on:** B.5. |
+| B.5.2 | **Generate and Compare Candidate Explanations (Abductive Loop)** | Stable | Recover what the recipient wants explained, such as an occurrence, a recurring pattern, a prospective effect or a conflict between theoretical claims. Assess a supplied hypothesis or construct candidates from dependencies that could produce the finding. Compare their plausibility and return a supported conjecture, a decision to stop or defer, or a useful division of the inquiry. *Queries:* "What might explain this observation?", "Which rival explanations remain plausible?", "Can I retain a useful conjecture when a discriminating check is unavailable?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **Question Form for Entering Abduction (`U.AbductivePrompt`)** | Stable | Defines the explanatory-question publication that B.5.2 accepts as input to hypothesis work. Recover the prompt species, explanatory question, scope and provenance; keep the question distinguishable from an asserted answer. *Queries:* "What makes this question an admissible abductive prompt?", "Is this an open question or a disguised answer?", "Which prompt species applies?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
-| B.5.2.1 | **Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)** | Stable | Use when candidate explanations need an explicit novelty, quality and diversity search basis. Declare the coordinate and policy basis, generate within a stated budget, and return the declared front with any required exploration archive. Apply B.5.2's plausibility comparison to the hypotheses. *Queries:* "How do I explore varied explanatory hypotheses under a budget?", "Which coordinates define this front?", "Which off-front hypotheses remain worth retaining?" | **Builds on:** B.5.2, A.17, A.18, C.17, C.18, C.19. **Coordinates with:** B.4, C.11, G.5. |
+| B.5.2.1 | **Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)** | Stable | Choose or recover generation rules and comparison criteria from what the hypotheses must explain. Search within the budget and return the assessed front and any archive the policy or commission requires. Identify the domain those results cover. B.5.2 supplies the plausibility comparison. *Queries:* "How do I explore varied explanatory hypotheses under a budget?", "Which coordinates define this front?", "Which off-front hypotheses remain worth retaining?" | **Builds on:** B.5.2, A.17, A.18, C.17, C.18, C.19. **Coordinates with:** B.4, C.11, G.5. |
 | B.5.3 | **Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)** | Stable | *Keywords:* domain vocabulary, source-local meaning, F.17 cell, basis relation, direct relation, bounded use and loss. *Queries:* "Which exact source expression and local claim are current?", "Which FPF value or relation does this use require?", "What obtaining relation, direction, loss boundary, and receiving use may be claimed?" | **Builds on:** A.2, A.6.5, C.3, E.24.UK, F.0.1, F.1, F.2, F.3, F.5, F.8, F.17. **Coordinates with:** E.10.ROLE, F.9. |
-| B.5.4 | **Recognize a Concept in a Situation** | Stable | Use when you understand a concept's explanation but cannot yet connect it to an unfamiliar situation. Identify the participants and relations, construct their correspondence, and obtain an interpretation with a consequence that guides the next action. | **Coordinates with:** B.5, C.3, C.29 and A.7.1. |
+| B.5.4 | **Recognize a Concept in a Situation** | Stable | Interpret a situation through a given concept, or select a concept by the relation that could change the answer. Establish the correspondence and use it for the decision the interpretation must support. | **Coordinates with:** B.5, C.3, C.29 and A.7.1. |
 | B.5.PI | **Initiate Inquiry from Work** | Stable | Use an ordinary work occasion to examine what a result enables and what obtaining it required, before a problem or help request is recognized. A suitable mantra can expose unexamined dependencies through its Method and a concrete or possible case. Develop a qualified question, retain an early cue or continue without change. *Queries:* "Why does nobody ask for help?", "Is this recurring adjustment worth examining?", "Why does this answer leave the original concern untouched?" | **Coordinates with:** A.15.11 for method encounters, A.1.STM and B.5.MPC for suitable mantras, B.5.EA for articulation, A.16.1 for cue preservation, B.5.QD and B.5 for inquiry, C.11.DUA and C.11.CRC for worthwhile continuation. |
-| B.5.SD | **Construct an Answer through Substantive Discussion** | Stable | Construct a warranted answer with capable contributors, integrate their subject contributions, route objections to the work they require, and return the answer through its intended and changed use. | **Uses:** A.3.1, B.5.RA, B.5.RR, C.39; Decision Design for an actual decision inquiry. |
+| B.5.SD | **Construct an Answer through Substantive Discussion** | Stable | Construct the answer with the contributors whose knowledge it needs. Connect their grounds for the intended use, address objections that could change the conclusion and return any remaining decision to its holder. | **Uses:** A.3.1, B.5.RA, B.5.RR, C.39; Decision Design for an actual decision inquiry. |
 
 **Part C - Kernel Extension Specifications**
 
@@ -305,8 +305,8 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | :--- | :--- | :--- | :--- | :--- |
 | **Cluster C.I – Core CALs / LOGs / CHRs** | | | | |
 | C.1 | **Physical System State, Conservation, and Resource-Flow Calculus (Sys-CAL)** | Planned | *Keywords:* physical system, composition, conservation law, stock-flow, energy, mass, resource flow, U.System. *Queries:* "How to model physical systems in FPF?", "What conservation or stock-flow claim is being made?", "How do resources move through a system?" | **Builds on:** A.1, A.14, A.22, A.3.4, A.19, C.16. **Coordinates with:** B.1.6, planned C.5, planned C.14, C.30. |
-| C.2 | **Epistemic holon composition (KD-CAL)** | Stable | *Keywords:* knowledge, epistemic holon composition, KD-CAL, evidence, trust, assurance, F-G-R, Formality, ClaimScope, Reliability, Congruence Level, provenance. *Queries:* "How do formality, claim scope, and warrant remain distinct when composing epistemes?", "How do mappings and epistemic changes affect their use?", "What is F-G-R?". | **Builds on:** A.1, A.10, B.3. **Prerequisite for:** All patterns using F-G-R. |
-| C.2.1 | **`U.Episteme`: Constitution, Empirical Grounding, and Edition Relations** | Stable | Identifies one episteme through exact claim content, exact EntityOfConcern, and effective ReferenceScheme under EpistemeConstitutionRelation; governs its empirical-grounding and edition relations while keeping declarations, views, publications, carriers, and representations separate. | **Builds on:** A.1, A.6.REL, A.6.0, A.6.5, A.7, C.29. **Coordinates with:** C.3.2, E.17.0, E.24.UK, E.24.PUB, A.10, B.3, G.11. |
+| C.2 | **Epistemic holon composition (KD-CAL)** | Stable | *Keywords:* knowledge, epistemic holon composition, KD-CAL, evidence, trust, assurance, F-G-R, Formality, ClaimScope, Reliability, Congruence Level, provenance. *Queries:* "Which claims must be connected to warrant the conclusion the recipient needs?", "How do formality, claim scope, and warrant remain distinct when composing epistemes?", "How do mappings and epistemic changes affect their use?", "What is F-G-R?". | **Builds on:** A.1, A.10, B.3. **Prerequisite for:** All patterns using F-G-R. |
+| C.2.1 | **`U.Episteme`: Constitution, Empirical Grounding, and Edition Relations** | Stable | Develop an account for the recipient’s work or recover what an existing account says. Identify one episteme through its exact claim content, EntityOfConcern and effective ReferenceScheme under EpistemeConstitutionRelation. Establish empirical grounding, edition, view, representation or publication through the relation required for the use. | **Builds on:** A.1, A.6.REL, A.6.0, A.6.5, A.7, C.29. **Coordinates with:** C.3.2, E.17.0, E.24.UK, E.24.PUB, A.10, B.3, G.11. |
 | C.2.P | **Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)** | Stable | Clarifies wording that leaves an episteme, publication, source-to-use, carrier, or use-disposition distinction unresolved. Recover the sentence's function and the missing distinction, then repair it or use the exact subject pattern; stop when that pattern and its current field are already clear. | **Builds on:** E.10, C.2.1, A.7, E.17.0, E.17, A.6.P, F.18. **Coordinates with:** E.8, E.12, E.17.AUD, E.17.EFP, E.17.ID.CR, A.10, A.15, A.20, A.21, B.3, C.11. |
 | C.2.2 | **Reliability R in the F–G–R triad** | Stable | *Keywords:* Reliability (R), warrant, evidence-bound, F–G–R, ClaimScope (G), support dependencies, qualitative synthesis, direct relation, Congruence Level (CL / CL^k / CL^plane), weakest-link limits, pathwise justification (PathId), TA/VA/LA lanes. *Queries:* "How strongly is this exact claim warranted for this use?", "Can its support be combined numerically, or should it remain a reasoned synthesis?", "What loss does the actual reuse relation justify?", "What is R in F–G–R?" | **Builds on:** C.2, A.2.6, C.2.3, B.3, B.1.3, C.3, F.9. **Coordinates with:** G.6, G.7, E.14, E.18. **Constrains:** any claim reuse whose actual changed scope, kind, plane, scheme, model use, source-local meaning, notation, or evidence basis changes `R_eff`. |
 | C.2.2a | **Language-State Chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, representation, source and use conditions, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "Does the next action need a chart position, and which conditions does it use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
@@ -317,10 +317,10 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.2.6 | **Sources, Evidence and Conditions for Using an Episteme** | Stable | *Keywords:* provenance, evidence use, bodily observation, model derivation, document access, operator interaction, changed use. *Queries:* "What produced this claim and what supports it?", "What must remain available for its intended use?", "Which conclusion or action changes when a source or use condition changes?" | **Builds on:** C.2.1, C.2.P, A.2.4, A.10; A.6.6 and A.6.P for relation recovery. **Coordinates with:** C.2.2a, C.2.LS, C.2.7, A.16, F.9. |
 | C.2.7 | **`LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
 | C.2.8 | **`ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
-| C.2.P.DR | **Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)** | Stable | Repairs declarative-shape overread by separating the visible expression or artifact, the exact current direct object or relation, an exact representation/correspondence use or `none`, and the blocked stronger action claim. Applies to graph and evidence paths, queries, dashboards, schemas, formal substrates, method descriptions, publication faces, tables, and pattern relations; uses four plain questions and exact direct owners. Procedure/code/solver/recipe form establishes no `U.MethodDescription`; required or desired change remains claim content, while an actual `U.Transformation` needs its independent A.3.4 basis. | **Builds on:** C.2.P, E.10, E.10.ARCH, F.19, C.29, C.2.1, A.3.1, A.3.2, A.3.4. **Coordinates with:** E.18, E.18.1, A.10, E.17, A.6.1, E.20, A.15.1, A.15.2, C.16, A.19, A.21. |
-| C.3 | **Kinds, Intent and Extent, and Typed Reasoning** | Stable | *Keywords:* admitted U.Kind individual, membership distinction, KindSignature, admissibility, true/false/unknown judgment, optional extension, SubkindOf preorder, distinct-kind KindBridge. *Queries:* "What makes this the same kind?", "Is this candidate applicable before I judge it?", "Did the kind definition change, or only its locality, declaration, scheme, or slice?" | **Builds on:** A.1, A.2.6, C.2.1, E.24.UK. **Coordinates with:** C.3.1, C.3.2, C.3.3, F.9. |
+| C.2.P.DR | **Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)** | Stable | Repairs declarative-shape overread by separating the visible expression or artifact, the exact current direct object or relation, an exact representation/correspondence use or `none`, and what the interpreted content warrants for the disputed decision or action. Applies to graph and evidence paths, queries, dashboards, schemas, formal substrates, method descriptions, publication faces, tables, and pattern relations; uses four plain questions and exact direct owners. Procedure/code/solver/recipe form establishes no `U.MethodDescription`; required or desired change remains claim content, while an actual `U.Transformation` needs its independent A.3.4 basis. | **Builds on:** C.2.P, E.10, E.10.ARCH, F.19, C.29, C.2.1, A.3.1, A.3.2, A.3.4. **Coordinates with:** E.18, E.18.1, A.10, E.17, A.6.1, E.20, A.15.1, A.15.2, C.16, A.19, A.21. |
+| C.3 | **Kinds, Intent and Extent, and Typed Reasoning** | Stable | *Keywords:* admitted U.Kind individual, membership distinction, KindSignature, admissibility, true/false/unknown judgment, optional extension, SubkindOf preorder, distinct-kind KindBridge. *Queries:* "What must count as one member for this use?", "What makes this the same kind?", "Is this candidate applicable before I judge it?", "Did the kind definition change, or only its locality, declaration, scheme, or slice?" | **Builds on:** A.1, A.2.6, C.2.1, E.24.UK. **Coordinates with:** C.3.1, C.3.2, C.3.3, F.9. |
 | C.3.1 | **Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)** | Stable | *Keywords:* kind identity, membership criterion, continuity, U.SubkindOf direct relation, criterion entailment, closed finite domain, preorder, classification equivalence, participant-determined occurrence. *Queries:* "What makes this subkind relation obtain?", "Can the subkind relation hold in both directions while the kinds remain distinct?", "Does this declaration change preserve the same kind?" | **Builds on:** A.1, A.2.6, A.6.REL, C.2.1, E.24.UK. **Prerequisite for:** C.3.2, C.3.3. |
-| C.3.2 | **Kind Intent, Membership Judgment, and Extension** | Stable | Governs one `KindSignature`, a pre-judgment `admissible` \| `not-applicable` result, a `true` \| `false` \| `unknown` judgment only for an admissible candidate, and an optional extension for a named set-consuming use. Evidentiary use alone creates no criterion condition, while a directly criterion-bearing episteme, status, relation, or publication occurrence remains under its own pattern. *Queries:* "May this candidate be judged here?", "What directly makes it count?", "How do I keep support, judgment, guard, and extension separate?" | **Builds on:** C.3, C.3.1, A.6.0, C.2.1, A.2.6. **Coordinates with:** C.3.3, C.3.4, C.29, A.14, E.24.UK. |
+| C.3.2 | **Kind Intent, Membership Judgment, and Extension** | Stable | Governs one `KindSignature`, a pre-judgment `admissible` \| `not-applicable` result, a `true` \| `false` \| `unknown` judgment only for an admissible candidate, and an optional extension for a named set-consuming use. Evidentiary use alone creates no criterion condition, while a directly criterion-bearing episteme, status, relation, or publication occurrence remains under its own pattern. *Queries:* "May this candidate be judged here?", "What directly makes it count?", "Can I settle the total without identifying every member?", "How do I keep support, judgment, guard, and extension separate?" | **Builds on:** C.3, C.3.1, A.6.0, C.2.1, A.2.6. **Coordinates with:** C.3.3, C.3.4, C.29, A.14, E.24.UK. |
 | C.3.3 | **`KindBridge` and `CL^k` — Correspondence between Distinct Kinds** | Stable | Compares kind identity first. Same-kind reuse needs no bridge; a candidate-bearing use requires a fresh receiving judgment. For independently identified distinct kinds, governs one obtaining directional `KindBridge`, its separate assertion, preservation/loss, and R-only `CL^k` consequence. *Queries:* "Are these two distinct kinds?", "What exact correspondence obtains?", "Was receiving classification evaluated afresh?" | **Builds on:** C.3.1, C.3.2, C.2.1, A.2.6, C.2.2. **Coordinates with:** A.6.REL, F.9. |
 | C.3.4 | **KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind** | Stable | Declares one constrained or differently named use of an existing kind, checks applicability before its three-valued result, and compares kind identity before any cross-local bridge. *Queries:* "How do I tailor this use without cloning a kind?", "Is the request not applicable or merely unknown?", "Does locality change require a bridge, or does the same kind continue?" | **Builds on:** C.3.1, C.3.2, C.2.1. **Coordinates with:** C.3.3, A.2.6, F.9, C.3.A. |
 | C.3.5 | **`KindAT` — Intentional Abstraction Facet for Kinds (K0…K3)** | Stable | *Keywords:* KindAT, K0-K3, editorial facet, declaration planning, assurance planning. *Queries:* "Which intentional abstraction stance does this exact local kind use?", "Where should declaration or assurance effort go without gating on abstraction?" | **Builds on:** C.3, C.3.1, C.3.2, C.3.3, C.3.4, A.2.6, C.2.2, C.2.3. **Used by:** C.3.A only as an explicit non-input to guards. |
@@ -338,35 +338,35 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.13 | **Constructional Mereology (Compose‑CAL)** | Stable | *Keywords:* mereology, part-whole, composition, sum, set, slice, construction account. *Queries:* "How can I show how already identified constituents and relations assemble a whole, form a collection, distinguish an aspect, or delimit a measured portion?", "What is Compose-CAL?". | **Builds on:** A.14 and direct part-relation patterns. **Coordinates with:** C.2.1. **Is used by:** A.1, B.3.5, and subject patterns needing a compact construction account. |
 | **Cluster C.IV – Composite & Macro‑Scale** | | | | |
 | C.14 | **System-of-Systems and Infrastructure Calculus (M-Sys-CAL)** | Planned | *Keywords:* system-of-systems, infrastructure, inter-system dependency, service network, infrastructure boundary, operational coupling. *Queries:* "How to model a complex infrastructure such as a power grid?", "Which cross-system dependency changes the claim?", "When is this a system-of-systems rather than one system?" | **Builds on:** planned C.1, B.2.2, A.22, C.30, B.1.6. **Coordinates with:** C.30.ILC, planned C.5, D.2, G.6, B.3. |
-| C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurand, measurement subject, Characteristic, Scale, Level/Coordinate, Unit, Scale order, measurement-model construction, indication-producing procedure, method, model, calibration, dated measurement work, actual bindings, input/output quantities, uncertainty, measurement result, C.2.1 result episteme, comparability, provenance, bounded later use. *Queries:* "How do I construct a measurement relation and find what an indication can resolve?", "How do I recover a complete measurement chain from a reading, score, rating, sensor indication, dashboard value, or claimed comparison?", "How do I distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision?", "When should ambiguous measurement wording go first to C.16.P, comparison or selection go to A.19, and provenance go to A.10 or G.6?" | **Builds on:** A.17, A.18; uses A.15.1 for dated work, A.6.1 for actual bindings and C.2.1 for the result episteme. **Coordinates with:** C.16.P, A.19, C.28, A.10, G.6, G.11, B.3, G.4, C.11, C.29. **Used by:** patterns that consume typed measurement-result epistemes, including G.4 and B.1.6. |
+| C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurand, measurement subject, Characteristic, Scale, Level/Coordinate, Unit, Scale order, measurement-model construction, indication-producing procedure, method, model, calibration, dated measurement work, actual bindings, input/output quantities, uncertainty, measurement result, C.2.1 result episteme, comparability, provenance, bounded later use. *Queries:* "Which quantity of the part or whole would settle this decision?", "How do I construct a measurement relation and find what an indication can resolve?", "How do I recover a complete measurement chain from a reading, score, rating, sensor indication, dashboard value, or claimed comparison?", "How do I distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision?", "When should ambiguous measurement wording go first to C.16.P, comparison or selection go to A.19, and provenance go to A.10 or G.6?" | **Builds on:** A.17, A.18; uses A.15.1 for dated work, A.6.1 for actual bindings and C.2.1 for the result episteme. **Coordinates with:** C.16.P, A.19, C.28, A.10, G.6, G.11, B.3, G.4, C.11, C.29. **Used by:** patterns that consume typed measurement-result epistemes, including G.4 and B.1.6. |
 | C.16.MR | **Construct a Measurement Relation** | Stable | Use when an indication or proposed procedure lacks a suitable relation to the property being sought. Follow how the indication is produced, combine the subject and instrument relations, retain consequential influences and obtain a conditional result or a missing contribution. *Queries:* "Does the instrument change the value I want?", "How do calibration and interaction combine?", "Which effect needs a correction?", "What can this count or response mean?" | **Coordinates with:** C.16, A.3.3, B.5.RC, B.5.FM, B.5.MPC.R, C.29.2 and C.11.DUA. |
 | C.16.IR | **Determine What a Measurement Indication Can Resolve** | Stable | Use when an available measurement relation leaves the interpretation of an indication unresolved. Construct jointly compatible cases, preserve branches and distinguish feasible values from outer bounds; return the value, comparison or ambiguity that matters to the question. *Queries:* "Can different values give this reading?", "Does this bound settle my threshold?", "What do two readings determine together?", "What changes when reading error is restored?" | **Coordinates with:** C.16, C.16.MR, C.29.1, C.29.2, A.3.3.PI, B.5.MPC.R and C.11.DUA. |
 | C.16.RM | **Repair a Measurement Model or Arrangement** | Stable | Use when an existing measurement disagrees with an expectation or cannot settle the needed distinction. Compare changes to models, apparatus and calculation; retain the wanted quantity, reinterpret usable observations and test the repaired contribution. *Queries:* "Should I change the model or the setup?", "Can I remove an influence instead of estimating it?", "Can the earlier readings still be used?", "Does a computation test support this physical claim?" | **Coordinates with:** C.16, C.16.MR, C.16.IR, B.5.MPC.R, B.5.RR, C.29.2, C.28 and C.11.DUA. |
 | C.16.P | **Restore Precision to Characteristic and Scale Wording** | Stable | Repairs overloaded characteristic, scale, coordinate, metric, score, indicator, threshold, comparison, and scalar-quality wording before applying C.16, A.17–A.19, C.25, C.29, E.21 or another governing pattern. | **Builds on:** E.10, E.10.ARCH, A.17, A.18, C.16, A.19, C.25, C.29, E.21, F.18, A.6.P. **Coordinates with:** C.16.Q, A.19.ECS, evidence, assurance, gate, decision, causal-use, benchmark, and publication patterns governing those claims. |
 | C.16.Q | **Quality-Term Precision Restoration** | Stable | Repairs ambiguous quality wording by recovering the subject, intended sense and conditions, including criteria when the claim evaluates. Use the chosen endpoint’s form directly; retain a transitional ascription only while consequential alternatives need inspection. | **Builds on:** E.10, E.10.ARCH, C.16.P, C.16, C.25, E.21, A.17, A.18, A.19, A.7, C.2.1, E.8, F.9, F.18. **Coordinates with:** A.6.P, A.6.A, A.16, B.4.1, B.5.2.0, A.10, B.3, F.9.1. |
-| C.17 | **Characterising Generative Novelty and Value** | Stable | *Keywords:* qualitative-first evaluation, named comparison basis, Novelty, Use-Value, ConstraintFit, bounded quantitative result, evidence, uncertainty, incomparability. *Queries:* "What is this bearer new relative to, and useful for which objective or must-criterion?", "When is a qualitative answer enough, and when does a quantified result need a declared corpus, Method, Scale, evidence, and uncertainty?", "When does learning wording go first to E.10.LRN, possibility-space change to C.18, or finite configuration comparison to C.11.CRC?" | **Builds on:** A.17, A.18, A.19, A.19.ECS, C.16, C.2.1, A.1.1, A.10, B.3. **Coordinates with:** E.10.LRN, C.18, C.19, G.5, C.11.CRC, C.11, F.9, F.18, B.4, G.11, A.15.1, F.6, A.3.1, A.3.2. |
+| C.17 | **Characterising Generative Novelty and Value** | Stable | *Keywords:* qualitative-first evaluation, named comparison basis, Novelty, Use-Value, ConstraintFit, bounded quantitative result, evidence, uncertainty, incomparability. *Queries:* "Which comparison would establish the novelty the recipient needs to judge? Does the decision also require evidence of usefulness or eligibility?", "When is a qualitative answer enough, and when does a quantified result need a declared corpus, Method, Scale, evidence, and uncertainty?", "When does learning wording go first to E.10.LRN, possibility-space change to C.18, or finite configuration comparison to C.11.CRC?" | **Builds on:** A.17, A.18, A.19, A.19.ECS, C.16, C.2.1, A.1.1, A.10, B.3. **Coordinates with:** E.10.LRN, C.18, C.19, G.5, C.11.CRC, C.11, F.9, F.18, B.4, G.11, A.15.1, F.6, A.3.1, A.3.2. |
 | C.18 | **Open-Ended Search Archive and Front Stewardship** | Stable | *Keywords:* open-ended search, generation, exploration archive, non-dominated front, descriptors, lineage, telemetry, retained exploration value, currentness, refresh. *Queries:* "Which generation, archive, or front claim is current?", "What distinguishes the non-dominated front from retained exploration value?", "When does live-pool treatment move to C.19 or selected-set publication to G.5?" | **Builds on:** C.16, A.19, E.18. **Coordinates with:** C.19, G.5, G.9, G.11, E.23, E.18.1, C.30, C.36, A.15. |
 | C.18.1 | **Scaling‑Law Lens Binding (SLL)** | Stable | *Keywords:* scaling law, scale variables (S), ScaleWindow, compute‑elasticity, data‑elasticity, resolution‑elasticity, elasticity class, knee, diminishing returns, probe uncertainty. *Queries:* "What scaling behavior do the probes support over this resource window?", "Where is a knee supported, and when should the behavior class remain unresolved?", "What scale and parity conditions must travel with this claim?" | **Builds on:** C.16, C.17, C.18. **Coordinates with:** C.19, G.5, G.9, G.10. |
 | C.19 | **Explore-Exploit Live-Pool Governor** | Stable | *Keywords:* explore-exploit, already-live candidate pool, pool-policy result, governing lens, widen, keep frontier, narrow to subset, sunset line, change trigger, selector-facing declaration, publication face, publication occurrence, audience availability. *Queries:* "How should one govern a still-live candidate pool?", "When does fresh generation or possibility-space change return to C.18?", "When do a finite configuration comparison, local choice, or selector-facing declaration leave C.19 for C.11.CRC, C.11, or G.5?" | **Builds on:** C.18, C.16, A.19.CPM, A.19.SelectorMechanism, B.3. **Coordinates with:** E.10.LRN, A.10, C.11.CRC, C.11, C.24, G.5, E.17, E.24.PUB, C.17, G.9, G.11. |
 | C.19.1 | **Bitter‑Lesson Preference (BLP)** | Stable | Use when a comparison relies on scale advantage or a declared generality preference. Start with the cheap scale-claim probe; retain task family, cost, risk, parity and uncertainty. Return a bounded comparison, no scale-based preference, a declared local policy or analogy, or a bounded use with no scale claim. Select a fuller audit or waiver only when its conditions apply, including in E.23 method-family choice. | **Builds on:** C.19, C.24, B.3. **Coordinates with:** E.23, G.5, G.8, G.9, G.11, A.0. |
 | C.19.2 | **Use-Bounded Apparatus Application** | Stable | *Keywords:* use-bounded apparatus application, one selected apparatus, configuration or adaptation work, setup cost, declared result and guarantee, reuse horizon. *Queries:* When can one existing apparatus be applied without opening option search? When must generation or choice become current? | **Coordinates with:** C.39 for a missing obtaining explanation; C.40 for feasible variation and examination; C.18 for generation accounts and archive/front stewardship; C.19, C.19.1, C.22.1, E.23, C.11 when a live eligible set exists, A.15.1, A.15.2. **Specialized by:** A.7.1. |
-| C.20 | **Composition of `U.Discipline` (Discipline-CAL)** | Stable | *Keywords:* discipline construction, practice-and-knowledge whole, DisciplinePartOfRelation, exact constituents, whole-forming claims, assembly, reidentification, composition-grounded characteristic. *Queries:* "When is an apparent field one durable discipline rather than a label or collection?", "Which exact parts and obtaining relations form the whole?", "What preserves or ends its identity through change?" | **Builds on:** A.1, A.6.REL, A.14, C.13, A.17, A.18, E.24.UK. **Coordinates with:** C.2.1, A.3.1, B.1.5, A.15.1, A.22, B.2, C.21, A.19.CPM, F.9, G.5. |
+| C.20 | **Composition of `U.Discipline` (Discipline-CAL)** | Stable | Start with work the field undertakes. Trace how knowledge guides practice and how the results can revise that knowledge. For a proposed discipline, use the connection to design its assembly. For an existing discipline, establish which contributions form it and what preserves its identity when a part changes. *Queries:* "What makes these practices and bodies of knowledge one field?", "Which contributions does the field use from outside?", "What would change the discipline itself?" | **Builds on:** A.1, A.6.REL, A.14, C.13, A.17, A.18, E.24.UK. **Coordinates with:** C.2.1, A.3.1, B.1.5, A.15.1, A.22, B.2, C.21, A.19.CPM, F.9, G.5. |
 | C.21 | **Field Health & Structure (Discipline-CHR)** | Stable | *Keywords:* discipline, field health, reproducibility, standardisation, formal recognition, practice adoption, alignment, disruption, evidence resolution, diversity. *Queries:* "What does the available material support about this discipline's health or structure?", "When is one qualitative health claim enough?", "Which scales, populations and time windows make these readings comparable?" | **Builds on:** C.16, C.2, A.2.6, B.3. **Coordinates with:** C.20, G.2. |
-| C.22 | **Task Typing and TaskSignature Assignment (Problem-CHR)** | Stable | Constitutes one selector-facing `TaskSignature` as a C.2.1 episteme and species of `U.Signature`; when a receiving use is current, separately relates the exact problem-side episteme, exact TaskSignature, and exact receiving-use episteme through `TaskSignatureAssignmentRelation`. Keeps CHR typing, unknowns, scope, evidence-use relations, currentness, and required crossings visible without adding a generic setting, carrier, or organization as a constituent or assignment participant. *Queries:* "When is a stable problem-side episteme ready for a selector-facing TaskSignature?", "Which typed fields and unknowns belong in its exact edition?", "How do I relate the problem-side episteme, TaskSignature, and receiving use without preselecting a method?" | **Builds on:** A.6.0, C.16, G.0. **Coordinates with:** C.22.1, C.22.2, C.23, G.4, G.5. |
+| C.22 | **Task Typing and TaskSignature Assignment (Problem-CHR)** | Stable | Describe the work for which a method is needed. Derive characteristics from the differences that change eligibility or acceptance. Use these in the selector-facing TaskSignature and relate it to the problem-side episteme and the intended use. Retain unknowns and the grounds needed to use fields across contexts. *Queries:* "Which tasks must the selector distinguish?", "Which fields can the performer know before selection?", "When is a problem formulation ready for assignment?" | **Builds on:** A.6.0, C.16, G.0. **Coordinates with:** C.22.1, C.22.2, C.23, G.4, G.5. |
 | C.22.1 | **Task-family adaptation signature** | Stable | Use when a task-family adaptation claim must expose the threshold target, time and budget to threshold, prior exposure, and any claimed transfer, retention, downside or corridor entry. State when the threshold was not reached; a threshold crossing alone does not establish durable specialization. | **Builds on:** C.22, C.19.1, A.15, C.24, E.16. **Coordinates with:** E.23, G.5, G.9, G.11. |
 | C.22.PFR | **Problematic-For Relation** | Stable | Governs one actual adverse condition as a `ProblematicForRelation` for one exact entity, use scope, and criterion-applicability window. A signal, evaluation, assessment claim, or `ProblemCard` may support or describe the claim but does not create the actual Problem; separately adverse episodes receive separate occurrence identities. *Queries:* "Which actual condition is adverse for this exact entity and use?", "Which criterion-applicability relation supplies the predicate, scope, and window?", "Is this the actual Problem, or only a signal, assessment, or ProblemCard?" | **Builds on:** A.6.REL, A.6.5, A.19. **Coordinates with:** C.22, C.22.2, A.15.1, A.3.4, E.18.1, E.23, A.10, B.3, G.11. |
-| C.22.2 | **ProblemCard** | Stable | Constitutes one compact C.2.1 episteme from one exact ClaimGraph, one independently identified joint EntityOfConcern, and one effective reference scheme. Preserves actual PFR assertion versus anticipated-condition or solvability claims, evidence/currentness boundaries, unknowns, and qualified next use without turning a setting, carrier, organization, task, method, plan, or Work occurrence into its identity. *Queries:* "How do I turn a messy signal into a reviewable ProblemCard episteme before P2W?", "What makes a ProblemCard P2W-ready?", "How do I keep actual PFR, evidence, gates, autonomy, archives, task typing, and method selection with their neighboring governors?" | **Builds on:** C.2.1, E.2, E.9, E.10, C.2.P, A.6.P, C.16.Q, C.16, A.19, C.22, C.25, C.29, G.5, G.9, A.6.3.RT, A.6.4. **Coordinates with:** C.11, C.18, C.19, C.22.1, C.22.PFR, C.24, C.27, C.28, A.15, A.15.5, A.21, E.16, G.6, G.11, A.10, B.3, E.17, E.17.ID.CR, A.6.3, F.9, E.18, E.18.1, C.32.P2S, E.10.MOVE. |
+| C.22.2 | **ProblemCard** | Stable | Formulate the problem from observations, the work they affect and what would count as improvement. Establish when several claims have a common subject and when separate formulations are needed. A ProblemCard connects its ClaimGraph, joint EntityOfConcern and reference scheme. It can guide an agreed deliverable or a search for a way to address the problem. *Queries:* "What do these signals establish?", "Which next work can use this formulation?", "What grounds a claim that the difficulty already exists?" | **Builds on:** C.2.1, E.2, E.9, E.10, C.2.P, A.6.P, C.16.Q, C.16, A.19, C.22, C.25, C.29, G.5, G.9, A.6.3.RT, A.6.4. **Coordinates with:** C.11, C.18, C.19, C.22.1, C.22.PFR, C.24, C.27, C.28, A.15, A.15.5, A.21, E.16, G.6, G.11, A.10, B.3, E.17, E.17.ID.CR, A.6.3, F.9, E.18, E.18.1, C.32.P2S, E.10.MOVE. |
 | C.23 | **MethodFamily Evidence & Maturity (Method‑SoS‑LOG)** | Stable | *Keywords:* MethodFamily, evidence, maturity, SoS-LOG, admission rules, admit, degrade, abstain, selector. *Queries:* "May this method family be admitted for this task and use?", "When should evidence or eligibility yield a narrower use or abstention?", "How is evidence-backed maturity stated without becoming an acceptance threshold?" | **Builds on:** G.5, G.4, C.22, B.3. |
 | C.24 | **Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)** | Stable | Use after an action or option is fixed to order admitted Methods, budget tool or service calls, and state stop or replan conditions. Return a CallPlan or a bounded CheckpointReturn; reopen the domain prescription, A.15.7 or C.11 when that action basis changes. Keywords: agentic tool-use, call planning, service calls, route probe. | **Builds on:** A.15, A.15.1, A.15.2, B.1.6, C.16, A.10, B.3, C.18, C.19. **Coordinates with:** planned C.5, E.23, C.11, C.28, G.5, G.6, G.9. |
 | C.25 | **Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle** | Stable | *Keywords:* quality bundle, -ility, quality family, characteristic plus scope, mechanism/status slots, endpoint classification, viability envelope, proxy metric, admissible quality-family use, failure mode. *Queries:* "What is a Q-Bundle in FPF?", "When is an -ility one characteristic and when is it a bundle?", "When does a viability claim need C.26.3 rather than one metric?" | **Builds on:** A.2.6, A.6.1, C.16, B.3. **Coordinates with:** C.16.Q, A.15, C.26.3. |
 | C.26 | **Quantum-Like Modeling Lens** | Stable | *Keywords:* quantum-like, QL-lite, QL-NQ, probe frame, order effect, incompatible probes, instrument update, state export, source-loss coarsening, minimal admissible output. *Queries:* "When is quantum-like useful as a mathematical lens in FPF?", "What representational mistake does QL-lite prevent?", "How do I use QL without making a physical quantum claim?" | **Builds on:** C.11, C.16, A.6, A.10, B.3, F.9, A.6.3.CSC, A.6.3.RT. **Constrains:** C.26.1-C.26.3. **Coordinates with:** A.15, C.25, C.18, C.19. |
 | C.26.1 | **Probe-Coupled Boundary Interaction** | Stable | *Keywords:* probe-coupled boundary, passive read, dashboard as instrument, workshop as state-changing interaction, API read, survey, bridge result, export loss, evidence window. *Queries:* "When does a dashboard, workshop, metric, or API read change what it reports?", "How do I stop treating a boundary interaction as a passive read?", "When should a probe-coupled case apply evidence or assurance patterns?" | **Builds on:** C.26, A.6, A.6.B, A.6.P, A.10, B.3, C.16, F.9, A.15. **Coordinates with:** C.26.2, C.26.3. |
-| C.26.2 | **Enacted Distributed State Evidence** | Stable | *Keywords:* distributed-state evidence, coordinated work, enacted state, minimal state reading, evidence carrier, window, rival explanation, no group mind, report/export loss. *Queries:* "When does coordinated work evidence a state no participant report carries?", "How do I bound a distributed-state reading?", "When is a survey or dashboard thinner than the enacted state?" | **Builds on:** C.26, A.15, A.10, B.3, F.9, C.16. **Coordinates with:** C.26.1, C.26.3. |
+| C.26.2 | **Enacted Distributed State Evidence** | Stable | Establish what distributed participants accomplished together by tracing their contributions and connections in the relevant period. A single record can carry the evidence the claim needs. *Queries:* "What observation connects these participants' work?", "What would distinguish coordination from parallel responses?", "Which claim about the collective does the available evidence support?" | **Builds on:** C.26, A.15, A.10, B.3, F.9, C.16. **Coordinates with:** C.26.1, C.26.3. |
 | C.26.3 | **Viability-Envelope Boundary Regulation** | Stable | *Keywords:* viability envelope, homeostasis, allostasis, boundary regulation, sensor/probe/actuator split, metric-induced distortion, service viability, quality bundle, failure mode. *Queries:* "When is viability more than one green metric?", "How do boundary probes or metrics change a viability envelope?", "When does a service split or support load need envelope regulation?" | **Builds on:** C.26, C.25, U.Dynamics, A.6, A.15, C.16, A.10, B.3, A.3, A.19, C.18, C.19. **Coordinates with:** C.26.1, C.26.2. |
 | C.27 | **Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change** | Stable | *Keywords:* temporal claim adequacy, temporal claim, state reading, rate reading, temporal trend, rate-change, intervention-sensitive temporal change, effort window, resistance/inertia, rhythm/cadence, throughput, recovery, braking, coasting, stabilization, dynamic benchmark. *Queries:* "When does a speed, rhythm, throughput, or recovery claim need temporal adequacy?", "How do I separate state, rate, and intervention-sensitive rate-change?", "When is faster improvement not enough for benchmark, quality, viability, or QL claims?" | **Builds on:** C.16, A.3.3, B.1.4, B.1.6. **Coordinates with:** C.27.TA, A.3.4, C.18.1, C.19, C.22.1, C.24, C.25, C.26, C.26.3, G.9, A.10, B.3. |
 | C.27.TA | **Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness** | Stable | *Keywords:* temporal aspect, time window, freshness, currentness, rhythm, cadence, validity window, recovery timing. *Queries:* "Which time relation matters for this claim or object?", "How do I state freshness, rhythm, latency, or validity window without turning it into evidence, work, or dynamics law?" | **Builds on:** A.3.4, A.3.3, C.27, E.24. **Coordinates with:** A.10, B.3, A.15.1, A.15.2, A.20, A.21, C.16, C.29, E.18, G.11. |
 | C.28 | **CausalUse-CAL: Causal-Use Questions, Identification, and Realizability** | Stable | *Keywords:* causal-use question, causality ladder, association, intervention, counterfactual, Pearl Causal Hierarchy, Structural Causal Model, causal diagram, causal estimand, identification, counterfactual sampling realizability, causal support components, CausalUseSupportResult, target trial, causal fairness, off-policy causal evaluation, causal-RL evaluation. *Queries:* "Can I say this caused that?", "Is this intervention claim supported?", "What evidence supports a counterfactual claim?", "When does a fairness metric need causal support?", "Is simulation enough for a counterfactual claim?", "Which pattern handles causal benchmark parity?", "When does the current question call for association, measurement, temporal analysis, QL modeling or an ordinary description rather than a causal claim?" | **Builds on:** A.10, B.3, C.11, C.19, C.24, C.26, C.27, D.5, G.5, G.9. **Coordinates with:** A.2.4, A.3.2, A.6, A.15, C.16, G.11. |
-| C.28.CM | **Construct and Challenge a Causal Model** | Stable | Turn a causal account into explicit variables and mechanisms, compare material alternatives, inspect selection and all relevant paths, and return a conditional consequence or missing premise. Use a sufficient existing model directly. *Queries:* "How do I build a causal model from this working situation?", "Which rival mechanism changes the proposed action?", "Could recording or selection explain the apparent relation?" | **Coordinates with:** B.5.FM, B.5.2, C.16, C.27, C.28, C.28.MR, C.29, C.11.DUA and A.15.9. |
+| C.28.CM | **Construct and Challenge a Causal Model** | Stable | Start with the outcome to explain or change. Choose variables and mechanisms that can distinguish the competing accounts at the scales the question requires. Compare their consequences under observation, recording, selection and intervention. Use an existing model where it already answers the question. *Queries:* "Which differences among parts could change this account of the whole?", "Which observation or change would distinguish these explanations?" | **Coordinates with:** B.5.FM, B.5.2, C.16, C.27, C.28, C.28.MR, C.29, C.11.DUA and A.15.9. |
 | C.28.MR | **Derive an Intervention Consequence by Mechanism Replacement** | Stable | Use when a causal model is available and a changed mechanism must be followed to its consequence. Replace the targeted equation, retain the other mechanisms and input law, and derive a value, distribution, contrast or useful bound. *Queries:* "What follows if this rule is replaced?", "Which equations stay in place while their output values change?", "Is the intervention outcome determined when the baseline is not?", "What later feedback must be represented?" | **Coordinates with:** C.28, A.3.3.TR, B.5.MPC, B.5.RR and C.29.1. |
 | C.29 | **Mathematical Lens Use** | Stable | Use when a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when a result is being carried beyond the representation's supported use. Construct the correspondence, derive a consequence and return its meaning and limits to the working question. *Queries:* "Which mathematical construction answers this question?", "What does it preserve or lose?", "What changes in the project if this consequence holds?" | **Builds on:** A.1.1, A.6.P, A.6.RCD, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC and F.9. **Related Methods:** C.29.1, C.29.2, C.29.3 and C.29.BB. **Coordinates with:** B.5.MPC, C.26, C.28 and C.39. |
 | C.29.1 | **Mathematical Result Transfer** | Stable | Use when an operation or result must be carried from one mathematical account to another. Compare performing then mapping with mapping then performing, test representative choice and recover a transferable consequence, a bound or a repair. *Queries:* "Does this summary preserve the operation and its permissions?", "Can two represented cases give different answers?", "Does the receiving answer correspond to a feasible source action?" | **Coordinates with:** C.29 for the representation question, B.5 for construction and argument recovery, A.3.3 for retained state, and A.6.3.RT for expression under a scheme. |
@@ -617,7 +617,7 @@ When claim-bearing *role* leaves its object or relation unclear, use `E.10.ROLE`
 
 Bring a working question, or use an ordinary occasion to discover what is worth asking. USING-FPF.md explains how to find an individual method or a connected application. The entries below illustrate the range. Search the Table of Contents or ask an assisting agent to compare plausible candidates. If unfamiliar wording or limited access hides what you need, `F.1:4.4` explains how to locate passages you can inspect and describe any remaining gap. Stop the lookup when a known source suffices.
 
-The ordinary examples start with one pattern and give any conditions for a later use. You can stop at the first useful result without a mantra. The Practical-Use Cards recall connected reasoning explained in the Methods.
+The ordinary examples start with one pattern and give any conditions for a later use. You can stop as soon as a result answers your question. A mantra can help you find a missing contribution. The Practical-Use Cards recall connected reasoning explained in the Methods.
 
 A mantra can also reveal a consequential gap before you notice a difficulty. [B.5.PI](https://fpf.tools/B.5.PI) explains how to select one, apply its connections to a case and obtain a question or justified continuation. You can use this inquiry outside a project. A.1.STM applies it to systemic project reasoning and also traces an already noticed difficulty back to the use that gives it significance.
 
@@ -665,21 +665,21 @@ When a correct local result leaves the original request unresolved, use [C.39.QR
 - **Start with:** `A.1.SCR`.
 - **Stop or return:** Stop at that result or the identified blocker.
 
-### TIME — Decide what a timing claim lets you do
+### TIME — Determine what a timing claim establishes
 
-- **Situation:** A trend, deadline, cadence, or stale result is being used to decide what to do next.
-- **Question:** Which moment, rate, rhythm, or freshness relation matters, and does it support continuing, refreshing, waiting, synchronizing, or changing rhythm?
-- **First useful result or blocker:** A bounded temporal claim and supported continuation, or the missing window, evidence, effort, resistance, or currentness basis.
-- **Start with:** `C.27`; use `G.11` only when an affected result may need scoped refresh because its basis is stale.
-- **Stop or return:** Stop at a state or rate reading when it supports no stronger claim. Return when the window, evidence, currentness, or intended use changes.
+- **Situation:** Someone needs to explain how something changed, interpret a deadline or rhythm, or act on a trend or an aging result.
+- **Question:** Which subject, interval and time relation does the work depend on? If it concerns several contributions, how do their timing and connections affect the result?
+- **First useful result or blocker:** An interpreted state, rate, history or timing consequence, with the grounds it needs. A missing reference time, observation or dependency can leave a stronger conclusion open.
+- **Start with:** `C.27` for the reach of the claim and `C.27.TA` for the windows, rhythm, cadence or currentness it depends on. Use `G.11` when a change of basis may require refreshing an earlier result.
+- **Stop or return:** A supported reading can settle the question. If the recipient needs to explain a change or keep the work on time, carry that reading into the explanation or the way of working.
 
-### CAUSAL-USE — Keep a causal-looking result within its support
+### CAUSAL-USE — Explain an outcome or derive an intervention consequence
 
-- **Situation:** A correlation, estimate, simulation, or comparison is being used to say that an action will cause an outcome.
-- **Question:** What causal statement may the evidence support, and what stronger statement must not guide intervention or investigation?
-- **First useful result or blocker:** A supported statement and its limit, or the missing alternative, intervention, comparator, evidence path, identification result, or transport basis.
-- **Start with:** `C.28`.
-- **Stop or return:** Stop, narrow the claim, or abstain when support is insufficient.
+- **Situation:** Someone wants an explanation of what happened, an estimate of what an intervention would change, or an assessment of a causal claim.
+- **Question:** Which outcome is at issue, for whom and when? Could different mechanisms account for the same observations while giving different explanations or consequences?
+- **First useful result or blocker:** A supported causal answer, a consequence conditional on the stated mechanisms, or the missing evidence or premise that would distinguish the live alternatives.
+- **Start with:** `C.28` to establish what the observations and assumptions warrant. Use `C.28.CM` to construct or challenge an explanation and `C.28.MR` to derive the consequence of changing a mechanism.
+- **Stop or return:** An assessment can finish by establishing the limits of the evidence. When asked to explain an outcome or forecast an intervention’s effects, use the assessment to develop the explanation or forecast. Carry out the intervention if its performance is also commissioned.
 
 ### MEASUREMENT — Make a number interpretable before relying on it
 
@@ -692,7 +692,7 @@ When a correct local result leaves the original request unresolved, use [C.39.QR
 ### MATHEMATICAL-MODELING — Obtain a useful consequence from a representation
 
 - **Situation:** A working question needs a mathematical construction, or a proposed representation may omit something that changes the answer.
-- **Question:** Which object and correspondence make the question answerable, and which conditions permit using its result?
+- **Question:** Which situations must the answer distinguish? Choose quantities, objects and relations that preserve those differences. If several representations contribute, how do their results fit together, and which conditions must hold in the same case?
 - **First useful result or blocker:** A calculation, bound, construction, obstruction or distinguishing observation, with its interpretation; alternatively, the missing relation or operation.
 - **Start with:** `C.29:4.1`. Use an adequate local equation or algorithm directly when no representation question remains.
 - **Stop or return:** Stop when the consequence answers the present use. Return when a changed assumption, lost distinction or execution condition changes that consequence. Validate correspondence to a phenomenon when the intended reliance requires it under `C.29:4.5a`.
@@ -759,25 +759,25 @@ Compare with continuing as at present. Thinking, obtaining evidence, explaining 
 
 ### Practical-Use Cards
 
-Each card offers an optional route for extended work. Use the keys to find cards. Choose a card by the situation and intended result, then open and combine only the pattern contributions the case needs. Stop at the first useful result or blocker.
+Each card offers an optional route for extended work. Use the keys to find cards. Choose a card by the situation and intended result, then use the contributions that work requires. Finish when the result answers the question. If it supplies one premise or identifies a missing contribution, establish what remains to reach that answer.
 
 #### UNFAMILIAR-THEORY - Make an unfamiliar theory usable
 
 - **Situation:** A theory offers a useful construction or result, but you cannot yet assemble and interpret its application to your question.
 - **Question:** How can you obtain the needed consequence and use it?
-- **First useful result or blocker:** A worked application with an interpreted answer, or the missing operation, premise or correspondence that directs the next contribution.
-- **Mantra:** Recover the question the theory helps answer. Connect its objects and rules to one case. Obtain the construction and reconstruct the decisive argument. Compare the corresponding operations when using another representation. Apply the consequence; use what suffices or identify the remaining question.
+- **First useful result or blocker:** An interpreted result for the situation or class the question concerns, or the missing operation, premise or correspondence that directs the next contribution.
+- **Mantra:** Begin with the question the theory is to answer. Relate its objects and rules to the particular situation or to the class of situations at issue. Use the construction or argument that establishes the needed consequence. If the representation changes, compare the corresponding operations. Carry the consequence back to the question and identify what it settles.
 - **Start with:** `B.5.TU` for application construction. `B.5.RC` and `B.5.RA` supply construction and argument recovery, `A.6.3.RT` an operative expression, and `C.29.1` result transfer. Use `C.39` for a missing way.
 - **Stop or return:** An adequate supplied result can enter where needed. Stop when its interpreted consequence answers the question. If a premise changes, follow its effect instead of repeating unaffected work.
 
 #### PHYSICAL-RESULT - Connect physics, mathematics and computation
 
-- **Situation:** A team has physical, mathematical and programming knowledge, but cannot connect the contributions needed to produce a physical result.
-- **Question:** Which missing contribution prevents the next engineering move?
-- **First useful result or blocker:** An interpreted calculation, proposed realization or located failure in the physical account, computation or execution.
-- **Mantra:** State the physical change sought. Construct the state and continuation needed to reason about it. Formulate the mathematical question and interpret its variables and operations. Obtain a result or computational procedure. Connect input preparation, system actions and output reading. Return to the physical question and repair the failed contribution.
-- **Start with:** `B.5.MPC` to connect available contributions and select the missing one. `C.29` constructs mathematical correspondence; `C.29.1` tests result transfer; `C.29.2` constructs computation; `C.29.3` connects it to an executing system. Subject engineering supplies physical laws and mechanisms.
-- **Stop or return:** Reuse ready contributions. Stop when the result suffices for the present decision. Reopen contributions whose changed conditions invalidate their use.
+- **Situation:** A team needs to connect its physical, mathematical and computational work to answer a physical question.
+- **Question:** Which contribution is needed to answer the physical question?
+- **First useful result or blocker:** A physically interpreted result, a proposed realization, or an identified gap in the physical account, computation or execution.
+- **Mantra:** Start with what you need to explain, predict or change. Choose the physical state and relations the answer depends on. Interpret the argument or computation in those terms. For an actual event, establish what its conditions and evidence warrant.
+- **Start with:** `B.5.MPC` to connect available contributions and select the missing one. `C.29` constructs mathematical correspondence; `C.29.1` tests result transfer; `C.29.2` constructs computation; `C.29.3` connects it to an executing system. Use the relevant physical knowledge for the laws and mechanisms.
+- **Stop or return:** Reuse ready contributions. Finish when the result meets the commission. A model can answer an explanation or design question. If a working implementation or a new run was ordered, complete that work under the agreed conditions. For a question about an earlier run, use sufficient evidence about that run. Reopen contributions whose changed conditions affect their use.
 
 ##### Expansion for PHYSICAL-RESULT
 
@@ -804,14 +804,14 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Start with:** `C.32.MWA`; use `E.23.CDI`, `E.23`, or `C.36` only when the decision raises the corresponding question.
 - **Stop or return:** Stop when the synthesis or transfer result answers the decision.
 
-#### WORKING-DOCUMENTS — Make a document answer one use
+#### WORKING-DOCUMENTS — Make a document support its intended uses
 
 - **Situation:** A document is requested, but its label does not reveal the use it must support.
 - **Question:** Do you need to check one view, reuse related views, show the same subject differently, see enough structure, compare named sources, or use an architecture description in a decision?
 - **First useful result or blocker:** A checked view, a reusable viewing approach, another presentation of the subject, an account of sufficient or missing structure, a source comparison, the architecture-description result needed now, or the specific obstacle to obtaining it.
-- **Mantra:** Name who will use the document and what it must support. Check one view; prepare recurring views; show the subject another way; expose enough structure; compare sources; or use a description in architecture work. Keep document, subject, decision, and performed Work distinct. Stop when the needed result exists; return when its use or content changes.
+- **Mantra:** Start from each recipient’s work. Choose the claims, relations and form it needs. One account can serve several users. Compare the relevant features on a common basis. For joint operation, check that the conditions can hold together. For rival accounts, trace what follows under each. Distinguish the document, its subject, decisions and performed Work.
 - **Start with:** `E.17.0` for checking one view against its viewpoint; `E.17.1`/`E.17.2` for recurring use; `A.6.3.RT` for representation change; `C.33` for structural information; `E.17.ID.CR` for source comparison; `C.30.AD` for architecture-description use; otherwise use the direct pattern for the document result.
-- **Stop or return:** Stop when that result answers the use. One file may carry several results without merging them.
+- **Stop or return:** Stop when the requested uses have the accounts or decisions they require. Return when a use or the content changes.
 
 
 #### OPTION-COMPARISON — Keep unlike option results distinct
@@ -819,21 +819,21 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Situation:** Labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource* or *AI* need comparison; uncertainty blocks costly commitment; or advice demands costly or infeasible work.
 - **Question:** Do you need to form complete ways, compare or retain candidates, govern a pool, prepare options for another chooser, choose now, or repair an evidence demand?
 - **First useful result or blocker:** A sufficiently developed set of ways to obtain the same result, comparison or retained set, pool rule, prepared `OptionSet`, `ChoiceResult`, usable advice, answer to the blocking question or exact gap.
-- **Mantra:** Name one result, use, situation, horizon, and acceptance basis. Turn labels into complete ways on one parity basis, keeping supported, proposed, and unknown premises visible. Compare or choose only when current; preserve worthwhile variants and gaps. For costly action, resolve only the uncertainty blocking commitment. Return when the result, basis, evidence, or use changes.
+- **Mantra:** Establish what the chooser must obtain, the alternatives in the commission and their conditions of use. Develop a label into a complete way when the comparison needs it. Compare like contributions on a common basis. For joint commitments, check that the promised results and their resource demands fit together. Keep worthwhile variants and consequential uncertainties visible. Return when a changed premise matters to the choice.
 - **Start with:** `C.11.DUA` for a demand's contribution or feasibility; `C.38` for incomplete ways; otherwise `A.19.ECS`, `C.18`, `C.19`, `G.5` or `C.11` for the current question. For costly commitment, select the current check in `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11` or `A.15.5`.
 - **Stop or return:** Stop at the present question's result.
 
 
 
 
-#### PROBLEM-SHAPING — Stop at the earliest useful problem-side result
+#### PROBLEM-SHAPING — Formulate the problem the work needs
 
-- **Situation:** Something matters, but the team may have only signals worth preserving, a direction for inquiry, a question about competing explanations, or enough clarity to accept a problem statement.
-- **Question:** What can the available material support now: preserved signals, a routed direction for inquiry, an explicit question that contrasts possible explanations, or a problem statement ready for acceptance?
-- **First useful result or blocker:** A preserved set of signals, a clear inquiry route, a question about plausible explanations, an accepted problem statement, or the missing anchor, route, subject, constraint, or acceptance basis.
-- **Mantra:** Keep what was noticed before declaring a problem. Route the inquiry only when the signal has a stable anchor. Ask about explanations only when the open question and contrast are clear. Accept a problem statement only when the subject, constraints, unresolved relations, important distinctions, and basis can be stated. Stop at the earliest useful truth; return when its basis changes.
-- **Start with:** `A.16.1` for a cue pack, `B.4.1` for routed cues, `B.5.2.0` for an abductive prompt, and `C.22.2` for an accepted `ProblemCard`.
-- **Stop or return:** Do not force a cue into a problem. Open `C.22.PFR` only when whether the adverse relation obtains changes the next use.
+- **Situation:** A difficulty or opportunity has appeared. A colleague wants it investigated or has commissioned a particular result.
+- **Question:** Whose work is affected, under what conditions, and what would count as addressing the difficulty or realizing the opportunity?
+- **First useful result or blocker:** A formulation the recipient can use, a signal worth keeping, a question that distinguishes explanations, or the information still needed.
+- **Mantra:** Start with what the recipient is trying to accomplish. Trace the observation to the condition that matters for that work. Consider another interpretation of the same observation. What would change the problem or its criterion of improvement? Give the supported formulation. If only a signal is established, identify what could connect it to the problem.
+- **Start with:** `A.16.1` to preserve cues, `B.4.1` to direct inquiry, `B.5.2.0` to frame a question about explanations and `C.22.2` to formulate a ProblemCard. Use `C.22.PFR` to establish whether the conditions for a particular subject actually violate the criterion that applies to it.
+- **Stop or return:** A cue can complete a request to report what was noticed. Return the formulation to the work it was meant to support. If a deliverable has already been agreed, use the formulation to guide its production.
 
 #### IMPROVEMENT — Define better before repeating change
 
@@ -1005,7 +1005,7 @@ Compare the expected gain—such as clearer meanings, better-supported choices o
 
 ## How to Use This Repository
 
-Start with one of the ordinary examples or one of the cross-pattern cards when it recognizes the current project question. A direct example is enough when one pattern can return the needed result. A card helps when the answer must retain several pattern contributions, checks, and returns. If no example fits, use the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns.
+Begin with what you need from the Library. If you know the method and want its section, use the Table of Contents. If a displayed example resembles your situation, compare the decision its method helps someone make with yours. Whose choice is it? Does the answer concern one contribution, or how several form a result? A direct method or the argument in the example can settle your question. When it supplies a part, carry that result into the remaining work. A cross-pattern card helps when you need to keep several contributions connected. If you are exploring, an example can also suggest a question worth pursuing.
 
 Use the Architectural Reference for the cross-cutting ideas. **Big FPF Storylines** follows a report-review question through measurement, assurance, a shared-capacity condition and further inquiry. The Architectural Rationale there explains the choice of direct patterns, combinations and profiles and the contributions and limits of their shared sources.
 
@@ -42682,7 +42682,7 @@ Typical moments:
 - a collection needs whole-level characteristics without becoming an acting collective system;
 - an aggregation claim is being used for architecture, assurance, evidence, or MHT reasoning.
 
-**First useful move.** Identify whether the claim concerns part-whole construction, collection belonging under its own rule, or collection-as-whole grounding. For other meanings of composition, use the distinctions and supplying patterns in B.1:4.2. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing a branch.
+**First useful move.** Start with the decision the recipient must make and the evidence already available about its subject. An accepted measurement of the identified whole can settle a question about its value. When the inference depends on constituents or their arrangement, identify whether the claim concerns part-whole construction, collection belonging under its own rule, or collection-as-whole grounding. For other meanings of composition, use the distinctions and supplying patterns in B.1:4.2. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing a branch.
 
 **What goes wrong if missed.** Composition vocabulary and notation can conceal different relations. A role or Method may then be mistaken for a part, a Method structure for evidence of performed Work, a graph for the represented structure, or a collection for an acting whole.
 
@@ -42699,14 +42699,14 @@ Typical moments:
 
 ### B.1:1 - Problem Frame
 
-Whole-level claims require identified objects and a grounded account of their part or collection relations. Mathematical and computational representations can express or check that account; their notation alone establishes neither holon identity nor parthood.
+A claim about how a whole is constituted or what follows from that constitution needs the relevant part or collection relations. An observation or law applying to the identified whole can answer a question about its characteristic directly. Mathematical and computational representations can express or check a constitution once their correspondence with it is established.
 
 ### B.1:2 - Problem
 
 When these distinctions are missed:
 
 1. **Mereology and notation collapse.** A graph or algebra is treated as the part-whole structure itself.
-2. **Roles and methods become parts.** Role factors, method parameters, guards, steps, and compositions are read as holonic parts because the same word "decomposition" appears.
+2. **Decomposition by label.** A parameter, guard or entry in a procedure is counted as a constituent Method. A Method can itself have constituent Methods when their contributions realize its purpose or maintain its required condition under their rule of combination.
 3. **Work occurrence is inferred from plan.** A method decomposition or schedule is treated as evidence that performed work had those parts.
 4. **Collections become acting systems.** A set, list, batch, fleet, or community is treated as an admitted acting System or responsibility bearer from plural naming, a system-role kind or assignment, a Method, or Work. Admission of the acting collective remains an A.1 question; responsibility also needs the predicate, participants, and pattern or rule that defines it.
 5. **Emergence becomes rhetoric.** A whole-level gain is explained by "synergy" or "more than the sum" without checking existing-whole explanations or B.2 whole reidentification.
@@ -42748,6 +42748,8 @@ HolonAggregationClaim@Context:
 
 This claim frame identifies the objects, relations, and qualifications needed to rely on the aggregation claim. Include optional fields when they change that claim or its use.
 
+When the arrangement is yours to find, start with what could change the answer. Hold a constituent fixed and change where or how the whole uses it. Hold the reported whole result fixed and change how the constituents produced it. Follow a part or enclosing whole as far as one of those changes affects the requested decision or its grounds. Choose that extent separately for the system, Method, Work or episteme involved. Connect them through the actual relation the answer uses, such as a Work enacting a Method or a record about that Work. At each relevant scale, consider any admissible arrangements the proposed model treats alike. Recover a missing difference if they require different answers. An established rule that covers the remaining possibilities gives a stopping point.
+
 Use:
 
 - `A.14` for `ComponentOf`, `ConstituentOf`, `PortionOf`, `PhaseOf`, collection belonging under the collection's own rule, aspect, and related vocabulary;
@@ -42763,7 +42765,7 @@ Use:
 | "This object is made of these parts." | Identify the candidate whole and constituents and establish the part relations and construction rule. When holonhood is claimed, apply all six A.1 components and the kind-specific conditions. | `A.1` for holon recognition, `A.14`, `C.13`; `B.3.5` when a publication choice or named current requirement elects its assurance profile. |
 | "These items belong to this collection." | The collection's own belongs-to rule or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for a collection-level or whole-level characteristic. |
 | “This role is combined from role factors.” | Unresolved source wording. It may mean a relation among local system-role kinds, a classification or assignment, a participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the relation among local system-role kinds, or the pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
-| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, Method patterns, `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
+| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.3.1` for Method identity and `B.1.5` for composition. Use `B.1.5.CM` to construct a composite Method and `C.29` when a mathematical representation-choice, transfer or reliance question remains. |
 | "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal pattern, evidence-use pattern. |
 | "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `A.22` and the applicable architecture or description pattern; `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
 | "The whole shows emergence." | Check applicable explanations within the existing whole first. Use B.2 when changed facts leave a consequential question about whether that whole remains sufficient or a new whole is required. | `B.2`, `B.2.P`, or the characteristic, measurement, architecture, capability, or Work pattern. |
@@ -42793,9 +42795,9 @@ Blocked uses:
 - source notation as a new U-kind;
 - one fold rule as a universal replacement for the subject pattern.
 
-**Model the same holon at two scales.** Name the whole, the characteristic under investigation and the constituent conditions on which the answer depends. For an existing whole, use its established constitution. For a proposed assembly, identify the parts, their intended arrangement and the conditions stipulated in the design. Report the consequence as conditional until evidence of realization warrants an actual-system claim. For a system this can be an interaction between components. For an episteme, B.1.3 traces a joint conclusion to the claims, meanings and sources being combined. For a method, B.1.5 identifies which Methods are constituents, what they contribute and under which conditions their organization can achieve the intended result or maintain a required condition. One constituent may supply a result to the next. Several may jointly satisfy a requirement without a prescribed order. For an occurrence of work, A.15.1 and B.1.5.EW distinguish its actual constituent work from work elsewhere that supplies a result. C.20 identifies what joins reusable practice and knowledge in one discipline.
+**Infer across the composition scales the question needs.** Name the whole, the characteristic under investigation and the constituent conditions on which the answer depends. For an existing whole, use its established constitution. For a proposed assembly, identify the parts, their intended arrangement and the conditions stipulated in the design. Report the consequence as conditional until evidence of realization warrants an actual-system claim. For a system this can be an interaction between components. For an episteme, B.1.3 traces a joint conclusion to the claims, meanings and sources being combined. For a method, B.1.5 identifies which Methods are constituents, what they contribute and under which conditions their organization can achieve the intended result or maintain a required condition. One constituent may supply a result to the next. Several may jointly satisfy a requirement without a prescribed order. For an occurrence of work, A.15.1 and B.1.5.EW distinguish its actual constituent work from work elsewhere that supplies a result. C.20 identifies what joins reusable practice and knowledge in one discipline.
 
-State the relation that carries the inference across the two scales. For a straightforward forward calculation, apply the established rule to the known values. For a sensitivity question, vary a consequential condition and check whether the whole can behave as before and whether it retains its identity. For an inverse question, the observed whole constrains which constituent configurations could account for it. For a design allocation question, the prescribed whole constrains the permitted designs. A mass budget leaves several allocations open until the designer chooses one. Across several scales, establish each direct composition and each step of the inference under the rule for its kind. Swapping the masses of two parts can preserve their total mass while changing their load distribution. A capability that arises from organized interaction needs grounds in that interaction. When you assert an actual encompassing whole, identify its obtaining part relation. A.1:4.2 gives the separate constructive test for possible participation in a larger assembly. Use B.5.MR when two models are also being compared for refinement.
+State the relation that carries the inference across the two scales. For a straightforward forward calculation, apply the established rule to the known values. For a sensitivity question, vary a consequential condition and check whether the whole can behave as before and whether it retains its identity. For an inverse question, the observed whole constrains which constituent configurations could account for it. For a design allocation question, the prescribed whole constrains the permitted designs. A mass budget leaves several allocations open until the designer chooses one. Across several scales, ground the composition on which the conclusion depends. A law covering the full range can carry the inference in one step. When the conclusion depends on an intermediate arrangement, establish what that arrangement contributes. Swapping the masses of two parts can preserve their total mass while changing their load distribution. A capability that arises from organized interaction needs grounds in that interaction. When you assert an actual encompassing whole, identify its obtaining part relation. A.1:4.2 gives the separate constructive test for possible participation in a larger assembly. A model of the complete assembly can be more or less abstract for the same question. Compare the feasible answers that each model admits under the same interpretation. Under B.5.MR a strict refinement preserves the earlier requirements, admits at least one answer and excludes at least one previously admitted answer. If models answer different questions, explain how their results fit together for the receiving use, such as the mass distribution of this skid and the loads its particular supports can carry.
 
 #### B.1:4.5 - Consider explanations within the existing whole
 
@@ -42819,6 +42821,8 @@ A pump skid can be a `U.System` holon whose parts include pumps, valves, control
 
 B.1 recovers the holon aggregation claim. A.14 names component or portion relations. C.13 gives constructional grounding. C.16 carries whole-level characteristics such as maximum flow or pressure envelope. A drawn graph represents the selected dependencies or other structure of the skid.
 
+For dispatch under a specified mass limit for the assembled skid, its certified gross mass can settle that condition. A certified load or applicable bound for each lifting point can settle a question about those loads. To derive them from the assembly, account for the mass distribution, supports and loading conditions. Moving a pump can preserve gross mass while changing those loads. If the assignment is to design a lifting assessment for a range of layouts, start from the permitted support arrangements and required decisions, then choose the measurements or bounds that distinguish the consequential layouts.
+
 #### B.1:5.2 - Evidence Corpus
 
 A corpus can be a collection under its own inclusion rule and a C.13 set account. This alone does not make it a holon. Treat an integrated claim-bearing corpus as a whole only after all six A.1 matters pass, including constructive part relations, assembly, a composition-grounded whole characteristic, and possible participation in a larger assembly. Coverage, source freshness, bias exposure, or evidential diversity may be collection-level characteristics without settling that stronger question.
@@ -42833,7 +42837,7 @@ A short B.1 sentence may omit an unused assignment identifier only when every re
 
 A machining method has ordered steps and parameters. Those steps are method relation or method-description material. They do not prove that a performed machining run occurred, nor that the run had the same parts.
 
-If the current claim is the method structure, use Method patterns. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved. If the current claim is the run, use A.15.1.
+Use B.1.5 to establish Method composition. If the recipient needs to develop the composition from an intended use, B.1.5.CM explains how to choose the contributions and organize them. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved. If the current claim is the run, use A.15.1.
 
 ### B.1:6 - Bias-Annotation
 
@@ -42848,7 +42852,7 @@ If the current claim is the method structure, use Method patterns. Use C.29 when
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1-1` | The current claim identifies whether it is part-whole, collection belonging under the collection's own rule, collection-as-whole, a relation among local system-role kinds, classification, assignment, participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
+| `CC-B1-1` | The result answers the receiving question at its required scope. When choosing the composition or its model is part of the commission, the account explains which distinctions can change that answer and how the selected relations support it. The current claim identifies whether it is part-whole, collection belonging under the collection's own rule, collection-as-whole, a relation among local system-role kinds, classification, assignment, participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
 | `CC-B1-2` | Part-whole claims name the whole and part participants, identity or recognition rule, part relation, constructional predicate and its defining pattern, plus any aggregation policy, selected structure, ClaimScope, or qualification window that changes the claim. |
 | `CC-B1-3` | A.14 defines the relation vocabulary used here; C.13 defines the construction accounts. |
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |
@@ -42883,7 +42887,7 @@ Costs:
 
 ### B.1:10 - Rationale
 
-Whole-level reasoning relies on accepted part-whole relations, constructional grounding, and the applicable subject patterns. This supports reasoning across different kinds of objects while retaining their own admission and relation rules.
+An inference from constituents to a whole relies on accepted part-whole relations, constructional grounding, and the applicable subject patterns. This supports reasoning across different kinds of objects while retaining their own admission and relation rules.
 
 Mathematical apparatus remains available. Once the object is known, a graph can represent dependencies, an algebra can express selected composition rules, a tuple can express a slot relation, and a matrix or embedding can support analysis. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved.
 
@@ -42920,7 +42924,7 @@ Typical moments:
 - a project needs to know whether a relation is part-whole, dependence, representation, influence, source use, publication use, or evidence relation;
 - a selected dependency structure will be expressed with a graph, table, matrix, or another mathematical or representation lens.
 
-**First useful move.** Name the dependency relation and its participants before choosing graph notation. Use B.1.1:4.3 to distinguish common relation kinds, then follow the pattern that defines or tests the relation in question.
+**First useful move.** Start with the decision and what would make its answer differ. Identify the participants and the relation that could transmit that difference before choosing graph notation. Use B.1.1:4.3 to distinguish common relation kinds, then follow the pattern that defines or tests the relation in question.
 
 **What goes wrong if missed.** A generic "depends on" edge can conceal different relations. External influence, order, or temporal dependence may be mistaken for parthood, and mathematical checks may appear precise while the relation being checked remains unclear.
 
@@ -42961,7 +42965,7 @@ When these distinctions are missed:
 
 ### B.1.1:4 - Solution
 
-Use dependency structure first; use graph representation second.
+Work back from the proposed conclusion to the dependencies it uses. If one input changes, ask which result can change, by what interaction and under which conditions. Keep an external supplier in the account when its delivery matters. Follow a part into its own constituents when different internal arrangements can change the answer. For a proposed design, use the stipulated relations to reach a conditional conclusion. For a claim about the actual whole, establish which of those relations obtain. A diagram is useful when representing their organization helps the recipient decide.
 
 #### B.1.1:4.1 - Dependency Structure Frame
 
@@ -42988,7 +42992,7 @@ DependencyStructure@Context:
   definingOrTestingPatternRefs:
 ```
 
-This frame records independently grounded relation claims and their participants. It is not a `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
+This frame records the relations established about a subject or stipulated for a proposed arrangement. In a design comparison, the stipulated dependencies can warrant a conditional result before the design is realized. The frame can also refer to a selected `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
 
 #### B.1.1:4.2 - Graph Representation
 
@@ -43063,7 +43067,7 @@ If the graph describes a method or process view, use the patterns that define th
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1.1-1` | A dependency claim names the relation kind before graph notation is relied on. |
+| `CC-B1.1-1` | The selected participants, relations and any transfer from a representation support the stated conclusion. For a proposed arrangement the result identifies its assumptions. For an actual-dependency claim the relevant relations are established. |
 | `CC-B1.1-2` | Graph, matrix, table and diagram wording distinguishes a representation from the organization it represents. When the receiving claim selects the representation's organization as a U.Structure, identify that separate organization by the four A.22 discriminators. |
 | `CC-B1.1-3` | Part-whole edges use A.14 and C.13 discipline. |
 | `CC-B1.1-4` | Boundary-crossing, transformation, evidence, source-use, publication-use, and representation relations are not recast as parthood. |
@@ -43133,7 +43137,7 @@ Typical moments:
 - a functional element must be distinguished from and allocated to physical, organizational, software, or operational bearers;
 - a named decision needs one recoverable view of the system boundary, crossings, and compatibility choices without turning that view into the system.
 
-**First useful move.** Name the whole and its A.1 recognition status, the decision, and the claims it depends on. For each claim, use the applicable subject pattern to recover its result or identify the missing defining rule or information. Then ask whether considering the results' joint organization changes the decision.
+**First useful move.** Start from the receiving decision and the system or proposed assembly it concerns. Follow its use outward when the enclosing arrangement can change that decision, and inward when two admissible internal arrangements give different answers. Identify the whole's A.1 recognition status when systemhood matters to the claim. For each claim, use the applicable subject pattern to recover its result or identify the missing defining rule or information. Then ask whether considering the results' joint organization changes the decision.
 
 **What goes wrong if missed.** A reader may infer components and containment from placement in a diagram, treat a functional element as a physical part, or mistake an external transformation or measurement relation for parthood. A coordination record then appears to establish facts that each need grounds.
 
@@ -43141,7 +43145,7 @@ Typical moments:
 
 **Not this pattern when.**
 
-- If the entity has not yet been evaluated under the already admitted `U.System` kind, use `A.1`; do not promote the proposal into a durable kind-like label.
+- If the only open question is whether an entity qualifies as a `U.System`, use `A.1`.
 - If one part-whole relation is the question, use `A.14` and its specialization.
 - If constructive assembly grounding is the question, use `C.13`.
 - If the question is a functional claim, use its behavior or realization predicate; use `A.6.F` when the function wording is unresolved and `C.30.ASV` when architecture-view conformance is needed.
@@ -43155,13 +43159,13 @@ B.1.2 specializes B.1 for system holons. It coordinates independently grounded f
 
 Keep the following meanings separate when identifying the whole:
 
-1. **The system whole.** It is independently recognized under A.1 and its identity rule.
+1. **The system whole.** For an existing system whose identity matters, establish it under A.1 and its identity rule. For a proposed design, identify the system to be built through its intended use, arrangement and assumptions.
 2. **Its environment.** In this pattern, `environment` means the external referents and crossing relations made relevant by a stated delimitation and use. It is not a generic surrounding object; a medium is named separately when that medium is the subject.
 3. **A containing system.** The larger system of which `S` is an admitted part exists for this claim only when a part-whole relation independently obtains. Interaction or spatial surrounding is not enough.
 4. **System-of-interest and system-in-hand.** The system-of-interest is the product System that a named extended enterprise is organized to create, change, sustain in use or retire. The system-in-hand is the system locally being investigated or changed. Use A.1.STM:4.1 and A.1.SCR:4.7 to establish the grounds for the designation or local focus. Neither establishes System identity, environment, parthood or architecture; any technical system-role classification and assignment also needs its own grounds.
 5. **Use qualification and neighboring relations.** `Context` is not one world-side container supplied by B.1.2. When claim scope, effective reference scheme, or a bounded model-use structure qualifies a use, recover that qualifier under its subject pattern. Recover any system-role assignment or other neighboring relation separately. None delimits the system, identifies its environment, or establishes containment by itself.
 
-For a system-aggregation decision, use :4.1 to recover the system, parthood, delimitation, crossing, and whole-characteristic results or their blockers. Use :4.2 only when their joint organization changes that decision.
+For a system-aggregation decision, use :4.1 to recover the identity, part, boundary, crossing or characteristic results needed by that decision. Use :4.2 only when their joint organization changes that decision.
 
 ### B.1.2:2 - Problem
 
@@ -43189,31 +43193,33 @@ When these distinctions are missed:
 
 Coordinate one named system-aggregation or delimitation decision using the independently grounded results below. A record can bring those results together; establishing any further relation requires grounds.
 
+Use an established fact about the whole directly when it settles the decision. To compare proposed designs, hold their common requirements fixed and follow each proposed allocation or crossing to its consequence for the intended use. A model may group designs with the same relevant consequence and grounds. An inventory of existing components supports a different decision from choosing or realizing a new assembly. Read the questions below for the claims the result actually needs. For a proposal, identify its stipulated relations and conditions of use. Evidence that they obtain is needed for an as-built claim.
+
 #### B.1.2:4.1 - Recover Each Result Or Blocker
 
 | Working question | Subject pattern | Result or stop |
 | --- | --- | --- |
-| Which whole is being considered? | `A.1` and the kind-specific recognition pattern | One entity recognized under the already admitted `U.System` kind; or the entity, six constructive components, kind-specific condition, and `true | false | unknown` evaluation needed for recognition; otherwise the missing recognition basis. |
-| Which constituents are parts, portions, phases, or members, and how do they assemble? | `A.14`, the part-relation specialization, and `C.13` for constructive assembly grounding | Obtaining part-relation occurrences and the assembly they support; otherwise the missing governor, participant identity, obtaining fact, or assembly basis. |
-| Which facts and selected boundary-use claim delimit the system for this decision? | `A.1` for system identity; `A.14`, the part-relation specialization, and `C.13` for parthood and assembly; every crossing-relation pattern for external participants; `C.11` for a local choice among already available boundary readings; `C.32.PAD` for a post-synthesis architecture decision concerning project Work; `C.2.1` only for a separately persistent claim | First return identity, obtaining parthood and assembly, and crossing facts. If those facts answer the question, stop. If the named use additionally selects a boundary reading, return the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that makes its inclusion, exclusion, identity-preservation, and use claim current. Another choice branch passes only after its admitted decision predicate, source, and result are named; otherwise return the missing predicate or defining pattern, participant, obtaining fact, decision governor, or information blocker. When durable reliance is needed, one separate C.2.1 episteme states that claim and cites its basis; it creates none of the world facts. A selected `U.Structure` remains a separate B.1.2:4.2 branch. |
-| Which relation crosses the selected boundary? | The source, supply, flow, coupling, control, measurement, evidence, publication, transformation, commitment, or other relation pattern; `F.9` only for a needed semantic correspondence or difference between two F.17 local senses from different semantic contexts | One obtaining relation occurrence with its participant bindings and predicate; otherwise the missing governor, endpoint, binding, or obtaining fact. |
-| Which function is realized by which bearer? | The behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | Recover the functional claim, admitted bearer and independently obtaining realization or allocation relation. Establish parthood separately when it is claimed. If a relation required by the claim cannot be established, identify the missing predicate, participant or defining source. |
+| Which whole is being considered? | `A.1` and the kind-specific recognition pattern | For a design comparison, the proposed whole, its intended use and the arrangement under consideration. For a claim about an existing `U.System`, a recognized entity or the A.1 evaluation of its six constructive components and kind-specific condition, including any unresolved basis. |
+| Which constituents are parts, portions, phases, or members, and how do they assemble? | `A.14`, the part-relation specialization, and `C.13` for constructive assembly grounding | For an actual system, the obtaining part relations and assembly. For a design comparison, the proposed relations and their consequences under the stated assumptions; otherwise the missing governor, participant identity, obtaining fact, or assembly basis. |
+| Which facts and selected boundary-use claim delimit the system for this decision? | `A.1` for system identity; `A.14`, the part-relation specialization, and `C.13` for parthood and assembly; every crossing-relation pattern for external participants; `C.11` for a local choice among already available boundary readings; `C.32.PAD` for a post-synthesis architecture decision concerning project Work; `C.2.1` only for a separately persistent claim | First identify the system and the parts, assembly or boundary crossings that affect this question. For a proposed option identify the corresponding design stipulations. For a claim about the actual system establish the relevant facts. If those facts answer the question, stop. If the named use additionally selects a boundary reading, return the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that makes its inclusion, exclusion, identity-preservation, and use claim current. Another choice branch passes only after its admitted decision predicate, source, and result are named; otherwise return the missing predicate or defining pattern, participant, obtaining fact, decision governor, or information blocker. When durable reliance is needed, one separate C.2.1 episteme states that claim and cites its basis; it creates none of the world facts. A selected `U.Structure` remains a separate B.1.2:4.2 branch. |
+| Which relation crosses the selected boundary? | The source, supply, flow, coupling, control, measurement, evidence, publication, transformation, commitment, or other relation pattern; `F.9` only for a needed semantic correspondence or difference between two F.17 local senses from different semantic contexts | For an actual crossing, the obtaining relation with its participants and predicate. For a proposed crossing, the specified endpoints, relation and conditions; otherwise the missing governor, endpoint, binding, or obtaining fact. |
+| Which function is realized by which bearer? | The behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | For a current arrangement, recover the functional claim, bearer and obtaining realization or allocation relation. For a proposed allocation, establish what its bearer would have to do and whether the design supports that use. Establish parthood separately when it is claimed. If a relation required by the claim cannot be established, identify the missing predicate, participant or defining source. |
 | Which whole-level characteristic is claimed? | `C.16` and `A.19`; `C.29` when a mathematical representation-choice, transfer or reliance question remains unresolved | Recover the bearer, characteristic, assignment or value, and scale, together with any threshold, aggregation or inference rule, and lens-use boundary required by the claim; identify any missing basis needed for that claim. |
 | Which evidence, description, representation, or publication supports inspection? | `C.2.1` for the account; `A.2.4` for evidence-use or status-use classification. Use `A.10` for an unresolved source-to-use account, `B.3` for a requested assurance claim, `C.29` for an unresolved mathematical-lens question, or `E.17` for a needed publication face; use the applicable source or architecture-description pattern when that relation is the question | The episteme and evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
 
-Stop when a missing result prevents the named decision, and identify that missing result. Collecting the available results does not supply it.
+If grounds are missing, check whether the remaining possibilities support the same decision. Give that decision and its grounds when they do. Otherwise return the established contribution and identify the missing result that could change the answer.
 
 #### B.1.2:4.2 - Select A Structure Only When The Joint Organization Matters
 
-If the joint organization of several results changes the named decision, select one ordinary `U.Structure` under `A.22`. Recover all four identity discriminators: independently identified constituents, selected obtaining relation occurrences, constraints as applied, and one named selection-use frame with its admissible action or stop.
+When a decision depends on several results together, explain how they combine for that decision. In a design comparison, the relations and constraints stipulated for each option can warrant a conditional conclusion. When the claim selects a `U.Structure` under `A.22`, identify the subject whose organization is selected. Establish its independently identified constituents, the relation occurrences that obtain for that subject, the applied constraints and the named selection-use frame with its admissible action or stop. Relations between elements of a design can be present before the designed assembly exists.
 
 The selected structure is non-agentive. Selecting it does not establish systemhood or the relations being selected. A diagram or other representation can express the selected organization; its form alone supplies none of the four discriminators.
 
 #### B.1.2:4.3 - Make Interface Choices About Crossing Relations
 
-When choosing an interface arrangement, identify the crossing-relation occurrence and the use affected by the choice. Options include exposing the crossing, assigning it a namespace, internalizing it, excluding it, or leaving its treatment with its subject pattern. These are ordinary decision options.
+When choosing an interface arrangement, identify the existing or proposed crossing and the use affected by the choice. Options include exposing the crossing, assigning it a namespace, internalizing it, excluding it, or leaving its treatment with its subject pattern. These are ordinary decision options.
 
-Name the world facts, affected endpoints, crossing predicate and occurrence, preserved obligation or information, evidence if relied on, and the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that chooses among the ordinary interface options when its predicate applies. A different choice passes only after its subject assertion, predicate, and result are named; otherwise stop with the established `missing-governor` blocker, whose content identifies the absent predicate source.
+Name the relevant world facts or design stipulations, affected endpoints, crossing predicate and any occurrence claimed, preserved obligation or information, evidence if relied on, and the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that chooses among the ordinary interface options when its predicate applies. A different choice passes only after its subject assertion, predicate, and result are named; otherwise stop with the established `missing-governor` blocker, whose content identifies the absent predicate source.
 
 If a later use must inspect the choice, identify a separate C.2.1 episteme whose claim content describes it and cites that result; the episteme does not make the crossing, parthood, compatibility, or decision fact obtain. This account lets the practitioner check whether an interface change loses an external obligation or leaves an endpoint unmanaged.
 
@@ -43269,27 +43275,27 @@ The lathe can change the workpiece through a bounded transformation and work occ
 | Function as bearer | A functional block or symbol is treated as a physical or organizational component. | Recover function, bearer, allocation or correspondence, and any parthood claim separately. |
 | Description as system | BIM model, dashboard, digital twin, register, or source record is treated as the system. | Identify the description and the system it describes; use C.2.1 if that relation is unclear, and the applicable further pattern only for a remaining question. |
 | Transformation as containment | A tool or teacher changes a holon and is read as its part or containing whole. | Use A.3.4, A.15.1, A.12, and the participation or crossing pattern; require a separately obtaining part-whole relation for containment. |
-| Coordination as ownership | A convenient B.1.2 record is treated as the source of all named facts. | Use its subject pattern for every row; select an A.22 `U.Structure` only when the organization changes the decision. |
+| Coordination as ownership | A convenient B.1.2 record is treated as the source of all named facts. | Use its subject pattern for each relation the conclusion needs; select an A.22 `U.Structure` only when the organization changes the decision. |
 
 ### B.1.2:6 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1.2-1` | The whole is already recognized under the admitted `U.System` kind, or the entity and unresolved A.1 recognition result or blocker are stated without promoting the proposal into a kind-like label. |
-| `CC-B1.2-2` | The named decision, system identity, and obtaining part and crossing relations are recoverable under their subject patterns. When a distinct use-relative inclusion/exclusion choice is claimed, it cites the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; without that predicate, source, and result it returns a missing-governor blocker. Any durable C.2.1 episteme states but does not create those facts. An optional selected structure separately satisfies all four A.22 discriminators. |
+| `CC-B1.2-1` | A design conclusion identifies the proposed whole and the stipulations on which the conclusion depends. When the conclusion needs an existing `U.System`, give its recognition under A.1 or identify the unresolved recognition question. |
+| `CC-B1.2-2` | The result identifies the system and the relations the named decision depends on. A design comparison states the assumed arrangements. Conclusions about as-built parts or actual crossings identify the obtaining relations under their subject patterns. When a distinct use-relative inclusion/exclusion choice is claimed, it cites the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; without that predicate, source, and result it returns a missing-governor blocker. Any durable C.2.1 episteme states but does not create those facts. An optional selected structure separately satisfies all four A.22 discriminators. |
 | `CC-B1.2-3` | External supply, signal, control, measurement, source, publication, evidence, transformation, or coupling claims retain participant bindings and relation patterns; none becomes parthood by crossing or importance. |
-| `CC-B1.2-4` | Functional elements, bearers, allocation or correspondence, and any physical or organizational parthood are identified separately. |
-| `CC-B1.2-5` | A whole-level characteristic names its bearer, characteristic relation or assignment, scale, aggregation or inference rule, evidence, and mathematical-lens boundary when current. |
+| `CC-B1.2-4` | When a conclusion uses functional elements, their bearers, an allocation or a part relation, it identifies the grounds for each relation used. |
+| `CC-B1.2-5` | A whole-level characteristic names its bearer, characteristic relation or assignment, scale and supporting evidence. A roll-up or other inference identifies the rule and any mathematical-lens boundary it uses. |
 | `CC-B1.2-6` | Changing, controlling, teaching, measuring, or repairing another holon does not make that holon a part of the acting system; any containing-whole claim has its part-whole relation. |
 | `CC-B1.2-7` | Description artifacts, models, dashboards, digital twins, and registers remain distinct from the system holon and from any selected structure they describe. |
-| `CC-B1.2-8` | Any coordinating `U.Structure` has all four A.22 discriminators and remains non-agentive; otherwise the results stay a plurality. |
+| `CC-B1.2-8` | A claim to have selected a `U.Structure` identifies its subject and establishes the four A.22 discriminators for that subject. A conditional conclusion about a proposed design identifies the stipulated organization that warrants it. |
 | `CC-B1.2-9` | Environment, containing system, the system-of-interest role in a named extended enterprise, the local system-in-hand, and any claim or model-use qualifier remain separately identified; `Context` is not used as their common owner. |
 
 ### B.1.2:7 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Box as boundary | A diagram rectangle determines system membership. | Recover system identity and every obtaining part and crossing relation; stop if those facts answer the question. If a distinct use-relative boundary choice remains, name the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; otherwise stop with the missing-governor blocker. Add a C.2.1 episteme only when that claim must persist; use an A.22 selected structure only when its four discriminators are independently grounded. |
+| Box as boundary | A diagram rectangle determines system membership. | Recover the identity, part and crossing facts needed for the boundary question. If they settle it, give the answer. If a distinct use-relative boundary choice remains, name the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; otherwise stop with the missing-governor blocker. Add a C.2.1 episteme only when that claim must persist; use an A.22 selected structure only when its four discriminators are independently grounded. |
 | Supplier as component | External supplier or grid is treated as part of the system. | Recover the supply, commitment, evidence, source-use, or other crossing relation under its subject pattern; infer no parthood. |
 | Function block as module | A functional block is treated as a physical component. | Recover the functional element, proposed bearer, allocation or correspondence, and any obtaining part relation separately. |
 | Digital twin as part | A model or dashboard appears inside the system aggregate. | Recover the description relation; add parthood only if its predicate independently obtains. Follow :4.1 for a further question about relying on or publishing the description. |
@@ -43336,7 +43342,7 @@ The coordination method uses A.1 for system recognition, A.14 and C.13 for parts
 
 **Not this pattern when.** Use C.2.1 for episteme identity and edition continuity, A.14 for a proper temporal restriction of one unchanged episteme, A.15.1 for Work parts or occurrences, B.1.4 for a bounded aggregation of already recovered order or temporal relations, and B.3 for the assurance claim that consumes the aggregate.
 
-**What changes in practice.** Identify the target claim, each input's support role and dependencies before combining them. Return a justified calculation or a reasoned synthesis with its limitations; preserve provenance and conflicts. Return identity, edition, temporal restriction, Work, publication, and assurance questions to their subject patterns.
+**What changes in practice.** Identify the claim the recipient needs. Use a sufficient existing argument directly when the commission asks for that conclusion. When asked to construct a synthesis, work back from its required conclusion to the premises, sources and dependencies to combine. Return a justified calculation or a reasoned synthesis with its limitations; preserve provenance and conflicts. Return identity, edition, temporal restriction, Work, publication, and assurance questions to their subject patterns.
 
 **Mereology and identity (A.14/C.2.1).** Use **ConstituentOf** for semantic parts. Measure a text or data split on its selected expression or carrier under C.2.1 and E.24.PUB; use **PortionOf** only when those measured entities independently meet A.14:5.1. Use `PhaseOf` only for a proper interval of one unchanged C.2.1 episteme. When a MethodDescription or document episteme's claim content, EntityOfConcern, or effective ReferenceScheme changes, identify another episteme and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Work segmentation uses A.15.1; no **ComponentOf** is used here.
 
@@ -43446,16 +43452,18 @@ If the knowledge fold depends on **argument order** (for example, a derivation),
 * **WLNK (Weakest-link bound).** An unsupported indispensable premise limits the conclusion that needs it. A numerical minimum is appropriate only when the named quantity and dependency model justify a bottleneck or lower-bound interpretation. WLNK does not impose minimum over every cited source or every argument.
 * **MONO (Monotonicity).** A monotonicity claim names the support change and the model under which it holds. Duplicate data, a contrary result, a changed target population, or the failure of a necessary assumption is not simply “more support”.
 
-**No universal reliability fold.** B.3 governs the quantity, scale, dependency assumptions, and calculation. For two necessary independent conditions with probabilities 0.9 each, the conjunction has probability 0.81, not 0.9. Without independence, use a warranted conditional model or leave that joint probability unresolved. A minimum or maximum can be useful under its declared meaning; monotonicity and boundedness alone do not establish that meaning.
+**No universal reliability fold.** B.3 governs the quantity, scale, dependency assumptions, and calculation. For two necessary independent conditions with probabilities 0.9 each, the conjunction has probability 0.81, not 0.9. Without independence, these marginals alone bound the conjunction between 0.8 and 0.9. These bounds can settle thresholds on the conjunction itself. For another event whose occurrence requires both conditions, their joint probability supplies an upper bound. A lower bound on the conjunction also bounds success from below if their joint occurrence ensures success. More generally, let L be a lower bound on the probability of both conditions holding and d an upper bound on the probability that both hold and the function still fails. Success has probability at least max(0, L − d). A minimum or maximum can be useful under its declared meaning; monotonicity and boundedness alone do not establish that meaning.
 
 **Formality and calculation.** Ordinal comparisons remain ordinal. A quantitative calculation requires commensurate inputs and a model for the proposed operation, including any mapping loss; a table of numbers alone is insufficient. Formal derivations state their logic and assumptions, and constructive derivations their proof basis. When no common aggregate is justified, a qualitative synthesis can still give a complete, useful answer to a bounded question.
+
+To design the synthesis, first say what could count for or against the requested conclusion. Follow each needed inference to a premise, observation or rule that can supply it. Identify which contributions are semantic parts of the resulting argument and which sources establish or qualify a premise from outside it. A report about a component and a claim about the enclosing system can contribute together when the system's use of that component warrants the inference. Try a different arrangement with the same local finding. If it changes the conclusion, retain the distinguishing condition or limit the inference. End a branch where an applicable source or general argument supplies the required ground. To supply a way of synthesizing future cases, explain how to choose these contributions when the sources or uses differ.
 
 #### B.1.3:4.4 - Core rules for epistemic aggregation (design‑time synthesis)
 
 When computing **Γ_epist^synth(D_know)**:
 
 **1. Provenance preservation.**
-   The **provenance/evidence graph** is **unioned with de‑duplication**; every claim in the aggregate remains traceable to its sources and methods. No source, method, or dataset that supports a retained claim may be dropped.
+   The **provenance/evidence graph** is **unioned with de‑duplication**; every claim in the aggregate remains traceable to its sources and methods. Preserve the material sources and methods on which each retained claim relies, including contrary evidence that bears on it. For a claim about all eligible contributions or about their absence, give the selection rule and establish why a missing contribution cannot change the result. A complete register, an applicable general argument or a sufficient bound can establish that coverage. A question about one documented contribution can be settled by that contribution.
 
 **2. SCR construction.**
    Keep a recoverable account of every material source contribution, method, mapping and dependency. Include carriers and source versions where their identity, currentness, integrity or participation matters to the named use. When that use requires reconstruction of the aggregation, retain the SCR and the information needed for that reconstruction.
@@ -43545,9 +43553,9 @@ For **Γ_epist^compile**, map the retained claims into the journal's scheme, car
 
 * **Inputs:** a requirement specification, hazard analysis, test logs, and a proof of controller property P under assumptions A. Preserve each source's formal basis and support. No common R scale follows from four labels or formality levels.
 * **Formal receiving question:** “Does A entail P in the stated model?” Retain the valid proof and its assumptions as the useful result. An empirical study is not needed to turn that result into an invented empirical R; F describes the expression properties; the probability that the actual controller is safe needs its assurance basis.
-* **World-facing receiving question:** “Does the installed controller deliver the protective function in these operating conditions?” Expose the reliance on A, the implementation/model correspondence, and the operating scope. If A is unsupported for this use, the proof alone does not establish the world-facing claim. If logs show an edge case violating A, retain that counterevidence and withhold the stronger assurance while preserving the theorem A ⇒ P.
-* **Threshold case:** a receiving acceptance clause requires a justified probability of at least 0.95 for the real protective function. Substituting a high F or its rescaled value cannot meet it. A declared ordinal checkability comparison remains usable as an ordinal comparison. A numerical acceptance result requires the model and evidence that warrant that probability; otherwise return the narrower formal conclusion and the unresolved system assurance.
-* **Positive quantitative case:** if a receiving model establishes two necessary independent conditions, each with probability 0.9, their conjunction is 0.81. A 0.85 threshold is not met by replacing 0.81 with min(0.9, 0.9). If independence is unavailable, the joint probability needs the conditional model or remains unresolved; the formal proof is unchanged.
+* **World-facing receiving question:** “Does the installed controller deliver the protective function in these operating conditions?” Expose the reliance on A, the implementation/model correspondence, and the operating scope. If A is unsupported for this use, the proof alone does not establish the world-facing claim. If logs show an edge case violating A, the theorem A ⇒ P still holds. Its proof leaves the real function in that case unresolved. Other evidence can settle the assurance question over its intended operating range.
+* **Threshold case:** a receiving acceptance clause requires a justified probability of at least 0.95 for the real protective function. Substituting a high F or its rescaled value cannot meet it. A declared ordinal checkability comparison remains usable as an ordinal comparison. Acceptance can follow from a justified lower bound at or above the threshold. An upper bound strictly below it establishes failure to meet the clause. Where neither conclusion follows, return the narrower formal result and identify the unresolved system assurance.
+* **Positive quantitative case:** suppose the real protective function requires two conditions, each with probability 0.9. Under independence the probability of both is 0.81. The function can be present only when both hold, so its probability is at most 0.81. This rules out a 0.85 threshold. The probability of success equals that of the conjunction exactly when the probability of failure with both conditions present is zero. Without independence the probability of both lies between 0.8 and 0.9. Even one necessary condition with probability 0.9 rules out the 0.95 threshold. The formal proof remains available under its own assumptions.
 
 For **Γ_epist^compile**, map the retained claims to the certification scheme. Where local meanings differ, identify source and receiving `SchemeSenseCell` values, test the F.9 Bridge, state the bounded certification use and permitted loss, and establish relied-on use separately. C.2.1 identifies the resulting episteme. Certification, authorization, a publication occurrence, and system protection remain separate claims.
 
@@ -43574,7 +43582,7 @@ Selecting that target within one replaceable-scheme argument also requires the d
 1. **PO‑SYN‑PROV.** The **provenance/evidence graph** MUST be preserved (union with de‑duplication); every retained claim remains traceable to its material sources and methods. An SCR MUST be retained when required to reconstruct the aggregation for its named use.
 2. **PO-SYN-OBJ.** The result **MUST** name one EntityOfConcern already identified under its pattern. If the synthesis depends on several inputs as a joint subject, its collection, relation, or whole identity **MUST** be independently governed; a list, graph, label, or mapping is insufficient. Every semantic mapping used by the fold **MUST** be declared with its limitations and any **CL** summary required by the receiving rule.
 3. **PO-SYN-CL.** Every mapping used in the support account **MUST** retain its use limitations and any CL summary consumed by the receiving rule. A numerical loss **MUST** have a receiving model establishing its meaning, scale, derivation or calibration, and assumptions; ordinal ranks and monotonicity alone are insufficient. The summary neither establishes an F.9 Bridge nor grants use.
-4. **PO‑SYN‑R.** The result **MUST** distinguish indispensable premises, sufficient alternatives, complementary support, scope slices, and counterevidence where present. An aggregate R **MUST** have warranted input meanings, scales, dependencies, and an operation under B.3/C.2.2. Otherwise retain separate support and a reasoned bounded synthesis. Neither F nor a mode tag supplies an R conversion.
+4. **PO‑SYN‑R.** The result **MUST** distinguish indispensable premises, sufficient alternatives, complementary support, scope slices, and counterevidence where present. When it makes a claim covering every eligible contribution, the grounds for coverage must support that claim. An aggregate R **MUST** have warranted input meanings, scales, dependencies, and an operation under B.3/C.2.2. Otherwise retain separate support and a reasoned bounded synthesis. Neither F nor a mode tag supplies an R conversion.
 5. **PO-SYN-CONFLICT.** The result **MUST** retain credible contrary evidence and distinguish an established scope or interpretation difference from an unresolved conflict. Narrow, qualify, or withhold the affected conclusion accordingly. B.2 applies only to a separately grounded whole-reidentification question.
 6. **PO-SYN-ORDER.** If the conclusion depends on order, the ordered relations, positions and **OrderSpec** MUST be recorded. The aggregation MUST satisfy B.1.4:4 for its declared use, including applicable branch, join and independence conditions; determinacy is relative to those conditions.
 7. **PO‑SYN‑NOWORK.** When a resource account is required, use B.1.6 and reference its result separately; resource expenditure does not itself establish epistemic support.
@@ -43592,7 +43600,7 @@ Selecting that target within one replaceable-scheme argument also requires the d
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | **CC‑B1.3.1** | Every knowledge constituent supplied to Γ\_epist MUST be a `U.Episteme` holon; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's belongs-to predicate only for collections. | Prevent category errors. |
-| **CC‑B1.3.2** | Material sources, methods and their contributions MUST remain recoverable with the aggregate; preserve any SCR details required by the receiving use. | Preserve source contributions and required reconstruction grounds. |
+| **CC‑B1.3.2** | Material sources, methods and their contributions MUST remain recoverable with the aggregate. Preserve any SCR details required by the receiving use. A claim to complete coverage identifies which contributions qualify and what warrants its reach. | Preserve source contributions and required reconstruction grounds. |
 | **CC‑B1.3.3** | Any aggregate R MUST follow the justified input meanings, scales, support dependencies, and receiving model. No default min, max, or F-to-R conversion is supplied; absent a common model, retain a bounded synthesis and separate support. | Prevent unsupported assurance and preserve useful non-aggregate results. |
 | **CC-B1.3.4** | Contrary evidence MUST remain visible. An established scope or interpretation difference may separate claims; an unresolved conflict must qualify, narrow, or defeat the affected conclusion. Use B.2 only for a separately grounded whole-reidentification question. | Keep the practical effect of disagreement visible. |
 | **CC‑B1.3.5** | Any mode declaration consumed by the receiving use **MUST** follow that use's rule and the support operative in the claimed conclusion. Under the axiomatic/postulative distinction, an operative postulative input makes that conclusion postulative; separately supported formal subclaims remain usable. | Preserve the relevant warrant distinction without substituting a tag for support. |
@@ -43689,7 +43697,7 @@ The resulting aggregate is unusable for the proposed claim: the user cannot tell
 Start with the receiving question and the result it needs. An already adequate aggregation rule and ordinary explanation can be used directly.
 
 1. **Recover the inputs and relations.** Identify the included positions, values, intervals or phases and the objects they concern. Keep their identity and relations grounded in the subject facts and applicable rules. For a temporal input, recover its bearer, temporal reference and interval; relate different references only through a justified conversion.
-2. **Choose the combining rule and result.** State the operation and what it returns: for example, an ordered relation structure, a combined value, the union of covered intervals or their elapsed span. Supply the order, join, independence, coverage and overlap conditions that this operation uses. If the rule needed by the question is missing, retain that gap rather than naming an unsupported aggregate.
+2. **Choose the combining rule and result.** State the operation and what it returns: for example, an ordered relation structure, a combined value, the union of covered intervals or their elapsed span. When the rule is yours to design, change a possible history while holding the proposed summary fixed. Moving a gap can preserve total coverage while moving the last completion beyond a deadline. Use the events, intervals or joint conditions that distinguish the answers the recipient needs. Supply the order, join, independence, coverage and overlap conditions that this operation uses. If the rule needed by the question is missing, retain that gap rather than naming an unsupported aggregate.
 3. **Obtain the requested result.** A specification can be sufficient when the task asks how the aggregation is to be performed. When a computed result is needed, apply the selected operation and interpret its result under those conditions. Distinguish an order structure from the result of applying the operations it represents. Section :5 shows why the same inputs can support different warranted results.
 4. **Bound the use and stop.** State the supported use and any condition whose failure or uncertainty changes it. Narrow the result or leave the affected conclusion unresolved when its required basis is missing. Use another pattern when a distinct claim needs that pattern's contribution. Stop with the sufficient ordinary answer.
 
@@ -43793,7 +43801,7 @@ For temporal aggregation:
 - a changed identity is represented as a distinct input when appropriate, rather than hidden as another phase of the same carrier;
 - work-resource claims use `B.1.6`; positive temporal-aspect claims use `C.27.TA`, while a separate temporal-claim adequacy question uses `C.27`. Currentness uses `G.11`, and `A.10` recovers provenance and bounded reliance when needed.
 
-**B.1 invariant carry-through.** Apply an algebraic law only when the recovered relation and selected operator justify it. A unique computed contextual result requires the operation, permitted order and join or independence conditions to determine that result. If admissible orders give different outcomes, retain the supported alternatives or establish the additional ordering or selection needed by the use. An order structure can be a sufficient aggregate without asserting a unique execution outcome.
+**B.1 invariant carry-through.** Apply an algebraic law only when the recovered relation and selected operator justify it. A unique computed contextual result requires the operation, permitted order and join or independence conditions to determine that result. Before promising an execution or its result, establish that the applicable constraints admit an execution. When admissible orders give different values, check the requested conclusion across them. A bound on all returned values can establish a condition on those values. For a promise to deliver the result by a deadline, also establish timely completion under the choices the promise covers, using a feasible decision rule if those choices are entrusted to the performer. To refute a guarantee with an adverse order, establish that the order can occur. For an exact value, retain the supported alternatives or establish the additional ordering or selection that determines it. An order structure can be a sufficient aggregate without asserting a unique execution outcome.
 
 Temporal aggregation follows its selected rule, temporal reference, coverage and overlap policy; one-carrier continuity is additionally required by the proper-phase profile.
 
@@ -43823,7 +43831,7 @@ Weakest-link and monotonicity claims name the characteristic and model being bou
 
 Any cross-basis conversion or comparison retains its operation rule and loss or uncertainty conditions. Use `C.29` when a separate mathematical correspondence or reliance question remains. If the required compatibility is unestablished, retain separate results or narrow the claim rather than pool them as one supported aggregate.
 
-**Order-dependent calculation.** In this constructed case, start with `x = 1` and combine `f(x) = x + 1` and `g(x) = 2x` by sequential application. Applying f then g gives `g(f(1)) = 4`; applying g then f gives `f(g(1)) = 3`. An OrderSpec permitting both orders does not establish one numerical answer or the independence needed to ignore order. If the use needs a unique answer, establish the required precedence or a justified operator property that makes all permitted orders equivalent. Otherwise retain the two supported outcomes. If the task needs only the partial-order specification, that specification already answers it.
+**Order-dependent calculation.** In this constructed case, start with `x = 1` and combine `f(x) = x + 1` and `g(x) = 2x` by sequential application. Applying f then g gives `g(f(1)) = 4`; applying g then f gives `f(g(1)) = 3`. An OrderSpec permitting both orders does not establish one numerical answer or the independence needed to ignore order. For a unique prediction, establish which order applies or that every permitted order gives the same value on the input in question. In this example the two attainable values establish that the result is at least 3. A trusted observation of the final value can answer a question about an actual run even if its order is unknown. To explain how that value arose, establish the facts on which that explanation depends. If the task needs only the partial-order specification, that specification already answers it.
 
 **Work-interval aggregate.** In this constructed case, independently admitted Work occurrences W1 and W2 occupy `[0,2)` and `[3,5)` hours under one declared clock reference, within window `[0,5)`. For covered time, take the union `[0,2) ∪ [3,5)`: its duration is 4 hours. For elapsed span from first start to last end, take the convex hull `[0,5)`: its duration is 5 hours, including the gap. These are different warranted answers to different questions, following the A.15.1:9.1 Work-interval profile.
 
@@ -43847,7 +43855,7 @@ Union counts a shared instant once when intervals overlap. Its set-based policy 
 | CC-B1.4-3 | Independence, join, coverage, and overlap-policy conditions are present when the claim uses them. | Keeps local composition reviewable. |
 | CC-B1.4-4 | Method, method-description, work-plan, work-occurrence, work-resource, transformation, and whole-reidentification claims use the patterns that define or test them. | Prevents B.1.4 from absorbing neighboring objects. |
 | CC-B1.4-5 | Mathematical notation is treated as a selected lens or expression, not as the in-life object or relation. | Keeps `Gamma_ctx`, `Gamma_time`, graph, and algebra language bounded. |
-| CC-B1.4-6 | Use stays within the established operation, identity and coverage conditions. When a required condition fails or remains unknown, narrow the result or retain the unresolved conclusion; use the subject pattern for a distinct identity, change or whole-reidentification question. | Preserves stops without requiring a stronger claim merely to finish an ordinary aggregate. |
+| CC-B1.4-6 | Use stays within the established operation, identity and coverage conditions. For an execution claim, establish the feasibility it requires. A guarantee of delivery also covers timely completion under the promised conditions. When a condition remains open, give any requested conclusion warranted across the admitted cases. Narrow or withhold the part that depends on the missing distinction; use the subject pattern for a distinct identity, change or whole-reidentification question. | Preserves stops without requiring a stronger claim merely to finish an ordinary aggregate. |
 
 ### B.1.4:7 - Common Anti-Patterns and How to Avoid Them
 
@@ -43897,7 +43905,7 @@ The additional burden is recovering those inputs, rules and conditions; an inspe
 
 ### B.1.5:1 - Problem Frame
 
-Use this pattern when a project must decide whether several recovered methods compose into one larger `U.Method`, and when order, guarded choice, parallel branches, typed joins, adapters, or method-interface exposure changes the identity of that whole method.
+Use this pattern when the question is whether identified Methods constitute one reusable Method. Their contributions may depend on order, guards, joins, shared constraints or simply satisfying distinct requirements of the whole. If the recipient must devise the arrangement, begin with B.1.5.CM and use the qualification below on the resulting proposal.
 
 Typical moments:
 
@@ -43910,7 +43918,7 @@ Typical moments:
 
 **Primary EntityOfConcern.** The EntityOfConcern is one candidate or composite `U.Method`, already identified under A.3.1. The proposition that part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the candidate Method as its EntityOfConcern under its effective ReferenceScheme.
 
-**First useful move.** For each apparent step or branch, recover the governed object before composing anything: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
+**First useful move.** Identify the reusable result or condition the recipient needs and whether the task is to qualify a proposed arrangement or to construct one. For each apparent step or branch, distinguish the object it denotes: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
 
 **What goes wrong if missed.** A flowchart becomes the method, a plan item becomes a submethod, an event log becomes proof that a method was enacted, an order edge becomes a part, or a registry of alternatives is treated as one composed method. Then work starts from a description or label whose method identity, joins, interfaces, and failure conditions were never recovered.
 
@@ -43918,7 +43926,7 @@ Typical moments:
 
 **Not this pattern when.**
 
-- If the claim is one semantic way of doing with no order-sensitive composition question, use `A.3.1`.
+- If the claim concerns one semantic way of doing and its composition is outside the question, use `A.3.1`.
 - If the claim is a claim-bearing episteme that describes a method or relations among methods, use `A.3.2` and `C.2.1`.
 - If the claim is intended work, use `A.15.2`.
 - If the claim is a dated occurrence, use `A.15.1`.
@@ -43929,7 +43937,7 @@ Typical moments:
 
 `U.Method` is a non-agentive method holon kind. A method can have submethods and can participate as a submethod in a larger method. This does not mean every step-looking node, document section, file module, graph edge, work-plan item, or work occurrence is a method part.
 
-Order-sensitive method composition asks:
+For a proposed composition, ask:
 
 ```text
 Given independently recovered U.Method parts,
@@ -43950,7 +43958,7 @@ When the objects and composition grounds are left unclear:
 3. **Order as mereology.** `SerialStepOf`, `ParallelFactorOf`, guarded choice, or fallback relation is placed in a structural part-whole chain.
 4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without checking their compatibility, any needed adapter Method or governed correspondence, and the failure route.
 5. **Interface exposure is hidden.** Callers rely on internal interactions that should be encapsulated, or fail to see interactions that the composite method must expose.
-6. **Run-time leakage.** Resources, timestamps, telemetry, performed values, and results are baked into the method instead of remaining occurrence-side facts and separately governed resource, result, and evidence relations.
+6. **Run-time leakage.** The resource use, timestamps, telemetry and results of a particular execution are attributed to the Method itself. A reusable Method may stipulate a resource or time limit. Its use in a particular Work and the values actually observed need their own grounds.
 7. **False whole method.** A method-family registry, fallback table, selector rule, or A.22-selected relation organization is treated as one whole method although no construction or whole identity has been recovered.
 8. **Sequence becomes level.** A source list, vertical diagram, curriculum, or first–then account is treated as a subject hierarchy or level structure without an independently established level relation.
 9. **Simultaneous contributions become stages.** Methods that contribute during the same bounded Work situation are forced into one before-after chain because the source, presentation, or review visits them one at a time.
@@ -43970,7 +43978,7 @@ When the objects and composition grounds are left unclear:
 
 A.3.1 first identifies the candidate `U.Method` and every part method. B.1.5 does not create their `U.Method` membership. It asks: do these already identified methods, contributions, constraints, and boundary decisions warrant the claim that the candidate Method is composite?
 
-Start with the smallest useful composition claim:
+If the parts and arrangement are still yours to choose, use B.1.5.CM:4.1 to work from the whole result to the contributions and their conditions. Return here to test the resulting composition claim:
 
 1. Name the same A.3.1 candidate Method and A.3.1 part methods.
 2. In ordinary domain language, state the candidate's reusable whole action, what each part contributes, and the order, guard, adapter, or join condition that the whole action needs.
@@ -44055,9 +44063,11 @@ Use B.5.MR for refinement or abstraction between models of Methods. Establish a 
 Before using a first–then or vertical list as Method architecture, make both checks.
 
 1. **Preserve order.** Ask what must finish or become true before another Method can start or continue. Identify the source of the order. A protocol can require two independent assessments in sequence with the first assessment sealed until both finish. Other Methods need an actual handover. For those, identify the result, any join or adapter, and what happens when the receiving conditions fail. Keep a first–then result as an unfolding or order claim; its position does not make it a subject level.
-2. **Test simultaneous contribution.** Choose a representative working situation and ask whether several Methods contribute without forming one before-after chain. They may be enacted in one Work whole or in overlapping Work occurrences. When asserting dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
+2. **Test independent and simultaneous contributions.** Recover which contributions the whole requires, which can occur in either order, and which must overlap or use a shared resource. A construction rule can settle those questions for the allowed executions before any Work occurs. Where a working situation exposes a dependency, establish how far it applies. For a claim about dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations.
 
 Both answers may be true. A Method can contain an ordered segment while other Methods contribute during the same broader Work. The source's reading order and the fact that several Methods are used together decide neither which Methods are parts of one whole nor whether any level exists.
+
+A functional layer can name a responsibility, such as supervising a process. Recover the Methods that realize it and the systems that perform them when those relations matter. Several Methods can serve the same layer while belonging to different encompassing Methods. For a proposed model of one Method, check which admissible executions it groups together. It must distinguish those requiring different caller actions, results or grounds for the promised use. If comparing models for refinement, keep the Method and the question fixed under B.5.MR.
 
 Then use A.6.RCD. Reuse an existing direct predicate when one already governs the needed claim. Otherwise stop at a local compound claim when it closes this use, or publish a reusable predicate-definition episteme when several uses need the same rule. Continue to a relation-kind candidate only when a named receiver needs stable occurrence semantics that claim content cannot supply; E.24 and E.24.UK decide admission. A label such as `precedesInMethod` is claim language, not admission evidence, and an ordinary composition claim needs no invented occurrence.
 
@@ -44161,7 +44171,7 @@ Useful invariants remain:
 
 - A single recovered submethod composed alone does not create a surprising new Method.
 - Order is deterministic only under the order claims and conditions at their selected A.6.RCD dispositions.
-- Any throughput or quality bound must name its characteristic, critical path, and weakest-link basis.
+- A throughput or quality bound identifies its characteristic, the conditions it covers and the rule that warrants the bound. A critical path, a bottleneck, parallel capacity or a bound on the combined result may supply those grounds.
 - A claim that improving a submethod, adapter, or typed join improves the composite must name the characteristic and conditions under which that improvement transfers.
 
 ##### B.1.5:4.5.2 - Stop Before Transformation Composition
@@ -44225,7 +44235,7 @@ If a later hospital protocol first identifies an A.3.1 Method such as `Emergency
 
 A neural-network pipeline may describe feature extraction, embedding, attention, retrieval, ranking, and explanation generation. Some blocks may be formal substrate or mechanism material, some may be constituents of a `U.MethodDescription`, and some may be recovered as `U.Method` values.
 
-After the candidate whole represented by the pipeline and every claimed part have been independently identified as A.3.1 Methods, that candidate qualifies as composite only when `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, accepted inputs and outputs, invariants or admissibility conditions, typed joins, fallback behavior, failure conditions, interface decisions, and reidentification rule are present. Otherwise keep the graph as a MethodDescription, mathematical lens, mechanism material, or—when a selection basis and receiving use exist—an A.22-selected `U.Structure`.
+After the candidate whole represented by the pipeline and every claimed part have been independently identified as A.3.1 Methods, that candidate qualifies as composite only when `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, an account of the accepted inputs and outputs, and a rule identifying the Method across its admissible variations are established. Include the joins, fallback routes, stops and interface decisions on which this particular pipeline depends. Where the grounds for Method composition are missing, identify what the graph does supply. It may be a MethodDescription, a mathematical lens, or an account of the mechanism. A claimed A.22-selected `U.Structure` needs its selection basis and receiving use.
 
 Suppose one dated training Work enacts the pipeline Method while three independently identified transformations occur: the feature store changes, model parameters change, and the ranking index changes. Common Work, shared data, Method order, and temporal adjacency do not establish transformation parts or one composite transformation.
 
@@ -44282,10 +44292,10 @@ Construction and boundary accounts are useful when a join or outside reliance de
 | `CC-B1.5-11` | A needed order aggregation preserves B.1.4's selected inputs, combining rule, order relations and required join or independence conditions. The `OrderSpec` may be stated in ordinary prose; use a separate record when the receiver needs it; neither adds Method identity nor establishes relation facts. |
 | `CC-B1.5-12` | Typed joins name the upstream intended-result meaning and downstream precondition, plus an adapter or governed correspondence when those meanings differ, and a failure route; signatures do not establish the holder's ability. |
 | `CC-B1.5-13` | Dated Work, performing Systems, separately declared assignment species, assignment occurrences, obtaining F.6 attributions, resource use and costs, yields, dissipation, telemetry, results, and production, together with separate evidence-, publication-use-, evaluation-, delivery-, and acceptance claims, use their subject patterns and do not become Method identity fields. |
-| `CC-B1.5-14` | Assurance hooks name cutsets, fragile joins, adapter points, CL-sensitive mappings, and the envelope or claim scope consumed by B.3; no performance or quality claim follows from composition alone. |
+| `CC-B1.5-14` | Assurance hooks identify the dependencies and scope the B.3 claim uses, including cutsets, fragile joins, adapter points or CL-sensitive mappings when relevant; no performance or quality claim follows from composition alone. |
 | `CC-B1.5-15` | A method-composition claim establishes no A.14 structural-component relation, work-part relation, or selected-structure identity unless the corresponding predicate separately obtains. |
 | `CC-B1.5-16` | Method parts, Work parts, common referents, method order, and temporal adjacency establish neither transformation parthood nor a composite transformation; missing transformation-composition governance returns `missing-governor[transformation-composition]` for the proposed whole and independently identified changes, without an atomism inference. |
-| `CC-B1.5-17` | A first–then or vertical account receives both checks: preserve every continuation condition as order or unfolding, and test whether several Methods contribute during the same bounded Work situation without one total sequence. Source order creates no level; simultaneous use creates no Method part, composite Method, Work part, or level. |
+| `CC-B1.5-17` | A composition inferred from a first–then or vertical account preserves its continuation conditions and identifies whether contributions are serial, unordered or required together. The Method’s construction can establish this organization. A claim about how the work actually proceeded has its own occurrence grounds. Source order creates no level; simultaneous use creates no Method part, composite Method, Work part, or level. |
 
 ### B.1.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -44294,11 +44304,11 @@ Construction and boundary accounts are useful when a join or outside reliance de
 | "The workflow diagram is the composite Method." | First govern the diagram as `U.MethodDescription` or another representation; identify the candidate and part Methods under A.3.1, then test `methodPartOf`, whole-forming claims at their A.6.RCD dispositions, whole semantics, boundary, and reidentification. |
 | "Step A is part of the Method because it is a box." | Recover whether the box denotes a `U.Method`, description node, plan item, Work occurrence, claim, or lens expression; test `methodPartOf` only for an independently identified Method. |
 | "Parallel branches can join because the picture rejoins." | State which branches may proceed in either order, what the receiver needs from them and which combinations satisfy that need. If the Method requires a join, specify its condition, any necessary correspondence and what becomes possible or remains blocked when it fails. Use A.6.RCD's lightest sufficient disposition. |
-| "The production plan lists five Methods, so the practice has five stages." | Preserve any setup, handoff, or continuation order. Then test the representative Work: Methods may contribute together in one Work whole or in overlapping Work occurrences. The plan's row order establishes neither a total sequence nor a subject level. |
+| "The production plan lists five Methods, so the practice has five stages." | Preserve any setup, handoff, or continuation order. Recover any required joint contribution from the arrangement. Use the occurrence evidence when the question concerns a performed case. The plan's row order establishes neither a total sequence nor a subject level. |
 | "The selector table is the Method." | Use `G.5` for the selector. Select an A.22 structure when the receiving use needs that organization and all four discriminators are established; otherwise retain the sufficient local comparison. A composite Method needs its construction and whole-level commitments. |
 | "The run proved the method structure." | Record the run as `U.Work`; relate it to the method through `enactsMethod` and use evidence only through its governing relation. A successful run neither creates method parts nor settles reidentification. |
 | "The phase is a method step." | Recover the subject: use the carrier's identity rule plus proper A.14 `PhaseOf` for one unchanged non-Work individual, C.2.1 for distinct MethodDescription epistemes and any obtaining edition relation, or A.15.1 for Work temporal parts and occurrences. None is a Method part unless a `U.Method` and `methodPartOf` independently obtain; use B.2 only for a separately current whole-reidentification, supervision, or closure claim. |
-| "The join improves throughput, so the method has emergence." | Name the measured characteristic, critical path, cutsets, typed joins, and assurance relation; open B.2 only when a separate whole-level reidentification claim remains. |
+| "The join improves throughput, so the method has emergence." | Identify the characteristic and the dependencies that govern the claimed gain, such as a bottleneck when one is decisive. Then open B.2 only when a separate whole-level reidentification claim remains. |
 | "The boundary-account prompts define the Method." | Recover the Method and its construction facts first. The account describes those facts; a selected form constrains eligible expressions. Use E.24.PUB when the publication relation or form conformance matters. |
 | "The boundary account is a nice diagram." | State the interactions and their conditions. If a receiver depends on publication, identify which description edition is available to which declared audience and use through which expression and carrier. Open E.24.PUB's further predicates for the unresolved publication question. |
 | "The same Work and referent make the transformations one composite." | Identify each transformation under A.3.4. Without a transformation-composition governor, return `missing-governor[transformation-composition]` for the proposed whole and independently identified changes; infer neither composition nor atomism. |
@@ -44337,7 +44347,7 @@ B.1.5.CM constructs the prospective whole, constituent contributions, joins and 
 - Uses `A.3.2` and `C.2.1` for MethodDescription claims and identity. Uses `E.24.PUB` when publication affects the receiving use: start with the edition, audience, bounded use, expression and carrier; recover further expression, bearing, form-conformance or availability predicates for the question that remains. Publication Work and designation remain separate.
 - Uses `A.22.CGUS` when a first–then, guarded, branching, or returning unfolding is the useful result; an unfolding position is not a subject level or evidence that all contributions are sequential.
 - Uses `A.15`, `A.15.1`, and `A.15.2` for dated `U.Work`, `enactsMethod`, and plans; uses `A.2`, `A.2.1`, and F.6 for local system-role-kind and Method alignment, separately declared assignment species, assignment occurrences, and obtaining Work–assignment attributions. The Method does not act, and neither a system-role kind nor an assignment performs Work.
-- Uses `B.1.6` and `Gamma_work` only for occurrence-side work-resource aggregation after the Work and resource relations are recovered.
+- Uses `B.1.6` to construct a resource-accounting rule for prospective Works, derive a conditional bound from a proposed arrangement, or aggregate actual use through `Gamma_work`. A report of actual consumption relies on the relevant Work and resource relations.
 - Uses `B.3` for cutset, weakest-link, CL-sensitive mapping, and assurance claims; composition alone supplies no assurance verdict.
 - Uses `A.22` when the receiving use needs a selected organization and its four identity discriminators are established. Ordinary comparisons can finish without that claim; a dated selection occurrence has its separate Work grounds.
 - Uses `C.13` only after B.1.5 supplies Method parts, whole-forming facts and constraints, and the whole reidentification rule; C.13 consumes those facts but does not create them or require one relation kind per fact.
@@ -44361,7 +44371,7 @@ B.1.5.CM constructs the prospective whole, constituent contributions, joins and 
 
 Use this pattern when you need to understand, perform, teach, divide or change a way of working and cannot yet explain how its constituent actions perform the encompassing work. A person knows each movement but loses the partnered dance. A team improves a calculation but no longer obtains a usable engineering answer. A description lists stages, yet the reader cannot tell what larger work is being done through the present action.
 
-Start with one action and ask: **“What am I doing through this action now, and what makes it part of that work?”** Then recover the constituents needed to perform it and the conditions of the encompassing work that affect it.
+Start from the work the recipient needs to explain, carry out or change. If the question starts from an action, ask what encompassing work is being done through it and how. If it starts from a delivery, an ongoing service or a shared performance, work back to the actions that constitute it and to the contributions it receives from elsewhere.
 
 The first useful result is an explanation you can use: the selected action, its relevant constituents and encompassing work, the connections that make the whole possible, and any difference that requires changing the action or its organization. A short demonstration can supply this result. A retained diagram or record is useful only when someone needs it later.
 
@@ -44386,11 +44396,11 @@ The reverse mistake is to call every concurrent or indispensable activity a cons
 
 ### B.1.5.EW:4 - Solution
 
-Recover the connection in both directions: **what larger work is being performed through this action, and what constituent actions make it performable?** Keep before-and-after dependencies alongside these connections.
+Trace the constituent–whole connection in the direction needed for this question. From an action, recover what larger work is performed through it. From an encompassing performance, recover how the actions together constitute it. Preserve before-and-after dependencies wherever they affect that inference.
 
 #### B.1.5.EW:4.1 - Choose an action and the work being explained
 
-Name an action in a recognizable situation and the moment or interval under consideration. State whether you are explaining observed Work or proposing how future work could be done. Identify what is being attempted and what a useful result would be.
+Identify the action or encompassing work the recipient asks about and the interval relevant to its use. For an actual occurrence, ground the account in the performance. For a proposal, say what would occur under its conditions. When the assignment is to teach someone to perform the analysis, leave that person the choice of a relevant action or whole from the working situation, unless the commission supplies it.
 
 Use ordinary verbs first: adjusting a step, comparing a measurement, adding a value, questioning an assumption. If the description supplies only a noun such as “coordination”, recover what the participant does.
 
@@ -44412,17 +44422,17 @@ A useful test is to explain the positive connection, not just what would fail if
 
 #### B.1.5.EW:4.3 - Follow constituent and encompassing work
 
-Continue through the constituent–whole connections in the selected Method or Work structure only while the next encompassing whole's conditions change the action, its learning or its use. Explain each intervening connection. If an action serves two wholes, keep both uses and their different conditions visible.
+Follow the constituent–whole connections needed for the action, decision or explanation entrusted to the reader. Different work arrangements can produce the same output. Recover which one occurred when it matters who performed the work or how the participants coordinated. A known organizing rule can justify a connection across several scales. Inspect an intermediate whole where its arrangement could change that connection. If the action serves several wholes, include those whose conditions or outcomes bear on the question.
 
-Then ask what you must be able to do, or obtain from another participant, to perform the selected action. If a described construction remains unclear, use B.5.RC to recover its inputs, operations, conditions and a small execution. If you lack the domain know-how, obtain an explanation or demonstration. If you understand the operation but cannot perform it in the combination, practise with the encompassing conditions, obtain support or use another qualified contributor. Stop a branch at an understood operation or an available contribution sufficient for this use.
+For a decision about who will perform the action or what the performer needs to learn, determine what they must be able to do and which contributions others may supply. A question about whether an action formed part of a completed Work can already be settled by the organizing rule and evidence about that occurrence. If a described construction remains unclear, use B.5.RC to recover its inputs, operations, conditions and a small execution. If you lack the domain know-how, obtain an explanation or demonstration. If you understand the operation but cannot perform it in the combination, practise with the encompassing conditions, obtain support or use another qualified contributor. Stop a branch at an understood operation or an available contribution sufficient for this use.
 
 These moves need not end in one tree. Nor does following several connections establish an unrestricted transitive parthood rule. Carry the conditions through the intervening wholes. A move from an action to its enabling tool, or from a Method to a more general Method, changes the relation; describe it accordingly.
 
 #### B.1.5.EW:4.4 - Examine the combination at a revealing moment
 
-At the chosen moment, identify what must be coordinated and what can vary. Keep prior-result requirements: an operation can be a constituent of an ongoing whole and still have to wait for another constituent's output.
+When the question concerns coordination at a particular moment, identify what must be coordinated and what can vary. Keep prior-result requirements: an operation can be a constituent of an ongoing whole and still have to wait for another constituent's output.
 
-Change one relevant condition of the encompassing work in thought or in a suitable trial. Determine whether and how the constituent action or its coordination must change. Then consider a relevant limitation of that action and determine whether and how it restricts the encompassing performance. Use available knowledge when it answers these questions; a new experiment is not automatically required.
+Follow the direction of dependence the question asks you to explain. To determine what a change in the encompassing work requires of a constituent, vary the relevant whole condition and trace it to the action or its coordination. To determine what a constituent permits the encompassing work to achieve, carry its constraint into the proposed organization. Apply an established rule directly when it answers the question. A comparison or trial is useful when a consequential dependency remains open.
 
 Where control is involved, first check whether the feedback concerns the response and interval being judged. Delayed or misleading feedback can make adequate execution look wrong. Then distinguish failure to follow the reference from accurate execution of a reference that is no longer feasible or useful. A reference may remain in force between updates; generating or revising it is separate work. C.30.LCA helps recover the control relations when those are unclear. Claims about dynamics, feasible response or timing need their subject-specific basis; a conflict requiring architecture change can continue through C.30.ILC.
 
@@ -44439,7 +44449,7 @@ Where correction is needed, choose the correction that the recovered connection 
 | The description assigns a connection that the work does not support. | Repair the account; do not change the work merely to fit the diagram. |
 | A constituent could be replaced. | Use B.1.5.RS to preserve the requirements of its receiving wholes. |
 
-A diagnosis may remain conditional when two explanations fit. Obtain further information only if it can change the next useful action and warrants its burden under C.11.DUA. More encompassing work does not automatically confer authority to override a participant's constraints.
+A diagnosis may remain conditional when two explanations fit. For a discretionary inquiry, obtain further information where it can change the action or explanation the recipient needs and warrants its burden under C.11.DUA. Complete any separately commissioned observation under its own conditions. More encompassing work does not automatically confer authority to override a participant's constraints.
 
 Return the explanation, any selected correction and the conditions that matter for using them. Recognition of a plausible connection is not assurance of successful performance. Establish a stronger composition, causal or performance claim only when the receiving use requires it.
 
@@ -44459,7 +44469,7 @@ The selected Work structure here connects the performed movement, coordinated fi
 
 An analyst is totaling accepted observations as part of preparing a report. The algorithm maintains a running sum. On reading the next value, adding it to the accumulator is a constituent of computing the total; computing that total is part of the report preparation currently under way. The addition, computation and report preparation do not incur three copies of that minute of work.
 
-The addition is correct over the supplied numbers. The report, however, requires excluding duplicate observations. If duplicate detection is missing, more precise addition cannot repair the report. Recover the accepted-observation rule and apply it before the affected update. The order remains: the next update consumes the current accumulator, and the report cannot use the final total before the calculation finishes.
+The addition is correct over the supplied numbers. The report, however, requires excluding duplicate observations. If duplicate detection is missing, more precise addition cannot repair the report. If every intermediate sum must count only accepted observations, apply the eligibility rule before each affected update. If the report promises a final total, documented reconciliation of duplicates before delivery can also give the required result. In the running-sum algorithm each new addition consumes the previous accumulator.
 
 A scheduler running on the same machine overlaps the calculation. That overlap alone makes it neither an arithmetic constituent nor report-preparation Work.
 
@@ -44477,8 +44487,8 @@ An observer can recognize their specialist operation while missing the connectio
 
 - Can the reader identify the action and actual or proposed work being explained?
 - Is each claimed encompassing connection explained through performed or proposed organization, rather than timing or importance alone?
-- Are the needed constituents recoverable without indefinite decomposition?
-- Does the account explain whether and how relevant changes in whole conditions affect the selected action or its coordination?
+- Do the selected actions, enclosing work and any external contributions explain the result at the scope requested? A common organizing rule may cover several connections.
+- Where the question involves a change, does the account explain the dependency in the required direction between constituent action, coordination and encompassing Work?
 - Are result dependencies and relevant external support retained?
 - Does the result identify a useful continuation without claiming that recognition establishes success or assurance?
 
@@ -44535,11 +44545,11 @@ A fixed control-layer diagram is another useful alternative when the problem alr
 
 ### B.1.5.RS:1 - Problem frame
 
-Use this pattern when a constituent Method could be replaced, simplified or implemented differently and you need to know which encompassing uses remain possible. A faster check returns the same answer on familiar inputs but no longer exposes information another part needs. An approximation is adequate for ranking options but unsuitable for deciding whether a limit is exceeded.
+Use this pattern when a constituent Method could be replaced, simplified or implemented differently and you need to know which encompassing uses remain possible. A faster check returns the same answer on familiar inputs but no longer exposes information another part needs. An error bound can preserve the order of well-separated options while leaving a value near a decision threshold unresolved. The same bound can settle a threshold when the entire interval falls on one side of it.
 
 Start with the direction of replacement and the practical gain sought. Ask: **“What do the receiving wholes rely on, and does this candidate still supply it under their conditions?”**
 
-The first useful result is a bounded substitution decision: the uses preserved, uses needing adaptation or restriction, and uses for which the replacement is incompatible or unresolved. One decisive comparison may be enough. Do not perform a new trial when an available argument or known counterexample settles the decision.
+An assessment identifies the uses preserved, uses needing adaptation or restriction, and uses for which the replacement is incompatible or unresolved. This can finish a request for a compatibility judgement. Choosing and introducing a replacement can be a further assignment. One decisive comparison may be enough. Use an available argument or counterexample when it decides compatibility. A trial commissioned as a separate deliverable remains due on its agreed terms.
 
 Use B.1.5.EW first if the constituent and its encompassing uses are unclear. If only the wording or diagram changes and the performed Method remains unchanged, check that representation's correspondence instead. If the replacement supplies an entire standalone Method, use the relevant fit and choice Methods; this pattern contributes only the constituent-in-whole question.
 
@@ -44570,9 +44580,9 @@ Keep a proposed replacement separate from one already performed. Use A.3.1 to se
 
 #### B.1.5.RS:4.2 - Recover the receiving wholes
 
-Identify the encompassing Methods or work arrangements whose use can change. Follow an indirect use through the intermediate whole while it affects the decision. Include a second receiving use when the constituent is shared; local success in the first use does not by itself establish compatibility with the second.
+Follow the proposed change to each receiving use covered by the decision. An indirect use can matter even if an intermediate whole returns the same value, for instance when its timing or explanation changes. For a change restricted to one use, establish any consequences for others through resources, commitments or interfaces shared with it. For a wider adoption claim, establish which uses are covered and why the argument applies throughout that scope.
 
-This is a search bounded by the intended replacement. If the users cannot be recovered, restrict adoption to the known uses or return the missing use information that prevents a broader decision. Do not require an inventory of all imaginable uses.
+Bound the search by the proposed adoption and its conditions. An interface rule that guarantees every required contribution can cover a class of unnamed users. If an uncovered use could alter the decision, restrict the adoption to the supported scope or obtain the missing condition.
 
 For each whole, recover:
 
@@ -44591,23 +44601,23 @@ Choose an argument, available observations, calculation or trial that can discri
 
 When an approximation is proposed, state the property preserved for the receiving use: a bound, ordering, feasible action, specified error or other needed consequence. Equal rounded answers on one example do not establish preservation of a different property.
 
-If the same implementation must serve several wholes simultaneously, examine their joint demands. Separate success under incompatible settings is not one shared implementation. Compare retained variants or changed coordination where that is useful.
+When one replacement must support several uses, follow their permitted combinations over the relevant period. Two uses can exhaust the same finite supply even in succession. A single configuration may work for all of them, or a choice by the authorized participant may depend on information available before the commitment. Establish that the proposed arrangement meets the shared and individual requirements under those conditions. If only one specified use is commissioned, test the dependencies needed for that use.
 
 #### B.1.5.RS:4.4 - Classify the replacement by use
 
 | Comparison result | What can follow |
 | --- | --- |
-| The needed contribution and conditions are preserved. | Adopt the replacement for that use at the supported scope. |
-| Preservation holds only under a narrower condition. | Restrict use to that condition and retain a suitable alternative elsewhere. |
+| The needed contribution and conditions are preserved. | Report that the replacement is compatible with that use under the established conditions. |
+| Preservation holds only under a narrower condition. | Identify the condition of compatibility and the uses requiring another solution. |
 | An adapter or changed combination can restore the needed contribution. | Treat that adaptation as part of the candidate and check its burden and behavior. |
 | A required contribution is lost. | Reject the replacement for that whole, change the requirement through the relevant decision, or choose another candidate. |
-| Information does not distinguish compatibility from failure. | Keep the uncertainty bounded and obtain more only if it can change a worthwhile next action. |
+| Information does not distinguish compatibility from failure. | State what the supplied evidence establishes and which condition would decide compatibility. Seek further evidence when the decision warrants that inquiry or when obtaining the evidence is itself commissioned. |
 
 This is a directed conclusion. Replacing A by B in one use does not show that A can replace B, that they are the same Method, or that B is preferable in all uses.
 
 #### B.1.5.RS:4.5 - Adopt or retain alternatives
 
-Choose at the supported scope, accounting for adaptation, learning, operation and maintenance costs. Retain separate variants when their different strengths justify the burden; a universal replacement is not required.
+If you are commissioned to recommend or choose an alternative, compare the compatible options at the supported scope, including adaptation, learning, operation and maintenance costs. Separate variants can be worthwhile when their different strengths justify their cost. The person with authority over adoption decides whether and when to introduce the chosen replacement.
 
 For an ongoing operation, use its ordinary rules for introducing change and retaining continuity. State the condition that would require reconsideration: changed inputs, another receiving whole, a tighter timing limit, lost support or a newly relevant result property.
 
@@ -44631,7 +44641,7 @@ Options include retaining the stable Method or sorting by a compound key of prio
 
 A constituent estimates a quantity with absolute error at most 2. A receiving whole can establish a strict ordering between two alternatives when their estimated values differ by more than 4 and both estimates satisfy that bound.
 
-Another whole must decide whether the quantity exceeds 100. An estimate of 99 is insufficient: the admitted interval is 97 to 101 and crosses the threshold. A more accurate estimate or another decision rule is needed for that case. At an estimate of 95, the same error bound puts the whole interval below 100 and can settle that decision.
+Another whole must decide whether the quantity exceeds 100. At an estimate of 99 the error bound alone gives the enclosing interval [97, 101]. It leaves the decision open. A separate bound on admissible values may settle the threshold even without a more accurate estimate. At an estimate of 95, the same error bound puts the whole interval below 100 and can settle that decision.
 
 The change from “estimate the quantity” to “support this decision” makes the scope of replacement explicit. The threshold is stipulated in this constructed example; the pattern does not supply a rule for choosing it.
 
@@ -44639,7 +44649,7 @@ The change from “estimate the quantity” to “support this decision” makes
 
 A group performs a movement sequence in response to a leader. A proposed observation Method uses occasional snapshots rather than continuous observation. It can suffice for an exercise in holding a static pose, but miss the cue that starts a coordinated transition.
 
-Recover the timing needed by the encompassing sequence. If the snapshot interval exceeds the response window, better interpretation of each snapshot cannot restore the missed cue. Keep more frequent observation, redesign the cue so it remains available, or change the coordinated sequence. Each proposal has a different burden and requires its bounded comparison.
+Recover the timing needed by the encompassing sequence. If an allowed cue can arrive and its response window can close between successive snapshots, the snapshots alone cannot guarantee a timely response. Known synchronization or another timely source may still guarantee it. Keep more frequent observation, redesign the cue so it remains available, or change the coordinated sequence. Each proposal has a different burden and requires its bounded comparison.
 
 ### B.1.5.RS:6 - Bias-Annotation
 
@@ -44648,9 +44658,9 @@ The participant proposing a replacement often sees its local saving more clearly
 ### B.1.5.RS:7 - Conformance Checklist
 
 - Are the constituent, candidate, replacement direction and intended gain clear?
-- Have the receiving wholes and their relied-on contributions been recovered?
+- Does the comparison cover the receiving uses claimed, by their individual conditions or by a rule that applies throughout the proposed scope?
 - Does the comparison carry the changed contribution through each affected use?
-- Are joint requirements examined when one realization must satisfy several uses together?
+- When one realization must serve several uses, does the design cover their permitted combinations and shared constraints over the promised interval?
 - Does the conclusion preserve its conditions and evidence reach?
 - Are adaptation costs and a reconsideration condition included where they change adoption?
 
@@ -44668,7 +44678,7 @@ The participant proposing a replacement often sees its local saving more clearly
 
 Useful replacements can be adopted where they work without silently breaking other wholes. An incompatibility can also expose a better architecture: different variants, an explicit interface or a changed combination.
 
-The method requires knowledge of receiving uses. Its cost grows with meaningful differences among them, not necessarily with the number of documents or callers. Reuse one comparison across uses only when their relevant conditions and relied-on contribution match.
+The method requires knowledge of receiving uses. Its cost grows with meaningful differences among them, not necessarily with the number of documents or callers. A common argument may cover differing conditions and contributions when its bounds establish each required result.
 
 ### B.1.5.RS:10 - Architectural Rationale
 
@@ -44712,11 +44722,11 @@ Reopen the selected comparison when an unmodeled interaction, shared realization
 
 ### B.1.5.CM:0 - Use This When
 
-Use this pattern when a proposal names an intended Method whole, such as a methodology or playbook, and the next decision depends on what is already established about that whole.
+Use this pattern when someone needs a reusable way to achieve a result or maintain a condition through several contributions, or when a decision depends on a proposed Method's constitution. The designer may have a working problem and no list of constituent Methods yet.
 
-Begin with the proposal's intended result, participants and relation claims. Recover the available whole semantics and the guards, burdens, unresolved conditions and selection reason that matter for the receiving use. Test the identity and relation grounds required for the conclusion sought.
+Begin with what the recipient must be able to do or rely on, the circumstances covered and the choices entrusted to the designer. If an arrangement is already proposed, recover its semantics and the relations that carry its contributions. If construction is commissioned, use §4.1 to choose those contributions and organize them into a candidate.
 
-The first useful result is two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the prospective account or partial claim supported by the evidence. That account can finish a present design comparison while whole identity or relation truth remains unresolved. Select later realization or testing only when its obtainable contribution warrants the full burden and is feasible.
+The first useful result is two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the prospective account or partial claim supported by the evidence. That account can finish a present design comparison while whole identity or relation truth remains unresolved. For a discretionary trial, compare its attainable contribution with its burden and feasibility. A separately commissioned realization or trial remains due on the agreed terms.
 
 Do not require prior performance of C.32.MWA.PP when equivalent proposal content is already available. Do not treat a coherent description, selected architecture, WorkPlan, tool implementation, or successful first trial as Method construction or identification by itself.
 
@@ -44758,18 +44768,20 @@ The first error overclaims, the second prevents learning, and the third confuses
 
 B.1.5 supplies the composition test. This construction supplies the candidate whole, constituent contributions, interfaces and grounds to which that test applies; it can also return a useful relation account below the whole-Method threshold. Use an already complete B.1.5 result directly rather than reconstructing it.
 
-Recover the proposed whole's semantics, test whole and participant identity separately from relation truth, and return the branch supported by that evidence.
+From the required result, construct the missing arrangement or recover the arrangement to be assessed. Test whole and participant identity separately from whether their proposed relations obtain. Return the design or the judgement the recipient needs under the conditions established.
 
 #### B.1.5.CM:4.1 - Pattern-Use Unfolding
 
 1. **Name the receiving use.** State the result or preserved condition, situation family, intended users or performers, and consuming decision. Identify the configuration or edition and time window when they change the claim or its use.
-2. **Recover whole semantics.** Recover the proposed whole's reusable operations or invariant, applicability, participant contributions, and the entry/exit, variation, bounds, stops and reidentification conditions needed for the claim. Keep proposed content, supported facts and unresolved grounds distinct. Missing content blocks only conclusions that require it; a supported prospective account or partial result may still complete the receiving use.
+2. **Develop the whole action.** For each admissible use, ask what must be achieved, preserved or available by the next decision. Work back to what must be done within the Method and what the caller or another provider may supply. A needed input can be obtained externally. When obtaining or checking it is itself part of the promised way of working, provide an operation for it. Combine or separate candidate Methods where their variation changes the whole action, an interface or a condition the caller relies on. Identify the entry and exit conditions, permitted variations, bounds, stops and reidentification rule the claim needs. Use an existing construction or invariant where it supplies these grounds. State which conditions are proposed and which are independently established.
 3. **Preserve participant statuses.** Identify each Method under `A.3.1` where supported. Keep candidate accounts and other subjects at their existing statuses.
 4. **Name the relation sets.** State every load-bearing proposed or obtaining relation, including Method composition, Work order or overlap, result use, allocation, support/provider access, authority, and description correspondence as applicable. Do not infer one relation from another.
+
+   Carry a permitted situation through the proposed arrangement. Can its participants deliver the required result together under the available information, resources and authority? Hold the result of one part fixed and vary its timing, its use or another part's choice if that can change the whole result. Follow such a difference into the constituent or enclosing Method that governs it. Keep model distinctions needed for the caller's action and for explaining why it is supported. An argument covering the permitted variations can establish this fit for the design before any enactment.
 5. **Test the positive branch.** Record an obtaining composition only when the whole and parts are identified as Methods and the required `B.1.5` relations are shown to obtain within the bounded claim.
-6. **Return the prospective branch when needed.** State the candidate whole, participant statuses, proposed relation sets, guards, adapters, alternatives, recovery, variation points, burdens and unresolved conditions needed for the receiving use. A traceable proposal can answer that use while its stronger whole claim remains unresolved.
-7. **Return a supported partial result.** When missing whole semantics, identity, or a relation prevents a useful candidate account, return the supported fragment, relation claim, WorkPlan question, or stop. Keep the missing grounds explicit.
-8. **Choose a useful continuation when needed.** Use C.11.DUA to compare the result a realizable implementation or trial could add with its full burden, including access, allocation, authority and the available window. When that Work is selected, name its observations, acceptance and failure conditions, any required authority, and the reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or partial result and the limitation that matters to its recipient.
+6. **Return the prospective branch when needed.** State the candidate whole, participant statuses, proposed relation sets, guards, adapters, alternatives, recovery, variation points, burdens and unresolved conditions needed for the receiving use. For a design commission, supply how the chosen contributions work together and under what variation the proposed Method will still serve the caller. For an evaluation, an identified incompatibility may itself decide the question.
+7. **Settle the commission at the supported scope.** A grounded fragment or an incompatibility can complete a question about that relation or about the feasibility of a proposed arrangement. If a required contribution or connection is still yours to design, construct it. Where a necessary condition cannot be provided, state what the supported part delivers and what prevents completion.
+8. **Choose a useful continuation when needed.** For a discretionary implementation or trial, use C.11.DUA to compare its attainable contribution with access, allocation, authority, time and other burdens. If the commission requires that performance, carry it out under its conditions or identify what prevents it and who can resolve the obstacle. When that Work is selected, name its observations, acceptance and failure conditions, any required authority, and the reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or partial result and the limitation that matters to its recipient.
 
 #### B.1.5.CM:4.2 - Record the Result
 
@@ -44841,6 +44853,8 @@ After two distinct failed trials, `ReleaseDecider-17`, within `AUTH-ReleaseDecis
 
 Suppose an earlier design use asks whether this release-coordination proposal preserves signed-before-closure, confidentiality and the A/B2/R distinctions well enough to compare with another proposal. The sources support that account, but whole identity and composition relations remain unresolved, and the team has no rig access, allocated effort or trial window. Return the traceable prospective account with those identity and relation limits. The receiving designer can compare the proposals and finish that question on the available content.
 
+If the assignment is instead to devise a release procedure, start from what the release decider must establish at closure. Early integration from provisional information leaves a possible difference from the signed edition. Work back to the need to detect that difference, determine which checks it affects and supply their results before authorization. Waiting for signed evidence can remove the provisional-to-signed comparison while changing the time available for integration. Choose an arrangement that satisfies the applicable time, access and authority conditions. State which evidence can be supplied from outside the Method and which verification the proposed rule requires within it.
+
 A later opportunity with useful obtainable observations can warrant implementation or a trial and its coordination plan. The already selected three-release case above retains its WorkPlan, observations and stops.
 
 ### B.1.5.CM:6 - Bias-Annotation
@@ -44855,14 +44869,14 @@ A later opportunity with useful obtainable observations can warrant implementati
 
 ### B.1.5.CM:7 - Conformance Checklist
 
-- [ ] The returned claim states the whole semantics it needs: intended result or preserved condition, situation, reusable operations/invariant, applicability, participants and relevant variation, bounds and reidentification conditions. Missing grounds remain explicit in a prospective or partial result.
+- [ ] The returned claim states the whole semantics it needs: intended result or preserved condition, situation, reusable operations/invariant, applicability, participants and relevant variation, bounds and reidentification conditions. When construction was commissioned, the proposed arrangement shows how the designer selected and connected the required contributions for the admitted uses. A supplied list of participants supports only the choices actually made from it. Missing grounds remain explicit in a prospective or partial result.
 - [ ] Whole and participant identification are judged separately; candidate and unresolved statuses remain explicit.
 - [ ] Method composition, Work order/overlap, result use, allocation, support, authority, and description relations are not inferred from one another.
 - [ ] The positive branch requires identified whole and parts plus obtaining `B.1.5` relations.
 - [ ] The prospective branch preserves proposed truth and includes the guards, adapters, alternatives, recovery, stops, burdens and unresolved conditions needed by the receiving use.
 - [ ] WorkPlan, performed Work, observations, MethodDescription, and Method identity remain distinct.
-- [ ] When load-bearing semantics or relations are missing, a supported fragment or relation claim can be returned without a complete candidate account.
-- [ ] A supported account or partial result can complete its receiving use. Any selected continuation has a worthwhile feasible contribution and names the needed later Work, observations, any required authority, acceptance/failure and reconsideration.
+- [ ] A partial account states which receiving question it settles. Any part still required for the commissioned design is supplied or identified with the condition preventing it.
+- [ ] A supported account or partial result can complete its receiving use. A discretionary continuation has a worthwhile feasible contribution. Separately commissioned realization or observation is accounted for under its own performance, authority and acceptance conditions.
 
 ### B.1.5.CM:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -44912,13 +44926,13 @@ Reconsider the account when its content fits none of these supported results, wh
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Use this when.** Use this pattern when the claim aggregates measured or estimated resource use, such as effort, time, energy, material, information or cost, across identified accounting subjects. These may include dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, non-Work carrier phases with an established identity and `PhaseOf` relation, or boundary partitions with the relations needed for their resource account.
+**Use this when.** Use this pattern when a recipient needs to design or apply an account that combines measured or estimated resource use, such as effort, time, energy, material, information or cost, across identified accounting subjects. These may include dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, non-Work carrier phases with an established identity and `PhaseOf` relation, or boundary partitions with the relations needed for their resource account.
 
 **Not this pattern when.** If the question is the Method as a way of doing, use `A.3.1`. If it concerns whether an episteme is a MethodDescription, or the use of its claims about a Method as a way of doing, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether Work occurred or which Work temporal part, episode, operational part, retry, resumption, or later occurrence is current, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is bounded aggregation of already recovered temporal relations without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If resource gain leaves whole identity in question, use `B.2`; use `B.2.P` only when emergence-family wording is unresolved.
 
 **What goes wrong if missed.** A convenient resource total is taken from a method description, plan, dashboard or phase label without warranted input values, identified accounting subjects and a combination rule that handles any overlap.
 
-**What this buys.** The practitioner can justify a typed total, vector, interval or bounded estimate from its input values, included subjects, accounting scope, time basis and operative rules, and check whether the same resource contribution has been counted more than once.
+**What this buys.** The practitioner can specify an appropriate resource account or justify its typed total, vector, interval or bounded estimate from its input values, included subjects, accounting scope, time basis and operative rules, and check whether the same resource contribution has been counted more than once.
 
 ### B.1.6:1 - Problem Frame
 
@@ -44942,11 +44956,13 @@ A convenient total becomes an unsupported resource claim when its input values, 
 
 ### B.1.6:2 - Solution — separate measurement from aggregation
 
-Start with the resource question and the values needed to answer it. State the result:
+First identify whose resource, which use or availability, and what period the decision concerns. A reading for the entire agreed boundary or a warranted bound can answer directly. If the answer depends on combining contributions, use the following form.
 
 > Under rule `P`, the resource values attributed to the included subjects `S` within accounting boundary `B` and time window `T` yield typed result `R`, with the stated qualifications. The result statement identifies those inputs and grounds.
 
-A sufficient ordinary sentence or table can state this claim. Stop when it answers the receiving resource question with the required basis. If a needed input or relation remains unresolved, keep the dependent result or use unresolved while retaining supported components or a sufficient narrower result.
+When the boundary and units are yours to choose, work back from the action. What expenditure, stock, peak demand or right to draw would change it? Follow that quantity through the relevant Work, participants and transfers. Select a smaller unit only where its attribution, timing or interaction with another use can change the answer. Try shifting the same total between two users or two periods. If a limit can be met in one arrangement and missed in the other, retain that distinction and any restriction on which demands can occur together. An existing rule for the whole class of jobs can establish coverage without a separate entry for each job.
+
+For a commission to design an accounting rule, specify the inputs and how they determine the required output across the admitted jobs. Give a computed result when the commission includes applying the rule. An ordinary sentence or table may suffice for either result. Stop when it answers the receiving resource question with the required basis. If an input or relation is unknown, carry the admissible possibilities through the rule. Give a supported answer, including a threshold decision from a sufficient bound, and identify any separately requested quantity or attribution still open.
 
 For each input, retain its subject, resource Characteristic, Scale, applicable Unit, attribution basis and uncertainty relevant to the use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains the source values, model and conditions that warrant it. A ledger row supplies no missing basis merely by displaying the value.
 
@@ -44988,7 +45004,7 @@ Recover the following content for the claims made and the use being proposed:
 - each **resource value** retains its attribution basis: a claimed performed measurement has C.16 measurement Work and a measurement-result episteme; an estimated or derived value keeps its source values, model and conditions. Retain Scale, applicable Unit, time stance, and the calibration and uncertainty basis needed for the use;
 - the **aggregation policy** states the inclusion rule and output kind, together with the conversion, normalization, weighting, missing-value, allocation, uncertainty and overlap rules needed to interpret or justify this result. Identify the policy edition when the result or its use depends on that edition;
 - when the claim asserts **dated aggregation Work**, or the receiving use needs that occurrence, A.13 identifies its performer and A.15.1 independently admits it as `U.Work`. If assignment-bound attribution is also needed, F.6 checks that relation separately. The Method, inputs through direct relations or A.6.1 bindings, resources and temporal extent retain their grounds;
-- the **B.1.6 aggregation result** is the typed total, vector, interval or bounded estimate warranted by the input values, included accounting subjects and operative rules;
+- an **application of the aggregation rule** returns the typed total, vector, interval or bounded estimate warranted by the input values, included accounting subjects and operative rules. A design for later applications specifies how the result will be obtained;
 - the **result statement** conveys the result, included subjects, rule, boundary, time basis, qualifications and relevant uncertainty. When the receiving claim or use needs a claim-bearing episteme, identify it through C.2.1 by its claim content, EntityOfConcern and effective ReferenceScheme. Keep the resource value, claim content, episteme and expression distinct; and
 - keep the **source basis** recoverable: the measurement or estimate sources, operative rules and derivations needed to justify the result. Use A.10 when source-to-use reliance must be replayable, and G.6 when that chain needs a stable address for citation, replay, audit or refresh. Apply G.11 when currentness affects the use.
 
@@ -45029,7 +45045,7 @@ A ledger can organize the grounds needed to reconstruct the aggregation. Whether
 - the measured or estimated subject, time window, and included Work occurrence, non-Work carrier phase or other admitted accounting subject to which the value applies;
 - the attribution basis: C.16 measurement Work and its result episteme for a claimed performed measurement, or the source values, model and conditions for an estimated or derived value, including the calibration and uncertainty basis needed for its use;
 - every A.15.1 Work-part relation used by the ledger, every C.27.TA overlap fact used by it, and any current non-Work carrier `PhaseOf`, each independently established by its subject pattern;
-- whether component values include the same resource use, stock portion or attributed contribution, and the justified allocation or deduplication rule where they do;
+- which overlaps matter to the result: an exact total may require identification and deduplication, while a threshold can sometimes be decided by a bound that holds for every possible overlap;
 - any conversions, normalizations or imputations used, with the operative methods and rules;
 - the operative aggregation rule, its edition when the result or use depends on it, and the aggregation Work occurrence when that dated occurrence is asserted or required;
 - the typed aggregation result and its statement, with a separately identified C.2.1 result episteme when the receiving claim or use needs one; and
@@ -45047,13 +45063,13 @@ Use `PortionOf` only for a resource portion with its A.14 measure and additivity
 
 **Measurement before aggregation.** Each measured input points to C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
-**Included accounting subjects.** Identify every subject included, including each dated Work occurrence and any non-Work carrier phase. Parent–child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work` and other admitted Work-part relations must already obtain between independently admitted Work participants under A.15.1 or their subject patterns. A non-Work phase keeps its carrier's identity and `PhaseOf` grounds. For temporal overlap, recover the participants, temporal reference and interval facts under C.27.TA; establish resource-use or stock overlap under its accounting rule. A Method, plan, epoch or phase label, invoice period or dashboard grouping does not establish these subjects or relations.
+**Included accounting subjects.** Establish which subjects the account covers, individually or through a rule that covers the whole requested scope. Identify an individual Work occurrence or phase when its resource use, identity or part relation is used in the inference or requested as a result. Parent–child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work` and other admitted Work-part relations must already obtain between independently admitted Work participants under A.15.1 or their subject patterns. A non-Work phase keeps its carrier's identity and `PhaseOf` grounds. For temporal overlap, recover the participants, temporal reference and interval facts under C.27.TA; establish resource-use or stock overlap under its accounting rule. A Method, plan, epoch or phase label, invoice period or dashboard grouping does not establish these subjects or relations.
 
 **Operative policy.** State inclusion and output kind, and the conversion, normalization, weighting, missing-value, boundary-allocation, uncertainty and overlap/deduplication rules needed to interpret or justify the result. Identify the edition when the result or use depends on it. A policy declaration remains distinct from its application and result.
 
-**Overlap and shared stocks.** Addition is admissible only for disjoint contributions or after a justified policy handles overlap. Determine whether the component values include the same resource use, stock portion or attributed contribution. Apply allocation or deduplication where they do; retain the established disjointness where they do not. Reuse of one person, tool or meter across distinct resource contributions does not by itself duplicate those contributions.
+**Overlap and shared stocks.** For an exact total, establish disjoint contributions or justify how any overlap is handled. For a bound, establish the direction in which overlap can affect the requested quantity. For example, the sum of the hours in two complete groups is an upper bound on the hours in their union if repeated contributions have nonnegative values and are measured on the same basis. That bound can settle a ceiling without identifying every shared contribution. For allocation among works, use the assignment rule for the resources in question. Reuse of one person, tool or meter across distinct resource contributions does not by itself duplicate those contributions.
 
-**Aggregation result and any asserted Work.** State the typed total, vector, interval or bounded estimate warranted by the input values, included subjects and rule, with the qualifications needed for its use. An ordinary statement or table can convey that result. When a claim-bearing result episteme is needed, identify it through C.2.1 as in §2, retaining the distinction between resource value, claim content and expression.
+**Aggregation result and any asserted Work.** For a requested application, return the typed total, vector, interval or bounded estimate warranted by the input values, included subjects and rule, with its qualifications. A design for a class of jobs identifies how to select those inputs in each permitted case and why the rule will answer the receiving question. An ordinary statement or table can convey that result. When a claim-bearing result episteme is needed, identify it through C.2.1 as in §2, retaining the distinction between resource value, claim content and expression.
 
 When a dated aggregation occurrence is asserted or required, use A.13 to identify the performer and A.15.1 to admit that Work independently. Add F.6 when assignment-bound attribution is needed. The Method, bindings, resources and time retain their separate grounds.
 
@@ -45068,16 +45084,18 @@ When a dated aggregation occurrence is asserted or required, use A.13 to identif
 | Obligation | What must be named |
 | --- | --- |
 | Resource input | Characteristic, Scale, applicable Unit, subject, time basis, attribution grounds and uncertainty relevant to the use. A claimed performed measurement retains its C.16 Work/result; an estimate or derived value retains its sources, model and conditions. |
-| Included subjects | Identified accounting subjects, including each dated Work occurrence; every Work-part, temporal-overlap, resource-use or stock relation used by this aggregation; and the identity and `PhaseOf` grounds for any included non-Work carrier phase. |
+| Included subjects | Grounded coverage of the accounting subjects, and the identity of every individual occurrence whose attribution the conclusion uses or supplies; every Work-part, temporal-overlap, resource-use or stock relation used by this aggregation; and the identity and `PhaseOf` grounds for any included non-Work carrier phase. |
 | Policy | Inclusion and output kind; every conversion, weighting, missing-value, allocation, uncertainty or overlap rule needed for the result or use; and an edition when either depends on it. |
 | Dated aggregation Work, when asserted or required | Performer identified through A.13; dated `U.Work` independently admitted through A.15.1; a separate F.6 check when assignment-bound attribution is needed; separate Method, resources and direct/A.6.1 bindings. |
-| Aggregation result | Typed result, included subjects, rule, boundary, time basis and qualifications, conveyed by an adequate statement. When the receiving claim or use needs a result episteme, identify it through C.2.1 as in §2. |
+| Aggregation result | For an application, the typed result, included subjects, rule, boundary, time basis and qualifications. For a design, the input selection and rule that will supply the required output under the stated conditions. When the receiving claim or use needs a result episteme, identify it through C.2.1 as in §2. |
 | Source basis and currentness | Recoverable sources and derivations; A.10 when source-to-use reliance must be replayable, G.6 when that chain needs a stable address, and G.11 when currentness affects use. |
 | Later use | The receiving claim, action or judgement and any premise, reference, argument or decision-use relation it requires. |
 
 ### B.1.6:6 - Archetypal Grounding
 
 **Ordinary operator-time total.** Two existing records, with their value-attribution grounds, attribute one hour each to two admitted Work occurrences by the same operator. Their participant and time facts establish that these are distinct, disjoint resource contributions within the chosen accounting period. Addition yields two operator-hours; an existing table can state that result and its basis. This answer need not assert a separate dated occurrence of aggregation Work. If both entries instead copy the same one-hour contribution, adding them would double-count it: recover the common contribution and count it once, or leave the affected total unresolved until that identity is established.
+
+If the two one-hour entries may be copies or distinct contributions, and the records exhaust the stated scope, total operator time lies between one and two hours. This settles a two-hour upper limit, even while exact utilization remains open. A roster showing two planned hours would answer a scheduling question. Establishing how much time the operator actually spent uses the resource records for the period.
 
 **Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its result episteme. Test-run occurrences and obtaining A.15.1 Work-part relations define the included Work set; independently declared C.27.TA overlap facts state shared timing. A test-cell or engine phase enters only through the carrier's identity rule and proper phase relation. Shared warm-up energy is recorded under the temporal and resource-use facts.
 
@@ -45094,7 +45112,7 @@ Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates war
 | Plan becomes evidence of actual use | Expected resource use is presented as evidence of performed resource use. | Keep the plan, any claimed dated Work, the value-attribution basis and the B.1.6 result distinct. |
 | Boundary or phase word carries accounting | A port, interface, team, device, epoch or phase label is used as Work parthood, overlap or accounting boundary. | Establish the accounting scope, time basis and operative rule, together with any delimitation, Work relation, carrier identity/PhaseOf, crossing or stock relation on which the account depends. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until a conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
-| A resource contribution is double-counted | The same resource use, stock portion or attributed contribution is counted more than once. | Establish the repeated contribution and apply a justified allocation or deduplication rule, or restrict the result to the supported account. |
+| A resource contribution is double-counted | The same resource use, stock portion or attributed contribution is counted more than once. | For an exact total, account for the repeated contribution. For a threshold decision, use a sufficient bound valid for all overlaps still possible. Use the applicable allocation rule if shares are requested. |
 | Efficiency becomes proof of a new whole | Reduced resource use is treated as proof of a new whole. | Use measurement and evidence-use patterns for the gain; use `B.2` when whole identity remains the question and `B.2.P` for unresolved emergence-family wording. |
 
 ### B.1.6:7 - Conformance Checklist
@@ -45102,10 +45120,10 @@ Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates war
 | ID | Requirement |
 | --- | --- |
 | CC-B1.6-1 | Every resource component names its Characteristic, Scale, applicable Unit, subject, time stance and attribution basis, with uncertainty relevant to use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains its sources, model and conditions. |
-| CC-B1.6-2 | Included accounting subjects and each relation used by the aggregation are independently grounded. Every included Work occurrence and used A.15.1 Work-part relation has its basis; temporal overlap follows C.27.TA, resource-use or stock overlap follows its rule, and an included non-Work phase satisfies its carrier's identity and PhaseOf conditions. |
+| CC-B1.6-2 | Included accounting subjects and each relation used by the aggregation are independently grounded. A class or boundary rule may establish coverage. Each individual occurrence attribution or A.15.1 Work-part relation used has its basis; temporal overlap follows C.27.TA, resource-use or stock overlap follows its rule, and an included non-Work phase satisfies its carrier's identity and PhaseOf conditions. |
 | CC-B1.6-3 | The operative policy names inclusion and output kind, every additional rule needed to interpret or justify the result, and an edition when the result or use depends on it. |
 | CC-B1.6-4 | For dated aggregation Work, A.13 identifies the performer and A.15.1 independently admits the occurrence. F.6 is present only when the result must also identify the assignment under which that Work was performed. The Method, direct/A.6.1 bindings, resources, and temporal extent remain separate. |
-| CC-B1.6-5 | The typed aggregation result and its statement are recoverable. When a claim-bearing result episteme is needed, its claim content, EntityOfConcern and effective ReferenceScheme are identified through C.2.1. The resource value, claim content, episteme and expression remain distinct. |
+| CC-B1.6-5 | A design explains input selection and the warranted output for the requested class. A claimed application supplies its typed aggregation result and grounds. When a claim-bearing result episteme is needed, its claim content, EntityOfConcern and effective ReferenceScheme are identified through C.2.1. The resource value, claim content, episteme and expression remain distinct. |
 | CC-B1.6-6 | Sources and derivations needed for the result are recoverable. Any required A.10/G.6 provenance account or G.11 currentness result remains separate from the measurement and aggregation results. |
 | CC-B1.6-7 | Planned values and A.15.5 resource readiness are not presented as measured performed-work aggregation. |
 | CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification or decision claim names its applicable subject pattern. |
@@ -45118,7 +45136,7 @@ Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates war
 | A work plan is treated as measured work. | Use `A.15.2` for the plan and `A.15.1` for performed work evidence. |
 | A phase label or timeline is treated as a resource ledger or as proof of a Work relation. | Recover the subject first: A.15.1 for Work temporal parts or occurrences, the carrier's identity pattern plus A.14 for proper non-Work `PhaseOf`, and B.1.4 only for bounded aggregation of already recovered temporal relations. Add B.1.6 only when typed resource values are being aggregated. |
 | A resource gain is treated as emergence. | Use measurement and evidence-use patterns first; use `B.2` when whole identity remains the question; use `B.2.P` for unresolved emergence-family wording. |
-| A ledger, dashboard or report total is relied on without the grounds its use requires. | Recover the existing result statement, input records, included subjects and relations, operative rule and qualifications. Preserve an adequate account; obtain only missing grounds under §§4–5. An asserted dated aggregation Work or a needed replayable provenance account retains its requirements. |
+| A ledger, dashboard or report total is relied on without the grounds its use requires. | Identify what establishes the value for the required boundary and period. A warranted whole-boundary reading can settle a total. Recover component records, relations and combining rules where the result or its required explanation depends on them. Preserve an adequate account; obtain only missing grounds under §§4–5. An asserted dated aggregation Work or a needed replayable provenance account retains its requirements. |
 
 ### B.1.6:9 - Consequences
 
@@ -45163,19 +45181,19 @@ The following contributions are adapted from the cited editions for work-resourc
 
 ### B.2:0 - Use This When
 
-Use this pattern when changed facts raise the question whether the existing whole still carries the claim or a new whole must be identified. The question may concern its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation.
+Use this pattern when a decision depends on whether an existing whole can carry a claim through an actual or proposed change, or requires identifying a different whole. The question may concern its delimitation, constituents, assembly, objective, supervision, capability envelope, agency threshold or continuity across time.
 
 The question can also arise when a whole is first constituted or first recognized. If no prior holon has been established, use A.1 and the applicable construction and kind-specific patterns to recognize the candidate. B.2's comparison begins only when there is an established prior whole to compare with it.
 
 Typical moments:
 
 - a set of coordinated parts becomes a regulated system with its objective and externally visible commitments;
-- a commissioning history crosses into operation and the assurance claim must restart for the operational whole;
+- an installation enters operation and its users must determine which commissioning evidence supports a claim about it in service;
 - a theory, model family, or knowledge body becomes an episteme whole recognized under the already admitted `U.Episteme` kind rather than remaining a loose catalogue;
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
 - an architecture residual cannot be explained inside the existing whole.
 
-**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary. When the identity grounds themselves are missing or disputed, start with :4.0.
+**First useful move.** What decision depends on the identity of which whole? Establish whether the question concerns an actual change, what would follow under a proposed arrangement, or a design still to be made. Use an established continuity condition directly when it decides the question. For an actual gain or shift, compare explanations that preserve the existing whole. A constituent repair, different measurement, change of Method or Work, wider phase coverage or a corrected architecture view may suffice. For a design, start from the required use and the choices it leaves open in :4. A disputed identity criterion belongs in :4.0.
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 
@@ -45219,19 +45237,23 @@ When whole identity and its grounds are unclear:
 
 ### B.2:4 - Solution
 
-Use B.2 as a world-side whole-reidentification pattern. Start with the wholes and the facts governed by their patterns; add records only when a receiving use needs them.
+B.2 concerns the constitution and continuity of wholes. Distinguish what already obtains from what the recipient wants to design. Add records only when a receiving use needs them.
 
-Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a conclusion.
+Start from what someone must decide and what the answer has to establish. For a maintenance decision this might be whether a repair belongs in the history of this installation. For a repeatable service it might be which participants must act together and which rights can remain with independent providers. Establish the unit and interval for each claim. Keep the installation and its assemblies, the Method and its constituent operations, the actual job and its performances, and the episteme that warrants an identity claim distinct wherever their differences could change the answer. Changes in any one can matter to the others through use, enactment, authority or evidence. If the claimed whole is a discipline, trace which practices and knowledge its practitioners organize and which they simply draw on. Follow the relation that carries the consequence for the decision.
+
+When the boundaries have been left to you, keep one constituent fixed and vary the organization or use of the whole. Then keep the reported whole result fixed and vary which constituents produced it or how they were connected. Would the recipient act differently or need a different explanation? At each relevant scale preserve the distinction that makes the difference. An aggregate may establish a whole's output and leave open which assembly or Work produced it. Stop at the established rule, observation or bound that decides the question. Use [C.39.SA:4](#c39sa4---solution) when choosing those ranges is itself part of the work.
 
 Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence.
 
-When the prior identity grounds are unavailable or disputed, use :4.0 to recover or compare their basis. Keep the identity question unresolved until that work supplies the deciding grounds. None of these situations supplies a prior holon for `existingWholeRef` by itself.
+When the prior identity grounds are unavailable or disputed, use :4.0 to recover or compare their basis if this could change the result. A decision common to the supported identity alternatives can go ahead. An assertion naming the continuing individual still needs grounds that distinguish it. First constitution, recognition and a prospective design supply no prior holon for `existingWholeRef` by themselves.
 
-With an established prior whole:
+**If an arrangement is to be designed,** begin with the result its users must be able to obtain or maintain. Check first what the present arrangement can already supply. If its continued use meets the commission, that can settle the design decision. For an unmet condition or an expressly commissioned alternative, trace the required result to the contribution, connection or authority needed at the time of use. Consider whether an allowed change inside the existing whole, an external service or a differently constituted whole could supply it. Choose the constituents and relations the proposed result depends on and test them together under the applicable construction and identity conditions. A sufficient shared constraint can exclude a family of proposals. An unsuccessful trial excludes only the arrangements its result covers. Return the feasible proposal, conditional comparison or established limit requested. Evidence that a proposal was realized belongs to a claim about actual constitution or performance.
+
+**For a claim of actual whole reidentification**, compare an established prior whole with the proposed successor:
 
 1. Name the receiving claim or use, the existing whole, its admitted kind, and its identity or reidentification rule.
-2. Recover each changed delimitation, constituent, constructive part relation, assembly, supervision, objective, capability, characteristic, or temporal fact under its pattern. A cue word, profile field, measurement, or graph edge does not make the fact obtain.
-3. Test whether those facts can be explained as a change of the same whole using :4.2. If repair, maintenance, changed characteristics, phase coverage, method or work correction, measurement, or architecture-view correction is enough under the existing reidentification rule, keep that whole and stop B.2. If the comparison is unresolved, identify the deciding fact or rule still needed instead of declaring a new whole necessary.
+2. Establish the changed facts needed by this comparison under their subject patterns. A change of the bearer, its Method, an occurrence of Work or the episteme reporting it can have different consequences for continuity. Establish any connection used to carry a conclusion between them. A cue word, profile field, measurement or graph edge alone leaves that connection open.
+3. Test whether those facts can be explained as a change of the same whole using :4.2. A same-whole explanation can show that continuity was possible. To establish actual continuity, identify the relevant history or show that all histories compatible with the evidence preserve identity under the applicable rule. If the comparison is unresolved, identify the deciding fact or rule still needed instead of declaring a new whole necessary.
 4. When the comparison establishes that the existing whole is insufficient, designate the proposed new whole as a `U.Entity` and execute the A.1 criterion. Recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic.
 
    Also show that the candidate's boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed larger-assembly construction method or rule under which it can remain a constituent. Then name its already admitted holon kind and satisfy the kind-specific criterion.
@@ -45257,6 +45279,8 @@ Use this branch when the comparison needs an identity criterion that is unavaila
 Locate the first reason for disagreement, as B.5.TC:4.4 explains. It may be a different subject, an incompatible domain premise or a missing fact about one continuing whole. A counterexample can defeat a proposed criterion; the surviving proposal needs the positive domain grounds that license its continuity claims. When a theory's application is unclear, B.5.TU supplies that recovery. Obtain a specialist result or further inquiry only for the consequential ground still missing, using C.11.DUA to judge its attainable contribution and burden.
 
 **Return the criterion to the identity comparison.** State the selected subject, the rule and its grounds, the changes it permits, and the event or condition that would end continuity. Keep a qualified or partial rule at the strength supported. Feed those results into :4.2 and use A.1.RI when observations still need to be associated under the rule.
+
+A commission to set a future continuity rule gives the practitioner a further choice. Compare which substitutions, divisions or transfers each rule would allow for the intended use, and who or what could give the rule effect. A rule adopted for future maintenance governs from the occasion covered by its terms. To decide what happened at an earlier repair, use the conditions that governed that repair.
 
 Complementary accounts keep their different subjects; unresolved competing criteria for the same subject retain their conditional answers and the fact or domain commitment needed to decide between them. If their difference cannot affect the receiving work, continue that work at its supported scope. A broader identity conclusion remains open.
 
@@ -45285,13 +45309,13 @@ The profile's complete interpreted claim content and effective reference scheme,
 
 #### B.2:4.2 - Existing-whole comparison and optional result
 
-First perform an ordinary comparison: compare the observed change with explanations that preserve the existing whole. Consider better parts, corrected relations, improved measurement, method or Work repair, richer phase coverage, capability change, and architecture-view repair only when their patterns make those explanations current. If one explanation is sufficient for the receiving use, keep the existing whole and stop B.2. Use the subject pattern for any remaining question.
+First perform an ordinary comparison: compare the observed change with explanations that preserve the existing whole. Consider better parts, corrected relations, improved measurement, method or Work repair, richer phase coverage, capability change, and architecture-view repair only when their patterns make those explanations current. For a feasibility question, a supported way of meeting the use while preserving the existing whole can suffice. For a question about what actually happened, establish the identity conclusion for the history that occurred. If both continuity and replacement are compatible with the evidence, state what can be decided under both and leave their historical identity open. Use the subject pattern for any remaining question.
 
 For each material explanation, test three things together: whether it covers the change needed by the receiving use, whether the old identity rule permits it, and whether it is compatible with the established facts. When continuity across observations is uncertain, use A.1.RI to construct the possible connections and test them against the subject constraints. A changed part may preserve one whole's identity and defeat another's; the applicable identity rule decides.
 
 | Comparison result | Grounds and next move |
 | --- | --- |
-| `sufficient` | At least one supported explanation meets the receiving use while preserving the existing whole's identity. Keep that whole; continue under the subject pattern only for a remaining question. |
+| `sufficient` | For a possible continuation, an admissible identity-preserving arrangement meets the use. For actual continuity, the known history or every history still compatible with the evidence preserves identity. Retain the whole for the conclusion established. |
 | `insufficient` | An established condition necessary for the receiving use cannot be met while preserving the prior identity; or the governing facts and rules justify a closed set of applicable alternatives and every alternative fails. Proceed to the candidate's A.1 and kind-specific tests. |
 | `unknown` | A deciding fact or rule is unavailable, or material alternatives remain that would change whether a new whole is needed. Obtain that missing basis or retain the unresolved comparison. |
 
@@ -45362,7 +45386,7 @@ Use `A.12` for acting-side externalization, `A.3.4` for bounded transformation, 
 
 #### B.2:4.7 - Mathematical-Lens Separation
 
-A mathematical or analytical result, such as an MSPD measure or graph analysis, can contribute to an MHT claim through a justified correspondence with the objects and relations concerned.
+A mathematical or analytical result, such as an MSPD measure or graph analysis, can contribute to an MHT claim through a justified correspondence with the objects and relations concerned. Compare models on the question the recipient is asking. Suppose a summary retains total output but omits which installation produced it. It can still establish a production threshold. To identify the installation, see whether its construction and history can be recovered or whether every history compatible with the summary gives the same identity answer under the governing rule. A history admitted only by the summary is insufficient to identify an actual producer. Carry the conclusion back in the direction supported by the correspondence. Use B.5.MR when the relation between the models themselves is at issue.
 
 Use `C.29` when a separate representation-choice, transfer or reliance question remains unresolved. Use B.2 for the consequential whole-reidentification question, beginning with the ordinary existing-whole comparison.
 
@@ -45443,7 +45467,7 @@ A.1 recognition additionally requires the cell's boundary, interfaces, relevant 
 
 Replacing Pump #37's seal is an ordinary constituent change when the pump's reidentification rule admits that maintenance phase. The same pump remains the EntityOfConcern; use the maintenance, part-relation, work, transformation, and characteristic patterns and stop B.2.
 
-Closing a controller-sensor-actuator loop can yield a new regulated-system whole only when the candidate assembly, supervision and coordination relations, boundary, objective, whole-level capability, admitted `U.System` kind, and reidentification rule satisfy A.1 and the system criterion.
+In the closed-loop case in :5.1, the claim concerns a regulated system with a stated objective. To identify an actual new system, establish why the prior configuration no longer carries that claim and how the organized sensor, controller, actuator and plant together satisfy A.1 and the `U.System` criterion. Ground the objective, the supervision and the capability required by this case under their own predicates.
 
 Its boundary, interfaces, relevant characteristics, and identity-preservation conditions must also satisfy at least one applicable governed larger-assembly construction method or rule under which the regulated system can remain a constituent. If that condition fails, the candidate fails A.1; if the needed evidence or dependency is unavailable, evaluation returns `unknown`.
 
@@ -45469,7 +45493,7 @@ The supported criterion therefore follows continuity of the installed assembly a
 
 Now inspect the change. The base, guards and fixtures remain; the replacement robot fits the specified connections; the required connection checks pass; supervision transfers through the retained interface. Under the recovered criterion, the replacement is an admitted constituent change of the same cell. In :4.2, that supported maintenance explanation is sufficient, so keep the cell and update the changed component and responsibility claims under their subject patterns. The scheduling account can separately change its resource membership.
 
-Change the conditions. If the commissioned installation is dismantled and an independently assembled cell supplies the same output elsewhere, output recovery leaves the earlier installation's continuity unestablished. Recover the new assembly and its identity grounds under A.1 before claiming a new whole.
+Change the conditions. If the governing criterion requires continuity of the installed assembly, and that assembly was dismantled, it no longer continues under that criterion. Another installation achieving the same output can meet a production target. For a claim about which installation supplied it, establish the new assembly and its link to the production history. For a proposal to preserve output after dismantling, the engineer can instead design the new arrangement and show what it would supply under its stated conditions. Realization and production remain separate claims.
 
 If only output logs are available and the construction and maintenance grounds cannot be recovered, state the missing connection: whether the change preserves the installed organization under an applicable lifecycle rule. Retain the conditional identity alternatives. The logs can still support their bounded production claims.
 
@@ -45489,7 +45513,7 @@ If only output logs are available and the construction and maintenance grounds c
 | --- | --- |
 | `CC-B2-1` | A B.2 use names the receiving claim or use, the existing whole already recognized under an admitted holon kind, its identity rule, current part relations, and kind-specific pattern before declaring whole reidentification. Without an established prior whole, first constitution or recognition returns to A.1 and the applicable subject pattern. |
 | `CC-B2-2` | `MHTTriggerProfile` is a `U.Episteme` with the existing whole as EntityOfConcern and typed content references. |
-| `CC-B2-3` | The ordinary existing-whole comparison precedes MHT and distinguishes a supported same-whole explanation, established insufficiency, and an unresolved comparison as in :4.2. An optional `ExistingWholeExplanationResult` episteme is created only when a receiving use must inspect or cite its explanations, evidence, and sufficiency verdict. |
+| `CC-B2-3` | A prospective comparison states the conditions under which the proposed arrangement would preserve or change whole identity. An actual MHT claim requires the prior and resulting whole and their grounds. The ordinary existing-whole comparison precedes that claim and distinguishes a supported same-whole explanation, established insufficiency, and an unresolved comparison as in :4.2. An optional `ExistingWholeExplanationResult` episteme is created only when a receiving use must inspect or cite its explanations, evidence, and sufficiency verdict. |
 | `CC-B2-4` | `HolonReidentificationRecord` is a `U.Episteme` with one `resultHolonRef` for the established new whole, one reference to its admitted public kind, the whole-reidentification claim, direct evidence and subject-pattern references, and only an optional C.2.1 classification-assertion reference when a person or system performing later work needs to inspect or cite that judgment. |
 | `CC-B2-5` | Agency-threshold claims use the characteristic-space and threshold patterns; B.2 uses them when they raise a consequential whole-reidentification question. The admitted System and characteristic are recovered independently of any optional local system-role classification or assignment, including when the System participates passively. |
 | `CC-B2-6` | Acting-system participation and transformation use A.12 and A.3.4. |
@@ -45564,7 +45588,7 @@ The manufacturing studies contribute reasons for control organization and reconf
 
 Use this pattern when wording such as `emergence`, `emergent`, `synergy`, `higher-level property`, `meta-system`, `meta-epistemic`, `meta-functional`, `MHT`, `MET`, `MFT`, `promotion`, `post*`, or collection words mixed with those terms could be pointing to several different FPF objects.
 
-**First useful move.** Recover the claim kind before choosing replacement wording.
+**First useful move.** Recover what the speaker means to establish and what the recipient needs to do with it. Write the claim in terms of its subject, the change or relation at issue, and the conditions under which it would hold. One phrase may join several claims. Preserve the connection between them when the recipient needs it.
 
 B.2.P is selected only when the source wording hides one of these recurring questions:
 
@@ -45621,10 +45645,10 @@ Recover the claim kind and subject pattern before any wording replacement.
 Read the complete natural span with F.19 and E.10's compact cues. If an emergence-specific FPF question remains, recover five things before choosing replacement wording:
 
 1. **Practical use.** What decision, explanation, design move, or stop depends on the sentence?
-2. **Object.** Is the concern an existing whole, candidate new whole, collection, characteristic, capability, functioning relation, structure, transformation, measurement result, assertion, or mathematical expression?
-3. **Claim.** What changed or obtains: construction, identity, capability, characteristic value, evidence, publication, representation, or only the wording?
+2. **Object and scope.** Which whole, constituent, group or relation is the claim about? Work back from the recipient's decision to the distinctions that matter. A fleet may be a set of vessels for a count, an organized service for a delivery, or the subject of a model whose resolution has changed. For a claim linking these, establish how particular vessels contribute to the service and how the model represents that contribution. A class of vessels and an assembly of vessels require different grounds.
+3. **Claim.** Which fact is claimed about construction, identity, capability, a characteristic value, evidence, publication or representation? Is the change confined to the wording? Keep the subject fixed and vary the report, then keep the reported result fixed and vary its source or organization. Use any difference that changes the intended conclusion to choose what the replacement must distinguish. Mark a consequence derived under design assumptions as conditional.
 4. **Subject pattern.** Which pattern defines or constrains that object and claim without using `emergence` as a substitute?
-5. **Disposition.** Keep the claim, open B.2 only for a remaining whole-reidentification question, or stop with the missing object or governor.
+5. **Disposition.** Give the supported reading or readings. When several readings lead to the same action, give that result at its warranted scope. If the commission asks which reading the speaker intended, identify the words, facts or clarification that distinguish it. Open B.2 for a remaining identity question. Where the wording joins several supported claims, return their connection to the receiving decision.
 
 Retain the source phrase beside the recovered claim and replacement only when that comparison is needed.
 
@@ -45650,11 +45674,11 @@ Retain the source phrase beside the recovered claim and replacement only when th
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 
-When claim-kind recovery leaves a whole-reidentification question, first establish whether there is a prior holon. For a first constitution or recognition without one, use B.2:4 to return to A.1 and the applicable subject pattern; unavailable prior identity grounds remain unresolved. With an established prior whole, use B.2 with this account:
+When claim-kind recovery leaves a question about actual whole reidentification, first establish whether there is a prior holon. For a first constitution or recognition without one, use B.2:4 to return to A.1 and the applicable subject pattern. If the wording concerns a proposed arrangement, retain its design conditions and use the design branch of B.2:4 when needed. If the wording alone is in question, an adequately qualified restatement can finish the work. For a comparison with an established prior whole:
 
 1. name the receiving claim or use, the existing whole, admitted kind, and identity or reidentification rule;
 2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its subject pattern;
-3. perform B.2:4.2's comparison: retain the whole when a supported explanation meets the use under its identity rule; establish insufficiency from a violated necessary condition or an independently closed comparison; otherwise leave the deciding question unresolved;
+3. perform B.2:4.2's comparison: distinguish a possible continuation from the history that actually occurred and retain the whole for the conclusion the evidence supports; establish insufficiency from a violated necessary condition or an independently closed comparison; otherwise leave the deciding question unresolved;
 4. when the comparison establishes that the prior whole is insufficient, require B.2 and execute the A.1 criterion: designate the candidate as a `U.Entity`; recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic.
 
    Show that its boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the kind-specific criterion;
@@ -45694,7 +45718,7 @@ Do not treat the source label as a subject-pattern locator merely because it is 
 
 #### B.2.P:5.1 - "The Fleet Emerged As A New Actor"
 
-Recover:
+Start with the decision in which the phrase was used. A harbour office asking how many vessels are on its eligible list can use the membership rule and a complete register. For a threshold, a sufficient bound may settle it. For an order to carry two cargoes on the same tide, trace each cargo to feasible vessels, loading work, shared berth time and who may assign it. The number of vessels can stay fixed while a change in control of the berth changes whether both deliveries can be promised. Confirmed access, terms and capacity can support that promise before either delivery occurs. A statement that the fleet became a new acting whole also needs its construction and continuity grounds. Recover the claims the particular wording makes:
 
 - Is "fleet" a membership set, collection-as-whole, acting collective system, or the candidate new system named by an MHT claim?
 - Does the agency wording name an admitted System, an agency-relevant characteristic or threshold, a local system-role kind, a separate System-classification judgment, an obtaining assignment, or only ordinary prose? Recover these independently: the characteristic can obtain without an assignment and the System may participate passively. Send unresolved claim-bearing “role” wording through `E.10.ROLE`.
@@ -45762,7 +45786,7 @@ If the use requires a composite transformation and no governor supplies constitu
 | `CC-B2P-4` | Collection admission remains with subject patterns. Collection wording entangled with emergence or MHT selects B.2.P for clarification, not for admission. |
 | `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, model-use, model-comparison, math-lens, publication, and source-use claims keep their subject patterns. |
 | `CC-B2P-6` | Source mnemonics and result-field spellings do not identify subject patterns or become U-kinds. |
-| `CC-B2P-7` | Replacement wording is reread in its complete natural span through F.19 with E.10 cues inside; only a remaining FPF question opens the applicable lexical or subject rule before live use. |
+| `CC-B2P-7` | The replacement identifies the subjects, ranges and relations on which the intended conclusion depends and keeps conditional and actual claims distinguishable. The wording is reread in its complete natural span through F.19 with E.10 cues inside; only a remaining FPF question opens the applicable lexical or subject rule before live use. |
 | `CC-B2P-8` | Whole-reidentification recovery identifies the existing whole, changed facts and identity rule, then retains a supported sufficient explanation, establishes insufficiency, or states the deciding gap. In a selected new-whole branch, apply the A.1 criterion, including governed larger-assembly compatibility, and the kind-specific criterion; preserve a failed or unresolved recognition result. First constitution or recognition without a prior whole returns to A.1 and the subject pattern. |
 | `CC-B2P-9` | Evidence, evaluation, assertion or record identity, G.11 currentness, and receiving reliance remain separate from world-side construction and reidentification. |
 | `CC-B2P-10` | Selected dependent structures and collections do not become holons by name; several changes do not become a composite transformation, and a missing composition governor does not establish atomism. |
@@ -45824,13 +45848,13 @@ FPF adapts this comparison by keeping that mathematical result separate from an 
 
 ### B.2.2:0 - Use This When
 
-Use this pattern when B.2 has identified one candidate new whole and that individual must be recognized under the already admitted `U.System` kind: a swarm, production cell, cloud platform, regulated control system, organizational unit, or another physically embodied whole that can act in work or transformation while remaining itself.
+Use this pattern when the decision about continuing or replacing an operating whole requires testing a candidate under the already admitted `U.System` kind. A candidate can be supplied, or its boundary can be part of the engineer's design commission. Examples include a production cell, platform or organizational unit with the organization to act in Work or transformation while remaining itself.
 
-**First useful move.** Test the candidate against A.1's six common components. Then test whether it is physically embodied and has an organization that makes it eligible to act in work or transformation while preserving its identity—the `U.System` criterion.
+**First useful move.** For a specified candidate, apply A.1's six common components and then the `U.System` criterion. Establish its physical embodiment and the organization through which it can act in Work or transformation while preserving its identity. When the commission instead leaves the system boundary to the engineer, use B.2:4 and :4.1 below to form the candidate from the required use. A design can establish what would qualify on its stated conditions.
 
 After those two tests, recover only the additional facts used by the case, such as delimitation, an objective or commitment, coordination, capability, system-role kind or assignment, method, work, transformation, functioning, architecture, evidence, assurance, or time. State each fact or claim through the pattern that defines its object or relation. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
 
-Use `B.2` to recover the whole-reidentification question and identify the candidate new whole. Use `B.2.2` when that candidate is to be tested under the already admitted `U.System` kind, then return its recognition result to B.2's comparison.
+Use `B.2` for the comparison with the prior whole, including a proposed change. Use `B.2.2` for the system question and return its answer to that comparison. For the first construction or recognition of a system with no established prior holon, use `B.1.2` and `A.1`.
 
 **What goes wrong if missed.** An operating whole is managed through old component claims, or a mere collection is declared a new system without establishing its A.1 basis and acting eligibility.
 
@@ -45882,6 +45906,8 @@ After B.2 leaves a whole-reidentification question open, continue with the candi
 
 Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.System` kind.
 
+When the task is to propose the system, trace the result required at its interface to what must be organized together to deliver it. Which component changes can the surrounding system accommodate? Which relations must the proposed assembly itself preserve? Compare an internal component with access to the same service from an independent provider. They may yield the same output today and different answers about who can control a later change. Include the provider as a constituent only on the grounds for that parthood. Relate any required Method and its operations, or Work and its performances, to the system through what it can enact or actually performed. Return a proposed boundary, the relations on which delivery depends and the limits of that conclusion. Apply the following tests to each candidate whose recognition matters.
+
 After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
 
 Before calling the candidate a system result:
@@ -45926,7 +45952,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the system identity claim. | `C.27`, `A.15.1`, temporal patterns |
 | Context reframe | A changed question or selected model-use structure changes which whole is under concern; it does not itself change that whole's identity. | `A.1.1`, `A.22`, `B.2`, and the whole's identity pattern |
 
-No cue is enough. Each row points to facts and claims to inspect; B.2's existing-whole/new-whole comparison, A.1 recognition, and the system-kind criterion decide the result.
+Use the cues to locate the facts that decide the question. One such fact can refute recognition if it contradicts a necessary condition. A single adequate engineering account can also supply all the grounds for a positive recognition. In either case, return the consequence for the commission. Whether the prior whole is sufficient is decided by B.2's comparison.
 
 #### B.2.2:4.4 - Delimitation and External Acting Systems
 
@@ -45977,6 +46003,8 @@ Use B.2.2 when B.2 identifies the operating platform as the candidate new whole 
 
 A proposed production cell has a machine, robot, fixture, workpiece carrier, and inspection station as candidate constituents. Apply :4.1 to recognize the whole. For the operating-cell case, separately establish its delimitation, objective, coordination relations, transformation structure, Work occurrences, and capability envelope, with evidence for those claims.
 
+Suppose the order asks for inspected workpieces by closing time. An available outside station with an assured handoff and enough time for inspection and delivery can supply a viable route. This can finish a request to choose a route. An order for inspected workpieces is fulfilled when the agreed inspection and delivery have taken place by closing time. If the order also requires a cell that retains inspection while the outside station is unavailable, work back from that use to the provision for inspection under those conditions. An installed station is one possibility. Determine its interfaces and the assembly relations that would make it part of this cell. A plan for the installation gives a conditional design result. A claim that this cell did the inspection requires grounds for what happened on the order.
+
 A fixture being manufactured as a workpiece is not part of the machine merely because the machine changes it. The production cell claim needs a result system; the manufacturing relation remains transformation and work.
 
 ### B.2.2:5.4 - Bias-Annotation
@@ -45993,8 +46021,8 @@ A fixture being manufactured as a workpiece is not part of the machine merely be
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.2-1` | B.2 has already left a whole-reidentification question before B.2.2 is used. |
-| `CC-B2.2-2` | A positive system-result claim requires B.2's candidate new whole to pass the A.1 criterion and the `U.System` criterion. Failed or unresolved recognition follows :4.1. |
+| `CC-B2.2-1` | B.2 supplies the whole-reidentification question. Where proposing a boundary was entrusted to the practitioner, justify it from the required work and the relations the assembly must maintain. A specified candidate may be assessed directly. |
+| `CC-B2.2-2` | For a proposal, state the conditions under which it would meet the requested use and qualify as a System. Recognition of an actual system result requires the candidate to pass A.1 and the `U.System` criterion on the facts that obtain. Failed or unresolved recognition follows :4.1. |
 | `CC-B2.2-3` | Use B.2's references for the candidate and established result. Any durable account remains an optional C.2.1 episteme under B.2. |
 | `CC-B2.2-4` | Identify the result-system delimitation and any crossing relations needed by the claim under their predicates. |
 | `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |
@@ -46062,11 +46090,11 @@ Descriptions can track a system without being that system. Use episteme, descrip
 
 ### B.2.3:0 - Use This When
 
-Use this pattern when B.2 has identified one candidate new whole and that individual must be recognized under the already admitted `U.Episteme` kind: a theory, model family, standard, doctrine, specification body, research programme, field-level knowledge body, or other claim-bearing non-agentive holon.
+Use this pattern when whole reidentification concerns a theory, model family, standard, doctrine, specification body or other claim-bearing non-agentive holon. B.2.3 supplies the test for a proposed `U.Episteme`. If the commission includes constructing the account to be tested, work from the conclusion its recipient needs.
 
-Use `B.2` first to decide whether whole reidentification is current and to identify the one candidate new whole. Use `B.2.3` when that candidate is to be tested under `U.Episteme`. For a first constitution or recognition without an established prior whole, use A.1 and C.2.1 as explained in B.2:4.
+Use `B.2` for the comparison with the prior whole and `B.2.3` for the proposed episteme. Where the commission concerns first constitution or recognition with no established prior whole, use A.1 and C.2.1 as explained in B.2:4.
 
-**First useful move.** For B.2's candidate, identify its interpreted claim content, the independently identified EntityOfConcern, and the effective rules for designating that entity and interpreting those claims (C.2.1:4.1.1). Test whether their `EpistemeConstitutionRelation` obtains.
+**First useful move.** For B.2's candidate, identify its interpreted claim content, the independently identified EntityOfConcern, and the effective rules for designating that entity and interpreting those claims (C.2.1:4.1.1). Test whether their `EpistemeConstitutionRelation` obtains. When the recipient needs a claim or a new account and leaves its construction open, start with what the account must establish. Use :4.1 to select its premises and their interpretation.
 
 Keep grounding, viewpoint, view, publication, source use, representation, evidence, and assurance in their neighboring relations.
 
@@ -46079,7 +46107,7 @@ Keep grounding, viewpoint, view, publication, source use, representation, eviden
 - If the result whole is a physically embodied holon eligible to act, use `B.2.2`.
 - When no whole-reidentification question remains, use the episteme, publication or source-use pattern for the remaining question; :4.2 and `CC-B2.3-4` distinguish these uses.
 - If the question is effect-free episteme morphing, viewing, retargeting, or controlled semantic coarsening, use `A.6.2`, `A.6.3`, `A.6.4`, or `A.6.3.CSC`.
-- If the question is synthesis work, use `A.15.1` for performed work and `A.12` or `A.3.4` for acting-side and transformation claims.
+- Use `A.15.1` to establish performed synthesis Work and `A.12` or `A.3.4` for acting-side and transformation claims. For an order to construct a claim-bearing account, identify the result needed in :4.1. Use B.2 when its relation to a prior whole matters.
 - If the wording is ambiguous emergence-family language, use `B.2.P` before selecting B.2.3.
 
 ### B.2.3:1 - Problem Frame
@@ -46117,7 +46145,9 @@ Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, c
 
 #### B.2.3:4.1 - Reuse The B.2 Candidate And Complete Episteme Recognition
 
-Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.Episteme` kind. Execute the A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to that individual:
+Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.Episteme` kind. If the candidate is given, assess it directly. When the practitioner is to construct the account, start with the conclusion the recipient needs about its subject. Trace that conclusion back to the claims that could warrant it, including any relation needed to use them together. Ask whether the relevant terms designate the same objects, populations and occasions across those claims. Two local models may give the same totals while assigning them to different individuals. A total can settle a threshold for the whole. A conclusion about which individual qualified requires the distinguishing information or another ground that settles it. If an existing account already yields the required answer, give that inference. An order to construct a new unified account calls for its own result. To build it, choose its constituent claims, the inference joining them and a scheme that preserves their intended interpretation. A source consulted in this work may supply a premise without becoming a constituent of the resulting episteme.
+
+For recognition, execute the A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to that individual:
 
 1. identify its interpreted claim content, including the semantic relations among its claims, under C.2.1:4.1.1;
 2. identify the independently governed `U.Entity` that those claims concern;
@@ -46210,7 +46240,7 @@ Under the assumption Ack(r), Q gives both storage conditions and L gives Recover
 
 E1 therefore satisfies the displayed A.1 grounds and C.2.1 constitution and meets the receiving need. If later work needs a reidentification record, `resultHolonRef` names E1 and `resultHolonKindRef` names `U.Episteme`. The record and any classification assertion concern E1; Q concerns S.
 
-The logical construction establishes the conditional derivation, not the truth of P, T, or L for a real deployment. A use that must rely on those service claims needs their grounds and any assurance required under B.3.
+The logical construction establishes the conditional derivation, not the truth of P, T, or L for a real deployment. A use that must rely on those service claims needs their grounds and any assurance required under B.3. When the question is whether the stated derivation is available, the displayed construction settles it. In another doctrine whose interpreted premises already entail Q, a request to derive Q can be met from those premises. For assurance about one actual request, an applicable record establishing the acknowledged payload at both stores may already suffice. Neither conclusion establishes that a particular operator consulted the doctrine. That historical question turns on evidence of its use.
 
 **Change the interpretation condition.** Suppose the supplied candidate uses G1 with the complete R0, whose declared vocabulary has no interpretation of `ReplicaStored`. The proposed `<G1, S, R0>` fails constitution: its scheme cannot interpret the whole graph. Supply a scheme that does interpret it and identify the resulting episteme.
 
@@ -46248,7 +46278,7 @@ The PDF file carries an expression of the standard. A selected publication form 
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.3-1` | B.2 has left a whole-reidentification question before B.2.3 is used. |
+| `CC-B2.3-1` | B.2 supplies the question about continuity. For a commission to build an account, the proposed claims, inferential organization and effective interpretation are justified by what the recipient must establish. A request about an existing account can be settled by its present grounds. |
 | `CC-B2.3-2` | A positive episteme-result claim requires B.2's candidate new whole to pass the A.1 criterion and C.2.1 constitution under the already admitted `U.Episteme` kind. Failed or unresolved recognition follows :4.1. |
 | `CC-B2.3-3` | Retain B.2's candidate and established-result references. C.2.1's ClaimGraph, EntityOfConcern and effective ReferenceScheme remain the identity discriminators; neighboring relations and any optional durable account stay separate. |
 | `CC-B2.3-4` | Use C.2.1 for constitution and the patterns in :4.2 for neighboring claims. Use E.24.PUB for publication availability, form or carrier distinctions and E.17 for a needed reader face of an accepted account. Use C.2.P for unresolved source-expression or source-to-use wording, and C.2.P.DR for claims inferred from declarative form alone. |
@@ -46316,9 +46346,9 @@ Source-use claims retain their relations; use A.10 when bounded reliance needs a
 
 ### B.2.4:0 - Use This When
 
-Use this pattern when capability, functioning, or transformation-flow facts, established under their subject patterns, raise a B.2 whole-reidentification question.
+Use this pattern when a claim about capability, functioning or transformation flow raises a consequential question about the identity of the whole. The question may concern an existing bearer or the organization a proposed bearer would need.
 
-The first useful question is whether those facts can be explained by the existing whole. If that explanation is sufficient for the receiving use, retain the whole; use the pattern for any remaining capability, functioning, transformation, Method, Work, module, characteristic, or architecture question. Use B.2 for a remaining consequential whole-reidentification question, including one whose deciding grounds are unresolved.
+First establish what the recipient must decide about the ability, its exercise or the identity of its holder. A supported account of one performance may settle a question about that occasion. For a promise or a design, identify the conditions under which the holder must be able to deliver. When that decision depends on keeping or changing a whole, compare what the existing arrangement can support under its identity rule. Use B.2 for the remaining identity question, including one whose deciding grounds are unresolved.
 
 Evidence and measurement support, challenge, or leave unresolved the claims about those facts. Use the supported facts in B.2's comparison of the existing and candidate wholes.
 
@@ -46369,10 +46399,10 @@ Use the capability and functioning facts to decide whether B.2 whole reidentific
 
 #### B.2.4:4.1 - Start From Facts, Claims, And Support
 
-1. Name the existing whole and its identity or reidentification rule.
-2. Identify each capability envelope, obtaining functioning relation, or selected in-life transformation-flow structure under its subject pattern. Keep method, method description, work plan, work occurrence, module allocation, characteristic, and architecture facts separate when they are current.
+1. Start from the required result and scope. Whose ability or work matters, under which conditions, and what would a different answer change? For a whole-identity question, identify the relevant holder and the conditions for its continuity.
+2. Trace the needed functioning back to the systems that provide it, the operations that compose the Method, and any Work whose performances the claim concerns. Choose the extent of each from its contribution to the required result. Vary which participant supplies an operation while the output stays fixed, then ask what the same participant could supply under a different arrangement. Keep distinctions that change the recipient's decision or its grounds. Establish each capability, functioning relation or in-life transformation-flow structure under its subject pattern. A design specifies what would have to hold.
 3. State the claim made about those facts. For any relied-on evidence or measurement result, identify whether and how it supports or challenges that claim, retaining any unresolved conclusion. Keep the measurement and its result distinct from the evidence-use relation.
-4. Perform B.2's ordinary existing-whole comparison. Better measurement, component improvement, Method or Work repair, allocation repair, or architecture-view repair can leave the same whole in place.
+4. Perform B.2's ordinary existing-whole comparison. Better measurement, component improvement, Method or Work repair, allocation repair, or architecture-view repair can leave the same whole in place. If the practitioner is asked to develop an arrangement, work from a missing contribution to a feasible change in the Method, allocation, external support or assembly. Test whether the contributions can be obtained together under the required conditions. A justified limit may decide feasibility. An order for one workable arrangement can finish with the first supported one.
 5. Use B.2 for a remaining whole-reidentification question, including an unresolved deciding ground. When the comparison establishes that the existing whole is insufficient, B.2 identifies a candidate new whole, applies the A.1 and kind-specific criteria, and tests whether it meets the receiving use before claiming whole reidentification.
 
 If a receiving use needs a durable account, use B.2's optional C.2.1 epistemes to state the facts, comparison, and supported conclusion.
@@ -46408,7 +46438,7 @@ Subject-pattern explanations that often stop B.2.4 include:
 - architecture-view or transformation-flow-structure repair;
 - better evidence, measurement, or source currentness for an unchanged world-side claim.
 
-If one of these explanations is sufficient for the receiving use, retain the existing whole and finish B.2.4. Use the subject pattern for any remaining question.
+If one of these explanations is sufficient for the receiving use, retain the existing whole and finish B.2.4. Use the subject pattern for any remaining question. The same performance records may leave it open whether the holder could repeat that result when support is unavailable. Conversely, a binding provision for support and a suitable operating arrangement can establish a conditional ability before the next performance. Use the applicable identity criterion if the conclusion also names a continuing holder.
 
 #### B.2.4:4.4 - When B.2.4 Requires B.2
 
@@ -46437,6 +46467,8 @@ A team may have methods for coding, testing, and releasing. That does not by its
 
 B.2.4 becomes current when capability, coordination, commitment, and work facts raise a consequential question about whether the existing team or platform carries the receiving claim. Evidence may support that claim; an automated delivery label or score does not decide the ontology.
 
+Suppose each of two teams can obtain a whole shift on a shared test bench when the other team is idle. One release yesterday establishes a performance. To decide whether both can be promised a release on the same shift, recover the test each release requires and the bench time they can use together. If each requires the whole shift for its own test, one available bench excludes that joint arrangement. If one test is valid for both releases and the teams may use the same result, that part of the promise can be met in one shift. Determine separately whether the other conditions for both releases hold. The decision can turn on the Method and the rights to use the result while both teams retain their identities.
+
 #### B.2.4:5.3 - Theory Explains New Phenomena
 
 A new theory may explain phenomena that the source portfolio did not explain. Use B.2.4 to bring the explanatory-use facts into B.2's ordinary existing-whole comparison, while evidence separately supports or challenges the claim about that use.
@@ -46457,10 +46489,10 @@ This does not assign an A.2.2 capability to the episteme. B.2.3 tests the candid
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.4-1` | B.2.4 is used only when capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after subject-pattern explanations are tested. |
+| `CC-B2.4-1` | The comparison answers the receiving question about the holder and its continuity over the conditions that matter. Established performance, capability conditional on support and a proposed arrangement each supply the conclusion their grounds warrant. Close a sufficient subject-pattern answer at its own scope. |
 | `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to subject patterns. |
 | `CC-B2.4-3` | A capability or function label does not substitute for the subject-pattern facts or B.2 whole comparison. |
-| `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
+| `CC-B2.4-4` | Distinguish the Method and its operations, its description, the plan and the Work performed. Where their organization or a choice among arrangements matters, show how the selected contributions can meet the intended use together. |
 | `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
 | `CC-B2.4-6` | If B.2 remains current, it handles the remaining whole comparison, tests a candidate new whole under the A.1 and kind criteria when required, and supplies any optional record needed by the receiving use. |
 
@@ -46519,9 +46551,9 @@ When a receiving use consumes agency-characteristic values, select the needed ch
 
 ### B.2.5:0 - Use This When
 
-Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and assignment separately.
+Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons, or to specify that coupling in a proposed control arrangement. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and assignment separately.
 
-The first useful move is to recover the facts supporting the feedback claim:
+First identify the decision for which feedback matters. Is the question about a specified exchange, supervision of each member, control of an organized whole or a policy to be designed? Use the observations and actions that could change that decision to select the relevant participants, scope and interval. For a claim about an exchange that took place:
 
 1. Name the supervised holons and the admitted system supervising them.
 2. State the feedback use, policy, and time window. Add a local supervisor system-role kind and assignment when that classification matters.
@@ -46572,7 +46604,7 @@ When these are confused, a functional layer is treated as a physical part, a pub
 
 ### B.2.5:4 - Solution
 
-State the feedback claim in one C.2.1 episteme about the named controller and supervised holons. A sufficient reading is: “For every drone in this set during the stated interval, controller C receives the stated observations and returns commands coupled to those observations under rule R.” Use A.6.RCD's compound-claim branch; the description does not require a new relation kind or one independently reidentifiable feedback occurrence.
+For a claim about actual supervision, identify who or what was observed and who or what received the coupled influence. A controller may use a joint condition to act on a whole. A local observation may instead govern an action on one part. For a claim that holds separately for several holons, state it for the required members and interval. One account applying throughout that scope can support all the pairs. State the result in a C.2.1 episteme using A.6.RCD's compound-claim branch. A further use may call for a separately reidentifiable occurrence under :4.1.
 
 For a nonempty set H and each h in H, recover three propositions under their domain definitions:
 
@@ -46609,13 +46641,13 @@ Evidence supports the assertion under A.10; its adequacy and the obtaining of th
 
 #### B.2.5:4.1 - Establish and qualify the conjunction
 
-Co-present telemetry and commands are insufficient. For each pair, apply the coupling rule to the observation and return. An unrelated broadcast fails that condition; one-way reporting fails the two-sided predicate.
+Trace the observation into the choice made under the applicable rule and the resulting influence to its recipient. An observation can enter the choice even when another reading in the same range would yield the same action. A matching schedule and a copy of the observation show no such use by themselves. A record that identifies the actual input, executed rule and delivered result can settle the question directly. For one-way reporting, retain the established observation.
 
 A confirmed failure of a condition required by the claim, such as a return to a named supervised holon, rules out that claim for the stated interval. When the remaining decision depends on an unspecified coupling rule, identify the missing rule. If the rule is applicable and a required fact is undecided, identify the information that would settle it. Check the rule’s requirement for a nonempty supervised set before an affirmative assertion.
 
 Keep the base occurrences and their extent and continuity rules. A communication break can make an interval-qualified feedback assertion fail without ending a supervisor assignment. Reconnection requires current observation, return and coupling facts.
 
-Apply a changed policy to the affected interval; adding a holon extends the asserted set only after its pair is supported.
+Apply a changed policy to the affected interval; adding a holon extends the asserted set only after its pair is supported. A common rule and evidence covering every required member may supply those grounds together. To establish feedback on a particular part, show how the observation represents a relevant state of that part and how the coupled return reached it. For a question about receipt alone, confirmed delivery to every member can establish that one member received the message even when its state was never observed.
 
 Reopen the dedicated relation-kind alternative only when a receiving use needs to identify a feedback occurrence independently across changes. That alternative must supply its obtaining, extent and continuity rules, including interruptions, under A.6.RCD and A.6.REL. A useful compound description can stop here.
 
@@ -46634,6 +46666,8 @@ For acting-side externalization, use `A.12`. For transformation, use `A.3.4`. Fo
 #### B.2.5:4.4 - Control-Structure View Boundary
 
 When feedback is drawn as planner, controller, observer, plant and supervisor structure, B.2.5 states the compound claim and `C.30.LCA` governs the control-structure view. The view can cite both the assertion and the independently obtaining base relations. Its arrows alone establish neither their obtaining nor the coupling.
+
+To design the feedback, start with the decisions the responsible system must be able to take. Which changes of state would require different action, and by when can that system observe the difference and act? Several arrangements of the parts can give the same whole-level indication. For each indication available before the decision, choose a permitted response that serves every admissible arrangement still consistent with it. If no such response exists, seek a timely observation that separates cases sufficiently for that choice, or revise the proposed policy. The aggregate can suffice when the same response serves the entire group. Specify the participants, observation, return and coupling for the required uses. This conditional result can complete a design commission. An assertion about an actual interval still uses :4.1.
 
 #### B.2.5:4.5 - Neighboring Claim Boundary
 
@@ -46681,7 +46715,7 @@ For publication channels, journals, datasets, reports, and review records, keep 
 
 #### B.2.5:5.3 - Product Platform Policy
 
-A product platform constrains component teams through interface rules and release gates. B.2.5 states the component reports, returned constraints and rule coupling those constraints to the reports for the admitted platform or governance system; a system-role kind or assignment is added only when separately current.
+A product platform constrains component teams through interface rules and release gates. B.2.5 states the component reports, returned constraints and rule coupling those constraints to the reports for the admitted platform or governance system; a system-role kind or assignment is added only when separately current. For example, a release coordinator may change the shared release window in response to the total backlog. The total can support that common decision even when the same total arises from backlogs at different teams. To choose which team can release its own change, the coordinator may instead need its outstanding checks. A total that leaves that choice open can still settle the window question. What the coordinator actually used in yesterday's decision requires grounds for that occasion.
 
 Work alignment uses `A.15`; a separate work-authority claim needs its pattern; use the lookup in `A.15.4:3.5` when the required permission or authority claim is unclear.
 
@@ -46700,8 +46734,8 @@ Gate passage uses `A.21`; `A.6.M` restores interface wording before the commitme
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.5-1` | A conforming use names supervised holons and the supervising acting system; it adds the local supervisor system-role kind and assignment only when each independently obtains. |
-| `CC-B2.5-2` | A conforming use names the observation, report, or source side and the influence, constraint, or objective side. It also names the coupling rule, its case facts, common applicability, temporal qualification and evidence that changes the compound claim or its later use. |
+| `CC-B2.5-1` | Identify the supervised holon or holons and the supervising acting system at the scope the receiving use requires. A design states the conditions on which the proposed policy would provide feedback. Add a local supervisor system-role kind and assignment when applicable. |
+| `CC-B2.5-2` | For an actual feedback claim, identify the observation and returned influence, the rule used and the grounds for their coupling over the stated participants and interval. For a proposed policy, explain how the available observation permits the required choice and how the return could reach its recipient in time. |
 | `CC-B2.5-3` | The assertion is the conjunction of observation, return and coupling for every member of a nonempty supervised set. It introduces no fused U.Relation occurrence. Use the applicable mathematics for a loop; C.29 addresses a remaining representation, correspondence, transfer or reliance question. |
 | `CC-B2.5-4` | Observation and influence references retain their kinds; a report episteme, signal occurrence, and source-use relation are not interchangeable. |
 | `CC-B2.5-5` | Parthood, control-structure view, base publication and source-use relations, and the compound feedback assertion are kept separate. Each base occurrence keeps its identity and extent rules. |
@@ -46778,7 +46812,7 @@ Reopen when the coupling rule, interval or member set changes, or a receiving us
 
 **Use this when.** Use B.3 when a named assurance claim is current: for example, a claim that a model claim is credible for one decision, or that a safety claim is adequately supported for one release use.
 
-**First useful move.** State the target claim and the assurance use. Then ask which results and argument make that use supportable. If there is no assurance claim, stop and use the pattern that defines or tests the evidence, status, gate, permission, safety, release, work, or domain-result claim.
+**First useful move.** Identify the conclusion its recipient must assess, how it will be used and the work entrusted to the assessor. A sufficient existing argument can settle a question about one claim. To design an assessment, work back from the recipient’s decision to the distinctions the assessment must make (§4.1). To establish how someone actually used a result, identify the decision and the evidence about its use (§4.6). The domain rule governs the resulting action.
 
 **What goes wrong if missed.** A visible label or a score starts raising trust without a target, argument, basis, limitation, and use. At the other extreme, a modest assurance question is forced through a universal score and a large record whose fields do not affect the decision.
 
@@ -46786,7 +46820,7 @@ Reopen when the coupling rule, interval or member set changes, or a receiving us
 
 **Not this pattern when.** Stay with `A.2.4` for the classification of an episteme as evidence, `A.10` and `G.6` for source recovery and bounded reliance, `G.11` for currentness, `F.10` for a status value and its use, `A.21` for a gate decision, and the domain pattern for safety, permission, access, responsibility, release, compliance, or controlled action. Consequence alone does not create an assurance claim. A domain rule may require one, but the claim must be stated before B.3 is applied.
 
-**First output.** Produce either one bounded `AssuranceResult` claim or a plain statement that the available argument does not support the attempted assurance use. Do not create a B.3 result merely to record that another pattern is relevant.
+**First output.** For each assurance question, state the bounded `AssuranceResult` or the limits of the available support. If the commission concerns several claims together, carry these judgements through to the conclusion the recipient needs. For a commission to design the assessment, supply the way to reach that conclusion under the permitted conditions.
 
 ### B.3:1 - Problem frame
 
@@ -46831,6 +46865,10 @@ State these three things before choosing measures or a record:
 2. the named assurance use;
 3. the conclusion that must be supported, narrowed, or refused for that use.
 
+When you must choose the argument, start from a difference that could matter to the recipient. Hold a test result fixed and vary the assembly in which the tested part is used. Hold the reported performance of the assembly fixed and vary which part supplied it. If the assurance judgement changes, trace the relevant part, its connection or its enclosing system until the evidence reaches the subject of the claim. Choose the extent of each other inquiry by the same test. The operations required by an assessment Method can differ from the work performed on one occasion. A report may identify the work that supplied a premise. Establish the relation on which the inference depends.
+
+At each relevant scale, ask whether situations your model describes alike could require different assurance conclusions or explanations. Recover a missing distinction when it matters, or show that the available grounds suffice throughout the admitted range. For an assessment of future cases, use those differences to choose what to examine, how the assessor can obtain it in time and what follows from each relevant finding. An assessment designed under stated assumptions can be delivered before it is performed.
+
 Keep the following objects separate:
 
 1. world-side facts and domain results;
@@ -46866,7 +46904,7 @@ Develop it while reasoning: start with the claim and use, state the proposed sup
 
 Use C.2.1 to identify the epistemes whose claims make up the case. A claim about a system retains that system as its subject. For an assurance-result episteme, the EntityOfConcern is the target claim content or episteme whose support is being judged; `targetClaimRef` locates that subject.
 
-A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier.
+A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier. When the receiving decision depends on several judgements, establish how they fit together. Two results can each apply to a different configuration with no configuration in which both required conditions have been established. For a decision about one configuration, establish the required compatibility there. For a claim about every allowed configuration, cover that range and its shared conditions. A single argument can do so. Where the uses concern different configurations, explain how their separate results enter the decision. Evidence that a necessary condition for the decision fails can settle a refusal. When only one supporting argument fails, assess any other sufficient argument on its own grounds.
 
 An unfinished argument remains useful working material: identify the missing support and return the appropriate unresolved disposition. A positive assurance result requires an argument sufficient for the named use under the applicable domain rules.
 
@@ -46914,7 +46952,7 @@ B.3 supplies no default fold. When the assurance argument combines quantitative 
 
 Use `min` when the subject model explains what it means for the target quantity. For a bottleneck model it may give the value itself. For a probability of joint success, the smaller marginal probability gives an upper bound. State the direction of the bound before using it to decide a threshold.
 
-If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
+When unlike quantities have no common aggregation rule, keep their meanings and use the criterion for the decision. Separate limits on accuracy and response time can support one conclusion when both limits hold in the required operating conditions. A direct observation, bound or qualitative argument can settle a question without assigning an overall score. State which part of the conclusion remains open when the available grounds run out.
 
 Several independent evidence lines may strengthen an argument only through the rule that states how their dependence and coverage are handled. Claim-scope intersection or union follows A.2.6 and the evidence model; it is not an assurance arithmetic shortcut.
 
@@ -46938,6 +46976,8 @@ A visible artifact, such as an attestation or dashboard tile, contributes to ass
 
 If the question concerns only a status, gate decision, permission, warning, or source location, use its pattern and produce no B.3 result.
 
+For a question about past reliance, identify the result available to the decision maker at the time and the grounds used for that decision. A decision record can establish reliance directly. If asked whether that result changed the choice, establish what would have happened without it. A binding rule can establish what would have been permitted or required without that result. To infer what the decision maker would actually have chosen, establish that the rule controlled the choice under those conditions or use other causal grounds under C.28. A result can have been considered even if the same choice was already warranted.
+
 If an assurance claim is current, cite the item only for the property it establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
 
 #### B.3:4.7 - Leave domain obligations with their patterns
@@ -46950,7 +46990,7 @@ When a domain rule says a consequential use requires an assurance claim, state t
 
 State the window only when time changes the assurance conclusion. Monitoring, drift, incidents, evidence refresh, version change, policy change, gate change, or a newly discovered defeater can narrow, reopen, or withdraw a result while the target fact and target-claim identity remain unchanged.
 
-Design evidence and run evidence may support different claims. Produce separate results when target use, conditions, scope, or evidence window differs; compare them instead of merging them into one score.
+An argument about a design can establish what follows if its assumptions hold. Evidence from an implementation can establish that specified assumptions held for a given run. Combine the two when the design, implementation and conditions match in the respects the receiving claim uses. A successful run can demonstrate an attainable result or bear on a wider claim to the extent its selection and the domain argument warrant. Preserve the conclusions supported for each scope.
 
 #### B.3:4.9 - Use causal-use and method-structure results
 
@@ -47000,7 +47040,7 @@ The domain model says that both independently tested conditions must succeed: se
 
 On the independence assumption, treating `min(0.9, 0.9) = 0.9` as the joint probability would overstate it. Even with unknown dependence, joint success cannot be more likely than either necessary event. On these marginal estimates its probability is at most `0.9`. For a more demanding decision, establish the dependence or obtain other sufficient bounds.
 
-Return to the protection function. In this model success requires both events, so the probability of success is at most `0.81` on the stated estimates. Thus under these assumptions the design falls short of any required minimum strictly above `0.81`. To use `0.81` as the success probability itself, establish that the two events together suffice. If there is another way the function can fail after both have succeeded, include it in the model or retain the upper bound. A decision about the actual design also needs the estimates and dependence assumption to be adequate for the intended demand class.
+Return to the protection function. Success requires both events, so its probability is at most `0.81` under the stated model and estimates. This rules out a required minimum above `0.81`. For a minimum of `0.80`, the assessor needs to bound the remaining failures. If the probability that both events occur and the function still fails is at most `0.01`, the model gives a lower bound of `0.80` for success. With no such bound, the upper bound alone leaves that acceptance open. To claim equality with `0.81`, establish zero probability of failure with both conditions present. For a decision about the actual design, establish how well the estimates and the dependence assumption apply to its demand class, including uncertainty that could change the decision.
 
 #### B.3:6.2 - Routed-away case: dashboard status
 
@@ -47020,9 +47060,11 @@ The engineer states the supporting inference: “The validation compared M's pre
 
 These are premises of this worked case. If the validation does not establish that coverage or tolerance, narrow the use or return an unresolved disposition. Keep the argument beside the compact result or accessible through `basisRefs`. A later correction to the validation reopens the conclusions that depended on the corrected result.
 
+If the engineer is asked to design the assessment for later comparisons, start with the choice those comparisons must support. Suppose the task is to rank two proposed settings by response. A common offset can leave their ranking unchanged. Error in the predicted difference can reverse it. Choose conditions and evidence that bound the error in that difference over the uses promised. For a strict ranking, a predicted advantage greater than the bound on the absolute error in the difference establishes its sign. To decide whether one setting clears an absolute limit, the offset can matter again. The existing validation can supply either bound if its result covers that quantity and range.
+
 #### B.3:6.4 - Order-sensitive Method case
 
-An assurance argument relies on a manufacturing sequence whose result changes when two steps are reversed. Recover the B.1.5 composition, order and join conditions and any A.15.1 Work the argument consumes. Those results may answer the assurance question.
+An assurance argument relies on a manufacturing sequence whose result can change when two steps are reversed. To establish what a specified order would achieve, recover the order, any applicable joins and the rule that gives their consequence. For a claim about an actual batch, an applicable final inspection may answer directly. To establish how the batch was produced, use A.15.1 to identify the relevant work, its order and its contribution. To establish which steps are constituents of one reusable Method, use B.1.5.
 
 Use A.22 only if a separately selected organization contributes another needed premise; then identify its constituents, obtaining relations, applied constraints and use frame. The assurance result cites only the results and structure it relies on.
 
@@ -47040,7 +47082,7 @@ Use A.22 only if a separately selected organization contributes another needed p
 
 | ID | Requirement |
 | --- | --- |
-| `CC-B3-1` | One target claim and one named assurance use are stated before measures or records are selected. |
+| `CC-B3-1` | Each assurance result identifies its target claim and use. For a joint decision, explain how the required conclusions apply together. An assessment design explains how the assessor selects the relevant distinctions and obtains sufficient grounds under its stated conditions. |
 | `CC-B3-2` | The compact result contains target, use, basis, disposition, limits, and reopen condition; optional fields appear only when they change the conclusion or its replay. |
 | `CC-B3-3` | Every characteristic has one bearer, property, scale and unit where applicable, interpretation, and basis. |
 | `CC-B3-4` | Formality is not treated as monotone truth, empirical adequacy, or warrant. |
@@ -47064,7 +47106,7 @@ Use A.22 only if a separately selected organization contributes another needed p
 | Safety-case inflation | A warning, access value, or consequential display triggers a generic B.3 package. | Use the domain pattern; apply B.3 only to an assurance claim. |
 | Evidence creates truth | New evidence is said to make the target fact obtain. | Revise the warrant or disposition unless the world-side facts changed. |
 | Assessment-record collapse | A checklist, trace, witness, or note is treated as the assessment Work or result. | Identify each object separately and add only what the use consumes. |
-| Design/run chimera | Blueprint evidence and runtime observations are merged into one score. | Produce separate results and compare them. |
+| Design and run conflated | An assumption established for the design is silently treated as true of the installed system. | Identify the configuration and operating evidence needed to apply the design result. Use their joint implication for the installed system when those premises hold. |
 
 ### B.3:9 - Consequences
 
@@ -47118,7 +47160,7 @@ When a C.29 mathematical-lens result is an input to an assurance claim, cite the
 
 ### B.3.3:1 - Problem Frame
 
-**Use this when.** A team must decide whether the available support is enough for a claim and receiving use, or what a published assurance level permits a recipient to conclude. Start with that claim, use, relevant conditions, and the warrant the conclusion needs.
+**Use this when.** A team needs to assess a claim for a receiving use, interpret a published assurance level or design criteria for recurring decisions. Start with what the recipient needs to decide, the applicable conditions and the choices left to the assessor. A published profile may have settled some of those choices.
 
 A performance test, a proof and a terminology comparison answer different questions. Treating their presence as a maturity recipe can approve a poorly supported performance claim while demanding an irrelevant proof from a well-supported empirical result.
 
@@ -47134,7 +47176,7 @@ The tension is between comparable reporting and unlike assurance questions. Repe
 
 ### B.3.3:3 - Solution
 
-Use B.3 to identify the target claim and receiving assurance use. Determine which uncertainty or possible failure matters to that use, then examine the support that bears on it. State the supported or narrowed conclusion and the limitations that change reliance. A result need not carry an `AssuranceLevel`.
+Use B.3 to identify the target claim and receiving use. Ask what could make the proposed conclusion fail. Follow that possibility to the correspondence, inference or observation that can resolve it. A single applicable argument can settle the use. For a decision requiring several contributions, check that their subjects, conditions and conclusions fit together. A result can be given without an `AssuranceLevel`.
 
 #### B.3.3:3.1 - Assurance subtypes answer different questions
 
@@ -47152,9 +47194,11 @@ Terms such as `FV`, `EV` or `CL` can be used only with the bearer, scale and int
 
 A domain may define an assurance profile or ordered levels when a recurring receiving decision benefits from that comparison. Its definition states the claim class and use, conditions, meaning of any levels used, evidence rules, the basis for any thresholds, and reconsideration conditions. State the measure and its scale where a threshold is used.
 
-Where levels are ordered, establish that ordering from their meanings; the numerals in `L0–L2` supply no ordering of trust across unlike uses.
+To design such a profile, take the actions its recipients must distinguish and work back to what would justify each. Hold the apparent level fixed and change the subject, the part tested or the conditions of operation. Would the same level now warrant a different action? Retain the difference in the criteria or limit their applicability. Select the grounds for meeting each criterion, including alternative sufficient arguments where the decision permits them. Ask which cases the proposed rule could accept despite a missing condition and which sufficiently supported cases it would exclude. A general argument can settle either question. Adjust the rule to the intended use or retain an exclusion required by that use.
 
-Publish `AssuranceLevel` only with the applicable profile and a result showing why the target meets its criteria. The legacy names `Unsubstantiated`, `Substantiated` and `Axiomatic` do not supply default criteria. In particular, an axiomatic or constructive justification concerns a consequence or construction, not a universally higher assurance state than empirical support. A conjecture's origin in abduction likewise does not assign it `L0`.
+Where levels are ordered, establish the ordering their meanings promise. If one level is said to support every use allowed by another, establish that implication across the applicable conditions. A narrower operating range with better accuracy need not contain a wider range with looser accuracy. State what each qualifies when the uses differ.
+
+To assign or endorse an assurance level on its merits, apply the profile and show how the evidence meets its criteria. To report the level an authority actually assigned, identify the decision, the designation or profile it used and its scope. An error in applying the criteria can change what the assignment warrants while the historical fact of assignment remains established. The legacy names `Unsubstantiated`, `Substantiated` and `Axiomatic` do not supply default criteria. In particular, an axiomatic or constructive justification concerns a consequence or construction, not a universally higher assurance state than empirical support. A conjecture's origin in abduction likewise does not assign it `L0`.
 
 Examine whether a demanded threshold or evidence requirement protects the relevant quantity well enough to justify its cost, delay and displaced work. Keep that judgement distinct from the conditions binding the action. A recommendation to amend a requirement does not change it or confer amendment authority.
 
@@ -47162,7 +47206,7 @@ For a one-off receiving use, stop with the sufficient qualified assurance result
 
 #### B.3.3:3.3 - Preserve scope and inspect the grounding
 
-Keep a design-time `MethodDescription` claim separate from a claim about performed `Work` or its `Trace`. Cite evidence with the appropriate conditions and scope. Evidence for a parent claim covers a child claim only through an argument establishing that coverage; a declaration of inheritance is insufficient.
+A claim about a design-time `MethodDescription` and one about performed `Work` or its `Trace` have different subjects. For an inference across composition scales, identify the relation the receiving claim uses. A condition established for every operating mode applies to a specified mode within that range. A rate for the whole constrains its parts to the extent their sizes and overlap permit. If passing and failing exhaust the outcomes on this criterion and at most two of 100 distinct readings failed, at least eight of any ten of those readings passed. Conversely, two groups of ten can each report nine passes yet share the same nine passing readings and have different failures. Their combined set then has nine passes among eleven readings. Establish the coverage and common conditions needed for the conclusion in the chosen direction.
 
 State structural claims as readable Working-Model relations. When a publication choice or current requirement elects B.3.5's CT2R-LOG profile, follow its relation-specific grounding: structural parthood uses the applicable C.13 `sum` or `slice` construction trace; collection belonging uses the collection's `set` trace. These elected branches declare `validationMode=axiomatic`. Other permitted relation claims retain their applicable logical or empirical support. A level label alone does not elect this profile.
 
@@ -47176,15 +47220,17 @@ Now replace that basis with a newly passed boot test and a glossary mapping. The
 
 If the recipient instead needs a mathematical invariant, inspect the proof under its assumptions. If the application introduces a protective function or a different operating range, reopen the affected assurance question under its threshold and evidence rules. The earlier limited result remains an account of what it supported.
 
+To design a profile for later converter assignments, recover what each recipient uses the measurement to decide. An offset that stays the same in two readings cancels in their difference. The same offset can decide whether an absolute limit has been crossed. Develop criteria for the quantity being accepted and the operating conditions that could change its error. Applying the existing 2% criterion remains sufficient for the original assignment when its grounds still hold.
+
 ### B.3.3:4 - Conformance Checklist
 
 A Target of Assurance (ToA) denotes the claim being assessed for the named use, not an undifferentiated score for its whole system.
 
 - **CC-B3.3.1 (Relevant support):** A positive assurance conclusion MUST identify the relied-on claim and use and explain how the cited basis supports it. A `verifiedBy` or `validatedBy` link is insufficient.
 - **CC-B3.3.2 (Needed correspondence):** Where differing terms or participants can change the argument, the assessor MUST resolve the load-bearing correspondence through the applicable bridge. Other judgements have no general term-mapping prerequisite.
-- **CC-B3.3.3 (Qualified levels and thresholds):** A published level MUST have an applicable profile, interpreted criteria and a supported assignment. Formal, empirical and constructive evidence requirements MUST follow the claim and receiving use. A generic score threshold or positive validation score cannot substitute for the required protective argument.
+- **CC-B3.3.3 (Qualified levels and thresholds):** An endorsed level MUST have an applicable profile and evidence meeting its criteria. Reporting a past assignment requires grounds for what the authority decided, including its scope. A commissioned profile explains how its criteria distinguish the intended decisions and what grounds justify the claims of ordering or coverage it makes. The target claim and receiving use determine which formal, empirical or constructive support is required.
 - **CC-B3.3.4 (Bridge scope):** A required bridge MUST cover the differences on which the conclusion depends. It SHALL NOT demand mapping every mechanism term to FPF as the price of a sufficient ordinary judgement.
-- **CC-B3.3.5 (Scope separation):** Design-time and run-time assurance claims MUST retain their distinct subjects, evidence and conditions. A design result alone SHALL NOT establish that the corresponding Work performed successfully.
+- **CC-B3.3.5 (Scope of support):** Design and performance claims MUST retain their subjects, evidence and conditions. An assurance conclusion transferred from a whole to a constituent, from constituents to a whole or from a design to an execution states what warrants that inference under the receiving conditions.
 - **CC-B3.3.6 (CT2R-LOG grounding):** When B.3.5's profile is elected, the structural and collection branches MUST retain their distinct current construction traces and declared modes. A level assignment SHALL NOT replace the required grounding or impose the profile on unrelated claims.
 - **CC-B3.3.7 (Downward-only dependence):** Assurance publications or records SHALL NOT impose vocabulary or layout back onto the Working-Model surface.
 
@@ -47226,7 +47272,7 @@ B.3 supplies this claim-and-use structure and its source account. [ISO/IEC/IEEE 
 
 ### B.3.4:1 - Problem Frame
 
-**Use this when.** An earlier result is being relied on now, and a changed condition or a due review may change whether it still supports the receiving claim. Begin with the relied-on use and the premise that may have changed.
+**Use this when.** Decide whether earlier evidence can still support a named use, or design the way a recipient will notice and act on a consequential change. Start with the claim, the use and when the decision must be made. For a question about past reliance, distinguish the conditions that held then from what the decision maker could know at the time.
 
 A bridge's earlier assessment may remain applicable to its unchanged bounded use, while a new traffic load defeats that assessment before its scheduled review. A library result can remain applicable to unchanged dependencies yet fail to address a newly discovered relevant vulnerability. The age of either report does not distinguish these cases.
 
@@ -47259,6 +47305,8 @@ Identify the earlier result being used and the relevant conditions: for example,
 
 Use time-based review when a deterioration model or review policy warrants it. Use event-, dependency- or condition-based reconsideration when those define applicability. A newly discovered failure mode may reopen a result before a review date. A calendar reminder may instead find that the result remains applicable without a new experiment.
 
+To design reconsideration, work back from the decision that could become unsound. Keep a component and its inspection result fixed and change the way the assembly uses it. If the earlier conclusion can now fail, identify an observable change in the assembly, its use or the support on which the argument relies. Choose who can detect it, how soon it must be detected and what the recipient can do by that time. When a condition can change between inspections, use a warranted bound on that change, a timely event signal or a suitably restricted use. A dated observation of the whole can settle a decision confined to its state on that date.
+
 Keep three judgements distinct: whether the earlier evidence applies, whether it is sufficient for the present claim, and whether the proposed action satisfies its conditions. Currentness alone answers neither sufficiency nor permission.
 
 #### B.3.4:4.2 - State what each date bounds
@@ -47267,13 +47315,15 @@ A `valid_until: ISO-8601-date | null` field is used only when the receiving clai
 
 An absent or `null` date means that this field supplies no calendar boundary. It asserts neither perpetual validity nor invalidity and creates no mandatory justification for a missing date. Applicable event or condition limits govern the use.
 
+For a retrospective question, locate the change and the time it was discovered separately. A later inspection may show that the condition had already changed by a given date while leaving its first change time open. It can settle a question about the earlier state if that bound suffices. To establish what supported a decision at the time, identify the information then available and, where actual reliance is claimed, what the decision maker used.
+
 Where a required review period applies, follow it until it is changed by someone with the necessary authority. Evaluate its protective purpose, threshold basis and displaced cost separately when deciding whether to propose that change. Questioning the policy is not permission to ignore it.
 
 #### B.3.4:4.3 - Treat epistemic debt as an optional planning indicator
 
 A team may call its outstanding evidence-review or maintenance obligations **epistemic debt (ED)**. If it needs a number, define the counted entities, dependency treatment, scale and applicable unit, policy purpose, and meaning of any action threshold. An `epistemic_debt_budget` is then a planning-policy limit, not a universal allowance of harm.
 
-For example, a team may count overdue review obligations to plan assessor capacity. Ten duplicate paths to one obligation do not create ten obligations. Separate obligations consuming the same source may require different judgements for different uses.
+For example, a team may count overdue review obligations to plan assessor capacity. Ten duplicate paths to one obligation do not create ten obligations. Separate obligations consuming the same source may require different judgements for different uses. For a staffing decision, recover the work remaining, its due windows and the people able to do it. A single inspection may supply both uses. Distinct mandatory inspections sharing an assessor can compete for the same time even when each fits on its own. A count suffices when the question asks only how many obligations are overdue.
 
 Elapsed days can contribute to a justified priority rule or deterioration model. B.3.4 supplies no default rate, sum or automatic level downgrade. A planning count is not a probability of failure, and zero overdue reviews does not establish an adequate assurance case.
 
@@ -47289,13 +47339,13 @@ Determine which continuation the available support and applicable rules permit. 
 | Suspend reliance or deprecate the affected result | The necessary support is absent or defeated and no permitted continuation carries the requested use. | Remove or qualify that reliance and communicate the affected reach. A status downgrade does not accept the underlying harm. |
 | Apply an authorized exception | An applicable rule permits a bounded exception and a competent authority can grant it for this case. | Follow the mandate, scope, conditions and accountability. A senior title alone grants no authority over affected risk bearers. |
 
-C.11 and C.19.2 supply the choice of worthwhile additional evidence. Rechecking available configuration or premise information need not be a new experiment. A possible experiment is not a Work commitment. If the desired check is unavailable, retain any independently warranted bounded action or limitation; do not fabricate an observation.
+C.11 and C.19.2 support the choice of worthwhile additional evidence. An existing result may already establish the required condition for this use. A design commission can finish with the justified trigger, observation and response. A separately required inspection calls for the agreed work or evidence that the required inspection has taken place. If it cannot be performed in time, identify the unfulfilled requirement and any warranted action still available.
 
 For an immediate unchanged use, stop with its usable result. When a later receiver needs a warning, limitation or retained reason to avoid unsupported reliance, keep that minimum content with the existing result or publication. A separate `DeprecationNotice` is useful when something is deprecated, not as proof that refresh was skipped.
 
 #### B.3.4:4.5 - Follow affected dependencies and preserve expiry
 
-Trace a changed premise to the claims and uses that depend on it. Reopen those conclusions under their applicable evidence model. Shared paths do not multiply evidence or risk, and an unaffected use does not inherit a global downgrade from the carrier's age.
+Trace a changed premise to the conclusions whose argument uses it. Identify the subject, operating conditions and time each such conclusion covers. A lost premise can defeat one argument while another sufficient argument remains available. A shared premise can undermine several apparently independent judgements. Where the recipient needs them together, reconsider their fit for the same use, including a possible loss of compatibility while each separate result still holds. Reuse the branches whose grounds remain adequate.
 
 Keep physical and institutional conditions intact. Expired calibration qualification, an unavailable configuration, ended resource support or an elapsed rights window can block the corresponding use even when the old report remains an accurate record of an earlier state. A justified deterioration model can make elapsed time material; cite that model rather than inferring universal decay.
 
@@ -47305,11 +47355,13 @@ A dashboard should distinguish a review due, a defeated premise and a restricted
 
 **Bridge.** An earlier structural assessment supports a specified load envelope, conditional on its stated condition and inspection regime. For an unchanged limited use, available load and condition information and satisfied required inspections can preserve that support. The assessment's age alone adds no repeat assessment.
 
-In the paired case, proposed traffic exceeds the envelope: the earlier report does not support that use, however recent its cover date. Obtain the assessment or restriction needed for the changed load before relying on the stronger claim.
+In the paired case, proposed traffic exceeds the assessed envelope. The earlier report alone leaves support for that traffic open. Check for another applicable assessment or a sufficient bound. If none decides the question, restrict the supported use or obtain the assessment the proposed load requires. Evidence that a proposed load is unsafe can settle a refusal.
 
 Suppose the available inspection team can either inspect a suspected load-bearing defect or repeat an adequate check whose relevant conditions remain established. Examine the protected harm and the basis of the inspection requirement, what each result could change, and the cost of delay. Where the defect inspection can prevent that harm and the repeat adds no useful information, preserve the inspection capacity.
 
 If a binding repeat requirement prevents that choice, seek an authorized amendment; the resource conflict does not itself remove the requirement.
+
+A commission to set the review policy starts a step earlier. Identify which changes in load, structural condition or inspection access could affect each promised use. A change reported after a crossing may help reconstruct that crossing. A policy intended to prevent an unsupported crossing must give the responsible person enough warning and a feasible response before entry. An existing load limit enforced at entry may already handle excess traffic. A change in structural condition can require a different signal.
 
 **Library.** The verified property of an unchanged library in its qualified configuration remains supported when the relevant assumptions and dependencies still hold. A new vulnerability affecting a dependency used by the security claim reopens that claim even before a review date. An unrelated vulnerability does not. Preserve unaffected functional results and any independently supported restricted service while addressing the security limitation.
 
@@ -47319,7 +47371,7 @@ A release recipient who would otherwise assume the affected security property ne
 
 - **CC-ED.1 (Use-qualified currentness):** A currentness conclusion MUST identify the relied-on claim/use and the conditions or temporal boundary that change it. A carrier's age or absent date SHALL NOT alone establish loss of support.
 - **CC-ED.2 (Interpreted planning measure):** A numerical ED or debt budget MUST define its counted entities, dependency treatment, scale, applicable unit, purpose and the meaning of any action threshold. No project has a default obligation to adopt one.
-- **CC-ED.3 (Affected reach):** Reconsideration MUST follow the support dependencies. Any aggregation MUST use an applicable interpreted model and avoid counting duplicate paths as additional evidence or risk.
+- **CC-ED.3 (Affected reach):** Reconsideration MUST follow the support dependencies relevant to the requested conclusion. Account for retained alternatives, shared premises or joint conditions where they can change the result. A commissioned policy links the relevant changes to observations and responses available in time for its promised uses. Use an interpreted model for any aggregate.
 - **CC-ED.4 (Qualified disposition):** A trigger MUST be interpreted for the receiving use; it SHALL NOT automatically downgrade a level or require Refresh/Deprecate/Waive. Preserve a sufficient current result without a separate renewal or no-refresh certificate. Preserve qualification, rights and resource-use expiry.
 - **CC-ED.5 (Exception authority):** A waiver, when used, MUST have the authority and scope allowed by the applicable rule, a rationale, affected risk bearers and accountability, and its ending or reconsideration condition. Keep the auditable exception with the decision that uses it; a title or lowered assurance status does not confer risk-acceptance authority.
 
@@ -47362,9 +47414,9 @@ A validated domain deterioration model or an applicable review rule can justify 
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use B.3.5 when a human-facing structural relation or a collection's own belongs-to relation has been selected for an additional assurance account without exposing constructive machinery as the public vocabulary.
+**At a glance.** B.3.5 helps an author connect a readable relation claim to the grounds a recipient must be able to inspect. Its elected profile covers structural parthood, collection belonging and other permitted claims such as the use of a lemma in a proof.
 
-**Use this when.** Use this assurance profile only when a publication choice or named requirement elects it for a relation claim. State the readable relation first. After election, structural parthood and collection belonging follow separate trace and `validationMode` obligations. The trace reports the relation facts and their grounds for inspection.
+**Use this when.** Start from what the reader needs to decide or explain about the relation. If the relation has been supplied, establish its participants, meaning and grounds for that use. If you must design the account, choose the relations that can distinguish the required answers. A publication choice or named requirement can elect CT2R-LOG for specified claims. Those claims then carry the grounding and `validationMode` required by their branch.
 
 **What goes wrong if missed.** The readable relation and its assurance account collapse: authors either lose usable relation sentences, treat collection belonging as parthood, prohibit separately grounded parthood by label, or make a trace look like the cause of the claim.
 
@@ -47410,6 +47462,10 @@ Working-Model relations such as **ComponentOf** and an ordinary belongs-to sente
 
 The Working-Model and Assurance layers name E.14's presentation order: the claim first, its needed support accessible underneath. When two models are being compared for abstraction or refinement, use B.5.MR's comparison of their admitted answers.
 
+To choose the relations, ask which changes could leave your statement true while altering the reader’s decision. Holding an item’s registration fixed, it can move from a warehouse into an assembly. Holding the assembly fixed, responsibility for maintaining it can pass to another operator. Follow the part relations of the system, the constituent operations of a Method or the parts of performed Work as far as their arrangement affects the requested answer. Establish links between these accounts by the facts they assert, such as who performed the installation and which installed equipment the record describes. A direct fact about one relation can already settle a request confined to that relation.
+
+Choose the distinctions to publish from the same question. Can the reader reach the required decision, with its grounds, in all the arrangements the model describes alike? Keep a missing distinction in the statement or in a grounding account accessible when it is needed. If the commissioned conclusion uses several assertions together, establish their compatibility for the items, times and uses it covers.
+
 CT2R-LOG distinguishes an optional link between relation designations from the grounding link and validation flag required for each covered assertion:
 
 1. **Alias link (lexical).**
@@ -47437,7 +47493,9 @@ The applicable branch above selects the allowed modes and grounding targets. The
 
 #### B.3.5:4.1 - Inspect correspondence to a target kind or logical representation
 
-When a constructive trace, working-model relation, and target kind or logical representation must be inspected together across contexts, explain their correspondence and what structure is preserved or lost. The block below is an optional way to record that account. Use `A.22.CGUS` for a remaining question about potential continuations and their conditions.
+When a constructive trace, Working-Model relation and target kind or logical representation must be used together, state the question and the direction of the inference. Consider the permitted source arrangements that a target description can represent. If it describes two different arrangements alike, see whether that difference could change the required answer. A dated entry certifying the installation of a pump of an approved class can establish that class for the installation. If it omits the unit identifier, several individual pumps may still fit the entry. For a claim about that unit, find its binding to the installation or give the narrower conclusion. A difference lost in the mapping can be immaterial to another question. An argument covering the relevant arrangements settles whether the inference holds.
+
+The optional block records the correspondence and its limits. Use `A.22.CGUS` for a remaining question about potential continuations and their conditions.
 
 ```text
 StructuralCT2RTypingGroundingUnfoldingStructureBlock:
@@ -47509,7 +47567,7 @@ Suppose a later inventory glossary widens that phrase to include uninstalled spa
 * **Constructive grounding (Γₘ).**
   In the background, the published assertion links to `:trace_Γₘ_sum_456`, a C.2.1 episteme that names the pump and skid, the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain, the applicable skid assembly rule, and the skid reidentification rule. An auditor replays that account to inspect the assertion's basis.
 
-  The same listed parts under a different assembly can form another whole, while a permitted pump replacement can preserve Skid12; the relations and reidentification rule, not the trace or input list, decide.
+  The same listed parts under a different assembly can form another whole, while a permitted pump replacement can preserve Skid12; the relations and reidentification rule, not the trace or input list, decide. If both installed equipment and its next service are in question, identify the service obligation separately. Two configurations with the same installed pump can require different service under their operating conditions or agreements. Select the additional relation on which the service decision depends. The pump-to-skid assertion alone can finish a request confined to installation.
 
 * **Assurance stance & R-lane.**
 Because the assertion is linked to the construction account required by its elected branch, authors set `tv:validationMode=axiomatic`. The account makes the relation's basis inspectable. B.3.3 considers the grounding and its currentness for the receiving claim and use.
@@ -47519,13 +47577,13 @@ When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`
 
 Result: **one** visible relation for engineers, a grounding reference and a validation-mode declaration for reviewers.
 
-**Collection case — Fleet North.** First publish the ordinary sentence: “Vehicle 12 belongs to Fleet North under its registration rule.” Under that rule, the occurrence begins when Fleet North accepts the vehicle's registration, ends on withdrawal or transfer, and a later accepted registration begins another occurrence. If no publication choice or requirement elects this profile, the sentence is sufficient and the author stops.
+**Collection case — Fleet North.** Consider a reader asking whether Vehicle 12 belongs to Fleet North. Under this fleet’s rule, the occurrence begins when the fleet accepts the vehicle’s registration, ends on withdrawal or transfer, and a later accepted registration begins another occurrence. State the membership supported for the date in question. This can finish the membership inquiry when no profile or further evidence has been requested.
 
 Here the fleet publication elects the profile. It links the assertion to one current C.13 `Γ_m.set` trace that names Fleet North and its identity rule, Vehicle 12, the obtaining registration occurrence, the registration rule, and its ending and recurrence conditions; it declares `validationMode=axiomatic`.
 
-If a vehicle enters or leaves the fleet, or the rule changes, the earlier trace remains an account of its earlier state but is not current support for the later assertion. The register and trace report this registration history. Any separately claimed ComponentOf relation needs its own grounds.
+An authoritative roster can establish membership on a given date when its meaning and coverage are known. To reconstruct membership from events, consider later accepted registrations as well as withdrawals and transfers. A question about the continuity of the original registration depends on its own ending conditions. A change involving another vehicle may affect a complete roster while leaving the grounds for Vehicle 12 sufficient. A replacement rule can preserve Vehicle 12’s eligibility or change it. If the use needs the full current roster, establish coverage of entries and exits under that rule. The elected trace must be current for the assertion it grounds. Preserve the earlier trace for the earlier state and establish any separately claimed component relation under its own rule.
 
-**Epistemic constituent case.** A proof of “the product of consecutive integers is even” uses the lemma “one of the two integers is even.” Inspection of that proof establishes `Lemma A ConstituentOf Proof P`. With no elected B.3.5 profile, the relation can be stated. A recipient may require access to the proof under its own evidence requirement.
+**Epistemic constituent case.** In this proof, one of two consecutive integers is even, so their product contains a factor of two and is even. The premise about the even integer occurs in the inference to the conclusion. Inspection of this derivation establishes that the premise is a constituent of the argument. A reference to a separate proof of that premise establishes that the writer cited the proof. To identify the separate proof as a subargument, establish where its reasoning enters this derivation. With no elected B.3.5 profile, state the relation that holds. The recipient may still require access to the proof.
 
 If that recipient elects B.3.5 and the basis is the followable argument, link the assertion through `tv:groundedBy` to that argument and choose `inferential`. If a qualifying C.13 account instead explains the proof's independently established constituent relations and assembly, it can supply an `axiomatic` basis.
 
@@ -47533,9 +47591,9 @@ A later proof that omits the lemma requires a content-part judgement; the earlie
 
 ### B.3.5:7 - Author Standard (at a glance)
 
-When you add or import a relation edge:
+Begin with what the recipient must learn from the relation account.
 
-1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting general mereological axioms. If no publication choice or requirement elects CT2R-LOG, publish that claim and stop.
+1. **State or choose the relation.** Work from the question to the relevant participants, their relation and its conditions. Say, for example, “Impeller ComponentOf Pump” for an assembly claim, or “Vehicle 12 belongs to Fleet North under its registration rule” for an enrolment claim. Establish the asserted relation under its defining rule. For a broader conclusion, explain how the required assertions combine. When the supported readable claim completes the commission and the profile has not been elected, publish it directly.
 
 2. **When CT2R-LOG is elected, attach `tv:groundedBy`**:
 
@@ -47636,8 +47694,8 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 
 #### B.3.5:9.4 - Author’s working moves
 
-**M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
-**M‑2.** If a publication choice or named requirement elects this profile, pick `validationMode`; otherwise keep the relation claim and stop:
+**M‑1.** Identify the decision and state the relation it needs in Working-Model form. If the choice is yours, vary how the participant belongs to a collection, fits an assembly or contributes to an action as relevant. Select the relation whose difference changes the answer. Where the decision depends on several relations, follow them back to that decision.
+**M‑2.** Establish which covered assertions require this profile under the publication choice or requirement. For each of those assertions, select the grounding branch and its `validationMode`. Use an adequate readable claim directly where no profile is elected.
 
 * For a permitted exploratory claim, choose **postulate**, link its empirical support, and state scope plus challenge cues.
 * For a permitted conclusion from known statements, choose **inferential** and link the followable argument.
@@ -47646,8 +47704,8 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 * For another permitted epistemic or constitutive claim whose chosen basis is a qualifying C.13 account, choose **axiomatic** and link that account.
 
 **M‑3.** When an alternative designation helps readers, link that designation through `tv:AliasOf` to the accepted Tech designation of the same relation. State its local use and cite the definition; apply :5 when the meaning or participant order differs.
-**M‑4.** If assembly uses two parallel lines, state the Method/Work and temporal facts. Add any independently obtaining part relation under its own rule; parallelism alone does not establish it.
-**M‑5.** Stop when the selected readable relation and any relevant use limits are clear and, if this profile is elected, its validation mode and required current support are recoverable.
+**M‑4.** When the arrangement of work affects the claim, distinguish the operations prescribed by the Method from the performances that made up the actual job. If assembly used two parallel lines, establish how their work contributed to the assembly and which relations obtain between the assembled parts when the decision needs them.
+**M‑5.** Return what the readable claim and any elected grounding establish for the recipient. A joint conclusion has grounds for the connections it needs. Keep an unsupported part open and state the narrower result the available grounds support.
 
 ### B.3.5:10 - Bias-Annotation
 
@@ -47671,17 +47729,17 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 | **CC‑CT2R‑4 (No parthood from order/time alone).** | Authors **SHALL NOT** infer parthood from sequence, parallelism or temporal slicing alone. Any Work-part or proper-phase claim satisfies A.15.1 or A.14 independently; Method order and temporal relations use their patterns. | Preserve distinct relation meanings while allowing independently established temporal parts. |
 | **CC‑CT2R‑5 (Collection vs part).** | Authors keep collection belonging under the collection's own rule distinct from every `PartOf` branch. A claim needs no profile fields; after B.3.5 election it uses `validationMode=axiomatic` and one current `C.13 set` trace. If constructive parthood also obtains, state and support that claim separately. | Prevent category errors without taxing ordinary belongs-to prose or prohibiting a stronger independently grounded claim. |
 | **CC‑CT2R‑5a (Set trace reports).** | The elected set trace names the collection, the entity said to belong, the already established occurrence, the collection's own belongs-to rule, and the identity conditions. The set trace supplies no structural-composition reliability. | Keeps optional assurance from becoming ontology. |
-| **CC‑CT2R‑6 (Mapping fit).** | Where a claim relies on a mapping or alignment, the author **SHALL** state its applicability, preserved/lost distinctions and consequence for this claim. Any quantitative reliability adjustment needs a justified receiving model, compatible Scale and calculation; a CL label alone supplies none. | Keep integration limits inspectable without invented reliability arithmetic. |
+| **CC‑CT2R‑6 (Mapping fit).** | Where a claim relies on a mapping or alignment, state its applicability and what follows in the direction used. Establish that distinctions lost in the mapping leave the receiving conclusion warranted, or recover the missing information. Any numerical adjustment requires a justified receiving model, compatible scale and calculation. | Make the reach of the inference inspectable. |
 | **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
 | **CC‑CT2R‑8 (Layer direction).**                | Present the readable Working-Model claim before its needed Mapping, Logical, Constructive or Empirical support. Authors **SHALL NOT** let assurance notation or record structure dictate the public vocabulary. If support defeats or narrows the claim, revise the claim under its defining pattern and expose the change.                                                  | Preserve unidirectional dependence of layers.                             |
-| **CC‑CT2R‑9 (Claim and scope).** | Authors **SHALL** state the assurance claim and its applicable scope. Design and run claims retain their distinct subjects, evidence and conditions. | Prevent unsupported transfer between design and performed Work while retaining relevant evidence contributions. |
+| **CC‑CT2R‑9 (Claim and scope).** | State the relation claim and the use it serves. For an elected assurance profile, authors **SHALL** state the assurance claim and its scope. When tasked with choosing the relations, explain which distinctions the recipient needs and how the selected claims support the requested conclusion together. Identify the distinct subjects, evidence and conditions of any design and run claims used. | Connect the grounding of each assertion to the recipient’s use. |
 
 ### B.3.5:12 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Trace as relation or truth-maker | A `Gamma_m` trace is treated as the public relation or the source of whole identity, or its presence or notation is treated as proof that the relation obtains. | Keep the Working-Model relation canonical; recover the relation facts and reidentification rule independently; attach the trace only as their inspectable C.2.1 account. |
-| Unchecked relation label or mode | A familiar relation label or `axiomatic` flag is published as though either settled relation obtaining or identity. | State and test the relation first. When B.3.5 is elected, add the branch-specific mode and support account. Stop when a fact required by the relation's defining pattern is missing. |
+| Unchecked relation label or mode | A familiar label or an `axiomatic` flag is published as sufficient grounds for a relation or identity. | Establish the relation under its defining rule. When the profile is elected, add the required support and mode. Identify any missing fact and give the conclusion that the available grounds warrant for the receiving use. |
 | Order/time leakage | Sequence, phase labels or parallel timing are treated as sufficient evidence of parthood. | Recover each relation separately: A.15.1 for Work parts, A.14 for a proper phase of an unchanged non-Work carrier, and B.1.4 for aggregation of recovered order or temporal relations. |
 | Assurance by notation | A diagram, graph display, or data format is treated as if it made the relation true. | Use the display to present the relation claim and establish its grounds under the relation rule. When this profile is elected, state its grounding relation and validation mode. |
 
@@ -47771,17 +47829,17 @@ Reconsider the affected assertion when its member, rule, trace, or evidence chan
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this when.** Use this pattern when repeated adaptation needs a connection between a subject's use, observations about it, a proposed or actual change, and renewed use. Identify the subject and its continuity question: a System, episteme, Method, MethodDescription, or sequence of distinct Work occurrences. Describe the activity and results needed for that connection; use the dated Work branch in B.4:4.2 when the receiving claim needs `U.Work` occurrences.
+**Use this when.** A recipient needs to decide how a subject should respond to repeated use or changing conditions, or to establish how it actually responded. What may they keep, change or rely on, for whom and over what period? Use the loop to design feedback, assess an existing arrangement or explain its history. Follow the subject and the relations on which that answer depends. Use B.4:4.2 for claims about particular dated Work.
 
 **What goes wrong if missed.** Teams treat drift, learning, release, and improvement as unrelated events. Specifications become stale, findings lose the evidence needed for their use, and changes appear without a clear basis or treatment of the subject's continuity. When particular Work is asserted, its performer and admission grounds can also be missing. At the opposite extreme, one generic loop is imposed on every subject: a description edit is called a Method change, completed Work is said to be revised, or an internal adaptation is rejected because its acting System is not external.
 
-**What this buys.** An adaptation account whose identity rule comes from the subject pattern. It connects the observed basis, change and use while keeping the activities, evidence, publication, acceptance and responsibility claims distinct.
+**What this buys.** The recipient can tell whether to keep the current arrangement, what would warrant a different response, or what changed in use. A proposed way to make those decisions can be assessed before anyone operates it. Subject-specific identity, evidence, authority and publication have their own grounds.
 
-**Not this pattern when.** Not this pattern when one subject-pattern claim answers the change question without a repeated adaptation cycle. Use the relation pattern for relation grounding, adding `B.3.5` when its working-model assurance profile is required. Use `B.4.1` to publish candidate routes from a stabilized cue, `B.5.2` for abductive hypothesis work, `C.27` for temporal status, or `A.15` for method/work alignment without an adaptation-loop claim.
+**Not this pattern when.** Use the subject pattern directly when one subject-pattern claim answers the change question without a repeated adaptation cycle. Use the relation pattern for relation grounding, adding `B.3.5` when its working-model assurance profile is required. Use `B.4.1` to publish candidate routes from a stabilized cue, `B.5.2` for abductive hypothesis work, `C.27` for temporal status, or `A.15` for method/work alignment without an adaptation-loop claim.
 
 ### B.4:1 - **Problem Frame**
 
-The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. The useful commonality is a repeated move from use through an observed basis and an explicit change back to use. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. Use the subject pattern to settle that distinction or retain the open continuity question while coordinating the next needed contribution.
+The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. Feedback matters when what is learned in one use can affect a later decision. The decision may retain the existing arrangement, change it or end a use. A rule can specify that response before the occasions it governs. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. Use the subject pattern to settle that distinction or retain the open continuity question while coordinating the next needed contribution.
 
 ### B.4:2 - **Problem**
 
@@ -47801,9 +47859,11 @@ When use, observation, and change are disconnected, three failures can follow:
 
 ### B.4:4 - **Solution**
 
-Use the **Canonical Evolution Loop** to connect the parts of repeated adaptation needed by the question. Recover the subject and its continuity rule, then identify the activities, results and dependencies. Keep proposed steps distinct from phases that occurred; use B.4:4.2 when a claim needs dated Work.
+Begin with the recipient’s work. Which decision has to be made now or on later occasions? Is the requested result a recommendation, a rule for future decisions, evidence of what happened, or a change put into use? Keep any separately promised observation, trial, publication or deployment in the assignment. A question about what is already known can finish with an existing result. When you are to design the feedback, start from the actual commission before consulting the examples. Identify the choices supplied by the recipient and make the remaining choices yourself.
 
-Start from the available observations and results. If they answer the receiving question, return that result without requiring another phase. Keep the subject and use when those grounds support doing so. If a needed premise remains unresolved, state that limit and the contribution still needed. Develop a change or gather further evidence when the remaining decision requires it, reusing adequate results whose conditions still hold.
+Work back from what the recipient will do with the answer. When the scope or model is yours to choose, ask what difference in the subject could change the action or the ground the recipient needs. Whose use is affected? Hold one component’s behavior fixed and vary where, when or alongside what else it is used. Would the decision about the whole change? Hold an overall reading fixed and vary how it arises across parts or occasions. Would a different participant have to act, or would the stated reason cease to hold? Follow the relevant links in each direction until the decision and its grounds are preserved. A rule about each part, dependence of one use on another and an outcome of their combination can require different evidence. A direct ground about the whole can settle the question without reconstructing its parts.
+
+Choose what the model must distinguish at each needed scale. A service limit may suffice for an overall commitment, while deciding which caller to notify can require retaining a caller’s identity and deadline. To carry a finding from a coarser model to the operating situation, check that its admitted combinations include the relevant operating cases and that its outcome preserves the quantity or decision being bounded. A bound valid on the larger set then holds for those operating cases. A failure found only in an impossible combination cannot defeat the operating promise. Where separate descriptions lose a shared constraint, recover that constraint or use an adequate bound on the whole. A person or controller acts on a system, Work enacts a Method, and a description represents a Method. Establish the relevant connection before treating the result of one as a result for another. When different admissible situations give the same answer on sufficient grounds, use that answer. When they would require different responses, identify what the decision maker could distinguish in time, or give the supported conditional answer.
 
 #### B.4:4.1 - Name the subject and continuity question
 
@@ -47815,7 +47875,7 @@ Start from the available observations and results. If they answer the receiving 
 | **MethodDescription** | Identify each claim-bearing episteme under `A.3.2` and `C.2.1`, and any obtaining edition relation. A later description does not by itself change the Method it describes. |
 | **Work** | Identify each dated occurrence under `A.15.1`. Completed Work is not revised: later review, repair, deployment, or follow-up is other Work, even when the occurrences belong to one longer effort. |
 
-Not every holon is an adaptation-loop subject, and the five branches are not interchangeable. If the continuity or successor relation is open, state that question rather than hiding it behind the word *evolution*.
+Use the branch for each subject whose identity bears on the decision. To design a change, say what must continue and under which rule a later state or successor could be recognized. To report continuity or succession that actually occurred, apply that rule to the relevant subjects and times. Not every holon is an adaptation-loop subject, and the five branches are not interchangeable. A remaining identity question may be reported explicitly.
 
 #### B.4:4.2 - Separate the changed subject from the acting side
 
@@ -47829,50 +47889,54 @@ State authority, responsibility, permission, acceptance, or admission through it
 
 #### B.4:4.3 - Keep the four phase claims distinct
 
-These phases distinguish questions and results, not necessarily disjoint clock intervals. Operation and observation can overlap. Identify the activities and result dependencies needed for the transition; qualify particular Work claims under B.4:4.2.
+For a proposed feedback rule, work from the last time an authorized response could still affect the recipient’s result. Choose what can be observed by then, who can use it and which responses remain feasible, including retaining the current way. At an irreversible choice under a guarantee, the same information must allow a choice that meets the promise in all the cases still possible, with any later decisions based on information then available. If no such choice exists, identify the missing timely distinction or the limit of the promise. For a joint result, check that their respective responses can be carried out together with the shared resources and information actually available. For a recommendation, give its grounds to the person who may decide. To explain an actual adaptation, trace which observation or instruction was available and used, which response was chosen, and what that response changed wherever the conclusion depends on it. For a claim that the subject changed, compare the relevant property or relation before and after on a common basis. A new indicator, description or recording practice can change the account while the subject stays the same. Attributing an actual difference to the response also requires grounds for what would have happened otherwise. A new run cannot by itself recover a lost fact about an earlier one.
+
+The four phases distinguish questions and results. Operation and observation can overlap. Identify the activities and dependencies needed for the transitions in question. Qualify particular Work claims under B.4:4.2.
 
 | Phase | Question | Output and boundary |
 | :--- | :--- | :--- |
-| **1. Operate** | How is the current subject operating or being used? | Name the current use or operation and any records that exist. Monitoring may occur, but a record does not establish an observation, comparison, or change. |
+| **1. Operate** | How is the subject used, and under what conditions? | Identify the relevant use. A record of a reading, comparison or intervention can establish the recorded fact when its source, meaning and coverage support that conclusion. |
 | **2. Observe** | What do records, measurements, testimony, or other evidence show for the use? | Identify the observation, comparison or interpretation and who carried it out when that matters. State the observed basis, finding, hypothesis or unclear cue under the result or evidence rule, including what remains unresolved. A sufficient observation result can finish the question before a change is selected. |
-| **3. Refine** | What change, if any, does the receiving use need, and what identity relation would it have? | Develop or select a candidate change when needed. Establish the grounds required for its intended use, reusing applicable results and performing any needed revision or tests. State a continuity, successor, substitution, refinement or edition relation only when its endpoints exist and its conditions obtain; otherwise retain the identity question or intended treatment. A selected candidate does not establish availability for renewed use. |
+| **3. Refine** | What change, if any, does the receiving use need, and what identity relation would it have? | Retain the current way when its grounds suffice. Develop or select an alternative when the receiving decision calls for one. Establish the grounds required for its intended use, reusing applicable results and performing any needed revision or tests. State a continuity, successor, substitution, refinement or edition relation only when its endpoints exist and its conditions obtain; otherwise retain the identity question or intended treatment. A selected candidate does not establish availability for renewed use. |
 | **4. Deploy** | How was the selected change made available for use? | Identify the deployment activity and what it established—for example, a changed or produced entity, publication, configuration, release or availability—under the rule for that fact. Acceptance, admission and later use remain separate claims. |
 
-State transition conditions:
+Use the following conditions for the transitions on which the answer relies. In a design, describe what would allow each transition. In a history, establish which occurred.
 
 1. **Operate -> Observe:** a named cue, question, monitoring result, or review need requires interpretation.
-2. **Observe -> Refine:** the remaining question requires considering a change, and an observed basis or routed cue supports forming that change question.
+2. **Observe -> Refine:** a finding or routed cue changes which responses merit consideration. A new commitment or an applicable model can also warrant considering a change before any new use has occurred. Identify the basis that applies.
 3. **Refine -> Deploy:** one candidate is selected, the conditions required for that deployment are met, and its subject-specific identity question or intended treatment is explicit. State an obtaining continuity, successor, substitution, refinement, or edition relation here only when both endpoints exist; otherwise keep the question open until the change or production has occurred.
 4. **Deploy -> Operate:** renewed operation or use begins; availability does not close this transition.
 
 Evidence is not a fifth phase. Evidence relations warrant the observed basis, candidate choice, transition, or renewed-use claim when a receiver relies on them. Evidence can be produced or used during several phases without duplicating those phases.
 
+When asked whether something is stable, establish what the recipient needs it to preserve or return to, over which times and permitted changes. For example, a service manager asks whether to keep an existing rule that limits deviation from a target at every review. Let $e_k$ be the deviation at review $k$. Suppose the operating conditions, available observations and feasible responses of that rule give $|e_{k+1}| \le q|e_k|+d$ for every permitted update, with $0 \le q < 1$ and $d \ge 0$. If $|e_0| \le L$ and $qL+d \le L$, the next review stays within $L$ whenever the current one does. Induction gives the requested guarantee at every review and can justify keeping the rule. Convergence to the target is a stronger question. For $d=0$ the same bound gives convergence. With persistent disturbances it can permit continued deviation. To promise a limit between reviews, establish what can happen within each interval. To say how the service actually ran, use grounds tied to its operation.
+
 #### B.4:4.4 - Connect neighbouring cycles without collapsing them
 
 The Canonical Reasoning Cycle (`B.5`) can supply reasoning Work within Observe and Refine. The B.5.1 development states and B.4 phases coordinate, but they are not a one-to-one implementation: a finding may reopen Exploration or Shaping, evidence use can support Evidence, and renewed use can enter or return to Operation.
 
-When a preserve-worthy cue needs publication while its interpretation remains open, `A.16.1` supplies a `PreArticulationCuePack`. Use `B.4.1` after stabilization when a recipient needs possible continuations or a route choice made explicit. Its routed result can return to Refine or enter another subject pattern when that pattern's entry conditions hold.
+When a preserve-worthy cue needs publication while its interpretation remains open, `A.16.1` supplies a `PreArticulationCuePack`. Use `B.4.1` after stabilization when the recipient needs a publication of possible continuations or of a route choice. An operator can use an adequately grounded next action directly. If communicating a recommendation was promised, check what the intended recipient must receive. Its routed result can return to Refine or enter another subject pattern when that pattern's entry conditions hold.
 
-Keep the account proportional. A local answer can identify the current subject, observed basis, what occurred, the supported identity conclusion or open question, and the next use or contribution still needed. A sufficient answer need not complete another phase. Expand to a complete cycle trace when a relying decision, assurance case, audit or later replay needs it; retain missing phases as missing.
+Keep the answer proportional to its use. A designer can complete a proposed rule once it gives justified responses in the situations the recipient specified. An assessment may establish suitability, establish a failure, or identify exactly what the available evidence leaves open. One reliable observation may settle a question about an occurrence. Supply a full cycle trace when it was commissioned or a relying decision, assurance case, audit or replay needs it. Retain missing phases as missing.
 
 > **Didactic Note: four practical questions**
 >
 > 1. **Operate:** What subject is operating or being used now?
 > 2. **Observe:** What has use shown, and who made the observation or interpretation when that matters?
-> 3. **Refine:** What change is being considered, and would it continue or replace the subject?
-> 4. **Deploy:** How was the selected change made available, and what separately established fact now supports the next use?
+> 3. **Refine:** What warrants keeping the current way or changing it, and what would continue through a proposed change?
+> 4. **Deploy:** When a change is proposed, what would make it available for use? When reporting actual deployment or subsequent use, what establishes it?
 >
-> The gain is a readable connection from an observed basis to a change and back to use, preserving the subject's identity, the activities and results, and their grounds.
+> Apply the questions that support the requested result. A future feedback rule can be delivered before its first use. An account of past events follows the participants, decisions and uses that actually occurred.
 
 ### B.4:5 - **Archetypal Grounding**
 
 The phase names can be shared, but each subject branch keeps its identity and return-to-use rule.
 
 * **Cue preservation and optional B.4.1 routing:**
-  * **Context:** A fleet of autonomous delivery drones (`U.System`) is in operation, and operators begin to notice that winter deliveries feel "off" before a clean anomaly statement exists.
+  * **Context:** A delivery service operates a fleet of autonomous drones. Operators begin to notice that winter deliveries feel "off" before a clean anomaly statement exists.
   * **Loop Example:**
     1. **Operate:** The drones perform deliveries.
-    2. **Observe:** The monitoring service and operators perform observation Work and find recurring cold-weather battery strain, but the cue has low articulation.
+    2. **Observe:** Operators and the monitoring service identify repeated signs of battery strain in the observed cold-weather deliveries. This gives them a cue to investigate. Its cause and its reach across the service remain open.
     3. **Optional B.4.1 route inside Observe:** A team performs stabilization Work. Under `A.16.1`, a `PreArticulationCuePack` preserves the cue nucleus, primary witness traces, and current language-state position without pretending that a final anomaly or action record exists; when the pack is made available for this use, name the separate publication occurrence under `E.24.PUB`.
 
        The same or another team performs routing Work. Under `B.4.1`, a `RoutedCueSet` keeps multiple continuations visible—for example, battery-chemistry investigation or route-planning adjustment; again, name its publication occurrence under `E.24.PUB` when availability matters.
@@ -47882,7 +47946,7 @@ The phase names can be shared, but each subject branch keeps its identity and re
   * **Context:** A scientific theory of protein folding (`U.Episteme`) is used to predict structures.
   * **Loop Example:**
     1. **Operate:** Researchers perform theory-application Work using the current theory episteme.
-    2. **Observe:** A research lab performs observation Work. An identified `C.2.1` finding episteme states that the current theory fails to predict the structure of a protein class; name any `E.24.PUB` publication occurrence that makes this finding available.
+    2. **Observe:** A lab obtains a finding, identified under `C.2.1`, about a prediction for a member of the claimed class under the stated conditions. A reliable counterexample can defeat a rule asserted for every member. How many members are affected is a further question. Identify the `E.24.PUB` occurrence if availability of this finding is at issue.
     3. **Refine:** A research team performs revision and testing Work. A later theory episteme, identified under `C.2.1` from its changed claim content, includes a term for the new protein class. Assert an edition relation between the two theory epistemes only if that relation obtains.
     4. **Deploy:** The team performs publication Work for the later theory. The publication occurrence, journal acceptance, admission into a configured knowledge base, and later community use are separate relations.
 
@@ -47898,6 +47962,10 @@ The phase names can be shared, but each subject branch keeps its identity and re
     3. **Refine:** Method maintainers perform revision and testing Work. A wording clarification can yield a later MethodDescription while the same Method remains current. Adding an earlier isolation action or changing a classification checkpoint can instead change identity-bearing Method semantics; decide under `A.3.1` whether the result is a refinement, substitute, or distinct successor Method, and use `B.1.5` if its composition changes. Then identify the MethodDescription episteme that describes the chosen Method.
     4. **Deploy:** A publishing team performs publication or release Work for the later MethodDescription and, where needed, configuration or training Work for renewed Method use. Decision results, authority, acceptance, admission, and later Work that enacts the Method remain separate. Completed maintenance Work is never revised.
 
+  **Changing the maintenance question.** The service manager now asks whether to keep a promise of restoration within 30 minutes of each call. A record of one timely restoration settles that incident if the recording and restoration conditions are met. For the promise, consider who may call, when, and which demands can coincide. Suppose two simultaneous calls are permitted, each requires 20 minutes of exclusive work by the same sole qualified person, and the 30-minute clocks start together. Both responses would need at least 40 minutes of that person’s work in the same 30 minutes. More precise readings on either repair cannot rescue the promise. This conclusion concerns the arrangement even if that pair of calls has never occurred.
+
+  Under different terms, at most one call can be outstanding. If the person is available and able to start at once on every such call and can complete all required work within 20 minutes, the standing rule meets the 30-minute limit. It can be retained. If the manager commissions a new dispatch rule, determine what a dispatcher could know before committing a response, which resources they could assign and how the assignment would meet the existing promises in each permitted situation. Whether a new dispatcher actually used the resulting rule, and whether the service improved as a result, are questions for evidence of use and effect.
+
   **Adaptive-specialization note.** When the method-instantiation slice carries a bounded task-family specialization claim, identify the selected specialist Method or portfolio and the grounds for its claimed fit. When the Method update is used as evidence of specialization acquisition, name the holder, dyad, team or scoped portfolio that carries that claim and explain what the Method change contributes. Use the `C.22.1` branch above for the acquisition or reuse question. Retain any budget, escalation or commit checkpoint, and fallback required by the selected plan or use.
 
 ### B.4:6 - **Bias-Annotation**
@@ -47910,19 +47978,19 @@ The phase names can be shared, but each subject branch keeps its identity and re
 
 ### B.4:7 - **Conformance Checklist**
 
-* **CC-B4.1 (Proportional loop integrity):** Connect the observed basis to the change and renewed use where they occurred, or to the sufficient answer or unresolved condition returned by the question. A complete phase-by-phase trace is required only when a relying decision, assurance case, audit or replay needs it. Keep proposed phases distinct from actual events.
-* **CC-B4.2 (Subject identity):** Name the subject kind and apply its continuity rule: System continuity or transformation; episteme predecessor, successor, or edition; Method identity, refinement, substitution, or successor; MethodDescription edition; or separate dated Work occurrences.
+* **CC-B4.1 (Proportional loop integrity):** The result **MUST** answer the receiving question about the specified subjects and uses. For a commissioned design, justify how the chosen observations and timely feasible responses support the required result over the admitted conditions, including any shared constraint. A supplied indicator or rule can be applied as given. When the design itself is owed, give the choices and grounds that make it fit the use. For an assessment, give the supported conclusion and any consequential uncertainty. For a history, connect the observations, decisions, changes and renewed uses actually relied on. Supply any separately commissioned work or trace. An adequate common ground can support the required range without another run.
+* **CC-B4.2 (Subject identity):** Where the answer relies on identity or succession, name the subject kind and apply its continuity rule: System continuity or transformation; episteme predecessor, successor, or edition; Method identity, refinement, substitution, or successor; MethodDescription edition; or separate dated Work occurrences.
 * **CC-B4.3 (Acting-side distinction):** Work that observes or changes a subject **MUST** have an identified performing System distinct from the changed subject in that Work account. Internal adaptation is permitted when `A.12` establishes distinct subsystems or parts and their independently obtaining parthood. Every dated `U.Work` reuses each performer's A.13 core and is independently admitted under A.15.1; F.6 is added afterward only for assignment-bound attribution. Its short B.4 account may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
 * **CC-B4.4 (Adaptive-specialization anchoring):** A bounded task-family specialization claim **MUST** identify its bearer, declared `TaskFamily` or `TaskSignature`, work target, claimed result and grounds. When a `C.22.1` adaptation signature is selected, retain its threshold target, `timeToThreshold`, `budgetToThreshold` and `priorExposureDeclaration`, including a not-reached or unresolved result when the history warrants it.
 * **CC-B4.5 (Adaptive-specialization boundary):** Claimed transfer, retention, post-threshold efficiency, corridor entry and downside **MUST** retain the targets, baselines, windows and evidence required by the claim or receiving comparison. `C.22.1` defines the selected adaptation-signature meanings; `G.5` and `G.9` retain their selector and parity rules when consuming that result.
 * **CC-B4.6 (Phase and transition separation):** Each claimed phase and transition **MUST** retain its question, result and conditions from B.4:4.3. Evidence can be used across phases, and cue preservation or routing can contribute within Observe without requiring another phase.
-* **CC-B4.7 (No success inference):** Deployment or publication establishes neither acceptance nor successful renewed use. Record failure, reopening, fallback, or another iteration when that is what occurred.
+* **CC-B4.7 (No success inference):** Establish acceptance and successful renewed use under their respective conditions when claimed. The same event can support more than one conclusion when it meets each condition. Record failure, reopening, fallback or another iteration when that is what occurred.
 
 ### B.4:8 - **Common Anti-Patterns and How to Avoid Them**
 
 | Anti-pattern | Observable symptom | Repair |
 | :--- | :--- | :--- |
-| **Change without a basis** | A feature or design appears with no observed basis or identity decision. | **CC-B4.1** and **CC-B4.2** connect the change to an observed basis and state whether the subject continues or has a successor. |
+| **Change without a basis** | A feature or design appears without grounds for changing the relevant use. | **CC-B4.1** and **CC-B4.2** connect the proposal or actual change to the relevant observation, commitment or other sufficient ground and to any identity decision the use requires. |
 | **Unidentified internal adaptation** | "The system automatically improves itself" hides who or what performed the activity. | Identify who or what changes which subject. Use **CC-B4.3** for a Work claim. For an internal acting side, recover the distinct participants and their parthood under `A.12`, together with the Work, Method and phase facts the receiving claim consumes; physical externality is not required. |
 | **Incomplete hotfix account** | A quick run-time repair is reported as a complete successful loop, although design repair, evidence, or renewed-use confirmation did not occur. | State only the urgent observation, change activity, deployment and immediate result that occurred. Later description repair, testing, assurance and follow-up operation are subsequent activities and may reopen the loop; qualify any Work occurrences under B.4:4.2. |
 
@@ -47930,7 +47998,7 @@ The phase names can be shared, but each subject branch keeps its identity and re
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
-| **Connects learning to change:** The loop relates an observed basis, a change, and renewed use across repeated adaptations. | **Record overhead:** A full trace is too heavy for many local changes. *Mitigation:* keep the account proportional to the receiver and expand it only for reliance, assurance, audit, or replay. |
+| **Connects learning to a decision:** Feedback can warrant keeping or changing the current way and, when required, explaining its effects in use. | **Record overhead:** Keep the account proportional to the work commissioned and to what the recipient must be able to rely on, audit or replay. |
 | **Exposes design-reality divergence:** Separate phase outputs make stale descriptions, failed deployment, and missing renewed use visible. | **No automatic success:** The loop cannot guarantee reconciliation. Deployment can fail, evidence can overturn a candidate, and renewed use can reveal another problem. |
 | **Makes adaptation inspectable:** Named subjects, activities, identity conclusions and evidence let a reviewer reconstruct why a change was made. | **Needed subject contributions:** B.4 coordinates the identity, Work, evidence, publication or acceptance results on which the use depends. |
 
@@ -47938,11 +48006,13 @@ The phase names can be shared, but each subject branch keeps its identity and re
 
 This pattern operationalizes the **Open-Ended Evolution Principle (P-10)** by connecting use, observation, change, and renewed use. Subject patterns decide identity and continuity. The account distinguishes actual activities and their results and retains the evidence needed for relied-on claims. B.4 makes their coordination inspectable while permitting a sufficient local answer to stop before another phase.
 
+The same coordination can be designed before use. Its adequacy depends on whether the people or systems involved can obtain the relevant distinctions and act on them in time. A justified decision to retain the existing way can complete that assessment.
+
 ### B.4:10.1 - **SoTA-Echoing**
 
 The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies activities and results, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
 
-Canonical means the four questions recur across repeated adaptation; it does not mean every subject or project follows one identical history.
+The four questions recur in repeated adaptation. Which ones need answers, at which scales and with what evidence, depends on what the recipient is entitled to decide or receive.
 
 ### B.4:11 - **Relations**
 
@@ -47966,9 +48036,9 @@ During Observe, use `A.16.1` when a cue needs publication while its interpretati
 **Plain-name.** Candidate routes from an observed cue.
 
 ### B.4.1:1 - Problem frame
-**Use this when.** A stabilized cue has possible continuations that a recipient needs to compare, or a route choice needs to be published. State the candidate routes and any justified selection without presenting the cue as an established anomaly, action claim, or hypothesis.
+**Use this when.** A recipient needs a publication of possible continuations from a stabilized cue, or needs to receive a route choice with its grounds. Start with the action or question the cue bears on. An operator who only needs to choose a next action can use the reasoning in §4 and act within their authority. A promise to publish the recommendation also requires making it available as agreed.
 
-Routing begins **after cue stabilization**, with `PreArticulationCuePack` or an equivalent early form under `A.16`. Cue preservation may exist before routing. `B.4.1` begins only when publishing the routes becomes worthwhile.
+The publication in `B.4.1` starts from a stabilized cue preserved in `PreArticulationCuePack` or an equivalent early form under `A.16`. Its grounds may suffice for action while the cause of the cue remains open. Keep an established anomaly, action claim or hypothesis under its own subject pattern.
 
 ### B.4.1:2 - Problem
 A cue publication can lose its useful continuations when it is forced prematurely into a late form such as `AnomalyStatement`, `Characteristic`, or `ActionOption`. A route choice can also remain hidden in cue-pack prose, leaving the reader without its grounds or the subject pattern.
@@ -47982,11 +48052,15 @@ A cue publication can lose its useful continuations when it is forced prematurel
 | **Route content vs reader presentation** | Preserve the route-form requirements when selecting an MVPK face for the reader. |
 
 ### B.4.1:4 - Solution
-After cue stabilization, state the candidate continuations and any selected route. Keep downstream claims under their subject patterns. The optional route follows this sequence:
+Begin with the decision the recipient can make and the time they have to make it. What was actually noticed, about which part, use or occasion? What further result would let this recipient act or answer the question? Work backwards from that result to a possible next action, its actor and its entry conditions. A standing instruction or a reliable result already available may settle which action to take. If you have been asked to devise the continuations, make that choice from the work before consulting the route names in §4.2. Applying a supplied route exercises a different decision.
+
+Choose how far to follow the cue. Hold the local observation fixed and vary its use elsewhere. Then hold an overall reading fixed and vary the affected parts or occasions. Which variation changes someone’s next decision or invalidates its grounds? Retain that distinction and the link to the recipient’s use. A common instruction applicable to all remaining cases can settle the action while their identities or causes remain open. Where the answer differs, look for a timely way to distinguish the cases, state the condition to the recipient, or identify what remains undecidable on the available evidence.
+
+Some continuations are alternatives. Others supply different results the recipient needs together. In that case establish how those results could be combined, by whom and by when. A feasible choice for each person in isolation may depend on the same unavailable hour or on information they cannot share in time. If asked for one justified continuation, give it with its grounds. If asked to identify every admissible continuation, establish why the set covers them. The publication sequence for a stabilized cue is:
 
 `Observe -> Notice -> Stabilize -> Route`
 
-Publish the route account in the `RoutedCueSet` form, normally downstream of `PreArticulationCuePack`. `RoutedCueSet` names the reusable publication rules defined below. The filled account states candidate routes and selection claims; C.2.1 governs its episteme identity. Its expression follows the route-form rules and, when selected, the presentation rules of an MVPK face under E.17.
+For the requested or needed route publication, use the `RoutedCueSet` form, normally downstream of `PreArticulationCuePack`. `RoutedCueSet` names the reusable publication rules defined below. The filled account states candidate routes and selection claims; C.2.1 governs its episteme identity. Its expression follows the route-form rules and, when selected, the presentation rules of an MVPK face under E.17.
 
 The route publication should identify:
 
@@ -47998,7 +48072,7 @@ The route publication should identify:
 - any **conditions that would change the candidate set or its selection**,
 - and any published **typed downstream publication**.
 
-This keeps later handoff reviewable while leaving downstream claims and results under their subject patterns.
+An existing publication can serve the receiving question when its content, form and availability meet the publication requirements. A reasoned choice by the operator, a recommendation to the person authorized to choose, a publication available to its recipients, and an intervention that actually took place each have their own grounds.
 
 For specialization-sensitive routes, state the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 
@@ -48020,7 +48094,7 @@ A conforming route account may include these fields:
 
 `RoutedCueSet` is not the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
 
-`candidateRouteSet` is the core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is stated. They do **not** belong in `PreArticulationCuePack`.
+`candidateRouteSet` is the core here. When reporting a selection, use `routeDecision`, `selectedRoute`, `routeRationale` and `routeSelectionStatus` to distinguish the decision, its status and what is known about its grounds. A record can identify a past choice while leaving the chooser's reasons unknown. They do **not** belong in `PreArticulationCuePack`.
 
 The status reports which candidate routes remain live and any selection made; endpoint admission, publication availability, current use or retirement, and any authority relation remain separate claims under A.16 and their patterns.
 
@@ -48059,7 +48133,7 @@ Use `SubstrateDiversificationRoute` when the cue raises a question about whether
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
 #### B.4.1:4.3 - Projection discipline
-Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**; its expression may also follow an existing MVPK face's presentation rules. The subject pattern governs the downstream claim.
+Here `projection` names route-bounded partialization. For a downstream projection under this section, publish the result in a **typed publication form**. The expression may also follow an existing MVPK face’s presentation rules. A recipient may carry out a selected action directly when authorized and its conditions hold. The subject pattern governs the downstream claim.
 
 A routed cue set may support these continuations:
 
@@ -48077,12 +48151,12 @@ For a proposed downstream projection, if no applicable typed publication form ca
 **Show (Episteme).** An inquiry cue about a model-vs-observation discrepancy may route toward anomaly framing, opportunity framing, or probe design before a hypothesis exists.
 
 ### B.4.1:6 - Bias-Annotation
-The pattern favors preserving low-articulation cues and publishing route plurality. Routing must state why one route is live and why one route was selected if selection occurred.
+The pattern favors preserving low-articulation cues and exposing real alternatives. In a route publication, state the grounds for each live route and for any asserted selection. A single decisive ground can warrant the requested continuation across the whole relevant range.
 
 ### B.4.1:7 - Conformance Checklist
 - `CC-B.4.1-1` Observe output **SHALL NOT** be forced into `AnomalyStatement` when articulation threshold is not met.
-- `CC-B.4.1-2` A routed cue set **SHALL** name its `candidateRouteSet`.
-- `CC-B.4.1-3` When route selection occurs, `routeDecision`, `selectedRoute`, and `routeRationale` **SHALL** be explicit.
+- `CC-B.4.1-2` A routed cue set **SHALL** name its `candidateRouteSet` and explain how the stated continuations serve the receiving question in the applicable conditions. Support any claim of completeness. One justified route may suffice for a request for one continuation.
+- `CC-B.4.1-3` A published selection **SHALL** identify the selected route and whose decision it was. For a past selection, state the grounds for attributing it to that person or system. Report their rationale when the evidence establishes it, and identify any rationale still unknown. A recommendation supplied by the author gives the author’s grounds. When publication is part of the assignment, establish availability to its intended recipients.
 - `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named. The expression **SHALL** satisfy the route-form requirements as well as the presentation rules of any selected MVPK face.
 - `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** be treated as establishing a late endpoint result.
 - `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
@@ -48114,13 +48188,15 @@ Existing content can serve as that publication when it exposes the needed distin
 ### B.4.1:13 - Worked Route Sets
 
 #### B.4.1:13.1 - Multi-route operator case
-An operator alert note records a service-latency rise after a configuration change and a response-time clause whose applicability to this service is unresolved. The operator may publish a route set containing:
+An operator is asked what a service-latency alert warrants. The note records a rise after a configuration change. The response-time clause may apply to a particular service and incident window. To compare possible continuations for the recipients, the operator may publish a route set containing:
 
 - `ActionInvitationRoute`,
 - `ProblemAbductionRoute`,
 - and `RequirementCommitmentRoute`.
 
-Keep the live routes explicit and state any selection with its grounds. The missing discriminator for `RequirementCommitmentRoute` is whether the clause covers this service and incident window. If it does, use `A.2.8` for the question of a duty; the latency cue can support intervention and explanatory inquiry.
+The investigator would need grounds for explaining the delay. The duty manager would need to know whether the clause applies and whether its trigger was reached within the window. An increase alone can occur entirely below a trigger. Use `A.2.8` for the resulting duty question. An authorized intervention can be appropriate before either the cause or the contractual duty is established.
+
+Suppose the only question now is whom to notify. The record establishes that the trigger was reached at one of two service desks during the covered window, but leaves the desk unidentified. If the current rule sends alerts from both desks to the same manager, the operator can notify that manager now. If the rules require different recipients and restrict disclosure to the responsible one, the same record leaves the choice open until the desk can be identified or an authorized disposition valid in both cases is found. A commission to publish the continuations for later shifts still requires an available publication. Neither a route choice nor its publication establishes that the notification was sent.
 
 #### B.4.1:13.2 - Inquiry case
 A conceptual mismatch may route simultaneously toward:
@@ -48129,7 +48205,7 @@ A conceptual mismatch may route simultaneously toward:
 - probe design,
 - and later lexical repair.
 
-This is admissible only if the route rationale states the plurality.
+A published account that retains these routes explains what each could contribute and which question, if any, requires their results together.
 
 #### B.4.1:13.3 - Invalid jump
 It is invalid to treat a routed cue set as if it were a hypothesis, a gate, or a work plan. The route account records candidate continuations; the subject pattern governs the downstream result.
@@ -48139,7 +48215,7 @@ A routed cue set for a new task family may keep `ProblemAbductionRoute`, `TaskFa
 
 ### B.4.1:14 - Keeping route plurality useful
 
-A routed cue set stays useful only when route plurality, route grounds, selection status, and any current-use or retirement claim remain explicit.
+State the grounds for the live route or routes, the selection status, and the basis for any current-use or retirement claim. Preserve the alternatives that still matter to the recipient.
 
 #### B.4.1:14.1 - Minimal route package
 Use the minimal route package in §4 (Solution).
@@ -48148,12 +48224,12 @@ Use the minimal route package in §4 (Solution).
 When one route is selected, the routed cue set states the route choice. If the receiving work calls for a further claim or result, apply its subject pattern under that pattern's entry conditions. Publishing the routes and selection can be the sufficient result.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
-Review the cue grounds and any further grounds used to justify the selection, including the reasons for excluding previously live alternatives. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not met, keep the publication early.
+Review what the cue supports and the grounds for any recommendation or reported choice. Explain an exclusion when claiming that another route ceased to be suitable. Selecting a suitable route can leave other routes suitable. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not met, keep the publication early.
 
 #### B.4.1:14.4 - Deferred selection and route splitting
-When selection is deferred, publish the live candidates, their grounds and any unresolved conditions. When a selection is made, state it.
+In a route publication, describe deferred selection through the live candidates, their grounds and any unresolved condition that matters to the recipient. Attribute an actual selection when one has been made.
 
-One cue cluster may also split into several routed cue sets if different sub-cues support different destinations. The split should be published so that later readers do not assume that one route exhausted the original cue complex.
+One cue cluster may also split into several routed cue sets if different sub-cues support different destinations. Explain a split to later readers when their decision depends on how the sub-cues and destinations relate.
 
 ### B.4.1:15 - Migration and worked continuation boundaries
 
@@ -48168,7 +48244,7 @@ An operator-facing disturbance may support both:
 - an immediate intervention-oriented route,
 - and a slower explanatory route.
 
-`B.4.1` preserves both continuations with their grounds and selection conditions.
+A publication for both needs preserves the two continuations with their grounds and selection conditions. For an immediate response alone, act on the grounds for that response when authorized. The explanatory question can remain open.
 
 #### B.4.1:15.3 - Requirement-route overreach
 A route set that includes `RequirementCommitmentRoute` should not be read as if the requirement exists. The route is one admissible continuation; the requirement or commitment claim is decided under its subject pattern.
@@ -48200,7 +48276,7 @@ One routed cue set may keep several candidate routes live without forking lineag
 A typed downstream projection publication or prompt may be shown as one admissible continuation; the other live routes, their grounds and any unresolved conditions relevant to their use or selection shall remain readable.
 
 #### B.4.1:20.5 - Review test for false single-route certainty
-Ask: if a selected route were excluded, would the publication explain the other live routes and any unresolved conditions relevant to their use or selection? If that information is missing, restore it before relying on the route set.
+Consider the alternatives permitted by the original question. Would the same cue, in a different covered use, require a different recipient, continuation or reason? If so, preserve the distinction or state which needed fact is missing. If one ground establishes the requested continuation in all those cases, a single route suffices. For an account of an actual choice or publication, what establishes who chose or what was made available to whom?
 ### B.4.1:End
 
 ## B.5 - Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)
@@ -48211,11 +48287,11 @@ Ask: if a selected route were excluded, would the publication explain the other 
 
 ### B.5:1 - Problem frame
 
-Use this pattern when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. They may need to formulate a better question, construct something, prove a claim, explain an observation, or test a consequence. Reasoning is the broader activity; this pattern governs the choice and connection of those contributions in an inquiry.
+Use this pattern when you have a question, surprising result or promising construction and need to choose the next reasoning contribution. You may owe someone an answer, be helping them work out what to ask, or be free to set the direction of inquiry. The work can call for a construction, proof, explanation, observation or new question. Choose and connect those contributions by what the inquiry is to obtain.
 
 When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without a recognized anomaly. Use that contribution here when reasoning can take it further.
 
-**First useful move.** State what you want to understand or make possible. Ask whether an available result answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains. If the needed distinction or possible continuation is unknown, §4.1.2 explains how to develop that basis from accessible material before comparing inquiries.
+**First useful move.** Recover what the recipient needs to understand or make possible and what they have left you to choose. In your own inquiry you may be choosing the question itself. Use an existing answer if it settles the question. Otherwise ask what a proposed next operation would establish even if it succeeded completely. Where it supplies a premise, identify what will connect that premise to the answer. Section 4.1.2 helps when the possible operations or distinctions are themselves unknown.
 
 For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This redirects the inquiry before another model fit.
 
@@ -48255,6 +48331,8 @@ If a participant senses that an account misses something but cannot yet express 
 
 An expressible account can omit a consequential relation. B.5.FM:4.2.1 uses a small conceptual scheme to find a question through that relation, while distinguishing an unknown contribution from an inapplicable scheme. Use an adequate answer.
 
+When choosing the extent of the account is part of your task, C.39.SA:4 helps find the wholes, constituents and model distinctions the answer needs. If several existing models supply premises, establish that their results apply together to the subject and conditions of this question (C.37.MM:4.1.1).
+
 When the formulation is inadequate, vary a consequential element. Useful operations include:
 
 - change the quantity or distinction that the answer must preserve;
@@ -48263,7 +48341,9 @@ When the formulation is inadequate, vary a consequential element. Useful operati
 - introduce a new object, relation, operation or representation and ask what it makes expressible;
 - ask what observation or argument would distinguish the remaining possibilities.
 
-Keep a changed formulation when it changes the construction, evidence, explanation, comparison or next action.
+Before adopting the new wording, work out what an answer to it would let the recipient conclude. An equivalent formulation can serve directly if its answer carries back to the original subject, conditions and required grounds. A narrower question can also settle the whole one, for example when an admissible counterexample refutes a universal claim. If the narrower answer supplies one premise, pursue the remaining inference. C.39.QR explains this return.
+
+A useful new question can also have a genuinely different answer. When choosing the research direction is part of your work, weigh what the change makes possible and pursue it on those grounds. When someone has specified the result, use the new question to help obtain it, offer it for their decision, or explain the limit on what you can obtain. An interesting answer in a nearby field or at another composition scale can leave the specified result entirely open.
 
 C.22.2 helps make a problem-side claim and its next use inspectable. C.29 helps when choosing a mathematical lens or its mapping is the live question. Use their supplied actions at those boundaries; an ordinary mathematical problem need not acquire a separate card.
 
@@ -48272,10 +48352,10 @@ When you can follow a concept's explanation but cannot yet interpret the situati
 ##### B.5:4.1.1 - Propose a first model
 
 
-When the situation has no usable model yet, begin with the contrast the answer must resolve. Inspect one case or the actual arrangement. Describe what happens and which proposed change or comparison matters. Separate observations from the explanation you are about to try.
+When the situation has no usable model yet, begin with the difference the answer must resolve. The question can concern one occurrence, a relation across composition scales, or a class of possible arrangements. Start from the part, whole, interaction or general condition that can disclose that difference. For each relevant kind of holon, follow its own part–whole relation. The steps prescribed by a Method and the performances that made up a particular job can concern the same undertaking while having different constituents. Choose what the model must distinguish at the needed scales. Explain how any inference from one scale or kind to another supports the question. C.39.SA develops these choices.
 
 1. **Choose what must remain distinguishable.** Identify participants, states or quantities whose differences could change the answer. Use observed differences and possible interventions to propose a boundary: what can vary separately, what connects those parts, and what surrounding conditions affect them? Keep a distinction when you can explain its consequence for the question.
-2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
+2. **Propose how they are connected.** State a relation the answer depends on and use the relevant subject knowledge to explain what follows from it. For an observed change, the relation might describe an interaction that could produce it. For a proposed arrangement, it might govern which combinations are possible. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
 3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
@@ -48285,24 +48365,24 @@ Return the provisional model and what follows under its assumptions. If a missin
 
 Sometimes neither the decisive distinction nor a useful set of alternatives is known. Asking which answer would change the work then leaves the practitioner to invent the basis they need.
 
-Begin with something accessible: an episode of work, an artifact, an observation, a source argument, a proposed use or an available capability. The first result can be a better question or a conditional account. It need not be a forecast of the eventual discovery.
+Choose a starting point for what it can reveal about the purpose of the inquiry. A rule for a class, a relation between parts and a whole, or a record of one episode can each disclose something different. In open research, a source, a proposed use or an available capability can suggest a question worth pursuing. A better question or a conditional account can be a useful first result.
 
 The connection is constructive. Material lets the practitioner propose participants and relations; following a relation yields a consequence; a contrast or trial challenges that consequence; the changed account makes further inquiries or actions expressible. Their conditions and significance can then be examined. A new finding can return the work to any earlier contribution. Use an adequate supplied result at its point of entry instead of reproducing the whole connection.
 
-**Begin by examining an accessible case or source.** State the purpose as far as it is understood: what is to be explained, used, made possible or explored? Keep that purpose revisable. Choose a suitable way to examine how the subject works, for example:
+**Examine the material for the distinction you need.** Say what you can learn from it about the subject, its explanation or its use. For example:
 
 - Follow one episode. Observe what arrives, what participants do or change, what result leaves, and how it is used in the work that follows. Ask about the adjustments that made the episode work. B.5.PI develops this examination of ongoing work before a problem is felt.
 - Recover the operation behind an existing answer, design or source example. Find what it takes as given, what it does with that input and what its result establishes. Work a small application through §4.3 or B.5.TU. A hidden assumption may become visible before its practical significance is known.
 - Try a proposed use, or reason forward from an available capability. Identify the interaction by which it could produce an effect. Reason back from that effect to the contributions it would require. The two directions can revise both the intended use and the proposed means; neither needs a complete future plan.
 - Where the subject is unfamiliar, inspect a representative case with a practitioner or seek an explanatory source through F.1. Ask for help identifying what happens and which distinctions the practice uses. A request to help formulate the question is legitimate before a request for a specific answer is possible.
 
-Choose an initial examination because the material and the way of examining it are accessible and relevant to the present purpose. Compare the kind of understanding it could produce and its burden with a smaller examination or use of an adequate existing answer. The finding need not be known before this exploration begins.
+In open exploration, accessible material earns attention through a plausible connection to the subject. A finding can be valuable before its eventual use is known. If the question is already set, identify what the examination could establish for that question. When every possible outcome leaves a needed distinction untouched, seek material that bears on it, or develop the missing connection. Compare the effort with a smaller sufficient inquiry or an adequate existing answer.
 
-Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method supplies candidate relations and conditions for inference. None of these alone establishes that the same relation holds throughout a wider proposed use.
+Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method can supply the relation and its conditions. Establish which cases those grounds cover. A valid derivation for every admissible case can settle the wider question, including when the author presents the derivation inside one example.
 
-**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain a local transition: this operation needs that input; this quantity changes that effect under these conditions; one participant supplies what the next operation needs. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
+**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain the transition the inference needs. An operation can depend on an input, several contributions can jointly produce a result, and a rule can imply a consequence for a whole class. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
 
-Follow one relation to a small consequence, and use that consequence to seek a revealing contrast. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions obtain through the appropriate subject inquiry.
+Follow the relation to what it establishes for the question. Could the same condition hold while the required answer differs? If so, identify the remaining premise or connection. When the relation warrants the answer under the conditions at issue, use it. Seek a contrast when it could resolve a remaining difference. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions obtain through the appropriate subject inquiry.
 
 A useful contrast can also come from a failed attempt, an unfamiliar use, another participant's interpretation or two cases that the representation merges. A relevant conceptual scheme or mantra can direct attention to such relations before anyone feels a problem. Apply its substantive questions to the available case; an empty slot in a scheme is not evidence of a defect. When neither a consequence nor a useful contrast can yet be constructed, return to a smaller case, another representation or subject assistance. Guessing possible answers does not replace that missing work.
 
@@ -48326,7 +48406,7 @@ For open research, the attainable contribution may be a new description, candida
 
 A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable contributor. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
 
-Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry or action depends on unavailable help, seek another way to obtain the needed result, revise the work to use what is available or defer the dependent part. An unexpected possibility can change the question. A sufficient answer ends the present inquiry.
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry depends on unavailable help, try another way to obtain the needed contribution or explain which part remains open. An unexpected possibility can justify a new direction when choosing the research question is part of your task. A sufficient answer ends the present inquiry.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -48345,7 +48425,7 @@ The following are common alternatives, not an exhaustive classification or a seq
 1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
 2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
 3. Work backward from the desired result to the required intermediate results and starting inputs. Preserve joint dependencies and alternative ways where the source supplies them. A missing operation is a question for the source or the relevant specialist; a rule you propose is an addition to be tried and justified.
-4. Work a small instance from the available inputs, applying each recovered operation when its conditions hold. If the notation prevents the operation, use A.6.3.RT to prepare and compare a more usable expression. For a mathematical account, use its formation and equality rules; identify where a proposed identification changes the operations or property being used.
+4. Apply the operations to the inputs the question requires. A particular instance can show how a rule works. To recover a construction for a class, establish how to obtain its output for an arbitrary admitted input, including any conditions where a different operation is required. If the notation obstructs the work, use A.6.3.RT to prepare and compare a more usable expression. In a mathematical account, track the formation and equality rules on which the construction depends.
 5. Establish the needed property by the appropriate argument or test. Return the construction and what follows under its premises, or the input, rule or unsupported transition that prevents the result. Stop when this supplies the receiving use.
 
 For example, a stand specification calls for a portable display. Its assembly rules allow a compatible upright to be joined to a base and a compatible panel to be attached to that upright. Those rules yield the assembly order and the connections to check. Portability remains a requirement to check on the resulting design.
@@ -48377,17 +48457,17 @@ For instance, a team expects to recover a drawing because a backup exists. Recov
 
 When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question.
 
-Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application supported by the source. The first result is a usable explanation of that application, or the missing premise or operation that prevents it.
+Use a source application when its operations and grounds answer the question. Otherwise derive an application from the theory's objects, relations and operations, and examine their correspondence to the receiving subject. Use a small trial when it can expose a lost distinction. A derivation under the shared conditions can justify a whole range of applications. Identify what the source supplies and what you have proposed.
 
 Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires. **B.5.TU** develops this application-construction method, including recovery of the needed operations and use of a correct result that answers only part of the receiving question.
 
 To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs.
 
-Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims need their applicable Methods and evidence. **B.5.TC** develops the comparison: reconstruct both applications, work a common case, distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
+Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims need their applicable Methods and evidence. **B.5.TC** develops the comparison. Relate both applications to the same claim or establish how their different contributions answer the question together. Distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
 
-When the correspondence between a formal account and its intended use is the difficulty, reconstruct one small instance. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
+When the correspondence between a formal account and its intended use is the difficulty, recover it through a suitable instance or directly for the required domain. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
 
-Challenge the correspondence with a case that could change the answer. Look for a formally admissible answer that the intended use excludes, or two situations identified by the representation that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below shows both uses.
+If it remains unclear whether the correspondence preserves the answer you need, try to expose a difference that matters to that use. Look for a formally admissible answer the use excludes, or two situations the representation treats alike that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below shows both uses.
 
 For a physical application, connect the mathematical objects and quantities to the phenomenon, measurement and operating conditions. Ask which approximation, omitted interaction, scale or uncertainty could change the conclusion. A rigorous derivation from a model and evidence that the model applies answer different questions.
 
@@ -48400,11 +48480,11 @@ Return the result at its supported scope. Stop when it answers the use. Continue
 When the result exposes a limitation, identify what must change:
 
 - **The answer or construction for the same question:** repair it or investigate a serious alternative.
-- **The formulation:** revise the target, assumptions or boundary and state which earlier results apply.
+- **The formulation:** identify what changed in the target, assumptions or boundary. Return any usable result to the question already asked. If the result now sought is different, establish whether selecting that new direction belongs to you or whether the recipient still needs the earlier answer.
 - **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
 - **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
 
-Use **B.5.QD** when the next question is unclear. Recover a failed dependency or a newly available construction, specify the answer it makes worth seeking, and work a revealing case. This can develop the inquiry after a success as well as a counterexample.
+Use **B.5.QD** when the next question is unclear. Recover a failed dependency or a newly available construction. Specify the answer it makes worth seeking and use a case, construction or argument to show what that inquiry could establish. This can develop the inquiry after a success as well as a counterexample.
 
 Use E.10.DEV if “development” hides the intended subject and C.36 for a cultural-generation, transmission or selection question.
 
@@ -48416,7 +48496,7 @@ For calculation, conjecture, proof, explanation, criticism and question formatio
 
 When the question depends on a result from another practice, use [A.15.9][fpf-a15-9-ref] to use the available answer or select a worthwhile missing contribution. State the working question, available inputs, result needed and intended use in terms the receiver can check. When requesting a formal formulation, ask the provider to show how it corresponds to the working question.
 
-Derive the capability required of an engineer from representative later work. What must the engineer be able to understand, ask, construct, criticize or arrange with the assistance that will be available? The answer can include interpreting a proof's central idea or recognizing that a measured proxy omits the intended quantity, even when a tool performs most calculations. It can also justify deeper mathematical study when constructing or modifying the theory is the required contribution.
+Derive a participant's required capability from their later work. What must this person understand, ask, construct, criticize or arrange with the assistance then available? For example, an engineer may need to interpret the main idea of a proof or recognize that a measured proxy omits the intended quantity, even when a tool performs most calculations. Constructing or modifying the theory calls for a different depth of mathematical study.
 
 When assessing that capability, use representative work under the declared support and inspect the engineer's contribution. A completed AI-assisted report alone leaves that contribution underdetermined.
 
@@ -48427,7 +48507,7 @@ When assessing that capability, use representative work under the declared suppo
 
 An engineer models pairwise incompatibilities with a finite simple undirected graph and asks, “Does connectedness let us divide the vertices into two groups with every edge crossing between groups?”
 
-A triangle is a counterexample: putting the first two adjacent vertices in different groups forces the third to conflict with one of them. This refutes the universal statement but leaves a useful question: **which obstruction prevents such a partition, and can we construct either the partition or a witness of failure?**
+A triangle answers the engineer's question. Putting two adjacent vertices in different groups forces the third vertex to conflict with one of them. Connectedness therefore gives no such guarantee. An engineer who also needs a way to make the division can now ask a further question. **What obstruction prevents the partition, and how can we return either the partition or a witness of failure?**
 
 Build the tree by keeping an ordered waiting list. The neighbours of a vertex are the vertices joined to it by an edge.
 
@@ -48452,7 +48532,7 @@ For a worked traversal, take vertices A–F and edges AB, AC, BD, CE, DF and EF.
 
 A has depth 0, so the groups are {A,D,E} and {B,C,F}; each of the six edges crosses between them. Now add DE. Its endpoints both have depth 2. Their parent paths D–B–A and E–C–A, joined by DE, give the five-edge cycle D–B–A–C–E–D. The added edge therefore prevents the requested two-group partition.
 
-The decisive idea is parity plus a tree-path construction, not the enumeration of many successful examples. The result answers a mathematical question without an empirical test. To use it for allocation, separately establish that vertices represent the relevant items and edges the pairwise incompatibilities. If three-way constraints matter, that application question must change.
+Parity and the parent paths establish what the procedure returns for an arbitrary graph in this class. To use it for allocation, establish which items the vertices represent and which assignments the edges exclude. Suppose three items may share a group in pairs but all three together are forbidden. No edge between those three items expresses that restriction faithfully. The allocation question can stay fixed while the model gains a condition on the triple. A particular colouring that also satisfies every such condition can supply one allocation. An odd cycle of mandatory pairwise incompatibilities still rules out a two-group allocation under the additional restrictions.
 
 The practice targets are to explain the obstruction, construct a partition or failure witness for another finite graph, and handle disconnected components. Assess those capabilities on a changed graph with the references and assistance permitted in the intended work.
 
@@ -48484,7 +48564,7 @@ Recover what that calculation establishes. From the relaxed time constraint, y <
 
 For the whole-job question, x = 0 permits at most y = 2 and value 6. With x = 1, the remaining hour permits y = 0 and value 5. Two B-jobs therefore attain the integer optimum 6. Check that the selected jobs fit the constraints and compare the best value for x = 0 with the best value for x = 1.
 
-The relaxation answers a useful question: can any permitted whole-job choice reach value 7? Every integer choice is also feasible for the relaxation, whose proved upper bound is 6.5, so the answer is no. Choosing a realizable assignment needs the integer result; ruling out value 7 needs only the upper bound.
+The relaxation also answers a threshold question. Every allowed whole-job choice is feasible for the relaxation, so none can reach 7. For this problem the whole-job values are integers. The upper bound of 6.5 therefore bounds their values by 6. Two B-jobs fit and attain 6. Taken together, that feasible assignment and the bound prove optimality for the original question, even without the preceding enumeration. The relaxed allocation itself contains a half job and cannot be scheduled as a whole-job assignment.
 
 With five hours instead, the same argument gives V <= 7.5 + 0.5x <= 8. The choice x = 1, y = 1 attains value 8 in both formulations. The planner can use that relaxed optimum as the whole-job answer because this returned choice satisfies the integer conditions.
 
@@ -48563,7 +48643,7 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 ### B.5:7 - Conformance Checklist
 
 
-- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
+- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, who may choose or change it, and what the selected contribution supplies. When the working question differs from the one assigned, the result SHALL identify what carries back, what warrants that inference and what remains to answer. A conjecture retains its grounds, rivals and limits. A construction and its asserted properties remain distinguishable.
 - **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
 - **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
 - **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the result with its limitations and name the remaining question; a sufficient answer may finish the use.
@@ -48607,7 +48687,7 @@ Question formation belongs here because the result of one reasoning contribution
 
 Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification required.
 
-**What does exploring an intended use contribute?** Adapt [NASA's Stakeholder Expectations Definition, §4.1.1.2.4](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): exercising a concept of operations can expose missing interactions and return them to expectations. The engineering practice supports working through a use to discover conditions; it does not establish that a generic scheme finds all consequential distinctions in other fields.
+**What does exploring an intended use contribute?** In NASA's engineering process, working through a concept of operations can expose interactions that the initial expectations missed. Agreement on the resulting expectations is a distinct step. The design study by Parsons and Shukla documents how visualization designers developed new questions while exploring possible solutions. In §4.1, use this freedom where framing the question belongs to the inquiry. For a specified result, carry a proposed change back to the person or practice that determines the aim. The distinction is a methodological synthesis. Its application depends on the work entrusted to the practitioner. [NASA Systems Engineering Handbook, §§4.1.1.2.4 and 4.1.1.2.8–9](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/). [Parsons and Shukla, §§4–6](https://arxiv.org/html/2508.07058v1).
 
 Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
 
@@ -48709,6 +48789,8 @@ If a new observation defeats the account, B.5.RR revises the affected reasoning.
 
 Return the distinction, the conditions that make it meaningful and the next use it supports. A short statement may suffice. Preserve the original episode or phrase when later interpretation would otherwise lose the point.
 
+Ask which question the formulation settles. A participant who wanted help saying what they meant can finish with a phrase they can use and correct. If their experience raised a question about how a whole practice works, use the distinction to locate the operation or rule that matters for that question. Establish what the episode or the participant's further account actually shows about it. When the conversation is open to discovering new questions, the participants can choose one that has just become expressible.
+
 Stop when the contribution is usable, when further articulation cannot improve the decision, or when the participant cannot recover enough to continue. An unresolved but better located question is a result.
 
 For joint work, the participant supplies experiential correction, the listener supports expression, and a subject specialist may supply the account needed for a subsequent inference. One person may perform several contributions. An AI can help formulate, compare and reason from available material; the participant's private experience is not made accessible to the AI merely by assigning it that role.
@@ -48728,6 +48810,8 @@ The listener asks, “What does the form help you notice about the meeting?” T
 The initial contradiction separates into two conditions: permission to speak and the possibility of changing the set being considered. The designer can request consideration of a third option. The listener has not established that the chair intended to exclude it.
 
 If the chair explains that the third option was already considered and was excluded by a constraint, the next question concerns that constraint and whether it applies. Repeating the claim that speaking was ineffective would lose the new condition.
+
+The designer's request to explain what “no room” meant can end with that distinction. Suppose the review owner asks whether the standing procedure allows a third option. Follow how a proposal becomes an option for decision. If the applicable procedure gives the chair discretion to add an eligible proposal, that provision can settle the permission question. Whether this proposal qualified and why the chair continued with two options concern the particular review.
 
 #### B.5.EA:5.2 - A teacher's “they do not understand”
 
@@ -48758,9 +48842,8 @@ The listener's expertise can make a premature explanation attractive. Preserve t
 ### B.5.EA:7 - Conformance Checklist
 
 - A participant can return to the experience or identify the limit of that return.
-- The expression develops through recoverable corrections rather than an imposed diagnosis.
-- The resulting distinction changes a question, interpretation or possible action.
-- The recipient can obtain the meaning needed for the use.
+- The participant can use or correct the expression. Corrections that change the intended use remain recoverable.
+- For a completed articulation, the intended recipient can recover the distinction and how it bears on a question, interpretation or possible action. If the result is still a cue or a better located question, identify what is understood and what remains open.
 - Experiential fit, shared understanding and warrant for a world-directed claim retain their different grounds.
 - Continuation uses the result or identifies the remaining difficulty without requiring an entire research programme.
 
@@ -48909,7 +48992,7 @@ Compare deferral with the present reliance. If today's choice consumes the missi
 
 #### B.5.WN:4.6 - Compose an argument for a recipient
 
-When a project or assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
+When a project or assigned question needs an answer, read that question before selecting the notes. Whose work does it concern, and which differences could change the conclusion? If it concerns a whole job, which performances contributed to its result? Two histories may fit every selected note and yield different answers. Look for the observation or argument that distinguishes them. Arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
 
 Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. Composition often exposes a premise that seemed present only because the author knew the collection.
 
@@ -48953,19 +49036,19 @@ This note states the practitioner's cross-case conjecture and question. Its link
 
 Now change the review facts: all reviewers used a common valid basis, but the recipient has not opened their results. The missing-basis explanation fails in that case. The practitioner narrows the connection to the distinction between a result's availability and its use, retaining the original bench observations.
 
-If no current project needs this question, the semantic entry is a sufficient continuation. If a delivery decision needs it today, the project must establish which result is available before acting.
+The records already account for the 25-minute difference between receipt and result for Q41 and Q42. Whether the bench is generally slow requires a comparison standard and grounds that cover the jobs to which it applies. In an open inquiry the practitioner can choose the new question about reviews and leave a route back to the bench question. When a decision about the bench is due, return the supported local finding and identify what the decision still requires.
 
 #### B.5.WN:5.2 - Develop an assigned explanation from mathematical notes
 
-A writer must explain what can be inferred about sums of irrational real numbers. The writer understands rational numbers and the usual proof that `sqrt(2)` is irrational. One note contains a proved statement: adding a rational number to an irrational number yields an irrational number. If the sum were rational, subtracting the rational addend would make the other addend rational.
+A writer is asked whether knowing that both of two real addends are irrational determines whether their sum is rational. The writer knows the usual proof that `sqrt(2)` is irrational. One note contains a theorem about a different pair of addends. Adding a rational number to an irrational one yields an irrational sum. If the sum were rational, subtracting the rational addend would make the other addend rational.
 
 A rough second note asks whether adding two positive irrational numbers must also yield an irrational number. Keeping the quantifiers in the formulation makes a counterexample searchable. The writer tries `sqrt(2)` and `2 - sqrt(2)`. Both are positive. The second is irrational, since making it rational would make `sqrt(2)` rational by subtraction. Their sum is 2.
 
 The new note retains the two values and that short justification. Its link to the first says: “The first proof requires a rational addend; replacing that condition by an irrational addend permits a rational sum.” Separating the counterexample from its positivity and irrationality grounds would make later use require reconstruction. A small connected note is sufficient.
 
-The assigned explanation also needs a case where two positive irrational addends have an irrational sum. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` supplies it: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases support the bounded answer that the sum can be rational or irrational.
+The writer also needs grounds that an irrational total is possible. A second pair satisfying the note’s stronger positivity condition suffices. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` gives such a pair: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases support the bounded answer that the sum can be rational or irrational.
 
-The writer's outline becomes: distinguish the rational-addend theorem; present the rational-sum counterexample; present the irrational-sum case; state the resulting limit of inference. Rewriting the notes into that order produces an explanation for the assigned question. The earlier theorem remains in the collection, with its condition.
+The writer can now answer the assignment. Both examples satisfy its premises, and their sums have different rationality. The first note explains why its theorem cannot decide between them. If a reader asks for **every attainable total with unrestricted signs**, the same two examples supply only two totals. For any rational target `r`, take `sqrt(2)` and `r − sqrt(2)`, which are both irrational. For an irrational target `t`, take `t/2` twice. If `t/2` were rational, doubling it would make `t` rational. Thus with unrestricted signs every real total is attainable. The second question needs this argument across targets. The first can end with the two examples.
 
 A later question about squares can enter through the same concern with what an operation preserves. The present note does not answer it. The writer either develops that question through the relevant mathematics or retains the possible connection for another occasion.
 
@@ -48973,17 +49056,17 @@ A later question about squares can enter through the same concern with what an o
 
 An engineer has the notes in :5.1, including their corrected question about availability and use. The engineer keeps an entry for “completed activity, receiving result still unavailable”.
 
-At an authorized support handover, a case note says: “Nightly exports finish on time; the senior analyst removes duplicates every morning. The customer proposes buying faster workers.” Private row contents remain in the customer's system. The engineer's permitted work is to examine the support question, not to change that system.
+At an authorized support handover, a customer asks whether faster export workers would make a checked report available by 08:45. The current export delivers the file by 08:00. The senior analyst starts at 08:30 and the required duplicate check takes at least 30 minutes. The proposed workers would only advance delivery of the file. Private row contents remain in the customer's system. The engineer may examine the support question and recommend further work.
 
 The engineer follows the entry and brings the earlier question to this episode: which result must “finished” supply to the analyst, and what work remains after that event? The comparison produces a note:
 
-> **A recorded completion can leave a receiving contribution to be performed.** Here the export has ended, but producing a usable report includes duplicate reconciliation. Faster export has not been shown to remove that contribution. The bench and review cases helped pose this question; they do not identify the export's cause.
+> **Time the result the customer needs.** With this staffing and check, the report cannot be released before 09:00. Earlier export still leaves the analyst starting at 08:30. The proposed purchase cannot meet 08:45 on those terms. The bench and review notes suggested looking beyond the recorded completion event. The grounds for the answer come from this customer's schedule and required check.
 
-The connection states its limited transfer. The support case remains the source of this observation. A return to that case lets the engineer distinguish the customer's proposal from the proposed explanation. The note also leaves a question: under which receiving protocol is reconciliation needed, and what contribution could replace the manual work?
+This answers the purchase question. Suppose the customer also asks whether the manual reconciliation work can be reduced. Follow what happens to the data, which duplicate the analyst removes, and which transfer or check creates the work. A repeated delivery of a valid export and duplicate rows already present inside one export can both lead to a morning correction. Changing the resend procedure could affect the first cause while leaving the second untouched.
 
-Now use the subject information available in this constructed case. The current manual distinguishes protocol v1, which requires manual receipt reconciliation, from v2, which permits idempotent resend after absence of a receipt has been confirmed. The installed protocol is unknown. The engineer's useful support result is a conditional explanation and a request for that configuration fact through the authorized local service. Neither the resemblance to the earlier cases nor the finished note selects automatic resend.
+For the transfer question, the current manual distinguishes protocol v1, which requires manual receipt reconciliation, from v2, which permits idempotent resend after absence of a receipt has been confirmed. The installed protocol is unknown. The engineer can ask the authorized local service for that fact. The answer will determine which transfer rule applies. To recommend a change to the morning check, the engineer still needs grounds connecting the duplicates the analyst handles to that rule.
 
-A later signed configuration report says v2. The retained case question makes its contribution recognizable: it supplies the missing protocol fact. At the next permitted handover, the engineer reads the governing manual and the current case basis. Under the stipulated v2 rule, absence of the relevant receipt must be confirmed before the proposed resend. The configuration result has answered one question; it has not performed that check or the action. The recipient receives the case-specific explanation and needed next contribution, not the engineer's entire note collection.
+A signed configuration report identifies v2. At the next permitted handover, the engineer applies the manual to that configuration. It requires confirmation that the relevant receipt is absent before the proposed resend. The configuration report settles which rule applies. Evidence of what produced the duplicate and which checks the receiving arrangement requires would bear on the separate proposal to reduce manual work. The recipient can rule out the faster-worker purchase for 08:45 while those questions remain open.
 
 The ordinary case record retains the duplicate episode, the protocol question and the eventual report. It is sufficient to resume this same support case; copying those facts into a second case ledger adds no needed capability.
 
@@ -49113,7 +49196,7 @@ A division into “physics first, mathematics second, implementation last” als
 
 ### B.5.MPC:4 - Solution
 
-Construct the answer by connecting the contributions it needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through a small instance. If the connection is missing, construct it, obtain it from a suitable contributor, or return the missing result that prevents the next move.
+Construct the answer by connecting the contributions it needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through the argument or construction that answers the physical question. Trace an instance when it can expose an uncertain correspondence. If the connection is missing, construct it, obtain it from a suitable contributor, or return the missing result that prevents the next move.
 
 The long mantra keeps the whole question available while attention moves between contributions:
 
@@ -49135,9 +49218,9 @@ Identify the participants, interactions and configurations that could determine 
 
 State the applicable physical or operating rules. Explain why a rule supplies the needed relation and where it is an assumption. Wheel rotation yields a distance relation only under the chosen rolling and geometry conditions. Exclusive possession of a card supports an admission limit only when the entrance procedure connects possession to entry and return. A.3.3 helps construct configurations, retained state and allowed continuations; the subject practice supplies the laws and mechanisms those continuations use.
 
-Choose a sufficient account for the question. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
+Choose a sufficient account for the question. If the physical boundary or the procedure is yours to choose, ask which change in the arrangement could change the requested result while the description of one part stays the same. For an occupancy guarantee across entrances, follow the room boundary, the transfers each entrance permits and any relation between their card stocks. For yesterday's occupancy, establish which transfers actually occurred or what the available evidence bounds. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
 
-When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication cannot distinguish the cases needed by the question, obtain a different observation, use an adequate bound, or change the question.
+When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication leaves different required answers possible, seek a discriminating observation or a sufficient bound. If a weaker question is useful, explain what answering it contributes and what remains open for the original use.
 
 Return a proposed physical account and its consequences under stated conditions. An unknown interaction or calibration is a useful missing contribution when it determines which mathematical question can be constructed.
 
@@ -49167,7 +49250,7 @@ Choose the result the use needs: a value, distribution, statistic, bound or prop
 
 When a procedure is needed, construct its inputs, retained state, elementary operations and output interpretation. Explain how it obtains the mathematical result and why it terminates, or which property it preserves during continued interaction. C.29.2 supplies this formulation work; the relevant algorithmic or mathematical Method supplies the construction and its argument. B.5:4.2 and B.5:4.3 help recover a construction or a decisive proof step that the available explanation leaves inaccessible.
 
-Trace one instance with its meanings intact. In a two-colouring procedure, a waiting list records vertices to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
+When an instance helps establish the correspondence, follow what each step of it means. In a two-colouring procedure, a waiting list records vertices to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
 
 For a numerical approximation, carry the error that can affect the physical use. Separate rounding of a computed command from uncertainty in radius, calibration or physical response. For a resource claim, include the cost of obtaining the input, representing it and interpreting the output when those costs matter. Counting one graph-edge inspection as one operation is useful under an adjacency-list cost model; it does not estimate the effort of discovering the contacts.
 
@@ -49200,9 +49283,9 @@ Use an existing adequate implementation when this comparison is settled for the 
 
 Recover dependencies by asking, for each needed result, “What results and conditions make this operation possible, and what other operation could supply the same receiving need?” Keep the answer with the derivation, diagram or explanation. A short case may need only a sentence; a shared design may need a dependency diagram.
 
-An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command.
+An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command. Establish that the required premises can hold in the same configuration. A controller might accept the required count in absolute mode and offer relative commands only over a smaller range. Separate evidence for the count and for the relative mode leaves their combination open.
 
-An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound and an exact computation can be alternatives for deciding whether a limit can be exceeded. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
+An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound at or below the limit can establish that the limit cannot be exceeded. If the bound extends above the limit, a tighter bound or an attainable violation can settle what that bound leaves open. Computing the maximum when it exists is another route. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
 
 For a conditional physical consequence, one useful small rendering is:
 
@@ -49300,7 +49383,7 @@ A designer asks whether every gear in a connected arrangement can rotate while a
 
 Construct a finite undirected graph. A vertex represents one gear and an edge represents one of the stipulated external meshes. Assign colour 0 to one rotation direction and colour 1 to the other. An edge requires different colours at its endpoints. This expression makes the physical question a mathematical one: can the vertices be assigned two colours while satisfying every edge?
 
-The graph records contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If a contact is absent from the list, the result answers only the incomplete list.
+The graph records contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If some contacts are unknown, an odd cycle of established external meshes already rules out nonzero rotation of the gears in that cycle under the stated conditions. Additional meshes cannot remove that obstruction. A colouring of the known edges establishes compatible directions for those edges. To extend it to the entire arrangement, establish that all remaining meshes permit compatible directions, for example from a rule about how the two groups may mesh.
 
 Obtain either a colouring or a witness of failure by the following procedure.
 
@@ -49412,7 +49495,7 @@ Use these checks on the claimed joint result and its explanation. They establish
 | CC-MPC.1 — Receiving question | The explanation identifies the physical difference to be resolved and what the supported answer enables. |
 | CC-MPC.2 — Physical premises | Participants, interactions and operating conditions are sufficient to recover the mathematical question; consequential assumptions remain distinguishable from observations. |
 | CC-MPC.3 — Interpretable construction | Important quantities, structures and operations have meanings that survive the construction, and a lost distinction either leaves the use intact or changes the returned result. |
-| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation is supplied for the stated case, with the decisive argument and its conditions. A missing operation is named as missing. |
+| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation reaches the requested instance or range under its stated conditions. A result about part of the arrangement identifies what it establishes for the whole question and any operation still needed. |
 | CC-MPC.5 — Executing arrangement | Any realization claim connects preparation, system operations and result reading. Range, units, initial state and ordering are recovered wherever they change the inference. |
 | CC-MPC.6 — Joint and alternative dependencies | Jointly needed contributions remain together; alternative routes each satisfy the receiving need under their own conditions. A shared premise remains shared across alternatives. |
 | CC-MPC.7 — Notation in use | The expression supports the needed operation under explained or familiar rules; new subject conclusions are justified by that operation rather than presented as mere re-expression of givens. |
@@ -49633,7 +49716,7 @@ A mathematical account may support several physical interpretations. Compare the
 
 #### B.5.MPC.R:4.4 - Construct the repair that the receiving use needs
 
-Choose the contribution that can remove the located incompatibility. The choice follows its cause and the wanted result.
+Choose the contribution by the result the recipient needs. To explain a particular failure, seek what distinguishes its possible causes on that occasion. To restore a required behavior, a change shown to work across the remaining causes can suffice while their identity stays open. When a repair is to serve future operations, derive its required range from their permitted inputs, timings and uses. A successful rerun of the original case covers that range only with grounds for the other permitted conditions.
 
 - If the requested unknown changed, retain the interpreted relations, release the former fixed value where appropriate and derive the new computational direction.
 - If a representation merged cases that the question must distinguish, retain the missing information, obtain a different observation or use a result that the merged representation supports.
@@ -49653,7 +49736,7 @@ Compare the repaired contributions on the input or physical case. For a mathemat
 
 Keep the comparison at the claim's scope. A conditional calculation can establish what a proposed arrangement would do under its assumptions. Actual performance requires the observations and inference appropriate to that use.
 
-If the comparison fails, follow the remaining disagreement. Do not repeat a test that leaves the live alternatives indistinguishable. Change the question or obtain the missing contribution when the means cannot settle it.
+If the comparison fails, follow the remaining disagreement. Seek information that can distinguish the alternatives that change the answer. If the means available cannot settle the commissioned question, return the supported result and the remaining gap. A proposed change of question then carries that information to whoever can choose the continuation.
 
 #### B.5.MPC.R:4.6 - Return the physical consequence and the next useful action
 
@@ -49681,7 +49764,7 @@ Suppose the requester chooses T=8 s. The required command is u=0.625, giving v=0
 
 During a diagnostic run, a debugger freezes the program and its timer for three seconds. In this example the output retains u=0.625 and the motor continues to run. The stop is therefore issued after eleven seconds of physical operation, giving d=0.125\*11=1.375 m under the model.
 
-The disagreement concerns execution timing. The equation and chosen command remain appropriate to eight seconds of motion. If the question concerns an uninterrupted run, observe that run under its intended timing. If such pauses can occur in the required operation, provide a stopping mechanism whose elapsed-time behavior survives the pause, or revise the control arrangement accordingly. Test its physical completion at the condition the use needs.
+The disagreement concerns execution timing. The equation and chosen command remain appropriate to eight seconds of motion. For a prediction about uninterrupted operation, use the eight seconds of motion under the stipulated model. For a claim about an actual uninterrupted run, establish its timing and displacement from evidence about that run. If such pauses can occur in the required operation, provide a stopping mechanism whose elapsed-time behavior survives the pause, or revise the control arrangement accordingly. Test its physical completion at the condition the use needs.
 
 For example, suppose an independent timer can remove the motor command and continues to run while the controller is paused. Start it with the command and set it to remove the command after eight physical seconds. Under the example's immediate-start/stop model, motion then lasts eight seconds and covers 0.125\*8=1 m, including a run with the three-second program pause.
 
@@ -49705,7 +49788,7 @@ To determine which frequency is present, change a contribution that distinguishe
 
 For a physical measurement, obtain the needed sampling and input-conditioning behavior from the instrument account. Frequencies outside the admitted band, timing error and an unsuitable analog input path can reopen the interpretation. A filter that removes the signal of interest changes the measurement question rather than recovering its frequency.
 
-The repair is a changed acquisition and interpretation, with a recomputation on the new data. The receiving user can distinguish a physical-frequency estimate from an unresolved alias. If the old record is all that is available, return the remaining alternatives instead of selecting one without further grounds.
+The new record identifies the frequency during its own acquisition. To use it for the earlier signal, establish that the source kept the same frequency or recover independent information about the earlier interval. For the ideal unit cosine above, the original sample at n=1 requires cos(2πf/100) = cos(2π·10/100). Thus f = 100k ± 10 Hz for an integer k. In the admitted range only 10, 90 and 110 Hz remain. All exceed 5 Hz, so the old record already settles that threshold for its own interval. They straddle 50 Hz, leaving that threshold and the exact original frequency open.
 
 #### B.5.MPC.R:5.3 - The voltmeter changes the circuit being inferred
 
@@ -49820,7 +49903,7 @@ Use this pattern when a description points to a result you need, but you cannot 
 
 Here, a **construction** is a way of obtaining an object by applying operations to given objects. In a mathematical construction, those operations form mathematical objects. In an assembly method, they may produce a design or a physical assembly; identify which result the description promises. The relevant practice supplies the operations and their application conditions.
 
-**First useful move:** name the result needed for the next use, then find the operation that could produce it and what that operation requires. Follow those requirements back to available starting material. Work a small instance forward to recover the missing connection.
+**First useful move.** Name the result needed for the next use. Find an operation that could produce it and follow its prerequisites back to available starting material. Work forward on the actual inputs or on a smaller case that preserves the missing connection.
 
 This method needs access to the description and enough subject knowledge to interpret its objects and rules. Use an adequate known construction. If the task is to invent a method where no usable account is available, use C.39 for that development; a missing operation discovered here can become its input.
 
@@ -49850,9 +49933,9 @@ Recover the construction in two connected directions: from the required result t
 
 Say what the next user needs to obtain and what they will do with it. Recover the conditions that distinguish a usable result: for example, a triangle on a supplied side, a display design that uses the supplied fittings, or data in the format required by a calculation.
 
-Identify the starting objects and information available. Distinguish an object supplied by the task from one the construction must produce. If a property alone answers the question, keep that smaller task. When an instance is needed, locate the operation that could obtain one.
+Identify what the task supplies and what it leaves you to construct. For an exact reproduction, recover which objects, operations or resulting features must be the same. When an equivalent result is allowed, work back from the property its recipient needs. For a display stand, two panels that fit the same upright may put different loads on its base. Follow that difference as far as it affects the requested design. If proving existence settles the question, the proof can finish the work. If a particular object is due, locate the operation that can produce it.
 
-Choose a small case that retains the troublesome dependency. A case that omits the unfamiliar operation cannot resolve how that operation works.
+Use the actual input when it exposes the missing operation. A smaller case is useful when it retains the troublesome dependency and makes the operation easier to recover.
 
 #### B.5.RC:4.2 - Recover the operations
 
@@ -49880,7 +49963,7 @@ If tracing returns to a result that it requires, examine the source. It may desc
 
 A missing operation gives a focused question: “How is this intermediate object obtained under these conditions?” Return to the relevant source passage or specialist with that question. When you propose an operation yourself, treat it as a contribution to the construction and establish the conditions for using it.
 
-#### B.5.RC:4.4 - Work the small case forward
+#### B.5.RC:4.4 - Carry the construction forward from its inputs
 
 Begin with the available inputs. Apply an operation when its prerequisites and conditions hold, retaining the output needed by later operations. At an unfamiliar transition, write, draw or perform enough of it to see what changes.
 
@@ -49897,6 +49980,7 @@ Recover why the constructed object has the property the next use requires. An au
 The stopping point can be:
 
 - the required object and a sufficient account of the property being used;
+- an answer about existence or impossibility, with the grounds that establish it, when that was the question;
 - a conditional construction whose unresolved condition matters to the next decision;
 - an identified missing input or operation, with enough context to obtain it.
 
@@ -49916,21 +50000,17 @@ For a small case, place A at (0,0) and B at (2,0). The circles have equations x�
 
 The property follows from how C was obtained: AC and BC are radii of circles of radius AB, so AC=BC=AB. The coordinate calculation also supplies the intersection in the Euclidean-plane account used for this case. A description formulated under a different set of construction rules must obtain that intersection under those rules.
 
-The recovered dependency is reusable for another positive side length. The value of the coordinates changes, while the two equal-radius circles and the common-point construction retain their roles. If A and B coincide, the initial requirement of a nondegenerate triangle fails; that case needs distinct endpoints before this construction can begin.
+To see why the same two-circle construction works for any two distinct endpoints in the Euclidean plane, use their midpoint as origin and AB as the horizontal axis. For a side of length d, the circle equations give a horizontal coordinate of zero and a vertical coordinate of either √3 d/2 or −√3 d/2. Both points are at distance d from each endpoint. Either point answers an order for one triangle. An order for every possible third vertex needs both, and the circle equations give only those two. Coincident endpoints cannot be the side of a nondegenerate triangle.
 
 The Euclidean account supplies the circle and segment operations and their justification.
 
 #### B.5.RC:5.2 - Recovering a display-stand assembly design
 
-A specification asks for a portable display. It supplies a base, an upright and a panel, together with these rules: the upright can be joined to the base when their fittings match; the panel can be attached to the mounted upright when their fittings match.
+A team receives a drawing of a display stand and a base, upright and panel. The organizer wants a stand made to the drawing and asks whether its complete packed kit meets a 10 kg carrying limit. The drawing shows how to join the upright to the base and attach the panel to the mounted upright. Each operation requires matching fittings.
 
-Working backward from an assembled display yields a mounted upright and a compatible panel. Recovering the mounted upright yields the base, upright and their fitting condition. Working forward gives the assembly order: join base and upright, then attach the panel.
+Work back from the mounted panel. It requires a compatible panel and an upright already connected to the base. Work forward on the supplied parts. The base and upright fit, but the supplied panel has a different fitting. That prevents assembly with this set. If the drawing specifies a particular panel, obtain the matching specified part. If the organizer permits alternatives, a compatible panel or an adapter may also be considered. An adapter adds a part and a joint. Check each changed connection and any load requirement it affects under the proposed arrangement.
 
-Inspection of the supplied parts reveals that the panel fitting differs from the upright fitting. The method has localized the obstruction. Available continuations include obtaining a compatible panel, developing an adapter with usable connection rules, or choosing another assembly design. “Assemble the display” alone does not select among them.
-
-Suppose a compatible panel is supplied. The recovered design connects the three components in the required order. Portability is assessed against the carrying requirement, and stability against the loading and support conditions. Those engineering questions can change the design, but they are distinct from the recovered answer about how its parts connect.
-
-The first result is the assembly design or the fitting mismatch that prevents it. Physically assembling and testing the stand are subsequent work selected by the intended use.
+Suppose the specified panel arrives and its fittings match. The team can now give the assembly sequence. For the carrying decision, identify everything that must travel together. Suppose the verified upper bounds for the base, upright, replacement panel, fittings and case sum to 9.5 kg and cover the complete kit. This establishes the mass requirement before packing, even if the exact packed mass is unknown. A request confined to how the parts connect can end with the sequence. Delivery of an assembled stand still requires someone to assemble and deliver it.
 
 ### B.5.RC:6 - Bias-Annotation
 
@@ -49942,7 +50022,7 @@ Examples can also narrow the apparent method. The circles in :5.1 and fittings i
 
 For the construction being recovered:
 
-1. The needed result and its next use are clear enough to select a useful small case.
+1. The requested object, property or reproduction determines what may vary and whether to work directly on the original or through a smaller case.
 2. Starting objects are distinguished from the intermediate objects to be produced.
 3. Each operation needed by the case has recoverable inputs, application conditions and output.
 4. Joint prerequisites, shared objects and alternative constructions retain their different effects.
@@ -50060,6 +50140,8 @@ Work backward from the conclusion through the claims or constructions it uses. A
 
 Keep jointly needed premises together. Preserve a sufficient alternative as a separate way to reach the conclusion. Track a shared premise wherever a later step uses it; repeated uses of one assumption do not provide independent support for that assumption.
 
+Read a claim about a whole back onto its subject. Which parts have to work together for the conclusion to follow? Could each fact cited about a part remain true while a different arrangement changes the answer? Recover the ground for the connection that matters. In :5.2 three intact copies can share an unavailable key. The inventory can answer a question about the number of copies while leaving recovery of the drawing open.
+
 Distinguish a premise supplied for the argument, a result established earlier and a temporary assumption used inside a subargument. Recover the point at which a temporary assumption is discharged and what then follows. If this logical form is unfamiliar, obtain the relevant explanation before treating the subargument's assumption as an established fact.
 
 Use established results at the level needed for the task. If the question concerns what a lemma permits, its statement and conditions may suffice. If the question concerns how to alter the lemma's proof, recover its internal reasoning.
@@ -50070,7 +50152,7 @@ For a transition you cannot follow, recover the relevant definition, rule, earli
 
 A useful self-explanation supplies this relation. “I understand this line” reports confidence; a paraphrase repeats the claim. Neither supplies the omitted inference when that is the difficulty.
 
-Work a small instance when it helps reveal the operation or dependence. Then return to the stated scope: the instance may illustrate a general step, while the general conclusion depends on the argument for all cases in its domain.
+Work a small instance when it helps reveal an operation or dependence. Identify what carries the inference through the stated domain. In :5.1 the step for an arbitrary integer holds throughout the range, including when shown in a drawing. Substituting 3 checks one value. One admissible failure would suffice to refute an assertion made for every value.
 
 If the source's resources do not close the gap, ask for the missing step with its premises and desired result. A proposed repair is new reasoning until it is justified. Keep the consequence conditional when a premise remains unresolved and conditional use is sufficient.
 
@@ -50198,14 +50280,14 @@ The result is a usable recovery choice or a focused request for a missing contri
 
 A seminar organizer receives the message: ‘The slides should display correctly. Dana says the projector is compatible, and yesterday's rehearsal worked.’ The organizer needs to decide whether another display test is needed before using projector P with laptop L and adapter D. The relevant technical claim C is: **the current PDF can be displayed at 1080p by this setup**.
 
-**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors, has relevant technical expertise, and confirms her claim: ‘The current PDF can be displayed at 1080p using P, L and D at the current settings.’ Separately, the organizer inspected all pages of the current PDF during the rehearsal and found them displayed correctly at 1080p. Recover the condition S: the equipment, PDF and settings relevant to this result have not changed.
+**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors and reports that the setup used for yesterday’s rehearsal, with P, L and D at those settings, can display the current PDF at 1080p. Separately, the organizer inspected all pages of that PDF during the rehearsal and found them displayed correctly at 1080p. To use either ground for the planned showing, establish condition S: the relevant equipment, PDF and settings from the rehearsal will apply there.
 
 The expertise and the assertion work together in the first reason. Neither ‘Dana is an expert’ alone nor an unattributed compatibility sentence supplies that reason. The rehearsal is a different ground: it is an observed instance under the required setup. Its use for another showing depends on S and on the ordinary technical judgement that the successful test remains applicable. It is not a deductive guarantee of future operation.
 
 The following outline is an argument map. Braces group premises used together; arrows mean support for C, not physical causation or event order.
 
 ```text
-R1: {Dana has relevant expertise; Dana asserts C for P/L/D; S}
+R1: {Dana has relevant expertise; Dana says the rehearsal configuration can display this PDF at 1080p; S}
     --expert-opinion inference--> C
 R2: {the organizer observed the current PDF displayed correctly on P/L/D; S}
     --applicable rehearsal result--> C
@@ -50219,9 +50301,9 @@ R1 and R2 are separate grounds, but they share S. R2 is not merely another repor
 
 Suppose a test with D2 then shows that the current PDF is not displayed under the intended settings, after the operator checks the connections and follows the equipment's setup instructions. This is a new opposing observation for that tested setup. The organizer can report that the attempted display failed and return to technical diagnosis; the observation alone does not identify which component caused the failure.
 
-**Separate the technical result from the practical proposal.** ‘Therefore use P’ introduces another inference. It needs the seminar's display requirement, an available way to keep the tested setup, and comparison with relevant alternatives and costs. If using P prevents another booked session from running, that consequence can defeat the proposal while C remains supported. PSDA.5/.6/.8 supply the option, value and consequence work. The receiving decision uses the qualified technical result instead of expanding it into a recommendation.
+**Decide whether another test is needed.** If the organizer may rely on a successful rehearsal of the current PDF and unchanged setup, the observed rehearsal meets that condition. If the seminar requires a fresh test after an adapter change, replacing D made such a test due. The failed trial with D2 supplies its outcome. To display the slides, the organizer can now restore the earlier configuration if still available and permitted, or arrange a working alternative.
 
-The return is a conclusion with its surviving reason and its next change condition: use the rehearsal for the unchanged setup; reopen compatibility after replacing the adapter; treat the later failed display as a result to diagnose. Another person can challenge a connection and see what needs to be redone.
+Choosing between venues is a further decision. Even a working projector could be needed for another booked session. If the organizer must also choose the venue, compare the available arrangements, their consequences and costs through PSDA.5/.6/.8. The decision about needing another test can stand on its own.
 
 #### B.5.RA:5.4 - From an ambiguous message to a conditional venue argument
 
@@ -50306,7 +50388,7 @@ For the argument and use being recovered:
 3. The needed transitions identify their premises, inference or operation and result.
 4. Joint premises, sufficient alternatives, shared assumptions and temporary assumptions retain their different roles.
 5. The reader can perform the intended use or identify the missing transition or premise that prevents it.
-6. A small instance supports the explanation at its stated scope; a general conclusion has its corresponding reasoning.
+6. A general conclusion has grounds covering its stated domain. Any instance used supports the claim made on its basis.
 7. Further checking is selected for an unresolved question, and adequately supported parts remain reusable.
 
 For an argument using :4.4a, also inspect whether the claims preserve the source's scope, conditions and attribution; a consequential competing reading has been resolved or retained; and the selected scheme fits the offered reasoning. Intermediate conclusions and joint reasons must expose the dependency.
@@ -50326,7 +50408,7 @@ These are questions about the recovered reasoning. Their answers may be evident 
 | Checking local steps while failing to explain why a lemma or construction appears | Recover the difficulty that contribution resolves and connect it to the conclusion. |
 | Treating several uses of one premise as several independent grounds | Keep the common prerequisite visible and examine its role in the needed branches. |
 | Promoting a temporary assumption to an established premise | Recover the subargument and the conclusion obtained when that assumption is discharged. |
-| Using one example to claim that the general statement has been proved | Recover the argument that covers the stated domain; retain the example as an illustration of it. |
+| Extending a successful calculation on particular inputs to every allowed input | Recover the step that holds for an arbitrary input or establish that the cases considered exhaust the domain. An admissible failure can settle a claim of universal success. |
 | Demanding a complete reproof when the task only needs an established result under its stated conditions | Use that result at the needed level; open its internals when the new question requires them. |
 
 ### B.5.RA:9 - Consequences
@@ -50430,6 +50512,8 @@ Start with the receiving question, follow the affected reasoning and derive the 
 
 Compare the earlier question with the present one. State the result needed and the changed condition in terms that can be used in the reasoning. For a calculation, that may be a new range or an input that is now an unknown. For an empirical conclusion, it may be an observation, a changed population or an operating condition.
 
+Establish who has changed the question. A recipient may commission a new result. You may also try a different question as a way into the one still assigned. Could two situations give the same answer to your question and different answers to the recipient's? If so, recover what distinguishes them for the assigned use. In an inquiry whose direction is yours to choose, you can pursue a newly interesting question on its own terms.
+
 Distinguish a change in the situation from a correction to your account of it. A measurement taken yesterday can remain a sound report of yesterday while being insufficient for today's operation. A proposed condition can be explored without replacing the account of what has happened.
 
 Keep the meanings of the quantities and claims visible. If the same term denotes a different quantity, translate the question before substituting its value. If only the spelling or presentation changed and the established application fits, no reasoning revision is needed.
@@ -50464,7 +50548,7 @@ Relate the revised conclusion to the result requested in §4.1. It may supply th
 
 For a mathematical argument, carry the domain and assumptions into its conclusion. For an empirical application, examine the changed observation or applicability premise using the relevant subject method. Recomputing a model can establish its new consequence while leaving its correspondence with the physical situation unresolved.
 
-If the original target is unattainable under the retained conditions, use the obstruction to propose a changed condition or a different question. Keep that proposal visible as a choice. A weaker result can be useful without silently replacing the requested result.
+If the question asks whether a result is attainable under fixed conditions, a proof of impossibility answers it. If the recipient still needs a usable object or arrangement, explain what the obstruction rules out. You can propose a change to a condition the recipient has authority to revise. Carry the answer under the original conditions with the proposal so the recipient can decide whether to commission the changed work.
 
 Obtain further evidence or checking when its possible outcomes can change this use. C.11.DUA helps compare that contribution with its cost. The method can finish with a conditional result when conditional use is sufficient.
 
@@ -50490,7 +50574,7 @@ For n=4, the new sum is 3+5+7+9=24. The old formula applied unchanged would retu
 
 This repair also exposes a reusable construction. For n terms starting at a and increasing by 2, term j, counted from j=0, is (2j+1)+(a−1). Summing the established odd-number terms and the n equal additions gives n²+n(a−1). Changing the increment would require another derivation. The worked extension makes the next question precise.
 
-For the next use, retain four terms and the increment 2, but require their sum to be 28. The former starting value a=3 becomes the unknown: 16+4(a−1)=28 gives a=4. Checking 4+6+8+10=28 confirms the required sum. If there are zero terms and the required sum is positive, no starting value can supply it: the empty sum is zero for every a. The changed question then requires a different term count or total.
+Suppose a recipient keeps four terms and the increment 2, allows any integer starting value, and requires a sum of 28. The starting value is now the unknown. Solving 16+4(a−1)=28 gives a=4, and 4+6+8+10=28 checks the result. If the terms must still be odd, this same calculation proves impossibility since the only possible starting value is even. For zero terms, the empty sum is zero for every a, so a positive required sum is impossible. Either impossibility answers a feasibility question. Changing the term count, permitted values or total would be a new design choice.
 
 #### B.5.RR:5.2 - Losing one way to recover a report
 
@@ -50611,19 +50695,21 @@ Construct a model by selecting distinctions, proposing their relations and makin
 
 State what alternatives the answer should distinguish: whether an intervention can reach a target, which arrangement could explain an observation, how many constructions meet a rule, or what condition prevents a result.
 
-Inspect a small instance or the available arrangement. Describe the supplied facts separately from the account you propose. Ask what changes between the cases that matter. The first question can be provisional; preserve a new question when the attempted construction reveals a more useful distinction.
+Start from the rule, observations or arrangement that bear on the question. Inspect a small instance when it can expose a consequential difference. Describe the supplied facts and the account you propose. If the construction reveals a better question, ask what its answer would contribute to the investigation already in hand.
 
 If the participant cannot express what differs or matters, B.5.EA helps articulate that contribution before model construction. Return here when the resulting distinction permits a question or contrast; do not require this preliminary work when the contrast is usable.
 
 When the account is clear but leaves you unsure which question matters, the scheme comparison in :4.2.1 can expose a useful distinction. A discovered question may have an adequate answer; use it without requiring a larger model.
 
-An existing answer may resolve the contrast. Use it under its conditions. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
+Determine what the recipient needs from you. An existing answer may settle a decision. A request for a model they can use under changed conditions also needs the participants, relations and limits that let them derive the new consequence. Where the question is fixed, retain any newly discovered question for the work it can inform and return to the one commissioned. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
 
 #### B.5.FM:4.2 - Choose the participants and distinctions
 
 Follow what can be transformed, exchanged, combined, constrained or observed. Propose the objects and relations needed to describe those changes. For a physical situation, an interaction may cross the first proposed boundary: air surrounding a vessel or a path through its casing can matter to the answer.
 
-Try a consequential variation. If two situations receive the same description but permit different answers, recover the distinction that separates them. An object can need several quantities; several objects can sometimes be represented together. Choose the coarsening from the inference it must preserve.
+When the choice of scale is yours, start with what the recipient has to judge. Hold a part fixed and vary how the whole uses it, or hold a reported total fixed and vary the arrangement that produces it. Follow the constituents whose variation could change the answer or its explanation. Determine what counts as a constituent for each kind involved. A proposed Method has operations, a particular job has performances, and the evidence for what happened may come from a record of that job. Connect them where the question requires it. C.39.SA:4 develops this choice.
+
+Try treating some of the remaining situations alike. If they require different answers, different grounds the recipient must explain, or actions that cannot be chosen on the available information, recover the lost distinction. If the order asks for one workable choice, a choice shown to work in every situation left open can suffice even when other choices differ. An object can need several quantities, and several objects can sometimes be represented together.
 
 For a question about permitted continuations, A.3.3 helps construct a sufficient state description. For an observation, C.16 helps connect the quantity of interest to what the observation reports.
 
@@ -50645,7 +50731,7 @@ When a relation appears absent, distinguish the following outcomes:
 
 An empty position in a diagram establishes none of these outcomes by itself. If adapting a scheme changes a relation's meaning, state that change and reconsider the conclusions that depend on it.
 
-Try two plausible answers when that cheaply reveals what is at stake. If both permit the same sufficient continuation, stop the additional inquiry. Otherwise formulate the question in the participant's working language and say what answer would help: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden.
+Compare plausible answers when that cheaply reveals what is at stake. A difference that changes the continuation gives a reason to inquire. Use the decision criterion the work requires. For a guarantee, a rule or a bound may establish that one action works in every admissible situation. When the recipient can observe a condition before acting, assess the resulting choices together. For a decision based on risk or expected outcome, apply the agreed measure. If the choice is still open, formulate what would help in the participant's working language: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden.
 
 Use the resulting answer or continue constructing the model it needs. A subject specialist or AI can supply a relation, correspondence or calculation; the required knowledge and access depend on that contribution.
 
@@ -50665,7 +50751,7 @@ Use an expression that lets you carry out the next inference: an annotated sketc
 
 #### B.5.FM:4.4 - Obtain the smallest useful consequence
 
-Work one case through the proposed relations. A direction of change, a limiting value, an obstruction or a small construction may answer the question before a detailed numerical model is needed.
+Derive a consequence at the reach the question needs. Working one case can settle a question about that case, exhibit a feasible construction or refute a universal claim. For a consequence claimed across a range, identify a rule or bound that covers the admissible variations. In :5.3 the rule for extending any valid prefix supplies the counts at subsequent lengths. Computing the count at length four illustrates one use of that rule.
 
 Show which premise makes the consequence follow. If calculation or simulation is needed, C.29.2 supplies computational formulation and C.29.3 supplies realization. If the reasoning is available but difficult to follow, B.5.RA helps recover the decisive inference.
 
@@ -50751,7 +50837,7 @@ Twelve people have accepted a 60-minute workshop. There are twelve seats and one
 
 Use the relation between attempted action, observation and feedback to ask whether the intended practice can occur in the session. The sequential arrangement requires `12 * (4 + 2) = 72` minutes before any introduction. The next question is which arrangement can supply the intended practice and feedback within the available time. Reducing attendance, increasing duration or changing the learning arrangement have different consequences. Merely pairing learners supplies the required feedback only if they can provide that contribution.
 
-Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
+Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. If the order allows station feedback and each station supplies the four-minute attempt and two-minute feedback in parallel with the others, assign one learner to each station for the same six minutes. Compare the remaining activities with the 54 minutes available. If the order specifies observation by the instructor, feedback from the stations alone leaves that part of the order open. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
 
 The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
 
@@ -50882,7 +50968,7 @@ An added assertion can repeat what already follows. For that inquiry the two mod
 
 ##### B.5.MR:4.2.2 - Construct or select an abstraction
 
-Identify the conclusion the receiving work still needs and the determinations on which it depends. Decide which other determinations may be left open. Construct a model that leaves them open, or select an existing model that does so.
+Start from the conclusion the recipient must draw or the choice they must make. Try releasing a determination in the starting model. What additional completion would this admit, and could it change that conclusion or the grounds the recipient has to give? When the model describes several parts, try varying their arrangement while keeping the proposed facts about each part. Retain a relation between them if it rules out a joint possibility that would change the answer. Construct an abstraction from the determinations still needed, or select one whose assertions preserve them.
 
 Compare the starting model as C with the proposed abstraction as A under section 4.2: C must have a completion, and every completion of C must satisfy A under the established interpretation. Then check the needed conclusion over the answers A admits. Identify any prior conclusion that no longer follows and the determination on which it depended; report when no conclusion is lost for the inquiry. If the needed conclusion is lost, retain that determination or choose a different abstraction.
 
@@ -50900,13 +50986,13 @@ Read **L0 → L4 as levels of model abstraction** and **L4 → L0 as levels of m
 | L1, local | Conditions shared by a particular setting or recurrent local population. |
 | L0, individual | The identity of the particular entity or occurrence being modeled. Its unobserved characteristics can remain open. |
 
-**Use the levels when deciding what a result establishes.** State the decision and what the model for that decision must specify. Identify the model actually available. An L0 model that identifies a delivery can contain its planned arrival. To decide whether that delivery met its deadline, compare the verified actual arrival with the deadline in force. To decide whether a scheduling rule at L2 guarantees all its deadlines, examine why the rule covers every permitted schedule. One admissible schedule that misses a deadline defeats the claim that every permitted schedule meets its deadline. For a target of 95 percent of actual deliveries on time, assess the eligible deliveries in the specified population and period. Count a late arrival when it occurred there. A calculation using the rule can check its consequences while leaving open who designed it. Carry the result to the decision through the grounds for that particular inference in C.39.QR:4.2–4.3. Accept the conclusion those grounds support and identify what would settle the outstanding claim.
+**Use the levels when deciding what a result establishes.** State the decision and what the model for that decision must specify. Identify the model actually available. An L0 model that identifies a delivery can contain its planned arrival. To decide whether that delivery met its deadline, use evidence that relates its arrival to the deadline in force. An authenticated indication that it arrived before the cutoff can settle the decision even when its exact arrival time remains unknown. To decide whether a scheduling rule at L2 guarantees all its deadlines, examine why the rule covers every permitted schedule. One admissible schedule that misses a deadline defeats the claim that every permitted schedule meets its deadline. For a target of 95 percent of actual deliveries on time, assess the eligible deliveries in the specified population and period. Count a late arrival when it occurred there. A calculation using the rule can check its consequences while leaving open who designed it. Carry the result to the decision through the grounds for that particular inference in C.39.QR:4.2–4.3. Accept the conclusion those grounds support and identify what would settle the outstanding claim.
 
 Check each pair for one inquiry under §4.2. Establish which earlier assertions every remaining design or permitted performance satisfies. Show that at least one remains. If the step is strict, name an answer that can no longer be obtained. The same test applies to two models of one design or method, including when both are disciplinary models.
 
 If a site adopts a disciplinary rule with the same interpretation and adds no constraint on the action in question, write “the site uses the L2 rule unchanged.” The L1 practice model records the site's adoption of the rule for recurring work. If asked at what level the rule specifies the permitted action, keep L2. Claim a further level of refinement for that action only when the local model excludes a previously permitted answer. Several strict refinements can occur within one named level. If a rule permits a check at either site, specifying the first site excludes the second answer to “Where may this check take place?” If both sites have to be checked, dropping one abandons an obligation.
 
-A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1.
+A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1. A change of composition scale gives a refinement claim only if the models can also be read for the same inquiry and pass §4.2. Use C.39.SA:4 if choosing which constituents and which model distinctions to keep is itself part of the work.
 
 Core, DPFs and LPFs supply models that can participate in such comparisons. A publication or discipline does not itself have one abstraction level. Binding a parameter can refine a model without changing its language; changing professional vocabulary can preserve all its admitted answers. A richer representation language can also express a model applicable to more situations. Compare the interpreted assertions for the inquiry.
 
@@ -50918,7 +51004,9 @@ A metamodel states conditions on admissible models, such as which field or relat
 
 A project commissions a temperature recorder for one installation. The earlier specification permits records at whole-minute intervals of one or two minutes. The new specification permits only one-minute intervals and preserves the units, clock and operating conditions. A one-minute record is still eligible. A two-minute record is excluded. For the inquiry about permitted sampling intervals, this is strict refinement. If the recipient asks only whether every hour contains a reading, both specifications give the same answer. Whether the installed recorder met its specification last night requires observations of that recorder.
 
-Suppose a receiving comparison needs to know whether each recorder specification ensures at least one reading in every hour, without deciding between one-minute and two-minute intervals. Reuse the earlier specification as an abstraction of the one-minute specification. Every completion of the latter still satisfies the former, and both permit a completion. The abstract specification retains the hourly conclusion over all its permitted intervals. It no longer entails that the interval is one minute. For an inquiry that distinguishes the intervals this is strict abstraction; for the hourly inquiry the answers remain equivalent.
+Suppose a receiving comparison needs to know whether each recorder specification ensures at least one reading in every hour, without deciding between one-minute and two-minute intervals. Reuse the earlier specification as an abstraction of the one-minute specification. Every completion of the latter still satisfies the former, and both permit a completion. The abstract specification retains the hourly conclusion over all its permitted intervals. It no longer entails that the interval is one minute. For an inquiry that distinguishes the intervals this is strict abstraction. For the hourly inquiry the answers remain equivalent.
+
+Now consider two recorders required to use the same interval, either one or two minutes. Describing each by its allowed intervals and allowing the settings to vary independently admits the former pairs (1,1) and (2,2), as well as (1,2) and (2,1). For the inquiry about permitted pairs this is a strict abstraction. Each recorder still supplies an hourly reading under either setting. If the recipient must also be sure the intervals match, retain the common setting while leaving its value open. Both comparisons concern the same two recorders. The difference lies in what the models permit.
 
 A work method screens requests under a criterion and then refers unresolved ones for a second judgement. A local revision adds a deadline to the referral while preserving the screening rule. A referral after the deadline was admissible under the earlier timing rule and now falls outside the local prescription. A second revision silently accepts some requests previously requiring referral. Compare that changed decision with the original rule before relying on it. An excellent record of one compliant case cannot settle the claim for the newly admitted cases.
 
@@ -50974,7 +51062,7 @@ Use this pattern when a theory offers a promising way to answer a question, but 
 
 The work here is to construct one application of the theory. Begin with the question and the available account; obtain and interpret the contribution that question needs. The result can be a construction, prediction, explanation, bound or identified missing operation. A mathematical question about what can be constructed is a possible receiving use, as is an engineering decision.
 
-**First useful move.** Choose one question the theory might settle. Find a source case or rule that could supply its answer. Say what plays each required part in your case, work the decisive operation, and explain what its result changes. If you cannot make that connection, locate the first missing premise, interpretation or operation.
+**First useful move.** Begin with the question you are to answer. If choosing an application is part of the work, select a question the theory might settle. Find a source case or rule that could supply the needed contribution. Say what plays each required part in your case, work the decisive operation, and explain what its result changes. If you cannot make that connection, locate the first missing premise, interpretation or operation.
 
 For example, a theory of composition lets you combine two operations. Does it let both consume one input, or does the combination require two separately supplied inputs? Recovering that distinction can change the proposed implementation before any code is written.
 
@@ -51002,9 +51090,9 @@ Connect the question, the theory's constructive or inferential resources, and th
 
 #### B.5.TU:4.1 - Choose an application worth constructing
 
-State what an answer would help someone understand, obtain, predict, rule out or change. Select one case small enough to work with the available means while retaining the difficulty. For example, “Can these two operations use the same input?” gives composition rules a purpose; “understand category theory” leaves that first use unselected.
+State what an answer would help someone understand, obtain, predict, rule out or change. If the application is assigned, begin with that question. For a smaller case, identify the operation or inference its result will supply when you return to the assignment. The question “Can these two operations use the same input?” can expose a missing composition rule. Permission to use a formal input twice still leaves open whether a particular implementation can supply both operations.
 
-Locate a source application serving that question, or the nearest account whose objects and rules could be adapted. State which part is supplied and which you are proposing. A theory can also be explored to discover a useful question: try one of its characteristic operations and inspect what its result makes distinguishable or obtainable.
+Locate a source application serving that question or an account you could adapt. Identify which choices the source has made and which the present application leaves to you. When exploring a theory freely, try one of its characteristic operations and inspect what its result makes distinguishable or obtainable. That can give you a question worth pursuing in its own right.
 
 Determine the contribution you need to learn or obtain. Applying a supported formula can need its inputs and use conditions; changing the formula can need its construction and argument. Explain the needed difference in work before selecting further study.
 
@@ -51020,7 +51108,7 @@ Make an unfamiliar expression operative at the point of difficulty. Determine th
 
 Connect each consequential object and condition to the selected case. Some are supplied by observation or design; some are assumptions of the model; others belong to the theory's mathematical construction. Keep their roles clear where they affect the conclusion.
 
-Choose the values, boundary conditions, allowed operations and sought output. For a theoretical question, this may be entirely a construction within the theory. For a physical use, explain which system, quantity or interaction the mathematical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
+Take the givens and the required output from the question. Where you must choose a representation, work back from what the recipient must be able to do. For example, a planner choosing an attainable combination of jobs needs to know which jobs fit together and which must be performed whole. For a question about excluding a target value, a bound over a larger set of plans can suffice if it covers every permitted plan, as in :5.3. For a theoretical question the construction can stay within the theory. For a physical use, identify which system, quantity or interaction the theoretical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
 
 Compose the required operations. Check the connection between successive contributions: an operation's output must supply the next operation's required input. An integration procedure, for example, needs a function of its integration variable; a formula with unfilled path or parameter arguments does not supply that function.
 
@@ -51083,15 +51171,15 @@ For a nonzero `eta`, write this positive change as `K`. Along the paths `q_0+c*e
 
 The application has an interpreted answer: under the adopted model, passing those endpoint positions in that time entails constant velocity. A computational implementation must evaluate the path derivative in the velocity argument before integrating. It can reproduce the numerical action comparison; the displayed argument supplies the wider conclusion.
 
-Suppose the two-metre trip must instead begin and end at rest. The constant-velocity answer fails that condition. The return is that the undriven free-particle account cannot supply this trip: the design needs acceleration and deceleration, and an account of the forces producing them. The next contribution is that driven-motion model. Increasing the resolution of the free-particle calculation would retain the missing physical contribution.
+Suppose the engineer asks whether the same undriven model permits the two-metre trip to begin and end at rest. Its constant velocity would have to be zero throughout, so it cannot produce that displacement. This answers the feasibility question. If the engineer must also design a carriage that makes the trip, identify how it could accelerate and decelerate, model the forces available, and check the design against the required endpoints and time. A finer calculation in the undriven model would preserve the original obstruction.
 
 #### B.5.TU:5.3 - Keep a useful bound when the optimizer cannot be enacted
 
-A planner learning optimization must select whole jobs for four available hours. At most one A-job is available, taking three hours for stipulated value 5; at most two B-jobs are available, each taking two hours for value 3. Durations and values add in this constructed problem.
+A planner learning optimization must choose the highest-value combination of whole jobs that fits four available hours. At most one A-job is available, taking three hours for stipulated value 5. At most two B-jobs are available, each taking two hours for value 3. Durations and values add in this constructed problem.
 
 A linear relaxation permits real counts `0 <= x <= 1`, `0 <= y <= 2` with `3*x+2*y <= 4`. It returns `x=1, y=0.5`, value `6.5`. Recover the argument: the time condition gives `y <= (4-3*x)/2`, so `5*x+3*y <= 6+0.5*x <= 6.5`; the returned pair attains that limit.
 
-For the whole-job choice, enumerate the alternatives. With A selected, no B fits and value is 5. Without A, two B-jobs fit and value is 6. Select two B-jobs. The fractional optimizer has supplied a bound: no whole-job arrangement can attain value 7 because every such arrangement is also admitted by the relaxation.
+For the whole-job choice, two B-jobs fit and give value 6. Every whole-job value is an integer and the relaxation admits every whole-job arrangement. Its upper bound of 6.5 therefore establishes that none can exceed 6. The feasible choice and the bound together prove optimality. Direct enumeration gives the same conclusion here. With A selected, no B fits and the value is 5. Without A, at most two B-jobs fit. If the planner asks only whether 7 is attainable, the bound alone rules it out.
 
 The use of the theory changes with the question. Selecting work needs an attainable arrangement; excluding a target can use a bound. The practitioner needs to recover that relation before deciding whether a further optimization step is useful. B.5:5.4 also works the changed five-hour case.
 
@@ -51118,7 +51206,7 @@ Familiar terminology can make a supplied interpretation look independently recov
 | --- | --- |
 | Reuse a composition while overlooking how many inputs it consumes. | Recover the permitted operations and supply their inputs; in :5.1, copying is the decisive additional operation. |
 | Evaluate a familiar-looking expression before filling its arguments. | Construct the path, derivative and substitution required by the operation, as in :5.2. |
-| Improve a computation whose formulation omits the receiving condition. | Recover that condition and change the model or question; finer calculation of undriven motion leaves departure at rest unresolved. |
+| Improve a computation whose formulation omits the receiving condition. | Recover that condition. The undriven model rules out the requested trip from rest to rest. A design for making the trip must account for how the motion changes. |
 | Discard an infeasible optimizer together with its valid bound. | Interpret each result separately; :5.3 retains the exclusion of value 7. |
 | Require the same depth of study for using and altering a result. | Locate the contribution the work needs, then recover or obtain the reasoning that enables it. |
 
@@ -51176,7 +51264,7 @@ The common method is a synthesis of these contributions. Reconsider how to const
 
 The work here is to compare uses of those accounts. A theory supplies objects, relations and ways of reasoning; an application adds a question, an interpretation and the premises needed to obtain an answer. Compare those applications while keeping the underlying accounts understandable on their own terms.
 
-**First useful move.** Ask one question of each account. Supply the same relevant situation, recover how each answer is obtained, and locate the first difference that matters to the use. A route description that says where travel is possible and one that gives minimum travel cost can both be useful. The question determines which information and operations you need.
+**First useful move.** Begin with the question the recipient needs answered. Where the accounts offer answers to the same part, compare their reasoning under corresponding conditions. Where they supply different premises, establish how those premises contribute to the required answer. A route description that says where travel is possible and one that gives minimum travel cost can both be useful. The question determines which information and operations you need.
 
 The result explains what each account contributes, the conditions of agreement or difference, and which use or inquiry should follow. You may select one sufficient account, combine complementary contributions, or retain an unresolved difference together with what remains usable.
 
@@ -51210,7 +51298,7 @@ Say what you want to explain, predict, construct or decide, and what would count
 
 Keep the account and its proposed use separately visible. Comparing a theory's possible reach with a rival's implemented calculation is a comparison of unequal contributions. Either construct the relevant application of both or state which contribution is unavailable. An unavailable application can be a reason to use another account while retaining the first for development.
 
-If the accounts answer different questions, identify their shared question, if any. For the remaining questions, compare their usefulness as complementary contributions. A newly expressible question can be a valuable result: explain what inquiry it opens and why that inquiry matters. B.5:4.4 connects this result to problem development.
+If the accounts answer different questions, identify any shared question and ask what its answer supplies for the work in hand. They may agree about what was observed while supporting different decisions about a proposed change. Compare the remaining contributions for those uses. In open research a new question can be worth pursuing for what it makes possible. If an earlier question is still assigned, state what the comparison establishes for it and which part remains open. B.5:4.4 connects this result to problem development.
 
 #### B.5.TC:4.2 - Recover an application of each account
 
@@ -51224,11 +51312,11 @@ A collaborator or tool can supply a calculation or proof. Recover the interpreta
 
 #### B.5.TC:4.3 - Work the same case and align the answers
 
-Choose a small case that exercises the disputed operation or distinction. Give each account the corresponding inputs, derive its answer, and express the answers in the terms of the question. Explain the correspondence when the inputs or outputs have different forms.
+Work with the actual situation or a smaller case that retains the disputed operation or distinction. Give each account the corresponding inputs, derive its answer and express it in the terms of the question. Explain the correspondence when the inputs or outputs take different forms.
 
 For a mathematical application, compare the retained distinctions and operations. C.29.1 supplies the preservation argument when a result is to be transferred. For a physical application, keep the phenomenon, operating conditions and meaning of the predicted quantity aligned. For a computation, separate the mathematical formulation from approximation, numerical tolerance and execution.
 
-Begin with an understood case so a transcription or implementation error can be found. Then use a changed case that exercises the claimed difference: a shared resource, a constraint, an intervention or another relevant variation. Derive a general relation when the intended conclusion ranges beyond the cases. A finite example establishes its result; a counterexample can refute a general assertion whose premises it satisfies.
+Use a familiar case when it helps locate a transcription or implementation error. To investigate a difference, choose a case on which it matters and explain why. For a conclusion spanning cases, identify the dependence that carries it through the claimed range. One derivation for an arbitrary member can establish agreement there. One admissible counterexample can settle a claim of agreement everywhere. Where the question concerns only the given case, its sufficiently grounded result can finish the comparison.
 
 Agreement of reported numbers is informative only after their meanings and conditions are aligned. Conversely, different intermediate objects can lead to the same answer through an explained correspondence. Record only the derivation or explanation the receiving use needs.
 
@@ -51275,15 +51363,15 @@ If the comparison turns on whether one model refines another, check for the same
 
 #### B.5.TC:5.1 - Routes, reachability and minimum cost
 
-A mathematical account keeps routes as distinct objects. Routes p and q go from X to Y and cost 1 and 4. A route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated; the cost of a concatenation is the sum of its costs. The two routes from X through Y to Z therefore cost 3 and 6.
+A planner asks what can be learned about a complete journey from X through Y to Z from accounts of its two stages. One recipient needs to know whether travel is possible. Another needs the least possible cost. Recover what each account retains that could answer those questions. In the first account, individual routes are distinct objects. Routes p and q go from X to Y and cost 1 and 4. Route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated and their costs add, giving complete routes costing 3 and 6.
 
-A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. It cannot give the cost of the route taken: p followed by r and q followed by r have the same reachability summary and different costs.
+A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. Reachability alone cannot determine the minimum cost. Keep the routes and their endpoints, but change the cost of p from 1 to 5. With q still costing 4 and r costing 2, the least complete cost changes from 3 to 6 while every reachability answer stays the same. For a question about the route actually taken, even the original network permits two different costs.
 
-A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. Here the answer is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Choosing a route also requires the minimizing segments to be recoverable.
+A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. For the original costs, the minimum is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Giving directions for a minimum-cost route also requires the minimizing segments to be recoverable.
 
 Now change the allowed combinations. Let the second segments be r with cost 2 and s with cost 10. Only p followed by s, and q followed by r, are allowed. The minimum is min(1 + 10, 4 + 2) = 6. Independently minimizing the two stages gives 3, which no allowed route attains. The failure is the omitted compatibility relation. Retain the incoming-route distinction or calculate over the allowed pairs.
 
-The comparison yields three useful accounts with different retained information. Its changed case also identifies a condition for the minimum-cost composition rule. No physical interpretation is needed for this mathematical result. Using cost as travel time or expenditure adds the corresponding interpretation and additivity conditions.
+The planner can now choose what to recover from a partial description. With additive costs, the sum of the separate minima is a lower bound on every permitted complete route. To report it as the minimum, show that some permitted complete route attains both minima. This can hold even when other pairings are forbidden. To answer only whether a journey is available within a budget of 7, the allowed route costing 6 already suffices. For directions, identify the actual segments that make up an affordable route. Treating costs as times or expenditures adds the conditions under which those quantities add.
 
 #### B.5.TC:5.2 - The same oscillator, different formulation and computation
 
@@ -51380,7 +51468,7 @@ This pattern combines these constructive contributions into a common comparison 
 
 **First useful move.** Recover the step at which the earlier reasoning failed, or the operation that has become available. Ask what it lets you distinguish, construct, explain or change. For example, a triangle refutes the claim that every connected graph can be divided into two groups with every edge crossing between groups. It also suggests asking for a construction that returns either the division or an obstruction.
 
-The result is a question with an understood answer form, a useful first attempt and a reason to pursue or retain it. The answer may support further theory, a different investigation or an action in the world. Developing a concept or a reusable operation can be that contribution even before its eventual applications are known.
+The result is a question with an understood answer form, an attainable way into it and a reason to pursue or retain it. If the assignment is to formulate the question, this can complete it. If an earlier answer is still owed, explain what the new question contributes to it. Some investigations are free to develop a concept or a reusable operation before any eventual application is known.
 
 Use an adequate question. If the question is clear and the missing contribution is a way to answer it, C.39 supplies that search. This pattern is useful when the result sought or the question's conditions need to be developed.
 
@@ -51402,7 +51490,7 @@ A useful next question grows from a consequential change: an exposed dependency,
 
 ### B.5.QD:4 - Solution
 
-**Recover what changed → locate the dependency or new operation → construct a consequential question → work a revealing case → choose the next inquiry and keep what remains useful.**
+**Recover what changed → find the consequential dependency or new operation → formulate the question it opens → use a case, construction or argument to establish a useful point of entry → choose how to continue.**
 
 Enter with the result that changed the inquiry. Reuse a known formulation or derivation when it supplies the needed step. Return to an earlier step if an attempted answer reveals that the question is ambiguous, underdetermined or more expensive than its use warrants.
 
@@ -51432,7 +51520,7 @@ Use variations that have a reason in the work. The following are common ways to 
 | An argument needs an unavailable intermediate result. | Ask for a lemma, witness or construction that supplies that step; state how it would be used. |
 | A familiar operation becomes available in another setting. | Ask whether its required relations hold there and what receiving task it can serve. |
 
-A variation can change the original task. State that change: restricting a claim to trees may give a valid result while leaving the original request about all graphs unanswered. If the broader request matters, keep it as an unresolved question.
+Ask what the variation preserves for the earlier question. A counterexample on a tree can refute a claim about all graphs. A theorem for trees can settle a request about all graphs if a valid reduction carries its conclusion back to every graph at issue. Without such a connection, keep the broader claim open. When research direction is yours to choose, you can pursue the tree question for its own mathematical interest. When the broader answer was requested, identify what remains due or obtain agreement to a different result.
 
 These variations can be combined or repeated. Their purpose is to expose a useful answer.
 
@@ -51448,9 +51536,9 @@ Separate a proposed answer from the question. “Does this procedure always term
 
 If a question combines several missing contributions, make the dependency visible. For a physical calculation, you may first need a model that determines a quantity, then a computation of that model, then an interpretation for action. B.5.MPC coordinates those contributions. Name the first unresolved connection so a person, AI agent or group can work on it using the available subject knowledge and tools.
 
-#### B.5.QD:4.4 - Work a case that reveals the difficulty
+#### B.5.QD:4.4 - Find an entry that reveals what the question requires
 
-Choose a small case that exercises the changed condition or new operation. Attempt the requested construction or inference and explain where it succeeds or stops.
+Choose an entry that exposes what must be done. A small case is useful when changing one condition reveals an obstruction or a lost distinction. If the relevant dependence already follows from an argument or a construction over arbitrary admissible inputs, use that reasoning directly. To distinguish two possible explanations of an occurrence, seek grounds about that occurrence. A new hypothetical case can show how the explanations differ.
 
 Use the result to improve the question. A successful case can expose a reusable relation. A failed case can identify a missing premise, an incompatible demand or an operation to be developed. If two admissible cases give different answers from the same supplied information, ask for the missing distinction or a result valid for both.
 
@@ -51466,7 +51554,7 @@ A worthwhile first question may be narrower than the eventual aim: establish a l
 
 E.10.INT helps distinguish useful interest from novelty, surprise or a local scoring heuristic. A question can be worth pursuing because it opens further constructions, changes what can be explained or makes another question approachable. Its eventual practical destination may remain unknown. When problems and ways of solving them must develop together, use C.40; retain a promising alternative when its prospective use justifies doing so.
 
-Continue with the chosen question, its first attempt and the dependency that attempt is meant to resolve. A short explanation in the work can carry this result. Stop when the need is answered, or when another inquiry is the better use of the available effort.
+Continue with the chosen question, the contribution that makes it attainable and the dependency it is meant to resolve. Stop when the requested result is in hand. In an open inquiry, a better use of the available effort can justify changing direction. For a fixed assignment, a reason to stop investigating identifies a limit on the answer unless the work already meets the assignment or its holder has changed it.
 
 #### B.5.QD:4.6 - Separate question recognition from answer assurance
 
@@ -51490,7 +51578,7 @@ The next question is: **For a given finite simple undirected graph, can we const
 
 B.5:5.1 supplies the broader construction. Traverse each component by breadth-first search and assign groups by even or odd depth. If every edge joins opposite parities, the assignment works. An edge joining equal parities combines with the two parent paths up to their last shared vertex to give a simple odd cycle. The construction therefore answers the new question for the stated graph class.
 
-The earlier connectedness requirement can be dropped: work through each component, including isolated vertices. For an allocation, establish that the graph represents the relevant pairwise incompatibilities. Three-way constraints would change that application question.
+The new procedure also works on disconnected graphs by treating each component, including isolated vertices. For a real allocation, determine which combinations the graph rules out. A restriction on three items together can leave each pair permissible. The allocation question can then require a richer model. A two-colouring that satisfies all the actual restrictions still supplies a feasible allocation. A two-colouring that violates the triple restriction leaves open whether a different allocation works.
 
 #### B.5.QD:5.2 - From a position to a sufficient state or useful bound
 
@@ -51528,8 +51616,8 @@ Mathematical search often favors statements that can be proved. Question develop
 - The earlier work and its consequential result are recoverable.
 - A failure is located at the claim, premise, inference or implementation it affects; a success exposes its reusable operation or relation.
 - The new question states an answer form and the conditions needed to understand it.
-- A changed formulation preserves the unanswered part of the earlier task when that part remains useful.
-- A worked attempt reveals a consequence, a missing distinction or the operation to obtain next.
+- For a question already assigned, the contribution of the new formulation to its answer is warranted. A separate research direction can be chosen by whoever holds that choice.
+- A case, existing derivation or other attainable contribution shows what the proposed inquiry could establish, including whether any result is still owed for the earlier question.
 - The question's possible contribution and its attainable first step justify pursuing or retaining it.
 - The proposed answer is used with the scope and support appropriate to its claim.
 - Further work can stop when an available answer suffices; explanations and records are only as extensive as their receiving use requires.
@@ -51600,11 +51688,11 @@ The reported computational environments demonstrate that search approach under t
 
 **Use this when** an account makes needed outcomes appear incompatible and you need to find what could change without losing the purpose of the work. Two requirements may concern different operating conditions, yet the model gives them one setting. A familiar means of obtaining one result may obstruct another result, although that means has never been shown necessary.
 
-**First useful move.** Put the two demands beside the statement that makes them conflict. Ask what requires that statement. For example, “the setting must be at least 6 during work and at most 2 during quiet operation” conflicts with a fixed-setting design. It leaves open a question about changing the setting between those conditions.
+**First useful move.** Identify which demands must hold together for the wanted result, and what makes you think they conflict. A shared condition may rule out the whole combination while every pair is compatible. For example, requiring one fixed setting to be at least 6 during work and at most 2 during quiet operation excludes every fixed value. Whether the device may change settings between conditions is a question about its design and use.
 
 The result is a reformulated question or candidate construction whose retained requirements, changed premise and remaining obstacle are understood. Sometimes the useful result is an impossibility under the retained conditions, followed by a decision about which requirement can change.
 
-The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. Start with ordinary statements and a small case. Use an adequate existing solution. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
+The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. State the requirements in ordinary language and identify when they must hold together. Use a small case if it helps expose a conflict. Use an adequate existing solution. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
 
 ### B.5.QD.CF:2 - Problem
 
@@ -51662,13 +51750,13 @@ A tentative assumption change lets you explore that question. Keep the conclusio
 
 #### B.5.QD.CF:4.4 - Construct a small answer and return it to the whole need
 
-Perform the relevant reasoning or operation on a case that includes the changed condition. Show how the candidate obtains the needed result, or locate the contribution unavailable. A formal witness answers a question about its model. A physical or organizational proposal also needs the means to produce the corresponding result in its intended setting.
+Use a construction or argument that can answer the question. For a proposed way of working, establish what obtains the needed result under its intended conditions. A case that includes the changed condition can expose an obstruction. When one set of grounds applies throughout the proposed range, show how it covers that range. A mathematical witness supplies a possible configuration. Establish the means of realizing it when the work calls for a physical or organizational result.
 
-Reapply every retained requirement that the proposed change can affect, including those outside the small set used to locate the conflict. A separate operating setting may require a transition that is too slow. An archived input may reproduce a calculation while violating a retained deletion requirement. Either consequence changes what the candidate can answer.
+Return the change to the complete need. Recover the grounds for each retained requirement and for their joint satisfaction on the same admissible arrangement. Reuse grounds that still apply to that arrangement. Repairing a conflicting subset can leave a different conflict untouched. A switch between two individually feasible settings may take too long, and an archive that reproduces a calculation may violate a retained deletion requirement.
 
 Keep three facts distinguishable: the revised statements are compatible; an operation is proposed that would supply their values; that operation has produced or otherwise established the result required for this use. Use the strongest available fact the question needs. An inquiry about what to design next may be answered by a conditional construction; deploying it can require further work.
 
-If the conditions remain incompatible, state that result under the premises that support it. The next question can ask which requirement may change, whether another model is warranted, or whether the work should stop. A proof of impossibility can settle a construction request without finding a replacement.
+If the conditions remain incompatible, show which of them imply that conclusion and what it settles. A proof that no permitted arrangement works completes an inquiry about feasibility. When a working arrangement has been commissioned, the proof explains why it cannot be supplied under those conditions. A decision to change an obligation, or to accept that finding as the deliverable, belongs to whoever holds that choice.
 
 #### B.5.QD.CF:4.5 - Continue at the missing contribution, or use the answer
 
@@ -51740,9 +51828,9 @@ The easiest premise to remove may be the one with the strongest physical or prac
 - The inference distinguishes requirements, observations, modeling assumptions and proposed means where their different roles change the answer.
 - A claimed necessity has its direction and basis; a proposed replacement supplies the result previously attributed to that means.
 - A changed participant or condition corresponds to the intended situation, rather than merely changing a name.
-- The candidate returns to the retained requirements, including affected conditions outside the diagnosed conflict.
+- A proposed repair has grounds for the joint result required of the same arrangement, including relevant conditions outside the diagnosed conflict.
 - A compatible account, conditional construction, obtained result and authorized requirement change retain their different meanings.
-- The next question serves the unresolved need or states how that need was changed; a sufficient answer or impossibility can stop the work.
+- A sufficient answer or impossibility can complete the question it settles. Any separate result owed, or decision to revise it, remains identifiable.
 
 ### B.5.QD.CF:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -51811,6 +51899,8 @@ How can a project coordinate concept development and operational readiness witho
 
 Use the four development states to name the current focus for the episteme or system under development. For an intended transition, identify the design, evidence and operational conditions that need to hold. The Canonical Reasoning Cycle (B.5) can supply the reasoning contributions; the state names do not prescribe an assurance ladder.
 
+Start with the project decision. For a report on which components actually serve users, use evidence of their operation during the period. A current development-state record can suffice when its meaning establishes that use. To decide whether the service they form can begin operating, identify the configuration to be used and the conditions it must sustain. If you choose which constituents to examine, follow the ones whose state or interaction could change that decision. A qualification covering the intended arrangement can already settle the performance condition for that transition.
+
 **The Four Development States:**
 
 | State | Core Activity | Manager's View: What It Means | Possible reasoning contributions | What the state leaves to the receiving claim and use |
@@ -51829,6 +51919,8 @@ B.3.3 governs any assurance conclusion about the claim and receiving use. Retain
 **Worked case.** A service team completes B.5.2's latency-spike inquiry with a qualified backup-interaction conjecture and live rivals. The possible causal probe is unavailable, so the explanatory result remains limited. An existing operational qualification supports a permitted diversion to a spare instance for this traffic and interval. The team can use that basis for the diversion without declaring the explanation validated or advancing a new design through Evidence.
 
 If the team instead proposes a new deployment whose required load test is missing, that deployment remains blocked; the useful conjecture does not supply the missing qualification.
+
+Suppose two live services each qualify to divert to the same spare. Can both divert together? If their traffic rates add and the spare is qualified for both traffic types together at every permitted mix up to the sum of their peak rates, its capacity covers the diversion. If the sum of the peaks exceeds the spare’s capacity, determine whether any permitted simultaneous mix exceeds its capacity for that mix. One such mix defeats a guarantee covering every permitted mix. Diversion during a particular interval may still work. For a report confined to use today, evidence of that use can settle the question.
 
 ### B.5.1:4 - **Conformance Checklist**
 
@@ -51876,6 +51968,8 @@ This pattern operationalizes the **Principle of State Explicitness (P-9)** for d
 
 An adequate present answer or action need not enter abduction to generate another research task. Use C.11 for a live choice among feasible actions and C.28 when a causal-support claim is needed. Abduction contributes candidate explanatory content; it is not the complete evidence synthesis or action decision.
 
+Start from what the recipient needs explained and who is to choose the question. When the commission is to check a supplied explanation, first derive what it implies for that case and use any adequate evidence already available. When it is to find an explanation, the supplied candidate is one possibility to examine. An invitation to discover questions can give the investigator the further choice of what to pursue.
+
 ### B.5.2:2 - Problem
 
 Abductive work can fail in several ways:
@@ -51917,6 +52011,8 @@ Abduction develops candidate explanations, models or conjectures for a declared 
 | **2. Generate candidate hypotheses** | Develop candidates that could explain the prompt and look for serious rivals. | The candidates considered, including any limit from not identifying a serious rival. |
 | **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale stating why each considered candidate remains live, is deferred or is rejected, and what comparison those grounds support. |
 | **4. Return the supported result** | Select a conjecture when the comparison warrants it; otherwise return the applicable outcome in §14.2. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, any live rivals, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome. |
+
+To construct a candidate, work back from the unexplained contrast. What relation could produce both the observed outcome under one condition and the comparison outcome under the other? Hold the proposed factor fixed and look for another way to obtain the contrast. It might arise from an interaction among components, from how the observation was made, or from an assumption in the account. In a theoretical inquiry, trace apparently incompatible results to their assumptions and vary one that could change what each result says. Keep a candidate when you can show what would follow from it for the prompt.
 
 The loop is iterable. A selected prime hypothesis may later be replaced, narrowed, or reopened if deduction, probe work, or evidence reveals a better rival.
 
@@ -52082,7 +52178,7 @@ Not every abductive run should end in a prime hypothesis. Three non-selection ou
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
 2. **Defer.** The available candidates or grounds do not support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may proceed under C.11.
-3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their prompt-entry conditions.
+3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. If the original question concerns how the contributions act together, identify what evidence or reasoning can connect their answers. Keep that question open until the connection warrants an answer.
 
 
 #### B.5.2:14.3 - Reopening and rival reinstatement
@@ -52099,7 +52195,7 @@ A conforming reopening note should identify:
 
 #### B.5.2:14.4 - Scope discipline during iteration
 
-Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, state that change before using the candidate at the new scope.
+Compare the scope of the candidate with the explanatory question. To use an explanation of one occurrence for a recurring phenomenon, identify what makes the account apply across the occurrences that matter. One decisive case can already refute an explanation claimed for every occurrence. A new question about a different setting can be pursued under a commission to explore. For a fixed assignment, give the supported answer to the question asked and identify any change of assignment that needs agreement.
 
 ### B.5.2:15 - Worked Examples
 
@@ -52107,17 +52203,13 @@ Abductive drift often comes from silent scope expansion. A conjecture first fram
 
 A service team notices recurring latency spikes during one operating window. The prompt species is `AnomalyStatement`: *why does latency spike in the evening batch window despite unchanged nominal load?*
 
-The candidate set includes:
+Follow one slow request from arrival to completion. A stable count of arrivals can coexist with a growing downstream queue. A separate evening job could reduce the rate at which requests are served. A scheduled backup on the same storage path could also make a request wait. With other traffic held fixed, a cache invalidation regression could generate extra reads per arrival. Each mechanism can lengthen the wait, and several can act in the same window. A trace showing where this request waited may settle its own delay. To explain the recurring spike, establish how the observed requests contribute to the latency statistic and why the proposed relation holds over the relevant windows.
 
-- queue saturation in one downstream dependency,
-- a time-window interaction with backup traffic,
-- and a recent mechanism regression in cache invalidation.
-
-The evening timing and a plausible mechanism keep the backup-interaction conjecture in consideration. A downstream queue that also fills during the evening could fit the same observations. To prefer one explanation now, show how an observation already available, a constraint already known or another justified difference favours it under the comparison criterion. If the available grounds leave them tied, retain both. A prospective test can still be worth doing. Isolating backup traffic and comparing latency against prior windows is a possible discriminator. When that probe is obtainable and its expected contribution justifies its cost and delay, it can be selected as separate work. The conjecture records no observation from that unperformed probe.
+The evening timing and a plausible mechanism keep the backup-interaction conjecture in consideration. The longer queue can fit each proposed mechanism. To prefer one explanation, identify what that mechanism or combination predicts beyond the shared delay and compare those consequences with available observations or constraints. Keep explanations that the available grounds leave tied. A prospective test can still be worth doing. Isolating backup traffic and comparing latency against prior windows is a possible discriminator. When that probe is obtainable and its expected contribution justifies its cost and delay, it can be selected as separate work. The conjecture records no observation from that unperformed probe.
 
 Now keep the same observations and rival set but make the probe window unavailable. The qualified conjecture and its uncertainty remain; if the available comparison cannot select a winner, defer that selection. No new test, waiver or study proposal is needed to finish the present abductive result.
 
-In both variants, suppose an existing operational qualification independently supports a bounded diversion to a spare instance for this traffic and interval, with sufficient capacity and permission, across all three remaining causes. C.11 can support that service response on the available basis. Diverting traffic does not identify the cause; a causal claim about the mechanism needs the appropriate C.28 support. If that operational basis is absent, do not infer a justified diversion from conjecture plausibility.
+In both variants, suppose an existing operational qualification independently supports a bounded diversion to a spare instance for this traffic and interval, with sufficient capacity and permission, across the causal possibilities still open for this decision. C.11 can support that service response on the available basis. Diverting traffic does not identify the cause; a causal claim about the mechanism needs the appropriate C.28 support. If that operational basis is absent, do not infer a justified diversion from conjecture plausibility.
 
 #### B.5.2:15.2 - Opportunity-driven materials inquiry
 
@@ -52157,7 +52249,7 @@ Hypothesis reviewers should not ask only whether the chosen hypothesis looks pla
 - whether serious alternative explanations were considered and the candidate set and limits of comparison remain recoverable,
 - whether the stated criteria and their grounds support the asserted preference, including any unresolved trade-offs,
 - whether the selected hypothesis has an interpretable implication, deduction or possible discriminating contrast, with the availability and value of any check judged separately,
-- and whether any scope inflation occurred during selection.
+- and how the comparison answers the original explanatory question, including the grounds for using a result obtained on a narrower set of cases.
 
 
 #### B.5.2:16.3 - For integrators and assurance leads
@@ -52238,6 +52330,8 @@ Identify the question from what the inquiry asks someone to explain:
 - the explanatory demand: what remains unknown and what an answer would have to explain.
 
 Resolve the terms against their intended referents and interpretation. These three elements identify the question together. A change of wording, notation or publication preserves it when those elements retain their meaning. Two questions differ when a change in any element changes what an explanation must answer. A list of rival hypotheses helps compare answers; it need not exhaust the possible answers and does not identify the question by itself.
+
+When an observed case motivates the inquiry, recover what the person asking wants explained. A question about a delay in one job, a change in a service's reported delay, and a pattern recurring under different workloads can all start from the same trace. To set a boundary left to you, vary a condition the trace held fixed. Would an explanation adequate for this trace still explain what the recipient asks about? Use the distinction that changes the answer to define the prompt's scope. C.39.SA:4 develops this choice when the needed composition scales or model distinctions are unclear.
 
 Distinguish making an existing condition explicit from changing that condition. Use the earlier expression and its recoverable context to establish which happened. If a table drops an essential condition, first restore the damaged expression. When the earlier question cannot be recovered, leave its continuity unresolved; do not carry an earlier answer across the gap as an answer to the new formulation.
 
@@ -52335,6 +52429,8 @@ New contention logs can support one rival more strongly while the latency questi
 
 If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
 
+For an operator who asked whether the service slowed in that interval, the corrected measurement supplies the answer. For an inquiry into recurring false alarms, determine which other reports the same account could explain and on what grounds. A team commissioned to discover improvements to monitoring may select the discrepancy itself as its next question.
+
 The reporting question and a question about an actual slowdown in another service can be expressed in accounts that use the same `AnomalyStatement` layout. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
 
 ### B.5.2.0:14 - Prompt package discipline
@@ -52385,7 +52481,7 @@ A common failure mode is drift from cue -> prompt -> hypothesis without anyone n
 
 ### B.5.2.0:17 - Scope, rival-set, and comparative-validity discipline
 
-A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If the relevant scope is unresolved, apparent rivals may answer different questions; establish the scope needed for their comparison.
+Declare which cases and conditions the explanation has to cover. Choose a tractable subquestion when its answer could settle the inquiry, distinguish live explanations, or establish a premise the inquiry needs. Identify that contribution before sending the subquestion for comparison. If it leaves part of the commission open, return its result with that remaining question. A promising change of subject can be proposed to the person who set a fixed inquiry.
 
 A prompt need not list hypotheses yet. Its explanatory demand and scope must make clear what a candidate explanation would have to explain; any already identified answer types can help clarify that demand.
 
@@ -52399,7 +52495,7 @@ An assurance reader can test prompt readiness with three questions:
 
 1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its Method.
 2. **Does the prompt species fit its initiating grounds?** If those grounds are an opportunity or a probe-related contrast, forcing anomaly species misclassifies the question.
-3. **Is the question explicit enough to generate and compare candidate explanations under its declared scope?** Establish the question and the grounds required for entry before using B.5.2. Identified rival hypotheses are not an entry requirement; their generation and comparison belong to B.5.2.
+3. **Is the question explicit enough to generate and compare explanations for the needed use?** Check the stated scope against what the recipient asked to understand. For a subquestion, establish what its answer can contribute there. The receiving investigator can generate the rivals in B.5.2.
 ### B.5.2.0:End
 
 ## B.5.2.1 - Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)
@@ -52459,6 +52555,8 @@ The coordinate entries cite the constituted results used. When illumination is r
 
 `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the front. `Use-Value` is decision-side/supporting unless the Context declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
 
+**Choosing the spaces for the commission.** A comparison of supplied hypotheses on agreed coordinates can use those inputs directly. If you are asked to design the search, begin with the contrast to be explained. Follow how it could arise, for example within one component, through an interaction, or in the work that produced the observation. Choose operators that can express the resulting alternatives. Could two permissible candidates receive the same proposed scores while explaining different observations or implying different answers to a question the recipient must settle? Preserve the relevant prediction or mechanism in the candidate account. Add a descriptor or comparison coordinate when the archive or the ordering must use the distinction.
+
 **Strategy (notation‑neutral).**
 
 1. **Seeding and constructors.** Declare the explanatory question, hypothesis space and permitted variation operators in the MethodDescription. Initialize with admissible seeds: known explanations, random draws under that grammar or prior hypothesis-bearing epistemes with their grounds and limits. Name how an operator constructs a changed explanatory claim, for example by replacing a proposed mechanism or combining two mechanisms under a stated interaction assumption. When there are no seeds, use the declared finite enumeration or sampling rule.
@@ -52474,7 +52572,7 @@ The coordinate entries cite the constituted results used. When illumination is r
 
 When the pattern is imported, use NQD-Generate for the selected generation contribution. Its candidate package carries conjectural content and the constituted coordinate results and provenance used. Report diversity to the extent supported by its declared reading; generation assigns no assurance level.
 
-**Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria:
+**Step 3 — Plausibility filters.** Compare the candidates whose predictions or mechanisms could answer the explanatory question. A candidate dominated on the chosen coordinates can predict an observation the front leaves unexplained. Restrict this comparison to the front when the exclusions preserve the answers needed here. Apply B.5.2’s plausibility criteria:
 
 * **Falsifiability / probeability** → require an interpretable implication or possible discriminating contrast under B.5.2. Keep a meaningful conjecture distinguishable from the present availability or worth of its check.
 * **Explanatory power** → prioritize candidates whose *Q-improvements* and attached rationales address the stated explanatory question.
@@ -52536,9 +52634,9 @@ For a dominance exclusion, identify the eligible rival and decisive coordinates 
 
 **For engineers/managers (user cognitive load).**
 
-* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Start with front membership; consult dominated entries when their exclusion or retained archive role matters.
+* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Use the front for the requested coordinate comparison. For an explanatory question, include any candidate whose specific prediction or mechanism could change the answer.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
+* *Reader quickstart (engineer-manager):* (1) Recover what the recipient wants compared and which choices are yours. Use the agreed inputs or construct the needed hypothesis space, descriptors and Q characteristics as in §4. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate. Inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria to the original explanatory question.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 
@@ -52576,6 +52674,8 @@ The declared DominanceSet is exactly the two Q coordinates, with ε=0. Novelty i
 D’s scheduler cell is retained under the stated stepping-stone policy even though D is dominated. No D, Surprise or IlluminationSummary reading is needed in this example.
 
 Of the four eligible hypotheses assessed here, A, B and C form the complete front. Each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
+
+To see what these two counts preserve, consider a possible rival predicting O1, O3 and O4 with one unverified assumption. Its Q vector would equal A's. The coordinates suffice to locate that vector in the stated ordering. A recipient asking about blocked threads in O2 needs to know which observations each candidate explains. Preserve the prediction for O2 and the proposed mechanism for that comparison. This hypothetical rival tests the choice of coordinates and contributes no new assessed candidate to the four-hypothesis run.
 
 **Qualified abductive result.** For a bounded answer to why the blocked threads in O2 occur, B.5.2 compares candidates that explain O2 with at most one unverified auxiliary assumption. A meets that stated plausibility criterion; C needs two, while B and D leave O2 unexplained. A is the qualified prime conjecture, conditional on the lock-scope assumption. A leaves O3 open. Return to the original question about all four observations. Among the candidates compared, C accounts for all four on two unverified assumptions. The one-assumption limit used for the O2 enquiry does not eliminate C as an explanation of the full contrast. Check the assumptions or establish another ground for preferring an explanation at that scope. Evidence that the blocked threads never wait on the proposed lock would defeat A’s explanation of O2. Generation and the coordinate counts supply no assurance level or empirical corroboration.
 
@@ -52727,7 +52827,7 @@ The missing contribution is the passage from the encountered situation to a usab
 ### B.5.4:4 - Solution
 
 1. **Name the question.** Say what the interpretation should enable: reducing glare, explaining a changed reading, arranging compatible activities or choosing an observation. This determines which distinctions matter.
-2. **Describe the situation at a useful scale.** Indicate the relevant region, objects, time and conditions. Separate available observations from your proposed explanation. Try another boundary or viewpoint when the first description hides an interaction.
+2. **Describe the situation at a useful scale.** Indicate the relevant region, objects, time and conditions. Separate available observations from your proposed explanation. Try another boundary or viewpoint when the first description hides an interaction. If choosing the concept is part of your task, ask what difference in the situation could change the answer. Look in the domain account for a relation that could explain that difference. For example, to decide which tests can run together, ask what prevents simultaneous operation before choosing a representation of conflict. If a concept is given, start from the relation it proposes.
 3. **Recover the candidate concept through its relations.** Consult its explanation, examples and conditions. Identify its participants, how they are related, and the consequences relevant to the question. When a live alternative would change the answer, identify a consequence that distinguishes them. Use the domain account to supply knowledge omitted by a short definition.
 4. **Construct the correspondence.** Point to what supplies each participant here and explain the relations between them. Use a sketch, gesture, annotated observation or short account. If mathematics helps, connect each variable or mathematical object to its interpretation and identify consequential simplifications.
 5. **Derive and examine a consequence.** Work out what should follow in this situation and compare it with relevant available observations or constraints. When an unresolved correspondence or condition can change the needed answer, examine it through a variation, counterexample or feasible trial, or retain it as unresolved. Where competing interpretations support the same sufficient action, keep that bounded answer.
@@ -52735,7 +52835,7 @@ The missing contribution is the passage from the encountered situation to a usab
 
 The result can be an interpreted sketch and a next action. Record the reasoning when another participant or later use needs to recover it.
 
-For capability assessment, separate the correctness of a supplied interpretation from the reader's ability to select and construct it. Give a consequentially changed situation before supplying its decisive conceptual cue; retain the references and assistance allowed in the intended work.
+To judge what a reader can do, recover which choice the work left to them. A reader given a concept can still identify the participants, establish the correspondence and derive a consequence. For a claim about choosing the concept, look for work in which the reader made that choice with the assistance allowed in practice. An earlier attempt can supply it. If transfer to different conditions is claimed, use evidence that covers the relevant change.
 
 ### B.5.4:5 - Archetypal Grounding
 
@@ -52743,7 +52843,7 @@ For capability assessment, separate the correctness of a supplied interpretation
 
 You want to reduce glare in an image. Identify air, water, an interface patch, incoming light and the direction from that patch to the camera. Draw the local normal and incidence plane.
 
-For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. Rotating a linear polarizer before the camera changes the transmitted reflected contribution. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
+For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. To minimize the reflection from that patch, turn the camera filter’s pass axis perpendicular to the reflected polarization. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
 
 The interpretation tells you what to adjust. Moving the viewpoint changes incidence; ripples change local normals, so a single planar sketch may need several patches. Inspect a changed view and determine whether the proposed adjustment follows.
 
@@ -52759,7 +52859,7 @@ Consider instead three tests with independent fixtures whose shared resource is 
 
 ### B.5.4:6 - Bias-Annotation
 
-Answer-bearing demonstrations favour recognition from familiar wording. Obtain a changed situation when independent selection matters. Representation familiarity can also encourage premature graph, table or equation use; compare the represented relations with the constraint that changes the answer.
+Answer-bearing demonstrations favour recognition from familiar wording. When independent selection matters, examine what the reader chose before the decisive cue was supplied. Representation familiarity can also encourage premature graph, table or equation use; compare the represented relations with the constraint that changes the answer.
 
 When a teacher, colleague or AI supplies the decisive interpretation, retain that contribution in any account of what the learner performed.
 
@@ -52778,7 +52878,7 @@ When a teacher, colleague or AI supplies the decisive interpretation, retain tha
 
 **Representation chosen before the constraint.** Compare what the representation preserves with what the use needs. In the laboratory case, pairwise compatibility leaves aggregate current to be handled separately.
 
-**A demonstrated answer credited as independent recognition.** Use the demonstration for learning. For assessment, obtain a changed case with the assistance permitted in later work.
+**A demonstrated answer credited as independent recognition.** Use the demonstration for learning. For assessment, recover the choice the reader made under the conditions of the claimed work.
 
 ### B.5.4:9 - Consequences
 
@@ -52871,7 +52971,9 @@ Select a bounded occasion that does not depend on someone first reporting troubl
 
 Choose an occasion with some prospect of a useful comparison: a consequential decision, a result passed to another person, a recurrent activity whose effort is poorly understood, or an available contrasting case. A small agreed sample can expose something that reviewing only failures would miss. Do not require every occurrence to undergo this examination. Keep the immediate work and its constraints in view.
 
-A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If access to the result, its use or an attentive participant is unavailable, identify that missing contribution rather than claim that inquiry has begun.
+Choose the occasion in light of what you have been asked to find. One handover can yield a worthwhile question when you are free to explore. For a question about why a difficulty recurs in the practice, follow the work that produced the result and what happened when others received it. The same visible outcome might arise from a fixed constraint, a choice by the producer or a recipient's adjustment. Look for something that distinguishes these explanations, such as the information available before a choice or how the result was used. A rule covering all the relevant work can explain a recurring dependency. Its use on a particular occasion and the frequency of an outcome call for grounds about that work.
+
+A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If a result, its use or an attentive participant is unavailable, identify which comparison or conclusion needs that access. Use what the occasion already establishes, or preserve the cue when that is all it supports.
 
 #### B.5.PI:4.2 - Compare before deciding what is wrong
 
@@ -52917,7 +53019,7 @@ Stop here if only the cue is recoverable and further articulation is unproductiv
 
 State what the work should enable, what comparison or experience raised the question, under which conditions, and why the answer could matter. Ordinary words are enough: “How can this figure help price the next batch when it has no numerical value on some days?” is a usable question without the phrase “division by zero”. Search a library or ask a colleague using the situation and needed result. A PatternID is one way to obtain an answer after its relevance becomes intelligible, not a prerequisite to inquiry.
 
-Let the first answer change the question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. Return to the original use before accepting either as closure. B.5.QD develops a consequential question when the initial one needs reconstruction; B.5.QD.CF examines assumptions behind an apparent conflict. Use those contributions only while the question needs them.
+Let the first answer inform your choice of the next question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. In an open inquiry you can choose a different question for what it promises to reveal. In a fixed assignment, ask what an answer to the proposed question could establish for the original use. Return that contribution to the recipient, or explain why a change of assignment is worth considering. B.5.QD develops a consequential question when the initial one needs reconstruction. B.5.QD.CF examines assumptions behind an apparent conflict.
 
 An adequate known explanation, instruction or correction may finish this use. If the question needs a new construction, explanation or test, B.5 connects the reasoning contributions. Keep later investigation and problem formulation under their conditions; a provisional question need not be promoted immediately to a fully specified Problem or research programme.
 
@@ -52952,6 +53054,8 @@ The listener first says, “Make the deadline reminder clearer.” Applying that
 The next question is small: “Can we make the correspondence available without losing distinctions the recipient needs?” In this case an authoritative list exists. The two participants compare twelve entries with it; ten have a unique correspondence, while two abbreviations denote different equipment in different buildings. A single global replacement would conceal that difference. They retain the building context, give the recipient the resolved names and leave the two unresolved entries for the person who can supply their locations. The receiving schedule is checked by identifying the intended equipment, not by counting replaced labels.
 
 For repeated handovers, an available mapping keyed by name and building may remove some reconstruction. Whether to prepare and maintain it depends on use and effort. A one-off schedule with no further receiving difficulty can keep the manual translation. In either case the inquiry returns to the schedule: the recipient can use the supplied identities, or knows which entries need a location. It need not create a new organization-wide programme.
+
+For a request confined to whether today's schedule arrived on time, the recorded delivery time can suffice. For a request to discover a dependency in preparing the schedule, the producer can choose to investigate the reliance on memory. If the review concerns how often recipients have had to correct a name, follow what the recipients actually received and did. All twelve retypings happened before delivery. The authoritative list can establish which codes require a building wherever those conventions apply, even while the frequency of actual corrections remains unknown.
 
 If the recipient instead demonstrates that both naming conventions are understood and the retyping merely changes typography, the proposed identity problem disappears. Ask whether the extra effort is worth removing; do not preserve the first diagnosis because it motivated the comparison. If neither receiving use nor the authoritative list is accessible, retain the dependency on memory as an early cue and obtain access when worthwhile. No claim of safe replacement follows from that cue alone.
 
@@ -52998,7 +53102,7 @@ For guidance or an application claiming this method, examine the consequential c
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.
 - The continuation can obtain a usable contribution, identify missing means, or stop without change under stated conditions.
 - Conformance, result achievement, adequacy for the receiving work and completeness of the description remain different claims.
-- The result returns to the encompassing work, and any claim about later independent use has its own basis.
+- The result returns to the encompassing work. Its grounds show what the occasion establishes there, including any claim about recurrence. A claim about later independent use has its own basis.
 
 ### B.5.PI:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -53092,7 +53196,7 @@ An inquiry can improve the answer, but waiting for every uncertainty to disappea
 
 #### B.5.SD:4.1 - Name the receiving question and the kind of answer needed
 
-Identify who will use the result and what that person or agent needs to settle or do. Ask for a representative use: a release decision, a revised explanation, an architecture choice, a research design, or a next action in a difficult task.
+Identify who will use the result and what they need to settle or do. Ask for the decision or inquiry as they face it. A participant may bring one disputed case to a discussion about a rule for future cases. Find out which choices the group is being asked to make and which the eventual user must be able to make. The case can reveal a missing distinction. To offer a rule to that user, establish where the distinction changes the answer.
 
 Distinguish the result required. An explanation relates what is known and why; a proposal states what could be done and on which grounds; an inquiry proposal identifies an unresolved question and a way to answer it; an agreement records accepted contributions. A discussion can produce more than one, but one does not substitute for another. Use LDR.2 when the unresolved result is acceptance of contributions rather than subject understanding.
 
@@ -53151,9 +53255,7 @@ A useful result can be an open question with a feasible next construction. State
 
 Give the receiver the connected result in a usable form, with the decisive grounds, unresolved matters and conditions that change its use. Let the receiver perform the intended interpretation or next action, rather than merely approve the meeting summary.
 
-Examine a plausible consequential variation. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? If another receiver reveals a needed input, does the proposed simplification still work? Follow only the affected connections; a small change need not restart the whole discussion.
-
-This variation is a way of checking whether the explanation relates its parts. Preserve a consequential unlisted concern when it appears.
+When a proposed explanation will be used under varying conditions, try a change that could affect its warrant. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? Follow that connection. An existing argument that covers the variation can answer directly. For a decision confined to this occasion, return the sufficient grounds for it.
 
 Finish when the receiving question has a warranted answer and feasible continuation, including a justified stop. If participants repeat views while the connection remains missing, change the construction, obtain the absent competence or return the blocker.
 
@@ -53175,19 +53277,21 @@ The integrator asks the relevant specialist which parameter changed and whether 
 
 The participants construct three continuations. They could test the joint configuration, narrow the acceptance claim to the already supported use, or redesign the interface so the earlier evidence becomes applicable under justified conditions. A qualified engineer supplies the required model and test judgement. The lab can provide a window for the first option, and the decision maker accepts the inquiry cost.
 
-The returned proposal states the interaction, configuration, load, required observation and decision that will use the answer. Until the test is performed, the dependent acceptance claim remains unsupported. This is a useful constructed result: it explains the gap and how the proposed inquiry could settle it.
+The reviewer can now answer the question about the evidence in hand. It supports the reported component results under their test conditions and leaves C7's joint behaviour under load open. The accepted inquiry specifies which interaction to observe in C7, under what load, and how the outcome would bear on acceptance. Commissioning the test settles the plan for obtaining that evidence.
 
 Now remove the lab window. The account exposes the dependent test and decision. The group revisits the narrower claim, another provider or a later release; it does not preserve an unavailable test by leaving it in the minutes. The component results remain useful for the claims they support.
 
-If a qualified specialist had already established that the C6 evidence applied unchanged to C7, the explanation would have sufficed. The workshop would add no missing inference.
+Suppose instead that a C6 result had established the required joint behaviour. A qualified comparison showing that C7 preserves the configuration and conditions on which that result depends can settle the review from existing evidence. A comparison covering only the tested module settles the transfer of that module's result.
 
 #### B.5.SD:5.2 - A community disagrees over an explanatory article
 
-Suppose independent practitioners discuss an article intended to help newcomers choose an appropriate modelling method. Some favour a concise rule; others object that the rule fails when the system boundary changes. There is no common employer and no proposed reorganization.
+Independent practitioners are writing an article to help volunteer coordinators choose a model for staffing decisions. One proposes adding the hours each volunteer offers. Another objects that a total can hide who is available together. The group needs a way for readers to decide when each matters.
 
-The facilitator asks for the receiving choice, not a vote on favourite wording. A practitioner supplies an example with one boundary and another supplies the changed-boundary case. The integrator traces which assumptions make the rule useful and which change the recommendation. They revise the article to show the decision condition and return to the relevant modelling method.
+The facilitator asks what the reader has to settle. To report the total hours pledged by distinct volunteers, the coordinator can add their hours for the same period. To promise a two-hour repair clinic, the coordinator needs a receptionist and a technician together. Keep the total at six hours. If both are available from 9 to 12, they can cover a clinic from 9 to 11. If only the receptionist is there from 9 to 12 and the technician from 12 to 15, they cannot. The first comparison explains what the total preserves. The two schedules expose what it loses for the joint service.
 
-The group can agree that the revised explanation answers the question while one contributor declines further editorial work. LDR.2 handles that contribution if it matters. The explanation's warrant and a volunteer's consent remain separate.
+The revised article asks the coordinator to start with the work being promised. Who must do what, and which performances have to coincide? Could the same summary allow one arrangement in which the promise can be kept and another in which it fails? For the clinic, a confirmed common slot with both required roles can answer the question directly. Full individual calendars are one way to establish that slot. A reader counting pledged hours can use the sum. The discussion has given readers a way to choose the distinction their own model needs.
+
+A contributor may accept that explanation and decline further editorial work. LDR.2 handles the commitment if it matters.
 
 If the group lacks the modelling competence needed to assess the two cases, it returns the question to a qualified practitioner. A well-facilitated consensus would not fill the gap.
 
@@ -53268,7 +53372,7 @@ When this work is a decision-support inquiry, PSDA.12 recovers participants and 
 
 **Use this when** you need to combine epistemes for a claim and intended use, or determine what an epistemic change or proposed substitution preserves.
 
-**First useful result.** Identify the claim and intended use, and recover the contributing epistemes or the source and proposed result of the change. Establish the scope, support dependencies and preservation conditions needed for the conclusion. Return the justified synthesis or change assessment, including any unresolved condition. An adequate synthesis need not have a common numerical R. Apply the F–G–R assessment or CL substitution conditions when the receiving operation uses them. If the question is only which episteme is meant, C.2.1 can suffice; identification or publication alone does not require a KD-CAL assessment.
+**First useful result.** Start with the conclusion the recipient needs for the intended use. For a synthesis, work back to the premises and connections that could warrant that conclusion (B.1.3:4.4). A separate claim about each part can need different grounds from a claim about what those parts can do together. When choosing the parts or models is itself at issue, use C.39.SA:4 to decide which distinctions to retain. For a proposed change, recover its source and proposed result. Establish the scope, support dependencies and preservation conditions needed for the conclusion. Return the justified synthesis or change assessment, including any unresolved condition. An adequate synthesis need not have a common numerical R. Apply the F–G–R assessment or CL substitution conditions when the receiving operation uses them. If the question is only which episteme is meant, C.2.1 can suffice; identification or publication alone does not require a KD-CAL assessment.
 
 **Scope & exports.** A substrate-neutral calculus for composing **epistemic holons** (`U.Episteme`) and reasoning about their change and equivalence.
 
@@ -53502,7 +53606,9 @@ The common work is to maintain the connections: observation and reasoning inform
 
 Read enough connected material to recover the claims and the relations that change their meaning. Identify the subject of those claims and how names, quantities and modal expressions are interpreted. The same numerical string can state an observed value, a proposed value or a required limit. Recover that force from the account.
 
-For a developing account, write or draw the part already understood and use it to find the missing condition or connection. Return a missing fact to observation, an unsupported inference to its reasoning, and an unclear expression to its construction. These different repairs may be needed together. C.2.4 explains progressive articulation; A.6.3.RT.OE explains how to construct an expression that supports the next operation.
+When developing an account, start with the work the account must support. Its recipient may need to carry out an operation, reconstruct what happened, decide between alternatives or explain a result. If its content is yours to choose, work back from that use to the claims and connections it requires. When the subject has relevant constituents, ask which of them could change the answer. Which premises or exceptions belong in the account about them? For a conclusion about simultaneous operation, check that the claims about the parts hold under the conditions of that operation. For a comparison across configurations, establish a common basis for the features at issue. A decision can also be justified under rival accounts if it follows under each. An account can omit a distinction when that preserves the answer and the grounds its recipient needs. C.39.SA:4 helps choose the composition scales and model distinctions for this purpose.
+
+Write or draw what is already understood when doing so can expose a missing condition or connection. Obtain grounds for a missing fact, revisit an unsupported inference and improve the expression where the intended claim cannot be recovered. These repairs can be needed together. C.2.4 explains progressive articulation. A.6.3.RT.OE explains how to construct an expression that supports the next operation.
 
 Once the claims are determinate, compare an account through the C.2.1 constitution:
 
@@ -53634,7 +53740,7 @@ For an ordinary correction, finish when the needed meaning is clear and the affe
 
 ##### C.2.1:4.0.11 - Connected case and changes in its conditions
 
-A warehouse team maintains an account of passages used by a robot. For a bounded route calculation, a passage is admissible when its clear width is at least 1.0 m; the other operating conditions have already been resolved for this calculation. The source account states:
+A warehouse team maintains an account of passages used by a robot. A dispatcher who needs one passable route can stop with a connected route whose passages are wide enough in the same warehouse arrangement. To promise the shortest admissible route, the dispatcher also needs grounds to rule out a shorter one. Lengths or bounds can supply those grounds. For the bounded comparison below, a passage is admissible when its clear width is at least 1.0 m. The other operating conditions have already been resolved, and the account covers all the passages under consideration.
 
 | Passage | Length | Clear width |
 |---|---:|---:|
@@ -53643,7 +53749,7 @@ A warehouse team maintains an account of passages used by a robot. For a bounded
 | A–C | 5 m | 1.3 m |
 | C–D | 5 m | 1.3 m |
 
-The account's subject is the selected warehouse arrangement. Its claims include each attributed length and width. The interpretation fixes the endpoints, measurement meanings and units. A route viewpoint requires these values for every passage being considered and requires the admissibility condition to be recoverable.
+The account's subject is the selected warehouse arrangement. Its claims include each attributed length and width. The interpretation fixes the endpoints, measurement meanings and units. The viewpoint chosen for this route table calls for a length and width for each passage under consideration and a recoverable admissibility condition. A request for one admissible route can already be answered from the passages that establish it.
 
 The table is an expression of the relevant claims. A graph representing the same passages allows a shortest-path calculation after inadmissible edges have been removed. Under the stated correspondence and route assumptions, A–B–D has length 7 m and A–C–D has length 10 m. A robot-readable record and a diagram for a meeting can express the same route result while supporting different recipient operations. A publication provides a particular expression through an identified carrier under the applicable access conditions.
 
@@ -54432,7 +54538,7 @@ The immediate cost is that engineers and FPF authors start making action, eviden
 
 `C.2.P` gives one small epistemic precision-restoration move: recover the FPF kind and relation set first, then write wording that preserves the needed distinction without adding another claim. It prevents string-replacement cleanup, keeps FPF-side and project-side episteme and publication work separate, and blocks unclear wording from having FPF-governed use by guesswork.
 
-**Successful repair condition.** Type-correct wording is not enough. A repair must satisfy the `E.2` Pillars, especially `P-2 Didactic Primacy`, together with `E.12` and the register rule in `E.10:6.2`. It closes only when the text preserves or restores a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim.
+**Successful repair condition.** Type-correct wording is not enough. A repair must satisfy the `E.2` Pillars, especially `P-2 Didactic Primacy`, together with `E.12` and the register rule in `E.10:6.2`. It closes when the repaired passage, together with sources the reader can use, supports the intended action, judgement or explanation. When the passage supplies a premise for a larger conclusion, show how the reader can use it and which other grounds the full conclusion needs.
 
 When Tech and Plain registers are both current, the Tech interpretation remains recoverable and the Plain or didactic line maps back to it. An ordinary or metaphorical Plain line may stay light when it carries no FPF-governed use; if it carries an ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim, that claim must be recoverable through the Tech fields, named FPF kind, recovered relation, project-side reference, or disposition.
 
@@ -54494,7 +54600,7 @@ A successful rewrite satisfies these field-validity constraints:
 3. a relation, comparison, dependency, support, sameness, grounding, mapping, or endpoint claim has `A.6.P` relation precision, with use-boundary and project-side reliance questions split into their own fields;
 4. a claim-bearing episteme has a recoverable `C.2.1` identity; dependent-kind membership, such as `U.View`, uses its defining pattern. A project-side object or relation keeps its own kind, applicable reference, and declared use;
 5. publication, view, face, and carrier distinctions satisfy the applicable `E.17.0` view-conformance, `E.17`/MVPK publication-face, and `E.24.PUB` publication-occurrence, form, and carrier rules;
-6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader use: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim.
+6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring the action, judgement or explanation this reader needs. A recognition reason or a reference to a pattern can supply the part of that work it actually supports.
 
    When both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`.
 
@@ -54733,7 +54839,7 @@ The application is complete when the smallest selected product:
 1. preserves any E.10 cue or routing result rather than restarting from word taste;
 2. names the recovered kind, relation, or non-use disposition;
 3. hands any remaining relation, naming, publication, evidence, work, decision, or assurance claim to the applicable pattern;
-4. leaves the reader a clear action or stop condition.
+4. leaves the reader able to take the intended action or understand why the grounds stop short of it. When a sentence gives a result for one claim, extract or publication, retain the connection needed to use it for the original question (C.39.QR:4.1).
 
 Reopen when a replacement head hides another umbrella, a later use adds a material field, the direct receiving pattern changes, or the repair becomes technically exact but hard to use.
 
@@ -55024,7 +55130,7 @@ For claim `c`, identify the support needed by its receiving use. Distinguish ind
 
 Let `SpineClaims(P)` name premises and lemmas required by argument `P`; `SpineRelations(P)` names the scope, kind, plane, notation, source-local, model-use, and evidence-reuse relations it traverses. Satellite citations are not required premises. Retain each contribution's source, assumptions, scope, and limitations, including shared datasets, duplicated evidence, and common bias.
 
-**Choose the operation from the model.** B.3 requires the target quantity, compatible scales, dependency assumptions, and warranted operation before an aggregate is calculated. An indispensable weak premise can limit an inference, but `min` is not a universal probability or warrant fold. Two necessary independent conditions with probabilities 0.9 each give 0.81 for their conjunction; minimum 0.9 overstates it. Without independence, use the warranted conditional model or leave the joint probability unresolved. Monotonicity and boundedness of a proposed rule are insufficient.
+**Choose the operation from the model.** B.3 requires the target quantity, compatible scales, dependency assumptions, and warranted operation before an aggregate is calculated. An indispensable weak premise can limit an inference, but `min` is not a universal probability or warrant fold. Two necessary independent conditions with probabilities 0.9 each give 0.81 for their conjunction; minimum 0.9 overstates it. With only those marginal probabilities, the joint probability lies between 0.8 and 0.9. This settles a required lower bound of 0.8. A requirement of 0.85 needs more information about dependence. Monotonicity and boundedness of a proposed rule are insufficient.
 
 **Alternative and complementary support.** A sufficient argument may be usable without the others. A maximum can select the best attested argument value under a model whose result has that meaning; it does not measure combined corroboration. Complementary evidence may strengthen or qualify a conclusion by addressing different rival explanations or limitations, even when neither source is sufficient alone. Count neither publications nor method names as independent confirmation. A shared bias may leave apparent agreement uninformative. There is no universal “never exceed the best source” cap and no entangled-source fallback to minimum.
 
@@ -55354,6 +55460,8 @@ A language-state position is a partial, slot-explicit coordinate claim in the de
 
 `ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For closure, `{CD1, CD2}` can report two remaining possible values while the assessment is incomplete. Separate source and use claims follow C.2.6:4.3: two unresolved possible sources differ from an established contribution by both.
 
+When a decision depends on several slots together, retain the dependencies that can change it. A constraint or bound can already decide the question while some joint readings remain unknown. Suppose the grounds leave only `(AE4, CD1)` and `(AE2, CD3)` possible. A rule requiring both `AE4` and `CD3` fails in every remaining case, although each required reading is individually possible. If all the remaining combinations give the same decision, the exact position can remain open.
+
 `position` here abbreviates these slot-explicit `A.19` coordinate claims.
 
 #### C.2.2a:4.3 - Facet basis
@@ -55498,7 +55606,7 @@ An account of a chart position identifies the episteme publication, the decision
 Minimum self-check:
 
 1. Does the account name the positioned episteme publication rather than a ground, form, face, or carrier?
-2. Does it state every facet that can change the named next action and mark a relevant unknown as unknown?
+2. Does it state every facet that can change the named next action and mark a relevant unknown as unknown? Does it preserve the combinations on which the action depends?
 3. Are the grounds and any relied-on local threshold recoverable?
 4. Does the account supply the position facts needed by the receiving question and, if a local threshold is used, say whether the readings meet it, fail it or leave the result undecided, while the receiving pattern governs the action?
 5. If the use depends on distinct local meanings, was F.9 tested on the two exact local senses rather than inferred from similar wording?
@@ -56028,8 +56136,8 @@ The same readings support these different conclusions because the receiving cond
 #### C.2.LS:14.1 - For authors
 When publishing a language-state facet profile:
 
-1. start from the local authoring problem rather than from a memorized progression;
-2. name the facet refs;
+1. identify the decision or operation for which the recipient will use the profile;
+2. choose the facet readings and any conditions that could change that result, and cite the assessments that supply them;
 3. add threshold refs only when a threshold changes routing, repair, or another operative decision;
 4. when a label such as "mature", "raw", or "ready" carries an operational claim, make the relevant facet readings and conditions visible.
 
@@ -56087,7 +56195,7 @@ Local overlays such as "explicit-but-open", "derived from trace T", or "requires
 Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; an operator acknowledgement condition does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
-For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. Any binding consequence retains its own governing rule and authority.
+For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. If the readings are uncertain, use C.2.2a:4.2 to check what their joint constraints establish. A bound can settle the condition. If the answer still differs between possible combinations, identify the difference the receiving use needs. Any binding consequence retains its own governing rule and authority.
 
 #### C.2.LS:17.3 - Transition reading rule
 Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. Use the applicable move rule to determine which current readings and source, use or route conditions must hold. State any changes to them that the transition makes.
@@ -56321,7 +56429,7 @@ If the branch or threshold is unresolved, preserve the episteme through `B.4.1` 
 A note may reach `AE4+` while remaining low or mid in `CD`. In such cases state that articulation is sufficient for precise handling while closure still leaves rival routes or frames live.
 
 #### C.2.4:17.3 - Articulation claims for separate fragments
-Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear.
+Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear. If the recipient must use the fragments together, read the connection as part of that use. A test result and a restoration instruction can each be explicit while leaving it unclear whether this result releases this pump. One sentence naming the pump and the applicable test can supply the missing connection.
 
 ### C.2.4:18 - Review Matrix and Endpoint Boundary Tests
 
@@ -56381,7 +56489,7 @@ A closure assessment states the fixity and its grounds. Claims about a binding r
 
 #### C.2.5:4.5 - Recover the choice before assigning a level
 
-Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
+Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change. If every remaining explanation calls for the same action, that action may be settled while its explanation remains open. Results for a supplied list establish what follows within it. To extend the conclusion, establish that the list covers the admissible ways or give an argument that also governs ways omitted from it.
 
 Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
 
@@ -56473,7 +56581,7 @@ A route may move from `CD4` back to `CD2` when counter-evidence appears. Make th
 #### C.2.5:14.1 - Author prompt
 To assign `CD`, ask:
 
-- how many rivals remain live?
+- which choice is being assessed, which alternatives does the account leave open for it, and what sets the bounds of that field?
 - is one route merely preferred, or fixed?
 - if the closure is binding, what applicable guard, `governingPatternRef`, or `authoritySourceRef` makes it so?
 - what would count as an admissible reopen trigger?
@@ -56677,7 +56785,7 @@ An episteme records a probe score obtained from a model state. A receiving alert
 #### C.2.6:13.3 - Provenance, evidence and interaction in one alert
 An alert E asserts that Pump P's pressure is below 90 kPa. The software produced E from trace T. An operator has acknowledged E and selected a diagnostic check under the stated procedure. Inspection then shows that T was a measurement of Pump Q.
 
-The derivation from T remains established. T supplies no measurement of P for the claimed pressure: return to an appropriate observation of P before using that measurement as support for this claim.
+The derivation from T remains established. T establishes a measurement of Q. To support the claim about P, look for an applicable relation between the pressures or another source about P. For example, if T establishes 82 kPa at Q and an independently warranted relation for that configuration and time puts P at most 5 kPa above Q, P was below 90 kPa. Without such grounds, T alone leaves the alert's pressure claim open. A commission to measure P directly still requires that measurement.
 
 The acknowledgement and selected check remain facts about the operator's work. Whether to continue, suspend or change that check follows its rule and purpose; neither derivation nor acknowledgement settles the truth of the pressure claim. A report can publish all these statements together with their different grounds.
 
@@ -56790,7 +56898,7 @@ A local alias such as `EncodingBasis` shall identify the factors and readings it
 
 Before comparing factors, identify the representation and the units being described. A model-side code and its written summary need not have the same factors.
 
-For example, one scheme represents four states by four distinct units, with one unit active at a time. Another represents 28 states by the unordered pairs of eight units, with two units active at a time. An individual unit identifies the state in the first scheme; a pair identifies it in the second. The active-unit fractions are equal, `1/4 = 2/8`, although locality differs. These fractions do not define a universal sparse/dense threshold.
+For example, one scheme represents four states by four distinct units, with one unit active at a time. Another represents 28 states by the unordered pairs of eight units, with two units active at a time. Which unit is active identifies the state in the first scheme. Which pair is active identifies it in the second. The active-unit fractions are equal, `1/4 = 2/8`, although locality differs. These fractions do not define a universal sparse/dense threshold. Suppose the recipient routes pairs containing unit 2 to one queue and all other pairs to another. Reading unit 2 alone decides the route. Identifying the exact state still requires the pair. Select the value the recipient needs to recover before attributing locality to its code.
 
 In the second scheme, `[0,1,0,0,0,0,1,0]` and the list of active positions `{2,7}` express the same code: positions 2 and 7 are active and the other six are inactive. Suppose decoder D1 assigns that pair to state S. Both inscriptions then denote S. If decoder D2 assigns the same pair to state T, the interpretation has changed despite the unchanged list. The shorter inscription alone changes neither the underlying code nor its factors.
 
@@ -56870,7 +56978,7 @@ An operator decision aid may display alert codes beside text explaining a back-e
 ### C.2.7:14 - Authoring and Review Guidance
 
 #### C.2.7:14.1 - Author prompt
-To publish a representation-factor bundle, ask separately:
+What must the recipient distinguish, and which units and decoding rule are available to them? Select the questions below that bear on that use.
 
 - how local or distributed is the representation?
 - how sparse or dense is it?
@@ -56976,7 +57084,7 @@ A diagram may make dependencies visible without changing the described system. A
 
 #### C.2.8:4.1 - Recover the structural question
 
-Begin with the reader's needed understanding or action. Select the structure that matters to it: for example, a distinction between two alternatives, the dependency that orders two actions, or the reason a design choice changes under a new condition. A study of structural information may instead select a structure family for that research question. Selection need not assign task utility.
+Begin with what the reader must decide, do or explain. If the structure to assess is given, use it. When the selection is yours, work back from the required answer to the distinctions and connections that support it. Could readers recover every proposed relation and still miss a condition that changes their decision or its grounds? Include that condition and the connection through which it matters. A dependency may determine the order of two actions, for example, and a change of conditions may reverse a design choice. If readers must choose what to model, identify the reasoning they need to recover to choose the relevant parts and distinctions for themselves. A study of structural information may select a structure family for its research question without assigning task utility.
 
 Identify the account and the expression being used. State only the conditions that could change the comparison: relevant concepts and notation the reader can use, available inference or inspection operations, accessible sources and help, and the effort or computation budget. A qualification or course title may locate evidence of preparation; it does not specify the usable knowledge by itself.
 
@@ -57034,7 +57142,7 @@ An observed response establishes the structure recovered in that trial and can g
 
 Repeat or perturb a reading when the receiving use needs a claim about robustness or transfer. Preserve the first response before giving a changed condition or further help. Success under the new condition strengthens the corresponding changed-condition claim; it does not add structure to the original result by itself.
 
-For a cold-reader check, obtain the instruction from the publication, its declared prerequisites and the knowledge presupposed for the intended reader. The task may supply case facts. If it supplies the missing explanation of the instruction, the response shows use of that added explanation. Use F.19 to repair the publication before claiming that the publication itself supplied the action.
+For a cold-reader check, obtain the instruction from the publication, its declared prerequisites and the knowledge presupposed for the intended reader. The task may supply case facts. A prompt can name a relation and ask readers to find where it holds or apply it to a decision. To assess whether readers can select the relevant relation, leave that choice to them. If the prompt supplies an explanation missing from the publication, the response shows what readers could do with that additional help. Use F.19 to repair the publication before claiming that the publication itself supplied the action.
 
 Absence of human validation restricts empirical claims about people. It does not restrict ESI to computational observers or prevent a conditional author estimate about a human reading situation.
 
@@ -57294,15 +57402,15 @@ DeclarativeRepresentationRepair:
 
 The ordinary result is the repaired statement and any unresolved condition that changes its use. In the optional note, give the disputed inference and say what the available grounds establish. If a classification remains open, identify the missing criterion or fact. If an applicable rule prohibits an action, identify the rule and the condition that triggers it. Reuse a suitable subject-pattern record without copying it into another repair note.
 
-Use four plain questions before the claim-and-pattern table: What visible thing am I looking at? What direct object or relation is current? What, if anything, does it represent? Which stronger claim still needs grounds?
+Use four plain questions before the claim-and-pattern table: What visible thing am I looking at? What direct object or relation is current? What, if anything, does it represent? What further conclusion is being drawn, and do the interpreted content and governing rule establish it?
 
-| Visible expression or artifact | Direct object or relation at issue | Representation or correspondence use | Inference the expression alone cannot establish |
+| Visible expression or artifact | Direct object or relation at issue | Representation or correspondence use | What the interpreted content establishes and what else the inference requires |
 | --- | --- | --- | --- |
 | highlighted graph path | exact E.18 graph path or `PathSlice`, with any flow valuation kept separate | the graphic rendering corresponds to that path when the relation is current; otherwise `none` when the `PathSlice` itself is under inspection | no prescribed route, valve work, or release by the highlight |
 | dashboard tile | exact status or state value with its bearer and value frame, plus any current source or publication relation | the tile represents that value only through an exact current relation; otherwise `none` when the publication face itself is the direct object | no gate passage or release permission from green appearance |
 | evidence-path expression | descriptive A.10 evidence-provenance path for the named claim or bounded use, citing independently established direct relations | a diagram may represent that descriptive path through an exact current correspondence; otherwise `none` when the path itself is under inspection | no approval, permission, assurance, or release from path shape |
 | solver file | the particular constraint under its variable bindings and units, e.g. `queueLength ≤ 4` | the binding identifies the queue whose length the variable represents, when that correspondence is part of the claim | The constraint alone cannot establish that the solver ran or that an observed queue stayed within the limit. |
-| publication table | the filled row read with its headings, units and key | a row reporting a failure count refers to the equipment and interval identified in the table | The count alone cannot classify the equipment as unreliable. Apply the stated reliability criterion and obtain the observations it needs. |
+| publication table | the filled row read with its headings, units and key | a row reporting a failure count refers to the equipment and interval identified in the table | Apply the reliability criterion for this equipment and interval. If the rule classifies equipment as unreliable after the third recorded failure, three confirmed records of distinct failures suffice. A rate criterion may also require time in service. |
 
 For a question about format, inspect the formation rules used for the constraint or row. For a question about access, identify the file or other carrier bearing that particular expression.
 
@@ -57612,7 +57720,9 @@ The kind does not carry scope. A `KindSignature` episteme may carry its own `U.C
 
 Use the lightest object that answers the current typed-reasoning question.
 
-First identify what the sentence lets the recipient do. “Repair this stool” designates an item. For this catalogue, suppose a stool is a seat designed for one person, with neither back nor arms. To classify a seat, inspect those features. To count stools in the May delivery, identify its units and apply the catalogue criterion to each. A list of two confirmed stools settles the total only if the delivery inventory and classifications account for every possible member. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. A membership claim about a kind, identification of an individual and inclusion in such a family require their own grounds. A catalogue row or plural noun can help locate the question. Neither supplies those grounds by itself. F.19:4.3.1 explains how to retain the distinction in working prose.
+Identify what the term must pick out for the work the recipient is doing. “Repair this stool” designates an individual item. For this catalogue, a stool is a seat designed for one person, with neither back nor arms. Those features settle classification under the agreed rule. For a delivery count, establish what counts as one delivered unit. If a complete delivery contains ten seats and exactly two fall outside the stool criterion, the total is eight. Naming those eight also requires grounds for their identities. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. An individual, a design and a kind have different identity criteria. A catalogue row or a plural noun may refer to any of them. Establish what it denotes before using it as evidence of membership.
+
+When choosing the classification is your task, work back from the receiving use. A buyer ordering replacement fittings may need to distinguish two catalogue stools that take different fittings and group a compatible chair with one of them. Try cases on both sides of the proposed distinction. Keep the conditions that change the order or its required justification. Use the existing catalogue kind directly for a request stated in its terms. F.19:4.3.1 explains how to retain the distinction in working prose.
 
 1. **Recover the kind.** Name the candidate domain and the operative membership distinction: what an intended member must satisfy and what separates a relevant non-member. Record the continuity rule used when that distinction changes. Keep practice/source provenance as a cue to compare definitions, not as an automatic identity key. Do not store the current use, ClaimScope, context slice, or reference scheme on the kind.
 2. **Use C.3.1 for subkind and continuity.** A `U.SubkindOf` fact obtains through exact criterion entailment under an aligned interpretation or through exhaustive evaluation over a deliberately closed finite domain. The facts form a preorder. Opposite facts between distinct kinds may express classification equivalence for that applicability; a consumer may order the resulting equivalence groups without identifying the kinds.
@@ -57824,7 +57934,7 @@ Compare the old and proposed declarations in this order:
 | --- | --- | --- |
 | `CoolingPumpKind` is below `PumpKind`. | Use criterion entailment: the cooling-pump condition already requires the governed pump condition. State the readable relation and its applicability. | Do not infer a public `U.CoolingPump`, and do not use current extension rows as the truth-maker. |
 | A closed cabinet inventory contains five cabinets. Four satisfy both criteria. For the fifth, the narrower judgement is `unknown` and the broader is `false`. | Inclusion on this inventory is still open. If the fifth satisfies the narrower criterion it is a counterexample. Establish its narrower classification or use a valid criterion-entailment argument. | An unresolved narrower judgement in a cabinet already known to meet the broader criterion could not conceal that counterexample. Even a settled result for the five cabinets covers only this lot. |
-| The shift qualification register and the union register identify the same people on a complete current roster. | Check both criteria for every person in that roster to establish inclusion in both directions there. | Qualification depends on the shift credential and union membership on enrollment. A later enrollment can change the agreement while both kinds retain their criteria. |
+| The shift qualification register and the union register identify the same people on a complete current roster. | Once the identities, register meanings and completeness for this roster are established, the equality gives inclusion in both directions there. | Qualification depends on the shift credential and union membership on enrollment. A later enrollment can change the agreement while both kinds retain their criteria. |
 | A signature adds an aligned unit conversion. | Apply section 6, keep the kind, identify the new signature edition, and retain edition-specific judgments. | Do not rewrite earlier judgments as if the new edition had been used. |
 | A signature changes from physical cooling performance to a schema label. | The boundary probes expose a changed candidate domain and discriminator; identify another kind. | Do not hide the mismatch by editing the extension. |
 | Pump #14 changes state in a later plant slice. | Re-evaluate the admissible candidate and allow the extension to change. | Candidate-state change alone does not create a kind, signature, or relation occurrence. |
@@ -57874,7 +57984,7 @@ Kind identity, direct `U.SubkindOf` obtaining, assertion identity, declaration i
 
 ### C.3.1:13 - SoTA-Echoing
 
-For a subkind question restricted to a deliberately closed finite domain, the exhaustive branch in `C.3.1:4.1` can suffice: check every candidate's admissibility and evaluate those admissible under both declarations, resolving every case that could conceal a narrower member falling outside the broader kind. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
+For a subkind question restricted to a deliberately closed finite domain, account for every admissible case in which a narrower member could fall outside the broader kind. The exhaustive branch in `C.3.1:4.1` can use established membership judgements or records whose coverage and interpretation establish inclusion throughout that domain. Evaluate any unresolved case that could change the conclusion. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
 
 ### C.3.1:14 - Relations
 
@@ -57987,7 +58097,7 @@ Materialize `KindExtension(k, slice)` only when a named query, quantification, c
 
 - Pin the signature edition even though the compact name shows only `k` and `slice`.
 - State the candidate domain without inventing `U.EntitySet`.
-- Include each admissible candidate whose judgement is `true`. Their count answers “how many are confirmed?” To bound how many in the population could qualify, establish the complete inventory and account for every possible member. The lower bound is the confirmed count. For the upper bound add each remaining candidate whose membership has not been ruled out, including any still unevaluated. An `unknown` judgement records an inconclusive evaluation. An unevaluated candidate has no judgement yet. An incomplete inventory by itself supplies no finite upper bound for the whole population. An inadmissible request returns `not-applicable` without a judgement.
+- Include each admissible candidate whose judgement is `true`. Their number answers how many candidates have been individually confirmed. To answer a question about the population total, establish what bounds the number of members. In a complete inventory, confirmed members give one lower bound. Adding every other candidate whose membership remains possible gives one upper bound. These bounds can be loose. If exactly one of two identified units qualifies and the evidence leaves open which one, together they contribute exactly one. An established cap on the entire population can give an upper bound even when its inventory is incomplete. Use a sufficient bound for a threshold, and establish identities and coverage for a complete list. An `unknown` judgement records an inconclusive evaluation. An unevaluated candidate has no judgement yet. An inadmissible request returns `not-applicable` without a judgement.
 - Treat braces, rows, indexes, or database results as representations. They create neither a collection holon, A.14 membership occurrence, direct classification relation, nor criterion condition.
 - Use C.29 when interpretation, preservation or transfer of the represented set leaves a separate mathematical question. Otherwise finish the local calculation under the kind and query rules.
 
@@ -58051,7 +58161,7 @@ A `KindSignature` for `RegisteredSupplierKind` declares supplier candidates and 
 | --- | --- |
 | Vehicle and PassengerCar | Check candidate admissibility and use C.3.1's obtaining branch; a registry result is an extension representation, not `U.EntitySet`. |
 | AuthenticatedRequest | Name the standard and key-validity dependency. If the remaining facts do not settle authentication, an admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
-| AdultPatient | Pin jurisdictional threshold, measurement time, and candidate identity. A patient with missing birth support is `unknown`; a non-person value rejected by ValueKind is `not-applicable`. |
+| AdultPatient | Pin the applicable age threshold, date and candidate identity. With an inclusive minimum age, a supported lower bound at or above the cutoff establishes that condition. An upper bound below the cutoff rules it out. If the available evidence leaves both answers possible, its value is `unknown`. A non-person value rejected by ValueKind is `not-applicable`. |
 
 ### C.3.2:11 - Work Boundary
 
@@ -58179,7 +58289,7 @@ Different sources or practices may use the same kind, or different kinds may coe
 2. **Stop on same-kind reuse.** If the same kind continues, use the declaration edition selected for the receiving use. When that use is candidate-bearing, check admissibility and evaluate the candidate afresh. No `KindBridge` obtains merely because source, practice, team, wording, or scheme changed.
 3. **Open a bridge only for two distinct kinds.** A `KindBridge` occurrence is an obtaining direct relation between one source kind and one target kind. Its directional predicate states the correspondence and definedness required by the named receiving use. Identify each kind independently under C.3.1.
 4. **Keep the assertion separate.** A C.2.1 bridge-assertion episteme designates the relation when needed and carries paired `KindSignature` editions, mapping rule, selected order-preservation results, loss notes, evidence, and admitted use. Include `CL^k` when the consumed assurance or calibration account requires it. A card, row, F.9 relation, or publication does not make the bridge obtain.
-5. **For candidate-bearing use, evaluate the receiving candidate.** First return `admissible` or `not-applicable` under the receiving signature and slice. Only an admissible request returns `true`, `false`, or `unknown`. A source judgment may support the bridge assertion or reliance but is never copied as receiving truth.
+5. **For candidate-bearing use, evaluate the receiving candidate.** First check admissibility under the receiving signature and slice. For an admissible request, return `true`, `false`, or `unknown` from the target criterion. A supported source fact can determine that answer if its implication for this candidate, criterion and slice is established. Reuse those grounds. Where the mapping loses a difference the target criterion needs, retain the uncertainty or obtain the missing fact.
 6. **Route consequences narrowly.** When a receiving claim relies on the obtaining bridge, apply only the justified `CL^k` consequence to R. Scope and any sense relation retain their own objects and rules; F and G do not change.
 
 The kinds are the direct relation participants. Scheme and signature editions qualify interpretation, applicability, and the assertion. They do not identify the occurrence. For the ordered kind pair, the direct relation is participant-determined. An aligned scheme-edition change prompts reevaluation of whether the same relation still obtains; it does not mint another occurrence.
@@ -58299,7 +58409,7 @@ Frontend and gateway services use the same `AuthenticatedRequest` kind: the cand
 
 #### C.3.3:9.3 - AdultPatient across jurisdictions (clinical)
 
-The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. Its assertion gives `CL^k=1`, states the 18-versus-21 boundary loss, and limits definedness to the declared jurisdictional editions. The target classification uses its own signature edition. For an admissible candidate, missing DOB support yields `unknown`. That result and a separate guard refusal can suffice for the present decision. If later classification is needed, obtain the required birth-date support; a claim restricted to an independently supported subset is another possible use. Neither narrowing the claim nor applying a justified R consequence turns the candidate's unknown classification into a true one.
+The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. In this example the source age threshold is 18 and the target threshold is 21. The assertion gives `CL^k=1` and states the jurisdictional editions and the age distinction lost in the correspondence. For an admissible candidate who meets the other target conditions, a verified source classification at 18 or older leaves the target age condition open if both 20 and 22 are possible. A verified lower age bound of 22 on the target date settles it without an exact date of birth. The receiving guard can refuse a use that requires positive classification while the age condition is unresolved. A later request for classification can use any evidence admitted by the target rule that settles the threshold. A separately required birth-date record remains a distinct deliverable.
 
 ### C.3.3:10 - Anti‑patterns & Remedies (informative)
 
@@ -58409,7 +58519,7 @@ For a candidate-bearing use, first evaluate adaptation admissibility. A candidat
 
 `J_kindUse(candidate, kind, kindSignatureEdition, adaptationDeclarationEdition, slice) ∈ {true, false, unknown}`
 
-The judgment conjoins the base C.3.2 judgment with every added candidate-condition predicate. A known `false` gives `false`; all known `true` gives `true`; unresolved required facts give `unknown`. A vocabulary-only declaration adds no predicate and preserves the base judgment. A guard may decline use on `not-applicable` or `unknown` without rewriting either.
+The judgment concerns the conjunction of the base C.3.2 criterion and every added candidate condition. A known false condition settles the conjunction as `false`. Relations between the conditions can also decide it: if both inspectors must have signed and exactly one signed, the conjunction is `false` even while the signer's identity is unknown. Return `true` when the facts establish all required conditions and `unknown` when they leave satisfaction unsettled. A vocabulary-only declaration adds no predicate and preserves the base judgment. A guard may decline use on `not-applicable` or `unknown` without rewriting either.
 
 An optional pinned-edition representation may list admissible candidates judged `true`. It is not `U.EntitySet`, A.14 membership, another kind, or a direct classification relation. Scope conditions stay under A.2.6 rather than becoming kind identity.
 
@@ -58431,7 +58541,7 @@ A recurring local test can distinguish members of a narrower kind. Identify that
 
 **KUA-03 (Admissibility before judgment).** Fixed candidate, kind, base-signature edition, adaptation-declaration edition, and slice first yield `admissible` or `not-applicable`. Only an admissible request yields `true`, `false`, or `unknown`; implicit `latest` and guard-result coercion are forbidden.
 
-**KUA-04 (Adaptation type).** A vocabulary declaration preserves the base judgment. Constraint and composite declarations use governed candidate conditions: any known `false` gives `false`, all known `true` gives `true`, and unresolved required facts give `unknown`.
+**KUA-04 (Adaptation type).** A vocabulary declaration preserves the base judgment. For a constraint or composite declaration, evaluate the combined criterion for the admissible candidate. Return `true` when the grounds establish the conjunction, `false` when they exclude it and `unknown` when they leave it unsettled. Use known individual conditions and any established joint constraints.
 
 #### C.3.4:6.2 - Separation of Channels
 
@@ -58788,6 +58898,8 @@ Names such as `Guard_TypedClaim` are editorial handles. A context may alias them
 
 The subkind direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule.
 
+The inclusion or correspondence must cover the receiving candidates for which the claim will be used. Inclusion established on one closed roster supports restriction to that roster. Applying the rule to an additional candidate needs grounds covering that candidate. For distinct kinds, establish that the mapping covers the required target cases and preserves the premise and consequence the receiver needs. An unrestricted target use requires that ground across its entire domain.
+
 This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
 
 #### C.3.A:4.2 - Guard_CandidateUse — apply a typed claim to an exact candidate
@@ -58820,7 +58932,7 @@ Evidence may support a classification assertion, but record presence, bridge pre
 4. when a produced candidate enters B, check admissibility and evaluate `J(candidate, k_B, edition_B, TargetSlice)` only for an admissible request; continue only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds; and
 5. route justified bridge consequences to R and check freshness before allowing use.
 
-Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction.
+Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction. For a promise covering every permitted output, check that compatibility holds over the producer's full permitted output domain. An inclusion proved on one batch covers that batch.
 
 #### C.3.A:4.4 - Guard_MaskedUse — exact RoleMask use
 
@@ -58889,7 +59001,7 @@ When composing macros, reuse checks whose inputs and receiving use are unchanged
 
 | ID | Requirement |
 | --- | --- |
-| **GC-01** | A universally quantified claim pins both claim-kind and receiving-kind declaration editions; the non-bridged restriction requires the receiving kind to be identical to or a subkind of the claim kind, while producer/output positions use their own direction. No candidate is invented. |
+| **GC-01** | A universally quantified claim pins both kind declarations. Its restriction uses identity, subkind inclusion or a justified correspondence that covers the intended receiving domain and preserves the required inference. For a producer output, check compatibility towards the consumer's input over the output domain claimed. Declaration-level use needs no individual candidate. |
 | **GC-02** | Every claim-to-candidate use pins candidate, claim kind, receiving kind, both needed signature editions, and slice; it checks admissibility before evaluating the target receiving judgment and consuming `true`/`false`/`unknown`. An inadmissible request retains `not-applicable` without a judgment. |
 | **GC-03** | `not-applicable`, `unknown`, and known `false` remain distinct from each other and from guard refusal. |
 | **GC-04** | RoleMask use recovers the declaration episteme and, when the use is candidate-bearing, the exact masked judgment; any MaskAdapter remains a separate declaration. |
@@ -58957,11 +59069,11 @@ Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; 
 
 **E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored.
 
-Plant-B evaluates its vehicle candidate under that target edition; the source result is only support. The receiving R assessment accounts for the collapsed EV/ICE distinction when it affects the relied-on claim; the bridge rating alone supplies no numerical decrement.
+Plant B evaluates the candidate under its target edition. Suppose the source rule requires every mapped vehicle to carry the same identifier. It can apply where the mapping covers the target units and preserves that identifier requirement. A source rule specific to battery-electric vehicles needs to distinguish those vehicles. If Plant B's classification combines them with vehicles powered only by combustion, establish the propulsion type from another admissible source or restrict the rule to a supported subset. The `CL^k` rating alone supplies neither this distinction nor a numerical R decrement.
 
-**E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, unavailable key-validation support yields target `unknown`; the consumer refuses without asserting that the request is known unauthenticated.
+**E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, suppose the other grounds establish neither the required condition nor its failure. If key-validation support is unavailable, the target judgement is `unknown` and the consumer refuses. An established failure of another necessary condition would already settle the target judgement as `false`.
 
-**E4 — Masked clinic use.** The guard designates the exact `AdultPatient@Clinic` RoleMask declaration, base signature edition, patient candidate, and slice. Unavailable date-of-birth support yields `unknown`; the mask label and EHR row do not classify the patient.
+**E4 — Masked clinic use.** The guard designates the exact `AdultPatient@Clinic` RoleMask declaration, base signature edition, candidate and slice. The mask label and a record entry can identify them. Age classification requires evidence for the applicable criterion. Suppose age of at least 21 is required. A verified age of at least 22 at that time satisfies the age condition. If the available record establishes only age of at least 18 and both 20 and 22 remain possible, the age condition is `unknown`.
 
 ### C.3.A:10 - Rationale
 
@@ -59028,7 +59140,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 ##### C.3.A:A.4 - Worked examples [I]
 
 
-**Adult dosage across jurisdictions.** Authority kind `AdultPerson@RegY` uses threshold 18; hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. For patient P-44, the hospital evaluates its target signature edition in the dated formulary slice. Missing DOB support gives `unknown`; the guard refuses without asserting that P-44 is a non-adult.
+**Adult dosage across jurisdictions.** In this example the authority kind `AdultPerson@RegY` uses threshold 18 and the hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. The hospital evaluates its target signature edition in the dated formulary slice. For candidate P-44, suppose the only age information is that P-44 met the authority threshold that day. Ages of 20 and 22 are both compatible. The target age condition remains `unknown`, and the guard refuses a use requiring positive classification. An attested bound of at least 21 would settle the hospital's age condition under these rules.
 
 **GDPR and CCPA.** Two source kinds relate to independently identified product-context kinds through separate bridges/assertions. Each policy has its own jurisdiction/time Scope. A data item is governed by a fresh target judgment; an alias table is support, not classification.
 
@@ -59348,7 +59460,7 @@ Apply the `ChoiceRule` to the available `OptionSet`. A completed comparison yiel
    Distinguish the chooser from participants who provide evidence, advice or execution. Use `A.13` for a disputed claim about agency and the applicable assignment or mandate for a claim about who can decide.
 
 2. **Freeze the current option set.**
-   State the already-available options being compared now as one `OptionSet`.
+   Establish which alternatives the commission allows and which it asks you to compare. Use the available alternatives in the current comparison as one `OptionSet`. A choice among the offers received can close on those offers. For a claim about the whole permitted domain, establish what an omitted option could change. One offer shown to meet the requirements can settle a request for a workable option. To claim a greatest option under the governing preference, establish that it is at least as preferred as every eligible alternative. Under a partial order an eligible option is nondominated when no eligible alternative strictly dominates it. To name all options attaining a best value, account for other alternatives that could tie.
    If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. Use `C.39` when a way to obtain the result still needs explanation, or `C.40` when usable material needs feasible variation and examination. Use `C.18` when generation-account or archive/front claims are needed.
 
 3. **Make the comparison basis explicit.**
@@ -60702,7 +60814,7 @@ Compare the feasible alternatives for the same receiving decision. Identify who 
 5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
-8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
+8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Identify who will select the method in use and whether they can distinguish the relevant situations in time to act. For a guarantee, the course selected from the available information must work in every compatible situation covered by the commitment. For a risk-limited commitment, assess the resulting rule against its risk criterion. For an undertaking that covers concurrent work, also establish that the branch choices can be carried out together with the support actually available. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
 9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and any unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves any unresolved trade-off and stopped use without inventing a correction owner.
 
@@ -60906,7 +61018,7 @@ None supplies implementation authority.
 
 **Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, distinguish an aspect, or delimit a measured portion. Reuse an existing ordinary account when it already supplies those facts and their construction rule; the notation is optional.
 
-**First useful move.** Name the object whose construction or delimitation you must explain; then name the participants, the direct relations that obtain, and the construction or delimitation rule. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
+**First useful move.** Start with the construction or delimitation the recipient needs explained. When its extent needs choosing, use the relation the question concerns. In an assembly, vary how the same parts are arranged or how a part is used in its enclosing whole. For a collection or a measured portion, consider how a change in membership or boundary would affect the answer. Follow the relevant relation as far as the conclusion or its required grounds depend on it (C.39.SA:4). Once the relevant participants and relations are established, state the construction or delimitation rule. Use `sum`, `set`, or `slice` where the notation helps.
 
 **What goes wrong if missed.** A readable component, belongs-to, or aspect statement may lack its construction account; or the opposite mistake occurs and a diagram, list, or `Γ_m` expression is treated as if it created a whole, a relation, or a holon.
 
@@ -61037,9 +61149,9 @@ Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-bo
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
-A theory episteme may use C.13 only after C.2.1 identifies the episteme and a direct episteme-part or claim-composition pattern identifies the constituent entities, the part relations that obtain, and the assembly and reidentification rule. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
+A theory episteme may use C.13 only after C.2.1 identifies the episteme and the direct semantic-part rule in A.14 and any applicable claim-composition rule identify its constituents, their integration and the assembly and reidentification rule. When the question is what their grounds support together, use B.1.3:4. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
 
-A composite method may use C.13 after B.1.5 or another direct method-composition pattern identifies submethods, whole-forming relations, constraints, and the whole-method reidentification rule. A dated work occurrence may use C.13 only after the direct work-mereology owner identifies work parts and whole-forming relations. Step labels, a recipe, work-plan items, a WBS, co-occurrence, or common performer do not supply those facts.
+A composite Method may use C.13 after B.1.5 or its direct Method-composition pattern identifies submethods, whole-forming relations, constraints and the whole Method's reidentification rule. For the operational parts of a particular performance, A.15.1:4.1a and B.1.5.EW:4 ask what work was done through each constituent. For instance, an inspection Method can permit either checking a current calibration certificate or performing a new calibration. If the inspector checked an existing certificate, that check belonged to the inspection Work. Whether the earlier calibration itself belonged to a larger Work depends on how that work was constituted. A recipe, plan, work breakdown or common performer can help locate the performance. Establish the actual part relation from the work performed.
 
 A discipline may use C.13 only after C.20 and its direct relation owners identify the constituent entities required by the case, the whole-forming relations that obtain among them, and the discipline identity or reidentification rule. Do not infer parts from C.20 card positions or from objects merely associated with the discipline. For example, a practice, organization or canon item enters a `sum` trace only when a direct part predicate independently obtains.
 
@@ -61231,7 +61343,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.1 - Name the measurand and measurement subject
 
-**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. A pressure at one port and the maximum pressure anywhere in a vessel are different measurands. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
+**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. If choosing the measurand is your task, begin with the recipient's decision. C.39.SA:4 helps when several composition scales or levels of model abstraction could serve that decision. Which subject bears the consequential property, at what places and times? Hold a proposed reading fixed and vary another condition allowed by the task. The pressure at one port may settle whether the local valve reaches its opening threshold. The same port reading can accompany different peak pressures elsewhere in the vessel. A vessel-wide limit needs a relation to those pressures, observations covering them, or a sufficient bound. A justified bound can settle the limit while the exact maximum remains open. The measurement scale and unit can stay the same across these different questions. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
 
 **M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 
@@ -61436,7 +61548,7 @@ For the question “which temperatures are compatible with this account at W?”
 
 For a proposed model, apply the subject, scale, model and applicable calibration checks. Apply work and result checks when asserting a performed measurement, and later-use checks when making that later claim.
 
-1. **Subject:** identify the entity or ordered tuple, then the quantity or other Characteristic sought under the stated conditions.
+1. **Subject.** Identify the entity or ordered tuple, the quantity or other Characteristic and its conditions. When the measurand had to be chosen, explain which difference in the receiving decision justified that choice. For an inference from a part to the whole, give the relation or bound that carries it.
 2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
 3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
@@ -61520,19 +61632,11 @@ These sources contribute different parts of measurement interpretation. Their qu
 
 ### C.16:15a - Measurement and probe note for quantum-like readings
 
-Use C.16 first when the object is a sensor reading, survey response, dashboard value, score, probe result, or state coordinate. Noise, probability, discreteness, gaming, or difficult interpretation does not by itself make a case quantum-like.
+For a sensor indication, survey response, dashboard value, score or model coordinate, establish what the receiving question asks about it. A question about a proposed probe can be answered by a model of what the probe changes. A claim about an observed effect of probe order needs grounds for the performed comparison. For example, if the first survey item reveals information needed to answer the second, their wording and order show how the two administrations differ. Whether that information changed respondents' answers requires evidence about their responses.
 
-Recover the ordinary measurement chain first:
+Use the ordinary subject or measurement account as far as this question requires. For an obtained measurement result, recover the measurand, subject, Scale, Unit where applicable, time, method, model, calibration, actual work and uncertainty that support its interpretation (§5). Distinguish the indication, attributed value and any later verdict. Carry the provenance needed for the specific reliance. For a model prediction, state what follows under its premises.
 
-1. identify the subject and the quantity or other Characteristic measured, then the Scale, value or Level, applicable Unit and time stance. State a preference when the use evaluates the result;
-2. separate reusable method and model from dated work and actual bindings;
-3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
-4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
-5. attach provenance through A.10/G.6 and state the supported and unsupported later uses.
-
-Only after that repair ask whether the probe order, frame, publication, or export changes the state or the inferences that remain admissible. If it does, C.26 may govern that residual contextual or probe-order question. If it does not, remain in C.16 and the ordinary evidence, assurance, or receiving-use patterns.
-
-Minimum probe note:
+When the ordinary account leaves a named contextual or probe-order obstruction that changes an inference or action, C.26 tests its mathematical and practical significance. For a performed measurement that needs an inspectable note, the following fields can record its basis.
 
 | Field | Required content |
 | --- | --- |
@@ -62269,7 +62373,7 @@ Rewrite the claim so the reader can recover its subject, the relevant characteri
 
 #### C.16.P:4.1 - Recovery sequence
 
-1. **Read the trigger in its sentence.** Recover the complete assertion. Retain the source wording when the repair needs an inspectable comparison.
+1. **Read the trigger in context.** Recover what the expression asserts and who needs to understand or use it. If a decision depends on its interpretation, identify that decision. Distinguish the question asked from a comparison the available data happen to support. Retain the source wording when the repair needs an inspectable comparison.
 2. **Recover the bearer.** Name the subject being characterized. For a relational Characteristic, retain the tuple required by its definition.
 3. **Recover the construction.** Use §5 to identify what the wording means. A trigger can be ordinary prose; its appearance does not create an FPF kind.
 4. **Use a recovered subject rule directly.** Once the construction is clear, apply its subject pattern from §6 or the relevant domain practice.
@@ -62317,7 +62421,7 @@ A local rewrite is sufficient when the sentence conveys the needed meaning and c
 | `feature` or `property` | Is this an observed feature, characteristic, model feature, entity property, relation property, or ordinary prose? | `Feature` or `property` as automatic characteristic. |
 | `strong` or `weak` | Does it state a degree of a characteristic or another claim? For a degree, on which scale and under which comparison reference or comparator set? | A degree of a characteristic without its scale. |
 | `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved-structure and lost-structure? | Robust as general praise. |
-| `level` | For a rating, which named category on which scale? For a level of model abstraction or refinement, which models answer the same question, and which answer does the more abstract model admit that the more concrete model excludes if the step is strict (B.5.MR:4.2–4.3)? | A category, maturity label or L-number used as proof that the model became more concrete. |
+| `level` | Which entities or values are ordered, and by what relation? For a rating, recover the category and measurement scale. For a part and its encompassing whole, recover their kind and the constituent relation (C.39.SA:4). For a control layer, identify its function and its relation to the other layers. When its Methods are claimed as constituents of one Method, establish that composition. For model refinement, hold the inquiry and interpretation fixed. Under B.5.MR:4.2–4.3 a strict refinement admits at least one answer, preserves the broader requirements in all admitted cases and excludes a previously possible answer. | A new rating, a move to a constituent or a deeper place in a hierarchy used as proof of model refinement. |
 | `indicator` | Indicator of what characteristic or claim, through which direct relation? If it is a proxy, what is the proxy relation and distortion risk? | Indicator as the indicated property. |
 | `threshold` | What predicate is applied to which characteristic space coordinates? Identify the applicable comparison operator, cut value, band, region or dominance condition; any scalarization policy; the comparison reference or comparator set; any gate or acceptance relation used by the claim; and necessary applicability or stop conditions. Add an explanatory non-use guard only under F.19:4. | Threshold as characteristic, measure, scalar score, decision, or proof by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |
@@ -62354,9 +62458,9 @@ A local rewrite is sufficient when the sentence conveys the needed meaning and c
 | "Latent axis explains behavior." | Recover whether `axis` is a latent coordinate, factor, mathematical lens, characteristic, or ordinary source-local word. Use `C.29` when choosing, transferring or relying on the mathematical representation leaves an unresolved question. |
 | "The benchmark proves the method is better." | Recover benchmark harness, characteristic space, comparison set, scale, statistical or evidential claim, and decision use. Use the patterns governing the evidence, decision and work claims as needed. |
 
-**Worked comparison.** A report calls a new implementation “stronger.” Its supplied observations concern response time in four matched workload cases under the same conditions. Response time is elapsed duration on a ratio Scale, expressed in milliseconds. The earlier times are 80, 100, 120 and 140 ms; the new times are 70, 90, 110 and 130 ms. Both sets of times are summarized by the median, defined here as the mean of the two middle ordered values. The respective medians are 110 and 100 ms.
+**Worked comparison.** A report calls a new implementation “stronger.” The receiving question is how typical response time changed across four specified, matched workloads. The agreed summary is the median, here the mean of the two middle ordered times. Response time is elapsed duration on a ratio Scale. The earlier times are 80, 100, 120 and 140 ms. The corresponding new times are 70, 90, 110 and 130 ms. For these four cases, median response time fell from 110 to 100 ms.
 
-The supported rewrite is: “For these four matched workload cases, median response time fell by 10 ms, from 110 to 100 ms.” Together with the stated median rule, it identifies the Characteristic, Unit, comparison set and aggregation operation and can finish the wording repair. It supplies no comparison for other workloads. If a receiving criterion requires median response time at most 105 ms on these cases, the new value satisfies that numerical condition. Any other release conditions remain separate. If the new trials used different workload cases, the original comparison would need an account of their comparability before supporting the same claim.
+If the requirement is a median of at most 105 ms on these cases, the new result meets it. If **each** case must finish within 105 ms, the 110 and 130 ms cases violate it, even though every paired case was 10 ms faster. The same records settle both questions. They provide no comparison for other workloads without grounds for transfer. A change in the tested workload mix would also require grounds for comparing the two editions.
 
 ### C.16.P:8 - Bias-Annotation
 
@@ -62502,7 +62606,7 @@ Inspect quality wording when its sense, bearer, comparison or consequence is unc
 #### C.16.Q:4.0a - Operational repair sequence
 
 1. **Read the whole assertion.** Recover what the sentence claims or asks. Retain its wording when an inspectable before/after comparison is needed.
-2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. Keep ordinary non-governed wording ordinary.
+2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. If the question could concern a component, the operation of several components together or the encompassing whole, identify the kind of whole and the relation the judgement depends on. A Method can prescribe what its parts must do together. A record of Work can establish which parts were performed together on this occasion. Keep the component result fixed and vary the others or their arrangement. If the requested conclusion can change, restore the relation between the assessed subject and the subject of the original question. An applicable common rule or a direct assessment of the required whole can settle the question. Keep ordinary non-governed wording ordinary.
 3. **Distinguish the plausible interpretations.** Use the stated purpose and interpretation scheme, together with any relevant evaluation conditions or comparison, to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
 4. **Follow the recovered question.** For action-oriented wording, a relation, evidence, a gate or another non-quality question, apply its subject rule. Use A.6.A, A.6.P, C.16.P or another recovery pattern only while the corresponding meaning is still unclear. An adequately expressed question can finish without a `QualitySense`.
 5. **Choose a sense when a transitional ascription is needed.** Select the applicable `QualitySense` and retain consequential rival interpretations while they remain unresolved. Explain a rejected alternative only when that distinction helps recover the intended claim.
@@ -62862,7 +62966,7 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 
-**A completed ordinary repair.** A report says “architecture quality improved,” but its supplied comparison concerns two editions of an architecture description. Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. It asserts no change to the system's availability or security. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
+**A completed ordinary repair.** An architecture team is deciding which edition of a description supplies the dependency information it needs. Its report says “architecture quality improved.” Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. If the commission instead concerns the system's availability or security, report this finding about the description and identify the evidence still needed for the system claim. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
 A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
@@ -62900,6 +63004,9 @@ qualityTermAscription(
 Here `EGR_LatentFitResult_22` denotes a separately established relation between the exact result episteme and exact grounding holon under the governed probe or measurement relations. The run and card alone would not establish it.
 
 **Repair B — closed-loop control line**
+
+Use this reading if the team's question concerns the policy and model operating together. The same model can produce different control outcomes with a different policy. A supported improvement of the tested pair can settle a choice between the tested deployments. To attribute that improvement to the model, establish its contribution under comparable policies and conditions or use other evidence that distinguishes the contributions.
+
 ```text
 qualityTermAscription(
   bearerTuple = {PolicyModelPair_PM5},
@@ -63036,6 +63143,8 @@ The shared evaluator does not collapse the two repairs: their bearers, schemes, 
 #### C.16.Q:5.4 - Show (QD or selector lane)
 
 **Draft:** “Quality in our QD loop.”
+
+Suppose the selector's operator asks how Candidate_7 was valued under its objective. That selects the candidate as the bearer in the example. If the operator instead asks whether the archive covers the required behaviours or the search produced better candidates, identify the archive or search and the coverage or comparison that would answer that question (C.18). One candidate's objective value can contribute to such a conclusion when the relation is established.
 
 **Repair**
 ```text
@@ -63266,7 +63375,7 @@ Do not infer a person's or System's creative capacity from a C.17 result. Strong
 
 #### C.17:1.1 - Qualitative first move
 
-Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
+Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. When the comparison basis is yours to choose, ask whose prior designs, practices or results matter to this judgement and which differences would change the recipient’s use. An inventory can answer a question about its entries. A claim extending beyond it needs grounds that an omitted comparator or a distinction lost by the representation cannot overturn the conclusion. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
 
 > Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 
@@ -63458,7 +63567,7 @@ Do not alternate among *result*, *profile*, *record*, and *dashboard* as if they
 
 ### C.17:7 - Comparison, gates, and selection boundary
 
-1. Never use Novelty alone to approve or prefer a bearer. Pair it with Use-Value or the relevant ConstraintFit gate.
+1. Use the criterion the recipient actually applies. Among eligible candidates a novelty comparison can settle a preference for the most dissimilar one under the agreed rule. When approval also depends on usefulness or another eligibility condition, establish that condition separately.
 2. State the selected characteristic subset, polarities, eligibility conditions, and comparability basis of every dominance claim.
 3. Preserve partial orders and incomparability. A Pareto or constraint-bounded Front follows from the declared rule; a plotted hull does not by itself establish that relation.
 4. Do not force one scalar creativity score. If a receiving policy uses an index, publish its weights or curves, admissible transformations, uncertainty treatment, sensitivity, and drift rule while keeping the primitive coordinates queryable.
@@ -63471,7 +63580,7 @@ Every quantitative result names its derivation or evidence and the calibration, 
 
 Apply these anti-Goodhart guards:
 
-- when novelty is used to support an approval or a preference, also establish the relevant usefulness or eligibility.
+- when a preference or approval uses novelty, establish each further condition that the governing rule requires.
 - identify the editions of the corpus, encoder, model or Scale the result actually uses. A change to those grounds can require a new calculation.
 - keep Illumination as telemetry unless an explicit policy promotes it for a named use;
 - check delayed practical consequences, such as retention, maintenance burden, or cost-to-serve, before treating a proxy improvement as a practical gain;
@@ -63568,7 +63677,7 @@ This brief is a representation of the selected configuration and results. It doe
 | `CC-C17-5` | Surprise identifies one model episteme and its separate training basis, modeled sample unit, encoding, size treatment, and discrete probability or continuous measure. A cross-bearer comparison uses a justified common extent, declared per-unit or code-length normalization, or another calibrated rule; otherwise the raw result stays basis-local. Use-Value identifies its objective or criterion; an improvement or gain also identifies its baseline and comparison or counterfactual Method. ConstraintFit identifies the must-constraints and their sources. AttributionIntegrity identifies the applicable duty set, the source or rule used to determine applicability, Scale, missingness rule, and evidence for each duty it evaluates. An empty applicable-duty set produces no numeric ratio; omit the characteristic or return explicit `not applicable`, distinct from an unresolved applicable duty. |
 | `CC-C17-6` | Each coordinate is either a complete C.16 measurement result or a C.2.1 non-measurement ascription under an explicit rule. A displayed number alone fails. |
 | `CC-C17-7` | Aggregate result, optional profile payload, representation or publication form, optional record, and any dated assessment Work remain distinct. |
-| `CC-C17-8` | Novelty is paired with Use-Value or ConstraintFit for approval-facing use; must-constraint failure remains an eligibility failure unless an independently valid exception applies. |
+| `CC-C17-8` | The comparison supplies the criterion the receiving rule requires. Establish each applicable Use-Value or ConstraintFit condition under its own rule. Reuse the novelty result when that rule makes it sufficient. A failed must-constraint excludes the bearer from the affected use unless a valid exception applies. |
 | `CC-C17-9` | Dominance names the characteristic subset, Scale compatibility, polarity, eligibility conditions, and comparison rule. Frontiers are computed from that rule; scalarization is explicit and primitive coordinates remain available. |
 | `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |
@@ -63608,7 +63717,7 @@ This brief is a representation of the selected configuration and results. It doe
 
 | Current practice and source | Source-use decision | Concrete C.17 consequence |
 | --- | --- | --- |
-| Judge novelty and usefulness as distinct, context-dependent questions. Harvey and Berry, `Toward a Meta-Theory of Creativity Forms: How Novelty and Usefulness Shape Creativity`, *Academy of Management Review* 48(3):504-529 (2023), DOI `10.5465/amr.2020.0110`; Sen et al., `Automated Creativity Evaluation of Language Models Across Open-Ended Tasks`, ACL 2026, DOI `10.18653/v1/2026.acl-long.1061`. | **Adopt** the separation of creative breadth from task fulfilment and the dependence of usefulness on the practical situation. **Adapt** it by using the named comparison basis, Use-Value, and ConstraintFit already defined here. **Reject** a context-free creativity score and the cited paper's particular semantic-entropy or automated-judge machinery as universal FPF measures. | For a novelty claim, the first move names what the bearer differs from. For a claim of creative value it also identifies the practical objective or must-criterion. Approval-facing use cannot substitute Novelty for Use-Value or ConstraintFit; `CC-C17-1`, `CC-C17-5`, and `CC-C17-8` test that boundary. |
+| Judge novelty and usefulness as distinct, context-dependent questions. Harvey and Berry, `Toward a Meta-Theory of Creativity Forms: How Novelty and Usefulness Shape Creativity`, *Academy of Management Review* 48(3):504-529 (2023), DOI `10.5465/amr.2020.0110`; Sen et al., `Automated Creativity Evaluation of Language Models Across Open-Ended Tasks`, ACL 2026, DOI `10.18653/v1/2026.acl-long.1061`. | **Adopt** the separation of creative breadth from task fulfilment and the dependence of usefulness on the practical situation. **Adapt** it by using the named comparison basis, Use-Value, and ConstraintFit already defined here. **Reject** a context-free creativity score and the cited paper's particular semantic-entropy or automated-judge machinery as universal FPF measures. | For a novelty claim, the first move names what the bearer differs from. For a claim of creative value it also identifies the practical objective or must-criterion. A novelty comparison can supply a novelty criterion. A claim about usefulness or eligibility also needs its own grounds. `CC-C17-1`, `CC-C17-5`, and `CC-C17-8` apply these distinctions. |
 | Preserve a collection of different locally strong alternatives when the question needs coverage rather than one winner. Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`. | **Adopt** the quality-diversity and illumination insight that coverage and local quality can matter together. **Adapt** it as `Diversity_P`, Illumination, or another declared retained-set reading. **Reject** MAP-Elites, a QD score, feature descriptor, container, or quota as a default C.17 method or selection rule. | A set reading stays telemetry with its bearer, rule, Scale, and evidence. Use `C.18` for Archive and Front maintenance, `C.19` for pool treatment, and `G.5` for selector-facing declarations; `CC-C17-9` and `CC-C17-10` keep these moves separate. |
 | Test whether a result survives reasonable corpus, metric, and representation choices. Lu et al., `Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations`, EACL 2026, DOI `10.18653/v1/2026.eacl-long.297`; Stein et al., `Exposing Flaws of Generative Model Evaluation Metrics and Their Unfair Treatment of Diffusion Models`, NeurIPS 2023, DOI `10.52202/075280-0165`. | **Adopt** sensitivity checking and comparison with evidence suited to the receiving domain. **Adapt** it by making the corpus, inclusion rule, Method, model or encoder, distance, calibration, and uncertainty part of the claim. **Reject** transfer of one metric across domains, minor prompt or implementation stability as validity, and leaderboard standing as evidence of the bearer characteristic. | For a load-bearing value, use a robustness diagnostic suited to the claim, such as neighbour inspection or corpus/Method sensitivity. Reuse an adequate result; run a further probe only when its contribution is needed. If the conclusion changes, report that dependence or incomparability instead of hiding it in one score; `CC-C17-4` and `CC-C17-11` make this visible. |
 | Check whether optimizing a proxy stops improving the result that matters. Gao, Schulman, and Hilton, `Scaling Laws for Reward Model Overoptimization`, ICML 2023, PMLR 202:10835-10866, `https://proceedings.mlr.press/v202/gao23h.html`. | **Adopt** the warning that further proxy optimization can reduce performance under a separate target judgement. **Adapt** it by retaining primitive coordinates, gates, evidence, and held-out or delayed observations and by giving the local result a stop or reopen condition. **Reject** the reward-model setting or its fitted scaling law as a universal degradation model, and reject a rising proxy score as evidence that the bearer improved. | The design and policy cases keep tooling and legal or equity gates visible even when another value improves. Scalarization never erases the primitive coordinates; later target evidence can reopen only the claims that relied on the proxy. |
@@ -64035,11 +64144,11 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 * **SLL‑2 (Probe).** An empirical conclusion about a change with scale **SHALL** use an applicable **scale‑probe** (≥ 2 points in `S`, with the applicable uncertainty treatment in §4.2) and record the supported **χ**, or the unresolved classification. An existing probe may supply this basis while its window, definitions and conditions remain applicable. Multi‑knob probes **SHALL** hold unspecified knobs fixed or pinned, and disclose invariants. A result at one setting can establish what happened there. Repeat trials at that setting can improve the estimate for that setting. A change with scale remains open until the evidence covers distinct settings.
 * **SLL‑3 (Parity).** A comparison claiming matched scale **SHALL** establish **iso‑scale parity**. When heterogeneous knobs such as FLOPs and tokens require a mapping, apply a justified **UNM/NormalizationMethod** mapping **before** comparing outcomes under **G.9**; their names alone supply no conversion. Keep **FreshnessWindows/editions** equal/pinned as required by G.9. If iso-scale parity cannot be established, state the loss and restrict the comparison to what its applicable rule admits. Loss notes alone do not make an otherwise unsupported comparison admissible. Record any **seeds/replicates** used, the uncertainty basis, ComparatorSet and applicable policy ids in telemetry/SCR.
 * **SLL‑4 (Selection lens).** Within the **same Context and ScaleWindow**, if novelty, use value and constraint fit are tied, selectors **MAY** use illumination as a tie-breaker when an applicable pinned policy admits that bounded use. This **SHALL NOT** change default dominance. Promotion into dominance needs its own explicit CAL policy; otherwise illumination remains report-only telemetry.
-* **SLL‑5 (Knee test).** A **knee** is claimed only when a monotone rise is followed by a slope drop across adjacent intervals formed by at least three distinct probe points within the ScaleWindow. Compare slopes along one ordered resource coordinate with other influential conditions held comparable. If several resources change together, define the path and its unit of advance, and attribute the knee to that path. The slope comparison must be admissible for the declared Scales and establish a drop exceeding the **policy-defined threshold** under the uncertainty or error treatment appropriate to the probe. For stochastic probes, establish statistical significance under the cited policy using a method whose assumptions fit the trial design; report the significance level and any confidence-interval level used. For deterministic probes, establish the threshold exceedance throughout the applicable error bounds. Cite the threshold policy (E/E-LOG), comparison method and uncertainty basis. Failure to establish a knee leaves that claim unsupported. Report **rising**, **flat** or **declining** only when the probe supports that class; otherwise leave **χ** unassigned. Absence of a confirmed knee is not evidence of rising performance.
+* **SLL‑5 (Knee test).** A **knee** is claimed only when a monotone rise is followed by a slope drop across adjacent intervals formed by at least three distinct probe points within the ScaleWindow. Compare slopes along one ordered resource coordinate with other influential conditions held comparable. If several resources change together, define the path and its unit of advance, and attribute the knee to that path. The slope comparison must be admissible for the declared Scales and establish a drop exceeding the **policy-defined threshold** under the uncertainty or error treatment appropriate to the probe. For stochastic probes, assess the slope drop under the governing uncertainty rule using a method whose assumptions fit the trial design. If that rule requires a significance test, report its result and significance level. If it specifies a probability or bound on the drop, give the probability or bound and its supporting assumptions. Report the level of any interval used. For deterministic probes, establish the threshold exceedance throughout the applicable error bounds. Cite the threshold policy (E/E-LOG), comparison method and uncertainty basis. Failure to establish a knee leaves that claim unsupported. Report **rising**, **flat** or **declining** only when the probe supports that class; otherwise leave **χ** unassigned. Absence of a confirmed knee is not evidence of rising performance.
 * **SLL‑6 (Telemetry invariants).** Probes **SHALL** export the uncertainty basis, any seeds/replicates used, edition pins, applicable policy ids and resource-account units governed by **C.16** and **B.1.6**, with dated-work and provenance links under **A.15.1** and **A.10**, to **G.11**.
 
 #### C.18.1:4.4 - Method — minimal SoTA probe recipe (notation‑agnostic; informative).
-1) **Choose ordered scale variables** `S` for the Context, such as compute, data, capacity or FoA, under their declared measurement basis.
+1) **Choose ordered scale variables** `S` from the decision the result will inform. Identify whose resource is varied, which system or work produces the response, and the range of settings the decision must cover. When using component readings to judge a whole service, establish how their allocation, timing and interaction determine the service result. A direct service measurement or sufficient bound can settle the question. Declare the measurement basis for the selected variables.
 2) Choose attainable settings that can distinguish the effects in question. Three to five settings can reveal curvature along a single ordered resource. A two-state variable permits a two-state comparison. For several resources, choose a design that can distinguish the relevant main effects and interactions.
 3) For stochastic trials, choose replication and an uncertainty method adequate to the claimed trend; bootstrap intervals are one option when their assumptions fit the data. Retain the seeds used. For deterministic trials, retain the conditions and applicable error bounds.
 4) Estimate the contrast needed for the claim. For a knee, use the adjacent slopes in SLL‑5. Logarithmic slopes require positive values and operations admitted by the Scales under `A.18`. A segmented fit or a knee detector can assist that comparison.
@@ -64335,7 +64444,7 @@ A supported pool-treatment conclusion identifies the pool and its next treatment
 - Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without implying that one scalar winner has already been chosen.
 - Close as `sunset_line` when a line's prospective contribution, feasible continuation or retention no longer warrants its burden under the pool policy. Failure to graduate is not enough. Its archived result may still be retained under C.18 when that separate retention remains useful.
 
-When comparing two policies, hold the candidate lines, evidence and pool question fixed and apply each policy. Identify any treatment the change permits or excludes under those conditions. Applying the same policy to newly generated candidates or newly observed performance can also change the treatment. State which input changed so the next team can tell whether to revise its policy, update the pool or use the new evidence.
+For a decision about the present pool, apply both policies to the same candidate lines and evidence. Compare how the policies would treat these lines. With the same permitted actions they can still give different commitments, resource allocations or sampling probabilities. Retain the differences that matter to the present decision. For a comparison starting from this pool, hold its initial candidates and the external opportunity and resource conditions comparable. For performance across pools, establish a comparable basis across the population in question. Trace how each policy’s treatments would affect the candidates explored, the evidence obtained and the later choices available. Identify which differences follow from the policy and which depend on an external change. A prospective comparison can remain conditional on an outcome still to be observed.
 
 When the question has stopped being pool policy, carry the established result or qualified open question into the applicable handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
 
@@ -64497,7 +64606,7 @@ A product-search or architecture-search team can keep several family regions ali
 
 #### C.19:5.2 - Episteme grounding
 
-A SoTA pack often compares traditions that stay non-dominated for different reasons: one clears current evidence quality, one keeps broader transfer value, one preserves family coverage. The `C.19` result is then often `keep_frontier` or `narrow_to_subset`, rather than a scalarized winner.
+A source collection may retain one tradition for the range of its evidence and another because it makes a different family of questions accessible. Decide whether those contributions warrant their continuing cost under the current pool policy. To call a tradition nondominated, also establish under the declared comparator that no eligible rival dominates it. A line kept for later exploration may already have a dominating rival.
 
 #### C.19:5.3 - Collective and contextual grounding
 
@@ -64648,13 +64757,13 @@ When the scale claim is current, choose evidence proportional to the bearer, sta
 Among admissible options at comparable budgets, evaluate the performance contrast at the points and on the objectives that matter to the receiving choice. Apply `alpha` when a tolerance is needed and `delta` when the use depends on an assurance comparison. Account for uncertainty in the contrast, including dependence when the runs are paired. A scale-based preference over the audited range requires established Pareto dominance there. If the responses are equivalent under the comparison rule, each wins on a different point or objective, or the evidence still admits materially different orderings, report `no scale-based preference` and say which of these conclusions is supported. A separately declared local policy can decide only the cases covered by its terms. Cite the policy and its E/E-LOG edition for that choice. For an agentic use, keep the applicable `alpha` and `delta` in the comparison, local-policy or waiver result consumed by the C.24 CallPlan.
 > **BLP‑2.1 — Valid waiver grounds (override transparency).**
 >
-> Overrides of a declared local generality preference are allowed **only** when:
+> Establish which preference is in force and who may authorize a departure. A course the governing policy already permits can be chosen under its terms. Use local exception provisions where they govern this decision and the departure meets the other binding commitments. If it requires changing a commitment, obtain the decision of whoever holds that authority. To claim a waiver under BLP‑2.1 itself, establish at least one of the following grounds:
 >
 > - **Admissibility override:** guard rails, ethics, or precedence make the general bearer inadmissible (`E.5`, `E.3`).
 > - **Scale‑probe overturn:** under **iso‑scale parity** in the declared **ScaleWindow**, the heuristic **sustainedly outperforms** with uncertainty accounted for.
 > - **Complementary bias:** the heuristic is an **inductive bias** that **improves** the general method **without blocking scale** (graceful degradation as `S` grows).
 >
-> All overrides record a **BLP-waiver** with rationale, admitted review System, waiver-review responsibility relation or A.6.RCD missing governor, and expiry or review in the DRR. Any system-role kind or assignment needed by the review Work is cited separately.
+> For a waiver under BLP‑2.1, record a **BLP-waiver** with rationale, admitted review System, waiver-review responsibility relation or A.6.RCD missing governor, and expiry or review in the DRR. Any system-role kind or assignment needed by the review Work is cited separately.
 
 **BLP-2.2 — Task-family specialization compatibility.**
 A bounded specialization that makes no scale-advantage, selector-facing superiority, durable generality, or override claim may be used under its direct pattern with an explicit task family, work target, budget guard rails, and evidence locus. It needs neither a full `Scale-Audit` nor a BLP waiver merely because it is specialized.
@@ -64683,7 +64792,7 @@ When a durable `Scale-Audit` is performed, its artifacts **SHALL** be exported t
 3. A performed comparison uses parity, current editions, explicit uncertainty, material resource and safety accounts, and lawful Pareto or declared policy operations.
 4. The evidence method fits the bearer. Compute/data sweeps, seeds, bootstraps, and factorial or Latin-hypercube designs appear only when they answer the claim.
 5. A comparison that establishes equivalence or a trade-off, and a comparison whose evidence cannot yet settle dominance, each records its own conclusion. A subsequent choice by local policy names the condition that the policy covers.
-6. A waiver identifies the policy it overrides, rationale, admitted review System, responsibility relation or missing governor, and expiry or review window.
+6. A BLP‑2.1 waiver identifies the policy it overrides, rationale, admitted review System, responsibility relation or missing governor, and expiry or review window.
 7. A live Heuristic Debt entry meets the bounded `BLP-4` trigger; ordinary local tactics create no debt record.
 8. Prescription architecture and adaptation policy are routed through their direct patterns rather than reported as consequences of BLP.
 9. An actual durable audit is exported to `G.11`; a bounded-use or no-claim exit is not padded into an audit artifact.
@@ -64754,7 +64863,7 @@ If scale advantage or a declared generality policy is live, start with the cheap
 
 > *Memory hook.* **Test what scales; label policy when evidence does not decide.**
 
-When choosing between a general adaptive loop, a specialized object-family cycle, or a mixed operation-family set for an `E.23` use, `C.19.1` applies only when the decision relies on scale advantage or a declared generality policy. Start with the cheap probe. Compare the declared characteristic values for material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales; keep them separate, reject a dominated option, and use the declared project policy to choose or hold when no option dominates. Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Repeated automation alone does not satisfy BLP; the record names the object under improvement, evaluation, protected trade-offs, bounded cost and risk condition, and stop or switch condition. If neither a scale claim nor a declared generality policy is current, `E.23` proceeds without a BLP audit or waiver.
+When choosing between a general adaptive loop, a specialized object-family cycle, or a mixed operation-family set for an `E.23` use, `C.19.1` applies only when the decision relies on scale advantage or a declared generality policy. Start with the cheap probe. Compare the declared characteristic values for material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales. Keep the components separate. Enforce the binding conditions for this result before excluding an option on grounds of dominance. Its rival must be eligible for the same work. Use the declared project policy to choose or hold among the nondominated alternatives. Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Repeated automation alone does not satisfy BLP; the record names the object under improvement, evaluation, protected trade-offs, bounded cost and risk condition, and stop or switch condition. If neither a scale claim nor a declared generality policy is current, `E.23` proceeds without a BLP audit or waiver.
 
 ### C.19.1:End
 
@@ -64826,7 +64935,7 @@ A person or an AI system can read these instructions and also perform the work. 
 
 When the claimed guarantee or requirement is disputed, use `C.11.DUA` to appraise its purpose, contribution, burden and current force. Keep apparatus eligibility under the current declaration separate from that appraisal. Resume application under a revised declaration only when the change is available through the authority or agreement that governs it.
 
-When choice is current, preserve the exact `C.11` contract:
+Apply `C.11` to the current comparison. If the evidence or the holder’s priorities leave a requested choice open, return the supported comparison, the outstanding question and who can settle it. A completed `ChoiceResult` has one of four forms:
 
 - `choose now` names one selected option or a retained tie-set;
 - `reject current set` returns to a named candidate-generation pattern or closes with no current application;
@@ -64842,7 +64951,7 @@ These four dispositions form the complete current `C.11` result set. “Configur
 3. When alternatives are current, identify them by their direct kinds and apply the shared eligibility predicate.
 4. For each current path, identify what must be learned, supplied, integrated or checked to meet the required guarantee. Estimate the work still needed. An existing configuration that meets the requirements can be used immediately.
 5. Compare only the dimensions that can change the current path for the declared use and horizon. These may include time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside and reversibility; use their subject-pattern values when needed. Do not compress them into an undeclared scalar.
-6. When choice is current, use its `C.11 ChoiceResult` (§4.3). A request for another probe or a different decision identifies that next action. A rejected set leaves no selected application. A retained tie-set leaves open which member will be used.
+6. Use the current comparison at the strength it supports (§4.3). If the choice remains open, give the holder the supported alternatives and the premise or priority needed to decide. A completed `C.11 ChoiceResult` may identify a worthwhile probe or another decision. A rejected set leaves no selected application. When a set is accepted, distinguish ties from incomparability and establish who may choose a member for use.
 7. When one apparatus is selected for use, carry out its application. Use A.15.2 when a plan is needed and C.24 when tool-call planning is the question. A precise dated-Work claim uses the performer and admission conditions in §4.1.
 8. Inspect the result against the criterion for this use. For another application, check that the accepted method, inputs and assumptions cover its conditions. To establish that the recipient can apply the method with a stated degree of help, examine that recipient’s own performance under those conditions. Keep an application or configuration note when reuse, dispute, automation or consequence makes it useful.
 
@@ -64886,7 +64995,7 @@ The main bias is prestige-by-apparatus: richer form, newer tooling, or familiar 
 | `CC-C19.2-2` | A current single-apparatus case proceeds without a fabricated `OptionSet` or `ChoiceResult`. |
 | `CC-C19.2-3` | Candidate generation, local choice, planning, tool-call planning, dated work, and direct result retain their subject patterns. |
 | `CC-C19.2-4` | Every candidate retains its direct kind and satisfies one explicit eligibility predicate for the same use and guarantee. |
-| `CC-C19.2-5` | Any `C.11` result is exactly `choose now`, `reject current set`, `probe again`, or `reroute`. |
+| `CC-C19.2-5` | A completed `C.11 ChoiceResult` has one of the four stated dispositions. An unfinished comparison identifies the outstanding premise or decision. |
 | `CC-C19.2-6` | The intended-reader position, guidance, any independently identified `U.Method` and qualifying `U.MethodDescription`, performing `U.System`, dated `U.Work` and problem-facing result remain distinct. Every precise performer has an A.13 core, and the Work is independently admitted under A.15.1. F.6 is required only when the receiving use also needs precise assignment-bound attribution. A short projection exposes assignment identity, species, participants, or attribution detail only when that use relies on them, attribution is ambiguous, or source wording must be repaired. |
 | `CC-C19.2-7` | The first useful result and stop are practical, and every reopen condition changes a named next action. |
 | `CC-C19.2-8` | Candidates retain their direct kinds and comparisons use declared, admissible operations. |
@@ -64941,7 +65050,9 @@ These sources change the positive method: the user starts from a result, may obt
 
 ### C.20:0 - Use This When
 
-Use this pattern when a team needs to decide whether a field is one durable practice-and-knowledge whole rather than a label or collection. Typical moments include:
+Use this pattern to establish what makes an existing field a discipline, to design the connection between knowledge and practice in a proposed field, or to maintain that connection as the field changes. Begin with the work the discipline is meant to sustain. Practitioners may be producing something, investigating a phenomenon, or keeping an activity effective over time. What must they understand to do that work, and how can the results of their work test or improve that understanding?
+
+Typical moments include:
 
 - comparing rival traditions without letting a shared label, Bridge or comparison table merge them;
 - reusing a practice across semantic localities while preserving local meanings, direction, tolerated loss and field boundaries;
@@ -64951,7 +65062,7 @@ Use this pattern when a team needs to decide whether a field is one durable prac
 
 **Primary EntityOfConcern.** One exact `U.Entity` candidate being tested for recognition as `U.Discipline`. The candidate is recoverable before the classification result.
 
-**First useful move.** Name the exact candidate and two independently identified candidate parts: at least one making a knowledge-bearing contribution and at least one making a reusable-practice contribution. Then state why each direct part relation obtains and one whole-forming fact that couples the two contributions. Do this before letting the discipline name support a comparison, selector or dispatcher, health or maturity claim, transport, or edition decision. If those facts are unavailable, retain the supported account of separately governed objects or their collection and leave the discipline claim unresolved.
+**First useful move.** What does the proposed field enable practitioners to do or explain? Start with a problem the field is meant to address. Trace the knowledge that guides how practitioners address it and the reusable practice through which results can challenge that knowledge. This gives you candidates for both kinds of contribution. A field may also use a result supplied from outside. To distinguish the two, establish which contribution the field's own practice requires or currently realizes as an admitted alternative and how it connects to the others. For recognition of the discipline, test the exact candidate and its independently identified parts under section 4.1. A narrower question about one use can be settled by the grounds for that use.
 
 **What goes wrong if missed.** A field name starts doing the work of a canon, method repertoire, institution, bridge, comparison policy, and maturity score at once. The reader may then treat a card or graph as establishing parts, or treat changes to a journal, standard, method list, or dashboard as establishing a new discipline. Cross-locality reuse can also look valid after local meanings, evidence lanes, or comparison rules have drifted.
 
@@ -65036,7 +65147,7 @@ Multiple contribution claims for the same part do not create several part occurr
 
 #### C.20:4.3 - State whole-forming claims before choosing notation
 
-Part relations alone do not make one discipline. State the field assembly in ordinary domain language:
+Work from the field question to the contributions that can answer it. Which distinctions in the knowledge change a practitioner's investigation or intervention? What result of doing that work can count against a claim or lead to its revision, and how would practitioners recognize it? A trace through one investigation can identify a coupling. For an account of the whole field, explain how the coupling holds over the intended work or recover the further contributions and connections that work needs. Where practitioners use an outside result, establish separately whether the knowledge or method that supplied it belongs to their field. For a proposed field, these connections can guide the design. To describe an existing field, establish which connections operate. Describe the resulting assembly in the language of the field.
 
 - which exact claim-bearing contributions supply the field's knowledge commitments, distinctions, explanatory resources, or admissible questions;
 - which exact methods or other independently governed parts supply reusable ways of investigating, designing, intervening, evaluating, or learning;
@@ -65058,6 +65169,8 @@ Identify canon contributions as exact epistemes and claims, and distinguish stan
 The discipline's identity is not the extensional part list. It is the exact candidate with its field boundary, practice-and-knowledge assembly principle, obtaining constructive relations, whole-forming architecture, and declared whole characteristic under one direct reidentification rule.
 
 The same discipline may continue through a permitted canon revision, method replacement, institutional change, publication change, or temporary part-relation change when the rule admits that variation and the field boundary, required contribution meanings, essential couplings, and whole characteristic remain within their declared continuity conditions. The rule must say which substitutions are permitted and how the replacement contribution reconnects to the assembly.
+
+To maintain a discipline, start with the work its practitioners must continue to do. Follow how relevant knowledge guides that work and how results reach the people who can test or revise the knowledge. Find which connections still work under present conditions and where the connection is at risk or has broken. Continuing a sound practice can be sufficient. If results have stopped reaching practitioners, restore that exchange. If the knowledge or method itself needs revision, establish how the revised contribution will work with the others. For a commission to sustain the field in operation, carry out the needed work and establish that the connections still serve it. For an inquiry about continuity, evidence of existing practice can already answer the question.
 
 A change outside those conditions identifies another candidate or leaves the stronger claim unresolved. When a receiving use asks whether the old whole can still explain the case, run B.2's existing-whole explanation check after the direct C.20 facts are recovered. Loss of evidence, another description edition, a renamed field, or a stale registry entry does not itself end or create a discipline.
 
@@ -65361,7 +65474,7 @@ Use this pattern when a team must say something practical about the health, matu
 
 **What this buys.** The practitioner can state and interpret a bounded health claim, compare compatible readings and identify what additional measurement or correspondence a proposed use needs.
 
-**First useful move.** Name the discipline and practical question, choose one relevant Characteristic, state its scope and comparison basis, and say in ordinary language what the current material supports and what it does not. Stop there when the receiving use needs no measured comparison, aggregate, reusable series, or publication.
+**First useful move.** Start with the question about the field and what the recipient will do with the answer. Which difference in practice would change that answer or its explanation? Choose a Characteristic that can reveal it, the population or corpus it concerns and the relevant period. If the recipient needs several conditions to hold together, establish which must hold for the same units or at the same time. Report the supported answer. A single reading or a bound can finish the work when it decides the question.
 
 **Not this pattern when.** Use C.20 to decide whether the candidate is a discipline, C.16 to construct a measurement, A.19 for comparison or aggregation work, F.9 only when the use relates distinct local senses, E.24.PUB for audience availability, G.12 for a reusable dashboard view, and G.4 for a selected formal acceptance interface. C.21 supplies none of those results merely by naming a health Characteristic.
 
@@ -65519,10 +65632,10 @@ That directed relation is one counted member of the declared AlignmentDensity ce
 
 ### C.21:7 - Making a health claim
 
-1. State the ordinary health question and smallest useful conclusion.
-2. Identify the discipline under C.20 and one exact Characteristic and Scale.
-3. State ClaimScope, comparison or observation basis, and time or population basis.
-4. Stop if an ordinary typed claim is enough.
+1. State the question about the field and what result the recipient needs.
+2. Identify the discipline under C.20. Select the Characteristics and Scales that distinguish the answers that matter for this use.
+3. State the ClaimScope, observation or comparison basis and period for each reading. If several conditions must hold for the same cases, identify the relation among the observations or a bound sufficient for that conclusion. Counts over separate groups can be accurate while leaving their overlap open.
+4. Give the resulting health claim with its grounds. Stop when it answers the question.
 5. If measuring, recover the C.16 chain and DHC replay basis. If comparing or aggregating, retain the compatible inputs and legal operation, adding the measurement, crossing or formal-interface conditions used.
 6. If repeated windows matter, construct a series episteme from exact result refs.
 7. Use G.12 when the needed dashboard represents measured DHC coordinate results.
@@ -65536,7 +65649,7 @@ C.21 counters dashboard, standard-status, popularity, and pseudo-precision bias.
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-C.21-1` | The discipline, intended use, one exact Characteristic, Scale, ClaimScope, comparison or observation basis, and time stance are recoverable. |
+| `CC-C.21-1` | The discipline, intended use, ClaimScope, observation or comparison basis, and time stance are recoverable. Each Characteristic needed for the conclusion has a defined Scale. A joint conclusion has grounds that connect the readings for the units and period it concerns. |
 | `CC-C.21-2` | `ClaimScope` is authoritative. A `TargetSliceRef` appears only when consumed and its exact relation to the scope is stated. |
 | `CC-C.21-3` | A minimal readable claim may stop without a definition set, EvidenceGraph, registry, dashboard, or publication apparatus. |
 | `CC-C.21-4` | Every persisted, compared, aggregated, or published coordinate carries the active DHC replay basis; no generic “metric edition” substitutes for an exact object. |
@@ -65597,7 +65710,8 @@ Minimal DHC claim
   Discipline: <exact discipline>
   Intended use: <question or action>
   ClaimScope: <where the claim holds>
-  Characteristic and Scale: <exact definitions>
+  Characteristic(s) and Scale(s): <definitions needed for this question>
+  For a joint claim: <what connects the observations for the relevant units and period, or a sufficient bound>
   Comparison or observation basis: <population/corpus/cohort/window>
   Ordinary result: <what is supported; what is not>
 
@@ -65681,7 +65795,7 @@ The corresponding claims remain with their named subject patterns.
 **Selector-facing problem case**
 For selector-facing C.22 use, a problem case applies when the problem-side episteme is stable enough to construct a minimal `TaskSignature` and assert its `TaskSignatureAssignmentRelation` for eligibility, acceptance, or policy-governed selection. Method absence or contestability is a common reason for this downstream use; it does not define what counts as a problem.
 
-When the live question remains a symptom, contested framing, stale ReferenceScheme or ClaimScope, set-derived candidate, opportunity cue, or preselected work item, use C.22.2 before asserting one assignment. When selection becomes current, cite the A.19.SelectorMechanism relation and exact G.5 policy refs rather than moving selection policy into the signature.
+Use C.22.2 when a symptom, opportunity or proposed work item still leaves open whose work is affected or what would count as addressing it. Return there also when a changed ReferenceScheme or ClaimScope undermines the existing formulation. An already agreed assignment with adequate grounds can proceed directly to the work it requires. When selection becomes current, cite the A.19.SelectorMechanism relation and exact G.5 policy refs rather than moving selection policy into the signature.
 
 **Unknown-first discipline.** In the TaskSignature, preserve a live unrecovered trait as `unknown` when its value rule permits it. Name the exact downstream policy that interprets a live unknown for the receiving use. C.22 introduces no universal outcome set; C.23, G.4, G.5, or another direct pattern defines or constrains the resulting eligibility, acceptance, or selection disposition.
 
@@ -65717,7 +65831,7 @@ Without recoverable descriptor meanings, Eligibility and Acceptance can depend o
 Apply that formula as follows:
 
 1. Confirm that the problem-side representation is stable enough for selector-facing use; otherwise use `C.22.2`.
-2. Name the receiving eligibility, acceptance, or selection question and the `TaskKind`, optional task family, or work target that the signature will declare.
+2. Name the work for which a method is needed and the decision that will use its description. Use the kind of that work as `TaskKind`. When the practitioner needs a method for making a comparison, the comparison itself is the work to type. Identify the particular target or task family when the receiving decision depends on it.
 3. Read the eligibility conditions, acceptance clauses or comparison criteria of the receiving use. For each condition, identify the task-side fact or characteristic whose value the condition consumes, and recover it from the problem-side account or its source. Include that trait and its interpretation; leave unrelated optional extensions absent. If two feasible tasks fit the same description but require different eligibility or acceptance decisions, identify the characteristic that accounts for the difference. When a method must be chosen before work starts, establish what the chooser can learn by then. A supported conditional choice or a declared rule for an unknown value can suffice. Keep an unresolved interpretation visible.
 4. Identify each live Characteristic and Scale, its Unit and polarity when applicable, and the admitted comparison relation. Declare ReferencePlane when interpretation or the receiving comparison contract requires it. Apply these conditions before aggregation or comparison.
 5. Preserve a live but unknown value as `unknown`; include or reference the exact scope, evidence relation, freshness or edition condition on which later use relies. When cross-semantic reuse is current, resolve the two local senses and test the F.9 Bridge separately; a shared label, scheme, or plane does not establish it.
@@ -65968,7 +66082,7 @@ It obtains only while that exact signature is adopted as the task-typing declara
 
 *Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
 
-*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds, contraindication and resource constraints, and unknown tolerance or comorbidity values preserved as unknown. Include the evidence relations and follow-up windows only because this comparison use relies on them.
+*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation work to develop the specified capability`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds, contraindication and resource constraints, and unknown tolerance or comorbidity values preserved as unknown. Include the evidence relations and follow-up windows only because this comparison use relies on them.
 
 C.22 makes the comparison inputs explicit. Diagnosis and treatment recommendations remain claims governed by the applicable clinical patterns. For a separately current evidence or benefit claim, apply its evidence or clinical evaluation pattern; for a named gate decision, use A.21; for a care-permission claim, use A.2.8.PER and its `GrantedPermissionRelation@Context` predicate; for decision authority, recover the applicable authority predicate. Return `missing-governor` under A.6.RCD only when no governing rule can state or test that exact needed relation claim.
 
@@ -66127,7 +66241,7 @@ A comparison of specialization acquisition needs a common task family and work t
 
 ### C.22.1:7 - Solution — one adaptation signature over the `C.22` anchor
 
-- Use one shared adaptation-signature field set for this question. `G.5`, `G.9`, and later notes may cite or consume it, but they should not silently rename threshold, prior-exposure, transfer, downside, or corridor-entry terms.
+- Start from the work the holder is expected to perform under the stated support conditions. What must the holder produce, which decisions belong to them and which results or instructions may someone else supply? Choose a threshold that distinguishes doing that work. An accepted product can answer a commission to deliver it. To assess the ability to construct a method, look for the holder's choices about its operations and how they work together. If the claim covers a task family, establish which variations in the work the available performances or other grounds cover. Use the shared field meanings below when passing that comparison to G.5 or G.9.
 - Bind the adaptation signature to the declared `TaskFamilyRef` or `TaskSignature` and work target. Name whose capability is being judged and what tools, references or help are part of the intended work. Record who performed the operation on which the threshold depends and what help was supplied during practice and the check. A joint performance can establish what the participants can do together. For a claim about one participant, use a performance that shows what that participant can do under the intended support conditions. Reuse an existing account when it supplies those grounds.
 - The signature should expose at least:
   - `thresholdTarget`
@@ -66260,7 +66374,7 @@ G.5 and G.9 consume this shared field set. Their users must retain its threshold
 
 **What this buys.** Actual Problems can exist before discovery, can be referenced while still ongoing, and can be distinguished across repeated adverse episodes. One applicability relation supplies the predicate, problem-for entity, claim scope, and declared criterion-applicability window used by PFR; its actual occurrence extent is separately derived from uninterrupted obtaining. Measurements, evaluations, evidence, claims, cards, and method search remain available without becoming Problem identity.
 
-**Early battery stop.** A low terminal-voltage reading can be a useful signal and can justify a `ProblemCard`, but it is not itself the actual-condition participant. Until a direct voltage-state pattern supplies the relation kind, participant meanings, obtaining rule, temporal extent, recurrence, and occurrence identity, the battery case remains non-conforming: the reading, alarm, report, assertion, and card establish none of that world-side relation.
+**Battery example.** A technician needs to know whether a vehicle may be released for its intended start. Recover the release rule, its battery and load conditions, and what the available reading establishes under those conditions. A bound wholly below the permitted voltage can settle that decision. A different question arises if a service history must identify the particular low-voltage episode. That use needs an actual voltage-state relation with defined participants, conditions of occurrence and temporal identity. The reading, alarm and report can support the claim about the battery. The formal PFR occurrence remains unresolved while those grounds are missing.
 
 Once such a governor exists, the applicability relation can connect its selected voltage predicate to the vehicle, intended-start `U.ClaimScope`, and declared criterion-applicability window; discovering a method still changes solvability rather than PFR actuality.
 
@@ -66446,9 +66560,9 @@ Use `[adverseEpisodeStart, open]` only in a current claim whose evidence support
 
 A current assertion or description distinguishes three cases in ordinary words:
 
-- **supported current:** the evidence supports continuous adverse obtaining from the episode's actual inception through the stated reference time; publish `[adverseEpisodeStart, open]`;
-- **supported closed:** the evidence supports actual cessation at an exact boundary; publish `[adverseEpisodeStart, adverseEpisodeEnd]` for the same occurrence reference;
-- **continuity unresolved:** the available evidence does not decide whether an unobserved cessation or restart occurred; retain the recoverable earlier occurrence reference and the supported segments, but assert neither one continuous occurrence nor two occurrences across the gap.
+- **Current adversity.** Report adversity at the reference time when the observations and criterion establish it. Publish `[adverseEpisodeStart, open]` when the start and continuity of this occurrence through the reference time are also supported.
+- **Established cessation.** Report cessation and whatever bounds the evidence establishes for its time. If the condition was adverse at 09:00 and non-adverse at 11:00 while the criterion continued to apply, the 09:00 episode had ended by 11:00. Publish `[adverseEpisodeStart, adverseEpisodeEnd]` when both endpoints are established for that occurrence.
+- **Unresolved continuity.** When a gap could contain cessation and restart, retain the known occurrence reference and supported segments. State which claims about the gap remain open.
 
 Later evidence may revise the assertion, including its claimed start, end, or continuity, without creating or changing the world-side episode. If it supports an earlier actual cessation, complete the extent of the earlier occurrence at that boundary. If it also supports later renewed adverse truth, identify the later occurrence from its own actual inception. Until that distinction is supported, do not attach the later adverse segment to either the old or a new occurrence by default.
 
@@ -66543,7 +66657,7 @@ If *patient* also names a work-facing classification, recover the classified Sys
 3. Dated repair work occurs without a demonstrated condition change; or
 4. Dated repair work is connected through its direct change/result governors to actual cessation or non-adversity of the condition.
 
-Only the fourth outcome can end PFR while applicability continues. A work record, result claim, acceptance verdict, or method label is insufficient.
+While the criterion continues to apply, this PFR ends when the actual condition ceases or becomes non-adverse. It may end before anyone observes the change. To credit the repair with that outcome, establish the change and how the performed work brought it about. A record can support the particular claim its content and provenance warrant.
 
 ### C.22.PFR:6 - Bias-Annotation
 
@@ -66727,7 +66841,7 @@ When a downstream reader asks whether intended Work can enter a work boundary, t
 The Solution turns observed signal material into one C.2.1 episteme and one governed next use, not a completed form.
 
 1. Capture the symptom, anomaly, risk, stakeholder cue, drift, hypothesis, or other observed signal before naming an actual Problem. If the concern is not yet clear, put available source entries side by side and compare the events or meanings they record. Use what this comparison reveals to develop the question, as in [the support example](#c222201a---compact-p2w-ready-disposition-slice).
-2. Recover the one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and claim family. If the claims concern unrelated entities, split the ClaimGraph and card.
+2. Trace the signal to the work affected and what its recipients need to do. If their difficulty arises where two contributions meet, identify the hand-off, whole or other relation that gives the claims a common subject. An account of each contribution can leave their interaction unresolved. State the joint EntityOfConcern, effective ReferenceScheme, ClaimScope and claim family. Where the claims have independently identified subjects and no common one for this work, make separate cards.
 3. Separate the signal detector, actual-PFR assertion if independently grounded, anticipated-condition claim, improvement check, candidate acceptance criterion, method-availability claim, monitored risk signal, and proxy-distortion risk. These are not one card status or one PFR participant set.
 4. Pay only for current complexity. Add conditional content only when it changes the current next use; otherwise stop at the lighter card or name the direct pattern for the claim now current.
 5. If a reformulation changes the represented concern, meaning, scope or intended use, establish the actual relation on which reuse of an earlier disposition depends. Use the applicable representation-transition, retargeting or structural-reinterpretation rule; F.9 is needed only when a relied-on semantic correspondence meets its Bridge conditions. Ordinary wording cleanup can preserve the disposition without a new relation.
@@ -67169,7 +67283,7 @@ The archive and portfolio distinctions remain current when they matter because t
 
 | Misuse mode | Symptom | Repair |
 |---|---|---|
-| Card-as-executable-work request | A solution-shaped task or implementation request is treated as a problem-side record. | Recover the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, reason this is not a preselected Work request, improvement check or acceptance probe when needed, and next use before applying a Work pattern. |
+| A proposed solution is mistaken for the problem, or an agreed order for a suggestion. | The same words can request an examination of a difficulty or commission a specified deliverable. | Establish what was agreed with the person entitled to commission the work. When the means remain open, use §2.1 to formulate the problem from the receiving work. For an agreed deliverable, use an adequate formulation directly to do the work. Refer a proposed change to the person entitled to alter the order. |
 | Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that defines or constrains the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording is reduced to a score without its declared characteristic, scale, scope and policy basis. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and declared next use. |
 | Silent retargeting | A changed EntityOfConcern, representation language, diagram, functional description, or transformation-flow path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |
@@ -67205,7 +67319,7 @@ These rows are recognition slices, not complete Thin cards. Before using one, co
 
 #### C.22.2:20.1a - Compact P2W-ready Disposition Slice
 
-Consider a support team seeing repeated reopened hand-offs after a new interface policy. Its source episteme `SupportHandoffPolicy-E7` contains the two clauses compared below. The incoming request says "rewrite the escalation workflow." The card first identifies the concern and improvement probe; selecting a rewrite requires its own grounds.
+Consider a support team seeing repeated reopened hand-offs after a new interface policy. Its source episteme `SupportHandoffPolicy-E7` contains the two clauses compared below. A colleague proposes rewriting the escalation workflow. The support team has been asked to establish what the policy requires to happen to a pending case. Clarification of that rule can complete this inquiry. If an authorized requester has also commissioned a revised workflow, the same clarification guides its development and the revised workflow is still due.
 
 The first-line entry uses "complete" when a case is sent. The specialist entry uses it when the case is accepted. Both events can be recorded correctly. The shared queue must decide when to remove an item from the sender's list. For a case that has been sent but is still awaiting acceptance, the two readings give different decisions. The team can now ask which event authorizes that change. If the queue already distinguishes dispatch from acceptance and applies a single unambiguous rule, the two labels alone give no reason to revise it. The reopened cases still merit inquiry.
 
@@ -67217,12 +67331,12 @@ The first-line entry uses "complete" when a case is sent. The specialist entry u
 | Effective ReferenceScheme and ClaimScope | Scheme: support-interface hand-off under the new policy edition. ClaimScope: SupportOps-EU. |
 | Claim family | Descriptive claim about the two policy clauses and their different completion meanings. The prediction that reopened escalations will continue while this wording remains is an untested hypothesis, not an established forecast or causal result. No actual PFR is asserted. |
 | Ground for addressing the concern | For a sent case still awaiting acceptance, the two readings disagree on whether it belongs in the sender's queue. Identify which event governs removal. To establish who remains accountable for follow-up, consult the rule assigning that responsibility. |
-| Improvement check or acceptance probe | For the pending case, establish which event the rule requires for removal from the sender's list and check what the queue does before and after that event. |
+| Improvement check or acceptance probe | Apply the rule to a case sent but still awaiting acceptance. Does it remain on the sender's list? To investigate actual compliance, compare the required result with what the queue recorded in that case. |
 | Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the person authorized to settle it. |
-| Qualification window (current here) | Two-week incident window under the stated policy edition. |
+| Qualification window (current here) | Use the policy edition in force at the time in question. The two-week incident window concerns the report about reopened cases. |
 | Problem-formulation follow-up reason (current here) | Resolve which event the policy means by completion. Examine System, assignment, Method, Work or policy-boundary relations only if that clarification exposes a question that depends on them. |
-| Validation boundary (current here) | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
-| Readiness disposition | `P2W-ready` for resolving the queue rule. A sent case still awaiting acceptance lets the receiver check whether the shared queue follows the agreed removal rule. |
+| Validation boundary (current here) | The answer about the rule depends on its authority, wording, effective period and interface. An answer about actual operation also depends on the coverage and meaning of the incident records. |
+| Readiness disposition | `P2W-ready` for resolving the queue rule. The receiver can interpret the rule for a sent case still awaiting acceptance. Checking whether the queue followed it in a past case requires grounds about that execution. |
 | Subject-pattern cues (current here) | Use the applicable A.6 declaration or interface rule if completion semantics remains unresolved. Retain the direct grounds for a relied-on claim; use A.10 when its evidence or provenance needs a replayable account and G.11 when its currentness is at issue. Add A.2/A.2.1/A.13/A.15 for an actual classification, assignment or dated Work claim; F.6 only for precise assignment attribution, and A.21 only for a gate claim. |
 
 A claim that the service improved would need different evidence. To compare reopening rates, identify all eligible hand-offs in comparable periods, or use a sample that supports an estimate for them. For each period, determine which hand-offs reopened within the same follow-up time and compare their proportions, accounting for changes in the case mix that affect the comparison. Check the unresolved safety, compliance and customer-impact exceptions. Looking only at reopened cases can reveal how a hand-off went wrong. It leaves the reopening rate unknown.
@@ -67390,7 +67504,7 @@ A qualifying description episteme uses `…Description`; `…Spec` names that sa
 
 #### C.23:4.2 - Rule schema (normative)
 
-For each `MethodFamily` **f**, author an **executable** rule set:
+Apply the existing rule set for the registered family when it covers the task, intended use and current conditions. When you must write or revise a rule, start from the work the family is being admitted to do. Identify the circumstances that would make that use acceptable, restricted or unavailable. Derive the task facts, evidence and governing acceptance clauses needed to distinguish those results. A permitted bound may settle a threshold while the exact value is unknown. If the applicable rule requires the exact value or a particular item of evidence, retain that requirement. Express the resulting conditions as an executable rule set for `MethodFamily` **f**.
 
 ```
 LOG.Deduce_f(TaskSignature S2) → {Admit | Degrade(mode) | Abstain}
@@ -67398,7 +67512,7 @@ LOG.Deduce_f(TaskSignature S2) → {Admit | Degrade(mode) | Abstain}
 
 with the following **branch obligations**:
 
-**What the family claim covers.** State which tasks the claim covers and what it promises about the registered members. Evidence that one member works on one task can support that use. A claim that every task has a suitable member allows the member to vary with the task. Promising one fixed member throughout requires evidence for that member throughout. Permitting arbitrary substitution requires the promised performance from each permitted member on each task where it may be used.
+**What the family claim covers.** State which tasks the claim covers and what it promises about the registered members. Evidence that one member works on one task can support that use. A claim that every task has a suitable member allows the member to vary with the task. Promising one fixed member throughout requires evidence for that member throughout. Permitting arbitrary substitution requires the promised performance from each permitted member on each task where it may be used. When the work requires several methods together, identify what each supplies to the joint result and the conditions under which their contributions fit. B.1.5.CM supplies the construction of a composite Method. A registered member that already provides this whole can be evaluated directly for that use. Membership or separate admission of its constituents leaves their compatibility to be established.
 
 Identify the member, task conditions and performance criterion behind each result. Cover the combinations the claim needs through applicable trials, a warranted account of why the result carries over, or both. For a fixed set of tasks, report the observed proportion or the bound the outcomes establish. Eight confirmed successes among ten eligible tasks establish at least 80% for that set even while two outcomes are unknown. To estimate the rate for a future population, identify the population and explain why the available results carry over. For a sample estimate, give the selection method and its uncertainty. Even if every task in a sample succeeded, a guarantee for every future task needs grounds covering those future tasks. If successful members differ by task, an agent can be assigned to choose among them when the information and a supported way to choose will be available in time. It can still be known that a suitable member exists before it can be identified.
 
@@ -67699,7 +67813,7 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Reuse an adequate known route.
+**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Establish which required results are already available and what still has to be done with them. If a usable result can be delivered as ordered, plan its delivery. If the order requires a fresh performance, include it. Reuse an adequate known route for the remaining work.
 
 Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1.
 
@@ -67710,7 +67824,7 @@ Return the supported ordered calls, applicable budget and stop or replan conditi
 #### C.24:0.3 - First-minute questions
 
 1. Which applicable domain prescription, A.15.7 decision or C.11 choose-now result fixes the action or option now being planned?
-2. Does every planned step name an admitted Method, rather than only a vendor route or endpoint label?
+2. What still has to reach the recipient? Work back to the available inputs and choose the admitted Methods whose results can supply the missing contributions.
 3. Which budget is current: a still-upstream probe budget or an enactment/call budget?
 4. What event stops or replans the route?
 5. Is the useful output a plan, a checkpoint, or a return to a neighbouring pattern?
@@ -67735,6 +67849,7 @@ CallPlan:
     - methodRef
       methodDescriptionRef?          # only when the route description is needed
       dependsOnPlannedStepRefs?      # only when dependency changes the route
+      runWhen?                       # earlier observable condition selecting this call on a branching route
       mayRunInParallelWithStepRefs?  # only when safe parallelism matters
   plannedBudgetEnvelope
   stopOrReplan
@@ -67846,7 +67961,7 @@ To construct the route, use the backward construction and forward check in `OPS.
 1. **Recover usable contributions.** Read the available Methods and any needed route descriptions for the results they supply, required inputs, preconditions, relevant effects and limits. Resolve missing interface meaning from the maintained description or provider. Begin with the action's receiving completion conditions.
 2. **Work backwards from the required result.** Choose an admitted Method that can supply it. For each input not already available, find a qualified preceding Method or an available source that supplies it. Continue until the route reaches available inputs. Keep required joins and enabling conditions. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
 3. **Check forwards from the available inputs.** Follow the proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate. Compare the final output with the result promised to the recipient. If a call only prepares the input for delivery or acceptance, include the work still needed and its time and entry conditions in the plan.
-4. **Return the route or the unresolved question.** A supported route states the calls, intermediate results, order or safe parallelism, resource assumptions and stop or replan conditions needed by the use. If an unknown condition could change feasibility or route choice, identify it and what information could settle it. Section 4.2 selects a bounded scout only when such a scout can usefully answer that question. A changed action returns to its selecting Method.
+4. **Return the route or the unresolved question.** State the calls, useful intermediate results, required ordering or safe parallelism, shared resources and stop or replan conditions. When a later call depends on an earlier result, specify what the person or system making that choice will know in time and what it can then do. For a guaranteed result, check the remaining budget and completion conditions on every reachable branch. If the deciding information arrives after an irreversible choice, establish a route that works across the cases still possible then, or report the missing condition. Use §4.2 for a bounded scout when its result could resolve that question at justified cost. A changed action returns to its selecting Method.
 
 
 #### C.24:4.2 - Bounded scout or probe cycle
@@ -67938,7 +68053,7 @@ An ordinary written plan can supply this content; the schemas above are optional
 
 - exactly one action-basis branch: the grounded domain-prescribed action, an A.15.7 decision episteme, or a C.11 `choose now` ChoiceResult; add the objective and ordered Method refs;
 - route-description refs only when needed, with their source scheme, exact edition, intended use, and selected Method binding;
-- dependencies or safe parallelism only when they change the route;
+- dependencies, safe parallelism and any earlier result that governs which later call can be made, when these change the route;
 - applicable time, compute, cost or risk budgets, with stop and replan conditions;
 - next planned action; and
 - an exact C.19 or C.19.1 result, B.3 assurance result, causal-use result, provenance ref, or named domain-constraint result only when that branch is current.
@@ -68514,7 +68629,7 @@ Apply the report-only proxy rule in section 14.4 to the exact source episteme or
 When a gate uses a quality family, take its acceptance conditions from the receiving decision. Cite the quality-claim episteme or its addressed claims and identify which conditions each supports, such as a measure in a specified window or a required mechanism. Reuse other evidence for any condition the supplied claim leaves open. The gate's own rule determines what to do with a known failure or an unresolved condition.
 
 #### C.25:19.3 - Roll-up caution
-A roll-up is another claim-bearing episteme. It cites the exact source epistemes or ClaimAddresses being combined, states the admissible aggregation or summary rule, and remains distinct from them. If the roll-up begins to drive local engineering action directly, reopen the source claims and the exact Q-Bundle slots on which that action relies instead of treating the summary score as the bearer or bundle.
+A roll-up is a separate claim-bearing episteme. Cite the exact source epistemes or ClaimAddresses and explain how their claims support the property the recipient needs. A direct observation of the service may already establish the property. When drawing a conclusion from the parts, identify how their states or contributions determine the property in question. Suppose a service can accept a request precisely when both stages are available. Each stage was available on 99 of the same 100 request opportunities. If their outages coincided the service was available on 99 opportunities. If they occurred separately it was available on 98. These records settle a target of at least 98. To decide a target of 99, establish whether the outages coincided or use records of service availability itself. When a summary is used for local engineering action, return to the source claims and the Q-Bundle slots that action depends on.
 
 ### C.25:20 - Review Matrix and Repair Tests
 
@@ -68946,7 +69061,7 @@ Evidence-use class scales by use:
 
 #### C.26:4.5 - State-representation coarsening card
 
-Use this card when a fuller state representation is too detailed, unstable, unavailable, or expensive for the current bounded decision and a reduced-detail state representation is useful only under a declared QL cue.
+Use this section when a fuller state representation is too costly or detailed for the work and you need to establish what a coarser representation can still explain or support. Begin with the ordinary account of the reduction. Use the QL lens if the remaining obstruction meets the conditions in section 4.
 
 For a shorter rendering of the same claims, use `A.6.3.CSC`. For another way to represent the same selected entity, use `A.6.3.RT`. When comparing a more abstract model with a more concrete one, use `B.5.MR:4.2–4.3` to establish what the concrete model preserves and which alternatives it excludes. `A.19` and `U.Dynamics` govern state and change. Use C.26 when the decision also encounters the contextual-model obstruction tested in section 4.
 
@@ -68965,14 +69080,16 @@ Question-to-pattern map:
 
 To decide from a coarser reading, identify what detailed states or histories could produce it under the model. If none can, check the reading and the model before using them together. If every compatible history permits the proposed action, the missing detail cannot rule out that action. A shared reading may still leave open which action is best. If one compatible history permits an action and another rules it out, recover what distinguishes them before relying on the reading for that choice. For a decision based on probability or expected value, use the applicable probability model and its evidence.
 
+When the commission is to explain a result, follow the proposed explanation through the histories that the coarser representation treats alike. Different mechanisms can warrant the same immediate action. A common ground for the result may explain it across all those histories. If the recipient needs to know which mechanism operated on this occasion, recover the distinguishing relation or report the alternatives the evidence still supports.
+
 For a bounded coarsening use, start with these questions. An adequate ordinary explanation can answer them without a separate card.
 
 | Mini-entry | Question |
 | --- | --- |
 | Source | Which fuller state representation, trace set, model, measurement scheme, or dynamics account loses distinctions in the shortcut? |
-| Shortcut | Which smaller representation is being used instead, and for which bounded decision or action class? |
+| Shortcut | What smaller representation will the recipient use, and which explanation, comparison or action must it support? |
 | Loss | Which precision, distinction, uncertainty, comparability, traceability, or relation structure is lost? |
-| Admissible use | Which bounded decision, probe, comparison, time-window reading, or action class remains admissible for this reduced-detail state representation? |
+| Admissible use | Which requested conclusion, explanation or action does the reduced representation still support, and on what grounds? |
 | Return condition, when needed | Which change in premises or receiving use would require recovering omitted detail or re-evaluating the shortcut? |
 
 When the receiving use needs a more detailed account of the shortcut, add the relevant distinctions below to that same explanation.
@@ -68982,10 +69099,10 @@ When the receiving use needs a more detailed account of the shortcut, add the re
 | Source representation | Which fuller model, state space, trace set, measurement scheme, probability model, dynamics model, or representation loses distinctions in the shortcut? |
 | Coarsened representation | Which typed, symbolic, finite, operator-like, Hilbert-like, rough-set, low-bit, or source-loss-affected representation is used instead? |
 | Shortcut mechanism | Which projection, typed-state reduction, finite-dimensional representation, operator-like update, rough-set approximation, state aggregation, compression, or linearization is doing the representational work? |
-| Shortcut purpose | Which bounded decision, probe, comparison, time-window reading, or action class needs the reduced-detail state representation? |
+| Shortcut purpose | What work requires this representation, and what must the recipient be able to establish or do with it? |
 | What is lost | Which precision, distinction, uncertainty, compatibility, traceability, causal detail, or cross-context relation is lost? |
-| Loss budget | How much loss is accepted for this decision, probe, comparison, route, or time window? |
-| Admissible use | For which decisions, probes, comparisons, candidate-route selections, or time windows does the shortcut preserve the required distinctions? |
+| Loss budget | Which distinctions, accuracy and grounds must survive for the commissioned use? |
+| Admissible use | For which conclusions, explanations or operations does the shortcut preserve the distinctions and grounds they require? |
 | Non-admissible use | For which claims, audits, bridges, comparisons, future actions, or high-stakes decisions does the shortcut lack the required distinctions, source support, or recoverability? |
 | Ordinary explanations still active | Which ordinary abstraction, causal abstraction, approximate causal abstraction, state aggregation, representation learning, POMDP simplification, heuristic compression, CSC, RT, or low-bit implementation account remains sufficient if the QL cue is absent? |
 | Evidence or formal source | Which model, trace, experiment, source, or formal argument supports the shortcut? |
@@ -69318,7 +69435,7 @@ The pattern emits one of these results:
 | Keep boundary, mark probe-coupled | The boundary remains, but the output is interpreted with its supported probe effect. |
 | Redesign probe/order/frame | Change the workshop, dashboard, API read, survey, metric or question order when that would supply the needed reading with less distortion. |
 | Redesign bridge/export | Preserve the state, timing and use conditions lost by the attempted export; state confidence or a return-to-source condition when the receiving use needs it. |
-| Split/merge/orchestrate differently | Boundary structure changes because the interaction changes the phenomenon. |
+| Reconsider the boundary arrangement | When a corrected reading changes the requirement or what is known about how the arrangements meet it, compare the affected arrangements under those conditions. Establish any change actually made from the work that put it into effect. |
 | Apply `F.9` | Only bridge and loss remain live. |
 | Apply `C.16` | The probe is a standard measurement with declared scale, method, evidence, and result. |
 | Apply `A.15` | The question concerns work enactment rather than probe-coupled reading. |
@@ -69410,7 +69527,7 @@ Use the direct relation pattern when the relation and participants are known, `A
 | API consistency check | A request warms the cache and changes later latency. Recover whether each timing was measured before or after warming; a later warm-cache result cannot by itself establish cold-cache performance. | If the interface and measured interval already settle that question, use the adequate API and measurement account directly. |
 | Survey order | Asking "who owns incidents?" before "which context owns payment failure?" changes the resulting context map and escalation plan. | If different answers merely reveal unresolved meanings, use `F.9` / `A.6.P` first. |
 | Event-storming workshop | The workshop produces a map and also changes team alignment, local vocabulary, and backlog priority. | If it only documents known differences, use ordinary DDD and bridge fields. |
-| Service split | Splitting Checkout and Payment changes recovery paths and support load, so the split is part of the phenomenon being evaluated. | If the split only reduces deployment coupling with no probe/export effect, use ordinary boundary and quality patterns. |
+| Service split | To learn how Checkout normally handles failures, the team separates Checkout and Payment during a trial. Its routing log then records recovery under the split. To apply that reading to the original service, establish which recovery paths the trial preserved or use evidence from the original arrangement. | A prediction of how a proposed split would affect support load can be assessed under the boundary and quality patterns. |
 | Incident metric | Publishing "cache failover is the primary risk" shifts attention, staffing, and reproduction work. | If the metric is only a report of already-carried evidence, use `A.10` for any source-recovery or bounded-reliance question, and `B.3` only for a named assurance claim. |
 
 The positive examples establish probe-coupled interaction readings. Use those results without QL wording when the ordinary subject patterns carry the case. Retain QL only when the additional C.26 activation test establishes one named contextual-model obstruction that survives those patterns and changes the admissible inference or action.
@@ -69506,7 +69623,7 @@ Apply these source contributions:
 ### C.26.1:12 - Relations
 
 - Builds on: `C.26`, `A.6`, `A.6.B`, `A.6.P`, `F.9`, `A.15`, `C.16`, `A.10`, `B.3`, `C.25`, `A.1.1`.
-- Coordinates with: `C.26.2` when coordinated work evidences a non-exportable distributed state; `C.26.3` when the boundary interaction changes a viability envelope.
+- Coordinates with: `C.26.2` when the interpreted output contributes evidence about how parts of a collective acted together; `C.26.3` when the boundary interaction changes a viability envelope.
 - The worked context-cut case in `C.26.1:4.3` connects a workshop's effect to the corrected interpretation of its output.
 
 ### C.26.1:End
@@ -69519,7 +69636,7 @@ Apply these source contributions:
 
 ### C.26.2:1 - Problem frame
 
-Use this pattern when coordinated work, behavior, or trace patterns give evidence that a team, organization, service mesh, market, or other collective system is acting from a state that no single participant report, survey, policy sentence, dashboard, or API export faithfully carries.
+Use this pattern when you need to establish how a collective system acted from what its parts did and how their actions were connected. A single incident record can show one team sending a particular item and another receiving it. Several reports of activity can leave that same handoff open. Recover the actions and relations the claim requires, wherever their evidence is recorded.
 
 The pattern supports a bounded claim about the collective's current organization or behavior from the evidence available across its parts. Distinguish what those observations establish about the state from what explains its occurrence, and preserve uncertainty in either question.
 
@@ -69596,7 +69713,7 @@ Full EDSE record:
 | Evidence carriers | Which logs, trace records, commitment records, artifacts, dashboards, API responses or documents support the reading? |
 | Probe or measurement approximation | Which survey, dashboard, API read, interview, trace query, metric, or publication approximates the state, and how may that probe change, thin, or frame the state reading? |
 | Attempted export and faithful-enough criterion | What export was attempted, and what would count as faithful enough for the current decision? |
-| Loss cause and higher-fidelity export | Why is the current export not faithful enough, and could a more discriminating probe, bridge, representation, or time window produce a higher-fidelity export? |
+| Loss cause and higher-fidelity export | Does the available account preserve what this use requires? If a consequential distinction was lost, what caused the loss, and which observation or representation could recover it? |
 | Time window | During which window does the claim hold? |
 | Persistence posture | Is the reading momentary, recurring, stabilized for the incident/release/window, or expected to persist under stated conditions? |
 | Decay and refresh condition | What would make the reading expire, refresh, lose support, or need a new probe? |
@@ -69831,7 +69948,7 @@ The cost is that many claims become narrower. Minimal evidence-bound claims are 
 
 ### C.26.2:10 - Rationale
 
-Existing FPF patterns can carry parts of the support requirement, but no single ordinary pattern makes the combined minimal distributed-state claim easy to write. `A.15` carries Work alignment, `A.10` carries source-to-use evidence accounts, `B.3` carries named assurance claims, `F.9` carries cross-context semantic Bridge loss, and `C.16` carries formal measurement. C.26.2 coordinates those neighboring-pattern applications for the specific case where coordinated work evidences a non-articulated state.
+Existing FPF patterns can carry parts of the support requirement, but no single ordinary pattern makes the combined minimal distributed-state claim easy to write. `A.15` carries Work alignment, `A.10` carries source-to-use evidence accounts, `B.3` carries named assurance claims, `F.9` carries cross-context semantic Bridge loss, and `C.16` carries formal measurement. C.26.2 uses those contributions to establish what the actions of the parts and their connections show about the collective system. A report that already establishes the needed connection can supply that evidence directly.
 
 ### C.26.2:11 - SoTA-Echoing
 
@@ -69867,7 +69984,7 @@ Apply these source contributions:
 
 ### C.26.3:1 - Problem frame
 
-Use this pattern when architecture work is maintaining, recovering, or changing viable operating ranges across boundaries. The working problem is to keep a bundle of characteristics inside a viable region while disturbances, probes, candidate interventions, boundary conditions, and operating regimes change.
+Use this pattern when protecting a function across boundaries depends on several conditions holding together under disturbance. Start with the work the recipient needs kept possible. Its requirements determine what state to assess, what a proposed method must preserve, and what the people running it will need to observe and do.
 
 **What goes wrong if missed.** The team treats one dashboard value, stability slogan, or local metric as viability, while another envelope variable, intervention cost, boundary condition, or failure mode is already breaking the protected promise or function.
 
@@ -70013,7 +70130,7 @@ The first useful move is to replace a one-scalar stability account with an inspe
 
 Envelope-regulation sequence:
 
-1. Point the local viability-bearer position to one object.
+1. Starting from the work or result to be protected, follow a possible failure to the participants and connections that can affect it. Identify which object the viability claim concerns.
    - For a System, cite its A.1 identity.
    - For selected organization, cite one A.22 `U.Structure` through independently identified constituents, selected obtaining relation occurrences, constraints as applied, and one named selection-use frame; a role-kind/assignment list is insufficient.
    - For a population or market slice, state its declared domain and effective reference scheme, membership or scope, and identity basis.
@@ -70031,7 +70148,7 @@ Envelope-regulation sequence:
 
 Ordinary output: explain the viability bearer, variables and bounds, disturbance, observations and failure condition. When regulation is proposed, add the identified proposal, trade-off and adaptation cost. A record is useful when its layout helps recover those distinctions; ordinary prose can preserve them.
 
-Finish with the supported diagnosis or the proposal it warrants. Use the proposal's direct pattern for its development and any later execution or change; keep the supported envelope claim separate from those results. If its necessary grounds are missing, retain only the narrower supported claim or return the missing basis.
+For a diagnosis, return the supported state and any limit on that conclusion. To design a way to regulate the service, work back from a threatened condition to a change within the responsible performer's reach. Establish which observations can arrive before action is needed. For a guarantee, determine whether an available response protects the result across the situations still indistinguishable at that time. If they require different responses, find a timely distinguishing observation or another way to protect the result. For a risk or frequency target, assess the response under the conditions and tolerance that target specifies. A qualified existing operating method may already supply the answer. For an operating assignment, use the resulting method in the work, observe the protected result and respond to departures while the obligation lasts. The proposal, its actual performance and the service obtained each have their own grounds.
 
 #### C.26.3:4.6 - Viability envelope record
 
@@ -70092,7 +70209,7 @@ Use the minimal reading that carries the case:
 | Homeostatic envelope | The target is to keep a bundle inside a stable range under disturbance. | State variables, range, disturbance, sensor, candidate intervention with its recovered direct object, and failure mode. |
 | Allostatic envelope | Function is preserved through one or more separately governed changes. | State the proposal's Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; separately state any dated Work, actual transformation or other change, obtaining relation occurrence, resulting state, and moved cost. |
 | Probe-coupled viability | The measurement, dashboard, review, or readiness check changes the envelope it reports, but its output is used as a passive read for the decision. | Coordinate with `C.26.1`. |
-| Enacted viability state | Coordinated work, behavior, or traces support a collective-state reading relevant to the envelope that no single report or export faithfully carries. | Coordinate with `C.26.2`. |
+| Enacted viability state | The envelope assessment depends on how parts of a collective actually worked together. | Use `C.26.2` to establish what the observed activities and their connections warrant. |
 
 Use allostasis only when stability through change is the useful architecture reading.
 
@@ -70150,6 +70267,8 @@ Recover the proposal's object, adaptation cost, applicable authority and realiza
 
 If support capacity is independently revised to 50 comparable contacts per hour under the same conditions, the same demand of 45 contacts satisfies that revised constraint, but the 3% stale-status result still exceeds the retained 1% requirement.
 
+Suppose the team is also asked to operate checkout through the next spike. An alert calculated at the end of the incident hour comes too late to prevent stale replies in that hour. Work back from those replies to the reads that can return an old payment status. The team can consider bypassing the cache for those reads while keeping it for other requests. To use this rule, establish that these reads can be recognized before the response and that the source reached by the bypass is current often enough to meet the 1% stale-status limit for the service. Check that latency and support demand also meet their bounds over the load conditions the service promises to cover. Once those conditions are established, the authorized operator can enable the rule in time, check the three bounds in use and respond when conditions change. A claim about the service actually delivered during the spike relies on observations or bounds covering that period.
+
 
 
 ### C.26.3:6 - Bias-Annotation
@@ -70177,7 +70296,7 @@ Use `C.25` alone when one quality bundle or metric can be handled without envelo
 | CC-C26.3.11 | QL wording appears only when probe, order, export, coarsening, or incompatible frame interaction remains load-bearing and satisfies C.26's contextual-model obstruction condition. |
 | CC-C26.3.12 | Rate/inertia/damping/effort and second-order dynamics variables appear only when load-bearing. |
 | CC-C26.3.13 | Homeostasis, allostasis, active inference, and Markov-boundary wording are restored into FPF subject patterns before they carry the claim; Markov-blanket wording does not by itself create boundary, interface, component, agency, or viability authority. |
-| CC-C26.3.14 | The result retains the supported diagnosis or proposal and identifies any missing bound or effect that prevents the required viability conclusion. |
+| CC-C26.3.14 | The diagnosis or proposal identifies any unresolved bound or effect that matters to the protected result. An operating method identifies the timely information and actions it needs. A claim that regulation took place or maintained the required service has grounds for that work or outcome. |
 
 ### C.26.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -70251,7 +70370,7 @@ Apply these source contributions:
 **General relations.**
 
 - Builds on: `C.26`, `C.25`, `U.Dynamics`, `A.6`, `A.15`, `C.16`, `A.10`, `B.3`, `A.3`, `A.19`, `C.18`, `C.19`.
-- Coordinates with: `C.26.1` when a state-changing probe's output is used as a passive read for the decision; `C.26.2` when coordinated work, behavior, or traces support a collective-state reading that no single report or export faithfully carries.
+- Coordinates with: `C.26.1` when a state-changing probe's output is used as a passive read for the decision; `C.26.2` when the observations of parts and their connections must support a claim about the collective.
 - Does not replace: ordinary quality-bundle patterns, generic control theory, full FEP doctrine, or biological homeostasis claims outside FPF bridge and loss discipline.
 - Name: `Viability-Envelope Boundary Regulation` names architecture work over a viability envelope and boundary/action conditions.
 
@@ -70265,7 +70384,7 @@ Apply these source contributions:
 
 ### C.27:0 - Use This When
 
-Use this pattern when a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action.
+Use this pattern when you need to establish what a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection or stabilization supports. The assessment can answer a request to explain a temporal pattern or inform what someone will do.
 
 The practical question is:
 
@@ -70275,7 +70394,7 @@ If the claim is only a state or rate reading and that answers the receiving ques
 
 **What this buys.** The practitioner distinguishes a trend from an intervention model. Braking, pausing, stabilizing, redirecting, coasting, widening, narrowing, or slowing rollout remain available when acceleration would be the wrong move.
 
-**Primary working object.** The temporal claim whose adequacy matters to the receiving action. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
+**Primary working object.** The temporal claim whose adequacy matters to the conclusion, explanation or action the recipient needs. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
 
 When an adequacy assertion is independently identified under C.2.1, its EntityOfConcern is the source episteme or addressed claim, not the reference used to designate it. An ordinary assessment can state its conclusion directly. Publication under E.24.PUB is separate from that claim and identity.
 
@@ -70324,7 +70443,7 @@ Faster is not automatically better. A temporally adequate claim is not automatic
 
 ### C.27:2 - Forces
 
-1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal-adequacy question can change the receiving action.
+1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal distinction can change what the recipient may conclude, explain or do.
 2. **Effort profiles versus derivative words.** Interventions can be impulses, scheduled pushes, feedback policies, adaptive regimes, brakes, pauses, coasting periods, or redirections. The useful question is what input occurs over which window.
 3. **Domain-specific resistance.** Lag, queue pressure, habit, coordination cost, technical debt, service demand, physical inertia, or another domain-local resistance can matter. None becomes a new mass or force kind.
 4. **Temporal meaning and coupling.** Preserve the temporal claim's bearer, predicate and timing under C.27.TA; add an exact separate reference when needed. Cross-bearer phase, synchronization, coupling or entrainment appears only when the receiving use relies on that relation.
@@ -70334,7 +70453,7 @@ Faster is not automatically better. A temporally adequate claim is not automatic
 
 ### C.27:3 - Solution
 
-Use the least-committing result that changes the receiving action.
+Establish the temporal conclusion the recipient needs. An explanation of the observed course can be complete even when the same course of action remains appropriate. A recommendation to change that course also needs grounds for the expected effect.
 
 1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
 2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.
@@ -70612,13 +70731,13 @@ Plain speed, acceleration, effort, inertia, rhythm, agility, process, practice, 
 
 | Check | Requirement |
 | --- | --- |
-| C27-1 | A C.27 result exists only when the temporal distinction changes a practical use. |
+| C27-1 | The temporal distinction matters to the conclusion, explanation or action for which the claim will be used. |
 | C27-2 | The source claim and its subject are recoverable. When its independent identity is consumed, cite the exact episteme or ClaimAddress. |
 | C27-3 | A separately identified adequacy episteme concerns that source episteme or addressed claim; it does not substitute the described subject or reference value. |
 | C27-4 | The positive temporal aspect retains its bearer, predicate, temporal reference and required extent or condition under C.27.TA. A separate exact reference is used only when needed. |
 | C27-5 | Dyn0, Dyn1, and Dyn2 classify claims, not Systems or other world objects. |
 | C27-6 | Ordinary prose or a record supplies the required explanation. A fuller profile adds only the direct-result references and contributions needed by its use. |
-| C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. An unsupported use or reopening condition is stated when it changes the receiving action. |
+| C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. State a limitation or reopening condition when it changes what the recipient may conclude or do. |
 | C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
 | C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim. |
 | C27-10 | A viability use retains the C.26.3 envelope claim and the bearer's direct identity; an exact separate claim reference is added when the receiving use requires it. |
@@ -70950,11 +71069,11 @@ TemporalAspectStatementClaimContent:
 
 #### C.27.TA:5.4 - Work Rhythm
 
-A review practice depends on a two-day response rhythm across several review positions and participants. Keep a responsibility claim separate when the temporal account relies on it.
+A review service promises a final answer within two elapsed days of submission. Two reviewers work in sequence. To state the service's timing claim, follow the same submission from receipt through the handoff to the final answer. Even if each reviewer answers within two days of receiving it, the final answer can arrive four days after submission. Suppose the first stage starts at submission, each stage takes at most one elapsed day, and the transfers to the second reviewer and to the final recipient are immediate. The two one-day bounds then cover the entire promised interval. Waiting before the first stage or after the second has to fit that same interval. For a completed review, the agreed submission and delivery times can give the duration directly.
 
+A turnaround commitment allows irregular arrivals and deliveries. If the question concerns the rhythm of the work, identify the events meant to recur and the relation their timing must preserve. For example, a second review scheduled before the next publication depends on the phase of the first handoff within each publication cycle. Check that relation over the cycles covered by the claim.
 
-
-C.27.TA states the bearer, rhythm or cadence, timing reference and applicable extent. When cross-bearer coordination matters, identify the direct coupling relation and establish its conditions before asserting an obtaining occurrence.
+If the agreement instead gives each reviewer two days from receipt, assess the two obligations on their respective intervals. If the task is to establish synchronization, recover the relation the work requires between the events. An account of how the participants bring about that timing also needs grounds for the coordinating mechanism.
 
 ### C.27.TA:6 - Bias-Annotation
 
@@ -71027,15 +71146,15 @@ Distortions to watch for:
 
 **Plain-name.** Causal-use calculus.
 
-**Intent.** Help a practitioner decide what a causal-looking claim is supported to say, under which limits, and which narrower statement remains when the support is insufficient.
+**Intent.** Develop a causal answer to the question the practitioner faces, or assess what a proposed causal claim is supported to say. Establish the conditions under which the explanation or intervention consequence follows.
 
-**Primary EntityOfConcern.** The causal-use question raised by a concrete claim: what would change under an intervention, what explains an observed difference, or what can be said about a counterfactual.
+**Primary EntityOfConcern.** The causal-use question arising from an outcome to explain, a proposed intervention or an offered claim. What would change under the intervention, what explains the observed difference, or what can be said about the counterfactual?
 
 **Scope.** Use the domain's causal models, intervention and outcome definitions, and scientific evidence to determine which statement is supported and under which limits.
 
 ### C.28:0 - Use This When
 
-Use `C.28` when a result is offered as support for a causal effect, intervention, counterfactual comparison, causal fairness claim, causal policy, causal benchmark, or causal explanation. Common cues include:
+Use `C.28` when a recipient needs to explain an outcome, derive what an intervention would change, or assess an offered result about a causal effect, counterfactual, fairness claim, policy or benchmark. Common cues include:
 
 - “method A improves the outcome”;
 - “users who received X did better, so X works”;
@@ -71066,13 +71185,13 @@ The first result is a supported statement with its limits and the next useful st
 
 #### C.28:0.3 - First-Minute Questions
 
-1. What is the concrete claim, and what causal question must be answered to rely on it?
+1. What outcome needs explanation, which change is under consideration, or what proposed claim needs assessment? What causal question must the answer settle?
 2. Is the requested statement about an observed association, an intervention, or a counterfactual?
 3. What observations, experiments, model assumptions or derived results are available?
 4. Which live threat could overturn the conclusion: for example, confounding, time order, missing comparison cases, interference, measurement error or transfer to another population?
 5. What statement is supported under those conditions, and what further evidence or calculation would change it?
 
-When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A sufficient support verdict or an adequate existing model can finish the present question without that construction.
+When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A verdict on the supplied evidence can complete a request to assess that evidence. If the recipient needs an explanation, give the mechanism and its grounds using an adequate existing model or develop the missing account. If the explanation remains open, state what the available evidence has settled and which relation still needs to be established.
 
 #### C.28:0.4 - First Output
 
@@ -71114,7 +71233,7 @@ nextCausalUseAction =
   abstainDownstream
 ```
 
-Triage may be the final result when it blocks the overclaim and names the narrower statement. Do not open a durable object merely because a causal word appears.
+Triage can complete a request to assess an offered claim by stating what the evidence warrants. For a commissioned causal account, use that result to locate the remaining explanatory work. A short statement can carry a complete answer.
 
 
 ### C.28:1 - Problem Frame
@@ -71146,7 +71265,7 @@ C.28 keeps those distinctions visible while allowing a cheap stop.
 
 Use the smallest result that answers the current question:
 
-1. triage the claim;
+1. recover the question and its subject, and assess any claim already offered;
 2. retain the question in ordinary prose or a small card when it must be reused;
 3. run the common threat screen;
 4. add only the specialist result needed now; and
@@ -71527,7 +71646,7 @@ CausalVariableRepresentationRecord:
   reopenCondition
 ```
 
-The record states which interventions and queries the learned or abstracted variables preserve, not that they are causal variables for every query or domain.
+When the outcome is an aggregate, establish how its constituents contribute to the outcome the question asks about. When the intervention itself is specified on an aggregate, establish which changes to its constituents count as implementing it. Follow the permitted implementations to the requested outcome under the retained mechanisms. If their answers differ, identify the intended implementation, justify the distribution over implementations, or give the supported range. If every permitted implementation meets the required threshold, that bound can answer the question. State the interventions and queries for which the representation preserves the required conclusion.
 
 **Constructed representation case.** `WardStateRepresentation-4` derives three state variables from monitor traces through `WardStateAbstractionMethod-2`. Its intervention-validity result covers dosage interventions, its invariance result covers the two hospitals in the training and hold-out comparison, and its query-preservation result passes the declared one-step counterfactual query but fails the long-horizon query. The record therefore supports the one-step policy comparison only; a new hospital, sensor scheme, intervention family, or long-horizon claim reopens it.
 
@@ -71721,7 +71840,7 @@ Recover the question, support components, live threats, supported statement, uns
 
 ### C.28:7 - Conformance Checklist
 
-1. The concrete claim and exact causal-use question remain identifiable from entry to the supported statement and its limits.
+1. The outcome, intervention or offered claim and the causal question it raises remain identifiable through to the supported answer and its limits.
 2. Every reference required by the current use resolves to the exact question, target or result defined at :4.0; a sentence-level triage can finish without such references.
 3. Data regime, identification, estimate, sampling realizability, performed sampling evidence, simulation, and transport remain distinct and may be combined.
 4. A downstream decision uses the causal-support result within its stated limits and checks its remaining conditions under the receiving pattern, as required by :4.9.
@@ -71813,7 +71932,7 @@ These are bounded selections for the illustrated questions. They preserve cheap 
 
 ### C.28.CM:1 - Problem frame
 
-Use this pattern when an explanation names a possible cause but leaves you unable to work out what follows, compare another mechanism, or say what observation could change the explanation. The difficulty can arise in a work process, a physical device or an AI-assisted task. A plausible story is available; the causal relations needed for the question have to be constructed.
+Use this pattern when you need to explain an outcome and the mechanism is open, or when you have a proposed cause and need to work out its consequences. Begin with the outcome and the work or process that could have produced it. Trace the conditions, actions and connections that could account for the observed difference. Use subject knowledge and observations to develop a candidate mechanism or challenge one already proposed.
 
 Begin with one outcome, the contrast that matters, and the relevant observations and subject knowledge. Express two materially different accounts when both remain plausible. Work out a consequence on which they differ, or identify the premise that prevents that comparison. An annotated sketch and a conditional explanation can be the first useful result.
 
@@ -71849,7 +71968,7 @@ State what needs explaining or changing. Name the outcome and the cases it conce
 
 Distinguish an observed comparison from an intervention query. Observing X=x supplies information about the mechanisms already operating. Imposing X=x replaces a mechanism. For a question about a past case under another action, use factual observations to constrain the underlying conditions of that case. In the alternative, recompute the quantities that depend on the changed action. An outcome observed in the factual case is evidence about that case and may take a different value under the alternative. C.28.MR develops the calculation and C.28 determines what supports its use.
 
-Keep the question small enough for a useful contrast. If two retained accounts permit the same sufficient next action under its own grounds, C.11.DUA can settle whether distinguishing them is worth the effort.
+Choose a contrast that can answer the recipient's question. Two accounts can justify the same immediate protection while explaining the onset or persistence of the trouble differently. The common action can settle today's protection. For a request to explain the trouble, derive what the accounts establish in common and which disputed mechanism still matters. Use C.11.DUA when deciding whether obtaining further evidence warrants its cost.
 
 #### C.28.CM:4.2 - Turn the story into variables with subject meaning
 
@@ -71857,7 +71976,7 @@ Choose quantities or distinctions that can vary across the relevant cases or tim
 
 Separate the subject quantity from its registration when that difference matters. For example, distinguish an identifier present in the submitted report, a log entry reporting its absence, and inclusion of that report in an incident sample. Recover how the observation is produced through C.16 when needed. A copied ticket is another report of the same event, not another occurrence of it.
 
-Retain enough distinctions for the proposed contrast. Combining two stages is unsafe when the action can change one while leaving the other unchanged. Conversely, a single “ready for dispatch” variable may suffice until readiness failures require different responses.
+When the question concerns a whole, work back from its outcome to the activities, handoffs or physical interactions through which it is produced. Select the constituents whose differences could change the explanation or the consequence being asked about. For example, a publisher adds one reviewer qualified for initial review and final approval. Assigning that reviewer to the first review or to final approval counts as the same staffing increase. If final approval is the only queue limiting completion, the two assignments can yield different publication dates. Keep the assignment and the handoff in the model when the difference matters. If all allowed assignments meet the requested deadline under supported bounds, the coarser description can settle that threshold. A request to explain why a particular issue waited can still require the stage and the history of its handoff.
 
 #### C.28.CM:4.3 - Propose mechanisms and serious alternatives
 
@@ -72256,13 +72375,13 @@ The synthesis retains ordinary substitution as the small executable case, adds t
 
 **What goes wrong if missed.** The reader either misses a useful mathematical construction or carries a result into a situation where a needed assumption or distinction has been lost.
 
-**What this buys.** A concrete mathematical question, a representation that makes it tractable, and a consequence that changes what to calculate, observe, compare or rule out.
+**What this buys.** A mathematical construction that makes the needed inference or operation possible, with grounds for using its result in the work that called for it.
 
 **Not this pattern when.** An adequate local equation, algorithm or domain model already answers the question and no separate representation or transfer issue remains. Complete that work without a C.29 note. A one-off metaphor used only for orientation also needs no card.
 
 ### C.29:0 - First mathematical move
 
-Ask what you need to find out. Choose the smallest mathematical object that could answer it; say how its elements and operations correspond to the working situation. Identify the structure needed for the inference, the distinctions omitted, and the assumptions on which the result depends. Derive a consequence, then decide what it changes and what would defeat its use.
+Start with what the recipient needs to understand or do. Work back to a relation from which they could obtain that result. Which objects take part, what may vary, and which differences must their representation retain? Choose an adequate mathematical construction, derive its consequence and use the correspondence to answer the original question. A familiar law can supply the whole argument.
 
 For waiting work, a queue candidate turns “slow flow” into questions about arrivals, service and waiting. For a proposed dense state array, counting its entries can already rule out an implementation. For a familiar local calculation such as `V = IR` under its accepted conditions, use the equation directly: the calculation does not require a lens-use record.
 
@@ -72315,12 +72434,12 @@ The practitioner therefore needs both construction and criticism: make the relev
 
 #### C.29:4.1 - Construct and test the correspondence
 
-1. **State the working question.** Say what the recipient will decide and which result could change that decision. Specify the quantity or condition, the relevant cases and the time at which it must hold. Output by a deadline and sustained output per hour can rank the same change differently. Recover the precision the decision needs.
-2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
+1. **Recover the work the mathematics must support.** What was requested, who is to do it, and which choices were left to them? Establish what counts as the required result, under which conditions, over what period and with what precision. If plausible interpretations give different answers, use their conditions to distinguish the answers or establish which interpretation governs the work. An explanation needs a derivation connecting the premises to the outcome. To construct a way of working, supply operations people can perform and show how their results fit together. For a particular execution, use or obtain the result of that execution. To keep a service working as conditions change, determine which property must continue to hold and what those responsible can observe and do in time. Identify the mathematical contribution that the work still needs.
+2. **Construct a representation for that use.** Start with the relation or law that could supply the result. When the answer depends on composition, hold a part fixed and vary how the whole uses it. Then hold the reported whole fixed and vary how its parts produced it. Which variation could change the required result or the grounds for explaining it? Follow each relevant kind through its own constituents. The stages specified by a method, the operations performed on one job and the records of those operations can have different compositions. Connect them by the relations the work requires. Ask whether the question concerns what holds for each constituent, how one affects another or what they produce together. At each relevant scale, keep distinctions on which that use depends. Try treating the remaining cases alike and work the proposed inference. Restore a distinction if cases so grouped require incompatible results or different grounds the recipient needs. Across different models for the same inquiry, identify the alternatives each admits and which conclusion transfers in which direction. Stop when the correspondence supports the work. C.39.SA develops this choice when the range is open. Several representations can suffice. If a mathematical object is still missing, retain the candidate and the next useful construction or observation.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
 4. **Determine what the correspondence preserves, omits or introduces.** Identify the structure on which the intended result relies and any omitted distinction that could change it. Establish the preservation claimed for the needed operations. If the receiving domain adds objects or operations, determine which of their results answer the source question. C.29.1 constructs these comparisons, including cases with no loss of source distinctions and cases where a receiving solution has no source counterpart.
 5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
-6. **Return the conclusion to the decision.** State what the calculation establishes under its premises. For a claim about an actual system, identify what supports the correspondence and those premises for this use. If several system states fit the available information, compare the decision across them. If the same decision holds throughout, an exact value may be unnecessary. If the decisions differ, identify what could distinguish the states or which action remains suitable across them. Retain the smallest sufficient account under :4.4 when another reader needs it.
+6. **Return the result to the work.** For an explanation, show which relation and premises make the claimed outcome follow. For a construction, return the object or operations and establish the properties required of them. To perform the work, apply those operations and return the requested outcome. For continuing use, identify which changed condition affects preparation, execution or interpretation and how to preserve or restore the required result. A conclusion about an actual system needs grounds for the correspondence and premises there. If a choice is required with several states still possible, an action that works in all of them can suffice. A later observation can support different actions when it reaches the chooser in time. A bound or an existing result can complete the commission. Use :4.4 when someone needs to recover the reasoning.
 
 ##### C.29:4.1.1 - Transfer the result through the operations
 
@@ -72463,7 +72582,7 @@ R_l : A_l -> A_{l+1}
 
 `InterfaceSpecificationRefs_l` contains only `U.EpistemeRef` values that resolve independently identified `InterfaceSpecification` epistemes under the identifying rule located at A.6.M. The references, their resolution, and the specification content remain separate; changing a lens token or retargeting a reference does not edit the specification.
 
-The index `_l` is a declared aggregation-scope index inside this C.29 lens, not a generic level, tier, layer, or ladder. Each use names the aggregation scope, the coarse-graining rule, the lost structure, and the source-return condition.
+The index `_l` selects the aggregation scope declared for this representation. State which parts form the whole at that scope and which distinctions the coarse-graining rule leaves open for the requested inference. The index can group system components while the referenced work or specification concerns a different whole. Use the relation to that work or specification when its result supplies a premise. Return to the finer account when a distinction it retains changes the conclusion.
 
 `MLU.Description@MultilevelLearningFrustration` applies only when the use names declared holon levels or declared scopes, a mapping between them, conflicting constraints or residuals, preserved structure, lost structure, and the nearest neighboring FPF pattern for any measurement, causal, evidence, assurance, work, selected-set, or decision claim.
 
@@ -72567,7 +72686,7 @@ MathLensUse.OneLine example := {
 }
 ```
 
-**Worked conditional queue comparison.** A production manager asks whether speeding station A would raise the line's output, or whether the next investigation should focus on B. Use a stipulated case: identical jobs arrive at `a_n = 10n` minutes, starting with `n = 0`, and pass through A then B. Both stations have one server, first-come-first-served non-preemptive service, no failures or rework, and an unbounded intermediate queue in the model. For a finite run the same calculation applies while its actual buffer does not fill. Transfer time is zero. A takes 10 minutes per job; B takes 15. The line starts empty.
+**Worked conditional queue comparison.** A production manager asks whether speeding station A would raise the line's output. The manager may need the sustained production rate or the number of finished jobs by a specified deadline. Keep both questions open until the intended use selects one. To choose the model, hold the two station times fixed and ask what could change the answer. If each station independently completes a different product, there is no handover between them. If every item must pass through both in order, release from A makes that item available to B, and B may still be occupied by the previous item. For the latter arrangement, keep each item's arrival and each station's availability. They determine when the next completion can occur. For a count of yesterday's departures, a complete and reliable dispatch record could already supply the answer. Here the manager asks about a proposed change, so the model must also represent what the change would leave in force. Use a stipulated case: identical jobs arrive at `a_n = 10n` minutes, starting with `n = 0`, and pass through A then B. Both stations have one server, first-come-first-served non-preemptive service, no failures or rework, and an unbounded intermediate queue in the model. For a finite run the same calculation applies while its actual buffer does not fill. Transfer time is zero. A takes 10 minutes per job; B takes 15. The line starts empty.
 
 The mathematical object is a deterministic two-station tandem queue. A job represents one part; an arrival is its release to A; service is uninterrupted processing at the named station; a departure from A is the arrival at B. This preserves order, routing, occupied service time and interstation waiting. Variable product mix, stoppages, rework and finite-buffer blocking are omitted. The network correspondence and the importance of blocking are introduced in [Wu's queueing-network lecture, slides 9 and 23–24](https://web.mit.edu/1.041/spring2023/lectures/L10-queuing-network-models-2023sp.pdf); the following deterministic numbers and derivation are constructed here.
 
@@ -72672,7 +72791,7 @@ State the declared lens use in `declaredLensUse` and its stopping or return boun
 
 ##### C.29:4.4.2 - From lens to local action
 
-A consequence can direct a new observation, make a bounded comparison possible, expose a bottleneck or obstruction, or reject a candidate representation. State which of these happens and why. If the requested result is a plan, decision or other neighboring result, supply the mathematical consequence to that result under :4.4.6.
+Use the mathematical consequence at the point where the recipient needs it. For example, to explain a line’s throughput limit, follow the jobs to a station each must visit and derive the maximum rate at which that station can serve them. Attaining that rate also requires a compatible flow through the other stations. To construct a schedule for successive jobs in a given order, carry forward each station’s next available time and start a job when it has arrived and the station is free. For a question about actual deliveries, a complete dispatch record may directly establish the count. These uses concern the same line and draw on different grounds. Where a separate subject practice supplies a missing contribution, use the corresponding entry in :4.4.6 and bring its result back to the work.
 
 **Worked local bottleneck: dense-state storage.** A proposed dense pure-state representation for 50 qubits contains `2^50` complex amplitudes. At a stipulated 16 bytes per amplitude, its array alone requires `16 × 2^50 = 2^54` bytes, or `16,777,216 GiB`. A 64 GiB implementation cannot hold it. Counting the representation's elements and multiplying by storage per element identifies this bottleneck before implementation.
 
@@ -72922,7 +73041,7 @@ C.29 edge-case boundary results:
 | simulation-calibrated lens | Scenario exploration is allowed; prediction, decision, or counterfactual reliance needs validation and the neighboring-pattern result named by value. |
 | latent-space visualization | Use learned-lens overlay and stop latent ontology, causal mechanism, or unobserved-variable recovery unless separately governed by the neighboring pattern governing that claim. |
 | isomorphism or equivalence claim named by value | Justify the relation named by value or downgrade `LensMappingMode`. |
-| multi-lens composition | Name the principal lens and neighboring notes; avoid a full card that mixes queue, graph, causal, temporal, and assurance authority. |
+| several representations contribute to one result | Identify what each supplies and how its result can be used with the others. Where they describe the same case, match its configuration, time or other shared condition. Where one supplies an input to another, establish that the receiving operation accepts its meaning and range. Derive the conclusion using those connections. A proof about one representation can suffice when its correspondence already settles the question. C.37.MM:4.1.1 and MMP.18:4 develop these connections. |
 | lens becomes accepted domain theory | Keep local domain theory with the domain pattern; durable FPF naming or kind change needs `F.18`, `C.3`, `F.8`, and `E.9`. |
 | mathematical notation shift only | Use `A.6.3.RT` unless mathematical-lens use changes the declared use. |
 | coarsened explanation | Use `A.6.3.CSC` for source-bearing return, narrowed use, and coarsened rendering; cite C.29 only for abstraction adequacy. |
@@ -73075,7 +73194,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C29-0 Use condition` | Use C.29 when choosing or transferring a mathematical representation affects the working question, when reliance exceeds the established correspondence, or when a stable problem needs a first useful candidate. Use an adequate local equation, algorithm or domain model directly when no separate representation issue remains. | Preserves the entry condition and sufficient ordinary result. |
-| `CC-C29-1 Mathematical move before record` | State the question, choose a concrete object, establish its correspondence and losses, and derive or delimit the consequence before selecting the sufficient record under :4.4. | Keeps recording subordinate to the mathematical work. |
+| `CC-C29-1 Mathematical move before record` | Identify the work the recipient must do, derive the needed distinctions and relations, and derive or delimit the mathematical contribution to that work. When several representations supply premises, justify using them together. Record the account under :4.4 when needed. | Keeps recording subordinate to the mathematical work. |
 | `CC-C29-1a Computational construction` | When the mathematical result needs a computational construction, use C.29.2 to obtain the procedure, its interpretation, the argument supporting its claimed result and the relevant cost estimate. | Lets the reader construct or locate the missing computation. |
 | `CC-C29-1b Realization correspondence` | When the result depends on an unsettled execution correspondence, use C.29.3 to connect preparation, system operations and readout and establish the required result relation. | Lets the reader use or repair the proposed execution. |
 | `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a family label alone. | Prevents a family label from replacing the mathematical object. |
@@ -73090,7 +73209,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 | `CC-C29-7 Lens-bounded prediction or distinction` | State the consequence or obstruction, its premises and the use selected under :4.4. For phenomenon prediction or consequential reliance, supply the required applicability and validation account. | Makes the result and its reliance boundary inspectable. |
 | `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is being claimed, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
 | `CC-C29-8a Receiving use` | When the lens result contributes to a separately governed question, identify that question and follow :4.4.6's receiving action. | Connects the lens result to its receiving use. |
-| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are being claimed, declare the scale range and use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale preference, and `C.31.ASAP` for architecture scale preference when the respective claim is made. | Prevents universalization. |
+| `CC-C29-9 Scale and scope` | Where a result depends on composition, identify the relevant constituents and show what carries to the whole or back to a part. For a model that leaves more distinctions open, establish which conclusion still follows. When a scaling law or scale preference is claimed, specify the scale variable and range and use `C.18.1`, `C.19.1` or `C.31.ASAP` for the corresponding claim. | Keeps the conditions for using a result at another scale or through another model recoverable. |
 | `CC-C29-9a Temporal use boundary` | Preserve the timing and extent needed by a forecast, rate, trajectory, rhythm, recovery or stabilization claim. Use `C.27` when an unresolved adequacy question changes the receiving use; reuse an adequate existing temporal argument directly. | Keeps the temporal claim's grounds without requiring a separate account for every temporal expression. |
 | `CC-C29-10 Rival lens discipline` | For a choice or superiority claim, compare the relevant available rival or ordinary fallback; broaden only for an unresolved consequential question. Recover the criterion, cost, reader, scale window or other condition that makes that comparison meaningful. | Keeps comparison proportionate while allowing a sufficient result without an invented rival. |
 | `CC-C29-10a Validation regime` | Apply :4.4's reliance rule and :4.5a. Phenomenon-model reliance needs its validation regime, evaluation conditions, uncertainty/approximation, applicability and relevant known failures or required failure examination. A conditional derivation states its assumptions and loss without claiming empirical adequacy. | Matches validation to the claimed use; no known failure is neither a required fabricated example nor proof of adequacy. |
@@ -73348,11 +73467,11 @@ The last two uses are stronger than mapping source cases forward. Keeping the di
 
 Choose a source domain X and a receiving domain Y. Construct a map F from the allowed source cases to their receiving representations. Explain its action in the working terms before relying on its notation: F(n,r) = n − r retains available stock and forgets the separate totals; a route endpoint summary forgets which route was taken.
 
-A correspondence can use several maps. An operation may take one kind of input and return another, so its input map and output map can differ. For an operation with several inputs, say how each input is mapped and which combinations are permitted. Where the intended account relates one case to several possible representations, use that relation explicitly. Selecting one representation for each source case defines another construction; establish that the selection supports the intended conclusion.
+A correspondence can use several maps. An operation may take one kind of input and return another, so its input map and output map can differ. For an operation with several inputs, establish which tuples are allowed in the source. If inputs describe constituents of one whole, ask what makes them parts of the same admissible arrangement. Map those combinations into the receiving account. Taking all combinations of the separate summaries can introduce arrangements with no source counterpart. A guarantee proved on this larger set holds on the represented subset when the property carries back. To return a feasible arrangement, recover one compatible source combination with the required properties. Where the intended account relates one case to several possible representations, use that relation explicitly. Selecting one representation for each source case defines another construction; establish that the selection supports the intended conclusion.
 
 Construct the correspondence by asking what the receiving question needs. Identify a candidate variable, relation or operation that carries that information. Compute its value on source cases. Determine which cases it combines. Try to express the receiving operation using only what remains. If the expression still depends on an omitted quantity, either retain that quantity or establish why it cancels for this use.
 
-For a change of coordinates, construct the inverse when returning a complete source state is intended. For a summary, identify the source cases compatible with each receiving value. A many-to-one map can answer a question exactly even though it cannot reconstruct the whole source state.
+For a change of coordinates, construct the inverse when the receiver needs the complete source state. For a summary, identify the source cases compatible with each receiving value. It can give the exact answer to one question while leaving other properties open. Moving from a part to its whole changes what the account describes. To compare levels of abstraction of models, fix the question and interpretation and compare the possibilities each model admits for it (B.5.MR). For the transfer of a particular conclusion, establish the direction and the property it uses.
 
 Keep the domain visible. A division requires a nonzero denominator; a square-root substitution may impose a sign choice; a route may exist only for certain endpoints or histories. A map justified on one part of X supports conclusions on that part. A receiving value outside F(X), the set of represented source cases, needs a further argument before it is used as a source possibility.
 
@@ -73406,6 +73525,8 @@ If g exists, both source answers equal g of the same receiving value. Conversely
 Use this as a construction, not only as a test. First try to rewrite q in terms of the retained variables. If the unwanted variables disappear, derive the resulting g. If they remain, look for two permitted source cases with the same representation and different q values. That pair proves that the requested answer cannot be recovered from that representation alone. One such pair is enough to refute the proposed function. Failure to find a pair is not a proof of independence.
 
 For an update, ask whether cases sharing the current summary have the same required next summary. For a summary that is also to decide availability, compare the operation conditions across those cases. For a prediction after several steps, compare what the permitted continuations can do. The relevant comparison follows the requested result; it does not require preserving every property of the original object.
+
+The requested result may instead be one acceptable action. For a reachable summary y, take the source cases compatible with y and consider the actions allowed and sufficient in each. To return one action with a guarantee on y, choose one the recipient can carry out that meets the requirement in every such case. The complete sets of acceptable actions may differ. Even if every pair of cases shares some action, the whole group may have none in common. If the work permits a decision after further information arrives, construct the rule at that later decision point using what its performer can then know and do. MMP.8:4.2–4.3 develops that formulation. When only the mathematical existence of a choice was asked for, the corresponding existence argument can suffice.
 
 Distinguish defining a value on a merged class from changing the question. “The cost of this route” requires the chosen route's cost. “The least cost among these routes” combines several costs by taking a minimum. The second is a new, potentially useful function; it does not make the first independent of its representative.
 
@@ -73608,7 +73729,7 @@ These checks concern a claimed use of mathematical transfer. Recognition of a pr
 | CC-C29.1-2 | The transfer argument SHALL identify the source inputs, relevant operations and premises, including operation conditions that affect the conclusion. Recover a missing source rule before relying on its transfer. |
 | CC-C29.1-3 | The account SHALL define the correspondence on the domain used by the conclusion and explain the meaning of its relevant values. A conclusion outside the represented domain needs a further argument. |
 | CC-C29.1-4 | An exact operation-transfer claim SHALL be supported by the comparison in C.29.1:4.3 over its stated domain. Include availability or return conditions when the receiving use depends on them. |
-| CC-C29.1-5 | An answer defined through a merged representation SHALL have the representative-independence argument in C.29.1:4.4, or be qualified as a bound or set of possible answers. A conflicting permitted pair requires repair of that proposed answer. |
+| CC-C29.1-5 | For each reachable summary, an exact answer recovered from it SHALL equal the requested value in every source case it represents. For one guaranteed action, justify a choice that meets the requirement in every case compatible with the information available to its performer. A bound or a set of possibilities needs the corresponding coverage argument. |
 | CC-C29.1-6 | A bound or approximation claim SHALL explain why it covers the allowed cases, the direction of its inequality and the subsequent error propagation needed by the receiving use. |
 | CC-C29.1-7 | A returned receiving solution claimed to be feasible in the source SHALL identify an allowed source counterpart with the stated properties. A relaxation optimum alone supplies no such counterpart. |
 | CC-C29.1-8 | The returned conclusion SHALL retain its answer-changing assumptions and distinguish the result obtained from the further work still needed. A physical application includes the physical premises; a changed premise reopens the dependent comparison. |
@@ -73760,7 +73881,7 @@ Make an approximation requirement operational. `|y_hat - y| <= epsilon` means an
 
 For stochastic computation, distinguish a requested distribution, samples from it and an estimated statistic. Those outputs require different constructions and resources. For an approximate distribution, name the events, statistics or distance over which accuracy is required. A distribution's definition does not by itself supply a sampler; a sample average needs an argument connecting it with the requested population quantity.
 
-Identify an input distinction that would change the answer. If two such inputs have the same proposed representation, retain the missing information, add an obtainable input, restrict the admitted cases, or obtain agreement to answer a weaker question. C.29.1 develops the preservation argument when that comparison is itself the difficulty.
+Derive the input distinctions from the operations the recipient needs. A representation for an exact value must distinguish inputs with different required values. If the order allows any satisfactory witness, a witness common to all inputs with the same representation can suffice. For an ongoing response, determine what its performer will know at each step and what subsequent inputs may require. Establish that the resulting computation can obtain an acceptable answer for the admitted inputs. Restore missing information, use an adequate alternative, or agree a change in scope when the present representation precludes the requested work. C.29.1 develops the preservation argument.
 
 #### C.29.2:4.2 - Choose represented state and operations together
 
@@ -73778,22 +73899,15 @@ The available operations can also be the starting contribution. A collaborator w
 
 If a known construction answers the question, recover its inputs, operative rules or steps and assumptions from its explanation and use it. B.5 supports that recovery. Check that the available operations can perform those steps and that their result has the required interpretation. A library or solver can supply the construction, but its accepted input class, result guarantee and failure behavior must fit the present use.
 
-When the connection is not yet known, work on the missing operation rather than rewriting the output condition:
-
-1. Calculate a small instance with enough detail to see what is being produced.
-2. Identify what remains to be obtained after one available operation. Try to express that remainder using the same kind of problem or a known subproblem.
-3. Retain the intermediate information needed to join the contributions. If an operation overwrites a value still needed later, save it or change the ordering.
-4. State how the joined result satisfies the original answer condition, then try a case that changes a material assumption.
-
-This is a way to expose and develop a construction. Recurrence construction, search, optimization, numerical discretization and other techniques have their own subject methods. Use C.39 to find or develop a missing way; use C.40 when a workable change-and-test operation is already available and branching search is the live difficulty.
+When the connection is missing, work back from the required output to an operation that could produce it. Which inputs would that operation need, and how could they be obtained from the data or state already available? A direct substitution can complete the construction. To build a procedure from smaller operations, determine what remains after an available step, retain the information needed by the next step and show how the joined results satisfy the original condition. A calculation on a small instance can reveal an intermediate value or dependency to carry into that argument. Recurrence construction, search, optimization, numerical discretization and other techniques have their own subject methods. Use C.39 to find or develop a missing way; use C.40 when a workable change-and-test operation is already available and branching search is the live difficulty.
 
 For a still-missing contribution, return a substantive task: the available inputs and operations, the result or intermediate relation needed, the conditions it must preserve, and what would count as a useful solution. “Find a better algorithm” is usually too weak. After a dense-state rejection, for example: “Given this circuit family and this requested observable, provide a representation and update/readout procedure with a justified error bound and a peak-memory estimate below the stated budget; do not materialize the full amplitude array in a hidden conversion.”
 
 #### C.29.2:4.4 - Explain the result and progress
 
-For a proposed computation, follow a small case from supplied inputs through the available construction to the interpreted output. Show the changing values or solved relations, and expose operation order when it affects the result. This catches missing state, ambiguous instruction order and an output interpreted under the wrong convention.
+Follow the construction from its inputs to the result the recipient will interpret. A derivation from the operation rules can establish the result for their whole input class. Work through a particular input when the order calls for its result or a trace can resolve uncertainty about state, instruction order or output meaning.
 
-Then supply the argument appropriate to the claimed range. For a loop, find a statement relating the current state to the work already completed and the answer still sought. Show that initialization establishes it, each iteration preserves it, and the stopping condition makes the desired conclusion follow. This statement is the loop invariant. Separately explain why the loop reaches that condition, for example through a nonnegative integer that decreases at every iteration. For a recursive construction, explain its initial cases, the smaller calls and how their results give the caller's answer.
+Supply the argument appropriate to the claimed range. For a loop, find a statement relating the current state to the work already completed and the answer still sought. Show that initialization establishes it, each iteration preserves it, and the stopping condition makes the desired conclusion follow. This statement is the loop invariant. Separately explain why the loop reaches that condition, for example through a nonnegative integer that decreases at every iteration. For a recursive construction, explain its initial cases, the smaller calls and how their results give the caller's answer.
 
 The proof form depends on the computation. A direct finite composition may need only substitution through its operations. A randomized procedure needs its probability argument. For an estimated statistic, state the sampling assumptions and connect the claimed error or uncertainty to the sample count. For a continuing interaction, state the preservation or response property required and the assumptions under which progress is claimed; global termination may be the wrong requirement.
 
@@ -73815,7 +73929,7 @@ Begin with the resource that can decide the choice. For a stored array, derive h
 
 `payload storage = element count × bytes per element`.
 
-For several simultaneously live arrays, add their payloads and the workspace, indices, temporary copies and other storage used by the proposed algorithm. Peak memory concerns what must coexist, not the total amount ever allocated. A payload lower bound may already reject a design; a payload that fits is not yet a complete fit argument.
+Identify which storage must coexist and which arrays share it. Two views of the same 40 GiB allocation can each expose the entire array while using that payload once. Two independent 40 GiB copies require 80 GiB while both are live. Include the original allocation if it is live at the same time. For a design allowed to choose the execution order, one enforceable order can establish a fit. For a guarantee over all permitted orders, bound the peak in each or establish one bound covering them all. Count each live allocation once, including workspace, indices and temporary copies that can affect the peak. A payload lower bound can reject a design. To establish that it fits, give a sufficient upper bound for the required execution.
 
 In a model of discrete operations, count how often each operation is performed and what each performance costs. State the size parameters. An instruction count with one unit per arithmetic operation answers a different question from bit operations on growing integers, memory transfers or elapsed time on a machine. Explain the dominant term before using asymptotic notation. A bound for one representation is not a lower bound for every algorithm solving the mathematical problem.
 
@@ -73827,7 +73941,7 @@ When resources fail, change one of the causes: represented structure, stored pre
 
 #### C.29.2:4.7 - Return the sufficient result and its next use
 
-Return the formulation and its obtaining construction when available, with enough representation and output meaning to use them, the conditions of the argument, and the resource or accuracy limit that can change the decision. Reuse an existing explanation where it supplies these connections.
+Return what the recipient asked you to obtain. To deliver the procedure, supply its operations, the meaning of their inputs and outputs, and the conditions under which its result and cost meet the requirement. For a result on supplied inputs, carry out the computation or use an existing result whose grounds apply. If a fresh execution is part of the order, that execution remains to be performed. For a continuing response, provide the state, operations and progress conditions needed at successive inputs. A short derivation can supply these connections.
 
 If a contribution is absent, identify it at the failing connection. A missing state distinction returns to formulation; an unavailable algorithm returns to its construction; an unsupported numerical bound returns to the numerical method; an execution mismatch returns to C.29.3, which may in turn supply a reason to revise this formulation. The iteration can change both model and executing arrangement.
 
@@ -74007,10 +74121,10 @@ Apply these checks to the computational claim being made.
 | Check | What must be recoverable |
 | --- | --- |
 | Answer and scope | The input class, required answer and any accuracy or interaction condition; an output characterization is distinguishable from its obtaining procedure. |
-| Represented distinctions | Input meaning, computational state and output interpretation, including a retained distinction that a later operation needs. |
+| Represented distinctions | The input meaning, computational state and output interpretation support the required operations. Where several inputs share a state or receive the same answer, that choice remains adequate for the commissioned work. |
 | Available operations | What each consequential operation does and where any non-elementary construction comes from. |
 | Obtaining construction | An executable ordering, an applicable solver for declared relations, another specified computational behavior, or a substantive missing-construction task. |
-| Argument | A proposed computation has a worked case and the argument needed for its claimed range, including termination or response properties when claimed. An obstruction has an argument establishing its scope. |
+| Argument | The construction has an argument for its claimed range, including termination or response properties when claimed. A requested execution has its result. A worked input can exhibit a disputed step. An obstruction has an argument establishing its scope. |
 | Accuracy | The error relation or probability guarantee used by the receiver and the arithmetic, approximation, sampling and interpretation conditions that support it. |
 | Resources | The relevant element/operation counts, per-element or per-operation costs, size parameters and material preparation/readout costs. |
 | Result boundary | A qualified answer, restriction or obstruction; no unsupported promotion of one trace, failed representation or simulated execution. |
@@ -74105,7 +74219,7 @@ The [SciPy bisection documentation](https://docs.scipy.org/doc/scipy/reference/g
 
 **Use this when** a computation is available, but the proposed executing arrangement has not yet been connected to its inputs, operations and interpretable results. A motor interface may accept a different number from the one calculated. A circuit may produce a voltage whose scale differs from the input scale. A material admission procedure may preserve a count only while several people share the same stock of cards.
 
-Start with one input the work needs. Explain how it is prepared in the proposed system, which actions perform the computation and how the result is read. Compare the interpreted result with what the abstract computation requires. A failed input preparation, such as a command outside the interface's range, can already determine a useful repair.
+Start with the result the arrangement must deliver. For an input or history covered by the order, explain how the system is prepared, which actions perform the computation and how its result is read. Compare that result with what the recipient needs. An operating law can establish the comparison over its whole range. A particular input can expose a failure, such as a command outside the interface's range.
 
 The first result is a realization design under stated conditions, an interpreted result from an execution, or a failed connection with a proposed correction. The method helps construct and use that connection. The engineering of a circuit, controller, physical apparatus or administrative arrangement supplies the mechanisms that perform the computation.
 
@@ -74198,7 +74312,7 @@ Use C.16 when reading the result requires a measurement model. Instrument loadin
 
 #### C.29.3:4.5 - Compare the routes over the claimed scope
 
-Work a small input through both routes with its meanings intact. Then establish why the required relation holds over the input range or histories for which the result will be used.
+Follow the inputs or histories covered by the claim through preparation, execution and interpretation. Establish the required relation from the operating rules, relevant evidence or both. A worked input can resolve an uncertain correspondence. A claim about one particular execution needs grounds about that execution, such as its recorded output under the agreed interpretation.
 
 For a finite case, a complete case analysis can suffice. For an invariant, show it in the initial state and show how every permitted operation preserves it. For an approximate result, propagate the losses to the quantity used by the receiver. For a sampler or statistical estimator, compare the distributions or estimation properties. Use the mathematical, numerical or empirical method appropriate to that claim.
 
@@ -74206,7 +74320,7 @@ For example, a required binary sampler gives output 1 with probability 0.5. Supp
 
 When the requested result contains several random components, compare their joint behavior. Suppose the target is a pair of independent fair bits. Preparing one fair bit B and returning (B,B) gives the right distribution at each output separately. But the target assigns probability 1/2 to unequal outputs; this system assigns probability 0. Using two independent draws gives each of the four pairs probability 1/4 and restores the requested result. The realization must provide that joint sampling behavior. When its observations are dependent, use the joint law or change how the second component is obtained.
 
-Choose changed cases from consequential features of the arrangement, such as an endpoint of the command range, a different initial state, overlapping actions or indication error. A permitted input with a confirmed output outside tolerance refutes a claim that every execution meets it. Establish the input, output reading and operating conditions needed for that comparison. A pair of different draws can be entirely consistent with a probabilistic guarantee. Use the sampled outcomes and their probability law for the distributional question.
+When a case can distinguish competing accounts of the realization, choose it from features that matter to the requested result, such as an endpoint of the command range, a different initial state, overlapping actions or indication error. A permitted input with a confirmed output outside tolerance refutes a claim that every execution meets it. Establish the input, output reading and operating conditions needed for that comparison. A pair of different draws can be entirely consistent with a probabilistic guarantee. Use the sampled outcomes and their probability law for the distributional question.
 
 Separate three possible outcomes:
 
@@ -74226,7 +74340,7 @@ When adapting the formulation and the apparatus together could improve the resul
 
 #### C.29.3:4.7 - Return the result at the strength obtained
 
-Give the usable realization, input conditions, interpreted consequence and the change that would require reconsideration. Preserve the derivation or operating explanation at the depth needed by its receiver; a short calculation may be enough.
+Give the usable realization and the conditions that make its result interpretable. For an execution order, prepare the specified input, perform the operations and return the interpreted result. When designing continuing service, establish how preparation, operation and readout remain available across the admitted histories and how service can resume within the promised time. When entrusted with operating it, use the available observations to act or secure the required response from its responsible operator in time. Establish whether the promised behavior continued or was restored. A claim about service already provided needs evidence from the period concerned. A question confined to the design can be settled from its operating conditions.
 
 A conditional design can finish before a device is built. An observed execution can establish a result under its conditions. An identified incompatibility can stop an unsuitable implementation and open another. Further information or assurance is obtained when the receiving use requires its contribution.
 
@@ -74352,7 +74466,7 @@ Apply the checks to the realization and use. Their answers can remain in the wor
 | CC-C29.3.2 - Input preparation | A way to prepare each claimed input, with its range, initial state and consequential loss. |
 | CC-C29.3.3 - Executing actions | System actions and state changes that perform the operations, including relevant intermediate states and shared access. |
 | CC-C29.3.4 - Interpretation | The obtainable state or indication and the relation that turns it into the result used. |
-| CC-C29.3.5 - Scope of comparison | A constructed case and the argument or evidence supporting the claimed input or behavior scope. |
+| CC-C29.3.5 - Scope of comparison | The comparison of preparation, operation and readout has grounds for the claimed inputs or histories. A case can expose an uncertain connection. A claim about completed operation has evidence for the particular work. |
 | CC-C29.3.6 - Changed conditions | Which preparation, execution or interpretation must be reconsidered when range, timing, ordering or uncertainty changes. |
 | CC-C29.3.7 - Usable outcome | A sufficient realization or interpreted consequence, or a named incompatibility with the next repair. The strength of the claim matches its grounds. |
 
@@ -74484,11 +74598,11 @@ Choose the quantity and boundary, account for changes in each included part, and
 
 #### C.29.BB:4.1 - Choose an additive quantity and a common interval
 
-Name the quantity Q, its unit or counting rule, the included parts S, and the start and end conditions. Define who or what belongs to each part. Use disjoint parts, or otherwise account for their overlap before summing.
+Start from where and when the recipient needs the result. Identify what would count there and which things belong to that total. Choose the quantity Q, its unit or counting rule and the interval. When the boundary is yours to choose, try treating a consequential exchange as an internal transfer by including both sides. Can you then recover the requested total from the larger amount and what was added? At a smaller boundary, net transfers and internal production or removal can establish the change in stock. To obtain an ending stock from that change, also establish the starting stock or a sufficient bound. An observation of the ending stock can settle the question directly. Choose the boundary whose terms and return to the requested quantity can be established. Let S consist of disjoint included parts, or account for overlap before summing.
 
 For disjoint parts with amounts q_i, additivity means that Q(S) = sum q_i. The rule needs a basis in the model or counting definition. For a population, assigning each included job to one stage can provide it. For physical storage, use the physical quantity and law.
 
-An average temperature is not an additive heat store. If the question concerns stored thermal energy, construct that quantity from the material and state relations; if it concerns the maximum temperature, preserve the local temperatures needed to obtain the maximum. Choosing a convenient sum changes the question unless the required result can be recovered from it.
+For stored thermal energy, construct an additive quantity from the material and state relations. A question about the maximum temperature needs a measured maximum, the local temperatures or another relation from which that maximum follows. If the question asks only whether a temperature limit holds everywhere, a suitable upper bound can suffice. Use a sum when its relation to the requested result supports the inference.
 
 Keep all amounts on the same interval. A transfer that leaves one store before the endpoint but reaches another afterward requires an in-transit store or separate boundary crossings. For snapshots at different times, first recover their relation to the requested interval.
 
@@ -74524,7 +74638,7 @@ A closed boundary eliminates crossing terms only when the model excludes those e
 
 When enlarging S, include the added stores and their changes. Transfers between the old and added parts become internal only if both sides now refer to the same amount over the interval. The new exterior crossings remain.
 
-When shrinking S, formerly internal transfers can become inputs or outputs. Recompute the requested total from the retained stores. A balance for a larger region supplies its total; obtaining a smaller region's value needs the removed region's amount or a sufficient bound.
+When shrinking S, formerly internal transfers can become inputs or outputs. A direct balance around the smaller region uses those crossings. To recover its amount by subtraction, use the larger total and the amount in the removed region at the same time under compatible counting conventions. A direct reading or a justified bound can also settle what the recipient asks.
 
 Check the two descriptions against each other: the larger total equals the sum of its disjoint parts, and their changes agree after shared transfers cancel. This comparison can expose an omitted connecting store without resolving every internal rate.
 
@@ -74532,7 +74646,7 @@ Changing the parts over time can also change membership. Include that effect thr
 
 #### C.29.BB:4.5 - Use uncertainty or discrepancy to choose the next move
 
-Substitute the available amounts and compute the requested consequence. If some terms are bounded, propagate the bounds through the signed sum. Preserve dependencies when independently combining endpoints would admit impossible combinations.
+Substitute the available amounts and compute the requested consequence. If some terms are bounded, propagate the bounds through the signed sum. Combining separate extremes can give an outer bound even when those extremes cannot occur together. Use it when it settles the requested threshold. For an attainable value or a guarantee that the outer bound leaves open, use the jointly allowed transfers and stores. A permitted case can refute the guarantee.
 
 For observations, subtract the change predicted by the recorded transfers and internal terms from the observed change in storage. Propagate their uncertainties and shared constraints into a range for this discrepancy. If the range excludes zero, the records and balance cannot agree under those assumptions. If it contains zero, establish whether jointly admissible values actually give zero before claiming agreement is possible. Equal unrecorded inflow and outflow can cancel even when the discrepancy is exactly zero. To locate a fault, examine a term or an independent observation that could distinguish its possible causes.
 
@@ -74544,7 +74658,7 @@ When implementing a partitioned calculation, represent a shared transfer consist
 
 Derive the aggregate change from the proposed updates. If a numerical approximation changes the balance, determine whether the discrepancy fits the receiving use or repair the update. Balance preservation addresses one property of the computation; accuracy of the local solution requires its own approximation argument.
 
-Return the total, bound or identified missing contribution with the quantity, boundary and assumptions needed to use it. A subsequent question about a local maximum, delay or possible action may require the retained component account. Keep that account available.
+Return the total, bound or identified missing contribution with the quantity, boundary and assumptions needed to use it. For a further question about a local maximum, delay or available action, retain or recover the component information or other grounds that the new question requires. A direct law or bound can already settle it.
 
 ### C.29.BB:5 - Archetypal Grounding
 
@@ -88085,9 +88199,13 @@ A total can answer a question that no individual entry settles. The same total c
 
 **Start with the work and its criterion.** Who will use the result, to do or explain what, with which choices still theirs? Establish the relevant subject, permissible conditions and information available by the time of the choice. Supplying one workable design allows the designer to choose its arrangement. Teaching someone to design for several settings requires a way for that person to choose. Deciding whether a threshold is met and giving an exact value can also require different evidence.
 
-1. **Follow the composition needed for that work.** Trace the recipient’s action from what they receive to what they must deliver or explain. Start with the whole that supplies, uses or constrains that result. Follow a dependency to its constituents or to an enclosing whole when altering their arrangement could change that use. Name each kind of holon and the relation that makes these particular constituents parts of it. Ask whether a different enclosing arrangement could change the answer while the facts about a constituent stay true. Ask whether different arrangements inside the whole could change the answer while its reported total stays the same. Follow the constituent relation in the direction the inference needs. For a Method, identify what its construction requires of a constituent Method. For performed Work, identify the actual performances that constituted that job. A job can enact a Method. An account in an inspection report can tell us something about the job. The account is an episteme, and its relation to the job is the one the decision must use. Trace each kind across its own scales. For a functional control layer, identify its responsibility, the Methods that implement it and the controllers that perform the work when those relations matter.
+1. **Follow the composition needed for that work.** Start where the recipient’s question starts. It may name a constituent, a whole or a connection between them. If you must choose where to begin, ask which difference in their arrangement would change the decision or its grounds. Could the same part serve a different enclosing whole? Could the same reported outcome come from different arrangements of the parts? Follow the relation in the direction the answer requires. A fact about one part can settle the question when you can give the inference to the requested conclusion.
+
+   When several kinds of holon matter, establish what counts as a constituent for each. The steps a Method calls for and the performances that made up a particular job can have different compositions. The job enacts the Method. An account of that job is an episteme whose claims can supply grounds for what happened. Trace each kind across its own scales and explain any connection between kinds that the conclusion needs. For a functional control layer, distinguish the responsibility assigned to it, the Methods that implement it and the controllers that perform the work where these distinctions matter.
 2. **Find which alternatives the model must distinguish.** To form a first model, start with the action or explanation the recipient owes. Identify information that could distinguish two required answers and keep that distinction in the model. Then consider the situations the resulting model still treats alike. Could the recipient carry out each assigned operation with the information that remains? If indistinguishable situations require incompatible decisions or different grounds that the recipient must explain, preserve the difference or supply an observation available before that decision. For one action guaranteed to work, establish an admissible situation and a single action that works throughout the whole indistinguishable set. Compatibility in each pair need not give an action common to all. When a later choice is allowed, a rule based on information and authority available then may suffice. For a risk limit, retain the frequency, probability or justified bound the decision uses. The same list of possible outcomes can conceal very different risks.
 3. **Try releasing a choice fixed by the account.** What happens if a different permitted arrangement is used? If choosing one workable design is your job, deliver the chosen design with the grounds the order requires. If the recipient is to choose, show how they can recognize and use the permitted alternatives. A worked example can keep its particular design. Keep details required by the order and details that make the explanation intelligible. Identify which ones belong only to an illustration. One way can cover the entire promised range. Several ways can depend on the same unstated restriction. Where the recipient must explain a selection, show which information lets them make it and why the alternatives matter.
+
+   Apply the same test to the work you are about to propose. If you carried it out perfectly, could the original question still have different answers? A list of places to look or cases to examine can guide an inquiry. Use an unverified possibility to guide inquiry. Before describing it as part of the practice, establish whether it actually operates there. Distinguish that finding from a possibility suggested by you or someone else. To use it as the full range, derive its coverage from the question or the organization of the subject. When the choice remains open, retain other possibilities and specify what would distinguish the ones that change the answer.
 4. **Establish what follows at each scale, between scales or from their joint use.** Does the decision need a rule at each eligible scale, a directed dependence from one scale or model to another, or a result that depends on several together? Identify the relation and give grounds for that claim. Check coupled choices under their joint constraint. A newly distinguished case may reveal a missing constituent or enclosing whole. Reopen the affected composition choice. Conversely, a shared constraint may change what the model has to distinguish. A subject rule, a sufficient bound or a justified empirical estimate can settle the task across its declared range. State its applicability. When the available grounds leave different required answers possible, identify the unresolved distinction and what would settle it.
 
 The result is a choice of composition scales for each relevant kind and of model abstraction for the intended use, with the connections and stopping grounds the recipient needs. A range need not contain every intervening description or form a rectangle with another range. When several selections give the required result, effort, access and the consequences of an error can decide between them.
@@ -88103,6 +88221,10 @@ A guide that supplies both counts can show how to use them. If it promises to te
 ### C.39.SA:6 - Bias-Annotation
 
 A specialist may supply a missing dependency from experience. Establish what the intended recipient can recover from their declared preparation, the passage and the materials they can actually use.
+
+When an incident prompts a question about a recurring practice, ask what makes the substitute work attractive or allows its result to count as completion. At the first divergence, recover what the contributor could choose, what they knew then and what would count as completing their work. The same fault at the same point can have different causes and require different changes. For example, an author might choose a question that the available material already answers. An editor might accept the resulting explanation because it is clear and accurate. Keeping the recipient’s question visible when choosing the work can expose the first substitution. Trying the answer against the recipient’s intended use can expose the second. Look for an instruction, decision or consequence that distinguishes the live explanations. If the evidence only locates the substitution, its cause remains open. The two roles are illustrative. One person can make both choices, and the explanation can involve relationships across several parts of the practice.
+
+For a proposed repair, identify a substitution that could previously pass and show why the changed practice would catch it while accepting an equally specific answer to a genuinely specific question. Whether people use the change and whether the fault recurs are questions about subsequent work. Locating an error can itself settle a request confined to that incident.
 
 ### C.39.SA:7 - Conformance Checklist
 
@@ -99444,7 +99566,7 @@ Use these steps for the FPF edition:
 3. Identify the selected Core pattern set and any companion or projection loci that expose it.
 4. When a public presentation carrier is being assembled or checked, use `E.11.PFP` for the common publication form. Keep a product-declared compact opening and separate exact title and Readme H1 values.
 
-   Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3's entry guidance and unmatched-question return, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
+   Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3’s guidance for keeping the reader’s question through the choice of entry, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
 
    Apply `E.11`'s use test before assigning card form, and use the current FPF declaration above for every selected key and form plus the English compactness measure and two limits. Add another public cue only when a named reader decision or action needs it.
 
@@ -99557,7 +99679,7 @@ In the repaired candidate, DUA-2, PUR-2 and Ways-1 match their selected sources,
 | CC-FPF.10 Common form reused | The selected public form satisfies `E.11.PFP` for the compact product-declared opening, distinct exact title and Readme H1, Readme and Architectural Reference entries in the established ToC grammar, one logical index, practical entries, and any choice-relevant cue. This pattern retains FPF-specific sources, units, body order, carrier and route selection, and builder regressions for the established compact-front line shape and native ToC grammar. |
 | CC-FPF.11 One rebuildability record sufficient | One `FPFEditionRebuildabilityRecord` carries the exact selected source, publication-unit, publication-form, presentation-carrier, access-route, relation, projection, and refresh references. Add another manifest, field, or record only after showing which FPF value is missing. |
 | CC-FPF.12 Deterministic source assembly | The all-in-one edition candidate uses the exact predecessor, selected edition record, matching `FPFEditionRebuildabilityRecord`, selected complete pattern sources, and explicit replacement or insertion boundaries. Use one selection for the index and bodies, report source correspondence, and preserve every unselected predecessor span. Any identity, source, index/body, boundary, or preservation mismatch stops construction before an acceptance or publication claim. Repository filenames, commands, helper options, and template syntax remain in maintainer documentation or tool help rather than this reusable rule. |
-| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme introduces the ordinary entries and cross-pattern cards selected by the declaration in §4, returns unmatched questions to a finding aid, and applies E.11.PFP:4.3 to any coverage correction. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
+| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme introduces the ordinary entries and cross-pattern cards selected by the declaration in §4, applies E.11:4.1 and :4.4.1 to what the reader can obtain by following a plausible entry and gives a finding aid for the work still needed, and applies E.11.PFP:4.3 to any coverage correction. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
 
 ### E.4.FPF:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -100559,7 +100681,7 @@ Apply the `E.11` comparison to the same truthful content with and without a mant
 
 Keep one declaration for the product. It assigns every selectable example key exactly one ordinary-entry or card form. When the product selects cards, the declaration gives one measurable rule for compactness plus mantra and compact-card maxima. Authors, builders, and validators use that same declaration and the shared visible grammar from `E.11.PFP`. A product may select no cards when locators, ordinary entries, or direct guide answers already support reliable choice and return; it then carries no card-form burden.
 
-Use examples selected for that product's readers and recurring questions. Return unmatched questions to the product's index, guide, search, or direct patterns. Use F.19:4.4 to decide whether the reader also needs an explicit correction of a catalogue or coverage-boundary reading. When both simple direct use and extended cross-pattern use matter to adoption, show representative examples of both without turning every useful topic or pattern set into an entry.
+Choose examples for the product’s readers and their recurring questions. Apply E.11:4.1 and its practical-use check to the Readme as people will read it. Show how to take the question they bring into a direct method, how to recognize the part a displayed example can answer, and where to find the method for the remaining work. A reader with a sufficient answer can stop there. Use F.19:4.4 to decide whether the reader also needs an explicit correction of a catalogue or coverage-boundary reading. When both simple direct use and extended cross-pattern use matter to adoption, show representative examples of both without turning every useful topic or pattern set into an entry.
 
 Do not copy the FPF key inventory, card count, whitespace-token limits, or optional `@FPFReadme` records, and do not create a rival local card grammar or second key registry.
 
@@ -100892,7 +101014,7 @@ The second recurring drift is publication-carrier-first authoring. Publish after
 | CC-DPF.3c Accepted practice-architecture input | When professional Method coverage changes the architecture answer, one exact accepted `E.4.PFAD` answer projects five connected claim groups from its compact answer rather than creating a second record. Each bounded practice claim or promised contribution distinguishes existing practice from a proposal and states its supported, refuted or unresolved content; different statuses may coexist, and every selected question and DPF disposition names the claim or claims it consumes. Incumbent Work, development or trial Work, candidate-practice Work, A.13 agency claims, and public coverage retain separate status. For an obtaining Agent-performer claim, use A.13's core. A.15.1 independently admits actual Work. F.6 follows only for precise attribution through the same assignment. Require a characteristic profile only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use. A proposed-practice branch names any incumbent Work or Method, intended use, realization conditions and grounds appropriate to its claim. It plans a trial only when required or justified by a material evidence gap and attainable contribution; actual candidate-practice Work, Agents and coverage retain their separate admission and support conditions. A missing required group or binding returns a PFAD gap before authoring. `C.32.MWA` is used only for decision-relevant non-isomorphic structures. D1, D7, D8, and D12 preserve each claim's truth boundary; the same evidence enters the D1–D12 aggregate once, and D12 alone owns integrated coverage. Compact prose can pass, but a source map, fixed schema, fixed view set, second record, or second checklist cannot substitute for practice architecture, domain evidence, or package evaluation. |
 | CC-DPF.3d Support and adjacent-product decision | *Product* remains Plain management wording. Units kept inside the framework share its edition, declared readers and use, edition boundary, access, and change rule. Every separate adjacent result names its direct subject, exact edition or current state, independent use, intensional rule for what belongs, access, and any later-review or retirement condition that changes use. Any maintenance relation is stated only when it separately obtains and changes use. Programme wording names the arrangement or description, any provider System, maintenance relation, accepted commitment, or admitted service state that obtains; bounded Work and result epistemes remain separate. When a use requires one of these direct relations and it cannot be established, record the exact result under its governing rule or the applicable `A.6.RCD` blocker; reserve `missing-governor` for a missing governing rule. |
 | CC-DPF.3e Suite authoring | A Suite follows the composite-discipline architecture established through C.20, E.4:4.2 and E.4.PFAD. Its entrance and whole-level patterns explain actual connections between independently usable constituent DPFs, while external suppliers remain direct uses. The edition names its constituent editions and coverage limits. A Reference supports selection and return. It leaves any unwritten Method visible as a gap. Changes of field boundary or part relation reopen the architecture rather than being effected by a file move or local declaration. |
-| CC-DPF.3f Practical examples and card declaration | The product's one declaration assigns every selectable Readme example key one ordinary-entry or card form and one selectable occurrence. The Readme returns unmatched questions to the index, guide, search, or direct patterns and applies §4.0.2 to any additional coverage correction. Each card passes `E.11`'s same-content-without-mantra test, preserves a real path through several direct pattern contributions, uses the product's measurable mantra/card guard, applies `E.11.PFP`, and returns to the direct patterns. A plausible direct entry is checked under the same test. Locators, local reminders, Readme card mantras, expansions, and CGUS demonstrations remain distinct, and no FPF example set or limits are copied as the common rule. |
+| CC-DPF.3f Practical examples and card declaration | The product's one declaration assigns every selectable Readme example key one ordinary-entry or card form and one selectable occurrence. Under §4.0.2 the Readme lets the reader keep the question they brought, use the relevant result of an example and reach the direct methods for an outstanding question. It applies F.19:4.4 when a further coverage correction is useful. Each card passes `E.11`'s same-content-without-mantra test, preserves a real path through several direct pattern contributions, uses the product's measurable mantra/card guard, applies `E.11.PFP`, and returns to the direct patterns. A plausible direct entry is checked under the same test. Locators, local reminders, Readme card mantras, expansions, and CGUS demonstrations remain distinct, and no FPF example set or limits are copied as the common rule. |
 | CC-DPF.3g Pattern address and publication order separate | The DPF declares its stable reference code and local PatternID plan before public references accumulate. The same PatternID is retained only while the recurring problem, distinguishing working move, useful result, and ordinary conditions for use, stopping, or returning still describe the same practical answer. Numeric or mnemonic locators follow the stated use test. ToC and body order agree, current position is shown separately, and dependencies, Method relations, Parts, and work packages are not inferred from the identifier or its position. A planned row remains a non-addressable `PlannedCatalogEntry` until a complete pattern is admitted. A split, merge, replacement, retirement, or DPF-code rename gives readers either an accurate, maintained statement of where an old reference leads or an explicit stop; new patterns receive new unused PatternIDs. |
 | CC-DPF.4 Names prepared | Durable public names and abbreviations have `F.18` name-card work or are explicitly provisional source aliases. |
 | CC-DPF.5 Carriers and routes classified | For an architecture-evidence use, apply `C.33` to selected-structure recovery and `C.34` to an asserted structure-preservation comparison when each question is current. Apply `C.35` to the exact generated or discovered result intended to inform architecture work, stating what is established about its kind, the organization concerned and the status of the actual or proposed claim, including any unresolved basis, next-use condition, and limit and return. Each access route is identified separately from any artifact it returns and from actual access or use. Concrete implementations such as generated views, skill packs, services, endpoints, retrieval or search routes, and assistant integrations use the same distinction. |
@@ -100908,7 +101030,7 @@ The second recurring drift is publication-carrier-first authoring. Publish after
 | CC-DPF.15 Dependency description and branches | The description exists only for a named next authoring use. Its identity is the dependency ClaimGraph, current authoring WorkPlan EntityOfConcern, and effective ReferenceScheme; ClaimScope and optional model-use or grounding relations remain separate. Its minimum positions are FPF edition and source basis. The FPF position identifies the edition, and the next-use boundary identifies the Core claims required for the named authoring use. An optional framework-architecture-answer position cites the accepted answer and E.9 DRR only when that use needs them; no PFAD relation or record is required. Availability, acquisition condition, and next-use relevance follow the independent branches in 4.5. |
 | CC-DPF.16 Method, Work, result, edition, and publication separation | The authoring Method and this independently qualified MethodDescription, WorkPlan, each separately claimed dated authoring `U.Work`, every precise performer's A.13 core, independent A.15.1 admission, any current later F.6 attribution, any A.6.1 application, every result entity or direct relation and receiving use, framework episteme editions, EpistemeEditionRelation, package architecture, publication occurrence, form, carrier, and access use are independently recoverable through their defining predicates and evidence. |
 | CC-DPF.17 CGUS restraint | The numbered routes remain Plain guidance. Any claimed A.22.CGUS has independently recovered identity, constituents, obtaining relations, constraints, multiple admissible continuations, stops/returns, and a separate demonstrative episteme; imperative prose or a mantra is insufficient. |
-| CC-DPF.18 Assembled carrier checked | Before a carrier is called released, current, or ready for its declared use, the assembled publication follows the common framework publication form defined by `E.11.PFP`, agrees with the product's declaration of practical-example keys, forms, compactness measure and two limits, carries the entry guidance and unmatched-question return selected under §4.0.2, passes the `E.11` practical-use carry-through check, and passes the applicable `E.4.DPF.DA` package checks. An all-in-one Markdown publication exposes no build metadata as reader front matter, keeps major units or Parts at H1, pattern titles with PatternIDs at H2, canonical `E.8` sections at H3, and every deeper source distinction at a distinct deeper level. Source-body conformance and a successful build run do not substitute for checking the assembled carrier. |
+| CC-DPF.18 Assembled carrier checked | Before a carrier is called released, current, or ready for its declared use, the assembled publication follows the common framework publication form defined by `E.11.PFP`, agrees with the product's declaration of practical-example keys, forms, compactness measure and two limits, carries the route from the reader’s actual question through the entry and back to their work under §4.0.2, passes the `E.11` practical-use carry-through check, and passes the applicable `E.4.DPF.DA` package checks. An all-in-one Markdown publication exposes no build metadata as reader front matter, keeps major units or Parts at H1, pattern titles with PatternIDs at H2, canonical `E.8` sections at H3, and every deeper source distinction at a distinct deeper level. Source-body conformance and a successful build run do not substitute for checking the assembled carrier. |
 | CC-DPF.19 Claim placement and local wording | Apply `F.19` to the whole span for generic precise plain language. Domain claims, examples, role-shaped wording, Method claims, and refresh lines stay in the DPF patterns that use them. `E.10.ROLE` recovers any load-bearing role sense without choosing a system-role kind, assignment, or position from the word alone. A proposed transdisciplinary improvement returns through an FPF amendment decision. A domain wording entry uses the shared `E.10.ARCH` method and stays beside the affected DPF patterns. A separate profile is a claim-bearing episteme with a named maintained multi-entry use. If the profile is published in a table, the filled table expresses it and the reusable layout rules supply the publication form. |
 
 ### E.4.DPF:8 - Common Anti-Patterns and How to Avoid Them
@@ -101223,7 +101345,7 @@ When the declared package use includes accepted-source integration or continuity
 | Package-form check | Passing condition | Primary affected coordinates |
 | --- | --- | --- |
 | `PFM1 First-entry functions and order` | Before the pattern bodies, the exact all-in-one reader-facing framework has one search-oriented `Table of Contents`, one framework Readme that carries short public first-entry situations and practical first results, and one `<framework name> Architectural Reference` carrying the full account required by `E.11.PFP:4.7` and `E.11.DSG`, or consistently translated equivalents. A multi-file framework gives these units their selected discoverable places under `E.11.PFP`. Its section addresses use the `Reference` unit key under E.11.PFP:4.7.1; an old introductory label does not create another account. Every pattern row in the ToC exposes its PatternID and title plus at least one working-question locator: a `Use when` cue, query phrase, or discriminating keyword; any domain or local PatternID prefix discipline is stated where the namespace can be disambiguated; admission state and dependencies appear when they can change the choice. Together these units let the reader recover a recognizable working situation, practical question, first useful result or blocker, direct PatternID or small plausible set, and stop or wrong-turn return without reading support apparatus first. `Reader Guide`, `Pattern Index`, or another synonymous parallel unit fails this check unless it has a different job and returns to the ToC or Readme that provides the entry. Display order does not become a prescribed pattern-use order or require whole-account reading before a known direct pattern. | `D2`, `D5` |
-| `PFM1a Practical-example declaration and card value` | When the product publishes selectable practical examples, inspect its one key/form declaration and the actual Readme together. Every declared key has exactly one ordinary-entry or card occurrence, and no undeclared selectable occurrence or rival key list exists. The Readme gives a usable route for unmatched questions. Use `E.4.DPF:4.0.2` and `F.19:4.4` to decide whether the reader also needs an explicit correction of a catalogue or coverage-boundary reading. Every selected card passes `E.11`'s same-truthful-content-without-mantra comparison, uses the six fields in order, preserves a multi-pattern dependency within the product's mantra/card reading guard, returns to the direct patterns, and has at most one same-key expansion. Check at least one plausible direct example under the same use test. A zero-card result passes when smaller entries, locators, or guide answers support reliable choice and return. Syntax, length, topic inventory, PatternID count, or a historical heading proves neither card value nor product coverage. | `D2`, `D5`, `D7`, `D8` |
+| `PFM1a Practical-example declaration and card value` | When the product publishes selectable practical examples, inspect its one key/form declaration and the actual Readme together. Every declared key has exactly one ordinary-entry or card occurrence, and no undeclared selectable occurrence or rival key list exists. Use E.11:4.4.1 to judge whether a reader with their own question can recognize what a displayed example supplies and reach the method for any work still required. Use `E.4.DPF:4.0.2` and `F.19:4.4` to decide whether the reader also needs an explicit correction of a catalogue or coverage-boundary reading. Every selected card passes `E.11`'s same-truthful-content-without-mantra comparison, uses the six fields in order, preserves a multi-pattern dependency within the product's mantra/card reading guard, returns to the direct patterns, and has at most one same-key expansion. Check at least one plausible direct example under the same use test. A zero-card result passes when smaller entries, locators, or guide answers support reliable choice and return. Syntax, length, topic inventory, PatternID count, or a historical heading proves neither card value nor product coverage. | `D2`, `D5`, `D7`, `D8` |
 | `PFM2 Pattern-language primacy` | Pattern bodies remain the full action-guiding language. The complete architectural reference belongs in its `E.11.PFP` publication position, including the front matter of an all-in-one framework, with figures and tables needed to understand its explanation. Detailed lookup maps, source-use tables, relation records, edition notes and maintenance apparatus appear after pattern bodies or in appendices or support sections unless they are a short first-entry aid. | `D2`, `D5`, `D7` |
 | `PFM3 Map discoverability` | Every support map or appendix has at least one live entry route from ToC or readme, a pattern `Relations` section, low-value repair action, a condition that tells the reader when to revisit a source, or a package-refresh condition. A map that cannot be reached from work lowers package adequacy even if the map is correct. | `D2`, `D5`, `D10` |
 | `PFM4 Dependency direction` | The DPF may cite FPF Core and upstream DPFs or local frameworks on which it declares a dependency; FPF Core and the main monolith do not cite this DPF as required authority. If a DPF discovery belongs in Core, it returns through a Core amendment decision rather than a reverse dependency. | `D4`, `D5`, `D9` |
@@ -101238,7 +101360,7 @@ When the declared package use includes accepted-source integration or continuity
 
 `PFM1` owns practitioner entry, navigation, and the publication placement of the ToC, Readme and full architectural reference; it does not prescribe a reader's use order.
 
-`PFM1a` owns the product-native key/form declaration, the unmatched-question return and any warranted coverage correction, and the content judgement that a mantra materially improves each selected cross-pattern card while a plausible direct example remains sufficient without one.
+`PFM1a` owns the product-native key/form declaration, the return from an entry to the reader’s question under E.11:4.1 and any warranted coverage correction, and the content judgement that a mantra materially improves each selected cross-pattern card while a plausible direct example remains sufficient without one.
 
 `PFM12` owns the remaining common-form and edition-projection agreement.
 
@@ -109466,7 +109588,7 @@ The card is the publication unit. Its practical-use guidance is what it tells th
 
 When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
-The displayed entries illustrate how the pattern language can help. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+Start with the reader’s question about their own work. The displayed entries illustrate how the pattern language can help. An entry about a familiar activity can still answer a different question. Compare the result its method would supply with what this reader needs to decide, explain or do. Establish whose work the question concerns. Where the answer depends on composition, which parts and which whole does it concern? Where it depends on the model, which differences could change the answer or its grounds? Use C.39.QR:4.1 when a change in the question is hard to see. If the entry supplies just one needed contribution, take that result back to the original question. A general argument within one example can already settle it. Give a direct locator when the reader needs a known section. During open exploration, an example may help the reader form a question for the first time. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
 
 The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
@@ -109700,7 +109822,7 @@ Where an exact row is used, it carries one result template or public blocker. It
 
 #### E.11:4.4.1 - Practical-use carry-through check
 
-Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
+Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. Read the question the prospective user brings beside the outcome of following the entry. An entry can provide a complete answer, a useful part with a way back to the larger task, or a reason to look elsewhere. Check whether the reader can tell which applies when the topic still sounds familiar but the requested work has changed. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
 
 For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`.
 
@@ -110052,7 +110174,7 @@ Return to causal support if the estimand, causal rung, identification, realizabi
 | `E11-8` | Author and reader separation | An FPF author or maintainer publishes or refreshes the guidance; a practitioner, manager, or assisting agent reads it and opens a direct pattern without becoming the publisher. |
 | `E11-9` | Plain architectural explanation and local recognition | The architectural reference gives ordinary engineering meaning before strict FPF terms and explains cross-pattern ideas without becoming an index; each pattern's `Problem frame` keeps its own local recognition and first action. |
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, compact locators, and retrieval remain finding aids. A selected card carries practical-use guidance; every substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
-| `E11-11` | Representative public examples | Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help and returns unmatched questions to the index, guide, search, or direct patterns. Any additional coverage correction follows F.19:4.4; an actual product-coverage claim needs its own basis. |
+| `E11-11` | Representative public examples | The reader can judge the entry against the question they brought under §4.1 and §4.4.1. Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help and returns unmatched questions to the index, guide, search, or direct patterns. Any additional coverage correction follows F.19:4.4; an actual product-coverage claim needs its own basis. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, architectural-reference, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
 | `E11-13` | Architectural-reference entry and direct-use bypass | A question about a framework, Suite or Library whole can use its E.11.DSG architectural reference with full source returns; a known sufficient contribution remains directly usable. A Suite entry distinguishes its C.20-grounded constituent subdisciplines from outside suppliers. It does not invent disciplinary membership or imply that a MethodDescription is already an obtained result. |
 | `E11-14` | Honest card selection and distinct objects | Each declared card passes the same-content-without-mantra comparison, and at least one plausible direct entry is checked against the same test. Every card retains a real cross-pattern dependency; local reminders remain outside card selection. Card unit, published guidance, semantic key, selected form, optional expansion, direct pattern, ordinary walkthrough, and independently admitted CGUS demonstration remain distinct. |
@@ -111362,9 +111484,9 @@ Ordinary relation, source-return, maintenance, and reference tables may cite Pat
 
 Start the Readme body with `## Practical entries`. The product maintains one declaration for every selectable example and assigns each key exactly one public form: ordinary practical entry or Practical-Use Card. Each declared key occurs once, at H3 for an ordinary entry or at H4 for a card. A compact locator may precede or follow these examples, but it is a finding aid rather than another editable entry set.
 
-The Readme explains what its selected examples help the reader do. Use F.19:4.4 to decide whether a catalogue or coverage-boundary reading also needs an explicit correction. The Readme tells the reader to bring the actual question and to use the product's index, direct patterns, or another finding aid when no example fits.
+The Readme explains what its selected examples help the reader do. In the opening, invite the reader to start from the work and question they bring. Apply E.11:4.1 when showing how to use an entry, including one that sounds familiar but answers only part of the question. Keep the index, direct patterns or another finding aid available. Use F.19:4.4 when the reader also needs help interpreting the scope of the catalogue.
 
-Tell readers that they can ask an assisting agent for explanations and comments in ordinary language, without the framework's specialist vocabulary. For example: “Explain this and give me your comments in ordinary language, without framework jargon.” Clear wording is the default under `F.19`; the request helps the assistant adapt its wording to the reader.
+Tell readers that they can ask an assisting agent for an explanation or comments in ordinary language. For example, a reader commissioning a method could ask, “I need to decide who will design this way of working. Explain how the method helps me make that decision and which choices the worked case has already made.” Adapt the wording to the reader’s own question and work under F.19.
 
 The selected examples should make two uses visible without implying that every question belongs to either displayed case:
 
@@ -123368,7 +123490,7 @@ Typical operation families are specification articulation, task decomposition, c
 
 #### E.23:4.6 - Cost and BLP discipline
 
-`C.19.1` governs the preference for broad, scale-amenable methods when safety, admissibility, and practical fitness are comparable. `E.23` uses that preference but does not assume that accepted-work cost is one number. Compare material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales. Keep the components separate, reject a dominated option, and use the declared project policy to choose or hold when no option dominates.
+Use `C.19.1` when the decision relies on a scale advantage or an adopted preference for general methods. Establish the advantage for the intended tasks and resource settings, or apply the preference under its stated conditions. Compare material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales. Keep the components separate. Establish which options satisfy the binding conditions for the intended result. Exclude an option on grounds of dominance only if an eligible rival dominates it under the governing comparison. Use the declared project policy to choose or hold among the remaining alternatives.
 
 Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Until then, avoided loss is a separate project estimate rather than a quantity subtracted from concrete burden. A justified avoided loss can still make an expensive loop preferable. For a simple object, a direct edit or adjustment, small repair, lower-cost performer, specialized cycle, or one-shot evaluation can remain the better option.
 

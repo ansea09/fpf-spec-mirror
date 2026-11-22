@@ -6,12 +6,12 @@ section_id: "B.1.6:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__010_bias-annotation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6.1 — Bias-Annotation"
-line_start: 45090
-line_end: 45099
+line_start: 45108
+line_end: 45117
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,6 +47,6 @@ keywords:
 | Plan becomes evidence of actual use | Expected resource use is presented as evidence of performed resource use. | Keep the plan, any claimed dated Work, the value-attribution basis and the B.1.6 result distinct. |
 | Boundary or phase word carries accounting | A port, interface, team, device, epoch or phase label is used as Work parthood, overlap or accounting boundary. | Establish the accounting scope, time basis and operative rule, together with any delimitation, Work relation, carrier identity/PhaseOf, crossing or stock relation on which the account depends. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until a conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
-| A resource contribution is double-counted | The same resource use, stock portion or attributed contribution is counted more than once. | Establish the repeated contribution and apply a justified allocation or deduplication rule, or restrict the result to the supported account. |
+| A resource contribution is double-counted | The same resource use, stock portion or attributed contribution is counted more than once. | For an exact total, account for the repeated contribution. For a threshold decision, use a sufficient bound valid for all overlaps still possible. Use the applicable allocation rule if shares are requested. |
 | Efficiency becomes proof of a new whole | Reduced resource use is treated as proof of a new whole. | Use measurement and evidence-use patterns for the gain; use `B.2` when whole identity remains the question and `B.2.P` for unresolved emergence-family wording. |
 

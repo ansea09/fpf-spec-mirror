@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
-line_start: 57549
-line_end: 57725
+line_start: 57657
+line_end: 57835
 dependencies:
   - "A.1"
   - "A.11"
@@ -109,7 +109,9 @@ The kind does not carry scope. A `KindSignature` episteme may carry its own `U.C
 
 Use the lightest object that answers the current typed-reasoning question.
 
-First identify what the sentence lets the recipient do. “Repair this stool” designates an item. For this catalogue, suppose a stool is a seat designed for one person, with neither back nor arms. To classify a seat, inspect those features. To count stools in the May delivery, identify its units and apply the catalogue criterion to each. A list of two confirmed stools settles the total only if the delivery inventory and classifications account for every possible member. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. A membership claim about a kind, identification of an individual and inclusion in such a family require their own grounds. A catalogue row or plural noun can help locate the question. Neither supplies those grounds by itself. F.19:4.3.1 explains how to retain the distinction in working prose.
+Identify what the term must pick out for the work the recipient is doing. “Repair this stool” designates an individual item. For this catalogue, a stool is a seat designed for one person, with neither back nor arms. Those features settle classification under the agreed rule. For a delivery count, establish what counts as one delivered unit. If a complete delivery contains ten seats and exactly two fall outside the stool criterion, the total is eight. Naming those eight also requires grounds for their identities. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. An individual, a design and a kind have different identity criteria. A catalogue row or a plural noun may refer to any of them. Establish what it denotes before using it as evidence of membership.
+
+When choosing the classification is your task, work back from the receiving use. A buyer ordering replacement fittings may need to distinguish two catalogue stools that take different fittings and group a compatible chair with one of them. Try cases on both sides of the proposed distinction. Keep the conditions that change the order or its required justification. Use the existing catalogue kind directly for a request stated in its terms. F.19:4.3.1 explains how to retain the distinction in working prose.
 
 1. **Recover the kind.** Name the candidate domain and the operative membership distinction: what an intended member must satisfy and what separates a relevant non-member. Record the continuity rule used when that distinction changes. Keep practice/source provenance as a cue to compare definitions, not as an automatic identity key. Do not store the current use, ClaimScope, context slice, or reference scheme on the kind.
 2. **Use C.3.1 for subkind and continuity.** A `U.SubkindOf` fact obtains through exact criterion entailment under an aligned interpretation or through exhaustive evaluation over a deliberately closed finite domain. The facts form a preorder. Opposite facts between distinct kinds may express classification equivalence for that applicability; a consumer may order the resulting equivalence groups without identifying the kinds.

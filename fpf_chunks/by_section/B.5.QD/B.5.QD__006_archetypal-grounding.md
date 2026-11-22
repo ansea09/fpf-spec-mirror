@@ -6,12 +6,12 @@ section_id: "B.5.QD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:5 — Archetypal Grounding"
-line_start: 51479
-line_end: 51518
+line_start: 51567
+line_end: 51606
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -37,7 +37,7 @@ The next question is: **For a given finite simple undirected graph, can we const
 
 B.5:5.1 supplies the broader construction. Traverse each component by breadth-first search and assign groups by even or odd depth. If every edge joins opposite parities, the assignment works. An edge joining equal parities combines with the two parent paths up to their last shared vertex to give a simple odd cycle. The construction therefore answers the new question for the stated graph class.
 
-The earlier connectedness requirement can be dropped: work through each component, including isolated vertices. For an allocation, establish that the graph represents the relevant pairwise incompatibilities. Three-way constraints would change that application question.
+The new procedure also works on disconnected graphs by treating each component, including isolated vertices. For a real allocation, determine which combinations the graph rules out. A restriction on three items together can leave each pair permissible. The allocation question can then require a richer model. A two-colouring that satisfies all the actual restrictions still supplies a feasible allocation. A two-colouring that violates the triple restriction leaves open whether a different allocation works.
 
 #### B.5.QD:5.2 - From a position to a sufficient state or useful bound
 

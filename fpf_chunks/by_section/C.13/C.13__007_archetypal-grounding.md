@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 61020
-line_end: 61055
+line_start: 61132
+line_end: 61167
 dependencies:
   - "A.1"
   - "A.14"
@@ -47,9 +47,9 @@ Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-bo
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
-A theory episteme may use C.13 only after C.2.1 identifies the episteme and a direct episteme-part or claim-composition pattern identifies the constituent entities, the part relations that obtain, and the assembly and reidentification rule. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
+A theory episteme may use C.13 only after C.2.1 identifies the episteme and the direct semantic-part rule in A.14 and any applicable claim-composition rule identify its constituents, their integration and the assembly and reidentification rule. When the question is what their grounds support together, use B.1.3:4. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
 
-A composite method may use C.13 after B.1.5 or another direct method-composition pattern identifies submethods, whole-forming relations, constraints, and the whole-method reidentification rule. A dated work occurrence may use C.13 only after the direct work-mereology owner identifies work parts and whole-forming relations. Step labels, a recipe, work-plan items, a WBS, co-occurrence, or common performer do not supply those facts.
+A composite Method may use C.13 after B.1.5 or its direct Method-composition pattern identifies submethods, whole-forming relations, constraints and the whole Method's reidentification rule. For the operational parts of a particular performance, A.15.1:4.1a and B.1.5.EW:4 ask what work was done through each constituent. For instance, an inspection Method can permit either checking a current calibration certificate or performing a new calibration. If the inspector checked an existing certificate, that check belonged to the inspection Work. Whether the earlier calibration itself belonged to a larger Work depends on how that work was constituted. A recipe, plan, work breakdown or common performer can help locate the performance. Establish the actual part relation from the work performed.
 
 A discipline may use C.13 only after C.20 and its direct relation owners identify the constituent entities required by the case, the whole-forming relations that obtain among them, and the discipline identity or reidentification rule. Do not infer parts from C.20 card positions or from objects merely associated with the discipline. For example, a practice, organization or canon item enters a `sum` trace only when a direct part predicate independently obtains.
 

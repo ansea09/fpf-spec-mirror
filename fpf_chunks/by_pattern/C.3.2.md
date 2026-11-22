@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.2.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
-line_start: 57888
-line_end: 58129
+line_start: 57998
+line_end: 58239
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -128,7 +128,7 @@ Materialize `KindExtension(k, slice)` only when a named query, quantification, c
 
 - Pin the signature edition even though the compact name shows only `k` and `slice`.
 - State the candidate domain without inventing `U.EntitySet`.
-- Include each admissible candidate whose judgement is `true`. Their count answers “how many are confirmed?” To bound how many in the population could qualify, establish the complete inventory and account for every possible member. The lower bound is the confirmed count. For the upper bound add each remaining candidate whose membership has not been ruled out, including any still unevaluated. An `unknown` judgement records an inconclusive evaluation. An unevaluated candidate has no judgement yet. An incomplete inventory by itself supplies no finite upper bound for the whole population. An inadmissible request returns `not-applicable` without a judgement.
+- Include each admissible candidate whose judgement is `true`. Their number answers how many candidates have been individually confirmed. To answer a question about the population total, establish what bounds the number of members. In a complete inventory, confirmed members give one lower bound. Adding every other candidate whose membership remains possible gives one upper bound. These bounds can be loose. If exactly one of two identified units qualifies and the evidence leaves open which one, together they contribute exactly one. An established cap on the entire population can give an upper bound even when its inventory is incomplete. Use a sufficient bound for a threshold, and establish identities and coverage for a complete list. An `unknown` judgement records an inconclusive evaluation. An unevaluated candidate has no judgement yet. An inadmissible request returns `not-applicable` without a judgement.
 - Treat braces, rows, indexes, or database results as representations. They create neither a collection holon, A.14 membership occurrence, direct classification relation, nor criterion condition.
 - Use C.29 when interpretation, preservation or transfer of the represented set leaves a separate mathematical question. Otherwise finish the local calculation under the kind and query rules.
 
@@ -192,7 +192,7 @@ A `KindSignature` for `RegisteredSupplierKind` declares supplier candidates and 
 | --- | --- |
 | Vehicle and PassengerCar | Check candidate admissibility and use C.3.1's obtaining branch; a registry result is an extension representation, not `U.EntitySet`. |
 | AuthenticatedRequest | Name the standard and key-validity dependency. If the remaining facts do not settle authentication, an admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
-| AdultPatient | Pin jurisdictional threshold, measurement time, and candidate identity. A patient with missing birth support is `unknown`; a non-person value rejected by ValueKind is `not-applicable`. |
+| AdultPatient | Pin the applicable age threshold, date and candidate identity. With an inclusive minimum age, a supported lower bound at or above the cutoff establishes that condition. An upper bound below the cutoff rules it out. If the available evidence leaves both answers possible, its value is `unknown`. A non-person value rejected by ValueKind is `not-applicable`. |
 
 ### C.3.2:11 - Work Boundary
 

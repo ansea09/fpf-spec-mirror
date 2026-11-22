@@ -6,12 +6,12 @@ section_id: "E.3:11"
 section_title: "SoTA-Echoing — resolve rule conflicts and bind oversight to the action"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__012_sota-echoing-resolve-rule-conflicts-and-bind-oversight-to-the-action.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:11 — SoTA-Echoing — resolve rule conflicts and bind oversight to the action"
-line_start: 98339
-line_end: 98357
+line_start: 98461
+line_end: 98479
 dependencies:
   - "E.1"
   - "E.2"

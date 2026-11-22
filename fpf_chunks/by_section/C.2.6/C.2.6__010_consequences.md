@@ -6,12 +6,12 @@ section_id: "C.2.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:9 — Consequences"
-line_start: 56647
-line_end: 56649
+line_start: 56755
+line_end: 56757
 dependencies:
   - "A.10"
   - "A.16"

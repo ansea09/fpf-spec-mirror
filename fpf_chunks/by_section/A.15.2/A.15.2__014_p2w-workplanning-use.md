@@ -6,7 +6,7 @@ section_id: "A.15.2:8"
 section_title: "P2W WorkPlanning use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__014_p2w-workplanning-use.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:8 — P2W WorkPlanning use"

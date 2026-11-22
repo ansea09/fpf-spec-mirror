@@ -6,12 +6,12 @@ section_id: "C.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:intro — Intro"
-line_start: 60901
-line_end: 60916
+line_start: 61013
+line_end: 61028
 dependencies:
   - "A.1"
   - "A.14"
@@ -35,7 +35,7 @@ keywords:
 
 **Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, distinguish an aspect, or delimit a measured portion. Reuse an existing ordinary account when it already supplies those facts and their construction rule; the notation is optional.
 
-**First useful move.** Name the object whose construction or delimitation you must explain; then name the participants, the direct relations that obtain, and the construction or delimitation rule. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
+**First useful move.** Start with the construction or delimitation the recipient needs explained. When its extent needs choosing, use the relation the question concerns. In an assembly, vary how the same parts are arranged or how a part is used in its enclosing whole. For a collection or a measured portion, consider how a change in membership or boundary would affect the answer. Follow the relevant relation as far as the conclusion or its required grounds depend on it (C.39.SA:4). Once the relevant participants and relations are established, state the construction or delimitation rule. Use `sum`, `set`, or `slice` where the notation helps.
 
 **What goes wrong if missed.** A readable component, belongs-to, or aspect statement may lack its construction account; or the opposite mistake occurs and a diagram, list, or `Γ_m` expression is treated as if it created a whole, a relation, or a holon.
 

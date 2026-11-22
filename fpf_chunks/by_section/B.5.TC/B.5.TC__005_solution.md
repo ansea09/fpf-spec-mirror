@@ -6,12 +6,12 @@ section_id: "B.5.TC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:4 — Solution"
-line_start: 51201
-line_end: 51273
+line_start: 51289
+line_end: 51361
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -37,7 +37,7 @@ Say what you want to explain, predict, construct or decide, and what would count
 
 Keep the account and its proposed use separately visible. Comparing a theory's possible reach with a rival's implemented calculation is a comparison of unequal contributions. Either construct the relevant application of both or state which contribution is unavailable. An unavailable application can be a reason to use another account while retaining the first for development.
 
-If the accounts answer different questions, identify their shared question, if any. For the remaining questions, compare their usefulness as complementary contributions. A newly expressible question can be a valuable result: explain what inquiry it opens and why that inquiry matters. B.5:4.4 connects this result to problem development.
+If the accounts answer different questions, identify any shared question and ask what its answer supplies for the work in hand. They may agree about what was observed while supporting different decisions about a proposed change. Compare the remaining contributions for those uses. In open research a new question can be worth pursuing for what it makes possible. If an earlier question is still assigned, state what the comparison establishes for it and which part remains open. B.5:4.4 connects this result to problem development.
 
 #### B.5.TC:4.2 - Recover an application of each account
 
@@ -51,11 +51,11 @@ A collaborator or tool can supply a calculation or proof. Recover the interpreta
 
 #### B.5.TC:4.3 - Work the same case and align the answers
 
-Choose a small case that exercises the disputed operation or distinction. Give each account the corresponding inputs, derive its answer, and express the answers in the terms of the question. Explain the correspondence when the inputs or outputs have different forms.
+Work with the actual situation or a smaller case that retains the disputed operation or distinction. Give each account the corresponding inputs, derive its answer and express it in the terms of the question. Explain the correspondence when the inputs or outputs take different forms.
 
 For a mathematical application, compare the retained distinctions and operations. C.29.1 supplies the preservation argument when a result is to be transferred. For a physical application, keep the phenomenon, operating conditions and meaning of the predicted quantity aligned. For a computation, separate the mathematical formulation from approximation, numerical tolerance and execution.
 
-Begin with an understood case so a transcription or implementation error can be found. Then use a changed case that exercises the claimed difference: a shared resource, a constraint, an intervention or another relevant variation. Derive a general relation when the intended conclusion ranges beyond the cases. A finite example establishes its result; a counterexample can refute a general assertion whose premises it satisfies.
+Use a familiar case when it helps locate a transcription or implementation error. To investigate a difference, choose a case on which it matters and explain why. For a conclusion spanning cases, identify the dependence that carries it through the claimed range. One derivation for an arbitrary member can establish agreement there. One admissible counterexample can settle a claim of agreement everywhere. Where the question concerns only the given case, its sufficiently grounded result can finish the comparison.
 
 Agreement of reported numbers is informative only after their meanings and conditions are aligned. Conversely, different intermediate objects can lead to the same answer through an explained correspondence. Record only the derivation or explanation the receiving use needs.
 

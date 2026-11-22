@@ -6,12 +6,12 @@ section_id: "B.5.2.0:13"
 section_title: "Worked Prompt Species"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__015_worked-prompt-species.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:13 — Worked Prompt Species"
-line_start: 52316
-line_end: 52339
+line_start: 52410
+line_end: 52435
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -58,6 +58,8 @@ Continue the constructed service case in §13.1. The question asks what explains
 New contention logs can support one rival more strongly while the latency question stays unchanged. An assertion about that new support can belong to a revised account, or to a separate evidence account linked to the unchanged prompt. Determine which content changed.
 
 If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
+
+For an operator who asked whether the service slowed in that interval, the corrected measurement supplies the answer. For an inquiry into recurring false alarms, determine which other reports the same account could explain and on what grounds. A team commissioned to discover improvements to monitoring may select the discrepancy itself as its next question.
 
 The reporting question and a question about an actual slowdown in another service can be expressed in accounts that use the same `AnomalyStatement` layout. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
 

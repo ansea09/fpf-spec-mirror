@@ -6,12 +6,12 @@ section_id: "C.19.1:3"
 section_title: "Conformance Checklist (CC-BLP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__005_conformance-checklist-cc-blp.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:3 — Conformance Checklist (CC-BLP)"
-line_start: 64679
-line_end: 64691
+line_start: 64788
+line_end: 64800
 dependencies:
   - "A.0"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 3. A performed comparison uses parity, current editions, explicit uncertainty, material resource and safety accounts, and lawful Pareto or declared policy operations.
 4. The evidence method fits the bearer. Compute/data sweeps, seeds, bootstraps, and factorial or Latin-hypercube designs appear only when they answer the claim.
 5. A comparison that establishes equivalence or a trade-off, and a comparison whose evidence cannot yet settle dominance, each records its own conclusion. A subsequent choice by local policy names the condition that the policy covers.
-6. A waiver identifies the policy it overrides, rationale, admitted review System, responsibility relation or missing governor, and expiry or review window.
+6. A BLP‑2.1 waiver identifies the policy it overrides, rationale, admitted review System, responsibility relation or missing governor, and expiry or review window.
 7. A live Heuristic Debt entry meets the bounded `BLP-4` trigger; ordinary local tactics create no debt record.
 8. Prescription architecture and adaptation policy are routed through their direct patterns rather than reported as consequences of BLP.
 9. An actual durable audit is exported to `G.11`; a bounded-use or no-claim exit is not padded into an audit artifact.

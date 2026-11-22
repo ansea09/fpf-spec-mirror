@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__016_position-publication-package-discipline.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 55494
-line_end: 55505
+line_start: 55602
+line_end: 55613
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,7 +51,7 @@ An account of a chart position identifies the episteme publication, the decision
 Minimum self-check:
 
 1. Does the account name the positioned episteme publication rather than a ground, form, face, or carrier?
-2. Does it state every facet that can change the named next action and mark a relevant unknown as unknown?
+2. Does it state every facet that can change the named next action and mark a relevant unknown as unknown? Does it preserve the combinations on which the action depends?
 3. Are the grounds and any relied-on local threshold recoverable?
 4. Does the account supply the position facts needed by the receiving question and, if a local threshold is used, say whether the readings meet it, fail it or leave the result undecided, while the receiving pattern governs the action?
 5. If the use depends on distinct local meanings, was F.9 tested on the two exact local senses rather than inferred from similar wording?

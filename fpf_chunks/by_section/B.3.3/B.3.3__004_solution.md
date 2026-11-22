@@ -6,12 +6,12 @@ section_id: "B.3.3:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__004_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:3 — Solution"
-line_start: 47135
-line_end: 47178
+line_start: 47177
+line_end: 47224
 dependencies:
   - "A.10"
   - "B.3"
@@ -19,17 +19,11 @@ dependencies:
   - "B.3.5"
   - "C.28"
 keywords:
-  - "assurance profile"
-  - "conceptual correspondence"
-  - "constructive support"
-  - "empirical validation"
-  - "use-qualified assurance"
-  - "verification"
 ---
 
 ### B.3.3:3 - Solution
 
-Use B.3 to identify the target claim and receiving assurance use. Determine which uncertainty or possible failure matters to that use, then examine the support that bears on it. State the supported or narrowed conclusion and the limitations that change reliance. A result need not carry an `AssuranceLevel`.
+Use B.3 to identify the target claim and receiving use. Ask what could make the proposed conclusion fail. Follow that possibility to the correspondence, inference or observation that can resolve it. A single applicable argument can settle the use. For a decision requiring several contributions, check that their subjects, conditions and conclusions fit together. A result can be given without an `AssuranceLevel`.
 
 #### B.3.3:3.1 - Assurance subtypes answer different questions
 
@@ -47,9 +41,11 @@ Terms such as `FV`, `EV` or `CL` can be used only with the bearer, scale and int
 
 A domain may define an assurance profile or ordered levels when a recurring receiving decision benefits from that comparison. Its definition states the claim class and use, conditions, meaning of any levels used, evidence rules, the basis for any thresholds, and reconsideration conditions. State the measure and its scale where a threshold is used.
 
-Where levels are ordered, establish that ordering from their meanings; the numerals in `L0–L2` supply no ordering of trust across unlike uses.
+To design such a profile, take the actions its recipients must distinguish and work back to what would justify each. Hold the apparent level fixed and change the subject, the part tested or the conditions of operation. Would the same level now warrant a different action? Retain the difference in the criteria or limit their applicability. Select the grounds for meeting each criterion, including alternative sufficient arguments where the decision permits them. Ask which cases the proposed rule could accept despite a missing condition and which sufficiently supported cases it would exclude. A general argument can settle either question. Adjust the rule to the intended use or retain an exclusion required by that use.
 
-Publish `AssuranceLevel` only with the applicable profile and a result showing why the target meets its criteria. The legacy names `Unsubstantiated`, `Substantiated` and `Axiomatic` do not supply default criteria. In particular, an axiomatic or constructive justification concerns a consequence or construction, not a universally higher assurance state than empirical support. A conjecture's origin in abduction likewise does not assign it `L0`.
+Where levels are ordered, establish the ordering their meanings promise. If one level is said to support every use allowed by another, establish that implication across the applicable conditions. A narrower operating range with better accuracy need not contain a wider range with looser accuracy. State what each qualifies when the uses differ.
+
+To assign or endorse an assurance level on its merits, apply the profile and show how the evidence meets its criteria. To report the level an authority actually assigned, identify the decision, the designation or profile it used and its scope. An error in applying the criteria can change what the assignment warrants while the historical fact of assignment remains established. The legacy names `Unsubstantiated`, `Substantiated` and `Axiomatic` do not supply default criteria. In particular, an axiomatic or constructive justification concerns a consequence or construction, not a universally higher assurance state than empirical support. A conjecture's origin in abduction likewise does not assign it `L0`.
 
 Examine whether a demanded threshold or evidence requirement protects the relevant quantity well enough to justify its cost, delay and displaced work. Keep that judgement distinct from the conditions binding the action. A recommendation to amend a requirement does not change it or confer amendment authority.
 
@@ -57,7 +53,7 @@ For a one-off receiving use, stop with the sufficient qualified assurance result
 
 #### B.3.3:3.3 - Preserve scope and inspect the grounding
 
-Keep a design-time `MethodDescription` claim separate from a claim about performed `Work` or its `Trace`. Cite evidence with the appropriate conditions and scope. Evidence for a parent claim covers a child claim only through an argument establishing that coverage; a declaration of inheritance is insufficient.
+A claim about a design-time `MethodDescription` and one about performed `Work` or its `Trace` have different subjects. For an inference across composition scales, identify the relation the receiving claim uses. A condition established for every operating mode applies to a specified mode within that range. A rate for the whole constrains its parts to the extent their sizes and overlap permit. If passing and failing exhaust the outcomes on this criterion and at most two of 100 distinct readings failed, at least eight of any ten of those readings passed. Conversely, two groups of ten can each report nine passes yet share the same nine passing readings and have different failures. Their combined set then has nine passes among eleven readings. Establish the coverage and common conditions needed for the conclusion in the chosen direction.
 
 State structural claims as readable Working-Model relations. When a publication choice or current requirement elects B.3.5's CT2R-LOG profile, follow its relation-specific grounding: structural parthood uses the applicable C.13 `sum` or `slice` construction trace; collection belonging uses the collection's `set` trace. These elected branches declare `validationMode=axiomatic`. Other permitted relation claims retain their applicable logical or empirical support. A level label alone does not elect this profile.
 
@@ -70,4 +66,6 @@ A team is deciding whether a converter can be used for non-safety-critical measu
 Now replace that basis with a newly passed boot test and a glossary mapping. These establish startup behaviour and the intended term correspondences, not measurement accuracy. The same requested measurement use remains unsupported. Neither fresh evidence nor one link of each required type repairs the missing performance basis.
 
 If the recipient instead needs a mathematical invariant, inspect the proof under its assumptions. If the application introduces a protective function or a different operating range, reopen the affected assurance question under its threshold and evidence rules. The earlier limited result remains an account of what it supported.
+
+To design a profile for later converter assignments, recover what each recipient uses the measurement to decide. An offset that stays the same in two readings cancels in their difference. The same offset can decide whether an absolute limit has been crossed. Develop criteria for the quantity being accepted and the operating conditions that could change its error. Applying the existing 2% criterion remains sufficient for the original assignment when its grounds still hold.
 

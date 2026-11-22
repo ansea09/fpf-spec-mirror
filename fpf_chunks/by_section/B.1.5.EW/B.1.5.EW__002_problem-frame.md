@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:1 — Problem frame"
-line_start: 44360
-line_end: 44369
+line_start: 44370
+line_end: 44379
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -26,7 +26,7 @@ keywords:
 
 Use this pattern when you need to understand, perform, teach, divide or change a way of working and cannot yet explain how its constituent actions perform the encompassing work. A person knows each movement but loses the partnered dance. A team improves a calculation but no longer obtains a usable engineering answer. A description lists stages, yet the reader cannot tell what larger work is being done through the present action.
 
-Start with one action and ask: **“What am I doing through this action now, and what makes it part of that work?”** Then recover the constituents needed to perform it and the conditions of the encompassing work that affect it.
+Start from the work the recipient needs to explain, carry out or change. If the question starts from an action, ask what encompassing work is being done through it and how. If it starts from a delivery, an ongoing service or a shared performance, work back to the actions that constitute it and to the contributions it receives from elsewhere.
 
 The first useful result is an explanation you can use: the selected action, its relevant constituents and encompassing work, the connections that make the whole possible, and any difference that requires changing the action or its organization. A short demonstration can supply this result. A retained diagram or record is useful only when someone needs it later.
 

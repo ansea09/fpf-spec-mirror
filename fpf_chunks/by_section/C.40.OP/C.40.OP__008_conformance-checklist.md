@@ -6,12 +6,12 @@ section_id: "C.40.OP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:7 — Conformance Checklist"
-line_start: 92898
-line_end: 92911
+line_start: 93020
+line_end: 93033
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

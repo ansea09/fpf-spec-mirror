@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:4 — Solution"
-line_start: 44561
-line_end: 44615
+line_start: 44571
+line_end: 44625
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -34,9 +34,9 @@ Keep a proposed replacement separate from one already performed. Use A.3.1 to se
 
 #### B.1.5.RS:4.2 - Recover the receiving wholes
 
-Identify the encompassing Methods or work arrangements whose use can change. Follow an indirect use through the intermediate whole while it affects the decision. Include a second receiving use when the constituent is shared; local success in the first use does not by itself establish compatibility with the second.
+Follow the proposed change to each receiving use covered by the decision. An indirect use can matter even if an intermediate whole returns the same value, for instance when its timing or explanation changes. For a change restricted to one use, establish any consequences for others through resources, commitments or interfaces shared with it. For a wider adoption claim, establish which uses are covered and why the argument applies throughout that scope.
 
-This is a search bounded by the intended replacement. If the users cannot be recovered, restrict adoption to the known uses or return the missing use information that prevents a broader decision. Do not require an inventory of all imaginable uses.
+Bound the search by the proposed adoption and its conditions. An interface rule that guarantees every required contribution can cover a class of unnamed users. If an uncovered use could alter the decision, restrict the adoption to the supported scope or obtain the missing condition.
 
 For each whole, recover:
 
@@ -55,23 +55,23 @@ Choose an argument, available observations, calculation or trial that can discri
 
 When an approximation is proposed, state the property preserved for the receiving use: a bound, ordering, feasible action, specified error or other needed consequence. Equal rounded answers on one example do not establish preservation of a different property.
 
-If the same implementation must serve several wholes simultaneously, examine their joint demands. Separate success under incompatible settings is not one shared implementation. Compare retained variants or changed coordination where that is useful.
+When one replacement must support several uses, follow their permitted combinations over the relevant period. Two uses can exhaust the same finite supply even in succession. A single configuration may work for all of them, or a choice by the authorized participant may depend on information available before the commitment. Establish that the proposed arrangement meets the shared and individual requirements under those conditions. If only one specified use is commissioned, test the dependencies needed for that use.
 
 #### B.1.5.RS:4.4 - Classify the replacement by use
 
 | Comparison result | What can follow |
 | --- | --- |
-| The needed contribution and conditions are preserved. | Adopt the replacement for that use at the supported scope. |
-| Preservation holds only under a narrower condition. | Restrict use to that condition and retain a suitable alternative elsewhere. |
+| The needed contribution and conditions are preserved. | Report that the replacement is compatible with that use under the established conditions. |
+| Preservation holds only under a narrower condition. | Identify the condition of compatibility and the uses requiring another solution. |
 | An adapter or changed combination can restore the needed contribution. | Treat that adaptation as part of the candidate and check its burden and behavior. |
 | A required contribution is lost. | Reject the replacement for that whole, change the requirement through the relevant decision, or choose another candidate. |
-| Information does not distinguish compatibility from failure. | Keep the uncertainty bounded and obtain more only if it can change a worthwhile next action. |
+| Information does not distinguish compatibility from failure. | State what the supplied evidence establishes and which condition would decide compatibility. Seek further evidence when the decision warrants that inquiry or when obtaining the evidence is itself commissioned. |
 
 This is a directed conclusion. Replacing A by B in one use does not show that A can replace B, that they are the same Method, or that B is preferable in all uses.
 
 #### B.1.5.RS:4.5 - Adopt or retain alternatives
 
-Choose at the supported scope, accounting for adaptation, learning, operation and maintenance costs. Retain separate variants when their different strengths justify the burden; a universal replacement is not required.
+If you are commissioned to recommend or choose an alternative, compare the compatible options at the supported scope, including adaptation, learning, operation and maintenance costs. Separate variants can be worthwhile when their different strengths justify their cost. The person with authority over adoption decides whether and when to introduce the chosen replacement.
 
 For an ongoing operation, use its ordinary rules for introducing change and retaining continuity. State the condition that would require reconsideration: changed inputs, another receiving whole, a tighter timing limit, lost support or a newly relevant result property.
 

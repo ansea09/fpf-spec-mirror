@@ -6,7 +6,7 @@ section_id: "A.6.P.WMR:End"
 section_title: "A.6.P.WMR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__014_a-6-p-wmr-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:End — A.6.P.WMR:End"

@@ -6,12 +6,12 @@ section_id: "C.39.RP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 89094
-line_end: 89103
+line_start: 89216
+line_end: 89225
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

@@ -6,12 +6,12 @@ section_id: "C.39.WI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:9 — Consequences"
-line_start: 88873
-line_end: 88878
+line_start: 88995
+line_end: 89000
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

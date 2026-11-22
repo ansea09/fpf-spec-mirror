@@ -6,12 +6,12 @@ section_id: "C.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:intro — Intro"
-line_start: 53265
-line_end: 53290
+line_start: 53369
+line_end: 53394
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 
 **Use this when** you need to combine epistemes for a claim and intended use, or determine what an epistemic change or proposed substitution preserves.
 
-**First useful result.** Identify the claim and intended use, and recover the contributing epistemes or the source and proposed result of the change. Establish the scope, support dependencies and preservation conditions needed for the conclusion. Return the justified synthesis or change assessment, including any unresolved condition. An adequate synthesis need not have a common numerical R. Apply the F–G–R assessment or CL substitution conditions when the receiving operation uses them. If the question is only which episteme is meant, C.2.1 can suffice; identification or publication alone does not require a KD-CAL assessment.
+**First useful result.** Start with the conclusion the recipient needs for the intended use. For a synthesis, work back to the premises and connections that could warrant that conclusion (B.1.3:4.4). A separate claim about each part can need different grounds from a claim about what those parts can do together. When choosing the parts or models is itself at issue, use C.39.SA:4 to decide which distinctions to retain. For a proposed change, recover its source and proposed result. Establish the scope, support dependencies and preservation conditions needed for the conclusion. Return the justified synthesis or change assessment, including any unresolved condition. An adequate synthesis need not have a common numerical R. Apply the F–G–R assessment or CL substitution conditions when the receiving operation uses them. If the question is only which episteme is meant, C.2.1 can suffice; identification or publication alone does not require a KD-CAL assessment.
 
 **Scope & exports.** A substrate-neutral calculus for composing **epistemic holons** (`U.Episteme`) and reasoning about their change and equivalence.
 

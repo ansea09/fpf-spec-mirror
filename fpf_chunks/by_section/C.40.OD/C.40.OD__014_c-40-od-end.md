@@ -6,12 +6,12 @@ section_id: "C.40.OD:End"
 section_title: "C.40.OD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__014_c-40-od-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:End — C.40.OD:End"
-line_start: 93521
-line_end: 93522
+line_start: 93643
+line_end: 93644
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

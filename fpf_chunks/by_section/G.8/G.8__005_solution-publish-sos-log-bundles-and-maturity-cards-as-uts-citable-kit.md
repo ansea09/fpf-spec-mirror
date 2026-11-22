@@ -6,12 +6,12 @@ section_id: "G.8:4"
 section_title: "Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__005_solution-publish-sos-log-bundles-and-maturity-cards-as-uts-citable-kit.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:4 — Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
-line_start: 139751
-line_end: 139956
+line_start: 139873
+line_end: 140078
 dependencies:
   - "A.10"
   - "A.21"

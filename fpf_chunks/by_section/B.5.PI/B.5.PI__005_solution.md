@@ -6,12 +6,12 @@ section_id: "B.5.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:4 — Solution"
-line_start: 52864
-line_end: 52941
+line_start: 52964
+line_end: 53043
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -35,7 +35,9 @@ Select a bounded occasion that does not depend on someone first reporting troubl
 
 Choose an occasion with some prospect of a useful comparison: a consequential decision, a result passed to another person, a recurrent activity whose effort is poorly understood, or an available contrasting case. A small agreed sample can expose something that reviewing only failures would miss. Do not require every occurrence to undergo this examination. Keep the immediate work and its constraints in view.
 
-A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If access to the result, its use or an attentive participant is unavailable, identify that missing contribution rather than claim that inquiry has begun.
+Choose the occasion in light of what you have been asked to find. One handover can yield a worthwhile question when you are free to explore. For a question about why a difficulty recurs in the practice, follow the work that produced the result and what happened when others received it. The same visible outcome might arise from a fixed constraint, a choice by the producer or a recipient's adjustment. Look for something that distinguishes these explanations, such as the information available before a choice or how the result was used. A rule covering all the relevant work can explain a recurring dependency. Its use on a particular occasion and the frequency of an outcome call for grounds about that work.
+
+A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If a result, its use or an attentive participant is unavailable, identify which comparison or conclusion needs that access. Use what the occasion already establishes, or preserve the cue when that is all it supports.
 
 #### B.5.PI:4.2 - Compare before deciding what is wrong
 
@@ -81,7 +83,7 @@ Stop here if only the cue is recoverable and further articulation is unproductiv
 
 State what the work should enable, what comparison or experience raised the question, under which conditions, and why the answer could matter. Ordinary words are enough: “How can this figure help price the next batch when it has no numerical value on some days?” is a usable question without the phrase “division by zero”. Search a library or ask a colleague using the situation and needed result. A PatternID is one way to obtain an answer after its relevance becomes intelligible, not a prerequisite to inquiry.
 
-Let the first answer change the question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. Return to the original use before accepting either as closure. B.5.QD develops a consequential question when the initial one needs reconstruction; B.5.QD.CF examines assumptions behind an apparent conflict. Use those contributions only while the question needs them.
+Let the first answer inform your choice of the next question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. In an open inquiry you can choose a different question for what it promises to reveal. In a fixed assignment, ask what an answer to the proposed question could establish for the original use. Return that contribution to the recipient, or explain why a change of assignment is worth considering. B.5.QD develops a consequential question when the initial one needs reconstruction. B.5.QD.CF examines assumptions behind an apparent conflict.
 
 An adequate known explanation, instruction or correction may finish this use. If the question needs a new construction, explanation or test, B.5 connects the reasoning contributions. Keep later investigation and problem formulation under their conditions; a provisional question need not be promoted immediately to a fully specified Problem or research programme.
 

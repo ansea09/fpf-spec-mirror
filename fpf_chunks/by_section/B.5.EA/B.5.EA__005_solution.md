@@ -6,12 +6,12 @@ section_id: "B.5.EA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:4 — Solution"
-line_start: 48662
-line_end: 48715
+line_start: 48742
+line_end: 48797
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -70,6 +70,8 @@ If a new observation defeats the account, B.5.RR revises the affected reasoning.
 #### B.5.EA:4.5 - Carry the contribution into the work
 
 Return the distinction, the conditions that make it meaningful and the next use it supports. A short statement may suffice. Preserve the original episode or phrase when later interpretation would otherwise lose the point.
+
+Ask which question the formulation settles. A participant who wanted help saying what they meant can finish with a phrase they can use and correct. If their experience raised a question about how a whole practice works, use the distinction to locate the operation or rule that matters for that question. Establish what the episode or the participant's further account actually shows about it. When the conversation is open to discovering new questions, the participants can choose one that has just become expressible.
 
 Stop when the contribution is usable, when further articulation cannot improve the decision, or when the participant cannot recover enough to continue. An unresolved but better located question is a result.
 

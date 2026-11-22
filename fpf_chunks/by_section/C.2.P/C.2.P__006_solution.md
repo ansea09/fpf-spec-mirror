@@ -6,12 +6,12 @@ section_id: "C.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:4 — Solution"
-line_start: 54486
-line_end: 54741
+line_start: 54592
+line_end: 54847
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ A successful rewrite satisfies these field-validity constraints:
 3. a relation, comparison, dependency, support, sameness, grounding, mapping, or endpoint claim has `A.6.P` relation precision, with use-boundary and project-side reliance questions split into their own fields;
 4. a claim-bearing episteme has a recoverable `C.2.1` identity; dependent-kind membership, such as `U.View`, uses its defining pattern. A project-side object or relation keeps its own kind, applicable reference, and declared use;
 5. publication, view, face, and carrier distinctions satisfy the applicable `E.17.0` view-conformance, `E.17`/MVPK publication-face, and `E.24.PUB` publication-occurrence, form, and carrier rules;
-6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader use: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim.
+6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring the action, judgement or explanation this reader needs. A recognition reason or a reference to a pattern can supply the part of that work it actually supports.
 
    When both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`.
 
@@ -302,7 +302,7 @@ The application is complete when the smallest selected product:
 1. preserves any E.10 cue or routing result rather than restarting from word taste;
 2. names the recovered kind, relation, or non-use disposition;
 3. hands any remaining relation, naming, publication, evidence, work, decision, or assurance claim to the applicable pattern;
-4. leaves the reader a clear action or stop condition.
+4. leaves the reader able to take the intended action or understand why the grounds stop short of it. When a sentence gives a result for one claim, extract or publication, retain the connection needed to use it for the original question (C.39.QR:4.1).
 
 Reopen when a replacement head hides another umbrella, a later use adds a material field, the direct receiving pattern changes, or the repair becomes technically exact but hard to use.
 

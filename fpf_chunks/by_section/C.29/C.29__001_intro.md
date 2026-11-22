@@ -6,12 +6,12 @@ section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
-line_start: 72245
-line_end: 72262
+line_start: 72364
+line_end: 72381
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -74,7 +74,7 @@ keywords:
 
 **What goes wrong if missed.** The reader either misses a useful mathematical construction or carries a result into a situation where a needed assumption or distinction has been lost.
 
-**What this buys.** A concrete mathematical question, a representation that makes it tractable, and a consequence that changes what to calculate, observe, compare or rule out.
+**What this buys.** A mathematical construction that makes the needed inference or operation possible, with grounds for using its result in the work that called for it.
 
 **Not this pattern when.** An adequate local equation, algorithm or domain model already answers the question and no separate representation or transfer issue remains. Complete that work without a C.29 note. A one-off metaphor used only for orientation also needs no card.
 

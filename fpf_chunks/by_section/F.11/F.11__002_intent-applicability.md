@@ -6,12 +6,12 @@ section_id: "F.11:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__002_intent-applicability.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:1 — Intent & applicability"
-line_start: 130915
-line_end: 130929
+line_start: 131037
+line_end: 131051
 dependencies:
   - "A.13"
   - "A.15"

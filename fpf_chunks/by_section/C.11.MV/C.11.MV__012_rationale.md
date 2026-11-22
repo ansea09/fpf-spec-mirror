@@ -6,12 +6,12 @@ section_id: "C.11.MV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__012_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:10 — Rationale"
-line_start: 60869
-line_end: 60880
+line_start: 60981
+line_end: 60992
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

@@ -6,12 +6,12 @@ section_id: "C.39.WI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:intro — Intro"
-line_start: 88531
-line_end: 88535
+line_start: 88653
+line_end: 88657
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

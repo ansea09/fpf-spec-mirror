@@ -6,12 +6,12 @@ section_id: "C.22.2:17"
 section_title: "Problem-Card Use Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__018_problem-card-use-invariants.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:17 — Problem-Card Use Invariants"
-line_start: 67156
-line_end: 67167
+line_start: 67270
+line_end: 67281
 dependencies:
   - "A.10"
   - "A.15"

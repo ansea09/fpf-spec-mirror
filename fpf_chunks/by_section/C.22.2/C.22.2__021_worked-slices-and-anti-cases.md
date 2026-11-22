@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 67190
-line_end: 67258
+line_start: 67304
+line_end: 67372
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,7 @@ These rows are recognition slices, not complete Thin cards. Before using one, co
 
 #### C.22.2:20.1a - Compact P2W-ready Disposition Slice
 
-Consider a support team seeing repeated reopened hand-offs after a new interface policy. Its source episteme `SupportHandoffPolicy-E7` contains the two clauses compared below. The incoming request says "rewrite the escalation workflow." The card first identifies the concern and improvement probe; selecting a rewrite requires its own grounds.
+Consider a support team seeing repeated reopened hand-offs after a new interface policy. Its source episteme `SupportHandoffPolicy-E7` contains the two clauses compared below. A colleague proposes rewriting the escalation workflow. The support team has been asked to establish what the policy requires to happen to a pending case. Clarification of that rule can complete this inquiry. If an authorized requester has also commissioned a revised workflow, the same clarification guides its development and the revised workflow is still due.
 
 The first-line entry uses "complete" when a case is sent. The specialist entry uses it when the case is accepted. Both events can be recorded correctly. The shared queue must decide when to remove an item from the sender's list. For a case that has been sent but is still awaiting acceptance, the two readings give different decisions. The team can now ask which event authorizes that change. If the queue already distinguishes dispatch from acceptance and applies a single unambiguous rule, the two labels alone give no reason to revise it. The reopened cases still merit inquiry.
 
@@ -86,12 +86,12 @@ The first-line entry uses "complete" when a case is sent. The specialist entry u
 | Effective ReferenceScheme and ClaimScope | Scheme: support-interface hand-off under the new policy edition. ClaimScope: SupportOps-EU. |
 | Claim family | Descriptive claim about the two policy clauses and their different completion meanings. The prediction that reopened escalations will continue while this wording remains is an untested hypothesis, not an established forecast or causal result. No actual PFR is asserted. |
 | Ground for addressing the concern | For a sent case still awaiting acceptance, the two readings disagree on whether it belongs in the sender's queue. Identify which event governs removal. To establish who remains accountable for follow-up, consult the rule assigning that responsibility. |
-| Improvement check or acceptance probe | For the pending case, establish which event the rule requires for removal from the sender's list and check what the queue does before and after that event. |
+| Improvement check or acceptance probe | Apply the rule to a case sent but still awaiting acceptance. Does it remain on the sender's list? To investigate actual compliance, compare the required result with what the queue recorded in that case. |
 | Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the person authorized to settle it. |
-| Qualification window (current here) | Two-week incident window under the stated policy edition. |
+| Qualification window (current here) | Use the policy edition in force at the time in question. The two-week incident window concerns the report about reopened cases. |
 | Problem-formulation follow-up reason (current here) | Resolve which event the policy means by completion. Examine System, assignment, Method, Work or policy-boundary relations only if that clarification exposes a question that depends on them. |
-| Validation boundary (current here) | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
-| Readiness disposition | `P2W-ready` for resolving the queue rule. A sent case still awaiting acceptance lets the receiver check whether the shared queue follows the agreed removal rule. |
+| Validation boundary (current here) | The answer about the rule depends on its authority, wording, effective period and interface. An answer about actual operation also depends on the coverage and meaning of the incident records. |
+| Readiness disposition | `P2W-ready` for resolving the queue rule. The receiver can interpret the rule for a sent case still awaiting acceptance. Checking whether the queue followed it in a past case requires grounds about that execution. |
 | Subject-pattern cues (current here) | Use the applicable A.6 declaration or interface rule if completion semantics remains unresolved. Retain the direct grounds for a relied-on claim; use A.10 when its evidence or provenance needs a replayable account and G.11 when its currentness is at issue. Add A.2/A.2.1/A.13/A.15 for an actual classification, assignment or dated Work claim; F.6 only for precise assignment attribution, and A.21 only for a gate claim. |
 
 A claim that the service improved would need different evidence. To compare reopening rates, identify all eligible hand-offs in comparable periods, or use a sample that supports an estimate for them. For each period, determine which hand-offs reopened within the same follow-up time and compare their proportions, accounting for changes in the case mix that affect the comparison. Check the unresolved safety, compliance and customer-impact exceptions. Looking only at reopened cases can reveal how a hand-off went wrong. It leaves the reopening rate unknown.

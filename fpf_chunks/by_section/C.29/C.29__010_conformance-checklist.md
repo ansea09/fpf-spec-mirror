@@ -6,12 +6,12 @@ section_id: "C.29:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:9 — Conformance Checklist"
-line_start: 73071
-line_end: 73108
+line_start: 73190
+line_end: 73227
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -67,7 +67,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C29-0 Use condition` | Use C.29 when choosing or transferring a mathematical representation affects the working question, when reliance exceeds the established correspondence, or when a stable problem needs a first useful candidate. Use an adequate local equation, algorithm or domain model directly when no separate representation issue remains. | Preserves the entry condition and sufficient ordinary result. |
-| `CC-C29-1 Mathematical move before record` | State the question, choose a concrete object, establish its correspondence and losses, and derive or delimit the consequence before selecting the sufficient record under :4.4. | Keeps recording subordinate to the mathematical work. |
+| `CC-C29-1 Mathematical move before record` | Identify the work the recipient must do, derive the needed distinctions and relations, and derive or delimit the mathematical contribution to that work. When several representations supply premises, justify using them together. Record the account under :4.4 when needed. | Keeps recording subordinate to the mathematical work. |
 | `CC-C29-1a Computational construction` | When the mathematical result needs a computational construction, use C.29.2 to obtain the procedure, its interpretation, the argument supporting its claimed result and the relevant cost estimate. | Lets the reader construct or locate the missing computation. |
 | `CC-C29-1b Realization correspondence` | When the result depends on an unsettled execution correspondence, use C.29.3 to connect preparation, system operations and readout and establish the required result relation. | Lets the reader use or repair the proposed execution. |
 | `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a family label alone. | Prevents a family label from replacing the mathematical object. |
@@ -82,7 +82,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 | `CC-C29-7 Lens-bounded prediction or distinction` | State the consequence or obstruction, its premises and the use selected under :4.4. For phenomenon prediction or consequential reliance, supply the required applicability and validation account. | Makes the result and its reliance boundary inspectable. |
 | `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is being claimed, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
 | `CC-C29-8a Receiving use` | When the lens result contributes to a separately governed question, identify that question and follow :4.4.6's receiving action. | Connects the lens result to its receiving use. |
-| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are being claimed, declare the scale range and use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale preference, and `C.31.ASAP` for architecture scale preference when the respective claim is made. | Prevents universalization. |
+| `CC-C29-9 Scale and scope` | Where a result depends on composition, identify the relevant constituents and show what carries to the whole or back to a part. For a model that leaves more distinctions open, establish which conclusion still follows. When a scaling law or scale preference is claimed, specify the scale variable and range and use `C.18.1`, `C.19.1` or `C.31.ASAP` for the corresponding claim. | Keeps the conditions for using a result at another scale or through another model recoverable. |
 | `CC-C29-9a Temporal use boundary` | Preserve the timing and extent needed by a forecast, rate, trajectory, rhythm, recovery or stabilization claim. Use `C.27` when an unresolved adequacy question changes the receiving use; reuse an adequate existing temporal argument directly. | Keeps the temporal claim's grounds without requiring a separate account for every temporal expression. |
 | `CC-C29-10 Rival lens discipline` | For a choice or superiority claim, compare the relevant available rival or ordinary fallback; broaden only for an unresolved consequential question. Recover the criterion, cost, reader, scale window or other condition that makes that comparison meaningful. | Keeps comparison proportionate while allowing a sufficient result without an invented rival. |
 | `CC-C29-10a Validation regime` | Apply :4.4's reliance rule and :4.5a. Phenomenon-model reliance needs its validation regime, evaluation conditions, uncertainty/approximation, applicability and relevant known failures or required failure examination. A conditional derivation states its assumptions and loss without claiming empirical adequacy. | Matches validation to the claimed use; no known failure is neither a required fabricated example nor proof of adequacy. |

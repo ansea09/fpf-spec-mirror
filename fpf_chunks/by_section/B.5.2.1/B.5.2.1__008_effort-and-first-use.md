@@ -6,12 +6,12 @@ section_id: "B.5.2.1:7"
 section_title: "Effort and first use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__008_effort-and-first-use.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:7 — Effort and first use"
-line_start: 52535
-line_end: 52542
+line_start: 52633
+line_end: 52640
 dependencies:
   - "A.17"
   - "A.18"
@@ -30,7 +30,7 @@ keywords:
 
 **For engineers/managers (user cognitive load).**
 
-* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Start with front membership; consult dominated entries when their exclusion or retained archive role matters.
+* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Use the front for the requested coordinate comparison. For an explanatory question, include any candidate whose specific prediction or mechanism could change the answer.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
+* *Reader quickstart (engineer-manager):* (1) Recover what the recipient wants compared and which choices are yours. Use the agreed inputs or construct the needed hypothesis space, descriptors and Q characteristics as in §4. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate. Inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria to the original explanatory question.
 

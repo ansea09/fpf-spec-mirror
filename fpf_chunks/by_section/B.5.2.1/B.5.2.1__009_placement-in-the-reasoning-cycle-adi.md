@@ -6,12 +6,12 @@ section_id: "B.5.2.1:8"
 section_title: "Placement in the Reasoning Cycle (ADI)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__009_placement-in-the-reasoning-cycle-adi.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:8 — Placement in the Reasoning Cycle (ADI)"
-line_start: 52543
-line_end: 52546
+line_start: 52641
+line_end: 52644
 dependencies:
   - "A.17"
   - "A.18"

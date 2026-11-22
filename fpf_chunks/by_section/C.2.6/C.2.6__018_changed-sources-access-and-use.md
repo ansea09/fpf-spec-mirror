@@ -6,12 +6,12 @@ section_id: "C.2.6:17"
 section_title: "Changed Sources, Access and Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__018_changed-sources-access-and-use.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:17 — Changed Sources, Access and Use"
-line_start: 56720
-line_end: 56730
+line_start: 56828
+line_end: 56838
 dependencies:
   - "A.10"
   - "A.16"

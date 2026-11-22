@@ -6,12 +6,12 @@ section_id: "G.Core:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:9 — Consequences"
-line_start: 135840
-line_end: 135847
+line_start: 135962
+line_end: 135969
 dependencies:
   - "A.15.3"
   - "A.19"

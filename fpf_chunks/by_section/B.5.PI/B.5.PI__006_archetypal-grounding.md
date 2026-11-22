@@ -6,12 +6,12 @@ section_id: "B.5.PI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:5 — Archetypal Grounding"
-line_start: 52942
-line_end: 52985
+line_start: 53044
+line_end: 53089
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -38,6 +38,8 @@ The listener first says, “Make the deadline reminder clearer.” Applying that
 The next question is small: “Can we make the correspondence available without losing distinctions the recipient needs?” In this case an authoritative list exists. The two participants compare twelve entries with it; ten have a unique correspondence, while two abbreviations denote different equipment in different buildings. A single global replacement would conceal that difference. They retain the building context, give the recipient the resolved names and leave the two unresolved entries for the person who can supply their locations. The receiving schedule is checked by identifying the intended equipment, not by counting replaced labels.
 
 For repeated handovers, an available mapping keyed by name and building may remove some reconstruction. Whether to prepare and maintain it depends on use and effort. A one-off schedule with no further receiving difficulty can keep the manual translation. In either case the inquiry returns to the schedule: the recipient can use the supplied identities, or knows which entries need a location. It need not create a new organization-wide programme.
+
+For a request confined to whether today's schedule arrived on time, the recorded delivery time can suffice. For a request to discover a dependency in preparing the schedule, the producer can choose to investigate the reliance on memory. If the review concerns how often recipients have had to correct a name, follow what the recipients actually received and did. All twelve retypings happened before delivery. The authoritative list can establish which codes require a building wherever those conventions apply, even while the frequency of actual corrections remains unknown.
 
 If the recipient instead demonstrates that both naming conventions are understood and the retyping merely changes typography, the proposed identity problem disappears. Ask whether the extra effort is worth removing; do not preserve the first diagnosis because it motivated the comparison. If neither receiving use nor the authoritative list is accessible, retain the dependency on memory as an early cue and obtain access when worthwhile. No claim of safe replacement follows from that cue alone.
 

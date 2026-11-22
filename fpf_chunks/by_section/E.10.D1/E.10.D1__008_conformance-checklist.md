@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:7 — Conformance Checklist"
-line_start: 108862
-line_end: 108878
+line_start: 108984
+line_end: 109000
 dependencies:
   - "A.1.1"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "C.2.5:17"
 section_title: "Continuing and Withdrawn Authority Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__018_continuing-and-withdrawn-authority-handling.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:17 — Continuing and Withdrawn Authority Handling"
-line_start: 56515
-line_end: 56532
+line_start: 56623
+line_end: 56640
 dependencies:
   - "A.16"
   - "A.16.0"

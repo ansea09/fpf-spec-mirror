@@ -6,12 +6,12 @@ section_id: "C.2.LS:17"
 section_title: "Cross-Facet Reading Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__018_cross-facet-reading-rule.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:17 — Cross-Facet Reading Rule"
-line_start: 56084
-line_end: 56094
+line_start: 56192
+line_end: 56202
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,7 @@ keywords:
 Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; an operator acknowledgement condition does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
-For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. Any binding consequence retains its own governing rule and authority.
+For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. If the readings are uncertain, use C.2.2a:4.2 to check what their joint constraints establish. A bound can settle the condition. If the answer still differs between possible combinations, identify the difference the receiving use needs. Any binding consequence retains its own governing rule and authority.
 
 #### C.2.LS:17.3 - Transition reading rule
 Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. Use the applicable move rule to determine which current readings and source, use or route conditions must hold. State any changes to them that the transition makes.

@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — Declaration, Correspondence, and Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_solution-declaration-correspondence-and-judgment.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:5 — Solution — Declaration, Correspondence, and Judgment"
-line_start: 58396
-line_end: 58423
+line_start: 58506
+line_end: 58533
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -39,7 +39,7 @@ For a candidate-bearing use, first evaluate adaptation admissibility. A candidat
 
 `J_kindUse(candidate, kind, kindSignatureEdition, adaptationDeclarationEdition, slice) ∈ {true, false, unknown}`
 
-The judgment conjoins the base C.3.2 judgment with every added candidate-condition predicate. A known `false` gives `false`; all known `true` gives `true`; unresolved required facts give `unknown`. A vocabulary-only declaration adds no predicate and preserves the base judgment. A guard may decline use on `not-applicable` or `unknown` without rewriting either.
+The judgment concerns the conjunction of the base C.3.2 criterion and every added candidate condition. A known false condition settles the conjunction as `false`. Relations between the conditions can also decide it: if both inspectors must have signed and exactly one signed, the conjunction is `false` even while the signer's identity is unknown. Return `true` when the facts establish all required conditions and `unknown` when they leave satisfaction unsettled. A vocabulary-only declaration adds no predicate and preserves the base judgment. A guard may decline use on `not-applicable` or `unknown` without rewriting either.
 
 An optional pinned-edition representation may list admissible candidates judged `true`. It is not `U.EntitySet`, A.14 membership, another kind, or a direct classification relation. Scope conditions stay under A.2.6 rather than becoming kind identity.
 

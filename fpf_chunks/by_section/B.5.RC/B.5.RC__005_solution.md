@@ -6,12 +6,12 @@ section_id: "B.5.RC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:4 — Solution"
-line_start: 49845
-line_end: 49906
+line_start: 49928
+line_end: 49990
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -30,9 +30,9 @@ Recover the construction in two connected directions: from the required result t
 
 Say what the next user needs to obtain and what they will do with it. Recover the conditions that distinguish a usable result: for example, a triangle on a supplied side, a display design that uses the supplied fittings, or data in the format required by a calculation.
 
-Identify the starting objects and information available. Distinguish an object supplied by the task from one the construction must produce. If a property alone answers the question, keep that smaller task. When an instance is needed, locate the operation that could obtain one.
+Identify what the task supplies and what it leaves you to construct. For an exact reproduction, recover which objects, operations or resulting features must be the same. When an equivalent result is allowed, work back from the property its recipient needs. For a display stand, two panels that fit the same upright may put different loads on its base. Follow that difference as far as it affects the requested design. If proving existence settles the question, the proof can finish the work. If a particular object is due, locate the operation that can produce it.
 
-Choose a small case that retains the troublesome dependency. A case that omits the unfamiliar operation cannot resolve how that operation works.
+Use the actual input when it exposes the missing operation. A smaller case is useful when it retains the troublesome dependency and makes the operation easier to recover.
 
 #### B.5.RC:4.2 - Recover the operations
 
@@ -60,7 +60,7 @@ If tracing returns to a result that it requires, examine the source. It may desc
 
 A missing operation gives a focused question: “How is this intermediate object obtained under these conditions?” Return to the relevant source passage or specialist with that question. When you propose an operation yourself, treat it as a contribution to the construction and establish the conditions for using it.
 
-#### B.5.RC:4.4 - Work the small case forward
+#### B.5.RC:4.4 - Carry the construction forward from its inputs
 
 Begin with the available inputs. Apply an operation when its prerequisites and conditions hold, retaining the output needed by later operations. At an unfamiliar transition, write, draw or perform enough of it to see what changes.
 
@@ -77,6 +77,7 @@ Recover why the constructed object has the property the next use requires. An au
 The stopping point can be:
 
 - the required object and a sufficient account of the property being used;
+- an answer about existence or impossibility, with the grounds that establish it, when that was the question;
 - a conditional construction whose unresolved condition matters to the next decision;
 - an identified missing input or operation, with enough context to obtain it.
 

@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative guard macros"
-line_start: 58770
-line_end: 58871
+line_start: 58880
+line_end: 58983
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -52,6 +52,8 @@ Names such as `Guard_TypedClaim` are editorial handles. A context may alias them
 
 The subkind direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule.
 
+The inclusion or correspondence must cover the receiving candidates for which the claim will be used. Inclusion established on one closed roster supports restriction to that roster. Applying the rule to an additional candidate needs grounds covering that candidate. For distinct kinds, establish that the mapping covers the required target cases and preserves the premise and consequence the receiver needs. An unrestricted target use requires that ground across its entire domain.
+
 This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
 
 #### C.3.A:4.2 - Guard_CandidateUse — apply a typed claim to an exact candidate
@@ -84,7 +86,7 @@ Evidence may support a classification assertion, but record presence, bridge pre
 4. when a produced candidate enters B, check admissibility and evaluate `J(candidate, k_B, edition_B, TargetSlice)` only for an admissible request; continue only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds; and
 5. route justified bridge consequences to R and check freshness before allowing use.
 
-Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction.
+Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction. For a promise covering every permitted output, check that compatibility holds over the producer's full permitted output domain. An inclusion proved on one batch covers that batch.
 
 #### C.3.A:4.4 - Guard_MaskedUse — exact RoleMask use
 

@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:1 — Problem Frame"
-line_start: 107707
-line_end: 107712
+line_start: 107829
+line_end: 107834
 dependencies:
   - "A.1.STM"
   - "A.10"

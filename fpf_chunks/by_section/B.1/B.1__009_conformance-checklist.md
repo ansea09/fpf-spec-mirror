@@ -6,12 +6,12 @@ section_id: "B.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:7 — Conformance Checklist"
-line_start: 42847
-line_end: 42859
+line_start: 42851
+line_end: 42863
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,7 +33,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1-1` | The current claim identifies whether it is part-whole, collection belonging under the collection's own rule, collection-as-whole, a relation among local system-role kinds, classification, assignment, participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
+| `CC-B1-1` | The result answers the receiving question at its required scope. When choosing the composition or its model is part of the commission, the account explains which distinctions can change that answer and how the selected relations support it. The current claim identifies whether it is part-whole, collection belonging under the collection's own rule, collection-as-whole, a relation among local system-role kinds, classification, assignment, participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
 | `CC-B1-2` | Part-whole claims name the whole and part participants, identity or recognition rule, part relation, constructional predicate and its defining pattern, plus any aggregation policy, selected structure, ClaimScope, or qualification window that changes the claim. |
 | `CC-B1-3` | A.14 defines the relation vocabulary used here; C.13 defines the construction accounts. |
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |

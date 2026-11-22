@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.3.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.3 — Computational Realization"
-line_start: 74098
-line_end: 74446
+line_start: 74212
+line_end: 74560
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -30,7 +30,7 @@ keywords:
 
 **Use this when** a computation is available, but the proposed executing arrangement has not yet been connected to its inputs, operations and interpretable results. A motor interface may accept a different number from the one calculated. A circuit may produce a voltage whose scale differs from the input scale. A material admission procedure may preserve a count only while several people share the same stock of cards.
 
-Start with one input the work needs. Explain how it is prepared in the proposed system, which actions perform the computation and how the result is read. Compare the interpreted result with what the abstract computation requires. A failed input preparation, such as a command outside the interface's range, can already determine a useful repair.
+Start with the result the arrangement must deliver. For an input or history covered by the order, explain how the system is prepared, which actions perform the computation and how its result is read. Compare that result with what the recipient needs. An operating law can establish the comparison over its whole range. A particular input can expose a failure, such as a command outside the interface's range.
 
 The first result is a realization design under stated conditions, an interpreted result from an execution, or a failed connection with a proposed correction. The method helps construct and use that connection. The engineering of a circuit, controller, physical apparatus or administrative arrangement supplies the mechanisms that perform the computation.
 
@@ -123,7 +123,7 @@ Use C.16 when reading the result requires a measurement model. Instrument loadin
 
 #### C.29.3:4.5 - Compare the routes over the claimed scope
 
-Work a small input through both routes with its meanings intact. Then establish why the required relation holds over the input range or histories for which the result will be used.
+Follow the inputs or histories covered by the claim through preparation, execution and interpretation. Establish the required relation from the operating rules, relevant evidence or both. A worked input can resolve an uncertain correspondence. A claim about one particular execution needs grounds about that execution, such as its recorded output under the agreed interpretation.
 
 For a finite case, a complete case analysis can suffice. For an invariant, show it in the initial state and show how every permitted operation preserves it. For an approximate result, propagate the losses to the quantity used by the receiver. For a sampler or statistical estimator, compare the distributions or estimation properties. Use the mathematical, numerical or empirical method appropriate to that claim.
 
@@ -131,7 +131,7 @@ For example, a required binary sampler gives output 1 with probability 0.5. Supp
 
 When the requested result contains several random components, compare their joint behavior. Suppose the target is a pair of independent fair bits. Preparing one fair bit B and returning (B,B) gives the right distribution at each output separately. But the target assigns probability 1/2 to unequal outputs; this system assigns probability 0. Using two independent draws gives each of the four pairs probability 1/4 and restores the requested result. The realization must provide that joint sampling behavior. When its observations are dependent, use the joint law or change how the second component is obtained.
 
-Choose changed cases from consequential features of the arrangement, such as an endpoint of the command range, a different initial state, overlapping actions or indication error. A permitted input with a confirmed output outside tolerance refutes a claim that every execution meets it. Establish the input, output reading and operating conditions needed for that comparison. A pair of different draws can be entirely consistent with a probabilistic guarantee. Use the sampled outcomes and their probability law for the distributional question.
+When a case can distinguish competing accounts of the realization, choose it from features that matter to the requested result, such as an endpoint of the command range, a different initial state, overlapping actions or indication error. A permitted input with a confirmed output outside tolerance refutes a claim that every execution meets it. Establish the input, output reading and operating conditions needed for that comparison. A pair of different draws can be entirely consistent with a probabilistic guarantee. Use the sampled outcomes and their probability law for the distributional question.
 
 Separate three possible outcomes:
 
@@ -151,7 +151,7 @@ When adapting the formulation and the apparatus together could improve the resul
 
 #### C.29.3:4.7 - Return the result at the strength obtained
 
-Give the usable realization, input conditions, interpreted consequence and the change that would require reconsideration. Preserve the derivation or operating explanation at the depth needed by its receiver; a short calculation may be enough.
+Give the usable realization and the conditions that make its result interpretable. For an execution order, prepare the specified input, perform the operations and return the interpreted result. When designing continuing service, establish how preparation, operation and readout remain available across the admitted histories and how service can resume within the promised time. When entrusted with operating it, use the available observations to act or secure the required response from its responsible operator in time. Establish whether the promised behavior continued or was restored. A claim about service already provided needs evidence from the period concerned. A question confined to the design can be settled from its operating conditions.
 
 A conditional design can finish before a device is built. An observed execution can establish a result under its conditions. An identified incompatibility can stop an unsuitable implementation and open another. Further information or assurance is obtained when the receiving use requires its contribution.
 
@@ -277,7 +277,7 @@ Apply the checks to the realization and use. Their answers can remain in the wor
 | CC-C29.3.2 - Input preparation | A way to prepare each claimed input, with its range, initial state and consequential loss. |
 | CC-C29.3.3 - Executing actions | System actions and state changes that perform the operations, including relevant intermediate states and shared access. |
 | CC-C29.3.4 - Interpretation | The obtainable state or indication and the relation that turns it into the result used. |
-| CC-C29.3.5 - Scope of comparison | A constructed case and the argument or evidence supporting the claimed input or behavior scope. |
+| CC-C29.3.5 - Scope of comparison | The comparison of preparation, operation and readout has grounds for the claimed inputs or histories. A case can expose an uncertain connection. A claim about completed operation has evidence for the particular work. |
 | CC-C29.3.6 - Changed conditions | Which preparation, execution or interpretation must be reconsidered when range, timing, ordering or uncertainty changes. |
 | CC-C29.3.7 - Usable outcome | A sufficient realization or interpreted consequence, or a named incompatibility with the next repair. The strength of the claim matches its grounds. |
 

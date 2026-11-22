@@ -6,12 +6,12 @@ section_id: "C.26.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:1 — Problem frame"
-line_start: 69520
-line_end: 69540
+line_start: 69637
+line_end: 69657
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,20 +24,11 @@ dependencies:
   - "E.17.EFP"
   - "F.9"
 keywords:
-  - "coordinated work"
-  - "distributed-state evidence"
-  - "enacted state"
-  - "evidence carrier"
-  - "minimal state reading"
-  - "no group mind"
-  - "report/export loss"
-  - "rival explanation"
-  - "window"
 ---
 
 ### C.26.2:1 - Problem frame
 
-Use this pattern when coordinated work, behavior, or trace patterns give evidence that a team, organization, service mesh, market, or other collective system is acting from a state that no single participant report, survey, policy sentence, dashboard, or API export faithfully carries.
+Use this pattern when you need to establish how a collective system acted from what its parts did and how their actions were connected. A single incident record can show one team sending a particular item and another receiving it. Several reports of activity can leave that same handoff open. Recover the actions and relations the claim requires, wherever their evidence is recorded.
 
 The pattern supports a bounded claim about the collective's current organization or behavior from the evidence available across its parts. Distinguish what those observations establish about the state from what explains its occurrence, and preserve uncertainty in either question.
 

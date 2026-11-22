@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:End"
 section_title: "B.1.5.RS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__014_b-1-5-rs-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:End — B.1.5.RS:End"
-line_start: 44704
-line_end: 44705
+line_start: 44714
+line_end: 44715
 dependencies:
   - "A.3.1"
   - "B.1.5"

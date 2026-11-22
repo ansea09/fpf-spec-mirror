@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:3 — Forces"
-line_start: 76407
-line_end: 76415
+line_start: 76521
+line_end: 76529
 dependencies:
   - "A.10"
   - "A.15"

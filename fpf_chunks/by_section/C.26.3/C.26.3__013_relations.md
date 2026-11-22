@@ -6,12 +6,12 @@ section_id: "C.26.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:12 — Relations"
-line_start: 70242
-line_end: 70257
+line_start: 70361
+line_end: 70376
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 **General relations.**
 
 - Builds on: `C.26`, `C.25`, `U.Dynamics`, `A.6`, `A.15`, `C.16`, `A.10`, `B.3`, `A.3`, `A.19`, `C.18`, `C.19`.
-- Coordinates with: `C.26.1` when a state-changing probe's output is used as a passive read for the decision; `C.26.2` when coordinated work, behavior, or traces support a collective-state reading that no single report or export faithfully carries.
+- Coordinates with: `C.26.1` when a state-changing probe's output is used as a passive read for the decision; `C.26.2` when the observations of parts and their connections must support a claim about the collective.
 - Does not replace: ordinary quality-bundle patterns, generic control theory, full FEP doctrine, or biological homeostasis claims outside FPF bridge and loss discipline.
 - Name: `Viability-Envelope Boundary Regulation` names architecture work over a viability envelope and boundary/action conditions.
 

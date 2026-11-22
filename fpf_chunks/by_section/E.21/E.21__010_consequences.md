@@ -6,12 +6,12 @@ section_id: "E.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:8 — Consequences"
-line_start: 122389
-line_end: 122398
+line_start: 122511
+line_end: 122520
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

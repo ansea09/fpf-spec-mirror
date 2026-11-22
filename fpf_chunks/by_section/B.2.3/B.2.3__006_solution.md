@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 46114
-line_end: 46164
+line_start: 46142
+line_end: 46194
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,9 @@ Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, c
 
 #### B.2.3:4.1 - Reuse The B.2 Candidate And Complete Episteme Recognition
 
-Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.Episteme` kind. Execute the A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to that individual:
+Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.Episteme` kind. If the candidate is given, assess it directly. When the practitioner is to construct the account, start with the conclusion the recipient needs about its subject. Trace that conclusion back to the claims that could warrant it, including any relation needed to use them together. Ask whether the relevant terms designate the same objects, populations and occasions across those claims. Two local models may give the same totals while assigning them to different individuals. A total can settle a threshold for the whole. A conclusion about which individual qualified requires the distinguishing information or another ground that settles it. If an existing account already yields the required answer, give that inference. An order to construct a new unified account calls for its own result. To build it, choose its constituent claims, the inference joining them and a scheme that preserves their intended interpretation. A source consulted in this work may supply a premise without becoming a constituent of the resulting episteme.
+
+For recognition, execute the A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to that individual:
 
 1. identify its interpreted claim content, including the semantic relations among its claims, under C.2.1:4.1.1;
 2. identify the independently governed `U.Entity` that those claims concern;

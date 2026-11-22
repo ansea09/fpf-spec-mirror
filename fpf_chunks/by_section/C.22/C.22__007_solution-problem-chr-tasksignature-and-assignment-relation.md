@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 65713
-line_end: 65924
+line_start: 65827
+line_end: 66038
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -37,7 +37,7 @@ keywords:
 Apply that formula as follows:
 
 1. Confirm that the problem-side representation is stable enough for selector-facing use; otherwise use `C.22.2`.
-2. Name the receiving eligibility, acceptance, or selection question and the `TaskKind`, optional task family, or work target that the signature will declare.
+2. Name the work for which a method is needed and the decision that will use its description. Use the kind of that work as `TaskKind`. When the practitioner needs a method for making a comparison, the comparison itself is the work to type. Identify the particular target or task family when the receiving decision depends on it.
 3. Read the eligibility conditions, acceptance clauses or comparison criteria of the receiving use. For each condition, identify the task-side fact or characteristic whose value the condition consumes, and recover it from the problem-side account or its source. Include that trait and its interpretation; leave unrelated optional extensions absent. If two feasible tasks fit the same description but require different eligibility or acceptance decisions, identify the characteristic that accounts for the difference. When a method must be chosen before work starts, establish what the chooser can learn by then. A supported conditional choice or a declared rule for an unknown value can suffice. Keep an unresolved interpretation visible.
 4. Identify each live Characteristic and Scale, its Unit and polarity when applicable, and the admitted comparison relation. Declare ReferencePlane when interpretation or the receiving comparison contract requires it. Apply these conditions before aggregation or comparison.
 5. Preserve a live but unknown value as `unknown`; include or reference the exact scope, evidence relation, freshness or edition condition on which later use relies. When cross-semantic reuse is current, resolve the two local senses and test the F.9 Bridge separately; a shared label, scheme, or plane does not establish it.

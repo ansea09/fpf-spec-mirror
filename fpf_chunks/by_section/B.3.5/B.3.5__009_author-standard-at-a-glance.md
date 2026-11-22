@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 47534
-line_end: 47549
+line_start: 47592
+line_end: 47607
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,9 +21,9 @@ keywords:
 
 ### B.3.5:7 - Author Standard (at a glance)
 
-When you add or import a relation edge:
+Begin with what the recipient must learn from the relation account.
 
-1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting general mereological axioms. If no publication choice or requirement elects CT2R-LOG, publish that claim and stop.
+1. **State or choose the relation.** Work from the question to the relevant participants, their relation and its conditions. Say, for example, “Impeller ComponentOf Pump” for an assembly claim, or “Vehicle 12 belongs to Fleet North under its registration rule” for an enrolment claim. Establish the asserted relation under its defining rule. For a broader conclusion, explain how the required assertions combine. When the supported readable claim completes the commission and the profile has not been elected, publish it directly.
 
 2. **When CT2R-LOG is elected, attach `tv:groundedBy`**:
 

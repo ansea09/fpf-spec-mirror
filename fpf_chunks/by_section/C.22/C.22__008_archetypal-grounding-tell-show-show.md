@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 65925
-line_end: 65982
+line_start: 66039
+line_end: 66096
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -76,7 +76,7 @@ It obtains only while that exact signature is adopted as the task-typing declara
 
 *Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
 
-*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds, contraindication and resource constraints, and unknown tolerance or comorbidity values preserved as unknown. Include the evidence relations and follow-up windows only because this comparison use relies on them.
+*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation work to develop the specified capability`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds, contraindication and resource constraints, and unknown tolerance or comorbidity values preserved as unknown. Include the evidence relations and follow-up windows only because this comparison use relies on them.
 
 C.22 makes the comparison inputs explicit. Diagnosis and treatment recommendations remain claims governed by the applicable clinical patterns. For a separately current evidence or benefit claim, apply its evidence or clinical evaluation pattern; for a named gate decision, use A.21; for a care-permission claim, use A.2.8.PER and its `GrantedPermissionRelation@Context` predicate; for decision authority, recover the applicable authority predicate. Return `missing-governor` under A.6.RCD only when no governing rule can state or test that exact needed relation claim.
 

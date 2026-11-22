@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
-line_start: 56555
-line_end: 56743
+line_start: 56663
+line_end: 56851
 dependencies:
   - "A.10"
   - "A.16"
@@ -166,7 +166,7 @@ An episteme records a probe score obtained from a model state. A receiving alert
 #### C.2.6:13.3 - Provenance, evidence and interaction in one alert
 An alert E asserts that Pump P's pressure is below 90 kPa. The software produced E from trace T. An operator has acknowledged E and selected a diagnostic check under the stated procedure. Inspection then shows that T was a measurement of Pump Q.
 
-The derivation from T remains established. T supplies no measurement of P for the claimed pressure: return to an appropriate observation of P before using that measurement as support for this claim.
+The derivation from T remains established. T establishes a measurement of Q. To support the claim about P, look for an applicable relation between the pressures or another source about P. For example, if T establishes 82 kPa at Q and an independently warranted relation for that configuration and time puts P at most 5 kPa above Q, P was below 90 kPa. Without such grounds, T alone leaves the alert's pressure claim open. A commission to measure P directly still requires that measurement.
 
 The acknowledgement and selected check remain facts about the operator's work. Whether to continue, suspend or change that check follows its rule and purpose; neither derivation nor acknowledgement settles the truth of the pressure claim. A report can publish all these statements together with their different grounds.
 

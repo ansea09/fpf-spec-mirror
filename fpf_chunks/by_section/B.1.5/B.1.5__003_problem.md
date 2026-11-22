@@ -6,12 +6,12 @@ section_id: "B.1.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__003_problem.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:2 — Problem"
-line_start: 43944
-line_end: 43957
+line_start: 43952
+line_end: 43965
 dependencies:
   - "A.1"
   - "A.15"
@@ -66,7 +66,7 @@ When the objects and composition grounds are left unclear:
 3. **Order as mereology.** `SerialStepOf`, `ParallelFactorOf`, guarded choice, or fallback relation is placed in a structural part-whole chain.
 4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without checking their compatibility, any needed adapter Method or governed correspondence, and the failure route.
 5. **Interface exposure is hidden.** Callers rely on internal interactions that should be encapsulated, or fail to see interactions that the composite method must expose.
-6. **Run-time leakage.** Resources, timestamps, telemetry, performed values, and results are baked into the method instead of remaining occurrence-side facts and separately governed resource, result, and evidence relations.
+6. **Run-time leakage.** The resource use, timestamps, telemetry and results of a particular execution are attributed to the Method itself. A reusable Method may stipulate a resource or time limit. Its use in a particular Work and the values actually observed need their own grounds.
 7. **False whole method.** A method-family registry, fallback table, selector rule, or A.22-selected relation organization is treated as one whole method although no construction or whole identity has been recovered.
 8. **Sequence becomes level.** A source list, vertical diagram, curriculum, or first–then account is treated as a subject hierarchy or level structure without an independently established level relation.
 9. **Simultaneous contributions become stages.** Methods that contribute during the same bounded Work situation are forced into one before-after chain because the source, presentation, or review visits them one at a time.

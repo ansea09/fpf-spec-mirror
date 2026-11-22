@@ -6,12 +6,12 @@ section_id: "F.14:13"
 section_title: "Regression checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__014_regression-checks.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:13 — Regression checks"
-line_start: 132046
-line_end: 132049
+line_start: 132168
+line_end: 132171
 dependencies:
   - "A.10"
   - "A.15.1"

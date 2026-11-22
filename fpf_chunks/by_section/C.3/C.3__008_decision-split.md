@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Decision Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split"
-line_start: 57627
-line_end: 57648
+line_start: 57737
+line_end: 57758
 dependencies:
   - "A.1"
   - "A.11"

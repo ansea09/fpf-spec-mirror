@@ -6,12 +6,12 @@ section_id: "C.22.PFR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:1 — Problem frame"
-line_start: 66253
-line_end: 66274
+line_start: 66367
+line_end: 66388
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,7 +38,7 @@ keywords:
 
 **What this buys.** Actual Problems can exist before discovery, can be referenced while still ongoing, and can be distinguished across repeated adverse episodes. One applicability relation supplies the predicate, problem-for entity, claim scope, and declared criterion-applicability window used by PFR; its actual occurrence extent is separately derived from uninterrupted obtaining. Measurements, evaluations, evidence, claims, cards, and method search remain available without becoming Problem identity.
 
-**Early battery stop.** A low terminal-voltage reading can be a useful signal and can justify a `ProblemCard`, but it is not itself the actual-condition participant. Until a direct voltage-state pattern supplies the relation kind, participant meanings, obtaining rule, temporal extent, recurrence, and occurrence identity, the battery case remains non-conforming: the reading, alarm, report, assertion, and card establish none of that world-side relation.
+**Battery example.** A technician needs to know whether a vehicle may be released for its intended start. Recover the release rule, its battery and load conditions, and what the available reading establishes under those conditions. A bound wholly below the permitted voltage can settle that decision. A different question arises if a service history must identify the particular low-voltage episode. That use needs an actual voltage-state relation with defined participants, conditions of occurrence and temporal identity. The reading, alarm and report can support the claim about the battery. The formal PFR occurrence remains unresolved while those grounds are missing.
 
 Once such a governor exists, the applicability relation can connect its selected voltage predicate to the vehicle, intended-start `U.ClaimScope`, and declared criterion-applicability window; discovering a method still changes solvability rather than PFR actuality.
 

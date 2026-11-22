@@ -6,12 +6,12 @@ section_id: "F.14:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__006_minimal-vocabulary.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:5 — Minimal vocabulary"
-line_start: 131821
-line_end: 131831
+line_start: 131943
+line_end: 131953
 dependencies:
   - "A.10"
   - "A.15.1"

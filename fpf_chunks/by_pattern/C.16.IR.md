@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.IR.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
-line_start: 61765
-line_end: 61985
+line_start: 61869
+line_end: 62089
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

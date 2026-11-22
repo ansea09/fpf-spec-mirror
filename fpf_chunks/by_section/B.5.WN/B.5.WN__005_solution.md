@@ -6,12 +6,12 @@ section_id: "B.5.WN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:4 — Solution"
-line_start: 48846
-line_end: 48929
+line_start: 48929
+line_end: 49012
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -90,7 +90,7 @@ Compare deferral with the present reliance. If today's choice consumes the missi
 
 #### B.5.WN:4.6 - Compose an argument for a recipient
 
-When a project or assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
+When a project or assigned question needs an answer, read that question before selecting the notes. Whose work does it concern, and which differences could change the conclusion? If it concerns a whole job, which performances contributed to its result? Two histories may fit every selected note and yield different answers. Look for the observation or argument that distinguishes them. Arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
 
 Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. Composition often exposes a premise that seemed present only because the author knew the collection.
 

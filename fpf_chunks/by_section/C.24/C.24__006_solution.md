@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution"
-line_start: 67797
-line_end: 68045
+line_start: 67912
+line_end: 68160
 dependencies:
   - "A.10"
   - "A.15"
@@ -91,7 +91,7 @@ To construct the route, use the backward construction and forward check in `OPS.
 1. **Recover usable contributions.** Read the available Methods and any needed route descriptions for the results they supply, required inputs, preconditions, relevant effects and limits. Resolve missing interface meaning from the maintained description or provider. Begin with the action's receiving completion conditions.
 2. **Work backwards from the required result.** Choose an admitted Method that can supply it. For each input not already available, find a qualified preceding Method or an available source that supplies it. Continue until the route reaches available inputs. Keep required joins and enabling conditions. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
 3. **Check forwards from the available inputs.** Follow the proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate. Compare the final output with the result promised to the recipient. If a call only prepares the input for delivery or acceptance, include the work still needed and its time and entry conditions in the plan.
-4. **Return the route or the unresolved question.** A supported route states the calls, intermediate results, order or safe parallelism, resource assumptions and stop or replan conditions needed by the use. If an unknown condition could change feasibility or route choice, identify it and what information could settle it. Section 4.2 selects a bounded scout only when such a scout can usefully answer that question. A changed action returns to its selecting Method.
+4. **Return the route or the unresolved question.** State the calls, useful intermediate results, required ordering or safe parallelism, shared resources and stop or replan conditions. When a later call depends on an earlier result, specify what the person or system making that choice will know in time and what it can then do. For a guaranteed result, check the remaining budget and completion conditions on every reachable branch. If the deciding information arrives after an irreversible choice, establish a route that works across the cases still possible then, or report the missing condition. Use §4.2 for a bounded scout when its result could resolve that question at justified cost. A changed action returns to its selecting Method.
 
 
 #### C.24:4.2 - Bounded scout or probe cycle
@@ -183,7 +183,7 @@ An ordinary written plan can supply this content; the schemas above are optional
 
 - exactly one action-basis branch: the grounded domain-prescribed action, an A.15.7 decision episteme, or a C.11 `choose now` ChoiceResult; add the objective and ordered Method refs;
 - route-description refs only when needed, with their source scheme, exact edition, intended use, and selected Method binding;
-- dependencies or safe parallelism only when they change the route;
+- dependencies, safe parallelism and any earlier result that governs which later call can be made, when these change the route;
 - applicable time, compute, cost or risk budgets, with stop and replan conditions;
 - next planned action; and
 - an exact C.19 or C.19.1 result, B.3 assurance result, causal-use result, provenance ref, or named domain-constraint result only when that branch is current.

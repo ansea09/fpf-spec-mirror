@@ -6,12 +6,12 @@ section_id: "C.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__004_forces.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:3 — Forces"
-line_start: 56135
-line_end: 56141
+line_start: 56243
+line_end: 56249
 dependencies:
   - "A.13"
   - "A.15"

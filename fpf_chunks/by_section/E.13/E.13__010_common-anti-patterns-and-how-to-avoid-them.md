@@ -6,12 +6,12 @@ section_id: "E.13:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 112379
-line_end: 112389
+line_start: 112501
+line_end: 112511
 dependencies:
   - "A.10"
   - "A.21"

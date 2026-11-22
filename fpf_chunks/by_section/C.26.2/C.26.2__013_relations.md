@@ -6,12 +6,12 @@ section_id: "C.26.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:12 — Relations"
-line_start: 69854
-line_end: 69859
+line_start: 69971
+line_end: 69976
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,15 +24,6 @@ dependencies:
   - "E.17.EFP"
   - "F.9"
 keywords:
-  - "coordinated work"
-  - "distributed-state evidence"
-  - "enacted state"
-  - "evidence carrier"
-  - "minimal state reading"
-  - "no group mind"
-  - "report/export loss"
-  - "rival explanation"
-  - "window"
 ---
 
 ### C.26.2:12 - Relations

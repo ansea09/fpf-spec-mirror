@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__004_forces.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:2 — Forces"
-line_start: 70325
-line_end: 70334
+line_start: 70444
+line_end: 70453
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.27:2 - Forces
 
-1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal-adequacy question can change the receiving action.
+1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal distinction can change what the recipient may conclude, explain or do.
 2. **Effort profiles versus derivative words.** Interventions can be impulses, scheduled pushes, feedback policies, adaptive regimes, brakes, pauses, coasting periods, or redirections. The useful question is what input occurs over which window.
 3. **Domain-specific resistance.** Lag, queue pressure, habit, coordination cost, technical debt, service demand, physical inertia, or another domain-local resistance can matter. None becomes a new mass or force kind.
 4. **Temporal meaning and coupling.** Preserve the temporal claim's bearer, predicate and timing under C.27.TA; add an exact separate reference when needed. Cross-bearer phase, synchronization, coupling or entrainment appears only when the receiving use relies on that relation.

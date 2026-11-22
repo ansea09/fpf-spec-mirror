@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 117150
-line_end: 117232
+line_start: 117272
+line_end: 117354
 dependencies:
   - "A.10"
   - "A.15"

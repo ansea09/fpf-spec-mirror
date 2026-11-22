@@ -6,12 +6,12 @@ section_id: "B.2.5:10"
 section_title: "SoTA-Echoing — establish the feedback claimed for this interval"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__013_sota-echoing-establish-the-feedback-claimed-for-this-interval.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:10 — SoTA-Echoing — establish the feedback claimed for this interval"
-line_start: 46741
-line_end: 46760
+line_start: 46775
+line_end: 46794
 dependencies:
   - "A.1"
   - "A.10"

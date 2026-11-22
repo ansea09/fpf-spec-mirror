@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:5"
 section_title: "Worked Residual Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__006_worked-residual-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:5 — Worked Residual Cases"
-line_start: 82724
-line_end: 82734
+line_start: 82838
+line_end: 82848
 dependencies:
   - "A.10"
   - "A.19.CPM"

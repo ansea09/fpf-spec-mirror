@@ -6,12 +6,12 @@ section_id: "G.11:End"
 section_title: "G.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__015_g-11-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:End — G.11:End"
-line_start: 141676
-line_end: 141677
+line_start: 141798
+line_end: 141799
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

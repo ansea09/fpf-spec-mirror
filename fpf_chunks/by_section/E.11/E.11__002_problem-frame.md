@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 109360
-line_end: 109377
+line_start: 109482
+line_end: 109499
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

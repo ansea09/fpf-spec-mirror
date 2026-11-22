@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:5 — Archetypal grounding"
-line_start: 43522
-line_end: 43569
+line_start: 43530
+line_end: 43577
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,9 +64,9 @@ For **Γ_epist^compile**, map the retained claims into the journal's scheme, car
 
 * **Inputs:** a requirement specification, hazard analysis, test logs, and a proof of controller property P under assumptions A. Preserve each source's formal basis and support. No common R scale follows from four labels or formality levels.
 * **Formal receiving question:** “Does A entail P in the stated model?” Retain the valid proof and its assumptions as the useful result. An empirical study is not needed to turn that result into an invented empirical R; F describes the expression properties; the probability that the actual controller is safe needs its assurance basis.
-* **World-facing receiving question:** “Does the installed controller deliver the protective function in these operating conditions?” Expose the reliance on A, the implementation/model correspondence, and the operating scope. If A is unsupported for this use, the proof alone does not establish the world-facing claim. If logs show an edge case violating A, retain that counterevidence and withhold the stronger assurance while preserving the theorem A ⇒ P.
-* **Threshold case:** a receiving acceptance clause requires a justified probability of at least 0.95 for the real protective function. Substituting a high F or its rescaled value cannot meet it. A declared ordinal checkability comparison remains usable as an ordinal comparison. A numerical acceptance result requires the model and evidence that warrant that probability; otherwise return the narrower formal conclusion and the unresolved system assurance.
-* **Positive quantitative case:** if a receiving model establishes two necessary independent conditions, each with probability 0.9, their conjunction is 0.81. A 0.85 threshold is not met by replacing 0.81 with min(0.9, 0.9). If independence is unavailable, the joint probability needs the conditional model or remains unresolved; the formal proof is unchanged.
+* **World-facing receiving question:** “Does the installed controller deliver the protective function in these operating conditions?” Expose the reliance on A, the implementation/model correspondence, and the operating scope. If A is unsupported for this use, the proof alone does not establish the world-facing claim. If logs show an edge case violating A, the theorem A ⇒ P still holds. Its proof leaves the real function in that case unresolved. Other evidence can settle the assurance question over its intended operating range.
+* **Threshold case:** a receiving acceptance clause requires a justified probability of at least 0.95 for the real protective function. Substituting a high F or its rescaled value cannot meet it. A declared ordinal checkability comparison remains usable as an ordinal comparison. Acceptance can follow from a justified lower bound at or above the threshold. An upper bound strictly below it establishes failure to meet the clause. Where neither conclusion follows, return the narrower formal result and identify the unresolved system assurance.
+* **Positive quantitative case:** suppose the real protective function requires two conditions, each with probability 0.9. Under independence the probability of both is 0.81. The function can be present only when both hold, so its probability is at most 0.81. This rules out a 0.85 threshold. The probability of success equals that of the conjunction exactly when the probability of failure with both conditions present is zero. Without independence the probability of both lies between 0.8 and 0.9. Even one necessary condition with probability 0.9 rules out the 0.95 threshold. The formal proof remains available under its own assumptions.
 
 For **Γ_epist^compile**, map the retained claims to the certification scheme. Where local meanings differ, identify source and receiving `SchemeSenseCell` values, test the F.9 Bridge, state the bounded certification use and permitted loss, and establish relied-on use separately. C.2.1 identifies the resulting episteme. Certification, authorization, a publication occurrence, and system protection remain separate claims.
 

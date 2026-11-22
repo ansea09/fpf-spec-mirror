@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:6 — Worked cases"
-line_start: 46989
-line_end: 47028
+line_start: 47029
+line_end: 47070
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ The domain model says that both independently tested conditions must succeed: se
 
 On the independence assumption, treating `min(0.9, 0.9) = 0.9` as the joint probability would overstate it. Even with unknown dependence, joint success cannot be more likely than either necessary event. On these marginal estimates its probability is at most `0.9`. For a more demanding decision, establish the dependence or obtain other sufficient bounds.
 
-Return to the protection function. In this model success requires both events, so the probability of success is at most `0.81` on the stated estimates. Thus under these assumptions the design falls short of any required minimum strictly above `0.81`. To use `0.81` as the success probability itself, establish that the two events together suffice. If there is another way the function can fail after both have succeeded, include it in the model or retain the upper bound. A decision about the actual design also needs the estimates and dependence assumption to be adequate for the intended demand class.
+Return to the protection function. Success requires both events, so its probability is at most `0.81` under the stated model and estimates. This rules out a required minimum above `0.81`. For a minimum of `0.80`, the assessor needs to bound the remaining failures. If the probability that both events occur and the function still fails is at most `0.01`, the model gives a lower bound of `0.80` for success. With no such bound, the upper bound alone leaves that acceptance open. To claim equality with `0.81`, establish zero probability of failure with both conditions present. For a decision about the actual design, establish how well the estimates and the dependence assumption apply to its demand class, including uncertainty that could change the decision.
 
 #### B.3:6.2 - Routed-away case: dashboard status
 
@@ -69,9 +69,11 @@ The engineer states the supporting inference: “The validation compared M's pre
 
 These are premises of this worked case. If the validation does not establish that coverage or tolerance, narrow the use or return an unresolved disposition. Keep the argument beside the compact result or accessible through `basisRefs`. A later correction to the validation reopens the conclusions that depended on the corrected result.
 
+If the engineer is asked to design the assessment for later comparisons, start with the choice those comparisons must support. Suppose the task is to rank two proposed settings by response. A common offset can leave their ranking unchanged. Error in the predicted difference can reverse it. Choose conditions and evidence that bound the error in that difference over the uses promised. For a strict ranking, a predicted advantage greater than the bound on the absolute error in the difference establishes its sign. To decide whether one setting clears an absolute limit, the offset can matter again. The existing validation can supply either bound if its result covers that quantity and range.
+
 #### B.3:6.4 - Order-sensitive Method case
 
-An assurance argument relies on a manufacturing sequence whose result changes when two steps are reversed. Recover the B.1.5 composition, order and join conditions and any A.15.1 Work the argument consumes. Those results may answer the assurance question.
+An assurance argument relies on a manufacturing sequence whose result can change when two steps are reversed. To establish what a specified order would achieve, recover the order, any applicable joins and the rule that gives their consequence. For a claim about an actual batch, an applicable final inspection may answer directly. To establish how the batch was produced, use A.15.1 to identify the relevant work, its order and its contribution. To establish which steps are constituents of one reusable Method, use B.1.5.
 
 Use A.22 only if a separately selected organization contributes another needed premise; then identify its constituents, obtaining relations, applied constraints and use frame. The assurance result cites only the results and structure it relies on.
 

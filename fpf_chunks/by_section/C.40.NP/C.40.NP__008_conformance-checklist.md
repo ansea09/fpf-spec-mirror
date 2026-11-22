@@ -6,12 +6,12 @@ section_id: "C.40.NP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:7 — Conformance Checklist"
-line_start: 93870
-line_end: 93879
+line_start: 93992
+line_end: 94001
 dependencies:
   - "C.18"
   - "C.19"

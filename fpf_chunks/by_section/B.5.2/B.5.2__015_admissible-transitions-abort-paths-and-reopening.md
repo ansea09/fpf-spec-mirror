@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 52068
-line_end: 52103
+line_start: 52164
+line_end: 52199
 dependencies:
   - "A.10"
   - "A.16"
@@ -42,7 +42,7 @@ Not every abductive run should end in a prime hypothesis. Three non-selection ou
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
 2. **Defer.** The available candidates or grounds do not support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may proceed under C.11.
-3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their prompt-entry conditions.
+3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. If the original question concerns how the contributions act together, identify what evidence or reasoning can connect their answers. Keep that question open until the connection warrants an answer.
 
 
 #### B.5.2:14.3 - Reopening and rival reinstatement
@@ -59,5 +59,5 @@ A conforming reopening note should identify:
 
 #### B.5.2:14.4 - Scope discipline during iteration
 
-Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, state that change before using the candidate at the new scope.
+Compare the scope of the candidate with the explanatory question. To use an explanation of one occurrence for a recurring phenomenon, identify what makes the account apply across the occurrences that matter. One decisive case can already refute an explanation claimed for every occurrence. A new question about a different setting can be pursued under a commission to explore. For a fixed assignment, give the supported answer to the question asked and identify any change of assignment that needs agreement.
 

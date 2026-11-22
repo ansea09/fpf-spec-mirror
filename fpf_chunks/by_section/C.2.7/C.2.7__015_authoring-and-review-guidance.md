@@ -6,12 +6,12 @@ section_id: "C.2.7:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__015_authoring-and-review-guidance.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:14 — Authoring and Review Guidance"
-line_start: 56870
-line_end: 56885
+line_start: 56978
+line_end: 56993
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ### C.2.7:14 - Authoring and Review Guidance
 
 #### C.2.7:14.1 - Author prompt
-To publish a representation-factor bundle, ask separately:
+What must the recipient distinguish, and which units and decoding rule are available to them? Select the questions below that bear on that use.
 
 - how local or distributed is the representation?
 - how sparse or dense is it?

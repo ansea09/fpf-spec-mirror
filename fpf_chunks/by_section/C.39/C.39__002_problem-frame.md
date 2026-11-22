@@ -6,12 +6,12 @@ section_id: "C.39:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:1 — Problem frame"
-line_start: 87139
-line_end: 87152
+line_start: 87253
+line_end: 87266
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

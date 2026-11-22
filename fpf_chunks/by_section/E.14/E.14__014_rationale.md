@@ -6,12 +6,12 @@ section_id: "E.14:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__014_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:11 — Rationale"
-line_start: 112832
-line_end: 112843
+line_start: 112954
+line_end: 112965
 dependencies:
   - "B.3.5"
   - "C.13"

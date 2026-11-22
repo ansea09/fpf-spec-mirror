@@ -6,12 +6,12 @@ section_id: "C.37.MP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__013_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:11 — SoTA-Echoing"
-line_start: 86550
-line_end: 86561
+line_start: 86664
+line_end: 86675
 dependencies:
   - "A.10"
   - "A.3.1"

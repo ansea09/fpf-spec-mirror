@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.A.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
-line_start: 58711
-line_end: 59258
+line_start: 58821
+line_end: 59370
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -110,6 +110,8 @@ Names such as `Guard_TypedClaim` are editorial handles. A context may alias them
 
 The subkind direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule.
 
+The inclusion or correspondence must cover the receiving candidates for which the claim will be used. Inclusion established on one closed roster supports restriction to that roster. Applying the rule to an additional candidate needs grounds covering that candidate. For distinct kinds, establish that the mapping covers the required target cases and preserves the premise and consequence the receiver needs. An unrestricted target use requires that ground across its entire domain.
+
 This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
 
 #### C.3.A:4.2 - Guard_CandidateUse — apply a typed claim to an exact candidate
@@ -142,7 +144,7 @@ Evidence may support a classification assertion, but record presence, bridge pre
 4. when a produced candidate enters B, check admissibility and evaluate `J(candidate, k_B, edition_B, TargetSlice)` only for an admissible request; continue only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds; and
 5. route justified bridge consequences to R and check freshness before allowing use.
 
-Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction.
+Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction. For a promise covering every permitted output, check that compatibility holds over the producer's full permitted output domain. An inclusion proved on one batch covers that batch.
 
 #### C.3.A:4.4 - Guard_MaskedUse — exact RoleMask use
 
@@ -211,7 +213,7 @@ When composing macros, reuse checks whose inputs and receiving use are unchanged
 
 | ID | Requirement |
 | --- | --- |
-| **GC-01** | A universally quantified claim pins both claim-kind and receiving-kind declaration editions; the non-bridged restriction requires the receiving kind to be identical to or a subkind of the claim kind, while producer/output positions use their own direction. No candidate is invented. |
+| **GC-01** | A universally quantified claim pins both kind declarations. Its restriction uses identity, subkind inclusion or a justified correspondence that covers the intended receiving domain and preserves the required inference. For a producer output, check compatibility towards the consumer's input over the output domain claimed. Declaration-level use needs no individual candidate. |
 | **GC-02** | Every claim-to-candidate use pins candidate, claim kind, receiving kind, both needed signature editions, and slice; it checks admissibility before evaluating the target receiving judgment and consuming `true`/`false`/`unknown`. An inadmissible request retains `not-applicable` without a judgment. |
 | **GC-03** | `not-applicable`, `unknown`, and known `false` remain distinct from each other and from guard refusal. |
 | **GC-04** | RoleMask use recovers the declaration episteme and, when the use is candidate-bearing, the exact masked judgment; any MaskAdapter remains a separate declaration. |
@@ -279,11 +281,11 @@ Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; 
 
 **E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored.
 
-Plant-B evaluates its vehicle candidate under that target edition; the source result is only support. The receiving R assessment accounts for the collapsed EV/ICE distinction when it affects the relied-on claim; the bridge rating alone supplies no numerical decrement.
+Plant B evaluates the candidate under its target edition. Suppose the source rule requires every mapped vehicle to carry the same identifier. It can apply where the mapping covers the target units and preserves that identifier requirement. A source rule specific to battery-electric vehicles needs to distinguish those vehicles. If Plant B's classification combines them with vehicles powered only by combustion, establish the propulsion type from another admissible source or restrict the rule to a supported subset. The `CL^k` rating alone supplies neither this distinction nor a numerical R decrement.
 
-**E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, unavailable key-validation support yields target `unknown`; the consumer refuses without asserting that the request is known unauthenticated.
+**E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, suppose the other grounds establish neither the required condition nor its failure. If key-validation support is unavailable, the target judgement is `unknown` and the consumer refuses. An established failure of another necessary condition would already settle the target judgement as `false`.
 
-**E4 — Masked clinic use.** The guard designates the exact `AdultPatient@Clinic` RoleMask declaration, base signature edition, patient candidate, and slice. Unavailable date-of-birth support yields `unknown`; the mask label and EHR row do not classify the patient.
+**E4 — Masked clinic use.** The guard designates the exact `AdultPatient@Clinic` RoleMask declaration, base signature edition, candidate and slice. The mask label and a record entry can identify them. Age classification requires evidence for the applicable criterion. Suppose age of at least 21 is required. A verified age of at least 22 at that time satisfies the age condition. If the available record establishes only age of at least 18 and both 20 and 22 remain possible, the age condition is `unknown`.
 
 ### C.3.A:10 - Rationale
 
@@ -350,7 +352,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 ##### C.3.A:A.4 - Worked examples [I]
 
 
-**Adult dosage across jurisdictions.** Authority kind `AdultPerson@RegY` uses threshold 18; hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. For patient P-44, the hospital evaluates its target signature edition in the dated formulary slice. Missing DOB support gives `unknown`; the guard refuses without asserting that P-44 is a non-adult.
+**Adult dosage across jurisdictions.** In this example the authority kind `AdultPerson@RegY` uses threshold 18 and the hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. The hospital evaluates its target signature edition in the dated formulary slice. For candidate P-44, suppose the only age information is that P-44 met the authority threshold that day. Ages of 20 and 22 are both compatible. The target age condition remains `unknown`, and the guard refuses a use requiring positive classification. An attested bound of at least 21 would settle the hospital's age condition under these rules.
 
 **GDPR and CCPA.** Two source kinds relate to independently identified product-context kinds through separate bridges/assertions. Each policy has its own jurisdiction/time Scope. A data item is governed by a fresh target judgment; an alias table is support, not classification.
 

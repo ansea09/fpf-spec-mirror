@@ -6,12 +6,12 @@ section_id: "B.5.QD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:4 — Solution"
-line_start: 51403
-line_end: 51478
+line_start: 51491
+line_end: 51566
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -25,7 +25,7 @@ keywords:
 
 ### B.5.QD:4 - Solution
 
-**Recover what changed → locate the dependency or new operation → construct a consequential question → work a revealing case → choose the next inquiry and keep what remains useful.**
+**Recover what changed → find the consequential dependency or new operation → formulate the question it opens → use a case, construction or argument to establish a useful point of entry → choose how to continue.**
 
 Enter with the result that changed the inquiry. Reuse a known formulation or derivation when it supplies the needed step. Return to an earlier step if an attempted answer reveals that the question is ambiguous, underdetermined or more expensive than its use warrants.
 
@@ -55,7 +55,7 @@ Use variations that have a reason in the work. The following are common ways to 
 | An argument needs an unavailable intermediate result. | Ask for a lemma, witness or construction that supplies that step; state how it would be used. |
 | A familiar operation becomes available in another setting. | Ask whether its required relations hold there and what receiving task it can serve. |
 
-A variation can change the original task. State that change: restricting a claim to trees may give a valid result while leaving the original request about all graphs unanswered. If the broader request matters, keep it as an unresolved question.
+Ask what the variation preserves for the earlier question. A counterexample on a tree can refute a claim about all graphs. A theorem for trees can settle a request about all graphs if a valid reduction carries its conclusion back to every graph at issue. Without such a connection, keep the broader claim open. When research direction is yours to choose, you can pursue the tree question for its own mathematical interest. When the broader answer was requested, identify what remains due or obtain agreement to a different result.
 
 These variations can be combined or repeated. Their purpose is to expose a useful answer.
 
@@ -71,9 +71,9 @@ Separate a proposed answer from the question. “Does this procedure always term
 
 If a question combines several missing contributions, make the dependency visible. For a physical calculation, you may first need a model that determines a quantity, then a computation of that model, then an interpretation for action. B.5.MPC coordinates those contributions. Name the first unresolved connection so a person, AI agent or group can work on it using the available subject knowledge and tools.
 
-#### B.5.QD:4.4 - Work a case that reveals the difficulty
+#### B.5.QD:4.4 - Find an entry that reveals what the question requires
 
-Choose a small case that exercises the changed condition or new operation. Attempt the requested construction or inference and explain where it succeeds or stops.
+Choose an entry that exposes what must be done. A small case is useful when changing one condition reveals an obstruction or a lost distinction. If the relevant dependence already follows from an argument or a construction over arbitrary admissible inputs, use that reasoning directly. To distinguish two possible explanations of an occurrence, seek grounds about that occurrence. A new hypothetical case can show how the explanations differ.
 
 Use the result to improve the question. A successful case can expose a reusable relation. A failed case can identify a missing premise, an incompatible demand or an operation to be developed. If two admissible cases give different answers from the same supplied information, ask for the missing distinction or a result valid for both.
 
@@ -89,7 +89,7 @@ A worthwhile first question may be narrower than the eventual aim: establish a l
 
 E.10.INT helps distinguish useful interest from novelty, surprise or a local scoring heuristic. A question can be worth pursuing because it opens further constructions, changes what can be explained or makes another question approachable. Its eventual practical destination may remain unknown. When problems and ways of solving them must develop together, use C.40; retain a promising alternative when its prospective use justifies doing so.
 
-Continue with the chosen question, its first attempt and the dependency that attempt is meant to resolve. A short explanation in the work can carry this result. Stop when the need is answered, or when another inquiry is the better use of the available effort.
+Continue with the chosen question, the contribution that makes it attainable and the dependency it is meant to resolve. Stop when the requested result is in hand. In an open inquiry, a better use of the available effort can justify changing direction. For a fixed assignment, a reason to stop investigating identifies a limit on the answer unless the work already meets the assignment or its holder has changed it.
 
 #### B.5.QD:4.6 - Separate question recognition from answer assurance
 

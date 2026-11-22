@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 69930
-line_end: 70124
+line_start: 70047
+line_end: 70241
 dependencies:
   - "A.10"
   - "A.15"
@@ -125,7 +125,7 @@ The first useful move is to replace a one-scalar stability account with an inspe
 
 Envelope-regulation sequence:
 
-1. Point the local viability-bearer position to one object.
+1. Starting from the work or result to be protected, follow a possible failure to the participants and connections that can affect it. Identify which object the viability claim concerns.
    - For a System, cite its A.1 identity.
    - For selected organization, cite one A.22 `U.Structure` through independently identified constituents, selected obtaining relation occurrences, constraints as applied, and one named selection-use frame; a role-kind/assignment list is insufficient.
    - For a population or market slice, state its declared domain and effective reference scheme, membership or scope, and identity basis.
@@ -143,7 +143,7 @@ Envelope-regulation sequence:
 
 Ordinary output: explain the viability bearer, variables and bounds, disturbance, observations and failure condition. When regulation is proposed, add the identified proposal, trade-off and adaptation cost. A record is useful when its layout helps recover those distinctions; ordinary prose can preserve them.
 
-Finish with the supported diagnosis or the proposal it warrants. Use the proposal's direct pattern for its development and any later execution or change; keep the supported envelope claim separate from those results. If its necessary grounds are missing, retain only the narrower supported claim or return the missing basis.
+For a diagnosis, return the supported state and any limit on that conclusion. To design a way to regulate the service, work back from a threatened condition to a change within the responsible performer's reach. Establish which observations can arrive before action is needed. For a guarantee, determine whether an available response protects the result across the situations still indistinguishable at that time. If they require different responses, find a timely distinguishing observation or another way to protect the result. For a risk or frequency target, assess the response under the conditions and tolerance that target specifies. A qualified existing operating method may already supply the answer. For an operating assignment, use the resulting method in the work, observe the protected result and respond to departures while the obligation lasts. The proposal, its actual performance and the service obtained each have their own grounds.
 
 #### C.26.3:4.6 - Viability envelope record
 
@@ -204,7 +204,7 @@ Use the minimal reading that carries the case:
 | Homeostatic envelope | The target is to keep a bundle inside a stable range under disturbance. | State variables, range, disturbance, sensor, candidate intervention with its recovered direct object, and failure mode. |
 | Allostatic envelope | Function is preserved through one or more separately governed changes. | State the proposal's Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; separately state any dated Work, actual transformation or other change, obtaining relation occurrence, resulting state, and moved cost. |
 | Probe-coupled viability | The measurement, dashboard, review, or readiness check changes the envelope it reports, but its output is used as a passive read for the decision. | Coordinate with `C.26.1`. |
-| Enacted viability state | Coordinated work, behavior, or traces support a collective-state reading relevant to the envelope that no single report or export faithfully carries. | Coordinate with `C.26.2`. |
+| Enacted viability state | The envelope assessment depends on how parts of a collective actually worked together. | Use `C.26.2` to establish what the observed activities and their connections warrant. |
 
 Use allostasis only when stability through change is the useful architecture reading.
 

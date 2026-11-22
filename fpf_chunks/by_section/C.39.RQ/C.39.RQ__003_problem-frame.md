@@ -6,12 +6,12 @@ section_id: "C.39.RQ:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__003_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:1 — Problem Frame"
-line_start: 89170
-line_end: 89175
+line_start: 89292
+line_end: 89297
 dependencies:
   - "A.3.1"
   - "C.11"

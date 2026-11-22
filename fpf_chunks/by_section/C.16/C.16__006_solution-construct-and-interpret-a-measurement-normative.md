@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution - Construct and interpret a measurement (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-construct-and-interpret-a-measurement-normative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution - Construct and interpret a measurement (Normative)"
-line_start: 61222
-line_end: 61341
+line_start: 61334
+line_end: 61453
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.1 - Name the measurand and measurement subject
 
-**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. A pressure at one port and the maximum pressure anywhere in a vessel are different measurands. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
+**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. If choosing the measurand is your task, begin with the recipient's decision. C.39.SA:4 helps when several composition scales or levels of model abstraction could serve that decision. Which subject bears the consequential property, at what places and times? Hold a proposed reading fixed and vary another condition allowed by the task. The pressure at one port may settle whether the local valve reaches its opening threshold. The same port reading can accompany different peak pressures elsewhere in the vessel. A vessel-wide limit needs a relation to those pressures, observations covering them, or a sufficient bound. A justified bound can settle the limit while the exact maximum remains open. The measurement scale and unit can stay the same across these different questions. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
 
 **M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 

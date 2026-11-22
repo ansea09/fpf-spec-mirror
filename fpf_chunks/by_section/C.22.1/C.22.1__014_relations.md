@@ -6,12 +6,12 @@ section_id: "C.22.1:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__014_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:13 — Relations"
-line_start: 66211
-line_end: 66228
+line_start: 66325
+line_end: 66342
 dependencies:
   - "A.15"
   - "C.19.1"

@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 64202
-line_end: 64491
+line_start: 64311
+line_end: 64600
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -181,7 +181,7 @@ A supported pool-treatment conclusion identifies the pool and its next treatment
 - Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without implying that one scalar winner has already been chosen.
 - Close as `sunset_line` when a line's prospective contribution, feasible continuation or retention no longer warrants its burden under the pool policy. Failure to graduate is not enough. Its archived result may still be retained under C.18 when that separate retention remains useful.
 
-When comparing two policies, hold the candidate lines, evidence and pool question fixed and apply each policy. Identify any treatment the change permits or excludes under those conditions. Applying the same policy to newly generated candidates or newly observed performance can also change the treatment. State which input changed so the next team can tell whether to revise its policy, update the pool or use the new evidence.
+For a decision about the present pool, apply both policies to the same candidate lines and evidence. Compare how the policies would treat these lines. With the same permitted actions they can still give different commitments, resource allocations or sampling probabilities. Retain the differences that matter to the present decision. For a comparison starting from this pool, hold its initial candidates and the external opportunity and resource conditions comparable. For performance across pools, establish a comparable basis across the population in question. Trace how each policy’s treatments would affect the candidates explored, the evidence obtained and the later choices available. Identify which differences follow from the policy and which depend on an external change. A prospective comparison can remain conditional on an outcome still to be observed.
 
 When the question has stopped being pool policy, carry the established result or qualified open question into the applicable handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
 

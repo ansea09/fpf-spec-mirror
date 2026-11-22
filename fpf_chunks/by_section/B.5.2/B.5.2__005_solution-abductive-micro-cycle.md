@@ -6,12 +6,12 @@ section_id: "B.5.2:4"
 section_title: "Solution - Abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-abductive-micro-cycle.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:4 — Solution - Abductive micro-cycle"
-line_start: 51904
-line_end: 51965
+line_start: 51998
+line_end: 52061
 dependencies:
   - "A.10"
   - "A.16"
@@ -41,6 +41,8 @@ Abduction develops candidate explanations, models or conjectures for a declared 
 | **2. Generate candidate hypotheses** | Develop candidates that could explain the prompt and look for serious rivals. | The candidates considered, including any limit from not identifying a serious rival. |
 | **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale stating why each considered candidate remains live, is deferred or is rejected, and what comparison those grounds support. |
 | **4. Return the supported result** | Select a conjecture when the comparison warrants it; otherwise return the applicable outcome in §14.2. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, any live rivals, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome. |
+
+To construct a candidate, work back from the unexplained contrast. What relation could produce both the observed outcome under one condition and the comparison outcome under the other? Hold the proposed factor fixed and look for another way to obtain the contrast. It might arise from an interaction among components, from how the observation was made, or from an assumption in the account. In a theoretical inquiry, trace apparently incompatible results to their assumptions and vary one that could change what each result says. Keep a candidate when you can show what would follow from it for the prompt.
 
 The loop is iterable. A selected prime hypothesis may later be replaced, narrowed, or reopened if deduction, probe work, or evidence reveals a better rival.
 

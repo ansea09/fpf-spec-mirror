@@ -6,12 +6,12 @@ section_id: "B.5.EA:End"
 section_title: "B.5.EA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__014_b-5-ea-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:End — B.5.EA:End"
-line_start: 48809
-line_end: 48810
+line_start: 48892
+line_end: 48893
 dependencies:
   - "B.5"
   - "B.5.4"

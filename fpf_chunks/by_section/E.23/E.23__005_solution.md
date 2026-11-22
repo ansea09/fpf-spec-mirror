@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 122967
-line_end: 123386
+line_start: 123089
+line_end: 123508
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -432,7 +432,7 @@ Typical operation families are specification articulation, task decomposition, c
 
 #### E.23:4.6 - Cost and BLP discipline
 
-`C.19.1` governs the preference for broad, scale-amenable methods when safety, admissibility, and practical fitness are comparable. `E.23` uses that preference but does not assume that accepted-work cost is one number. Compare material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales. Keep the components separate, reject a dominated option, and use the declared project policy to choose or hold when no option dominates.
+Use `C.19.1` when the decision relies on a scale advantage or an adopted preference for general methods. Establish the advantage for the intended tasks and resource settings, or apply the preference under its stated conditions. Compare material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales. Keep the components separate. Establish which options satisfy the binding conditions for the intended result. Exclude an option on grounds of dominance only if an eligible rival dominates it under the governing comparison. Use the declared project policy to choose or hold among the remaining alternatives.
 
 Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Until then, avoided loss is a separate project estimate rather than a quantity subtracted from concrete burden. A justified avoided loss can still make an expensive loop preferable. For a simple object, a direct edit or adjustment, small repair, lower-cost performer, specialized cycle, or one-shot evaluation can remain the better option.
 

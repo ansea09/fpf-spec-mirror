@@ -6,12 +6,12 @@ section_id: "G.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:6 — Conformance Checklist"
-line_start: 141900
-line_end: 141915
+line_start: 142022
+line_end: 142037
 dependencies:
   - "A.19"
   - "A.2.6"

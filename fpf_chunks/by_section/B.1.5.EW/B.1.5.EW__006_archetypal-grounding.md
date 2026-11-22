@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:5 — Archetypal Grounding"
-line_start: 44446
-line_end: 44471
+line_start: 44456
+line_end: 44481
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -38,7 +38,7 @@ The selected Work structure here connects the performed movement, coordinated fi
 
 An analyst is totaling accepted observations as part of preparing a report. The algorithm maintains a running sum. On reading the next value, adding it to the accumulator is a constituent of computing the total; computing that total is part of the report preparation currently under way. The addition, computation and report preparation do not incur three copies of that minute of work.
 
-The addition is correct over the supplied numbers. The report, however, requires excluding duplicate observations. If duplicate detection is missing, more precise addition cannot repair the report. Recover the accepted-observation rule and apply it before the affected update. The order remains: the next update consumes the current accumulator, and the report cannot use the final total before the calculation finishes.
+The addition is correct over the supplied numbers. The report, however, requires excluding duplicate observations. If duplicate detection is missing, more precise addition cannot repair the report. If every intermediate sum must count only accepted observations, apply the eligibility rule before each affected update. If the report promises a final total, documented reconciliation of duplicates before delivery can also give the required result. In the running-sum algorithm each new addition consumes the previous accumulator.
 
 A scheduler running on the same machine overlaps the calculation. That overlap alone makes it neither an arithmetic constituent nor report-preparation Work.
 

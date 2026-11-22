@@ -6,12 +6,12 @@ section_id: "C.26.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:5 — Archetypal Grounding"
-line_start: 70125
-line_end: 70154
+line_start: 70242
+line_end: 70273
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,6 +66,8 @@ For this hour the team can report that service fell outside the required bounds.
 Recover the proposal's object, adaptation cost, applicable authority and realization latency before choosing it; a planned enactment belongs in a WorkPlan. Missing intervention evidence leaves the diagnosis useful.
 
 If support capacity is independently revised to 50 comparable contacts per hour under the same conditions, the same demand of 45 contacts satisfies that revised constraint, but the 3% stale-status result still exceeds the retained 1% requirement.
+
+Suppose the team is also asked to operate checkout through the next spike. An alert calculated at the end of the incident hour comes too late to prevent stale replies in that hour. Work back from those replies to the reads that can return an old payment status. The team can consider bypassing the cache for those reads while keeping it for other requests. To use this rule, establish that these reads can be recognized before the response and that the source reached by the bypass is current often enough to meet the 1% stale-status limit for the service. Check that latency and support demand also meet their bounds over the load conditions the service promises to cover. Once those conditions are established, the authorized operator can enable the rule in time, check the three bounds in use and respond when conditions change. A claim about the service actually delivered during the spike relies on observations or bounds covering that period.
 
 
 

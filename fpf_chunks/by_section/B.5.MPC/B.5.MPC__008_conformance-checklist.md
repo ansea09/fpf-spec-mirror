@@ -6,12 +6,12 @@ section_id: "B.5.MPC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:7 — Conformance Checklist"
-line_start: 49406
-line_end: 49423
+line_start: 49489
+line_end: 49506
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -42,7 +42,7 @@ Use these checks on the claimed joint result and its explanation. They establish
 | CC-MPC.1 — Receiving question | The explanation identifies the physical difference to be resolved and what the supported answer enables. |
 | CC-MPC.2 — Physical premises | Participants, interactions and operating conditions are sufficient to recover the mathematical question; consequential assumptions remain distinguishable from observations. |
 | CC-MPC.3 — Interpretable construction | Important quantities, structures and operations have meanings that survive the construction, and a lost distinction either leaves the use intact or changes the returned result. |
-| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation is supplied for the stated case, with the decisive argument and its conditions. A missing operation is named as missing. |
+| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation reaches the requested instance or range under its stated conditions. A result about part of the arrangement identifies what it establishes for the whole question and any operation still needed. |
 | CC-MPC.5 — Executing arrangement | Any realization claim connects preparation, system operations and result reading. Range, units, initial state and ordering are recovered wherever they change the inference. |
 | CC-MPC.6 — Joint and alternative dependencies | Jointly needed contributions remain together; alternative routes each satisfy the receiving need under their own conditions. A shared premise remains shared across alternatives. |
 | CC-MPC.7 — Notation in use | The expression supports the needed operation under explained or familiar rules; new subject conclusions are justified by that operation rather than presented as mere re-expression of givens. |

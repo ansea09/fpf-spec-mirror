@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 62494
-line_end: 62858
+line_start: 62598
+line_end: 62962
 dependencies:
   - "A.10"
   - "A.16"
@@ -50,7 +50,7 @@ Inspect quality wording when its sense, bearer, comparison or consequence is unc
 #### C.16.Q:4.0a - Operational repair sequence
 
 1. **Read the whole assertion.** Recover what the sentence claims or asks. Retain its wording when an inspectable before/after comparison is needed.
-2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. Keep ordinary non-governed wording ordinary.
+2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. If the question could concern a component, the operation of several components together or the encompassing whole, identify the kind of whole and the relation the judgement depends on. A Method can prescribe what its parts must do together. A record of Work can establish which parts were performed together on this occasion. Keep the component result fixed and vary the others or their arrangement. If the requested conclusion can change, restore the relation between the assessed subject and the subject of the original question. An applicable common rule or a direct assessment of the required whole can settle the question. Keep ordinary non-governed wording ordinary.
 3. **Distinguish the plausible interpretations.** Use the stated purpose and interpretation scheme, together with any relevant evaluation conditions or comparison, to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
 4. **Follow the recovered question.** For action-oriented wording, a relation, evidence, a gate or another non-quality question, apply its subject rule. Use A.6.A, A.6.P, C.16.P or another recovery pattern only while the corresponding meaning is still unclear. An adequately expressed question can finish without a `QualitySense`.
 5. **Choose a sense when a transitional ascription is needed.** Select the applicable `QualitySense` and retain consequential rival interpretations while they remain unresolved. Explain a rejected alternative only when that distinction helps recover the intended claim.

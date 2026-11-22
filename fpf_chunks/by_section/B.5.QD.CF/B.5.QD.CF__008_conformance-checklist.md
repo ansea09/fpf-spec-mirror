@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:7 — Conformance Checklist"
-line_start: 51737
-line_end: 51746
+line_start: 51825
+line_end: 51834
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -29,7 +29,7 @@ keywords:
 - The inference distinguishes requirements, observations, modeling assumptions and proposed means where their different roles change the answer.
 - A claimed necessity has its direction and basis; a proposed replacement supplies the result previously attributed to that means.
 - A changed participant or condition corresponds to the intended situation, rather than merely changing a name.
-- The candidate returns to the retained requirements, including affected conditions outside the diagnosed conflict.
+- A proposed repair has grounds for the joint result required of the same arrangement, including relevant conditions outside the diagnosed conflict.
 - A compatible account, conditional construction, obtained result and authorized requirement change retain their different meanings.
-- The next question serves the unresolved need or states how that need was changed; a sufficient answer or impossibility can stop the work.
+- A sufficient answer or impossibility can complete the question it settles. Any separate result owed, or decision to revise it, remains identifiable.
 

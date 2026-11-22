@@ -6,12 +6,12 @@ section_id: "B.5.RR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:4 — Solution"
-line_start: 50423
-line_end: 50478
+line_start: 50505
+line_end: 50562
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -30,6 +30,8 @@ Start with the receiving question, follow the affected reasoning and derive the 
 #### B.5.RR:4.1 - Say what changed and what is needed
 
 Compare the earlier question with the present one. State the result needed and the changed condition in terms that can be used in the reasoning. For a calculation, that may be a new range or an input that is now an unknown. For an empirical conclusion, it may be an observation, a changed population or an operating condition.
+
+Establish who has changed the question. A recipient may commission a new result. You may also try a different question as a way into the one still assigned. Could two situations give the same answer to your question and different answers to the recipient's? If so, recover what distinguishes them for the assigned use. In an inquiry whose direction is yours to choose, you can pursue a newly interesting question on its own terms.
 
 Distinguish a change in the situation from a correction to your account of it. A measurement taken yesterday can remain a sound report of yesterday while being insufficient for today's operation. A proposed condition can be explored without replacing the account of what has happened.
 
@@ -65,7 +67,7 @@ Relate the revised conclusion to the result requested in §4.1. It may supply th
 
 For a mathematical argument, carry the domain and assumptions into its conclusion. For an empirical application, examine the changed observation or applicability premise using the relevant subject method. Recomputing a model can establish its new consequence while leaving its correspondence with the physical situation unresolved.
 
-If the original target is unattainable under the retained conditions, use the obstruction to propose a changed condition or a different question. Keep that proposal visible as a choice. A weaker result can be useful without silently replacing the requested result.
+If the question asks whether a result is attainable under fixed conditions, a proof of impossibility answers it. If the recipient still needs a usable object or arrangement, explain what the obstruction rules out. You can propose a change to a condition the recipient has authority to revise. Carry the answer under the original conditions with the proposal so the recipient can decide whether to commission the changed work.
 
 Obtain further evidence or checking when its possible outcomes can change this use. C.11.DUA helps compare that contribution with its cost. The method can finish with a conditional result when conditional use is sufficient.
 

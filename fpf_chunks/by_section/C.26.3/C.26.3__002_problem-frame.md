@@ -6,12 +6,12 @@ section_id: "C.26.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:1 — Problem frame"
-line_start: 69868
-line_end: 69909
+line_start: 69985
+line_end: 70026
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.26.3:1 - Problem frame
 
-Use this pattern when architecture work is maintaining, recovering, or changing viable operating ranges across boundaries. The working problem is to keep a bundle of characteristics inside a viable region while disturbances, probes, candidate interventions, boundary conditions, and operating regimes change.
+Use this pattern when protecting a function across boundaries depends on several conditions holding together under disturbance. Start with the work the recipient needs kept possible. Its requirements determine what state to assess, what a proposed method must preserve, and what the people running it will need to observe and do.
 
 **What goes wrong if missed.** The team treats one dashboard value, stability slogan, or local metric as viability, while another envelope variable, intervention cost, boundary condition, or failure mode is already breaking the protected promise or function.
 

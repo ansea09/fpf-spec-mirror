@@ -6,12 +6,12 @@ section_id: "B.5.SD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:4 — Solution"
-line_start: 53091
-line_end: 53167
+line_start: 53195
+line_end: 53269
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -24,7 +24,7 @@ keywords:
 
 #### B.5.SD:4.1 - Name the receiving question and the kind of answer needed
 
-Identify who will use the result and what that person or agent needs to settle or do. Ask for a representative use: a release decision, a revised explanation, an architecture choice, a research design, or a next action in a difficult task.
+Identify who will use the result and what they need to settle or do. Ask for the decision or inquiry as they face it. A participant may bring one disputed case to a discussion about a rule for future cases. Find out which choices the group is being asked to make and which the eventual user must be able to make. The case can reveal a missing distinction. To offer a rule to that user, establish where the distinction changes the answer.
 
 Distinguish the result required. An explanation relates what is known and why; a proposal states what could be done and on which grounds; an inquiry proposal identifies an unresolved question and a way to answer it; an agreement records accepted contributions. A discussion can produce more than one, but one does not substitute for another. Use LDR.2 when the unresolved result is acceptance of contributions rather than subject understanding.
 
@@ -83,9 +83,7 @@ A useful result can be an open question with a feasible next construction. State
 
 Give the receiver the connected result in a usable form, with the decisive grounds, unresolved matters and conditions that change its use. Let the receiver perform the intended interpretation or next action, rather than merely approve the meeting summary.
 
-Examine a plausible consequential variation. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? If another receiver reveals a needed input, does the proposed simplification still work? Follow only the affected connections; a small change need not restart the whole discussion.
-
-This variation is a way of checking whether the explanation relates its parts. Preserve a consequential unlisted concern when it appears.
+When a proposed explanation will be used under varying conditions, try a change that could affect its warrant. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? Follow that connection. An existing argument that covers the variation can answer directly. For a decision confined to this occasion, return the sufficient grounds for it.
 
 Finish when the receiving question has a warranted answer and feasible continuation, including a justified stop. If participants repeat views while the connection remains missing, change the construction, obtain the absent competence or return the blocker.
 

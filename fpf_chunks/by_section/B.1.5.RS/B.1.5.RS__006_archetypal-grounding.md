@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:5 — Archetypal Grounding"
-line_start: 44616
-line_end: 44643
+line_start: 44626
+line_end: 44653
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -40,7 +40,7 @@ Options include retaining the stable Method or sorting by a compound key of prio
 
 A constituent estimates a quantity with absolute error at most 2. A receiving whole can establish a strict ordering between two alternatives when their estimated values differ by more than 4 and both estimates satisfy that bound.
 
-Another whole must decide whether the quantity exceeds 100. An estimate of 99 is insufficient: the admitted interval is 97 to 101 and crosses the threshold. A more accurate estimate or another decision rule is needed for that case. At an estimate of 95, the same error bound puts the whole interval below 100 and can settle that decision.
+Another whole must decide whether the quantity exceeds 100. At an estimate of 99 the error bound alone gives the enclosing interval [97, 101]. It leaves the decision open. A separate bound on admissible values may settle the threshold even without a more accurate estimate. At an estimate of 95, the same error bound puts the whole interval below 100 and can settle that decision.
 
 The change from “estimate the quantity” to “support this decision” makes the scope of replacement explicit. The threshold is stipulated in this constructed example; the pattern does not supply a rule for choosing it.
 
@@ -48,5 +48,5 @@ The change from “estimate the quantity” to “support this decision” makes
 
 A group performs a movement sequence in response to a leader. A proposed observation Method uses occasional snapshots rather than continuous observation. It can suffice for an exercise in holding a static pose, but miss the cue that starts a coordinated transition.
 
-Recover the timing needed by the encompassing sequence. If the snapshot interval exceeds the response window, better interpretation of each snapshot cannot restore the missed cue. Keep more frequent observation, redesign the cue so it remains available, or change the coordinated sequence. Each proposal has a different burden and requires its bounded comparison.
+Recover the timing needed by the encompassing sequence. If an allowed cue can arrive and its response window can close between successive snapshots, the snapshots alone cannot guarantee a timely response. Known synchronization or another timely source may still guarantee it. Keep more frequent observation, redesign the cue so it remains available, or change the coordinated sequence. Each proposal has a different burden and requires its bounded comparison.
 

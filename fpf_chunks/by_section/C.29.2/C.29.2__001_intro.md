@@ -6,12 +6,12 @@ section_id: "C.29.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:intro — Intro"
-line_start: 73702
-line_end: 73707
+line_start: 73823
+line_end: 73828
 dependencies:
   - "A.10"
   - "A.3.1"

@@ -6,12 +6,12 @@ section_id: "B.5.RC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:1 — Problem frame"
-line_start: 49817
-line_end: 49826
+line_start: 49900
+line_end: 49909
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -28,7 +28,7 @@ Use this pattern when a description points to a result you need, but you cannot 
 
 Here, a **construction** is a way of obtaining an object by applying operations to given objects. In a mathematical construction, those operations form mathematical objects. In an assembly method, they may produce a design or a physical assembly; identify which result the description promises. The relevant practice supplies the operations and their application conditions.
 
-**First useful move:** name the result needed for the next use, then find the operation that could produce it and what that operation requires. Follow those requirements back to available starting material. Work a small instance forward to recover the missing connection.
+**First useful move.** Name the result needed for the next use. Find an operation that could produce it and follow its prerequisites back to available starting material. Work forward on the actual inputs or on a smaller case that preserves the missing connection.
 
 This method needs access to the description and enough subject knowledge to interpret its objects and rules. Use an adequate known construction. If the task is to invent a method where no usable account is available, use C.39 for that development; a missing operation discovered here can become its input.
 

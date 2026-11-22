@@ -6,12 +6,12 @@ section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:0 — Use This When"
-line_start: 46317
-line_end: 46338
+line_start: 46347
+line_end: 46368
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,9 +37,9 @@ keywords:
 
 ### B.2.4:0 - Use This When
 
-Use this pattern when capability, functioning, or transformation-flow facts, established under their subject patterns, raise a B.2 whole-reidentification question.
+Use this pattern when a claim about capability, functioning or transformation flow raises a consequential question about the identity of the whole. The question may concern an existing bearer or the organization a proposed bearer would need.
 
-The first useful question is whether those facts can be explained by the existing whole. If that explanation is sufficient for the receiving use, retain the whole; use the pattern for any remaining capability, functioning, transformation, Method, Work, module, characteristic, or architecture question. Use B.2 for a remaining consequential whole-reidentification question, including one whose deciding grounds are unresolved.
+First establish what the recipient must decide about the ability, its exercise or the identity of its holder. A supported account of one performance may settle a question about that occasion. For a promise or a design, identify the conditions under which the holder must be able to deliver. When that decision depends on keeping or changing a whole, compare what the existing arrangement can support under its identity rule. Use B.2 for the remaining identity question, including one whose deciding grounds are unresolved.
 
 Evidence and measurement support, challenge, or leave unresolved the claims about those facts. Use the supported facts in B.2's comparison of the existing and candidate wholes.
 

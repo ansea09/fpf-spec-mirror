@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 71145
-line_end: 71688
+line_start: 71264
+line_end: 71807
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 
 Use the smallest result that answers the current question:
 
-1. triage the claim;
+1. recover the question and its subject, and assess any claim already offered;
 2. retain the question in ordinary prose or a small card when it must be reused;
 3. run the common threat screen;
 4. add only the specialist result needed now; and
@@ -434,7 +434,7 @@ CausalVariableRepresentationRecord:
   reopenCondition
 ```
 
-The record states which interventions and queries the learned or abstracted variables preserve, not that they are causal variables for every query or domain.
+When the outcome is an aggregate, establish how its constituents contribute to the outcome the question asks about. When the intervention itself is specified on an aggregate, establish which changes to its constituents count as implementing it. Follow the permitted implementations to the requested outcome under the retained mechanisms. If their answers differ, identify the intended implementation, justify the distribution over implementations, or give the supported range. If every permitted implementation meets the required threshold, that bound can answer the question. State the interventions and queries for which the representation preserves the required conclusion.
 
 **Constructed representation case.** `WardStateRepresentation-4` derives three state variables from monitor traces through `WardStateAbstractionMethod-2`. Its intervention-validity result covers dosage interventions, its invariance result covers the two hospitals in the training and hold-out comparison, and its query-preservation result passes the declared one-step counterfactual query but fails the long-horizon query. The record therefore supports the one-step policy comparison only; a new hospital, sensor scheme, intervention family, or long-horizon claim reopens it.
 

@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__004_policy-clauses-normative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative)"
-line_start: 64632
-line_end: 64678
+line_start: 64741
+line_end: 64787
 dependencies:
   - "A.0"
   - "A.10"
@@ -61,13 +61,13 @@ When the scale claim is current, choose evidence proportional to the bearer, sta
 Among admissible options at comparable budgets, evaluate the performance contrast at the points and on the objectives that matter to the receiving choice. Apply `alpha` when a tolerance is needed and `delta` when the use depends on an assurance comparison. Account for uncertainty in the contrast, including dependence when the runs are paired. A scale-based preference over the audited range requires established Pareto dominance there. If the responses are equivalent under the comparison rule, each wins on a different point or objective, or the evidence still admits materially different orderings, report `no scale-based preference` and say which of these conclusions is supported. A separately declared local policy can decide only the cases covered by its terms. Cite the policy and its E/E-LOG edition for that choice. For an agentic use, keep the applicable `alpha` and `delta` in the comparison, local-policy or waiver result consumed by the C.24 CallPlan.
 > **BLP‑2.1 — Valid waiver grounds (override transparency).**
 >
-> Overrides of a declared local generality preference are allowed **only** when:
+> Establish which preference is in force and who may authorize a departure. A course the governing policy already permits can be chosen under its terms. Use local exception provisions where they govern this decision and the departure meets the other binding commitments. If it requires changing a commitment, obtain the decision of whoever holds that authority. To claim a waiver under BLP‑2.1 itself, establish at least one of the following grounds:
 >
 > - **Admissibility override:** guard rails, ethics, or precedence make the general bearer inadmissible (`E.5`, `E.3`).
 > - **Scale‑probe overturn:** under **iso‑scale parity** in the declared **ScaleWindow**, the heuristic **sustainedly outperforms** with uncertainty accounted for.
 > - **Complementary bias:** the heuristic is an **inductive bias** that **improves** the general method **without blocking scale** (graceful degradation as `S` grows).
 >
-> All overrides record a **BLP-waiver** with rationale, admitted review System, waiver-review responsibility relation or A.6.RCD missing governor, and expiry or review in the DRR. Any system-role kind or assignment needed by the review Work is cited separately.
+> For a waiver under BLP‑2.1, record a **BLP-waiver** with rationale, admitted review System, waiver-review responsibility relation or A.6.RCD missing governor, and expiry or review in the DRR. Any system-role kind or assignment needed by the review Work is cited separately.
 
 **BLP-2.2 — Task-family specialization compatibility.**
 A bounded specialization that makes no scale-advantage, selector-facing superiority, durable generality, or override claim may be used under its direct pattern with an explicit task family, work target, budget guard rails, and evidence locus. It needs neither a full `Scale-Audit` nor a BLP waiver merely because it is specialized.

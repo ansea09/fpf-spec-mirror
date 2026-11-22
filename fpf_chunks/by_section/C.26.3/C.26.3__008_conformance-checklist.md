@@ -6,12 +6,12 @@ section_id: "C.26.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:7 — Conformance Checklist"
-line_start: 70163
-line_end: 70181
+line_start: 70282
+line_end: 70300
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,5 +56,5 @@ keywords:
 | CC-C26.3.11 | QL wording appears only when probe, order, export, coarsening, or incompatible frame interaction remains load-bearing and satisfies C.26's contextual-model obstruction condition. |
 | CC-C26.3.12 | Rate/inertia/damping/effort and second-order dynamics variables appear only when load-bearing. |
 | CC-C26.3.13 | Homeostasis, allostasis, active inference, and Markov-boundary wording are restored into FPF subject patterns before they carry the claim; Markov-blanket wording does not by itself create boundary, interface, component, agency, or viability authority. |
-| CC-C26.3.14 | The result retains the supported diagnosis or proposal and identifies any missing bound or effect that prevents the required viability conclusion. |
+| CC-C26.3.14 | The diagnosis or proposal identifies any unresolved bound or effect that matters to the protected result. An operating method identifies the timely information and actions it needs. A claim that regulation took place or maintained the required service has grounds for that work or outcome. |
 

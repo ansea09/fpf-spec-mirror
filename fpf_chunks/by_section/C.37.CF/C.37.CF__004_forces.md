@@ -6,12 +6,12 @@ section_id: "C.37.CF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__004_forces.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:3 — Forces"
-line_start: 86594
-line_end: 86603
+line_start: 86708
+line_end: 86717
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

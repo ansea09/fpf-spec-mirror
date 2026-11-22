@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 99903
-line_end: 100031
+line_start: 100025
+line_end: 100153
 dependencies:
   - "A.15.1"
   - "A.22"

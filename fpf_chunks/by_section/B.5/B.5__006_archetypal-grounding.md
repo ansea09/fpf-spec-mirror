@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:5 — Archetypal Grounding"
-line_start: 48423
-line_end: 48556
+line_start: 48503
+line_end: 48636
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -29,7 +29,7 @@ keywords:
 
 An engineer models pairwise incompatibilities with a finite simple undirected graph and asks, “Does connectedness let us divide the vertices into two groups with every edge crossing between groups?”
 
-A triangle is a counterexample: putting the first two adjacent vertices in different groups forces the third to conflict with one of them. This refutes the universal statement but leaves a useful question: **which obstruction prevents such a partition, and can we construct either the partition or a witness of failure?**
+A triangle answers the engineer's question. Putting two adjacent vertices in different groups forces the third vertex to conflict with one of them. Connectedness therefore gives no such guarantee. An engineer who also needs a way to make the division can now ask a further question. **What obstruction prevents the partition, and how can we return either the partition or a witness of failure?**
 
 Build the tree by keeping an ordered waiting list. The neighbours of a vertex are the vertices joined to it by an edge.
 
@@ -54,7 +54,7 @@ For a worked traversal, take vertices A–F and edges AB, AC, BD, CE, DF and EF.
 
 A has depth 0, so the groups are {A,D,E} and {B,C,F}; each of the six edges crosses between them. Now add DE. Its endpoints both have depth 2. Their parent paths D–B–A and E–C–A, joined by DE, give the five-edge cycle D–B–A–C–E–D. The added edge therefore prevents the requested two-group partition.
 
-The decisive idea is parity plus a tree-path construction, not the enumeration of many successful examples. The result answers a mathematical question without an empirical test. To use it for allocation, separately establish that vertices represent the relevant items and edges the pairwise incompatibilities. If three-way constraints matter, that application question must change.
+Parity and the parent paths establish what the procedure returns for an arbitrary graph in this class. To use it for allocation, establish which items the vertices represent and which assignments the edges exclude. Suppose three items may share a group in pairs but all three together are forbidden. No edge between those three items expresses that restriction faithfully. The allocation question can stay fixed while the model gains a condition on the triple. A particular colouring that also satisfies every such condition can supply one allocation. An odd cycle of mandatory pairwise incompatibilities still rules out a two-group allocation under the additional restrictions.
 
 The practice targets are to explain the obstruction, construct a partition or failure witness for another finite graph, and handle disconnected components. Assess those capabilities on a changed graph with the references and assistance permitted in the intended work.
 
@@ -86,7 +86,7 @@ Recover what that calculation establishes. From the relaxed time constraint, y <
 
 For the whole-job question, x = 0 permits at most y = 2 and value 6. With x = 1, the remaining hour permits y = 0 and value 5. Two B-jobs therefore attain the integer optimum 6. Check that the selected jobs fit the constraints and compare the best value for x = 0 with the best value for x = 1.
 
-The relaxation answers a useful question: can any permitted whole-job choice reach value 7? Every integer choice is also feasible for the relaxation, whose proved upper bound is 6.5, so the answer is no. Choosing a realizable assignment needs the integer result; ruling out value 7 needs only the upper bound.
+The relaxation also answers a threshold question. Every allowed whole-job choice is feasible for the relaxation, so none can reach 7. For this problem the whole-job values are integers. The upper bound of 6.5 therefore bounds their values by 6. Two B-jobs fit and attain 6. Taken together, that feasible assignment and the bound prove optimality for the original question, even without the preceding enumeration. The relaxed allocation itself contains a half job and cannot be scheduled as a whole-job assignment.
 
 With five hours instead, the same argument gives V <= 7.5 + 0.5x <= 8. The choice x = 1, y = 1 attains value 8 in both formulations. The planner can use that relaxed optimum as the whole-job answer because this returned choice satisfies the integer conditions.
 

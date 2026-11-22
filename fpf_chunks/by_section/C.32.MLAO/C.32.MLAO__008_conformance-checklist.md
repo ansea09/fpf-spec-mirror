@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:7 — Conformance Checklist"
-line_start: 82752
-line_end: 82764
+line_start: 82866
+line_end: 82878
 dependencies:
   - "A.10"
   - "A.19.CPM"

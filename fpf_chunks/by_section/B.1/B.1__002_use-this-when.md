@@ -6,7 +6,7 @@ section_id: "B.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:0 — Use This When"
@@ -41,7 +41,7 @@ Typical moments:
 - a collection needs whole-level characteristics without becoming an acting collective system;
 - an aggregation claim is being used for architecture, assurance, evidence, or MHT reasoning.
 
-**First useful move.** Identify whether the claim concerns part-whole construction, collection belonging under its own rule, or collection-as-whole grounding. For other meanings of composition, use the distinctions and supplying patterns in B.1:4.2. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing a branch.
+**First useful move.** Start with the decision the recipient must make and the evidence already available about its subject. An accepted measurement of the identified whole can settle a question about its value. When the inference depends on constituents or their arrangement, identify whether the claim concerns part-whole construction, collection belonging under its own rule, or collection-as-whole grounding. For other meanings of composition, use the distinctions and supplying patterns in B.1:4.2. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing a branch.
 
 **What goes wrong if missed.** Composition vocabulary and notation can conceal different relations. A role or Method may then be mistaken for a part, a Method structure for evidence of performed Work, a graph for the represented structure, or a collection for an acting whole.
 

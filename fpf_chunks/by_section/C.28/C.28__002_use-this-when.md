@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:0 — Use This When"
-line_start: 71036
-line_end: 71119
+line_start: 71155
+line_end: 71238
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.28:0 - Use This When
 
-Use `C.28` when a result is offered as support for a causal effect, intervention, counterfactual comparison, causal fairness claim, causal policy, causal benchmark, or causal explanation. Common cues include:
+Use `C.28` when a recipient needs to explain an outcome, derive what an intervention would change, or assess an offered result about a causal effect, counterfactual, fairness claim, policy or benchmark. Common cues include:
 
 - “method A improves the outcome”;
 - “users who received X did better, so X works”;
@@ -82,13 +82,13 @@ The first result is a supported statement with its limits and the next useful st
 
 #### C.28:0.3 - First-Minute Questions
 
-1. What is the concrete claim, and what causal question must be answered to rely on it?
+1. What outcome needs explanation, which change is under consideration, or what proposed claim needs assessment? What causal question must the answer settle?
 2. Is the requested statement about an observed association, an intervention, or a counterfactual?
 3. What observations, experiments, model assumptions or derived results are available?
 4. Which live threat could overturn the conclusion: for example, confounding, time order, missing comparison cases, interference, measurement error or transfer to another population?
 5. What statement is supported under those conditions, and what further evidence or calculation would change it?
 
-When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A sufficient support verdict or an adequate existing model can finish the present question without that construction.
+When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A verdict on the supplied evidence can complete a request to assess that evidence. If the recipient needs an explanation, give the mechanism and its grounds using an adequate existing model or develop the missing account. If the explanation remains open, state what the available evidence has settled and which relation still needs to be established.
 
 #### C.28:0.4 - First Output
 
@@ -130,6 +130,6 @@ nextCausalUseAction =
   abstainDownstream
 ```
 
-Triage may be the final result when it blocks the overclaim and names the narrower statement. Do not open a durable object merely because a causal word appears.
+Triage can complete a request to assess an offered claim by stating what the evidence warrants. For a commissioned causal account, use that result to locate the remaining explanatory work. A short statement can carry a complete answer.
 
 

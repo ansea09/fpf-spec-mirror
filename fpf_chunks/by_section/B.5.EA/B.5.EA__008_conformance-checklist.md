@@ -6,12 +6,12 @@ section_id: "B.5.EA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:7 — Conformance Checklist"
-line_start: 48758
-line_end: 48766
+line_start: 48842
+line_end: 48849
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -24,9 +24,8 @@ keywords:
 ### B.5.EA:7 - Conformance Checklist
 
 - A participant can return to the experience or identify the limit of that return.
-- The expression develops through recoverable corrections rather than an imposed diagnosis.
-- The resulting distinction changes a question, interpretation or possible action.
-- The recipient can obtain the meaning needed for the use.
+- The participant can use or correct the expression. Corrections that change the intended use remain recoverable.
+- For a completed articulation, the intended recipient can recover the distinction and how it bears on a question, interpretation or possible action. If the result is still a cue or a better located question, identify what is understood and what remains open.
 - Experiential fit, shared understanding and warrant for a world-directed claim retain their different grounds.
 - Continuation uses the result or identifies the remaining difficulty without requiring an entire research programme.
 

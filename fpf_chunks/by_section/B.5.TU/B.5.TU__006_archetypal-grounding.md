@@ -6,12 +6,12 @@ section_id: "B.5.TU:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:5 — Archetypal Grounding"
-line_start: 51053
-line_end: 51097
+line_start: 51141
+line_end: 51185
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -56,15 +56,15 @@ For a nonzero `eta`, write this positive change as `K`. Along the paths `q_0+c*e
 
 The application has an interpreted answer: under the adopted model, passing those endpoint positions in that time entails constant velocity. A computational implementation must evaluate the path derivative in the velocity argument before integrating. It can reproduce the numerical action comparison; the displayed argument supplies the wider conclusion.
 
-Suppose the two-metre trip must instead begin and end at rest. The constant-velocity answer fails that condition. The return is that the undriven free-particle account cannot supply this trip: the design needs acceleration and deceleration, and an account of the forces producing them. The next contribution is that driven-motion model. Increasing the resolution of the free-particle calculation would retain the missing physical contribution.
+Suppose the engineer asks whether the same undriven model permits the two-metre trip to begin and end at rest. Its constant velocity would have to be zero throughout, so it cannot produce that displacement. This answers the feasibility question. If the engineer must also design a carriage that makes the trip, identify how it could accelerate and decelerate, model the forces available, and check the design against the required endpoints and time. A finer calculation in the undriven model would preserve the original obstruction.
 
 #### B.5.TU:5.3 - Keep a useful bound when the optimizer cannot be enacted
 
-A planner learning optimization must select whole jobs for four available hours. At most one A-job is available, taking three hours for stipulated value 5; at most two B-jobs are available, each taking two hours for value 3. Durations and values add in this constructed problem.
+A planner learning optimization must choose the highest-value combination of whole jobs that fits four available hours. At most one A-job is available, taking three hours for stipulated value 5. At most two B-jobs are available, each taking two hours for value 3. Durations and values add in this constructed problem.
 
 A linear relaxation permits real counts `0 <= x <= 1`, `0 <= y <= 2` with `3*x+2*y <= 4`. It returns `x=1, y=0.5`, value `6.5`. Recover the argument: the time condition gives `y <= (4-3*x)/2`, so `5*x+3*y <= 6+0.5*x <= 6.5`; the returned pair attains that limit.
 
-For the whole-job choice, enumerate the alternatives. With A selected, no B fits and value is 5. Without A, two B-jobs fit and value is 6. Select two B-jobs. The fractional optimizer has supplied a bound: no whole-job arrangement can attain value 7 because every such arrangement is also admitted by the relaxation.
+For the whole-job choice, two B-jobs fit and give value 6. Every whole-job value is an integer and the relaxation admits every whole-job arrangement. Its upper bound of 6.5 therefore establishes that none can exceed 6. The feasible choice and the bound together prove optimality. Direct enumeration gives the same conclusion here. With A selected, no B fits and the value is 5. Without A, at most two B-jobs fit. If the planner asks only whether 7 is attainable, the bound alone rules it out.
 
 The use of the theory changes with the question. Selecting work needs an attainable arrangement; excluding a target can use a bound. The practitioner needs to recover that relation before deciding whether a further optimization step is useful. B.5:5.4 also works the changed five-hour case.
 

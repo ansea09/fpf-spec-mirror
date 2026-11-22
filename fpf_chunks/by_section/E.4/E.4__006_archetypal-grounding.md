@@ -6,12 +6,12 @@ section_id: "E.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:5 — Archetypal Grounding"
-line_start: 98645
-line_end: 98676
+line_start: 98767
+line_end: 98798
 dependencies:
   - "C.20"
   - "C.33"

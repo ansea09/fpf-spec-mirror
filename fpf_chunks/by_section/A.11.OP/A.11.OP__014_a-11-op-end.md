@@ -6,7 +6,7 @@ section_id: "A.11.OP:End"
 section_title: "A.11.OP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__014_a-11-op-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:End — A.11.OP:End"

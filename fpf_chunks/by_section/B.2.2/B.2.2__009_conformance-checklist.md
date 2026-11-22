@@ -6,12 +6,12 @@ section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 45992
-line_end: 46004
+line_start: 46020
+line_end: 46032
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,8 +44,8 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.2-1` | B.2 has already left a whole-reidentification question before B.2.2 is used. |
-| `CC-B2.2-2` | A positive system-result claim requires B.2's candidate new whole to pass the A.1 criterion and the `U.System` criterion. Failed or unresolved recognition follows :4.1. |
+| `CC-B2.2-1` | B.2 supplies the whole-reidentification question. Where proposing a boundary was entrusted to the practitioner, justify it from the required work and the relations the assembly must maintain. A specified candidate may be assessed directly. |
+| `CC-B2.2-2` | For a proposal, state the conditions under which it would meet the requested use and qualify as a System. Recognition of an actual system result requires the candidate to pass A.1 and the `U.System` criterion on the facts that obtain. Failed or unresolved recognition follows :4.1. |
 | `CC-B2.2-3` | Use B.2's references for the candidate and established result. Any durable account remains an optional C.2.1 episteme under B.2. |
 | `CC-B2.2-4` | Identify the result-system delimitation and any crossing relations needed by the claim under their predicates. |
 | `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |

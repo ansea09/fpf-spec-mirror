@@ -6,12 +6,12 @@ section_id: "C.3.2:14"
 section_title: "Common Anti-Patterns and Remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__016_common-anti-patterns-and-remedies.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:14 — Common Anti-Patterns and Remedies"
-line_start: 58094
-line_end: 58107
+line_start: 58204
+line_end: 58217
 dependencies:
   - "A.14"
   - "A.2.6"

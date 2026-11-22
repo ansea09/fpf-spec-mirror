@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.SD.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
-line_start: 53061
-line_end: 53264
+line_start: 53165
+line_end: 53368
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -53,7 +53,7 @@ An inquiry can improve the answer, but waiting for every uncertainty to disappea
 
 #### B.5.SD:4.1 - Name the receiving question and the kind of answer needed
 
-Identify who will use the result and what that person or agent needs to settle or do. Ask for a representative use: a release decision, a revised explanation, an architecture choice, a research design, or a next action in a difficult task.
+Identify who will use the result and what they need to settle or do. Ask for the decision or inquiry as they face it. A participant may bring one disputed case to a discussion about a rule for future cases. Find out which choices the group is being asked to make and which the eventual user must be able to make. The case can reveal a missing distinction. To offer a rule to that user, establish where the distinction changes the answer.
 
 Distinguish the result required. An explanation relates what is known and why; a proposal states what could be done and on which grounds; an inquiry proposal identifies an unresolved question and a way to answer it; an agreement records accepted contributions. A discussion can produce more than one, but one does not substitute for another. Use LDR.2 when the unresolved result is acceptance of contributions rather than subject understanding.
 
@@ -112,9 +112,7 @@ A useful result can be an open question with a feasible next construction. State
 
 Give the receiver the connected result in a usable form, with the decisive grounds, unresolved matters and conditions that change its use. Let the receiver perform the intended interpretation or next action, rather than merely approve the meeting summary.
 
-Examine a plausible consequential variation. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? If another receiver reveals a needed input, does the proposed simplification still work? Follow only the affected connections; a small change need not restart the whole discussion.
-
-This variation is a way of checking whether the explanation relates its parts. Preserve a consequential unlisted concern when it appears.
+When a proposed explanation will be used under varying conditions, try a change that could affect its warrant. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? Follow that connection. An existing argument that covers the variation can answer directly. For a decision confined to this occasion, return the sufficient grounds for it.
 
 Finish when the receiving question has a warranted answer and feasible continuation, including a justified stop. If participants repeat views while the connection remains missing, change the construction, obtain the absent competence or return the blocker.
 
@@ -136,19 +134,21 @@ The integrator asks the relevant specialist which parameter changed and whether 
 
 The participants construct three continuations. They could test the joint configuration, narrow the acceptance claim to the already supported use, or redesign the interface so the earlier evidence becomes applicable under justified conditions. A qualified engineer supplies the required model and test judgement. The lab can provide a window for the first option, and the decision maker accepts the inquiry cost.
 
-The returned proposal states the interaction, configuration, load, required observation and decision that will use the answer. Until the test is performed, the dependent acceptance claim remains unsupported. This is a useful constructed result: it explains the gap and how the proposed inquiry could settle it.
+The reviewer can now answer the question about the evidence in hand. It supports the reported component results under their test conditions and leaves C7's joint behaviour under load open. The accepted inquiry specifies which interaction to observe in C7, under what load, and how the outcome would bear on acceptance. Commissioning the test settles the plan for obtaining that evidence.
 
 Now remove the lab window. The account exposes the dependent test and decision. The group revisits the narrower claim, another provider or a later release; it does not preserve an unavailable test by leaving it in the minutes. The component results remain useful for the claims they support.
 
-If a qualified specialist had already established that the C6 evidence applied unchanged to C7, the explanation would have sufficed. The workshop would add no missing inference.
+Suppose instead that a C6 result had established the required joint behaviour. A qualified comparison showing that C7 preserves the configuration and conditions on which that result depends can settle the review from existing evidence. A comparison covering only the tested module settles the transfer of that module's result.
 
 #### B.5.SD:5.2 - A community disagrees over an explanatory article
 
-Suppose independent practitioners discuss an article intended to help newcomers choose an appropriate modelling method. Some favour a concise rule; others object that the rule fails when the system boundary changes. There is no common employer and no proposed reorganization.
+Independent practitioners are writing an article to help volunteer coordinators choose a model for staffing decisions. One proposes adding the hours each volunteer offers. Another objects that a total can hide who is available together. The group needs a way for readers to decide when each matters.
 
-The facilitator asks for the receiving choice, not a vote on favourite wording. A practitioner supplies an example with one boundary and another supplies the changed-boundary case. The integrator traces which assumptions make the rule useful and which change the recommendation. They revise the article to show the decision condition and return to the relevant modelling method.
+The facilitator asks what the reader has to settle. To report the total hours pledged by distinct volunteers, the coordinator can add their hours for the same period. To promise a two-hour repair clinic, the coordinator needs a receptionist and a technician together. Keep the total at six hours. If both are available from 9 to 12, they can cover a clinic from 9 to 11. If only the receptionist is there from 9 to 12 and the technician from 12 to 15, they cannot. The first comparison explains what the total preserves. The two schedules expose what it loses for the joint service.
 
-The group can agree that the revised explanation answers the question while one contributor declines further editorial work. LDR.2 handles that contribution if it matters. The explanation's warrant and a volunteer's consent remain separate.
+The revised article asks the coordinator to start with the work being promised. Who must do what, and which performances have to coincide? Could the same summary allow one arrangement in which the promise can be kept and another in which it fails? For the clinic, a confirmed common slot with both required roles can answer the question directly. Full individual calendars are one way to establish that slot. A reader counting pledged hours can use the sum. The discussion has given readers a way to choose the distinction their own model needs.
+
+A contributor may accept that explanation and decline further editorial work. LDR.2 handles the commitment if it matters.
 
 If the group lacks the modelling competence needed to assess the two cases, it returns the question to a qualified practitioner. A well-facilitated consensus would not fill the gap.
 

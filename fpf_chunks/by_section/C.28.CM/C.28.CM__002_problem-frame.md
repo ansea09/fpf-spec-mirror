@@ -6,12 +6,12 @@ section_id: "C.28.CM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:1 — Problem frame"
-line_start: 71814
-line_end: 71823
+line_start: 71933
+line_end: 71942
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -27,7 +27,7 @@ keywords:
 
 ### C.28.CM:1 - Problem frame
 
-Use this pattern when an explanation names a possible cause but leaves you unable to work out what follows, compare another mechanism, or say what observation could change the explanation. The difficulty can arise in a work process, a physical device or an AI-assisted task. A plausible story is available; the causal relations needed for the question have to be constructed.
+Use this pattern when you need to explain an outcome and the mechanism is open, or when you have a proposed cause and need to work out its consequences. Begin with the outcome and the work or process that could have produced it. Trace the conditions, actions and connections that could account for the observed difference. Use subject knowledge and observations to develop a candidate mechanism or challenge one already proposed.
 
 Begin with one outcome, the contrast that matters, and the relevant observations and subject knowledge. Express two materially different accounts when both remain plausible. Work out a consequence on which they differ, or identify the premise that prevents that comparison. An annotated sketch and a conditional explanation can be the first useful result.
 

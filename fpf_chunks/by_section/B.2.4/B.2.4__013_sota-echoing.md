@@ -6,12 +6,12 @@ section_id: "B.2.4:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__013_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:10 — SoTA-Echoing"
-line_start: 46497
-line_end: 46504
+line_start: 46529
+line_end: 46536
 dependencies:
   - "A.10"
   - "A.15"

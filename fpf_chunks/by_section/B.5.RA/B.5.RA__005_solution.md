@@ -6,12 +6,12 @@ section_id: "B.5.RA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:4 — Solution"
-line_start: 50037
-line_end: 50162
+line_start: 50117
+line_end: 50244
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -49,6 +49,8 @@ Work backward from the conclusion through the claims or constructions it uses. A
 
 Keep jointly needed premises together. Preserve a sufficient alternative as a separate way to reach the conclusion. Track a shared premise wherever a later step uses it; repeated uses of one assumption do not provide independent support for that assumption.
 
+Read a claim about a whole back onto its subject. Which parts have to work together for the conclusion to follow? Could each fact cited about a part remain true while a different arrangement changes the answer? Recover the ground for the connection that matters. In :5.2 three intact copies can share an unavailable key. The inventory can answer a question about the number of copies while leaving recovery of the drawing open.
+
 Distinguish a premise supplied for the argument, a result established earlier and a temporary assumption used inside a subargument. Recover the point at which a temporary assumption is discharged and what then follows. If this logical form is unfamiliar, obtain the relevant explanation before treating the subargument's assumption as an established fact.
 
 Use established results at the level needed for the task. If the question concerns what a lemma permits, its statement and conditions may suffice. If the question concerns how to alter the lemma's proof, recover its internal reasoning.
@@ -59,7 +61,7 @@ For a transition you cannot follow, recover the relevant definition, rule, earli
 
 A useful self-explanation supplies this relation. “I understand this line” reports confidence; a paraphrase repeats the claim. Neither supplies the omitted inference when that is the difficulty.
 
-Work a small instance when it helps reveal the operation or dependence. Then return to the stated scope: the instance may illustrate a general step, while the general conclusion depends on the argument for all cases in its domain.
+Work a small instance when it helps reveal an operation or dependence. Identify what carries the inference through the stated domain. In :5.1 the step for an arbitrary integer holds throughout the range, including when shown in a drawing. Substituting 3 checks one value. One admissible failure would suffice to refute an assertion made for every value.
 
 If the source's resources do not close the gap, ask for the missing step with its premises and desired result. A proposed repair is new reasoning until it is justified. Keep the consequence conditional when a premise remains unresolved and conditional use is sufficient.
 

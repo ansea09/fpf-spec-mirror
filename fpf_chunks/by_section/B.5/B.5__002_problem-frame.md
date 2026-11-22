@@ -6,12 +6,12 @@ section_id: "B.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:1 — Problem frame"
-line_start: 48212
-line_end: 48225
+line_start: 48288
+line_end: 48301
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -24,11 +24,11 @@ keywords:
 
 ### B.5:1 - Problem frame
 
-Use this pattern when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. They may need to formulate a better question, construct something, prove a claim, explain an observation, or test a consequence. Reasoning is the broader activity; this pattern governs the choice and connection of those contributions in an inquiry.
+Use this pattern when you have a question, surprising result or promising construction and need to choose the next reasoning contribution. You may owe someone an answer, be helping them work out what to ask, or be free to set the direction of inquiry. The work can call for a construction, proof, explanation, observation or new question. Choose and connect those contributions by what the inquiry is to obtain.
 
 When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without a recognized anomaly. Use that contribution here when reasoning can take it further.
 
-**First useful move.** State what you want to understand or make possible. Ask whether an available result answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains. If the needed distinction or possible continuation is unknown, §4.1.2 explains how to develop that basis from accessible material before comparing inquiries.
+**First useful move.** Recover what the recipient needs to understand or make possible and what they have left you to choose. In your own inquiry you may be choosing the question itself. Use an existing answer if it settles the question. Otherwise ask what a proposed next operation would establish even if it succeeded completely. Where it supplies a premise, identify what will connect that premise to the answer. Section 4.1.2 helps when the possible operations or distinctions are themselves unknown.
 
 For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This redirects the inquiry before another model fit.
 

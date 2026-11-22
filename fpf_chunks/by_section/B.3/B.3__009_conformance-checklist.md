@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:7 — Conformance checklist"
-line_start: 47039
-line_end: 47055
+line_start: 47081
+line_end: 47097
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,7 @@ keywords:
 
 | ID | Requirement |
 | --- | --- |
-| `CC-B3-1` | One target claim and one named assurance use are stated before measures or records are selected. |
+| `CC-B3-1` | Each assurance result identifies its target claim and use. For a joint decision, explain how the required conclusions apply together. An assessment design explains how the assessor selects the relevant distinctions and obtains sufficient grounds under its stated conditions. |
 | `CC-B3-2` | The compact result contains target, use, basis, disposition, limits, and reopen condition; optional fields appear only when they change the conclusion or its replay. |
 | `CC-B3-3` | Every characteristic has one bearer, property, scale and unit where applicable, interpretation, and basis. |
 | `CC-B3-4` | Formality is not treated as monotone truth, empirical adequacy, or warrant. |

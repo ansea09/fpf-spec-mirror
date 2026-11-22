@@ -6,12 +6,12 @@ section_id: "B.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:4 — Solution"
-line_start: 45615
-line_end: 45692
+line_start: 45639
+line_end: 45716
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,10 +54,10 @@ Recover the claim kind and subject pattern before any wording replacement.
 Read the complete natural span with F.19 and E.10's compact cues. If an emergence-specific FPF question remains, recover five things before choosing replacement wording:
 
 1. **Practical use.** What decision, explanation, design move, or stop depends on the sentence?
-2. **Object.** Is the concern an existing whole, candidate new whole, collection, characteristic, capability, functioning relation, structure, transformation, measurement result, assertion, or mathematical expression?
-3. **Claim.** What changed or obtains: construction, identity, capability, characteristic value, evidence, publication, representation, or only the wording?
+2. **Object and scope.** Which whole, constituent, group or relation is the claim about? Work back from the recipient's decision to the distinctions that matter. A fleet may be a set of vessels for a count, an organized service for a delivery, or the subject of a model whose resolution has changed. For a claim linking these, establish how particular vessels contribute to the service and how the model represents that contribution. A class of vessels and an assembly of vessels require different grounds.
+3. **Claim.** Which fact is claimed about construction, identity, capability, a characteristic value, evidence, publication or representation? Is the change confined to the wording? Keep the subject fixed and vary the report, then keep the reported result fixed and vary its source or organization. Use any difference that changes the intended conclusion to choose what the replacement must distinguish. Mark a consequence derived under design assumptions as conditional.
 4. **Subject pattern.** Which pattern defines or constrains that object and claim without using `emergence` as a substitute?
-5. **Disposition.** Keep the claim, open B.2 only for a remaining whole-reidentification question, or stop with the missing object or governor.
+5. **Disposition.** Give the supported reading or readings. When several readings lead to the same action, give that result at its warranted scope. If the commission asks which reading the speaker intended, identify the words, facts or clarification that distinguish it. Open B.2 for a remaining identity question. Where the wording joins several supported claims, return their connection to the receiving decision.
 
 Retain the source phrase beside the recovered claim and replacement only when that comparison is needed.
 
@@ -83,11 +83,11 @@ Retain the source phrase beside the recovered claim and replacement only when th
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 
-When claim-kind recovery leaves a whole-reidentification question, first establish whether there is a prior holon. For a first constitution or recognition without one, use B.2:4 to return to A.1 and the applicable subject pattern; unavailable prior identity grounds remain unresolved. With an established prior whole, use B.2 with this account:
+When claim-kind recovery leaves a question about actual whole reidentification, first establish whether there is a prior holon. For a first constitution or recognition without one, use B.2:4 to return to A.1 and the applicable subject pattern. If the wording concerns a proposed arrangement, retain its design conditions and use the design branch of B.2:4 when needed. If the wording alone is in question, an adequately qualified restatement can finish the work. For a comparison with an established prior whole:
 
 1. name the receiving claim or use, the existing whole, admitted kind, and identity or reidentification rule;
 2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its subject pattern;
-3. perform B.2:4.2's comparison: retain the whole when a supported explanation meets the use under its identity rule; establish insufficiency from a violated necessary condition or an independently closed comparison; otherwise leave the deciding question unresolved;
+3. perform B.2:4.2's comparison: distinguish a possible continuation from the history that actually occurred and retain the whole for the conclusion the evidence supports; establish insufficiency from a violated necessary condition or an independently closed comparison; otherwise leave the deciding question unresolved;
 4. when the comparison establishes that the prior whole is insufficient, require B.2 and execute the A.1 criterion: designate the candidate as a `U.Entity`; recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic.
 
    Show that its boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the kind-specific criterion;

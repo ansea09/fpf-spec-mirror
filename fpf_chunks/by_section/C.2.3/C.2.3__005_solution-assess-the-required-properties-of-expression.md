@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - Assess the required properties of expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-assess-the-required-properties-of-expression.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:4 — Solution - Assess the required properties of expression"
-line_start: 55549
-line_end: 55602
+line_start: 55657
+line_end: 55710
 dependencies:
   - "A.16"
   - "A.18"

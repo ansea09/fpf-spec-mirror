@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 48158
-line_end: 48187
+line_start: 48234
+line_end: 48263
 dependencies:
   - "A.15"
   - "A.16"
@@ -46,7 +46,7 @@ An operator-facing disturbance may support both:
 - an immediate intervention-oriented route,
 - and a slower explanatory route.
 
-`B.4.1` preserves both continuations with their grounds and selection conditions.
+A publication for both needs preserves the two continuations with their grounds and selection conditions. For an immediate response alone, act on the grounds for that response when authorized. The explanatory question can remain open.
 
 #### B.4.1:15.3 - Requirement-route overreach
 A route set that includes `RequirementCommitmentRoute` should not be read as if the requirement exists. The route is one admissible continuation; the requirement or commitment claim is decided under its subject pattern.

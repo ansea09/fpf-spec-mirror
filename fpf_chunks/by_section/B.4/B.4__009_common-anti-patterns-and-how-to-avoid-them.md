@@ -6,12 +6,12 @@ section_id: "B.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 47921
-line_end: 47928
+line_start: 47989
+line_end: 47996
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -28,7 +28,7 @@ keywords:
 
 | Anti-pattern | Observable symptom | Repair |
 | :--- | :--- | :--- |
-| **Change without a basis** | A feature or design appears with no observed basis or identity decision. | **CC-B4.1** and **CC-B4.2** connect the change to an observed basis and state whether the subject continues or has a successor. |
+| **Change without a basis** | A feature or design appears without grounds for changing the relevant use. | **CC-B4.1** and **CC-B4.2** connect the proposal or actual change to the relevant observation, commitment or other sufficient ground and to any identity decision the use requires. |
 | **Unidentified internal adaptation** | "The system automatically improves itself" hides who or what performed the activity. | Identify who or what changes which subject. Use **CC-B4.3** for a Work claim. For an internal acting side, recover the distinct participants and their parthood under `A.12`, together with the Work, Method and phase facts the receiving claim consumes; physical externality is not required. |
 | **Incomplete hotfix account** | A quick run-time repair is reported as a complete successful loop, although design repair, evidence, or renewed-use confirmation did not occur. | State only the urgent observation, change activity, deployment and immediate result that occurred. Later description repair, testing, assurance and follow-up operation are subsequent activities and may reopen the loop; qualify any Work occurrences under B.4:4.2. |
 

@@ -6,12 +6,12 @@ section_id: "B.1.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:0 — Use This When"
-line_start: 43124
-line_end: 43151
+line_start: 43128
+line_end: 43155
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ Typical moments:
 - a functional element must be distinguished from and allocated to physical, organizational, software, or operational bearers;
 - a named decision needs one recoverable view of the system boundary, crossings, and compatibility choices without turning that view into the system.
 
-**First useful move.** Name the whole and its A.1 recognition status, the decision, and the claims it depends on. For each claim, use the applicable subject pattern to recover its result or identify the missing defining rule or information. Then ask whether considering the results' joint organization changes the decision.
+**First useful move.** Start from the receiving decision and the system or proposed assembly it concerns. Follow its use outward when the enclosing arrangement can change that decision, and inward when two admissible internal arrangements give different answers. Identify the whole's A.1 recognition status when systemhood matters to the claim. For each claim, use the applicable subject pattern to recover its result or identify the missing defining rule or information. Then ask whether considering the results' joint organization changes the decision.
 
 **What goes wrong if missed.** A reader may infer components and containment from placement in a diagram, treat a functional element as a physical part, or mistake an external transformation or measurement relation for parthood. A coordination record then appears to establish facts that each need grounds.
 
@@ -58,7 +58,7 @@ Typical moments:
 
 **Not this pattern when.**
 
-- If the entity has not yet been evaluated under the already admitted `U.System` kind, use `A.1`; do not promote the proposal into a durable kind-like label.
+- If the only open question is whether an entity qualifies as a `U.System`, use `A.1`.
 - If one part-whole relation is the question, use `A.14` and its specialization.
 - If constructive assembly grounding is the question, use `C.13`.
 - If the question is a functional claim, use its behavior or realization predicate; use `A.6.F` when the function wording is unresolved and `C.30.ASV` when architecture-view conformance is needed.

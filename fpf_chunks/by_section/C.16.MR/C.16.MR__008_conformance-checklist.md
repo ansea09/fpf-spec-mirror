@@ -6,12 +6,12 @@ section_id: "C.16.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:7 — Conformance Checklist"
-line_start: 61705
-line_end: 61715
+line_start: 61809
+line_end: 61819
 dependencies:
   - "A.3.3"
   - "B.5.FM"

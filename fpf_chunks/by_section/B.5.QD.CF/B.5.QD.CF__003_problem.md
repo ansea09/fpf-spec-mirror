@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__003_problem.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:2 — Problem"
-line_start: 51609
-line_end: 51616
+line_start: 51697
+line_end: 51704
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

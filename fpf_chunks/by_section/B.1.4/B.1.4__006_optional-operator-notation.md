@@ -6,12 +6,12 @@ section_id: "B.1.4:3"
 section_title: "Optional Operator Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__006_optional-operator-notation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:3 — Optional Operator Notation"
-line_start: 43762
-line_end: 43777
+line_start: 43770
+line_end: 43785
 dependencies:
   - "A.1.1"
   - "A.14"

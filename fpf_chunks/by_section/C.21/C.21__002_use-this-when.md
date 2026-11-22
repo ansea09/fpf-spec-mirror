@@ -6,12 +6,12 @@ section_id: "C.21:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:0 — Use This When"
-line_start: 65356
-line_end: 65368
+line_start: 65469
+line_end: 65481
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -54,7 +54,7 @@ Use this pattern when a team must say something practical about the health, matu
 
 **What this buys.** The practitioner can state and interpret a bounded health claim, compare compatible readings and identify what additional measurement or correspondence a proposed use needs.
 
-**First useful move.** Name the discipline and practical question, choose one relevant Characteristic, state its scope and comparison basis, and say in ordinary language what the current material supports and what it does not. Stop there when the receiving use needs no measured comparison, aggregate, reusable series, or publication.
+**First useful move.** Start with the question about the field and what the recipient will do with the answer. Which difference in practice would change that answer or its explanation? Choose a Characteristic that can reveal it, the population or corpus it concerns and the relevant period. If the recipient needs several conditions to hold together, establish which must hold for the same units or at the same time. Report the supported answer. A single reading or a bound can finish the work when it decides the question.
 
 **Not this pattern when.** Use C.20 to decide whether the candidate is a discipline, C.16 to construct a measurement, A.19 for comparison or aggregation work, F.9 only when the use relates distinct local senses, E.24.PUB for audience availability, G.12 for a reusable dashboard view, and G.4 for a selected formal acceptance interface. C.21 supplies none of those results merely by naming a health Characteristic.
 

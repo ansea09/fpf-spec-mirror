@@ -6,12 +6,12 @@ section_id: "E.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__012_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:11 — Rationale"
-line_start: 97885
-line_end: 97890
+line_start: 98007
+line_end: 98012
 dependencies:
   - "A.10"
   - "A.15.1"

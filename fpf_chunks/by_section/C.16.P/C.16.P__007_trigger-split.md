@@ -6,12 +6,12 @@ section_id: "C.16.P:5"
 section_title: "Trigger split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__007_trigger-split.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:5 — Trigger split"
-line_start: 62310
-line_end: 62324
+line_start: 62414
+line_end: 62428
 dependencies:
   - "A.17"
   - "A.18"
@@ -39,7 +39,7 @@ keywords:
 | `feature` or `property` | Is this an observed feature, characteristic, model feature, entity property, relation property, or ordinary prose? | `Feature` or `property` as automatic characteristic. |
 | `strong` or `weak` | Does it state a degree of a characteristic or another claim? For a degree, on which scale and under which comparison reference or comparator set? | A degree of a characteristic without its scale. |
 | `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved-structure and lost-structure? | Robust as general praise. |
-| `level` | For a rating, which named category on which scale? For a level of model abstraction or refinement, which models answer the same question, and which answer does the more abstract model admit that the more concrete model excludes if the step is strict (B.5.MR:4.2–4.3)? | A category, maturity label or L-number used as proof that the model became more concrete. |
+| `level` | Which entities or values are ordered, and by what relation? For a rating, recover the category and measurement scale. For a part and its encompassing whole, recover their kind and the constituent relation (C.39.SA:4). For a control layer, identify its function and its relation to the other layers. When its Methods are claimed as constituents of one Method, establish that composition. For model refinement, hold the inquiry and interpretation fixed. Under B.5.MR:4.2–4.3 a strict refinement admits at least one answer, preserves the broader requirements in all admitted cases and excludes a previously possible answer. | A new rating, a move to a constituent or a deeper place in a hierarchy used as proof of model refinement. |
 | `indicator` | Indicator of what characteristic or claim, through which direct relation? If it is a proxy, what is the proxy relation and distortion risk? | Indicator as the indicated property. |
 | `threshold` | What predicate is applied to which characteristic space coordinates? Identify the applicable comparison operator, cut value, band, region or dominance condition; any scalarization policy; the comparison reference or comparator set; any gate or acceptance relation used by the claim; and necessary applicability or stop conditions. Add an explanatory non-use guard only under F.19:4. | Threshold as characteristic, measure, scalar score, decision, or proof by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |

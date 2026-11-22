@@ -6,12 +6,12 @@ section_id: "B.5.TU:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:1 — Problem frame"
-line_start: 50971
-line_end: 50982
+line_start: 51059
+line_end: 51070
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -29,7 +29,7 @@ Use this pattern when a theory offers a promising way to answer a question, but 
 
 The work here is to construct one application of the theory. Begin with the question and the available account; obtain and interpret the contribution that question needs. The result can be a construction, prediction, explanation, bound or identified missing operation. A mathematical question about what can be constructed is a possible receiving use, as is an engineering decision.
 
-**First useful move.** Choose one question the theory might settle. Find a source case or rule that could supply its answer. Say what plays each required part in your case, work the decisive operation, and explain what its result changes. If you cannot make that connection, locate the first missing premise, interpretation or operation.
+**First useful move.** Begin with the question you are to answer. If choosing an application is part of the work, select a question the theory might settle. Find a source case or rule that could supply the needed contribution. Say what plays each required part in your case, work the decisive operation, and explain what its result changes. If you cannot make that connection, locate the first missing premise, interpretation or operation.
 
 For example, a theory of composition lets you combine two operations. Does it let both consume one input, or does the combination require two separately supplied inputs? Recovering that distinction can change the proposed implementation before any code is written.
 

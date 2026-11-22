@@ -6,12 +6,12 @@ section_id: "C.20:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__014_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:10 — Relations"
-line_start: 65318
-line_end: 65346
+line_start: 65431
+line_end: 65459
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,14 +33,6 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "DisciplinePartOfRelation"
-  - "assembly"
-  - "composition-grounded characteristic"
-  - "discipline construction"
-  - "exact constituents"
-  - "practice-and-knowledge whole"
-  - "reidentification"
-  - "whole-forming claims"
 ---
 
 ### C.20:10 - Relations

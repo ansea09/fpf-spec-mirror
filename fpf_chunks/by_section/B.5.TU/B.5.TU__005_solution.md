@@ -6,12 +6,12 @@ section_id: "B.5.TU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:4 — Solution"
-line_start: 50999
-line_end: 51052
+line_start: 51087
+line_end: 51140
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -29,9 +29,9 @@ Connect the question, the theory's constructive or inferential resources, and th
 
 #### B.5.TU:4.1 - Choose an application worth constructing
 
-State what an answer would help someone understand, obtain, predict, rule out or change. Select one case small enough to work with the available means while retaining the difficulty. For example, “Can these two operations use the same input?” gives composition rules a purpose; “understand category theory” leaves that first use unselected.
+State what an answer would help someone understand, obtain, predict, rule out or change. If the application is assigned, begin with that question. For a smaller case, identify the operation or inference its result will supply when you return to the assignment. The question “Can these two operations use the same input?” can expose a missing composition rule. Permission to use a formal input twice still leaves open whether a particular implementation can supply both operations.
 
-Locate a source application serving that question, or the nearest account whose objects and rules could be adapted. State which part is supplied and which you are proposing. A theory can also be explored to discover a useful question: try one of its characteristic operations and inspect what its result makes distinguishable or obtainable.
+Locate a source application serving that question or an account you could adapt. Identify which choices the source has made and which the present application leaves to you. When exploring a theory freely, try one of its characteristic operations and inspect what its result makes distinguishable or obtainable. That can give you a question worth pursuing in its own right.
 
 Determine the contribution you need to learn or obtain. Applying a supported formula can need its inputs and use conditions; changing the formula can need its construction and argument. Explain the needed difference in work before selecting further study.
 
@@ -47,7 +47,7 @@ Make an unfamiliar expression operative at the point of difficulty. Determine th
 
 Connect each consequential object and condition to the selected case. Some are supplied by observation or design; some are assumptions of the model; others belong to the theory's mathematical construction. Keep their roles clear where they affect the conclusion.
 
-Choose the values, boundary conditions, allowed operations and sought output. For a theoretical question, this may be entirely a construction within the theory. For a physical use, explain which system, quantity or interaction the mathematical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
+Take the givens and the required output from the question. Where you must choose a representation, work back from what the recipient must be able to do. For example, a planner choosing an attainable combination of jobs needs to know which jobs fit together and which must be performed whole. For a question about excluding a target value, a bound over a larger set of plans can suffice if it covers every permitted plan, as in :5.3. For a theoretical question the construction can stay within the theory. For a physical use, identify which system, quantity or interaction the theoretical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
 
 Compose the required operations. Check the connection between successive contributions: an operation's output must supply the next operation's required input. An integration procedure, for example, needs a function of its integration variable; a formula with unfilled path or parameter arguments does not supply that function.
 

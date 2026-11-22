@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.BB.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
-line_start: 74447
-line_end: 74668
+line_start: 74561
+line_end: 74782
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -60,11 +60,11 @@ Choose the quantity and boundary, account for changes in each included part, and
 
 #### C.29.BB:4.1 - Choose an additive quantity and a common interval
 
-Name the quantity Q, its unit or counting rule, the included parts S, and the start and end conditions. Define who or what belongs to each part. Use disjoint parts, or otherwise account for their overlap before summing.
+Start from where and when the recipient needs the result. Identify what would count there and which things belong to that total. Choose the quantity Q, its unit or counting rule and the interval. When the boundary is yours to choose, try treating a consequential exchange as an internal transfer by including both sides. Can you then recover the requested total from the larger amount and what was added? At a smaller boundary, net transfers and internal production or removal can establish the change in stock. To obtain an ending stock from that change, also establish the starting stock or a sufficient bound. An observation of the ending stock can settle the question directly. Choose the boundary whose terms and return to the requested quantity can be established. Let S consist of disjoint included parts, or account for overlap before summing.
 
 For disjoint parts with amounts q_i, additivity means that Q(S) = sum q_i. The rule needs a basis in the model or counting definition. For a population, assigning each included job to one stage can provide it. For physical storage, use the physical quantity and law.
 
-An average temperature is not an additive heat store. If the question concerns stored thermal energy, construct that quantity from the material and state relations; if it concerns the maximum temperature, preserve the local temperatures needed to obtain the maximum. Choosing a convenient sum changes the question unless the required result can be recovered from it.
+For stored thermal energy, construct an additive quantity from the material and state relations. A question about the maximum temperature needs a measured maximum, the local temperatures or another relation from which that maximum follows. If the question asks only whether a temperature limit holds everywhere, a suitable upper bound can suffice. Use a sum when its relation to the requested result supports the inference.
 
 Keep all amounts on the same interval. A transfer that leaves one store before the endpoint but reaches another afterward requires an in-transit store or separate boundary crossings. For snapshots at different times, first recover their relation to the requested interval.
 
@@ -100,7 +100,7 @@ A closed boundary eliminates crossing terms only when the model excludes those e
 
 When enlarging S, include the added stores and their changes. Transfers between the old and added parts become internal only if both sides now refer to the same amount over the interval. The new exterior crossings remain.
 
-When shrinking S, formerly internal transfers can become inputs or outputs. Recompute the requested total from the retained stores. A balance for a larger region supplies its total; obtaining a smaller region's value needs the removed region's amount or a sufficient bound.
+When shrinking S, formerly internal transfers can become inputs or outputs. A direct balance around the smaller region uses those crossings. To recover its amount by subtraction, use the larger total and the amount in the removed region at the same time under compatible counting conventions. A direct reading or a justified bound can also settle what the recipient asks.
 
 Check the two descriptions against each other: the larger total equals the sum of its disjoint parts, and their changes agree after shared transfers cancel. This comparison can expose an omitted connecting store without resolving every internal rate.
 
@@ -108,7 +108,7 @@ Changing the parts over time can also change membership. Include that effect thr
 
 #### C.29.BB:4.5 - Use uncertainty or discrepancy to choose the next move
 
-Substitute the available amounts and compute the requested consequence. If some terms are bounded, propagate the bounds through the signed sum. Preserve dependencies when independently combining endpoints would admit impossible combinations.
+Substitute the available amounts and compute the requested consequence. If some terms are bounded, propagate the bounds through the signed sum. Combining separate extremes can give an outer bound even when those extremes cannot occur together. Use it when it settles the requested threshold. For an attainable value or a guarantee that the outer bound leaves open, use the jointly allowed transfers and stores. A permitted case can refute the guarantee.
 
 For observations, subtract the change predicted by the recorded transfers and internal terms from the observed change in storage. Propagate their uncertainties and shared constraints into a range for this discrepancy. If the range excludes zero, the records and balance cannot agree under those assumptions. If it contains zero, establish whether jointly admissible values actually give zero before claiming agreement is possible. Equal unrecorded inflow and outflow can cancel even when the discrepancy is exactly zero. To locate a fault, examine a term or an independent observation that could distinguish its possible causes.
 
@@ -120,7 +120,7 @@ When implementing a partitioned calculation, represent a shared transfer consist
 
 Derive the aggregate change from the proposed updates. If a numerical approximation changes the balance, determine whether the discrepancy fits the receiving use or repair the update. Balance preservation addresses one property of the computation; accuracy of the local solution requires its own approximation argument.
 
-Return the total, bound or identified missing contribution with the quantity, boundary and assumptions needed to use it. A subsequent question about a local maximum, delay or possible action may require the retained component account. Keep that account available.
+Return the total, bound or identified missing contribution with the quantity, boundary and assumptions needed to use it. For a further question about a local maximum, delay or available action, retain or recover the component information or other grounds that the new question requires. A direct law or bound can already settle it.
 
 ### C.29.BB:5 - Archetypal Grounding
 

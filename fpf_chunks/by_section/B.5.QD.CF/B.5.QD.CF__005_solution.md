@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:4 — Solution"
-line_start: 51627
-line_end: 51688
+line_start: 51715
+line_end: 51776
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -61,13 +61,13 @@ A tentative assumption change lets you explore that question. Keep the conclusio
 
 #### B.5.QD.CF:4.4 - Construct a small answer and return it to the whole need
 
-Perform the relevant reasoning or operation on a case that includes the changed condition. Show how the candidate obtains the needed result, or locate the contribution unavailable. A formal witness answers a question about its model. A physical or organizational proposal also needs the means to produce the corresponding result in its intended setting.
+Use a construction or argument that can answer the question. For a proposed way of working, establish what obtains the needed result under its intended conditions. A case that includes the changed condition can expose an obstruction. When one set of grounds applies throughout the proposed range, show how it covers that range. A mathematical witness supplies a possible configuration. Establish the means of realizing it when the work calls for a physical or organizational result.
 
-Reapply every retained requirement that the proposed change can affect, including those outside the small set used to locate the conflict. A separate operating setting may require a transition that is too slow. An archived input may reproduce a calculation while violating a retained deletion requirement. Either consequence changes what the candidate can answer.
+Return the change to the complete need. Recover the grounds for each retained requirement and for their joint satisfaction on the same admissible arrangement. Reuse grounds that still apply to that arrangement. Repairing a conflicting subset can leave a different conflict untouched. A switch between two individually feasible settings may take too long, and an archive that reproduces a calculation may violate a retained deletion requirement.
 
 Keep three facts distinguishable: the revised statements are compatible; an operation is proposed that would supply their values; that operation has produced or otherwise established the result required for this use. Use the strongest available fact the question needs. An inquiry about what to design next may be answered by a conditional construction; deploying it can require further work.
 
-If the conditions remain incompatible, state that result under the premises that support it. The next question can ask which requirement may change, whether another model is warranted, or whether the work should stop. A proof of impossibility can settle a construction request without finding a replacement.
+If the conditions remain incompatible, show which of them imply that conclusion and what it settles. A proof that no permitted arrangement works completes an inquiry about feasibility. When a working arrangement has been commissioned, the proof explains why it cannot be supplied under those conditions. A decision to change an obligation, or to accept that finding as the deliverable, belongs to whoever holds that choice.
 
 #### B.5.QD.CF:4.5 - Continue at the missing contribution, or use the answer
 

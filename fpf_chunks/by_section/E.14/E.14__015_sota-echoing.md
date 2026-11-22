@@ -6,12 +6,12 @@ section_id: "E.14:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__015_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:12 — SoTA-Echoing"
-line_start: 112844
-line_end: 112857
+line_start: 112966
+line_end: 112979
 dependencies:
   - "B.3.5"
   - "C.13"

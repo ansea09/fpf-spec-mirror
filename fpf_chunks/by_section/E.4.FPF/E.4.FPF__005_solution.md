@@ -6,12 +6,12 @@ section_id: "E.4.FPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:4 — Solution"
-line_start: 99318
-line_end: 99490
+line_start: 99440
+line_end: 99612
 dependencies:
   - "C.33"
   - "C.34"
@@ -166,7 +166,7 @@ Use these steps for the FPF edition:
 3. Identify the selected Core pattern set and any companion or projection loci that expose it.
 4. When a public presentation carrier is being assembled or checked, use `E.11.PFP` for the common publication form. Keep a product-declared compact opening and separate exact title and Readme H1 values.
 
-   Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3's entry guidance and unmatched-question return, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
+   Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3’s guidance for keeping the reader’s question through the choice of entry, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
 
    Apply `E.11`'s use test before assigning card form, and use the current FPF declaration above for every selected key and form plus the English compactness measure and two limits. Add another public cue only when a named reader decision or action needs it.
 

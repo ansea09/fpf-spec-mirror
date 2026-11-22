@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:1 — Problem frame"
-line_start: 117463
-line_end: 117478
+line_start: 117585
+line_end: 117600
 dependencies:
   - "A.10"
   - "A.15"

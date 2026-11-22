@@ -6,12 +6,12 @@ section_id: "C.19.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:7 — Conformance Checklist"
-line_start: 64881
-line_end: 64893
+line_start: 64990
+line_end: 65002
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -42,7 +42,7 @@ keywords:
 | `CC-C19.2-2` | A current single-apparatus case proceeds without a fabricated `OptionSet` or `ChoiceResult`. |
 | `CC-C19.2-3` | Candidate generation, local choice, planning, tool-call planning, dated work, and direct result retain their subject patterns. |
 | `CC-C19.2-4` | Every candidate retains its direct kind and satisfies one explicit eligibility predicate for the same use and guarantee. |
-| `CC-C19.2-5` | Any `C.11` result is exactly `choose now`, `reject current set`, `probe again`, or `reroute`. |
+| `CC-C19.2-5` | A completed `C.11 ChoiceResult` has one of the four stated dispositions. An unfinished comparison identifies the outstanding premise or decision. |
 | `CC-C19.2-6` | The intended-reader position, guidance, any independently identified `U.Method` and qualifying `U.MethodDescription`, performing `U.System`, dated `U.Work` and problem-facing result remain distinct. Every precise performer has an A.13 core, and the Work is independently admitted under A.15.1. F.6 is required only when the receiving use also needs precise assignment-bound attribution. A short projection exposes assignment identity, species, participants, or attribution detail only when that use relies on them, attribution is ambiguous, or source wording must be repaired. |
 | `CC-C19.2-7` | The first useful result and stop are practical, and every reopen condition changes a named next action. |
 | `CC-C19.2-8` | Candidates retain their direct kinds and comparisons use declared, admissible operations. |

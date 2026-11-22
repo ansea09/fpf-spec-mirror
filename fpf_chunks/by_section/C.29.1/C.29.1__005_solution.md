@@ -6,12 +6,12 @@ section_id: "C.29.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:4 — Solution"
-line_start: 73318
-line_end: 73454
+line_start: 73437
+line_end: 73575
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -54,11 +54,11 @@ The last two uses are stronger than mapping source cases forward. Keeping the di
 
 Choose a source domain X and a receiving domain Y. Construct a map F from the allowed source cases to their receiving representations. Explain its action in the working terms before relying on its notation: F(n,r) = n − r retains available stock and forgets the separate totals; a route endpoint summary forgets which route was taken.
 
-A correspondence can use several maps. An operation may take one kind of input and return another, so its input map and output map can differ. For an operation with several inputs, say how each input is mapped and which combinations are permitted. Where the intended account relates one case to several possible representations, use that relation explicitly. Selecting one representation for each source case defines another construction; establish that the selection supports the intended conclusion.
+A correspondence can use several maps. An operation may take one kind of input and return another, so its input map and output map can differ. For an operation with several inputs, establish which tuples are allowed in the source. If inputs describe constituents of one whole, ask what makes them parts of the same admissible arrangement. Map those combinations into the receiving account. Taking all combinations of the separate summaries can introduce arrangements with no source counterpart. A guarantee proved on this larger set holds on the represented subset when the property carries back. To return a feasible arrangement, recover one compatible source combination with the required properties. Where the intended account relates one case to several possible representations, use that relation explicitly. Selecting one representation for each source case defines another construction; establish that the selection supports the intended conclusion.
 
 Construct the correspondence by asking what the receiving question needs. Identify a candidate variable, relation or operation that carries that information. Compute its value on source cases. Determine which cases it combines. Try to express the receiving operation using only what remains. If the expression still depends on an omitted quantity, either retain that quantity or establish why it cancels for this use.
 
-For a change of coordinates, construct the inverse when returning a complete source state is intended. For a summary, identify the source cases compatible with each receiving value. A many-to-one map can answer a question exactly even though it cannot reconstruct the whole source state.
+For a change of coordinates, construct the inverse when the receiver needs the complete source state. For a summary, identify the source cases compatible with each receiving value. It can give the exact answer to one question while leaving other properties open. Moving from a part to its whole changes what the account describes. To compare levels of abstraction of models, fix the question and interpretation and compare the possibilities each model admits for it (B.5.MR). For the transfer of a particular conclusion, establish the direction and the property it uses.
 
 Keep the domain visible. A division requires a nonzero denominator; a square-root substitution may impose a sign choice; a route may exist only for certain endpoints or histories. A map justified on one part of X supports conclusions on that part. A receiving value outside F(X), the set of represented source cases, needs a further argument before it is used as a source possibility.
 
@@ -112,6 +112,8 @@ If g exists, both source answers equal g of the same receiving value. Conversely
 Use this as a construction, not only as a test. First try to rewrite q in terms of the retained variables. If the unwanted variables disappear, derive the resulting g. If they remain, look for two permitted source cases with the same representation and different q values. That pair proves that the requested answer cannot be recovered from that representation alone. One such pair is enough to refute the proposed function. Failure to find a pair is not a proof of independence.
 
 For an update, ask whether cases sharing the current summary have the same required next summary. For a summary that is also to decide availability, compare the operation conditions across those cases. For a prediction after several steps, compare what the permitted continuations can do. The relevant comparison follows the requested result; it does not require preserving every property of the original object.
+
+The requested result may instead be one acceptable action. For a reachable summary y, take the source cases compatible with y and consider the actions allowed and sufficient in each. To return one action with a guarantee on y, choose one the recipient can carry out that meets the requirement in every such case. The complete sets of acceptable actions may differ. Even if every pair of cases shares some action, the whole group may have none in common. If the work permits a decision after further information arrives, construct the rule at that later decision point using what its performer can then know and do. MMP.8:4.2–4.3 develops that formulation. When only the mathematical existence of a choice was asked for, the corresponding existence argument can suffice.
 
 Distinguish defining a value on a merged class from changing the question. “The cost of this route” requires the chosen route's cost. “The least cost among these routes” combines several costs by taking a minimum. The second is a new, potentially useful function; it does not make the first independent of its representative.
 

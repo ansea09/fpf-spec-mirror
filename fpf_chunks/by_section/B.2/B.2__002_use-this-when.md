@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 45164
-line_end: 45192
+line_start: 45182
+line_end: 45210
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,19 +48,19 @@ keywords:
 
 ### B.2:0 - Use This When
 
-Use this pattern when changed facts raise the question whether the existing whole still carries the claim or a new whole must be identified. The question may concern its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation.
+Use this pattern when a decision depends on whether an existing whole can carry a claim through an actual or proposed change, or requires identifying a different whole. The question may concern its delimitation, constituents, assembly, objective, supervision, capability envelope, agency threshold or continuity across time.
 
 The question can also arise when a whole is first constituted or first recognized. If no prior holon has been established, use A.1 and the applicable construction and kind-specific patterns to recognize the candidate. B.2's comparison begins only when there is an established prior whole to compare with it.
 
 Typical moments:
 
 - a set of coordinated parts becomes a regulated system with its objective and externally visible commitments;
-- a commissioning history crosses into operation and the assurance claim must restart for the operational whole;
+- an installation enters operation and its users must determine which commissioning evidence supports a claim about it in service;
 - a theory, model family, or knowledge body becomes an episteme whole recognized under the already admitted `U.Episteme` kind rather than remaining a loose catalogue;
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
 - an architecture residual cannot be explained inside the existing whole.
 
-**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary. When the identity grounds themselves are missing or disputed, start with :4.0.
+**First useful move.** What decision depends on the identity of which whole? Establish whether the question concerns an actual change, what would follow under a proposed arrangement, or a design still to be made. Use an established continuity condition directly when it decides the question. For an actual gain or shift, compare explanations that preserve the existing whole. A constituent repair, different measurement, change of Method or Work, wider phase coverage or a corrected architecture view may suffice. For a design, start from the required use and the choices it leaves open in :4. A disputed identity criterion belongs in :4.0.
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 

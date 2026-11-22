@@ -6,12 +6,12 @@ section_id: "F.1:4"
 section_title: "Solution — find inspectable material and select by answer-changing role"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__005_solution-find-inspectable-material-and-select-by-answer-changing-role.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:4 — Solution — find inspectable material and select by answer-changing role"
-line_start: 127097
-line_end: 127267
+line_start: 127219
+line_end: 127389
 dependencies:
   - "A.10"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.40:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__011_architectural-rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:10 — Architectural Rationale"
-line_start: 90470
-line_end: 90477
+line_start: 90592
+line_end: 90599
 dependencies:
   - "C.11"
   - "C.18"

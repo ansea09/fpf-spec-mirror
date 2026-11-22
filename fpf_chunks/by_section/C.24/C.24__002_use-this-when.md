@@ -6,12 +6,12 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 67672
-line_end: 67773
+line_start: 67786
+line_end: 67888
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Reuse an adequate known route.
+**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Establish which required results are already available and what still has to be done with them. If a usable result can be delivered as ordered, plan its delivery. If the order requires a fresh performance, include it. Reuse an adequate known route for the remaining work.
 
 Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1.
 
@@ -80,7 +80,7 @@ Return the supported ordered calls, applicable budget and stop or replan conditi
 #### C.24:0.3 - First-minute questions
 
 1. Which applicable domain prescription, A.15.7 decision or C.11 choose-now result fixes the action or option now being planned?
-2. Does every planned step name an admitted Method, rather than only a vendor route or endpoint label?
+2. What still has to reach the recipient? Work back to the available inputs and choose the admitted Methods whose results can supply the missing contributions.
 3. Which budget is current: a still-upstream probe budget or an enactment/call budget?
 4. What event stops or replans the route?
 5. Is the useful output a plan, a checkpoint, or a return to a neighbouring pattern?
@@ -105,6 +105,7 @@ CallPlan:
     - methodRef
       methodDescriptionRef?          # only when the route description is needed
       dependsOnPlannedStepRefs?      # only when dependency changes the route
+      runWhen?                       # earlier observable condition selecting this call on a branching route
       mayRunInParallelWithStepRefs?  # only when safe parallelism matters
   plannedBudgetEnvelope
   stopOrReplan

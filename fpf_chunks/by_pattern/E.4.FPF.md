@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.FPF.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
-line_start: 99267
-line_end: 99609
+line_start: 99389
+line_end: 99731
 dependencies:
   - "C.33"
   - "C.34"
@@ -216,7 +216,7 @@ Use these steps for the FPF edition:
 3. Identify the selected Core pattern set and any companion or projection loci that expose it.
 4. When a public presentation carrier is being assembled or checked, use `E.11.PFP` for the common publication form. Keep a product-declared compact opening and separate exact title and Readme H1 values.
 
-   Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3's entry guidance and unmatched-question return, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
+   Represent Readme and Architectural Reference in the product's established ToC grammar before one logical pattern index. Keep one selected practical-entry set with E.11.PFP:4.3’s guidance for keeping the reader’s question through the choice of entry, five-field ordinary examples, six-field selected cards, and one integrated source-hazard plus rendered-structure check.
 
    Apply `E.11`'s use test before assigning card form, and use the current FPF declaration above for every selected key and form plus the English compactness measure and two limits. Add another public cue only when a named reader decision or action needs it.
 
@@ -329,7 +329,7 @@ In the repaired candidate, DUA-2, PUR-2 and Ways-1 match their selected sources,
 | CC-FPF.10 Common form reused | The selected public form satisfies `E.11.PFP` for the compact product-declared opening, distinct exact title and Readme H1, Readme and Architectural Reference entries in the established ToC grammar, one logical index, practical entries, and any choice-relevant cue. This pattern retains FPF-specific sources, units, body order, carrier and route selection, and builder regressions for the established compact-front line shape and native ToC grammar. |
 | CC-FPF.11 One rebuildability record sufficient | One `FPFEditionRebuildabilityRecord` carries the exact selected source, publication-unit, publication-form, presentation-carrier, access-route, relation, projection, and refresh references. Add another manifest, field, or record only after showing which FPF value is missing. |
 | CC-FPF.12 Deterministic source assembly | The all-in-one edition candidate uses the exact predecessor, selected edition record, matching `FPFEditionRebuildabilityRecord`, selected complete pattern sources, and explicit replacement or insertion boundaries. Use one selection for the index and bodies, report source correspondence, and preserve every unselected predecessor span. Any identity, source, index/body, boundary, or preservation mismatch stops construction before an acceptance or publication claim. Repository filenames, commands, helper options, and template syntax remain in maintainer documentation or tool help rather than this reusable rule. |
-| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme introduces the ordinary entries and cross-pattern cards selected by the declaration in §4, returns unmatched questions to a finding aid, and applies E.11.PFP:4.3 to any coverage correction. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
+| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme introduces the ordinary entries and cross-pattern cards selected by the declaration in §4, applies E.11:4.1 and :4.4.1 to what the reader can obtain by following a plausible entry and gives a finding aid for the work still needed, and applies E.11.PFP:4.3 to any coverage correction. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
 
 ### E.4.FPF:8 - Common Anti-Patterns and How to Avoid Them
 

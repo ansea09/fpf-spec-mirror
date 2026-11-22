@@ -6,12 +6,12 @@ section_id: "E.24.UK:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__014_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:12 — Relations"
-line_start: 126195
-line_end: 126202
+line_start: 126317
+line_end: 126324
 dependencies:
   - "A.1.1"
   - "A.11"

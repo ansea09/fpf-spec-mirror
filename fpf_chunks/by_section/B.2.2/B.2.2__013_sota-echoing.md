@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 46035
-line_end: 46046
+line_start: 46063
+line_end: 46074
 dependencies:
   - "A.1"
   - "A.10"

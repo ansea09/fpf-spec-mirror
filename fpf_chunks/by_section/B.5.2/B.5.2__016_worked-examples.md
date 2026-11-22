@@ -6,12 +6,12 @@ section_id: "B.5.2:15"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__016_worked-examples.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:15 — Worked Examples"
-line_start: 52104
-line_end: 52145
+line_start: 52200
+line_end: 52237
 dependencies:
   - "A.10"
   - "A.16"
@@ -31,17 +31,13 @@ keywords:
 
 A service team notices recurring latency spikes during one operating window. The prompt species is `AnomalyStatement`: *why does latency spike in the evening batch window despite unchanged nominal load?*
 
-The candidate set includes:
+Follow one slow request from arrival to completion. A stable count of arrivals can coexist with a growing downstream queue. A separate evening job could reduce the rate at which requests are served. A scheduled backup on the same storage path could also make a request wait. With other traffic held fixed, a cache invalidation regression could generate extra reads per arrival. Each mechanism can lengthen the wait, and several can act in the same window. A trace showing where this request waited may settle its own delay. To explain the recurring spike, establish how the observed requests contribute to the latency statistic and why the proposed relation holds over the relevant windows.
 
-- queue saturation in one downstream dependency,
-- a time-window interaction with backup traffic,
-- and a recent mechanism regression in cache invalidation.
-
-The evening timing and a plausible mechanism keep the backup-interaction conjecture in consideration. A downstream queue that also fills during the evening could fit the same observations. To prefer one explanation now, show how an observation already available, a constraint already known or another justified difference favours it under the comparison criterion. If the available grounds leave them tied, retain both. A prospective test can still be worth doing. Isolating backup traffic and comparing latency against prior windows is a possible discriminator. When that probe is obtainable and its expected contribution justifies its cost and delay, it can be selected as separate work. The conjecture records no observation from that unperformed probe.
+The evening timing and a plausible mechanism keep the backup-interaction conjecture in consideration. The longer queue can fit each proposed mechanism. To prefer one explanation, identify what that mechanism or combination predicts beyond the shared delay and compare those consequences with available observations or constraints. Keep explanations that the available grounds leave tied. A prospective test can still be worth doing. Isolating backup traffic and comparing latency against prior windows is a possible discriminator. When that probe is obtainable and its expected contribution justifies its cost and delay, it can be selected as separate work. The conjecture records no observation from that unperformed probe.
 
 Now keep the same observations and rival set but make the probe window unavailable. The qualified conjecture and its uncertainty remain; if the available comparison cannot select a winner, defer that selection. No new test, waiver or study proposal is needed to finish the present abductive result.
 
-In both variants, suppose an existing operational qualification independently supports a bounded diversion to a spare instance for this traffic and interval, with sufficient capacity and permission, across all three remaining causes. C.11 can support that service response on the available basis. Diverting traffic does not identify the cause; a causal claim about the mechanism needs the appropriate C.28 support. If that operational basis is absent, do not infer a justified diversion from conjecture plausibility.
+In both variants, suppose an existing operational qualification independently supports a bounded diversion to a spare instance for this traffic and interval, with sufficient capacity and permission, across the causal possibilities still open for this decision. C.11 can support that service response on the available basis. Diverting traffic does not identify the cause; a causal claim about the mechanism needs the appropriate C.28 support. If that operational basis is absent, do not infer a justified diversion from conjecture plausibility.
 
 #### B.5.2:15.2 - Opportunity-driven materials inquiry
 

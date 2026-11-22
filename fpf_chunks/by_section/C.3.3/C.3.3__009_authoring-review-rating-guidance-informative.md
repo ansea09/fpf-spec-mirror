@@ -6,12 +6,12 @@ section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 58260
-line_end: 58285
+line_start: 58370
+line_end: 58395
 dependencies:
   - "A.2.6"
   - "A.6.REL"

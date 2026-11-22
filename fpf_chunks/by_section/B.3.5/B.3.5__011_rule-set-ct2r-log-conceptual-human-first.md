@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 47556
-line_end: 47651
+line_start: 47614
+line_end: 47709
 dependencies:
   - "B.3"
   - "C.13"
@@ -102,8 +102,8 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 
 #### B.3.5:9.4 - Author’s working moves
 
-**M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
-**M‑2.** If a publication choice or named requirement elects this profile, pick `validationMode`; otherwise keep the relation claim and stop:
+**M‑1.** Identify the decision and state the relation it needs in Working-Model form. If the choice is yours, vary how the participant belongs to a collection, fits an assembly or contributes to an action as relevant. Select the relation whose difference changes the answer. Where the decision depends on several relations, follow them back to that decision.
+**M‑2.** Establish which covered assertions require this profile under the publication choice or requirement. For each of those assertions, select the grounding branch and its `validationMode`. Use an adequate readable claim directly where no profile is elected.
 
 * For a permitted exploratory claim, choose **postulate**, link its empirical support, and state scope plus challenge cues.
 * For a permitted conclusion from known statements, choose **inferential** and link the followable argument.
@@ -112,6 +112,6 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 * For another permitted epistemic or constitutive claim whose chosen basis is a qualifying C.13 account, choose **axiomatic** and link that account.
 
 **M‑3.** When an alternative designation helps readers, link that designation through `tv:AliasOf` to the accepted Tech designation of the same relation. State its local use and cite the definition; apply :5 when the meaning or participant order differs.
-**M‑4.** If assembly uses two parallel lines, state the Method/Work and temporal facts. Add any independently obtaining part relation under its own rule; parallelism alone does not establish it.
-**M‑5.** Stop when the selected readable relation and any relevant use limits are clear and, if this profile is elected, its validation mode and required current support are recoverable.
+**M‑4.** When the arrangement of work affects the claim, distinguish the operations prescribed by the Method from the performances that made up the actual job. If assembly used two parallel lines, establish how their work contributed to the assembly and which relations obtain between the assembled parts when the decision needs them.
+**M‑5.** Return what the readable claim and any elected grounding establish for the recipient. A joint conclusion has grounds for the connections it needs. Keep an unsupported part open and state the narrower result the available grounds support.
 

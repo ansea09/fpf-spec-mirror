@@ -6,12 +6,12 @@ section_id: "B.4.1:14"
 section_title: "Keeping route plurality useful"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__015_keeping-route-plurality-useful.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:14 — Keeping route plurality useful"
-line_start: 48140
-line_end: 48157
+line_start: 48216
+line_end: 48233
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,7 +35,7 @@ keywords:
 
 ### B.4.1:14 - Keeping route plurality useful
 
-A routed cue set stays useful only when route plurality, route grounds, selection status, and any current-use or retirement claim remain explicit.
+State the grounds for the live route or routes, the selection status, and the basis for any current-use or retirement claim. Preserve the alternatives that still matter to the recipient.
 
 #### B.4.1:14.1 - Minimal route package
 Use the minimal route package in §4 (Solution).
@@ -44,10 +44,10 @@ Use the minimal route package in §4 (Solution).
 When one route is selected, the routed cue set states the route choice. If the receiving work calls for a further claim or result, apply its subject pattern under that pattern's entry conditions. Publishing the routes and selection can be the sufficient result.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
-Review the cue grounds and any further grounds used to justify the selection, including the reasons for excluding previously live alternatives. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not met, keep the publication early.
+Review what the cue supports and the grounds for any recommendation or reported choice. Explain an exclusion when claiming that another route ceased to be suitable. Selecting a suitable route can leave other routes suitable. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not met, keep the publication early.
 
 #### B.4.1:14.4 - Deferred selection and route splitting
-When selection is deferred, publish the live candidates, their grounds and any unresolved conditions. When a selection is made, state it.
+In a route publication, describe deferred selection through the live candidates, their grounds and any unresolved condition that matters to the recipient. Attribute an actual selection when one has been made.
 
-One cue cluster may also split into several routed cue sets if different sub-cues support different destinations. The split should be published so that later readers do not assume that one route exhausted the original cue complex.
+One cue cluster may also split into several routed cue sets if different sub-cues support different destinations. Explain a split to later readers when their decision depends on how the sub-cues and destinations relate.
 

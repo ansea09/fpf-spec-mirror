@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 66683
-line_end: 66869
+line_start: 66797
+line_end: 66983
 dependencies:
   - "A.10"
   - "A.15"
@@ -103,7 +103,7 @@ When a downstream reader asks whether intended Work can enter a work boundary, t
 The Solution turns observed signal material into one C.2.1 episteme and one governed next use, not a completed form.
 
 1. Capture the symptom, anomaly, risk, stakeholder cue, drift, hypothesis, or other observed signal before naming an actual Problem. If the concern is not yet clear, put available source entries side by side and compare the events or meanings they record. Use what this comparison reveals to develop the question, as in [the support example](#c222201a---compact-p2w-ready-disposition-slice).
-2. Recover the one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and claim family. If the claims concern unrelated entities, split the ClaimGraph and card.
+2. Trace the signal to the work affected and what its recipients need to do. If their difficulty arises where two contributions meet, identify the hand-off, whole or other relation that gives the claims a common subject. An account of each contribution can leave their interaction unresolved. State the joint EntityOfConcern, effective ReferenceScheme, ClaimScope and claim family. Where the claims have independently identified subjects and no common one for this work, make separate cards.
 3. Separate the signal detector, actual-PFR assertion if independently grounded, anticipated-condition claim, improvement check, candidate acceptance criterion, method-availability claim, monitored risk signal, and proxy-distortion risk. These are not one card status or one PFR participant set.
 4. Pay only for current complexity. Add conditional content only when it changes the current next use; otherwise stop at the lighter card or name the direct pattern for the claim now current.
 5. If a reformulation changes the represented concern, meaning, scope or intended use, establish the actual relation on which reuse of an earlier disposition depends. Use the applicable representation-transition, retargeting or structural-reinterpretation rule; F.9 is needed only when a relied-on semantic correspondence meets its Bridge conditions. Ordinary wording cleanup can preserve the disposition without a new relation.

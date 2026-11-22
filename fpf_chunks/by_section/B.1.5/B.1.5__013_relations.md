@@ -6,12 +6,12 @@ section_id: "B.1.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:12 — Relations"
-line_start: 44327
-line_end: 44350
+line_start: 44337
+line_end: 44360
 dependencies:
   - "A.1"
   - "A.15"
@@ -70,7 +70,7 @@ B.1.5.CM constructs the prospective whole, constituent contributions, joins and 
 - Uses `A.3.2` and `C.2.1` for MethodDescription claims and identity. Uses `E.24.PUB` when publication affects the receiving use: start with the edition, audience, bounded use, expression and carrier; recover further expression, bearing, form-conformance or availability predicates for the question that remains. Publication Work and designation remain separate.
 - Uses `A.22.CGUS` when a first–then, guarded, branching, or returning unfolding is the useful result; an unfolding position is not a subject level or evidence that all contributions are sequential.
 - Uses `A.15`, `A.15.1`, and `A.15.2` for dated `U.Work`, `enactsMethod`, and plans; uses `A.2`, `A.2.1`, and F.6 for local system-role-kind and Method alignment, separately declared assignment species, assignment occurrences, and obtaining Work–assignment attributions. The Method does not act, and neither a system-role kind nor an assignment performs Work.
-- Uses `B.1.6` and `Gamma_work` only for occurrence-side work-resource aggregation after the Work and resource relations are recovered.
+- Uses `B.1.6` to construct a resource-accounting rule for prospective Works, derive a conditional bound from a proposed arrangement, or aggregate actual use through `Gamma_work`. A report of actual consumption relies on the relevant Work and resource relations.
 - Uses `B.3` for cutset, weakest-link, CL-sensitive mapping, and assurance claims; composition alone supplies no assurance verdict.
 - Uses `A.22` when the receiving use needs a selected organization and its four identity discriminators are established. Ordinary comparisons can finish without that claim; a dated selection occurrence has its separate Work grounds.
 - Uses `C.13` only after B.1.5 supplies Method parts, whole-forming facts and constraints, and the whole reidentification rule; C.13 consumes those facts but does not create them or require one relation kind per fact.

@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Ledger Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__007_ledger-discipline.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:4 — Ledger Discipline"
-line_start: 45024
-line_end: 45043
+line_start: 45040
+line_end: 45059
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ A ledger can organize the grounds needed to reconstruct the aggregation. Whether
 - the measured or estimated subject, time window, and included Work occurrence, non-Work carrier phase or other admitted accounting subject to which the value applies;
 - the attribution basis: C.16 measurement Work and its result episteme for a claimed performed measurement, or the source values, model and conditions for an estimated or derived value, including the calibration and uncertainty basis needed for its use;
 - every A.15.1 Work-part relation used by the ledger, every C.27.TA overlap fact used by it, and any current non-Work carrier `PhaseOf`, each independently established by its subject pattern;
-- whether component values include the same resource use, stock portion or attributed contribution, and the justified allocation or deduplication rule where they do;
+- which overlaps matter to the result: an exact total may require identification and deduplication, while a threshold can sometimes be decided by a bound that holds for every possible overlap;
 - any conversions, normalizations or imputations used, with the operative methods and rules;
 - the operative aggregation rule, its edition when the result or use depends on it, and the aggregation Work occurrence when that dated occurrence is asserted or required;
 - the typed aggregation result and its statement, with a separately identified C.2.1 result episteme when the receiving claim or use needs one; and

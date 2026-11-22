@@ -6,12 +6,12 @@ section_id: "B.5.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:1 — Problem frame"
-line_start: 51873
-line_end: 51878
+line_start: 51965
+line_end: 51972
 dependencies:
   - "A.10"
   - "A.16"
@@ -30,4 +30,6 @@ keywords:
 **Use this when.** An anomaly, opportunity or probe question needs candidate explanations that can be compared on their present plausibility. State the explanatory question, develop candidates and look for serious alternative explanations. The first useful result is a qualified conjecture with its supports, fragilities and allowed use, or a justified abort, defer or split outcome.
 
 An adequate present answer or action need not enter abduction to generate another research task. Use C.11 for a live choice among feasible actions and C.28 when a causal-support claim is needed. Abduction contributes candidate explanatory content; it is not the complete evidence synthesis or action decision.
+
+Start from what the recipient needs explained and who is to choose the question. When the commission is to check a supplied explanation, first derive what it implies for that case and use any adequate evidence already available. When it is to find an explanation, the supplied candidate is one possibility to examine. An invitation to discover questions can give the investigator the further choice of what to pursue.
 

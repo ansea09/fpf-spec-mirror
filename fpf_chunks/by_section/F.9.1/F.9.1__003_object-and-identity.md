@@ -6,12 +6,12 @@ section_id: "F.9.1:2"
 section_title: "Object and identity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__003_object-and-identity.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:2 — Object and identity"
-line_start: 130395
-line_end: 130408
+line_start: 130517
+line_end: 130530
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

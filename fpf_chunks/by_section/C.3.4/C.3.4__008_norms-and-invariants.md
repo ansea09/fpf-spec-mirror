@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms and Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_norms-and-invariants.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:6 — Norms and Invariants"
-line_start: 58424
-line_end: 58453
+line_start: 58534
+line_end: 58563
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -33,7 +33,7 @@ keywords:
 
 **KUA-03 (Admissibility before judgment).** Fixed candidate, kind, base-signature edition, adaptation-declaration edition, and slice first yield `admissible` or `not-applicable`. Only an admissible request yields `true`, `false`, or `unknown`; implicit `latest` and guard-result coercion are forbidden.
 
-**KUA-04 (Adaptation type).** A vocabulary declaration preserves the base judgment. Constraint and composite declarations use governed candidate conditions: any known `false` gives `false`, all known `true` gives `true`, and unresolved required facts give `unknown`.
+**KUA-04 (Adaptation type).** A vocabulary declaration preserves the base judgment. For a constraint or composite declaration, evaluate the combined criterion for the admissible candidate. Return `true` when the grounds establish the conjunction, `false` when they exclude it and `unknown` when they leave it unsettled. Use known individual conditions and any established joint constraints.
 
 #### C.3.4:6.2 - Separation of Channels
 

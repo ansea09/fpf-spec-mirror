@@ -6,12 +6,12 @@ section_id: "C.2.5:13"
 section_title: "Worked Examples and Retreat Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__014_worked-examples-and-retreat-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:13 — Worked Examples and Retreat Cases"
-line_start: 56458
-line_end: 56470
+line_start: 56566
+line_end: 56578
 dependencies:
   - "A.16"
   - "A.16.0"

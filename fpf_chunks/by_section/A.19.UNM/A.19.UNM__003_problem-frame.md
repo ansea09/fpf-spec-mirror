@@ -6,7 +6,7 @@ section_id: "A.19.UNM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__003_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:1 — Problem frame"

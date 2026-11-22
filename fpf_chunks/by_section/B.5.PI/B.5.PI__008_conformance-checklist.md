@@ -6,12 +6,12 @@ section_id: "B.5.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:7 — Conformance Checklist"
-line_start: 52990
-line_end: 53002
+line_start: 53094
+line_end: 53106
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -36,5 +36,5 @@ For guidance or an application claiming this method, examine the consequential c
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.
 - The continuation can obtain a usable contribution, identify missing means, or stop without change under stated conditions.
 - Conformance, result achievement, adequacy for the receiving work and completeness of the description remain different claims.
-- The result returns to the encompassing work, and any claim about later independent use has its own basis.
+- The result returns to the encompassing work. Its grounds show what the occasion establishes there, including any claim about recurrence. A claim about later independent use has its own basis.
 

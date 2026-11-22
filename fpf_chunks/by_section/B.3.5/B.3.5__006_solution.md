@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:4 — Solution"
-line_start: 47409
-line_end: 47472
+line_start: 47461
+line_end: 47530
 dependencies:
   - "B.3"
   - "C.13"
@@ -22,6 +22,10 @@ keywords:
 ### B.3.5:4 - Solution
 
 The Working-Model and Assurance layers name E.14's presentation order: the claim first, its needed support accessible underneath. When two models are being compared for abstraction or refinement, use B.5.MR's comparison of their admitted answers.
+
+To choose the relations, ask which changes could leave your statement true while altering the reader’s decision. Holding an item’s registration fixed, it can move from a warehouse into an assembly. Holding the assembly fixed, responsibility for maintaining it can pass to another operator. Follow the part relations of the system, the constituent operations of a Method or the parts of performed Work as far as their arrangement affects the requested answer. Establish links between these accounts by the facts they assert, such as who performed the installation and which installed equipment the record describes. A direct fact about one relation can already settle a request confined to that relation.
+
+Choose the distinctions to publish from the same question. Can the reader reach the required decision, with its grounds, in all the arrangements the model describes alike? Keep a missing distinction in the statement or in a grounding account accessible when it is needed. If the commissioned conclusion uses several assertions together, establish their compatibility for the items, times and uses it covers.
 
 CT2R-LOG distinguishes an optional link between relation designations from the grounding link and validation flag required for each covered assertion:
 
@@ -50,7 +54,9 @@ The applicable branch above selects the allowed modes and grounding targets. The
 
 #### B.3.5:4.1 - Inspect correspondence to a target kind or logical representation
 
-When a constructive trace, working-model relation, and target kind or logical representation must be inspected together across contexts, explain their correspondence and what structure is preserved or lost. The block below is an optional way to record that account. Use `A.22.CGUS` for a remaining question about potential continuations and their conditions.
+When a constructive trace, Working-Model relation and target kind or logical representation must be used together, state the question and the direction of the inference. Consider the permitted source arrangements that a target description can represent. If it describes two different arrangements alike, see whether that difference could change the required answer. A dated entry certifying the installation of a pump of an approved class can establish that class for the installation. If it omits the unit identifier, several individual pumps may still fit the entry. For a claim about that unit, find its binding to the installation or give the narrower conclusion. A difference lost in the mapping can be immaterial to another question. An argument covering the relevant arrangements settles whether the inference holds.
+
+The optional block records the correspondence and its limits. Use `A.22.CGUS` for a remaining question about potential continuations and their conditions.
 
 ```text
 StructuralCT2RTypingGroundingUnfoldingStructureBlock:

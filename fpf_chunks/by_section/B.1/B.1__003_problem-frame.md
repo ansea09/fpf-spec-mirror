@@ -6,7 +6,7 @@ section_id: "B.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__003_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:1 — Problem Frame"
@@ -31,5 +31,5 @@ keywords:
 
 ### B.1:1 - Problem Frame
 
-Whole-level claims require identified objects and a grounded account of their part or collection relations. Mathematical and computational representations can express or check that account; their notation alone establishes neither holon identity nor parthood.
+A claim about how a whole is constituted or what follows from that constitution needs the relevant part or collection relations. An observation or law applying to the identified whole can answer a question about its characteristic directly. Mathematical and computational representations can express or check a constitution once their correspondence with it is established.
 

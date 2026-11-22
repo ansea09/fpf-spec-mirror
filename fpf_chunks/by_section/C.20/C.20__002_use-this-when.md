@@ -6,12 +6,12 @@ section_id: "C.20:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:0 — Use This When"
-line_start: 64942
-line_end: 64975
+line_start: 65051
+line_end: 65086
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,19 +33,13 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "DisciplinePartOfRelation"
-  - "assembly"
-  - "composition-grounded characteristic"
-  - "discipline construction"
-  - "exact constituents"
-  - "practice-and-knowledge whole"
-  - "reidentification"
-  - "whole-forming claims"
 ---
 
 ### C.20:0 - Use This When
 
-Use this pattern when a team needs to decide whether a field is one durable practice-and-knowledge whole rather than a label or collection. Typical moments include:
+Use this pattern to establish what makes an existing field a discipline, to design the connection between knowledge and practice in a proposed field, or to maintain that connection as the field changes. Begin with the work the discipline is meant to sustain. Practitioners may be producing something, investigating a phenomenon, or keeping an activity effective over time. What must they understand to do that work, and how can the results of their work test or improve that understanding?
+
+Typical moments include:
 
 - comparing rival traditions without letting a shared label, Bridge or comparison table merge them;
 - reusing a practice across semantic localities while preserving local meanings, direction, tolerated loss and field boundaries;
@@ -55,7 +49,7 @@ Use this pattern when a team needs to decide whether a field is one durable prac
 
 **Primary EntityOfConcern.** One exact `U.Entity` candidate being tested for recognition as `U.Discipline`. The candidate is recoverable before the classification result.
 
-**First useful move.** Name the exact candidate and two independently identified candidate parts: at least one making a knowledge-bearing contribution and at least one making a reusable-practice contribution. Then state why each direct part relation obtains and one whole-forming fact that couples the two contributions. Do this before letting the discipline name support a comparison, selector or dispatcher, health or maturity claim, transport, or edition decision. If those facts are unavailable, retain the supported account of separately governed objects or their collection and leave the discipline claim unresolved.
+**First useful move.** What does the proposed field enable practitioners to do or explain? Start with a problem the field is meant to address. Trace the knowledge that guides how practitioners address it and the reusable practice through which results can challenge that knowledge. This gives you candidates for both kinds of contribution. A field may also use a result supplied from outside. To distinguish the two, establish which contribution the field's own practice requires or currently realizes as an admitted alternative and how it connects to the others. For recognition of the discipline, test the exact candidate and its independently identified parts under section 4.1. A narrower question about one use can be settled by the grounds for that use.
 
 **What goes wrong if missed.** A field name starts doing the work of a canon, method repertoire, institution, bridge, comparison policy, and maturity score at once. The reader may then treat a card or graph as establishing parts, or treat changes to a journal, standard, method list, or dashboard as establishing a new discipline. Cross-locality reuse can also look valid after local meanings, evidence lanes, or comparison rules have drifted.
 

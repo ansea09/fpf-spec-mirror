@@ -6,12 +6,12 @@ section_id: "B.5.WN:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:12 — Relations"
-line_start: 49062
-line_end: 49072
+line_start: 49145
+line_end: 49155
 dependencies:
   - "A.15.10"
   - "A.15.11"

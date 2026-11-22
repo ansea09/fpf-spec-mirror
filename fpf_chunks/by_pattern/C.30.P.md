@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.P.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
-line_start: 76131
-line_end: 76364
+line_start: 76245
+line_end: 76478
 dependencies:
   - "A.10"
   - "A.15"

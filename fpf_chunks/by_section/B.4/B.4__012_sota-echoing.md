@@ -6,12 +6,12 @@ section_id: "B.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__012_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:10.1 — SoTA-Echoing"
-line_start: 47941
-line_end: 47946
+line_start: 48011
+line_end: 48016
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -28,5 +28,5 @@ keywords:
 
 The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies activities and results, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
 
-Canonical means the four questions recur across repeated adaptation; it does not mean every subject or project follows one identical history.
+The four questions recur in repeated adaptation. Which ones need answers, at which scales and with what evidence, depends on what the recipient is entitled to decide or receive.
 

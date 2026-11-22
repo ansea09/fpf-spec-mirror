@@ -6,12 +6,12 @@ section_id: "B.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:7 — Conformance Checklist"
-line_start: 48563
-line_end: 48573
+line_start: 48643
+line_end: 48653
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -25,7 +25,7 @@ keywords:
 ### B.5:7 - Conformance Checklist
 
 
-- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
+- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, who may choose or change it, and what the selected contribution supplies. When the working question differs from the one assigned, the result SHALL identify what carries back, what warrants that inference and what remains to answer. A conjecture retains its grounds, rivals and limits. A construction and its asserted properties remain distinguishable.
 - **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
 - **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
 - **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the result with its limitations and name the remaining question; a sufficient answer may finish the use.

@@ -6,7 +6,7 @@ section_id: "A.19.ECS:End"
 section_title: "A.19.ECS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__014_a-19-ecs-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:End — A.19.ECS:End"

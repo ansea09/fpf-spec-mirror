@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:4 — Solution"
-line_start: 45877
-line_end: 45954
+line_start: 45901
+line_end: 45980
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,6 +47,8 @@ After B.2 leaves a whole-reidentification question open, continue with the candi
 #### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 
 Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.System` kind.
+
+When the task is to propose the system, trace the result required at its interface to what must be organized together to deliver it. Which component changes can the surrounding system accommodate? Which relations must the proposed assembly itself preserve? Compare an internal component with access to the same service from an independent provider. They may yield the same output today and different answers about who can control a later change. Include the provider as a constituent only on the grounds for that parthood. Relate any required Method and its operations, or Work and its performances, to the system through what it can enact or actually performed. Return a proposed boundary, the relations on which delivery depends and the limits of that conclusion. Apply the following tests to each candidate whose recognition matters.
 
 After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
 
@@ -92,7 +94,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the system identity claim. | `C.27`, `A.15.1`, temporal patterns |
 | Context reframe | A changed question or selected model-use structure changes which whole is under concern; it does not itself change that whole's identity. | `A.1.1`, `A.22`, `B.2`, and the whole's identity pattern |
 
-No cue is enough. Each row points to facts and claims to inspect; B.2's existing-whole/new-whole comparison, A.1 recognition, and the system-kind criterion decide the result.
+Use the cues to locate the facts that decide the question. One such fact can refute recognition if it contradicts a necessary condition. A single adequate engineering account can also supply all the grounds for a positive recognition. In either case, return the consequence for the commission. Whether the prior whole is sufficient is decided by B.2's comparison.
 
 #### B.2.2:4.4 - Delimitation and External Acting Systems
 

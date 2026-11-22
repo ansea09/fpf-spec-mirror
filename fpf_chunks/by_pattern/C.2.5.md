@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.5.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
-line_start: 56346
-line_end: 56554
+line_start: 56454
+line_end: 56662
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -70,7 +70,7 @@ A closure assessment states the fixity and its grounds. Claims about a binding r
 
 #### C.2.5:4.5 - Recover the choice before assigning a level
 
-Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
+Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change. If every remaining explanation calls for the same action, that action may be settled while its explanation remains open. Results for a supplied list establish what follows within it. To extend the conclusion, establish that the list covers the admissible ways or give an argument that also governs ways omitted from it.
 
 Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
 
@@ -162,7 +162,7 @@ A route may move from `CD4` back to `CD2` when counter-evidence appears. Make th
 #### C.2.5:14.1 - Author prompt
 To assign `CD`, ask:
 
-- how many rivals remain live?
+- which choice is being assessed, which alternatives does the account leave open for it, and what sets the bounds of that field?
 - is one route merely preferred, or fixed?
 - if the closure is binding, what applicable guard, `governingPatternRef`, or `authoritySourceRef` makes it so?
 - what would count as an admissible reopen trigger?

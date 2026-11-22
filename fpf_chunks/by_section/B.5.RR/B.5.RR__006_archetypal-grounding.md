@@ -6,12 +6,12 @@ section_id: "B.5.RR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:5 — Archetypal Grounding"
-line_start: 50479
-line_end: 50512
+line_start: 50563
+line_end: 50596
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -35,7 +35,7 @@ For n=4, the new sum is 3+5+7+9=24. The old formula applied unchanged would retu
 
 This repair also exposes a reusable construction. For n terms starting at a and increasing by 2, term j, counted from j=0, is (2j+1)+(a−1). Summing the established odd-number terms and the n equal additions gives n²+n(a−1). Changing the increment would require another derivation. The worked extension makes the next question precise.
 
-For the next use, retain four terms and the increment 2, but require their sum to be 28. The former starting value a=3 becomes the unknown: 16+4(a−1)=28 gives a=4. Checking 4+6+8+10=28 confirms the required sum. If there are zero terms and the required sum is positive, no starting value can supply it: the empty sum is zero for every a. The changed question then requires a different term count or total.
+Suppose a recipient keeps four terms and the increment 2, allows any integer starting value, and requires a sum of 28. The starting value is now the unknown. Solving 16+4(a−1)=28 gives a=4, and 4+6+8+10=28 checks the result. If the terms must still be odd, this same calculation proves impossibility since the only possible starting value is even. For zero terms, the empty sum is zero for every a, so a positive required sum is impossible. Either impossibility answers a feasibility question. Changing the term count, permitted values or total would be a new design choice.
 
 #### B.5.RR:5.2 - Losing one way to recover a report
 

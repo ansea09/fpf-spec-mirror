@@ -6,12 +6,12 @@ section_id: "B.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:intro — Intro"
-line_start: 46770
-line_end: 46790
+line_start: 46804
+line_end: 46824
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,7 +46,7 @@ keywords:
 
 **Use this when.** Use B.3 when a named assurance claim is current: for example, a claim that a model claim is credible for one decision, or that a safety claim is adequately supported for one release use.
 
-**First useful move.** State the target claim and the assurance use. Then ask which results and argument make that use supportable. If there is no assurance claim, stop and use the pattern that defines or tests the evidence, status, gate, permission, safety, release, work, or domain-result claim.
+**First useful move.** Identify the conclusion its recipient must assess, how it will be used and the work entrusted to the assessor. A sufficient existing argument can settle a question about one claim. To design an assessment, work back from the recipient’s decision to the distinctions the assessment must make (§4.1). To establish how someone actually used a result, identify the decision and the evidence about its use (§4.6). The domain rule governs the resulting action.
 
 **What goes wrong if missed.** A visible label or a score starts raising trust without a target, argument, basis, limitation, and use. At the other extreme, a modest assurance question is forced through a universal score and a large record whose fields do not affect the decision.
 
@@ -54,5 +54,5 @@ keywords:
 
 **Not this pattern when.** Stay with `A.2.4` for the classification of an episteme as evidence, `A.10` and `G.6` for source recovery and bounded reliance, `G.11` for currentness, `F.10` for a status value and its use, `A.21` for a gate decision, and the domain pattern for safety, permission, access, responsibility, release, compliance, or controlled action. Consequence alone does not create an assurance claim. A domain rule may require one, but the claim must be stated before B.3 is applied.
 
-**First output.** Produce either one bounded `AssuranceResult` claim or a plain statement that the available argument does not support the attempted assurance use. Do not create a B.3 result merely to record that another pattern is relevant.
+**First output.** For each assurance question, state the bounded `AssuranceResult` or the limits of the available support. If the commission concerns several claims together, carry these judgements through to the conclusion the recipient needs. For a commission to design the assessment, supply the way to reach that conclusion under the permitted conditions.
 

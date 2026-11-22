@@ -6,12 +6,12 @@ section_id: "B.5.MPC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:4 — Solution"
-line_start: 49114
-line_end: 49247
+line_start: 49197
+line_end: 49330
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -35,7 +35,7 @@ keywords:
 
 ### B.5.MPC:4 - Solution
 
-Construct the answer by connecting the contributions it needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through a small instance. If the connection is missing, construct it, obtain it from a suitable contributor, or return the missing result that prevents the next move.
+Construct the answer by connecting the contributions it needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through the argument or construction that answers the physical question. Trace an instance when it can expose an uncertain correspondence. If the connection is missing, construct it, obtain it from a suitable contributor, or return the missing result that prevents the next move.
 
 The long mantra keeps the whole question available while attention moves between contributions:
 
@@ -57,9 +57,9 @@ Identify the participants, interactions and configurations that could determine 
 
 State the applicable physical or operating rules. Explain why a rule supplies the needed relation and where it is an assumption. Wheel rotation yields a distance relation only under the chosen rolling and geometry conditions. Exclusive possession of a card supports an admission limit only when the entrance procedure connects possession to entry and return. A.3.3 helps construct configurations, retained state and allowed continuations; the subject practice supplies the laws and mechanisms those continuations use.
 
-Choose a sufficient account for the question. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
+Choose a sufficient account for the question. If the physical boundary or the procedure is yours to choose, ask which change in the arrangement could change the requested result while the description of one part stays the same. For an occupancy guarantee across entrances, follow the room boundary, the transfers each entrance permits and any relation between their card stocks. For yesterday's occupancy, establish which transfers actually occurred or what the available evidence bounds. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
 
-When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication cannot distinguish the cases needed by the question, obtain a different observation, use an adequate bound, or change the question.
+When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication leaves different required answers possible, seek a discriminating observation or a sufficient bound. If a weaker question is useful, explain what answering it contributes and what remains open for the original use.
 
 Return a proposed physical account and its consequences under stated conditions. An unknown interaction or calibration is a useful missing contribution when it determines which mathematical question can be constructed.
 
@@ -89,7 +89,7 @@ Choose the result the use needs: a value, distribution, statistic, bound or prop
 
 When a procedure is needed, construct its inputs, retained state, elementary operations and output interpretation. Explain how it obtains the mathematical result and why it terminates, or which property it preserves during continued interaction. C.29.2 supplies this formulation work; the relevant algorithmic or mathematical Method supplies the construction and its argument. B.5:4.2 and B.5:4.3 help recover a construction or a decisive proof step that the available explanation leaves inaccessible.
 
-Trace one instance with its meanings intact. In a two-colouring procedure, a waiting list records vertices to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
+When an instance helps establish the correspondence, follow what each step of it means. In a two-colouring procedure, a waiting list records vertices to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
 
 For a numerical approximation, carry the error that can affect the physical use. Separate rounding of a computed command from uncertainty in radius, calibration or physical response. For a resource claim, include the cost of obtaining the input, representing it and interpreting the output when those costs matter. Counting one graph-edge inspection as one operation is useful under an adjacency-list cost model; it does not estimate the effort of discovering the contacts.
 
@@ -122,9 +122,9 @@ Use an existing adequate implementation when this comparison is settled for the 
 
 Recover dependencies by asking, for each needed result, “What results and conditions make this operation possible, and what other operation could supply the same receiving need?” Keep the answer with the derivation, diagram or explanation. A short case may need only a sentence; a shared design may need a dependency diagram.
 
-An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command.
+An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command. Establish that the required premises can hold in the same configuration. A controller might accept the required count in absolute mode and offer relative commands only over a smaller range. Separate evidence for the count and for the relative mode leaves their combination open.
 
-An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound and an exact computation can be alternatives for deciding whether a limit can be exceeded. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
+An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound at or below the limit can establish that the limit cannot be exceeded. If the bound extends above the limit, a tighter bound or an attainable violation can settle what that bound leaves open. Computing the maximum when it exists is another route. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
 
 For a conditional physical consequence, one useful small rendering is:
 

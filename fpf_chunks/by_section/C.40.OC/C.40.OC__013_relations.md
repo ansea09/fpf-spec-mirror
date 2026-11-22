@@ -6,12 +6,12 @@ section_id: "C.40.OC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:12 — Relations"
-line_start: 91872
-line_end: 91881
+line_start: 91994
+line_end: 92003
 dependencies:
   - "C.11.CRC"
   - "C.16"

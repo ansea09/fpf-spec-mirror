@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.Q.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
-line_start: 62427
-line_end: 63236
+line_start: 62531
+line_end: 63345
 dependencies:
   - "A.10"
   - "A.16"
@@ -116,7 +116,7 @@ Inspect quality wording when its sense, bearer, comparison or consequence is unc
 #### C.16.Q:4.0a - Operational repair sequence
 
 1. **Read the whole assertion.** Recover what the sentence claims or asks. Retain its wording when an inspectable before/after comparison is needed.
-2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. Keep ordinary non-governed wording ordinary.
+2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. If the question could concern a component, the operation of several components together or the encompassing whole, identify the kind of whole and the relation the judgement depends on. A Method can prescribe what its parts must do together. A record of Work can establish which parts were performed together on this occasion. Keep the component result fixed and vary the others or their arrangement. If the requested conclusion can change, restore the relation between the assessed subject and the subject of the original question. An applicable common rule or a direct assessment of the required whole can settle the question. Keep ordinary non-governed wording ordinary.
 3. **Distinguish the plausible interpretations.** Use the stated purpose and interpretation scheme, together with any relevant evaluation conditions or comparison, to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
 4. **Follow the recovered question.** For action-oriented wording, a relation, evidence, a gate or another non-quality question, apply its subject rule. Use A.6.A, A.6.P, C.16.P or another recovery pattern only while the corresponding meaning is still unclear. An adequately expressed question can finish without a `QualitySense`.
 5. **Choose a sense when a transitional ascription is needed.** Select the applicable `QualitySense` and retain consequential rival interpretations while they remain unresolved. Explain a rejected alternative only when that distinction helps recover the intended claim.
@@ -476,7 +476,7 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 
-**A completed ordinary repair.** A report says “architecture quality improved,” but its supplied comparison concerns two editions of an architecture description. Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. It asserts no change to the system's availability or security. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
+**A completed ordinary repair.** An architecture team is deciding which edition of a description supplies the dependency information it needs. Its report says “architecture quality improved.” Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. If the commission instead concerns the system's availability or security, report this finding about the description and identify the evidence still needed for the system claim. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
 A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
@@ -514,6 +514,9 @@ qualityTermAscription(
 Here `EGR_LatentFitResult_22` denotes a separately established relation between the exact result episteme and exact grounding holon under the governed probe or measurement relations. The run and card alone would not establish it.
 
 **Repair B — closed-loop control line**
+
+Use this reading if the team's question concerns the policy and model operating together. The same model can produce different control outcomes with a different policy. A supported improvement of the tested pair can settle a choice between the tested deployments. To attribute that improvement to the model, establish its contribution under comparable policies and conditions or use other evidence that distinguishes the contributions.
+
 ```text
 qualityTermAscription(
   bearerTuple = {PolicyModelPair_PM5},
@@ -650,6 +653,8 @@ The shared evaluator does not collapse the two repairs: their bearers, schemes, 
 #### C.16.Q:5.4 - Show (QD or selector lane)
 
 **Draft:** “Quality in our QD loop.”
+
+Suppose the selector's operator asks how Candidate_7 was valued under its objective. That selects the candidate as the bearer in the example. If the operator instead asks whether the archive covers the required behaviours or the search produced better candidates, identify the archive or search and the coverage or comparison that would answer that question (C.18). One candidate's objective value can contribute to such a conclusion when the relation is established.
 
 **Repair**
 ```text

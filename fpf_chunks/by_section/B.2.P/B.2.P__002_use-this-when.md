@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:0 — Use This When"
-line_start: 45563
-line_end: 45587
+line_start: 45587
+line_end: 45611
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 Use this pattern when wording such as `emergence`, `emergent`, `synergy`, `higher-level property`, `meta-system`, `meta-epistemic`, `meta-functional`, `MHT`, `MET`, `MFT`, `promotion`, `post*`, or collection words mixed with those terms could be pointing to several different FPF objects.
 
-**First useful move.** Recover the claim kind before choosing replacement wording.
+**First useful move.** Recover what the speaker means to establish and what the recipient needs to do with it. Write the claim in terms of its subject, the change or relation at issue, and the conditions under which it would hold. One phrase may join several claims. Preserve the connection between them when the recipient needs it.
 
 B.2.P is selected only when the source wording hides one of these recurring questions:
 

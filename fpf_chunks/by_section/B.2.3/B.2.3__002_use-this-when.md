@@ -6,12 +6,12 @@ section_id: "B.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:0 — Use This When"
-line_start: 46063
-line_end: 46084
+line_start: 46091
+line_end: 46112
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,11 +36,11 @@ keywords:
 
 ### B.2.3:0 - Use This When
 
-Use this pattern when B.2 has identified one candidate new whole and that individual must be recognized under the already admitted `U.Episteme` kind: a theory, model family, standard, doctrine, specification body, research programme, field-level knowledge body, or other claim-bearing non-agentive holon.
+Use this pattern when whole reidentification concerns a theory, model family, standard, doctrine, specification body or other claim-bearing non-agentive holon. B.2.3 supplies the test for a proposed `U.Episteme`. If the commission includes constructing the account to be tested, work from the conclusion its recipient needs.
 
-Use `B.2` first to decide whether whole reidentification is current and to identify the one candidate new whole. Use `B.2.3` when that candidate is to be tested under `U.Episteme`. For a first constitution or recognition without an established prior whole, use A.1 and C.2.1 as explained in B.2:4.
+Use `B.2` for the comparison with the prior whole and `B.2.3` for the proposed episteme. Where the commission concerns first constitution or recognition with no established prior whole, use A.1 and C.2.1 as explained in B.2:4.
 
-**First useful move.** For B.2's candidate, identify its interpreted claim content, the independently identified EntityOfConcern, and the effective rules for designating that entity and interpreting those claims (C.2.1:4.1.1). Test whether their `EpistemeConstitutionRelation` obtains.
+**First useful move.** For B.2's candidate, identify its interpreted claim content, the independently identified EntityOfConcern, and the effective rules for designating that entity and interpreting those claims (C.2.1:4.1.1). Test whether their `EpistemeConstitutionRelation` obtains. When the recipient needs a claim or a new account and leaves its construction open, start with what the account must establish. Use :4.1 to select its premises and their interpretation.
 
 Keep grounding, viewpoint, view, publication, source use, representation, evidence, and assurance in their neighboring relations.
 
@@ -53,6 +53,6 @@ Keep grounding, viewpoint, view, publication, source use, representation, eviden
 - If the result whole is a physically embodied holon eligible to act, use `B.2.2`.
 - When no whole-reidentification question remains, use the episteme, publication or source-use pattern for the remaining question; :4.2 and `CC-B2.3-4` distinguish these uses.
 - If the question is effect-free episteme morphing, viewing, retargeting, or controlled semantic coarsening, use `A.6.2`, `A.6.3`, `A.6.4`, or `A.6.3.CSC`.
-- If the question is synthesis work, use `A.15.1` for performed work and `A.12` or `A.3.4` for acting-side and transformation claims.
+- Use `A.15.1` to establish performed synthesis Work and `A.12` or `A.3.4` for acting-side and transformation claims. For an order to construct a claim-bearing account, identify the result needed in :4.1. Use B.2 when its relation to a prior whole matters.
 - If the wording is ambiguous emergence-family language, use `B.2.P` before selecting B.2.3.
 

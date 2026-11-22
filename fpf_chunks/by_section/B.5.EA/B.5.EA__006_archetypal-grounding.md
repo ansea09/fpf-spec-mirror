@@ -6,12 +6,12 @@ section_id: "B.5.EA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:5 — Archetypal Grounding"
-line_start: 48716
-line_end: 48753
+line_start: 48798
+line_end: 48837
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -36,6 +36,8 @@ The listener asks, “What does the form help you notice about the meeting?” T
 The initial contradiction separates into two conditions: permission to speak and the possibility of changing the set being considered. The designer can request consideration of a third option. The listener has not established that the chair intended to exclude it.
 
 If the chair explains that the third option was already considered and was excluded by a constraint, the next question concerns that constraint and whether it applies. Repeating the claim that speaking was ineffective would lose the new condition.
+
+The designer's request to explain what “no room” meant can end with that distinction. Suppose the review owner asks whether the standing procedure allows a third option. Follow how a proposal becomes an option for decision. If the applicable procedure gives the chair discretion to add an eligible proposal, that provision can settle the permission question. Whether this proposal qualified and why the chair continued with two options concern the particular review.
 
 #### B.5.EA:5.2 - A teacher's “they do not understand”
 

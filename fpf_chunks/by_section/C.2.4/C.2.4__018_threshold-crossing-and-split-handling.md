@@ -6,12 +6,12 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 56304
-line_end: 56325
+line_start: 56412
+line_end: 56433
 dependencies:
   - "A.13"
   - "A.15"
@@ -65,5 +65,5 @@ If the branch or threshold is unresolved, preserve the episteme through `B.4.1` 
 A note may reach `AE4+` while remaining low or mid in `CD`. In such cases state that articulation is sufficient for precise handling while closure still leaves rival routes or frames live.
 
 #### C.2.4:17.3 - Articulation claims for separate fragments
-Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear.
+Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear. If the recipient must use the fragments together, read the connection as part of that use. A test result and a restoration instruction can each be explicit while leaving it unclear whether this result releases this pump. One sentence naming the pump and the applicable test can supply the missing connection.
 

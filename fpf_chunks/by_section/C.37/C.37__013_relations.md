@@ -6,12 +6,12 @@ section_id: "C.37:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:12 — Relations"
-line_start: 86313
-line_end: 86321
+line_start: 86427
+line_end: 86435
 dependencies:
   - "A.10"
   - "A.2.4"

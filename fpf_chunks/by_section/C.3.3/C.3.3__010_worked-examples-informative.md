@@ -6,12 +6,12 @@ section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 58286
-line_end: 58303
+line_start: 58396
+line_end: 58413
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -39,5 +39,5 @@ Frontend and gateway services use the same `AuthenticatedRequest` kind: the cand
 
 #### C.3.3:9.3 - AdultPatient across jurisdictions (clinical)
 
-The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. Its assertion gives `CL^k=1`, states the 18-versus-21 boundary loss, and limits definedness to the declared jurisdictional editions. The target classification uses its own signature edition. For an admissible candidate, missing DOB support yields `unknown`. That result and a separate guard refusal can suffice for the present decision. If later classification is needed, obtain the required birth-date support; a claim restricted to an independently supported subset is another possible use. Neither narrowing the claim nor applying a justified R consequence turns the candidate's unknown classification into a true one.
+The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. In this example the source age threshold is 18 and the target threshold is 21. The assertion gives `CL^k=1` and states the jurisdictional editions and the age distinction lost in the correspondence. For an admissible candidate who meets the other target conditions, a verified source classification at 18 or older leaves the target age condition open if both 20 and 22 are possible. A verified lower age bound of 22 on the target date settles it without an exact date of birth. The receiving guard can refuse a use that requires positive classification while the age condition is unresolved. A later request for classification can use any evidence admitted by the target rule that settles the threshold. A separately required birth-date record remains a distinct deliverable.
 

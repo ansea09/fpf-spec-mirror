@@ -6,12 +6,12 @@ section_id: "C.19.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__010_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:7 — Relations"
-line_start: 64739
-line_end: 64758
+line_start: 64848
+line_end: 64867
 dependencies:
   - "A.0"
   - "A.10"
@@ -60,5 +60,5 @@ If scale advantage or a declared generality policy is live, start with the cheap
 
 > *Memory hook.* **Test what scales; label policy when evidence does not decide.**
 
-When choosing between a general adaptive loop, a specialized object-family cycle, or a mixed operation-family set for an `E.23` use, `C.19.1` applies only when the decision relies on scale advantage or a declared generality policy. Start with the cheap probe. Compare the declared characteristic values for material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales; keep them separate, reject a dominated option, and use the declared project policy to choose or hold when no option dominates. Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Repeated automation alone does not satisfy BLP; the record names the object under improvement, evaluation, protected trade-offs, bounded cost and risk condition, and stop or switch condition. If neither a scale claim nor a declared generality policy is current, `E.23` proceeds without a BLP audit or waiver.
+When choosing between a general adaptive loop, a specialized object-family cycle, or a mixed operation-family set for an `E.23` use, `C.19.1` applies only when the decision relies on scale advantage or a declared generality policy. Start with the cheap probe. Compare the declared characteristic values for material resources, tools and instruments, adaptation attempts, skilled attention, rework or delay, risk exposure, and avoided loss on their admitted scales. Keep the components separate. Enforce the binding conditions for this result before excluding an option on grounds of dominance. Its rival must be eligible for the same work. Use the declared project policy to choose or hold among the nondominated alternatives. Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Repeated automation alone does not satisfy BLP; the record names the object under improvement, evaluation, protected trade-offs, bounded cost and risk condition, and stop or switch condition. If neither a scale claim nor a declared generality policy is current, `E.23` proceeds without a BLP audit or waiver.
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:16"
 section_title: "Closure Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__017_closure-publication-package-discipline.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:16 — Closure Publication Package Discipline"
-line_start: 56497
-line_end: 56514
+line_start: 56605
+line_end: 56622
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.3.A:6"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__007_conformance-checklist-normative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:6 — Conformance checklist (normative)"
-line_start: 58888
-line_end: 58908
+line_start: 59000
+line_end: 59020
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 
 | ID | Requirement |
 | --- | --- |
-| **GC-01** | A universally quantified claim pins both claim-kind and receiving-kind declaration editions; the non-bridged restriction requires the receiving kind to be identical to or a subkind of the claim kind, while producer/output positions use their own direction. No candidate is invented. |
+| **GC-01** | A universally quantified claim pins both kind declarations. Its restriction uses identity, subkind inclusion or a justified correspondence that covers the intended receiving domain and preserves the required inference. For a producer output, check compatibility towards the consumer's input over the output domain claimed. Declaration-level use needs no individual candidate. |
 | **GC-02** | Every claim-to-candidate use pins candidate, claim kind, receiving kind, both needed signature editions, and slice; it checks admissibility before evaluating the target receiving judgment and consuming `true`/`false`/`unknown`. An inadmissible request retains `not-applicable` without a judgment. |
 | **GC-03** | `not-applicable`, `unknown`, and known `false` remain distinct from each other and from guard refusal. |
 | **GC-04** | RoleMask use recovers the declaration episteme and, when the use is candidate-bearing, the exact masked judgment; any MaskAdapter remains a separate declaration. |

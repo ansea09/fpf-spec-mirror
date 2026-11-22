@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OCN.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
-line_start: 91022
-line_end: 91327
+line_start: 91144
+line_end: 91449
 dependencies:
   - "A.15.9"
   - "C.11"

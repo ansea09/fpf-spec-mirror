@@ -6,12 +6,12 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 52146
-line_end: 52166
+line_start: 52238
+line_end: 52258
 dependencies:
   - "A.10"
   - "A.16"
@@ -39,7 +39,7 @@ Hypothesis reviewers should not ask only whether the chosen hypothesis looks pla
 - whether serious alternative explanations were considered and the candidate set and limits of comparison remain recoverable,
 - whether the stated criteria and their grounds support the asserted preference, including any unresolved trade-offs,
 - whether the selected hypothesis has an interpretable implication, deduction or possible discriminating contrast, with the availability and value of any check judged separately,
-- and whether any scope inflation occurred during selection.
+- and how the comparison answers the original explanatory question, including the grounds for using a result obtained on a narrower set of cases.
 
 
 #### B.5.2:16.3 - For integrators and assurance leads

@@ -6,12 +6,12 @@ section_id: "B.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__012_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:10 — Rationale"
-line_start: 42884
-line_end: 42889
+line_start: 42888
+line_end: 42893
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,7 +31,7 @@ keywords:
 
 ### B.1:10 - Rationale
 
-Whole-level reasoning relies on accepted part-whole relations, constructional grounding, and the applicable subject patterns. This supports reasoning across different kinds of objects while retaining their own admission and relation rules.
+An inference from constituents to a whole relies on accepted part-whole relations, constructional grounding, and the applicable subject patterns. This supports reasoning across different kinds of objects while retaining their own admission and relation rules.
 
 Mathematical apparatus remains available. Once the object is known, a graph can represent dependencies, an algebra can express selected composition rules, a tuple can express a slot relation, and a matrix or embedding can support analysis. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved.
 

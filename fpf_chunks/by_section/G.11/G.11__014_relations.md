@@ -6,12 +6,12 @@ section_id: "G.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__014_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:12 — Relations"
-line_start: 141668
-line_end: 141675
+line_start: 141790
+line_end: 141797
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

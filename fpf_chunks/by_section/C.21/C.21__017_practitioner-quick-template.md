@@ -6,12 +6,12 @@ section_id: "C.21:14"
 section_title: "Practitioner Quick Template"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__017_practitioner-quick-template.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:14 — Practitioner Quick Template"
-line_start: 65593
-line_end: 65615
+line_start: 65706
+line_end: 65729
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -53,7 +53,8 @@ Minimal DHC claim
   Discipline: <exact discipline>
   Intended use: <question or action>
   ClaimScope: <where the claim holds>
-  Characteristic and Scale: <exact definitions>
+  Characteristic(s) and Scale(s): <definitions needed for this question>
+  For a joint claim: <what connects the observations for the relevant units and period, or a sufficient bound>
   Comparison or observation basis: <population/corpus/cohort/window>
   Ordinary result: <what is supported; what is not>
 

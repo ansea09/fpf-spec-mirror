@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:4 — Solution"
-line_start: 101986
-line_end: 102123
+line_start: 102108
+line_end: 102245
 dependencies:
   - "C.2.1"
   - "C.33"

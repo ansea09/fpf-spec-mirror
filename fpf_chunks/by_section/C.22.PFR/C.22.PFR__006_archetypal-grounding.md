@@ -6,12 +6,12 @@ section_id: "C.22.PFR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:5 — Archetypal Grounding"
-line_start: 66501
-line_end: 66547
+line_start: 66615
+line_end: 66661
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,5 +73,5 @@ If *patient* also names a work-facing classification, recover the classified Sys
 3. Dated repair work occurs without a demonstrated condition change; or
 4. Dated repair work is connected through its direct change/result governors to actual cessation or non-adversity of the condition.
 
-Only the fourth outcome can end PFR while applicability continues. A work record, result claim, acceptance verdict, or method label is insufficient.
+While the criterion continues to apply, this PFR ends when the actual condition ceases or becomes non-adverse. It may end before anyone observes the change. To credit the repair with that outcome, establish the change and how the performed work brought it about. A record can support the particular claim its content and provenance warrant.
 

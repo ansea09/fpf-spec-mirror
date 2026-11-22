@@ -6,12 +6,12 @@ section_id: "E.6:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__008_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:7 — Consequences"
-line_start: 102855
-line_end: 102861
+line_start: 102977
+line_end: 102983
 dependencies:
   - "E.2"
 keywords:

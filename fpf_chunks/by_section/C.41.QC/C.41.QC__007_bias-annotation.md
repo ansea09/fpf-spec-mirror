@@ -6,12 +6,12 @@ section_id: "C.41.QC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__007_bias-annotation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:6 — Bias-Annotation"
-line_start: 94898
-line_end: 94903
+line_start: 95020
+line_end: 95025
 dependencies:
   - "A.10"
   - "C.41"

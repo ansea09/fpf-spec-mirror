@@ -6,12 +6,12 @@ section_id: "C.41.TF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:9 — Consequences"
-line_start: 94285
-line_end: 94288
+line_start: 94407
+line_end: 94410
 dependencies:
   - "C.37"
   - "C.41"

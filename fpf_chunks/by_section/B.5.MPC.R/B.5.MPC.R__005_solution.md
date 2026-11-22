@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:4 — Solution"
-line_start: 49588
-line_end: 49665
+line_start: 49671
+line_end: 49748
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -74,7 +74,7 @@ A mathematical account may support several physical interpretations. Compare the
 
 #### B.5.MPC.R:4.4 - Construct the repair that the receiving use needs
 
-Choose the contribution that can remove the located incompatibility. The choice follows its cause and the wanted result.
+Choose the contribution by the result the recipient needs. To explain a particular failure, seek what distinguishes its possible causes on that occasion. To restore a required behavior, a change shown to work across the remaining causes can suffice while their identity stays open. When a repair is to serve future operations, derive its required range from their permitted inputs, timings and uses. A successful rerun of the original case covers that range only with grounds for the other permitted conditions.
 
 - If the requested unknown changed, retain the interpreted relations, release the former fixed value where appropriate and derive the new computational direction.
 - If a representation merged cases that the question must distinguish, retain the missing information, obtain a different observation or use a result that the merged representation supports.
@@ -94,7 +94,7 @@ Compare the repaired contributions on the input or physical case. For a mathemat
 
 Keep the comparison at the claim's scope. A conditional calculation can establish what a proposed arrangement would do under its assumptions. Actual performance requires the observations and inference appropriate to that use.
 
-If the comparison fails, follow the remaining disagreement. Do not repeat a test that leaves the live alternatives indistinguishable. Change the question or obtain the missing contribution when the means cannot settle it.
+If the comparison fails, follow the remaining disagreement. Seek information that can distinguish the alternatives that change the answer. If the means available cannot settle the commissioned question, return the supported result and the remaining gap. A proposed change of question then carries that information to whoever can choose the continuation.
 
 #### B.5.MPC.R:4.6 - Return the physical consequence and the next useful action
 

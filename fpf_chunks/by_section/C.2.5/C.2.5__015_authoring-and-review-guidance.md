@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 56471
-line_end: 56486
+line_start: 56579
+line_end: 56594
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,7 @@ keywords:
 #### C.2.5:14.1 - Author prompt
 To assign `CD`, ask:
 
-- how many rivals remain live?
+- which choice is being assessed, which alternatives does the account leave open for it, and what sets the bounds of that field?
 - is one route merely preferred, or fixed?
 - if the closure is binding, what applicable guard, `governingPatternRef`, or `authoritySourceRef` makes it so?
 - what would count as an admissible reopen trigger?

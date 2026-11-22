@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
-line_start: 71022
-line_end: 71807
+line_start: 71141
+line_end: 71926
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,15 +56,15 @@ keywords:
 
 **Plain-name.** Causal-use calculus.
 
-**Intent.** Help a practitioner decide what a causal-looking claim is supported to say, under which limits, and which narrower statement remains when the support is insufficient.
+**Intent.** Develop a causal answer to the question the practitioner faces, or assess what a proposed causal claim is supported to say. Establish the conditions under which the explanation or intervention consequence follows.
 
-**Primary EntityOfConcern.** The causal-use question raised by a concrete claim: what would change under an intervention, what explains an observed difference, or what can be said about a counterfactual.
+**Primary EntityOfConcern.** The causal-use question arising from an outcome to explain, a proposed intervention or an offered claim. What would change under the intervention, what explains the observed difference, or what can be said about the counterfactual?
 
 **Scope.** Use the domain's causal models, intervention and outcome definitions, and scientific evidence to determine which statement is supported and under which limits.
 
 ### C.28:0 - Use This When
 
-Use `C.28` when a result is offered as support for a causal effect, intervention, counterfactual comparison, causal fairness claim, causal policy, causal benchmark, or causal explanation. Common cues include:
+Use `C.28` when a recipient needs to explain an outcome, derive what an intervention would change, or assess an offered result about a causal effect, counterfactual, fairness claim, policy or benchmark. Common cues include:
 
 - “method A improves the outcome”;
 - “users who received X did better, so X works”;
@@ -95,13 +95,13 @@ The first result is a supported statement with its limits and the next useful st
 
 #### C.28:0.3 - First-Minute Questions
 
-1. What is the concrete claim, and what causal question must be answered to rely on it?
+1. What outcome needs explanation, which change is under consideration, or what proposed claim needs assessment? What causal question must the answer settle?
 2. Is the requested statement about an observed association, an intervention, or a counterfactual?
 3. What observations, experiments, model assumptions or derived results are available?
 4. Which live threat could overturn the conclusion: for example, confounding, time order, missing comparison cases, interference, measurement error or transfer to another population?
 5. What statement is supported under those conditions, and what further evidence or calculation would change it?
 
-When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A sufficient support verdict or an adequate existing model can finish the present question without that construction.
+When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A verdict on the supplied evidence can complete a request to assess that evidence. If the recipient needs an explanation, give the mechanism and its grounds using an adequate existing model or develop the missing account. If the explanation remains open, state what the available evidence has settled and which relation still needs to be established.
 
 #### C.28:0.4 - First Output
 
@@ -143,7 +143,7 @@ nextCausalUseAction =
   abstainDownstream
 ```
 
-Triage may be the final result when it blocks the overclaim and names the narrower statement. Do not open a durable object merely because a causal word appears.
+Triage can complete a request to assess an offered claim by stating what the evidence warrants. For a commissioned causal account, use that result to locate the remaining explanatory work. A short statement can carry a complete answer.
 
 
 ### C.28:1 - Problem Frame
@@ -175,7 +175,7 @@ C.28 keeps those distinctions visible while allowing a cheap stop.
 
 Use the smallest result that answers the current question:
 
-1. triage the claim;
+1. recover the question and its subject, and assess any claim already offered;
 2. retain the question in ordinary prose or a small card when it must be reused;
 3. run the common threat screen;
 4. add only the specialist result needed now; and
@@ -556,7 +556,7 @@ CausalVariableRepresentationRecord:
   reopenCondition
 ```
 
-The record states which interventions and queries the learned or abstracted variables preserve, not that they are causal variables for every query or domain.
+When the outcome is an aggregate, establish how its constituents contribute to the outcome the question asks about. When the intervention itself is specified on an aggregate, establish which changes to its constituents count as implementing it. Follow the permitted implementations to the requested outcome under the retained mechanisms. If their answers differ, identify the intended implementation, justify the distribution over implementations, or give the supported range. If every permitted implementation meets the required threshold, that bound can answer the question. State the interventions and queries for which the representation preserves the required conclusion.
 
 **Constructed representation case.** `WardStateRepresentation-4` derives three state variables from monitor traces through `WardStateAbstractionMethod-2`. Its intervention-validity result covers dosage interventions, its invariance result covers the two hospitals in the training and hold-out comparison, and its query-preservation result passes the declared one-step counterfactual query but fails the long-horizon query. The record therefore supports the one-step policy comparison only; a new hospital, sensor scheme, intervention family, or long-horizon claim reopens it.
 
@@ -750,7 +750,7 @@ Recover the question, support components, live threats, supported statement, uns
 
 ### C.28:7 - Conformance Checklist
 
-1. The concrete claim and exact causal-use question remain identifiable from entry to the supported statement and its limits.
+1. The outcome, intervention or offered claim and the causal question it raises remain identifiable through to the supported answer and its limits.
 2. Every reference required by the current use resolves to the exact question, target or result defined at :4.0; a sentence-level triage can finish without such references.
 3. Data regime, identification, estimate, sampling realizability, performed sampling evidence, simulation, and transport remain distinct and may be combined.
 4. A downstream decision uses the causal-support result within its stated limits and checks its remaining conditions under the receiving pattern, as required by :4.9.

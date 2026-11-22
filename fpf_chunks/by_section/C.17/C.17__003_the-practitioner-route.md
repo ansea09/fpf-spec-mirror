@@ -6,12 +6,12 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"
-line_start: 63265
-line_end: 63294
+line_start: 63374
+line_end: 63403
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 #### C.17:1.1 - Qualitative first move
 
-Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
+Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. When the comparison basis is yours to choose, ask whose prior designs, practices or results matter to this judgement and which differences would change the recipient’s use. An inventory can answer a question about its entries. A claim extending beyond it needs grounds that an omitted comparator or a distinction lost by the representation cannot overturn the conclusion. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
 
 > Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 

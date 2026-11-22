@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:5 — Archetypal Grounding"
-line_start: 49666
-line_end: 49743
+line_start: 49749
+line_end: 49826
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -44,7 +44,7 @@ Suppose the requester chooses T=8 s. The required command is u=0.625, giving v=0
 
 During a diagnostic run, a debugger freezes the program and its timer for three seconds. In this example the output retains u=0.625 and the motor continues to run. The stop is therefore issued after eleven seconds of physical operation, giving d=0.125\*11=1.375 m under the model.
 
-The disagreement concerns execution timing. The equation and chosen command remain appropriate to eight seconds of motion. If the question concerns an uninterrupted run, observe that run under its intended timing. If such pauses can occur in the required operation, provide a stopping mechanism whose elapsed-time behavior survives the pause, or revise the control arrangement accordingly. Test its physical completion at the condition the use needs.
+The disagreement concerns execution timing. The equation and chosen command remain appropriate to eight seconds of motion. For a prediction about uninterrupted operation, use the eight seconds of motion under the stipulated model. For a claim about an actual uninterrupted run, establish its timing and displacement from evidence about that run. If such pauses can occur in the required operation, provide a stopping mechanism whose elapsed-time behavior survives the pause, or revise the control arrangement accordingly. Test its physical completion at the condition the use needs.
 
 For example, suppose an independent timer can remove the motor command and continues to run while the controller is paused. Start it with the command and set it to remove the command after eight physical seconds. Under the example's immediate-start/stop model, motion then lasts eight seconds and covers 0.125\*8=1 m, including a run with the three-second program pause.
 
@@ -68,7 +68,7 @@ To determine which frequency is present, change a contribution that distinguishe
 
 For a physical measurement, obtain the needed sampling and input-conditioning behavior from the instrument account. Frequencies outside the admitted band, timing error and an unsuitable analog input path can reopen the interpretation. A filter that removes the signal of interest changes the measurement question rather than recovering its frequency.
 
-The repair is a changed acquisition and interpretation, with a recomputation on the new data. The receiving user can distinguish a physical-frequency estimate from an unresolved alias. If the old record is all that is available, return the remaining alternatives instead of selecting one without further grounds.
+The new record identifies the frequency during its own acquisition. To use it for the earlier signal, establish that the source kept the same frequency or recover independent information about the earlier interval. For the ideal unit cosine above, the original sample at n=1 requires cos(2πf/100) = cos(2π·10/100). Thus f = 100k ± 10 Hz for an integer k. In the admitted range only 10, 90 and 110 Hz remain. All exceed 5 Hz, so the old record already settles that threshold for its own interval. They straddle 50 Hz, leaving that threshold and the exact original frequency open.
 
 #### B.5.MPC.R:5.3 - The voltmeter changes the circuit being inferred
 

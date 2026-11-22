@@ -6,12 +6,12 @@ section_id: "B.5.2.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:4 — Solution"
-line_start: 52207
-line_end: 52273
+line_start: 52299
+line_end: 52367
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -71,6 +71,8 @@ Identify the question from what the inquiry asks someone to explain:
 - the explanatory demand: what remains unknown and what an answer would have to explain.
 
 Resolve the terms against their intended referents and interpretation. These three elements identify the question together. A change of wording, notation or publication preserves it when those elements retain their meaning. Two questions differ when a change in any element changes what an explanation must answer. A list of rival hypotheses helps compare answers; it need not exhaust the possible answers and does not identify the question by itself.
+
+When an observed case motivates the inquiry, recover what the person asking wants explained. A question about a delay in one job, a change in a service's reported delay, and a pattern recurring under different workloads can all start from the same trace. To set a boundary left to you, vary a condition the trace held fixed. Would an explanation adequate for this trace still explain what the recipient asks about? Use the distinction that changes the answer to define the prompt's scope. C.39.SA:4 develops this choice when the needed composition scales or model distinctions are unclear.
 
 Distinguish making an existing condition explicit from changing that condition. Use the earlier expression and its recoverable context to establish which happened. If a table drops an essential condition, first restore the damaged expression. When the earlier question cannot be recovered, leave its continuity unresolved; do not carry an earlier answer across the gap as an answer to the new formulation.
 

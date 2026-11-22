@@ -6,12 +6,12 @@ section_id: "D.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__010_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:6 — Conformance Checklist"
-line_start: 97400
-line_end: 97408
+line_start: 97522
+line_end: 97530
 dependencies:
   - "A.1.CSD"
   - "A.10"

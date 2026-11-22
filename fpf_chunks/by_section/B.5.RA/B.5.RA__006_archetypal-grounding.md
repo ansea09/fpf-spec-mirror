@@ -6,12 +6,12 @@ section_id: "B.5.RA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:5 — Archetypal Grounding"
-line_start: 50163
-line_end: 50291
+line_start: 50245
+line_end: 50373
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -61,14 +61,14 @@ The result is a usable recovery choice or a focused request for a missing contri
 
 A seminar organizer receives the message: ‘The slides should display correctly. Dana says the projector is compatible, and yesterday's rehearsal worked.’ The organizer needs to decide whether another display test is needed before using projector P with laptop L and adapter D. The relevant technical claim C is: **the current PDF can be displayed at 1080p by this setup**.
 
-**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors, has relevant technical expertise, and confirms her claim: ‘The current PDF can be displayed at 1080p using P, L and D at the current settings.’ Separately, the organizer inspected all pages of the current PDF during the rehearsal and found them displayed correctly at 1080p. Recover the condition S: the equipment, PDF and settings relevant to this result have not changed.
+**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors and reports that the setup used for yesterday’s rehearsal, with P, L and D at those settings, can display the current PDF at 1080p. Separately, the organizer inspected all pages of that PDF during the rehearsal and found them displayed correctly at 1080p. To use either ground for the planned showing, establish condition S: the relevant equipment, PDF and settings from the rehearsal will apply there.
 
 The expertise and the assertion work together in the first reason. Neither ‘Dana is an expert’ alone nor an unattributed compatibility sentence supplies that reason. The rehearsal is a different ground: it is an observed instance under the required setup. Its use for another showing depends on S and on the ordinary technical judgement that the successful test remains applicable. It is not a deductive guarantee of future operation.
 
 The following outline is an argument map. Braces group premises used together; arrows mean support for C, not physical causation or event order.
 
 ```text
-R1: {Dana has relevant expertise; Dana asserts C for P/L/D; S}
+R1: {Dana has relevant expertise; Dana says the rehearsal configuration can display this PDF at 1080p; S}
     --expert-opinion inference--> C
 R2: {the organizer observed the current PDF displayed correctly on P/L/D; S}
     --applicable rehearsal result--> C
@@ -82,9 +82,9 @@ R1 and R2 are separate grounds, but they share S. R2 is not merely another repor
 
 Suppose a test with D2 then shows that the current PDF is not displayed under the intended settings, after the operator checks the connections and follows the equipment's setup instructions. This is a new opposing observation for that tested setup. The organizer can report that the attempted display failed and return to technical diagnosis; the observation alone does not identify which component caused the failure.
 
-**Separate the technical result from the practical proposal.** ‘Therefore use P’ introduces another inference. It needs the seminar's display requirement, an available way to keep the tested setup, and comparison with relevant alternatives and costs. If using P prevents another booked session from running, that consequence can defeat the proposal while C remains supported. PSDA.5/.6/.8 supply the option, value and consequence work. The receiving decision uses the qualified technical result instead of expanding it into a recommendation.
+**Decide whether another test is needed.** If the organizer may rely on a successful rehearsal of the current PDF and unchanged setup, the observed rehearsal meets that condition. If the seminar requires a fresh test after an adapter change, replacing D made such a test due. The failed trial with D2 supplies its outcome. To display the slides, the organizer can now restore the earlier configuration if still available and permitted, or arrange a working alternative.
 
-The return is a conclusion with its surviving reason and its next change condition: use the rehearsal for the unchanged setup; reopen compatibility after replacing the adapter; treat the later failed display as a result to diagnose. Another person can challenge a connection and see what needs to be redone.
+Choosing between venues is a further decision. Even a working projector could be needed for another booked session. If the organizer must also choose the venue, compare the available arrangements, their consequences and costs through PSDA.5/.6/.8. The decision about needing another test can stand on its own.
 
 #### B.5.RA:5.4 - From an ambiguous message to a conditional venue argument
 

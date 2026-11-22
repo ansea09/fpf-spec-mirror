@@ -6,12 +6,12 @@ section_id: "C.19.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__011_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:9 — Consequences"
-line_start: 64905
-line_end: 64908
+line_start: 65014
+line_end: 65017
 dependencies:
   - "A.15.1"
   - "A.15.2"

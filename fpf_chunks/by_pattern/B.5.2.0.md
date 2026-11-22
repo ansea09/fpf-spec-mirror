@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.0.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
-line_start: 52174
-line_end: 52404
+line_start: 52266
+line_end: 52500
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -103,6 +103,8 @@ Identify the question from what the inquiry asks someone to explain:
 - the explanatory demand: what remains unknown and what an answer would have to explain.
 
 Resolve the terms against their intended referents and interpretation. These three elements identify the question together. A change of wording, notation or publication preserves it when those elements retain their meaning. Two questions differ when a change in any element changes what an explanation must answer. A list of rival hypotheses helps compare answers; it need not exhaust the possible answers and does not identify the question by itself.
+
+When an observed case motivates the inquiry, recover what the person asking wants explained. A question about a delay in one job, a change in a service's reported delay, and a pattern recurring under different workloads can all start from the same trace. To set a boundary left to you, vary a condition the trace held fixed. Would an explanation adequate for this trace still explain what the recipient asks about? Use the distinction that changes the answer to define the prompt's scope. C.39.SA:4 develops this choice when the needed composition scales or model distinctions are unclear.
 
 Distinguish making an existing condition explicit from changing that condition. Use the earlier expression and its recoverable context to establish which happened. If a table drops an essential condition, first restore the damaged expression. When the earlier question cannot be recovered, leave its continuity unresolved; do not carry an earlier answer across the gap as an answer to the new formulation.
 
@@ -200,6 +202,8 @@ New contention logs can support one rival more strongly while the latency questi
 
 If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
 
+For an operator who asked whether the service slowed in that interval, the corrected measurement supplies the answer. For an inquiry into recurring false alarms, determine which other reports the same account could explain and on what grounds. A team commissioned to discover improvements to monitoring may select the discrepancy itself as its next question.
+
 The reporting question and a question about an actual slowdown in another service can be expressed in accounts that use the same `AnomalyStatement` layout. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
 
 ### B.5.2.0:14 - Prompt package discipline
@@ -250,7 +254,7 @@ A common failure mode is drift from cue -> prompt -> hypothesis without anyone n
 
 ### B.5.2.0:17 - Scope, rival-set, and comparative-validity discipline
 
-A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If the relevant scope is unresolved, apparent rivals may answer different questions; establish the scope needed for their comparison.
+Declare which cases and conditions the explanation has to cover. Choose a tractable subquestion when its answer could settle the inquiry, distinguish live explanations, or establish a premise the inquiry needs. Identify that contribution before sending the subquestion for comparison. If it leaves part of the commission open, return its result with that remaining question. A promising change of subject can be proposed to the person who set a fixed inquiry.
 
 A prompt need not list hypotheses yet. Its explanatory demand and scope must make clear what a candidate explanation would have to explain; any already identified answer types can help clarify that demand.
 
@@ -264,6 +268,6 @@ An assurance reader can test prompt readiness with three questions:
 
 1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its Method.
 2. **Does the prompt species fit its initiating grounds?** If those grounds are an opportunity or a probe-related contrast, forcing anomaly species misclassifies the question.
-3. **Is the question explicit enough to generate and compare candidate explanations under its declared scope?** Establish the question and the grounds required for entry before using B.5.2. Identified rival hypotheses are not an entry requirement; their generation and comparison belong to B.5.2.
+3. **Is the question explicit enough to generate and compare explanations for the needed use?** Check the stated scope against what the recipient asked to understand. For a subquestion, establish what its answer can contribute there. The receiving investigator can generate the rivals in B.5.2.
 ### B.5.2.0:End
 

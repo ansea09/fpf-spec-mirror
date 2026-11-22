@@ -6,12 +6,12 @@ section_id: "C.21:7"
 section_title: "Making a health claim"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__009_making-a-health-claim.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:7 — Making a health claim"
-line_start: 65520
-line_end: 65530
+line_start: 65633
+line_end: 65643
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -48,10 +48,10 @@ keywords:
 
 ### C.21:7 - Making a health claim
 
-1. State the ordinary health question and smallest useful conclusion.
-2. Identify the discipline under C.20 and one exact Characteristic and Scale.
-3. State ClaimScope, comparison or observation basis, and time or population basis.
-4. Stop if an ordinary typed claim is enough.
+1. State the question about the field and what result the recipient needs.
+2. Identify the discipline under C.20. Select the Characteristics and Scales that distinguish the answers that matter for this use.
+3. State the ClaimScope, observation or comparison basis and period for each reading. If several conditions must hold for the same cases, identify the relation among the observations or a bound sufficient for that conclusion. Counts over separate groups can be accurate while leaving their overlap open.
+4. Give the resulting health claim with its grounds. Stop when it answers the question.
 5. If measuring, recover the C.16 chain and DHC replay basis. If comparing or aggregating, retain the compatible inputs and legal operation, adding the measurement, crossing or formal-interface conditions used.
 6. If repeated windows matter, construct a series episteme from exact result refs.
 7. Use G.12 when the needed dashboard represents measured DHC coordinate results.

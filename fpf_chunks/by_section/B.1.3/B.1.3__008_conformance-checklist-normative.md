@@ -6,12 +6,12 @@ section_id: "B.1.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__008_conformance-checklist-normative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:7 — Conformance Checklist (normative)"
-line_start: 43590
-line_end: 43602
+line_start: 43598
+line_end: 43610
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | **CC‑B1.3.1** | Every knowledge constituent supplied to Γ\_epist MUST be a `U.Episteme` holon; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's belongs-to predicate only for collections. | Prevent category errors. |
-| **CC‑B1.3.2** | Material sources, methods and their contributions MUST remain recoverable with the aggregate; preserve any SCR details required by the receiving use. | Preserve source contributions and required reconstruction grounds. |
+| **CC‑B1.3.2** | Material sources, methods and their contributions MUST remain recoverable with the aggregate. Preserve any SCR details required by the receiving use. A claim to complete coverage identifies which contributions qualify and what warrants its reach. | Preserve source contributions and required reconstruction grounds. |
 | **CC‑B1.3.3** | Any aggregate R MUST follow the justified input meanings, scales, support dependencies, and receiving model. No default min, max, or F-to-R conversion is supplied; absent a common model, retain a bounded synthesis and separate support. | Prevent unsupported assurance and preserve useful non-aggregate results. |
 | **CC-B1.3.4** | Contrary evidence MUST remain visible. An established scope or interpretation difference may separate claims; an unresolved conflict must qualify, narrow, or defeat the affected conclusion. Use B.2 only for a separately grounded whole-reidentification question. | Keep the practical effect of disagreement visible. |
 | **CC‑B1.3.5** | Any mode declaration consumed by the receiving use **MUST** follow that use's rule and the support operative in the claimed conclusion. Under the axiomatic/postulative distinction, an operative postulative input makes that conclusion postulative; separately supported formal subclaims remain usable. | Preserve the relevant warrant distinction without substituting a tag for support. |

@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_common-anti-patterns-and-repairs.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:8 — Common anti-patterns and repairs"
-line_start: 47056
-line_end: 47068
+line_start: 47098
+line_end: 47110
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,5 +46,5 @@ keywords:
 | Safety-case inflation | A warning, access value, or consequential display triggers a generic B.3 package. | Use the domain pattern; apply B.3 only to an assurance claim. |
 | Evidence creates truth | New evidence is said to make the target fact obtain. | Revise the warrant or disposition unless the world-side facts changed. |
 | Assessment-record collapse | A checklist, trace, witness, or note is treated as the assessment Work or result. | Identify each object separately and add only what the use consumes. |
-| Design/run chimera | Blueprint evidence and runtime observations are merged into one score. | Produce separate results and compare them. |
+| Design and run conflated | An assumption established for the design is silently treated as true of the installed system. | Identify the configuration and operating evidence needed to apply the design result. Use their joint implication for the installed system when those premises hold. |
 

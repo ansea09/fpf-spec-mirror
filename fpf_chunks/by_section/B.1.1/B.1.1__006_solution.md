@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 42962
-line_end: 43032
+line_start: 42966
+line_end: 43036
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,7 @@ keywords:
 
 ### B.1.1:4 - Solution
 
-Use dependency structure first; use graph representation second.
+Work back from the proposed conclusion to the dependencies it uses. If one input changes, ask which result can change, by what interaction and under which conditions. Keep an external supplier in the account when its delivery matters. Follow a part into its own constituents when different internal arrangements can change the answer. For a proposed design, use the stipulated relations to reach a conditional conclusion. For a claim about the actual whole, establish which of those relations obtain. A diagram is useful when representing their organization helps the recipient decide.
 
 #### B.1.1:4.1 - Dependency Structure Frame
 
@@ -58,7 +58,7 @@ DependencyStructure@Context:
   definingOrTestingPatternRefs:
 ```
 
-This frame records independently grounded relation claims and their participants. It is not a `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
+This frame records the relations established about a subject or stipulated for a proposed arrangement. In a design comparison, the stipulated dependencies can warrant a conditional result before the design is realized. The frame can also refer to a selected `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
 
 #### B.1.1:4.2 - Graph Representation
 

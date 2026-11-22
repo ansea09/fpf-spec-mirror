@@ -6,12 +6,12 @@ section_id: "B.4.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__007_bias-annotation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:6 — Bias-Annotation"
-line_start: 48079
-line_end: 48081
+line_start: 48153
+line_end: 48155
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### B.4.1:6 - Bias-Annotation
-The pattern favors preserving low-articulation cues and publishing route plurality. Routing must state why one route is live and why one route was selected if selection occurred.
+The pattern favors preserving low-articulation cues and exposing real alternatives. In a route publication, state the grounds for each live route and for any asserted selection. A single decisive ground can warrant the requested continuation across the whole relevant range.
 

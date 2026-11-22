@@ -6,12 +6,12 @@ section_id: "C.39.QR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:12 — Relations"
-line_start: 87686
-line_end: 87694
+line_start: 87800
+line_end: 87808
 dependencies:
   - "C.11.DUA"
   - "C.39"

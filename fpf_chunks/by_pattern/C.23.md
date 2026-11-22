@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.23.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
-line_start: 67345
-line_end: 67645
+line_start: 67459
+line_end: 67759
 dependencies:
   - "A.10"
   - "B.3"
@@ -85,7 +85,7 @@ A qualifying description episteme uses `…Description`; `…Spec` names that sa
 
 #### C.23:4.2 - Rule schema (normative)
 
-For each `MethodFamily` **f**, author an **executable** rule set:
+Apply the existing rule set for the registered family when it covers the task, intended use and current conditions. When you must write or revise a rule, start from the work the family is being admitted to do. Identify the circumstances that would make that use acceptable, restricted or unavailable. Derive the task facts, evidence and governing acceptance clauses needed to distinguish those results. A permitted bound may settle a threshold while the exact value is unknown. If the applicable rule requires the exact value or a particular item of evidence, retain that requirement. Express the resulting conditions as an executable rule set for `MethodFamily` **f**.
 
 ```
 LOG.Deduce_f(TaskSignature S2) → {Admit | Degrade(mode) | Abstain}
@@ -93,7 +93,7 @@ LOG.Deduce_f(TaskSignature S2) → {Admit | Degrade(mode) | Abstain}
 
 with the following **branch obligations**:
 
-**What the family claim covers.** State which tasks the claim covers and what it promises about the registered members. Evidence that one member works on one task can support that use. A claim that every task has a suitable member allows the member to vary with the task. Promising one fixed member throughout requires evidence for that member throughout. Permitting arbitrary substitution requires the promised performance from each permitted member on each task where it may be used.
+**What the family claim covers.** State which tasks the claim covers and what it promises about the registered members. Evidence that one member works on one task can support that use. A claim that every task has a suitable member allows the member to vary with the task. Promising one fixed member throughout requires evidence for that member throughout. Permitting arbitrary substitution requires the promised performance from each permitted member on each task where it may be used. When the work requires several methods together, identify what each supplies to the joint result and the conditions under which their contributions fit. B.1.5.CM supplies the construction of a composite Method. A registered member that already provides this whole can be evaluated directly for that use. Membership or separate admission of its constituents leaves their compatibility to be established.
 
 Identify the member, task conditions and performance criterion behind each result. Cover the combinations the claim needs through applicable trials, a warranted account of why the result carries over, or both. For a fixed set of tasks, report the observed proportion or the bound the outcomes establish. Eight confirmed successes among ten eligible tasks establish at least 80% for that set even while two outcomes are unknown. To estimate the rate for a future population, identify the population and explain why the available results carry over. For a sample estimate, give the selection method and its uncertainty. Even if every task in a sample succeeded, a guarantee for every future task needs grounds covering those future tasks. If successful members differ by task, an agent can be assigned to choose among them when the information and a supported way to choose will be available in time. It can still be known that a suitable member exists before it can be identified.
 

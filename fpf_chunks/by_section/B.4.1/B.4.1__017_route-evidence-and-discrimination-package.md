@@ -6,12 +6,12 @@ section_id: "B.4.1:20"
 section_title: "Route Evidence and Discrimination Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__017_route-evidence-and-discrimination-package.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:20 — Route Evidence and Discrimination Package"
-line_start: 48188
-line_end: 48203
+line_start: 48264
+line_end: 48279
 dependencies:
   - "A.15"
   - "A.16"
@@ -48,4 +48,4 @@ One routed cue set may keep several candidate routes live without forking lineag
 A typed downstream projection publication or prompt may be shown as one admissible continuation; the other live routes, their grounds and any unresolved conditions relevant to their use or selection shall remain readable.
 
 #### B.4.1:20.5 - Review test for false single-route certainty
-Ask: if a selected route were excluded, would the publication explain the other live routes and any unresolved conditions relevant to their use or selection? If that information is missing, restore it before relying on the route set.
+Consider the alternatives permitted by the original question. Would the same cue, in a different covered use, require a different recipient, continuation or reason? If so, preserve the distinction or state which needed fact is missing. If one ground establishes the requested continuation in all those cases, a single route suffices. For an account of an actual choice or publication, what establishes who chose or what was made available to whom?

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
-line_start: 117424
-line_end: 117800
+line_start: 117546
+line_end: 117922
 dependencies:
   - "A.10"
   - "A.15"

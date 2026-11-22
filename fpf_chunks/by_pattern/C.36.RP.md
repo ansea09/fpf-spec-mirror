@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.RP.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
-line_start: 96033
-line_end: 96245
+line_start: 96155
+line_end: 96367
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

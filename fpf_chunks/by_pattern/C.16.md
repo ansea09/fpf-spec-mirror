@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 61170
-line_end: 61553
+line_start: 61282
+line_end: 61657
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -116,7 +116,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.1 - Name the measurand and measurement subject
 
-**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. A pressure at one port and the maximum pressure anywhere in a vessel are different measurands. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
+**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. If choosing the measurand is your task, begin with the recipient's decision. C.39.SA:4 helps when several composition scales or levels of model abstraction could serve that decision. Which subject bears the consequential property, at what places and times? Hold a proposed reading fixed and vary another condition allowed by the task. The pressure at one port may settle whether the local valve reaches its opening threshold. The same port reading can accompany different peak pressures elsewhere in the vessel. A vessel-wide limit needs a relation to those pressures, observations covering them, or a sufficient bound. A justified bound can settle the limit while the exact maximum remains open. The measurement scale and unit can stay the same across these different questions. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
 
 **M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 
@@ -321,7 +321,7 @@ For the question “which temperatures are compatible with this account at W?”
 
 For a proposed model, apply the subject, scale, model and applicable calibration checks. Apply work and result checks when asserting a performed measurement, and later-use checks when making that later claim.
 
-1. **Subject:** identify the entity or ordered tuple, then the quantity or other Characteristic sought under the stated conditions.
+1. **Subject.** Identify the entity or ordered tuple, the quantity or other Characteristic and its conditions. When the measurand had to be chosen, explain which difference in the receiving decision justified that choice. For an inference from a part to the whole, give the relation or bound that carries it.
 2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
 3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
@@ -405,19 +405,11 @@ These sources contribute different parts of measurement interpretation. Their qu
 
 ### C.16:15a - Measurement and probe note for quantum-like readings
 
-Use C.16 first when the object is a sensor reading, survey response, dashboard value, score, probe result, or state coordinate. Noise, probability, discreteness, gaming, or difficult interpretation does not by itself make a case quantum-like.
+For a sensor indication, survey response, dashboard value, score or model coordinate, establish what the receiving question asks about it. A question about a proposed probe can be answered by a model of what the probe changes. A claim about an observed effect of probe order needs grounds for the performed comparison. For example, if the first survey item reveals information needed to answer the second, their wording and order show how the two administrations differ. Whether that information changed respondents' answers requires evidence about their responses.
 
-Recover the ordinary measurement chain first:
+Use the ordinary subject or measurement account as far as this question requires. For an obtained measurement result, recover the measurand, subject, Scale, Unit where applicable, time, method, model, calibration, actual work and uncertainty that support its interpretation (§5). Distinguish the indication, attributed value and any later verdict. Carry the provenance needed for the specific reliance. For a model prediction, state what follows under its premises.
 
-1. identify the subject and the quantity or other Characteristic measured, then the Scale, value or Level, applicable Unit and time stance. State a preference when the use evaluates the result;
-2. separate reusable method and model from dated work and actual bindings;
-3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
-4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
-5. attach provenance through A.10/G.6 and state the supported and unsupported later uses.
-
-Only after that repair ask whether the probe order, frame, publication, or export changes the state or the inferences that remain admissible. If it does, C.26 may govern that residual contextual or probe-order question. If it does not, remain in C.16 and the ordinary evidence, assurance, or receiving-use patterns.
-
-Minimum probe note:
+When the ordinary account leaves a named contextual or probe-order obstruction that changes an inference or action, C.26 tests its mathematical and practical significance. For a performed measurement that needs an inspectable note, the following fields can record its basis.
 
 | Field | Required content |
 | --- | --- |

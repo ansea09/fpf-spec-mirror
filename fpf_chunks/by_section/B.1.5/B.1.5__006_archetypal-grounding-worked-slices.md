@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 44190
-line_end: 44255
+line_start: 44200
+line_end: 44265
 dependencies:
   - "A.1"
   - "A.15"
@@ -95,7 +95,7 @@ If a later hospital protocol first identifies an A.3.1 Method such as `Emergency
 
 A neural-network pipeline may describe feature extraction, embedding, attention, retrieval, ranking, and explanation generation. Some blocks may be formal substrate or mechanism material, some may be constituents of a `U.MethodDescription`, and some may be recovered as `U.Method` values.
 
-After the candidate whole represented by the pipeline and every claimed part have been independently identified as A.3.1 Methods, that candidate qualifies as composite only when `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, accepted inputs and outputs, invariants or admissibility conditions, typed joins, fallback behavior, failure conditions, interface decisions, and reidentification rule are present. Otherwise keep the graph as a MethodDescription, mathematical lens, mechanism material, or—when a selection basis and receiving use exist—an A.22-selected `U.Structure`.
+After the candidate whole represented by the pipeline and every claimed part have been independently identified as A.3.1 Methods, that candidate qualifies as composite only when `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, an account of the accepted inputs and outputs, and a rule identifying the Method across its admissible variations are established. Include the joins, fallback routes, stops and interface decisions on which this particular pipeline depends. Where the grounds for Method composition are missing, identify what the graph does supply. It may be a MethodDescription, a mathematical lens, or an account of the mechanism. A claimed A.22-selected `U.Structure` needs its selection basis and receiving use.
 
 Suppose one dated training Work enacts the pipeline Method while three independently identified transformations occur: the feature store changes, model parameters change, and the ranking index changes. Common Work, shared data, Method order, and temporal adjacency do not establish transformation parts or one composite transformation.
 

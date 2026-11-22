@@ -6,12 +6,12 @@ section_id: "B.2.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:6 — Conformance Checklist"
-line_start: 46247
-line_end: 46258
+line_start: 46277
+line_end: 46288
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.3-1` | B.2 has left a whole-reidentification question before B.2.3 is used. |
+| `CC-B2.3-1` | B.2 supplies the question about continuity. For a commission to build an account, the proposed claims, inferential organization and effective interpretation are justified by what the recipient must establish. A request about an existing account can be settled by its present grounds. |
 | `CC-B2.3-2` | A positive episteme-result claim requires B.2's candidate new whole to pass the A.1 criterion and C.2.1 constitution under the already admitted `U.Episteme` kind. Failed or unresolved recognition follows :4.1. |
 | `CC-B2.3-3` | Retain B.2's candidate and established-result references. C.2.1's ClaimGraph, EntityOfConcern and effective ReferenceScheme remain the identity discriminators; neighboring relations and any optional durable account stay separate. |
 | `CC-B2.3-4` | Use C.2.1 for constitution and the patterns in :4.2 for neighboring claims. Use E.24.PUB for publication availability, form or carrier distinctions and E.17 for a needed reader face of an accepted account. Use C.2.P for unresolved source-expression or source-to-use wording, and C.2.P.DR for claims inferred from declarative form alone. |

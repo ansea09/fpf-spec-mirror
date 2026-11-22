@@ -6,12 +6,12 @@ section_id: "B.5.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:4 — Solution"
-line_start: 50853
-line_end: 50916
+line_start: 50939
+line_end: 51002
 dependencies:
   - "B.1"
   - "B.5.FM"
@@ -53,7 +53,7 @@ An added assertion can repeat what already follows. For that inquiry the two mod
 
 ##### B.5.MR:4.2.2 - Construct or select an abstraction
 
-Identify the conclusion the receiving work still needs and the determinations on which it depends. Decide which other determinations may be left open. Construct a model that leaves them open, or select an existing model that does so.
+Start from the conclusion the recipient must draw or the choice they must make. Try releasing a determination in the starting model. What additional completion would this admit, and could it change that conclusion or the grounds the recipient has to give? When the model describes several parts, try varying their arrangement while keeping the proposed facts about each part. Retain a relation between them if it rules out a joint possibility that would change the answer. Construct an abstraction from the determinations still needed, or select one whose assertions preserve them.
 
 Compare the starting model as C with the proposed abstraction as A under section 4.2: C must have a completion, and every completion of C must satisfy A under the established interpretation. Then check the needed conclusion over the answers A admits. Identify any prior conclusion that no longer follows and the determination on which it depended; report when no conclusion is lost for the inquiry. If the needed conclusion is lost, retain that determination or choose a different abstraction.
 
@@ -71,13 +71,13 @@ Read **L0 → L4 as levels of model abstraction** and **L4 → L0 as levels of m
 | L1, local | Conditions shared by a particular setting or recurrent local population. |
 | L0, individual | The identity of the particular entity or occurrence being modeled. Its unobserved characteristics can remain open. |
 
-**Use the levels when deciding what a result establishes.** State the decision and what the model for that decision must specify. Identify the model actually available. An L0 model that identifies a delivery can contain its planned arrival. To decide whether that delivery met its deadline, compare the verified actual arrival with the deadline in force. To decide whether a scheduling rule at L2 guarantees all its deadlines, examine why the rule covers every permitted schedule. One admissible schedule that misses a deadline defeats the claim that every permitted schedule meets its deadline. For a target of 95 percent of actual deliveries on time, assess the eligible deliveries in the specified population and period. Count a late arrival when it occurred there. A calculation using the rule can check its consequences while leaving open who designed it. Carry the result to the decision through the grounds for that particular inference in C.39.QR:4.2–4.3. Accept the conclusion those grounds support and identify what would settle the outstanding claim.
+**Use the levels when deciding what a result establishes.** State the decision and what the model for that decision must specify. Identify the model actually available. An L0 model that identifies a delivery can contain its planned arrival. To decide whether that delivery met its deadline, use evidence that relates its arrival to the deadline in force. An authenticated indication that it arrived before the cutoff can settle the decision even when its exact arrival time remains unknown. To decide whether a scheduling rule at L2 guarantees all its deadlines, examine why the rule covers every permitted schedule. One admissible schedule that misses a deadline defeats the claim that every permitted schedule meets its deadline. For a target of 95 percent of actual deliveries on time, assess the eligible deliveries in the specified population and period. Count a late arrival when it occurred there. A calculation using the rule can check its consequences while leaving open who designed it. Carry the result to the decision through the grounds for that particular inference in C.39.QR:4.2–4.3. Accept the conclusion those grounds support and identify what would settle the outstanding claim.
 
 Check each pair for one inquiry under §4.2. Establish which earlier assertions every remaining design or permitted performance satisfies. Show that at least one remains. If the step is strict, name an answer that can no longer be obtained. The same test applies to two models of one design or method, including when both are disciplinary models.
 
 If a site adopts a disciplinary rule with the same interpretation and adds no constraint on the action in question, write “the site uses the L2 rule unchanged.” The L1 practice model records the site's adoption of the rule for recurring work. If asked at what level the rule specifies the permitted action, keep L2. Claim a further level of refinement for that action only when the local model excludes a previously permitted answer. Several strict refinements can occur within one named level. If a rule permits a check at either site, specifying the first site excludes the second answer to “Where may this check take place?” If both sites have to be checked, dropping one abandons an obligation.
 
-A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1.
+A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1. A change of composition scale gives a refinement claim only if the models can also be read for the same inquiry and pass §4.2. Use C.39.SA:4 if choosing which constituents and which model distinctions to keep is itself part of the work.
 
 Core, DPFs and LPFs supply models that can participate in such comparisons. A publication or discipline does not itself have one abstraction level. Binding a parameter can refine a model without changing its language; changing professional vocabulary can preserve all its admitted answers. A richer representation language can also express a model applicable to more situations. Compare the interpreted assertions for the inquiry.
 

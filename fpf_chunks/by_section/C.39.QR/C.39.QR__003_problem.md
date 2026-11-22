@@ -6,12 +6,12 @@ section_id: "C.39.QR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__003_problem.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:2 — Problem"
-line_start: 87463
-line_end: 87470
+line_start: 87577
+line_end: 87584
 dependencies:
   - "C.11.DUA"
   - "C.39"

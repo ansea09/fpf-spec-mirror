@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 100173
-line_end: 100762
+line_start: 100295
+line_end: 100884
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -446,7 +446,7 @@ Apply the `E.11` comparison to the same truthful content with and without a mant
 
 Keep one declaration for the product. It assigns every selectable example key exactly one ordinary-entry or card form. When the product selects cards, the declaration gives one measurable rule for compactness plus mantra and compact-card maxima. Authors, builders, and validators use that same declaration and the shared visible grammar from `E.11.PFP`. A product may select no cards when locators, ordinary entries, or direct guide answers already support reliable choice and return; it then carries no card-form burden.
 
-Use examples selected for that product's readers and recurring questions. Return unmatched questions to the product's index, guide, search, or direct patterns. Use F.19:4.4 to decide whether the reader also needs an explicit correction of a catalogue or coverage-boundary reading. When both simple direct use and extended cross-pattern use matter to adoption, show representative examples of both without turning every useful topic or pattern set into an entry.
+Choose examples for the product’s readers and their recurring questions. Apply E.11:4.1 and its practical-use check to the Readme as people will read it. Show how to take the question they bring into a direct method, how to recognize the part a displayed example can answer, and where to find the method for the remaining work. A reader with a sufficient answer can stop there. Use F.19:4.4 to decide whether the reader also needs an explicit correction of a catalogue or coverage-boundary reading. When both simple direct use and extended cross-pattern use matter to adoption, show representative examples of both without turning every useful topic or pattern set into an entry.
 
 Do not copy the FPF key inventory, card count, whitespace-token limits, or optional `@FPFReadme` records, and do not create a rival local card grammar or second key registry.
 

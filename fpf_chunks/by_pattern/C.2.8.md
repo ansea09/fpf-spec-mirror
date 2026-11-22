@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.8.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
-line_start: 56939
-line_end: 57196
+line_start: 57047
+line_end: 57304
 dependencies:
   - "A.17"
   - "A.18"
@@ -73,7 +73,7 @@ A diagram may make dependencies visible without changing the described system. A
 
 #### C.2.8:4.1 - Recover the structural question
 
-Begin with the reader's needed understanding or action. Select the structure that matters to it: for example, a distinction between two alternatives, the dependency that orders two actions, or the reason a design choice changes under a new condition. A study of structural information may instead select a structure family for that research question. Selection need not assign task utility.
+Begin with what the reader must decide, do or explain. If the structure to assess is given, use it. When the selection is yours, work back from the required answer to the distinctions and connections that support it. Could readers recover every proposed relation and still miss a condition that changes their decision or its grounds? Include that condition and the connection through which it matters. A dependency may determine the order of two actions, for example, and a change of conditions may reverse a design choice. If readers must choose what to model, identify the reasoning they need to recover to choose the relevant parts and distinctions for themselves. A study of structural information may select a structure family for its research question without assigning task utility.
 
 Identify the account and the expression being used. State only the conditions that could change the comparison: relevant concepts and notation the reader can use, available inference or inspection operations, accessible sources and help, and the effort or computation budget. A qualification or course title may locate evidence of preparation; it does not specify the usable knowledge by itself.
 
@@ -131,7 +131,7 @@ An observed response establishes the structure recovered in that trial and can g
 
 Repeat or perturb a reading when the receiving use needs a claim about robustness or transfer. Preserve the first response before giving a changed condition or further help. Success under the new condition strengthens the corresponding changed-condition claim; it does not add structure to the original result by itself.
 
-For a cold-reader check, obtain the instruction from the publication, its declared prerequisites and the knowledge presupposed for the intended reader. The task may supply case facts. If it supplies the missing explanation of the instruction, the response shows use of that added explanation. Use F.19 to repair the publication before claiming that the publication itself supplied the action.
+For a cold-reader check, obtain the instruction from the publication, its declared prerequisites and the knowledge presupposed for the intended reader. The task may supply case facts. A prompt can name a relation and ask readers to find where it holds or apply it to a decision. To assess whether readers can select the relevant relation, leave that choice to them. If the prompt supplies an explanation missing from the publication, the response shows what readers could do with that additional help. Use F.19 to repair the publication before claiming that the publication itself supplied the action.
 
 Absence of human validation restricts empirical claims about people. It does not restrict ESI to computational observers or prevent a conditional author estimate about a human reading situation.
 

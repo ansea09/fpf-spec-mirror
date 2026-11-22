@@ -6,12 +6,12 @@ section_id: "D.2:3"
 section_title: "Recognition Matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__006_recognition-matrix.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:3 — Recognition Matrix"
-line_start: 96894
-line_end: 96903
+line_start: 97016
+line_end: 97025
 dependencies:
   - "A.1"
   - "A.15"

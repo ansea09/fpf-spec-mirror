@@ -6,12 +6,12 @@ section_id: "B.1.6:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__009_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6 — Archetypal Grounding"
-line_start: 45078
-line_end: 45089
+line_start: 45094
+line_end: 45107
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,6 +43,8 @@ keywords:
 ### B.1.6:6 - Archetypal Grounding
 
 **Ordinary operator-time total.** Two existing records, with their value-attribution grounds, attribute one hour each to two admitted Work occurrences by the same operator. Their participant and time facts establish that these are distinct, disjoint resource contributions within the chosen accounting period. Addition yields two operator-hours; an existing table can state that result and its basis. This answer need not assert a separate dated occurrence of aggregation Work. If both entries instead copy the same one-hour contribution, adding them would double-count it: recover the common contribution and count it once, or leave the affected total unresolved until that identity is established.
+
+If the two one-hour entries may be copies or distinct contributions, and the records exhaust the stated scope, total operator time lies between one and two hours. This settles a two-hour upper limit, even while exact utilization remains open. A roster showing two planned hours would answer a scheduling question. Establishing how much time the operator actually spent uses the resource records for the period.
 
 **Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its result episteme. Test-run occurrences and obtaining A.15.1 Work-part relations define the included Work set; independently declared C.27.TA overlap facts state shared timing. A test-cell or engine phase enters only through the carrier's identity rule and proper phase relation. Shared warm-up energy is recorded under the temporal and resource-use facts.
 

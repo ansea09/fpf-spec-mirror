@@ -6,12 +6,12 @@ section_id: "B.5.2.1:10a"
 section_title: "Trade‑offs & mitigations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__012_trade-offs-mitigations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:10a — Trade‑offs & mitigations"
-line_start: 52584
-line_end: 52589
+line_start: 52684
+line_end: 52689
 dependencies:
   - "A.17"
   - "A.18"

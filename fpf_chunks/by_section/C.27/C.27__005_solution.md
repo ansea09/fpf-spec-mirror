@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
-line_start: 70335
-line_end: 70424
+line_start: 70454
+line_end: 70543
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.27:3 - Solution
 
-Use the least-committing result that changes the receiving action.
+Establish the temporal conclusion the recipient needs. An explanation of the observed course can be complete even when the same course of action remains appropriate. A recommendation to change that course also needs grounds for the expected effect.
 
 1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
 2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.

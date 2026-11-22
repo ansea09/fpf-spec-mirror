@@ -6,12 +6,12 @@ section_id: "E.17.1:20"
 section_title: "Review Matrix and Catalogue Maintenance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__021_review-matrix-and-catalogue-maintenance.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:20 — Review Matrix and Catalogue Maintenance"
-line_start: 114423
-line_end: 114433
+line_start: 114545
+line_end: 114555
 dependencies:
   - "A.16.0"
   - "A.22"

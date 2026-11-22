@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:4 — Solution"
-line_start: 138334
-line_end: 138778
+line_start: 138456
+line_end: 138900
 dependencies:
   - "C.11"
   - "C.18"

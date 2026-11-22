@@ -6,12 +6,12 @@ section_id: "C.30.ILC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__011_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:10 — Rationale"
-line_start: 78213
-line_end: 78220
+line_start: 78327
+line_end: 78334
 dependencies:
   - "A.10"
   - "A.22"

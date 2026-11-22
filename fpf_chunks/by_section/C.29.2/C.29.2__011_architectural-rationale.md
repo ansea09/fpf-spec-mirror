@@ -6,12 +6,12 @@ section_id: "C.29.2:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__011_architectural-rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:10 — Architectural Rationale"
-line_start: 74039
-line_end: 74050
+line_start: 74153
+line_end: 74164
 dependencies:
   - "A.10"
   - "A.3.1"

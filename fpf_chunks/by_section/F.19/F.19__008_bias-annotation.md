@@ -6,12 +6,12 @@ section_id: "F.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__008_bias-annotation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:6 — Bias-Annotation"
-line_start: 135321
-line_end: 135332
+line_start: 135443
+line_end: 135454
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:7 — Conformance Checklist"
-line_start: 44648
-line_end: 44656
+line_start: 44658
+line_end: 44666
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -25,9 +25,9 @@ keywords:
 ### B.1.5.RS:7 - Conformance Checklist
 
 - Are the constituent, candidate, replacement direction and intended gain clear?
-- Have the receiving wholes and their relied-on contributions been recovered?
+- Does the comparison cover the receiving uses claimed, by their individual conditions or by a rule that applies throughout the proposed scope?
 - Does the comparison carry the changed contribution through each affected use?
-- Are joint requirements examined when one realization must satisfy several uses together?
+- When one realization must serve several uses, does the design cover their permitted combinations and shared constraints over the promised interval?
 - Does the conclusion preserve its conditions and evidence reach?
 - Are adaptation costs and a reconsideration condition included where they change adoption?
 

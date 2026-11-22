@@ -6,12 +6,12 @@ section_id: "C.39.SA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:9 — Consequences"
-line_start: 88117
-line_end: 88120
+line_start: 88239
+line_end: 88242
 dependencies:
   - "B.1"
   - "B.5.MR"

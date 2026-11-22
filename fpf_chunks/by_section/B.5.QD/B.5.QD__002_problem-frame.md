@@ -6,12 +6,12 @@ section_id: "B.5.QD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:1 — Problem frame"
-line_start: 51377
-line_end: 51386
+line_start: 51465
+line_end: 51474
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -29,7 +29,7 @@ keywords:
 
 **First useful move.** Recover the step at which the earlier reasoning failed, or the operation that has become available. Ask what it lets you distinguish, construct, explain or change. For example, a triangle refutes the claim that every connected graph can be divided into two groups with every edge crossing between groups. It also suggests asking for a construction that returns either the division or an obstruction.
 
-The result is a question with an understood answer form, a useful first attempt and a reason to pursue or retain it. The answer may support further theory, a different investigation or an action in the world. Developing a concept or a reusable operation can be that contribution even before its eventual applications are known.
+The result is a question with an understood answer form, an attainable way into it and a reason to pursue or retain it. If the assignment is to formulate the question, this can complete it. If an earlier answer is still owed, explain what the new question contributes to it. Some investigations are free to develop a concept or a reusable operation before any eventual application is known.
 
 Use an adequate question. If the question is clear and the missing contribution is a way to answer it, C.39 supplies that search. This pattern is useful when the result sought or the question's conditions need to be developed.
 

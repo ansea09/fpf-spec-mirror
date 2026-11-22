@@ -6,12 +6,12 @@ section_id: "B.5.TC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:5 — Archetypal Grounding"
-line_start: 51274
-line_end: 51305
+line_start: 51362
+line_end: 51393
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -29,15 +29,15 @@ keywords:
 
 #### B.5.TC:5.1 - Routes, reachability and minimum cost
 
-A mathematical account keeps routes as distinct objects. Routes p and q go from X to Y and cost 1 and 4. A route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated; the cost of a concatenation is the sum of its costs. The two routes from X through Y to Z therefore cost 3 and 6.
+A planner asks what can be learned about a complete journey from X through Y to Z from accounts of its two stages. One recipient needs to know whether travel is possible. Another needs the least possible cost. Recover what each account retains that could answer those questions. In the first account, individual routes are distinct objects. Routes p and q go from X to Y and cost 1 and 4. Route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated and their costs add, giving complete routes costing 3 and 6.
 
-A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. It cannot give the cost of the route taken: p followed by r and q followed by r have the same reachability summary and different costs.
+A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. Reachability alone cannot determine the minimum cost. Keep the routes and their endpoints, but change the cost of p from 1 to 5. With q still costing 4 and r costing 2, the least complete cost changes from 3 to 6 while every reachability answer stays the same. For a question about the route actually taken, even the original network permits two different costs.
 
-A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. Here the answer is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Choosing a route also requires the minimizing segments to be recoverable.
+A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. For the original costs, the minimum is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Giving directions for a minimum-cost route also requires the minimizing segments to be recoverable.
 
 Now change the allowed combinations. Let the second segments be r with cost 2 and s with cost 10. Only p followed by s, and q followed by r, are allowed. The minimum is min(1 + 10, 4 + 2) = 6. Independently minimizing the two stages gives 3, which no allowed route attains. The failure is the omitted compatibility relation. Retain the incoming-route distinction or calculate over the allowed pairs.
 
-The comparison yields three useful accounts with different retained information. Its changed case also identifies a condition for the minimum-cost composition rule. No physical interpretation is needed for this mathematical result. Using cost as travel time or expenditure adds the corresponding interpretation and additivity conditions.
+The planner can now choose what to recover from a partial description. With additive costs, the sum of the separate minima is a lower bound on every permitted complete route. To report it as the minimum, show that some permitted complete route attains both minima. This can hold even when other pairings are forbidden. To answer only whether a journey is available within a budget of 7, the allowed route costing 6 already suffices. For directions, identify the actual segments that make up an affordable route. Treating costs as times or expenditures adds the conditions under which those quantities add.
 
 #### B.5.TC:5.2 - The same oscillator, different formulation and computation
 

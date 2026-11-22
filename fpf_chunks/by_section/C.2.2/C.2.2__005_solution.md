@@ -6,12 +6,12 @@ section_id: "C.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:4 — Solution"
-line_start: 54978
-line_end: 55130
+line_start: 55084
+line_end: 55236
 dependencies:
   - "A.2.6"
   - "A.21"
@@ -96,7 +96,7 @@ For claim `c`, identify the support needed by its receiving use. Distinguish ind
 
 Let `SpineClaims(P)` name premises and lemmas required by argument `P`; `SpineRelations(P)` names the scope, kind, plane, notation, source-local, model-use, and evidence-reuse relations it traverses. Satellite citations are not required premises. Retain each contribution's source, assumptions, scope, and limitations, including shared datasets, duplicated evidence, and common bias.
 
-**Choose the operation from the model.** B.3 requires the target quantity, compatible scales, dependency assumptions, and warranted operation before an aggregate is calculated. An indispensable weak premise can limit an inference, but `min` is not a universal probability or warrant fold. Two necessary independent conditions with probabilities 0.9 each give 0.81 for their conjunction; minimum 0.9 overstates it. Without independence, use the warranted conditional model or leave the joint probability unresolved. Monotonicity and boundedness of a proposed rule are insufficient.
+**Choose the operation from the model.** B.3 requires the target quantity, compatible scales, dependency assumptions, and warranted operation before an aggregate is calculated. An indispensable weak premise can limit an inference, but `min` is not a universal probability or warrant fold. Two necessary independent conditions with probabilities 0.9 each give 0.81 for their conjunction; minimum 0.9 overstates it. With only those marginal probabilities, the joint probability lies between 0.8 and 0.9. This settles a required lower bound of 0.8. A requirement of 0.85 needs more information about dependence. Monotonicity and boundedness of a proposed rule are insufficient.
 
 **Alternative and complementary support.** A sufficient argument may be usable without the others. A maximum can select the best attested argument value under a model whose result has that meaning; it does not measure combined corroboration. Complementary evidence may strengthen or qualify a conclusion by addressing different rival explanations or limitations, even when neither source is sufficient alone. Count neither publications nor method names as independent confirmation. A shared bias may leave apparent agreement uninformative. There is no universal “never exceed the best source” cap and no entangled-source fallback to minimum.
 

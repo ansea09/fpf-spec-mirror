@@ -6,12 +6,12 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:4 — Solution"
-line_start: 48242
-line_end: 48422
+line_start: 48318
+line_end: 48502
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -38,6 +38,8 @@ If a participant senses that an account misses something but cannot yet express 
 
 An expressible account can omit a consequential relation. B.5.FM:4.2.1 uses a small conceptual scheme to find a question through that relation, while distinguishing an unknown contribution from an inapplicable scheme. Use an adequate answer.
 
+When choosing the extent of the account is part of your task, C.39.SA:4 helps find the wholes, constituents and model distinctions the answer needs. If several existing models supply premises, establish that their results apply together to the subject and conditions of this question (C.37.MM:4.1.1).
+
 When the formulation is inadequate, vary a consequential element. Useful operations include:
 
 - change the quantity or distinction that the answer must preserve;
@@ -46,7 +48,9 @@ When the formulation is inadequate, vary a consequential element. Useful operati
 - introduce a new object, relation, operation or representation and ask what it makes expressible;
 - ask what observation or argument would distinguish the remaining possibilities.
 
-Keep a changed formulation when it changes the construction, evidence, explanation, comparison or next action.
+Before adopting the new wording, work out what an answer to it would let the recipient conclude. An equivalent formulation can serve directly if its answer carries back to the original subject, conditions and required grounds. A narrower question can also settle the whole one, for example when an admissible counterexample refutes a universal claim. If the narrower answer supplies one premise, pursue the remaining inference. C.39.QR explains this return.
+
+A useful new question can also have a genuinely different answer. When choosing the research direction is part of your work, weigh what the change makes possible and pursue it on those grounds. When someone has specified the result, use the new question to help obtain it, offer it for their decision, or explain the limit on what you can obtain. An interesting answer in a nearby field or at another composition scale can leave the specified result entirely open.
 
 C.22.2 helps make a problem-side claim and its next use inspectable. C.29 helps when choosing a mathematical lens or its mapping is the live question. Use their supplied actions at those boundaries; an ordinary mathematical problem need not acquire a separate card.
 
@@ -55,10 +59,10 @@ When you can follow a concept's explanation but cannot yet interpret the situati
 ##### B.5:4.1.1 - Propose a first model
 
 
-When the situation has no usable model yet, begin with the contrast the answer must resolve. Inspect one case or the actual arrangement. Describe what happens and which proposed change or comparison matters. Separate observations from the explanation you are about to try.
+When the situation has no usable model yet, begin with the difference the answer must resolve. The question can concern one occurrence, a relation across composition scales, or a class of possible arrangements. Start from the part, whole, interaction or general condition that can disclose that difference. For each relevant kind of holon, follow its own part–whole relation. The steps prescribed by a Method and the performances that made up a particular job can concern the same undertaking while having different constituents. Choose what the model must distinguish at the needed scales. Explain how any inference from one scale or kind to another supports the question. C.39.SA develops these choices.
 
 1. **Choose what must remain distinguishable.** Identify participants, states or quantities whose differences could change the answer. Use observed differences and possible interventions to propose a boundary: what can vary separately, what connects those parts, and what surrounding conditions affect them? Keep a distinction when you can explain its consequence for the question.
-2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
+2. **Propose how they are connected.** State a relation the answer depends on and use the relevant subject knowledge to explain what follows from it. For an observed change, the relation might describe an interaction that could produce it. For a proposed arrangement, it might govern which combinations are possible. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
 3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
@@ -68,24 +72,24 @@ Return the provisional model and what follows under its assumptions. If a missin
 
 Sometimes neither the decisive distinction nor a useful set of alternatives is known. Asking which answer would change the work then leaves the practitioner to invent the basis they need.
 
-Begin with something accessible: an episode of work, an artifact, an observation, a source argument, a proposed use or an available capability. The first result can be a better question or a conditional account. It need not be a forecast of the eventual discovery.
+Choose a starting point for what it can reveal about the purpose of the inquiry. A rule for a class, a relation between parts and a whole, or a record of one episode can each disclose something different. In open research, a source, a proposed use or an available capability can suggest a question worth pursuing. A better question or a conditional account can be a useful first result.
 
 The connection is constructive. Material lets the practitioner propose participants and relations; following a relation yields a consequence; a contrast or trial challenges that consequence; the changed account makes further inquiries or actions expressible. Their conditions and significance can then be examined. A new finding can return the work to any earlier contribution. Use an adequate supplied result at its point of entry instead of reproducing the whole connection.
 
-**Begin by examining an accessible case or source.** State the purpose as far as it is understood: what is to be explained, used, made possible or explored? Keep that purpose revisable. Choose a suitable way to examine how the subject works, for example:
+**Examine the material for the distinction you need.** Say what you can learn from it about the subject, its explanation or its use. For example:
 
 - Follow one episode. Observe what arrives, what participants do or change, what result leaves, and how it is used in the work that follows. Ask about the adjustments that made the episode work. B.5.PI develops this examination of ongoing work before a problem is felt.
 - Recover the operation behind an existing answer, design or source example. Find what it takes as given, what it does with that input and what its result establishes. Work a small application through §4.3 or B.5.TU. A hidden assumption may become visible before its practical significance is known.
 - Try a proposed use, or reason forward from an available capability. Identify the interaction by which it could produce an effect. Reason back from that effect to the contributions it would require. The two directions can revise both the intended use and the proposed means; neither needs a complete future plan.
 - Where the subject is unfamiliar, inspect a representative case with a practitioner or seek an explanatory source through F.1. Ask for help identifying what happens and which distinctions the practice uses. A request to help formulate the question is legitimate before a request for a specific answer is possible.
 
-Choose an initial examination because the material and the way of examining it are accessible and relevant to the present purpose. Compare the kind of understanding it could produce and its burden with a smaller examination or use of an adequate existing answer. The finding need not be known before this exploration begins.
+In open exploration, accessible material earns attention through a plausible connection to the subject. A finding can be valuable before its eventual use is known. If the question is already set, identify what the examination could establish for that question. When every possible outcome leaves a needed distinction untouched, seek material that bears on it, or develop the missing connection. Compare the effort with a smaller sufficient inquiry or an adequate existing answer.
 
-Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method supplies candidate relations and conditions for inference. None of these alone establishes that the same relation holds throughout a wider proposed use.
+Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method can supply the relation and its conditions. Establish which cases those grounds cover. A valid derivation for every admissible case can settle the wider question, including when the author presents the derivation inside one example.
 
-**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain a local transition: this operation needs that input; this quantity changes that effect under these conditions; one participant supplies what the next operation needs. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
+**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain the transition the inference needs. An operation can depend on an input, several contributions can jointly produce a result, and a rule can imply a consequence for a whole class. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
 
-Follow one relation to a small consequence, and use that consequence to seek a revealing contrast. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions obtain through the appropriate subject inquiry.
+Follow the relation to what it establishes for the question. Could the same condition hold while the required answer differs? If so, identify the remaining premise or connection. When the relation warrants the answer under the conditions at issue, use it. Seek a contrast when it could resolve a remaining difference. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions obtain through the appropriate subject inquiry.
 
 A useful contrast can also come from a failed attempt, an unfamiliar use, another participant's interpretation or two cases that the representation merges. A relevant conceptual scheme or mantra can direct attention to such relations before anyone feels a problem. Apply its substantive questions to the available case; an empty slot in a scheme is not evidence of a defect. When neither a consequence nor a useful contrast can yet be constructed, return to a smaller case, another representation or subject assistance. Guessing possible answers does not replace that missing work.
 
@@ -109,7 +113,7 @@ For open research, the attainable contribution may be a new description, candida
 
 A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable contributor. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
 
-Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry or action depends on unavailable help, seek another way to obtain the needed result, revise the work to use what is available or defer the dependent part. An unexpected possibility can change the question. A sufficient answer ends the present inquiry.
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry depends on unavailable help, try another way to obtain the needed contribution or explain which part remains open. An unexpected possibility can justify a new direction when choosing the research question is part of your task. A sufficient answer ends the present inquiry.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -128,7 +132,7 @@ The following are common alternatives, not an exhaustive classification or a seq
 1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
 2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
 3. Work backward from the desired result to the required intermediate results and starting inputs. Preserve joint dependencies and alternative ways where the source supplies them. A missing operation is a question for the source or the relevant specialist; a rule you propose is an addition to be tried and justified.
-4. Work a small instance from the available inputs, applying each recovered operation when its conditions hold. If the notation prevents the operation, use A.6.3.RT to prepare and compare a more usable expression. For a mathematical account, use its formation and equality rules; identify where a proposed identification changes the operations or property being used.
+4. Apply the operations to the inputs the question requires. A particular instance can show how a rule works. To recover a construction for a class, establish how to obtain its output for an arbitrary admitted input, including any conditions where a different operation is required. If the notation obstructs the work, use A.6.3.RT to prepare and compare a more usable expression. In a mathematical account, track the formation and equality rules on which the construction depends.
 5. Establish the needed property by the appropriate argument or test. Return the construction and what follows under its premises, or the input, rule or unsupported transition that prevents the result. Stop when this supplies the receiving use.
 
 For example, a stand specification calls for a portable display. Its assembly rules allow a compatible upright to be joined to a base and a compatible panel to be attached to that upright. Those rules yield the assembly order and the connections to check. Portability remains a requirement to check on the resulting design.
@@ -160,17 +164,17 @@ For instance, a team expects to recover a drawing because a backup exists. Recov
 
 When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question.
 
-Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application supported by the source. The first result is a usable explanation of that application, or the missing premise or operation that prevents it.
+Use a source application when its operations and grounds answer the question. Otherwise derive an application from the theory's objects, relations and operations, and examine their correspondence to the receiving subject. Use a small trial when it can expose a lost distinction. A derivation under the shared conditions can justify a whole range of applications. Identify what the source supplies and what you have proposed.
 
 Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires. **B.5.TU** develops this application-construction method, including recovery of the needed operations and use of a correct result that answers only part of the receiving question.
 
 To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs.
 
-Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims need their applicable Methods and evidence. **B.5.TC** develops the comparison: reconstruct both applications, work a common case, distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
+Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims need their applicable Methods and evidence. **B.5.TC** develops the comparison. Relate both applications to the same claim or establish how their different contributions answer the question together. Distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
 
-When the correspondence between a formal account and its intended use is the difficulty, reconstruct one small instance. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
+When the correspondence between a formal account and its intended use is the difficulty, recover it through a suitable instance or directly for the required domain. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
 
-Challenge the correspondence with a case that could change the answer. Look for a formally admissible answer that the intended use excludes, or two situations identified by the representation that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below shows both uses.
+If it remains unclear whether the correspondence preserves the answer you need, try to expose a difference that matters to that use. Look for a formally admissible answer the use excludes, or two situations the representation treats alike that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below shows both uses.
 
 For a physical application, connect the mathematical objects and quantities to the phenomenon, measurement and operating conditions. Ask which approximation, omitted interaction, scale or uncertainty could change the conclusion. A rigorous derivation from a model and evidence that the model applies answer different questions.
 
@@ -183,11 +187,11 @@ Return the result at its supported scope. Stop when it answers the use. Continue
 When the result exposes a limitation, identify what must change:
 
 - **The answer or construction for the same question:** repair it or investigate a serious alternative.
-- **The formulation:** revise the target, assumptions or boundary and state which earlier results apply.
+- **The formulation:** identify what changed in the target, assumptions or boundary. Return any usable result to the question already asked. If the result now sought is different, establish whether selecting that new direction belongs to you or whether the recipient still needs the earlier answer.
 - **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
 - **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
 
-Use **B.5.QD** when the next question is unclear. Recover a failed dependency or a newly available construction, specify the answer it makes worth seeking, and work a revealing case. This can develop the inquiry after a success as well as a counterexample.
+Use **B.5.QD** when the next question is unclear. Recover a failed dependency or a newly available construction. Specify the answer it makes worth seeking and use a case, construction or argument to show what that inquiry could establish. This can develop the inquiry after a success as well as a counterexample.
 
 Use E.10.DEV if “development” hides the intended subject and C.36 for a cultural-generation, transmission or selection question.
 
@@ -199,7 +203,7 @@ For calculation, conjecture, proof, explanation, criticism and question formatio
 
 When the question depends on a result from another practice, use [A.15.9][fpf-a15-9-ref] to use the available answer or select a worthwhile missing contribution. State the working question, available inputs, result needed and intended use in terms the receiver can check. When requesting a formal formulation, ask the provider to show how it corresponds to the working question.
 
-Derive the capability required of an engineer from representative later work. What must the engineer be able to understand, ask, construct, criticize or arrange with the assistance that will be available? The answer can include interpreting a proof's central idea or recognizing that a measured proxy omits the intended quantity, even when a tool performs most calculations. It can also justify deeper mathematical study when constructing or modifying the theory is the required contribution.
+Derive a participant's required capability from their later work. What must this person understand, ask, construct, criticize or arrange with the assistance then available? For example, an engineer may need to interpret the main idea of a proof or recognize that a measured proxy omits the intended quantity, even when a tool performs most calculations. Constructing or modifying the theory calls for a different depth of mathematical study.
 
 When assessing that capability, use representative work under the declared support and inspect the engineer's contribution. A completed AI-assisted report alone leaves that contribution underdetermined.
 

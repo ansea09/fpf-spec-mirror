@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:7 — Conformance Checklist"
-line_start: 44268
-line_end: 44289
+line_start: 44278
+line_end: 44299
 dependencies:
   - "A.1"
   - "A.15"
@@ -74,8 +74,8 @@ keywords:
 | `CC-B1.5-11` | A needed order aggregation preserves B.1.4's selected inputs, combining rule, order relations and required join or independence conditions. The `OrderSpec` may be stated in ordinary prose; use a separate record when the receiver needs it; neither adds Method identity nor establishes relation facts. |
 | `CC-B1.5-12` | Typed joins name the upstream intended-result meaning and downstream precondition, plus an adapter or governed correspondence when those meanings differ, and a failure route; signatures do not establish the holder's ability. |
 | `CC-B1.5-13` | Dated Work, performing Systems, separately declared assignment species, assignment occurrences, obtaining F.6 attributions, resource use and costs, yields, dissipation, telemetry, results, and production, together with separate evidence-, publication-use-, evaluation-, delivery-, and acceptance claims, use their subject patterns and do not become Method identity fields. |
-| `CC-B1.5-14` | Assurance hooks name cutsets, fragile joins, adapter points, CL-sensitive mappings, and the envelope or claim scope consumed by B.3; no performance or quality claim follows from composition alone. |
+| `CC-B1.5-14` | Assurance hooks identify the dependencies and scope the B.3 claim uses, including cutsets, fragile joins, adapter points or CL-sensitive mappings when relevant; no performance or quality claim follows from composition alone. |
 | `CC-B1.5-15` | A method-composition claim establishes no A.14 structural-component relation, work-part relation, or selected-structure identity unless the corresponding predicate separately obtains. |
 | `CC-B1.5-16` | Method parts, Work parts, common referents, method order, and temporal adjacency establish neither transformation parthood nor a composite transformation; missing transformation-composition governance returns `missing-governor[transformation-composition]` for the proposed whole and independently identified changes, without an atomism inference. |
-| `CC-B1.5-17` | A first–then or vertical account receives both checks: preserve every continuation condition as order or unfolding, and test whether several Methods contribute during the same bounded Work situation without one total sequence. Source order creates no level; simultaneous use creates no Method part, composite Method, Work part, or level. |
+| `CC-B1.5-17` | A composition inferred from a first–then or vertical account preserves its continuation conditions and identifies whether contributions are serial, unordered or required together. The Method’s construction can establish this organization. A claim about how the work actually proceeded has its own occurrence grounds. Source order creates no level; simultaneous use creates no Method part, composite Method, Work part, or level. |
 

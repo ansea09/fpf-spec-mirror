@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.1.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
-line_start: 52405
-line_end: 52599
+line_start: 52501
+line_end: 52699
 dependencies:
   - "A.17"
   - "A.18"
@@ -82,6 +82,8 @@ The coordinate entries cite the constituted results used. When illumination is r
 
 `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the front. `Use-Value` is decision-side/supporting unless the Context declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
 
+**Choosing the spaces for the commission.** A comparison of supplied hypotheses on agreed coordinates can use those inputs directly. If you are asked to design the search, begin with the contrast to be explained. Follow how it could arise, for example within one component, through an interaction, or in the work that produced the observation. Choose operators that can express the resulting alternatives. Could two permissible candidates receive the same proposed scores while explaining different observations or implying different answers to a question the recipient must settle? Preserve the relevant prediction or mechanism in the candidate account. Add a descriptor or comparison coordinate when the archive or the ordering must use the distinction.
+
 **Strategy (notation‑neutral).**
 
 1. **Seeding and constructors.** Declare the explanatory question, hypothesis space and permitted variation operators in the MethodDescription. Initialize with admissible seeds: known explanations, random draws under that grammar or prior hypothesis-bearing epistemes with their grounds and limits. Name how an operator constructs a changed explanatory claim, for example by replacing a proposed mechanism or combining two mechanisms under a stated interaction assumption. When there are no seeds, use the declared finite enumeration or sampling rule.
@@ -97,7 +99,7 @@ The coordinate entries cite the constituted results used. When illumination is r
 
 When the pattern is imported, use NQD-Generate for the selected generation contribution. Its candidate package carries conjectural content and the constituted coordinate results and provenance used. Report diversity to the extent supported by its declared reading; generation assigns no assurance level.
 
-**Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria:
+**Step 3 — Plausibility filters.** Compare the candidates whose predictions or mechanisms could answer the explanatory question. A candidate dominated on the chosen coordinates can predict an observation the front leaves unexplained. Restrict this comparison to the front when the exclusions preserve the answers needed here. Apply B.5.2’s plausibility criteria:
 
 * **Falsifiability / probeability** → require an interpretable implication or possible discriminating contrast under B.5.2. Keep a meaningful conjecture distinguishable from the present availability or worth of its check.
 * **Explanatory power** → prioritize candidates whose *Q-improvements* and attached rationales address the stated explanatory question.
@@ -159,9 +161,9 @@ For a dominance exclusion, identify the eligible rival and decisive coordinates 
 
 **For engineers/managers (user cognitive load).**
 
-* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Start with front membership; consult dominated entries when their exclusion or retained archive role matters.
+* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Use the front for the requested coordinate comparison. For an explanatory question, include any candidate whose specific prediction or mechanism could change the answer.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
+* *Reader quickstart (engineer-manager):* (1) Recover what the recipient wants compared and which choices are yours. Use the agreed inputs or construct the needed hypothesis space, descriptors and Q characteristics as in §4. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate. Inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria to the original explanatory question.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 
@@ -199,6 +201,8 @@ The declared DominanceSet is exactly the two Q coordinates, with ε=0. Novelty i
 D’s scheduler cell is retained under the stated stepping-stone policy even though D is dominated. No D, Surprise or IlluminationSummary reading is needed in this example.
 
 Of the four eligible hypotheses assessed here, A, B and C form the complete front. Each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
+
+To see what these two counts preserve, consider a possible rival predicting O1, O3 and O4 with one unverified assumption. Its Q vector would equal A's. The coordinates suffice to locate that vector in the stated ordering. A recipient asking about blocked threads in O2 needs to know which observations each candidate explains. Preserve the prediction for O2 and the proposed mechanism for that comparison. This hypothetical rival tests the choice of coordinates and contributes no new assessed candidate to the four-hypothesis run.
 
 **Qualified abductive result.** For a bounded answer to why the blocked threads in O2 occur, B.5.2 compares candidates that explain O2 with at most one unverified auxiliary assumption. A meets that stated plausibility criterion; C needs two, while B and D leave O2 unexplained. A is the qualified prime conjecture, conditional on the lock-scope assumption. A leaves O3 open. Return to the original question about all four observations. Among the candidates compared, C accounts for all four on two unverified assumptions. The one-assumption limit used for the O2 enquiry does not eliminate C as an explanation of the full contrast. Check the assumptions or establish another ground for preferring an explanation at that scope. Evidence that the blocked threads never wait on the proposed lock would defeat A’s explanation of O2. Generation and the coordinate counts supply no assurance level or empirical corroboration.
 

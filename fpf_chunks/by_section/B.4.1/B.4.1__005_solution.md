@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:4 — Solution"
-line_start: 47984
-line_end: 48071
+line_start: 48054
+line_end: 48145
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,11 +34,15 @@ keywords:
 ---
 
 ### B.4.1:4 - Solution
-After cue stabilization, state the candidate continuations and any selected route. Keep downstream claims under their subject patterns. The optional route follows this sequence:
+Begin with the decision the recipient can make and the time they have to make it. What was actually noticed, about which part, use or occasion? What further result would let this recipient act or answer the question? Work backwards from that result to a possible next action, its actor and its entry conditions. A standing instruction or a reliable result already available may settle which action to take. If you have been asked to devise the continuations, make that choice from the work before consulting the route names in §4.2. Applying a supplied route exercises a different decision.
+
+Choose how far to follow the cue. Hold the local observation fixed and vary its use elsewhere. Then hold an overall reading fixed and vary the affected parts or occasions. Which variation changes someone’s next decision or invalidates its grounds? Retain that distinction and the link to the recipient’s use. A common instruction applicable to all remaining cases can settle the action while their identities or causes remain open. Where the answer differs, look for a timely way to distinguish the cases, state the condition to the recipient, or identify what remains undecidable on the available evidence.
+
+Some continuations are alternatives. Others supply different results the recipient needs together. In that case establish how those results could be combined, by whom and by when. A feasible choice for each person in isolation may depend on the same unavailable hour or on information they cannot share in time. If asked for one justified continuation, give it with its grounds. If asked to identify every admissible continuation, establish why the set covers them. The publication sequence for a stabilized cue is:
 
 `Observe -> Notice -> Stabilize -> Route`
 
-Publish the route account in the `RoutedCueSet` form, normally downstream of `PreArticulationCuePack`. `RoutedCueSet` names the reusable publication rules defined below. The filled account states candidate routes and selection claims; C.2.1 governs its episteme identity. Its expression follows the route-form rules and, when selected, the presentation rules of an MVPK face under E.17.
+For the requested or needed route publication, use the `RoutedCueSet` form, normally downstream of `PreArticulationCuePack`. `RoutedCueSet` names the reusable publication rules defined below. The filled account states candidate routes and selection claims; C.2.1 governs its episteme identity. Its expression follows the route-form rules and, when selected, the presentation rules of an MVPK face under E.17.
 
 The route publication should identify:
 
@@ -50,7 +54,7 @@ The route publication should identify:
 - any **conditions that would change the candidate set or its selection**,
 - and any published **typed downstream publication**.
 
-This keeps later handoff reviewable while leaving downstream claims and results under their subject patterns.
+An existing publication can serve the receiving question when its content, form and availability meet the publication requirements. A reasoned choice by the operator, a recommendation to the person authorized to choose, a publication available to its recipients, and an intervention that actually took place each have their own grounds.
 
 For specialization-sensitive routes, state the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 
@@ -72,7 +76,7 @@ A conforming route account may include these fields:
 
 `RoutedCueSet` is not the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
 
-`candidateRouteSet` is the core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is stated. They do **not** belong in `PreArticulationCuePack`.
+`candidateRouteSet` is the core here. When reporting a selection, use `routeDecision`, `selectedRoute`, `routeRationale` and `routeSelectionStatus` to distinguish the decision, its status and what is known about its grounds. A record can identify a past choice while leaving the chooser's reasons unknown. They do **not** belong in `PreArticulationCuePack`.
 
 The status reports which candidate routes remain live and any selection made; endpoint admission, publication availability, current use or retirement, and any authority relation remain separate claims under A.16 and their patterns.
 
@@ -111,7 +115,7 @@ Use `SubstrateDiversificationRoute` when the cue raises a question about whether
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
 #### B.4.1:4.3 - Projection discipline
-Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**; its expression may also follow an existing MVPK face's presentation rules. The subject pattern governs the downstream claim.
+Here `projection` names route-bounded partialization. For a downstream projection under this section, publish the result in a **typed publication form**. The expression may also follow an existing MVPK face’s presentation rules. A recipient may carry out a selected action directly when authorized and its conditions hold. The subject pattern governs the downstream claim.
 
 A routed cue set may support these continuations:
 

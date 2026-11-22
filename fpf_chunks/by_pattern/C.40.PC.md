@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.PC.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
-line_start: 92087
-line_end: 92285
+line_start: 92209
+line_end: 92407
 dependencies:
   - "A.15.9"
   - "A.2.3"

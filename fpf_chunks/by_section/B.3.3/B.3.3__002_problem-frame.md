@@ -6,12 +6,12 @@ section_id: "B.3.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:1 — Problem Frame"
-line_start: 47119
-line_end: 47128
+line_start: 47161
+line_end: 47170
 dependencies:
   - "A.10"
   - "B.3"
@@ -19,17 +19,11 @@ dependencies:
   - "B.3.5"
   - "C.28"
 keywords:
-  - "assurance profile"
-  - "conceptual correspondence"
-  - "constructive support"
-  - "empirical validation"
-  - "use-qualified assurance"
-  - "verification"
 ---
 
 ### B.3.3:1 - Problem Frame
 
-**Use this when.** A team must decide whether the available support is enough for a claim and receiving use, or what a published assurance level permits a recipient to conclude. Start with that claim, use, relevant conditions, and the warrant the conclusion needs.
+**Use this when.** A team needs to assess a claim for a receiving use, interpret a published assurance level or design criteria for recurring decisions. Start with what the recipient needs to decide, the applicable conditions and the choices left to the assessor. A published profile may have settled some of those choices.
 
 A performance test, a proof and a terminology comparison answer different questions. Treating their presence as a maturity recipe can approve a poorly supported performance claim while demanding an irrelevant proof from a well-supported empirical result.
 

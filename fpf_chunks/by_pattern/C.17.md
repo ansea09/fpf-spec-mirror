@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.17.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
-line_start: 63237
-line_end: 63644
+line_start: 63346
+line_end: 63753
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -79,7 +79,7 @@ Do not infer a person's or System's creative capacity from a C.17 result. Strong
 
 #### C.17:1.1 - Qualitative first move
 
-Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
+Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. When the comparison basis is yours to choose, ask whose prior designs, practices or results matter to this judgement and which differences would change the recipient’s use. An inventory can answer a question about its entries. A claim extending beyond it needs grounds that an omitted comparator or a distinction lost by the representation cannot overturn the conclusion. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
 
 > Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 
@@ -271,7 +271,7 @@ Do not alternate among *result*, *profile*, *record*, and *dashboard* as if they
 
 ### C.17:7 - Comparison, gates, and selection boundary
 
-1. Never use Novelty alone to approve or prefer a bearer. Pair it with Use-Value or the relevant ConstraintFit gate.
+1. Use the criterion the recipient actually applies. Among eligible candidates a novelty comparison can settle a preference for the most dissimilar one under the agreed rule. When approval also depends on usefulness or another eligibility condition, establish that condition separately.
 2. State the selected characteristic subset, polarities, eligibility conditions, and comparability basis of every dominance claim.
 3. Preserve partial orders and incomparability. A Pareto or constraint-bounded Front follows from the declared rule; a plotted hull does not by itself establish that relation.
 4. Do not force one scalar creativity score. If a receiving policy uses an index, publish its weights or curves, admissible transformations, uncertainty treatment, sensitivity, and drift rule while keeping the primitive coordinates queryable.
@@ -284,7 +284,7 @@ Every quantitative result names its derivation or evidence and the calibration, 
 
 Apply these anti-Goodhart guards:
 
-- when novelty is used to support an approval or a preference, also establish the relevant usefulness or eligibility.
+- when a preference or approval uses novelty, establish each further condition that the governing rule requires.
 - identify the editions of the corpus, encoder, model or Scale the result actually uses. A change to those grounds can require a new calculation.
 - keep Illumination as telemetry unless an explicit policy promotes it for a named use;
 - check delayed practical consequences, such as retention, maintenance burden, or cost-to-serve, before treating a proxy improvement as a practical gain;
@@ -381,7 +381,7 @@ This brief is a representation of the selected configuration and results. It doe
 | `CC-C17-5` | Surprise identifies one model episteme and its separate training basis, modeled sample unit, encoding, size treatment, and discrete probability or continuous measure. A cross-bearer comparison uses a justified common extent, declared per-unit or code-length normalization, or another calibrated rule; otherwise the raw result stays basis-local. Use-Value identifies its objective or criterion; an improvement or gain also identifies its baseline and comparison or counterfactual Method. ConstraintFit identifies the must-constraints and their sources. AttributionIntegrity identifies the applicable duty set, the source or rule used to determine applicability, Scale, missingness rule, and evidence for each duty it evaluates. An empty applicable-duty set produces no numeric ratio; omit the characteristic or return explicit `not applicable`, distinct from an unresolved applicable duty. |
 | `CC-C17-6` | Each coordinate is either a complete C.16 measurement result or a C.2.1 non-measurement ascription under an explicit rule. A displayed number alone fails. |
 | `CC-C17-7` | Aggregate result, optional profile payload, representation or publication form, optional record, and any dated assessment Work remain distinct. |
-| `CC-C17-8` | Novelty is paired with Use-Value or ConstraintFit for approval-facing use; must-constraint failure remains an eligibility failure unless an independently valid exception applies. |
+| `CC-C17-8` | The comparison supplies the criterion the receiving rule requires. Establish each applicable Use-Value or ConstraintFit condition under its own rule. Reuse the novelty result when that rule makes it sufficient. A failed must-constraint excludes the bearer from the affected use unless a valid exception applies. |
 | `CC-C17-9` | Dominance names the characteristic subset, Scale compatibility, polarity, eligibility conditions, and comparison rule. Frontiers are computed from that rule; scalarization is explicit and primitive coordinates remain available. |
 | `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |
@@ -421,7 +421,7 @@ This brief is a representation of the selected configuration and results. It doe
 
 | Current practice and source | Source-use decision | Concrete C.17 consequence |
 | --- | --- | --- |
-| Judge novelty and usefulness as distinct, context-dependent questions. Harvey and Berry, `Toward a Meta-Theory of Creativity Forms: How Novelty and Usefulness Shape Creativity`, *Academy of Management Review* 48(3):504-529 (2023), DOI `10.5465/amr.2020.0110`; Sen et al., `Automated Creativity Evaluation of Language Models Across Open-Ended Tasks`, ACL 2026, DOI `10.18653/v1/2026.acl-long.1061`. | **Adopt** the separation of creative breadth from task fulfilment and the dependence of usefulness on the practical situation. **Adapt** it by using the named comparison basis, Use-Value, and ConstraintFit already defined here. **Reject** a context-free creativity score and the cited paper's particular semantic-entropy or automated-judge machinery as universal FPF measures. | For a novelty claim, the first move names what the bearer differs from. For a claim of creative value it also identifies the practical objective or must-criterion. Approval-facing use cannot substitute Novelty for Use-Value or ConstraintFit; `CC-C17-1`, `CC-C17-5`, and `CC-C17-8` test that boundary. |
+| Judge novelty and usefulness as distinct, context-dependent questions. Harvey and Berry, `Toward a Meta-Theory of Creativity Forms: How Novelty and Usefulness Shape Creativity`, *Academy of Management Review* 48(3):504-529 (2023), DOI `10.5465/amr.2020.0110`; Sen et al., `Automated Creativity Evaluation of Language Models Across Open-Ended Tasks`, ACL 2026, DOI `10.18653/v1/2026.acl-long.1061`. | **Adopt** the separation of creative breadth from task fulfilment and the dependence of usefulness on the practical situation. **Adapt** it by using the named comparison basis, Use-Value, and ConstraintFit already defined here. **Reject** a context-free creativity score and the cited paper's particular semantic-entropy or automated-judge machinery as universal FPF measures. | For a novelty claim, the first move names what the bearer differs from. For a claim of creative value it also identifies the practical objective or must-criterion. A novelty comparison can supply a novelty criterion. A claim about usefulness or eligibility also needs its own grounds. `CC-C17-1`, `CC-C17-5`, and `CC-C17-8` apply these distinctions. |
 | Preserve a collection of different locally strong alternatives when the question needs coverage rather than one winner. Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`. | **Adopt** the quality-diversity and illumination insight that coverage and local quality can matter together. **Adapt** it as `Diversity_P`, Illumination, or another declared retained-set reading. **Reject** MAP-Elites, a QD score, feature descriptor, container, or quota as a default C.17 method or selection rule. | A set reading stays telemetry with its bearer, rule, Scale, and evidence. Use `C.18` for Archive and Front maintenance, `C.19` for pool treatment, and `G.5` for selector-facing declarations; `CC-C17-9` and `CC-C17-10` keep these moves separate. |
 | Test whether a result survives reasonable corpus, metric, and representation choices. Lu et al., `Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations`, EACL 2026, DOI `10.18653/v1/2026.eacl-long.297`; Stein et al., `Exposing Flaws of Generative Model Evaluation Metrics and Their Unfair Treatment of Diffusion Models`, NeurIPS 2023, DOI `10.52202/075280-0165`. | **Adopt** sensitivity checking and comparison with evidence suited to the receiving domain. **Adapt** it by making the corpus, inclusion rule, Method, model or encoder, distance, calibration, and uncertainty part of the claim. **Reject** transfer of one metric across domains, minor prompt or implementation stability as validity, and leaderboard standing as evidence of the bearer characteristic. | For a load-bearing value, use a robustness diagnostic suited to the claim, such as neighbour inspection or corpus/Method sensitivity. Reuse an adequate result; run a further probe only when its contribution is needed. If the conclusion changes, report that dependence or incomparability instead of hiding it in one score; `CC-C17-4` and `CC-C17-11` make this visible. |
 | Check whether optimizing a proxy stops improving the result that matters. Gao, Schulman, and Hilton, `Scaling Laws for Reward Model Overoptimization`, ICML 2023, PMLR 202:10835-10866, `https://proceedings.mlr.press/v202/gao23h.html`. | **Adopt** the warning that further proxy optimization can reduce performance under a separate target judgement. **Adapt** it by retaining primitive coordinates, gates, evidence, and held-out or delayed observations and by giving the local result a stop or reopen condition. **Reject** the reward-model setting or its fitted scaling law as a universal degradation model, and reject a rising proxy score as evidence that the bearer improved. | The design and policy cases keep tooling and legal or equity gates visible even when another value improves. Scalarization never erases the primitive coordinates; later target evidence can reopen only the claims that relied on the proxy. |

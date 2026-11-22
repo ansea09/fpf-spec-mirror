@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.4.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
-line_start: 58334
-line_end: 58552
+line_start: 58444
+line_end: 58662
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -100,7 +100,7 @@ For a candidate-bearing use, first evaluate adaptation admissibility. A candidat
 
 `J_kindUse(candidate, kind, kindSignatureEdition, adaptationDeclarationEdition, slice) ∈ {true, false, unknown}`
 
-The judgment conjoins the base C.3.2 judgment with every added candidate-condition predicate. A known `false` gives `false`; all known `true` gives `true`; unresolved required facts give `unknown`. A vocabulary-only declaration adds no predicate and preserves the base judgment. A guard may decline use on `not-applicable` or `unknown` without rewriting either.
+The judgment concerns the conjunction of the base C.3.2 criterion and every added candidate condition. A known false condition settles the conjunction as `false`. Relations between the conditions can also decide it: if both inspectors must have signed and exactly one signed, the conjunction is `false` even while the signer's identity is unknown. Return `true` when the facts establish all required conditions and `unknown` when they leave satisfaction unsettled. A vocabulary-only declaration adds no predicate and preserves the base judgment. A guard may decline use on `not-applicable` or `unknown` without rewriting either.
 
 An optional pinned-edition representation may list admissible candidates judged `true`. It is not `U.EntitySet`, A.14 membership, another kind, or a direct classification relation. Scope conditions stay under A.2.6 rather than becoming kind identity.
 
@@ -122,7 +122,7 @@ A recurring local test can distinguish members of a narrower kind. Identify that
 
 **KUA-03 (Admissibility before judgment).** Fixed candidate, kind, base-signature edition, adaptation-declaration edition, and slice first yield `admissible` or `not-applicable`. Only an admissible request yields `true`, `false`, or `unknown`; implicit `latest` and guard-result coercion are forbidden.
 
-**KUA-04 (Adaptation type).** A vocabulary declaration preserves the base judgment. Constraint and composite declarations use governed candidate conditions: any known `false` gives `false`, all known `true` gives `true`, and unresolved required facts give `unknown`.
+**KUA-04 (Adaptation type).** A vocabulary declaration preserves the base judgment. For a constraint or composite declaration, evaluate the combined criterion for the admissible candidate. Return `true` when the grounds establish the conjunction, `false` when they exclude it and `unknown` when they leave it unsettled. Use known individual conditions and any established joint constraints.
 
 #### C.3.4:6.2 - Separation of Channels
 

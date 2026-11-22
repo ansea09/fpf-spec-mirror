@@ -6,12 +6,12 @@ section_id: "B.5.TC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:1 — Problem frame"
-line_start: 51173
-line_end: 51184
+line_start: 51261
+line_end: 51272
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -31,7 +31,7 @@ keywords:
 
 The work here is to compare uses of those accounts. A theory supplies objects, relations and ways of reasoning; an application adds a question, an interpretation and the premises needed to obtain an answer. Compare those applications while keeping the underlying accounts understandable on their own terms.
 
-**First useful move.** Ask one question of each account. Supply the same relevant situation, recover how each answer is obtained, and locate the first difference that matters to the use. A route description that says where travel is possible and one that gives minimum travel cost can both be useful. The question determines which information and operations you need.
+**First useful move.** Begin with the question the recipient needs answered. Where the accounts offer answers to the same part, compare their reasoning under corresponding conditions. Where they supply different premises, establish how those premises contribute to the required answer. A route description that says where travel is possible and one that gives minimum travel cost can both be useful. The question determines which information and operations you need.
 
 The result explains what each account contributes, the conditions of agreement or difference, and which use or inquiry should follow. You may select one sufficient account, combine complementary contributions, or retain an unresolved difference together with what remains usable.
 

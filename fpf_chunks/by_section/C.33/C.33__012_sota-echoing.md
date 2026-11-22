@@ -6,12 +6,12 @@ section_id: "C.33:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__012_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:11 — SoTA-Echoing"
-line_start: 85009
-line_end: 85018
+line_start: 85123
+line_end: 85132
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

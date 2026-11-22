@@ -6,12 +6,12 @@ section_id: "B.1.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__003_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:1 — Problem Frame"
-line_start: 43152
-line_end: 43165
+line_start: 43156
+line_end: 43169
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,11 +44,11 @@ B.1.2 specializes B.1 for system holons. It coordinates independently grounded f
 
 Keep the following meanings separate when identifying the whole:
 
-1. **The system whole.** It is independently recognized under A.1 and its identity rule.
+1. **The system whole.** For an existing system whose identity matters, establish it under A.1 and its identity rule. For a proposed design, identify the system to be built through its intended use, arrangement and assumptions.
 2. **Its environment.** In this pattern, `environment` means the external referents and crossing relations made relevant by a stated delimitation and use. It is not a generic surrounding object; a medium is named separately when that medium is the subject.
 3. **A containing system.** The larger system of which `S` is an admitted part exists for this claim only when a part-whole relation independently obtains. Interaction or spatial surrounding is not enough.
 4. **System-of-interest and system-in-hand.** The system-of-interest is the product System that a named extended enterprise is organized to create, change, sustain in use or retire. The system-in-hand is the system locally being investigated or changed. Use A.1.STM:4.1 and A.1.SCR:4.7 to establish the grounds for the designation or local focus. Neither establishes System identity, environment, parthood or architecture; any technical system-role classification and assignment also needs its own grounds.
 5. **Use qualification and neighboring relations.** `Context` is not one world-side container supplied by B.1.2. When claim scope, effective reference scheme, or a bounded model-use structure qualifies a use, recover that qualifier under its subject pattern. Recover any system-role assignment or other neighboring relation separately. None delimits the system, identifies its environment, or establishes containment by itself.
 
-For a system-aggregation decision, use :4.1 to recover the system, parthood, delimitation, crossing, and whole-characteristic results or their blockers. Use :4.2 only when their joint organization changes that decision.
+For a system-aggregation decision, use :4.1 to recover the identity, part, boundary, crossing or characteristic results needed by that decision. Use :4.2 only when their joint organization changes that decision.
 

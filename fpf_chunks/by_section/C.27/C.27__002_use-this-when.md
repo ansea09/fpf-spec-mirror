@@ -6,12 +6,12 @@ section_id: "C.27:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:0 — Use This When"
-line_start: 70266
-line_end: 70302
+line_start: 70385
+line_end: 70421
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.27:0 - Use This When
 
-Use this pattern when a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action.
+Use this pattern when you need to establish what a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection or stabilization supports. The assessment can answer a request to explain a temporal pattern or inform what someone will do.
 
 The practical question is:
 
@@ -60,7 +60,7 @@ If the claim is only a state or rate reading and that answers the receiving ques
 
 **What this buys.** The practitioner distinguishes a trend from an intervention model. Braking, pausing, stabilizing, redirecting, coasting, widening, narrowing, or slowing rollout remain available when acceleration would be the wrong move.
 
-**Primary working object.** The temporal claim whose adequacy matters to the receiving action. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
+**Primary working object.** The temporal claim whose adequacy matters to the conclusion, explanation or action the recipient needs. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
 
 When an adequacy assertion is independently identified under C.2.1, its EntityOfConcern is the source episteme or addressed claim, not the reference used to designate it. An ordinary assessment can state its conclusion directly. Publication under E.24.PUB is separate from that claim and identity.
 

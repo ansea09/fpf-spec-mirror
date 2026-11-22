@@ -6,7 +6,7 @@ section_id: "A.7:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:6 — Worked cases"

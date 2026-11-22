@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 109398
-line_end: 109892
+line_start: 109520
+line_end: 110014
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -103,7 +103,7 @@ The card is the publication unit. Its practical-use guidance is what it tells th
 
 When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
-The displayed entries illustrate how the pattern language can help. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+Start with the reader’s question about their own work. The displayed entries illustrate how the pattern language can help. An entry about a familiar activity can still answer a different question. Compare the result its method would supply with what this reader needs to decide, explain or do. Establish whose work the question concerns. Where the answer depends on composition, which parts and which whole does it concern? Where it depends on the model, which differences could change the answer or its grounds? Use C.39.QR:4.1 when a change in the question is hard to see. If the entry supplies just one needed contribution, take that result back to the original question. A general argument within one example can already settle it. Give a direct locator when the reader needs a known section. During open exploration, an example may help the reader form a question for the first time. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
 
 The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
@@ -337,7 +337,7 @@ Where an exact row is used, it carries one result template or public blocker. It
 
 #### E.11:4.4.1 - Practical-use carry-through check
 
-Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
+Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. Read the question the prospective user brings beside the outcome of following the entry. An entry can provide a complete answer, a useful part with a way back to the larger task, or a reason to look elsewhere. Check whether the reader can tell which applies when the topic still sounds familiar but the requested work has changed. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
 
 For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`.
 

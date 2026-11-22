@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 58966
-line_end: 59256
+line_start: 59078
+line_end: 59368
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -96,7 +96,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 ##### C.3.A:A.4 - Worked examples [I]
 
 
-**Adult dosage across jurisdictions.** Authority kind `AdultPerson@RegY` uses threshold 18; hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. For patient P-44, the hospital evaluates its target signature edition in the dated formulary slice. Missing DOB support gives `unknown`; the guard refuses without asserting that P-44 is a non-adult.
+**Adult dosage across jurisdictions.** In this example the authority kind `AdultPerson@RegY` uses threshold 18 and the hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. The hospital evaluates its target signature edition in the dated formulary slice. For candidate P-44, suppose the only age information is that P-44 met the authority threshold that day. Ages of 20 and 22 are both compatible. The target age condition remains `unknown`, and the guard refuses a use requiring positive classification. An attested bound of at least 21 would settle the hospital's age condition under these rules.
 
 **GDPR and CCPA.** Two source kinds relate to independently identified product-context kinds through separate bridges/assertions. Each policy has its own jurisdiction/time Scope. A data item is governed by a fresh target judgment; an alias table is support, not classification.
 

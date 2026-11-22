@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__007_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:5 — Archetypal Grounding (Worked Cases)"
-line_start: 46426
-line_end: 46445
+line_start: 46456
+line_end: 46477
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,6 +48,8 @@ Use A.6.F for unresolved function-like wording, A.3.4 for transformations, E.18 
 A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use the Method and Work patterns for the method relations and performed release work.
 
 B.2.4 becomes current when capability, coordination, commitment, and work facts raise a consequential question about whether the existing team or platform carries the receiving claim. Evidence may support that claim; an automated delivery label or score does not decide the ontology.
+
+Suppose each of two teams can obtain a whole shift on a shared test bench when the other team is idle. One release yesterday establishes a performance. To decide whether both can be promised a release on the same shift, recover the test each release requires and the bench time they can use together. If each requires the whole shift for its own test, one available bench excludes that joint arrangement. If one test is valid for both releases and the teams may use the same result, that part of the promise can be met in one shift. Determine separately whether the other conditions for both releases hold. The decision can turn on the Method and the rights to use the result while both teams retain their identities.
 
 #### B.2.4:5.3 - Theory Explains New Phenomena
 

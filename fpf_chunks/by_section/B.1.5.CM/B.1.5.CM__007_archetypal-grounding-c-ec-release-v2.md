@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:5"
 section_title: "Archetypal Grounding — C-EC-Release-v2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__007_archetypal-grounding-c-ec-release-v2.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:5 — Archetypal Grounding — C-EC-Release-v2"
-line_start: 44789
-line_end: 44845
+line_start: 44801
+line_end: 44859
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -75,6 +75,8 @@ After two distinct failed trials, `ReleaseDecider-17`, within `AUTH-ReleaseDecis
 #### B.1.5.CM:5.1 - Finish a Design Comparison Before a Trial Is Available
 
 Suppose an earlier design use asks whether this release-coordination proposal preserves signed-before-closure, confidentiality and the A/B2/R distinctions well enough to compare with another proposal. The sources support that account, but whole identity and composition relations remain unresolved, and the team has no rig access, allocated effort or trial window. Return the traceable prospective account with those identity and relation limits. The receiving designer can compare the proposals and finish that question on the available content.
+
+If the assignment is instead to devise a release procedure, start from what the release decider must establish at closure. Early integration from provisional information leaves a possible difference from the signed edition. Work back to the need to detect that difference, determine which checks it affects and supply their results before authorization. Waiting for signed evidence can remove the provisional-to-signed comparison while changing the time available for integration. Choose an arrangement that satisfies the applicable time, access and authority conditions. State which evidence can be supplied from outside the Method and which verification the proposed rule requires within it.
 
 A later opportunity with useful obtainable observations can warrant implementation or a trial and its coordination plan. The already selected three-release case above retains its WorkPlan, observations and stops.
 

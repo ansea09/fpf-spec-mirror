@@ -6,12 +6,12 @@ section_id: "B.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:5 — Archetypal Grounding"
-line_start: 47867
-line_end: 47902
+line_start: 47931
+line_end: 47970
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -29,10 +29,10 @@ keywords:
 The phase names can be shared, but each subject branch keeps its identity and return-to-use rule.
 
 * **Cue preservation and optional B.4.1 routing:**
-  * **Context:** A fleet of autonomous delivery drones (`U.System`) is in operation, and operators begin to notice that winter deliveries feel "off" before a clean anomaly statement exists.
+  * **Context:** A delivery service operates a fleet of autonomous drones. Operators begin to notice that winter deliveries feel "off" before a clean anomaly statement exists.
   * **Loop Example:**
     1. **Operate:** The drones perform deliveries.
-    2. **Observe:** The monitoring service and operators perform observation Work and find recurring cold-weather battery strain, but the cue has low articulation.
+    2. **Observe:** Operators and the monitoring service identify repeated signs of battery strain in the observed cold-weather deliveries. This gives them a cue to investigate. Its cause and its reach across the service remain open.
     3. **Optional B.4.1 route inside Observe:** A team performs stabilization Work. Under `A.16.1`, a `PreArticulationCuePack` preserves the cue nucleus, primary witness traces, and current language-state position without pretending that a final anomaly or action record exists; when the pack is made available for this use, name the separate publication occurrence under `E.24.PUB`.
 
        The same or another team performs routing Work. Under `B.4.1`, a `RoutedCueSet` keeps multiple continuations visible—for example, battery-chemistry investigation or route-planning adjustment; again, name its publication occurrence under `E.24.PUB` when availability matters.
@@ -42,7 +42,7 @@ The phase names can be shared, but each subject branch keeps its identity and re
   * **Context:** A scientific theory of protein folding (`U.Episteme`) is used to predict structures.
   * **Loop Example:**
     1. **Operate:** Researchers perform theory-application Work using the current theory episteme.
-    2. **Observe:** A research lab performs observation Work. An identified `C.2.1` finding episteme states that the current theory fails to predict the structure of a protein class; name any `E.24.PUB` publication occurrence that makes this finding available.
+    2. **Observe:** A lab obtains a finding, identified under `C.2.1`, about a prediction for a member of the claimed class under the stated conditions. A reliable counterexample can defeat a rule asserted for every member. How many members are affected is a further question. Identify the `E.24.PUB` occurrence if availability of this finding is at issue.
     3. **Refine:** A research team performs revision and testing Work. A later theory episteme, identified under `C.2.1` from its changed claim content, includes a term for the new protein class. Assert an edition relation between the two theory epistemes only if that relation obtains.
     4. **Deploy:** The team performs publication Work for the later theory. The publication occurrence, journal acceptance, admission into a configured knowledge base, and later community use are separate relations.
 
@@ -57,6 +57,10 @@ The phase names can be shared, but each subject branch keeps its identity and re
     2. **Observe:** A reviewer performs review Work and records that the time from fault detection to safe restoration repeatedly exceeds the allowed window.
     3. **Refine:** Method maintainers perform revision and testing Work. A wording clarification can yield a later MethodDescription while the same Method remains current. Adding an earlier isolation action or changing a classification checkpoint can instead change identity-bearing Method semantics; decide under `A.3.1` whether the result is a refinement, substitute, or distinct successor Method, and use `B.1.5` if its composition changes. Then identify the MethodDescription episteme that describes the chosen Method.
     4. **Deploy:** A publishing team performs publication or release Work for the later MethodDescription and, where needed, configuration or training Work for renewed Method use. Decision results, authority, acceptance, admission, and later Work that enacts the Method remain separate. Completed maintenance Work is never revised.
+
+  **Changing the maintenance question.** The service manager now asks whether to keep a promise of restoration within 30 minutes of each call. A record of one timely restoration settles that incident if the recording and restoration conditions are met. For the promise, consider who may call, when, and which demands can coincide. Suppose two simultaneous calls are permitted, each requires 20 minutes of exclusive work by the same sole qualified person, and the 30-minute clocks start together. Both responses would need at least 40 minutes of that person’s work in the same 30 minutes. More precise readings on either repair cannot rescue the promise. This conclusion concerns the arrangement even if that pair of calls has never occurred.
+
+  Under different terms, at most one call can be outstanding. If the person is available and able to start at once on every such call and can complete all required work within 20 minutes, the standing rule meets the 30-minute limit. It can be retained. If the manager commissions a new dispatch rule, determine what a dispatcher could know before committing a response, which resources they could assign and how the assignment would meet the existing promises in each permitted situation. Whether a new dispatcher actually used the resulting rule, and whether the service improved as a result, are questions for evidence of use and effect.
 
   **Adaptive-specialization note.** When the method-instantiation slice carries a bounded task-family specialization claim, identify the selected specialist Method or portfolio and the grounds for its claimed fit. When the Method update is used as evidence of specialization acquisition, name the holder, dyad, team or scoped portfolio that carries that claim and explain what the Method change contributes. Use the `C.22.1` branch above for the acquisition or reuse question. Retain any budget, escalation or commit checkpoint, and fallback required by the selected plan or use.
 

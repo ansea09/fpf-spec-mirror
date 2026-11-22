@@ -6,12 +6,12 @@ section_id: "C.17:7"
 section_title: "Comparison, gates, and selection boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__009_comparison-gates-and-selection-boundary.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:7 — Comparison, gates, and selection boundary"
-line_start: 63459
-line_end: 63467
+line_start: 63568
+line_end: 63576
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.17:7 - Comparison, gates, and selection boundary
 
-1. Never use Novelty alone to approve or prefer a bearer. Pair it with Use-Value or the relevant ConstraintFit gate.
+1. Use the criterion the recipient actually applies. Among eligible candidates a novelty comparison can settle a preference for the most dissimilar one under the agreed rule. When approval also depends on usefulness or another eligibility condition, establish that condition separately.
 2. State the selected characteristic subset, polarities, eligibility conditions, and comparability basis of every dominance claim.
 3. Preserve partial orders and incomparability. A Pareto or constraint-bounded Front follows from the declared rule; a plotted hull does not by itself establish that relation.
 4. Do not force one scalar creativity score. If a receiving policy uses an index, publish its weights or curves, admissible transformations, uncertainty treatment, sensitivity, and drift rule while keeping the primitive coordinates queryable.

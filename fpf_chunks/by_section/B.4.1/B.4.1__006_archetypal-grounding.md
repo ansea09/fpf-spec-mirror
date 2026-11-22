@@ -6,12 +6,12 @@ section_id: "B.4.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:5 — Archetypal Grounding"
-line_start: 48072
-line_end: 48078
+line_start: 48146
+line_end: 48152
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 125665
-line_end: 125699
+line_start: 125787
+line_end: 125821
 dependencies:
   - "A.1.1"
   - "A.11"

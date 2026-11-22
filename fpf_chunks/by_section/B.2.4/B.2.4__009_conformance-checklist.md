@@ -6,12 +6,12 @@ section_id: "B.2.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:6 — Conformance Checklist"
-line_start: 46456
-line_end: 46466
+line_start: 46488
+line_end: 46498
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,10 +39,10 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.4-1` | B.2.4 is used only when capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after subject-pattern explanations are tested. |
+| `CC-B2.4-1` | The comparison answers the receiving question about the holder and its continuity over the conditions that matter. Established performance, capability conditional on support and a proposed arrangement each supply the conclusion their grounds warrant. Close a sufficient subject-pattern answer at its own scope. |
 | `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to subject patterns. |
 | `CC-B2.4-3` | A capability or function label does not substitute for the subject-pattern facts or B.2 whole comparison. |
-| `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
+| `CC-B2.4-4` | Distinguish the Method and its operations, its description, the plan and the Work performed. Where their organization or a choice among arrangements matters, show how the selected contributions can meet the intended use together. |
 | `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
 | `CC-B2.4-6` | If B.2 remains current, it handles the remaining whole comparison, tests a candidate new whole under the A.1 and kind criteria when required, and supplies any optional record needed by the receiving use. |
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:7"
 section_title: "First-use references in subject patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_first-use-references-in-subject-patterns.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:7 — First-use references in subject patterns"
-line_start: 108336
-line_end: 108353
+line_start: 108458
+line_end: 108475
 dependencies:
   - "A.10"
   - "A.15.1"

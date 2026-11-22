@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 45693
-line_end: 45744
+line_start: 45717
+line_end: 45768
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 #### B.2.P:5.1 - "The Fleet Emerged As A New Actor"
 
-Recover:
+Start with the decision in which the phrase was used. A harbour office asking how many vessels are on its eligible list can use the membership rule and a complete register. For a threshold, a sufficient bound may settle it. For an order to carry two cargoes on the same tide, trace each cargo to feasible vessels, loading work, shared berth time and who may assign it. The number of vessels can stay fixed while a change in control of the berth changes whether both deliveries can be promised. Confirmed access, terms and capacity can support that promise before either delivery occurs. A statement that the fleet became a new acting whole also needs its construction and continuity grounds. Recover the claims the particular wording makes:
 
 - Is "fleet" a membership set, collection-as-whole, acting collective system, or the candidate new system named by an MHT claim?
 - Does the agency wording name an admitted System, an agency-relevant characteristic or threshold, a local system-role kind, a separate System-classification judgment, an obtaining assignment, or only ordinary prose? Recover these independently: the characteristic can obtain without an assignment and the System may participate passively. Send unresolved claim-bearing “role” wording through `E.10.ROLE`.

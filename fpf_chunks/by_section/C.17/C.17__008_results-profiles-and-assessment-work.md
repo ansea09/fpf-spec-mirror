@@ -6,12 +6,12 @@ section_id: "C.17:6"
 section_title: "Results, profiles, and assessment Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__008_results-profiles-and-assessment-work.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:6 — Results, profiles, and assessment Work"
-line_start: 63435
-line_end: 63458
+line_start: 63544
+line_end: 63567
 dependencies:
   - "A.1.1"
   - "A.10"

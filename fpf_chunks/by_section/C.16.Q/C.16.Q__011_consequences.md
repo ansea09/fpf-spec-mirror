@@ -6,12 +6,12 @@ section_id: "C.16.Q:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__011_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:9 — Consequences"
-line_start: 63133
-line_end: 63142
+line_start: 63242
+line_end: 63251
 dependencies:
   - "A.10"
   - "A.16"

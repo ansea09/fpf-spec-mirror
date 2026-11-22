@@ -6,12 +6,12 @@ section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:intro — Intro"
-line_start: 71022
-line_end: 71035
+line_start: 71141
+line_end: 71154
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,9 +57,9 @@ keywords:
 
 **Plain-name.** Causal-use calculus.
 
-**Intent.** Help a practitioner decide what a causal-looking claim is supported to say, under which limits, and which narrower statement remains when the support is insufficient.
+**Intent.** Develop a causal answer to the question the practitioner faces, or assess what a proposed causal claim is supported to say. Establish the conditions under which the explanation or intervention consequence follows.
 
-**Primary EntityOfConcern.** The causal-use question raised by a concrete claim: what would change under an intervention, what explains an observed difference, or what can be said about a counterfactual.
+**Primary EntityOfConcern.** The causal-use question arising from an outcome to explain, a proposed intervention or an offered claim. What would change under the intervention, what explains the observed difference, or what can be said about the counterfactual?
 
 **Scope.** Use the domain's causal models, intervention and outcome definitions, and scientific evidence to determine which statement is supported and under which limits.
 

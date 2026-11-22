@@ -6,12 +6,12 @@ section_id: "C.21:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__011_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:9 — Conformance Checklist"
-line_start: 65535
-line_end: 65552
+line_start: 65648
+line_end: 65665
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -50,7 +50,7 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-C.21-1` | The discipline, intended use, one exact Characteristic, Scale, ClaimScope, comparison or observation basis, and time stance are recoverable. |
+| `CC-C.21-1` | The discipline, intended use, ClaimScope, observation or comparison basis, and time stance are recoverable. Each Characteristic needed for the conclusion has a defined Scale. A joint conclusion has grounds that connect the readings for the units and period it concerns. |
 | `CC-C.21-2` | `ClaimScope` is authoritative. A `TargetSliceRef` appears only when consumed and its exact relation to the scope is stated. |
 | `CC-C.21-3` | A minimal readable claim may stop without a definition set, EvidenceGraph, registry, dashboard, or publication apparatus. |
 | `CC-C.21-4` | Every persisted, compared, aggregated, or published coordinate carries the active DHC replay basis; no generic “metric edition” substitutes for an exact object. |

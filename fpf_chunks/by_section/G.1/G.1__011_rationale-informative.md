@@ -6,12 +6,12 @@ section_id: "G.1:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__011_rationale-informative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:10 — Rationale (informative)"
-line_start: 136713
-line_end: 136719
+line_start: 136835
+line_end: 136841
 dependencies:
   - "A.10"
   - "A.15.2"

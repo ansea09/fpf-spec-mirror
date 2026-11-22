@@ -6,12 +6,12 @@ section_id: "C.29:0"
 section_title: "First mathematical move"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-mathematical-move.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First mathematical move"
-line_start: 72263
-line_end: 72270
+line_start: 72382
+line_end: 72389
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ keywords:
 
 ### C.29:0 - First mathematical move
 
-Ask what you need to find out. Choose the smallest mathematical object that could answer it; say how its elements and operations correspond to the working situation. Identify the structure needed for the inference, the distinctions omitted, and the assumptions on which the result depends. Derive a consequence, then decide what it changes and what would defeat its use.
+Start with what the recipient needs to understand or do. Work back to a relation from which they could obtain that result. Which objects take part, what may vary, and which differences must their representation retain? Choose an adequate mathematical construction, derive its consequence and use the correspondence to answer the original question. A familiar law can supply the whole argument.
 
 For waiting work, a queue candidate turns “slow flow” into questions about arrivals, service and waiting. For a proposed dense state array, counting its entries can already rule out an implementation. For a familiar local calculation such as `V = IR` under its accepted conditions, use the equation directly: the calculation does not require a lens-use record.
 

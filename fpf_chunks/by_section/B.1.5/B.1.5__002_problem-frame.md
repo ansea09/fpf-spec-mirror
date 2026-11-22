@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:1 — Problem Frame"
-line_start: 43898
-line_end: 43943
+line_start: 43906
+line_end: 43951
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 ### B.1.5:1 - Problem Frame
 
-Use this pattern when a project must decide whether several recovered methods compose into one larger `U.Method`, and when order, guarded choice, parallel branches, typed joins, adapters, or method-interface exposure changes the identity of that whole method.
+Use this pattern when the question is whether identified Methods constitute one reusable Method. Their contributions may depend on order, guards, joins, shared constraints or simply satisfying distinct requirements of the whole. If the recipient must devise the arrangement, begin with B.1.5.CM and use the qualification below on the resulting proposal.
 
 Typical moments:
 
@@ -72,7 +72,7 @@ Typical moments:
 
 **Primary EntityOfConcern.** The EntityOfConcern is one candidate or composite `U.Method`, already identified under A.3.1. The proposition that part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the candidate Method as its EntityOfConcern under its effective ReferenceScheme.
 
-**First useful move.** For each apparent step or branch, recover the governed object before composing anything: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
+**First useful move.** Identify the reusable result or condition the recipient needs and whether the task is to qualify a proposed arrangement or to construct one. For each apparent step or branch, distinguish the object it denotes: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
 
 **What goes wrong if missed.** A flowchart becomes the method, a plan item becomes a submethod, an event log becomes proof that a method was enacted, an order edge becomes a part, or a registry of alternatives is treated as one composed method. Then work starts from a description or label whose method identity, joins, interfaces, and failure conditions were never recovered.
 
@@ -80,7 +80,7 @@ Typical moments:
 
 **Not this pattern when.**
 
-- If the claim is one semantic way of doing with no order-sensitive composition question, use `A.3.1`.
+- If the claim concerns one semantic way of doing and its composition is outside the question, use `A.3.1`.
 - If the claim is a claim-bearing episteme that describes a method or relations among methods, use `A.3.2` and `C.2.1`.
 - If the claim is intended work, use `A.15.2`.
 - If the claim is a dated occurrence, use `A.15.1`.
@@ -91,7 +91,7 @@ Typical moments:
 
 `U.Method` is a non-agentive method holon kind. A method can have submethods and can participate as a submethod in a larger method. This does not mean every step-looking node, document section, file module, graph edge, work-plan item, or work occurrence is a method part.
 
-Order-sensitive method composition asks:
+For a proposed composition, ask:
 
 ```text
 Given independently recovered U.Method parts,

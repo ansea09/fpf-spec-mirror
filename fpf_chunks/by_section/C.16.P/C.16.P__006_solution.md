@@ -6,12 +6,12 @@ section_id: "C.16.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:4 — Solution"
-line_start: 62266
-line_end: 62309
+line_start: 62370
+line_end: 62413
 dependencies:
   - "A.17"
   - "A.18"
@@ -35,7 +35,7 @@ Rewrite the claim so the reader can recover its subject, the relevant characteri
 
 #### C.16.P:4.1 - Recovery sequence
 
-1. **Read the trigger in its sentence.** Recover the complete assertion. Retain the source wording when the repair needs an inspectable comparison.
+1. **Read the trigger in context.** Recover what the expression asserts and who needs to understand or use it. If a decision depends on its interpretation, identify that decision. Distinguish the question asked from a comparison the available data happen to support. Retain the source wording when the repair needs an inspectable comparison.
 2. **Recover the bearer.** Name the subject being characterized. For a relational Characteristic, retain the tuple required by its definition.
 3. **Recover the construction.** Use §5 to identify what the wording means. A trigger can be ordinary prose; its appearance does not create an FPF kind.
 4. **Use a recovered subject rule directly.** Once the construction is clear, apply its subject pattern from §6 or the relevant domain practice.

@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 44943
-line_end: 45012
+line_start: 44957
+line_end: 45028
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,11 +42,13 @@ keywords:
 
 ### B.1.6:2 - Solution — separate measurement from aggregation
 
-Start with the resource question and the values needed to answer it. State the result:
+First identify whose resource, which use or availability, and what period the decision concerns. A reading for the entire agreed boundary or a warranted bound can answer directly. If the answer depends on combining contributions, use the following form.
 
 > Under rule `P`, the resource values attributed to the included subjects `S` within accounting boundary `B` and time window `T` yield typed result `R`, with the stated qualifications. The result statement identifies those inputs and grounds.
 
-A sufficient ordinary sentence or table can state this claim. Stop when it answers the receiving resource question with the required basis. If a needed input or relation remains unresolved, keep the dependent result or use unresolved while retaining supported components or a sufficient narrower result.
+When the boundary and units are yours to choose, work back from the action. What expenditure, stock, peak demand or right to draw would change it? Follow that quantity through the relevant Work, participants and transfers. Select a smaller unit only where its attribution, timing or interaction with another use can change the answer. Try shifting the same total between two users or two periods. If a limit can be met in one arrangement and missed in the other, retain that distinction and any restriction on which demands can occur together. An existing rule for the whole class of jobs can establish coverage without a separate entry for each job.
+
+For a commission to design an accounting rule, specify the inputs and how they determine the required output across the admitted jobs. Give a computed result when the commission includes applying the rule. An ordinary sentence or table may suffice for either result. Stop when it answers the receiving resource question with the required basis. If an input or relation is unknown, carry the admissible possibilities through the rule. Give a supported answer, including a threshold decision from a sufficient bound, and identify any separately requested quantity or attribution still open.
 
 For each input, retain its subject, resource Characteristic, Scale, applicable Unit, attribution basis and uncertainty relevant to the use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains the source values, model and conditions that warrant it. A ledger row supplies no missing basis merely by displaying the value.
 
@@ -88,7 +90,7 @@ Recover the following content for the claims made and the use being proposed:
 - each **resource value** retains its attribution basis: a claimed performed measurement has C.16 measurement Work and a measurement-result episteme; an estimated or derived value keeps its source values, model and conditions. Retain Scale, applicable Unit, time stance, and the calibration and uncertainty basis needed for the use;
 - the **aggregation policy** states the inclusion rule and output kind, together with the conversion, normalization, weighting, missing-value, allocation, uncertainty and overlap rules needed to interpret or justify this result. Identify the policy edition when the result or its use depends on that edition;
 - when the claim asserts **dated aggregation Work**, or the receiving use needs that occurrence, A.13 identifies its performer and A.15.1 independently admits it as `U.Work`. If assignment-bound attribution is also needed, F.6 checks that relation separately. The Method, inputs through direct relations or A.6.1 bindings, resources and temporal extent retain their grounds;
-- the **B.1.6 aggregation result** is the typed total, vector, interval or bounded estimate warranted by the input values, included accounting subjects and operative rules;
+- an **application of the aggregation rule** returns the typed total, vector, interval or bounded estimate warranted by the input values, included accounting subjects and operative rules. A design for later applications specifies how the result will be obtained;
 - the **result statement** conveys the result, included subjects, rule, boundary, time basis, qualifications and relevant uncertainty. When the receiving claim or use needs a claim-bearing episteme, identify it through C.2.1 by its claim content, EntityOfConcern and effective ReferenceScheme. Keep the resource value, claim content, episteme and expression distinct; and
 - keep the **source basis** recoverable: the measurement or estimate sources, operative rules and derivations needed to justify the result. Use A.10 when source-to-use reliance must be replayable, and G.6 when that chain needs a stable address for citation, replay, audit or refresh. Apply G.11 when currentness affects the use.
 

@@ -6,12 +6,12 @@ section_id: "C.28.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:4 — Solution"
-line_start: 71842
-line_end: 71922
+line_start: 71961
+line_end: 72041
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -35,7 +35,7 @@ State what needs explaining or changing. Name the outcome and the cases it conce
 
 Distinguish an observed comparison from an intervention query. Observing X=x supplies information about the mechanisms already operating. Imposing X=x replaces a mechanism. For a question about a past case under another action, use factual observations to constrain the underlying conditions of that case. In the alternative, recompute the quantities that depend on the changed action. An outcome observed in the factual case is evidence about that case and may take a different value under the alternative. C.28.MR develops the calculation and C.28 determines what supports its use.
 
-Keep the question small enough for a useful contrast. If two retained accounts permit the same sufficient next action under its own grounds, C.11.DUA can settle whether distinguishing them is worth the effort.
+Choose a contrast that can answer the recipient's question. Two accounts can justify the same immediate protection while explaining the onset or persistence of the trouble differently. The common action can settle today's protection. For a request to explain the trouble, derive what the accounts establish in common and which disputed mechanism still matters. Use C.11.DUA when deciding whether obtaining further evidence warrants its cost.
 
 #### C.28.CM:4.2 - Turn the story into variables with subject meaning
 
@@ -43,7 +43,7 @@ Choose quantities or distinctions that can vary across the relevant cases or tim
 
 Separate the subject quantity from its registration when that difference matters. For example, distinguish an identifier present in the submitted report, a log entry reporting its absence, and inclusion of that report in an incident sample. Recover how the observation is produced through C.16 when needed. A copied ticket is another report of the same event, not another occurrence of it.
 
-Retain enough distinctions for the proposed contrast. Combining two stages is unsafe when the action can change one while leaving the other unchanged. Conversely, a single “ready for dispatch” variable may suffice until readiness failures require different responses.
+When the question concerns a whole, work back from its outcome to the activities, handoffs or physical interactions through which it is produced. Select the constituents whose differences could change the explanation or the consequence being asked about. For example, a publisher adds one reviewer qualified for initial review and final approval. Assigning that reviewer to the first review or to final approval counts as the same staffing increase. If final approval is the only queue limiting completion, the two assignments can yield different publication dates. Keep the assignment and the handoff in the model when the difference matters. If all allowed assignments meet the requested deadline under supported bounds, the coarser description can settle that threshold. A request to explain why a particular issue waited can still require the stage and the history of its handoff.
 
 #### C.28.CM:4.3 - Propose mechanisms and serious alternatives
 

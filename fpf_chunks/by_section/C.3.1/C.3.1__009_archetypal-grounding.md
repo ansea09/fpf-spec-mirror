@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:7 — Archetypal Grounding"
-line_start: 57821
-line_end: 57835
+line_start: 57931
+line_end: 57945
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,7 +48,7 @@ keywords:
 | --- | --- | --- |
 | `CoolingPumpKind` is below `PumpKind`. | Use criterion entailment: the cooling-pump condition already requires the governed pump condition. State the readable relation and its applicability. | Do not infer a public `U.CoolingPump`, and do not use current extension rows as the truth-maker. |
 | A closed cabinet inventory contains five cabinets. Four satisfy both criteria. For the fifth, the narrower judgement is `unknown` and the broader is `false`. | Inclusion on this inventory is still open. If the fifth satisfies the narrower criterion it is a counterexample. Establish its narrower classification or use a valid criterion-entailment argument. | An unresolved narrower judgement in a cabinet already known to meet the broader criterion could not conceal that counterexample. Even a settled result for the five cabinets covers only this lot. |
-| The shift qualification register and the union register identify the same people on a complete current roster. | Check both criteria for every person in that roster to establish inclusion in both directions there. | Qualification depends on the shift credential and union membership on enrollment. A later enrollment can change the agreement while both kinds retain their criteria. |
+| The shift qualification register and the union register identify the same people on a complete current roster. | Once the identities, register meanings and completeness for this roster are established, the equality gives inclusion in both directions there. | Qualification depends on the shift credential and union membership on enrollment. A later enrollment can change the agreement while both kinds retain their criteria. |
 | A signature adds an aligned unit conversion. | Apply section 6, keep the kind, identify the new signature edition, and retain edition-specific judgments. | Do not rewrite earlier judgments as if the new edition had been used. |
 | A signature changes from physical cooling performance to a schema label. | The boundary probes expose a changed candidate domain and discriminator; identify another kind. | Do not hide the mismatch by editing the extension. |
 | Pump #14 changes state in a later plant slice. | Re-evaluate the admissible candidate and allow the extension to change. | Candidate-state change alone does not create a kind, signature, or relation occurrence. |

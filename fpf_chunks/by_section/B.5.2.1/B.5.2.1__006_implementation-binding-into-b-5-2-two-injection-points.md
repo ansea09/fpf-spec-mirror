@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5"
 section_title: "Implementation & Binding into B.5.2 (two injection points)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__006_implementation-binding-into-b-5-2-two-injection-points.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:5 — Implementation & Binding into B.5.2 (two injection points)"
-line_start: 52470
-line_end: 52501
+line_start: 52568
+line_end: 52599
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,7 +33,7 @@ keywords:
 
 When the pattern is imported, use NQD-Generate for the selected generation contribution. Its candidate package carries conjectural content and the constituted coordinate results and provenance used. Report diversity to the extent supported by its declared reading; generation assigns no assurance level.
 
-**Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria:
+**Step 3 — Plausibility filters.** Compare the candidates whose predictions or mechanisms could answer the explanatory question. A candidate dominated on the chosen coordinates can predict an observation the front leaves unexplained. Restrict this comparison to the front when the exclusions preserve the answers needed here. Apply B.5.2’s plausibility criteria:
 
 * **Falsifiability / probeability** → require an interpretable implication or possible discriminating contrast under B.5.2. Keep a meaningful conjecture distinguishable from the present availability or worth of its check.
 * **Explanatory power** → prioritize candidates whose *Q-improvements* and attached rationales address the stated explanatory question.

@@ -6,7 +6,7 @@ section_id: "A.16.0:End"
 section_title: "A.16.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__017_a-16-0-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:End — A.16.0:End"

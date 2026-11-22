@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
-line_start: 56115
-line_end: 56345
+line_start: 56223
+line_end: 56453
 dependencies:
   - "A.13"
   - "A.15"
@@ -253,7 +253,7 @@ If the branch or threshold is unresolved, preserve the episteme through `B.4.1` 
 A note may reach `AE4+` while remaining low or mid in `CD`. In such cases state that articulation is sufficient for precise handling while closure still leaves rival routes or frames live.
 
 #### C.2.4:17.3 - Articulation claims for separate fragments
-Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear.
+Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear. If the recipient must use the fragments together, read the connection as part of that use. A test result and a restoration instruction can each be explicit while leaving it unclear whether this result releases this pump. One sentence naming the pump and the applicable test can supply the missing connection.
 
 ### C.2.4:18 - Review Matrix and Endpoint Boundary Tests
 

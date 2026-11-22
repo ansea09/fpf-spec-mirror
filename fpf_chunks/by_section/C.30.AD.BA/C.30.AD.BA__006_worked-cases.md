@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:3"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__006_worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:3 — Worked Cases"
-line_start: 76053
-line_end: 76078
+line_start: 76167
+line_end: 76192
 dependencies:
   - "A.1"
   - "A.10"

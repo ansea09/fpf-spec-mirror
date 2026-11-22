@@ -6,12 +6,12 @@ section_id: "B.5.PI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:1 — Problem frame"
-line_start: 52835
-line_end: 52844
+line_start: 52935
+line_end: 52944
 dependencies:
   - "A.1.STM"
   - "A.15.11"

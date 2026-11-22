@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.PI.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
-line_start: 52829
-line_end: 53060
+line_start: 52929
+line_end: 53164
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -69,7 +69,9 @@ Select a bounded occasion that does not depend on someone first reporting troubl
 
 Choose an occasion with some prospect of a useful comparison: a consequential decision, a result passed to another person, a recurrent activity whose effort is poorly understood, or an available contrasting case. A small agreed sample can expose something that reviewing only failures would miss. Do not require every occurrence to undergo this examination. Keep the immediate work and its constraints in view.
 
-A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If access to the result, its use or an attentive participant is unavailable, identify that missing contribution rather than claim that inquiry has begun.
+Choose the occasion in light of what you have been asked to find. One handover can yield a worthwhile question when you are free to explore. For a question about why a difficulty recurs in the practice, follow the work that produced the result and what happened when others received it. The same visible outcome might arise from a fixed constraint, a choice by the producer or a recipient's adjustment. Look for something that distinguishes these explanations, such as the information available before a choice or how the result was used. A rule covering all the relevant work can explain a recurring dependency. Its use on a particular occasion and the frequency of an outcome call for grounds about that work.
+
+A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If a result, its use or an attentive participant is unavailable, identify which comparison or conclusion needs that access. Use what the occasion already establishes, or preserve the cue when that is all it supports.
 
 #### B.5.PI:4.2 - Compare before deciding what is wrong
 
@@ -115,7 +117,7 @@ Stop here if only the cue is recoverable and further articulation is unproductiv
 
 State what the work should enable, what comparison or experience raised the question, under which conditions, and why the answer could matter. Ordinary words are enough: “How can this figure help price the next batch when it has no numerical value on some days?” is a usable question without the phrase “division by zero”. Search a library or ask a colleague using the situation and needed result. A PatternID is one way to obtain an answer after its relevance becomes intelligible, not a prerequisite to inquiry.
 
-Let the first answer change the question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. Return to the original use before accepting either as closure. B.5.QD develops a consequential question when the initial one needs reconstruction; B.5.QD.CF examines assumptions behind an apparent conflict. Use those contributions only while the question needs them.
+Let the first answer inform your choice of the next question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. In an open inquiry you can choose a different question for what it promises to reveal. In a fixed assignment, ask what an answer to the proposed question could establish for the original use. Return that contribution to the recipient, or explain why a change of assignment is worth considering. B.5.QD develops a consequential question when the initial one needs reconstruction. B.5.QD.CF examines assumptions behind an apparent conflict.
 
 An adequate known explanation, instruction or correction may finish this use. If the question needs a new construction, explanation or test, B.5 connects the reasoning contributions. Keep later investigation and problem formulation under their conditions; a provisional question need not be promoted immediately to a fully specified Problem or research programme.
 
@@ -150,6 +152,8 @@ The listener first says, “Make the deadline reminder clearer.” Applying that
 The next question is small: “Can we make the correspondence available without losing distinctions the recipient needs?” In this case an authoritative list exists. The two participants compare twelve entries with it; ten have a unique correspondence, while two abbreviations denote different equipment in different buildings. A single global replacement would conceal that difference. They retain the building context, give the recipient the resolved names and leave the two unresolved entries for the person who can supply their locations. The receiving schedule is checked by identifying the intended equipment, not by counting replaced labels.
 
 For repeated handovers, an available mapping keyed by name and building may remove some reconstruction. Whether to prepare and maintain it depends on use and effort. A one-off schedule with no further receiving difficulty can keep the manual translation. In either case the inquiry returns to the schedule: the recipient can use the supplied identities, or knows which entries need a location. It need not create a new organization-wide programme.
+
+For a request confined to whether today's schedule arrived on time, the recorded delivery time can suffice. For a request to discover a dependency in preparing the schedule, the producer can choose to investigate the reliance on memory. If the review concerns how often recipients have had to correct a name, follow what the recipients actually received and did. All twelve retypings happened before delivery. The authoritative list can establish which codes require a building wherever those conventions apply, even while the frequency of actual corrections remains unknown.
 
 If the recipient instead demonstrates that both naming conventions are understood and the retyping merely changes typography, the proposed identity problem disappears. Ask whether the extra effort is worth removing; do not preserve the first diagnosis because it motivated the comparison. If neither receiving use nor the authoritative list is accessible, retain the dependency on memory as an early cue and obtain access when worthwhile. No claim of safe replacement follows from that cue alone.
 
@@ -196,7 +200,7 @@ For guidance or an application claiming this method, examine the consequential c
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.
 - The continuation can obtain a usable contribution, identify missing means, or stop without change under stated conditions.
 - Conformance, result achievement, adequacy for the receiving work and completeness of the description remain different claims.
-- The result returns to the encompassing work, and any claim about later independent use has its own basis.
+- The result returns to the encompassing work. Its grounds show what the occasion establishes there, including any claim about recurrence. A claim about later independent use has its own basis.
 
 ### B.5.PI:8 - Common Anti-Patterns and How to Avoid Them
 

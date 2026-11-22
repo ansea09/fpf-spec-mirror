@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.1.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
-line_start: 118583
-line_end: 119243
+line_start: 118705
+line_end: 119365
 dependencies:
   - "A.15"
   - "A.15.PROD"

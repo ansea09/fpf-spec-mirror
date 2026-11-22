@@ -6,12 +6,12 @@ section_id: "B.2.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:0 — Use This When"
-line_start: 45825
-line_end: 45846
+line_start: 45849
+line_end: 45870
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,13 +42,13 @@ keywords:
 
 ### B.2.2:0 - Use This When
 
-Use this pattern when B.2 has identified one candidate new whole and that individual must be recognized under the already admitted `U.System` kind: a swarm, production cell, cloud platform, regulated control system, organizational unit, or another physically embodied whole that can act in work or transformation while remaining itself.
+Use this pattern when the decision about continuing or replacing an operating whole requires testing a candidate under the already admitted `U.System` kind. A candidate can be supplied, or its boundary can be part of the engineer's design commission. Examples include a production cell, platform or organizational unit with the organization to act in Work or transformation while remaining itself.
 
-**First useful move.** Test the candidate against A.1's six common components. Then test whether it is physically embodied and has an organization that makes it eligible to act in work or transformation while preserving its identity—the `U.System` criterion.
+**First useful move.** For a specified candidate, apply A.1's six common components and then the `U.System` criterion. Establish its physical embodiment and the organization through which it can act in Work or transformation while preserving its identity. When the commission instead leaves the system boundary to the engineer, use B.2:4 and :4.1 below to form the candidate from the required use. A design can establish what would qualify on its stated conditions.
 
 After those two tests, recover only the additional facts used by the case, such as delimitation, an objective or commitment, coordination, capability, system-role kind or assignment, method, work, transformation, functioning, architecture, evidence, assurance, or time. State each fact or claim through the pattern that defines its object or relation. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
 
-Use `B.2` to recover the whole-reidentification question and identify the candidate new whole. Use `B.2.2` when that candidate is to be tested under the already admitted `U.System` kind, then return its recognition result to B.2's comparison.
+Use `B.2` for the comparison with the prior whole, including a proposed change. Use `B.2.2` for the system question and return its answer to that comparison. For the first construction or recognition of a system with no established prior holon, use `B.1.2` and `A.1`.
 
 **What goes wrong if missed.** An operating whole is managed through old component claims, or a mere collection is declared a new system without establishing its A.1 basis and acting eligibility.
 

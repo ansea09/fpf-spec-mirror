@@ -6,12 +6,12 @@ section_id: "C.3.2:10"
 section_title: "Additional Transfer Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__012_additional-transfer-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:10 — Additional Transfer Cases"
-line_start: 58048
-line_end: 58055
+line_start: 58158
+line_end: 58165
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -33,5 +33,5 @@ keywords:
 | --- | --- |
 | Vehicle and PassengerCar | Check candidate admissibility and use C.3.1's obtaining branch; a registry result is an extension representation, not `U.EntitySet`. |
 | AuthenticatedRequest | Name the standard and key-validity dependency. If the remaining facts do not settle authentication, an admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
-| AdultPatient | Pin jurisdictional threshold, measurement time, and candidate identity. A patient with missing birth support is `unknown`; a non-person value rejected by ValueKind is `not-applicable`. |
+| AdultPatient | Pin the applicable age threshold, date and candidate identity. With an inclusive minimum age, a supported lower bound at or above the cutoff establishes that condition. An upper bound below the cutoff rules it out. If the available evidence leaves both answers possible, its value is `unknown`. A non-person value rejected by ValueKind is `not-applicable`. |
 

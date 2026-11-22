@@ -6,7 +6,7 @@ section_id: "A.2.4:12"
 section_title: "Lowering, Repair, and Refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__014_lowering-repair-and-refresh.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:12 — Lowering, Repair, and Refresh"

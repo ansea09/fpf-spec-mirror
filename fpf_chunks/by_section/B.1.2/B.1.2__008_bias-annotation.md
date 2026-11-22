@@ -6,12 +6,12 @@ section_id: "B.1.2:5.5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__008_bias-annotation.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:5.5 — Bias-Annotation"
-line_start: 43263
-line_end: 43273
+line_start: 43269
+line_end: 43279
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,5 +47,5 @@ keywords:
 | Function as bearer | A functional block or symbol is treated as a physical or organizational component. | Recover function, bearer, allocation or correspondence, and any parthood claim separately. |
 | Description as system | BIM model, dashboard, digital twin, register, or source record is treated as the system. | Identify the description and the system it describes; use C.2.1 if that relation is unclear, and the applicable further pattern only for a remaining question. |
 | Transformation as containment | A tool or teacher changes a holon and is read as its part or containing whole. | Use A.3.4, A.15.1, A.12, and the participation or crossing pattern; require a separately obtaining part-whole relation for containment. |
-| Coordination as ownership | A convenient B.1.2 record is treated as the source of all named facts. | Use its subject pattern for every row; select an A.22 `U.Structure` only when the organization changes the decision. |
+| Coordination as ownership | A convenient B.1.2 record is treated as the source of all named facts. | Use its subject pattern for each relation the conclusion needs; select an A.22 `U.Structure` only when the organization changes the decision. |
 

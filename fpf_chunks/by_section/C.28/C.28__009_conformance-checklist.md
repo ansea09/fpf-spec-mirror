@@ -6,12 +6,12 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 71722
-line_end: 71742
+line_start: 71841
+line_end: 71861
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.28:7 - Conformance Checklist
 
-1. The concrete claim and exact causal-use question remain identifiable from entry to the supported statement and its limits.
+1. The outcome, intervention or offered claim and the causal question it raises remain identifiable through to the supported answer and its limits.
 2. Every reference required by the current use resolves to the exact question, target or result defined at :4.0; a sentence-level triage can finish without such references.
 3. Data regime, identification, estimate, sampling realizability, performed sampling evidence, simulation, and transport remain distinct and may be combined.
 4. A downstream decision uses the causal-support result within its stated limits and checks its remaining conditions under the receiving pattern, as required by :4.9.

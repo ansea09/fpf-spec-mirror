@@ -6,12 +6,12 @@ section_id: "B.5.2.1:4"
 section_title: "Solution — NQD-Generate and its C.18 records"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__005_solution-nqd-generate-and-its-c-18-records.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:4 — Solution — NQD-Generate and its C.18 records"
-line_start: 52446
-line_end: 52469
+line_start: 52542
+line_end: 52567
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,6 +41,8 @@ keywords:
 The coordinate entries cite the constituted results used. When illumination is reported, carry IlluminationSummary separately as a report about its declared retained set. Unused optional readings need not be produced. If Use-Value is present, identify its objective or acceptance criterion and scope. For a gain claim, also identify the baseline and comparison or counterfactual Method; for a predicted reading, identify the model edition and assumptions under C.17.
 
 `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the front. `Use-Value` is decision-side/supporting unless the Context declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
+
+**Choosing the spaces for the commission.** A comparison of supplied hypotheses on agreed coordinates can use those inputs directly. If you are asked to design the search, begin with the contrast to be explained. Follow how it could arise, for example within one component, through an interaction, or in the work that produced the observation. Choose operators that can express the resulting alternatives. Could two permissible candidates receive the same proposed scores while explaining different observations or implying different answers to a question the recipient must settle? Preserve the relevant prediction or mechanism in the candidate account. Add a descriptor or comparison coordinate when the archive or the ordering must use the distinction.
 
 **Strategy (notation‑neutral).**
 

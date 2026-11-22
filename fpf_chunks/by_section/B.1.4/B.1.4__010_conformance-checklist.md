@@ -6,12 +6,12 @@ section_id: "B.1.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__010_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:6 — Conformance Checklist"
-line_start: 43841
-line_end: 43851
+line_start: 43849
+line_end: 43859
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -43,5 +43,5 @@ keywords:
 | CC-B1.4-3 | Independence, join, coverage, and overlap-policy conditions are present when the claim uses them. | Keeps local composition reviewable. |
 | CC-B1.4-4 | Method, method-description, work-plan, work-occurrence, work-resource, transformation, and whole-reidentification claims use the patterns that define or test them. | Prevents B.1.4 from absorbing neighboring objects. |
 | CC-B1.4-5 | Mathematical notation is treated as a selected lens or expression, not as the in-life object or relation. | Keeps `Gamma_ctx`, `Gamma_time`, graph, and algebra language bounded. |
-| CC-B1.4-6 | Use stays within the established operation, identity and coverage conditions. When a required condition fails or remains unknown, narrow the result or retain the unresolved conclusion; use the subject pattern for a distinct identity, change or whole-reidentification question. | Preserves stops without requiring a stronger claim merely to finish an ordinary aggregate. |
+| CC-B1.4-6 | Use stays within the established operation, identity and coverage conditions. For an execution claim, establish the feasibility it requires. A guarantee of delivery also covers timely completion under the promised conditions. When a condition remains open, give any requested conclusion warranted across the admitted cases. Narrow or withhold the part that depends on the missing distinction; use the subject pattern for a distinct identity, change or whole-reidentification question. | Preserves stops without requiring a stronger claim merely to finish an ordinary aggregate. |
 

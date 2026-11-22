@@ -6,12 +6,12 @@ section_id: "E.10.LRN:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__011_consequences-and-reopen-condition.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:9 — Consequences and Reopen Condition"
-line_start: 107253
-line_end: 107260
+line_start: 107375
+line_end: 107382
 dependencies:
   - "A.10"
   - "A.15"

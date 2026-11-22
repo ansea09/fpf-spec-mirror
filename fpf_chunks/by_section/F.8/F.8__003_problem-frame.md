@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:1 — Problem Frame"
-line_start: 129310
-line_end: 129315
+line_start: 129432
+line_end: 129437
 dependencies:
   - "A.11"
   - "A.15"

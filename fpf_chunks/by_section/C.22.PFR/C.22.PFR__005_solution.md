@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 66294
-line_end: 66500
+line_start: 66408
+line_end: 66614
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -183,9 +183,9 @@ Use `[adverseEpisodeStart, open]` only in a current claim whose evidence support
 
 A current assertion or description distinguishes three cases in ordinary words:
 
-- **supported current:** the evidence supports continuous adverse obtaining from the episode's actual inception through the stated reference time; publish `[adverseEpisodeStart, open]`;
-- **supported closed:** the evidence supports actual cessation at an exact boundary; publish `[adverseEpisodeStart, adverseEpisodeEnd]` for the same occurrence reference;
-- **continuity unresolved:** the available evidence does not decide whether an unobserved cessation or restart occurred; retain the recoverable earlier occurrence reference and the supported segments, but assert neither one continuous occurrence nor two occurrences across the gap.
+- **Current adversity.** Report adversity at the reference time when the observations and criterion establish it. Publish `[adverseEpisodeStart, open]` when the start and continuity of this occurrence through the reference time are also supported.
+- **Established cessation.** Report cessation and whatever bounds the evidence establishes for its time. If the condition was adverse at 09:00 and non-adverse at 11:00 while the criterion continued to apply, the 09:00 episode had ended by 11:00. Publish `[adverseEpisodeStart, adverseEpisodeEnd]` when both endpoints are established for that occurrence.
+- **Unresolved continuity.** When a gap could contain cessation and restart, retain the known occurrence reference and supported segments. State which claims about the gap remain open.
 
 Later evidence may revise the assertion, including its claimed start, end, or continuity, without creating or changing the world-side episode. If it supports an earlier actual cessation, complete the extent of the earlier occurrence at that boundary. If it also supports later renewed adverse truth, identify the later occurrence from its own actual inception. Until that distinction is supported, do not attach the later adverse segment to either the old or a new occurrence by default.
 

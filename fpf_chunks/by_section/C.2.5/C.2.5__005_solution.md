@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 56373
-line_end: 56423
+line_start: 56481
+line_end: 56531
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,7 +44,7 @@ A closure assessment states the fixity and its grounds. Claims about a binding r
 
 #### C.2.5:4.5 - Recover the choice before assigning a level
 
-Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
+Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change. If every remaining explanation calls for the same action, that action may be settled while its explanation remains open. Results for a supplied list establish what follows within it. To extend the conclusion, establish that the list covers the admissible ways or give an argument that also governs ways omitted from it.
 
 Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
 

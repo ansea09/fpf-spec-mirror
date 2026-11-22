@@ -6,12 +6,12 @@ section_id: "G.Core:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:12 — Relations"
-line_start: 135862
-line_end: 135886
+line_start: 135984
+line_end: 136008
 dependencies:
   - "A.15.3"
   - "A.19"

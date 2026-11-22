@@ -6,12 +6,12 @@ section_id: "B.5.RA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:7 — Conformance Checklist"
-line_start: 50300
-line_end: 50317
+line_start: 50382
+line_end: 50399
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -32,7 +32,7 @@ For the argument and use being recovered:
 3. The needed transitions identify their premises, inference or operation and result.
 4. Joint premises, sufficient alternatives, shared assumptions and temporary assumptions retain their different roles.
 5. The reader can perform the intended use or identify the missing transition or premise that prevents it.
-6. A small instance supports the explanation at its stated scope; a general conclusion has its corresponding reasoning.
+6. A general conclusion has grounds covering its stated domain. Any instance used supports the claim made on its basis.
 7. Further checking is selected for an unresolved question, and adequately supported parts remain reusable.
 
 For an argument using :4.4a, also inspect whether the claims preserve the source's scope, conditions and attribution; a consequential competing reading has been resolved or retained; and the selected scheme fits the offered reasoning. Intermediate conclusions and joint reasons must expose the dependency.

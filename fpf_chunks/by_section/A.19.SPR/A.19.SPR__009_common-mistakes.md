@@ -6,7 +6,7 @@ section_id: "A.19.SPR:7"
 section_title: "Common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__009_common-mistakes.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:7 — Common mistakes"

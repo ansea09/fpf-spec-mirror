@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 109354
-line_end: 110131
+line_start: 109476
+line_end: 110253
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -146,7 +146,7 @@ The card is the publication unit. Its practical-use guidance is what it tells th
 
 When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
-The displayed entries illustrate how the pattern language can help. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+Start with the reader’s question about their own work. The displayed entries illustrate how the pattern language can help. An entry about a familiar activity can still answer a different question. Compare the result its method would supply with what this reader needs to decide, explain or do. Establish whose work the question concerns. Where the answer depends on composition, which parts and which whole does it concern? Where it depends on the model, which differences could change the answer or its grounds? Use C.39.QR:4.1 when a change in the question is hard to see. If the entry supplies just one needed contribution, take that result back to the original question. A general argument within one example can already settle it. Give a direct locator when the reader needs a known section. During open exploration, an example may help the reader form a question for the first time. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
 
 The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
@@ -380,7 +380,7 @@ Where an exact row is used, it carries one result template or public blocker. It
 
 #### E.11:4.4.1 - Practical-use carry-through check
 
-Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
+Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. Read the question the prospective user brings beside the outcome of following the entry. An entry can provide a complete answer, a useful part with a way back to the larger task, or a reason to look elsewhere. Check whether the reader can tell which applies when the topic still sounds familiar but the requested work has changed. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
 
 For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`.
 
@@ -732,7 +732,7 @@ Return to causal support if the estimand, causal rung, identification, realizabi
 | `E11-8` | Author and reader separation | An FPF author or maintainer publishes or refreshes the guidance; a practitioner, manager, or assisting agent reads it and opens a direct pattern without becoming the publisher. |
 | `E11-9` | Plain architectural explanation and local recognition | The architectural reference gives ordinary engineering meaning before strict FPF terms and explains cross-pattern ideas without becoming an index; each pattern's `Problem frame` keeps its own local recognition and first action. |
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, compact locators, and retrieval remain finding aids. A selected card carries practical-use guidance; every substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
-| `E11-11` | Representative public examples | Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help and returns unmatched questions to the index, guide, search, or direct patterns. Any additional coverage correction follows F.19:4.4; an actual product-coverage claim needs its own basis. |
+| `E11-11` | Representative public examples | The reader can judge the entry against the question they brought under §4.1 and §4.4.1. Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help and returns unmatched questions to the index, guide, search, or direct patterns. Any additional coverage correction follows F.19:4.4; an actual product-coverage claim needs its own basis. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, architectural-reference, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
 | `E11-13` | Architectural-reference entry and direct-use bypass | A question about a framework, Suite or Library whole can use its E.11.DSG architectural reference with full source returns; a known sufficient contribution remains directly usable. A Suite entry distinguishes its C.20-grounded constituent subdisciplines from outside suppliers. It does not invent disciplinary membership or imply that a MethodDescription is already an obtained result. |
 | `E11-14` | Honest card selection and distinct objects | Each declared card passes the same-content-without-mantra comparison, and at least one plausible direct entry is checked against the same test. Every card retains a real cross-pattern dependency; local reminders remain outside card selection. Card unit, published guidance, semantic key, selected form, optional expansion, direct pattern, ordinary walkthrough, and independently admitted CGUS demonstration remain distinct. |

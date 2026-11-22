@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.MV.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
-line_start: 60633
-line_end: 60900
+line_start: 60745
+line_end: 61012
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -93,7 +93,7 @@ Compare the feasible alternatives for the same receiving decision. Identify who 
 5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
-8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
+8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Identify who will select the method in use and whether they can distinguish the relevant situations in time to act. For a guarantee, the course selected from the available information must work in every compatible situation covered by the commitment. For a risk-limited commitment, assess the resulting rule against its risk criterion. For an undertaking that covers concurrent work, also establish that the branch choices can be carried out together with the support actually available. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
 9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and any unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves any unresolved trade-off and stopped use without inventing a correction owner.
 

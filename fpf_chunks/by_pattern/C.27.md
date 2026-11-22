@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.27.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
-line_start: 70260
-line_end: 70734
+line_start: 70379
+line_end: 70853
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -55,7 +55,7 @@ keywords:
 
 ### C.27:0 - Use This When
 
-Use this pattern when a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action.
+Use this pattern when you need to establish what a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection or stabilization supports. The assessment can answer a request to explain a temporal pattern or inform what someone will do.
 
 The practical question is:
 
@@ -65,7 +65,7 @@ If the claim is only a state or rate reading and that answers the receiving ques
 
 **What this buys.** The practitioner distinguishes a trend from an intervention model. Braking, pausing, stabilizing, redirecting, coasting, widening, narrowing, or slowing rollout remain available when acceleration would be the wrong move.
 
-**Primary working object.** The temporal claim whose adequacy matters to the receiving action. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
+**Primary working object.** The temporal claim whose adequacy matters to the conclusion, explanation or action the recipient needs. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
 
 When an adequacy assertion is independently identified under C.2.1, its EntityOfConcern is the source episteme or addressed claim, not the reference used to designate it. An ordinary assessment can state its conclusion directly. Publication under E.24.PUB is separate from that claim and identity.
 
@@ -114,7 +114,7 @@ Faster is not automatically better. A temporally adequate claim is not automatic
 
 ### C.27:2 - Forces
 
-1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal-adequacy question can change the receiving action.
+1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal distinction can change what the recipient may conclude, explain or do.
 2. **Effort profiles versus derivative words.** Interventions can be impulses, scheduled pushes, feedback policies, adaptive regimes, brakes, pauses, coasting periods, or redirections. The useful question is what input occurs over which window.
 3. **Domain-specific resistance.** Lag, queue pressure, habit, coordination cost, technical debt, service demand, physical inertia, or another domain-local resistance can matter. None becomes a new mass or force kind.
 4. **Temporal meaning and coupling.** Preserve the temporal claim's bearer, predicate and timing under C.27.TA; add an exact separate reference when needed. Cross-bearer phase, synchronization, coupling or entrainment appears only when the receiving use relies on that relation.
@@ -124,7 +124,7 @@ Faster is not automatically better. A temporally adequate claim is not automatic
 
 ### C.27:3 - Solution
 
-Use the least-committing result that changes the receiving action.
+Establish the temporal conclusion the recipient needs. An explanation of the observed course can be complete even when the same course of action remains appropriate. A recommendation to change that course also needs grounds for the expected effect.
 
 1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
 2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.
@@ -402,13 +402,13 @@ Plain speed, acceleration, effort, inertia, rhythm, agility, process, practice, 
 
 | Check | Requirement |
 | --- | --- |
-| C27-1 | A C.27 result exists only when the temporal distinction changes a practical use. |
+| C27-1 | The temporal distinction matters to the conclusion, explanation or action for which the claim will be used. |
 | C27-2 | The source claim and its subject are recoverable. When its independent identity is consumed, cite the exact episteme or ClaimAddress. |
 | C27-3 | A separately identified adequacy episteme concerns that source episteme or addressed claim; it does not substitute the described subject or reference value. |
 | C27-4 | The positive temporal aspect retains its bearer, predicate, temporal reference and required extent or condition under C.27.TA. A separate exact reference is used only when needed. |
 | C27-5 | Dyn0, Dyn1, and Dyn2 classify claims, not Systems or other world objects. |
 | C27-6 | Ordinary prose or a record supplies the required explanation. A fuller profile adds only the direct-result references and contributions needed by its use. |
-| C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. An unsupported use or reopening condition is stated when it changes the receiving action. |
+| C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. State a limitation or reopening condition when it changes what the recipient may conclude or do. |
 | C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
 | C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim. |
 | C27-10 | A viability use retains the C.26.3 envelope claim and the bearer's direct identity; an exact separate claim reference is added when the receiving use requires it. |

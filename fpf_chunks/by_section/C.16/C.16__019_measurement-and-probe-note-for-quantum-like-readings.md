@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__019_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 61521
-line_end: 61547
+line_start: 61633
+line_end: 61651
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,19 +55,11 @@ keywords:
 
 ### C.16:15a - Measurement and probe note for quantum-like readings
 
-Use C.16 first when the object is a sensor reading, survey response, dashboard value, score, probe result, or state coordinate. Noise, probability, discreteness, gaming, or difficult interpretation does not by itself make a case quantum-like.
+For a sensor indication, survey response, dashboard value, score or model coordinate, establish what the receiving question asks about it. A question about a proposed probe can be answered by a model of what the probe changes. A claim about an observed effect of probe order needs grounds for the performed comparison. For example, if the first survey item reveals information needed to answer the second, their wording and order show how the two administrations differ. Whether that information changed respondents' answers requires evidence about their responses.
 
-Recover the ordinary measurement chain first:
+Use the ordinary subject or measurement account as far as this question requires. For an obtained measurement result, recover the measurand, subject, Scale, Unit where applicable, time, method, model, calibration, actual work and uncertainty that support its interpretation (§5). Distinguish the indication, attributed value and any later verdict. Carry the provenance needed for the specific reliance. For a model prediction, state what follows under its premises.
 
-1. identify the subject and the quantity or other Characteristic measured, then the Scale, value or Level, applicable Unit and time stance. State a preference when the use evaluates the result;
-2. separate reusable method and model from dated work and actual bindings;
-3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
-4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
-5. attach provenance through A.10/G.6 and state the supported and unsupported later uses.
-
-Only after that repair ask whether the probe order, frame, publication, or export changes the state or the inferences that remain admissible. If it does, C.26 may govern that residual contextual or probe-order question. If it does not, remain in C.16 and the ordinary evidence, assurance, or receiving-use patterns.
-
-Minimum probe note:
+When the ordinary account leaves a named contextual or probe-order obstruction that changes an inference or action, C.26 tests its mathematical and practical significance. For a performed measurement that needs an inspectable note, the following fields can record its basis.
 
 | Field | Required content |
 | --- | --- |

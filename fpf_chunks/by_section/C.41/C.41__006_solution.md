@@ -6,12 +6,12 @@ section_id: "C.41:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:4 — Solution"
-line_start: 94009
-line_end: 94055
+line_start: 94131
+line_end: 94177
 dependencies:
   - "A.3.1"
   - "A.3.2"

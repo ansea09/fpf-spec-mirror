@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:4"
 section_title: "Quick worked-slice starter"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__005_quick-worked-slice-starter.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:4 — Quick worked-slice starter"
-line_start: 117233
-line_end: 117244
+line_start: 117355
+line_end: 117366
 dependencies:
   - "A.10"
   - "A.15"

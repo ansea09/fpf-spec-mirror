@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:intro — Intro"
-line_start: 44531
-line_end: 44535
+line_start: 44541
+line_end: 44545
 dependencies:
   - "A.3.1"
   - "B.1.5"

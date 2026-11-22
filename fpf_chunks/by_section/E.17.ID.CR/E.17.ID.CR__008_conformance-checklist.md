@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:7 — Conformance Checklist"
-line_start: 116687
-line_end: 116731
+line_start: 116809
+line_end: 116853
 dependencies:
   - "A.15"
   - "A.15.2"

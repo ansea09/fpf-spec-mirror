@@ -6,12 +6,12 @@ section_id: "B.2.5:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:6 — Conformance Checklist"
-line_start: 46699
-line_end: 46710
+line_start: 46733
+line_end: 46744
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,8 +45,8 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.5-1` | A conforming use names supervised holons and the supervising acting system; it adds the local supervisor system-role kind and assignment only when each independently obtains. |
-| `CC-B2.5-2` | A conforming use names the observation, report, or source side and the influence, constraint, or objective side. It also names the coupling rule, its case facts, common applicability, temporal qualification and evidence that changes the compound claim or its later use. |
+| `CC-B2.5-1` | Identify the supervised holon or holons and the supervising acting system at the scope the receiving use requires. A design states the conditions on which the proposed policy would provide feedback. Add a local supervisor system-role kind and assignment when applicable. |
+| `CC-B2.5-2` | For an actual feedback claim, identify the observation and returned influence, the rule used and the grounds for their coupling over the stated participants and interval. For a proposed policy, explain how the available observation permits the required choice and how the return could reach its recipient in time. |
 | `CC-B2.5-3` | The assertion is the conjunction of observation, return and coupling for every member of a nonempty supervised set. It introduces no fused U.Relation occurrence. Use the applicable mathematics for a loop; C.29 addresses a remaining representation, correspondence, transfer or reliance question. |
 | `CC-B2.5-4` | Observation and influence references retain their kinds; a report episteme, signal occurrence, and source-use relation are not interchangeable. |
 | `CC-B2.5-5` | Parthood, control-structure view, base publication and source-use relations, and the compound feedback assertion are kept separate. Each base occurrence keeps its identity and extent rules. |

@@ -6,12 +6,12 @@ section_id: "E.22:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__009_common-anti-patterns-and-repairs.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:8 — Common anti-patterns and repairs"
-line_start: 122823
-line_end: 122838
+line_start: 122945
+line_end: 122960
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

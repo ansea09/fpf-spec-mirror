@@ -6,12 +6,12 @@ section_id: "B.5.1:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__006_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
   - "B.5.1:5 — Consequences"
-line_start: 51839
-line_end: 51846
+line_start: 51931
+line_end: 51938
 dependencies:
   - "B.3.3"
   - "B.4"

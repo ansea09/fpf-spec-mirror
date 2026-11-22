@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 43379
-line_end: 43521
+line_start: 43385
+line_end: 43529
 dependencies:
   - "A.1"
   - "A.10"
@@ -108,16 +108,18 @@ If the knowledge fold depends on **argument order** (for example, a derivation),
 * **WLNK (Weakest-link bound).** An unsupported indispensable premise limits the conclusion that needs it. A numerical minimum is appropriate only when the named quantity and dependency model justify a bottleneck or lower-bound interpretation. WLNK does not impose minimum over every cited source or every argument.
 * **MONO (Monotonicity).** A monotonicity claim names the support change and the model under which it holds. Duplicate data, a contrary result, a changed target population, or the failure of a necessary assumption is not simply “more support”.
 
-**No universal reliability fold.** B.3 governs the quantity, scale, dependency assumptions, and calculation. For two necessary independent conditions with probabilities 0.9 each, the conjunction has probability 0.81, not 0.9. Without independence, use a warranted conditional model or leave that joint probability unresolved. A minimum or maximum can be useful under its declared meaning; monotonicity and boundedness alone do not establish that meaning.
+**No universal reliability fold.** B.3 governs the quantity, scale, dependency assumptions, and calculation. For two necessary independent conditions with probabilities 0.9 each, the conjunction has probability 0.81, not 0.9. Without independence, these marginals alone bound the conjunction between 0.8 and 0.9. These bounds can settle thresholds on the conjunction itself. For another event whose occurrence requires both conditions, their joint probability supplies an upper bound. A lower bound on the conjunction also bounds success from below if their joint occurrence ensures success. More generally, let L be a lower bound on the probability of both conditions holding and d an upper bound on the probability that both hold and the function still fails. Success has probability at least max(0, L − d). A minimum or maximum can be useful under its declared meaning; monotonicity and boundedness alone do not establish that meaning.
 
 **Formality and calculation.** Ordinal comparisons remain ordinal. A quantitative calculation requires commensurate inputs and a model for the proposed operation, including any mapping loss; a table of numbers alone is insufficient. Formal derivations state their logic and assumptions, and constructive derivations their proof basis. When no common aggregate is justified, a qualitative synthesis can still give a complete, useful answer to a bounded question.
+
+To design the synthesis, first say what could count for or against the requested conclusion. Follow each needed inference to a premise, observation or rule that can supply it. Identify which contributions are semantic parts of the resulting argument and which sources establish or qualify a premise from outside it. A report about a component and a claim about the enclosing system can contribute together when the system's use of that component warrants the inference. Try a different arrangement with the same local finding. If it changes the conclusion, retain the distinguishing condition or limit the inference. End a branch where an applicable source or general argument supplies the required ground. To supply a way of synthesizing future cases, explain how to choose these contributions when the sources or uses differ.
 
 #### B.1.3:4.4 - Core rules for epistemic aggregation (design‑time synthesis)
 
 When computing **Γ_epist^synth(D_know)**:
 
 **1. Provenance preservation.**
-   The **provenance/evidence graph** is **unioned with de‑duplication**; every claim in the aggregate remains traceable to its sources and methods. No source, method, or dataset that supports a retained claim may be dropped.
+   The **provenance/evidence graph** is **unioned with de‑duplication**; every claim in the aggregate remains traceable to its sources and methods. Preserve the material sources and methods on which each retained claim relies, including contrary evidence that bears on it. For a claim about all eligible contributions or about their absence, give the selection rule and establish why a missing contribution cannot change the result. A complete register, an applicable general argument or a sufficient bound can establish that coverage. A question about one documented contribution can be settled by that contribution.
 
 **2. SCR construction.**
    Keep a recoverable account of every material source contribution, method, mapping and dependency. Include carriers and source versions where their identity, currentness, integrity or participation matters to the named use. When that use requires reconstruction of the aggregation, retain the SCR and the information needed for that reconstruction.

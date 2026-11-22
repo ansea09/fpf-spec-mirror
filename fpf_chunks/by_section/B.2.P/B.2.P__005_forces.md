@@ -6,12 +6,12 @@ section_id: "B.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__005_forces.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:3 — Forces"
-line_start: 45605
-line_end: 45614
+line_start: 45629
+line_end: 45638
 dependencies:
   - "A.1.1"
   - "A.10"

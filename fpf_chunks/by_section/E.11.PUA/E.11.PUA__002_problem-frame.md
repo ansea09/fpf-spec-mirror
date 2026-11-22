@@ -6,12 +6,12 @@ section_id: "E.11.PUA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:1 — Problem frame"
-line_start: 110138
-line_end: 110153
+line_start: 110260
+line_end: 110275
 dependencies:
   - "A.13"
   - "A.15"

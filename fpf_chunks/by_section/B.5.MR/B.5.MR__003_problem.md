@@ -6,12 +6,12 @@ section_id: "B.5.MR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__003_problem.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:2 — Problem"
-line_start: 50845
-line_end: 50848
+line_start: 50931
+line_end: 50934
 dependencies:
   - "B.1"
   - "B.5.FM"

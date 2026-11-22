@@ -6,12 +6,12 @@ section_id: "B.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:7 — Conformance Checklist"
-line_start: 45486
-line_end: 45502
+line_start: 45510
+line_end: 45526
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 | --- | --- |
 | `CC-B2-1` | A B.2 use names the receiving claim or use, the existing whole already recognized under an admitted holon kind, its identity rule, current part relations, and kind-specific pattern before declaring whole reidentification. Without an established prior whole, first constitution or recognition returns to A.1 and the applicable subject pattern. |
 | `CC-B2-2` | `MHTTriggerProfile` is a `U.Episteme` with the existing whole as EntityOfConcern and typed content references. |
-| `CC-B2-3` | The ordinary existing-whole comparison precedes MHT and distinguishes a supported same-whole explanation, established insufficiency, and an unresolved comparison as in :4.2. An optional `ExistingWholeExplanationResult` episteme is created only when a receiving use must inspect or cite its explanations, evidence, and sufficiency verdict. |
+| `CC-B2-3` | A prospective comparison states the conditions under which the proposed arrangement would preserve or change whole identity. An actual MHT claim requires the prior and resulting whole and their grounds. The ordinary existing-whole comparison precedes that claim and distinguishes a supported same-whole explanation, established insufficiency, and an unresolved comparison as in :4.2. An optional `ExistingWholeExplanationResult` episteme is created only when a receiving use must inspect or cite its explanations, evidence, and sufficiency verdict. |
 | `CC-B2-4` | `HolonReidentificationRecord` is a `U.Episteme` with one `resultHolonRef` for the established new whole, one reference to its admitted public kind, the whole-reidentification claim, direct evidence and subject-pattern references, and only an optional C.2.1 classification-assertion reference when a person or system performing later work needs to inspect or cite that judgment. |
 | `CC-B2-5` | Agency-threshold claims use the characteristic-space and threshold patterns; B.2 uses them when they raise a consequential whole-reidentification question. The admitted System and characteristic are recovered independently of any optional local system-role classification or assignment, including when the System participates passively. |
 | `CC-B2-6` | Acting-system participation and transformation use A.12 and A.3.4. |

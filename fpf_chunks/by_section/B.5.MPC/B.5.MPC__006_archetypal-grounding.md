@@ -6,12 +6,12 @@ section_id: "B.5.MPC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:5 — Archetypal Grounding"
-line_start: 49248
-line_end: 49392
+line_start: 49331
+line_end: 49475
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -88,7 +88,7 @@ A designer asks whether every gear in a connected arrangement can rotate while a
 
 Construct a finite undirected graph. A vertex represents one gear and an edge represents one of the stipulated external meshes. Assign colour 0 to one rotation direction and colour 1 to the other. An edge requires different colours at its endpoints. This expression makes the physical question a mathematical one: can the vertices be assigned two colours while satisfying every edge?
 
-The graph records contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If a contact is absent from the list, the result answers only the incomplete list.
+The graph records contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If some contacts are unknown, an odd cycle of established external meshes already rules out nonzero rotation of the gears in that cycle under the stated conditions. Additional meshes cannot remove that obstruction. A colouring of the known edges establishes compatible directions for those edges. To extend it to the entire arrangement, establish that all remaining meshes permit compatible directions, for example from a rule about how the two groups may mesh.
 
 Obtain either a colouring or a witness of failure by the following procedure.
 

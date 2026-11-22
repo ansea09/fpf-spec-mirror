@@ -6,12 +6,12 @@ section_id: "E.17.0:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:5 — Worked cases"
-line_start: 113892
-line_end: 113923
+line_start: 114014
+line_end: 114045
 dependencies:
   - "A.22"
   - "A.6.3"

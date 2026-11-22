@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 69559
-line_end: 69778
+line_start: 69676
+line_end: 69895
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,15 +24,6 @@ dependencies:
   - "E.17.EFP"
   - "F.9"
 keywords:
-  - "coordinated work"
-  - "distributed-state evidence"
-  - "enacted state"
-  - "evidence carrier"
-  - "minimal state reading"
-  - "no group mind"
-  - "report/export loss"
-  - "rival explanation"
-  - "window"
 ---
 
 ### C.26.2:4 - Solution
@@ -75,7 +66,7 @@ Full EDSE record:
 | Evidence carriers | Which logs, trace records, commitment records, artifacts, dashboards, API responses or documents support the reading? |
 | Probe or measurement approximation | Which survey, dashboard, API read, interview, trace query, metric, or publication approximates the state, and how may that probe change, thin, or frame the state reading? |
 | Attempted export and faithful-enough criterion | What export was attempted, and what would count as faithful enough for the current decision? |
-| Loss cause and higher-fidelity export | Why is the current export not faithful enough, and could a more discriminating probe, bridge, representation, or time window produce a higher-fidelity export? |
+| Loss cause and higher-fidelity export | Does the available account preserve what this use requires? If a consequential distinction was lost, what caused the loss, and which observation or representation could recover it? |
 | Time window | During which window does the claim hold? |
 | Persistence posture | Is the reading momentary, recurring, stabilized for the incident/release/window, or expected to persist under stated conditions? |
 | Decay and refresh condition | What would make the reading expire, refresh, lose support, or need a new probe? |

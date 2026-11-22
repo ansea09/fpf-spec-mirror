@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 59316
-line_end: 59775
+line_start: 59428
+line_end: 59887
 dependencies:
   - "A.10"
   - "A.13"
@@ -85,7 +85,7 @@ Apply the `ChoiceRule` to the available `OptionSet`. A completed comparison yiel
    Distinguish the chooser from participants who provide evidence, advice or execution. Use `A.13` for a disputed claim about agency and the applicable assignment or mandate for a claim about who can decide.
 
 2. **Freeze the current option set.**
-   State the already-available options being compared now as one `OptionSet`.
+   Establish which alternatives the commission allows and which it asks you to compare. Use the available alternatives in the current comparison as one `OptionSet`. A choice among the offers received can close on those offers. For a claim about the whole permitted domain, establish what an omitted option could change. One offer shown to meet the requirements can settle a request for a workable option. To claim a greatest option under the governing preference, establish that it is at least as preferred as every eligible alternative. Under a partial order an eligible option is nondominated when no eligible alternative strictly dominates it. To name all options attaining a best value, account for other alternatives that could tie.
    If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. Use `C.39` when a way to obtain the result still needs explanation, or `C.40` when usable material needs feasible variation and examination. Use `C.18` when generation-account or archive/front claims are needed.
 
 3. **Make the comparison basis explicit.**

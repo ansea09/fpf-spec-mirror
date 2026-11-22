@@ -6,7 +6,7 @@ section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"

@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 110850
-line_end: 111090
+line_start: 110972
+line_end: 111212
 dependencies:
   - "A.10"
   - "A.15"

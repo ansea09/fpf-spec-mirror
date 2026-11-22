@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 46165
-line_end: 46236
+line_start: 46195
+line_end: 46266
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,7 +82,7 @@ Under the assumption Ack(r), Q gives both storage conditions and L gives Recover
 
 E1 therefore satisfies the displayed A.1 grounds and C.2.1 constitution and meets the receiving need. If later work needs a reidentification record, `resultHolonRef` names E1 and `resultHolonKindRef` names `U.Episteme`. The record and any classification assertion concern E1; Q concerns S.
 
-The logical construction establishes the conditional derivation, not the truth of P, T, or L for a real deployment. A use that must rely on those service claims needs their grounds and any assurance required under B.3.
+The logical construction establishes the conditional derivation, not the truth of P, T, or L for a real deployment. A use that must rely on those service claims needs their grounds and any assurance required under B.3. When the question is whether the stated derivation is available, the displayed construction settles it. In another doctrine whose interpreted premises already entail Q, a request to derive Q can be met from those premises. For assurance about one actual request, an applicable record establishing the acknowledged payload at both stores may already suffice. Neither conclusion establishes that a particular operator consulted the doctrine. That historical question turns on evidence of its use.
 
 **Change the interpretation condition.** Suppose the supplied candidate uses G1 with the complete R0, whose declared vocabulary has no interpretation of `ReplicaStored`. The proposed `<G1, S, R0>` fails constitution: its scheme cannot interpret the whole graph. Supply a scheme that does interpret it and identify the resulting episteme.
 

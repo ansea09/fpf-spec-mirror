@@ -6,12 +6,12 @@ section_id: "B.4.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__002_problem-frame.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:1 — Problem frame"
-line_start: 47968
-line_end: 47972
+line_start: 48038
+line_end: 48042
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,7 +34,7 @@ keywords:
 ---
 
 ### B.4.1:1 - Problem frame
-**Use this when.** A stabilized cue has possible continuations that a recipient needs to compare, or a route choice needs to be published. State the candidate routes and any justified selection without presenting the cue as an established anomaly, action claim, or hypothesis.
+**Use this when.** A recipient needs a publication of possible continuations from a stabilized cue, or needs to receive a route choice with its grounds. Start with the action or question the cue bears on. An operator who only needs to choose a next action can use the reasoning in §4 and act within their authority. A promise to publish the recommendation also requires making it available as agreed.
 
-Routing begins **after cue stabilization**, with `PreArticulationCuePack` or an equivalent early form under `A.16`. Cue preservation may exist before routing. `B.4.1` begins only when publishing the routes becomes worthwhile.
+The publication in `B.4.1` starts from a stabilized cue preserved in `PreArticulationCuePack` or an equivalent early form under `A.16`. Its grounds may suffice for action while the cause of the cue remains open. Keep an established anomaly, action claim or hypothesis under its own subject pattern.
 

@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 133171
-line_end: 133936
+line_start: 133293
+line_end: 134058
 dependencies:
   - "A.1.1"
   - "A.10"

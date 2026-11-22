@@ -6,12 +6,12 @@ section_id: "F.18:6"
 section_title: "What Belongs In The Label"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__008_what-belongs-in-the-label.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:6 — What Belongs In The Label"
-line_start: 134734
-line_end: 134743
+line_start: 134856
+line_end: 134865
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 45381
-line_end: 45475
+line_start: 45405
+line_end: 45499
 dependencies:
   - "A.1"
   - "A.10"
@@ -111,7 +111,7 @@ A.1 recognition additionally requires the cell's boundary, interfaces, relevant 
 
 Replacing Pump #37's seal is an ordinary constituent change when the pump's reidentification rule admits that maintenance phase. The same pump remains the EntityOfConcern; use the maintenance, part-relation, work, transformation, and characteristic patterns and stop B.2.
 
-Closing a controller-sensor-actuator loop can yield a new regulated-system whole only when the candidate assembly, supervision and coordination relations, boundary, objective, whole-level capability, admitted `U.System` kind, and reidentification rule satisfy A.1 and the system criterion.
+In the closed-loop case in :5.1, the claim concerns a regulated system with a stated objective. To identify an actual new system, establish why the prior configuration no longer carries that claim and how the organized sensor, controller, actuator and plant together satisfy A.1 and the `U.System` criterion. Ground the objective, the supervision and the capability required by this case under their own predicates.
 
 Its boundary, interfaces, relevant characteristics, and identity-preservation conditions must also satisfy at least one applicable governed larger-assembly construction method or rule under which the regulated system can remain a constituent. If that condition fails, the candidate fails A.1; if the needed evidence or dependency is unavailable, evaluation returns `unknown`.
 
@@ -137,7 +137,7 @@ The supported criterion therefore follows continuity of the installed assembly a
 
 Now inspect the change. The base, guards and fixtures remain; the replacement robot fits the specified connections; the required connection checks pass; supervision transfers through the retained interface. Under the recovered criterion, the replacement is an admitted constituent change of the same cell. In :4.2, that supported maintenance explanation is sufficient, so keep the cell and update the changed component and responsibility claims under their subject patterns. The scheduling account can separately change its resource membership.
 
-Change the conditions. If the commissioned installation is dismantled and an independently assembled cell supplies the same output elsewhere, output recovery leaves the earlier installation's continuity unestablished. Recover the new assembly and its identity grounds under A.1 before claiming a new whole.
+Change the conditions. If the governing criterion requires continuity of the installed assembly, and that assembly was dismantled, it no longer continues under that criterion. Another installation achieving the same output can meet a production target. For a claim about which installation supplied it, establish the new assembly and its link to the production history. For a proposal to preserve output after dismantling, the engineer can instead design the new arrangement and show what it would supply under its stated conditions. Realization and production remain separate claims.
 
 If only output logs are available and the construction and maintenance grounds cannot be recovered, state the missing connection: whether the change preserves the installed organization under an applicable lifecycle rule. Retain the conditional identity alternatives. The logs can still support their bounded production claims.
 

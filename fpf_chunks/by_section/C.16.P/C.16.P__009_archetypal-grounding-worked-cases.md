@@ -6,12 +6,12 @@ section_id: "C.16.P:7"
 section_title: "Archetypal Grounding - Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__009_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:7 — Archetypal Grounding - Worked cases"
-line_start: 62346
-line_end: 62360
+line_start: 62450
+line_end: 62464
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,7 +40,7 @@ keywords:
 | "Latent axis explains behavior." | Recover whether `axis` is a latent coordinate, factor, mathematical lens, characteristic, or ordinary source-local word. Use `C.29` when choosing, transferring or relying on the mathematical representation leaves an unresolved question. |
 | "The benchmark proves the method is better." | Recover benchmark harness, characteristic space, comparison set, scale, statistical or evidential claim, and decision use. Use the patterns governing the evidence, decision and work claims as needed. |
 
-**Worked comparison.** A report calls a new implementation “stronger.” Its supplied observations concern response time in four matched workload cases under the same conditions. Response time is elapsed duration on a ratio Scale, expressed in milliseconds. The earlier times are 80, 100, 120 and 140 ms; the new times are 70, 90, 110 and 130 ms. Both sets of times are summarized by the median, defined here as the mean of the two middle ordered values. The respective medians are 110 and 100 ms.
+**Worked comparison.** A report calls a new implementation “stronger.” The receiving question is how typical response time changed across four specified, matched workloads. The agreed summary is the median, here the mean of the two middle ordered times. Response time is elapsed duration on a ratio Scale. The earlier times are 80, 100, 120 and 140 ms. The corresponding new times are 70, 90, 110 and 130 ms. For these four cases, median response time fell from 110 to 100 ms.
 
-The supported rewrite is: “For these four matched workload cases, median response time fell by 10 ms, from 110 to 100 ms.” Together with the stated median rule, it identifies the Characteristic, Unit, comparison set and aggregation operation and can finish the wording repair. It supplies no comparison for other workloads. If a receiving criterion requires median response time at most 105 ms on these cases, the new value satisfies that numerical condition. Any other release conditions remain separate. If the new trials used different workload cases, the original comparison would need an account of their comparability before supporting the same claim.
+If the requirement is a median of at most 105 ms on these cases, the new result meets it. If **each** case must finish within 105 ms, the 110 and 130 ms cases violate it, even though every paired case was 10 ms faster. The same records settle both questions. They provide no comparison for other workloads without grounds for transfer. A change in the tested workload mix would also require grounds for comparing the two editions.
 

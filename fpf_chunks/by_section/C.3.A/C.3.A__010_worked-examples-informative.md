@@ -6,12 +6,12 @@ section_id: "C.3.A:9"
 section_title: "Worked examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__010_worked-examples-informative.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:9 — Worked examples (informative)"
-line_start: 58952
-line_end: 58965
+line_start: 59064
+line_end: 59077
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -39,9 +39,9 @@ Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; 
 
 **E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored.
 
-Plant-B evaluates its vehicle candidate under that target edition; the source result is only support. The receiving R assessment accounts for the collapsed EV/ICE distinction when it affects the relied-on claim; the bridge rating alone supplies no numerical decrement.
+Plant B evaluates the candidate under its target edition. Suppose the source rule requires every mapped vehicle to carry the same identifier. It can apply where the mapping covers the target units and preserves that identifier requirement. A source rule specific to battery-electric vehicles needs to distinguish those vehicles. If Plant B's classification combines them with vehicles powered only by combustion, establish the propulsion type from another admissible source or restrict the rule to a supported subset. The `CL^k` rating alone supplies neither this distinction nor a numerical R decrement.
 
-**E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, unavailable key-validation support yields target `unknown`; the consumer refuses without asserting that the request is known unauthenticated.
+**E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, suppose the other grounds establish neither the required condition nor its failure. If key-validation support is unavailable, the target judgement is `unknown` and the consumer refuses. An established failure of another necessary condition would already settle the target judgement as `false`.
 
-**E4 — Masked clinic use.** The guard designates the exact `AdultPatient@Clinic` RoleMask declaration, base signature edition, patient candidate, and slice. Unavailable date-of-birth support yields `unknown`; the mask label and EHR row do not classify the patient.
+**E4 — Masked clinic use.** The guard designates the exact `AdultPatient@Clinic` RoleMask declaration, base signature edition, candidate and slice. The mask label and a record entry can identify them. Age classification requires evidence for the applicable criterion. Suppose age of at least 21 is required. A verified age of at least 22 at that time satisfies the age condition. If the available record establishes only age of at least 18 and both 20 and 22 remain possible, the age condition is `unknown`.
 

@@ -6,12 +6,12 @@ section_id: "B.1.4:4"
 section_title: "Admissible Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__007_admissible-checks.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:4 — Admissible Checks"
-line_start: 43778
-line_end: 43815
+line_start: 43786
+line_end: 43823
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -52,7 +52,7 @@ For temporal aggregation:
 - a changed identity is represented as a distinct input when appropriate, rather than hidden as another phase of the same carrier;
 - work-resource claims use `B.1.6`; positive temporal-aspect claims use `C.27.TA`, while a separate temporal-claim adequacy question uses `C.27`. Currentness uses `G.11`, and `A.10` recovers provenance and bounded reliance when needed.
 
-**B.1 invariant carry-through.** Apply an algebraic law only when the recovered relation and selected operator justify it. A unique computed contextual result requires the operation, permitted order and join or independence conditions to determine that result. If admissible orders give different outcomes, retain the supported alternatives or establish the additional ordering or selection needed by the use. An order structure can be a sufficient aggregate without asserting a unique execution outcome.
+**B.1 invariant carry-through.** Apply an algebraic law only when the recovered relation and selected operator justify it. A unique computed contextual result requires the operation, permitted order and join or independence conditions to determine that result. Before promising an execution or its result, establish that the applicable constraints admit an execution. When admissible orders give different values, check the requested conclusion across them. A bound on all returned values can establish a condition on those values. For a promise to deliver the result by a deadline, also establish timely completion under the choices the promise covers, using a feasible decision rule if those choices are entrusted to the performer. To refute a guarantee with an adverse order, establish that the order can occur. For an exact value, retain the supported alternatives or establish the additional ordering or selection that determines it. An order structure can be a sufficient aggregate without asserting a unique execution outcome.
 
 Temporal aggregation follows its selected rule, temporal reference, coverage and overlap policy; one-carrier continuity is additionally required by the proper-phase profile.
 

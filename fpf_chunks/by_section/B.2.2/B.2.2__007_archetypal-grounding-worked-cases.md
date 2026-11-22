@@ -6,12 +6,12 @@ section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 45955
-line_end: 45981
+line_start: 45981
+line_end: 46009
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,6 +64,8 @@ Use B.2.2 when B.2 identifies the operating platform as the candidate new whole 
 #### B.2.2:5.3 - Production Cell
 
 A proposed production cell has a machine, robot, fixture, workpiece carrier, and inspection station as candidate constituents. Apply :4.1 to recognize the whole. For the operating-cell case, separately establish its delimitation, objective, coordination relations, transformation structure, Work occurrences, and capability envelope, with evidence for those claims.
+
+Suppose the order asks for inspected workpieces by closing time. An available outside station with an assured handoff and enough time for inspection and delivery can supply a viable route. This can finish a request to choose a route. An order for inspected workpieces is fulfilled when the agreed inspection and delivery have taken place by closing time. If the order also requires a cell that retains inspection while the outside station is unavailable, work back from that use to the provision for inspection under those conditions. An installed station is one possibility. Determine its interfaces and the assembly relations that would make it part of this cell. A plan for the installation gives a conditional design result. A claim that this cell did the inspection requires grounds for what happened on the order.
 
 A fixture being manufactured as a workpiece is not part of the machine merely because the machine changes it. The production cell claim needs a result system; the manufacturing relation remains transformation and work.
 

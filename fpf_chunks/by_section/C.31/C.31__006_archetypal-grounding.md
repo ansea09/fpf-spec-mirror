@@ -6,12 +6,12 @@ section_id: "C.31:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:5 — Archetypal Grounding"
-line_start: 79045
-line_end: 79058
+line_start: 79159
+line_end: 79172
 dependencies:
   - "A.10"
   - "A.17"

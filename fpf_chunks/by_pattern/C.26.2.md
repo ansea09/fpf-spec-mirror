@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 69514
-line_end: 69861
+line_start: 69631
+line_end: 69978
 dependencies:
   - "A.10"
   - "A.15"
@@ -23,15 +23,6 @@ dependencies:
   - "E.17.EFP"
   - "F.9"
 keywords:
-  - "coordinated work"
-  - "distributed-state evidence"
-  - "enacted state"
-  - "evidence carrier"
-  - "minimal state reading"
-  - "no group mind"
-  - "report/export loss"
-  - "rival explanation"
-  - "window"
 ---
 
 ## C.26.2 - Enacted Distributed State Evidence
@@ -42,7 +33,7 @@ keywords:
 
 ### C.26.2:1 - Problem frame
 
-Use this pattern when coordinated work, behavior, or trace patterns give evidence that a team, organization, service mesh, market, or other collective system is acting from a state that no single participant report, survey, policy sentence, dashboard, or API export faithfully carries.
+Use this pattern when you need to establish how a collective system acted from what its parts did and how their actions were connected. A single incident record can show one team sending a particular item and another receiving it. Several reports of activity can leave that same handoff open. Recover the actions and relations the claim requires, wherever their evidence is recorded.
 
 The pattern supports a bounded claim about the collective's current organization or behavior from the evidence available across its parts. Distinguish what those observations establish about the state from what explains its occurrence, and preserve uncertainty in either question.
 
@@ -119,7 +110,7 @@ Full EDSE record:
 | Evidence carriers | Which logs, trace records, commitment records, artifacts, dashboards, API responses or documents support the reading? |
 | Probe or measurement approximation | Which survey, dashboard, API read, interview, trace query, metric, or publication approximates the state, and how may that probe change, thin, or frame the state reading? |
 | Attempted export and faithful-enough criterion | What export was attempted, and what would count as faithful enough for the current decision? |
-| Loss cause and higher-fidelity export | Why is the current export not faithful enough, and could a more discriminating probe, bridge, representation, or time window produce a higher-fidelity export? |
+| Loss cause and higher-fidelity export | Does the available account preserve what this use requires? If a consequential distinction was lost, what caused the loss, and which observation or representation could recover it? |
 | Time window | During which window does the claim hold? |
 | Persistence posture | Is the reading momentary, recurring, stabilized for the incident/release/window, or expected to persist under stated conditions? |
 | Decay and refresh condition | What would make the reading expire, refresh, lose support, or need a new probe? |
@@ -354,7 +345,7 @@ The cost is that many claims become narrower. Minimal evidence-bound claims are 
 
 ### C.26.2:10 - Rationale
 
-Existing FPF patterns can carry parts of the support requirement, but no single ordinary pattern makes the combined minimal distributed-state claim easy to write. `A.15` carries Work alignment, `A.10` carries source-to-use evidence accounts, `B.3` carries named assurance claims, `F.9` carries cross-context semantic Bridge loss, and `C.16` carries formal measurement. C.26.2 coordinates those neighboring-pattern applications for the specific case where coordinated work evidences a non-articulated state.
+Existing FPF patterns can carry parts of the support requirement, but no single ordinary pattern makes the combined minimal distributed-state claim easy to write. `A.15` carries Work alignment, `A.10` carries source-to-use evidence accounts, `B.3` carries named assurance claims, `F.9` carries cross-context semantic Bridge loss, and `C.16` carries formal measurement. C.26.2 uses those contributions to establish what the actions of the parts and their connections show about the collective system. A report that already establishes the needed connection can supply that evidence directly.
 
 ### C.26.2:11 - SoTA-Echoing
 

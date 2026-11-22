@@ -6,12 +6,12 @@ section_id: "B.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:7 — Conformance Checklist"
-line_start: 43062
-line_end: 43072
+line_start: 43066
+line_end: 43076
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,7 +33,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1.1-1` | A dependency claim names the relation kind before graph notation is relied on. |
+| `CC-B1.1-1` | The selected participants, relations and any transfer from a representation support the stated conclusion. For a proposed arrangement the result identifies its assumptions. For an actual-dependency claim the relevant relations are established. |
 | `CC-B1.1-2` | Graph, matrix, table and diagram wording distinguishes a representation from the organization it represents. When the receiving claim selects the representation's organization as a U.Structure, identify that separate organization by the four A.22 discriminators. |
 | `CC-B1.1-3` | Part-whole edges use A.14 and C.13 discipline. |
 | `CC-B1.1-4` | Boundary-crossing, transformation, evidence, source-use, publication-use, and representation relations are not recast as parthood. |

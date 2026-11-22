@@ -6,12 +6,12 @@ section_id: "C.39.WI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:5 — Archetypal Grounding"
-line_start: 88744
-line_end: 88841
+line_start: 88866
+line_end: 88963
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

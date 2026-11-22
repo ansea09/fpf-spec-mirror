@@ -6,12 +6,12 @@ section_id: "B.4.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:7 — Conformance Checklist"
-line_start: 48082
-line_end: 48089
+line_start: 48156
+line_end: 48163
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,8 +35,8 @@ keywords:
 
 ### B.4.1:7 - Conformance Checklist
 - `CC-B.4.1-1` Observe output **SHALL NOT** be forced into `AnomalyStatement` when articulation threshold is not met.
-- `CC-B.4.1-2` A routed cue set **SHALL** name its `candidateRouteSet`.
-- `CC-B.4.1-3` When route selection occurs, `routeDecision`, `selectedRoute`, and `routeRationale` **SHALL** be explicit.
+- `CC-B.4.1-2` A routed cue set **SHALL** name its `candidateRouteSet` and explain how the stated continuations serve the receiving question in the applicable conditions. Support any claim of completeness. One justified route may suffice for a request for one continuation.
+- `CC-B.4.1-3` A published selection **SHALL** identify the selected route and whose decision it was. For a past selection, state the grounds for attributing it to that person or system. Report their rationale when the evidence establishes it, and identify any rationale still unknown. A recommendation supplied by the author gives the author’s grounds. When publication is part of the assignment, establish availability to its intended recipients.
 - `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named. The expression **SHALL** satisfy the route-form requirements as well as the presentation rules of any selected MVPK face.
 - `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** be treated as establishing a late endpoint result.
 - `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.

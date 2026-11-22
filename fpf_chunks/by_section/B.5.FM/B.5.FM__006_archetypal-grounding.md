@@ -6,12 +6,12 @@ section_id: "B.5.FM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:5 — Archetypal Grounding"
-line_start: 50692
-line_end: 50757
+line_start: 50778
+line_end: 50843
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -86,7 +86,7 @@ Twelve people have accepted a 60-minute workshop. There are twelve seats and one
 
 Use the relation between attempted action, observation and feedback to ask whether the intended practice can occur in the session. The sequential arrangement requires `12 * (4 + 2) = 72` minutes before any introduction. The next question is which arrangement can supply the intended practice and feedback within the available time. Reducing attendance, increasing duration or changing the learning arrangement have different consequences. Merely pairing learners supplies the required feedback only if they can provide that contribution.
 
-Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
+Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. If the order allows station feedback and each station supplies the four-minute attempt and two-minute feedback in parallel with the others, assign one learner to each station for the same six minutes. Compare the remaining activities with the 54 minutes available. If the order specifies observation by the instructor, feedback from the stations alone leaves that part of the order open. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
 
 The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
 

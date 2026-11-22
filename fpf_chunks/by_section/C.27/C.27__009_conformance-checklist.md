@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 70611
-line_end: 70629
+line_start: 70730
+line_end: 70748
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -52,13 +52,13 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| C27-1 | A C.27 result exists only when the temporal distinction changes a practical use. |
+| C27-1 | The temporal distinction matters to the conclusion, explanation or action for which the claim will be used. |
 | C27-2 | The source claim and its subject are recoverable. When its independent identity is consumed, cite the exact episteme or ClaimAddress. |
 | C27-3 | A separately identified adequacy episteme concerns that source episteme or addressed claim; it does not substitute the described subject or reference value. |
 | C27-4 | The positive temporal aspect retains its bearer, predicate, temporal reference and required extent or condition under C.27.TA. A separate exact reference is used only when needed. |
 | C27-5 | Dyn0, Dyn1, and Dyn2 classify claims, not Systems or other world objects. |
 | C27-6 | Ordinary prose or a record supplies the required explanation. A fuller profile adds only the direct-result references and contributions needed by its use. |
-| C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. An unsupported use or reopening condition is stated when it changes the receiving action. |
+| C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. State a limitation or reopening condition when it changes what the recipient may conclude or do. |
 | C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
 | C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim. |
 | C27-10 | A viability use retains the C.26.3 envelope claim and the bearer's direct identity; an exact separate claim reference is added when the receiving use requires it. |

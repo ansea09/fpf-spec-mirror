@@ -6,12 +6,12 @@ section_id: "C.24:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_consequences.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:9 — Consequences"
-line_start: 68075
-line_end: 68078
+line_start: 68190
+line_end: 68193
 dependencies:
   - "A.10"
   - "A.15"

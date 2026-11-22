@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.20.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
-line_start: 64935
-line_end: 65348
+line_start: 65044
+line_end: 65461
 dependencies:
   - "A.1"
   - "A.14"
@@ -32,14 +32,6 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "DisciplinePartOfRelation"
-  - "assembly"
-  - "composition-grounded characteristic"
-  - "discipline construction"
-  - "exact constituents"
-  - "practice-and-knowledge whole"
-  - "reidentification"
-  - "whole-forming claims"
 ---
 
 ## C.20 - Composition of `U.Discipline` (Discipline-CAL)
@@ -51,7 +43,9 @@ keywords:
 
 ### C.20:0 - Use This When
 
-Use this pattern when a team needs to decide whether a field is one durable practice-and-knowledge whole rather than a label or collection. Typical moments include:
+Use this pattern to establish what makes an existing field a discipline, to design the connection between knowledge and practice in a proposed field, or to maintain that connection as the field changes. Begin with the work the discipline is meant to sustain. Practitioners may be producing something, investigating a phenomenon, or keeping an activity effective over time. What must they understand to do that work, and how can the results of their work test or improve that understanding?
+
+Typical moments include:
 
 - comparing rival traditions without letting a shared label, Bridge or comparison table merge them;
 - reusing a practice across semantic localities while preserving local meanings, direction, tolerated loss and field boundaries;
@@ -61,7 +55,7 @@ Use this pattern when a team needs to decide whether a field is one durable prac
 
 **Primary EntityOfConcern.** One exact `U.Entity` candidate being tested for recognition as `U.Discipline`. The candidate is recoverable before the classification result.
 
-**First useful move.** Name the exact candidate and two independently identified candidate parts: at least one making a knowledge-bearing contribution and at least one making a reusable-practice contribution. Then state why each direct part relation obtains and one whole-forming fact that couples the two contributions. Do this before letting the discipline name support a comparison, selector or dispatcher, health or maturity claim, transport, or edition decision. If those facts are unavailable, retain the supported account of separately governed objects or their collection and leave the discipline claim unresolved.
+**First useful move.** What does the proposed field enable practitioners to do or explain? Start with a problem the field is meant to address. Trace the knowledge that guides how practitioners address it and the reusable practice through which results can challenge that knowledge. This gives you candidates for both kinds of contribution. A field may also use a result supplied from outside. To distinguish the two, establish which contribution the field's own practice requires or currently realizes as an admitted alternative and how it connects to the others. For recognition of the discipline, test the exact candidate and its independently identified parts under section 4.1. A narrower question about one use can be settled by the grounds for that use.
 
 **What goes wrong if missed.** A field name starts doing the work of a canon, method repertoire, institution, bridge, comparison policy, and maturity score at once. The reader may then treat a card or graph as establishing parts, or treat changes to a journal, standard, method list, or dashboard as establishing a new discipline. Cross-locality reuse can also look valid after local meanings, evidence lanes, or comparison rules have drifted.
 
@@ -146,7 +140,7 @@ Multiple contribution claims for the same part do not create several part occurr
 
 #### C.20:4.3 - State whole-forming claims before choosing notation
 
-Part relations alone do not make one discipline. State the field assembly in ordinary domain language:
+Work from the field question to the contributions that can answer it. Which distinctions in the knowledge change a practitioner's investigation or intervention? What result of doing that work can count against a claim or lead to its revision, and how would practitioners recognize it? A trace through one investigation can identify a coupling. For an account of the whole field, explain how the coupling holds over the intended work or recover the further contributions and connections that work needs. Where practitioners use an outside result, establish separately whether the knowledge or method that supplied it belongs to their field. For a proposed field, these connections can guide the design. To describe an existing field, establish which connections operate. Describe the resulting assembly in the language of the field.
 
 - which exact claim-bearing contributions supply the field's knowledge commitments, distinctions, explanatory resources, or admissible questions;
 - which exact methods or other independently governed parts supply reusable ways of investigating, designing, intervening, evaluating, or learning;
@@ -168,6 +162,8 @@ Identify canon contributions as exact epistemes and claims, and distinguish stan
 The discipline's identity is not the extensional part list. It is the exact candidate with its field boundary, practice-and-knowledge assembly principle, obtaining constructive relations, whole-forming architecture, and declared whole characteristic under one direct reidentification rule.
 
 The same discipline may continue through a permitted canon revision, method replacement, institutional change, publication change, or temporary part-relation change when the rule admits that variation and the field boundary, required contribution meanings, essential couplings, and whole characteristic remain within their declared continuity conditions. The rule must say which substitutions are permitted and how the replacement contribution reconnects to the assembly.
+
+To maintain a discipline, start with the work its practitioners must continue to do. Follow how relevant knowledge guides that work and how results reach the people who can test or revise the knowledge. Find which connections still work under present conditions and where the connection is at risk or has broken. Continuing a sound practice can be sufficient. If results have stopped reaching practitioners, restore that exchange. If the knowledge or method itself needs revision, establish how the revised contribution will work with the others. For a commission to sustain the field in operation, carry out the needed work and establish that the connections still serve it. For an inquiry about continuity, evidence of existing practice can already answer the question.
 
 A change outside those conditions identifies another candidate or leaves the stronger claim unresolved. When a receiving use asks whether the old whole can still explain the case, run B.2's existing-whole explanation check after the direct C.20 facts are recovered. Loss of evidence, another description edition, a renamed field, or a stale registry entry does not itself end or create a discipline.
 

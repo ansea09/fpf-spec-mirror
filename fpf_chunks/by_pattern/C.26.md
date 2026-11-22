@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 68559
-line_end: 69223
+line_start: 68674
+line_end: 69340
 dependencies:
   - "A.10"
   - "A.15"
@@ -439,7 +439,7 @@ Evidence-use class scales by use:
 
 #### C.26:4.5 - State-representation coarsening card
 
-Use this card when a fuller state representation is too detailed, unstable, unavailable, or expensive for the current bounded decision and a reduced-detail state representation is useful only under a declared QL cue.
+Use this section when a fuller state representation is too costly or detailed for the work and you need to establish what a coarser representation can still explain or support. Begin with the ordinary account of the reduction. Use the QL lens if the remaining obstruction meets the conditions in section 4.
 
 For a shorter rendering of the same claims, use `A.6.3.CSC`. For another way to represent the same selected entity, use `A.6.3.RT`. When comparing a more abstract model with a more concrete one, use `B.5.MR:4.2–4.3` to establish what the concrete model preserves and which alternatives it excludes. `A.19` and `U.Dynamics` govern state and change. Use C.26 when the decision also encounters the contextual-model obstruction tested in section 4.
 
@@ -458,14 +458,16 @@ Question-to-pattern map:
 
 To decide from a coarser reading, identify what detailed states or histories could produce it under the model. If none can, check the reading and the model before using them together. If every compatible history permits the proposed action, the missing detail cannot rule out that action. A shared reading may still leave open which action is best. If one compatible history permits an action and another rules it out, recover what distinguishes them before relying on the reading for that choice. For a decision based on probability or expected value, use the applicable probability model and its evidence.
 
+When the commission is to explain a result, follow the proposed explanation through the histories that the coarser representation treats alike. Different mechanisms can warrant the same immediate action. A common ground for the result may explain it across all those histories. If the recipient needs to know which mechanism operated on this occasion, recover the distinguishing relation or report the alternatives the evidence still supports.
+
 For a bounded coarsening use, start with these questions. An adequate ordinary explanation can answer them without a separate card.
 
 | Mini-entry | Question |
 | --- | --- |
 | Source | Which fuller state representation, trace set, model, measurement scheme, or dynamics account loses distinctions in the shortcut? |
-| Shortcut | Which smaller representation is being used instead, and for which bounded decision or action class? |
+| Shortcut | What smaller representation will the recipient use, and which explanation, comparison or action must it support? |
 | Loss | Which precision, distinction, uncertainty, comparability, traceability, or relation structure is lost? |
-| Admissible use | Which bounded decision, probe, comparison, time-window reading, or action class remains admissible for this reduced-detail state representation? |
+| Admissible use | Which requested conclusion, explanation or action does the reduced representation still support, and on what grounds? |
 | Return condition, when needed | Which change in premises or receiving use would require recovering omitted detail or re-evaluating the shortcut? |
 
 When the receiving use needs a more detailed account of the shortcut, add the relevant distinctions below to that same explanation.
@@ -475,10 +477,10 @@ When the receiving use needs a more detailed account of the shortcut, add the re
 | Source representation | Which fuller model, state space, trace set, measurement scheme, probability model, dynamics model, or representation loses distinctions in the shortcut? |
 | Coarsened representation | Which typed, symbolic, finite, operator-like, Hilbert-like, rough-set, low-bit, or source-loss-affected representation is used instead? |
 | Shortcut mechanism | Which projection, typed-state reduction, finite-dimensional representation, operator-like update, rough-set approximation, state aggregation, compression, or linearization is doing the representational work? |
-| Shortcut purpose | Which bounded decision, probe, comparison, time-window reading, or action class needs the reduced-detail state representation? |
+| Shortcut purpose | What work requires this representation, and what must the recipient be able to establish or do with it? |
 | What is lost | Which precision, distinction, uncertainty, compatibility, traceability, causal detail, or cross-context relation is lost? |
-| Loss budget | How much loss is accepted for this decision, probe, comparison, route, or time window? |
-| Admissible use | For which decisions, probes, comparisons, candidate-route selections, or time windows does the shortcut preserve the required distinctions? |
+| Loss budget | Which distinctions, accuracy and grounds must survive for the commissioned use? |
+| Admissible use | For which conclusions, explanations or operations does the shortcut preserve the distinctions and grounds they require? |
 | Non-admissible use | For which claims, audits, bridges, comparisons, future actions, or high-stakes decisions does the shortcut lack the required distinctions, source support, or recoverability? |
 | Ordinary explanations still active | Which ordinary abstraction, causal abstraction, approximate causal abstraction, state aggregation, representation learning, POMDP simplification, heuristic compression, CSC, RT, or low-bit implementation account remains sufficient if the QL cue is absent? |
 | Evidence or formal source | Which model, trace, experiment, source, or formal argument supports the shortcut? |

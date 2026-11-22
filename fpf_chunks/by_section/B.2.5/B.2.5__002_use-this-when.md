@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 46520
-line_end: 46546
+line_start: 46552
+line_end: 46578
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,9 +43,9 @@ keywords:
 
 ### B.2.5:0 - Use This When
 
-Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and assignment separately.
+Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons, or to specify that coupling in a proposed control arrangement. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and assignment separately.
 
-The first useful move is to recover the facts supporting the feedback claim:
+First identify the decision for which feedback matters. Is the question about a specified exchange, supervision of each member, control of an organized whole or a policy to be designed? Use the observations and actions that could change that decision to select the relevant participants, scope and interval. For a claim about an exchange that took place:
 
 1. Name the supervised holons and the admitted system supervising them.
 2. State the feedback use, policy, and time window. Add a local supervisor system-role kind and assignment when that classification matters.

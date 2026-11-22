@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RR.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
-line_start: 50390
-line_end: 50573
+line_start: 50472
+line_end: 50657
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -63,6 +63,8 @@ Start with the receiving question, follow the affected reasoning and derive the 
 
 Compare the earlier question with the present one. State the result needed and the changed condition in terms that can be used in the reasoning. For a calculation, that may be a new range or an input that is now an unknown. For an empirical conclusion, it may be an observation, a changed population or an operating condition.
 
+Establish who has changed the question. A recipient may commission a new result. You may also try a different question as a way into the one still assigned. Could two situations give the same answer to your question and different answers to the recipient's? If so, recover what distinguishes them for the assigned use. In an inquiry whose direction is yours to choose, you can pursue a newly interesting question on its own terms.
+
 Distinguish a change in the situation from a correction to your account of it. A measurement taken yesterday can remain a sound report of yesterday while being insufficient for today's operation. A proposed condition can be explored without replacing the account of what has happened.
 
 Keep the meanings of the quantities and claims visible. If the same term denotes a different quantity, translate the question before substituting its value. If only the spelling or presentation changed and the established application fits, no reasoning revision is needed.
@@ -97,7 +99,7 @@ Relate the revised conclusion to the result requested in §4.1. It may supply th
 
 For a mathematical argument, carry the domain and assumptions into its conclusion. For an empirical application, examine the changed observation or applicability premise using the relevant subject method. Recomputing a model can establish its new consequence while leaving its correspondence with the physical situation unresolved.
 
-If the original target is unattainable under the retained conditions, use the obstruction to propose a changed condition or a different question. Keep that proposal visible as a choice. A weaker result can be useful without silently replacing the requested result.
+If the question asks whether a result is attainable under fixed conditions, a proof of impossibility answers it. If the recipient still needs a usable object or arrangement, explain what the obstruction rules out. You can propose a change to a condition the recipient has authority to revise. Carry the answer under the original conditions with the proposal so the recipient can decide whether to commission the changed work.
 
 Obtain further evidence or checking when its possible outcomes can change this use. C.11.DUA helps compare that contribution with its cost. The method can finish with a conditional result when conditional use is sufficient.
 
@@ -123,7 +125,7 @@ For n=4, the new sum is 3+5+7+9=24. The old formula applied unchanged would retu
 
 This repair also exposes a reusable construction. For n terms starting at a and increasing by 2, term j, counted from j=0, is (2j+1)+(a−1). Summing the established odd-number terms and the n equal additions gives n²+n(a−1). Changing the increment would require another derivation. The worked extension makes the next question precise.
 
-For the next use, retain four terms and the increment 2, but require their sum to be 28. The former starting value a=3 becomes the unknown: 16+4(a−1)=28 gives a=4. Checking 4+6+8+10=28 confirms the required sum. If there are zero terms and the required sum is positive, no starting value can supply it: the empty sum is zero for every a. The changed question then requires a different term count or total.
+Suppose a recipient keeps four terms and the increment 2, allows any integer starting value, and requires a sum of 28. The starting value is now the unknown. Solving 16+4(a−1)=28 gives a=4, and 4+6+8+10=28 checks the result. If the terms must still be odd, this same calculation proves impossibility since the only possible starting value is even. For zero terms, the empty sum is zero for every a, so a positive required sum is impossible. Either impossibility answers a feasibility question. Changing the term count, permitted values or total would be a new design choice.
 
 #### B.5.RR:5.2 - Losing one way to recover a report
 

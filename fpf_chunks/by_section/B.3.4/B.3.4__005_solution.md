@@ -6,12 +6,12 @@ section_id: "B.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:4 — Solution"
-line_start: 47252
-line_end: 47317
+line_start: 47298
+line_end: 47369
 dependencies:
   - "A.10"
   - "B.3"
@@ -20,12 +20,6 @@ dependencies:
   - "C.27.TA"
   - "G.11"
 keywords:
-  - "age"
-  - "changed premise"
-  - "epistemic debt"
-  - "evidence currentness"
-  - "qualification window"
-  - "refresh"
 ---
 
 ### B.3.4:4 - Solution
@@ -38,6 +32,8 @@ Identify the earlier result being used and the relevant conditions: for example,
 
 Use time-based review when a deterioration model or review policy warrants it. Use event-, dependency- or condition-based reconsideration when those define applicability. A newly discovered failure mode may reopen a result before a review date. A calendar reminder may instead find that the result remains applicable without a new experiment.
 
+To design reconsideration, work back from the decision that could become unsound. Keep a component and its inspection result fixed and change the way the assembly uses it. If the earlier conclusion can now fail, identify an observable change in the assembly, its use or the support on which the argument relies. Choose who can detect it, how soon it must be detected and what the recipient can do by that time. When a condition can change between inspections, use a warranted bound on that change, a timely event signal or a suitably restricted use. A dated observation of the whole can settle a decision confined to its state on that date.
+
 Keep three judgements distinct: whether the earlier evidence applies, whether it is sufficient for the present claim, and whether the proposed action satisfies its conditions. Currentness alone answers neither sufficiency nor permission.
 
 #### B.3.4:4.2 - State what each date bounds
@@ -46,13 +42,15 @@ A `valid_until: ISO-8601-date | null` field is used only when the receiving clai
 
 An absent or `null` date means that this field supplies no calendar boundary. It asserts neither perpetual validity nor invalidity and creates no mandatory justification for a missing date. Applicable event or condition limits govern the use.
 
+For a retrospective question, locate the change and the time it was discovered separately. A later inspection may show that the condition had already changed by a given date while leaving its first change time open. It can settle a question about the earlier state if that bound suffices. To establish what supported a decision at the time, identify the information then available and, where actual reliance is claimed, what the decision maker used.
+
 Where a required review period applies, follow it until it is changed by someone with the necessary authority. Evaluate its protective purpose, threshold basis and displaced cost separately when deciding whether to propose that change. Questioning the policy is not permission to ignore it.
 
 #### B.3.4:4.3 - Treat epistemic debt as an optional planning indicator
 
 A team may call its outstanding evidence-review or maintenance obligations **epistemic debt (ED)**. If it needs a number, define the counted entities, dependency treatment, scale and applicable unit, policy purpose, and meaning of any action threshold. An `epistemic_debt_budget` is then a planning-policy limit, not a universal allowance of harm.
 
-For example, a team may count overdue review obligations to plan assessor capacity. Ten duplicate paths to one obligation do not create ten obligations. Separate obligations consuming the same source may require different judgements for different uses.
+For example, a team may count overdue review obligations to plan assessor capacity. Ten duplicate paths to one obligation do not create ten obligations. Separate obligations consuming the same source may require different judgements for different uses. For a staffing decision, recover the work remaining, its due windows and the people able to do it. A single inspection may supply both uses. Distinct mandatory inspections sharing an assessor can compete for the same time even when each fits on its own. A count suffices when the question asks only how many obligations are overdue.
 
 Elapsed days can contribute to a justified priority rule or deterioration model. B.3.4 supplies no default rate, sum or automatic level downgrade. A planning count is not a probability of failure, and zero overdue reviews does not establish an adequate assurance case.
 
@@ -68,13 +66,13 @@ Determine which continuation the available support and applicable rules permit. 
 | Suspend reliance or deprecate the affected result | The necessary support is absent or defeated and no permitted continuation carries the requested use. | Remove or qualify that reliance and communicate the affected reach. A status downgrade does not accept the underlying harm. |
 | Apply an authorized exception | An applicable rule permits a bounded exception and a competent authority can grant it for this case. | Follow the mandate, scope, conditions and accountability. A senior title alone grants no authority over affected risk bearers. |
 
-C.11 and C.19.2 supply the choice of worthwhile additional evidence. Rechecking available configuration or premise information need not be a new experiment. A possible experiment is not a Work commitment. If the desired check is unavailable, retain any independently warranted bounded action or limitation; do not fabricate an observation.
+C.11 and C.19.2 support the choice of worthwhile additional evidence. An existing result may already establish the required condition for this use. A design commission can finish with the justified trigger, observation and response. A separately required inspection calls for the agreed work or evidence that the required inspection has taken place. If it cannot be performed in time, identify the unfulfilled requirement and any warranted action still available.
 
 For an immediate unchanged use, stop with its usable result. When a later receiver needs a warning, limitation or retained reason to avoid unsupported reliance, keep that minimum content with the existing result or publication. A separate `DeprecationNotice` is useful when something is deprecated, not as proof that refresh was skipped.
 
 #### B.3.4:4.5 - Follow affected dependencies and preserve expiry
 
-Trace a changed premise to the claims and uses that depend on it. Reopen those conclusions under their applicable evidence model. Shared paths do not multiply evidence or risk, and an unaffected use does not inherit a global downgrade from the carrier's age.
+Trace a changed premise to the conclusions whose argument uses it. Identify the subject, operating conditions and time each such conclusion covers. A lost premise can defeat one argument while another sufficient argument remains available. A shared premise can undermine several apparently independent judgements. Where the recipient needs them together, reconsider their fit for the same use, including a possible loss of compatibility while each separate result still holds. Reuse the branches whose grounds remain adequate.
 
 Keep physical and institutional conditions intact. Expired calibration qualification, an unavailable configuration, ended resource support or an elapsed rights window can block the corresponding use even when the old report remains an accurate record of an earlier state. A justified deterioration model can make elapsed time material; cite that model rather than inferring universal decay.
 
@@ -84,11 +82,13 @@ A dashboard should distinguish a review due, a defeated premise and a restricted
 
 **Bridge.** An earlier structural assessment supports a specified load envelope, conditional on its stated condition and inspection regime. For an unchanged limited use, available load and condition information and satisfied required inspections can preserve that support. The assessment's age alone adds no repeat assessment.
 
-In the paired case, proposed traffic exceeds the envelope: the earlier report does not support that use, however recent its cover date. Obtain the assessment or restriction needed for the changed load before relying on the stronger claim.
+In the paired case, proposed traffic exceeds the assessed envelope. The earlier report alone leaves support for that traffic open. Check for another applicable assessment or a sufficient bound. If none decides the question, restrict the supported use or obtain the assessment the proposed load requires. Evidence that a proposed load is unsafe can settle a refusal.
 
 Suppose the available inspection team can either inspect a suspected load-bearing defect or repeat an adequate check whose relevant conditions remain established. Examine the protected harm and the basis of the inspection requirement, what each result could change, and the cost of delay. Where the defect inspection can prevent that harm and the repeat adds no useful information, preserve the inspection capacity.
 
 If a binding repeat requirement prevents that choice, seek an authorized amendment; the resource conflict does not itself remove the requirement.
+
+A commission to set the review policy starts a step earlier. Identify which changes in load, structural condition or inspection access could affect each promised use. A change reported after a crossing may help reconstruct that crossing. A policy intended to prevent an unsupported crossing must give the responsible person enough warning and a feasible response before entry. An existing load limit enforced at entry may already handle excess traffic. A change in structural condition can require a different signal.
 
 **Library.** The verified property of an unchanged library in its qualified configuration remains supported when the relevant assumptions and dependencies still hold. A new vulnerability affecting a dependency used by the security claim reopens that claim even before a review date. An unrelated vulnerability does not. Preserve unaffected functional results and any independently supported restricted service while addressing the security limitation.
 

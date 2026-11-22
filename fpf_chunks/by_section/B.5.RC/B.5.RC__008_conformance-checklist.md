@@ -6,12 +6,12 @@ section_id: "B.5.RC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:7 — Conformance Checklist"
-line_start: 49941
-line_end: 49954
+line_start: 50021
+line_end: 50034
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -26,7 +26,7 @@ keywords:
 
 For the construction being recovered:
 
-1. The needed result and its next use are clear enough to select a useful small case.
+1. The requested object, property or reproduction determines what may vary and whether to work directly on the original or through a smaller case.
 2. Starting objects are distinguished from the intermediate objects to be produced.
 3. Each operation needed by the case has recoverable inputs, application conditions and output.
 4. Joint prerequisites, shared objects and alternative constructions retain their different effects.

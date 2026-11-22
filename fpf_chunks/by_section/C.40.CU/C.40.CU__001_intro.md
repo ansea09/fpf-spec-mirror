@@ -6,12 +6,12 @@ section_id: "C.40.CU:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:intro — Intro"
-line_start: 90762
-line_end: 90767
+line_start: 90884
+line_end: 90889
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

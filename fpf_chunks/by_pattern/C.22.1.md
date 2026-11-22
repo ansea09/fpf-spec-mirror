@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.1.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
-line_start: 66084
-line_end: 66244
+line_start: 66198
+line_end: 66358
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -82,7 +82,7 @@ A comparison of specialization acquisition needs a common task family and work t
 
 ### C.22.1:7 - Solution — one adaptation signature over the `C.22` anchor
 
-- Use one shared adaptation-signature field set for this question. `G.5`, `G.9`, and later notes may cite or consume it, but they should not silently rename threshold, prior-exposure, transfer, downside, or corridor-entry terms.
+- Start from the work the holder is expected to perform under the stated support conditions. What must the holder produce, which decisions belong to them and which results or instructions may someone else supply? Choose a threshold that distinguishes doing that work. An accepted product can answer a commission to deliver it. To assess the ability to construct a method, look for the holder's choices about its operations and how they work together. If the claim covers a task family, establish which variations in the work the available performances or other grounds cover. Use the shared field meanings below when passing that comparison to G.5 or G.9.
 - Bind the adaptation signature to the declared `TaskFamilyRef` or `TaskSignature` and work target. Name whose capability is being judged and what tools, references or help are part of the intended work. Record who performed the operation on which the threshold depends and what help was supplied during practice and the check. A joint performance can establish what the participants can do together. For a claim about one participant, use a performance that shows what that participant can do under the intended support conditions. Reuse an existing account when it supplies those grounds.
 - The signature should expose at least:
   - `thresholdTarget`

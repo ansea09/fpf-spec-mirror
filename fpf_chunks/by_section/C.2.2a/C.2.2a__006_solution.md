@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 55334
-line_end: 55416
+line_start: 55440
+line_end: 55524
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -66,6 +66,8 @@ Use the declared chart to answer five questions:
 A language-state position is a partial, slot-explicit coordinate claim in the declared language-state `U.CharacteristicSpace`.
 
 `ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For closure, `{CD1, CD2}` can report two remaining possible values while the assessment is incomplete. Separate source and use claims follow C.2.6:4.3: two unresolved possible sources differ from an established contribution by both.
+
+When a decision depends on several slots together, retain the dependencies that can change it. A constraint or bound can already decide the question while some joint readings remain unknown. Suppose the grounds leave only `(AE4, CD1)` and `(AE2, CD3)` possible. A rule requiring both `AE4` and `CD3` fails in every remaining case, although each required reading is individually possible. If all the remaining combinations give the same decision, the exact position can remain open.
 
 `position` here abbreviates these slot-explicit `A.19` coordinate claims.
 

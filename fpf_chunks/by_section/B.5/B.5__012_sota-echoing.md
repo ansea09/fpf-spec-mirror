@@ -6,12 +6,12 @@ section_id: "B.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__012_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:11 — SoTA-Echoing"
-line_start: 48596
-line_end: 48613
+line_start: 48676
+line_end: 48693
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -36,7 +36,7 @@ keywords:
 
 Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification required.
 
-**What does exploring an intended use contribute?** Adapt [NASA's Stakeholder Expectations Definition, §4.1.1.2.4](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): exercising a concept of operations can expose missing interactions and return them to expectations. The engineering practice supports working through a use to discover conditions; it does not establish that a generic scheme finds all consequential distinctions in other fields.
+**What does exploring an intended use contribute?** In NASA's engineering process, working through a concept of operations can expose interactions that the initial expectations missed. Agreement on the resulting expectations is a distinct step. The design study by Parsons and Shukla documents how visualization designers developed new questions while exploring possible solutions. In §4.1, use this freedom where framing the question belongs to the inquiry. For a specified result, carry a proposed change back to the person or practice that determines the aim. The distinction is a methodological synthesis. Its application depends on the work entrusted to the practitioner. [NASA Systems Engineering Handbook, §§4.1.1.2.4 and 4.1.1.2.8–9](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/). [Parsons and Shukla, §§4–6](https://arxiv.org/html/2508.07058v1).
 
 Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
 

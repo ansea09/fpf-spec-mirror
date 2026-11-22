@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 43969
-line_end: 44189
+line_start: 43977
+line_end: 44199
 dependencies:
   - "A.1"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 
 A.3.1 first identifies the candidate `U.Method` and every part method. B.1.5 does not create their `U.Method` membership. It asks: do these already identified methods, contributions, constraints, and boundary decisions warrant the claim that the candidate Method is composite?
 
-Start with the smallest useful composition claim:
+If the parts and arrangement are still yours to choose, use B.1.5.CM:4.1 to work from the whole result to the contributions and their conditions. Return here to test the resulting composition claim:
 
 1. Name the same A.3.1 candidate Method and A.3.1 part methods.
 2. In ordinary domain language, state the candidate's reusable whole action, what each part contributes, and the order, guard, adapter, or join condition that the whole action needs.
@@ -146,9 +146,11 @@ Use B.5.MR for refinement or abstraction between models of Methods. Establish a 
 Before using a first–then or vertical list as Method architecture, make both checks.
 
 1. **Preserve order.** Ask what must finish or become true before another Method can start or continue. Identify the source of the order. A protocol can require two independent assessments in sequence with the first assessment sealed until both finish. Other Methods need an actual handover. For those, identify the result, any join or adapter, and what happens when the receiving conditions fail. Keep a first–then result as an unfolding or order claim; its position does not make it a subject level.
-2. **Test simultaneous contribution.** Choose a representative working situation and ask whether several Methods contribute without forming one before-after chain. They may be enacted in one Work whole or in overlapping Work occurrences. When asserting dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
+2. **Test independent and simultaneous contributions.** Recover which contributions the whole requires, which can occur in either order, and which must overlap or use a shared resource. A construction rule can settle those questions for the allowed executions before any Work occurs. Where a working situation exposes a dependency, establish how far it applies. For a claim about dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations.
 
 Both answers may be true. A Method can contain an ordered segment while other Methods contribute during the same broader Work. The source's reading order and the fact that several Methods are used together decide neither which Methods are parts of one whole nor whether any level exists.
+
+A functional layer can name a responsibility, such as supervising a process. Recover the Methods that realize it and the systems that perform them when those relations matter. Several Methods can serve the same layer while belonging to different encompassing Methods. For a proposed model of one Method, check which admissible executions it groups together. It must distinguish those requiring different caller actions, results or grounds for the promised use. If comparing models for refinement, keep the Method and the question fixed under B.5.MR.
 
 Then use A.6.RCD. Reuse an existing direct predicate when one already governs the needed claim. Otherwise stop at a local compound claim when it closes this use, or publish a reusable predicate-definition episteme when several uses need the same rule. Continue to a relation-kind candidate only when a named receiver needs stable occurrence semantics that claim content cannot supply; E.24 and E.24.UK decide admission. A label such as `precedesInMethod` is claim language, not admission evidence, and an ordinary composition claim needs no invented occurrence.
 
@@ -252,7 +254,7 @@ Useful invariants remain:
 
 - A single recovered submethod composed alone does not create a surprising new Method.
 - Order is deterministic only under the order claims and conditions at their selected A.6.RCD dispositions.
-- Any throughput or quality bound must name its characteristic, critical path, and weakest-link basis.
+- A throughput or quality bound identifies its characteristic, the conditions it covers and the rule that warrants the bound. A critical path, a bottleneck, parallel capacity or a bound on the combined result may supply those grounds.
 - A claim that improving a submethod, adapter, or typed join improves the composite must name the characteristic and conditions under which that improvement transfers.
 
 ##### B.1.5:4.5.2 - Stop Before Transformation Composition

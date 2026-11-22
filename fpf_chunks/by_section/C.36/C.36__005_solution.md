@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 85671
-line_end: 85843
+line_start: 85785
+line_end: 85957
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.2.5:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__007_archetypal-grounding-worked-cases.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:5 — Archetypal Grounding (Worked Cases)"
-line_start: 46652
-line_end: 46689
+line_start: 46686
+line_end: 46723
 dependencies:
   - "A.1"
   - "A.10"
@@ -73,7 +73,7 @@ For publication channels, journals, datasets, reports, and review records, keep 
 
 #### B.2.5:5.3 - Product Platform Policy
 
-A product platform constrains component teams through interface rules and release gates. B.2.5 states the component reports, returned constraints and rule coupling those constraints to the reports for the admitted platform or governance system; a system-role kind or assignment is added only when separately current.
+A product platform constrains component teams through interface rules and release gates. B.2.5 states the component reports, returned constraints and rule coupling those constraints to the reports for the admitted platform or governance system; a system-role kind or assignment is added only when separately current. For example, a release coordinator may change the shared release window in response to the total backlog. The total can support that common decision even when the same total arises from backlogs at different teams. To choose which team can release its own change, the coordinator may instead need its outstanding checks. A total that leaves that choice open can still settle the window question. What the coordinator actually used in yesterday's decision requires grounds for that occasion.
 
 Work alignment uses `A.15`; a separate work-authority claim needs its pattern; use the lookup in `A.15.4:3.5` when the required permission or authority claim is unclear.
 

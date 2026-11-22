@@ -6,12 +6,12 @@ section_id: "B.2.P:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__009_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:6 — Conformance Checklist"
-line_start: 45755
-line_end: 45770
+line_start: 45779
+line_end: 45794
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ keywords:
 | `CC-B2P-4` | Collection admission remains with subject patterns. Collection wording entangled with emergence or MHT selects B.2.P for clarification, not for admission. |
 | `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, model-use, model-comparison, math-lens, publication, and source-use claims keep their subject patterns. |
 | `CC-B2P-6` | Source mnemonics and result-field spellings do not identify subject patterns or become U-kinds. |
-| `CC-B2P-7` | Replacement wording is reread in its complete natural span through F.19 with E.10 cues inside; only a remaining FPF question opens the applicable lexical or subject rule before live use. |
+| `CC-B2P-7` | The replacement identifies the subjects, ranges and relations on which the intended conclusion depends and keeps conditional and actual claims distinguishable. The wording is reread in its complete natural span through F.19 with E.10 cues inside; only a remaining FPF question opens the applicable lexical or subject rule before live use. |
 | `CC-B2P-8` | Whole-reidentification recovery identifies the existing whole, changed facts and identity rule, then retains a supported sufficient explanation, establishes insufficiency, or states the deciding gap. In a selected new-whole branch, apply the A.1 criterion, including governed larger-assembly compatibility, and the kind-specific criterion; preserve a failed or unresolved recognition result. First constitution or recognition without a prior whole returns to A.1 and the subject pattern. |
 | `CC-B2P-9` | Evidence, evaluation, assertion or record identity, G.11 currentness, and receiving reliance remain separate from world-side construction and reidentification. |
 | `CC-B2P-10` | Selected dependent structures and collections do not become holons by name; several changes do not become a composite transformation, and a missing composition governor does not establish atomism. |

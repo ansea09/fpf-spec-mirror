@@ -6,12 +6,12 @@ section_id: "C.37.MM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:7 — Conformance Checklist"
-line_start: 86886
-line_end: 86891
+line_start: 87000
+line_end: 87005
 dependencies:
   - "B.5.MR"
   - "C.2.1"

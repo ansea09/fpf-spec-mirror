@@ -6,12 +6,12 @@ section_id: "G.3:End"
 section_title: "G.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__014_g-3-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:End — G.3:End"
-line_start: 137714
-line_end: 137715
+line_start: 137836
+line_end: 137837
 dependencies:
   - "A.10"
   - "A.15.2"

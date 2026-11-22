@@ -6,12 +6,12 @@ section_id: "B.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:4 — Solution"
-line_start: 46366
-line_end: 46425
+line_start: 46396
+line_end: 46455
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,10 +41,10 @@ Use the capability and functioning facts to decide whether B.2 whole reidentific
 
 #### B.2.4:4.1 - Start From Facts, Claims, And Support
 
-1. Name the existing whole and its identity or reidentification rule.
-2. Identify each capability envelope, obtaining functioning relation, or selected in-life transformation-flow structure under its subject pattern. Keep method, method description, work plan, work occurrence, module allocation, characteristic, and architecture facts separate when they are current.
+1. Start from the required result and scope. Whose ability or work matters, under which conditions, and what would a different answer change? For a whole-identity question, identify the relevant holder and the conditions for its continuity.
+2. Trace the needed functioning back to the systems that provide it, the operations that compose the Method, and any Work whose performances the claim concerns. Choose the extent of each from its contribution to the required result. Vary which participant supplies an operation while the output stays fixed, then ask what the same participant could supply under a different arrangement. Keep distinctions that change the recipient's decision or its grounds. Establish each capability, functioning relation or in-life transformation-flow structure under its subject pattern. A design specifies what would have to hold.
 3. State the claim made about those facts. For any relied-on evidence or measurement result, identify whether and how it supports or challenges that claim, retaining any unresolved conclusion. Keep the measurement and its result distinct from the evidence-use relation.
-4. Perform B.2's ordinary existing-whole comparison. Better measurement, component improvement, Method or Work repair, allocation repair, or architecture-view repair can leave the same whole in place.
+4. Perform B.2's ordinary existing-whole comparison. Better measurement, component improvement, Method or Work repair, allocation repair, or architecture-view repair can leave the same whole in place. If the practitioner is asked to develop an arrangement, work from a missing contribution to a feasible change in the Method, allocation, external support or assembly. Test whether the contributions can be obtained together under the required conditions. A justified limit may decide feasibility. An order for one workable arrangement can finish with the first supported one.
 5. Use B.2 for a remaining whole-reidentification question, including an unresolved deciding ground. When the comparison establishes that the existing whole is insufficient, B.2 identifies a candidate new whole, applies the A.1 and kind-specific criteria, and tests whether it meets the receiving use before claiming whole reidentification.
 
 If a receiving use needs a durable account, use B.2's optional C.2.1 epistemes to state the facts, comparison, and supported conclusion.
@@ -80,7 +80,7 @@ Subject-pattern explanations that often stop B.2.4 include:
 - architecture-view or transformation-flow-structure repair;
 - better evidence, measurement, or source currentness for an unchanged world-side claim.
 
-If one of these explanations is sufficient for the receiving use, retain the existing whole and finish B.2.4. Use the subject pattern for any remaining question.
+If one of these explanations is sufficient for the receiving use, retain the existing whole and finish B.2.4. Use the subject pattern for any remaining question. The same performance records may leave it open whether the holder could repeat that result when support is unavailable. Conversely, a binding provision for support and a suitable operating arrangement can establish a conditional ability before the next performance. Use the applicable identity criterion if the conclusion also names a continuing holder.
 
 #### B.2.4:4.4 - When B.2.4 Requires B.2
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:End"
 section_title: "C.30.ASV:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__014_c-30-asv-end.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:End — C.30.ASV:End"
-line_start: 77580
-line_end: 77581
+line_start: 77694
+line_end: 77695
 dependencies:
   - "A.1"
   - "A.10"

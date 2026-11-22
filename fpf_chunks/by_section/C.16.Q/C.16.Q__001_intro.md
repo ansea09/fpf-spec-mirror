@@ -6,12 +6,12 @@ section_id: "C.16.Q:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:intro — Intro"
-line_start: 62427
-line_end: 62440
+line_start: 62531
+line_end: 62544
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "F.11:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__005_core-idea-didactic.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:4 — Core idea (didactic)"
-line_start: 130947
-line_end: 130963
+line_start: 131069
+line_end: 131085
 dependencies:
   - "A.13"
   - "A.15"

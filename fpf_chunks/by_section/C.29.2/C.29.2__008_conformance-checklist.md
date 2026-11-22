@@ -6,12 +6,12 @@ section_id: "C.29.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__008_conformance-checklist.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:7 — Conformance Checklist"
-line_start: 74003
-line_end: 74018
+line_start: 74117
+line_end: 74132
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -38,10 +38,10 @@ Apply these checks to the computational claim being made.
 | Check | What must be recoverable |
 | --- | --- |
 | Answer and scope | The input class, required answer and any accuracy or interaction condition; an output characterization is distinguishable from its obtaining procedure. |
-| Represented distinctions | Input meaning, computational state and output interpretation, including a retained distinction that a later operation needs. |
+| Represented distinctions | The input meaning, computational state and output interpretation support the required operations. Where several inputs share a state or receive the same answer, that choice remains adequate for the commissioned work. |
 | Available operations | What each consequential operation does and where any non-elementary construction comes from. |
 | Obtaining construction | An executable ordering, an applicable solver for declared relations, another specified computational behavior, or a substantive missing-construction task. |
-| Argument | A proposed computation has a worked case and the argument needed for its claimed range, including termination or response properties when claimed. An obstruction has an argument establishing its scope. |
+| Argument | The construction has an argument for its claimed range, including termination or response properties when claimed. A requested execution has its result. A worked input can exhibit a disputed step. An obstruction has an argument establishing its scope. |
 | Accuracy | The error relation or probability guarantee used by the receiver and the arithmetic, approximation, sampling and interpretation conditions that support it. |
 | Resources | The relevant element/operation counts, per-element or per-operation costs, size parameters and material preparation/readout costs. |
 | Result boundary | A qualified answer, restriction or obstruction; no unsupported promotion of one trace, failed representation or simulated execution. |

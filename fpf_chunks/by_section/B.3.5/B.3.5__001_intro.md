@@ -6,12 +6,12 @@ section_id: "B.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__001_intro.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:intro — Intro"
-line_start: 47361
-line_end: 47377
+line_start: 47413
+line_end: 47429
 dependencies:
   - "B.3"
   - "C.13"
@@ -23,9 +23,9 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use B.3.5 when a human-facing structural relation or a collection's own belongs-to relation has been selected for an additional assurance account without exposing constructive machinery as the public vocabulary.
+**At a glance.** B.3.5 helps an author connect a readable relation claim to the grounds a recipient must be able to inspect. Its elected profile covers structural parthood, collection belonging and other permitted claims such as the use of a lemma in a proof.
 
-**Use this when.** Use this assurance profile only when a publication choice or named requirement elects it for a relation claim. State the readable relation first. After election, structural parthood and collection belonging follow separate trace and `validationMode` obligations. The trace reports the relation facts and their grounds for inspection.
+**Use this when.** Start from what the reader needs to decide or explain about the relation. If the relation has been supplied, establish its participants, meaning and grounds for that use. If you must design the account, choose the relations that can distinguish the required answers. A publication choice or named requirement can elect CT2R-LOG for specified claims. Those claims then carry the grounding and `validationMode` required by their branch.
 
 **What goes wrong if missed.** The readable relation and its assurance account collapse: authors either lose usable relation sentences, treat collection belonging as parthood, prohibit separately grounded parthood by label, or make a trace look like the cause of the claim.
 

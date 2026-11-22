@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
-line_start: 53403
-line_end: 54388
+line_start: 53507
+line_end: 54494
 dependencies:
   - "A.1"
   - "A.10"
@@ -132,7 +132,9 @@ The common work is to maintain the connections: observation and reasoning inform
 
 Read enough connected material to recover the claims and the relations that change their meaning. Identify the subject of those claims and how names, quantities and modal expressions are interpreted. The same numerical string can state an observed value, a proposed value or a required limit. Recover that force from the account.
 
-For a developing account, write or draw the part already understood and use it to find the missing condition or connection. Return a missing fact to observation, an unsupported inference to its reasoning, and an unclear expression to its construction. These different repairs may be needed together. C.2.4 explains progressive articulation; A.6.3.RT.OE explains how to construct an expression that supports the next operation.
+When developing an account, start with the work the account must support. Its recipient may need to carry out an operation, reconstruct what happened, decide between alternatives or explain a result. If its content is yours to choose, work back from that use to the claims and connections it requires. When the subject has relevant constituents, ask which of them could change the answer. Which premises or exceptions belong in the account about them? For a conclusion about simultaneous operation, check that the claims about the parts hold under the conditions of that operation. For a comparison across configurations, establish a common basis for the features at issue. A decision can also be justified under rival accounts if it follows under each. An account can omit a distinction when that preserves the answer and the grounds its recipient needs. C.39.SA:4 helps choose the composition scales and model distinctions for this purpose.
+
+Write or draw what is already understood when doing so can expose a missing condition or connection. Obtain grounds for a missing fact, revisit an unsupported inference and improve the expression where the intended claim cannot be recovered. These repairs can be needed together. C.2.4 explains progressive articulation. A.6.3.RT.OE explains how to construct an expression that supports the next operation.
 
 Once the claims are determinate, compare an account through the C.2.1 constitution:
 
@@ -264,7 +266,7 @@ For an ordinary correction, finish when the needed meaning is clear and the affe
 
 ##### C.2.1:4.0.11 - Connected case and changes in its conditions
 
-A warehouse team maintains an account of passages used by a robot. For a bounded route calculation, a passage is admissible when its clear width is at least 1.0 m; the other operating conditions have already been resolved for this calculation. The source account states:
+A warehouse team maintains an account of passages used by a robot. A dispatcher who needs one passable route can stop with a connected route whose passages are wide enough in the same warehouse arrangement. To promise the shortest admissible route, the dispatcher also needs grounds to rule out a shorter one. Lengths or bounds can supply those grounds. For the bounded comparison below, a passage is admissible when its clear width is at least 1.0 m. The other operating conditions have already been resolved, and the account covers all the passages under consideration.
 
 | Passage | Length | Clear width |
 |---|---:|---:|
@@ -273,7 +275,7 @@ A warehouse team maintains an account of passages used by a robot. For a bounded
 | A–C | 5 m | 1.3 m |
 | C–D | 5 m | 1.3 m |
 
-The account's subject is the selected warehouse arrangement. Its claims include each attributed length and width. The interpretation fixes the endpoints, measurement meanings and units. A route viewpoint requires these values for every passage being considered and requires the admissibility condition to be recoverable.
+The account's subject is the selected warehouse arrangement. Its claims include each attributed length and width. The interpretation fixes the endpoints, measurement meanings and units. The viewpoint chosen for this route table calls for a length and width for each passage under consideration and a recoverable admissibility condition. A request for one admissible route can already be answered from the passages that establish it.
 
 The table is an expression of the relevant claims. A graph representing the same passages allows a shortest-path calculation after inadmissible edges have been removed. Under the stated correspondence and route assumptions, A–B–D has length 7 m and A–C–D has length 10 m. A robot-readable record and a diagram for a meeting can express the same route result while supporting different recipient operations. A publication provides a particular expression through an identified carrier under the applicable access conditions.
 

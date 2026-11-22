@@ -6,12 +6,12 @@ section_id: "B.3.5:14.7"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__017_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:14.7 — SoTA-Echoing"
-line_start: 47729
-line_end: 47743
+line_start: 47787
+line_end: 47801
 dependencies:
   - "B.3"
   - "C.13"

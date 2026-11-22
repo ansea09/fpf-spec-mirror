@@ -6,12 +6,12 @@ section_id: "C.39.GA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__011_rationale.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:10 — Rationale"
-line_start: 88052
-line_end: 88055
+line_start: 88166
+line_end: 88169
 dependencies:
   - "C.39.RO"
   - "C.39.SA"

@@ -6,12 +6,12 @@ section_id: "B.5.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__006_archetypal-grounding.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:5 — Archetypal Grounding"
-line_start: 52740
-line_end: 52759
+line_start: 52840
+line_end: 52859
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -26,7 +26,7 @@ keywords:
 
 You want to reduce glare in an image. Identify air, water, an interface patch, incoming light and the direction from that patch to the camera. Draw the local normal and incidence plane.
 
-For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. Rotating a linear polarizer before the camera changes the transmitted reflected contribution. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
+For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. To minimize the reflection from that patch, turn the camera filter’s pass axis perpendicular to the reflected polarization. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
 
 The interpretation tells you what to adjust. Moving the viewpoint changes incidence; ripples change local normals, so a single planar sketch may need several patches. Inspect a changed view and determine whether the proposed adjustment follows.
 

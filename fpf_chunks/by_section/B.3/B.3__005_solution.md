@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 46824
-line_end: 46966
+line_start: 46858
+line_end: 47006
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,6 +44,10 @@ State these three things before choosing measures or a record:
 1. the target claim;
 2. the named assurance use;
 3. the conclusion that must be supported, narrowed, or refused for that use.
+
+When you must choose the argument, start from a difference that could matter to the recipient. Hold a test result fixed and vary the assembly in which the tested part is used. Hold the reported performance of the assembly fixed and vary which part supplied it. If the assurance judgement changes, trace the relevant part, its connection or its enclosing system until the evidence reaches the subject of the claim. Choose the extent of each other inquiry by the same test. The operations required by an assessment Method can differ from the work performed on one occasion. A report may identify the work that supplied a premise. Establish the relation on which the inference depends.
+
+At each relevant scale, ask whether situations your model describes alike could require different assurance conclusions or explanations. Recover a missing distinction when it matters, or show that the available grounds suffice throughout the admitted range. For an assessment of future cases, use those differences to choose what to examine, how the assessor can obtain it in time and what follows from each relevant finding. An assessment designed under stated assumptions can be delivered before it is performed.
 
 Keep the following objects separate:
 
@@ -80,7 +84,7 @@ Develop it while reasoning: start with the claim and use, state the proposed sup
 
 Use C.2.1 to identify the epistemes whose claims make up the case. A claim about a system retains that system as its subject. For an assurance-result episteme, the EntityOfConcern is the target claim content or episteme whose support is being judged; `targetClaimRef` locates that subject.
 
-A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier.
+A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier. When the receiving decision depends on several judgements, establish how they fit together. Two results can each apply to a different configuration with no configuration in which both required conditions have been established. For a decision about one configuration, establish the required compatibility there. For a claim about every allowed configuration, cover that range and its shared conditions. A single argument can do so. Where the uses concern different configurations, explain how their separate results enter the decision. Evidence that a necessary condition for the decision fails can settle a refusal. When only one supporting argument fails, assess any other sufficient argument on its own grounds.
 
 An unfinished argument remains useful working material: identify the missing support and return the appropriate unresolved disposition. A positive assurance result requires an argument sufficient for the named use under the applicable domain rules.
 
@@ -128,7 +132,7 @@ B.3 supplies no default fold. When the assurance argument combines quantitative 
 
 Use `min` when the subject model explains what it means for the target quantity. For a bottleneck model it may give the value itself. For a probability of joint success, the smaller marginal probability gives an upper bound. State the direction of the bound before using it to decide a threshold.
 
-If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
+When unlike quantities have no common aggregation rule, keep their meanings and use the criterion for the decision. Separate limits on accuracy and response time can support one conclusion when both limits hold in the required operating conditions. A direct observation, bound or qualitative argument can settle a question without assigning an overall score. State which part of the conclusion remains open when the available grounds run out.
 
 Several independent evidence lines may strengthen an argument only through the rule that states how their dependence and coverage are handled. Claim-scope intersection or union follows A.2.6 and the evidence model; it is not an assurance arithmetic shortcut.
 
@@ -152,6 +156,8 @@ A visible artifact, such as an attestation or dashboard tile, contributes to ass
 
 If the question concerns only a status, gate decision, permission, warning, or source location, use its pattern and produce no B.3 result.
 
+For a question about past reliance, identify the result available to the decision maker at the time and the grounds used for that decision. A decision record can establish reliance directly. If asked whether that result changed the choice, establish what would have happened without it. A binding rule can establish what would have been permitted or required without that result. To infer what the decision maker would actually have chosen, establish that the rule controlled the choice under those conditions or use other causal grounds under C.28. A result can have been considered even if the same choice was already warranted.
+
 If an assurance claim is current, cite the item only for the property it establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
 
 #### B.3:4.7 - Leave domain obligations with their patterns
@@ -164,7 +170,7 @@ When a domain rule says a consequential use requires an assurance claim, state t
 
 State the window only when time changes the assurance conclusion. Monitoring, drift, incidents, evidence refresh, version change, policy change, gate change, or a newly discovered defeater can narrow, reopen, or withdraw a result while the target fact and target-claim identity remain unchanged.
 
-Design evidence and run evidence may support different claims. Produce separate results when target use, conditions, scope, or evidence window differs; compare them instead of merging them into one score.
+An argument about a design can establish what follows if its assumptions hold. Evidence from an implementation can establish that specified assumptions held for a given run. Combine the two when the design, implementation and conditions match in the respects the receiving claim uses. A successful run can demonstrate an attainable result or bear on a wider claim to the extent its selection and the domain argument warrant. Preserve the conclusions supported for each scope.
 
 #### B.3:4.9 - Use causal-use and method-structure results
 

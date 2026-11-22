@@ -6,12 +6,12 @@ section_id: "C.26.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__013_relations.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:12 — Relations"
-line_start: 69506
-line_end: 69511
+line_start: 69623
+line_end: 69628
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -41,6 +41,6 @@ keywords:
 ### C.26.1:12 - Relations
 
 - Builds on: `C.26`, `A.6`, `A.6.B`, `A.6.P`, `F.9`, `A.15`, `C.16`, `A.10`, `B.3`, `C.25`, `A.1.1`.
-- Coordinates with: `C.26.2` when coordinated work evidences a non-exportable distributed state; `C.26.3` when the boundary interaction changes a viability envelope.
+- Coordinates with: `C.26.2` when the interpreted output contributes evidence about how parts of a collective acted together; `C.26.3` when the boundary interaction changes a viability envelope.
 - The worked context-cut case in `C.26.1:4.3` connects a workshop's effect to the corrected interpretation of its output.
 

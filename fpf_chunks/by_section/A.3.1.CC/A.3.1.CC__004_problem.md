@@ -6,7 +6,7 @@ section_id: "A.3.1.CC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__004_problem.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:2 — Problem"

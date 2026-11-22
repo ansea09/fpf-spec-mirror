@@ -6,12 +6,12 @@ section_id: "B.1.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:2 — Solution"
-line_start: 43687
-line_end: 43761
+line_start: 43695
+line_end: 43769
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -39,7 +39,7 @@ keywords:
 Start with the receiving question and the result it needs. An already adequate aggregation rule and ordinary explanation can be used directly.
 
 1. **Recover the inputs and relations.** Identify the included positions, values, intervals or phases and the objects they concern. Keep their identity and relations grounded in the subject facts and applicable rules. For a temporal input, recover its bearer, temporal reference and interval; relate different references only through a justified conversion.
-2. **Choose the combining rule and result.** State the operation and what it returns: for example, an ordered relation structure, a combined value, the union of covered intervals or their elapsed span. Supply the order, join, independence, coverage and overlap conditions that this operation uses. If the rule needed by the question is missing, retain that gap rather than naming an unsupported aggregate.
+2. **Choose the combining rule and result.** State the operation and what it returns: for example, an ordered relation structure, a combined value, the union of covered intervals or their elapsed span. When the rule is yours to design, change a possible history while holding the proposed summary fixed. Moving a gap can preserve total coverage while moving the last completion beyond a deadline. Use the events, intervals or joint conditions that distinguish the answers the recipient needs. Supply the order, join, independence, coverage and overlap conditions that this operation uses. If the rule needed by the question is missing, retain that gap rather than naming an unsupported aggregate.
 3. **Obtain the requested result.** A specification can be sufficient when the task asks how the aggregation is to be performed. When a computed result is needed, apply the selected operation and interpret its result under those conditions. Distinguish an order structure from the result of applying the operations it represents. Section :5 shows why the same inputs can support different warranted results.
 4. **Bound the use and stop.** State the supported use and any condition whose failure or uncertainty changes it. Narrow the result or leave the affected conclusion unresolved when its required basis is missing. Use another pattern when a distinct claim needs that pattern's contribution. Stop with the sufficient ordinary answer.
 

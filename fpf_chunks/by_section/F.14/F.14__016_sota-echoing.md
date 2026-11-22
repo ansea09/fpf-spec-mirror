@@ -6,12 +6,12 @@ section_id: "F.14:15"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__016_sota-echoing.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:15 — SoTA-Echoing"
-line_start: 132061
-line_end: 132072
+line_start: 132183
+line_end: 132194
 dependencies:
   - "A.10"
   - "A.15.1"

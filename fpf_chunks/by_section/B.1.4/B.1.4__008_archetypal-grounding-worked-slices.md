@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_archetypal-grounding-worked-slices.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:5 — Archetypal Grounding (Worked Slices)"
-line_start: 43816
-line_end: 43831
+line_start: 43824
+line_end: 43839
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -44,7 +44,7 @@ keywords:
 
 Any cross-basis conversion or comparison retains its operation rule and loss or uncertainty conditions. Use `C.29` when a separate mathematical correspondence or reliance question remains. If the required compatibility is unestablished, retain separate results or narrow the claim rather than pool them as one supported aggregate.
 
-**Order-dependent calculation.** In this constructed case, start with `x = 1` and combine `f(x) = x + 1` and `g(x) = 2x` by sequential application. Applying f then g gives `g(f(1)) = 4`; applying g then f gives `f(g(1)) = 3`. An OrderSpec permitting both orders does not establish one numerical answer or the independence needed to ignore order. If the use needs a unique answer, establish the required precedence or a justified operator property that makes all permitted orders equivalent. Otherwise retain the two supported outcomes. If the task needs only the partial-order specification, that specification already answers it.
+**Order-dependent calculation.** In this constructed case, start with `x = 1` and combine `f(x) = x + 1` and `g(x) = 2x` by sequential application. Applying f then g gives `g(f(1)) = 4`; applying g then f gives `f(g(1)) = 3`. An OrderSpec permitting both orders does not establish one numerical answer or the independence needed to ignore order. For a unique prediction, establish which order applies or that every permitted order gives the same value on the input in question. In this example the two attainable values establish that the result is at least 3. A trusted observation of the final value can answer a question about an actual run even if its order is unknown. To explain how that value arose, establish the facts on which that explanation depends. If the task needs only the partial-order specification, that specification already answers it.
 
 **Work-interval aggregate.** In this constructed case, independently admitted Work occurrences W1 and W2 occupy `[0,2)` and `[3,5)` hours under one declared clock reference, within window `[0,5)`. For covered time, take the union `[0,2) ∪ [3,5)`: its duration is 4 hours. For elapsed span from first start to last end, take the convex hull `[0,5)`: its duration is 5 hours, including the gap. These are different warranted answers to different questions, following the A.15.1:9.1 Work-interval profile.
 

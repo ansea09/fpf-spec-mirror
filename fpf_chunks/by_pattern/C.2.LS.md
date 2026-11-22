@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.LS.md"
-commit_sha: "dba39812b83cac74dd2a3251c134cdc23dfaec86"
+commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
-line_start: 55841
-line_end: 56114
+line_start: 55949
+line_end: 56222
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -231,8 +231,8 @@ The same readings support these different conclusions because the receiving cond
 #### C.2.LS:14.1 - For authors
 When publishing a language-state facet profile:
 
-1. start from the local authoring problem rather than from a memorized progression;
-2. name the facet refs;
+1. identify the decision or operation for which the recipient will use the profile;
+2. choose the facet readings and any conditions that could change that result, and cite the assessments that supply them;
 3. add threshold refs only when a threshold changes routing, repair, or another operative decision;
 4. when a label such as "mature", "raw", or "ready" carries an operational claim, make the relevant facet readings and conditions visible.
 
@@ -290,7 +290,7 @@ Local overlays such as "explicit-but-open", "derived from trace T", or "requires
 Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; an operator acknowledgement condition does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
-For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. Any binding consequence retains its own governing rule and authority.
+For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. If the readings are uncertain, use C.2.2a:4.2 to check what their joint constraints establish. A bound can settle the condition. If the answer still differs between possible combinations, identify the difference the receiving use needs. Any binding consequence retains its own governing rule and authority.
 
 #### C.2.LS:17.3 - Transition reading rule
 Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. Use the applicable move rule to determine which current readings and source, use or route conditions must hold. State any changes to them that the transition makes.
