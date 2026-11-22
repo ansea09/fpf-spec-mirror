@@ -6,12 +6,12 @@ section_id: "F.11:12"
 section_title: "Reasoning with the four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_reasoning-with-the-four-questions.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:12 — Reasoning with the four questions"
-line_start: 131204
-line_end: 131216
+line_start: 131321
+line_end: 131333
 dependencies:
   - "A.13"
   - "A.15"
@@ -45,14 +45,14 @@ keywords:
 
 ### F.11:12 - Reasoning with the four questions
 
-1. **Classify the subject.** Is the sentence about a Method, MethodDescription, Work, or a particular output?
+1. **Choose the subject from the question.** Which Method, description, Work or output matters, and does the reader need to know how some of them were connected? Use the defining relation to select the relevant whole or constituent.
 2. **Keep design and occurrence apart.** A design claim does not establish a Work outcome.
 3. **Check membership.** Identify the episteme’s one admitted Method as its exact `EntityOfConcern` and at least one substantive claim it makes about that Method as a way of doing. For this A.3.2 judgement, say that the episteme *describes* the Method.
 4. **State enactment only when supported.** Name the Work, Method, and basis for the enactment claim.
 5. **State description use separately.** Say whether and how the Work or performing System used, followed, deviated from, or conformed to the versioned description, and cite the rule that defines or tests that claim; otherwise return the bounded missing-governor result.
 6. **Locate outputs.** Relate a signal or changed value to the Work through its direct pattern.
 7. **Bind agency exactly.** Recover the A.13 core for each performer before independent A.15.1 Work admission; add F.6 only for precise assignment-bound attribution through the same obtaining assignment.
-8. **Use outcome evidence.** Observations about the Work support evaluation; commands and approvals alone do not.
+8. **Use evidence of the outcome in question.** An authenticated command or approval can establish that the authorized act took place. Follow it to a changed state, completed work or usable result only where the records or governing relation support that further conclusion.
 9. **Preserve history.** A new description does not alter past Work or its evidence.
 10. **Recover words locally.** Use F.9 only when a relation between local meanings is part of the question.
 

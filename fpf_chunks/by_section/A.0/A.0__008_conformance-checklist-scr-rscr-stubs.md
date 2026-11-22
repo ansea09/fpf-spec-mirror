@@ -6,12 +6,12 @@ section_id: "A.0:7"
 section_title: "Conformance Checklist (SCR/RSCR stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__008_conformance-checklist-scr-rscr-stubs.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:7 — Conformance Checklist (SCR/RSCR stubs)"
-line_start: 2411
-line_end: 2427
+line_start: 2399
+line_end: 2415
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -64,7 +64,7 @@ keywords:
 | **CC‑A0‑3** | **No mixed‑scale roll‑ups**; ordinal data **SHALL NOT** be averaged; any roll‑up **MUST** live under a declared **CG‑frame**.                                                             | Prevents illegal scoring; keeps comparisons lawful.                             |
 | **CC‑A0‑4** | Where the G‑kit requires parity, **publish an Illumination Map** (coverage per niche); **single‑number leaderboards are non‑conformant** on the Core surface when a ParityReport is required. | Declared-set-first / typed portfolio-publication posture; avoids single‑winner bias.                         |
 | **CC‑A0‑5** | Keep **illumination/coverage** as **report‑only telemetry**; **dominance policy defaults to `ParetoOnly`**; any change is CAL‑authorised and cited by policy‑id.                                          | Separates fit from exploration; preserves auditability.                         |
-| **CC‑A0‑6** | Apply **E.7/E.8**: include a **U.System** and a **U.Episteme** illustration when claiming generative behaviour; obey **E.10** register hygiene; use the subsection title **“Archetypal Grounding.”** | Locks didactic primacy; prevents jargon drift.                                  |
+| **CC‑A0‑6** | For a generative claim, show what was generated or selected, who contributed where that matters, and what warrants the claimed result under A.0:4.2. Use System and Episteme cases where they reveal different operative conditions. Follow **E.10** and retain the **Archetypal Grounding** heading required by **E.7/E.8**. | The reader can apply the terms to the kind of search and result at issue. |
 | **CC-A0-7** | **ReferencePlane declared** for every reported N/U/C/Diversity_P head. For a plane relation, retain its source/target planes and basis under **G.Core:4.2.3**; cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation. Numerical assurance penalties follow an applicable B.3 model. | Prevents plane/stance category errors while preserving applicable crossing and receiving-use grounds. |
 | **CC‑A0‑8** | **Diversity_P ≠ Illumination.** Diversity_P measures the retained set; DeltaDiversity_P measures a candidate's marginal contribution to it. Either requires a declared `PromotionPolicy` before entering dominance. **Illumination** remains **report‑only telemetry** unless explicitly promoted by a CAL-authorized policy-id.                                         | Matches QD triad semantics and parity defaults.                                 |
 | **CC‑A0‑9** | For a generator or selector scale-behaviour claim, declare the scale variables **S** and the settings or range the claim covers. Cite the **E/E-LOG scale policy-id** when the claim or its use depends on a policy, for example a knee threshold or selection by class. A prediction from a model states the assumptions of the derivation. Mark **S = N/A** when no scale-behaviour claim is made. | Identifies what varies and the grounds for the asserted response. |

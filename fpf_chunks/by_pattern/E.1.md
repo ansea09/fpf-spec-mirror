@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.1.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.1 — Vision & Mission"
-line_start: 97774
-line_end: 97886
+line_start: 97823
+line_end: 97935
 dependencies:
   - "E.2"
 keywords:
@@ -110,11 +110,11 @@ R1 supports **Didactic Transparency** by making the reason for reuse or reopenin
 | Same task: decide whether the result may be reused | Label-only rule | R1 |
 | --- | --- | --- |
 | The label and all four relevant conditions match. | Reuse. | Reuse after the comparison. |
-| The label matches, but a relied-on source now concerns a different population. | Reuse, including an inapplicable result. | Reopen the affected applicability question before reuse. |
+| The label matches. The claim concerns night-shift access, but the only supporting observation now covers day-shift staff and the service they used closes before the night shift begins. | Reuse the claim about night-shift access. | Reopen night-shift access before relying on the claim. |
 
 There is one invalid reuse under the label-only rule and none under R1 in these two cases. This supports the stated failure-prevention argument; it is not an observation of reader behavior or proof that review is faster. The added comparison has a cost. If a receiver claims “R1 makes all reviews 20% faster” without observations, remove that outcome claim and retain the bounded aim, or select a task-matched inquiry before making it. If the proposed rule merely requires a new label and says “supports Evolvability,” return the missing continuity or change-handling contribution; the label alone does not satisfy CC-Vision.2.
 
-R1 can guide the stipulated reuse decision. Admission to FPF requires the charter argument; a team adopting R1 uses its own decision authority. New evidence about the source population reopens applicability. A claim about actual reading cost or invalid reuse decisions can be investigated through E.12. A proposal whose contribution to a core invariant is still unclear needs that argument before admission.
+R1 can guide the stipulated reuse decision. Admission to FPF requires the charter argument; a team adopting R1 uses its own decision authority. A change of population reopens applicability when the grounds relied on do not already cover the target. A claim about actual reading cost or invalid reuse decisions can be investigated through E.12. A proposal whose contribution to a core invariant is still unclear needs that argument before admission.
 
 ### E.1:6 - Consequences
 

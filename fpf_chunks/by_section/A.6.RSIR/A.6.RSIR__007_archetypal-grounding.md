@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:5 — Archetypal Grounding"
-line_start: 22693
-line_end: 22716
+line_start: 22708
+line_end: 22733
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,6 +62,8 @@ keywords:
 **Bare-role case: API provider wording.** A source says “the API role is provider.” Apply `E.10.ROLE` once. If it recovers a provider System, local `ProviderSystemRole` kind, assignment, capability, provider Work, promise, access relation, publication, or another direct object, apply that object's rule and do not apply RSIR. Apply RSIR only when the still-unanswered question is the participant meaning in a direct relation, a reusable declaration, an interface claim, an operation declaration or binding, or an API-schema representation position. For protocol, service-term, SLA, or agreement-like wording that bundles several claims, use A.6.C to unpack the claims before stating each object or relation. Use A.6.M only for a module-interface claim and A.6.B only for boundary-package statement classification. Do not assign a system role to the API description.
 
 **Evidence case: reviewer and report wording.** A report says “reviewer evidence role approved the gate.” Apply `E.10.ROLE` once and split the claims. Apply A.2/A.2.1 for any reviewer system-role kind or assignment. Use A.10 for evidence reliance on a named claim, B.3 only for a named assurance claim, F.10 for a status-use relation, E.24.PUB when publication availability is current, and E.17 when the accepted account needs a reader-facing publication form. Use A.21 for the gate decision and A.2.9 for any issuing speech act. None of those recovered branches needs RSIR unless a separate direct-participation, reusable-declaration, interface, operation, or representation-position question remains. No episteme receives a system-role assignment by being evidence.
+
+If the wording is in a proposed gate rule, first recover whose decision the rule would recognize. The proposal might permit a reviewer to supply a recommendation while reserving the decision to the authorized gate owner. That division explains who may do what before anyone decides a case. A report that the gate owner decided on that recommendation also needs grounds for the decision and for the owner’s use of it.
 
 **Slot case: method parameter.** A method description says "parameter target controls the model." The sentence does not identify what `target` designates or which control relation is claimed. Keep it as reduced-use source wording and recover those missing values before asserting the control claim.
 

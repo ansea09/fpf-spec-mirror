@@ -6,12 +6,12 @@ section_id: "F.0.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:7 — Conformance Checklist"
-line_start: 126509
-line_end: 126529
+line_start: 126612
+line_end: 126632
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -34,7 +34,7 @@ keywords:
 #### F.0.1:7.1 - Static checks
 
 - **SCR-F01 (Recoverable source).** Every load-bearing local meaning identifies the exact source, edition, and passage directly or through an unambiguous scoped reference.
-- **SCR-F02 (Plain first result).** The ordinary branch's result is a readable meaning statement, and the practitioner may stop there.
+- **SCR-F02 (Plain first result).** A readable source-backed statement answers a question about local meaning. Where the passage supplies a premise for a further conclusion, its contribution to that conclusion is identifiable.
 - **SCR-F03 (Conditional cell).** A `SchemeSenseCell` appears only for a named reuse, claim, receiver, or relation need and keeps ReferenceScheme, LocalExpression, and LocalSenseClaim distinct.
 - **SCR-F04 (Separate support).** A `LocalSenseBasisRelation` is asserted only when current; source identification, reliance, and assurance are not inferred from it.
 - **SCR-F05 (No string identity).** Shared wording, family, score, or row does not establish a relation between local senses.

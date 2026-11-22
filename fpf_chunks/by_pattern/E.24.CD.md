@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.CD.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
-line_start: 125017
-line_end: 125372
+line_start: 125114
+line_end: 125469
 dependencies:
   - "A.1"
   - "A.14"
@@ -72,7 +72,7 @@ Typical moments:
 
 **Primary EntityOfConcern.** When the author records this choice in a C.2.1 episteme, its EntityOfConcern is the subject already identified under a direct pattern. If that subject cannot yet be identified, an independently identified source episteme or expression entity can carry the open inquiry. Without an identifiable subject, keep the question attached to the blocked work or source material. The visible form and the note recording the disposition are not substitutes.
 
-**First useful move.** Write one plain sentence: “For this work or decision, we need to know or do `<action>` about `<subject>`.” Then look past the form to recover the subject, the needed claim, and the current pattern that defines or constrains it. Apply the first disposition in section 4 that fits the case.
+**First useful move.** State what the intended recipient must establish, explain, design or do. Identify which claim behind the expression would help them do it. Use §4.1 to settle that claim. For a question about several contributions, carry its answer into the decision that needs them together.
 
 **What goes wrong if missed.** FPF grows shadow ontology. A table becomes a kind; a field label is mistaken for a relation-participant meaning; a filled field is treated as an actual relation participant merely because it occupies a column; a card becomes the subject; or a convenient word creates a second ontology over values and relations that already have subject patterns.
 
@@ -122,11 +122,11 @@ Ask these four questions in order:
 1. **What must the next person do or decide?** Name the comparison, classification, publication, repair, decision, or other practical use.
 2. **What is that use about?** Name the subject, claim, or source expression without treating its card, row, filename, diagram, or field bundle as the answer.
 3. **Which current pattern already governs the needed claim?** Name the predicate or judgment that would let the work proceed.
-4. **If that pattern does not close the case, what is missing?** State one applicable pattern or one precise unresolved stop below.
+4. **What follows for the original work?** If the claim supplies the answer, give it. If it supplies one premise, establish what connects it to the other premises the recipient needs. A remaining gap can concern how the parts interact, which cases a model must distinguish, or an ordinary matter of fact. Select the disposition in §4.1 for the claim that is open.
 
 #### E.24.CD:4.1 - Apply the first disposition that fits the case
 
-Plain `situation`, `incident`, `current configuration`, `operating <system>`, and `emergency` are recognition cues, not kind names. Recover only the subjects, claims, and relations that the receiving work needs.
+Choose the first disposition that settles the claim you are considering. Several rows may supply different premises about the same undertaking. When the question depends on those premises together, establish how they fit and whether they suffice. The terms `situation`, `incident`, `current configuration`, `operating <system>`, and `emergency` are recognition cues, not kind names. Recover only the subjects, claims, and relations that the receiving work needs.
 
 | Current need | Next use | Stop that follows |
 | --- | --- | --- |
@@ -176,7 +176,7 @@ When the subject pattern clearly closes the case, stop there. Repeated words, se
 
 #### E.24.CD:4.4 - State one result and stop
 
-Most cases need only one sentence:
+A disposition for one claim can be reported in one sentence. If the person asked only which pattern governs it, naming the pattern and the decisive fact is sufficient. For a question about a practice, return what applying that pattern establishes for the practice, including a connection still to be made when the local result supplies one premise.
 
 > For `<work or decision>`, apply `<subject pattern>` to `<exact subject or claim>` because `<decisive fact>`; next, `<action or stop>`.
 
@@ -271,7 +271,7 @@ If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or o
 
 #### E.24.CD:5.7 - Multi-party emergency
 
-An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Recover each participating System and each actual change separately.
+An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Start from the question the report must answer. Recover the participating Systems and actual changes it depends on. If the question concerns their interaction, identify what the change in one permits or prevents in another.
 
 For every dated response claimed as `U.Work`, recover each precise performer's A.13 core and independently admit the occurrence under A.15.1 as stated in `E.24.CD:5.6`; add F.6 only when the current account also needs exact assignment-bound attribution. Keep any local system-role classification separate.
 
@@ -378,7 +378,7 @@ Costs:
 
 Ontic candidates rarely arrive as pure ontology. They appear through the forms people use: project tables, cards, schemas, diagrams, source packets, draft rows, examples, and repeated words. Those forms reveal working concerns, but they do not decide what exists, what relation obtains, or what FPF kind is needed.
 
-The pattern therefore asks for one first-use disposition instead of a candidate record.
+The first-use disposition identifies where a particular claim can be settled. The original commission determines whether that identification finishes the work or supplies part of a wider explanation or design.
 
 Keep direct claims in their direct patterns; use C.2.1 only when one exact ClaimGraph, one EntityOfConcern for those claims, and one effective ReferenceScheme constitute an episteme; and use C.3.2 for local classification.
 

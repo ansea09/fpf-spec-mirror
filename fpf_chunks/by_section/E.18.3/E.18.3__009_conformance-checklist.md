@@ -6,12 +6,12 @@ section_id: "E.18.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:7 — Conformance Checklist"
-line_start: 120136
-line_end: 120152
+line_start: 120222
+line_end: 120238
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,5 +54,5 @@ keywords:
 | **CC-E18.3-6 Potential topology and current set.** | Potential branches, joins, cycles, partial orders, and alternatives remain in the structure even when the case- and time-indexed enabled set has zero or one member. A slice states any topology it omits. | Restore the potential topology or narrow the slice; do not use current cardinality as a membership test. |
 | **CC-E18.3-7 Explanation and demonstration separation.** | An ordinary provisional explanation may remain ordinary text and separate from the selected structure. Constitute a C.2.1 provisional episteme only when persistence or replay makes its narrower claim current. Whole-structure-description and post-admission demonstrative epistemes remain separate from the selected structure; one-TFS or network locator-family completeness is required only for the corresponding admitted demonstration use, and the selected family is complete and mutually exclusive. | Remove default episteme materialization from ordinary explanation and stop. When persistence, replay, or an admitted demonstration is current, constitute the correct separate episteme and restore only its applicable complete locator family. |
 | **CC-E18.3-8 Method and Work threshold.** | Pattern refs, intended realization, recommendations, imperatives, displayed order and table completion admit no MethodDescription, Method, plan, Work or actual Transformation. Apply the A.3.2, A.15.1 and A.3.4 membership or occurrence tests to the independently identified objects when those claims are current. | Apply the relevant test or narrow the claim. |
-| **CC-E18.3-9 Plain move and ordinary-first branch.** | `move` denotes the exact current pattern-use action or independently identified object. Before optional formal recovery, the ordinary branch names the concrete transformation subject, two recognizable places or states, the proposed connection or guard, the current continuation question, and one useful provisional result or a stop naming the missing fact or rule. Exact identity, position mappings, C.2.1 materialization, publication, evidence, or assurance open only for a named stronger use. The seven application steps remain guidance, not a mantra, Method, plan or performed sequence. | Restore the ordinary action, result, and stop before formal recovery; remove default materialization or assurance. Replace any generic move/step reading with the exact object and state a stronger claim's concrete contribution. A Method contribution states its way of doing and applicability or bounds; a truth, result, evidence, or assurance claim cites its separate applicable rule and current basis. |
+| **CC-E18.3-9 Plain move and ordinary-first branch.** | `move` denotes the exact current pattern-use action or independently identified object. Before optional formal recovery, the ordinary branch names the subject or subjects, the continuation the recipient is considering, and the conditions and connections that determine its outcome. It gives the supported answer or identifies the missing fact or rule. Exact identity, position mappings, C.2.1 materialization, publication, evidence, or assurance open only for a named stronger use. The seven application steps remain guidance, not a mantra, Method, plan or performed sequence. | Restore the ordinary action, result, and stop before formal recovery; remove default materialization or assurance. Replace any generic move/step reading with the exact object and state a stronger claim's concrete contribution. A Method contribution states its way of doing and applicability or bounds; a truth, result, evidence, or assurance claim cites its separate applicable rule and current basis. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D2.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
-line_start: 109057
-line_end: 109475
+line_start: 109121
+line_end: 109539
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -50,7 +50,7 @@ Begin with the receiving use:
 4. What exact `U.Entity` is the `EntityOfConcern` of that claim-bearing whole?
 5. Which effective `ReferenceScheme` supplies the designation and interpretation rules that make those claims readable about that entity?
 
-The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. If identity is all the receiving use needs, stop there. Otherwise open only the neighboring object or relation needed for the next visible sentence or action.
+The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. A request for that identity can end here. If the recipient needs to decide something else, recover the additional facts on which the decision depends and, where several must hold together, establish that they concern the relevant edition, participants or work.
 
 Not this pattern when the live question is already an exact evidence path, assurance claim, work occurrence, gate decision, commitment, Bridge, publication occurrence, representation correspondence, or state fact. Use its direct governor. Return here only if the wording also obscures which entity is being described or which episteme carries the claims.
 
@@ -91,11 +91,11 @@ For the current passage or artifact:
 2. **Recover the episteme constitution.** Identify the exact claim content G, exact EntityOfConcern, and effective `ReferenceScheme`; test whether `EpistemeConstitutionRelation` obtains under C.2.1.
 3. **Classify the expression or use.** Decide whether the current object is the claim-bearing description episteme, a specification use of it, an assertion about another object, a publication form, a carrier, or a representation. Do not infer the answer from a suffix or medium.
 4. **Open only a needed neighbor.** Add empirical grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, specification evaluation, publication, form, carrier, currentness, or representation only when the named receiving use depends on its direct relation.
-5. **Stop at the smallest sufficient result.** Do not produce a universal description card. A readable sentence naming the receiving use, the recovered episteme, its EntityOfConcern, and the one needed neighboring relation is normally enough.
+5. **Stop at the smallest sufficient result.** Name the receiving use, the recovered episteme and its EntityOfConcern. Add the relations on which the answer depends. For example, deciding from an approval and a use record whether an operator used the approved instructions requires both to identify the same edition.
 
 A short statement usually suffices.
 
-> For `<receiving use>`, episteme `<E>` carries claims `<G>` about exact EntityOfConcern `<T>` under effective scheme `<R>`. `<One named neighboring relation>` is additionally current because `<the next action depends on it>`.
+> For `<receiving use>`, episteme `<E>` carries claims `<G>` about EntityOfConcern `<T>` under scheme `<R>`. `<The additional relation or combination of relations>` supports `<this conclusion>` under `<these conditions>`.
 
 If no neighboring relation is needed, omit the second sentence. If the C.2.1 triple or the required direct governor cannot be recovered, return that exact blocker instead of filling a generic context field.
 
@@ -337,9 +337,9 @@ If the training use adds another publication occurrence with another form or car
 
 #### E.10.D2:11.8 - Minimal dashboard repair
 
-A project note says, “The architecture dashboard approves the deployment role.” The immediate receiving use is an operations discussion of the release candidate. Recover the smallest truthful result:
+A project note says, “The architecture dashboard approves the deployment role.” The operations team needs to know which architecture description it can discuss and whether deployment has been authorized. Suppose the dashboard legend identifies the named description, its claim content, its subject and the scheme in which the team can read it. The team can then recover the following:
 
-* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains;
+* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; read its claims to establish which structure is described and what, if anything, the description asserts about C.30's `ArchitectureRelation`;
 * the receiving use is the operations discussion; record the exact operations viewpoint only if it changes what that discussion reads or checks or may conclude, and otherwise omit viewpoint selection;
 * the dashboard may be a publication form, carrier, representation, or view only under the recognition rule for that exact use;
 * no checkable-claims-plus-harness basis has been named, so specification force is not admitted;
@@ -361,7 +361,7 @@ If the operations audience can obtain the selected edition for its discussion fr
 
 The account distinguishes the subject being described from the claim-bearing use of a C.2.1 episteme. Each identity is recovered independently; C.2.1 permits the same episteme to serve both uses in a self-description. Specification is a checkable use of that episteme. Viewpoint selection, view membership, scope, model-use structure, grounding, evidence, assurance, edition, publication, carrier, representation, and work have different reasons to obtain and different identity rules.
 
-Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. Receiving-use-first routing preserves both reliability and economy: recover the exact constitution, add the one neighbor needed for the next action, then stop.
+Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. For an identity question the constitution can suffice. For another decision, recover the applicable facts and show how they support it together. Where they concern an edition, establish which edition each fact concerns. Stop when those grounds answer the recipient's question.
 
 ### E.10.D2:14 - SoTA-echoing and source use
 
@@ -406,7 +406,7 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 9. Route permission, evidence, assurance, gate, decision, promise, commitment, work, publication, view, Bridge, retargeting, currentness, and representation claims to their exact direct governors.
 10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use one exact occurrence of a directly declared `U.SystemRoleAssignment` species only for an independently admitted `U.System` assigned to one exact local system-role kind; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.
 11. Delete mandatory context recursion for descriptions of epistemes; recover the described episteme as EntityOfConcern under C.2.1, including its permitted self-description case.
-12. Stop when the recovered constitution and one needed neighboring relation make the next action clear; do not complete a universal description card.
+12. Stop when the constitution and any further relations the question requires support the receiving action or expose the particular missing ground.
 
 ### E.10.D2:17 - Conformance checklist
 
@@ -441,14 +441,14 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 
 ### E.10.D2:19 - Didactic memory
 
-Use the short memory **use, claims, entity, scheme, one needed neighbor**:
+Use the short memory **use, claims, entity, scheme, grounds for this action**:
 
 1. **Use.** What exact work, decision, inquiry, comparison, preservation, teaching, or publication use needs the description?
 2. **Claims.** What exact ClaimGraph is being used?
 3. **Entity.** What exact independently identified EntityOfConcern are those claims about?
 4. **Scheme.** What effective ReferenceScheme makes the claims readable about that entity?
-5. **One needed neighbor.** Does the next action need a describing-use viewpoint, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
-6. **Stop.** Add only that direct relation, or stop after constitution if none is needed.
+5. **Grounds.** Which further relation would change what the reader can conclude? If several are needed, how do they connect for this use?
+6. **Stop.** Use the constitution alone when it suffices. Otherwise give the relations on which the answer depends, or the ground still missing.
 
 ### E.10.D2:End
 

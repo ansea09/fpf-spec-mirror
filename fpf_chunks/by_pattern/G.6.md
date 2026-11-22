@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.6.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
-line_start: 139098
-line_end: 139429
+line_start: 139231
+line_end: 139564
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -188,6 +188,8 @@ G.6 defines no fallback core edge vocabulary. Legacy or display labels such as `
 
 A `PathId` identifies one claim-local path inside an `EvidenceGraph`. A `PathSliceId` identifies the same path under a declared time window, reference plane, bounded context, edition, bridge, policy, or selected object/relation subset.
 
+To choose the contents of a slice, work back from the inference its recipient must replay. Suppose an archive needs to establish that an index takes readers to the intended passages of a translated catalogue. The translator approved the text of edition 2 and the indexer checked the references against edition 1. Both approvals can be traced. For joint use, recover what connects the indexed references to the passages the reader will see. An established correspondence covering those references may suffice across editions. If it covers only some of them, carry that scope into the citation. To answer the narrower question of which text the translator approved, the translator's record alone may suffice.
+
 Use this compact record:
 
 ```text
@@ -316,7 +318,7 @@ The resulting G.6 account identifies the affected paths and their exact dependen
 
 | ID | Check | Repair if missing |
 | --- | --- | --- |
-| `CC-G6-01` Exact use | Is one relied-on claim or bounded downstream use named? | Name it, or stay in local A.10 source recovery. |
+| `CC-G6-01` Exact use | Can the recipient replay the named claim or bounded use at its stated scope, or see which necessary relation remains open? | Work back to its premises under §4.3. Use A.10 for a single local source-to-use account. |
 | `CC-G6-02` Object projection | Does every node cite an exact independently governed object, kind, governor, qualification, and representation ref? | Recover the object or record an unresolved gap; do not mint a graph-only world object. |
 | `CC-G6-03` Relation prerequisite | Does every asserted edge cite one exact direct relation, its actual participants, governor, obtaining claim, and context? | Establish the direct relation first or remove the edge from the relied-on path. |
 | `CC-G6-04` No fallback edge | Are legacy or display labels prevented from acting as universal relations? | Replace each with the exact formal, measurement, work, production, publication, representation, provenance, temporal, status-use, or later-use relation. |

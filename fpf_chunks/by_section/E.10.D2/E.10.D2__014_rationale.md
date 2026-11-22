@@ -6,12 +6,12 @@ section_id: "E.10.D2:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__014_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:13 — Rationale"
-line_start: 109381
-line_end: 109386
+line_start: 109445
+line_end: 109450
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -38,5 +38,5 @@ keywords:
 
 The account distinguishes the subject being described from the claim-bearing use of a C.2.1 episteme. Each identity is recovered independently; C.2.1 permits the same episteme to serve both uses in a self-description. Specification is a checkable use of that episteme. Viewpoint selection, view membership, scope, model-use structure, grounding, evidence, assurance, edition, publication, carrier, representation, and work have different reasons to obtain and different identity rules.
 
-Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. Receiving-use-first routing preserves both reliability and economy: recover the exact constitution, add the one neighbor needed for the next action, then stop.
+Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. For an identity question the constitution can suffice. For another decision, recover the applicable facts and show how they support it together. Where they concern an edition, establish which edition each fact concerns. Stop when those grounds answer the recipient's question.
 

@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Archetypal Grounding"
-line_start: 85958
-line_end: 86054
+line_start: 86000
+line_end: 86096
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 
 ### C.36:5 - Archetypal Grounding
 
-The dance-school sentence in the Problem frame is the minimum case: teachers transmit variants through teaching; an archive retains and presents records; recognition and peer copying supply their own selection relations; and one proposed intervention targets how variants enter the syllabus without claiming success.
+For example, consider a dance school deciding how a festival’s feedback could change what students practise. Earlier feedback gives the editor an opportunity to change the syllabus. Instructors must then have access to the adopted revision in time to use it. What students practise depends on the tasks the instructors actually set. Each link suggests a different intervention if the preceding link already works.
 
 The engineering-product-family and music-and-dance slices below show how unlike projects recover Methods, Work, variants, memory epistemes, recognition or selection relations, mediating Systems, and refresh without inventing one root culture kind.
 

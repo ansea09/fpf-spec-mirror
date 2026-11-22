@@ -6,12 +6,12 @@ section_id: "G.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:6 — Conformance Checklist"
-line_start: 142022
-line_end: 142037
+line_start: 142167
+line_end: 142182
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,7 +53,7 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-G12-1` | Every displayed coordinate resolves one exact C.21/C.16 result episteme and the active C.21 replay basis. |
+| `CC-G12-1` | Every displayed coordinate resolves one exact C.21/C.16 result episteme and the active C.21 replay basis. A reader can establish which claim about the specified discipline, its parts or their interaction the view supports, and which decision the reported values leave open. |
 | `CC-G12-2` | ClaimScope is authoritative; TargetSlice is optional, consumed explicitly, and related to that scope. |
 | `CC-G12-3` | Direct same-semantics comparison uses C.16 conditions without a Bridge; a comparison using a relation between distinct local senses cites the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim with its direction, use rule, loss tolerance, and the current supporting reliance required by F.9. |
 | `CC-G12-4` | Characteristic, Scale, Unit, Method, MethodDescription, model, calibration, Work, result, result episteme, series episteme, row, slice, publication, form, and carrier are not collapsed. |

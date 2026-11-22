@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 105335
-line_end: 105357
+line_start: 105397
+line_end: 105419
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,7 +30,7 @@ keywords:
 | Check | Requirement |
 |---|---|
 | `CC-E9DA-0` | Make the semantic judgement first. For an ordinary bounded review, name the exact DRR, required authoring use and source, effective floor and source, substantive findings, repaired text or unchanged checked DRR when clean, first action or repair, stop or return, and reopen. Add a non-use boundary only when an independently grounded competing reading is plausible and action-changing; do not require a formal dossier. |
-| `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. A proxy does not substitute. |
+| `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. For a wider claim, examine the grounds for carrying the result beyond that use. |
 | `CC-E9DA-0b` | Before coordinate closure, make one bounded search of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and direct consumers for an important question the DRR omitted. Return an answer-changing question as a substantive finding and reassess every affected coordinate under its value rule. A clean ordinary review needs no separate search ledger; a reusable result records only the basis its receiving reliance needs. |
 | `CC-E9DA-1` | Keep the exact DRR, required authoring use and its source, selected-locus map, qualification window, and effective floor recoverable. Method, A.6.1 application, and dated Work are independently conditional. Add each identity only when the receiving claim uses it. If dated `U.Work` is asserted, establish the enacted Method, every precise performer's A.13 core and independent A.15.1 admission in 4.2. Add the application and its relation to Work only when independently established and used by the receiving claim; add F.6 only for precise assignment-bound attribution. |
 | `CC-E9DA-2` | When a complete reusable coordinate evaluation is explicitly required, evaluate every coordinate with value, adjacent-value rationale, and evidence locus. Otherwise perform the focused content review requested and return its findings or repairs without creating unused coordinate records. |

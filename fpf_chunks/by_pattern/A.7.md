@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
-line_start: 26462
-line_end: 26825
+line_start: 26479
+line_end: 26845
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,6 +29,7 @@ dependencies:
   - "B.1.2"
   - "B.1.4"
   - "B.1.5"
+  - "B.1.5.EW"
   - "B.1.6"
   - "E.10"
   - "E.17"
@@ -174,6 +175,7 @@ Formal inclusion establishes no world-side belonging. Collection belonging estab
 
 * **System aggregation and delimitation** — use B.1.2:4 to coordinate the independently established parts, crossings and whole-characteristic claims needed by the engineering decision. Each characteristic keeps its own aggregation or inference rule.
 * **Method composition** — use B.1.5 to determine whether constituent Methods and their relations construct one reusable way of doing, including its order and branching.
+* **Composition of performed Work** — ask what the encompassing job was and which operations people or systems actually carried out as part of doing it. From a known operation, establish what part of that job it performed. From the job, follow how the constituent performances fitted together and how far they took it. An operation in an unfinished attempt can still be a constituent. Another job may have supplied a result used here. Use B.1.5.EW for that organizing connection and A.15.1 for the identity and extent of the Work occurrences.
 * **Temporal aggregation** — first establish Work occurrences and temporal parts under A.15.1, or the identities and temporal relations of other subjects under their own rules. B.1.4 combines those recovered relations for a stated window and use.
 * **Work-resource aggregation** — use B.1.6 for resource spend and yields tied to admitted Work, with the required measurements, accounting boundary and aggregation policy.
 
@@ -222,9 +224,11 @@ If the EntityOfConcern is itself an episteme, the new Description does not autom
 
 **Example.** `PumpPerformanceDescription-e4` is a C.2.1 episteme whose EntityOfConcern is pump P-12 and whose claims state the measured flow and pressure under the named scheme. `MeasurementRun-88 produced ObservationEpisteme-88`, and that observation supports the stated measurement claim through its direct evidence-use relation. The Description, pump, measurement Work, observation episteme, evidence use, and publication carrier remain different objects.
 
+Suppose the analyst was asked to describe P-12 from its archived measurements. She selected the relevant observations and interpreted them to write e4. Those actions were part of preparing the description. The earlier measurement supplied an input to this job. If the order also called for a fresh measurement, e4 could give the correct figures while that work was still due. If a technician measured P-12 afresh as part of carrying out the order, that measurement would belong to the larger job even though a different person wrote e4. A common time window or cost total alone cannot settle which work was done for the order.
+
 A Description episteme becomes usable as a specification when its C.2.1 constitution, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use are recoverable under E.10.D2 and the applicable direct pattern. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its selected viewpoint. Formality, acceptance conditions, measurement criteria, and verification practice contribute under their own rules; formal notation alone is insufficient. Specification use remains separate from the EntityOfConcern, Description identity, publication expression, and Work.
 
-A Description episteme, its specification-use status, and a publication result are distinct from the activity producing them. Admit a deliberately asserted dated describing, formalizing, specifying or publishing Work using the basis in :2. Use B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
+A Description episteme, its specification-use status, and a publication result are distinct from the activity producing them. Admit a deliberately asserted dated describing, formalizing, specifying or publishing Work using the basis in :2. Use B.1.5 for Method composition, B.1.5.EW with A.15.1 for the operations that made up one actual job, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
 
 #### A.7:5.10 - Outcome specification distinction
 
@@ -264,7 +268,7 @@ Evidence supports assertions about the selected Work facts, affected referent, p
 | **CC‑A7.2 (Transformer-system-role assignment domain)** | A suffixed source designation such as `TransformerSystemRole@ValveSelectionContext` is only a locator. The kind must first be recovered through its C.3 candidate domain, membership distinction, boundary probes, and continuity rule; the suffix identifies none of them. A direct `U.SystemRoleAssignment` species must then admit that kind in its declaration-local kind slot and systems in its holder slot. | Type-check the species, holder, kind domain, predicate, applicability, and occurrence identity; do not filter a permissive family value by a role label. |
 | **CC-A7.3 (Episteme non-agency)** | An episteme does not act or hold a work-facing assignment. A System may author, revise, use, or publish it. | The ordinary sentence names the acting System; add Work, carrier, publication, evidence, source, or assignment relations only when the receiving claim uses them. |
 | **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** is the same independently identified C.2.1 episteme only when its EntityOfConcern is one admitted Method and it makes at least one substantive claim about that Method as a way of doing; **Method**, **Capability**, and **Work** retain their separate meanings. Form, label, design-time status, authoring, revision, citation, publication, approval, or use time grants no membership. | Identify the episteme triple and apply the A.3.2 threshold; then name each current Method, Capability claim and dated Work occurrence separately. |
-| **CC-A7.5 (Composition fits its subject)** | Use B.1.2 for a system-aggregation decision, B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of recovered order or temporal relations, and B.1.6 for Work-resource aggregation. | The claimed result and its required inputs determine the applicable rule; a generic “process” label supplies none of them. |
+| **CC-A7.5 (Composition fits its subject)** | Use B.1.2 for a system-aggregation decision, B.1.5 for Method composition, B.1.5.EW with A.15.1 for the performances that constituted an encompassing Work, A.15.1 for temporal parts, B.1.4 for aggregation of recovered order or temporal relations, and B.1.6 for Work-resource aggregation. | The claimed result and its required inputs determine the applicable rule; a generic “process” label supplies none of them. |
 | **CC-A7.6 (Carrier/source-currentness reference)** | An evidence-use claim **SHALL** identify the episteme and the claim for which it is used. Cite A.10 carrier/source-currentness refs when the particular evidence, source, or reliance use depends on them. | Recover the episteme and target claim, then the carrier or source-currentness facts required by that use; ordinary citation does not itself assert an evidence-use relation. |
 | **CC-A7.7 (Formal inclusion, collection, and collective)** | Mathematical set, tuple, coordinate, and other formal inclusion stays with its defining mathematical rule and creates no world-side relation. Use `C.29` for an actual mathematical lens and `A.19` for the relevant characteristic scale or coordinate. A world-side collection uses its own identity and belongs-to rule. A grouping claimed to act must separately pass all six `A.1` matters. | Check the distinct formal, collection, and collective-System claims. Infer neither belonging from formal inclusion nor parthood or holonhood from belonging; do not prohibit a separately grounded constructive part claim. |
 | **CC‑A7.8 (Diagram legend)** | Domain “process” or “behaviour” keeps its recovered meaning under the direct rule for that claim. For composition, select the subject's rule under :5.7; disambiguate an unclear domain use explicitly. | A clear domain sentence may stand; an ambiguous one identifies its object and predicate without forcing a Method/Work binary. |
@@ -308,7 +312,7 @@ The middle column stipulates facts for each teaching case, including its named S
    **Fix:** Admit and state that Work under the basis in :2. An ordinary action sentence or design-time distinction diagram needs no invented Work identity.
 
 4. **Composition blur** — using one “process operator” for unlike claims.
-   **Fix:** Recover the subject and intended result, then use :5.7 to select the system, Method, temporal or Work-resource rule and its prerequisites.
+   **Fix:** Recover the subject and intended result. To explain how a job was performed, establish which actions constituted it under :5.7. To explain its timing or cost, use the temporal or resource relations the question requires.
 
 5. **Formal set, world-side collection, and collective collapse** — mathematical inclusion or collection belonging is used to make a grouping act or to infer constructive parthood.
    **Fix:** Keep formal inclusion with its mathematical or representation rule; state world-side belonging under the collection's own rule; require all six `A.1` matters for a collective System; state any constructive part relation separately.
@@ -322,7 +326,7 @@ The middle column stipulates facts for each teaching case, including its named S
    **Fix:** Rename the column to **System-role kind**. If behaviour is also being compared, give it a separate column and state the behaviour claim under its direct rule, including A.6.F functional behaviour or A.3.4 transformation where applicable.
 
 9. **Process‑word leakage** — domain “process” used as FPF operator.
-   **Fix:** Use the Γ operator for the composition claim. Keep a clear domain use of “process”; if it is ambiguous, state the Method, Work, transformation, mechanism, or other object intended.
+   **Fix:** Identify what the process wording refers to. For a composition question, recover the governing part–whole relation under :5.7 and apply the operation that relation warrants.
 
 10. **Carrier and episteme swap** — “we versioned the model” meaning a file was renamed.
     **Fix:** State whether the **episteme content** changed; if only a carrier was renamed, say so.
@@ -374,7 +378,7 @@ The middle column stipulates facts for each teaching case, including its named S
 ### A.7:13 - Relations
 
  **Builds on:** A.1 (Holon), A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance, carrier, and source-currentness relations), A.14 (Mereology), A.15/A.15.1/A.15.2 (System-Role–Method–Work, Work, and WorkPlan Alignment).
-* **Constrains:** A.13 (Agency sits on systems only; epistemes non-behavioural), B.1.2:4 system-aggregation and delimitation decisions, B.1.5 Method composition, B.1.4 temporal aggregation, and B.1.6 Work-resource aggregation. These uses preserve the System, Method, Work, and Episteme distinctions; publication follows its own availability conditions in E.24.PUB.
+* **Constrains:** A.13 (Agency sits on systems only; epistemes non-behavioural), B.1.2:4 system-aggregation and delimitation decisions, B.1.5 Method composition, B.1.5.EW and A.15.1 for the composition of performed Work, B.1.4 temporal aggregation, and B.1.6 Work-resource aggregation. These uses preserve the System, Method, Work, and Episteme distinctions; publication follows its own availability conditions in E.24.PUB.
 * **Extends:** E.8, E.10, Part F and Part G, B.3, and the C-cluster by enforcing the EntityOfConcern/Description boundary, specification-use and publication orthogonality, System/Episteme separation, same or near-same EntityOfConcern discipline across views, and progressive actor wording. Publication remains the separately governed availability of an episteme through a form and carrier.
 * **Coordinates with:** E.18 for crossing visibility, A.21 for gate checks, E.17 for publication, and E.10 for lexical checks. F.17 identifies local senses and F.9 governs an obtaining Bridge between two such senses; a ReferencePlane crossing follows its applicable plane relation. The bounded-use claim, reliance, optional `CL`, and any named policy penalty remain separate.
 
@@ -395,7 +399,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 1. **Acting subject:** Is the acting System recoverable? If assignment identity is not used, do not invent it.
 2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that use them?
 3. **Description boundary:** Is each Description episteme independently identified by claim content, EntityOfConcern, and effective scheme, with any authoring, measurement, source-use, representation, or refinement relation stated separately?
-4. **Method and Work:** Use B.1.5 to judge Method composition; use A.15.1 and B.1.6 for the Work occurrence and its resource actuals, and B.1.4 when already established temporal relations need aggregation.
+4. **Method and Work:** Use B.1.5 to identify the constituent ways of doing. For a performed job use B.1.5.EW and A.15.1 to identify the performances that constituted it. B.1.4 combines their temporal relations where required and B.1.6 accounts for resource use.
 5. **Episteme and carrier:** Does the episteme remain non-acting and distinct from its publication form and carrier?
 6. **Grouping:** If a group acts, is it recoverable as a collective System rather than merely a set?
 

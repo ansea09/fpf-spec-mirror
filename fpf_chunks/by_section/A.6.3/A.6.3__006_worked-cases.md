@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:5 — Worked cases"
-line_start: 18643
-line_end: 18672
+line_start: 18654
+line_end: 18683
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -34,7 +34,7 @@ keywords:
 
 #### A.6.3:5.1 - Safety-focused system description
 
-X is a system-description episteme about plant S. Y is a smaller episteme about the same S containing only safety-critical functions, hazards, and mitigations recoverable from X. The viewing declaration names the filter and omitted claim families. A.6.3 construction obtains. Y becomes a `U.View` only after safety viewpoint P is resolved and `EpistemeViewpointConformanceRelation(Y,P)` obtains.
+The reviewer of plant S needs to know which hazards have a documented mitigation for the configuration under review. The source description X covers several configurations. Construct Y by selecting the hazards for the requested configuration and tracing each proposed mitigation to the conditions under which X links it to that hazard. A mitigation listed solely for another configuration leaves support open in this one. Y can report that gap. Both epistemes concern plant S. The selection rule and its conditions explain what the resulting account establishes. If the reviewer also commissions a `U.View` under safety viewpoint P, resolve P and establish `EpistemeViewpointConformanceRelation(Y,P)`.
 
 #### A.6.3:5.2 - Directly authored view
 

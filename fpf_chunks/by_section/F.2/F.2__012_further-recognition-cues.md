@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Further recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_further-recognition-cues.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:11 — Further recognition cues"
-line_start: 127771
-line_end: 127795
+line_start: 127884
+line_end: 127908
 dependencies:
   - "A.11"
   - "A.7"
@@ -43,9 +43,9 @@ Use the completed PROV-O note as one source-backed input. The BPMN, SOSA/SSN and
 
 * **State-space control source, cited passage and scheme** — `actuation`; Plain **signal applied to the plant**; claim: “A signal applied to influence plant state or output.”
 * **IEC 61131-3, cited runtime passage and scheme** — `task`; Plain **unit that calls programs on a cycle or in response to an event**; claim as above.
-* **ITIL 4 (2020), incident-management use** — `incident`; Plain **unplanned service interruption or loss of service quality**; claim: “An unplanned interruption or reduction in service quality.” A qualifying interruption may be unreported. If a contract starts its response clock at notification, establish that event separately.
+* **ITIL Foundation: ITIL 4 Edition (AXELOS, 2019), §5.2.5, Incident management** — `incident`. The source defines it as “An unplanned interruption to a service or reduction in the quality of a service.” A qualifying interruption may be unreported. If a contract starts its response clock at notification, establish that event separately.
 
-Use the source's service-disruption criteria to decide whether a reported plant fault also qualifies as an ITIL incident.
+For the reported fault, establish whether the service suffered the interruption or reduction in quality described by the source. A record of an outage alone can fit both a planned stop and an unplanned interruption. If that difference decides the classification, use the schedule or another record that establishes it. For a contractual question about the response clock, apply its agreed start condition.
 
 #### F.2:11.3 - Kind, method, and knowledge sources
 

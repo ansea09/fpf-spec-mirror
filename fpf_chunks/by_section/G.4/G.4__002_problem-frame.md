@@ -6,12 +6,12 @@ section_id: "G.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:1 — Problem frame"
-line_start: 137852
-line_end: 137867
+line_start: 137983
+line_end: 137998
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,7 +61,7 @@ keywords:
 CAL authoring starts from:
 
 * one exact `CG‑Frame` with its `EntityOfConcern`, `ReferencePlane`, task, and assumption envelope,
-* a plurality of method traditions and claims (SoTA inputs), and
+* the applicable source rule or claims, including competing traditions when their differences affect this use, and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 
 Before downstream users run a selection, comparison, aggregation or selected-set formation, authors need an explicit, auditable **CAL Pack** that:

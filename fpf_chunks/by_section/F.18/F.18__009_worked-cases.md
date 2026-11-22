@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 134866
-line_end: 135048
+line_start: 134985
+line_end: 135167
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -162,7 +162,7 @@ Name a current Method, MethodDescription, or performed Work through A.3.1, A.3.2
 
 #### F.18:7.2a - Method Relation Structure and Method Algebra Name
 
-A lab says: "Use the robot-engineering method algebra: choose scouting, then calibration, then training; fall back to teleoperation if training fails."
+A lab says: "Use the robot-engineering method algebra: choose scouting, then calibration, then training; fall back to teleoperation if training fails." An operator asking what to do on a training failure can already use the stated fallback. A terminology editor asks what must keep the same name if the lab revises those instructions. Keep the list of methods fixed and change the fallback to apply on a calibration failure. The individual methods can keep their names while the arrangement changes. This identifies the relation structure as a candidate for its own name if a reader needs to cite that arrangement. To devise a fallback, first establish the result the lab still requires, how the operator will recognize the condition in time and which alternative can deliver that result.
 
 Recovered values:
 

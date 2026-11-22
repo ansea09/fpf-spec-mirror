@@ -6,12 +6,12 @@ section_id: "C.36.RP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:4 — Solution"
-line_start: 96193
-line_end: 96263
+line_start: 96240
+line_end: 96310
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -66,7 +66,7 @@ Decide which contributions the receiving participants will perform themselves an
 
 Compare retaining the existing arrangement, adding a contributor, teaching or training, providing a tool, changing the method, and retiring a superseded way only where those alternatives answer the found difficulty. C.11 supplies a consequential choice among formed options. C.40 supplies construction of alternatives when the way is still to be found.
 
-Retain the material that makes the selected arrangement usable. Depending on the gap, this can be a readable construction, its inputs and conditions, an explanation of a decisive step, an executable model or an example that shows how to change the method. Keep access to the needed performer or executor as part of the arrangement. Select a form that the receivers can use.
+Retain the material that makes the selected arrangement usable. Depending on the gap, this can be a readable construction, its inputs and conditions, an explanation of a decisive step, an executable model or an example that shows how to change the method. Keep access to the needed performer or executor as part of the arrangement. If several contributions are promised, trace the allowed uses through the people, tools and handovers they need. Establish whether the provisions can meet their respective commitments together. One handover can be assessed on its own delivery conditions. Select a form that the receivers can use.
 
 When the method changes, make the changed operations and conditions recoverable so participants can obtain the version their work needs. Keep the earlier variant when continued use, comparison or recovery needs it. An access repair can leave the method itself unchanged.
 

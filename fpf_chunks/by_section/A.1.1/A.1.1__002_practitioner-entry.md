@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_practitioner-entry.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:0 — Practitioner entry"
-line_start: 3158
-line_end: 3200
+line_start: 3146
+line_end: 3188
 dependencies:
   - "A.1"
   - "A.14"
@@ -45,12 +45,12 @@ keywords:
 
 **First useful move — take the smallest branch.**
 
-1. Name one model edition and one place or thing about which it is used.
+1. Identify the model edition and the subject of the decision. For a proposed application, state the intended use and conditions. For a claim of actual use, identify the Work for which use is asserted.
 2. Ask what the present decision needs.
    - If applicability alone answers it, recover `ModelApplicabilityRelation` and stop.
    - If actual use is current, recover the performer through A.13 and let A.15.1 independently admit the performed Work; because `ModelUseRelation` expressly represents assignment-bound use, then establish F.6 through the same obtaining A.13 assignment and recover `ModelUseRelation`, then stop.
    - If maintained expression content is current, recover the fixed model content, fixed expression content, declared coherence predicate, and comparison scheme, then decide `ModelExpressionCoherenceRelation` and stop.
-3. Recover the remaining direct relations only when their joint organization changes the decision. Select `BoundedModelUseStructure` only then.
+3. Recover the remaining direct relations only when their joint organization matters to the decision. To select `BoundedModelUseStructure`, establish all its constituents, obtaining relations, applied constraints and selection-use frame. To decide whether that selection is available, check whether the grounds exclude any required relation or their coexistence in the same selection-use frame. Either finding rules out the structure. If joint satisfaction remains open, a decision requiring positive grounds can still be deferred.
 4. Keep every boundary crossing separate. A proposed source, target, direction, required fit, permitted loss, and claim scope is useful planning content, but it is not an occurrence and cannot identify either endpoint structure.
 
 **Entry case.** A press-control team must decide whether a controller-code change may be handled as a local code edit or must enter the independently governed release review together with model applicability and operating use.
@@ -76,7 +76,7 @@ The named selection-use frame is developed in section 5.1. If the decision asks 
 
 **Short glosses.** A **model episteme** is one claim-bearing model edition. A **model-use holon** is one already admitted holon, such as a system, a performed Work occurrence or an episteme, about which the model applies or is used; it is not a context container. **Work** (`U.Work`) is one exact dated doing, not its method, plan, or result. A **claim scope** (`U.ClaimScope`) is the set-valued boundary of context slices for one claim. A **relation occurrence** is a world-side relation actually obtaining under its predicate. A **reference scheme** is the interpretation basis for claim content. A **structure** here is a selected organization of already governed constituents, obtaining relations, applied constraints, and one exact selection-use frame; it is not another whole.
 
-**Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the condition for stopping or returning to its direct relations. If either is missing, stop at the direct relation or the pattern that defines or tests it.
+**Adoption test.** What does the receiving rule allow on the established facts? For a positive selection, identify the exact organization and what difference it makes. When a necessary condition fails or remains unresolved, state which selection that affects and which decisions the established direct relations can still support.
 
 **Names for retrieval.** The Plain label is **bounded context** and the Tech label is `BoundedModelUseStructure`. Use F.18 for designation settlement and lineage, and F.17 for the public terminology row and its refresh evidence; A.1.1 keeps only the names needed to apply this pattern. Authors **MUST NOT** publish `U.BoundedContext` as a U-kind.
 

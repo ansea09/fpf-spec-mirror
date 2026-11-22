@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:4 — Solution"
-line_start: 126856
-line_end: 126896
+line_start: 126967
+line_end: 127007
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -35,11 +35,11 @@ Reconcile meanings before assigning destinations. Preserve every difference that
 2. **Keep the input roles distinct.** A documentary claim remains what that source asserts. A returned MR account keeps its candidate, rival and evidence limits. A current FPF/DPF result keeps its declared scope. A source's report that work occurred is not independent occurrence evidence.
 3. **Resolve only the meaning difference that matters.** Use F.0.1 when a source expression is ambiguous, F.1 when the source cut is insufficient, and F.0.2 when cross-source synthesis is needed. Use F.0.2’s provisional synthesis, contrast or unresolved-inquiry result, with its source edition, grounds and any disposition already made. Preserve a locator when later citation needs it; a similarity score does not replace the comparison.
 4. **Subtract the current answer by value.** Open the current FPF or DPF supplier that appears to cover the contribution. Compare the practitioner question, action, first result, applicability and stop. Use the supplier directly if it answers those positions. When a source adds a warranted Method-specific condition or move, retain that remainder and explain its receiving use.
-5. **Decide whether the contributions can share an account.** Compare reusable action, participant meanings, preconditions, result, variation and stop. Merge supported common content while retaining different conditions. Split incompatible actions or statuses. Keep an unresolved alternative when the evidence cannot distinguish them. A.3.1.QM and B.1.5.CM settle any Method or whole claim needed by the allocation.
+5. **Decide whether the contributions can share an account.** Compare reusable action, participant meanings, preconditions, result, variation and stop. Merge supported common content while retaining different conditions. Split incompatible actions or statuses. Keep an unresolved alternative when the evidence cannot distinguish them. If the reader must use several contributions together, explain where the outcome of each is used and which conditions must hold jointly. Independently produced contributions may have to refer to the same item or fit the same version. An account of the encompassing work can carry that explanation while each source retains its own method. Use A.3.1.QM and B.1.5.CM for an actual claim of Method identity or composition.
 6. **Assign the contribution and its remainder.** Identify the existing result to reuse, the addition or change to a Method description or pattern, the material to keep at its source and any unresolved question. Allocate the shared construction by its premises. A Method, corpus or publication can be the subject of a transdisciplinary operation. Retain a domain contribution where its action depends on that discipline's substantive knowledge; do not infer either Core placement or exclusion from the subject's name.
 7. **Make the decision usable and revisable.** Give the reader the contribution, reason, destination, retained difference, source return and next action. If a later user will cite the allocation, keep a stable local locator with its edition. Name the source or supplier change that reopens it.
 
-A one-contribution answer is enough. Expand to several allocations only when their overlap, omissions or shared conditions change the language or receiving decision.
+One justified placement can finish an allocation. If the reader must choose or change an arrangement, show how its requirements determine which contributions to retain, replace or obtain elsewhere. Put the reason where the reader makes that choice. A list of destinations can remain the useful index to that account.
 
 #### F.0.2.MA:4.2 - Preserve what the destination cannot carry
 
@@ -58,7 +58,7 @@ For a reusable allocation, this amount of information is normally enough:
 | Receiving use | Which Method-description or pattern-language question does this allocation settle? |
 | Source contribution and role | What is being carried from which passage, edition or returned account? |
 | Current supply | Which existing result answers the reusable part, under what limits? |
-| Reconciliation | What is shared, different, merged, split or still unresolved, and why? |
+| Reconciliation | What is shared, different, merged, split or still unresolved, and why? If the reader needs several contributions together, where can they recover the relation that makes them usable together? |
 | Destination and remainder | What changes in the receiving description or pattern, and what remains elsewhere? |
 | Return | Which changed premise reopens the allocation, and where should the reader return? |
 

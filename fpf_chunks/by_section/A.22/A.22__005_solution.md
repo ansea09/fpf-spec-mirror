@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:4 — Solution"
-line_start: 41854
-line_end: 42205
+line_start: 41886
+line_end: 42239
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -81,7 +81,9 @@ A diagram, graph, table, model, description, view, or publication may designate,
 
 #### A.22:4.1 - Base `U.Structure` Identity and Selection
 
-For a selected structure `S`, recover four identity discriminators:
+First determine which organization would answer the question in §1. For example, a venue must offer one room for a rehearsal of 70 people who need to work together. Its two rooms have 120 usable places in total. A division of 80 and 40 places and a division of 60 and 60 give the same total but different answers even when both rooms are free. Trace which places belong to which room. The usable capacity of an identified available room can settle the offer without a seat-by-seat drawing. For an order for the total number of usable places across both rooms, the certified total alone can suffice. The change in what the model must distinguish comes from the use of the answer.
+
+For the organization selected for that use, recover four identity discriminators:
 
 ```text
 StructureIdentity(S) = <
@@ -143,7 +145,7 @@ Use description, publication, source-use, evidence, work, gate, decision, releas
 
 #### A.22:4.1b - Constraint-governed unfolding structure
 
-Use `A.22.CGUS` to clarify available continuations and their conditions. Use its formal branch when the named use depends on the identity or CGUS membership of the selected organization. Then identify one A.22 structure with several locally declared loci whose bindings identify the independently selected constituents for the unfolding question; its selected obtaining relation occurrences and applied constraint claims must define at least two potential continuations across allowed cases. The loci are not free-standing A.6.5 slots. A separate case- and time-indexed result may enable zero, one, or several candidates. This specialization remains `U.Structure`; a Method, plan, Work or present-case continuation result is a separate object.
+Use `A.22.CGUS` when the question is whether a particular continuation is available, whether any can work, or what the complete set is. Use the conditions and extent required by that question. Use its formal branch when the named use depends on the identity or CGUS membership of the selected organization. Then identify one A.22 structure with several locally declared loci whose bindings identify the independently selected constituents for the unfolding question; its selected obtaining relation occurrences and applied constraint claims must define at least two potential continuations across allowed cases. The loci are not free-standing A.6.5 slots. A separate case- and time-indexed result may enable zero, one, or several candidates. This specialization remains `U.Structure`; a Method, plan, Work or present-case continuation result is a separate object.
 
 A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
 

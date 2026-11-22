@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 31081
-line_end: 31125
+line_start: 31109
+line_end: 31153
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,7 +90,7 @@ These constructed cases stipulate their project facts. The hospital case follows
 
 * **WorkPlan:** `Fab_Maintenance_W36` is interpreted under `FabMaintenancePlanningScheme-E3`, has horizon `[2025-09-06T00:00Z, 2025-09-08T00:00Z)`, and concerns already identified `Fab-Production-System-4 : U.System`. `Tool_42` and `Tool_13` remain assets named by the PlanItems; they are not an unproved joint EntityOfConcern.
 * **`PlanItem` content:** `Tool_42 chamber clean` under `ChamberCleanMethod-E2`; `Tool_13 calibration` under `ToolCalibrationMethod-E1`; the ClaimGraph carries an exclusivity constraint with production windows. The scheduling policy, per-item windows and reserved quantities remain case inputs for this abbreviated illustration.
-* **Reservations:** nitrogen, DI water, metrology window.
+* **Reservations and decision:** nitrogen, DI water and a metrology window. Suppose each task takes one uninterrupted hour with the sole metrology technician, either order is allowed and both tasks must finish in the same maintenance window. When the technician and both tools are free for three hours clear of production, with all other inputs ready, reserve consecutive hours for the two tasks. If the only available hour is the same for both, the separate reservations cannot be honoured together. Changing the window or providing another qualified technician is a new planning choice.
 * **Later local assertion:** The chamber-cleaning Work occurrence is identified independently as an individual admitted under `U.Work`. `FabChamberCleanPlanUsePolicy-E1` asks whether that Work enacted `ChamberCleanMethod-E2`, stayed inside the planned window, and kept nitrogen use within the reserved amount. A.15.1 supplies the Work and enactment facts; C.27.TA qualifies the within-window claim; B.1.6 supplies the resource aggregate used in the budget comparison. For this illustration, assume that the three policy conditions all obtain; a separate C.2.1 assertion about the plan then states positive fulfilment. Early completion and nitrogen underrun additionally require the corresponding strict comparisons. A shared item label or reservation row supplies none of those facts.
 
 #### A.15.2:6.3 - Data-center rollout (multi-context plan)

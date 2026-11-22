@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.12.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
-line_start: 112167
-line_end: 112333
+line_start: 112233
+line_end: 112399
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -35,9 +35,9 @@ keywords:
 Use this pattern in either of two working situations:
 
 - **An assurance claim has no clear practical benefit.** An author or reviewer can see the proof or assurance level but cannot say what it helps the intended user understand or decide. Apply the Rationale Mandate in §4.2: explain that benefit in ordinary language, or leave the claimed benefit unexplained pending a substantive answer. The assurance-level judgement retains its own B.3.3 profile.
-- **A reader gets stuck, or a work demand appears excessive.** Identify the passage or workflow at issue, the reader's task, stated prerequisites and missed or costly action. Apply the bounded HF-Loop in §4.3 to compare a justified alternative while preserving the method and controls. Return a supported repair, no change or the exact evidence limit; §4.4 shows a no-change result.
+- **A reader gets stuck, completes a different task fluently, or encounters a costly demand.** Compare the work the intended recipient brought with the task and help available in the passage. Use §4.3 to locate the lost choice, missing support or unnecessary demand and test a repair against the original use.
 
-The first route asks why formal assurance helps. The second investigates a concrete obstruction or burden; a general complaint about complexity alone does not diagnose it. A missing subject prerequisite, a necessary control or a difficult decision may remain after the wording is clear. Keep the inquiry's cost proportionate to the useful result it can change.
+The first route asks why formal assurance helps. The second investigates the work a passage actually elicits, including a different choice made smoothly. A missing subject prerequisite or unsuitable assignment may call for a different intervention from a repair to the explanation.
 
 ### E.12:2 - **Problem**
 
@@ -82,24 +82,24 @@ Name the decision the assurance makes possible. To claim that the work now takes
 
 #### E.12:4.3 - Mechanism 2: The Human-Factor Loop (HF-Loop)
 
-Use this bounded inquiry when an intended reader encounters a specific consequential obstruction in a named passage or workflow under its stated prerequisites, or when a concrete work demand may cost more than it contributes to the receiving value. A workload report can identify a concern; it does not diagnose its cause or establish a psychometric threshold.
+Use this inquiry when the working result gives reason to examine what a passage or workflow asks of its intended reader. Difficulty can be visible as delay, an unsuccessful attempt, excessive work or a fluent answer to a different question. A workload report or a smooth performance can justify looking closer. Establish what the reader was actually doing before attributing a cause.
 
-1. **Recover the working question.** Name the reader's task, passage or workflow, stated preparation/access prerequisites, failed or costly action, and the result it should support.
+1. **Recover the working question.** Read the recipient's commission beside the task they actually received. Identify who had to decide or explain what, which objects and conditions mattered, and which choices the instructions or ordinary help already supplied. Follow the difference to its consequence for the intended work.
 
    Preserve the relevant assurance and control conditions. If the suspected demand cannot change a worthwhile result, C.11.DUA can justify stopping the inquiry at that limit.
-2. **Inspect the initial attempt before explaining.** For an actual reading inquiry, retain what the reader initially understood and tried with the public passage and stated task inputs, including where the action stopped or went wrong.
+2. **Inspect the initial attempt before explaining.** Retain what the reader understood and did with the published passage, task inputs and ordinary permitted support. Include a successful answer to a different task when it helps locate the change of question.
 
    Distinguish an implicit condition, a missing stated prerequisite and an unavoidable subject question.
 
    Choose the inquirer for this question; profession, competence, assignment and amendment authority remain distinct.
-3. **Compare a meaning-preserving alternative.** Make an implicit condition explicit, reduce an unnecessary demand or change the expression only where the suspected obstruction warrants that comparison.
+3. **Compare an alternative for the original use.** Make a condition explicit, remove an unnecessary demand or restore the decision the reader was commissioned to make. Distinguish a change to the wording or help from a change to the work assigned.
 
-   Hold task, prerequisites and assurance constant. Check the full connected passage under F.19; a shorter text that removes a needed condition has not preserved the method.
+   Keep the commissioned task, ordinary prerequisites and assurance requirements constant when comparing expressions. If the previous assignment asked for a different result, record that difference and judge the repaired assignment against the original commission. Use F.19 on the connected passage.
 
    Evaluate the attainable inquiry's burden under C.11.DUA.
 4. **Qualify the evidence.** An expert walkthrough judges recovery from the public text; it is not an observed reader response.
 
-   Preserve an actual reader's unassisted first attempt. A repeat after explanation is assisted and familiar, not another independent first reading or proof of reduced workload.
+   Preserve the first attempt and the support available to the reader at the time. Unaided recognition requires an unaided first attempt. In a practice with ordinary help, observe what the reader can do with that help. A repeat after the reviewer's explanation shows performance under the changed conditions.
 
    Psychometric or causal conclusions require their own selected domain methods and data.
 5. **Stop with the supported result.** Return a justified wording/content repair, no change, or the exact evidence limit and any worthwhile next question.
@@ -125,8 +125,8 @@ A second attempt after explaining the list can support only a qualified assisted
 ### E.12:5 - **Conformance Checklist**
 
 *   **CC-E12.1 (Rationale Mandate):** Every key assurance episteme or publication, including an assurance case or proof publication, **MUST** contain a non-empty, human-readable `rationale` that satisfies the "So What?" test. Any `AssuranceLevel` claim separately cites its applicable `B.3.3` profile and shows that the target meets that profile's criteria.
-*   **CC-E12.2 (Bounded inquiry trigger):** A significant workflow **SHOULD** make consequential reader obstructions or doubtful work demands recognizable. An inquiry names the task, passage/action, prerequisites and relevant assurance boundary; a conceptual workload threshold alone is insufficient.
-*   **CC-E12.3 (Inquiry and stop):** For a live trigger, apply §4.3 at a burden warranted by C.11.DUA. An actual reading inquiry preserves the initial unassisted attempt before explanation and compares any proposed alternative at unchanged task/prerequisites/assurance. Return a supported repair, no change or the exact evidence limit; qualify assistance and leave amendment authority separate.
+*   **CC-E12.2 (Bounded inquiry trigger):** Examine a consequential mismatch between the commissioned work and the work the passage elicits, an obstruction or a doubtful work demand. Recover the task, passage, prerequisites and assurance the use requires.
+*   **CC-E12.3 (Inquiry and stop):** Apply §4.3 at a burden warranted by C.11.DUA. Preserve what the reader did before the reviewer's explanation and the help ordinarily available. Compare the candidate with the commissioned task and its intended conditions. State the repair, the grounds for retaining the passage or what the evidence leaves open. A reader's success supports conclusions about the work that reader actually did.
 *   **CC-E12.4 (Didactic Primacy in DRRs):** Any DRR proposing a change to a normative pattern **MUST** include a section analyzing its impact on cognitive ergonomics and didactic clarity.
 
 ### E.12:6 - **Common Anti-Patterns and How to Avoid Them**
@@ -148,7 +148,7 @@ A second attempt after explaining the list can support only a qualified assisted
 
 ### E.12:8 - **Rationale**
 
-The `Rationale Mandate` requires a clear explanation of the cognitive purpose of each key assurance episteme or publication. The bounded Human-Factor inquiry examines an actual reader obstruction or work demand while retaining the method's prerequisites and assurance. It does not require a speculative threshold or a refinement proposal when none is supported.
+The `Rationale Mandate` connects formal assurance to its cognitive purpose. The Human-Factor inquiry examines a consequential difference in the reader's work, including apparent success on an easier assignment. Its result may justify a repair, retention or further inquiry.
 
 A purely conceptual workload warning would leave the reader without a next action; a stronger psychometric or causal method would require separately justified observations and design.
 

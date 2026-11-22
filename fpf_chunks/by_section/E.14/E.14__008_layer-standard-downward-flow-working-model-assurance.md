@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 112700
-line_end: 112795
+line_start: 112766
+line_end: 112861
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -109,7 +109,7 @@ Under B.3/B.3.3, Empirical Validation contributes what its result establishes fo
 
 #### E.14:5.6 - Purpose-selected support for a single Working-Model statement
 
-Start with the direct Working-Model arrow **A –Component-of→ B**. If no assurance-bearing reliance question is current, the author may stop there. If a profile or named current requirement is active, add only the support it calls for:
+Start with the direct Working-Model arrow **A –Component-of→ B**. It can settle which whole a specified part belongs to. To explain how an arrangement works, connect that membership to the relationships on which the result depends. When a profile or current requirement calls for assurance, add its prescribed support:
 
 1. **Mapping**, when source-word alignment matters, shows that *A* and *B* are the chosen labels for their model values and records background labels without making them Working-Model names.
 2. **Logical**, when the relation reading needs assurance, states what **Component-of** means here and the boundaries of that use.

@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 119444
-line_end: 119553
+line_start: 119528
+line_end: 119639
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,8 @@ Write a `TransformationFlowMathematicalDescription@Context` only when the mathem
 If a separate representation, transfer or adequacy question remains beyond the sufficient local description, use C.29 and retain its result; add a lens-use record only when the receiving use needs one.
 
 #### E.18.2:4.1 - First-use account
+
+Start with what the recipient wants to infer about the selected structure or network. If you are to choose the expression, ask which changes in its participants or their connections could alter that inference. Could two arrangements have the same graph or summary and require different answers? Retain the distinguishing relation, supply an independent premise, or limit the inference to what both arrangements support. If the expression is given, establish which of those conclusions it already supports.
 
 State the subject, mathematical object, correspondence, what the expression preserves and loses, and its declared use in ordinary prose or equations when sufficient. Use this compact record when the receiving use needs a separately inspectable description:
 

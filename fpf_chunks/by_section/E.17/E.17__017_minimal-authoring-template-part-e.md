@@ -6,12 +6,12 @@ section_id: "E.17:14"
 section_title: "Minimal authoring template (Part E)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__017_minimal-authoring-template-part-e.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:14 — Minimal authoring template (Part E)"
-line_start: 115557
-line_end: 115572
+line_start: 115631
+line_end: 115646
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -49,10 +49,10 @@ keywords:
 **Ordinary publication**
 
 * **Current source/account:** `<recoverable source and edition or current subject>`
-* **Reader and use:** `<who needs what understanding or action>`
+* **Reader and use:** `<the question or choice the reader must be able to handle, alone or with others>`
 * **Minimal publication-form set (MVPK faces):** `<one or only the needed forms>`
 * **Bounded-use declaration for each form:** `<reader, permitted use, and blocked stronger use>`
-* **Preserved and omitted:** `<claims retained; material omissions or narrowing>`
+* **Preserved and omitted:** `<which source claims and connections support that use, and what remains open for the original question>`
 * **Return to source:** `<where the reader checks or reopens the source>`
 * **Stop:** `<why no additional face or apparatus changes this use>`
 

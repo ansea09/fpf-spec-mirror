@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 125153
-line_end: 125271
+line_start: 125250
+line_end: 125368
 dependencies:
   - "A.1"
   - "A.14"
@@ -136,7 +136,7 @@ If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or o
 
 #### E.24.CD:5.7 - Multi-party emergency
 
-An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Recover each participating System and each actual change separately.
+An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Start from the question the report must answer. Recover the participating Systems and actual changes it depends on. If the question concerns their interaction, identify what the change in one permits or prevents in another.
 
 For every dated response claimed as `U.Work`, recover each precise performer's A.13 core and independently admit the occurrence under A.15.1 as stated in `E.24.CD:5.6`; add F.6 only when the current account also needs exact assignment-bound attribution. Keep any local system-role classification separate.
 

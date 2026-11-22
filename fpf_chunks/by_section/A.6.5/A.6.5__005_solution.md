@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 24297
-line_end: 24462
+line_start: 24314
+line_end: 24479
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.6.5:4 - Solution
 
-Apply relation-declaration slot discipline only after the direct relation and its relation-participant meanings have been recovered. Give every relation-participant meaning needed by the current typed use one complete `SlotSpec` in the `RelationSignature`. Let the direct-relation definition supply the obtaining predicate and occurrence-identity rule. Follow the `A.6.REL` minimum-current-object rule: a later use adds only its current object and the direct relation to an already recoverable object rather than restating the complete relation-object architecture.
+Apply relation-declaration slot discipline only after the direct relation and its relation-participant meanings have been recovered. Give every relation-participant meaning needed by the current typed use one complete `SlotSpec` in the `RelationSignature`. Use the direct-relation definition to determine which kinds can participate and what would make the predicate hold. This gives the grounds for typing a proposed use before any instance occurs. A conclusion about which entity actually participated needs the facts of that case under the same definition and its occurrence-identity rule where needed. Follow the `A.6.REL` minimum-current-object rule: a later use adds only its current object and the direct relation to an already recoverable object rather than restating the complete relation-object architecture.
 
 #### A.6.5:4.0 - Ontological status of the discipline
 
@@ -131,7 +131,7 @@ A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` 
 Start with the lightest object that supports the named engineering use. The branch diagram maps three independent receiving-use thresholds that share one recovered direct relation; none is a prerequisite for either of the others:
 
 ```text
-readable assertion of the recovered direct relation
+readable statement of the relation, its participant meanings and its obtaining condition
   +-- reusable RelationSignature with SlotSpecs, when the receiving use needs reusable participant typing
   +-- explicit occurrence individuation, when a named claim or direct relation relies on occurrence identity
       +-- relation-occurrence description episteme, when a receiving episteme describes the occurrence

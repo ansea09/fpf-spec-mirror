@@ -6,12 +6,12 @@ section_id: "G.13:8"
 section_title: "Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__009_conformance-checklist-cc-g13-applies-when-g-13-surfaces-are-used.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:8 — Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
-line_start: 142357
-line_end: 142391
+line_start: 142502
+line_end: 142538
 dependencies:
   - "A.18"
   - "A.19"
@@ -76,6 +76,8 @@ keywords:
 
 11. **CC‑G13‑NotationIndependence.** *(local)* Conformance is judged on the conceptual objects in `G.13:4.2`. Any serialisation is non‑normative and must not redefine semantics.
    *(Cites `E.5.2` for notation independence.)*
+
+    For a new or revised mapping, follow the required output meaning through the actual transformation under :4.3.1. The source and recipe may warrant a result for one record, a repeatable derivation throughout stated conditions, or a bounded answer that holds under several field readings. Deliver the one commissioned when the grounds support it.
 
 Interop transforms **MUST NOT** perform illicit arithmetic on ordinal/compare‑only scales (e.g., averaging or subtraction); any aggregation must be via lawful CAL operators with explicit scale legality (cite `A.18` / `CC‑G0‑CSLC`).
 

@@ -6,12 +6,12 @@ section_id: "E.18.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:4 — Solution"
-line_start: 119687
-line_end: 119931
+line_start: 119773
+line_end: 120017
 dependencies:
   - "A.10"
   - "A.15"
@@ -121,7 +121,7 @@ Each Method, qualifying MethodDescription, WorkPlan, work-entry result, dated Wo
 
 #### E.18.3:4.0 - Ordinary start and conditional formal recovery
 
-For an ordinary first use, name the concrete thing being transformed, mark two recognizable places or states, state the proposed connection or guard in domain language, and ask which continuation depends on it. Return a provisional explanation that either answers the question or names the missing relation, fact, or constraint. If that is sufficient, stop; neither the explanation nor the flow card must first be constituted as an episteme, position mapping, or selected structure.
+Begin with the alternatives the recipient is considering. Which part of the transformation, other participant or enclosing arrangement could enable one of them or exclude it? Trace the necessary conditions to where they hold, and ask which differences among possible cases change the answer. For two stages that must join, both may be individually enabled yet their outputs may belong to incompatible configurations. Check the configuration when the recipient needs the joint continuation. When one established condition already excludes that continuation, that fact can settle the question. An ordinary explanation can also identify what remains unknown. Use it directly when sufficient.
 
 Use the numbered recovery branch below only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure. Comparison, publication and stronger reliance retain their own requirements for the claims made. That recovery preserves the membership and current-result distinctions; it is not a prerequisite for understanding or correcting an ordinary route-like card.
 

@@ -6,12 +6,12 @@ section_id: "E.15:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 113193
-line_end: 113206
+line_start: 113259
+line_end: 113272
 dependencies:
   - "C.18"
   - "C.19"
@@ -42,5 +42,5 @@ keywords:
 | **Version number supplies semantics** | `major`, `minor`, or `patch` is treated as proof of compatibility. | Decide continuity first; use a version label only to communicate that decision. |
 | **A new trace for every change** | DRR, review, source, check, and landing facts are copied into another authoring-trace record. | Keep the minimum change account in the receiving workflow and cite existing results. |
 | **Precise fragment, unreadable pattern** | A formal repair passes a token check while the whole pattern loses recognition and practical entry. | Read the whole changed pattern for practitioner recoverability and simplify non-load-bearing formal language. |
-| **Self-log as practitioner guidance** | The pattern publishes its own authoring history and calls it Work or quality evidence. | Keep one worked practitioner case in the pattern; keep actual work and evaluation evidence in their direct records. |
+| **Self-log as practitioner guidance** | The pattern publishes its own authoring history where a practitioner needs grounds to act. | Explain the method at the reach promised to its users. Use a worked case when it makes a needed relation recoverable and carry that relation back to their own work. Keep actual work and evaluation evidence in their direct records. |
 

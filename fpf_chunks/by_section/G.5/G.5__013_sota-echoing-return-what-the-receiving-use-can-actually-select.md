@@ -6,12 +6,12 @@ section_id: "G.5:11"
 section_title: "SoTA-Echoing — return what the receiving use can actually select"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__013_sota-echoing-return-what-the-receiving-use-can-actually-select.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:11 — SoTA-Echoing — return what the receiving use can actually select"
-line_start: 139052
-line_end: 139065
+line_start: 139185
+line_end: 139198
 dependencies:
   - "C.11"
   - "C.18"

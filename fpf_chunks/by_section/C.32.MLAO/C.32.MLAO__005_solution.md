@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:4 — Solution"
-line_start: 82780
-line_end: 82837
+line_start: 82814
+line_end: 82871
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -80,8 +80,8 @@ For a claim of improvement across scopes, identify what is being compared and fo
 | `repairFunctionBearerGap` | A residual-reducing functional change has no feasible bearer at the affected declared holon-level ref or scope ref. | Proposes or changes a feasible bearer, splits the function, changes placement, resource access, or control relations, or rejects the candidate. Any responsibility change uses its direct domain predicate; if none is admitted, record the missing governor. |
 | `addEvidenceScope` | Reusable candidate bearer lacks reusable evidence scope. | Makes evidence maintenance part of the candidate. For a current evidence use, apply `A.10` for source recovery and bounded reliance, and the applicable subject rule to judge whether the evidence supports the named claim or meets the named requirement. |
 | `addWorkMethodScope` | Repeated work remains bespoke because method structure is missing. | Proposes reusable method structure for the repeated work and names review or training burden. |
-| `repairArchitectureInfluenceCorrespondence` | The residual is carried by mismatch between one exact typed influence-side architecture source and transformed-side architecture content for the changed referent. | Open `C.32.CONWAY`; keep the changed referent and any actual A.3.4 `U.Transformation` separate, then prepare candidate alternatives that change the influence-source side, change the transformed side, change both, or keep a bounded mismatch. |
-| `acceptBoundedException` | Eliminating the residual costs too much now. | Records the exception and reopen trigger, including source return when needed to recover a consequential distinction. |
+| `repairArchitectureInfluenceCorrespondence` | A rule, operating arrangement or performed Work constrains a proposed change. For a claim of correspondence between two architectures, establish the structures on both sides and the relation between them. | Open `C.32.CONWAY`; keep the changed referent and any actual A.3.4 `U.Transformation` separate, then prepare candidate alternatives that change the influence-source side, change the transformed side, change both, or keep a bounded mismatch. |
+| `acceptBoundedException` | The exception falls within an allowed tolerance or the responsible authority has changed the obligation. Record its consequences and the cost of removing it. | Record the conditions under which the exception applies and when it must be reconsidered. |
 
 **Comparison-input boundary.** C.32.MLAO prepares comparison inputs; it does not run the comparison or choose a candidate. Its comparison inputs state expected residual reduction, possible new burden, selected structures and relevant preservation or loss. Include source-return conditions when a later use needs omitted distinctions, and C.29 lens-output references when used.
 

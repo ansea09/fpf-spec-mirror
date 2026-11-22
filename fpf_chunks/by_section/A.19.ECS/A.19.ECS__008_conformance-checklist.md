@@ -6,12 +6,12 @@ section_id: "A.19.ECS:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:6 — Conformance checklist"
-line_start: 36762
-line_end: 36783
+line_start: 36794
+line_end: 36815
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -32,7 +32,7 @@ keywords:
 | Check | Requirement | Why |
 |---|---|---|
 | `CC-A19ECS-1` | An evaluation characteristic-space specification SHALL name evaluated object kind, use scope, reader scope, and qualification window. | Prevents context-free quality claims. |
-| `CC-A19ECS-2` | It SHALL include admissible, below-floor, and outside-declared-object-kind boundary contrast cases. | Tests evaluated-object-kind discrimination. |
+| `CC-A19ECS-2` | The specification SHALL distinguish attainable outcomes that change the decision and state how outside-kind inputs are handled. For an outcome excluded from the declared domain, give its exclusion grounds. | Tests the actual distinctions and the boundary of the evaluated kind. |
 | `CC-A19ECS-3` | Each coordinate SHALL bind one characteristic to one scale, including for an ordinal content evaluation. State separately whether the value is a measurement claim or a content evaluation. | Preserves A.17/A.18/C.16/A.19 discipline. |
 | `CC-A19ECS-4` | Each coordinate SHALL state value meanings, polarity or no-simple-direction value rule, evidence rule, and missingness rule. | Makes values replayable. |
 | `CC-A19ECS-5` | The specification SHALL state floor, exceptional, status, stop, and reopen meanings for the declared use. | Lets improvement stop locally without claiming final perfection. |

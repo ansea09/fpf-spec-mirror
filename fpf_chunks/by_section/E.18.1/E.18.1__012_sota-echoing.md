@@ -6,12 +6,12 @@ section_id: "E.18.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__012_sota-echoing.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:11 — SoTA-Echoing"
-line_start: 119313
-line_end: 119333
+line_start: 119397
+line_end: 119417
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -60,7 +60,7 @@ The synthesis that combines these moves into one P2W carry-through discipline is
 
 The sources support the problem-first, relation-separated, replayable moves named in their rows; they do not establish that P2W is a universal workflow or that one carry-through claim is sufficient for every downstream claim.
 
-The hypothesis is limited to one accepted problem-card claim, one stated decision or use that needs it, and one result or stop from the pattern that answers the question. Outside that boundary, apply the pattern whose Solution answers the claim, split independent claims, or stop.
+The hypothesis concerns the passage of one accepted problem-card claim to a result or justified stop for an identified use. Independent questions can be answered separately. When one decision needs several answers together, the practice that makes that decision must supply the grounds for combining them.
 
 | Source and currentness role | Move adopted in P2W | Overread rejected and practical effect |
 |---|---|---|

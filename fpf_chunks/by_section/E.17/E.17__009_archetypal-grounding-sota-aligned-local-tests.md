@@ -6,12 +6,12 @@ section_id: "E.17:8"
 section_title: "Archetypal Grounding (SoTA-aligned Local Tests)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__009_archetypal-grounding-sota-aligned-local-tests.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:8 — Archetypal Grounding (SoTA-aligned Local Tests)"
-line_start: 115441
-line_end: 115461
+line_start: 115515
+line_end: 115535
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -50,7 +50,7 @@ Use these examples to test the MVPK invariants. A source’s reputation does not
 
 **Ordinary two-reader publication.** An accepted interface account already states the service boundary, messages, and failure conditions. A project lead needs a short explanation and an integrator needs the typed details. Publish one `PlainView` and one `TechCard`, both pointing to that same account and stating what they omit. Do not create `InteropCard`, `AssuranceLane`, a new viewpoint bundle, or a formal composition witness unless a later use needs them. The face labels establish neither `U.View` membership nor assurance.
 
-Suppose the interface account permits a retry after an explicit rejection before processing and requires a status inquiry after a lost acknowledgement. A short card for finding the interface account can stop at its reference. A card for deciding whether to retry must make the two cases distinguishable before the next send. An integrator can follow the reference to the identified rule in time. An offline shift can use a checked local copy of that edition too. If the shift has no timely authorized route to the rule, put its operative terms on the card with the source edition, or limit the card to orientation.
+Suppose the interface account permits a retry after an explicit rejection before processing and requires a status inquiry after a lost acknowledgement. A short card for finding the interface account can stop at its reference. A card for deciding whether to retry must make the two cases distinguishable before the next send. An integrator can follow the reference to the identified rule in time. An offline shift can use a checked local copy of that edition too. If the shift has no timely authorized route to the rule, put its operative terms on the card with the source edition, or limit the card to orientation. If the lead must explain why the actions differ, a list of the two instructions can leave the question open. The source may establish that the first request could already have taken effect when an acknowledgement is lost. Carry that ground into the lead’s account. If the source gives only the instructions, publish those and identify the missing ground for the requested explanation.
 
 The remaining examples exercise optional formal or load-bearing branches.
 

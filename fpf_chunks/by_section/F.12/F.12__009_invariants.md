@@ -6,12 +6,12 @@ section_id: "F.12:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__009_invariants.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:8 — Invariants"
-line_start: 131409
-line_end: 131423
+line_start: 131526
+line_end: 131540
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ keywords:
 
 1. **Exact promise.** The evaluation identifies the `U.PromiseContent` claim, not merely an SLO label or cell.
 2. **Delivery-side relations.** The judged delivery Work or population and the applicable A.2.3 promise-use, delivered-outcome, and fulfilment relations remain distinct from evaluation.
-3. **Outcome evidence.** Observations and values concern the promised characteristic of that Work; outputs and approvals alone are insufficient.
+3. **Outcome evidence.** Establish the outcome the agreement makes relevant. An authenticated approval can discharge a promise to give that approval. To conclude that an approved change produced a particular effect, establish the effect or a warranted relation to it. For a measured promise, connect the values to the characteristic, work and conditions specified.
 4. **Direct-before-proxy.** When observation and measurement directly concern the promised characteristic, use C.16 and A.10 and add no proxy. For a distinct indicator, identify its participants and the rule that defines or tests their relation. Return `missing-governor` if the rule is missing. If it is known, check its conditions for this case.
 5. **Window and population.** Both are explicit and match the promise.
 6. **Evaluation basis.** The selected inputs, applied acceptance rule and result remain recoverable. A claimed or rule-required dated evaluation Work and exact A.6.1 application satisfy their separate admission and binding conditions.

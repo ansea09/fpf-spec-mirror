@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:7 — Conformance Checklist"
-line_start: 102280
-line_end: 102298
+line_start: 102333
+line_end: 102351
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -32,8 +32,8 @@ keywords:
 | Check | Passing condition |
 | --- | --- |
 | `CC-PFIP-1` Bounded candidate | The candidate framework edition and declared publication use are named. |
-| `CC-PFIP-2` Accepted inputs complete | Every accepted source contribution is included. When it changes a public entry or consumed interface, the affected public entries and direct consumers are included with it, or that source contribution is left out of this candidate. |
-| `CC-PFIP-3` Two questions kept separate | When the publication has a predecessor, accepted-source incorporation and predecessor preservation receive independent conclusions. |
+| `CC-PFIP-2` Accepted inputs complete | For full edition assembly, include every accepted source contribution. For a bounded incorporation question, establish the named contribution and the receiving expressions on which its use depends. When it changes a public entry or consumed interface, the affected public entries and direct consumers are included with it, or that source contribution is left out of this candidate. |
+| `CC-PFIP-3` Two questions kept separate | A full edition with a predecessor receives independent conclusions on accepted-source incorporation and predecessor preservation. A narrower commission identifies the comparison performed and the reach of its conclusion. |
 | `CC-PFIP-4` Publication relations distinguished | Edition, individually identified expression, reusable form, expression and conformance relations, carrier, bearing relation, audience, bounded use, and publication occurrence are identified separately when they affect the comparison. |
 | `CC-PFIP-5` Pair eligibility established | Every one-to-one pair has the same declared use plus retained form identity or an accepted one-to-one continuity decision. |
 | `CC-PFIP-6` Complete inventory selected | Each pair uses a complete inventory selected through the FPF pattern that defines or constrains the form, or through another accepted comparison basis. |

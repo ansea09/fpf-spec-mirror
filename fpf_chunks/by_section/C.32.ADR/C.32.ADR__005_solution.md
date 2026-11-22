@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 84487
-line_end: 84528
+line_start: 84525
+line_end: 84566
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ Work in this order:
 5. Carry the candidate basis. Record candidate options from `C.32` or the reason no candidate-set question is live. Do not invent options in the ADR after the decision.
 6. Carry the outcome that has been reached. A consultation can invite a choice among open options. For an adopted decision, identify the selected architecture option, bounded exception or supersession from PAD.
 7. Carry rationale, accepted losses, and consequences. Include architecture-characteristic trade-offs and guardrails, not only benefits.
-8. Carry Method-use instructions and work split when the decision guides developer work. State the required action and expected structure effect plainly; cite the Method, pattern-use guidance or readiness rule when the reader needs it.
+8. When the decision guides implementation, state what it fixes and which choices remain with the developer. Where the developer can choose among implementations, try a different permitted one. For a fully specified implementation, trace that one. Can its developer recover the obligation and any applicable exception in time to act? Include the required relation or provide access to its grounds.
 9. Carry the confirmation, evaluation or violation-detection conditions needed by the decision's use. Use `C.32.ACE` for evaluation framing, `C.16` for measurement, `A.10` for a needed replayable source-to-use account, and `B.3`, `A.21` or the governance rule for the respective assurance, gate or authority claim. Preserve the support each claim requires.
 10. Carry the applicable publication and source-return boundaries. Use `E.24.PUB` for publication occurrences and audience availability, `E.17` when a source-backed face and source return are needed, and `C.30.AD` for architecture-description claims.
 11. Carry status, supersession, and update conditions. Old records remain useful as history when superseded; the active decision relation tells which one governs current work.

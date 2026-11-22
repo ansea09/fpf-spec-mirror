@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 101150
-line_end: 101411
+line_start: 101201
+line_end: 101462
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -74,7 +74,7 @@ If evidence has not been inspected or cannot substantiate a coordinate value, ke
 For a new or substantially revised DPF, ask four further questions:
 
 - What work and connections does the field promise cover? Recover them from the intended practice and its sources. Follow the first use and a representative use that needs a connection between problem families. The same use may serve both purposes. Which obligations do their grounds cover, individually or together? For the rest, identify what the intended reader can obtain and use from the edition or its suppliers under the promised conditions. Record what is established, what the evidence rules out and what is still unknown about coverage of the field (`D12DomainProblemFamilyCoverageAdequacy`). Preserve any first use the evidence supports.
-- Where the sources describe practice architecture, does the package preserve the first-then flow and simultaneous bounded contributions that the sources establish for the practice? Use a completed `C.32.MWA` result as evidence when several structures need reconciliation; do not repeat that Method's actions here. Use an `E.23.CDI` result only when capability development changes the package claim.
+- Recover the relations on which the domain practice depends. Does the answer apply at each relevant composition scale, carry from one model to another, or depend on several contributions working together? Check shared conditions, including order or simultaneity when timing affects the result. Reuse a completed `C.32.MWA` result where structures must be reconciled and `E.23.CDI` where capability development affects the claim.
 - For the named first use, are all required patterns from this DPF present? For every relied-on external result, are its identity, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability, and externality explicit? For each important source-backed claim, can a reviewer find the source and tell whether the evidence supports, suggests, or only motivates it?
 - When the declared use includes a public presentation carrier, does that carrier bear the framework publication form defined by `E.11.PFP` while keeping its DPF-specific body and references under `E.4.DPF`? Keep `PFM1` responsible for practitioner entry and navigation; use `PFM12` only for the remaining common-form and edition-projection questions. Form conformance does not prove field coverage or package adequacy.
 
@@ -195,7 +195,7 @@ The aggregate result episteme has its own C.2.1 identity; empirical grounding, w
 | `2` | `partialSeed` | Useful source, prompt, or pattern-seed material exists, but package obligations are incomplete or fragile. |
 | `3` | `locallyUsableWithVisibleLimits` | The package can support bounded exploration or local use with explicit limits and repairs. |
 | `4` | `wellGroundedForDeclaredDPFUse` | The package is coherent, source-grounded, FPF-dependent, navigable, and refreshable for the declared use. |
-| `5` | `exceptionallyGroundedForDeclaredDPFUse` | The package is replayable across source basis, pattern set, relation records, heterogeneous cases, publication carriers, improvement route, refresh route, and discriminating boundary cases. |
+| `5` | `exceptionallyGroundedForDeclaredDPFUse` | A practitioner can recover the source grounds, use the pattern set through the declared carrier or carriers and justify the connections its result depends on. The improvement and refresh routes can recover a change that matters. Show which grounds distinguish this value from `4` across the declared uses. |
 
 Default floor is `4` for public, teaching, enterprise, operational, or reliance-bearing DPF use. A fast seed or exploratory prompt output may use floor `3` only when its limits, missing evidence, next repair, and reopen condition are explicit.
 
@@ -286,7 +286,7 @@ Use these sources and patterns to inspect the evidence needed for the declared p
 | --- | --- |
 | Source payload, rejected alternatives, source currentness, and source-use boundary | Inspect the direct source use, `F.1` selection, `F.0.2` comparison, or `G.2` pack used under `E.4.DPF:4`. Use `G.11` when refresh or currentness work is needed; bring the supported payload, limits and affected-use result into the package judgement. |
 | Public field promise, selected problem-family pattern sets, representative use, every pattern required for the first use, and each relied-on external result with its direct kind, supplying product, edition or current state, receiving use, discovery route, material currentness or availability, and externality | `E.4`, `E.4.PFAD`, `E.4.DPF`, `E.4.PFR` where a dependency or recorded relation obtains, and `E.8:4.1.3` for the four return boundaries |
-| First-then versus simultaneous contribution and several-structure synthesis | `B.1.5`, `A.22`, `A.22.CGUS`, `C.30.AD`, and a completed `C.32.MWA` result when several structures need reconciliation |
+| Relations the source practice requires, including sequence, simultaneous contribution or compatibility across several structures | `B.1.5`, `A.22`, `A.22.CGUS`, `C.30.AD`, and an available `C.32.MWA` result where their synthesis is needed |
 | Common framework publication form | `E.11.PFP` and `E.4.DPF`; use `E.4.PFIP` separately when accepted-source integration or predecessor continuity is claimed |
 | Individual pattern quality | `E.21` |
 | Pattern admission or profile gating | `E.19` |

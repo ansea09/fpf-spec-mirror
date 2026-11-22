@@ -6,12 +6,12 @@ section_id: "A.15.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__011_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:10 — Rationale"
-line_start: 32712
-line_end: 32727
+line_start: 32744
+line_end: 32759
 dependencies:
   - "A.1"
   - "A.1.STM"

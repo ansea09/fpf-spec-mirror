@@ -6,12 +6,12 @@ section_id: "A.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:5 — Archetypal Grounding"
-line_start: 27679
-line_end: 27693
+line_start: 27703
+line_end: 27719
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -39,7 +39,9 @@ These six cases are constructed model checks, not empirical performance reports.
 | Probability that at least one of those same independent components succeeds | The alternative-success model selects `1 - (1-.9)(1-.8) = .98`. Identical marginals and unchanged components support a different law because the intended event changed. |
 | Compose `f(x)=x+1` and `g(x)=2x` in the required order | `g(f(x))=2x+2` differs from `f(g(x))=2x+1`. Keep the order; no Characteristic or measurement Scale is required for this function-composition claim. |
 | Reorder or repartition disjoint exact additive resource contributions | Exact addition permits the stated reorder and regrouping. That argument establishes neither arbitrary floating-point regrouping nor independence of repeated-source evidence. Check the numerical and source conditions when they matter. |
-| New evidence defeats independence in the reliability cases, while the assembly retains its identity | Withdraw the .72/.98 computations that used independence. Obtain a justified dependence model or return only a supported bound or the separate marginals. The same assembly remains the subject unless its independent identity rule requires a different conclusion. |
+| Independence is no longer warranted. The decision requires a joint success probability of at least .70, with success probabilities .9 and .8 over the same trials. | The two failure probabilities are .1 and .2. The probability of either failure is at most their sum, .3, so both succeed with probability at least .70. Accept that threshold. Joint success is at most .8, so a threshold of .85 would fail. The earlier .72 and .98 calculations for joint and alternative success lose their independence premise. |
 
 For the additive construction, the singleton base case returns 2 from the one-element input `[2]`. It does not claim `2 + 2 = 2`. Nor does writing the same observation twice create two independent observations.
+
+In the reliability case without an independence assumption, if the failures are disjoint, joint success is .70. If the .1 failures are all among the .2 failures, it is .80. Both arrangements have the stated marginals. A threshold of .75 therefore remains undecided from those marginals alone. The subject is the same assembly throughout.
 

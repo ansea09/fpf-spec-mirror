@@ -6,12 +6,12 @@ section_id: "C.34:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__004_forces.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:3 — Forces"
-line_start: 85209
-line_end: 85218
+line_start: 85249
+line_end: 85258
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -51,6 +51,6 @@ keywords:
 | Equivalence vs use | Exact equivalence is rare and often unnecessary; the declared use decides how much preservation is enough. |
 | Formal rigor vs practitioner action | Formal mapping modes help only when preserved and lost structure are named in architecture terms. |
 | Shape vs semantics | Two graphs, views, or diagrams can have the same shape while their relation types differ. |
-| Compression vs loss | Projection, abstraction, coarsening, and simulation relations make work possible by dropping structure. In a chain from selected source structures to architecture, architecture description or view, and narrative or framework carrier, preservation must be checked relation by relation rather than claimed as one global sameness. |
+| Compression and loss | Identify which relation the receiving work has to recover through a projection, model or narrative. Test the links used in its derivation. A supported end-to-end correspondence can resolve an end-to-end question. Establish the individual links when the answer relies on them or the commission asks about them. |
 | Cross-context reach | A mapping across teams, source traditions, tool models, or holon levels needs the Bridge predicate and conformance test when substitution or transfer is claimed. |
 

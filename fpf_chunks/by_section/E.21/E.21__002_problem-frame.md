@@ -6,12 +6,12 @@ section_id: "E.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:1 — Problem frame"
-line_start: 121897
-line_end: 121914
+line_start: 121985
+line_end: 122002
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -42,7 +42,7 @@ If the pattern fails the required use, the result episteme states `repairBeforeU
 
 Not this pattern when the evaluated object is one `DRR`, an FPF-level corpus object, a single wording repair, a source-use decision, or a project-side evidence, assurance, gate, release, safety, compliance, work, or decision claim. Use `E.9.DA` for a DRR, `E.2.DA` for an FPF-level corpus object, `F.19` for a wording repair, and the pattern governing a source-use or project-side claim for that claim. Open `E.10` or a named precision-restoration neighbor for an unresolved FPF-specific meaning.
 
-**First useful move.** Name the exact pattern edition, required use and scope, working reader, and qualification window. Read its working situation, first useful move, practical delta, boundaries, and evidence. Then assign every coordinate an evidence-based value with an adjacent-value rationale and form the aggregate result episteme.
+**First useful move.** Recover the work expected of the pattern's reader from the governing request. What will the reader receive, what must they choose or construct, and for whom? Name the edition, required use, scope and qualification window. Follow that work from the working situation to the result a reader can obtain with the guidance. Use this comparison when assigning each coordinate its evidence-based value and adjacent-value rationale, then form the aggregate result episteme.
 
 `floorEvaluation` changes only the declared floor and expected cost of obtaining evidence. An E.21 result retains the required `ClaimScope`, full coordinate set, rationales, and `PrecisionRestorationProfile`. Evaluate fragmentary, ill-formed or weak pattern text under the required scope. For an established weakness, record low coordinate values, repair status, an architecture hold or refresh, as applicable.
 

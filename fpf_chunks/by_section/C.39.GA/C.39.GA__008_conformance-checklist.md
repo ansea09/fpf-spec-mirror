@@ -6,12 +6,12 @@ section_id: "C.39.GA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:7 — Conformance Checklist"
-line_start: 88152
-line_end: 88157
+line_start: 88198
+line_end: 88203
 dependencies:
   - "C.39.RO"
   - "C.39.SA"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.39.GA:7 - Conformance Checklist
 
-- The original commission and the conclusion the actual reasoning supports can be compared at the same decision.
-- The recipient can recover the previously missing inference at its stated reach, or identify the consequential part that remains open.
+- The result supported by the actual reasoning answers the commissioned question about its subject, including any explanation or construction entrusted to the recipient.
+- The recipient can make the promised inference or perform the promised construction at the stated reach, or identify which consequential part remains open.
 - Where the conclusion crosses composition scales or model abstraction levels, the explanation supplies the link it uses. A change of values within one model can test an assumption while keeping the model level fixed.
 

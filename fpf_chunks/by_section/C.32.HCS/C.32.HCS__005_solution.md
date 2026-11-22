@@ -6,12 +6,12 @@ section_id: "C.32.HCS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:4 — Solution"
-line_start: 81592
-line_end: 81647
+line_start: 81626
+line_end: 81681
 dependencies:
   - "A.19"
   - "C.11"
@@ -45,7 +45,7 @@ Choose a starter pack by the admitted holon family or recovered architecture-bea
 Build or use a starter pack in this order:
 
 1. Name the admitted holon family or recovered architecture-bearing family. If the source label is method, role, practice, culture, tradition, style, or evidence practice, recover the bearer before choosing heads. A Method admitted by A.3.1 is itself a non-agentive holon; its description, a Work occurrence under A.15.1, and the performing System remain separate. When the label is only a description-side family, name the source-bearing episteme or publication context. Record only the recovery patterns used.
-2. List a small set of starter characteristic heads that often matter for that family.
+2. For a single project, propose characteristics from the work the recipient needs and the relation that could change it. To recommend a question across a family, establish the conditions under which it helps, using a common requirement or evidence covering the intended projects. A locally useful characteristic can remain a candidate for wider use.
 3. For each head, name likely bearers or selected structures, not only a quality word.
 4. Record likely C.25 Q-Bundle boundaries when a head is usually composite.
 5. State a first project question that helps the practitioner decide whether the head belongs as a draft row in the project criteria set.

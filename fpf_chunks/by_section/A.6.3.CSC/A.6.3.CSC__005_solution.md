@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:4 — Solution"
-line_start: 18782
-line_end: 18923
+line_start: 18793
+line_end: 18934
 dependencies:
   - "A.15"
   - "A.20"
@@ -32,7 +32,7 @@ keywords:
 
 ### A.6.3.CSC:4 - Solution
 
-Begin with direct semantic compression. Name the present reader or use, point to the source passage or account, list the distinctions that use needs, write the shorter candidate, and compare candidate with source. Make clear what survived, what was omitted, weakened, aggregated, redacted, or made harder to recover, and what the candidate added or strengthened without support in the source; then make the supported use and return condition clear. Apply F.19:4 to any explicit excluded-use statement.
+For a new account, name the present reader and use, locate the source, select the distinctions that use needs, and write the candidate. For a supplied candidate, take its actual text and compare it directly with the source for the intended use. Establish what remains available to the reader, what material loss limits use, and whether any claim is added or strengthened beyond the source. Give the supported use and the condition for returning to the source. Apply F.19:4 to any explicit excluded-use statement.
 
 The ordinary result is the shorter candidate and its directly reachable source; the surrounding text may already make the use, loss, and return clear. Use §4.1 only when a separate comparison record helps the receiving use.
 
@@ -76,9 +76,9 @@ If the candidate must travel independently or the content identity changes the r
 
 Before using the shorter candidate, ask:
 
-1. Is the present reader or use explicit, and are the distinctions needed for that use named before shortening?
+1. What is the present reader’s use, and which distinctions must this candidate retain for it? If how the author produced it is itself in question, establish that history from evidence of the work.
 2. Can the source passage or account be reached directly, and does the candidate preserve every named distinction?
-3. Are all omissions and weakenings identified, and is every candidate claim supported by the source rather than added or strengthened by fluent prose—for example a number, classification, temporal statement, approval status, causal claim, modal claim, or authority claim?
+3. Which omissions or weakenings could change what a reader may infer, decide or do in the intended uses? Is every surviving claim supported by the source under the stated conditions? Check any added number, classification, temporal, causal, modal or authority claim that could strengthen the result.
 4. Are the supported use and any required source return clear, with any explicit exclusion justified under F.19:4?
 5. Are the source material, candidate content, publication occurrence, form, carrier, Work, evidence, assurance, authority, and gate claim kept separate whenever one of those distinctions is current?
 
@@ -103,9 +103,9 @@ Keep only entries that change the current use or next action:
 - `coarsenedRenderingPublicationUnitIfAny` only when one `PublicationUnit` is distinct from the publication, disclosure note, dashboard tile, or `interop publication form` on which it appears;
 - one source-relation reference, `projectSourceRecordRef`, or privileged reopen path, with any cited pattern named for the concrete definition, constraint, test, method, or source relation it supplies, so a coarsened rendering cannot reset its own provenance;
 - optional `coarseningBranch` only when it selects one additional branch-specific rule in `A.6.3.CSC:4.4`; ordinary direct semantic compression remains unlabelled;
-- every concrete lost or weakened distinction, with several recorded when several coexist; no single loss tag may substitute for this account;
+- the concrete losses or weakenings that affect the intended use, its justification or the route back to necessary source material, including their combined effect where it matters. For an audit that requires an exhaustive comparison, state its scope and record the full result there.
 - `recoverabilityAfterCoarsening` only when the proposed use needs recovery, stating the recovery requirements and selected next move under `A.6.3.CSC:4.5`;
-- at least one kept claim or distinction bundle, one coarsened or dropped bundle, and one reopen-only bundle when the case is disputed or later cited;
+- for a disputed or cited claim, show what the receiving account still establishes. Identify any lost distinction needed for that use and where an authorized reader can recover it. A conclusion that follows from the receiving account can be justified there.
 - an exact `E.17:5.1b` literal in a local field permitted by `E.17:5.1e` only when that source-relation status changes the next bounded use; CSC keeps no local paraphrase catalog;
 - uncertainty or abstention state when branch interpretation, preserved distinctions, source pin, or named narrower use cannot yet be stated stably;
 - the independent-verification question when downstream testing, assurance, gate, or external reliance appears;
@@ -121,7 +121,7 @@ Ordinary direct semantic compression needs no `coarseningBranch`: state its conc
 | Optional branch cue | Additional rule it selects |
 | --- | --- |
 | source-pinned surrogate, index, or handle | Keep the named source directly reachable and limit the candidate to source-finding, retrieval, or orientation. Naming an `authoritySourceRef` only routes return to its governed relation. |
-| privacy or redaction | Name the sharing boundary, every concrete withheld or weakened distinction, the re-identification or accountability risk being reduced, the source review path, and the accountability or gate uses that remain blocked. |
+| privacy or redaction | State the permitted audience, what the released account can support and which uses the withheld information affects. Give authorized reviewers a route to the details needed for their duties. A required full inventory belongs with the party authorized to inspect it. Keep restricted details out of disclosures that would identify the subjects. |
 | exceptional interop-facing simplification | Keep `X`, `Y`, and `c` recoverable and name the operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary. For an equivalence, substitution, or projection claim, establish the operative relation and support its bounded use under the pattern that governs that relation. Use F.9 when the claim requires a Bridge between local senses with different interpretation bases, and state its bounded-use claim separately; an F.9.1 stance note is optional reader help about that claim. |
 | aggregation or quotient condition | Name the distinctions combined and the aggregation rule while `Y` still concerns the same EntityOfConcern as `X`. A bounded selected set may appear inside `Y`'s claim content but is not an endpoint by itself. If several entities or alternatives become a new class-level or proxy EntityOfConcern, use A.6.4. |
 
@@ -129,7 +129,7 @@ A branch cue changes only the additional rule named in its row. Scheme differenc
 
 #### A.6.3.CSC:4.5 - Concrete loss, recoverability, and anti-overread
 
-Name every concrete distinction omitted, weakened, aggregated, redacted, narrowed in scope, made harder to recover, or lost through representation change. Several losses can coexist and all decision-relevant ones remain visible. Redaction and aggregation describe how a loss arose; neither substitutes for the lost qualifier, uncertainty, alternative, evidence path, relation, scope, trace, or inspection possibility. No loss tag is required when the concrete account already changes every relevant decision. If a publication-facing case also needs an E.17 source-relation status, use the exact literal `source-loss-declared`; that literal says that loss was declared and does not say what was lost.
+Identify the distinctions whose loss can change the answer, its grounds, its allowed use or the reader’s ability to recover what is needed. Explain how omission, aggregation, redaction or a change of representation affects those distinctions. When the commission calls for an inventory of every omission, compare the full source with the result under the stated unit of comparison. Redaction and aggregation describe how a loss arose; neither substitutes for the lost qualifier, uncertainty, alternative, evidence path, relation, scope, trace, or inspection possibility. Use a loss label when it helps the reader recognize a use condition or choose what to do. A concrete account can already establish why the present decision remains warranted. If a publication-facing case also needs an E.17 source-relation status, use the exact literal `source-loss-declared`; that literal says that loss was declared and does not say what was lost.
 
 Recoverability and admissible use remain separate. Use the choices below only when the proposed use needs a lost distinction; otherwise retain the sufficient bounded result. Name every required recovery, then read the rows in order for that proposed use. Keep all unmet requirements visible even when one of them determines the next move.
 
@@ -142,7 +142,7 @@ Recoverability and admissible use remain separate. Use the choices below only wh
 
 The four rows distinguish mutually exclusive recovery conditions for the proposed use; they are not a strength scale. A recoverable candidate is not automatically admissible for downstream use, and a blocked use is not repaired merely by saying the source might exist.
 
-A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all three epistemes and both constructions, carry forward every earlier loss and uncertainty, and state only the added loss at the second step. If that cannot be done, return to `X`.
+For a coarsening chain `X -> Y1 -> Y2`, retain both source-to-result relations and a usable route back through them. Assess accumulated loss against the final use. Two changes that each leave a way to the answer can together remove the last such route. Carry forward the source conditions and uncertainties that affect the final answer or the reader’s return. Reopen X when Y1 and the available correspondence no longer establish what Y2 retains.
 
 #### A.6.3.CSC:4.6 - Neighboring-pattern boundaries
 
@@ -164,7 +164,7 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 #### A.6.3.CSC:4.7 - Well-formedness constraints
 
-**Well-formedness constraint CSC-WF-0 (ordinary bounded use).** An ordinary local candidate is usable only while its source is adjacent or directly linked, the present use and must-retain distinctions are explicit, any loss and anything added or strengthened beyond source support are visible together with the supported-use boundary, and return remains cheap. This provisional comparison asserts neither exact endpoint identity nor an independently transferable CSC construction.
+**Well-formedness constraint CSC-WF-0 (ordinary bounded use).** An ordinary local candidate is usable only while its source is adjacent or directly linked, the present use and must-retain distinctions are explicit, the losses material to that use and any additions or strengthening beyond source support are visible together with the supported-use boundary, and return remains cheap. This provisional comparison asserts neither exact endpoint identity nor an independently transferable CSC construction.
 
 **Well-formedness constraint CSC-WF-1 (exact controlled-coarsening construction).** An exact or independently reused CSC account is well formed only when it identifies `X`, `Y`, and `c : X -> Y`; the same EntityOfConcern; one declared narrower admissible use; controlled loss; and one visible return to `X`, established source relations, or the pattern that supplies the needed definition, constraint, test, or method. Identify the claim-bearing whole under C.2.1; a model, graph, state representation or selected set qualifies only when it satisfies those conditions. Keep its publication, form and carrier separate. An open corpus, folder, topic or search cluster alone does not identify either endpoint.
 

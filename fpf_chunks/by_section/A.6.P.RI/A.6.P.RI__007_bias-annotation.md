@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__007_bias-annotation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:6 — Bias-Annotation"
-line_start: 21609
-line_end: 21614
+line_start: 21624
+line_end: 21629
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

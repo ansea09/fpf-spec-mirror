@@ -6,12 +6,12 @@ section_id: "A.15.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:7 — Conformance Checklist"
-line_start: 32221
-line_end: 32234
+line_start: 32253
+line_end: 32266
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 | ID | A conforming readiness use... | Check |
 | --- | --- | --- |
-| `CC-A15.5-1` | names the WorkPlan, PlanItem, intended performance, criterion, and evaluation time. | The readiness result cannot float free of the plan content and bounded entry question it judges. |
+| `CC-A15.5-1` | names the WorkPlan, PlanItem, intended performance, criterion, and evaluation time. | For a specified criterion, the verdict covers that criterion. For readiness of the promised work, the criterion covers the required contributions and their joint conditions at entry. |
 | `CC-A15.5-2` | separates readiness from performed work. | No target `U.Work` occurrence is asserted unless dated work evidence is current. |
 | `CC-A15.5-3` | separates full-kit inputs, checking results and preparation/checking Work. | A readiness claim need not identify a separate checking Work. Every dated Work it does assert needs A.13 and independent A.15.1 admission; F.6 applies only to a consumed precise assignment-bound claim. |
 | `CC-A15.5-4` | cites planned baselines without rewriting them. | A.15.3 planned-filling rows remain declaration-local content inside the WorkPlan. |

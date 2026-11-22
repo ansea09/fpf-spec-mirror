@@ -6,12 +6,12 @@ section_id: "C.39.RP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:7 — Conformance Checklist"
-line_start: 89204
-line_end: 89215
+line_start: 89250
+line_end: 89261
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -32,5 +32,5 @@ keywords:
 - [ ] Every lineage claim names both subjects, the relation, and the supporting source without implying causation, superiority, or composition.
 - [ ] Publication/artifact edition and current project reliance are distinguishable. A new date alone neither defeats nor renews support; changed evidence, applicability and time boundaries govern the receiving use.
 - [ ] Missing alternatives, provenance, relations, editions, evidence, or source meanings remain visible.
-- [ ] The stop states what the repertoire supports and which claims remain unavailable.
+- [ ] The result supports the assigned use of the repertoire. A claim to list every eligible way has grounds for coverage.
 

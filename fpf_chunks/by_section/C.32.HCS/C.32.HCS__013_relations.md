@@ -6,12 +6,12 @@ section_id: "C.32.HCS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__013_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:12 — Relations"
-line_start: 81714
-line_end: 81719
+line_start: 81748
+line_end: 81753
 dependencies:
   - "A.19"
   - "C.11"

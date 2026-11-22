@@ -6,12 +6,12 @@ section_id: "C.40.CU:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:1 — Problem frame"
-line_start: 90890
-line_end: 90899
+line_start: 90936
+line_end: 90945
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -34,7 +34,7 @@ Use this pattern when a material, device, living construct or supported way of w
 
 The working reader develops or investigates such an application and can perform or obtain the relevant domain operations. The subject is the connection between discovering a response, constructing a useful arrangement and making that arrangement reproducible. A successful probe can supply a useful clue while leaving the new application unfinished.
 
-**First useful move.** Preserve one response and the conditions that produced it. Ask what receiving use it could change, and what uncertainty would change the next action. Use the response within its supported limits, or construct the smallest worthwhile contrast needed before relying on it.
+**First useful move.** Start with an observed response and its conditions, or with a proposed response and what could establish it for the intended use. Ask what receiving use it could change, and what uncertainty would change the next action. Use the response within its supported limits, or construct the smallest worthwhile contrast needed before relying on it.
 
 The first result can be a bounded usable response, a candidate application, or a statement of the contribution still needed. A repeatable application additionally needs an obtainable method, capable participants and the conditions under which its result can be obtained. Use an already adequate application directly; ordinary material variation under C.40 is enough when no discovery-to-use connection is missing.
 

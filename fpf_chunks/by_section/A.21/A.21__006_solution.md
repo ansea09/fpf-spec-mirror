@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 41531
-line_end: 41679
+line_start: 41563
+line_end: 41711
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -129,7 +129,7 @@ In ordinary language: **the worst mapped result wins**. Only after every require
 
 The join is associative, commutative, and idempotent. `abstain` is neutral and `block` absorbs other values, but those algebraic properties do not change the source results.
 
-The join determines the decision value; the profile rule also determines its action consequence. Retain every applicable action restriction unless an authorized rule changes it. For example, two checks may each map to `degrade`, one requiring reduced speed and the other supervision: the permitted action must satisfy both. Conflicting restrictions permit no action unless an applicable rule resolves the conflict; the shared `degrade` value alone supplies no permission.
+The join determines the decision value; the profile rule also determines its action consequence. Identify the action this rule governs. A pass at one gate can settle the question asked of that gate. To infer that someone may start the complete operation, establish the authority for that actor, action and time and satisfaction of the other applicable entry conditions. One standing rule can supply the authority and make this gate sufficient. Retain every applicable action restriction unless an authorized rule changes it. For example, two checks may each map to `degrade`, one requiring reduced speed and the other supervision: the permitted action must satisfy both. Conflicting restrictions permit no action unless an applicable rule resolves the conflict; the shared `degrade` value alone supplies no permission.
 
 | Decision | Meaning for the bounded action |
 | --- | --- |

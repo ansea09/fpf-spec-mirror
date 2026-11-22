@@ -6,12 +6,12 @@ section_id: "E.9:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:7 — Conformance Checklist"
-line_start: 104875
-line_end: 104907
+line_start: 104935
+line_end: 104967
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,7 +42,7 @@ keywords:
 |----|-------------|---------|
 | **CC-DRR.0 (ordinary decision first, exact distinctions when material)** | The working problem, selected answer, practical change, loci, first drafting action, and nearest boundary are recoverable before optional method/work/application or episteme apparatus. If identity or named reliance changes the claim, the relevant method, work, result, record, source use, assessment, authority, and realization remain distinct. | Keeps the DRR usable without losing exact distinctions when they matter. |
 | **CC-DRR.0a (optional exact DRR identity)** | When exact DRR identity is needed, its ClaimGraph, bounded decision-question/change-set EntityOfConcern, and effective ReferenceScheme are recoverable; carrier, rendering, route state, status, or later Core edit is not an identity constituent. | Preserves a recoverable claim episteme without making every ordinary DRR start from the schema. |
-| **CC-DRR.0b (actual-host replay for broad rules)** | Before distributing a broad language, ontology, or authoring rule, replay it on at least one real host and its proposed replacement, accounting for their dependencies. The replay compares entry, inputs, action, vocabulary, formality and assurance burden, result, stop, useful predecessor ideas, and direct consumers at comparable effort; proxy evidence does not substitute. | Prevents a clean-looking abstract rule from degrading use of the affected patterns. |
+| **CC-DRR.0b (actual-host replay for broad rules)** | Before distributing a broad language, ontology, or authoring rule, replay it on at least one real host and its proposed replacement, accounting for their dependencies. The replay compares entry, inputs, action, vocabulary, formality and assurance burden, result, stop, useful predecessor ideas, and direct consumers at comparable effort. Establish how the result bears on uses outside that host before making a claim about them. | Prevents a clean-looking abstract rule from degrading use of the affected patterns. |
 | **CC-DRR.0c (positive decision and restrained alternatives)** | The current DRR carries the positive selected decision. A rejected alternative remains only when it explains the answer, a live boundary, or a reopen condition; Pillar and taxonomy-lens effects are recorded only where they changed the decision. | Prevents negative catalogues and ritual completeness from displacing the authoring source. |
 | **CC‑DRR.1** | For a Delta-2 or Delta-3 semantic change, the DRR **SHALL** make Problem frame, Decision, Rationale, and Consequences recoverable before Core drafting. Any exact decision-work/application account or authority to realize the answer is added only when that identity or reliance is current and remains a separate governed claim. | Prevents undocumented semantic edits without imposing the high-reliance account on ordinary use. |
 | **CC‑DRR.1a** | A DRR whose proposed change is expressed as a new or revised pattern written in the standard template (E.8) **MAY** satisfy that minimum kernel by **pointing to** the corresponding pattern sections rather than duplicating prose. | Avoids copying the argument a second time while keeping it recoverable. |

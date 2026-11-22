@@ -6,12 +6,12 @@ section_id: "F.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:0 — Use This When"
-line_start: 134168
-line_end: 134188
+line_start: 134287
+line_end: 134307
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,7 +54,7 @@ Use `F.18` when a name must become stable, public, Core-facing, reusable under m
 
 **First useful move.**
 
-1. Recover the exact value and the pattern containing its defining or testing rule.
+1. Start with what the intended reader must distinguish when using the name. Recover the value meant there and the pattern that defines or tests it.
 2. Decide whether ordinary local wording is enough or later use needs a durable name.
 3. For a durable name, reuse a current naming settlement that already covers this value and use. Otherwise compare the plausible names and record the Tech label, any Plain designation needed for a stated didactic use, the selection reason and the condition for reconsidering the choice in a `NameCard`.
 

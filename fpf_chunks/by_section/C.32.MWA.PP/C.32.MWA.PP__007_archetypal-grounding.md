@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:5 — Archetypal Grounding"
-line_start: 83467
-line_end: 83646
+line_start: 83505
+line_end: 83684
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -44,9 +44,9 @@ The selected structures are:
 
 In a separate five-day Method Engineering case, `ME-W0` is the bounded project adaptation Work. `ME-W1` repertoire-recovery Work, `ME-W2` candidate-account formation Work, `ME-W3` description/tool-proposal Work, and `ME-W4` evaluation Work are parts at the next finer grain; trial Work `ME-W7` is part of `ME-W4`. During the same five-day interval, continuing product-engineering Work `ME-W5` and repository-maintenance Work `ME-W6` overlap `ME-W0` but are not its parts.
 
-The repertoire-recovery Method contributes through `ME-W1`, candidate-account formation through `ME-W2`, description/tool proposal through `ME-W3`, and trial/evaluation Methods through `ME-W7` and `ME-W4`. Product-engineering and repository-maintenance Methods contribute concurrently through `ME-W5` and `ME-W6`. These are contributions at whole-Work, part-Work, nested trial-Work, and separate overlapping-Work grains, not one level sequence.
+The repertoire-recovery Method contributes through `ME-W1`, candidate-account formation through `ME-W2`, description/tool proposal through `ME-W3`, and trial/evaluation Methods through `ME-W7` and `ME-W4`. Product-engineering and repository-maintenance Methods contribute through the external performances `ME-W5` and `ME-W6`. Each overlaps some of `ME-W0`. The composition scales follow from the chain through `ME-W0`, `ME-W4` and `ME-W7`. To claim that the external performances also compete for a resource at a given moment, identify their relevant activities and intervals.
 
-Two case-local first–then relations remain inside that simultaneous interval: `ME-W1` precedes `ME-W2`, and `ME-W3` precedes the relevant evaluation decision in `ME-W4`. Temporal overlap across the other grains erases neither relation. It establishes neither a universal Method stack nor `methodPartOf`; a teaching tree that presents recovery before evaluation is a description view, not the Work structure.
+Two local precedence relations hold within the five days: `ME-W1` precedes `ME-W2`, and `ME-W3` precedes the relevant evaluation decision in `ME-W4`. The external activities can occur at different times within the five days. A teaching sequence can present recovery before evaluation. To assign a constituent to a Method, establish its part in the same reproducible way of working.
 
 Consider a minute inside trial Work `ME-W7`. The participant follows the proposed unit-review description, converts a supplied measurement and compares it with the stated tolerance. Performing that comparison is part of carrying out the trial; the trial is part of evaluating the proposed description in `ME-W4`; that evaluation is part of the project adaptation `ME-W0` currently under way. The encompassing evaluation and adaptation are ongoing through this performed action, although their conclusions have not yet been reached. This is a constituent connection, not an inference from the five-day overlap.
 
@@ -73,7 +73,7 @@ Before entry, choose A only when signed evidence is available in time and the si
 
 Missing signed evidence at `D-8` withholds release and starts recovery R. Preserve the performed integration record, exact provisional edition, uncertainty, and earlier use. When signed evidence arrives, record its relation and delta to the provisional edition, re-baseline, and repeat the comparison and affected verification. Retain or roll back/repeat early integration. For a full repeat of these recovery tasks, count `1.60 h` supplier preparation plus `2.80 h` safety preparation, board, and trace/closure work (`0.40 + 0.33 + 2.07`). Count affected verification or integration rework in addition; the case supplies no fixed duration for it. If recovery stops before those tasks finish, record the Work and burden that actually occurred rather than assigning the full repeat cost. Move only to the next authorized slot after repeated decision Work under the covering assignments and authority relations. Every repeated AI suggestion again requires the trace-review Work, assignment, and permission. Signed evidence supersedes provisional evidence for closure reliance without erasing the provisional history.
 
-The architecture decision remains prospective. Implementation and the three trial releases are later Work. If signed evidence becomes available at `D-21`, sensitivity selects A prospectively; it does not rewrite a past B2 release.
+The decision is prospective. Implementation and the three trial releases are later Work. Signed evidence available at `D-21` makes A eligible for comparison. The choice also depends on the capacity, authority and value conditions below. A change in future availability leaves the past release history intact.
 
 In that pre-entry variant, suppose the existing signed-first arrangement has adequate current capability, capacity and release evidence, and the same comparison reveals no useful gain from provisional-first preparation. The team can finish by retaining A on that basis. Planning an extra B2 trial would consume the safety attention needed for the current release without changing this decision. Changed evidence timing or capacity can reopen the comparison. The baseline case has a thirteen-day mismatch and supports the three bounded B2 trials under their stated conditions.
 

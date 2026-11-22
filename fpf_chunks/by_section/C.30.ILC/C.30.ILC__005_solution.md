@@ -6,12 +6,12 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 78152
-line_end: 78270
+line_start: 78186
+line_end: 78304
 dependencies:
   - "A.10"
   - "A.22"
@@ -112,7 +112,7 @@ A layer label is not a structure kind, not a system level, not a rate band, and 
 
 **Interlevel conflict, frustration residual, and complexity-growth recovery.** A conflict is architecture-shaping only when the account identifies the declared holon levels or declared scopes, the selected structure or structure kind that carries them, and the conflict carrier: constraint, objective, admissibility condition, tempo, resource allocation, information-transfer relation, or assurance requirement. A frustration residual is architecture-shaping when the cross-scope loss persists after attempted local repair, or when a stated reason shows why that repair would leave the loss unresolved. Complexity-growth pressure is only a candidate reason to add, split, mediate, or stabilize structure when that change is expected to reduce the residual enough to justify the new cost and its own residue.
 
-Identify where the two constraints meet and decide what the available evidence settles. If an exchange can return an acknowledgement no earlier than 10 seconds after a request and the receiver accepts it only within 5 seconds of that same request, the design cannot complete that exchange as specified. The two bounds already settle the design decision. To attribute a particular cell stop to this conflict, establish which request was outstanding at the deadline, whether a reply had arrived by then and which rule actually stopped the cell. A competing explanation needs checking only if it changes the decision. Apply C.28 when attributing a change in the rate of stops across jobs to the retuning.
+Identify the constraints whose combination matters, their connections and what their sources establish. When different models group the arrangements differently, check whether the apparently conflicting conditions can occur together in the use under inquiry. If separate summaries lost their pairing, restore the joint constraint before attributing a conflict to the architecture. The loss of that relation can itself answer a question about the descriptions. If an exchange can return an acknowledgement no earlier than 10 seconds after a request and the receiver accepts it only within 5 seconds of that same request, the design cannot complete that exchange as specified. The two bounds already settle the design decision. To attribute a particular cell stop to this conflict, establish which request was outstanding at the deadline, whether a reply had arrived by then and which rule actually stopped the cell. A competing explanation matters when it changes the causal account or the action the recipient needs. Apply C.28 when attributing a change in the rate of stops across jobs to the retuning.
 
 **Multilevel optimization boundary.** First establish whether local optimization in one declared holon level or scope degrades another declared holon level or scope. This triage neither optimizes the architecture nor proves that one global function exists. A mathematical treatment needs a recoverable mapping between declared levels, scopes, scale windows or coarse-graining steps, with the distinctions preserved and lost for its use. Retain an adequate domain treatment directly. Use C.29 when formulation, transfer or reliance remains unresolved; its `MLU.Description@MultilevelLearningFrustration` form is optional unless the receiving interface requires it.
 

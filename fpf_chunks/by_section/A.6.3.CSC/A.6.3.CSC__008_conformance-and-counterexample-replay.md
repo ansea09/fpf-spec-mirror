@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
-line_start: 18958
-line_end: 19001
+line_start: 18969
+line_end: 19012
 dependencies:
   - "A.15"
   - "A.20"
@@ -38,7 +38,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-0 (Ordinary entry).** | The practitioner names the present use and must-retain distinctions, writes the shorter candidate, compares it with the source, rejects unsupported additions or strengthening, and makes loss, the supported-use boundary, and return clear before optional identity work. | Makes direct semantic compression the first useful move without admitting a fluent invention. |
+| **CC-CSC-0 (Ordinary entry).** | The practitioner establishes the present use and its required distinctions, writes a shorter candidate or evaluates the one received, and compares it with the source. Establish material loss, detect unsupported additions or strengthening, and give the supported use and return condition. | Supports authoring and assessment of an existing account. |
 | **CC-CSC-1 (Exact endpoints when material).** | When the candidate must travel independently or content identity changes the receiving use, `X` and `Y` each have recoverable claim content, EntityOfConcern, and effective interpretation rules (`ReferenceScheme`). | Requires an identified claim-bearing episteme even when the source is presented as a set, model, graph or other representation. |
 | **CC-CSC-2 (Exact construction when material).** | The same trigger requires `c : X -> Y` with same EntityOfConcern, claim construction, endpoint-scheme relation, preservation, controlled loss, prohibited strengthening, applicability, and return. | Makes a load-bearing coarsening claim testable without making the formal account the ordinary entrance. |
 | **CC-CSC-3 (Admissible use).** | The ordinary candidate names its present use; `Y` has one stated narrower admissible use. | Keeps convenience from becoming broad authority. |
@@ -67,7 +67,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | Same vs different scheme | Coarsening can occur within one scheme; material representation-semantic change additionally opens RT, but scheme difference alone establishes neither `c` nor controlled loss. |
 | Candidate vs `U.View` | Coarsened `Y` can be valid under CSC and still fail E.17.0 conformance; a tile or layout is not a View. |
 | Source publication/form/carrier | A publication occurrence may make `X` available; form and carrier express it. None becomes `X`, and changing one does not reidentify unchanged `X`, `Y`, or `c`. |
-| Loss or unsupported addition | Any omitted or weakened qualifier, uncertainty, alternative, evidence path, or scope is named, and every candidate claim remains supported by the source; an added or strengthened claim such as `therefore release is approved` fails even when all required source conditions survive. The narrower use and return condition block the stronger use. |
+| Loss or unsupported addition | Omitted or weakened qualifications, uncertainty, alternatives, evidence paths or scope that affect this use are identified, and every candidate claim remains supported by the source; an added or strengthened claim such as `therefore release is approved` fails even when all required source conditions survive. The narrower use and return condition block the stronger use. |
 | Source set/model/graph/evidence set | Such an object is an endpoint only when the selected claim-bearing whole passes C.2.1; otherwise `X` claims about or cites it. |
 | Work or description | Coarsening Work and a coarsening-description/card episteme remain separate from `c`; editing either does not change unchanged endpoints. |
 | Grounded source, ungrounded coarsening | Grounding, evidence, or authority attached to `X` does not transfer to `Y`; `Y` needs its own direct grounding/evidence/authority path for any use that requires one. |

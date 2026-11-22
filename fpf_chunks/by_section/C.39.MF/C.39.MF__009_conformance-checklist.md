@@ -6,12 +6,12 @@ section_id: "C.39.MF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:7 — Conformance Checklist"
-line_start: 88601
-line_end: 88611
+line_start: 88647
+line_end: 88657
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.39.MF:7 - Conformance Checklist
 
-- [ ] The Method-focus result names the receiving result, representative Work, and decision.
+- [ ] The selected subject and its status answer the receiving question. The focus can be an established Method to use, a possible Method to investigate or construct, a relation among Methods, or a condition such as access or provision that can settle the work directly.
 - [ ] Every Method and candidate account keeps its prior status.
 - [ ] An established family cites an independent classification or membership basis.
 - [ ] A project-local grouping states its criterion, use, and non-family status.

@@ -6,12 +6,12 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__010_conformance-checklist-normative.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 6118
-line_end: 6198
+line_start: 6110
+line_end: 6190
 dependencies:
   - "A.2.2"
   - "A.2.8"
@@ -46,7 +46,7 @@ Every promise content names its effective `ReferenceScheme`, `promisedOutcomeSpe
 `providerSystemRoleKindRef` and, when present, `consumerSystemRoleKindRef` are promise-content fields typed by `U.KindRef` and resolve to local system-role kinds. When actual provider or consumer assignments are claimed, their species are declared under `U.SystemRoleAssignment`; a kind label or reference alone identifies neither a holder nor a performer.
 
 **CC-A2.3-4 (Acceptance).**
-`acceptanceSpec` **MUST** be present and **MUST** define how delivered `U.Work` is judged as pass, fail, or a declared grade against named evaluation criteria and target values. Any SLA deontics are represented through `U.Commitment`. The promise content **MUST** declare **Claim scope (G)** where operating conditions, populations, locales, or another claim extent matter. Every verdict cites an explicit **Gamma_time** window.
+`acceptanceSpec` **MUST** be present and **MUST** define what unit and eligible population the promise covers and how to judge the outcome as pass, fail or a declared grade against named criteria and target values. When the unit is a performed job, the criterion assesses that Work. A criterion about requests, recipients or a period also accounts for eligible cases for which no Work occurred. Any SLA deontics are represented through `U.Commitment`. The promise content **MUST** declare **Claim scope (G)** where operating conditions, populations, locales, or another claim extent matter. Every verdict cites an explicit **Gamma_time** window.
 
 If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 with its scale, unit when applicable, and measurement specification under C.16:5.2. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. When a quality-family label hides several possible contributors, use C.25 to retain the one characteristic or structured bundle that the acceptance claim needs. If the reading depends on a particular measurement Method, identify that Method. Cite its `U.MethodDescription` only when the acceptance claim depends on that edition's claims. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
 
@@ -102,7 +102,7 @@ To determine whether a `U.Work` occurrence participating in `PromiseContentUse` 
 Assert delivery only after these mode-specific conditions are established. Explicitly individuate `PromisedOutcomeDeliveryRelation` only when a downstream relation or claim must refer to its occurrence identity; otherwise retain the readable `deliversPromisedOutcome(W, OS)` assertion.
 
 **CC-A2.3-18 (Acceptance evaluation supports rather than constitutes fulfilment).**
-Follow the §4.3 route: use A.13 to identify the actual evaluator and let A.15.1 admit the evaluation Work independently before saying that it enacts the Method selected in `acceptanceSpec` over the same Work facts and post-work states used to test delivery. Add F.6 only if this evaluation account must also state under which assignment the Work was performed. Cite a MethodDescription only when the claim depends on that exact edition.
+For an acceptance judgement, select the evidence for the unit, interval and condition the promise covers (§§4.3, 8.2). An individual delivery requires its Work facts and required states or relations. A readiness or population judgement may be supported by service-state or coverage records. If the claim concerns a particular evaluation Work or the agreement requires one, use A.13 to identify its actual evaluator and A.15.1 to admit its occurrence before attributing the Method selected in `acceptanceSpec`. Add F.6 for an exact assignment-bound attribution. Cite a MethodDescription when the claim depends on that edition.
 
 The actual operation application carries its argument and result bindings. Any durable verdict episteme, any identity-inception claim, and evidence-use relations remain separate. Independently established A.10 evidence relations support reliance on the fulfilment assertion; they do not constitute fulfilment.
 

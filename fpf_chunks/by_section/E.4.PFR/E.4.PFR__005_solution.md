@@ -6,12 +6,12 @@ section_id: "E.4.PFR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:3 — Solution"
-line_start: 101636
-line_end: 101865
+line_start: 101687
+line_end: 101916
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -70,7 +70,7 @@ Use `FrameworkEditionDependencyRecord` when an edition-impact or refresh receive
 
 Choose one by default. Either form faithfully represents an already identified assertion and creates no relation.
 
-If one named receiver needs both views, both cite the same `subjectAssertionRef`, the dependency record cites the generic row through `genericRelationRecordRef`, and every overlapping value is derived from that assertion.
+Choose each view for the task that consumes it. One practitioner may need both views, or different practitioners may need one each. Both cite the same `subjectAssertionRef` and derive their overlapping values from it. Use `genericRelationRecordRef` when the consumer needs to follow the dependency record to the generic row.
 
 Rebuild both views when the assertion changes. Never maintain duplicate facts independently.
 
@@ -137,7 +137,7 @@ If one edition has several direct dependencies, write one record per relied-on e
 
 The record contains no compatibility boundary. `compatibilityClaimRefs`, when present, points only to a separately stated pairwise compatibility claim because a named maintenance receiver needs that connection. The reference does not create or complete the compatibility claim.
 
-`genericRelationRecordRef` is present only when the same receiver also consumes the generic row. Both views derive overlapping values from `subjectAssertionRef` and refresh together.
+Populate `genericRelationRecordRef` when a receiving task requires a link from the dependency record to the generic row. When both views exist, derive their overlapping values from `subjectAssertionRef` and refresh them together.
 
 Deprecation and supersession likewise remain separate assertions. A package manifest may index them when its named maintenance use needs those refs.
 
@@ -262,7 +262,7 @@ Apply conflict precedence, then exactly one disposition in each cell:
 
 An unknown axis on a defeated candidate does not make establishment unresolved. Unknown optional minimality does not open the family disposition.
 
-With no required pair, all required pairs are compatible by vacuous truth. The closed-empty branches differ in the supported need claim, not in how many candidates were found.
+The compatibility conclusion concerns the required pairs. A further claim that three or more conditions can hold in one realization needs grounds for the joint realization. With no required pair, all required pairs are compatible by vacuous truth. The closed-empty branches differ in the supported need claim, not in how many candidates were found.
 
 The basis answer is non-permissive. A downstream A.10 bounded-reliance claim or B.3 assurance result cites the exact analysis edition or cell-answer subgraph and supplies the evidence, attempted use and disposition required by its own rule. Include currentness and any live rival when they change that use or conclusion.
 

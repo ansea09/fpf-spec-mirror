@@ -6,12 +6,12 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 128998
-line_end: 129052
+line_start: 129113
+line_end: 129167
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -96,7 +96,7 @@ An access directory says Alice has `DB-Admin`. That entry describes an access or
 
 A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performers through `TeamReviewAssignment-9` and `MemberReviewAssignment-A9`, and A.15.1 independently admits `JointReviewWork-9`. Because this example expressly represents assignment-bound attribution for each performer, F.6 afterward establishes one relation for each Work-assignment pair through those same assignments. Neither assignment identifies or stands for the other performer.
 
-If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, add its covering assignment and F.6 link only because this example also expressly attributes that child Work, and keep its Work-part relation to `JointReviewWork-9` separate.
+If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, the child attribution uses its own covering assignment and F.6 link. To explain how the joint review reached its judgement, follow the finding into the team’s comparison and decision. If Alice instead sent the same finding to a different commission, the attribution to her assignment could still be sound. Evidence of what the team used distinguishes those histories. A request only for the name of the reviewer on the finding can finish with Alice.
 
 #### F.6:7.7 - Passive Test Article
 

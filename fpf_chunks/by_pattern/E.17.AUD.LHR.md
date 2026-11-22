@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.LHR.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
-line_start: 117194
-line_end: 117545
+line_start: 117272
+line_end: 117623
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 The local result is the repaired head, its kind and reading, the primary entity or relation when one is active, the action or question under repair, and the boundary with outside work.
 
-**Success condition.** LHR succeeds when a careful reader can identify the local lexical-head kind, the primary entity or relation when one is active, carried action or question under repair, and outside-work boundary for this sentence or small unit. If that is enough and the publication unit no longer shifts, stop. Apply `E.17.AUD.OOTD` only when the whole publication unit still cannot keep one primary subject, one carried move, and one outside boundary stable after the local repair.
+**Success condition.** LHR succeeds when a careful reader can identify the local lexical-head kind, the primary entity or relation when one is active, carried action or question under repair, and outside-work boundary for this sentence or small unit. If that is enough and the publication unit no longer shifts, stop. Apply `E.17.AUD.OOTD` only when readers still cannot follow which subjects and moves the unit needs to connect for their question, or where its claim ends.
 
 **When another approach applies.** Use another approach when:
 - the same publication unit still has unstable primary-subject or carried-move reading after local repair and now needs one stable answer to what it is about, what move it carries, and what remains outside;
@@ -182,7 +182,7 @@ Use this order when one local lexical head is carrying too much:
 1. name the overloaded word;
 2. restore the lexical-head kind;
 3. recover the supported reading. If several remain, state what still holds and check a distinguishing fact only when the difference matters to the reader’s work;
-4. restore the active primary entity or relation when one is active;
+4. restore the active entity or relation, including the relevant whole or part when the same word can name either. For instance, both an entire review Method and one constituent can be called `the method`. Read the sentence in light of the question the reader needs it to answer.
 5. restore the carried action or question under repair, if any;
 6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
 7. choose the disposition the repaired unit supports: stay with local repair, apply bounded comparison, or apply publication-unit discipline.
@@ -229,7 +229,7 @@ Local repair first:
 - carried move = make one boundary visible;
 - outside work = responsibility assignment.
 
-The repaired unit can now either stay with the boundary review or explicitly become a responsibility-assignment publication. Without the repair, this note overclaims by leaving the change of job unmarked.
+If the request was to report the service boundary, the note can end with that boundary. If the same commission also calls for assigning responsibility, identify who can make the assignment and how the boundary bears on that choice. The authorized assignment has its own grounds. A proposal to change the job belongs with the person who commissioned it.
 
 #### E.17.AUD.LHR:5.2 - A published text is mistaken for the policy it describes
 
@@ -268,7 +268,7 @@ Local repair:
 - move = bounded comparison;
 - outside work = wider architecture strategy.
 
-The paragraph now states its bounded comparison without claiming to explain the package.
+The repaired paragraph can answer a request for that comparison. If the reader asked how the whole package works, retain the comparison as a contribution and supply the connection between the compared parts and the organization of the package (C.39.GA:4).
 
 #### E.17.AUD.LHR:5.4 - Local repair selects bounded comparison
 

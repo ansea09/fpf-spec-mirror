@@ -6,12 +6,12 @@ section_id: "A.22:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:5 — Archetypal Grounding"
-line_start: 42206
-line_end: 42213
+line_start: 42240
+line_end: 42247
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,7 +71,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source description, base-dependence relation, evidence relation, lens relation, or decision. A.22 asks first: which constituents and obtaining relations are selected, under which applied constraints and named use frame, and what loss changes the next action? |
+| Tell | Start with what a different arrangement would change for the recipient. Choose the relevant constituents, relations and distinctions in the description, then establish what obtains. A diagram can supply grounds for that work when its interpretation and scope support the claim. |
 | Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be transformation-flow, control, module-interface structure, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
 | Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output may describe or present a description of selected structure. A selected-structure claim may rely on that description through a source-description relation or an A.6.6 base-dependence relation. The episteme, view, and publication remain separate from the structure and from each relied-on relation; name that relation and any validation boundary required by its definition or intended use; add a structure-use return condition when §4.5 requires it. |
 

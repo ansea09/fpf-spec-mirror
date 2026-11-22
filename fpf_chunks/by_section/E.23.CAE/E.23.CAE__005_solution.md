@@ -6,12 +6,12 @@ section_id: "E.23.CAE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:4 — Solution"
-line_start: 123990
-line_end: 124092
+line_start: 124084
+line_end: 124188
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -65,6 +65,8 @@ This optional form records the probe result; it introduces no new FPF kind.
 
 1. **Check the demand against the claim.** Confirm that the current task belongs to the Work family and capability envelope being relied upon. Compare measures and qualification windows before calling a difference loss or transfer failure.
 2. **Recover the relevant configuration.** Name actual or intended performers, roles, tools, records, interfaces, authority, environmental conditions, state, and other supports only where their direct rules apply. Use `A.15.8` when the question concerns one Work or WorkPlan configuration.
+
+   Select the scale of the observation from the demand that failed. If it concerns one performer's action, a record of that action may suffice. If it concerns a joint result, ask whether all the observed actions could succeed separately while their timing, handover or use defeats the result. Compare the arrangements that differ in the relevant relation. Keep the conditions in which each observation was made.
 3. **Hold development and updating fixed.** During the contrast, avoid new teaching, rehearsal, procedure rewrite, fine-tuning, parameter update, recalibration, or other development where safe and feasible. If the probe necessarily changes the holder, mark the affected distinction unresolved or narrow the claim.
 4. **Return to a qualified reference condition.** When the needed contrast is not already supported by matching observations, recreate a previously successful or separately qualified condition without further development. Prefer an `A → B → A` or equivalent return when order, recency, or transition history can matter. Reappearance rejects simple global loss under those tested conditions; it does not establish general transfer.
 5. **Vary a decision-bearing condition.** For a remaining unresolved contrast, change the smallest condition that can distinguish live rivals: an overt cue, cue reliability, preceding decision state or uncertainty, role, record, authority, tool, task or context identifier, state feedback, blocked versus interleaved order, transition frequency, or another domain-relevant condition. A label or visible setting is not assumed to be the effective context.
@@ -73,7 +75,7 @@ This optional form records the probe result; it introduces no new FPF kind.
    In particular, observe what was chosen before a cue. If the cue supplies the missing operation, a later success demonstrates its use with that help. If it merely makes an already available relation recognizable, the contrast can support a difficulty in recognizing applicability under the original conditions. A prior observation that distinguishes these explanations may suffice. When both explanations still fit and would lead to different interventions, vary what the cue supplies.
 7. **Separate availability, adaptation, enactment, and result.** Where the case permits, observe whether the response can be accessed or activated, whether it can be transformed for the changed demand, whether the actual performer arrangement can enact it, and whether the required result obtains. A later failure does not by itself establish an earlier one.
 8. **Compare live rivals.** Retain every explanation still compatible with the observations. Ordinary cue effects, interference, envelope mismatch, configuration loss, applicability failure, access or activation failure, adaptation failure, enactment failure, and actual holder change are not synonyms.
-9. **Return a disposition and candidate routes.** State the earliest supported distinction, evidence and conditions, the strongest surviving rival (if any), any materially unsupported use at issue, and patterns or domain Methods that could receive the result. If no rival remains among those tested, state that bounded result. Do not choose a route on the strength of the disposition alone.
+9. **Return a disposition and candidate routes.** State what the contrast distinguishes and under which conditions. Identify the earliest established failure when the evidence gives an order. When failure depends on how several contributions fit together, describe the relation the observations support. Give the evidence, the strongest surviving rival (if any), any materially unsupported use at issue, and patterns or domain Methods that could receive the result. If no rival remains among those tested, state that bounded result. Do not choose a route on the strength of the disposition alone.
 
 These steps organize observations, not a universal cognitive pipeline. A holder may implement them through simultaneous, recurrent, distributed, or structurally different processes.
 
@@ -92,7 +94,7 @@ These steps organize observations, not a universal cognitive pipeline. A holder 
 | `capabilityClaimRevisionWarranted` | Qualified reference and target probes fail across relevant conditions, envelope and configuration rivals have been addressed, and holder-specific evidence supports changed ability in the stated window. | Reassess the `A.2.2` capability claim; use a separate steering or choice result before development. | A specific human, organizational, model, or controller memory mechanism. |
 | `unresolvedDifferential` | Safety, missing reference evidence, concurrent updating, coupled changes, insufficient measures, or surviving rivals prevent a safe, adequately supported distinction among the remaining explanations. | Obtain the missing evidence, use a protected test, narrow the claim, or stop. | Permission to choose the most familiar explanation. |
 
-One case may support several ordered dispositions. Keep each observation and its limits visible. No disposition is a `ChoiceResult`, authorization, selected next Work, or performed Work.
+One case may support several dispositions, ordered where the observations support that order. Keep each observation and its limits visible. No disposition is a `ChoiceResult`, authorization, selected next Work, or performed Work.
 
 #### E.23.CAE:4.4 - Keep recognition and assurance separate
 
@@ -117,7 +119,7 @@ Keep the first result compact; one useful shape is:
 >
 > **Controlled contrast:** [reference, changed condition, and what was held fixed].
 >
-> **Observation:** [what reappeared, disappeared, or changed first].
+> **Observation:** [what changed under which conditions, including any order or interaction the observations establish].
 >
 > **Disposition:** [qualified differential result].
 >

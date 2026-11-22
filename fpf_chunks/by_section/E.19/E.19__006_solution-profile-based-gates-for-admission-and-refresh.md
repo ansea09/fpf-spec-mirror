@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 120758
-line_end: 121309
+line_start: 120844
+line_end: 121395
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -117,7 +117,7 @@ is selected only where the relevant risk is present; reviewer depth SHOULD
 prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 
 1. **Internal coherence (problem <-> conformance claim <-> solution)**
-   The Conformance Checklist matches the Problem statement and Solution (no "orphan requirements" and no "unclaimed requirements").
+   Follow the same practical question from its source through the Problem, Solution and Conformance Checklist. Could the pattern satisfy every item in its checklist while its user still needs someone else to make a choice or produce a result it promises to teach? For a method of designing a whole, check where its user chooses the parts, determines how they work together and establishes what the arrangement will provide. If the commission specifies that arrangement, correct application of it may be sufficient. Compare the Solution with the checklist in both directions for omitted and orphan requirements.
 2. **Lexical discipline & reserved vocabulary**
    Terms and registers follow lexical rules; ambiguous "everyday" synonyms do not silently replace kernel vocabulary.
 3. **SoTA-Echoing minimum compliance (E.8)**
@@ -181,7 +181,7 @@ Check these connected uses:
 * **Performable guidance:** a worked application that makes the Method's own choices, intermediate results and continuation recoverable; useful Consequences and Anti-Patterns; and a clear adoption test. Select additional materially different applications when the declared use requires them.
 * **Subject and reader:** a short account of the primary EntityOfConcern, relation or claim record and any minimal modeling lens needed by typed declaration content. Give early technical terms nearby plain glosses. When several reader situations are served, state the primary working reader, concern and viewpoint.
 * **Recognition and assurance:** put first-use guidance before the declaration, modeling and review/check material needed for assurance. Keep its scope consistent with the recognition claim.
-* **Grounding and breadth.** Connect explanatory SoTA rows to their working-reader implication and the cases or boundaries they discipline. Use heterogeneous recognition situations for a universal or transdisciplinary claim. Identify what each illustrates and where the grounds for the claimed range can be recovered. F.16 supplies a compact worked-example format.
+* **Grounding and breadth.** Connect explanatory SoTA rows to the working decisions they inform. Locate the grounds for the claimed range, including a general argument made within one example. Use materially different recognition situations when the intended readers must recognize a use under differences the available cases leave unresolved. F.16 supplies a compact worked-example format.
 
 Use C.39.GA when an explanation gives a sound answer for a narrower case or class and promises a more general method. Locate the first inference the recipient would have to supply, restore its grounds and check the conclusions that use it at the promised reach. An argument developed within one example can suffice. E.21 supplies scope and case-coverage coordinates when the decision needs a quality value.
 When admission or refresh includes precise-language repair, apply `CC-E19-7a`. It preserves practical guidance and the Plain/Tech relation under `E.2` `P-2` and `E.12`, with formal identity and dated-Work checks only under the conditions stated there. `F.19` governs the whole-span repair; `E.10` supplies compact cues and FPF routing.
@@ -574,7 +574,7 @@ For a claim that a rule works throughout a stated domain, use a derivation, an e
 
 #### E.19:4.4 - Decision outcomes
 
-Complete the selected review scope before making an admission, refresh, or return-for-repair conclusion. A first defect or already-negative conclusion does not end the search for other independently obtainable findings. If a condition makes the remaining questions impossible to judge truthfully or safely, report a partial result and identify the unexamined scope and the condition that prevents its review.
+Complete the selected review scope before making an admission, refresh, or return-for-repair conclusion. A first defect or already-negative conclusion does not end the search for other independently obtainable findings. If a condition makes the remaining questions impossible to judge truthfully or safely, report a partial result and identify the unexamined scope and the condition that prevents its review. Before using a reader's result for a wider finding, compare the task as given to that reader with the work the pattern promises. A reviewer who supplied a choice of parts can use the result to judge how well the reader applied that choice. If choosing the parts and establishing their joint suitability are also promised, recover the grounds for those judgements separately.
 
 **Inspect, repair, and verify.** Complete every in-scope review application, repair every defect through the relevant authoring work, and perform focused verification over the affected questions. The changed pattern edition and focused-verification claims are the substantive evidence and remain distinct from the work that produced them. Constitute one aggregate E.19 result episteme only when a receiving admission/refresh decision needs it. Record only an unresolved blocker, a decision outside current authority or work that must transfer. Completed repairs need no parallel list.
 

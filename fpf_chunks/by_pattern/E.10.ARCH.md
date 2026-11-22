@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
-line_start: 108198
-line_end: 108648
+line_start: 108262
+line_end: 108712
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -82,7 +82,7 @@ Use this pattern when a recurring FPF-governed wording problem survives the `F.1
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
-| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
+| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” and explicitly defines the `x` in the worked formula `normalize(x)` as representing that row. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
 
 **Not this pattern when.**
 
@@ -229,14 +229,14 @@ If the attempted repair exposes a missing or unstable domain distinction, stop t
 Use this five-step object-preserving order only for the ontology question that remains after the `F.19` and compact `E.10` pass:
 
 1. **Bound the wording and use.** Name the exact text span or publication unit, the recurring wording, its sentence function and register, and the working claim or use that makes it consequential. Keep `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` as author-facing routing coordinates rather than as candidate project ontology.
-2. **Recover the exact subject and claim.** For wording that designates a governed entity, value, or episteme, identify the particular one. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
+2. **Recover the exact subject and claim.** Identify what could bear the property the reader has to explain or act on. The wording may concern one entity, a kind under its membership rule, or how a practice repeatedly produces a result. A passage about one occurrence can help establish any of these when its grounds reach that far. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
 3. **Bypass restoration when the subject and predicate are clear.** Once the object, relation, assertion, description, publication, representation, work, result, structure, or architecture claim has a clear predicate and governing rule, state or use that claim and stop the restoration detour. Use the PatternID to locate the rule; identify an exact `ClaimGraph` only when the receiving use depends on it.
 
    If actual authoring or repair Work is part of the claim, recover each exact performer and obtaining assignment through A.13 and A.2.1, then let A.15.1 independently admit the dated Work. Add F.6 only when this architecture account also consumes precise assignment-bound attribution. State Method, MethodDescription, and responsibility claims separately only when they matter.
 4. **Add only receiver-needed apparatus.** Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values, relation-occurrence identity, participant designations, designators, references, publication forms, or C.29 representation elements only when a named later use needs that additional object. Keep each item under the rule that defines its identity or use, and cite the pattern containing that rule. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that exact relation current.
 
    If the same entity participates in several direct relations, is designated in several assertion or occurrence-description epistemes, or corresponds to several representation elements, keep those uses distinct under their separate predicates. Shared entity identity does not merge the relations, epistemes, designations, or representation correspondences.
-5. **Write the shortest usable sentence.** State the governed object, direct relation or claim, and admissible action-facing use so the working reader need not consult the applicability row. Add a guard only when the `F.19` plausible-intended-reader test warrants it. A type-correct but inert sentence is not a completed repair.
+5. **Write the shortest usable sentence.** State the governed object, direct relation or claim, and admissible action-facing use so the working reader need not consult the applicability row. Add a guard only when the `F.19` plausible-intended-reader test warrants it. Try the repaired sentence in the receiving work. A decision that needs the installation record and an applicable approval, for example, depends on their concerning the same installation. Carry that connection, or what remains open, into the wording.
 
 Perform a terminology-source audit only when source ontology can change the governed object, direct relation kind, participant meaning, actual participant kind, declaration-local `SlotSpec`, assertion-side participant designation, exact use, admissible use, or the defining or testing rule selected for the claim. Stable ordinary prose remains ordinary. A source tuple or argument place remains representation-side until an explicit correspondence to a declared `SlotSpec` is current.
 
@@ -416,7 +416,7 @@ Using `E.10.ARCH` creates none of those objects; the author returns to the rules
 | `CC-E10ARCH-6i` | Work and Method boundary wording uses `C.2.P` first for an epistemic source side, bypasses to a clear defining or testing rule, and otherwise uses `A.6.P.WMR` for exactly one of its four result families. Use `F.18` to name performed Work only after occurrence grounding. Classification, a generic result label, or a designation that merely type-checks against a declaration does not close the case. |
 | `CC-E10ARCH-7` | `function`, `functional`, `functionality`, and `effect` wording keeps `A.6.F` as first unpacker when the governed FPF object, direct relation, claim-bearing episteme, view, or defining or testing rule is hidden; it does not default to architecture. |
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. |
-| `CC-E10ARCH-9` | Repair preserves one useful admissible reader use and states it positively. Add a negative boundary only when the `F.19` plausible-intended-reader test warrants it. Type-correct but inert wording is not recovered by value. |
+| `CC-E10ARCH-9` | Check the repaired wording in the work commissioned of its readers. When several uses are required, identify the meaning and grounds each needs, including a link between them when the result depends on it. One use can suffice for a single-use commission. Add a negative boundary when the F.19 plausible-intended-reader test warrants it. |
 | `CC-E10ARCH-10` | Validation covers duplicate recognition tables, broad placeholder heads, declaration/participant collapse, representation-as-obtaining, one-description/many-object collapse, optional apparatus without a receiver, practitioner-row bureaucracy, shadow restoration apparatus, and entry or index drift. |
 | `CC-E10ARCH-11` | A DPF-local entry begins only from a demonstrated recurring wording problem and identifies the DPF claim, DPF edition, defining or constraining rule, and the PatternID that locates that rule. The entry stays beside the claim whose wording it restores; `F.19` supplies the final rewrite. A separate profile is a claim-bearing episteme with a named receiving use and edition, and exists only when several entries are maintained together. The profile can be published as a table. No domain trigger is copied into the FPF-wide table, and wording repair does not establish or revise domain doctrine. |
 

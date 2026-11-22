@@ -6,12 +6,12 @@ section_id: "F.11:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__005_core-idea-didactic.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:4 — Core idea (didactic)"
-line_start: 131069
-line_end: 131085
+line_start: 131186
+line_end: 131202
 dependencies:
   - "A.13"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 ### F.11:4 - Core idea (didactic)
 
-Use four questions, then state only the relations that obtain:
+Use the questions that bear on the receiving task. Reading the procedure can settle what it prescribes. For a question about what a team achieved by using it, select the Work and the Method at the scales that bear on that outcome, then establish the relation that connects them.
 
 * **Method — the way.** A.3 and A.3.1 govern the way of doing, such as a welding technique.
 * **MethodDescription — the description episteme.** An episteme is a `U.MethodDescription` only when A.3.2 finds one admitted Method as its exact `EntityOfConcern` and at least one substantive claim about that Method as a way of doing.

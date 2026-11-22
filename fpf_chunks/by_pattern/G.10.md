@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.10.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
-line_start: 140889
-line_end: 141298
+line_start: 141034
+line_end: 141443
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -251,7 +251,7 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 
 #### G.10:4.3 - Shipping procedure (normative)
 
-Compose the pack while preserving the cited definitions:
+Work backwards from what the recipient has to do with the shipment. To replay a selection, the recipient needs the records that governed that selection. To decide a new case using the same method, the recipient needs the rule, its conditions and a way to obtain the inputs that can change in the new case. A past shortlist with every entry traceable can meet the first commission while leaving the second open. Reuse one source for both when it supplies both. If several users rely on a joint result, carry the relation that allows their contributions to be used together. Deliver a separate source directly when that is all the recipient needs. For a pack, preserve the cited definitions as follows:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
 2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** listing the methods, mechanisms and policies used to obtain them, with the edition of each (ids only; semantics stay with governing definitions).
@@ -427,7 +427,7 @@ For order and illumination, evidence, and bridge or penalty legality, apply the 
 | **CC‑G10.3 (Telemetry discipline).** | Any illumination increase or archive edit SHALL log `PathSliceId`, the active `policy‑id`, the active values designated by the pinned `…Ref` fields and the required episteme editions (including OEE `TransferRulesRef.edition`), and the active `EmitterPolicyRef`/`InsertionPolicyRef` when applicable. | Verify emitted telemetry is PathSlice‑keyed and carries the required pins; ensure causes are recorded using canonical trigger kinds (alias labels are optional). |
 | **CC‑G10.4 (UTS publication & twins).** | Shipped heads use UTS Tech/Plain twins under the delegated publication rule. A shipped cross-context semantic-use claim cites its obtaining relation, separate bounded-use proposition and matching reliance; calibration summaries keep their evidence role. Kind and plane claims retain their own governors. | Verify the published names and exact relation/use evidence; a visible CL or policy pin alone is insufficient. |
 | **CC‑G10.5 (MOO surfaced in shipping).** | For every declared selector set-result or archive published, the pack SHALL list the applicable generation/parity method and mechanism ids (e.g., QD `EmitterPolicyRef`/`InsertionPolicyRef`, parity harness ids, method refs where the method definition is generative) and the active policy‑id(s) in SCR‑visible bindings and telemetry pins (ids only; governing-definition delegating). | Verify `MOOManifestId` is present when outcomes are intended for downstream use and does not redefine semantics. |
-| **CC‑G10.6 (Pack completeness as a citation surface).** | The pack cites all included upstream artefacts by id/ref and exposes the required pins (`AuditPins`, UTS/Path pins, CrossingBundleIds when required). | Verify all present payload artefacts have ids and the pins needed to cite/replay them. |
+| **CC‑G10.6 (Pack completeness as a citation surface).** | The pack provides the sources and relations needed for the commissioned use, with the applicable ids and pins (`AuditPins`, UTS/Path pins, CrossingBundleIds when required). | Follow the receiving operation through what the reader can obtain from the shipment. A list of fully traceable payloads can still omit a premise or rule the recipient needs. For a replay-only commission, successful reconstruction from sufficient cited material meets this condition. |
 | **CC‑G10.7 (CrossingBundle exposure).** | If the shipped artefacts have relevant GateCrossings, expose the required `CrossingBundleIds` for each under the delegated crossing visibility rule. If there are none, record that fact. Stop shipping if a required bundle is missing or non-conformant. | Check the recorded presence or absence of bundles against the shipped artefacts’ declared crossings. |
 | **CC‑G10.8 (Baseline binding is explicit when used).** | If the shipped pack claims a planned baseline, `PlanItemRefs := ⟨WorkPlanRef, planLocalContentLocator⟩[]` are present (exact WorkPlan plus plan-local content; no execution logs). | Verify the baseline resolves inside the cited WorkPlan; item and row designators have no independent identity, and decision records or execution logs do not replace the plan. |
 | **CC‑G10.9 (Extension‑scoped pin declaration).** | If QD/OEE/interop fields are present, the corresponding `GPatternExtension` block is present and its required pins/editions/policies are recorded in AuditPins and in emitted telemetry pins when those pins affect refreshability. | For each mode used, check that its required extension pins are present. |

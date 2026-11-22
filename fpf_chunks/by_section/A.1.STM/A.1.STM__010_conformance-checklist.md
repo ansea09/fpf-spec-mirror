@@ -6,12 +6,12 @@ section_id: "A.1.STM:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__010_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:8 — Conformance checklist"
-line_start: 4546
-line_end: 4563
+line_start: 4538
+line_end: 4555
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -38,8 +38,8 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-A1-STM-1` | Participants can recover each product SoI, its actual or proposed extended enterprise, the participating organizations' agreements, agents' objectives and the intended use or withdrawal from use. Bounded creation, change, sustaining in use and retirement retain their own commitments and acceptance. Local project subjects and results retain their identities and acceptance bases. In the narrower gap-finding mode, the result needed now and first unsupported dependency are readable without a technical record. |
-| `CC-A1-STM-2` | At the operating time, reasoning moves from the system boundary upward to the larger functioning whole and the joint action of its parts, through the levels and supported inclusions that affect the decision. This account grounds the required function before inward construction and backward creation/provision reasoning. An unknown whole remains an inquiry; adequate earlier reasoning can be reused. Transformation-flow and part–whole directions stay distinct. A proposed future use retains its assumptions; actual changes and participation require their own grounds. |
-| `CC-A1-STM-3` | Project SoI, current subject, required behaviour, system named by its function, selected construction and proposed or actual system remain distinguishable where they change the decision. Functional classification alone does not establish an A.2 system-role kind or an assignment. Creator contributions and the fit of concrete performers are considered separately. |
+| `CC-A1-STM-2` | When the project conclusion depends on functioning at the operating time, reasoning moves from the system boundary upward to the larger functioning whole and the joint action of its parts, through the levels and supported inclusions that affect the decision. This account grounds the required function before inward construction and backward creation/provision reasoning. The practitioner identifies any conclusion that still depends on an unknown whole and uses an independently sufficient ground for the decision it settles. When choosing the model, the practitioner justifies the needed part–whole reach and model distinctions for each relevant kind, and connects their answers for the same operating situation. Transformation-flow and part–whole directions stay distinct. A proposed future use retains its assumptions; actual changes and participation require their own grounds. |
+| `CC-A1-STM-3` | Project SoI, current subject, required or ending use, the functioning of the remaining arrangement, any system sought by its function, selected construction and proposed or actual system remain distinguishable where they change the decision. Functional classification alone does not establish an A.2 system-role kind or an assignment. Creator contributions and the fit of concrete performers are considered separately. |
 | `CC-A1-STM-4` | Project Work, an admitted project-level network selection or Plain provisional map, and one minimal case placement retain their own identities. |
 | `CC-A1-STM-5` | The point where attention starts is connected to the order of project justification. A noticed difficulty and proactive use of the mantra can reach the same consequential question; an independent non-project inquiry keeps its own scope. Inquiry returns, Work order and obtaining subject relations retain their different meanings. |
 | `CC-A1-STM-6` | Each local answer states the claims and conditions needed by its receiving use, retaining the subject predicates that govern those claims and any unresolved stop. A cited pattern locates the governing content. |

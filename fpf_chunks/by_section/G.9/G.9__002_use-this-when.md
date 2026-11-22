@@ -6,12 +6,12 @@ section_id: "G.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0 — Use this when"
-line_start: 140321
-line_end: 140342
+line_start: 140460
+line_end: 140481
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -49,11 +49,11 @@ keywords:
 
 ### G.9:0 — Use this when
 
-- rival method families, method sets, or adaptation paths must be compared under one declared baseline set and freshness window
+- the recipient needs a repeatable comparison of specified alternatives or of results about one subject, whether the rivals are method families, adaptation paths or other arrangements admitted by the comparison specification
 - you need parity to publish one reproducible report rather than one opaque benchmark score
 - downstream selection must recover comparator, normalization, bridge, and evidence pins without relying on one hidden scoring sheet
 
-**First move.** State whether the comparison concerns exact targets or results about one subject, then fix the baseline, comparison rule and windows in one plan edition. Use A.19.CPM directly for a bounded comparison that needs no reproducible parity report; use this harness when the report and its replay basis are required.
+**First move.** Ask what the recipient will decide or explain from this comparison. Identify what competes, what each alternative includes, and which differences the recipient needs the comparison to reveal. Use an applicable comparison rule when one is given. When designing one, derive the rule and common conditions under :4.2. A.19.CPM suffices for a bounded comparison. Use G.9 when the recipient needs a report whose comparison can be reproduced.
 
 #### G.9:0.1 — What goes wrong if missed
 

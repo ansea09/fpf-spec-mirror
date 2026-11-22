@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
-line_start: 127163
-line_end: 127646
+line_start: 127276
+line_end: 127759
 dependencies:
   - "A.10"
   - "A.7"
@@ -106,7 +106,7 @@ Source selection, source identity, source-local meaning, source truth, source ad
 #### F.1:4.2 - Source-selection method
 
 **Step 1 — State the receiving question and use.**
-Say what answer is needed, what later use it serves, and which source difference could change that answer.
+Say who needs the answer and what it will let them conclude or do. Where the question concerns an organized whole, consider what could change its answer while the separate accounts of its parts remain true. Seek grounds for the relation or common condition when the answer depends on it. A direct source about the whole can already cover that need.
 
 **Step 2 — Name candidate sources by exact edition.**
 Use identified sources whose relevant claims can be inspected. A discipline or domain-family label may help discovery but is not a source.
@@ -115,7 +115,7 @@ Use identified sources whose relevant claims can be inspected. A discipline or d
 Ask what claim or limit from that edition can change the answer. Use F.0.1's ordinary branch only when that role depends on a disputed expression. Pause selection just long enough to name the exact source, edition, and passage, and say in plain language what the expression means there. Then return to source selection. Look deliberately for intended-use contributions, rival explanations, action-changing counterexamples, transfer limits, and material non-fit. One source may serve several roles.
 
 **Step 4 — Take the smallest sufficient cut.**
-Retain sources that cover distinct answer-changing roles. Exclude a candidate when no inspected claim from it changes the stated question or use. Do not optimize for a fixed count, diversity score, canonical status, or exhaustive appearance.
+Retain the sources that together cover the needed grounds. Two passages may be useful only together, for instance when one identifies an item and another states a condition that applies to that item. Check what links their claims. Exclude a candidate when its inspected content adds nothing the receiving use needs. Do not optimize for a fixed count, diversity score, canonical status, or exhaustive appearance.
 
 **Step 5 — Record exclusions, gaps, limits, and reopen conditions.**
 Name deliberate exclusions and why they do not change this answer. State a load-bearing source gap rather than treating an unavailable source as irrelevant. Say which question, use, edition, rival, counterexample, or transfer-boundary change would reopen the cut.
@@ -335,7 +335,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 
 #### F.1:5.5 - Didactic distillation of source selection
 
-> State and independently identify the question; keep the later use in the claims. Keep a source because an inspected claim can change the answer, expose a rival or counterexample, or mark a transfer limit. Return one finite `SourceCutNote` whose ClaimGraph carries those roles, exclusions, limits, and reopen conditions, whose EntityOfConcern is the exact question, and whose named effective scheme resolves the question and exact editions. Search scores may guide inspection; they do not admit or exclude a source. Stop when additional candidates do not change the answer.
+> State and independently identify the question; keep the later use in the claims. Keep a source because an inspected claim can change the answer, expose a rival or counterexample, or mark a transfer limit. Return one finite `SourceCutNote` whose ClaimGraph carries those roles, exclusions, limits, and reopen conditions, whose EntityOfConcern is the exact question, and whose named effective scheme resolves the question and exact editions. Search scores may guide inspection; they do not admit or exclude a source. Finish selection when the sources together cover the grounds the question needs, or return the specific gap that limits the answer.
 
 #### F.1:5.6 - Manual archive: a rule under an unfamiliar name
 

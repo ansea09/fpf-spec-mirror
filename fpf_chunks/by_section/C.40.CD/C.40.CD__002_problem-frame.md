@@ -6,12 +6,12 @@ section_id: "C.40.CD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:1 — Problem frame"
-line_start: 90671
-line_end: 90680
+line_start: 90717
+line_end: 90726
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"
@@ -32,7 +32,7 @@ Use this pattern when developing a problem changes the way worth trying, and try
 
 The subject is the coupled development of problems and obtaining ways. Keep the sought result, conditions and available operations recoverable while changing them. The first useful result is an examined attempt that supports a receiving use or identifies the next worthwhile question and the operation it needs.
 
-**First useful move.** Take one result, failed step or changed condition. Say which part of the problem it affects. Then try a small case of the resulting question with an available operation. If a conflict prevents a two-session assignment, its structure can support a question about the least number of sessions; the original two-session requirement remains visible.
+**First useful move.** Take one result, failed step or changed condition. Say which part of the problem it affects. Work out what the retained conditions already imply. Try a revealing case when its outcome could change the answer or the attempt itself is commissioned. If a conflict prevents a two-session assignment, its structure can support a question about the least number of sessions; the original two-session requirement remains visible.
 
 This Method is for practitioners who can perform, obtain or construct the relevant subject operations. It connects those operations across problem changes. Use an adequate existing answer directly. C.40's ordinary variation is sufficient when only the material needs changing under an unchanged question.
 

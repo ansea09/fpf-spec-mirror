@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 137886
-line_end: 138144
+line_start: 138017
+line_end: 138275
 dependencies:
   - "A.10"
   - "A.13"
@@ -62,7 +62,7 @@ keywords:
 
 Complete these actions in order. Extend a step only when the task needs the additional input named there.
 
-1. **C1 — Charter the scope.** Name the exact `CG‑Frame`, `EntityOfConcern`, `ReferencePlane`, task, `CNSpecRef.edition`, and `CGSpecRef.edition`. State the assumption envelope in ordinary language.
+1. **C1 — Charter the scope.** Name the exact `CG‑Frame`, `EntityOfConcern`, `ReferencePlane`, task, `CNSpecRef.edition`, and `CGSpecRef.edition`. State the assumption envelope in ordinary language. Work back from a required result that the recipient could accept or refuse. If the same observations about the parts could accompany different decisions about the whole, identify the missing handover, common condition or observation of the whole. Determine whose rule sets the criterion. Reuse a governing criterion that already resolves the question.
 2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. The card declares the operation under `A.6.1`. Evidence for an application comes from its execution (§4.4a).
 3. **C3 — Declare one acceptance clause.** Name the exact Characteristic and the A.6.1 argument declaration that admits the corresponding C.16 measurement-result episteme. Declare the predicate or threshold, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, unknown handling, and the stated stop, degrade, or abstain behavior. Keep the exact current result episteme for the later application. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
 4. **C4 — Compose only a legal flow.** Cite the operators and gating clauses. Preserve each operator’s declared result. For an admitted CPM comparison this is its relation-token set. When the flow uses a selector, preserve its declared outcome. A declared DAG describes a possible composition. Evidence of execution establishes which work ran.
@@ -72,7 +72,7 @@ Complete these actions in order. Extend a step only when the task needs the addi
 8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, currentness conditions when they are part of admissibility, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
 9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest immutable `TaskMap` edition. It cites the exact charter edition, the already constituted C.22 `TaskSignatureRef`, the task, and edition-bearing operator, flow, gating-clause, and evidence-profile refs; the cited evidence profiles carry the needed currentness pins. It neither constructs the TaskSignature nor copies clause thresholds. Use G.11 for change refs; G.4 defines no refresh rule or runtime occurrence or result.
 
-The path is complete when a reader unfamiliar with the author’s work can reconstruct the acceptance statement from the published ids and identify what must happen at runtime. The manifests, schemas, interfaces and optional extensions below make that same pack machine-citable. The order of work is C1–C9.
+The path is complete when a reader unfamiliar with the author's work can recover what the receiver requires, why the published acceptance conditions distinguish the relevant cases, and what must be established at runtime. Check a plausible result that would satisfy the component clauses yet fail a joint obligation, and a satisfactory result the proposed rule could exclude, when such cases are possible. If composition exposes a missing input or a mistaken scope, return to the affected declaration. The manifests, schemas, interfaces and optional extensions below make the same pack citable.
 
 #### G.4:4.1 - G.Core linkage (normative)
 

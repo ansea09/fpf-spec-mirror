@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 105430
-line_end: 107191
+line_start: 105492
+line_end: 107255
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ Use `E.10` when a word, head, or short phrase in FPF-governed text still hides i
 
 **What this buys.** `E.10` supplies cheap cues and the shortest exact route to an existing FPF rule. It does not turn ordinary prose into a lexical record or make every candidate word open an ontology exercise.
 
-**First useful move.** Read the complete natural span with `F.19`. If its object, predicate, participants, referents, purpose and list meaning are clear, make the plain repair and stop. Use the cue surface below only to locate an unresolved FPF wording use; then open the smallest applicable lexical or subject pattern.
+**First useful move.** Read the complete natural span with `F.19`. Identify the work the reader needs to do with these words. When ordinary wording conveys the intended claim and leaves that work possible, keep or repair it and stop. Use the cue surface below only to locate an unresolved FPF wording use; then open the smallest applicable lexical or subject pattern.
 
 **Not this pattern when.** Use `F.19` for general plain-language repair, missing operands, predicate compatibility, grounded contrasts, referents, coordination, list load, and information order. Use the subject pattern directly when the object and the rule or operation needed from it are already clear. For non-FPF source prose, use `C.2.P` source-expression unpacking mode and borrow an `E.10` cue only when preparing a possible FPF use.
 
@@ -83,11 +83,13 @@ A cue is neither a ban nor a verdict. Its absence is not semantic clearance, and
 
 #### E.10:0.0a - One-screen cue and route
 
-1. Read one complete sentence, row, paragraph, list, or small coherent section rather than classifying a word in isolation.
+1. Read the complete sentence, row or passage with the request it answers. What must the reader identify, explain, decide or do? What in the text is an example, a fixed condition or a choice still entrusted to the reader?
 2. Apply the connected `F.19` reading. If ordinary meaning settles the issue, write the repaired text and reread the changed sentence with only its meaning-dependent neighbors.
 3. If an FPF wording question remains, name that one question: head or kind, register, morphology, durable name, direct relation and participant, reusable declaration, claim or report, representation, source or publication use, or another exact governed object.
 4. Use the applicable subject pattern directly when the object and claim are already recoverable. Use the detailed `E.10` rows only for the selected lexical question. Open `E.10.ARCH` when the distinction among a world-side fact, reusable declaration, claim or report, and representation is unresolved.
-5. Check the replacement for another umbrella head, an unintended kind or scope change, and a newly introduced relation. If one remains unresolved, state the blocker instead of filling the sentence with possible interpretations.
+5. Try the replacement in the reader’s work. For a claim about composition, what whole does the word pick out and which relation to its parts matters? For a comparison of models, which alternatives must the reader distinguish for the same question? Use C.39.SA:4 if the range still needs choosing. Use F.19:4.3.1.1 to return a result about another subject, scale or model to the original task. State a conclusion common to the supported readings when it settles the request, and identify any difference that still matters.
+
+“Why did this review pass the submission?” may ask about the decision in one meeting. “Why do our reviews keep passing these submissions?” calls for the way the review practice produces that result. The minutes may answer the first question. They can also supply grounds for the second if they establish the operative rule, how it is used and how far it applies. Choose the subject from the question before sharpening the word *review*.
 
 A complete reading can preserve clear conversational wording or an exact locally defined meaning. Where something remains unresolved, distinguish a sentence repair under an existing rule, a needed distinction or relation for which the defining rule is absent, and facts still missing to decide the meaning or claim. Unavailable facts do not establish an ontology gap. An applicable pattern supplies its stated rule; its presence does not prove that every encountered case is covered.
 
@@ -589,7 +591,7 @@ Do not perform a global string replacement. Use search only to locate candidates
 
 ##### E.10:0.2c.23 - `case`, `scenario`, `example`, `pilot`, `anti-case`
 
-Use `F.19` to decide whether the text needs several cases, whether each changes recognition or action, and whether an illustrative series could plausibly be mistaken for a complete classification. State the proposition or kind first and mark examples as non-exhaustive when that ambiguity is live.
+Use `F.19` to decide whether the text needs several cases, whether each changes recognition or action, and whether an illustrative series could plausibly be mistaken for a complete classification. Usually give the proposition first. When starting from a case, show the reader what decision or distinction it illustrates in time to interpret it, then bring its contribution back to the question. Mark an illustrative series as open where needed. An argument within one case may cover the full range. If the reader must choose a case or construct the explanation, show what guides that choice.
 
 If the word also carries an exact FPF use, name that use directly—for example a project situation, worked example, pilot, negative control, evidence case, comparison case, or source example—and apply its subject pattern. Do not reproduce this menu in the repaired prose.
 
@@ -809,7 +811,7 @@ If the declared scope is the whole document or corpus, representative examples d
 
 Closure is the repaired text, the concrete result of the one selected subject pattern, or a blocker. A pattern citation or trigger label alone is not closure.
 
-After any wording or syntax change, rerun `F.19` on the changed sentence and only the neighboring text needed to settle its meaning. Check that the replacement preserves the intended kind, relation, scope, and action without introducing another umbrella or unsupported branch.
+After a wording change, reread the affected passage through `F.19` as far as the instruction or conclusion that uses it. Check the subject, relation, scope and action against the original task. When the sentence provides one premise, retain the connection or open question at the point of use.
 
 When the positive sentence settles the use, close with that sentence and return to the domain task. Additional evidence belongs only to a receiving review or decision that needs it.
 
@@ -1069,7 +1071,7 @@ Twin entries pass the **Twin Harness** (see F.15): *Head term*, *Kind consistenc
 
 ### E.10:7 - Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous
 
-> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. Names too general to have an obvious domain fail MG-DA.
+> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. The name and its definition should let the intended reader distinguish the governed value from a plausible alternative at the scope where the term will be used.
 
 #### E.10:7.1 - `LEX.TokenClass` (meta‑lexical; not a USM Scope)
 **Definition.** `LEX.TokenClass : NameToken → {KernelToken | ContextToken | DiscriminatorToken}`.
@@ -1077,7 +1079,7 @@ This is a local lexical classification function on NameTokens with the closed va
 It is **not** a USM scope and carries **no** truth or validity semantics.
 
 #### E.10:7.2 - `KernelToken` — Minimal Generality (MG‑K)
-**MG-K1 (Tri-domain witness).** A DRR note or Glossary note provides at least three heterogeneous arenas where the invariants hold, for example manufacturing, healthcare, and cloud operations. Otherwise reject or narrow the `KernelToken` candidate and recover each word or qualifier under the object and rule that define it. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
+**MG-K1 (Ground the shared meaning).** In the DRR or Glossary note, state what the candidate designates, where the designation will be used and which defining property or relation is preserved in those uses. Test an admissible variation that could change the meaning or the decision. The defining rule may itself establish the full reach. Where a different domain supplies a needed premise, show how it applies there. For an admission or placement decision about a universal-core U-kind, apply A.8:3 and E.24.UK, including their three-domain test or an applicable previous result. A designation for an already defined object retains that object’s admission basis. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
 
 **MG-K2 (No parochial nouns).** Kernel names contain no domain nouns such as *Ticket, Microservice, Patient,* or *Developer*. Domain-looking wording is a recovery trigger, not a destination: it may denote a C.3 local kind, exact system-role kind, system-role assignment, system or architecture object, episteme or record kind, declared Characteristic and scale, source wording, ordinary qualifier, recovered local-use `ContextToken`, or another value whose kind and use are already defined. Bare *role* has no default Tech reading. `SystemRole` appears only inside a concrete local kind designation admitted through C.3 and A.2; lexical shape alone creates neither that kind nor an assignment.
 
@@ -1105,7 +1107,7 @@ It is **not** a USM scope and carries **no** truth or validity semantics.
 **DA-D7 (Ban generic combinators).** Reject vague composites like *NameUseMode*, *NamingScope*, `RowFacet`, `RowPlane`, or `RowLane`. Each candidate passes **DA-D1** and **DA-D3** for a kind-anchored head, explicit classified kind, and closed-value interpretation under its classification rule. Require a `CharacteristicSpace` only when one named `U.Characteristic` and its CSLC scale have independently been declared.
 
 #### E.10:7.4  - Global tests (apply after 7.2 and 7.3)
-**MG-DA-T1 (Three-arena witness).** A **`LEX.TokenClass`(t)=KernelToken** candidate includes the tri-domain witnesses from MG-K1. Other token classes document at least one contrasting arena.
+**MG-DA-T1 (Reach of the designation).** For a `KernelToken`, check the grounds for the common meaning under MG-K1. For a local or discriminator token, check that the definition distinguishes its intended value under the relevant scheme. A contrast is useful when the alternative would change identification or use.
 
 **MG-DA‑T2 (Object‑of‑talk).** The head noun uniquely signals the subject area; avoid free-floating metaphors.
 
@@ -1131,7 +1133,7 @@ The LEX registry defines `AllowedScopes(c)` (for example, `KernelToken` use in n
 
 Mentioning `LEX.TokenClass`, `LEX.Reserved-Names`, or `LEX.AllowedScopes` does not create the values needed to admit a durable token. Before a NameCard can become current, the selected `FPFCoreReferenceScheme` must resolve four things: (1) the `U.NameToken`; (2) its current TokenClass classification assertion; (3) the current reserved-name or other authoritative collision-set value and the collision result; and (4) the current allowed-scope policy and a passing use-scope assertion. A prose example, full-text absence, heading, registry-shaped table, or intended policy supplies none of them by implication.
 
-**Worked near-miss.** Suppose `SelectedRuleContentSubgraphDesignation`, `derivedUsingRuleContent`, and `evaluatedAgainstRuleContent` are proposed as `KernelToken` candidates. They can pass the tri-domain and object-of-talk tests through assembly-rule content selected in manufacturing derivation, protocol content used in healthcare derivation while evidence separately warrants case facts, and deployment-policy content selected for cloud release evaluation while service-provision Work and operational support remain separate. Even if their spellings do not collide in the inspected corpus, corpus absence is not a reserved-name or allowed-scope result. Do not publish their F.18 NameCards or F.17 rows until all four prerequisites resolve; a placeholder card or row closes none of them.
+**Worked near-miss.** Suppose `SelectedRuleContentSubgraphDesignation`, `derivedUsingRuleContent`, and `evaluatedAgainstRuleContent` are proposed as `KernelToken` candidates. Assembly-rule content can be a premise of a manufacturing derivation, protocol content a premise of a clinical derivation, and deployment-policy content a criterion for a cloud release decision. What would make a name travel across these uses is its defining relation: for example, a derivation used the selected content as a formal premise, irrespective of the field. Evidence for case facts, evaluation against a criterion and operational support have different relations. F.18:4.2d gives the three candidate meanings. Even if their spellings do not collide in the inspected corpus, corpus absence is not a reserved-name or allowed-scope result. Do not publish their F.18 NameCards or F.17 rows until all four prerequisites resolve; a placeholder card or row closes none of them.
 
 Using these names as candidate designators in declaration content changes no predicate semantics and does not admit them as public names, enumerations, Characteristics, CharacteristicSpace values, relation kinds, or U-kinds.
 
@@ -1157,7 +1159,7 @@ For all eight names, Plain wording that silently turns the token into a neighbor
 #### E.10:7.6 - Metaphor guidance (informative heuristics)
 
 Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, ensure it is (a) explicitly defined by a pattern here, and (b) unambiguous within the **NameClass**. Example families (use sparingly):
-* **Progression metaphors** (*level, tier, ladder*): only where a **gate or upgrade** is defined by the pattern.
+* For *level*, *tier* or *ladder*, identify what is ordered and by which relation. A holon can have constituent and enclosing wholes. Models of the same question can admit different answers under B.5.MR. A functional control layer may group responsibilities. Use a gate or upgrade criterion when advancement is actually the relation in question.
 * **Separation metaphors** (*lane, track*): only where parallel, non‑interfering flows are enforced by rules.
 * **Grouping labels** (*family, class*): name the classified kind or grouping and use its governing membership rule. For a closed enumeration, state its value set and classification rule; a kind or family governed by another membership condition is not limited to an enumeration.
 
@@ -1793,7 +1795,7 @@ Re-review your prose when any of these happen:
 
 ### E.10:20 - Quick card
 
-> Read the complete natural span with `F.19`. Use E.10 cues to notice an overloaded head, doubtful agentive or causal predicate, ungrounded contrast, missing operand or referent, grouping or list pressure, loaded qualifier, or source/representation ambiguity. If ordinary meaning settles it, repair the text and stop. Otherwise open one exact lexical or subject route. The result is repaired text or a blocker, never a mandatory form or catalogue of possible meanings.
+> Read the complete natural span with `F.19`. Use E.10 cues to notice an overloaded head, doubtful agentive or causal predicate, ungrounded contrast, missing operand or referent, grouping or list pressure, loaded qualifier, or source/representation ambiguity. Try the wording against the reader’s original task. When the claim and its grounds are clear enough for that task, keep or repair the text and stop. Where its subject, composition scale, model distinctions or entrusted choice shift, return through F.19:4.3.1.1. Open a subject rule for the distinction still needed. The result is repaired text or a blocker, never a mandatory form or catalogue of possible meanings.
 
 - Use sections 5–9 only for the selected register, token, morphology, or overloaded-head problem.
 - Use `E.10.ARCH` only while fact, declaration, report, and representation remain confused; use the subject pattern directly once the claim is clear.

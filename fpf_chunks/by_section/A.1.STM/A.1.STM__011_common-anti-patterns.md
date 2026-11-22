@@ -6,12 +6,12 @@ section_id: "A.1.STM:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__011_common-anti-patterns.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:9 — Common anti-patterns"
-line_start: 4564
-line_end: 4582
+line_start: 4556
+line_end: 4574
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -46,8 +46,8 @@ keywords:
 | Case equals subnetwork | Keep the local question and its receiving use clear. Recover the closure basis when closure is at issue; select a structure only when one receiving use needs the whole organization. |
 | Creator graph import | Explain the required creator contributions and their relations. When a TFS network is claimed, identify its members and obtaining cross-member occurrences; an arrow adds no creator kind or generic `creates` relation. |
 | Shared entity as edge | Name the directly governed production, inception, participation, use, feedback, or other occurrence and bind its participants. |
-| Architecture or provision chosen before its use basis | Recover receiving changes and the joint functioning of the containing whole at the operating time, then derive the system's contribution and justify inward and creation-side choices. |
-| Environment description substitutes for the upward move | Identify the larger functioning whole and the system's part relation; when either is unknown, investigate it and retain the resulting limit on the dependent design judgement. |
+| Architecture or provision chosen before its use basis | Recover the receiving changes, functions that must continue or end, and the joint functioning of the containing whole during the relevant period. Justify the construction, maintenance or withdrawal work from those conditions. |
+| Environment description substitutes for the upward move | Identify the larger functioning whole and the system's part relation; investigate a missing relation where the requested judgement depends on it. |
 | Maker treated as suprasystem | Recover the creation or provision relation; use a containing-system claim only where the product is actually or prospectively a proper part at the stated time. |
 | Intended system acts | Keep it in plan or description content until identity inception; only an existing admitted system can perform Work. |
 | Systemhood proves Work | Test causal participation, system-role assignment, Method, Work, and transformation separately. |

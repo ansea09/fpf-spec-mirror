@@ -6,12 +6,12 @@ section_id: "F.0.1:4"
 section_title: "Solution — recover locally, strengthen only for use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__005_solution-recover-locally-strengthen-only-for-use.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:4 — Solution — recover locally, strengthen only for use"
-line_start: 126363
-line_end: 126426
+line_start: 126466
+line_end: 126529
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -33,11 +33,11 @@ keywords:
 
 #### F.0.1:4.1 - Recover one source-local meaning
 
-1. **Name the question.** State what answer or action can change if the expression is read differently.
+1. **Name the question.** What does the reader need to understand or do, and what would reading this expression differently change? The question may concern the wording itself or something the passage describes.
 2. **Identify the source.** Give the exact source and edition. A discipline or shelf label is not enough.
 3. **Locate the passage.** Point to the claim, definition, example, rule, or other passage used.
 4. **State the meaning plainly.** Say what the expression denotes or claims in that passage. Keep designed descriptions and performed occurrences distinct when the source does.
-5. **Use the answer and stop.** Do not create a durable cell or relation unless a later receiver needs it.
+5. **Return the meaning to the question.** If the reader asked what the expression means here, give the source-backed reading. If the passage supplies a premise about the subject, use it in the inference the reader needs. To decide whether work followed a described process, for instance, compare the applicable requirements with evidence of that work (F.11).
 
 The source, edition, expression, passage, and plain meaning are the ordinary minimum. A brief scoped heading may keep an already established source in view; repeated source tags are unnecessary when the reading remains unambiguous.
 

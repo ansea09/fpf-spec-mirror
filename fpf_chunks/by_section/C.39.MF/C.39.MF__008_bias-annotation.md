@@ -6,12 +6,12 @@ section_id: "C.39.MF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__008_bias-annotation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:6 — Bias-Annotation"
-line_start: 88592
-line_end: 88600
+line_start: 88638
+line_end: 88646
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -28,5 +28,5 @@ keywords:
 | package bias | The boundary of a standard, methodology, or tool suite becomes one Method boundary. | Recover the receiving result, Work, Methods, accounts, and support subjects before choosing focus. |
 | management-view bias | A familiar management label fixes every description to one Work or creates a new kind. | Recover the subject from each claim before applying its viewpoint; retain one Work only where the claims concern that Work. |
 | family-language bias | A local shortlist is presented as an established professional family. | Name its criterion and bounded use and retain unresolved family status. |
-| composite bias | Co-use of several Methods becomes a whole Method. | Select a relation focus until whole identity and obtaining relations are separately supported. |
+| composite bias | Co-use of several Methods becomes a whole Method. | For a claim about an existing whole, establish its identity and constituent relations. A project investigating whether the Methods could form a useful whole can select that proposed whole for development. |
 

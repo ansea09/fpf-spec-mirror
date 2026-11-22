@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
-line_start: 41217
-line_end: 41469
+line_start: 41249
+line_end: 41501
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ Use A.20 when one transformation or one operation application is current in a tr
 
 **First useful move.** Recover the subject, constraint and case from the existing description. Determine applicability; if it remains unresolved, state the missing fact and deciding rule. Once applicability is established, report its value, the evaluation state and any test outcome, with the evaluation window and witness or reason.
 
-**Quick worked case.** `TemperatureConversion-7` must add 273.15 to a Celsius input and must not return a value below 0 K. For input 25 °C, the test returns 298.15 K, so both required conditions are `satisfied`; the witness records the formula edition, input, output, and test result for this evaluation window. The practitioner may reuse this result for that case and window, or pass it to a current gate or assurance use; changed input, formula edition, assumptions, or window requires reassessing affected grounds and establishing whether this result still covers the receiving case and use. If the output were 297.15 K, the formula condition would be `violated`; if no output could be recovered, it would be `unknown`; if the test had not run, its evaluation state would be `notRun`.
+**Quick worked case.** `TemperatureConversion-7` must add 273.15 to a Celsius input and must not return a value below 0 K. For input 25 °C, the test returns 298.15 K, so both required conditions are `satisfied`; the witness records the formula edition, input, output, and test result for this evaluation window. The practitioner may reuse this result for that case and window, or pass it to a current gate or assurance use; changed input, formula edition, assumptions, or window requires reassessing affected grounds and establishing whether this result still covers the receiving case and use. If the output were 297.15 K, the formula condition would be `violated`; if the exact output were lost but a certified interval excluded 298.15 K, the formula condition would still be `violated`. If the available facts allowed both equality and inequality it would be `unknown`; if the test had not run, its evaluation state would be `notRun`.
 
 Stop after that result unless a gate, assurance argument, publication, or another named task needs it. Path and crossing structure, refresh, gate decisions, evidence, assurance, Work, and semantic bridges keep their own patterns.
 **What goes wrong if missed.** A class label or green status replaces the constraint and test. An unknown or unrun required check disappears inside `pass`. A failed local constraint makes unrelated gate-fit facts look inapplicable. Copying the surrounding flow architecture into this result obscures the local finding.
@@ -136,7 +136,7 @@ For one evaluated applicable constraint:
 
 - `satisfied` means the test established the named constraint for the stated case and window;
 - `violated` means the test established a counterexample or failed condition;
-- `unknown` means required case facts or witness content could not be determined after applicability was established; unresolved applicability remains the preliminary question in section 4.1;
+- `unknown` means the available grounds leave both satisfaction and violation possible, or lack a basis for deciding between them, after the constraint’s applicability has been established; unresolved applicability remains the preliminary question in section 4.1;
 - `error` means the selected evaluation could not complete correctly.
 
 When a consumer needs one local summary over the complete required set, use:
@@ -154,16 +154,16 @@ Optional results do not change the summary unless a separately accepted use deci
 
 #### A.20:4.3 - Constraint families and outcome rules
 
-The following families are recognition aids, not a universal required list. Each application still names the constraint, edition, assumptions, case facts, and test.
+The following families are recognition aids, not a universal required list. Each application identifies the constraint, edition, assumptions and case grounds that decide it. Consider what follows from the available facts together. A bound can settle a threshold even if the exact value is missing. Use `unknown` when the surviving possibilities still permit different answers.
 
 | Constraint family | Trigger | `satisfied` means | Other outcomes |
 | --- | --- | --- | --- |
-| Type, domain, and range | The subject consumes or produces typed values. | Every case input and result used by the claim lies in the declared type, domain, and range. | A counterexample is `violated`; unavailable values are `unknown`; an evaluation that cannot complete correctly is `error`. |
+| Type, domain, and range | The subject consumes or produces typed values. | Every case input and result used by the claim lies in the declared type, domain, and range. | A counterexample is `violated`; values whose membership remains undecidable from the available grounds are `unknown`; an evaluation that cannot complete correctly is `error`. |
 | Admissibility conditions | The operation or transformation declares guards or admissible cases. | Every required guard is true for the case and window. | A false guard is `violated`; undetermined guard truth is `unknown`. |
-| Law or invariant set | The current claim relies on a named law or invariant. | The named invariant holds for the case under its assumptions. | A counterexample is `violated`; missing case facts or witness content are `unknown`. |
-| Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | A mismatch is `violated`; an unrecovered declaration is `unknown`. A.20 does not define or translate units or planes. |
-| Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`; absent assumptions or certificate content are `unknown`. No bound is required without this trigger. |
-| Return-shape preservation | A consumer relies on a declared set, archive, order, or other non-scalar result shape. | The transformation preserves that declared shape for the current case. | Hidden scalarization or lost required structure is `violated`; unrecovered shape facts are `unknown`. A.20 does not rank or select the result. |
+| Law or invariant set | The current claim relies on a named law or invariant. | The named invariant holds for the case under its assumptions. | A counterexample is `violated`; the result is `unknown` if the available case facts and witness leave the law undecided. |
+| Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | An established mismatch is `violated`. If the available declarations and case facts leave coherence undecided, the result is `unknown`. A.20 does not define or translate units or planes. |
+| Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`. If the available assumptions, certificates and other grounds leave the claimed bound undecided, the result is `unknown`. No bound is required without this trigger. |
+| Return-shape preservation | A consumer relies on a declared set, archive, order, or other non-scalar result shape. | The transformation preserves that declared shape for the current case. | Hidden scalarization or lost required structure is `violated`. If the available information leaves preservation of the required shape undecided, the result is `unknown`. A.20 does not rank or select the result. |
 | A.6.4 retargeting invariant | The proposition in q is the named internal constraint for the current use; q remains the C.2.1 bounded-use assertion about r. | Current case facts establish the proposition as stated, including its invariant, visible loss, named receiving use, conditions, and polarity. | A counterexample is `violated`; a missing deciding fact is `unknown` unless the constraint itself makes absence a failure. This A.20 result may enter the case basis for A.6.4's separate `satisfies`, `fails`, or `cannot decide` judgement; it is not that judgement, and the current facts remain separately named. r and any application remain separate. |
 
 The constraint's own pattern supplies its truth condition. A.20 supplies the application result form and summary only.
@@ -208,7 +208,7 @@ The local summary is `satisfied` because this is the complete required set for t
 
 #### A.20:5.2 - Violation and missing-witness variants
 
-If the same implementation returns 297.15 K for 25 °C, the formula constraint is `violated` and the returned values are the counterexample. If the implementation output cannot be recovered, the outcome is `unknown`, not `violated` and not `satisfied`. If the test was never run, its evaluation state is `notRun` and the summary is `unresolved`.
+If the implementation returns 297.15 K for 25 °C, that output violates the formula constraint. The exact output may be unavailable while an applicable bound still settles the question. An output in the interval [296, 297] K cannot equal 298.15 K, so that bound also establishes a violation. An interval [298, 299] K establishes non-negativity but leaves exact equality open. With that evidence the combined constraint has outcome `unknown`. If the evaluation was never performed, its state is `notRun`. A separately commissioned execution is still due.
 
 #### A.20:5.3 - Lossy retargeting
 

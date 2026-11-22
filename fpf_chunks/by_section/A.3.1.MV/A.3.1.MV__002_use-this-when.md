@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:0 — Use This When"
-line_start: 11459
-line_end: 11484
+line_start: 11466
+line_end: 11491
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

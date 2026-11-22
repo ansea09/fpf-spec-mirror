@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
-line_start: 9853
-line_end: 10098
+line_start: 9854
+line_end: 10101
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -83,7 +83,9 @@ Leave quoted or explanatory *strategy* wording alone when it carries no FPF clai
 
 #### A.3.1:4.1 - Thin first-use method identification
 
-Start with the least apparatus that lets another reader recognize the same method:
+If a reusable way is needed but has yet to be designed, start with the result its recipient must be able to use. Identify what the performer will have at the start and which decisions the commission leaves to them. Ask what action, inference or arrangement could produce the result from those conditions. Where it requires an intermediate result, work back to what can supply it. Decide whether obtaining that result belongs to the Method or whether its user can rely on it as an available input. For several operations, relate their outcomes to the next inputs and check what must hold jointly, including common resources and choices that may vary independently. Try the proposed way forward on its permitted circumstances. Retain distinctions that can change the warranted action, result or explanation. This gives a candidate to identify, or a specific missing contribution. A single sufficient operation can be the whole way. C.39.RQ develops situated requirements and B.1.5.CM explains construction when several Methods must contribute together.
+
+For a supplied candidate or the one just constructed, use the least apparatus that lets another reader recognize the same method.
 
 1. **Ordinary use.** State the reusable way of doing, the kinds of participants it is for, when it applies, what it is meant to achieve or preserve, and any applicable use limits or stop conditions. If that sentence is enough for the decision at hand, stop.
 2. **Later comparison or reliance.** Use the needed entries in the Plain aid below when the ordinary statement is insufficient to distinguish same-named methods, compare descriptions or variants, cite one edition in a plan, or audit why this method was selected.
@@ -114,11 +116,11 @@ For every relied-on relation, name its participants, the relation that must obta
 
 #### A.3.1:4.1a - Closure and bounded non-use
 
-Close positively when a reader can write the reusable action, generic participant meanings, applicability, preconditions, intended result or preserved condition, and any use limit or stop condition that changes the identification or decision. Resolve an effective reference scheme and local senses only when a meaning difference changes that answer. Cite a method description, selected structure, model-use relation, or Work relation only when the next decision depends on it.
+Close positively when a reader can write the reusable action, generic participant meanings, applicability, preconditions, intended result or preserved condition, and any use limit or stop condition that changes the identification or decision. Resolve an effective reference scheme and local senses only when a meaning difference changes that answer. Cite a method description, selected structure, model-use relation, or Work relation only when the next decision depends on it. For a design commission, also show how a performer starting from the stated inputs can obtain the promised result and where their choices enter. For an identity comparison, decide whether the two descriptions designate the same way or identify the missing fact that prevents a decision.
 
 If the project also claims an actual change, use A.3.4 separately for the actual changed referent, temporal boundary, subject facts, and transformation identity.
 
-Close by non-use when the source is only a description, plan, dated Work occurrence, mechanism declaration, selector result, system-role-kind relation, another direct relation, evidence relation, publication use, or quoted wording. If the material does not distinguish those positions, retain the source phrase as an unresolved cue and stop rather than inferring `U.Method`.
+Close by non-use when the question concerns only what a document says, which Work occurred, what a publication presents or another claim governed by its own pattern. If the question asks which reusable way of acting is meant, read the content of the available description, plan or record. A description that specifies the distinguishing actions, participants, conditions and intended result may identify the Method by itself. If more than one way still fits and the difference matters, name what would distinguish them. A dated enactment or authority to use the Method requires its own grounds.
 
 #### A.3.1:4.2 - Method and mechanism settlement
 

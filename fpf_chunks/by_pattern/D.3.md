@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.3.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
-line_start: 97094
-line_end: 97354
+line_start: 97143
+line_end: 97403
 dependencies:
   - "A.1"
   - "A.10"
@@ -85,7 +85,7 @@ Identify the sides needed to explain the conflict. At least two claims are invol
 5. the expected benefit, harm, or constraint and its consequence horizon; and
 6. the evidence use or uncertainty only when the side relies on it.
 
-Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. To establish that all the claims can be met together, give a feasible arrangement or other sufficient grounds. To establish that they cannot, show why every arrangement meeting those claims would violate a constraint that applies. When an attempted arrangement fails, ask which alternatives its reason for failure also rules out. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
+Explain which claims can hold together and what makes them incompatible or leaves the answer open. When several arrangements meet the constraints, explain what each would preserve or sacrifice under the competing value premises, or why their priority remains unsettled. Three claims can be jointly incompatible although each pair can be met. For one agreed combination, a feasible arrangement can establish compatibility. If the parties retain choices about future work, identify who decides, what each can know in time and which combinations the arrangement must accommodate. A plan for one combination establishes that combination. A constraint covering every permitted arrangement can establish impossibility. Give the conclusion this supports for the original decision and the alternatives that still matter.
 
 A short working note can be sufficient. Develop a more elaborate description only when its intended use requires the additional content.
 
@@ -190,7 +190,7 @@ Tension: performing the plan would advance Side A by enabling the harm named in 
 Next use: D.4 refusal or conditions; C.28 first if the harm claim needs causal support.
 ```
 
-This is enough to begin D.4 and does not decide who is responsible. If another reader must cite or revise the note, identify it as an `InterlevelEthicalConflictDescription` whose EntityOfConcern is the consulting-plan episteme.
+This description lets the parties begin mediation under D.4. If another reader must cite or revise the note, identify the `InterlevelEthicalConflictDescription` and the decision it concerns, whether to undertake the proposed work in this setting. Cite the proposal for the terms it supplies. The proposal itself becomes the EntityOfConcern when the question is what work it offers or what its terms would require if accepted. For a claim about an existing obligation, establish which terms took effect.
 
 If consulting Work later occurs, use A.13 to identify its performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency or relation detail only when that claim changes the account, using its pattern and preserving its affirmative, negative, conditional or unresolved result.
 

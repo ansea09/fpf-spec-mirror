@@ -6,12 +6,12 @@ section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_extended-faq-informative.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:18 — Extended FAQ (informative)"
-line_start: 7785
-line_end: 7816
+line_start: 7778
+line_end: 7809
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 **No.** “Domain” is descriptive and often fuzzy. Claim scope is addressable: it supplies an exact predicate over the `U.ContextSlice` selectors that determine membership, including `gammaTime` only when the predicate changes membership across time. Guards reference the exact slice, not a generic domain.
 
 **Q2. How do we express partial coverage across different cohorts or platforms?**
-Declare each supported serial scope (`S₁, S₂, …`) and publish **SpanUnion({Sᵢ})** with independence justification. Do **not** include unsupported slices.
+Express each cohort or platform as a scope and establish the same conclusion under its actual conditions. Their union describes the covered cases, including overlap, even when a common premise supports several. Retain that premise and exclude slices that no case covers. When the commission also calls for independently supported areas, use **SpanUnion({Sᵢ})** only with the §7.3 independence basis.
 
 **Q3. Can raising F (formalizing) widen G?**
 Formalization alone does not widen scope. Widening requires a changed extension and direct support for every added slice under §7.6; changing only the expression can preserve the same scope.
@@ -58,7 +58,7 @@ First resolve whether the designations refer to the same values under the effect
 Use `KindAT` (C.3.5) for the intended treatment of one local kind, and `Detail (D)` for the chosen detail or resolution. Use B.5.MR when comparing the assertions of two models at different levels of abstraction. Use the set of applicable context slices for Claim scope or Work scope.
 
 **Q9. Can a capability’s Work scope be broader than a predecessor claim’s Claim scope on a dependency path?**
-Claim scope bounds where a claim holds; Work scope bounds the work conditions of a qualified ability claim. If the receiving use depends on both, its effective scope is their intersection. Neither replaces the other because it is broader.
+Claim scope bounds where a claim holds. Work scope bounds the work conditions of a qualified ability claim. Express both requirements on the original slice before taking their intersection. If one stage supplies a later stage’s input, use §7.2 to carry the later requirement back to the relevant reachable outputs and examine completion when delivery is promised. The extension of one local scope alone leaves the other requirement open.
 
 **Q10. When does an empty scope make sense?**
 No slice satisfies the declared predicate, so the receiving guard stops. This may occur during early drafting or after a refutation.

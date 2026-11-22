@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
-line_start: 111374
-line_end: 111824
+line_start: 111438
+line_end: 111890
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -255,6 +255,8 @@ E.8:4.2.1.3 governs the choice and continuation of examples: a connected account
 
 At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
 
+Distinguish a shorter account of the same Method, an account of a constituent method and a more abstract model that admits additional ways to do the work. A profile may make any of these moves. Show what the practitioner can still decide and which relationships or distinctions the promised use requires.
+
 Develop a missing instruction in the underlying account through E.8:4.2.1.1 before choosing how to present it. Then follow the promised use through the resulting publication, including any return to a supplying explanation. The reader must still obtain the input meanings, necessary operation, intermediate result and action-changing conditions that make the continuation possible.
 
 A short entry may rely on its reachable developed destination; it must keep any condition needed before taking its first action. A full explanation elsewhere does not close a gap if the reader cannot find or use it under the declared access conditions.
@@ -271,7 +273,7 @@ Restore missing content at its source or repair its presentation and return, the
 | Bias-Annotation | Which assumptions, perspectives, exclusions, or access conditions affect whose work the language serves and where its claims travel? |
 | Conformance Checklist | Which substantive questions establish correct use at this scope? Which answers can be inherited, and which changed conditions need their own judgement? |
 | Common Anti-Patterns and How to Avoid Them | Which documented failures, text-invited misreadings, or consequential neighbouring cases need a practical correction? Apply the grounded-guard rule in E.8 and F.19. |
-| Consequences | What practical gains, costs, residual limits, and subsequent moves follow from using this arrangement? |
+| Consequences | For the practitioners using this language, what changes in the work named in its commission? Which conditions support that gain, what does it cost, and where does it end? Relate an outcome in a worked case to the range for which you claim it. |
 | Architectural Rationale | Why does this organization of Methods serve the declared use? Which serious alternatives and trade-offs explain its boundaries, profiles, composition, and reuse, and when should a different choice be made? |
 | SoTA-Echoing | Which current answers and source contributions shaped the Methods and their shared architecture? What was adopted, adapted, or rejected against a serious alternative, and what would reopen that choice? |
 | Relations | Which specialization, bounded-use projection, composition, reuse, dependence, or publication-grouping relations actually hold, and where does each named contribution become useful? |

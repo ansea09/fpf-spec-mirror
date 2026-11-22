@@ -6,12 +6,12 @@ section_id: "A.15.10:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.10 — Resume Work"
   - "A.15.10:7 — Conformance Checklist"
-line_start: 33978
-line_end: 33988
+line_start: 34010
+line_end: 34020
 dependencies:
   - "A.15"
   - "A.15.5"

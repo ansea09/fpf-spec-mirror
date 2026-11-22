@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.21.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
-line_start: 41470
-line_end: 41769
+line_start: 41502
+line_end: 41801
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -45,9 +45,9 @@ keywords:
 
 Use A.21 when a named gate must decide whether one bounded action or transition may proceed under an applicable profile rule. Identify every check that the rule requires, including the subject and criterion of each check.
 
-**First useful move.** Name the action being decided, the profile rule that applies, and every required check result. Map each check result under that rule, then let the worst mapped value win.
+**First useful move.** Name the action being decided, the profile rule that applies, and every required check result. Map each check result under that rule, then let the worst mapped value win. For a decision to start the work, establish what the operating rule authorizes on passage of this gate and which other entry conditions apply.
 
-**Quick worked case.** `WorkshopEntryGate-4` decides whether `CalibrationCycle-17` may start before 16:00. `WorkshopEntryProfile-E5` requires two checks: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. Both checks are evaluated and satisfied, so each maps to `pass`; the gate returns `pass` and the cycle may start before 16:00. Recheck if the instrument, certificate edition, enclosure state, profile edition, or time window changes.
+**Quick worked case.** `WorkshopEntryGate-4` decides whether `CalibrationCycle-17` may start before 16:00. `WorkshopEntryProfile-E5` requires two checks: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. Both checks are evaluated and satisfied, so each maps to `pass`. The gate returns `pass` for this cycle before 16:00. If the operating rule already authorizes the operator to start the cycle on this pass and all its other conditions hold, the operator may start. An outstanding permit would leave the gate result usable while the start waits. Recheck if the instrument, certificate edition, enclosure state, profile edition, or time window changes.
 
 If the state of `WorkshopEnclosure-2` is unknown, that check remains `unknown`. `WorkshopEntryProfile-E5` maps the uncertainty to `block`, not to `abstain`, so the cycle stays on hold until the enclosure is checked. A different policy may accept a bounded uncertainty only through an explicit rule that names the subject, tolerance, consequence, and validity window.
 
@@ -189,7 +189,7 @@ In ordinary language: **the worst mapped result wins**. Only after every require
 
 The join is associative, commutative, and idempotent. `abstain` is neutral and `block` absorbs other values, but those algebraic properties do not change the source results.
 
-The join determines the decision value; the profile rule also determines its action consequence. Retain every applicable action restriction unless an authorized rule changes it. For example, two checks may each map to `degrade`, one requiring reduced speed and the other supervision: the permitted action must satisfy both. Conflicting restrictions permit no action unless an applicable rule resolves the conflict; the shared `degrade` value alone supplies no permission.
+The join determines the decision value; the profile rule also determines its action consequence. Identify the action this rule governs. A pass at one gate can settle the question asked of that gate. To infer that someone may start the complete operation, establish the authority for that actor, action and time and satisfaction of the other applicable entry conditions. One standing rule can supply the authority and make this gate sufficient. Retain every applicable action restriction unless an authorized rule changes it. For example, two checks may each map to `degrade`, one requiring reduced speed and the other supervision: the permitted action must satisfy both. Conflicting restrictions permit no action unless an applicable rule resolves the conflict; the shared `degrade` value alone supplies no permission.
 
 | Decision | Meaning for the bounded action |
 | --- | --- |
@@ -245,7 +245,7 @@ Require an equivalence witness only when reuse, cacheability, or a stability int
 
 #### A.21:5.1 - Ordinary local pass
 
-The workshop case at the entry uses two required checks. Each application names its subject and criterion: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. `WorkshopEntryProfile-E5` maps both satisfied results to `pass`. Worst-result aggregation gives `pass`; the short rationale names both results, and the bounded action is “start `CalibrationCycle-17` before 16:00”. No publication or replay record is required.
+The workshop case at the entry uses two required checks. Each application names its subject and criterion: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. `WorkshopEntryProfile-E5` maps both satisfied results to `pass`. Worst-result aggregation gives `pass` for the gate on starting `CalibrationCycle-17` before 16:00. Suppose the operating rule makes that pass the final condition for the assigned operator, whose authorization is current. The operator may start within the window. Where another release is required, those same two results settle the equipment gate and the operator still needs the release. No publication or replay record is required.
 
 #### A.21:5.2 - Unknown and failed checks
 
@@ -271,7 +271,7 @@ If inspection was not performed after the block was already known, record that c
 3. **Checks.** For each check, name its subject, criterion and edition, case, requirement, evaluation state, any available source result, and mapping rule.
 4. **Nothing missing.** Keep every required check visible, including `notRun`, `unknown`, error, and failure.
 5. **Worst result wins.** Aggregate only after the rule has mapped every required result. A missing or unrun required result cannot support `pass`.
-6. **Next action.** State what `pass`, `degrade`, `block`, or `abstain` means for this action, retain every applicable restriction under §4.5, and state when to decide again.
+6. **Next action.** State what `pass`, `degrade`, `block`, or `abstain` means for this action, retain every applicable restriction under §4.5, and state when to decide again. If the conclusion authorizes a wider operation, give the rule and conditions that carry the gate result to it.
 7. **Boundary.** Do not turn the decision into work-entry readiness or performed Work, and add no crossing, Bridge, publication, or assurance claim that is absent.
 
 #### A.21:7.1 - Triggered additions

@@ -6,12 +6,12 @@ section_id: "E.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:4 — Solution"
-line_start: 112396
-line_end: 112472
+line_start: 112462
+line_end: 112538
 dependencies:
   - "A.10"
   - "A.21"
@@ -89,15 +89,15 @@ Whenever a proxy improves under optimization pressure, ask what became worse or 
 
 Check at least usability, affordability, safety or harm boundary, maintainability, domain fit, source preservation, decision quality, learning, and neighboring-pattern fit when they are live in the case.
 
-Report the affected decisions, protected qualities and interactions covered by the comparison. A gain for one shift can be established even while the effect on another is unknown. If both shifts depend on the same specialist in the same hour, examine what the specialist can deliver to both before claiming a gain for the service as a whole.
+Report whose decisions, protected qualities and interactions the comparison covers. An effect on each part, a dependence between parts and an effect of their organization are different claims. For example, if two shifts need one specialist at the same time, their joint outcome depends on how that time is allocated. A claim about the improvement of one shift can be settled with the other shift's outcome still open.
 
 #### E.13:4.4 - Require a Minimally Viable Value Slice
 
-Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
+A minimally viable value slice gives the recipient enough grounds to judge the practical value claimed. For an expected consequence, relate the proposed change to the recipient's work and establish the conditions under which the consequence follows. A general argument, a worked comparison or an available observation may supply the needed grounds. For a claim about actual improvement, examine use and the comparison needed to attribute the change.
 
-State whether the slice is an illustration, desk replay, or observed use, and what conclusion it supports.
+Identify the grounds the value slice supplies, whose outcome it concerns and which variations its reasoning covers. A consequence of a binding obligation and an observed change in someone’s work support different claims.
 
-The slice may be small. It must show the intended value for the declared use. A proxy reading alone is insufficient.
+A short account is sufficient when the recipient can recover the connection over the range in question. If a measure concerns a proxy, explain why it bears on the intended value.
 
 A worked illustration can explain how a proposed repair would serve that value; it does not by itself establish an observed gain. Keep any claim about actual improvement within the comparison and evidence that support it.
 
@@ -111,7 +111,7 @@ When the proxy has displaced the value, choose one or more of these repairs:
 
 - where the governing rule permits it, change the proxy use from target/gate/incentive to orientation or bounded measure. If a binding requirement must change, propose the amendment under its authority and keep the current requirement in force until that amendment takes effect;
 - add a protected quality or counter-metric that names the value at risk;
-- change the work or design so the value slice improves, not only the proxy;
+- change the work or design where the proxy can improve while the intended value deteriorates, and assess what the change does to that value.
 - split the claim: one measure report, one value claim, one assurance or gate claim if needed;
-- stop the value claim until a value slice or better proxy relation exists.
+- suspend an unsupported claim, or state the consequence and conditions the available grounds already establish.
 

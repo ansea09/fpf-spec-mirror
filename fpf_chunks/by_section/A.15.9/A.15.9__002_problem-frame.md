@@ -6,12 +6,12 @@ section_id: "A.15.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:1 — Problem frame"
-line_start: 33651
-line_end: 33668
+line_start: 33683
+line_end: 33700
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,17 +31,17 @@ keywords:
 
 ### A.15.9:1 - Problem frame
 
-**Plain name.** Use the outside-practice result this decision can rely on; obtain a new contribution when it is worth the work.
+**Plain name.** Use the outside-practice result the recipient needs. Obtain a new contribution when it is owed or worth obtaining for the decision.
 
-**Use this when.** One decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver cannot tell what result is needed or how it may be used.
+**Use this when.** An agreement requires an outside contribution, or a decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver cannot tell what result is needed or how it may be used.
 
-**Reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
+**Reader.** The person, team, organization or other System responsible for obtaining or using the outside contribution. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
 
 **First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. A conditional conclusion or an available action can settle a commission that calls for it. If a related action remains possible while the requested fact is unknown, give that distinction to the recipient.
 
 A missing result for a stronger claim does not itself select acquisition. Request the smallest additional contribution only when it is obtainable and worth its whole burden for this question. A simple answer can remain two ordinary sentences without a separate acquisition disposition.
 
-**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and states where supplier judgement ends and the receiving decision begins. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
+**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and establishes who may advise, decide or act under the order. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
 
 **Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
 

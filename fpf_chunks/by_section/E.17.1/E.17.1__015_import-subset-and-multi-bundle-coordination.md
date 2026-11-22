@@ -6,12 +6,12 @@ section_id: "E.17.1:14"
 section_title: "Import, Subset, and Multi-Bundle Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__015_import-subset-and-multi-bundle-coordination.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:14 — Import, Subset, and Multi-Bundle Coordination"
-line_start: 114388
-line_end: 114432
+line_start: 114460
+line_end: 114504
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -47,7 +47,7 @@ A `MultiViewDescribing` use may import only a subset of a bundle's viewpoint ref
 - which viewpoint members are in local use,
 - and whether the omitted members are unused or are intentionally excluded because the local scope does not require them.
 
-The local family must not speak as if it had imported the whole bundle while silently dropping inconvenient viewpoints.
+To choose a subset, recover the question the descriptions must answer. Which claims would let the recipient act or explain the result? Select the viewpoints whose rules call for those claims. A single member may cover a whole service. If the decision depends on how two parts of the service work together, establish that the descriptions can be related under the conditions of that decision. If the catalogue leaves a needed claim uncovered, identify where to obtain it. A commission confined to importing a specified subset ends when its members and provenance are recoverable.
 
 #### E.17.1:14.2 - Local overlays vs new bundles
 

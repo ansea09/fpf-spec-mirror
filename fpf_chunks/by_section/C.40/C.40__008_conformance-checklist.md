@@ -6,12 +6,12 @@ section_id: "C.40:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:7 — Conformance Checklist"
-line_start: 90553
-line_end: 90575
+line_start: 90599
+line_end: 90621
 dependencies:
   - "C.11"
   - "C.18"
@@ -23,13 +23,13 @@ keywords:
 
 ### C.40:7 - Conformance Checklist
 
-- Usable material and a feasible changing operation are available, or the missing prerequisite remains explicit.
-- A performed variation, its examined difference and a proposed later use are distinguishable.
+- The material, operations and grounds support the kind of work commissioned. Performing a search requires usable material and means of varying it. Describing a design or recovering past work requires grounds for that claim.
+- The result distinguishes a proposed variation, an available or derived consequence, and a change actually made and examined, as the receiving use requires.
 - Fixed-contribution and unsettled-contribution uses do not require one another.
 - Retained material and conditions make the stated continuation possible at a warranted burden.
 - Coupled use constructs meaningful problems and judges transfer on the target's own conditions.
 - A mixed or failed transfer changes the next problem or way question as its evidence permits.
-- A sufficient existing way, adequate result or unwarranted continuation supplies a usable stop.
+- The return supports the commissioned use. A known option can finish an order for one way. An order for a search design, a performed search or an account of what was tried is complete when its own result is supported.
 - Archive, front, selection, capability and permission claims keep their separate meanings.
 - When the candidate is an obtaining way, the comparison identifies its application and produced result, any approximation or inherited state, and the conditions of the receiving-use claim.
 - When learning changes the histories later encountered, targets correspond to those reached histories and the learner's available inputs; missing teaching or information has an explicit return.

@@ -6,12 +6,12 @@ section_id: "A.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:7 — Conformance Checklist"
-line_start: 3568
-line_end: 3581
+line_start: 3556
+line_end: 3569
 dependencies:
   - "A.1"
   - "A.14"
@@ -40,7 +40,7 @@ keywords:
 ### A.1.1:7 - Conformance Checklist
 
 1. A positive `BoundedModelUseStructure` exposes all four A.22 discriminators: exact constituents, exact selected obtaining applicability/use/coherence occurrences, exact applied constraints, and one named question/action/stop-or-return selection-use frame.
-2. For each claimed relation occurrence, establish that the corresponding obtaining conditions in `WF-A1.1-APP`, `WF-A1.1-USE`, or `WF-A1.1-COH` hold; any imported-sense receiving use additionally satisfies `WF-A1.1-APP-USE` or `WF-A1.1-COH-USE`. Missing conditions return the named stop rather than a positive assertion.
+2. For each claimed relation occurrence, establish that the corresponding obtaining conditions in `WF-A1.1-APP`, `WF-A1.1-USE`, or `WF-A1.1-COH` hold. Any imported-sense receiving use additionally satisfies `WF-A1.1-APP-USE` or `WF-A1.1-COH-USE`. For a negative judgment state which required predicate fails or why the required predicates cannot hold together in the selected frame. Return the named stop when needed grounds or a reliance condition are missing, preserving any separately established occurrence.
 3. Every `ModelExpressionCoherencePredicate` **value** satisfies the local five-part membership and value-identity rule. Every `ModelExpressionCoherenceRelation` **occurrence** is participant-determined by `<model episteme, expression episteme, predicate value, comparison scheme>` and has no interval discriminator.
 4. `BoundedModelUseStructure` is governed as `U.Structure`; its identity uses the four A.22 discriminators and their continuity rule.
 5. Reidentification compares all four discriminators and then applies A.1.1:4.3. A changed applied constraint or changed question/action/stop-or-return frame reopens identity even when constituents and relation occurrences are unchanged; an altered explanation reopens a discriminator only if it changes an applied constraint or frame value; a changed page, graph, rendering, or publication does not.

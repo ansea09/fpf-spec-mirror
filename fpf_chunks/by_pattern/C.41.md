@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
-line_start: 94034
-line_end: 94276
+line_start: 94081
+line_end: 94323
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -154,7 +154,7 @@ A question can support prevention, preparation for a possible failure or recover
 
 A canvas can prompt inquiry as well as confirm conditions. “Who will use this result, and why?” may initiate a conversation that develops an account; “Have we identified the intended users?” asks about that account. Select the prompt that serves this occasion, and distinguish obtaining an answer from judging its adequacy. Filled sections can expose missing connections without establishing that the described proposal will work. For a seminar proposal, naming participants, activities and available support does not establish that those participants can attend or that the activities help them learn. Keep the substantive assumptions and grounds available for discussion; use the appropriate domain practice to test them.
 
-A known failure within the proposed use that would pass every question already refutes the claim that passing suffices for acceptance. If the question is which difference the set can detect, compare a satisfactory result with a plausible failure. Would their answers lead the user to act differently where the work calls for it? Distinguishing one pair shows which difference the questions can expose. For reliance beyond that pair, trace the consequential conditions of the work to the questions and their grounds, or limit the proposed use to the conditions supported so far. Reuse an adequate qualification. An existing observation can answer a question for this delivery. Before dropping that question from the maintained list, check how later users will obtain the answer or why they can make their decision without it. Use C.41.QC where the criterion or checking means still needs examination.
+When the questions also determine rejection, ask whether any allowed satisfactory result could be rejected. A derivation may settle this for the whole intended use. Examine a distinguishing case where the criterion’s effect remains uncertain. Recover allowed alternative ways of meeting the terms and the effect of a failed necessary condition. A known failure within the proposed use that would pass every question already refutes the claim that passing suffices for acceptance. If the question is which difference the set can detect, compare a satisfactory result with a plausible failure. Would their answers lead the user to act differently where the work calls for it? Distinguishing one pair shows which difference the questions can expose. For reliance beyond that pair, trace the consequential conditions of the work to the questions and their grounds, or limit the proposed use to the conditions supported so far. Reuse an adequate qualification. An existing observation can answer a question for this delivery. Before dropping that question from the maintained list, check how later users will obtain the answer or why they can make their decision without it. Use C.41.QC where the criterion or checking means still needs examination.
 
 #### C.41:4.3 - Select coverage and a useful stopping point
 
@@ -202,7 +202,7 @@ The worked case below explains those conditional moves. Resume at the unresolved
 
 **Fitting.** C.41.OF puts the questions in the preparation workspace, with the description accessible before the box closes. The packer reports physical conditions; the facilitator compares wording. An assisted first use reveals an ambiguous readability condition, which returns to criterion construction and help.
 
-**Use and change.** C.41.UA supplies answers from observations at 10:00, 10:05 and 10:10, entered at 10:12. At 10:15 the description changes to v3. Known unchanged v2 cards already mismatch it. If current cards may differ, current wording is instead unknown. The facilitator decides to keep v3 and replace the affected card, then obtains the changed comparison and any physical checks affected by handling. The old v2 answer remains historical.
+**Use and change.** C.41.UA supplies answers from observations at 10:00, 10:05 and 10:10, entered at 10:12. At 10:15 v3 changes one phrase used on the cards. Known unchanged v2 cards already mismatch it. If current cards may differ, current wording is instead unknown. The facilitator decides to keep v3 and replace the affected card, then obtains the changed comparison and any physical checks affected by handling. The old v2 answer remains historical.
 
 **Worth and improvement.** A representative trial through [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) observes whether the aid catches the wording problem, whether users can interpret the questions, and how much time or duplicated work it adds. [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) compares that contribution with burden across the preparation work. A timely wording check can avoid reopening, replacing and repacking the set; completing the checklist faster is no gain if it misses that problem or merely moves the delay elsewhere. If a conversation at packing already prevents the omission with less cost, retain the conversation and retire the redundant aid. If the aid is useful but its description is hard to find, [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) selects that focused improvement rather than enlarging the list.
 
@@ -223,7 +223,7 @@ To examine this Method's use, inspect the selected questions:
 - Can a user identify the work result, each subject and the intended occasion?
 - Can the criterion's basis and the assumption about usefulness be distinguished?
 - Does each question contribute a consequential distinction, with adequate grounds obtainable or the missing contribution explicit?
-- Have constituent passes been kept separate from any encompassing conclusion?
+- What do the answers establish for the work entrusted to this checklist? If they are to decide acceptance or rejection of the whole, do the grounds cover the required connections and allowed alternatives?
 - Is the bounded coverage usable at its cost, with a concrete reason to reopen selection?
 
 An answer can be inherited from a still-applicable prior selection.

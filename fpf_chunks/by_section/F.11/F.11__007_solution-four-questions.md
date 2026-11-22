@@ -6,12 +6,12 @@ section_id: "F.11:6"
 section_title: "Solution — four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__007_solution-four-questions.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:6 — Solution — four questions"
-line_start: 131097
-line_end: 131124
+line_start: 131214
+line_end: 131241
 dependencies:
   - "A.13"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 #### F.11:6.1 - Which way of doing?
 
-Name the Method and its relevant boundary. Do not identify it merely by a file name, notation, or local expression. If a stable method kind or composition is claimed, use A.3, B.1.5, and any required kind pattern.
+Work back from the result the way of doing is meant to obtain. If a submethod can be replaced, ask which condition its replacement must still meet for the whole method to work. An external supplier can provide a result that the method uses. Identify the supplier’s own method as a constituent only when the construction of the whole includes it. Use B.1.5.CM when the boundary is in question. Do not identify it merely by a file name, notation, or local expression. If a stable method kind or composition is claimed, use A.3, B.1.5, and any required kind pattern.
 
 #### F.11:6.2 - Which description?
 
@@ -61,7 +61,7 @@ Saying that the episteme *describes* the Method is A.3.2's plain shorthand for t
 
 For every claimed actual performer, recover the A.13 core: the admitted System, local agential system-role kind and classification, obtaining assignment, and the scope, situation, window and evidence needed by the claim. A.15.1 then independently admits the dated Work.
 
-Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution alone leaves independently admitted Work intact. Recheck a consumed admission premise and its dependent conclusions if the same finding invalidates it, as F.6:4.2 requires. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
+For a claim about how several performances made up a job, identify the contribution of each to that same occurrence. A result from earlier work can be used again without its production being part of the later job (B.1.5.EW). Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution alone leaves independently admitted Work intact. Recheck a consumed admission premise and its dependent conclusions if the same finding invalidates it, as F.6:4.2 requires. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
 
 #### F.11:6.4 - Which output matters, if any?
 

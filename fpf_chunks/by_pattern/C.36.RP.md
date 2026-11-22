@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.RP.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
-line_start: 96155
-line_end: 96367
+line_start: 96202
+line_end: 96414
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -103,7 +103,7 @@ Decide which contributions the receiving participants will perform themselves an
 
 Compare retaining the existing arrangement, adding a contributor, teaching or training, providing a tool, changing the method, and retiring a superseded way only where those alternatives answer the found difficulty. C.11 supplies a consequential choice among formed options. C.40 supplies construction of alternatives when the way is still to be found.
 
-Retain the material that makes the selected arrangement usable. Depending on the gap, this can be a readable construction, its inputs and conditions, an explanation of a decisive step, an executable model or an example that shows how to change the method. Keep access to the needed performer or executor as part of the arrangement. Select a form that the receivers can use.
+Retain the material that makes the selected arrangement usable. Depending on the gap, this can be a readable construction, its inputs and conditions, an explanation of a decisive step, an executable model or an example that shows how to change the method. Keep access to the needed performer or executor as part of the arrangement. If several contributions are promised, trace the allowed uses through the people, tools and handovers they need. Establish whether the provisions can meet their respective commitments together. One handover can be assessed on its own delivery conditions. Select a form that the receivers can use.
 
 When the method changes, make the changed operations and conditions recoverable so participants can obtain the version their work needs. Keep the earlier variant when continued use, comparison or recovery needs it. An access repair can leave the method itself unchanged.
 
@@ -173,7 +173,7 @@ A familiar human learning method can be a poor choice for an AI learner, and an 
 
 - [ ] The receiving work or development opportunity explains what needs to remain obtainable.
 - [ ] The found gap names an operation, interpretation, access or capability that can change that work.
-- [ ] The selected arrangement makes the required contributions obtainable by their receivers.
+- [ ] The arrangement makes each required contribution obtainable under the receiving conditions, including any dependence on the other contributions.
 - [ ] Acquisition, explanation or provision is suited to the participant and the required use.
 - [ ] Judge the handoff against the commission. Receipt of the agreed procedure and working access establish delivery when those are the promised results. A claim that the recipient used the transmitted method identifies the use and its connection to the source. A proposal states what still has to be put in place.
 - [ ] Retained material and help support the intended later use or variation.

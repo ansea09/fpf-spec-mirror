@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__009_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5 — Archetypal Grounding"
-line_start: 37871
-line_end: 37907
+line_start: 37903
+line_end: 37939
 dependencies:
   - "A.0"
   - "A.19"
@@ -42,9 +42,9 @@ keywords:
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.1 - System
 
-**Tell.** One QD archive has a declared substrate. A reader asks which candidates are neighbors of candidate p under its declared metric.
+**Tell.** One QD archive has a declared substrate. A reader asks which members of this archive are neighbors of candidate p under its declared metric.
 
-**Show.** In this constructed case, `Archive-12` uses `BehaviorCharacteristicSpace@ed=12` and `ArchiveNeighborhoodMetric@ed=4`. The declared neighborhood criterion is distance at most 0.3. Distances from p to q and r are 0.2 and 0.8 respectively. An ordinary `DeclaredSubstrateInterpretiveView` groups q with p and leaves r outside that neighborhood, showing the criterion alongside the grouping. The source Coordinates and metric remain recoverable.
+**Show.** In this constructed case, `Archive-12` uses `BehaviorCharacteristicSpace@ed=12` and `ArchiveNeighborhoodMetric@ed=4`. The archive lists q and r as its only members besides p. The declared neighborhood criterion is distance at most 0.3. Distances from p to q and r are 0.2 and 0.8 respectively. An ordinary `DeclaredSubstrateInterpretiveView` groups q with p and leaves r outside that neighborhood, showing the criterion alongside the grouping. The source Coordinates and metric remain recoverable.
 
 **Cash-out.** The reader can recover why q is a neighbor and r is not. This grouping answers the inspection question; it does not itself select which candidates to retain. No fuller atlas is needed.
 
@@ -54,7 +54,7 @@ keywords:
 
 **Show.** The active interpretive head is `DeclaredSubstrateAtlasView`. It reads one declared palette-facing substrate line whose source-set family remains `TraditionPalette`, whose active derived view remains `TraditionFront`, and whose base palette remains recoverable through `SoTAPaletteDescriptionId`. The cited spaces stay explicit as `TraditionComparisonSpace@ed=3` and `AdoptionOutcomeSpace@ed=2`. The atlas reading keeps together the declared set views `TraditionFront` and `TraditionArchive`, the `OutcomeMapRef` value `PaletteToAdoptionOutcomeMap@ed=1`, the distortion note `CrossTraditionComparisonLossNote@ed=1`, and the local `G.2` specialization `TraditionAtlasView`.
 
-**Cash-out.** The reader follows a tradition profile from the palette into its front or archive view, then follows `PaletteToAdoptionOutcomeMap@ed=1` to its conditional adoption outcome. The comparison-loss note stays beside comparisons that depend on it. These connections explain why the views are shown together; a front alone would hide the archive and its relation to the same palette. The atlas changes inspection, not membership of the base palette.
+**Cash-out.** The reader can trace a particular profile to the palette, check whether it appears in the front, and inspect its estimated adoption outcome under the named assumptions. If the task is to explain why a profile was selected, the selection rule and its application must support that explanation. Showing it in the front establishes its recorded membership. Keep the loss note with comparisons that depend on it. Several views can support one explanation while retaining the same base palette.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.3 - Boundary anti-case
 

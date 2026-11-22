@@ -6,12 +6,12 @@ section_id: "C.30.ILC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:1 — Problem frame"
-line_start: 78071
-line_end: 78125
+line_start: 78105
+line_end: 78159
 dependencies:
   - "A.10"
   - "A.22"
@@ -59,7 +59,7 @@ Use this pattern when a project situation contains a cross-scope architecture re
 - For the stoppages, compare the time required for an arm to acknowledge a request with the interval the cell controller allows. Use the active configuration and the recorded reason for a stop to distinguish a timeout from a shortage of material. To explain an increase across jobs, also check which jobs and operating conditions were compared.
 - For the audit exceptions, compare the records the retuned controllers supply with the information the audit now requires. Changed audit criteria can produce more exceptions even if the controllers supply the same records.
 
-A documented timing incompatibility rules out timely acknowledgement through that interface. If timely acknowledgement is required, revise the design. If timeout with a fallback is permitted, check whether that alternative meets the cell’s need. Evidence that the interface caused a particular stop warrants addressing that occurrence. The aggregate counts alone leave both diagnoses open. A mediator or changed control layer becomes a candidate when the diagnosed coupling calls for it. Use C.30.ASV when its structural view is needed.
+A documented timing incompatibility rules out timely acknowledgement through that interface. If timely acknowledgement is required, the specified exchange cannot meet that requirement. Carry this finding into redesign when a different arrangement is commissioned. If timeout with a fallback is permitted, check whether that alternative meets the cell’s need. Evidence that the interface caused a particular stop warrants addressing that occurrence. The aggregate counts alone leave both diagnoses open. A mediator or changed control layer becomes a candidate when the diagnosed coupling calls for it. Use C.30.ASV when its structural view is needed.
 
 The first result names the affected holon levels or scopes, the structure that carries them, the residual-bearing locus, any attempted local repair or reason for its insufficiency, and the first warranted architecture move. An adequate ordinary explanation can finish the question. `CrossScopeArchitectureResidualTriageRecord@Context` can organize the result when its fields help the receiving use.
 

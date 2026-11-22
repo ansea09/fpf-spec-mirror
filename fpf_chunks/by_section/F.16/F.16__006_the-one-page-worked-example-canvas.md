@@ -6,12 +6,12 @@ section_id: "F.16:5"
 section_title: "The one-page Worked-Example Canvas"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__006_the-one-page-worked-example-canvas.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:5 — The one-page Worked-Example Canvas"
-line_start: 132767
-line_end: 132796
+line_start: 132884
+line_end: 132913
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 > Each item is a thought the reader needs, not a mandatory form field.
 
-1. **Title, working situation, and gain.** Name the situation in ordinary language and say what practical error or decision the example resolves.
+1. **Title, working situation, and gain.** Ask what the recipient is to learn to explain, choose or do. Choose material that makes the grounds for that inference or action visible. If the reader must distinguish two possibilities, select an instance that shows what difference matters and why. A derivation within one case can also show why an answer stays the same throughout the stated conditions. When a particular case is the subject, its supported answer can complete the work.
 
 2. **Worked claim.** State the decision the reader can make in this case. If the page teaches a method for other cases, give the operation and the grounds for its stated range. You can do this within the story. When you have only a particular solution, use C.39.RO to distinguish the case values from the conditions the solution depends on, construct the operation for other admissible inputs, and establish where it works.
 
@@ -74,7 +74,7 @@ keywords:
 
 8. **Optional comparison surface.** If two or more local meanings or source claims are hard to compare in prose, add one compact F.7 table. State the receiving-use conclusion separately. Omit the table when it adds ceremony but no clarity.
 
-9. **Micro-narrative and checks.** Walk from the working situation through the relations to the result. For a transferable method, show which of its decisions the example illustrates. If independent choice is being assessed, establish what the reader chose and what the task, a diagram or a helper already supplied (E.8:4.2.1.3). A prior independent performance may suffice. End with the subject checks that let the reader replay the claim. Add a non-use boundary when F.19 justifies it, and F.15 when a finite naming slice needs its checks.
+9. **Micro-narrative and checks.** Walk from the working situation through the relations to the result. For a transferable method, show which of its decisions the example illustrates. When the page teaches a choice of scope or model, show how the commission leads the explainer to choose the relevant wholes, parts and distinctions in the model (C.39.SA). If the reader is to make such a choice, give them the problem with that choice still available. Distinguish what they justified from what the task, diagram or helper supplied (E.8:4.2.1.3). A prior independent performance may suffice. End with the subject checks that let the reader replay the claim. Add a non-use boundary when F.19 justifies it, and F.15 when a finite naming slice needs its checks.
 
 **When a case needs several pages.** Keep the decision the reader came to make. A request about one case can finish with its supported answer. If one method is meant to work across a range, identify the conditions and the operation that remain valid as case values change. A derivation for arbitrary admissible inputs may fit on one page. If several pages establish results about different parts, kinds of holons or model abstraction levels, show where those results enter the same decision and why they hold together. Check shared inputs, handovers or other dependencies that can change it. A claim about each member, a claim about a relation between members and a claim about the whole can require different grounds (C.39.QR and C.37.MM). If the working example has displaced the argument for the range, use C.39.GA to recover and repair that argument.
 

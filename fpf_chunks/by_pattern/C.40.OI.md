@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OI.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
-line_start: 91450
-line_end: 91712
+line_start: 91496
+line_end: 91758
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -82,7 +82,7 @@ Bound the inquiry so it can direct the selected useful action and identify a suf
 
 #### C.40.OI:4.1 - Identify the subject and claim posture
 
-Name what may develop or be changed at the grain that matters now: a person, organization, community arrangement, AI model-and-scaffold configuration, facility, platform, research programme, episteme, or another subject. If identification is provisional, state the candidate boundary and what would settle it.
+Work back from what the recipient needs to explain or change. Which subject could have that property? Would the same part have a different consequence in another permitted whole? Would the same readings for the parts conceal a different relation between them? Follow the connections on which the answer depends. The subject might be a person, organization, community arrangement, AI model-and-scaffold configuration, facility, platform, research programme, episteme, or another subject. If identification is provisional, state the candidate boundary and what would settle it.
 
 Mark the claim posture. A proposed future contribution is not actual change. A plan is not performed Work. A model prediction is not an observed result. If *development* or *evolution* still hides the subject, continuity rule, or value claim, use [`E.10.DEV`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and return with the subject owner.
 

@@ -6,12 +6,12 @@ section_id: "F.16:8"
 section_title: "Worked micro-example"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__009_worked-micro-example.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:8 — Worked micro-example"
-line_start: 132818
-line_end: 132869
+line_start: 132935
+line_end: 132988
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,6 +71,8 @@ If a separately recovered F.10 rule maps `Met` to `RequirementStatus=Satisfied` 
 **Replay and boundary.** The available and unavailable minutes sum to 43,200. The 40 unavailable minutes are below the permitted 43.2, and the computed ratio exceeds 0.999. With 50 unavailable minutes the same rule would return `NotMet`.
 
 With missing observations, bound the unavailable time over the full window. Forty confirmed unavailable minutes and two unclassified minutes, with every other minute confirmed available, give at most 42 unavailable minutes. The threshold is met. Forty-four confirmed unavailable minutes already establish `NotMet`. If a qualifying and a failing history both fit the evidence, leave this threshold decision open. Apply any separately stipulated complete-trace or missing-data rule to the obligation it governs.
+
+For the author choosing an example, the June total suffices when readers need to apply the monthly rule. Suppose the lesson instead asks them to decide which records support a promise for **each day**. Choose a fresh pair of histories that have the same monthly total and yield different daily verdicts. In one, thirty minutes of downtime fall on one day. In the other, one minute falls on each of the thirty days. Both histories meet the monthly 99.9% threshold. Only the second meets 99.9% on every day. This difference explains why the author retained the day in the model. To let readers choose what to retain, give them the actual promise and records before showing the grouping. A sufficient bound on the worst day can also settle that promise.
 
 #### F.16:8.1 - Applying the canvas to a multi-source availability case
 

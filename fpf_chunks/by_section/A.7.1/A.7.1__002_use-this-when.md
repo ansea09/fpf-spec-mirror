@@ -6,12 +6,12 @@ section_id: "A.7.1:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:0 — Use this when"
-line_start: 26832
-line_end: 26845
+line_start: 26852
+line_end: 26865
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,7 @@ Use this pattern when a clear or apparently clear engineering claim produces the
 
 The first useful move is to state the affected engineering result and the smallest defeated or disputed claim, then enter the first diagnostic locus that can change that result. Stop as soon as an admitted working account determines the next move truthfully.
 
-**Not this pattern when.** If the blocker is missing observation or evidence, reopen the domain or evidence question and its predicate. If wording alone hides the distinction, use `F.19`, with `C.2.P` or `E.10` for a remaining semantic question. If the problem is a material premise conflict between FPF methods, use `A.7.2`. A proposed new framework pattern or U-kind follows the applicable `E.24` or `E.24.UK` admission, with `A.8` and `A.11`; a local clarification or saved result alone requires neither proposal.
+**Not this pattern when.** If the blocker is missing observation or evidence, reopen the domain or evidence question and its predicate. If wording alone hides the distinction, use `F.19`, with `C.2.P` or `E.10` for a remaining semantic question. Use `A.7.2` when FPF methods have incompatible consequences for the same decision. For a design question, identify the proposed clauses and an admissible case in which their prescribed conclusions conflict. For a disagreement between actual applications, identify what each application concluded and relied on. A proposed new framework pattern or U-kind follows the applicable `E.24` or `E.24.UK` admission, with `A.8` and `A.11`; a local clarification or saved result alone requires neither proposal.
 
 The primary reader is a domain engineer or ontology analyst responsible for the affected use. The procedural content describes the consequence-guided ontology-analysis Method developed in §4. To assert `U.MethodDescription` membership for a pattern episteme, identify that admitted Method as its EntityOfConcern and satisfy A.3.2.
 

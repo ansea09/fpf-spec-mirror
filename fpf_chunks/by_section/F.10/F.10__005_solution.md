@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:4 — Solution"
-line_start: 130751
-line_end: 130911
+line_start: 130866
+line_end: 131026
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ keywords:
 
 ### F.10:4 - Solution
 
-Recover the governed target and direct result before applying a local status. Treat status value, status-use occurrence, status assertion, source, evaluation, display, and receiving use as distinct.
+Start from the claim the recipient needs to use. An adopted status rule can already fix the target, population, window and result needed. When you must select them, ask what change would alter the answer under the rule. Changing one component can change its own status while a redundant service remains available. Keeping the component totals fixed can also change the service outcome if their failures coincide. Follow the relation on which the status depends. Use a direct result about the service if it settles the question. Treat status value, status-use occurrence, assertion, evaluation and display as distinct.
 
 #### F.10:4.1 - Three status families
 
@@ -105,7 +105,7 @@ A distinct C.2.1 status-assertion episteme states affirmative or negative polari
 
 Use this order:
 
-1. name the receiving question and exact target;
+1. identify what the recipient must decide and use the governing clause or question to select the target and the scope of the assertion;
 2. recover the target's identity and direct governor;
 3. recover any measurement, formal, causal, conformance, diagnostic, comparison, acceptance, requirement-evaluation, gate, assurance, permission, or decision result under its own pattern;
 4. identify the C.2.1 episteme that states that result;

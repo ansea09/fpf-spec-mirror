@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 125023
-line_end: 125051
+line_start: 125120
+line_end: 125148
 dependencies:
   - "A.1"
   - "A.14"
@@ -67,7 +67,7 @@ Typical moments:
 
 **Primary EntityOfConcern.** When the author records this choice in a C.2.1 episteme, its EntityOfConcern is the subject already identified under a direct pattern. If that subject cannot yet be identified, an independently identified source episteme or expression entity can carry the open inquiry. Without an identifiable subject, keep the question attached to the blocked work or source material. The visible form and the note recording the disposition are not substitutes.
 
-**First useful move.** Write one plain sentence: “For this work or decision, we need to know or do `<action>` about `<subject>`.” Then look past the form to recover the subject, the needed claim, and the current pattern that defines or constrains it. Apply the first disposition in section 4 that fits the case.
+**First useful move.** State what the intended recipient must establish, explain, design or do. Identify which claim behind the expression would help them do it. Use §4.1 to settle that claim. For a question about several contributions, carry its answer into the decision that needs them together.
 
 **What goes wrong if missed.** FPF grows shadow ontology. A table becomes a kind; a field label is mistaken for a relation-participant meaning; a filled field is treated as an actual relation participant merely because it occupies a column; a card becomes the subject; or a convenient word creates a second ontology over values and relations that already have subject patterns.
 

@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:5 — Worked cases"
-line_start: 41387
-line_end: 41402
+line_start: 41419
+line_end: 41434
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ The local summary is `satisfied` because this is the complete required set for t
 
 #### A.20:5.2 - Violation and missing-witness variants
 
-If the same implementation returns 297.15 K for 25 °C, the formula constraint is `violated` and the returned values are the counterexample. If the implementation output cannot be recovered, the outcome is `unknown`, not `violated` and not `satisfied`. If the test was never run, its evaluation state is `notRun` and the summary is `unresolved`.
+If the implementation returns 297.15 K for 25 °C, that output violates the formula constraint. The exact output may be unavailable while an applicable bound still settles the question. An output in the interval [296, 297] K cannot equal 298.15 K, so that bound also establishes a violation. An interval [298, 299] K establishes non-negativity but leaves exact equality open. With that evidence the combined constraint has outcome `unknown`. If the evaluation was never performed, its state is `notRun`. A separately commissioned execution is still due.
 
 #### A.20:5.3 - Lossy retargeting
 

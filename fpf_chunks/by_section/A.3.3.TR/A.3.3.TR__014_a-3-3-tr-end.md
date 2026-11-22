@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:End"
 section_title: "A.3.3.TR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__014_a-3-3-tr-end.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:End — A.3.3.TR:End"
-line_start: 13228
-line_end: 13229
+line_start: 13237
+line_end: 13238
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

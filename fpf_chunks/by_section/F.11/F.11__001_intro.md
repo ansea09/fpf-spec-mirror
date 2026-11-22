@@ -6,12 +6,12 @@ section_id: "F.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:intro — Intro"
-line_start: 131023
-line_end: 131036
+line_start: 131140
+line_end: 131153
 dependencies:
   - "A.13"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 ## F.11 - Distinguish Method, MethodDescription, Work and Outputs
 
-**“Ask separately about the way, its description, the Work that occurred, and any control output produced during that Work.”**
+**“Start with what the reader needs to establish about a way of working, its description, its performance or its outcome. Follow the relations that answer that question.”**
 
 **Type:** Architectural pattern.
 

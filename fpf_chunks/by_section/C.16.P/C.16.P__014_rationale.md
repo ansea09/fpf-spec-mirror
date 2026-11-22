@@ -6,12 +6,12 @@ section_id: "C.16.P:12.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__014_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:12.1 — Rationale"
-line_start: 62502
-line_end: 62505
+line_start: 62536
+line_end: 62539
 dependencies:
   - "A.17"
   - "A.18"

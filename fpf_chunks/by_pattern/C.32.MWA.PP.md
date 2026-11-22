@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.MWA.PP.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
-line_start: 83141
-line_end: 83800
+line_start: 83179
+line_end: 83838
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -52,7 +52,7 @@ Use the strategic or subject practice first when the unresolved question is only
 | Systems, means and access | Systems being changed and Systems performing or contributing work; the means used; and relations through which performers obtain a result, access a means or receive authority to act. Distinguish the Systems, work, results and relations when their configuration changes the decision. |
 | description structure | Epistemes, views, schema correspondences, version relations, and losses used by the decision. Description order is not Work order. |
 | cultural relation | Recognition, transmission, selection, retention, or loss of a Method variant. A chosen project option is not cultural continuation. |
-| simultaneous multigrain contribution | Work at several grains is performed during overlapping intervals. It can include constituent and encompassing Work, the same Work enacting several Methods, or separate Work that only overlaps. Determine the relation; overlap alone neither establishes nor excludes Method composition. |
+| simultaneous multigrain contribution | Establish the Work whole and its constituent performances before identifying different composition scales. One occurrence can enact several Methods. Separate occurrences can overlap at the same scale. Establish each relation independently and follow the ones the commissioned account needs. |
 | first–then condition | One direct Work, result-use, transformation, evidence, configuration, or authority relation makes a later occurrence or decision depend on an earlier result or condition. |
 | architecture alternative | A possible-future synthesis whose named relations differ materially. Until realized or independently shown to obtain, it remains proposed. |
 
@@ -167,7 +167,7 @@ Select only the structures that can change this design. A compact cross-referenc
 
 An individual can hold several compatible assignments. Several Systems can jointly obtain a result. A specialist can serve several organizational units. A Method can be used by several independent performers. Keep these relations visible rather than forcing one exclusive-parent tree.
 
-For each important connection, make the local claim explicit: this available or proposed holder can supply this contribution, using these means, in this window, under this permission, and the named receiver can use it under these conditions. Keep obtaining, proposed, contradicted and unresolved relation claims distinct. State the evidence, including whether it comes from observation or a qualified provider, and the receiving use it supports. A table is useful when it makes this comparison easier; it is not a substitute for the explanation.
+For each provision connection, make the local claim explicit: this available or proposed holder can supply this contribution, using these means, in this window, under this permission, and the named receiver can use it under these conditions. Keep obtaining, proposed, contradicted and unresolved relation claims distinct. State the evidence, including whether it comes from observation or a qualified provider, and the receiving use it supports. A table is useful when it makes this comparison easier; it is not a substitute for the explanation.
 
 An actual transformation claim needs the subject, boundaries, before/during/after basis and continuity conditions required by A.3.4. For an actual Work claim, establish the performer's A.13 bases and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is claimed. The current synthesis can remain a useful possible-future arrangement without pretending to supply either.
 
@@ -258,7 +258,7 @@ For a small case, place the required work in actual windows and compare it with 
 
 Count common preparation once at the declared scale. Count recurring performance and support wherever they occur. If one group episode obtains several results, credit them only where each required participant contribution and receiving condition is preserved. Neither multiplying shared preparation by every user nor assuming all group learning is free counts the demand correctly.
 
-A necessary capacity inequality can expose failure cheaply: total demand for one qualified resource in a window cannot exceed its available capacity. It does not establish an executable schedule. Precedence, simultaneous work, locality, recovery and incompatible access can defeat the candidate. Use the appropriate operating or scheduling Method when those conditions matter.
+A necessary capacity inequality can expose failure cheaply: total demand for one qualified resource in a window cannot exceed its available capacity. It does not establish an executable schedule. Precedence, simultaneous work, locality, recovery and incompatible access can defeat the candidate. For a fixed booking, find a feasible allocation. For a promise about future requests, establish which requests may coincide, who can allocate the resource and what they can know before committing it. The allocation rule must serve the permitted cases the promise covers. For a rate or forecast, evaluate the population and conditions specified in that commission.
 
 For an overload, construct the alternatives: reduce starts, stagger work within a still-useful window, obtain another qualified supplier, combine compatible performance, change the Method or change the promised result. Recalculate the affected recipients and periods. A transfer to another team is unavailable if that team already spends the same capacity elsewhere.
 
@@ -369,9 +369,9 @@ The selected structures are:
 
 In a separate five-day Method Engineering case, `ME-W0` is the bounded project adaptation Work. `ME-W1` repertoire-recovery Work, `ME-W2` candidate-account formation Work, `ME-W3` description/tool-proposal Work, and `ME-W4` evaluation Work are parts at the next finer grain; trial Work `ME-W7` is part of `ME-W4`. During the same five-day interval, continuing product-engineering Work `ME-W5` and repository-maintenance Work `ME-W6` overlap `ME-W0` but are not its parts.
 
-The repertoire-recovery Method contributes through `ME-W1`, candidate-account formation through `ME-W2`, description/tool proposal through `ME-W3`, and trial/evaluation Methods through `ME-W7` and `ME-W4`. Product-engineering and repository-maintenance Methods contribute concurrently through `ME-W5` and `ME-W6`. These are contributions at whole-Work, part-Work, nested trial-Work, and separate overlapping-Work grains, not one level sequence.
+The repertoire-recovery Method contributes through `ME-W1`, candidate-account formation through `ME-W2`, description/tool proposal through `ME-W3`, and trial/evaluation Methods through `ME-W7` and `ME-W4`. Product-engineering and repository-maintenance Methods contribute through the external performances `ME-W5` and `ME-W6`. Each overlaps some of `ME-W0`. The composition scales follow from the chain through `ME-W0`, `ME-W4` and `ME-W7`. To claim that the external performances also compete for a resource at a given moment, identify their relevant activities and intervals.
 
-Two case-local first–then relations remain inside that simultaneous interval: `ME-W1` precedes `ME-W2`, and `ME-W3` precedes the relevant evaluation decision in `ME-W4`. Temporal overlap across the other grains erases neither relation. It establishes neither a universal Method stack nor `methodPartOf`; a teaching tree that presents recovery before evaluation is a description view, not the Work structure.
+Two local precedence relations hold within the five days: `ME-W1` precedes `ME-W2`, and `ME-W3` precedes the relevant evaluation decision in `ME-W4`. The external activities can occur at different times within the five days. A teaching sequence can present recovery before evaluation. To assign a constituent to a Method, establish its part in the same reproducible way of working.
 
 Consider a minute inside trial Work `ME-W7`. The participant follows the proposed unit-review description, converts a supplied measurement and compares it with the stated tolerance. Performing that comparison is part of carrying out the trial; the trial is part of evaluating the proposed description in `ME-W4`; that evaluation is part of the project adaptation `ME-W0` currently under way. The encompassing evaluation and adaptation are ongoing through this performed action, although their conclusions have not yet been reached. This is a constituent connection, not an inference from the five-day overlap.
 
@@ -398,7 +398,7 @@ Before entry, choose A only when signed evidence is available in time and the si
 
 Missing signed evidence at `D-8` withholds release and starts recovery R. Preserve the performed integration record, exact provisional edition, uncertainty, and earlier use. When signed evidence arrives, record its relation and delta to the provisional edition, re-baseline, and repeat the comparison and affected verification. Retain or roll back/repeat early integration. For a full repeat of these recovery tasks, count `1.60 h` supplier preparation plus `2.80 h` safety preparation, board, and trace/closure work (`0.40 + 0.33 + 2.07`). Count affected verification or integration rework in addition; the case supplies no fixed duration for it. If recovery stops before those tasks finish, record the Work and burden that actually occurred rather than assigning the full repeat cost. Move only to the next authorized slot after repeated decision Work under the covering assignments and authority relations. Every repeated AI suggestion again requires the trace-review Work, assignment, and permission. Signed evidence supersedes provisional evidence for closure reliance without erasing the provisional history.
 
-The architecture decision remains prospective. Implementation and the three trial releases are later Work. If signed evidence becomes available at `D-21`, sensitivity selects A prospectively; it does not rewrite a past B2 release.
+The decision is prospective. Implementation and the three trial releases are later Work. Signed evidence available at `D-21` makes A eligible for comparison. The choice also depends on the capacity, authority and value conditions below. A change in future availability leaves the past release history intact.
 
 In that pre-entry variant, suppose the existing signed-first arrangement has adequate current capability, capacity and release evidence, and the same comparison reveals no useful gain from provisional-first preparation. The team can finish by retaining A on that basis. Planning an extra B2 trial would consume the safety attention needed for the current release without changing this decision. Changed evidence timing or capacity can reopen the comparison. The baseline case has a thirteen-day mismatch and supports the three bounded B2 trials under their stated conditions.
 

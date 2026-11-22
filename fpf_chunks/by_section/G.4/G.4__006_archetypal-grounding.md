@@ -6,12 +6,12 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 138145
-line_end: 138187
+line_start: 138276
+line_end: 138318
 dependencies:
   - "A.10"
   - "A.13"
@@ -95,7 +95,7 @@ Because this worked case states that the Work was performed under an assignment,
 
 For the pump-triage use in G.5 §0.5, consider a separately declared gated variant. `AC_InputConditionGate-E1` accepts a declared probability of at least 0.85 that both the measurement series is valid (event A) and its time alignment is valid (event B) for the same 24-hour input. Its scope, evaluation window, result-input declaration, and `unknown` behavior belong to this G.4 clause, not to the default composition rule. `PumpInputEvidence-E1` supplies the receiving model and provenance for those event meanings and probabilities. An applicable `TaskMapRef` binds that clause, profile, and the matching C.22 task signature.
 
-Suppose the application inputs establish P(A)=0.9 and P(B)=0.9 and the profile's model establishes independence. The model gives P(A ∩ B)=0.81, so the clause returns `fail`. Minimum 0.9 would incorrectly pass. If independence or a justified conditional alternative is unavailable, the missing joint probability yields the clause's `unknown` result, with the declared downstream degrade/abstain behavior; a high F or formal line tag cannot replace it.
+Suppose the application inputs establish P(A)=0.9 and P(B)=0.9 and the profile's model establishes independence. The model gives P(A ∩ B)=0.81, so the clause returns `fail`. Minimum 0.9 would incorrectly pass. With only these two marginals the joint probability can range from 0.8 to 0.9. At the 0.85 threshold, both a pass and a fail are consistent with the marginals. The clause returns `unknown` and its declared downstream degrade/abstain behavior applies. A formal lane tag supplies no further information about the dependence. For a criterion of at least 0.8, the lower bound already suffices.
 
 For a different receiving question that asks only for a qualified comparison on existing heterogeneous support, the profile retains the proof, empirical contributions, shared-bias limitations, and contrary evidence under B.1.3/C.2.2. It does not invent a probability or apply `AC_InputConditionGate-E1` to that different question. The ordinary G.5 shortlist remains available without an additional assurance calculation.
 

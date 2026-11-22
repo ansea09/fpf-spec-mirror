@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:7 — Conformance Checklist"
-line_start: 108112
-line_end: 108135
+line_start: 108176
+line_end: 108199
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 | ID | A conforming repair… | Check |
 | --- | --- | --- |
 | `CC-E10MOVE-1` | names the governed text span, claim being made, and object under wording repair before choosing a replacement. | Resolve the kind from the current claim and its direct pattern. |
-| `CC-E10MOVE-2` | assigns one wording-use disposition and does not treat that local enumeration as project ontology. | Demonstrated row, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation cases remain distinct. |
+| `CC-E10MOVE-2` | assigns the applicable wording-use disposition to each recovered use, retaining any connection required for the original claim. | Demonstrated continuation, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation retain their stated meanings. |
 | `CC-E10MOVE-3` | for an FPF-governed use, names the exact recovered governed value, value kind, and non-semantic PatternID locator for the subject pattern whose content defines, constrains, or tests that value. For a relation claim, it names the admitted direct predicate and actual participants; it includes a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. | Confirm the recovered project value under its direct pattern. Any relied-on MethodDescription identity needs independent A.3.2 admission, as in §4.1. |
 | `CC-E10MOVE-4` | blocks root `U.Move`. | No durable move kind is minted by wording pressure. |
 | `CC-E10MOVE-5` | preserves remaining reader use. | The repaired text still says what the practitioner can do or inspect next. |

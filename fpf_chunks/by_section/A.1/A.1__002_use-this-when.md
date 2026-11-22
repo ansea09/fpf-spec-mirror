@@ -6,12 +6,12 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:0 — Use This When"
-line_start: 2573
-line_end: 2611
+line_start: 2561
+line_end: 2599
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -50,13 +50,13 @@ Typical moments:
 
 **Primary working reader.** A practitioner or modeler who must decide whether part-whole, acting-system, or claim-bearing-holon reasoning is admissible for that entity before relying on neighboring work, architecture, evidence, or publication claims.
 
-**First useful move.** Name the `U.Entity` under concern. Then test whether its actual construction satisfies the A.1 holon-recognition criterion under an already admitted public holon kind. The kind is already admitted in the current FPF; `E.24.UK` governs the separate one-time decision to admit public U-kinds. The A.1 candidate test does not repeat that ontology decision.
+**First useful move.** Identify the entity and ask which conclusion the receiving work needs. To recognize an existing whole, test its construction under an already admitted public holon kind using §4.2. A necessary condition that fails, or required conditions that cannot hold together, can settle that test. If the decision requires positive recognition and the available grounds leave it open, identify what prevents reliance. `E.24.UK` governs the separate decision to admit a public U-kind.
 
 When the next decision depends on which System acts, is intended to change, carries a capability, persists, or is being considered or designated as the project system-of-interest, use `A.1.SCR` to find that proposed subject. `A.1.SCR` first checks whether a non-system subject already answers the decision; apply the complete A.1 criterion only while the decision still depends on systemhood.
 
 Once the proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes and omitting one could change a named decision or investigation. That branch discovers candidate bearers and qualified consequence claims; it does not repeat recognition of the focus or settle causality, evaluation, or choice.
 
-After recognition, use `A.1.STM` when a connected project account is still needed to explain the System's intended use, the functioning and construction required for that use, and how capable creators can obtain that System, including how to obtain or change a creator the project needs. Otherwise apply the rule that defines or tests the next claim.
+Use `A.1.STM` when the project needs a connected account. Start with the use to create, sustain or end and what the recipients must still be able to do. This can identify a system sought for future use before any candidate exists. For an existing product it can identify the functioning, changes and contributions needed to keep it usable or to withdraw it under the agreed conditions. Apply actual-system recognition where a claim relies on an existing holder.
 
 
 **What goes wrong if missed.** A claim attributes revision Work to a document, gives a theory physical ports, or treats a list as an organization. A lathe that changes a workpiece is treated as its containing whole without an obtaining part-whole relation. An architecture claim lacks the holon whose structure is selected.

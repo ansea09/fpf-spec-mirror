@@ -6,12 +6,12 @@ section_id: "A.2.6:7"
 section_title: "Scope Algebra"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_scope-algebra.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:7 — Scope Algebra"
-line_start: 7357
-line_end: 7458
+line_start: 7349
+line_end: 7452
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -47,19 +47,21 @@ Membership evaluation work, its inputs and A.6.1 bindings, an optional C.2.1 res
 
 #### A.2.6:7.2 - Serial Composition (Intersection)
 
-**Rule S‑INT (serial).** For an essential dependency chain `C1 → C2 → … → Ck` that supports a claim/capability, the effective scope along that chain is:
+**Rule S‑INT (serial).** Identify the original slice and what the chain must deliver. When each essential condition `Ci` is already expressed on that same slice, all must hold there. The scope defined by these conditions is
 
 ```
 Scope_serial = ⋂_{i=1..k} Scope(Ci)
 ```
 
-If `Scope_serial = ∅`, the chain is **inapplicable** and MUST NOT contribute to published scope.
+When a stage takes the preceding stage’s output as its input, trace the reachable intermediate outcomes for the original slice. To establish conditional compatibility, show that the downstream stage can use the outputs covered by the claim. To establish feasibility, show that an allowed execution can reach the promised result. To guarantee delivery, justify a way of operating the whole chain that the responsible participants can follow with their authority and the information available at each choice. Under that way of operating, every history allowed by the stated conditions must reach the required result, by the deadline if there is one. Include admissible waits, failures and retries. A chain can produce compatible data whenever it finishes and still fail to finish on time. If the order and choices are prescribed, test that order directly. An empty input scope supplies no slice for using the chain.
 
-**Monotonicity.** Adding a new essential dependency can only narrow (or leave unchanged) the serial scope.
+**Monotonicity.** Adding a necessary condition to the same chain and expressing it on the same original slices can only narrow the scope or leave it unchanged. Inserting a stage that transforms an intermediate result changes the chain. Recompute which original slices can now reach the promised result and under what conditions. A converter may admit an input that the original chain could not handle.
 
 #### A.2.6:7.3 - Parallel Support (SpanUnion)
 
-**Rule P‑UNION (parallel).** If there exist **independent** support lines `L₁,…,Lₙ` for the **same** claim/capability, each with serial scope `S_i`, the publisher MAY declare:
+To establish where the same claim holds, find the slices on which each argument warrants it. The claim holds throughout the union of those supported areas because each included slice is covered by at least one argument. If two cases depend on one calibration, that premise must be justified everywhere the proof uses it. Retain that dependency when the calibration is challenged. Different areas of application do not by themselves give independent evidence for an overlapping case.
+
+**Rule P‑UNION (parallel).** To claim independently supported areas for the **same** claim or capability, establish the required independence of lines `L₁,…,Lₙ` in addition to their respective scopes `S_i`. The publisher may then declare
 
 ```
 Scope_published = SpanUnion({S_i})  =  ⋃_{i=1..n} S_i
@@ -77,8 +79,8 @@ Scope_published = SpanUnion({S_i})  =  ⋃_{i=1..n} S_i
 **1) G is not an ordinal scale; it is set-valued.**
 Under **USM**, `U.ClaimScope` is a **set‑valued** **USM scope object** over `U.ContextSlice`. The only well‑typed primitives are **membership** and **set operations** (`⊆`, `∩`, `⋃`). Imposing ordinal “levels” such as **G0…Gk** violates the type discipline and produces non‑invariant behavior (the **same set** could be “rated” with different numbers under different heuristics). (See also LEX‑CHR‑STRICT.)
 
-**2) G composes via `∩` / `SpanUnion`, not via `min` / `avg`.**
-USM already fixes composition: along a **dependent path** use **intersection**; across **independent support lines** publish **SpanUnion**. None of these operations relies on (or preserves) any linear order. An ordinal “G ladder” invites people to take **minimums/averages**, which is **incorrect** for sets and breaks the established algebra.
+**2) G is a set of slices.**
+USM already fixes composition: intersect requirements on common slices, including conditions traced back through intermediate outcomes. Coverage by cases requires grounds throughout the covered areas. Across independently supported lines the publisher may use **SpanUnion**. None of these operations relies on (or preserves) any linear order. An ordinal “G ladder” invites people to take **minimums/averages**, which is **incorrect** for sets and breaks the established algebra.
 
 **3) Identify what an abstraction level compares.**
 C.3.5's optional `KindAT` facet describes how a particular kind is intended to be used. Its anchors run from instance-oriented use, such as cataloguing a particular cohort, to treating structures up to isomorphism. To compare the levels of abstraction or refinement of two models, use B.5.MR. To establish where an assertion holds, identify the context slices in its `U.ClaimScope (G)`. These judgements can change independently.
@@ -122,8 +124,8 @@ Observed mismatch, calibration error, and counterexamples are evidence about the
 #### A.2.6:7.7 - Invariants
 
 * **I-LOCAL.** Interpret membership under the effective reference scheme and exact local senses current to the declaration. Translate only through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim for that translation; keep A.10 or B.3 reliance outside membership truth.
-* **I‑SERIAL.** Serial scope is an **intersection**; it cannot grow by adding dependencies.
-* **I‑PARALLEL.** Parallel scope MAY grow by union, but only where **independently supported**.
+* **I‑SERIAL.** Intersect essential conditions expressed on the original slice. Adding a necessary condition to a fixed chain can only preserve or narrow its scope.
+* **I‑PARALLEL.** A claim supported throughout each of several cases holds throughout their union under the premises used. The additional `SpanUnion` claim requires the independence established in §7.3.
 * **I‑WLNK.** **F** describes the required expression properties of the essential constituents and their connecting inferences under C.2:4.3 and C.2.3:15.1. The composition must preserve those properties; a minimum applies only under a justified rule on a shared local ordered scale. **R** follows the justified support-composition model or non-aggregate synthesis under C.2.2:4.3 and B.3:4.4; dependency paths alone supply no default minimum. **G** follows the set rules in A.2.6:7.2 and A.2.6:7.3.
 * **I‑IDS.** Idempotence: Intersecting or unioning a set with itself does not change it.
 * **I‑EMPTY.** Empty scope is a first‑class value; guards MUST treat it as “not applicable”.

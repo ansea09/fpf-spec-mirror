@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
-line_start: 128115
-line_end: 128458
+line_start: 128230
+line_end: 128573
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -162,7 +162,7 @@ These are claims or references in an episteme. They are not `SlotSpec` declarati
 | Conditional neighboring references | Add neighboring references for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
 | Non-inference boundary | Keep description, classification, assignment and other neighboring claims separate; state an explicit contrast when it prevents a plausible mistake in the current use. |
 
-A quick local description may stop after the always-recoverable content. For a consequence-bearing Work-admission claim, add only the neighboring relations that claim depends on.
+A recognition description can finish here. If someone must decide whether to admit a candidate to work, use the description to identify the right criterion and test the candidate under it. Select any further questions from the actual admission conditions.
 
 #### F.4:4.2 - Description versus Neighboring Values
 
@@ -246,7 +246,7 @@ Source says “episteme X has role Y”
 
 #### F.4:7.1 - Pump Inspector System Role
 
-`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is the kind currently named `PumpInspectorSystemRole`. An admitted system counts when it obtains readings for the named pump and declared condition characteristics in the applicable inspection situation and returns the named pre-maintenance judgment from those readings. A maintenance technician, inspection robot, or service team can be a member; a report, or a system missing either condition, is a relevant non-member.
+`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is the kind currently named `PumpInspectorSystemRole`. An admitted system counts when it obtains readings for the named pump and declared condition characteristics in the applicable inspection situation and returns the named pre-maintenance judgment from those readings. A maintenance technician, inspection robot or service team can be a member. Apply both conditions to the system the question names. The team can meet the criterion when a technician takes readings in the team’s inspection and another member uses those readings to return the team’s judgement on that pump. To classify the technician personally, establish what the technician does. A report, or a system missing either condition, falls outside this kind.
 
 `PlantA-PumpInspector-KindSignature-v4` and `Plant-A-Maintenance-Scheme` state the current definition and interpretation. Plant A provenance locates that definition; it does not identify the kind. The same kind continues through an aligned edition while the candidate range and two-part distinction continue; a material change to either calls for another kind.
 

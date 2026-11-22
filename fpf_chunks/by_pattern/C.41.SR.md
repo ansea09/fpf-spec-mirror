@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.SR.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
-line_start: 94714
-line_end: 94893
+line_start: 94761
+line_end: 94940
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -75,7 +75,7 @@ Start with the decision about the whole and its acceptance conditions. Which con
 
 Name the relevant relation instead of inferring it from a checklist's nesting. A supplier can enable work; a schedule allowance can affect its feasibility; a model can describe the subject; one observation can support several conclusions. Identify the facts it supplies to each. Two records derived from the same observation count as one source when independent confirmation matters. For a physical part–whole claim, identify the part and the whole in the work itself. Recover what a changed local condition changes for each consuming claim.
 
-A local Method can contribute to an encompassing Method during the same performance. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) explains the composition distinction; its consequence here is to examine the whole's conditions when interpreting constituent work. Service availability enables the work; establish separately how the performed contribution enters the encompassing Method.
+The construction of an encompassing Method determines which local Methods it admits. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) explains the composition distinction; its consequence here is to examine the whole's conditions when interpreting constituent work. To explain an actual shared job, establish which performance was part of that Work and which Method it enacted. An outside service or an earlier conclusion can support the job through its result.
 
 Separate three kinds of gap. A missing performer or resource returns to enabling and coordination work. An unknown subject condition returns to an observation or judgement. A conflict between claims first calls for comparing their subjects, meanings, times and grounds; if those match, investigate the substantive disagreement. Do not resolve a conflict by averaging labels or accepting the newest entry.
 
@@ -139,7 +139,7 @@ The worked case below connects these moves to the room, materials and workshop. 
 
 **Local answers and simultaneous contribution.** Through C.41.UA the technician establishes equipment conditions and the facilitator compares the projected example with the physical card. One well-grounded comparison can settle whether those two versions agree. Both participants can use it, even if they record it in separate lists. If projection is essential to the commissioned exercise, a confirmed projector failure rules out running it as planned. If the exercise also permits printed copies, that failure rules out the screen option. The organizer can use the printed option when the copies, participants' access and other conditions of that exercise are established.
 
-**Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
+**Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people authorized to select a feasible arrangement or report that the allowed arrangements cannot meet the terms before those contributions combine.
 
 **Changed premise and continuation.** Moving W from room A to B reopens the room-dependent observations. Revising the example reopens its content and display questions. Known unaffected card facts remain usable. An absent technician assignment returns to coordination; an assigned technician with an unknown projection result returns to observation. After an interruption, the shared account lets participants recover these different next moves.
 

@@ -6,12 +6,12 @@ section_id: "F.9:9"
 section_title: "Boundary to coarsening and quantum-like export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_boundary-to-coarsening-and-quantum-like-export.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:9 — Boundary to coarsening and quantum-like export"
-line_start: 130094
-line_end: 130108
+line_start: 130209
+line_end: 130223
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,7 +59,7 @@ keywords:
 
 Open F.9 when a receiving use needs an actual semantic relation between exact local senses. A lossy or approximate export is not thereby a Bridge, and an actual Bridge is not thereby a quantum-like state transition.
 
-Use this order:
+For a question that includes both a Bridge and its use, the use determines which correspondence to investigate. Establish the independent grounds in this order.
 
 1. resolve the exact F.17 cells, state the relation-semantic profile, and test whether the Bridge obtains;
 2. state the proposed use separately as `<u,d,r,t>` and give the C.2.1 claim its polarity;

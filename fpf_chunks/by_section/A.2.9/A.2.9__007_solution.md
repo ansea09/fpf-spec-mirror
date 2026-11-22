@@ -6,12 +6,12 @@ section_id: "A.2.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__007_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:4 — Solution"
-line_start: 9251
-line_end: 9404
+line_start: 9245
+line_end: 9405
 dependencies:
   - "A.10"
   - "A.13"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.2.9:4 — Solution
 
-When a receiving use is current, state who should understand or do what because of the communicative Work, including later self-use by its producer, then judge that Work against evidence relevant to the stated use. A response, silence, later action, or later change may be evidence, but none by itself defines what the utterance means, proves that the use was achieved, or shows that the Work caused the later effect. Keep the communicative Work distinct from its wording, representation, medium, interpretation, response, later action or change, and any causal claim.
+Start with the intended receiving use, including later use by the producer. If the order calls for an authorised response, determine whose response counts, for which subject and by when under the applicable terms. An authenticated reply meeting those conditions can itself complete the order. Where acceptance takes effect on delivery or after an objection period, establish the event and conditions that rule specifies. A question about understanding, subsequent use or causal influence requires evidence for that particular conclusion.
 
 Repair the smallest thing that blocks the stated use—for example, wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Judge earlier communicative Work against the use stated for that occurrence. A revised use applies to later communication or to a separately named reevaluation; it does not turn the earlier response into achievement of the earlier declared use. Authority, consent, permission, and ethical or institutional admissibility remain separate questions.
 
@@ -63,7 +63,7 @@ When exact occurrence identity, governance, modeling, audit, or reliance is curr
 
 Per A.7 and A.15.1, the actual speech-act occurrence is a Work individual; its `SpeechActRecord` and **utterance descriptions** are epistemes, while its **carriers** are utterance carriers, publication carriers, or traces that allow observation and audit.
 
-Occurrence identity specializes A.15.1. Admit a candidate as actual communicative Work from one exact communicative performance history, every actual performer's A.13 core, an enacted Method, temporal extent, and containing-System relation; do not use an F.6 conclusion as an admission premise.
+Occurrence identity specializes A.15.1. Admit a candidate as actual communicative Work from one exact communicative performance history, every actual performer's A.13 core, an enacted Method, temporal extent, and containing-System relation under A.15.1. To identify joint communicative Work, establish which people or other Systems performed the communication together and which contributions belonged to its performance. A record delivered to several people may instead describe the act of a single spokesperson. An independently recognized collective System can itself be the performer when its organization and action warrant that attribution.
 
 Several satisfied act types classify that one Work occurrence. Identify more than one occurrence only when distinct performance history, enacted Methods, institutional actions, or another admitted discriminator establishes distinct Work. A shared utterance, carrier, assignment, or interval decides neither sameness nor difference. If a named use admits more than one defensible segmentation, cite its continuity or segmentation rule or leave the occurrence boundary unresolved. Check any precise assignment-bound attribution through F.6 only after admission.
 
@@ -71,7 +71,7 @@ Whether a given act type institutes commitments, permissions, publication relati
 
 #### A.2.9:4.2 — Minimal occurrence-description record (normative)
 
-Use the following declaration schema only when a receiving use needs a persistent claim about one already admitted actual speech-act occurrence. The record fields state claims about the referenced occurrence. A source that has only a candidate observation uses the separate non-conformant episteme/stub described under `SpeechActRef` discipline; it supplies neither a `SpeechActRef` nor a `SpeechActRecord`.
+Use the following declaration schema only when a receiving use needs a persistent claim about one already admitted actual speech-act occurrence. The record fields state claims about the referenced occurrence. A source that has only a candidate observation uses the separate non-conformant episteme/stub described under `SpeechActRef` discipline; it supplies neither a `SpeechActRef` nor a `SpeechActRecord`. Identify each actual performer. The two direct fields suffice for one performer with at most one exact assignment attribution. When the claim relies on several performers or several assignments of one performer, keep one record of the act and group each claimed assignment with its actual holder.
 
 ```
 U.SpeechAct <: U.Work
@@ -81,11 +81,18 @@ SpeechActRef ::= U.EntityRef
 
 SpeechActRecord <: U.Episteme
 
+PerformerEntry ::= {
+    actualPerformerSystemRef: U.EntityRef,
+    performedUnderAssignmentRef: optional<U.RelationRef constrained to F.6 performedUnderAssignment>
+  }  // Each present F.6 reference relates this act to this performer’s A.13 assignment.
+
 SpeechActRecord ::=
     {
       speechActOccurrenceRef: SpeechActRef,
-      actualPerformerSystemRef: U.EntityRef,            // resolves to the A.13-qualified System projected as RA.HolderSystemSlot
-      performedUnderAssignmentRef: optional<U.RelationRef constrained to F.6 performedUnderAssignment>, // omit when the record makes no exact assignment-bound attribution; any present reference resolves after independent Work admission to the exact relation for this act and the same obtaining A.13 assignment
+      // Choose one form. The direct fields cover one performer and at most one assigned capacity.
+      ( actualPerformerSystemRef: U.EntityRef,
+        performedUnderAssignmentRef: optional<U.RelationRef constrained to F.6 performedUnderAssignment>
+      | performers: set<PerformerEntry> ),  // non-empty, covers all performers and every claimed performer–assignment pair
       enactsMethodRef: optional<U.EntityRef>,        // resolves to the exact U.Method enacted by the actual Work
       methodDescriptionRef: optional<U.EpistemeRef>, // separate C.2.1 episteme used only when it identifies, constrains, or justifies that Method or intended Work
       unresolvedEnactsMethodClaimAddress: optional<ClaimAddress>,
@@ -150,8 +157,8 @@ Interpret a cited policy, procedure or utterance under its own effective scheme 
 
 * **(SA‑C0) Actual Work conformance.** The individual referenced by `speechActOccurrenceRef` **MUST** first satisfy independent A.15.1 admission: every actual performer has the A.13 core for the communicative action, scope, working situation, and window; the performance history is grounded; and the Work has an actual `enactsMethod -> U.Method` relation, temporal extent, and at least one obtaining locally declared Work-to-System containment relation. Add a characteristic profile only when a Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use consumes it.
 
-  A record that makes no exact assignment-bound attribution **MAY** omit `performedUnderAssignmentRef`. Whenever that field is present or the record claims exact assignment-bound attribution, it **MUST** resolve to a separate F.6 relation established after admission for this already admitted act through the same obtaining A.13 assignment. `methodDescriptionRef`, when present, cites a separate C.2.1 episteme; the description is not enacted.
-* **(SA‑C1) The System performs; exact attribution reuses the same assignment.** The performer **MUST** be an admitted `U.System` that satisfies and is classified under one exact local agential system-role kind for this act. An observation-only or otherwise non-attribution record **MAY** omit `performedUnderAssignmentRef` and **MUST NOT** be used to satisfy a guard, gate, or claim that depends on exact assignment-bound attribution. If the field is present, it **MUST** resolve to the separately obtaining F.6 `performedUnderAssignment` relation for the already admitted act and the same obtaining assignment occurrence named by A.13, together with its declared `U.SystemRoleAssignment` species. If a guard, gate, or claim relies on exact assignment-bound attribution, the field **MUST** be present and that F.6 relation **MUST** obtain.
+  An attribution for an actual performer **MAY** omit `performedUnderAssignmentRef` when it makes no exact assignment-bound claim. Each present reference **MUST** resolve to the F.6 relation established after admission for this act and that performer’s obtaining A.13 assignment. A `methodDescriptionRef` cites the episteme describing the Method.
+* **(SA‑C1) Each performer and any claimed assignment.** Each actual performer **MUST** be an admitted `U.System` satisfying the A.13 agency conditions for its contribution. When an exact assignment is relied on, the record **MUST** identify the F.6 relation between this act and that assignment, stating its species and matching its holder to the performer. Use an entry for each relied-on pair, including distinct assignments of the same person. List a performer with no exact assignment-bound claim once without that reference. Establish the mandate for representing each party under the governing rule. One assignment can carry authority for several parties, or the same person may act under distinct assignments in one performance.
 
   The assignment **MUST** have the performer as holder, supply every other participant, cover the act, and satisfy its species predicate for the required scope, working situation, and window. Evidence supports those core facts; a characteristic profile enters only when conditionally consumed. The taxonomy episteme and the rules used to interpret its claims supply the classification basis; they are not assignment participants. Establish any authority required by the receiving use under its applicable rule.
 * **(SA‑C2) Act types are independently satisfied recognition classifications.** The occurrence **MUST** instantiate at least one `SpeechActTypeRef` defined by the exact `recognitionTaxonomyRef` under the stated `effectiveReferenceScheme`. If a policy or procedure supplies an additional recognition condition, cite its exact current episteme and satisfy that condition separately.
@@ -193,7 +200,7 @@ A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.
 
 * **Multi-function:** `actTypes` is a **set**. When one actual communicative Work performs several recognizable functions, one speech-act occurrence carries all satisfied `actTypes`. Identify several occurrences only when the occurrence-identity rule in §4.1 finds distinct world-side grounds. Their records may share utterance or carrier references. If the named use admits competing segmentations, cite its continuity or segmentation rule or leave the boundary unresolved. Institutional effects remain separately referenceable (SA‑C5).
 
-* **Multi-party:** `addressedTo` is a set. Its optional members may be parties, exact local system-role kinds, or exact obtaining occurrences of directly declared `U.SystemRoleAssignment` species. State which branch each addressee uses. Identify the actual performer and establish any claimed authority, commitment, permission, responsibility or institutional effect under their applicable rules.
+* **Multi-party:** establish who participated in performing the act and who was addressed. One jointly issued declaration may require contributions from several actual performers under §4.1. Several individual approvals may also constitute separate acts whose combination an acceptance rule requires. Use the performance history and that rule to decide which occurred. `addressedTo` separately identifies parties, exact local system-role kinds, or exact obtaining system-role assignments in the audience. Establish any claimed authority, commitment, permission or institutional effect under its applicable rule.
 
-A message addressed to two offices can inform both and record a decision made by one. To attribute acceptance to either office or to a body represented by both, establish who could act for whom, what the act covered and which combination of decisions the rule required. A single authorised decision can settle the whole order. Use A.6.C:4.1 when the decision also depends on what the parties separately undertook. Receipt, understanding and use by a particular addressee each need evidence about that addressee.
+A message addressed to two offices can inform both and record a decision made by one. To attribute acceptance to either office or to a body represented by both, establish who could act for whom, what the act covered and which combination of decisions the rule required. A single authorised decision can settle the whole order. For example, one delegate authorised separately by each office may issue a joint approval with a co-signer. Identify the performances that constituted that one act, the two actual people, and each exact assignment relied on for either of them. Two mandates for one person can justify representation of both offices. They identify two F.6 pairs only if distinct obtaining assignments for the same act are established. Use A.6.C:4.1 when the decision also depends on what the parties separately undertook. Receipt, understanding and use by a particular addressee each need evidence about that addressee. For example, if two offices commission one joint declaration by their delegates and both participate in issuing it as agreed, the joint performance can fulfil that order. If they commission two separate approvals, establish the required act for each. For an acknowledgement-only order, the stipulated acknowledgement by the authorised recipient can be the entire result.
 

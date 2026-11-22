@@ -6,12 +6,12 @@ section_id: "C.42:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:4 — Solution"
-line_start: 95130
-line_end: 95288
+line_start: 95177
+line_end: 95335
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -123,7 +123,7 @@ Compare the whole burdens that can change the choice. They can include preparati
 
 Determine who bears each burden and when. Separate a transfer accepted by its bearer from an unprovided condition. A recipient's capacity limit can make a locally cheap alternative infeasible.
 
-Use compatible quantities where a calculation is useful. For a fixed number of repeated uses, a simple account can compare initial effort plus recurring effort, with separately stated exceptions and uncertainty.
+Use compatible quantities where a calculation is useful. Compare the ways under the same relevant external demand and commitments. Where the Method itself changes the number or mix of jobs, recover the jobs, repeats and exceptions that would arise under each arrangement and compare their totals. A common set of jobs answers a question about effort per comparable job. A sufficient bound may settle either choice. For a fixed number of repeated uses, a simple account can compare initial effort plus recurring effort, with separately stated exceptions and uncertainty.
 
 Do not add labour time, elapsed delay, money, failure severity and future capability into an unexplained total. C.11.CRC develops a comparison when several contributions and shared constraints make those interactions consequential.
 
@@ -131,7 +131,7 @@ Compare the joint intervention, not the sum of imagined independent gains. If a 
 
 Check the horizon and the cost of reversal. An expensive preparation may be justified by many future uses and unjustified by a single remaining occurrence. A simpler manual way can win when volume is low, conditions change rapidly or exception handling dominates.
 
-When the demand or horizon is uncertain, show which plausible change would reverse the choice. Obtain more information only when it can change a worthwhile decision.
+When the demand or horizon is uncertain, establish whether variation within the supported range could reverse the choice and what would do so. Obtain more information only when it can change a worthwhile decision.
 
 At a later decision, compare what each feasible continuation would require from the current situation. Already incurred effort is not charged again and does not by itself justify continuing.
 

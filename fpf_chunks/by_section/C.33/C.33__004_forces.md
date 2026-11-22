@@ -6,12 +6,12 @@ section_id: "C.33:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__004_forces.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:3 — Forces"
-line_start: 85010
-line_end: 85020
+line_start: 85050
+line_end: 85060
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

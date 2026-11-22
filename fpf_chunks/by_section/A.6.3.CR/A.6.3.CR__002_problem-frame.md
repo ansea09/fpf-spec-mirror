@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:1 — Problem frame"
-line_start: 19080
-line_end: 19097
+line_start: 19091
+line_end: 19108
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -38,7 +38,7 @@ Use this pattern when available source claims about the same EntityOfConcern nee
 
 **Primary governed case.** One textual re-expression of already available source claims whose resolved EntityOfConcern remains the same. The source and receiving epistemes concern that entity; the textual rendering expresses the receiving claims.
 
-**First useful move.** Identify the source claims and resulting text, compare their meaning, and state any omission or loss that affects the intended use. If preservation is doubtful, name the missing basis or defect; repair it within CR when possible, or use the pattern for the changed claim.
+**First useful move.** For a new text, establish what its reader needs to learn or do with the source claims. Select the claims and qualifications needed under that reading, and write the restatement. For a text already provided for review, compare its meaning with the source directly. In either case, identify a loss that changes the intended use and restore the needed distinction where the source supports it.
 
 **What goes wrong if missed.** A summary, translation, or manager-readable rewrite is treated as harmless editing after it has started hiding explanation work, bridge work, changed authority relation, or a narrower admissible use.
 

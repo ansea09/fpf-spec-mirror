@@ -6,12 +6,12 @@ section_id: "A.7.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:0 — Use this when"
-line_start: 27016
-line_end: 27029
+line_start: 27036
+line_end: 27049
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -34,9 +34,9 @@ keywords:
 
 ### A.7.2:0 - Use this when
 
-Use this pattern when two or more dated applications of current FPF methods or patterns yield ontology-claim or decision epistemes whose claims or practical consequences cannot jointly support the same receiving claim or consequence in the same scope. Trace each result to the pattern or method clauses, premises, and source-use occurrences that the application used; a difference between texts alone is not a conflict. One material contradiction is enough; recurrent conflict is not required.
+Use this pattern when FPF clauses appear to give incompatible answers to the same ontology question or practical decision. A designer can compare a proposed rule with another rule before either has been used. A practitioner investigating disagreement between actual applications can trace the result of each to the clauses, premises and sources used. One material contradiction can warrant reconciliation.
 
-The first useful move is to name the smallest receiving ontology claim and, for each dated application, the result claim or decision, the practical consequence it would support, and the clause, premise, or source use on which it relied. If the apparent conflict disappears after recovering the applicable scopes, return a context split. Different scope labels alone do not resolve incompatible claims in their shared domain.
+First name the disputed claim and the use it must support. To test the rules, find conditions admitted by both and work out what each would conclude there. For a report of disagreement in practice, recover the actual conclusions in their respective circumstances. A difference of scope resolves the apparent conflict only where it removes the incompatible consequences.
 
 **Not this pattern when.** A vocabulary difference, unlike source function, or different subject with no shared practical consequence is not a premise conflict. Use `A.7.1` for one engineering ontology defect, `F.19` for wording repair with `C.2.P`/`E.10` for a remaining semantic question, direct evidence-use or formal patterns for missing warrant, and source-currentness patterns for stale editions.
 

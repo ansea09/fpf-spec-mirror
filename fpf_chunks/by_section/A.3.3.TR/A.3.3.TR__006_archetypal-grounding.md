@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:5 — Archetypal Grounding"
-line_start: 13102
-line_end: 13161
+line_start: 13109
+line_end: 13170
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"
@@ -50,20 +50,22 @@ The ordering rules already suffice to exhibit failure. If a scheduler chooses un
 
 #### A.3.3.TR:5.2 - A fixed connection and two force equations determine acceleration
 
-Two carts move on an ideal frictionless straight track. A massless rigid connector keeps their positions q1 and q2 at q2 - q1 = L. Their positive masses are m1 and m2. Signed external forces along the track are F1 and F2. The connector exerts equal and opposite signed forces, written -lambda on cart 1 and +lambda on cart 2.
+This example compares two commissions for the same pair of carts. One asks for the acceleration of the pair. The other asks what force the connector must carry. Two carts of positive masses m1 and m2 move on an ideal frictionless straight track. A massless rigid connector keeps their positions q1 and q2 at q2 - q1 = L. Signed external forces along the track are F1 and F2. The connector exerts equal and opposite signed forces, written -lambda on cart 1 and +lambda on cart 2.
 
-The positional constraint alone permits many common motions. Differentiating the constant-separation condition gives v2 = v1 and a2 = a1 = a for compatible motion. Newton's equations for this ideal model give
+The positional constraint alone permits many common motions. Differentiating the constant-separation condition gives v2 = v1 and a2 = a1 = a for compatible motion. To predict that motion, draw the boundary around both carts and the connector. The connector forces cancel within it, so the net external force gives the centre-of-mass acceleration `a = (F1 + F2)/(m1 + m2)`. Rigidity makes this the acceleration of each cart.
+
+For the load, draw a boundary around either cart. The respective force balances under the stated sign convention are
 
     m1*a = F1 - lambda
     m2*a = F2 + lambda
 
-Adding them obtains `a = (F1 + F2)/(m1 + m2)`. Substituting back gives `lambda = (m2*F1 - m1*F2)/(m1 + m2)`. The connection constraint and both interaction equations were needed to determine the common acceleration and exchanged force.
+Substituting `a` into either balance gives `lambda = (m2*F1 - m1*F2)/(m1 + m2)`. The split between the external forces matters to this answer even at the same total force.
 
-For m1 = 1 kg, m2 = 3 kg, F1 = 4 N and F2 = 0, the result is a = 1 m/s² and lambda = 3 N. Start with q1 = 0, q2 = L and both velocities zero. While the forces remain constant, q1(t) = t²/2 and q2(t) = L + t²/2 in metres when t is in seconds; both velocities are t metres/second.
+For m1 = 1 kg, m2 = 3 kg, F1 = 4 N and F2 = 0, the result is a = 1 m/s² and lambda = 3 N. If instead F1 = 0 and F2 = 4 N, the acceleration stays 1 m/s² while lambda becomes −1 N under the same sign convention. Start with q1 = 0, q2 = L and both velocities zero. While the forces remain constant, q1(t) = t²/2 and q2(t) = L + t²/2 in metres when t is in seconds; both velocities are t metres/second.
 
-These formulas provide a state-transition calculation for any chosen interval within those assumptions. If the forces vary, supply their time or state dependence before computing the motion. If the connector is elastic or has consequential mass, its constitutive and interaction account changes the rule. Choosing smaller numerical time steps cannot supply that missing physical relation.
+For changing forces, the whole-pair acceleration depends on the resultant at the time in question. Its time dependence, or a law for it and suitable initial conditions, can determine the motion. For the final velocity alone, the initial velocity and the net impulse over the interval suffice. Divide that impulse by the total mass and add the resulting change in velocity. A bound on the quantity in question can settle a threshold. For the signed connector load, use a component balance as above or other evidence that determines or sufficiently bounds the load. If the connector is elastic or has consequential mass, its constitutive and interaction account changes the rule. Choosing smaller numerical time steps cannot supply that missing physical relation.
 
-The calculation combines the physical interaction account, mathematical constraints and an executable rule. It also shows why reducing to one position can simplify motion prediction while retaining the connector force lets a designer determine the load on the connection.
+For another state-change question, first name the observable the next decision needs. Hold the proposed model’s retained quantities fixed and vary the information it omits within the allowed conditions. Here shifting the same applied force from one cart to the other preserves whole-pair acceleration and changes the connector load. The whole-system balance suffices for the former question. The latter needs a component balance or other grounds establishing the internal force.
 
 #### A.3.3.TR:5.3 - Preserving a value and making progress require different arguments
 

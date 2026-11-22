@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:4 — Solution"
-line_start: 29960
-line_end: 30059
+line_start: 29986
+line_end: 30087
 dependencies:
   - "A.10"
   - "A.13"
@@ -65,7 +65,9 @@ keywords:
 
 ### A.15:4 - Solution
 
-Recover the values first, then state only the relations needed by the receiving use. A.15 aligns system-role kind, assignment, Method, MethodDescription, capability, WorkPlan, Work, and separate records; it does not create a universal process object or a universal assignment signature.
+Begin with the receiving question. To coordinate future work, work back from the result due, its user and the time and conditions of use. Which contributions must someone perform? Which can be satisfied by an available result? Choose the Method and the capable performer or performer condition for each necessary contribution. Establish that each handoff supplies what the next performer needs in time and that the contributions can coexist under any shared constraint. Make the planning choices entrusted to you and state what a later decision maker can still choose. A plan may be proposed before an appointment is made. An existing appointment, authority to commit and the feasibility of the arrangement each have their own grounds.
+
+For a question about past work, recover the actual performer, occurrence, Method and any attribution needed from the performance history. In either use, keep system-role kind, assignment, Method, MethodDescription, capability, WorkPlan, Work and records distinct.
 
 When wording about changing, producing, selecting, deriving, controlling or maintaining leaves its object unresolved, use `E.10.ARCH`. A workflow graph, process calculus, matrix, category, embedding or neural representation may describe or serve as a lens over a Method relation structure; its representation form alone establishes no Method, assignment, WorkPlan or Work occurrence.
 
@@ -161,5 +163,5 @@ Another structure, such as CGUS, P2W, P2S, an improvement-loop slice or a transf
 
 Use `A.15.5` when the current question is whether intended Work is ready to enter its boundary. A.15 keeps system-role kind, assignment, Method, plan, and Work distinct; A.15.5 carries `WorkEntryReadiness@Context`, `FullKitCondition`, commitment disposition, resource-readiness references, WIP or flow-policy references, planned baselines, and launch-gate references when those values are current.
 
-Readiness is not performed Work, evidence sufficiency, or gate passage. A briefing, dashboard, source bundle, or P2W record may cue A.15.5. Ground the result in the WorkPlan being judged, the PlanItem content the criterion consumes, that criterion and the facts used to evaluate it. State the readiness result, its qualification window, and the applicable stop or degraded-use condition. Identify missing or unknown required inputs; include performed preparation Work or a planned baseline only when the criterion or receiving use consumes it. Address the PlanItem content through that WorkPlan; it is not another readiness target.
+Readiness is not performed Work, evidence sufficiency, or gate passage. A briefing, dashboard, source bundle, or P2W record may cue A.15.5. Ground the result in the WorkPlan being judged, the PlanItem content, the applicable criterion and the facts used to evaluate it. When the criterion is yours to design, derive it from what must be in place for the promised work, including shared conditions. State the readiness result, its qualification window, and the applicable stop or degraded-use condition. Identify missing or unknown required inputs; include performed preparation Work or a planned baseline only when the criterion or receiving use consumes it. Address the PlanItem content through that WorkPlan; it is not another readiness target.
 

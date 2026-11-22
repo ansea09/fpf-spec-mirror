@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.2.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
-line_start: 136860
-line_end: 137377
+line_start: 136985
+line_end: 137506
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -230,6 +230,8 @@ Apply the following operations to the declared source population. A conforming p
 1. **Declare scope and plurality.**
    Identify the exact CG-frame (the declared framing episteme), the initial `Tradition` set, each intended claim region and EntityOfConcern, the comparison basis, and the receiving use. Record the cited CG-frame and source editions and evidence anchors in the pack pins rather than hiding them in a generic context field. Before counting, fix the HarvestPolicy's receiving question, counted population, grouping and same-family equivalence, including overlap handling for a combined population.
 
+   Derive the search boundary from what the receiving practitioner must compare. Work back from the possible answers to the claims that could distinguish them. If one source describes a method, another reports an occasion when it was used and a third describes its result, identify what connects those claims in this use. To move from a constituent to the whole, look for evidence about how it was used in the encompassing arrangement. To draw on a more general model, establish which of its conclusions carries into the receiving conditions. These needs determine which source regions to seek and which can be omitted. Evidence already qualified for the whole question can settle a bounded inquiry.
+
 2. **Discover and triage sources (ledger‑first).**
    Populate `CorpusLedger` via:
 
@@ -248,6 +250,8 @@ Apply the following operations to the declared source population. A conforming p
 
 6. **(Alias: G.2‑F) Construct a needed synthesis and record asserted fusion/substitution.**
    Use B.1.3:4.4 to construct a joint conclusion from the source claims when the receiving question needs one. Recover their support and conflict relations, shared dependencies, subject and applicability before composing. A qualified synthesis with separately stated support can suffice when no common numerical model is justified.
+
+   Try the proposed synthesis on a situation the source accounts can distinguish. Two practices can agree on what to do today for different reasons. If every permitted reading leads to the same action, that agreement can settle today's choice. A common rule for later uses must also cover the conditions under which their recommendations diverge. Where the premises cannot be made compatible, give each conclusion with its conditions and identify what the receiver can still decide.
 
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** apply `CC‑GCORE‑PEN‑1` to its loss assessment and any numerical assurance penalty.
 

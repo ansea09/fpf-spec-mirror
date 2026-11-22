@@ -6,12 +6,12 @@ section_id: "C.40.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:4 — Solution"
-line_start: 90697
-line_end: 90761
+line_start: 90743
+line_end: 90807
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"
@@ -28,7 +28,7 @@ keywords:
 
 ### C.40.CD:4 - Solution
 
-Recover the problem and an available way, construct a consequential change, perform a revealing target use, and let its result determine the next question or use. Keep the original receiving need connected to any replacement or subsidiary question.
+Recover the problem and an available way, construct a consequential change, establish what the new conditions imply, and use that result to choose the next question or use. Try a target case when its response can resolve the remaining question or the trial is itself owed. Keep the original receiving need connected to any replacement or subsidiary question.
 
 #### C.40.CD:4.1 - Recover what is being sought and what can already be done
 
@@ -52,11 +52,11 @@ If the opening is an incompatibility, B.5.QD.CF examines the premise that makes 
 
 Check the formulation before investing in solving it. Its objects and operations must have meanings, its conditions must be interpretable together, and the proposed answer must be assessable. A question asking whether a configuration is possible can legitimately return an impossibility result. When a task generator promises a solvable challenge, support that promise with a feasible case. Otherwise keep feasibility open.
 
-Select a revealing attainable case. Its result may expose a counterexample, a useful intermediate construction or a missing operation. Leave difficulty relative to the available means and method where it has not been established more generally.
+Where a further attempt can settle an open distinction, select a revealing attainable case. Its result may expose a counterexample, a useful intermediate construction or a missing operation. Leave difficulty relative to the available means and method where it has not been established more generally.
 
 #### C.40.CD:4.3 - Construct the way for the changed problem
 
-Try a sufficient existing operation first. Where the receiving problem breaks the old construction, locate the failed contribution: input meaning, intermediate result, operation, output condition or applicability premise.
+Use an existing result or derive what the receiving conditions already establish. Apply an operation when its result is still needed. Where the receiving problem breaks the old construction, locate the failed contribution: input meaning, intermediate result, operation, output condition or applicability premise.
 
 Retain the usable contributions. Transform the input, replace a constituent or compose available operations so that each result supplies what the next step needs. C.39.RO develops that reusable operation and its support. A new physical or professional operation still needs the Method that constructs or performs it.
 

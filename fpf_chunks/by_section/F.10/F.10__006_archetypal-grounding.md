@@ -6,12 +6,12 @@ section_id: "F.10:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:5 — Archetypal grounding"
-line_start: 130912
-line_end: 130937
+line_start: 131027
+line_end: 131054
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,6 +50,8 @@ July uptime is first recovered as an exact C.16 measurement result, stated by a 
 The SLO clause and service target are independently recovered. Dated evaluation work applies the SLO rule to the measurement result through exact bindings and produces a requirement-evaluation result claim. A separate `RequirementStatus=Satisfied` claim for this clause and window needs a result that meets the clause’s evaluation rule. Here the dated evaluation Work supplies that result.
 
 If the comparison relies on a semantic correspondence between the monitoring and service-management senses, test the F.9 Bridge and the bounded use. If the evaluation draws on the `Measured` status itself, use `StatusInterpretationRelation` to check whether the rule admits that status for the clause question. The measurement, evidence status, bridge, interpretation, evaluation work/result, requirement status, dashboard display, gate, assurance, and release decision remain distinct.
+
+For a different July clause, suppose the service is available whenever either of two channels is available and the promise allows no interruption. Each channel was down for one hour. If those hours coincided the promise was missed. If they were disjoint it was met. Recover the overlap, or a direct service observation that settles it. A question about the recorded downtime of one channel can use that channel’s result directly.
 
 #### F.10:5.2 - Approved method description
 

@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 80283
-line_end: 80413
+line_start: 80317
+line_end: 80447
 dependencies:
   - "A.10"
   - "A.15"
@@ -76,7 +76,7 @@ Work in seven steps:
 1. Anchor the palette to one described holon or holon family, synthesis question, and intended next use. Name any current C.30 architecture relations and selected structures that can change that question.
 2. Explain the contributions of the smallest useful set of selected structures. Start with the recoverable functional demand and candidate bearer, using `A.6.F` for unresolved function meaning, and constructive module/manufacture or placement/deployment structures when they shape the question. Add control, flow, Method, Work, local-kind or classification, assignment, information, evidence or scale structures only when they change it. Send unresolved claim-bearing role wording through `E.10.ROLE`.
 
-   For each candidate treated as feasible, name a bearer able to satisfy each required function under the declared constraints; retain unknown or failed feasibility explicitly for diagnosis or repair.
+   For each candidate treated as feasible, establish which bearers can supply the required functions. A design that fixes an arrangement still has to meet the conditions of its commission. Distinguish a demonstration in one allowed mode from a guarantee over operating conditions or choices that remain open. For a guarantee, establish that the arrangement or a timely way of adapting it covers the required combinations, using the information and authority actually available. Retain unknown or failed feasibility for investigation or repair.
 3. State the characteristics and any Q-Bundle slots that define the trade-off, reusing existing criteria rows when available. Use C.32.ACS when a criteria-row construction is needed. Keep functional demand, characteristic, criterion, evaluation result and decision distinct.
 4. Generate candidate architecture configurations. A candidate claim may propose, for example, changed decomposition, allocation, A.6.F function bearing, bearer count, placement, interface grammar, a control or transformation-flow relation, Method use, future assignment conditions, an independently established responsibility relation, evidence scope, information structure, or a bounded exception.
 

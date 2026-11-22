@@ -6,12 +6,12 @@ section_id: "A.2.9:0.1"
 section_title: "Communicative Work and Its Description"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__002_communicative-work-and-its-description.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:0.1 — Communicative Work and Its Description"
-line_start: 9174
-line_end: 9177
+line_start: 9168
+line_end: 9171
 dependencies:
   - "A.10"
   - "A.13"

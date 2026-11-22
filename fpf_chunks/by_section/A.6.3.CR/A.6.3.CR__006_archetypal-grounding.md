@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 19273
-line_end: 19362
+line_start: 19284
+line_end: 19375
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -39,7 +39,7 @@ keywords:
 
 **Published report slice.** `Evening-batch latency for Service S exceeded the threshold. Source pins: Trace T-44, Dashboard D-17. Low-confidence hypotheses are omitted here and remain in the pinned source note.`
 
-This is an admissible direct `ConservativeRetextualization` because the EntityOfConcern stays fixed, the report remains textual, and the omission is stated. In ordinary internal use, this often needs only source pins plus visible omission notes rather than a full explicit review record.
+For a reader reporting whether Service S exceeded the evening threshold, the rewrite preserves the occurrence, subject, time window and access to its grounds. If the reader must choose an investigation, the two competing hypotheses and their low confidence may change that choice. Include them or make them recoverable in time for the reader’s decision. Acknowledging the omission alone would leave that reader without the needed comparison.
 
 #### A.6.3.CR:5.1.a - Ordinary inherited-pin summary
 **Pinned source cluster.** `In this example, N-14 is the source note in §5.1; N-14, trace T-44, and dashboard card D-17 are already published together under one incident review bundle.`
@@ -89,13 +89,15 @@ If the generated summary is source-pointer-only, merely plausible, claim-widened
 
 #### A.6.3.CR:5.2 - Same-EntityOfConcern rewrite via declared correspondence
 
-**Source design slice.** `Cooling loop CL-2 preserves safe temperature margins during standard operating demand.`
+**Source design slice.** `For configuration K at standard operating demand, CL-2 keeps the temperature at its return sensor in design band D-7.`
 
-**Source safety slice.** `Cooling loop CL-2 maintains the temperature condition required for hazard-control claim HC-7 during standard operating demand.`
+**Source safety slice.** `For configuration K at standard operating demand, HC-7 requires the temperature at monitoring point H to stay in safety band S-3.`
 
-**Published joint-review slice.** `For standard operating demand, Cooling loop CL-2 is described in both the design and safety views as maintaining the required temperature condition. This summary relies on CorrespondenceModel CM-12 and does not add claims beyond that declared overlap.`
+**Correspondence used.** CM-12 identifies H as the return sensor for configuration K and gives D-7 and S-3 the same limits, units and averaging interval for standard demand.
 
-The synthesis remains in this pattern only while its source relation is explicit and every receiving claim is supported by the design slice, safety slice or admitted correspondence claims. `CM-12` names the episteme stating that correspondence; its label alone supplies no witness. Add the review detail needed to establish the claimed overlap.
+**Published joint-review slice.** `For configuration K at standard demand, the design claims to maintain the temperature required by HC-7 at the return sensor. CM-12 identifies the monitoring point and the temperature band used by the two accounts.`
+
+The correspondence supports the stated overlap between a design claim and a safety requirement. An observation of actual operation would need its own basis. If CM-12 identifies only the sensor, report separately the band required by HC-7 and the band the design claims to maintain. Their relation remains to be established if the reader needs a conclusion about compliance.
 
 #### A.6.3.CR:5.2.b - Cross-language re-expression without hidden bridge work
 **Source slice.** `The backup controller stays in passive watch mode until the primary loop fails two consecutive heartbeat checks.`

@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:7 — Conformance Checklist"
-line_start: 12375
-line_end: 12385
+line_start: 12382
+line_end: 12392
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -25,7 +25,7 @@ keywords:
 - [ ] Each `U.MethodDescription` result names one `A.3.1`-admitted Method as its `EntityOfConcern`.
 - [ ] A candidate whole remains a candidate account when Method admission is absent.
 - [ ] Every named use has a receiver, action or decision, situation, qualification window, and stop.
-- [ ] Included claims say something substantive about the Method as a way of doing. An enactment or learning description lets the prepared reader recover the needed operations and their input/result connections, or exposes the missing contribution.
+- [ ] Included claims say something substantive about the Method as a way of doing. An enactment or learning description lets the prepared reader recover the needed operations and their input/result connections, or exposes the missing contribution. If the commission leaves a rule, scope or part of the method for the learner to construct, the exercise leaves that choice to them and the explanation shows how to make it.
 - [ ] Use coverage distinguishes exposed claims, deliberate omissions, unresolved gaps, and return conditions.
 - [ ] WorkPlan, dated Work, actual participants and results, operation declarations, evidence, capability, permission, authority, representation, publication, and carrier claims remain separate.
 - [ ] Representation choice does not decide MethodDescription membership.

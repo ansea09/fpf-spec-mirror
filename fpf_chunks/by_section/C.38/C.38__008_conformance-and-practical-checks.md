@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 87180
-line_end: 87198
+line_start: 87224
+line_end: 87242
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -34,7 +34,7 @@ keywords:
 A use conforms only when the checks needed by its claimed comparison pass:
 
 1. The result, receiver, use, horizon, acceptance conditions and decision authority are explicit. Existing provision has been checked against the same terms. If the commission includes the receiver’s later capability, the comparison identifies the work that would establish it and the assistance allowed.
-2. At least two materially different complete-enough ways seek that same result. Duplicate labels merge and material differences under one label split.
+2. The alternatives address the same receiving result. Ground their material differences, what rules any out, and any claim that the permitted range is exhausted.
 3. Every decision-bearing premise is visibly supported now, proposed, or unknown; proposed or unknown premises establish no actual capability, authority, Work, provision, delivery, acceptance, availability, or use.
 4. The same decision-changing parity questions are applied to every way; an omitted group is justified by irrelevance to this choice.
 5. A decision-reversing unknown remains a gap or probe. Protected conditions are not hidden inside one unexplained scalar.

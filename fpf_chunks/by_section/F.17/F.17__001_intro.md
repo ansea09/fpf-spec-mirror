@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:intro — Intro"
-line_start: 133000
-line_end: 133017
+line_start: 133119
+line_end: 133136
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ keywords:
 
 **Use this when.** An independently governed value has a settled durable name and public, Core-facing, durable, or cross-local reuse needs a reader-facing term row.
 
-**First useful move.** Point to the exact governed value, its kind, the pattern that defines or constrains it, one proposed row use, the selected Tech designation and any Plain designation needed for that use. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression or name already supplied for that value and stop.
+**First useful move.** Ask what a later reader will need to cite. If the reader needs a settled name, identify the governed value, its kind, the pattern that defines or constrains it, the intended citation use, the Tech designation and any Plain designation needed there. Apply F.14 to decide whether the reader needs a row. An existing designation, alias or local expression can settle the request.
 
 **Primary working object.** One C.2.1 `UnifiedTermRow` episteme whose exact EntityOfConcern is the independently governed value. Its claim graph cites the separate F.18 naming-settlement episteme and selected designation expressions. Section 5.1 explains the identities and relations needed to recover this decision and distinguish the row from its publication.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.5.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
-line_start: 138298
-line_end: 139097
+line_start: 138429
+line_end: 139230
 dependencies:
   - "C.11"
   - "C.18"
@@ -95,7 +95,7 @@ Registry and dispatch remain the primary concern. A set declaration can communic
 
 #### G.5:0.3 - First-minute questions
 
-- Which exact members and grouping or inclusion basis are already established?
+- Which decision must the grouping support? Which members and inclusion grounds have already been settled for that use?
 - Which decisions will each recipient make? Are the listed members alternatives for a later choice, or are all designated for one named use?
 - Does the declared comparison justify ordering them?
 - Which eligibility and evidence conditions apply? If promising a feasible combination or menu, what joint choices are allowed and what shared limits affect them?
@@ -265,6 +265,8 @@ For crossing-aware selection, `CorePinsRequired` below lists the crossing pins i
 G.5 defines the **object-set components** below. Their purpose is to make dispatch **possible and auditable** without embedding any method-family semantics in the selector kernel.
 
 **S1 — `MethodFamily Registry` (design-time; project-local or within a selected CG-Frame).**
+When forming a reusable grouping, start with the decisions for which a later dispatcher will use its members. Decide what each candidate must be able to do in that work. In the pump example, either review may use the same input and meet the same deadline. If the next task calls for a result before a pump restarts, a method requiring observations after restart cannot deliver that result in time. Keep the useful grouping and distinguish eligibility for the new task, or form a different grouping when the required work itself defines membership. An observation about one member can support the others only across the variations covered by its grounds. For a declaration of members already agreed, the agreement can provide the entire inclusion basis.
+
 A reusable row represents one declared grouping. Choose its registry-identity contract: project-local reuse, or intentional registration under a stable public registry identity. This distinction concerns the identity contract, not who can see the row. Both branches fix these replayable values:
 
 * `Identity and continuity`: `MethodFamilyId` names the continuing row lineage; `rowEdition` names one immutable edition; `MethodFamilyRowRef := <MethodFamilyId, rowEdition>` designates that edition. Lineage and Tradition notes and `UTSRowId` remain descriptive or publication values.

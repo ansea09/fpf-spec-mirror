@@ -6,12 +6,12 @@ section_id: "E.13:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 112501
-line_end: 112511
+line_start: 112567
+line_end: 112577
 dependencies:
   - "A.10"
   - "A.21"
@@ -47,5 +47,5 @@ keywords:
 | Source-count proof | More citations or source rows are treated as better decision quality. | Ask what changed in the substance of the decision. |
 | Dashboard myopia | A visible dashboard metric improves while unmeasured harm rises. | Add protected qualities and split measure from value. |
 | Proxy as gate authority | A proxy is treated as authority for release or gate passage without satisfying the rule that governs that decision. | Apply the governing release rule for release, `A.21` for gate passage, and `B.3` for an assurance claim; keep proxy use bounded. |
-| Value slice missing | Practical payoff is asserted but never shown in a case. | Add a minimally viable value slice or lower the payoff claim. |
+| Unsupported payoff | A passage promises a gain without showing why it follows for the recipient or what happened in use. | Supply the missing connection or observation. Limit the conclusion to what those grounds support. |
 

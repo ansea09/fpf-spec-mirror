@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — state the decision before distributing it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__006_solution-state-the-decision-before-distributing-it.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:4 — Solution — state the decision before distributing it"
-line_start: 104674
-line_end: 104824
+line_start: 104730
+line_end: 104884
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,7 +38,9 @@ keywords:
 
 ### E.9:4 - Solution — state the decision before distributing it
 
-Present the `Decision` account first in plain, precise language. Before a reader meets a DRR identity schema, a Method or Work account, or a catalogue of alternatives, they must be able to recover, in this order:
+Recover the decision the receiving practice commissioned. Who will use it, which alternatives can they choose, and what changes for them if those alternatives differ? Where the choice concerns several wholes, identify the relevant parts of each and the connections on which the result depends. Where it concerns alternative models, identify what their differences allow the practitioner to decide about the same subject. A decision about how to describe an architecture can contribute to a decision about that architecture. State that contribution and what the architect still needs to settle.
+
+Present the `Decision` first in plain language. Before introducing the DRR schema, a Method or Work account, or a catalogue of alternatives, let the reader recover the following:
 
 1. the working FPF problem and why it matters now;
 2. the selected answer stated positively;
@@ -72,6 +74,8 @@ Keep a rejected alternative only when it explains the selected answer, a live bo
 
 Before adopting a language, ontology, or authoring rule for wider use, apply it to at least one real host and its proposed replacement, including their dependencies. At comparable effort, compare the recognizable entry, required inputs, first action, practitioner vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and direct consumers.
 
+Use that comparison for the uses and conditions it reaches. For a rule proposed across a wider range, show which feature of the rule preserves the required work as the objects, their organization or the reader's conditions vary. A general argument can occur inside the host comparison. A successful use with the original conditions supplies a result for those conditions.
+
 The proposed wording must pass the E.8 first screen and the `F.19` kind-preserving plain-rewrite test. A schema, invented fact pack, unrelated lane test, checklist, or promised review cannot replace this comparison. If the pilot makes the host harder to use without a compensating semantic gain, repair or reject the rule before applying it elsewhere.
 
 A DRR records the selected answer. When exact identity or reliance makes the distinction material, separately identify the decision work and method, selected-answer result, C.2.1 DRR episteme, source-use relations, assessment and result, any acceptance or authority, and later realization work. An exact DRR episteme then follows C.2.1 identity by `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>`; ordinary use does not require materializing that whole account.
@@ -95,7 +99,7 @@ A nontrivial DRR must also make the following parts of the decision available fo
 | **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, source-use rows, or validation evidence without reopening the selected answer. | Decision and Consequences. |
 | **Impact, practical gains, and remaining validation evidence obligation** | Affected patterns and selected non-pattern FPF kind-reference pairs, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation evidence obligation that constrains later authoring or landing. | Consequences. |
 | **SoTA and competitive-positioning account when load-bearing** | Current best-known problem-solving source anchors and source-derived moves under E.8 that discipline the decision, what problem-owning domain or practice they answer to, which official, popular, or legacy alternatives they reject or bound when relevant, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
-| **Actual-host predecessor/proposed replay when a broad authoring rule is selected** | One dependency-aware real host comparison at comparable effort: recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and direct consumers. The proposed wording passes E.8 and F.19; a proxy or promised later review does not substitute. | Decision and Rationale, with the selected rule and pilot effect carried into the locus obligations. |
+| **Actual-host predecessor/proposed replay when a broad authoring rule is selected** | One dependency-aware real host comparison at comparable effort: recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and direct consumers. Use E.8 and F.19 on the proposed wording. For a wider conclusion, explain which conditions of this comparison carry to the other promised uses and what grounds that inference. | Decision and Rationale, with the selected rule and pilot effect carried into the locus obligations. |
 | **Campaign problem-solution unfolding carry-through when triggered** | For campaigns changing README entries, path-shaped patterns, pattern families, DPF entries, or first-practical routes: the map from admitted problem-side record refs or cues, accepted starting records, current starting structures, and entry cues to selected solution architecture, affected unfolding families, loci added or changed, governing-pattern map, content assigned from DRR or README into patterns or unfolding structures, and any independently grounded overread that a plausible intended reader could make. | Decision, selected-locus map, and Consequences. |
 
 These blocks supply the content of the decision. Four headings cannot tell a later author the grounds, first-minute working situation, naming choice, distribution, sufficiency or necessity of a pattern or non-pattern FPF kind-reference pair, treatment of overlap, impact, or remaining uncertainty. Make those answers recoverable in the DRR without creating separate process paperwork.
@@ -179,7 +183,7 @@ If the answer is unknown, start with the difficulty and the material available. 
 
 Use a provisional expression to bring a consequential relation into view: juxtapose two cases, arrange competing explanations, trace a dependency, or compare an intended use with the result currently available. E.8:4.2.1.2 and A.6.3.RT.OE supply the expression construction. Identify what the arrangement lets you infer and what remains unsupported. A question mark can make an unresolved interpretation visible; it supplies no premise for choosing one answer.
 
-Let the result change the decision question when it reveals that the original question conflated different work. Retain live alternatives only for the comparison they support. Replace a classification by format, tool or package name when the deciding difference concerns the operation or conditions of use. A working table can therefore be revised or discarded after it has produced the useful distinction.
+When the evidence reveals several questions inside the original commission, distinguish them and show how their answers bear on the recipient's decision. Return any open choice to the person entitled to make it. For example, agreeing where a decision will be recorded settles its publication only. If the commission also assigns a choice between architectures, compare their consequences for the work they must support. Retain a working table while its distinctions help make or explain that choice.
 
 Before another author relies on the selected answer, resolve each premise that can change its selected obligation, or bound the result so that the remaining uncertainty does not defeat that obligation. If neither is possible, state where the decision must stop. Use the four kernel components and the applicable inspection content in §4.1 to inspect that closure. Material already recoverable in the account need not be copied into another answer column. A source pointer without the needed substantive contribution is not recoverable decision content.
 

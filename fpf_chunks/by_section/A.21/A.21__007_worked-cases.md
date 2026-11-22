@@ -6,12 +6,12 @@ section_id: "A.21:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__007_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:5 — Worked cases"
-line_start: 41680
-line_end: 41695
+line_start: 41712
+line_end: 41727
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -36,7 +36,7 @@ keywords:
 
 #### A.21:5.1 - Ordinary local pass
 
-The workshop case at the entry uses two required checks. Each application names its subject and criterion: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. `WorkshopEntryProfile-E5` maps both satisfied results to `pass`. Worst-result aggregation gives `pass`; the short rationale names both results, and the bounded action is “start `CalibrationCycle-17` before 16:00”. No publication or replay record is required.
+The workshop case at the entry uses two required checks. Each application names its subject and criterion: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. `WorkshopEntryProfile-E5` maps both satisfied results to `pass`. Worst-result aggregation gives `pass` for the gate on starting `CalibrationCycle-17` before 16:00. Suppose the operating rule makes that pass the final condition for the assigned operator, whose authorization is current. The operator may start within the window. Where another release is required, those same two results settle the equipment gate and the operator still needs the release. No publication or replay record is required.
 
 #### A.21:5.2 - Unknown and failed checks
 

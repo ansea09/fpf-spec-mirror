@@ -6,12 +6,12 @@ section_id: "A.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__015_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:13 — Relations"
-line_start: 26790
-line_end: 26796
+line_start: 26810
+line_end: 26816
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "B.1.2"
   - "B.1.4"
   - "B.1.5"
+  - "B.1.5.EW"
   - "B.1.6"
   - "E.10"
   - "E.17"
@@ -47,7 +48,7 @@ keywords:
 ### A.7:13 - Relations
 
  **Builds on:** A.1 (Holon), A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance, carrier, and source-currentness relations), A.14 (Mereology), A.15/A.15.1/A.15.2 (System-Role–Method–Work, Work, and WorkPlan Alignment).
-* **Constrains:** A.13 (Agency sits on systems only; epistemes non-behavioural), B.1.2:4 system-aggregation and delimitation decisions, B.1.5 Method composition, B.1.4 temporal aggregation, and B.1.6 Work-resource aggregation. These uses preserve the System, Method, Work, and Episteme distinctions; publication follows its own availability conditions in E.24.PUB.
+* **Constrains:** A.13 (Agency sits on systems only; epistemes non-behavioural), B.1.2:4 system-aggregation and delimitation decisions, B.1.5 Method composition, B.1.5.EW and A.15.1 for the composition of performed Work, B.1.4 temporal aggregation, and B.1.6 Work-resource aggregation. These uses preserve the System, Method, Work, and Episteme distinctions; publication follows its own availability conditions in E.24.PUB.
 * **Extends:** E.8, E.10, Part F and Part G, B.3, and the C-cluster by enforcing the EntityOfConcern/Description boundary, specification-use and publication orthogonality, System/Episteme separation, same or near-same EntityOfConcern discipline across views, and progressive actor wording. Publication remains the separately governed availability of an episteme through a form and carrier.
 * **Coordinates with:** E.18 for crossing visibility, A.21 for gate checks, E.17 for publication, and E.10 for lexical checks. F.17 identifies local senses and F.9 governs an obtaining Bridge between two such senses; a ReferencePlane crossing follows its applicable plane relation. The bounded-use claim, reliance, optional `CL`, and any named policy penalty remain separate.
 

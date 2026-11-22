@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.RC.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
-line_start: 126985
-line_end: 127162
+line_start: 127096
+line_end: 127275
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -59,7 +59,7 @@ Attempt the promised reconstruction, state what was lost or recovered in the tes
 
 #### F.0.2.RC:4.1 - Make the coverage claim testable
 
-State the source edition or bounded corpus, the candidate language edition, the receiving use and the contribution that should survive. Include the intended action, first result, applicability, stop and source/evidence qualifications that can change that use.
+Recover the reader’s intended work from the promise before consulting the candidate’s list of entries. State the source edition or bounded corpus, the candidate language edition and the contribution that should survive. Include the intended action, first result, applicability, stop and source/evidence qualifications that can change that use.
 
 Choose the source cut by the promise. A source-complete extraction commitment needs its stated full recovery basis; a gap-only claim needs a recoverable prior baseline and a bounded delta. F.1 can select a question-relative source cut, but it does not replace an exhaustive domain review when that is what the claim requires.
 
@@ -76,6 +76,8 @@ One direction may settle the question. Use both when the language claims source 
 For a promise about performing a composite Method, also recover a constituent action within its ongoing whole and the conditions that make that combination possible. Change an encompassing requirement and ask what must change in the action. A reader who can repeat the steps but cannot recover that dependence has not yet recovered this promised use.
 
 Available lower-level skills and a known whole procedure can conceal a missing intermediate coordination. A promised actionable account must expose that gap or give a usable return to the contribution that closes it. Retain genuine earlier-result dependencies; a list of simultaneous activities alone does not explain constitution.
+
+If the promise includes choosing or constructing the way of working, start the reconstruction with the material that reader would have before the choice. What choices about the way of working did the commission leave to that reader? When several results must work together, can the reader choose the parts and retain the distinctions their joint use requires? Check whether the account gives grounds for the choice and its bearing on the outcome. A task that supplies the pieces, their connections and the model can test the reader’s use of that arrangement. For a promise confined to its use, that can suffice.
 
 #### F.0.2.RC:4.3 - State the reconstruction result
 
@@ -108,7 +110,7 @@ If the dependency boundary cannot be recovered, widen the affected inquiry. Loca
 
 For one contribution, a short answer can name the failed promise, supporting or missing passage, affected destination, retained results and next action. Retain a more detailed account only when another user must repeat, compare or rely on it. Its C.2.1 identity follows its claims, named coverage question and effective reference scheme, not a map identifier alone.
 
-A cold-reader reconstruction is appropriate when author familiarity could supply the missing answer or a changed condition must be recognized without a hint. Obtain the initial answer before disclosing that condition. A desk reconstruction remains useful evidence, but it is not a fresh-reader or actual-enactment result.
+Use a fresh reader when familiarity could supply a missing choice or inference. Give the reader the original commission and the information normally available at the point of choice. Obtain their answer before supplying a choice the commission entrusted to them. A desk reconstruction remains useful evidence, but it is not a fresh-reader or actual-enactment result.
 
 ### F.0.2.RC:5 - Archetypal Grounding
 

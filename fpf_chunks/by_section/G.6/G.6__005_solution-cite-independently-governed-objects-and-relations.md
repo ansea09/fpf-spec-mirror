@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution — cite independently governed objects and relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-cite-independently-governed-objects-and-relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution — cite independently governed objects and relations"
-line_start: 139144
-line_end: 139305
+line_start: 139277
+line_end: 139440
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -142,6 +142,8 @@ G.6 defines no fallback core edge vocabulary. Legacy or display labels such as `
 #### G.6:4.3 - PathId and PathSliceId
 
 A `PathId` identifies one claim-local path inside an `EvidenceGraph`. A `PathSliceId` identifies the same path under a declared time window, reference plane, bounded context, edition, bridge, policy, or selected object/relation subset.
+
+To choose the contents of a slice, work back from the inference its recipient must replay. Suppose an archive needs to establish that an index takes readers to the intended passages of a translated catalogue. The translator approved the text of edition 2 and the indexer checked the references against edition 1. Both approvals can be traced. For joint use, recover what connects the indexed references to the passages the reader will see. An established correspondence covering those references may suffice across editions. If it covers only some of them, carry that scope into the citation. To answer the narrower question of which text the translator approved, the translator's record alone may suffice.
 
 Use this compact record:
 

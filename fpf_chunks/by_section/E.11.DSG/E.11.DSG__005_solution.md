@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 111872
-line_end: 112050
+line_start: 111938
+line_end: 112116
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -182,7 +182,7 @@ Recommendation, alternative, dependency, compatibility, and co-listing remain se
 
 #### E.11.DSG:4.4 - Test sufficiency and each item's necessity
 
-Call a combination sufficient when it satisfies the required result and sufficiency rule within the recoverable candidate boundary. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist.
+Start from the result and range in the commission. For a request to find one usable combination, check the selected resources against that result and the sufficiency rule. If asked for the smallest combination or for all eligible alternatives, establish what makes a resource eligible. Track which eligible resources the search or a general bound covers. When the entry exposes only part of that range, a sufficient set found there can still be used. State the range within which any stronger conclusion follows.
 
 To test one deletion, remove the item, keep the other resources and conditions fixed, and judge whether the promised result is still available. Report which deletions defeat this particular combination.
 

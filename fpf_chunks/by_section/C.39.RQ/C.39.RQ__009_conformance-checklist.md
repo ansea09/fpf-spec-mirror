@@ -6,12 +6,12 @@ section_id: "C.39.RQ:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:7 — Conformance Checklist"
-line_start: 89452
-line_end: 89467
+line_start: 89498
+line_end: 89513
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -34,6 +34,6 @@ Apply these questions to the criteria being established or appraised and to the 
 - [ ] When a criterion's justification is disputed, the recommendation compares its protective contribution and burden and distinguishes that judgement from current force and the feasible amendment route.
 - [ ] Every burden limit names its participant, Work scope, applicable time window, bound and basis, and how satisfaction can be determined. A measured burden retains its measurement method and conditions; a stipulated or derived bound retains its governing or derivation basis.
 - [ ] Every decision-changing row names evidence and `satisfied | failed | unknown` observations.
-- [ ] The result states acceptance-for-next-use, stop, and reopen conditions without selecting or admitting a Method.
+- [ ] The criteria support the intended evaluation, including allowed alternatives and joint conditions. Selecting a Method requires the subsequent judgement.
 - [ ] Individual and combined structure questions are routed to different later results.
 

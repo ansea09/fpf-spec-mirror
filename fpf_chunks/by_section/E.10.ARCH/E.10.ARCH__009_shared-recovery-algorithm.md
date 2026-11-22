@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:3"
 section_title: "Shared recovery algorithm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__009_shared-recovery-algorithm.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:3 — Shared recovery algorithm"
-line_start: 108360
-line_end: 108405
+line_start: 108424
+line_end: 108469
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,14 +68,14 @@ keywords:
 Use this five-step object-preserving order only for the ontology question that remains after the `F.19` and compact `E.10` pass:
 
 1. **Bound the wording and use.** Name the exact text span or publication unit, the recurring wording, its sentence function and register, and the working claim or use that makes it consequential. Keep `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` as author-facing routing coordinates rather than as candidate project ontology.
-2. **Recover the exact subject and claim.** For wording that designates a governed entity, value, or episteme, identify the particular one. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
+2. **Recover the exact subject and claim.** Identify what could bear the property the reader has to explain or act on. The wording may concern one entity, a kind under its membership rule, or how a practice repeatedly produces a result. A passage about one occurrence can help establish any of these when its grounds reach that far. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
 3. **Bypass restoration when the subject and predicate are clear.** Once the object, relation, assertion, description, publication, representation, work, result, structure, or architecture claim has a clear predicate and governing rule, state or use that claim and stop the restoration detour. Use the PatternID to locate the rule; identify an exact `ClaimGraph` only when the receiving use depends on it.
 
    If actual authoring or repair Work is part of the claim, recover each exact performer and obtaining assignment through A.13 and A.2.1, then let A.15.1 independently admit the dated Work. Add F.6 only when this architecture account also consumes precise assignment-bound attribution. State Method, MethodDescription, and responsibility claims separately only when they matter.
 4. **Add only receiver-needed apparatus.** Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values, relation-occurrence identity, participant designations, designators, references, publication forms, or C.29 representation elements only when a named later use needs that additional object. Keep each item under the rule that defines its identity or use, and cite the pattern containing that rule. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that exact relation current.
 
    If the same entity participates in several direct relations, is designated in several assertion or occurrence-description epistemes, or corresponds to several representation elements, keep those uses distinct under their separate predicates. Shared entity identity does not merge the relations, epistemes, designations, or representation correspondences.
-5. **Write the shortest usable sentence.** State the governed object, direct relation or claim, and admissible action-facing use so the working reader need not consult the applicability row. Add a guard only when the `F.19` plausible-intended-reader test warrants it. A type-correct but inert sentence is not a completed repair.
+5. **Write the shortest usable sentence.** State the governed object, direct relation or claim, and admissible action-facing use so the working reader need not consult the applicability row. Add a guard only when the `F.19` plausible-intended-reader test warrants it. Try the repaired sentence in the receiving work. A decision that needs the installation record and an applicable approval, for example, depends on their concerning the same installation. Carry that connection, or what remains open, into the wording.
 
 Perform a terminology-source audit only when source ontology can change the governed object, direct relation kind, participant meaning, actual participant kind, declaration-local `SlotSpec`, assertion-side participant designation, exact use, admissible use, or the defining or testing rule selected for the claim. Stable ordinary prose remains ordinary. A source tuple or argument place remains representation-side until an explicit correspondence to a declared `SlotSpec` is current.
 

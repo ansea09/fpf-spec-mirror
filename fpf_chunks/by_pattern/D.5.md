@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
-line_start: 97568
-line_end: 97773
+line_start: 97617
+line_end: 97822
 dependencies:
   - "A.10"
   - "B.3"
@@ -112,7 +112,7 @@ The frame organizes the audit account. Include relied-on evidence and any strong
 | --- | --- | --- |
 | "This metric shows the system is fair." | Distinguish metric disparity, proxy choice, subgroup impact, and intended use. | `C.16` for metric construction |
 | "This intervention makes outcomes fair." | Declare the causal fairness use, C.28 support components and causal-use support result. | `C.28` |
-| "The model is unbiased." | Name represented and missing groups, data-generation limits, model-use limits, and the supporting basis. | `C.16`, `D.5`; `A.10` when a source-to-use account is needed |
+| "The model is unbiased." | From the decision that uses the model, trace who encounters its consequences in access, treatment or the outcome at issue, and who can be screened out before a record exists. Select the comparisons that bear on the claimed protection and establish whose outcomes their records actually cover. Records of applications can suffice for a claim about those applications. | `C.16`, `D.5`, and `A.10` when a source-to-use account is needed |
 | "The release is ethically assured." | Separate audit findings, mitigations, accepted residuals, and the assurance or evidence relation. | `B.3`, `D.5` |
 | "The policy is acceptable because it helps the whole." | Check whether a multilevel conflict is live. | `D.2`, `D.3`, `D.4` |
 
@@ -167,7 +167,7 @@ The C.28 result is one evidence basis for the audit conclusion. Interpret it wit
 
 ### D.5:5 - Ethical Assurance Boundary
 
-Ethical assurance is not a stamp of moral permission. It is an assurance claim that bias, fairness, impact, and accepted residuals have been examined for the use.
+State the protection on which the recipient will rely and the use for which it is claimed. The record of an examination can establish that an audit took place. To rely on the protection, connect its criterion to the relevant findings, the people and decisions they cover, the effects of mitigation and the remaining exposure. Establish who may authorize proceeding with that exposure when such a decision is required.
 
 Use `B.3` for the assurance relation. Establish the needed evidence and its currentness through the applicable subject and source rules; use `A.10` when the source-to-use relation is implicit or must be made replayable. Use `D.3` to describe an interlevel ethical conflict and `D.4` to mediate or use it in a decision. Use `C.30.ILC` when the issue is an architecture residual rather than a bias or fairness audit.
 
@@ -201,7 +201,7 @@ If the team claims counterfactual fairness, C.28 must expose the causal estimand
 | --- | --- | --- |
 | Ethics ghetto | Bias or fairness is left in a separate ethics note while the model, metric, release, publication, or work plan keeps operating unchanged. | Put the concern on the audited EntityOfConcern and its intended use, then name the mitigation, constraint, or accepted residual. |
 | Checklist charade | A checklist is completed without answering the concern about affected people, evidence, use, or residuals. | Return the bounded finding or judgement; use a register or report when its content is needed for tracking or reliance. |
-| Bias whack-a-mole | One disparity is patched while proxy, representation, metric, visibility, or language concerns move elsewhere. | Keep REP, ALG, VIS, MET, and LNG concerns visible until the admissible use and accepted residual are explicit. |
+| Bias whack-a-mole | One disparity is patched while proxy, representation, metric, visibility, or language concerns move elsewhere. | Follow the change through the decisions and people it affects. Reopen the concerns whose grounds or consequences it changes and state the use and residual that this supports. |
 
 ### D.5:8 - Consequences
 

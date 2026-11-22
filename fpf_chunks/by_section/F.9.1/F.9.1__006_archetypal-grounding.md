@@ -6,12 +6,12 @@ section_id: "F.9.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:5 — Archetypal Grounding"
-line_start: 130599
-line_end: 130630
+line_start: 130714
+line_end: 130745
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -56,7 +56,7 @@ If readers must return to the source account before making a staffing or release
 
 #### F.9.1:5.4 - Partial analogy without substitution
 
-Two schools use different senses that share one explanatory pattern. For example, a TAE felt-sense phrase and a later formal term may share one stated explanatory feature while differing elsewhere. Their F.9 Bridge obtains, and an affirmative bounded-use claim says that the Bridge is suitable for one teaching comparison while rejecting method transfer. A `partialAnalogy` stance helps the reader notice the shared pattern. It does not make the methods equivalent.
+A teacher wants a reader to recognize a recurrence. In this constructed comparison, a speaker’s felt-sense phrase in a TAE session, “back where we started”, describes returning to the same unresolved question. A formal account describes a path that returns to its starting state. Suppose the two local readings and their correspondence have been established for this teaching use. The teacher can explain the analogy in one sentence. “The speaker comes back to the unresolved question just as the path returns to its starting state.” That feature supports the comparison. To infer that every permitted continuation repeats, the learner would also have to rule out a continuation that escapes the recurrence. The learner can use the analogy without borrowing either school’s method.
 
 #### F.9.1:5.5 - The `nonEquivalent` warning
 
@@ -64,5 +64,5 @@ An affirmative bounded-use claim says that the Bridge is suitable for placing tw
 
 #### F.9.1:5.6 - Anti-case: the gloss comes first
 
-“The dashboard metric is basically a projection of operational resilience” supplies neither exact local senses, an obtaining Bridge, nor a bounded-use claim. Do not attach a stance label. Recover the senses and F.9 relation, then state the exact proposed use and its tolerated loss. If the dashboard is a controlled reduction, also apply A.6.3.CSC.
+“The dashboard metric is basically a projection of operational resilience.” First ask what the reader needs from the sentence. To choose staffing for the next shift, establish which demand the staff must cover and what capacity will be available. A gloss about the metric could leave both open. To explain what the displayed value preserves from a source account, establish the correspondence and what it permits the reader to infer. Apply A.6.3.CSC if a controlled reduction is needed. Add the stance only where a remaining ambiguity affects the reader.
 

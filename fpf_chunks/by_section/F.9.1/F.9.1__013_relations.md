@@ -6,12 +6,12 @@ section_id: "F.9.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__013_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:12 — Relations"
-line_start: 130685
-line_end: 130699
+line_start: 130800
+line_end: 130814
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -40,12 +40,12 @@ keywords:
 
 #### F.9.1:12.1 - Migration rule
 
-For each legacy stance passage, ask in order:
+For each legacy stance passage, start with the work its reader needs to do.
 
-1. Which exact local senses are being related?
-2. Does an F.9 Bridge obtain?
-3. Which exact bounded-use claim is being explained?
-4. Does a short stance note add reader value?
+1. What would a short note let this reader interpret that the claim itself leaves unclear?
+2. Which two exact local senses does that reading depend on?
+3. Does the F.9 Bridge between those senses obtain?
+4. Which bounded-use claim would the note explain, and what does that claim affirm or rule out?
 
 Keep a stance note when you can identify both senses, establish their Bridge, cite the bounded-use claim and explain what the note adds for its reader. Preserve useful legacy wording as the plain reading, stance, loss emphasis, example or grounded non-use boundary. If the note adds nothing for that reader, omit it. Retain any independently useful legacy explanation with the claim or example it explains. A Card reference may remain as optional publication access, never as the stance's identity or prerequisite.
 

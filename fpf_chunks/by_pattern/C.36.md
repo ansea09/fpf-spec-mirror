@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-line_start: 85670
-line_end: 86137
+line_start: 85710
+line_end: 86179
 dependencies:
   - "A.1"
   - "A.10"
@@ -238,6 +238,8 @@ A stylistic similarity alone does not establish that an audience recognizes or l
 
 #### C.36:4.2 - Intervention Card
 
+Work back from the change sought in the practice. Who would have to do what differently? Trace what participants can select, teach, adapt, use or retain. If they already receive it, establish what could change its use. Choose a relation the project can influence and explain how the change could reach the intended work. When the change depends on several contributions, explain how their arrangement and conditions can produce the required result together. Where one participant receives another’s contribution, trace what was preserved, changed or combined. Independent choices can also produce a common pattern under shared conditions. Identity of a variant matters where the claim requires it. An existing arrangement can already support the intended use.
+
 Use an intervention card when the project needs to identify a proposed or performed intervention later. State the action, the relation expected to change and what would warrant continuing, revising or stopping. A festival might offer earlier jury feedback so instructors can use it in the next syllabus revision. An approved syllabus revision establishes which change the editor adopted. A draft produced from the feedback establishes what the proposed text says. To report adoption, identify the editorial action or the rule that put the revision into effect. To establish that classes used the selected variants, examine the teaching and work of those classes. To attribute a difference in use to earlier feedback, examine what else changed and what grounds the comparison. Use A.15.2 for the plan and A.3.4 for a claimed actual change.
 
 Keep proposal and performance separate. The full card below is an assurance expansion, not a first-use form.
@@ -348,7 +350,7 @@ Use clear domain meanings. Recover the object or relation when platform, regime 
 
 ### C.36:5 - Archetypal Grounding
 
-The dance-school sentence in the Problem frame is the minimum case: teachers transmit variants through teaching; an archive retains and presents records; recognition and peer copying supply their own selection relations; and one proposed intervention targets how variants enter the syllabus without claiming success.
+For example, consider a dance school deciding how a festival’s feedback could change what students practise. Earlier feedback gives the editor an opportunity to change the syllabus. Instructors must then have access to the adopted revision in time to use it. What students practise depends on the tasks the instructors actually set. Each link suggests a different intervention if the preceding link already works.
 
 The engineering-product-family and music-and-dance slices below show how unlike projects recover Methods, Work, variants, memory epistemes, recognition or selection relations, mediating Systems, and refresh without inventing one root culture kind.
 
@@ -459,10 +461,10 @@ Select that bounded trial through the teaching Method. This completes the recomm
 
 | Check | Passing observation |
 |---|---|
-| **CC-C36-1 — Recognizable case** | The text names the practice, population, collective, or Discipline boundary; the variants; the cultural-evolution relation at issue; and the next action or stop. |
+| **CC-C36-1 — Recognizable case** | The text names the practice, population, collective, or Discipline boundary; the variants; the cultural-evolution relation at issue; and the next action or stop. For an intervention, it explains how the chosen relation could change the intended practice. |
 | **CC-C36-2 — Small first result** | A cold reader can use the one-sentence case or small case card before encountering the assurance expansion. Optional fields appear only when their identities change a later claim. |
 | **CC-C36-3 — Recovered objects** | Familiar words such as *culture*, *style*, *tradition*, *practice*, *platform*, *regime*, and *technique* do not stand in for several unseparated FPF objects or relations. |
-| **CC-C36-4 — Project choice** | A project decision or authorization is recorded through the pattern for that claim and is not offered as evidence of transmission, recognition, selection, retention, loss, intervention performance, or effect. |
+| **CC-C36-4 — Project choice** | Where an authorized decision selects a variant, that act can establish the selection. A permission can establish who may choose. Establish subsequent transmission, use, retention and the effect of an intervention from grounds for those claims. |
 | **CC-C36-5 — Proposal, Work, and effect** | A proposed intervention, planned Work, performed Work, actual transformation, Work-to-change relation, and measured effect remain separate. Every asserted Work occurrence has A.13-qualified performers and independent A.15.1 admission. Assignment and F.6 refs appear only when the card or receiving use expressly represents precise assignment-bound attribution. |
 | **CC-C36-6 — Population observation** | The account specifies the change claimed, the unit and period of observation, and how each counted case meets the criterion. For a group conclusion, the coverage or justified inference from the observations supports the decision. Claims about a particular transmission or an intervention effect identify their own grounds. |
 | **CC-C36-7 — Mediation** | A platform, recommender, archive, publication, or provider is named by its kind and relation. Mediation does not become selection, value, authority, or cultural control by label. |

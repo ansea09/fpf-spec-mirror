@@ -6,12 +6,12 @@ section_id: "G.12:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__009_bias-annotation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:7 — Bias-Annotation"
-line_start: 142038
-line_end: 142041
+line_start: 142183
+line_end: 142186
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,5 +51,5 @@ keywords:
 
 ### G.12:7 — Bias-Annotation
 
-G.12 counters screen-first, “latest”-by-default, scalar-winner, and publication-as-truth bias. An uncluttered view can hide incompatible definitions, while a dense technical record can make a simple trend unreadable. Start from exact result claims, show the smallest useful view, and give readers a way to reach replay and refresh details without crowding the view.
+G.12 counters screen-first, “latest”-by-default, scalar-winner, and publication-as-truth bias. An uncluttered view can hide incompatible definitions, while a dense technical record can make a simple trend unreadable. Use the intended judgement to select the relevant exact result claims, show the smallest sufficient view, and give readers a way to reach replay and refresh details without crowding the view.
 

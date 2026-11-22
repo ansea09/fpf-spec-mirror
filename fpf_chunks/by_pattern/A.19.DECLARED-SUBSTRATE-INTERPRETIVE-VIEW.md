@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
-line_start: 37559
-line_end: 37981
+line_start: 37591
+line_end: 38013
 dependencies:
   - "A.0"
   - "A.19"
@@ -49,7 +49,7 @@ keywords:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0 - Use this when
 
-Use this pattern when one already-declared substrate from `A.19.SOURCE-SET-SPACE-SUBSTRATE` is already in force, and the current passage either cites that substrate directly or works through one declared source-set entry point or set-result entry point that keeps the substrate recoverable, but the reader still needs one interpretive view to see how the line should be read in practice.
+Use this pattern when a reader needs to draw a conclusion from an already declared source set and its relation to outcomes. Begin with the question they want the view to answer. Identify which members, distinctions and connections must be visible for that purpose. They can inspect the substrate directly or use a view over a named source set or set result that keeps it recoverable.
 
 Typical indicators are:
 
@@ -260,7 +260,7 @@ When declaring one interpretive view, proceed in this order:
 0. **Entry test.** Confirm that one already-declared substrate exists and that the current inspection question can cite it either directly or through one declared source-set entry point or set-result entry point that keeps it recoverable, rather than drifting into substrate repair, publication, or policy.
 1. **Name the active interpretive head.** Use ordinary `DeclaredSubstrateInterpretiveView` unless the current reading genuinely needs the fuller atlas form.
 2. **Cite the base line.** Name the already-declared substrate the view is reading, or cite the source-set entry point or set-result entry point together with the recoverable substrate it depends on.
-3. **State the inspection question directly.** Say what the view helps the reader see that the substrate alone leaves hard to inspect.
+3. **Connect inspection to use.** State what the reader must be able to infer or decide and which distinctions in the declared substrate make that possible. If two permitted readings would require different answers yet look identical in the view, recover the missing distinction or state the narrower conclusion it supports.
 4. **Keep the base source/result recoverable.** Name the active source set, and if the view is over one declared front, archive, shortlist, palette, or other set result drawn from that source, keep that active set result recoverable too.
 5. **Recover derived-view and palette structure when it matters.** If the view depends on one derived tradition or palette reading, state `DerivedViewKind` and `BasePaletteRef`.
 6. **Add the actual qualifiers.** Add `TypedSetViews`, cited spaces, declared map refs, metrics, transition qualifiers, or distortion notes only when the current reading truly depends on them.
@@ -353,9 +353,9 @@ If a neighboring passage would change the EntityOfConcern or the base substrate 
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.1 - System
 
-**Tell.** One QD archive has a declared substrate. A reader asks which candidates are neighbors of candidate p under its declared metric.
+**Tell.** One QD archive has a declared substrate. A reader asks which members of this archive are neighbors of candidate p under its declared metric.
 
-**Show.** In this constructed case, `Archive-12` uses `BehaviorCharacteristicSpace@ed=12` and `ArchiveNeighborhoodMetric@ed=4`. The declared neighborhood criterion is distance at most 0.3. Distances from p to q and r are 0.2 and 0.8 respectively. An ordinary `DeclaredSubstrateInterpretiveView` groups q with p and leaves r outside that neighborhood, showing the criterion alongside the grouping. The source Coordinates and metric remain recoverable.
+**Show.** In this constructed case, `Archive-12` uses `BehaviorCharacteristicSpace@ed=12` and `ArchiveNeighborhoodMetric@ed=4`. The archive lists q and r as its only members besides p. The declared neighborhood criterion is distance at most 0.3. Distances from p to q and r are 0.2 and 0.8 respectively. An ordinary `DeclaredSubstrateInterpretiveView` groups q with p and leaves r outside that neighborhood, showing the criterion alongside the grouping. The source Coordinates and metric remain recoverable.
 
 **Cash-out.** The reader can recover why q is a neighbor and r is not. This grouping answers the inspection question; it does not itself select which candidates to retain. No fuller atlas is needed.
 
@@ -365,7 +365,7 @@ If a neighboring passage would change the EntityOfConcern or the base substrate 
 
 **Show.** The active interpretive head is `DeclaredSubstrateAtlasView`. It reads one declared palette-facing substrate line whose source-set family remains `TraditionPalette`, whose active derived view remains `TraditionFront`, and whose base palette remains recoverable through `SoTAPaletteDescriptionId`. The cited spaces stay explicit as `TraditionComparisonSpace@ed=3` and `AdoptionOutcomeSpace@ed=2`. The atlas reading keeps together the declared set views `TraditionFront` and `TraditionArchive`, the `OutcomeMapRef` value `PaletteToAdoptionOutcomeMap@ed=1`, the distortion note `CrossTraditionComparisonLossNote@ed=1`, and the local `G.2` specialization `TraditionAtlasView`.
 
-**Cash-out.** The reader follows a tradition profile from the palette into its front or archive view, then follows `PaletteToAdoptionOutcomeMap@ed=1` to its conditional adoption outcome. The comparison-loss note stays beside comparisons that depend on it. These connections explain why the views are shown together; a front alone would hide the archive and its relation to the same palette. The atlas changes inspection, not membership of the base palette.
+**Cash-out.** The reader can trace a particular profile to the palette, check whether it appears in the front, and inspect its estimated adoption outcome under the named assumptions. If the task is to explain why a profile was selected, the selection rule and its application must support that explanation. Showing it in the front establishes its recorded membership. Keep the loss note with comparisons that depend on it. Several views can support one explanation while retaining the same base palette.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.3 - Boundary anti-case
 

@@ -6,12 +6,12 @@ section_id: "E.13:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:7 — Conformance Checklist"
-line_start: 112489
-line_end: 112500
+line_start: 112555
+line_end: 112566
 dependencies:
   - "A.10"
   - "A.21"
@@ -45,7 +45,7 @@ keywords:
 | `CC-E13-1` | The repair names the intended value or objective before the proxy. |
 | `CC-E13-2` | The proxy or visible measure is typed by current use: orientation, measure, target, incentive, gate, release argument, decision driver, reputation signal, or repair target. |
 | `CC-E13-3` | If a proxy improved, the repair asks what got worse and names checked loci or protected qualities. |
-| `CC-E13-4` | A minimally viable value slice shows the intended value for the declared use, or the value claim is lowered. |
+| `CC-E13-4` | The ground for the claimed value reaches the recipient, use and conditions named in the claim. Where it reaches only part, identify that part and what would support the wider claim. |
 | `CC-E13-5` | The repair does not treat evaluation values, source counts, review praise, all-`5` posture, assurance level, or release status as value by itself. |
 | `CC-E13-6` | Stronger claims are governed by their direct patterns: measurement by `C.16`; quality evaluation by `E.21`, `E.9.DA`, or `E.2.DA`; assurance by `B.3`; gate passage by `A.21`; choice among options by `C.11`; decision authority by the applicable domain rule; and value and proxy alignment here. |
 | `CC-E13-7` | The repair changes value movement, proxy use, protected qualities, claim split, or stop condition; it does not close by adding proof apparatus alone. |

@@ -6,12 +6,12 @@ section_id: "F.2:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__017_didactic-distillation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:16 — Didactic distillation"
-line_start: 127852
-line_end: 127855
+line_start: 127965
+line_end: 127968
 dependencies:
   - "A.11"
   - "A.7"

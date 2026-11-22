@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:4 — Solution"
-line_start: 141846
-line_end: 142010
+line_start: 141991
+line_end: 142155
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -118,7 +118,7 @@ DashboardSlice := <
 
 **Stage A — Select what the view is about**
 
-1. **Select the coordinate results.** Use persisted C.21 coordinate-result refs for one already identified discipline.
+1. **Select results from the receiving question.** Establish whether the reader needs a trend in the whole discipline, a change within a particular practice, or a relation between the practices that make a joint outcome possible. A series for the whole and a breakdown for its parts can come from the same records and answer different questions. Hold the displayed values fixed and ask whether a different distribution, interaction or change of membership could change the answer. If so, seek the grounds that distinguish those possibilities. When a result or justified bound already answers the question, use it. Select the corresponding persisted C.21 coordinate-result refs for the identified discipline.
 2. **Fix use, scope, and windows.** Name IntendedUse and ClaimScope. Add a `TargetSliceRef` only when the computation or publication consumes it, and state its relation to the scope.
 3. **Check replay identity.** For every coordinate, resolve the C.21 `DHCReplayBasis`: Characteristic, Scale, Unit when current, `DHCMethodRef.edition`, the Method used, MethodDescription edition when used, model or calibration pins when used, time or population basis, and any active distance or definition-set edition.
 4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. When the comparison uses a relation between distinct local senses, cite the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim naming direction, use rule, and loss tolerance, with the current supporting reliance required by F.9. Add reference-plane routing only when the use crosses reference planes; cite its exact basis, and assess any numerical assurance consequence under the applicable B.3 model for the named use.

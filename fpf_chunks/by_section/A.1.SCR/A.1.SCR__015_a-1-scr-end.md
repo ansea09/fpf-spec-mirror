@@ -6,12 +6,12 @@ section_id: "A.1.SCR:End"
 section_title: "A.1.SCR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__015_a-1-scr-end.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:End — A.1.SCR:End"
-line_start: 3913
-line_end: 3914
+line_start: 3901
+line_end: 3902
 dependencies:
   - "A.1"
   - "A.1.CSD"

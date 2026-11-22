@@ -6,12 +6,12 @@ section_id: "F.13:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 131757
-line_end: 131809
+line_start: 131874
+line_end: 131926
 dependencies:
   - "F.1"
   - "F.17"
@@ -53,7 +53,7 @@ Under the same conditions, a legacy expression may remain a read-path to `pref(t
 
 #### F.13:12.3 - Split detection
 
-If one label covered several independently recovered local senses or rows, record the split and prefer the precise later labels. Keep the earlier use resolvable through a disambiguation note.
+If one label covered several independently recovered local senses or rows, record the split and prefer the precise later labels. Use the old passage and its circumstances to distinguish them where possible. When those grounds leave two meanings open, report both. The reader may still act if the same action is warranted under either reading.
 
 #### F.13:12.4 - Merge admission
 

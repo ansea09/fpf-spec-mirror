@@ -6,12 +6,12 @@ section_id: "F.15:15"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__019_closure-conditions.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:15 — Closure conditions"
-line_start: 132646
-line_end: 132660
+line_start: 132763
+line_end: 132777
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ A finite slice is locally admissible for its named receiving use only when:
 5. witness refs and any relied-on A.10/B.3 path are current for the exact result and use, without becoming the result;
 6. the optional record cites, but does not replace, applications/work, result claims, evidence, Bridge occurrences, descriptions, publication, or currentness;
 7. a non-admitted use is explicit when its rejected reading has an independent local ground and the boundary changes the intended reader's interpretation or action under F.19; and
-8. the closure statement names the exact slice versions, rule set, currentness basis, and receiving use.
+8. the closure statement identifies the exact slice versions, rule set, currentness basis and receiving use. For a conclusion that the checked items work together, show how the established relations support that conclusion within its required range.
 
 Closure is local. A later change reopens only the affected rule results and their dependents after contradiction checks. It does not authorize a full rerun by habit or a global claim that all names, rows, relations, evidence, and publications conform.
 

@@ -6,12 +6,12 @@ section_id: "E.4.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:7 — Conformance Checklist"
-line_start: 99302
-line_end: 99317
+line_start: 99353
+line_end: 99368
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -45,5 +45,5 @@ keywords:
 - The receiving case exposes the choices entrusted to the practitioner, the grounds that extend across the claimed conditions and any further use that needs evidence.
 - Construction, fit for the receiving result and practical worth have proportionate grounds. Constituent, repertoire and whole-Method claims keep their own limits; necessary training, tools and support remain visible.
 - The need and its basis, nature of the proposal, consequential development decisions, relied-on content and each asserted consequence are connected to their grounds. Evidence concerns the described arrangement and intended use; a missing ground is supplied, the construction is revised or the dependent claim is narrowed.
-- A short entry preserves its first move and returns to the full explanation.
+- A short entry preserves the work entrusted to its reader. It gives or leads to the grounds needed when the reader must act, develop the explanation or design the Method.
 

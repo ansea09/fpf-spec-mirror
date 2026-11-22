@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:7 — Conformance Checklist"
-line_start: 11004
-line_end: 11016
+line_start: 11009
+line_end: 11021
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,11 +23,11 @@ keywords:
 
 ### A.3.1.WT:7 - Conformance Checklist
 
-- [ ] One later decision and bounded trial question are stated before the trial design.
+- [ ] The commission identifies the design, new performance or assessment of existing observations that is owed, and the question the recipient needs answered.
 - [ ] The Method is admitted, or the proposed whole remains a candidate account throughout.
 - [ ] Every claimed enacted Method is independently admitted; no candidate whole is said to be enacted.
-- [ ] Situation-selection criteria are named, and every discriminating situation states the claim it can distinguish.
-- [ ] Plans, reports, traces and results remain distinct from Work; for a simulation or demonstration, distinguish what was actually performed from what was only represented or planned.
+- [ ] Situation-selection criteria are named, and every discriminating situation states the claim it can distinguish. If the performer must supply a selection, the instructions, material and ordinary assistance leave that selection open.
+- [ ] For a design commission, the selected situation, feasible Work, observation and interpretation let the intended performer run the trial. For an order to conduct it, the specified performance and observations have their own grounds. For a simulation or demonstration, identify what was actually performed.
 - [ ] Each claimed Work occurrence independently satisfies the admission basis in §4.1(7).
 - [ ] Capability, System use, assignment, permission, authority, support, operation binding, and result relations are asserted only from their own bases.
 - [ ] Conditions, deviations, adaptations, burdens, observations, and domain results are recorded per occurrence.

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 117272
-line_end: 117354
+line_start: 117350
+line_end: 117432
 dependencies:
   - "A.10"
   - "A.15"
@@ -105,7 +105,7 @@ Use this order when one local lexical head is carrying too much:
 1. name the overloaded word;
 2. restore the lexical-head kind;
 3. recover the supported reading. If several remain, state what still holds and check a distinguishing fact only when the difference matters to the reader’s work;
-4. restore the active primary entity or relation when one is active;
+4. restore the active entity or relation, including the relevant whole or part when the same word can name either. For instance, both an entire review Method and one constituent can be called `the method`. Read the sentence in light of the question the reader needs it to answer.
 5. restore the carried action or question under repair, if any;
 6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
 7. choose the disposition the repaired unit supports: stay with local repair, apply bounded comparison, or apply publication-unit discipline.

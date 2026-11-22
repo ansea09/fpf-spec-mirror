@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 118780
-line_end: 119135
+line_start: 118864
+line_end: 119219
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -56,15 +56,15 @@ keywords:
 
 **Local P2W mantra.** Use this wording to recall the question behind one working decision. *Which P2W continuation, if any, is justified now?*
 
-> **Carry the accepted distinction — ask one relation question — apply the pattern for that relation — keep its result or stop — reopen only the dependent continuation.**
+> **What work does the accepted problem require? Choose the next question by what its answer could establish for that work. Apply the relevant method, bring its result or stop back to the original question, and reopen the uses that depend on a changed answer.**
 
-| Phrase in the mantra | Identified value |
+| Question or move recalled by the mantra | What the practitioner identifies |
 | --- | --- |
-| Carry the accepted distinction | one accepted ProblemCard claim and the receiving decision or use that would change if the claim changed |
-| ask one relation question | one ordinary question with its participants; several independent claims are split |
-| apply the pattern for that relation | the pattern whose Solution answers that relation or object question, not a P2W-created relation or a presumed `U.MethodDescription` |
-| keep its result or stop | the result, reduced-use cue or blocker that pattern returned; no generic result token |
-| reopen only the dependent continuation | the smallest continuation that relied on a changed problem claim, measurement, source-use/currentness relation or other returned value |
+| What work does the problem require? | The accepted problem-side distinction, who needs the result, and the decision or use it supports. |
+| Which question can advance that work? | The relation and participants whose possible answers could change the receiving decision. |
+| Apply the relevant method. | The pattern whose Solution answers that relation or object question. |
+| What does the result establish for the original question? | The returned result, reduced-use cue or blocker, and any other grounds the decision still needs. |
+| Which use should reopen? | The smallest continuation that relied on a changed problem claim, measurement, source-use or currentness relation, or other returned value. |
 
 **Filled cooling use.** `ProblemCard@Context PC-FAB-042` says that method comparison must preserve the conserved heat-flow structure. The current decision is whether a mathematical-lens continuation is justified. Ask which structure the proposed lens preserves, which it loses, and where its use stops; apply `C.29`; keep the returned lens-use result.
 
@@ -77,7 +77,7 @@ The wording helps a practitioner recall which question to ask. A claim about a M
 | Carry one accepted distinction. | `E.18.1` | Cite the accepted problem-side record, state the one distinction that matters, and say which decision or use needs it. | The accepted distinction and the decision or use it will inform. | The problem-side record is accepted and that decision or use would change if the distinction changed. |
 | Ask and recover. | `E.18.1` | State the unsettled practical question, name its participants and relation, and locate the pattern that answers it. | One concrete question, relation, participants, and applicable pattern contribution. | A diagram, source phrase, or familiar label has not yet answered the question. |
 | Apply the pattern that answers the question. | The pattern recovered in the preceding row. | Apply its Solution while keeping the accepted distinction visible in the concrete method-selection, planning, dated `U.Work`, actual-change, interpretation, or other claim being made. | The result that answers the question, or that pattern's stop. | The relation, participants, applicable pattern, and contribution used are recoverable. |
-| Continue, branch, or stop. | `E.18.1` | Keep one returned result, split results that answer different relation questions, or retain the cue and stop. | One continuation per answered question, or one explicit stop. | One question, several independent questions, or no answerable relation remains. |
+| Continue, branch, or stop. | `E.18.1` | Keep each answer with its own question. Where several answers must support one decision, establish how they fit the same case and what their combination warrants. | The decision its grounds support, a remaining question or a justified stop. | One or several questions bear on the receiving work. |
 | Return locally after change. | The guidance recorded for the earlier use, coordinated through `E.18.1`. | Reapply that guidance, use the basis it supplied or located with current facts to reassess the earlier claim or result about the independently identified changed value, and return only to the smallest earlier P2W continuation affected by the changed assumption. | A local return with what still carries and what no longer carries stated. | Measurement, source currentness, problem-side content, or another relied-on assumption changed. |
 
 If a selected CGUS already exists, an A.22 demonstrative slice may include this display in its ClaimContent for a declared use. The table itself admits no structure, continuation-row kind, relation occurrence, MethodDescription, plan or Work.
@@ -88,7 +88,7 @@ The decision aid below helps the practitioner choose which relation question to 
 
 Choose the first of these three levels that lets the current reader act and, when later use requires replay, lets that reader recover the path to the result or stop:
 
-1. **Ordinary conversational use.** State one concrete relation question and its participants, apply the pattern that answers it, use its result or stop, and finish. Write no P2W note when feedback is fast, the use is local, and nobody later needs to replay the path.
+1. **Ordinary conversational use.** State the question and its participants, apply the method that answers it and bring that answer back to the receiving work. An answer about one relation can finish a commission confined to it. Write no P2W note when feedback is fast, the use is local and nobody later needs to replay the path.
 2. **Reliance-bearing use.** Add the compact episteme in `4.1` when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse depends on recovering the accepted claim and direct continuation.
 3. **Structure-bearing use.** Add the selected structure defined and tested by `E.18.3`, A.22.CGUS and, for independent members, E.18.NET in `4.0b` when a named use needs that structure's identification or qualification, or relies on it for comparison, publication or a stronger downstream claim. Section `4.0b` explains when an ordinary account of branches and conditions already suffices.
 
@@ -115,11 +115,11 @@ For practitioner guidance or conformance, verify that a practitioner applying th
 
 #### E.18.1:4.0 - P2W result without a new relation species
 
-An ordinary P2W application is a practitioner move: preserve one accepted problem-side claim, name the receiving decision or use, ask one concrete question per independent relation, and keep only the result or stop returned by the pattern whose Solution answers that question.
+An ordinary P2W application is a practitioner move: preserve one accepted problem-side claim, name the receiving decision or use, ask one concrete question per independent relation, and return each answer or justified stop to the work that required it. When several answers bear on one decision, establish what they warrant together under compatible conditions.
 
 Start with the part of the accepted ProblemCard that can change the answer needed for the next decision or action. State what the reader must preserve and why it matters there. Retain the claim's status and the scope and conditions on which its use depends. For example, an accepted problem formulation can carry a causal hypothesis that needs testing.
 
-Choose the next question from the work that needs the answer. Say what answering it would enable and what would count as enough for that use. If the present need is to choose guidance, an explained selection and its applicability boundary can suffice.
+Choose the next question from the work that needs the answer. Start with the alternatives the recipient still faces. Which fact about a participant, its arrangement with other participants or the use of a result could change the decision or its grounds? If the practitioner must design that arrangement, leave the choices entrusted to that practitioner open in the task they receive. If a returned result changes the subject or the question, use C.39.QR:4.1 to establish its contribution to the original work. An explained choice of guidance can finish a request for that choice.
 
 If the next action needs a subject result, such as a plan or a measurement, apply the supplying method to the case and obtain that result or identify the exact gap. Use an adequate existing way directly. If the way itself is missing, use C.39 to find or develop it; E.4.CM guides that construction when it must become a maintained framework contribution. When the next decision depends jointly on how a suitable method becomes available, how a performer gains access or capability, and how the job is supplied, C.32.MWA:4 connects those contributions. For a readiness decision alone, use A.15.5 for the intended job.
 
@@ -298,7 +298,7 @@ Reopen only what the change affects: a changed practice or practitioner use reop
 
 #### E.18.1:4.2 - Positive carry-through: one executable first use
 
-Use the first three rows for an ordinary case. Open the fourth only when the source sentence contains the additional claim. Other relation families use the same branch rule in `4.6`; consult the single relation-selection map in Relations only for the relation being asserted.
+Use the cooling case to see which conclusion a calculation of the whole can support and where the original comparison still needs work. The fourth row applies if the source also asserts a signature. For another subject, use the branch rule in `4.6` and the relation-selection map for the questions that subject raises.
 
 | What the reader has | Do now | Result or stop |
 |---|---|---|
@@ -355,12 +355,12 @@ Put the unsettled question into one ordinary sentence: **"Did this work change t
 | What you can truthfully state | Do next | Close this P2W move with |
 |---|---|---|
 | One relation-specific question and its participants. | Use the Relations map once, apply the pattern whose Solution answers that question, and keep the accepted problem distinction visible. | The result or stop defined by that pattern. |
-| Two or more relation-specific questions. | Write one question per claim and apply the pattern that answers each question separately. | One result or blocker per question; no omnibus result. |
+| Two or more relation-specific questions. | Obtain each answer under its own rule. If the decision depends on several answers together, check their participants, conditions and the relation by which they support that decision. | The separate results and the conclusion they warrant together, or the particular connection still open. |
 | Only a cue such as `result`, `approved`, `ready`, a diagram arrow, or a familiar noun. | State the stronger claim the cue seems to suggest. If its relation and participants still cannot be named, preserve the cue and stop. | The cue plus the unanswered relation-specific question; no guessed answer. |
 | The cited pattern returns a lower-use result or blocker. | Keep that result intact. | The returned stop or bounded continuation, not a P2W substitute. |
 | A relied-on value later changes. | Use `4.5`: reapply the guidance recorded for its earlier use, use the basis it supplied or located with current facts to reassess the earlier claim or result about the independently identified value, and reopen only the dependent continuation. | What still carries, what no longer carries, and the one next question. |
 
-The ordinary case closes after the first row. The Relations map is for locating that one pattern or checking an exceptional branch; it is not a checklist to traverse.
+A question about one relation can close on the first row. The Relations map helps locate the relevant pattern or check an exceptional branch.
 
 #### E.18.1:4.7 - Lowering and reopen block
 

@@ -6,12 +6,12 @@ section_id: "A.2.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__004_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:1 — Problem frame"
-line_start: 9208
-line_end: 9226
+line_start: 9202
+line_end: 9220
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,7 +51,7 @@ FPF repeatedly needs to reference “someone said/did the approving/authorizing/
 * Governance patterns and boundary writing (A.6 stack) need **provenance**: “this obligation or commitment, or this separately represented granted permission, was instituted by *that* act”.
 * Operational patterns need auditable **notices** (“depletion notice”, “override invoked”) whose existence and timing matter.
 
-The same separation is needed before formal occurrence modeling. A reader may need to decide whether a report, answer, model, or message enabled one named use and what to repair. A visible response is not by itself achievement; a later action or change is not by itself evidence that the communication caused it; and the full occurrence-record apparatus should not be a prerequisite for this first bounded judgement.
+The same separation matters before formal occurrence modeling. An observed response can satisfy an order for that response, with the agreed authority, subject and timing. A claim that the communication enabled another action needs grounds for that action. A claim that it caused a later change needs grounds for causation. Ordinary receiving-use judgments can usually be stated directly.
 
 Without a first-class kind for such communicative Work and a separate way to describe each occurrence, authors tend to:
 

@@ -6,12 +6,12 @@ section_id: "C.39.GA:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__009_common-anti-patterns.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:8 — Common Anti-Patterns"
-line_start: 88158
-line_end: 88161
+line_start: 88204
+line_end: 88207
 dependencies:
   - "C.39.RO"
   - "C.39.SA"

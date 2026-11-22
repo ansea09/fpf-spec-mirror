@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:4 — Solution"
-line_start: 18536
-line_end: 18642
+line_start: 18545
+line_end: 18653
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -32,11 +32,13 @@ keywords:
 
 ### A.6.3:4 - Solution
 
-**Local mantra.** Identify X and Y. Hold their EntityOfConcern fixed. State the conservative construction and admitted loss. Add correspondence dependencies when used. Test `U.View` membership separately under E.17.0 only when the receiving use needs that membership.
+**Local mantra.** Start with the receiving use. Keep the EntityOfConcern fixed. Construct the required claims from the sources or examine the proposed result. Identify X and Y, the rule that connects them, and the losses that matter for the use. Include correspondence dependencies where the rule relies on them. Test `U.View` membership under E.17.0 when that is part of the question.
 
 #### A.6.3:4.1 - Identify both epistemes independently
 
-Before declaring a viewing, recover for each of X and Y under C.2.1:
+When Y is still to be written, identify X, its subject and the reading under which its claims hold. What differences would change the recipient’s conclusion? Select or combine the premises that retain those differences. Before using claims from different sources together, establish the correspondence their joint use needs. Two claims about one system can describe different configurations. Where alternatives remain possible, keep them distinct if they give different answers. Formulate Y with the conditions its claims inherit. If the sources can support only part of the requested result, return that part and the distinction still needed.
+
+For a proposed viewing with both endpoints available, identify each episteme under C.2.1 by its
 
 - claim content;
 - EntityOfConcern;
@@ -44,7 +46,7 @@ Before declaring a viewing, recover for each of X and Y under C.2.1:
 
 X and Y are separate epistemes whenever one of those identity discriminators differs. A filename, table, diagram, query result, `viewpointRef`, or publication form is not a substitute for either identity.
 
-If the supposed receiving item has no recoverable claim content or EntityOfConcern, stop: the receiving episteme has not been identified. If the EntityOfConcern differs, use A.6.4 retargeting rather than A.6.3.
+Identifying Y, including its effective reference scheme, provides one endpoint for the assessment. To assert a viewing, identify X as well and establish the construction and its laws in §§4.2–4.3. If the candidate leaves its claims or their subject unclear, identify what remains to construct or recover. A different EntityOfConcern calls for A.6.4 retargeting.
 
 #### A.6.3:4.2 - Declare the viewing construction
 
@@ -82,7 +84,7 @@ For every admitted `v : X -> Y`:
 4. **Reference discipline.** A changed effective reference scheme is explicit. If the change alters available operations or representation semantics, use A.6.3.RT; apply C.29 when the transition uses a declared mathematical lens. Do not call such a change formatting.
 5. **No hidden retargeting.** Subsystem-to-system, method-to-work, model-to-modeled-system, or episteme-to-publication changes are not same-EntityOfConcern viewing.
 
-For a lightweight check, take each claim in Y—or each group covered by one rule—and point to the source claims and the selection, rewriting or aggregation rule that licenses it. Mark omitted claim groups. If support cannot be established, leave that claim's admissibility in the viewing unresolved; if the rule demonstrably introduces an unsupported claim, the proposed construction fails the viewing law. A structural or domain check used as an approximation states what it cannot establish. Add a proof when disagreement, risk or the receiving use requires one.
+For a lightweight check, take each claim in Y—or each group covered by one rule—and point to the source claims and the selection, rewriting or aggregation rule that licenses it. Identify omitted claim groups where their loss affects the receiving use. An order for a full inventory calls for checking the whole source. If support cannot be established, leave that claim's admissibility in the viewing unresolved; if the rule demonstrably introduces an unsupported claim, the proposed construction fails the viewing law. A structural or domain check used as an approximation states what it cannot establish. Add a proof when disagreement, risk or the receiving use requires one.
 
 Truth of source claims is a separate evaluation. Conservativity says what Y is licensed to claim from the sources; it does not establish that those claims are true in the world or adequate for a decision.
 

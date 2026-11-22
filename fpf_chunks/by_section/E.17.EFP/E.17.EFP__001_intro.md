@@ -6,12 +6,12 @@ section_id: "E.17.EFP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:intro — Intro"
-line_start: 115579
-line_end: 115653
+line_start: 115653
+line_end: 115727
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 Omitting other source content neither claims whole-source coverage nor by itself constitutes another episteme. A changed assertion, concern or effective scheme needs its own identity decision.
 
-**First identify the episteme and test the expression (ontic first screen).** Before assigning an explanation class, identify the source and the intended reader use.
+**First identify the episteme and test the expression (ontic first screen).** Recover the reader’s question from the request for an explanation. An editor may declare a narrower use that the expression can already serve. If so, establish what that use contributes to the requested explanation (C.39.QR:4.1). Identify the source and the claims and grounds the reader needs before assigning a class.
 
 1. Recover the exact source edition's ClaimGraph, EntityOfConcern and effective ReferenceScheme under C.2.1. Equal displayed words alone do not establish this identity.
 2. Test whether the text expresses enough of that edition for the declared use under E.24.PUB §4.2. Preserve every qualification that changes the answer for that use, keep the source return, and disclose use-relevant omissions. A partial expression may qualify. A missing required condition leaves source sufficiency unresolved or fails the test, even when each displayed sentence is individually true. Omission alone does not create a target episteme. Apply A.6.3.RT as well when a representation-change claim is current.

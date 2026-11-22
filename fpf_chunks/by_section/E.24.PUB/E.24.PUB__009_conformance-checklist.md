@@ -6,12 +6,12 @@ section_id: "E.24.PUB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:7 — Conformance Checklist"
-line_start: 125691
-line_end: 125705
+line_start: 125792
+line_end: 125806
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -49,5 +49,5 @@ keywords:
 | `CC-E24PUB-7` | Representation correspondence is stated for the applicable operation; C.29 is used for its mathematical branch. Expression elements, reusable-form rules and subject-side objects retain their own identities. |
 | `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, performed Work, operation binding, and result remain under their direct patterns. E.24.PUB checks only that publication availability is not used as proof of those stronger claims. |
 | `CC-E24PUB-9` | A changed episteme, expression, form, carrier, audience, or bounded use leads to the smallest affected object or relation rather than a whole-stack rewrite. |
-| `CC-E24PUB-10` | Ordinary use stops at the readable sentence when the receiving use needs no fuller relation detail. |
+| `CC-E24PUB-10` | The account answers the publication question at the scope asked. One supported statement can suffice. A design for a wider use gives the grounds for the reader's access to and recovery of the needed content under those conditions. |
 

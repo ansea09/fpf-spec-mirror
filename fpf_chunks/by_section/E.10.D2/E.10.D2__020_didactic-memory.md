@@ -6,12 +6,12 @@ section_id: "E.10.D2:19"
 section_title: "Didactic memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__020_didactic-memory.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:19 — Didactic memory"
-line_start: 109463
-line_end: 109473
+line_start: 109527
+line_end: 109537
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -36,12 +36,12 @@ keywords:
 
 ### E.10.D2:19 - Didactic memory
 
-Use the short memory **use, claims, entity, scheme, one needed neighbor**:
+Use the short memory **use, claims, entity, scheme, grounds for this action**:
 
 1. **Use.** What exact work, decision, inquiry, comparison, preservation, teaching, or publication use needs the description?
 2. **Claims.** What exact ClaimGraph is being used?
 3. **Entity.** What exact independently identified EntityOfConcern are those claims about?
 4. **Scheme.** What effective ReferenceScheme makes the claims readable about that entity?
-5. **One needed neighbor.** Does the next action need a describing-use viewpoint, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
-6. **Stop.** Add only that direct relation, or stop after constitution if none is needed.
+5. **Grounds.** Which further relation would change what the reader can conclude? If several are needed, how do they connect for this use?
+6. **Stop.** Use the constitution alone when it suffices. Otherwise give the relations on which the answer depends, or the ground still missing.
 

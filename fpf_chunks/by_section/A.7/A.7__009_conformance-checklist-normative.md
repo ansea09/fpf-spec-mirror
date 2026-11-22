@@ -6,12 +6,12 @@ section_id: "A.7:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__009_conformance-checklist-normative.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:7 — Conformance Checklist (normative)"
-line_start: 26675
-line_end: 26699
+line_start: 26695
+line_end: 26719
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "B.1.2"
   - "B.1.4"
   - "B.1.5"
+  - "B.1.5.EW"
   - "B.1.6"
   - "E.10"
   - "E.17"
@@ -52,7 +53,7 @@ keywords:
 | **CC‑A7.2 (Transformer-system-role assignment domain)** | A suffixed source designation such as `TransformerSystemRole@ValveSelectionContext` is only a locator. The kind must first be recovered through its C.3 candidate domain, membership distinction, boundary probes, and continuity rule; the suffix identifies none of them. A direct `U.SystemRoleAssignment` species must then admit that kind in its declaration-local kind slot and systems in its holder slot. | Type-check the species, holder, kind domain, predicate, applicability, and occurrence identity; do not filter a permissive family value by a role label. |
 | **CC-A7.3 (Episteme non-agency)** | An episteme does not act or hold a work-facing assignment. A System may author, revise, use, or publish it. | The ordinary sentence names the acting System; add Work, carrier, publication, evidence, source, or assignment relations only when the receiving claim uses them. |
 | **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** is the same independently identified C.2.1 episteme only when its EntityOfConcern is one admitted Method and it makes at least one substantive claim about that Method as a way of doing; **Method**, **Capability**, and **Work** retain their separate meanings. Form, label, design-time status, authoring, revision, citation, publication, approval, or use time grants no membership. | Identify the episteme triple and apply the A.3.2 threshold; then name each current Method, Capability claim and dated Work occurrence separately. |
-| **CC-A7.5 (Composition fits its subject)** | Use B.1.2 for a system-aggregation decision, B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of recovered order or temporal relations, and B.1.6 for Work-resource aggregation. | The claimed result and its required inputs determine the applicable rule; a generic “process” label supplies none of them. |
+| **CC-A7.5 (Composition fits its subject)** | Use B.1.2 for a system-aggregation decision, B.1.5 for Method composition, B.1.5.EW with A.15.1 for the performances that constituted an encompassing Work, A.15.1 for temporal parts, B.1.4 for aggregation of recovered order or temporal relations, and B.1.6 for Work-resource aggregation. | The claimed result and its required inputs determine the applicable rule; a generic “process” label supplies none of them. |
 | **CC-A7.6 (Carrier/source-currentness reference)** | An evidence-use claim **SHALL** identify the episteme and the claim for which it is used. Cite A.10 carrier/source-currentness refs when the particular evidence, source, or reliance use depends on them. | Recover the episteme and target claim, then the carrier or source-currentness facts required by that use; ordinary citation does not itself assert an evidence-use relation. |
 | **CC-A7.7 (Formal inclusion, collection, and collective)** | Mathematical set, tuple, coordinate, and other formal inclusion stays with its defining mathematical rule and creates no world-side relation. Use `C.29` for an actual mathematical lens and `A.19` for the relevant characteristic scale or coordinate. A world-side collection uses its own identity and belongs-to rule. A grouping claimed to act must separately pass all six `A.1` matters. | Check the distinct formal, collection, and collective-System claims. Infer neither belonging from formal inclusion nor parthood or holonhood from belonging; do not prohibit a separately grounded constructive part claim. |
 | **CC‑A7.8 (Diagram legend)** | Domain “process” or “behaviour” keeps its recovered meaning under the direct rule for that claim. For composition, select the subject's rule under :5.7; disambiguate an unclear domain use explicitly. | A clear domain sentence may stand; an ambiguous one identifies its object and predicate without forcing a Method/Work binary. |

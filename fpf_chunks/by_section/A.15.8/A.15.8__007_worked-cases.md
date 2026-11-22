@@ -6,12 +6,12 @@ section_id: "A.15.8:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__007_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:6 — Worked cases"
-line_start: 33148
-line_end: 33191
+line_start: 33180
+line_end: 33223
 dependencies:
   - "A.1"
   - "A.10"
@@ -81,5 +81,5 @@ The probe removes one worker after a message has been emitted but before its loc
 
 **Observation and result.** Current evidence leaves recovery after cue loss within the required timing window unresolved. The WorkPlan-focused account names the intended performers, support and control relations, return condition, uncertainty, and the planned probe. Obtain the needed recovery evidence through the planned rehearsal or another sufficient source, or stop the dependent use. Change the cue/control relation or narrow the proposed use when the result requires it. Capability claims for the musician, device, or any independently admitted whole stay separate.
 
-**What changed.** Resolve the recovery question before relying on a dependent entry-readiness claim. Make any needed configuration repair under the applicable domain conditions.
+**What changed.** The presenter can decide which service to promise. Suppose either an audible cue or a visual cue would suffice on its own and each uses the same powered receiver. If loss of that receiver is allowed and removes both of the only available cues, the plan cannot guarantee timely cueing. The two separate cue-loss rehearsals could both succeed. For an order limited to characterizing one rehearsal, report the observed timing in that rehearsal. For a separately commissioned new rehearsal, the order remains open until the rehearsal is carried out.
 

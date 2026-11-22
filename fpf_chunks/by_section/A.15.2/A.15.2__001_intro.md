@@ -6,12 +6,12 @@ section_id: "A.15.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:intro — Intro"
-line_start: 30905
-line_end: 30934
+line_start: 30933
+line_end: 30962
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,17 +63,17 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.WorkPlan` when a system needs one plan to coordinate possible future performed Work for an already existing subject over a stated horizon. One `PlanItem` names the intended Method, window, performer System or local system-role-kind condition, and only the resource, dependency, commitment, target, or baseline needed now. The plan states what is intended; A.15.1 identifies actual Work separately.
+**At a glance.** Use `U.WorkPlan` when a system needs one plan to coordinate possible future performed Work for an already existing subject over a stated horizon. Work back from what is due to the intended performances, their Methods, windows and performer conditions. State the dependencies and common constraints that govern their coordination. The plan states what is intended; A.15.1 identifies actual Work separately.
 
-**Use this when.** Coordinate possible future Work through a schedule, rota, ticket or other plan content. Identify the existing subject, intended performances, horizon and reference scheme, then state enough constraints to make the current coordination decision. Use §4.3 when schedule or workflow wording leaves the claim unclear.
+**Use this when.** Coordinate possible future Work through a schedule, rota, ticket or other plan content. Identify the existing subject of the plan, its horizon and reference scheme. Choose the performances and constraints needed to make the current coordination decision. Use §4.3 when schedule or workflow wording leaves the claim unclear.
 
-**First useful object.** One WorkPlan about a present subject, interpreted under one reference scheme, with a horizon and one usable PlanItem. Later fulfilment or variance checking is a separate use.
+**First useful object.** One WorkPlan about a present subject, interpreted under one reference scheme, with a horizon and one or more PlanItems that together support the coordination decision. Later fulfilment or variance checking is a separate use.
 
 **Ordinary path.**
 
-1. Identify the already existing subject whose future work is being coordinated, the horizon, and one `PlanItem`.
-2. In that item name the possible future performance, target Method, planned window, and the intended performer System or local system-role-kind condition needed now.
-3. Add only the resource, dependency, commitment, target, or baseline needed for the current coordination decision.
+1. Establish what must be supplied over the horizon, to whom and by when. Identify the existing subject the plan concerns, whether it is an asset to be serviced, a service System or another present entity. Work back from each result to what someone will have to do, including any handoff that makes it usable. An available result may already supply a needed contribution.
+2. Choose PlanItems at the points where someone needs to allocate a performer, reserve a resource or coordinate a dependency. For each, state the intended performance, Method or Method family, window or entry condition, and intended performer System or local system-role-kind condition.
+3. Establish how the intended performances can fit together under their common constraints. One feasible allocation can settle an order to make a schedule. If the plan promises service across choices left to others, establish a workable response to each allowed combination using the information and authority available when a choice must be made. State the extent of the coordination actually justified.
 
 **Filled ordinary example.** A plan about existing `Lathe-7`, interpreted under `FabMaintenanceScheme-E2`, can set horizon `2026-07-27`, item `inspect-spindle`, method `SpindleInspectionMethod-E2`, window `08:00–09:00`, intended performer System `MaintenanceTech-4` with local kind `MaintenanceTechnicianSystemRole`, a one-hour machine reservation, dependency `lockout complete`, and baseline `normal vibration`. The team can coordinate the rota and reservation for that day from this content and stop before selecting a later fulfilment or variance comparison. If lockout will not be complete by 08:00, the planners defer that item or revise its window and reservation.
 

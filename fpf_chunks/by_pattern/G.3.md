@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.3.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
-line_start: 137378
-line_end: 137837
+line_start: 137507
+line_end: 137968
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -181,6 +181,8 @@ RSCRTriggerKindId.BaselineBindingEdit
 
 **S1 — Charter the measurement scope (scope anchor).**
 If the needed characteristics are not established, use `A.19.ECS:4.2` to derive them from the receiving use and consequential success/failure cases. `G.0:4.5.1` connects that construction to the frame’s comparison and evidence requirements.
+
+Decide which entity has the property and what one observation of it represents. For example, to compare two ways of processing a library request, a reader may care about the elapsed time until the requested book is ready. The same time spent on each operation can give different completion times if the operations wait on one another. Measure the elapsed time for the request, or recover it from the actual sequence, including waits. A staffing decision may instead require hours of work across all requests. Counting seconds in place of minutes changes the unit of time. It leaves the request as the unit of observation and still gives no account of the staff hours spent on it. Retain the population, period and dependencies needed when combining observations for either decision.
 Identify the exact declared CG-frame (the framing episteme). For this CHR work, state the bearer or bearers and identify each as an `entityOfConcern`. Also state the scope, any applicable qualification and evaluation windows, `ReferencePlane`, evidence basis, intended downstream use, currentness conditions relevant to that use, and any contested expression whose reuse may require an actual `F.9` relation. Output a design-time `MeasurementCharter` and `KindMap`.
 When the receiving use depends on currentness, apply B.3.4 to the exact claim and use. Retain any binding calibration, regulatory or qualification window; use `G.3:Ext.DecayWiring` when pinning a currentness or decay model or policy.
 If evidence-lane tags are used, declare the lane regime and its meanings here so downstream evidence discipline can remain lane-pure. `B.3` and `B.3.3` govern the assurance claim, receiving use and selected contributions; `C.2.2:4.6` defines the KD-CAL `TA`/`VA`/`LA` lanes when that regime is selected. Evidence-path representation and audit remain governed by `G.6`; this pattern records wiring.
@@ -472,7 +474,7 @@ CHR authoring is where many biases become “baked in” as measurement choices.
 | CC‑G3‑12          | Thresholds/guard‑bands are not embedded in CHR artefacts; they remain governed by CAL acceptance clauses (`G.4`).                                                                                                                        |
 | CC‑G3‑13          | When method‑role declarations are present (via `RoleDecls` and/or `QD.Role` alias), each declaration is **docked** to its governing pattern via a corresponding `G.3:Ext.*` module, and the edition and policy pins required by the governing pattern are surfaced to make downstream interpretation reproducible. *(QD/OEE governing patterns: `C.18` and `C.19`; wiring via `G.3:Ext.QD_OEE_Wiring`.)* |
 | CC‑G3‑14 | **Evidence wired.** Each `CHR.Characteristic` cites the grounds of its legality and guard claims through A.10 source/carrier references, or G.6 paths when shared path citation or a receiving contract requires them. The chosen representation preserves the actual claim and support relations. |
-| CC‑G3‑15          | An `Archetypal Grounding` section exists with at least two domain‑distinct examples that demonstrate lawful CHR typing/legality and the CHR↔CAL separation (notably: no thresholds in CHR).                                          |
+| CC‑G3‑15 | The archetypal grounding shows how a reader can derive a characteristic for its intended use, establish its lawful operations and leave acceptance thresholds to CAL. Cover materially different cases where an inference or choice changes. A general derivation within one case can establish the applicable range. |
 | CC‑G3‑16 | If `EvidenceLanes` are used, declare their tags with the selected regime’s definitions and pin any lane-dependent tolerances/proof requirements. Cross-lane comparison or aggregation requires both a governing policy that permits the use (typically `G.4`) and grounds for the operation on these measurements. Cite both, with G.6 paths when used or required. |
 | CC‑G3‑17          | When CHR outputs are bound into a planned baseline, identify the `A.15.2` WorkPlan and its local baseline locator. If the plan fills an independently declared operation argument or relation position under `A.15.3`, also use `CHRMechanismSuiteSlotFillingsPlanItem` with its governing declaration reference, member designator and plan-local filling-row locator, as governed by `A.19.CHR:4.1.2` (wiring via `G.3:Ext.SuiteBoundaryLinkage`). |
 | CC‑G3‑18 | **Use-qualified currentness.** A claim whose receiving use depends on currentness retains its B.3.4 basis and any applicable validity window or decay policy. Named models/policies are pinned through `G.3:Ext.DecayWiring`. Changes to relied-on windows, policies or other support conditions participate in RSCR under `G.3:4.1`. |

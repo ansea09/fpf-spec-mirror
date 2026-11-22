@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 87247
-line_end: 87563
+line_start: 87291
+line_end: 87607
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -74,7 +74,7 @@ Recover how a relevant practice obtains its result, locate what fails or is miss
 
 Say what should change or become available, for whom or for which use, and which observation would distinguish an adequate result. Include a constraint when violating it would defeat that use. “Improve the recording” is too broad if the live question is whether movement and sound remain within a stated timing tolerance.
 
-**Establish what would make the answer sufficient before narrowing the work to a familiar operation.** Follow the intended receiving work far enough to explain what someone needs to obtain, distinguish or do next, what makes that difficult, and how the proposed contribution would help. Use the available material and an actual or stated case. A conceptual distinction can be the needed contribution: show which interpretation, inference or choice it changes. A description of a situation without that difference does not yet explain its usefulness.
+**Establish what would make the answer sufficient before narrowing the work to a familiar operation.** Follow the intended receiving work far enough to explain what someone needs to obtain, distinguish or do next, what makes that difficult, and how the proposed contribution would help. When the subject is still open, ask what could have the property or undergo the change in question. Use C.39.QR:4.1 to connect the material supplied to that subject before choosing the next work. An actual or stated case can supply a premise or reveal an alternative. A conceptual distinction can be the needed contribution: show which interpretation, inference or choice it changes. A description of a situation without that difference does not yet explain its usefulness.
 
 Look first for an applicable Method or an available result that supplies this continuation. Inspect the operation and its qualifications, not just its title. A familiar adequate way can be used directly: this comparison need not become a separate document, experiment or narrated preliminary stage. An available partial result may also let the work stop. If only the next inquiry must be chosen, do not demand the explanation needed for full deployment.
 
@@ -141,7 +141,7 @@ The following remedies concern recurring failures of construction or connection.
 | A branch returns a result but leaves the next action unclear | State whether the result shows the next action's condition to hold or fail, or leaves it unknown. Name the next action or the earlier operation to revisit, or explain the narrower use or justified stop. | C.40.CD:4.4–4.6; C.40 for material retention and continuation |
 | The same words hide different objects or relations | Recover the input, output and claim behind the shared words; repair the distinction whose consequences decide the join. An indication needs an interpreting relation before it can support a judgement. | A.7.1; B.1.5 for the resulting composition |
 | A chain hides alternatives or imposes an unwarranted order | Recover the possible continuations and their conditions; prescribe order only where the Method or a dependency requires it. | A.22.CGUS; B.1.5 for order-sensitive composition |
-| A successful reconstruction remains private | Explain its reusable actions, reasons, limits and a changed use for the intended next practitioner, choosing a suitable description form. | C.39:4.5–4.6 |
+| A successful reconstruction remains private | Explain its reusable actions, reasons and limits for the intended practitioner. Work a changed use when their task or an unresolved premise calls for it. | C.39:4.5–4.6 |
 
 Two diagnoses may concern one failure. An input conversion can be both unexplained and unavailable to the intended performer. Repair the relevant dependency and return to the original result. A second label does not require another pattern. A consequential difficulty absent from the table still calls for recovering the failed relation and constructing its remedy.
 

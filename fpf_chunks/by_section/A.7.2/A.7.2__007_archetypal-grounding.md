@@ -6,12 +6,12 @@ section_id: "A.7.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:5 — Archetypal Grounding"
-line_start: 27165
-line_end: 27182
+line_start: 27187
+line_end: 27206
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -34,7 +34,9 @@ keywords:
 
 ### A.7.2:5 - Archetypal Grounding
 
-**Compatible repair.** The receiving claim asks whether a `MaintenanceCoordinatorAssignment` obtains for holder `MaintenanceSystem-4` and assigned kind `MaintenanceCoordinatorKind` in scope `S`. Its independently admitted local rule requires a policy-valid assignment act and treats the signed organization chart as evidence only. The chart is present, but current facts establish that the required act did not occur.
+**Compare proposed assignment rules.** One proposal makes a separate appointment act necessary for an assignment. Another makes a signed organization chart sufficient. Suppose their common procedure allows an authorized person to sign the chart before any appointment act. At that moment the first rule would withhold the assignment and the second would recognize it for the same person and post. That admissible sequence rules out using both as the criterion throughout the proposed scope. No dated appointment is needed to see the conflict. If the shared procedure instead makes authorized signing the appointment act, the same signature satisfies both conditions in this case. The result about either design leaves the history of any actual appointment open.
+
+**Reconcile two recorded conclusions.** The receiving claim asks whether a `MaintenanceCoordinatorAssignment` obtains for holder `MaintenanceSystem-4` and assigned kind `MaintenanceCoordinatorKind` in scope `S`. Its independently admitted local rule requires a policy-valid assignment act and treats the signed organization chart as evidence only. The chart is present, but current facts establish that the required act did not occur.
 
 One dated application of the local rule concludes that the relation does not obtain; another application of a chart-sufficiency clause concludes that it obtains for the same participants and scope.
 

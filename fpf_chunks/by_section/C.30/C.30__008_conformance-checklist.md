@@ -6,12 +6,12 @@ section_id: "C.30:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:7 — Conformance Checklist"
-line_start: 75419
-line_end: 75433
+line_start: 75453
+line_end: 75467
 dependencies:
   - "A.1"
   - "A.10"
@@ -83,7 +83,7 @@ keywords:
 | **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Actual subject relation, selected structure, `ArchitectureRelation`, claim, description, view, representation, publication occurrence, publication form, carrier, decision, evidence, and Work stay distinct. | Recover the object doing each job; a description, specification use, diagram, list, file, or publication creates no subject-side architecture fact. |
 | **CC-C30-4 Description subject.** | Every architecture description has one C.2.1 EntityOfConcern—holon, obtaining `ArchitectureRelation`, or selected structure—and effective reference scheme; architecture-claim refs remain optional content or trace. | Recover the subject and scheme, or split the description from the bounded architecture claim. |
 | **CC-C30-5 View and publication boundary.** | The same description episteme is `U.View` only through an independently obtaining E.17.0 conformance relation to one viewpoint; representation, publication occurrence, form, carrier, and publication currentness remain separate. | Apply C.30.AD, E.17.0 or E.24.PUB to the respective description, view or publication question; use C.29 only for a remaining mathematical representation issue. Remove view membership inferred solely from authoring or presentation. |
-| **CC-C30-6 Small output before heavy record.** | Ordinary use may stop once the needed next architecture move and the basis for any separate claim are clear. Retain or share that account; use the question card when the receiver needs its additional organization. | Remove needless form expansion, or identify the missing content that the fuller account must supply. |
+| **CC-C30-6 Fit the account to the commission.** | An ordinary account can establish an actual relation, explain a structural consequence, or name the next investigation. Check which of these the reader needs and whether the grounds for it are present. | Supply the missing relation or contribution. Use the question card when its organization helps the reader. |
 | **CC-C30-7 Structure-kind boundary.** | Structural-view claims apply `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, state the structural view if needed, or use the pattern that defines or tests the separate claim. |
 | **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and the applicable characteristic pattern before use. | Identify the bearer and characteristic under :4.5 in the working account; retain only a recognition cue if the needed meaning remains unresolved. |
 | **CC-C30-9 Non-architecture claim kind.** | For each evidence, assurance, causal, gate, work, decision, publication-use authority, mathematical-lens, measurement, or release claim, name its kind and the FPF pattern that defines or tests it. | Keep the C.30 record limited to architecture and selected-structure adequacy. |

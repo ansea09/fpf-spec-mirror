@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 25121
-line_end: 25370
+line_start: 25138
+line_end: 25387
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.6.7:4 - Solution
 
-Declare the members and their shared conditions in a `MechSuiteDescription`:
+Start with what the users must obtain and the conditions of use. To choose the members, follow each required result back to operations that could supply it. What inputs do their contracts admit? Can an input already available serve, or must another member supply it? Compare the candidate combinations against the required results and any constraints on using the operations together. Select the distinct declarations that govern the operations of a suitable combination. Several combinations may qualify. When assessing an existing suite, start with its declared members and test the intended use against their contracts.
 
 #### A.6.7:4.1 - `MechSuiteDescription` (data model)
 
@@ -47,7 +47,7 @@ Declare the members and their shared conditions in a `MechSuiteDescription`:
 
 1. **Suite identifier:** a stable identifier for downstream citation.
 2. **Membership:** a finite set of distinct mechanism declarations.
-3. **Suite obligations:** shared invariants that every member (and any permitted composition of members) must respect.
+3. **Suite obligations:** state which conditions hold for each applicable member, which link one member’s operation to another’s, and which constrain a whole permitted combination. Two individually admissible operations may still be incompatible in the same use.
 4. **Suite spec pins:** required citations/pins to governing spec refs and other “anchor” references.
 5. **Suite protocols, when needed:** allowed pipelines of use (permitted ordering and optional steps), expressed at the descriptive level.
 6. **Suite audit obligations, when needed by downstream use:** required audit/pin visibility (UTS/Path pins, crossing pins, guard pins), expressed as required anchors (not run-time values).
@@ -191,7 +191,7 @@ SuiteSpecPins := ⟨
 
 #### A.6.7:4.4 - SuiteProtocols
 
-A suite MAY describe allowed protocols (pipelines) as descriptive constraints on how suite members are intended to be composed. A `SuiteProtocol` describes the member-operation sequence. Its description:
+A suite MAY describe allowed protocols. If an operation uses another’s result, identify the result it requires and the conditions under which it can use it. Express the resulting order in the `SuiteProtocol`. Independently usable operations can also have a joint constraint, such as both referring to the same edition. Express it for the permitted combination. A shared edition alone leaves their order open. The protocol description:
 
 * MUST name the member mechanisms it uses,
 * MAY mark steps as optional,
@@ -231,7 +231,7 @@ A suite MAY require that downstream use provide audit anchors. These are **requi
 
 #### A.6.7:4.6 - Examples
 
-**Example 1 — compare two offers and retain the nondominated set.** The question is whether either offer can be discarded without accepting a worse cost or quality. This is a stipulated mathematical use; the following specifications and applications are case facts, not empirical measurements or dated Work claims.
+**Example 1 — compare two offers and retain the nondominated set.** The buyer wants to know which offers can be discarded without accepting a worse cost or quality. In this case the buyer also requires a selection result based on the comparison returned under the agreed policy. Comparing the two offers supplies their relation. The selector uses that relation to return the required candidate set. This determines which two declarations belong in the suite. An order confined to comparing the offers can end with the comparison. The following specifications and applications are stipulated for this mathematical example.
 
 **Selected contracts and specifications.** The baseline `OfferChoiceB1` selects `Dcmp = A.19.CPM §4.1` and `Dsel = A.19.SelectorMechanism §4.1`, including their operation-local declarations, application/binding predicates, identity and extent rules, in the same publication edition as this case. These references mean that edition's content, not a later revision. Resolve another publication's references again before reuse. Their effective scheme is the CHR reference scheme declared there.
 

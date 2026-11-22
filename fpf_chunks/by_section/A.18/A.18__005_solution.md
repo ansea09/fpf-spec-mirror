@@ -6,12 +6,12 @@ section_id: "A.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:4 — Solution"
-line_start: 36029
-line_end: 36070
+line_start: 36061
+line_end: 36102
 dependencies:
   - "A.17"
   - "A.19"
@@ -67,7 +67,7 @@ For a magnitude comparison, interpret values under the Characteristic and Scale,
 
 A mathematical relation can combine quantities into another quantity, as a measurement model does in C.16. Identify that relation, its conditions and the Scale of the resulting quantity. A unit conversion expresses the same quantity on another compatible Scale. A ScoringMethod instead supplies a Score for a declared evaluation and follows A.17-R7's preference rule. For example, multiplying resistance by current gives voltage; ranking designs by cost and reliability requires a choice of preference.
 
-For evaluative comparison or combination across different CSLC templates, the ScoringMethod must declare its Score Scale and output range. Supply finite bounds when the method or receiving use requires boundedness, as specified in A.19.USCM; do not invent bounds for a lawfully unbounded score.
+An evaluation across characteristics can compare alternatives on each characteristic in its own Scale. Under a Pareto rule, an alternative that costs less but has lower reliability can be incomparable with the other. That result answers a dominance question directly. If the evaluation instead calls for a combined Score, the ScoringMethod declares how the inputs determine it, its Scale and its output range. Specify finite bounds when the method or receiving use requires boundedness (A.19.USCM).
 
 #### A.18:4.3 - Preserve value meaning through change
 

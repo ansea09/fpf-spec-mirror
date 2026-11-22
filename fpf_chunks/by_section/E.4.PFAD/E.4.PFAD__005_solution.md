@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 99790
-line_end: 100024
+line_start: 99841
+line_end: 100075
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -76,7 +76,7 @@ Keep the architecture question open when exact ownership remains unresolved, a c
 
 If none of these decisions and no receiving use are present, take the exploratory result as the answer. If a decision for later use is present, the decision-maker selects a framework, non-framework product, thinner route, existing-framework contribution, or stop during decision Work. One `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes.
 
-For every product alternative, use *product* only as the first management cue. Then compare the direct subjects of the claims at the same level of detail: the exact framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on.
+Start a comparison of products from the work the recipient needs. Establish the direct subject of each alternative, such as a service arrangement, a Method, a framework or the carrier a person must receive. Hold the receiving question and conditions fixed. For each alternative, retain the distinctions needed to establish its result and the choices the recipient would still have to make. Where the alternatives concern different kinds of thing or composition scales, show how each bears on the same decision.
 
 Use a quality-management, service-management, publication, or content-management scheme to test a possible distinction. Use the FPF pattern for the direct subject to settle its kind. If an unresolved kind can change the selected answer, keep the product proposed and make that kind the next decision question.
 

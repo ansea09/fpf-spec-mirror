@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SelectorMechanism.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
-line_start: 40787
-line_end: 41216
+line_start: 40819
+line_end: 41248
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -322,19 +322,19 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 
 #### A.19.SelectorMechanism:5.3 - Analysis-method families
 
-**Scenario.** A methods group selects a declared set of analysis-method families for a task. Candidates are refs to those families. The group wants diversity in the selected set, but does not want diversity metrics to silently become dominance criteria.
+**Scenario.** A methods group has four eligible analysis-method families. It wants the complete nondominated set for the agreed comparison, with diversity reported for that set. An order for a portfolio that actually covers different approaches would require a condition on the selected set.
 
 * `CandidateSetSlot` = `{Family1, Family2, Family3, Family4}`
-* The selection conditions declare which binary method-family comparisons are required. A finite basis identifies every relied-on CPM application, its pair, eligibility value, and own output binding; the Selector's `ComparisonResultSlot` argument is their justified-token union.
+* The upstream CPM applications cover all six distinct pairs with `pass`, under the stated task, comparator and common use conditions. Their bound outputs establish that Family1 dominates Family3 and Family2 dominates Family4. Each of the other four pairs is incomparable. The Selector takes the union of the justified tokens from those applications.
 * `TaskSignatureSlot` is present and is the single policy-default slot or ref:
 
   * `PortfolioMode` and dominance regime,
   * budgeting and telemetry hooks (when used).
-* `CriteriaSlot` declares that diversity signals are telemetry unless explicitly promoted by policy.
+* `CriteriaSlot` retains all nondominated families. The policy uses diversity as report-only telemetry.
 
 **Outcome.**
 
-* `SelectionSlot` returns a selected set of those families; any archive‑style behavior is a specialization and policy choice, not a hidden kernel default.
+* `SelectionSlot` returns `{Family1, Family2}`. Each omitted family has a dominator, and none of the complete comparison results gives a dominator for either retained family. This set settles the selection. To deliver the requested diversity report, establish the relevant characteristics of both families under the declared diversity measure and report the result. If both use the same approach, retain the set and report that finding. If their approaches are unknown, the report is still open. If instead the group orders two complementary approaches, establish which families can supply each and which combinations are admissible, then select under the portfolio rule. The pairwise dominance results alone do not establish that coverage.
 * The `Select` application retains its `TaskSignatureRef.edition`, effective criteria and `SelectionSlot` bindings for later explanation. Add provenance and dated Work only under their independent grounds in §4.1.
 
 ---

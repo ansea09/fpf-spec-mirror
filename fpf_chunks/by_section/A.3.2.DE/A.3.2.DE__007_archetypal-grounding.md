@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:5 — Archetypal Grounding"
-line_start: 12321
-line_end: 12364
+line_start: 12328
+line_end: 12371
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -47,7 +47,7 @@ The author recovers the rule's inputs and dependencies. For one item, unit and i
 
 With opening stock 48, receipts 12, issues 17 and a closing physical count of 41, the expected count is 43 and the discrepancy is -2. The description now supplies an operation, its operands, their origins, the reason for their combination and a useful return. Its authoring result is the instruction, not evidence that a storekeeper performed it.
 
-The receiving-use check asks the reader to recover that calculation and return from the description. If the opening figure is in boxes while movements are in individual units and the conversion is unknown, a numerical balance remains unavailable. A comparison-only description could legitimately omit this enactment detail; this edition promises the storekeeper a way to perform the reconciliation.
+The receiving-use check asks the reader to recover that calculation and return from the description. If the opening figure is in boxes while movements are in individual units and the conversion is unknown, a numerical balance remains unavailable. A comparison-only description could legitimately omit this enactment detail; this edition promises the storekeeper a way to perform the reconciliation. If the intended use is instead to design the reconciliation, a reviewer who is handed that formula has tested application. Give the decision about stock and the available records first. Have the reader choose the unit, interval and movements from what could alter that decision, justify how those quantities should combine, and return the result the storekeeper needs. A declared unit or boundary can be reused where the commission fixes it.
 
 #### A.3.2.DE:5.4 - Explain the Basis of a Professional Judgment
 

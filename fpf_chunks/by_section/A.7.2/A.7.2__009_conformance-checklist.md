@@ -6,12 +6,12 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
-line_start: 27188
-line_end: 27201
+line_start: 27212
+line_end: 27225
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -36,7 +36,7 @@ keywords:
 
 | ID | Check |
 |---|---|
-| `CC-A7.2-1` | The conflict names receiving claims, practical consequences, contexts, scopes, and current editions. |
+| `CC-A7.2-1` | For proposed joint use, the conflict follows from incompatible consequences of the applicable clauses under an admissible common condition. For reported disagreement in practice, it is grounded in the actual conclusions under the relevant editions, facts and scopes. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
 | `CC-A7.2-3` | Keep the reader, pattern episteme, described Method and result distinct. Any MethodDescription claim satisfies A.3.2. For an asserted dated reconciliation Work, retain the independent A.13/A.15.1 basis in §0, including the separately admitted assignment species and obtaining occurrence used by A.13; add F.6 only for the precise attribution consumed. A short result may omit unused identifiers without presuming their facts. |
 | `CC-A7.2-4` | Every load-bearing common claim is cited from `A.7.CP` through a reasoning-basis occurrence. |

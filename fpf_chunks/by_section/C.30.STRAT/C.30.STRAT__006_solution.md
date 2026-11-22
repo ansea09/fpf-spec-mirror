@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:4 — Solution"
-line_start: 76530
-line_end: 76674
+line_start: 76564
+line_end: 76708
 dependencies:
   - "A.10"
   - "A.15"
@@ -120,7 +120,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 
 In a functional account, *functional layer* names the local kind of grouping defined by its organizing contribution. Identify a particular grouping through its organizing function, its membership criterion and the functions included in that design or operation. Different Methods can realise the same functional layer. When the source uses *layer* to designate the repeatable Method itself, identify that Method under A.3.1. Call the Method composite when its construction admits the specified constituent Methods and organizes their contributions under B.1.5.CM. If the layer denotes a functional grouping, the composition claim concerns its implementing Method. Membership of that Method in a further encompassing Method needs its own basis. A supervisor's command to a controller may establish a control relation across layers while both perform separate Methods. Use C.30.LCA or C.32.LCA for that relation. Library.Reference:6.2.2 collects the working terms for these different uses.
 
-**When a level claim matters.** When a later decision or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim.
+**When a level claim matters.** When an explanation, comparison or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim.
 
 A named model or standard may provide this mapping within its declared use; its status does not extend the claim beyond that use. The source word may remain, but these facts—not the label—carry the claim.
 

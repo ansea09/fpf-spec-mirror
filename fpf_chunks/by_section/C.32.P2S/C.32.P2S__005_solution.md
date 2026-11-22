@@ -6,12 +6,12 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 81180
-line_end: 81329
+line_start: 81214
+line_end: 81363
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -68,7 +68,7 @@ Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted proble
 9. Name the intended architecting or realizing Systems first, then make the needed Method descriptions, constraints, readiness expectations, work expectations, and structure-use return conditions available to them under their own access or use relations. If the claim is that a System holds an assignment, identify that separately obtaining assignment; assignment does not establish classification. Assess the System's capability and fit through A.2.2 independently. Keep availability or access, local kind, separate classification, assignment, readiness, permission, authority, responsibility, and plan or commitment independent.
 
    When performance is claimed, recover each performer through A.13 and let A.15.1 independently admit the `U.Work`. Add `performedWorkAttributionRefs` only when the flow or receiving use expressly represents precise assignment-bound attribution. Add a Work-to-change relation only when that direct predicate obtains. Return the missing governor for an unsupported direct claim.
-10. Realize selected structures in the transformed holon through domain work without treating the selected or expected structure, decision, method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, or transfer as the actual structure or as an actual transformation. Use `A.15.1` for each dated work occurrence and `A.3.4` for each independently identified actual bounded change.
+10. Carry the selected arrangement into domain work when the commission includes realization. For retention or withdrawal, identify the use that must continue or cease, the time and conditions, and which connections must remain, change or end. An existing arrangement can already supply the means. Establish the promised effect in use when it falls due. Use `A.15.1` for dated work and `A.3.4` for an independently identified actual bounded change.
 
     If work is said to cause or realize a change, name the Work-to-change relation and use the cited pattern to check the applicable rule. If no reusable relation is available, cite a local claim selected under `A.6.RCD` disposition 2.
 
@@ -175,8 +175,8 @@ Stop conditions:
 
 - stop at `C.22.2` when the signal still needs problem-side recovery;
 - stop at `C.30` or `C.30.ASV` when the current need is only architecture claim or structural-view adequacy;
-- stop at `C.32` when the next useful artifact is a candidate palette rather than a whole P2S carry-through record;
-- stop at `C.32.PAD` when the project architecture decision is current;
+- return the candidate palette under `C.32` when that is the commissioned result. A later design, decision or realization has its own remaining work;
+- return the adopted project architecture decision under `C.32.PAD` for a decision commission. When the project owes a change in use, carry that decision into the work and evidence the change requires;
 - stop at `A.3.1` for Method identity or `A.3.2` for `MethodDescription` membership, or at the A.15 family when the current question is method-work alignment, work planning, readiness, or performed work;
 - use `C.16`, `C.25`, `C.32.ACE`, `E.23` or `G.11` for a current measurement, quality-bundle, eval, improvement or currentness-refresh question; use `C.29` when mathematical representation choice, transfer or reliance remains unresolved;
 - reconsider P2S only when a later subject assertion establishes architecture pressure that changes candidate structures, expected structures, actual structures, selected structures, or the stronger-structure inspection condition.

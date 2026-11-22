@@ -6,12 +6,12 @@ section_id: "C.39.GA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__013_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:12 — Relations"
-line_start: 88174
-line_end: 88177
+line_start: 88220
+line_end: 88223
 dependencies:
   - "C.39.RO"
   - "C.39.SA"

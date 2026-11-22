@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 124231
-line_end: 124280
+line_start: 124327
+line_end: 124376
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -44,7 +44,7 @@ keywords:
 
 Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their participant identities and meanings, any required kind conditions, reusable declarations, and neighboring subject patterns coherent.
 
-Characterize the current candidate or source claim and run the existing-rule-content, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already defined claims in a bounded local episteme, rely directly on current exact subject assertions and their `ClaimGraph` sources, or stop unresolved.
+Start with a question the ontology must let someone answer. Identify the distinction on which their explanation, decision or way of working depends. Then characterize the candidate and test the available rule content, identity, relations, dependent uses and possible duplication. The **ontology disposition** can be a new durable ontic, a bounded local episteme connecting existing claims, direct use of existing assertions and their `ClaimGraph` sources, or an unresolved result.
 
 A current source-use record states quote-only, reduced use, or a selected stronger source use with its exact provenance; omit it when source use is not current. Source use can accompany any resolved ontology disposition as a separate provenance decision. Use source-only as a stop only when no exact payload assertion has been selected.
 
@@ -72,7 +72,7 @@ If a separate `U.MethodDescription` claim matters, apply A.3.1 and A.3.2 to iden
 
 **Working concern and viewpoint.** From the FPF-authoring viewpoint, preserve the subject's exact relations, assertions, and defining or constraining `ClaimGraph` sources without duplicating kinds or promoting a claim-bearing episteme for one named use into durable ontology.
 
-**First useful move.** State the working expression or current claim, identify one exact pre-judgment candidate entity, proposal episteme, or source-construct entity and its direct identity governor, and use that object as the decision episteme's EntityOfConcern. Name the receiving use and record source provenance when current.
+**First useful move.** Recover the receiving question from the work that prompted it. Which subjects have to be distinguished or related for someone to answer it? For the introduction decision, identify one candidate entity, proposal episteme or source construct before judging it. State its identity rule and keep it as that decision episteme’s EntityOfConcern. Record source provenance when the decision relies on a source.
 
 Then run Checks 1–4: reuse existing exact predicates and `ClaimGraph` sources, test exact identity, recover the needed direct relations or constitution, and test dependent reuse without duplicate ontology. Fill the typed disposition result from those tests alone. Its direct, bounded, durable, or unresolved payload never replaces the decision subject. If no exact candidate or source construct can be identified, keep inquiry material and do not fabricate a decision episteme.
 

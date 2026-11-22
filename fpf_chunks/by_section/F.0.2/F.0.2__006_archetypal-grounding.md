@@ -6,12 +6,12 @@ section_id: "F.0.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:5 — Archetypal Grounding"
-line_start: 126684
-line_end: 126734
+line_start: 126793
+line_end: 126845
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -60,7 +60,9 @@ In this worked case, the later Systems Engineering DPF content decision cites `S
 
 #### F.0.2:5.2 - Organization change contrast
 
-An organization-change author compares schools that describe organizational flows and partial organizations through different transformations and coordination structures. The sources support a narrower claim about linked transformation and coordination structures, but not one universal organization-flow kind. The author records a contrast claim, preserves the source-local decompositions, and lets a later DPF content decision choose the narrower contribution.
+An organization asks why moving the point where a branch accepts a job changes which office can correct it. One local account follows the work that transforms the job. Another follows the agreement that transfers responsibility for it. Comparing their words for *handover* can establish what each office means. The requested explanation also needs the rule connecting acceptance to the power to order a correction.
+
+Suppose the offices agree that the originating office can order a correction until the receiving branch accepts the job, and the branch can do so afterwards. A job can leave the originating office on Monday and be accepted on Wednesday. The work history and the transfer rule together place Tuesday’s decision with the originating office. Move acceptance to Monday while keeping every processing step and its time fixed. Tuesday’s decision now belongs to the branch. The difference explains the effect of changing the arrangement wherever that rule governs. An authoritative record identifying the office on Tuesday could settle a request for its name. A proposal for a different allocation of responsibility requires a further choice and a rule the offices can use. For a proposal to identify the two offices’ uses of *handover*, the same comparison warrants keeping dispatch and transfer of authority distinguishable. Dispatch can remain fixed while responsibility changes hands on a different day.
 
 #### F.0.2:5.3 - Scientific classification inquiry
 

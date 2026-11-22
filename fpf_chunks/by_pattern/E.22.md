@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 122567
-line_end: 123034
+line_start: 122655
+line_end: 123124
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -70,12 +70,14 @@ E.22 gives requester and evaluator a compact way to declare the quality question
 
 Start from the result the recipient needs. The recipient may need a document to explain an operation, the operation to obtain a result, and the result to inform a further decision. Select the object and judgement needed now. A candidate's narrower description cannot establish that the larger receiving need has been satisfied.
 
-1. **Name the use and object version.** Say who needs the answer, what work or decision it will inform, and which version is being evaluated. Include the conditions that affect that use. If the receiving need is unclear, recover it with the recipient or the applicable problem-formulation method.
+1. **Choose the object and its extent from the intended use.** Say who needs the answer and what work or decision it will inform. Which part, whole or connection could make the difference under evaluation? Follow that relation until you can identify the version to examine and the conditions a judgement about it must distinguish. An instruction, the Method it describes and the result of performing it can call for different evaluations. If the requested use is unclear, recover it with the recipient or the applicable problem-formulation method.
 2. **Choose the question and criterion.** Say whether the recipient needs floor adequacy, further improvement, a comparison of trade-offs or the effect of applied findings. Use the characteristic space and predicate or comparator supplied by an adequate evaluation. State the floor or improvement aim and the qualities a proposed repair must preserve.
 3. **Connect the criterion to attainable grounds.** Identify the content, observations or reasoning needed to answer it. Tracing a source contribution into an instruction can establish a coherent construction. Trying the instruction on material can reveal a missing action. An observed application can support a performance claim under the conditions observed. State which answer is required, what the intended reader or performer can supply, and what the candidate must supply. If indispensable grounds are absent, ask for the exact unresolved condition rather than an unsupported pass.
 4. **Specify the useful return.** Name the evaluation's result form and the conclusion it can support. A floor answer identifies sufficiency or the first needed repair; an improvement answer also describes the proposed change, expected gain, protected trade-offs and closure test. State evaluator conditions only when they change the question or admissibility of the answer.
 
 When several contributions are needed, retain what their available evaluations establish and ask about the necessary connection still unanswered. A good explanation, a supported source claim and a correct constituent operation can all remain valid while their combined use is unestablished. Evaluate that connection for its own object and use. Combining unlike scores cannot establish quality for the whole.
+
+Read the request in the words the evaluator will receive. If the requester supplies the criterion, a model or the relation between two contributions, what can the assigned work establish about using it? If the judgement concerns the practitioner's ability to choose or construct it, identify where the practitioner made that choice under the conditions being evaluated. An observation, the design itself or an earlier record can already establish it. Ask for the reasoning when the judgement requires it and the available work leaves it open. Where a narrower assessment supplies a premise, keep the wider evaluation question with the person responsible for its conclusion.
 
 Write the request in ordinary language with these bindings recoverable, as in section 5. The local names and schemas below specify their exact meanings when the question is represented as a `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration`. Reuse the selected evaluation's adequate descriptions and defaults. Add an intended evaluator's identity or a dated-Work account only when the receiving question requires it.
 
@@ -353,7 +355,7 @@ When the object is a candidate, archive or front member, selected set, parity re
 
 Once the requester and evaluator agree on this question, the evaluation can begin. Its purpose is `floorEvaluation`; the complete E.21 result remains to be obtained.
 
-Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. That observation supports the guidance claim about a conditional preparation meeting 3 ms analysis and 8 ms viewing requirements. Evaluate each remaining E.21 coordinate on its own grounds. If the interval qualification is unavailable in the receiving studio, obtain that missing basis. Three marker readings alone do not justify the edit.
+Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. With that qualified interval, a constant correction of 42.5 ms meets the 3 ms analysis and 8 ms viewing requirements. To judge M1 as guidance for developing the preparation, trace where a practitioner starting with those requirements can decide what to ask the engineer, choose a correction and establish its consequences for both uses. The worked arithmetic supplies one part of that judgement. Evaluate each remaining E.21 coordinate on its own grounds. If the interval qualification is unavailable in the receiving studio, obtain that missing basis. Three marker readings alone do not justify the edit.
 
 Tightening the analysis requirement to 2 ms changes the preparation's applicability: no constant correction can meet it for the given 5 ms offset span. The pattern's instruction to return that dependent use for development remains useful, and the unchanged 8 ms viewing use remains qualified. A request to assess an actually edited recording would need that recording version and evidence about it. Where the receiving question is already the limited calculation under the supplied interval, evaluate that calculation directly. A full E.21 pattern evaluation and another frame add no answer to that calculation.
 

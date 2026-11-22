@@ -6,12 +6,12 @@ section_id: "A.2.6:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__003_context.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:2 — Context"
-line_start: 7071
-line_end: 7097
+line_start: 7063
+line_end: 7089
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -56,5 +56,5 @@ In **F–G–R**:
 * **G** must be “**where it holds**,” not “how abstract it sounds.”
 * **R** describes how strongly the claim is warranted by its evidence under the declared scope and use conditions (C.2.2). Observed semantic mismatch or loss may be evidence about a proposed translation, while the permitted-loss tolerance belongs to the separate C.2.1 claim about that use.
 
-When **G** is a **set‑valued scope**, serial dependencies **intersect** scopes; parallel, independently supported lines can publish a **SpanUnion** over their supported areas.
+For set-valued **G**, conditions that must hold on the same slice intersect. Where one operation feeds another, express the later requirement on the outcomes the first operation can supply. For a promised result, establish that the chain delivers it throughout the stated scope, by any promised deadline. To cover several cases, establish the same conclusion throughout each case. A claim of independent support has the additional conditions in §7.3.
 

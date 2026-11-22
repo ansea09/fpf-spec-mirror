@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
-line_start: 98301
-line_end: 98481
+line_start: 98352
+line_end: 98532
 dependencies:
   - "E.1"
   - "E.2"
@@ -129,7 +129,7 @@ A release-schedule rule classified as Gov takes priority over a conflicting perf
 3) **Publication.** A BLP precedence result retains the policy/edition and comparison basis. A performed full audit publishes its material resource and assurance accounts under E.2 BLP-1d and G.11. A bounded use with no scale claim creates no audit package.
 
 **ABL — Autonomy‑Budget & Oversight Profiles (GateProfile)**
-This section defines an **extensible family of autonomy oversight profiles** for agentic tool use: each profile specifies (i) a budget envelope, (ii) a Freedom‑of‑Action (FoA) descriptor, and (iii) the required **publication of a gate decision authorizing execution** under that envelope. The labels **L0…L4** are treated here as **profile identifiers** (not a fixed managerial ladder): projects MAY introduce additional profiles or sub‑profiles by minting new profile ids, provided they publish the same fields (budgets, FoA, decision roles, telemetry requirements) and keep profile changes explicit and auditable. In documents that also use model abstraction levels, write *autonomy profile L2* for the oversight rule and *model abstraction level L2* for the modelling use in B.5.MR. A model at any abstraction level can be discussed under any applicable oversight profile.
+This section defines an **extensible family of autonomy oversight profiles** for agentic tool use: each profile specifies (i) a budget envelope, (ii) a Freedom‑of‑Action (FoA) descriptor, and (iii) the required **publication of a gate decision authorizing execution** under that envelope. The labels **L0…L4** are treated here as **profile identifiers** (not a fixed managerial ladder): projects MAY introduce additional profiles or sub‑profiles by minting new profile ids, provided they publish the same fields (budgets, FoA, decision roles, telemetry requirements) and keep profile changes explicit and auditable. For a further profile, declare which standard obligations it inherits and which additional safeguards govern it. Here “L1+” and “L2+” apply to the named standard profiles at or above those identifiers and to any additional profile that inherits the specified obligation. In documents that also use model abstraction levels, write *autonomy profile L2* for the oversight rule and *model abstraction level L2* for the modelling use in B.5.MR. A model at any abstraction level can be discussed under any applicable oversight profile.
 
 | ProfileId | Name                         | Freedom‑of‑Action (FoA)                  | Explore‑Share (default) | Typical Use                                     | GateDecision authority |
 |---------:|------------------------------|------------------------------------------|-------------------------|-------------------------------------------------|------------------------|
@@ -161,8 +161,8 @@ This section defines an **extensible family of autonomy oversight profiles** for
 * **L4:** **Gov‑CAL Board** (multi‑disciplinary) with documented scope, time‑boxed **trial budget**, and rollback criteria.
 
 **Profile promotion / demotion triggers.**
-* **Promote** a profile when the active profile's required performance and assurance evidence shows stability within its declared tolerances and budget adherence for ≥ **N_policy** runs. Promotion requires its A.21 GateDecision. If a scale claim supports promotion, cite the usable-response comparison under E.2 BLP-1c; slope evidence alone is insufficient. Keep every independently required profile check.
-* **Demote** a profile when: (i) the profile's declared risk or budget ceiling is breached, (ii) assurance drops below floors, (iii) policy changes, or (iv) a significant **heuristic‑debt** item expires without replacement. Demotion **MUST** be published as a profile-change and permission result with updated budgets and policies pinned. Any structural crossing is established separately under E.18.
+* **Promotion.** Use the active profile’s required performance and assurance evidence for the actions and conditions it covers, including stability within the declared tolerances and budget for ≥ **N_policy** runs. Establish what the proposed profile would newly permit, which commitments and controls must hold together and what evidence covers those uses. Promotion requires its A.21 GateDecision. A supporting scale claim uses the usable-response comparison under E.2 BLP-1c. All independently required profile checks apply.
+* **Restriction and reassessment.** Demote the profile when its declared risk or budget ceiling is breached, assurance drops below a required floor, or a significant **heuristic‑debt** item expires without replacement. A policy change calls for reassessing the affected permissions. Retain, restrict or extend them as the new terms, authority and grounds warrant. Publish a demotion as a profile-change and permission result with the applicable policy, budgets and effective window. E.18 governs a structural crossing when its conditions obtain.
 
 **Profile-change cases.** A local budget revision from twenty to thirty minutes with unchanged meanings requires the authorized profile/policy change and its permission result; absent a selected TFS transition, it has no GateCrossing. If the profile label remains L2, the original twenty-minute permission cannot authorize execution at minute twenty-five. Apply the authorized new ceiling, required checks and effective window before continuing; otherwise stop at the old ceiling. A case that changes a CtxState binding between two positions in an independently selected TFS also satisfies E.18’s crossing obligations. Leaving a sandbox with unchanged F.17 senses needs the declared authorization and oversight, but supplies no semantic Bridge. Stop/resume, signer and budget duties remain applicable in each case under its profile.
 

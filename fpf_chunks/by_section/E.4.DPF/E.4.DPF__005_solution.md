@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 100295
-line_end: 100884
+line_start: 100346
+line_end: 100935
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -78,7 +78,7 @@ The five architecture outcomes are alternatives, not successive stages. A separa
 
 When a DPF answer is selected and authoring begins, grow the seed only as far as the next use requires: a source-pack stub; provisional public names; the first pattern candidates through `E.8`; ordinary assertions of the material relations among them; optional `E.4.PFR` rows for a named maintenance use; a publication or access consequence; and the first quality and currentness route. Add the effective ReferenceScheme, ClaimScope, qualification window, or a selected BoundedModelUseStructure only when those distinctions change interpretation for the receiving use.
 
-Stop at the first useful result. A cheap route or stop needs no seed package. A rough DPF seed is inspectable when its reader, problem, useful move, source basis, provisional patterns and relations, edition/dependency boundary, publication or access consequence, and reopen condition are visible. Do not present it as a reliance-bearing DPF until the decision account is adequate for the intended authoring use, the pattern bodies are usable as normal FPF patterns, and the package is evaluated through `E.4.DPF.DA`.
+Stop when the result answers the commission. A direct answer can complete a request for guidance, and an inspectable seed can complete a request for a seed. Continue to usable patterns, assembly and the applicable evaluation when a usable DPF was commissioned. A rough DPF seed is inspectable when its reader, problem, useful move, source basis, provisional patterns and relations, edition/dependency boundary, publication or access consequence, and reopen condition are visible. Do not present it as a reliance-bearing DPF until the decision account is adequate for the intended authoring use, the pattern bodies are usable as normal FPF patterns, and the package is evaluated through `E.4.DPF.DA`.
 
 **Precision and object boundary after the first route.** The first-hour route is Plain application guidance for one run-independent framework-authoring `U.Method`. This E.4.DPF episteme is a `U.MethodDescription` only because its EntityOfConcern is that independently admitted Method and its claims substantively describe how to carry it out under A.3.2. E.8 does not grant that membership. The Method, this description episteme, any `U.WorkPlan`, every dated authoring `U.Work`, and every result remain different objects.
 
@@ -271,7 +271,7 @@ Prompt-shaped starter for SoTA harvesting and first candidate generation:
 Help draft a first FPF-grounded principle-framework candidate.
 
 Domain or local situation and semantic boundary: effective ReferenceScheme, ClaimScope, qualification window, and optional selected BoundedModelUseStructure only when interpretation depends on it:
-Intended reader and first use:
+Intended practitioner, working question and use. What will the practitioner have to explain, choose, perform or devise from the information available on entry? Work back from that result to the subject, relations and choices the DPF must teach. Follow them into the draft.
 Independently grounded non-use boundary, only when the full F.19:4 test warrants it: a plausible intended reading, changed truth, understanding, or use, and the smallest clear correction:
 Selected source basis and why it fits this question: direct source | maintained synthesis or guide | bounded F.1/F.0.2 route | existing G.2 pack | earlier DPF | derived lookup
 Source traditions to inspect:
@@ -304,7 +304,7 @@ Publication form and exact presentation carrier for first use; access route if o
 Quality route: which first drafts should be evaluated and improved:
 Refresh triggers: source change, relied-on FPF or domain-framework edition change, material change to relied-on Core claims, local-use telemetry, or policy change:
 
-Return the current result and only the adjacent source, naming, pattern-draft, relation, publication or access, quality, and currentness notes that its receiving use needs. If the result is a cheap route or stop, create no framework-decision record. If the requester wants a ready DPF rather than a seed, keep the E.9 DRR or decision carrier separate from the user DPF publication form, exact presentation carrier, and any access route, then name which `E.21`, `E.4.DPF.DA`, and currentness checks remain before reliance.
+Return the result commissioned and the source, naming, pattern, relation, access, quality and currentness information its use requires. A sufficient direct answer can finish a request for guidance. For a seed, identify what it enables and what still needs developing. For a usable DPF, continue through authoring, assembly and the applicable evaluation. Give the reader the usable edition or identify the required result still unavailable. Keep the E.9 decision separate from the publication and its access route. Use E.21 and E.4.DPF.DA for the questions each evaluates.
 Do not present generated text as authoritative. Before relying on it, name the unresolved claims and the contribution still needed: direct source return; a relevance-based source cut through `F.1`; a bounded semantic-synthesis result through `F.0.2`; general construction, connection, explanation or change of Methods through `C.39`; their framework-authoring application through `E.4.CM`; an optional broad `G.2` pack; authoritative return and partial-failure handling for a derived lookup; identifying the generated or discovered result, establishing its kind and status, and determining admission for its intended architecture use through `C.35`; framework-decision profiling from `E.4.PFAD`; an optional relation or edition representation from `E.4.PFR`; local wording restoration through `E.10.ARCH`; naming from `F.18`; quality evaluation from `E.21`; or a currentness check from `G.11`.
 ```
 
@@ -367,7 +367,7 @@ In an all-in-one Markdown publication that contains the full pattern bodies, the
 6. Package carrier structure-account: intended reader and use, selected source-structure denominator, recurring problem-situation structures, reusable solution-move structures, captured structure, deliberately coarsened, abstracted, omitted, or lost structure, source-return condition, and quality or epiplexity route. Integrate this explanation into the architectural reference, with a short Readme cue where it changes first entry; it does not require a second account.
 7. Package boundary and subject-pattern routing: Core subject patterns reused, local terms bounded, and source, evidence, assurance, publication, and refresh exits named.
 8. Pattern bodies: each drafted through `E.8`, with its PatternID and title at H2, canonical sections at H3, and deeper sections retaining their relative levels; each carries recognition text, positive solution, worked cases, local anti-patterns, SoTA-Echoing, conformance checks, and relations, and each is evaluated or marked as a seed under `E.21` before the package is claimed for public, teaching, enterprise, or reliance-bearing use.
-9. Heterogeneous acceptance cases or transfer probes: examples that force the pattern set to work across unlike uses rather than only repeating the motivating case.
+9. Grounds for the claimed use and transfer. Establish which relations hold over the declared range, which choices the practitioner must make and how the pattern set supports them together. Use a contrasting application when it helps the reader recover or test a distinction the available account leaves unclear. A single argument can establish the full stated range.
 10. Support maps or appendices: detailed architecture-bridge, source-use, precision or package-name lookup material placed after pattern bodies unless a short first-entry trigger table is needed. Figures and tables needed to understand the architectural reference remain with that explanation.
 11. Source use and refresh map: source rows with adopted payload, rejected or bounded readings, the conditions that reopen a direct source use, F.1 source cut, F.0.2 comparison, or optional G.2 pack, and the conditions under which source currentness or refresh must be reconsidered with `G.11`.
 12. Conditional relation and edition records: add `E.4.PFR` rows only when a named maintenance use needs a stable representation of dependency, specialization, publication, source reuse, evaluation, generated-carrier, teaching publication-carrier, ethics, deprecation, supersession, or edition effects. Otherwise keep the direct assertion.

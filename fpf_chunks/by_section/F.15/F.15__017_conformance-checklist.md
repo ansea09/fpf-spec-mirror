@@ -6,12 +6,12 @@ section_id: "F.15:14.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__017_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:14.5 — Conformance Checklist"
-line_start: 132613
-line_end: 132627
+line_start: 132730
+line_end: 132744
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-F15-1` | Declare one finite exact scope, versions, triggered rules and receiving use before applying SCR or RSCR. State excluded claims only when F.19's grounded-contribution test requires that boundary. |
+| `CC-F15-1` | Does the finite scope answer the original checking question? Preserve a stipulated local scope. For a joint conclusion, include grounds for the dependencies that could change it while each local check still passes. Identify the versions and triggered rules. |
 | `CC-F15-2` | Resolve every member to its exact governed value, occurrence, episteme, scheme, or version; selected Structure is optional and independent. |
 | `CC-F15-3` | Keep checked scope, rule, application/work, result claim, witness/evidence path, record episteme, publication occurrence/form/carrier, and currentness relation distinct. |
 | `CC-F15-4` | Check exact F.17/F.18 names, cells, cards, and rows without selecting names or duplicating their settlement. |

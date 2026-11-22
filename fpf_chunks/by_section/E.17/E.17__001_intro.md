@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 114944
-line_end: 114988
+line_start: 115018
+line_end: 115062
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -61,9 +61,9 @@ keywords:
 
 **First output.** One useful publication face, or the smallest necessary set, that names the source, intended reader/use, what it preserves or omits, and how to return to the source. No ClaimGraph, formal profile, viewpoint bundle, evidence package, or four-face completion is required for this ordinary result.
 
-**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Mark material omissions, state the bounded use, then publish and stop. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
+**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Try the work each reader is meant to do using the face and the sources available in time. If the source supplies only part of the commissioned answer, identify the supported contribution and return the missing question to the source author or the person commissioning the work. Publish that contribution on its own when a permitted partial delivery serves the reader. For a commission on the complete set, keep the missing grounds visible before issuing it as complete. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
 
-**Ordinary formality rule.** A source pointer, reader/use line, readable face, and visible omission or return note are enough when the face is used for orientation, inspection, explanation, comparison, exchange preparation, or planning preparation and no downstream identity depends on it.
+**Ordinary formality rule.** A source pointer, reader/use line, readable face and visible omissions can suffice for ordinary publication. For source-finding, test whether the reader can reach the source. For explanation, test whether the reader can recover the relation and grounds that answer the question. Add formal identities only when the use depends on them.
 
 **When reliance changes the engineering move.** Identify the source edition. Resolve the viewpoint and E.17.0 conformance only if `U.View` membership matters. Identify the E.24.PUB publication occurrence, form, carrier, and bounded use when their identities matter. Cite the concrete evidence, gate, release, provenance, or assurance record that carries the downstream claim. These additions do not turn the face into that record.
 

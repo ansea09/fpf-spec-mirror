@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ROLE.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
-line_start: 108649
-line_end: 108846
+line_start: 108713
+line_end: 108910
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -96,7 +96,7 @@ Use the sentence's intended claim, not the trigger word, to select the result.
 4. Apply the selected pattern only as far as the receiving claim needs. Add a Tech designation, occurrence identity, predicate, assertion, reference, evidence, or assurance only when omitting it would change truth, action, reuse, or reliance.
 5. For one recovered claim, stop when you have selected its particular object or relation and the applicable pattern. Otherwise identify the claim that lacks a governing rule (`missing-governor`), state what information is missing, or return the quote-only or ordinary-non-use result.
 
-If recovery shows that the same bounded phrase carries several distinct claims at once, rewrite them as separate ordinary sentences and apply steps 3–5 to each sentence. Ambiguity by itself is not evidence of several claims.
+The same phrase can carry several claims. Give each its direct rule and keep the connection the reader needs. “Alice reviewed the manuscript under her assignment” depends on the work and the assignment being hers for this manuscript. Ambiguity alone leaves it open which claim is meant.
 
 Use A.6.C **Contract Unpacking for Boundaries** only when its contract-like boundary-language trigger holds; otherwise apply the direct rule for each recovered claim. Do not create a multi-claim record or an umbrella role object.
 
@@ -179,7 +179,7 @@ The pattern favors Onto/Epist precision, which can tempt an author to expand eve
 7. Are functioning, capability, Work, deontics, access, authority, responsibility, evidence use, and results kept under their direct relations?
 8. Does ordinary prose stay ordinary when no technical distinction changes the receiving claim?
 9. Does the repair add a qualifier only for a live alternative and avoid a fixed formal expansion?
-10. For each recovered claim, does the repair stop after one exact object or relation and its applicable rule are selected?
+10. Does the reader have the particular object or relation and its rule for each claim, and the grounds for connecting them when the assignment calls for that conclusion?
 
 ### E.10.ROLE:8 - Common Anti-Patterns and How to Avoid Them — Role-Word Repairs
 

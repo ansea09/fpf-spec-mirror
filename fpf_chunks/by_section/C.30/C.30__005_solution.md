@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 74879
-line_end: 75396
+line_start: 74913
+line_end: 75430
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,7 +76,7 @@ keywords:
 
 ### C.30:4 - Solution
 
-Start with the holon and the architecture action or question. Recover an actual architecture relation under :4.1 when that is the claim; otherwise retain the negative, unresolved, candidate or expected content at its supported scope. Identify the selected structure kind, concern and use conditions, and explain how inspected material contributes. If the action depends on unresolved description or view conditions, use :4.2 or C.30.AD. An ordinary sentence or question card can finish when it gives the needed next move.
+Start with the architecture question and its subject. Establish the obtaining relation under :4.1 for a claim about actual organization. A candidate or expected arrangement can support a conditional explanation or a design. When the open question is what a description represents, use :4.2 or C.30.AD. When the question is which permitted arrangement operated, use evidence of that operation. The description itself can settle which arrangements its rules permit. For an explanation, follow the relations that account for the required property. When the recipient needs a design, carry the grounded requirements to C.32.P2S and develop the organization still missing. The account can end when it supplies the finding, explanation, design contribution or next action that the recipient asked for.
 
 In C.30, the EntityOfConcern is one identified subject of the current claim: the described holon, an `ArchitectureRelation` occurrence, a selected structure, or another subject object. A claim episteme, description, diagram, or publication is not a proxy EntityOfConcern for a world-side relation or structure. Description hygiene supports this boundary but is not the center of C.30.
 

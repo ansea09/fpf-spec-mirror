@@ -6,12 +6,12 @@ section_id: "G.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:1 — Problem frame"
-line_start: 136403
-line_end: 136421
+line_start: 136529
+line_end: 136547
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -59,7 +59,7 @@ You are authoring a **CG‑Frame** and want a **repeatable scaffold** that conne
 * a declared **scope anchor** (`CG‑FrameContext`, `entityOfConcern`, governing spec refs),
 * a **local SoTA set** (scoped and provenance‑anchored),
 * a **variant pool** (candidate ideas / decision options / method variants),
-* a **shortlist** (a set-result outcome, not a forced singleton),
+* a **selector or declaration result** in the form the recipient needs, such as a shortlist or a set agreed for joint use,
 * **publication‑ready bindings** into Part‑F artefacts (UTS rows, Name Cards, RSCR tests, worked examples),
 * and **refresh readiness** (telemetry hooks + RSCR wiring).
 

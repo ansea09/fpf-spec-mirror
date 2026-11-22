@@ -6,12 +6,12 @@ section_id: "C.37.MM:End"
 section_title: "C.37.MM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__014_c-37-mm-end.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:End — C.37.MM:End"
-line_start: 87026
-line_end: 87027
+line_start: 87068
+line_end: 87069
 dependencies:
   - "B.5.MR"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:1 — Problem frame"
-line_start: 102057
-line_end: 102079
+line_start: 102108
+line_end: 102130
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -38,7 +38,7 @@ Use it especially when a publication form is replaced, split, merged, added, ret
 
 The primary reader is a framework maintainer or integrator preparing one candidate publication. The primary `EntityOfConcern` is one candidate FPF, DPF, or LPF edition being assembled for one declared publication use. The method returns a preservation conclusion about that edition. Files and build results are construction means or evidence.
 
-**Begin here.** Name the candidate framework edition and publication use, identify every accepted source contribution for this candidate, and list the predecessor and candidate publication-form expressions whose continuity or change is claimed. Then select the source-to-candidate comparison and the applicable predecessor-preservation branch.
+**Begin here.** Identify the edition and the publication question. For incorporation of a named contribution, follow its meaning into the expressions and receiving uses on which that conclusion depends. For predecessor preservation, compare the expressions whose continuity is claimed. For a full edition these sets cover the candidate, all accepted contributions and its predecessor under the declared publication use.
 
 The first result is a preservation conclusion for the declared use. It names losses, repairs, accepted content changes or retirements, unexpected additions, blockers, and unresolved correspondences or content decisions. Keep the complete comparison checkable. Ordinary retained content needs no positive prose row.
 
@@ -48,5 +48,5 @@ A maintainer can incorporate an accepted change while preserving unrelated prede
 
 A responsible maintainer uses the local construction and release methods for repository operations and decisions to accept, admit, release, or land a publication.
 
-A new publication with no predecessor needs the accepted-source comparison, the complete candidate inventory, checks of changed public entries and direct consumers, and the applicable package evaluation.
+For a whole first publication, compare its accepted sources, inspect its complete inventory, check changed public entries and direct consumers, and apply the package evaluation. A request about incorporation of one contribution has the narrower comparison stated above.
 

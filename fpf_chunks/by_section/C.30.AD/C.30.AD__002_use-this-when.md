@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 75505
-line_end: 75572
+line_start: 75539
+line_end: 75606
 dependencies:
   - "A.1"
   - "A.10"
@@ -91,7 +91,7 @@ Use it to answer:
 
 **What this buys.** A reader can tell what each description is about, how its views correspond, where reused material came from, how fresh it is, what it may be used for, and which other claims need their own patterns.
 
-**First useful description-use output.** Say which description is being used, what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
+**First useful description-use output.** For a new description, begin with what its audience must distinguish or explain. Choose the subject, structures and detail needed to express that difference, then construct the account and try it on the intended question. For an existing description, say what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
 
 ```text
 ArchitectureDescriptionUseCard@Project:

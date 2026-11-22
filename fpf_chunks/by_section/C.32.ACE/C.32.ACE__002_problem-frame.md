@@ -6,12 +6,12 @@ section_id: "C.32.ACE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:1 — Problem frame"
-line_start: 82020
-line_end: 82101
+line_start: 82054
+line_end: 82135
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,7 @@ Typical entry phrases:
 "Two methods, roles, system variants, or AI workflows need fair comparison against the same architecture characteristics."
 ```
 
-**First-minute use slice.** A product-family team must compare two architectures for substitutability, evidence reuse and latency, while preserving a safety constraint. Recover the workload, latency quantity and operating conditions of the criterion. A warm-start observation covers the warm start it measures. If the design also has an applicable bound of at most 10 ms extra for a cold start and at most 70 ms for a warm start throughout the required workload, the team can use the resulting 80 ms upper bound for a 100 ms limit. If starts may exceed that extra time, obtain evidence for the uncovered conditions. Check the test package against each changed interface for the separate evidence-reuse question. Each result keeps its subject, conditions and grounds.
+**First-minute use slice.** A product-family team must compare two architectures for substitutability, evidence reuse and latency, while preserving a safety constraint. Recover the workload, latency quantity and operating conditions of the criterion. A warm-start observation covers the warm start it measures. If the design also has an applicable bound of at most 10 ms extra for a cold start and at most 70 ms for a warm start throughout the required workload, the team can use the resulting 80 ms upper bound for a 100 ms limit. If starts may exceed that extra time, obtain evidence for the uncovered conditions. Check the test package against each changed interface for the separate evidence-reuse question. Each result keeps its subject, conditions and grounds. The bound settles the latency limit for the covered design. To compare both designs, obtain the grounds needed for each remaining criterion. For a configuration the team can commit to, establish that the results for the required criteria hold together there. For performance promised across operating modes or choices left to others, establish the requirement throughout those conditions.
 
 This pattern frames architecture evaluation over declared criteria rows, Q-Bundle slots, candidates, bearers or selected structures. Use a parity frame when the receiving inference depends on comparable conditions. The optional record below uses a C.32.ACE-local form and introduces no new U-kind. Its program label establishes neither Method or MethodDescription membership, a WorkPlan, dated Work, nor an evaluation result. When measurement validity, comparison policy, a selection result, G.5 result declaration, publication, or architecture decision is current, use the definition and test for that claim.
 

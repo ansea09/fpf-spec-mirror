@@ -6,12 +6,12 @@ section_id: "G.9:6"
 section_title: "Conformance Checklist (CC‑G9)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__008_conformance-checklist-cc-g9.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:6 — Conformance Checklist (CC‑G9)"
-line_start: 140765
-line_end: 140822
+line_start: 140908
+line_end: 140967
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -52,8 +52,10 @@ keywords:
 **CC‑G9‑CoreRef (normative).**
 G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` declared in **G.9:4.0 GCoreLinkageManifest** (including trigger typing, Default Governing Definition Index links, and P2W split).
 
-1. **CC‑G9.1 — Exact comparison boundary, equal windows (and budgets), and pinned spec editions (local).**
-   A `ParityPlanRef = <ParityPlanId, planEdition>` **SHALL** resolve one immutable plan edition. That ParityPlan **SHALL** choose exactly one subject branch: one `EntityOfConcernRef`, or `targetRefs[]` under their existing kinds and editions. It **SHALL** name `GroundingHolonRef` when empirical grounding is used. It **SHALL** also name `ReferencePlane`, `ClaimScope`, `EvaluationWindow`, baseline set and binding, and evidence refs, and **SHALL** declare a single `FreshnessWindows` shared across baselines. `BaselineSet` supplies the target refs only when the plan explicitly identifies the same refs in both places; otherwise `BaselineBindingRef` relates the separate baseline to the named subject. If `Budgeting` is used and pinned, it **SHALL** be shared across baselines as well. `ParityPinSet` **SHALL** include the editions required by the referenced specification, comparator, and any measurement or normalization method in use (at minimum `CNSpecRef.edition`, `CGSpecRef.edition`, `ComparatorSpecRef.edition`).
+1. **CC‑G9.1 — Exact comparison boundary, common freshness rules, applicable budget and pinned spec editions (local).**
+   A `ParityPlanRef = <ParityPlanId, planEdition>` **SHALL** resolve one immutable plan edition. That ParityPlan **SHALL** choose exactly one subject branch: one `EntityOfConcernRef`, or `targetRefs[]` under their existing kinds and editions. It **SHALL** name `GroundingHolonRef` when empirical grounding is used. It **SHALL** also name `ReferencePlane`, `ClaimScope`, `EvaluationWindow`, baseline set and binding, and evidence refs, and **SHALL** declare a single `FreshnessWindows` shared across baselines. `BaselineSet` supplies the target refs only when the plan explicitly identifies the same refs in both places; otherwise `BaselineBindingRef` relates the separate baseline to the named subject. When the commission specifies a common resource allowance, the plan **SHALL** pin it in `Budgeting` and apply it across the baselines. The plan **SHALL** preserve resources or support constitutive of each alternative when the arrangements themselves are compared. `ParityPinSet` **SHALL** include the editions required by the referenced specification, comparator, and any measurement or normalization method in use (at minimum `CNSpecRef.edition`, `CGSpecRef.edition`, `ComparatorSpecRef.edition`).
+
+   When designing a plan, establish how the chosen tasks, baseline and comparison rule bear on the conclusion the recipient needs. Where a prescribed plan answers a narrower question, identify which conclusion can already be delivered and the grounds still needed for the intended use.
    If the parity run depends on planned slot fillings, its exact `ParityPlan` WorkPlan **SHALL** carry the relevant declaration-local A.15.3 rows in `PlannedFillingRows[]` (nil-elision when not applicable). Each row resolves only inside that WorkPlan and has no independent reference, kind, or edition.
 
 2. **CC‑G9.2 — Mode‑specific definition pins are declared via Extensions (local; conditional).**

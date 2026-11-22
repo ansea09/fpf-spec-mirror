@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:5 — Archetypal grounding"
-line_start: 117759
-line_end: 117829
+line_start: 117839
+line_end: 117911
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,6 +74,8 @@ Here the primary subject broadens from the selected section to the whole overlay
 - what the note is about now;
 - what concern and move it carries over that subject;
 - and what wider architecture strategy remains outside the current unit.
+
+If the commissioned question is the packaging strategy itself, inspect what the section establishes for it. For example, a distribution option that requires every section to stand alone can be ruled out by one section whose essential definition is available only in another. That finding can settle a request to assess this option. To design a workable distribution, establish which definitions readers need together and how each reader will obtain them when needed. The list of required terms from this one section can contribute to that design.
 
 #### E.17.AUD.OOTD:5.4 - Unit stabilizes and bounded comparison becomes primary
 

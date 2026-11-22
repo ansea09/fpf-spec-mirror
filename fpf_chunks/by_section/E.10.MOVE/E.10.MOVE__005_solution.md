@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:4 — Solution"
-line_start: 107855
-line_end: 108004
+line_start: 107919
+line_end: 108068
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -72,7 +72,7 @@ Restore the governed target before choosing replacement wording:
    For a Plain long mantra, recover the intended connected reasoning and the particular question now at issue. State the answer or blocker, the subject pattern that supplies it, and the other answers whose use depends on its conditions. A whole-account question may require comparing those answers rather than finding one final result or one missing map location. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
-6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.
+6. Distinguish the governed claims carried by one phrase and retain the connection the reader needs. For readiness to work together, identify the performances to be combined and the conditions they must satisfy together. Two crews can each be ready for a lift while their simultaneous lifts require the same crane. For a question confined to permission, a single authorization covering both crews can suffice.
 7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
 
 #### E.10.MOVE:4.1 - MoveAndReadinessWordingRepairNote

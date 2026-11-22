@@ -6,12 +6,12 @@ section_id: "A.6.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:intro — Intro"
-line_start: 25041
-line_end: 25076
+line_start: 25058
+line_end: 25093
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -43,7 +43,7 @@ keywords:
 > **Status:** Stable.
 > **Normativity:** Normative [A] (Core).
 
-**Use this when.** Several distinct mechanism declarations must be used together under shared conditions. Select their contracts and cite the required specifications. State a permitted operation order when joint use needs a protocol.
+**Use this when.** You need several distinct mechanism declarations to serve one or more uses under shared conditions. Work back from what the users must obtain to the contracts that supply it. Cite their governing specifications and state an order where one operation depends on another being performed first.
 
 **First useful result.** The distinct member declarations, their joint conditions and required specification references are recoverable. Each declared protocol step also resolves to one member declaration edition and one operation in that declaration. Two implementations of the same declaration do not become two members.
 

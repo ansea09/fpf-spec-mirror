@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__013_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:12 — Relations"
-line_start: 101571
-line_end: 101583
+line_start: 101622
+line_end: 101634
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -67,6 +67,6 @@ keywords:
 - **Coordinates with:** `E.21`, `E.19`, `E.22`, and `E.23` for individual pattern quality, admission review, evaluation framing, and repeated improvement.
 - **Uses:** `F.19` for precise plain-language checks and ordinary wording repair; `E.10` for cues and unresolved meaning routes.
 - **Coordinates with:** `E.24.PUB` for publication occurrence, form, and presentation carrier; `E.11.PFP` for the common framework publication form; `E.4.PFIP` only for a separate accepted-source integration or predecessor-continuity conclusion; and `E.11`, `E.17`, `F.18`, `C.33`, `C.34`, and `C.35` for first entry, publication or access use, naming, preservation, correspondence, and generated- or discovered-result admission to an intended architecture use.
-- **Coordinates with:** `B.1.5`, `A.22`, `A.22.CGUS`, and `C.30.AD` for the sequence-versus-simultaneity architecture probe; use a completed `C.32.MWA` result when several practice structures need reconciliation and an `E.23.CDI` result only when capability development changes a named coordinate.
+- **Coordinates with:** `B.1.5`, `A.22`, `A.22.CGUS`, and `C.30.AD` for the relations that support the practice. Use a completed `C.32.MWA` result where practice structures need reconciliation and `E.23.CDI` where capability development affects a named coordinate.
 - **Coordinates with:** `E.2.DA` only when a DPF package change claims FPF-level Pillar adequacy or proposes Core amendment effects.
 

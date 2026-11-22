@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__012_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:10 — Rationale"
-line_start: 11428
-line_end: 11433
+line_start: 11435
+line_end: 11440
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.1.FT:10 - Rationale
 
-Transfer is not a property carried by a Method name. It is a claim about preserved reliance across a stated change in conditions, supported by actual Work and bounded evidence. A discriminating unlike situation is valuable because it can defeat the claim; it need not resemble a statistically representative sample.
+A transfer claim carries a specified conclusion into changed conditions. Its strength depends on the argument connecting those conditions to that conclusion. An observation can disclose a material limit. A principle with established premises can also settle the case. Evidence of actual receiving Work becomes necessary when that performance is itself at issue or supplies a premise still missing.
 
 Separating semantic continuity from local Work and support changes protects Method identity. It also lets a failure improve the applicability account without forcing rejection of the Method in situations for which evidence remains valid.
 

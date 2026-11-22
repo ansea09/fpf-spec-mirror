@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
-line_start: 129853
-line_end: 130490
+line_start: 129968
+line_end: 130605
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,7 +58,7 @@ keywords:
 > **Type:** Pattern
 > **Status:** Stable
 
-**"Translate across contexts; never collapse them."**
+**What relation between these two local meanings would answer the question? What can the recipient infer from it?**
 
 **Type:** Architectural pattern.
 **Normativity:** Normative.
@@ -72,11 +72,11 @@ keywords:
 
 **Intent.** Govern one actual semantic `Bridge` relation between two exact F.17 `SchemeSenseCell` values from different semantic contexts. Keep that occurrence separate from every assertion, Bridge description episteme, Bridge Card, registry record, publication occurrence, publication form, presentation carrier, bounded-use claim, evidence or assurance relation, and object created when a proposed use is performed.
 
-**Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a cross-context row. A shared word or available mapping is only a reason to ask whether a Bridge obtains.
+**Applicability.** Start with the claim the recipient needs. Comparing two standards can call for a relation between their terms, an account of how their rules apply together, or a decision about one job. Use F.9 for a correspondence or difference between local senses. F.0.2:4.1 helps construct the cross-source account if that is what the recipient needs.
 
 **Primary EntityOfConcern in plain terms.** One actual correspondence or difference between two exact local senses. This pattern concerns the direct `Bridge` occurrence, not a card, context, transport chain, work process, local system-role kind, assignment occurrence, evidence item, or global meaning layer.
 
-**Admissible move in plain terms.** First resolve the two local senses. Then state and test the correspondence or difference between them. If the Bridge obtains, state the proposed use separately: what the reader will do, direction, correspondence rule, and tolerated loss. A current C.2.1 claim answers whether the Bridge suits that bounded use.
+**First move.** What difference between the source and receiving interpretations could change the requested answer or its grounds? Use that to choose the senses and the correspondence to test. Establish the relation under its own predicate. If the question concerns a proposed use of that relation, judge the use separately, with its direction, correspondence rule and tolerated loss.
 
 For that bounded-use claim, check ordinary reliance under A.10; use B.3 only when an actual named assurance claim is current. If the use happened, recover its Work, assertion, publication, relation, operation application, or other object under its subject pattern. Add a Bridge Card only when a reusable package is worth maintaining.
 
@@ -122,7 +122,7 @@ A shared label across contexts can look like identity or permission before any s
 
 ### F.9:4 - Solution
 
-Start with the two exact local senses, not with a context object, mapping table, or card. Resolve each endpoint as an F.17 `SchemeSenseCell` coordinate:
+Identify the conclusion for which the meanings matter. For a question about their semantic relation, choose the two senses whose correspondence would settle it. For a question about the practice they describe, follow each contribution to the result the recipient needs. One may supply information to the other, or independently produced findings may both have to apply to the same case. Which distinction would change what the recipient can conclude? A semantic relation can supply a premise. Establish the connection in the practice when the conclusion depends on it. If the inquiry needs a Bridge, resolve its two local senses as exact F.17 `SchemeSenseCell` coordinates:
 
 ```text
 <ReferenceScheme by value, LocalExpression, LocalSenseClaim>
@@ -180,7 +180,7 @@ A later applicability or as-of basis changes the profile and therefore opens ano
 
 #### F.9:4.2 - Judge a bounded use separately
 
-Once Bridge `b` obtains, state the proposed use in ordinary language before introducing FPF terms. Name:
+When the question is whether an established Bridge `b` suits a particular use, work back from the recipient’s intended inference or action. Which differences in the source can the receiving rule merge while still giving a warranted answer? Try source cases that the receiving expression treats alike. If they call for different answers or different grounds that the recipient needs, preserve the distinction, restrict the proposed use to cases where it is immaterial, or reject that use. State the proposed use in ordinary language. Give the following particulars in the bounded-use claim.
 
 - `u`: what the reader proposes to compare, substitute, translate, publish, or otherwise do;
 - `d`: the exact source-to-receiving direction for that use;
@@ -299,7 +299,7 @@ The exact `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>` triple iden
 
 Open F.9 when a receiving use needs an actual semantic relation between exact local senses. A lossy or approximate export is not thereby a Bridge, and an actual Bridge is not thereby a quantum-like state transition.
 
-Use this order:
+For a question that includes both a Bridge and its use, the use determines which correspondence to investigate. Establish the independent grounds in this order.
 
 1. resolve the exact F.17 cells, state the relation-semantic profile, and test whether the Bridge obtains;
 2. state the proposed use separately as `<u,d,r,t>` and give the C.2.1 claim its polarity;
@@ -493,7 +493,7 @@ and Bridge(B,C;P2) obtains
 => no Bridge(A,C;P3) follows.
 ```
 
-A composite proposed use must cite each obtaining Bridge, state one exact composite rule and accumulated tolerance in its own claim, and recover current reliance for that claim. If a direct A-to-C correspondence is needed, test it independently.
+For a proposed use through both correspondences, follow the result of the first into the rule for the second. Judge the end result against the receiving tolerance over the admissible cases. Local losses may reinforce or offset one another. Where that distinction matters, preserve their dependence or use a justified bound for the combined loss. Cite each Bridge used and establish current reliance on this composite claim. If a direct A-to-C correspondence is needed, test it independently.
 
 #### F.9:14.8 - Candidate-card guard
 
@@ -567,15 +567,15 @@ The card concerns the admitted direct Bridge relation kind and places proposed e
 
 ### F.9:18 - Didactic distillation
 
-Use this five-part script:
+Choose the inquiry from the recipient’s question, then use the steps that it requires.
 
-1. Find the two exact local senses.
+1. What conclusion depends on a correspondence between meanings? Select the two exact senses that bear on it.
 2. State the proposed correspondence or difference and test it. Report whether the Bridge obtains, is ruled out or remains unresolved.
-3. State the proposed use separately: action, direction, rule, tolerated loss, and polarity.
+3. If the recipient proposes using the Bridge, state the action, direction, rule and tolerated loss that still allow their conclusion. Give the judgement its supported polarity.
 4. Check whether current evidence or assurance supports relying on that claim; recover authorization separately if needed.
 5. If the use happened, identify the actual object and apply the relevant pattern to the claim about it. Make a card only when reuse is worth the maintenance.
 
-The short memory aid is: **relation first, use second, reliance third, receiving occurrence last; packaging is optional.**
+A question about two meanings can finish with their relation. For a proposed use, follow what the correspondence preserves to the recipient’s conclusion. An account of what actually happened requires evidence about that occurrence.
 
 ### F.9:19 - Archetypal Grounding
 
@@ -688,7 +688,7 @@ A reader can test bridge integrity with eight questions:
 7. If someone says the use happened, is the actual Work, assertion, publication, relation, operation application, or other object recovered under its own pattern?
 8. Does any card remain optional packaging rather than the source of relation truth, permission, or occurrence?
 
-Repair *same*, *equivalent*, *align*, and *map* prose in that order: recover the exact senses; test the Bridge; state the bounded-use claim; check reliance; recover authorization or the actual receiving object only when those questions are live. Do not start from a card or a score.
+For wording such as *same*, *equivalent*, *align* or *map*, begin with what the speaker says matches and for what purpose. When the claim concerns meanings, recover the senses and test the proposed Bridge. When it concerns compatible designs, a performed action or another subject relation, establish that relation under its own conditions. Check a bounded use, its reliance and any required authorization when the recipient depends on them.
 
 ### F.9:End
 

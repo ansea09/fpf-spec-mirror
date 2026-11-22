@@ -6,12 +6,12 @@ section_id: "G.9:11"
 section_title: "Working reading checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__013_working-reading-checks.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:11 — Working reading checks"
-line_start: 140881
-line_end: 140886
+line_start: 141026
+line_end: 141031
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -50,6 +50,6 @@ keywords:
 ### G.9:11 — Working reading checks
 
 - If two baselines are being compared under different freshness windows, comparator editions, or silent normalization rules, this pattern has not yet been satisfied.
-- If parity cannot tell the reader what was held constant, what remained telemetry, and what crossings or penalties were active, the report is not yet usable.
+- Can a recipient tell what the report establishes about the compared subjects, which conditions were held constant, and on what grounds a conclusion would apply to the use in question?
 - If a scalar winner is being claimed where only a selected set or partial order is CSLC-admissible, parity is overclaiming and should publish the CSLC-admissible outcome shape instead.
 

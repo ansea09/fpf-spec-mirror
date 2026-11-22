@@ -6,12 +6,12 @@ section_id: "E.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__004_problem.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:2 — Problem"
-line_start: 112376
-line_end: 112385
+line_start: 112442
+line_end: 112451
 dependencies:
   - "A.10"
   - "A.21"
@@ -46,5 +46,5 @@ Typical failures include:
 2. **Evaluation loops become reward functions.** A checking reader asks for improvement; the author adds fields, guards, source rows, proof sketches, and relation catalogues until the visible evaluation looks better.
 3. **Unmeasured value is damaged.** Usability, safety margin, maintainability, learning, domain fit, affordability, or operator action quality gets worse while the proxy improves.
 4. **The proxy's use is unspecified.** The same metric is treated as orientation cue, target, incentive, gate, and release proof without saying which use applies.
-5. **No value slice exists.** The text claims practical payoff, but gives no minimally viable case that shows the value being realized.
+5. **The payoff has no grounds in the work.** The account neither connects the proposal to the intended value under its stated conditions nor supports a claim that the value was realized.
 

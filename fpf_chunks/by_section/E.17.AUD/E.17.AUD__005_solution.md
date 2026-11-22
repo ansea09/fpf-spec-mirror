@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:4 — Solution"
-line_start: 116966
-line_end: 117080
+line_start: 117044
+line_end: 117158
 dependencies:
   - "A.16.0"
   - "A.7"
@@ -33,14 +33,14 @@ keywords:
 
 ### E.17.AUD:4 - Solution
 
-> Name what the unit is mainly about, the publication move it carries, the claim that remains outside, and one repair choice. Apply another pattern only when that choice requires it.
+> Recover the question the unit was meant to answer. Read what it actually asks the reader to understand or do. If the two questions differ, decide what the passage contributes to the original one (C.39.QR:4.1). Name its subject, the move it carries and any boundary that changes the reader’s use. A request confined to identifying what a passage says can end with that reading.
 
 A joint decision may require two subjects and the relation between them. Keep that connection readable. A note assessing agreement between the catalog and checkout must let the reader compare the responses the catalog can return with those checkout can handle. The connected claims can share one short passage or occupy marked sections that the reader can use together. For a scope notice, simply identifying the subjects and the question can suffice.
 
 #### E.17.AUD:4.0 - Plain working terms
 
 - `publication unit under review` = one note, memo, sheet, table, screen, or short section that readers inspect as one unit;
-- `primary subject` = what the unit is mainly about. `publicationUnitPrimaryEntityOfConcern` names the primary `EntityOfConcern` of the claim-bearing episteme or episteme-side view carried by the unit. When no such EntityOfConcern applies, use the non-claim-bearing kind named by value or an ordinary topic or subject without inventing an `EntityOfConcernRef`. An ordinary topic or subject value is not a claim about a C.2.1 entity participant;
+- `primary subject` = what the unit is mainly about. Use `publicationUnitPrimaryEntityOfConcern` only when the unit’s primary subject is also the exact `EntityOfConcern` of the claim-bearing episteme or episteme-side view it carries. A unit can use claims about several entities to explain a relation between them. For other subjects, use the non-claim-bearing kind named by value or an ordinary topic or subject without inventing an `EntityOfConcernRef`. An ordinary topic or subject value is not a claim about a C.2.1 entity participant;
 - `carried publication move` = the claim, interpretation, comparison, or explanation move the unit makes about that primary subject;
 - `outside boundary` = a decision, gate, `U.Work`, work planning, reliance claim, or continuing engineering work that remains outside the unit;
 - `local lexical head` = one word or phrase such as `review`, `interpretation`, `note`, or `text` whose meaning is unstable inside an otherwise stable unit;
@@ -106,7 +106,7 @@ When a wider repair needs these distinctions, use the seven questions to recover
 
 | Row | Ordinary prompt |
 | --- | --- |
-| 1 | Which publication unit is under review? |
+| 1 | Which publication unit is under review, and what question did its reader need it to answer? |
 | 2 | What is the unit mainly about? Which subjects must the reader consider together if their relation matters? |
 | 3 | What does the unit assert or ask the reader to do? If it carries linked moves, how do they contribute to the reader’s question? |
 | 4 | What downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside this unit, and is that boundary mainly a neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation? |

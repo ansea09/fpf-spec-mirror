@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.QC.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
-line_start: 94894
-line_end: 95089
+line_start: 94941
+line_end: 95136
 dependencies:
   - "A.10"
   - "C.41"
@@ -139,7 +139,7 @@ If grouping changes either identity verdict, investigate or restrict that arrang
 
 For stored data, an adequate comparison of its values remains the cheaper starting choice.
 
-A known malformed-input case with an unobserved post-state remains unresolved. Tool failure is not an importer failure or success. Local parser correctness does not settle the encompassing response and catalogue state; C.41.SR connects those contributions.
+A reliable record or applicable rollback guarantee can settle the post-state even when it was unobserved. Where neither the observation nor another adequate ground settles this run, report the state as unresolved. Tool failure is not an importer failure or success. Local parser correctness does not settle the encompassing response and catalogue state; C.41.SR connects those contributions.
 
 For the workshop display, “readable” may be judged from a desktop preview while participants will read the projected content from the back of a room. Qualification varies the viewing condition relevant to the exercise and asks a representative participant to interpret the content. A font-size threshold can be a useful local proxy only if its basis supports that use. Reconsider that proxy if glare or contrast makes text unreadable despite the chosen size.
 
@@ -156,7 +156,7 @@ A benchmark's accessible cases can underrepresent the domain or participants who
 Inspect the qualification's claim and probes:
 
 - Are criterion, checking means, subject and receiving inference separately recoverable?
-- Do the challenge cases vary a consequential property with adequate grounds for the expected distinction?
+- What grounded comparison, subject rule or counterexample warrants reliance over the intended cases?
 - Have false passes, false failures and unresolved observation been interpreted at their costs?
 - Does any independent contribution supply a different basis rather than repeated agreement?
 - Is the resulting reliance bounded, with material change and counterexample triggers for reconsideration?

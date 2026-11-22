@@ -6,12 +6,12 @@ section_id: "A.2.3:8"
 section_title: "Promise-content use, delivery, evaluation, and evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_promise-content-use-delivery-evaluation-and-evidence.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:8 — Promise-content use, delivery, evaluation, and evidence"
-line_start: 6199
-line_end: 6267
+line_start: 6191
+line_end: 6259
 dependencies:
   - "A.2.2"
   - "A.2.8"
@@ -60,7 +60,7 @@ The relation obtains only when one `PromiseContentUse` occurrence has the delive
 
 Its occurrence key is `<DeliveryWorkOccurrenceSlot, PromisedOutcomeSpecificationSlot>`. The readable predicate is `deliversPromisedOutcome(W, OS)`. An episteme may assert that this relation obtains and evidence may support the assertion; neither makes the underlying facts satisfy the specification.
 
-**Acceptance evaluation result.** Follow the §4.3 performer-and-Work route before saying that the evaluation Work enacts the Method selected in `acceptanceSpec`. Add F.6 only if this result must also state under which assignment the evaluation was performed. A MethodDescription is cited only when its edition-specific claims are used. Keep the operation application, result binding, optional verdict episteme, any identity-inception claim and independently established evidence-use relations separate.
+**Acceptance evaluation result.** Apply the criterion to the specified delivery, eligible population or reporting interval (§§4.3, 8.2). Where actual evaluation Work is at issue, follow the §4.3 performer-and-Work route before attributing the selected Method. Add F.6 for an exact assignment-bound claim. Cite a MethodDescription when its edition-specific claims are used. Keep the operation application, result binding, optional verdict episteme, any identity-inception claim and supporting evidence relations separate.
 
 A.10's descriptive evidence-provenance account cites the relevant facts and records reliance for the bounded assertion use; a passing disposition requires the evidence demanded by that claim and its direct acceptance rule. The account and verdict do not make fulfilment obtain.
 
@@ -76,7 +76,7 @@ The semantic predicate for this relation is satisfied only when `PromiseContentU
 
 A later evaluation may change the supported assertion about whether the relation obtains; it does not change relation identity. When satisfaction of any required predicate is unresolved, no positive fulfilment assertion is available for reliance.
 
-Expose a relation-occurrence reference only when a downstream relation or claim needs that identity, such as a unit-of-delivery selector or a fulfilment measure. Otherwise use the readable predicate.
+Expose a relation-occurrence reference only when a downstream relation or claim needs that identity, such as a unit-of-delivery selector or a fulfilment measure. Otherwise use the readable predicate. A period or population verdict may rely on these individual relations where the criterion counts them. It may instead be settled by a warranted tally, bound or service-state record. A positive readiness verdict during a shift without callers produces no individual `fulfilsPromiseContent(W, SC)` for a call.
 
 > **Invariant:** `fulfilsPromiseContent(W, SC)` implies that `PromiseContentUse(W, SC, T)` obtains for some declared interval `T`, that `deliversPromisedOutcome(W, resolve(SC.promisedOutcomeSpecRef))` obtains, and that the acceptance criteria declared in `SC.acceptanceSpec` are satisfied. An exact evaluation-result episteme may support the corresponding assertion through independently established evidence-use relations cited in A.10's descriptive account; neither that episteme nor the account becomes a fulfilment-relation participant.
 >
@@ -84,17 +84,17 @@ Expose a relation-occurrence reference only when a downstream relation or claim 
 
 #### A.2.3:8.2 - Promise-content delivery measures
 
-Let `W(SC, T)` be the set of delivery-work occurrences for which `PromiseContentUse` obtains with `SC` during interval `T`. Let `W✓(SC, T)` be the subset for which `PromiseContentFulfilmentRelation` obtains with `SC`.
+Read the promise before choosing what to count. Does it cover each performed job, each eligible request or recipient, or provision throughout a period? Apply the eligibility rule and the promised time boundary to that unit. For a measure of performed jobs, let `W(SC, T)` be the delivery-work occurrences for which `PromiseContentUse` obtains with `SC` during interval `T`, and `W✓(SC, T)` its subset for which `PromiseContentFulfilmentRelation` obtains. For a measure of requests, identify the eligible requests, match each to any qualifying delivery by its deadline, and retain eligible requests without qualifying Work in the population. One request can generate several jobs. A readiness promise can apply even during an interval without requests.
 
-Until the membership judgements required by the selected counting rule and reporting window are resolved, withhold an exact delivered count and rejection rate. An unresolved fulfilment judgement is not a rejection.
+For example, suppose the complete request register shows ten eligible requests due this week. The job register covers the same period and shows nine jobs, each for a different request. Eight met their deadlines, one was late and the tenth request received no work by its deadline. Eight of ten met the request promise. Eight of the nine performed jobs were timely. Choose the population that answers the consumer’s question. With incomplete records, use the possible totals consistent with the evidence. A bound that settles the agreed threshold can support that decision while the exact rate remains open.
 
 * **Delivered units:** `delivered(SC, T)` is computed from `W✓(SC, T)` using the A.2.3:4.1.2 counting rule. When `unitOfDelivery` is absent, `delivered(SC, T) = |W✓(SC, T)|`, one unit per obtaining fulfilment occurrence.
-* **Rejection rate:** for nonempty `W(SC,T)`, `rejectRate(SC, T) = 1 − |W✓(SC,T)| / |W(SC,T)|` (declare handling of `partial`). When `W(SC,T)` is empty, declare a reporting rule before returning a value; this formula has a zero denominator.
+* **Nonfulfilment among performed jobs:** for nonempty `W(SC,T)`, `rejectRate(SC, T) = 1 − |W✓(SC,T)| / |W(SC,T)|` for a binary criterion when both counts are known. If `partial` is possible, state how it counts. A missing judgment about a job leaves its individual outcome open. A complete tally may still establish the aggregate. When `W(SC,T)` is empty, declare a reporting rule before returning a value; this formula has a zero denominator.
 * **Lead time:** declare the characteristic definition and aggregation separately. The definition may use work duration or request-to-completion delta; the aggregation may use an average or named percentile.
 * **Availability and uptime claims:** select one declared characteristic instead of treating the labels as synonyms. Derive its observed characteristic value from selected work facts and telemetry observations through its C.16 measurement template, `Gamma_time` policy, and evidence relations. Identify any measurement Method that changes the interpretation; cite a `U.MethodDescription` only when this claim uses that edition's claims.
-* **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
+* **Cost to serve:** sum `Γ_work` per resource category over the work the cost question includes (A.15.1). Use `W✓` for cost of fulfilled jobs alone. A total operating cost can also include failed attempts and standby work.
 
-Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations. Make the measurement Method explicit when it affects interpretation; cite a `U.MethodDescription` only when the result claim depends on that edition's claims. Resource and time actuals belong to the performed `U.Work` occurrences.
+Support each measurement-result claim with the records that cover its unit and period, its C.16 measurement template and the relevant A.10 evidence relations. Work records give resource and time actuals for the Work performed. Request records or grounds for service availability may supply facts that those work records cannot establish. Make the measurement Method explicit where it affects interpretation and cite a `U.MethodDescription` when the result depends on that edition’s claims.
 
 Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy.
 

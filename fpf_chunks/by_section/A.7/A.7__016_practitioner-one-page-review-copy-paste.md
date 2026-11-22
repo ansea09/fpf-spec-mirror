@@ -6,12 +6,12 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 26797
-line_end: 26823
+line_start: 26817
+line_end: 26843
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "B.1.2"
   - "B.1.4"
   - "B.1.5"
+  - "B.1.5.EW"
   - "B.1.6"
   - "E.10"
   - "E.17"
@@ -61,7 +62,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 1. **Acting subject:** Is the acting System recoverable? If assignment identity is not used, do not invent it.
 2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that use them?
 3. **Description boundary:** Is each Description episteme independently identified by claim content, EntityOfConcern, and effective scheme, with any authoring, measurement, source-use, representation, or refinement relation stated separately?
-4. **Method and Work:** Use B.1.5 to judge Method composition; use A.15.1 and B.1.6 for the Work occurrence and its resource actuals, and B.1.4 when already established temporal relations need aggregation.
+4. **Method and Work:** Use B.1.5 to identify the constituent ways of doing. For a performed job use B.1.5.EW and A.15.1 to identify the performances that constituted it. B.1.4 combines their temporal relations where required and B.1.6 accounts for resource use.
 5. **Episteme and carrier:** Does the episteme remain non-acting and distinct from its publication form and carrier?
 6. **Grouping:** If a group acts, is it recoverable as a collective System rather than merely a set?
 

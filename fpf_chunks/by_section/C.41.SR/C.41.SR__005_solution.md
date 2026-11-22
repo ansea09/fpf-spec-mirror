@@ -6,12 +6,12 @@ section_id: "C.41.SR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:4 — Solution"
-line_start: 94744
-line_end: 94793
+line_start: 94791
+line_end: 94840
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -46,7 +46,7 @@ Start with the decision about the whole and its acceptance conditions. Which con
 
 Name the relevant relation instead of inferring it from a checklist's nesting. A supplier can enable work; a schedule allowance can affect its feasibility; a model can describe the subject; one observation can support several conclusions. Identify the facts it supplies to each. Two records derived from the same observation count as one source when independent confirmation matters. For a physical part–whole claim, identify the part and the whole in the work itself. Recover what a changed local condition changes for each consuming claim.
 
-A local Method can contribute to an encompassing Method during the same performance. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) explains the composition distinction; its consequence here is to examine the whole's conditions when interpreting constituent work. Service availability enables the work; establish separately how the performed contribution enters the encompassing Method.
+The construction of an encompassing Method determines which local Methods it admits. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) explains the composition distinction; its consequence here is to examine the whole's conditions when interpreting constituent work. To explain an actual shared job, establish which performance was part of that Work and which Method it enacted. An outside service or an earlier conclusion can support the job through its result.
 
 Separate three kinds of gap. A missing performer or resource returns to enabling and coordination work. An unknown subject condition returns to an observation or judgement. A conflict between claims first calls for comparing their subjects, meanings, times and grounds; if those match, investigate the substantive disagreement. Do not resolve a conflict by averaging labels or accepting the newest entry.
 

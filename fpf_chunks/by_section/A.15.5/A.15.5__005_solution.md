@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 32097
-line_end: 32176
+line_start: 32125
+line_end: 32208
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,11 @@ The result episteme states the readiness judgement. If a current claim says that
 
 #### A.15.5:4.2 - Readiness criterion and full-kit inputs
 
-Use one readiness criterion when the entry question depends on what must be known, prepared, reserved, gathered, communicated, assigned, or pinned before work starts. The criterion states:
+Start from the decision about entry. If the question is whether the item passes a specified criterion, apply it and state the scope of that verdict. To design a criterion for the promised work, work back from the results due, their recipients and deadlines. Follow the contributions each result needs, when each input must be available and who can secure it. Include a handoff when the next contribution depends on what it receives. Check shared capacities and reservations across the combinations of demand the agreement permits, including successive claims on a stock before it can be replenished. A resource needed later can be secured by a dependable arrangement for obtaining it in time. Separate a choice the team can make at entry from one another party may make later. If a promise covers either choice, establish that the team can honour it with the information and authority it will then have.
+
+For example, a workshop is to issue one replacement cartridge to each of two crews on the same day. It has one cartridge and can obtain another only the following morning. Each issue considered alone fits the stock. The first issue exhausts it before the second crew can be served. Under an agreement for just one issue to whichever crew claims it first, that same stock covers the quantity due. These terms determine which stock condition belongs in the criterion.
+
+State:
 
 - the exact WorkPlan and its present EntityOfConcern, PlanItem, intended-performance designator, any exact intended-work target and intended outcome or value claim current in the plan, any current intended-work kind or work-family classification, target `U.Method`, evaluation time, and applicability window it judges;
 - each required positive or negative predicate, the allowed named gaps if any, and the rule for `ready`, `readyWithKnownGaps`, `notReady`, and `unknown`;

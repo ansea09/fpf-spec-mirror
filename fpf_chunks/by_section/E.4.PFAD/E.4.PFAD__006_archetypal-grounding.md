@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 100025
-line_end: 100153
+line_start: 100076
+line_end: 100204
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -60,7 +60,7 @@ keywords:
 
 A systems-management group considers a public DPF for recurring problems in service launch, cross-team coordination, incident response, and feedback-based improvement. A broad FPF route covers several shared distinctions, and an admitted neighboring DPF covers one specialist branch, but neither gives this practitioner group a coherent first use across the four problem families.
 
-The field-boundary assessment compares a new DPF with direct FPF-and-source use, a guide, contribution to the neighboring DPF, two existing DPF edition series, and no new maintained product now. It favors one DPF because a representative service-launch case needs patterns from several problem-family sets together, and the proposed DPF has an independent edition, change, and refresh boundary, including its later-review rule.
+The field-boundary assessment compares a new DPF with direct FPF-and-source use, a guide, a contribution to the neighboring DPF, two existing DPF edition series, and no new maintained product now. In the proposed field, the way a service accepts an obligation constrains how it can later transfer work and restore service. Practitioners repeatedly have to design these relations together. The assessed alternatives leave that design to each practitioner. The proposed DPF explains the relations for the declared field and has an independent edition, change and refresh boundary. The service-launch case illustrates the need. If the claim of recurring use is still open, the architecture decision can remain provisional.
 
 
 The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable. The selected problem families and relations supply the DPF structure.
@@ -109,7 +109,7 @@ The field account identifies the field's continuing concern with realizable buil
 
 The Suite describes that field assembly and develops any missing whole-level Method for reconciling those contributions. Its edition includes the constituent DPF descriptions with their usable cases and limits. Finance is an external supplier when a project needs investment analysis. Its entire discipline is not made part of the Suite by that use.
 
-The Suite's Architectural Reference explains that composition, the alternatives and the conditions that make the arrangement useful. A problem-led entry can direct a practitioner to the relevant engineering Methods and the external finance result. The account returns to their full explanations. Any new integration Method receives its own E.8 pattern.
+The Suite's Architectural Reference explains that composition, the alternatives and the conditions that make the arrangement useful. A problem-led entry can direct a practitioner to the relevant engineering Methods and the external finance result. The account returns to their full explanations. Develop the integration operation in the Method whose result requires it. Give it a separate E.8 pattern when practitioners can recognize and use it as a Method in its own right.
 
 If the author has only a list of three publications and no supported whole construction, the useful first release is a reading route or a bounded DPF proposal. It is not yet a Suite. If the field is supported but one branch is not yet described, the Suite states its partial coverage rather than presenting the missing branch as available.
 

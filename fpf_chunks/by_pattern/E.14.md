@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.14.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
-line_start: 112546
-line_end: 113003
+line_start: 112612
+line_end: 113069
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -33,7 +33,7 @@ Use this pattern when FPF text needs to stay readable as one human working model
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
-**Ordinary route.** Write the shortest practitioner sentence that says what the claim is about, what it claims, and what use it supports. If no assurance-bearing reliance question is current, let the reader stop there.
+**Ordinary route.** Name the claim, its subject and what the recipient came to learn, decide or do. A short statement can close a request to identify the claim. An explanation may also need the relation that makes it follow. Someone designing a way to choose needs grounds they can use when the choices change. Supply what the commissioned work requires and add the assurance route when warranted.
 
 When an assurance-bearing reliance question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that sentence and cite the pattern that defines or tests each supporting claim.
 
@@ -101,7 +101,7 @@ Publish one human-facing Working-Model with its assurance available underneath.
 #### E.14:4.1 - Human-Centric principles
 
 ##### E.14:4.1.1 - Recognition text and assurance text
-Keep the same EntityOfConcern in the recognition and assurance text. The working reader should not meet one object in the recognition text and a different ontological kind in the assurance text.
+Keep the target assertion, its EntityOfConcern and its scope recoverable in both recognition and assurance. A supporting premise may concern a part, another kind of subject or another model. Show which relation lets the reader use that premise for the original assertion and under which conditions it holds.
 
 If the pattern distinguishes an EntityOfConcern, the interpretive or operational move applied to that object, and the wider review or work process around it, the text should distinguish them explicitly instead of changing nouns as though the object, move and work were interchangeable.
 
@@ -133,7 +133,7 @@ Add F.6 when precise assignment-bound attribution is consumed, keeping the assig
 
 An ordinary result may omit identifiers it does not consume while keeping all facts needed for its use recoverable.
 > **E.14-P.1 – Working-Model first, assurance when current.**
-> Operate one **Working-Model** for all human-facing discussion and state the direct claim first. If neither the publication nor a named current requirement calls for assurance, the author may stop there.
+> State the direct claim in one **Working-Model** for human-facing discussion. The reader can stop when that claim and its ordinary explanation answer the commissioned question. Supply additional grounds when the reader needs them to understand, choose or act. Add the formal assurance called for by the publication or current requirement.
 >
 > When assurance is current, declare only the posture and forms of support required by the applicable pattern: **Mapping** to align a term with the chosen model value it names; **Logical** to state label meaning, scope, constraints, and limits; **Constructive** to make independently grounded construction facts inspectable; or **Empirical Validation** to support a bounded reliance on a domain result.
 >
@@ -262,7 +262,7 @@ Under B.3/B.3.3, Empirical Validation contributes what its result establishes fo
 
 #### E.14:5.6 - Purpose-selected support for a single Working-Model statement
 
-Start with the direct Working-Model arrow **A –Component-of→ B**. If no assurance-bearing reliance question is current, the author may stop there. If a profile or named current requirement is active, add only the support it calls for:
+Start with the direct Working-Model arrow **A –Component-of→ B**. It can settle which whole a specified part belongs to. To explain how an arrangement works, connect that membership to the relationships on which the result depends. When a profile or current requirement calls for assurance, add its prescribed support:
 
 1. **Mapping**, when source-word alignment matters, shows that *A* and *B* are the chosen labels for their model values and records background labels without making them Working-Model names.
 2. **Logical**, when the relation reading needs assurance, states what **Component-of** means here and the boundaries of that use.
@@ -365,7 +365,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 1. **Exact skid assembly -> “Component Of”**
    For PumpSkid 7, recover the pump, frame, reservoir, valve set, and other constituents; the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain; the applicable skid assembly rule; and the skid reidentification rule.
 
-   The team may publish each truthful **Component Of** claim and stop there. If the publication elects `B.3.5`, keep that readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`.
+   A commission to state these **Component Of** relations can end with the established memberships. A commission to explain the identity of the assembled skid also needs the relation and reidentification conditions below. If the publication elects `B.3.5`, keep the readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`.
 
    The same parts unconnected or assembled differently do not thereby form PumpSkid 7. A permitted pump replacement may preserve PumpSkid 7. The direct relations and reidentification rule decide; the trace and posture do not.
 

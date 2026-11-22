@@ -6,12 +6,12 @@ section_id: "F.9.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:4 — Solution"
-line_start: 130540
-line_end: 130598
+line_start: 130655
+line_end: 130713
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -38,14 +38,14 @@ keywords:
 
 #### F.9.1:4.1 - Recover the claim before writing the gloss
 
-Before adding a stance note, check four things:
+Start with the reader’s difficulty. What could they infer from the wording that would change their use of the claim? If the existing explanation already serves them, finish there. When a separate interpretive note would help, confirm the following.
 
 1. the two exact F.17 local senses are known;
 2. an F.9 Bridge between them obtains;
 3. one separate bounded-use claim identifies the proposed use, direction, rule, tolerated loss, and polarity; and
 4. the stance note has a named reader benefit that the claim does not already express plainly enough.
 
-If items 1 or 2 are missing, return to F.9. If item 3 is missing, write and test the bounded-use claim. If item 4 is missing, stop: no stance note is needed.
+If an endpoint or the Bridge is missing, use F.9 when the original question needs that correspondence. If the question needs a judgement about its use, establish the bounded-use claim before writing a gloss for it.
 
 #### F.9.1:4.2 - Write one bounded reading
 

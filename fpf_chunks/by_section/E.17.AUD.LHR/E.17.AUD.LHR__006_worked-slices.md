@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 117367
-line_end: 117486
+line_start: 117445
+line_end: 117564
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ Local repair first:
 - carried move = make one boundary visible;
 - outside work = responsibility assignment.
 
-The repaired unit can now either stay with the boundary review or explicitly become a responsibility-assignment publication. Without the repair, this note overclaims by leaving the change of job unmarked.
+If the request was to report the service boundary, the note can end with that boundary. If the same commission also calls for assigning responsibility, identify who can make the assignment and how the boundary bears on that choice. The authorized assignment has its own grounds. A proposal to change the job belongs with the person who commissioned it.
 
 #### E.17.AUD.LHR:5.2 - A published text is mistaken for the policy it describes
 
@@ -96,7 +96,7 @@ Local repair:
 - move = bounded comparison;
 - outside work = wider architecture strategy.
 
-The paragraph now states its bounded comparison without claiming to explain the package.
+The repaired paragraph can answer a request for that comparison. If the reader asked how the whole package works, retain the comparison as a contribution and supply the connection between the compared parts and the organization of the package (C.39.GA:4).
 
 #### E.17.AUD.LHR:5.4 - Local repair selects bounded comparison
 

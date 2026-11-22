@@ -6,12 +6,12 @@ section_id: "F.15:8"
 section_title: "Static conformance rules for local material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__010_static-conformance-rules-for-local-material.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:8 — Static conformance rules for local material"
-line_start: 132372
-line_end: 132391
+line_start: 132489
+line_end: 132508
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 ### F.15:8 - Static conformance rules for local material
 
 **SCR-F15-S1 (Finite exact scope).**
-Every selected member resolves to one exact governed value, occurrence, episteme, or by-value scheme at one exact version; the receiving use and triggered rule refs are explicit. Scope membership is selection, not evidence or conformance.
+Every selected member resolves to the exact governed value, occurrence, episteme or by-value scheme at the version being tested. The receiving use and triggered rules are explicit. When selection was entrusted to the checker, the selected members and connections cover the grounds needed for the conclusion. Scope membership alone supplies no evidence of conformance.
 
 **SCR-F15-S2 (Local-sense basis currentness).**
 Each relied-on local-sense claim names its effective ReferenceScheme and exact expression. If a `LocalSenseBasisRelation` is cited, resolve its exact occurrence under F.17 and any description as a separate episteme. A source title, carrier, NameCard, or row does not replace the relation.

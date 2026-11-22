@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.PAD.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
-line_start: 84026
-line_end: 84394
+line_start: 84064
+line_end: 84432
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -83,7 +83,7 @@ Typical entry phrases:
 "The ADR cannot be written yet because the decision relation is not clear."
 ```
 
-**First-minute use slice.** A product-family architect has a C.32 candidate palette with three module, placement, and evidence-structure variants. C.32.ACS names maintainability, substitutability, and evidence reuse as optimization indicators, and C.32.ACE has evaluated the candidates under one parity frame. Using C.32.PAD, the architect records the exact composite project work, selected configuration, affected selected structures, accepted loss in evidence reuse, method-use instruction for product teams, structures fixed by the decision, refinement left open, source-return condition, and reopen trigger. The result is not an ADR file yet; it is the architecture decision relation concerning that project work which an ADR or another publication form can describe.
+**First-minute use slice.** A product-family team has evaluated three arrangements for modules, placement and supporting evidence. Within the authority granted for this release, its architect adopts one configuration. The decision fixes certain interfaces, accepts a stated loss of evidence reuse and leaves product teams free to choose local implementations within those constraints. Record the governing act, scope, remaining choices and condition for reconsideration. If the architect was commissioned to recommend, return the preferred configuration and its grounds to the person authorized to commit the project. An ADR can describe either status.
 
 The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: an architecture decision relation over one bounded architecture question with one exact composite project `U.Work` as a participant. It links that work, the decision subject, candidate basis or binding condition, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
 
@@ -303,7 +303,7 @@ ArchitectureDecisionRelation@OrderFlow:
   status: acceptedForDeveloperWork
 ```
 
-For this decision a developer may add optional detail while preserving every order form the approved contract accepts. A newly required field can exclude a previously valid order even if the boundary, service name and version label stay the same. Check that ordinary and exception orders still have a feasible route through the new schema. If the field changes a fixed commitment, return that change to its owner. Inspecting a deployment can establish the schema in use. To establish that it made service replacement easier, identify the replacement work and a supported comparison with the previous arrangement. The schema could already have been present before adoption.
+For this decision a developer may add optional detail while preserving every order form the approved contract accepts. A newly required field can exclude a previously valid order even if the boundary, service name and version label stay the same. Check that ordinary and exception orders still have a feasible route through the new schema. When teams may choose their schemas independently, establish compatibility for the combinations permitted by those choices or provide an authorized way to coordinate them in time. A commission for one agreed pair can be met by establishing the compatibility of that pair. If the field changes a fixed commitment, return that change to its owner. Inspecting a deployment can establish the schema in use. To establish that it made service replacement easier, identify the replacement work and a supported comparison with the previous arrangement. The schema could already have been present before adoption.
 
 When a filled field changes, repair the smallest declaration or claim record that carries the changed content:
 

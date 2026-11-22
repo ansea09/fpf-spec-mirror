@@ -6,12 +6,12 @@ section_id: "A.2.6:20"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__021_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:20 — Rationale"
-line_start: 7865
-line_end: 7961
+line_start: 7858
+line_end: 7955
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -37,7 +37,7 @@ USM expresses the set-valued conditions under which a claim, qualified ability c
 
 A stated domain condition and its calibration calculation can answer a standalone mathematical applicability question. For the adhesive, apply the calibration rule and compare the resulting interval with the supported range. When that result is used by an FPF rule requiring scope membership, identify the condition as the required scope value, identify the target slice and perform the guard. Capability gating uses `U.WorkScope` and the other conditions of §10.3; claim use follows its Claim-scope guard. Neither case requires an additional result record unless the receiving use needs one.
 
-USM's additional result is an independently identified scope that further uses can compare, intersect across dependencies, combine across independently supported alternatives, or translate under declared rules. The API-and-dataset use in §11.4, for example, needs one common slice to satisfy both component scopes; a changed dataset edition changes that joint result. The domain argument supplies each applicability condition, the calibration or performance claim, and the justification for relying on it.
+A reusable scope lets later users compare covered slices, intersect conditions for one slice, describe coverage by cases, or translate a result under declared rules. In §11.4 the common-slice question needs one installation with the specified API version, cohort and dataset edition. In the successive-stage case, an adapter can establish compatibility at the handover. The promise to deliver the metric by noon also needs grounds that the whole chain will finish by then under the available operating policy. Each applicability or performance claim and its warrant keeps its own grounds.
 
 #### A.2.6:20.1 - SoTA-Echoing - Source distinctions and scope terminology
 
@@ -93,8 +93,9 @@ These comparisons suggest two useful questions: which conditions matter to the r
 | Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | —                    | “capability envelope”, “operational applicability”, “operation scope” |
 | Time selector                   | **`Γ_time`**                                    | **Time selector**                    | —                    | implicit “latest”                                                     |
 | Exact local-sense translation | **Obtaining F.9 Bridge + separate affirmative C.2.1 use claim + current A.10 or B.3 reliance** | **Bridge, translation rule and tolerance, checked reliance** | — | automatic Bridge use or treating a loss score as permission |
-| Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
-| Serial dependency               | **Intersection**                                | **Intersection of scopes**           | —                    | ordinal “more/less general” language                                  |
+| Coverage by cases | Set union of supported scopes | Cases covered under the stated premises | inferring independent evidence from different cases |
+| Independent parallel support | **SpanUnion** | Union of independently supported areas | omitting an essential shared premise |
+| Joint requirements on a common slice | **Intersection** | Slices meeting all required conditions | intersecting the input of one stage with the output of another before relating them |
 | Scope edits                     | **ΔG+ (widen), ΔG− (narrow), Refit, Translate** | **Widen, narrow, refit, translate**  | —                    | implicit widening                                     |
 | Optional didactics | **`Detail (D)`, `KindAT` for the intended treatment of a kind** | **Detail and kind abstraction tier** | **D / AT** | establish scope separately from either annotation |
 
@@ -109,7 +110,7 @@ These comparisons suggest two useful questions: which conditions matter to the r
 
 * Use **“Claim scope (G) covers TargetSlice”** and **“Work scope covers JobSlice”** in guards.
 * When time changes membership, name exact **`gammaTime`** and its membership boundary; never say “latest.” A time-independent predicate need not inspect `gammaTime`, but keep every selector already declared in the slice.
-* To compose, say: **“intersection along dependency paths; SpanUnion across independent support lines.”**
+* When combining scopes, say which conditions apply to the same input, which reachable outputs must meet the next conditions, and which cases cover the claimed area. Reserve **SpanUnion** for independently supported lines.
 * When exact local-sense translation is current, say: **“through an obtaining F.9 Bridge and a separate affirmative C.2.1 claim for this direction, rule, and tolerance; rely on it only through the current A.10 or B.3 branch, then evaluate membership on the returned scope.”**
 * When widening or narrowing, write **“ΔG+ / ΔG−”**. If support for the affected slices changed, say what support was gained or lost. Use **“Refit”** for unit/parameter normalization only when the exact scope extension is preserved.
 

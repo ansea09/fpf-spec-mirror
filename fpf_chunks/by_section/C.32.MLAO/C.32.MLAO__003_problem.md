@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__003_problem.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:2 — Problem"
-line_start: 82764
-line_end: 82769
+line_start: 82798
+line_end: 82803
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -55,5 +55,5 @@ keywords:
 
 Many architecture problems are residual problems. A local module boundary improves one team and creates integration exceptions elsewhere. A control relation improves response and creates audit or timing burden. A platform improves reuse and creates evidence decay. A method family speeds authoring and harms transfer.
 
-The tempting shortcut is to call the local improvement optimized. C.32.MLAO blocks that shortcut by asking: where did the residual shift, which selected structure carries it, and which candidate change reduces it enough to be worth its new burden?
+A local characteristic can improve while the joint requirement still fails. A conflict can also be present in the original design. Identify which conditions meet at the relevant boundary and follow each candidate change to the required result, its costs and its remaining limits.
 

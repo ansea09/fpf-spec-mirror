@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:7 — Conformance Checklist"
-line_start: 33570
-line_end: 33587
+line_start: 33602
+line_end: 33619
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -35,6 +35,6 @@ keywords:
 - [ ] Project Work, intended-work content and the performing organization remain distinct under A.15.6. Participating Systems and their access, assignment, permission, authority, capability, publication, direct System-use, Work and task-result claims retain their own grounds.
 - [ ] A curated collection has a project or namespace, purpose, current rule, identified membership predicates, edition policy, and return conditions.
 - [ ] An A.22 selected-structure result has all four identity discriminators for the named use; any unresolved required value retains its A.22-qualified result. A proposal may remain a proposal. A claimed dated selection Work has its separate performance basis.
-- [ ] Each positive task result rests on observed performance and the relations used. Any claimed dated Work has its independent A.13 and A.15.1 basis; assignment-bound attribution additionally uses F.6.
+- [ ] Each result about an actual user's task rests on evidence of their performance and the relations used. A conclusion about the proposed support has grounds covering the claimed tasks and combinations. Any claimed dated Work has its independent A.13 and A.15.1 basis; assignment-bound attribution additionally uses F.6.
 - [ ] Provider or AI use, review, feedback, capability, fit, effectiveness, transfer, and authority are claimed only when their own facts obtain.
 

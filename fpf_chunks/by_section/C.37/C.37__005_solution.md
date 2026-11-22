@@ -6,12 +6,12 @@ section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:4 — Solution"
-line_start: 86191
-line_end: 86330
+line_start: 86233
+line_end: 86372
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -45,7 +45,7 @@ Use one action spine:
 3. separate the direct subject result, optional first-use classification, bounded reliance, receiving conditions and result when needed, and auxiliary facts;
 4. state what the candidate exposes or preserves and what it withholds, loses, transforms, or leaves uncertain;
 5. mark the row `select`, `decline`, or `unresolved` for the named use and give its return trigger;
-6. co-record only rows that support the same receiver and action or decision.
+6. for representations used in one action, connect the claims the receiver will rely on and establish that they concern compatible subjects and conditions.
 
 **Local mantra.** *Who must decide or act? Which fact settles what they can do? Where does that fact come from? What remains open? Which change would make us decide again?*
 
@@ -59,7 +59,7 @@ Write one sentence:
 <receiving System> must <take this action or make this decision>.
 ```
 
-Start with the rule for the decision. State which alternatives it admits, rules out or leaves for comparison. Connect each fact you use to the part of the rule it satisfies. A source can reliably establish a fact that explains why someone proposed an option. The decision may still turn entirely on another fact. Apply the rule with the first fact unknown or changed, holding the other grounds fixed. If the answer could change, identify the check that would settle it. If the answer holds across the remaining possibilities, you can give it now.
+Recover the judgement or construction the receiver owes. For a decision under a given rule, start with that rule. Where the commission is to develop the rule, identify the possible cases it must distinguish and why they matter to the receiver. State which alternatives it admits, rules out or leaves for comparison. Connect each fact you use to the part of the rule it satisfies. A source can reliably establish a fact that explains why someone proposed an option. The decision may still turn entirely on another fact. Apply the rule with the first fact unknown or changed, keeping other grounds fixed where possible and varying linked facts together where the conditions require it. If the answer could change, identify the check that would settle it. If the answer holds across the remaining possibilities, you can give it now.
 
 A second source may independently support the same premise. Losing one source then leaves the other available. If the governing rule requires two independent observations or a particular authorization, that condition is itself a premise. Where it matters for action or review, say which sources supported the decision, which the rule required and which answer a different question.
 

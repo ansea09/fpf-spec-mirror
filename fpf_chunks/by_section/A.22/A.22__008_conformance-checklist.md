@@ -6,12 +6,12 @@ section_id: "A.22:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:7 — Conformance Checklist"
-line_start: 42225
-line_end: 42244
+line_start: 42259
+line_end: 42278
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -84,6 +84,6 @@ keywords:
 | **CC-A22-7 Non-structure claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims use the patterns that define or test those claims. | The check passes when that contribution and the claim kind are named, while the A.22 record remains limited to selected-structure use. |
 | **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureRelation`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Apply C.30 or a C.30 subpattern and keep A.22 only as the selected-structure EntityOfConcern and structure-claim reliance relation. |
 | **CC-A22-9 Plain and Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, the relevant Tech fields and FPF pattern applications are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
-| **CC-A22-10 Useful action.** | The repair preserves the supported recognition, understanding, decision or action the practitioner needs. | Restore the information or action required by that use. If the wording cannot support it, use `E.10:17` to name any remaining use as a cue or quotation, identify a blocked transfer, or say that the rewrite is unfinished. |
-| **CC-A22-11 CGUS qualification and case use.** | A formal CGUS qualification identifies one A.22 structure by the four discriminators; its local locus bindings, selected relations, and applied constraints define at least two potential continuations. The present-case result, any description, and every stronger neighboring claim are judged separately. | Use `A.22.CGUS`'s ordinary branch to clarify available alternatives and their conditions. Use formal qualification when the named use depends on structure identity or CGUS membership. If the structure qualifies but case facts are missing, return `unknown` for the affected alternatives. If only a display is present, keep it as an explanation; send description adequacy and stronger claims to their patterns. |
+| **CC-A22-10 Useful action.** | The selected organization and the distinctions retained in its description support the recipient's decision or explanation. A conclusion about an encompassing whole gives the relation or constraint that carries it there. | Restore the information or action required by that use. If the wording cannot support it, use `E.10:17` to name any remaining use as a cue or quotation, identify a blocked transfer, or say that the rewrite is unfinished. |
+| **CC-A22-11 CGUS qualification and case use.** | A formal CGUS qualification identifies one A.22 structure by the four discriminators; its local locus bindings, selected relations, and applied constraints define at least two potential continuations. The present-case result, any description, and every stronger neighboring claim are judged separately. | Use `A.22.CGUS`'s ordinary branch to clarify available alternatives and their conditions. Use formal qualification when the named use depends on structure identity or CGUS membership. If case facts are missing, return `unknown` only where the gap prevents deciding the alternative. A known failure of a necessary condition can already exclude it. If only a display is present, keep it as an explanation; send description adequacy and stronger claims to their patterns. |
 

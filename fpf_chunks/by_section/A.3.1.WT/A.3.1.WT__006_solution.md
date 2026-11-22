@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:4 — Solution"
-line_start: 10905
-line_end: 10963
+line_start: 10910
+line_end: 10968
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,42 +23,42 @@ keywords:
 
 ### A.3.1.WT:4 - Solution
 
-A.15.1 identifies performed Work and A.10 governs a claimed evidence use. The trial construction below determines which Work, variation, observation and stopping condition can answer the unresolved Method question. Its result is distinct from coherence, transfer and comparative worth; reuse a matching existing observation before commissioning a trial.
+A.15.1 identifies performed Work and A.10 governs a claimed evidence use. Construct the trial from the distinction the recipient needs to make. Ask which plausible alternatives for this Method or its use would lead them to different decisions. Choose an attainable condition or observation whose outcomes can tell those alternatives apart, what the performer needs to do, and what would warrant stopping. A design can be complete before any trial takes place. Reuse an existing observation when its conditions and reach answer the evidence question. A separately commissioned new trial remains a performance to deliver.
 
-Select situations from the later evidence questions, use matching observations of existing Work or arrange and observe a new trial, preserve every subject's status, and return occurrence-level evidence with explicit gaps and limits on the conclusions it supports.
+For a design, return the arrangement and its limits after checking feasibility. For a performed trial, return what the commissioned test or observation establishes. Its result may also supply evidence when a later decision about coherence, fit, transfer or worth depends on it.
 
 #### A.3.1.WT:4.1 - Pattern-Use Unfolding
 
-1. **Name the later decisions and trial questions.** Separate the questions that may feed A.3.1.CC coherence, A.3.1.FT situational fit or transfer, and C.11.MV practical worth. Do not hide several conclusions inside “does the Method work?”.
+1. **Name what the trial must establish.** A commission may ask for a test, a reading under specified conditions or an account of what happened. Identify the observation and how the recipient will use it. When a later decision concerns coherence (A.3.1.CC), fit or transfer (A.3.1.FT), or practical worth (C.11.MV), derive the trial question from that decision. Distinguish each requested conclusion.
 2. **Preserve the subject branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. In the candidate branch, state which candidate claims are being compared and which Methods, if any, are separately admitted and may be enacted.
 3. **Select a representative situation when the trial question needs one.** Name the intended-use characteristics that matter to the question: task purpose, development phase, technical or domain conditions, performer population, holder capabilities, participating Systems, direct relations, constraints, and qualification window. State why this situation covers the current question without claiming population representativeness.
-4. **Select a discriminating situation when the decision needs one.** Change or seek one condition whose outcome can show whether a live claim holds in that situation: unfamiliar technical coupling, another domain, missing support relation, changed capability envelope, stale material, or another named alternative. State the claim that could fail. Do not require every trial to contain an artificial stress case.
-5. **Keep intention and performance distinct.** For a new trial, write the WorkPlan with intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. For existing Work, recover any available plan and leave unsupported claims about prior intentions unresolved. Distinguish planned or described activity from what was performed. A performed simulation or demonstration may itself be admitted as Work under §4.1(7); distinguish what was actually performed from what was only represented or planned.
+4. **Select a discriminating situation when the decision needs one.** Identify an admissible change, or a combination of changes, that could defeat the claim. A method might work with unfamiliar material and also with reduced support, yet fail when both occur together. Such a case can test the guarantee under those conditions. To attribute the difference to the material, the support or their interaction, construct a comparison or use other grounds that distinguish those explanations. Use an existing sufficient observation where it answers the question.
+5. **Keep intention and performance distinct.** When designing a new trial, provide the WorkPlan with intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. When the trial assesses a choice the performer must make, compare the instructions, materials they will see and normal assistance with that choice. Leave the judgement to the performer and keep grounds for distinguishing their contribution from a supplied answer. Commissioned design is complete when the intended performer can run it and interpret the observations for the named question. For existing Work, recover any available plan and leave unsupported claims about prior intentions unresolved. Distinguish planned or described activity from what was performed. A performed simulation or demonstration may itself be admitted as Work under §4.1(7); distinguish what was actually performed from what was only represented or planned.
 6. **Check capability and support inputs separately.** When reliance on capability changes interpretation, identify the holder System, Work family or result class, operating envelope, measures, qualification or currentness condition, and evidence. Recover only A.15.8.MS material, access, tool, provider, feedback, and decision conditions supported for the relevant task rows; preserve retained candidates, split boundaries, untested conditions, and gaps rather than treating them as configured inputs.
 7. **Admit only Work that occurred.** For each occurrence, recover every performer System and its A.13 basis, the action history, at least one admitted Method followed, temporal extent, and required containing-System relation under `A.15.1`. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Add System use, operation binding, affected referent, resource use, or result relations only when the claim needs them and their own predicates obtain.
 8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, departures from any available WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
 9. **Qualify the evidence reach.** Distinguish direct observation, participant report, source interpretation, observed association, contribution claim, and causal claim. Return the supported level needed by the receiving claim and name missing comparison, temporal, capability, relation, or alternative evidence.
-10. **Return evidence by later use.** For each selected receiving question, send description or relation evidence to A.3.1.CC, the situation evidence and any comparison needed for the selected fit or transfer question to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
+10. **Return what the recipient commissioned.** Deliver the executable design with its prospective interpretation, or the requested performance, reading or trial account with its conditions and evidential limits. Where a further question was commissioned, take description or relation evidence to A.3.1.CC, situation evidence to A.3.1.FT, and results, burdens, alternatives or side effects to C.11.MV as appropriate. Identify the premise missing for the particular result, for example `missing-performed-work`, `missing-method-admission`, `missing-capability-basis` or `missing-direct-relation`.
 
 #### A.3.1.WT:4.2 - Record the Result
 
 | Result position | Required content |
 | --- | --- |
-| trial use | Later decision, bounded trial question, qualification window, and stop. |
+| trial use | The commissioned trial question, the result its recipient needs, applicable qualification window and stop. |
 | subject status | Admitted Method, or candidate account plus each separately admitted Method whose enactment is claimed. |
 | situations | Representative or discriminating situations selected for the question, selection criteria, any relevant matched or changed conditions, and the question or claim each addresses. |
 | plan baseline | Available plan for existing Work, or intended Work for a new trial, with performers, Methods, support conditions, observations, burdens, protected conditions, stop rules and any missing plan basis relevant to the question. |
-| performed Work | Each admitted Work occurrence, its performers, enacted admitted Methods, temporal extent, containing System, and departures from any available plan. |
+| performed Work | For a claim about a trial that occurred, identify each admitted Work occurrence, its performers, enacted admitted Methods, temporal extent, containing System, and departures from any available plan. For a design, state what is to be performed and under which conditions. |
 | relied-on conditions | Holder capabilities, Systems, Agent-performed Work, direct relations, access, assignments, permissions, authority, tools, providers, and support conditions that obtain or remain missing. |
 | observations | Domain results, burdens, adaptations, failures, participant reports, direct observations, and their source or evidence-use relations. |
 | reach and gaps | Supported observation level, missing evidence, material limits on contribution or causal claims, and conditions that would reopen the slice. |
-| return | Occurrence-level evidence for the selected A.3.1.CC, A.3.1.FT or C.11.MV question, or a supported lower result. |
+| return | The design, test result, reading or account commissioned, with the conditions needed to interpret it, or the missing premise. Where a coherence, fit, transfer or worth decision also depends on that result, identify the contribution it makes. |
 
 Keep these distinctions in the account and its referenced records. A table is useful when several occurrences need comparison; a single account need not use one row per position.
 
 #### A.3.1.WT:4.3 - What Changes in Practice
 
-Teams distinguish a planned or reported trial from the Work that occurred. They can point to that Work, the admitted Method that was enacted, the conditions on which the result depended, and the named later question each observation can answer.
+The trial designer can deliver a feasible way to distinguish the alternatives before a trial date. The person reporting a performance can point to the actual Work, the admitted Methods it enacted, the conditions under which it took place, and the later question each observation can answer.
 
 A failed or incomplete occurrence remains useful. It can expose a description defect, a representation difficulty, a missing support relation, a capability condition, or a situation boundary without being inflated into a universal verdict on the Method.
 
@@ -78,5 +78,5 @@ Two occurrences then happen and are admitted separately. `W-Rep-1` is performed 
 | A.3.1.FT fit or transfer | The matched pair records one changed situation condition and the resulting task observations for one current holder. | One discriminating occurrence establishes no transfer to another holder, domain, tool, or qualification window. |
 | C.11.MV practical worth | The domain decisions, seven- and twelve-minute burdens, lookup, and stop are available for comparison with named alternatives. | A task pass establishes neither net worth nor causal contribution. |
 
-If `W-Disc-1` had not occurred, return `missing-performed-work`; if its enacted-Method relation or relied-on capability basis were absent, return that missing premise. A favourable plan, simulated trace, or qualification record cannot replace the occurrence.
+If only the design was ordered, a report pair with the stated controls, available reviewer, observation points and interpretation can complete it before `W-Disc-1` takes place. If that trial was ordered and the reviewer has yet to perform it, return `missing-performed-work` for the outstanding performance. If only the evidence is requested, an adequate earlier report of comparable Work may already settle the relevant question. State which observation it supplies and which conclusion it supports.
 

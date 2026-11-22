@@ -6,12 +6,12 @@ section_id: "C.32.MWA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:1 — Problem frame"
-line_start: 82934
-line_end: 82961
+line_start: 82968
+line_end: 82995
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -49,7 +49,7 @@ The primary working reader is an architect, methodologist, practice designer, or
 
 **What goes wrong if missed.** A source layout is mistaken for the arrangement it describes. A list becomes levels, a procedure becomes a hierarchy, overlapping activities become a sequence, a model becomes the thing modeled, or a future design acquires fictitious performed Work. A local repair may also look successful only because its unresolved burden moved to another structure or scope.
 
-**What this buys in practice.** The reader gets a short, usable account of the selected Methods and their use, structures and relations, their correspondences, the main conflict or moved burden, and the alternative that changes the current decision. The account can remain ordinary prose; use a table or symbolic form when it helps express or check the relations.
+**What this buys in practice.** The reader can explain how the selected Methods and their use produce a result that the recipient needs. An account of a working practice can finish by showing which connections sustain it. When a design choice concerns a conflict or a transferred burden, trace that condition through the alternatives and show how it changes the conclusion. Use the form in which the recipient can recover those relations.
 
 **Not this pattern when.**
 

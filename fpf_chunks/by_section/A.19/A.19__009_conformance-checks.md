@@ -6,12 +6,12 @@ section_id: "A.19:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_conformance-checks.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance checks"
-line_start: 36470
-line_end: 36501
+line_start: 36502
+line_end: 36533
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### A.19:6 - Conformance checks
 
-Start with the base declaration. If the job is only to declare a local space, or that space plus one predicate, stop after these checks.
+Start with the use for which the space was chosen. When a space is commissioned to support a decision or explanation, establish which distinctions that use requires and why the retained coordinates and relations preserve the answer over the required domain. A sufficient bound can justify the answer for every reachable configuration even if the exact set of possibilities is unknown. A claimed exception requires a configuration that can occur under the stated conditions. If the commission supplies the space and asks only for an evaluation, apply its declared predicate and conditions.
 
 **Base declaration**
 

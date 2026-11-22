@@ -6,12 +6,12 @@ section_id: "A.3.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:5 — Archetypal Grounding"
-line_start: 10099
-line_end: 10158
+line_start: 10102
+line_end: 10163
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,7 +71,9 @@ Preconditions: material and coating range known; calibration current; gas and sa
 IntendedResultOrPreservedCondition: target depth reached; substrate and maximum-temperature bounds preserved
 ```
 
-This result lets the engineer compare the two SOP claim sets against one method identity and lets a later work plan cite that method and the selected description edition. The SOP, PLC program, calibration recipe, and supplier note remain `U.MethodDescription` candidates when A.3.2 identifies what each episteme describes (`EntityOfConcern`) and the substantive claims it carries. For later work authorization or claims that Work `W-143` occurred or `Wafer-22` changed or passed metrology, use the relevant A.15.2, A.15.1, A.3.4, measurement, evidence, assurance, or gate pattern.
+To finish the comparison, inspect what each instruction tells the operator to do. Suppose the first SOP tabulates the limits of `RecipeWindow-Al2O3-3` and directs the operator to end exposure at the declared target depth. The second incorporates that same window by reference and expresses the same operation and stop in prose. Both designate `Etch_Al2O3` and preserve its material, calibration, gas, temperature and substrate conditions. The two editions describe the same Method for this plan. If the second merely says “etch for the set time”, establish whether the time setting implements the same target-depth rule throughout the admitted window or prescribes a different stop. Until that relation is known, the plan cannot treat the two descriptions as interchangeable on that basis.
+
+For another pair of instructions, compare their operative choices and constraints at the variation that matters for the plan. A.3.2 determines whether each episteme qualifies as a MethodDescription. Authorization, actual Work, wafer change and metrology retain their own grounds under the corresponding patterns.
 
 #### A.3.1:5.2 - Optimization model
 

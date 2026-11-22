@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_invariants.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:5 — Invariants"
-line_start: 129645
-line_end: 129657
+line_start: 129760
+line_end: 129772
 dependencies:
   - "A.11"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 ### F.8:5 - Invariants
 
-1. **Four facts, one use.** Every disposition names the expression, governed value or relation, its subject pattern, and one proposed use. Split an expression that covers more than one governed subject or use.
+1. **Four facts, one use.** Each disposition names the expression, governed value or relation, its subject pattern and the proposed use. Keep distinct designations identifiable when the reader needs them. A name for a whole can refer to it through its own criterion.
 2. **Lightest sufficient result.** Use adequate ordinary wording or an existing designation. Create a cell, NameCard, row or policy identifier only for the receiving need it serves. An unsettled U-kind proposal stops before naming.
 3. **Reuse preserves meaning.** Reuse or aliasing changes no kind, scope, occurrence identity, local-sense claim, admitted use, authority, or lineage. Shared spelling under another scheme establishes neither sameness nor an F.9 Bridge.
 4. **Kind, description, assignment, and Work stay distinct.** A designation may name a recovered local system-role kind `K` without creating the optional F.4 description `D`. Neither name classifies a candidate, creates an A.2.1 assignment `A`, or demonstrates Work. Other governed uses remain with their subject patterns.

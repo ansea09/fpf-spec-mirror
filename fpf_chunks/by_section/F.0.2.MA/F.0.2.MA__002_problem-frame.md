@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:1 — Problem frame"
-line_start: 126830
-line_end: 126839
+line_start: 126941
+line_end: 126950
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -27,7 +27,7 @@ keywords:
 
 **Use this when.** You have recovered useful Method-related material from several sources, but still have to decide which contributions belong together and where they should be used. Documentary sources and accounts recovered from practice may use the same words for different actions, or different words for the same useful move.
 
-As a Method engineer building or revising descriptions, a repertoire or a pattern language, begin with one disputed allocation: **which recovered contribution should this description or pattern carry, and what would be lost by placing it there?**
+Begin with the work the intended reader must be able to do. Which part of their explanation or way of working depends on the disputed contribution? This identifies the description or pattern in which the reader needs to find it. If the commission asks only where one known contribution belongs, settle that allocation directly.
 
 The first useful result is one justified allocation. For example: “Use the existing coherence-checking Method; keep this source's narrower qualification window with the affected description claim; leave the observed shortcut as a candidate account.” Stop there if it settles the receiving decision.
 

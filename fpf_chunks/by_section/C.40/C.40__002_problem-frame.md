@@ -6,12 +6,12 @@ section_id: "C.40:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:1 — Problem frame"
-line_start: 89737
-line_end: 89757
+line_start: 89783
+line_end: 89803
 dependencies:
   - "C.11"
   - "C.18"
@@ -23,11 +23,11 @@ keywords:
 
 ### C.40:1 - Problem frame
 
-Use this when you have something that can be developed and need to learn what a feasible variation makes possible. A sound workshop can alter its own recording; an investigation team can change a view of permitted records; a coding team can develop a working program. The eventual contribution may already be selected or remain unsettled.
+Use this when you need to develop alternatives from reusable material, to design how someone can find and examine them, or to establish what a search actually tried and found. A sound workshop can alter its own recording; an investigation team can change a view of permitted records; a coding team can develop a working program. The eventual contribution may already be selected or remain unsettled.
 
-The primary concern is the material being developed and the warranted continuation from an examined change. Material can be an editable construction, a working Method with its inputs, or a retained intermediate result.
+An evolving construction, a working Method or a retained intermediate result can be material for search. The commission determines whether the recipient needs a new variation, a way of finding one, or knowledge of what earlier work produced.
 
-Change something feasible, examine the resulting difference, and keep the material and conditions needed for a useful continuation. The first result is an examined variation with a justified continuation or stop. This transdisciplinary guidance relies on the professional operation that changes and examines the material.
+When commissioned to vary the material, make a feasible change, examine the difference and retain what the next use needs. When commissioned to design the search, explain how future practitioners will generate, distinguish and use possible results. For an inquiry about earlier search, work from the evidence of the actual attempts. Each return has its own grounds for stopping.
 
 Sections 4.5–4.12 develop conditional uses:
 

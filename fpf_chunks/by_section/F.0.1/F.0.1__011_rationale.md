@@ -6,12 +6,12 @@ section_id: "F.0.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__011_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:10 — Rationale"
-line_start: 126550
-line_end: 126555
+line_start: 126653
+line_end: 126658
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -33,5 +33,5 @@ keywords:
 
 Recover the meaning from the passage where the source uses the expression. When the passage settles the question, this avoids the cost of a wider comparison. Starting with the source passage prevents a later comparison from rewriting the source before the commonality or difference is known. Keeping durable cell identity in F.17 and cross-local relations in F.9 prevents local recovery from becoming a second ontology or relation catalogue.
 
-This keeps the work proportionate: one identified source can yield an answer immediately; several possible sources call for F.1; several source ontologies call for F.0.2; an actual relation calls for F.9.
+Choose any further work by what remains to establish. F.1 helps select a source basis, F.0.2 develops an account from consequentially different source claims, and F.9 tests a proposed relation between local meanings. Several sources may give the same sufficient answer.
 

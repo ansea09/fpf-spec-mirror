@@ -6,12 +6,12 @@ section_id: "C.40.PC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__012_sota-echoing.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:11 — SoTA-Echoing"
-line_start: 92383
-line_end: 92394
+line_start: 92429
+line_end: 92440
 dependencies:
   - "A.15.9"
   - "A.2.3"

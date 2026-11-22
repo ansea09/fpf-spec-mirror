@@ -6,12 +6,12 @@ section_id: "C.28.CM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__004_forces.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:3 — Forces"
-line_start: 71951
-line_end: 71960
+line_start: 71985
+line_end: 71994
 dependencies:
   - "A.15.9"
   - "B.5.2"

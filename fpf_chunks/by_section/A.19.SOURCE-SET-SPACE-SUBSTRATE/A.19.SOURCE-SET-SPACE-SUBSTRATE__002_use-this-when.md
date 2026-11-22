@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0 — Use this when"
-line_start: 37110
-line_end: 37152
+line_start: 37142
+line_end: 37184
 dependencies:
   - "A.0"
   - "A.15.7"
@@ -40,7 +40,7 @@ keywords:
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:0 - Use this when
 
-Use this pattern when a search, comparison or synthesis depends on all of the following:
+Use this pattern when a search, comparison or synthesis requires you to say which sources the work covers and how outcomes depend on them. Identify what the recipient asks about those sources or the wider domain. A record of what a search retained can settle a question about the archive. For a claim about every eligible alternative, establish what makes that record cover them or what other grounds settle the claim. A substrate declaration makes the following choices inspectable.
 
 - one declared source set or composition of source sets still matters and must stay recoverable;
 - one search-side space reference and one outcome-side space reference must both be explicit;

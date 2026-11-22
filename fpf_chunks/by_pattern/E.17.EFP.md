@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.EFP.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
-line_start: 115579
-line_end: 116170
+line_start: 115653
+line_end: 116246
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 Omitting other source content neither claims whole-source coverage nor by itself constitutes another episteme. A changed assertion, concern or effective scheme needs its own identity decision.
 
-**First identify the episteme and test the expression (ontic first screen).** Before assigning an explanation class, identify the source and the intended reader use.
+**First identify the episteme and test the expression (ontic first screen).** Recover the reader’s question from the request for an explanation. An editor may declare a narrower use that the expression can already serve. If so, establish what that use contributes to the requested explanation (C.39.QR:4.1). Identify the source and the claims and grounds the reader needs before assigning a class.
 
 1. Recover the exact source edition's ClaimGraph, EntityOfConcern and effective ReferenceScheme under C.2.1. Equal displayed words alone do not establish this identity.
 2. Test whether the text expresses enough of that edition for the declared use under E.24.PUB §4.2. Preserve every qualification that changes the answer for that use, keep the source return, and disclose use-relevant omissions. A partial expression may qualify. A missing required condition leaves source sufficiency unresolved or fails the test, even when each displayed sentence is individually true. Omission alone does not create a target episteme. Apply A.6.3.RT as well when a representation-change claim is current.
@@ -260,7 +260,7 @@ When one rendering needs its own narrower bounded claim or effect line, blocked 
 A publication-side reviewer starts with five questions:
 
 1. Which source edition is intended: what ClaimGraph, EntityOfConcern and effective ReferenceScheme identify it?
-2. Does the text express enough for the declared use, retaining action-changing qualifications, source return and use-relevant omission disclosure? Whole-source coverage is not required. An omitted answer-changing condition blocks this use even if the displayed sentences are true.
+2. What explanation did the reader ask for? Can the reader recover from this text and its accessible source the relation that explains the result over the requested range? If the request includes choosing how to proceed, can the reader also recover how to make that choice? A few claims can supply the full explanation. Retain the qualifications, return to source and omission disclosures that affect this use. An omitted answer-changing condition blocks this use even if the displayed sentences are true.
 3. Does the text assert changed content or concern another entity or effective scheme? If so, which exact target and independently obtaining source-to-target relation support its expression?
 4. Which E.24.PUB expression or applicable A.6.3.RT representation expresses the identified episteme, and which explanation class changes the reader's next action?
 5. Has the expression begun carrying another unsupported claim, relation, reliance or deliberately coarsened use that must return to its direct pattern?
@@ -444,6 +444,8 @@ To retain the sentence, constitute exact target episteme `E_robustnessClaim` and
 
 The selection relation and both limits are explicit in the source, so this is ordinary same-ClaimGraph re-expression. It needs no `addedLinkPolicy`. It is not evidence that work occurred, a gate decision, or engineering justification.
 
+These facts can explain this choice of M-2. Suppose the reader must choose a method for a later job in which the window may change. The account of this selection alone leaves open what to do then. If the source gives a selection rule and the grounds for using it across those conditions, carry them into the explanation, even if the source develops them inside this one case. Otherwise return the supported explanation of this choice and identify what remains to learn about choosing a method.
+
 Selection use concerns exact `U.Method` M-2. Planning concerns `U.WorkPlan` WP-17 under A.15.2. Any claim that work occurred requires a dated `U.Work` under A.15.1. Evidence, engineering-justification, or gate use remains under A.10, B.3, A.20, or A.21 only for a claim of that kind.
 
 #### E.17.EFP:5.2.c - Partial source expression and a mixed-face bundle
@@ -541,7 +543,7 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 #### E.17.EFP:7.1 - EFP-Core ordinary checks
 
 0. **CC-EF-0 — Exact episteme and sufficient expression are recoverable.**
-   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. The expression conveys enough for the declared use, preserves answer-changing qualifications, returns to the source and discloses use-relevant omissions. Whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. A changed target needs its own identity and an independently obtaining source-to-target relation. A speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
+   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. Compare the declared use with the reader’s original question. For a promised explanation, the expression and its accessible source supply the relation and grounds the reader needs, or identify the part the expression supports and the question still open. Preserve answer-changing qualifications, source return and use-relevant omissions. Whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. A changed target needs its own identity and an independently obtaining source-to-target relation. A speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
 1. **CC-EF-1 — Explanation class follows identity.**
    The class is named for the publication expression after CC-EF-0. It is not used as episteme identity or source-to-target evidence.
 2. **CC-EF-3 — Source reference and blocked downstream use are explicit.**

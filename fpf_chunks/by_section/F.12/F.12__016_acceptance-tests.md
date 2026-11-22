@@ -6,12 +6,12 @@ section_id: "F.12:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__016_acceptance-tests.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:15 — Acceptance tests"
-line_start: 131524
-line_end: 131550
+line_start: 131641
+line_end: 131667
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,9 +51,9 @@ keywords:
 
 #### F.12:15.1 - Static conformance
 
-* **SCR-F12-S01 (actual subjects).** Every evaluation names exact promise content, delivery Work or population, observations and measured values, window, and rule; cells are optional addresses only.
-* **SCR-F12-S02 (scope match).** Promise, Work, evidence, population, and window align.
-* **SCR-F12-S03 (evidence).** Observations concern the promised outcome of the judged Work.
+* **SCR-F12-S01 (actual subjects).** Identify what was owed, to whom and under which conditions. The evidence establishes the result for the delivery, occurrence or population selected by that promise. Recover observations, measured values or a particular evaluation procedure when the commissioned judgement or the terms require them.
+* **SCR-F12-S02 (scope match).** Evidence covers the decision claimed. For a result about linked undertakings, establish the connection that the agreement makes material, including any separately outstanding obligation.
+* **SCR-F12-S03 (evidence).** The cited grounds support the promised outcome in the conditions judged. When a measurement supplies those grounds, its observations concern that characteristic or reach it through an established indicator relation.
 * **SCR-F12-S04 (evaluation explicit).** The selected inputs, applied rule, supported result, characteristic, scale, unit, aggregation, threshold and exclusions are recoverable as required by the acceptance claim. Any claimed or rule-required performing System, evaluation Work, enacted Method and exact A.6.1 application satisfy their direct admission and binding conditions.
 * **SCR-F12-S05 (indicator boundary).** Direct measurement adds no proxy. For a distinct indicator, identify both participants and apply the defining or testing rule. Return A.6.RCD `missing-governor` if no such rule is available. Limit the acceptance conclusion to the evidence the rule supports.
 * **SCR-F12-S06 (direct relations).** Promise use, delivery, fulfilment, measurement, indicator, evidence use, assurance or material reliance, evaluation, status, and any verdict assertion use their defining or testing patterns.
@@ -72,5 +72,5 @@ keywords:
 
 #### F.12:15.3 - Didactic distillation
 
-> “Name the exact promise, the delivery Work it covers, the promised characteristic, the observations and measured values, and the relevant window and population. First ask whether the measurement is direct; if another indicator stands in, establish its relation or leave that basis unresolved. Apply the acceptance rule to its inputs and return the supported result on its declared scale. Recover an evaluation-Work or exact application identity when the claim or rule needs it. Use the acceptance result to assign RequirementStatus when its rule applies. Assess EvidenceStatus from the evidence for the stated use. Identify a durable verdict assertion when another use needs one. Plainly: met, not met, or cannot judge.”
+> “Start with what the recipient was promised and what verdict they need. Use the evidence and rule for that outcome at the required scope. When the result depends on measurements, first ask whether they directly concern the promised characteristic; if another indicator stands in, establish its relation or leave that basis unresolved. Apply the acceptance rule to its inputs and return the supported result on its declared scale. Recover an evaluation-Work or exact application identity when the claim or rule needs it. Use the acceptance result to assign RequirementStatus when its rule applies. Assess EvidenceStatus from the evidence for the stated use. Identify a durable verdict assertion when another use needs one. Plainly: met, not met, or cannot judge.”
 

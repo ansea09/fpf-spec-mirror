@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:7 — Conformance Checklist"
-line_start: 104521
-line_end: 104540
+line_start: 104576
+line_end: 104595
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -33,7 +33,7 @@ keywords:
 | `CC-E8ECSPF-1` | The pattern SHALL carry every required value from the accepted `EvaluationCharacteristicSpaceSpec` and every optional value whose trigger holds, including reader scope, qualification window, neighbouring exits, and the applicable `E.22` and `E.23` conditions. A citation or field-name list alone does not satisfy this requirement. | Prevents loss between the accepted specification and practitioner-facing content. |
 | `CC-E8ECSPF-2` | Recognition text SHALL state evaluated object kind, declared use, working reader, qualification window, first evaluation use, FPF-publication boundary, and object-kind boundary before dense coordinate tables. | Makes the evaluation use recognizable before detailed review. |
 | `CC-E8ECSPF-3` | The `Solution` SHALL carry the accepted specification's values rather than leaving them only in conformance rows, SoTA rows, or examples. | Prevents checklist substitution. |
-| `CC-E8ECSPF-4` | Worked cases SHALL include passing, below-floor, and outside-declared-object-kind boundary outcomes. | Tests evaluated-object-kind discrimination. |
+| `CC-E8ECSPF-4` | The worked account SHALL distinguish outcomes that can occur and change the receiving decision. Where the accepted specification rules out an outcome, the publication SHALL preserve its grounds and domain. | Teaches the evaluator to use the distinction or establish when it cannot arise. |
 | `CC-E8ECSPF-5` | Each coordinate SHALL state value meanings, polarity or no-simple-direction value rule, missingness rule, and protected trade-off when applicable to the declared evaluation use. | Makes evaluation uses repeatable and bounded. |
 | `CC-E8ECSPF-5a` | The publication form SHALL prohibit an undeclared total or average over ordinal coordinates. Any admitted scalarization SHALL name its method, declared use, any information loss, applicability, and stop or return condition. | Prevents a convenient number from replacing the evaluation. |
 | `CC-E8ECSPF-5b` | When one visible value improves, the evaluation use SHALL check whether an intended value or protected trade-off worsened and SHALL stop or reopen when the evaluation would reward that loss. | Blocks proxy improvement and Goodhart-style degradation. |
@@ -42,7 +42,7 @@ keywords:
 | `CC-E8ECSPF-7` | When a pattern-quality conclusion about the authored publication form is required, a reviewer SHALL use `E.21` to evaluate FPF pattern-version quality separately from the evaluation's evaluated object result. | Keeps pattern quality distinct from evaluated object quality. |
 | `CC-E8ECSPF-8` | An author SHALL NOT turn a local, temporary, or one-project evaluation specification into an FPF pattern unless its reuse scope is durable and the patterns used for outside claims are named with their concrete contributions. | Blocks needless pattern growth. |
 | `CC-E8ECSPF-9` | The publication form SHALL state what would lower, reopen, or retire the accepted specification or the guidance that carries it: changed object kind or object version, changed use, reader, or qualification window, changed use of a cited source, changed source adoption, adaptation, or rejection decision, missing contrast case, coordinate-value drift, missingness or comparison-rule change, or a correction to an exit or outside claim. | Makes maintenance of the pattern testable. |
-| `CC-E8ECSPF-10` | The publication form SHALL state the required result row shape and evidence basis. When a value needs external, comparator, projection, worked-case or currentness evidence, carry that basis and apply the accepted specification's missingness rule. Lower a value for absent or unchecked evidence only when that coordinate's value rule makes the absence a lower value. | Preserves evidence-dependent values and missingness without converting an unknown property into a poor property value. |
+| `CC-E8ECSPF-10` | The publication form SHALL state the required result row shape and evidence basis. When a value needs external, comparator, projection, worked-case or currentness evidence, carry that basis and apply the accepted specification's missingness rule. A verified absence warrants a lower value when that coordinate measures the presence of the required item. If the evaluator has yet to check, the value remains open. When the coordinate measures whether an inspection took place, use evidence about that inspection. | Preserves evidence-dependent values and missingness without converting an unknown property into a poor property value. |
 | `CC-E8ECSPF-11` | A reusable pattern that teaches an evaluation SHALL publish calibration points for common adjacent-value disagreements and any coordinate-specific evidence payload needed to reach floor or exceptional values. | Makes the same evaluation guidance usable by more than one evaluator. |
 | `CC-E8ECSPF-12` | The publication form SHALL keep `E.21` values, `PatternQualityStatus`, corpus-projection evidence, README, ToC, E.11 alignment, card or retrieval evidence, cold-reader evidence, monolith parity, landing evidence, Developer, Reviewer, and Executor correspondence, and other quality-carrier facts out of the pattern. These facts belong in the `E.21` result, `E.19` run record, README, ToC, E.11, card, retrieval, or projection carrier, or release or landing evidence carrier unless the content-use test shows that the pattern's own `EntityOfConcern` and user-facing action are that evaluation or projection work. | Prevents quality of the authored pattern from replacing the evaluation guidance it must teach. |
 

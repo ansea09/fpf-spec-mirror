@@ -6,12 +6,12 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:4 — Solution"
-line_start: 85021
-line_end: 85045
+line_start: 85061
+line_end: 85085
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -54,7 +54,7 @@ keywords:
 
 Start with the decision the reader must make. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
 
-If two arrangements both fit the record, work out what each would allow the reader to do. Proceed if the same action is justified in both and in every other arrangement still possible. If the answer changes, look for the assignment, rule or observation that would settle it. It may already be in the record. Use the optional note when someone needs to retain or share the grounds for the decision.
+Compare the result the recipient needs across the arrangements still consistent with the record. If one action is justified in every case, a request to choose that action can finish. To describe the actual arrangement, list all permitted alternatives or explain why an outcome occurs, preserve the distinctions that change that answer or its grounds. Look for the assignment, rule or observation that can resolve a consequential difference. It may already be in the record.
 
 Work in this order:
 

@@ -6,12 +6,12 @@ section_id: "C.39:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:intro — Intro"
-line_start: 87247
-line_end: 87252
+line_start: 87291
+line_end: 87296
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

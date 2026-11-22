@@ -6,12 +6,12 @@ section_id: "C.40.OCN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:4 — Solution"
-line_start: 91178
-line_end: 91343
+line_start: 91224
+line_end: 91389
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -74,7 +74,7 @@ Start from a qualified demand or problem account when one exists. If the reason 
 
 #### C.40.OCN:4.2 - Search neighboring technologies, uses and characteristics
 
-Search from more than one direction. Work from an affected use toward possible support, from a technology toward unlike applications, and from a desired characteristic toward different ways of obtaining it. For each lead, record the source and the concrete difference that could matter.
+Begin in the direction the receiving question leaves open. Work from an affected use towards possible support, from a technology towards other applications, or from a desired characteristic towards ways of obtaining it. Seek another direction where it could change the answer or a range of alternatives was commissioned. For each lead, record its source and the difference that could matter.
 
 | Search move | Question that changes a candidate |
 | --- | --- |
@@ -87,7 +87,7 @@ Use explicit value questions to generate possibilities, rather than scoring only
 
 Name the generation operation used—for example, substitute the receiving use, vary the required characteristic, combine two support contributions or remove an assumed technical constraint. Keep the search scope, source dates and stopping reason sufficient for the next use. Search time, idea count, novelty score and geographic distance from an archive are not evidence of practical value.
 
-Stop widening when the inquiry has enough materially distinct leads to expose the decision-bearing unknowns at its chosen effort, or when a missing domain premise prevents useful further construction. State unsearched areas if their omission can change the return. Do not claim exhaustive search.
+Stop widening when the inquiry has enough materially distinct leads to expose the decision-bearing unknowns at its chosen effort, or when a missing domain premise prevents useful further construction. State unsearched areas if their omission can change the return. For a complete set, state its boundary and establish coverage by a rule, a complete source or justified exclusions. Otherwise report the searched extent and any consequential open areas.
 
 
 
@@ -107,7 +107,7 @@ Reject or revise a lead that has no supported worthwhile problem after proportio
 
 #### C.40.OCN:4.4 - Construct different directions with their supports
 
-Build materially different possibilities for addressing the problem or realizing the contribution. Change the intervention, the work performed, the distribution of contributions, the support, the timing or the proposed result where those differences matter. Distinguish a different result premise from a different way of obtaining one result.
+Build the possibilities the inquiry needs for addressing the problem or realizing the contribution. Change the intervention, the work performed, the distribution of contributions, the support, the timing or the proposed result where those differences matter. Distinguish a different result premise from a different way of obtaining one result.
 
 A direction should say more than “train,” “buy,” “automate” or “hire.” State the prospective contribution, the holder change if any, necessary access and support, protected conditions and the transition that would have to become possible. One option may develop a capability; another may make an existing capability usable through better access; a third may obtain a qualified external contribution.
 
@@ -162,7 +162,7 @@ Use a short account when it carries the needed distinctions. These are content p
 | --- | --- |
 | Receiving frame | Holder or bounded candidate holder, later Work, receiver/use, horizon and the reason the question matters. |
 | Problem and proposed promise | Worthwhile problem or explicitly unconfirmed problem hypothesis; proposed contribution and acceptance expectations; any existing promise kept distinct. |
-| Search and difference | Sources and search operations used, materially different directions, relevant unsearched areas and why each retained direction is not just a renamed alternative. |
+| Search and difference | Sources and search operations used, directions required for this use, relevant unsearched areas and why each retained direction is not just a renamed alternative. |
 | Supports and dependencies | Necessary capability, access, support, resources, authority and other premises, their supplying owners and qualification state. |
 | Reachability | Supported transitions and joint conditions; unknown or ruled-out transitions; the strongest warranted conditional or positive claim. |
 | Uncertainty and protection | What may reverse the opportunity, what is protected and which stronger conclusions remain unsupported. |

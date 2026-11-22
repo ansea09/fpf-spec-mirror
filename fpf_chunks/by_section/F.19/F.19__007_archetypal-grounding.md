@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 135403
-line_end: 135442
+line_start: 135522
+line_end: 135562
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -48,6 +48,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Ambiguous scale claim | "The platform owns scale." | Recover what *scale* denotes and which ownership, responsibility or comparison claim is intended. If the source establishes a comparison measure, name that measure and its alternatives; otherwise keep the missing meaning explicit. Do not invent platform-versus-non-platform comparison from this sentence alone. |
 | Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents the evidence. Recover the evidence-use claim under its direct subject rule; use `A.10` for its descriptive provenance and bounded reliance, and `A.21` for a separately current gate decision." |
 | Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
+| A dispatch instruction travels separately | The print supervisor’s procedure says, “Release an edition once the proof approval and rights clearance both cover that edition.” Its detachable instruction says, “Confirm both approvals before release.” | Keep the procedure. With two editions awaiting dispatch, staff could follow the detachable instruction with a proof approved for one edition and rights cleared for another. Carry the edition condition onto that instruction. A separate clerk asked only to record each office’s reply can complete that task by recording the two replies. |
 | Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
 | Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again.” |
 | Denied impossible agency | “The evidence does not notice the error and does not begin a new cycle.” | Evidence supplies grounds; a reader or capable system evaluates them. If the surrounding passage already tells the reader to check or revise the first distinction on receiving new evidence, keep that instruction and delete the denial. Otherwise recover the intended response before naming it. |

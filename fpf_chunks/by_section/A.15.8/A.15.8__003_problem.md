@@ -6,12 +6,12 @@ section_id: "A.15.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__003_problem.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:2 — Problem"
-line_start: 33040
-line_end: 33047
+line_start: 33072
+line_end: 33079
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,5 +45,5 @@ Performance often depends on relations among actual or intended performers, supp
 
 Umbrella words conceal different objects. “Attention” may mean sensing, selection, monitoring, search, checking, or a holder capability. “Memory” may mean internal state, a record, model state, retrieval, cultural continuation, or a relied-on claim. “Work state” may mix world state, epistemes, carriers, and cues. Treating these words as fields on one composite performer hides the relation that must change and can incorrectly assign System identity, Work, capability, authority, or evidence.
 
-Recover the Work-dependent configuration and expose the minimum state needed to continue. Under a representative condition, test a dependency whose result can change the decision. If the available evidence identifies the weakest such dependency, test that one. Return the result to the pattern that defines or tests the affected claim.
+Work back from what must still be supplied and by when. Which contribution, information or support would have to survive a loss or be restored in time? An observed failure can reveal the relation to repair. When the question concerns service across a range of disruptions, establish which conditions the failure or recovery mechanism covers.
 

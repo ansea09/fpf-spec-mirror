@@ -6,12 +6,12 @@ section_id: "A.19.CN:Close"
 section_title: "Closing perspective"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__016_closing-perspective.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:Close — Closing perspective"
-line_start: 38413
-line_end: 38417
+line_start: 38445
+line_end: 38449
 dependencies:
   - "A.19"
   - "A.6.1"

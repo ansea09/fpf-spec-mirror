@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 95446
-line_end: 95979
+line_start: 95493
+line_end: 96026
 dependencies:
   - "A.12"
   - "C.11"
@@ -95,7 +95,7 @@ Control can be open over the interval being examined. A controller may follow a 
 
 Feedback operates when an observation returned from the controlled system can affect a subsequent intervention on that system. Identify the decision and the interval. Which different reading could change the action, its timing or the decision to continue it? Several readings can call for the same action. To establish what happened on a particular occasion, recover the rule or judgement actually used and the information that reached it. A fixed schedule and an observation-dependent rule can produce the same recorded command. Evidence of how the decision was made can distinguish them even when the command stayed the same.
 
-For a claim about the whole arrangement, state the property at issue and how it follows from what the parts do. If two loads account for the entire circuit load, their active powers add. Readings taken at the same instant give the total at that instant. Limits that apply to both loads in the same operating mode give an upper bound on the total. Whether both loads can reach their limits together is a further question. Where regulators share capacity or change one another’s inputs, follow the connections that affect the claimed response. A unit can correct its own backlog while its allocation follows a fixed schedule. Several units can also produce a common response through their interactions. To extend a conclusion to other operating conditions, establish which limits, decision rules and connections still apply. Use **C.30.LCA** to describe the control relations and **C.32.LCA** when their organization needs to change.
+For a claim about the whole arrangement, state the property at issue and how it follows from what the parts do. Work back from the property to the contributing parts and the connections it depends on. A rule may operate within every unit while their joint response depends on how their actions affect one another. For example, if two loads account for the entire circuit load, their instantaneous powers at one instant add to the total at that instant. Mean powers measured over the same interval add to its mean total. Two displays read at the same time may report different averaging intervals. Limits that apply to both loads in the same operating mode give an upper bound on the total. Whether both loads can reach their limits together is a further question. Where regulators share capacity or change one another’s inputs, follow the connections that affect the claimed response. A unit can correct its own backlog while its allocation follows a fixed schedule. Several units can also produce a common response through their interactions. To extend a conclusion to other operating conditions, establish which limits, decision rules and connections still apply. Use **C.30.LCA** to describe the control relations and **C.32.LCA** when their organization needs to change.
 
 The subject of the decision, the information and interventions available to each participant, and the physical realization can have different boundaries. One device can estimate, choose, act and modify its means. Several participants can jointly supply one influence, and each can be influenced by the others. Recover the contributions and how they are connected before allocating them to parts.
 
@@ -206,7 +206,7 @@ Keep feasibility, outcome preference and assurance distinct in the comparison. A
 
 Follow the chosen continuation through the participants and means that must realize it. Establish what action is needed, who or what can perform it, what resources and permissions it uses, and when the effect is needed. The calculation, communication, agreement and execution consume time and capacity. Include them when they can change the option's availability or result.
 
-Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. To promise completion, fit attainable durations, eligible performers and dependencies into the available windows.
+Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. A feasible schedule establishes possibility under its stated durations and access conditions. For a promise across uncertain conditions, show how the authorized participants can meet the deadline throughout that range, using information available before their commitments. A bound can establish this without fixing the eventual schedule.
 
 Choose the organization of decisions where it is unresolved. One rapid feedback response may protect the system while a slower plan is revised. Alternatively, the relevant decisions may need to be made together. Different timescales do not by themselves require layers, and organizational titles do not establish update rates. Use **C.32.LCA** to construct or change the observation, decision and intervention arrangement when those relations are the limiting condition.
 
@@ -360,7 +360,7 @@ Those temporal and selection relations can be connected to the table above, but 
 
 #### C.43:4.9 - Use the control mantra to hold the reasoning together
 
-The mantra orders questions for understanding; it gives no common clock to their execution. Use §4.5.1 to construct the timing that the work requires.
+To explain how an existing control arrangement can behave, recover the installed rules, available signals and applicable dynamics. Follow their connections to the response or stability property in question. To explain a particular episode, establish what information reached which participant or rule, what it did and what followed. Keep the alternatives the evidence leaves open. For a commission to choose or change a continuation, use the questions below. Use §4.5.1 to construct the timing that the work requires.
 
 **Assess the situation → construct possible continuations → compare and choose → realize the action → examine what happened → revise the continuation.**
 
@@ -388,7 +388,7 @@ During use, the operator checks the assumption that test delay leaves both actio
 
 A service team has one qualified specialist available from 09:00 to 15:00. Under the stated conditions the repair takes four hours and the team’s other accepted obligation takes three. Each is ready to start and can be completed on its own in that window. If their work is distinct and the specialist is needed throughout, seven hours are required. The team cannot deliver both by 15:00.
 
-Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. A promise still needs attainable durations and a schedule.
+Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. For a promise covering uncertain durations, establish how the deadline can be met throughout the promised range. When the stipulated durations are fixed, the exhibited schedule settles this case.
 
 When the distinct work requires seven hours, possible changes include obtaining another qualified hour usable on the work in time, agreeing with the affected recipient on a different scope or deadline, or asking the authorized participant to choose which consequence to accept.
 

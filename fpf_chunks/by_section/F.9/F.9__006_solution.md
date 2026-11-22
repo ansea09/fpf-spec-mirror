@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:4 — Solution"
-line_start: 129919
-line_end: 129998
+line_start: 130034
+line_end: 130113
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,7 +57,7 @@ keywords:
 
 ### F.9:4 - Solution
 
-Start with the two exact local senses, not with a context object, mapping table, or card. Resolve each endpoint as an F.17 `SchemeSenseCell` coordinate:
+Identify the conclusion for which the meanings matter. For a question about their semantic relation, choose the two senses whose correspondence would settle it. For a question about the practice they describe, follow each contribution to the result the recipient needs. One may supply information to the other, or independently produced findings may both have to apply to the same case. Which distinction would change what the recipient can conclude? A semantic relation can supply a premise. Establish the connection in the practice when the conclusion depends on it. If the inquiry needs a Bridge, resolve its two local senses as exact F.17 `SchemeSenseCell` coordinates:
 
 ```text
 <ReferenceScheme by value, LocalExpression, LocalSenseClaim>
@@ -115,7 +115,7 @@ A later applicability or as-of basis changes the profile and therefore opens ano
 
 #### F.9:4.2 - Judge a bounded use separately
 
-Once Bridge `b` obtains, state the proposed use in ordinary language before introducing FPF terms. Name:
+When the question is whether an established Bridge `b` suits a particular use, work back from the recipient’s intended inference or action. Which differences in the source can the receiving rule merge while still giving a warranted answer? Try source cases that the receiving expression treats alike. If they call for different answers or different grounds that the recipient needs, preserve the distinction, restrict the proposed use to cases where it is immaterial, or reject that use. State the proposed use in ordinary language. Give the following particulars in the bounded-use claim.
 
 - `u`: what the reader proposes to compare, substitute, translate, publish, or otherwise do;
 - `d`: the exact source-to-receiving direction for that use;

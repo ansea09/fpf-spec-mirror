@@ -6,12 +6,12 @@ section_id: "E.10.D2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:1 — Problem frame"
-line_start: 109062
-line_end: 109087
+line_start: 109126
+line_end: 109151
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -46,7 +46,7 @@ Begin with the receiving use:
 4. What exact `U.Entity` is the `EntityOfConcern` of that claim-bearing whole?
 5. Which effective `ReferenceScheme` supplies the designation and interpretation rules that make those claims readable about that entity?
 
-The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. If identity is all the receiving use needs, stop there. Otherwise open only the neighboring object or relation needed for the next visible sentence or action.
+The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. A request for that identity can end here. If the recipient needs to decide something else, recover the additional facts on which the decision depends and, where several must hold together, establish that they concern the relevant edition, participants or work.
 
 Not this pattern when the live question is already an exact evidence path, assurance claim, work occurrence, gate decision, commitment, Bridge, publication occurrence, representation correspondence, or state fact. Use its direct governor. Return here only if the wording also obscures which entity is being described or which episteme carries the claims.
 

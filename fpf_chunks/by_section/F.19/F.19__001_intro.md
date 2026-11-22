@@ -6,12 +6,12 @@ section_id: "F.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:intro — Intro"
-line_start: 135134
-line_end: 135150
+line_start: 135253
+line_end: 135269
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -41,7 +41,7 @@ keywords:
 **Plain-name.** Ontology-first plain rewriting.
 
 **Intent.**
-Repair technical prose that is grammatically plausible or locally true yet makes the reader supply an unsupported relation, participant, alternative, list meaning, or rhetorical branch. First recover the governing object, claim, action, required operands, referents, and kinds; then remove apparatus and other structure that contributes nothing to the intended use.
+Help the reader understand the subject and carry out the reasoning or action the work requires. Read the question alongside what the recipient could do with the words as written. A clear passage can lead to a different conclusion because the author changed the subject, explained one part of the whole, or made a choice the reader was meant to make. Restore the reasoning the reader needs. Resolve unsupported relations and unclear referents, and remove wording that contributes nothing to the intended use.
 
 The normal result is repaired text, not an audit form. Preserve every technical distinction and operational detail that changes truth or action, and route unresolved FPF wording to `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the subject pattern that defines it.
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 115944
-line_end: 116066
+line_start: 116018
+line_end: 116142
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,6 +79,8 @@ To retain the sentence, constitute exact target episteme `E_robustnessClaim` and
 **Published explanation.** `M-2 is selected here because the material stays below threshold T and resource window W is available. Work plan WP-17 and result measurement RM-4 remain required before and after execution.`
 
 The selection relation and both limits are explicit in the source, so this is ordinary same-ClaimGraph re-expression. It needs no `addedLinkPolicy`. It is not evidence that work occurred, a gate decision, or engineering justification.
+
+These facts can explain this choice of M-2. Suppose the reader must choose a method for a later job in which the window may change. The account of this selection alone leaves open what to do then. If the source gives a selection rule and the grounds for using it across those conditions, carry them into the explanation, even if the source develops them inside this one case. Otherwise return the supported explanation of this choice and identify what remains to learn about choosing a method.
 
 Selection use concerns exact `U.Method` M-2. Planning concerns `U.WorkPlan` WP-17 under A.15.2. Any claim that work occurred requires a dated `U.Work` under A.15.1. Evidence, engineering-justification, or gate use remains under A.10, B.3, A.20, or A.21 only for a claim of that kind.
 

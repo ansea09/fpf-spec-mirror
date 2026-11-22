@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:4 — Solution"
-line_start: 41275
-line_end: 41386
+line_start: 41307
+line_end: 41418
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,7 +79,7 @@ For one evaluated applicable constraint:
 
 - `satisfied` means the test established the named constraint for the stated case and window;
 - `violated` means the test established a counterexample or failed condition;
-- `unknown` means required case facts or witness content could not be determined after applicability was established; unresolved applicability remains the preliminary question in section 4.1;
+- `unknown` means the available grounds leave both satisfaction and violation possible, or lack a basis for deciding between them, after the constraint’s applicability has been established; unresolved applicability remains the preliminary question in section 4.1;
 - `error` means the selected evaluation could not complete correctly.
 
 When a consumer needs one local summary over the complete required set, use:
@@ -97,16 +97,16 @@ Optional results do not change the summary unless a separately accepted use deci
 
 #### A.20:4.3 - Constraint families and outcome rules
 
-The following families are recognition aids, not a universal required list. Each application still names the constraint, edition, assumptions, case facts, and test.
+The following families are recognition aids, not a universal required list. Each application identifies the constraint, edition, assumptions and case grounds that decide it. Consider what follows from the available facts together. A bound can settle a threshold even if the exact value is missing. Use `unknown` when the surviving possibilities still permit different answers.
 
 | Constraint family | Trigger | `satisfied` means | Other outcomes |
 | --- | --- | --- | --- |
-| Type, domain, and range | The subject consumes or produces typed values. | Every case input and result used by the claim lies in the declared type, domain, and range. | A counterexample is `violated`; unavailable values are `unknown`; an evaluation that cannot complete correctly is `error`. |
+| Type, domain, and range | The subject consumes or produces typed values. | Every case input and result used by the claim lies in the declared type, domain, and range. | A counterexample is `violated`; values whose membership remains undecidable from the available grounds are `unknown`; an evaluation that cannot complete correctly is `error`. |
 | Admissibility conditions | The operation or transformation declares guards or admissible cases. | Every required guard is true for the case and window. | A false guard is `violated`; undetermined guard truth is `unknown`. |
-| Law or invariant set | The current claim relies on a named law or invariant. | The named invariant holds for the case under its assumptions. | A counterexample is `violated`; missing case facts or witness content are `unknown`. |
-| Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | A mismatch is `violated`; an unrecovered declaration is `unknown`. A.20 does not define or translate units or planes. |
-| Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`; absent assumptions or certificate content are `unknown`. No bound is required without this trigger. |
-| Return-shape preservation | A consumer relies on a declared set, archive, order, or other non-scalar result shape. | The transformation preserves that declared shape for the current case. | Hidden scalarization or lost required structure is `violated`; unrecovered shape facts are `unknown`. A.20 does not rank or select the result. |
+| Law or invariant set | The current claim relies on a named law or invariant. | The named invariant holds for the case under its assumptions. | A counterexample is `violated`; the result is `unknown` if the available case facts and witness leave the law undecided. |
+| Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | An established mismatch is `violated`. If the available declarations and case facts leave coherence undecided, the result is `unknown`. A.20 does not define or translate units or planes. |
+| Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`. If the available assumptions, certificates and other grounds leave the claimed bound undecided, the result is `unknown`. No bound is required without this trigger. |
+| Return-shape preservation | A consumer relies on a declared set, archive, order, or other non-scalar result shape. | The transformation preserves that declared shape for the current case. | Hidden scalarization or lost required structure is `violated`. If the available information leaves preservation of the required shape undecided, the result is `unknown`. A.20 does not rank or select the result. |
 | A.6.4 retargeting invariant | The proposition in q is the named internal constraint for the current use; q remains the C.2.1 bounded-use assertion about r. | Current case facts establish the proposition as stated, including its invariant, visible loss, named receiving use, conditions, and polarity. | A counterexample is `violated`; a missing deciding fact is `unknown` unless the constraint itself makes absence a failure. This A.20 result may enter the case basis for A.6.4's separate `satisfies`, `fails`, or `cannot decide` judgement; it is not that judgement, and the current facts remain separately named. r and any application remain separate. |
 
 The constraint's own pattern supplies its truth condition. A.20 supplies the application result form and summary only.

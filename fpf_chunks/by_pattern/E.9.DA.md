@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.DA.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
-line_start: 104968
-line_end: 105429
+line_start: 105030
+line_end: 105491
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -69,7 +69,7 @@ Recurring failures:
 
 ### E.9.DA:4 - Solution
 
-Start with the decision itself. Read the DRR under review in its declared authoring use. Can a practitioner or author recover the working problem, selected answer, practical change, selected loci, first drafting action, and boundary without inventing decisions or decoding avoidable formality? Settle that question before constructing any optional evaluation materials.
+Read the commissioning problem beside the proposed DRR. Recover the choice, who needs it and what that person is entitled to decide. Follow the record to its conclusion, including what it settles about the relevant wholes, parts or model alternatives. Would a clear record of a different decision also pass the stated test? Restore the question or the missing reasoning where the answers diverge. Then establish whether an author can draft from the selected answer, consequences, loci, first action and boundary.
 
 The following result suffices for an ordinary bounded review.
 
@@ -91,7 +91,7 @@ Before assigning coordinates, make one bounded search for an important question 
 
 In either branch, distinguish the checked DRR, evaluation specification, action or Work, application, result, record, evidence use, status use, authority, and later repair. A compact result can omit identities its receiving use does not need. A claim that asserts Work must still establish the facts required for that Work.
 
-For a broad language or ontology rule, use the predecessor and proposed versions of the actual host to judge `DraftingActionability`, `LexicalAndNamingClosure`, and precision restoration. A promise in the DRR, complete table, test in another lane, or invented fact pack cannot establish how a practitioner can use that host. Require both formal precision and plain comprehensibility.
+For a broad language or ontology rule, use the predecessor and proposed versions of the actual host to judge `DraftingActionability`, `LexicalAndNamingClosure`, and precision restoration. A promise in the DRR, complete table, test in another lane, or invented fact pack cannot establish how a practitioner can use that host. Require both formal precision and plain comprehensibility. For a claim about other uses, establish why differences in the objects, the reader's work or the alternatives leave the claimed conclusion warranted.
 
 #### E.9.DA:4.1 - Local names and kind settlement
 
@@ -224,7 +224,7 @@ If reliance depends on a viewpoint or grounding claim, give the basis for that c
 | 2 | `partiallyExpressedForDeclaredUse` | The coordinate is present but incomplete, fragile, or too narrow. |
 | 3 | `sufficientlyExpressedForDeclaredUse` | The coordinate can carry the declared authoring use, with limits visible. |
 | 4 | `wellExpressedForDeclaredUse` | The coordinate is clearly expressed with direct evidence and boundary protection. |
-| 5 | `exceptionallyExpressedForDeclaredUse` | The coordinate is exceptionally expressed across reinforcing loci and cases without hiding cost or neighbour loss. |
+| 5 | `exceptionallyExpressedForDeclaredUse` | The grounds settle the coordinate throughout the commissioned use and expose any consequential cost, trade-off or condition on that conclusion. A decisive relation may be expressed once. |
 
 When a complete reusable coordinate evaluation is produced, each ordinal value is a content-evaluation claim about the exact checked DRR under the declared use and window. In an ordinary bounded review, the same scale may guide judgement without materializing a measure, Work record, result episteme, assurance, acceptance, or reward.
 
@@ -245,7 +245,7 @@ A correct list of suppliers, a suitable carrier, closed alternative rows, or suc
 
 | Coordinate | Evaluation question |
 |---|---|
-| `BoundedDecisionQuestionRecoverability` | Can the reader recover the FPF content decision question named by value and adjacent questions outside it? |
+| `BoundedDecisionQuestionRecoverability` | Can the reader trace the question the DRR answers to the content decision the receiving practice commissioned, including any entrusted choice still open? Which adjacent decisions fall outside it? |
 | `SelectedAnswerDecisiveness` | Does the `DRR` record the selected answer as a decision made now rather than left for drafting? |
 | `SourceUseAndDecisionInheritanceCarryThrough` | Does needed source use or accepted decision inheritance change selected answers, boundaries, obligations, cases, architecture choices, stops, or reopen conditions by value? |
 | `AlternativeDispositionCompleteness` | Are the alternatives needed to explain the selected answer, live boundary, or reopen condition closed, while irrelevant discussion history is absent from the current DRR? |
@@ -283,10 +283,10 @@ Common calibration points:
 
 | Coordinate family | `3` | `4` | `5` |
 |---|---|---|---|
-| Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting action without hidden unsettled branches. |
-| Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | Source distinctions are replayable across selected answer, cases, boundaries, and first drafting action. |
-| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci are named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, concrete pattern or relation for each outside claim or boundary, and lost-structure or source-use distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
-| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | Drafting can proceed across heterogeneous selected loci from the decided content, without inventing missing decisions or importing local negative catalogues, reference boilerplate, phrase apparatus, architecture-memo prose or unsupported Method/Work claims. |
+| Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The grounds explain why the answer settles the commissioned choice across its admissible alternatives and show what could require a new decision. |
+| Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | An author can trace a consequential source distinction to the selected answer and tell when a change in the source would affect the resulting work. |
+| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci are named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The architecture and assignments explain why the proposed change belongs where it does and what an affected practitioner will gain or lose. The reasoning covers the selected scope, including dependencies on other loci where those affect the answer. |
+| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | The author can act from the DRR at every locus the decision actually changes, with the required relations, limits and user consequences recoverable. A decision confined to one locus can meet this grade there. |
 
 #### E.9.DA:4.5 - Local result status and stop condition
 
@@ -396,7 +396,7 @@ A small editorial decision can use `E.9` directly. In an ordinary DRR review, ju
 | Check | Requirement |
 |---|---|
 | `CC-E9DA-0` | Make the semantic judgement first. For an ordinary bounded review, name the exact DRR, required authoring use and source, effective floor and source, substantive findings, repaired text or unchanged checked DRR when clean, first action or repair, stop or return, and reopen. Add a non-use boundary only when an independently grounded competing reading is plausible and action-changing; do not require a formal dossier. |
-| `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. A proxy does not substitute. |
+| `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. For a wider claim, examine the grounds for carrying the result beyond that use. |
 | `CC-E9DA-0b` | Before coordinate closure, make one bounded search of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and direct consumers for an important question the DRR omitted. Return an answer-changing question as a substantive finding and reassess every affected coordinate under its value rule. A clean ordinary review needs no separate search ledger; a reusable result records only the basis its receiving reliance needs. |
 | `CC-E9DA-1` | Keep the exact DRR, required authoring use and its source, selected-locus map, qualification window, and effective floor recoverable. Method, A.6.1 application, and dated Work are independently conditional. Add each identity only when the receiving claim uses it. If dated `U.Work` is asserted, establish the enacted Method, every precise performer's A.13 core and independent A.15.1 admission in 4.2. Add the application and its relation to Work only when independently established and used by the receiving claim; add F.6 only for precise assignment-bound attribution. |
 | `CC-E9DA-2` | When a complete reusable coordinate evaluation is explicitly required, evaluate every coordinate with value, adjacent-value rationale, and evidence locus. Otherwise perform the focused content review requested and return its findings or repairs without creating unused coordinate records. |

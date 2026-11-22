@@ -6,12 +6,12 @@ section_id: "F.0.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__011_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:10 — Rationale"
-line_start: 126788
-line_end: 126793
+line_start: 126899
+line_end: 126904
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -36,5 +36,5 @@ keywords:
 
 A shared vocabulary can help locate the claims to compare. The comparison earns its cost when it establishes what the sources jointly warrant, where their accounts differ, or which evidence would settle a consequential disagreement. That result can answer an inquiry directly, change a method or inform a pattern. One bounded comparison often suffices.
 
-The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry turns a source limitation into a defined next action. Ordinary `C.2.1` claim identity keeps those results separately revisable.
+The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry identifies the open premise, what remains warranted and any attainable way to settle it. Ordinary `C.2.1` claim identity keeps those results separately revisable.
 

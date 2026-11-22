@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RQ.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
-line_start: 89258
-line_end: 89511
+line_start: 89304
+line_end: 89557
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -105,7 +105,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 6. **Identify who bears each burden and when.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
 7. **Name evidence and observations.** For every decision-changing criterion, state what record or observation a later evaluation needs, its edition or window when material, and what would count as satisfied, failed, or unknown. Do not turn the requested evidence into a fit verdict.
 8. **State acceptance, stop, and reopen rules.** Say when the criteria set is adequate for its next use, which missing fact stops that route, and which situation or source change requires rebuilding it. A stop may route to capability, support, authority, product, or Work redesign rather than Method selection.
-9. **Return without selecting.** For each criterion, state what it constrains and which decision depends on it. An adequate existing account can carry the criteria. Use A.3.1.QM to qualify one identified Method, retain or exclude a candidate account, or examine a connection that can be assessed on its own. Use C.32.MWA.PP when combined work, provision or shared constraints can change the decision.
+9. **Return without selecting.** Could an arrangement satisfy every listed criterion and still fail the receiving use? Could the criteria exclude an arrangement that meets the terms? Add the missing relation or relax the unwarranted restriction. An inquiry about one disputed criterion can finish with its effect on the decision. An adequate existing account can carry the criteria. Use A.3.1.QM to qualify one identified Method, retain or exclude a candidate account, or examine a connection that can be assessed on its own. Use C.32.MWA.PP when combined work, provision or shared constraints can change the decision.
 
 #### C.39.RQ:4.2 - Record the Result
 
@@ -172,7 +172,7 @@ Responsibility, access, capability, assignment, permission, authority, performed
 | `SC-EVID-01` | provisional and signed hardware-evidence inputs, their relation, and the safety-closure guard | provisional evidence may be used before closure only with edition and uncertainty; signed evidence supersedes it for safety-closure reliance, while the provisional edition, uncertainty, earlier Work use, and relation to the later signed evidence remain traceable | version/uncertainty fields, earlier-use record, signed supplier evidence, and inspectable provisional-to-signed relation; missing signed evidence at closure stops release |
 | `SC-REV-01` | integration Work and the implementation state | rollback remains possible within one hour until `D-1`; the project may choose a signed-first or provisional-first branch before entry | replayable rollback demonstration for the current toolchain; inability to restore within one hour is `failed` for an early-integration route |
 | `SC-CAP-01` | hardware-verification and safety-evidence capabilities of the named performers | hardware verification and safety evidence judgment require current capability for the named controller, rig, and safety scope; capability grants neither assignment, permission, nor release authority | current capability evidence for each named performer; the separate assignment, permission, and decision-authority conditions must also hold, and missing capability stops the contribution that needs it |
-| `SC-TECH-01` | PLM/CI support, pinout schema, test-rig access, and their relations to Work | the evidence version used by integration remains recoverable; required verification has a named rig/access route; equivalent tools are allowed when they preserve the same result and evidence conditions | configuration, schema-edition, and access records; an unknown input edition or unavailable verification route is `unknown` and blocks reliance |
+| `SC-TECH-01` | PLM/CI support, pinout schema, test-rig access, and their relations to Work | the evidence version used by integration remains recoverable; required verification has a named rig/access route; equivalent tools are allowed when they preserve the same result and evidence conditions | configuration, schema-edition, and access records; an unidentified material edition leaves its dependent conclusion open. A route known to be unavailable rules out that route. Check whether another permitted route supplies the required verification |
 | `SC-BURDEN-01` | safety-engineer allocation on the peak safety day | safety demand stays at or below `0.40` of an eight-hour day (`3.20 h`); burden shifted to another performer remains visible rather than disappearing | allocation and time estimate for the selected day; demand above `0.40` is `failed` for the proposed structure, not proof that any one Method is unfit |
 | `SC-BOARD-01` | each joint-board Work occurrence | each board lasts at most 45 minutes; one or two boards are allowable when the evidence and burden criteria remain satisfied | planned duration, with an actual-duration record for a performed board; a proposed or performed board above 45 minutes fails the coordination-burden criterion |
 | `SC-STOP-01` | `W-ReleaseDecision-17`, its covering assignment, `AUTH-ReleaseDecision-17`, and the receiving result | no release occurs without signed evidence, required verification, a covering assignment, and the release-decision authority relation; delay to a later authorized slot is allowable | release record citing evidence, assignment, authority relation, and decision result; any missing non-negotiable yields withhold or next-slot, not silent waiver |
@@ -183,7 +183,7 @@ A later individual qualification may apply contribution, capability, access, and
 
 A later architecture comparison must inspect combined peak demand, timing, covering assignments, permission and decision-authority relations, provider access, and burden transfer. Passing one row or staying below `0.40` does not establish fit of the whole proposed structure.
 
-The criteria set is adequate for its next use when every non-negotiable row has an observable test, the remaining variations are explicit, and unknowns are routed to their subject.
+In this case the criteria are sufficient for use when they distinguish the arrangements that meet the receiving terms, including the relations among the required contributions. A test for every listed row can still miss the requirement that the evidence and the integration decision concern the same configuration.
 
 Apply each stop to the route that depends on it: missing signed evidence stops release; confidential geometry exposure stops AI-supported use; assignment, permission, authority, capability or verification gaps stop the contributions that require them. Rollback beyond one hour excludes early integration; excess peak demand or board duration excludes the proposed arrangement.
 
@@ -227,7 +227,7 @@ Apply these questions to the criteria being established or appraised and to the 
 - [ ] When a criterion's justification is disputed, the recommendation compares its protective contribution and burden and distinguishes that judgement from current force and the feasible amendment route.
 - [ ] Every burden limit names its participant, Work scope, applicable time window, bound and basis, and how satisfaction can be determined. A measured burden retains its measurement method and conditions; a stipulated or derived bound retains its governing or derivation basis.
 - [ ] Every decision-changing row names evidence and `satisfied | failed | unknown` observations.
-- [ ] The result states acceptance-for-next-use, stop, and reopen conditions without selecting or admitting a Method.
+- [ ] The criteria support the intended evaluation, including allowed alternatives and joint conditions. Selecting a Method requires the subsequent judgement.
 - [ ] Individual and combined structure questions are routed to different later results.
 
 ### C.39.RQ:8 - Common Anti-Patterns and How to Avoid Them

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
-line_start: 113541
-line_end: 114100
+line_start: 113609
+line_end: 114172
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -32,7 +32,7 @@ keywords:
 ## E.17.0 - Viewpoint and View Recognition for Multi-View Describing
 > **Status:** Stable
 
-**At a glance.** Use `E.17.0` to decide whether one identified engineering account is a view under the existing viewpoint you are testing. Test the viewpoint’s rules even when the account’s label, layout, generation history, bundle position or publication suggests it is a view.
+**At a glance.** A viewpoint specifies what descriptions made for a purpose must cover. To choose one, start from what the reader needs to decide or explain (§4.8). To recognize an existing view, test the identified account against the specified viewpoint’s rules (§§4.1–4.5). Its label, layout, generation history or place in a bundle can help locate the account.
 
 **Use this when.** A description, model slice, query result, diagram, or other claim-bearing episteme is being called a functional, safety, maintenance, architecture, or other view, and the next reading, comparison, construction, or publication depends on whether that claim is warranted.
 
@@ -40,7 +40,7 @@ keywords:
 
 **What this buys.** One stable test works for directly authored and derived epistemes. Identify the candidate E, resolve the viewpoint edition P, and test P's fixed conformance predicate. Both epistemes retain their identities.
 
-**First action.** Recover candidate E through C.2.1, resolve an existing `U.ViewpointRef` to P, and read the target, concern-coverage, semantic-form, completeness, consistency, and admitted-omission rules fixed by P. Do not author a new viewpoint or bundle merely to perform this test.
+**First action.** For selection, identify an alternative that changes the reader's action or the grounds for it, then use §4.8 to choose the distinctions the description must preserve. Use §4.6 if a needed convention must be authored or revised. For recognition, recover candidate E through C.2.1, resolve the existing `U.ViewpointRef` to P, and read the rules fixed by P. The first result of that test is the conformance judgment below.
 
 **First useful result.** State one readable judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
 
@@ -95,6 +95,8 @@ A common error is using the wrong object to justify the next action. For example
 ### E.17.0:4 - Solution
 
 **Recognition test.** Identify the candidate episteme. Resolve the existing viewpoint episteme. Test their fixed conformance predicate. If it obtains, recognize the same episteme as a view; if it fails, name the failed rule and stop or repair. Add construction, selection, correspondence, evaluation, or publication only for the current use.
+
+When the question concerns choosing what each account must show, use §4.8 before selecting a convention. If available conventions omit a needed distinction, §4.6 governs creating or revising one. For the question whether a particular account conforms to an already specified viewpoint, apply the following recognition test.
 
 See §§4.1–4.11 for the object distinctions, obtaining rules and stopping conditions behind this reminder.
 
@@ -228,7 +230,7 @@ The first row sets the ordinary architecture. The second demonstrates the narrow
 
 ##### E.17.0:4.6.1 - Author the smallest self-contained viewpoint episteme
 
-Identify the independently admitted target kind `K_target` that the candidate epistemes' EntitiesOfConcern must satisfy. For a local kind, recover its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. Use a practice or source boundary only to find or compare that membership rule. Use an exact C.3.2 `KindSignature` edition and `U.ContextSlice` only as separate inputs when the membership test needs them.
+Start from what a reader must be able to decide or explain from a description made under P. Which subjects can that question concern? Which changes to a subject or its use would require a different conclusion? Use those answers to choose the target and concerns and to justify which omissions a conforming description may admit (C.39.SA:4). Identify the independently admitted target kind `K_target` that the candidate epistemes' EntitiesOfConcern must satisfy. For a local kind, recover its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. Use a practice or source boundary only to find or compare that membership rule. Use an exact C.3.2 `KindSignature` edition and `U.ContextSlice` only as separate inputs when the membership test needs them.
 
 Constitute P under C.2.1 as `<ClaimGraph(P), K_target, ReferenceScheme(P)>`; the target kind is P's EntityOfConcern because P states how epistemes about members of that kind are to be read. P's fixed ClaimGraph:
 
@@ -446,7 +448,9 @@ Changing only J, an assertion or occurrence description, evaluation result, basi
 
 #### E.17.0:4.8 - Keep selection for one describing use separate
 
-For one current describing use, always name the use. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
+For one current describing use, name the question the reader must answer. When you are to choose the viewpoint, start with a difference that could change the reader’s action or its explanation. For each kind of holon whose composition matters, identify the whole and constituents on which that difference depends. At each needed scale, ask which cases the description may treat alike. Choose a viewpoint whose concerns require the necessary distinctions (C.39.SA:4). For a claim that model C strictly refines model A, fix the inquiry and interpretation. Establish that C has an admissible completion and that every such completion, read in A’s terms, satisfies A’s assertions. Also identify an answer admitted by A that no completion of C can give (B.5.MR:4.2).
+
+One description may supply the entire answer. When it takes several, trace each needed conclusion to what the descriptions establish for the original question. Identify what relates their subjects and conditions. If their claims must hold together, establish that they concern compatible objects or situations. If the descriptions express alternative readings, check what follows on each. In a question about joint work, a change in one participant’s choice can alter what another must do for the common result. Follow that dependence through the descriptions the participants can use. A similar label on both pages can leave it invisible. Use C.37.MM:4.1.1 where the inference needs a correspondence. If the commission asks only whether E conforms to a specified P, §§4.1–4.5 give the complete test. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
 
 When the viewpoint matters, select P only for that describing use. The selection does not establish conformance or `U.View` membership, give E a new C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. A use needing several viewpoints first identifies the C.13 collection and its exact membership; it does not overload `viewpointRef` with a collection value.
 

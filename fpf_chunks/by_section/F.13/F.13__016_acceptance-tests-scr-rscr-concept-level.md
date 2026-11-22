@@ -6,12 +6,12 @@ section_id: "F.13:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 131835
-line_end: 131852
+line_start: 131952
+line_end: 131969
 dependencies:
   - "F.1"
   - "F.17"
@@ -48,5 +48,5 @@ keywords:
 * **RSCR-F13-E01 (Edition drift audit).** Compare affected earlier/later definitions and naming uses. Stable meaning can support a rename with distinct expression-bearing cells; changed meaning requires the subject-governed revision, replacement, split, merge or retirement before fresh naming settlement.
 * **RSCR‑F13‑E02 (Alias change).** After changing aliases, verify that needed historical read-paths remain usable and the preferred current designation remains clear.
 * **RSCR-F13-E03 (Bridge leak check).** A claimed correspondence between different semantic projections is tested under F.9 only when a current use needs it. Retain exact meanings and an unresolved result when obtaining is unestablished; do not create a Bridge by rewriting a note.
-* **RSCR‑F13‑E04 (Didactic continuity).** Sampling of examples shows that readers can **resolve** legacy labels to current ones without confusion (via the continuity notes).
+* **RSCR‑F13‑E04 (Didactic continuity).** On the earlier passages examined, can readers recover the supported historical meaning or outstanding alternatives and any justified link to later usage? Judge a wider reading claim on passages and reader conditions that support its reach.
 

@@ -6,12 +6,12 @@ section_id: "F.16:18"
 section_title: "Closing distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__019_closing-distillation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:18 — Closing distillation"
-line_start: 132994
-line_end: 132997
+line_start: 133113
+line_end: 133116
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,5 +50,5 @@ keywords:
 
 ### F.16:18 - Closing distillation
 
-> A useful worked example is one replayable argument: situation and gain → claim → actual subjects → direct relations → exact sources and evidence → result and limits → a few focused checks. Cells and tables are optional reading aids. They never replace the values, relations, evidence, or judgement that make the example true.
+> A useful worked example lets the reader follow an argument chosen for their question. Show what makes the case informative, how its premises warrant the result and what the reader must choose again when using the method elsewhere. Cells and tables are optional reading aids. They never replace the values, relations, evidence, or judgement that make the example true.
 

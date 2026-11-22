@@ -6,12 +6,12 @@ section_id: "C.37.MM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:4 — Solution"
-line_start: 86947
-line_end: 86989
+line_start: 86989
+line_end: 87031
 dependencies:
   - "B.5.MR"
   - "C.2.1"
@@ -32,7 +32,7 @@ When several models concern the same entity, establish its identity across them.
 
 Start from the composition scales and model distinctions the decision calls for. If choosing a range is part of your task, use C.39.SA:4. If the intended recipient must choose, make the method and evidence for that choice available to them. In a multimodel, establish what each model contributes and how those contributions can hold together.
 
-1. Identify the types of entities and actions that can affect that result. For each relevant kind of holon, follow its own composition as far as the decision needs. A system has integrated components. A composite Method admits particular Methods under its construction rule. For composite dated Work, establish which actual performances did a constitutive part of that very job. An overlapping or earlier performance can help without belonging to it. An episteme can depend on several claims with a common ground. For a discipline, identify the knowledge and practice its working arrangement integrates. A part, an available alternative and an external supplier can play different parts in the decision.
+1. Identify the types of entities and actions that can affect that result. For each relevant kind of holon, follow its own composition as far as the decision needs. A system has integrated components. A composite Method admits particular Methods under its construction rule. For composite dated Work, establish which actual performances did a constitutive part of that very job. An overlapping or earlier performance can help without belonging to it. For an episteme, identify the claims and grounds incorporated into the account and any external sources to which it appeals. For a discipline, identify the knowledge and practice its working arrangement integrates. A part, an available alternative and an external supplier can play different parts in the decision.
 2. For each inference, identify what its model can leave open. Which alternatives must remain distinguishable for this inquiry? Can a general rule settle it throughout the stated range? Use B.5.MR when comparing models towards greater abstraction or refinement. You can change the scope of composition while holding model abstraction fixed, or compare models of the same whole while holding its composition in view.
 3. Connect the results. Name who or what participates and the relation on which the inference depends. Work enacts a Method. A system participates in the Work. A report relies on an observation made during that Work. These links may be needed together. A rule at every eligible scale, an influence across scales and a result of several working together each need grounds for the connection they assert. A control layer adds its own functional organization when the decision depends on it.
 4. Trace the explanation forward to the recipient's decision. Could all the local claims stay true while a different connection changed that decision? If so, recover the missing connection when it is available. If it is unavailable, give the warranted partial answer and identify the condition that still decides the original question. A partial result can finish the commission when it already settles the recipient’s criterion. For an assertion covering a range, show why the grounds hold throughout it. One governing rule or a sufficient bound can sometimes settle the entire question.
@@ -47,7 +47,7 @@ State how the claims from the models are to be read together. Align such matters
 
 To establish that an outcome is possible under these models, show that at least one jointly admissible case has that outcome. You can exhibit such a case or prove that it exists. If the recipient needs a setting they can actually use, recover one and check it against the conditions. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
 
-Ask whether the outstanding uncertainty affects the decision you owe. Two interpretations can yield different estimates and still put every admissible result on the same side of a decision threshold. That can settle the choice while the estimate remains open. If admissible interpretations give different choices, recover the convention, observation or model relation that separates them. When the set of possible interpretations is itself open, qualify the answer to the ones examined.
+Ask whether the outstanding uncertainty affects the decision you owe. Two interpretations can yield different estimates and still put every admissible result on the same side of a decision threshold. That can settle the choice while the estimate remains open. If no fixed choice works throughout the allowed conditions, establish whether the recipient may choose after a distinguishing observation. The observation must be available before commitment and the action for each possible answer must work throughout the cases still compatible with it. If those conditions fail, return the unresolved choice or the demonstrated limit. An incomplete list of interpretations can still support a conclusion if every permitted interpretation must preserve a sufficient bound or other relevant property. Where no grounds cover the others, qualify the answer to the interpretations examined.
 
 A claim about a candidate is distinct from a claim about how an actual system performed. To use a test result from an observed system, state what was observed and which target claim it supports under which conditions. B.5.MR supplies the test for a further claim that joint use strictly refines the earlier model. A gain in interpretation can occur while the set of eligible candidates stays the same.
 

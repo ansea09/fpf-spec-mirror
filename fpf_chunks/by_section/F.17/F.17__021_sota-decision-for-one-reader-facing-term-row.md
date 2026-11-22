@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA Decision for One Reader-Facing Term Row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-decision-for-one-reader-facing-term-row.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:16 — SoTA Decision for One Reader-Facing Term Row"
-line_start: 134122
-line_end: 134147
+line_start: 134241
+line_end: 134266
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ Compare the row with the lightweight lexical entry. Hold the term, target, use c
 
 Adding those statements to the lightweight rival closes that gap; a generated readable view of those same statements is an acceptable way to express the F.17 row. A different vocabulary or file format is not, by itself, an improvement or a second naming result.
 
-For an ordinary reader inspecting one term, select the explicit row because the decision and return are visible together. The trade-off is maintaining a truthful reader-facing projection instead of asking that reader to reconstruct it from linked lexical statements. When lexical tooling already produces that projection, keep it and avoid a second editable source.
+For a reader who needs the settled naming decision and its source together, use the explicit row. The trade-off is maintaining a truthful reader-facing projection instead of asking that reader to reconstruct it from linked lexical statements. When lexical tooling already produces that projection, keep it and avoid a second editable source.
 
 When morphology, translation, or machine lexicon exchange is the actual use, the core model and only its needed extensions may be the better carrier. No measured speed advantage, blanket cost superiority, or replacement of OntoLex is claimed.
 

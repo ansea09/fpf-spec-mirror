@@ -6,12 +6,12 @@ section_id: "C.35:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__003_problem.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:2 — Problem"
-line_start: 85478
-line_end: 85491
+line_start: 85518
+line_end: 85531
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -59,7 +59,7 @@ C.35 handles the gap between result identity and architecture use. It first asks
 
 - A transformation names its source and result objects, trace, preservation, and loss.
 - A discovery names its observation or extraction basis, what is observed, inferred, or unknown, the covered and unexplored region, uncertainty, and validation.
-- A generative proposal names its constraints, proposed organization or claim content, known omissions, and validation needs; source and preservation enter only when a baseline is declared.
+- A generative proposal names its constraints, proposed organization or claim content, known omissions, and validation needs; identify the source of a constraint when its authority or edition matters to the recipient. A claim to preserve structure also needs an identified baseline.
 
 Method, performed Work, attribution, bearer feasibility, and publication detail enter only when the receiving use relies on them.
 

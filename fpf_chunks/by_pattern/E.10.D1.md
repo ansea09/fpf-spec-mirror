@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D1.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
-line_start: 108880
-line_end: 109056
+line_start: 108944
+line_end: 109120
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -73,7 +73,7 @@ Treating these uses as one `Context` participant, `ContextId`, or two-part `Sens
 Start with the sentence and the practical use that makes it matter.
 
 1. Mark the phrase containing *context* and state what a reader would do differently under another interpretation.
-2. Select the smallest branch in `E.10.D1:4.1` that answers that difference.
+2. Use the smallest branch in `E.10.D1:4.1` that settles the receiving question. If a phrase combines different conditions, recover the ones needed together. For example, restarting a pump may require both the authorized procedure for this site and the operating conditions that procedure permits.
 3. Apply the named subject pattern and recover its value, relation, claim, or situation. For source-local meaning, reuse an adequate current `F.0.1` result or apply `F.0.1` only when that meaning remains unclear. Do not create a generic Context participant as an intermediate step.
 4. Rewrite the sentence with the recovered content and state the next action or stop.
 5. If the same defect recurs across framework contributions, use the shared method in `E.10.ARCH`. Keep this pattern as the word-specific branch and keep the recovered content in its subject pattern or DPF.
@@ -104,7 +104,7 @@ An F.1 Source-Cut Card is a memory aid for one retained source edition and its a
 
 #### E.10.D1:4.3 - Short working script
 
-Name the meaning, its basis and the reader’s next move.
+Name the meaning, the grounds for this use and what they allow the reader to do. When several conditions must hold together, show how they apply to the same case.
 
 ```text
 This phrase uses “context” to mean [identified value, relation, scope, scheme, situation, or use].
@@ -143,7 +143,7 @@ If release review depends jointly on model applicability, actual assigned-Work u
 A use of `E.10.D1` conforms when it meets these conditions.
 
 1. the sentence and the action-changing ambiguity are named;
-2. one recovery branch supplies the smallest sufficient content;
+2. the recovered meaning supplies the conditions the receiving use needs, including their connection where several apply;
 3. the repaired sentence names the relevant value, relation, scope, scheme, situation, or use and the contribution of any cited pattern;
 4. source-local meaning reuses an adequate current `F.0.1` result or applies `F.0.1` when that result is absent or inadequate, then cites a basis relation only when it obtains;
 5. an A.1.1 structure is selected only when the organization of its direct facts changes the decision;

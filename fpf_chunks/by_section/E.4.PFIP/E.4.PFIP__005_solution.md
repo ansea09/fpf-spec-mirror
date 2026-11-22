@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:4 — Solution"
-line_start: 102108
-line_end: 102245
+line_start: 102159
+line_end: 102298
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -29,7 +29,7 @@ keywords:
 
 ### E.4.PFIP:4 - Solution
 
-For a candidate framework publication with a predecessor, run two independent comparisons:
+A full edition with a predecessor requires both comparisons below. For a bounded commission, perform the comparison that answers it and give the corresponding conclusion. An incorporation judgment about one approved change can stand on its own. An edition-wide preservation judgment requires the predecessor comparison.
 
 - **accepted source to candidate:** whether each accepted source contribution was incorporated into the named part of a candidate publication-form expression without changing its accepted meaning or use; and
 - **predecessor to candidate:** whether the candidate preserves the complete predecessor publication outside accepted content changes.
@@ -48,17 +48,19 @@ The form-mediated relation can remain true while its expression witness changes,
 
 #### E.4.PFIP:4.1 - Bound the candidate and accepted inputs
 
-Identify:
+For the commissioned comparison, identify the following inputs. A full edition uses the complete sets. A question about one contribution includes the expressions and dependencies needed to settle its use.
 
 - the candidate FPF, DPF, or LPF edition and declared publication use;
-- every accepted source contribution included in this candidate edition;
-- every candidate `PublicationExpressionRelation` occurrence, its selected edition, independently identified expression and bounded-use declaration, and any selected form and its `PublicationFormConformanceRelation`. Retain a current `PublicationFormExpressionRelation` claim with its expression witness;
+- the accepted source contributions covered by the incorporation claim,
+- each candidate `PublicationExpressionRelation` occurrence on which the commissioned comparison depends, its selected edition, independently identified expression and bounded-use declaration, and any selected form and its `PublicationFormConformanceRelation`. Retain a current `PublicationFormExpressionRelation` claim with its expression witness;
 - the corresponding carriers and publication occurrences only when their identities affect the comparison; and
 - every predecessor expression whose continuity, replacement, retirement, split, merge, or use change is claimed.
 
-Complete the accepted input set before assembly.
+Complete the accepted input set for the declared assembly or comparison.
 
 If one source contribution changes a public entry, required input, result, field meaning, action order, stop, return, or another consumed interface, either include the affected public entries and direct consumers in this candidate or leave that contribution out until they can be updated with it.
+
+For either comparison, recover the reader’s assigned work independently of the candidate wording. For incorporation, follow the accepted contribution into the use it was meant to serve. For preservation, follow the former reader’s path through the candidate with the information and help now available. This applies to a one-to-one replacement as well as a split or merge. A new audience or a new commission calls for its own usability judgement.
 
 Before assigning a receiving passage, recover the content architecture that makes that receiver appropriate. Method placement and architectural-account placement answer different questions.
 
@@ -66,7 +68,7 @@ Place a Method by its subject, generality and required contributions under E.4 a
 
 Retiring a separate carrier supplies neither placement decision. If the receiver is not justified, return that architecture question before treating a content match as an accepted allocation.
 
-For each accepted source contribution, record the candidate publication-form expression and the passage, field, relation, cue, or selected structure intended to incorporate it.
+For each accepted source contribution in the comparison, record the candidate publication-form expression and the passage, field, relation, cue, or selected structure intended to incorporate it.
 
 A source contribution with no corresponding predecessor content is an accepted addition. Changing or retiring predecessor content needs an accepted content decision; changing or retiring a publication form is not such a decision.
 
@@ -129,7 +131,7 @@ An accepted publication-form addition, retirement, split, merge, or use-change d
 Run a separate allocation comparison for every accepted form change that leaves an affected predecessor expression outside an eligible one-to-one pair, and for every split or merge even when narrower pairs survive.
 
 1. Select a complete inventory for every predecessor expression named by the form-change decision.
-2. For each named item of predecessor content or selected structure, use the receiving subject and publication function established in section 4.1, then record one or more corresponding candidate expression parts, an accepted content-change or content-retirement decision, an accidental-loss result, or a blocker. A complete textual match establishes correspondence. The receiver needs the architectural grounds from section 4.1.
+2. For each named item of predecessor content or selected structure, use the receiving subject and publication function established in section 4.1, then record one or more corresponding candidate expression parts, an accepted content-change or content-retirement decision, an accidental-loss result, or a blocker. A textual match locates the inherited words. Follow the instruction from the intended reader’s entry with the premises, help and other parts then available. For a preservation claim, compare the candidate with the work entrusted to the predecessor’s readers. Can they still make the same choice and obtain the promised result? If a different audience has been given a different job, assess its use on its own terms. When continued service to both audiences was promised, establish both results. A reused task placed after a figure that supplies its answer can now serve a different use. Give the architectural grounds from section 4.1.
 3. Allow predecessor content to appear in several candidate expressions and several predecessor inventory entries to correspond to one candidate expression part.
 4. Inspect the complete inventories of the named candidate expressions and classify candidate content or selected structure without a predecessor allocation as accepted or unexpected additions.
 5. Reuse an eligible-pair result as correspondence evidence when applicable, but do not let it replace the allocation traversal.
@@ -159,9 +161,9 @@ Return a bounded preservation conclusion with:
 
 The complete traversal remains checkable. Unchanged predecessor content and selected structure receive no prose rows. A build result, successful accepted-source comparison, pattern-quality result, or package-adequacy result cannot substitute for that traversal.
 
-When the framework publication has no predecessor, perform the accepted-source comparison, inspect the complete candidate inventory, check changed public entries and direct consumers, and use the applicable package evaluation.
+For the whole first edition, compare its accepted sources, inspect its complete inventory and affected public entries and direct consumers, and use the applicable package evaluation. A maintainer asked whether a named contribution reached a particular expression can complete that comparison with the sources and dependent uses it requires.
 
 When an unchanged edition is republished through a different form or carrier, use `E.24.PUB`, `E.17`, `C.33`, and `C.34` for the changed publication claims.
 
-Use this pattern only when accepted-source integration or complete framework-publication continuity is the live problem.
+Use this pattern for accepted-source incorporation or a judgement about continuity of a framework publication or a specified part of its use. The conclusion covers the comparison actually made.
 

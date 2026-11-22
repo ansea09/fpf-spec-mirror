@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.14.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
-line_start: 131861
-line_end: 132200
+line_start: 131978
+line_end: 132317
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,7 +64,7 @@ keywords:
 
 **Use this when.** Proposed names, aliases, cards, local-sense cells, or rows begin to multiply faster than the independently governed distinctions. Before minting a NameCard, `SchemeSenseCell`, Unified Term Sheet row, or durable name family, ask: **does an existing designation, alias, local expression, or direct-pattern name already let the practitioner perform the proposed use?**
 
-**First useful move.** For every candidate expression, name the one independently recovered governed value or relation, its exact kind, its direct pattern, the proposed use, and the effective naming rules (`ReferenceScheme`).
+**First useful move.** Identify what the proposed name must help its reader pick out. Compare uses that have the same words or the same constituents. Would a change in how the constituents are organized require the reader to refer to something different? Recover the value or relation that answers that question, its kind and the applicable naming rules (`ReferenceScheme`).
 
 If no such value or relation is independently recoverable, keep the expression local or keep it with the exact assertion that recovers its subject or value; do not pass a value-less expression to F.8 or manufacture an object so that the name has something to denote.
 
@@ -116,8 +116,8 @@ Use F.14 to test whether these shortcuts justify a durable naming object.
 
 Use this sequence before minting a durable name or any supporting naming object:
 
-1. **Recover the governed value first.** Separate candidate expressions whenever they designate different governed values or relations. Recover each retained value's exact kind and direct pattern; keep an ordinary phrase local when no governed naming case is needed.
-2. **Name one proposed use and its interpretation basis.** State what the reader will do with the expression and the effective naming rules (`ReferenceScheme`). An independently selected `BoundedModelUseStructure` appears only when that organization changes this naming use; it is never a generic locality field.
+1. **Identify what the reader would name.** Start with the reader’s task. Distinguish a name for each of several values from a name for their governed relation or an independently admitted whole. For the latter, recover what makes the constituents one whole for this use. Trace the intended value to its exact kind and defining or constraining pattern. Separate genuinely different naming decisions. Ordinary wording can stay local.
+2. **Set the naming scope.** State the proposed use and effective naming rules (`ReferenceScheme`). A request for a name already in use can be answered from its naming settlement. When the choice is yours, test whether cases the proposed expression groups together require the reader to distinguish values. An independently selected `BoundedModelUseStructure` matters here only if its organization changes the naming use.
 3. **Select the lightest sufficient treatment.** Use adequate ordinary wording, an existing designation, an alias, a local expression, a direct-pattern name or a current public row. Reuse an already justified choice; compare alternatives when they could reduce burden without losing a governed distinction.
 4. **Create only the next object that pays for itself.** A local `SchemeSenseCell` is useful only when the exact local sense needs a stable address. A NameCard is useful only when the naming settlement itself must endure. Create an F.17 row only for public, Core-facing, durable, or cross-local reuse. Use E.24.PUB only when the selected row edition must actually be made available. None implies the next.
 5. **Use exact relations instead of fused names.** Bundles and incompatibilities among system-role kinds remain A.2.7 relations; assignment claims remain A.2.1.
@@ -265,7 +265,7 @@ Premise: the local practice has already admitted `RequesterSystemRole` and `Appr
 Result after that premise:
 
 * Reuse the two admitted kinds and keep separate `SystemRoleKindDescription` epistemes only when descriptions are needed.
-* `RequestApproverSystemRole` is blocked as a fused kind. Use an A.2.7 bundle when the practice requires the two assignments together and specifies how holders may fill them.
+* The two existing kinds alone give no grounds for a third. Use an A.2.7 bundle when the practice requires both assignments and specifies how holders may fill them. If the reader needs a name for a committee that decides requests jointly, identify that committee under its own rule. Its members’ two role-kind names can stay exactly as they are when the committee changes.
 * If the same holder must not carry both assignments in the same change window, use the A.2.7 incompatibility relation. To check an actual pair against that rule, recover its assignments under A.2.1 and any applicable A.2.5 currentness condition. Use F.6 only if a separate claim says that dated Work was performed under one of them.
 * `SeniorApprover` is not proof of independence or assurance. Recover the intended local system-role kind, exact assignment-state predicate or relation, capability, assurance, or policy claim before durable naming.
 
@@ -343,7 +343,7 @@ Result:
 
 | Check | Question |
 | --- | --- |
-| CC-F14-01 | Is each candidate tied to one independently recovered governed value or relation and proposed use, or explicitly left local? |
+| CC-F14-01 | Does the naming decision concern the value or relation the reader needs to distinguish, including an independently established whole when that is the subject? Is each retained candidate grounded for that use or left local? |
 | CC-F14-02 | Does a proposed stronger naming object meet a receiving need left unmet by adequate ordinary wording or an existing designation? |
 | CC-F14-03 | Are the system-role-kind designation, local kind, `SystemRoleKindDescription`, exact relation among kinds, assignment, capability, Method, and performed Work distinct? |
 | CC-F14-04 | Are status family, value, window, use relation, evidence, and presentation distinct? |

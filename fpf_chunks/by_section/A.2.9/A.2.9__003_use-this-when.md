@@ -6,12 +6,12 @@ section_id: "A.2.9:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__003_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:0 — Use This When"
-line_start: 9178
-line_end: 9207
+line_start: 9172
+line_end: 9201
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,7 +67,7 @@ Typical moments:
 
 When exact occurrence identity, institutional force, audit, or reliance is current, follow §4.1 and SA-C0/SA-C1: recover the A.13 performer core, independently admit the Work through A.15.1, and use F.6 afterward only for a needed precise assignment-bound claim through the same obtaining assignment. Also recover the recognition-taxonomy episteme, effective reference scheme, and any applicable policy or procedure. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier remain separate objects.
 
-**First useful move.** State who should understand or do what because of the communication, including later self-use by its producer, and what evidence would be enough for the present judgement. Keep response, achievement, later action or change, causal contribution, authority, consent, permission, and admissibility separate. Repair the smallest blocker in the wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop.
+**First useful move.** What did the recipient need to understand, do or receive? Establish what would satisfy that use. For an agreed acceptance, identify who could accept, what response or other event would count, and whether it occurred for this delivery. A claim that the recipient understood the work, used it later or changed because of the message has its own grounds. If the use remains unmet, locate what prevented it.
 
 Only when the named modeling, audit, institutional, or reliance use needs exact occurrence detail, follow the admission and conditional attribution route in §4.1 and SA-C0/SA-C1. Recover taxonomy, scheme, policy, optional channel, and any separate effect only when the use needs them. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about the already admitted occurrence. Apply SA-C1 when a guard, gate, or claim needs exact assignment-bound attribution; otherwise the record may omit that attribution.
 

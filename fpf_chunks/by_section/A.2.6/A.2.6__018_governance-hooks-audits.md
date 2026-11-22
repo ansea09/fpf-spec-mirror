@@ -6,12 +6,12 @@ section_id: "A.2.6:17"
 section_title: "Governance Hooks & Audits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_governance-hooks-audits.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:17 — Governance Hooks & Audits"
-line_start: 7749
-line_end: 7784
+line_start: 7742
+line_end: 7777
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -59,7 +59,7 @@ The following descriptions identify different uses; select the one needed by the
 * Is **membership** reproducibly evaluable from the exact declared predicate and required inputs?
 * Are **freshness** and **coverage** separate predicates?
 * When exact local-sense translation was required, are the obtaining F.9 Bridge, separate C.2.1 use claim, direction, rule, tolerance, polarity, and current A.10 or B.3 reliance branch named?
-* For parallel support: is **independence** justified?
+* Which cases cover the requested area, which premises do they share, and does the use call for an independent line of support?
 
 #### A.2.6:17.4 - Risk controls (informative)
 

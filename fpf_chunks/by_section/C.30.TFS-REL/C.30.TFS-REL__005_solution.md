@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 78481
-line_end: 78731
+line_start: 78515
+line_end: 78765
 dependencies:
   - "A.10"
   - "A.15"
@@ -179,7 +179,7 @@ Grounded architecture adequacy and bounded architecture claims are governed by C
 
 #### C.30.TFS-REL:4.4a - Architecture use of a transformation-flow structure network
 
-First recover the independently selected E.18.NET network and the architecture question. For one named holon, distinguish an obtaining architecture relation whose selected structure is that network from a bounded claim that does not assert such an occurrence. For a question spanning several named holons without a grounded containing holon, use the inter-holon branch. Select exactly one branch from those facts.
+First recover the independently selected E.18.NET network and the architecture question. For one named holon, distinguish an obtaining architecture relation whose selected structure is that network from a bounded claim that does not assert such an occurrence. Use the inter-holon branch when the claim concerns a connection among participants. Use the containing-holon branch when the question depends on the network actually organizing that whole. A connection between two participants can be the subject of inquiry even when a containing holon is known. Select the branch for the particular claim.
 
 1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingHolonRef` and one actual `containingArchitectureRelationRef` whose selected structure is the same network. `containingArchitectureClaimRef` is optional claim/trace content. Keep all participating arrays and `noNetworkBearerHolonAsserted` absent. Member TFS values and their Work, valuations, boundaries, actual transformations, and direct relations remain independently governed.
 2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two distinct holons in `participatingHolonRefs[]`. Add exactly the actual `participatingArchitectureRelationRefs[]` and bounded `participatingArchitectureClaimRefs[]` on which this question relies; a network member whose architecture is not used by the question stays outside those arrays. Keep all containing fields absent and set `noNetworkBearerHolonAsserted=true`. This states one architecture-use question spanning named holons; it does not invent a containing holon, architecture relation, or characteristic bearer whose identity is the network.
@@ -236,7 +236,7 @@ nonAdmissibleUse?: flow diagram as functional architecture itself
 
 This required-effect account asserts no actual transformation.
 
-For the filled record below, suppose the current checkout configuration and its verified connections independently establish the cited CheckoutService architecture relation. With only the proposed diagram, retain the bounded architecture claim and omit the occurrence. The question about one named request still turns on which path it took.
+For the filled record below, suppose the current checkout configuration and its verified connections independently establish the cited CheckoutService architecture relation. With only the proposed diagram, retain the bounded architecture claim and omit the occurrence. For the designer’s question, identify the effect the path is meant to support and which dependency the drawing preserves. An operator asking how a particular request was authorized needs evidence of the decision actually returned. The route matters to that question to the extent that it distinguishes the answer.
 
 ```text
 ArchitectureTransformationFlowStructureRelation:

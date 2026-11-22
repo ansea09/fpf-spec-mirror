@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.13.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
-line_start: 131553
-line_end: 131860
+line_start: 131670
+line_end: 131977
 dependencies:
   - "F.1"
   - "F.17"
@@ -50,7 +50,7 @@ keywords:
 * aliases remain **local to Contexts**;
 * a changed meaning is recovered under its defining rule and requires a stated decision to revise, replace, split, merge or retire it. A rename cannot supply that decision.
 
-**Applicability.** Use this when changing a source-local expression, an external label or address of a SchemeSenseCell, a Concept-Set row label, or the name of a governed value or description. First say which of these is changing; their identity rules differ.
+**Applicability.** Use this when changing a source-local expression, an external label or address of a SchemeSenseCell, a Concept-Set row label, or the name of a governed value or description. Start with the passage readers will have to interpret and the question they will use it for. Recover which expression, meaning or independently identified value changes. Their identity rules differ.
 
 ### F.13:2 - Problem frame
 
@@ -163,7 +163,7 @@ A needed relation between different semantic projections is a separate F.9 quest
 *Context:* **BPMN 2.0**.
 Legacy label **“process”** was used to mean both **“collaboration”** and **“executable process”** in a team’s prose.
 **Relation:** `splits("process" ⇒ {"collaboration","executable‑process"})`.
-**Effect:** The single Concept‑Set row becomes two; old label is deprecated with a disambiguation note.
+**Effect:** For an older note, ask what the writer attributed to the *process*. An instruction to start its executable instance can identify the team’s executable-process sense. A bare list of process names may leave both readings possible. Preserve that uncertainty in the reading note. Split a comparison row only if a row exists and its comparison now needs that distinction.
 
 #### F.13:9.4 - Merge duplicate comparison rows
 
@@ -256,7 +256,7 @@ Under the same conditions, a legacy expression may remain a read-path to `pref(t
 
 #### F.13:12.3 - Split detection
 
-If one label covered several independently recovered local senses or rows, record the split and prefer the precise later labels. Keep the earlier use resolvable through a disambiguation note.
+If one label covered several independently recovered local senses or rows, record the split and prefer the precise later labels. Use the old passage and its circumstances to distinguish them where possible. When those grounds leave two meanings open, report both. The reader may still act if the same action is warranted under either reading.
 
 #### F.13:12.4 - Merge admission
 
@@ -329,13 +329,13 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 * **RSCR-F13-E01 (Edition drift audit).** Compare affected earlier/later definitions and naming uses. Stable meaning can support a rename with distinct expression-bearing cells; changed meaning requires the subject-governed revision, replacement, split, merge or retirement before fresh naming settlement.
 * **RSCR‑F13‑E02 (Alias change).** After changing aliases, verify that needed historical read-paths remain usable and the preferred current designation remains clear.
 * **RSCR-F13-E03 (Bridge leak check).** A claimed correspondence between different semantic projections is tested under F.9 only when a current use needs it. Retain exact meanings and an unresolved result when obtaining is unestablished; do not create a Bridge by rewriting a note.
-* **RSCR‑F13‑E04 (Didactic continuity).** Sampling of examples shows that readers can **resolve** legacy labels to current ones without confusion (via the continuity notes).
+* **RSCR‑F13‑E04 (Didactic continuity).** On the earlier passages examined, can readers recover the supported historical meaning or outstanding alternatives and any justified link to later usage? Judge a wider reading claim on passages and reader conditions that support its reach.
 
 ### F.13:16 - Didactic distillation (60‑second script)
 
 > **Preserve what the old words meant.** For unchanged meaning and use, record a local rename or alias. A changed expression has a distinct F.17 cell; keep its naming lineage.
 >
-> If meaning or the named value changes, recover that change under its subject rule before settling the later name. Split or merge only when those relations hold. Keep the historical aliases readers need, preserve the earlier text, and give readers the exact historical meaning and any justified path to the present name.
+> If meaning or the named value changes, recover that change under its subject rule before settling the later name. Split or merge only when those relations hold. Keep the historical aliases readers need and preserve the earlier text. Give the meaning its use supports, or the remaining readings and any conclusion they share. Trace each connection to a current name as far as the evidence allows.
 
 ### F.13:End
 

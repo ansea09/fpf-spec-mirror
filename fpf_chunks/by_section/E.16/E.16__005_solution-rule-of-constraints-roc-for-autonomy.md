@@ -6,12 +6,12 @@ section_id: "E.16:4"
 section_title: "Solution — Rule‑of‑Constraints (RoC) for Autonomy"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__005_solution-rule-of-constraints-roc-for-autonomy.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:4 — Solution — Rule‑of‑Constraints (RoC) for Autonomy"
-line_start: 113296
-line_end: 113446
+line_start: 113362
+line_end: 113514
 dependencies:
   - "A.10"
   - "A.13"
@@ -161,6 +161,8 @@ Every budget **MUST** reference an `overrideProtocolRef` that defines the availa
 * **ResumeAutonomy(budgetId)** - resume after the required checks;
 * **NarrowAutonomy(budgetId, Δscope)** - apply stricter limits;
 * **Escalate(budgetId)** - hand over through the declared override-authority path.
+
+Narrowing this authorization can change who may do part of a service while the commission for the service still stands. For a request about the budget, the new limit can complete the answer. If a recipient also needs the service, establish which authorized performer or arrangement can supply the rest, or take the unresolved commitment to the person empowered to revise it.
 
 The declaration names the A.2.7 incompatibility species and its predicate. Before a proposed pause, resume, narrowing or escalation, identify that bounded override action, its real holder/assignment and independent authority. The target navigation Work may already exist; the proposed override is not yet override Work.
 

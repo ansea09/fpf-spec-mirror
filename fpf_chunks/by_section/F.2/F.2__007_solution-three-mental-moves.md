@@ -6,12 +6,12 @@ section_id: "F.2:6"
 section_title: "Solution — three mental moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__007_solution-three-mental-moves.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:6 — Solution — three mental moves"
-line_start: 127702
-line_end: 127721
+line_start: 127815
+line_end: 127834
 dependencies:
   - "A.11"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 
 #### F.2:6.1 - Move A — Recover the basis
 
-Ask: **“Which exact source use am I reading, and under which interpretation rules?”**
+Ask which expressions in this source could change the answer the reader needs. For a glossary, recover how the source uses the words in its declared scope. For a question about the practice described, look for the wording of the relevant action or relation, including an expression that connects several passages.
 
 Name the source and edition, locate the passages that support the meaning, and recover the effective reference scheme with F.0.1. Quote representative wording when it helps the reader recover that meaning. If the basis cannot be identified, leave the interpretation unresolved.
 

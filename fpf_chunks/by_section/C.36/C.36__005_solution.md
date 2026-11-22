@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 85785
-line_end: 85957
+line_start: 85825
+line_end: 85999
 dependencies:
   - "A.1"
   - "A.10"
@@ -123,6 +123,8 @@ When the claim concerns a retained style, name what varies and what the comparis
 A stylistic similarity alone does not establish that an audience recognizes or likes the work, that a performer can reproduce it, or that its method has been transmitted; those conclusions need the corresponding recognition, response, performance or transmission relation.
 
 #### C.36:4.2 - Intervention Card
+
+Work back from the change sought in the practice. Who would have to do what differently? Trace what participants can select, teach, adapt, use or retain. If they already receive it, establish what could change its use. Choose a relation the project can influence and explain how the change could reach the intended work. When the change depends on several contributions, explain how their arrangement and conditions can produce the required result together. Where one participant receives another’s contribution, trace what was preserved, changed or combined. Independent choices can also produce a common pattern under shared conditions. Identity of a variant matters where the claim requires it. An existing arrangement can already support the intended use.
 
 Use an intervention card when the project needs to identify a proposed or performed intervention later. State the action, the relation expected to change and what would warrant continuing, revising or stopping. A festival might offer earlier jury feedback so instructors can use it in the next syllabus revision. An approved syllabus revision establishes which change the editor adopted. A draft produced from the feedback establishes what the proposed text says. To report adoption, identify the editorial action or the rule that put the revision into effect. To establish that classes used the selected variants, examine the teaching and work of those classes. To attribute a difference in use to earlier feedback, examine what else changed and what grounds the comparison. Use A.15.2 for the plan and A.3.4 for a claimed actual change.
 

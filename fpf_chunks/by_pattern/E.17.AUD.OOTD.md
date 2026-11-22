@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
-line_start: 117546
-line_end: 117922
+line_start: 117624
+line_end: 118004
 dependencies:
   - "A.10"
   - "A.15"
@@ -120,6 +120,8 @@ Without a named publication-unit discipline:
 >
 > It becomes necessary when local repair is no longer enough and the publication unit still shifts among subject, concern, description, carrier, process, or downstream use while sounding unchanged.
 
+First recover what the reader needed to understand, choose or do before this text was written. Ask where the property or relation in that question could arise. The reader may need an account of how a practice repeatedly produces a result, while the draft explains one participant’s choice. Trace what that choice establishes about the practice. Keep the incident as the subject when the request concerns that incident. When the wider question remains, recover the organization or rule that connects the pertinent cases and show the reader how to use it (C.39.QR:4.1, C.39.SA:4).
+
 Examples of statements that clarify a unit’s scope include:
 - `this memo is about the architecture boundary, not yet about the rollout plan`;
 - `this review note is about the incident episode and the observed contrast, not yet a production-action recommendation`;
@@ -138,7 +140,7 @@ If the problem is still confined to one vague local lexical head, start with `E.
 - **Carried move** = what the unit asserts, compares, explains, recommends, or otherwise communicates about its subject; it may also say that it only stabilizes the reading without adding a new claim.
 - **Downstream use** = what a reader is invited or permitted to do with the unit, such as understand, compare, approve, rely, assign, or act.
 - **Outside-work boundary** = what wider review, execution work, non-admissible downstream decision, or reliance claim stays outside the current unit.
-- **Explicit transition** = the unit names which of subject, concern, carried move, or downstream use has changed so readers can see the transition.
+- **Explicit transition** = the unit shows which subject, concern, move or use changes and why the new passage bears on the reader’s question. A move to one part, a model at another level of abstraction or a worked case may contribute a premise. Return from it to the conclusion its grounds support.
 
 #### E.17.AUD.OOTD:4.1.b - What can change
 
@@ -287,6 +289,8 @@ Here the primary subject broadens from the selected section to the whole overlay
 - what concern and move it carries over that subject;
 - and what wider architecture strategy remains outside the current unit.
 
+If the commissioned question is the packaging strategy itself, inspect what the section establishes for it. For example, a distribution option that requires every section to stand alone can be ruled out by one section whose essential definition is available only in another. That finding can settle a request to assess this option. To design a workable distribution, establish which definitions readers need together and how each reader will obtain them when needed. The list of required terms from this one section can contribute to that design.
+
 #### E.17.AUD.OOTD:5.4 - Unit stabilizes and bounded comparison becomes primary
 
 A review note first shifts between the selected interface boundary, the move it is making over the current evidence, and the rollout implications around that boundary.
@@ -339,7 +343,7 @@ To counter that bias, name the primary subject, concern, carried move, downstrea
 4. **CC-OOTD-4 - Concern, carried move, downstream use, and outside work are distinct.**
    The unit states which question it foregrounds, what it asserts or communicates, how readers may use it, and which wider work, approval, execution, decision, or reliance remains outside.
 5. **CC-OOTD-5 - Any transition is typed and explicit.**
-   If subject, concern, claim or carried move, downstream use, or the entity participant changes, the unit names which change occurred so readers can distinguish that change from the others.
+   For a change of subject, concern, carried move, downstream use or entity participant, the reader can tell why the passage shifts and what conclusion returns to the original question. A wider conclusion needs grounds across its stated range.
 6. **CC-OOTD-6 - Choose between local and publication-unit repair.**
    Use `E.17.AUD.LHR` when one local head or qualifier is the defect. Apply this pattern when that repair cannot settle the unit's subject, move, use, or outside boundary.
 7. **CC-OOTD-7 - Neighboring-pattern boundary is explicit.**

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.9.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
-line_start: 33645
-line_end: 33834
+line_start: 33677
+line_end: 33866
 dependencies:
   - "A.10"
   - "A.13"
@@ -36,17 +36,17 @@ keywords:
 
 ### A.15.9:1 - Problem frame
 
-**Plain name.** Use the outside-practice result this decision can rely on; obtain a new contribution when it is worth the work.
+**Plain name.** Use the outside-practice result the recipient needs. Obtain a new contribution when it is owed or worth obtaining for the decision.
 
-**Use this when.** One decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver cannot tell what result is needed or how it may be used.
+**Use this when.** An agreement requires an outside contribution, or a decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver cannot tell what result is needed or how it may be used.
 
-**Reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
+**Reader.** The person, team, organization or other System responsible for obtaining or using the outside contribution. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
 
 **First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. A conditional conclusion or an available action can settle a commission that calls for it. If a related action remains possible while the requested fact is unknown, give that distinction to the recipient.
 
 A missing result for a stronger claim does not itself select acquisition. Request the smallest additional contribution only when it is obtainable and worth its whole burden for this question. A simple answer can remain two ordinary sentences without a separate acquisition disposition.
 
-**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and states where supplier judgement ends and the receiving decision begins. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
+**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and establishes who may advise, decide or act under the order. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
 
 **Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
 
@@ -74,18 +74,18 @@ The missing move is small: start with the receiver's decision, inspect what alre
 
 ### A.15.9:4 - Solution
 
-Begin with one receiving decision or piece of Work and one result that could change its next action. Inspect an available result before commissioning anything new. Return what it supports now, including a stop where required. If an additional contribution is worth obtaining, bound the request, let the supplying practice govern how it answers, then assess and use the return without transferring either side's authority.
+Begin with one receiving decision or piece of Work and one result that could change its next action. Inspect an available result before commissioning anything new. Return what it supports now, including a stop where required. For an outstanding obligation or a further contribution worth obtaining, bound the request, identify who may determine the result and who may act on it, then use the return within those powers.
 
 #### A.15.9:4.1 - Follow the nine-step bounded-result sequence
 
 1. **Name the receiving decision or Work.** State who will use the result, what action can change, and the consequence of delay or error. Do not begin with a department, profession, meeting, or document.
 2. **Inspect an already-available result first.** Identify the result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance needed. Use the result where adequate and retain the limit that matters.
 
-   Check whether the result applies to this claim and configuration. A narrower result can settle the use when the receiving decision only needs that result. If the requested answer could still differ, state what remains unresolved.
-3. **Select acquisition before constructing the request.** When a missing result or proposed inquiry makes acquisition live, use `C.11.DUA` to compare an obtainable calculation, interpretation, limit, objection, observation, decision, or other contribution with the present answer, narrower action, alternative, deferral, or stop. Include formulation, qualification, delivery, supplier Work, interpretation and use, delay, displaced work, and downside within the receiving horizon.
+   Check whether the result applies to this claim and configuration. A narrower result can settle the use when the receiving decision only needs that result. If the requested answer could still differ, state what remains unresolved. If the order also requires a new performance, delivery or signed decision, an existing answer may supply a premise. Complete the outstanding work under the agreement.
+3. **Determine what must be obtained.** For a new contribution owed under the agreement, identify the required work, performer, independence and timing as applicable. When a further inquiry is discretionary, use `C.11.DUA` to compare an obtainable calculation, interpretation, limit, objection, observation, decision, or other contribution with the present answer, narrower action, alternative, deferral, or stop. Include formulation, qualification, delivery, supplier Work, interpretation and use, delay, displaced work, and downside within the receiving horizon.
 
-   Being able to change the answer is necessary for a useful contribution, but does not alone make obtaining it worthwhile. If acquisition is selected, ask for the smallest result that can supply that contribution; permit a supported result, bounded objection, or blocker as its return.
-4. **Bound the subject and use.** State the subject, configuration or situation, interval, assumptions, important exclusions, acceptance condition, and non-use boundary at the grain that can change the answer.
+   For a discretionary inquiry, ask how its return could change what the recipient may decide, do or justify. Weigh that gain against the burden. Frame the request around the contribution required. A supported answer, a bounded objection or a stated obstacle may each guide the next move. A second independent opinion can still be owed when its conclusion is already known.
+4. **Bound the subject and use.** Specify the situation, relevant interval and what counts as fulfilling the order. Is the supplier to report a fact, recommend a choice, or decide within a mandate? Establish who holds the choice at the point an action becomes binding and which decisions remain with the client.
 5. **Preserve the supplier's practice and Method.** Name the supplying practice and applicable Method, source, or inquiry status when known. The request may state needed inputs and evidence, but it does not replace the supplier's Method. If no applicable Method or source is known, state the missing basis. Inquiry into that basis is further acquisition subject to step 3; naming the gap creates no assigned Work.
 6. **Recover performer and authority only when reliance needs them.** A small exchange may not need either. When they matter, establish capability, access, conflict, assignment, permission, authority, responsibility, and commitment under the patterns governing them.
 
@@ -100,11 +100,11 @@ The sequence is logical, not a compulsory workflow. Step 2 can close a useful na
 
 #### A.15.9:4.2 - Return the first result in ordinary language
 
-For a small reversible use, give the answer and retain only what its recipient needs to interpret it. For example, an administrator may ask for one date already authorized for a contractor submission. Give Thursday if its eligibility is established. For the different question of whether Friday would also qualify, a calendar that excludes contractors leaves Friday unresolved. Obtain the contractor cutoff when resolving that question is required and feasible.
+For a small reversible use, give the answer and retain only what its recipient needs to interpret it. For example, an administrator may ask for one date already authorized for a contractor submission. Give Thursday if its eligibility is established. If the administrator has authorized payroll to select and book one qualifying date, payroll may choose Thursday and book it under that mandate. Advice about a date alone leaves the booking open. For the different question of whether Friday would also qualify, a calendar that excludes contractors leaves Friday unresolved. Obtain the contractor cutoff when resolving that question is required and feasible.
 
 When acquisition has been selected under §4.1, a compact request may read:
 
-> For [receiving decision], answer [smallest result question] about [subject and configuration] for [window and use]. State the supported result, a bounded objection, or the blocker; do not decide the receiving question for us.
+> For [receiving use], please [report, recommend, or decide as authorized] on [question] for [subject, conditions and interval]. Give the result and its grounds, or the material objection or missing basis. Where a decision or action is delegated, specify its limits and what counts as completing it.
 
 Do not add a field merely because it appears in a larger case. Add the supplier, Method, performer, Work, evidence, authority, acceptance, or reopen detail only when it changes or supports the receiving use.
 
@@ -167,9 +167,9 @@ A use conforms only when the checks needed by its claimed result pass:
 
 1. The receiving decision or Work, receiver, and action that can change are recognizable to a cold reader.
 2. An already-available result is inspected before new supplier Work is requested, unless none can reasonably be found at the required cost.
-3. The first result gives the useful supported answer and its material limit or blocker. Any new request is selected for its obtainable contribution against the whole acquisition burden under `C.11.DUA`; a limitation alone requires neither a request nor a separate no-request explanation.
+3. The first result gives the useful supported answer and its material limit or blocker. For an outstanding commitment, the request covers the contribution owed. A discretionary request is justified by its obtainable value against the whole acquisition burden under `C.11.DUA`.
 4. Subject, configuration or situation, interval, assumptions, intended use, and non-use boundary are present at the grain that can change the answer.
-5. The supplying practice keeps its Method, evidence standards, qualification, and domain authority; the receiver keeps its own decision authority unless a separate relation says otherwise.
+5. The supplier uses the applicable Method and evidence standards. Any recommendation, binding decision or further action falls within the powers actually assigned to the supplier or client.
 6. Request, WorkPlan, assignment, communicative Work, dated Work, result, evidence, delivery, acceptance, reliance, authority, and receiving decision are not collapsed.
 7. A performer, capability, assignment, authority, or Work claim appears only when its basis is current. Performer recovery follows `A.13`, independent Work admission follows `A.15.1`, and `F.6` applies after that admission when the receiving claim requires assignment-bound attribution.
 8. `A.10` governs evidence, provenance, currentness, and bounded reliance rather than being copied here.

@@ -6,12 +6,12 @@ section_id: "E.10.D1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:4 — Solution"
-line_start: 108914
-line_end: 108959
+line_start: 108978
+line_end: 109023
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -40,7 +40,7 @@ keywords:
 Start with the sentence and the practical use that makes it matter.
 
 1. Mark the phrase containing *context* and state what a reader would do differently under another interpretation.
-2. Select the smallest branch in `E.10.D1:4.1` that answers that difference.
+2. Use the smallest branch in `E.10.D1:4.1` that settles the receiving question. If a phrase combines different conditions, recover the ones needed together. For example, restarting a pump may require both the authorized procedure for this site and the operating conditions that procedure permits.
 3. Apply the named subject pattern and recover its value, relation, claim, or situation. For source-local meaning, reuse an adequate current `F.0.1` result or apply `F.0.1` only when that meaning remains unclear. Do not create a generic Context participant as an intermediate step.
 4. Rewrite the sentence with the recovered content and state the next action or stop.
 5. If the same defect recurs across framework contributions, use the shared method in `E.10.ARCH`. Keep this pattern as the word-specific branch and keep the recovered content in its subject pattern or DPF.
@@ -71,7 +71,7 @@ An F.1 Source-Cut Card is a memory aid for one retained source edition and its a
 
 #### E.10.D1:4.3 - Short working script
 
-Name the meaning, its basis and the reader’s next move.
+Name the meaning, the grounds for this use and what they allow the reader to do. When several conditions must hold together, show how they apply to the same case.
 
 ```text
 This phrase uses “context” to mean [identified value, relation, scope, scheme, situation, or use].

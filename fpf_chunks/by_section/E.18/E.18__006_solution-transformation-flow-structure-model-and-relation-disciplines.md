@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 118020
-line_end: 118396
+line_start: 118102
+line_end: 118480
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -43,6 +43,8 @@ keywords:
 A gate may authorize or block an intended entry, but it neither creates a future Work occurrence nor fills fields in one. Use S12 when engineering or publication work calls for a viewpoint mapping.
 
 #### E.18:5.1 - S1 - Selected Structure (conceptual)
+
+Start with the result the recipient must obtain or explain. Trace each needed contribution to the participant that makes or uses it. If the scope is open, use C.39.SA to select the parts and connections the use requires. Follow them only as far as a different arrangement could change the answer or its grounds. For example, a Method can call for a check, a technician can perform it during a job, and a report can state its outcome. To explain what happened, establish which performance produced the outcome used in this case. To design a repeatable arrangement, specify how the required check will be provided under the allowed conditions. A restriction shared by two contributions belongs in the account whenever their separate descriptions leave their joint use undecided.
 
 Select S under A.22 by four discriminators:
 

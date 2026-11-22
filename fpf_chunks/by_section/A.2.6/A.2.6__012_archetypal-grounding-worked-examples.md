@@ -6,12 +6,12 @@ section_id: "A.2.6:11"
 section_title: "Archetypal Grounding - Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_archetypal-grounding-worked-examples.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:11 — Archetypal Grounding - Worked Examples"
-line_start: 7578
-line_end: 7653
+line_start: 7572
+line_end: 7646
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -78,9 +78,8 @@ Controller certificate age does not change Work-scope membership in this case. W
 
 * **Claim A (API Standard):** `v2.3` request schema with constraint “idempotent under retry”.
 * **Claim B (Dataset cohort):** “metrics valid for cohort K with schema `ds‑14`”.
-* **Composition:** service S depends on both A and B → **serial intersection** of Claim scopes: `{api=v2.3} ∩ {cohort=K, schema=ds‑14}`.
-* **Target slice:** `{api=v2.3, cohort=K, schema=ds‑14}` → membership **true**.
-* **Target drift (e.g., `ds‑15`).** The changed target slice lies outside the intersection ⇒ path inapplicable for that slice.
+* **Same-slice question.** Suppose the decision is whether the API and metric claims both apply to one installation. Specify its API version, cohort and dataset edition. The slice `{api=v2.3, cohort=K, schema=ds‑14}` meets the two stated conditions. Changing only the schema to `ds‑15` takes it outside the dataset scope.
+* **Successive stages.** Suppose the service must compute a valid metric for each accepted request by noon. Idempotence permits a repeatable `ds‑15` output. A converter that preserves cohort membership and the required measurements and produces `ds‑14` can make that output usable. For the noon promise, establish also that the service can get the compatible dataset to the metric stage and finish the calculation by noon in every allowed history. A bound on the full time, including permitted retries, queueing and conversion, can suffice if the needed resources and choices are available. If retries may continue past noon, compatibility remains warranted. One reachable completed calculation can establish feasibility on its slice. Return the conclusion that answers the commission.
 
 #### A.2.6:11.5 - Parallel support (SpanUnion) in a safety case
 
@@ -90,7 +89,7 @@ Controller certificate age does not change Work-scope membership in this case. W
 * **Published scope:** `SpanUnion({S1,S2})` = `{(dry, ≤50), (wet, ≤40)}`, with reference to `P-braking`.
 * **Guard:** allowed; union does **not** include `(wet, 45)` because not supported.
 
-With only the method labels, leave P-UNION unresolved. If `CalibrationRecord-Q` is essential to both lines, P-UNION fails for this pair; retain the individual lines and use their component scopes to assess any dependent combination.
+If both lines rely on `CalibrationRecord-Q`, establish that its calibration is valid for each claimed range and that the respective test and simulation warrant the braking property there. Those grounds can establish the property on dry asphalt up to 50 km/h and wet asphalt up to 40 km/h by cases. They leave wet asphalt at 45 km/h outside the supported area. A defect in the shared calibration may undermine both conclusions. The disjointness required for P-UNION fails even when this ordinary coverage argument succeeds.
 
 #### A.2.6:11.6 - ML model deployment with different local feature senses
 

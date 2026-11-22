@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 103060
-line_end: 103161
+line_start: 103115
+line_end: 103216
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -78,7 +78,7 @@ The result is a formally neat text that authors can defend but practitioners can
 
 `E.8` gives FPF authors a shared pattern shape and authoring discipline: recognition text first, assurance text second, canonical sections present, terminology kept stable, SoTA used as current practice grounding rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
 
-**First useful move.** Put the working situation, first action-guiding move, practical payoff, ordinary boundary, and nearest heavier assurance condition into the recognition text before tightening template details or conformance material.
+**First useful move.** Recover the question and the work the intended reader should be able to perform. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
 
 **Solution and working move.** `Solution` gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`: what the reader should do or decide, under which conditions, what result to seek, and when to stop or return.
 
@@ -92,7 +92,7 @@ When the durable governed object matters, use its exact published designation un
 
 For any other claim, recover the relation under its governing pattern. State what cited content contributes and use `E.10.MOVE` when the current relation remains unclear.
 
-**Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus to suggest maturity. Use conformance material to verify that guidance. Do not let it replace the guidance.
+**Cheap stop.** When the reader can recover the situation, first useful operation, payoff, boundary and assurance condition, the opening may be complete. Follow the remaining explanation far enough to establish that it supplies the work the reader was commissioned to do, including any choice left to that reader. A short direct answer can complete a short commission. Use conformance material to verify that guidance. Do not let it replace the guidance.
 
 **FPF-governed wording extension.** Add heavier assurance, conformance, SoTA, or relation material only when it changes correctness or use: it repairs a false claim, stabilizes the primary `EntityOfConcern`, supplies a missing concrete contribution, grounds a practical payoff, or states an action-changing boundary.
 
@@ -151,7 +151,7 @@ Put detailed discovery in its dedicated carriers, including README, ToC, `E.11`,
 
 Use `E.8` to keep the pattern's positive subject and action guidance first. Apply `F.19` on the first draft and to each changed natural span. Its connected reading covers semantic completeness, the contribution and ordering of expressions, preservation of kinds and useful content, and local revalidation. Where a conclusion depends on holon composition or model abstraction, use F.19:4.3.1.1 on the explanation and on any mantra offered for separate use. If the grounds establish the conclusion only for a case or subclass and the pattern promises it more generally, use C.39.GA to restore the missing inference where the practitioner needs it.
 
-For FPF authoring, `E.8` adds the pattern-specific question: can the intended reader still recognize this pattern's `EntityOfConcern`, working situation, first action or judgement, first useful result, and action-changing boundary before optional modeling and assurance? A cold reader must recover that path from the pattern body. `F.19` governs the sentence-level recovery. Do not copy its method, regression table, or result boundary into a local authoring profile.
+For FPF authoring, `E.8` adds the pattern-specific question: can the intended reader still recognize this pattern's `EntityOfConcern`, working situation, first action or judgement, first useful result, and action-changing boundary before optional modeling and assurance? A cold reader must recover that path from the pattern body. `F.19` follows the connected passage back to the work the reader was asked to do, including a change of subject, composition scale or model abstraction across paragraphs. Do not copy its method, regression table, or result boundary into a local authoring profile.
 
 If the `F.19` reading leaves an FPF value unresolved, take the applicable `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or subject-pattern route and state that source's concrete contribution. Ordinary PatternID citation and “use this pattern” wording remain ordinary. Use an identity-bearing MethodDescription or dated Work claim only when the selected route requires it. Keep development and release evidence outside practitioner guidance unless rewritten as the user's action or boundary.
 When an action-adjacent pattern classifies wording or another semio-facing object, connect that classification to the reader's current action. State the admissible use now and any independently grounded boundary that changes that use. Route any other live claim to the FPF pattern that defines or constrains it.

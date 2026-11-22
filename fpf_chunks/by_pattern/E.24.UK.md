@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
-line_start: 125781
-line_end: 126328
+line_start: 125882
+line_end: 126431
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -65,7 +65,7 @@ Put the proposed criterion, candidate individuals, intended extent and non-membe
 
 **Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether a public FPF name should remain `U.*`. The downstream reader is the practitioner who uses public pattern titles, headings, ToC rows, and names as orientation cues and needs those cues to point to the real governed object.
 
-**First useful move.** Name the local kind, proposal episteme, or source-construct entity that the decision is about. If you cannot identify it, keep the inquiry open and stop there.
+**First useful move.** Establish which distinction the practitioner needs and what turns on classifying the proposed individuals. Identify the local kind, proposal episteme or source construct to which the admission question applies. An inquiry with no identifiable subject remains open.
 
 Then recover the proposed governed individuals, identity or membership rule, intended extent and non-member boundary, and the action-facing claim that needs the kind. Test whether existing U-kinds, direct relations, declaration SlotKinds, C.3 local kinds, or selected structures already preserve that distinction. Judge the public spelling only after the admission disposition is stable.
 
@@ -338,9 +338,9 @@ The decision and its two outputs are three distinct C.2.1 epistemes. Each output
 
 #### E.24.UK:4.3 - Practitioner-first Admission Tree
 
-1. **Recover the candidates and criterion.** Identify the decision subject and the named action-facing use. When the use needs classification, identify the candidate individuals, stable membership or identity rule, intended extent and nearest non-member. For a relation kind, use the rule that defines its participant meanings, obtaining, applicability, and occurrence identity, and cite the PatternID that locates that rule; an `A.6.RCD` application may record a derived or primitive candidate only with a proposed direct subject settlement. If the decision subject cannot be identified, keep the inquiry open. If classification is needed but its criterion is missing, the inquiry also stays open. A positively identified use that needs no classification can instead support `reject` under step 6.
+1. **Recover the candidates and criterion.** Begin with the decision the classification is to support. Identify the decision subject, who will classify which individuals and what inference the membership judgement must license. If several classifications are used together, establish the relationship required by that inference. When the use needs classification, identify the candidate individuals, stable membership or identity rule, intended extent and nearest non-member. For a relation kind, use the rule that defines its participant meanings, obtaining, applicability, and occurrence identity, and cite the PatternID that locates that rule; an `A.6.RCD` application may record a derived or primitive candidate only with a proposed direct subject settlement. If the decision subject cannot be identified, keep the inquiry open. If classification is needed but its criterion is missing, the inquiry also stays open. A positively identified use that needs no classification can instead support `reject` under step 6.
 2. **Try an admitted durable kind.** If one accepted result already preserves those individuals, the criterion, extent, boundary, and use, record `reuse` through that result and stop.
-3. **Try bounded classification.** If one project or context needs only typed membership or quantification, record `local-kind` through one C.3.2 declaration and stop.
+3. **Try bounded classification.** If bounded classification supplies the required judgement or quantification, identify or make the C.3.2 declaration that supplies its criterion and record `local-kind` for that use. When another practice needs to rely on it, establish whether that criterion applies there, or which correspondence permits the intended inference. Several practices can share a local criterion. Different criteria can also serve them when the relationship between the resulting judgements is sufficient.
 4. **Test the need for a new durable kind.** Proceed to positive admission only when repeated cross-pattern use needs one stable membership law that existing durable kinds and direct relations cannot preserve. Run the eight tests and name each downstream question, its defining or testing rule, and the PatternID that locates that rule.
 5. **Choose the positive form.** Use `root` for independently identified individuals, `same-individual-dependent` when one root individual gains an additional stable membership predicate and inclusion law, or `identity-dependent` when a distinct individual has an already governed dependence relation to one root individual plus all discriminators.
 
@@ -362,7 +362,9 @@ First recover the source construct by value:
 - source relations such as is-a, part-of, realizes, participates-in, depends-on, or equivalent local relations;
 - intended source use: classification, query, modeling, exchange, validation, reasoning, implementation, or documentation.
 
-Then select the FPF object:
+Recover what the receiving practitioner must decide from those source distinctions. For a question about membership, test which individuals satisfy the criterion in each practice. For a question about composition, establish which constituents form a whole of the specified kind. For a question about models at different levels of abstraction, fix the inquiry and identify what each model allows or rules out. A source hierarchy may combine several relations. Map each one used in the inference and give the grounds for any conclusion that crosses them. One local classification needs only its applicable criterion and facts.
+
+Select the FPF object for each contribution the receiving work needs:
 
 | Source construct use | FPF recovery |
 | --- | --- |

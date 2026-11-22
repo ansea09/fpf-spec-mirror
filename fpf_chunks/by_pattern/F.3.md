@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.3.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
-line_start: 127858
-line_end: 128114
+line_start: 127971
+line_end: 128229
 dependencies:
   - "A.11"
   - "A.7"
@@ -111,6 +111,8 @@ If one use entails occurrence in time and another entails a design structure or 
 #### F.3:6.4 - Prefer the coarsest adequate partition
 
 Merge candidates when the recovered source uses establish that they are interchangeable for the receiving question and preserve every relevant conclusion. A failed attempt to find a distinction is insufficient when the source basis is too weak to decide. State which comparison remains unresolved. Split when a concrete counterexample would otherwise be admitted; do not split merely to fill a taxonomy.
+
+Two distinct meanings can support the same action today. Ask whether, under the source’s own rules, one expression could correctly occupy the other’s place in the claim. A work order fixes the target at 20, and the observed value happens to be 20. A different observation changes the comparison while the order keeps the same target. One decision can use that comparison while keeping the two meanings distinct.
 
 #### F.3:6.5 - Keep labels honest
 
@@ -227,7 +229,7 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 
 1. **Alias consolidation.** Merge expressions only when the source uses them interchangeably for the current question.
 2. **Argument split.** Split uses whose required participants differ materially.
-3. **Entailment split.** Split when the uses support different conclusions.
+3. **Entailment split.** Split when the meaning of an expression changes what the source claim entails. Two instances can yield different factual answers under the same meaning.
 4. **Parsimony merge.** Merge source-supported interchangeable uses when no relevant conclusion is lost; leave the comparison unresolved when the source basis cannot establish that result.
 5. **Counterexample trigger.** Tighten or split a claim that admits a concrete excluded use.
 6. **Label check, when labels are used.** Tech stays idiomatic; Plain explains without widening.

@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:4 — Solution"
-line_start: 128191
-line_end: 128266
+line_start: 128306
+line_end: 128381
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -87,7 +87,7 @@ These are claims or references in an episteme. They are not `SlotSpec` declarati
 | Conditional neighboring references | Add neighboring references for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
 | Non-inference boundary | Keep description, classification, assignment and other neighboring claims separate; state an explicit contrast when it prevents a plausible mistake in the current use. |
 
-A quick local description may stop after the always-recoverable content. For a consequence-bearing Work-admission claim, add only the neighboring relations that claim depends on.
+A recognition description can finish here. If someone must decide whether to admit a candidate to work, use the description to identify the right criterion and test the candidate under it. Select any further questions from the actual admission conditions.
 
 #### F.4:4.2 - Description versus Neighboring Values
 

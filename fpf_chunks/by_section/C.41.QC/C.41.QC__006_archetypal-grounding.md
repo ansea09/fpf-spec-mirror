@@ -6,12 +6,12 @@ section_id: "C.41.QC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:5 — Archetypal Grounding"
-line_start: 94984
-line_end: 95019
+line_start: 95031
+line_end: 95066
 dependencies:
   - "A.10"
   - "C.41"
@@ -50,7 +50,7 @@ If grouping changes either identity verdict, investigate or restrict that arrang
 
 For stored data, an adequate comparison of its values remains the cheaper starting choice.
 
-A known malformed-input case with an unobserved post-state remains unresolved. Tool failure is not an importer failure or success. Local parser correctness does not settle the encompassing response and catalogue state; C.41.SR connects those contributions.
+A reliable record or applicable rollback guarantee can settle the post-state even when it was unobserved. Where neither the observation nor another adequate ground settles this run, report the state as unresolved. Tool failure is not an importer failure or success. Local parser correctness does not settle the encompassing response and catalogue state; C.41.SR connects those contributions.
 
 For the workshop display, “readable” may be judged from a desktop preview while participants will read the projected content from the back of a room. Qualification varies the viewing condition relevant to the exercise and asks a representative participant to interpret the content. A font-size threshold can be a useful local proxy only if its basis supports that use. Reconsider that proxy if glare or contrast makes text unreadable despite the chosen size.
 

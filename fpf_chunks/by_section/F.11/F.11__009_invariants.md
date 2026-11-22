@@ -6,12 +6,12 @@ section_id: "F.11:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__009_invariants.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:8 — Invariants"
-line_start: 131137
-line_end: 131147
+line_start: 131254
+line_end: 131264
 dependencies:
   - "A.13"
   - "A.15"
@@ -51,6 +51,6 @@ keywords:
 4. **Supported enactment.** Assert that Work enacts a Method only when the exact relation and its basis are established.
 5. **Explicit description use.** MethodDescription use, following, conformance, deviation, interpretation, and reliance are separate claims under their defining or testing patterns; absent such a rule, return A.6.RCD `missing-governor`.
 6. **Exact agency.** Each claimed actual performer has the A.13 core, including the obtaining assignment, before independent A.15.1 Work admission. F.6 is required only for precise assignment-bound attribution; no vague `System-in-Role` substitute.
-7. **Evidence separation.** Approval of a description does not establish Work occurrence or outcome.
+7. **Evidence separation.** Approval of a method description can establish the approval itself. A conclusion about performance of the method described or its outcome requires evidence bearing on that further claim.
 8. **Source-local wording.** Ambiguous expressions are recovered with F.0.1; F.9 is conditional on a real relation between local meanings.
 

@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 5861
-line_end: 6073
+line_start: 5853
+line_end: 6065
 dependencies:
   - "A.2.2"
   - "A.2.8"
@@ -53,7 +53,7 @@ PromiseContentIdentity = <
 `promisedOutcomeSpecRef` is a `U.EpistemeRef` field that designates the exact A.2.3:4.1.1 `OutcomeSpec` episteme about which the promise claims are made; that episteme is the exact EntityOfConcern of this PromiseContent episteme. The field is not `EntityOfConcernSlot`: that SlotKind names the participant meaning only inside the reusable C.2.1 constitution `RelationSignature`. `OutcomeSpec` is a specification-use episteme form, not a separately admitted U-kind. The exact `claimScope` qualifies where the promise-content claims hold and remains outside the identity tuple.
 
 * **FPF kind:** `U.Episteme`.
-* **Time stance:** the promise content can be authored before delivery; later exact delivery-work facts, affected entities, post-work states, and any current delivery or acceptance relations are tested against the declared outcome and acceptance predicates. Evaluation work and the actual operation-result binding remain separate; when a verdict episteme is constituted, C.2.1 and A.15.PROD govern its identity and inception, while A.10 evidence relations support the relied-on assertions.
+* **Time stance:** the promise content can be authored before delivery; apply its outcome and acceptance predicates to the eligible unit at the specified time. An individual delivery calls for the relevant Work facts, affected entities, post-work states and any required direct relations. A period or population criterion calls for the eligible cases or service conditions it covers (§8.2). Evaluation work and the actual operation-result binding remain separate; when a verdict episteme is constituted, C.2.1 and A.15.PROD govern its identity and inception, while A.10 evidence relations support the relied-on assertions.
 * **Orientation:** consumer-facing promise claims, not provider capability claims.
 * **Publication boundary:** The selected promise-content `U.Episteme` may participate in an exact `EpistemePublicationRelation` for a declared audience and bounded use. `PublicationExpressionRelation` relates that selected edition, an independently identified expression, and the bounded-use declaration; `PublicationExpressionBearingRelation` relates an independently identified carrier to that expression. A selected reusable form constrains the expression through `PublicationFormConformanceRelation`; E.24.PUB's form-mediated expression and bearing claims require that same expression as witness when used together for availability.
 
@@ -169,7 +169,7 @@ AcceptanceSpec (recommended) ::= {
 ```
 
 * **`targetOutcomeSpecRef`** makes explicit *which* promised outcome is being judged; if omitted, it is the containing promise content’s `promisedOutcomeSpecRef`.
-* **`criterionRefs`** resolve to evaluation-criterion epistemes. Their predicates are evaluated over the same selected work facts and post-work state references used for the targeted `OutcomeSpec`; direct evidence relations separately support assertions about those facts and states.
+* **`criterionRefs`** resolve to evaluation-criterion epistemes. Apply each predicate to its subject under the targeted `OutcomeSpec`. For one delivery, use the relevant Work facts, affected referents and post-work states. For a population or period, establish the agreed eligibility, time boundary and threshold or state over that interval. Records of requests, resources, service state or coverage may determine the answer even when there was no request or delivery. Direct evidence relations separately support the assertions.
 * **`evaluationMethodRef`** resolves directly to the evaluation Method. **`evaluationMethodDescriptionRef`**, when present, cites one A.3.2-admitted episteme edition whose claims constrain or explain that Method; the description is neither the Method nor the evaluation Work.
 * **`verdictScaleDescriptionRef`** resolves to one scale-description episteme governed by the characteristic and scale patterns. That description states the admitted verdict values and how non-delivery is represented. Informative examples include Boolean `pass/fail`, trichotomy `pass/partial/fail`, or named graded values, with non-delivery represented as `fail`, `N/A`, or `Inconclusive`; these values are examples, not defaults.
 * **`GammaTimePolicyRef`** keeps temporal selection explicit and non-retroactive (F.10 and F.12): it resolves to the policy stating whether judgement is per work occurrence, reporting window, or another named temporal selection. Population and locale remain in `U.ClaimScope`; they are not temporal-policy values.
@@ -199,9 +199,9 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 
   For delivery Work, use A.13 to identify the actual provider System `S`, then let A.15.1 admit `deliveryWork` independently. If the current use must also state under which assignment the delivery was performed, F.6 checks `performedUnderAssignment(deliveryWork, providerRA)` against the same assignment used by A.13 and compares `S` with `providerRA.HolderSystemSlot`.
 
-  For evaluation Work, use A.13 to identify the actual evaluator and let A.15.1 admit the dated occurrence before saying that it enacts the Method selected by `acceptanceSpec`. Add F.6 only if the current use must also state under which assignment the evaluation was performed. Cite the optional MethodDescription only when the evaluation claim depends on that edition. The actual evaluation-operation application carries its argument bindings and result value. When another use needs a durable verdict episteme, C.2.1 governs that episteme and A.15.PROD governs any current identity-inception claim. The counting rule in `unitOfDelivery` maps admitted fulfilment occurrences to unit counts.
+  When the criterion requires a particular evaluation or the claim concerns how it was performed, use A.13 to identify the actual evaluator and let A.15.1 admit the dated occurrence before saying that it enacts the Method selected by `acceptanceSpec`. Add F.6 only if the current use must also state under which assignment the evaluation was performed. Cite the optional MethodDescription only when the evaluation claim depends on that edition. The actual evaluation-operation application carries its argument bindings and result value. When another use needs a durable verdict episteme, C.2.1 governs that episteme and A.15.PROD governs any current identity-inception claim. The counting rule in `unitOfDelivery` maps admitted fulfilment occurrences to unit counts.
 
-  The verdict episteme may assert whether a named service-level objective or another acceptance criterion was satisfied during the declared window. When a separately obtaining `U.Commitment` has the same `U.PromiseContent` in its referents position, the supported assertion concerns fulfilment of content that is also a referent of the obligation. Neither the operation-result binding, verdict episteme, nor commitment is a property of the promise-content episteme.
+  For a period or population judgement, start from its criterion. For example, if a staffed desk was promised throughout a shift with no requests, establish from the records whether the authorised desk and staff were actually available throughout the agreed hours. A complete record of zero requests establishes that request count. Readiness needs evidence about the service. For a response-rate threshold, use the eligible requests and the agreed treatment of an empty population (§8.2). A sufficient bound can settle the threshold. To accept all the service promised for the period, apply the other applicable conditions too. A verdict episteme can carry the resulting assertion. When an obtaining `U.Commitment` has this `U.PromiseContent` among its referents, the assertion concerns content also referred to by the obligation. The evaluation result, any verdict episteme and the commitment each keep their own identity.
 
   When a separate F.6 `performedUnderAssignment(W, RA)` claim is made, `W` is already admitted and `RA` is the same assignment used by A.13. F.6 compares that assignment's holder with the actual performer already identified through A.13 and used by A.15.1. A missing or failed F.6 check alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.WI.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
-line_start: 88653
-line_end: 89059
+line_start: 88699
+line_end: 89105
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -289,7 +289,7 @@ A proposed 10% reduction of the scenario's hours means 385–779 gross hours bef
 
 If a fully supported change requires 200 hours, its hour-only break-even reduction is about 2.6–5.2% under the corresponding endpoints. Quality, displaced work, availability and other consequences decide whether to proceed. One poorly formulated goal can also misdirect much more work than the goal-setting hours.
 
-The selected improvement therefore names the missing professional contribution and its intended use. Its completion is not “OKR appears in the index” or “the book has been read.” A practitioner must be able to handle the recovered difficulties through the developed account and available support; the claimed practical gain remains separately examinable.
+The figures establish the scale at which an improvement could repay its cost. To choose the improvement, establish which difficulty actually interferes with the practitioners' work and how the proposed change would reach it. If the needed operation exists and people can use its account but have no time to perform it, the next decision concerns provision. If the operation is missing, construct it. The savings estimate can inform either decision.
 
 #### C.39.WI:5.3 - Less agent activity, better development work
 

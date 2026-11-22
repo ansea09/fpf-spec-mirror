@@ -6,21 +6,15 @@ section_id: "E.6:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__010_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:9 — Relations"
-line_start: 102987
-line_end: 102991
+line_start: 103042
+line_end: 103046
 dependencies:
   - "E.2"
 keywords:
-  - "didactic"
-  - "learning"
-  - "narrative flow"
-  - "on-ramp"
-  - "pedagogy"
-  - "structure"
 ---
 
 ### E.6:9 - Relations

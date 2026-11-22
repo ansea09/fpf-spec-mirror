@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.2.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
-line_start: 96931
-line_end: 97093
+line_start: 96978
+line_end: 97142
 dependencies:
   - "A.1"
   - "A.15"
@@ -160,8 +160,8 @@ Use `C.11.DUA` to compare the restriction's protective contribution with access 
 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
-| One-level ethics | The case is treated as good because one declared level improves. | Name every affected level or scope that changes the ethical claim. |
-| Ladder import | A fixed level list is imported before the case is understood. | Recover the situation-defined scopes first. |
+| One-level ethics | The case is treated as good because one declared level improves. | Trace the change in work or use to whoever may bear the consequence in question. A supported observation of the whole can establish its outcome. To infer the outcome from separate effects, establish how they combine. |
+| Ladder import | A fixed level list is imported before the case is understood. | Follow the membership, exposure, use or part–whole relation through which this consequence could arise. |
 | Entry as solution | D.2 is used to decide the conflict. | Name the concern and select D.3, D.4, D.5, C.30.ILC, or another subject pattern for its next use. |
 | Hidden episteme harm | A standard, model, policy, or architecture description is treated only as a document, not as an affected episteme with use consequences. | Separate the episteme, its publication relation, use relation, and affected systems or people. |
 
@@ -174,6 +174,8 @@ Making cross-scope concerns explicit lets the practitioner choose the next quest
 A change can look technically local while shifting costs, risks or responsibilities across affected entities. Recovering those relations lets the practitioner formulate the ethical question before choosing mediation, an audit or an architectural response.
 
 ### D.2:10 - SoTA-Echoing
+
+Fung’s account of public participation distinguishes who takes part, how participants receive or exchange information or reach a decision, and how their participation influences or authorizes public action. These distinctions help trace a proposal from the people consulted to those affected by its use. Establish the applicable mandate and protections in the practice at hand. [Varieties of Participation in Complex Governance](https://doi.org/10.1111/j.1540-6210.2006.00667.x)
 
 For recognizing a transferred consequence, **adopt** A.1.CSD's tracing of a proposed change through actual relations and supported possible effects, when the affected account is incomplete. Compared with judging only the proposal's local target or assigning priority by level, :2 and the service-restriction case retain the access loss alongside the claimed quality benefit. D.1 supplies the value premise; D.3 and D.4 describe and decide the resulting conflict.
 

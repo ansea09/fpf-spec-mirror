@@ -6,12 +6,12 @@ section_id: "A.15.2:7a"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7a — Conformance Checklist"
-line_start: 31132
-line_end: 31148
+line_start: 31160
+line_end: 31176
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ keywords:
 | CC-A15.2-4 | Claims about a System intended to perform the Work, its local system-role-kind conditions, and A.2.2 capability requirements remain planned. Cite an assignment occurrence and its declared species only when that assignment already obtains; the plan supplies no capability-fit result. | Publishing a proposed holder-and-kind pair or threshold creates neither assignment, capability, nor fit for the later Work interval. |
 | CC-A15.2-5 | A desired participant, argument, or result uses A.15.3 only after one declaration member supplies its reusable meaning and later actual-use predicate. | The plan states the intended choice; it does not turn method-description wording, a broad field label, a compatible ValueKind, or a planned reference into participation. Keep ordinary plan content when typed reuse is unnecessary; otherwise return `missing-governor`. |
 | CC-A15.2-6 | An expected change, result, entity, delivery, acceptance, or outcome names its intended subject and target and remains a plan claim. | No `output`, `result`, `outcome`, `deliverable`, or `handoff` field is treated as a universal kind or as proof that the object exists or the effect occurred. |
-| CC-A15.2-7 | `PlanItem` organization names local predicates and conditions but does not admit relation kinds or force the same shape on performed Work. | Graph order and spellings such as `Precedes_pl` or `MutuallyExclusive_pl` establish no reusable relation or world-side fact. |
+| CC-A15.2-7 | `PlanItem` organization names local predicates and conditions but does not admit relation kinds or force the same shape on performed Work. | For a claim about delivering several results, the chosen organization must support their actual dependencies and common constraints throughout the promised conditions. Graph order alone establishes no world-side fact. |
 | CC-A15.2-8 | A one-case fulfilment answer is A.6.RCD disposition 2: a separate assertion about plan episteme P, item I, Work W, and policy F. F names the independently obtaining Work facts and the positive or negative criterion used. | Shared labels or links cannot close the claim. Negative polarity needs an applicable explicit criterion and case facts; unavailable facts return `missing-information`, absent predicate or policy authority returns `missing-governor`. Repeated semantics may use a predicate-definition episteme; only an occurrence-facing receiver can open relation-kind admission. |
 | CC-A15.2-9 | A variance question compares exact planned and actual values through one local comparison assertion or the measurement, temporal, resource, evaluation, or acceptance pattern that defines the comparison. | Comparison method, scale, qualification window, and result are explicit; no universal variance relation or intrinsic Work field is inferred. |
 | CC-A15.2-10 | When cross-context plan use depends on semantic correspondence between differing local interpretation bases, apply the separate Bridge/use/reliance branch in checklist item 7. | F.9 is cited only for an exact `SchemeSenseCell` Bridge; the separate C.2.1 use claim and A.10 or B.3 reliance result decide whether the attempted use proceeds, narrows, or stops. Run target conversion, commitment, acceptance, and verdict reuse under the pattern that defines each claim; the Bridge establishes none of them. |

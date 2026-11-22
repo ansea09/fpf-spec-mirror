@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 140935
-line_end: 141218
+line_start: 141080
+line_end: 141363
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -206,7 +206,7 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 
 #### G.10:4.3 - Shipping procedure (normative)
 
-Compose the pack while preserving the cited definitions:
+Work backwards from what the recipient has to do with the shipment. To replay a selection, the recipient needs the records that governed that selection. To decide a new case using the same method, the recipient needs the rule, its conditions and a way to obtain the inputs that can change in the new case. A past shortlist with every entry traceable can meet the first commission while leaving the second open. Reuse one source for both when it supplies both. If several users rely on a joint result, carry the relation that allows their contributions to be used together. Deliver a separate source directly when that is all the recipient needs. For a pack, preserve the cited definitions as follows:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
 2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** listing the methods, mechanisms and policies used to obtain them, with the edition of each (ids only; semantics stay with governing definitions).

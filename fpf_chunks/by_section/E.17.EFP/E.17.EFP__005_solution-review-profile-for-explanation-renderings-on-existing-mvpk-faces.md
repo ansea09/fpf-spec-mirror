@@ -6,12 +6,12 @@ section_id: "E.17.EFP:4"
 section_title: "Solution — review profile for explanation renderings on existing MVPK faces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__005_solution-review-profile-for-explanation-renderings-on-existing-mvpk-faces.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:4 — Solution — review profile for explanation renderings on existing MVPK faces"
-line_start: 115682
-line_end: 115943
+line_start: 115756
+line_end: 116017
 dependencies:
   - "A.10"
   - "A.15"
@@ -158,7 +158,7 @@ When one rendering needs its own narrower bounded claim or effect line, blocked 
 A publication-side reviewer starts with five questions:
 
 1. Which source edition is intended: what ClaimGraph, EntityOfConcern and effective ReferenceScheme identify it?
-2. Does the text express enough for the declared use, retaining action-changing qualifications, source return and use-relevant omission disclosure? Whole-source coverage is not required. An omitted answer-changing condition blocks this use even if the displayed sentences are true.
+2. What explanation did the reader ask for? Can the reader recover from this text and its accessible source the relation that explains the result over the requested range? If the request includes choosing how to proceed, can the reader also recover how to make that choice? A few claims can supply the full explanation. Retain the qualifications, return to source and omission disclosures that affect this use. An omitted answer-changing condition blocks this use even if the displayed sentences are true.
 3. Does the text assert changed content or concern another entity or effective scheme? If so, which exact target and independently obtaining source-to-target relation support its expression?
 4. Which E.24.PUB expression or applicable A.6.3.RT representation expresses the identified episteme, and which explanation class changes the reader's next action?
 5. Has the expression begun carrying another unsupported claim, relation, reliance or deliberately coarsened use that must return to its direct pattern?

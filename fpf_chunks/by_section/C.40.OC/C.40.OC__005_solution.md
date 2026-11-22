@@ -6,12 +6,12 @@ section_id: "C.40.OC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:4 — Solution"
-line_start: 91768
-line_end: 91899
+line_start: 91814
+line_end: 91945
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -28,7 +28,7 @@ Build a characteristic account sufficient for this inquiry, exposing every mater
 
 #### C.40.OC:4.1 - Bind the characterization to one subject, use, and horizon
 
-Name the subject and configuration. For an AI case, distinguish model, data, scaffold, tools, oversight, access, and surrounding operating arrangement when their differences matter. For an organization, name the organization or bounded arrangement rather than treating its chart or provider as the subject. For a person, name the person and relevant later-Work context.
+Name the subject and configuration for each claim. If a conclusion needs several, distinguish the Method being designed, the Work that enacted it and the result it produced. Connect their accounts through the relevant use, configuration or occasion, or through a warranted transfer. For an AI case, distinguish model, data, scaffold, tools, oversight, access, and surrounding operating arrangement when their differences matter. For an organization, name the organization or bounded arrangement rather than treating its chart or provider as the subject. For a person, name the person and relevant later-Work context.
 
 State the receiving use, horizon and scenarios. Include the time stance and evidence window needed to interpret or rely on the selected readings; a reported measurement retains its measurement-specific temporal basis. A characterization for today's incident-review Work is not automatically valid for a future management role. A model benchmark in one configuration does not characterize another configuration with the same product label.
 
@@ -38,7 +38,7 @@ If those boundaries are missing, use `C.40.OI` and return only after they are ad
 
 For each candidate characteristic, ask: if its current reading, intended reading, polarity, or uncertainty were different, could the worthwhile problem, contribution, direction, reachability, protection, advice, or next question change?
 
-Keep it when the answer is yes. Otherwise omit it from the working account, while naming any intentionally unsearched area whose omission could reverse the result.
+Also try changing the relations among the parts while holding their individual readings fixed. If either the answer or its required grounds can change, retain that relation or obtain the information that distinguishes the arrangements. Keep an individual characteristic when it makes a consequential difference alone or in combination. Otherwise omit it from the working account, while naming any intentionally unsearched area whose omission could reverse the result.
 
 Start from several directions when useful:
 

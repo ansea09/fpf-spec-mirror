@@ -6,12 +6,12 @@ section_id: "E.10.D2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Solution"
-line_start: 109107
-line_end: 109153
+line_start: 109171
+line_end: 109217
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -42,11 +42,11 @@ For the current passage or artifact:
 2. **Recover the episteme constitution.** Identify the exact claim content G, exact EntityOfConcern, and effective `ReferenceScheme`; test whether `EpistemeConstitutionRelation` obtains under C.2.1.
 3. **Classify the expression or use.** Decide whether the current object is the claim-bearing description episteme, a specification use of it, an assertion about another object, a publication form, a carrier, or a representation. Do not infer the answer from a suffix or medium.
 4. **Open only a needed neighbor.** Add empirical grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, specification evaluation, publication, form, carrier, currentness, or representation only when the named receiving use depends on its direct relation.
-5. **Stop at the smallest sufficient result.** Do not produce a universal description card. A readable sentence naming the receiving use, the recovered episteme, its EntityOfConcern, and the one needed neighboring relation is normally enough.
+5. **Stop at the smallest sufficient result.** Name the receiving use, the recovered episteme and its EntityOfConcern. Add the relations on which the answer depends. For example, deciding from an approval and a use record whether an operator used the approved instructions requires both to identify the same edition.
 
 A short statement usually suffices.
 
-> For `<receiving use>`, episteme `<E>` carries claims `<G>` about exact EntityOfConcern `<T>` under effective scheme `<R>`. `<One named neighboring relation>` is additionally current because `<the next action depends on it>`.
+> For `<receiving use>`, episteme `<E>` carries claims `<G>` about EntityOfConcern `<T>` under scheme `<R>`. `<The additional relation or combination of relations>` supports `<this conclusion>` under `<these conditions>`.
 
 If no neighboring relation is needed, omit the second sentence. If the C.2.1 triple or the required direct governor cannot be recovered, return that exact blocker instead of filling a generic context field.
 

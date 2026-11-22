@@ -6,12 +6,12 @@ section_id: "E.17.2:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:9 — Conformance checklist"
-line_start: 114925
-line_end: 114941
+line_start: 114999
+line_end: 115015
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -44,5 +44,5 @@ keywords:
 11. Every cross-view relation names its predicate, participants, obtaining test, and applicable pattern; a diagram edge, correspondence label, citation, shared holon, or common template is insufficient.
 12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, mathematical representation under C.29, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.
 13. Cross-project reuse is claimed only for the same resolved L, declaration, and member references. Equal TEVB position labels or independently filled templates establish no shared family.
-14. Later ordinary reuse resolves the admitted L and declaration, then one needed P, and stops after the readable conformance judgment unless a named receiving work needs more structure. It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
+14. Later reuse for recognition under one viewpoint stops after the readable conformance judgment. An engineering answer must be supported by the claims in the selected views and any cross-view relation on which it relies (§§4.3, 4.6). It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
 

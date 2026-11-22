@@ -6,12 +6,12 @@ section_id: "E.24.CD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__012_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:10 — Rationale"
-line_start: 125339
-line_end: 125352
+line_start: 125436
+line_end: 125449
 dependencies:
   - "A.1"
   - "A.14"
@@ -57,7 +57,7 @@ keywords:
 
 Ontic candidates rarely arrive as pure ontology. They appear through the forms people use: project tables, cards, schemas, diagrams, source packets, draft rows, examples, and repeated words. Those forms reveal working concerns, but they do not decide what exists, what relation obtains, or what FPF kind is needed.
 
-The pattern therefore asks for one first-use disposition instead of a candidate record.
+The first-use disposition identifies where a particular claim can be settled. The original commission determines whether that identification finishes the work or supplies part of a wider explanation or design.
 
 Keep direct claims in their direct patterns; use C.2.1 only when one exact ClaimGraph, one EntityOfConcern for those claims, and one effective ReferenceScheme constitute an episteme; and use C.3.2 for local classification.
 

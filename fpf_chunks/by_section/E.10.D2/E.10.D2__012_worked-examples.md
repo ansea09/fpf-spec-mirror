@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_worked-examples.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 109305
-line_end: 109370
+line_start: 109369
+line_end: 109434
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -90,9 +90,9 @@ If the training use adds another publication occurrence with another form or car
 
 #### E.10.D2:11.8 - Minimal dashboard repair
 
-A project note says, “The architecture dashboard approves the deployment role.” The immediate receiving use is an operations discussion of the release candidate. Recover the smallest truthful result:
+A project note says, “The architecture dashboard approves the deployment role.” The operations team needs to know which architecture description it can discuss and whether deployment has been authorized. Suppose the dashboard legend identifies the named description, its claim content, its subject and the scheme in which the team can read it. The team can then recover the following:
 
-* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains;
+* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; read its claims to establish which structure is described and what, if anything, the description asserts about C.30's `ArchitectureRelation`;
 * the receiving use is the operations discussion; record the exact operations viewpoint only if it changes what that discussion reads or checks or may conclude, and otherwise omit viewpoint selection;
 * the dashboard may be a publication form, carrier, representation, or view only under the recognition rule for that exact use;
 * no checkable-claims-plus-harness basis has been named, so specification force is not admitted;

@@ -6,12 +6,12 @@ section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:1 — Problem frame"
-line_start: 9804
-line_end: 9832
+line_start: 9805
+line_end: 9833
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,7 +45,7 @@ When observed performances or evidence about performances may show a reusable wa
 
 For reusable-way claims proposed or described in documentary guidance, use `A.3.1.DR` when their source meaning or status needs recovery. Choose by the source's role in the question: a document can contain both guidance and performance evidence.
 
-When one candidate reusable way is ready for the `U.Method` identity test, apply this pattern directly.
+When you must devise a reusable way, begin with what its future user must achieve or preserve and where they will start. Construct the way in §4.1, then identify it under this pattern. If a candidate is already supplied, go directly to the identification or comparison the project needs.
 
 Typical moments:
 
@@ -58,7 +58,7 @@ Typical moments:
 
 `U.Method` is a non-agentive holon kind: methods can have submethods, compose into whole methods, and participate as submethods of larger methods. A step label or step description is not a method part unless the recovered object is itself a `U.Method`.
 
-**First useful move.** Name the reusable way of doing, its generic participant meanings, applicability, preconditions, intended effect or preserved condition, and the concern it addresses. If local terminology changes that answer, cite the effective reference scheme and local senses.
+**First useful move.** Ask what the performer needs to accomplish, under which conditions, and which choices the performer must make. If the way is missing, work back from that result to the operations and conditions that can produce it. If it is given, state what it does, for which participants, where it applies, and what preserves or changes its identity. Cite the effective reference scheme and local senses when their meanings affect that answer.
 
 **What goes wrong if missed.** Readers may mistake a diagram for work authorization, a query plan for performed work, a program for proof of operational success, or a graph path for a route actually followed.
 

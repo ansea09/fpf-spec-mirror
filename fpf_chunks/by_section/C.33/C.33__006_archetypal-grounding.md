@@ -6,12 +6,12 @@ section_id: "C.33:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:5 — Archetypal Grounding"
-line_start: 85046
-line_end: 85067
+line_start: 85086
+line_end: 85107
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -54,11 +54,11 @@ keywords:
 
 C.33 assesses what selected structure a partial carrier captures, what it leaves out, and which practical use it supports. The carrier may be a diagram, decision record, query result, eval report, code-agent map, neural-network architecture review, method handoff, or observation of the realized holon. Apply the rule or test needed by a further claim. Add C.2.1 identity only if that claim must travel independently.
 
-**An integration decision.** An approved decision record says “use event-carried integration with bounded exceptions.” A team can cite the adopted integration style. To decide whether a particular interface qualifies for an exception, the team needs the condition defining the exceptions. If the record gives that condition, the team can apply it to the interface. If the record only says “bounded,” check whether an applicable contract or policy already decides the case. If admitting and refusing the interface are both consistent with the available rules, ask the decision owner to resolve the exception before relying on it.
+**An integration decision.** An approved decision record says “use event-carried integration with bounded exceptions.” A team can cite the adopted integration style. To decide whether a particular interface qualifies for an exception, the team needs the condition defining the exceptions. If the record gives that condition, the team can apply it to the interface. If the record only says “bounded,” check whether an applicable contract or policy already decides the case. If the applicable rule gives the team discretion, the team can exercise it. If its authority or the applicable rule is still unknown and the answer depends on it, recover that basis or obtain a determination from the decision holder.
 
 To answer which interfaces actually use event-carried integration, inspect evidence about the installed interfaces. A verified as-built inventory attached to the same record can already supply it. Use C.30.AD for the architecture description or C.32.ADR for the decision record. Reopen the decision under C.32.PAD if the rule itself needs to change.
 
-Episteme case. A code-agent relation graph finds imports, call edges, inferred module roles, and candidate invariants. C.33 records relation observation class `observed | inferred | unknownRegionPresent`, typed relation semantics, confidence class, active-passive gap when present, unexplored regions, and lost runtime or deployment structure.
+Episteme case. A relation graph records observed dependencies and inferred module roles. Identify the basis for each relation used in the answer and which regions the inquiry covered. The same graph can contain confirmed relations and leave other modules unexamined. Record the consequential gap, including runtime or deployment relations the graph cannot reveal.
 
 The graph can inform `C.34` preservation checks or be assessed under `C.35` for its next architecture use; it does not by itself prove an internal-belief claim, qualify as release evidence, or establish full architecture adequacy.
 

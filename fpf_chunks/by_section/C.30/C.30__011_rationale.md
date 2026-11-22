@@ -6,12 +6,12 @@ section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 75458
-line_end: 75467
+line_start: 75492
+line_end: 75501
 dependencies:
   - "A.1"
   - "A.10"
@@ -80,7 +80,7 @@ An architecture question concerns how a holon is organized and what a proposed c
 
 C.30 and C.30.ASV establish an FPF architecture kernel: actual subject relations first; selected A.22 structure; `ArchitectureRelation` to the described holon; separately constituted claim, description, viewpoint, and view epistemes; structure-kind discipline; correspondence and source-return boundaries; and characteristic-claim applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-Architecture discussions often need one immediate result: name the holon, choose the structure kind under consideration, recover the use of inspected material, identify the pattern for any separate evidence or assurance claim, or stop. One or two ordinary sentences can suffice, including for retention or handoff. A fuller description earns its cost when the receiving action needs subject, correspondence, view or use conditions that the short account does not supply.
+A short account can explain a structural relation or settle a specific architecture question. Its length follows from what the reader needs to recover. A question about the organization of a whole can require showing how several selected structures interact. A request to name the next useful action can be met by identifying that action and why it matters.
 
 Episteme identity and direct view conformance also preserve plurality. The same holon, architecture-relation occurrence, or selected structure may be described by several independently identified epistemes; one episteme may conform to several viewpoints through distinct occurrences; several publications may render one description. C.30 keeps those variants usable without turning any publication form into architecture or any bundle or list into view membership.
 

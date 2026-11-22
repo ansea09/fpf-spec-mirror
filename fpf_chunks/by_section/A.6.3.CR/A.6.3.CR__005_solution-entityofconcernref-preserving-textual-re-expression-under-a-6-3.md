@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 19115
-line_end: 19272
+line_start: 19126
+line_end: 19283
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -84,10 +84,10 @@ Use this pattern when the EntityOfConcern stays fixed and textual restatement re
 
 #### A.6.3.CR:4.2.b - What the user checks first
 
-Start with the preservation question:
+When writing a new text, work back from the purpose to the distinctions the reader needs. Preserve a source qualification wherever dropping it could change the answer, and keep unresolved alternatives when their consequences differ. Choose wording the reader can relate to the subject under the source’s interpretation. Once there is a candidate, use the following questions to check it. A commission to assess an existing rewrite can begin here.
 1. Is the published result still about the same EntityOfConcern?
 2. Does the reader need a clearer restatement, an explanation, or an expression in which a different operation becomes practical? When the last need calls for a change of representation language or reasoning medium, use A.6.3.RT.
-3. Can the reader see what was omitted, softened, or foregrounded?
+3. Can the reader recover the qualifications and material omissions that affect this use, including a shift in emphasis that changes the apparent claim?
 4. If several sources or correspondence claims contribute, can each receiving claim be traced to those sources and the rule that licenses it?
 5. Is the source merely pointed at, was it actually used, are the rewritten claims recoverable from it, and is the result admissible for the intended use?
 6. If any answer is doubtful, is the problem a missing source or condition, a repairable preservation defect, or a changed claim needing another pattern?

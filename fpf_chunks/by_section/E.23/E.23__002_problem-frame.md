@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 123041
-line_end: 123063
+line_start: 123131
+line_end: 123153
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -31,7 +31,7 @@ keywords:
 ### E.23:1 - Problem frame
 Use `E.23` when an object version will be improved through repeated passes under the evaluation declared for that object. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if the evaluation supplies values and stop meanings for that object kind.
 
-First useful move: name the object version under improvement, the evaluation to use again on the changed version, the improvement aim, protected trade-offs, cost and risk account, and local stop condition.
+**First useful move.** Start with the difference a recipient needs from the improvement. Locate where that difference could arise, choose the object version to change and decide how to recognize an improvement in the receiving work. Name the evaluation to use again, the protected qualities, cost and risk, and the conditions for stopping.
 
 For improvement of an operating work process whose useful next condition is clearer than the way to reach it, §4.4.1 develops the Improvement Kata branch: study current work, establish a near target condition, and use observations and bounded experiments to discover an effective change. Preparing that basis can finish with a useful next observation. An actual improvement pass needs the object, evaluation, protected qualities and continuation grounds above. Use the coached-practice application in HCD.9:4.10 when developing the learner's or coach's reasoning is also intended.
 

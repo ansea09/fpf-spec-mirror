@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ILC.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
-line_start: 78065
-line_end: 78368
+line_start: 78099
+line_end: 78402
 dependencies:
   - "A.10"
   - "A.22"
@@ -64,7 +64,7 @@ Use this pattern when a project situation contains a cross-scope architecture re
 - For the stoppages, compare the time required for an arm to acknowledge a request with the interval the cell controller allows. Use the active configuration and the recorded reason for a stop to distinguish a timeout from a shortage of material. To explain an increase across jobs, also check which jobs and operating conditions were compared.
 - For the audit exceptions, compare the records the retuned controllers supply with the information the audit now requires. Changed audit criteria can produce more exceptions even if the controllers supply the same records.
 
-A documented timing incompatibility rules out timely acknowledgement through that interface. If timely acknowledgement is required, revise the design. If timeout with a fallback is permitted, check whether that alternative meets the cell’s need. Evidence that the interface caused a particular stop warrants addressing that occurrence. The aggregate counts alone leave both diagnoses open. A mediator or changed control layer becomes a candidate when the diagnosed coupling calls for it. Use C.30.ASV when its structural view is needed.
+A documented timing incompatibility rules out timely acknowledgement through that interface. If timely acknowledgement is required, the specified exchange cannot meet that requirement. Carry this finding into redesign when a different arrangement is commissioned. If timeout with a fallback is permitted, check whether that alternative meets the cell’s need. Evidence that the interface caused a particular stop warrants addressing that occurrence. The aggregate counts alone leave both diagnoses open. A mediator or changed control layer becomes a candidate when the diagnosed coupling calls for it. Use C.30.ASV when its structural view is needed.
 
 The first result names the affected holon levels or scopes, the structure that carries them, the residual-bearing locus, any attempted local repair or reason for its insufficiency, and the first warranted architecture move. An adequate ordinary explanation can finish the question. `CrossScopeArchitectureResidualTriageRecord@Context` can organize the result when its fields help the receiving use.
 
@@ -198,7 +198,7 @@ A layer label is not a structure kind, not a system level, not a rate band, and 
 
 **Interlevel conflict, frustration residual, and complexity-growth recovery.** A conflict is architecture-shaping only when the account identifies the declared holon levels or declared scopes, the selected structure or structure kind that carries them, and the conflict carrier: constraint, objective, admissibility condition, tempo, resource allocation, information-transfer relation, or assurance requirement. A frustration residual is architecture-shaping when the cross-scope loss persists after attempted local repair, or when a stated reason shows why that repair would leave the loss unresolved. Complexity-growth pressure is only a candidate reason to add, split, mediate, or stabilize structure when that change is expected to reduce the residual enough to justify the new cost and its own residue.
 
-Identify where the two constraints meet and decide what the available evidence settles. If an exchange can return an acknowledgement no earlier than 10 seconds after a request and the receiver accepts it only within 5 seconds of that same request, the design cannot complete that exchange as specified. The two bounds already settle the design decision. To attribute a particular cell stop to this conflict, establish which request was outstanding at the deadline, whether a reply had arrived by then and which rule actually stopped the cell. A competing explanation needs checking only if it changes the decision. Apply C.28 when attributing a change in the rate of stops across jobs to the retuning.
+Identify the constraints whose combination matters, their connections and what their sources establish. When different models group the arrangements differently, check whether the apparently conflicting conditions can occur together in the use under inquiry. If separate summaries lost their pairing, restore the joint constraint before attributing a conflict to the architecture. The loss of that relation can itself answer a question about the descriptions. If an exchange can return an acknowledgement no earlier than 10 seconds after a request and the receiver accepts it only within 5 seconds of that same request, the design cannot complete that exchange as specified. The two bounds already settle the design decision. To attribute a particular cell stop to this conflict, establish which request was outstanding at the deadline, whether a reply had arrived by then and which rule actually stopped the cell. A competing explanation matters when it changes the causal account or the action the recipient needs. Apply C.28 when attributing a change in the rate of stops across jobs to the retuning.
 
 **Multilevel optimization boundary.** First establish whether local optimization in one declared holon level or scope degrades another declared holon level or scope. This triage neither optimizes the architecture nor proves that one global function exists. A mathematical treatment needs a recoverable mapping between declared levels, scopes, scale windows or coarse-graining steps, with the distinctions preserved and lost for its use. Retain an adequate domain treatment directly. Use C.29 when formulation, transfer or reliance remains unresolved; its `MLU.Description@MultilevelLearningFrustration` form is optional unless the receiving interface requires it.
 

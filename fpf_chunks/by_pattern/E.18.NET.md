@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.NET.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
-line_start: 120216
-line_end: 120685
+line_start: 120302
+line_end: 120771
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -48,7 +48,7 @@ keywords:
 
 Use this pattern when one engineering question depends on two or more independently identified transformation-flow structures, or on nested networks of them, and at least one obtaining relation connects positions across their boundaries. Typical situations include a toolchain that builds another tool, a production system related to the product it helps produce, or an operating flow whose observation returns to a separate development flow.
 
-Start with the three cases in step 1. Continue with steps 2–5 when the engineering question requires a network.
+Start from what the recipient needs to establish across the flows. Work back from the use of a result to the flow that supplies it and any other flow on which that use depends. At a nested boundary, ask whether the exposed result suffices or whether two internal arrangements with that same result could change the answer. Follow the difference only as far as the question requires. Use a shared constraint when it affects what several members can provide together. Then select among the three cases in step 1 and continue with steps 2–5 when the question requires a network.
 
 1. decide whether the case is several valuations of one flow structure, an internal portion of one flow structure, or a network of independent flow structures;
 2. identify each candidate member independently;
@@ -56,7 +56,7 @@ Start with the three cases in step 1. Continue with steps 2–5 when the enginee
 4. select only the members, relations, boundary exposures, and constraints needed for the current question; and
 5. return one network reference, or stop at the proposed description and name either the relation-claim result returned by its governing pattern or the separate missing network discriminator.
 
-A successful selection returns a network reference and its basis.
+A successful selection returns a network reference and its basis. For a request to identify that network, this can be the final answer. For a receiving decision, use the selected connections to establish what can be concluded across the members and obtain any further premise the decision needs.
 
 ```text
 selectedNetworkRef: one exact TransformationFlowStructureNetwork
@@ -450,7 +450,7 @@ These five bias risks apply across uses of this pattern: **Gov**, **Arch**, **On
 | **CC-E18-NET-09 Record and row-locator separation** | Member rows and relation rows describe already identified objects and occurrences; the record does not create them, and every `NetworkCrossFlowRelationRowRef` resolves exactly one nested row by record, occurrence, and ordered endpoint-binding identity. | Separate the C.2.1 episteme from the selected `U.Structure`; repair or remove any locator that resolves zero or several rows. |
 | **CC-E18-NET-10 Non-agentivity** | The selected network is non-agentive. Its identity needs no actor or selection-Work claim; any actual selection Work has a separately identified System performer and occurrence. | Describe the network through direct members, selected obtaining occurrences, endpoint bindings, applied constraints, and its use frame. If actual selection Work is current, cite every precise performer's A.13 core and the independent A.15.1 Work admission; cite F.6 only when assignment-bound attribution is also current. Keep result episteme, choice, decision, and accountability relations separate. |
 | **CC-E18-NET-11 Representation boundary** | Mathematical descriptions, graphs, views, publications, and demonstrations are identified separately and state preserved/lost structure when relied on. | Apply E.18.2, C.29, E.17, A.22.CGUS, or E.18.3 as appropriate. |
-| **CC-E18-NET-12 Useful result or stop** | The practitioner receives one network ref and return condition, or a proposed description with the reason selection cannot close: the governing pattern's relation-claim result, or a separate absent member, applied constraint, use frame, endpoint, or position binding. | Restore the result or blocker under the rule that governs it; keep the relation-claim result separate from the network-selection blocker. |
+| **CC-E18-NET-12 Useful result or stop** | Selection yields one network ref and return condition, or a proposed description with the reason selection cannot close: the governing pattern's relation-claim result, or a separate absent member, applied constraint, use frame, endpoint, or position binding. For a decision that uses the network, identify what the selected connections establish for it. | Restore the result or blocker under the rule that governs it; keep the relation-claim result separate from the network-selection blocker. |
 
 ### E.18.NET:8 - Common Anti-Patterns and How to Avoid Them
 

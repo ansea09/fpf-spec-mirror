@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 110972
-line_end: 111212
+line_start: 111036
+line_end: 111276
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ Evaluate candidate uses against five fit aspects. An ordinary reversible judgeme
 
 Before repeating a recommended use, apply the result-reuse branch in `4.2.1`. Materialize separate findings or a recommendation episteme only when a named later use needs addressable support.
 
-Coordinate several candidates with an explicit local ordering mode and add pairwise precedence only when the applicable pairwise condition holds.
+When coordinating several candidates, recover the result their use together must support. Specify order where one use requires something from another. Also identify any common condition or compatibility on which the result depends, including when either use can come first.
 
 #### E.11.PUR:4.1 - Fit and applicability
 
@@ -149,7 +149,7 @@ The candidate pattern use, the earlier result episteme, a later reliance relatio
 
 #### E.11.PUR:4.3 - Coordination without forced order
 
-For ordinary local coordination, state the candidates, whether they are unordered, partially ordered, or totally ordered, any real precedence basis, and the stop boundary in readable prose. Materialize the rationale and coordination epistemes, including references to any established pairwise ordering relations, only when a named later use needs that coordination to remain addressable.
+For a question about sequence, state the candidates, whether they are unordered, partially ordered or totally ordered, the reason for any precedence, and the stop boundary. For a question about their joint use, follow each required contribution into the same decision or work and check that the contributions can serve together under its conditions. Two uses in the right order can concern different versions of the object. The order answers the sequencing question. Version compatibility can decide whether the resulting conclusion is usable. Retain the rationale and any established ordering relations as addressable epistemes when a later use needs them.
 
 ```text
 PatternUseOrderingModeValue = unordered | partialOrder | totalOrder
@@ -238,7 +238,7 @@ A changed closure can change readiness without changing the prospective dependen
    State the aggregate separately when the current question needs it. If step 5 supports a recommendation, include it there; when a reliance-bearing applicability finding exists, the two result values agree.
 5. Compare an applicable candidate with the other serious continuations, including continuing the present work without a new pattern use. Recommend it only when its expected receiving value warrants its full burden; use C.11.DUA when that judgement is unclear. Finish without a positive recommendation when no candidate warrants one. The expectation is not an achieved result.
 6. Before repeating a recommended use, compare any earlier result through `4.2.1`. Reuse a matching result or reopen only the affected result question.
-7. Coordinate several candidates as unordered, partially ordered, or totally ordered. Establish each needed pair under §4.4's branch predicate.
+7. Establish the ordering the receiving work needs under §4.4. When the commission concerns a combined result, use the rationale to explain how the contributions fit that result, including any joint condition the ordering leaves open.
 
    For prerequisiteResult, name exact required content, the selected supplier-use basis and its expectation.
 

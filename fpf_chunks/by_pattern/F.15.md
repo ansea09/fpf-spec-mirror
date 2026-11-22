@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.15.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
-line_start: 132201
-line_end: 132706
+line_start: 132318
+line_end: 132823
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 > **Type:** Pattern
 > **Status:** Stable
 
-**"Prove locality and parsimony first; only then prove composition."**
+**“Choose what to check from the use the result must support. Establish what the local checks and any required connections warrant for that use.”**
 
 **Type:** Architectural pattern.
 **Normativity:** Normative.
@@ -78,7 +78,7 @@ F.15 does not define schemes, local senses, cells, values, relation occurrences,
 
 **Primary EntityOfConcern in plain terms.** One exact finite slice version under a declared set of static or regression rules for one named receiving use. The checked scope is not evidence, a work process, result, registry, Bridge, system-role assignment, status value, publication, or universal context.
 
-**Admissible move in plain terms.** Resolve the finite member refs and exact versions and apply only the triggered rules. Identify an exact check application when the claim needs its identity. Recover dated assessment Work when the claim needs its performance history. Constitute each result claim separately under C.2.1. Cite witnesses and evidence relations separately. Use the defining or testing rule for every failed subject claim, with its PatternID retained only as a locator.
+**Admissible move in plain terms.** Start with the conclusion the recipient needs. Use a stipulated slice for a check confined to it. When choosing the slice is part of the commission, follow the use back to the claims and connections on which it depends (§7). Resolve their references and versions, then apply the triggered rules. Identify an exact check application when the claim needs its identity. Recover dated assessment Work when the claim needs its performance history. Constitute each result claim separately under C.2.1. Cite witnesses and evidence relations separately. Use the defining or testing rule for every failed subject claim, with its PatternID retained only as a locator.
 
 **Primary working reader.** A practitioner checking whether selected names and semantic-unification results meet the rules for one stated reuse.
 
@@ -176,7 +176,7 @@ A description, Card, row, label, shared table, stable id, selected scope, or ear
 
 ### F.15:7 - Finite scope and conformance record
 
-Declare the finite scope before applying a rule:
+A check of supplied entries may finish with their individual results. For a claim that they can be used together, start with what someone would do with the combined result. Could all the proposed local checks pass while that action was still unwarranted? Vary the connections the current selection leaves open, including a shared condition or a difference lost in translation. Include the relation or a direct result that resolves the consequential difference. Stop extending the slice when the remaining variation cannot change the commissioned conclusion or the grounds the reader needs. Declare the resulting finite scope before applying its rules.
 
 ```text
 FiniteHarnessScope:
@@ -228,7 +228,7 @@ The optional record may cite an already admitted Work ref; it does not restate t
 ### F.15:8 - Static conformance rules for local material
 
 **SCR-F15-S1 (Finite exact scope).**
-Every selected member resolves to one exact governed value, occurrence, episteme, or by-value scheme at one exact version; the receiving use and triggered rule refs are explicit. Scope membership is selection, not evidence or conformance.
+Every selected member resolves to the exact governed value, occurrence, episteme or by-value scheme at the version being tested. The receiving use and triggered rules are explicit. When selection was entrusted to the checker, the selected members and connections cover the grounds needed for the conclusion. Scope membership alone supplies no evidence of conformance.
 
 **SCR-F15-S2 (Local-sense basis currentness).**
 Each relied-on local-sense claim names its effective ReferenceScheme and exact expression. If a `LocalSenseBasisRelation` is cited, resolve its exact occurrence under F.17 and any description as a separate episteme. A source title, carrier, NameCard, or row does not replace the relation.
@@ -470,7 +470,7 @@ F.15 counters unification bias by comparing definitions, local senses and contin
 
 | Check | Requirement |
 | --- | --- |
-| `CC-F15-1` | Declare one finite exact scope, versions, triggered rules and receiving use before applying SCR or RSCR. State excluded claims only when F.19's grounded-contribution test requires that boundary. |
+| `CC-F15-1` | Does the finite scope answer the original checking question? Preserve a stipulated local scope. For a joint conclusion, include grounds for the dependencies that could change it while each local check still passes. Identify the versions and triggered rules. |
 | `CC-F15-2` | Resolve every member to its exact governed value, occurrence, episteme, scheme, or version; selected Structure is optional and independent. |
 | `CC-F15-3` | Keep checked scope, rule, application/work, result claim, witness/evidence path, record episteme, publication occurrence/form/carrier, and currentness relation distinct. |
 | `CC-F15-4` | Check exact F.17/F.18 names, cells, cards, and rows without selecting names or duplicating their settlement. |
@@ -510,7 +510,7 @@ A finite slice is locally admissible for its named receiving use only when:
 5. witness refs and any relied-on A.10/B.3 path are current for the exact result and use, without becoming the result;
 6. the optional record cites, but does not replace, applications/work, result claims, evidence, Bridge occurrences, descriptions, publication, or currentness;
 7. a non-admitted use is explicit when its rejected reading has an independent local ground and the boundary changes the intended reader's interpretation or action under F.19; and
-8. the closure statement names the exact slice versions, rule set, currentness basis, and receiving use.
+8. the closure statement identifies the exact slice versions, rule set, currentness basis and receiving use. For a conclusion that the checked items work together, show how the established relations support that conclusion within its required range.
 
 Closure is local. A later change reopens only the affected rule results and their dependents after contradiction checks. It does not authorize a full rerun by habit or a global claim that all names, rows, relations, evidence, and publications conform.
 
@@ -554,7 +554,7 @@ Currentness rule: when the defining or testing rule for a value—or F.17/F.18, 
 
 ### F.15:18 - Didactic distillation
 
-Use F.15 as a small check over exact already-governed objects. First pin the finite scope, versions, rules, and receiving use. Then check locality and naming: schemes and cells are exact, the F.18 result records the selected names, an F.17 result records any admitted row, and actual Bridges remain separate from Cards and use claims. Next check execution and result: an application or dated Work is not its C.2.1 result, witnesses are not evidence use, and a record does not perform or publish anything.
+Use F.15 as a small check over exact already-governed objects. First determine whether the recipient wants checks on named items or a judgement about using them together. Follow the latter use to its material dependencies before fixing the finite scope, versions and rules. Then check locality and naming: schemes and cells are exact, the F.18 result records the selected names, an F.17 result records any admitted row, and actual Bridges remain separate from Cards and use claims. Next check execution and result: an application or dated Work is not its C.2.1 result, witnesses are not evidence use, and a record does not perform or publish anything.
 
 For change, compare exact prior/later refs and state continuity, loss, and use. When a rule fails, re-evaluate that subject claim under its defining or testing rule; do not patch the label or record field.
 

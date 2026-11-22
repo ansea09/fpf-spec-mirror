@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.8.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
-line_start: 129393
-line_end: 129852
+line_start: 129508
+line_end: 129967
 dependencies:
   - "A.11"
   - "A.15"
@@ -177,7 +177,7 @@ The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesigna
 Use the following questions to recover an adequate disposition without hiding a governed distinction. Skip questions already settled by the available basis.
 
 1. **Recover the four starting facts.** Name the expression, governed value or relation, its subject pattern, and the proposed use. If the value or relation is not available, stop and use its subject-recovery route; F.8 cannot establish it.
-2. **Split mixed candidates.** If one expression covers more than one governed subject or use—for example, a kind, assignment, evidence use, policy, Method, or Work—make separate naming decisions.
+2. **Decide what needs naming.** Several constituents may belong to one established whole, and several participants may enter one relation. If the recipient needs a name for that whole or relation, use its own identity and meaning. If the same expression would designate different objects or carry incompatible uses, distinguish the naming decisions the recipient needs. An ordinary heading can introduce several objects that the text keeps distinct.
 3. **State the naming locality.** Supply the naming reference scheme's designation and interpretation rules by value, and state the local-sense claim. Cite a `SchemeSenseCell`, an obtaining `LocalSenseBasisRelation`, or a selected bounded-model-use Structure only when the naming use needs that object.
 4. **Apply F.14 when the needed naming treatment is unsettled.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop; use an already justified stronger treatment when the receiving use needs it.
 5. **Try an existing designation.** Reuse it only when the value, kind, scope, occurrence identity, local sense, and proposed use match.
@@ -212,7 +212,7 @@ After A.2 and C.3 have recovered `K`, apply the naming ladder. Keep a one-off ex
 | `EvidenceRole` | An episteme used as evidence | Use the evidence-use pattern; only then consider a name for the governed relation |
 | `AccessRole` | Permission or policy grouping | Use access, policy, status, or deontic pattern; do not mint a local system-role kind by suffix |
 | `ProviderRole` in a signature | Relation position | Use `A.6.5` SlotSpec discipline; name a slot only if needed |
-| `RoleEnactment` in source prose | Source wording around a `U.SystemRoleAssignment` plus a Work occurrence | Recover the exact actual performer through A.13 and let A.15.1 independently admit the Work; use F.6 only when the naming case expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, and do not mint `U.RoleEnactment` |
+| `RoleEnactment` in source prose | A source expression whose local reading must first be recovered | Give its local meaning for a terminology question. For a claimed performance, use A.13 and A.15.1. Add F.6 when the naming case depends on which assignment covered that Work. |
 
 #### F.8:4.4 - F.17 Row-Scope Consumption
 
@@ -226,7 +226,7 @@ F.8 consumes one named F.17 row and its declared use; it neither constitutes the
 | Measurement naming | Shared measurement label where units and procedure constraints remain visible | The measurement pattern for any claim of procedure interchange. |
 | Type-structure naming | Name for an admitted structural relation under the row's invariants | `E.24.UK` for U-kind admission. |
 
-If the row does not admit the proposed use, lower the name's use or repair the F.17 row and any needed F.9 relation. Wording alone establishes neither a stronger use nor cross-local sameness.
+If the row does not admit the proposed use, look for another name or establish the grounds for extending the row. Narrow the naming use when that still meets the recipient’s need or they agree to the change. Wording alone establishes neither a stronger use nor cross-local sameness.
 
 #### F.8:4.5 - Accountable Decision Branch
 
@@ -313,7 +313,7 @@ Rules:
 
 ### F.8:5 - Invariants
 
-1. **Four facts, one use.** Every disposition names the expression, governed value or relation, its subject pattern, and one proposed use. Split an expression that covers more than one governed subject or use.
+1. **Four facts, one use.** Each disposition names the expression, governed value or relation, its subject pattern and the proposed use. Keep distinct designations identifiable when the reader needs them. A name for a whole can refer to it through its own criterion.
 2. **Lightest sufficient result.** Use adequate ordinary wording or an existing designation. Create a cell, NameCard, row or policy identifier only for the receiving need it serves. An unsettled U-kind proposal stops before naming.
 3. **Reuse preserves meaning.** Reuse or aliasing changes no kind, scope, occurrence identity, local-sense claim, admitted use, authority, or lineage. Shared spelling under another scheme establishes neither sameness nor an F.9 Bridge.
 4. **Kind, description, assignment, and Work stay distinct.** A designation may name a recovered local system-role kind `K` without creating the optional F.4 description `D`. Neither name classifies a candidate, creates an A.2.1 assignment `A`, or demonstrates Work. Other governed uses remain with their subject patterns.
@@ -407,7 +407,7 @@ F.8 counters two shortcuts: a familiar word is treated as proof that a stronger 
 | Check | Pass condition |
 | --- | --- |
 | `CC-F8-01` | The expression, governed value or relation, subject pattern, and proposed use are named before the disposition. |
-| `CC-F8-02` | An expression that covers several governed subjects or uses is split; for example, a kind, assignment, evidence use, policy, Method, or Work is not handled as one naming case. |
+| `CC-F8-02` | The designation identifies the intended object or relation. When an expression carries several distinct designation claims, each needed claim is recoverable. |
 | `CC-F8-03` | The naming ReferenceScheme and local-sense claim are stated. A cell, basis relation, or selected Structure appears only when the naming use needs that object. |
 | `CC-F8-04` | The selected naming treatment is sufficient for the proposed use; a stronger object has a receiving need that adequate ordinary wording or an existing designation does not meet. |
 | `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, authority, and lineage. |

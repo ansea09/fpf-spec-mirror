@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:0 — Use This When"
-line_start: 11265
-line_end: 11287
+line_start: 11270
+line_end: 11292
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,9 +22,9 @@ keywords:
 
 ### A.3.1.FT:0 - Use This When
 
-Use this pattern when Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the required result and the conditions of the situation in which the Method will be used. For a transfer question, also name the source situation and the claim whose support is being carried into the receiving situation.
+Use this pattern to decide whether a Method can achieve the required result in a named situation, where an applicability condition stops holding, or whether a specified claim transfers from a source situation. Start with the receiving use and the choice or conclusion it requires. Inspect the grounds for the Method’s relevant operation, the conditions on which they depend, and which of those conditions obtain in the receiving situation. A warranted rule can settle applicability before the first local performance. To establish what someone achieved there, use evidence of that performance.
 
-The first useful result is a bounded assessment of fit, an applicability limit, or transfer, with the evidence used and any missing premise. Identify the Method or candidate status, the situation and required result, relevant actual Work, adaptations and evidence reach. Where the question requires comparison, also distinguish source and receiving situations, matched and changed conditions, and material differences in capability, support, domain results and burdens.
+The first useful result is a bounded assessment of fit, an applicability limit, or transfer, with the evidence used and any missing premise. Identify the Method or candidate status, the situation and required result, the grounds for the conclusion, and any actual Work or adaptations on which it relies. Where the question requires comparison, also distinguish source and receiving situations, matched and changed conditions, and material differences in capability, support, domain results and burdens.
 
 Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions.
 

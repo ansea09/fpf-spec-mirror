@@ -6,12 +6,12 @@ section_id: "C.36.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:7 — Conformance Checklist"
-line_start: 96621
-line_end: 96639
+line_start: 96668
+line_end: 96686
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -26,7 +26,7 @@ keywords:
 
 - [ ] A C.20 Discipline result is used, or a smaller C.36 practice and population boundary is named with the Discipline claim unresolved.
 - [ ] The subject's status is preserved: admitted Method, with independently grounded enactment when the cultural claim relies on it, or candidate/observed practice plus identified candidate accounts, source claims, cards, templates, description epistemes, and any relied-on Work facts without Method, `U.MethodDescription`, or enactment inflation.
-- [ ] One value, participant meanings, applicability condition, predicate and supported test result are explicit; a needed new predicate construction includes its positive and discriminating negative or failed case.
+- [ ] The claims and their tests address the change sought by the group. A conclusion that depends on connected relations has grounds for those connections in the same practice.
 - [ ] An existing direct predicate is used when sufficient; otherwise A.6.RCD returns the lightest disposition. A.6.REL occurrence identity is opened only when later use must distinguish occurrences.
 - [ ] The world-side claim, claim episteme, evidence and reliance, and named-interval observations remain separate.
 - [ ] Cards, descriptions with their recorded kind and status, publications, Systems, teaching/tutoring/event Work, rules, fields, forums, assignments, permissions, authority, and other direct relations are separately identified as subjects.

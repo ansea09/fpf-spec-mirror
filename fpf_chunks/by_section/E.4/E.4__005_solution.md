@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:4 — Solution"
-line_start: 98520
-line_end: 98766
+line_start: 98571
+line_end: 98817
 dependencies:
   - "C.20"
   - "C.33"
@@ -216,7 +216,7 @@ Give a whole-level Method its own pattern when it removes a recurring difficulty
 
 Expose enough of the language for a reader to select constituent Methods, understand their contributions, combine them where justified and retain their separate assurance obligations. Preserve alternative configurations; a Suite is not a mandatory sequence through every DPF. Use E.11.PFP for the Suite's framework entrance and constituent frameworks. Use E.11.DSG to develop the Suite's architectural reference, including useful problem-led entries. It covers the whole's architecture and can return both constituent and external contributions, labelled by their relation.
 
-An additional explanation of already described Methods belongs in the relevant pattern or architectural reference. A useful new operation or composition needs its own complete E.8 pattern; a mantra or reference entry cannot hide its missing construction.
+Develop a missing operation or composition where the practitioner needs it. Complete the existing pattern when the operation is part of its promised Method. An independently reusable Method with its own working problem and result can warrant a separate E.8 pattern. The architectural reference explains how contributions fit together and directs readers to the construction they will use.
 
 A teaching course or Guide with a separate learning purpose is a pedagogical companion, while explanations and cases needed to use or adapt the language remain with that language.
 
@@ -278,7 +278,7 @@ Use this routing table when a proposed change is ambiguous. Its rows are common 
 | Accepted changes are being assembled into an FPF, DPF, or LPF publication, or continuity with a predecessor publication is claimed. | `E.4.PFIP` for the accepted-source and predecessor-preservation comparisons. | Require both PFIP conclusions when both claims are made. Source parity, build success, carrier continuity, and package adequacy answer narrower questions. |
 | A distinction or rule is intended to constrain ordinary FPF use across many domains and downstream frameworks depend on it. | An accepted FPF Core amendment decision under `E.9`, followed by the subject patterns whose assertions change. | Core admission requires the transdomain constraint and accepted amendment decision; local and domain guidance stays in its framework edition. |
 | A reusable principle supports FPF-grounded work but is not a general Core rule for all domains. | Give the foundational principle pattern set or other named framework edition its own identity; state its dependency directly and open `E.4.PFR` only for its named maintenance consumer. | The framework edition and dependency boundary stay visible outside the Core table of contents. |
-| A source tradition or professional domain needs FPF-shaped patterns. | Domain principle framework through `E.4.DPF`, `G.2`, and `E.4.PFAD`; state dependencies directly and open `E.4.PFR` only for its named maintenance consumer. | The framework adds recurring domain problems, SoTA solution moves, cases, and use conditions to its source account. |
+| A source tradition or professional domain needs FPF-shaped patterns. | Develop the domain explanation under `E.4.DPF`. Use `G.2` when a comparison of source lines is needed, `E.4.PFAD` when a choice of maintained framework is at issue, and `E.4.PFR` for a named maintenance use. | A practitioner can address a recurring domain problem using the operations, grounds and conditions recovered from the source practice. |
 | One bounded local practice setting—for example a project, organization, workflow, tool, practitioner position, or audience—needs guidance. | Local practice framework through `E.4.DPF`; keep local source, publication, quality, and refresh records, and state separately any direct relation used for maintenance, responsibility, authority, assignment, or contact. If a load-bearing owner label has no current direct relation, return `missing-governor` instead of inventing one. | The named local setting bounds the guidance; a general FPF rule requires its own Core-amendment grounds. |
 | Material needed for ordinary framework use shares the framework edition, readers, access, and change rule. | Keep it as a named support publication unit of that framework edition and expose it through the edition's carrier route. | Another managed product needs an independent use or change rule. |
 | A registry, guide, evidence package, service, programme, or other result has an independently useful identity or state, users and use, content rule, access, or later-review and retirement rule. | Name its direct subject and the relevant relation, keep it as a separate product, and point to the edition or current state being used; any embedded snapshot returns to that source. State maintenance only when it separately obtains. | Keep direct subjects separate under shared use, co-location, or one outer carrier; an unresolved kind remains a proposed product and an open question. |

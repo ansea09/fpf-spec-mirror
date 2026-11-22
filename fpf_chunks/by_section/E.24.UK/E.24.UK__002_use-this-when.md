@@ -6,12 +6,12 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 125787
-line_end: 125821
+line_start: 125888
+line_end: 125922
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -60,7 +60,7 @@ Put the proposed criterion, candidate individuals, intended extent and non-membe
 
 **Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether a public FPF name should remain `U.*`. The downstream reader is the practitioner who uses public pattern titles, headings, ToC rows, and names as orientation cues and needs those cues to point to the real governed object.
 
-**First useful move.** Name the local kind, proposal episteme, or source-construct entity that the decision is about. If you cannot identify it, keep the inquiry open and stop there.
+**First useful move.** Establish which distinction the practitioner needs and what turns on classifying the proposed individuals. Identify the local kind, proposal episteme or source construct to which the admission question applies. An inquiry with no identifiable subject remains open.
 
 Then recover the proposed governed individuals, identity or membership rule, intended extent and non-member boundary, and the action-facing claim that needs the kind. Test whether existing U-kinds, direct relations, declaration SlotKinds, C.3 local kinds, or selected structures already preserve that distinction. Judge the public spelling only after the admission disposition is stable.
 

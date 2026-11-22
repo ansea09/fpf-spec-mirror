@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:intro — Intro"
-line_start: 116171
-line_end: 116207
+line_start: 116247
+line_end: 116283
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -47,7 +47,7 @@ keywords:
 
 **Use this when.** A team needs a small note, comparison sheet, or guided aid to compare available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows available for inspection, keep their shared review frame visible, and leave downstream claims and effects to the work that establishes them.
 
-**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison alone cannot decide among the options.
+**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison can settle which option meets an agreed criterion. Use the governing decision rule for a commissioned choice, and establish who is entitled to make or approve it when that matters.
 
 **First output.** One bounded comparison whose minimum content for ordinary use can be recovered in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The card below helps recover that content. The card can stay in the review context unless a receiving contract requires its separate publication. Include a blocked-use or boundary field only when it changes this comparison’s interpretation or use:
 

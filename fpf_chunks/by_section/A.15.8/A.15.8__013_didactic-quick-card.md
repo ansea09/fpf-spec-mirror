@@ -6,12 +6,12 @@ section_id: "A.15.8:12"
 section_title: "Didactic quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__013_didactic-quick-card.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:12 — Didactic quick card"
-line_start: 33256
-line_end: 33264
+line_start: 33288
+line_end: 33296
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,6 +45,6 @@ keywords:
 - **Who performs?** Independently identified actual performer Systems; add assignment-bound attribution only when needed. Keep intended performers within plan content.
 - **What supports?** Separately identified Systems and values through relations.
 - **What must survive?** The minimum state and the bearer, carrier, update/use, currentness and return conditions needed for continuation.
-- **What do we test?** Use an applicable domain Method to define one decision-changing loss, handoff, delay, or reconfiguration; identify a distinct dated probe Work only when the account needs that occurrence claim, with its A.13 and A.15.1 basis.
+- **What would settle the recovery question?** Derive the allowed individual and combined changes from the service required. Use applicable rules, records or a trial to establish its limits. Carry out any separately ordered trial and identify a distinct dated probe Work under A.13 and A.15.1 when the occurrence is claimed.
 - **What comes back?** What is supported, failed or unresolved for the named configuration and window, and the warranted next action or stop.
 

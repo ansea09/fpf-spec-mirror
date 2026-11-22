@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 116072
-line_end: 116111
+line_start: 116148
+line_end: 116187
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 #### E.17.EFP:7.1 - EFP-Core ordinary checks
 
 0. **CC-EF-0 — Exact episteme and sufficient expression are recoverable.**
-   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. The expression conveys enough for the declared use, preserves answer-changing qualifications, returns to the source and discloses use-relevant omissions. Whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. A changed target needs its own identity and an independently obtaining source-to-target relation. A speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
+   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. Compare the declared use with the reader’s original question. For a promised explanation, the expression and its accessible source supply the relation and grounds the reader needs, or identify the part the expression supports and the question still open. Preserve answer-changing qualifications, source return and use-relevant omissions. Whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. A changed target needs its own identity and an independently obtaining source-to-target relation. A speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
 1. **CC-EF-1 — Explanation class follows identity.**
    The class is named for the publication expression after CC-EF-0. It is not used as episteme identity or source-to-target evidence.
 2. **CC-EF-3 — Source reference and blocked downstream use are explicit.**

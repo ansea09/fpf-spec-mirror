@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:5 — Archetypal Grounding"
-line_start: 127390
-line_end: 127517
+line_start: 127503
+line_end: 127630
 dependencies:
   - "A.10"
   - "A.7"
@@ -109,7 +109,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 
 #### F.1:5.5 - Didactic distillation of source selection
 
-> State and independently identify the question; keep the later use in the claims. Keep a source because an inspected claim can change the answer, expose a rival or counterexample, or mark a transfer limit. Return one finite `SourceCutNote` whose ClaimGraph carries those roles, exclusions, limits, and reopen conditions, whose EntityOfConcern is the exact question, and whose named effective scheme resolves the question and exact editions. Search scores may guide inspection; they do not admit or exclude a source. Stop when additional candidates do not change the answer.
+> State and independently identify the question; keep the later use in the claims. Keep a source because an inspected claim can change the answer, expose a rival or counterexample, or mark a transfer limit. Return one finite `SourceCutNote` whose ClaimGraph carries those roles, exclusions, limits, and reopen conditions, whose EntityOfConcern is the exact question, and whose named effective scheme resolves the question and exact editions. Search scores may guide inspection; they do not admit or exclude a source. Finish selection when the sources together cover the grounds the question needs, or return the specific gap that limits the answer.
 
 #### F.1:5.6 - Manual archive: a rule under an unfamiliar name
 

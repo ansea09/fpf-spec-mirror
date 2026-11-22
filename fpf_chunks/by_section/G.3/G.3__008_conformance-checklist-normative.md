@@ -6,12 +6,12 @@ section_id: "G.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__008_conformance-checklist-normative.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:7 — Conformance Checklist (normative)"
-line_start: 137774
-line_end: 137797
+line_start: 137905
+line_end: 137928
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -77,7 +77,7 @@ keywords:
 | CC‑G3‑12          | Thresholds/guard‑bands are not embedded in CHR artefacts; they remain governed by CAL acceptance clauses (`G.4`).                                                                                                                        |
 | CC‑G3‑13          | When method‑role declarations are present (via `RoleDecls` and/or `QD.Role` alias), each declaration is **docked** to its governing pattern via a corresponding `G.3:Ext.*` module, and the edition and policy pins required by the governing pattern are surfaced to make downstream interpretation reproducible. *(QD/OEE governing patterns: `C.18` and `C.19`; wiring via `G.3:Ext.QD_OEE_Wiring`.)* |
 | CC‑G3‑14 | **Evidence wired.** Each `CHR.Characteristic` cites the grounds of its legality and guard claims through A.10 source/carrier references, or G.6 paths when shared path citation or a receiving contract requires them. The chosen representation preserves the actual claim and support relations. |
-| CC‑G3‑15          | An `Archetypal Grounding` section exists with at least two domain‑distinct examples that demonstrate lawful CHR typing/legality and the CHR↔CAL separation (notably: no thresholds in CHR).                                          |
+| CC‑G3‑15 | The archetypal grounding shows how a reader can derive a characteristic for its intended use, establish its lawful operations and leave acceptance thresholds to CAL. Cover materially different cases where an inference or choice changes. A general derivation within one case can establish the applicable range. |
 | CC‑G3‑16 | If `EvidenceLanes` are used, declare their tags with the selected regime’s definitions and pin any lane-dependent tolerances/proof requirements. Cross-lane comparison or aggregation requires both a governing policy that permits the use (typically `G.4`) and grounds for the operation on these measurements. Cite both, with G.6 paths when used or required. |
 | CC‑G3‑17          | When CHR outputs are bound into a planned baseline, identify the `A.15.2` WorkPlan and its local baseline locator. If the plan fills an independently declared operation argument or relation position under `A.15.3`, also use `CHRMechanismSuiteSlotFillingsPlanItem` with its governing declaration reference, member designator and plan-local filling-row locator, as governed by `A.19.CHR:4.1.2` (wiring via `G.3:Ext.SuiteBoundaryLinkage`). |
 | CC‑G3‑18 | **Use-qualified currentness.** A claim whose receiving use depends on currentness retains its B.3.4 basis and any applicable validity window or decay policy. Named models/policies are pinned through `G.3:Ext.DecayWiring`. Changes to relied-on windows, policies or other support conditions participate in RSCR under `G.3:4.1`. |

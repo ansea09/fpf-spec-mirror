@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:0 — Use This When"
-line_start: 5805
-line_end: 5824
+line_start: 5797
+line_end: 5816
 dependencies:
   - "A.2.2"
   - "A.2.8"
@@ -39,11 +39,11 @@ Typical moments:
 
 - an SLA publication, service catalog, product offer, public API promise, utility offer, or government-service description contains a statement about what a consumer may rely on;
 - a team says "the service" but might mean promise content, provider organization, API, access point, delivery system, method, ticket, or performed work;
-- to judge fulfilment, apply the declared acceptance criteria to the delivery-work facts, affected entities and post-work states, and any delivery or acceptance relation the criteria require. Establish a particular evaluation Work when the criterion requires that performance or the claim concerns it. Its operation result, any verdict episteme and A.10 evidence relations each have their own grounds;
+- to judge fulfilment, apply the declared acceptance criteria to what the promise covers. For one delivery, examine its Work, outcome and any required delivery or acceptance relation. For a population or period, use records covering that population or state over the declared interval (§8.2). Establish a particular evaluation Work when the criterion requires that performance or the claim concerns it. Its operation result, any verdict episteme and A.10 evidence relations each have their own grounds;
 
 **Primary EntityOfConcern.** The EntityOfConcern of this pattern is `U.PromiseContent`: a consumer-facing promise-content episteme. For each PromiseContent episteme, the exact C.2.1 EntityOfConcern is the A.2.3:4.1.1 `OutcomeSpec` episteme designated by `promisedOutcomeSpecRef`. Its claim graph states the promised outcome, any eligibility predicate, and acceptance claims; `accessSpec` separately describes the access method when that description is current.
 
-**First useful move.** Write the promise content as a clause: what outcome is promised, under which effective `ReferenceScheme` and `U.ClaimScope`, which local consumer system-role kind or other eligibility predicate applies, how access is described when relevant, and which acceptance criteria selected work facts and post-work states must satisfy. For a fulfilment assertion, name the evaluation Method and the supporting evidence epistemes and A.10 relations separately. Use `U.Commitment` only for an actual duty bearer after the applicable constitutive rule and its required instituting basis obtain.
+**First useful move.** Write the promise content as a clause: what outcome is promised, under which effective `ReferenceScheme` and `U.ClaimScope`, who or what is eligible, how access is described when relevant, and what would count as satisfying the promise. For a service measure, derive the unit, eligible population and period from the promise before selecting delivery records. For a fulfilment assertion, name the evaluation Method and the supporting evidence epistemes and A.10 relations separately. Use `U.Commitment` only for an actual duty bearer after the applicable constitutive rule and its required instituting basis obtain.
 
 **What goes wrong if missed.** The word "service" starts naming provider, API, method, ticket, work, department, and promise at once. Teams then judge work against an implicit promise, treat access systems as obligations, or count performed work without knowing which promised outcome it was meant to satisfy.
 

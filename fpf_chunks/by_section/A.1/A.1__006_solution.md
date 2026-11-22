@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
-line_start: 2649
-line_end: 2783
+line_start: 2637
+line_end: 2771
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -67,7 +67,7 @@ Do not apply holon aggregation, part-whole grounding, acting-system roles, or ar
 
 Keep ontology admission and candidate recognition separate. Use `E.24.UK` for the one-time FPF decision that admits `U.Holon` and every other public holon kind. A.1 is the pattern for the constructive criterion by which a candidate is recognized under an already admitted kind. `C.3.2` supplies three-valued discipline only for project-local kind membership; it does not own recognition under an admitted public holon kind. Candidate classification is a judgment about that entity; it is not a direct relation to a pattern edition, criterion episteme, evaluator, evidence set, or status value.
 
-For the candidate, recover six distinct constructive components. Do not let one component stand in for another:
+To establish positive recognition, recover the following six constructive components for the same candidate.
 
 1. **Candidate.** Identify one `U.Entity` under its direct identity rule.
 2. **Constituents.** Identify the entities claimed to constitute this candidate. Nearby entities, members of a set, sampled points, and arbitrary slices are not constituents by inclusion or wording.
@@ -80,11 +80,11 @@ Name the already admitted holon kind and its direct kind-specific pattern separa
 
 Dated classification work belongs to `A.15.1`. When a reusable typed recognition-evaluation operation is current, `A.6.1` governs its declared arguments and result plus the actual application bindings. The evaluation returns `true` when its governed inputs determine satisfaction, `false` when they determine failure, and `unknown` when missing evidence or an unavailable dependency prevents either determination. `unknown` is an evaluation result, not a third candidate state: the same candidate can satisfy or fail the criterion while the current evaluation remains unable to determine which.
 
-When another use must inspect or cite the judgment, identify an optional C.2.1 classification-assertion or evaluation-result episteme whose EntityOfConcern is the candidate. Its claim content names the admitted kind, the A.1 criterion, the constituent and part-relation facts, reidentification rule, whole-level characteristic, candidate-side compatibility facts, construction method or rule and its applicable conditions, evaluation frame, and `true | false | unknown` judgment needed by that use.
+When another use must inspect or cite the judgment, identify an optional C.2.1 classification-assertion or evaluation-result episteme whose EntityOfConcern is the candidate. State the kind, criterion, evaluation frame, judgment and its grounds. A positive assertion needs the six components and the kind-specific condition. For `false`, show why the requirements cannot all hold for this candidate. A failed condition suffices. Evidence can also exclude every admissible way they could hold together while leaving open which individual condition failed. For `unknown`, identify what remains unresolved and how it limits the judgment.
 
 A person or system performing the receiving work separately decides whether to rely, decline to rely, defer, or reopen. Evidence and assurance relations support or warrant assertion claim content. Use G.11 to test whether the selected assertion edition is current. `B.2` addresses the different question whether the existing whole is no longer the right EntityOfConcern for a receiving use. A.1 recognition alone does not establish a B.2 whole-reidentification claim or select B.2.
 
-In ordinary use, stop after naming the entity being evaluated, six constructive components, admitted kind, kind-specific condition, and resulting judgment needed by the task. Materialize a classification assertion only when a downstream task must inspect or cite that judgment. If a system-thinking long map consumes the result, pass only this recognition result and apply A.1.STM; do not add external value, project designation, architecture, Work, or network selection to the A.1 criterion.
+Return the judgment to the original decision. Recognition can supply the systemhood premise for a project. If that premise is required and unestablished, the recipient can withhold reliance while membership remains open. A negative classification is warranted once the grounds exclude joint satisfaction. The identity of a particular missing component may remain open. Materialize an assertion only when the downstream task must inspect or cite it. A.1.STM takes up the separate project question.
 
 **Historical read path.** Older FPF writing may use `super-holon`. Under `F.13`, read it either as the larger system of which `S` is an admitted part under one part-whole relation, or as the rejected inference that interaction, change, control, teaching, measurement, or repair alone makes such containment obtain. Current FPF does not use that historical expression as a head. `Environment` means the external referents and crossing relations made relevant by a stated system delimitation and use; a medium is named as such only when that medium is the subject. Neither denotes a generic `Context` or identifies a containing whole. A containing-system claim names the larger system and the obtaining part-whole relation.
 

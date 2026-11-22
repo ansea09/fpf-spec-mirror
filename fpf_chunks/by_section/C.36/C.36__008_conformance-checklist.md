@@ -6,12 +6,12 @@ section_id: "C.36:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:7 — Conformance Checklist"
-line_start: 86067
-line_end: 86082
+line_start: 86109
+line_end: 86124
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,10 +63,10 @@ keywords:
 
 | Check | Passing observation |
 |---|---|
-| **CC-C36-1 — Recognizable case** | The text names the practice, population, collective, or Discipline boundary; the variants; the cultural-evolution relation at issue; and the next action or stop. |
+| **CC-C36-1 — Recognizable case** | The text names the practice, population, collective, or Discipline boundary; the variants; the cultural-evolution relation at issue; and the next action or stop. For an intervention, it explains how the chosen relation could change the intended practice. |
 | **CC-C36-2 — Small first result** | A cold reader can use the one-sentence case or small case card before encountering the assurance expansion. Optional fields appear only when their identities change a later claim. |
 | **CC-C36-3 — Recovered objects** | Familiar words such as *culture*, *style*, *tradition*, *practice*, *platform*, *regime*, and *technique* do not stand in for several unseparated FPF objects or relations. |
-| **CC-C36-4 — Project choice** | A project decision or authorization is recorded through the pattern for that claim and is not offered as evidence of transmission, recognition, selection, retention, loss, intervention performance, or effect. |
+| **CC-C36-4 — Project choice** | Where an authorized decision selects a variant, that act can establish the selection. A permission can establish who may choose. Establish subsequent transmission, use, retention and the effect of an intervention from grounds for those claims. |
 | **CC-C36-5 — Proposal, Work, and effect** | A proposed intervention, planned Work, performed Work, actual transformation, Work-to-change relation, and measured effect remain separate. Every asserted Work occurrence has A.13-qualified performers and independent A.15.1 admission. Assignment and F.6 refs appear only when the card or receiving use expressly represents precise assignment-bound attribution. |
 | **CC-C36-6 — Population observation** | The account specifies the change claimed, the unit and period of observation, and how each counted case meets the criterion. For a group conclusion, the coverage or justified inference from the observations supports the decision. Claims about a particular transmission or an intervention effect identify their own grounds. |
 | **CC-C36-7 — Mediation** | A platform, recommender, archive, publication, or provider is named by its kind and relation. Mediation does not become selection, value, authority, or cultural control by label. |

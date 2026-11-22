@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 109520
-line_end: 110014
+line_start: 109584
+line_end: 110078
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### E.11:4 - Solution - Give Each Entry Publication Unit One Job
 
-Write the short public entry first: recognizable working situation, practical question, first useful result or blocker, direct pattern or small plausible set, and ordinary stop or wrong-turn return.
+Start from the work the practitioner brings to the entry. Write the short route from that question to the first useful result or blocker, the direct pattern or small plausible set, and the stop or return. If the entry helps with one part, say what the practitioner can now do about the original question.
 
 If that prose is truthful and sufficient, stop expanding the entry. Add an expansion, exact result basis, or durable comparison only when ambiguity or a named receiving reliance needs it. The entry returns to the full architectural reference and pattern bodies when their explanation is needed.
 
@@ -179,7 +179,7 @@ Use `demonstrativeSliceRef` only when the example independently passes A.22.CGUS
 
 ##### E.11:4.1.1 - Cold-reader recognition and grounded public value
 
-Test every public entry against a first-time engineer, engineer-manager, or assisting agent who has not studied FPF. The heading and first sentence name a recognizable working situation; the next useful sentence names an imaginable first result or blocker and one direct-pattern distinction that changes the next action. PatternIDs, FPF kind names, internal quality language, and exact assurance fields remain later.
+Read the public entry as someone in its intended practice who has the stated prerequisites and has never used this route. For an entry to an engineering decision this might be a practising engineer or an assisting agent. The heading and opening sentence should let the recipient recognize their own question. The next sentence should identify an attainable result or blocker and the distinction that changes the next action. Introduce PatternIDs, FPF kind names and assurance fields where the reader needs them.
 
 A public value claim is grounded when the reader can recover the project need, first useful result or blocker, why one direct pattern can help, and the ordinary boundary. Add the exact potential-result kind, identity or obtaining basis, result-relative object, or conditional receiver only when omitting it would change the truth, the starting choice, the stop, or a named later reliance. The entry may stay readable prose; the reader never has to fill a card before opening the direct pattern.
 
@@ -191,7 +191,7 @@ Some readers arrive before a practical-use key is recognizable: a familiar relat
 
 Keep four moments distinct. **Recognize** why the ordinary situation matches this entry. **Select** the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** only the branch needed now. **Return** the smallest usable result or a named blocker. A direct result exists, or a relation obtains, only when the applicable pattern's conditions are satisfied; the entry cue creates neither.
 
-Apply the same compact entry shape each time: recognizable situation; practical distinction; expected first object; direct pattern; smallest usable result or honest blocker; ordinary stop; and one neighboring exit. Stop before signatures, card schemas, full Methods, pattern catalogues, or copied `Solution` prose.
+Keep the entry short enough to consult in the work. Give the situation, the distinction the practitioner needs, what the direct pattern can yield and where to go on a wrong turn. A first result can complete a lookup. If it supplies a premise for a wider explanation or design, show how to use that premise and where the remaining work belongs.
 
 - **An obtaining relation must be referred to, and perhaps distinguished from a repeated episode.** First name the exact participants and the readable direct relation, then open the pattern whose content defines or tests that relation. A current assertion can stop there when later work only needs to know whether the relation obtains.
 

@@ -6,12 +6,12 @@ section_id: "E.17.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:intro — Intro"
-line_start: 114558
-line_end: 114594
+line_start: 114630
+line_end: 114666
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -39,15 +39,15 @@ keywords:
 
 **What this buys.** TEVB supplies a four-position authoring template. Once a project has constituted its own catalogue L and bound four local references to four viewpoint epistemes, that project can reuse the resulting local family while keeping candidate episteme, described holon, conformance, cross-view relations, and publication separate. One use may select just one bound member.
 
-**First action.** Resolve the already admitted project-local catalogue edition L and the local declaration designated by `f_eng`, then resolve only the `U.ViewpointRef` needed for the present question. If L or the declaration is new, missing, or disputed, use E.17.1:4.2 to constitute or verify `<G_L, K_L, R_L>` for that edition. If a needed P edition is missing, author and admit it under E.17.0 before binding its reference.
+**First action.** Resolve the already admitted project-local catalogue edition L and the local declaration designated by `f_eng`, then use the engineering question to choose which member references to resolve (§4.3). If L or the declaration is new, missing, or disputed, use E.17.1:4.2 to constitute or verify `<G_L, K_L, R_L>` for that edition. If a needed P edition is missing, author and admit it under E.17.0 before binding its reference.
 
 Reuse those results while the catalogue edition, effective scheme, declaration, and relied-on premises remain unchanged.
 
-**First useful result.** A materialized local family has one project-local L, ordinary family designator `f_eng`, four local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module`, and four local P targets to which those references resolve under `R_L`. For a later use, the result consists of the admitted L and declaration, one needed reference resolving one P, and a readable E/P conformance judgment.
+**First useful result.** A materialized local family has one project-local L, ordinary family designator `f_eng`, four local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module`, and four local P targets to which those references resolve under `R_L`. For recognition of one view, the result is the admitted L and declaration, the reference resolving P, and the E/P conformance judgment. When the question concerns the engineering work itself, use the claims of the relevant views to answer it.
 
 Before the four bindings exist, the result is only an authoring template, not a reusable family value.
 
-**Ordinary stop.** For materialization, stop when the local catalogue triple, declaration claim block, four reference bindings, and four P targets are recoverable. For later use, stop after resolving the admitted L and declaration, the one needed P, and its E/P judgment. Reopen full catalogue constitution only under the E.17.1:4.2 triggers.
+**Ordinary stop.** For materialization, stop when the local catalogue triple, declaration claim block, four reference bindings, and four P targets are recoverable. For recognition under one specified viewpoint, stop at its E/P judgment. For an engineering question, stop when the claims and any relations the answer depends on warrant that answer. Reopen full catalogue constitution only under the E.17.1:4.2 triggers.
 
 Add another member, structured viewpoint-authoring witness, C.13/A.22 organization, construction history, cross-view relation, evaluation, or publication object only when a named receiving use depends on it.
 

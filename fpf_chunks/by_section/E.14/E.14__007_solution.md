@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:4 — Solution"
-line_start: 112621
-line_end: 112699
+line_start: 112687
+line_end: 112765
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 #### E.14:4.1 - Human-Centric principles
 
 ##### E.14:4.1.1 - Recognition text and assurance text
-Keep the same EntityOfConcern in the recognition and assurance text. The working reader should not meet one object in the recognition text and a different ontological kind in the assurance text.
+Keep the target assertion, its EntityOfConcern and its scope recoverable in both recognition and assurance. A supporting premise may concern a part, another kind of subject or another model. Show which relation lets the reader use that premise for the original assertion and under which conditions it holds.
 
 If the pattern distinguishes an EntityOfConcern, the interpretive or operational move applied to that object, and the wider review or work process around it, the text should distinguish them explicitly instead of changing nouns as though the object, move and work were interchangeable.
 
@@ -59,7 +59,7 @@ Add F.6 when precise assignment-bound attribution is consumed, keeping the assig
 
 An ordinary result may omit identifiers it does not consume while keeping all facts needed for its use recoverable.
 > **E.14-P.1 – Working-Model first, assurance when current.**
-> Operate one **Working-Model** for all human-facing discussion and state the direct claim first. If neither the publication nor a named current requirement calls for assurance, the author may stop there.
+> State the direct claim in one **Working-Model** for human-facing discussion. The reader can stop when that claim and its ordinary explanation answer the commissioned question. Supply additional grounds when the reader needs them to understand, choose or act. Add the formal assurance called for by the publication or current requirement.
 >
 > When assurance is current, declare only the posture and forms of support required by the applicable pattern: **Mapping** to align a term with the chosen model value it names; **Logical** to state label meaning, scope, constraints, and limits; **Constructive** to make independently grounded construction facts inspectable; or **Empirical Validation** to support a bounded reliance on a domain result.
 >

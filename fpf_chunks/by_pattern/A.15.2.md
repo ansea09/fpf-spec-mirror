@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.2.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
-line_start: 30905
-line_end: 31216
+line_start: 30933
+line_end: 31244
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,17 +62,17 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.WorkPlan` when a system needs one plan to coordinate possible future performed Work for an already existing subject over a stated horizon. One `PlanItem` names the intended Method, window, performer System or local system-role-kind condition, and only the resource, dependency, commitment, target, or baseline needed now. The plan states what is intended; A.15.1 identifies actual Work separately.
+**At a glance.** Use `U.WorkPlan` when a system needs one plan to coordinate possible future performed Work for an already existing subject over a stated horizon. Work back from what is due to the intended performances, their Methods, windows and performer conditions. State the dependencies and common constraints that govern their coordination. The plan states what is intended; A.15.1 identifies actual Work separately.
 
-**Use this when.** Coordinate possible future Work through a schedule, rota, ticket or other plan content. Identify the existing subject, intended performances, horizon and reference scheme, then state enough constraints to make the current coordination decision. Use §4.3 when schedule or workflow wording leaves the claim unclear.
+**Use this when.** Coordinate possible future Work through a schedule, rota, ticket or other plan content. Identify the existing subject of the plan, its horizon and reference scheme. Choose the performances and constraints needed to make the current coordination decision. Use §4.3 when schedule or workflow wording leaves the claim unclear.
 
-**First useful object.** One WorkPlan about a present subject, interpreted under one reference scheme, with a horizon and one usable PlanItem. Later fulfilment or variance checking is a separate use.
+**First useful object.** One WorkPlan about a present subject, interpreted under one reference scheme, with a horizon and one or more PlanItems that together support the coordination decision. Later fulfilment or variance checking is a separate use.
 
 **Ordinary path.**
 
-1. Identify the already existing subject whose future work is being coordinated, the horizon, and one `PlanItem`.
-2. In that item name the possible future performance, target Method, planned window, and the intended performer System or local system-role-kind condition needed now.
-3. Add only the resource, dependency, commitment, target, or baseline needed for the current coordination decision.
+1. Establish what must be supplied over the horizon, to whom and by when. Identify the existing subject the plan concerns, whether it is an asset to be serviced, a service System or another present entity. Work back from each result to what someone will have to do, including any handoff that makes it usable. An available result may already supply a needed contribution.
+2. Choose PlanItems at the points where someone needs to allocate a performer, reserve a resource or coordinate a dependency. For each, state the intended performance, Method or Method family, window or entry condition, and intended performer System or local system-role-kind condition.
+3. Establish how the intended performances can fit together under their common constraints. One feasible allocation can settle an order to make a schedule. If the plan promises service across choices left to others, establish a workable response to each allowed combination using the information and authority available when a choice must be made. State the extent of the coordination actually justified.
 
 **Filled ordinary example.** A plan about existing `Lathe-7`, interpreted under `FabMaintenanceScheme-E2`, can set horizon `2026-07-27`, item `inspect-spindle`, method `SpindleInspectionMethod-E2`, window `08:00–09:00`, intended performer System `MaintenanceTech-4` with local kind `MaintenanceTechnicianSystemRole`, a one-hour machine reservation, dependency `lockout complete`, and baseline `normal vibration`. The team can coordinate the rota and reservation for that day from this content and stop before selecting a later fulfilment or variance comparison. If lockout will not be complete by 08:00, the planners defer that item or revise its window and reservation.
 
@@ -147,7 +147,7 @@ The choices in §4.2 are intended-work content. Claims about actual occurrences,
 
 A `PlanItem` is a declaration-local content component in one `U.WorkPlan`. Its designator is interpreted inside that plan episteme. A receiving episteme may refer to this content component.
 
-Choose only the claims the team will use to coordinate the intended work. The list is an open recognition palette, not a record schema or a kind defined by enumeration. When one row mentions a neighboring relation, state its own participants and predicate rather than treating the row or reference as proof that it obtains:
+Use the recipient's required result to choose the work each item must coordinate. Where several items contribute, trace what a later item needs from an earlier one and what common resource or decision constrains them together. One item can suffice for a bounded reservation. Choose only the claims the team will use. The list is an open recognition palette, not a record schema or a kind defined by enumeration. When one row mentions a neighboring relation, state its own participants and predicate rather than treating the row or reference as proof that it obtains:
 
 1. **Target Method and description use** — identify the Method intended for enactment. When a plan claim relies on a MethodDescription, cite that episteme and the instruction, constraint or justification it supplies. A.3.2 requires the admitted Method as its exact EntityOfConcern and substantive way-of-doing claims. Call it a later edition only when the C.2.1 `EpistemeEditionRelation` obtains. The plan describes intended Work that is to enact the Method, with a System as its intended performer; the MethodDescription supplies the claims used in planning. These intended relations do not establish an actual Work occurrence.
 2. **Planned window or entry condition** — earliest start, latest finish, timebox, recurrence, blackout period, or another exact intended temporal condition.
@@ -265,7 +265,7 @@ These constructed cases stipulate their project facts. The hospital case follows
 
 * **WorkPlan:** `Fab_Maintenance_W36` is interpreted under `FabMaintenancePlanningScheme-E3`, has horizon `[2025-09-06T00:00Z, 2025-09-08T00:00Z)`, and concerns already identified `Fab-Production-System-4 : U.System`. `Tool_42` and `Tool_13` remain assets named by the PlanItems; they are not an unproved joint EntityOfConcern.
 * **`PlanItem` content:** `Tool_42 chamber clean` under `ChamberCleanMethod-E2`; `Tool_13 calibration` under `ToolCalibrationMethod-E1`; the ClaimGraph carries an exclusivity constraint with production windows. The scheduling policy, per-item windows and reserved quantities remain case inputs for this abbreviated illustration.
-* **Reservations:** nitrogen, DI water, metrology window.
+* **Reservations and decision:** nitrogen, DI water and a metrology window. Suppose each task takes one uninterrupted hour with the sole metrology technician, either order is allowed and both tasks must finish in the same maintenance window. When the technician and both tools are free for three hours clear of production, with all other inputs ready, reserve consecutive hours for the two tasks. If the only available hour is the same for both, the separate reservations cannot be honoured together. Changing the window or providing another qualified technician is a new planning choice.
 * **Later local assertion:** The chamber-cleaning Work occurrence is identified independently as an individual admitted under `U.Work`. `FabChamberCleanPlanUsePolicy-E1` asks whether that Work enacted `ChamberCleanMethod-E2`, stayed inside the planned window, and kept nitrogen use within the reserved amount. A.15.1 supplies the Work and enactment facts; C.27.TA qualifies the within-window claim; B.1.6 supplies the resource aggregate used in the budget comparison. For this illustration, assume that the three policy conditions all obtain; a separate C.2.1 assertion about the plan then states positive fulfilment. Early completion and nitrogen underrun additionally require the corresponding strict comparisons. A shared item label or reservation row supplies none of those facts.
 
 #### A.15.2:6.3 - Data-center rollout (multi-context plan)
@@ -293,7 +293,7 @@ These constructed cases stipulate their project facts. The hospital case follows
 | CC-A15.2-4 | Claims about a System intended to perform the Work, its local system-role-kind conditions, and A.2.2 capability requirements remain planned. Cite an assignment occurrence and its declared species only when that assignment already obtains; the plan supplies no capability-fit result. | Publishing a proposed holder-and-kind pair or threshold creates neither assignment, capability, nor fit for the later Work interval. |
 | CC-A15.2-5 | A desired participant, argument, or result uses A.15.3 only after one declaration member supplies its reusable meaning and later actual-use predicate. | The plan states the intended choice; it does not turn method-description wording, a broad field label, a compatible ValueKind, or a planned reference into participation. Keep ordinary plan content when typed reuse is unnecessary; otherwise return `missing-governor`. |
 | CC-A15.2-6 | An expected change, result, entity, delivery, acceptance, or outcome names its intended subject and target and remains a plan claim. | No `output`, `result`, `outcome`, `deliverable`, or `handoff` field is treated as a universal kind or as proof that the object exists or the effect occurred. |
-| CC-A15.2-7 | `PlanItem` organization names local predicates and conditions but does not admit relation kinds or force the same shape on performed Work. | Graph order and spellings such as `Precedes_pl` or `MutuallyExclusive_pl` establish no reusable relation or world-side fact. |
+| CC-A15.2-7 | `PlanItem` organization names local predicates and conditions but does not admit relation kinds or force the same shape on performed Work. | For a claim about delivering several results, the chosen organization must support their actual dependencies and common constraints throughout the promised conditions. Graph order alone establishes no world-side fact. |
 | CC-A15.2-8 | A one-case fulfilment answer is A.6.RCD disposition 2: a separate assertion about plan episteme P, item I, Work W, and policy F. F names the independently obtaining Work facts and the positive or negative criterion used. | Shared labels or links cannot close the claim. Negative polarity needs an applicable explicit criterion and case facts; unavailable facts return `missing-information`, absent predicate or policy authority returns `missing-governor`. Repeated semantics may use a predicate-definition episteme; only an occurrence-facing receiver can open relation-kind admission. |
 | CC-A15.2-9 | A variance question compares exact planned and actual values through one local comparison assertion or the measurement, temporal, resource, evaluation, or acceptance pattern that defines the comparison. | Comparison method, scale, qualification window, and result are explicit; no universal variance relation or intrinsic Work field is inferred. |
 | CC-A15.2-10 | When cross-context plan use depends on semantic correspondence between differing local interpretation bases, apply the separate Bridge/use/reliance branch in checklist item 7. | F.9 is cited only for an exact `SchemeSenseCell` Bridge; the separate C.2.1 use claim and A.10 or B.3 reliance result decide whether the attempted use proceeds, narrows, or stops. Run target conversion, commitment, acceptance, and verdict reuse under the pattern that defines each claim; the Bridge establishes none of them. |

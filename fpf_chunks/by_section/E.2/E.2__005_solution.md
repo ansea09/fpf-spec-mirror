@@ -6,12 +6,12 @@ section_id: "E.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:4 — Solution"
-line_start: 97910
-line_end: 97930
+line_start: 97959
+line_end: 97979
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 ---
 
 ### E.2:4 - Solution
-FPF rests on **eleven binding pillars**. For an FPF proposal or artifact to conform, it must satisfy the pillar constraints applicable to its use. Identify those constraints and explain any material conflict. A DRR proposing a normative change records the impact on the pillars. Together the pillars guide evolvability, cross-scale coherence and didactic clarity; their realization must be established for the use.
+FPF rests on **eleven binding pillars**. Follow the proposed change through the work of the people who would use it. Which decisions, explanations or obligations would change, and under which conditions? Use those consequences to identify the applicable pillar constraints below. Where several uses are claimed, establish which grounds extend to them together and where their conditions differ. E.3 resolves conflicting provisions. A DRR for a normative change records its impact on the pillars. E.2.DA serves the broader commission to evaluate how FPF realizes them.
 
 | ID       | Pillar                         | Essence                                                                                                                   |
 | -------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |

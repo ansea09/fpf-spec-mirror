@@ -6,12 +6,12 @@ section_id: "C.32.P2S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__011_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:10 — Rationale"
-line_start: 81427
-line_end: 81432
+line_start: 81461
+line_end: 81466
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -35,5 +35,5 @@ keywords:
 
 The connected architecturing work includes recovering problem pressure and structural uncertainty, generating candidate selected-structure changes, preserving alternatives, making decision-ready content, and returning actual-structure feedback to the next synthesis question. During realization, identify and test every actual bounded change under `A.3.4`.
 
-The next action depends on what is known about the structure and what the receiving use still needs. Candidate construction makes proposed structures more specific; a decision selects what to pursue, and domain work can make structures obtain. Descriptions and records retain only part of that content. Explain which distinctions the receiving description, decision, Method or Work needs and whether its available information preserves them. If an omitted distinction can change that use, recover it through stronger inspection, description or view repair, decision repair, or a C.29 mathematical lens as appropriate. An adequate account can be retained without another inspection.
+The next action depends on what is known about the structure and what the receiving use still needs. Candidate construction can propose a different arrangement or constrain choices a design left open. For a claim of strict model refinement, compare the admissible alternatives for the same inquiry under B.5.MR. A decision selects what to pursue, and domain work can make the selected structure obtain. Descriptions and records retain only part of that content. Explain which distinctions the receiving description, decision, Method or Work needs and whether its available information preserves them. If an omitted distinction can change that use, recover it through stronger inspection, description or view repair, decision repair, or a C.29 mathematical lens as appropriate. An adequate account can be retained without another inspection.
 

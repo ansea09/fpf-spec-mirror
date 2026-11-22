@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.3.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
-line_start: 119644
-line_end: 120215
+line_start: 119730
+line_end: 120301
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ That condition uses one independently identified E.18 substrate branch: one TFS,
 
 Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether a branch, join, condition, dependency, crossing, or connection changes the continuation question for the thing being transformed. E.18.3 membership requires the A.22 identity, CGUS locus bindings and potential topology, and one of the three E.18 substrate cases with its flow positions, bindings, and obtaining occurrences. The current continuation result is evaluated separately. Description loss, C.33 notes for a declared architecture use, publication, and stronger neighboring claims are added only for uses that need them.
 
-Name the concrete thing being transformed. Mark two recognizable places or states on the flow card in domain language, state the proposed connection or guard, and ask which continuation depends on it. A useful result can be a provisional explanation that names the missing relation, fact, or constraint. It need not yet be asserted as a C.2.1 episteme, E.18 position mapping, or selected A.22 structure. If that explanation answers the current use, stop there.
+Start with the question about what can follow. Identify the subject or subjects whose conditions determine the answer. For one transition, two places on a flow card may show where the connection matters. For a join, find which contributions must be available together and what relates them. An ordinary explanation can supply the answer or name the missing fact. A separate C.2.1 episteme, E.18 position mapping or selected A.22 structure is needed only for a use that relies on it.
 
 Recover the following values only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure: the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, and applied constraints. For a decision about what can follow now, also evaluate the current continuation candidates. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them.
 
@@ -163,7 +163,7 @@ Each Method, qualifying MethodDescription, WorkPlan, work-entry result, dated Wo
 
 #### E.18.3:4.0 - Ordinary start and conditional formal recovery
 
-For an ordinary first use, name the concrete thing being transformed, mark two recognizable places or states, state the proposed connection or guard in domain language, and ask which continuation depends on it. Return a provisional explanation that either answers the question or names the missing relation, fact, or constraint. If that is sufficient, stop; neither the explanation nor the flow card must first be constituted as an episteme, position mapping, or selected structure.
+Begin with the alternatives the recipient is considering. Which part of the transformation, other participant or enclosing arrangement could enable one of them or exclude it? Trace the necessary conditions to where they hold, and ask which differences among possible cases change the answer. For two stages that must join, both may be individually enabled yet their outputs may belong to incompatible configurations. Check the configuration when the recipient needs the joint continuation. When one established condition already excludes that continuation, that fact can settle the question. An ordinary explanation can also identify what remains unknown. Use it directly when sufficient.
 
 Use the numbered recovery branch below only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure. Comparison, publication and stronger reliance retain their own requirements for the claims made. That recovery preserves the membership and current-result distinctions; it is not a prerequisite for understanding or correcting an ordinary route-like card.
 
@@ -545,7 +545,7 @@ Connect these values only through exact obtaining occurrences and their predicat
 | **CC-E18.3-6 Potential topology and current set.** | Potential branches, joins, cycles, partial orders, and alternatives remain in the structure even when the case- and time-indexed enabled set has zero or one member. A slice states any topology it omits. | Restore the potential topology or narrow the slice; do not use current cardinality as a membership test. |
 | **CC-E18.3-7 Explanation and demonstration separation.** | An ordinary provisional explanation may remain ordinary text and separate from the selected structure. Constitute a C.2.1 provisional episteme only when persistence or replay makes its narrower claim current. Whole-structure-description and post-admission demonstrative epistemes remain separate from the selected structure; one-TFS or network locator-family completeness is required only for the corresponding admitted demonstration use, and the selected family is complete and mutually exclusive. | Remove default episteme materialization from ordinary explanation and stop. When persistence, replay, or an admitted demonstration is current, constitute the correct separate episteme and restore only its applicable complete locator family. |
 | **CC-E18.3-8 Method and Work threshold.** | Pattern refs, intended realization, recommendations, imperatives, displayed order and table completion admit no MethodDescription, Method, plan, Work or actual Transformation. Apply the A.3.2, A.15.1 and A.3.4 membership or occurrence tests to the independently identified objects when those claims are current. | Apply the relevant test or narrow the claim. |
-| **CC-E18.3-9 Plain move and ordinary-first branch.** | `move` denotes the exact current pattern-use action or independently identified object. Before optional formal recovery, the ordinary branch names the concrete transformation subject, two recognizable places or states, the proposed connection or guard, the current continuation question, and one useful provisional result or a stop naming the missing fact or rule. Exact identity, position mappings, C.2.1 materialization, publication, evidence, or assurance open only for a named stronger use. The seven application steps remain guidance, not a mantra, Method, plan or performed sequence. | Restore the ordinary action, result, and stop before formal recovery; remove default materialization or assurance. Replace any generic move/step reading with the exact object and state a stronger claim's concrete contribution. A Method contribution states its way of doing and applicability or bounds; a truth, result, evidence, or assurance claim cites its separate applicable rule and current basis. |
+| **CC-E18.3-9 Plain move and ordinary-first branch.** | `move` denotes the exact current pattern-use action or independently identified object. Before optional formal recovery, the ordinary branch names the subject or subjects, the continuation the recipient is considering, and the conditions and connections that determine its outcome. It gives the supported answer or identifies the missing fact or rule. Exact identity, position mappings, C.2.1 materialization, publication, evidence, or assurance open only for a named stronger use. The seven application steps remain guidance, not a mantra, Method, plan or performed sequence. | Restore the ordinary action, result, and stop before formal recovery; remove default materialization or assurance. Replace any generic move/step reading with the exact object and state a stronger claim's concrete contribution. A Method contribution states its way of doing and applicability or bounds; a truth, result, evidence, or assurance claim cites its separate applicable rule and current basis. |
 
 ### E.18.3:8 - Common Anti-Patterns and How to Avoid Them — Repairs
 

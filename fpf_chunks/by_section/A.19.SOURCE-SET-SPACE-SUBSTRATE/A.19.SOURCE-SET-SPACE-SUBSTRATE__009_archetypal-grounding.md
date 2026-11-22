@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__009_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:5 — Archetypal Grounding"
-line_start: 37407
-line_end: 37474
+line_start: 37439
+line_end: 37506
 dependencies:
   - "A.0"
   - "A.15.7"
@@ -63,7 +63,7 @@ DistanceDefRef          = ArchiveNeighborhoodDistance@ed=4
 SpaceMetricRef          = ArchiveNeighborhoodMetric@ed=4
 ```
 
-The archive supplies the candidate members; both space references resolve to the same declared `CharacteristicSpace`. The descriptor map assigns Coordinates, and the distance and metric define the stated coverage comparison. Selection or archive maintenance can reuse these relations while keeping the archive distinct from the space.
+The archive identifies the candidate members, and both space references resolve to the same declared `CharacteristicSpace`. The descriptor map and metric let the reader assess coverage by those members under the specified neighborhood rule. A gap in this archive establishes a gap in what it covers. To conclude that no attainable candidate could fill it, the reader needs a constraint on the candidates that could occur or adequate coverage of that broader domain.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.2 - Episteme
 

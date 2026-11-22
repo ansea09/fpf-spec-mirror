@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:0 — Use This When"
-line_start: 83147
-line_end: 83178
+line_start: 83185
+line_end: 83216
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -47,7 +47,7 @@ Use the strategic or subject practice first when the unresolved question is only
 | Systems, means and access | Systems being changed and Systems performing or contributing work; the means used; and relations through which performers obtain a result, access a means or receive authority to act. Distinguish the Systems, work, results and relations when their configuration changes the decision. |
 | description structure | Epistemes, views, schema correspondences, version relations, and losses used by the decision. Description order is not Work order. |
 | cultural relation | Recognition, transmission, selection, retention, or loss of a Method variant. A chosen project option is not cultural continuation. |
-| simultaneous multigrain contribution | Work at several grains is performed during overlapping intervals. It can include constituent and encompassing Work, the same Work enacting several Methods, or separate Work that only overlaps. Determine the relation; overlap alone neither establishes nor excludes Method composition. |
+| simultaneous multigrain contribution | Establish the Work whole and its constituent performances before identifying different composition scales. One occurrence can enact several Methods. Separate occurrences can overlap at the same scale. Establish each relation independently and follow the ones the commissioned account needs. |
 | first–then condition | One direct Work, result-use, transformation, evidence, configuration, or authority relation makes a later occurrence or decision depend on an earlier result or condition. |
 | architecture alternative | A possible-future synthesis whose named relations differ materially. Until realized or independently shown to obtain, it remains proposed. |
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:20"
 section_title: "Review Matrix and Catalogue Maintenance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__021_review-matrix-and-catalogue-maintenance.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:20 — Review Matrix and Catalogue Maintenance"
-line_start: 114545
-line_end: 114555
+line_start: 114617
+line_end: 114627
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -41,7 +41,7 @@ A reviewer can test a viewpoint bundle library with five questions:
 
 1. **Do the member viewpoints still have explicit standalone meaning?**
 2. **Does the declaration retrieved by the family designator describe one coherent recurring family rather than one convenience list?**
-3. **If a subset is imported, can the reviewer see which members were omitted?**
+3. **Can the reviewer see which members were omitted and, if the subset is recommended for a task, how the retained descriptions can support that task?**
 4. **If several bundles interact, is provenance preserved, and does each comparison use its subject method with F.9 added only for a semantic relation between distinct local senses?**
 5. **Has a publication face started impersonating the library?**
 

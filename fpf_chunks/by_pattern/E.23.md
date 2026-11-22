@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 123035
-line_end: 123688
+line_start: 123125
+line_end: 123778
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -36,7 +36,7 @@ keywords:
 ### E.23:1 - Problem frame
 Use `E.23` when an object version will be improved through repeated passes under the evaluation declared for that object. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if the evaluation supplies values and stop meanings for that object kind.
 
-First useful move: name the object version under improvement, the evaluation to use again on the changed version, the improvement aim, protected trade-offs, cost and risk account, and local stop condition.
+**First useful move.** Start with the difference a recipient needs from the improvement. Locate where that difference could arise, choose the object version to change and decide how to recognize an improvement in the receiving work. Name the evaluation to use again, the protected qualities, cost and risk, and the conditions for stopping.
 
 For improvement of an operating work process whose useful next condition is clearer than the way to reach it, §4.4.1 develops the Improvement Kata branch: study current work, establish a near target condition, and use observations and bounded experiments to discover an effective change. Preparing that basis can finish with a useful next observation. An actual improvement pass needs the object, evaluation, protected qualities and continuation grounds above. Use the coached-practice application in HCD.9:4.10 when developing the learner's or coach's reasoning is also intended.
 
@@ -101,18 +101,18 @@ When the receiving use needs its structure, admit that organization under A.22.C
 
 For one quality-improvement loop:
 
-1. Name the object version and the evaluation that will judge it. Reuse the current `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when they still fit the purpose and receiving use. Keep the evaluator, evaluation pattern or Method, characteristic space, evidence basis, result form, ClaimScope, and qualification window separate.
+1. Choose the object from the intended improvement. If the same component could serve the user well in one arrangement and poorly in another, examine the way the components work together. A changed instruction can improve what a reader is taught to do. A claim about what a team actually delivers also depends on its working conditions and performance. Select the extent and evaluation that can distinguish the changes at issue. For a request confined to the instruction, its improved guidance can be the full result. Reuse the current `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when they fit. Keep the evaluator, evaluation Method or pattern, characteristic space, evidence basis, result form, ClaimScope and qualification window distinct.
 2. State the content change sought, protected trade-offs, cost and risk account, and local stop condition. Do not use `5`, all-`5`, or `5-defensible` as the target; say what should become better in practice.
 3. Resolve any remaining ambiguity in purpose, scope or result-consuming work or decision through E.22. Keep an adequate question; constitute a separate E.22 frame only when its declaration is needed.
 4. Run the declared evaluation. When E.21 is the selected evaluation, retain its complete result: every coordinate, `ShortRationale`, `PrecisionRestorationProfile`, evidence basis, coordinate payload, and status. A loop note, blocker summary, or "no blockers" statement is not a substitute. If dated evaluation Work is asserted, identify it and its result binding or direct result relation; keep any durable result episteme separate.
 5. Record each returned finding or proposal separately. A grouped memory summary does not close skipped items, and a proposal remains a proposed next action rather than performed Work.
-6. Select the next change. Selection does not perform it. When the account asserts dated improvement Work, identify that Work and connect it to a returned value or changed object only through an obtaining A.6.1 binding or declared Work-to-result or Work-to-change relation. If that relation is unavailable, keep proposal, Work, changed object, and Transformation separate and return the missing relation.
+6. Choose the change that could improve the commissioned result. If this pass calls for implementation, carry it out before evaluating the changed object. When different contributions must work together, change the relevant connection or constituent and keep the conditions of their joint use available for the next evaluation. When the account asserts dated improvement Work, identify that Work and connect it to a returned value or changed object only through an obtaining A.6.1 binding or declared Work-to-result or Work-to-change relation. If that relation is unavailable, keep proposal, Work, changed object, and Transformation separate and return the missing relation.
 
    Repair below-floor findings first. Above the floor, prefer a substantive gain—such as clearer action, a missing case or countercase, current source support, restored predecessor content, cleaner relations, or a split of overloaded material. Do not add guards, catalogues, or quality proof merely to defend a higher score. Close with no change only after the evidence shows that no feasible non-dominated improvement remains worth its cost under the protected trade-offs.
 
    For a precision-restoration defect, apply `F.19` and open a restoration or subject pattern for an unresolved FPF-specific meaning. Claim a Method or MethodDescription only when A.3.1 and A.3.2 admit it. Keep locator, Method, description, performer, assignment, Work, result, and responsibility separate. Run one bounded `KindRestorationCheck` when the changed expression can alter FPF-governed meaning; otherwise F.19's local revalidation completes the ordinary repair.
 7. Re-evaluate the changed object as a separate pass through the same declared evaluation with comparable evidence and conditions. If the evaluation itself needs to change, use §4.1a before comparing values across that change. Keep the later Work, application or direct result relation, evidence, returned value, and result episteme distinct from the first pass.
-8. Record what improved, what stayed at the floor, what was unchanged by value, what became worse, and which findings moved outside this evaluation. Compare the earlier and later evaluation results. When result epistemes or dated Work are asserted, preserve their separately governed identities.
+8. Record what improved, what stayed at the floor, what was unchanged by value, what became worse, and which findings moved outside this evaluation. Compare the earlier and later results at the scale of the intended gain. Use a result about one component for the whole when its contribution and the conditions governing the remaining parts support that inference. When result epistemes or dated Work are asserted, preserve their separately governed identities.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`. When later replay depends on alternatives and guards, use the conditional structure block below. A decision or selected continuation neither authorizes nor performs the next Work.
 10. Leave an account that lets the next reader recover the object versions, evaluation, proposals, performed passes, result or change bases, evidence, trade-offs, cost and risk, continuation, stop and return boundaries, and the reason for the decision. Use the structured `QualityImprovementLoopRecord` only when a named replay, handoff, audit, or machine-facing use needs that form; otherwise a short result with the same recoverable facts is enough.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ACE.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
-line_start: 82014
-line_end: 82230
+line_start: 82048
+line_end: 82264
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,7 +68,7 @@ Typical entry phrases:
 "Two methods, roles, system variants, or AI workflows need fair comparison against the same architecture characteristics."
 ```
 
-**First-minute use slice.** A product-family team must compare two architectures for substitutability, evidence reuse and latency, while preserving a safety constraint. Recover the workload, latency quantity and operating conditions of the criterion. A warm-start observation covers the warm start it measures. If the design also has an applicable bound of at most 10 ms extra for a cold start and at most 70 ms for a warm start throughout the required workload, the team can use the resulting 80 ms upper bound for a 100 ms limit. If starts may exceed that extra time, obtain evidence for the uncovered conditions. Check the test package against each changed interface for the separate evidence-reuse question. Each result keeps its subject, conditions and grounds.
+**First-minute use slice.** A product-family team must compare two architectures for substitutability, evidence reuse and latency, while preserving a safety constraint. Recover the workload, latency quantity and operating conditions of the criterion. A warm-start observation covers the warm start it measures. If the design also has an applicable bound of at most 10 ms extra for a cold start and at most 70 ms for a warm start throughout the required workload, the team can use the resulting 80 ms upper bound for a 100 ms limit. If starts may exceed that extra time, obtain evidence for the uncovered conditions. Check the test package against each changed interface for the separate evidence-reuse question. Each result keeps its subject, conditions and grounds. The bound settles the latency limit for the covered design. To compare both designs, obtain the grounds needed for each remaining criterion. For a configuration the team can commit to, establish that the results for the required criteria hold together there. For performance promised across operating modes or choices left to others, establish the requirement throughout those conditions.
 
 This pattern frames architecture evaluation over declared criteria rows, Q-Bundle slots, candidates, bearers or selected structures. Use a parity frame when the receiving inference depends on comparable conditions. The optional record below uses a C.32.ACE-local form and introduces no new U-kind. Its program label establishes neither Method or MethodDescription membership, a WorkPlan, dated Work, nor an evaluation result. When measurement validity, comparison policy, a selection result, G.5 result declaration, publication, or architecture decision is current, use the definition and test for that claim.
 
@@ -165,7 +165,7 @@ Work in this order:
 2. State the eval purpose: current characterization, candidate comparison, portfolio-frontier work, post-change impact measurement, monitoring, or trigger for the next synthesis pass.
 3. Name the candidates, bearers, and selected structures being evaluated.
 4. Establish the exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership and effective reference scheme. Retain every declared selector and the plane, time stance or window, input projection, resource budget, applicable units, admissible inputs and missing-data treatment required by the chosen operation and receiving inference. Establish parity when that inference depends on comparable conditions; `parityFrameRef` can retain it but does not replace the underlying facts. An atemporal structural judgement needs no invented temporal window; actual measurement and dated Work retain their own conditions.
-5. Choose eval scope: one criterion, coupled criteria, one Q-Bundle slice, a candidate portfolio, or a holistic use slice.
+5. Choose the evaluation scope that can answer the question. If the same separate readings could occur in a configuration that fails the joint requirement, identify and evaluate the relation that distinguishes it. An applicable result for the whole can already cover several criteria.
 6. Choose eval operations. An evaluation can derive a consequence from qualified premises, measure performance or examine an existing result for applicability. Choose measurement, simulation, benchmark, walkthrough, monitoring, review or evidence audit according to what remains open. Name the derivation and its premises when relying on a calculated bound. An existing result can settle the criterion directly. Use `test` only when the intended operation checks an expectation or hard constraint. When a particular evaluation Work occurrence is claimed, recover each evaluator's A.13 core and let A.15.1 independently admit the occurrence from its history, Method followed, extent and containing-System relation. Add `evaluationWorkAttributionRefs` only when the record or receiving use represents precise assignment-bound attribution. Add an operation-application relation only when that claim is needed and its predicate obtains. Establish the typed result separately; the program record does not run.
 7. Declare the result form. Examples include a reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding; use the definition and test for the result kind.
 8. Examine material proxy risk before the eval result drives work, and protect the characteristics or constraints it could compromise. If no material risk is found, retain that basis. Optimize only the chosen indicators; keep binding constraints and other necessary safeguards visible.

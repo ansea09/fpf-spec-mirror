@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 122881
-line_end: 122921
+line_start: 122971
+line_end: 123011
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -40,7 +40,7 @@ keywords:
 
 Once the requester and evaluator agree on this question, the evaluation can begin. Its purpose is `floorEvaluation`; the complete E.21 result remains to be obtained.
 
-Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. That observation supports the guidance claim about a conditional preparation meeting 3 ms analysis and 8 ms viewing requirements. Evaluate each remaining E.21 coordinate on its own grounds. If the interval qualification is unavailable in the receiving studio, obtain that missing basis. Three marker readings alone do not justify the edit.
+Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. With that qualified interval, a constant correction of 42.5 ms meets the 3 ms analysis and 8 ms viewing requirements. To judge M1 as guidance for developing the preparation, trace where a practitioner starting with those requirements can decide what to ask the engineer, choose a correction and establish its consequences for both uses. The worked arithmetic supplies one part of that judgement. Evaluate each remaining E.21 coordinate on its own grounds. If the interval qualification is unavailable in the receiving studio, obtain that missing basis. Three marker readings alone do not justify the edit.
 
 Tightening the analysis requirement to 2 ms changes the preparation's applicability: no constant correction can meet it for the given 5 ms offset span. The pattern's instruction to return that dependent use for development remains useful, and the unchanged 8 ms viewing use remains qualified. A request to assess an actually edited recording would need that recording version and evidence about it. Where the receiving question is already the limited calculation under the supplied interval, evaluate that calculation directly. A full E.21 pattern evaluation and another frame add no answer to that calculation.
 

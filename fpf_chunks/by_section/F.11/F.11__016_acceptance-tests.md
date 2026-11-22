@@ -6,12 +6,12 @@ section_id: "F.11:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__016_acceptance-tests.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:15 — Acceptance tests"
-line_start: 131242
-line_end: 131259
+line_start: 131359
+line_end: 131376
 dependencies:
   - "A.13"
   - "A.15"
@@ -47,12 +47,12 @@ keywords:
 
 #### F.11:15.1 - Static conformance
 
-* **SCR-F11-S01 (four questions).** Every relevant statement identifies the Method, the MethodDescription with that one Method as exact `EntityOfConcern`, the Work, or the exact output it concerns.
+* **SCR-F11-S01 (four questions).** The statement identifies what its recipient needs to establish. Where the answer depends on several contributions, their connection at the required scales is recoverable. One identified value suffices for a request confined to it.
 * **SCR-F11-S02 (Work actuality).** `U.Work` is an occurrence, not a record, plan, or output.
 * **SCR-F11-S03 (no universal actuation).** Outputs are typed and related by their direct patterns.
 * **SCR-F11-S04 (agency).** Every claimed actual performer has the A.13 core before independent A.15.1 Work admission; any precise assignment-bound attribution has its later F.6 basis through the same obtaining assignment.
 * **SCR-F11-S05 (separate claims).** MethodDescription membership, enactment, description use, output, observation, and evidence claims use their defining or testing patterns and are not replaced by a generic Bridge or invented description relation.
-* **SCR-F11-S06 (evidence).** No approval or command alone is used as proof of Work outcome.
+* **SCR-F11-S06 (evidence).** The grounds concern the outcome actually at issue. A command or approval can establish a commissioned act of authorization. A claim about subsequent execution or effects has grounds reaching those events.
 
 #### F.11:15.2 - Regression
 

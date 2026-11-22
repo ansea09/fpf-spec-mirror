@@ -6,12 +6,12 @@ section_id: "E.12:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__009_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:8 — Rationale"
-line_start: 112287
-line_end: 112324
+line_start: 112353
+line_end: 112390
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -29,7 +29,7 @@ keywords:
 
 ### E.12:8 - **Rationale**
 
-The `Rationale Mandate` requires a clear explanation of the cognitive purpose of each key assurance episteme or publication. The bounded Human-Factor inquiry examines an actual reader obstruction or work demand while retaining the method's prerequisites and assurance. It does not require a speculative threshold or a refinement proposal when none is supported.
+The `Rationale Mandate` connects formal assurance to its cognitive purpose. The Human-Factor inquiry examines a consequential difference in the reader's work, including apparent success on an easier assignment. Its result may justify a repair, retention or further inquiry.
 
 A purely conceptual workload warning would leave the reader without a next action; a stronger psychometric or causal method would require separately justified observations and design.
 

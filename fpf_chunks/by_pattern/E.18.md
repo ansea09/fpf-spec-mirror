@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-line_start: 117923
-line_end: 118704
+line_start: 118005
+line_end: 118788
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -139,6 +139,8 @@ MVPK corrects publication drift at the **single-arrow** scope; E.18 applies thos
 A gate may authorize or block an intended entry, but it neither creates a future Work occurrence nor fills fields in one. Use S12 when engineering or publication work calls for a viewpoint mapping.
 
 #### E.18:5.1 - S1 - Selected Structure (conceptual)
+
+Start with the result the recipient must obtain or explain. Trace each needed contribution to the participant that makes or uses it. If the scope is open, use C.39.SA to select the parts and connections the use requires. Follow them only as far as a different arrangement could change the answer or its grounds. For example, a Method can call for a check, a technician can perform it during a job, and a report can state its outcome. To explain what happened, establish which performance produced the outcome used in this case. To design a repeatable arrangement, specify how the required check will be provided under the allowed conditions. A restriction shared by two contributions belongs in the account whenever their separate descriptions leave their joint use undecided.
 
 Select S under A.22 by four discriminators:
 
@@ -782,7 +784,7 @@ This arrangement gives checkable conditions for functorial publication on crossi
 
 Choose tests from the current use, then apply the selected profile to those tests. The full CC-E18 table is available for combined or high-assurance uses; it is not an instruction to run every row for every selected structure.
 
-1. **Ordinary selected-structure check:** verify the selected structure, independently grounded locus values, selected obtaining relations with complete position resolution, and only the current position, path, path slice, or valuation. An ordinary first use can close here when it asserts no crossing, launch, publication, comparison or selection, cycle or refresh, or assurance branch; missing faces, `LaunchGate`, selector, `DecisionLog`, and SquareLaw are then not defects.
+1. **Ordinary selected-structure check:** verify the selected structure, independently grounded locus values, selected obtaining relations with complete position resolution, and the position, path, path slice or valuation the question uses. Follow the selected relations back to the receiving use. Which conclusion do they support about the organization, and which part of the requested explanation or design still needs other grounds? An ordinary first use can close here when it asserts no crossing, launch, publication, comparison or selection, cycle or refresh, or assurance branch; missing faces, `LaunchGate`, selector, `DecisionLog`, and SquareLaw are then not defects.
 2. **Crossing or launch check, when current:** for a `GateCrossing`, apply its crossing and gate rows, including the exact positions and changed-binding account; add launch rows only for a current `LaunchGate` or work-entry claim. Do not infer a Work occurrence from either gate.
 3. **Publication or assurance check, when current:** for a published face, apply the MVPK, pin, and no-new-claim rows. Inspect `DecisionLog`, evidence-lane, replay, or SquareLaw material only when the current decision, crossing, publication, or named downstream reliance needs it.
 4. **Comparison, selection, cycle, or refresh check, when current:** check the comparison criterion, the actual outcome, and set semantics for an actual set return; apply budget, sentinel, edition, and slice-local replay tests to a current cycle or refresh. Hold editions fixed only for a replay claim, and test an edition bump only for a current refresh use.

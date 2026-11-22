@@ -6,12 +6,12 @@ section_id: "E.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_architectural-rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Architectural Rationale"
-line_start: 104053
-line_end: 104065
+line_start: 104108
+line_end: 104120
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,7 +60,7 @@ keywords:
 The common structure and style principles serve:
 
 * **P‑1 Cognitive Elegance** – uniform, minimal surprises.
-* **P‑2 Didactic Primacy** – narrative flow, dual archetype examples.
+* **P‑2 Didactic Primacy** — narrative flow and grounding in the kinds and relations the reader’s work requires.
 * Guard-Rails 1 & 2 — abstract definitions remain portable; the heading grammar keeps the exact syntax needed for its own conformance conditions, and expressions retain E.5.2 interpretation and mapping.
 
 A unified template also improves retrieval: a chunk containing `A.2:<n> - Bias‑Annotation` remains self‑identifying even when parent headings are missing, and the required footer marker makes truncation detectable.

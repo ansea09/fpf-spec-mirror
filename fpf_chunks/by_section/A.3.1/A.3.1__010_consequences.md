@@ -6,12 +6,12 @@ section_id: "A.3.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_consequences.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:9 — Consequences"
-line_start: 10212
-line_end: 10232
+line_start: 10217
+line_end: 10237
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -46,7 +46,7 @@ keywords:
 
 #### A.3.1:9.1 - Lowering and local repair conditions
 
-Withdraw a `U.Method` identification when the text cannot answer the ordinary method question: what reusable action is meant, for which participant kinds and conditions, with what intended result or preserved condition, and where it stops. Also withdraw it when the supposed method is only a document, repository, diagram, model, run log, team, supplier label, or authorization; when one value is called both method and mechanism without a governing dual-typing rule; or when graph or table layout is the sole basis for the asserted Method identity.
+Withdraw a `U.Method` identification when the text cannot answer the ordinary method question: what reusable action is meant, for which participant kinds and conditions, with what intended result or preserved condition, and where it stops. Also withdraw it when the asserted identity equates the reusable way with a document, repository, diagram, run record, team or authorization merely because it mentions that way; when one value is called both method and mechanism without a governing dual-typing rule; or when graph or table layout is the sole basis for the asserted Method identity.
 
 Keep a source word such as *practice* unresolved when the sentence does not reveal whether it means a reusable way, a description, planned or performed Work, an assignment, a discipline or tradition, evidence, or a quoted label. Do not force one of those meanings merely to complete the form.
 

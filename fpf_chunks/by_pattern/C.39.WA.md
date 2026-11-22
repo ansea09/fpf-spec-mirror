@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.WA.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
-line_start: 87811
-line_end: 88114
+line_start: 87857
+line_end: 88160
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -113,7 +113,7 @@ For an action, name the reusable way and what it must obtain or preserve under t
 
 For a move from one claim or subject to another, name the relation on which the inference relies, the kinds of its participants, what fills each relevant role here, and the direction of the inference. A multi-party relation can require more than two participants. If a boundary matters, identify what crosses it, between which places or organizations, and in which direction. Translating a record can leave the instrument it describes in the same laboratory. Use A.6.5 when declaring positions in a reusable relation signature. The following relations support different moves.
 
-Distinguish a rule that recurs at each eligible scale, a dependency between scales and an outcome of their interaction. If a resource is available for four hours and three are already committed, at most one hour is free for additional work that needs exclusive time in the same window. A second order can still be fulfilled by the shared work itself when its result serves both recipients. The method used by that team determines what it can do in the hour. For a statement about Work already done, establish which performances occurred. For a claim assembled from reports, check which premises they support and whether they rely on the same observation.
+For a rule said to recur across composition scales, give grounds covering the eligible wholes and constituents. For a dependency between scales, identify the property that carries, its direction and the relation that licenses the inference. For a joint outcome, trace how the constituents are organized and which combinations can realize it. For example, consider the work that fulfils two orders in one service window. If a resource is available for four hours and three are already committed, at most one hour is free for additional work that needs exclusive time in the same window. A second order can still be fulfilled by the shared work itself when its result serves both recipients. The method used by that team determines what it can do in the hour. For a statement about Work already done, establish which performances occurred. For a claim assembled from reports, check which premises they support and whether they rely on the same observation.
 
 | Transition | What must be recovered |
 | --- | --- |
@@ -221,9 +221,9 @@ The author first tries to order the account by those components. Returning to th
 
 That organization changes the text. The replication rule moves next to the claim about preserved updates, where it supplies the claim's premise. Authority transfer is explained between detection and recovery by the new writer. The start-up test stays with the narrower claim it supports. The new connecting explanation tells the reader why an available process, correct state and permission to write must coincide before the service can resume. A list of servers could not explain that coincidence.
 
-The author then develops the timing paragraph from the same dependencies. In this constructed design, supported upper bounds are 8 seconds for detection, 12 for authority transfer, 15 for restoration and 5 for opening the route. The specified sequential order warrants a 40-second upper bound. The text attaches the conclusion to that order and to the replication, authority and timing premises. A reviewer can now follow both questions in the commission: what preserves the acknowledged updates, and what supports the recovery bound. A missing deployment test remains identifiable as a missing premise rather than disappearing behind the successful start-up test.
+The author then develops the timing paragraph from the same dependencies. In this constructed design the bounds cover successive elapsed intervals: at most 8 seconds from interruption to detection, 12 more until authority has transferred, 15 more until restoration is complete, and 5 more until clients can use the route. These intervals include waits and handovers between the milestones. Adding their bounds covers the entire interruption and gives at most 40 seconds. The text attaches the conclusion to that order and to the replication, authority and timing premises. A reviewer can now follow both questions in the commission: what preserves the acknowledged updates, and what supports the recovery bound. These premises support the bounds for the specified design. An account of recovery at an actual installation would need evidence about that installation and the event in question.
 
-A new requirement of 30 seconds changes the author's comparison. Forty seconds no longer supports it, while the upper bound alone leaves the original design's feasibility unresolved. The author obtains the designers' alternative: maintained warm state reduces the restoration bound to 4 seconds, with continuous compute and state-maintenance provision. The account is revised at the affected join: 29 seconds is supported under the new provision, and the state and authority explanation now includes that provision's role. Detection's established bound is retained. If the provision is unavailable, the explanation exposes the unresolved timing or support question for the designers.
+A new requirement of 30 seconds changes the author's comparison. Forty seconds no longer supports it, while the upper bound alone leaves the original design's feasibility unresolved. The author obtains the designers' alternative: maintained warm state reduces the elapsed interval from completed authority transfer to completed restoration to at most 4 seconds, with continuous compute and state-maintenance provision. The account is revised at the affected join: 29 seconds is supported under the new provision, and the state and authority explanation now includes that provision's role. Detection's established bound is retained. If the provision is unavailable, the explanation exposes the unresolved timing or support question for the designers.
 
 The revision follows the account's organizing grounds. It changes the premises, connection and qualified claim that depend on restoration, while preserving the still-supported contributions. This is the author's construction the reader can reuse when another whole-subject account consists of accurate component descriptions with its decisive relations missing.
 

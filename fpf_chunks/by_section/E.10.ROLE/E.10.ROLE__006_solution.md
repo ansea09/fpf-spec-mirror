@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:4 — Solution"
-line_start: 108703
-line_end: 108748
+line_start: 108767
+line_end: 108812
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -43,7 +43,7 @@ Use the sentence's intended claim, not the trigger word, to select the result.
 4. Apply the selected pattern only as far as the receiving claim needs. Add a Tech designation, occurrence identity, predicate, assertion, reference, evidence, or assurance only when omitting it would change truth, action, reuse, or reliance.
 5. For one recovered claim, stop when you have selected its particular object or relation and the applicable pattern. Otherwise identify the claim that lacks a governing rule (`missing-governor`), state what information is missing, or return the quote-only or ordinary-non-use result.
 
-If recovery shows that the same bounded phrase carries several distinct claims at once, rewrite them as separate ordinary sentences and apply steps 3–5 to each sentence. Ambiguity by itself is not evidence of several claims.
+The same phrase can carry several claims. Give each its direct rule and keep the connection the reader needs. “Alice reviewed the manuscript under her assignment” depends on the work and the assignment being hers for this manuscript. Ambiguity alone leaves it open which claim is meant.
 
 Use A.6.C **Contract Unpacking for Boundaries** only when its contract-like boundary-language trigger holds; otherwise apply the direct rule for each recovered claim. Do not create a multi-claim record or an umbrella role object.
 

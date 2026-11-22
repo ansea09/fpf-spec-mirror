@@ -6,12 +6,12 @@ section_id: "A.15.8:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__008_conformance-and-practical-checks.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:7 — Conformance and practical checks"
-line_start: 33192
-line_end: 33210
+line_start: 33224
+line_end: 33242
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,9 +48,9 @@ A use conforms to this pattern only when it passes the checks that its claimed r
 3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names participants and the receiving use, applies a current governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other result; `missing-governor` is used only when no rule can state or test that claim.
 4. No arrangement becomes a System, performer, Agent, capability holder, Structure, architecture, or evidence merely by inclusion or wording.
 5. Continuation-critical state names its concern, bearer or carrier, update and use relations, currentness or consistency condition, and return condition when each matters.
-6. The probe uses the least burdensome representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable domain Method. For any dated probe Work, recover the actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for a consumed assignment-bound attribution, whose failure alone preserves independent Work admission unless the finding also questions an admission premise.
+6. The service and its allowed disruptions determine the conditions the assessment covers. Where a probe is needed, use a domain Method for its mechanism, thresholds, safety rules and evidence. A commissioned new probe requires actual performance. For any dated probe Work, recover the actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for a consumed assignment-bound attribution, whose failure alone preserves independent Work admission unless the finding also questions an admission premise.
 7. A distinct test or later-performance Work asserted by the account has its own A.13 and A.15.1 basis; ordinary observations may stay within the current Work grain. A proposed condition remains a plan or probe claim.
-8. The result states what the available evidence establishes for the selected condition and window, any unsupported dependency and its reason, and the warranted next action or stop.
+8. The result states what the available evidence establishes for the conditions and window the receiving decision requires, any unsupported dependency and its reason, and the warranted next action or stop.
 9. A relied-on account has one truthful C.2.1 focus and effective ReferenceScheme; incompatible focuses split instead of forming a plural EntityOfConcern.
 10. Recognition and assurance remain separate; high-consequence use opens direct evidence, assurance, authority, and domain-stop rules.
 

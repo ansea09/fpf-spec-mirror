@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.6.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
-line_start: 128762
-line_end: 129150
+line_start: 128877
+line_end: 129265
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -168,7 +168,7 @@ These facts may be recoverable from an existing execution trace, correspondence,
 
 Reuse an already established pairing. When it is not established, inspect the point at which the histories would differ: for example, which commission's question the performer undertook and to which commission the resulting review answered. Shared task wording, holder and time alone do not decide that question. If the available facts still cannot distinguish the assignments, leave the attribution unresolved rather than asserting both.
 
-If attribution concerns only a temporal, episode, or operational part of a larger Work whole, first identify that part as its own `U.Work` occurrence under A.15.1. Do not hide an unidentified Work portion inside F.6.
+Select the Work occurrence from the contribution the recipient wants attributed. If it is one constituent of a larger job, identify that constituent under A.15.1 and check its assignment. An adequate commission and execution record can link the whole job directly to its assignment. Where the answer depends on contributions to that job, establish which performances composed it and how they supplied its result (B.1.5.EW). A confirmed assignment for a constituent can answer a question about that constituent. Its bearing on the whole depends on that Work-part relation and the contribution the assignment covered.
 
 When a receiver needs an explicit attribution occurrence:
 
@@ -238,7 +238,7 @@ The assignment, system-role kind, capability, Method, and MethodDescription do n
 
 `Holder#Role:Context@Window` is readable source notation only. Identify the system denoted by the shorthand, the local system-role kind, the assignment species and occurrence, and the object denoted by `Context`. The source spelling is not a signature.
 
-When source wording says `RoleEnactment` or `RoleEnactmentFact`, recover dated Work and `performedUnderAssignment`. Do not retain a second enactment kind, fact object, or relation occurrence.
+When a source uses `RoleEnactment` or `RoleEnactmentFact`, recover what it claims. Its meaning in that source can answer a terminology question. For a claim that dated Work was performed under an assignment, identify the Work and test `performedUnderAssignment`. This direct relation suffices without a second enactment kind.
 
 #### F.6:4.8 - Lightweight Use
 
@@ -331,7 +331,7 @@ An access directory says Alice has `DB-Admin`. That entry describes an access or
 
 A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performers through `TeamReviewAssignment-9` and `MemberReviewAssignment-A9`, and A.15.1 independently admits `JointReviewWork-9`. Because this example expressly represents assignment-bound attribution for each performer, F.6 afterward establishes one relation for each Work-assignment pair through those same assignments. Neither assignment identifies or stands for the other performer.
 
-If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, add its covering assignment and F.6 link only because this example also expressly attributes that child Work, and keep its Work-part relation to `JointReviewWork-9` separate.
+If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, the child attribution uses its own covering assignment and F.6 link. To explain how the joint review reached its judgement, follow the finding into the team’s comparison and decision. If Alice instead sent the same finding to a different commission, the attribution to her assignment could still be sound. Evidence of what the team used distinguishes those histories. A request only for the name of the reviewer on the finding can finish with Alice.
 
 #### F.6:7.7 - Passive Test Article
 

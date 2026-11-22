@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.LRN.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
-line_start: 107192
-line_end: 107411
+line_start: 107256
+line_end: 107475
 dependencies:
   - "A.10"
   - "A.15"
@@ -102,12 +102,12 @@ The repair must preserve familiar language while preventing those transfers. The
 
 Recover the current claim from its participants, subject, operation, result, and use rather than from the word *learning*.
 
-1. **Bound the wording use.** Quote or locate only the sentence or source expression whose interpretation changes a claim, inference, or action.
+1. **Bound the wording use.** Locate the expression and read as far as the question or decision that gives it its meaning. An example of what one person did can supply evidence in a question about the team or its practice. Keep the requested subject and reach in view.
 2. **Recover the grammatical commitment.** Identify who or what is said to have taught, trained, learned, changed, produced, inferred, or acquired something. Grammar foregrounds a claim but does not fill missing causal participants or evidence.
 3. **Name the changed subject.** State whether the current claim concerns a named holder's capability, an episteme, a model and parameters, a probability distribution, a representation relation, an organization or population, a product, a Work occurrence, or another exact subject.
 4. **Separate Work, Method, and result.** Name inquiry, teaching, practice, training, optimization, inference, experiment, data acquisition, assessment, publication, or cultural-continuation Work only when it is current. Keep its performer, Method, inputs, and dated occurrence separate from the result attributed to another subject.
 5. **State the evidence and any material transfer boundary.** Name what was observed or assessed and the task, population, configuration, window, support arrangement and use conditions required to interpret that evidence or rely on the claim. Identify a stronger reading as unsupported only when independent local grounds make it plausible and the distinction changes use.
-6. **Select one direct branch.** Use the branch table below. When one sentence contains several branches, keep the claims distinguishable and route each separately.
+6. **Select the direct branch for each claim.** When the decision requires several claims together, explain the connection that matters. A lesson was delivered and a team subsequently performed better. To attribute the improvement to the lesson, establish how the taught practice could change that team’s work and what supports the attribution.
 7. **Stop after recovery.** Return the repaired claim and direct pattern, or an exact missing-information, missing-governor, quote-only, ordinary-use, or blocker result. Do not create a generic learning record, role kind, process, progress scale, or causal relation.
 
 #### E.10.LRN:4.1 - Direct branches
@@ -141,7 +141,7 @@ Passive and active grammar can also shift attention without changing ontology. �
 
 Constructivism and constructionism remain source-local theories and Method families. Constructionism shares the learner-side construction emphasis and adds a design commitment to making something public or shareable. This commitment guides FPF Method and evidence design. A model, program, explanation, dance, diagram, or other external construction can expose distinctions and Methods for inspection.
 
-The construction does not prove capability, authorship, independent use, transfer, or retention. Pair construction tasks with representative later-Work tasks and direct evidence when those claims matter. Reciting a poem or reproducing a pattern may establish a narrow remembered performance; it is not automatically action-guiding capability in a new situation.
+The construction does not prove capability, authorship, independent use, transfer, or retention. Examine what the participant chose and performed in the construction, with the help then available. It can supply the needed evidence if it already exercises the claimed work under the relevant conditions. Use an adequate earlier performance or a further task for the capability, transfer or retention question still open. Reciting a poem or reproducing a pattern may establish a narrow remembered performance; it is not automatically action-guiding capability in a new situation.
 
 An FPF pattern is an action-guiding episteme. In a named cultural case it can also be a retained, transmitted, selected, or reconstructed cultural variant under `C.36`. It is not the universal atomic unit of knowledge, a “meme” kind, the holder's internal state, or the holder's capability merely because it was copied or published.
 
@@ -213,7 +213,7 @@ A claim that people changed their practice needs the relevant Method, assignment
 6. Are public constructions, recall performances, patterns, and cultural variants kept distinct from holder capability and internal state?
 7. Is source-local wording preserved as quotation where needed without becoming FPF ontology?
 8. Did the repair avoid a generic `Learning`, `Learner`, `Teacher`, `LearningProgress`, or `LearningResult` kind or UTS row?
-9. Did each recovered claim return to its direct pattern and stop there?
+9. Does each recovered claim reach its direct rule, with the connection needed when several support one conclusion?
 
 ### E.10.LRN:8 - Common Anti-Patterns and Repairs
 

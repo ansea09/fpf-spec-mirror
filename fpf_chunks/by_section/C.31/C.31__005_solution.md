@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 78928
-line_end: 79158
+line_start: 78962
+line_end: 79192
 dependencies:
   - "A.10"
   - "A.17"
@@ -75,7 +75,7 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-The account is complete enough when it answers the architecture question or identifies the next warranted repair. State a blocked inference when a plausible intended reader could make it here and the distinction matters.
+A diagnosis can finish a request to locate a modularity problem. If the commission asks which change would reduce service or qualification work, compare the work required with and without the change for the same required service under comparable external conditions. Keep a fixed installed fleet when the commission fixes it. Where an alternative changes the fleet or the number of service calls, include the work that actually follows from each arrangement. An identified repair supplies a candidate for that comparison.
 
 `relatedClaimPatternLocatorsIfClaimed` locates a governing pattern; it supplies neither the claim nor its grounds. Further use needs the subject, assertion and applicable rule. Rule identity is required only under section 4.3. Architecture scale-preference claims use `C.31.ASAP`.
 
@@ -109,7 +109,7 @@ ModularityVectorLite:
       forbiddenOverread: reused evidence is not assurance sufficiency.
   observedProblem: the team says the platform is modular because interfaces are public and evidence is reusable, but field replacement and certification still create variant-specific work.
   relatedClaimPatternLocatorsIfClaimed: A.6.M for the module-interface relation; C.31.RSA if report-only share becomes reusable-structure accounting; A.10 or B.3 only if an evidence-use or assurance-use assertion is being made.
-  stopCondition: the service engineer can use A for the stated fit, signal and temperature requirements. Assess other procurement requirements or a proposed platform change when the decision calls for them.
+  stopCondition: Board A satisfies the stated requirements among the boards examined. The platform question still requires the comparison of adapter, migration, service and qualification work for the installed variants.
 ```
 
 The engineer can now name the eligible board among the two examined. To decide whether an interface change would reduce the cost of field service, compare the adapter and qualification work for the installed variants with the migration and service work after the change. An increased standardization share can coexist with higher service cost.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
-line_start: 113004
-line_end: 113256
+line_start: 113070
+line_end: 113322
 dependencies:
   - "C.18"
   - "C.19"
@@ -135,7 +135,7 @@ Then test each probe against the candidate:
 * **retired:** an explicit decision removes it and states the affected use;
 * **lost or unresolved:** repair it or return it before claiming continuity.
 
-For text copied unchanged, identity may establish preservation. After a large deletion, compression, move, or rewrite, line count, author intent, and a high-level summary cannot establish what happened to every predecessor function.
+For text copied unchanged, identity can establish preservation of wording. To establish preservation of a working function, compare the reader's question, referents, conditions and available support before and after the move. A passage that still names the same operation can lead its new recipient to do a different job. For a deletion, compression, move or rewrite, follow each affected predecessor function to its destination or identify the loss.
 
 The independent inventory need not become a permanent row-by-row file when the receiving workflow needs only the verified candidate and aggregate result, but the inspection must be complete.
 
@@ -230,7 +230,7 @@ The method biases toward continuity and inspectability (**Arch**, **Onto/Epist**
 | **Version number supplies semantics** | `major`, `minor`, or `patch` is treated as proof of compatibility. | Decide continuity first; use a version label only to communicate that decision. |
 | **A new trace for every change** | DRR, review, source, check, and landing facts are copied into another authoring-trace record. | Keep the minimum change account in the receiving workflow and cite existing results. |
 | **Precise fragment, unreadable pattern** | A formal repair passes a token check while the whole pattern loses recognition and practical entry. | Read the whole changed pattern for practitioner recoverability and simplify non-load-bearing formal language. |
-| **Self-log as practitioner guidance** | The pattern publishes its own authoring history and calls it Work or quality evidence. | Keep one worked practitioner case in the pattern; keep actual work and evaluation evidence in their direct records. |
+| **Self-log as practitioner guidance** | The pattern publishes its own authoring history where a practitioner needs grounds to act. | Explain the method at the reach promised to its users. Use a worked case when it makes a needed relation recoverable and carry that relation back to their own work. Keep actual work and evaluation evidence in their direct records. |
 
 ### E.15:9 - Consequences
 

@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Reasoning about a local-sense cluster"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_reasoning-about-a-local-sense-cluster.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:13 — Reasoning about a local-sense cluster"
-line_start: 128050
-line_end: 128062
+line_start: 128165
+line_end: 128177
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,7 +36,7 @@ keywords:
 
 1. **Alias consolidation.** Merge expressions only when the source uses them interchangeably for the current question.
 2. **Argument split.** Split uses whose required participants differ materially.
-3. **Entailment split.** Split when the uses support different conclusions.
+3. **Entailment split.** Split when the meaning of an expression changes what the source claim entails. Two instances can yield different factual answers under the same meaning.
 4. **Parsimony merge.** Merge source-supported interchangeable uses when no relevant conclusion is lost; leave the comparison unresolved when the source basis cannot establish that result.
 5. **Counterexample trigger.** Tighten or split a claim that admits a concrete excluded use.
 6. **Label check, when labels are used.** Tech stays idiomatic; Plain explains without widening.

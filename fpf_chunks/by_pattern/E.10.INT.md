@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.INT.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
-line_start: 107412
-line_end: 107582
+line_start: 107476
+line_end: 107646
 dependencies:
   - "C.11"
   - "C.16"
@@ -128,7 +128,7 @@ These cases permit different choices: improving a known performance measure and 
 
 A workshop needs music for listeners who are familiar with 4/4 and are beginning to work with 7/8. “Choose moderately complex rhythms; they are the most interesting” hides both the response sought and the listeners' preparation.
 
-Recover the request as “choose material that helps these listeners maintain the beat and want to move while encountering 7/8.” The facilitator can start from simpler 7/8 material and adjust from the listeners' response. If the purpose is instead to exercise a skilled drummer's coordination, that practice question needs its own choice of material.
+Ask the facilitator what the material should help these listeners do and whose response matters. Suppose the workshop aims to help them maintain the beat and enjoy moving in 7/8. The facilitator can start with simpler 7/8 material and adjust after observing the group. A workshop for a skilled drummer’s coordination needs a different basis for choosing the material.
 
 Spiech and colleagues found that Western listeners' groove ratings peaked at moderate complexity in 4/4, while simpler rhythms received the highest ratings in the less common meters tested. Here *groove* means the pleasurable urge to move. The study supports adapting the comparison to listener and meter. The workshop's teaching method supplies the exercise.
 

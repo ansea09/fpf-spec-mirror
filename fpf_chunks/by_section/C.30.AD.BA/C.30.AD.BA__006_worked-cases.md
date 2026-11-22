@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:3"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__006_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:3 — Worked Cases"
-line_start: 76167
-line_end: 76192
+line_start: 76201
+line_end: 76226
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,7 +70,7 @@ If the engineer claims that the control revision will reduce the daily consumpti
 
 An air-handling unit has a product-aspect designation and a location-aspect designation. Each designation use names its scheme, selected structure, designated entity, qualification window, and direct relation when one obtains. A bounded correspondence claim or obtaining correspondence relation lets the maintenance team retrieve both descriptions without making the product structure identical to the location structure.
 
-The next architecture move is to evaluate the proposed flow and control structures against the smoke-control concern and carry the bounded energy-use comparison through its own characteristic and temporal owners. It is not “approve the BIM model.”
+For the proposed arrangement, identify the compartment boundaries covered by the requirement and establish whether the proposed flow and control structures preserve that function in each required mode. For a decision about a mode, one may establish the same answer for every admissible arrangement, even when a different mechanism supplies the grounds in each. To identify the actual mechanism, distinguish the arrangements whose mechanisms differ. For a claim about the installed system’s capability, establish its actual configuration and grounds for its behavior in the required modes. For an account of a past event, establish which mode and paths were involved then. The separate energy comparison retains its own unit, period and measurement basis.
 
 #### C.30.AD.BA:3.2 - Bridge inspection twin
 

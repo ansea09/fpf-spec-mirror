@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 119254
-line_end: 119280
+line_start: 119338
+line_end: 119364
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -64,10 +64,10 @@ keywords:
 - `CC-E18.1-5` Result wording is unpacked into concrete result-related relations; a generic `WorkResult` kind is not admitted.
 - `CC-E18.1-6` `PrincipleFrame` references keep postulates and CHR observability distinct from units, planes, comparators, thresholds, ontology editions, CHR editions, plans, work, evidence, and gates.
 - `CC-E18.1-7` Measurement, `G.11` source-currentness relation, reference-plane, method-set, comparator, or problem-side changes return to every application, branch and join that depends on the change.
-- `CC-E18.1-8` The stable P2W core contains only accepted claim, receiving use and concrete question, applicable pattern contribution, returned result or a justified stop, split, and local return. Reliance notes, explicit E.18.3 structure, development examples, and naming or publication are optional extensions. No extension may add a core input or change a returned result. Relation obtaining and identity, occurrence declarations, admission, production, evidence, gates, decisions, and other neighbouring algorithms remain in the patterns whose Solutions answer those questions.
+- `CC-E18.1-8` The stable P2W core contains only accepted claim, receiving use and concrete question, applicable pattern contribution, returned result or a justified stop, split, use of the supported answers for the receiving decision, and local return. Reliance notes, explicit E.18.3 structure, development examples, and naming or publication are optional extensions. No extension may add a core input or change a returned result. Relation obtaining and identity, occurrence declarations, admission, production, evidence, gates, decisions, and other neighbouring algorithms remain in the patterns whose Solutions answer those questions.
 - `CC-E18.1-9` Local boundary wording remains only where it names a near-miss that changes the next P2W application.
-- `CC-E18.1-10` The pattern leaves one usable next move: apply the pattern that answers the question and use its result, write a compact note when another person or later action needs replay, split independent claims, keep a cue and stop, or reopen only the continuation affected by a changed relation.
-- `CC-E18.1-11` For a structure-bearing conformance or authoring use, replay at least one pilot from `5.3` and classify it as several valuations of one TFS, one parent-relative internal `SubflowRef`, or one E.18.NET network of independently selected members and cross-boundary occurrences. Preserve each member’s boundary. Keep Work, actual transformations, valuations, position bindings and `DesignRunTag` values at their respective leaf TFSs. The self-evolving-spec case keeps use-found evidence outside practitioner-facing prose. Ordinary P2W use does not open this extension.
+- `CC-E18.1-10` The pattern leaves one usable next move: apply the pattern that answers the question and use its result, write a compact note when another person or later action needs replay, split independent claims or establish how several answers support the same use, keep a cue and stop, or reopen only the continuation affected by a changed relation.
+- `CC-E18.1-11` For a structure-bearing use, identify what the receiving question needs from the structure. Resolve its values as valuations of one TFS, a parent-relative internal `SubflowRef`, or an E.18.NET network of independently selected members and cross-boundary occurrences, as applicable. Preserve each member’s boundary. Keep Work, actual transformations, valuations, position bindings and `DesignRunTag` values at their respective leaf TFSs. Section `5.3` illustrates the distinction. A request to replay one of those pilots can close on that pilot. The self-evolving-spec case keeps use-found evidence outside practitioner-facing prose.
 - `CC-E18.1-12` Every carried claim family can be lowered, stopped, split, or reopened through `E.18.1:4.7`; a cue from a wording span in an admitted source or from a source-pack cue that cannot name the recovered FPF kind or relation remains a reduced-use cue.
 - `CC-E18.1-13` Every materialized replay identifies the changed value, occurrence, assertion, or description; its kind and `changedValuePatternRef`; what still carries and what no longer carries; the smallest reopened continuation; any current `G.11` currentness line; and `nextApplicablePatternRef`. If the changed object is relation-bearing, the cited result—not a P2W copy—retains its kind, participants, obtaining or claim basis, occurrence-identity rule, and any receiver-conditioned `RelationSignature` or typed SlotSpecs.
 - `CC-E18.1-14` When a generated DPF seed or cheap framework seed enters P2W, the record names the `G.2` source-use record, selected source `U.Episteme` reference, exact `EpistemePublicationRelation` occurrence reference when availability is material, source-pack cue, or source-pack return when that source use is current; the problem-side cue when that is current; the next concrete claim or relation-specific question, including its participants when a relation is asserted; the next applicable pattern selected from the canonical Relations map; and the stop condition that prevents the seed from becoming public authority by generation alone.
@@ -75,7 +75,7 @@ keywords:
 - `CC-E18.1-16` A work-to-change continuation cites the positive or negative claim or blocker already returned by the named subject predicate's defining pattern or the applicable `A.6.RCD` route. It keeps the actual `U.Work` and `U.Transformation` references when they are part of that result, but does not reconstruct occurrence proof, predicate tests, failure classification, or negative-claim closure. The BuildOps and Pump 14 slices show positive carry-through; Pump 14 also preserves the earlier `missing-governor` stop. A production continuation likewise carries only the result or blocker returned by `A.15.PROD`.
 - `CC-E18.1-17` A PatternID reference, selected or recommended continuation, imperative wording, intended realization, plan seed, graph or filled table admits no `U.MethodDescription`. Membership exists only for an independently identified C.2.1 episteme whose EntityOfConcern is one admitted `U.Method` and whose ClaimContent contains at least one substantive way-of-doing claim.
 - `CC-E18.1-18` *Move* remains Plain wording for the exact current object or use action. Proposed or chosen work remains distinct from dated performed Work; no universal Move kind, record or relation is introduced.
-- `CC-E18.1-19` The wording of the local mantra in §4 recalls one decision. Each phrase refers to an independently identified value, as illustrated in the cooling case. The practitioner stops when the applicable neighboring pattern supplies its answer or identifies the missing basis. The five-row table displays the possible continuations.
+- `CC-E18.1-19` The wording of the local mantra in §4 recalls one decision. Each phrase refers to an independently identified value, as illustrated in the cooling case. The practitioner returns that answer or missing basis to the decision that motivated the question. A bounded stop on one branch leaves independently answerable branches available. The five-row table displays the possible continuations.
 
 
 

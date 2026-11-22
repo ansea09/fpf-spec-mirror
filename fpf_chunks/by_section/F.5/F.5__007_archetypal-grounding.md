@@ -6,12 +6,12 @@ section_id: "F.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:5 — Archetypal Grounding"
-line_start: 128629
-line_end: 128666
+line_start: 128744
+line_end: 128781
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ Only E.24.UK or the direct result pattern can admit a shared value and its invar
 
 Under `Plant-A-Maintenance-Scheme`, `PumpInspectorSystemRole` designates one exact local kind; it is not that kind. `PumpInspectorSystemRoleKindDescription-v3` is a separate C.2.1 episteme whose EntityOfConcern is the kind. Its ClaimGraph states which systems are candidates, the reading-and-judgment condition that distinguishes members, useful member and non-member probes, the continuity rule, current `KindSignature`, and effective scheme. Plant-A maintenance provenance locates that definition; it does not identify the kind. The Tech designation is `PumpInspectorSystemRole`; the Plain designation is “pump inspector”.
 
-This worked slice needs an assignment identity, so `Robot7-PumpInspector-Assignment-2026Q3` is one occurrence of the directly declared `PlantAPumpInspectionAssignment` species under `U.SystemRoleAssignment`. The species' holder slot admits a `U.System`; its declaration-local assigned-kind slot uses the exact `PlantAMaintenanceSystemRoleKindDomain`; and its predicate applies within the Plant A maintenance scheme and obtains while the fixed holder is assigned under `PumpInspectorSystemRole` to supply the pump-inspection contribution.
+The foreman also asks which appointment the July work list means by “Robot-7 as pump inspector”. The two names above already answer the naming question. For the foreman's question, `Robot7-PumpInspector-Assignment-2026Q3` is one occurrence of the directly declared `PlantAPumpInspectionAssignment` species under `U.SystemRoleAssignment`. The species' holder slot admits a `U.System`; its declaration-local assigned-kind slot uses the exact `PlantAMaintenanceSystemRoleKindDomain`; and its predicate applies within the Plant A maintenance scheme and obtains while the fixed holder is assigned under `PumpInspectorSystemRole` to supply the pump-inspection contribution.
 
 The occurrence identifies Robot-7 as holder and `PumpInspectorSystemRole` as assigned kind, and spans the maximal uninterrupted interval over which that predicate obtains for those values. This species declares no additional identity-bearing participant; a commission, position, or installation locus would become one only in a species whose predicate and identity require it.
 

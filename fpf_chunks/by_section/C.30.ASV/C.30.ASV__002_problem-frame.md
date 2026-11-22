@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 76759
-line_end: 76803
+line_start: 76793
+line_end: 76837
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,7 +67,7 @@ keywords:
 
 Use this pattern when you have a structural description of one selected architecture-relevant `U.Structure` and need to decide whether that same description is also a `U.View` under one viewpoint.
 
-In ordinary prose, name the described holon or `ArchitectureRelation` when known, the selected structure, the smallest useful structure-kind set, any qualifier that changes interpretation, and the next architecture move. If one or two sentences make those values clear, stop.
+Name the described holon or `ArchitectureRelation` when known and the structures whose relations matter to the audience. A question about information lost in a diagram can end with the consequential omission. To establish that the description conforms to a particular viewpoint, apply its coverage and omission rules under §4.1 and report the outcome.
 
 For example: “The failover diagram describes runtime-interaction and control structures, but it hides the failover relation. Recover that relation before relying on the diagram to decide whether failover works.” This is a usable triage result. An adequate sentence can be retained, compared, or handed on. Use `ArchitectureStructureKindTriage@Project` when its fields help that work.
 

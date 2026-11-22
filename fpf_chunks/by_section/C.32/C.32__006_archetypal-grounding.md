@@ -6,12 +6,12 @@ section_id: "C.32:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:5 — Archetypal Grounding"
-line_start: 80414
-line_end: 80435
+line_start: 80448
+line_end: 80469
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ keywords:
 | Grounded working case | Synthesis question | C.32 candidate work | Stop condition |
 |---|---|---|---|
 | Regulated product family with growing field exceptions | How should functions, module interfaces, placement, and evidence scope be configured so substitutability and certification burden stay acceptable? | Prepare candidates that narrow interface grammar, split the family by evidence scope, change placement responsibility, or keep a bounded exception with source return. | Stop at palette unless G.5 selected-set result declaration, publication availability, assurance, or architecture decision is current. |
-| Built-asset digital-twin handover where a method-defined digital-twin view hides source loss | Which selected structures do the digital-twin dimensions describe, and which source-return obligations must survive maintenance use? | Prepare candidates that split information view, add source-return scope, retarget maintenance responsibility, or change module and placement structure. | Stop before built-asset architecture-description, MVPK publication-face, or A.10 evidence-relation claims unless `C.30.AD.BA`, `E.17`, `E.24.PUB`, or evidence patterns are current. |
+| Built-asset digital-twin handover where a view omits part of its source | What structure can the maintainer recover from the current view? If a new handover is commissioned, what information must reach the maintainer in time? | For the first question, use C.30.ASV and C.33 to recover the source structures, omissions and warranted use. For the second, develop proposals for the view, access to its source or the responsibility for maintaining it and trace each proposal to the receiving work. | Use C.30.AD.BA for the built-asset description, E.17 and E.24.PUB for the view and its publication, and A.10 for a claim of reliance. |
 | Emergency-department triage arrangement whose local desk is fast but hospital-wide escalation is brittle | How should admitted Systems, local system-role kinds or classifications, future assignment conditions, procedure and Method structure, control, direct responsibility, evidence, and any actual Work and separately needed F.6 attribution be configured so speed does not erase escalation adequacy? | Prepare candidates that retarget responsibility only through an admitted direct predicate, state a possible mediator assignment as plan or candidate content rather than an occurrence, split triage scope by patient class, or adjust evidence capture; use the missing governor when needed. | Stop before ethical mediation, evidence, staffing decision, assignment occurrence, or performed Work unless those claims are current. |
 | AI-agent review setup where local autonomy conflicts with policy scope | How should control, module-interface, evidence-refresh, and work-method structures be configured so autonomy and policy conformance stay jointly acceptable? | Prepare candidates that add supervisor relation, narrow model interface behavior, change evidence refresh cadence, or alter work-method responsibility. | Stop before safety, release, gate, or causal claims unless their subject patterns are current. |
 | Method family whose shared template shortens drafting and lengthens review | Which arrangement gets an acceptable document to its reader earlier? | Compare drafting and review of each document with use of the template. Another candidate separates reusable checks on the common material from checks that need the completed document. Establish which checks can travel with the template. | Use the qualifying conditions and the reviewer’s availability to decide what can already be recommended. See §5.1. |

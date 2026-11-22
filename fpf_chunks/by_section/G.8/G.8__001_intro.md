@@ -6,12 +6,12 @@ section_id: "G.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:intro — Intro"
-line_start: 139835
-line_end: 139847
+line_start: 139972
+line_end: 139984
 dependencies:
   - "A.10"
   - "A.21"
@@ -45,7 +45,7 @@ keywords:
 
 > **Status:** Stable
 
-**Use this when.** A selector needs a stable, citable package of C.23 admissibility rules and a maturity ladder for an already grounded G.5 method-family row. Resolve that row, the applicable rule editions and the evidence for the stated admission use, then publish their references as a bundle and maturity card. Later applications record their outcomes in the ledger.
+**Use this when.** A selector needs a stable, citable package of C.23 admissibility rules and a maturity ladder for an already grounded G.5 method-family row. Start with the work the selector would admit. Use §4.5 to establish which rule editions and evidence cover that work for the named family row. Publish their references as a bundle and maturity card. Later applications record their outcomes in the ledger.
 
 **Boundary.** Use C.23 to define the rule itself. An ordinary G.5 result over grounded rows needs no G.8 bundle unless this packaged rule or ladder is consumed.
 

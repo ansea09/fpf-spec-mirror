@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 103195
-line_end: 103931
+line_start: 103250
+line_end: 103986
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -84,11 +84,11 @@ Authors **MAY** add sections. Prefer expressing them as subsections under the ne
 2. **Problem**
 3. **Forces**
 4. **Solution**
-5. **Archetypal Grounding** (E.7; show the decision in a fitting passage, case, comparison or ordinary/non-use boundary)
+5. **Archetypal Grounding** (E.7; show how the practitioner can answer the commissioned question or perform the promised work in a fitting passage, case, comparison or boundary of use)
 6. **Bias‑Annotation**
 7. **Conformance Checklist**
 8. **Common Anti‑Patterns and How to Avoid Them** (grounded misuse, text-invited misreading, or a decision-relevant non-use boundary under `CC-SG.11`)
-9. **Consequences**
+9. **Consequences** (Explain what using the pattern changes for the practitioner named in the original commission and how far the grounds for that change reach. If a worked case also shows an effect on another participant, identify whose work it changes and under what conditions.)
 10. **Architectural Rationale** (`Rationale` is an accepted title for the same function)
 11. **SoTA-Echoing** (current-best problem answer; by-value comparison at comparable effort; explicit trade-off and adopt/adapt/reject decision whenever external or internal practice changes the Solution)
 12. **Relations**
@@ -254,7 +254,7 @@ Explanatory rows may fade as competence or task demand permits, but an independe
 
 Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
 
-**Resolve authoring lists with `F.19`.** When a list can change pattern use, apply the same connected `F.19` reading used for prose. `E.8` keeps only the authoring effect. Put the practitioner's proposition or action before illustrative material. Declare a normative closed set as closed under its governing rule. Signal examples as non-exhaustive when a plausible reader could mistake them for a classification. Do not let a noun series or catalogue replace the `Solution`.
+**Resolve authoring lists with `F.19`.** When a list can change pattern use, apply the same connected `F.19` reading used for prose. `E.8` keeps only the authoring effect. Make clear which working question or operation the passage serves when the reader first needs it. A case can open the reasoning. If the reader must devise an answer, keep that choice open and show how the material bears on it. Declare a normative closed set as closed under its governing rule. Signal examples as non-exhaustive when a plausible reader could mistake them for a classification. Do not let a noun series or catalogue replace the `Solution`.
 
 Do not add a second enumeration taxonomy or a per-member result form. `E.10` may cue a suspicious head or series, `F.19` decides its membership semantics and discourse load, and the applicable subject pattern settles any unresolved kind, relation, or normative set.
 
@@ -332,13 +332,13 @@ Finish with the chosen title and its truthful discovery cue. Keep the PatternID 
 
 | # | Principle | Guideline |
 |---|-----------|-----------|
-| S-0 | Governing-claim flow | Begin with the recognisable working situation and governing claim or action. Add context, grounding, examples, and a closing line only when they help the reader understand or use that claim. |
+| S-0 | Governing-claim flow | Open with the question, situation or claim that gives the passage its purpose. If the reader must construct the answer, introduce that work and preserve their choice. Give a direct answer when it is what the reader requested. |
 | S-1 | Density without Jargon | Short declarative sentences. Incidental tool details belong in Pedagogy/Tooling. Retain necessary subject syntax under E.5.1. |
 | S-2 | Internal Cohesion | Inline references to Pillars and related patterns. |
 | S-3 | Embedded Mini-Definitions | Gloss a new term in parentheses on first appearance. |
 | S-4 | Contextualisation | Brief historical or disciplinary lineage references. |
 | S-5 | Grounded Clarification | State the pattern's positive object and move first. Apply the `F.19` plausible-reader guard test. Retain a local negative boundary only for a grounded misreading that changes understanding or action. |
-| S-6 | Earned closing line | End when the result or boundary is clear. Add a memorable line only when it reinforces that result without introducing a new claim or displacing the practical close. |
+| S-6 | Earned closing line | End when the reader can recover the result or boundary for the question the passage answers. When returning from a worked case to the whole pattern, close on what its practitioner can now understand or do and why the case supports that conclusion. Omit a closing line that merely repeats it. |
 | S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
 | S-8 | Grounded transfer examples | Use examples from other fields when the pattern claims transfer breadth and each example changes recognition, application, or a boundary. No fixed example count establishes breadth. |
 | S-9 | Physical Grounding Reference | Ground an abstraction about action in the system that acts or is to act and the subject it affects. For other change, identify the changing subject and the conditions or dynamics the claim uses. Mention a local transformer system-role classification or an obtaining assignment only when it changes the claim. Ordinary *transformer* may remain readable metonymy for the acting system. |
@@ -359,7 +359,7 @@ Ordinary Plain prose without that claim kind or admissible-use boundary stays or
 
 **S-0 (Governing-claim flow) — explanation**
 
-Open with the recognisable working situation and the claim or action that governs the passage. Add history, related patterns, examples, imagery, or a recall line only when it helps the intended reader understand or use that claim. A prerequisite may come first when the reader needs it to interpret the claim or act safely. Apply `F.19` when atmosphere, coordination, or rhetorical scaffolding delays the governing message.
+Give readers the working question by the point at which they need it to interpret what follows. A task can open with evidence from which they will have to construct the claim. An instruction for using an established result can give that result directly. Add history, related patterns, examples, imagery, or a recall line only when it helps the intended reader understand or use that claim. A prerequisite may come first when the reader needs it to interpret the claim or act safely. Apply `F.19` when atmosphere, coordination, or rhetorical scaffolding delays the governing message.
 
 ##### E.8:4.2.1 - Recognition text and assurance text
 Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern governs. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must identify which are presentation forms of the same primary EntityOfConcern, relation, or claim and which name a different act, process, work-result record, or governing companion.
@@ -398,7 +398,7 @@ If the recognition text says “this pattern helps with a bounded working situat
 
 If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition text.
 It is not enough for universality to appear only later in a guidance or check sheet, declaration block, or `SoTA-Echoing` rationale.
-Make a broad claim recognizable through **heterogeneous reader or domain situations adequate to the claimed breadth**. Vary the reader when the claim concerns who can use the explanation. For a claim across disciplines, explain what enables the same operation or inference in the receiving disciplines. One argument can cover all disciplines that meet its premises. Where that depends on a disciplinary premise, show what establishes it in the receiving practice. The separate three-domain minimum in `A.8` applies to universal-core U-kind admission.
+Make the breadth of a claim recognizable through the conditions and relations that hold across its stated uses. Show different situations where they reveal a material difference. Vary the reader when the claim concerns who can use the explanation. For a claim across disciplines, explain what enables the same operation or inference in the receiving disciplines. One argument can cover all disciplines that meet its premises. Where that depends on a disciplinary premise, show what establishes it in the receiving practice. The separate three-domain minimum in `A.8` applies to universal-core U-kind admission.
 When a compact matrix helps readers recognise the method across disciplines, F.16 is the preferred template. Show what each situation illustrates and what warrants the method across the claimed range. The general argument can be given within a worked case. When examples share a constraint or supply different premises of one conclusion, show how those premises support it together.
 If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
 
@@ -429,7 +429,7 @@ Construct the reading from the work the reader needs to accomplish:
 1. **Keep the receiving question fixed.** Determine what the reader must recognize, infer, perform or change here. Use available evidence or explicit assumptions about relevant preparation.
 
    If a missing prerequisite changes the next explanation, expose it and provide the needed support or return. Do not silently raise the reader's preparation or narrow the requested work to make an inadequate explanation appear sufficient.
-2. **Carry the connected instruction.** Retain the operation with its necessary inputs, distinctions, conditions and use-changing reasons. Ordinary prior knowledge may supply a familiar notation or inference. The new synthesis, exceptional condition or relation being taught must be supplied by the publication or an identified available source, rather than invented by the reader.
+2. **Carry the connected instruction.** Retain the operation with its necessary inputs, distinctions, conditions and use-changing reasons. Ordinary prior knowledge may supply a familiar notation or inference. Supply the relation or way of constructing it that the publication undertakes to teach. If the reader is to devise an arrangement, give access to the premises and means of making that choice while leaving its outcome to the reader.
 
    When several Methods work together, retain what connects their results and how constituent actions enact the encompassing work; independent reminder phrases do not explain that connection.
 3. **Choose what is needed now and what can be reached later.** Keep a meaningful inference together. An applicability condition that changes the current action belongs with that action even when its derivation is elsewhere.
@@ -582,7 +582,7 @@ The raw/result prototype, the source-qualified comparison and the reduced single
 
 ###### E.8:4.2.1.3 - Choose examples by the explanation they make usable
 
-Determine the content owed to the reader from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation.
+Recover the question from the commission before assessing the answer the author has in hand. If the reader needs to explain why a practice repeatedly produces an outcome, locating one occurrence can supply evidence. The explanation must relate the practice to the conditions under which that outcome would recur or change. Apply that distinction to the question entrusted to the author, the question the text actually teaches and the work a separately issued assignment leaves to its recipient. Determine the content owed from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation.
 
 Choose the check that fits the reader's promised use. To isolate an inference from a constituent to a whole, compare the two at a fixed level of model abstraction where that comparison is meaningful. Could the statement about the constituent hold while the whole fails to do what the text promises? To isolate the reach of a rule across instances, compare like structural scopes and vary the permitted circumstances. When the question requires models at different levels of abstraction as well as several scales or kinds of holon, identify which distinctions the models of the parts preserve and which dependencies the conclusion about the whole requires. Separate models can allow each part to take either of two states while leaving open whether the parts may take the same state together. A conclusion about their joint behaviour needs that missing relation, or grounds that the answer holds for every permitted combination. C.39.SA:4 helps select the scopes, C.39.WA:4.2 deals with relations across composition scales, and C.37.MM:4.1.1 connects the models for that decision.
 
@@ -592,11 +592,11 @@ When the promised capability is to choose and connect ranges, recover the choice
 
 When the reader is learning to model a domain, say what the reader must do with the domain's own types. For a transdisciplinary principle, explain which distinction applies to those types, how to recognize the relation and what inference it warrants. For a domain principle, supply the field's own rule and its conditions. If the intended result is a way of working, explain how to select or construct the next operation, what it produces, and which dependent choices to revisit when its grounds change. A single publication may teach all of these. On unfamiliar material, ask the reader to select, relate or revise the local types and use them to reach a result in the recipient's terms. A worked case makes that reasoning inspectable. C.39.WA:4.3 distinguishes the relations used in such inferences.
 
-When an author uses a case to test an independent choice, identify the choice the prompt leaves open, the sources and help available at that point, and what the learner actually supplied. A problem statement in a brief can support a test of evaluating that formulation. To test formulating the problem, use work in which the learner still had to frame it. An earlier working record can supply that evidence. Apply the same test when the task is to construct a disciplinary model. Inspect which unit, identity criterion, correspondence or decision rule was already given. A worked answer can show how the learner applied it. Credit independent construction for the model choices the learner actually made and justified. If a completed form could be copied, check the result itself and keep attribution open until there is evidence of the learner's work. E.23.CDI:4.2.1 guides the separate decision about how a holder can acquire and demonstrate a capability under its working conditions.
+When an author uses a case to test an independent choice, identify the choice the prompt leaves open, the sources and help available at that point, and what the learner actually supplied. A problem statement in a brief can support a test of evaluating that formulation. To test formulating the problem, use work in which the learner still had to frame it. An earlier working record can supply that evidence. Apply the same test when the task is to construct a disciplinary model. Inspect which unit, identity criterion, correspondence or decision rule was already given. A worked answer can show how the learner applied it. For independent construction, establish which model choices the learner made and whether the resulting model serves the assigned use. When the learner must also justify those choices, examine the grounds they supplied. If a completed form could be copied, check the result itself and keep attribution open until there is evidence of the learner's work. E.23.CDI:4.2.1 guides the separate decision about how a holder can acquire and demonstrate a capability under its working conditions.
 
 **Keep the explained subject and its example distinguishable.** When teaching a Method, identify the reusable way, the actual or stipulated performance that illustrates it, and the material on which that performance works. Show which choice or action in the example enacts which operation and why its result is usable next.
 
-In an explanation-design pattern, a calculation of a mean can be material supplied to the explainer; selecting unequal groups to expose a misleading shortcut illustrates the explainer's Method. Correct arithmetic supplies the mathematical result. The account of selecting and using the contrast explains the teaching move. These contributions can appear together without changing the pattern's subject to arithmetic.
+An explanation designer wants an analyst to see why equal weight per person and equal weight per group can give different overall means. The designer chooses two nonempty groups that partition the people and have different counts and different means. The conditions make the results differ. In this example the calculation supplies the mathematical result. The choice of conditions, and what the analyst can now distinguish, explain the designer’s Method.
 
 Make the common claim, its scope and its grounds available in the explanation. It may be expressed alongside cases, through a derivation or through a named accessible supplier. State what may vary and which conditions make the relation or operation applicable.
 
@@ -716,7 +716,7 @@ The intended user is the agent that uses the pattern. Write for the work it supp
 
 **Check which system the claim concerns.** Try the operation with a different performer. What capabilities, access or authority does it require? Use the action or role in the general instruction. A person, a technical system or a division can work as an engineer. Then hold the work result fixed and vary the system to which a decision or a capability is attributed. If the attribution changes what the evidence establishes, name that system and the conditions that matter.
 
-A robot can measure a part against a tolerance. If the contract assigns acceptance to the customer’s inspection unit, that unit decides whether to accept it. The same accepted part could follow from a judgement supplied by a vendor or from the unit’s own interpretation. To find out whether a human trainee can interpret the readings, observe the trainee on a new part with the aids permitted in later work.
+A robot can measure a part against a tolerance. If the contract assigns acceptance to the customer’s inspection unit, that unit decides whether to accept it. The same accepted part could follow from a judgement supplied by a vendor or from the unit’s own interpretation. To judge the trainee’s ability, identify which interpretations the trainee made with the aids available in the intended work. A suitable earlier performance can suffice. Seek a further performance when the available evidence leaves that judgement open.
 
 The pattern’s sections explain the described subject, the user's action and result, costs, and grounded boundaries that change use. Public architectural explanation belongs here when it helps the reader understand, select, combine, or adapt the Methods.
 

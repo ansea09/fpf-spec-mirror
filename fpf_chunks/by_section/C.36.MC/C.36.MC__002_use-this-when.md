@@ -6,12 +6,12 @@ section_id: "C.36.MC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:0 — Use This When"
-line_start: 96375
-line_end: 96403
+line_start: 96422
+line_end: 96450
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.36.MC:0 - Use This When
 
-Use this pattern when a group intends to continue or change how a bounded population generates, transmits, recognizes, selects, remembers, retains, or loses the ways of working in that practice—not merely improve one Method, publish an edition, teach one person, or change one project choice. Begin with one value and one testable cultural predicate: what is said to be transmitted, selected, remembered, or otherwise changed, by which participants and under which conditions. Use an adequate existing predicate and its test; derive a missing predicate as in §4.1.
+Use this pattern when a group intends to continue or change how a bounded population generates, transmits, recognizes, selects, remembers, retains, or loses the ways of working in that practice—not merely improve one Method, publish an edition, teach one person, or change one project choice. Recover the change the group needs to understand or bring about. One testable claim about transmission, selection or retention can settle it. Where the practice must continue through changes of membership, trace how successive participants can acquire, use and pass on the relevant way under those conditions. Explain how the links together support continuation. Use an adequate existing predicate and its test; derive a missing predicate as in §4.1.
 
 When transmission or development is the live question, follow one recipient from the available account to the work they need to do. Can they explain the important choice, perform it with the intended support, and change it when the situation changes? Section 4.5 connects the contributions needed for that receiving work. Identifying a card, teacher or repository does not supply the connection.
 

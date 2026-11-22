@@ -6,12 +6,12 @@ section_id: "E.4.CM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:1 — Problem frame"
-line_start: 98895
-line_end: 98906
+line_start: 98946
+line_end: 98957
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -39,7 +39,7 @@ The broader work is developing Methods for useful action. C.39:4 supplies the ge
 
 The gain is that later practitioners can perform, combine and adapt the Methods from the public framework without reconstructing essential connections from private development material. A connected account need not assert one composite Method. The number of patterns or levels does not establish that identity.
 
-**First useful move.** Take one recognizable situation and attempt its next consequential move using the public descriptions offered for it. Locate the first connection the reader must supply: a meaning conversion, a choice, a joint condition, enabling support, a return after failure or a change across Method scales. Develop that connection through C.39:4.2–4.6 before deciding whether another pattern or a better public explanation is needed.
+**First useful move.** Start with the practice the recipient needs to understand, carry out or design. What result must its explanation let that person obtain, and which choices does the work leave to them? Identify the practice at issue. The Method for designing a practice can have different constituent Methods from the one its practitioners perform. Where composition matters, establish what is part of what for each relevant kind of whole. Does the explanation need a rule that holds at each scale, an inference from one scale to another, or the result that the constituents can produce together? At each scale choose what the model must distinguish for this reader’s work. Use an available account or attempt to establish a needed relation. If it settles one step, follow that contribution back to the whole entrusted work. Develop the missing connection through C.39:4.2–4.6 and place it where the practitioner needs it.
 
 An adequate public Method can be used directly. Use C.39 alone when the result is an ordinary practical way or description with no framework-publication need. A private one-off solution need not become a maintained pattern. Repair discovery when the complete explanation already exists and only its entry is missing. E.4.CM requires neither a new primitive operation nor a new framework for each useful composition. C.32.MWA supplies a related architecture account when the practical decision concerns Methods together with performance, support and development.
 

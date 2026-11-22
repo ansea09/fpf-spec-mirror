@@ -6,12 +6,12 @@ section_id: "E.4.PFR:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Archetypal Grounding"
-line_start: 101866
-line_end: 101954
+line_start: 101917
+line_end: 102005
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -82,7 +82,7 @@ FrameworkEditionDependencyRecord@CodexProcessFramework:
   refreshConditionRefs: [FPF_edition_change_or_material_change_to_either_relied_on_claim_as_stated_above]
 ```
 
-If one named cross-relation receiver also needs the generic view, add one `PatternFrameworkRelationRecord`, give both forms the same `subjectAssertionRef`, and set the dependency record's `genericRelationRecordRef` to that row.
+When a cross-relation task needs the generic view as well, add one `PatternFrameworkRelationRecord` and give both forms the same `subjectAssertionRef`. The two tasks may have different recipients. Set `genericRelationRecordRef` if the dependency task must follow the link to the generic row.
 
 In the generic row, `relationFunctionClaimRef` points to the E.4.PFR:3.4 dependency predicate, `dependencyOrEditionEffect` states the E.5.3-constrained direction, and `refreshOrSupersessionCondition` cites the G.11 refresh condition.
 

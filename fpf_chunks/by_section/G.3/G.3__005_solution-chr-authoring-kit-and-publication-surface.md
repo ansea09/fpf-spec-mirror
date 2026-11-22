@@ -6,12 +6,12 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 137420
-line_end: 137735
+line_start: 137549
+line_end: 137866
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -140,6 +140,8 @@ RSCRTriggerKindId.BaselineBindingEdit
 
 **S1 — Charter the measurement scope (scope anchor).**
 If the needed characteristics are not established, use `A.19.ECS:4.2` to derive them from the receiving use and consequential success/failure cases. `G.0:4.5.1` connects that construction to the frame’s comparison and evidence requirements.
+
+Decide which entity has the property and what one observation of it represents. For example, to compare two ways of processing a library request, a reader may care about the elapsed time until the requested book is ready. The same time spent on each operation can give different completion times if the operations wait on one another. Measure the elapsed time for the request, or recover it from the actual sequence, including waits. A staffing decision may instead require hours of work across all requests. Counting seconds in place of minutes changes the unit of time. It leaves the request as the unit of observation and still gives no account of the staff hours spent on it. Retain the population, period and dependencies needed when combining observations for either decision.
 Identify the exact declared CG-frame (the framing episteme). For this CHR work, state the bearer or bearers and identify each as an `entityOfConcern`. Also state the scope, any applicable qualification and evaluation windows, `ReferencePlane`, evidence basis, intended downstream use, currentness conditions relevant to that use, and any contested expression whose reuse may require an actual `F.9` relation. Output a design-time `MeasurementCharter` and `KindMap`.
 When the receiving use depends on currentness, apply B.3.4 to the exact claim and use. Retain any binding calibration, regulatory or qualification window; use `G.3:Ext.DecayWiring` when pinning a currentness or decay model or policy.
 If evidence-lane tags are used, declare the lane regime and its meanings here so downstream evidence discipline can remain lane-pure. `B.3` and `B.3.3` govern the assurance claim, receiving use and selected contributions; `C.2.2:4.6` defines the KD-CAL `TA`/`VA`/`LA` lanes when that regime is selected. Evidence-path representation and audit remain governed by `G.6`; this pattern records wiring.

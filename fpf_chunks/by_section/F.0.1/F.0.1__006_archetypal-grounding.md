@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:5 — Archetypal Grounding"
-line_start: 126427
-line_end: 126499
+line_start: 126530
+line_end: 126602
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -100,5 +100,5 @@ Recover the RBAC *role* meaning from its source before relating it to the ODRL *
 - **Different local meanings:** separate cells; use F.9 only for an actual relation.
 - **Source selection:** F.1; **synthesis:** F.0.2; **naming:** F.18; **subject reasoning:** the defining or testing rule for the recovered claim.
 
-> **Mental checklist:** Name the source and edition → locate the passage → say what the expression means → stop if sufficient → add only the durable address or relation a named receiver needs.
+> What does the reader need from this passage? Identify its source and edition, locate the expression and give its local meaning. If that settles the question, finish there. If the question concerns the subject described, use the recovered meaning to establish the relevant claim. Give the meaning a durable address when a later use needs one.
 

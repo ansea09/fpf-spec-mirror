@@ -6,12 +6,12 @@ section_id: "B.5.MR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__004_forces.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:3 — Forces"
-line_start: 50935
-line_end: 50938
+line_start: 50969
+line_end: 50972
 dependencies:
   - "B.1"
   - "B.5.FM"

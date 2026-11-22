@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.PFAD.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
-line_start: 99732
-line_end: 100261
+line_start: 99783
+line_end: 100312
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -133,7 +133,7 @@ Keep the architecture question open when exact ownership remains unresolved, a c
 
 If none of these decisions and no receiving use are present, take the exploratory result as the answer. If a decision for later use is present, the decision-maker selects a framework, non-framework product, thinner route, existing-framework contribution, or stop during decision Work. One `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes.
 
-For every product alternative, use *product* only as the first management cue. Then compare the direct subjects of the claims at the same level of detail: the exact framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on.
+Start a comparison of products from the work the recipient needs. Establish the direct subject of each alternative, such as a service arrangement, a Method, a framework or the carrier a person must receive. Hold the receiving question and conditions fixed. For each alternative, retain the distinctions needed to establish its result and the choices the recipient would still have to make. Where the alternatives concern different kinds of thing or composition scales, show how each bears on the same decision.
 
 Use a quality-management, service-management, publication, or content-management scheme to test a possible distinction. Use the FPF pattern for the direct subject to settle its kind. If an unresolved kind can change the selected answer, keep the product proposed and make that kind the next decision question.
 
@@ -352,7 +352,7 @@ The framework's Architectural Reference carries the architectural reasons needed
 
 A systems-management group considers a public DPF for recurring problems in service launch, cross-team coordination, incident response, and feedback-based improvement. A broad FPF route covers several shared distinctions, and an admitted neighboring DPF covers one specialist branch, but neither gives this practitioner group a coherent first use across the four problem families.
 
-The field-boundary assessment compares a new DPF with direct FPF-and-source use, a guide, contribution to the neighboring DPF, two existing DPF edition series, and no new maintained product now. It favors one DPF because a representative service-launch case needs patterns from several problem-family sets together, and the proposed DPF has an independent edition, change, and refresh boundary, including its later-review rule.
+The field-boundary assessment compares a new DPF with direct FPF-and-source use, a guide, a contribution to the neighboring DPF, two existing DPF edition series, and no new maintained product now. In the proposed field, the way a service accepts an obligation constrains how it can later transfer work and restore service. Practitioners repeatedly have to design these relations together. The assessed alternatives leave that design to each practitioner. The proposed DPF explains the relations for the declared field and has an independent edition, change and refresh boundary. The service-launch case illustrates the need. If the claim of recurring use is still open, the architecture decision can remain provisional.
 
 
 The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable. The selected problem families and relations supply the DPF structure.
@@ -401,7 +401,7 @@ The field account identifies the field's continuing concern with realizable buil
 
 The Suite describes that field assembly and develops any missing whole-level Method for reconciling those contributions. Its edition includes the constituent DPF descriptions with their usable cases and limits. Finance is an external supplier when a project needs investment analysis. Its entire discipline is not made part of the Suite by that use.
 
-The Suite's Architectural Reference explains that composition, the alternatives and the conditions that make the arrangement useful. A problem-led entry can direct a practitioner to the relevant engineering Methods and the external finance result. The account returns to their full explanations. Any new integration Method receives its own E.8 pattern.
+The Suite's Architectural Reference explains that composition, the alternatives and the conditions that make the arrangement useful. A problem-led entry can direct a practitioner to the relevant engineering Methods and the external finance result. The account returns to their full explanations. Develop the integration operation in the Method whose result requires it. Give it a separate E.8 pattern when practitioners can recognize and use it as a Method in its own right.
 
 If the author has only a list of three publications and no supported whole construction, the useful first release is a reading route or a bounded DPF proposal. It is not yet a Suite. If the field is supported but one branch is not yet described, the Suite states its partial coverage rather than presenting the missing branch as available.
 

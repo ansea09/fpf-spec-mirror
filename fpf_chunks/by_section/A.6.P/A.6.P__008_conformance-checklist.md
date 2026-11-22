@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:7 — Conformance Checklist"
-line_start: 21346
-line_end: 21368
+line_start: 21361
+line_end: 21383
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -38,10 +38,10 @@ keywords:
 
 ### A.6.P:7 - Conformance Checklist
 
-1. **Recognition.** The use begins with one relation-bearing claim and states which later claim or operation is blocked by its ambiguity.
+1. **Recognition.** The use begins with one relation-bearing claim and states which later claim or operation is blocked by its ambiguity. The repair retains whether the reader needs to understand a rule or decide what occurred.
 2. **Grounded heads.** Every load-bearing head refers to an identified object or remains explicitly unresolved; a qualifier does not substitute for the head kind.
-3. **Direct relation.** Every positive or governed-negative direct subject-relation result states the actual participants and direct predicate under its applicable rule. Use an accepted domain relation name; require an explicit `RelationKind` token only when the receiving use needs that designation. Recover occurrence-identity and construction content under §4.2 when the current question needs them. The A.6.P.WMR non-relation result families remain defined or tested by the rules for the recovered Method, Work, result, production, delivery, acceptance, transfer, or receiving-use claim.
-4. **Participant meanings.** The direct pattern states the participant meanings, actual participation, obtaining predicate, applicability, and occurrence-identity rule; every participant retains its independently governed kind.
+3. **Direct relation.** Every positive or governed-negative direct subject-relation result about a particular case identifies the case and supports the asserted predicate under its applicable rule. An established participant identity is required when the claim names that participant or the answer depends on which entity participated. An explanation of a rule states the participant meanings and the conditions under which that predicate would hold. Use an accepted domain relation name; require an explicit `RelationKind` token only when the receiving use needs that designation. Recover occurrence-identity and construction content under §4.2 when the current question needs them. The A.6.P.WMR non-relation result families remain defined or tested by the rules for the recovered Method, Work, result, production, delivery, acceptance, transfer, or receiving-use claim.
+4. **Participant meanings.** The direct pattern states the participant meanings, obtaining predicate, applicability, and occurrence-identity rule; each entity that participates retains its independently governed kind.
 5. **No negative occurrence.** Negative assertion, refutation, or unresolved reliance remains claim- or evaluation-side and creates no negative world-side occurrence.
 6. **Demand-driven declaration.** A compatible `RelationSignature` and declaration-local `SlotSpec`s appear only when reusable typed use is current; an ordinary assertion may name participants directly.
 7. **Designation separation.** A participant designation or occurrence reference remains content of a receiving episteme and neither replaces the referent nor makes the relation obtain.
@@ -56,6 +56,6 @@ keywords:
 16. **Candidate guide and stop.** Unresolved alternatives are grounded candidates with a discriminating check. Name and stop the use that requires selecting one reading; preserve warranted inquiry, an explicit uncertainty report and decisions sufficient under all live alternatives.
 17. **Representation boundary.** The selected scheme makes the needed element-to-content correspondence recoverable. C.29 applies to a separate mathematical representation or transfer question; form alone establishes neither the direct relation nor its identity.
 18. **Optional episteme relation or operation.** Use this path only when a later task must relate source and receiving epistemes or describe an operation that produces the receiving episteme. Identify both endpoints independently under `C.2.1`. Use `A.6.3` for a compatible same-EntityOfConcern construction, `A.6.2` for a local effect-free arrow that satisfies its entry and laws, and `A.6.4` for a different-EntityOfConcern arrow `r`. For a claimed receiving use of `r`, add a separate C.2.1 bounded-use assertion `q` about `r` with a ClaimGraph stating the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. When a current-case judgement is needed, compare the facts with `q` and report `satisfies`, `fails`, or `cannot decide`; `cannot decide` names the missing fact and reopen condition. If the selected pattern's entry or result condition is missing, preserve the endpoints, changed EntityOfConcern if any, and needed sentence as an explicit stop naming the missing arrow, use-claim, or application condition. Keep any continuity relation separate, and use `A.15.1` for actual authoring, materialisation, checking, or publication Work. The arrow, use assertion, operation application, and Work remain distinct and none supplies occurrence identity for the repaired world-side relation.
-19. **Plain relaxation.** Short final wording retains a recoverable direct relation, actual participants, and visible escalation points.
+19. **Plain relaxation.** Short final wording preserves the direct relation, who or what can participate, and any particular entities and further precision that the receiving use requires.
 20. **Neighboring subject result.** The repaired claim closes under one predicate or constraint selected in A.6.P:4.11, including exactly one of the four A.6.P.WMR families when that specialization is current; the neighboring pattern identifier is only its locator.
 

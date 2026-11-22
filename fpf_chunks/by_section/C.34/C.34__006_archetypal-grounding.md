@@ -6,12 +6,12 @@ section_id: "C.34:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:5 — Archetypal Grounding"
-line_start: 85250
-line_end: 85279
+line_start: 85290
+line_end: 85319
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -62,15 +62,15 @@ Use `A.6.M` for substitutability, `A.6.F` for a function or bearer question, `C.
 
 Neural substitution case. A candidate replaces an attention block with an SSM block. C.34 asks which selected structures are preserved: sequence dataflow, routing interface, memory access, latency envelope, training resource boundary, or inference resource boundary. Shape sameness or benchmark improvement does not by itself preserve the architecture relation needed by the next claim.
 
-Selected source structure and narrative structure case. An architecture narrative orders a candidate set as "pressure, alternative, trade-off, decision, residual." C.34 records:
+Selected source structure and narrative structure case. An architecture narrative uses the order “pressure, alternative, trade-off, decision, residual.” To recover the grounds for a decision, match the option, condition and reason in the narrative to the source. Suppose the source records that B was selected because it met the custody condition and also gives the evaluations of the alternatives. The brief narrative preserves B and its reason and omits those evaluations. The resulting account includes the following.
 
 | Aspect | Value |
 | --- | --- |
 | Mapping mode | `correspondence` |
-| Preserved structure | `candidate alternative and selected trade-off relation` |
-| Lost structure | `full Pareto-front detail and rejected-candidate evals` |
+| Preserved structure | The selected alternative and its connection to the custody condition in the source. |
+| Lost structure | The evaluations of the alternatives that were present in the source. Recover them from that source if comparison among alternatives is commissioned. |
 | Directionality | `selected source structure to narrative only` |
-| Admissible use | `team orientation and decision memory` |
+| Admissible use | Recall the selected option and its stated reason. The headings on their own establish only presentation order. |
 
 The narrative order is not exact equivalence and does not license implementation, evidence, or assurance use without the rule that defines or tests that downstream claim.
 

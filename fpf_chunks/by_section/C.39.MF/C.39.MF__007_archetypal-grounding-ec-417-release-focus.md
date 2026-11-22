@@ -6,12 +6,12 @@ section_id: "C.39.MF:5"
 section_title: "Archetypal Grounding — EC-417 Release Focus"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__007_archetypal-grounding-ec-417-release-focus.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:5 — Archetypal Grounding — EC-417 Release Focus"
-line_start: 88561
-line_end: 88591
+line_start: 88607
+line_end: 88637
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -39,7 +39,7 @@ The PLM, CI, test rig, AI provider, safety capability, and supplier responsibili
 
 | Focus option | Result |
 | --- | --- |
-| one Method: `C-EC-Release-v2` | rejected because the whole is not identified as a Method |
+| one Method: `C-EC-Release-v2` | the project has no grounds to rely on this whole as an established Method for the current release |
 | established release-Method family | rejected because no governed family membership is supplied |
 | project-local `LG-EC417-ReleaseMethods` grouping | retained only as a comparison locator; no family claim |
 | candidate account: `C-AI-Trace-Review` | not selected as the focus because its bounded trace suggestions supply neither the evidence-reconciliation result nor a release-authorization result; candidate-account status is preserved |
@@ -48,7 +48,7 @@ The PLM, CI, test rig, AI provider, safety capability, and supplier responsibili
 
 The schedule puts the planned signature after integration. If integration requires that signature first, the plan conflicts with the required order. If the applicable method permits provisional integration and reconciliation before release, the dates alone leave feasibility open. Recover which evidence rule governs this case. These connections support a Method-relation focus without making the three subjects one Work.
 
-The first result is therefore a Method-relation focus. It creates no fifth Method and no composite.
+The release team can now investigate the Method relation that affects integration. If a later commission asks whether these contributions could form one whole Method, that proposed whole can itself become the design subject. Its constitution and adequacy then have to be established.
 
 Reopen to a test-capability focus if two of the next three comparable delays occur while required evidence is complete and the rig is unavailable.
 

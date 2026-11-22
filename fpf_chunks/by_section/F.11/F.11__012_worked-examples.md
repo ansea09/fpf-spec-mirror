@@ -6,12 +6,12 @@ section_id: "F.11:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__012_worked-examples.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:11 — Worked examples"
-line_start: 131173
-line_end: 131203
+line_start: 131290
+line_end: 131320
 dependencies:
   - "A.13"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 * **Agency:** the deploying System and its A.13 core, including the exact local agential kind, classification and obtaining assignment, are part of the independent Work-admission premise. Add F.6 only for a precise attribution through that same assignment. Any responsibility claim keeps its own governor.
 * **Evidence:** latency and error-rate observations about the Work; the plan’s approval is separate.
 
-The plan does not establish SLO satisfaction. F.12 evaluates the promise from Work outcomes in the stated window.
+If the reader asks which rollback is prescribed, the applicable plan can settle it. To explain whether one rollout used the other’s traffic decision, connect the first decision to the traffic allocated in the second occurrence. Both deployments can use the same approved plan even when they operate independently. F.12 evaluates the service promise from outcomes in its stated window.
 
 #### F.11:11.2 - Industrial furnace control
 

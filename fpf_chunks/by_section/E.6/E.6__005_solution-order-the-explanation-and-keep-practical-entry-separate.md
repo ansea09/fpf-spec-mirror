@@ -6,21 +6,15 @@ section_id: "E.6:4"
 section_title: "Solution — Order the explanation and keep practical entry separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-order-the-explanation-and-keep-practical-entry-separate.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:4 — Solution — Order the explanation and keep practical entry separate"
-line_start: 102935
-line_end: 102959
+line_start: 102988
+line_end: 103012
 dependencies:
   - "E.2"
 keywords:
-  - "didactic"
-  - "learning"
-  - "narrative flow"
-  - "on-ramp"
-  - "pedagogy"
-  - "structure"
 ---
 
 ### E.6:4 - Solution — Order the explanation and keep practical entry separate
@@ -31,13 +25,13 @@ The document's macro-order organizes explanation. It does not prescribe one prac
 
 After the Table of Contents, the Readme offers recognizable working questions and direct entries. The Architectural Reference explains the whole pattern language, its cross-cutting ideas, connections and architectural choices, including introductory explanation.
 
-These informative explanation and navigation units and ToC cues may cross Parts when the reader's question requires it. Use `E.11` for practical entry. When the compact cues leave the choice of entry unclear, use its worked comparisons.
+Choose the opening from the reader’s question. What are they trying to understand, do or construct? Which whole, constituent or relation is the question about, and what must the model let them distinguish? Begin where the reader can obtain the first grounds or perform the first operation they need. Follow its contribution to the promised result across Parts when necessary. E.11 helps when several plausible entries would lead to different work.
 
 Keep the main explanatory sequence recoverable:
 
 1. **Readme and Architectural Reference.** The Readme helps a reader find a first useful result. The Architectural Reference explains the connected language and its rationale. Its introductory System and Episteme stories build intuition before the kernel exposition.
 2. **Part A — Kernel Architecture.** Introduce the holonic ontology and acting-side externalization in A.12.
-3. **Part B — Trans-disciplinary Reasoning.** Connect the general reasoning moves with applicable System and Episteme grounding under E.7.
+3. **Part B — Trans-disciplinary Reasoning.** Explain the reasoning moves and their grounds for the kinds of things each question concerns. Use E.7 to show how the reasoning applies.
 4. **Part C — Kernel Extension Specifications.** Develop the calculi and extension patterns whose questions use those foundations.
 5. **Part D — Multi-scale Ethics and Conflict Optimization.** Introduce the reflective ethical and conflict questions with the needed holonic distinctions available.
 6. **Part E — Constitution and Authoring Guides.** Place framework governance and contributor guidance after the principal kernel and reasoning exposition so an ordinary first use need not begin with authoring rules.

@@ -6,12 +6,12 @@ section_id: "C.39.MF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:4 — Solution"
-line_start: 88528
-line_end: 88560
+line_start: 88574
+line_end: 88606
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -36,8 +36,8 @@ Retain the dependencies needed for that contribution, including relations among 
 3. **Recover the subjects of the accounts already in use.** For each project, process, case, lifecycle, stage, or workflow description, state what its claims concern, their actual or intended status, the question exposed, and the material omissions. Use `A.15.6` when the label hides the subject. Keep unlike subjects separate; a claimed view additionally needs its viewpoint and `E.17.0` conformance result.
 4. **Recover Method-status candidates.** List Methods already identified under `A.3.1`, candidate Method accounts, established family facts, local groupings, related Methods, and support or capability alternatives. Preserve their statuses.
 5. **Form different focus options.** Include each plausible one-Method, plurality, relation, and non-Method branch. A renamed package or differently drawn view is not another focus option.
-6. **Test family and relation claims.** Apply the rule that defines the claimed family and the applicable relation pattern for each relation. Use `G.5` when the question needs its Method-family registry or selector-facing result. When no identified whole and obtaining relations exist, retain a relation focus or local grouping rather than a composite.
-7. **Choose and record.** Use `C.11` or a domain decision Method to select one focus for the receiving decision. State rejected options, evidence limits, next useful result, and the observation that reopens the focus.
+6. **Test family and relation claims.** Apply the rule that defines the claimed family and the applicable relation pattern for each relation. Use `G.5` when the question needs its Method-family registry or selector-facing result. For use in current work, claim a composite Method only on grounds for the whole and its constituent relations. For design or investigation, a proposed whole can be the focus. State what would constitute it and what still has to be developed or established.
+7. **Choose and record.** Use `C.11` or a domain decision Method to select the subject for the receiving work. State whether the project is choosing an established way to use or choosing what to investigate or construct. State rejected options, evidence limits, next useful result, and the observation that reopens the focus.
 
 #### C.39.MF:4.2 - Record the Result
 
@@ -52,5 +52,5 @@ Retain the dependencies needed for that contribution, including relations among 
 
 #### C.39.MF:4.3 - What Changes in Practice
 
-The project stops asking which named methodology should replace another. It first decides whether the subject is one Method, a governed family or local grouping, relations among several Methods, or a non-Method condition. Downstream Work can address the selected subject and the relations on which its result depends. A useful plurality can remain plural without being packaged as a fictitious composite.
+The project stops asking which named methodology should replace another. It first decides whether the subject is one established Method, a possible whole to design or investigate, a governed family or local grouping, relations among several Methods, or a non-Method condition. Downstream Work can address the selected subject and the relations on which its result depends. A useful plurality can remain plural without being packaged as a fictitious composite.
 

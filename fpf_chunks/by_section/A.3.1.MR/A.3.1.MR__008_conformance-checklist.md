@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:7 — Conformance Checklist"
-line_start: 10422
-line_end: 10434
+line_start: 10427
+line_end: 10439
 dependencies:
   - "A.10"
   - "A.13"
@@ -36,7 +36,7 @@ keywords:
 - **CC-A3.1.MR-5 — One candidate per account.** Does every candidate-account episteme have one candidate reusable-way EntityOfConcern and effective scheme?
 - **CC-A3.1.MR-6 — Rival retained.** Are real competing accounts or unresolved ambiguity visible without inventing a rival to complete the form?
 - **CC-A3.1.MR-7 — Useful distinguishing question.** Where discrimination changes recovery or downstream use, is the question clear and any held-out evidence kept out of account construction? Does the account remain usable when no answerable investigation is needed or available, with stronger dependent claims withheld?
-- **CC-A3.1.MR-8 — Result branch.** Does the result stop at candidate account, separate comparison, record-only result, or named blocker without granting Method or MethodDescription membership?
+- **CC-A3.1.MR-8 — Result branch.** Does the result return the most specific account the evidence warrants for the commission, its unresolved rivals or a record-only result? Identification as an admitted Method and a claim of applicability in another setting have their own conditions.
 - **CC-A3.1.MR-9 — Specialist exit.** Is `RMP.10` used for complete reconstruction only when the receiving use needs its larger burden?
 - **CC-A3.1.MR-10 — Plain use.** Can a cold practitioner explain the candidate, evidence, rivals, gaps and supported current use without a mandatory next-test plan?
 

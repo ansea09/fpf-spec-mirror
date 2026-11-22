@@ -6,12 +6,12 @@ section_id: "C.40.PC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:4 — Solution"
-line_start: 92246
-line_end: 92312
+line_start: 92292
+line_end: 92358
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -44,7 +44,7 @@ For example:
 
 - **Problem:** an acceptance engineer cannot recover which submitted claims lack a sufficient evidence basis before the handoff review.
 - **Proposed contribution:** an inspectable claim-to-evidence account that identifies supported claims, missing premises, and qualification limits in the permitted source set.
-- **Acceptance expectation:** the receiver can trace each entry to its source and identify unresolved claims under the review criteria.
+- **Acceptance expectation:** the reviewer can account for the submitted claims covered by the order, trace support where it exists, and identify missing or inadequate support under the review criteria.
 
 Faster approval is a different benefit claim; automatic approval is a different contribution and authority question. Preserve those differences if they become live rather than silently extending the proposal.
 

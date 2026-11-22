@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.TF.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
-line_start: 94277
-line_end: 94434
+line_start: 94324
+line_end: 94481
 dependencies:
   - "C.37"
   - "C.41"
@@ -57,7 +57,7 @@ C.37 selects a representation for one receiving use. Here the construction binds
 
 Take the selected questions and coverage from C.41 or another adequate source. Identify information shared across the list, such as the physical set and comparison description. Place it where users can see its scope. Keep question-specific conditions with the question.
 
-Phrase the questions in the language practitioners use for their work: the card set, print run or catalogue import. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with a real case and the recipient's way of working. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
+Phrase the questions in the language practitioners use for their work: the card set, print run or catalogue import. If adaptation changes what counts as satisfactory, reconsider the criterion before relying on equivalent answers from the forms. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with a real case and the recipient's way of working. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
 
 Develop ambiguous headings with someone who understands the work. For a printing checklist, distinguish the person who wrote the comparison description, the system assigned to checking, and the system that performed this check. One person may occupy all three positions, but a name under “Responsible” does not tell the recipient which relation is asserted. A system's role kind and assignment, its capability and its performed work remain distinct; an applicable organizational Method helps when the assignment or enabling arrangement itself needs repair. For a file or description, name the relation, such as input to printing or basis of comparison. Use the resulting practitioner wording in the form and retain further explanation only where it helps interpretation.
 
@@ -132,7 +132,7 @@ Recorded evidence privileges what can be captured. Allow a relevant conversation
 
 ### C.41.TF:7 - Conformance Checklist
 
-Inspect an actual filled example, not only the blank template:
+For a particular handover, inspect what the recipient can recover from that record. For a reusable form, follow how its fields and transfers carry the necessary distinctions over the allowed inputs. A filled case can resolve an uncertainty about the mapping or about how a recipient reads it.
 
 - Can the intended recipient recover the subject, question, comparison basis, answer and sufficient grounds?
 - Can the form represent a negative answer and an unresolved one without conflating them?

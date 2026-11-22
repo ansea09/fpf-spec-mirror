@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 135218
-line_end: 135402
+line_start: 135337
+line_end: 135521
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -34,20 +34,20 @@ keywords:
 
 ### F.19:4 - Solution
 
-Use `OntologyFirstPlainRewrite` as one connected reading and repair over a natural sentence, row, paragraph, list, or small coherent section. Take the intended reader and use from the surrounding work; do not invent an adversarial reader or a persona form.
+Use `OntologyFirstPlainRewrite` as one connected reading and repair over a natural sentence, row, paragraph, list, or small coherent section. Use the actual request and the text its recipient will have. A named wording problem may already determine the passage to read.
 
 
 
 #### F.19:4.3 - One connected reading and repair
 
 
-1. **Establish the reader's use and state the governing message.** From the passage, the request it answers and the material normally available to the reader, establish what this reader needs to recognize, understand, decide or do. A stated question or task, heading or surrounding explanation can supply the grounds. Keep a passage's local function distinct from the larger explanation the recipient requested. If different supported uses need different content, retain that uncertainty and obtain the missing purpose before judging sufficiency; continue semantic repairs that do not depend on it. A clear claim can have an unclear use. If the decision depends on composition scales or levels of model abstraction, apply F.19:4.3.1.1 during this reading. Then say what object, claim, action, event or distinction the span needs to convey. Mark process traces, status language, reference boilerplate, quality proof, defensive caveats, ornamental detail and other apparatus that may be displacing it. Truth or polish alone does not make the apparatus useful.
+1. **Establish the reader's use and state the governing message.** Recover the reader’s intended use from the request and any agreed change to it. Locate the claim, instruction or connection on which that use depends. Read it with the material the reader will ordinarily have. A stated question or task, heading or surrounding explanation can supply the grounds. Keep a passage's local function distinct from the larger explanation the recipient requested. If different supported uses need different content, retain that uncertainty and obtain the missing purpose before judging sufficiency; continue semantic repairs that do not depend on it. A clear claim can have an unclear use. If the decision depends on composition scales or levels of model abstraction, apply F.19:4.3.1.1 during this reading. Then say what object, claim, action, event or distinction the span needs to convey. Mark process traces, status language, reference boilerplate, quality proof, defensive caveats, ornamental detail and other apparatus that may be displacing it. Truth or polish alone does not make the apparatus useful.
 2. **Recover the predicate and its participants.** Identify the operation and every participant that changes it. This may be an actor, object, source, target, result, or another required operand. Apply the same question to verbal and relational nouns: recover *of what*, *for what*, *between what*, or another required participant. Leave an argument implicit only when one intended value is cheaply and uniquely recoverable from the local span.
 3. **Check predicate compatibility.** Recover what the complete claim asserts under its negation, modality, or conditions, and test the subject and participants under the intended literal or metonymic reading. A positive assertion must assign its predicate to a compatible kind. A denial may correct an evidenced type mistake under the plausible-reader test below; without that ground, “evidence does not notice the error” introduces an idle alternative.
 
    Keep ordinary metonymy when the relation is established and the capable participant or work remains recoverable: a diagram may show, a framework may help, a reminder may cue, and a constraint may limit.
 4. **Resolve referents and kinds.** Pronouns, demonstratives, omitted heads, and repeated labels must select one locally appropriate referent. Preserve the object kind, claim or relation kind, slot or relation position, use and publication boundary, and flow distinction whenever one changes the claim. A shared grammatical position does not make different FPF kinds interchangeable.
-5. **Test contribution.** Read the complete span with and without each optional contrast, guard, modifier, example, coordinated member, or extra proposition. Remove it when the plausible intended reader can recognize, understand, decide, and act in the same way. Local truth and grammatical fit do not earn a phrase a place by themselves.
+5. **Test contribution.** Read the complete span with and without each optional contrast, guard, modifier, example, coordinated member, or extra proposition. Ask what changes in the reader’s grounds for the requested conclusion or ability to act. Two accounts can yield the same answer in the example while only one conveys the condition that lets the reader choose in another allowed case. Keep an expression that supplies that condition. Remove it when the reader can still recognize, understand, decide and act as the request requires.
 6. **Resolve coordination and lists on two axes.** Recover the proposition or action served by the series, its intended scope, and the relation among its members before choosing the form. Use one kind or predicate only when it fits every member. Distinguish a closed set, illustrative examples, alternatives, a sequence, several direct relations, and a failed ontology. A closed set needs its kind, membership rule, and closure. Connect illustrative examples to the proposition or kind they illustrate, with a non-exhaustive cue when a plausible reader could mistake them for a classification or a boundary of applicability.
 
    Usually state the proposition first. When an explanation starts from cases, make the transition to its general claim explicit and supply grounds for that claim's scope.
@@ -115,7 +115,7 @@ Treat a pattern episteme as a `U.MethodDescription` only after `A.3.2` establish
 Use two reader tests for different decisions.
 
 - The **plausible intended reader** has the knowledge and task presupposed by the text. Use this reader to decide whether a foil, guard, warning, or contrast deserves mention. Do not substitute an adversarial reader who can imagine any false inference, or the author who already knows the answer.
-- The **cold intended reader** lacks the author's private context and unpublished notes. After the rewrite, ask whether this reader can recover the object, predicate, participants, relevant kind or ordinary status, relation, action-changing detail, and next useful action.
+- The **cold intended reader** lacks the author's private context and unpublished notes. Give that reader the text and material available in the intended use. For an explanation, ask what the text explains, about which subject, and on what grounds. For a practical instruction, ask the reader to use it for the commissioned action. Where both are due, check both and how the explanation bears on the action.
 
 Recover the instruction from the publication, its stated prerequisites and the knowledge presupposed for its intended reader. An application-test scenario may supply task-specific inputs, such as workload or available resources. Distinguish those inputs from explanations of the instruction supplied only for the test.
 
@@ -164,13 +164,13 @@ Correct recovery of what the text asserts and the subject-matter warrant or prac
 
 Keep wording that already serves the reader. Where a change is needed, return the repaired text or identify the meaning that still needs to be established. Do not require a separate record for each facet of the reading, whether a form, card, table, progress row, or written answer.
 
-After changing words or syntax, reread the changed sentence with the passages needed to determine its referents, predicate, participants, contrast, modality, support, action, and result. Revisit a directly affected instruction wherever it appears.
+After changing words or syntax, reread the changed sentence with the passages needed to determine its referents, predicate, participants, contrast, modality, support, action, and result. Revisit a directly affected instruction wherever it appears. If the recipient gets a task, summary or criterion separately, read that text with what will accompany it there. Does it still preserve the relation or choice on which the commissioned work depends?
 
 The earlier semantic verdict does not transfer to new wording. Reuse a judgement about an unchanged passage when the repair leaves its meaning and use unaffected. A local edit does not require a new reading of the whole document.
 
 When a named high-risk or disputed decision needs inspectable evidence, show the before text, repaired text, live values that had to survive, and any unresolved blocker. Use the receiving decision's existing comparison or review result. The optional fields below can structure that result when its receiver needs them; ordinary corrections need no separate form.
 
-Before finishing this reading, can the recipient recover the intended work and carry it out at the reach the passage promises? For unresolved wording, consult E.10, E.10.ARCH, E.10.ROLE, A.6.F, F.18 or the definition needed. If following the text or using its result would answer a different question, use C.39.QR:4.1 within this reading to recover the intended work and check what the available result supplies. When the recipient needs to choose composition scales or levels of model abstraction, use C.39.SA through F.19:4.3.1.1. That section also identifies the relevant subject method for a disputed relation or functional layer. If a narrower way of arguing or explaining has displaced the promised one, return the missing step through C.39.GA. Follow the repaired step only into the conclusions it affects. Finish when ordinary reading and the available grounds suffice for the assigned use.
+Before finishing, compare what the recipient can recover and do with what the original or revised commission calls for. Does the passage still support the conclusion over that range, including a decision to continue an existing practice when its conditions hold? For unresolved wording, consult E.10, E.10.ARCH, E.10.ROLE, A.6.F, F.18 or the definition needed. If following the text or using its result would answer a different question, use C.39.QR:4.1 within this reading to recover the intended work and check what the available result supplies. When the recipient needs to choose composition scales or levels of model abstraction, use C.39.SA through F.19:4.3.1.1. That section also identifies the relevant subject method for a disputed relation or functional layer. If a narrower way of arguing or explaining has displaced the promised one, return the missing step through C.39.GA. Follow the repaired step only into the conclusions it affects. Finish when ordinary reading and the available grounds suffice for the assigned use.
 
 #### F.19:4.1 - Result form
 

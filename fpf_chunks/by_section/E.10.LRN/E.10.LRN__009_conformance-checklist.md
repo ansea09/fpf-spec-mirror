@@ -6,12 +6,12 @@ section_id: "E.10.LRN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:7 — Conformance Checklist"
-line_start: 107351
-line_end: 107362
+line_start: 107415
+line_end: 107426
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,5 +55,5 @@ keywords:
 6. Are public constructions, recall performances, patterns, and cultural variants kept distinct from holder capability and internal state?
 7. Is source-local wording preserved as quotation where needed without becoming FPF ontology?
 8. Did the repair avoid a generic `Learning`, `Learner`, `Teacher`, `LearningProgress`, or `LearningResult` kind or UTS row?
-9. Did each recovered claim return to its direct pattern and stop there?
+9. Does each recovered claim reach its direct rule, with the connection needed when several support one conclusion?
 

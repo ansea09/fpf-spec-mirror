@@ -6,12 +6,12 @@ section_id: "A.6.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:7 — Conformance Checklist"
-line_start: 24520
-line_end: 24541
+line_start: 24537
+line_end: 24558
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.6.5:7 - Conformance Checklist
 
-1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and occurrence-identity rule are named before SlotSpecs are declared.
+1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and occurrence-identity rule are named before SlotSpecs are declared. These meanings and conditions can be recovered for a proposed use before anyone enacts it.
 2. Every participant meaning needed by reusable typed use has one complete `<SlotKind, ValueKind, refMode>` SlotSpec in the `RelationSignature`.
 3. Each SlotKind is local to the one `RelationSignature` that contains its SlotSpec.
 4. World-side relation prose names participant meanings and actual participants. Declaration prose uses `SlotSpec` for the complete declaration and `...Slot` for its declaration-local SlotKind. Receiving-episteme prose distinguishes a designation from its referent, using `...Ref` for the reference kind or value. For a field receiving relation semantics, apply the §4.2 declaration or representation-correspondence rule. Position and place remain ordinary representation words unless a declaration establishes a SlotSpec.

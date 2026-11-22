@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 114166
-line_end: 114276
+line_start: 114238
+line_end: 114348
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -116,7 +116,7 @@ When you name a family designator for a describing use, resolve catalogue editio
 - every candidate episteme E used under a member is independently identified under C.2.1 and is a `U.View` only when `EpistemeViewpointConformanceRelation(E,P)` obtains; and
 - every one-viewpoint selection for one describing use carries a single `viewpointRef`; importing the family neither selects P for that use nor establishes conformance.
 
-A local subset names catalogue edition L, the source family designator, and the member references actually used, and identifies omitted members as unused or intentionally excluded.
+A local subset identifies its source catalogue edition L, family designator, members used and omissions. When the project also asks you to choose a subset for a practical question, use §14.1.
 
 A multi-library use preserves each `<editionDesignator(L), familyDesignator>` source and member provenance rather than flattening everything into one unnamed family. If one use selects several viewpoints, it constructs their C.13 collection with membership. It does not overload one reference or infer a new family from adjacency.
 

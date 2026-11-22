@@ -6,12 +6,12 @@ section_id: "C.39.WI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__012_sota-echoing.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:11 — SoTA-Echoing"
-line_start: 89007
-line_end: 89047
+line_start: 89053
+line_end: 89093
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

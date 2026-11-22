@@ -6,12 +6,12 @@ section_id: "C.41:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:4 — Solution"
-line_start: 94131
-line_end: 94177
+line_start: 94178
+line_end: 94224
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -58,7 +58,7 @@ A question can support prevention, preparation for a possible failure or recover
 
 A canvas can prompt inquiry as well as confirm conditions. “Who will use this result, and why?” may initiate a conversation that develops an account; “Have we identified the intended users?” asks about that account. Select the prompt that serves this occasion, and distinguish obtaining an answer from judging its adequacy. Filled sections can expose missing connections without establishing that the described proposal will work. For a seminar proposal, naming participants, activities and available support does not establish that those participants can attend or that the activities help them learn. Keep the substantive assumptions and grounds available for discussion; use the appropriate domain practice to test them.
 
-A known failure within the proposed use that would pass every question already refutes the claim that passing suffices for acceptance. If the question is which difference the set can detect, compare a satisfactory result with a plausible failure. Would their answers lead the user to act differently where the work calls for it? Distinguishing one pair shows which difference the questions can expose. For reliance beyond that pair, trace the consequential conditions of the work to the questions and their grounds, or limit the proposed use to the conditions supported so far. Reuse an adequate qualification. An existing observation can answer a question for this delivery. Before dropping that question from the maintained list, check how later users will obtain the answer or why they can make their decision without it. Use C.41.QC where the criterion or checking means still needs examination.
+When the questions also determine rejection, ask whether any allowed satisfactory result could be rejected. A derivation may settle this for the whole intended use. Examine a distinguishing case where the criterion’s effect remains uncertain. Recover allowed alternative ways of meeting the terms and the effect of a failed necessary condition. A known failure within the proposed use that would pass every question already refutes the claim that passing suffices for acceptance. If the question is which difference the set can detect, compare a satisfactory result with a plausible failure. Would their answers lead the user to act differently where the work calls for it? Distinguishing one pair shows which difference the questions can expose. For reliance beyond that pair, trace the consequential conditions of the work to the questions and their grounds, or limit the proposed use to the conditions supported so far. Reuse an adequate qualification. An existing observation can answer a question for this delivery. Before dropping that question from the maintained list, check how later users will obtain the answer or why they can make their decision without it. Use C.41.QC where the criterion or checking means still needs examination.
 
 #### C.41:4.3 - Select coverage and a useful stopping point
 

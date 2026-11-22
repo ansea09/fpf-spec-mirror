@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 108523
-line_end: 108555
+line_start: 108587
+line_end: 108619
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -92,7 +92,7 @@ Using `E.10.ARCH` creates none of those objects; the author returns to the rules
 | `CC-E10ARCH-6i` | Work and Method boundary wording uses `C.2.P` first for an epistemic source side, bypasses to a clear defining or testing rule, and otherwise uses `A.6.P.WMR` for exactly one of its four result families. Use `F.18` to name performed Work only after occurrence grounding. Classification, a generic result label, or a designation that merely type-checks against a declaration does not close the case. |
 | `CC-E10ARCH-7` | `function`, `functional`, `functionality`, and `effect` wording keeps `A.6.F` as first unpacker when the governed FPF object, direct relation, claim-bearing episteme, view, or defining or testing rule is hidden; it does not default to architecture. |
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. |
-| `CC-E10ARCH-9` | Repair preserves one useful admissible reader use and states it positively. Add a negative boundary only when the `F.19` plausible-intended-reader test warrants it. Type-correct but inert wording is not recovered by value. |
+| `CC-E10ARCH-9` | Check the repaired wording in the work commissioned of its readers. When several uses are required, identify the meaning and grounds each needs, including a link between them when the result depends on it. One use can suffice for a single-use commission. Add a negative boundary when the F.19 plausible-intended-reader test warrants it. |
 | `CC-E10ARCH-10` | Validation covers duplicate recognition tables, broad placeholder heads, declaration/participant collapse, representation-as-obtaining, one-description/many-object collapse, optional apparatus without a receiver, practitioner-row bureaucracy, shadow restoration apparatus, and entry or index drift. |
 | `CC-E10ARCH-11` | A DPF-local entry begins only from a demonstrated recurring wording problem and identifies the DPF claim, DPF edition, defining or constraining rule, and the PatternID that locates that rule. The entry stays beside the claim whose wording it restores; `F.19` supplies the final rewrite. A separate profile is a claim-bearing episteme with a named receiving use and edition, and exists only when several entries are maintained together. The profile can be published as a table. No domain trigger is copied into the FPF-wide table, and wording repair does not establish or revise domain doctrine. |
 

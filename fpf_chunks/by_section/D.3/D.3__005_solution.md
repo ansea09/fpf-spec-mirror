@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:2 — Solution"
-line_start: 97131
-line_end: 97214
+line_start: 97180
+line_end: 97263
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,7 +49,7 @@ Identify the sides needed to explain the conflict. At least two claims are invol
 5. the expected benefit, harm, or constraint and its consequence horizon; and
 6. the evidence use or uncertainty only when the side relies on it.
 
-Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. To establish that all the claims can be met together, give a feasible arrangement or other sufficient grounds. To establish that they cannot, show why every arrangement meeting those claims would violate a constraint that applies. When an attempted arrangement fails, ask which alternatives its reason for failure also rules out. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
+Explain which claims can hold together and what makes them incompatible or leaves the answer open. When several arrangements meet the constraints, explain what each would preserve or sacrifice under the competing value premises, or why their priority remains unsettled. Three claims can be jointly incompatible although each pair can be met. For one agreed combination, a feasible arrangement can establish compatibility. If the parties retain choices about future work, identify who decides, what each can know in time and which combinations the arrangement must accommodate. A plan for one combination establishes that combination. A constraint covering every permitted arrangement can establish impossibility. Give the conclusion this supports for the original decision and the alternatives that still matter.
 
 A short working note can be sufficient. Develop a more elaborate description only when its intended use requires the additional content.
 

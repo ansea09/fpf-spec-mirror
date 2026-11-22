@@ -6,12 +6,12 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 104022
-line_end: 104044
+line_start: 104077
+line_end: 104099
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -77,5 +77,5 @@ keywords:
 | **Intended-reader leakage** | Pattern sections narrate the current draft's promotion, freeze, review, or safest landing form. | The reader must reconstruct development history to find the Method and its reasons. | Keep that history in companion records; explain the user's Methods, costs, alternatives, boundaries, and use-changing architectural reasons in the public account. |
 | **Editorial/development self-instruction leak** | The pattern starts saying things like `this draft should …`, `later authoring will …`, or `that is the opening this draft must hold`. | The text stops addressing the working reader and starts narrating the current editorial or drafting process. | Move the sentence to the authored-slice carrier or handoff, or rewrite it as one user-facing claim about the primary `EntityOfConcern`, boundary, or practical consequence. |
 | **Intended-reader-clean but pragmatically foggy** | The pattern addresses the right reader, but the first reading still hides the working situation, payoff, governed object, or first move. | Correct audience alone does not make the guidance usable. | Put the working question and first useful move earlier, gloss necessary technical terms, and supply the explanation the reader needs. Add or move a worked case when its specific contribution resolves the difficulty; connect explanatory `SoTA-Echoing` to the guidance it changes. |
-| **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern. | The wording accommodates all the audiences without telling any reader which concern governs the first passage. | Make the primary working reader, concern, and viewpoint explicit and assign other audiences to secondary companion uses, other faces, or an explicit out-of-scope note. |
+| **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern. | The wording accommodates all the audiences without telling any reader which concern governs the first passage. | Identify who needs to do what and which contributions the promised work needs together. Preserve the grounds for any joint decision. Give role-specific guidance where each reader can act separately. |
 

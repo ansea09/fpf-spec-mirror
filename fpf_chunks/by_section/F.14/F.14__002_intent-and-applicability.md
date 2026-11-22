@@ -6,12 +6,12 @@ section_id: "F.14:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__002_intent-and-applicability.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:1 — Intent and applicability"
-line_start: 131874
-line_end: 131901
+line_start: 131991
+line_end: 132018
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 
 **Use this when.** Proposed names, aliases, cards, local-sense cells, or rows begin to multiply faster than the independently governed distinctions. Before minting a NameCard, `SchemeSenseCell`, Unified Term Sheet row, or durable name family, ask: **does an existing designation, alias, local expression, or direct-pattern name already let the practitioner perform the proposed use?**
 
-**First useful move.** For every candidate expression, name the one independently recovered governed value or relation, its exact kind, its direct pattern, the proposed use, and the effective naming rules (`ReferenceScheme`).
+**First useful move.** Identify what the proposed name must help its reader pick out. Compare uses that have the same words or the same constituents. Would a change in how the constituents are organized require the reader to refer to something different? Recover the value or relation that answers that question, its kind and the applicable naming rules (`ReferenceScheme`).
 
 If no such value or relation is independently recoverable, keep the expression local or keep it with the exact assertion that recovers its subject or value; do not pass a value-less expression to F.8 or manufacture an object so that the name has something to denote.
 

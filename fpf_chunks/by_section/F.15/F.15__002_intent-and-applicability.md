@@ -6,12 +6,12 @@ section_id: "F.15:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__002_intent-and-applicability.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:1 — Intent and applicability"
-line_start: 132215
-line_end: 132246
+line_start: 132332
+line_end: 132363
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ F.15 does not define schemes, local senses, cells, values, relation occurrences,
 
 **Primary EntityOfConcern in plain terms.** One exact finite slice version under a declared set of static or regression rules for one named receiving use. The checked scope is not evidence, a work process, result, registry, Bridge, system-role assignment, status value, publication, or universal context.
 
-**Admissible move in plain terms.** Resolve the finite member refs and exact versions and apply only the triggered rules. Identify an exact check application when the claim needs its identity. Recover dated assessment Work when the claim needs its performance history. Constitute each result claim separately under C.2.1. Cite witnesses and evidence relations separately. Use the defining or testing rule for every failed subject claim, with its PatternID retained only as a locator.
+**Admissible move in plain terms.** Start with the conclusion the recipient needs. Use a stipulated slice for a check confined to it. When choosing the slice is part of the commission, follow the use back to the claims and connections on which it depends (§7). Resolve their references and versions, then apply the triggered rules. Identify an exact check application when the claim needs its identity. Recover dated assessment Work when the claim needs its performance history. Constitute each result claim separately under C.2.1. Cite witnesses and evidence relations separately. Use the defining or testing rule for every failed subject claim, with its PatternID retained only as a locator.
 
 **Primary working reader.** A practitioner checking whether selected names and semantic-unification results meet the rules for one stated reuse.
 

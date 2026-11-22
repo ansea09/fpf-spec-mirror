@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CDI.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
-line_start: 123689
-line_end: 123927
+line_start: 123779
+line_end: 124021
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -77,6 +77,8 @@ The opposite mistake is to demand one universal decomposition or balanced scorec
 
 Keep the holder System, its capability, the target Work family, development intervention, provider Systems, development Work, transfer Work, and evidence separate. A familiar group name does not by itself identify the capability holder.
 
+Decide whose capability to develop from the work that will be entrusted. Follow the result to the contributors and resources needed to obtain it. When several contributions are required, could their timing or handover change the outcome even if each one succeeded? Include the relevant coordination in the account of the holder. For a claim about an individual using ordinary support, identify the contribution that individual must make and the help available at the time.
+
 | Candidate holder wording | Boundary for this use |
 | --- | --- |
 | a person or equipped person | Use the person or equipped whole only when that System is the bearer of the bounded capability claim. |
@@ -94,6 +96,8 @@ Keep the holder System, its capability, the target Work family, development inte
 5. Choose an intervention directed at that limitation, and name any provider System on which the intervention relies. The intervention may use, for example, practice, coaching, adaptation, tooling, changed support, or a changed Method; the receiving domain supplies the choice.
 6. Carry the protected conditions into the chosen intervention. Keep the selected intervention or plan separate from any development Work that is later performed.
 7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. Exercise completion, attendance or provider delivery alone does not establish transfer. Reuse evidence from an exercise or another check when it tests the declared target in representative Work under the receiving conditions and satisfies its evidence requirements.
+
+   Build the transfer task from the choices the holder will have to make. When the next job supplies a procedure, representative work can ask the holder to carry it out. When the holder must devise a procedure, start with the problem and the resources available on that job. Identify the choices the holder made in constructing it. Where the outcome depends on several parts working together, establish what joins them under the receiving conditions. A worked solution or a heading that supplies the decisive relation narrows what the performance establishes. An earlier work product can already show the required choice under the relevant conditions.
 8. Reopen the Method account, holder boundary, baseline, target, intervention, protected conditions, or currentness claim when the transfer evidence shows that the earlier account was wrong, incomplete, or no longer current.
 
 ##### E.23.CDI:4.2.1 - Choose how Method structure will become usable
@@ -198,7 +202,7 @@ Suppose a trial learner's training signal improves while it still produces the a
 | `CC-E23CDI-2` | Before intervention selection, the current capability baseline names its operating envelope, decision-bearing measures and evidence, qualification window or currentness condition, and limiting contribution. |
 | `CC-E23CDI-3` | Before intervention selection, the desired measures or success predicate and protected conditions are explicit; the desired result is not presented as an established current ability or actual change. |
 | `CC-E23CDI-4` | The intervention addresses the limitation; any provider System and provider contribution remain distinct from the holder's capability, and a selected plan remains distinct from performed development Work. |
-| `CC-E23CDI-5` | Transfer tests the declared target in representative Work under the relevant envelope and window; attendance, exercise completion, description, publication, or provider delivery is not substituted. |
+| `CC-E23CDI-5` | Transfer tests the declared target in representative Work under the relevant envelope and window, with the contributions and choices that will belong to the holder there; attendance, exercise completion, description, publication, or provider delivery is not substituted. |
 | `CC-E23CDI-6` | The plan, performed development Work, performed transfer Work, evidence and result, pre- and post-intervention capability statements, capability-change comparison, and any actual Transformation claim remain separate. The comparison uses commensurable measures, envelopes, windows, and current support. A causal Transformation claim cites an independently identified Transformation and an obtaining direct Work-to-change predicate or supported local claim; otherwise retain the actual unresolved basis. Reserve `missing-governor` for an unavailable predicate or governing condition; missing case facts leave the relation unestablished, and a supported negative or inapplicable result remains distinct. |
 | `CC-E23CDI-7` | A population is not treated as capable by aggregation. A capability claim about the population as a whole requires its independent admission as the holder System. Member distributions and cultural propagation have separate results. |
 | `CC-E23CDI-8` | The result states what evidence, expired qualification window, changed operating condition, or failed transfer result reopens the baseline, target, Method account, holder boundary, intervention, protected conditions, or currentness claim. |

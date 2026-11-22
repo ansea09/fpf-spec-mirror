@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:4 — Solution"
-line_start: 13026
-line_end: 13101
+line_start: 13033
+line_end: 13108
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"
@@ -37,7 +37,7 @@ Choose what counts as one step. A step can be one instruction, one transaction, 
 
 Retain the values needed to apply the rule. A saved read and an instruction position can matter even when neither is visible in the final output. A mechanical law can require velocities as well as positions. If two cases described by the same retained values require different continuations under the same inputs, return to the state choice or retain the unresolved alternatives. A.3.3 supplies the prediction-sufficiency comparison.
 
-For an interval of evolution, specify the inputs over that interval. One initial input value determines a later result only under an assumption such as a held input or a supplied input law. Distinguish that condition from the initial state.
+For evolution over an interval, establish what information about the inputs suffices for the requested observable. Predicting a full trajectory may require an input law together with the initial state. An end value can depend only on an accumulated input, and a bound can settle a threshold. One initial input value suffices over the interval when a justified condition such as a held input makes it sufficient.
 
 #### A.3.3.TR:4.2 - Write each contribution as a relation
 
@@ -45,7 +45,7 @@ For a discrete action, write its enabling condition and its relation between the
 
 An action may leave several after-values possible. Keep the relation broad enough to represent them. An expression x' = f(x,u) is appropriate when the supplied state and input u determine that after-value; a relation R(x,x',u) can retain several possibilities.
 
-For continuous evolution, recover the subject laws relating quantities, rates and interactions. These may be written as differential equations, algebraic constraints and any event conditions needed by the model. Include the initial and boundary conditions that the selected law requires. With constrained bodies, identify the forces exchanged through their connection and combine the equations, as :5.2 demonstrates.
+For continuous evolution, recover the subject laws relating quantities, rates and interactions. These may be written as differential equations, algebraic constraints and any event conditions needed by the model. Include the initial and boundary conditions that the selected law requires. Choose the boundary from the quantity the recipient needs. A whole-system force balance can give its motion directly. A load at a connection can require a balance for one constituent and a constraint relating its motion to the whole (§5.2).
 
 The form of an equation does not establish its physical applicability. Recover its domain meaning and conditions from the subject account. When that account is missing, name the missing relation and return the conditional result already obtainable.
 

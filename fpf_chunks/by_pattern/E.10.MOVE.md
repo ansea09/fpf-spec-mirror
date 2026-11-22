@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.MOVE.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
-line_start: 107813
-line_end: 108197
+line_start: 107877
+line_end: 108261
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -113,7 +113,7 @@ Restore the governed target before choosing replacement wording:
    For a Plain long mantra, recover the intended connected reasoning and the particular question now at issue. State the answer or blocker, the subject pattern that supplies it, and the other answers whose use depends on its conditions. A whole-account question may require comparing those answers rather than finding one final result or one missing map location. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
-6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.
+6. Distinguish the governed claims carried by one phrase and retain the connection the reader needs. For readiness to work together, identify the performances to be combined and the conditions they must satisfy together. Two crews can each be ready for a lift while their simultaneous lifts require the same crane. For a question confined to permission, a single authorization covering both crews can suffice.
 7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
 
 #### E.10.MOVE:4.1 - MoveAndReadinessWordingRepairNote
@@ -354,7 +354,7 @@ The method foregrounds Onto/Epist distinctions and direct subject ownership. The
 | ID | A conforming repair… | Check |
 | --- | --- | --- |
 | `CC-E10MOVE-1` | names the governed text span, claim being made, and object under wording repair before choosing a replacement. | Resolve the kind from the current claim and its direct pattern. |
-| `CC-E10MOVE-2` | assigns one wording-use disposition and does not treat that local enumeration as project ontology. | Demonstrated row, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation cases remain distinct. |
+| `CC-E10MOVE-2` | assigns the applicable wording-use disposition to each recovered use, retaining any connection required for the original claim. | Demonstrated continuation, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation retain their stated meanings. |
 | `CC-E10MOVE-3` | for an FPF-governed use, names the exact recovered governed value, value kind, and non-semantic PatternID locator for the subject pattern whose content defines, constrains, or tests that value. For a relation claim, it names the admitted direct predicate and actual participants; it includes a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. | Confirm the recovered project value under its direct pattern. Any relied-on MethodDescription identity needs independent A.3.2 admission, as in §4.1. |
 | `CC-E10MOVE-4` | blocks root `U.Move`. | No durable move kind is minted by wording pressure. |
 | `CC-E10MOVE-5` | preserves remaining reader use. | The repaired text still says what the practitioner can do or inspect next. |

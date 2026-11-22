@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:1 — Problem frame"
-line_start: 10275
-line_end: 10299
+line_start: 10280
+line_end: 10304
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,7 +29,7 @@ keywords:
 
 ### A.3.1.MR:1 - Problem frame
 
-**Use this when.** Use observations or records from several performances to recover a candidate account of a reusable way before Method identification. A single demonstration can already show how one feature was enacted. If several rules could explain the action, retain the plausible alternatives and identify an observation that would distinguish them when the difference matters. If the step shown answers the immediate question, finish there.
+**Use this when.** Start with the work the recipient needs to understand. Is the question what someone did once, which reusable way they followed, or what holds across other settings? Choose the part of the performance, the encompassing work and the differences between candidate rules that can change that answer. One sufficiently informative performance and its grounds can distinguish the way followed on that occasion. A visible feature may also be all the recipient needs. When different rules still fit and the difference matters, retain the alternatives and seek evidence that distinguishes them. Wider applicability needs grounds covering the wider conditions.
 
 **First useful result.** Return a traceable provisional explanation of the reusable way the material may show, its rivals, important gaps and limits—or state that the material shows only what happened. A distinguishing question is included when it changes the intended recovery or downstream use; neither an answerable future test nor an investigation plan is required merely to finish the account.
 

@@ -6,12 +6,12 @@ section_id: "F.9:18"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__020_didactic-distillation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:18 — Didactic distillation"
-line_start: 130364
-line_end: 130375
+line_start: 130479
+line_end: 130490
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,13 +57,13 @@ keywords:
 
 ### F.9:18 - Didactic distillation
 
-Use this five-part script:
+Choose the inquiry from the recipient’s question, then use the steps that it requires.
 
-1. Find the two exact local senses.
+1. What conclusion depends on a correspondence between meanings? Select the two exact senses that bear on it.
 2. State the proposed correspondence or difference and test it. Report whether the Bridge obtains, is ruled out or remains unresolved.
-3. State the proposed use separately: action, direction, rule, tolerated loss, and polarity.
+3. If the recipient proposes using the Bridge, state the action, direction, rule and tolerated loss that still allow their conclusion. Give the judgement its supported polarity.
 4. Check whether current evidence or assurance supports relying on that claim; recover authorization separately if needed.
 5. If the use happened, identify the actual object and apply the relevant pattern to the claim about it. Make a card only when reuse is worth the maintenance.
 
-The short memory aid is: **relation first, use second, reliance third, receiving occurrence last; packaging is optional.**
+A question about two meanings can finish with their relation. For a proposed use, follow what the correspondence preserves to the recipient’s conclusion. An account of what actually happened requires evidence about that occurrence.
 

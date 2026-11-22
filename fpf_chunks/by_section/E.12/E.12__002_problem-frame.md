@@ -6,12 +6,12 @@ section_id: "E.12:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:1 — Problem Frame"
-line_start: 112171
-line_end: 112179
+line_start: 112237
+line_end: 112245
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -32,7 +32,7 @@ keywords:
 Use this pattern in either of two working situations:
 
 - **An assurance claim has no clear practical benefit.** An author or reviewer can see the proof or assurance level but cannot say what it helps the intended user understand or decide. Apply the Rationale Mandate in §4.2: explain that benefit in ordinary language, or leave the claimed benefit unexplained pending a substantive answer. The assurance-level judgement retains its own B.3.3 profile.
-- **A reader gets stuck, or a work demand appears excessive.** Identify the passage or workflow at issue, the reader's task, stated prerequisites and missed or costly action. Apply the bounded HF-Loop in §4.3 to compare a justified alternative while preserving the method and controls. Return a supported repair, no change or the exact evidence limit; §4.4 shows a no-change result.
+- **A reader gets stuck, completes a different task fluently, or encounters a costly demand.** Compare the work the intended recipient brought with the task and help available in the passage. Use §4.3 to locate the lost choice, missing support or unnecessary demand and test a repair against the original use.
 
-The first route asks why formal assurance helps. The second investigates a concrete obstruction or burden; a general complaint about complexity alone does not diagnose it. A missing subject prerequisite, a necessary control or a difficult decision may remain after the wording is clear. Keep the inquiry's cost proportionate to the useful result it can change.
+The first route asks why formal assurance helps. The second investigates the work a passage actually elicits, including a different choice made smoothly. A missing subject prerequisite or unsuitable assignment may call for a different intervention from a repair to the explanation.
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:13"
 section_title: "Conformance Checklist (USM)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__014_conformance-checklist-usm.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:13 — Conformance Checklist (USM)"
-line_start: 7658
-line_end: 7675
+line_start: 7651
+line_end: 7668
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -42,7 +42,7 @@ keywords:
 | **CC-USM-5 No membership occurrence by default.** | A.2.6 admits no membership-relation kind. A receiving use requiring occurrence identity needs an independently admitted direct relation with exact participant meanings, obtaining condition, recurrence rule and occurrence identity under A.6.REL. |
 | **CC-USM-6 Structure separation.** | A bare scope, slice, membership outcome, or displayed boundary never enters A.22 identity. An exact `U.ClaimScope` remains a participant of its independently governed `ModelApplicabilityRelation`; selecting that exact occurrence contributes through the relation-occurrence discriminator. Separately, an exact applied constraint claim may refer to that scope and contribute through the applied-constraint discriminator. Neither path makes the scope a constituent, a membership occurrence, or a second delimiter. |
 | **CC-USM-7 Applicability interval.** | One exact `U.ClaimScope` participates in `ModelApplicabilityRelation`; a declared interval stays in assertion or occurrence-description content, while the actual occurrence extent is derived from maximal continuous obtaining. |
-| **CC-USM-8 Set algebra.** | Intersection, independently supported `spanUnion`, widen, narrow, and refit operate on exact scope values; refit preserves membership. |
+| **CC-USM-8 Set algebra.** | Combine conditions on the same slice. For successive stages establish compatibility of the required intermediate outcomes. For a promised output, apply §7.2 to establish completion and any deadline across the histories allowed by the promise, under the decisions and information available to the performers. Coverage by cases retains shared premises. A claim of independently supported areas through `spanUnion` meets §7.3. Widening, narrowing and refitting keep their §7.6 meanings. |
 | **CC-USM-9 Translation boundary.** | `translate` uses an exact obtaining F.9 Bridge plus a separate affirmative C.2.1 claim naming the use, direction, rule, and tolerance. A receiving guard requires A.10 `pass` for ordinary reliance or, when an actual named assurance claim is current, a B.3 `AssuranceResult` for the same use with `disposition=supported-for-use`; scheme or label difference, a profile, or a card supplies none of these. |
 | **CC-USM-10 Representation boundary.** | A set expression, query, table, graph, or diagram is a C.29 representation of an independently identified scope or evaluation result. |
 | **CC-USM-11 Time only when material.** | Name `gammaTime` and its membership boundary when time changes membership; never use implicit “latest.” A time-independent predicate need not inspect `gammaTime`; retain every selector already declared in the slice, and do not add one merely to complete a new declaration. |

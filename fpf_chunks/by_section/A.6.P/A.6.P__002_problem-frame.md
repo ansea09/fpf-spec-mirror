@@ -6,12 +6,12 @@ section_id: "A.6.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:1 — Problem frame"
-line_start: 20928
-line_end: 20949
+line_start: 20941
+line_end: 20964
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -44,11 +44,13 @@ Quoted, external, or ordinary source prose may remain as written. Use A.6.P only
 
 **Primary working reader, viewpoint, and concern.** The working reader is an engineer viewing the sentence as input to a later claim or operation. The concern is that another person can find the same world-side or episteme-side objects, find the same pattern that defines the relation or constrains the operation, and know which additional declaration, assertion, occurrence, designation, or representation detail that later use needs.
 
-**Primary EntityOfConcern.** One relation-bearing claim in an episteme whose current expression leaves the direct relation kind or one or more actual participants unresolved, or leaves unclear whether a later claim or operation needs reusable declaration, explicit occurrence identity, designation, or representation.
+**Primary EntityOfConcern.** One relation-bearing claim in an episteme whose wording leaves the direct relation, the meanings of its participants or their identification unclear. The receiving use determines whether it needs a reusable declaration, an identified occurrence, a designation or a representation.
 
-**First useful move.** Replace the broad phrase with one readable sentence that names the participants and the direct relation believed to obtain. Name the rule defining its participants and obtaining condition; recover occurrence identity when the receiving use needs it. If either the participants or the relation remain ambiguous, keep a small working candidate note and resolve that ambiguity before adding a reusable declaration, assigning a designator, or choosing a representation.
+**First useful move.** Ask what the next reader needs to know. To explain a rule, state who or what would participate, in what capacity, and under what conditions the relation would obtain. For a claim about an occurrence, identify which case is at issue and apply the rule to the available facts. Recover an individual participant’s identity when it affects the answer or the recipient asks for it. If a disputed reading changes the answer, recover the meaning needed before choosing a declaration, designator or representation.
 
 **First-minute result.** The draft `Bearing_B is linked to Pump_P` becomes `Bearing_B is part of Pump_P during Interval_T` after inspection establishes the intended parthood claim under the applicable A.14 rule. The ordinary repair stops there. If a later maintenance claim must distinguish installation episodes, §5.1 returns the missing installed-part predicate and occurrence-identity rule; a `RelationSignature`, occurrence reference or graph representation cannot supply them.
+
+Suppose a handover proposal says “the desk clears the delivery.” The author means that the receiving department can accept a delivery through an officer who holds its delegated authority. Under the proposed rule, that officer’s signature for the delivery would constitute acceptance. A clerk could file the receipt without holding that authority. This distinction explains the proposal even before an officer is appointed. A claim that a particular delivery was accepted requires the rule in force and grounds that its conditions were met for that delivery.
 
 **What goes wrong if missed.** A lexical replacement can make the sentence sound technical while preserving the same ambiguity. At the opposite extreme, an engineer can turn every relation phrase into a record-shaped episteme and then confuse that episteme, a declaration, or an identifier with the relation that obtains. Both failures obscure what is true, which object changes, and which pattern defines or constrains the needed claim or operation.
 

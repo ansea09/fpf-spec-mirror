@@ -6,12 +6,12 @@ section_id: "C.32.MWA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:7 — Conformance Checklist"
-line_start: 83071
-line_end: 83086
+line_start: 83109
+line_end: 83124
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -46,7 +46,7 @@ keywords:
 | **CC-MWA-5 — Relation recovery** | Every relation used in the answer is stated by value and supported through its defining or constraining pattern when material. Order is not overlap; overlap is not parthood; co-use is not Method composition. |
 | **CC-MWA-6 — Subject-description separation** | The identified Methods, Work, Systems and relations remain distinct from descriptions, models, views and coarse-graining. A description’s use in Work is separate from the objects it describes; important correspondences and losses are stated. |
 | **CC-MWA-7 — Whole reidentification** | A consequential question about retaining or reidentifying a Method, Work, System or Discipline whole uses B.2; a new whole is asserted only on its required grounds. A changed selected-structure identity uses A.22. |
-| **CC-MWA-8 — Conflict and moved burden** | The main conflict is named and every claimed local improvement states any material residual or burden moved elsewhere. |
+| **CC-MWA-8 — Conflict and moved burden** | When the work depends on a conflict, identify the conditions that cannot jointly hold. For a claimed improvement, account for material burdens the change moves to other participants or occasions. |
 | **CC-MWA-9 — Conditional product branch** | A guidance-product boundary comparison develops the arrangements that could serve the receiving practice and explains any consequential exclusion. Other product boundaries have their own alternatives. |
 | **CC-MWA-10 — Deliberate/distributed distinction** | Project choice and intervention remain distinct from cultural generation, transmission, recognition, selection, retention, and loss. |
 | **CC-MWA-11 — Usable result** | A cold reader can recover the short synthesis, any alternative required by the decision, the next use, and the stop or reopen condition without reading symbolic assurance first. |

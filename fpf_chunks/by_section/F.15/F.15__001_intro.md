@@ -6,12 +6,12 @@ section_id: "F.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:intro — Intro"
-line_start: 132201
-line_end: 132214
+line_start: 132318
+line_end: 132331
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 > **Type:** Pattern
 > **Status:** Stable
 
-**"Prove locality and parsimony first; only then prove composition."**
+**“Choose what to check from the use the result must support. Establish what the local checks and any required connections warrant for that use.”**
 
 **Type:** Architectural pattern.
 **Normativity:** Normative.

@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 135151
-line_end: 135188
+line_start: 135270
+line_end: 135307
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -34,7 +34,7 @@ keywords:
 
 ### F.19:0 - Use this when
 
-Use `F.19` when a bounded piece of technical prose is harder to understand or use than its intended claim requires.
+Use `F.19` when a bounded piece of technical prose is hard to use or when a reader can follow it clearly and still answer a different question from the one the work calls for.
 
 The sentence may be grammatical and every isolated statement may be true, yet the reader still has to invent a missing operand, accept an implausible relation, guess what a pronoun or relational noun refers to, interpret a list with no stated purpose, or wait through caveats and ornament before reaching the governing message.
 
@@ -57,7 +57,7 @@ Apply the same method to FPF pattern prose and to other technical prose whose ac
 
 **What this buys.** The passage puts the supported object, claim, and action where the reader can find them without first working through unnecessary caveats. The rewrite preserves required technical distinctions and removes invented foils, false agency, reference puzzles, and catalogue rhetoric.
 
-**First useful move.** State in one plain sentence what the intended reader must recognize, understand, decide, or do. Then read the whole natural span against that sentence before changing individual words.
+**First useful move.** Read the request from the intended reader’s position. What must the reader recognize, understand, decide or do? If you must choose the passage to inspect, follow that question to the words on which the answer depends. Read them with the premises they rely on. Keep wording that already lets the reader make the required inference or choice.
 
 **Not this pattern when.**
 

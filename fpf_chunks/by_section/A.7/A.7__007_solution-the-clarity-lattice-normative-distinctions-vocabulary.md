@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_solution-the-clarity-lattice-normative-distinctions-vocabulary.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & vocabulary)"
-line_start: 26517
-line_end: 26658
+line_start: 26534
+line_end: 26678
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "B.1.2"
   - "B.1.4"
   - "B.1.5"
+  - "B.1.5.EW"
   - "B.1.6"
   - "E.10"
   - "E.17"
@@ -120,6 +121,7 @@ Formal inclusion establishes no world-side belonging. Collection belonging estab
 
 * **System aggregation and delimitation** — use B.1.2:4 to coordinate the independently established parts, crossings and whole-characteristic claims needed by the engineering decision. Each characteristic keeps its own aggregation or inference rule.
 * **Method composition** — use B.1.5 to determine whether constituent Methods and their relations construct one reusable way of doing, including its order and branching.
+* **Composition of performed Work** — ask what the encompassing job was and which operations people or systems actually carried out as part of doing it. From a known operation, establish what part of that job it performed. From the job, follow how the constituent performances fitted together and how far they took it. An operation in an unfinished attempt can still be a constituent. Another job may have supplied a result used here. Use B.1.5.EW for that organizing connection and A.15.1 for the identity and extent of the Work occurrences.
 * **Temporal aggregation** — first establish Work occurrences and temporal parts under A.15.1, or the identities and temporal relations of other subjects under their own rules. B.1.4 combines those recovered relations for a stated window and use.
 * **Work-resource aggregation** — use B.1.6 for resource spend and yields tied to admitted Work, with the required measurements, accounting boundary and aggregation policy.
 
@@ -168,9 +170,11 @@ If the EntityOfConcern is itself an episteme, the new Description does not autom
 
 **Example.** `PumpPerformanceDescription-e4` is a C.2.1 episteme whose EntityOfConcern is pump P-12 and whose claims state the measured flow and pressure under the named scheme. `MeasurementRun-88 produced ObservationEpisteme-88`, and that observation supports the stated measurement claim through its direct evidence-use relation. The Description, pump, measurement Work, observation episteme, evidence use, and publication carrier remain different objects.
 
+Suppose the analyst was asked to describe P-12 from its archived measurements. She selected the relevant observations and interpreted them to write e4. Those actions were part of preparing the description. The earlier measurement supplied an input to this job. If the order also called for a fresh measurement, e4 could give the correct figures while that work was still due. If a technician measured P-12 afresh as part of carrying out the order, that measurement would belong to the larger job even though a different person wrote e4. A common time window or cost total alone cannot settle which work was done for the order.
+
 A Description episteme becomes usable as a specification when its C.2.1 constitution, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use are recoverable under E.10.D2 and the applicable direct pattern. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its selected viewpoint. Formality, acceptance conditions, measurement criteria, and verification practice contribute under their own rules; formal notation alone is insufficient. Specification use remains separate from the EntityOfConcern, Description identity, publication expression, and Work.
 
-A Description episteme, its specification-use status, and a publication result are distinct from the activity producing them. Admit a deliberately asserted dated describing, formalizing, specifying or publishing Work using the basis in :2. Use B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
+A Description episteme, its specification-use status, and a publication result are distinct from the activity producing them. Admit a deliberately asserted dated describing, formalizing, specifying or publishing Work using the basis in :2. Use B.1.5 for Method composition, B.1.5.EW with A.15.1 for the operations that made up one actual job, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
 
 #### A.7:5.10 - Outcome specification distinction
 

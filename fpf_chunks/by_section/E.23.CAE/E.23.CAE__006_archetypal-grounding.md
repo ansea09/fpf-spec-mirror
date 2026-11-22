@@ -6,12 +6,12 @@ section_id: "E.23.CAE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:5 — Archetypal Grounding"
-line_start: 124093
-line_end: 124124
+line_start: 124189
+line_end: 124220
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -44,7 +44,7 @@ The case keeps the first probe small while retaining the distinction between pro
 
 **Probe.** Name the admitted organizational holder or performer arrangement and the handover Work. Compare the earlier roster, record, dispatch tool, authority, and interface configuration with the current one. Run a protected `A → B → A` replay or simulation: established configuration, changed configuration, then restored configuration. Observe which routine or Method is selected, whether it can be adapted to the new shift, whether authorized performers enact it, and whether the handover result obtains.
 
-If the result returns when record access and authority are restored, `configurationOrSupportUnavailable` is supported. Routine theory, organization design, staffing, governance, and collective learning remain OCE or organizational questions; no human-like organization memory has been established.
+If the result returns when record access and authority are restored, `configurationOrSupportUnavailable` is supported. Restoring both together leaves open whether restoring either alone would also suffice. A request to identify which change the shift needs calls for evidence that distinguishes those alternatives. The combined result already answers whether the earlier configuration can recover the handover under the replay conditions. Routine theory, organization design, staffing, governance, and collective learning remain OCE or organizational questions; no human-like organization memory has been established.
 
 #### E.23.CAE:5.3 - AI or robotic apparent forgetting
 

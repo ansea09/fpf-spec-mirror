@@ -6,12 +6,12 @@ section_id: "C.41:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__012_architectural-rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:10 — Architectural Rationale"
-line_start: 94253
-line_end: 94258
+line_start: 94300
+line_end: 94305
 dependencies:
   - "A.3.1"
   - "A.3.2"

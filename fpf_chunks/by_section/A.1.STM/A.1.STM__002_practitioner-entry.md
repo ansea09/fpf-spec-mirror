@@ -6,12 +6,12 @@ section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:0 — Practitioner entry"
-line_start: 4221
-line_end: 4236
+line_start: 4209
+line_end: 4224
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -35,13 +35,13 @@ keywords:
 
 ### A.1.STM:0 - Practitioner entry
 
-**Use this when.** Use this pattern when participants have knowledge about parts of a project but need to connect it into one systemic account: what should change in use, which system can make that difference, how it could function and be constructed, how it can be obtained, and how its creators can work together. Their answers must fit together, not merely be plausible separately. Identify the product **system-of-interest (SoI)**, the extended enterprise in which it has that role, and the receiving use relevant to the decision. Retain several SoIs when their uses or shared commitments matter. Use the pattern also when participants say "our system" but leave its project context, contribution or receiving use unclear. A narrower use is to locate the first unsupported dependency when the connected account is already sufficient.
+**Use this when.** Participants know parts of a project and need to explain how they fit together. What should become possible, continue or cease in use, for whom and when? Use those conditions to identify the actual or intended product **system-of-interest (SoI)**, its place in wider functioning, and the work the participating organizations must arrange. Retain several SoIs when their uses or shared commitments matter. The same inquiry can clarify what participants mean by “our system” or locate one unsupported dependency in an otherwise adequate account.
 
-**First useful move.** You may arrive with a felt difficulty, a proposed change or a project account worth examining before trouble is noticed. Section 4.0 connects those entries. For a systemic project question, recover what should become different or remain possible in use, for whom and when. From the system's boundary, look upward to the larger functioning whole and the joint action of its parts. Use that account to derive the system's needed contribution before justifying its internal construction and the work needed to obtain it. Reuse a sufficient existing account; when the larger whole is unknown, investigate that question. Sections 4.1–4.3 develop this order, 4.3.1 connects the answers, and 4.4 locates a bounded gap.
+**First useful move.** You may arrive with a felt difficulty, a proposed change or a project account worth examining before trouble is noticed. Section 4.0 connects those entries. For a systemic project question, recover what should become different or remain possible in use, for whom and when. Trace the actual or proposed contribution into the wider functioning whole and ask which parts must act together. This can identify a future system by what it must enable, an arrangement that keeps an existing product usable, or the changes required to end its use while preserving specified functions. Use a sufficient existing ground for the decision. Investigate an unknown containing whole when the requested decision or explanation depends on its functioning. Sections 4.1–4.3 develop this order, 4.3.1 connects the answers, and 4.4 locates a bounded gap.
 
 **Memorable reminder.**
 
-> First look toward use: what should change, for whom and when? From the system's boundary, look upward: of which larger functioning whole is it a part, and what do those parts accomplish together? Investigate an unknown whole. Derive what the system must do there and name the system sought by that function. Then look inward to possible constructions and backward to ways of obtaining them, needed contributions and capable creators. Organize their work and means so the contributions can be used together. Repeat for needed creators while retaining the results they serve. Follow what happens and revise the answers whose grounds change.
+> What should change, continue or cease in use, for whom and when? Which whole depends on the system’s contribution, and how do its parts achieve that result together? Follow the inclusions the answer depends on. Investigate an unknown whole when its functioning matters to that answer. For a future system, derive its function and compare constructions that could provide it. To sustain use, find what must keep working and how to secure it. To withdraw a system, find what must stop and what must still work afterwards. Work back to the needed methods, capable contributors and conditions for their work together. Repeat for a missing creator while keeping its receiving use in view. Revise the affected answers as grounds change.
 
 This is the Plain long mantra. Its first moves establish the use that gives the later choices their reason. Section 4 explains the two directions, the returns after changed knowledge, and the difference between this reasoning order and a schedule of work.
 

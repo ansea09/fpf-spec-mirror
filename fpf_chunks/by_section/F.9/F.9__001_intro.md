@@ -6,12 +6,12 @@ section_id: "F.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:intro — Intro"
-line_start: 129853
-line_end: 129866
+line_start: 129968
+line_end: 129981
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,7 +59,7 @@ keywords:
 > **Type:** Pattern
 > **Status:** Stable
 
-**"Translate across contexts; never collapse them."**
+**What relation between these two local meanings would answer the question? What can the recipient infer from it?**
 
 **Type:** Architectural pattern.
 **Normativity:** Normative.

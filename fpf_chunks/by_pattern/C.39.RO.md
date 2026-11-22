@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RO.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
-line_start: 88257
-line_end: 88474
+line_start: 88303
+line_end: 88520
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -60,9 +60,9 @@ The practitioner needs to expose what another use may vary while retaining how t
 
 ### C.39.RO:4 - Solution
 
-Recover the working construction, choose the intended variation, expose an operation under retained conditions, and examine what it returns in a changed use.
+Recover the working construction, choose the intended variation, expose an operation under retained conditions, and establish what it returns over the intended range of use.
 
-**Recover the case → choose what may vary → construct the operation → justify its result → examine a changed use → retain, narrow or develop it.**
+**Recover the case → choose what may vary → construct the operation → justify its result → resolve any consequential change of use → retain, narrow or develop it.**
 
 #### C.39.RO:4.1 - Recover the useful construction
 
@@ -104,7 +104,7 @@ Keep the conclusion at that supported scope. Choose further proof, model develop
 
 #### C.39.RO:4.5 - Examine a changed use
 
-Choose a changed input that tests the proposed generalization, such as a larger input set, a different arrangement, a boundary condition or a changed constituent. Apply the operation and interpret what you obtain. With stipulated physical conditions, a calculation can give a required setting, a bound or a prediction. To report what an apparatus actually delivered, use evidence from that run, such as a calibrated measurement of the delivery.
+Use the argument for the commissioned range. Where its assumptions leave a consequential alternative open, choose a changed input that distinguishes it and interpret what the operation returns. Work through an additional use when the recipient needs the demonstration or has commissioned a trial. With stipulated physical conditions, a calculation can give a required setting, a bound or a prediction. To report what an apparatus actually delivered, use evidence from that run, such as a calibrated measurement of the delivery.
 
 Compare the obtained result with the receiving question. If the operation returns a failure witness, use it to change the proposed action or question. If an assumption fails, repair the dependent part or narrow the application conditions.
 
@@ -181,7 +181,7 @@ People and computational agents can contribute different parts of this work: rec
 - **CC-RO-2 - Meaningful inputs.** Variable inputs and retained application conditions are distinguished.
 - **CC-RO-3 - Obtaining operation.** The proposed steps explain how the inputs produce the result, including any composed or replaced contribution.
 - **CC-RO-4 - Supported scope.** The argument or empirical basis supports the scope claimed for the operation.
-- **CC-RO-5 - Changed use.** A relevant changed input is worked through, including its result or useful failure.
+- **CC-RO-5 - Changed use.** The grounds cover the variation claimed. Where a changed use remains uncertain or a trial was commissioned, its result or useful failure is available.
 - **CC-RO-6 - Affordable completion.** The receiving use can continue from the operation or its supported limit; further inquiry is selected for what it can change.
 - **CC-RO-7 - Local repair.** A changed condition reopens its dependent operations and conclusions.
 

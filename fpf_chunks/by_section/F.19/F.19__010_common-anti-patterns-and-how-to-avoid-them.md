@@ -6,12 +6,12 @@ section_id: "F.19:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:8 — Common anti-patterns and how to avoid them"
-line_start: 135487
-line_end: 135512
+line_start: 135607
+line_end: 135632
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -38,7 +38,7 @@ keywords:
 |---|---|---|
 | Lexical paint | One umbrella word is replaced by another while the object kind stays hidden. | Recover the object kind and rewrite in the object's technical name. |
 | Hypergeneric repair | The rewrite uses `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, or `specialization` to sound precise while hiding the object, relation, rule, or action. | Restore the practitioner-recognizable object and relation; for specialization, say what specializes what, by which specialization relation, and which inherited or changed slots or uses matter. |
-| Plain-language drift | Smooth prose drops the kind named by value or admissible-use boundary. | Remove apparatus first, then restore remaining wording precision before shortening. |
+| Plain-language drift | Smooth prose drops the kind named by value or a condition governing its use. | Recover the claim in its intended use. Retain the distinctions on which it depends when moving or deleting explanatory apparatus. |
 | Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to the review record, quality result, projection record, release document, or other appropriate evidence document and keep only the resulting user-facing action or boundary. |
 | Role-shaped label as ontology | The word *role* is treated as one technical value or replaces the object kind. | Keep the phrase as content; use `E.10.ROLE` when ordinary reading leaves the claim unresolved; do not infer a branch from the word alone. |
 | Function-shaped label as ontology | The word *function* is treated as one technical value or as proof of functioning, capability, assignment, or Work. | Keep the phrase as content; use `A.6.F` when ordinary reading leaves the claim unresolved; allow metonymy or several simultaneous readings without copying its dispatch here. |

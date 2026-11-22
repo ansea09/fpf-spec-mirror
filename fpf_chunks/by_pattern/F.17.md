@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
-line_start: 133000
-line_end: 134163
+line_start: 133119
+line_end: 134282
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 **Use this when.** An independently governed value has a settled durable name and public, Core-facing, durable, or cross-local reuse needs a reader-facing term row.
 
-**First useful move.** Point to the exact governed value, its kind, the pattern that defines or constrains it, one proposed row use, the selected Tech designation and any Plain designation needed for that use. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression or name already supplied for that value and stop.
+**First useful move.** Ask what a later reader will need to cite. If the reader needs a settled name, identify the governed value, its kind, the pattern that defines or constrains it, the intended citation use, the Tech designation and any Plain designation needed there. Apply F.14 to decide whether the reader needs a row. An existing designation, alias or local expression can settle the request.
 
 **Primary working object.** One C.2.1 `UnifiedTermRow` episteme whose exact EntityOfConcern is the independently governed value. Its claim graph cites the separate F.18 naming-settlement episteme and selected designation expressions. Section 5.1 explains the identities and relations needed to recover this decision and distinguish the row from its publication.
 
@@ -113,7 +113,7 @@ The practical problem is to make one durable naming decision recoverable without
 
 Recover the naming objects needed for the declared reuse, then constitute a row only when its separate gate is met:
 
-1. **Recover the value.** Identify one exact already-governed value or relation, its kind, the pattern that defines or constrains it, its identity or obtaining semantics, and one proposed use. Split a mixed candidate before naming.
+1. **Recover the value.** Start with what the reader will identify by citing this name. Trace it to the governed value or relation, its kind, the pattern that defines or constrains it, and what makes it the same value or establishes that the relation holds. Separate values that need independent naming decisions. A whole with several constituents, or a relation with several participants, can itself be the one value to name. Which change would affect what the reader is naming while leaving the names of its constituents intact?
 2. **Apply the anti-explosion gate.** Use F.14 to establish what the receiving use needs before minting a card, cell, row or family. Reuse an adequate local expression, existing designation, alias or admitted row directly. A stronger object needs a contribution that those adequate treatments do not supply.
 3. **Settle only the durable name that is needed.** If one expression remains unresolved, use F.8. If a durable naming settlement is justified, F.18 constitutes one C.2.1 NameCard and selects the Tech designation and any Plain designation needed for a stated didactic use. The card creates neither the value nor its kind and does not require a cell or row.
 4. **Address a local sense only when useful.** Create one `SchemeSenseCell` only when the exact local expression and sense claim need a stable address under an effective by-value `ReferenceScheme`. Cite a selected bounded-model-use Structure only when its organization changes this naming use. The cell does not require a NameCard or row.
@@ -351,13 +351,13 @@ Create two rows, one for each independently governed local reviewer kind. If a n
 
 #### F.17:12.2 - Status label looks like a system-role-kind name
 
-A team proposes `BlockedReviewer` as a public label. F.17 does not accept it as a row until the two governed values are separated. `ReviewerSystemRole` is a local system-role kind; `blocked` is a status-family or status-window value. The sheet may record one system-role-kind row and one status row, with a note that a local UI may render their labels together. The table creates neither a `BlockedReviewerSystemRole` kind nor an assignment. If either exact row edition must later be made available, use a separate E.24.PUB publication package.
+A team proposes `BlockedReviewer` as a public label. In its local UI the label combines the kind `ReviewerSystemRole` with a status that can change while the role assignment continues. A reader who needs the role-kind name can use its row. A reader who needs the status uses the status-family or status-window value. The sheet may cite both settled names with a note about their joint display. If another practice independently governs a status for a particular reviewer assignment, a row can name that status when reuse calls for it. To tell whether the assignment was blocked yesterday, consult the applicable status rule and evidence for that assignment and time. Use E.24.PUB when an exact row edition must be made available.
 
 #### F.17:12.2a - *Learning* is an anti-row and split prompt
 
 A DPF or dashboard proposes one public `Learning` row, perhaps with `LearningProgress` as its value. Apply `E.10.LRN` first. Teaching or practice Work, a holder's capability, a fitted model edition, an inference result, acquired information, a representation relation, cultural change, and a course or other product are independently governed values and claims. Performance, capability evidence, information gain, model fit, prediction error, compression, and representation change are likewise different progress coordinates; shared spelling does not make them one governed value, one `SchemeSenseCell`, or an F.9 Bridge.
 
-F.17 therefore creates no umbrella `Learning` or `LearningProgress` row. If one recovered value later needs a durable public designation, apply F.14 and F.18 to that exact value and create at most one row for its admitted use; another recovered value receives another row only under its own gate. When the direct claim is already readable or durable reuse is absent, stop with no UTS row.
+F.17 therefore creates no umbrella `Learning` or `LearningProgress` row. If one recovered value later needs a durable public designation, apply F.14 and F.18 to that exact value and create at most one row for its admitted use; another recovered value receives another row only under its own gate. When the direct claim is already readable or durable reuse is absent, stop with no UTS row. For a question about what a participant can now do, recover the participant’s work and the assistance available for the action in question. To attribute a change in that ability to teaching, establish what would otherwise have happened. Naming practice Work and capability on separate rows supplies neither comparison.
 
 #### F.17:12.3 - Relation and slot names become reusable
 
@@ -1105,7 +1105,7 @@ SenseCell.ModelRefinementLevel.2026-11-18:
 
 For a source that says “level”, “scale” or “layer”, use these model rows when it compares models for one inquiry. Library.Reference:6.2.2 gives the companion F.17 rows for the composition of each kind of holon, functional layers, measurement scales and the scope kinds of USM. A Method stack can be read for both its functional organization and its constituent Methods where both relations are established. To recover the range of a speaker's “all” before choosing a row, use C.39.QR:4.1.1.
 
-The rows cite no F.9 Bridge: they make no correspondence claim between different local meanings. A concrete comparison still needs its models, inquiry, interpretation and B.5.MR test; citing a row supplies the selected name and its meaning.
+The rows cite no F.9 Bridge: they make no correspondence claim between different local meanings. For a refinement claim, compare the models for the same inquiry and interpretation under B.5.MR. When a practitioner must choose a model, start from what its user will decide. Which alternatives must remain distinguishable at the composition scales that decision involves? Use C.39.SA to establish them. The rows supply names for reporting the result.
 
 ### F.17:12.5 - Bias-Annotation
 
@@ -1182,7 +1182,7 @@ Compare the row with the lightweight lexical entry. Hold the term, target, use c
 
 Adding those statements to the lightweight rival closes that gap; a generated readable view of those same statements is an acceptable way to express the F.17 row. A different vocabulary or file format is not, by itself, an improvement or a second naming result.
 
-For an ordinary reader inspecting one term, select the explicit row because the decision and return are visible together. The trade-off is maintaining a truthful reader-facing projection instead of asking that reader to reconstruct it from linked lexical statements. When lexical tooling already produces that projection, keep it and avoid a second editable source.
+For a reader who needs the settled naming decision and its source together, use the explicit row. The trade-off is maintaining a truthful reader-facing projection instead of asking that reader to reconstruct it from linked lexical statements. When lexical tooling already produces that projection, keep it and avoid a second editable source.
 
 When morphology, translation, or machine lexicon exchange is the actual use, the core model and only its needed extensions may be the better carrier. No measured speed advantage, blanket cost superiority, or replacement of OntoLex is claimed.
 

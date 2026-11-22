@@ -6,12 +6,12 @@ section_id: "E.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:4 — Solution"
-line_start: 124307
-line_end: 124828
+line_start: 124403
+line_end: 124924
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -48,7 +48,7 @@ Before dependent uses rely on that unit, the accepted ontic-introduction decisio
 
 `Connected` is an admission condition. The decision names the smallest set of independently defined relations that makes the subject usable across the named dependent uses and states why each relation belongs. When an exact identity assertion selects one identity-bearing direct relation, say so; otherwise do not invent a head relation.
 
-`Action-facing` means that the decision names a dependent use whose outcome changes when that coordination is absent—for example comparison, preservation, teaching, publication, reference, work, or decision use. Topic adjacency and a shared label satisfy neither condition.
+`Action-facing` means that the connection among rules matters to what a practitioner can understand or do. To choose the relation set, work back from that use. Which wholes and constituents enter the question for each relevant kind of holon? What must the model distinguish at those scales? Consider what the individual rules already establish. If they allow situations with different answers, identify the dependency or condition that accounts for the difference. Show how the proposed rules together, with the facts of a particular use, warrant the needed inference. One existing rule can supply it in full. A question about organizing several practices may require only one new distinction, or may be solvable entirely with existing ones.
 
 A kind's independently justified membership rule also supplies no additional ontology unit by itself. When direct rules already close the named uses, record that no additional durable ontic is needed and select direct subject-pattern use, or bounded coordination when several claims must be read together. An empty relation set is not positive evidence of connected coordination, and adding a nearby relation merely to fill the set does not establish a contribution.
 
@@ -126,7 +126,7 @@ When several current pattern descriptions already contain rule content for the s
 
 Gather the evidence in this order. Select the disposition after the first four steps:
 
-1. **Current case and stable decision subject.** State the working expression or source claim, one independently identified pre-judgment candidate entity, proposal episteme, or source-construct entity with its direct identity governor, and the named receiving use. Use that fixed object as the decision episteme's EntityOfConcern. Record source-use status and provenance here when current; they do not settle the ontology disposition.
+1. **Current case and stable decision subject.** Start from what the recipient must understand, decide or do. Identify the working expression or source claim and the independently identifiable candidate entity, proposal episteme or source construct on which this decision bears. State its direct identity rule and keep it as the decision episteme's EntityOfConcern. Record source-use status and provenance when the decision relies on the source.
 2. **Existing-governor reuse and non-duplication.** Name the current direct patterns checked by value. State which current claim they already close, or the exact coordination they fail to supply. Reject a new umbrella when it would merely rename those governed objects or copy their rules.
 3. **Identity, constitution, or recognition.** State the exact rule supplied by the subject pattern and what would reidentify the subject across the receiving use. Do not replace several required facts with an invented universal relation.
 4. **Identity, relations, and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any relation that the subject’s identity rule selects as identity-bearing, the rule for identifying an occurrence of that relation, each declaration reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
@@ -545,7 +545,7 @@ A bounded local episteme is a `U.Episteme` identified under C.2.1, not a new U-k
 
 Select one independently identified EntityOfConcern before writing claims. It may be a world-side entity or individuated occurrence under an exact subject assertion, an admitted collection-as-whole or selected `U.Structure`, or an identified source, expression, or pattern-set architecture object. The selection test is the same: every claim must concern that one object.
 
-If several unrelated subjects remain and no admitted whole or selected structure unifies them, split the claims. A phrase or list cannot stand in for the missing subject.
+When claims concern separately identified subjects, keep the corresponding epistemes distinct unless one admitted whole or selected structure gives them a common subject. A recipient can still reason from several epistemes together. Establish how their claims refer to the relevant participants and conditions, and what follows for the original question. A list of subjects settles a request for that list. An account of their interaction needs the relation on which the conclusion depends.
 
 For that bounded use:
 

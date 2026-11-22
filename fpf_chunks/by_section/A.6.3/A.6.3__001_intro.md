@@ -6,12 +6,12 @@ section_id: "A.6.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__001_intro.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:intro — Intro"
-line_start: 18484
-line_end: 18500
+line_start: 18493
+line_end: 18509
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 
 **Use this when.** You need to derive a smaller, reorganized, or differently expressed body of claims from existing claims while keeping the same thing under discussion. In FPF terms, the source and result are independently identifiable epistemes with the same `EntityOfConcern`. The result may select, reorganize, normalize, translate, or combine claims from the named sources, but it must not add a claim those sources do not support.
 
-**First useful result.** Write one source-to-result statement. For example:
+**First useful result.** If you are constructing Y, state what its recipient must be able to decide, explain or do. Select the claims, qualifications and relationships that can support that use, then express the result about the same subject. If both epistemes already exist and the question concerns their relation, compare them directly. Once there is a result to assess, a source-to-result statement can be as short as the following.
 
 > `Under the declared viewing rule, the claims in result Y are licensed by X together with any additional named sources and admitted facts required by that rule. X and Y are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by those premises.`
 

@@ -6,12 +6,12 @@ section_id: "A.6.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:4 — Solution"
-line_start: 20976
-line_end: 21281
+line_start: 20991
+line_end: 21296
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.6.P:4 - Solution
 
-Begin with the objects named by the claim. Recover actual participants and one direct relation first. Then add only the declaration, assertion detail, occurrence identity, designation, reference, or representation demanded by the later claim or operation.
+Begin with the question about the relation. Recover its participant meanings and what would make the predicate hold. For a particular case, establish the case facts on which the answer depends. An authenticated act can settle acceptance while the individual who acted remains unknown, when every possible signer had the required authority. Then add only the declaration, assertion detail, occurrence identity, designation, reference or representation demanded by the receiving use.
 
 **Local RPR mantra.** *Name the referents. State the direct relation or comparison with its participants and use the pattern that defines it. Add a declaration, occurrence identity, designation or representation only when the receiving claim needs that contribution. For a change claim, identify what changed and apply its continuity rule. Then shorten without hiding the relation or its participants.*
 
@@ -50,11 +50,11 @@ Sections 4.1–4.12 develop the same repair: resolve participants and hidden ari
 
 Start from the claim as written and ground each load-bearing head:
 
-1. Identify the referent intended by each participant expression.
+1. Identify what each participant expression means in this claim. In a proposed rule, identify who or what would qualify, including any authority the relation requires. In a case report, recover whom or what the report concerns.
 2. Recover the participant kind required by the direct predicate. State that classification when it changes interpretation or the receiving use, using its applicable admission rule.
 3. Separate a world-side object from an episteme about it and from a publication or representation of that episteme.
 4. Recover metonymy. The phrase `at the table` may state physical location or participation in a negotiation meeting. Evidence from the current case selects the direct relation; neither reading by itself establishes a local system-role kind or system-role assignment.
-5. Leave the claim unresolved when the current evidence does not select one referent. A more technical synonym is not a repair.
+5. If the available grounds permit different readings, identify the conclusion that depends on choosing between them. A rule can already be clear while the participants in a future case remain to be determined.
 
 The result of this step is an ordinary sentence containing identifiable objects. It is not a newly minted object kind. When several candidates remain live, use the small working note in A.6.P:4.9.
 
@@ -68,7 +68,7 @@ A.6.P begins when the available observations or claims let the engineer name at 
 
 #### A.6.P:4.2 - State the direct relation, participant meanings, and obtaining condition
 
-Write the smallest readable direct-relation sentence that answers the current question:
+Write the smallest readable sentence that answers the question. For a rule, state the participant meanings and the condition connecting them. Keep any authority, scope or timing that determines whose act would count. For an assertion about one case, apply the rule to the established facts. Name an entity whenever its identity is part of the assertion or changes the conclusion. The following form illustrates a positive occurrence claim:
 
 ```text
 <actual participant 1> <direct relation predicate> <actual participant 2> ...
@@ -77,7 +77,7 @@ Write the smallest readable direct-relation sentence that answers the current qu
 Then name the pattern that defines or constrains the direct relation and recover from it:
 
 - the admitted direct relation kind, using an accepted domain relation name; recover its governed `RelationKind` token when the receiving use needs that designation;
-- the relation-participant meanings and actual participants, each retaining its independently governed kind;
+- the relation-participant meanings and the kind of entity admitted under each, together with the entities concerned when the claim is about a case;
 - the condition under which the relation obtains and its semantic predicate is satisfied by those participants considered under the participant meanings;
 - applicability, direction, symmetry, inverse law, polarity, and temporal qualification when they change the predicate;
 - the occurrence-identity rule when settling the relation kind or when the receiving use needs to distinguish, reidentify, refer to, or use an obtaining occurrence;
@@ -93,7 +93,7 @@ Do not select ontology from grammar. A verb-shaped phrase supplies neither const
 
 #### A.6.P:4.3 - Recover actual participants, hidden arity, qualifiers, and typed declaration only when needed
 
-Ask which actual participation belongs to the direct relation's obtaining condition. Add a participant or qualifier only when it changes one of these:
+Ask which participation belongs to the direct relation’s obtaining condition. For a rule, vary who or what could take part while keeping the other conditions fixed. If that changes whether the relation would obtain, recover the distinguishing condition. For a particular occurrence, apply the condition to the entities concerned. Add a participant or qualifier only when it changes one of these:
 
 - predicate satisfaction or relation obtaining;
 - applicability or admissible use;
@@ -150,7 +150,7 @@ Here **receiving use** is Plain shorthand for the later claim or operation that 
 Use progressive elaboration from one recovered direct relation:
 
 ```text
-readable direct-relation sentence with actual participants
+readable statement of the relation and its participant meanings (with the entities concerned for a case claim)
   +-- compatible RelationSignature and SlotSpecs, when reusable typed declaration is current
   +-- explicit occurrence individuation, when a named receiver needs occurrence identity
       +-- occurrence-description episteme or stable designation, only when that receiver needs it
@@ -252,7 +252,7 @@ Ordinary authoring, checking or publication can be described directly. If the ac
 
 After the relation has been recovered, Plain wording may be shorter than the Tech explanation. The shorter wording remains usable when a reader can still recover the participants, direct relation, the pattern that defines its participant and obtaining rules, every qualification that changes the declared use, and the point at which reusable declaration, occurrence identity, assertion detail, or representation becomes necessary.
 
-Stop using A.6.P when the direct relation and participants are selected. The selected direct pattern defines or constrains that relation. Apply the relevant pattern separately to any remaining assertion, occurrence-identity, evidence, work, Bridge, description, publication, designation, or representation question.
+Stop using A.6.P when the direct relation and the participant meanings needed for the question are clear. For an occurrence claim, establish enough about the participants to support that predicate for the case. A request for their names requires their identities. The selected direct pattern defines or constrains that relation. Apply the relevant pattern separately to any remaining assertion, occurrence-identity, evidence, work, Bridge, description, publication, designation, or representation question.
 
 When generic relation recovery identifies one current claim at a method, intended-work, actual-work, production, evaluation, delivery, acceptance, transfer, or receiving-use boundary, apply `A.6.P.WMR`. Its application records exactly one of four result families:
 

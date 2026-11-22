@@ -6,12 +6,12 @@ section_id: "E.2.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:4 — Solution"
-line_start: 98067
-line_end: 98204
+line_start: 98118
+line_end: 98255
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -77,7 +77,7 @@ FPFPillarAdequacyEvaluation:
 | 2 | `partiallyExpressedForDeclaredUse` | The Pillar is present but incomplete, fragile, or too local. |
 | 3 | `sufficientlyExpressedForDeclaredUse` | The Pillar is realized enough for the declared use, with known limits visible. |
 | 4 | `wellExpressedForDeclaredUse` | The Pillar is clear across relevant loci and protected from common loss. |
-| 5 | `exceptionallyExpressedForDeclaredUse` | The Pillar is exceptionally realized with reinforcing loci, heterogeneous cases, and no hidden FPF-level loss. |
+| 5 | `exceptionallyExpressedForDeclaredUse` | The grounds establish the exceptional realization claimed for this use, including the connections on which the use depends. State what distinguishes this result from 4 and which change in conditions would overturn it. |
 
 The values are ordinal content evaluations. They are not an aggregate scalar score, maturity ladder, release gate, or proof that development ends.
 
@@ -92,14 +92,14 @@ The values are ordinal content evaluations. They are not an aggregate scalar sco
 | `P5FPFLayeringAdequacy` | Do modular pattern layering and neighbour authority stay intact? | Patterns can be added, replaced, or removed without shadow authority. |
 | `P6LexicalStratificationAdequacy` | Are Plain, Tech, Formal, and mathematical registers recoverable for the declared use? | Decision-governing wording maps to fields named by value, kinds, lenses, or neighbours. |
 | `P7PragmaticUtilityAdequacy` | Do proofs, measures, models, and reviews supply a useful result for the declared work? | The object supports an explanation, prediction, judgement, decision, diagnosis, design, repair, stop, or assignment on relevant grounds. |
-| `P8CrossScaleConsistencyAdequacy` | Do composition, aggregation, boundary, emergence, and method-side relation structures stay consistent across scales? | Cross-scale claims name preserved structure, lost structure, lens or algebraic representation, and boundary. |
+| `P8CrossScaleConsistencyAdequacy` | Which kinds of whole and constituent matter to this use, and what warrants a conclusion within or between their composition scales? | Follow the relevant relations for each kind. For a conclusion about combined contributions, establish their joint conditions. Use a lens or algebraic representation when the inference depends on it. |
 | `P9StateExplicitnessAdequacy` | Are the states, transitions, currentness, editions and qualification windows that affect the declared use explicit? | Readers can identify the usable version and state, the conditions that change them, and relevant transition cost and risk. |
 | `P10OpenEndedEvolutionAdequacy` | Can justified improvement, revision, replacement or branching continue at acceptable cost and risk, while retention, stopping and retirement remain available? | The selected continuation or stop has a practical reason and a reopen condition; a completed Work occurrence is distinguished from a later Method, object version or Work. |
-| `P11SoTAAlignmentAdequacy` | Does the object use current knowledge to justify and, where needed, revise its claims and choices? | Current sources change moves, boundaries, examples, checks, or stop rules. |
+| `P11SoTAAlignmentAdequacy` | Does the object use current knowledge to justify and, where needed, revise its claims and choices? | The source supports, qualifies or changes a consequential claim, choice or boundary. It may justify retaining a practice already in use. |
 
 #### E.2.DA:4.5 - Evidence and coordinate separation
 
-One evidence locus may support several coordinates, but the rationale must say what property it supports in each coordinate. The following distinctions carry most repairs:
+Follow the practitioner’s work from its ordinary entry to the decision or explanation that uses the result. Establish what each contribution supplies and whether the receiving work can use it directly or with a warranted transfer to its own conditions. One argument can cover the declared range. If a permitted difference could change the conclusion, examine it or bound its effect. A single source can support several coordinates when the grounds for each value are clear. The following distinctions carry most repairs:
 
 | Distinction | Use |
 |---|---|

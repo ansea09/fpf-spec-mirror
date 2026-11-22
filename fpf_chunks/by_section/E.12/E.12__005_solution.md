@@ -6,12 +6,12 @@ section_id: "E.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:4 — Solution"
-line_start: 112195
-line_end: 112262
+line_start: 112261
+line_end: 112328
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -55,24 +55,24 @@ Name the decision the assurance makes possible. To claim that the work now takes
 
 #### E.12:4.3 - Mechanism 2: The Human-Factor Loop (HF-Loop)
 
-Use this bounded inquiry when an intended reader encounters a specific consequential obstruction in a named passage or workflow under its stated prerequisites, or when a concrete work demand may cost more than it contributes to the receiving value. A workload report can identify a concern; it does not diagnose its cause or establish a psychometric threshold.
+Use this inquiry when the working result gives reason to examine what a passage or workflow asks of its intended reader. Difficulty can be visible as delay, an unsuccessful attempt, excessive work or a fluent answer to a different question. A workload report or a smooth performance can justify looking closer. Establish what the reader was actually doing before attributing a cause.
 
-1. **Recover the working question.** Name the reader's task, passage or workflow, stated preparation/access prerequisites, failed or costly action, and the result it should support.
+1. **Recover the working question.** Read the recipient's commission beside the task they actually received. Identify who had to decide or explain what, which objects and conditions mattered, and which choices the instructions or ordinary help already supplied. Follow the difference to its consequence for the intended work.
 
    Preserve the relevant assurance and control conditions. If the suspected demand cannot change a worthwhile result, C.11.DUA can justify stopping the inquiry at that limit.
-2. **Inspect the initial attempt before explaining.** For an actual reading inquiry, retain what the reader initially understood and tried with the public passage and stated task inputs, including where the action stopped or went wrong.
+2. **Inspect the initial attempt before explaining.** Retain what the reader understood and did with the published passage, task inputs and ordinary permitted support. Include a successful answer to a different task when it helps locate the change of question.
 
    Distinguish an implicit condition, a missing stated prerequisite and an unavoidable subject question.
 
    Choose the inquirer for this question; profession, competence, assignment and amendment authority remain distinct.
-3. **Compare a meaning-preserving alternative.** Make an implicit condition explicit, reduce an unnecessary demand or change the expression only where the suspected obstruction warrants that comparison.
+3. **Compare an alternative for the original use.** Make a condition explicit, remove an unnecessary demand or restore the decision the reader was commissioned to make. Distinguish a change to the wording or help from a change to the work assigned.
 
-   Hold task, prerequisites and assurance constant. Check the full connected passage under F.19; a shorter text that removes a needed condition has not preserved the method.
+   Keep the commissioned task, ordinary prerequisites and assurance requirements constant when comparing expressions. If the previous assignment asked for a different result, record that difference and judge the repaired assignment against the original commission. Use F.19 on the connected passage.
 
    Evaluate the attainable inquiry's burden under C.11.DUA.
 4. **Qualify the evidence.** An expert walkthrough judges recovery from the public text; it is not an observed reader response.
 
-   Preserve an actual reader's unassisted first attempt. A repeat after explanation is assisted and familiar, not another independent first reading or proof of reduced workload.
+   Preserve the first attempt and the support available to the reader at the time. Unaided recognition requires an unaided first attempt. In a practice with ordinary help, observe what the reader can do with that help. A repeat after the reviewer's explanation shows performance under the changed conditions.
 
    Psychometric or causal conclusions require their own selected domain methods and data.
 5. **Stop with the supported result.** Return a justified wording/content repair, no change, or the exact evidence limit and any worthwhile next question.

@@ -6,12 +6,12 @@ section_id: "C.35:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:1 — Problem frame"
-line_start: 85361
-line_end: 85477
+line_start: 85401
+line_end: 85517
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -156,7 +156,7 @@ Include the Method reference when the receiving claim depends on that Method. `g
 
 An entry in `obtainingStructureRefs` resolves to an A.22 `U.Structure` with independently identified constituents, obtaining relation occurrences, applied constraints and a named use frame. An incomplete basis for a claim about existing organization leaves that claim unestablished.
 
-A proposal remains modal until its proposed organization obtains; supply `modalArchitectureClaimRef` when that claim must be independently reidentified. A result, representation, publication item, graph, cluster or description supplies only the structural facts it establishes.
+A proposal records a possible or intended organization. To say that this organization now obtains, identify the arrangement actually in use and the grounds for the claim. Supply `modalArchitectureClaimRef` when the proposed arrangement must be independently reidentified. A result, representation, publication item, graph, cluster or description supplies only the structural facts it establishes.
 
 **Adoption test.** After using C.35, another practitioner can state the four-line minimum or an equivalent sentence: the result, the organization concerned and whether the claim about it is established, refuted or unestablished, or presents a proposal, the supported next use and any unresolved condition, material limitation or required return. That practitioner can also distinguish claim content, an obtaining A.22 structure, its representation, and a publication-side object when those distinctions affect use. Additional identity, branch, Work, bearer, publication, evaluation, or next-claim detail appears only when the receiving use relies on it.
 

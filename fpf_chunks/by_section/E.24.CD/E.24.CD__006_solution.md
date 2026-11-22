@@ -6,12 +6,12 @@ section_id: "E.24.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:4 — Solution"
-line_start: 125078
-line_end: 125152
+line_start: 125175
+line_end: 125249
 dependencies:
   - "A.1"
   - "A.14"
@@ -62,11 +62,11 @@ Ask these four questions in order:
 1. **What must the next person do or decide?** Name the comparison, classification, publication, repair, decision, or other practical use.
 2. **What is that use about?** Name the subject, claim, or source expression without treating its card, row, filename, diagram, or field bundle as the answer.
 3. **Which current pattern already governs the needed claim?** Name the predicate or judgment that would let the work proceed.
-4. **If that pattern does not close the case, what is missing?** State one applicable pattern or one precise unresolved stop below.
+4. **What follows for the original work?** If the claim supplies the answer, give it. If it supplies one premise, establish what connects it to the other premises the recipient needs. A remaining gap can concern how the parts interact, which cases a model must distinguish, or an ordinary matter of fact. Select the disposition in §4.1 for the claim that is open.
 
 #### E.24.CD:4.1 - Apply the first disposition that fits the case
 
-Plain `situation`, `incident`, `current configuration`, `operating <system>`, and `emergency` are recognition cues, not kind names. Recover only the subjects, claims, and relations that the receiving work needs.
+Choose the first disposition that settles the claim you are considering. Several rows may supply different premises about the same undertaking. When the question depends on those premises together, establish how they fit and whether they suffice. The terms `situation`, `incident`, `current configuration`, `operating <system>`, and `emergency` are recognition cues, not kind names. Recover only the subjects, claims, and relations that the receiving work needs.
 
 | Current need | Next use | Stop that follows |
 | --- | --- | --- |
@@ -116,7 +116,7 @@ When the subject pattern clearly closes the case, stop there. Repeated words, se
 
 #### E.24.CD:4.4 - State one result and stop
 
-Most cases need only one sentence:
+A disposition for one claim can be reported in one sentence. If the person asked only which pattern governs it, naming the pattern and the decisive fact is sufficient. For a question about a practice, return what applying that pattern establishes for the practice, including a connection still to be made when the local result supplies one premise.
 
 > For `<work or decision>`, apply `<subject pattern>` to `<exact subject or claim>` because `<decisive fact>`; next, `<action or stop>`.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
-line_start: 95980
-line_end: 96154
+line_start: 96027
+line_end: 96201
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -210,7 +210,7 @@ If technique names a way of doing work, use `A.3.1 U.Method`. If it names a trai
 
 #### C.36.P:5.4 - "The Scene Became A New Level"
 
-If a music or dance source says a scene, platform circulation, or canon “became a new level”, first recover the claim. Use C.36 for a changed recognition regime, C.18 for an archive relation, G.5 for a selected-set result declaration, G.11 for refresh, and F.17, F.18, or F.9 for term and bridge work. A whole-reidentification or MHT claim uses B.2.P and then B.2 or its System or episteme specialization when current. A feedback-down claim uses B.2.5. A frustration or residual claim uses C.30.ILC for an architecture residual, C.29 for a mathematical lens, and D.3 or D.4 for ethical level conflict or mediation.
+If a music or dance source says a scene, platform circulation, or canon “became a new level”, first recover the claim. Have participants become constituents of a new performing collective, has circulation reached more of the existing groups, or does a model retain fewer distinctions for the same question? Identify the actual composition, coverage or model change and the evidence for it. Wider circulation can itself be the whole claim. Use C.36 for a changed recognition regime, C.18 for an archive relation, G.5 for a selected-set result declaration, G.11 for refresh, and F.17, F.18, or F.9 for term and bridge work. A whole-reidentification or MHT claim uses B.2.P and then B.2 or its System or episteme specialization when current. A feedback-down claim uses B.2.5. A frustration or residual claim uses C.30.ILC for an architecture residual, C.29 for a mathematical lens, and D.3 or D.4 for ethical level conflict or mediation.
 
 ### C.36.P:6 - Boundaries
 

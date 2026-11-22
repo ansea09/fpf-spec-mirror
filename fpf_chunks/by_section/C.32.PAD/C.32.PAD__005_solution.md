@@ -6,12 +6,12 @@ section_id: "C.32.PAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:4 — Solution"
-line_start: 84179
-line_end: 84285
+line_start: 84217
+line_end: 84323
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -151,7 +151,7 @@ ArchitectureDecisionRelation@OrderFlow:
   status: acceptedForDeveloperWork
 ```
 
-For this decision a developer may add optional detail while preserving every order form the approved contract accepts. A newly required field can exclude a previously valid order even if the boundary, service name and version label stay the same. Check that ordinary and exception orders still have a feasible route through the new schema. If the field changes a fixed commitment, return that change to its owner. Inspecting a deployment can establish the schema in use. To establish that it made service replacement easier, identify the replacement work and a supported comparison with the previous arrangement. The schema could already have been present before adoption.
+For this decision a developer may add optional detail while preserving every order form the approved contract accepts. A newly required field can exclude a previously valid order even if the boundary, service name and version label stay the same. Check that ordinary and exception orders still have a feasible route through the new schema. When teams may choose their schemas independently, establish compatibility for the combinations permitted by those choices or provide an authorized way to coordinate them in time. A commission for one agreed pair can be met by establishing the compatibility of that pair. If the field changes a fixed commitment, return that change to its owner. Inspecting a deployment can establish the schema in use. To establish that it made service replacement easier, identify the replacement work and a supported comparison with the previous arrangement. The schema could already have been present before adoption.
 
 When a filled field changes, repair the smallest declaration or claim record that carries the changed content:
 

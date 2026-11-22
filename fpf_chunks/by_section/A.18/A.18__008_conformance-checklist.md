@@ -6,12 +6,12 @@ section_id: "A.18:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:7 — Conformance Checklist"
-line_start: 36085
-line_end: 36105
+line_start: 36117
+line_end: 36137
 dependencies:
   - "A.17"
   - "A.19"
@@ -49,7 +49,7 @@ When defining a new metric template or using measurements, practitioners **SHALL
 
 5.  **No bare numbers:** Never present a raw number or value without its context of Characteristic and Scale. A reader seeing “42” should be able to recover “42 of what, measured how,” even without knowing the metric’s template. Label reports and data with the metric name or identifier so values can be traced back to their meaning.
 
-6. **Cross-template operations:** For a conversion, recover the relation between compatible Scales, including units. For a quantity calculation, recover the model and its conditions under C.16. For an evaluative comparison or combination, state the ScoringMethod, its preference under A.17-R7 and its Score Scale and output range, including any required bounds. For example, converting 0.5 minutes to 30 seconds preserves duration; combining cost and reliability into a score needs an evaluation rule.
+6. **Cross-template operations.** For a conversion, establish the relation between compatible Scales and units. For a quantity calculation, identify the model and its conditions under C.16. For a descriptive comparison, apply the rules of the Scales and establish comparability. For an evaluative comparison, state how the recipient prefers one outcome to another. Include preferences on individual Scales when the comparison uses them. A preference over combinations can depend on how their values fit together. If a combined Score is required, identify the ScoringMethod, its preference under A.17-R7, its Score Scale and output range, with bounds where required.
 
 7. **Level optionality:** Use named Levels when they help express the selected Scale's discrete values or non-overlapping categories. Define the categories and their boundaries; leave Level unused for an uncategorized continuous measurement.
 8. **Comparability test:** For a magnitude comparison, use the same Characteristic and Scale, with compatible measurement conditions under C.16. A declared conversion can establish that common basis. A preference judgement additionally uses its declared preference; changing that preference alone does not change the measurement Scale.

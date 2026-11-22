@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CN.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
-line_start: 37982
-line_end: 38419
+line_start: 38014
+line_end: 38451
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -229,7 +229,7 @@ A comparison depends on the meaning and basis of its values. Keeping that basis 
 * `normalization`: affine rescale on gray‑level calibration → invariant = physical porosity
 * `comparability`: **normalization‑based (UNM)** (calibration tables applied)
 * `aggregation`: a minimum bound only for a declared bottleneck quality model; commutative count addition only for disjoint contributions; time = per-shift histograms
-* **RSG hook**: `WelderRole.Ready` requires *Porosity ≤ 500 ppm* & *BeadWidth within ±0.2 mm* admitted by this CN‑frame.
+* **RSG hook.** This frame makes the bead-width and porosity readings comparable for the seam in question. To evaluate `WelderRole.Ready`, recover the actual holder, the assigned role, its readiness rule and which welds that rule admits as evidence for this decision. If an identified operator made this seam under the required conditions and the rule accepts that single demonstration at 6.0 ± 0.2 mm and at most 500 ppm, its compliant readings satisfy that condition. If the order concerns several operating conditions, establish the coverage the rule requires.
 
 #### A.19.CN:8.2 - **Software/SRE line** — *Latency CN‑frame* (`SRE_Prod_Cluster_EU_2026`)
 
@@ -239,7 +239,7 @@ A comparison depends on the meaning and basis of its values. Keeping that basis 
 * `normalization`: monotone time‑warp compensation for collector skew; invariant = percentile order
 * `comparability`: **normalization‑based (UNM)** with declared normalization
 * `aggregation`: use a max-of-mins latency fold only when the declared service model justifies it; a WLNK bound needs its own bottleneck model. Neither follows from latency percentiles alone.
-* **RSG hook**: `DeployerRole.Active` gated if **P99** < declared SLO over the admission window.
+* **RSG hook.** The client-side P99 reading can settle the named service-level condition over its admission window. Apply it to `DeployerRole.Active` only through the applicable role-state rule, for the holder and the service it covers. Establish that the particular assignment is in force at the relevant time and that its state predicate holds. The rule determines any further conditions for the transition.
 
 #### A.19.CN:8.3 - **Clinical/episteme line** — *Trial‑outcome CN‑frame* (`Cardio_2026`)
 

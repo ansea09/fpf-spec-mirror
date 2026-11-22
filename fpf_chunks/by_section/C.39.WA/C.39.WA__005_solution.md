@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87843
-line_end: 87988
+line_start: 87889
+line_end: 88034
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -82,7 +82,7 @@ For an action, name the reusable way and what it must obtain or preserve under t
 
 For a move from one claim or subject to another, name the relation on which the inference relies, the kinds of its participants, what fills each relevant role here, and the direction of the inference. A multi-party relation can require more than two participants. If a boundary matters, identify what crosses it, between which places or organizations, and in which direction. Translating a record can leave the instrument it describes in the same laboratory. Use A.6.5 when declaring positions in a reusable relation signature. The following relations support different moves.
 
-Distinguish a rule that recurs at each eligible scale, a dependency between scales and an outcome of their interaction. If a resource is available for four hours and three are already committed, at most one hour is free for additional work that needs exclusive time in the same window. A second order can still be fulfilled by the shared work itself when its result serves both recipients. The method used by that team determines what it can do in the hour. For a statement about Work already done, establish which performances occurred. For a claim assembled from reports, check which premises they support and whether they rely on the same observation.
+For a rule said to recur across composition scales, give grounds covering the eligible wholes and constituents. For a dependency between scales, identify the property that carries, its direction and the relation that licenses the inference. For a joint outcome, trace how the constituents are organized and which combinations can realize it. For example, consider the work that fulfils two orders in one service window. If a resource is available for four hours and three are already committed, at most one hour is free for additional work that needs exclusive time in the same window. A second order can still be fulfilled by the shared work itself when its result serves both recipients. The method used by that team determines what it can do in the hour. For a statement about Work already done, establish which performances occurred. For a claim assembled from reports, check which premises they support and whether they rely on the same observation.
 
 | Transition | What must be recovered |
 | --- | --- |

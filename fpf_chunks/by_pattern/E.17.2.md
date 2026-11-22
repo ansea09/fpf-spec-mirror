@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.2.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
-line_start: 114558
-line_end: 114943
+line_start: 114630
+line_end: 115017
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -38,15 +38,15 @@ keywords:
 
 **What this buys.** TEVB supplies a four-position authoring template. Once a project has constituted its own catalogue L and bound four local references to four viewpoint epistemes, that project can reuse the resulting local family while keeping candidate episteme, described holon, conformance, cross-view relations, and publication separate. One use may select just one bound member.
 
-**First action.** Resolve the already admitted project-local catalogue edition L and the local declaration designated by `f_eng`, then resolve only the `U.ViewpointRef` needed for the present question. If L or the declaration is new, missing, or disputed, use E.17.1:4.2 to constitute or verify `<G_L, K_L, R_L>` for that edition. If a needed P edition is missing, author and admit it under E.17.0 before binding its reference.
+**First action.** Resolve the already admitted project-local catalogue edition L and the local declaration designated by `f_eng`, then use the engineering question to choose which member references to resolve (§4.3). If L or the declaration is new, missing, or disputed, use E.17.1:4.2 to constitute or verify `<G_L, K_L, R_L>` for that edition. If a needed P edition is missing, author and admit it under E.17.0 before binding its reference.
 
 Reuse those results while the catalogue edition, effective scheme, declaration, and relied-on premises remain unchanged.
 
-**First useful result.** A materialized local family has one project-local L, ordinary family designator `f_eng`, four local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module`, and four local P targets to which those references resolve under `R_L`. For a later use, the result consists of the admitted L and declaration, one needed reference resolving one P, and a readable E/P conformance judgment.
+**First useful result.** A materialized local family has one project-local L, ordinary family designator `f_eng`, four local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module`, and four local P targets to which those references resolve under `R_L`. For recognition of one view, the result is the admitted L and declaration, the reference resolving P, and the E/P conformance judgment. When the question concerns the engineering work itself, use the claims of the relevant views to answer it.
 
 Before the four bindings exist, the result is only an authoring template, not a reusable family value.
 
-**Ordinary stop.** For materialization, stop when the local catalogue triple, declaration claim block, four reference bindings, and four P targets are recoverable. For later use, stop after resolving the admitted L and declaration, the one needed P, and its E/P judgment. Reopen full catalogue constitution only under the E.17.1:4.2 triggers.
+**Ordinary stop.** For materialization, stop when the local catalogue triple, declaration claim block, four reference bindings, and four P targets are recoverable. For recognition under one specified viewpoint, stop at its E/P judgment. For an engineering question, stop when the claims and any relations the answer depends on warrant that answer. Reopen full catalogue constitution only under the E.17.1:4.2 triggers.
 
 Add another member, structured viewpoint-authoring witness, C.13/A.22 organization, construction history, cross-view relation, evaluation, or publication object only when a named receiving use depends on it.
 
@@ -201,6 +201,8 @@ The dependency relation in this table is `ViewpointConventionDependencyRelation`
 When an A.22 selection judgment needs an explicit claim that one obtaining dependency occurrence is admissible for that use, identify the separate decision-use episteme described by E.17.0. Do not insert that decision, its evidence, or its evaluation result into the dependency relation or S identity.
 
 #### E.17.2:4.3 - Keep the four concern conventions distinct
+
+Choose among these concerns from the engineering question. Which difference in the holon, its use or its parts could change the answer? For example, a plant-wide flow bound during a pump change can establish a minimum total flow. If each outlet has a separate minimum, the same total can hide a loss at one outlet. Trace which paths serve which outlets during the change. Where supply depends on switching order, relate the operations of the switching Method to the equipment available at each stage. A claim that yesterday’s crew actually switched in that order draws on its work. A single view can already carry all the grounds for the particular answer.
 
 **Functional.** A conforming candidate episteme foregrounds transformations, capabilities, effects, functional elements, or transformation-flow relations of its holon. It does not identify a module structure by functional vocabulary and does not mint `U.Function`. Any neighboring responsibility claim keeps the admitted System, local system-role kind, current C.3.2 classification judgment, assignment, kind-relation structure, capability, transformation, and direct responsibility relation separate. Use A.2, C.3.2, A.2.1, A.2.7, or the direct responsibility pattern for the claim made.
 
@@ -410,7 +412,7 @@ Responsibility/allocation is retained because it changes the practical question 
 11. Every cross-view relation names its predicate, participants, obtaining test, and applicable pattern; a diagram edge, correspondence label, citation, shared holon, or common template is insufficient.
 12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, mathematical representation under C.29, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.
 13. Cross-project reuse is claimed only for the same resolved L, declaration, and member references. Equal TEVB position labels or independently filled templates establish no shared family.
-14. Later ordinary reuse resolves the admitted L and declaration, then one needed P, and stops after the readable conformance judgment unless a named receiving work needs more structure. It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
+14. Later reuse for recognition under one viewpoint stops after the readable conformance judgment. An engineering answer must be supported by the claims in the selected views and any cross-view relation on which it relies (§§4.3, 4.6). It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
 
 ### E.17.2:End
 

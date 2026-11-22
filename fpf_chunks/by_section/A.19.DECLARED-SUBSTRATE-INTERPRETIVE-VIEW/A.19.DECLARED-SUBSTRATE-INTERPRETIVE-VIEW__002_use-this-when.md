@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0 — Use this when"
-line_start: 37569
-line_end: 37614
+line_start: 37601
+line_end: 37646
 dependencies:
   - "A.0"
   - "A.19"
@@ -40,7 +40,7 @@ keywords:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0 - Use this when
 
-Use this pattern when one already-declared substrate from `A.19.SOURCE-SET-SPACE-SUBSTRATE` is already in force, and the current passage either cites that substrate directly or works through one declared source-set entry point or set-result entry point that keeps the substrate recoverable, but the reader still needs one interpretive view to see how the line should be read in practice.
+Use this pattern when a reader needs to draw a conclusion from an already declared source set and its relation to outcomes. Begin with the question they want the view to answer. Identify which members, distinctions and connections must be visible for that purpose. They can inspect the substrate directly or use a view over a named source set or set result that keeps it recoverable.
 
 Typical indicators are:
 

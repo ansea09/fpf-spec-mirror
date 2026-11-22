@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__008_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:4 — Solution"
-line_start: 37225
-line_end: 37406
+line_start: 37257
+line_end: 37438
 dependencies:
   - "A.0"
   - "A.15.7"
@@ -139,7 +139,7 @@ Use one of these ordinary profiles:
 When declaring one substrate-bearing line, proceed in this order:
 
 0. **Entry test.** Confirm that the line needs source-set plus search/outcome-space plus relation/posture discipline. If it only needs `CharacteristicSpace` typing, use `A.19`. If it only needs publication or policy, apply the governing pattern that carries that publication or policy question.
-1. **Recover the source basis.** For one immediate source set, state its family and recover its identity. For a composition, use `SourceSetComposition` to identify every contributing set, its family and how its members contribute; designate a primary source only when the receiving use singles one out. Add `SourceSetRef` or cite a source when needed to make an identity unique.
+1. **Choose or recover the source basis.** Derive the eligible members and necessary coverage from the question. If the work prescribes an archive, use its identity and membership for the stated edition. If several sets contribute, use `SourceSetComposition` to identify them, their families and how their members contribute, including overlaps where they alter the answer. Designate a primary source when the receiving use singles one out. Add `SourceSetRef` or a citation where needed to fix the identity.
 2. **Recover the space refs.** Point `SearchSpaceRef` and `OutcomeSpaceRef` to already-declared `CharacteristicSpace`.
 3. **Choose the ref-to-ref relation kind.** Declare `sameDeclaredSpaceAs` when both references resolve to the same A.19 space by value, and `distinctDeclaredSpaceFrom` when their defining contents establish distinct values. If that identity question is unresolved, retain the uncertainty rather than inferring difference from two declarations.
 4. **State the source-to-outcome relation.** Give direction, mode, and carrier. If one named `OutcomeMapRef` or another declared interpretive qualifier carries the relation, cite that qualifier. Otherwise state the relation definition or supplying operation in prose.

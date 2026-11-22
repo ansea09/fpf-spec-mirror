@@ -6,12 +6,12 @@ section_id: "E.17.AUD:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__011_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:10 — Conformance Checklist"
-line_start: 117165
-line_end: 117183
+line_start: 117243
+line_end: 117261
 dependencies:
   - "A.16.0"
   - "A.7"
@@ -36,7 +36,7 @@ keywords:
 1. **CC-AUD-1 — One publication unit under review is explicit.**
    The case names one note, memo, sheet, table, screen, or short section as the unit under review. Its presentation-form label alone does not identify that unit.
 2. **CC-AUD-2 - Primary subject and carried publication move are explicit enough to identify the applicable pattern.**
-   The case keeps visible the unit’s primary subject and the publication move it makes about that subject.
+   The case identifies what the unit does for the reader’s question. When a passage turns to a constituent, another model or a worked example, the connection back to that question remains recoverable. A local move can supply one premise, settle the whole question or leave a gap.
 3. **CC-AUD-3 — Outside-work boundary is explicit.**
    The case states what downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside the publication unit under review, including neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation when that distinction matters.
 4. **CC-AUD-4 — The active repair choice is named.**

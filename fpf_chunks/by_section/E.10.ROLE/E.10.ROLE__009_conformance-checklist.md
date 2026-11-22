@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:7 — Conformance Checklist"
-line_start: 108785
-line_end: 108797
+line_start: 108849
+line_end: 108861
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -44,5 +44,5 @@ keywords:
 7. Are functioning, capability, Work, deontics, access, authority, responsibility, evidence use, and results kept under their direct relations?
 8. Does ordinary prose stay ordinary when no technical distinction changes the receiving claim?
 9. Does the repair add a qualifier only for a live alternative and avoid a fixed formal expansion?
-10. For each recovered claim, does the repair stop after one exact object or relation and its applicable rule are selected?
+10. Does the reader have the particular object or relation and its rule for each claim, and the grounds for connecting them when the assignment calls for that conclusion?
 

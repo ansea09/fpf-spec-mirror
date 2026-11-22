@@ -6,12 +6,12 @@ section_id: "F.12:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__005_core-idea-didactic.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:4 — Core idea (didactic)"
-line_start: 131308
-line_end: 131329
+line_start: 131425
+line_end: 131446
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,7 +54,7 @@ For an ordinary evaluation, the delivery facts, adequate observations, acceptanc
 1. the exact **`U.PromiseContent` claim** being evaluated;
 2. the actual **Work occurrence or defined Work population** whose delivery is in question;
 3. the promised outcome or characteristic and its scope;
-4. the relevant **observations and measured values**, including scale and unit;
+4. the **evidence** bearing on that outcome, including scale and unit for the measured values used;
 5. the explicit **window** and population boundary;
 6. the evaluation Method and, when its performance history is claimed or consumed, the independently admitted dated evaluation Work that enacts it;
 7. the selected evaluation inputs, applied rule and result; recover the exact A.6.1 application and result binding when that identity is claimed or required by the governing rule;
@@ -67,5 +67,5 @@ When the receiving decision concerns acceptance of a commissioned result, ask wh
 
 A plain summary may say **met**, **not met**, or **cannot judge** while distinguishing the result on its declared scale, the standing of the evidence and the status of the requirement.
 
-A SchemeSenseCell addresses a local meaning; the evaluation still concerns the exact promise, Work, observations, values, result and status-use relation. A comparison table may display the argument; display alone does not establish those claims.
+A SchemeSenseCell addresses a local meaning. The evaluation concerns what was promised and delivered, the supporting evidence, the conclusion the rule permits and any status that depends on it. A comparison table can display that argument.
 

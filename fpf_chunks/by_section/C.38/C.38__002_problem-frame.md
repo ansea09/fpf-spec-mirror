@@ -6,12 +6,12 @@ section_id: "C.38:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:1 — Problem frame"
-line_start: 87034
-line_end: 87058
+line_start: 87076
+line_end: 87100
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -37,7 +37,7 @@ keywords:
 
 **Reader.** The practitioner preparing decision-ready alternatives for one receiver. The pattern forms candidates; it neither chooses for the receiver nor realizes a retained way.
 
-**First useful result.** A finite same-result comparison containing at least two materially different complete-enough possible-future ways, one shared parity basis, explicit supported/proposed/unknown premises and gaps, and the next handoff. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name any first unsupported realization branch; if none remains, use the direct realization Method.
+**First useful result.** A comparison establishes what the proposed ways can supply against the same receiving terms, which differences are material, and which premises remain open. Two labels can describe the same way. If only one or none of the named ways meets the terms, that finding can complete their appraisal. An order to construct additional ways stays open until supplied or their impossibility within the permitted range is established. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name any first unsupported realization branch; if none remains, use the direct realization Method.
 
 **What changes in practice.** Instead of comparing *buy* against *AI* or *internal* as if the labels were peer kinds, the practitioner asks how each whole way could make the same accepted result available. Duplicate labels merge, materially different ways under one label split, and omitted integration, evidence, support, capability, custody, resource, consequence, and exit burdens become visible before commitment.
 

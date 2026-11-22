@@ -6,12 +6,12 @@ section_id: "A.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:4 — Solution"
-line_start: 3231
-line_end: 3484
+line_start: 3219
+line_end: 3472
 dependencies:
   - "A.1"
   - "A.14"
@@ -283,7 +283,7 @@ A diagram, prose account, or interactive representation may show the structure o
 
 #### A.1.1:4.7 - Preserve the lightweight path
 
-When one direct claim answers the task, name its participant, semantic-locality value, system-role-assignment occurrence, or direct relation occurrence under the subject pattern and stop.
+When one direct claim answers the task, state the participant, semantic-locality value, assignment or relation it concerns and the grounds for the answer. For example, a comparison under the required scheme can show that the fixed code omits a distinction required by the fixed model. That result rules out a structure requiring coherence of this pair even if the operating-use history is incomplete. If the comparison itself cannot be interpreted, report coherence as unresolved. Apply the receiving release rule to that result.
 
 Select and expose `BoundedModelUseStructure` only when the joint organization of independently governed model applicability, actual model use, fixed-content model-expression coherence, exact applied constraint claims, and the named frame changes the next engineering move. Keep each claim scope solely in its applicability occurrence unless a distinct applied constraint proposition refers to it.
 

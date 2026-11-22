@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.RSA.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
-line_start: 79275
-line_end: 79705
+line_start: 79309
+line_end: 79739
 dependencies:
   - "A.10"
   - "A.19"
@@ -120,7 +120,7 @@ C.31.RSA governs reusable-structure accounting over declared structures and stru
 
 #### C.31.RSA:4.0 - Recover reuse and residue from instances
 
-Start with the decision. To establish past use, trace what an identified delivery took from the shared design, procedure, evidence or physical article. Name what was carried over and which changes the delivery team made. Two independently made products can both fit the same specification. That can establish conformity even when the origin of one product is unknown. To identify the design choices a person or team made, compare the instructions, designs, parameter settings and help available with the choices made during the work. A worker can produce the correct adapter from a supplier's drawing or choose and justify its geometry independently. A cutting or assembly record can establish execution in either case. Credit design of the part when the record or the person's account establishes which choices that person or team made and why. Work completed before one particular template arrived rules out the use of that template but can still have followed another drawing. To commission a further design, compare the choices it requires and the help that will be available with those the person actually made under comparable conditions. One independently designed flange can support a further flange assignment while leaving design of an entire adapter open.
+Start with the decision. To establish past use, trace what an identified delivery took from the shared design, procedure, evidence or physical article. Name what was carried over and which changes the delivery team made. Two independently made products can both fit the same specification. That can establish conformity even when the origin of one product is unknown. To identify the design choices a person or team made, compare the instructions, designs, parameter settings and help available with the choices made during the work. A worker can produce the correct adapter from a supplier's drawing or choose and justify its geometry independently. A cutting or assembly record can establish execution in either case. Attribute design of the part to the person or team when the evidence establishes the design choices they made. To assess their ability to justify an option, also establish the reasoning they supplied for it. Work completed before one particular template arrived rules out the use of that template but can still have followed another drawing. To commission a further design, compare the choices it requires and the help that will be available with those the person actually made under comparable conditions. One independently designed flange can support a further flange assignment while leaving design of an entire adapter open.
 
 For a proposed use, compare what the recipient needs with what the shared design or procedure supplies in the intended conditions. Check that the chosen settings work **together**, including their interfaces and any local adaptation. A supported design rule, qualification or test that already covers this combination can answer the question before the first delivery there. If a necessary condition fails, identify what has to change or which alternative fits. If its value is unknown and it could change the answer, identify what would settle it. Actual use at the new site will have its own production or work history.
 

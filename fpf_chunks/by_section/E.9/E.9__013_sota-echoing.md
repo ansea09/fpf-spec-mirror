@@ -6,12 +6,12 @@ section_id: "E.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__013_sota-echoing.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:11 — SoTA-Echoing"
-line_start: 104945
-line_end: 104956
+line_start: 105005
+line_end: 105018
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,6 +43,8 @@ keywords:
 [MADR's template](https://adr.github.io/madr/decisions/adr-template.html) connects context, considered options, a justified decision and consequences; its confirmation section is optional. E.9 retains this concise rationale function. When one FPF decision changes several loci, it additionally assigns their content obligations and the conditions under which authors can use the selected answer. A longer record is useful only for those remaining dependencies.
 
 [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html) distinguishes an entity's architecture from its description and leaves architecting processes and recording media outside its scope. E.9 likewise keeps its decision record distinct from the selected architecture and the work that realizes it; the standard does not supply the FPF content decision or its admission result.
+
+[Van Heesch, Avgeriou and Hilliard](https://doi.org/10.1016/j.jss.2011.10.017) distinguish viewpoints on decision detail, relationships among decisions, chronology and stakeholder involvement. A reader reconstructing why two decisions constrain each other needs their relationship. A reader arranging a review may need who was involved. Choose the content of the record from the decision its recipient needs to make or understand.
 
 To improve the choice of content when a decision has substantial semantic consequences, the deciding work settles the answer, alternatives, losses, boundary, and loci. The DRR episteme lets another author replay that selection before drafting. Any durable rule, example, or obligation useful after realization belongs in the selected FPF pattern or non-pattern kind-reference pair, not in the DRR as permanent shadow canon.
 

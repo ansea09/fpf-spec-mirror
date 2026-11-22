@@ -6,12 +6,12 @@ section_id: "F.0.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 126762
-line_end: 126772
+line_start: 126873
+line_end: 126883
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -36,7 +36,7 @@ keywords:
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Crosswalk as synthesis | Candidate correspondences are presented without a receiving claim or practical action. | State the receiving question, compare action-changing differences, and write one of the three result claims. |
+| Crosswalk as synthesis | The terms have been matched, but what follows for the subject is still open. | Identify what could vary while the matches hold, recover the relation the answer depends on and use it to derive the conclusion. |
 | Similar words as one concept | Lexical resemblance hides different entities, relations, or explanatory roles. | Restore source-local claims through `F.0.1`; add an `F.9` Bridge only for a relation the comparison asserts. |
 | Literature narrative without an answer | The sources are recognizable, yet the reader cannot say what follows from comparing them. | Return the supported conclusion, the consequential difference or the specific question still open. Show which operation changes if a method depends on it. |
 | Framework fit as assurance | Material is forced into the receiving ontology and fit is treated as truth. | Keep non-fit visible and separate authoring proposal, evidence use, admission, and reliance. |

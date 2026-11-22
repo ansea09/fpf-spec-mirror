@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
-line_start: 37100
-line_end: 37558
+line_start: 37132
+line_end: 37590
 dependencies:
   - "A.0"
   - "A.15.7"
@@ -49,7 +49,7 @@ keywords:
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:0 - Use this when
 
-Use this pattern when a search, comparison or synthesis depends on all of the following:
+Use this pattern when a search, comparison or synthesis requires you to say which sources the work covers and how outcomes depend on them. Identify what the recipient asks about those sources or the wider domain. A record of what a search retained can settle a question about the archive. For a claim about every eligible alternative, establish what makes that record cover them or what other grounds settle the claim. A substrate declaration makes the following choices inspectable.
 
 - one declared source set or composition of source sets still matters and must stay recoverable;
 - one search-side space reference and one outcome-side space reference must both be explicit;
@@ -263,7 +263,7 @@ Use one of these ordinary profiles:
 When declaring one substrate-bearing line, proceed in this order:
 
 0. **Entry test.** Confirm that the line needs source-set plus search/outcome-space plus relation/posture discipline. If it only needs `CharacteristicSpace` typing, use `A.19`. If it only needs publication or policy, apply the governing pattern that carries that publication or policy question.
-1. **Recover the source basis.** For one immediate source set, state its family and recover its identity. For a composition, use `SourceSetComposition` to identify every contributing set, its family and how its members contribute; designate a primary source only when the receiving use singles one out. Add `SourceSetRef` or cite a source when needed to make an identity unique.
+1. **Choose or recover the source basis.** Derive the eligible members and necessary coverage from the question. If the work prescribes an archive, use its identity and membership for the stated edition. If several sets contribute, use `SourceSetComposition` to identify them, their families and how their members contribute, including overlaps where they alter the answer. Designate a primary source when the receiving use singles one out. Add `SourceSetRef` or a citation where needed to fix the identity.
 2. **Recover the space refs.** Point `SearchSpaceRef` and `OutcomeSpaceRef` to already-declared `CharacteristicSpace`.
 3. **Choose the ref-to-ref relation kind.** Declare `sameDeclaredSpaceAs` when both references resolve to the same A.19 space by value, and `distinctDeclaredSpaceFrom` when their defining contents establish distinct values. If that identity question is unresolved, retain the uncertainty rather than inferring difference from two declarations.
 4. **State the source-to-outcome relation.** Give direction, mode, and carrier. If one named `OutcomeMapRef` or another declared interpretive qualifier carries the relation, cite that qualifier. Otherwise state the relation definition or supplying operation in prose.
@@ -369,7 +369,7 @@ DistanceDefRef          = ArchiveNeighborhoodDistance@ed=4
 SpaceMetricRef          = ArchiveNeighborhoodMetric@ed=4
 ```
 
-The archive supplies the candidate members; both space references resolve to the same declared `CharacteristicSpace`. The descriptor map assigns Coordinates, and the distance and metric define the stated coverage comparison. Selection or archive maintenance can reuse these relations while keeping the archive distinct from the space.
+The archive identifies the candidate members, and both space references resolve to the same declared `CharacteristicSpace`. The descriptor map and metric let the reader assess coverage by those members under the specified neighborhood rule. A gap in this archive establishes a gap in what it covers. To conclude that no attainable candidate could fill it, the reader needs a constraint on the candidates that could occur or adequate coverage of that broader domain.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.2 - Episteme
 

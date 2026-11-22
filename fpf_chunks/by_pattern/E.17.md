@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 114944
-line_end: 115578
+line_start: 115018
+line_end: 115652
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -60,9 +60,9 @@ keywords:
 
 **First output.** One useful publication face, or the smallest necessary set, that names the source, intended reader/use, what it preserves or omits, and how to return to the source. No ClaimGraph, formal profile, viewpoint bundle, evidence package, or four-face completion is required for this ordinary result.
 
-**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Mark material omissions, state the bounded use, then publish and stop. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
+**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Try the work each reader is meant to do using the face and the sources available in time. If the source supplies only part of the commissioned answer, identify the supported contribution and return the missing question to the source author or the person commissioning the work. Publish that contribution on its own when a permitted partial delivery serves the reader. For a commission on the complete set, keep the missing grounds visible before issuing it as complete. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
 
-**Ordinary formality rule.** A source pointer, reader/use line, readable face, and visible omission or return note are enough when the face is used for orientation, inspection, explanation, comparison, exchange preparation, or planning preparation and no downstream identity depends on it.
+**Ordinary formality rule.** A source pointer, reader/use line, readable face and visible omissions can suffice for ordinary publication. For source-finding, test whether the reader can reach the source. For explanation, test whether the reader can recover the relation and grounds that answer the question. Add formal identities only when the use depends on them.
 
 **When reliance changes the engineering move.** Identify the source edition. Resolve the viewpoint and E.17.0 conformance only if `U.View` membership matters. Identify the E.24.PUB publication occurrence, form, carrier, and bounded use when their identities matter. Cite the concrete evidence, gate, release, provenance, or assurance record that carries the downstream claim. These additions do not turn the face into that record.
 
@@ -491,7 +491,7 @@ These are local field names, not members of a catalogue of public kinds. A forma
 
 1. **Name source and reader/use.** Point to the current source account and say what this reader must understand or do.
 2. **Choose the minimum face set.** Start with one face; add another only when a different reader/use needs different detail or form. Copy no claim that the source does not carry, and state material omissions.
-3. **Try the reader's intended use.** If the reader needs to locate the source, a usable return to it can finish the task. If the reader must decide or act, follow that decision using the face and what the reader can access with the necessary permission and time. Carry a missing condition from the source onto the face, or provide a usable return to it. Stop when the declared use is served. Add viewpoint, scope, occurrence, pin, bridge, evidence, gate or assurance records only where their identities matter.
+3. **Try the reader's intended use.** If the reader must explain how the practice works, follow the relation and its grounds through the face. If the reader must choose a method or arrangement, recover what the source gives them for making that choice. When several readers must act together, check that their faces concern compatible conditions and retain the dependency their work requires. If the reader needs to locate the source, a usable return to it can finish the task. If the reader must decide or act, follow that decision using the face and what the reader can access with the necessary permission and time. Carry a missing condition from the source onto the face, or provide a usable return to it. Stop when the declared use is served. Add viewpoint, scope, occurrence, pin, bridge, evidence, gate or assurance records only where their identities matter.
 
 For the optional morphism profile, declare `F_face`, pin numeric or comparable content once, and establish the composition or promotion claim at its stated extent under §6. A *-Lite* face may omit optional fields and retains the strength and scope of the source claims.
 
@@ -546,7 +546,7 @@ Use these examples to test the MVPK invariants. A source’s reputation does not
 
 **Ordinary two-reader publication.** An accepted interface account already states the service boundary, messages, and failure conditions. A project lead needs a short explanation and an integrator needs the typed details. Publish one `PlainView` and one `TechCard`, both pointing to that same account and stating what they omit. Do not create `InteropCard`, `AssuranceLane`, a new viewpoint bundle, or a formal composition witness unless a later use needs them. The face labels establish neither `U.View` membership nor assurance.
 
-Suppose the interface account permits a retry after an explicit rejection before processing and requires a status inquiry after a lost acknowledgement. A short card for finding the interface account can stop at its reference. A card for deciding whether to retry must make the two cases distinguishable before the next send. An integrator can follow the reference to the identified rule in time. An offline shift can use a checked local copy of that edition too. If the shift has no timely authorized route to the rule, put its operative terms on the card with the source edition, or limit the card to orientation.
+Suppose the interface account permits a retry after an explicit rejection before processing and requires a status inquiry after a lost acknowledgement. A short card for finding the interface account can stop at its reference. A card for deciding whether to retry must make the two cases distinguishable before the next send. An integrator can follow the reference to the identified rule in time. An offline shift can use a checked local copy of that edition too. If the shift has no timely authorized route to the rule, put its operative terms on the card with the source edition, or limit the card to orientation. If the lead must explain why the actions differ, a list of the two instructions can leave the question open. The source may establish that the first request could already have taken effect when an acknowledgement is lost. Carry that ground into the lead’s account. If the source gives only the instructions, publish those and identify the missing ground for the requested explanation.
 
 The remaining examples exercise optional formal or load-bearing branches.
 
@@ -661,10 +661,10 @@ Multi-view publication is needed because one account can serve several concerns 
 **Ordinary publication**
 
 * **Current source/account:** `<recoverable source and edition or current subject>`
-* **Reader and use:** `<who needs what understanding or action>`
+* **Reader and use:** `<the question or choice the reader must be able to handle, alone or with others>`
 * **Minimal publication-form set (MVPK faces):** `<one or only the needed forms>`
 * **Bounded-use declaration for each form:** `<reader, permitted use, and blocked stronger use>`
-* **Preserved and omitted:** `<claims retained; material omissions or narrowing>`
+* **Preserved and omitted:** `<which source claims and connections support that use, and what remains open for the original question>`
 * **Return to source:** `<where the reader checks or reopens the source>`
 * **Stop:** `<why no additional face or apparatus changes this use>`
 

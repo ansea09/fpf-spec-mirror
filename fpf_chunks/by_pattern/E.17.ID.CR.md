@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.ID.CR.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
-line_start: 116171
-line_end: 116922
+line_start: 116247
+line_end: 117000
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -46,7 +46,7 @@ keywords:
 
 **Use this when.** A team needs a small note, comparison sheet, or guided aid to compare available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows available for inspection, keep their shared review frame visible, and leave downstream claims and effects to the work that establishes them.
 
-**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison alone cannot decide among the options.
+**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison can settle which option meets an agreed criterion. Use the governing decision rule for a commissioned choice, and establish who is entitled to make or approve it when that matters.
 
 **First output.** One bounded comparison whose minimum content for ordinary use can be recovered in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The card below helps recover that content. The card can stay in the review context unless a receiving contract requires its separate publication. Include a blocked-use or boundary field only when it changes this comparison’s interpretation or use:
 
@@ -132,6 +132,8 @@ When a source is silent, report the missing coverage. Infer absence only when an
 
 Recover a missing interpretation from the source's definitions or cited basis. Use the subject's comparison Method for the claim being compared: C.16 for measurement conditions, for example, or F.9 when a required semantic correspondence connects distinct local senses. If the correspondence or required fact remains unavailable, split the contrast into what each source establishes and state the exact missing basis for the stronger comparison. Different conditions can themselves be the useful contrast.
 
+If the sources concern different constituents or give models at different levels of abstraction, recover what each establishes for the same review question. To judge whether their results hold together, identify the shared conditions or the relation under which one result constrains the other (C.37.MM:4.1.1). One source can supply sufficient grounds for the whole contrast when it compares both alternatives under that criterion. A claim about one alternative can also settle a request for one eligible option.
+
 **Derive and bound the result.** State what follows from the aligned claims and show the reason that connects them. For textual emphasis, identify the content or allocation of discussion that warrants the contrast; this alone says nothing about the described alternatives' actual performance.
 
 For a claim about the subject, preserve its applicable comparison rule and evidence. Distinguish a contrary result from insufficient support. Do not force a common ranking when the sources support different dimensions or incomparable conditions. A precise question such as “obtain B's restoration bound at production load L” is a usable return when that answer is necessary for the requested comparison.
@@ -144,7 +146,7 @@ The resulting note can say: “A establishes an upper bound of ten minutes at L;
 
 The comparison identifies the next inquiry: inspect A's bound derivation for an applicable tighter result, or obtain B's qualified bound at L from its validation or analysis. Select further testing only if the available support cannot answer the receiving question and that answer is still needed.
 
-Now suppose B supplies a qualified seven-minute upper bound at L with the same restoration endpoint and applicable conditions. The comparison can establish that B supplies a bound meeting the eight-minute requirement while A's stated bound does not establish that fit. It still cannot infer that every B execution is faster than every A execution.
+Now suppose B supplies a qualified seven-minute upper bound at L with the same restoration endpoint and applicable conditions. The comparison can establish that B supplies a bound meeting the eight-minute requirement while A's stated bound does not establish that fit. If the brief asks for one plan with an established bound, this result supports putting B forward. Choosing B under a standing rule to use the first plan with a demonstrated bound meeting that requirement needs that rule, which may already be in the brief. Ranking actual execution times would require different evidence.
 
 If B instead says nothing about restoration time, the result is a source-coverage gap. The same construction applies to non-numerical sources: align the claims and their conditions, then state only the contrast that those claims support.
 
@@ -372,7 +374,7 @@ A working reader can usually say, in one short paragraph:
 - which crossed claim is still outside this pattern and which neighboring pattern would govern that claim if it became primary;
 - and which boundary condition shows that the primary claim is no longer a bounded `ComparativeReviewUnit` claim.
 
-If the reader cannot give that account clearly, the review unit is no longer bounded enough to stay here; narrow it, clarify it, or make the governing neighboring pattern primary for the crossed claim.
+If the reader cannot tell what the comparison establishes, return to the receiving question. Clarify the source claim or the inference that bears on it. If the review unit supports only a narrower comparison, say what that comparison supplies and pursue the missing ground for the original question. The person who commissioned the work can agree to a different question.
 
 #### E.17.ID.CR:4.4 - Branch-discipline summary
 

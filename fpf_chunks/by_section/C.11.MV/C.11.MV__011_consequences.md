@@ -6,12 +6,12 @@ section_id: "C.11.MV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__011_consequences.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:9 — Consequences"
-line_start: 60975
-line_end: 60980
+line_start: 61009
+line_end: 61014
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

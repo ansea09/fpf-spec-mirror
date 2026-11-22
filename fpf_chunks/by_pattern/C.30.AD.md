@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
-line_start: 75490
-line_end: 75955
+line_start: 75524
+line_end: 75989
 dependencies:
   - "A.1"
   - "A.10"
@@ -105,7 +105,7 @@ Use it to answer:
 
 **What this buys.** A reader can tell what each description is about, how its views correspond, where reused material came from, how fresh it is, what it may be used for, and which other claims need their own patterns.
 
-**First useful description-use output.** Say which description is being used, what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
+**First useful description-use output.** For a new description, begin with what its audience must distinguish or explain. Choose the subject, structures and detail needed to express that difference, then construct the account and try it on the intended question. For an existing description, say what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
 
 ```text
 ArchitectureDescriptionUseCard@Project:
@@ -320,7 +320,7 @@ Common architecture-description views:
 
 Before combining two views, establish whether they describe the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different subjects. State that correspondence as a supported claim or cite a direct relation that holds. When source material enters the use, identify the source and its contribution. Use `sourceToUsePathRefs` when that provenance needs a citable G.6 path: `PathCitationRecordRef` here means a reference to one G.6 `PathCitationRecord`, resolving its EvidenceGraph, path and slice. That descriptive path cites independently established direct relations; it is not itself one of them. Add a return condition when a stronger use needs the named source or its defining claims.
 
-**Coarse-graining check.** A coarser description groups, omits or summarizes distinctions. Identify what was grouped and how it corresponds to the finer description. Identify at least one admissible finer arrangement and ask whether all arrangements allowed by the coarser description under its stated assumptions give the same answer. If so, use that answer. If a binding or observation narrows the arrangements further, carry that source with the conclusion. If two give different answers, name the allocation, placement or other distinction that separates them and return to a source that can settle it. Use A.22 or the governing subject pattern to establish any claimed levels or parts of the holon itself.
+**Coarse-graining check.** A coarser description groups, omits or summarizes distinctions. Identify what was grouped and how it corresponds to the finer description. For a positive conclusion shared by every admissible arrangement, establish that at least one is possible and that the conclusion holds throughout the admitted possibilities. When the question is whether any is feasible, a proof that the conditions are incompatible can settle it directly. If a binding or observation narrows the arrangements further, carry that source with the conclusion. If two give different answers, name the distinction. To establish the actual arrangement, find a binding or observation that resolves it. To show which arrangements are permitted, the supported alternatives may already answer the question. In a design commission, make or assign the open design choice on its stated grounds. Use A.22 or the governing subject pattern to establish any claimed levels or parts of the holon itself.
 
 ```text
 ArchitectureDescriptionCorrespondenceClaim content:

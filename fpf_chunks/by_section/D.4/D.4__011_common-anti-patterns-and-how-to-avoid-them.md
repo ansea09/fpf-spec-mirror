@@ -6,12 +6,12 @@ section_id: "D.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 97531
-line_end: 97539
+line_start: 97580
+line_end: 97588
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -36,7 +36,7 @@ keywords:
 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
-| Decision-ready by map | The mapped conflict is treated as solved. | Choose a D.4 move: mediate, refuse, demand evidence, return, decide with residual, or stop. |
+| Decision-ready by map | The account identifies a conflict but gives its recipient no grounds to act. | Trace the consequences of the available choices for those who bear them. Apply the governing commitments and identify who may decide. Give the resulting advice or the authorized decision that answers the request. |
 | Trump-card level | One level's value automatically overrides all others. | Recover the affected sides through D.3 and compare their consequences and value premises through :2.1; a larger scale alone supplies no priority. |
 | Unsupported stronger use | A decision or recommendation relies on a claim whose needed support is missing. | Qualify that claim and obtain the required basis for its use, or select a supported narrower continuation through C.11.DUA. An accepted residual does not make the missing claim true. |
 | Permission by assurance | A passed assurance relation is treated as moral authorization. | Keep B.3 assurance and D.4 ethical use distinct. |

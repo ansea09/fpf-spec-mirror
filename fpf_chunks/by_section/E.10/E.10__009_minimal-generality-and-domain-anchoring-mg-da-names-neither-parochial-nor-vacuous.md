@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 106440
-line_end: 106565
+line_start: 106504
+line_end: 106629
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 ### E.10:7 - Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous
 
-> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. Names too general to have an obvious domain fail MG-DA.
+> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. The name and its definition should let the intended reader distinguish the governed value from a plausible alternative at the scope where the term will be used.
 
 #### E.10:7.1 - `LEX.TokenClass` (meta‑lexical; not a USM Scope)
 **Definition.** `LEX.TokenClass : NameToken → {KernelToken | ContextToken | DiscriminatorToken}`.
@@ -68,7 +68,7 @@ This is a local lexical classification function on NameTokens with the closed va
 It is **not** a USM scope and carries **no** truth or validity semantics.
 
 #### E.10:7.2 - `KernelToken` — Minimal Generality (MG‑K)
-**MG-K1 (Tri-domain witness).** A DRR note or Glossary note provides at least three heterogeneous arenas where the invariants hold, for example manufacturing, healthcare, and cloud operations. Otherwise reject or narrow the `KernelToken` candidate and recover each word or qualifier under the object and rule that define it. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
+**MG-K1 (Ground the shared meaning).** In the DRR or Glossary note, state what the candidate designates, where the designation will be used and which defining property or relation is preserved in those uses. Test an admissible variation that could change the meaning or the decision. The defining rule may itself establish the full reach. Where a different domain supplies a needed premise, show how it applies there. For an admission or placement decision about a universal-core U-kind, apply A.8:3 and E.24.UK, including their three-domain test or an applicable previous result. A designation for an already defined object retains that object’s admission basis. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
 
 **MG-K2 (No parochial nouns).** Kernel names contain no domain nouns such as *Ticket, Microservice, Patient,* or *Developer*. Domain-looking wording is a recovery trigger, not a destination: it may denote a C.3 local kind, exact system-role kind, system-role assignment, system or architecture object, episteme or record kind, declared Characteristic and scale, source wording, ordinary qualifier, recovered local-use `ContextToken`, or another value whose kind and use are already defined. Bare *role* has no default Tech reading. `SystemRole` appears only inside a concrete local kind designation admitted through C.3 and A.2; lexical shape alone creates neither that kind nor an assignment.
 
@@ -96,7 +96,7 @@ It is **not** a USM scope and carries **no** truth or validity semantics.
 **DA-D7 (Ban generic combinators).** Reject vague composites like *NameUseMode*, *NamingScope*, `RowFacet`, `RowPlane`, or `RowLane`. Each candidate passes **DA-D1** and **DA-D3** for a kind-anchored head, explicit classified kind, and closed-value interpretation under its classification rule. Require a `CharacteristicSpace` only when one named `U.Characteristic` and its CSLC scale have independently been declared.
 
 #### E.10:7.4  - Global tests (apply after 7.2 and 7.3)
-**MG-DA-T1 (Three-arena witness).** A **`LEX.TokenClass`(t)=KernelToken** candidate includes the tri-domain witnesses from MG-K1. Other token classes document at least one contrasting arena.
+**MG-DA-T1 (Reach of the designation).** For a `KernelToken`, check the grounds for the common meaning under MG-K1. For a local or discriminator token, check that the definition distinguishes its intended value under the relevant scheme. A contrast is useful when the alternative would change identification or use.
 
 **MG-DA‑T2 (Object‑of‑talk).** The head noun uniquely signals the subject area; avoid free-floating metaphors.
 
@@ -122,7 +122,7 @@ The LEX registry defines `AllowedScopes(c)` (for example, `KernelToken` use in n
 
 Mentioning `LEX.TokenClass`, `LEX.Reserved-Names`, or `LEX.AllowedScopes` does not create the values needed to admit a durable token. Before a NameCard can become current, the selected `FPFCoreReferenceScheme` must resolve four things: (1) the `U.NameToken`; (2) its current TokenClass classification assertion; (3) the current reserved-name or other authoritative collision-set value and the collision result; and (4) the current allowed-scope policy and a passing use-scope assertion. A prose example, full-text absence, heading, registry-shaped table, or intended policy supplies none of them by implication.
 
-**Worked near-miss.** Suppose `SelectedRuleContentSubgraphDesignation`, `derivedUsingRuleContent`, and `evaluatedAgainstRuleContent` are proposed as `KernelToken` candidates. They can pass the tri-domain and object-of-talk tests through assembly-rule content selected in manufacturing derivation, protocol content used in healthcare derivation while evidence separately warrants case facts, and deployment-policy content selected for cloud release evaluation while service-provision Work and operational support remain separate. Even if their spellings do not collide in the inspected corpus, corpus absence is not a reserved-name or allowed-scope result. Do not publish their F.18 NameCards or F.17 rows until all four prerequisites resolve; a placeholder card or row closes none of them.
+**Worked near-miss.** Suppose `SelectedRuleContentSubgraphDesignation`, `derivedUsingRuleContent`, and `evaluatedAgainstRuleContent` are proposed as `KernelToken` candidates. Assembly-rule content can be a premise of a manufacturing derivation, protocol content a premise of a clinical derivation, and deployment-policy content a criterion for a cloud release decision. What would make a name travel across these uses is its defining relation: for example, a derivation used the selected content as a formal premise, irrespective of the field. Evidence for case facts, evaluation against a criterion and operational support have different relations. F.18:4.2d gives the three candidate meanings. Even if their spellings do not collide in the inspected corpus, corpus absence is not a reserved-name or allowed-scope result. Do not publish their F.18 NameCards or F.17 rows until all four prerequisites resolve; a placeholder card or row closes none of them.
 
 Using these names as candidate designators in declaration content changes no predicate semantics and does not admit them as public names, enumerations, Characteristics, CharacteristicSpace values, relation kinds, or U-kinds.
 
@@ -148,7 +148,7 @@ For all eight names, Plain wording that silently turns the token into a neighbor
 #### E.10:7.6 - Metaphor guidance (informative heuristics)
 
 Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, ensure it is (a) explicitly defined by a pattern here, and (b) unambiguous within the **NameClass**. Example families (use sparingly):
-* **Progression metaphors** (*level, tier, ladder*): only where a **gate or upgrade** is defined by the pattern.
+* For *level*, *tier* or *ladder*, identify what is ordered and by which relation. A holon can have constituent and enclosing wholes. Models of the same question can admit different answers under B.5.MR. A functional control layer may group responsibilities. Use a gate or upgrade criterion when advancement is actually the relation in question.
 * **Separation metaphors** (*lane, track*): only where parallel, non‑interfering flows are enforced by rules.
 * **Grouping labels** (*family, class*): name the classified kind or grouping and use its governing membership rule. For a closed enumeration, state its value set and classification rule; a kind or family governed by another membership condition is not limited to an enumeration.
 

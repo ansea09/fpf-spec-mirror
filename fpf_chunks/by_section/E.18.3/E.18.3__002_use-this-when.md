@@ -6,12 +6,12 @@ section_id: "E.18.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:0 — Use This When"
-line_start: 119650
-line_end: 119665
+line_start: 119736
+line_end: 119751
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ That condition uses one independently identified E.18 substrate branch: one TFS,
 
 Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether a branch, join, condition, dependency, crossing, or connection changes the continuation question for the thing being transformed. E.18.3 membership requires the A.22 identity, CGUS locus bindings and potential topology, and one of the three E.18 substrate cases with its flow positions, bindings, and obtaining occurrences. The current continuation result is evaluated separately. Description loss, C.33 notes for a declared architecture use, publication, and stronger neighboring claims are added only for uses that need them.
 
-Name the concrete thing being transformed. Mark two recognizable places or states on the flow card in domain language, state the proposed connection or guard, and ask which continuation depends on it. A useful result can be a provisional explanation that names the missing relation, fact, or constraint. It need not yet be asserted as a C.2.1 episteme, E.18 position mapping, or selected A.22 structure. If that explanation answers the current use, stop there.
+Start with the question about what can follow. Identify the subject or subjects whose conditions determine the answer. For one transition, two places on a flow card may show where the connection matters. For a join, find which contributions must be available together and what relates them. An ordinary explanation can supply the answer or name the missing fact. A separate C.2.1 episteme, E.18 position mapping or selected A.22 structure is needed only for a use that relies on it.
 
 Recover the following values only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure: the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, and applied constraints. For a decision about what can follow now, also evaluate the current continuation candidates. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them.
 

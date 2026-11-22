@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:4 — Solution"
-line_start: 104406
-line_end: 104468
+line_start: 104461
+line_end: 104523
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -33,7 +33,7 @@ When an accepted `A.19.ECS` specification is selected for durable FPF publicatio
 1. **Keep the objects separate.** The accepted specification says what the evaluation requires. The publication form arranges the pattern. The authored content teaches a later practitioner how to evaluate an object. That later evaluation produces a result. The specification, its `CharacteristicSpace`, the evaluation, the evaluated object and the result each remain distinct from the pattern.
 2. **Put recognition before coordinates.** The opening text names evaluated object kind, declared use, working reader, qualification window, first evaluation use, FPF-publication boundary, what goes wrong, and what the pattern buys before any dense table.
 3. **Carry the complete accepted specification by value.** Put every required value, and every optional value whose trigger holds, where a practitioner needs it. Do not discharge this move by citing `A.19.ECS`, copying field names, or pointing to an author-only record. The `Solution` and its nearby practitioner-use sections carry the selected values from the accepted specification.
-4. **Use worked slices as the discriminating-case test.** Archetypal Grounding and worked cases include a passing evaluated object, a below-floor evaluated object, and an outside-declared-object-kind boundary case.
+4. **Publish the grounds for the distinctions.** Explain the rule the evaluator can use throughout the intended range, including kind fit and the floor where they can vary. Where the evaluator must change how a decision is reached, work through that change and its grounds. One derivation may establish the decision for a whole range of values. Add a contrasting case where readers need it to recognize another way of deciding. If the accepted specification excludes an outcome, explain what excludes it and how the evaluator can recognize those conditions. An unresolved possibility remains open.
 5. **Keep ordinal coordinates separate and protect against proxy improvement.** Do not create an undeclared total, average, or “overall score” from ordinal coordinates. Whenever a visible value improves, ask whether any intended value or protected trade-off became worse. If the published guidance would reward that loss, stop the comparison and reopen the specification.
 
    If a bounded use needs scalarization, name the method, its use, any information loss, and its applicability and stop or return conditions; do not present that scalar as “the evaluation”.
@@ -59,7 +59,7 @@ A reviewer's later `E.21` evaluation of this pattern is evidence about the autho
 | `Problem` | Failure modes that the evaluation prevents: wrong-kind scoring, hidden value drift, proxy value, one-score collapse, missingness confusion, or neighbour theft. |
 | `Forces` | Tensions among reuse, coordinate count, readability, measurement admissibility, trade-off protection, local stop, and open-ended improvement. |
 | `Solution` | Every required accepted-specification value and every triggered optional value: object and use, reader and qualification limits, cases and kind-fit, coordinate and scale bindings, value meanings and preferred movement, evidence and missingness, result form and calibration, coordinate-specific evidence, trade-offs and comparison, statuses, exits, and stop or reopen conditions. |
-| `Archetypal Grounding` | At least one passing evaluated object, one below-floor evaluated object, and one outside-declared-object-kind boundary case. |
+| `Archetypal Grounding` | A worked account of how the rule leads to decisions over its intended range and how to handle an input outside the declared kind when one can occur. Give the grounds for an excluded outcome where these matter for the use. |
 | `Bias-Annotation` | Known skew in source examples, reader family, domain tradition, measurement preference, benchmark preference, or FPF-internal reuse. |
 | `Conformance Checklist` | Checks that the specification is recoverable, not that a reviewer likes the evaluated object. |
 | `Common Anti-Patterns` | Score-sheet pattern, checklist-as-solution, table-first recognition failure, neighbour theft, one total score, hidden value drift. |
@@ -79,7 +79,7 @@ Carry the accepted specification through the pattern in practitioner order. “B
 | Practitioner need | Accepted values that must be present |
 |---|---|
 | Recognize whether to enter | `EvaluatedObjectKindRef`, `DeclaredUseScope`, `WorkingReaderScope`, `QualificationWindow`, and `ObjectVersionUnderImprovementRef` when the evaluation is tied to one object version. |
-| Test the boundary | `DiscriminatingCaseSet` and `ObjectKindFitRule`, including admissible, below-floor, and outside-kind outcomes. |
+| Test the boundary | `DiscriminatingCaseSet` and `ObjectKindFitRule`, including which outcomes are possible under the domain and floor, and how outside-kind inputs are handled. |
 | Judge the object | `CharacteristicSlotSet`, `ScaleBindingSet`, `PolarityAndPreferredMovement`, and `FloorAndExceptionalMeaningSet`, with the coordinate and value meanings rather than their field labels. |
 | Justify and record a result | `EvaluationEvidenceBasisRule`, `EvidenceAndMissingnessRule`, `ResultRowShape`, `AdjacentValueRationaleRule`, `CalibrationPointSet`, and `CoordinateSpecificEvidencePayloadRule` whenever a coordinate triggers such a payload. |
 | Protect a useful result from false improvement | `ProtectedTradeoffSet` and `DominanceOrComparisonRule` whenever the accepted specification declares a comparison rule. |

@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_reasoning-primitives.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:14 — Reasoning primitives"
-line_start: 130211
-line_end: 130302
+line_start: 130326
+line_end: 130417
 dependencies:
   - "A.10"
   - "A.13"
@@ -136,7 +136,7 @@ and Bridge(B,C;P2) obtains
 => no Bridge(A,C;P3) follows.
 ```
 
-A composite proposed use must cite each obtaining Bridge, state one exact composite rule and accumulated tolerance in its own claim, and recover current reliance for that claim. If a direct A-to-C correspondence is needed, test it independently.
+For a proposed use through both correspondences, follow the result of the first into the rule for the second. Judge the end result against the receiving tolerance over the admissible cases. Local losses may reinforce or offset one another. Where that distinction matters, preserve their dependence or use a justified bound for the combined loss. Cite each Bridge used and establish current reliance on this composite claim. If a direct A-to-C correspondence is needed, test it independently.
 
 #### F.9:14.8 - Candidate-card guard
 

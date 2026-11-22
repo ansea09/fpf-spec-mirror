@@ -6,12 +6,12 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__007_normative-definitions.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 7134
-line_end: 7356
+line_start: 7126
+line_end: 7348
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -126,7 +126,7 @@ For every governed-reference argument, record presence, citation, or a compatibl
 
 `ApplicationExtentRule`: the application begins after every required argument is bound for that invocation and ends when the derived-scope value is returned or the invocation stops without a result. A result-binding extent cannot begin before that scope value is returned.
 
-**`ScopeDerivationMechanism` LawSet.** Serial composition uses intersection. Parallel publication uses the one established `SpanUnion` and preserves only slices supplied by independently supported lines. Translation returns only the target-slice image selected by the bound claim's rule and tolerance over the bound obtaining F.9 Bridge. No derivation operation widens support by itself.
+**`ScopeDerivationMechanism` LawSet.** Intersection combines requirements on a common slice, including downstream conditions already expressed for the original input. `SpanUnion` combines the areas of independently supported lines under §7.3. A case argument with a shared premise can establish ordinary coverage separately. Translation returns only the target-slice image selected by the bound claim's rule and tolerance over the bound obtaining F.9 Bridge. No derivation operation widens support by itself.
 
 **`ScopeDerivationMechanism` AdmissibilityConditions.** Intersection and `SpanUnion` require at least two exact scopes. `deriveSpanUnionScope` additionally requires the bound independence basis to meet section 7.3. `deriveTranslatedScope` requires both an exact obtaining Bridge and the exact affirmative C.2.1 claim whose named rule and tolerance select the claimed target image. A missing or non-obtaining Bridge or a missing or non-affirmative claim blocks that positive derivation application; the latter does not negate an otherwise obtaining Bridge.
 
@@ -211,7 +211,7 @@ The same scope may participate in differently selected relation occurrences or b
 
 **Expression.** State a Claim scope as an exact predicate or condition block over slice selectors: assumptions, parameter ranges, cohorts, platform or standard editions, exact local senses when current, and time conditions only when they change membership.
 
-**Algebra.** Serial dependencies use intersection. Independently supported areas may use `spanUnion` with the independence basis stated. `widen` and `narrow` change the declared set; `refit` preserves it. `translate` uses the section 7.5 Bridge-plus-use-claim branch and keeps reliance separate.
+**Algebra.** Intersect essential conditions on common slices, tracing the intermediate outcomes of successive stages under §7.2. Establish coverage by cases under §7.3 and use `spanUnion` when its additional independence condition holds. `widen` and `narrow` change the declared set; `refit` preserves it. `translate` uses the section 7.5 Bridge-plus-use-claim branch and keeps reliance separate.
 
 #### A.2.6:6.4 - `U.WorkScope` — scope of doing Work (capability)
 
@@ -244,7 +244,7 @@ These guard conditions accompany the scope membership test. B.3 applies when an 
   `PublicationScope(view_E) ⊆ ClaimScope(c)`.
 * If the publication presents **a qualified holder-ability claim `C`** for work admission:
   `PublicationScope(view_C) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by that claim. Any relied-on episteme ClaimScope remains a separate constraint; stating the ability in an episteme does not turn its WorkScope into ClaimScope.
-* When publication use requires **all contributing claims or capabilities to apply together**, its scope is a subset of their intersection. For **independent support lines for the same claim or capability**, establish the supported SpanUnion under §7.3 and bound publication use by that resulting scope. When exact local senses require translation, use section 7.5 for each affected source scope: obtaining F.9 Bridge, separate affirmative C.2.1 use claim, and current A.10 or B.3 reliance before the returned scopes are combined under the applicable rule.
+* When publication use requires **all contributing claims or capabilities to apply together on the same slice**, its scope is a subset of their intersection. For a chain, express each later requirement on the outcomes reachable from the original input (§7.2). A case argument can support the union of the cases under their common premises (§7.3). For **independent support lines for the same claim or capability**, establish the supported SpanUnion under §7.3 and bound publication use by that resulting scope. When exact local senses require translation, use section 7.5 for each affected source scope: obtaining F.9 Bridge, separate affirmative C.2.1 use claim, and current A.10 or B.3 reliance before the returned scopes are combined under the applicable rule.
 
 **Expression.** Declare `U.PublicationScope` as an exact predicate over only the `U.ContextSlice` selectors that restrict publication use: for example versioned standards, environment, audience, interface availability, exact local senses, or `gammaTime` when time changes membership. It may be narrower than the underlying scope but must not be wider.
 

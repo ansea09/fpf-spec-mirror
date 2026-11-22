@@ -6,12 +6,12 @@ section_id: "A.6.H:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__003_problem.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:2 — Problem"
-line_start: 26182
-line_end: 26197
+line_start: 26199
+line_end: 26214
 dependencies:
   - "A.1"
   - "A.10"

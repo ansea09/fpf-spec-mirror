@@ -6,12 +6,12 @@ section_id: "G.12:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:0 — Use This When"
-line_start: 141805
-line_end: 141812
+line_start: 141950
+line_end: 141957
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,7 +53,7 @@ keywords:
 
 Use G.12 when a team needs several recorded C.21 coordinate results arranged across windows, a dashboard view over them, or refresh wiring for that view.
 
-Start from the C.21 results. State the discipline, intended use, ClaimScope, coordinate-result refs, and windows before choosing a layout. A local view is sufficient when there is no audience publication or refresh use.
+Start with the decision or explanation the view should support. Choose the discipline, population, part or combination at issue and the windows that matter to that use. Then select the C.21 results that can distinguish its possible answers. Use a local view when that supplies the whole requested result.
 
 Do not use G.12 for one ordinary field-health claim, to manufacture measurements from rows, to turn a dashboard into evidence or authority, or to require publication and telemetry for every C.21 use.
 

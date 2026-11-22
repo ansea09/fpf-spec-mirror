@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.4.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
-line_start: 137838
-line_end: 138297
+line_start: 137969
+line_end: 138428
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,7 +61,7 @@ keywords:
 
 **Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
 
-**First move.** Write one plain acceptance statement for one task: “For a subject `x` of the admitted kind, when the conditions of this use fall within claim scope `S` and satisfy any further temporal condition of the clause, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. When applying the clause, bind current result episteme `E`; the application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and any currentness conditions needed for that use.” Then turn only the reusable operator and clause definitions into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
+**First move.** Start from the decision the clause will govern. Determine which requirements apply to one result, which apply to each of several results, and which concern what they deliver together. Once the terms are established, a clause can take this form. “For a subject `x` of the admitted kind, when the conditions of this use fall within claim scope `S` and satisfy any further temporal condition of the clause, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. When applying the clause, bind current result episteme `E`. The application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and any currentness conditions needed for that use.” Publish the reusable operator and clause definitions. Each later application of clause `A` identifies the result episteme it uses.
 
 **Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, any evaluation window required by its predicate or receiving use, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row and one worked declaration example. Publish a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case needs them.
 
@@ -74,7 +74,7 @@ keywords:
 CAL authoring starts from:
 
 * one exact `CG‑Frame` with its `EntityOfConcern`, `ReferencePlane`, task, and assumption envelope,
-* a plurality of method traditions and claims (SoTA inputs), and
+* the applicable source rule or claims, including competing traditions when their differences affect this use, and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 
 Before downstream users run a selection, comparison, aggregation or selected-set formation, authors need an explicit, auditable **CAL Pack** that:
@@ -109,7 +109,7 @@ A CAL Pack connects typed measurements to later selection and evaluation. Drift 
 
 Complete these actions in order. Extend a step only when the task needs the additional input named there.
 
-1. **C1 — Charter the scope.** Name the exact `CG‑Frame`, `EntityOfConcern`, `ReferencePlane`, task, `CNSpecRef.edition`, and `CGSpecRef.edition`. State the assumption envelope in ordinary language.
+1. **C1 — Charter the scope.** Name the exact `CG‑Frame`, `EntityOfConcern`, `ReferencePlane`, task, `CNSpecRef.edition`, and `CGSpecRef.edition`. State the assumption envelope in ordinary language. Work back from a required result that the recipient could accept or refuse. If the same observations about the parts could accompany different decisions about the whole, identify the missing handover, common condition or observation of the whole. Determine whose rule sets the criterion. Reuse a governing criterion that already resolves the question.
 2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. The card declares the operation under `A.6.1`. Evidence for an application comes from its execution (§4.4a).
 3. **C3 — Declare one acceptance clause.** Name the exact Characteristic and the A.6.1 argument declaration that admits the corresponding C.16 measurement-result episteme. Declare the predicate or threshold, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, unknown handling, and the stated stop, degrade, or abstain behavior. Keep the exact current result episteme for the later application. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
 4. **C4 — Compose only a legal flow.** Cite the operators and gating clauses. Preserve each operator’s declared result. For an admitted CPM comparison this is its relation-token set. When the flow uses a selector, preserve its declared outcome. A declared DAG describes a possible composition. Evidence of execution establishes which work ran.
@@ -119,7 +119,7 @@ Complete these actions in order. Extend a step only when the task needs the addi
 8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, currentness conditions when they are part of admissibility, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
 9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest immutable `TaskMap` edition. It cites the exact charter edition, the already constituted C.22 `TaskSignatureRef`, the task, and edition-bearing operator, flow, gating-clause, and evidence-profile refs; the cited evidence profiles carry the needed currentness pins. It neither constructs the TaskSignature nor copies clause thresholds. Use G.11 for change refs; G.4 defines no refresh rule or runtime occurrence or result.
 
-The path is complete when a reader unfamiliar with the author’s work can reconstruct the acceptance statement from the published ids and identify what must happen at runtime. The manifests, schemas, interfaces and optional extensions below make that same pack machine-citable. The order of work is C1–C9.
+The path is complete when a reader unfamiliar with the author's work can recover what the receiver requires, why the published acceptance conditions distinguish the relevant cases, and what must be established at runtime. Check a plausible result that would satisfy the component clauses yet fail a joint obligation, and a satisfactory result the proposed rule could exclude, when such cases are possible. If composition exposes a missing input or a mistaken scope, return to the affected declaration. The manifests, schemas, interfaces and optional extensions below make the same pack citable.
 
 #### G.4:4.1 - G.Core linkage (normative)
 
@@ -401,7 +401,7 @@ Because this worked case states that the Work was performed under an assignment,
 
 For the pump-triage use in G.5 §0.5, consider a separately declared gated variant. `AC_InputConditionGate-E1` accepts a declared probability of at least 0.85 that both the measurement series is valid (event A) and its time alignment is valid (event B) for the same 24-hour input. Its scope, evaluation window, result-input declaration, and `unknown` behavior belong to this G.4 clause, not to the default composition rule. `PumpInputEvidence-E1` supplies the receiving model and provenance for those event meanings and probabilities. An applicable `TaskMapRef` binds that clause, profile, and the matching C.22 task signature.
 
-Suppose the application inputs establish P(A)=0.9 and P(B)=0.9 and the profile's model establishes independence. The model gives P(A ∩ B)=0.81, so the clause returns `fail`. Minimum 0.9 would incorrectly pass. If independence or a justified conditional alternative is unavailable, the missing joint probability yields the clause's `unknown` result, with the declared downstream degrade/abstain behavior; a high F or formal line tag cannot replace it.
+Suppose the application inputs establish P(A)=0.9 and P(B)=0.9 and the profile's model establishes independence. The model gives P(A ∩ B)=0.81, so the clause returns `fail`. Minimum 0.9 would incorrectly pass. With only these two marginals the joint probability can range from 0.8 to 0.9. At the 0.85 threshold, both a pass and a fail are consistent with the marginals. The clause returns `unknown` and its declared downstream degrade/abstain behavior applies. A formal lane tag supplies no further information about the dependence. For a criterion of at least 0.8, the lower bound already suffices.
 
 For a different receiving question that asks only for a qualified comparison on existing heterogeneous support, the profile retains the proof, empirical contributions, shared-bias limitations, and contrary evidence under B.1.3/C.2.2. It does not invent a probability or apply `AC_InputConditionGate-E1` to that different question. The ordinary G.5 shortlist remains available without an additional assurance calculation.
 
@@ -429,7 +429,7 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
 | **CC‑G4‑06**      | Every `CAL.Flow` declares its result kind and the set of gating acceptance clauses; any thinning/selection‑aid policies (e.g., ε‑front selection) are explicitly policy‑bound and do not silently replace the underlying result kind.                                                                      |
 | **CC‑G4‑07** | Every `CAL.EvidenceProfile` declares the provenance anchors, evidence lanes, and currentness or loss-policy pins its use needs. It cites `DefaultId.GammaFoldForR_eff` for B.3/C.2.2 support-model discipline and pins any numerical Γ-fold actually used. That calculation must preserve input meanings, scales, dependencies, formal/empirical distinctions, and mapping limits; absent a common model, retain separate support and a bounded synthesis. The selected receiving model determines which results a numerical loss consequence affects, including whether an R-only restriction applies. Loss assessment alone defines neither dominance nor an acceptance threshold. |
 | **CC‑G4‑08** | `CAL.ProofLedger` links each operator, flow, or clause to its required proof or justification and explicit failure behavior. A numerical Γ-fold or loss includes its receiving quantity, input scales, dependency model, derivation or calibration, assumptions, and boundary behavior; monotonicity and boundedness alone are insufficient. A missing required model cannot be repaired by F-to-R conversion or an invented default score. |
-| **CC‑G4‑09**      | CAL publication includes RSCR tests and Worked‑Examples sufficient to detect illegality (incl. unit laundering / ordinal arithmetic), to exercise authored acceptance/flow behavior, and to validate the authored freshness envelope when it is part of admissibility; record missing tests or examples as an auditable gap. |
+| **CC‑G4‑09**      | For a new or revised acceptance rule, the author shows why its conditions support the recipient's decision over the stated scope (§4.0). CAL publication includes RSCR tests and Worked‑Examples sufficient to detect illegality (incl. unit laundering / ordinal arithmetic), to exercise authored acceptance/flow behavior, and to validate the authored freshness envelope when it is part of admissibility; record missing tests or examples as an auditable gap. |
 | **CC‑G4‑10**      | Each `TaskMapRef = <taskMapId, taskMapEdition>` resolves one immutable map edition containing the exact `CALCharterRef`, task, C.22 `TaskSignatureRef`, and edition-bearing acceptance-clause, operator, flow, and evidence-profile refs used by selection. Changing the charter, task, signature edition, or a cited component creates a new map edition. When G.4 gates are current, G.5 consumes this exact map alongside the same `TaskSignatureRef`; a mismatch or unresolved ref blocks that gated selector use. The map neither constructs the TaskSignature nor embeds thresholds or duplicates acceptance semantics. |
 | **CC‑G4‑11**      | Any method/discipline specifics are placed under `G.4:4.5 Extensions` as `GPatternExtension` blocks (stable `PatternScopeId`, explicit governing definition, pins, and RSCR triggers); no extension introduces competing defaults or replaces `G.Core` invariants. |
 | **CC‑G4‑12**      | `CAL Pack@CG-Frame` includes public-id continuity records for public ids: deprecations, edition bumps, and lexical-continuity notes. It exposes refresh payload pins, including editions, policies, UTS ids, and, when present, `PathId` and `PathSliceId`, sufficient for `G.11` to plan RSCR without inferring semantics from prose. |

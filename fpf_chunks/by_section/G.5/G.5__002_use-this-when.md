@@ -6,12 +6,12 @@ section_id: "G.5:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:0 — Use this when"
-line_start: 138308
-line_end: 138417
+line_start: 138439
+line_end: 138548
 dependencies:
   - "C.11"
   - "C.18"
@@ -86,7 +86,7 @@ Registry and dispatch remain the primary concern. A set declaration can communic
 
 #### G.5:0.3 - First-minute questions
 
-- Which exact members and grouping or inclusion basis are already established?
+- Which decision must the grouping support? Which members and inclusion grounds have already been settled for that use?
 - Which decisions will each recipient make? Are the listed members alternatives for a later choice, or are all designated for one named use?
 - Does the declared comparison justify ordering them?
 - Which eligibility and evidence conditions apply? If promising a feasible combination or menu, what joint choices are allowed and what shared limits affect them?

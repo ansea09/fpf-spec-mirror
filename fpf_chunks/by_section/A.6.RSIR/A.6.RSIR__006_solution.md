@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:4 — Solution"
-line_start: 22606
-line_end: 22692
+line_start: 22621
+line_end: 22707
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,7 +77,7 @@ Use Tech `position` for a place in a selected representation, such as a tuple co
 | Recovered object or claim kind | Apply this rule or pattern family | RSIR boundary |
 |---|---|---|
 | direct relation wording | `A.6.P` for recovery, then the rule that defines or tests the direct relation; use `A.6.REL` only when a receiving claim needs explicit occurrence identity or reference | RSIR stops when that direct rule is selected. An ordinary readable assertion may stop before explicit occurrence individuation or identifier assignment. |
-| direct relation-participant meaning or actual participant | the direct relation pattern; add `A.6.5` only if a receiving use needs a reusable typed declaration | State the participant meaning and actual participant directly. Neither one is a `SlotKind`, `SlotSpec`, designation, operation binding, or representation position. |
+| direct relation-participant meaning or actual participant | the direct relation pattern, with `A.6.5` when a receiving use needs a reusable typed declaration | For a proposed rule, state who or what would qualify under each meaning and the condition connecting them. Where an act counts by authority, identify whose authority it requires and what it covers. For an occurrence claim, establish the participant facts needed under the rule. A status that only an authorized signer could confer may establish acceptance. Identifying the person who signed requires evidence of that identity. A `SlotSpec` belongs to a declaration and a representation position belongs to an expression. |
 | reusable relation-declaration slot, field, parameter, argument, or endpoint | `A.6.5` for one complete `SlotSpec` inside one `RelationSignature`, with `A.6.0` for the containing signature | The `SlotKind` is declaration-local and corresponds to one already recovered participant meaning; the declaration does not make the relation obtain. |
 | assertion- or description-side participant designation | `C.2.1` for episteme identity and content; the direct assertion, evaluation, evidence-use, or description family for predicate, polarity, and use; `A.6.5` only when a compatible current `SlotSpec` types the designation | An ordinary assertion may name actual participants directly. A typed designation remains episteme content, distinct from the participant. Its presence alone does not establish obtaining; assess any asserted claim and grounds under the direct rule. |
 | operation argument or result declaration | `A.6.1` and the exact mechanism edition and operation declaration | `ArgumentDeclaration` and `ResultDeclaration` are declaration content. Do not reuse relation `SlotSpec` vocabulary for them. |
@@ -104,13 +104,13 @@ Use Tech `position` for a place in a selected representation, such as a tuple co
 
 When wording derives a qualification, status, or category from participation in a relation, recover the object needed by the next use before naming it:
 
-1. If the claim concerns an actual entity participating under one named relation-participant meaning, state the direct relation, that meaning, and the actual participant. The participant retains its direct kind.
+1. When explaining a rule, state the direct relation and what qualifies an entity to participate under the relevant meaning. For a claim about actual participation, apply the obtaining condition to the participant facts the question requires. Evidence that an authorized observer participated can suffice to establish participation. A claim about who that observer was requires identification. The participant retains its direct kind.
 2. If reusable typed declaration is current, use `A.6.5` for the corresponding `SlotSpec` inside one `RelationSignature`. Its `SlotKind` is declaration-local and neither is the participant nor makes the relation obtain.
 3. If an episteme asserts, evaluates, or describes the participation, `C.2.1` governs the episteme's identity and content, while the direct assertion, evaluation, evidence-use, or description family governs the predicate, polarity, or use relation. When a compatible `SlotSpec` is current, `A.6.5` governs the participant designation's `ValueKind` and `refMode` discipline; without reusable declaration, the assertion may designate the actual participants directly.
 4. If the receiving use needs a local classification or quantification over such actual participants, use `C.3` and `C.3.1` for the local `U.Kind`, membership rule, and extent rule. Neither the participant-meaning label nor the declaration-local `SlotKind` admits that kind.
 5. If the source exposes a tuple component, argument, edge endpoint, schema field or another representation position, interpret it under the selected scheme and recover the correspondence needed by the claim. A displayed value can state a participant or binding claim; its presence alone does not establish that claim.
 
-For parameter, argument, or result wording, separately recover the A.6.1 declaration content, one independently identified operation application and any obtaining declaration-local binding, and the selected representation position. Open the binding only when the actual bound value matters to a receiving claim. Neither the declaration nor representation syntax establishes the binding; a result binding is distinct from production, a produced entity, a result episteme, evidence, and work.
+For parameter, argument or result wording, ask what the recipient needs to identify. A declaration gives the A.6.1 argument or result meaning. To identify a value bound in actual use, recover the application and its binding. To interpret a position in a call or formula, recover its correspondence to the meaning or binding it represents. A declaration can be understood before an application takes place. Production, a produced entity, a result episteme, evidence and Work each retain their own conditions.
 
 When a receiving use compares or constrains a whole organization of relation occurrences, `A.22` may govern a selected `U.Structure`. One actual participant, corresponding `SlotSpec` or designation, operation binding, or representation position does not by itself establish such a structure.
 

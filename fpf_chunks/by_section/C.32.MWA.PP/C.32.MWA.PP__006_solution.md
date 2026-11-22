@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:4 — Solution"
-line_start: 83217
-line_end: 83466
+line_start: 83255
+line_end: 83504
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -92,7 +92,7 @@ Select only the structures that can change this design. A compact cross-referenc
 
 An individual can hold several compatible assignments. Several Systems can jointly obtain a result. A specialist can serve several organizational units. A Method can be used by several independent performers. Keep these relations visible rather than forcing one exclusive-parent tree.
 
-For each important connection, make the local claim explicit: this available or proposed holder can supply this contribution, using these means, in this window, under this permission, and the named receiver can use it under these conditions. Keep obtaining, proposed, contradicted and unresolved relation claims distinct. State the evidence, including whether it comes from observation or a qualified provider, and the receiving use it supports. A table is useful when it makes this comparison easier; it is not a substitute for the explanation.
+For each provision connection, make the local claim explicit: this available or proposed holder can supply this contribution, using these means, in this window, under this permission, and the named receiver can use it under these conditions. Keep obtaining, proposed, contradicted and unresolved relation claims distinct. State the evidence, including whether it comes from observation or a qualified provider, and the receiving use it supports. A table is useful when it makes this comparison easier; it is not a substitute for the explanation.
 
 An actual transformation claim needs the subject, boundaries, before/during/after basis and continuity conditions required by A.3.4. For an actual Work claim, establish the performer's A.13 bases and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is claimed. The current synthesis can remain a useful possible-future arrangement without pretending to supply either.
 
@@ -183,7 +183,7 @@ For a small case, place the required work in actual windows and compare it with 
 
 Count common preparation once at the declared scale. Count recurring performance and support wherever they occur. If one group episode obtains several results, credit them only where each required participant contribution and receiving condition is preserved. Neither multiplying shared preparation by every user nor assuming all group learning is free counts the demand correctly.
 
-A necessary capacity inequality can expose failure cheaply: total demand for one qualified resource in a window cannot exceed its available capacity. It does not establish an executable schedule. Precedence, simultaneous work, locality, recovery and incompatible access can defeat the candidate. Use the appropriate operating or scheduling Method when those conditions matter.
+A necessary capacity inequality can expose failure cheaply: total demand for one qualified resource in a window cannot exceed its available capacity. It does not establish an executable schedule. Precedence, simultaneous work, locality, recovery and incompatible access can defeat the candidate. For a fixed booking, find a feasible allocation. For a promise about future requests, establish which requests may coincide, who can allocate the resource and what they can know before committing it. The allocation rule must serve the permitted cases the promise covers. For a rate or forecast, evaluate the population and conditions specified in that commission.
 
 For an overload, construct the alternatives: reduce starts, stagger work within a still-useful window, obtain another qualified supplier, combine compatible performance, change the Method or change the promised result. Recalculate the affected recipients and periods. A transfer to another team is unavailable if that team already spends the same capacity elsewhere.
 

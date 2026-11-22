@@ -6,12 +6,12 @@ section_id: "F.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:1 — Problem frame"
-line_start: 130708
-line_end: 130725
+line_start: 130823
+line_end: 130840
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ F.10 is especially useful when evidence, standard and requirement statuses are m
 
 **Primary EntityOfConcern.** One status-use relation connects an admitted bearer and an admitted target, which may be the same governed object, with one local status value, one ClaimScope/use scope, one validity window and one intended receiving use. F.10 does not define or create the target and does not turn a display, source, list membership, approval act, evaluation rule, result, or evidence item into the status-use relation.
 
-**First useful move.** Recover the exact target and any direct domain result on which this status depends. Then name the status-value SchemeSenseCell and family under the effective ReferenceScheme, status scope/window, exact source and provenance/currentness constraints, intended use, and stronger use not carried.
+**First useful move.** Ask what decision or report the status must support. Which object and conditions does the governing rule cover? Recover the result needed for that target, then interpret the local status for that use. A request for the meaning of a displayed label can finish with its source-local definition (F.0.1).
 
 Recover the rule application and result when they are used. Identify dated evaluation Work separately only when that history is current and independently admitted under A.13/A.15.1.
 

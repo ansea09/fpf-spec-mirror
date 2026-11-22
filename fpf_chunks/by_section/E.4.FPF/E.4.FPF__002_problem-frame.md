@@ -6,12 +6,12 @@ section_id: "E.4.FPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:1 — Problem frame"
-line_start: 99395
-line_end: 99414
+line_start: 99446
+line_end: 99465
 dependencies:
   - "C.33"
   - "C.34"
@@ -41,9 +41,9 @@ keywords:
 
 Use this pattern when an FPF steward, framework author, reviewer, or AI agent must assemble, expose, or evaluate one FPF edition and distinguish it from its publication units, forms, presentation carriers, access routes, and domain or local dependents.
 
-Primary `EntityOfConcern`: the scoped FPF edition (`FirstPrinciplesFrameworkEdition`) being assembled, exposed, or evaluated. The first useful output is a record for rebuilding that edition.
+The primary `EntityOfConcern` is the scoped `FirstPrinciplesFrameworkEdition`. For assembly, prepare the record needed to rebuild the edition. For exposure, establish which edition the reader can actually obtain and use. For an evaluation, identify the edition under judgement and the grounds the commissioned conclusion requires.
 
-It names the first-principles scope, selected Core patterns, recurring cross-domain problems and reusable solution moves, selected publication units, particular expressions and reusable forms, independently identified publication- or access-facing carriers with actual expression-bearing relations, access routes, edition relations, and the applicable whole-FPF quality result from `E.2.DA`.
+The rebuildability record names the first-principles scope, selected Core patterns, recurring cross-domain problems and reusable solution moves, selected publication units, particular expressions and reusable forms, independently identified publication- or access-facing carriers with actual expression-bearing relations, access routes, edition relations, and the applicable whole-FPF quality result from `E.2.DA`.
 
 Add a reference identifying the competing reading only when it passes the F.19:4 test: independent local ground, plausibility for the intended reader, a change in truth, understanding, or use, and the smallest clear correction.
 

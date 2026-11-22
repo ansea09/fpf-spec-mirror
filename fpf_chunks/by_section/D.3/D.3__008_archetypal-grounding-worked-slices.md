@@ -6,12 +6,12 @@ section_id: "D.3:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__008_archetypal-grounding-worked-slices.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:5 — Archetypal Grounding (Worked Slices)"
-line_start: 97232
-line_end: 97262
+line_start: 97281
+line_end: 97311
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,7 +53,7 @@ Tension: performing the plan would advance Side A by enabling the harm named in 
 Next use: D.4 refusal or conditions; C.28 first if the harm claim needs causal support.
 ```
 
-This is enough to begin D.4 and does not decide who is responsible. If another reader must cite or revise the note, identify it as an `InterlevelEthicalConflictDescription` whose EntityOfConcern is the consulting-plan episteme.
+This description lets the parties begin mediation under D.4. If another reader must cite or revise the note, identify the `InterlevelEthicalConflictDescription` and the decision it concerns, whether to undertake the proposed work in this setting. Cite the proposal for the terms it supplies. The proposal itself becomes the EntityOfConcern when the question is what work it offers or what its terms would require if accepted. For a claim about an existing obligation, establish which terms took effect.
 
 If consulting Work later occurs, use A.13 to identify its performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency or relation detail only when that claim changes the account, using its pattern and preserving its affirmative, negative, conditional or unresolved result.
 

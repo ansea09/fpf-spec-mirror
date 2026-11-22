@@ -6,12 +6,12 @@ section_id: "A.2.6:1"
 section_title: "Problem frame - Purpose and Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__002_problem-frame-purpose-and-audience.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:1 — Problem frame - Purpose and Audience"
-line_start: 7056
-line_end: 7070
+line_start: 7048
+line_end: 7062
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -41,7 +41,7 @@ With USM, a practitioner can:
 
 * declare exact slice selectors and an exact scope predicate;
 * evaluate membership as true, false, or currently unknown;
-* combine exact scopes by intersection or independently supported union;
+* combine conditions on a common slice, trace conditions through successive stages, or establish the cases over which a claim holds;
 * translate only when exact local senses require an obtaining F.9 Bridge, a separate affirmative C.2.1 claim about this translation, and the current A.10 or B.3 reliance branch.
 
 A.2.6 defines the scope values, membership predicate, mathematical scope algebra, reusable A.6.1 operation declarations, and use boundaries. Use A.15.1 for evaluation work, A.10 for evidence, A.21 for gate decisions, and A.22 for structure selection. The practitioner decides whether and which claim to widen for the receiving use.

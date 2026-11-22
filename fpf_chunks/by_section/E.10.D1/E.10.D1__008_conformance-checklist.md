@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:7 — Conformance Checklist"
-line_start: 108984
-line_end: 109000
+line_start: 109048
+line_end: 109064
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -40,7 +40,7 @@ keywords:
 A use of `E.10.D1` conforms when it meets these conditions.
 
 1. the sentence and the action-changing ambiguity are named;
-2. one recovery branch supplies the smallest sufficient content;
+2. the recovered meaning supplies the conditions the receiving use needs, including their connection where several apply;
 3. the repaired sentence names the relevant value, relation, scope, scheme, situation, or use and the contribution of any cited pattern;
 4. source-local meaning reuses an adequate current `F.0.1` result or applies `F.0.1` when that result is absent or inadequate, then cites a basis relation only when it obtains;
 5. an A.1.1 structure is selected only when the organization of its direct facts changes the decision;

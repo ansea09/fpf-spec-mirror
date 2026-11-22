@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.42.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
-line_start: 95090
-line_end: 95445
+line_start: 95137
+line_end: 95492
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -162,7 +162,7 @@ Compare the whole burdens that can change the choice. They can include preparati
 
 Determine who bears each burden and when. Separate a transfer accepted by its bearer from an unprovided condition. A recipient's capacity limit can make a locally cheap alternative infeasible.
 
-Use compatible quantities where a calculation is useful. For a fixed number of repeated uses, a simple account can compare initial effort plus recurring effort, with separately stated exceptions and uncertainty.
+Use compatible quantities where a calculation is useful. Compare the ways under the same relevant external demand and commitments. Where the Method itself changes the number or mix of jobs, recover the jobs, repeats and exceptions that would arise under each arrangement and compare their totals. A common set of jobs answers a question about effort per comparable job. A sufficient bound may settle either choice. For a fixed number of repeated uses, a simple account can compare initial effort plus recurring effort, with separately stated exceptions and uncertainty.
 
 Do not add labour time, elapsed delay, money, failure severity and future capability into an unexplained total. C.11.CRC develops a comparison when several contributions and shared constraints make those interactions consequential.
 
@@ -170,7 +170,7 @@ Compare the joint intervention, not the sum of imagined independent gains. If a 
 
 Check the horizon and the cost of reversal. An expensive preparation may be justified by many future uses and unjustified by a single remaining occurrence. A simpler manual way can win when volume is low, conditions change rapidly or exception handling dominates.
 
-When the demand or horizon is uncertain, show which plausible change would reverse the choice. Obtain more information only when it can change a worthwhile decision.
+When the demand or horizon is uncertain, establish whether variation within the supported range could reverse the choice and what would do so. Obtain more information only when it can change a worthwhile decision.
 
 At a later decision, compare what each feasible continuation would require from the current situation. Already incurred effort is not charged again and does not by itself justify continuing.
 
@@ -228,7 +228,7 @@ These are constructed cases. Their numbers and observations are premises for ins
 
 A research group must supply a weekly packet of ten matched observations for a comparison. The recipient requires correct source identity and units, a usable comparison, and an explicit hold for unresolved rows.
 
-A separate presentation duplicates the accepted table. The recipient confirms that the table is sufficient for this use; no other current use of the presentation is found. The authorized work owner agrees to stop that duplicate output.
+A separate presentation duplicates the accepted table. The owner reviews the agreed deliveries for the eight-week period. This is the only recipient entitled to the presentation. The recipient and the work owner have authority to change its form and agree to the table in fulfilment of that delivery. The owner can then stop preparing slides.
 
 The group traces recurring correction to mismatched source editions. It can obtain the authoritative edition and check the row identities before preparing the comparison. This adds a small action but prevents the specified mismatch. The validity of the subject measurements remains a separate required condition.
 

@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 30967
-line_end: 31065
+line_start: 30995
+line_end: 31093
 dependencies:
   - "A.10"
   - "A.15"
@@ -86,7 +86,7 @@ The choices in §4.2 are intended-work content. Claims about actual occurrences,
 
 A `PlanItem` is a declaration-local content component in one `U.WorkPlan`. Its designator is interpreted inside that plan episteme. A receiving episteme may refer to this content component.
 
-Choose only the claims the team will use to coordinate the intended work. The list is an open recognition palette, not a record schema or a kind defined by enumeration. When one row mentions a neighboring relation, state its own participants and predicate rather than treating the row or reference as proof that it obtains:
+Use the recipient's required result to choose the work each item must coordinate. Where several items contribute, trace what a later item needs from an earlier one and what common resource or decision constrains them together. One item can suffice for a bounded reservation. Choose only the claims the team will use. The list is an open recognition palette, not a record schema or a kind defined by enumeration. When one row mentions a neighboring relation, state its own participants and predicate rather than treating the row or reference as proof that it obtains:
 
 1. **Target Method and description use** — identify the Method intended for enactment. When a plan claim relies on a MethodDescription, cite that episteme and the instruction, constraint or justification it supplies. A.3.2 requires the admitted Method as its exact EntityOfConcern and substantive way-of-doing claims. Call it a later edition only when the C.2.1 `EpistemeEditionRelation` obtains. The plan describes intended Work that is to enact the Method, with a System as its intended performer; the MethodDescription supplies the claims used in planning. These intended relations do not establish an actual Work occurrence.
 2. **Planned window or entry condition** — earliest start, latest finish, timebox, recurrence, blackout period, or another exact intended temporal condition.

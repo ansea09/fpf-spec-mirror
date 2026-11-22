@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.10.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
-line_start: 130702
-line_end: 131022
+line_start: 130817
+line_end: 131139
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,7 +54,7 @@ F.10 is especially useful when evidence, standard and requirement statuses are m
 
 **Primary EntityOfConcern.** One status-use relation connects an admitted bearer and an admitted target, which may be the same governed object, with one local status value, one ClaimScope/use scope, one validity window and one intended receiving use. F.10 does not define or create the target and does not turn a display, source, list membership, approval act, evaluation rule, result, or evidence item into the status-use relation.
 
-**First useful move.** Recover the exact target and any direct domain result on which this status depends. Then name the status-value SchemeSenseCell and family under the effective ReferenceScheme, status scope/window, exact source and provenance/currentness constraints, intended use, and stronger use not carried.
+**First useful move.** Ask what decision or report the status must support. Which object and conditions does the governing rule cover? Recover the result needed for that target, then interpret the local status for that use. A request for the meaning of a displayed label can finish with its source-local definition (F.0.1).
 
 Recover the rule application and result when they are used. Identify dated evaluation Work separately only when that history is current and independently admitted under A.13/A.15.1.
 
@@ -91,7 +91,7 @@ A compact status label is useful and easy to misread. The same label often hides
 
 ### F.10:4 - Solution
 
-Recover the governed target and direct result before applying a local status. Treat status value, status-use occurrence, status assertion, source, evaluation, display, and receiving use as distinct.
+Start from the claim the recipient needs to use. An adopted status rule can already fix the target, population, window and result needed. When you must select them, ask what change would alter the answer under the rule. Changing one component can change its own status while a redundant service remains available. Keeping the component totals fixed can also change the service outcome if their failures coincide. Follow the relation on which the status depends. Use a direct result about the service if it settles the question. Treat status value, status-use occurrence, assertion, evaluation and display as distinct.
 
 #### F.10:4.1 - Three status families
 
@@ -153,7 +153,7 @@ A distinct C.2.1 status-assertion episteme states affirmative or negative polari
 
 Use this order:
 
-1. name the receiving question and exact target;
+1. identify what the recipient must decide and use the governing clause or question to select the target and the scope of the assertion;
 2. recover the target's identity and direct governor;
 3. recover any measurement, formal, causal, conformance, diagnostic, comparison, acceptance, requirement-evaluation, gate, assurance, permission, or decision result under its own pattern;
 4. identify the C.2.1 episteme that states that result;
@@ -260,6 +260,8 @@ The SLO clause and service target are independently recovered. Dated evaluation 
 
 If the comparison relies on a semantic correspondence between the monitoring and service-management senses, test the F.9 Bridge and the bounded use. If the evaluation draws on the `Measured` status itself, use `StatusInterpretationRelation` to check whether the rule admits that status for the clause question. The measurement, evidence status, bridge, interpretation, evaluation work/result, requirement status, dashboard display, gate, assurance, and release decision remain distinct.
 
+For a different July clause, suppose the service is available whenever either of two channels is available and the promise allows no interruption. Each channel was down for one hour. If those hours coincided the promise was missed. If they were disjoint it was met. Recover the overlap, or a direct service observation that settles it. A question about the recorded downtime of one channel can use that channel’s result directly.
+
 #### F.10:5.2 - Approved method description
 
 One exact safety-controller MethodDescription is `StandardStatus=Approved` only under the named standard/profile edition, source relation, scheme, scope, window, and selection use. That status neither creates the MethodDescription nor proves an approval speech act, permission, method enactment, or response-time satisfaction.
@@ -294,7 +296,7 @@ None of those use facts establishes System admission, a local system-role classi
 
 | Check | Pass question |
 | --- | --- |
-| `CC-F10-01` Target and direct result | Are the exact target, target identity, direct governor, and any consumed domain result/result episteme recovered before status is applied? |
+| `CC-F10-01` Target and direct result | Do the chosen target and scope answer the recipient’s question? Are the identity, governing rule and any domain result used as a premise established for that target? Where a conclusion about the whole depends on the arrangement of parts, do the inputs or a direct result establish what the rule requires? |
 | `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status pattern? |
 | `CC-F10-03` Use occurrence | Are bearer, target, value, scheme, scope, window, intended use, and direct obtaining basis explicit? |
 | `CC-F10-04` Source | Are source assertion/register, edition/order rule, provenance path, and G.11 currentness result recovered when they decide use? |
@@ -319,7 +321,7 @@ None of those use facts establishes System admission, a local system-role classi
 | Status defines target | A `Ready` or `Approved` row is treated as constituting a service, method, clause, person/team state, or product. | Recover target identity under its direct governor before status application. |
 | Status badge or list membership as use | Display, list, or row membership is treated as source, status application, gate passage, or reliance. | Recover assertion/source and the separate actual receiving-use relation. |
 | Clause-less compliance | *Compliant* is asserted without an exact clause, target, rule, scope, conditions, and window. | Recover the clause and direct evaluation result. |
-| Bridge-free roll-up | A dashboard aggregates local labels as global synonyms. | Use exact cells and F.9 occurrences, or downgrade to local explanation. |
+| Bridge-free roll-up | A dashboard aggregates local labels as global synonyms. | Establish the rule by which the component results support the displayed conclusion and check its conditions. Use F.9 when a separate correspondence between local meanings is needed. |
 | Bridge/family edge as explanation | A Bridge or `EvidenceStatus -> RequirementStatus` arrow is treated as direct reason. | Name the `StatusInterpretationRelation`, exact rule, evaluation application, and result. |
 | Evidence escalation without independence | One repeated lab result is called replicated. | Keep the supported status; assert `Corroborated` only after its independent-support rule passes, or `Replicated` after independent work or varied declared conditions and their results satisfy its rule. |
 | Status role for episteme | A report, standard, or requirement is said to ‘hold a role’. | Use the A.2.4 and F.10 use relations. They establish neither System admission, local system-role classification, nor an assignment. If the receiving claim needs an assignment, name the admitted System, declared assignment species and occurrence, and that System as its holder. |

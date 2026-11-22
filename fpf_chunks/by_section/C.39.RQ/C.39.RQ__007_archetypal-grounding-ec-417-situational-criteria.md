@@ -6,12 +6,12 @@ section_id: "C.39.RQ:5"
 section_title: "Archetypal Grounding — EC-417 Situational Criteria"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__007_archetypal-grounding-ec-417-situational-criteria.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:5 — Archetypal Grounding — EC-417 Situational Criteria"
-line_start: 89377
-line_end: 89440
+line_start: 89423
+line_end: 89486
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -54,7 +54,7 @@ Responsibility, access, capability, assignment, permission, authority, performed
 | `SC-EVID-01` | provisional and signed hardware-evidence inputs, their relation, and the safety-closure guard | provisional evidence may be used before closure only with edition and uncertainty; signed evidence supersedes it for safety-closure reliance, while the provisional edition, uncertainty, earlier Work use, and relation to the later signed evidence remain traceable | version/uncertainty fields, earlier-use record, signed supplier evidence, and inspectable provisional-to-signed relation; missing signed evidence at closure stops release |
 | `SC-REV-01` | integration Work and the implementation state | rollback remains possible within one hour until `D-1`; the project may choose a signed-first or provisional-first branch before entry | replayable rollback demonstration for the current toolchain; inability to restore within one hour is `failed` for an early-integration route |
 | `SC-CAP-01` | hardware-verification and safety-evidence capabilities of the named performers | hardware verification and safety evidence judgment require current capability for the named controller, rig, and safety scope; capability grants neither assignment, permission, nor release authority | current capability evidence for each named performer; the separate assignment, permission, and decision-authority conditions must also hold, and missing capability stops the contribution that needs it |
-| `SC-TECH-01` | PLM/CI support, pinout schema, test-rig access, and their relations to Work | the evidence version used by integration remains recoverable; required verification has a named rig/access route; equivalent tools are allowed when they preserve the same result and evidence conditions | configuration, schema-edition, and access records; an unknown input edition or unavailable verification route is `unknown` and blocks reliance |
+| `SC-TECH-01` | PLM/CI support, pinout schema, test-rig access, and their relations to Work | the evidence version used by integration remains recoverable; required verification has a named rig/access route; equivalent tools are allowed when they preserve the same result and evidence conditions | configuration, schema-edition, and access records; an unidentified material edition leaves its dependent conclusion open. A route known to be unavailable rules out that route. Check whether another permitted route supplies the required verification |
 | `SC-BURDEN-01` | safety-engineer allocation on the peak safety day | safety demand stays at or below `0.40` of an eight-hour day (`3.20 h`); burden shifted to another performer remains visible rather than disappearing | allocation and time estimate for the selected day; demand above `0.40` is `failed` for the proposed structure, not proof that any one Method is unfit |
 | `SC-BOARD-01` | each joint-board Work occurrence | each board lasts at most 45 minutes; one or two boards are allowable when the evidence and burden criteria remain satisfied | planned duration, with an actual-duration record for a performed board; a proposed or performed board above 45 minutes fails the coordination-burden criterion |
 | `SC-STOP-01` | `W-ReleaseDecision-17`, its covering assignment, `AUTH-ReleaseDecision-17`, and the receiving result | no release occurs without signed evidence, required verification, a covering assignment, and the release-decision authority relation; delay to a later authorized slot is allowable | release record citing evidence, assignment, authority relation, and decision result; any missing non-negotiable yields withhold or next-slot, not silent waiver |
@@ -65,7 +65,7 @@ A later individual qualification may apply contribution, capability, access, and
 
 A later architecture comparison must inspect combined peak demand, timing, covering assignments, permission and decision-authority relations, provider access, and burden transfer. Passing one row or staying below `0.40` does not establish fit of the whole proposed structure.
 
-The criteria set is adequate for its next use when every non-negotiable row has an observable test, the remaining variations are explicit, and unknowns are routed to their subject.
+In this case the criteria are sufficient for use when they distinguish the arrangements that meet the receiving terms, including the relations among the required contributions. A test for every listed row can still miss the requirement that the evidence and the integration decision concern the same configuration.
 
 Apply each stop to the route that depends on it: missing signed evidence stops release; confidential geometry exposure stops AI-supported use; assignment, permission, authority, capability or verification gaps stop the contributions that require them. Rollback beyond one hour excludes early integration; excess peak demand or board duration excludes the proposed arrangement.
 

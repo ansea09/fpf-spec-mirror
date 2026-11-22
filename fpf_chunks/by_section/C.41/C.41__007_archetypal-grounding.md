@@ -6,12 +6,12 @@ section_id: "C.41:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__007_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:5 — Archetypal Grounding"
-line_start: 94178
-line_end: 94221
+line_start: 94225
+line_end: 94268
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -59,7 +59,7 @@ The worked case below explains those conditional moves. Resume at the unresolved
 
 **Fitting.** C.41.OF puts the questions in the preparation workspace, with the description accessible before the box closes. The packer reports physical conditions; the facilitator compares wording. An assisted first use reveals an ambiguous readability condition, which returns to criterion construction and help.
 
-**Use and change.** C.41.UA supplies answers from observations at 10:00, 10:05 and 10:10, entered at 10:12. At 10:15 the description changes to v3. Known unchanged v2 cards already mismatch it. If current cards may differ, current wording is instead unknown. The facilitator decides to keep v3 and replace the affected card, then obtains the changed comparison and any physical checks affected by handling. The old v2 answer remains historical.
+**Use and change.** C.41.UA supplies answers from observations at 10:00, 10:05 and 10:10, entered at 10:12. At 10:15 v3 changes one phrase used on the cards. Known unchanged v2 cards already mismatch it. If current cards may differ, current wording is instead unknown. The facilitator decides to keep v3 and replace the affected card, then obtains the changed comparison and any physical checks affected by handling. The old v2 answer remains historical.
 
 **Worth and improvement.** A representative trial through [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) observes whether the aid catches the wording problem, whether users can interpret the questions, and how much time or duplicated work it adds. [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) compares that contribution with burden across the preparation work. A timely wording check can avoid reopening, replacing and repacking the set; completing the checklist faster is no gain if it misses that problem or merely moves the delay elsewhere. If a conversation at packing already prevents the omission with less cost, retain the conversation and retire the redundant aid. If the aid is useful but its description is hard to find, [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) selects that focused improvement rather than enlarging the list.
 

@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 98926
-line_end: 99219
+line_start: 98977
+line_end: 99270
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -37,7 +37,7 @@ Apply C.39's general construction and explanation to the framework reader's recu
 
 #### E.4.CM:4.1 - Recover the working question before assigning parts
 
-Start with the practitioner, working situation, sought result and conditions that make the result useful. Recover a worked attempt, a failure or a sufficiently explicit proposed case. Keep the original need when exploring a smaller attainable result. If the difficulty is not yet named, follow an ordinary result to its receiving use with B.5.PI: a document can have been delivered while its recipient still cannot continue the work.
+Start with the practitioner, working situation, sought result and conditions that make the result useful. Recover how the practice is supposed to produce that result. A general argument, an actual attempt, a failure or the proposed conditions can supply the grounds. Select the material for what it can establish. Keep the original need when exploring a smaller attainable result. If the difficulty is not yet named, follow an ordinary result to its receiving use with B.5.PI: a document can have been delivered while its recipient still cannot continue the work.
 
 Who requested the result, what did the performer agree to supply, and who will use or accept it? Distinguish a proposed change of product or date from the revised undertaking the parties actually agreed. Where the conclusion depends on a handover, establish the act the agreement calls for and what shows that it occurred. Depositing an identified report can finish an order to deliver it. If the order requires acceptance, identify who can accept it and which act has that meaning under the agreement. An approved result from a supplier can finish an order to obtain it. When the reader must devise the way of working, identify the decisions they must make with the information and help available to them. When their assignment is to find out what result is needed, begin with the actions of its prospective users. If two interpretations would change the promised action, find out who can settle the difference. If both support the same action and its required justification, give that answer while the other difference remains open.
 
@@ -148,7 +148,7 @@ A practical-use card or long mantra can remind a reader how to use one composite
 
 Discover useful combinations from recurring situations as well as from named patterns. Follow a result that readers repeatedly struggle to use, or a connection they repeatedly invent. Compare the methods, rules and worked constructions supplied by independently developed patterns and earlier treatments. Reuse a complete available construction; where none exists, develop the missing joins through §§4.1–4.6. A combination need not have been assembled in one source before the author can construct it. Conversely, co-occurrence in a source or a long list of relevant patterns does not establish a useful combination.
 
-Do not require every public Method to have a separate card. Start from a recognition problem that changes use. The short form may omit detail available in the explanation it points to; it must retain the conditions that determine the first move and when to stop.
+Choose a short form when it helps a reader recognize or perform the Method. A reminder can point to a full explanation available at the moment of use. A separately issued assignment must itself preserve the work entrusted to its reader, the choices it leaves open and the information available when those choices are made.
 
 When a supplier or receiving condition changes, return to the affected connection and encompassing uses. Separate permitted Method variation from a different Method with A.3.1 when that question matters. B.1.5.RS governs replacing a constituent; E.19 governs a corresponding pattern-edition change. Retain the explanation's useful conditions even when a shorter public form is desired.
 
@@ -277,7 +277,7 @@ For a production result, ask:
 - Does the language keep Method identity separate from body allocation?
 - Can the reader identify where to return when a premise changes?
 
-When the promised use spans several patterns, challenge at least the material relation on which that use depends. Broaden a check when the dependency boundary is unknown, not merely because the language is large.
+When the promised use spans several patterns, follow the contributions the reader needs into the same receiving work. Establish their compatibility wherever that work depends on it. One argument may establish several connections. Where only one contribution has been checked, return its result and identify the connections still open. Broaden the inquiry when the dependency boundary is unknown.
 
 ##### E.4.CM:4.8.8 - Common Anti-Patterns and How to Avoid Them
 

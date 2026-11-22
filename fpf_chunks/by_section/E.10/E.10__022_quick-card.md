@@ -6,12 +6,12 @@ section_id: "E.10:20"
 section_title: "Quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__022_quick-card.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:20 — Quick card"
-line_start: 107164
-line_end: 107172
+line_start: 107228
+line_end: 107236
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 ### E.10:20 - Quick card
 
-> Read the complete natural span with `F.19`. Use E.10 cues to notice an overloaded head, doubtful agentive or causal predicate, ungrounded contrast, missing operand or referent, grouping or list pressure, loaded qualifier, or source/representation ambiguity. If ordinary meaning settles it, repair the text and stop. Otherwise open one exact lexical or subject route. The result is repaired text or a blocker, never a mandatory form or catalogue of possible meanings.
+> Read the complete natural span with `F.19`. Use E.10 cues to notice an overloaded head, doubtful agentive or causal predicate, ungrounded contrast, missing operand or referent, grouping or list pressure, loaded qualifier, or source/representation ambiguity. Try the wording against the reader’s original task. When the claim and its grounds are clear enough for that task, keep or repair the text and stop. Where its subject, composition scale, model distinctions or entrusted choice shift, return through F.19:4.3.1.1. Open a subject rule for the distinction still needed. The result is repaired text or a blocker, never a mandatory form or catalogue of possible meanings.
 
 - Use sections 5–9 only for the selected register, token, morphology, or overloaded-head problem.
 - Use `E.10.ARCH` only while fact, declaration, report, and representation remain confused; use the subject pattern directly once the claim is clear.

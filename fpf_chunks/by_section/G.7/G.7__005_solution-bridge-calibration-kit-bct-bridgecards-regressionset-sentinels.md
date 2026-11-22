@@ -6,12 +6,12 @@ section_id: "G.7:4"
 section_title: "Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__005_solution-bridge-calibration-kit-bct-bridgecards-regressionset-sentinels.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:4 — Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
-line_start: 139471
-line_end: 139753
+line_start: 139606
+line_end: 139890
 dependencies:
   - "A.21"
   - "B.3"
@@ -173,7 +173,9 @@ payloadPins: { BCT.id, RegressionSetId, FreshnessWindowRef, affected RowEntryId[
 
 #### G.7:4.3 - Minimal calibration procedure
 
-For each correspondence selected for calibration, grouped by Tradition pair and comparable construct:
+When a practitioner must choose what to calibrate for a particular comparison, start at the receiving end. Identify the distinction its conclusion depends on. Find how each tradition expresses that distinction, at the level of the objects actually compared. A rule about every member of a collection and a summary of the collection may concern the same members yet support different conclusions. Consider two cases the proposed source description treats alike. If the target question requires different answers, look for a finer source distinction, combine it with another established premise, or limit the transfer to what both cases support. Show which source conclusions warrant which target conclusions. Reverse use needs grounds in that direction. A correspondence commissioned for calibration in its own right can start at its given endpoints.
+
+For each selected correspondence, grouped by Tradition pair and comparable construct:
 
 1. **Recover the correspondence being calibrated.** For an F.9 row, resolve the exact F.17 sense cells and profile, then produce or reuse its BridgeCard. A kind-channel row cites the C.3.3 kind endpoints and assertion; a plane row cites its own relation and rule. A coarser source label must be resolved to those actual endpoints before calibration.
 2. **Record row scope and losses.** Assign a `RowScopeId` and give each loss a citable reference, such as a `LossNoteRef`.

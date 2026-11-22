@@ -6,12 +6,12 @@ section_id: "C.32.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:4 — Solution"
-line_start: 80626
-line_end: 80840
+line_start: 80660
+line_end: 80874
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -207,7 +207,7 @@ The output of this operation is a qualified component use or a named missing res
 
 #### C.32.LCA:4.10 - Compare the whole arrangements and the work of changing them
 
-Compare candidates under the same required outcome, disturbances, resources, observation conditions and relevant horizons. A faster local algorithm evaluated on an easier demand is not a faster realization of the original problem. A delegated decision evaluated without its coordination and training cost is not the same organizational proposal.
+Compare candidates for the same required outcome, external demand and disturbances over comparable horizons. Hold baseline resources and information conditions comparable. Where a candidate changes sensing, provision, authority or timing, include the work of obtaining that change and the conditions under which it can operate.
 
 Separate an unavailable candidate from a costly feasible one, and both from a candidate whose consequential premise remains unknown. Compare the coordinates that can change the decision: useful result, delay, constraint exposure, effort, computation, scarce capacity, participant burden, flexibility and recovery. A mathematical optimum remains relative to its model and objective; a project choice also has to respect its obligations.
 
@@ -227,7 +227,7 @@ Explain the result in the ordinary form needed by its users. It must make recove
 - the participants, decisions and available interventions;
 - the information, exchange and timing that connect them;
 - the jointly feasible conditions, continuation and exception response;
-- the alternative, accepted cost and basis of the present choice;
+- the alternative, accepted cost and grounds of the choice when a choice was requested and made;
 - the changed observation or condition that requires a different decision.
 
 These are content requirements, not a mandatory record or a demand to model every relationship in the enterprise.

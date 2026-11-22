@@ -6,12 +6,12 @@ section_id: "E.13:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__011_consequences.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:12 — Consequences"
-line_start: 112512
-line_end: 112519
+line_start: 112578
+line_end: 112585
 dependencies:
   - "A.10"
   - "A.21"
@@ -42,7 +42,7 @@ keywords:
 
 - FPF can use scores and metrics without making them the object of optimization.
 - Improvement loops gain a simple value-proxy stop condition.
-- Practical payoff claims need at least a small value slice.
+- An expected consequence can follow from the structure of the work. A claim about achieved improvement needs evidence of the work and an appropriate comparison.
 - Some attractive proxy improvements are rejected, split, or lowered.
 - The cost is a small proxy-to-value check whenever a visible measure becomes a target, incentive, gate, release argument, or repair target.
 

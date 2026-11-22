@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 110298
-line_end: 110773
+line_start: 110362
+line_end: 110837
 dependencies:
   - "A.13"
   - "A.15"
@@ -40,7 +40,7 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 #### E.11.PUA:4.0 - Cheap first screen before formal work identity
 
-Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
+Start with five ordinary values: the working subject, the question the recipient commissioned, the selected pattern's `Solution`, the first useful result or blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result serves that use and the boundary tells the practitioner what has been accomplished.
 
 When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Follow the selected method through its first useful completion, including any prescribed fields or records. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
 
@@ -62,7 +62,7 @@ Open these distinctions only when candidate retention, selection, result declara
 
 #### E.11.PUA:4.1 - The ordinary seven-step use
 
-Before making any pattern-use record, answer: “What exactly do I have now, what is the smallest useful result, and what would make me stop or return?”
+Before making any pattern-use record, ask what the recipient needs to decide, explain or do. What can this use of the pattern establish for that work? Stop when the commissioned result is available. If this result is one premise, carry it back to the outstanding question.
 
 1. **Recognize the working situation.** Name the subject or relation in ordinary domain language and ask the current practical question. State an exact kind now only when a nearby kind difference can change the pattern or result.
 2. **Inspect one direct pattern.** Read its Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and nearest stronger neighbor. Do not select from its title or one trigger word alone.

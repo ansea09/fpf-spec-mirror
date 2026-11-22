@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.Core.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
-line_start: 135577
-line_end: 136010
+line_start: 135697
+line_end: 136132
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -114,6 +114,8 @@ This pattern also governs four pieces of Part‑G‑wide infrastructure that are
 #### G.Core:4.2 - State the applicable G.Core linkage
 
 Each Part-G pattern makes its applicable core obligations, pins, defaults and refresh triggers recoverable. A direct reference with its use conditions is sufficient; `GCoreLinkageManifest` provides a compact representation when several shared sets are used.
+
+Start from the use the recipient has commissioned. Follow the result they need back to the contributions, relations and rules it depends on. To supply an existing result, establish which result the recipient needs and the conditions for relying on it. If the work calls for comparison, an author asked for the governing default can finish by locating the rule and establishing that its conditions hold. An author entrusted with designing the comparison can use G.0:4.5.1 to choose its subjects and basis. The entries below identify governing definitions for the operations actually used.
 
 * Cite `G.Core` and the governing definitions of the obligations used.
 * When using a `GCoreLinkageManifest`, identify the applicable sets or individual ids:

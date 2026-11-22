@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 76687
-line_end: 76702
+line_start: 76721
+line_end: 76736
 dependencies:
   - "A.10"
   - "A.15"
@@ -76,5 +76,5 @@ keywords:
 | `CC-C30STRAT-9` | A consequential level claim names the subject, says what is being ordered, compared, grouped, or mapped and how, states when the claim applies, and marks it as asserted, proposed, assumed, or illustrative. No list, diagram row, first-then order, carrier section, curriculum, scale label, stage sequence, or coarse-grained description supplies that claim by form. |
 | `CC-C30STRAT-10` | A label is treated as a designation in one bounded source use. Any model, viewpoint, standard, or local-vocabulary meaning is preserved in that use without becoming a universal kind or relation. |
 | `CC-C30STRAT-11` | An architecture-description element is distinguished from the architecture or other world-side subject it describes; any claimed subject relation is stated and tested separately. |
-| `CC-C30STRAT-12` | Controlled-language repair is used only when ambiguity changes reader action. It shortens or splits the sentence without deleting clear subject-specific terminology or choosing ontology from an approved-word list. |
+| `CC-C30STRAT-12` | Clarify a label when its plausible readings change what the recipient can explain, infer or do. Keep a well-defined local term and identify the relation that supports the reading. |
 

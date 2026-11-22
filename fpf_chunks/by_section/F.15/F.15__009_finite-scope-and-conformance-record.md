@@ -6,12 +6,12 @@ section_id: "F.15:7"
 section_title: "Finite scope and conformance record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__009_finite-scope-and-conformance-record.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:7 — Finite scope and conformance record"
-line_start: 132321
-line_end: 132371
+line_start: 132438
+line_end: 132488
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 ### F.15:7 - Finite scope and conformance record
 
-Declare the finite scope before applying a rule:
+A check of supplied entries may finish with their individual results. For a claim that they can be used together, start with what someone would do with the combined result. Could all the proposed local checks pass while that action was still unwarranted? Vary the connections the current selection leaves open, including a shared condition or a difference lost in translation. Include the relation or a direct result that resolves the consequential difference. Stop extending the slice when the remaining variation cannot change the commissioned conclusion or the grounds the reader needs. Declare the resulting finite scope before applying its rules.
 
 ```text
 FiniteHarnessScope:

@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 120692
-line_end: 120727
+line_start: 120778
+line_end: 120813
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -56,7 +56,7 @@ Review collapses into heading compliance or personal taste. A draft can pass bec
 
 `E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition text visible before the more detailed assurance checks.
 
-**First useful move.** Name the reviewed pattern edition or subset and the admission or refresh question. Select `PCP-BASE` plus only the risk profiles the question needs. Inspect the affected loci, then repair and verify each defect or return the actionable findings.
+**First useful move.** Recover what the intended practitioner must be able to do from the request for the pattern or the practice it serves. Compare that work with what the named edition or subset actually teaches. Use the difference to frame the admission or refresh question and select `PCP-BASE` and the risk profiles it needs. Inspect the affected passages, then repair and verify each defect or return the actionable findings.
 
 **Local-repair boundary.** If baseline triage shows that the review question has no ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Apply further profiles only for risks the question raises. Claim an `E.21` quality value only if `E.21` has evaluated the pattern version over its required coordinate set.
 

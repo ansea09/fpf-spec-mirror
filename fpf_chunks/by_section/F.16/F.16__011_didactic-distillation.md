@@ -6,12 +6,12 @@ section_id: "F.16:10"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__011_didactic-distillation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:10 — Didactic distillation"
-line_start: 132883
-line_end: 132886
+line_start: 133002
+line_end: 133005
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,5 +50,5 @@ keywords:
 
 ### F.16:10 - Didactic distillation
 
-> “Start with one practical question and one claim. Name the actual values involved and the pattern that defines each relation. Cite the exact source and evidence. Use a local-meaning cell only when you need a stable address; use a comparison table only when it makes the argument easier to read; use F.9 only when a real relation between local meanings is part of the case. State the result, its limits, and a few checks. The page displays the reasoning—it does not create it.”
+> “Choose the case for the distinction the recipient needs to understand or use. Start with its practical question and show the claim it helps establish. Name the actual values involved and the pattern that defines each relation. Cite the exact source and evidence. Use a local-meaning cell only when you need a stable address; use a comparison table only when it makes the argument easier to read; use F.9 only when a real relation between local meanings is part of the case. State the result, its limits, and a few checks. The page displays the reasoning—it does not create it.”
 

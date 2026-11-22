@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
-line_start: 114101
-line_end: 114557
+line_start: 114173
+line_end: 114629
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -180,7 +180,7 @@ When you name a family designator for a describing use, resolve catalogue editio
 - every candidate episteme E used under a member is independently identified under C.2.1 and is a `U.View` only when `EpistemeViewpointConformanceRelation(E,P)` obtains; and
 - every one-viewpoint selection for one describing use carries a single `viewpointRef`; importing the family neither selects P for that use nor establishes conformance.
 
-A local subset names catalogue edition L, the source family designator, and the member references actually used, and identifies omitted members as unused or intentionally excluded.
+A local subset identifies its source catalogue edition L, family designator, members used and omissions. When the project also asks you to choose a subset for a practical question, use §14.1.
 
 A multi-library use preserves each `<editionDesignator(L), familyDesignator>` source and member provenance rather than flattening everything into one unnamed family. If one use selects several viewpoints, it constructs their C.13 collection with membership. It does not overload one reference or infer a new family from adjacency.
 
@@ -333,7 +333,7 @@ A `MultiViewDescribing` use may import only a subset of a bundle's viewpoint ref
 - which viewpoint members are in local use,
 - and whether the omitted members are unused or are intentionally excluded because the local scope does not require them.
 
-The local family must not speak as if it had imported the whole bundle while silently dropping inconvenient viewpoints.
+To choose a subset, recover the question the descriptions must answer. Which claims would let the recipient act or explain the result? Select the viewpoints whose rules call for those claims. A single member may cover a whole service. If the decision depends on how two parts of the service work together, establish that the descriptions can be related under the conditions of that decision. If the catalogue leaves a needed claim uncovered, identify where to obtain it. A commission confined to importing a specified subset ends when its members and provenance are recoverable.
 
 #### E.17.1:14.2 - Local overlays vs new bundles
 
@@ -467,7 +467,7 @@ Local teaching aliases may be added for readability, but the alias must identify
 ### E.17.1:19 - Bundle Projection and Comparative Use
 
 #### E.17.1:19.1 - Projection to local subsets
-A description family may project only a subset of a reusable bundle. This is admissible if the description of the local subset identifies the omitted members. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
+A description family may project only a subset of a reusable bundle. Identifying omitted members makes the extent of the import clear. Use §14.1 to judge whether the subset will serve a particular question. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
 
 #### E.17.1:19.2 - Comparative bundle use
 
@@ -484,7 +484,7 @@ A reviewer can test a viewpoint bundle library with five questions:
 
 1. **Do the member viewpoints still have explicit standalone meaning?**
 2. **Does the declaration retrieved by the family designator describe one coherent recurring family rather than one convenience list?**
-3. **If a subset is imported, can the reviewer see which members were omitted?**
+3. **Can the reviewer see which members were omitted and, if the subset is recommended for a task, how the retained descriptions can support that task?**
 4. **If several bundles interact, is provenance preserved, and does each comparison use its subject method with F.9 added only for a semantic relation between distinct local senses?**
 5. **Has a publication face started impersonating the library?**
 

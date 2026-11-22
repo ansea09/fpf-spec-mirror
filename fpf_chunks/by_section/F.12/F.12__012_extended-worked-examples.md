@@ -6,12 +6,12 @@ section_id: "F.12:11"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__012_extended-worked-examples.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:11 — Extended worked examples"
-line_start: 131462
-line_end: 131485
+line_start: 131579
+line_end: 131602
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
 
 Promise content: p95 end-user latency ≤ 200 ms per region per month. Delivery Work population: delivery occurrences per region in that month. Evidence: response-time observations tagged by region and path. If probes measure the promised characteristic directly, use C.16 and A.10 without a proxy. If they indicate a distinct user-experience characteristic, name the exact probe-to-user relation, its defining or testing pattern, and last-mile loss.
 
-Evaluation Work applies the regional rule to its observations. A numerical p95 needs a nonempty population with the required measurement basis. If the population was empty, use the contract’s specified empty-region treatment. Missing observations alone do not establish an empty region. A global all-regions statement is a separate logical aggregation of those results or statuses, not a property of a table row.
+Evaluation Work applies the regional rule to its observations. A numerical p95 needs a nonempty population with the required measurement basis. If the population was empty, use the contract’s specified empty-region treatment. Missing observations alone do not establish an empty region. A single region that breaches its threshold suffices to reject a promise made to every region. To accept it, the evidence must cover them all. A separate promise about the pooled population uses that population’s latency distribution and can give a different answer.
 
 #### F.12:11.2 - Stroke care door-to-needle
 

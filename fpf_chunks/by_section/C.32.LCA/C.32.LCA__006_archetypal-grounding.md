@@ -6,12 +6,12 @@ section_id: "C.32.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:5 — Archetypal Grounding"
-line_start: 80841
-line_end: 80914
+line_start: 80875
+line_end: 80948
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -58,7 +58,7 @@ The set of targets satisfying both conditions must be nonempty; it is nonempty h
 
 The error bound must describe the current state. A bound for a stale measurement cannot be reused without accounting for intervening motion. If the tracker also loses its state measurement, its response equation and the convexity argument need reconsideration. Replacing it with a learned policy likewise reopens the calculation: the old response equation no longer supplies its proof.
 
-This case shows the common method's contribution: recover the violated join, compare a governor with joint redesign, construct the admissible interface, calculate its consequence for the goal, and reopen the affected condition when observation or policy changes.
+This example derives the governor interface, proves the stated bound and identifies the conditions on which continued operation depends. A choice between the governor and joint redesign also needs the response, cost and changeover conditions of the redesigned arrangement.
 
 #### C.32.LCA:5.2 - Obtain a timely organizational decision
 
@@ -83,7 +83,7 @@ Compare three changes to the arrangement.
 
 A forecast of a likely change can allow reversible preparation before approval. Establish which materials or capacity may be reserved, what another job loses, and how the reservation is released if the forecast changes. Printing an unapproved final panel is a different action with different consequences.
 
-The installer checks the panel in place and reports completion or a problem to the coordinator. The table bounds physical installation. If the venue also needs confirmation by 16:00, include time for this check and report or establish that the approved release already covers them. A missing report leaves the installation status open. One person may perform several contributions when the demands still fit. Their number does not determine a management hierarchy.
+The installer checks the panel in place and reports completion or a problem to the coordinator. The table bounds physical installation. If the venue also needs confirmation by 16:00, include time for this check and report or establish that the approved release already covers them. If the report is missing, examine any other evidence of installation. Receipt of a confirmation is a separate result when the venue has commissioned it. One person may perform several contributions when the demands still fit. Their number does not determine a management hierarchy.
 
 The timing implication is mathematical under its premises. The premises about people, authority, resources and duration need organizational support and observation; they are not supplied by the equation. In actual use, distinguish a committed service bound, an empirical estimate and a planning assumption.
 

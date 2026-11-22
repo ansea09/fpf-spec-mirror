@@ -6,12 +6,12 @@ section_id: "A.15:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:7 — Conformance Checklist"
-line_start: 30120
-line_end: 30139
+line_start: 30148
+line_end: 30167
 dependencies:
   - "A.10"
   - "A.13"
@@ -74,7 +74,7 @@ keywords:
 | **CC-A15-4** | For precise assignment-bound attribution, trace the A.13-qualified `H` through the same obtaining assignment `RA`, then `W -performedUnderAssignment-> RA`, `RA.HolderSystemSlot -> H`, and `W -enactsMethod-> M`. Cite characteristic profile, MethodDescription, plan, capability, source, and evidence separately only when relied on. | Preserves one inspectable A.13→A.15.1→F.6 chain without turning interpretation metadata into participants. |
 | **CC-A15-5** | Keep system-role kinds, capabilities, fit predicates, Methods, and evidence or assurance records out of `partOf` hierarchies unless another direct pattern admits a structural relation. | Blocks classification, evidence, and assurance as parts. |
 | **CC-A15-6** | Attribute resource use to dated Work through obtaining relations, not to a MethodDescription, WorkPlan, capability, assignment, or fit predicate. | Keeps costs with performance. |
-| **CC-A15-7** | Use `U.WorkPlan` for intended Work and identify actual Work independently. | Stops schedule-as-performance drift. |
+| **CC-A15-7** | For prospective coordination, show how the necessary intended contributions, their handoffs and shared conditions support the promised result in the WorkPlan. Identify any claimed actual Work independently. | A proposed allocation can settle a planning decision before the performances or their attribution are known. |
 | **CC-A15-8** | Resolve ambiguous *process*, *workflow*, *activity*, *schedule* or *role* wording through F.19 and the applicable E.10 rule. Retain ordinary wording whose meaning is already clear. | A cue prompts inspection rather than automatic formalization. |
 | **CC-A15-9** | State `enactsMethod` and `performedUnderAssignment` separately. Only the admitted holder System with its A.13 core performs Work; a profile is conditional. A capability or algorithm-possession phrase proves neither performance nor MethodDescription membership. Spontaneous physical evolution without this alignment is not Work. Use A.3.4 to identify an actual bounded change, and A.3.3 when a `U.Dynamics` episteme describing its state space and transition law is needed. | Prevents kind, assignment, capability, Method, description, plan, dynamics, and records from becoming actors. |
 | **CC-A15-10** | Treat a speech act that institutes an assignment, authorization, or gate-relevant effect as its own Work occurrence only when A.15.1 admission and the effect relation obtain. | Keeps the communicative Work distinct from later operational Work. |

@@ -6,12 +6,12 @@ section_id: "G.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__008_conformance-checklist-normative.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:7 — Conformance Checklist (normative)"
-line_start: 138199
-line_end: 138220
+line_start: 138330
+line_end: 138351
 dependencies:
   - "A.10"
   - "A.13"
@@ -69,7 +69,7 @@ keywords:
 | **CC‑G4‑06**      | Every `CAL.Flow` declares its result kind and the set of gating acceptance clauses; any thinning/selection‑aid policies (e.g., ε‑front selection) are explicitly policy‑bound and do not silently replace the underlying result kind.                                                                      |
 | **CC‑G4‑07** | Every `CAL.EvidenceProfile` declares the provenance anchors, evidence lanes, and currentness or loss-policy pins its use needs. It cites `DefaultId.GammaFoldForR_eff` for B.3/C.2.2 support-model discipline and pins any numerical Γ-fold actually used. That calculation must preserve input meanings, scales, dependencies, formal/empirical distinctions, and mapping limits; absent a common model, retain separate support and a bounded synthesis. The selected receiving model determines which results a numerical loss consequence affects, including whether an R-only restriction applies. Loss assessment alone defines neither dominance nor an acceptance threshold. |
 | **CC‑G4‑08** | `CAL.ProofLedger` links each operator, flow, or clause to its required proof or justification and explicit failure behavior. A numerical Γ-fold or loss includes its receiving quantity, input scales, dependency model, derivation or calibration, assumptions, and boundary behavior; monotonicity and boundedness alone are insufficient. A missing required model cannot be repaired by F-to-R conversion or an invented default score. |
-| **CC‑G4‑09**      | CAL publication includes RSCR tests and Worked‑Examples sufficient to detect illegality (incl. unit laundering / ordinal arithmetic), to exercise authored acceptance/flow behavior, and to validate the authored freshness envelope when it is part of admissibility; record missing tests or examples as an auditable gap. |
+| **CC‑G4‑09**      | For a new or revised acceptance rule, the author shows why its conditions support the recipient's decision over the stated scope (§4.0). CAL publication includes RSCR tests and Worked‑Examples sufficient to detect illegality (incl. unit laundering / ordinal arithmetic), to exercise authored acceptance/flow behavior, and to validate the authored freshness envelope when it is part of admissibility; record missing tests or examples as an auditable gap. |
 | **CC‑G4‑10**      | Each `TaskMapRef = <taskMapId, taskMapEdition>` resolves one immutable map edition containing the exact `CALCharterRef`, task, C.22 `TaskSignatureRef`, and edition-bearing acceptance-clause, operator, flow, and evidence-profile refs used by selection. Changing the charter, task, signature edition, or a cited component creates a new map edition. When G.4 gates are current, G.5 consumes this exact map alongside the same `TaskSignatureRef`; a mismatch or unresolved ref blocks that gated selector use. The map neither constructs the TaskSignature nor embeds thresholds or duplicates acceptance semantics. |
 | **CC‑G4‑11**      | Any method/discipline specifics are placed under `G.4:4.5 Extensions` as `GPatternExtension` blocks (stable `PatternScopeId`, explicit governing definition, pins, and RSCR triggers); no extension introduces competing defaults or replaces `G.Core` invariants. |
 | **CC‑G4‑12**      | `CAL Pack@CG-Frame` includes public-id continuity records for public ids: deprecations, edition bumps, and lexical-continuity notes. It exposes refresh payload pins, including editions, policies, UTS ids, and, when present, `PathId` and `PathSliceId`, sufficient for `G.11` to plan RSCR without inferring semantics from prose. |

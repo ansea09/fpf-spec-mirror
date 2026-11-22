@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.UA.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
-line_start: 94571
-line_end: 94713
+line_start: 94618
+line_end: 94760
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,11 +57,11 @@ A.15.10 supplies changed-premise recovery. The operation here uses that boundary
 
 #### C.41.UA:4.1 - Bind the question to this subject and occasion
 
-Identify what is being checked, which description or criterion applies, and the relevant time or condition. Resolve ambiguity before applying a test. A file name can refer to a different edition; “the cards” can refer to another box.
+Identify what is being checked, which description or criterion applies, and the relevant time or condition. If every admissible reading warrants the same action on sufficient grounds, give that answer. Resolve any difference that still affects the work, including an order to identify the exact subject. A file name can refer to a different edition; “the cards” can refer to another box.
 
 Recover prior answers or competent results that might already settle the question. Administrative claim-checking Methods supply useful distinctions; apply the competent examination for the present domain. Record-maintenance Methods supply record-use distinctions when the answer is retained for later reliance. Decide whether the subject, criterion, observation and conditions supporting those results still apply. Current reliance can survive a new occasion without a new observation when nothing relevant has changed and the grounds are sufficient.
 
-After an interruption, recover the last completed check and any unfinished operation, including the relevant content already obtained. A marker at card seven helps only if the next person knows which cards were compared, with which description, and what remains unresolved. Reconsider any changed subject or basis before resuming. Retain only the context needed for that continuation; a position marker is neither a completed answer nor proof that earlier grounds still apply.
+After an interruption, recover what the checks were to support and whether that work is still due. Resume the first unfinished operation that can change the remaining work, with the content already established. A marker at card seven helps only if the next person knows which cards were compared, with which description, and what remains unresolved. Reconsider any changed subject or basis before resuming. Retain only the context needed for that continuation; a position marker is neither a completed answer nor proof that earlier grounds still apply.
 
 Use a position cue alone when the performer can already recover the question, basis and unfinished work unambiguously. Otherwise retain the missing content alongside it. Compare the effort of recovering adequate prior grounds with obtaining a fresh observation. Observe again when the earlier basis no longer applies, or when recovering it would cost more than obtaining adequate current grounds. Do not repeat an observation merely to confirm a result already settled for this use.
 

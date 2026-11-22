@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 114631
-line_end: 114809
+line_start: 114703
+line_end: 114883
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -129,6 +129,8 @@ The dependency relation in this table is `ViewpointConventionDependencyRelation`
 When an A.22 selection judgment needs an explicit claim that one obtaining dependency occurrence is admissible for that use, identify the separate decision-use episteme described by E.17.0. Do not insert that decision, its evidence, or its evaluation result into the dependency relation or S identity.
 
 #### E.17.2:4.3 - Keep the four concern conventions distinct
+
+Choose among these concerns from the engineering question. Which difference in the holon, its use or its parts could change the answer? For example, a plant-wide flow bound during a pump change can establish a minimum total flow. If each outlet has a separate minimum, the same total can hide a loss at one outlet. Trace which paths serve which outlets during the change. Where supply depends on switching order, relate the operations of the switching Method to the equipment available at each stage. A claim that yesterday’s crew actually switched in that order draws on its work. A single view can already carry all the grounds for the particular answer.
 
 **Functional.** A conforming candidate episteme foregrounds transformations, capabilities, effects, functional elements, or transformation-flow relations of its holon. It does not identify a module structure by functional vocabulary and does not mint `U.Function`. Any neighboring responsibility claim keeps the admitted System, local system-role kind, current C.3.2 classification judgment, assignment, kind-relation structure, capability, transformation, and direct responsibility relation separate. Use A.2, C.3.2, A.2.1, A.2.7, or the direct responsibility pattern for the claim made.
 

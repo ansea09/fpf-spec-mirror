@@ -6,12 +6,12 @@ section_id: "F.9:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__002_intent-and-applicability.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:1 — Intent and applicability"
-line_start: 129867
-line_end: 129890
+line_start: 129982
+line_end: 130005
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,11 +59,11 @@ keywords:
 
 **Intent.** Govern one actual semantic `Bridge` relation between two exact F.17 `SchemeSenseCell` values from different semantic contexts. Keep that occurrence separate from every assertion, Bridge description episteme, Bridge Card, registry record, publication occurrence, publication form, presentation carrier, bounded-use claim, evidence or assurance relation, and object created when a proposed use is performed.
 
-**Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a cross-context row. A shared word or available mapping is only a reason to ask whether a Bridge obtains.
+**Applicability.** Start with the claim the recipient needs. Comparing two standards can call for a relation between their terms, an account of how their rules apply together, or a decision about one job. Use F.9 for a correspondence or difference between local senses. F.0.2:4.1 helps construct the cross-source account if that is what the recipient needs.
 
 **Primary EntityOfConcern in plain terms.** One actual correspondence or difference between two exact local senses. This pattern concerns the direct `Bridge` occurrence, not a card, context, transport chain, work process, local system-role kind, assignment occurrence, evidence item, or global meaning layer.
 
-**Admissible move in plain terms.** First resolve the two local senses. Then state and test the correspondence or difference between them. If the Bridge obtains, state the proposed use separately: what the reader will do, direction, correspondence rule, and tolerated loss. A current C.2.1 claim answers whether the Bridge suits that bounded use.
+**First move.** What difference between the source and receiving interpretations could change the requested answer or its grounds? Use that to choose the senses and the correspondence to test. Establish the relation under its own predicate. If the question concerns a proposed use of that relation, judge the use separately, with its direction, correspondence rule and tolerated loss.
 
 For that bounded-use claim, check ordinary reliance under A.10; use B.3 only when an actual named assurance claim is current. If the use happened, recover its Work, assertion, publication, relation, operation application, or other object under its subject pattern. Add a Bridge Card only when a reusable package is worth maintaining.
 

@@ -6,12 +6,12 @@ section_id: "C.42:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:5 — Archetypal Grounding"
-line_start: 95289
-line_end: 95364
+line_start: 95336
+line_end: 95411
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -30,7 +30,7 @@ These are constructed cases. Their numbers and observations are premises for ins
 
 A research group must supply a weekly packet of ten matched observations for a comparison. The recipient requires correct source identity and units, a usable comparison, and an explicit hold for unresolved rows.
 
-A separate presentation duplicates the accepted table. The recipient confirms that the table is sufficient for this use; no other current use of the presentation is found. The authorized work owner agrees to stop that duplicate output.
+A separate presentation duplicates the accepted table. The owner reviews the agreed deliveries for the eight-week period. This is the only recipient entitled to the presentation. The recipient and the work owner have authority to change its form and agree to the table in fulfilment of that delivery. The owner can then stop preparing slides.
 
 The group traces recurring correction to mismatched source editions. It can obtain the authoritative edition and check the row identities before preparing the comparison. This adds a small action but prevents the specified mismatch. The validity of the subject measurements remains a separate required condition.
 

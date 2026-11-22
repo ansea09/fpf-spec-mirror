@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__002_problem-frame.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:1 — Problem frame"
-line_start: 18733
-line_end: 18757
+line_start: 18744
+line_end: 18768
 dependencies:
   - "A.15"
   - "A.20"
@@ -32,11 +32,11 @@ keywords:
 
 ### A.6.3.CSC:1 - Problem frame
 
-**Practical entry; identity when material.** For ordinary shortening, begin with the source passage or account, its present reader and use, and the distinctions that use still needs. Write the shorter candidate directly, then compare it with the source: the candidate must neither lose a distinction needed for that use nor add or strengthen anything the source does not support. Record any loss, the use boundary, and the condition for going back. This local, reversible result does not by itself assert an A.6.3 construction.
+**Practical entry.** To make a shorter account, establish the intended use, identify the source and choose the distinctions the reader will need. Write the candidate and compare the two. To assess an existing candidate, start from its present use, the source and the text as received. You can establish what the text preserves or obscures without reconstructing the author’s sequence of operations. With only the resulting text, F.19 can assess whether its reader can recover the content needed for the promised use. Establishing its fidelity to a particular source requires that source or adequate evidence of its claims.
 
 When the result must travel independently or endpoint or construction identity matters to the receiving use, identify source episteme `X`, receiving episteme `Y`, and `c : X -> Y`. Exact CSC remains a same-EntityOfConcern construction; a changed EntityOfConcern requires A.6.4.
 
-**Use this when.** You need to shorten a text or another account without losing the distinctions needed for its present use or saying more than the source supports—for example, a summary, redacted disclosure, or dashboard account whose omissions must remain visible and bounded. If the task is only layout, carrier, extraction, or authoring, use E.24.PUB, A.7, or E.8 as appropriate. Identify the episteme endpoints under §4.3 when their identity matters.
+**Use this when.** You are preparing a shorter account or assessing a finished one against its source. Decide which distinctions the reader needs and which claims the source supports. A summary, a disclosure with restricted details and a dashboard can each leave different questions open. If the task is only layout, carrier, extraction, or authoring, use E.24.PUB, A.7, or E.8 as appropriate. Identify the episteme endpoints under §4.3 when their identity matters.
 
 
 

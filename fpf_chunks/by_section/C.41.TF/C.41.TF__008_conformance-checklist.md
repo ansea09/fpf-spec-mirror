@@ -6,12 +6,12 @@ section_id: "C.41.TF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:7 — Conformance Checklist"
-line_start: 94388
-line_end: 94397
+line_start: 94435
+line_end: 94444
 dependencies:
   - "C.37"
   - "C.41"
@@ -22,7 +22,7 @@ keywords:
 
 ### C.41.TF:7 - Conformance Checklist
 
-Inspect an actual filled example, not only the blank template:
+For a particular handover, inspect what the recipient can recover from that record. For a reusable form, follow how its fields and transfers carry the necessary distinctions over the allowed inputs. A filled case can resolve an uncertainty about the mapping or about how a recipient reads it.
 
 - Can the intended recipient recover the subject, question, comparison basis, answer and sufficient grounds?
 - Can the form represent a negative answer and an unresolved one without conflating them?

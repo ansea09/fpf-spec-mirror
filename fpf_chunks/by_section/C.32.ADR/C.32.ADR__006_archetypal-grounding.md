@@ -6,12 +6,12 @@ section_id: "C.32.ADR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:5 — Archetypal Grounding"
-line_start: 84529
-line_end: 84538
+line_start: 84567
+line_end: 84576
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.32.ADR:5 - Archetypal Grounding
 
-**Software ADR.** A team publishes an ADR for event-carried integration. The record uses local headings, but the function rows recover context, options, selected outcome, rationale, consequences, method-use instruction for event schema work, confirmation eval, and supersession. Developers can see what to implement and when the decision reopens.
+**Software ADR.** A team records a choice of event-carried integration. The developer must retain the event identity across consumers and may choose the local storage layout. To assess another permitted layout, the developer needs the identity requirement, applicable exceptions and access to their grounds. A separately commissioned notice of adoption can be complete once it identifies the effective decision and its scope.
 
 **Manufacturing trade-study record.** A fixture decision is published as an engineering trade-study memo rather than a Markdown ADR. The memo carries candidate fixture variants, selected universal-fixture scope, accepted setup-time loss, cell-design method instruction, evidence links, and reopen threshold. C.32.ADR admits the memo because it projects the decision description for the intended reader.
 

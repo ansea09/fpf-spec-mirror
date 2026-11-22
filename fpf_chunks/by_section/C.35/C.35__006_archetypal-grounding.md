@@ -6,12 +6,12 @@ section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:5 — Archetypal Grounding"
-line_start: 85544
-line_end: 85577
+line_start: 85584
+line_end: 85617
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -64,7 +64,7 @@ Limit and return: before relying on feasibility, establish the applicable constr
 
 This is enough for the immediate candidate-use boundary. Add the generative-proposal branch only if the receiver relies on its constraints, omissions, or validation needs.
 
-Treat `MedicalDeviceDiagram-7` as a separate representation when graphical correspondence matters, using C.30.AD or C.30.ASV for its architecture description or view and C.29 when a mathematical-representation choice, transfer, or reliance question remains. A source or preservation account requires a declared baseline.
+Treat `MedicalDeviceDiagram-7` as a separate representation when graphical correspondence matters, using C.30.AD or C.30.ASV for its architecture description or view and C.29 when a mathematical-representation choice, transfer, or reliance question remains. A question about which requirements the designer used can arise in a new design. A claim to preserve the organization of an earlier design requires a baseline.
 
 **DSM and MDM clustering.** A team groups the rows of a dependency matrix using co-change observations and interface data. Check whether the reported groups satisfy the grouping rule on that matrix. If the rule allows several groupings, the saved output identifies the one returned by this run. Reproduction also suffices when the procedure and its inputs determine the same choice, including any tie-breaking or random choices that mattered. To infer that the corresponding components perform one function, the team must relate the observed dependencies to that function and check what the matrix omits. A different decision is to reorganize the components into those groups. That proposal needs a reason the new allocation would serve the design. Use the discovery or proposal branch for the claim actually made.
 

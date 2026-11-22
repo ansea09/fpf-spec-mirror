@@ -6,12 +6,12 @@ section_id: "E.4.PFR:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:6 — Conformance Checklist"
-line_start: 101977
-line_end: 101997
+line_start: 102028
+line_end: 102048
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -52,7 +52,7 @@ keywords:
 | --- | --- |
 | CC-PFR.1 Assertion first | Every load-bearing claim has an exact subject, relation function, defining or constraining ClaimGraph, polarity, and current basis. A PFR row is optional. |
 | CC-PFR.2 Named row receiver | Every row names a framework-maintenance, impact, comparison, repair, or refresh use that changes action. Otherwise delete the row and retain the assertion. The optional blocked-reading fields follow §3.2. |
-| CC-PFR.2a Smallest receiver form | A cross-relation consumer uses the generic PFR row. A dependency-impact or refresh consumer uses the dependency-specific record. Both forms appear only when one named receiver needs both, cite the same subject assertion, link explicitly, derive overlapping values from that assertion, and share one refresh rule. |
+| CC-PFR.2a Smallest receiver form | A cross-relation consumer uses the generic PFR row. A dependency-impact or refresh consumer uses the dependency-specific record. Provide each view its task requires. When both are used, even by different recipients, derive shared values from the same assertion and refresh them together. Link them where the receiving task uses that link. |
 | CC-PFR.3 No owner field | No generic subject-pattern relation, owner field, pattern agency, authority, receiver, or destination is asserted. |
 | CC-PFR.4 Function before label | Relation function is selected by what the claim does, not by word similarity, adjacency, table position, or graph direction. |
 | CC-PFR.5 Dependency separated | Framework-edition dependency remains separate from compatibility, specialization, publication, recommendation, preservation, derivation, and evaluation. |

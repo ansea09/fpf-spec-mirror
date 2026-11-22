@@ -6,12 +6,12 @@ section_id: "F.12:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__014_relations.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:13 — Relations"
-line_start: 131501
-line_end: 131514
+line_start: 131618
+line_end: 131631
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,5 +59,5 @@ keywords:
 
 Use A.10 for descriptive provenance and bounded reliance, B.3 only for an actual named assurance claim, E.13 only for optimized or decision-driving proxies, and the appropriate direct pattern for kind, control, or transformation claims.
 
-**Constrains:** Reporting and assurance preserve the promise content, delivery Work, observations, measured values, relevant window, evaluation rule and result scale. Any claimed evaluation Work, exact application, verdict episteme, EvidenceStatus, RequirementStatus, evidence use, material reliance, indicator relation and F.9 relation retains its own meaning and grounds. A relation-specific CL or loss is reported with that relation rather than folded into the result or status.
+**Constrains:** Reporting and assurance preserve the promise content, judged delivery, applicable conditions, supporting evidence, acceptance rule and result scale. Preserve observations and measured values when the judgement uses them. Any claimed evaluation Work, exact application, verdict episteme, EvidenceStatus, RequirementStatus, evidence use, material reliance, indicator relation and F.9 relation retains its own meaning and grounds. A relation-specific CL or loss is reported with that relation rather than folded into the result or status.
 

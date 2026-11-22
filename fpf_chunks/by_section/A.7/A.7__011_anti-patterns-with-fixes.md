@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 26715
-line_end: 26757
+line_start: 26735
+line_end: 26777
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "B.1.2"
   - "B.1.4"
   - "B.1.5"
+  - "B.1.5.EW"
   - "B.1.6"
   - "E.10"
   - "E.17"
@@ -56,7 +57,7 @@ keywords:
    **Fix:** Admit and state that Work under the basis in :2. An ordinary action sentence or design-time distinction diagram needs no invented Work identity.
 
 4. **Composition blur** — using one “process operator” for unlike claims.
-   **Fix:** Recover the subject and intended result, then use :5.7 to select the system, Method, temporal or Work-resource rule and its prerequisites.
+   **Fix:** Recover the subject and intended result. To explain how a job was performed, establish which actions constituted it under :5.7. To explain its timing or cost, use the temporal or resource relations the question requires.
 
 5. **Formal set, world-side collection, and collective collapse** — mathematical inclusion or collection belonging is used to make a grouping act or to infer constructive parthood.
    **Fix:** Keep formal inclusion with its mathematical or representation rule; state world-side belonging under the collection's own rule; require all six `A.1` matters for a collective System; state any constructive part relation separately.
@@ -70,7 +71,7 @@ keywords:
    **Fix:** Rename the column to **System-role kind**. If behaviour is also being compared, give it a separate column and state the behaviour claim under its direct rule, including A.6.F functional behaviour or A.3.4 transformation where applicable.
 
 9. **Process‑word leakage** — domain “process” used as FPF operator.
-   **Fix:** Use the Γ operator for the composition claim. Keep a clear domain use of “process”; if it is ambiguous, state the Method, Work, transformation, mechanism, or other object intended.
+   **Fix:** Identify what the process wording refers to. For a composition question, recover the governing part–whole relation under :5.7 and apply the operation that relation warrants.
 
 10. **Carrier and episteme swap** — “we versioned the model” meaning a file was renamed.
     **Fix:** State whether the **episteme content** changed; if only a carrier was renamed, say so.

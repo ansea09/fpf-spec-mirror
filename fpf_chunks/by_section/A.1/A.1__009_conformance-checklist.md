@@ -6,12 +6,12 @@ section_id: "A.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:7 — Conformance Checklist"
-line_start: 2866
-line_end: 2884
+line_start: 2854
+line_end: 2872
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -39,7 +39,7 @@ keywords:
 | Check | Conformance condition |
 | --- | --- |
 | `CC-A1-1` | The candidate is first individuated as `U.Entity`; the public holon kind is already admitted in FPF before the candidate is tested against A.1. `E.24.UK` governs admission of public U-kinds; A.1 does not repeat that decision or require its result as a candidate-test input. |
-| `CC-A1-2` | A current recognition use separately recovers the candidate, constituents, constructive part-relation occurrences and assembly, reidentification rule, composition-grounded whole-level characteristic, and candidate-side compatibility with an applicable governed larger-assembly construction method or rule; it then names the already admitted holon kind and its direct kind-specific condition. |
+| `CC-A1-2` | Positive recognition establishes the six components in §4.2 and the kind-specific condition for the same candidate. A negative judgment establishes that the requirements cannot jointly hold for that candidate. An undetermined judgment identifies the unresolved ground and what follows for the receiving decision. |
 | `CC-A1-3` | A proposed new public holon kind first passes `E.24.UK`; its direct pattern then states the kind-specific membership condition without changing the common A.1 criterion for candidates. |
 | `CC-A1-4` | Candidate classification is not reified as a status relation. World-side satisfaction or failure, classification work, `true | false | unknown` evaluation, optional C.2.1 assertion identity, evidence or warrant, G.11 edition currentness, receiving-work disposition, and B.2 whole reidentification remain separately governed; no A.1 result warrants a B.2 claim or selects B.2. |
 | `CC-A1-5` | System-role-kind classification, `U.SystemRoleAssignment`, capability, method, work, transformation, functioning, evidence, and temporal claims remain separate; their reference bundle is not asserted as another occurrence. |

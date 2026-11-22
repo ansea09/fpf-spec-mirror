@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.1.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
-line_start: 136384
-line_end: 136859
+line_start: 136510
+line_end: 136984
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -63,7 +63,7 @@ keywords:
 **Working‑model first (informative).** prefer working models and didactic micro‑examples; escalate to formal harnesses only when risk warrants (per E.8).
 
 
-**Start here when.** You are authoring a reusable generator, selector, or set-result scaffold rather than a one-off plan, one-off comparison, or tool-specific method recipe.
+**Start here when.** You are authoring a reusable generator, selector, or set-result scaffold rather than a one-off plan, one-off comparison, or tool-specific method recipe. For a single declaration of agreed members, use G.5:4.4b directly.
 
 
 **Neighboring FPF patterns.** Use `G.2` for the local SoTA set, `G.5` for governed set-return selection, `G.10` for shipping surfaces, `G.11` for refresh wiring, and `F.17` when the result must also land on a human-facing UTS surface.
@@ -77,7 +77,7 @@ You are authoring a **CG‑Frame** and want a **repeatable scaffold** that conne
 * a declared **scope anchor** (`CG‑FrameContext`, `entityOfConcern`, governing spec refs),
 * a **local SoTA set** (scoped and provenance‑anchored),
 * a **variant pool** (candidate ideas / decision options / method variants),
-* a **shortlist** (a set-result outcome, not a forced singleton),
+* a **selector or declaration result** in the form the recipient needs, such as a shortlist or a set agreed for joint use,
 * **publication‑ready bindings** into Part‑F artefacts (UTS rows, Name Cards, RSCR tests, worked examples),
 * and **refresh readiness** (telemetry hooks + RSCR wiring).
 
@@ -137,7 +137,7 @@ GCoreLinkageManifest := ⟨
     SoTAPaletteDescriptionId,
     SoTA_SetId,
     VariantPoolId,
-    ShortlistId,
+    ShortlistId?,                        // only for a separately identified shortlist
     CGFrameLibraryId,
     RefreshReadinessCardId,
     CGKitId,
@@ -169,7 +169,13 @@ GCoreLinkageManifest := ⟨
 **Core artefact:** `CGFrameReadyGeneratorKit := ⟨M1, M2, M3, M4, M5, M6⟩`, where each `Mi` is a **card** with an explicit I/O surface and stable identifiers.
 `CGKitId` identifies the versioned **kit manifest** (`CG‑Kit@CG‑Frame`) that lists the six card ids and the minimal wiring pins needed to treat the chassis as a reusable unit (this is **not** a shipping pack; shipping remains governed by `G.10`).
 
+Start with the result users must obtain on successive uses. For a shortlist, work back to what makes a candidate eligible, what the generator has to propose, and which source claims establish those properties. If the receiving work is only to declare agreed members, use G.5:4.4b to trace their inclusion to the agreement. An agreement can supply the members without generating or shortlisting candidates. In a reusable kit, describe separately any future choice its users will actually make. Decide which facts the kit can fix for its whole scope and which must be supplied afresh, including any choice left to the local user. Could two allowed jobs supply the same inputs to the kit yet require different outcomes? Find the difference in the jobs, carry it through the relevant card and show where the selector uses it. When the intended result depends on a combination, identify the candidate at that scale and the conditions under which its parts can work together. Constituents that qualify separately can still form an ineligible combination.
+
 The chassis inventories the cards and their connections so readers can view them together. The specifications it cites define CN, CG, CHR, CAL and selection semantics.
+
+**What M4 records.** A kit can describe this card before anyone selects candidates. M4 carries the outcome of `G.5` under its own kind. A selection can yield a shortlist, an abstention or a handoff. When the recipient needs a declaration of members already agreed for joint use, retain the `JointUseSet` designation and its inclusion basis.
+
+Give the M4 card a stable identity in the kit. Add `ShortlistId` when a delivered shortlist needs its own identity. Preserve the rationale and the audit references required for the receiving use (`SCRId` for a G.5 audit, `DRRId` or `PathId/PathSliceId` when applicable). Add assurance records for a named assurance claim. When reproducibility depends on a front or an archive, retain the applicable ε-front parameters or archive snapshot under `G.5`, `C.18` or `C.19`. Section G.1:4.2.4 describes the shortlist branch.
 
 
 
@@ -222,17 +228,10 @@ The M3 core MUST remain a method‑agnostic inventory.
 
 
 
+
 ##### G.1:4.2.4 - M4 — Shortlist (selector output)
 
-
-**Governs (kit surface):**
-
-* `ShortlistId` bound to `CG‑FrameContext`
-* a selected set of candidates plus rationale and SCR-addressable audit references required by G.5 (`SCRId` required; `DRRId` optional; cite `PathId/PathSliceId` when applicable). Add assurance records only when an actual named assurance claim is current.
-* optional **front metadata or archive metadata** needed for reproducibility when used: ε‑front parameters and/or archive snapshot hooks, with governing-definition assignment through `G.5` / `C.18` / `C.19` (no local semantics in `G.1`)
-
-**Governing pattern:** selection/dispatch semantics are governed by `G.5`.
-M4 MUST preserve *set‑return semantics* (as governed by `G.Core`) and MUST NOT hard‑code a forced singleton outcome.
+Use this branch of M4 when the recipient needs a shortlist. A completed selection may yield an empty shortlist when the established candidate set contains no member meeting the inclusion rule. That result differs from abstaining because the grounds for selection are missing. One or several candidates may also qualify. Pin `ShortlistId` when the delivered shortlist is independently identified. For another selector outcome or a declaration for joint use, use the M4 conditions in G.1:4.2.
 
 
 
@@ -273,8 +272,8 @@ M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define 
 | M1     | CG‑Frame brief + `entityOfConcern` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
 | M2     | discovery inputs + inclusion criteria *(via G.2)*                           | `SoTA_SetId` (+ provenance anchors; optional UTS stubs/rows)                           |
 | M3     | `SoTA_SetId` + local constraints + emitter policy pins *(via Extensions)*   | `VariantPoolId` (+ candidate trace/provenance; optional method payload via Extensions) |
-| M4     | `VariantPoolId` + acceptance/eligibility surfaces *(via G.4/G.5)*           | `ShortlistId` (selected set / set-result) + rationale refs                                         |
-| M5     | `ShortlistId` + CHR/CAL/LOG bundle refs + UTS/Name refs                     | `CGFrameLibraryId` (library index; publish‑ready bindings)                             |
+| M4 | The applicable pool and eligibility rules for selection, or established members and their inclusion basis for a declaration | G.5 outcome in its own kind with the applicable references. Include `ShortlistId` for an identified shortlist. |
+| M5 | References to the result actually obtained and to the applicable CHR/CAL/LOG bundles and UTS names | `CGFrameLibraryId` for the published bindings. |
 | M6     | telemetry inputs + applicable freshness/decay policy pins + RSCR tests                 | `CGKitId` + `RefreshReadinessCardId` (wiring to `G.11`; no orchestration governance)    |
 
 #### G.1:4.4 - Extensions (pattern‑scoped; non‑core)
@@ -469,11 +468,11 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 | ConformanceId     | Statement   |
 | ----------------- | ----------- |
 | **CC‑G1‑CoreRef** | The pattern MUST satisfy the **effective** `CoreConformanceIds` implied by `G.1:4.1` (`GCoreConformanceProfileId` expansion + deltas), per `G.Core` expansion rules.   |
-| CC‑G1‑01          | The reusable CG-Frame kit MUST include all six cards `M1…M6` with stable ids **and** a versioned kit manifest identified by `CGKitId`, including at minimum `{CGKitId, CG‑FrameContext, SoTAPaletteDescriptionId, SoTA_SetId, VariantPoolId, ShortlistId, CGFrameLibraryId, RefreshReadinessCardId}`.  |
+| CC‑G1‑01 | The reusable kit has six identifiable cards `M1…M6` and a versioned manifest `CGKitId` that binds them. It identifies its `CG‑FrameContext`, `SoTAPaletteDescriptionId`, `SoTA_SetId`, `VariantPoolId`, `CGFrameLibraryId` and `RefreshReadinessCardId`. The connections must support the generation, selection or declaration actually commissioned. M4’s card identity identifies the design. Pin `ShortlistId` when publishing an identified shortlist, and carry any other G.5 outcome under its own kind. |
 | CC‑G1‑02          | `M1` MUST bind the kit to a single `CG‑FrameContext` and MUST expose the required pins from `GCorePinSetId.PartG.AuthoringMinimal` (including `entityOfConcern` and `CNSpecRef/CGSpecRef` editions). `M1` MUST also expose (or explicitly cite) a `ReferenceMap` surface and MUST NOT restate its semantics (cite `G.0:CG‑Spec.ReferenceMap`).  |
 | CC‑G1‑03          | `M2` MUST be wired to `G.2` (or explicitly cite the `G.2` artefacts governed by cited patterns) and MUST be reconstructible as a scoped set, including `SoTAPaletteDescriptionId` + `SoTA_SetId` (not free‑floating prose). Provenance MUST be anchored via `A.10` for the emitted set.  |
 | CC‑G1‑04          | `M3` MUST record emitter provenance as a wiring surface, including `EmitterPolicyRef` (policy‑id/ref), edition pins, and provenance anchors (via `A.10`). Any method‑specific fields MUST be introduced only via `GPatternExtension` blocks.   |
-| CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve set-result outcomes. `SCRId` MUST be present (or recoverable from an explicitly cited SCR record) so the G.5 audit references are addressable; assurance content is required only for an actual named assurance claim; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
+| CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve the actual outcome and, for a set result, its family. When the use consumes a G.5 audit, `SCRId` MUST be present (or recoverable from an explicitly cited SCR record) so the G.5 audit references are addressable; assurance content is required only for an actual named assurance claim; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
 | CC‑G1‑06          | `M5` MUST publish a library/index surface that points to referenced CHR/CAL/LOG artefacts and to any minted public ids (`UTSRowId[]`, Name Cards) via the canonical governing definitions (Part F), without introducing shadow specs (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`).    |
 | CC‑G1‑07          | `M6` MUST publish `CGKitId` and expose refresh-readiness wiring: canonical `RSCRTriggerKindId[]` applicability, minimal payload pins and RSCR test ids. Planned baseline references MUST follow `G.1:4.2.6`, including the additional references required when `A.15.3` applies; orchestration semantics MUST be cited to `G.11`. |
 | CC‑G1‑08          | Any method/discipline/generator specificity in `G.1` MUST be located in `G.1:4.4` as `GPatternExtension` blocks with `PatternScopeId`, `GPatternExtensionKind`, and `GoverningPatternId`. If QD/illumination or Open‑Ended generator families are declared, the corresponding extension blocks MUST be present and MUST carry the edition and policy pins required by the governing pattern. |

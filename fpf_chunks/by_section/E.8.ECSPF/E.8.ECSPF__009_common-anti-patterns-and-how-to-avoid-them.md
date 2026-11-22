@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 104541
-line_end: 104557
+line_start: 104596
+line_end: 104612
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -30,10 +30,10 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
-| **Score-sheet pattern.** | The pattern is mostly a table of values. | Move evaluated object kind, use, first evaluation use, FPF-publication boundary, and practical consequence into recognition text before the table. |
+| **Score-sheet pattern.** | The pattern is mostly a table of values. | Use an accepted coordinate to show how the evaluator establishes and justifies its value for this kind of object. Put the working situation and practical consequence before the table and keep the complete evaluation available. |
 | **Checklist-as-solution.** | Users are told only what must be checked. | Put the evaluation method and record shape in `Solution`; let checklist rows check that both are present and usable. |
 | **Publication-form/content collapse.** | The accepted specification, its `CharacteristicSpace`, the pattern, the evaluated object, the later evaluation, and its result are treated as one thing. | State what each is and show that the pattern teaches the accepted specification; none of the other objects becomes the pattern. |
-| **Positive-only case bank.** | Every example passes. | Add below-floor and outside-declared-object-kind boundary cases. |
+| **Positive-only case bank.** | Every example passes, but a below-floor result is possible in the intended use. | Show an attainable below-floor case and how the evaluator should respond. Check how the evaluation handles outside-kind inputs. If passing follows from the domain itself, publish that reasoning and what it establishes. |
 | **Undeclared total.** | Ordinal coordinate values are added, averaged, or collapsed into an “overall score”. | Keep the coordinates visible; if a bounded scalarization is separately admitted, name its method, use, any information loss, applicability, and stop or return condition. |
 | **Proxy improvement.** | A visible coordinate rises while a protected value becomes worse, yet the result is called improved. | Compare the changed values and protected trade-offs; stop or reopen when the evaluation rewards the loss. |
 | **Related-pattern authority theft.** | The pattern claims authority over evidence, assurance, a gate or release decision, measurement, naming, or improvement. | Cite the applicable pattern and state the concrete contribution used here; keep only the evaluation claim in this pattern. |

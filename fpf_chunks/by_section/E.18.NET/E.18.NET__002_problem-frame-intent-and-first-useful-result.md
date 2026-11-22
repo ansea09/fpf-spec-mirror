@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 120224
-line_end: 120276
+line_start: 120310
+line_end: 120362
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -41,7 +41,7 @@ keywords:
 
 Use this pattern when one engineering question depends on two or more independently identified transformation-flow structures, or on nested networks of them, and at least one obtaining relation connects positions across their boundaries. Typical situations include a toolchain that builds another tool, a production system related to the product it helps produce, or an operating flow whose observation returns to a separate development flow.
 
-Start with the three cases in step 1. Continue with steps 2–5 when the engineering question requires a network.
+Start from what the recipient needs to establish across the flows. Work back from the use of a result to the flow that supplies it and any other flow on which that use depends. At a nested boundary, ask whether the exposed result suffices or whether two internal arrangements with that same result could change the answer. Follow the difference only as far as the question requires. Use a shared constraint when it affects what several members can provide together. Then select among the three cases in step 1 and continue with steps 2–5 when the question requires a network.
 
 1. decide whether the case is several valuations of one flow structure, an internal portion of one flow structure, or a network of independent flow structures;
 2. identify each candidate member independently;
@@ -49,7 +49,7 @@ Start with the three cases in step 1. Continue with steps 2–5 when the enginee
 4. select only the members, relations, boundary exposures, and constraints needed for the current question; and
 5. return one network reference, or stop at the proposed description and name either the relation-claim result returned by its governing pattern or the separate missing network discriminator.
 
-A successful selection returns a network reference and its basis.
+A successful selection returns a network reference and its basis. For a request to identify that network, this can be the final answer. For a receiving decision, use the selected connections to establish what can be concluded across the members and obtain any further premise the decision needs.
 
 ```text
 selectedNetworkRef: one exact TransformationFlowStructureNetwork

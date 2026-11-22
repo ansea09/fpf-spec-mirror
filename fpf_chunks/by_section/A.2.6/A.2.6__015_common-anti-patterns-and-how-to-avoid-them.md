@@ -6,12 +6,12 @@ section_id: "A.2.6:14"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__015_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:14 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7676
-line_end: 7691
+line_start: 7669
+line_end: 7684
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -45,5 +45,5 @@ keywords:
 | Interval-as-participant | A declared applicability interval is copied into the direct relation signature. | Keep it in assertion or description content and derive actual extent from continuous obtaining. |
 | Silent translation | A different scheme, label, or location automatically invokes a Bridge or lets the Bridge define the receiving use. | Translate only after naming exact local senses, an obtaining F.9 Bridge, a separate affirmative C.2.1 claim for the direction, rule, and tolerance, and the current A.10 or B.3 reliance branch. |
 | Implicit “latest” | A time-dependent predicate cannot be reproduced. | Name the temporal selector and its membership boundary when time matters; keep every selector already declared in the slice. |
-| Unsupported union | `spanUnion` claims areas not supported by independent lines. | State the independence basis or use intersection/narrower supported scope. |
+| Unsupported scope combination | Two local tests are treated as an end-to-end guarantee, or two cases using one premise as independent evidence. | Trace the reachable outputs to the next stage’s conditions. For a delivery guarantee, show that the available way of operating the chain reaches the result on every admissible history within any promised time. For case coverage, justify every included slice and identify shared premises. Use `SpanUnion` for independent lines only under §7.3. |
 

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:5 — Archetypal Grounding"
-line_start: 83045
-line_end: 83058
+line_start: 83083
+line_end: 83096
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -47,5 +47,5 @@ keywords:
 
 **Show again — possible-future use of a Method.** A five-day Method-adaptation sprint is obtaining Work. The candidate Method is described, but the proposed organization of its use has not yet been performed. The team anchors the architecture in the intended project use, the incumbent Method used during the sprint, the candidate MethodDescription, and a planned representative trial. It compares candidate organizations of Method parts, tool and description support, provider capability, trial Work, and later repertoire maintenance. It states which support and representative Work would put the proposed organization into use and what the trial must observe. It does not invent past Work enacting the candidate Method. If the question is only how the project will use the candidate, the four product arrangements are omitted; if the question becomes where an independently maintained Method family belongs, that conditional comparison is opened.
 
-Across the three cases, the same Method preserves the obtaining/prospective entry distinction, several non-isomorphic structures, exact relation claims, separation of described objects from descriptions, whole reidentification, different alternatives, moved burdens, and the boundary between deliberate project change and distributed cultural change. The domain details remain different.
+The dance example explains how several contributions can be active during one performance. The integration run distinguishes a constituent performance from an external service that happened at the same time. The adaptation sprint supports a proposal for future use. Each account identifies the relations needed for its particular whole. A claim that a practice has already changed calls for the corresponding evidence of actual use.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
-line_start: 74783
-line_end: 75489
+line_start: 74817
+line_end: 75523
 dependencies:
   - "A.1"
   - "A.10"
@@ -81,13 +81,13 @@ keywords:
 
 ### C.30:1 - Problem frame
 
-Use this pattern when you need to recover or consider the architecture of a holon (`U.Holon`) and choose the next architecture action. Distinguish actual relations and selected structure from a candidate or expected structure, and distinguish that subject from claims and descriptions about it.
+Use this pattern to establish how a holon (`U.Holon`) is organized, explain what that organization makes possible, or identify what a design would change. A description may show an existing arrangement, propose a different one or specify conditions that an arrangement has to meet.
 
-For an actual architecture claim, recover the obtaining subject relations, the selected A.22 structure and whether the `ArchitectureRelation` obtains. For a candidate or expected arrangement, state that mode. In either case, identify the holon, structure kind, concern, intended use and next move; constitute a C.2.1 claim when the receiving use needs one.
+Begin with the work the architecture account must support. Which property, relationship or unrealized requirement does the recipient need to understand? For an actual arrangement, establish which subject relations hold and how the selected A.22 structure organizes the holon. For a proposal, show how its parts would work together under the stated conditions. Constitute a C.2.1 claim when its later use requires one.
 
-The first useful architecture move is small. In ordinary prose, name the holon; say whether the structure is actual, candidate, or expected; name the structure kind and architecture concern; state how any inspected material is being used; and give the next move. If one or two sentences make those values clear, stop.
+Select the structures the question turns on. Follow the constituent relation for each relevant kind of holon far enough to account for the property at issue. Where the result depends on several structures, trace the connections through which they contribute to the result under the same admissible conditions. Some connect constituents of one holon. Others connect independent holons through an exchange, a shared rule or an interaction. Establish composition where the explanation relies on it. Choose the detail of each model by asking what it would treat alike that the requested explanation or design needs to distinguish. A request to identify the next architecture action can end when that action and its grounds are clear.
 
-For example: “For the payment system, the diagram shows a candidate module-interface structure, not an established architecture relation. Next recover the actual dependency relations before deciding whether to replace the fraud-scoring module.” This is a usable result and may be retained or shared as written. Use the card below when the receiving use needs its distinctions organized beyond what that ordinary account supplies:
+For example, a team wants to know what to investigate before replacing a module. Its diagram proposes a payment-system interface. Establishing whether the running payment service actually depends on that interface is a useful next inquiry. A commission to explain the existing system requires the answer to that inquiry and what the dependency means for service behavior. Use the card below when its fields help the recipient keep these facts together.
 
 ```text
 ArchitectureQuestionCard@Project:
@@ -119,7 +119,7 @@ ArchitectureQuestionCard@Project:
 ```
 
 The card can stop before a durable claim. An `actualRelationNamed` result requires obtaining `ArchitectureRelation` occurrences and their A.22 structure participants. Candidate, planned, required, desired, expected, modeled, or diagrammed organization remains claim content. When that content is carried by a separate identified episteme, `candidateOrExpectedStructureClaimRefs` refers to it. Use `selectedStructureRefs` only for independently identified A.22 structures; neither designation makes an architecture relation obtain.
-`architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, distinction between actual and candidate structure, architecture concern, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady`.
+`architectureConcernCue` briefly describes the concern and helps identify the structures on which the question depends. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, distinction between actual and candidate structure, architecture concern, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady`.
 
 `ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separate `ProblemCard`, constitute an `ArchitectureClaim`, or name the pattern for a non-architecture claim. `architectureRelationDisposition` separately records whether an actual relation has been recovered or the content is candidate or expected only. `claimPatternRefs` contains PatternIDs whose content defines, constrains, or tests any separate claim; it does not identify a pattern-application occurrence. The card is not an evidence record, gate or decision. Include `non-admissible overread?` or a `nonAdmissibleUse?` field only for a supported limitation that changes the receiving use; an unused field needs no invented exclusion.
 
@@ -171,7 +171,7 @@ The useful result preserves the distinctions needed by the architecture question
 
 ### C.30:4 - Solution
 
-Start with the holon and the architecture action or question. Recover an actual architecture relation under :4.1 when that is the claim; otherwise retain the negative, unresolved, candidate or expected content at its supported scope. Identify the selected structure kind, concern and use conditions, and explain how inspected material contributes. If the action depends on unresolved description or view conditions, use :4.2 or C.30.AD. An ordinary sentence or question card can finish when it gives the needed next move.
+Start with the architecture question and its subject. Establish the obtaining relation under :4.1 for a claim about actual organization. A candidate or expected arrangement can support a conditional explanation or a design. When the open question is what a description represents, use :4.2 or C.30.AD. When the question is which permitted arrangement operated, use evidence of that operation. The description itself can settle which arrangements its rules permit. For an explanation, follow the relations that account for the required property. When the recipient needs a design, carry the grounded requirements to C.32.P2S and develop the organization still missing. The account can end when it supplies the finding, explanation, design contribution or next action that the recipient asked for.
 
 In C.30, the EntityOfConcern is one identified subject of the current claim: the described holon, an `ArchitectureRelation` occurrence, a selected structure, or another subject object. A claim episteme, description, diagram, or publication is not a proxy EntityOfConcern for a world-side relation or structure. Description hygiene supports this boundary but is not the center of C.30.
 
@@ -718,7 +718,7 @@ Use the following checklist for the architecture claim or action being considere
 | **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Actual subject relation, selected structure, `ArchitectureRelation`, claim, description, view, representation, publication occurrence, publication form, carrier, decision, evidence, and Work stay distinct. | Recover the object doing each job; a description, specification use, diagram, list, file, or publication creates no subject-side architecture fact. |
 | **CC-C30-4 Description subject.** | Every architecture description has one C.2.1 EntityOfConcern—holon, obtaining `ArchitectureRelation`, or selected structure—and effective reference scheme; architecture-claim refs remain optional content or trace. | Recover the subject and scheme, or split the description from the bounded architecture claim. |
 | **CC-C30-5 View and publication boundary.** | The same description episteme is `U.View` only through an independently obtaining E.17.0 conformance relation to one viewpoint; representation, publication occurrence, form, carrier, and publication currentness remain separate. | Apply C.30.AD, E.17.0 or E.24.PUB to the respective description, view or publication question; use C.29 only for a remaining mathematical representation issue. Remove view membership inferred solely from authoring or presentation. |
-| **CC-C30-6 Small output before heavy record.** | Ordinary use may stop once the needed next architecture move and the basis for any separate claim are clear. Retain or share that account; use the question card when the receiver needs its additional organization. | Remove needless form expansion, or identify the missing content that the fuller account must supply. |
+| **CC-C30-6 Fit the account to the commission.** | An ordinary account can establish an actual relation, explain a structural consequence, or name the next investigation. Check which of these the reader needs and whether the grounds for it are present. | Supply the missing relation or contribution. Use the question card when its organization helps the reader. |
 | **CC-C30-7 Structure-kind boundary.** | Structural-view claims apply `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, state the structural view if needed, or use the pattern that defines or tests the separate claim. |
 | **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and the applicable characteristic pattern before use. | Identify the bearer and characteristic under :4.5 in the working account; retain only a recognition cue if the needed meaning remains unresolved. |
 | **CC-C30-9 Non-architecture claim kind.** | For each evidence, assurance, causal, gate, work, decision, publication-use authority, mathematical-lens, measurement, or release claim, name its kind and the FPF pattern that defines or tests it. | Keep the C.30 record limited to architecture and selected-structure adequacy. |
@@ -754,7 +754,7 @@ An architecture question concerns how a holon is organized and what a proposed c
 
 C.30 and C.30.ASV establish an FPF architecture kernel: actual subject relations first; selected A.22 structure; `ArchitectureRelation` to the described holon; separately constituted claim, description, viewpoint, and view epistemes; structure-kind discipline; correspondence and source-return boundaries; and characteristic-claim applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-Architecture discussions often need one immediate result: name the holon, choose the structure kind under consideration, recover the use of inspected material, identify the pattern for any separate evidence or assurance claim, or stop. One or two ordinary sentences can suffice, including for retention or handoff. A fuller description earns its cost when the receiving action needs subject, correspondence, view or use conditions that the short account does not supply.
+A short account can explain a structural relation or settle a specific architecture question. Its length follows from what the reader needs to recover. A question about the organization of a whole can require showing how several selected structures interact. A request to name the next useful action can be met by identifying that action and why it matters.
 
 Episteme identity and direct view conformance also preserve plurality. The same holon, architecture-relation occurrence, or selected structure may be described by several independently identified epistemes; one episteme may conform to several viewpoints through distinct occurrences; several publications may render one description. C.30 keeps those variants usable without turning any publication form into architecture or any bundle or list into view membership.
 

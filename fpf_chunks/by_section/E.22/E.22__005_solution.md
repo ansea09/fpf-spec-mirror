@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 122602
-line_end: 122880
+line_start: 122690
+line_end: 122970
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,12 +36,14 @@ E.22 gives requester and evaluator a compact way to declare the quality question
 
 Start from the result the recipient needs. The recipient may need a document to explain an operation, the operation to obtain a result, and the result to inform a further decision. Select the object and judgement needed now. A candidate's narrower description cannot establish that the larger receiving need has been satisfied.
 
-1. **Name the use and object version.** Say who needs the answer, what work or decision it will inform, and which version is being evaluated. Include the conditions that affect that use. If the receiving need is unclear, recover it with the recipient or the applicable problem-formulation method.
+1. **Choose the object and its extent from the intended use.** Say who needs the answer and what work or decision it will inform. Which part, whole or connection could make the difference under evaluation? Follow that relation until you can identify the version to examine and the conditions a judgement about it must distinguish. An instruction, the Method it describes and the result of performing it can call for different evaluations. If the requested use is unclear, recover it with the recipient or the applicable problem-formulation method.
 2. **Choose the question and criterion.** Say whether the recipient needs floor adequacy, further improvement, a comparison of trade-offs or the effect of applied findings. Use the characteristic space and predicate or comparator supplied by an adequate evaluation. State the floor or improvement aim and the qualities a proposed repair must preserve.
 3. **Connect the criterion to attainable grounds.** Identify the content, observations or reasoning needed to answer it. Tracing a source contribution into an instruction can establish a coherent construction. Trying the instruction on material can reveal a missing action. An observed application can support a performance claim under the conditions observed. State which answer is required, what the intended reader or performer can supply, and what the candidate must supply. If indispensable grounds are absent, ask for the exact unresolved condition rather than an unsupported pass.
 4. **Specify the useful return.** Name the evaluation's result form and the conclusion it can support. A floor answer identifies sufficiency or the first needed repair; an improvement answer also describes the proposed change, expected gain, protected trade-offs and closure test. State evaluator conditions only when they change the question or admissibility of the answer.
 
 When several contributions are needed, retain what their available evaluations establish and ask about the necessary connection still unanswered. A good explanation, a supported source claim and a correct constituent operation can all remain valid while their combined use is unestablished. Evaluate that connection for its own object and use. Combining unlike scores cannot establish quality for the whole.
+
+Read the request in the words the evaluator will receive. If the requester supplies the criterion, a model or the relation between two contributions, what can the assigned work establish about using it? If the judgement concerns the practitioner's ability to choose or construct it, identify where the practitioner made that choice under the conditions being evaluated. An observation, the design itself or an earlier record can already establish it. Ask for the reasoning when the judgement requires it and the available work leaves it open. Where a narrower assessment supplies a premise, keep the wider evaluation question with the person responsible for its conclusion.
 
 Write the request in ordinary language with these bindings recoverable, as in section 5. The local names and schemas below specify their exact meanings when the question is represented as a `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration`. Reuse the selected evaluation's adequate descriptions and defaults. Add an intended evaluator's identity or a dated-Work account only when the receiving question requires it.
 

@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 105440
-line_end: 106199
+line_start: 105502
+line_end: 106263
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ Use `E.10` when a word, head, or short phrase in FPF-governed text still hides i
 
 **What this buys.** `E.10` supplies cheap cues and the shortest exact route to an existing FPF rule. It does not turn ordinary prose into a lexical record or make every candidate word open an ontology exercise.
 
-**First useful move.** Read the complete natural span with `F.19`. If its object, predicate, participants, referents, purpose and list meaning are clear, make the plain repair and stop. Use the cue surface below only to locate an unresolved FPF wording use; then open the smallest applicable lexical or subject pattern.
+**First useful move.** Read the complete natural span with `F.19`. Identify the work the reader needs to do with these words. When ordinary wording conveys the intended claim and leaves that work possible, keep or repair it and stop. Use the cue surface below only to locate an unresolved FPF wording use; then open the smallest applicable lexical or subject pattern.
 
 **Not this pattern when.** Use `F.19` for general plain-language repair, missing operands, predicate compatibility, grounded contrasts, referents, coordination, list load, and information order. Use the subject pattern directly when the object and the rule or operation needed from it are already clear. For non-FPF source prose, use `C.2.P` source-expression unpacking mode and borrow an `E.10` cue only when preparing a possible FPF use.
 
@@ -74,11 +74,13 @@ A cue is neither a ban nor a verdict. Its absence is not semantic clearance, and
 
 #### E.10:0.0a - One-screen cue and route
 
-1. Read one complete sentence, row, paragraph, list, or small coherent section rather than classifying a word in isolation.
+1. Read the complete sentence, row or passage with the request it answers. What must the reader identify, explain, decide or do? What in the text is an example, a fixed condition or a choice still entrusted to the reader?
 2. Apply the connected `F.19` reading. If ordinary meaning settles the issue, write the repaired text and reread the changed sentence with only its meaning-dependent neighbors.
 3. If an FPF wording question remains, name that one question: head or kind, register, morphology, durable name, direct relation and participant, reusable declaration, claim or report, representation, source or publication use, or another exact governed object.
 4. Use the applicable subject pattern directly when the object and claim are already recoverable. Use the detailed `E.10` rows only for the selected lexical question. Open `E.10.ARCH` when the distinction among a world-side fact, reusable declaration, claim or report, and representation is unresolved.
-5. Check the replacement for another umbrella head, an unintended kind or scope change, and a newly introduced relation. If one remains unresolved, state the blocker instead of filling the sentence with possible interpretations.
+5. Try the replacement in the reader’s work. For a claim about composition, what whole does the word pick out and which relation to its parts matters? For a comparison of models, which alternatives must the reader distinguish for the same question? Use C.39.SA:4 if the range still needs choosing. Use F.19:4.3.1.1 to return a result about another subject, scale or model to the original task. State a conclusion common to the supported readings when it settles the request, and identify any difference that still matters.
+
+“Why did this review pass the submission?” may ask about the decision in one meeting. “Why do our reviews keep passing these submissions?” calls for the way the review practice produces that result. The minutes may answer the first question. They can also supply grounds for the second if they establish the operative rule, how it is used and how far it applies. Choose the subject from the question before sharpening the word *review*.
 
 A complete reading can preserve clear conversational wording or an exact locally defined meaning. Where something remains unresolved, distinguish a sentence repair under an existing rule, a needed distinction or relation for which the defining rule is absent, and facts still missing to decide the meaning or claim. Unavailable facts do not establish an ontology gap. An applicable pattern supplies its stated rule; its presence does not prove that every encountered case is covered.
 
@@ -580,7 +582,7 @@ Do not perform a global string replacement. Use search only to locate candidates
 
 ##### E.10:0.2c.23 - `case`, `scenario`, `example`, `pilot`, `anti-case`
 
-Use `F.19` to decide whether the text needs several cases, whether each changes recognition or action, and whether an illustrative series could plausibly be mistaken for a complete classification. State the proposition or kind first and mark examples as non-exhaustive when that ambiguity is live.
+Use `F.19` to decide whether the text needs several cases, whether each changes recognition or action, and whether an illustrative series could plausibly be mistaken for a complete classification. Usually give the proposition first. When starting from a case, show the reader what decision or distinction it illustrates in time to interpret it, then bring its contribution back to the question. Mark an illustrative series as open where needed. An argument within one case may cover the full range. If the reader must choose a case or construct the explanation, show what guides that choice.
 
 If the word also carries an exact FPF use, name that use directly—for example a project situation, worked example, pilot, negative control, evidence case, comparison case, or source example—and apply its subject pattern. Do not reproduce this menu in the repaired prose.
 
@@ -800,7 +802,7 @@ If the declared scope is the whole document or corpus, representative examples d
 
 Closure is the repaired text, the concrete result of the one selected subject pattern, or a blocker. A pattern citation or trigger label alone is not closure.
 
-After any wording or syntax change, rerun `F.19` on the changed sentence and only the neighboring text needed to settle its meaning. Check that the replacement preserves the intended kind, relation, scope, and action without introducing another umbrella or unsupported branch.
+After a wording change, reread the affected passage through `F.19` as far as the instruction or conclusion that uses it. Check the subject, relation, scope and action against the original task. When the sentence provides one premise, retain the connection or open question at the point of use.
 
 When the positive sentence settles the use, close with that sentence and return to the domain task. Additional evidence belongs only to a receiving review or decision that needs it.
 

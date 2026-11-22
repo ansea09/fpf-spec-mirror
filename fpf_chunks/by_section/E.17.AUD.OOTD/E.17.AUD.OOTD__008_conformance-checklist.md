@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:7 — Conformance Checklist"
-line_start: 117834
-line_end: 117856
+line_start: 117916
+line_end: 117938
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 4. **CC-OOTD-4 - Concern, carried move, downstream use, and outside work are distinct.**
    The unit states which question it foregrounds, what it asserts or communicates, how readers may use it, and which wider work, approval, execution, decision, or reliance remains outside.
 5. **CC-OOTD-5 - Any transition is typed and explicit.**
-   If subject, concern, claim or carried move, downstream use, or the entity participant changes, the unit names which change occurred so readers can distinguish that change from the others.
+   For a change of subject, concern, carried move, downstream use or entity participant, the reader can tell why the passage shifts and what conclusion returns to the original question. A wider conclusion needs grounds across its stated range.
 6. **CC-OOTD-6 - Choose between local and publication-unit repair.**
    Use `E.17.AUD.LHR` when one local head or qualifier is the defect. Apply this pattern when that repair cannot settle the unit's subject, move, use, or outside boundary.
 7. **CC-OOTD-7 - Neighboring-pattern boundary is explicit.**

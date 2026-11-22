@@ -6,12 +6,12 @@ section_id: "F.13:9"
 section_title: "Micro‑examples (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__010_micro-examples-illustrative.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:9 — Micro‑examples (illustrative)"
-line_start: 131665
-line_end: 131699
+line_start: 131782
+line_end: 131816
 dependencies:
   - "F.1"
   - "F.17"
@@ -52,7 +52,7 @@ keywords:
 *Context:* **BPMN 2.0**.
 Legacy label **“process”** was used to mean both **“collaboration”** and **“executable process”** in a team’s prose.
 **Relation:** `splits("process" ⇒ {"collaboration","executable‑process"})`.
-**Effect:** The single Concept‑Set row becomes two; old label is deprecated with a disambiguation note.
+**Effect:** For an older note, ask what the writer attributed to the *process*. An instruction to start its executable instance can identify the team’s executable-process sense. A bare list of process names may leave both readings possible. Preserve that uncertainty in the reading note. Split a comparison row only if a row exists and its comparison now needs that distinction.
 
 #### F.13:9.4 - Merge duplicate comparison rows
 

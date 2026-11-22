@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.2.DE.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
-line_start: 12240
-line_end: 12426
+line_start: 12247
+line_end: 12433
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -81,7 +81,7 @@ Author claims for named uses while preserving the described Method's identity or
 5. **Write the explanation or instruction.** For enactment or learning, connect each needed action to its inputs, the operation performed, the result and the condition for continuing or stopping. Explain why a connection or ordering matters when the reader needs that reason to apply or adapt it. For a Method that depends on professional judgment, explain which observations bear on the decision, how they change the proposed action, and which unresolved conflict needs another contribution or a stop. Naming a mindset without showing that effect leaves the explanation incomplete. Unfold a constituent operation until the intended performer can carry it out, or identify the missing know-how or contribution; do not invent an operation to fill a heading. Retain alternatives and dependencies without imposing one order on independent actions. In the admitted-Method branch, identify the episteme by its claim content, Method as `EntityOfConcern`, and effective scheme. In the candidate branch, retain the account's proposed content and unresolved Method-identification conditions. State which claims were added, retained, narrowed, or removed when another edition is being revised.
 6. **Record use coverage and omissions.** For each named use, list the claims exposed, claims deliberately omitted, unresolved claims, and the return condition. An omission is acceptable when the receiver does not rely on it; otherwise it is a gap.
 7. **Choose expression and publication separately.** Select text, code, diagrams, a mathematical lens, publication form, and carrier only after the claims are stable enough for the use. For one representation-use action, use C.37 or its direct governing pattern. When different named Method-related actions require complementary governed representations of the current MethodDescription or candidate account, C.37.MP returns a complete Method representation profile: one complete C.37 claim group per action, together with cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions that require reconsidering several selections. Use the FPF pattern governing any other represented entity.
-8. **Try the receiving use from the description.** Recover the claims, conditions and omissions needed by the receiving use. For enactment or learning, work through a small case: recover the first action and its inputs, follow its result to the next needed action or stop, and expose any instruction supplied only from the author's memory. Return a description or candidate-account correction, or identify the missing input, know-how or other result needed by the use. This checks the description at that use; it does not establish the Method's effectiveness or a learner's acquired capability.
+8. **Try what the reader was asked to do.** For an instruction to apply a supplied rule, work from its stated inputs to the receiving result or stop. When the reader must design the rule, choose its scope or select the evidence, start with the original commission, available material and normal assistance. Explain how to make that choice from the recipient’s use, then try it without a heading, completed form or example that has already made it. Ask what would warrant a different choice under another permitted condition. Return any gap to the operation or explanation that should supply it. An enactment with a given rule and a learner’s own construction support different conclusions about the description. For a decision about what the learner can do now, identify their own action under the assistance available for the proposed work. An earlier comparable independent choice may already warrant assigning the next task. To judge a change in capability, compare earlier and later work with the choices, conditions and help in each. To attribute that change to instruction, establish what contribution the instruction made compared with what ordinary practice or other influences would have produced (A.3.1.MR:4.2).
 
 #### A.3.2.DE:4.2 - Record the Result
 
@@ -127,7 +127,7 @@ The author recovers the rule's inputs and dependencies. For one item, unit and i
 
 With opening stock 48, receipts 12, issues 17 and a closing physical count of 41, the expected count is 43 and the discrepancy is -2. The description now supplies an operation, its operands, their origins, the reason for their combination and a useful return. Its authoring result is the instruction, not evidence that a storekeeper performed it.
 
-The receiving-use check asks the reader to recover that calculation and return from the description. If the opening figure is in boxes while movements are in individual units and the conversion is unknown, a numerical balance remains unavailable. A comparison-only description could legitimately omit this enactment detail; this edition promises the storekeeper a way to perform the reconciliation.
+The receiving-use check asks the reader to recover that calculation and return from the description. If the opening figure is in boxes while movements are in individual units and the conversion is unknown, a numerical balance remains unavailable. A comparison-only description could legitimately omit this enactment detail; this edition promises the storekeeper a way to perform the reconciliation. If the intended use is instead to design the reconciliation, a reviewer who is handed that formula has tested application. Give the decision about stock and the available records first. Have the reader choose the unit, interval and movements from what could alter that decision, justify how those quantities should combine, and return the result the storekeeper needs. A declared unit or boundary can be reused where the commission fixes it.
 
 #### A.3.2.DE:5.4 - Explain the Basis of a Professional Judgment
 
@@ -159,7 +159,7 @@ The explanation now makes the changed judgment recoverable: inclusion follows a 
 - [ ] Each `U.MethodDescription` result names one `A.3.1`-admitted Method as its `EntityOfConcern`.
 - [ ] A candidate whole remains a candidate account when Method admission is absent.
 - [ ] Every named use has a receiver, action or decision, situation, qualification window, and stop.
-- [ ] Included claims say something substantive about the Method as a way of doing. An enactment or learning description lets the prepared reader recover the needed operations and their input/result connections, or exposes the missing contribution.
+- [ ] Included claims say something substantive about the Method as a way of doing. An enactment or learning description lets the prepared reader recover the needed operations and their input/result connections, or exposes the missing contribution. If the commission leaves a rule, scope or part of the method for the learner to construct, the exercise leaves that choice to them and the explanation shows how to make it.
 - [ ] Use coverage distinguishes exposed claims, deliberate omissions, unresolved gaps, and return conditions.
 - [ ] WorkPlan, dated Work, actual participants and results, operation declarations, evidence, capability, permission, authority, representation, publication, and carrier claims remain separate.
 - [ ] Representation choice does not decide MethodDescription membership.

@@ -6,12 +6,12 @@ section_id: "C.39.MF:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:0 — Use This When"
-line_start: 88482
-line_end: 88505
+line_start: 88528
+line_end: 88551
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -27,7 +27,7 @@ Use this pattern when a project says that its “methodology”, “process”, 
 
 Begin with the result that is missing, late, unsafe, or too costly and the Work in which it matters. Identify the Methods already used there and any accounts that still need examination. What could change the decision about that result: improving one Method, changing how Methods work together, or securing the tool, capability or service the work requires?
 
-The first useful move is to compare the plausible focus options: one Method, an established family or project-local grouping, named Method relations, or a non-Method return. This gives later repertoire, qualification, or architecture Work a supported subject and the relations it needs to address, without inventing a Method or a composite.
+The first useful move is to compare the plausible focus options: one Method, an established family or project-local grouping, named Method relations, or a non-Method return. A project can choose a proposed whole as the subject of design or investigation while leaving its Method status open. To rely on it as an established way in current work, recover the grounds for that status and use. This gives later repertoire, qualification, or architecture Work a supported subject and the relations it needs to address, without inventing a Method or a composite.
 
 Do not use C.39.MF merely because one tool failed, one practitioner lacks capability, one document is incomplete, or one project, process, or case view is inconvenient. Return that question to its subject unless changing a Method would change the receiving result.
 

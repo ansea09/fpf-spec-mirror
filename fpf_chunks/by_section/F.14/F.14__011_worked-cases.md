@@ -6,12 +6,12 @@ section_id: "F.14:10"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__011_worked-cases.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:10 — Worked cases"
-line_start: 132068
-line_end: 132137
+line_start: 132185
+line_end: 132254
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ Premise: the local practice has already admitted `RequesterSystemRole` and `Appr
 Result after that premise:
 
 * Reuse the two admitted kinds and keep separate `SystemRoleKindDescription` epistemes only when descriptions are needed.
-* `RequestApproverSystemRole` is blocked as a fused kind. Use an A.2.7 bundle when the practice requires the two assignments together and specifies how holders may fill them.
+* The two existing kinds alone give no grounds for a third. Use an A.2.7 bundle when the practice requires both assignments and specifies how holders may fill them. If the reader needs a name for a committee that decides requests jointly, identify that committee under its own rule. Its members’ two role-kind names can stay exactly as they are when the committee changes.
 * If the same holder must not carry both assignments in the same change window, use the A.2.7 incompatibility relation. To check an actual pair against that rule, recover its assignments under A.2.1 and any applicable A.2.5 currentness condition. Use F.6 only if a separate claim says that dated Work was performed under one of them.
 * `SeniorApprover` is not proof of independence or assurance. Recover the intended local system-role kind, exact assignment-state predicate or relation, capability, assurance, or policy claim before durable naming.
 

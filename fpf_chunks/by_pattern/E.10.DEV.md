@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.DEV.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
-line_start: 107583
-line_end: 107812
+line_start: 107647
+line_end: 107876
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -83,12 +83,12 @@ Without a shared way to recover the claim, these mistakes arise.
 
 Recover the current claim from the subject and use rather than from the umbrella word.
 
-1. **Bound the wording span.** Open only the expression whose interpretation changes a claim, inference, or action.
+1. **Read the expression in its intended use.** Follow the wording to the decision or explanation that depends on it. A named change in one member can be relevant to a question about the organization. Establish what connects it to the result being claimed.
 2. **Name the exact changed or represented subject.**
 3. **State continuity or membership.** Name only the identity, reidentification, membership, generation, lineage, edition, or retention rule needed by this use.
 4. **Expose direction or value only when claimed.** Name the objective, characteristic, scale, polarity, viewpoint, and evidence needed by the receiving use. The word *development* does not establish improvement.
 5. **State posture.** Mark the claim's posture—for example, actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned.
-6. **Choose one direct branch.** Split the sentence when it carries several independently actionable claims.
+6. **Use the direct rule for each claim.** Distinguish independently actionable claims. If the recipient also needs a connection between them, recover what establishes it. A programme can develop a team’s ability through changed coordination even when its members’ individual qualifications stay the same.
 7. **Stop after recovery.** Choose one of six recovery outcomes—a repaired claim, ordinary non-use, quote-only use, missing information, the direct owner, or an exact architecture gap. State the next use or stop for the selected outcome.
 
 #### E.10.DEV:4.1 - Optional DevelopmentEvolutionWordingRecoveryLine
@@ -135,7 +135,7 @@ The phrase *development trajectory* does not by itself require two full repairs.
 - Continue to `E.10.MOVE` only when the trajectory itself still carries a separate claim about position space, order, segment identity, actual, predicted, or planned posture, or representation.
 - Start with `E.10.MOVE` when the bearer and development claim are already clear and only the path or trajectory posture is unresolved. Invoke `E.10.DEV` afterward only if a distinct development or evolution ambiguity remains.
 
-Both routes must converge on the same direct subject claim or exact gap. Neither child creates a `DevelopmentTrajectory` kind, and no recovery note is required for a clear local sentence.
+Return each result to the original question. One clarification may settle both expressions. If the proposed route and the development it is intended to produce concern different subjects or times, keep both and state the relation the conclusion needs. Neither child creates a `DevelopmentTrajectory` kind, and no recovery note is required for a clear local sentence.
 
 ### E.10.DEV:5 - Worked Slices
 

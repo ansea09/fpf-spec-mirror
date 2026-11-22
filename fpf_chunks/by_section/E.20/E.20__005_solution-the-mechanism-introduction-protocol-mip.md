@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 121558
-line_end: 121790
+line_start: 121644
+line_end: 121878
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -67,7 +67,9 @@ Only the third outcome uses the manifest in `E.20:4.2`. For the first two, name 
 
 #### E.20:4.1 - Step 1: Classify the introduction
 
-The author SHALL first classify the change, because different classes have different governing definitions:
+First establish what a user of the declaration or suite must be able to obtain after the proposed change. Trace that result through the operations and handovers it needs. Which current rule excludes a required use, admits a forbidden one, or leaves a decision to be made? A new binding can enable a use already covered by the operation laws. A promise about several operations together may require changing the suite protocol while all member declarations remain valid. If the user requested only a correction to an existing reference, its resolution can settle the matter.
+
+Classify each change by its governing definition:
 
 1. **New declared operation family or archetypal grounding.** The `EntityOfConcernRef` names an operation family not previously declared at the selected governing locus.
 2. **New mechanism declaration or semantic edition.** One A.6.1 `U.Mechanism` episteme receives new identity-bearing content or a new effective reference scheme.
@@ -173,7 +175,7 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 1. **Membership set semantics (WF‑MS‑1).** `mechanisms` is a set: duplicates are nonconformant and list order carries no semantics.
 2. **Ordering is only in protocols.** Express any order that matters in `suite_protocols`.
-3. **Protocol closure (WF‑MS‑2).** Each `ProtocolStep` resolves to a selected member edition and a declaration-local operation. Alternatives listed as members must meet the suite's membership and edition rules. For a joint use, check the configuration and what the first operation can deliver to the next under A.6.7. One feasible handover establishes a possible route. If the suite promises to handle every admissible output, the receiving operation must accept each one or the protocol must provide a usable branch for it. For a dated delivery check the actual handover; for an agreed risk allowance use its criterion.
+3. **Protocol closure (WF‑MS‑2).** Each `ProtocolStep` resolves to a selected member edition and a declaration-local operation. Alternatives listed as members must meet the suite's membership and edition rules. For a joint use, establish which operations and results must be compatible in the same configuration. Where one supplies another, use A.6.7 to check the handover. One feasible handover establishes a possible route. For a promise to handle every admissible output, determine who can select a branch, when the selection binds and what that participant can then distinguish. The selected branch must work for all outputs still possible on the information available at that point. A single receiving operation may already accept them all. Where branches join, follow their inputs back to the same permitted configuration. Two acceptable results belonging to different orders or editions can pass their local checks and still fail to provide the promised combined result. For a dated delivery check the actual handover. For an agreed risk allowance use its criterion.
 4. **No hidden tails.** Required stages (e.g., normalization/aggregation/Γ‑fold) are explicit protocol steps; do not hide them inside other steps.
 5. **Guard/gate separation.** Suites and mechanisms SHALL NOT publish `GateDecision`/`DecisionLog`. `AdmissibilityConditions` and tri‑state `GuardDecision` remain governed by the mechanism definition; `OperationalGate(profile)` acceptance thresholds and pass/fail criteria remain gate/acceptance concerns.
 6. **Suite is descriptive only (WF-MS-3/4).** A suite states membership, obligations, pins, and suite protocols. It does not restate `U.Mechanism` identity-bearing content. Any publication or telemetry continuation remains outside the suite protocol and requires its own exact publication or flow assertion and predicate.

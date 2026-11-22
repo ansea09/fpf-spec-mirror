@@ -6,12 +6,12 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 81330
-line_end: 81373
+line_start: 81364
+line_end: 81407
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.32.P2S:5 - Archetypal Grounding
 
-The architect carries pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling domain work, and watching which subject-side structures obtain under operation. An actual transformation is introduced only when its own `A.3.4` basis is grounded.
+Carry the outside need through to what the commission requires. An explanation may establish how existing relations produce the relevant property. A design shows how the proposed relations would do so. For installation, establish the work agreed with the recipient, including qualification when it belongs to acceptance. For a capability, establish what the participants can now do under the agreed conditions. When the commission calls for use to start, continue or cease, establish the required start, continuation or cessation in practice. An actual transformation has its own `A.3.4` basis.
 
 **A throughput shortfall after a layout change.** A plant architect finds that a production cell delivered fewer accepted units per shift than the layout design predicted. The count establishes the shortfall for the observed shifts. It leaves open whether a buffer was installed on a different route, the input mix changed or the cell spent longer waiting for release. Identify which of those differences would change the proposed action.
 

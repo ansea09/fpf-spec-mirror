@@ -6,12 +6,12 @@ section_id: "C.39.RP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:4 — Solution"
-line_start: 89115
-line_end: 89155
+line_start: 89161
+line_end: 89201
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -43,7 +43,7 @@ Recognition is cheap: a source or repository entry is worth inspecting when it m
 
    Use a broader `G.2` SoTA pack only when the use needs refreshable multi-source synthesis rather than a small question-relative source set.
 7. **Expose missing positions.** List absent alternatives, unknown editions, unsupported ancestry, missing evidence, unresolved family status, and contributions whose source meaning cannot yet be recovered. Say which next use each gap blocks or merely weakens.
-8. **Return the bounded repertoire.** Make the subjects, source contributions, relations, applicable conditions and any gaps available for the named use. Reuse an adequate existing account; publish a separate record when later receivers need one. Stop when the next decision can inspect the live alternatives and uncertainties without guessing their status.
+8. **Return the bounded repertoire.** Make the subjects, source contributions, relations, applicable conditions and any gaps available for the named use. Reuse an adequate existing account; publish a separate record when later receivers need one. For a choice among the named entries, their relevant differences and status may suffice. For a complete repertoire, recover its membership rule and establish that every eligible way is included at the granularity the recipient ordered. For an exclusion, establish that the item falls outside the membership rule. Grounds for preferring one eligible way to another support a recommendation and leave both in a complete list. A record of the ways found can serve a bounded review while completeness remains open.
 
 #### C.39.RP:4.2 - Record the Result
 

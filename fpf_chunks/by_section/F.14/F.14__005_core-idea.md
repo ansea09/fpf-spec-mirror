@@ -6,12 +6,12 @@ section_id: "F.14:4"
 section_title: "Core idea"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__005_core-idea.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:4 — Core idea"
-line_start: 131926
-line_end: 131942
+line_start: 132043
+line_end: 132059
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,8 +52,8 @@ keywords:
 
 Use this sequence before minting a durable name or any supporting naming object:
 
-1. **Recover the governed value first.** Separate candidate expressions whenever they designate different governed values or relations. Recover each retained value's exact kind and direct pattern; keep an ordinary phrase local when no governed naming case is needed.
-2. **Name one proposed use and its interpretation basis.** State what the reader will do with the expression and the effective naming rules (`ReferenceScheme`). An independently selected `BoundedModelUseStructure` appears only when that organization changes this naming use; it is never a generic locality field.
+1. **Identify what the reader would name.** Start with the reader’s task. Distinguish a name for each of several values from a name for their governed relation or an independently admitted whole. For the latter, recover what makes the constituents one whole for this use. Trace the intended value to its exact kind and defining or constraining pattern. Separate genuinely different naming decisions. Ordinary wording can stay local.
+2. **Set the naming scope.** State the proposed use and effective naming rules (`ReferenceScheme`). A request for a name already in use can be answered from its naming settlement. When the choice is yours, test whether cases the proposed expression groups together require the reader to distinguish values. An independently selected `BoundedModelUseStructure` matters here only if its organization changes the naming use.
 3. **Select the lightest sufficient treatment.** Use adequate ordinary wording, an existing designation, an alias, a local expression, a direct-pattern name or a current public row. Reuse an already justified choice; compare alternatives when they could reduce burden without losing a governed distinction.
 4. **Create only the next object that pays for itself.** A local `SchemeSenseCell` is useful only when the exact local sense needs a stable address. A NameCard is useful only when the naming settlement itself must endure. Create an F.17 row only for public, Core-facing, durable, or cross-local reuse. Use E.24.PUB only when the selected row edition must actually be made available. None implies the next.
 5. **Use exact relations instead of fused names.** Bundles and incompatibilities among system-role kinds remain A.2.7 relations; assignment claims remain A.2.1.

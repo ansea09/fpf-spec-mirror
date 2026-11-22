@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 134234
-line_end: 134725
+line_start: 134353
+line_end: 134844
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 Use a local-first naming protocol:
 
-1. Recover the governed value, its kind, and its subject pattern.
+1. Start from what the recipient will do with the designation. In the sentence or instruction where it will be used, what must it pick out? Which nearby value would require a different action or interpretation? Trace the intended value to its kind and subject pattern. For a name of a relation or an organized whole, establish which relation or organization the designation must preserve.
 2. Decide whether the expression should remain local or the current use needs a durable reusable name; apply `F.14` before adding a card, cell, or row.
 3. For a durable name, constitute one `NameCard` episteme under `C.2.1`; keep the value, its kind, the card, selected designations, exact local sense, and any basis or Bridge relation distinct.
 4. Choose the Tech label and any Plain designation needed for a stated didactic use from the smallest candidate set that covers the live head-term families and plausible neighbouring objects.
@@ -427,13 +427,13 @@ Consider the following R7 naming candidates under the by-value `FPFCoreReference
 
 Suppose the E.10 TokenClass, reserved-name and allowed-scope prerequisites have not yet been established for these candidates. They remain naming candidates. There is no current NameCard or public row to cite until the lexical prerequisites and naming decisions for that row are settled. These naming uses require no semantic correspondence and make no Bridge claim.
 
-| Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Three-arena invariance | Reopen/close condition |
+| Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Illustrative uses of the proposed sense | Reopen/close condition |
 | --- | --- | --- | --- | --- |
 | `SelectedRuleContentSubgraphDesignation` | use-relative designation resolving the exact nonempty base subgraph selected in one identified derivation or criterion-selection claim; governed node `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7` | selected subgraph/designation, selected basis/reference, and rule-bearing classifier families were compared; reject intrinsic `RuleBearing...`, generic `Base`, and reference-only heads because the value is selection-relative and by-value | manufacturing assembly-rule selection; healthcare protocol-premise selection; cloud deployment-policy criterion selection | close only when exact `LEX.TokenClass`, `LEX.Reserved-Names`, and `LEX.AllowedScopes` values and assertions pass under `FPFCoreReferenceScheme`; reopen on R7 semantic or scheme change |
 | `derivedUsingRuleContent` | predicate true only when an identified derivation claim used exact base content as a formal premise under a declared inference rule/application to produce exact dependent content; governed node `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7` | derived-using, derived-from, supported-by, and based-on families were compared; reject `derivedFrom` because source/provenance and semantic derivation are broader, and reject `supportedBy`/`basedOn` because they hide actual formal-premise use | manufacturing configuration derivation; healthcare dosage derivation with evidence kept separate; cloud configuration derivation | same lexical prerequisites as above, plus exact R7 predicate identity |
 | `evaluatedAgainstRuleContent` | predicate true only when an identified criterion-selection claim selected exact base content for one bounded evaluation claim concerning exact dependent content; governed node `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7` | evaluated-against, assessed-under, governed-by, and checked-with families were compared; reject `governedBy` and generic `checkedWith` because they hide criterion selection and can imply authority, Work, or tool use | manufactured configuration evaluation; healthcare protocol-conformance evaluation; cloud release evaluation against deployment policy while operational Work stays separate | same lexical prerequisites as above, plus exact R7 predicate identity |
 
-A collision-free text search does not establish the missing governed lexical values. In this situation, quote the spellings as candidates when discussing the R7 declaration; cite a current NameCard or public term row only after the lexical prerequisites and naming settlement are established.
+The examples show how to read each candidate expression under its stated rule. To justify an expression for a wider vocabulary, establish which defining relation its uses share and where that reading fails. For a proposed universal Kernel **kind**, use the independent projections required by A.8. For the name of an already qualified predicate or designation, justify that lexical choice for its intended uses. A current NameCard or public row also requires the lexical prerequisites and naming settlement.
 
 #### F.18:4.2e - Architectural Reference NameCard
 
@@ -470,7 +470,7 @@ The full title, filename, declared publication-unit key and stable `SectionRef` 
 
 #### F.18:4.3 - Candidate Selection
 
-Build the smallest candidate set that covers the live head-term families and plausible neighbouring-object readings that could change the decision. A cited external standard may fix the label under §4.1. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
+Find a sentence in which this reader will have to use the name. Form a candidate from the distinction that matters in that sentence. Change a participant, a condition or the organization of the parts within the allowed use. Does the word still pick out the intended value where it should, and does it distinguish a neighbouring value where the reader needs to tell them apart? Try another head term or qualifier where that answer changes. Build the smallest set that covers the resulting alternatives. A cited external standard may fix the label under §4.1. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
 
 Judge candidates on:
 

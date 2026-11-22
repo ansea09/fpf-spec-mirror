@@ -6,12 +6,12 @@ section_id: "E.14:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:0 — Use This When"
-line_start: 112550
-line_end: 112565
+line_start: 112616
+line_end: 112631
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -30,7 +30,7 @@ Use this pattern when FPF text needs to stay readable as one human working model
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
-**Ordinary route.** Write the shortest practitioner sentence that says what the claim is about, what it claims, and what use it supports. If no assurance-bearing reliance question is current, let the reader stop there.
+**Ordinary route.** Name the claim, its subject and what the recipient came to learn, decide or do. A short statement can close a request to identify the claim. An explanation may also need the relation that makes it follow. Someone designing a way to choose needs grounds they can use when the choices change. Supply what the commissioned work requires and add the assurance route when warranted.
 
 When an assurance-bearing reliance question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that sentence and cite the pattern that defines or tests each supporting claim.
 

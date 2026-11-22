@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:0 — Use This When"
-line_start: 125379
-line_end: 125403
+line_start: 125476
+line_end: 125500
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -42,7 +42,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 
 **Primary working reader.** A practitioner or FPF author distinguishing a claim-bearing episteme, a `U.View`, its expression, a reusable publication form, a carrier or an exact publication occurrence. Open representation methods when the expression also supports reasoning through a correspondence to its subject.
 
-**First useful move.** Put the intended receiving use in the bounded-use declaration. Then say which episteme is available, to which declared audience, for which bounded use, through which expression and carrier.
+**First useful move.** Ask what the reader needs to obtain and what they will do with it. For a publication being designed, respect the specified edition, audience and conditions, and use the reader’s work to choose the claims, expression and carrier where those choices remain open. For an existing publication, recover its declared use and the routes actually available. Match those conditions to the reader’s task when its suitability is at issue.
 
 Name a reusable form when its constraints matter. Cite a separate plan, decision question or `U.WorkPlan` only when it independently exists and changes the publication claim. Distinguish availability from a claim of actual access or use. When a team needs access, decide who needs to do what, by when. Apply §4.2.1 when different routes or conditions could change that answer.
 

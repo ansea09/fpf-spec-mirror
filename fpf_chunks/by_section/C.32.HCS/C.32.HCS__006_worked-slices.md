@@ -6,12 +6,12 @@ section_id: "C.32.HCS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__006_worked-slices.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:5 — Worked slices"
-line_start: 81648
-line_end: 81661
+line_start: 81682
+line_end: 81695
 dependencies:
   - "A.19"
   - "C.11"
@@ -38,7 +38,7 @@ keywords:
 
 ### C.32.HCS:5 - Worked slices
 
-**Engineered-system family.** A field-device project starts from reliability, maintainability, substitutability, evidence reuse, locality, and source-return cost. `C.32.ACS` later marks only maintainability, substitutability, and evidence reuse as optimization indicators; safety and availability remain guardrails.
+**Engineered-system family.** Reliability, maintainability, substitutability, evidence reuse, locality and source-return cost are possible starting questions for a field device. When a particular operator requires continuity during replacement and prefers less service work, C.32.ACS develops those two criteria and their distinct roles. Other projects can impose different requirements.
 
 **Method and Work.** A reusable review Method connects source recovery, comparison, judgement and correction. Evidence reuse and change reach are plausible starter heads because changing how a dependent claim is found can alter both missed defects and repeated reading. A completed review has a separate Work question: were the required comparisons performed, and what delay or rework occurred? Improving the next Method version cannot retroactively change that Work. If the issue is reviewer staffing, select the performing organization and its contributions instead. Local system-role-kind substitution uses A.2.7; assignment continuity and Work coverage retain their own bearers.
 

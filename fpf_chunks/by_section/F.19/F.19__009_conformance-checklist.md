@@ -6,12 +6,12 @@ section_id: "F.19:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__009_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:7 — Conformance checklist"
-line_start: 135455
-line_end: 135486
+line_start: 135575
+line_end: 135606
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -38,18 +38,18 @@ These questions guide one connected reading; they do not require separate record
 
 | Check | Requirement |
 |---|---|
-| `CC-F19-1` | The repair names the text span and visible apparatus candidates before rewriting. |
+| `CC-F19-1` | The repair starts from the reader’s commissioned use. The selected span includes the words on which the reader’s inference or action depends. A named local wording problem may determine that span directly. |
 | `CC-F19-2` | The repair separates apparatus from content by the values named in `KindAndClaimMap`, `ActionGuidingClaimDetails`, and `FlowPosition`; lexical dislike is not enough. Role- and function-shaped wording remains content until the connected reading or, for an unresolved claim, `E.10.ROLE` or `A.6.F` recovers it. |
-| `CC-F19-3` | Apparatus is removed or moved before wording-use precision restoration is applied to the remaining content. |
+| `CC-F19-3` | Establish what each apparent piece of apparatus contributes to the reader’s claim or action before removing or moving it. Restore the meaning of an unresolved expression when that meaning affects the decision to keep it. |
 | `CC-F19-4` | Content-bearing wording remains content; when ordinary reading leaves its meaning unresolved, it is repaired by `E.10`, `E.10.ARCH`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining claim rather than deleted as style. |
 | `CC-F19-5` | A removed apparatus word is not replaced by a synonym, metonymy, role label, container word, or status word that carries the same hidden apparatus. |
 | `CC-F19-6` | Established FPF terms are preserved unless a named precision-restoration or naming pattern changes them. |
 | `CC-F19-7` | Every accepted rewrite passes the `KindPreservationCheck` comparison; a change to object kind, relation or claim kind, current slot, relation position, use, scope, or a live action-guiding discriminant without an accepted decision remains a blocker. |
 | `CC-F19-8` | Development, evaluation, projection, landing, use-found, repair, and source-management evidence stay in the evidence, projection, release, or publication loci that carry them unless the text is about that flow object. |
-| `CC-F19-9` | The accepted rewrite is shorter or clearer without losing technical semantics or action-guiding detail. A longer rewrite is admissible only when it recovers a hidden kind, relation, role or assignment distinction, function claim, slot, claim boundary, quantity, threshold, polarity, order, timing, criterion, tolerance, exception, or applicability condition needed by the declared use. |
+| `CC-F19-9` | The accepted rewrite is shorter or clearer without losing technical semantics or action-guiding detail. A longer rewrite is admissible only when it recovers a hidden kind, relation, role or assignment distinction, function claim, slot, claim boundary, quantity, threshold, polarity, order, timing, criterion, tolerance, exception, or applicability condition, premise or operation the reader needs for the commissioned use. |
 | `CC-F19-10` | Check for loss of truth, action, stop criterion, value, usability, locality, currentness, kind recoverability, or operational detail the reader needs. Correct the loss or identify it in the decision that must resolve it. |
 | `CC-F19-11` | Term-source or type annotation is used only when it changes the object, kind, relation, slot, use, publication boundary, admissible use, or rule the reader must apply; stable ordinary prose is not expanded into type labels. |
-| `CC-F19-12` | The accepted plain rewrite satisfies cold-reader recovery under F.19:4's evidence-selection and coverage conditions: a reader without the `DRR`, campaign notes, or author memory can state the content-bearing object, kind or ordinary status, relation or claim position, admissible use, next practical action, and every quantity, threshold, ordering, timing, criterion, exception, or applicability condition that changes that action. When another pattern contributes, the reader can recover its id and contribution. Broad heads such as `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, and unqualified `specialization` are not plain enough when they hide what the practitioner must recognize. |
+| `CC-F19-12` | The accepted plain rewrite satisfies cold-reader recovery under F.19:4's evidence-selection and coverage conditions: the reader can recover the content commissioned using the material ordinarily available, without relying on the author's memory or private notes. For an explanation this includes the subject, relevant relations, reasoning and conditions needed to understand the claim. For an instruction it includes what the reader must do and the quantities, timing, order, criteria or exceptions that can change that action. A commission for both requires both and their necessary connection. When another pattern contributes, the reader can recover its id and contribution. Broad heads such as `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, and unqualified `specialization` are not plain enough when they hide what the practitioner must recognize. |
 | `CC-F19-13` | Every added qualifier or formal identity has a named live contrast: it changes truth, action, stop, migration, publication, reuse, or reliance. An ordinary PatternID citation does not by itself require a `ClaimGraph`, `U.MethodDescription`, `U.Method`, actor, assignment, or `U.Work` expansion. |
 | `CC-F19-14` | After apparatus removal, the reader can recover every complement and distinction needed to determine what was selected, changed, compared, transformed, published, evaluated, relied on, started, stopped, ordered, limited, or excepted. |
 | `CC-F19-15` | Ordinary practitioner action and instrumental “use pattern X” wording stays ordinary when it does not assert identity-bearing dated Work. When it does, point to the basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Open `E.10.ROLE` or `A.6.F` when ordinary reading leaves the role- or function-shaped claim unresolved; use only the recovery it needs. `U.MethodDescription` appears only after the `A.3.2` test passes. |
@@ -61,6 +61,6 @@ These questions guide one connected reading; they do not require separate record
 | `CC-F19-21` Meaning and loss preservation | The rewrite preserves every live term, polarity, quantity, threshold, temporal or ordering condition, criterion, tolerance, exception, applicability boundary, and other action-changing detail. Any accepted change of kind, relation, scope, currentness, or use has its own decision. |
 | `CC-F19-22` Grounded contribution | Every optional guard, contrast, modifier, example, and coordinated member changes recognition, understanding, evidence, decision, safety, stop, reliance, or action for a plausible intended reader. A negative alternative has an independent local ground and is the smallest clear correction. |
 | `CC-F19-23` Coordination and foregrounding | The span makes recoverable the proposition or action served by a series, its scope, membership semantics and needed closure. The relation between examples and the general claim is clear in the chosen order of explanation. Shortening or removing the series preserves that claim, its needed grounds and the distinctions required for use. Coordination and modifiers contribute without postponing the governing message. |
-| `CC-F19-24` Plain result | A cold intended reader can recover the repaired claim and next useful action under F.19:4's selected evidence basis and coverage. Keep an adequate passage. If it needs repair, return the repaired text or identify the unresolved meaning. No form or ledger is mandatory. |
+| `CC-F19-24` Plain result | Using the material actually supplied, a cold intended reader can recover each explanation and action required by the commission, including their connection when both are needed. Apply F.19:4's selected evidence basis and coverage. Where the reader is to choose how to proceed, check what the wording and available assistance leave for that reader to choose. Keep an adequate passage. If it needs repair, return the repaired text or identify the unresolved meaning. No form or ledger is mandatory. |
 | `CC-F19-25` Local revalidation | Reread changed wording or syntax with the passages on which its meaning depends and check directly affected uses. Reuse an earlier semantic judgement only for unchanged text whose meaning and use remain unaffected. |
 

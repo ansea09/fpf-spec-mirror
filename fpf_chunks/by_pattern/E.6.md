@@ -6,20 +6,14 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.6.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
-line_start: 102913
-line_end: 102993
+line_start: 102966
+line_end: 103048
 dependencies:
   - "E.2"
 keywords:
-  - "didactic"
-  - "learning"
-  - "narrative flow"
-  - "on-ramp"
-  - "pedagogy"
-  - "structure"
 ---
 
 ## E.6 - Didactic Architecture of the FPF Specification
@@ -30,7 +24,7 @@ keywords:
 Use this pattern when arranging the specification's explanation and practical entry. Readers differ in at least two respects:
 
 * **Disciplinary background** — for example, systems engineering, knowledge science or ethics.
-* **Preparation** — newcomers may need introductory examples. Prepared readers may enter through a precise definition or operation.
+* **Preparation** — some readers need help seeing a relation in use. Others can enter through the definition or operation that answers their question.
 
 ### E.6:2 - Problem
 The publication needs an explanatory order in which readers can find the grounds needed for later claims. A practical question may require entry into a later Part. Document order must not become a compulsory workflow.
@@ -41,7 +35,7 @@ The publication needs an explanatory order in which readers can find the grounds
 | Force | Tension |
 |-------|---------|
 | **Cognitive Load** | Formal detail supplies grounds for later reasoning, but too much detail at the outset can obscure the opening explanation. |
-| **Conceptual Integrity** | Without examples, the explanation risks becoming too abstract. Too many examples delay the axioms. |
+| **Conceptual Integrity** | A general account must preserve the distinctions its reader needs. A concrete case can reveal one of them while supplying a choice that the reader needs to learn to make. |
 | **Didactic order vs practical entry** | The order of Parts is stable, while a first practical route that fits the reader’s question may cross Parts. |
 
 ### E.6:4 - Solution — Order the explanation and keep practical entry separate
@@ -52,13 +46,13 @@ The document's macro-order organizes explanation. It does not prescribe one prac
 
 After the Table of Contents, the Readme offers recognizable working questions and direct entries. The Architectural Reference explains the whole pattern language, its cross-cutting ideas, connections and architectural choices, including introductory explanation.
 
-These informative explanation and navigation units and ToC cues may cross Parts when the reader's question requires it. Use `E.11` for practical entry. When the compact cues leave the choice of entry unclear, use its worked comparisons.
+Choose the opening from the reader’s question. What are they trying to understand, do or construct? Which whole, constituent or relation is the question about, and what must the model let them distinguish? Begin where the reader can obtain the first grounds or perform the first operation they need. Follow its contribution to the promised result across Parts when necessary. E.11 helps when several plausible entries would lead to different work.
 
 Keep the main explanatory sequence recoverable:
 
 1. **Readme and Architectural Reference.** The Readme helps a reader find a first useful result. The Architectural Reference explains the connected language and its rationale. Its introductory System and Episteme stories build intuition before the kernel exposition.
 2. **Part A — Kernel Architecture.** Introduce the holonic ontology and acting-side externalization in A.12.
-3. **Part B — Trans-disciplinary Reasoning.** Connect the general reasoning moves with applicable System and Episteme grounding under E.7.
+3. **Part B — Trans-disciplinary Reasoning.** Explain the reasoning moves and their grounds for the kinds of things each question concerns. Use E.7 to show how the reasoning applies.
 4. **Part C — Kernel Extension Specifications.** Develop the calculi and extension patterns whose questions use those foundations.
 5. **Part D — Multi-scale Ethics and Conflict Optimization.** Introduce the reflective ethical and conflict questions with the needed holonic distinctions available.
 6. **Part E — Constitution and Authoring Guides.** Place framework governance and contributor guidance after the principal kernel and reasoning exposition so an ordinary first use need not begin with authoring rules.
@@ -71,11 +65,13 @@ This publication order does not require readers to traverse every Part. Practica
 
 ### E.6:5 - Archetypal Grounding (System / Episteme)
 
-| Narrative layer | First sight of `U.System` | First sight of `U.Episteme` |
+Consider a reader who wants to understand how a whole can depend on its constituents. The two reading paths below show how an introductory account, a definition and an application can contribute to that question. The physical arrangement and the grounds for a synthesis require different relations among constituents. A reader who needs only the criterion for one kind can enter at its definition.
+
+| Place in the publication | First sight of `U.System` | First sight of `U.Episteme` |
 |-----------------|---------------------------|-----------------------------|
 | Architectural Reference | Coffee‑machine story (pump as system). | Meta‑analysis story (study bundle as episteme). |
 | Part A | Formal definition states the System criterion and applicable boundary conditions. | Formal definition states the Episteme criterion. F‑G‑R coordinates characterize a claim under the C.2.2 profile. |
-| Part B Tell-Show-Show | B.1.2:5.1: identify pump-skid parts and external relations for an aggregation decision. | B.1.3:5.1: synthesize a study bundle into a bounded guidance statement. |
+| Part B, worked applications | B.1.2:5.1: identify pump-skid parts and external relations for an aggregation decision. | B.1.3:5.1: synthesize a study bundle into a bounded guidance statement. |
 
 ### E.6:6 - Conformance Checklist
 
@@ -94,7 +90,7 @@ This publication order does not require readers to traverse every Part. Practica
 | Grounding can be read beside the claims it explains. | The Architectural Reference's introductory examples evolve when new archetypes are added. Their change is handled through the relevant architecture decision. |
 
 ### E.6:8 - Rationale
-Pairing an abstract rule with contrasting, applicable illustrations makes its intended application and scope inspectable. The document order and E.7 grounding rule provide those connections while leaving practical entries free to cross Parts. This implements **P‑2 Didactic Primacy** and **P‑1 Cognitive Elegance** without replacing the subject's reasoning or evidence.
+A reader needs grounds for using the rule in the work at hand. A direct demonstration can establish them. A contrasting application earns its place when it reveals a condition that the first leaves open. The document order and E.7 make those grounds accessible while practical entries can cross Parts. This serves **P‑2 Didactic Primacy** and **P‑1 Cognitive Elegance**.
 
 ### E.6:9 - Relations
 * **Depends on:** `pat:constitution/guard‑rails` (GR-1 governs implementation detail and necessary subject syntax).

@@ -6,12 +6,12 @@ section_id: "E.10.D2:16"
 section_title: "Repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__017_repair-moves.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Repair moves"
-line_start: 109415
-line_end: 109431
+line_start: 109479
+line_end: 109495
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -49,5 +49,5 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 9. Route permission, evidence, assurance, gate, decision, promise, commitment, work, publication, view, Bridge, retargeting, currentness, and representation claims to their exact direct governors.
 10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use one exact occurrence of a directly declared `U.SystemRoleAssignment` species only for an independently admitted `U.System` assigned to one exact local system-role kind; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.
 11. Delete mandatory context recursion for descriptions of epistemes; recover the described episteme as EntityOfConcern under C.2.1, including its permitted self-description case.
-12. Stop when the recovered constitution and one needed neighboring relation make the next action clear; do not complete a universal description card.
+12. Stop when the constitution and any further relations the question requires support the receiving action or expose the particular missing ground.
 

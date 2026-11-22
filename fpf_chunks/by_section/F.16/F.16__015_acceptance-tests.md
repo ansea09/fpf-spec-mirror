@@ -6,12 +6,12 @@ section_id: "F.16:14"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__015_acceptance-tests.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:14 — Acceptance tests"
-line_start: 132942
-line_end: 132963
+line_start: 133061
+line_end: 133082
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 #### F.16:14.1 - Static conformance
 
-* **SCR-F16-S01 (recognition).** Situation, failure, gain, and worked claim are clear to a cold reader.
+* **SCR-F16-S01 (recognition).** Can the reader see the question the example addresses and how its reasoning warrants the conclusion at the reach claimed? Where a contrast matters, the case brings out the relevant difference. An assignment meant to assess independent choice leaves that choice to the reader.
 * **SCR-F16-S02 (actual subjects).** No cell, row, label, or record substitutes for an actual value.
 * **SCR-F16-S03 (direct relations).** Every substantive relation names its exact participants and cites the pattern that defines or tests it; use A.6.RCD `missing-governor` for a proposed indicator when no rule defines or tests its relation.
 * **SCR-F16-S04 (conditional F.9).** F.9 appears when the worked claim needs a test of semantic correspondence between local meanings with different interpretation bases. Any asserted Bridge must meet its predicate.

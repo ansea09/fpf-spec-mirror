@@ -6,12 +6,12 @@ section_id: "F.0.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__007_bias-annotation.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:6 — Bias-Annotation"
-line_start: 126735
-line_end: 126748
+line_start: 126846
+line_end: 126859
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -34,15 +34,15 @@ keywords:
 
 ### F.0.2:6 - Bias-Annotation
 
-**Scope.** This pattern is limited to one bounded synthesis question in which differences between source concepts can change an FPF or DPF content decision.
+**Scope.** Use this pattern for a bounded inquiry whose answer depends on how source accounts relate. When that answer informs a method or framework, carry the established relation and its conditions into the operation or explanation that uses it.
 
 | Lens | Boundary |
 | --- | --- |
-| **Gov** | The author proposes a result; a later content decision records what to use. |
+| **Gov** | A research recipient can use the supported comparison directly. For a framework change, the author proposes a contribution and the responsible content decision determines what the edition uses. |
 | **Arch** | Give each source claim, synthesis result and later placement decision its own recoverable content. |
 | **Onto/Epist** | Similar wording, a correspondence, or framework fit establishes neither sameness nor truth. A missing load-bearing source produces an unresolved inquiry, not a negative domain claim. |
 | **Prag** | Use the cheap exit when direct source use answers the question. Keep the comparison bounded, and open `G.2` only when its broader source pack changes the intended use. |
-| **Did** | Show the source-local claims and the action-changing difference in ordinary prose. Give readers source editions and locators they can follow; do not make local storage coordinates carry the explanation. |
+| **Did** | Explain in ordinary prose what the sources establish for the question and how agreement, a difference or a connection between their claims affects the answer. Give readers the editions and locators needed to examine those grounds. |
 
 This pattern favors explicit source roles and positive integration over a single authoritative vocabulary. That stance can overvalue synthesis and make every disagreement look like a new framework contribution. The cheap exits, contrast branch, unresolved-inquiry branch, and subject-pattern placement test keep the work proportional. Domain knowledge, lived practice, institutional authority, and empirical evidence remain source-local until a receiving claim states how they are used.
 

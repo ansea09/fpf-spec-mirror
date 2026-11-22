@@ -6,12 +6,12 @@ section_id: "F.9:28"
 section_title: "Review matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__030_review-matrix.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:28 — Review matrix"
-line_start: 130474
-line_end: 130488
+line_start: 130589
+line_end: 130603
 dependencies:
   - "A.10"
   - "A.13"
@@ -68,5 +68,5 @@ A reader can test bridge integrity with eight questions:
 7. If someone says the use happened, is the actual Work, assertion, publication, relation, operation application, or other object recovered under its own pattern?
 8. Does any card remain optional packaging rather than the source of relation truth, permission, or occurrence?
 
-Repair *same*, *equivalent*, *align*, and *map* prose in that order: recover the exact senses; test the Bridge; state the bounded-use claim; check reliance; recover authorization or the actual receiving object only when those questions are live. Do not start from a card or a score.
+For wording such as *same*, *equivalent*, *align* or *map*, begin with what the speaker says matches and for what purpose. When the claim concerns meanings, recover the senses and test the proposed Bridge. When it concerns compatible designs, a performed action or another subject relation, establish that relation under its own conditions. Check a bounded use, its reliance and any required authorization when the recipient depends on them.
 

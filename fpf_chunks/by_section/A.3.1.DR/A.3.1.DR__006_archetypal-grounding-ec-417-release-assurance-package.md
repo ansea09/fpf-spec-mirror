@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:5"
 section_title: "Archetypal Grounding — EC-417 Release Assurance Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__006_archetypal-grounding-ec-417-release-assurance-package.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:5 — Archetypal Grounding — EC-417 Release Assurance Package"
-line_start: 10586
-line_end: 10625
+line_start: 10591
+line_end: 10630
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -54,7 +54,7 @@ This constructed case concerns a change to the release-assurance arrangement. Ha
 | --- | --- | --- |
 | H/3 §4; maintained synthesis; full source-local within the supplier-evidence practice; return if that section or the receiving scope changes. | Missing supplier evidence can stop release. The source proposes reconciliation before authorization and names a signed-evidence result. It also names supplier access and authorization conditions. | Recover the reusable-way claim at its existing status with those conditions; preserve access and authority as different subjects. Return to H/3 §4 for its meaning. |
 | C/2 §2; current comparator; SoTA-first for this decision; return if a rival or the comparison basis changes. | A separately reviewed evidence bundle is proposed to reduce reliance on one supplier account. Its first result is a reviewed bundle or a named evidence gap. The claim's tested reach is limited to the comparison's cases. | Retain this alternative and its limits separately from H. Do not decide that two differently supported activities are one Method or that either replaces the other. |
-| I/D1; occurrence evidence, not a third documentary recovery profile. | The interview reports one release episode but does not yet distinguish a reusable way from a one-off response. | For the one-occurrence question use A.15.1. If several occurrences create a candidate-recovery question, use A.3.1.MR; keep a record-only lower result when that is all the evidence supports. RMP.10 is not an automatic next step. |
+| I/D1; occurrence evidence, not a third documentary recovery profile. | The interview reports one release episode but does not yet distinguish a reusable way from a one-off response. | Use A.15.1 for what occurred in this episode. If the question is which reusable way the evidence reveals, use A.3.1.MR whether the evidence concerns one episode or several. In this example, keep a record-only lower result when that is all the evidence supports. RMP.10 is not an automatic next step. |
 
 The first result is the two-source documentary dossier plus the occurrence-evidence return, not a merged release Method. When the receiving decision needs a semantic comparison, examine whether the two documentary contributions overlap, conflict or complement one another; leave unresolved relations explicit.
 

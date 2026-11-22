@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:8 — Conformance Checklist"
-line_start: 129736
-line_end: 129754
+line_start: 129851
+line_end: 129869
 dependencies:
   - "A.11"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 | Check | Pass condition |
 | --- | --- |
 | `CC-F8-01` | The expression, governed value or relation, subject pattern, and proposed use are named before the disposition. |
-| `CC-F8-02` | An expression that covers several governed subjects or uses is split; for example, a kind, assignment, evidence use, policy, Method, or Work is not handled as one naming case. |
+| `CC-F8-02` | The designation identifies the intended object or relation. When an expression carries several distinct designation claims, each needed claim is recoverable. |
 | `CC-F8-03` | The naming ReferenceScheme and local-sense claim are stated. A cell, basis relation, or selected Structure appears only when the naming use needs that object. |
 | `CC-F8-04` | The selected naming treatment is sufficient for the proposed use; a stronger object has a receiving need that adequate ordinary wording or an existing designation does not meet. |
 | `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, authority, and lineage. |

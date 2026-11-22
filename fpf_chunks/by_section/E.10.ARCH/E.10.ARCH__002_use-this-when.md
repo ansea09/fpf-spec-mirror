@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:0 — Use This When"
-line_start: 108208
-line_end: 108225
+line_start: 108272
+line_end: 108289
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ Use this pattern when a recurring FPF-governed wording problem survives the `F.1
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
-| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
+| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” and explicitly defines the `x` in the worked formula `normalize(x)` as representing that row. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
 
 **Not this pattern when.**
 

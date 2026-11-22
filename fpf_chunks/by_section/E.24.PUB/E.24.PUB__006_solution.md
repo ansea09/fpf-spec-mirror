@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:4 — Solution"
-line_start: 125438
-line_end: 125633
+line_start: 125535
+line_end: 125734
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -42,7 +42,9 @@ Start with this readable publication statement:
 
 > Publication occurrence `<P>` makes episteme `<E>` available to the audience identified by `<A>` for the use bounded by `<U>`, through expression `<X>` recoverable from carrier `<C>`.
 
-The sentence names the five participant meanings without asking the user to fill a record. If it supplies the distinction needed by the receiving use, stop. When the selected expression follows reusable form F and that conformance matters, name F separately. For disputed availability, identity or change, recover the predicates below.
+Use that statement to identify a publication occurrence. When designing a publication, follow each needed claim to the point where its recipient will use it. If several claims are needed together, establish how the recipient can recover their connection and the conditions under which they apply. Their sources can remain separate. Test whether a permitted change of carrier, audience or situation could leave the declared publication available while the reader loses a distinction that affects the work. Retain the existing arrangement when it already supports the intended use.
+
+When the selected expression follows reusable form F and that conformance matters, name F separately. For disputed availability, identity or change, recover the predicates below.
 
 #### E.24.PUB:4.1 - Identify the publication occurrence
 
@@ -196,7 +198,7 @@ Use the smallest statement that supports the current work:
 
 If a crew needs an operating limit from a cited instruction, an accessible route to the relevant passage or sufficient source-attributed content on its offline card can each support the decision. A locator can finish a locating task. Check that the needed condition can be recovered in time when the task is to decide how to operate.
 
-Do not materialize all five levels as a standing publication card. Stop as soon as the receiving use can distinguish the operative object and relation.
+Stop when the grounds settle the publication question you were asked. Identifying the object and relation can finish a classification. For the design of a publication, give the arrangement and the grounds on which it will serve the intended work. For a question about actual availability, establish the relevant route or coverage under §4.2.1.
 
 #### E.24.PUB:4.4 - Classify the encountered form by current use
 
@@ -230,5 +232,7 @@ A designator designates and a governed reference resolves to a referent. Neither
 
 In a pattern about an ontic, structure, architecture, characteristic space, method, or another subject, explain the subject's identity, relations, practical problem, and solution before publication details. Add E.24.PUB only when the receiving use depends on distinguishing the description, selected edition, form, carrier, audience, or bounded use.
 
-An engineer checking the clearance of Pump #37 is asking about the pump. If the question becomes what its inspection card specifies, the card episteme becomes the subject. A verified reading of the card answers the second question. Using its value for the installed pump requires grounds that the measurement applies to that pump at the relevant time. A change of holonic scale requires a whole–part relation, such as the pump and its impeller. To compare levels of model abstraction, use B.5.MR on models of the same subject under the same inquiry and interpretation. If a summary drops a constraint, check which answers that change permits and whether the user relied on their exclusion. Publication of the card remains a separate relation.
+To use a publication as grounds for a conclusion about its subject, identify which claim the expression conveys and what makes that claim apply to the subject of the question. For a conclusion spanning scales, trace each required inference to the whole or constituents it concerns. The same published model can be used at several composition scales only where its assumptions and distinctions support the inference at those scales.
+
+For example, an engineer checking the clearance of Pump #37 is asking about the pump. If the question becomes what its inspection card specifies, the card episteme becomes the subject. A verified reading of the card answers the second question. Using its value for the installed pump requires grounds that the measurement applies to that pump at the relevant time. A change of holonic scale requires a whole–part relation, such as the pump and its impeller. To compare levels of model abstraction, use B.5.MR on models of the same subject under the same inquiry and interpretation. If a summary drops a constraint, check which answers that change permits and whether the user relied on their exclusion. Publication of the card remains a separate relation.
 

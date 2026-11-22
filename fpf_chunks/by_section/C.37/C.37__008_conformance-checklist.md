@@ -6,12 +6,12 @@ section_id: "C.37:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:7 — Conformance Checklist"
-line_start: 86372
-line_end: 86389
+line_start: 86414
+line_end: 86431
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -49,7 +49,7 @@ keywords:
 | `CC-C37.7` Exposure and loss | Each selected or declined claim states what is exposed or preserved and what is withheld, lost, transformed, or uncertain. |
 | `CC-C37.8` Row disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
 | `CC-C37.9` Return visible | Every row names the source or governing pattern and the condition that reopens selection. |
-| `CC-C37.10` Co-use bounded | Joint use means only reliance by the same receiver for the same action; no collection, structure, view family, graph, or integrated world account is inferred. |
+| `CC-C37.10` Co-use bounded | For the same receiver and action, show which premises the claims supply or corroborate, how their subjects or configurations correspond, and how the joint inference works. A claim about an integrated view family needs its own grounds. |
 | `CC-C37.11` Use-needed retention | An immediate sufficient selection can finish without another record. When a later use needs the complete basis, it is recoverable once in an owning same-use result or one ordinary C.2.1 episteme, never both. |
 | `CC-C37.12` Assurance progressive | B.3 is used only when the question concerns a named assurance claim; reversible inspection carries no mandatory assurance burden. |
 | `CC-C37.13` No universal ontology | No `U.Representation`, universal `RepresentationOf`, fixed representation taxonomy, master mediation route, or public account kind is introduced. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.OF.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
-line_start: 94435
-line_end: 94570
+line_start: 94482
+line_end: 94617
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -79,7 +79,7 @@ Start from the fitting question and reuse observations that already answer it un
 
 When a new observation of representative work is needed, use [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial). Observe whether the user encounters the aid, interprets the question, obtains the grounds and chooses a useful continuation. In shared use, observe who contributes, whether another participant understands and responds, and whether a raised concern changes the work where it matters. Examine the intended interaction and the aid's contribution separately: opening the form, reading its items and obtaining a useful conversation are different observations. Include a negative or unresolved case when the response to it can change the intended reliance.
 
-Choose observations from the unresolved question. An existing reliable record may settle whether the aid appeared at the intended occasion. That appearance alone does not settle whether a participant understood or acted on a concern; use evidence of that interaction when it matters. Use a bounded observation of representative work before choosing continuing oversight. Include the observer's effort and any change their presence makes to the work.
+Choose observations from the unresolved question. An existing reliable record may settle whether the aid appeared at the intended occasion. That appearance alone does not settle whether a participant understood or acted on a concern; use evidence of that interaction when it matters. If the value of continuing oversight remains open, seek an existing or attainable observation that could change the decision. Where supervision is required, establish its availability at the occasion the work needs it. Include the observer's effort and any change their presence makes to the work.
 
 During an assisted use, establish who interpreted the question, obtained the observation and chose the response. The result may be sufficient for this handoff with the available help. If someone supplied the interpretation, credit the user with the work they actually did. When deciding what the user can do on other occasions, identify the support that will be available then and the decisions the user will have to make. Examine the effect on the work result and the effort moved to other participants or tools.
 

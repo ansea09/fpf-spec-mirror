@@ -6,12 +6,12 @@ section_id: "C.43:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:5 — Archetypal Grounding"
-line_start: 95792
-line_end: 95898
+line_start: 95839
+line_end: 95945
 dependencies:
   - "A.12"
   - "C.11"
@@ -43,7 +43,7 @@ During use, the operator checks the assumption that test delay leaves both actio
 
 A service team has one qualified specialist available from 09:00 to 15:00. Under the stated conditions the repair takes four hours and the team’s other accepted obligation takes three. Each is ready to start and can be completed on its own in that window. If their work is distinct and the specialist is needed throughout, seven hours are required. The team cannot deliver both by 15:00.
 
-Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. A promise still needs attainable durations and a schedule.
+Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. For a promise covering uncertain durations, establish how the deadline can be met throughout the promised range. When the stipulated durations are fixed, the exhibited schedule settles this case.
 
 When the distinct work requires seven hours, possible changes include obtaining another qualified hour usable on the work in time, agreeing with the affected recipient on a different scope or deadline, or asking the authorized participant to choose which consequence to accept.
 

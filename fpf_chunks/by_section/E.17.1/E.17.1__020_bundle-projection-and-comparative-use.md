@@ -6,12 +6,12 @@ section_id: "E.17.1:19"
 section_title: "Bundle Projection and Comparative Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__020_bundle-projection-and-comparative-use.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:19 — Bundle Projection and Comparative Use"
-line_start: 114531
-line_end: 114544
+line_start: 114603
+line_end: 114616
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -38,7 +38,7 @@ keywords:
 ### E.17.1:19 - Bundle Projection and Comparative Use
 
 #### E.17.1:19.1 - Projection to local subsets
-A description family may project only a subset of a reusable bundle. This is admissible if the description of the local subset identifies the omitted members. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
+A description family may project only a subset of a reusable bundle. Identifying omitted members makes the extent of the import clear. Use §14.1 to judge whether the subset will serve a particular question. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
 
 #### E.17.1:19.2 - Comparative bundle use
 

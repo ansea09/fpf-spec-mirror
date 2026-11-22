@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 77761
-line_end: 77969
+line_start: 77795
+line_end: 78003
 dependencies:
   - "A.10"
   - "A.20"
@@ -79,7 +79,7 @@ ControlStructureViewNote:
 
 Use `rateBandRef?`, `controlLayerRelationRef?`, and `externalityBoundaryRef?` only when that object or relation changes the control-structure use. Read the feedback-closure state for the selected return path, operating configuration and interval. One control relation and its feedback-closure state can answer a bounded question; name a further pattern only if its contribution is needed. Generic stratification labels stay with `C.30.STRAT` until a control-specific relation is recovered.
 
-When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` is used only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claims.
+For a decomposition or replacement, identify the behavior the enclosing arrangement requires across the layers and establish how the proposed combination preserves it. A qualified assumption–guarantee contract, a common constraint on the reachable joint states, or evidence that covers the combined behavior can supply the ground. Use `interLayerControlRelationRefs?` for an identified control relation on which the design or assurance claim relies.
 
 ```text
 InterLayerControlRelationNote:

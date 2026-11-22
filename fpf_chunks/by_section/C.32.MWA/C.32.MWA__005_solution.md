@@ -6,12 +6,12 @@ section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:4 — Solution"
-line_start: 82986
-line_end: 83044
+line_start: 83020
+line_end: 83082
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,11 @@ keywords:
 
 ### C.32.MWA:4 - Solution
 
-For an architecture decision, examine how methods, performers and means of provision fit together. The eight actions in §4.1 help organize that inquiry. The mantra below can also be used on its own to locate one missing contribution in familiar arrangements.
+To explain or design a practice architecture, begin with the work the whole practice must sustain. Identify which contributions must be available together, what can be supplied independently and how a change to one affects the others. For each relevant kind, follow its own constituent–whole relation to the extent the question requires. A model of one performance can explain a relation across several scales of that work. A reusable account of the Method has to identify the relation that carries across its admissible performances. Choose the ranges under C.39.SA when they are still open. Use C.37.MM:4.1.1 when the conclusion depends on several models together.
+
+**A mantra for the architecture of a practice.** *What work must this arrangement sustain? Which contributions belong to one reusable method, and which can be supplied independently? What connects them in a particular performance? What must be available together? Who can perform, learn or obtain each contribution? What changes for the whole if one method, provider or means changes? Which distinctions must its description preserve for this use? What was proposed, what actually happened, and what reached the recipient?*
+
+For the narrower question of bringing one known or missing way of working into use, follow the contribution through provision and performance.
 
 **A mantra for following a method from a need to its use.** *What work is needed, and what is missing? Is there a way to do it? If several ways are available, how do we choose? Where can we find or develop a missing way? How will the way reach whoever needs it? What must the performer learn, what can the performer discover through inquiry or practice, and what help will be available? Which method fits this case, and what must be set or changed? Are the means and authority in place? Who did what? What did the work produce, what reached the recipient, how was it used, and what effect was observed?*
 
@@ -54,7 +58,7 @@ A discipline can describe one reusable method. If the decision calls for compari
 5. **Separate the described objects from their descriptions.** Keep identified Methods, Work, Systems and their relations distinct from the descriptions, models, views and coarse-grained accounts about them. A description can itself be used in Work; name that use separately from what it describes. State the correspondence and the distinctions each description preserves or loses.
 6. **Resolve a whole-identity question when needed.** Use `B.2` when the current claim raises a consequential question about retaining the identified Method, Work, System or Discipline whole or identifying a new one. Keep the existing whole when a supported explanation is sufficient, and retain uncertainty when the needed basis is missing. Reidentify a selected structure under `A.22`'s four identity discriminators when the claim requires a different selected structure.
 7. **Compare conflict and moved burden.** Follow the change to the people, agents or equipment that receive the work. Establish what their extra effort or waiting changes for the required result. A shorter drafting step can yield a later accepted release when the reviewer becomes available late (C.32:5.1). Attribute the elapsed time of a completed release from its actual start and acceptance. If the claim concerns who designed the change, recover the choices already supplied and the ones that the performer made.
-8. **Keep deliberate and distributed change distinct.** Separate a project's architecture choice or intervention from cultural generation, transmission, recognition, selection, rejection, retention, and loss. A project can influence those processes without controlling or proving them.
+8. **Return to the work the arrangement must sustain.** Explain what the proposed connections would supply or which connections held in actual use. Follow a changed contribution through the obligations that depend on it. When the question extends to cultural change, distinguish the project’s deliberate intervention from the subsequent transmission, use and retention of the practice.
 
 #### C.32.MWA:4.2 - Short working result
 

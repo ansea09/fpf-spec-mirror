@@ -6,12 +6,12 @@ section_id: "E.24.CD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__005_forces.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:3 — Forces"
-line_start: 125068
-line_end: 125077
+line_start: 125165
+line_end: 125174
 dependencies:
   - "A.1"
   - "A.14"

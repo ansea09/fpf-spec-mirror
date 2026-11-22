@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__011_rationale.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:10 — Rationale"
-line_start: 101554
-line_end: 101559
+line_start: 101605
+line_end: 101610
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,5 @@ keywords:
 
 A local edit can improve one pattern while harming the whole language, which `E.2.DA` evaluates. DPF packages need an analogous evaluation at their own scope: a package can have good patterns while failing as a domain framework. Domain source grounding, relation architecture, first-entry adoption, package publication, and refresh are package-level effects.
 
-FPF asks whether the whole framework remains broadly first-principle and cross-domain. A DPF asks whether one bounded domain or local framework is strong enough for its declared use while preserving dependency on FPF Core and a route back to its domain sources. `D12` makes that field-scale question explicit; the sequence-versus-simultaneity architecture probe prevents a source diagram or chapter order from supplying the answer by appearance.
+FPF asks whether the whole framework remains broadly first-principle and cross-domain. A DPF asks whether one bounded domain or local framework is strong enough for its declared use while preserving dependency on FPF Core and a route back to its domain sources. `D12` makes that field-scale question explicit. Follow the field practice to establish the relations a diagram or chapter sequence represents, including timing when the result depends on it.
 

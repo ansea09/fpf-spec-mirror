@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__006_archetypal-grounding.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:5 — Archetypal Grounding"
-line_start: 18924
-line_end: 18951
+line_start: 18935
+line_end: 18962
 dependencies:
   - "A.15"
   - "A.20"
@@ -32,7 +32,7 @@ keywords:
 
 ### A.6.3.CSC:5 - Archetypal Grounding
 
-**Tell.** Controlled semantic coarsening begins by comparing a shorter candidate with its source for the present use: it must neither lose a needed distinction nor add or strengthen anything the source does not support, while any loss, non-use, and return remain visible. When the result must travel independently or endpoint or construction identity matters to the receiving use, the exact account is `c : X -> Y` under same EntityOfConcern, declared loss, narrower use, prohibited strengthening, and return.
+**Tell.** Controlled semantic coarsening begins by comparing a shorter candidate with its source for the present use: it must neither lose a needed distinction nor add or strengthen anything the source does not support, while the effect of material loss, the limits on use and the return to source remain visible. When the result must travel independently or endpoint or construction identity matters to the receiving use, the exact account is `c : X -> Y` under same EntityOfConcern, declared loss, narrower use, prohibited strengthening, and return.
 
 **Show (System).** Incident episteme `IR-42-X` contains trace, confidence-band, and alternative-branch claims. Orientation episteme `IR-42-Manager-Y` carries a controlled subset. Use a dashboard tile exposing `Y` for planning orientation. For release approval, audit closure, causal justification, or a Work order, return to `X` and apply the evidence, Work, or gate rule that governs that use; for an authority-looking claim, select the matching A.6 `A6-AW-*` row and follow its direct subject pattern.
 

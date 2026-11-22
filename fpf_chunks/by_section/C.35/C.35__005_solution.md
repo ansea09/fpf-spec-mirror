@@ -6,12 +6,12 @@ section_id: "C.35:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__005_solution.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:4 — Solution"
-line_start: 85503
-line_end: 85543
+line_start: 85543
+line_end: 85583
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.35:4 - Solution
 
-Ask what decision the result can settle. One candidate checked against every applicable constraint can establish feasibility within the model. It may complete a commission to find any suitable design. A claim that no design qualifies requires grounds that cover every admissible alternative, such as an exhaustive search or a proof of incompatible constraints. A search that stops without a candidate can still tell the next designer which alternatives were examined. When one design uses less energy and another takes less time, both can be nondominated. To call a design nondominated, exclude alternatives that do at least as well on every stated criterion and better on one. State the set over which this was established. A claim that a design is best needs a ranking or trade-off rule for the commission and grounds that the design ranks at least as high as every admissible alternative. A verified bound may settle that comparison. If the leading alternatives remain incomparable under that rule, report the choice that still calls for a preference. A unique optimum also excludes ties for the best value. A unique feasible design excludes every other feasible design regardless of preference.
+Ask what decision the result can settle. One candidate checked against every applicable constraint can establish feasibility within the model. It may complete a commission to find any suitable design. A claim that no design qualifies requires grounds that cover every admissible alternative, such as an exhaustive search or a proof of incompatible constraints. A search that stops without a candidate can still tell the next designer which alternatives were examined. When one design uses less energy and another takes less time, both can be nondominated. To call a design nondominated, exclude alternatives that do at least as well on every stated criterion and better on one. State the set over which this was established. A claim that a design is best needs a ranking or trade-off rule for the commission and grounds that the design ranks at least as high as every admissible alternative. A verified bound may settle that comparison. If the leading alternatives remain incomparable, the requirement for a greatest design can have the answer that none exists. A commission to select one can leave the choice to the authorized recipient or require a further preference. A request for the nondominated set can be settled under the given criteria. A unique optimum also excludes ties for the best value. A unique feasible design excludes every other feasible design regardless of preference.
 
 Judge the result and its production separately. A verified design can serve the commission whoever suggested it. To credit an agent with designing the organization, identify the decisions left open by the input, the method or generator, and the evidence that the agent made them. A fixed input that already specifies the organization can support an assessment of how the agent checked it. Claims about the installed organization depend on evidence about the installation. State any material limit or next check in the existing account when possible.
 
@@ -63,7 +63,7 @@ Use the smallest sufficient path:
 
    - A transformation adds source and result objects, trace, preservation, and loss.
    - A discovery adds observation or extraction basis, what is observed, what is inferred, what remains unknown, the covered and unexplored region, uncertainty, and validation.
-   - A generative proposal adds constraints, proposed organization content, known omissions, and validation needs; source and preservation enter only for a declared baseline.
+   - A generative proposal adds constraints, proposed organization content, known omissions, and validation needs; state the origin of any input on which the commissioning decision depends. For preservation, also identify the baseline and the relation to what is proposed.
 4. When reliance depends on how the result arose, establish the operation and the history facts material to that use. Add the Method, independently admitted dated `U.Work`, and production, discovery-use or Work-to-change relation only when those claims are being made; retain the premises and evidence each requires.
 5. Add bearer feasibility, realized structure, publication, archive or front policy, evaluation, measurement, decision, reusable-generator, or next-claim references only when the intended use relies on that claim. Use the pattern for that claim rather than copying its dossier into C.35.
 6. Stop when the receiver knows the supported next move and any unresolved condition, material limit or return. Materialize the optional full note only when those facts or their relied-on branch details need an independently reidentifiable result.

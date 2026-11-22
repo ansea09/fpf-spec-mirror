@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "a9845e2c1029313e518c91a459ff7fab39e2831e"
+commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:7 — Conformance checklist"
-line_start: 130952
-line_end: 130970
+line_start: 131069
+line_end: 131087
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 
 | Check | Pass question |
 | --- | --- |
-| `CC-F10-01` Target and direct result | Are the exact target, target identity, direct governor, and any consumed domain result/result episteme recovered before status is applied? |
+| `CC-F10-01` Target and direct result | Do the chosen target and scope answer the recipient’s question? Are the identity, governing rule and any domain result used as a premise established for that target? Where a conclusion about the whole depends on the arrangement of parts, do the inputs or a direct result establish what the rule requires? |
 | `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status pattern? |
 | `CC-F10-03` Use occurrence | Are bearer, target, value, scheme, scope, window, intended use, and direct obtaining basis explicit? |
 | `CC-F10-04` Source | Are source assertion/register, edition/order rule, provenance path, and G.11 currentness result recovered when they decide use? |
