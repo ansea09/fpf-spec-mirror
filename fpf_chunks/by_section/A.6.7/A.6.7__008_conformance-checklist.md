@@ -6,12 +6,12 @@ section_id: "A.6.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__008_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:7 — Conformance Checklist"
-line_start: 25405
-line_end: 25440
+line_start: 25409
+line_end: 25444
 dependencies:
   - "A.21"
   - "A.6.1"

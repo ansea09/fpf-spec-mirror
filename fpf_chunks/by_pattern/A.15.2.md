@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.2.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
-line_start: 30933
-line_end: 31244
+line_start: 30937
+line_end: 31248
 dependencies:
   - "A.10"
   - "A.15"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUA"
-pattern_title: "Pattern Use in a Working Situation and First Useful Result"
+pattern_title: "Apply a Selected Pattern and Use Its Result in the Original Work"
 section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
-  - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
+  - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:4 — Solution"
-line_start: 110362
-line_end: 110837
+line_start: 110378
+line_end: 110853
 dependencies:
   - "A.13"
   - "A.15"
@@ -42,7 +42,7 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 Start with five ordinary values: the working subject, the question the recipient commissioned, the selected pattern's `Solution`, the first useful result or blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result serves that use and the boundary tells the practitioner what has been accomplished.
 
-When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Follow the selected method through its first useful completion, including any prescribed fields or records. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
+When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Carry the selected method through the operations needed for its contribution, including any prescribed fields or records. Use §4.1 to decide what this completes for the recipient. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
 
 An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand.
 
@@ -80,8 +80,8 @@ Before making any pattern-use record, ask what the recipient needs to decide, ex
 
    A reported concern is not closed by a correct answer to a substitute question. B.5.EA helps recover what the formulation lost. Use the available episode and text before asking the participant to supply a diagnosis. An adequate direct result still finishes this use without an extra audit.
 
-6. **State the immediate continuation only as needed.** Name a later use, stronger neighboring pattern, or unresolved clarification in conversation. Materialize an expectation, basis, result, flow, provenance, or boundary episteme only when a named later use needs it to remain addressable.
-7. **Stop or return.** Stop when the smallest useful result, honest interim entity, or exact blocker answers the current question at the precision that use needs. Return when the concern, basis, expected entity, direct pattern, relation, or later-use condition changes. A stop needs no receiver.
+6. **Use the contribution in the originating work.** If the commission is to perform the work, carry out or arrange the remaining contributions within the assignment. If it is to explain the Method, give the connected explanation the practitioner needs to recognize the relevant conditions, choose a way forward and reach the promised result. When a case supplies a choice or premise, explain how the practitioner can obtain it in their own situation. A request for the pattern text itself calls for its full body in the requested form. Keep a durable expectation, basis, result, flow, provenance or boundary episteme only when later reliance needs it.
+7. **Decide what is complete.** Finish when the result meets the originating request. An opening move, one application or a diagnosis can meet a request made for that purpose. For a broader commission, use the result to continue the work that depends on it. If a dependency is genuinely blocked, say what was established, what still depends on it and which fact, access or decision would allow the work to proceed. Continue independent work that can still be done. A completed use with no receiving use needs no receiver.
 
 An exact blocker can answer the current question. When reporting a subject or interim result, distinguish three cases. A new entity or relation occurrence becomes current under its own rule and basis; use the applicable A.15.PROD branch only when a production-work, Work-attributed first-constitution or completion claim is current.
 

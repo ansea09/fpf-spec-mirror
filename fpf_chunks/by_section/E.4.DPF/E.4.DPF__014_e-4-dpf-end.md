@@ -6,12 +6,12 @@ section_id: "E.4.DPF:End"
 section_title: "E.4.DPF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__014_e-4-dpf-end.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:End — E.4.DPF:End"
-line_start: 101156
-line_end: 101157
+line_start: 101164
+line_end: 101165
 dependencies:
   - "A.1.1"
   - "A.13"

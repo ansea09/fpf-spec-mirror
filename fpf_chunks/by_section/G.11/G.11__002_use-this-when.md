@@ -6,12 +6,12 @@ section_id: "G.11:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__002_use-this-when.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:0 — Use this when"
-line_start: 141462
-line_end: 141491
+line_start: 141486
+line_end: 141515
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

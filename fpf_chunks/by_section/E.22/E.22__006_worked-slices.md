@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 122971
-line_end: 123011
+line_start: 122993
+line_end: 123033
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,7 +38,7 @@ keywords:
 >
 > Return the complete E.21 result: coordinate values with adjacent-value rationales, the precision-restoration profile, evidence basis and supported status. For a failed coordinate, identify the smallest sufficient repair and how to check it. Protect the useful source contribution and independently valid viewing use. This request concerns M1, the stated reader and studio use with the case's supplied premises; it does not ask for a general release decision or exceptional-improvement proposals.
 
-Once the requester and evaluator agree on this question, the evaluation can begin. Its purpose is `floorEvaluation`; the complete E.21 result remains to be obtained.
+Here the studio practitioner commissions an evaluation for their own decision and can settle its terms with the evaluator. For independent acceptance of someone else’s commission, the reviewer takes the terms from that commission and its authorized changes. The studio has commissioned a `floorEvaluation` of M1. The evaluator still needs to obtain the E.21 result for that use.
 
 Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. With that qualified interval, a constant correction of 42.5 ms meets the 3 ms analysis and 8 ms viewing requirements. To judge M1 as guidance for developing the preparation, trace where a practitioner starting with those requirements can decide what to ask the engineer, choose a correction and establish its consequences for both uses. The worked arithmetic supplies one part of that judgement. Evaluate each remaining E.21 coordinate on its own grounds. If the interval qualification is unavailable in the receiving studio, obtain that missing basis. Three marker readings alone do not justify the edit.
 

@@ -6,12 +6,12 @@ section_id: "B.5.RC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__010_consequences.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:9 — Consequences"
-line_start: 50079
-line_end: 50084
+line_start: 50085
+line_end: 50090
 dependencies:
   - "A.6.3.RT"
   - "B.5"

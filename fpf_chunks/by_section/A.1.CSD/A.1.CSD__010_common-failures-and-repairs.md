@@ -6,12 +6,12 @@ section_id: "A.1.CSD:8"
 section_title: "Common Failures and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__010_common-failures-and-repairs.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:8 — Common Failures and Repairs"
-line_start: 4128
-line_end: 4140
+line_start: 4132
+line_end: 4144
 dependencies:
   - "A.1"
   - "A.1.SCR"

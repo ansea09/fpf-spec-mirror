@@ -6,12 +6,12 @@ section_id: "E.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__001_intro.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:intro — Intro"
-line_start: 121980
-line_end: 121984
+line_start: 121998
+line_end: 122002
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

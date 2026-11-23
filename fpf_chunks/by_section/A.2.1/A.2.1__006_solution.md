@@ -6,12 +6,12 @@ section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:4 — Solution"
-line_start: 5140
-line_end: 5280
+line_start: 5144
+line_end: 5284
 dependencies:
   - "A.15"
   - "A.15.1"

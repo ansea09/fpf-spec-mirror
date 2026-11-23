@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
-line_start: 94081
-line_end: 94323
+line_start: 94089
+line_end: 94331
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -127,7 +127,7 @@ The criterion comes from the work and its subject, not from the checklist form. 
 
 Name the work result and the occasion at which an answer will matter. Identify the actual or prospective subjects: a physical set, a document edition, an import operation or the catalogue after it. Ask what was omitted, could plausibly be omitted, or remains difficult to notice. Include the encompassing use: why would this difference matter to the exercise, delivery or operation?
 
-Use your own and others' past omissions to propose questions, keeping the conditions that made each omission consequential. Look for patterns across incidents or records where a single account hides the connection. Ask what observation could challenge the favored explanation or desired answer. Prior mistakes suggest questions; they do not enumerate every possible failure. Place a revealing question early enough to avoid further work that its answer could make unnecessary.
+Use your own and others' past omissions to propose questions, keeping the conditions that made each omission consequential. Look for patterns across incidents or records where a single account hides the connection. Ask what observation could challenge the favored explanation or desired answer. Prior mistakes suggest questions; they do not enumerate every possible failure. Place a revealing question early enough to avoid further work that its answer could make unnecessary. If a supplier offers questions for an independent judgement about the work, recover the receiving decision from the original commission and the applicable requirements. Could every question receive a satisfactory answer from a work on a neighbouring subject? Use a sufficient list as supplied. Where its coverage fails, examine the omitted question or report the resulting limit to the decision holder.
 
 Follow the actual production and use relations far enough to expose a consequential omission. Who or what produces this result, what enables that producer, and who uses the result? At a relevant link, distinguish the producer or user, descriptions of it, its way of working and its actual work. A missing intermediate service, tool or capable performer may deserve attention even when the final subject looks satisfactory. Stop following links when further detail cannot change the selected questions. If the prospective subject does not yet exist, ask about the available materials, descriptions or enabling results without treating a description as the existing subject.
 

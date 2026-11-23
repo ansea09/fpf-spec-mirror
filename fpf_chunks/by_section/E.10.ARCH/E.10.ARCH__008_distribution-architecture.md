@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 108343
-line_end: 108423
+line_start: 108357
+line_end: 108437
 dependencies:
   - "A.10"
   - "A.15.1"

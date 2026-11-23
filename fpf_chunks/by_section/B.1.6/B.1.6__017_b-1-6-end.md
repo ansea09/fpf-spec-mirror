@@ -6,12 +6,12 @@ section_id: "B.1.6:End"
 section_title: "B.1.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__017_b-1-6-end.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:End — B.1.6:End"
-line_start: 45208
-line_end: 45209
+line_start: 45212
+line_end: 45213
 dependencies:
   - "A.1"
   - "A.10"

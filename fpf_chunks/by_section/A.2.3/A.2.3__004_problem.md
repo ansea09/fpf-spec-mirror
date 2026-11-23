@@ -6,12 +6,12 @@ section_id: "A.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__004_problem.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:2 — Problem"
-line_start: 5833
-line_end: 5842
+line_start: 5837
+line_end: 5846
 dependencies:
   - "A.2.2"
   - "A.2.8"

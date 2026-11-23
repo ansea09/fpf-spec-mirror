@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__004_policy-clauses-normative.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative)"
-line_start: 64775
-line_end: 64821
+line_start: 64781
+line_end: 64827
 dependencies:
   - "A.0"
   - "A.10"

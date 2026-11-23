@@ -6,12 +6,12 @@ section_id: "C.32.MWA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__007_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:6 — Bias-Annotation"
-line_start: 83097
-line_end: 83108
+line_start: 83103
+line_end: 83114
 dependencies:
   - "A.13"
   - "A.15.1"

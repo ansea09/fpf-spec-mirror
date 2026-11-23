@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:1 — Problem frame"
-line_start: 44580
-line_end: 44589
+line_start: 44584
+line_end: 44593
 dependencies:
   - "A.3.1"
   - "B.1.5"

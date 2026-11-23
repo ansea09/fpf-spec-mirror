@@ -6,12 +6,12 @@ section_id: "E.18.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__012_rationale.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:10 — Rationale"
-line_start: 120266
-line_end: 120271
+line_start: 120282
+line_end: 120287
 dependencies:
   - "A.10"
   - "A.15"

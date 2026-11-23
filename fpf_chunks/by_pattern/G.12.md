@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.12.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
-line_start: 141945
-line_end: 142217
+line_start: 141969
+line_end: 142241
 dependencies:
   - "A.19"
   - "A.2.6"

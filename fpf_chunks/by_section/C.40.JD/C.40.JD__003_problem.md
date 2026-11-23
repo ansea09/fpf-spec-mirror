@@ -6,12 +6,12 @@ section_id: "C.40.JD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__003_problem.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:2 — Problem"
-line_start: 93704
-line_end: 93707
+line_start: 93712
+line_end: 93715
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

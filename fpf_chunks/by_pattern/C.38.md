@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.38.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
-line_start: 87070
-line_end: 87290
+line_start: 87076
+line_end: 87296
 dependencies:
   - "A.10"
   - "A.15.9"

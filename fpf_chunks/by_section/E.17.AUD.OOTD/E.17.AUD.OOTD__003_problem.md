@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__003_problem.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:2 — Problem"
-line_start: 117679
-line_end: 117687
+line_start: 117695
+line_end: 117703
 dependencies:
   - "A.10"
   - "A.15"

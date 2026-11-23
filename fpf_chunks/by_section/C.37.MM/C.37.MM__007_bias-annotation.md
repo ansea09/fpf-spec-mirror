@@ -6,12 +6,12 @@ section_id: "C.37.MM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__007_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:6 — Bias-Annotation"
-line_start: 87038
-line_end: 87041
+line_start: 87044
+line_end: 87047
 dependencies:
   - "B.5.MR"
   - "C.2.1"

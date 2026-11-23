@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__007_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:6 — Bias-Annotation"
-line_start: 108170
-line_end: 108175
+line_start: 108184
+line_end: 108189
 dependencies:
   - "A.1.STM"
   - "A.10"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUA"
-pattern_title: "Pattern Use in a Working Situation and First Useful Result"
+pattern_title: "Apply a Selected Pattern and Use Its Result in the Original Work"
 section_id: "E.11.PUA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__011_rationale.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
-  - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
+  - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:10 — Rationale"
-line_start: 110959
-line_end: 110970
+line_start: 110975
+line_end: 110986
 dependencies:
   - "A.13"
   - "A.15"
@@ -40,9 +40,9 @@ FPF patterns supply action- or judgement-guiding content for recurring working s
 
 Establish formal `U.MethodDescription` membership under A.3.2 only when the episteme's EntityOfConcern is an admitted Method, at least one claim concerns that Method as a way of doing, and that distinction changes the claim.
 
-The missing middle is neither discovery nor recommendation: use one selected conditional `Solution` to identify the first result with its own identity and basis that answers the current question, or stop when its basis is missing.
+Selecting a pattern settles where to look. Its `Solution` gives the practitioner the grounds and operations for the particular contribution the work needs. More than one operation in that same `Solution` may be needed before its result can serve the original question.
 
 Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. Later use by another agent, an audit, an automated use, or an expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
 
-The first-result boundary prevents proxy completion. A plan, note, simulation, or assessment may be valuable and may be the result at the current pattern-use position. It cannot stand for a later physical, clinical, organizational, or learned change. Stop where the current basis supports value, then continue under the pattern that defines, constrains, or tests the next result or relation.
+A plan, simulation or assessment can complete an order for that result. When subsequent work or an actual change was also commissioned, use the result in the work still owed and establish what occurred. Another pattern contributes when it supplies a needed way of working or a ground the selected one leaves open.
 

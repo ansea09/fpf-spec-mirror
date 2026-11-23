@@ -6,12 +6,12 @@ section_id: "B.5.RR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__011_architectural-rationale.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:10 — Architectural Rationale"
-line_start: 50662
-line_end: 50669
+line_start: 50668
+line_end: 50675
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

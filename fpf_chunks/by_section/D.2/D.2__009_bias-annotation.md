@@ -6,12 +6,12 @@ section_id: "D.2:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__009_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:5.1 — Bias-Annotation"
-line_start: 97089
-line_end: 97097
+line_start: 97097
+line_end: 97105
 dependencies:
   - "A.1"
   - "A.15"

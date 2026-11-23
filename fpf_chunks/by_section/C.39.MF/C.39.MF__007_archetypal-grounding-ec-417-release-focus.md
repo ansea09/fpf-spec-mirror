@@ -6,12 +6,12 @@ section_id: "C.39.MF:5"
 section_title: "Archetypal Grounding — EC-417 Release Focus"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__007_archetypal-grounding-ec-417-release-focus.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:5 — Archetypal Grounding — EC-417 Release Focus"
-line_start: 88607
-line_end: 88637
+line_start: 88615
+line_end: 88645
 dependencies:
   - "A.15.6"
   - "A.3.1"

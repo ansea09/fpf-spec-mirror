@@ -6,12 +6,12 @@ section_id: "E.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__003_problem.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:2 — Problem"
-line_start: 122674
-line_end: 122679
+line_start: 122692
+line_end: 122697
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:2 - Problem
 
-Quality evaluations fail when the evaluator has to infer the question. The same object can be checked for floor adequacy, evaluated for possible improvement toward exceptional expression, compared across trade-offs, examined for open questions, or evaluated after finding absorption. Those purposes produce different findings.
+An evaluator can answer a precise question and still leave the judgement the recipient needs open. Recover the purpose and terms from the original request or governing practice before choosing the criteria. The same object can be checked for floor adequacy, evaluated for possible improvement toward exceptional expression, compared across trade-offs, examined for open questions, or evaluated after finding absorption. Those purposes produce different findings.
 
 When a question is left unframed, the evaluator must guess which object is under improvement, which evaluation supplies its values and what kind of result that evaluation may return.
 

@@ -6,12 +6,12 @@ section_id: "E.10.INT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:4 — Solution"
-line_start: 107505
-line_end: 107553
+line_start: 107516
+line_end: 107567
 dependencies:
   - "C.11"
   - "C.16"
@@ -42,11 +42,14 @@ These are recurring uses of the wording. Select the ones needed for the sentence
 | What the wording is doing | What to recover | Example of the resulting claim |
 |---|---|---|
 | Expressing a participant's stake | The participant, affected outcome and consequence | “The maintenance team wants the inspection window because it can then replace the worn coupling.” |
+| Describing a conflict of interest | The same participant’s entrusted duty, another interest or duty, the decision each bears on, and how their pull could affect that participant’s work | “The engineer receives a bonus if this technology is selected and has undertaken to assess all proposals impartially. Who can check that the operating conditions in the criteria cover the purchaser’s requirements?” |
 | Expressing attraction or engagement | The person or group, activity and response | “These listeners want to keep moving to this rhythm.” |
 | Selecting information-seeking action | The agent's uncertainty, available observation and use of the resulting information | “The controller samples input 1 to distinguish the two candidate relations before choosing its command.” |
 | Describing learning progress | The learner or model, what changes and the comparison | “After training, the compressor describes the same material in fewer bits.” |
 | Explaining active-inference policy selection | The generative model, candidate actions, information expected from them and preferences over outcomes | “The agent first observes the cue to learn which action is likely to produce its preferred outcome.” |
 | Recognizing a promising continuation | The present clue, available variation or combination, and what is worth trying or retaining | “This construction permits a new family of transformations; keep it available for exploration.” |
+
+People can prefer different outcomes and put their reasons to one another. A conflict of interest arises when someone entrusted with a contribution has another interest or obligation that could influence how they discharge it. Find where the participant can affect the outcome. They may choose what gets investigated, which options reach others, or what counts as satisfactory. Professional disagreement, competing design objectives and evidence that someone actually interfered each need their own description. Use B.3:4.1 when reliance on an independent assessment depends on that distinction.
 
 An information-seeking policy can be attributed to a human, an AI agent or a collective whose members obtain and use the information. For a claim about a person's experience, preserve that experiencer. A policy description alone leaves the question of subjective experience open.
 

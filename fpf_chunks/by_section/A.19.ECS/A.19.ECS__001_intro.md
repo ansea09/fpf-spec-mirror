@@ -6,12 +6,12 @@ section_id: "A.19.ECS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__001_intro.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:intro — Intro"
-line_start: 36600
-line_end: 36607
+line_start: 36604
+line_end: 36611
 dependencies:
   - "A.17-A.19"
   - "C.16"

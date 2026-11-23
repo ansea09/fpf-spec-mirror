@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.JD.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
-line_start: 93692
-line_end: 93930
+line_start: 93700
+line_end: 93938
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 103115
-line_end: 103216
+line_start: 103124
+line_end: 103225
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -78,13 +78,13 @@ The result is a formally neat text that authors can defend but practitioners can
 
 `E.8` gives FPF authors a shared pattern shape and authoring discipline: recognition text first, assurance text second, canonical sections present, terminology kept stable, SoTA used as current practice grounding rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
 
-**First useful move.** Recover the question and the work the intended reader should be able to perform. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
+**First useful move.** Recover the practitioner’s question, its scope and the work it calls for from the initiating material and the practice itself. Do this as you choose the governing question and working title. Develop the contribution that would answer it. For a Method, show how a practitioner can make the choice entrusted to them and why the operation works under the stated conditions. For a definition, boundary or relation, establish what it distinguishes and which judgement depends on the distinction. An incident that suggested the pattern may carry the full argument. Apply §4.2.1.3 while the choice of subject is still open to determine how its grounds reach the promised use. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
 
 **Solution and working move.** `Solution` gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`: what the reader should do or decide, under which conditions, what result to seek, and when to stop or return.
 
 A **working move** is ordinary reader-facing wording for one such action or judgement. Reserve `U.Move`, dated `U.Work`, and `U.Transformation` for claims that assert those admitted objects.
 
-`E.11.PUA` governs use of one selected `Solution` to reach the first useful result. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
+`E.11.PUA` governs applying a selected `Solution` far enough to supply the contribution the original work needs, and using its result in that work. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
 
 **Move wording in pattern prose.** In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order** when those are the claims being made.
 
@@ -111,7 +111,7 @@ When a pattern claims practical payoff through a visible score or other proxy, n
 
 A Part E pattern may govern FPF authoring, review, evaluation, entry, or publication, but it does not narrate the development of its own current version. Judge placement by the sentence's use, not by a blacklist of words.
 
-**Pattern positions across coupled flows.** During drafting, `E.21` questions may guide a focused author-side check. An overall pattern-quality conclusion requires an independent `E.21` evaluation for the declared use. An admission or refresh question uses the applicable `E.19` review.
+**Pattern positions across coupled flows.** During drafting, `E.21` questions may guide a focused author-side check. An overall pattern-quality conclusion requires an independent `E.21` evaluation for the declared use. An admission or refresh question uses the applicable `E.19` review. Give the reviewer access to the initiating request or governing practice and to changes that affect the practitioner’s work. The reviewer can then decide what the author’s proposed checks establish for that work (E.19:4.1).
 
 Keep their objects and evidence distinct even when an applicable flow relation connects drafting, review, publication, use, and later refresh. A publication may guide or constrain later Work. Assert the actual Work and its evidence only through the patterns that admit those claims.
 

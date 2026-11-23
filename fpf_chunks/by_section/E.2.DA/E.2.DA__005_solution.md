@@ -6,12 +6,12 @@ section_id: "E.2.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:4 — Solution"
-line_start: 98118
-line_end: 98255
+line_start: 98126
+line_end: 98263
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -28,7 +28,7 @@ keywords:
 
 ### E.2.DA:4 - Solution
 
-`E.2.DA` is the Pillar-adequacy specialization of `A.19.ECS`. An evaluator applies its questions to one FPF object under improvement against all eleven `E.2` Pillars for a declared use.
+`E.2.DA` is the Pillar-adequacy specialization of `A.19.ECS`. An evaluator applies its questions to one FPF object under improvement against all eleven `E.2` Pillars for a declared use. For an independent judgement, establish whose decision the assessment serves and whether the declared use preserves the initiating terms (E.22:4.0). A narrower use may be separately commissioned.
 
 An `E.2.DA` result gives every Pillar coordinate a value, short rationale, evidence locus, and shared evidence basis for the FPF object being evaluated. Local pattern quality, `DRR` adequacy, and wording repair use their object-under-improvement questions. A bounded diagnostic may borrow selected Pillar questions, but makes neither an E.2.DA-result nor an FPF-adequacy status claim.
 

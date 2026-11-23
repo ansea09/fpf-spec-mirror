@@ -6,12 +6,12 @@ section_id: "E.11.PFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__004_forces.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:3 — Forces"
-line_start: 111460
-line_end: 111473
+line_start: 111476
+line_end: 111489
 dependencies:
   - "A.3.2"
   - "C.29"

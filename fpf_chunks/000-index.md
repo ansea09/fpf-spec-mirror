@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `4ee69807f8e5d4fa438e8c9b5de001d91275cc31`
+Commit SHA: `6226816d8005a4c8ee3af338bb3752f6732449a9`
 
 Chunking method: `pattern-aware`
 
@@ -328,7 +328,7 @@ Patterns: `408`
 - [E.5.3 — Unidirectional Dependency between FPF Families](by_pattern/E.5.3.md)
 - [E.5.4 — Cross‑Disciplinary Bias Audit](by_pattern/E.5.4.md)
 - [E.6 — Didactic Architecture of the FPF Specification](by_pattern/E.6.md)
-- [E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases](by_pattern/E.7.md)
+- [E.7 — Archetypal Grounding: Show How a Practitioner Can Apply an Architectural Rule](by_pattern/E.7.md)
 - [E.8 — FPF Authoring Conventions & Style Guide](by_pattern/E.8.md)
 - [E.8.ML — Construct a Pattern Language for Connected Methods](by_pattern/E.8.ML.md)
 - [E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification](by_pattern/E.8.ECSPF.md)
@@ -345,7 +345,7 @@ Patterns: `408`
 - [E.10.D1 — Recovering What “Context” Means in Use](by_pattern/E.10.D1.md)
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
 - [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
-- [E.11.PUA — Pattern Use in a Working Situation and First Useful Result](by_pattern/E.11.PUA.md)
+- [E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work](by_pattern/E.11.PUA.md)
 - [E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination](by_pattern/E.11.PUR.md)
 - [E.11.PFP — Framework Publication Form Profile for Markdown](by_pattern/E.11.PFP.md)
 - [E.11.DSG — Architectural Reference](by_pattern/E.11.DSG.md)

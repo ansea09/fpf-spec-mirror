@@ -6,12 +6,12 @@ section_id: "C.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__008_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:7 — Conformance Checklist"
-line_start: 55757
-line_end: 55774
+line_start: 55763
+line_end: 55780
 dependencies:
   - "A.16"
   - "A.18"

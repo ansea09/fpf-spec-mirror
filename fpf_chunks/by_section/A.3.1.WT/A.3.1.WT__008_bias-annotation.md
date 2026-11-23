@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__008_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:6 — Bias-Annotation"
-line_start: 10997
-line_end: 11008
+line_start: 11001
+line_end: 11012
 dependencies:
   - "A.10"
   - "A.15.1"

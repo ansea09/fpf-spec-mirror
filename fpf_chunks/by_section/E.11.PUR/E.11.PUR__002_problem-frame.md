@@ -6,12 +6,12 @@ section_id: "E.11.PUR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:1 — Problem frame"
-line_start: 110998
-line_end: 111015
+line_start: 111014
+line_end: 111031
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ The `@Context` suffix on these compatibility support names is retrieval wording 
 
 **What this buys.** A team distinguishes applicability from recommendation and presentation order from workflow order. A result that still answers the concern can end a repeated pattern use. A project can preserve exact reasons for a consequential recommendation without burdening ordinary bounded use with five separate forms or copying one result under another stage name.
 
-**Not this pattern when.** Use `E.11` while public entries are still being compared. Use `E.11.PUA` to use one selected pattern and obtain its first result. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
+**Not this pattern when.** Use `E.11` while public entries are still being compared. Use `E.11.PUA` to apply the selected pattern and use its contribution in the work that called for it. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
 
 In this pattern, *next move* is Plain shorthand for the currently recommended pattern use or conditional continuation. It is not a shared `Move` identity, `U.Method`, `U.WorkPlan`, performed `U.Work`, or actual `U.Transformation`.
 

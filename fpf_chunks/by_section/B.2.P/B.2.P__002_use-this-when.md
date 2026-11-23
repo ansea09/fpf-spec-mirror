@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:0 — Use This When"
-line_start: 45621
-line_end: 45645
+line_start: 45625
+line_end: 45649
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.39.QR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__008_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:7 — Conformance Checklist"
-line_start: 87797
-line_end: 87808
+line_start: 87805
+line_end: 87816
 dependencies:
   - "C.11.DUA"
   - "C.39"

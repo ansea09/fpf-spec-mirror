@@ -6,12 +6,12 @@ section_id: "A.2.5:End"
 section_title: "A.2.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__017_a-2-5-end.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:End — A.2.5:End"
-line_start: 7009
-line_end: 7010
+line_start: 7013
+line_end: 7014
 dependencies:
   - "A.15"
   - "A.15.1"

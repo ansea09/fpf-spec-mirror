@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 109540
-line_end: 110317
+line_start: 109554
+line_end: 110331
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -53,7 +53,7 @@ A reader may arrive with a project question rather than a PatternID: for example
 
 **Practical gain.** The entry connects a project question to a direct pattern and its first useful result. The direct pattern retains the governing explanation; each navigation unit carries its own entry function.
 
-**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or a stop that states the missing basis. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
+**Not this pattern when.** After choosing a direct pattern, use `E.11.PUA` to obtain the contribution its `Solution` can make and carry that result back into the original work. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
 
 ### E.11:2 - Problem
 

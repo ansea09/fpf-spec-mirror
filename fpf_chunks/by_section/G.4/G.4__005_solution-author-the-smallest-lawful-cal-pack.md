@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 138017
-line_end: 138275
+line_start: 138041
+line_end: 138299
 dependencies:
   - "A.10"
   - "A.13"

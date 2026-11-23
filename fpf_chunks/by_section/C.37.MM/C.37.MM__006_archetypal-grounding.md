@@ -6,12 +6,12 @@ section_id: "C.37.MM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__006_archetypal-grounding.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:5 — Archetypal Grounding"
-line_start: 87032
-line_end: 87037
+line_start: 87038
+line_end: 87043
 dependencies:
   - "B.5.MR"
   - "C.2.1"

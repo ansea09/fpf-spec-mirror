@@ -6,12 +6,12 @@ section_id: "C.36.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__009_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:7 — Conformance Checklist"
-line_start: 96668
-line_end: 96686
+line_start: 96676
+line_end: 96694
 dependencies:
   - "A.15.1"
   - "A.3.1"

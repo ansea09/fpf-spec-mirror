@@ -6,12 +6,12 @@ section_id: "B.5.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:1 — Problem frame"
-line_start: 52840
-line_end: 52847
+line_start: 52846
+line_end: 52853
 dependencies:
   - "A.7.1"
   - "B.5"

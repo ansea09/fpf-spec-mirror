@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 122659
-line_end: 122673
+line_start: 122677
+line_end: 122691
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,7 +38,7 @@ When those bindings are already settled and one direct evaluation is enough, run
 
 **What can go wrong.** A reviewer can answer a different question, count closed findings without judging the changed object, or propose improvements that damage a quality the recipient needs.
 
-**Practical gain.** Requester and evaluator agree on the question before doing the evaluation. A floor question can stay small. A request for alternatives can name the additional trade-offs and proposals it needs.
+**Practical gain.** The recipient can see which judgement the evaluation will support and whose decision sets its terms. A floor question can stay small. A request for alternatives can name the additional trade-offs and proposals it needs.
 
 Framing yields a question about the selected object version. The evaluator must obtain the quality result. The recipient must make any decision that uses it.
 

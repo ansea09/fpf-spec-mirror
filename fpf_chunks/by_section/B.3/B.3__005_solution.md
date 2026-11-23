@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 46892
-line_end: 47040
+line_start: 46896
+line_end: 47046
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,6 +44,8 @@ State these three things before choosing measures or a record:
 1. the target claim;
 2. the named assurance use;
 3. the conclusion that must be supported, narrowed, or refused for that use.
+
+When a recipient relies on the assessor’s independence, establish who may frame the assessment, who supplies its material and who may decide on the result. Recover the target from the governing commission and subject evidence. A producer can suggest an excellent test. It answers for the whole claim when the assessor can establish that connection independently. An interested party may control the question, the alternatives considered, access to evidence or who sees the finding. Identify the duty and the interest that could pull in different directions on this matter. Give the assessor access to the original terms and the evidence needed to challenge the selection, and a way to report a consequential omission to the entitled recipient. Where the requisite independence cannot be obtained, give the finding its supported scope and identify the unsettled reliance. The interest establishes a reason to examine that influence. A finding of interference needs evidence of what occurred.
 
 When you must choose the argument, start from a difference that could matter to the recipient. Hold a test result fixed and vary the assembly in which the tested part is used. Hold the reported performance of the assembly fixed and vary which part supplied it. If the assurance judgement changes, trace the relevant part, its connection or its enclosing system until the evidence reaches the subject of the claim. Choose the extent of each other inquiry by the same test. The operations required by an assessment Method can differ from the work performed on one occasion. A report may identify the work that supplied a premise. Establish the relation on which the inference depends.
 

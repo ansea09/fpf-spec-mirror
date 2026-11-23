@@ -6,12 +6,12 @@ section_id: "C.39.QR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__011_rationale.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:10 — Rationale"
-line_start: 87824
-line_end: 87829
+line_start: 87832
+line_end: 87837
 dependencies:
   - "C.11.DUA"
   - "C.39"

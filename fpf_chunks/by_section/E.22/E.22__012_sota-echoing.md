@@ -6,12 +6,12 @@ section_id: "E.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__012_sota-echoing.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:11 — SoTA-Echoing"
-line_start: 123065
-line_end: 123103
+line_start: 123087
+line_end: 123127
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -37,6 +37,8 @@ keywords:
 Two serious alternatives already provide purpose-first construction. [Basili et al., *Linking Software Development and Business Strategy Through Measurement* (2010)](https://arxiv.org/abs/1311.6224), especially “Background” and “GQM+Strategies”, links goals, derived measurement questions and interpretation to context and assumptions. This historical method contributes an organizational alignment model when the question requires that larger linkage.
 
 [Kidder et al., *CDC Program Evaluation Framework, 2024*](https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm), Steps 3–5, develops evaluation purpose, intended users and use, questions, design, credible evidence and supported conclusions. It expressly accommodates available resources and revision when needed evidence is infeasible. Their software-organization and program-evaluation settings supply no FPF characteristic values.
+
+When a common rubric yields consistent scores, the receiving decision can still lack an answer. In educational testing the Standards call the loss of important aspects of the intended construct *construct underrepresentation*. In internal audit the practitioner examines whether the available evaluation criteria are adequate for the objectives and scope of the engagement. Both practices give a reason to test what a rubric covers before relying on its result. A binding test of a particular characteristic retains its use. [AERA, APA and NCME, *Standards for Educational and Psychological Testing*, ch. 1](https://www.testingstandards.net/uploads/7/6/6/4/76643089/9780935302356.pdf) · [IIA, *Global Internal Audit Standards*, §§13.3–13.4](https://www.theiia.org/globalassets/site/standards/globalinternalauditstandards_2024january9.pdf).
 
 **Comparison on the same receiving question.** Keep the complete M1 edition, reader, studio use, available premises and E.21 criteria from section 5 fixed. The following is a worked adaptation of the methods to that question, not a measurement of practitioner time or error rates.
 

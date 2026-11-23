@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 122655
-line_end: 123124
+line_start: 122673
+line_end: 123148
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -41,14 +41,14 @@ When those bindings are already settled and one direct evaluation is enough, run
 
 **What can go wrong.** A reviewer can answer a different question, count closed findings without judging the changed object, or propose improvements that damage a quality the recipient needs.
 
-**Practical gain.** Requester and evaluator agree on the question before doing the evaluation. A floor question can stay small. A request for alternatives can name the additional trade-offs and proposals it needs.
+**Practical gain.** The recipient can see which judgement the evaluation will support and whose decision sets its terms. A floor question can stay small. A request for alternatives can name the additional trade-offs and proposals it needs.
 
 Framing yields a question about the selected object version. The evaluator must obtain the quality result. The recipient must make any decision that uses it.
 
 
 ### E.22:2 - Problem
 
-Quality evaluations fail when the evaluator has to infer the question. The same object can be checked for floor adequacy, evaluated for possible improvement toward exceptional expression, compared across trade-offs, examined for open questions, or evaluated after finding absorption. Those purposes produce different findings.
+An evaluator can answer a precise question and still leave the judgement the recipient needs open. Recover the purpose and terms from the original request or governing practice before choosing the criteria. The same object can be checked for floor adequacy, evaluated for possible improvement toward exceptional expression, compared across trade-offs, examined for open questions, or evaluated after finding absorption. Those purposes produce different findings.
 
 When a question is left unframed, the evaluator must guess which object is under improvement, which evaluation supplies its values and what kind of result that evaluation may return.
 
@@ -69,6 +69,10 @@ E.22 gives requester and evaluator a compact way to declare the quality question
 #### E.22:4.0 - Form a usable first request
 
 Start from the result the recipient needs. The recipient may need a document to explain an operation, the operation to obtain a result, and the result to inform a further decision. Select the object and judgement needed now. A candidate's narrower description cannot establish that the larger receiving need has been satisfied.
+
+**Where does the evaluation question come from?** Identify who requested the evaluation, whose work or decision will use it, and who may set or change its terms. A producer asking for a diagnostic can choose a narrow question. For a judgement of fitness for a wider commission, read the initiating request, its authorized changes and the applicable subject requirements. Derive the needed judgement from that material independently of the producer’s selection. Use C.39.QR:4.1 if a restatement has changed the work. A title or public promise may already expose a change of subject. Obtain the missing terms if they affect the verdict.
+
+Test the rubric against that use. Could a work which answers a different question earn the same marks on every criterion while omitting a consequence its recipient needs? Compare what the criteria cover with the promised kinds of things, ranges of part–whole composition and levels of model abstraction where they matter. Retain the criteria that distinguish the promised result, whoever wrote them. Add or revise a question when the reviewer is empowered to do so. If the terms prescribe the test, report its finding and identify the further judgement the recipient needs. When an interested party can control the questions, access to sources or communication of findings, apply B.3:4.1 to the independence needed for that judgement.
 
 1. **Choose the object and its extent from the intended use.** Say who needs the answer and what work or decision it will inform. Which part, whole or connection could make the difference under evaluation? Follow that relation until you can identify the version to examine and the conditions a judgement about it must distinguish. An instruction, the Method it describes and the result of performing it can call for different evaluations. If the requested use is unclear, recover it with the recipient or the applicable problem-formulation method.
 2. **Choose the question and criterion.** Say whether the recipient needs floor adequacy, further improvement, a comparison of trade-offs or the effect of applied findings. Use the characteristic space and predicate or comparator supplied by an adequate evaluation. State the floor or improvement aim and the qualities a proposed repair must preserve.
@@ -242,7 +246,7 @@ The declaration may cite defaults supplied by the governing evaluation pattern f
 
 If the question depends on another edition, source state, comparison set, time window, or declared use, state that window explicitly. For one FPF pattern version under E.21, compactness never permits omitted coordinates, missing `ShortRationale`, absent `PrecisionRestorationProfile`, scope narrowing, or a blocker-only substitute result.
 
-**Connect the question, grounds and supported conclusion.** State what the evaluation must establish about the object for the declared consuming use. In the expected evidence basis, identify the judgement that connects the selected criterion to the relevant content. For example, ask whether a Method's conditions permit the proposed action, whether a computation yields the stated result, or whether a source supports the claim made from it. A direct presence or identity check suffices when the question asks about that property.
+**Connect the question, grounds and supported conclusion.** State what the evaluation must establish about the object for the declared consuming use. In the expected evidence basis, identify the judgement that connects the selected criterion to the relevant content. For example, ask whether a Method's conditions permit the proposed action, whether a computation yields the stated result, or whether a source supports the claim made from it. A direct presence or identity check suffices when the question asks about that property. For an independent floor judgement, establish the origin and adequacy of the question for the receiving decision under §4.0. An accepted rubric can supply the criteria directly. If it would pass a work on a different subject, its positive result establishes only what the criteria cover.
 
 When receiving the result, read its rationale and observations for that connection. Determine whether they support the requested conclusion under the declared criterion, scope and qualification. Retain supported findings. Identify which judgement or inference is missing before claiming more. Obtain that answer through the applicable evaluation, reusing current supported parts and keeping the answer in its existing result. Apply the same connection to an already-scoped direct evaluation. It needs no new `QualityEvaluationQuestionFrame`.
 
@@ -353,7 +357,7 @@ When the object is a candidate, archive or front member, selected set, parity re
 >
 > Return the complete E.21 result: coordinate values with adjacent-value rationales, the precision-restoration profile, evidence basis and supported status. For a failed coordinate, identify the smallest sufficient repair and how to check it. Protect the useful source contribution and independently valid viewing use. This request concerns M1, the stated reader and studio use with the case's supplied premises; it does not ask for a general release decision or exceptional-improvement proposals.
 
-Once the requester and evaluator agree on this question, the evaluation can begin. Its purpose is `floorEvaluation`; the complete E.21 result remains to be obtained.
+Here the studio practitioner commissions an evaluation for their own decision and can settle its terms with the evaluator. For independent acceptance of someone else’s commission, the reviewer takes the terms from that commission and its authorized changes. The studio has commissioned a `floorEvaluation` of M1. The evaluator still needs to obtain the E.21 result for that use.
 
 Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. With that qualified interval, a constant correction of 42.5 ms meets the 3 ms analysis and 8 ms viewing requirements. To judge M1 as guidance for developing the preparation, trace where a practitioner starting with those requirements can decide what to ask the engineer, choose a correction and establish its consequences for both uses. The worked arithmetic supplies one part of that judgement. Evaluate each remaining E.21 coordinate on its own grounds. If the interval qualification is unavailable in the receiving studio, obtain that missing basis. Three marker readings alone do not justify the edit.
 
@@ -394,7 +398,7 @@ The quality values, repeated improvement, publication of a selected set, decisio
 
 | Check | Passing condition |
 |---|---|
-| `CC-E22-1` | Name the exact object version, selected `CharacteristicSpace`, exact predicate and/or admitted comparator, one `U.ClaimScope`, and the exact work or decision that will consume the result. |
+| `CC-E22-1` | Name the exact object version, selected `CharacteristicSpace`, exact predicate and/or admitted comparator, one `U.ClaimScope`, and the exact work or decision that will consume the result. For an independent judgement of the whole, establish the question and the fitness of its criteria from the originating commission or governing practice (§4.0). |
 | `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, qualification window, and expected result form. |
 | `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and the coordinate set to be evaluated. A description, dashboard, or frame cannot substitute for the selected space, predicate/comparator, actual evaluation, or result. |
 | `CC-E22-4` | Represent actionable returned work as typed finding or `CandidateImprovementProposalRow@Context` values with expected substantive evaluation effect, closure test, and the conditionally present `KindRestorationCheck`. An outside claim cites its subject pattern; E.22 frames the improvement question and does not restate that ontology. |
@@ -446,6 +450,8 @@ When needed, the question frame also states a question-changing evaluator condit
 Two serious alternatives already provide purpose-first construction. [Basili et al., *Linking Software Development and Business Strategy Through Measurement* (2010)](https://arxiv.org/abs/1311.6224), especially “Background” and “GQM+Strategies”, links goals, derived measurement questions and interpretation to context and assumptions. This historical method contributes an organizational alignment model when the question requires that larger linkage.
 
 [Kidder et al., *CDC Program Evaluation Framework, 2024*](https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm), Steps 3–5, develops evaluation purpose, intended users and use, questions, design, credible evidence and supported conclusions. It expressly accommodates available resources and revision when needed evidence is infeasible. Their software-organization and program-evaluation settings supply no FPF characteristic values.
+
+When a common rubric yields consistent scores, the receiving decision can still lack an answer. In educational testing the Standards call the loss of important aspects of the intended construct *construct underrepresentation*. In internal audit the practitioner examines whether the available evaluation criteria are adequate for the objectives and scope of the engagement. Both practices give a reason to test what a rubric covers before relying on its result. A binding test of a particular characteristic retains its use. [AERA, APA and NCME, *Standards for Educational and Psychological Testing*, ch. 1](https://www.testingstandards.net/uploads/7/6/6/4/76643089/9780935302356.pdf) · [IIA, *Global Internal Audit Standards*, §§13.3–13.4](https://www.theiia.org/globalassets/site/standards/globalinternalauditstandards_2024january9.pdf).
 
 **Comparison on the same receiving question.** Keep the complete M1 edition, reader, studio use, available premises and E.21 criteria from section 5 fixed. The following is a worked adaptation of the methods to that question, not a measurement of practitioner time or error rates.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 103109
-line_end: 104198
+line_start: 103118
+line_end: 104209
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -83,13 +83,13 @@ The result is a formally neat text that authors can defend but practitioners can
 
 `E.8` gives FPF authors a shared pattern shape and authoring discipline: recognition text first, assurance text second, canonical sections present, terminology kept stable, SoTA used as current practice grounding rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
 
-**First useful move.** Recover the question and the work the intended reader should be able to perform. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
+**First useful move.** Recover the practitioner’s question, its scope and the work it calls for from the initiating material and the practice itself. Do this as you choose the governing question and working title. Develop the contribution that would answer it. For a Method, show how a practitioner can make the choice entrusted to them and why the operation works under the stated conditions. For a definition, boundary or relation, establish what it distinguishes and which judgement depends on the distinction. An incident that suggested the pattern may carry the full argument. Apply §4.2.1.3 while the choice of subject is still open to determine how its grounds reach the promised use. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
 
 **Solution and working move.** `Solution` gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`: what the reader should do or decide, under which conditions, what result to seek, and when to stop or return.
 
 A **working move** is ordinary reader-facing wording for one such action or judgement. Reserve `U.Move`, dated `U.Work`, and `U.Transformation` for claims that assert those admitted objects.
 
-`E.11.PUA` governs use of one selected `Solution` to reach the first useful result. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
+`E.11.PUA` governs applying a selected `Solution` far enough to supply the contribution the original work needs, and using its result in that work. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
 
 **Move wording in pattern prose.** In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order** when those are the claims being made.
 
@@ -116,7 +116,7 @@ When a pattern claims practical payoff through a visible score or other proxy, n
 
 A Part E pattern may govern FPF authoring, review, evaluation, entry, or publication, but it does not narrate the development of its own current version. Judge placement by the sentence's use, not by a blacklist of words.
 
-**Pattern positions across coupled flows.** During drafting, `E.21` questions may guide a focused author-side check. An overall pattern-quality conclusion requires an independent `E.21` evaluation for the declared use. An admission or refresh question uses the applicable `E.19` review.
+**Pattern positions across coupled flows.** During drafting, `E.21` questions may guide a focused author-side check. An overall pattern-quality conclusion requires an independent `E.21` evaluation for the declared use. An admission or refresh question uses the applicable `E.19` review. Give the reviewer access to the initiating request or governing practice and to changes that affect the practitioner’s work. The reviewer can then decide what the author’s proposed checks establish for that work (E.19:4.1).
 
 Keep their objects and evidence distinct even when an applicable flow relation connects drafting, review, publication, use, and later refresh. A publication may guide or constrain later Work. Assert the actual Work and its evidence only through the patterns that admit those claims.
 
@@ -223,7 +223,7 @@ Authors **MAY** add sections. Prefer expressing them as subsections under the ne
 1. **Problem frame**
 2. **Problem**
 3. **Forces**
-4. **Solution**
+4. **Solution** (Develop the answer to the working question through to the result promised in the Problem frame. For a Method, explain how the practitioner recognizes the conditions that change the work, makes the choices it calls for, connects the contributions and establishes when the work is complete. For a definition, distinction or relation, develop the grounds and consequences the promised judgement requires.)
 5. **Archetypal Grounding** (E.7; show how the practitioner can answer the commissioned question or perform the promised work in a fitting passage, case, comparison or boundary of use)
 6. **Bias‑Annotation**
 7. **Conformance Checklist**
@@ -369,8 +369,8 @@ Physical line count, file size, section count, inventory rows, and the author's 
 
 **Use one bounded material-revision loop over the actual prose.** Before treating a materially revised pattern as authored:
 
-1. Recover the useful earlier-edition use at idea level: the recognizable situation and intended reader, first admissible action or judgement, first useful result, action-changing boundary or stop, and any domain claim, example, or relation needed to perform that move. Classify a changing or disappearing earlier-edition use only as retained, a valid outcome whose defective mechanism is repaired, an explicitly authorized retirement with a corrected action or boundary, or unsupported residue.
-2. Draft the candidate's positive practitioner path in domain-recognizable language before guards: governed subject, recurring problem, action the reader can take, first useful result, and next action-changing condition or stop.
+1. Recover what the earlier edition enabled the reader to accomplish, from the first admissible move through the result of each declared use. Include how the reader could recognize a consequential condition and act on it, including one they had no reason to name at entry. Recover the subject claims, grounds and examples on which that work depends. Classify a changing or disappearing earlier-edition use only as retained, a valid outcome whose defective mechanism is repaired, an explicitly authorized retirement with a corrected action or boundary, or unsupported residue.
+2. Draft the connected answer in the language of the practice. Derive its organization from what the reader must understand, produce or decide. When a first result supplies a premise, develop the reasoning or work that uses it. Explain what can change within the declared range and how to recognize when another way applies. A particular case can carry this account when the reader can recover those grounds from it.
 3. Compare the earlier edition and proposed text at comparable application effort. Preserve every useful earlier-edition move or deliberately replace it with an at-least-equally-usable action, result, or boundary. Admit a candidate-only use only from an exact accepted decision, source/SoTA stance, finding, or working need.
 4. Apply `F.19` to each changed natural span. Remove exactness intensifiers, invented counterreadings, role or process wrappers, formal identities, and assurance apparatus that fail its contribution test, while preserving every kind, relation, use, and action-changing detail. Keep ordinary pattern-use wording ordinary; open a deeper FPF route only for an unresolved value.
 5. Check that recognition, first action, and first useful result still precede optional modeling, evidence, conformance, and assurance work. `F.19` is the common semantic pass over the changed span. `E.10` supplies cues and routes unresolved FPF wording to its governing rule, not a second normal-pass algorithm.
@@ -388,7 +388,7 @@ Test first-use affordability by checking whether the positive Solution supports 
 recognizable situation -> proposed action or judgement -> first useful result -> next action-changing condition or stop
 ```
 
-This rendering explains the pattern. It does not claim that actual work is linear. Use an optional local mantra only when it improves recall, and show one ordinary traversal only when several rows materially improve explanation. Choose the smallest form that keeps the action, result, and boundary recoverable.
+This rendering tests whether a reader can begin. Read the developed Solution to judge whether the reader can finish the work it promises. A mnemonic can recall the connections once the text has explained them. Keep the explanation of independent choices, dependencies or repeated work in the form that makes their use clear.
 
 Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. An explanation retained for reuse can concern the actual subject, question or proposed continuations before CGUS qualification. Use C.2.1 when its episteme identity matters. A demonstrative slice about a qualified CGUS is a separate episteme under A.22.CGUS, whose use depends on that qualification.
 
@@ -456,7 +456,7 @@ Keep generality, specialization, Method composition, reuse, bounded-use projecti
 
 ##### E.8:4.1.5 - Choose a title that helps the reader select the pattern
 
-Choose the title from the working question the body answers. Read its `Problem frame`, `Problem`, action-changing `Forces` and `Solution` together. Recover the intended reader, governed object, useful result and nearest non-use boundary before trying shorter wording. The title should let that reader consider the pattern without already knowing an unfamiliar solution name.
+Recover the intended question from the original practical need or an authorized revision. Read the `Problem frame`, `Problem`, action-changing `Forces` and `Solution` together to see which question the body actually answers. If an example has supplied a narrower subject or the wording has lost a distinction needed for the work, repair the contribution before selecting a title for the whole. A narrow contribution can keep its own title and use when the commission gives it that role. Recover the intended reader, governed object, useful result and nearest non-use boundary before trying shorter wording. The title should let that reader consider the pattern without already knowing an unfamiliar solution name.
 
 Use a recognizable question, a result under distinguishing conditions, or a familiar method name. Preserve the object and condition that separate the pattern from its nearest neighbors. “Test a method” cannot distinguish obtaining trial observations, checking description coherence, judging fit in another situation and comparing practical worth. A single striking example should not narrow a more general construction, and a failure symptom should not hide constructive use before anything goes wrong.
 
@@ -725,6 +725,8 @@ The raw/result prototype, the source-qualified comparison and the reduced single
 Recover the question from the commission before assessing the answer the author has in hand. If the reader needs to explain why a practice repeatedly produces an outcome, locating one occurrence can supply evidence. The explanation must relate the practice to the conditions under which that outcome would recur or change. Apply that distinction to the question entrusted to the author, the question the text actually teaches and the work a separately issued assignment leaves to its recipient. Determine the content owed from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation.
 
 Choose the check that fits the reader's promised use. To isolate an inference from a constituent to a whole, compare the two at a fixed level of model abstraction where that comparison is meaningful. Could the statement about the constituent hold while the whole fails to do what the text promises? To isolate the reach of a rule across instances, compare like structural scopes and vary the permitted circumstances. When the question requires models at different levels of abstraction as well as several scales or kinds of holon, identify which distinctions the models of the parts preserve and which dependencies the conclusion about the whole requires. Separate models can allow each part to take either of two states while leaving open whether the parts may take the same state together. A conclusion about their joint behaviour needs that missing relation, or grounds that the answer holds for every permitted combination. C.39.SA:4 helps select the scopes, C.39.WA:4.2 deals with relations across composition scales, and C.37.MM:4.1.1 connects the models for that decision.
+
+When choosing an organizing case or an outline, keep the practitioner’s question in view. Can the facts available to the practitioner, or the result they would observe, arise from different relations, decisions or methods within the commissioned range? Compare admissible accounts. If the practitioner needs different explanations or choices, show how to distinguish the cases on the available grounds. When those grounds leave several accounts possible, explain what can still be concluded. Where the available facts already settle the question, show why. Organize the Solution so that the grounds are available when the practitioner needs them. One case can carry the whole argument when its grounds cover that range.
 
 A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case. Use C.39.GA to check and repair a missing general argument before relying on the example to teach it.
 

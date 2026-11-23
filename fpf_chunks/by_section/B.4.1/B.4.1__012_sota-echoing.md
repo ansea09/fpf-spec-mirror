@@ -6,12 +6,12 @@ section_id: "B.4.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__012_sota-echoing.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:11 — SoTA-Echoing"
-line_start: 48210
-line_end: 48216
+line_start: 48216
+line_end: 48222
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 109584
-line_end: 110078
+line_start: 109598
+line_end: 110092
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

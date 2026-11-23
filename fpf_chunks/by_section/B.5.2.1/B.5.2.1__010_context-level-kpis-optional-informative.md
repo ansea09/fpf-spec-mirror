@@ -6,12 +6,12 @@ section_id: "B.5.2.1:9"
 section_title: "Context‑Level KPIs (optional, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__010_context-level-kpis-optional-informative.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:9 — Context‑Level KPIs (optional, informative)"
-line_start: 52679
-line_end: 52688
+line_start: 52685
+line_end: 52694
 dependencies:
   - "A.17"
   - "A.18"

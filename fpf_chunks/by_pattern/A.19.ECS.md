@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ECS.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
-line_start: 36600
-line_end: 36878
+line_start: 36604
+line_end: 36882
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -128,7 +128,7 @@ These names are local to this pattern.
 
 Use these moves when constructing or repairing an evaluation. They are not a mandatory work sequence; each move is a required content question whose answer must be recoverable before the evaluation is used for improvement.
 
-1. **Name the evaluated object kind and use.** Say what object kind is being evaluated and for which declared use. If the evaluated object kind is not recoverable, stop before choosing coordinates.
+1. **Name the evaluated object kind and use.** Say what object kind is being evaluated and for which declared use. When designing criteria for someone else’s decision, recover that decision and the terms governing it from the initiating sources (E.22:4.0). An established use or a prescribed test supplies its own starting extent. If the evaluated object kind is not recoverable, stop before choosing coordinates.
 2. **Build the discriminating cases.** Show how the evaluation distinguishes a passing object, a below-floor object and an input outside the admitted kind when those cases are possible. If membership or the operating conditions entail one outcome for the whole admitted domain, show why. Identify an empty domain separately. An excluded input calls for evaluation selection or, when already submitted, the declared kind-fit result.
 3. **Choose candidate characteristics.** Draw candidates from the object kind's failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and FPF neighbouring patterns named by value.
 4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or a content evaluation. Keep the property value, object-kind fit, and missing observation distinct. An observed absence of required support can justify a low value; an unperformed check cannot establish that absence. A local diagnostic code such as `0` may represent missing basis only when declared as a code, without the arithmetic or comparison rights of a measured zero. Preserve supported values while leaving dependent conclusions open.

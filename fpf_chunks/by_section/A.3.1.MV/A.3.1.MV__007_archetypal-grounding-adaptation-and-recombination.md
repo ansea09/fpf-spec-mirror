@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:5"
 section_title: "Archetypal Grounding - Adaptation and Recombination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__007_archetypal-grounding-adaptation-and-recombination.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:5 — Archetypal Grounding - Adaptation and Recombination"
-line_start: 11567
-line_end: 11594
+line_start: 11571
+line_end: 11598
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

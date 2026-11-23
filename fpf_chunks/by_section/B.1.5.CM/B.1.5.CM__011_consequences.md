@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__011_consequences.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:9 — Consequences"
-line_start: 44925
-line_end: 44930
+line_start: 44929
+line_end: 44934
 dependencies:
   - "A.3.1"
   - "B.1.5"

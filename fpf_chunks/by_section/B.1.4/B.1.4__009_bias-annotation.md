@@ -6,12 +6,12 @@ section_id: "B.1.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__009_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:5.1 — Bias-Annotation"
-line_start: 43874
-line_end: 43882
+line_start: 43878
+line_end: 43886
 dependencies:
   - "A.1.1"
   - "A.14"

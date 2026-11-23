@@ -6,12 +6,12 @@ section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:0 — Use This When"
-line_start: 46381
-line_end: 46402
+line_start: 46385
+line_end: 46406
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 118800
-line_end: 118842
+line_start: 118816
+line_end: 118858
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -66,7 +66,7 @@ The **compact note, diagram, plan, trace, and publication** are epistemes or pub
 
 **When P2W helps.** Use P2W only when keeping the accepted distinction changes which relation you assert, what result you write, or whether you continue, split, stop, or return. If the relation and result are already settled and another P2W note would add nothing to the decision, apply the pattern whose Solution answers the current question.
 
-E.11.PUA covers a smaller use and may begin without `ProblemCard@Context`: use one selected pattern for one current practical question. Obtain the smallest useful result that answers the question or state why work on it must stop. That ordinary use may stop there; name a receiving use only when the enclosing P2W continuation or another later use is current.
+E.11.PUA can begin with one practical question and a selected pattern. Obtain what its `Solution` can supply and use it to answer that question. An answer sufficient for the entire request can finish without a `ProblemCard@Context`. When it supplies a premise for a wider decision or action, use it in that decision or action.
 
 E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
 

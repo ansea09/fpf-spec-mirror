@@ -6,12 +6,12 @@ section_id: "E.19:5"
 section_title: "Archetypal Grounding — perform the selected review"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__007_archetypal-grounding-perform-the-selected-review.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:5 — Archetypal Grounding — perform the selected review"
-line_start: 121396
-line_end: 121423
+line_start: 121414
+line_end: 121441
 dependencies:
   - "A.15.1"
   - "A.6.1"

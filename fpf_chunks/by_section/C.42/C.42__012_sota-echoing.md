@@ -6,12 +6,12 @@ section_id: "C.42:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__012_sota-echoing.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:11 — SoTA-Echoing"
-line_start: 95462
-line_end: 95479
+line_start: 95470
+line_end: 95487
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

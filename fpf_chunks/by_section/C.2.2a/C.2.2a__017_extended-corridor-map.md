@@ -6,12 +6,12 @@ section_id: "C.2.2a:15"
 section_title: "Extended corridor map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__017_extended-corridor-map.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:15 — Extended corridor map"
-line_start: 55648
-line_end: 55653
+line_start: 55654
+line_end: 55659
 dependencies:
   - "A.16"
   - "A.16.0"

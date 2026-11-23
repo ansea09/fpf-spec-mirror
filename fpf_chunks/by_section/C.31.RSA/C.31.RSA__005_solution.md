@@ -6,12 +6,12 @@ section_id: "C.31.RSA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:4 — Solution"
-line_start: 79386
-line_end: 79532
+line_start: 79392
+line_end: 79538
 dependencies:
   - "A.10"
   - "A.19"

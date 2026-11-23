@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__006_archetypal-grounding.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:5 — Archetypal Grounding"
-line_start: 104524
-line_end: 104569
+line_start: 104535
+line_end: 104580
 dependencies:
   - "A.19.ECS"
   - "C.25"

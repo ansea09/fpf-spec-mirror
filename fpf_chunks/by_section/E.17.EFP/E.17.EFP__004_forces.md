@@ -6,12 +6,12 @@ section_id: "E.17.EFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__004_forces.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:3 — Forces"
-line_start: 115748
-line_end: 115755
+line_start: 115764
+line_end: 115771
 dependencies:
   - "A.10"
   - "A.15"

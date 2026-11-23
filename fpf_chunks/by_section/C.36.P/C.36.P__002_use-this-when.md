@@ -6,12 +6,12 @@ section_id: "C.36.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__002_use-this-when.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:0 — Use This When"
-line_start: 96038
-line_end: 96080
+line_start: 96046
+line_end: 96088
 dependencies:
   - "A.1"
   - "A.1.1"

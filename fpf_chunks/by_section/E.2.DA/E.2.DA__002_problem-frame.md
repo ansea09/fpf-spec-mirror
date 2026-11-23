@@ -6,12 +6,12 @@ section_id: "E.2.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:1 — Problem frame"
-line_start: 98079
-line_end: 98092
+line_start: 98087
+line_end: 98100
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -34,7 +34,7 @@ Use it after a broad cleanup, new pattern family, projection repair, source-use 
 
 Use the local method in place of `E.2.DA` for one authored pattern version (`E.21`), one `DRR` (`E.9.DA`), one local wording repair (`F.19`), or one pattern-use entry problem (`E.11`). Open `E.10` or a precision-restoration neighbor for an unresolved FPF-specific wording question.
 
-First useful move: name the FPF object under improvement by value, declared use, reader family, and qualification window; then evaluate all eleven Pillar coordinates. If a Pillar seems unaffected, give it a value and a short rationale saying what is preserved.
+First useful move: name the FPF object under improvement by value, declared use, reader family, and qualification window; when independence matters, recover the use from the initiating commission under E.22:4.0. Evaluate all eleven Pillar coordinates for that use. If a Pillar seems unaffected, give it a value and a short rationale saying what is preserved.
 
 What goes wrong if missed: FPF can become locally polished but globally worse. Readers may find fewer useful entry points, precision repairs may erase the working move, source rows can turn decorative, or several patterns can grow local variants of the same doctrine.
 

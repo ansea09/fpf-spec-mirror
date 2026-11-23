@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__003_problem.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:2 — Problem"
-line_start: 79808
-line_end: 79815
+line_start: 79814
+line_end: 79821
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.CU.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
-line_start: 90930
-line_end: 91189
+line_start: 90938
+line_end: 91197
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

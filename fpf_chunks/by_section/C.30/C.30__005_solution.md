@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 74913
-line_end: 75430
+line_start: 74919
+line_end: 75436
 dependencies:
   - "A.1"
   - "A.10"

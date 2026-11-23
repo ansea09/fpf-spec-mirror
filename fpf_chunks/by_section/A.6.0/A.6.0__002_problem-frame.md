@@ -6,12 +6,12 @@ section_id: "A.6.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__002_problem-frame.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:1 — Problem frame"
-line_start: 16917
-line_end: 16940
+line_start: 16921
+line_end: 16944
 dependencies:
   - "A.15.1"
   - "A.17"

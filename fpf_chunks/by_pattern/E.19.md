@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 120772
-line_end: 121581
+line_start: 120788
+line_end: 121599
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -136,13 +136,13 @@ In Plain, **review run** refers to the configuration, the reviewer’s actions a
 
 #### E.19:4.1 - Define the reviewed pattern or subset
 
-Name the reviewed pattern or bounded subset, its edition or other stable version basis, the admission or refresh question, the selected profile questions, and the review boundary. That is enough for an ordinary bounded review. Add exact scope, window, and review-configuration identities only when a receiving result or named reliance needs them. The profiles determine which questions to ask and how deeply to review them. An ordinary bounded review requires no progress record.
+Name the reviewed pattern or bounded subset, its edition or other stable version basis, the admission or refresh question, the selected profile questions, and the review boundary. That is enough for an ordinary bounded review. Add exact scope, window, and review-configuration identities only when a receiving result or named reliance needs them. Select the applicable profiles from the purpose established with the initiating material. Use their questions and depth to examine the pattern against that purpose. An ordinary bounded review requires no progress record.
 
 When a reusable result or named reliance depends on how the review was enacted, apply the item 4 actual-Work account and `CC-E19-0` to each asserted review, repair, or verification occurrence.
 
 If a durable aggregate result is needed, constitute a C.2.1 result episteme whose EntityOfConcern is the reviewed pattern edition or subset and whose ClaimGraph states the review scope, applicable profile questions, actionable findings or aggregate cleared boundary, conclusion, and reopen condition. Add a non-use boundary only when it changes a named receiving use under the `F.19` plausible-intended-reader test. Witnesses, evidence use, the optional result publication, and any authority-bearing admission or refresh decision remain separate.
 
-Choose inspect-repair-verify when the reviewer may edit and same-turn repair fits the declared use. Choose independent findings when the review needs separation from the author or an unchanged candidate. Independence changes who edits. The selected questions remain the same, and no additional dossier is required.
+Choose inspect-repair-verify when the reviewer may edit and same-turn repair fits the declared use. In independent review, the author can raise a concern, supply evidence or propose a rubric. Recover what warrants the requested judgement from the commissioning party’s instructions, applicable rules and intended use (E.22:4.0). Select the profile questions and any further examination needed on that basis. The reviewer can adopt the author’s questions in full when their answers suffice. A separately commissioned test with a prescribed question can be completed on its own terms. State what its result establishes when it is offered in support of admission.
 
 **Choose one review form.**
 
@@ -188,7 +188,7 @@ is selected only where the relevant risk is present; reviewer depth SHOULD
 prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 
 1. **Internal coherence (problem <-> conformance claim <-> solution)**
-   Follow the same practical question from its source through the Problem, Solution and Conformance Checklist. Could the pattern satisfy every item in its checklist while its user still needs someone else to make a choice or produce a result it promises to teach? For a method of designing a whole, check where its user chooses the parts, determines how they work together and establishes what the arrangement will provide. If the commission specifies that arrangement, correct application of it may be sufficient. Compare the Solution with the checklist in both directions for omitted and orphan requirements.
+   For an independent admission judgement, use §4.1 to recover the practical question from the originating commission or the practice for which admission is sought, with the applicable subject evidence. Follow it through the Problem, Solution and Conformance Checklist. The title, all three sections and an author’s rubric can agree on a related but narrower question. Trace the proposed conclusion to what the practitioner was meant to understand, decide or do. A pattern commissioned for a particular use can satisfy that use on its own terms. Could the pattern satisfy every item in its checklist while its user still needs someone else to make a choice or produce a result it promises to teach? For a method of designing a whole, check where its user chooses the parts, determines how they work together and establishes what the arrangement will provide. If the commission specifies that arrangement, correct application of it may be sufficient. Compare the Solution with the checklist in both directions for omitted and orphan requirements.
 2. **Lexical discipline & reserved vocabulary**
    Terms and registers follow lexical rules; ambiguous "everyday" synonyms do not silently replace kernel vocabulary.
 3. **SoTA-Echoing minimum compliance (E.8)**
@@ -619,8 +619,8 @@ A required `regressed` probe prevents a positive conclusion, but it does not sto
 
 | Outcome | Semantic test |
 | --- | --- |
-| **adequate for the candidate-only use** | The selected basis, recognizable situation, concrete action or choice, first useful result, intended reader, and any independently grounded action-changing boundary are recoverable from the local candidate wording and executable enough for the declared use. |
-| **absent or insufficient for the candidate-only use** | The use is only promised, named, over-broad, ambiguous, or unsupported; the intended reader cannot perform the action, distinguish the first result, or recover an applicability or neighboring-pattern boundary that the declared use needs. |
+| **adequate for the candidate-only use** | The intended reader can recognize the situation and use the candidate's guidance to obtain the result specified by the independent basis for this use. The entry makes the first move available. The developed text supplies the choices, grounds, connections and action-changing boundaries needed to finish. |
+| **absent or insufficient for the candidate-only use** | The use is only promised, ambiguous or unsupported. The reader would have to invent a necessary operation or ask about a condition the text gives them no way to recognize. A correct first result or a successful worked case can expose precisely where the promised use still lacks guidance. |
 
 A missing candidate-only decision or basis is `absent or insufficient`; it never licenses a fabricated prior edition. Absence for a required new use prevents a positive conclusion but does not stop the other independent probes. Missing optional breadth alone does not block a positive conclusion. It provides no grounds for breadth, transfer or exceptional-expression claims. If no exact new intended use is selected, no candidate-only check opens.
 
@@ -629,7 +629,9 @@ A missing candidate-only decision or basis is `absent or insufficient`; it never
 1. the governed subject;
 2. the recurring problem and ordinary failure;
 3. an executable proposed move;
-4. a first useful result rather than completed review apparatus.
+4. what that move establishes and how the developed Solution enables the reader to reach the result promised for the reviewed use.
+
+Read the connected treatment from the practitioner's original question. Where the intended use spans kinds of holon, composition scales or levels of model abstraction, follow the relations that the conclusion requires. Can the reader recognize which conditions matter from the situation and use the stated grounds when those conditions change? An opening, example or interim finding can settle all of a narrow use. For a broader use, identify the passage that develops the rest of the work or the contribution the author still owes.
 
 **When the Solution uses a boundary or guard.** Judge each guard for which independent local evidence makes the exact rival reading plausible to the intended reader and whose presence changes action. Check whether any remaining guard merely supplies the outline that the positive Solution should state directly. Refine this question by boundary whenever boundaries can pass, fail, or route independently. This guard check leaves the rule-defined extension comparison above intact.
 

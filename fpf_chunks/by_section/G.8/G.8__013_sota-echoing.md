@@ -6,12 +6,12 @@ section_id: "G.8:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__013_sota-echoing.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:12 — SoTA-Echoing"
-line_start: 140422
-line_end: 140432
+line_start: 140446
+line_end: 140456
 dependencies:
   - "A.10"
   - "A.21"

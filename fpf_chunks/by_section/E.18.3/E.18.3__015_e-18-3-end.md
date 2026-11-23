@@ -6,12 +6,12 @@ section_id: "E.18.3:End"
 section_title: "E.18.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__015_e-18-3-end.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:End — E.18.3:End"
-line_start: 120300
-line_end: 120301
+line_start: 120316
+line_end: 120317
 dependencies:
   - "A.10"
   - "A.15"

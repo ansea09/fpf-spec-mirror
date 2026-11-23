@@ -6,12 +6,12 @@ section_id: "C.39.GA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__001_intro.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:intro — Intro"
-line_start: 88161
-line_end: 88166
+line_start: 88169
+line_end: 88174
 dependencies:
   - "C.39.RO"
   - "C.39.SA"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.RI.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
-line_start: 21495
-line_end: 21690
+line_start: 21499
+line_end: 21694
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

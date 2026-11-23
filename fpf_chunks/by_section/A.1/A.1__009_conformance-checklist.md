@@ -6,12 +6,12 @@ section_id: "A.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__009_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:7 — Conformance Checklist"
-line_start: 2854
-line_end: 2872
+line_start: 2858
+line_end: 2876
 dependencies:
   - "A.1.1"
   - "A.1.STM"

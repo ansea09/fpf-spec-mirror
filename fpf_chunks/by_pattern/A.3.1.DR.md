@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.DR.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
-line_start: 10489
-line_end: 10697
+line_start: 10493
+line_end: 10701
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

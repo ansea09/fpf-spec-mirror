@@ -6,12 +6,12 @@ section_id: "B.2.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__014_relations.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:11 — Relations"
-line_start: 46109
-line_end: 46116
+line_start: 46113
+line_end: 46120
 dependencies:
   - "A.1"
   - "A.10"

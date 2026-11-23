@@ -6,12 +6,12 @@ section_id: "C.39.SA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__001_intro.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:intro — Intro"
-line_start: 88226
-line_end: 88231
+line_start: 88234
+line_end: 88239
 dependencies:
   - "B.1"
   - "B.5.MR"

@@ -6,12 +6,12 @@ section_id: "A.19.CHR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__007_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:6 — Bias-Annotation"
-line_start: 38861
-line_end: 38870
+line_start: 38865
+line_end: 38874
 dependencies:
   - "A.15.2"
   - "A.15.3"

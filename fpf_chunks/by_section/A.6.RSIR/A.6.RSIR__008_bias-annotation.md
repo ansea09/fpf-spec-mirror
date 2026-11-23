@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__008_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:6 — Bias-Annotation"
-line_start: 22734
-line_end: 22741
+line_start: 22738
+line_end: 22745
 dependencies:
   - "A.10"
   - "A.15"

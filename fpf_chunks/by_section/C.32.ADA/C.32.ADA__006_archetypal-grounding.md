@@ -6,12 +6,12 @@ section_id: "C.32.ADA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__006_archetypal-grounding.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:5 — Archetypal Grounding"
-line_start: 84870
-line_end: 84879
+line_start: 84876
+line_end: 84885
 dependencies:
   - "A.1.1"
   - "A.10"

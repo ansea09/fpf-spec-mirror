@@ -6,12 +6,12 @@ section_id: "A.15.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__001_intro.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:intro — Intro"
-line_start: 32077
-line_end: 32098
+line_start: 32081
+line_end: 32102
 dependencies:
   - "A.10"
   - "A.15"

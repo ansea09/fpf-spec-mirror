@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__012_sota-echoing.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:11 — SoTA-Echoing"
-line_start: 21668
-line_end: 21679
+line_start: 21672
+line_end: 21683
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

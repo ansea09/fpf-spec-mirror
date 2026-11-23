@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 122690
-line_end: 122970
+line_start: 122708
+line_end: 122992
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -35,6 +35,10 @@ E.22 gives requester and evaluator a compact way to declare the quality question
 #### E.22:4.0 - Form a usable first request
 
 Start from the result the recipient needs. The recipient may need a document to explain an operation, the operation to obtain a result, and the result to inform a further decision. Select the object and judgement needed now. A candidate's narrower description cannot establish that the larger receiving need has been satisfied.
+
+**Where does the evaluation question come from?** Identify who requested the evaluation, whose work or decision will use it, and who may set or change its terms. A producer asking for a diagnostic can choose a narrow question. For a judgement of fitness for a wider commission, read the initiating request, its authorized changes and the applicable subject requirements. Derive the needed judgement from that material independently of the producer’s selection. Use C.39.QR:4.1 if a restatement has changed the work. A title or public promise may already expose a change of subject. Obtain the missing terms if they affect the verdict.
+
+Test the rubric against that use. Could a work which answers a different question earn the same marks on every criterion while omitting a consequence its recipient needs? Compare what the criteria cover with the promised kinds of things, ranges of part–whole composition and levels of model abstraction where they matter. Retain the criteria that distinguish the promised result, whoever wrote them. Add or revise a question when the reviewer is empowered to do so. If the terms prescribe the test, report its finding and identify the further judgement the recipient needs. When an interested party can control the questions, access to sources or communication of findings, apply B.3:4.1 to the independence needed for that judgement.
 
 1. **Choose the object and its extent from the intended use.** Say who needs the answer and what work or decision it will inform. Which part, whole or connection could make the difference under evaluation? Follow that relation until you can identify the version to examine and the conditions a judgement about it must distinguish. An instruction, the Method it describes and the result of performing it can call for different evaluations. If the requested use is unclear, recover it with the recipient or the applicable problem-formulation method.
 2. **Choose the question and criterion.** Say whether the recipient needs floor adequacy, further improvement, a comparison of trade-offs or the effect of applied findings. Use the characteristic space and predicate or comparator supplied by an adequate evaluation. State the floor or improvement aim and the qualities a proposed repair must preserve.
@@ -208,7 +212,7 @@ The declaration may cite defaults supplied by the governing evaluation pattern f
 
 If the question depends on another edition, source state, comparison set, time window, or declared use, state that window explicitly. For one FPF pattern version under E.21, compactness never permits omitted coordinates, missing `ShortRationale`, absent `PrecisionRestorationProfile`, scope narrowing, or a blocker-only substitute result.
 
-**Connect the question, grounds and supported conclusion.** State what the evaluation must establish about the object for the declared consuming use. In the expected evidence basis, identify the judgement that connects the selected criterion to the relevant content. For example, ask whether a Method's conditions permit the proposed action, whether a computation yields the stated result, or whether a source supports the claim made from it. A direct presence or identity check suffices when the question asks about that property.
+**Connect the question, grounds and supported conclusion.** State what the evaluation must establish about the object for the declared consuming use. In the expected evidence basis, identify the judgement that connects the selected criterion to the relevant content. For example, ask whether a Method's conditions permit the proposed action, whether a computation yields the stated result, or whether a source supports the claim made from it. A direct presence or identity check suffices when the question asks about that property. For an independent floor judgement, establish the origin and adequacy of the question for the receiving decision under §4.0. An accepted rubric can supply the criteria directly. If it would pass a work on a different subject, its positive result establishes only what the criteria cover.
 
 When receiving the result, read its rationale and observations for that connection. Determine whether they support the requested conclusion under the declared criterion, scope and qualification. Retain supported findings. Identify which judgement or inference is missing before claiming more. Obtain that answer through the applicable evaluation, reusing current supported parts and keeping the answer in its existing result. Apply the same connection to an already-scoped direct evaluation. It needs no new `QualityEvaluationQuestionFrame`.
 

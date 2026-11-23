@@ -6,12 +6,12 @@ section_id: "A.9:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__002_context.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:1 — Context"
-line_start: 27651
-line_end: 27658
+line_start: 27655
+line_end: 27662
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:7 — Conformance checklist"
-line_start: 131069
-line_end: 131087
+line_start: 131093
+line_end: 131111
 dependencies:
   - "A.10"
   - "A.15.1"

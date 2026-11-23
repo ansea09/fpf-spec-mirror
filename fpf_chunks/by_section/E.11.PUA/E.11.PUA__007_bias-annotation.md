@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUA"
-pattern_title: "Pattern Use in a Working Situation and First Useful Result"
+pattern_title: "Apply a Selected Pattern and Use Its Result in the Original Work"
 section_id: "E.11.PUA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__007_bias-annotation.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
-  - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
+  - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:6 — Bias-Annotation"
-line_start: 110922
-line_end: 110929
+line_start: 110938
+line_end: 110945
 dependencies:
   - "A.13"
   - "A.15"

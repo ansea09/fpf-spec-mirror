@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:4 — Solution"
-line_start: 125535
-line_end: 125734
+line_start: 125559
+line_end: 125758
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"

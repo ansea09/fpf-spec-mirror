@@ -6,12 +6,12 @@ section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__006_archetypal-grounding.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 25725
-line_end: 25767
+line_start: 25729
+line_end: 25771
 dependencies:
   - "A.1.1"
   - "A.10"

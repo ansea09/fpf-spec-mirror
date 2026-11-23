@@ -6,12 +6,12 @@ section_id: "C.37.MM:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__011_architectural-rationale.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:10 — Architectural Rationale"
-line_start: 87056
-line_end: 87059
+line_start: 87062
+line_end: 87065
 dependencies:
   - "B.5.MR"
   - "C.2.1"

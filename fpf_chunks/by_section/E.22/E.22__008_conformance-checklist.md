@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 123018
-line_end: 123034
+line_start: 123040
+line_end: 123056
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,7 +32,7 @@ keywords:
 
 | Check | Passing condition |
 |---|---|
-| `CC-E22-1` | Name the exact object version, selected `CharacteristicSpace`, exact predicate and/or admitted comparator, one `U.ClaimScope`, and the exact work or decision that will consume the result. |
+| `CC-E22-1` | Name the exact object version, selected `CharacteristicSpace`, exact predicate and/or admitted comparator, one `U.ClaimScope`, and the exact work or decision that will consume the result. For an independent judgement of the whole, establish the question and the fitness of its criteria from the originating commission or governing practice (§4.0). |
 | `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, qualification window, and expected result form. |
 | `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and the coordinate set to be evaluated. A description, dashboard, or frame cannot substitute for the selected space, predicate/comparator, actual evaluation, or result. |
 | `CC-E22-4` | Represent actionable returned work as typed finding or `CandidateImprovementProposalRow@Context` values with expected substantive evaluation effect, closure test, and the conditionally present `KindRestorationCheck`. An outside claim cites its subject pattern; E.22 frames the improvement question and does not restate that ontology. |

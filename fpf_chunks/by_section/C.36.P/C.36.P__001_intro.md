@@ -6,12 +6,12 @@ section_id: "C.36.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__001_intro.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:intro — Intro"
-line_start: 96027
-line_end: 96037
+line_start: 96035
+line_end: 96045
 dependencies:
   - "A.1"
   - "A.1.1"

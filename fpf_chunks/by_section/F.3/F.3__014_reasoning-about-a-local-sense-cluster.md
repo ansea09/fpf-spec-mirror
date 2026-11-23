@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Reasoning about a local-sense cluster"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_reasoning-about-a-local-sense-cluster.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:13 — Reasoning about a local-sense cluster"
-line_start: 128165
-line_end: 128177
+line_start: 128189
+line_end: 128201
 dependencies:
   - "A.11"
   - "A.7"

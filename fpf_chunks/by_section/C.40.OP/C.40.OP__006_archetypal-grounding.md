@@ -6,12 +6,12 @@ section_id: "C.40.OP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__006_archetypal-grounding.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:5 — Archetypal Grounding"
-line_start: 93024
-line_end: 93059
+line_start: 93032
+line_end: 93067
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

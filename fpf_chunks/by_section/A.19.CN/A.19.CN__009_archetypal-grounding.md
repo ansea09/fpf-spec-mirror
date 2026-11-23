@@ -6,12 +6,12 @@ section_id: "A.19.CN:8"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__009_archetypal-grounding.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:8 — Archetypal Grounding"
-line_start: 38196
-line_end: 38330
+line_start: 38200
+line_end: 38334
 dependencies:
   - "A.19"
   - "A.6.1"

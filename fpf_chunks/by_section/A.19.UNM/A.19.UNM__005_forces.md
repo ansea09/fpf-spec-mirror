@@ -6,12 +6,12 @@ section_id: "A.19.UNM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__005_forces.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:3 — Forces"
-line_start: 39099
-line_end: 39109
+line_start: 39103
+line_end: 39113
 dependencies:
 keywords:
   - "CV→NCV"

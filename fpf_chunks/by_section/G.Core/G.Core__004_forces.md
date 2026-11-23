@@ -6,12 +6,12 @@ section_id: "G.Core:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__004_forces.md"
-commit_sha: "4ee69807f8e5d4fa438e8c9b5de001d91275cc31"
+commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:3 — Forces"
-line_start: 135735
-line_end: 135744
+line_start: 135759
+line_end: 135768
 dependencies:
   - "A.15.3"
   - "A.19"
