@@ -6,12 +6,12 @@ section_id: "B.5.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__008_conformance-checklist.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:7 — Conformance Checklist"
-line_start: 51059
-line_end: 51066
+line_start: 51052
+line_end: 51059
 dependencies:
   - "B.1"
   - "B.5.FM"

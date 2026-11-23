@@ -6,12 +6,12 @@ section_id: "C.2.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:4 — Solution"
-line_start: 56732
-line_end: 56772
+line_start: 56725
+line_end: 56765
 dependencies:
   - "A.10"
   - "A.16"

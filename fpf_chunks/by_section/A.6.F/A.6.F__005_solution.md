@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
 line_start: 23485
-line_end: 23759
+line_end: 23763
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,7 +73,11 @@ A.6.F is an A.6.P RPR specialization for function-like wording. It does not mint
 
 #### A.6.F:4.1 - Trigger rule
 
-When function-like wording remains ambiguous, distinguish the readings below. They are possible meanings to inspect, not a `U.*` kind, claim kind, relation kind, or admission result:
+For a claim that a part contributes to the functioning of a whole, start with the condition of the whole that matters to the recipient. Follow what the part supplies, does or holds in place to the point where another part or the user can use it. State how their arrangement makes that possible in the operating mode at issue. This can explain a capability before anyone exercises it. An observed interaction can also explain an effect outside the part's intended use.
+
+What conclusion is due? The design can settle what the part was meant to do. For a particular performance, use evidence that distinguishes the paths that matter to the answer. When the evidence establishes delivery of the service, different accounts of the active bearer may still fit it. To judge what losing or replacing the part would change, start with the use and criterion in the question. Follow each feasible arrangement to its recipients. Service may move to another whole, and a substitute can displace work promised to someone else. Include changeover time and common dependencies where they affect the comparison. Use C.11.CRC for the change in configuration. Use B.1.5.RS when changing a constituent Method or its implementation could alter what its encompassing uses receive. An actual contribution can have a capable substitute.
+
+Other function-like phrases may concern any of the readings below. Choose the object and grounds that the receiving question requires.
 
 One phrase may combine several readings or transfer metonymically between them. Recover the claim it makes and retain every distinction that changes its use.
 
@@ -223,7 +227,7 @@ If claim content, method, or effective reference scheme changes, C.2.1 first ide
 | mechanism wording | `U.Mechanism` through `A.6.1` and `E.20` when a law-governed realization or operation structure is the claim | Does not become a method, Work occurrence, capability, selected functional structure, or functional-view claim by label. |
 | work plan, work occurrence, or work result | Recover the `U.WorkPlan` under `A.15.2`, one dated `W : U.Work` on its A.13 basis with independent `A.15.1` admission and F.6 only for precise assignment-bound attribution, or the separately identified result entity or episteme together with the predicate that relates it to the current Work or application. Use `A.15.PROD` when production, entity inception, or production completion is current, and `A.6.RCD` only when the needed direct result relation has no current governor. | A plan, Work occurrence, and result are different objects. None implies reusable function ontology or completed functioning, and a result is not part of Work identity. |
 | system-role or responsibility wording | `VP.AllocationResponsibility` is a recognition cue. A positive responsibility claim needs an applicable domain predicate and supporting facts about its participants and conditions; add explicit occurrence identity only when the use needs it. An absent predicate leaves an `A.6.RCD` missing governor, missing case facts leave the claim unknown, and contrary facts refute it. Establish any assignment independently under A.2.1. For actual Work use A.13 first, independent A.15.1 admission second, and F.6 only for precise assignment-bound attribution. | A system-role kind, classification judgment, assignment, function phrase, commitment, position, authority label, or Work attribution establishes no responsibility relation by form. Responsibility may obtain with or without a commitment; each relation keeps its own predicate and identity. |
-| participation or actual functioning | Name the domain predicate, participants, conditions and case facts supporting the claim. Add explicit occurrence identity when the receiving use needs it. If no rule governs the needed predicate, return that `A.6.RCD` missing governor; if only case facts are missing, leave the claim unknown. | Assignment, capability, allocation, nearby Work, or a function label does not make participation or actual functioning obtain. |
+| participation or actual functioning | Name the domain relation, the relevant participants, conditions and evidence. A measured transfer can identify an active path. If the transfer occurred and every path compatible with the evidence included the named part in the stated capacity, that part’s participation can also be inferred. Apply the subject's identity rule when the receiving use needs a particular occurrence. | A role or capability alone leaves the particular episode open. If the receiving use needs an admitted relation and its rule is missing, use A.6.RCD. If the rule is available and the evidence leaves more than one answer possible, report what the alternatives have in common and what remains open. |
 | mathematical function or relation | Use its mathematical definition and applicable rule. When the use needs a separate C.29 lens account, state domain, codomain or relation domain, preserved and lost structure, admissible use and stop condition. | Mathematical form alone establishes no architecture, evidence, causal, assurance or decision claim. |
 | quality or fitness expression | `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, or an admitted characteristic or measurement subject pattern according to the claim being made | Does not let "functionality" carry a quality claim without bearer and subject pattern. |
 | module allocation | Recover the allocation or correspondence claim or relation under its subject pattern. When a functional view cites it, use `FunctionalStructureViewUse` with its `ArchitectureStructuralView` and the claim or relation reference; use `A.6.M` when a module-interface claim is being made. | Does not make function and module one FPF kind. One selected functional structure may have allocation claims involving several modules, one module may occur in claims about several functional structures, and a module may have no current functional-view claim. |
@@ -318,7 +322,7 @@ A.6.F defines no separate quality-composition record. Use the claim form supplie
 **Neighbor claims that need their own relation.**
 
 - `TestArticle-7 participates passively in TestWork-9 during TestInterval-9` is not established by `TestArticleSystemRole` or `TestArticleAssignment-7`. Until a direct passive-test-participation predicate supplies participant order and identity, return `A.6.RCD missing-governor[direct passive-test-participation relation]`; the tester's Work and F.6 attribution remain usable.
-- `Motor-M1 drives PumpAssembly-A during PumpRun-17` needs a direct motor-drive-functioning predicate. Assignment, torque capability, and pumping Work remain separate; without that predicate return `A.6.RCD missing-governor[direct motor-drive-functioning relation]`.
+- For `Motor-M1 drives PumpAssembly-A during PumpRun-17`, the operating question is whether this motor transmitted driving torque to the pump in that run. The assignment identifies the intended drive. A measurement of the direction and transfer of torque through M1’s engaged coupling during pumping can identify the active drive. A discharge reading alone leaves the motor open if a second drive could supply the same flow. For a formal claim that needs an admitted direct motor-drive relation, an absent rule leaves `A.6.RCD missing-governor[direct motor-drive-functioning relation]`.
 - `Hammer-3 supports PaperStack-9 during Interval-P` needs a direct artifact-support predicate. Do not replace that claim with an interchangeable list of use, load, support, or function kinds; without the predicate return `A.6.RCD missing-governor[direct artifact-support relation]`.
 
 **Functional architecture phrase.** A team says, "the functional architecture is the user journey." A.6.F does not let the phrase create a separate architecture kind. For a receiving use that needs inspectable detail, the repair can be recorded as:
@@ -338,7 +342,7 @@ stopCondition: ordinary phrasing remains Plain when no architecture claim is mad
 
 **Mathematical function or loss.** A model note says, "the loss function explains the holon purpose." The repair keeps the mathematical function under C.29 lens discipline: domain, codomain or relation domain, preserved and lost structure, lens-use admissibility value, and stop condition. The loss may inform a reasoning move; it does not become holon purpose, evidence sufficiency, causal proof, assurance, or project decision by itself.
 
-**Pump-station functional dependency.** A maintenance note says, "the backup pump function is degraded." A.6.F first separates the required effect, the qualified ability claim about the holder System, the physical module allocation, the performed maintenance work, the evidence relation, and the quality claim. The functional wording may open a `FunctionalStructure` view under C.30.ASV or go to the capability pattern; it does not by itself prove the pump was tested, authorize operation, or make the backup module compatible with the main line.
+**Pump-station functional dependency.** A maintenance note says “the backup pump function is degraded.” The service requires flow to resume within two minutes after the duty pump stops. The installed reserve has adequate capacity once running. With the proposed change it first comes on line after five minutes, with no other supply during that interval. The proposed arrangement fails the recovery requirement even if its normal flow is unchanged. To decide which pump supplied yesterday's flow, use evidence of that run. To decide whether the former arrangement met the requirement, establish its own recovery conditions. The note can also raise distinct questions about allocation, capability, the maintenance performed or the quality being assessed.
 
 **Product-platform allocation.** A hardware team says, "thermal management functionality moved to the chassis." The repair separates required heat-removal effect, module allocation, interface constraints, signature constraints, architecture structural view, and any evidence or gate claim. A.6.F keeps the function-like wording useful for architecture work while sending module-interface and evidence claims to their subject patterns.
 

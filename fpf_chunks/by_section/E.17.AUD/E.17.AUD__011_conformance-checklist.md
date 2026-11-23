@@ -6,12 +6,12 @@ section_id: "E.17.AUD:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__011_conformance-checklist.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:10 — Conformance Checklist"
-line_start: 117259
-line_end: 117277
+line_start: 117263
+line_end: 117281
 dependencies:
   - "A.16.0"
   - "A.7"

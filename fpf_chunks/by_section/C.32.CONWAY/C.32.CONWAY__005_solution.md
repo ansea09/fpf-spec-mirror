@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:4 — Solution"
-line_start: 82484
-line_end: 82580
+line_start: 82486
+line_end: 82582
 dependencies:
   - "A.10"
   - "A.12"
@@ -77,7 +77,7 @@ The first result can be a candidate, a supported reason to retain the arrangemen
 ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context <: U.Episteme:
   entityOfConcernRef: exactArchitectureInfluenceOrCorrespondenceRelationOccurrenceRef
   entityOfConcernKindRef: exactArchitectureInfluenceOrCorrespondenceRelationKindRef
-  relationFunctionClaimRef: subject pattern of that exact relation kind and occurrence
+  relationFunctionClaimRef: the defining or constraining ClaimGraph for this exact influence or correspondence predicate
   influenceSourceArchitectureRelationRef: one exact obtaining C.30 ArchitectureRelation
   influenceSourceHolonRef: the exact architectureBearingHolonRef participant of influenceSourceArchitectureRelationRef
   influenceSourceSelectedStructureRef: the exact selectedArchitectureStructureRef participant of influenceSourceArchitectureRelationRef

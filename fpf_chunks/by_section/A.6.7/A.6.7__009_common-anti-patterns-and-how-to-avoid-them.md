@@ -6,12 +6,12 @@ section_id: "A.6.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 25445
-line_end: 25466
+line_start: 25450
+line_end: 25471
 dependencies:
   - "A.21"
   - "A.6.1"

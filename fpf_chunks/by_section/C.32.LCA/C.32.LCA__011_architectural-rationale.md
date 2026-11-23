@@ -6,12 +6,12 @@ section_id: "C.32.LCA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__011_architectural-rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:10 — Architectural Rationale"
-line_start: 80996
-line_end: 81007
+line_start: 81000
+line_end: 81011
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

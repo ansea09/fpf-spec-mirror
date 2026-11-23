@@ -6,7 +6,7 @@ section_id: "A.3.1.MI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__009_conformance-checklist.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:7 — Conformance Checklist"
@@ -32,7 +32,7 @@ keywords:
 - [ ] Later Work is independently admitted; candidate accounts are not enacted, and only independently admitted Methods may fill an enactment claim.
 - [ ] Decision-relevant acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result observations remain separate.
 - [ ] Every adaptation distinguishes target change from introduction-strategy change and records the affected target, strategy and status, identified description episteme, separate WorkPlan, support or local-use condition; time and planned/reactive status; decision-maker and any applicable authorization; recipients and delivery settings covered by the modification, reason and conditions; maintained result; and receiving action or stop.
-- [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
+- [ ] The evidence for who did the work or which support was used identifies the relevant operation. If the revision relies on a causal explanation, C.28 qualifies its supported use, material threats and remaining uncertainty for the relevant subjects and conditions.
 - [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
 - [ ] A.3.1.FT receives a bounded fit or transfer question, C.36.MC a bounded population-level cultural question, and A.3.1.MV/A.15.8.MS/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. A.3.2.DE receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
 - [ ] The introduction account and any causal, cultural or authorization conclusions retain their own grounds and scope.

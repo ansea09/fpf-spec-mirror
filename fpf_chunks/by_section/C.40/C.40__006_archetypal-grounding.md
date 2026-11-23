@@ -6,12 +6,12 @@ section_id: "C.40:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__006_archetypal-grounding.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:5 — Archetypal Grounding"
-line_start: 90284
-line_end: 90602
+line_start: 90287
+line_end: 90605
 dependencies:
   - "C.11"
   - "C.18"

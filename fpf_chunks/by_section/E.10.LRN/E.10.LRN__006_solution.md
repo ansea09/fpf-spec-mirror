@@ -6,12 +6,12 @@ section_id: "E.10.LRN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:4 — Solution"
-line_start: 107321
-line_end: 107382
+line_start: 107325
+line_end: 107386
 dependencies:
   - "A.10"
   - "A.15"

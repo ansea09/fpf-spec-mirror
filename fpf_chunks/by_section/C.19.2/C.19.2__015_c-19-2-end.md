@@ -6,12 +6,12 @@ section_id: "C.19.2:End"
 section_title: "C.19.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__015_c-19-2-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:End — C.19.2:End"
-line_start: 65082
-line_end: 65083
+line_start: 65086
+line_end: 65087
 dependencies:
   - "A.15.1"
   - "A.15.2"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.PAD.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
-line_start: 84070
-line_end: 84438
+line_start: 84072
+line_end: 84439
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -137,7 +137,7 @@ ArchitectureDecisionRelation@Project:
     - structureKindRef:
       selectedStructureRef:
       decisionEffect:
-      relationFunctionClaimRef:
+      relationFunctionClaimRef?: exact defining or constraining ClaimGraph when rule identity matters to this decision
   bindingConstraintRefs?: conditions that remain in force for the selected design
   noLiveTradeoffReason?: when the decision involves no trade-off
   architectureCharacteristicTradeoffs?:
@@ -223,7 +223,7 @@ Work in this order:
 1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, recover the named extended enterprise and agreement grounds under A.1.STM:4.1; cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. For a needed compound project-selection claim, apply A.15.6:4.1a to its sufficient local semantics and case facts. Return `missing-substrate[project-selection-conjunction]` only for unavailable required semantics; missing or failed facts retain their own outcomes.
 2. Give the basis for the chosen design. If the commission permits any conforming option, identify the option and how it meets the binding conditions. If the decision turns on a preference, cite the alternatives compared. Identify the condition that fixes the design when a prior commitment settles it. For a binding choice, show which implementation remains feasible and what the project can still decide. When the decision calls for comparing alternatives, use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
 3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.24.PUB` for the occurrence and audience availability; add `E.17` when a source-backed face and source return are needed.
-4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.
+4. State the selected architecture option or bounded exception. Name the affected structures and explain how they bear on the choice. A pattern reference can locate a rule. When the decision depends on the identity of that rule, resolve `relationFunctionClaimRef` to its defining or constraining ClaimGraph. A decision in force can already fix the boundary for later work. To report actual operating behavior, establish what happened in the relevant use. To attribute an improvement to the chosen design, justify the comparison with the relevant alternative.
 5. Record the architecture-characteristic trade-off, or why no live trade-off is needed. Reuse adequate criteria, readings and explanations. Use `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25` or `C.31` for the particular missing criterion, evaluation, measurement, quality bundle or modularity/scale claim. Recover description correspondence and relevant loss through `C.30.AD`; use `C.29` when mathematical representation choice, transfer or reliance remains unresolved. None of these inputs decides the architecture by itself.
 6. Record the rationale and consequences. Identify any rejected options and the losses the project accepts. For organizational architecture, explain how the selected structure can provide the needed capability for the named products, which provision and cooperation it relies on, and who is entitled to accept a consequential change to their commitments. Keep expenditure, financing and expected product benefit distinguishable. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
 7. Relate the decision to architecture descriptions it uses. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
@@ -276,8 +276,7 @@ ArchitectureDecisionRelation@OrderFlow:
   selectedStructureEffects:
     - structureKindRef: module structure
       selectedStructureRef: order events between service modules
-      decisionEffect: preserve service substitutability, accept added event-schema governance
-      relationFunctionClaimRef: C.30.ASV
+      decisionEffect: choose the event boundary to support service replacement under the agreed event meanings and delivery conditions, and accept the cost of coordinating schema changes
   architectureCharacteristicTradeoffs:
     - architectureCharacteristicRef: substitutability
       criteriaRowRef: C.32.ACS order-flow substitutability criterion

@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:4 — Solution"
-line_start: 41890
-line_end: 42243
+line_start: 41895
+line_end: 42236
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -392,23 +392,11 @@ The selected organization directs planning to Bus_7 and both material-path valve
 
 A C.29 graph may represent the same organization, while the predicates of the selected relation occurrences remain its obtaining basis. A visually identical graph with an unestablished connection remains a representation candidate.
 
-**Architecture kernel slice.** A team says, "the architecture is the graph." Recover the selected structure and the graph's reliance relation:
+**Which connection does the graph show?** A team wants to identify the next stage on the refrigerant path. Use the refrigerator scheme of E.18.2:4.5. Suppose the selected design edition specifies that the compressor discharge feeds the condenser directly. Its graph maps the two design positions to labelled vertices and direct flow to a directed edge. The edge runs from the compressor to the condenser. Here the graph describes the selected transformation-flow structure. It answers which stage follows compression on that path in this design.
 
-```text
-declaredStructureSubstrateRef: TransformationFlowStructureRef under E.18, with mathematical graph description under E.18.2 when that expression is the current claim
-candidate structure: selected transformation-flow structure
-structure-claim reliance relation: selected relation record named by value(
-  sourceDescriptionOrPatternApplicationRef = SourceViewRef, structure or crossing record selected under E.18, or E.18.2 mathematical graph description,
-  relationContribution = E.18 selected-structure or crossing definition | A.6.6 base-dependence test | independently established support relation recovered through A.10 provenance and bounded-use account | C.29 mathematical-lens result, chosen for the claim being made,
-  relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
-  validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary
-)
-next FPF pattern application: C.30.TFS-REL when this selected structure is used in an architecture-to-transformation-flow relation
-stop or return condition: stop at the selected reliance relation's result; for a Work, evidence, gate, or decision claim, apply its test in A.22:4.7
-non-admissible use: the graph as the whole architecture
-```
+In a record of reliance, `relationKind` can therefore be *source-description*. The `relationContribution` is the represented direction and adjacency of these two positions. The identified circuit description supplies the correspondence. A reversal of the arrow with the same legend would misdescribe this connection. A change of circuit or legend requires checking the correspondence again. The graph can retain this answer while the installed device stands idle. To report actual circulation, obtain evidence bearing on the device in that interval.
 
-The practitioner can now use the graph through the selected source-description, base-dependence, evidence, or lens relation and route the architecture claim to C.30.TFS-REL.
+Other uses of the same drawing can require a different relation. E.18 defines the selected flow structure or crossing, A.6.6 tests base dependence, A.10 traces the grounds of an independently supported evidence claim, and C.29 tests the adequacy of a mathematical representation for the proposed inference. Choose the one the receiving question relies on. Use C.30.TFS-REL for a claim relating an architecture to this flow structure. A work, gate or decision claim draws on its own grounds under A.22:4.7.
 
 **Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring and data-flow links. Recover the source codebase or publication, extraction method, preserved and lost structure, validation boundary and structure-use return condition. That establishes the declared extraction result only. For an A.6.3 epistemic-viewing claim, identify source episteme `X` and receiving episteme `Y`, their same EntityOfConcern, and the projected or re-expressed ClaimGraph and ReferenceScheme. Qualify `Y` as a `U.View` only when the applicable E.17.0 viewpoint conformance independently obtains. A claim about the codebase architecture, internal agent belief, assurance or release readiness still needs its evidence and governing predicate.
 

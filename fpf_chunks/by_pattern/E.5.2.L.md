@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.2.L.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.5.2.L — Languages, Expressions and Interpretation"
-line_start: 102723
-line_end: 102826
+line_start: 102726
+line_end: 102829
 dependencies:
   - "A.6.3.RT"
   - "C.2.1"

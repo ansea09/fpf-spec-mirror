@@ -6,12 +6,12 @@ section_id: "C.30.AD:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__013_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:10 — SoTA-Echoing"
-line_start: 75966
-line_end: 75975
+line_start: 75970
+line_end: 75979
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.11.MV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:4 — Solution"
-line_start: 60842
-line_end: 60926
+line_start: 60838
+line_end: 60922
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -34,7 +34,7 @@ Compare the feasible alternatives for the same receiving decision. Identify who 
 2. **Construct the current alternative set.** Include feasible Methods or variants, a support or capability change when it can address the same problem, the status quo, and stopping or the next-slot use of scarce Work when material. Preserve admission and candidate status for every alternative.
 3. **State the comparison basis.** Name the domain results and material burdens, side effects, opportunity costs and reversibility conditions, with the evidence supporting them. Identify required capability, System participation, Work and direct relations separately from the Characteristic values used in comparison. Add situation-specific characteristics where needed. State non-compensable stops and who bears each consequence. When the merits of a protective requirement are disputed, use §4.5; otherwise compare under the applicable criteria.
 4. **Assemble the available basis by alternative.** Use current A.3.1.QM qualification, credible domain estimates or judgement, and structural constraints alongside A.3.1.WT actual Work, A.3.1.CC corrections and A.3.1.FT fit or transfer results where available and relevant. Distinguish observed results from estimates, recover the source and conditions of each relied-on claim, and retain the missing basis that limits the decision. Absence of evidence for one alternative is not evidence of its inferiority.
-5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
+5. **Establish what the recipient can obtain from each feasible option.** Give the domain result and the grounds for expecting it. A record of Method completion, provision of support or a participant's assessment can answer a different part of the decision. Compare each attainable arrangement as a whole, including its benefits and burdens. When a decision concerns removing or replacing one element, work out what arrangements would then be possible and how their value would change, including effects on other elements (C.11.CRC). The change can have a different value in a different combination. Use C.28 wherever the comparison relies on a causal explanation.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
 8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Identify who will select the method in use and whether they can distinguish the relevant situations in time to act. For a guarantee, the course selected from the available information must work in every compatible situation covered by the commitment. For a risk-limited commitment, assess the resulting rule against its risk criterion. For an undertaking that covers concurrent work, also establish that the branch choices can be carried out together with the support actually available. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
@@ -97,7 +97,7 @@ Suppose the current report sources have an inspectable same-unit schema, the rev
 
 ##### C.11.MV:4.4.2 - An Unresolved Alternative with No Obtainable Probe
 
-A proposed automated conversion route might reduce later review effort, but its contribution remains unknown and no permitted test access is available before the current decision. The existing ALT-M route still supplies the required review under its stated conditions. Retain the automation proposal for a later comparison, stop the unsupported present change, and continue the qualified ALT-M course. That decision leaves the automation comparison unresolved. Further investigation can be chosen when its obtainable answer is worth the full burden; retaining the proposal creates no trial commitment.
+A proposed automated conversion route might reduce later review effort, but the attainable saving is unknown and no permitted test access is available before the current decision. The existing ALT-M route still supplies the required review under its stated conditions. Retain the automation proposal for a later comparison, stop the unsupported present change, and continue the qualified ALT-M course. That decision leaves the automation comparison unresolved. Further investigation can be chosen when its obtainable answer is worth the full burden; retaining the proposal creates no trial commitment.
 
 #### C.11.MV:4.5 - Appraise a Disputed Protective Requirement
 

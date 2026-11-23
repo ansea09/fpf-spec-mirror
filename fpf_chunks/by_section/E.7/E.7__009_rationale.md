@@ -6,12 +6,12 @@ section_id: "E.7:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__009_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.7 — Archetypal Grounding: Show How a Practitioner Can Apply an Architectural Rule"
   - "E.7:8 — Rationale"
-line_start: 103105
-line_end: 103108
+line_start: 103108
+line_end: 103111
 dependencies:
   - "E.6"
 keywords:

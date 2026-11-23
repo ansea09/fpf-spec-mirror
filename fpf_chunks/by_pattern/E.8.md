@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 103118
-line_end: 104209
+line_start: 103121
+line_end: 104212
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -838,7 +838,7 @@ When both purposes matter, explain both contributions rather than leaving the re
 
 A sentence, list introduction or table heading can establish the purpose for a clear group. A generic `Relations`, `Solution`, `Rationale` or `See also` heading does not decide it. Separate mixed uses where their difference changes what the reader should do.
 
-Pure navigation, declared identifiers, address examples and addresses that merely name participants in an explicit relation need no source or application cue. In “X specializes Y”, Y names a participant; it is not automatically a citation or an instruction. But “X supplies comparison” at a step needing a comparison can leave the needed action unstated. Decide whether the comparison is already supplied or the reader must obtain it.
+Pure navigation, declared identifiers, address examples and addresses that merely name participants in an explicit relation need no source or application cue. In “X specializes Y”, Y names a participant; it is not automatically a citation or an instruction. But “X supplies comparison” at a step needing a comparison can leave the needed action unstated. Say what the reader can use here. A source may already compare the alternatives in question, or it may give a Method for comparing them. If the decision requires another party’s assessment, identify what counts as receiving it.
 
 For example, these references to the same material do different work:
 

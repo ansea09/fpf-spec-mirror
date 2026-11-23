@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 105503
-line_end: 107266
+line_start: 105506
+line_end: 107270
 dependencies:
   - "A.10"
   - "A.15"
@@ -448,6 +448,7 @@ Use these words when the sentence makes clear **what participates or is used, in
 | “This operation contributes to preparation.” | “Calculating the correction is a constituent of this preparation Method under its construction rule.” Use B.1.5 for Method parthood; describe performed Work separately when that is the claim. |
 | “The test contributes evidence.” | State which test result supports which claim and under what limits, using the direct evidence rule and A.10 when the source-to-use account needs recovery or replay. Evidence for a residual at sampled marks need not warrant the whole interval. |
 | “The replacement adds value.” | Compare the realizable changed configuration with the present one under C.11.CRC when its finite-change question is current. Keep the affected results, resources, horizon and uncertainty visible. |
+| “The contribution field is filled.” | Read what this record declares and what its value identifies or asserts. A role eligible to supply a result can be named before anyone does the work. An entry for completed work can carry the evidence for attribution. Recover what the entry warrants for the question at hand under A.6.P:4.4. |
 | “The author makes an original contribution.” | Name the new distinction, Method or explanation and the question it answers. E.8:11 compares that answer with alternatives; authorship alone establishes neither novelty nor practical superiority. |
 
 A supplied recording, its use by an analyst, a claimed causal effect and a comparison of two configurations need different statements. Use A.6.P when a predicate or participant remains hidden, C.2.P for an unresolved source/content/use distinction, and C.28 for a causal claim. C.11.CRC does not replace a comparison of source content with no realizable configuration change.

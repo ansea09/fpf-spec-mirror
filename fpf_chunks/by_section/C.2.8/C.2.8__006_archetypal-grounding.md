@@ -6,12 +6,12 @@ section_id: "C.2.8:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__006_archetypal-grounding.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:5 — Archetypal Grounding"
-line_start: 57219
-line_end: 57266
+line_start: 57212
+line_end: 57259
 dependencies:
   - "A.17"
   - "A.18"

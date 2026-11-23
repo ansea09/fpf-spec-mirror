@@ -6,12 +6,12 @@ section_id: "C.40.NU:End"
 section_title: "C.40.NU:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__014_c-40-nu-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:End — C.40.NU:End"
-line_start: 92261
-line_end: 92262
+line_start: 92264
+line_end: 92265
 dependencies:
   - "C.17"
   - "C.18"

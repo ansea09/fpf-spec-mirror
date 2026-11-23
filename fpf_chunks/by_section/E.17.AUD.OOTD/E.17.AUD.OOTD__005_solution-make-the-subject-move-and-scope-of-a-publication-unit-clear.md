@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:4"
 section_title: "Solution - make the subject, move and scope of a publication unit clear"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-make-the-subject-move-and-scope-of-a-publication-unit-clear.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:4 — Solution - make the subject, move and scope of a publication unit clear"
-line_start: 117714
-line_end: 117854
+line_start: 117718
+line_end: 117858
 dependencies:
   - "A.10"
   - "A.15"

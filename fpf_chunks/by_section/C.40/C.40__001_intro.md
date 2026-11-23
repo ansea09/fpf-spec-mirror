@@ -6,12 +6,12 @@ section_id: "C.40:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__001_intro.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:intro — Intro"
-line_start: 89785
-line_end: 89790
+line_start: 89788
+line_end: 89793
 dependencies:
   - "C.11"
   - "C.18"

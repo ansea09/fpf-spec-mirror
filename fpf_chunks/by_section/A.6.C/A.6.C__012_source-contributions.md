@@ -6,7 +6,7 @@ section_id: "A.6.C:11"
 section_title: "Source contributions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__012_source-contributions.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:11 — Source contributions"

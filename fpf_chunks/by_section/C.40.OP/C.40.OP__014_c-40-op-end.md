@@ -6,12 +6,12 @@ section_id: "C.40.OP:End"
 section_title: "C.40.OP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__014_c-40-op-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:End — C.40.OP:End"
-line_start: 93135
-line_end: 93136
+line_start: 93138
+line_end: 93139
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

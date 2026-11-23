@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.LCA.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
-line_start: 77736
-line_end: 78104
+line_start: 77740
+line_end: 78108
 dependencies:
   - "A.10"
   - "A.20"

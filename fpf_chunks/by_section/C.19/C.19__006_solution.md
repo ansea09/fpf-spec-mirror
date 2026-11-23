@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 64351
-line_end: 64640
+line_start: 64355
+line_end: 64644
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -105,7 +105,7 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
 - **Tie-breakers:** the current policy may use a Novelty coordinate, `DeltaDiversity_P`/`ΔDiversity_P`, Surprise, or Illumination only when it names that tie-breaker. Unused optional tie-breakers need no result.
   - For Novelty, cite each bearer's coordinate-result episteme: a complete C.16 measurement result for a measured value, or a C.2.1 ascription when the declared rule permits that reading. Before comparing bearers, confirm compatible Novelty Characteristic and Scale editions, corpus/reference set and inclusion rule, similarity Method and encoder/model editions, ClaimScope, and the window, uncertainty and support required by the construction and comparison.
   - For Surprise, cite the coordinate result and its generative-model and training-basis editions, Scale, ClaimScope, and the window, uncertainty and support required by its construction and comparison.
-  - For `DeltaDiversity_P`, cite the retained set, candidate, calculation or measurement rule and Scale editions, descriptor or distance basis, resulting marginal reading, and the window and support required by the use.
+  - For `DeltaDiversity_P`, cite the candidate and the retained baseline to which it would be added, the calculation or measurement rule and Scale editions, descriptor or distance basis, resulting marginal reading, and the window and support required by the use. If the decision turns on the diversity left after a replacement or several admissions, compare the collections those choices would leave under C.17:5.1. A policy may use an addition score to decide which change to make.
   - Illumination remains telemetry over `Diversity_P` unless the named policy explicitly promotes it. A promoted use still cites the report and its measurement basis.
   The words *Novelty*, *Surprise*, and *diversity* alone are not executable policy inputs.
 - **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.

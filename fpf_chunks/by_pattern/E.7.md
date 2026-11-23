@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.7.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.7 — Archetypal Grounding: Show How a Practitioner Can Apply an Architectural Rule"
-line_start: 103057
-line_end: 103117
+line_start: 103060
+line_end: 103120
 dependencies:
   - "E.6"
 keywords:

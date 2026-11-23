@@ -6,7 +6,7 @@ section_id: "A.3.1.MI:5"
 section_title: "Archetypal Grounding - Workplace Introduction and Revision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__007_archetypal-grounding-workplace-introduction-and-revision.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:5 — Archetypal Grounding - Workplace Introduction and Revision"
@@ -29,7 +29,7 @@ Treat training followed by supported four-to-six-month workplace projects and ex
 
 If an observation exposes a content defect in the candidate introduction account, A.3.2.DE can improve that account without classifying it as a `U.MethodDescription`. Other description content returns to its own episteme or a local stop; introduction or use alone requires no revision.
 
-Record acceptability or rejection, appropriateness or fit, feasibility, enactment or fidelity, burden or cost, reach, and sustainment only where the source supports each position. The reports do not admit the candidate introduction Method or make every modification a target-Method change. The bounded A.3.1.MI decision can use observations or association without C.28; any claim that SSFD or its introduction strategy caused the reported benefits needs a current C.28 result.
+Record acceptability or rejection, fit, feasibility, enactment, burden, reach and continued use where the source supports them. The project reports can establish that engineers used an output of functional modelling in subsequent work. The investigators also assessed the pathways by which they judged SSFD to have contributed to reported benefits. A decision about delivering the observed arrangement can use that account. A decision that depends on what produced an improvement, including the effect of other changes, needs the corresponding causal grounds under C.28. Admission of a candidate introduction Method and classification of an adaptation each retain their own grounds.
 
 The Digital Vaccine case supplies three sequential action-research cycles in an operating health-services ecosystem. For each cycle, record the Method-related target, the introduction strategy and its status, its separately identified description, and any separate WorkPlan. Then record prioritization, performed introduction or validation Work, observation, target adaptation, strategy adaptation, and revision for the bounded concern. The evaluation remains ex ante and case-specific and establishes neither Method admission, long-term effect, nor transfer to the other elicited domains.
 
@@ -47,7 +47,7 @@ The A.15.8.MS support-use task observations may supply identified support baseli
 
 In this constructed example, a team introduces a report-review Method requiring the reviewer to trace each measurement to the equipment identifier and check its unit before recommending release. The proposed introduction strategy combines a lesson with individual rehearsal. Its working explanation is that rehearsal will enable newcomers to recognize identifier and unit mismatches independently. Release still requires a separately qualified reviewer; the introduction attempt has no authority to remove that safeguard.
 
-Records show that the lesson occurred, but individual rehearsal was repeatedly cancelled. Reports released during the attempt have the required corrections. Observation of review meetings shows that experienced colleagues identified the mismatches and newcomers then corrected them. The attendance records and corrected reports therefore concern different contributions: neither establishes independent newcomer capability. The proposed learning mechanism remains unsupported, while the experienced reviewers' identification of the mismatches is a useful observation.
+Records show that the lesson occurred, but individual rehearsal was repeatedly cancelled. Reports released during the attempt have the required corrections. Observation of review meetings shows that experienced colleagues identified the mismatches and newcomers then corrected them. That observation supports an account of both participants' work on these reports. To decide whether to rely on unaided recognition, it still needs evidence of what newcomers can detect on their own. The proposed learning mechanism remains unsupported.
 
 The method engineer connects delivery records, the sequence of detection and correction, current capability evidence and report outcomes. This supports continuing the existing safeguarded review under its established conditions. It also identifies a rival explanation worth considering: supported joint review may supply the immediate checking function while creating a different opportunity for learning. Whether newcomers learn from that participation remains an open question.
 
@@ -55,5 +55,5 @@ Suppose a receiving decision now concerns assigning newcomers independent review
 
 After such an authorized comparison, suppose the observed records show that newcomers detect familiar identifier mismatches unaided but require expert help for the unfamiliar unit convention. Return that differentiated result to the capability owner and to A.3.1.FT; it supports neither a blanket failure nor unrestricted transfer. C.11.MV includes the expert's time. A.3.1.MI can develop a proposed introduction variant using joint review and later independent rehearsal. A.3.1.MV determines whether its changed reusable operations constitute a variant; retaining the intended checking and learning functions does not settle that identity question.
 
-The adaptation account records when the joint-review change was chosen and when it operated. If rehearsal and coaching change together, report the benefit observed under that examined arrangement; distinguish their contributions only to the extent supported by the evidence. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
+The adaptation account records when the joint-review change was chosen and when it operated. If rehearsal and coaching change together, give the result observed under that arrangement. Use the records to establish what each participant did. If the next choice depends on what would happen without coaching, assess that change under the relevant conditions. The original lesson remains a delivered event, and the new evidence can change the judgement about how it could support learning.
 

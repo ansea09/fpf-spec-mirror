@@ -6,12 +6,12 @@ section_id: "C.11.CRC:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__013_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:11 — SoTA Echoing"
-line_start: 60315
-line_end: 60323
+line_start: 60310
+line_end: 60319
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -46,6 +46,7 @@ keywords:
 
 | Source line | Adopted move | Limit retained here |
 | --- | --- | --- |
+| Boyd and Vandenberghe, [*Convex Optimization*, §5.6](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) | Use the optimal dual variables to bound the perturbed optimum under the stated duality conditions. Differentiability gives local sensitivities. | Check the direction of perturbation at a kink and the interval for a finite change. |
 | Ortega and Braun, [information-processing costs in decision making](https://arxiv.org/abs/1204.6481), 2013 | Keep the resource costs of information acquisition and computation explicit in the decision. | Statistical-physics form is a model under assumptions, not proof of literal physical free-energy minimization. |
 | Blei, Kucukelbir, and McAuliffe, [*Variational Inference: A Review for Statisticians*](https://www.cs.columbia.edu/~blei/papers/BleiKucukelbirMcAuliffe2017.pdf), 2017 | Keep target distribution, approximation family, optimization, speed/scale, and uncertainty trade-offs visible. | Historical field anchor; it does not define calculus-of-variations design or general contribution. |
 | MIT OpenCourseWare, [*Matrix Calculus for Machine Learning and Beyond*](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/pages/lecture-notes-and-readings/), 2023 calculus-of-variations material | Treat a function, trajectory, or field as the varied object under admissible variation and boundary structure. | Course material supplies a mathematical distinction, not FPF ontology or physical evidence. |

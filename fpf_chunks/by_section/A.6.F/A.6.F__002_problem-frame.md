@@ -6,7 +6,7 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
@@ -71,7 +71,7 @@ keywords:
 
 Use this pattern when `function`, `functional`, `functionality`, `effect`, or similar wording leaves an action-changing object, claim, or applicable rule unresolved. The reading may concern architecture, work, method, capability, a system-role kind or assignment, participation, actual functioning, responsibility, quality, mathematics, module allocation, or an interface. These are possible meanings to distinguish, not one semantic kind.
 
-First recover the object or claim and the rule that defines or tests it. Return the repaired wording and next useful action, including any necessary stop. Use the optional `FunctionUseRepair` note in §4.2 only when a receiving use needs inspectable detail.
+First recover the question the recipient needs to answer. An approved design can settle what it assigns a part to do. To explain a capability of the whole, show how the part and its partners can produce or maintain the required condition together. To explain an occurrence, use the conditions and interactions that actually obtained. Give the repaired claim and the next useful action. The optional `FunctionUseRepair` note in §4.2 serves uses that need inspectable detail.
 
 Stop when the source cue, entity, value, claim, or claim-bearing episteme, subject pattern, and the next admissible use are clear. If the next step must test whether named participants stand in a relation, add its admitted direct predicate. If it must preserve an affirmative, negative, or modal claim about that predicate, identify the `C.2.1` relational-assertion episteme and its claim. If it must track one particular obtaining instance, apply the subject pattern's identity rule and add the separately individuated occurrence. Otherwise leave those three branches empty. Add reusable declaration, other selected assertion, specification, or view episteme, or representation correspondence only when the next step needs it.
 

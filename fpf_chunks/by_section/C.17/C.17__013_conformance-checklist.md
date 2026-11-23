@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_conformance-checklist.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:11 — Conformance checklist"
-line_start: 63709
-line_end: 63728
+line_start: 63711
+line_end: 63730
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 | `CC-C17-7` | Aggregate result, optional profile payload, representation or publication form, optional record, and any dated assessment Work remain distinct. |
 | `CC-C17-8` | The comparison supplies the criterion the receiving rule requires. Establish each applicable Use-Value or ConstraintFit condition under its own rule. Reuse the novelty result when that rule makes it sufficient. A failed must-constraint excludes the bearer from the affected use unless a valid exception applies. |
 | `CC-C17-9` | Dominance names the characteristic subset, Scale compatibility, polarity, eligibility conditions, and comparison rule. Frontiers are computed from that rule; scalarization is explicit and primitive coordinates remain available. |
-| `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
+| `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. A claim of change identifies both collections and the comparison its Scale admits. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |
 | `CC-C17-12` | Dated overall-assessment Work is asserted only with its actual System, assignment, Method enactment, Work extent, and evidence. Do not infer an A.6.1 operation application from those facts. When an exact application or binding is separately claimed, satisfy the current A.6.1 application account and cite that application. Coordinate-measurement Work remains separate. |
 | `CC-C17-13` | Use C.17 to report characteristics and comparison results, C.18 for generation plus Archive and Front maintenance, C.19 for pool policy, G.5 for selector-facing declarations, and C.11 for choices. |

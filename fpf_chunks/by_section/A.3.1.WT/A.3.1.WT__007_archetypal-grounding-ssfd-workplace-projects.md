@@ -6,7 +6,7 @@ section_id: "A.3.1.WT:5"
 section_title: "Archetypal Grounding - SSFD Workplace Projects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__007_archetypal-grounding-ssfd-workplace-projects.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:5 — Archetypal Grounding - SSFD Workplace Projects"
@@ -37,7 +37,7 @@ Before using the replay, establish whether SSFD is an admitted Method for the cu
 | --- | --- | --- | --- |
 | Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that every programme participant had the same capability or that the reported benefits came from SSFD alone. |
 | Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses the direct representation governor for the affected action and C.37 when a selection question remains; when a Method-specific cross-use profile is needed, it checks the affected action and cross-use dependency under C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
-| 41-report evidence set | The review identifies 95 examples of evidenced individual benefits across business results, process improvement, and product-development-team capability improvement, while separating direct and indirect contribution. | Bounded report and review evidence for later comparison of results, burdens, and evidence strength in C.11.MV. | Counts and source classifications do not establish causality, universal superiority, transfer, or current capability for every participant. |
+| 41-report evidence set | The investigators identified 95 instances of benefits in 41 project reports and examined how SSFD figured in those accounts, including uses of its outputs in subsequent work. | The documented outputs and the investigators' interpretation of the pathways can inform later comparison of domain results, burdens and evidence strength in C.11.MV. | An estimate of what would have happened without SSFD requires additional grounds. A claim about a participant's current capability requires evidence about that participant's work. |
 
 The useful A.3.1.WT result is therefore not “SSFD works”. It is a set of reported workplace-project accounts, situation and support conditions, observed representation difficulties, reported results and burdens, evidence-source qualifications, and explicit gaps for three separate later judgments.
 

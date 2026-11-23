@@ -6,12 +6,12 @@ section_id: "F.0.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__013_relations.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:12 — Relations"
-line_start: 126694
-line_end: 126704
+line_start: 126698
+line_end: 126708
 dependencies:
   - "E.10"
   - "E.10.D1"

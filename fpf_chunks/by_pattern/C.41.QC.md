@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.QC.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
-line_start: 94949
-line_end: 95144
+line_start: 94952
+line_end: 95147
 dependencies:
   - "A.10"
   - "C.41"

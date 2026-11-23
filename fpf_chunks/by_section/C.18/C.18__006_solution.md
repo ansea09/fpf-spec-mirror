@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 63848
-line_end: 64035
+line_start: 63850
+line_end: 64039
 dependencies:
   - "A.15"
   - "A.19"
@@ -65,6 +65,8 @@ ExplorationArchiveRecord@Context:
 ```
 
 Use this record when an archive account must remain available for reuse—for example, retained exploration value, coverage, novelty, diversity, stepping-stone value, future reachability, curriculum expansion, lineage, or archive policy. Do not use the archive record as a selected-set result declaration or work permission.
+
+A dated record of the contents can answer a membership question. To explain a past selection, establish how the selection was made with the policy and inputs then in force. Evidence that a particular rule was followed, together with enough information to determine its result, can settle the question without a separate decision note. To attribute a choice to a tie-breaker, establish that the choice reached that tie. Where several grounds fit the same recorded choice, report what can be established about the grounds used. A reason developed today can support continued retention.
 
 #### C.18:4.2 - Front Record
 

@@ -6,12 +6,12 @@ section_id: "A.15.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__013_relations.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:12 — Relations"
-line_start: 32780
-line_end: 32801
+line_start: 32785
+line_end: 32806
 dependencies:
   - "A.1"
   - "A.1.STM"

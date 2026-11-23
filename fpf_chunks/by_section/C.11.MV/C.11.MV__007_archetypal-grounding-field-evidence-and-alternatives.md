@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 60927
-line_end: 60977
+line_start: 60923
+line_end: 60973
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.11.MV:5 - Archetypal Grounding - Field Evidence and Alternatives
 
-The SSFD study reports 95 examples of evidenced individual benefits across 41 detailed workplace-project reports and distinguishes direct and indirect contribution. Those reports can supply domain-result, process, capability, burden, and evidence-strength positions for a worth comparison. They do not by themselves supply a common current alternative, comparable counterfactual Work, SSFD-only causality, or one universal decision.
+The SSFD study identified 95 instances of benefits in 41 project reports. Its investigators examined how use of the functional models connected with those benefits, directly or through subsequent work. This gives a decision maker reported outcomes, conditions of use and candidate explanations. To choose between two current arrangements, establish what each can deliver and at what burden. To estimate the effect of changing one element, establish what else would change with it and what supports that estimate.
 
 Project 11 supplies substantial reported outputs from one by-wire steering application; Project 32 supplies a representation difficulty. Preserve both. A practical-worth result may retain SSFD for one situation, revise its representation or support for another, or return missing alternative evidence. Do not average the difficulty and benefit counts into a score.
 

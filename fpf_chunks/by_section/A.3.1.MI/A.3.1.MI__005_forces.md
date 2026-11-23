@@ -6,7 +6,7 @@ section_id: "A.3.1.MI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__005_forces.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:3 — Forces"
@@ -30,6 +30,6 @@ keywords:
 | Capability | New Work may need development, while delivered training and acquired capability remain different results. |
 | Authority and participation | A governed change needs its applicable authorization and actual performers, while sponsorship and attendance are weaker facts. |
 | Time | Observation timing must fit the receiving decision, while delay can make sources and alternatives stale. |
-| Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |
+| Attribution | A decision to retain a working arrangement can be justified while the effect of one element remains open. Removing that element may depend on precisely that effect. |
 | Revision locality | A defeated claim should reopen its owner and affected dependents, while bundled rollout invites whole-programme repair. |
 

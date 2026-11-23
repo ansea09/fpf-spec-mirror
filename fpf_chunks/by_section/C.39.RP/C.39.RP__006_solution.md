@@ -6,12 +6,12 @@ section_id: "C.39.RP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:4 — Solution"
-line_start: 89169
-line_end: 89209
+line_start: 89172
+line_end: 89212
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

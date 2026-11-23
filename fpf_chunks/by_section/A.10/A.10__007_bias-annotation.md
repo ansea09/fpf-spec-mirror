@@ -6,12 +6,12 @@ section_id: "A.10:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__007_bias-annotation.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6.1 — Bias-Annotation"
-line_start: 28113
-line_end: 28116
+line_start: 28118
+line_end: 28121
 dependencies:
   - "A.10"
   - "A.13"

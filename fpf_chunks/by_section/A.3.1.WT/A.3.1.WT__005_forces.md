@@ -6,7 +6,7 @@ section_id: "A.3.1.WT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__005_forces.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:3 — Forces"
@@ -31,5 +31,5 @@ keywords:
 | Observability | Later decisions need traceable observations, while instrumentation and reporting can burden or distort Work. |
 | Capability | Performer ability can change the result, while training or one success invites premature capability claims. |
 | Failure value | Failure can localize a correction, while a preference for a favourable narrative can hide it. |
-| Evidence reach | Several occurrences can strengthen a local account, while they may not establish contribution, causality, transfer, or practical worth. |
+| Evidence reach | Several occurrences can establish who used a technique and what resulted on those occasions. Transfer, practical worth or attribution of a change to the technique may require further grounds. |
 

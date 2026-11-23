@@ -6,12 +6,12 @@ section_id: "C.33:End"
 section_title: "C.33:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__014_c-33-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:End — C.33:End"
-line_start: 85186
-line_end: 85187
+line_start: 85187
+line_end: 85188
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

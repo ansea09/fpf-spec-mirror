@@ -6,12 +6,12 @@ section_id: "C.3.1:End"
 section_title: "C.3.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__017_c-3-1-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:End — C.3.1:End"
-line_start: 58036
-line_end: 58037
+line_start: 58029
+line_end: 58030
 dependencies:
   - "A.1"
   - "A.11"

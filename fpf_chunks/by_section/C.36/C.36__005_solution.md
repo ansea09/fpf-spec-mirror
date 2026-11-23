@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 85831
-line_end: 86005
+line_start: 85832
+line_end: 86008
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,15 +65,17 @@ First state the cultural-evolution case in ordinary language: which practice and
 
 An admitted System may perform dated Work, and that Work may enact a Method. Work and Method families may organize comparison. Variants may be preserved, transmitted, selected, suppressed, or refreshed through canon or memory epistemes, recognition and selection relations, mediation systems or architectures, measurement or visibility relations, and publication forms.
 
-These are separate facts. For every claimed Work occurrence, recover each performer through A.13 and let A.15.1 independently admit the Work. Add assignment refs and F.6 when precise assignment-bound attribution is represented; this does not make the A.13 assignment basis optional for actual Work. Keep families, assignments, Methods, epistemes, and selected structures distinct from the performers and Work.
+These are separate facts. For a particular occurrence asserted as `U.Work`, recover each performer through A.13 and let A.15.1 independently admit the Work. Add assignment refs and F.6 when precise assignment-bound attribution is represented; this does not make the A.13 assignment basis optional for actual Work. Keep families, assignments, Methods, epistemes, and selected structures distinct from the performers and Work.
 
 Cultural-evolution engineering proposes or performs a deliberate change to one or more of these relations. Proposal, performed Work, actual transformation, measured effect, responsibility, authority, selected structure, and publication are different claims. Assert each as obtaining only when its own predicate is satisfied.
 
 Ask what would count as the change for the decision at hand. A decision to adopt a method may already be enough to schedule its introduction. A first execution can settle whether someone used it on that occasion. To entrust another group with the work, establish what the recipients can do with the tools, instruction and help they will actually have. If the practice includes an adviser or a shared tool, successful use with that support can meet the commission. A claim about performing without that help calls for evidence under the changed condition.
 
+For continuation through a change of participants, identify the operation or result that must persist and the variation the receiving use allows. Work through the occasions for which the practice is to remain possible. Check which permissions, capabilities and material the successors can use, which must be renewed, and whether earlier work leaves them available in time. The same participants need to remain involved only if that is part of the claim or a necessary condition. To report past continuation, establish the occurrences and links that the stated criterion requires.
+
 To trace transmission, identify the operation or choice that a recipient retains, the source they obtained it from, and its use in their own work. Decide what may vary across performances while preserving that operation. To establish transmission from a particular source, identify something that links the receiving work to that source. One well-documented handoff can suffice. Similar performances can also come from separate invention or a common third source. A work record can identify an immediate teacher, peer or publication while leaving the first inventor unknown. Seek that earlier history when the claim depends on it. Evidence of use may already suffice to continue the practice.
 
-For a claim about a group, specify whom or what you are counting, over what period and what qualifies as use. Count plays as play events. To count people or teams reached, count distinct recipients. For a count of users, establish which recipients performed the relevant work. If estimating a proportion from a sample, explain how the sampled work represents the population and how much uncertainty matters to the decision. Date the work as well as the arrival of its evidence. A growing file of confirmations may document earlier uses. When a network expands, the number of users can rise while the proportion using the method stays the same. Give the counts and their populations. To establish a change among the original participants, follow those participants over comparable opportunities to use the method.
+For a claim about a group, specify the unit, period and criterion for use. Count plays as play events. For a count of people or teams, establish how many distinct recipients or users meet the criterion. If estimating a proportion from a sample, explain how the observations represent the population and how much uncertainty matters to the decision. Date the work as well as the arrival of its evidence. A growing file of confirmations may document earlier uses. When a network expands, the number of users can rise while the proportion using the method stays the same. For a claim about continuing members, compare their opportunity and use across the periods. Linked records can establish individual histories. Counts and known entries or departures can also settle a question about the group. If seven ensembles in all were eligible across two seasons and five distinct ensembles performed in each, at least three performed in both. A claim about one named ensemble, or about who transmitted the practice to whom, needs evidence of that particular connection.
 
 For a target stated as a minimum, count the confirmed qualifying cases. Reaching the minimum settles that criterion. To decide whether it has been missed, include unreported cases that could have qualified during the period. For a deadline still ahead, include uses that could still take place. If even an upper bound falls short, the target is out of reach. Where several groups need the same remaining teacher or session, check which uses can take place together before promising the target can still be met. If the evidence settles neither outcome, report the confirmed count and what could change the decision.
 

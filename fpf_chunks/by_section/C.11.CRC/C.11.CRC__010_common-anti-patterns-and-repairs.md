@@ -6,12 +6,12 @@ section_id: "C.11.CRC:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__010_common-anti-patterns-and-repairs.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:8 — Common Anti-Patterns and Repairs"
-line_start: 60291
-line_end: 60302
+line_start: 60286
+line_end: 60297
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 | Candidate value is constant across configurations | Name `S0`, interactions, horizon, and affected Systems. |
 | Average benefit chooses the next element | Preserve result and resource coordinates and return the comparison to the governing choice Method. |
 | Derivative times step equals finite contribution | State smoothness region and remainder or perform the finite comparison. |
-| Shadow price equals asset value | Keep the local active-constraint result and model the finite intervention separately. |
+| A solver multiplier is taken as the value of an asset | Establish which change in the optimum the multiplier measures or bounds, then compare feasible configurations for the proposed intervention. |
 | Functional stationarity proves physical optimality | Establish the physical/domain claim and its required sufficiency and validation grounds. Use `C.29` when the mathematical correspondence or its transfer limits remain unresolved. |
 | Variational inference is calculus of variations or “learning” | Recover the target distribution, approximation family, objective, returned approximation, and diagnostics. |
 | More information is already more capability or value | Treat information as a decision input and test the target result separately. |

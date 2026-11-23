@@ -6,12 +6,12 @@ section_id: "A.6.F:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__012_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:11 — SoTA-Echoing"
-line_start: 23830
-line_end: 23839
+line_start: 23834
+line_end: 23844
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,6 +72,7 @@ keywords:
 | Practice or source line | A.6.F adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
 | ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adapt view and concern discipline to functional architecture as a structure-kind view over an architecture claim. | Functional architecture expands through C.30 and C.30.ASV rather than becoming a separate ontology. | ISO terminology does not mint `U.Function` or turn diagrams into architecture. |
+| [Cummins, *Functional Analysis* (1975), pp. 760–761](https://mechanism.ucsd.edu/~bill/teaching/w10/cummins.functions.1975.pdf) and [Gero and Kannengiesser, *The situated function–behaviour–structure framework* (2004), pp. 374–375](https://www.johngero.com/publications/2004/04GeroKannengDesignStud.pdf#page=2) | Use the first account to explain a capacity of a whole through the organized capacities of its parts. In a design, distinguish a purpose, the behavior expected to serve it and behavior derived from the proposed structure. | Select the capacity or use to explain before deciding what the part contributes. Compare the arrangement's behavior with what the user needs. | A design analysis can ground a prediction. Attribution to a bearer in one actual run depends on evidence for that run. |
 | INCOSE systems-engineering and MBSE functional-analysis practice | Adopt the practical need to separate function, requirement, behavior, physical allocation, and verification claims. | A function-like phrase can guide architecture work only after capability or effect, allocation, evidence, and verification claims are separated. | Functional analysis practice is not evidence sufficiency, assurance, gate passage, or project decision by itself. |
 | ISO/IEC 25010 quality-model practice | Treat functionality or functional suitability as quality wording when it evaluates a product or service. | Assign quality-like uses to C.25, C.16, or C.16.Q before they carry adequacy claims. | "Functionality" is not a free adequacy score and not an `ArchitectureOf@Context` claim or selected functional view. |
 | C.29 mathematical-lens discipline | Use domain, codomain or relation domain, preserved and lost structure, admissible use and stop condition when a mathematical lens account is needed. | Resolve the remaining representation, transfer or inference question; retain an adequate mathematical use without adding a second account. | Mathematical functions, objectives and value functionals do not establish holon purpose, evidence, causal proof, assurance or a decision by themselves. |

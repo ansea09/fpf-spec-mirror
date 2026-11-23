@@ -6,12 +6,12 @@ section_id: "C.39.SA:End"
 section_title: "C.39.SA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__014_c-39-sa-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:End — C.39.SA:End"
-line_start: 88309
-line_end: 88310
+line_start: 88312
+line_end: 88313
 dependencies:
   - "B.1"
   - "B.5.MR"

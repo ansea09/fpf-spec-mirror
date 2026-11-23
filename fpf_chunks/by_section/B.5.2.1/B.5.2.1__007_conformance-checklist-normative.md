@@ -6,12 +6,12 @@ section_id: "B.5.2.1:6"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__007_conformance-checklist-normative.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:6 — Conformance Checklist (normative)"
-line_start: 52640
-line_end: 52672
+line_start: 52633
+line_end: 52665
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,7 +33,7 @@ keywords:
 
 **CC‑B.5.2.1‑2 (Instrumented generation).** Step 2 of **B.5.2** **SHALL** either (a) invoke *NQD‑Generate* or (b) justify a Context‑specific generator of equivalent effect (diversity + quality + novelty with measurable **Characteristics**).
 
-**CC-B.5.2.1-3 (Diversity coupling).** Whenever a `D` reading is used, it SHALL be `ΔDiversity_P` computed against the current candidate Pool using the C.17 definition of `Diversity_P` under the same Context, CharacteristicSpace, kernel and TimeWindow.
+**CC-B.5.2.1-3 (Diversity coupling).** An addition score `D` SHALL identify the candidate and retained baseline to which its `ΔDiversity_P` applies, with the common measurement basis required by C.17:5.1. For the score used in a past decision, recover the baseline used then. For a claim about the net change from several admissions or a replacement, account for the resulting membership on both sides of that comparison.
 
 **CC-B.5.2.1-Eligibility.** The MethodDescription SHALL state applicable input/seed conditions. Any actual generation Work SHALL meet its independently governed authority, assignment, scope/window and permission conditions. Assess each generated candidate’s must-constraints before admitting it to the comparison/front that consumes ConstraintFit; a result about that candidate SHALL NOT be a precondition for creating it. Preserve exclusions and their reasons.
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 67044
-line_end: 67062
+line_start: 67048
+line_end: 67066
 dependencies:
   - "A.10"
   - "A.15"

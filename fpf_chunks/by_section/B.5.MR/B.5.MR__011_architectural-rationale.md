@@ -6,12 +6,12 @@ section_id: "B.5.MR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__011_architectural-rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:10 — Architectural Rationale"
-line_start: 51077
-line_end: 51080
+line_start: 51070
+line_end: 51073
 dependencies:
   - "B.1"
   - "B.5.FM"

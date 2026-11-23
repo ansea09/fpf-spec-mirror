@@ -6,12 +6,12 @@ section_id: "A.15.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__004_forces.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:3 — Forces"
-line_start: 31311
-line_end: 31320
+line_start: 31316
+line_end: 31325
 dependencies:
   - "A.15.1"
   - "A.15.2"

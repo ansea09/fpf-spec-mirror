@@ -6,12 +6,12 @@ section_id: "C.39:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__006_archetypal-grounding.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:5 — Archetypal Grounding"
-line_start: 87468
-line_end: 87540
+line_start: 87471
+line_end: 87543
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

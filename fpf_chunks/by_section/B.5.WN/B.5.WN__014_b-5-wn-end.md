@@ -6,12 +6,12 @@ section_id: "B.5.WN:End"
 section_title: "B.5.WN:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__014_b-5-wn-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:End — B.5.WN:End"
-line_start: 49196
-line_end: 49197
+line_start: 49189
+line_end: 49190
 dependencies:
   - "A.15.10"
   - "A.15.11"

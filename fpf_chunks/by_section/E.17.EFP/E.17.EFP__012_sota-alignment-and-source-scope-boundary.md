@@ -6,12 +6,12 @@ section_id: "E.17.EFP:11"
 section_title: "SoTA Alignment and Source-Scope Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__012_sota-alignment-and-source-scope-boundary.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:11 — SoTA Alignment and Source-Scope Boundary"
-line_start: 116228
-line_end: 116248
+line_start: 116232
+line_end: 116252
 dependencies:
   - "A.10"
   - "A.15"

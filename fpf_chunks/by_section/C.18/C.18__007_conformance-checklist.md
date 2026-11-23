@@ -6,12 +6,12 @@ section_id: "C.18:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__007_conformance-checklist.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:5 — Conformance Checklist"
-line_start: 64036
-line_end: 64054
+line_start: 64040
+line_end: 64058
 dependencies:
   - "A.15"
   - "A.19"
@@ -45,7 +45,7 @@ keywords:
 - `CC-C18-1` Before generation, archive update, or front publication, name and pin the descriptor, characteristic, distance, and family-coordinate bases used by that operation.
 - `CC-C18-2` Archive and front returns are separate from a selected-set result unless one is explicitly declared from them through `G.5`.
 - `CC-C18-3` Telemetry remains telemetry unless a declared policy promotes it into the comparator, dominance set, or selected-set criteria and the governing record names the affected intended archive/front uses or values, or the checked loci when none worsened, together with the authority that admits the promotion and any trade-off.
-- `CC-C18-4` For archive use, record the applicable retention policy, retained exploration value, lineage, and edition pins. When a stepping-stone use is claimed, record that use and its basis.
+- `CC-C18-4` For a reusable record of retained exploration, record the applicable retention policy, retained exploration value, lineage, and edition pins. A report confined to membership can use a sufficient account of the contents at the requested time. Support a claim about the grounds actually used in a selection with evidence of that decision. For proposed retention, justify the prospective use when the decision depends on it. When a stepping-stone use is claimed, record that use and its basis.
 - `CC-C18-5` Use C.30 family patterns before making an architecture move with a candidate.
 - `CC-C18-6` Use C.36 for cultural-evolution claims about variants, and term-bridge patterns when durable label or bridge work is needed.
 - `CC-C18-7` Refresh uses `G.11` with the smallest affected archive, front, descriptor, edition, or lineage locus.

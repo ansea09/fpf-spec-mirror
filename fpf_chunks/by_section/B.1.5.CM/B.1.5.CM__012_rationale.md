@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__012_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:10 — Rationale"
-line_start: 44935
-line_end: 44940
+line_start: 44928
+line_end: 44933
 dependencies:
   - "A.3.1"
   - "B.1.5"

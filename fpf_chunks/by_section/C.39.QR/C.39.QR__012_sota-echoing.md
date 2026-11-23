@@ -6,12 +6,12 @@ section_id: "C.39.QR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__012_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:11 — SoTA-Echoing"
-line_start: 87838
-line_end: 87853
+line_start: 87841
+line_end: 87856
 dependencies:
   - "C.11.DUA"
   - "C.39"

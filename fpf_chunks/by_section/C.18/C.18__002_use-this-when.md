@@ -6,12 +6,12 @@ section_id: "C.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_use-this-when.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:0 — Use This When"
-line_start: 63803
-line_end: 63820
+line_start: 63805
+line_end: 63822
 dependencies:
   - "A.15"
   - "A.19"
@@ -44,9 +44,9 @@ keywords:
 
 Use this pattern when generating or retaining variants raises a practical question: which candidates belong on the current front, which should remain available for exploration, and what changed in the basis for those decisions? A retained stepping stone can matter even when another candidate currently dominates it.
 
-**First useful move.** Identify the eligible population, the comparison or retention rule and what the recipient wants back. All nondominated candidate identities, the objective values they realize and one candidate per value can give different answers. If missing information affects only some memberships, report the settled part and the decisions still open. For an exploration archive, give the candidates retained and their retention reasons.
+**First useful move.** Start with what the recipient wants back. For archive membership, establish what the contents at the requested time support. An authenticated entry can settle the presence of one candidate. A complete list needs grounds for its coverage. To explain why a candidate was kept, establish what governed that decision. For a front, identify the eligible population and comparison rule. All nondominated candidate identities, their distinct objective values and one candidate per value can give different answers. If only some memberships are settled, report them and identify what remains open.
 
-When a retention reason is not yet supportable, use B.5:4.1.2 on the candidate, source or failed attempt to develop what later inquiry or action it could enable and under which conditions. Compare that attainable contribution and the retention commitment through C.11.DUA:4.2–4.2.1; use an already adequate basis directly. C.19:4.0 develops this connection when the question concerns treatment of a live pool. Return the supported archive-membership decision, or the particular retention claim still open and the attainable contribution needed to settle it.
+When deciding what to keep and the prospective reason for retention is still unclear, use B.5:4.1.2 on the candidate, source or failed attempt to develop what later inquiry or action it could enable and under which conditions. Compare that attainable contribution and the retention commitment through C.11.DUA:4.2–4.2.1; use an already adequate basis directly. C.19:4.0 develops this connection when the question concerns treatment of a live pool. Return the supported archive-membership decision, or the particular retention claim still open and the attainable contribution needed to settle it.
 
 An ordinary set description and explanation can finish the work. Use a reusable record when another use needs its references, editions or history. Generation alone can return a variant set without creating an archive or front; use C.40 when constructing or changing the material itself is the missing work.
 

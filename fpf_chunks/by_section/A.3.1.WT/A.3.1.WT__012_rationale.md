@@ -6,7 +6,7 @@ section_id: "A.3.1.WT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__012_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:10 — Rationale"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.WT:10 - Rationale
 
-Actual Work is the shared empirical base, but coherence, fit, transfer, worth, capability, contribution, and causality are different claims. Keeping them separate lets the same occurrence inform several decisions without allowing one decision to inherit another's conclusion.
+Actual Work gives these inquiries a common empirical base. A record can establish which operations took place and whose work they were. Its bearing on coherence, fit, transfer, worth, capability or the cause of a result depends on what each inquiry asks. The same occurrence can inform several decisions within those limits.
 
 Representative situations answer typical-use questions; discriminating situations test a stated difference or boundary. Select either or both according to the receiving question. Their selection does not create statistical representativeness or a universal situation taxonomy.
 

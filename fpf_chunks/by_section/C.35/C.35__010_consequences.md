@@ -6,12 +6,12 @@ section_id: "C.35:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__010_consequences.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:9 — Consequences"
-line_start: 85658
-line_end: 85673
+line_start: 85659
+line_end: 85674
 dependencies:
   - "A.22"
   - "A.6.M"

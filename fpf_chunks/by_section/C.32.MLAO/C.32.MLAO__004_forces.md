@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__004_forces.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:3 — Forces"
-line_start: 82810
-line_end: 82819
+line_start: 82812
+line_end: 82821
 dependencies:
   - "A.10"
   - "A.19.CPM"

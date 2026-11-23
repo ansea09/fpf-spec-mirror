@@ -6,12 +6,12 @@ section_id: "C.39.MF:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__002_use-this-when.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:0 — Use This When"
-line_start: 88536
-line_end: 88559
+line_start: 88539
+line_end: 88562
 dependencies:
   - "A.15.6"
   - "A.3.1"

@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 123203
-line_end: 123622
+line_start: 123207
+line_end: 123626
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -219,7 +219,7 @@ SourceComposedResultClaim within result or loop episteme claim content:
   sourceContributionDescriptionRefs[1..*]
 ```
 
-The two named forms organize claims within the claim content of a result or loop episteme; a table row or serialization may publish them but does not become the claim.
+The two named forms organize claim content in a result or loop episteme. A table can publish that content. In a `SourceComposedResultClaim`, recover what content each decision accepts for the stated use and how that content supports the identified result, individually or together with other sources. The referenced decisions and descriptions may already supply those connections. Where two readings of the lists would assign different grounds to a disputed conclusion, state the missing connection or leave that attribution open. A single decision can cover several contributions, and several sources can jointly supply a premise. List position supplies a pairing only if the record defines that convention.
 
 A `SourceComposedResultClaim` uses exactly one of `resultClaimNodeRef` and `resultClaimEpistemeRef`. `resultClaimNodeRef` is the C.2.1:4.2.5 `ClaimAddress` pair: an exact episteme-edition reference and an intrinsic claim identity declared by that edition's ClaimGraph. Resolve the edition and then require exactly one claim with that identity. An unresolved edition, absent or non-unique identity, or display-only node token leaves the address unresolved.
 
@@ -444,7 +444,7 @@ Accepted `SoTA` is the working external front only when assigned by the object-u
 
 When an evaluation-result change depends on source use, source currentness, or a dated external front, the loop record cites the exact accepted source contribution and bounded use, including a `G.2` pack result when that route was used, or the relevant `G.11` currentness result, with the edition or date needed for replay. `E.23` carries that reference; it does not make the source-use or currentness decision.
 
-When several source anchors are used, retain each accepted source-use decision and contribution. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. Relate the changed result claim to those decisions and contributions and re-evaluate the changed object version. Use `SourceComposedResultClaim` within a separately constituted result episteme when the receiving use needs that account.
+When several source anchors are used, retain what each accepted decision permits the practitioner to take from its source and how that content enters the result. If a source changes, follow those connections to the affected conclusion. A conclusion with independently sufficient grounds can stand even while a particular attribution remains unresolved. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. Relate the changed result claim to those decisions and contributions and re-evaluate the changed object version. Use `SourceComposedResultClaim` within a separately constituted result episteme when the receiving use needs that account.
 
 For NQD and OEE, use `E.23` to change one object version or candidate and re-evaluate it on declared `Q` coordinates. Use `C.17` for novelty, diversity, descriptors, and distances, `C.18` for archive and front insertion, `C.19` for pool policy, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 

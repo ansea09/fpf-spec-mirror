@@ -6,12 +6,12 @@ section_id: "B.5.WN:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__007_bias-annotation.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:6 — Bias-Annotation"
-line_start: 49125
-line_end: 49130
+line_start: 49118
+line_end: 49123
 dependencies:
   - "A.15.10"
   - "A.15.11"

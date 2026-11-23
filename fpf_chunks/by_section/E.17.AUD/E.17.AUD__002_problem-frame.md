@@ -6,12 +6,12 @@ section_id: "E.17.AUD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__002_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:1 — Problem frame"
-line_start: 117023
-line_end: 117040
+line_start: 117027
+line_end: 117044
 dependencies:
   - "A.16.0"
   - "A.7"

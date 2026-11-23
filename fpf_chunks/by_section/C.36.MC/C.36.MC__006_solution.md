@@ -6,12 +6,12 @@ section_id: "C.36.MC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:4 — Solution"
-line_start: 96488
-line_end: 96598
+line_start: 96491
+line_end: 96601
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -103,7 +103,7 @@ Return `revise` for the changed receiving conditions. The original two-case test
 
 **Recover the reason for the way before preserving its form.** Trace the available explanation from its inputs, through the operations and their dependencies, to the needed result. Ask what each consequential operation makes possible, which conditions must remain true, and which features belong only to the demonstrated situation. A condition protecting the result is not interchangeable with the historical choice of an instrument or presentation. If the source or a competent contributor cannot supply a necessary reason, retain that gap. Do not turn permission to improvise into missing domain knowledge. A.3.2.DE supplies development of the needed explanation; C.39.MF, C.39.RP, C.39.RQ, A.3.1.DR, A.3.1.QM, C.32.MWA.PP, B.1.5.CM and C.39 supply construction and comparison when the way itself is missing.
 
-**Construct a bounded adaptation from the changed condition.** Compare the receiving task with the demonstrated one. Preserve the requirements and dependencies that apply; alter the operation, allocation, instrument or support whose condition changed. Follow the proposed replacement forward to its result and backward to its inputs, preparation, participants and shared resources. A simpler local action may move work to a provider or create preparation and cleanup elsewhere. If two contributions must be combined, make the result of the first usable by the second and check the joint conditions; compatible names do not establish this. Use C.39.RQ and C.32.MWA.PP for the situated alternative and B.1.5.CM/B.1.5 only when claiming a composite Method. A missing input-producing operation calls for that contribution or a stop, not an invented claim that the alternative works.
+**Construct a bounded adaptation from the changed condition.** Compare the receiving task with the demonstrated one. Preserve the requirements and dependencies that apply; alter the operation, allocation, instrument or support whose condition changed. Follow the proposed replacement forward to its result and backward to its inputs, preparation, participants and shared resources. A simpler local action may move work to a provider or create preparation and cleanup elsewhere. Recover how the contributions together produce the required result. When one operation uses the result of another, make it available in the form and at the time the receiving operation needs. Simultaneous operations can instead require compatible timing or independent judgements about the same object. When provision is shared, establish that it suffices for the combination. Use C.39.RQ and C.32.MWA.PP for the situated alternative and B.1.5.CM/B.1.5 only when claiming a composite Method. A missing input-producing operation calls for that contribution or a stop, not an invented claim that the alternative works.
 
 **Give the recipient a usable way to make the same decision.** Explain a consequential choice and contrast it with a plausible wrong choice. Let the recipient recover the reason, construct or select the next action and follow its consequence in a representative task. Where learning is needed, obtain a development operation appropriate to the holder and the required later performance. It must supply the conditions, practice or other learning operation, feedback and variation needed for that change, together with usable support. Retain the mechanism's human, organizational or technical applicability rather than treating every recipient as a human learner. The feedback must identify the failed interpretation, operation or condition, rather than merely provide a finished answer. The source may need a fuller explanation for preparation and a short reminder during performance. C.37.MP preserves the necessary correspondence between those uses; A.15.8.MS configures their availability. Effort allocated to a probe does not also establish provision for explanation repair, any needed teacher preparation and feedback, or later maintenance. When that provision is missing, obtain a feasible allocation or another qualified contributor, reduce the offer, or retain the supported arrangement while deferring expansion. The teaching activity, material and acquired capability remain different results.
 

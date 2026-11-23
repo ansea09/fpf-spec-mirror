@@ -6,7 +6,7 @@ section_id: "A.3.1.FT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__005_forces.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:3 — Forces"
@@ -27,7 +27,7 @@ keywords:
 | Local usefulness | A narrow fit result can guide current Work, while a broader transfer claim needs further support. |
 | Unlike situations | Difference can reveal a boundary, while too many simultaneous changes defeat interpretation. |
 | Method identity | Adaptation may be necessary, while semantic change can create a different variant. |
-| Natural Work | Workplace evidence has practical relevance, while conditions and contribution are less controlled. |
+| Natural Work | Workplace evidence shows how the arrangement operated in context. Some enabling conditions and concurrent changes may have gone unrecorded. |
 | Capability and support | They can determine outcomes, while their presence is easily attributed to the Method. |
 | Positive and negative evidence | Success and failure both matter, while selective reporting favours one direction. |
 | Decision speed | Teams need a bounded answer, while missing Work or comparability must remain a reason to stop. |

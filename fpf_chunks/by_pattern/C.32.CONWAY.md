@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.CONWAY.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
-line_start: 82271
-line_end: 82706
+line_start: 82275
+line_end: 82708
 dependencies:
   - "A.10"
   - "A.12"
@@ -121,9 +121,8 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       influenceSourceArchitectureClaimRef?: omitted — the obtaining relation and current structure are enough for this use
       structureKindRef: BatchAndEvidenceResponsibilityStructure
       selectedStructureRef: BatchLineSharedEvidenceStructure@Current
-      contributionToCandidatePressure: may prevent independent field-module replacement
+      contributionToCandidatePressure: shared qualification may require retesting other modules after one is replaced
       architectureCharacteristicPressure: provisional independent-change pressure
-      relationFunctionClaimRef: C.30 plus A.22
       sourceReturnCondition: missing-governor — recover the direct architecture-influence kind and predicate
   transformedHolonRef: ProductFamily@Current
   transformedArchitectureRelationRef: C.30 ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)
@@ -133,7 +132,6 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       selectedStructureRef: FieldModuleBoundaryStructure@Current
       requiredStructureContribution: permit independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
-      relationFunctionClaimRef: C.30 plus A.22
   correspondenceClaims[]:
     - correspondenceId: BatchEvidence-to-FieldModulePressure
       influenceSourceArchitectureRelationRef: C.30 ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)
@@ -184,9 +182,9 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     influenceSourceArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for actual, candidate, required, desired, or expected content not carried by an obtaining relation
     structureKindRef:
     selectedStructureRef:
-    contributionToCandidatePressure:
+    contributionToCandidatePressure: how this source condition could affect the candidate and under what conditions
     architectureCharacteristicPressure:
-    relationFunctionClaimRef:
+    relationFunctionClaimRef?: exact defining or constraining ClaimGraph if this use depends on its identity
     sourceReturnCondition?:
   transformedHolonRef:
   transformedArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
@@ -194,9 +192,9 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   transformedSelectedStructureMap[]:
     structureKindRef:
     selectedStructureRef?:
-    requiredStructureContribution:
+    requiredStructureContribution: what the proposed arrangement must make possible
     architectureCharacteristicPressure:
-    relationFunctionClaimRef:
+    relationFunctionClaimRef?: exact defining or constraining ClaimGraph if this use depends on its identity
     sourceReturnCondition?:
   evolutionWindowRef?: include when the intended claim or use depends on time
   evidenceRefs?:
@@ -289,7 +287,7 @@ The first result can be a candidate, a supported reason to retain the arrangemen
 ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context <: U.Episteme:
   entityOfConcernRef: exactArchitectureInfluenceOrCorrespondenceRelationOccurrenceRef
   entityOfConcernKindRef: exactArchitectureInfluenceOrCorrespondenceRelationKindRef
-  relationFunctionClaimRef: subject pattern of that exact relation kind and occurrence
+  relationFunctionClaimRef: the defining or constraining ClaimGraph for this exact influence or correspondence predicate
   influenceSourceArchitectureRelationRef: one exact obtaining C.30 ArchitectureRelation
   influenceSourceHolonRef: the exact architectureBearingHolonRef participant of influenceSourceArchitectureRelationRef
   influenceSourceSelectedStructureRef: the exact selectedArchitectureStructureRef participant of influenceSourceArchitectureRelationRef

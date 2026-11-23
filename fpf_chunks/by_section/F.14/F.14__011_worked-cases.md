@@ -6,12 +6,12 @@ section_id: "F.14:10"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__011_worked-cases.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:10 — Worked cases"
-line_start: 132209
-line_end: 132278
+line_start: 132213
+line_end: 132282
 dependencies:
   - "A.10"
   - "A.15.1"

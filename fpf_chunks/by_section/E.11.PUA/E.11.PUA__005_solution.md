@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:4 — Solution"
-line_start: 110378
-line_end: 110853
+line_start: 110382
+line_end: 110857
 dependencies:
   - "A.13"
   - "A.15"
@@ -97,7 +97,7 @@ At a citation, use the quoted or explained material directly when it is sufficie
 
 At an application reference, distinguish a required dependency, a conditional next move and one possible way. Follow a branch when it is required or chosen and its conditions hold; needing the result does not make every suggested Method compulsory. Reuse an adequate result after checking that it answers the present question under the current conditions.
 
-If the contribution is missing, obtain the relevant explanation, apply what is needed and bring its result back to the work that needs it. Reading a title or naming the pattern supplies no such result. An already understood Method need not be read again merely because it is referenced.
+If material is missing, identify what would settle the receiving question. A publication may already contain the required grounds or give a Method for obtaining them. Use a known Method directly where you can do the work. Where the order calls for a particular delivery, performance or authorized judgement, establish that it took place on the required terms. [A.15.9:4.1](#a15941---follow-the-nine-step-bounded-result-sequence) guides that choice.
 
 A reference to comparison, for example, is satisfied by an adequate comparison of the actual alternatives and conditions, not by a list of patterns to read or by choosing a familiar alternative. A direction to reuse an existing sufficient arrangement concerns that arrangement's adequacy for the receiving work; it is not permission to stop because several relevant pages have been read.
 

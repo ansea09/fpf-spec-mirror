@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.NP.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
-line_start: 93939
-line_end: 94088
+line_start: 93942
+line_end: 94091
 dependencies:
   - "C.18"
   - "C.19"

@@ -6,12 +6,12 @@ section_id: "F.0.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__006_archetypal-grounding.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:5 — Archetypal Grounding"
-line_start: 126817
-line_end: 126869
+line_start: 126821
+line_end: 126873
 dependencies:
   - "A.2.4"
   - "C.2.1"

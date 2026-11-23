@@ -6,12 +6,12 @@ section_id: "E.11.PFP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__010_bias-annotation.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:6 — Bias-Annotation"
-line_start: 111806
-line_end: 111817
+line_start: 111810
+line_end: 111821
 dependencies:
   - "A.3.2"
   - "C.29"

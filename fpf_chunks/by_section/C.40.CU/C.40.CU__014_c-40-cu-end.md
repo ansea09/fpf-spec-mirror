@@ -6,12 +6,12 @@ section_id: "C.40.CU:End"
 section_title: "C.40.CU:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__014_c-40-cu-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:End — C.40.CU:End"
-line_start: 91196
-line_end: 91197
+line_start: 91199
+line_end: 91200
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

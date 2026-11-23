@@ -6,12 +6,12 @@ section_id: "C.39.SA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__011_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:10 — Rationale"
-line_start: 88297
-line_end: 88300
+line_start: 88300
+line_end: 88303
 dependencies:
   - "B.1"
   - "B.5.MR"

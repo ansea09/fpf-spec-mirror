@@ -6,12 +6,12 @@ section_id: "E.23.CDI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__013_relations.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:12 — Relations"
-line_start: 124027
-line_end: 124043
+line_start: 124031
+line_end: 124047
 dependencies:
   - "A.15.1"
   - "A.2.2"

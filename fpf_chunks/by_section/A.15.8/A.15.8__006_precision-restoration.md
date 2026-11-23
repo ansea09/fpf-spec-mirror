@@ -6,12 +6,12 @@ section_id: "A.15.8:5"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__006_precision-restoration.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:5 — Precision restoration"
-line_start: 33167
-line_end: 33183
+line_start: 33172
+line_end: 33188
 dependencies:
   - "A.1"
   - "A.10"

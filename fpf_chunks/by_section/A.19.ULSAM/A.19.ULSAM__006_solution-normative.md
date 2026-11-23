@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:4"
 section_title: "Solution (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__006_solution-normative.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:4 — Solution (normative)"
-line_start: 40204
-line_end: 40306
+line_start: 40209
+line_end: 40311
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -74,7 +74,7 @@ Each input is declared separately for Fold_Γ and FoldEligibility_Γ. References
 | Fold_Γ result | ContributorSetSlot | Set of contributor entries carrying ReadingContent used in that aggregate | ByValue; 0..1 set, optional |
 | FoldEligibility_Γ result | GuardDecision | Eligibility judgment under the predicates below: pass, degrade or abstain | ByValue; 1 on completed evaluation |
 
-An argument's **bindingPredicate** holds when that application uses the resolved value in the row's stated role: as offered measures, acceptance/use conditions, fold/admissibility declaration or evidence override. The AggregatedMeasureSlot **bindingPredicate** holds when that Fold_Γ application returns the measure it computes using its bound effective fold and admitted contributors. The ContributorSetSlot binding holds only when the same application also returns that contributor set; Law 5 requires both its subset condition and equality of the aggregate to the effective fold of that subset. An omitted contributor result creates no contributor binding. The guard result binds when that FoldEligibility_Γ evaluation returns its determined judgment. A.6.1 governs binding identity and maximal continuous extent within the application, with result binding beginning at return.
+An argument's **bindingPredicate** holds when that application uses the resolved value in the row's stated role: as offered measures, acceptance/use conditions, fold/admissibility declaration or evidence override. The AggregatedMeasureSlot **bindingPredicate** holds when that Fold_Γ application returns the measure it computes using its bound effective fold and admitted contributors. A ContributorSetSlot result binds when the same application returns the entries it selected as operands of the fold. Law 5 requires their identity, admissibility and agreement with the returned value under the effective rule. An omitted contributor result creates no contributor binding. The guard result binds when that FoldEligibility_Γ evaluation returns its determined judgment. A.6.1 governs binding identity and maximal continuous extent within the application, with result binding beginning at return.
 
 **SlotIndex (derived projection).** Project the local designators, ValueKinds, designation modes and cardinalities above. Historical Slot names support CHR lookup; A.6.5 relation SlotSpecs add no operation meanings. The optional FoldTime_Γ extension is not a base operation or a prerequisite of ordinary folding.
 
@@ -94,7 +94,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
   2. **Scale‑lawfulness:** aggregation MUST be CSLC‑lawful and admissible under `CGSpecSlot.SCP`; ordinal arithmetic (e.g., means on ordinal ranks) is forbidden unless explicitly allowed by the relevant CSLC fragment.
   3. **Γ‑fold admissibility:** `GammaFoldSlot` MUST resolve to either `CGSpecSlot.Γ_fold` or a pinned override (CAL policy) -- never an implicit "implementation default".
   4. **Evidence‑gated folding:** if evidence is insufficient/unknown, folding MUST follow tri‑state guard behavior and MUST NOT silently coerce.
-  5. **Contributor accountability (when produced):** when `ContributorSetSlot?` is produced, it MUST be a subset of the admitted portion of `MeasureSetSlot`, and `AggregatedMeasureSlot` MUST be the result of applying the effective Γ‑fold to that contributor subset (no “hidden contributors”).
+  5. **Contributor accountability (when produced):** when `ContributorSetSlot?` is produced, it MUST identify exactly the entries selected as operands of this `Fold_Γ` application. They MUST belong to the admitted portion of `MeasureSetSlot`. Interpret their identities, multiplicities and any ordering or weights under the declared grouping and fold. Applying the effective Γ‑fold to those operands MUST yield `AggregatedMeasureSlot`.
   6. **No implicit UNM:** ULSAM MUST NOT silently normalize/rescale to “force comparability.” If establishing a compare‑on‑invariants surface requires UNM for the measures being folded, UNM MUST appear as a stage (Uses + pins) upstream; ULSAM itself remains folding‑only.
 
 * **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility/evidence):
@@ -128,7 +128,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
 - **Identify the fold and its governing conditions.** The fold is the aggregation rule; ΓFoldRef identifies the selected rule. `GammaFoldSlot` MUST be resolvable to `CGSpecSlot.Γ_fold` routing or a pinned override. A calculation can still have occurred without that citation, but its conformance and reuse basis remain unresolved until the rule is recovered.
 - **ULSAM is not normalization.** ULSAM does not establish comparability by itself: it does not normalize, rescale, or “align units” as a hidden convenience. If a compare‑on‑invariants surface is required, invoke UNM upstream and cite the effective pins in Audit.
 - **Keep separate measures when sufficient.** If separate measures answer the receiving question, keep them separate. Use `CPM` for a needed comparison and `SelectorMechanism` for a needed selection, under their declared partial-order and set-return rules. A fold can discard distinctions; state which distinctions the declared fold preserves and loses.
-- **Recover the actual contributors.** Existing input and calculation content may already establish the contributor subset; use the optional ContributorSet output when it supplies needed recoverability. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Conversely, copying the assertion about one box does not make two boxes or authorize counting its mass twice. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.
+- **Recover the actual contributors.** The bound input and the selection rule used in the calculation may already establish which entries the application folded. Use the optional ContributorSet output when it supplies needed recoverability. Suppose the maximum was taken over entries A = 5 and B = 3. Computing the maximum on A alone gives 5 again. An account of the original operands includes both entries. If the question is which entry attained the maximum, A answers it. An implementation may use an index to find the maximum over a specified collection. Which records it physically accessed is a separate question about the execution. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Conversely, copying the assertion about one box does not make two boxes or authorize counting its mass twice. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.
 - **Time-fold is a specialization, not a loophole.** The base ULSAM declares `Γ_timePolicy` and allows time-fold only via explicit windowing policy. If a project needs an explicit `FoldTime_Γ` operator, declare it with its additional operation and arguments, preserve inherited meanings and test the claimed extension under A.6.1 §4.8. The local `⊑⁺` label alone establishes no preservation result.
   - Use the suite lexicon token `GammaTimeRuleSlot` for the additional windowing rule input; do not overload `GammaFoldSlot` or invent a generic context input to carry time semantics.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.MV.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
-line_start: 60785
-line_end: 61052
+line_start: 60781
+line_end: 61048
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -51,7 +51,7 @@ Conformance, familiarity, one favourable occurrence or Method popularity alone d
 | side effect | A consequence beyond the primary intended result. Identify who may benefit or be harmed. | Distinguish an observed effect from a forecast, with the grounds and uncertainty of the forecast. |
 | opportunity cost | The benefit forgone from the best feasible alternative use of the scarce resource. State whose work or benefit is displaced. | Time spent is a burden. Its opportunity cost depends on what else could have been achieved in that time. |
 | reversibility | The conditions, time, information, and retained alternatives needed to undo or branch the choice. | A reversible tool setting does not make changed Method semantics, lost evidence, or organizational commitment reversible. |
-| evidence strength | The qualified reach of observations, reports, comparisons, contribution or causal claims for this cell and window. | It is not a confidence adjective detached from source, use, and missing basis. |
+| evidence strength | What observations, reports, comparisons or an applicable model establish about this option, recipient and time window. | Identify the grounds and the uncertainty that matters to the choice. |
 | practical-worth decision | A bounded `keep`, `revise`, `replace`, `branch`, or `stop` result with reasons, unresolved trade-offs, and what that action preserves, creates, or changes. | It transfers neither as universal Method rank nor as authority to implement the decision. |
 
 ### C.11.MV:1 - Problem Frame
@@ -90,7 +90,7 @@ Compare the feasible alternatives for the same receiving decision. Identify who 
 2. **Construct the current alternative set.** Include feasible Methods or variants, a support or capability change when it can address the same problem, the status quo, and stopping or the next-slot use of scarce Work when material. Preserve admission and candidate status for every alternative.
 3. **State the comparison basis.** Name the domain results and material burdens, side effects, opportunity costs and reversibility conditions, with the evidence supporting them. Identify required capability, System participation, Work and direct relations separately from the Characteristic values used in comparison. Add situation-specific characteristics where needed. State non-compensable stops and who bears each consequence. When the merits of a protective requirement are disputed, use §4.5; otherwise compare under the applicable criteria.
 4. **Assemble the available basis by alternative.** Use current A.3.1.QM qualification, credible domain estimates or judgement, and structural constraints alongside A.3.1.WT actual Work, A.3.1.CC corrections and A.3.1.FT fit or transfer results where available and relevant. Distinguish observed results from estimates, recover the source and conditions of each relied-on claim, and retain the missing basis that limits the decision. Absence of evidence for one alternative is not evidence of its inferiority.
-5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
+5. **Establish what the recipient can obtain from each feasible option.** Give the domain result and the grounds for expecting it. A record of Method completion, provision of support or a participant's assessment can answer a different part of the decision. Compare each attainable arrangement as a whole, including its benefits and burdens. When a decision concerns removing or replacing one element, work out what arrangements would then be possible and how their value would change, including effects on other elements (C.11.CRC). The change can have a different value in a different combination. Use C.28 wherever the comparison relies on a causal explanation.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
 8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Identify who will select the method in use and whether they can distinguish the relevant situations in time to act. For a guarantee, the course selected from the available information must work in every compatible situation covered by the commitment. For a risk-limited commitment, assess the resulting rule against its risk criterion. For an undertaking that covers concurrent work, also establish that the branch choices can be carried out together with the support actually available. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
@@ -153,7 +153,7 @@ Suppose the current report sources have an inspectable same-unit schema, the rev
 
 ##### C.11.MV:4.4.2 - An Unresolved Alternative with No Obtainable Probe
 
-A proposed automated conversion route might reduce later review effort, but its contribution remains unknown and no permitted test access is available before the current decision. The existing ALT-M route still supplies the required review under its stated conditions. Retain the automation proposal for a later comparison, stop the unsupported present change, and continue the qualified ALT-M course. That decision leaves the automation comparison unresolved. Further investigation can be chosen when its obtainable answer is worth the full burden; retaining the proposal creates no trial commitment.
+A proposed automated conversion route might reduce later review effort, but the attainable saving is unknown and no permitted test access is available before the current decision. The existing ALT-M route still supplies the required review under its stated conditions. Retain the automation proposal for a later comparison, stop the unsupported present change, and continue the qualified ALT-M course. That decision leaves the automation comparison unresolved. Further investigation can be chosen when its obtainable answer is worth the full burden; retaining the proposal creates no trial commitment.
 
 #### C.11.MV:4.5 - Appraise a Disputed Protective Requirement
 
@@ -165,7 +165,7 @@ Name the disputed protective rule and explain whether it should be retained or c
 
 ### C.11.MV:5 - Archetypal Grounding - Field Evidence and Alternatives
 
-The SSFD study reports 95 examples of evidenced individual benefits across 41 detailed workplace-project reports and distinguishes direct and indirect contribution. Those reports can supply domain-result, process, capability, burden, and evidence-strength positions for a worth comparison. They do not by themselves supply a common current alternative, comparable counterfactual Work, SSFD-only causality, or one universal decision.
+The SSFD study identified 95 instances of benefits in 41 project reports. Its investigators examined how use of the functional models connected with those benefits, directly or through subsequent work. This gives a decision maker reported outcomes, conditions of use and candidate explanations. To choose between two current arrangements, establish what each can deliver and at what burden. To estimate the effect of changing one element, establish what else would change with it and what supports that estimate.
 
 Project 11 supplies substantial reported outputs from one by-wire steering application; Project 32 supplies a representation difficulty. Preserve both. A practical-worth result may retain SSFD for one situation, revise its representation or support for another, or return missing alternative evidence. Do not average the difficulty and benefit counts into a score.
 
@@ -221,7 +221,7 @@ The receiving practice remains responsible for its Method repertoire and compati
 | one-score bias | Unlike results, burdens, and evidence are collapsed into one ranking. | Keep cells and non-compensable stops visible; use A.19 for non-trivial comparison. |
 | incumbent-evidence bias | Long history is treated as strong comparable evidence while candidate trials are discounted, or vice versa. | Qualify each source, situation, window, and gap symmetrically. |
 | fit-as-worth bias | A fit result becomes `keep`. | Add current alternatives, receiving consequences, burdens, and opportunity costs. |
-| success-as-causality bias | A favourable occurrence is attributed to the Method. | State association, contribution, causal basis, and missing counterfactual separately. |
+| success-as-causality bias | A favourable occurrence is attributed to the Method. | Establish what occurred under the whole arrangement. If the choice depends on what produced the result or what removing an element would change, qualify the evidence for that specific comparison. |
 | omitted-stop bias | Only active Method alternatives are compared. | Include status quo, stop, or next-slot Work when it changes the decision. |
 | capability-free bias | Training, expertise, tool support, and maintenance appear costless. | Record holder capability and support demands with bearers and currentness. |
 | universal-winner bias | A local branch or keep becomes organization-wide adoption. | Bound the situation discriminator, window, receiver, and non-transfer. |
@@ -274,7 +274,7 @@ None supplies implementation authority.
 | Source | Adopted or adapted contribution | Boundary and practitioner implication |
 | --- | --- | --- |
 | Cash, Daalhuizen, and Hekkert, [method efficacy and effectiveness](https://doi.org/10.1016/j.destud.2023.101204) | Keep practical effect and use conditions separate from internal coherence and one universal Method score. | The source does not make one trial sufficient or supply a universal worth aggregation. |
-| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Adopt workplace results, varied applications, reported limitations, later review, and the distinction between direct and indirect contribution as evidence positions. | One automotive OEM, retrospective reports, and SSFD within a broader methodology establish neither isolated causality nor universal superiority. |
+| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Use the workplace results and limitations, and the investigators' interpretations of how using SSFD connected with benefits in the reported projects. | To compare attainable alternatives for a new recipient, establish their conditions, costs and expected results. Estimating the effect of SSFD alone also requires grounds for that comparison. |
 | Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Adopt immediate participant-reported component-value observations from three families of separate workshops across activities, companies, and industries as bounded evidence inputs. | The publication supplies no common receiver, feasible current-alternative set, matched alternative Work, or counterfactual basis; company choice, order, participant differences, voluntary selection, unmatched timing, immediate self-report, long-term effects, causality, transfer, and recombination remain limits. Establish the local decision and comparison basis before returning a worth action. |
 | Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Adopt project demands, skill sets, organization, adaptation, and cyclic evolution as possible branch and burden conditions. | One firm supplies no universal repertoire or causal effect. |
 

@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "Retained-set and optional applied readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_retained-set-and-optional-applied-readings.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:5 — Retained-set and optional applied readings"
-line_start: 63535
-line_end: 63583
+line_start: 63531
+line_end: 63585
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,11 +59,17 @@ keywords:
 
 The result identifies the retained set and membership rule, measurement-policy and Scale editions, descriptor or feature source editions, distance or covering definition, comparison window, and evidence. A distance matrix or coverage map can show the calculation. When sensitivity to the kernel, distance definition, covering threshold or admitted-member set can change the receiving decision, use an adequate existing analysis or make the needed comparison and report its consequence. Keep a result on a fixed basis qualified by that basis; claim robustness only with grounds for it.
 
-For a candidate `h` and retained set `S`, the same local policy may use the marginal reading `DeltaDiversity_P`, also written `ΔDiversity_P`:
+To measure what adding candidate `h` would change, identify the retained set `S` against which that addition is assessed. When the declared Scale admits differences, the marginal reading `DeltaDiversity_P` (also written `ΔDiversity_P`) is
 
 `DeltaDiversity_P(h | S) = Diversity_P(S plus h) - Diversity_P(S)`
 
-This difference requires both readings to be defined by the policy. For a starting set with no eligible pair, report the missing pairwise value or identify the policy’s declared initialization convention.
+Both readings must be defined on a common measurement basis. For an ordinal Scale, report the order it supports. For a starting set with no eligible pair, the mean pairwise distance is undefined unless the policy specifies an initialization convention.
+
+Choose the two sets from the question. To recover an addition score used at admission, use the baseline on which it was calculated. To report an observed change between two dates, compare the set readings at those dates. For the change attributable to the admission, establish what the set would have supported without it. If another member left, the same final collection can result from displacement by the newcomer or from an independent departure. A record of a single insertion can suffice when the other members would have stayed in either case.
+
+Once `h` belongs to `S`, adding that same member again leaves `S` unchanged. To measure the loss from removing `h` now, compare the present set with the set left without it. If a new candidate would displace an incumbent, compare the set before the replacement with the one that would remain after it. The addition score can still be reported when that is what the policy asks for.
+
+For joint admissions, compare the resulting collections directly or account for the successive changes as the baseline changes. If coverage counts represented families, two candidates from the same previously absent family can each add one against the starting set. Admitting both adds just one family. A coverage calculation answers a coverage question. A bound can settle a coverage threshold even if some memberships remain open. Which rule determined an admission and what a later project could do with the collection have their own grounds.
 
 Illumination is a report over `Diversity_P`, such as a coverage map or QD-score summary. It is telemetry, not a primitive characteristic and not part of the default dominance set. Use `C.18` to maintain an Archive or Front and `C.19` to state any pool policy that uses these readings.
 

@@ -6,12 +6,12 @@ section_id: "C.11.CRC:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__007_worked-slices.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:5 — Worked Slices"
-line_start: 60246
-line_end: 60267
+line_start: 60239
+line_end: 60262
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -58,7 +58,9 @@ For the same later assignment, compare continuing with the present programme and
 
 #### C.11.CRC:5.3 - Operations constraint intervention
 
-A positive shadow price for one bottleneck supports a local statement about relaxing the formulated active constraint. A finite machine addition also changes labor, maintenance, setup, downstream capacity, energy, resilience, and perhaps the active constraint. The `S0`/`S1` comparison can therefore disagree with shadow-price multiplication without making the shadow price useless.
+Suppose each unit of output requires both stages of a production line and each stage can process ten units in the period. With continuously divisible output and no other binding constraints, the model maximizes throughput `q` subject to `q ≤ a` and `q ≤ b`, where `a` and `b` are the two capacities. The optimum is `min(a,b)`. Each station by itself bounds the possible throughput. At `a = b = 10` both bounds equal the feasible optimum, and an optimizer can assign dual weights `(1,0)` or `(0,1)`. Raising only the first capacity leaves the optimum at ten, even for an arbitrarily small increase. The unchanged second capacity supplies the decisive bound. Raising both capacities to eleven gives eleven. The value of the coordinated change can therefore exceed the sum of the gains from making each change alone.
+
+A shadow price established for the proposed direction is useful within its range of validity. For a machine purchase, compare the attainable configurations over the decision period, including staffing, maintenance, setup, downstream capacity, energy and resilience where they affect the answer.
 
 #### C.11.CRC:5.4 - Capital allocation
 

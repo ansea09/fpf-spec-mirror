@@ -6,7 +6,7 @@ section_id: "A.3.1.MI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__013_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:11 — SoTA-Echoing"
@@ -25,7 +25,7 @@ keywords:
 
 | Source | Contribution | Transfer limit and practitioner implication |
 | --- | --- | --- |
-| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | training, expert assistance, four-to-six-month workplace projects, later report analysis, application variety, limitations, and direct/indirect contribution as separate introduction and observation positions. | One automotive OEM, retrospective reports, and SSFD within a broader methodology establish neither isolated causality nor capability. |
+| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Distinguish the training, expert support, four-to-six-month projects and subsequent review of the reports. In that review the investigators examined direct and indirect pathways from SSFD use to reported benefits. | The evidence concerns supported projects at one automotive OEM. For a decision about an individual engineer's capability or the effect of changing one part of the arrangement, establish what the reports and any additional evidence warrant for that question. |
 | Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | prioritization followed by three plan-perform-evaluate cycles as a naturalistic revision structure. | The evaluation is ex ante and case-specific and does not establish long-term organizational effect, causal superiority, or transfer. |
 | Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001), and Hiort af Ornäs et al., [drivers and barriers in methodology spread](https://www.designsociety.org/publication/36298/the_spread_of_product_development_methodology_exploring_drivers_and_barriers_in_swedish_industry) | observed modifications, project and skill conditions, identified organizational conditions where recoverable, drivers, and barriers as observation and revision questions. | Observations from one firm and one interview study do not by themselves establish the causes of spread. |
 | Proctor et al., [Outcomes for Implementation Research](https://doi.org/10.1007/s10488-010-0319-7) | keep acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, and sustainment as decision-relevant observation positions distinct from the outside result. | The source categories do not establish FPF health-service/client kinds, cultural adoption or a compulsory outcome set or stage order. Use only positions that can change the bounded decision. |

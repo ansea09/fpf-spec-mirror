@@ -6,12 +6,12 @@ section_id: "C.36.MC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__014_relations.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:12 — Relations"
-line_start: 96746
-line_end: 96756
+line_start: 96749
+line_end: 96759
 dependencies:
   - "A.15.1"
   - "A.3.1"

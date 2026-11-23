@@ -6,12 +6,12 @@ section_id: "B.5.SD:End"
 section_title: "B.5.SD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__014_b-5-sd-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:End — B.5.SD:End"
-line_start: 53400
-line_end: 53408
+line_start: 53393
+line_end: 53401
 dependencies:
   - "A.3.1"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 84076
-line_end: 84198
+line_start: 84078
+line_end: 84200
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -132,7 +132,7 @@ ArchitectureDecisionRelation@Project:
     - structureKindRef:
       selectedStructureRef:
       decisionEffect:
-      relationFunctionClaimRef:
+      relationFunctionClaimRef?: exact defining or constraining ClaimGraph when rule identity matters to this decision
   bindingConstraintRefs?: conditions that remain in force for the selected design
   noLiveTradeoffReason?: when the decision involves no trade-off
   architectureCharacteristicTradeoffs?:

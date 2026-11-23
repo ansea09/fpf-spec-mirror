@@ -6,12 +6,12 @@ section_id: "A.15.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__007_bias-annotation.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:6 — Bias-Annotation"
-line_start: 34255
-line_end: 34261
+line_start: 34260
+line_end: 34266
 dependencies:
   - "A.15"
   - "A.15.7"

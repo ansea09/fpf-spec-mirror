@@ -6,12 +6,12 @@ section_id: "F.2:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:5 — Minimal vocabulary (this pattern only)"
-line_start: 127827
-line_end: 127838
+line_start: 127831
+line_end: 127842
 dependencies:
   - "A.11"
   - "A.7"

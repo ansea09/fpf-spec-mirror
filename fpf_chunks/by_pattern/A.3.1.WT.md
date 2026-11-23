@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.WT.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
 line_start: 10862
@@ -46,7 +46,7 @@ The requested test, reading or trial account can be the complete delivery. If it
 | admitted Work | One dated Work occurrence admitted under `A.15.1` from its performers, action history, enacted Method, temporal extent, and required containing-System relation. | A report, trace, attendance record, or output can support the claim but does not create the occurrence. |
 | candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Name each independently admitted Method followed and its grounded `enactsMethod` relation. |
 | capability input | A claim about a holder System, Work family or result class, operating envelope, measures, qualification or currentness window, and evidence used for reliance. | Training, availability, assignment, permission, authority, or one success does not substitute for it. |
-| trial evidence | Occurrence-level observations, source relations, burdens, adaptations, results, and gaps qualified for named later uses. | It is not itself coherence, fit, transfer, worth, contribution, or causal proof. |
+| trial evidence | Observations, reports and records about the occurrence, including results, burdens, adaptations and gaps qualified for named later uses. | What each source establishes depends on the claim for which it is used. |
 
 ### A.3.1.WT:1 - Problem Frame
 
@@ -70,7 +70,7 @@ These moves produce a positive story but weak evidence. Later reviewers cannot r
 | Observability | Later decisions need traceable observations, while instrumentation and reporting can burden or distort Work. |
 | Capability | Performer ability can change the result, while training or one success invites premature capability claims. |
 | Failure value | Failure can localize a correction, while a preference for a favourable narrative can hide it. |
-| Evidence reach | Several occurrences can strengthen a local account, while they may not establish contribution, causality, transfer, or practical worth. |
+| Evidence reach | Several occurrences can establish who used a technique and what resulted on those occasions. Transfer, practical worth or attribution of a change to the technique may require further grounds. |
 
 ### A.3.1.WT:4 - Solution
 
@@ -84,11 +84,11 @@ For a design, return the arrangement and its limits after checking feasibility. 
 2. **Preserve the subject branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. In the candidate branch, state which candidate claims are being compared and which Methods, if any, are separately admitted and may be enacted.
 3. **Select a representative situation when the trial question needs one.** Name the intended-use characteristics that matter to the question: task purpose, development phase, technical or domain conditions, performer population, holder capabilities, participating Systems, direct relations, constraints, and qualification window. State why this situation covers the current question without claiming population representativeness.
 4. **Select a discriminating situation when the decision needs one.** Identify an admissible change, or a combination of changes, that could defeat the claim. A method might work with unfamiliar material and also with reduced support, yet fail when both occur together. Such a case can test the guarantee under those conditions. To attribute the difference to the material, the support or their interaction, construct a comparison or use other grounds that distinguish those explanations. Use an existing sufficient observation where it answers the question.
-5. **Keep intention and performance distinct.** When designing a new trial, provide the WorkPlan with intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. When the trial assesses a choice the performer must make, compare the instructions, materials they will see and normal assistance with that choice. Leave the judgement to the performer and keep grounds for distinguishing their contribution from a supplied answer. Commissioned design is complete when the intended performer can run it and interpret the observations for the named question. For existing Work, recover any available plan and leave unsupported claims about prior intentions unresolved. Distinguish planned or described activity from what was performed. A performed simulation or demonstration may itself be admitted as Work under §4.1(7); distinguish what was actually performed from what was only represented or planned.
+5. **Keep intention and performance distinct.** When designing a new trial, provide the WorkPlan with intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. When the trial assesses a choice the performer must make, compare the instructions, materials they will see and normal assistance with that choice. Leave the judgement to the performer and keep grounds for distinguishing their contribution from a supplied answer. A commissioned design is complete when the assigned participants can carry out the work and the resulting observations can reach whoever will interpret them, in a usable form and with the necessary permissions. Show which conclusions that arrangement can support for the named question. For existing Work, recover any available plan and leave unsupported claims about prior intentions unresolved. Distinguish planned or described activity from what was performed. A performed simulation or demonstration may itself be admitted as Work under §4.1(7); distinguish what was actually performed from what was only represented or planned.
 6. **Check capability and support inputs separately.** When reliance on capability changes interpretation, identify the holder System, Work family or result class, operating envelope, measures, qualification or currentness condition, and evidence. Recover only A.15.8.MS material, access, tool, provider, feedback, and decision conditions supported for the relevant task rows; preserve retained candidates, split boundaries, untested conditions, and gaps rather than treating them as configured inputs.
 7. **Admit only Work that occurred.** For each occurrence, recover every performer System and its A.13 basis, the action history, at least one admitted Method followed, temporal extent, and required containing-System relation under `A.15.1`. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Add System use, operation binding, affected referent, resource use, or result relations only when the claim needs them and their own predicates obtain.
 8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, departures from any available WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
-9. **Qualify the evidence reach.** Distinguish direct observation, participant report, source interpretation, observed association, contribution claim, and causal claim. Return the supported level needed by the receiving claim and name missing comparison, temporal, capability, relation, or alternative evidence.
+9. **Qualify the evidence for the next decision.** In a design, explain which possible observations would distinguish the answers that matter and what each would warrant. For performed Work, establish what the available observations and records show. An observer who saw an expert select the test and a trainee run it can report both operations. To entrust selection to the trainee alone, establish what the trainee can select with the support available next time. Keep a participant's report and the investigator's interpretation attributable to their sources. If the next decision relies on a causal explanation, use C.28 to identify what the comparison or other causal grounds support. State any missing grounds that affect that decision.
 10. **Return what the recipient commissioned.** Deliver the executable design with its prospective interpretation, or the requested performance, reading or trial account with its conditions and evidential limits. Where a further question was commissioned, take description or relation evidence to A.3.1.CC, situation evidence to A.3.1.FT, and results, burdens, alternatives or side effects to C.11.MV as appropriate. Identify the premise missing for the particular result, for example `missing-performed-work`, `missing-method-admission`, `missing-capability-basis` or `missing-direct-relation`.
 
 #### A.3.1.WT:4.2 - Record the Result
@@ -102,7 +102,7 @@ For a design, return the arrangement and its limits after checking feasibility. 
 | performed Work | For a claim about a trial that occurred, identify each admitted Work occurrence, its performers, enacted admitted Methods, temporal extent, containing System, and departures from any available plan. For a design, state what is to be performed and under which conditions. |
 | relied-on conditions | Holder capabilities, Systems, Agent-performed Work, direct relations, access, assignments, permissions, authority, tools, providers, and support conditions that obtain or remain missing. |
 | observations | Domain results, burdens, adaptations, failures, participant reports, direct observations, and their source or evidence-use relations. |
-| reach and gaps | Supported observation level, missing evidence, material limits on contribution or causal claims, and conditions that would reopen the slice. |
+| reach and gaps | Claim the trial supports, source and conditions that support it, missing grounds for the intended receiving use, and conditions that would reopen the slice. |
 | return | The design, test result, reading or account commissioned, with the conditions needed to interpret it, or the missing premise. Where a coherence, fit, transfer or worth decision also depends on that result, identify the contribution it makes. |
 
 Keep these distinctions in the account and its referenced records. A table is useful when several occurrences need comparison; a single account need not use one row per position.
@@ -147,7 +147,7 @@ Before using the replay, establish whether SSFD is an admitted Method for the cu
 | --- | --- | --- | --- |
 | Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that every programme participant had the same capability or that the reported benefits came from SSFD alone. |
 | Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses the direct representation governor for the affected action and C.37 when a selection question remains; when a Method-specific cross-use profile is needed, it checks the affected action and cross-use dependency under C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
-| 41-report evidence set | The review identifies 95 examples of evidenced individual benefits across business results, process improvement, and product-development-team capability improvement, while separating direct and indirect contribution. | Bounded report and review evidence for later comparison of results, burdens, and evidence strength in C.11.MV. | Counts and source classifications do not establish causality, universal superiority, transfer, or current capability for every participant. |
+| 41-report evidence set | The investigators identified 95 instances of benefits in 41 project reports and examined how SSFD figured in those accounts, including uses of its outputs in subsequent work. | The documented outputs and the investigators' interpretation of the pathways can inform later comparison of domain results, burdens and evidence strength in C.11.MV. | An estimate of what would have happened without SSFD requires additional grounds. A claim about a participant's current capability requires evidence about that participant's work. |
 
 The useful A.3.1.WT result is therefore not “SSFD works”. It is a set of reported workplace-project accounts, situation and support conditions, observed representation difficulties, reported results and burdens, evidence-source qualifications, and explicit gaps for three separate later judgments.
 
@@ -177,11 +177,11 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 - [ ] The Method is admitted, or the proposed whole remains a candidate account throughout.
 - [ ] Every claimed enacted Method is independently admitted; no candidate whole is said to be enacted.
 - [ ] Situation-selection criteria are named, and every discriminating situation states the claim it can distinguish. If the performer must supply a selection, the instructions, material and ordinary assistance leave that selection open.
-- [ ] For a design commission, the selected situation, feasible Work, observation and interpretation let the intended performer run the trial. For an order to conduct it, the specified performance and observations have their own grounds. For a simulation or demonstration, identify what was actually performed.
+- [ ] For a design commission, the assigned participants can carry out their tasks and obtain the planned observations under the proposed conditions. For an order to conduct the trial, establish the specified performance and observations. For a simulation or demonstration, identify what was actually performed.
 - [ ] Each claimed Work occurrence independently satisfies the admission basis in §4.1(7).
 - [ ] Capability, System use, assignment, permission, authority, support, operation binding, and result relations are asserted only from their own bases.
-- [ ] Conditions, deviations, adaptations, burdens, observations, and domain results are recorded per occurrence.
-- [ ] Direct observation, self-report, association, contribution, and causality are not merged.
+- [ ] For an occurrence being assessed, the record identifies the conditions, deviations, adaptations, burdens, observations and domain results relevant to the trial question, with any material gaps.
+- [ ] For a design, whoever will interpret the trial can use the observations they are entitled to receive to distinguish the answers the design can support. For an assessment of performed Work, the reader can establish what happened to the extent the sources allow. Each use that depends on a causal explanation has grounds for that inference.
 - [ ] The result separates any selected A.3.1.CC, A.3.1.FT and C.11.MV uses and supplies evidence or gaps without claiming their judgments.
 
 ### A.3.1.WT:8 - Common Anti-Patterns and How to Avoid Them
@@ -193,7 +193,7 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 | “Everyone was trained, so capability was controlled.” | Record training separately and recover the holder capability input used in interpretation. |
 | “The log proves the task occurred and succeeded.” | Use the log as evidence for independently admitted Work and a separately established task result. |
 | “Most reports were favourable, so the Method transfers.” | Send the occurrence evidence and situation differences to A.3.1.FT; do not make the transfer judgment here. |
-| “Reported benefit proves the Method caused the outcome.” | Record the report and its contribution category, then return the missing causal basis. |
+| “Reported benefit proves the Method caused the outcome.” | Preserve what participants reported and how the study classified those reports. Establish the additional basis needed before using them to attribute the outcome to the Method. |
 
 ### A.3.1.WT:9 - Consequences
 
@@ -203,7 +203,7 @@ The cost is more explicit occurrence recovery and narrower conclusions. Projects
 
 ### A.3.1.WT:10 - Rationale
 
-Actual Work is the shared empirical base, but coherence, fit, transfer, worth, capability, contribution, and causality are different claims. Keeping them separate lets the same occurrence inform several decisions without allowing one decision to inherit another's conclusion.
+Actual Work gives these inquiries a common empirical base. A record can establish which operations took place and whose work they were. Its bearing on coherence, fit, transfer, worth, capability or the cause of a result depends on what each inquiry asks. The same occurrence can inform several decisions within those limits.
 
 Representative situations answer typical-use questions; discriminating situations test a stated difference or boundary. Select either or both according to the receiving question. Their selection does not create statistical representativeness or a universal situation taxonomy.
 
@@ -211,7 +211,7 @@ Representative situations answer typical-use questions; discriminating situation
 
 | Source | Contribution | Boundary and practitioner implication |
 | --- | --- | --- |
-| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Workplace projects, varied application situations, reported limitations, later report analysis, and separation of direct and indirect contribution supply trial-design and evidence-recording cues. | One automotive OEM, SSFD used within a broader methodology, and retrospective reports establish neither SSFD-only causality nor universal transfer. |
+| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | The investigators traced how engineers used SSFD across different projects and interpreted the documented links between its use and reported benefits. These accounts help select trial situations and observations. | The reports concern one automotive OEM and a larger methodology. A claim about the effect of changing SSFD alone, or about another workplace, requires grounds specific to that question. |
 | Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | Repeated plan-perform-evaluate cycles in an operating health-services ecosystem provide an unlike-domain example of validation actions. | The evaluation is ex ante and case-specific; it establishes neither long-term effect nor transfer to the other elicited domains. |
 | Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Explicit alternative Methods, several industry situations, participant Work, activities, and immediate value reports supply a bounded comparison input. | Immediate self-report establishes neither long-term product results, causal superiority, nor the effectiveness of recombined variants. |
 

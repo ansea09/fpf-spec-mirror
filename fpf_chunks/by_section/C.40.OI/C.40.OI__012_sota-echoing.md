@@ -6,12 +6,12 @@ section_id: "C.40.OI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__012_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:11 — SoTA-Echoing"
-line_start: 91740
-line_end: 91753
+line_start: 91743
+line_end: 91756
 dependencies:
   - "A.15.9"
   - "B.5.PI"

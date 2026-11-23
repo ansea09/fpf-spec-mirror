@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.CM.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
-line_start: 98948
-line_end: 99447
+line_start: 98951
+line_end: 99450
 dependencies:
   - "A.3.1"
   - "B.1.5"

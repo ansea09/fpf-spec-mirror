@@ -6,12 +6,12 @@ section_id: "A.19.USCM:End"
 section_title: "A.19.USCM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__015_a-19-uscm-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:End — A.19.USCM:End"
-line_start: 40138
-line_end: 40139
+line_start: 40143
+line_end: 40144
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

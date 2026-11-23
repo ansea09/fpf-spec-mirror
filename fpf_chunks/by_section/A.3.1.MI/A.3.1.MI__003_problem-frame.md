@@ -6,7 +6,7 @@ section_id: "A.3.1.MI:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__003_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:1 — Problem Frame"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.MI:1 - Problem Frame
 
-A new procedure arrives with instruction, expert assistance, a tool, changed duties, management attention and a different review occasion. Later results are credited to “the Method”, while failure is blamed on resistance or ability. Either attribution can hide the contribution that needs changing.
+A new procedure arrives with instruction, expert assistance, a tool, changed duties, management attention and a different review occasion. Later results are credited to “the Method”, while failure is blamed on resistance or ability. Find out which operations actually took place and what grounds there are for explaining the change in results. Those answers can point to different revisions.
 
 The practitioner needs to decide what to do next: retain a useful way, repair its explanation or provision, develop a needed capability, adapt the introduction, replace the target or stop. Follow the intended change through the attempt and later receiving work. Keep observations and explanations separate until the required grounds are available; otherwise an access failure can provoke redundant training, or a completed workshop can be mistaken for usable practice.
 

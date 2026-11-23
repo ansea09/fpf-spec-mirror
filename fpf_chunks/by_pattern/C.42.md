@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.42.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
-line_start: 95145
-line_end: 95500
+line_start: 95148
+line_end: 95503
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

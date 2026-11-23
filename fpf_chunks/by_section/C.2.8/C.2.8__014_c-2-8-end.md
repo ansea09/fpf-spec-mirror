@@ -6,12 +6,12 @@ section_id: "C.2.8:End"
 section_title: "C.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__014_c-2-8-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:End — C.2.8:End"
-line_start: 57343
-line_end: 57344
+line_start: 57336
+line_end: 57337
 dependencies:
   - "A.17"
   - "A.18"

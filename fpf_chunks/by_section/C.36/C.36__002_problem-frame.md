@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 85724
-line_end: 85803
+line_start: 85725
+line_end: 85804
 dependencies:
   - "A.1"
   - "A.10"
@@ -133,7 +133,7 @@ Many current projects no longer develop one isolated object. They shape, for exa
 
 Cultural evolution is current when the question is how a collective or discipline generates, transmits, recognizes, selects, retains, or changes variants. Memory or canon epistemes, recognition and selection relations, comparison, platform or algorithmic mediation, and changing Method families may all matter.
 
-When the case says that Work was performed, recover each performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method.
+When the case asserts a particular occurrence as `U.Work`, recover each performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method. Evidence can establish the presence or recurrence of a practice in a group at the precision required for that claim while leaving the identities of particular participants open.
 
 Include A.2.1 assignment refs and F.6 when the case or receiving use represents precise assignment-bound attribution. The A.13 assignment basis remains required for actual Work even when those fields are omitted; missing or failed F.6 attribution alone leaves independently admitted Work intact while its independent A.13/A.15.1 grounds still hold. A local system-role kind, classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
 

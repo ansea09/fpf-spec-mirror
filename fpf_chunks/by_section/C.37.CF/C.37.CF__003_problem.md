@@ -6,12 +6,12 @@ section_id: "C.37.CF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__003_problem.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:2 — Problem"
-line_start: 86750
-line_end: 86755
+line_start: 86753
+line_end: 86758
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

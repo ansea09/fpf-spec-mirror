@@ -6,12 +6,12 @@ section_id: "B.5.MPC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__011_architectural-rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:10 — Architectural Rationale"
-line_start: 49568
-line_end: 49619
+line_start: 49561
+line_end: 49612
 dependencies:
   - "A.15.9"
   - "A.3.3"

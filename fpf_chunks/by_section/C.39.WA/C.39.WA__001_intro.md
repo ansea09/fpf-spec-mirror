@@ -6,12 +6,12 @@ section_id: "C.39.WA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__001_intro.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:intro — Intro"
-line_start: 87865
-line_end: 87869
+line_start: 87868
+line_end: 87872
 dependencies:
   - "C.20"
   - "C.39.QR"

@@ -6,12 +6,12 @@ section_id: "E.17.2:End"
 section_title: "E.17.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__011_e-17-2-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:End — E.17.2:End"
-line_start: 115032
-line_end: 115033
+line_start: 115036
+line_end: 115037
 dependencies:
   - "A.22"
   - "A.6.3"

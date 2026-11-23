@@ -6,12 +6,12 @@ section_id: "C.17:10"
 section_title: "Manager quick start"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__012_manager-quick-start.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:10 — Manager quick start"
-line_start: 63686
-line_end: 63708
+line_start: 63688
+line_end: 63710
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 1. Identify the bearer and what the receiver needs to judge. Name the reference for novelty, the objective for usefulness or the applicable condition for eligibility.
 2. State the smallest supported difference and consequence; stop if that answers the question.
 3. When numbers matter, select the space and specification and build each coordinate through C.16 or C.2.1.
-4. For a comparison of profiles, apply the declared eligibility and dominance rules. Preserve open comparisons and established incomparability. When a retained set matters, report its declared `Diversity_P` or other needed set reading.
+4. For a comparison of profiles, apply the declared eligibility and dominance rules. Preserve open comparisons and established incomparability. For a single collection, report the set reading the question needs. For a change in that reading, identify the collections the change relates and compare them under the declared policy (§5.1).
 5. Pass generation or retention questions to C.18, pool-policy questions to C.19, selector-facing declarations to G.5, and choice questions to C.11, with the result references each needs.
 
 #### C.17:10.1 - Optional one-page comparison brief

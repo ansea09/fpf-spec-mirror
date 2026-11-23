@@ -6,12 +6,12 @@ section_id: "C.30.LCA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__011_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:10 — Rationale"
-line_start: 78056
-line_end: 78063
+line_start: 78060
+line_end: 78067
 dependencies:
   - "A.10"
   - "A.20"

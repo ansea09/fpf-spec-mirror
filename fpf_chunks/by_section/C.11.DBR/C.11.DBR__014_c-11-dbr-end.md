@@ -6,12 +6,12 @@ section_id: "C.11.DBR:End"
 section_title: "C.11.DBR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__014_c-11-dbr-end.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:End — C.11.DBR:End"
-line_start: 60520
-line_end: 60523
+line_start: 60516
+line_end: 60519
 dependencies:
   - "A.10"
   - "A.10.1"

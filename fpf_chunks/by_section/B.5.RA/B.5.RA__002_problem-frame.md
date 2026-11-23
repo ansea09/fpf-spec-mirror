@@ -6,12 +6,12 @@ section_id: "B.5.RA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__002_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:1 — Problem frame"
-line_start: 50129
-line_end: 50138
+line_start: 50122
+line_end: 50131
 dependencies:
   - "B.5"
   - "B.5.MPC"

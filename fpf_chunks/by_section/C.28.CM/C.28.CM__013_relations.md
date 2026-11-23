@@ -6,12 +6,12 @@ section_id: "C.28.CM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__013_relations.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:12 — Relations"
-line_start: 72188
-line_end: 72196
+line_start: 72192
+line_end: 72200
 dependencies:
   - "A.15.9"
   - "B.5.2"

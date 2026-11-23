@@ -6,12 +6,12 @@ section_id: "C.11.CRC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__006_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:4 — Solution"
-line_start: 60183
-line_end: 60245
+line_start: 60176
+line_end: 60238
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -92,7 +92,7 @@ An ordinary comparison sentence or existing calculation can carry this result wh
 | Finite difference or counterfactual configuration comparison | What changes between realizable `S0` and `S1` over the declared horizon? | Default here for indivisible, non-smooth, thresholded, path-dependent, or strongly interacting changes. Do not infer additivity. |
 | Derivative or gradient | What is the local rate of change with respect to a coordinate under smoothness and small-change assumptions? | It approximates the finite contribution only when the validity region and remainder are adequate for `Δ`. |
 | Sensitivity | How does a result vary with a parameter, assumption, input, model, or scenario? | It supplies robustness or assurance information; it need not describe a realizable configuration change. |
-| Shadow price or dual variable | What is the local value of relaxing a formulated active constraint under the primal/dual model? | It depends on formulation, active set, regularity, units, and local region; it is not the contribution of an arbitrary asset or intervention. |
+| Shadow price or dual variable | How does the best attainable value respond to a specified change of a constraint? | Establish the direction, units and sensitivity conditions for the formulated problem. At a kink an optimal multiplier may supply a bound. For the value of a finite change, derive the response over that interval, solve the changed problem or use bounds sufficient for the decision. |
 | Functional variation / calculus of variations | How does a functional change when the varied object is a function, path, trajectory, field, control, or shape in a declared admissible variation space? | Name the functional, admissible variations, constraints, boundary conditions, the claim being made about variation, stationarity or an extremum, and the sufficiency or validation grounds that claim requires. An Euler–Lagrange equation is not a generic contribution claim or proof that a physical System optimizes. |
 | Variational inference | Which member of an approximation family best approximates a target probability distribution under a declared divergence or bound? | The result is an approximate distribution and uncertainty account, not an extremal physical trajectory, capability acquisition, or general marginal value. |
 | Evolutionary variation | How are retained variants generated and selected in an evolutionary or cultural process? | The shared word *variation* does not identify the mathematical object or Method above; route to `C.18`, `C.36`, or the field practice. |

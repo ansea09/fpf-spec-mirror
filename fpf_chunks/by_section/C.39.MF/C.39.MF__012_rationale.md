@@ -6,12 +6,12 @@ section_id: "C.39.MF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__012_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:10 — Rationale"
-line_start: 88682
-line_end: 88687
+line_start: 88685
+line_end: 88690
 dependencies:
   - "A.15.6"
   - "A.3.1"

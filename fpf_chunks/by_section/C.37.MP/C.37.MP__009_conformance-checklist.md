@@ -6,12 +6,12 @@ section_id: "C.37.MP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__009_conformance-checklist.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:7 — Conformance Checklist"
-line_start: 86677
-line_end: 86689
+line_start: 86680
+line_end: 86692
 dependencies:
   - "A.10"
   - "A.3.1"

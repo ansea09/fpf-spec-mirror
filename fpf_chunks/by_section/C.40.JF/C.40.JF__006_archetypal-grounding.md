@@ -6,12 +6,12 @@ section_id: "C.40.JF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__006_archetypal-grounding.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:5 — Archetypal Grounding"
-line_start: 92819
-line_end: 92858
+line_start: 92822
+line_end: 92861
 dependencies:
   - "A.10"
   - "A.15.9"

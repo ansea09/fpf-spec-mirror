@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:4 — Solution"
-line_start: 127150
-line_end: 127210
+line_start: 127154
+line_end: 127214
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

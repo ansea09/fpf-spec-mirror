@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__002_problem-frame.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:1 — Problem frame"
-line_start: 99797
-line_end: 99817
+line_start: 99800
+line_end: 99820
 dependencies:
   - "A.15.1"
   - "A.22"

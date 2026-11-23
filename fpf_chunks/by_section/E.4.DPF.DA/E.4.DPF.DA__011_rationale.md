@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__011_rationale.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:10 — Rationale"
-line_start: 101613
-line_end: 101618
+line_start: 101616
+line_end: 101621
 dependencies:
   - "A.1.1"
   - "A.10"

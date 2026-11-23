@@ -6,12 +6,12 @@ section_id: "C.11.DBR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:4 — Solution"
-line_start: 60366
-line_end: 60422
+line_start: 60362
+line_end: 60418
 dependencies:
   - "A.10"
   - "A.10.1"

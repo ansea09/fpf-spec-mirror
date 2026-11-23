@@ -6,12 +6,12 @@ section_id: "B.5.SD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__013_relations.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:12 — Relations"
-line_start: 53387
-line_end: 53399
+line_start: 53380
+line_end: 53392
 dependencies:
   - "A.3.1"
   - "B.5.RA"

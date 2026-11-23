@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:4 — Solution"
-line_start: 56290
-line_end: 56344
+line_start: 56283
+line_end: 56337
 dependencies:
   - "A.13"
   - "A.15"

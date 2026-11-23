@@ -6,12 +6,12 @@ section_id: "C.2.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__012_sota-echoing.md"
-commit_sha: "6226816d8005a4c8ee3af338bb3752f6732449a9"
+commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:11 — SoTA-Echoing"
-line_start: 55807
-line_end: 55817
+line_start: 55800
+line_end: 55810
 dependencies:
   - "A.16"
   - "A.18"
