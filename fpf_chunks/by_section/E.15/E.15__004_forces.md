@@ -6,12 +6,12 @@ section_id: "E.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:3 — Forces"
-line_start: 113123
-line_end: 113133
+line_start: 113184
+line_end: 113194
 dependencies:
   - "C.18"
   - "C.19"

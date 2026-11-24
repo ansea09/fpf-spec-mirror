@@ -6,12 +6,12 @@ section_id: "C.29.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:4 — Solution"
-line_start: 74293
-line_end: 74390
+line_start: 74340
+line_end: 74437
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -67,7 +67,7 @@ For each operation whose realization is unresolved, identify what the system doe
 
 When one logical operation spans several physical actions, examine the intervening states. Reserving a card, crossing a room boundary and returning the card are separate events. A visitor can be outside while the card is unavailable. Either show that the intervening behavior preserves the needed result, or change the model or the arrangement.
 
-For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. Independent copies of an available-card count require a different coordination mechanism. The engineering or administrative method supplies that mechanism.
+For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. One shared stock or disjoint allocations of a limited stock can secure exclusive use. Establish why two overlapping admissions cannot obtain the same card. The engineering or administrative method supplies that mechanism.
 
 For repeated or timed operation, include completion, reset and ordering where they affect the result. Two relative increments add only when both are executed under the intended rule. Repeating an absolute target ordinarily asks for the same target again. An ongoing physical process can require a temporal model rather than a sequence of instantaneous assignments.
 

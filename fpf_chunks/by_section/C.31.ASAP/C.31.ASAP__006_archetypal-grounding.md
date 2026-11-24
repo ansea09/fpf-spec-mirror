@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 80014
-line_end: 80061
+line_start: 80071
+line_end: 80118
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -82,7 +82,7 @@ The six platform deliveries show which interfaces and exceptions occurred there.
 
 Suppose both suppliers offer the same required service for five to forty sites during the quotation period. The shared platform costs 18 units to prepare the common interface and 2 per ordinary site. The bespoke offer costs 5 per site. At five ordinary sites the quoted totals are 28 and 25. At six they tie. From seven through forty ordinary sites the platform costs less. This follows from the two binding offers for that range. The six installations alone would not establish those prices.
 
-At eight sites the ordinary prices are 34 and 40. Under the same offers one site needing a different connector adds a one-time charge of 12 to the platform total and is included in the bespoke price. The comparison then favors the bespoke offer at 40 against 46. If the eighth site's connector is unknown and the other seven are ordinary, its interface specification settles which offer is less expensive. An assertion about actual expenditure still needs the charges incurred. An architecture choice can also depend on service or assurance conditions beyond price. At twelve sites with at most one such surcharge, the platform quote is either 42 or 54 against 60. Its price advantage then holds with either connector.
+At eight sites the ordinary prices are 34 and 40. Under the same offers one site needing a different connector adds a one-time charge of 12 to the platform total and is included in the bespoke price. The comparison then favors the bespoke offer at 40 against 46. If the eighth site's connector is unknown and the other seven are ordinary, its interface specification settles which offer is less expensive. An assertion about actual expenditure still needs the charges incurred. An architecture choice can also depend on service or assurance conditions beyond price. At twelve sites with at most one such surcharge, the platform quote is either 42 or 54 against 60. Its price advantage then holds with either connector. These binding totals settle the purchaser’s quoted price. If the cheaper offer leaves local rewiring to site technicians, ask whose budget bears that work. Include it when comparing the purchaser’s full rollout cost or total delivery effort. A higher supplier cost that is covered by the fixed price need not change which invoice is lower.
 
 #### C.31.ASAP:5.2 - Near-miss lowering slice
 

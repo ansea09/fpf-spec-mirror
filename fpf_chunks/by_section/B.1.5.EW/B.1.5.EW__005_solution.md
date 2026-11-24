@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:4 — Solution"
-line_start: 44428
-line_end: 44486
+line_start: 44453
+line_end: 44511
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -28,7 +28,7 @@ Trace the constituent–whole connection in the direction needed for this questi
 
 #### B.1.5.EW:4.1 - Choose an action and the work being explained
 
-Identify the action or encompassing work the recipient asks about and the interval relevant to its use. For an actual occurrence, ground the account in the performance. For a proposal, say what would occur under its conditions. When the assignment is to teach someone to perform the analysis, leave that person the choice of a relevant action or whole from the working situation, unless the commission supplies it.
+Identify the action or encompassing work the recipient asks about and the interval relevant to its use. For an actual occurrence, ground the account in the performance. For a proposal, say what would occur under its conditions. When learners are to make an independent choice, leave the choice of action or whole in the assessed situation to them. A worked case from another situation can precede their attempt if it leaves that choice open. To assess unaided recognition, give them the situation before a cue that supplies the choice. For a lesson on analysing given work, the instructor may supply the starting point and assess the reasoning the learner performs.
 
 Use ordinary verbs first: adjusting a step, comparing a measurement, adding a value, questioning an assumption. If the description supplies only a noun such as “coordination”, recover what the participant does.
 

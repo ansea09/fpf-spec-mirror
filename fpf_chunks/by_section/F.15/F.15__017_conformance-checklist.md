@@ -6,12 +6,12 @@ section_id: "F.15:14.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__017_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:14.5 — Conformance Checklist"
-line_start: 132758
-line_end: 132772
+line_start: 132822
+line_end: 132836
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ keywords:
 | `CC-F15-5` | Cite an F.9 Bridge occurrence only after its exact predicate obtains; keep description/Card, bounded-use claim, reliance, and receiving occurrence separate. |
 | `CC-F15-6` | Apply the defining or testing rule for each failed subject claim before the receiving use; a record update is not subject repair. |
 | `CC-F15-7` | For regression, name exact prior/later refs, the continuity or change claim, admitted losses, evidence, and receiving use; spelling and editions prove neither sameness nor difference. |
-| `CC-F15-8` | Reuse unaffected result claims only after a direct contradiction check; rerun dependents, not the whole package by habit. |
+| `CC-F15-8` | Reuse an unaffected result for the claim it covers after a direct contradiction check. Recheck the affected dependencies. Any separately commissioned fresh run or independent examination is established on its own terms. |
 | `CC-F15-9` | Scope membership is not evidence, witnesses are not results, and a description/card/row/table/id establishes no governed relation or authority. |
 | `CC-F15-10` | Closure is limited to the exact slice versions, rule results, evidence/reliance, currentness, and receiving use checked. |
 

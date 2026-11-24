@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 20282
-line_end: 20317
+line_start: 20295
+line_end: 20330
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -45,7 +45,7 @@ keywords:
 
 Use this pattern when selected source structure must become a readable sequential account for a declared reader or listener use. In plain language: **turn this structure into a narrative that this reader can follow without hiding what the narrative leaves behind**. Typical cases include a scientific mechanism turned into a paper section, an architecture trade-off turned into a team explanation, a conceptual graph turned into a lesson sequence, or an event graph turned into a story draft.
 
-Start from the reader's practical need. Select the source structures that matter for that need, choose a useful order and connective account, draft the narrative, then compare it with the sources for preservation, foregrounding, loss and unsupported additions.
+Start with the reader’s practical need and the material already available. For a new account, select the source structures, choose an order and develop the connections the reader needs. When reviewing or repairing an existing narrative, compare its actual sequence and claims with the sources for that use. Retain adequate choices and supply missing connections. An attribution to the person who chose the structure, wrote the prose or commissioned it requires grounds for that contribution.
 
 Plain starting vocabulary:
 
@@ -63,7 +63,7 @@ Plain starting vocabulary:
 | `narrating or rendering worker` | The person, team or system preparing the narrative. A dated Work claim follows A.13 and independent A.15.1 admission; F.6 applies only when precise assignment-bound attribution matters. Any authority claim has its own grounds. |
 | `structural-information question` | How much of the selected source structure can this reader correctly extract from the narrative under the stated preparation, access and budget? Use `C.2.8` for the characteristic, `C.33` for architecture-use adequacy and the applicable domain evaluation for a local scale. |
 
-**First useful move.** Write a useful narrative and give the reader enough source and ordering information to see what it preserves, foregrounds or omits. A compact note can carry that information. Add a source-return condition when omitted structure or a changed question requires it; any excluded downstream use follows F.19:4's full guard test.
+**First useful move.** What should a reader be able to follow or do with this account? For an existing narrative, compare its sequence and claims with the sources for that purpose. For a writing commission, supply the account and enough source and ordering information for the reader to see what it preserves, foregrounds or omits. Include a source-return condition when omitted structure or a changed question requires it. Apply F.19:4 to a proposed exclusion of downstream use.
 
 **What goes wrong if missed.** A memorable sequence substitutes for the source structure. Readers retain the story but cannot reconstruct the relations that licensed it, or they treat a connective sentence added for fluency as a source claim.
 

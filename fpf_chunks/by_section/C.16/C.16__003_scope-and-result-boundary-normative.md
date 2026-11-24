@@ -6,12 +6,12 @@ section_id: "C.16:2"
 section_title: "Scope and result boundary (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__003_scope-and-result-boundary-normative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:2 — Scope and result boundary (Normative)"
-line_start: 61343
-line_end: 61355
+line_start: 61374
+line_end: 61386
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ C.16 covers construction and use of measurement models. For a performed measurem
 - the entity or ordered tuple being measured and the quantity or other Characteristic attributed to it under the stated conditions;
 - one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;
 - the reusable measurement specification, `U.Method`, measurement model, calibration requirements, and uncertainty treatment;
-- dated measurement work with performer, actual bindings, resources, and time stance;
+- the measurement occasion and conditions needed to rely on the result, with its performer, actual bindings and resources when the claim depends on them.
 - the value or set of values attributed to the measurand together with relevant information, including uncertainty and interpretation basis; and
 - direct comparability within the declared basis.
 

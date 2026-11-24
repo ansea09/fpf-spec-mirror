@@ -6,12 +6,12 @@ section_id: "C.32.ACE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:1 — Problem frame"
-line_start: 82064
-line_end: 82145
+line_start: 82121
+line_end: 82202
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ Typical entry phrases:
 
 This pattern frames architecture evaluation over declared criteria rows, Q-Bundle slots, candidates, bearers or selected structures. Use a parity frame when the receiving inference depends on comparable conditions. The optional record below uses a C.32.ACE-local form and introduces no new U-kind. Its program label establishes neither Method or MethodDescription membership, a WorkPlan, dated Work, nor an evaluation result. When measurement validity, comparison policy, a selection result, G.5 result declaration, publication, or architecture decision is current, use the definition and test for that claim.
 
-Ordinary working move: select the declared criteria rows or Q-Bundle slots and bind the claim scope, relevant context slices and reference scheme, adding a plane, evaluation window or input projection when the evaluation or receiving inference depends on it, and establish parity for the variants when comparison depends on it. When a particular evaluation Work occurrence is claimed, recover each evaluator through A.13 and let A.15.1 independently admit the `U.Work` occurrence. Add `evaluationWorkAttributionRefs` only when the program or receiving use represents precise assignment-bound attribution; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds hold. Any A.6.1 operation application is an additional relation, not a substitute for the Method enacted by the Work. Return the typed results established through their result patterns as feedback for comparison or the next synthesis pass.
+Ordinary working move: select the declared criteria rows or Q-Bundle slots and bind the claim scope, relevant context slices and reference scheme, adding a plane, evaluation window or input projection when the evaluation or receiving inference depends on it, and establish parity for the variants when comparison depends on it. To identify a particular evaluation as `U.Work`, establish who performed it at the scale of the claim. A laboratory can be the evaluating System. Ground each claimed performer under A.13 and admit the occurrence under A.15.1. For a claim about a particular operator, establish that operator's contribution. Add `evaluationWorkAttributionRefs` only when the program or receiving use represents precise assignment-bound attribution; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds hold. Any A.6.1 operation application is an additional relation, not a substitute for the Method enacted by the Work. Return the typed results established through their result patterns as feedback for comparison or the next synthesis pass.
 
 The first useful result explains how a bounded architecture evaluation will obtain the result needed by the receiving use. An ordinary account can suffice; use `ArchitectureCharacteristicEvalProgram@Project` when a record helps preserve that framing. When a reusable way of evaluating is current, identify that separate `U.Method` under A.3.1; when a claim-bearing episteme describes that exact Method, test the same episteme for `U.MethodDescription` under A.3.2. A planned evaluation belongs to A.15.2, an actual dated evaluation to A.15.1, and each result to its measurement, comparison, evaluation, or assertion pattern. Use the record to frame readings of characteristics through rows, slots, candidates, or structures; it is not any of those neighboring objects.
 

@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:7 — Conformance Checklist"
-line_start: 22091
-line_end: 22109
+line_start: 22107
+line_end: 22125
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -38,7 +38,7 @@ keywords:
 | --- | --- |
 | `CC-A6PWMR-1` | A conforming practitioner **MUST** keep one relation-bearing claim as the `EntityOfConcern` and **MUST** treat trigger words only as recognition aids. |
 | `CC-A6PWMR-2` | A conforming practitioner **MUST** name the entity and admitted kind independently of its boundary-word role. |
-| `CC-A6PWMR-3` | A conforming practitioner **MUST** name the related object and **MUST** split several current related objects into separate claims. |
+| `CC-A6PWMR-3` | A conforming account **MUST** preserve the participants required by its predicate and how they are related in this case. Distinguish separately governed claims and establish any connection used to combine them. |
 | `CC-A6PWMR-4` | Before every positive direct relation, a conforming practitioner **MUST** establish two independent premises: (1) the `RelationKind` resolves through a direct rule or applicable relation-declaration episteme to participant meanings, obtaining condition, applicability, and defining source; and (2) a separate case fact says that the participants at the extent satisfy that condition. The practitioner **MUST** keep the obtaining fact distinct from its assertion and evidence; an object's identity or a record's presence alone is insufficient, while its content may support the claim under the applicable rule. A failed positive test within the rule's applicability returns `factually unsupported`; an unavailable deciding fact returns `missing-information`; a case established outside applicability returns that rule's inapplicable result. Only an absent governor returns `missing-governor` with participants, proposed predicate, affected use, and absent definition. A future pattern or declaration need is named only when identifiable. |
 | `CC-A6PWMR-4a` | Before every governed negative direct-relation claim, a conforming practitioner **MUST** recover the current governor, its applicable negative or non-obtaining criterion or closure basis, and separate case facts satisfying that basis at the extent. The practitioner **MUST NOT** infer negative polarity from failure or unavailability of the positive fact and **MUST NOT** individuate an obtaining relation occurrence. |
 | `CC-A6PWMR-5` | A conforming practitioner **MUST** keep claim subject, modality and extent, polarity, and recovery or support state independently recoverable whenever any can change the answer and **MUST** check `WMR-WF1`. The practitioner **MUST NOT** require the four labels when a simple sentence already carries the only material reading. |

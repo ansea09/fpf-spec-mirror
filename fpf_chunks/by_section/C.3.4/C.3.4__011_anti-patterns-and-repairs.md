@@ -6,12 +6,12 @@ section_id: "C.3.4:9"
 section_title: "Anti-patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__011_anti-patterns-and-repairs.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:9 — Anti-patterns and Repairs"
-line_start: 58624
-line_end: 58634
+line_start: 58655
+line_end: 58665
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -30,7 +30,7 @@ keywords:
 | Adaptation declaration treated as a new type | Duplicates the kind and hides the declaration episteme. | Keep the base kind; when a receiving use needs a distinct kind, identify it and establish any claimed `U.SubkindOf` relation independently. |
 | Claim- or Work-scope condition hidden in an adaptation judgment | Conflates the candidate with where a claim or Work applies. | Move the scope condition to A.2.6; keep candidate constraints and declaration applicability explicit. |
 | Unversioned or applicability-free declaration used by a guard | Makes evaluation non-replayable. | Give the declaration a designator, pin its edition and dependencies, state applicability, and distinguish `not-applicable` from `unknown`. |
-| Locality change treated as automatic bridge | Splits the same kind or transfers source truth. | Compare kind definitions first. Same-kind reuse needs no bridge and requires a fresh receiving result when the receiving use is candidate-bearing; distinct-kind use needs an obtaining C.3.3 correspondence. |
+| Locality change treated as automatic bridge | The same kind is split or a source classification used beyond its grounds. | Compare kind definitions. Use the receiving declaration for the same kind. Establish the C.3.3 correspondence when the use relies on one between distinct kinds. |
 | Many declarations with the same local meaning | Produces redundant declarations and inconsistent behavior. | Consolidate redundant declarations. If their receiving uses need one stable membership distinction as a kind, identify it separately and establish any claimed `U.SubkindOf` relation. |
 | Declaration name treated as a kind synonym | Hides constraints and invites misuse. | Designate the exact declaration edition and base kind separately in prose and guards. |
 

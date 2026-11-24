@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.PAD.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
-line_start: 84072
-line_end: 84439
+line_start: 84129
+line_end: 84496
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -83,7 +83,7 @@ Typical entry phrases:
 "The ADR cannot be written yet because the decision relation is not clear."
 ```
 
-**First-minute use slice.** A product-family team has evaluated three arrangements for modules, placement and supporting evidence. Within the authority granted for this release, its architect adopts one configuration. The decision fixes certain interfaces, accepts a stated loss of evidence reuse and leaves product teams free to choose local implementations within those constraints. Record the governing act, scope, remaining choices and condition for reconsideration. If the architect was commissioned to recommend, return the preferred configuration and its grounds to the person authorized to commit the project. An ADR can describe either status.
+**First-minute use slice.** A product-family team has evaluated three arrangements for modules, placement and supporting evidence. Within the authority granted for this release, its architect adopts one configuration. The decision fixes certain interfaces, accepts a stated loss of evidence reuse and leaves product teams free to choose local implementations within those constraints. Record the governing act, scope, remaining choices and condition for reconsideration. If the architect was commissioned to recommend, return the preferred configuration and its grounds to the recipient of the recommendation. A commitment requires the decision of whoever has that authority for the project. An ADR can describe either status.
 
 The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: an architecture decision relation over one bounded architecture question with one exact composite project `U.Work` as a participant. It links that work, the decision subject, candidate basis or binding condition, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
 

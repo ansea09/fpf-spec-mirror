@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87900
-line_end: 88045
+line_start: 87957
+line_end: 88102
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -72,7 +72,7 @@ A useful general explanation supplies reasons for choices. It lets the reader sa
 
 For teaching, unfold these questions from the intended use. Supply the field's terms for the types and relations, and its operations for obtaining a result. Work through why the answers depend on one another. In practice, enter through what is available. A local record can lead back to the rule that gives it meaning. If that rule itself needs examination, make it the new subject and apply the questions to it. Later evidence about the same subject can reopen just the conclusions and actions that depended on the earlier evidence.
 
-When teaching someone to design this comparison, give the commission and the ordinary materials from which the planner works. Let the participant choose the whole, the composition scales, the dependency to follow and which model distinctions to retain or merge. Ask what makes those choices sufficient and what would reopen them. Credit a different justified arrangement or a suitable existing model that the participant selected. If the task supplies the time resolution that decides the deadline, the participant can still demonstrate a choice of route and use of the given model. A correct calculation with all these choices supplied establishes application of the design.
+When teaching someone to design this comparison, give the commission and the ordinary materials from which the planner works. Let the participant choose the whole, the composition scales, the dependency to follow and which model distinctions to retain or merge. Ask what makes those choices sufficient and what would reopen them. Credit a different justified arrangement or a suitable existing model that the participant selected. If the task supplies the time resolution that decides the deadline, the participant can still demonstrate a choice of route and use of the given model. A correct time can be copied from another planner or supplied by a helper. It may settle the scheduling question. To credit the participant with applying the model, establish which step they performed with the help available, such as combining travel and handling times or comparing the resulting time with the deadline. Credit selection of the model when the participant actually made and justified that choice.
 
 Give each answer in the terms of the work. A field supplies criteria for recognizing instances of its kinds. To decide whether two records refer to the same instrument, use the instrument's identification conditions. Two instruments can satisfy the same kind criterion. A kind, a discipline and an individual instrument can each be what a claim is about. Name which one you mean. If a model loses a difference that the judgement depends on, amend the model or limit the judgement.
 

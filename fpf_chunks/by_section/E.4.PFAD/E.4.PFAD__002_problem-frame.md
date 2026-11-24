@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:1 — Problem frame"
-line_start: 99800
-line_end: 99820
+line_start: 99857
+line_end: 99877
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -53,7 +53,7 @@ keywords:
 
 ### E.4.PFAD:1 - Problem frame
 
-Use this pattern when an author is choosing among a new or revised principle framework, a contribution to an existing framework, another product that is not a framework, a thinner publication or access route, and no new maintained product now. The choice must settle an identity, edition, relation, intended-use, or publication decision that later work must use.
+Use this pattern to recommend or decide whether a practitioner need calls for a new or revised principle framework, a contribution to an existing framework, another kind of product, a thinner publication or access route, or no new maintained product. The answer concerns an identity, edition, relation, intended use or publication choice on which later work depends.
 
 The decision may concern the public field and first use, framework edition, dependencies, initial pattern placement or relations, the kind and identity or change rule of a non-framework product, or the publication or access consequence. Use it when another author or reviewer will need the answer and its rationale to act.
 
@@ -70,5 +70,5 @@ The field account and comparison must support one independently usable pattern l
 
 If a cheap search, curated reading route, useful contribution to an existing framework, suitable non-framework product, or stop answers the immediate need without settling such a boundary, use that result and stop. Reserve the framework-architecture DRR for a later-used boundary.
 
-When the architecture question is live, use `E.4.PFAD` to state the framework-specific content of one ordinary `E.9` DRR. The decision-maker selects the answer during decision Work. The DRR records it. Practitioners use this profile to find the framework questions and answer content in the DRR, while acceptance remains a separate decision.
+When the architecture question is live, use `E.4.PFAD` to state the framework-specific content of one ordinary `E.9` DRR. The DRR records the answer and its grounds. Determine what the commission gives its recipient authority to do. An adviser can complete a reasoned recommendation and deliver it for a decision. A body empowered to select and adopt an answer can do both in one act.
 

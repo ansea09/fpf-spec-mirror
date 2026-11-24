@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:5"
 section_title: "Archetypal Grounding - SSFD Workplace Projects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__007_archetypal-grounding-ssfd-workplace-projects.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:5 — Archetypal Grounding - SSFD Workplace Projects"
-line_start: 10973
-line_end: 11000
+line_start: 10986
+line_end: 11013
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ keywords:
 
 The automotive SSFD programme supplies reports and review evidence about actual workplace projects without supplying a universal effectiveness claim. More than 300 engineers participated in a three-year transfer programme; training was followed by supported four-to-six-month workplace projects. Seventy-two of the first 100 reviewed project reports recorded SSFD use, and 41 contained enough detail for deeper analysis. Across those 41, the study reports 95 examples of evidenced individual benefits while distinguishing direct and indirect contribution.
 
-The published paper supplies report evidence. A local application admits a particular project Work occurrence only from the records required by §4.1(7); otherwise retain the report and name the missing occurrence or performer basis. The slices below distinguish possible answers to the later questions without admitting Work by citation.
+The published paper supplies report evidence. Apply §4.1(7) to establish an occurrence at the scale claimed. The project report, direct observation or other evidence can provide those grounds. Give the findings each source supports and identify any grounds still missing for admission or for crediting particular contributors. The slices below distinguish possible answers to the later questions without admitting Work by citation.
 
 #### A.3.1.WT:5.1 - Preserve the Status Branch
 

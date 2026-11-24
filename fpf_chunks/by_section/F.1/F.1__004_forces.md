@@ -6,12 +6,12 @@ section_id: "F.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:3 — Forces"
-line_start: 127346
-line_end: 127359
+line_start: 127410
+line_end: 127423
 dependencies:
   - "A.10"
   - "A.7"
@@ -39,7 +39,7 @@ keywords:
 | Relevance vs finiteness | The cut must expose answer-changing rivals and limits while remaining small enough to inspect together. |
 | Local fidelity vs cross-source use | Each source keeps its own claims and meanings while later work may compare them. |
 | Recency vs continuity | New editions matter, but only changed relied premises should reopen the result. |
-| Efficient search vs human judgment | Search aids may prioritize candidates but cannot decide their role in the answer. |
+| Efficient search and justified selection | A ranking can point to material worth opening. A person, service or team with access to the passages and the ability to interpret them can also select a source and justify its contribution. |
 | Compact memory vs source analysis | A short result should keep the decision recoverable without becoming a second literature review. |
 | Wider discovery vs question fidelity | Query variants may omit a word to reach more material, while the original conditions still govern what can answer the question. |
 | Available access vs coverage | A cheap route may reach enough material; a consequential blind spot may justify another route or an explicit access gap. |

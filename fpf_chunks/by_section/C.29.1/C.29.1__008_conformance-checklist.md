@@ -6,12 +6,12 @@ section_id: "C.29.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:7 — Conformance Checklist"
-line_start: 73766
-line_end: 73782
+line_start: 73813
+line_end: 73829
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -33,7 +33,7 @@ These checks concern a claimed use of mathematical transfer. Recognition of a pr
 | CC-C29.1-4 | An exact operation-transfer claim SHALL be supported by the comparison in C.29.1:4.3 over its stated domain. Include availability or return conditions when the receiving use depends on them. |
 | CC-C29.1-5 | For each reachable summary, an exact answer recovered from it SHALL equal the requested value in every source case it represents. For one guaranteed action, justify a choice that meets the requirement in every case compatible with the information available to its performer. A bound or a set of possibilities needs the corresponding coverage argument. |
 | CC-C29.1-6 | A bound or approximation claim SHALL explain why it covers the allowed cases, the direction of its inequality and the subsequent error propagation needed by the receiving use. |
-| CC-C29.1-7 | A returned receiving solution claimed to be feasible in the source SHALL identify an allowed source counterpart with the stated properties. A relaxation optimum alone supplies no such counterpart. |
+| CC-C29.1-7 | A returned receiving solution claimed to be feasible in the source SHALL identify an allowed source counterpart with the stated properties. For a route promised to actual performers, these include the access and capabilities its steps require. A relaxation optimum alone supplies no such counterpart. |
 | CC-C29.1-8 | The returned conclusion SHALL retain its answer-changing assumptions and distinguish the result obtained from the further work still needed. A physical application includes the physical premises; a changed premise reopens the dependent comparison. |
 
 A complete argument about a mathematical model establishes its stated conditional consequence. Confidence that an observed system satisfies the premises, or that an implementation performs the operation, comes from the corresponding subject work.

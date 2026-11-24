@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA Decision for One Reader-Facing Term Row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-decision-for-one-reader-facing-term-row.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:16 — SoTA Decision for One Reader-Facing Term Row"
-line_start: 134269
-line_end: 134294
+line_start: 134333
+line_end: 134358
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ For a reader who needs the settled naming decision and its source together, use 
 
 When morphology, translation, or machine lexicon exchange is the actual use, the core model and only its needed extensions may be the better carrier. No measured speed advantage, blanket cost superiority, or replacement of OntoLex is claimed.
 
-**Exact effect and countercases.** Steps 1–5 of section `4`, together with sections `6` and `14`, stop at ordinary wording, a local card, or a cell when no row is needed; steps 7–8 of section `4`, together with sections `5.1` and `7`, make the row's returns explicit and keep later publication separate.
+**Exact effect and countercases.** Steps 1–5 of section `4`, together with sections `6` and `14`, stop at ordinary wording, a local card, or a cell when no row is needed; steps 7–8 of section `4`, together with sections `5.1` and `7`, make the row's returns explicit and distinguish its admission from its availability to an audience. One authorized operation can establish both when the publication arrangement gives readers access on admission.
 
 The countercase in `12.2` prevents a state label from becoming a system-role kind, `12.4c` leaves ordinary mantra wording without rows, `12.4h` distinguishes a reusable structure kind from one selected instance, and `12.4i` returns the Reference name to its product-form rule without creating a product or lookup Work.
 

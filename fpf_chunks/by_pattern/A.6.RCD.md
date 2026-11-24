@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RCD.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
-line_start: 22166
-line_end: 22563
+line_start: 22182
+line_end: 22579
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -293,7 +293,7 @@ No production or entity-inception claim is current because `Housing_42` already 
 
 **Positive case.** All three required conditions above are satisfied, so the direct predicate is satisfied and a claim-bearing episteme may state `fulfilsPromiseContent(Work_DeliverHousing42, PromiseContent_Housing42_v3)` without creating the occurrence.
 
-**Discriminating failures.** `Work_DeliverHousing42` can occur and `Housing_42` can be in the target post-state while `PromiseContentUse` is absent or concerns another promise edition; then `PromisedOutcomeDeliveryRelation` for this promised outcome does not obtain and the promise is not fulfilled. Or the delivery relation can obtain while one acceptance condition is false; an `accepted` label or report cannot repair that failure. Missing evidence leaves reliance on the assertion unresolved; it creates neither fulfilment nor non-fulfilment.
+**Discriminating failures.** The occurrence of `Work_DeliverHousing42` and the required physical state of `Housing_42` alone leave delivery under the promise open. If the applicable rule and case facts establish that no qualifying `PromiseContentUse` resolved this `OutcomeSpec` for that Work, the outcome-delivery relation does not obtain. A qualifying use of a different promise edition that resolves the same `OutcomeSpec` can ground the outcome-delivery relation for this Work and specification. Fulfilment of the edition under review still requires its own `PromiseContentUse` and acceptance conditions. Or the delivery relation can obtain while one acceptance condition is false; an `accepted` label or report cannot repair that failure. Missing evidence leaves reliance on the assertion unresolved; it creates neither fulfilment nor non-fulfilment.
 
 **Disposition and stop.** Stop at disposition 1 under A.2.3. No new compound-law episteme, predicate definition, relation kind, or `RelationSignature` is needed. Use A.6.REL if a later use must identify or reidentify this fulfilment, distinguish it from another occurrence, refer to it or use it as a participant.
 

@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 43416
-line_end: 43560
+line_start: 43435
+line_end: 43579
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,7 +62,7 @@ keywords:
 
 When one operation application matters, use A.6.1 for that application and its argument and result bindings.
 
-A practitioner sentence may still say "the engineer compiled the guidance". If no dated `U.Work` claim is current, that ordinary sentence needs no classification or assignment apparatus. If one is current, recover every performer System's A.13 core and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 afterward only when assignment-bound attribution is current. A short B.1.3 projection may omit an assignment identifier unused by its receiver only when every relation it consumes remains recoverable.
+A practitioner sentence may still say "the engineer compiled the guidance". If no dated `U.Work` claim is current, that ordinary sentence needs no classification or assignment apparatus. If one is current, establish the A.13 basis for each System credited at the scale of the claim. Apply A.15.1 to the dated Work, including its performance history, enacted Method, temporal extent and containing System. The editorial office can have compiled the guidance even if the records leave the editor of one entry unidentified. Add F.6 afterward only when assignment-bound attribution is current. A short B.1.3 projection may omit an assignment identifier unused by its receiver only when every relation it consumes remains recoverable.
 
 An operation result binding says which value the application returned; it establishes neither production nor first existence of that value, publication, release, acceptance, nor a carrier. Open A.15.PROD or the publication patterns only when one of those separate questions is current.
 

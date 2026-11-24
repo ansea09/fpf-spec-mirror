@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
-line_start: 97628
-line_end: 97833
+line_start: 97685
+line_end: 97890
 dependencies:
   - "A.10"
   - "B.3"
@@ -137,7 +137,7 @@ BiasRegister@Context:
 
 Choose depth from the claim and consequence that the recipient needs to judge. A bounded finding, corrected metric statement, or identified conflict can complete the present use, including when it concerns an affected group or appears in a publication. Retain the limitation that prevents that result from being read as a wider fairness or assurance claim.
 
-Use a fuller `BiasAuditReport@Context` when the receiving decision needs to inspect the combined evidence, mitigations, and residuals behind an audit or assurance conclusion. A consequential or reusable causal-fairness audit retains this report and the C.28 support it consumes. A release that relies on a protective claim needs the evidence and audit account required to support that claim. Reuse a matching existing account; after a material change, reopen the claims whose basis or use changed. The report is a Description episteme or publication-use object, with scope and depth set by that reliance.
+Use a fuller `BiasAuditReport@Context` when the receiving decision needs to inspect the combined evidence, mitigations, and residuals behind an audit or assurance conclusion. A consequential or reusable causal-fairness audit retains this report and the C.28 support it consumes. A release that relies on a protective claim needs the evidence and audit account required to support that claim. Reuse a matching existing account for the findings it supports. Where the commission orders an independent audit or a named auditor's own examination, establish what that auditor examined, which sources and prior conclusions were supplied and what judgement the auditor reached. After a material change, reopen the claims whose basis or use changed. The report is a Description episteme or publication-use object, with scope and depth set by that reliance.
 
 A concrete indication of harm, a missing basis for an intended claim, or an applicable assurance requirement can make further investigation necessary before that use. Name what its result could change, who can obtain it, and whether its contribution warrants its full cost and delay; use `C.11.DUA` when this appraisal is unresolved. If the needed basis remains unavailable, state which intended claim remains unsupported and give any feasible narrower use, mitigation, or stop with its conditions.
 
@@ -167,13 +167,13 @@ The C.28 result is one evidence basis for the audit conclusion. Interpret it wit
 
 ### D.5:5 - Ethical Assurance Boundary
 
-State the protection on which the recipient will rely and the use for which it is claimed. The record of an examination can establish that an audit took place. To rely on the protection, connect its criterion to the relevant findings, the people and decisions they cover, the effects of mitigation and the remaining exposure. Establish who may authorize proceeding with that exposure when such a decision is required.
+State the protection on which the recipient will rely and the use for which it is claimed. A record can establish the examination that occurred. Use observations or records that support the particular claim about access or participation. For a claim based on people’s accounts, identify whose experience or view they report. A representative can speak within a mandate. To attribute a response, endorsement or assent to a particular person, establish that person’s contribution. To rely on the protection, connect its criterion to the relevant findings, the people and decisions they cover, the effects of mitigation and the remaining exposure. Establish who may authorize proceeding with that exposure when such a decision is required.
 
 Use `B.3` for the assurance relation. Establish the needed evidence and its currentness through the applicable subject and source rules; use `A.10` when the source-to-use relation is implicit or must be made replayable. Use `D.3` to describe an interlevel ethical conflict and `D.4` to mediate or use it in a decision. Use `C.30.ILC` when the issue is an architecture residual rather than a bias or fairness audit.
 
 ### D.5:6 - Archetypal Grounding (Worked Slice)
 
-Suppose a hiring-screening model agreed with a reviewed reference decision on 90 of 100 applications. Each applicant in the comparison submitted one application, and ten of the applicants belong to the group under review. All ten discrepancies could fall inside that group or all ten could fall outside it. A reliable subtotal of agreements for those ten applications, or a count from the corresponding decisions, can establish the observed group rate. If applicants can submit repeatedly, a rate per person also needs a rule for counting their decisions. An estimate for a wider population needs grounds for extending the comparison and an account of its uncertainty. A judgement about fair treatment also needs a criterion for what counts as fair in that use. People unable to submit an application are outside this calculation. A claim about access must account for them.
+Suppose a hiring-screening model agreed with a reviewed reference decision on 90 of 100 applications. Each applicant in the comparison submitted one application, and ten of the applicants belong to the group under review. All ten discrepancies could fall inside that group or all ten could fall outside it. A reliable subtotal of agreements for those ten applications, or a count from the corresponding decisions, can establish the observed group rate. If an external auditor was also commissioned to check the comparisons, establish what they examined. Signing a supplied total can attest to that signature while leaving the examination open. If applicants can submit repeatedly, a rate per person also needs a rule for counting their decisions. An estimate for a wider population needs grounds for extending the comparison and an account of its uncertainty. A judgement about fair treatment also needs a criterion for what counts as fair in that use. People unable to submit an application are outside this calculation. A claim about access must account for them.
 
 If the team claims counterfactual fairness, C.28 must expose the causal estimand, additional counterfactual-identifiability assumptions, and an estimate with its consistency result when that estimate is relied on. Missing conditions lower the C.28 support result before D.5 decides its audit use. If the audit exposes a conflict between company efficiency and applicant harm across declared scopes, D.3 describes that conflict and D.4 guides its decision use.
 

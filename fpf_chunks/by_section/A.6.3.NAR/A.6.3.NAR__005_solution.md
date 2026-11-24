@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 20342
-line_end: 20521
+line_start: 20355
+line_end: 20535
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -43,13 +43,13 @@ keywords:
 
 ### A.6.3.NAR:4 - Solution
 
-Produce the ordinary useful result first:
+For authorship, develop the account the reader needs. For assessment or repair, start with the supplied narrative and compare it with the source for its intended use. Retain choices that work and revisit the ones that leave the warranted conclusion or its grounds unavailable.
 
 1. Name the reader or listener and the practical use: what must become understandable, reconstructible, predictable, or discussable.
 2. Point to the source material and select only the structures needed for that use. Say why those structures matter.
 3. State temporal posture or mediation only when it changes the ordering or the trust boundary.
 4. Choose an ordering and connective account: event, causal, discovery, didactic, tension, traversal, or another explicit rule.
-5. Draft the smallest narrative that lets the reader follow that path. For technical prose, use F.19 for plain-language repair.
+5. Develop the narrative until the reader can follow the path from the problem through the selected structure to the promised conclusion. A short account can do this when the needed connections are already apparent. For technical prose, use F.19 for plain-language repair.
 6. Compare the draft back to the source material. Record what it preserves and foregrounds, what it omits or weakens, and which connective or interpretive statements are not source claims.
 7. State the supported narrative use. When omitted structure or a changed question requires return, identify the source to restore or the stronger claim-specific question and its governing pattern. Any excluded use follows F.19:4's full guard test.
 
@@ -100,6 +100,7 @@ StructureToNarrativeRenderingCase:
   narratingOrRenderingSystemRef?: U.EntityRef resolving to an admitted U.System
   narratingOrRenderingSystemRoleKindRef?: U.KindRef resolving to one local system-role kind
   narratingOrRenderingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
+  // For several commissioned contributions, group the relevant Work, performers and any relied-on assignments for each.
   readerOrListenerSystemRefs[]?: U.EntityRef values resolving to admitted systems
   readerOrListenerSystemRoleKindRefs[]?: U.KindRef values resolving to local system-role kinds
   readerOrListenerSystemRoleAssignmentRefs[]?: U.RelationRef values constrained to U.SystemRoleAssignment
@@ -121,7 +122,7 @@ StructureToNarrativeRenderingCase:
 
 `selectedSourceStructureRefs` identifies the selected structures. A PatternID mentioned in `sourceStructureSelectionRationale` or surrounding prose only locates the content used to recognize or test them; it is not another structure reference. Include `sourceStructureDefinitionClaimEpistemeRefs` or `sourceStructureConstraintClaimEpistemeRefs` only when the identity of one or more definition or constraint claims changes reconstruction, comparison, dispute, or reliance. Both lists may be present and each resolves only to claim-bearing C.2.1 epistemes of the named kind.
 
-Resolve `X` and `Y` to their C.2.1 identities and use this record only for the construction account. When production history matters, recover each performer's A.13 core and independently admit dated narrative-construction Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current.
+Resolve `X` and `Y` to their C.2.1 identities and use this record only for the construction account. When production history matters, use the Work and performer entries for each contribution in question. An editor may choose the facts and order and another participant may compose the account. Identify joint Work when the performance history supports it. For each claimed Work, recover its performers’ A.13 grounds and admit the occurrence under A.15.1. Add F.6 for each assignment-bound attribution used.
 
 Include `readerInterestOrUseHypothesis` only when an assumption about the reader affects selection or ordering; retain it as a hypothesis. Include each optional System, system-role-kind, or assignment reference only when its referent and direct claim obtain independently.
 

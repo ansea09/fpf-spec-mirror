@@ -6,12 +6,12 @@ section_id: "C.43:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:5 — Archetypal Grounding"
-line_start: 95850
-line_end: 95956
+line_start: 95907
+line_end: 96013
 dependencies:
   - "A.12"
   - "C.11"
@@ -43,7 +43,7 @@ During use, the operator checks the assumption that test delay leaves both actio
 
 A service team has one qualified specialist available from 09:00 to 15:00. Under the stated conditions the repair takes four hours and the team’s other accepted obligation takes three. Each is ready to start and can be completed on its own in that window. If their work is distinct and the specialist is needed throughout, seven hours are required. The team cannot deliver both by 15:00.
 
-Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. For a promise covering uncertain durations, establish how the deadline can be met throughout the promised range. When the stipulated durations are fixed, the exhibited schedule settles this case.
+Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. For a promise covering uncertain durations, establish how the deadline can be met throughout the promised range. With the stipulated durations and the material ready by 13:00, the exhibited schedule works. Suppose the repair must start at 10:00 and the common inspection identifies one of two procedures by then. The specialist is equipped and qualified for either, and each fits the three hours reserved. A team authorized to commit to the deliveries can give that promise before the inspection. If the procedures require different starts at 10:00 and the finding reaches the specialist at 10:15, that schedule no longer supports the promise.
 
 When the distinct work requires seven hours, possible changes include obtaining another qualified hour usable on the work in time, agreeing with the affected recipient on a different scope or deadline, or asking the authorized participant to choose which consequence to accept.
 
@@ -78,9 +78,9 @@ The common Method has supplied a connected research result: two proposed observa
 
 Consider a constructed case. A team produces sound diagnoses with one expert's help. Its other members can calculate candidate explanations, but cannot yet recognize when an important modeling assumption has failed. The current work is successful; the wanted development is the team's ability to handle that judgement when the expert is unavailable.
 
-The recommender recovers the connection: calculation is available, assumption recognition is not, and the expert currently supplies it. It constructs three proposals to examine against the team’s aims and commitments. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
+The recommender recovers the connection: the team can calculate and can obtain a judgement about a failed assumption from the expert today. To secure that judgement after the expert leaves, establish who must then make it and what help will still be available. It constructs three proposals to examine against the team’s aims and commitments. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
 
-The first can be sufficient if the only retained aim is delivery. The second aims to develop local judgement. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
+Continuing the service can secure delivery if another qualified contributor will be available when needed. If the team itself must learn to recognize a failed assumption, use practice and feedback, then examine a judgement it makes with the support permitted after the expert leaves. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
 
 Compare the alternatives from the team's present repertoire and commitments. Practice consumes time that could deliver existing work; the expert must have time to give the proposed feedback; continuing external help remains part of the result where required. Choose the combination only if its additional attainable capability and future uses warrant that burden. An AI assistant can supply contrasts or perform calculation, but the comparison asks which consequential judgement the resulting team can obtain and under what continuing help.
 

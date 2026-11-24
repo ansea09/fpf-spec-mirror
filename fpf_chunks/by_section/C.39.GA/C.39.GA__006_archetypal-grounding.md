@@ -6,12 +6,12 @@ section_id: "C.39.GA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:5 — Archetypal Grounding"
-line_start: 88199
-line_end: 88204
+line_start: 88256
+line_end: 88261
 dependencies:
   - "C.39.RO"
   - "C.39.SA"
@@ -26,5 +26,5 @@ keywords:
 
 A guide promises to teach when an earlier inspection can support a later acceptance decision. It recounts how a team corrected the drawing title and accepted a component on yesterday’s inspection. “Reuse the inspection after a document edit” gives the right answer in that episode. The same wording would also cover an edit that changed the allowable load. At the first step from “the title changed” to “the previous inspection suffices,” the guide relied on what this particular edit left unchanged.
 
-A repair the recipient can use is to identify the property that acceptance depends on, the item inspected, the conditions the inspection covered and the evidence the acceptance agreement calls for. Compare these with the changed order. If the earlier evidence establishes the required property under the conditions now in force and satisfies the agreement, use it. If the load changed, an inspection that already covered the new load can still suffice. If the earlier result leaves performance there open, obtain the missing grounds before accepting. An order for a fresh inspection creates a further obligation. The title correction illustrates one way the earlier grounds can remain sufficient. The reason for reuse also covers changes that leave those grounds sufficient in other ways.
+A repair the recipient can use is to identify the property that acceptance depends on, the item inspected, the conditions the inspection covered and the evidence the acceptance agreement calls for. Compare these with the changed order. If the earlier evidence establishes the required property under the conditions now in force and satisfies the agreement, use it. If the load changed, an inspection that already covered the new load can still suffice. If the earlier result leaves performance there open, obtain the missing grounds before accepting. An order for a fresh inspection creates a further obligation. The title correction illustrates one way the earlier grounds can remain sufficient. The reason for reuse also covers changes that leave those grounds sufficient in other ways. If the reader must learn to choose which property matters, let them examine the changed order and give their grounds before identifying the load for them.
 

@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 105516
-line_end: 106278
+line_start: 105577
+line_end: 106339
 dependencies:
   - "A.10"
   - "A.15"
@@ -208,7 +208,7 @@ When a phrase makes the bounded unit sound like authoring work or interpretation
 
 | If local wording meant… | Rewrite as… |
 | --- | --- |
-| bounded human-inspected unit inside a publication | `PublicationUnit` |
+| bounded unit that a reader inspects within a publication | `PublicationUnit` |
 | the act of writing or editing | ordinary authoring or editing. Name dated Work only when one occurrence is asserted; use a planning cue or content inside an admitted `U.WorkPlan` when intended work and its planning claims are current. An exact episteme is `U.WorkPlan` only after A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. When the sentence instead concerns the authored object, use a separately identified claim-bearing episteme under its own exact kind. Any production or change relation between the Work and that episteme needs its own defining rule or pattern. The authored episteme is `U.MethodDescription` only if its EntityOfConcern is one admitted `U.Method` and its claims independently pass A.3.2; the writing or editing act is never the MethodDescription. |
 | a pattern body or section | FPF pattern body, pattern section, or `PublicationUnit` of that pattern |
 | a file or rendered medium | carrier, front-end, rendering, or document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use |
@@ -374,16 +374,16 @@ Use the ordinary word once the surrounding text makes the intended object and us
 
 ##### E.10:0.2c.10 - `reader`, `reviewer`, `author`, `operator`
 
-Do not use people-position words as hidden kind names.
+Use these words for the contribution or position the claim actually describes. They can name an intended audience or responsibility before anyone has carried out the work.
 
 Use:
 - `working reader` or `intended practitioner` for ordinary usability;
 - `engineer-manager` when the FPF use case is the engineer-manager applying the pattern in work;
-- `reviewer` only for a participant in a named review relation; use review process, review gate, or review target for the process, gate, or object;
+- `reviewer` for the intended review function, a designated reviewer or a participant who actually reviewed, according to the claim. Establish appointment or performance when asserting it. Name the review process, gate or target when that is the subject.
 - `author` only for authoring or editing work;
 - *operator* only after the claim is recovered: it may name an admitted system classified under an exact local `OperatorSystemRole`, a process or mathematical operator, an organizational or interface position, an ordinary title, or another direct relation; the word alone selects none;
 
-If a text says "reader-facing" or "review-facing", it also names what is facing that person: generic publication face, declared MVPK face, packet, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, `PublicationUnit`, carrier, or UI or front-end.
+If a text says "reader-facing" or "review-facing", identify what the intended recipient can inspect or use: generic publication face, declared MVPK face, packet, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, `PublicationUnit`, carrier, or UI or front-end.
 
 ##### E.10:0.2c.11 - `owner`, `home`, `host`, `locus`
 
@@ -440,7 +440,7 @@ Use these words when the sentence makes clear **what participates or is used, in
 | “The test contributes evidence.” | State which test result supports which claim and under what limits, using the direct evidence rule and A.10 when the source-to-use account needs recovery or replay. Evidence for a residual at sampled marks need not warrant the whole interval. |
 | “The replacement adds value.” | Compare the realizable changed configuration with the present one under C.11.CRC when its finite-change question is current. Keep the affected results, resources, horizon and uncertainty visible. |
 | “The contribution field is filled.” | Read what this record declares and what its value identifies or asserts. A role eligible to supply a result can be named before anyone does the work. An entry for completed work can carry the evidence for attribution. Recover what the entry warrants for the question at hand under A.6.P:4.4. |
-| “The author makes an original contribution.” | Name the new distinction, Method or explanation and the question it answers. E.8:11 compares that answer with alternatives; authorship alone establishes neither novelty nor practical superiority. |
+| “The author makes an original contribution.” | Name the new distinction, Method or explanation and the question it answers. Establish who introduced or jointly constructed it. A source may already supply the distinction while its present author selects, tests or explains it. Use E.8:11 to compare its contribution with alternatives. |
 
 A supplied recording, its use by an analyst, a claimed causal effect and a comparison of two configurations need different statements. Use A.6.P when a predicate or participant remains hidden, C.2.P for an unresolved source/content/use distinction, and C.28 for a causal claim. C.11.CRC does not replace a comparison of source content with no realizable configuration change.
 
@@ -547,9 +547,9 @@ For an unused side, record absence only when a named receiving use must distingu
 
 Do not let `action` cover every project-side event. An action nominal such as `testing`, `assembly`, `maintenance`, `evaluation`, or `inspection` is a morphology cue, not a kind. Placement in function- or flow-structure prose identifies no `U.Function`: apply `A.6.F` when the function-like use remains claim-bearing and its FPF object or relation is hidden; otherwise name the already recovered method, method description, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, functional-view record, plan content, exact Work occurrence, or other value under the pattern that defines it. A WBS element, activity, or Work Package remains plan- or assignment-episteme content about intended work; none of these uses identifies an actual Work occurrence admitted under `U.Work`.
 
-Split decision-making and decision records under `C.11`; local system-role-kind classification under A.2; `U.SystemRoleAssignment` occurrences under A.2.1; Method under A.3; planned work and WorkPlan under `A.15.2`; dated Work occurrences under `A.15.1`; actual launch or performed values under obtaining direct relations or A.6.1 bindings; separate performed-work, finalization, result, telemetry, and gate records under the patterns that define them; action invitation under `A.6.A`; communicative acts under `A.2.9`; commitments under `A.2.8`; and strong grants under `A.2.8.PER`. A method-description field, planned filling, compatible type, ticket, or nearby result record establishes no actual participant relation.
+Split decision-making and decision records under `C.11`; local system-role-kind classification under A.2; `U.SystemRoleAssignment` occurrences under A.2.1; Method under A.3; planned work and WorkPlan under `A.15.2`; dated Work occurrences under `A.15.1`; actual launch or performed values under obtaining direct relations or A.6.1 bindings; separate performed-work, finalization, result, telemetry, and gate records under the patterns that define them; action invitation under `A.6.A`; communicative acts under `A.2.9`; commitments under `A.2.8`; and strong grants under `A.2.8.PER`. A planned filling or a compatible type can leave the position open. To use a ticket or record as grounds for an actual participant relation, establish how it relates to the work or how the applicable rule makes an authorized entry effective.
 
-A reusable name for performed work goes to `F.18` only after A.13 and A.15.1 independently admit the Work occurrence from its actual performer basis, time, Method, and containing System. If the reusable account also needs precise assignment-bound attribution, establish F.6 afterward through the same obtaining assignment. Keep the affected referent, application bindings, resource use, and other direct facts separately recoverable. Add a continuity policy only when occurrence identity matters. Keep production, measurement, evaluation, delivery, acceptance, and downstream-effect claims under their direct patterns.
+A reusable name for a Work kind can be established under `F.18` before the first performance. To name a particular Work occurrence, first establish it under A.13 and A.15.1 from its actual performer basis, time, Method and containing System. If the reusable account also needs precise assignment-bound attribution, establish F.6 afterward through the same obtaining assignment. Keep the affected referent, application bindings, resource use, and other direct facts separately recoverable. Add a continuity policy only when occurrence identity matters. Keep production, measurement, evaluation, delivery, acceptance, and downstream-effect claims under their direct patterns.
 
 `P2W` in `E.18.1` carries accepted problem-side content into a question needed by the receiving work, then preserves that content in the result or stop obtained using the pattern that answers the question. `E.18:2` describes a first-principles specialization that can connect principles, theories and signatures with method choice, work planning, work execution, separate measurement or evaluation, and cycle return. The parts used depend on the receiving question; `E.18.1:4.0b` governs when an explicit transformation-flow structure is needed.
 
@@ -664,7 +664,7 @@ Recover the values required by that claim:
 - contestability, revocation, scope, window, and expiry condition.
 
 Labels, badges, signatures, dashboards, certificates, comments, reviewer praise, and generated explanations may cue authority-looking cases.
-They do not carry authority unless the authority act, authority record, authority-reference relation, and evidence or provenance relation selected by the direct authority pattern are named.
+Determine what the terms in force make effective. An authorized signature can enact a decision, a display can communicate it, and an existing permission can cover the case without a new act. When the terms reserve the decision to a particular participant, establish that participant’s act. Use the direct authority pattern to determine what grounds support the claim.
 
 ##### E.10:0.2c.28 - `profile`, `harness`, `catalog`, `registry`, `index`, `map`
 
@@ -776,7 +776,7 @@ Split:
 - evidence marker.
 
 A label, badge, mark, or cue may trigger review.
-It does not prove currentness, identity, authority, evidence, gate passage, deontic permission, or release authorization unless the source relation and the evidence or provenance relation selected by the relevant pattern are named by value.
+For a consequential mark, establish what makes it a reliable indication or an operative act for this use. A mark can report a prior decision. Under a rule that makes an authorized entry effective upon display, it can also put the decision into effect. Use the source and evidence relations needed for the claim about identity, permission, gate passage or release.
 
 #### E.10:0.2d - Using the cue surface
 

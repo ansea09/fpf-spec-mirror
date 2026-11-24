@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:12 — Relations"
-line_start: 9570
-line_end: 9584
+line_start: 9583
+line_end: 9597
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,7 +54,7 @@ keywords:
 
 **Used by**
 
-* **A.2.8 (`U.Commitment`)** when an exact policy treats the speech act as the required instituting basis and the direct commitment predicate independently holds, and **A.2.8.PER** when a `GrantedPermissionRelation@Context` independently obtains with this act as `institutingSpeechActRef`.
+* **A.2.8 (`U.Commitment`)** when this act supplies all or part of the required basis for an independently obtaining commitment, and **A.2.8.PER** when this act alone or together with other acts under the applicable rule institutes an independently obtaining `GrantedPermissionRelation@Context`.
 * **A.2.5 (assignment-state predicates and their Work-admission use)** when the selected state predicate or direct consumer requires an authorization or approval act.
 * **A.6.C** for unpacking promise, approval, guarantee, and agreement-like boundary wording while preventing episteme-as-agent claims and preserving provenance.
 

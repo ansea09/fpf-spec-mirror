@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.5.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
-line_start: 32086
-line_end: 32322
+line_start: 32103
+line_end: 32339
 dependencies:
   - "A.10"
   - "A.15"
@@ -138,7 +138,7 @@ Full-kit thinking helps recognize possible inputs. Check only the input claims t
 2. current information, source-currentness, publication, measurement, evidence, or assurance claims under their subject patterns;
 3. resource-availability or reservation claims, intended performer Systems and local system-role-kind conditions, any already obtaining occurrence of an exact directly declared `U.SystemRoleAssignment` species when C requires an assignment, capability threshold or fit result, and commitment claims when C uses them; plus any current work-in-progress or load and flow-policy claims under the pattern that defines their counted work, boundary, threshold, and qualification window;
 4. preparation or checking results required by C, and separately admitted preparation/checking Work only when its occurrence is consumed by the criterion;
-5. prospective A.2.8.PER grant, non-prohibition, or conflict facts and their qualification windows when permission is current; and
+5. the applicable prospective permission basis, including a standing rule and the facts satisfying it, or the particular A.2.8.PER grant or finding the criterion uses, within its effective scope and time; and
 6. an exact A.21 `GateDecisionResult` only when a current A.21 profile application governs the declared check applications and their mappings to that decision. The gate decision remains a separate result.
 
 A post-launch variance or recheck result may enter only after the target Work is actual and only through the measurement, comparison, evaluation, resource, temporal, acceptance, or other pattern that defines that result. Name the target Work, comparison or evaluation rule, local result, qualification window, and subject pattern. It may trigger or inform an explicitly marked recheck; it neither proves that readiness held before entry nor rewrites the earlier readiness result.
@@ -156,7 +156,7 @@ Keep commitment facts separate from the readiness value. The criterion may consu
 
 The older labels `readyForProbe`, `readyForCommitment`, `committed`, `blocked`, and `requiresGateDecision` therefore resolve to a local readiness value plus an explicit next move, commitment claim, stop, or gate question; they are not additional `ReadinessResultValue` members.
 
-Use `A.2.8.PER` when a pre-entry readiness criterion consumes permission material. Name each value and its own qualification: a current `GrantedPermissionRelation@Context` occurrence with its beneficiary, permitted-action specification, `U.ClaimScope`, and `validityWindow`; a distinct `NonProhibitionFinding@Context` with its frame and `evaluationWindow`; and any `PermissionNormConflictFinding@Context` with its `overlapWindow` and disposition. For a settled conflict, retain the applicable precedence rule and its qualification, or the current resolution result and `effectiveWindow`, according to A.2.8.PER:4.6. Non-prohibition is not a grant, and a grant does not itself settle a conflict. An unresolved conflict limits the readiness use under C; the affected action remains blocked under the permission rule. Cite `PermissionExerciseRelation@Context` or `NonViolationFinding@Context` only for already dated Work: either as evidence about a different Work occurrence or in an explicitly marked post-launch recheck after the target Work is actual, retaining its own `exerciseInterval` or `evaluationWindow`. Those retrospective findings support their named past claims; prospective grant, capability, readiness and entry claims need their own current grounds.
+When the readiness criterion depends on permission, establish how it arises under `A.2.8.PER`. A standing rule and the qualifying facts can directly permit entry. For a criterion that calls for one or more of the following values, identify each required value within its qualification: a current `GrantedPermissionRelation@Context` occurrence with its beneficiary, permitted-action specification, `U.ClaimScope`, and `validityWindow`; a distinct `NonProhibitionFinding@Context` with its frame and `evaluationWindow`; and any `PermissionNormConflictFinding@Context` with its `overlapWindow` and disposition. For a settled conflict, retain the applicable precedence rule and its qualification, or the current resolution result and `effectiveWindow`, according to A.2.8.PER:4.6. Non-prohibition is not a grant, and a grant does not itself settle a conflict. An unresolved conflict limits the readiness use under C; the affected action remains blocked under the permission rule. Cite `PermissionExerciseRelation@Context` or `NonViolationFinding@Context` only for already dated Work: either as evidence about a different Work occurrence or in an explicitly marked post-launch recheck after the target Work is actual, retaining its own `exerciseInterval` or `evaluationWindow`. Those retrospective findings support their named past claims; prospective grant, capability, readiness and entry claims need their own current grounds.
 
 Use A.21 when a current profile application governs the declared check applications and their mappings to a distinct `GateDecisionResult`. Keep that result, scope, currentness and qualification window recoverable. Use `DecisionLogRef` when a log supplies the access, audit or replay path or the applicable policy requires it.
 

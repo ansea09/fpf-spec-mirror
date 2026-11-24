@@ -6,12 +6,12 @@ section_id: "C.39.QR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:5 — Archetypal Grounding"
-line_start: 87761
-line_end: 87801
+line_start: 87818
+line_end: 87858
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -47,7 +47,7 @@ C's remaining half-hour is unallocated. Each interval has the required two contr
 
 The completed contribution is this jointly feasible arrangement and its provisioned access. The manager communicates the assignments, obtains the performers' acknowledgement and hands the arrangement to the duty lead for the stated period. Within the case's supplied facts, the answer to the original coverage question is supported. The spreadsheet remains a useful capacity calculation; the interval construction and completed provisioning supply the previously missing grounds. Service quality during operation requires its own observation.
 
-Now suppose C's access becomes unavailable from 11:00. The available person-hours and their arithmetic are unchanged, while the final interval has only one equipped responder. Return to that connection. If an already qualified D is available and provisioned for 11:00–12:00, the manager assigns D alongside A and confirms the changed handover. Earlier intervals remain valid. If no such contribution can be obtained, the duty lead is told which interval remains uncovered and the original commitment remains unresolved; changing that commitment requires its authorized recipient. This is a different continuation from recalculating the unchanged aggregate hours.
+Now suppose C's access becomes unavailable from 11:00. The available person-hours and their arithmetic are unchanged, while the final interval has only one equipped responder. Return to that connection. If an already qualified D is available and provisioned for 11:00–12:00, the manager assigns D alongside A and confirms the changed handover. Earlier intervals remain valid. If nobody can cover the gap, tell the duty lead which interval lacks coverage. Apply any consequence the agreed terms already prescribe. If a different commitment still requires agreement, take the proposal to those authorized to give it. This is a different continuation from recalculating the unchanged aggregate hours.
 
 #### C.39.QR:5.3 - Obtain a warranted population claim and use it for the agreed decision
 

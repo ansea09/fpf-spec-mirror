@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:5 — Archetypal Grounding"
-line_start: 127531
-line_end: 127658
+line_start: 127595
+line_end: 127722
 dependencies:
   - "A.10"
   - "A.7"
@@ -102,7 +102,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 - **Exclude:** “No inspected claim from this source changes the stated use; record the exclusion and what would reopen it.”
 - **Return a gap:** “This unavailable or uninspectable source may be load-bearing; the cut remains limited here.”
 - **Keep meanings local:** “Selection puts both sources in view; it does not say their terms are identical or related.”
-- **Use search assistance:** “The ranking tells us what to inspect next; we decide whether to retain the source from the claim we inspect.”
+- **Use search assistance.** “The ranking led us to the drawing. The archive service retained it because it checked the relevant clause and its exception against our question.”
 - **Reopen:** “This question, use, relied claim, rival, counterexample, or transfer boundary changed, so select again.”
 
 

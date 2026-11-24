@@ -6,12 +6,12 @@ section_id: "C.11.DBR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 60475
-line_end: 60484
+line_start: 60506
+line_end: 60515
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -33,5 +33,5 @@ keywords:
 | Reopen everything connected to the decision | Follow direct reliance and retain independently supported uses. |
 | Treat every prediction error as grounds for reversal | Check comparability and the decision's material condition first. |
 | Demand a causal study before any useful answer | Distinguish the causal claim from the current choice; use C.11.DUA on attainable inquiry. |
-| Complete a formal feedback record before deciding | Supply a small reconsideration statement; cite the independently returned choice afterward. |
+| Complete a formal feedback record before deciding | Supply the reconsideration the recipient needs. Use an existing binding condition or an independently established decision when it settles what happens next. |
 

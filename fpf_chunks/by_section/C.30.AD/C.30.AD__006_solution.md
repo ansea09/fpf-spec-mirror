@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 75649
-line_end: 75889
+line_start: 75700
+line_end: 75940
 dependencies:
   - "A.1"
   - "A.10"
@@ -206,7 +206,7 @@ Common architecture-description views:
 
 Before combining two views, establish whether they describe the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different subjects. State that correspondence as a supported claim or cite a direct relation that holds. When source material enters the use, identify the source and its contribution. Use `sourceToUsePathRefs` when that provenance needs a citable G.6 path: `PathCitationRecordRef` here means a reference to one G.6 `PathCitationRecord`, resolving its EvidenceGraph, path and slice. That descriptive path cites independently established direct relations; it is not itself one of them. Add a return condition when a stronger use needs the named source or its defining claims.
 
-**Coarse-graining check.** A coarser description groups, omits or summarizes distinctions. Identify what was grouped and how it corresponds to the finer description. For a positive conclusion shared by every admissible arrangement, establish that at least one is possible and that the conclusion holds throughout the admitted possibilities. When the question is whether any is feasible, a proof that the conditions are incompatible can settle it directly. If a binding or observation narrows the arrangements further, carry that source with the conclusion. If two give different answers, name the distinction. To establish the actual arrangement, find a binding or observation that resolves it. To show which arrangements are permitted, the supported alternatives may already answer the question. In a design commission, make or assign the open design choice on its stated grounds. Use A.22 or the governing subject pattern to establish any claimed levels or parts of the holon itself.
+**Coarse-graining check.** A coarser description groups, omits or summarizes distinctions. Identify what was grouped and how it corresponds to the finer description. For a positive conclusion shared by every admissible arrangement, establish that at least one is possible and that the conclusion holds throughout the admitted possibilities. When the question is whether any is feasible, a proof that the conditions are incompatible can settle it directly. If a binding or observation narrows the arrangements further, carry that source with the conclusion. If two give different answers, name the distinction. To establish the actual arrangement, find a binding or observation that resolves it. To show which arrangements are permitted, the supported alternatives may already answer the question. For a design commission, find which placement choices the brief fixes and which are entrusted to the designer. A fit check can support a recommendation. Making the selection binding requires the authority specified by the operative arrangement. Use A.22 or the governing subject pattern to establish any claimed levels or parts of the holon itself.
 
 ```text
 ArchitectureDescriptionCorrespondenceClaim content:

@@ -6,12 +6,12 @@ section_id: "F.13:9"
 section_title: "Micro‑examples (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__010_micro-examples-illustrative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:9 — Micro‑examples (illustrative)"
-line_start: 131810
-line_end: 131844
+line_start: 131874
+line_end: 131908
 dependencies:
   - "F.1"
   - "F.17"
@@ -37,9 +37,9 @@ keywords:
 #### F.13:9.1 - Pure rename inside a local service vocabulary
 
 *Constructed case:* Under the fixed `ServiceVocabulary-1` reference scheme, the local-sense claim is “a service indicator threshold together with its assessment window”. The old expression is **“SLO”**, the proposed expression is **“service-level objective”**, and both serve the same use of reading a service objective. No change to the objective or assessment rule is proposed.
-**Relation:** `renames("SLO" → "service-level objective")`.
+**Proposed relation.** The editor recommends `renames("SLO" → "service-level objective")` for this vocabulary.
 **Why.** The scheme, sense and use are unchanged. Spelling out the name lets readers see what the abbreviation stands for. A claim about improved recognition by this audience needs evidence of their reading.
-**Effect:** Retain the two exact cells `<ServiceVocabulary-1, "SLO", claim>` and `<ServiceVocabulary-1, "service-level objective", claim>` in the naming lineage. Old text retains its earlier expression and meaning; new writing uses the expansion. No Bridge is needed for these identical semantic projections.
+**Effect.** If the vocabulary's authorized maintainer adopts the expansion from 1 July, use it as the preferred designation from that date. Keep both exact cells `<ServiceVocabulary-1, "SLO", claim>` and `<ServiceVocabulary-1, "service-level objective", claim>` for historical reading. A recommendation alone leaves the current preference open. No Bridge is needed for the identical semantic projections.
 
 #### F.13:9.2 - Alias for a common legacy synonym (Sys‑CAL)
 

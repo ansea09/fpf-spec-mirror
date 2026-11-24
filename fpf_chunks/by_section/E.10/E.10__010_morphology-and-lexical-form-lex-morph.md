@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 106645
-line_end: 106906
+line_start: 106706
+line_end: 106967
 dependencies:
   - "A.10"
   - "A.15"
@@ -186,7 +186,7 @@ Tool and carrier versions remain separate. Authors may annotate local service la
 
 **M-3 (Family congruence).** Where eligibility clarity is needed, add the exact subject-specific characteristic or `SystemRoleAssignmentStateRelation` as a separate qualifier for the current value; do not hide either in a system-role-kind name. Do not turn standards, requirements, evidence, or status labels into `...SystemRole` names, and do not fake families with bare metaphors such as `RowPlane`, `senseFamily`, or `...Lane`.
 
-**M‑4 (Run and description split).** Use **`Work`** only for executions. Treat `recipe`, code, diagram step, procedure, or document form as recognition evidence only: classify a claim-bearing episteme as `U.MethodDescription` only when its EntityOfConcern is one admitted `U.Method` and its claims pass the A.3.2 substantive-description threshold; keep the method, representation, publication form, plan, and Work occurrence separate.
+**M‑4 (Run and description split).** Use **`U.Work`** for the admitted kind. To identify a particular execution, establish the occurrence under A.15.1. Treat `recipe`, code, diagram step, procedure, or document form as recognition evidence only: classify a claim-bearing episteme as `U.MethodDescription` only when its EntityOfConcern is one admitted `U.Method` and its claims pass the A.3.2 substantive-description threshold; keep the method, representation, publication form, plan, and Work occurrence separate.
 
 **M-5 (Kernel parochiality).** `KernelToken` names carry **no domain nouns**. Recover domain markers under the objects and rules that define them. Use `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered; use A.19 `CharacteristicSpace` only after its named `U.Characteristic`, declared CSLC scale, and exact receiving use are current; use A.2.5 `SystemRoleAssignmentStateRelation` only when that direct predicate obtains. Lexical shape establishes none of them.
 
@@ -268,7 +268,7 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 * **SCR‑MOR‑S01 (Suffix whitelist).** Every normative token with a reserved suffix matches § 8.1 row semantics and passes EntityOfConcern and Description-episteme boundary and specification-use gates.
 * **SCR-MOR-S02 (Kernel exclusions).** KernelToken names contain none of the inadmissible suffixes from section 8.2.
 * **SCR-MOR-S03 (Prefixes).** Reserved prefixes obey § 8.3; no local glossary, source, scheme, or use mints `U.*`.
-* **SCR-MOR-S04 (Run and description gate).** `Work` names the admitted performed occurrence. Actual participants and results retain their own assertions and relations; they do not become MethodDescription fields or the Method.
+* **SCR-MOR-S04 (Run and description gate).** `U.Work` names the kind. A claim that a particular performance occurred needs the occurrence basis under A.15.1. Actual participants and results retain their own assertions and relations; they do not become MethodDescription fields or the Method.
 * **SCR‑MOR‑S05 (Collision).** Full‑text + Reserved‑Names checks pass (no other sense of the token elsewhere).
 * **SCR‑MOR‑S06 (Object‑of‑talk).** Heads pass M‑2; no bare metaphors as heads.
 * **RSCR-MOR-E01 (DevOps firewall).** Tool and file suffixes stay in local glossaries or operational configurations; none leak into KernelToken names.

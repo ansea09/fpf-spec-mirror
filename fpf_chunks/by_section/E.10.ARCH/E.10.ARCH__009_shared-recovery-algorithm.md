@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:3"
 section_title: "Shared recovery algorithm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__009_shared-recovery-algorithm.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:3 — Shared recovery algorithm"
-line_start: 108442
-line_end: 108487
+line_start: 108503
+line_end: 108548
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -71,7 +71,7 @@ Use this five-step object-preserving order only for the ontology question that r
 2. **Recover the exact subject and claim.** Identify what could bear the property the reader has to explain or act on. The wording may concern one entity, a kind under its membership rule, or how a practice repeatedly produces a result. A passage about one occurrence can help establish any of these when its grounds reach that far. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
 3. **Bypass restoration when the subject and predicate are clear.** Once the object, relation, assertion, description, publication, representation, work, result, structure, or architecture claim has a clear predicate and governing rule, state or use that claim and stop the restoration detour. Use the PatternID to locate the rule; identify an exact `ClaimGraph` only when the receiving use depends on it.
 
-   If actual authoring or repair Work is part of the claim, recover each exact performer and obtaining assignment through A.13 and A.2.1, then let A.15.1 independently admit the dated Work. Add F.6 only when this architecture account also consumes precise assignment-bound attribution. State Method, MethodDescription, and responsibility claims separately only when they matter.
+   For an authoring or repair Work claim, establish the performer or performers at the scale asserted, using A.13 and A.15.1 for the dated occurrence. A joint edit can be established while the member who introduced a distinction remains unidentified. Attribute a specific choice, derivation or revision only on evidence of that contribution. Use A.2.1 for an assignment asserted in the account. Add F.6 only when this architecture account also consumes precise assignment-bound attribution. State Method, MethodDescription, and responsibility claims separately only when they matter.
 4. **Add only receiver-needed apparatus.** Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values, relation-occurrence identity, participant designations, designators, references, publication forms, or C.29 representation elements only when a named later use needs that additional object. Keep each item under the rule that defines its identity or use, and cite the pattern containing that rule. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that exact relation current.
 
    If the same entity participates in several direct relations, is designated in several assertion or occurrence-description epistemes, or corresponds to several representation elements, keep those uses distinct under their separate predicates. Shared entity identity does not merge the relations, epistemes, designations, or representation correspondences.

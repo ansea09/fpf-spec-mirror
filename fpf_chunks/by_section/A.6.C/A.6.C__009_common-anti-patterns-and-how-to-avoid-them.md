@@ -6,12 +6,12 @@ section_id: "A.6.C:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16419
-line_end: 16431
+line_start: 16432
+line_end: 16444
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ keywords:
 | **Guarantee-without-substrate** | The word hides whether the claim is semantic, deontic, an entry condition, or an operational claim such as an actual gate result or an observed or evaluated result | Classify semantic law as L, a generic prescription or claim about an individual commitment or current grant as D, an admission predicate as A, and an actual occurrence, condition or result as E; examples include an A.21 `GateDecisionResult` and other observed or evaluated results. Use `A6-AW-*` for permission-looking wording. |
 | **SLA smuggled into laws** | Mixes governance with semantics; breaks substitution reasoning | State the target as a generic D prescription or an individual commitment, reference its L-defined metric and A conditions, and cite the E evaluated result plus A.10 support when current |
 | **Gate written as obligation** | Confuses admissibility predicates with deontic claims | Write the predicate as A; write a generic prescription or separately instituted individual duty as a D→A reference. |
-| **Work-result-evidence bundle** | “The delivered work and its log prove acceptance” makes one phrase carry occurrence, result, transfer, evidence, and verdict | Name the A.15.1 Work first; use the applicable `A.15.1:4.6` route for each current result, delivery/transfer, or acceptance claim. Use A.2.4 for first evidence-use classification or the direct rule for a further support claim. Use A.10 when provenance, currentness or bounded reliance must remain replayable, retaining the grounds required by that use. Omit absent claims. |
+| **Work-result-evidence bundle** | “The delivered work and its log prove acceptance” makes one phrase carry occurrence, result, transfer, evidence, and verdict | Apply §4.1 to what the agreement makes sufficient for delivery or acceptance. A deposit can count as acceptance on the agreed conditions. Identify the particular Work and performer when performance itself is required or claimed. Use the applicable `A.15.1:4.6` route for each further claim. Use A.2.4 for first evidence-use classification or the direct rule for a further support claim. Use A.10 when provenance, currentness or bounded reliance must remain replayable, retaining the grounds required by that use. Omit absent claims. |
 | **Face-level paraphrase drift** | A face silently changes a claim's object or quadrant | Use meaning-preserving face prose and cite the canonical claim ID or location, direct object, and selected `A6-AW-*` row when applicable. Add a new boundary claim to its canonical source before publishing it on a face. Use verbatim text when exactness is critical or disputed. |
 | **Cross-scale contract collapse** | Commitments, grants, and conflict findings at different scales are treated as one D claim | Keep commitments and current grants as separate D claims; classify the permission conflict finding as E through `A6-AW-CONFLICT`; use mediation only under its subject pattern |
 | **Mandatory four-question record** | Every clear use of contract wording creates rows for all four questions | Use the questions needed to resolve the ambiguity or decide what linked undertakings settle. A wording repair can end in the repaired prose. A decision can rest on one sufficient source. |

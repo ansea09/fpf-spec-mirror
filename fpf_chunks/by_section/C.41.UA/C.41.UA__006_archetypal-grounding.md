@@ -6,12 +6,12 @@ section_id: "C.41.UA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:5 — Archetypal Grounding"
-line_start: 94699
-line_end: 94718
+line_start: 94756
+line_end: 94775
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -40,5 +40,5 @@ The v2 answer remains a historical answer to its question. Recording the v3 answ
 
 A spill can make already checked cards unreadable while their wording and the completed printing work remain unchanged. Observed damage supports a current negative answer to readability; it does not erase the earlier work. In another branch, the workshop is cancelled while every physical-set answer remains true. The decision about further preparation then uses the changed occasion and value of the work, rather than trying to turn the physical answers negative.
 
-For an importer, the agent's message “error handling implemented” reports work. To decide what happened in a particular failed import, use an adequate comparison of the catalogue before and after that run. If the only observation tool failed and the later state is unknown, the question stays open. A confirmed change to the state that should have been preserved settles it in the negative. One such failure within the promised range refutes the claim that the importer preserves the catalogue on every failed import. If preservation is required, this run violated that requirement. The same requirement applies to the next import. An unchanged catalogue settles the question for that run. Extending that success to other inputs calls for grounds that cover them. Another run adds nothing to a negative answer already established for the decision at hand.
+For an importer, the agent's message “error handling implemented” reports work. To decide what happened in a particular failed import, use an adequate comparison of the catalogue before and after that run. If the only observation tool failed and the later state is unknown, the question stays open. A confirmed change to the state that should have been preserved settles it in the negative. One such failure within the promised range refutes the claim that the importer preserves the catalogue on every failed import. If preservation is required, this run violated that requirement. Apply the terms in force to the breach and to any later import. They may already suspend further imports or reserve a decision for the catalogue owner. An unchanged catalogue settles the question for that run. Extending that success to other inputs calls for grounds that cover them. A further run is due when separately commissioned or needed for an outstanding question.
 

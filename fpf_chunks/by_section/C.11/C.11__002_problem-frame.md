@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 59414
-line_end: 59440
+line_start: 59445
+line_end: 59471
 dependencies:
   - "A.10"
   - "A.13"
@@ -63,7 +63,7 @@ When a choice is still open, give the recipient the comparison available now, th
 
 **First-minute questions.**
 
-- Who or what makes this choice? If several participants contributed, to whom is the decision attributed?
+- Who makes each choice the outcome depends on? If the outcome requires several decisions, how do they take effect together?
 - What options are already on the table now?
 - What current basis is being used to compare them?
 - What could a further observation or calculation change about the choice or what the recipient can rely on?

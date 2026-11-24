@@ -6,12 +6,12 @@ section_id: "E.17.AUD:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__006_worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:5 — Worked slices"
-line_start: 117179
-line_end: 117212
+line_start: 117243
+line_end: 117276
 dependencies:
   - "A.16.0"
   - "A.7"
@@ -51,7 +51,7 @@ An onboarding explainer starts from one stable source-pinned note, but then the 
 
 #### E.17.AUD:5.5 - Downstream decision and reliance case
 
-A progress card headed “Ready to roll out” reports that the tests passed. If its job is to communicate progress, a heading that states which tests passed can finish the repair. To report a release decision already made, cite the authorized outcome, including rejection or deferral, and the scope it covers. If release approval is owed and still open, send the test results and the outstanding choice to the responsible authority. Suppose the owner approved release on Monday and the rule makes that approval effective when the signed notice is issued. Monday’s decision establishes adoption. Issuing the notice on Tuesday establishes when that decision took effect. Under a different rule the owner decides by issuing the signed notice. There, the authorized issuance itself constitutes adoption. Check the rule and the act it names for the conclusion the reader needs.
+A progress card headed “Ready to roll out” reports that the tests passed. If its job is to communicate progress, a heading that states which tests passed can finish the repair. To report a release decision already made, cite the authorized outcome, including rejection or deferral, and the scope it covers. If release approval is owed, the progress card can report whose decision is outstanding. When the existing duty includes seeking that decision, submit the test results by the route open to its issuer. Suppose the owner approved release on Monday and the rule makes that approval effective when the signed notice is issued. Monday’s decision establishes adoption. Issuing the notice on Tuesday establishes when that decision took effect. Under a different rule the owner decides by issuing the signed notice. There, the authorized issuance itself constitutes adoption. Check the rule and the act it names for the conclusion the reader needs.
 
 #### E.17.AUD:5.6 - Quick contrasting cases
 
@@ -62,6 +62,6 @@ Use this quick contrast set when the initial interpretation is unclear:
 | `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the publication unit under review otherwise stays stable | apply `Local Head Restoration` |
 | `whole-unit interpretation shift` | the publication unit under review changes its primary subject or carried publication move without marking the change | apply `PublicationUnit Primary-Subject Discipline` |
 | `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReviewUnit` |
-| `downstream claim or effect overread` | readers take the progress card as approval, assignment or a go/no-go decision | clarify a communication-only card, cite the applicable decision already made, or put the outstanding choice before its authority. Check the issuer, act and governing rule if this publication itself constitutes adoption or brings an earlier decision into effect |
+| `downstream claim or effect overread` | readers take the progress card as approval, assignment or a go/no-go decision | clarify a communication-only card, cite the applicable decision already made, or identify the outstanding choice and its authority. Refer it when that further work is due. Check the issuer, act and governing rule if this publication itself constitutes adoption or brings an earlier decision into effect |
 | `modeling-lens hidden` | the unit only makes sense because of one unpublished model, formal substrate, or rationale | publish that substrate or rationale briefly or use a heavier publication form or neighboring pattern |
 

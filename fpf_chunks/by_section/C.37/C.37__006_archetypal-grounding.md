@@ -6,12 +6,12 @@ section_id: "C.37:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:5 — Archetypal Grounding"
-line_start: 86382
-line_end: 86412
+line_start: 86439
+line_end: 86469
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -47,7 +47,7 @@ Under C.11 the result `CR7` is `choose now`: retain the current edition for WP4.
 | Source considered | What the source supports | Use in this decision |
 | --- | --- | --- |
 | The commissioning rule, the setup estimate for MC7 and the estimate for retaining the current edition | The applicable ceiling and the estimated time required by each option under the trial conditions. | `select` for the budget comparison. Reopen it if the rule, estimate, alternatives or trial conditions change. |
-| Trial item in `WorkPlan-WP4` | A.15.2 identifies a planned one-hour slot. A.10 path `P-WP4` supports that limited claim (`pass`). | `select` for estimating the full trial time. The four-hour setup estimate is already sufficient to exclude MC7. A claim that the trial took place would require a record of the Work. |
+| Trial item in `WorkPlan-WP4` | A.15.2 identifies a planned one-hour slot. A.10 path `P-WP4` supports that limited claim (`pass`). | `select` for estimating the full trial time. The four-hour setup estimate is already sufficient to exclude MC7. To report that the trial took place, use adequate grounds for the occurrence, such as direct observation or a reliable Work record. |
 | Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the MethodDescription and its proposed order of work. Path `P-MD5` supports reading that order (`pass`). | `decline` as a premise for choosing on budget. The engineer can use the diagram to prepare an eligible trial. Revisit the estimate if a change of order changes the work it covers. |
 | `WorkRecord-W19` about the earlier `Work-W19` | A.13 and A.15.1 establish the earlier assignments and Work. The record identified under C.2.1 reports rework in those conditions. Path `P-W19` supports that observation within its comparability limit (`degrade`). | `decline` for the budget comparison. The record explains why the change was proposed. It supplies neither the new setup estimate nor evidence that MC7 prevents the old breakdown. |
 
@@ -65,5 +65,5 @@ If the direct release gate or permission pattern instead returns a negative resu
 
 The engineer can finish the current comparison by giving the planning rule, the estimates and the resulting choice. The source of the four-hour estimate matters even though the workflow diagram and the earlier work record have identifiable editions. Neither supplies that estimate.
 
-A later reviewer may need to reconstruct the choice. Give them the estimates used, what each covered, the budget in force and the alternatives compared. If they also need to reconstruct why MC7 was proposed, give them the earlier rework record and its comparability limit. Keep this basis once in the existing decision account when it can serve those uses.
+A later reviewer can use the estimates, their coverage, the budget rule then in force and the alternatives to reconstruct which proposals were eligible. To establish the decision that took effect, apply the operative rule if it settled the outcome, or recover the decision that its authorized holder made. To say the holder chose on the basis of these estimates, establish that they used them. They might have received an independent estimate with the same result. If the question concerns why MC7 was proposed, recover the earlier rework evidence used for that proposal and its comparability limit. One decision record can already contain the grounds needed for several of these questions.
 

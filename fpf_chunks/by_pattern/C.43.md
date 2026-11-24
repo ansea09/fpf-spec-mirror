@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 95504
-line_end: 96037
+line_start: 95561
+line_end: 96094
 dependencies:
   - "A.12"
   - "C.11"
@@ -206,7 +206,7 @@ Keep feasibility, outcome preference and assurance distinct in the comparison. A
 
 Follow the chosen continuation through the participants and means that must realize it. Establish what action is needed, who or what can perform it, what resources and permissions it uses, and when the effect is needed. The calculation, communication, agreement and execution consume time and capacity. Include them when they can change the option's availability or result.
 
-Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. A feasible schedule establishes possibility under its stated durations and access conditions. For a promise across uncertain conditions, show how the authorized participants can meet the deadline throughout that range, using information available before their commitments. A bound can establish this without fixing the eventual schedule.
+Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. A feasible schedule establishes possibility under its stated durations and access conditions. To justify a promise now, establish a feasible course of action throughout the promised range. It can include choices made after the promise. Situations still indistinguishable when an action is due need a common feasible action up to that point. Later actions can differ if the participants who make those choices can obtain and interpret the distinguishing information in time to act. A bound can establish this without fixing the eventual schedule.
 
 Choose the organization of decisions where it is unresolved. One rapid feedback response may protect the system while a slower plan is revised. Alternatively, the relevant decisions may need to be made together. Different timescales do not by themselves require layers, and organizational titles do not establish update rates. Use **C.32.LCA** to construct or change the observation, decision and intervention arrangement when those relations are the limiting condition.
 
@@ -388,7 +388,7 @@ During use, the operator checks the assumption that test delay leaves both actio
 
 A service team has one qualified specialist available from 09:00 to 15:00. Under the stated conditions the repair takes four hours and the team’s other accepted obligation takes three. Each is ready to start and can be completed on its own in that window. If their work is distinct and the specialist is needed throughout, seven hours are required. The team cannot deliver both by 15:00.
 
-Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. For a promise covering uncertain durations, establish how the deadline can be met throughout the promised range. When the stipulated durations are fixed, the exhibited schedule settles this case.
+Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. For a promise covering uncertain durations, establish how the deadline can be met throughout the promised range. With the stipulated durations and the material ready by 13:00, the exhibited schedule works. Suppose the repair must start at 10:00 and the common inspection identifies one of two procedures by then. The specialist is equipped and qualified for either, and each fits the three hours reserved. A team authorized to commit to the deliveries can give that promise before the inspection. If the procedures require different starts at 10:00 and the finding reaches the specialist at 10:15, that schedule no longer supports the promise.
 
 When the distinct work requires seven hours, possible changes include obtaining another qualified hour usable on the work in time, agreeing with the affected recipient on a different scope or deadline, or asking the authorized participant to choose which consequence to accept.
 
@@ -423,9 +423,9 @@ The common Method has supplied a connected research result: two proposed observa
 
 Consider a constructed case. A team produces sound diagnoses with one expert's help. Its other members can calculate candidate explanations, but cannot yet recognize when an important modeling assumption has failed. The current work is successful; the wanted development is the team's ability to handle that judgement when the expert is unavailable.
 
-The recommender recovers the connection: calculation is available, assumption recognition is not, and the expert currently supplies it. It constructs three proposals to examine against the team’s aims and commitments. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
+The recommender recovers the connection: the team can calculate and can obtain a judgement about a failed assumption from the expert today. To secure that judgement after the expert leaves, establish who must then make it and what help will still be available. It constructs three proposals to examine against the team’s aims and commitments. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
 
-The first can be sufficient if the only retained aim is delivery. The second aims to develop local judgement. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
+Continuing the service can secure delivery if another qualified contributor will be available when needed. If the team itself must learn to recognize a failed assumption, use practice and feedback, then examine a judgement it makes with the support permitted after the expert leaves. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
 
 Compare the alternatives from the team's present repertoire and commitments. Practice consumes time that could deliver existing work; the expert must have time to give the proposed feedback; continuing external help remains part of the result where required. Choose the combination only if its additional attainable capability and future uses warrant that burden. An AI assistant can supply contrasts or perform calculation, but the comparison asks which consequential judgement the resulting team can obtain and under what continuing help.
 

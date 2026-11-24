@@ -6,12 +6,12 @@ section_id: "A.6.H:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:7 — Conformance Checklist"
-line_start: 26408
-line_end: 26424
+line_start: 26425
+line_end: 26441
 dependencies:
   - "A.1"
   - "A.10"
@@ -66,7 +66,7 @@ keywords:
 | --- | --- |
 | `CC-A6H-1` | The entry names the working decision, candidate objects, receiving use, and load-bearing sentence. |
 | `CC-A6H-2` | The subject level is explicit when referent, episteme, publication, carrier, Method, plan, Work, or evidence would select different relations. |
-| `CC-A6H-3` | A whole claim identifies the candidate individual, direct identity pattern, boundary or delimitation when relevant, and independently recovered parts or constituents. |
+| `CC-A6H-3` | A whole claim identifies the candidate under the rule for its identity. Establish the boundary, constituents and their relations to the extent that the conclusion depends on them. |
 | `CC-A6H-4` | Every direct relation claim identifies its participants and satisfies the rule for its polarity or stated modality. An affirmative occurrence claim requires adequately grounded obtaining facts; a negative claim requires its own non-obtaining criterion or adequate closure basis. Missing facts establish neither result. Representation content may supply facts; co-listing or form alone does not establish the relation. |
 | `CC-A6H-5` | `PortionOf` names an extensive measure μ, compatible unit, and additivity/non-overlap basis. |
 | `CC-A6H-6` | `PhaseOf` is used only for a proper temporal restriction admitted by A.14 and the unchanged individual's direct identity rule. A use window alone establishes no temporal part; changed epistemes use C.2.1 and Work uses A.15.1. |

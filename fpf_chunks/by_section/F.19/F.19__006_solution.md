@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 135365
-line_end: 135549
+line_start: 135429
+line_end: 135613
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -69,7 +69,7 @@ Read from the opening question to the decision, instruction or conclusion. What 
 
 If a second reading is plausible, try both on the work this reader has to do. Could a technician repair the wrong unit, a designer revise the product drawing when one unit needs repair, or a reviewer accept one successful check as grounds for every unit? Establish what the source actually supplies. State the missing identifier, criterion, condition or relation at the point where the readings diverge. If the evidence cannot decide between them, keep both readings open and obtain the particular fact the decision needs. Where the document already identifies the right unit or operation, use its ordinary name.
 
-Follow the method as well as the object. If the text promises to teach a way to check an item, recover the operation, the conditions under which it applies and what would count as success. When repeatability is in question, try the wording on another item to which the rule should apply. The very same case may admit two ways to do the work. If the passage says which method was chosen or prescribed, identify the separate grounds for that choice. An account of what the technician did on Monday supplies one performance. Recover what permits repeating the check and which choices must be made again. Conversely, a report that one item passed calls for the record of its test. General instructions alone cannot establish that occurrence. Keep the field's own rule in view when moving from a transdisciplinary distinction to a discipline, or from that rule to a local procedure or job.
+Follow the method as well as the object. If the text promises to teach a way to check an item, recover the operation, the conditions under which it applies and what would count as success. When repeatability is in question, try the wording on another item to which the rule should apply. The very same case may admit two ways to do the work. If the passage says which method was chosen or prescribed, identify the separate grounds for that choice. An account of what the technician did on Monday supplies one performance. Recover what permits repeating the check and which choices must be made again. To report that one item passed, obtain grounds for that test and its outcome. A direct observation or an adequately supported report from the tester may suffice. Obtain a particular record where the commission or applicable rule requires it. Keep the field's own rule in view when moving from a transdisciplinary distinction to a discipline, or from that rule to a local procedure or job.
 
 Write for the decision in front of the recipient. A furniture designer can write “Use drawing T, revision 4, for the seat joint.” The workshop order can read “Repair the loose joint on stool 17.” For an order to inspect the May lot, give the lot reference. If inspecting any available stool is sufficient, say so. One agent may need any of these forms. In “giraffes have long necks” the plural can express a characteristic of the kind. In “three giraffes came to the waterhole” it reports observed individuals. Singular wording can also speak of a kind or of one individual. Quantity, criterion and referent come from the statement in use. An explicit “all”, a particular set of items, or an exception belongs in the text when it changes what the reader may conclude or must do.
 
@@ -151,7 +151,7 @@ Limit a recovery conclusion to the natural text units and relations examined und
 
 A whole expert reading combined with local actual readings retains that mixed basis.
 
-Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. A local revalidation by a reader familiar with the earlier wording retains that qualification.
+Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. If the commission calls for a new response from a particular reader or a fresh independent check, obtain that performance under the specified conditions. A local revalidation by a reader familiar with the earlier wording retains that qualification.
 
 State a material limit in the receiving judgement or result already needed by the work. When a required reading is unavailable, identify the missing basis and leave only the dependent conclusion open.
 

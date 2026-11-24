@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 125278
-line_end: 125396
+line_start: 125342
+line_end: 125460
 dependencies:
   - "A.1"
   - "A.14"
@@ -79,7 +79,7 @@ Signals, hypotheses, forecasts, scenarios, anticipated conditions, and reviewabl
 
 For a repair decision, keep the affected entity, evidence-use relation, any current local system-role kind and classification judgment, any exact obtaining system-role assignment, any separately governed responsibility relation, source-use relation, and gate or decision claim under their subject patterns.
 
-Apply `E.18.1`, `E.23`, and the exact Work, search, evaluation, or continuation pattern when repeated problematization or later action is current. Neither the card nor its acceptance or publication creates or ends an actual Problem.
+Apply `E.18.1`, `E.23`, and the exact Work, search, evaluation, or continuation pattern when repeated problematization or later action is current. Establish the criterion and the state that makes the problem obtain or cease. Publishing a report about a physical defect leaves that defect to be checked separately. If the outstanding duty was to notify the customer by an authorized entry in an accessible register, that publication may satisfy the duty and end this particular deficiency.
 
 Open `E.24` only if a different reusable subject-identity or relation gap remains after these direct claims are recovered; do not rediscover the actual Problem as a new ontic.
 
@@ -130,7 +130,7 @@ A separate C.2.1 description episteme may provide claim-bearing orientation. Its
 
 Pump #14 is operating while a sensor, valve, and controller are connected. `Operating` first cues a governed state claim; it does not establish `U.Work` or `U.Transformation`. Connectedness does not establish parthood. Identify the pump and connected entities, state the exact connection relations, and use `A.14` only for part relations whose predicates obtain.
 
-Add dated maintenance or control `U.Work` only after every precise performer has an A.13 core and A.15.1 independently identifies the Work's performance history, Method, time, containing System, and performers. Add F.6 only when the recovered situation account also needs precise assignment-bound attribution. A local system-role kind and its classification remain separate. A short situation-recovery sentence may omit identifiers its receiving use does not need.
+Add dated maintenance or control `U.Work` when it matters to the claim. Establish under A.13 the performer or performers credited at the claimed scale and under A.15.1 the Work’s history, Method, time and containing System. Add F.6 only when the recovered situation account also needs precise assignment-bound attribution. A local system-role kind and its classification remain separate. A short situation-recovery sentence may omit identifiers its receiving use does not need.
 
 If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or other modal claim; it creates neither Work nor assignment. Add an actual bounded change under `A.3.4` only when its changed referent, boundary, conditions, and change facts obtain. No bundle of system, state, connection, work, and change becomes a situation entity.
 
@@ -138,7 +138,7 @@ If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or o
 
 An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Start from the question the report must answer. Recover the participating Systems and actual changes it depends on. If the question concerns their interaction, identify what the change in one permits or prevents in another.
 
-For every dated response claimed as `U.Work`, recover each precise performer's A.13 core and independently admit the occurrence under A.15.1 as stated in `E.24.CD:5.6`; add F.6 only when the current account also needs exact assignment-bound attribution. Keep any local system-role classification separate.
+For every dated response claimed as `U.Work`, establish the A.13 basis of the System or Systems credited at the scale of the response and admit the occurrence under A.15.1 on grounds that establish it took place (`E.24.CD:5.6`). For a claim about one contributor, identify what that contributor did. Use F.6 when the account needs exact assignment-bound attribution. Keep any local system-role classification separate.
 
 Keep an intended response as a plan or other modal content until it occurs. State temporal relations through their temporal patterns and a causal relation through `C.28` only when that claim is current and supported.
 

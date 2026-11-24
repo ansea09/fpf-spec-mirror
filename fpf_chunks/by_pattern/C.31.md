@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
-line_start: 78894
-line_end: 79318
+line_start: 78949
+line_end: 79375
 dependencies:
   - "A.10"
   - "A.17"
@@ -126,7 +126,7 @@ C.31 defines and constrains modularity and reusable-structure characteristic ass
 
 #### C.31:4.1 - Ordinary output: `ModularityVectorLite`
 
-Start with the change someone has to make, such as replacing a module, qualifying an interface or servicing a variant. Identify the characteristics that could alter that action. For a substitution, specify what the replacement has to do with the receiving equipment under its operating conditions. Compare the proposed replacements against those conditions. A shared interface name can help find candidates. A check that covers the required fit and behavior can admit one directly. To claim that changing the interface would save work, compare the installation, migration and qualification work under the alternatives over the same planned uses. `ModularityVectorLite` can retain the account.
+Start with the change someone has to make, such as replacing a module, qualifying an interface or servicing a variant. Identify the characteristics that could alter that action. For a substitution, specify what the replacement has to do with the receiving equipment under its operating conditions. Compare the proposed replacements against those conditions. A shared interface name can help find candidates. A check that covers the required fit and behavior can establish technical eligibility directly. If the governing rule makes that result sufficient for admission, apply it. If the installation requires a separate acceptance decision, recover who holds it and whether they accepted. To claim that changing the interface would save work, compare the installation, migration and qualification work under the alternatives over the same planned uses. `ModularityVectorLite` can retain the account.
 
 ```text
 ModularityVectorLite:
@@ -293,7 +293,7 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `WorkRepeatabilityShare` | Delivery, operation, or test work under repeatable method descriptions. | ratio | work records and method descriptions | work repeats as bespoke effort | describe the repeatable Method in a `MethodDescription` under A.3.2 or accept exception | work planning, evidence reuse, or scale use |
 | `EvidenceReuseShare` | Previously obtained evidence used again for a specified claim on another instance or in another use of the same instance. | ratio | evidence records and qualification conditions | a result is credited outside its qualified use, or a covered result is needlessly obtained again | reuse the earlier result when it covers the claim. When an instance needs its own observation, reuse the procedure and obtain that observation. | certification, safety-case, or assurance claim |
 | `RegulatoryBespokeResidue` | One-off regulatory or acceptance content not covered by reusable structures. | ratio or ordinal | safety, approval, or regulatory records | each instance needs new regulatory argument | isolate residue, add reusable evidence package, or keep bounded exception | safety case, approval, or publication claim |
-| `LearningTransferCoefficient` | Improvement transfer from one instance or run to subsequent instances. | slope or elasticity | repeated work data and learning curve records | improvement claim hides time or causal assumptions | apply C.27 for temporal adequacy and C.28 for causal use | causal, benchmark, or scale-preference use |
+| `LearningTransferCoefficient` | Improvement carried from one instance or run to later ones under a declared learning or reuse arrangement. | slope or elasticity for a declared measure and comparison | comparable performances, what was reused and the help available | shorter time may reflect a prepared template, a tool change or easier work | for a capability claim, establish what the specified performer can now do and which choices and assistance account for it. Use C.27 for temporal adequacy and C.28 for a causal claim. | development, benchmark or scale-preference use |
 | `BespokeResidueShare` | Share of structure not covered by reusable templates or rules. | report-only share unless C.16 measurement basis is declared | RSA description and exception register | residue is hidden under reuse score | use C.31.RSA and source-return condition | accounting, comparison, or decision claim |
 | `RGFlowStability` | Stability of characteristic vector across declared coarse-graining scopes. | vector or ordinal | declared multi-scope architecture graphs | coarse-graining hides lower-scope hazards | use C.29 for unresolved representation choice, transfer or reliance, and C.31.ASAP for an architecture scale-preference claim | RG, scale, or lens transfer use |
 | `ExceptionCurveSlope` | Change in one-off exceptions over a scale variable. | slope | exception records against scale variable | exceptions grow with scale | apply C.31.ASAP or accept bounded exception | scale preference, publication, or decision claim |
@@ -356,6 +356,8 @@ Admissible repair results are:
 Modularity has distinct action-guiding characteristics. Use them to identify the next repair.
 
 A product architecture can have high interface standardization and still poor substitutability. A software-system architecture can reduce external coupling while increasing hidden data custody. A safety-case architecture can reuse evidence while increasing regulatory bespoke residue. Each case needs a different characteristic and a different repair.
+
+Suppose the second field replacement took half as long. That can settle a question about the two recorded durations. The second crew may have found the correct wiring adapter in a prepared kit. For a claim that a technician has learned to select an adapter, establish what they could do previously and how they selected a suitable adapter on a different qualifying job with the help allowed there. A tool can display the candidates while leaving the consequential choice to the technician. A service that can depend on prepared kits may itself have gained a repeatable way to complete replacements even while the technician’s independent selection remains unestablished.
 
 A DSM or dependency graph can substantiate a modularity interpretation, but the graph does not by itself say which dependency kind matters, what scale applies, whether the interpretation is comparable, or what action follows.
 

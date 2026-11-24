@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:4 — Solution"
-line_start: 130894
-line_end: 131054
+line_start: 130958
+line_end: 131118
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -138,8 +138,8 @@ These are relation positions, not system-role-kind qualifier slots, a record sch
 
 1. `Observed` — seen or recorded once under declared observation conditions.
 2. `Measured` — supported by a declared measurement method, model, calibration basis, value, and uncertainty.
-3. `Corroborated` — supported by more than one independent source, procedure, or observation line.
-4. `Replicated` — repeated by independent work or under varied declared conditions.
+3. `Corroborated` — supported by more than one independent line of evidence under the rule for the particular claim. Two experts can independently interpret one temperature record. That gives two judgements about one observation.
+4. `Replicated` — repeated by independent work or under varied declared conditions, as the replication claim specifies. To claim independent observations, establish the distinct observation occurrences and the required independence. Two modes of one instrument may vary the conditions while retaining the same observer.
 5. `Refuted` — counter-evidence defeats positive evidential standing inside the same scope and window.
 6. `Inconclusive` — available input results and evidence-use relations are insufficient or mixed for the target claim.
 
@@ -153,7 +153,7 @@ These values classify evidential standing; they do not replace the observation, 
 4. `Deprecated` — discouraged, conditionally allowed, or being phased out.
 5. `Superseded` — replaced by another named edition, profile, or governing source.
 
-`Approved` alone does not establish an approval act. That claim requires separate recovery of its direct speech-act/decision relation. The status grants no permission and proves no runtime satisfaction.
+To report that someone approved the edition, identify the act and its authority under the applicable rule. Another rule may permit use of every edition that holds `Approved` in its scope. The established status and that rule can settle permission while actual enactment and runtime satisfaction have their own grounds.
 
 **RequirementStatus** local values:
 

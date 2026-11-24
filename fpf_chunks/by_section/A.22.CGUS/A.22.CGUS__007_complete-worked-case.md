@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 42539
-line_end: 42626
+line_start: 42558
+line_end: 42645
 dependencies:
   - "A.10"
   - "A.15"
@@ -129,5 +129,5 @@ In this constructed learning case, a dancer has the strength and static axis con
 
 During the rotation, balance coordination would constitute part of turning; that turn would constitute part of the figure. These are connections through performance, not three successive tasks. The practice alternative can exercise the first connection without already performing the intended figure.
 
-When the coordination can be sustained, return to what the dancer is asked to perform. If the required turn and the other constituents can be performed together under the conditions of that figure, the capability claim can extend to it. Use adequate prior performances, a domain rule or a trial covering the relevant conditions if a wider capability is at issue. The case condition and its continuation judgement can change without changing the potential alternatives. The subject's training Method supplies the exercise and assessment; CGUS makes their effect on the available continuation explicit.
+When the coordination can be sustained, return to what the dancer is asked to perform. If the required turn and the other constituents can be performed together under the conditions of that figure, the capability claim can extend to it. If a partner steadies the turn, establish which balance the dancer maintained and what the partner supplied. That performance can demonstrate the supported figure. For an unaided figure, use grounds for that dancer sustaining the required balance without the partner’s support. Use adequate prior performances, a domain rule or a suitable trial when a wider capability is at issue. The case condition and its continuation judgement can change without changing the potential alternatives. The subject's training Method supplies the exercise and assessment; CGUS makes their effect on the available continuation explicit.
 

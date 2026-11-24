@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 13710
-line_end: 13759
+line_start: 13723
+line_end: 13772
 dependencies:
   - "A.1"
   - "A.10"
@@ -84,7 +84,7 @@ An architecture team performs dated architecture `U.Work`. During the same inter
 
 #### A.3.4:5.6 - Functional transformer in a flow
 
-When a sentence says that a system *transforms input to output* or *implements an algorithm*, recover the subject and the claim it makes. Identify the continuing changed subject for an actual-transformation claim. Use A.3 for an acting-system claim, and A.13 followed by A.15.1 for a dated Work claim. Identify participant, port or operation bindings when the sentence uses them, and use E.18 when it claims a position in a transformation flow. A Method or MethodDescription is needed only for the corresponding way-of-doing claim.
+When a sentence says that a system *transforms input to output* or *implements an algorithm*, recover the subject and the claim it makes. Identify the continuing changed subject for an actual-transformation claim. Use A.3 for an acting-system claim, and A.13 followed by A.15.1 for a dated Work claim. Identify participant, port or operation bindings when the sentence uses them, and use E.18 when it claims a position in a transformation flow. For dated Work, identify the Method enacted. Facts about a physical change can suffice to establish that change. Identify a MethodDescription when the conclusion relies on its claims.
 
 Examples:
 

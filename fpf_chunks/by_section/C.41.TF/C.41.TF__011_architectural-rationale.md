@@ -6,12 +6,12 @@ section_id: "C.41.TF:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__011_architectural-rationale.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:10 — Architectural Rationale"
-line_start: 94469
-line_end: 94474
+line_start: 94526
+line_end: 94531
 dependencies:
   - "C.37"
   - "C.41"

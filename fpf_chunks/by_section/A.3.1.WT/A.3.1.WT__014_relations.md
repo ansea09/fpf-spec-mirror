@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__014_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:12 — Relations"
-line_start: 11057
-line_end: 11064
+line_start: 11070
+line_end: 11077
 dependencies:
   - "A.10"
   - "A.15.1"

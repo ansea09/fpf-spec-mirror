@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:11 — Conformance checklist"
-line_start: 63711
-line_end: 63730
+line_start: 63742
+line_end: 63761
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 | `CC-C17-9` | Dominance names the characteristic subset, Scale compatibility, polarity, eligibility conditions, and comparison rule. Frontiers are computed from that rule; scalarization is explicit and primitive coordinates remain available. |
 | `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. A claim of change identifies both collections and the comparison its Scale admits. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |
-| `CC-C17-12` | Dated overall-assessment Work is asserted only with its actual System, assignment, Method enactment, Work extent, and evidence. Do not infer an A.6.1 operation application from those facts. When an exact application or binding is separately claimed, satisfy the current A.6.1 application account and cite that application. Coordinate-measurement Work remains separate. |
+| `CC-C17-12` | Admit dated overall-assessment Work under A.15.1:4.1 with its Method enactment, extent, containing System and the A.13 basis for each claimed actual performer. Use F.6 when attributing the Work to an exact assignment. Do not infer an A.6.1 operation application from those facts. When an exact application or binding is separately claimed, satisfy the current A.6.1 application account and cite that application. Coordinate-measurement Work remains separate. |
 | `CC-C17-13` | Use C.17 to report characteristics and comparison results, C.18 for generation plus Archive and Front maintenance, C.19 for pool policy, G.5 for selector-facing declarations, and C.11 for choices. |
 | `CC-C17-14` | Earlier results retain their original editions and evaluation bases; an edition relation requires recoverable results and a recoverable continuity claim. |
 | `CC-C17-15` | A cold reader can tell what to inspect first, when to stop, and what additional evidence is required for the stronger branch. |

@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 54332
-line_end: 54414
+line_start: 54363
+line_end: 54445
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ A curriculum model concerns an exact competence structure under a scheme that re
 
 A learner-facing episteme is a `U.View` when it conforms to an exact learner-facing viewpoint under `E.17.0`. If the account needs to establish how the source curriculum model licenses its claims, `A.6.3` tests that viewing relation; an assertion that authoring actually used the source requires its own historical grounds. Changing the selected competence claims changes the receiving episteme; changing only its display preserves it.
 
-If empirical grounding is needed, name the covered competence claims and their mappings to the relevant assessment or performance relations involving an exact admitted course-cohort or learning-environment holon, as required by :4.3. A later capability, transfer or retention claim needs the applicable grounds connecting that result to the claimed use; use `A.10` when this source-to-use account must remain replayable. If particular teaching, assessment or construction Work must be asserted, open :4.0's Work branch. The identity-only use finishes with the model's claims, exact subject and effective scheme.
+For a claim about one learner, a team, or a learner using particular assistance, identify that holder and the conditions the claim covers. For empirical grounding under :4.3, connect the covered claims to the observations or tests involving the relevant holon. The performance of a group can establish what its members accomplished together. An inference about one member needs grounds for that member’s contribution. A claim of development, transfer or retention also needs the evidence that distinguishes it from an already available ability or performance with different support. Use `A.10` when the source-to-use account must remain replayable and :4.0 when particular teaching, assessment or construction Work must be established. For model identity alone, the claims, exact subject and effective scheme suffice.
 
 #### C.2.1:9.4 - Episteme about an episteme
 

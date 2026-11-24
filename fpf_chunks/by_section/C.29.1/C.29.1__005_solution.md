@@ -6,12 +6,12 @@ section_id: "C.29.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:4 — Solution"
-line_start: 73481
-line_end: 73619
+line_start: 73528
+line_end: 73666
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -137,7 +137,7 @@ A relaxation offers another useful transfer. Let S be the allowed source solutio
 min over T of receiving cost ≤ min over S of source cost.
 ~~~
 
-The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness. A budget decision may need less than an optimum. For minimization, any feasible source plan at or below budget establishes feasibility. A proven lower bound strictly above budget excludes every plan. If a lower bound equals the budget, establish that the source permits a plan at that cost before promising delivery. Even an infimum can be approached by feasible costs without being attained.
+The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness. If the plan must be usable in an actual operation, establish that the proposed performers can carry out its steps and handoffs with the access, capability and resources available to them. A budget decision may need less than an optimum. For minimization, any feasible source plan at or below budget establishes feasibility. A proven lower bound strictly above budget excludes every plan. If a lower bound equals the budget, establish that the source permits a plan at that cost before promising delivery. Even an infimum can be approached by feasible costs without being attained.
 
 Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Adding the errors of successive steps without accounting for amplification can understate the final error.
 

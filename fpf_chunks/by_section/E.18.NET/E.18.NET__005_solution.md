@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 120412
-line_end: 120594
+line_start: 120476
+line_end: 120658
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -146,7 +146,7 @@ A row, graph edge, or episteme neither admits a relation kind nor creates an occ
 
 #### E.18.NET:4.6 - Record the network without replacing it
 
-If the selected answer must remain available after the immediate work, describe it with a separate C.2.1 episteme. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
+If the selected answer must remain available, use an accessible C.2.1 description that preserves the needed network, content and return conditions. Produce a separate record when the existing description is insufficient for that use or a new one is commissioned. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
 
 ```text
 TransformationFlowStructureNetworkRecord@Context <: U.Episteme:

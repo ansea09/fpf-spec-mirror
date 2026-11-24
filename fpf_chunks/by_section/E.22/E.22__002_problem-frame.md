@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 122681
-line_end: 122695
+line_start: 122745
+line_end: 122759
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -40,6 +40,6 @@ When those bindings are already settled and one direct evaluation is enough, run
 
 **Practical gain.** The recipient can see which judgement the evaluation will support and whose decision sets its terms. A floor question can stay small. A request for alternatives can name the additional trade-offs and proposals it needs.
 
-Framing yields a question about the selected object version. The evaluator must obtain the quality result. The recipient must make any decision that uses it.
+Framing yields a question about the selected object version. The evaluator supplies the quality judgement. The recipient may use it or pass it to the deciding party. If a decision is needed, establish who may make it under the applicable terms. The evaluator may also hold that authority.
 
 

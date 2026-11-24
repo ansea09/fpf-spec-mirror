@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ILC.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
-line_start: 78109
-line_end: 78412
+line_start: 78164
+line_end: 78467
 dependencies:
   - "A.10"
   - "A.22"
@@ -124,12 +124,12 @@ The practical work is often not to draw another view. It is to assign the residu
 * Frustration language can be useful because it points to incompatible constraints or fitness contributions, but it can also implicitly introduce a physics, biology, psychology, or global-optimizer ontology into architecture prose.
 * Measurement is tempting because the residual feels numeric, but a measure before declared-scope and structure-kind recovery can hide the conflict.
 * Ethical conflict or mediation may be present, but not every cross-scope residual is an ethical conflict or mediation problem.
-* Architecture synthesis may be needed, but a small triage output often identifies a narrower move: split scope, add mediator, add interface grammar, change allocation, expose coupling, add evidence scope, accept bounded exception, or return to source.
+* Architecture synthesis may be needed, but a small triage output often identifies a narrower move: split scope, add mediator, add interface grammar, change allocation, expose coupling, add evidence scope, use an applicable exception, propose one for decision, or return to source.
 * The pattern is not a prescribed sequence of moves; architecture work is often case-managed through loops, checks, and dead ends.
 
 ### C.30.ILC:4 - Solution
 
-When an architecture concern involves residuals across declared levels or scopes, identify the related structures, the conflicting conditions and the locus where the loss remains. Preserve an adequate ordinary account; use `CrossScopeArchitectureResidualTriageRecord@Context` when its fields help retain or compare those distinctions. The record does not itself establish the conflict.
+When an architecture concern involves residuals across declared levels or scopes, identify the related structures, the conflicting conditions and the locus where the loss remains. Preserve an adequate ordinary account; use `CrossScopeArchitectureResidualTriageRecord@Context` when its fields help retain or compare those distinctions. The record does not itself establish the conflict. When a bounded exception would address it, determine what makes that exception effective. A standing rule may already cover the case. If the decision is reserved, an architect can propose the exception and explain its scope. Giving it effect requires the decision entrusted to the named person, service or joint body. Where no exception is permitted, seek a design within the constraint.
 
 ```text
 CrossScopeArchitectureResidualTriageRecord@Context ::= {
@@ -230,13 +230,13 @@ Stop the C.30.ILC use at the residual and first admissible move. If the case is 
 | Cue | Admissible architecture move | Non-admissible overread |
 |---|---|---|
 | Component optimization breaks integration | expose hidden coupling; add interface grammar; change allocation | Treat local performance as whole-holon adequacy. |
-| Modularity reduces local work and increases exceptions | accept bounded exception; revise module boundary; add work scope or evidence scope | Average exceptions into a modularity score without declared scope, comparator, and measurement relation. |
+| Modularity reduces local work and increases exceptions | Use a covered exception, seek a decision about a proposed one, or revise the module boundary, work scope or evidence scope. | Treat a proposal as permission, or hide exceptions in an average with no declared scope, comparator and measurement basis. |
 | Local autonomy conflicts with control scope | add control layer; change allocation; apply `C.30.LCA` | Treat autonomy label as causal or safety proof. |
 | Evidence reuse hides source loss | add evidence scope; add source-return condition; use `A.10` for source recovery and bounded reliance, and `G.6` when the provenance path must remain addressable | Treat reused evidence as automatically valid in the wider scope. |
 | A scale window changes the residual | apply `C.31.ASAP`, with `C.29` when scale-lens use is being made | Treat two observations as a universal scale law. |
 | A frustration lens with recoverable level mapping or scale mapping makes candidate moves comparable | use `C.29` for lens adequacy; use `C.32.MLAO` and `C.32` when a residual-reducing candidate palette is current; use `G.5` only when selected-set result declaration is current | Treat an unassigned or same-scope structure conflict as RG mathematics or frustration mathematics, or treat an interlevel residual without recoverable mapping as a global optimizer, proof, or selected architecture. |
 
-**Worked slice A — clean module layout, bad flow.** A team redraws its module boundaries and reports more order-to-cash exceptions. For the proposed layout, trace one eligible order through the required handoffs and identify any new transfer the design imposes. For the current workflow, compare the handoffs actually used for comparable orders before and after the change. The redrawn boundaries may simply expose transfers that already occurred. A new transfer can justify inspecting its interface. Attributing the rise in exceptions to that transfer requires comparing its effects under the relevant conditions. Use C.30.TFS-REL for the flow and C.16 for the exception measure.
+**Worked slice A — clean module layout, bad flow.** A team redraws its module boundaries and reports more order-to-cash exceptions. For the proposed layout, trace one eligible order through the required handoffs and identify any new transfer the design imposes. For the current workflow, compare the handoffs actually used for comparable orders before and after the change. The redrawn boundaries may simply expose transfers that already occurred. A new transfer can justify inspecting its interface. Attributing the rise in exceptions to that transfer requires comparing its effects under the relevant conditions. Use C.30.TFS-REL for the flow and C.16 for the exception measure. Suppose an order specification permits an alternate handoff for returns under a stated amount. A qualifying return can use it under that rule. If another order requires the customer’s agreement to the change, the team can explain the delay and request the exception. The original handoff stays due until the agreement takes effect.
 
 **Worked slice B - AI agent control conflict.** A local agent optimizes its local objective and violates a supervisor's allowed-mode constraint. `C.30.ILC` names the agent scope, supervisor scope or control scope, control relation, local optimization claim, residual-bearing locus, and local repair attempted. The first move may be add control layer, change allocation, or apply `C.30.LCA`. Safety, causality, and gate claims use their subject patterns.
 
@@ -274,7 +274,7 @@ The conformance checklist below verifies the preceding guidance after the practi
 | CC-ILC-2 | A conforming use names declared holon levels or declared scopes, not only `level`, `layer`, `scope`, or `scale` prose. | Prevents pseudo-level and pseudo-scope reasoning. |
 | CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Distinguishes a cross-level or cross-scope residual from a conflict confined to the same level and scope or one whose relevant assignment is unknown. |
 | CC-ILC-4 | A conforming use identifies the conflict carriers. For a claimed frustration residual, it states any attempted local repair and its insufficiency, or the reason that such repair would leave the loss unresolved. | Prevents premature synthesis and repeated local fixes. |
-| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without candidate generation. |
+| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. For `acceptBoundedException`, distinguish the proposed next decision from an exception already in force and establish which rule or authorized act supports the claimed status. | Makes the output action-guiding without candidate generation. |
 | CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their subject patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
 | CC-ILC-7 | If a source-return condition is needed, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
 | CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |

@@ -6,12 +6,12 @@ section_id: "C.40.JD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:3 — Forces"
-line_start: 93719
-line_end: 93728
+line_start: 93776
+line_end: 93785
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

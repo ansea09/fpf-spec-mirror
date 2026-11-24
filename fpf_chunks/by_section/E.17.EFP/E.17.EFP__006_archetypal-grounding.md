@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 116038
-line_end: 116162
+line_start: 116102
+line_end: 116226
 dependencies:
   - "A.10"
   - "A.15"
@@ -156,11 +156,11 @@ If a text carries a new hypothesis or another changed claim, first constitute it
 
 #### E.17.EFP:5.7 - Human-authored and generated task replay against the simpler alternative
 
-These editorial comparisons ask what the displayed text preserves and what its reader would need for the intended use. The author can decide which form to publish by examining the two texts. Observed comprehension, effort and error rates require evidence from the corresponding use.
+Compare the forms against their sources and the grounds available to this audience in time for its task. The comparison can support an editorial recommendation. That recommendation satisfies an order for advice. When issue is required, establish who can select the form, who may issue it to this audience and how the recipient can obtain it. The same party may hold both powers. Observed comprehension, effort and error rates require evidence from the corresponding use.
 
 | Task and simpler alternative | What the reader can find | Meaning preserved | Comparison the author must make | Use the text supports | Editorial decision |
 |---|---|---|---|---|---|
-| **Human-authored shift note.** An engineer writes two sentences repeating inspection note N-14. The alternative is a source-linked orientation note. | The two sentences name the inspection and direct the reader to N-14. | Check the repeated claims and the conditions attached to them in N-14. | Compare the two sentences with their source. | The shift note serves as orientation and identifies N-14. The inspection record retains the uses supported by its own contents and conditions. A request to find the operating procedure needs a usable return to that procedure. A shift decision requiring two connected conditions must make both recoverable in time. | Where the simple note provides the commissioned orientation, publish it with the source return and the limit of use. |
+| **Human-authored shift note.** An engineer writes two sentences repeating inspection note N-14. The alternative is a source-linked orientation note. | The two sentences name the inspection and direct the reader to N-14. | Check the repeated claims and the conditions attached to them in N-14. | Compare the two sentences with their source. | The shift note serves as orientation and identifies N-14. The inspection record retains the uses supported by its own contents and conditions. A request to find the operating procedure needs a usable return to that procedure. A shift decision requiring two connected conditions must make both recoverable in time. | Where the simple note provides the commissioned orientation, recommend it with the source return and the use limit. An authorized editor can issue it when publication is due. |
 | **Generated incident explanation.** A report of one recovery adds `therefore the design is robust`. The alternative labels it `AI summary` and links the report. | Both versions display the new conclusion. | The source supports the recorded recovery. Design-wide robustness needs its own target claim and grounds. | Compare the scope of the added assertion with that of the source. | The editor can catch the unsupported inference even when the source link resolves. | Apply the EFP identity screen. Classify the explanation only after identifying its target and keep its use within the supported scope. |
 
 The first case establishes the simpler-note boundary through unchanged claims, source recovery and a sufficient use limit. The same boundary applies when a generator produces that adequate note. In the second case, the added robustness claim calls for the identity and support check; a human author could make the same addition. The external literature supplies grounds for the generated, model-facing and interactive populations it studies.

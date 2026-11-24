@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__009_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5 — Archetypal Grounding"
-line_start: 37912
-line_end: 37948
+line_start: 37929
+line_end: 37965
 dependencies:
   - "A.0"
   - "A.19"
@@ -62,7 +62,7 @@ keywords:
 
 **Show.** The changed-relation and retention claims need their own governing patterns.
 
-**Cash-out.** Reopen the substrate if the base relation or posture changed. Use `C.19` for the claim about which candidate traditions remain live; `G.5` governs any declaration of a selector outcome.
+**Cash-out.** The author can compare a hypothetical mapping with the declared one under `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8`. A revision of the shared mapping belongs to its authorized maintainer. Use `C.19` for the claim about which candidate traditions remain live and `G.5` for a declaration of a selector outcome.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.4 - Use-situation spread
 

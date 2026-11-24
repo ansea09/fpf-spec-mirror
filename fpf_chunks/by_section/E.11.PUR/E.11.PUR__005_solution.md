@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 111056
-line_end: 111296
+line_start: 111117
+line_end: 111357
 dependencies:
   - "A.10"
   - "A.15"
@@ -141,9 +141,9 @@ When those values still match, cite and use the earlier result.
 
 Use `A.10` when a named claim or bounded action relies on that result and the source-to-use account is still implicit. Add a dated `U.Work` occurrence only when that Work is itself a current claim. Use `G.11` when currentness or refresh changes the use.
 
-When the earlier result matches, stop without repeating the same pattern use or copying the result under another stage name.
+A matching result can complete a commission for the answer. If the commission also specifies a fresh application, a particular performer or an independent judgement, establish whether that performance has taken place on those terms. The earlier result can still supply an input.
 
-When one value changed, reopen the smallest affected result question under the pattern that defines or tests that result. Repeat the complete pattern use only when the unaffected reach cannot be established. If the applicable pattern supplies no basis for comparing the earlier result with the present concern, stop at `insufficient result-comparison basis`.
+When one value changed, reopen the smallest affected result question under the pattern that defines or tests that result. A new performance of the complete use is warranted when the scope of the earlier result cannot be established or the commission calls for that performance. If the applicable pattern supplies no basis for comparing the earlier result with the present concern, stop at `insufficient result-comparison basis`.
 
 The candidate pattern use, the earlier result episteme, a later reliance relation, a currentness assertion, and later Work remain separate. This branch introduces no generic result-reuse relation.
 
@@ -222,7 +222,7 @@ When a named later reliance needs addressable closure, cite a current E.11.PUA r
 
 A known unmet condition means not ready; missing information leaves readiness unresolved. An expectation, ordering edge or closure record's presence alone supplies no achieved result.
 
-The dependency is not an instruction to repeat a use whose adequate earlier result is already available. Apply the result-reuse exit before proposing execution.
+An adequate earlier result can satisfy a prerequisite for its content. If the receiving work also depends on a fresh inspection or on a particular performer’s judgement, establish that contribution before concluding readiness.
 
 A changed closure can change readiness without changing the prospective dependency. No ordering or readiness claim authorizes Work. Page, seminar, identifier and display order do not establish a dependency.
 
@@ -237,7 +237,7 @@ A changed closure can change readiness without changing the prospective dependen
 
    State the aggregate separately when the current question needs it. If step 5 supports a recommendation, include it there; when a reliance-bearing applicability finding exists, the two result values agree.
 5. Compare an applicable candidate with the other serious continuations, including continuing the present work without a new pattern use. Recommend it only when its expected receiving value warrants its full burden; use C.11.DUA when that judgement is unclear. Finish without a positive recommendation when no candidate warrants one. The expectation is not an achieved result.
-6. Before repeating a recommended use, compare any earlier result through `4.2.1`. Reuse a matching result or reopen only the affected result question.
+6. Compare any earlier result under `4.2.1`. Use it for what it already settles. Identify any outstanding result question and any fresh or independent work required by the commission.
 7. Establish the ordering the receiving work needs under §4.4. When the commission concerns a combined result, use the rationale to explain how the contributions fit that result, including any joint condition the ordering leaves open.
 
    For prerequisiteResult, name exact required content, the selected supplier-use basis and its expectation.

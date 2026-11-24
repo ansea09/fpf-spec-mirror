@@ -6,12 +6,12 @@ section_id: "E.10.DEV:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__006_worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:5 — Worked Slices"
-line_start: 107769
-line_end: 107815
+line_start: 107830
+line_end: 107876
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -43,13 +43,13 @@ Constructed wording for repair: `Our development programme improves the product,
 Return a **missing-information result** to the programme author. First ask whether the sentence describes proposed work or work already performed and, separately, whether each effect is intended or observed. Then ask:
 
 - **Product:** Which product and characteristic should or did change? What comparison makes that change an improvement, under which conditions?
-- **Mira:** Which engineering Work family and conditions does the capability claim concern? For an observed increase, obtain the comparable qualification results through :5.2 before retaining that claim.
+- **Mira:** Which engineering Work family and conditions does the capability claim concern? For an observed increase, establish Mira’s own contribution in comparable performances through :5.2 before retaining that claim.
 - **Research:** Which claim or problem formulation is meant? What revision is proposed or observed, and under what criterion does it count as an advance?
 
 #### E.10.DEV:5.2 - Change in human capability
 Source wording: `Mira developed as an engineer.`
 
-For the capability reading, recover the named Work family, supported envelope, attained bounds and evidence under `A.2.2`, with the qualification and time conditions needed by the use. To preserve *developed*, also recover the change over time from comparable qualification conditions and evidence under the applicable change owner. If that comparison is unavailable, return the missing comparison; state any supported current capability separately.
+For the capability reading, recover the named Work family, supported envelope, attained bounds and evidence under `A.2.2`, with the qualification and time conditions needed by the use. To preserve *developed*, compare what Mira did in the earlier and later performances under the relevant support conditions, including which choices came from colleagues or tools. Two team results can establish a change for the team while leaving Mira’s own change open. Use the applicable change pattern for the claim being made. If that comparison is unavailable, return the missing comparison; state any supported current capability separately.
 
 If the later question concerns an apparent loss, failed transfer, or condition-dependent expression, use current `E.23.CAE` only to return the qualified differential observation and disposition. That result supplies neither a trajectory choice nor development Work. If a dated intervention occurred, identify its Work and Method separately. Use `E.23.CDI` when the receiving task calls for capability development.
 

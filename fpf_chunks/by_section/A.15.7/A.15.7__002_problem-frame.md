@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 32819
-line_end: 32854
+line_start: 32836
+line_end: 32871
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,7 +38,7 @@ keywords:
 **First useful result.** Give a supported next-action answer in ordinary language, with the content needed for its use:
 
 1. **Decision now:** state the selected continuation and its grounds, or the limitation that requires a stop or return to another question.
-2. **Performer:** identify the intended System performer when an action is selected. Name the chooser separately when it differs.
+2. **Performer.** Identify any performer conditions on the selected action. Name a particular intended performer when the decision appoints or requires one. A later choice between eligible performers can be part of the arrangement. Name the chooser separately when it matters.
 3. **Stop and feedback:** retain the stop, fallback, reconsideration or observation condition that the selected continuation or receiving use needs.
 
 For a reversible local choice, ordinary project language is enough. When a use needs to cite, compare, audit, or rely on an identified claim, use an existing sufficient episteme or identify one under C.2.1. Preserve access when later reliance requires it. The answer states the supported result and its grounds.

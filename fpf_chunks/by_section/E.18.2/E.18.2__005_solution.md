@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 119548
-line_end: 119659
+line_start: 119612
+line_end: 119723
 dependencies:
   - "A.10"
   - "A.15"
@@ -89,10 +89,10 @@ For a guaranteed limit, an upper bound on all outcomes of a nonempty admissible 
 
 | Expression family | Use when it describes | Required boundary |
 |---|---|---|
-| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, selected internal relation, cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | Select the subject separately using E.18's one-TFS identity and selection constraints or E.18.NET's membership, boundary, and cross-member relation rules. E.18.2 defines the description. This description is not a work occurrence, gate passage, or evidence. |
+| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, selected internal relation, cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | Select the subject separately using E.18's one-TFS identity and selection constraints or E.18.NET's membership, boundary, and cross-member relation rules. E.18.2 defines the description. The mapping can support conclusions about the represented relations. A claim that a particular Work or gate decision occurred needs grounds for that occurrence. |
 | mathematical path or path slice | reachability, carried relation, currentness slice, refresh locality, or crossing-local replay | not a project procedure or performed sequence |
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
-| morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
+| morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | use the mapping and grounded premises about interfaces, capacity, access and timing to establish the compatibility or feasibility they support. Actual execution has its own occurrence |
 | quotient, fold, coarsening, refinement, or factorization | coarser or finer partitions, aggregation, retained or lost structure, and alternative decomposition | Compare the answer before and after this operation using §4.1. To claim strict model refinement under B.5.MR:4.2, hold the inquiry and interpretation fixed, show a feasible completion, establish preservation by all new completions and identify a previously admissible answer now excluded. |
 | algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | Apply A.6.0 for a separately needed formal-substrate declaration, A.6.1 for a reusable law-governed operation declaration and its application or realization claims, and the relevant subject and evidence patterns for any empirical-law claim. The mathematical expression alone establishes none of those claims. |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow structure | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
@@ -146,5 +146,5 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 | functional structure or unsettled function-like wording | Use `C.30.ASV` for the functional structural view; use `A.6.F` to recover the object or claim from unsettled function-like wording, then apply its subject pattern. |
 | module interface | `A.6.M` supplies the module-interface relation |
 | reusable-structure characteristics | `C.31` carries the reusable-structure claim |
-| publication face or explanation-faithfulness use | `E.17` supplies the publication face; `E.17.EFP` returns the explanation-faithfulness result |
+| publication face or explanation-faithfulness use | use `E.17` to construct the face if needed. For actual publication, identify the authorized issue and access under `E.24.PUB`. Use `E.17.EFP` for the explanation-faithfulness result |
 

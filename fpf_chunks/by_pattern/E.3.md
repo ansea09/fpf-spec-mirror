@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
-line_start: 98363
-line_end: 98543
+line_start: 98420
+line_end: 98600
 dependencies:
   - "E.1"
   - "E.2"
@@ -133,7 +133,7 @@ This section defines an **extensible family of autonomy oversight profiles** for
 
 | ProfileId | Name                         | Freedom‑of‑Action (FoA)                  | Explore‑Share (default) | Typical Use                                     | GateDecision authority |
 |---------:|------------------------------|------------------------------------------|-------------------------|-------------------------------------------------|------------------------|
-| **L0** | Scripted Execution           | **Whitelist only**; fixed scripts        | 0                       | Compliance‑critical, deterministic procedures   | Engineer‑of‑Record (EoR) |
+| **L0** | Scripted Execution           | **Whitelist only**; fixed scripts        | 0                       | Compliance‑critical, deterministic procedures   | Engineer‑of‑Record (EoR) or duly appointed maintainer |
 | **L1** | Constrained Sequencing       | Negative constraints; **single‑tool**    | ≤ 0.10                  | Low‑risk automation with bounded novelty        | EoR + Peer Reviewer |
 | **L2** | Supervised Autonomy          | Multi‑tool plans; bounded replanning     | 0.20 (±0.10)            | Ambiguous tasks; moderate budget                | Team Lead + Safety |
 | **L3** | Auditable Autonomy           | Multi‑step, self‑replanning; adaptive    | 0.30 (±0.10)            | Production agents with learning under guard‑rails | Product + Safety + Legal |
@@ -147,15 +147,15 @@ This section defines an **extensible family of autonomy oversight profiles** for
 * **Provenance.** L1+ MUST emit a **CallGraph** with Service/Method editions, any used EmitterPolicyRef, budget deltas, and observation hooks (C.Agent‑Tools‑CAL **ATC‑5**).
 * **BLP conformance.** Apply E.2 BLP when selection makes a scale claim or invokes a declared generality policy, retaining its α/δ tolerances and conditional debt requirements. L2+ alone does not establish a scale claim. A profile that independently requires a fuller comparison or audit must state that trigger and basis; its other budget, oversight and assurance duties remain binding.
 * **Learning/Adaptation.** L3–L4 MAY enable adaptation only under product permission, change authority, E.5 and privacy controls. L0–L2 retain their profile default off unless their authorized policy change documents mitigation. Remaining fixed needs no BLP waiver; changing an applicable product requirement follows that requirement's exception rule.
-* **Human‑in‑the‑Loop (HITL).** HITL obligations are expressed as **gate decisions and pause/resume hooks**, not an implicit “approval ladder”:
+* **Human‑in‑the‑Loop (HITL).** Use the profile’s **gate decisions and pause/resume hooks**. First distinguish authority to decide from a decision already in force. If the profile permits a standing resolution, establish that it covers this action, budget and window. Obtain a fresh decision wherever the profile requires one.
   * **L0–L1:** execution MAY start only after a **GateDecision** authorizing the CallPlan is present in the declared window.
   * **L2:** sentinels MUST be able to pause execution; resumption requires a new **GateDecision** recorded in the DecisionLog.
   * **L3:** the profile MUST declare periodic review windows; continued execution across a review boundary requires a **GateDecision**.
   * **L4:** continuous telemetry review; the default execution context is **sandboxed**. Leaving the sandbox requires an A.21 GateDecision for that bounded action, with the applicable signers, budget, scope/window and stop conditions. Publish the decision and profile/policy change. When the case also satisfies E.18’s structural crossing conditions, cite its CrossingRef and required per-binding accounts. Unchanged local meanings need no invented F.9 Bridge.
 
 **Gate‑decision authority map (default signers; who may author GateDecisions).**
-* **L0:** EoR or appointed maintainer.
-* **L1:** EoR **and** peer reviewer (two‑person rule).
+* **L0:** EoR or a duly appointed maintainer with authority for this action.
+* **L1:** EoR **and** peer reviewer. Two distinct people exercise judgement in these roles. Each must be free to object, and both must actually assent within the scope the profile requires. They can issue one joint resolution. A service may prepare the evidence or record their assent. Require separate determinations or additional independence where the applicable profile prescribes them.
 * **L2:** Team Lead **and** Safety representative.
 * **L3:** Product Owner **and** Safety **and** Legal/Privacy.
 * **L4:** **Gov‑CAL Board** (multi‑disciplinary) with documented scope, time‑boxed **trial budget**, and rollback criteria.

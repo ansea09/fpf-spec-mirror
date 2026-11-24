@@ -6,12 +6,12 @@ section_id: "C.29.BB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:4 — Solution"
-line_start: 74639
-line_end: 74706
+line_start: 74686
+line_end: 74755
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -53,6 +53,8 @@ Write each included part's change using the terms. Sum those equations. Matching
         = total inward transfer - total outward transfer
           + internal production - internal removal.
 
+Where both local balances use the same internal transfer, its two terms cancel even while its value is unknown. Two independently kept records can disagree about that value. An order to reconcile the records requires checking which entries describe the same transfer and what difference remains.
+
 The transfer terms are amounts over the interval. A rate must be integrated over that interval, or multiplied by its duration when the rate is constant. The signs follow the boundary.
 
 For a differentiable rate model, the corresponding instantaneous relation is
@@ -79,7 +81,7 @@ Substitute the available amounts and compute the requested consequence. If some 
 
 For observations, subtract the change predicted by the recorded transfers and internal terms from the observed change in storage. Propagate their uncertainties and shared constraints into a range for this discrepancy. If the range excludes zero, the records and balance cannot agree under those assumptions. If it contains zero, establish whether jointly admissible values actually give zero before claiming agreement is possible. Equal unrecorded inflow and outflow can cancel even when the discrepancy is exactly zero. To locate a fault, examine a term or an independent observation that could distinguish its possible causes.
 
-Resolve a remaining term only when it can change the answer enough to justify the work. A bound that settles the decision is a usable result. An unresolved cause can remain open when the decision tolerates the resulting uncertainty.
+Resolve a remaining term when the commission requires it or when it could change the answer enough to justify the work. A bound that settles the decision is a usable result. An unresolved cause can remain open when the decision tolerates the resulting uncertainty.
 
 #### C.29.BB:4.6 - Preserve the balance in a computation and return its result
 

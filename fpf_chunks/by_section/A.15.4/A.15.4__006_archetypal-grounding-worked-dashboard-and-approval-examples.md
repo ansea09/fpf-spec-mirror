@@ -6,12 +6,12 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 31823
-line_end: 31910
+line_start: 31840
+line_end: 31927
 dependencies:
   - "A.10"
   - "A.13"
@@ -70,7 +70,7 @@ At 09:20 UTC on 2026-05-08, a green tile for `Release-2026.05.08-prod` points to
 
 Approval memo green-tile case:
 
-An approval memo may carry an approval claim when it exposes the `A.2.9` `SpeechActRef`, the identified actual performer, that performer's independently recovered A.13 core basis, and the A.15.1 account that independently admits the speech-act Work. If the approval use must also identify the grantor assignment, or that assignment changes policy applicability, add `actingSystemRoleAssignmentRef : U.RelationRef constrained to U.SystemRoleAssignment` and use F.6 to compare its holder with the already identified performer. Keep affected release scope or work target, judgement context, time, window, publication-carrier refs, evidence refs, and the instituted effect separate. Authority is never supplied by the assignment. The memo supports only the bounded approval use defined in `A.2.9`; release, deployment, rollback, or other performed Work needs its own A.13/A.15.1 basis and any independently established support relation recovered through A.10 for reliance.
+An authenticated approval memo can establish the status of an approval within its scope and window when the decision rule and the content warrant that use. To attribute the approval to particular participants, establish the act or combination of acts, who performed them and any required mandates under A.2.9 and the governing rule. For exact assignment-bound attribution, use F.6 for that performer and act. The publication or copy, evidence for the decision and the decision’s effect remain separately identifiable. A claim of subsequent release, deployment or rollback needs evidence about that work.
 
 Credential-status and system-role-assignment-state green-tile case:
 

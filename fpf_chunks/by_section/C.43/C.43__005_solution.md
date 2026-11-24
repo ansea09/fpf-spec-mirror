@@ -6,12 +6,12 @@ section_id: "C.43:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:4 — Solution"
-line_start: 95547
-line_end: 95849
+line_start: 95604
+line_end: 95906
 dependencies:
   - "A.12"
   - "C.11"
@@ -164,7 +164,7 @@ Keep feasibility, outcome preference and assurance distinct in the comparison. A
 
 Follow the chosen continuation through the participants and means that must realize it. Establish what action is needed, who or what can perform it, what resources and permissions it uses, and when the effect is needed. The calculation, communication, agreement and execution consume time and capacity. Include them when they can change the option's availability or result.
 
-Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. A feasible schedule establishes possibility under its stated durations and access conditions. For a promise across uncertain conditions, show how the authorized participants can meet the deadline throughout that range, using information available before their commitments. A bound can establish this without fixing the eventual schedule.
+Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. A feasible schedule establishes possibility under its stated durations and access conditions. To justify a promise now, establish a feasible course of action throughout the promised range. It can include choices made after the promise. Situations still indistinguishable when an action is due need a common feasible action up to that point. Later actions can differ if the participants who make those choices can obtain and interpret the distinguishing information in time to act. A bound can establish this without fixing the eventual schedule.
 
 Choose the organization of decisions where it is unresolved. One rapid feedback response may protect the system while a slower plan is revised. Alternatively, the relevant decisions may need to be made together. Different timescales do not by themselves require layers, and organizational titles do not establish update rates. Use **C.32.LCA** to construct or change the observation, decision and intervention arrangement when those relations are the limiting condition.
 

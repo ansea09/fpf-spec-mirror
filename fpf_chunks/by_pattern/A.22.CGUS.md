@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.CGUS.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
-line_start: 42332
-line_end: 42697
+line_start: 42351
+line_end: 42716
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,8 +90,8 @@ The opposite repair is also harmful: authors replace the simple decision questio
 
 Decide what would let this recipient act or answer. For example, a venue confirms that a room has been booked for the company’s rehearsal tomorrow and omits the room name. This establishes an existing booking. If the musicians must choose a building before boarding and cannot change it later, the organizer needs the building by departure. If the order asks for the booked room by name, the organizer also needs its identity by the agreed time. Confirmation for the East Room supplies that answer while leaving open whether the company also booked the West Room. For a complete list of its rooms, the organizer needs a booking record or rule that covers all of them. Confirmation naming East as the company’s sole room establishes the booking, identifies a booked room and completes the list. Giving directions to the right building also requires knowing where East is.
 
-1. Name the decision, who can make it, and when. Recover the range of results and circumstances covered by the request.
-2. For a specified move, take it as the candidate. When finding a way forward is your task, work back from the result each move must make possible. Which change of arrangement, source, timing or actor would provide a genuinely different way under the constraints? Build or reuse candidate continuations on that basis. State who is free to choose among them. A circumstance that might arise is a condition on the choice.
+1. State the question, the relevant case and time, and the range of results and circumstances it covers. For a decision someone must make, establish who can decide and by when. A question about whether a continuation exists can already have an answer even if no chooser has been designated.
+2. For a specified move, take it as the candidate. When finding a way forward is your task, work back from the result each move must make possible. Which change of arrangement, source, timing or actor would provide a genuinely different way under the constraints? Build or reuse candidate continuations on that basis. Where the route leaves a choice, establish who can choose and which information will be available in time. A continuation can also be fixed by its conditions or a schedule.
 3. State what must hold for each continuation on which the answer relies. Retain the distinctions that change availability or the grounds the recipient must explain, including dependencies between constituent actions under §4.1.1.
 4. Apply those conditions to the facts for this case and window. When the choice may wait for more information, establish what the chooser will know in time and which response will then be possible.
 5. Return the conclusion requested. For an identified candidate, give `available`, `blocked` or `unknown` with its grounds. One enabled candidate suffices to establish existence. A rule may also establish existence without identifying the same available action in every case. For a complete set, justify that the candidates or the generating rule cover every admissible continuation and determine which satisfy the conditions. Report a partial set or the outstanding distinction where the grounds fall short. An evaluation error retains its own status.
@@ -335,7 +335,7 @@ In this constructed learning case, a dancer has the strength and static axis con
 
 During the rotation, balance coordination would constitute part of turning; that turn would constitute part of the figure. These are connections through performance, not three successive tasks. The practice alternative can exercise the first connection without already performing the intended figure.
 
-When the coordination can be sustained, return to what the dancer is asked to perform. If the required turn and the other constituents can be performed together under the conditions of that figure, the capability claim can extend to it. Use adequate prior performances, a domain rule or a trial covering the relevant conditions if a wider capability is at issue. The case condition and its continuation judgement can change without changing the potential alternatives. The subject's training Method supplies the exercise and assessment; CGUS makes their effect on the available continuation explicit.
+When the coordination can be sustained, return to what the dancer is asked to perform. If the required turn and the other constituents can be performed together under the conditions of that figure, the capability claim can extend to it. If a partner steadies the turn, establish which balance the dancer maintained and what the partner supplied. That performance can demonstrate the supported figure. For an unaided figure, use grounds for that dancer sustaining the required balance without the partner’s support. Use adequate prior performances, a domain rule or a suitable trial when a wider capability is at issue. The case condition and its continuation judgement can change without changing the potential alternatives. The subject's training Method supplies the exercise and assessment; CGUS makes their effect on the available continuation explicit.
 
 ### A.22.CGUS:6 - Bias-Annotation
 

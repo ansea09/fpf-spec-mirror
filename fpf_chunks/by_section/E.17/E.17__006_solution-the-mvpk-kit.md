@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 115114
-line_end: 115489
+line_start: 115178
+line_end: 115553
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -65,7 +65,7 @@ keywords:
     * **Rendering** produces or displays an expression through a carrier. Name the rendered construction when comparing X and the system-performed Work when its production matters. Its decoding, layout or graphical choices can affect recoverability and need the preservation test for the selected use.
     * **Representation** relates an independently identified construction to its subject through a recoverable correspondence. A.6.3.RT and A.6.3.RT.OE govern constructing and using that expression; C.29 supplies the mathematical-lens branch. The correspondence and intended operation determine what can be returned to the represented subject.
 * **Architecture-description mapping note.** An architecture **viewpoint** maps to one `U.Viewpoint` episteme. `PublicationVPId` or `EngineeringVPId` designates it and a `U.ViewpointRef` resolves it. An architecture **view** maps to one episteme that passes E.17.0 conformance. An MVPK face is the separate publication form through which that episteme may be exposed for a separately declared bounded use and, when material, in an exact publication occurrence.
-* **Publication work:** Build, rendering, upload, or delivery may be `U.Work` performed by the System identified through A.13. When such Work is current, A.15.1 independently identifies the Work, performers, Method, time, and containing System. Add F.6 only when the publication account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Missing or failed F.6 alone leaves independently admitted Work intact. Name a carrier relation separately only when the claim or downstream use depends on it.
+* **Publication work.** A service can prepare and deliver a face as one Work, several Systems can contribute to that Work, and further parties can use its results in separate Works. Where attribution matters, use A.13 for the actual contributing Systems at the claimed scale and A.15.1 for each relevant Work, its Method, time and containing System. Apply F.6 to a particular performer's contribution and its own obtaining assignment when the claim needs that attribution. Missing F.6 alone leaves independently admitted Work intact. Identify the carrier relation when the claim or downstream use depends on it.
 * **Viewpoint (`U.Viewpoint`)** - a claim-bearing episteme edition recognized under E.17.0's dependent-kind rule. Resolve an existing viewpoint when it already states the relevant concerns and conformance rules. Author a new reusable viewpoint, or create an E.17.1 local family declaration inside an identified catalogue episteme edition, only when the current reader/use cannot be served truthfully without that separate result. The declaration packages `U.ViewpointRef` values. The declaration is not another bundle entity. `PublicationVPId` designates the viewpoint episteme. `U.ViewpointRef` resolves it.
 * **Explanation-use profile values.** An existing publication form can be paired with a bounded explanation-use profile value such as `SourcePinnedExplanation`, `SourceLinkedExplanationReconstruction`, `DidacticRetelling`, or `SpeculativeRetelling`. The profile value is neither the form nor a new face, explanation, or carrier-rendering kind. Pins, provenance references, and no-new-A.6.B-boundary-claims discipline apply only when the source, transformation, or receiving use makes them material.
 
@@ -110,7 +110,7 @@ When a morphism publication is encountered or reused, name only the relation pos
 * the `PublicationExpressionBearingRelation` occurrence between independently identified C and X; use the form-mediated predicates when that quantified granularity answers the receiving question;
 * the five-participant `EpistemePublicationRelation` occurrence when that selected edition is available to the declared audience for the bounded use;
 * the selected episteme's independent E.17.0 `U.View` membership when the publication use calls it a view, plus any separate A.6.3 construction history when current;
-* the system-performed carrier or rendering Work; any A.10 evidence/provenance path or G.6 path citation needed to replay it; and any G.11 currentness result, only when those neighboring facts are current; and
+* the actual carrier or rendering Work at the claimed scale, any A.10 evidence/provenance path or G.6 path citation needed to replay it; and any G.11 currentness result, only when those neighboring facts are current; and
 * the project-side object, reference, or authority relation when the next work or reliance claim depends on it.
 
 Changed claim content, EntityOfConcern or effective reference scheme identifies another episteme under C.2.1. A later-edition claim also requires its source and continuity rule.
@@ -251,7 +251,7 @@ Beyond orientation, identify the face edition or snapshot, the source pins or da
 
 **Modality and deontic-force preservation.** Publication-facing transformations preserve possibility, obligation, permission, recommendation status, decision status, confidence, scope, and temporal window when those values change the claim or use. If one changes, narrow the bounded use or apply the concrete definition, constraint, decision, evidence, work, gate, or authority rule that carries it.
 
-Comparison does not become recommendation or decision. Explanation does not become evidence, and a face does not become authority. Do not use a publication unit to assert a downstream effect without the grounds for that effect. Linking a source does not establish its availability for reliance, and looking ready does not establish gate passage.
+A comparison can support a recommendation, and a face can communicate a decision. Identify what supports each claim. An explanation may contain the actual warrant or observation the reader needs. Its success as an explanation alone establishes neither permission nor any reported downstream effect. Linking a source leaves its availability for reliance to be established. A release cue needs the applicable gate result.
 
 This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that makes the operative claim recoverable by value and source pins survive in the new publication-facing unit.
 
@@ -259,9 +259,9 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 If any of those values is current, cite its typed project-side reference and direct predicate separately. Otherwise say which governing rule is missing rather than inferring it from a reader label.
 
-**Source-gap states.** When a required source relation is missing, identify the gap. The source may be unnamed, named but unavailable, or available but unused. A used source can be insufficient. A source can also be stale, outside its window, or contradicted. Another possible gap is a mismatch among the source-maintenance System, any maintenance Work whose performer is recovered through A.13 and which A.15.1 admits independently, the status register, and a separately established responsibility relation. Add F.6 only when the source-maintenance comparison expressly consumes precise assignment-bound attribution; its failure alone leaves independently admitted maintenance Work intact.
+**Source-gap states.** When a required source relation is missing, identify the gap. The source may be unnamed, named but unavailable, or available but unused. A used source can be insufficient. A source can also be stale, outside its window, or contradicted. Another possible gap is a mismatch among the source-maintenance System, the relevant maintenance contributions, their actual performers under A.13 and each Work independently admitted under A.15.1, the status register, and a separately established responsibility relation. Add F.6 only when the source-maintenance comparison expressly consumes precise assignment-bound attribution; its failure alone leaves independently admitted maintenance Work intact.
 
-Assignment establishes neither source-maintenance responsibility, classification, nor status-register authority. Block only the unsupported effect and keep any reduced bounded use available.
+For source-maintenance responsibility or status-register authority, establish the applicable rule or decision and the facts that make it apply to this holder and scope. A rule may attach a duty or authority to an obtaining assignment. Classification has its own grounds. Block only the unsupported effect and keep any reduced bounded use available.
 
 **Measure and display overread.** Before relying on a displayed number, score, percentage, color, rank, confidence, similarity, or status, recover the claim and its source. Retain the characteristic or criterion, scale, scope, window, aggregation rule, calibration, or evidence basis only where the applicable pattern requires it or it changes the value's interpretation. A status or ordinal judgment does not become a measurement by display. If the basis required for the intended use is missing, keep only the supported orientation or source-finding use.
 
@@ -269,11 +269,11 @@ Use A.10 when the relied-on source-to-use account is implicit or must remain rep
 
 **World-contact stop.** When a source update, revocation, policy change, holon-state change, incident, model update, environmental change, or new observation changes a premise required by a downstream use, revalidate that affected use before continuing it. Refresh the source, reissue the publication, or recover a changed project-side result as that use requires. Reuse unaffected results. A changed label or edition alone does not establish changed meaning or invalidate every publication use.
 
-**Functional-description boundary.** A functional, architectural, descriptive, representational, or explanatory fit claim creates no permission, obligation, approval, gate passage, release relation, performed-work evidence, or engineering justification. Those uses need the separate work, authority, evidence, decision, gate, release, or assurance object and relation that carry the claim.
+**Functional-description boundary.** A functional, architectural, descriptive, representational, or explanatory fit claim creates no permission, obligation, approval, gate passage, release relation, performed-work evidence, or engineering justification. The explanation can give an argument or identify the actual evidence, authority, decision or Work on which a particular conclusion depends. Evaluate those grounds for the receiving use.
 
 **Mixed bundle no-shared-evidence-relation rule.** A bundle with source-pinned, reduced-use, speculative, didactic, comparison, and evidence-facing parts is not interpreted under one shared evidence relation or use-boundary value borrowed from another member. Each operative claim keeps its own source relation and unsupported downstream use.
 
-**Educational usefulness.** Didactic, onboarding, tutorial, and workshop material can help readers orient themselves. It is not evidence, gate passage, approval, work occurrence, engineering justification, release permission, or bridge relation.
+**Educational usefulness.** A tutorial can contain a derivation sufficient for an engineering conclusion. A workshop record can show what a participant did. To credit the participant with choosing a model, establish what the exercise, tutor or tool supplied and what the participant selected under those conditions. To report gate passage, approval or release permission, identify the effective decision or act the applicable rule requires, wherever it is recorded.
 
 **Comparison exposes conflict; it does not adjudicate it.** A comparison note can expose contradiction, asymmetry, different foregrounding, or residue. It does not select an option, approve release, pass a gate, or create bridge or substitution relation unless the corresponding `C.11`, `A.20`/`A.21`, `F.9`, or other decision relation carries that result.
 

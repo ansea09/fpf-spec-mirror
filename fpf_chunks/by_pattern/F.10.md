@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.10.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
-line_start: 130845
-line_end: 131167
+line_start: 130909
+line_end: 131231
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -186,8 +186,8 @@ These are relation positions, not system-role-kind qualifier slots, a record sch
 
 1. `Observed` — seen or recorded once under declared observation conditions.
 2. `Measured` — supported by a declared measurement method, model, calibration basis, value, and uncertainty.
-3. `Corroborated` — supported by more than one independent source, procedure, or observation line.
-4. `Replicated` — repeated by independent work or under varied declared conditions.
+3. `Corroborated` — supported by more than one independent line of evidence under the rule for the particular claim. Two experts can independently interpret one temperature record. That gives two judgements about one observation.
+4. `Replicated` — repeated by independent work or under varied declared conditions, as the replication claim specifies. To claim independent observations, establish the distinct observation occurrences and the required independence. Two modes of one instrument may vary the conditions while retaining the same observer.
 5. `Refuted` — counter-evidence defeats positive evidential standing inside the same scope and window.
 6. `Inconclusive` — available input results and evidence-use relations are insufficient or mixed for the target claim.
 
@@ -201,7 +201,7 @@ These values classify evidential standing; they do not replace the observation, 
 4. `Deprecated` — discouraged, conditionally allowed, or being phased out.
 5. `Superseded` — replaced by another named edition, profile, or governing source.
 
-`Approved` alone does not establish an approval act. That claim requires separate recovery of its direct speech-act/decision relation. The status grants no permission and proves no runtime satisfaction.
+To report that someone approved the edition, identify the act and its authority under the applicable rule. Another rule may permit use of every edition that holds `Approved` in its scope. The established status and that rule can settle permission while actual enactment and runtime satisfaction have their own grounds.
 
 **RequirementStatus** local values:
 
@@ -264,7 +264,7 @@ For a different July clause, suppose the service is available whenever either of
 
 #### F.10:5.2 - Approved method description
 
-One exact safety-controller MethodDescription is `StandardStatus=Approved` only under the named standard/profile edition, source relation, scheme, scope, window, and selection use. That status neither creates the MethodDescription nor proves an approval speech act, permission, method enactment, or response-time satisfaction.
+One exact safety-controller MethodDescription has `StandardStatus=Approved` under the named standard/profile edition, source relation, scheme, scope, window and selection use. If the effective policy permits use of approved editions, check that this one qualifies. A requirement for a particular approver's act, a controller run or response-time satisfaction needs grounds for that further claim. Status presupposes the identified MethodDescription.
 
 For a controller run independently admitted as `U.Work` under A.15.1, keep that occurrence separate from its response-time measurement result. That result and its evidence-use relation can enter direct clause evaluation. A separate requirement status may follow from the evaluation; it does not inherit `Approved` by label or family edge.
 
@@ -300,7 +300,7 @@ None of those use facts establishes System admission, a local system-role classi
 | `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status pattern? |
 | `CC-F10-03` Use occurrence | Are bearer, target, value, scheme, scope, window, intended use, and direct obtaining basis explicit? |
 | `CC-F10-04` Source | Are source assertion/register, edition/order rule, provenance path, and G.11 currentness result recovered when they decide use? |
-| `CC-F10-05` Assessment | Are each consumed rule application and evaluation-result claim separate, and is any claimed dated evaluation Work independently admitted with its actual enacted Method? |
+| `CC-F10-05` Assessment | Are the required evaluation results and rule applications identified? For independent judgements, distinct observations or a new run, do the actual Works and their conditions establish the particular claim? |
 | `CC-F10-06` Assertion/display | Is the C.2.1 status-assertion episteme distinct from publication occurrence, form, rendering, carrier, row, and dashboard cell? |
 | `CC-F10-07` Modality | Are evidence status, standard approval, requirement status, and every direct result kept distinct? |
 | `CC-F10-08` Bridge | When the use needs semantic correspondence between different local-sense projections, are the exact F.9 occurrence, separate bounded-use claim and required reliance recoverable, while Card/description remains separate? |
@@ -323,7 +323,7 @@ None of those use facts establishes System admission, a local system-role classi
 | Clause-less compliance | *Compliant* is asserted without an exact clause, target, rule, scope, conditions, and window. | Recover the clause and direct evaluation result. |
 | Bridge-free roll-up | A dashboard aggregates local labels as global synonyms. | Establish the rule by which the component results support the displayed conclusion and check its conditions. Use F.9 when a separate correspondence between local meanings is needed. |
 | Bridge/family edge as explanation | A Bridge or `EvidenceStatus -> RequirementStatus` arrow is treated as direct reason. | Name the `StatusInterpretationRelation`, exact rule, evaluation application, and result. |
-| Evidence escalation without independence | One repeated lab result is called replicated. | Keep the supported status; assert `Corroborated` only after its independent-support rule passes, or `Replicated` after independent work or varied declared conditions and their results satisfy its rule. |
+| Evidence escalation without independence | Two independent readings of the same temperature record are counted as two temperature observations. | Apply the rule for the proposition being corroborated. Identify the separate judgements or observation occurrences and their conditions. If a new observation is commissioned, the earlier readings can supply inputs while that performance remains due. |
 | Status role for episteme | A report, standard, or requirement is said to ‘hold a role’. | Use the A.2.4 and F.10 use relations. They establish neither System admission, local system-role classification, nor an assignment. If the receiving claim needs an assignment, name the admitted System, declared assignment species and occurrence, and that System as its holder. |
 | Tool-state explosion | Every local tool state becomes a durable status kind. | Keep tool labels local; create a durable cell/family mapping only for a receiving use that needs it. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.9:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__008_conformance-and-practical-checks.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:7 — Conformance and practical checks"
-line_start: 33819
-line_end: 33837
+line_start: 33836
+line_end: 33854
 dependencies:
   - "A.10"
   - "A.13"
@@ -44,7 +44,7 @@ A use conforms only when the checks needed by its claimed result pass:
 9. A supported result, bounded objection, and blocker are all usable returns; an approval-looking label cannot erase a blocker.
 10. The reopen condition names the smallest changed fact that can alter this use, not a ritual periodic review.
 
-**Recognition check.** Give a reader a department-, document-, approval-, or tool-shaped request. The reader should be able to name the receiving decision, return the supported answer or blocker, and select further acquisition only when worthwhile, without designing an organization.
+**Recognition check.** Give a reader a department-, document-, approval- or tool-shaped request. Can the reader identify the receiving decision, use a sufficient existing result, recognize any separately owed work and decide whether discretionary acquisition is worthwhile?
 
 **Assurance check.** For consequential reliance, ask which domain Method, evidence, source edition, independence or conflict condition, authority, acceptance rule, applicability window, and stop are required. Missing assurance narrows or blocks reliance; it does not erase a separately identified source or result.
 

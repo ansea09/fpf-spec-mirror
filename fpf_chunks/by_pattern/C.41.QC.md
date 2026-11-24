@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.QC.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
-line_start: 94952
-line_end: 95147
+line_start: 95009
+line_end: 95204
 dependencies:
   - "A.10"
   - "C.41"
@@ -31,7 +31,7 @@ keywords:
 
 This Method establishes a bounded basis for using a criterion and its checking means, or returns a counterexample or unresolved qualification question. Start with one claim the proposed check is supposed to support and one plausible case where it could be wrong.
 
-Reuse an applicable qualification when available. A second agent, a formal experiment or a broad benchmark is useful only when it answers an uncertainty at worthwhile cost.
+Reuse an applicable qualification when available. Establish what independence the commission requires and obtain the stipulated contribution. When choosing an additional agent, experiment or benchmark, weigh the uncertainty it can resolve against its cost.
 
 ### C.41.QC:2 - Problem
 
@@ -89,9 +89,9 @@ Start cheaply. One counterexample can defeat an overbroad claim. Use a direct ex
 
 A selective rubric or pairwise judgement can help with an interpretive or relative question, but choosing the better of two results does not establish that either meets an absolute condition.
 
-Qualify that judging arrangement on cases whose consequential answers have adequate independent grounds. Compare false passes, false failures and obtaining those grounds as well as the cost per judgement.
+Qualify that judging arrangement on cases whose consequential answers have adequate grounds independent of the checker being evaluated. Compare false passes, false failures and obtaining those grounds as well as the cost per judgement.
 
-Broader reliance may call for representative cases, independent judgement, executable observation or a field trial through [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial). Choose another reader or agent when it supplies a materially different basis, expertise or observation. Mere duplication of the same unsupported inference does not establish independence.
+Broader reliance may call for representative cases, independent judgement, executable observation or a field trial through [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial). Recover what must be independent. Two evaluators can make independent judgements about the same drawing against the same tolerance. Establish how each reached their answer under the required conditions. Their agreement supplies two assessments and still only one drawing. A requirement for a second source observation calls for that observation.
 
 When work is repeatedly optimized against a score, compare earlier and later work results on consequential characteristics and suitable new cases. A rising score can reward surface changes while the intended result deteriorates. For the importer, a more persuasive success report leaves identifier loss unchanged. Inspect the proposed shortcut and obtain evidence beyond the optimized signal.
 
@@ -158,7 +158,7 @@ Inspect the qualification's claim and probes:
 - Are criterion, checking means, subject and receiving inference separately recoverable?
 - What grounded comparison, subject rule or counterexample warrants reliance over the intended cases?
 - Have false passes, false failures and unresolved observation been interpreted at their costs?
-- Does any independent contribution supply a different basis rather than repeated agreement?
+- Which contributions must be independent, and what establishes that independence for the observations, the evaluators’ judgements or both?
 - Is the resulting reliance bounded, with material change and counterexample triggers for reconsideration?
 
 ### C.41.QC:8 - Common Anti-Patterns and How to Avoid Them

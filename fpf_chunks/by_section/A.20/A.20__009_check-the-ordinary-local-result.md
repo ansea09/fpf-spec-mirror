@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Check the ordinary local result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_check-the-ordinary-local-result.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:7 — Check the ordinary local result"
-line_start: 41451
-line_end: 41470
+line_start: 41468
+line_end: 41487
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,7 +35,7 @@ For an ordinary A.20 use, check only these five points:
 
 1. **Subject and constraint (`CC-A20-1`).** Name the subject and the constraint and edition being applied.
 2. **Case and applicability (`CC-A20-2`).** State the assumptions, case facts, scope, evaluation window, and why the constraint is `required`, `optional`, or `notApplicable`.
-3. **Evaluation and outcome (`CC-A20-2`).** Record `evaluated` or `notRun`. For an evaluated applicable constraint, record `satisfied`, `violated`, `unknown`, or `error` under the constraint's own outcome rule.
+3. **Evaluation and outcome (`CC-A20-2`).** Report `evaluated` or `notRun` for an established evaluation state. Keep a required check whose performance or result is unestablished visible as a missing ground. Give `satisfied`, `violated`, `unknown` or `error` for an evaluated applicable constraint according to its own outcome rule.
 4. **Support (`CC-A20-1`).** Give the witness, counterexample, missing-information reason, or error reason that supports that result.
 5. **Complete summary (`CC-A20-3`).** Use `ConstraintValiditySummary=satisfied` only when the complete declared required set is nonempty and every member was evaluated and satisfied.
 

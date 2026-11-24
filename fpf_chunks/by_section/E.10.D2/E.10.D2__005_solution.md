@@ -6,12 +6,12 @@ section_id: "E.10.D2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Solution"
-line_start: 109189
-line_end: 109235
+line_start: 109250
+line_end: 109296
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -68,7 +68,7 @@ For one named describing use, state the exact viewpoint P it selects when that s
 
 ##### E.10.D2:4.1.3 - Specification-use admission
 
-Use a `...Spec` name only when the receiving use depends on specification force and satisfies the applicable conditions in C.2.1:6. That section supplies the exact episteme, checkable claims, checking means and reliance-relevant viewpoint conditions. When those conditions are absent, use description for the account and present proposed criteria as proposals. A suffix alone supplies no specification force.
+Use a `...Spec` name for a use that meets the conditions in C.2.1:6. Identify the episteme, the checkable claims, the means of checking them and any viewpoint on which reliance depends. A proposed specification can guide a trial. To rely on it as binding for a party, identify the agreement, rule or authorized act that makes those criteria apply to that party and use. If the checking conditions are absent, use description for the account and present proposed criteria as proposals.
 
 
 ##### E.10.D2:4.1.4 - Model-use structure

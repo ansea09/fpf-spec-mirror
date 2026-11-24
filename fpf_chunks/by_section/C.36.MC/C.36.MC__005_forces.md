@@ -6,12 +6,12 @@ section_id: "C.36.MC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__005_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:3 — Forces"
-line_start: 96478
-line_end: 96490
+line_start: 96535
+line_end: 96547
 dependencies:
   - "A.15.1"
   - "A.3.1"

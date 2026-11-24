@@ -6,12 +6,12 @@ section_id: "A.15.10:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.10 — Resume Work"
   - "A.15.10:7 — Conformance Checklist"
-line_start: 34019
-line_end: 34029
+line_start: 34036
+line_end: 34046
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -34,7 +34,7 @@ keywords:
 - Established results, tentative conclusions and unperformed steps are distinguishable where the next action relies on them.
 - A retained cue can be found and interpreted when needed.
 - Changed conditions reopen only affected reliance; an old record is not treated as a current observation.
-- Missing capability, access or authority remains a missing contribution.
+- The allocation on resumption preserves any contribution required of a particular participant. Any missing capability, access or authority is identified.
 - Preparation and reporting are omitted when ordinary continuation already suffices.
 - The result is useful continuation, a warranted change of direction or a blocker.
 

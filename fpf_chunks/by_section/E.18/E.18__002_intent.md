@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 118033
-line_end: 118081
+line_start: 118097
+line_end: 118145
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -66,7 +66,7 @@ GateCrossings account for changed CtxState bindings at an OperationalGate. Publi
 | MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
 | refresh locus | a position, connection, crossing or face addressed by one of the slices covering actual dependency closure under 5.13 | the first detected slice does not bound the closure; independent uses remain available |
 
-**Result-claim assurance.** Use this fuller account only after the Plain test above identifies what the value is a result of or for. The direct basis must be exactly one of these three, according to its category:
+**Result-claim assurance.** Use this fuller account only after the Plain test above identifies what the value is a result of or for. For each elementary result claim, select the form that matches its direct basis. A conclusion may need several such grounds together or follow from any one of several sufficient grounds. The available forms are
 
 * an obtaining relation occurrence, with its predicate and occurrence-identity rule plus the participants of that occurrence, applicability, and case facts;
 * an `A.6.1` operation-application binding, with operation, application, and argument or result binding; or
@@ -74,7 +74,7 @@ GateCrossings account for changed CtxState bindings at an OperationalGate. Publi
 
 When a sentence says that a system performs an actual functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The independently identified bounded transformation, transformer or candidate bearer, affected referent, input and output boundary, functional-port boundary, functioning relation, method or algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable.
 
-A desired state, method, `MethodDescription`, `WorkPlan`, architecture selection, model, description, evaluation result, publication, or transfer does not ground the actual transformation.
+An intended state, plan or depiction leaves open whether the change occurred. A grounded observation can establish the resulting state. If the same final state is compatible with different histories, identify the observation or effective act that distinguishes the transition in question. A publication or transfer may itself change access rights or custody when the applicable rule gives that act this effect. To attribute the transition to a particular performer, establish that further claim.
 
 When dated work is claimed to cause or realize the change, use the current predicate and case facts under A.6.RCD disposition 1, or—only when no direct predicate expresses the compound claim and admitted base-predicate semantics support it—one local C.2.1 claim under disposition 2. Keep the Work, Transformation, and claim separate.
 

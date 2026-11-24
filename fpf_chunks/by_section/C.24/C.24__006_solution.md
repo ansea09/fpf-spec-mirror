@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution"
-line_start: 67956
-line_end: 68204
+line_start: 68001
+line_end: 68251
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,10 +45,12 @@ keywords:
 
 - `ATC.CallRouteDescription` is a `U.MethodDescription` whose EntityOfConcern is the selected admitted Method and whose claims explain how that Method is carried out through the route, under A.3.2. When it carries vendor-local route data, it states the vendor or source scheme, exact scheme or API edition, intended use, and selected Method ref before any access details, inputs, outputs, or route limits.
 - `ATC.CallPlan` is a `U.WorkPlan` for intended calls. Its steps select Methods and may cite route descriptions.
-- `ATC.CheckpointReturn` is a C.2.1 result episteme stating what was tested, what budget was burned, and what route action is recommended next. It is not the tested Work.
+- `ATC.CheckpointReturn` is a C.2.1 result episteme stating what was tested, the budget used, and which route action follows from a prior decision or is recommended to the holder of the outstanding route decision. The probe itself is dated Work.
 - `ATC.CallGraphRef` cites the applicable `G.6` trace representation over actual call Work. The representation records or points to facts; it creates none of them.
 
-`actionBasis` contains exactly one of three branches:
+`actionBasis` identifies the grounds that fix the action in the present conditions. Use the entries the planning decision relies on.
+
+- `commissionedAction` identifies the operative instruction or commitment, what it requires of the performer, and when the recipient can count the order as fulfilled. Where the terms depend on acceptance or delegated authority, establish those facts. A recipient can commission a fixed result while leaving selection of the Methods to the planner.
 
 - `domainPrescribedAction` identifies the applicable domain Method, the exact prescription and its required action, applicability and stop conditions. An optional intended WorkPlan may carry that intention; it establishes neither authority nor permission. No decision wrapper or ongoing Work is required for this branch.
 - `situationResponsiveDecisionEpistemeRef` refers to an episteme identified under C.2.1 because this plan relies on an A.15.7 decision; the episteme states the selected action, deciding System, intended performer, action-changing fact, relevant Method limit, and stop or feedback condition.
@@ -80,7 +82,7 @@ revisePlan(
 
 `A.3.1` supplies Method admission. The action basis fixes the action or option being planned; it does not admit the Methods chosen for plan steps.
 
-A domain-prescribed basis carries its Method, prescription, required action, applicability and stop conditions. Permission and authority remain independently governed. An A.15.7 basis keeps the selected action, deciding System, intended performer, action-changing fact, relevant domain-Method limit, and stop or feedback condition. A C.11 basis is a `ChoiceResult` whose lawful result is `choose now`; `probe again`, `reject current set`, and `reroute` do not fix an action for C.24.
+A commissioned action carries its operative terms and completion conditions. A domain-prescribed basis carries its Method, prescription, required action, applicability and stop conditions. Permission and authority remain independently governed. An A.15.7 basis keeps the selected action, deciding System, intended performer, action-changing fact, relevant domain-Method limit, and stop or feedback condition. A C.11 basis is a `ChoiceResult` whose lawful result is `choose now`; `probe again`, `reject current set`, and `reroute` do not fix an action for C.24.
 
 C.18 may supply generated candidate or front material, and C.19 may supply a live-pool treatment that informed the decision; neither record admits a Method. Comparison comes from the selected evaluation Method and, when scale preference is claimed, `C.19.1`.
 
@@ -91,7 +93,7 @@ To construct the route, use the backward construction and forward check in `OPS.
 1. **Recover usable contributions.** Read the available Methods and any needed route descriptions for the results they supply, required inputs, preconditions, relevant effects and limits. Resolve missing interface meaning from the maintained description or provider. Begin with the action's receiving completion conditions.
 2. **Work backwards from the required result.** Choose an admitted Method that can supply it. For each input not already available, find a qualified preceding Method or an available source that supplies it. Continue until the route reaches available inputs. Keep required joins and enabling conditions. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
 3. **Check forwards from the available inputs.** Follow the proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate. Compare the final output with the result promised to the recipient. If a call only prepares the input for delivery or acceptance, include the work still needed and its time and entry conditions in the plan.
-4. **Return the route or the unresolved question.** State the calls, useful intermediate results, required ordering or safe parallelism, shared resources and stop or replan conditions. When a later call depends on an earlier result, specify what the person or system making that choice will know in time and what it can then do. For a guaranteed result, check the remaining budget and completion conditions on every reachable branch. If the deciding information arrives after an irreversible choice, establish a route that works across the cases still possible then, or report the missing condition. Use §4.2 for a bounded scout when its result could resolve that question at justified cost. A changed action returns to its selecting Method.
+4. **Return the route or the unresolved question.** State the calls, useful intermediate results, required ordering or safe parallelism, shared resources and stop or replan conditions. When a later call depends on an earlier result, specify what the person or system making that choice will know in time and what it can then do. For a guaranteed result, check the remaining budget and completion conditions on every reachable branch. If the deciding information arrives after an irreversible choice, establish a route that works across the cases still possible then, or report the missing condition. Use §4.2 for a bounded scout when its result could resolve that question at justified cost. If the action changes, use §0.4 to establish what still fixes it. Stop the work the cancellation ends. If another operative requirement still fixes a remaining action, continue or revise its route on that basis. Refer an open choice to whoever may settle it.
 
 
 #### C.24:4.2 - Bounded scout or probe cycle
@@ -100,12 +102,12 @@ When the action remains fixed but an unresolved route condition could change the
 
 - If another probe could still change which option survives the `OptionSet`, the budget remains a C.11 probe budget and planning returns there.
 - If changed live facts or domain-Method limits could change an A.15.7 action, return there instead.
-- If a prescribed action loses its applicable prescription, return to the domain Method before further route planning.
+- If a commission or prescription ceases to apply, establish whether the action still has a sufficient basis. When it reopens, return to its responsible holder before committing further resources.
 - If the action or option remains fixed and only route shape or rollout order is uncertain, the probe uses enactment budget and its checkpoint belongs here.
 
-`commitTrigger` states the condition for considering a checkpoint decision to end route probing and adopt an identified `CallPlan` for the fixed action. Name the proposed plan and the work it schedules in `recommendedNextAction` or in the accompanying explanation. When the trigger holds, the responsible planner considers that transition using the probe evidence, residual budget, and any required safety or assurance result; the planner may adopt the plan, require a further bounded probe, or stop. Satisfying the trigger alone does not make that decision.
+`commitTrigger` names a condition that changes how the proposed `CallPlan` can be used. Identify the plan and what it schedules. When a fresh adoption decision is reserved, return the probe result and the warranted recommendation to its holder. A planner who has that authority may adopt the plan, probe further within budget, or stop. When the authorized holder has already adopted a specified route conditional on the result, establish that the decision is still in force, its condition has been met and any other requirements for adoption hold. The checkpoint can then report which route has taken effect.
 
-Adopting the plan settles which route to use. Permission to perform its calls remains subject to the applicable work-entry conditions, and actual performance is separate `U.Work`. Where an autonomy budget governs the route, use the checkpoint decision and guard or override path in `E.16-S1.A`; the trigger grants no wider budget or scope.
+Once the route is adopted, check the applicable permission for the planned calls. Evidence of route adoption and entry permission can justify starting the work. To claim execution, establish the dated `U.Work`. Where an autonomy budget governs the route, apply the checkpoint decision and guard or override path in `E.16-S1.A` within that budget and scope.
 
 #### C.24:4.3 - Planning laws
 
@@ -181,7 +183,7 @@ The field states the planned causal use and any support already consumed. It doe
 
 An ordinary written plan can supply this content; the schemas above are optional forms. Retain an existing applicable plan when it already states:
 
-- exactly one action-basis branch: the grounded domain-prescribed action, an A.15.7 decision episteme, or a C.11 `choose now` ChoiceResult; add the objective and ordered Method refs;
+- the operative grounds fixing the action, its objective, and the ordered Method refs. These grounds may come from a commission, a domain prescription, an A.15.7 decision or a C.11 `choose now` result;
 - route-description refs only when needed, with their source scheme, exact edition, intended use, and selected Method binding;
 - dependencies, safe parallelism and any earlier result that governs which later call can be made, when these change the route;
 - applicable time, compute, cost or risk budgets, with stop and replan conditions;
@@ -192,7 +194,7 @@ This is enough for an ordinary plan. Do not fill the heavier branches merely to 
 
 #### C.24:4.7 - Closure and worked cases
 
-Close as a `CallPlan` when route order and budgeted enactment are the current question. Close as a `CheckpointReturn` after a bounded route probe, stating whether to probe again, seek the checkpoint decision to adopt the proposed plan, or stop. Return to the domain prescription, A.15.7 or C.11 when the corresponding action basis reopens; return to the applicable neighboring pattern when pool treatment, selector declaration, readiness, execution, or publication becomes the current question.
+Close as a `CallPlan` when route order and budgeted enactment are the current question. After a bounded route probe, state in the `CheckpointReturn` whether to probe again, stop, use a previously adopted route whose conditions now hold, or seek the still-required adoption decision. When the action reopens, return to the commission or the corresponding domain prescription, A.15.7 or C.11 decision. Use the applicable neighbouring pattern when pool treatment, selector declaration, readiness, execution or publication becomes the question.
 
 **Domain-prescribed action before Work.**
 
@@ -241,7 +243,7 @@ An actual call needs its independent A.15.1 grounds; add assignment-bound attrib
 
 **Constructing a route from a fixed result.**
 
-The fixed action is to deliver a weekly report and obtain the recipient's acceptance. The maintained interface specifies the timestamp unit, the recipient's week boundary and time zone, and the required report format. Four admitted Methods extract the rows, convert their timestamps, aggregate by week, and render a conforming report. For the specified input size and one sequential performer, they take at most 2, 3, 4 and 1 minutes respectively. The team has 12 minutes.
+The team has accepted a one-off order to deliver this week's report and obtain the recipient's acceptance. That commission fixes the action. The team selects how to carry it out. The maintained interface specifies the timestamp unit, the recipient's week boundary and time zone, and the required report format. Four admitted Methods extract the rows, convert their timestamps, aggregate by week, and render a conforming report. For the specified input size and one sequential performer, they take at most 2, 3, 4 and 1 minutes respectively. The team has 12 minutes.
 
 Work backwards from acceptance. The four calls prepare the report in at most 10 minutes. Their outputs establish that it can be ready to send. The recipient also provides an admitted submission Method. Under its stated conditions it delivers a conforming report and returns the recipient's acceptance within 2 minutes. The intended performer has access, the receiver is available for the full interval, and the prepared report meets its entry conditions. The five-call plan therefore fits the 12-minute budget. The time bound warrants adopting the plan under the stated conditions. To close the actual job by its deadline, establish when this recipient accepted this report. Acceptance after the deadline means the commissioned job finished late. Delivery itself may have been on time. An undated acceptance can establish receipt and acceptance while leaving timeliness open.
 
@@ -284,7 +286,7 @@ The cheap C.19.1 probe for `BatchSearchMethod_3` and `IndexedSearchMethod_6` ret
 
 If the evidence for one Method covers only small text files and the evidence for the other covers only large mixed repositories, the task difference leaves their relative performance on the receiving workload open. Return `no scale-based preference`. A tie-break written for established equivalent performance does not apply to that finding. The project can use a local policy that covers the actual case or seek a waiver when overriding a preference that would otherwise decide the use.
 
-**Near misses.** A route label with no recovered Method remains probe material. A plan with no Work is still intent. A trace row does not prove performer, assignment, Method, or service acceptance. A satisfied `commitTrigger` with no checkpoint decision leaves the proposed route unadopted.
+**Near misses.** A route label with no recovered Method remains probe material. A plan with no Work is still intent. A trace row does not prove performer, assignment, Method, or service acceptance. If the holder reserved a fresh decision, a satisfied `commitTrigger` still leaves adoption open. A standing conditional adoption can already settle the route when its terms hold.
 
 **Transfer examples.** The same result shape works for research assistance, program repair, and lab automation. The Methods and safety conditions differ; the plan/checkpoint boundary does not.
 

@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 134381
-line_end: 134872
+line_start: 134445
+line_end: 134936
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -470,7 +470,7 @@ The full title, filename, declared publication-unit key and stable `SectionRef` 
 
 #### F.18:4.3 - Candidate Selection
 
-Find a sentence in which this reader will have to use the name. Form a candidate from the distinction that matters in that sentence. Change a participant, a condition or the organization of the parts within the allowed use. Does the word still pick out the intended value where it should, and does it distinguish a neighbouring value where the reader needs to tell them apart? Try another head term or qualifier where that answer changes. Build the smallest set that covers the resulting alternatives. A cited external standard may fix the label under §4.1. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
+Find a sentence in which this reader will have to use the name. Start with the candidates the commission or applicable standard supplies. Where developing candidates is part of the job, form a candidate from the distinction that matters in that sentence. Change a participant, a condition or the organization of the parts within the allowed use. Does the word still pick out the intended value where it should, and does it distinguish a neighbouring value where the reader needs to tell them apart? Try another head term or qualifier where that answer changes. When the set is yours to develop, keep enough alternatives to cover the distinctions that change the choice. A cited external standard may fix the label under §4.1. If the commission credits someone with choosing, establish who selected the designation and what the standard, another participant or a tool had already fixed or supplied. Choosing from a supplied pair can be an independent decision. A participant may instead develop a pair of candidates and entrust the choice to a committee. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
 
 Judge candidates on:
 

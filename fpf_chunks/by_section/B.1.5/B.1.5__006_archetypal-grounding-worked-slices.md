@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 44231
-line_end: 44296
+line_start: 44254
+line_end: 44321
 dependencies:
   - "A.1"
   - "A.15"
@@ -74,6 +74,8 @@ If several pump-family uses need the same parameterized rule, A.6.RCD can identi
 The composite qualification additionally requires the candidate's generic participants, applicability, preconditions, accepted inputs, final effect, preserved conditions, exposed start and abort interactions, encapsulated calibration interaction, failure routes, and reidentification rule. A list of the five names or an arrow diagram establishes none of these facts.
 
 `PumpUnitBuildWork-2026-07-29` may enact the whole through one `enactsMethod` occurrence without four corresponding work parts. If a separately admitted `MotorInstallationWorkPart-2026-07-29` exists, it enacts `InstallMotor` only through its `enactsMethod` occurrence. Resource use, test telemetry, the produced pump unit, acceptance, and evidence remain under their subject patterns.
+
+Start instead from the bench operator's functional test. Which procedures need the operator to run it? The build instructions require the test before release. Suppose the repair manual admits the same test to demonstrate restored service. Its acceptance decision uses the time to reach the required flow as well as the flow subsequently sustained. A warranty desk that accepts a copy of the certificate can use that result without running the test. The first two procedures give reasons to examine the test's design. If its record contains elapsed time and steady flow, each can derive the result it needs. Keeping only the factory's steady-flow pass mark would leave the repair decision open. If the bench cannot measure the elapsed time, the repair decision still needs a timing observation. The repair team must obtain a suitable measurement or choose another admitted test.
 
 #### B.1.5:5.2 - Emergency Intake
 

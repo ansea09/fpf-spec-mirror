@@ -6,12 +6,12 @@ section_id: "C.39.MF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__013_sota-echoing.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:11 — SoTA-Echoing"
-line_start: 88691
-line_end: 88699
+line_start: 88748
+line_end: 88756
 dependencies:
   - "A.15.6"
   - "A.3.1"

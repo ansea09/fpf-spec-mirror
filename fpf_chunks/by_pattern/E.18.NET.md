@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.NET.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
-line_start: 120322
-line_end: 120791
+line_start: 120386
+line_end: 120855
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -235,7 +235,7 @@ A row, graph edge, or episteme neither admits a relation kind nor creates an occ
 
 #### E.18.NET:4.6 - Record the network without replacing it
 
-If the selected answer must remain available after the immediate work, describe it with a separate C.2.1 episteme. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
+If the selected answer must remain available, use an accessible C.2.1 description that preserves the needed network, content and return conditions. Produce a separate record when the existing description is insufficient for that use or a new one is commissioned. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
 
 ```text
 TransformationFlowStructureNetworkRecord@Context <: U.Episteme:
@@ -339,7 +339,7 @@ networkUseFrame:
 returnCondition: either member, the supply occurrence, an endpoint or exposure, acyclicity, or the coffee-service question changes
 ```
 
-The dispatch and acceptance records suffice to trace what the café received. Suppose its current records show 4 kg of lot 24 still on hand and uncommitted, cleared for brewing at 10:00. The café can choose it for a 3 kg batch then. If 3 kg has since been reserved for another order, only 1 kg remains available for this batch. A recall can close the choice even with all 4 kg present. With only the acceptance receipt, report the completed delivery and recover the needed current condition. Create a `TransformationFlowStructureNetworkRecord@Context` only when the network description must survive the current work.
+The dispatch and acceptance records suffice to trace what the café received. Suppose its current records show 4 kg of lot 24 still on hand and uncommitted, cleared for brewing at 10:00. If the café is authorized to select among cleared lots, it can choose this one for the 3 kg batch. If the customer reserved that decision, the café can report an eligible option. If 3 kg has since been reserved for another order, only 1 kg remains available for this batch. A recall can close the choice even with all 4 kg present. With only the acceptance receipt, report the completed delivery and recover the needed current condition. An accessible existing network record can serve a later inquiry. Create a `TransformationFlowStructureNetworkRecord@Context` when that description is needed and missing, or when a new record is due.
 
 If the supply claim has no admitted relation kind or applicable predicate, carry the governing pattern's `missing-governor` result. If required facts are unavailable, carry `missing-information`; if a sufficient case basis fails the positive test, carry `factually unsupported`. Neither missing information nor a failed positive test asserts a negative. Only an applicable negative rule and satisfying case basis can supply a negative result.
 
@@ -347,9 +347,9 @@ When the supply occurrence obtains but an endpoint binding is missing, keep the 
 
 #### E.18.NET:5.2 - Project system-of-interest and recursive build-the-builder
 
-For one project question, practitioners ask which independently identified flow structures must be considered together to connect production and later operation of the project system-of-interest, and which builder branches must also be visible. The actual project remains composite `U.Work`; the selected network is a non-agentive `U.Structure`.
+The project asks how production and later operation of an application depend on the compiler and on the systems used to build it. Identify the Systems whose production or use the answer concerns and which independently identified flow structures show those connections. The actual project is composite `U.Work`. Its selected network is a non-agentive `U.Structure`.
 
-Project designation and `U.System` identity remain separate from any local system-role kind, classification, assignment, selection Work, or result episteme. None follows from a project or network label.
+Under A.1.STM, call a product the system-of-interest when its role in a particular extended enterprise is established from the participating organizations and their commitments. If this role is proposed or unknown, the production and use question about the identified application still has an answer. For a proposed decision, establish who is authorized and able to make it. For a performance claim, establish which System or participants did what at the scale in question. System identity, classification, role assignment, actual selection Work and the resulting episteme have their own grounds.
 
 For the compiler-and-application use, identify five TFS values by the questions they answer:
 

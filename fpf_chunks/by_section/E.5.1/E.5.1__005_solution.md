@@ -6,12 +6,12 @@ section_id: "E.5.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:4 — Solution"
-line_start: 102534
-line_end: 102554
+line_start: 102593
+line_end: 102613
 dependencies:
   - "E.5"
 keywords:
@@ -36,5 +36,5 @@ Apply the **Lexical Firewall** to the subject the text governs:
 4. **Use aliases where they preserve the rule.**
    An incidental technical term can be defined in a Tooling Glossary and cited by conceptual alias. Preserve necessary spelling under item 2 when the concrete subject's condition would otherwise become untestable.
 
-*Non‑normative automation.* Machine checks **MAY** exist in Tooling. They are advisory and **MUST NOT** be imported into the Core.
+*Checking an instance.* A Tooling check that reads the exact characters of a submitted heading can establish whether its separator satisfies H-2. Finding a technical word can locate a possible dependency. To decide whether the definition actually depends on that tool, examine its meaning under the Core rule. Acceptance follows the authority and conditions of the governing practice. The executable check **MUST** remain outside Core.
 

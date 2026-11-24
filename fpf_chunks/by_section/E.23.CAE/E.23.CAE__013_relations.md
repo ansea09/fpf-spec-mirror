@@ -6,12 +6,12 @@ section_id: "E.23.CAE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__013_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:12 — Relations"
-line_start: 124331
-line_end: 124346
+line_start: 124395
+line_end: 124410
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -31,7 +31,7 @@ keywords:
 | `A.2.2` | Supplies the holder and its qualified ability claim, work conditions, attained bounds, evidence, qualification and fit. The differential probe does not create or update that capability claim automatically. |
 | `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern actual performer recovery, dated Work admission, assignment, and precise assignment-bound attribution independently when those claims are current. A probe result establishes none of them by itself. |
 | `A.15.8` | Governs the performance configuration of a Work or WorkPlan and its recovery. Its observation may support a configuration disposition here; this pattern does not absorb its relation tests. |
-| `E.23.CDI` | Receives the result only after a separate applicable steering or choice result selects capability development. It retains limiting-contribution diagnosis, intervention, protected conditions, and representative transfer. |
+| `E.23.CDI` | Receives the result when a governing instruction or an authorized choice selects capability development under the observed conditions. It retains limiting-contribution diagnosis, intervention, protected conditions, and representative transfer. |
 | `E.23` | Uses this pattern first only when the proposed object under improvement remains ambiguous because a capability may be available but inaccessible, unexpressed, unadapted, or unenacted. It retains the repeated object-improvement loop. |
 | `A.15.7` | May use the disposition as current information for a light next action during ongoing Work. It retains chooser, performer, authority, action, and feedback. |
 | `C.11` | May use the disposition as a premise when a current chooser and `OptionSet` exist and comparison or another probe can change the choice. It alone emits the `ChoiceResult`. |

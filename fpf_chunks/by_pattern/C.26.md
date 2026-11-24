@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 68718
-line_end: 69384
+line_start: 68765
+line_end: 69431
 dependencies:
   - "A.10"
   - "A.15"
@@ -259,7 +259,7 @@ Examples of the decision difference to recover, whether the ordinary account is 
 | False reading | Repair | Decision diff |
 | --- | --- | --- |
 | Dashboard passively shows release readiness. | The dashboard reports the recorded checks. Examine whether publication also changed how people performed or recorded the work. | Use checks that bear on the release decision. If reporting practices changed, establish which readings remain comparable. |
-| Workshop discovered the boundary. | The record identifies the boundary participants agreed to use. Its earlier use and the workshop’s effect on practice are separate claims. | Use the agreement for decisions it covers. Consult earlier work to determine whether people already used that boundary. |
+| Workshop discovered the boundary. | Establish whether the workshop record contains a proposal or a decision by participants authorized to settle the boundary for this use. | An agreement can govern the cases within its scope. To establish earlier use, or the workshop’s effect on practice, examine the relevant work. |
 | Service is healthy because latency is green. | The latency reading meets its bound. The service commitment also covers the currency of information shown to customers. | Check that condition before confirming the joint commitment. A verified breach already settles a decision requiring both. |
 | Summary preserves architecture state. | The summary omits distinctions from the source. | Use it where the retained distinctions support the receiving decision; consult or reconstruct omitted detail when that decision depends on it. |
 
@@ -637,7 +637,7 @@ LLM-mediated work cycles can involve false passive reads, overused summaries, un
 | LLM summary of an architecture record | `A.6.3.CSC`, `A.6.3.RT`, and `A.10` as applicable; overuse of a summary alone does not activate QL coarsening. |
 | Prompted model evaluation changes model or prompt behavior | `C.16` / `B.3` first; `C.26.1` only if the eval output is treated as a passive model-state read. |
 | Agent work cycle "discovers" requirements | `A.15` / `A.10` / `A.6` first; `C.26.1` only if the interaction created the requirement framing. |
-| Synthetic personas "represent market state" | `A.10` / `B.3` first; `C.26.2` only if a low-recoverability state-reading claim is bounded with non-admissible use visible. |
+| Synthetic personas "represent market state" | A simulation establishes what the model produced. A claim about actual customers needs evidence or a warranted model relation covering that population. An order to hear from particular respondents calls for their own responses. Use `A.10` or `B.3` for the evidential use and `C.26.2` where a bounded, low-recoverability state reading is at issue. |
 
 ### C.26:9 - Consequences
 

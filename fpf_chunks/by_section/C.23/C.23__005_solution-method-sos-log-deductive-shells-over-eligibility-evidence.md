@@ -6,12 +6,12 @@ section_id: "C.23:4"
 section_title: "Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__005_solution-method-sos-log-deductive-shells-over-eligibility-evidence.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:4 — Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
-line_start: 67537
-line_end: 67704
+line_start: 67576
+line_end: 67743
 dependencies:
   - "A.10"
   - "B.3"
@@ -166,7 +166,7 @@ Do not embed acceptance thresholds here; an admission floor remains a G.4 Accept
 
 * **L0 — Anecdotal.** Claims exist; lanes sparse; examples ad‑hoc.
 * **L1 — Worked‑Examples.** Multiple **worked examples** with lane tags and **Scope slices** declared; *no replication yet*.
-* **L2 — Replicated.** Independent replications identify their distinct bearers or operating conditions and declare the claim scope and selected slices, source and method editions, and qualification windows used; lane separation is observed and decay windows are explicit.
+* **L2 — Replicated.** Identify the independent repetitions and the claim each tests. Two independent evaluators can repeat the procedure on the same material under the same conditions. A claim about transfer to other bearers or conditions needs evidence covering that variation. State the claim scope, slices, source and method editions, qualification and decay windows, and the applicable lane separation.
 * **L3 — Benchmark‑Severe.** Repeated wins or parity on **community baselines** or **severe tests**. Declare any F.9 Bridge on which this comparison relies, with its loss notes.
 
 *Optional rung (for QD/OEE‑heavy families; ordinal, closed enum):*

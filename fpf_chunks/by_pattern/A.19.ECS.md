@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ECS.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
-line_start: 36609
-line_end: 36887
+line_start: 36626
+line_end: 36904
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -200,7 +200,7 @@ An independent subject basis and a bounded adoption comparison can settle the ch
 
 **Worked comparison.** A team proposes replacing a review criterion that counts source links with one that checks whether a required claim is supported. A known defective text has many links but omits the dependent claim; a difficult admissible text uses one sufficient source and a different valid explanation. The new criterion detects the omission and preserves the admissible explanation. A proposed repair that copies every source paragraph would make ordinary use harder, so the comparison also checks the repaired text.
 
-These are development results on known cases. Adoption still needs an independently grounded new case and an affordable way to obtain the supporting judgement. If the new criterion merely produces more objections or requires whole-corpus reading for every local use, revise it or retain the adequate earlier procedure in its supported scope.
+These are development results on known cases. For adoption, obtain grounds that cover the intended use beyond what was fitted to those cases. An applicable rule, general argument or independent existing evidence can suffice. If the claim concerns how a participant performs, use evidence of that participant’s work under the relevant conditions, including help or prior exposure that could have supplied the choice. Consider the cost of obtaining the needed grounds. If the new criterion merely produces objections or requires a whole-corpus reading for every local use, revise it or retain the earlier procedure within its supported scope.
 
 ### A.19.ECS:5 - Archetypal Grounding
 

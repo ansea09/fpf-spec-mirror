@@ -6,12 +6,12 @@ section_id: "F.0.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__007_bias-annotation.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:6 — Bias-Annotation"
-line_start: 126631
-line_end: 126639
+line_start: 126695
+line_end: 126703
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -31,7 +31,7 @@ keywords:
 
 ### F.0.1:6 - Bias-Annotation
 
-- **Gov:** Source authorship, popularity, or standard status does not decide the receiving claim.
+- **Gov.** For a question about the definition a body adopted, establish the body’s authority, the operative edition and the meaning it sets there. For a question about a reported event, establish the event on its own grounds. Authorship or popularity alone establishes neither.
 - **Arch:** The pattern favors recoverable local meanings and explicit relations over one global vocabulary or universal container.
 - **Onto/Epist:** A word, a local-sense claim, its subject, its source, a basis relation, and a receiving claim remain different.
 - **Prag:** Ordinary use is one sentence and one citation; stronger objects and assurance are conditional.

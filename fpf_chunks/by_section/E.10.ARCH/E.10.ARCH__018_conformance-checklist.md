@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 108605
-line_end: 108637
+line_start: 108666
+line_end: 108698
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ keywords:
 
 Selecting a recovery pattern selects guidance. Kind admission, the truth of an exact claim, performed Work, and attribution are established under their direct rules. The checks below apply that shared condition to particular recovery families.
 
-**Relation-use recovery rule.** When wording hides a positive or explicitly restricted direct-relation claim, first name the direct predicate, its actual participants and the claim's polarity under the rule that defines it. Establish obtaining separately when the claim affirms that the relation obtains. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants.
+**Relation-use recovery rule.** When wording hides a direct-relation claim, identify the predicate and whether the claim reports, denies, proposes or requires the relation. For a reported occurrence, establish the actual participants under the rule that defines the relation. For a condition or proposal, specify the participants it fixes and leave any open position open. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants.
 
 A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless a defining rule establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`.
 

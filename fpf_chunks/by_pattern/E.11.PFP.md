@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
-line_start: 111458
-line_end: 111910
+line_start: 111519
+line_end: 111971
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -94,7 +94,7 @@ A date is a cue, not edition identity, and a visible status or window is not evi
 
 When readers copy, adapt, translate or redistribute a framework publication, its copyright-license notice tells them what permission the rights holder grants. Identify the covered material, rights holder and chosen license, and make the license text reachable from a standalone copy. Project a compact notice from the product's chosen licensing terms; retain applicable attribution and mark any third-party or differently licensed material.
 
-The author of an independently created DPF or LPF chooses its license. Where copyright permission is needed, reuse of another framework's protected expression is governed by that material's terms; applicable copyright exceptions remain available. Adopting its methods or publication form does not impose that framework's license on the new work.
+For an independently created DPF or LPF, use the licensing terms selected by its rights holder or the party empowered to choose them. The author may hold that authority. Where copyright permission is needed, reuse of another framework's protected expression is governed by that material's terms; applicable copyright exceptions remain available. Adopting its methods or publication form does not impose that framework's license on the new work.
 
 Reader front matter extends from the opening title through the Readme and architectural reference up to the first pattern-body collection H1. It must not contain campaign keys; candidate, review, or result identifiers; local disk or repository paths; source or candidate digests; Git commits or blobs; generated comments; build commands; machine warnings; or "do not edit" instructions. Detailed edition, provenance, rebuildability, and maintenance records remain adjacent maintainer evidence or product-declared reference-tail material unless a separately selected public use justifies a reader-facing projection.
 
@@ -375,9 +375,9 @@ These are questions about recoverable explanation and application; fluent recita
 
 **Whole Method Engineering account.** An engineer extending a pattern language from a handbook needs both source recovery and a decision about what the new language will let practitioners do. The Method Engineering Principle Framework Architectural Reference explains the overall working question and returns to the source-recovery and comparison patterns. Architectural Rationale compares retaining a profile inside the language with giving it its own usable identity; the shared sources and trade-offs remain public. If the handbook cannot be inspected, the account names the source-dependent claim that remains unresolved and leaves unaffected direct uses available. A catalogue of source titles would not supply that missing basis.
 
-**Condition of a whole combination.** Three proposed activities each need seven observer-hours that cannot be shared between activities. The available total is eighteen observer-hours. Any pair needs fourteen and fits; all three need twenty-one and exceed the total by three. The whole account states the resource condition once. The reader can select a feasible subset or obtain at least three additional observer-hours before committing to all three. Separate successful pairwise checks leave this whole-combination decision open.
+**Condition of a whole combination.** Three proposed activities each need seven observer-hours that cannot be shared. Eighteen observer-hours are available. Any pair fits this hours constraint. All three need twenty-one hours, so obtaining at least three more is necessary for the whole. To commit to a subset, a coordinator also needs authority to allocate the time and qualified observers available when the activities take place. The whole account can state the shared constraint once.
 
-**Inquiry and direct use.** Four pump inspections show three repeated orders and one reversal after a vibration cue. The public entry returns directly to `A.3.1.MR`, which recovers candidate Methods from Work evidence. Its worked case compares a fixed order with an exception against a cue-responsive order. In a fifth inspection, observe whether the technician changes order when the vibration cue is present. That observation can distinguish the accounts; until then, both remain candidates. The reader has a next investigative action while the larger inquiry remains open.
+**Inquiry and direct use.** Four pump inspections show three repeated orders and one reversal after a vibration cue. `A.3.1.MR` compares a fixed order with an exception against an order that calls for reversal on that cue. Both accounts fit the four records. A commission to compare them on those records can finish here. If the choice depends on the cue, examine a suitable held-out inspection or obtain an observation. Keeping the order when the cue requires reversal would challenge the cue-responsive account. Another reversal still fits both while the exception condition is unknown.
 
 **Shared profile.** A Russian-language profile supports both a guide and a slidement. It inherits `F.19` for recovering a sentence's claim, participants, and useful action, and adds Russian agreement checks. For example, English “the team are checking the result” can take plural agreement in British usage. Russian «группа проверяет результат» takes singular agreement when «группа» is the subject here. The named team performs the work in both versions. The translator can correct the verb without changing who acts. Read the repaired sentence under F.19; reuse that matching result when the unchanged sentence appears in both formats. The guide and slidement retain their own format and use conditions. The profile's public account explains this shared contribution and language-specific delta once, with returns from both uses.
 

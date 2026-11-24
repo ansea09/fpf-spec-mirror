@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.34.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
-line_start: 85189
-line_end: 85401
+line_start: 85246
+line_end: 85458
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -126,7 +126,7 @@ State the decision that will use the correspondence. Identify the entities being
 
 For a grouping, ask how membership is determined. If both models define membership by the same rule and the correspondence preserves everything that rule uses, derive the target grouping. If membership is assigned independently, inspect the assignments or an applicable allocation rule and the facts it uses. For an assignment whose preservation is in doubt, keep the matched entities and links fixed. Could two different assignments fit them? When this changes who may act, the correspondence alone leaves that decision open. Correspondence between two disciplinary models can matter even when both are at L2. A claim of model refinement has its own test in `B.5.MR:4.3`.
 
-When reviewing a comparison someone produced, distinguish the correspondence supplied in the assignment from the choices the person or AI agent made. Applying a supplied match can establish that the comparison gave the right result. To credit someone with constructing a disciplinary model of correspondence, recover how they selected the entities, interpreted the links and justified the matching rule for further comparisons. An earlier decision record can show those choices. A new task can leave them open. Use `C.39.QR:4.3` when the attribution changes what you entrust to the agent.
+To review a correspondence, establish what the commission supplied and which choices it left open. A registry may fix the entities and the meaning of its fields while leaving the matching rule to a service or team. Inspect how the contributors justified that rule and where it can be used again. An earlier work record can show who chose it and what help was available. Running a supplied match can establish the comparison requested. To credit independent construction, establish the consequential choices the performer made under the stated conditions. Use `C.39.QR:4.3` when that attribution changes what work you can entrust to them.
 
 Work in this order:
 

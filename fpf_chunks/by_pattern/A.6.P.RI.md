@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.RI.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
-line_start: 21499
-line_end: 21694
+line_start: 21513
+line_end: 21708
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -62,7 +62,7 @@ Recover the source reference, establish the receiving purpose, then derive only 
 
 Start with the statement and the work it is meant to support. Identify a word or omitted participant whose interpretation changes the result: for example, whose account, whose left side, which location or which time.
 
-Use A.6.P to recover the relevant participants and relation. Read a quotation relative to its attributed speaker until the use calls for another interpretation. An imperative may leave the intended actor implicit; distinguish that actor from the person relaying the message.
+Use A.6.P to recover the relevant participants and relation. Read a quotation relative to its attributed speaker until the use calls for another interpretation. An imperative may leave the intended actor implicit; distinguish that actor from the participant or service relaying the message.
 
 Choose the smallest explicit account that removes the consequential ambiguity. A sentence such as “Dana means the cabinet to Dana's left” may suffice. If the source participant is unknown and the choice matters, retain that missing fact.
 
@@ -99,7 +99,7 @@ For a report of experience, retain who experienced and expressed it. B.5.EA supp
 
 #### A.6.P.RI:4.5 - Connect the recipient to the account and derive the action
 
-Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. A person may recognize their part in the working situation. An artificial agent uses the identifying information and, where needed, sensed conditions supplied by its configuration.
+Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. An assignment, an authenticated exchange, direct observation or other evidence can establish that link. A recipient can ask for identifying information when what is already available leaves the reference open.
 
 Then interpret the account or derive the instruction under the purpose selected in §4.3. Recompute relative descriptions when necessary. When a message is only being quoted, preserve its original attribution rather than making the quoting recipient its speaker.
 
@@ -191,7 +191,7 @@ Relational precision restoration recovers missing participants. Agent-relative u
 
 The construction therefore combines the source interpretation, receiving purpose and recipient's position. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the conversion or classification; this method exposes the premises they need and returns their result to the receiving action.
 
-The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. An artificial agent uses the identification, representations and signals its configuration supplies.
+The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. The performer may use prior configuration, evidence from the current situation or a fresh clarification to resolve which participant is meant.
 
 ### A.6.P.RI:11 - SoTA-Echoing
 

@@ -6,12 +6,12 @@ section_id: "A.12:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__003_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:1 — Problem Frame"
-line_start: 29014
-line_end: 29017
+line_start: 29031
+line_end: 29034
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,5 +39,5 @@ keywords:
 
 ### A.12:1 - Problem Frame
 
-Separate the acting and changed participants before deciding whether the claimed change, Work or evidence obtains. Their participation, System recognition and part-whole relations are separate questions. A self-action sentence may describe internal regulation; §4.2 gives the conditions for that reading.
+An explanation that attributes a change to an actor needs grounds for both the change and the actor’s contribution. The same System may occupy both positions. Their participation, System recognition and part-whole relations are separate questions. A self-action sentence may describe internal regulation; §4.2 gives the conditions for that reading.
 

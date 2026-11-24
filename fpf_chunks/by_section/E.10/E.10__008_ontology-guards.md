@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 106336
-line_end: 106518
+line_start: 106397
+line_end: 106579
 dependencies:
   - "A.10"
   - "A.15"
@@ -86,7 +86,7 @@ keywords:
 * **Assignment rule:** A system-role assignment is an obtaining occurrence of one directly declared species under `U.SystemRoleAssignment`. The species declaration defines `HolderSystemSlot`, the exact local system-role-kind domain of `AssignedSystemRoleKindSlot`, any other participant meanings, its predicate, applicability, and occurrence-identity rule. The occurrence supplies the actual holder System, assigned-kind value, any other participant values, and extent. A source, interpretation, taxonomy, scheme, description, or display is not automatically an assignment participant; name it separately only when the assignment claim depends on it.
 * **Readable example:** `Under the JournalReview practice, TeamAlpha is classified under ReviewerSystemRole because it can supply the substantive review judgment required by that practice.` Add `ReviewAssignment-42` only when the assignment matters and both its directly declared species and obtaining occurrence are recoverable.
 
-  If performed Work is current, point first to its independently complete A.15.1 occurrence basis. Add F.6 only for a separately claimed precise assignment-bound attribution. A short attribution sentence may omit only an assignment identifier unused by the receiving claim; it does not omit a performer, Method, time, containing System, assignment occurrence, or F.6 attribution from the recoverable attribution basis.
+  If performed Work is current, point first to its independently complete A.15.1 occurrence basis. Add F.6 only for a separately claimed precise assignment-bound attribution. For such a precise assignment-bound attribution, the performer, Method, time, containing System, assignment occurrence and F.6 attribution must be recoverable. A short sentence can omit an identifier its recipient does not need.
 * **Carrier rule:** **Carrier** is not a free holon or system kind. Recover the direct carrier relation: under E.17 and E.24.PUB, identify the physical or digital carrier independently and recover its actual `PublicationExpressionBearingRelation` to the particular expression; identify any reusable form and its expression-conformance relation separately.
 
   If a reusable carrier-relation declaration is separately current, `PresentationCarrierSlot` remains the declaration-local `SlotKind` of one A.6.5 `SlotSpec` and is not the carrier or relation. Other exits are a file, transport, rendering, front-end, or access-carrier relation under E.17; evidence or source-currentness carriage under A.10 or G.11; generated or produced carriage under C.35; or a named episteme-symbol carrier relation independent of any system-role assignment.
@@ -139,7 +139,7 @@ The Onto3 block above is the one bounded distinction and assignment example. The
 **Checklist before minting a KernelToken**
 * Head noun signals kind (Onto1).
 * EntityOfConcern and Description-episteme boundary and specification-use morphology correct (Onto2).
-* If system-role-related or carrier-related: local system-role kind, direct assignment species, and carrier relation remain separate; holder-system admission is explicit and the direct carrier-relation pattern is named (Onto3).
+* For a local system-role kind, identify its membership condition. For an assignment claim, establish its holder and the obtaining assignment. For a carrier claim, identify the applicable direct carrier relation (Onto3).
 * Any action-changing Domain wording recovers its subject, use, and applicable pattern; a durable local expression uses F.17 only when its source-local meaning or public term row is current (Onto4, Onto6).
 * Object‑of‑talk declared (Onto5).
 * SCR-LEX rewrites checked for current system-role-kind, direct assignment-species, and carrier-relation separation (Onto6).

@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 118884
-line_end: 119239
+line_start: 118948
+line_end: 119303
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -121,7 +121,7 @@ Start with the part of the accepted ProblemCard that can change the answer neede
 
 Choose the next question from the work that needs the answer. Start with the alternatives the recipient still faces. Which fact about a participant, its arrangement with other participants or the use of a result could change the decision or its grounds? If the practitioner must design that arrangement, leave the choices entrusted to that practitioner open in the task they receive. If a returned result changes the subject or the question, use C.39.QR:4.1 to establish its contribution to the original work. An explained choice of guidance can finish a request for that choice.
 
-If the next action needs a subject result, such as a plan or a measurement, apply the supplying method to the case and obtain that result or identify the exact gap. Use an adequate existing way directly. If the way itself is missing, use C.39 to find or develop it; E.4.CM guides that construction when it must become a maintained framework contribution. When the next decision depends jointly on how a suitable method becomes available, how a performer gains access or capability, and how the job is supplied, C.32.MWA:4 connects those contributions. For a readiness decision alone, use A.15.5 for the intended job.
+If the next action needs a subject result, such as a plan or a measurement, use an accessible result whose subject, conditions and grounds answer the commission. When the result is missing or a fresh measurement, plan or particular performer's selection is commissioned, obtain that contribution under the stated conditions or identify the precise gap. An adequate existing method can be used directly. If the way itself is missing, use C.39 to find or develop it; E.4.CM guides that construction when it must become a maintained framework contribution. When the next decision depends jointly on how a suitable method becomes available, how a performer gains access or capability, and how the job is supplied, C.32.MWA:4 connects those contributions. For a readiness decision alone, use A.15.5 for the intended job.
 
 Bring the answer back to the receiving decision or action. Explain how the carried claim constrained the question, choice or interpretation of the answer. If the local answer leaves a connection required by the larger task unresolved, keep that connection as unfinished work. A stop can settle the present inquiry while leaving the receiving task dependent on further facts or a still-missing way.
 
@@ -135,7 +135,7 @@ The ClaimGraph records the accepted card edition and carried claim slice, decisi
 
 These are use-specific claim contents, not SlotSpecs of another relation species; the returned result retains its own kind, relation semantics when applicable, identity, and subject-specific basis.
 
-In each case, participants need a grounded claim and a way to retrace how they reached it. Conversation can supply both on the spot. Transfer, audit, delayed feedback, automation or durable reuse may require someone to retrace it later. None of these uses asks whether repeated P2W relation occurrences are the same individual.
+Identify what warrants the returned claim for this use. Its source can supply sufficient grounds even if the original participant's route to the conclusion is unknown. Where the commission concerns that participant's reasoning or separately calls for a new application, establish what the participant actually did under the stated conditions. Conversation can make this clear immediately. For delayed use or audit, an accessible record may preserve the required grounds. These questions require no P2W relation-occurrence identity.
 
 The conversational move, optional positive note, and stop description therefore close those uses without a relation-kind candidate. `A.6.RCD`, `E.24`, `E.24.UK`, `A.6.0`, and relation-species naming do not open.
 

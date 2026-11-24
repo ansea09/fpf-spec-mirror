@@ -6,12 +6,12 @@ section_id: "A.21:7"
 section_title: "Check the ordinary gate decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_check-the-ordinary-gate-decision.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:7 — Check the ordinary gate decision"
-line_start: 41744
-line_end: 41764
+line_start: 41761
+line_end: 41781
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -36,9 +36,9 @@ keywords:
 
 1. **Decision.** Name the gate, the action or transition being decided, its scope, and its time window.
 2. **Applicable rule.** Point to the profile rule and edition that apply to this gate and subject. Recover its required checks, mappings, consequences, scope and window, and any authority the rule itself requires.
-3. **Checks.** For each check, name its subject, criterion and edition, case, requirement, evaluation state, any available source result, and mapping rule.
-4. **Nothing missing.** Keep every required check visible, including `notRun`, `unknown`, error, and failure.
-5. **Worst result wins.** Aggregate only after the rule has mapped every required result. A missing or unrun required result cannot support `pass`.
+3. **Checks.** For each check, identify the subject, criterion and edition, case, requirement, mapping rule and any available source result. State the evaluation status on its grounds. Use performer, authority and independence grounds where the profile requires them.
+4. **Required set.** Keep each required check visible, including a missing result, a known `notRun`, `unknown`, error or failure.
+5. **Worst result wins.** Use §4.5 to decide whether the established mappings already settle the value. A required check with a missing result or a known `notRun` cannot support `pass`. Keep any outstanding work and any separate conditions on action visible.
 6. **Next action.** State what `pass`, `degrade`, `block`, or `abstain` means for this action, retain every applicable restriction under §4.5, and state when to decide again. If the conclusion authorizes a wider operation, give the rule and conditions that carry the gate result to it.
 7. **Boundary.** Do not turn the decision into work-entry readiness or performed Work, and add no crossing, Bridge, publication, or assurance claim that is absent.
 

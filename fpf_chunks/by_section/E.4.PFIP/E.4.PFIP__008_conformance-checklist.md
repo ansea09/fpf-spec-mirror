@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:7 — Conformance Checklist"
-line_start: 102344
-line_end: 102362
+line_start: 102403
+line_end: 102421
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -42,7 +42,7 @@ keywords:
 | `CC-PFIP-9` Candidate additions classified | Candidate content or selected structure without predecessor correspondence is classified as an accepted or unexpected addition. |
 | `CC-PFIP-10` Split and merge allocation complete | Every split or merge traverses every named predecessor inventory across named candidate expression parts even when a narrower pair survives. |
 | `CC-PFIP-11` Form and content decisions separate | Every form retirement, split, or merge has separate outcomes for the content expressed by the predecessor form. |
-| `CC-PFIP-12` Shared consumers checked once | Shared public entries and direct consumers are checked once without merging the expression comparisons that depend on them. |
+| `CC-PFIP-12` Shared entries and direct consumers | A result can serve several expression comparisons when it covers their editions, acceptance question and receiving conditions. Establish each uncovered use and perform any separately commissioned repeat or independent check. Keep the expression results distinguishable. |
 | `CC-PFIP-13` Affordable result | Unchanged predecessor content and selected structure remain in the checkable traversal and do not become a positive prose ledger. |
 | `CC-PFIP-14` Authority boundary preserved | The conclusion is identified as comparison evidence. Any construction, acceptance, admission, release, landing, or assurance decision is obtained separately. |
 

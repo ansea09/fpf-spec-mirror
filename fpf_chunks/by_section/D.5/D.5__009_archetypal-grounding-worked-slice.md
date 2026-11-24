@@ -6,12 +6,12 @@ section_id: "D.5:6"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__009_archetypal-grounding-worked-slice.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:6 — Archetypal Grounding (Worked Slice)"
-line_start: 97772
-line_end: 97777
+line_start: 97829
+line_end: 97834
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,7 +30,7 @@ keywords:
 
 ### D.5:6 - Archetypal Grounding (Worked Slice)
 
-Suppose a hiring-screening model agreed with a reviewed reference decision on 90 of 100 applications. Each applicant in the comparison submitted one application, and ten of the applicants belong to the group under review. All ten discrepancies could fall inside that group or all ten could fall outside it. A reliable subtotal of agreements for those ten applications, or a count from the corresponding decisions, can establish the observed group rate. If applicants can submit repeatedly, a rate per person also needs a rule for counting their decisions. An estimate for a wider population needs grounds for extending the comparison and an account of its uncertainty. A judgement about fair treatment also needs a criterion for what counts as fair in that use. People unable to submit an application are outside this calculation. A claim about access must account for them.
+Suppose a hiring-screening model agreed with a reviewed reference decision on 90 of 100 applications. Each applicant in the comparison submitted one application, and ten of the applicants belong to the group under review. All ten discrepancies could fall inside that group or all ten could fall outside it. A reliable subtotal of agreements for those ten applications, or a count from the corresponding decisions, can establish the observed group rate. If an external auditor was also commissioned to check the comparisons, establish what they examined. Signing a supplied total can attest to that signature while leaving the examination open. If applicants can submit repeatedly, a rate per person also needs a rule for counting their decisions. An estimate for a wider population needs grounds for extending the comparison and an account of its uncertainty. A judgement about fair treatment also needs a criterion for what counts as fair in that use. People unable to submit an application are outside this calculation. A claim about access must account for them.
 
 If the team claims counterfactual fairness, C.28 must expose the causal estimand, additional counterfactual-identifiability assumptions, and an estimate with its consistency result when that estimate is relied on. Missing conditions lower the C.28 support result before D.5 decides its audit use. If the audit exposes a conflict between company efficiency and applicant harm across declared scopes, D.3 describes that conflict and D.4 guides its decision use.
 

@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 123044
-line_end: 123060
+line_start: 123108
+line_end: 123124
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -42,6 +42,6 @@ keywords:
 | `CC-E22-8` | Use `E.23` for repeated improvement after one framed evaluation returns findings or proposals. |
 | `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. An optional proposal must identify a substantive content change. Allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
 | `CC-E22-9` | Preserve the object-under-improvement evaluation's required scope, evidence basis, complete coordinate set, rationales, and result form. For an E.21 result, include its compact `PrecisionRestorationProfile` under E.21:4.3a; checked evidence and coordinate-specific payloads retain their governing requirements. |
-| `CC-E22-10` | Keep the question frame separate from actual evaluation. An evaluator condition appears in the use declaration only when it changes the question or result admissibility. An intended evaluator identity appears only when that identity is declared. For actual dated Work, recover the evaluator through A.13 and admit the Work independently through A.15.1. The obtaining A.13 assignment remains part of the actual performer's admission grounds. Add separate assignment and F.6 refs when the account expressly represents precise assignment-bound attribution. Missing or failed F.6 alone does not revoke independently admitted Work. Recheck shared admission premises as specified in section 4.1. Keep the application, result relation, result episteme, pattern locator, Method, any independently admitted method description, quality model, evidence-basis and result-form descriptions, evidence use, and result-consuming work or decision distinct. |
+| `CC-E22-10` | Keep the question frame separate from actual evaluation. An evaluator condition appears in the use declaration only when it changes the question or result admissibility. State the intended evaluator or distinct required evaluators when the work depends on them. For actual dated Work, establish each claimed contribution at its asserted scale through A.13 and admit the Work independently through A.15.1. The obtaining A.13 assignment remains part of the actual performer's admission grounds. Add separate assignment and F.6 refs when the account expressly represents precise assignment-bound attribution. Missing or failed F.6 alone does not revoke independently admitted Work. Recheck shared admission premises as specified in section 4.1. Keep the application, result relation, result episteme, pattern locator, Method, any independently admitted method description, quality model, evidence-basis and result-form descriptions, evidence use, and result-consuming work or decision distinct. |
 | `CC-E22-11` | A low value, finding, failed floor, or improvement aim does not establish an actual Problem. Any actual Problem relied on by the consuming use resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:1 — Problem Frame"
-line_start: 43937
-line_end: 43982
+line_start: 43956
+line_end: 44001
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 ### B.1.5:1 - Problem Frame
 
-Use this pattern when the question is whether identified Methods constitute one reusable Method. Their contributions may depend on order, guards, joins, shared constraints or simply satisfying distinct requirements of the whole. If the recipient must devise the arrangement, begin with B.1.5.CM and use the qualification below on the resulting proposal.
+Use this pattern when you need to decide whether identified Methods constitute one reusable Method, or to find which larger Methods, if any, include a known operation. Their contributions may depend on order, guards, joins, shared constraints or satisfying distinct requirements of the whole. If the recipient must devise the arrangement, begin with B.1.5.CM and use the qualification below on the resulting proposal.
 
 Typical moments:
 

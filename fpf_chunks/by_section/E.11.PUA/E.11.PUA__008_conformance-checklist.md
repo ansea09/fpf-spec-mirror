@@ -6,12 +6,12 @@ section_id: "E.11.PUA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:7 — Conformance Checklist"
-line_start: 110950
-line_end: 110962
+line_start: 111011
+line_end: 111023
 dependencies:
   - "A.13"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 | ID | Check | Passing condition |
 | --- | --- | --- |
 | `PUA-1` | Current concern | The working subject or relation and practical question are recognizable in domain language before the PatternID; an exact kind appears only when a nearby difference changes the use. |
-| `PUA-2` | Direct inspection | Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and stronger neighbor were inspected. |
+| `PUA-2` | Basis for choosing and using the pattern | The rationale draws on the applicable edition’s Solution, conditions and consequential boundaries. A material difference from another candidate was examined where it could change selection or use. Any separately commissioned reading or comparison took place. |
 | `PUA-3` | Useful result before apparatus | Ordinary use distinguishes the result, honest interim entity, or blocker from nearby values and reaches a stop or return. Relative-object, exact predicate, pattern locator, basis, and flow position appear only when ambiguity or named reliance needs them. |
 | `PUA-4` | Reliance profile | Ordinary use remains conversational; every materialized support record names the later reliance that needs it. |
 | `PUA-5` | Honest closure | The use distinguishes a newly current result, a pre-existing entity with new grounding, and an interim entity while the expected result remains absent. A materialized closure cites the exact result assertion, direct pattern content, relative object when relevant, and category-correct basis. A.15.PROD appears only for a current production-work, Work-attributed inception or production-completion claim, with that branch's own basis. |

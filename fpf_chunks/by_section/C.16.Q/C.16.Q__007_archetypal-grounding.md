@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 62999
-line_end: 63208
+line_start: 63030
+line_end: 63239
 dependencies:
   - "A.10"
   - "A.16"
@@ -46,7 +46,7 @@ keywords:
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 
 **A completed ordinary repair.** An architecture team is deciding which edition of a description supplies the dependency information it needs. Its report says “architecture quality improved.” Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. If the commission instead concerns the system's availability or security, report this finding about the description and identify the evidence still needed for the system claim. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
-A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
+A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, the assessing system when attributed, a separate `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
@@ -233,7 +233,7 @@ qualityTermAscription(
   effectiveReferenceScheme = QDUseValueScheme_9,
   probeOrModelFrameRef = CG_Frame_9,
   comparisonFrameRef = none,
-  evaluatorRef = SelectorPolicy_P4,
+  evaluatorRef = none,
   viewpointRef = none,
   normalForm = Objective,
   claimScope = U.ClaimScope({QDSelectionSlice_9}),
@@ -247,5 +247,5 @@ qualityTermAscription(
 )
 ```
 
-`ObjectiveDefinitionSource_CG9` cites the objective definition supplied by CG_Frame_9. C.17 can characterize the candidate's value under that objective; it does not supply the objective's definition merely by being named.
+`ObjectiveDefinitionSource_CG9` cites the objective definition in `CG_Frame_9`. That frame identifies `SelectorPolicy_P4` as the rule for the supplied value. The record can be interpreted while the identity of the system that calculated it remains open. C.17 can characterize the candidate’s value under the stated objective.
 

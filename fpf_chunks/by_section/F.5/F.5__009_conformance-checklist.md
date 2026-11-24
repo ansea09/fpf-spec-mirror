@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:7 — Conformance Checklist"
-line_start: 128819
-line_end: 128834
+line_start: 128883
+line_end: 128898
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,5 +65,5 @@ keywords:
 | `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, responsibility, and relation-position names remain at their direct objects before durable naming. |
 | `CC-F5-9` | A source term, symbol, predecessor term, or translation is marked as lineage or alias, not another selected Tech designation. |
 | `CC-F5-10` | For durable or public reuse, use F.18 and F.17 as needed; actual cross-local use names the exact C.3.3 kind relation or F.9 local-sense relation and the proportionate receiving-use, A.10, or B.3 claims required by rule 9. None substitutes for the receiving Work, result, provenance, assurance, or publication occurrence. |
-| `CC-F5-11` | A worked case does not mint a dated Work identity merely to support naming. When it consumes an already admitted Work, each exact actual performer has its A.13 basis and A.15.1 independently supplies the Method, time, containing System, and Work identity. A covering assignment and F.6 relation are recoverable only when the naming record or receiving use expressly represents that precise attribution. Result epistemes, provenance values, and their relations remain separate; no label, description, suffix, card, row, or citation substitutes for them. |
+| `CC-F5-11` | A worked case does not mint a dated Work identity merely to support naming. When it consumes an already admitted Work, the System credited at the stated scale has its A.13 basis. A.15.1 independently establishes the Method, time, containing System and Work identity. A claim about a constituent's work identifies its own contribution. A covering assignment and F.6 relation are recoverable only when the naming record or receiving use expressly represents that precise attribution. Result epistemes, provenance values, and their relations remain separate; no label, description, suffix, card, row, or citation substitutes for them. |
 

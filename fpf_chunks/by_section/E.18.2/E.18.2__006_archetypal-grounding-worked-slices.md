@@ -6,12 +6,12 @@ section_id: "E.18.2:4.5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__006_archetypal-grounding-worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4.5 — Archetypal Grounding (Worked Slices)"
-line_start: 119660
-line_end: 119679
+line_start: 119724
+line_end: 119743
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ With an interlock allowing at most one high branch, the possible totals are 2 an
 
 If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes one such already selected subject, use E.18.2.
 
-For benchmark superiority, apply the relevant comparison test. For training Work, apply A.15.1's occurrence and identity rules. For an evidence claim, recover its subject-support grounds and use A.10 when the source-to-use account is implicit or must remain replayable. For release, test the release action as Work and any separate subject-release predicate. For causality, apply the causal predicate and test for that claim. The diagram supplies none of those project results.
+For benchmark superiority, apply the relevant comparison test. For training Work, apply A.15.1's occurrence and identity rules. For an evidence claim, recover its subject-support grounds and use A.10 when the source-to-use account is implicit or must remain replayable. For release, test the release action as Work and any separate subject-release predicate. For causality, apply the causal predicate and test for that claim. Use any grounds the diagram or an accompanying record actually carries for those conclusions. A wiring arrow cannot supply a missing observation of training or release.
 
 **Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred. Take a drawing that partitions a fixed set of gates into disjoint, nonempty blocks covering the set. Splitting one block into two such blocks while retaining the others strictly refines the partition. Each new block lies inside an earlier one, and the same gates are covered. An extra label can leave all the blocks unchanged. If the truth table and the expanded circuit allow exactly the same Boolean output for every admitted input, the input–output answers stay the same. Timing at the output would require a timing model and its own correspondence.
 

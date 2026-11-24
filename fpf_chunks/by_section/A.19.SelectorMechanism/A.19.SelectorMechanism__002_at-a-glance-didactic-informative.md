@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:0"
 section_title: "At a glance — didactic, informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__002_at-a-glance-didactic-informative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:0 — At a glance — didactic, informative"
-line_start: 40835
-line_end: 40852
+line_start: 40852
+line_end: 40869
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -40,7 +40,7 @@ keywords:
 
 * **What it is:** a universal **set-returning** selection kernel: it takes candidates, admissible comparison outcomes, and explicit criteria, and returns a **selected set**, not a forced single winner.
 * **Why it exists:** to prevent three recurring failure modes: **hidden thresholds**, **silent scalarization**, and **winner‑take‑all defaults** under partial orders and uncertain evidence.
-* **Use this when:** admitted candidates must be selected under explicit criteria after comparison. Identify the candidate universe and choice rule, recover the required comparisons and their conditions, then return the justified subset. Stop with comparison when the receiving question needs no selection; a selection result alone supplies no authorization to act.
+* **Use this when:** the commission calls for selection from a declared comparison basis. Identify the candidate universe and choice rule, recover the required comparisons and return the justified subset. For a question about which candidates meet the criteria, an applicable prior selection or an argument covering the candidate set can suffice. Establish a new selection operation when the commission calls for that performance. Report a comparison directly when it answers the question. Authority to act requires its own grounds.
 * **What this buys:** the practitioner gets one selected-set value whose criteria, finite basis of upstream binary CPM applications, required comparison coverage, token provenance, scope, any governing A.19 predicate, plane, window, and policy bindings are explicit. `degrade` and `abstain` remain eligibility values, not selected-set members or alternative result kinds.
 * **First output:** read the by-value candidate set bound to `SelectionSlot`. Read the candidate universe, finite upstream CPM application basis, required pair coverage, derived comparison-token union, selection conditions, claim scope and context slices, reference plane, evaluation window, eligibility value, and evidence use from the `Select` application and neighboring relations; they are not fields inside the selected set.
 * **How it evolves:** method semantics and SoTA algorithm families connect via `G.2` packs and wiring modules; the kernel signature stays stable and teachable.

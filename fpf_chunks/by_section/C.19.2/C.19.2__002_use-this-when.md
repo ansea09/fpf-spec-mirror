@@ -6,12 +6,12 @@ section_id: "C.19.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:0 — Use this when"
-line_start: 64920
-line_end: 64929
+line_start: 64951
+line_end: 64960
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -38,7 +38,7 @@ keywords:
 
 Use this pattern when one practical result matters and a relevant method, model, formalism, assurance technique, ontology, or other direct-kind apparatus is available, but the work needed to configure and apply it may cost more than the result warrants. Start here whether one apparatus is already selected or a real choice among available alternatives has become current.
 
-The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether the next adaptation and application work can reach a useful result within the available budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
+The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether available results already meet those conditions. If the recipient needs more work, determine whether the next adaptation or application can supply it within the budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
 
 **Not this pattern when.** If an adequate way to obtain the result is still unexplained, use `C.39`. If usable material needs feasible variation and examination, use `C.40`. Use `C.18` when the question concerns the generation account or archive/front stewardship. If the live question is a local choice over an existing option set, use `C.11`. If the blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 

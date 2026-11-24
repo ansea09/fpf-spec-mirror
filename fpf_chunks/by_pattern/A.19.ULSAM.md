@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ULSAM.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
-line_start: 40145
-line_end: 40437
+line_start: 40162
+line_end: 40454
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -189,7 +189,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
 #### A.19.ULSAM:4.2 - Interpretation notes (didactic, informative)
 
 - **Identify the fold and its governing conditions.** The fold is the aggregation rule; ΓFoldRef identifies the selected rule. `GammaFoldSlot` MUST be resolvable to `CGSpecSlot.Γ_fold` routing or a pinned override. A calculation can still have occurred without that citation, but its conformance and reuse basis remain unresolved until the rule is recovered.
-- **ULSAM is not normalization.** ULSAM does not establish comparability by itself: it does not normalize, rescale, or “align units” as a hidden convenience. If a compare‑on‑invariants surface is required, invoke UNM upstream and cite the effective pins in Audit.
+- **Comparability of the inputs.** Use applicable normalized values and their preservation grounds when comparability depends on normalization. Apply UNM upstream when a required value is missing or the use calls for a new normalization. Cite the effective pins in Audit. ULSAM itself aggregates the admitted values.
 - **Keep separate measures when sufficient.** If separate measures answer the receiving question, keep them separate. Use `CPM` for a needed comparison and `SelectorMechanism` for a needed selection, under their declared partial-order and set-return rules. A fold can discard distinctions; state which distinctions the declared fold preserves and loses.
 - **Recover the actual contributors.** The bound input and the selection rule used in the calculation may already establish which entries the application folded. Use the optional ContributorSet output when it supplies needed recoverability. Suppose the maximum was taken over entries A = 5 and B = 3. Computing the maximum on A alone gives 5 again. An account of the original operands includes both entries. If the question is which entry attained the maximum, A answers it. An implementation may use an index to find the maximum over a specified collection. Which records it physically accessed is a separate question about the execution. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Conversely, copying the assertion about one box does not make two boxes or authorize counting its mass twice. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.
 - **Time-fold is a specialization, not a loophole.** The base ULSAM declares `Γ_timePolicy` and allows time-fold only via explicit windowing policy. If a project needs an explicit `FoldTime_Γ` operator, declare it with its additional operation and arguments, preserve inherited meanings and test the claimed extension under A.6.1 §4.8. The local `⊑⁺` label alone establishes no preservation result.

@@ -6,12 +6,12 @@ section_id: "F.1:4"
 section_title: "Solution — find inspectable material and select by answer-changing role"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__005_solution-find-inspectable-material-and-select-by-answer-changing-role.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:4 — Solution — find inspectable material and select by answer-changing role"
-line_start: 127360
-line_end: 127530
+line_start: 127424
+line_end: 127594
 dependencies:
   - "A.10"
   - "A.7"
@@ -57,7 +57,7 @@ Say who needs the answer and what it will let them conclude or do. Where the que
 Use identified sources whose relevant claims can be inspected. A discipline or domain-family label may help discovery but is not a source.
 
 **Step 3 — Inspect the answer-changing role of each candidate.**
-Ask what claim or limit from that edition can change the answer. Use F.0.1's ordinary branch only when that role depends on a disputed expression. Pause selection just long enough to name the exact source, edition, and passage, and say in plain language what the expression means there. Then return to source selection. Look deliberately for intended-use contributions, rival explanations, action-changing counterexamples, transfer limits, and material non-fit. One source may serve several roles.
+Ask what claim or limit from that edition can change the answer. A qualified contributor may already have inspected the passage and justified its selection. If the commission entrusts the selection to a particular participant, distinguish the candidate list, excerpts or recommended choices supplied from the judgement that participant actually made. Use F.0.1's ordinary branch only when that role depends on a disputed expression. Pause selection just long enough to name the exact source, edition, and passage, and say in plain language what the expression means there. Then return to source selection. Look deliberately for intended-use contributions, rival explanations, action-changing counterexamples, transfer limits, and material non-fit. One source may serve several roles.
 
 **Step 4 — Take the smallest sufficient cut.**
 Retain the sources that together cover the needed grounds. Two passages may be useful only together, for instance when one identifies an item and another states a condition that applies to that item. Check what links their claims. Exclude a candidate when its inspected content adds nothing the receiving use needs. Do not optimize for a fixed count, diversity score, canonical status, or exhaustive appearance.
@@ -125,7 +125,7 @@ Choose a route that could reach the needed material at acceptable effort. Use a 
 | Words likely to occur in accessible text | Search the bodies for the object, action, result or distinguishing condition. A single phrase may miss another language, earlier name or differently worded explanation. |
 | Unfamiliar terminology but a recognizable concern | Browse a relevant contents area or example, then use the source's wording for further lookup. A published classification can place the contribution in another area. |
 | A relevant inspected source | Follow a reference or neighbouring passage that could supply the missing contribution, rival or limit. Its references can favour its own lineage. |
-| A search, assistant or summarized view | Use returned candidates to choose what to inspect. Its declared fields or representation can omit body conditions; a score cannot establish their absence. |
+| A ranking, assistant or summarized view | Use a ranking to select passages for inspection. When a contributor also inspected the underlying claims, use its reasoned source choice within its stated coverage. A missing condition in a limited excerpt may still affect the answer. |
 
 These are alternative starting points. Choose an additional route only when a consequential gap remains and that route could recover material the first route could not reach. For example, a body search can bypass a title-only index; an older term can bypass a current-name catalogue; a referenced original can expose a condition missing from an excerpt. Repeating the same limited representation with another tool does not repair that limit.
 

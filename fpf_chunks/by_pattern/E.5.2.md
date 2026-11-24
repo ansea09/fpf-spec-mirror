@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.5.2 — Notational Independence"
-line_start: 102597
-line_end: 102725
+line_start: 102656
+line_end: 102784
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

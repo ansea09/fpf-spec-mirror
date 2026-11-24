@@ -6,12 +6,12 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing — problem-first comparison of review approaches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__013_sota-echoing-problem-first-comparison-of-review-approaches.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:11 — SoTA-Echoing — problem-first comparison of review approaches"
-line_start: 121541
-line_end: 121564
+line_start: 121605
+line_end: 121628
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.19:11 - SoTA-Echoing — problem-first comparison of review approaches
 
-**Working trade-off.** For one FPF pattern edition, detect semantic, ontological, practitioner-use, and source-currentness defects without making an ordinary review cost more than its likely harm warrants. **Design inference from the comparison.** Combine narrowly targeted tools, human review of contextual defects, subject reasoning for the range of a rule, practitioner evidence for transfer in use, and living-guidance methods for volatile claims. The table gives the contribution and limits of each source.
+**Working trade-off.** For one FPF pattern edition, detect semantic, ontological, practitioner-use, and source-currentness defects without making an ordinary review cost more than its likely harm warrants. **Design inference from the comparison.** Combine narrowly targeted tools, review by participants competent to judge contextual defects, subject reasoning for the range of a rule, practitioner evidence for transfer in use, and living-guidance methods for volatile claims. The table gives the contribution and limits of each source.
 
 **Evidence binding.** If a current SoTA Synthesis Pack answers this exact review or refresh trade-off, cite it and keep this section consistent with it. Otherwise, use the source contributions below for the named review question and decision; source identity alone does not establish the quality of that decision.
 
@@ -50,7 +50,7 @@ keywords:
 | **Living-guidance refresh.** Cheyne et al. (2023), [Methods for living guidelines: early guidance based on practical experience. Paper 1: Introduction](https://research-management.mq.edu.au/ws/portalfiles/portal/256300896/Publisher_version_open_access_.pdf). | Prioritises questions for living mode, varies surveillance frequency, updates the smallest recommendation affected by new evidence, and permits transition out of living mode. The approach improves currency but carries sustained cost and comes from clinical guidance. | **Adapt, domain-bounded.** Reopen the smallest affected FPF pattern or subset on a material trigger and stop continuous surveillance when its expected gain no longer justifies the effort. Keep the clinical governance and GRADE procedures outside the portable FPF method. | `PCP-REFRESH`; the bounded review object in §4.1; the reopen and stop rules. |
 | **Narrow structural, ontology-tool, and retrieval checks.** [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html); Garijo, Corcho, and Poveda-Villalón (2021), [FOOPS!](https://ceur-ws.org/Vol-2980/paper321.pdf), with its [test catalogue](https://oeg-upm.github.io/fair_ontologies/doc/catalog.html); [RAGAS](https://aclweb.org/anthology/2024.eacl-demo.16.pdf) and [ARES](https://arxiv.org/abs/2311.09476) (2023–2024). | ISO 42010 supplies requirements for architecture-description structure and expression. FOOPS! tests selected FAIR-ontology properties. The retrieval evaluators distinguish context and answer relevance, faithfulness, and context adequacy. These are different properties and evidence relations; their outputs are not interchangeable pattern-quality scores. | **Retain only for the named property.** Use ISO 42010 as an architecture-description reference and FOOPS! only for an applicable machine-readable ontology. Select a retrieval evaluator against the required fixture properties; RAGAS/ARES illustrate that property split. A clean narrow check does not settle the remaining admission, usability, ontology, or source-currentness questions. | `PCP-BASE` structure checks; quick-pass automation in §4.2.1; `PCP-ENTRY-E4`; the no-project-certificate boundary. |
 
-**Selected current front.** Ordinary E.19 use combines a lightweight stable-candidate review with cheap bounded automation, then scales review depth by likely harm, novelty, reuse breadth, and source volatility. It retains independent findings as a review form, tests breadth with practitioner evidence only when the claim warrants it, and refreshes the smallest triggered unit. The selected trade-off avoids running questions for absent risks while retaining human judgement of semantics, practical use, and current-source decisions. Practitioner studies and continued surveillance add effort only when the claimed breadth or currentness warrants it.
+**Selected current front.** Ordinary E.19 use combines a lightweight stable-candidate review with cheap bounded automation, then scales review depth by likely harm, novelty, reuse breadth, and source volatility. It retains independent findings as a review form, tests breadth with practitioner evidence only when the claim warrants it, and refreshes the smallest triggered unit. The selected trade-off avoids running questions for absent risks while selecting reviewers with the competence, access and independence the semantic, practical or source judgement requires. A claim about a person’s experience, or a decision reserved to that person, needs grounds for that person’s own contribution. Practitioner studies and continued surveillance add effort only when the claimed breadth or currentness warrants it.
 
 Reopen this choice when another approach demonstrates equal or better detection of those four defect families at lower comparable effort.
 

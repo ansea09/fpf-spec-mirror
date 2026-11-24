@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:4 — Solution"
-line_start: 138615
-line_end: 139061
+line_start: 138679
+line_end: 139125
 dependencies:
   - "C.11"
   - "C.18"
@@ -172,14 +172,14 @@ When a selector consumes an organization among Methods, cite an exact `SelectedS
 
 S3 states reusable selector behavior. A completed admitted selection establishes the A.6.1 `Select` application, its effective argument bindings and the A.19 `SelectionSlot` binding for the set returned by value. The eligibility evaluation has its own application and guard result; on abstain no Select act proceeds. Keep the actual eligibility and comparison grounds recoverable.
 
-When the account also asserts a dated selector `U.Work`, or a receiving contract requires that identity, first recover each precise performer’s A.13 core for the action, scope, working situation and window, including the obtaining assignment used by any exact attribution. A.15.1 independently admits the Work from its performance history, enacted Method, temporal extent and containing-System relation. F.6 applies afterward only for a required exact assignment-bound attribution through the same obtaining assignment.
+When the account asserts dated selection `U.Work`, or the receiving contract requires that identity, establish the Work under A.15.1 from its performance history, enacted Method, temporal extent and containing-System relation. Identify under A.13 each System credited at the scale of the claim. The commission’s decision can be established from its dated proceedings while authorship of a particular proposal remains open. Apply F.6 when the receiving use requires attributing a contribution under its obtaining assignment.
 
 A compact Work account may omit an assignment identifier unused by its receiving claim; it retains every criterion, classification, assignment, admission or attribution fact the claim consumes. Holder equality or overlapping times alone does not establish the F.6 relation.
 
 Replay upstream CPM applications through their own declaration-local bindings. Separately admitted comparison or selection Work is required when that Work is asserted or consumed. Evidence use, A.10 reliance/provenance, G.11 currentness and a C.2.1 result episteme retain their independent grounds when asserted or consumed by the receiving use.
 
 **S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
-When the selection question is whether or how candidates can acquire usable specialization on a declared task family, the selector may emit one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. Use the adaptation-signature fields defined by `C.22.1` for this comparison. Identify who performed the operation and which help was available in the check and will be available in the receiving work. Carry an observed change on a second task at the strength warranted by the transfer evidence.
+When the selection question is whether or how candidates can acquire usable specialization on a declared task family, the selector may emit one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. Use the adaptation-signature fields defined by `C.22.1` for this comparison. Identify who performed the operation and which help was available in the check and will be available in the receiving work. For a claim about transfer, establish what the participant did on the other task and what was supplied there. State which capability that evidence supports in the receiving conditions. The work can establish mastery of the original operation while transfer remains open.
 
 The profile should therefore cite one `AdaptationSignatureRef` or equivalent pinned field set carrying the declared `TaskFamilyRef` or `TaskSignature`, the work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, any declared transfer or retention claim, any downside cost or downside on adjacent tasks, and any specialization-entry baseline, specialization-entry evidence, or stepping-stone evidence item that materially affects comparison.
 

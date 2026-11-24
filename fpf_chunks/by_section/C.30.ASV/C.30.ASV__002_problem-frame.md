@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 76803
-line_end: 76847
+line_start: 76856
+line_end: 76900
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,7 +67,7 @@ keywords:
 
 Use this pattern when you have a structural description of one selected architecture-relevant `U.Structure` and need to decide whether that same description is also a `U.View` under one viewpoint.
 
-Name the described holon or `ArchitectureRelation` when known and the structures whose relations matter to the audience. A question about information lost in a diagram can end with the consequential omission. To establish that the description conforms to a particular viewpoint, apply its coverage and omission rules under §4.1 and report the outcome.
+Name the described holon or `ArchitectureRelation` when known and the structures whose relations matter to the audience. A question about information lost in a diagram can end with the consequential omission. A grounded dependency map can answer an architecture question even if its author is unknown. To assess a designer’s own work, recover which relations were supplied by the brief or the extraction tool and which the designer selected, discovered or justified. To establish that the description conforms to a particular viewpoint, apply its coverage and omission rules under §4.1 and report the outcome.
 
 For example: “The failover diagram describes runtime-interaction and control structures, but it hides the failover relation. Recover that relation before relying on the diagram to decide whether failover works.” This is a usable triage result. An adequate sentence can be retained, compared, or handed on. Use `ArchitectureStructureKindTriage@Project` when its fields help that work.
 

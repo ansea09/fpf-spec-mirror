@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:5 — Archetypal Grounding"
-line_start: 20090
-line_end: 20195
+line_start: 20103
+line_end: 20208
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -77,11 +77,11 @@ The content to express is four successive `ta ki ṭa` groups with four, three, 
 | Third | 2 | 6 pulses |
 | Fourth | 1 | 3 pulses |
 
-The phrase occupies 30 pulses. The twelve-pulse cycle supplies the recurring reference. To finish at a cycle boundary, rhythmic composition selects a six-pulse preparation: 6 + 30 = 36, or three cycles. The preparation can be voiced as `ta ki ṭa` with two pulses per syllable.
+The phrase occupies 30 pulses. The hand cycle has twelve. Nelson’s exercise supplies a six-pulse preparation, so the phrase ends at pulse 36, the third cycle boundary. If your task is to choose a preparation, specifying the third boundary selects six pulses. Specifying any cycle boundary allows other preparations, including eighteen pulses before a phrase ending at pulse 48. The six-pulse preparation can be voiced as `ta ki ṭa` with two pulses per syllable.
 
 Prepare the vocal sequence against the continuing hand cycle. The phrase starts six pulses after the cycle origin and ends at the third boundary. Preserve the pulse and duration assignments through the changes of syllable rate. Merely placing four identical syllable groups on a page would leave those assignments unavailable.
 
-The resulting expression coordinates two learned channels: phrase syllables and hand-cycle reference. Arithmetic and rhythmic composition determine the entry and ending. A performer can use that expression to produce the phrase; the utterance and gestures can both represent the content and realize rhythm.
+The resulting expression coordinates two learned channels, phrase syllables and hand-cycle reference. With the preparation given, the durations determine the entry and ending. A performer can use that expression for both channels, or a partner can supply the hand cycle. A combined recording can establish alignment in either arrangement. To conclude that a particular performer coordinated both channels, use evidence that distinguishes the performers' contributions.
 
 For a performer who needs to locate the cycle boundaries inside this phrase, add these cues to the same pulse reference:
 

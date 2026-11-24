@@ -6,12 +6,12 @@ section_id: "E.10.LRN:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__007_worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:5 — Worked Slices"
-line_start: 107387
-line_end: 107420
+line_start: 107448
+line_end: 107481
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 #### E.10.LRN:5.1 - Taught to swim and learned to swim
 
-“A coach taught Lee to swim” opens a teaching-Work claim. Recover coach and Lee as Systems, the dated coaching and practice Work, enacted Method, conditions, and intended result.
+“A coach taught Lee to swim” opens a teaching-Work claim. Recover who provided the coaching, the Method used, the conditions and what Lee was meant to learn. If the claim concerns Lee’s practice, establish what Lee did. If practice was commissioned, check whether it took place.
 
 A supervisor needs to know whether Lee can swim one length of this pool unaided today. A recent observed crossing can settle that question if the stroke, distance, support and conditions match. To say that Lee **learned** to do it during the course, establish what Lee could do at the start. A prior swimming record can supply that comparison. A successful crossing after coaching is compatible with Lee having been able to swim the length beforehand.
 
@@ -77,5 +77,5 @@ Independent diagnosis of a changed pump configuration is a different representat
 
 An organization publishes a “lessons learned” report. This establishes an available episteme. A supported claim that a new variant entered an institutional memory may finish at that narrower result.
 
-A claim that people changed their practice needs the relevant Method, assignment and Work facts and evidence of the claimed change. Recover selection, retention or operating consequences only for the cultural claim that uses them. Publication alone does not establish changed enacted practice.
+To establish that people changed their practice, compare what they actually did under the relevant conditions. Establish an assignment when the claim concerns a duty to use the changed Method. A team can also change how it works on its own initiative. Recover selection, retention or operating consequences only for the cultural claim that uses them. Publication alone does not establish changed enacted practice.
 

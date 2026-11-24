@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:4 — Solution"
-line_start: 128685
-line_end: 128771
+line_start: 128749
+line_end: 128835
 dependencies:
   - "A.10"
   - "A.15"
@@ -103,7 +103,7 @@ For a coupled system-role–Method phrase, recover the local kind and Method sep
 
 `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression when nearby project wording makes the intended kind clear and the C.3 candidate domain, membership distinction, boundary probes, and continuity remain recoverable. The wording helps the reader; it does not identify the kind. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
 
-If a later naming use needs the identity of a dated Work occurrence, the Work must be constituted before naming begins. Recover every exact actual performer through A.13, and let A.15.1 independently admit the Work from its semantic Method, time, containing System, and other required direct facts.
+If a later naming use needs the identity of a dated Work occurrence, the Work must be constituted before naming begins. Establish the A.13 performer at the scale the name denotes and independently admit the Work under A.15.1 from its enacted Method, time, containing System and other required direct facts. Naming a service's completed audit does not require identifying who checked each row. For a name that attributes a row check to one employee, establish that employee's part.
 
 Add the assignment occurrence, holder equality, and F.6 relation only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by its A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. When the naming use does not consume a dated Work identity, keep the activity in ordinary wording.
 

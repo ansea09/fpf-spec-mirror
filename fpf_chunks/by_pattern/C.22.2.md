@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.22.2 — ProblemCard"
-line_start: 66797
-line_end: 67502
+line_start: 66836
+line_end: 67541
 dependencies:
   - "A.10"
   - "A.15"
@@ -108,7 +108,7 @@ The first substantive use is the Thin form. It is a practitioner-facing prompt f
 **Develop the content from accessible material.** If the concern is still a rough signal, use the constructive examination in B.5:4.1.2 at the scale needed here:
 
 1. Follow an actual episode, inspect the artifact or recover the source statement that prompted attention. Separate what it shows from a proposed cause or solution. Trace what result is used, by whom or by what next operation, and what happens there.
-2. Recover why that consequence matters. Read the applicable purpose, acceptance condition, commitment or constraint, or ask the participant responsible for that use. Identify the entity affected in that use and trace how the observed condition bears on its criterion. The person reporting the signal and the subject of the card can each differ from the affected entity. If the criterion or connection is unknown, preserve that specific inquiry rather than asserting an actual Problem.
+2. Recover why that consequence matters. Read the applicable purpose, acceptance condition, commitment or constraint, or ask the participant responsible for that use. Identify the entity affected in that use and trace how the observed condition bears on its criterion. The source of the signal, the subject of the card and the entity affected can differ. If the criterion or connection is unknown, preserve that specific inquiry rather than asserting an actual Problem.
 3. Form the claim at the extent the material supports. Identify the participants and relation, the cases or conditions covered, and the meaning of the terms used. Distinguish a reported current condition from a forecast, an explanation to test or a claim about available means. Inspect a contrasting case when it can distinguish materially different formulations; retain an adequate existing formulation directly.
 4. When the next use needs a check, derive it from the claim the recipient must decide. A clarification can be tested by asking which recorded event satisfies the applicable rule. An improvement in service needs a comparison of service outcomes across the relevant work under comparable conditions. Identify the observation or argument that can settle the claim. Use an adequate existing result or method; obtain the particular missing observation, interpretation or subject assistance when it prevents that check. A source inquiry can still be the sufficient next use before such a check is available.
 5. Carry the supported formulation and its consequential uncertainty into the Thin form below. Choose the next operation because its available inputs and attainable result answer the remaining question. If no useful operation can yet be described, return to the episode or request help on that missing connection.
@@ -588,7 +588,7 @@ The archive and portfolio distinctions remain current when they matter because t
 
 | Misuse mode | Symptom | Repair |
 |---|---|---|
-| A proposed solution is mistaken for the problem, or an agreed order for a suggestion. | The same words can request an examination of a difficulty or commission a specified deliverable. | Establish what was agreed with the person entitled to commission the work. When the means remain open, use §2.1 to formulate the problem from the receiving work. For an agreed deliverable, use an adequate formulation directly to do the work. Refer a proposed change to the person entitled to alter the order. |
+| A proposed solution is mistaken for the problem, or an agreed order for a suggestion. | The same words can request an examination of a difficulty or commission a specified deliverable. | Establish what the operative agreement or instruction requires and who holds the decision about its scope. When the means remain open, use §2.1 to formulate the problem from the receiving work. For an agreed deliverable, use an adequate formulation directly. Refer a proposed change to the party entitled to alter the order. |
 | Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that defines or constrains the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording is reduced to a score without its declared characteristic, scale, scope and policy basis. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and declared next use. |
 | Silent retargeting | A changed EntityOfConcern, representation language, diagram, functional description, or transformation-flow path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |
@@ -637,7 +637,7 @@ The first-line entry uses "complete" when a case is sent. The specialist entry u
 | Claim family | Descriptive claim about the two policy clauses and their different completion meanings. The prediction that reopened escalations will continue while this wording remains is an untested hypothesis, not an established forecast or causal result. No actual PFR is asserted. |
 | Ground for addressing the concern | For a sent case still awaiting acceptance, the two readings disagree on whether it belongs in the sender's queue. Identify which event governs removal. To establish who remains accountable for follow-up, consult the rule assigning that responsibility. |
 | Improvement check or acceptance probe | Apply the rule to a case sent but still awaiting acceptance. Does it remain on the sender's list? To investigate actual compliance, compare the required result with what the queue recorded in that case. |
-| Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the person authorized to settle it. |
+| Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the party authorized to settle it. |
 | Qualification window (current here) | Use the policy edition in force at the time in question. The two-week incident window concerns the report about reopened cases. |
 | Problem-formulation follow-up reason (current here) | Resolve which event the policy means by completion. Examine System, assignment, Method, Work or policy-boundary relations only if that clarification exposes a question that depends on them. |
 | Validation boundary (current here) | The answer about the rule depends on its authority, wording, effective period and interface. An answer about actual operation also depends on the coverage and meaning of the incident records. |
@@ -677,9 +677,9 @@ For the unrelated branch, `InspectionReleaseAssignment` is a declared `U.SystemR
 
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
-Machine-assisted `ProblemCard` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any subject-pattern cues for claims outside `C.22.2`.
+A person, an automated service, or a team using such a service may formulate and maintain a `ProblemCard`. For P2W or selector-facing use, establish what the card says, what supports its claims and which subject-pattern cues bear on that use. For a claim about who recognized the problem, selected its subject, checked the evidence or issued the card, identify the contribution actually made. Retain personal review or approval when the commission calls for it.
 
-Check the Thin content in §2.1 against the available source material. A machine-generated field value is a proposal until its claim is supported; the same record budget applies as for a human draft.
+Check the Thin content in §2.1 against the available source material. A substantiated finding may be used directly regardless of who expressed it. Preserve unsupported candidates as proposals and apply the same record budget to human and machine contributions.
 
 Check problem-formulation follow-up reason, validation boundary, freshness or expiry, unknown handling, source-set reference, representation or retargeting relation, and outside-pattern cues only when that content is current for the chosen next use. Omit a non-current field; do not invent a value or write `unknown` merely because the drafting aid exposes that field.
 

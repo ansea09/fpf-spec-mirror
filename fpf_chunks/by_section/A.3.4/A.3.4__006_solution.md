@@ -6,12 +6,12 @@ section_id: "A.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:4 — Solution"
-line_start: 13548
-line_end: 13709
+line_start: 13561
+line_end: 13722
 dependencies:
   - "A.1"
   - "A.10"
@@ -201,7 +201,7 @@ Keep these objects separate:
 - when claim content changes, the earlier specification episteme and the later specification episteme are distinct C.2.1 identities; `EpistemeEditionRelation` relates them only when its historical-continuation predicate obtains;
 - dated editing or review is a `U.Work` occurrence admitted under `A.15.1`;
 - edition succession alone establishes no transformation of one continuing episteme. Open A.3.4 only for a separately continuing subject—such as a physical or digital carrier independently identified under its domain identity rule (with expression bearing governed by `E.24.PUB`) or a claim-bearing constituent organization—after naming its boundary, before/during/after facts, and continuity rule; otherwise stop without a transformation claim;
-- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims.
+- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the contributing Work occurrence or occurrences, and the work-to-change and change-to-identity predicates or local compound claims. Establish a composite `identityClosingWork` when that particular attribution is made.
 
   If the product-identity specification is claimed to continue an earlier identity-rule specification, test their separate C.2.1 `EpistemeEditionRelation`. When that relation is unestablished, leave continuity unresolved and evaluate the later identity-rule specification's applicability independently; call it non-continuing only when the applicable continuity rule supports that conclusion.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.CP.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
-line_start: 27278
-line_end: 27488
+line_start: 27295
+line_end: 27505
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -137,7 +137,7 @@ OccurrenceIdentity:
 
 `BasisClaimSlot` is the claim-bearing episteme used, and `basisClaimAddress` is a `C.2.1 ClaimAddress` selecting the claim inside that same edition by its intrinsic ClaimGraph identity. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation `U.Work` that relies on it. `ReceivingReasoningResultSlot` is the claim, comparison, decision, or other claim-bearing result episteme whose content that Work forms or revises using the basis claim. If the practical result is world-side, use the direct result claim that bears on it; the world-side object retains its subject pattern.
 
-Use A.13 to identify the admitted `U.System` that performs the Work and retain the obtaining occurrence of the separately declared `U.SystemRoleAssignment` species used by A.13. Independently admit the dated Work under A.15.1. Recover the obtaining F.6 attribution for that Work-assignment pair only when the claim or its receiving use expressly consumes assignment-bound attribution; the assignment holder must be the same System. The assignment's existence, holder, or interval does not establish that attribution; the independently identified System performs the Work.
+For a claim about reasoning Work, recover the Systems that actually performed it under A.13 and A.15.1. Several contributors can perform one occurrence together. A participant who supplied an earlier conclusion may have performed different Work. Establish F.6 attribution to the relevant obtaining assignment for each contribution where that attribution matters. The assignment must have the actual performer as its holder and cover the Work. A supported conclusion can be used while the history of its production is still open.
 
 Claim episteme, described Method when one is used, Work occurrence, assignment occurrence, attribution, use posture, receiving result, and any world-side result remain distinct. The words “premise” and “assumption” are not relation participants.
 

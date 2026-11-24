@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
-line_start: 57690
-line_end: 57868
+line_start: 57721
+line_end: 57899
 dependencies:
   - "A.1"
   - "A.11"
@@ -172,7 +172,7 @@ C.3 counters lexical, locality, document, and ontology-growth bias. A familiar w
 | `CC-C3-6` | Subkind facts follow C.3.1's criterion-entailment or exhaustive closed-domain branch and form a preorder; classification equivalence does not merge kind identities. |
 | `CC-C3-7` | Kind scope is absent; declaration and assertion scopes remain on their epistemes, and the slice remains an evaluation input. |
 | `CC-C3-8` | An extension is a representation of admissible true candidates, not `U.EntitySet`, a world-side collection-belonging claim, a collection holon, or a direct relation occurrence. |
-| `CC-C3-9` | C.3.3 is used only after distinct kinds and a proposed correspondence are independently established; same-kind reuse requires a fresh receiving judgment when the receiving use is candidate-bearing. |
+| `CC-C3-9` | Compare kind identity before using C.3.3 for a proposed correspondence between distinct kinds. For a receiving claim about a candidate, establish its admissibility and classification under the receiving criterion. An applicable earlier judgment or a warranted implication can suffice. |
 | `CC-C3-10` | `U.Work`, exact `W : U.Work`, and any episteme about W remain distinct. |
 
 ### C.3:10 - Common Anti-Patterns and How to Avoid Them
@@ -207,7 +207,7 @@ C.3 is the head pattern for typed reasoning. It leaves each detailed mechanism a
 | --- | --- | --- |
 | Kind identity, subkind relation, and continuity | `C.3.1` | admitted `U.Kind` and `U.SubkindOf`, criterion-entailment or exhaustive closed-domain obtaining, preorder and classification equivalence, participant-determined relation identity, and operational before/after continuity. |
 | Declaration, candidate judgment, and extension | `C.3.2` | `KindSignature`, exact four-key judgment, `true`/`false`/`unknown`, optional `KindExtension`, and scope/formality/evidence boundaries. |
-| Cross-local kind use | `C.3.3` | identity comparison first; same-kind reuse without a bridge; for distinct kinds, an obtaining directional `KindBridge`, its separate assertion, preservation/loss, and a fresh admissible receiving judgment when the receiving use is candidate-bearing. |
+| Cross-local kind use | `C.3.3` | Compare kind identities. Reuse the same kind directly. For reliance on a correspondence between distinct kinds, establish the directional `KindBridge`, its assertion, preservation and loss. For a candidate, use the grounds for its classification in the receiving case. |
 | Local adaptation without cloning a kind | `C.3.4` | A `KindUseAdaptationDeclaration` for one named local use of an exact base kind, its pinned base-kind judgment and additional candidate-feature constraints, the exact three-valued `KindUseAdaptationJudgment`, and any separately declared `KindUseAdaptationCorrespondenceDeclaration` between two exact adaptation declarations. |
 | Abstraction facet | `C.3.5` | `KindAT` as an editorial planning facet on one exact local kind, with no effect on the kind, declaration, judgment, extension, bridge assessment, guard, or F–G–R. |
 | Typed guards and applied examples | `C.3.A` | Declaration-level kind compatibility and exact candidate-use judgments kept separate across regulatory, assurance, ESG, and Method–Work uses, including the independently grounded actual `W : U.Work` boundary. |

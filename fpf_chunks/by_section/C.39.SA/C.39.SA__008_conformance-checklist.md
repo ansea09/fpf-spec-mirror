@@ -6,12 +6,12 @@ section_id: "C.39.SA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:7 — Conformance Checklist"
-line_start: 88286
-line_end: 88291
+line_start: 88343
+line_end: 88348
 dependencies:
   - "B.1"
   - "B.5.MR"

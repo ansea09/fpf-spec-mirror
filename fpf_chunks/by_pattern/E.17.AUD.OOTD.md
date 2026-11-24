@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
-line_start: 117644
-line_end: 118024
+line_start: 117708
+line_end: 118088
 dependencies:
   - "A.10"
   - "A.15"
@@ -269,14 +269,14 @@ The memo moved from the interface to a proposal to assign and schedule rollout. 
 
 For an introduction, “This note introduces the service boundary between catalog and checkout. Rollout is outside its scope” can finish the job. For an assessment, keep the two sides together and give the finding. Suppose checkout must handle every agreed catalog response. The catalog can return “item unavailable” and checkout accepts only a priced item. The current interface therefore fails that requirement. One such response settles this failure. To establish compatibility for that requirement, show that checkout handles every agreed response under the stated conditions.
 
-Either finding can guide an interface decision. Where a broader assessment also depends on an unknown deployment condition, identify what remains open. A rollout assignment requires the responsible authority’s action.
+Either finding can guide an interface decision. Where a broader assessment also depends on an unknown deployment condition, identify what remains open. A standing rule can assign qualifying rollout work to the duty shift. If a separate allocation is reserved to a particular party, establish that act before reporting who has been assigned.
 
 #### E.17.AUD.OOTD:5.2 - Operations note shifting into approval
 
 An incident note begins as a comparative review of timing variance and operator context.
 It ends as if it already recommends a production action.
 
-The incident may stay the primary subject while the move changes from comparison to recommendation. Mark the change if the reader needs both. To communicate an existing approval, cite its authoritative outcome and scope. When approval is needed and still pending, give the decision-maker the proposal and its grounds.
+The incident may stay the primary subject while the move changes from comparison to recommendation. Mark the change if the reader needs both. To communicate an existing approval, cite its authoritative outcome and scope. For a status inquiry, identify the pending approval and who holds the authority. Take the proposal and its grounds to that authority when the commission or a duty requires it.
 
 Use `C.11` if the new text chooses among already available actions. If an actual approving communication and an instituted permission matter, keep the `A.2.9` communicative Work and the `A.2.8.PER` grant relation separate. Use `A.21` only when a current `OperationalGate(profile)` publishes a gate decision.
 
@@ -306,10 +306,10 @@ If the remaining question is now one bounded comparison between the already pinn
 A release-readiness note is already explicit that it is about one candidate publication or view and the risk state visible from the current evidence.
 Mid-review, an external vendor bulletin and a new field observation change the reported failure boundary for that same candidate.
 
-The candidate may remain the primary subject. What changed first is the evidence-facing concern and the claim the note can support; a later approval or execution question may also change the downstream use. Do not report an `EntityOfConcern` change unless one identified claim-bearing episteme has a different entity participant under `C.2.1`.
-Repair the note in one of three ways:
+The candidate and the question about its current risk can both remain the same while new evidence changes the answer. For a request about an earlier date, preserve the finding within its stated evidence window. Reconsider a pending decision if its grounds have changed. An `EntityOfConcern` change arises only when a claim-bearing episteme has a different entity participant under `C.2.1`.
+For the unit and the further work it supports, choose the applicable continuation:
 - stop the current unit at the originally declared evidence boundary and open a new downstream record for the changed question;
-- explicitly reopen the same unit with the revised concern, claim or carried move, permitted use, and outside-work boundary;
+- revise the affected claim in the same unit, retaining the original question and bounds wherever they still apply;
 - or use the downstream decision or work pattern whose instructions now fit once approval, execution, or another downstream decision publication becomes the primary question.
 
 The bulletin and field observation remain sources until a support, evidence, or currentness claim makes `A.10` relevant. Use `C.11` for a later choice, `A.2.9` and `A.2.8.PER` for an approving act and its permission effect, `A.15` for a work claim, and `A.21` only for an actual gate decision.

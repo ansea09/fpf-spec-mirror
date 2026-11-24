@@ -6,12 +6,12 @@ section_id: "C.11.DBR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:4 — Solution"
-line_start: 60362
-line_end: 60418
+line_start: 60393
+line_end: 60449
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -50,7 +50,7 @@ The comparison has three useful outcomes:
 | Finding for the named use | What follows |
 | --- | --- |
 | No material difference | Keep the earlier result for its stated use and conditions. A short reason can complete the answer; no new choice or reconsideration meeting is required. |
-| Material difference | Identify the lost, changed or newly relevant premise and prepare the affected current choice. The observation does not itself select the response. |
+| Material difference | Identify the changed premise. Apply any previously adopted condition that settles the consequence for this use. When a choice remains, identify who can make it and which options remain available. |
 | Comparison unresolved | Name the missing premise, interpretation or alignment and the useful conclusion still available. Consider a smaller answer, an attainable inquiry or a stop through C.11.DUA. |
 
 These are findings about the named use. A large numerical difference can leave a choice intact while a small one crosses its constraint. An unknown cause need not prevent acting on a supported consequence. End an optional investigation for this choice when its attainable answers cannot improve what the recipient can decide or rely on. A separately binding investigation remains due under its governing terms.
@@ -74,7 +74,7 @@ Choose the continuation by what is now missing:
 - Use A.15.7 for a next-action question in ongoing Work. Use the applicable problem-framing or construction Method when the question or means must change before options can be compared.
 - State which decision or authority is missing when only an analyst's recommendation is available. A recommendation can be the useful completed contribution while the authority holder's decision remains outstanding.
 
-The person, controller or authorized body that holds the decision uses the receiving Method. Return its decision to those who depend on it. An analyst who has only made a recommendation can deliver that recommendation now and identify the decision still outstanding. If an overview is needed, cite the decision once made, using the terms of the receiving practice.
+A standing decision may already specify what happens when the changed condition occurs. If its terms apply, report the resulting status and the supporting facts. Where another choice is needed, the person, controller or authorized body that holds it uses the receiving Method. An analyst may deliver a recommendation before that holder decides. Establish the holder’s act when reporting the decision and retain any separate obligation to inform those who depend on it.
 
 #### C.11.DBR:4.5 - Carry the result to its next use and stop
 

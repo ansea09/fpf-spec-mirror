@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
-line_start: 35482
-line_end: 35701
+line_start: 35499
+line_end: 35718
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -103,7 +103,7 @@ PreArticulationCuePack names the publication form defined here; it is not an adm
 - `scope?`
 - `GammaTime?`
 
-`cueNucleus` names what is being kept visible. When several sources contribute, state what unifies their traces, tensions or contrasts into this cue; a collection of unrelated fragments supplies no common nucleus.
+`cueNucleus` names what is being kept visible. When several sources contribute, state what unifies their traces, tensions or contrasts into this cue; a collection of unrelated fragments supplies no common nucleus. Distinguish supplying the observation, recognizing its significance and passing on the cue. Identify the contributions that the requested attribution depends on. A participant’s own response can establish recognition even when the later intermediary is unknown. To credit independent recognition, use grounds from an occasion when the choice of distinction was left to the participant.
 
 When the nucleus is still unclear, try arranging the available material as in [the operator example](#a161131---operator-cue-pack).
 
@@ -175,7 +175,7 @@ The nucleus can emerge from arranging the available material. Put the T17 events
 
 An ordinary incident note can keep that line with the question and the reason for preservation: the different outcomes need to remain visible while their cause and next route are open. T17 is the primary witness. The note preserves this cue without selecting a route or publishing a causal conclusion.
 
-If an existing incident note already carries this content and the source return, use it directly. On separate hand-off, keep the meaning of the cue in the note. A reference can supply further details when the recipient can access the source content and interpret it; otherwise include the details needed for the next use.
+If an existing incident note carries this content and the source return, use it directly. A monitor can supply the timed events, a colleague recognize the contrast, and a trainee preserve what the colleague pointed out. The resulting note can serve the diagnostic question in this arrangement. To credit the trainee with noticing that contrast independently, one needs evidence of the trainee making that choice. When passing the cue on, keep its meaning available. Include the necessary source details when the recipient would be unable to recover them from the reference.
 
 
 #### A.16.1:13.2 - Inquiry cue pack

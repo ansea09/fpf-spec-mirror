@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
-line_start: 126711
-line_end: 126962
+line_start: 126775
+line_end: 127026
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -78,12 +78,12 @@ Semantic synthesis must preserve source-local meanings while returning a positiv
 
 #### F.0.2:4.1 - Bounded synthesis method
 
-1. **Start from the difference the recipient needs explained or decided.** Identify what could have the property, make the choice or undergo the change in question. What must a satisfactory account let this recipient distinguish, and what choices are theirs? A comparison of terms can finish with their meanings. A question about how several parties accomplish a job calls for an account of their contributions to that job. When the question leaves the choice of wholes, parts or model distinctions to you, use :4.1.1 to choose the reach of the comparison.
+1. **Start from the difference the recipient needs explained or decided.** Identify what could have the property, make the choice or undergo the change in question. What must a satisfactory account let this recipient distinguish, and what choices are theirs? If an earlier synthesis already answers that question under the applicable conditions, use it directly. A commission to construct a new account still calls for that work. A comparison of terms can finish with their meanings. A question about how several parties accomplish a job calls for an account of their contributions to that job. When the question leaves the choice of wholes, parts or model distinctions to you, use :4.1.1 to choose the reach of the comparison.
 2. **Locate material for that question.** Reuse known passages that address it. If a source, rival explanation or connecting premise is missing, use F.1 to locate material you can inspect. A source may matter because it connects two other contributions whose meanings are clear.
 3. **Recover and select the claims that matter.** Identify what each source asserts, about which subject and under which interpretation and conditions. Keep the edition and its role in the argument recoverable. Use F.0.1 for a disputed local meaning, and F.9 if the argument needs a specific relation between local senses. Select sufficient grounds for the receiving question, including a consequential rival or limit. Reopen source selection if the comparison reveals a gap.
 4. **Construct and test the account.** For each source, ask which part of the recipient’s question it can answer in its own terms. What grounds allow a conclusion from one account to enter the other? When each source answers a different part, follow its contribution to the point where the recipient needs them together. Try leaving their separate claims true while changing how the described things are connected. If the answer changes, construct a candidate connection. Identify the participants each source distinguishes and propose what would have to hold between them in the same case. Derive its consequence for the recipient. Check the connection against the source conditions and any case that could distinguish it from a competing account. Keep a conditional explanation when the grounds support only that much. If the accounts rival one another, use a difference in their consequences to decide between them where it matters (B.5.TC). Keep the conclusion they share when that already answers the question.
 5. **Give the resulting account.** A provisional synthesis states what the source contributions warrant together and why. A contrast explains a consequential difference that survives the comparison. When a source gap prevents either conclusion, identify the unresolved inquiry and carry forward whatever the available material already establishes.
-6. **Return the result to its intended use.** Show which conclusion the recipient can now draw or qualify and on what grounds. When the work informs construction of a method, identify the operation or condition it changes. For a framework contribution, name the content or placement decision it informs. Keep the source edition recoverable and give the result a stable locator when it will be cited or replayed. C.2.1 governs an explicitly identified claim episteme.
+6. **Return the result to its intended use.** Show which conclusion the recipient can now draw or qualify and on what grounds. If the commission asks who did the synthesis, recover the material each contributor received. Which distinction was already in a source? Who added one or connected claims across sources, and how did that change the inference? A specialist may supply a premise and another reader a connection, or a team may construct the connection together. Attribute only what the work supports at the requested scale. When the work informs construction of a method, identify the operation or condition it changes. For a framework contribution, name the content or placement decision it informs. Keep the source edition recoverable and give the result a stable locator when it will be cited or replayed. C.2.1 governs an explicitly identified claim episteme.
 7. **Decide what to do with the result.** Use the options for its branch in §4.3. When the receiving use requires a record, state the decision and cite the exact result and source edition. A result awaiting the decision remains a proposal; silence or citation alone is not acceptance.
 8. **Keep the source use revisable.** Identify the source claims and editions relied on, why each matters to this result, what was deliberately left local or rejected, and which change reopens the comparison.
 

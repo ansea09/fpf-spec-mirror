@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 78335
-line_end: 78348
+line_start: 78390
+line_end: 78403
 dependencies:
   - "A.10"
   - "A.22"
@@ -49,7 +49,7 @@ keywords:
 | CC-ILC-2 | A conforming use names declared holon levels or declared scopes, not only `level`, `layer`, `scope`, or `scale` prose. | Prevents pseudo-level and pseudo-scope reasoning. |
 | CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Distinguishes a cross-level or cross-scope residual from a conflict confined to the same level and scope or one whose relevant assignment is unknown. |
 | CC-ILC-4 | A conforming use identifies the conflict carriers. For a claimed frustration residual, it states any attempted local repair and its insufficiency, or the reason that such repair would leave the loss unresolved. | Prevents premature synthesis and repeated local fixes. |
-| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without candidate generation. |
+| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. For `acceptBoundedException`, distinguish the proposed next decision from an exception already in force and establish which rule or authorized act supports the claimed status. | Makes the output action-guiding without candidate generation. |
 | CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their subject patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
 | CC-ILC-7 | If a source-return condition is needed, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
 | CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |

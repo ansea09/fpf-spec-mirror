@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:4 — Solution"
-line_start: 125563
-line_end: 125762
+line_start: 125627
+line_end: 125826
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -113,7 +113,7 @@ Missing or stale evidence leaves current obtaining unresolved; it does not prove
 
 Rendering, printing, uploading, indexing, or granting access are activities separate from the publication occurrence.
 
-When a precise performed-Work claim is independently current, recover each actual performer through A.13 and let A.15.1 independently admit the dated Work; add F.6 only when that claim or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independently admitted Work intact.
+When a precise performed-Work claim is independently current, establish under A.13 the System or Systems to which the work is attributed at the stated scale and let A.15.1 independently admit the dated Work; add F.6 only when that claim or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independently admitted Work intact.
 
 Follow A.6.1 for an operation binding, C.11 for a `ChoiceResult`, or the exact access, reliance, or use relation without reproducing its test here. The activity and any result remain separate from the publication-relation participants.
 
@@ -224,7 +224,7 @@ The answers can be jointly positive because they concern different objects or re
 - a representation stands in an identified correspondence to its subject; C.29 governs the mathematical-lens branch;
 - a carrier bears an expression through its actual state or realization;
 - a publication occurrence makes one selected episteme edition available;
-- a system may perform publication activity and may later access or rely on the published episteme, but those are separate claims under their direct patterns; publication availability establishes none of them;
+- availability can fulfil a commission to provide access. Where the terms make authorized publication an operative notification or the act of putting a decision into effect, establish those terms and the qualifying publication. An individual’s actual access, agreement, later use and subsequent Work need grounds appropriate to those claims;
 
 A designator designates and a governed reference resolves to a referent. Neither operation publishes, bears, represents, or makes the subject-side predicate obtain.
 

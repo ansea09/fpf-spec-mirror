@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 114258
-line_end: 114368
+line_start: 114322
+line_end: 114432
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -70,8 +70,8 @@ An eligible replacement for `R_L` must also resolve the catalogue’s designator
 - the `U.ViewpointRef` members and target-kind compatibility claim for each declaration; and
 - only maintenance claims currently needed, using the branch that matches the present claim:
   - for a current maintenance-System claim, cite the admitted maintenance `U.System`; cite a local system-role kind and its independently evaluated classification only when that classification is current;
-  - for actual maintenance Work, recover the actual performer through A.13 and let A.15.1 independently admit the dated `U.Work`. Add F.6 only when the catalogue claim or receiving use expressly relies on precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer. Missing or failed F.6 alone leaves independently admitted Work intact. A short catalogue claim may omit identifiers its bounded use does not need;
-  - for current maintenance responsibility, cite its direct admitted predicate and actual participants or return the missing governor; assignment establishes no responsibility; and
+  - for a claim about actual maintenance Work, use A.15.1 for the dated Work. Apply A.13 to the service that performed it or to the Systems whose respective contributions you attribute. For separate jobs, identify what each accomplished. Add F.6 when attributing a particular contribution to its performer under that performer's obtaining assignment. A comparison of catalogue editions can establish that an entry was corrected even when the editor is unknown;
+  - for current maintenance responsibility, identify the duty, its holder and the applicable grounds. An obtaining assignment and a rule that attaches the duty to its holder can settle the question. Where grounds are missing, state which duty or holder is still unresolved;
   - for prospective maintenance guidance, retain only the change-control note, intended maintenance condition or `U.WorkPlan`, and scope tag; this content asserts no performed Work, current assignment, or responsibility.
 
 The catalogue entry cites these values. Their definitions or constraints come from elsewhere, and the entry creates none of them.
@@ -118,7 +118,7 @@ When you name a family designator for a describing use, resolve catalogue editio
 
 A local subset identifies its source catalogue edition L, family designator, members used and omissions. When the project also asks you to choose a subset for a practical question, use §14.1.
 
-A multi-library use preserves each `<editionDesignator(L), familyDesignator>` source and member provenance rather than flattening everything into one unnamed family. If one use selects several viewpoints, it constructs their C.13 collection with membership. It does not overload one reference or infer a new family from adjacency.
+A multi-library use preserves each `<editionDesignator(L), familyDesignator>` source and member provenance rather than flattening everything into one unnamed family. For a joint reading, resolve the viewpoints separately and establish the connection the question needs. Apply C.13 when claiming membership in a particular collection or identifying its edition. Adjacent entries alone establish no family.
 
 Construction, identity viewing, transformation, declaration membership, selection, naming, rendering, or publication grants neither `U.Viewpoint` nor `U.View` membership.
 
@@ -144,5 +144,5 @@ When form-mediated expression and bearing are claimed, retain E.24.PUB's corresp
 
 Changing a participant or restoring availability after a gap yields another publication occurrence under E.24.PUB; it does not reidentify unchanged L or any member viewpoint.
 
-Rendering, printing, or uploading is separate system-performed `U.Work`. For a diagram or catalogue rendering, recover the correspondence between its elements and independently identified declarations or viewpoint epistemes. Use A.6.3.RT/A.6.3.RT.OE when constructing an expression or changing its representation language or reasoning medium for a particular use. Add C.29 when choosing or using a mathematical representation raises an inference or transfer question. Publication, representation, form, carrier, or rendering grants no viewpoint or view membership and makes no represented world-side relation obtain.
+An existing catalogue or rendering can already serve the reader. If the question concerns its rendering, printing or upload, establish the corresponding `U.Work` from its actual performance. For a diagram or catalogue rendering, recover the correspondence between its elements and independently identified declarations or viewpoint epistemes. Use A.6.3.RT/A.6.3.RT.OE when constructing an expression or changing its representation language or reasoning medium for a particular use. Add C.29 when choosing or using a mathematical representation raises an inference or transfer question. Publication, representation, form, carrier, or rendering grants no viewpoint or view membership and makes no represented world-side relation obtain.
 

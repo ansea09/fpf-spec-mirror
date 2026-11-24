@@ -6,12 +6,12 @@ section_id: "E.11.PUA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__007_bias-annotation.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:6 — Bias-Annotation"
-line_start: 110942
-line_end: 110949
+line_start: 111003
+line_end: 111010
 dependencies:
   - "A.13"
   - "A.15"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.11.PUA:6 - Bias-Annotation
 
-- **Recognition-only bias.** A matching title or trigger word is treated as use. Repair by inspecting the full direct pattern and naming the result or blocker its `Solution` can support.
+- **Recognition-only bias.** A matching title or trigger word is treated as use. Use the Solution and its conditions to work out which result or blocker it supports. Read further where the existing basis leaves that judgement open.
 - **Record-as-result bias.** A candidate form, trace, note, dashboard, or assessment record replaces the subject result. Restore the exact entity or relation occurrence and, when needed, the direct pattern and category-correct basis that make it this use's result.
 - **Plan-as-work bias.** Intended work or a generated plan is reported as performed work. For every precise performer, recover A.13 first and let A.15.1 independently ground the dated occurrence; add F.6 only for a current exact assignment-bound attribution.
 - **Flow-collapse bias.** A selection result, selected-pattern result, and downstream-work result are merged because each is called “result”. Restore the distinct results and the basis for each; name an E.18 crossing only when that crossing is current.

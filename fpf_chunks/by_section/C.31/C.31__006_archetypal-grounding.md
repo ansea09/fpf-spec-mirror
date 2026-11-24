@@ -6,12 +6,12 @@ section_id: "C.31:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:5 — Archetypal Grounding"
-line_start: 79203
-line_end: 79216
+line_start: 79258
+line_end: 79273
 dependencies:
   - "A.10"
   - "A.17"
@@ -48,6 +48,8 @@ keywords:
 Modularity has distinct action-guiding characteristics. Use them to identify the next repair.
 
 A product architecture can have high interface standardization and still poor substitutability. A software-system architecture can reduce external coupling while increasing hidden data custody. A safety-case architecture can reuse evidence while increasing regulatory bespoke residue. Each case needs a different characteristic and a different repair.
+
+Suppose the second field replacement took half as long. That can settle a question about the two recorded durations. The second crew may have found the correct wiring adapter in a prepared kit. For a claim that a technician has learned to select an adapter, establish what they could do previously and how they selected a suitable adapter on a different qualifying job with the help allowed there. A tool can display the candidates while leaving the consequential choice to the technician. A service that can depend on prepared kits may itself have gained a repeatable way to complete replacements even while the technician’s independent selection remains unestablished.
 
 A DSM or dependency graph can substantiate a modularity interpretation, but the graph does not by itself say which dependency kind matters, what scale applies, whether the interpretation is comparable, or what action follows.
 

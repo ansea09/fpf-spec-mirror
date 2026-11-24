@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
-line_start: 58031
-line_end: 58272
+line_start: 58062
+line_end: 58303
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -227,7 +227,7 @@ A kind may classify an already identified W. A kind symbol, work label, plan, or
 | `CC-C32-6` | No world-side collection-belonging claim, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from judgment or extension. |
 | `CC-C32-7` | A separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind. |
 | `CC-C32-8` | Subkind checks compare admissible judgments and use C.3.1's criterion-entailment or exhaustive closed-domain branch; samples only support an assertion. |
-| `CC-C32-9` | Locality change triggers kind-definition comparison. Only independently identified distinct kinds with an obtaining correspondence use C.3.3; receiving judgments remain fresh. |
+| `CC-C32-9` | Locality change triggers kind-definition comparison. Only independently identified distinct kinds with an obtaining correspondence use C.3.3; establish receiving membership under the target definition for the candidate and slice, using an applicable prior judgement when it settles that question. |
 | `CC-C32-10` | The kind carries no scope; the slice is an evaluation input and declaration/assertion scopes stay on their epistemes. |
 | `CC-C32-11` | Physical, episteme/publication, value, schema, unavailable-support, not-applicable, registration-status, and Work cases respect the same architecture. |
 | `CC-C32-12` | Ordinary use stays readable, and declarations or extensions appear only for named receiving uses. |

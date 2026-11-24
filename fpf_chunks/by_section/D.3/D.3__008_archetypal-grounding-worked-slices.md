@@ -6,12 +6,12 @@ section_id: "D.3:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__008_archetypal-grounding-worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:5 — Archetypal Grounding (Worked Slices)"
-line_start: 97292
-line_end: 97322
+line_start: 97349
+line_end: 97379
 dependencies:
   - "A.1"
   - "A.10"
@@ -55,7 +55,7 @@ Next use: D.4 refusal or conditions; C.28 first if the harm claim needs causal s
 
 This description lets the parties begin mediation under D.4. If another reader must cite or revise the note, identify the `InterlevelEthicalConflictDescription` and the decision it concerns, whether to undertake the proposed work in this setting. Cite the proposal for the terms it supplies. The proposal itself becomes the EntityOfConcern when the question is what work it offers or what its terms would require if accepted. For a claim about an existing obligation, establish which terms took effect.
 
-If consulting Work later occurs, use A.13 to identify its performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency or relation detail only when that claim changes the account, using its pattern and preserving its affirmative, negative, conditional or unresolved result.
+If the account relies on a particular consulting Work, use A.13 and A.15.1 to establish that occurrence and its performer at the claimed scale. Evidence of a change affecting residents can already support the conflict description when its individual author is unknown. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency or relation detail only when that claim changes the account, using its pattern and preserving its affirmative, negative, conditional or unresolved result.
 
 If the consulting agreement explicitly excludes deployment decisions, it grants no authority for those decisions. If the agreement's scope is unavailable, leave that authority claim unresolved and identify the missing agreement. D.4 can use either result: a justified denial concerns this agreement, while an unavailable premise leaves a question to settle.
 

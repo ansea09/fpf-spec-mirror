@@ -6,12 +6,12 @@ section_id: "A.15.PROD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 34853
-line_end: 34866
+line_start: 34870
+line_end: 34883
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
 | Every work-caused transformation is production | Modification of a continuing entity is treated as entity creation or completed production. | The repair first recovers work plus actual change and opens only the production question needed by the receiver. |
-| The final visible step created the product | Narrative order substitutes for first satisfaction of the applicable identity-specification episteme. | The repair recovers `identityClosingWork`, actual effects, the specification episteme, its named applicability predicate or filled local claim, and the earliest satisfying boundary. |
+| The final visible step created the product | Narrative order substitutes for first satisfaction of the applicable identity-specification episteme. | Recover the actual contributing Work and effects, the applicable specification episteme and the earliest satisfying boundary. Establish `identityClosingWork` as one occurrence when making that attribution. |
 | Plan or log as production work | Intended or recorded material is treated as the dated occurrence. | The repair recovers A.15.1 work and relates plan, log, and evidence separately. |
 | Shared label as work parthood | Two occurrences called *assembly* are treated as parent and part. | The repair states the A.15.1 work-part relation or keeps the occurrences separate. |
 | Work parts imply transformation parts | Composite work is used as proof of a composite transformation. | The repair keeps transformations independently identified and returns the missing transformation-composition governor when needed. |

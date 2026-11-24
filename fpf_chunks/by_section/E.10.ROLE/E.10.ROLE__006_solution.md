@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:4 — Solution"
-line_start: 108785
-line_end: 108830
+line_start: 108846
+line_end: 108891
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -52,7 +52,7 @@ Use A.6.C **Contract Unpacking for Boundaries** only when its contract-like boun
 | One exact local work-facing system-role kind, or a technical claim that one admitted system counts under it | For kind recovery, use C.3 and A.2 to identify one exact local system-role kind through its candidate domain, membership distinction and continuity rule; a durable local designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`. For a current classification judgment, use A.2 and C.3.2 and keep the admitted candidate system, exact kind, current `KindSignature` edition, context slice, and `true | false | unknown` result recoverable. Kind admission is not the classification judgment. |
 | One obtaining assignment of an admitted system to that kind | Recover one occurrence of an exact direct species under `U.SystemRoleAssignment` through A.2.1. Assignment creates neither system admission, another classification, capability, participation, responsibility, nor Work. |
 | “The system as reviewer” or similar readable designation | Keep the readable actor designation when it carries the needed ordinary claim. Recover exact system identity, a separately obtaining classification, or an assignment only when the receiving claim uses that distinction. Create no `SystemInRole` individual. |
-| Participant meaning or actual participant of a direct relation | Use the pattern for that direct relation. Use `A.6.RSIR` only while the participation or its rule remains unclear. State the participant meaning and actual participant. |
+| Participant meaning or actual participant of a direct relation | Use the pattern for that direct relation. Use `A.6.RSIR` only while the participation or its rule remains unclear. State what participation means. Identify the actual participant when the claim concerns one. A proposed position may still be open. |
 | One place in a declaration, for example a source-named field, argument, result, endpoint, slot, or port | Use A.6.5, A.6.1, or the applicable interface rule for the recovered declaration. Use `A.6.RSIR` only for a remaining ambiguity. Recover the `SlotKind`, `SlotSpec`, argument or result declaration, or interface term that the claim needs. |
 | One position in a representation, for example a tuple component, formula argument, graph endpoint, diagram place, schema field, or call position | Use the pattern for the selected representation; use C.29 for a mathematical-lens correspondence when that use is current. The position is neither participant meaning nor system-role kind. |
 | Another object or relation, for example participation, functioning, capability, Method, Work, obligation, permission, access, authority, responsibility, position, result, or status | Use the direct pattern and relation for that claim. If exact participants are known but no current direct relation closes the use, return the exact `missing-governor` result through A.6.RCD. |

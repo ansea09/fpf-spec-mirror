@@ -6,12 +6,12 @@ section_id: "C.40.PC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:7 — Conformance Checklist"
-line_start: 92403
-line_end: 92416
+line_start: 92460
+line_end: 92473
 dependencies:
   - "A.15.9"
   - "A.2.3"

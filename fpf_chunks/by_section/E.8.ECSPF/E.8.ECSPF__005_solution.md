@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:4 — Solution"
-line_start: 104475
-line_end: 104537
+line_start: 104534
+line_end: 104596
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -43,7 +43,7 @@ When an accepted `A.19.ECS` specification is selected for durable FPF publicatio
    The `PatternID` is enough for ordinary use. Identify an assertion, episteme edition, or `ClaimGraph` only when interpretation, migration, conflict, publication, or reuse depends on that identity. Treat guidance as a `U.Method`, a qualifying `U.MethodDescription`, or a Method use only after its own admission test passes and the current claim needs that identity.
 
    Use `F.19` for ordinary wording repair. When a repair can change an FPF-governed meaning, confirm that the evaluated object and its kind, relation or claim kind, live ontic slot, relation position, use relation, admissible use, and scope remain recoverable before and after the repair, as applicable to the changed claim.
-8. **Keep pattern-quality evaluation separate.** When a pattern-quality conclusion is required, a reviewer uses `E.21` to evaluate that pattern version. A later evaluator uses the guidance published in the pattern to evaluate the declared object kind.
+8. **Keep pattern-quality evaluation separate.** For a pattern-quality conclusion, use an adequate `E.21` result for the exact pattern version, declared use and relevant conditions. Assess what remains open. If the commission asks for a new assessment, carry it out under the specified conditions, including any required independence. A later evaluator uses the guidance published in the pattern to evaluate the declared object kind.
 
    The `E.21` result, corpus-projection evidence, README/ToC/E.11 alignment, retrieval or cold-reader evidence, monolith parity, landing evidence, and developer/reviewer/executor correspondence stay in the quality, review, projection, or release carriers unless the pattern's own `EntityOfConcern` and user-facing action are that evaluation or projection work.
 

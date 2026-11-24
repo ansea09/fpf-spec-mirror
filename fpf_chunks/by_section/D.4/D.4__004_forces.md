@@ -6,12 +6,12 @@ section_id: "D.4:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:1.1 — Forces"
-line_start: 97439
-line_end: 97448
+line_start: 97496
+line_end: 97505
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -39,6 +39,6 @@ keywords:
 | Described conflict vs. premature closure | A conflict description makes action discussable, but does not by itself decide compromise, refusal, or permission. |
 | Evidence demand vs. decision pressure | The decision may be time-sensitive while a claim it relies on still lacks the required support. |
 | Mediation vs. universal authority | D.4 can guide one bounded use of a described conflict, but cannot become a general decision theory. |
-| Residual acceptance vs. hidden harm | Proceeding under residual harm requires a justified decision with the consequential residual, affected parties, authority and responsibility basis recoverable. Include a plan, commitment or reconsideration condition when the decision relies on it; an unresolved required basis leaves that action unsupported. When the account asserts performed work, identify that occurrence and its performer; add assignment attribution when that claim is made. |
+| Residual acceptance vs. hidden harm | Proceeding under residual harm requires a justified decision with the consequential residual, affected parties, authority and responsibility basis recoverable. Include a plan, commitment or reconsideration condition when the decision relies on it; an unresolved required basis leaves that action unsupported. When the account asserts performed work, establish the occurrence and the acting System or Systems at the scale claimed; add assignment attribution when that claim is made. |
 | Mathematical allocation vs. ethical decision | A formula or optimization can inform a decision, but it is not the ethical decision by itself. |
 

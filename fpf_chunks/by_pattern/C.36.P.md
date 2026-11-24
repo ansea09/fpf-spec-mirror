@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
-line_start: 96038
-line_end: 96212
+line_start: 96095
+line_end: 96269
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -172,7 +172,7 @@ The trigger phrases are examples. Recover the intended object, relation, or clai
 | style, tradition, genre, scene, school, or cultural lineage | term row or bridge; Method or Work family; canon or memory episteme; recognition relation; selected set; publication label | F.17, F.18, F.9, C.36, A.3.1, C.20, C.18, G.5, E.17, or E.24.PUB |
 | practice, technique, developmental machinery | Method or MethodDescription; relations among Methods or a selected Structure of them; WorkPlan or dated Work; direct participation; local system-role kind or classification; assignment species or occurrence; relation between system-role kinds; bounded model-use structure or one of its direct relations; discipline position; evidence-use claim; quote-only wording | A.3.1, A.3.2, A.13, A.15.1, A.15.2, F.6, E.10.ROLE, A.2, A.2.1, A.2.7, A.1.1, A.10, C.20, or C.23 |
 | platform, platform regime, measurement regime | mediating System or architecture; recognition, selection, measurement, visibility, publication, source-currentness, or direct model-use relation; bounded model-use structure; claim scope; ordinary project label | A.1, A.1.1, C.30, C.16, A.19, E.17, E.24.PUB, G.11, or C.36 |
-| adopted, passed on, took hold | authorized decision, observed first use, use obtained from a particular source, or repeated practice in a stated population and interval | C.36, C.36.MC, the governing practice or the project decision record |
+| adopted, passed on, took hold | authorized decision, delivery or receipt of material, acquisition or retention by a recipient, observed first use, use traced to a source, or repeated practice in a stated population and interval | C.36, C.36.MC, the governing practice or the project decision record |
 | MHT, level, boundary, feedback down, model-use or scope reframe, frustration, interlevel conflict | relative level of model abstraction or refinement; population or period; new holon or level; whole reidentification; System boundary; relation crossing a holon boundary; supervisor-subholon feedback; bounded model use or claim scope; cross-scope residual; mathematical-lens use; interlevel ethical conflict | B.5.MR, C.36, A.1, A.1.1, B.2.P, B.2, B.2.2, B.2.3, B.2.4, B.2.5, C.30.ILC, C.29, D.2, D.3, or D.4 |
 | attractor, basin, stable style | loose style term or a dynamics, temporal, or mathematical-lens claim | F.17, F.18, F.9, A.3.3, C.27, C.29, or C.36 |
 | archive, front, Q-front, current pool, portfolio, retained set | archive or front relation; pool-policy result; selected-set result declaration; publication relation; refresh relation | C.18, C.19, G.5, E.17, E.24.PUB, G.11, or E.18.1 |

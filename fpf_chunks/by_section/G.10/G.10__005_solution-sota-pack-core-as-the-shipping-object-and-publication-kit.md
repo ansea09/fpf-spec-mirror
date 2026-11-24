@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 141108
-line_end: 141391
+line_start: 141172
+line_end: 141455
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -209,12 +209,12 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 Work backwards from what the recipient has to do with the shipment. To replay a selection, the recipient needs the records that governed that selection. To decide a new case using the same method, the recipient needs the rule, its conditions and a way to obtain the inputs that can change in the new case. A past shortlist with every entry traceable can meet the first commission while leaving the second open. Reuse one source for both when it supplies both. If several users rely on a joint result, carry the relation that allows their contributions to be used together. Deliver a separate source directly when that is all the recipient needs. For a pack, preserve the cited definitions as follows:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
-2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** listing the methods, mechanisms and policies used to obtain them, with the edition of each (ids only; semantics stay with governing definitions).
+2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** with the applicable method, mechanism and policy ids and editions supported by the record. For an agreed set, cite the basis on which its members were included. A decision can establish the membership even when its proposer is unknown. Identify any missing execution or policy evidence that the recipient needs for a requested replay. Keep semantics with the governing definitions.
 3. **S‑3 — Publish the selection/parity roster.** Give the selector a `PortfolioRosterId` with the parity and definition pins needed for reproducibility. No format is prescribed. An inputs-only pack may omit the roster under §4.2.1.
 4. **S‑4 — Anchor and publish path citations.** Ensure A.10 anchors exist and publish/record `PathId/PathSliceId` citations required for downstream explainability (e.g., the `C.23` W2 `AdmissibilityLedger`) and maturity rung changes.
 5. **S‑5 — Expose CrossingBundle.** For each GateCrossing relevant to the shipped artefacts, expose the required `CrossingBundle` references (fail fast on missing or non‑conformant bundles when required).
 6. **S‑6 — Emit telemetry pins for refresh planning.** Whenever illumination increases or archive/OEE pin state changes, emit PathSlice‑keyed telemetry with policy‑id and the active `…Ref.edition` pins (and QD `EmitterPolicyRef`/`InsertionPolicyRef` when applicable).
-7. **S‑7 — Publish to UTS (twin labels).** Mint/refresh UTS Name Cards needed to cite the pack and shipped heads (Tech/Plain twins when required); a claimed cross-context semantic correspondence cites its F.9 relation, separate bounded-use claim and reliance. G.7 calibration and loss notes remain evidence for that use, not identity or permission.
+7. **S‑7 — Publish to UTS (twin labels).** Mint/refresh UTS Name Cards needed to cite the pack and shipped heads (Tech/Plain twins when required); a claimed cross-context semantic correspondence cites its F.9 relation, separate bounded-use claim and reliance. G.7 calibration and loss notes support that bounded use. A commission to prepare the pack can finish with the prepared edition. To issue it, establish who may release it, perform the applicable E.24.PUB publication and verify that its intended audience can obtain that edition. Receipt or use by a particular partner needs evidence for that further claim.
 8. **S‑8 — Optional: ingest interop surface.** If `G.13` interop is in use, ingest/cite `InteropSurface@Context` as annotation-only notes, pinning external index editions; do not redefine interop semantics.
 
 #### G.10:4.4 - Interfaces & hooks (selector‑ and audit‑facing)

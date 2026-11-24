@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:1 — Problem frame"
-line_start: 19452
-line_end: 19485
+line_start: 19465
+line_end: 19498
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 
 Use this pattern when changing the representation language or the reasoning medium helps someone inspect, compare or calculate using the same material. A table shown in time order and the same table aligned by component can use one language while supporting different comparisons. Exporting the chosen table to another file can leave both the language and the reasoning medium unchanged.
 
-Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. Construct the target representation in the chosen medium. Compare it with the source and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
+Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. If a target representation already exists, check it against that use. Retain sufficient content and choices, and construct or revise what the commission calls for. Compare the target with the source and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
 
 Plain starting vocabulary:
 
@@ -67,7 +67,7 @@ Plain starting vocabulary:
 | `use and return` | What the target supports, what it does not support, and when and where to return to source material. |
 | `representation worker` | The person, team or system doing the conversion. A dated Work claim follows A.13 and independent A.15.1 admission; use F.6 only when precise assignment-bound attribution matters. Doing the conversion grants no authority over the represented claims. |
 
-**First useful move.** Name the content that must survive and the intended user action, choose the representation, make it, and compare it with the source. State the material preservation, loss and use conditions in a compact note. Add a rejected use or return condition only when it changes what the reader should do.
+**First useful move.** Identify the operation the user needs and the content it depends on. For a supplied target representation, compare it with its source for that operation. Choose or construct a representation when that decision or construction is part of the commission. State the material preservation, loss and conditions of use. Add a rejected use or return condition when it changes what the reader should do.
 
 **What goes wrong if missed.** A cleaner table, diagram, notation, or decoded rendering is treated as harmless formatting after it has hidden uncertainty, changed the concern, imported a new relation, weakened recoverability, or invited a stronger action than the source supports.
 

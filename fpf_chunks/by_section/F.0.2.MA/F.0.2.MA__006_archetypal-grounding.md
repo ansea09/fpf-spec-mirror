@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:5 — Archetypal Grounding"
-line_start: 127036
-line_end: 127064
+line_start: 127100
+line_end: 127128
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -33,7 +33,7 @@ In this constructed case, a Method engineer is preparing guidance for reusing an
 - Paper L, edition 1, §2, says that reuse also depends on the same reviewed claims, question and qualification window.
 - Returned account W, version 2, reports a team that reused a review after shortening a warning. It retains two rival explanations: the warning was redundant, or the team missed an important condition.
 
-The documentary dossier preserves H and L separately. W remains candidate evidence. Current A.3.1.CC already supplies the coherence check and owner-specific correction; A.3.1.MV distinguishes a description change from changed reusable Method semantics.
+The documentary dossier preserves H and L separately. If W records a witness who saw the team reuse the review, that testimony bears on reuse. A later paraphrase of the same testimony adds no independent witness. Whether shortening the warning preserved the required grounds remains a separate question under either account. Current A.3.1.CC already supplies the coherence check and owner-specific correction; A.3.1.MV distinguishes a description change from changed reusable Method semantics.
 
 The engineer's allocation is:
 

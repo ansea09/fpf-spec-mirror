@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 121666
-line_end: 121900
+line_start: 121730
+line_end: 121964
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -204,9 +204,9 @@ The WorkPlan states the planned fillers. Enactment supplies witnesses for the ac
 For a method, comparator, selector or other SoTA-sensitive choice, retain the relevant source contributions and the editions used. A sufficient direct source reference can support the choice.
 
 1. Use a G.2 synthesis pack when the receiving synthesis or Part-G use needs that result. Its handoffs reach the subject definitions used for the choice: G.3 for CHR, G.4 for CAL and G.5 for registry/dispatch. The pack preserves grounds and references; those definitions and admission conditions remain applicable.
-2. If a WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values. It must not override those values without making the change visible.
+2. If a WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; the executing System consumes the values fixed by the plan. Record a change to such a value under the applicable change rule.
 3. When flow/task binding or dispatch is current, put that logic in wiring modules (`GPatternExtension`) with an explicit `PatternScopeId` and declared subject pattern.
-4. Wiring may bind, select, dispatch or cite method packs. It may not redefine the mechanism's identity-bearing A.6.1 content. When wiring names a bridge, realization, evaluation, evidence-use or publication claim, apply the pattern governing that relation.
+4. A wiring rule can specify how to bind, select, dispatch or cite a method pack. The executing System can use a value fixed in the plan. When attribution matters, establish who made that choice or which binding rule settled it. The planner may have recorded a choice made by the requester. For a choice left open, identify the alternatives available at the time and which participant or participants selected the method. The wiring rule may not redefine the mechanism's identity-bearing A.6.1 content. When wiring names a bridge, realization, evaluation, evidence-use or publication claim, apply the pattern governing that relation.
 5. If a source update changes the mechanism's signature or laws, the author SHALL change the mechanism-subject pattern under the A.6.1 definition template and SHALL emit the affected RSCR triggers under E.20:4.10.
 
 #### E.20:4.9 - Step 9: Terminology continuity (alias docking)

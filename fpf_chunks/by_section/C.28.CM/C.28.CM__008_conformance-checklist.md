@@ -6,12 +6,12 @@ section_id: "C.28.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:7 — Conformance Checklist"
-line_start: 72145
-line_end: 72155
+line_start: 72192
+line_end: 72202
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -34,5 +34,5 @@ keywords:
 - The graph or equation class supports the rule used; DAG path inspection covers all relevant paths and conditioning, including selection.
 - A consequence follows from named premises, or the missing premise is returned.
 - Compatibility, contradiction and absent discrimination retain different meanings.
-- The returned use distinguishes recognition, model consequence, evidential support and action choice.
+- The returned use distinguishes recognition, model consequence, evidential support and action choice. A test offered as feasible has an available way to perform it and obtain the discriminating observation under the stated conditions.
 

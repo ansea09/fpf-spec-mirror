@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.B.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
-line_start: 15157
-line_end: 16043
+line_start: 15170
+line_end: 16056
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -228,7 +228,7 @@ EntityOfConcern need not itself be a description and may be Work.
 
 **Applicability and admissibility.** Signature `Applicability` scopes intended use and bounded context; a mechanism's runtime entry predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If prose says “clients must satisfy the applicability”, first recover whether it means the declared scope or an entry condition. State the generic `D-*` prescription, or the independently instituted individual duty, separately and reference the condition it requires. Classify that condition as `A-*` only when it is an entry predicate.
 
-**Adjudication.** Inspect the declared entry rule and its inputs to establish the A claim. Evaluate that predicate at the named action's entry or stated application point to obtain a particular satisfaction or gate-decision result; report that result separately in E.
+**Adjudication.** Inspect the declared entry rule and its inputs to establish the A claim. Evaluating that predicate establishes whether the condition holds for the named action or application. To report an entry decision in E, establish the result of the applicable decision rule for that action and window. The predicate evaluation can suffice when the rule makes it the decision.
 
 **Canonical form.** Predicate style, e.g.:
 

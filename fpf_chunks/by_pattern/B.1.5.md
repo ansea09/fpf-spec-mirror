@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
-line_start: 43931
-line_end: 44395
+line_start: 43950
+line_end: 44420
 dependencies:
   - "A.1"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 
 ### B.1.5:1 - Problem Frame
 
-Use this pattern when the question is whether identified Methods constitute one reusable Method. Their contributions may depend on order, guards, joins, shared constraints or simply satisfying distinct requirements of the whole. If the recipient must devise the arrangement, begin with B.1.5.CM and use the qualification below on the resulting proposal.
+Use this pattern when you need to decide whether identified Methods constitute one reusable Method, or to find which larger Methods, if any, include a known operation. Their contributions may depend on order, guards, joins, shared constraints or satisfying distinct requirements of the whole. If the recipient must devise the arrangement, begin with B.1.5.CM and use the qualification below on the resulting proposal.
 
 Typical moments:
 
@@ -198,6 +198,10 @@ One `methodPartOf` occurrence is determined by the ordered pair `<part Method, w
 If the construction rule changes so that a part is newly admitted or no longer admitted, the composite Method must be reidentified or the claim remains unresolved; reidentifying either participant gives another pair. This is why the participant pair is sufficient for the family defined in B.1.5 even when enactments vary.
 
 The same part Method may also stand in `methodPartOf` relations to several whole Methods. Test every pair against the construction rule of its whole. Each whole keeps its reusable action, applicability, boundary, constraints, interfaces, accepted variations, and reidentification rule. One supported pair says nothing about another and creates no unique containing Method, discipline-wide whole, kind inheritance, transitivity, fusion, or common-whole closure.
+
+**From a known operation to its possible wholes.** Find which larger tasks use or require the operation and what it contributes to them. An instruction can require it before the first run. A service can call it under a standing rule. Examine the rule, ask a practitioner or trace how a result was obtained. An observed performance can suggest a candidate whole. Its stable rule can establish an inclusion even before the first performance. For each candidate, ask what contribution its reusable action requires and whether this operation is required or admitted for that contribution. A recipient who can take a result already in hand may use the result with no requirement to perform the operation that produced it.
+
+Work back from the uses relevant to the decision. For each established inclusion, what does the larger Method require the part to preserve? An external user can also require a result with particular properties, and a proposed whole can impose design constraints before anyone uses it. Preserve the basis of each requirement when deciding how the operation should work and which choices remain open. A common operation may meet all those requirements. Incompatible requirements may call for different variants or a change to an encompassing Method. B.1.5.CM helps construct a workable combination, and B.1.5.RS compares a proposed replacement across its affected uses. If nobody knows how to obtain the required contribution, C.39 helps develop a way. If the way is understood, find out whether the next performer needs its description, access to a suitable implement or coordination with another participant. C.32.MWA.PP develops the performance arrangement when that is the task. Return a resulting constraint to each use it affects. For an inquiry confined to whether one Method includes another, the construction rule can settle the question.
 
 A source label, list membership, diagram containment, shared name, registry entry, description membership, plan position, or work decomposition does not make `methodPartOf` obtain. When the test fails, keep the apparent step under its subject pattern and do not add a negative part merely to complete a diagram.
 
@@ -373,6 +377,8 @@ If several pump-family uses need the same parameterized rule, A.6.RCD can identi
 The composite qualification additionally requires the candidate's generic participants, applicability, preconditions, accepted inputs, final effect, preserved conditions, exposed start and abort interactions, encapsulated calibration interaction, failure routes, and reidentification rule. A list of the five names or an arrow diagram establishes none of these facts.
 
 `PumpUnitBuildWork-2026-07-29` may enact the whole through one `enactsMethod` occurrence without four corresponding work parts. If a separately admitted `MotorInstallationWorkPart-2026-07-29` exists, it enacts `InstallMotor` only through its `enactsMethod` occurrence. Resource use, test telemetry, the produced pump unit, acceptance, and evidence remain under their subject patterns.
+
+Start instead from the bench operator's functional test. Which procedures need the operator to run it? The build instructions require the test before release. Suppose the repair manual admits the same test to demonstrate restored service. Its acceptance decision uses the time to reach the required flow as well as the flow subsequently sustained. A warranty desk that accepts a copy of the certificate can use that result without running the test. The first two procedures give reasons to examine the test's design. If its record contains elapsed time and steady flow, each can derive the result it needs. Keeping only the factory's steady-flow pass mark would leave the repair decision open. If the bench cannot measure the elapsed time, the repair decision still needs a timing observation. The repair team must obtain a suitable measurement or choose another admitted test.
 
 #### B.1.5:5.2 - Emergency Intake
 

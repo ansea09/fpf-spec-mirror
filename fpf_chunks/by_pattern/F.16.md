@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.16.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
-line_start: 132852
-line_end: 133146
+line_start: 132916
+line_end: 133210
 dependencies:
   - "A.10"
   - "A.15"
@@ -133,7 +133,7 @@ A useful worked example is a compact case with nine visible parts:
 
 8. **Optional comparison surface.** If two or more local meanings or source claims are hard to compare in prose, add one compact F.7 table. State the receiving-use conclusion separately. Omit the table when it adds ceremony but no clarity.
 
-9. **Micro-narrative and checks.** Walk from the working situation through the relations to the result. For a transferable method, show which of its decisions the example illustrates. When the page teaches a choice of scope or model, show how the commission leads the explainer to choose the relevant wholes, parts and distinctions in the model (C.39.SA). If the reader is to make such a choice, give them the problem with that choice still available. Distinguish what they justified from what the task, diagram or helper supplied (E.8:4.2.1.3). A prior independent performance may suffice. End with the subject checks that let the reader replay the claim. Add a non-use boundary when F.19 justifies it, and F.15 when a finite naming slice needs its checks.
+9. **Micro-narrative and checks.** Walk from the working situation through the relations to the result. For a transferable method, show which of its decisions the example illustrates. When the page teaches a choice of scope or model, show how the commission leads the explainer to choose the relevant wholes, parts and distinctions in the model (C.39.SA). If the reader is to make such a choice, give them the problem with that choice still available. Distinguish what they justified from what the task, diagram or helper supplied (E.8:4.2.1.3). A prior independent performance under applicable conditions may already establish what the reader can do. An expressly assigned fresh attempt still needs its own performance. End with the subject checks that let the reader replay the claim. Add a non-use boundary when F.19 justifies it, and F.15 when a finite naming slice needs its checks.
 
 **When a case needs several pages.** Keep the decision the reader came to make. A request about one case can finish with its supported answer. If one method is meant to work across a range, identify the conditions and the operation that remain valid as case values change. A derivation for arbitrary admissible inputs may fit on one page. If several pages establish results about different parts, kinds of holons or model abstraction levels, show where those results enter the same decision and why they hold together. Check shared inputs, handovers or other dependencies that can change it. A claim about each member, a claim about a relation between members and a claim about the whole can require different grounds (C.39.QR and C.37.MM). If the working example has displaced the argument for the range, use C.39.GA to recover and repair that argument.
 
@@ -313,7 +313,7 @@ Cite the MethodDescription edition only if it changes the result or replay, and 
 3. **Replace cell subjects.** Name actual kinds, Systems, Work, claims, observations, values, and evidence; leave cells as optional wording addresses.
 4. **Split generic Bridges.** Restore MethodDescription membership, description use, enactment, performed-Work, measurement, evidence, reliance, fulfilment, kind, assignment, publication, or transformation claims as applicable. Add an indicator relation only when a defining or testing pattern supplies it; otherwise retain the blocker.
 5. **Repair trigger words.** Recover what *role*, *function*, *process*, *service*, or *context* denotes in each sentence before rewriting it.
-6. **Keep the gain.** After every ontological repair, reread the page as a cold practitioner and simplify any wording that became harder without gaining precision.
+6. **Keep the gain.** Reread the repaired passage for the intended practitioner. Simplify wording that became harder without adding precision. When the conclusion depends on what an unbriefed reader recognizes, use an applicable reading by someone who did not receive the intended answer, or obtain one under those conditions.
 
 ### F.16:16 - Teaching variants
 

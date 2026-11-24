@@ -6,12 +6,12 @@ section_id: "A.16.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:1 — Problem frame"
-line_start: 35202
-line_end: 35208
+line_start: 35219
+line_end: 35225
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,7 +43,7 @@ keywords:
 ---
 
 ### A.16.0:1 - Problem frame
-In engineering, inquiry, operator, and management practice, teams sometimes need more than a local move note. When branch structure, supersession, retirement, bridge-sensitive loss, a multi-step change in the applicable rule, or an actual responsibility handoff whose legitimacy depends on upstream history matters, readers need one place that identifies the episteme editions, publication forms, and links involved.
+A later use can depend on a branch, supersession, retirement, loss at a bridge, or a change of rule across several moves. The same history may determine who still held responsibility when the edition changed hands. Identify the editions, publication forms and links needed to answer the question.
 
 Cue packs, routed cue sets, abductive prompts, typed route-bounded projection forms, partial normal forms, and endpoint-bound records may appear in that history as publication forms or published records. They are not the disturbances, telemetry traces, model outputs, bodily tensions, or carrier documents that ground it.
 

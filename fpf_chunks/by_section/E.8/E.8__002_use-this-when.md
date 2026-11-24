@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 103127
-line_end: 103228
+line_start: 103186
+line_end: 103287
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -131,7 +131,7 @@ Call the pattern content a `U.MethodDescription` only when it describes one inde
 
 A `Solution` can guide future action or help choose a Method without establishing that any dated Work has happened. The intended reader, an actual performer System, local system-role classification, assignment, capability, responsibility, authority, result, and Transformation remain separate whenever those claims are current.
 
-When a pattern or worked case does assert dated `U.Work`, first recover every actual performer's A.13 core: the admitted `U.System`, local agential kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence. Add a characteristic profile only when its own receiving use consumes it.
+When a pattern or worked case does assert dated `U.Work`, identify the actual performer Systems at the scale of the Work being claimed. A library service can carry out a retrieval as a whole. To attribute a particular selection or check to a member of that service, establish that member’s action. For each performer named by the claim, recover the A.13 core, including its admitted `U.System`, local agential kind and criterion, classification, obtaining assignment, scope, working situation, window and adequate evidence. Add a characteristic profile only when its own receiving use consumes it.
 
 Then independently admit the Work under A.15.1 from its performance history, enacted Method, time, and containing System. Add F.6 afterward only when the pattern also needs precise assignment-bound attribution through that same assignment.
 

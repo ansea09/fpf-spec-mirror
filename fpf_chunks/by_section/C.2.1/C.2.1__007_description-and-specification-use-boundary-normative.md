@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Description and specification-use boundary  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_description-and-specification-use-boundary-normative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:6 — Description and specification-use boundary  (normative)"
-line_start: 54252
-line_end: 54281
+line_start: 54283
+line_end: 54312
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,7 +53,7 @@ For specification use, recover all applicable conditions:
 3. a named harness, validation, conformance, measurement, or evaluation relation capable of checking those claims for the stated use;
 4. when viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
 
-Declared formality, notation discipline, comparators, tolerances, and measurement rules are named when the claims depend on them. They do not substitute for the checkable claims or the harness. If the conditions are absent, call the episteme a description and present proposed criteria as proposals; a `Spec` suffix, schema, signature, approval, or publication does not supply specification force.
+State the notation, comparators, tolerances and measurement rules the check depends on. The specification can be tried against a proposed criterion before anyone adopts it. For a claim that the criterion governs this party’s acceptance decision, establish the applicable agreement, rule or authorized decision and its scope. A signature or publication can establish adoption where the governing rule gives it that effect. The claims and means to check them still determine what can be tested.
 
 Specification use does not create another episteme identity. A revision that changes ClaimGraph, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1; a changed harness, evaluation result, publication, or relying use changes its own neighboring object or relation.
 

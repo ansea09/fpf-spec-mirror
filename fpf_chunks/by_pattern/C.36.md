@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-line_start: 85717
-line_end: 86188
+line_start: 85774
+line_end: 86245
 dependencies:
   - "A.1"
   - "A.10"
@@ -89,7 +89,7 @@ The practitioner gets one small statement of the cultural relations now supporte
 
 #### C.36:1.3 - First useful move
 
-State what someone needs to decide about the practice. A school choosing whether to keep an archive for its next class can use evidence that a teacher and learners retrieved a variant and performed it under the conditions that class will have. To credit a teacher with transmitting a specific change, establish what the learners received from that teacher and what they subsequently used. To estimate how widely the change spread, identify the eligible classes and how their use was observed. Use the smallest of these inquiries that answers the decision.
+State what someone needs to decide about the practice. A school choosing whether to keep an archive for its next class can use evidence that a teacher and learners retrieved a variant and performed it under the conditions that class will have. If the teacher was to pass on an amended score, establish that the learners received that amendment from the teacher. A claim about what they learned requires evidence of the retained distinction or capability. To credit the teacher with a change in later playing, trace what the learners used in that performance to what the teacher supplied. To estimate how widely the change spread, identify the eligible classes and how their use was observed. Use the smallest of these inquiries that answers the decision.
 
 When a card helps retain or share the result, use:
 
@@ -187,7 +187,7 @@ Ask what would count as the change for the decision at hand. A decision to adopt
 
 For continuation through a change of participants, identify the operation or result that must persist and the variation the receiving use allows. Work through the occasions for which the practice is to remain possible. Check which permissions, capabilities and material the successors can use, which must be renewed, and whether earlier work leaves them available in time. The same participants need to remain involved only if that is part of the claim or a necessary condition. To report past continuation, establish the occurrences and links that the stated criterion requires.
 
-To trace transmission, identify the operation or choice that a recipient retains, the source they obtained it from, and its use in their own work. Decide what may vary across performances while preserving that operation. To establish transmission from a particular source, identify something that links the receiving work to that source. One well-documented handoff can suffice. Similar performances can also come from separate invention or a common third source. A work record can identify an immediate teacher, peer or publication while leaving the first inventor unknown. Seek that earlier history when the claim depends on it. Evidence of use may already suffice to continue the practice.
+To trace transmission, identify what was to pass from the source to the recipient and what would establish the outcome in question. A receiving archive can confirm delivery of an amended part before an ensemble plays it. For a claim about a practice, establish the distinction or operation acquired, retained or put to use as the claim requires. Decide what may vary while it remains that practice. Link the relevant outcome to the claimed source. One documented handoff can settle a question about receipt. Similar performances can also arise from separate invention or a common third source. The evidence may identify an immediate teacher, peer or publication while leaving the first inventor unknown. Seek that earlier history when the question depends on it.
 
 For a claim about a group, specify the unit, period and criterion for use. Count plays as play events. For a count of people or teams, establish how many distinct recipients or users meet the criterion. If estimating a proportion from a sample, explain how the observations represent the population and how much uncertainty matters to the decision. Date the work as well as the arrival of its evidence. A growing file of confirmations may document earlier uses. When a network expands, the number of users can rise while the proportion using the method stays the same. For a claim about continuing members, compare their opportunity and use across the periods. Linked records can establish individual histories. Counts and known entries or departures can also settle a question about the group. If seven ensembles in all were eligible across two seasons and five distinct ensembles performed in each, at least three performed in both. A claim about one named ensemble, or about who transmitted the practice to whom, needs evidence of that particular connection.
 
@@ -248,7 +248,7 @@ Keep proposal and performance separate. The full card below is an assurance expa
 
 Open its Work, assignment, transformation, effect, architecture, and publication fields only when those identities matter. `AffectedMediationSystemOrArchitectureRefs` names actual mediating Systems or architectures only. Publication refs name only the objects needed by the intervention; omit them otherwise. Actual access, reliance, use, and Work stay outside this field unless separately at issue.
 
-If actual performance is claimed, recover each performer through A.13 and let A.15.1 independently admit the `U.Work`. Add assignment refs and F.6 when the card or receiving use represents precise assignment-bound attribution. Required A.13 assignments still underlie actual Work; missing or failed F.6 attribution alone leaves independently admitted Work intact while its independent A.13/A.15.1 grounds still hold.
+When the account identifies a particular intervention as `U.Work`, establish the A.13 basis for each claimed performer and admit the occurrence under A.15.1. An assertion of precise assignment-bound attribution also requires the relevant assignment and F.6 grounds. For a report on how many classes received an intervention, delivery evidence covering the relevant classes may suffice while individual operators remain unidentified. To report use in those classes, establish use at the claimed scale.
 
 Add actual change and a Work-to-change relation only when each independently obtains. An effect can obtain without manufacturing a performer, assignment, or Work.
 

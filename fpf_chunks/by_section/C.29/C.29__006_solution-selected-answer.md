@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 72477
-line_end: 73152
+line_start: 72524
+line_end: 73199
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 
 #### C.29:4.1 - Construct and test the correspondence
 
-1. **Recover the work the mathematics must support.** What was requested, who is to do it, and which choices were left to them? Establish what counts as the required result, under which conditions, over what period and with what precision. If plausible interpretations give different answers, use their conditions to distinguish the answers or establish which interpretation governs the work. An explanation needs a derivation connecting the premises to the outcome. To construct a way of working, supply operations people can perform and show how their results fit together. For a particular execution, use or obtain the result of that execution. To keep a service working as conditions change, determine which property must continue to hold and what those responsible can observe and do in time. Identify the mathematical contribution that the work still needs.
+1. **Recover the work the mathematics must support.** What was requested, who is to do it, and which choices were left to them? Establish what counts as the required result, under which conditions, over what period and with what precision. If plausible interpretations give different answers, use their conditions to distinguish the answers or establish which interpretation governs the work. An explanation needs a derivation connecting the premises to the outcome. To construct a way of working, establish who or what can perform the operations and how the results fit together. A controller can calculate a command using a scale that a technician has checked on the instrument. The calculation can guide the action when the scale applies to that controller and instrument. For a particular execution, use or obtain the result of that execution. To keep a service working as conditions change, determine which property must continue to hold and what those responsible can observe and do in time. Identify the mathematical contribution that the work still needs.
 2. **Construct a representation for that use.** Start with the relation or law that could supply the result. When the answer depends on composition, hold a part fixed and vary how the whole uses it. Then hold the reported whole fixed and vary how its parts produced it. Which variation could change the required result or the grounds for explaining it? Follow each relevant kind through its own constituents. The stages specified by a method, the operations performed on one job and the records of those operations can have different compositions. Connect them by the relations the work requires. Ask whether the question concerns what holds for each constituent, how one affects another or what they produce together. At each relevant scale, keep distinctions on which that use depends. Try treating the remaining cases alike and work the proposed inference. Restore a distinction if cases so grouped require incompatible results or different grounds the recipient needs. Across different models for the same inquiry, identify the alternatives each admits and which conclusion transfers in which direction. Stop when the correspondence supports the work. C.39.SA develops this choice when the range is open. Several representations can suffice. If a mathematical object is still missing, retain the candidate and the next useful construction or observation.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
 4. **Determine what the correspondence preserves, omits or introduces.** Identify the structure on which the intended result relies and any omitted distinction that could change it. Establish the preservation claimed for the needed operations. If the receiving domain adds objects or operations, determine which of their results answer the source question. C.29.1 constructs these comparisons, including cases with no loss of source distinctions and cases where a receiving solution has no source counterpart.

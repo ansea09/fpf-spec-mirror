@@ -6,12 +6,12 @@ section_id: "E.10.INT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:5 — Archetypal Grounding"
-line_start: 107572
-line_end: 107601
+line_start: 107633
+line_end: 107662
 dependencies:
   - "C.11"
   - "C.16"
@@ -51,7 +51,7 @@ These cases permit different choices: improving a known performance measure and 
 
 A workshop needs music for listeners who are familiar with 4/4 and are beginning to work with 7/8. “Choose moderately complex rhythms; they are the most interesting” hides both the response sought and the listeners' preparation.
 
-Ask the facilitator what the material should help these listeners do and whose response matters. Suppose the workshop aims to help them maintain the beat and enjoy moving in 7/8. The facilitator can start with simpler 7/8 material and adjust after observing the group. A workshop for a skilled drummer’s coordination needs a different basis for choosing the material.
+Ask the facilitator what the material should help these listeners do and whose response matters. Suppose the workshop aims to help them maintain the beat and enjoy moving in 7/8. The facilitator can begin with simpler 7/8 material. Observe whether these listeners keep the beat. For their enjoyment, use their own responses or other grounds that support a claim about that experience. A particular listener’s fresh response is needed if the commission calls for it. A workshop for a skilled drummer’s coordination needs a different basis for choosing the material.
 
 Spiech and colleagues found that Western listeners' groove ratings peaked at moderate complexity in 4/4, while simpler rhythms received the highest ratings in the less common meters tested. Here *groove* means the pleasurable urge to move. The study supports adapting the comparison to listener and meter. The workshop's teaching method supplies the exercise.
 

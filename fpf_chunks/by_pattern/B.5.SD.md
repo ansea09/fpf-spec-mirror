@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.SD.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
-line_start: 53198
-line_end: 53401
+line_start: 53223
+line_end: 53426
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -82,7 +82,7 @@ Begin with the objects, claims and conditions the answer concerns. Recover ambig
 
 Then connect the claims. Use B.5.RA:4.4a to recover an argument implicit in prose or dialogue, or to examine an already clear argument and the support an objection challenges. For each important conclusion, ask what supplies its ground and what relation permits the next inference. For a proposed action, ask how its contributions produce the receiving result. Trace dependencies in both directions: from the result to what it needs, and from a supplied finding to what it warrants.
 
-In a multi-component system, distinguish the claim that each component works from the claim that they work together. Recover interfaces, interactions, loads and shared conditions that can defeat composition. In an organizational proposal, distinguish one participant's spare time from joint availability at the moment of handover. In a learning design, distinguish exposure to instruction from the operation the learner will later perform.
+In a multi-component system, distinguish the claim that each component works from the claim that they work together. Recover interfaces, interactions, loads and shared conditions that can defeat composition. For a proposed joint service, establish when the needed contributions can coincide. When the group is asked to commit to that service, also establish whose undertaking or scheduling authority can secure those contributions. In a learning design, distinguish exposure to instruction from the operation the learner will later perform.
 
 Use the form best suited to the subject: a calculation, diagram, connected prose, prototype, table with explained relations or another working product. Choose a form that exposes the reasoning. A canvas or checklist can also help notice an omitted concern.
 
@@ -144,9 +144,9 @@ Suppose instead that a C6 result had established the required joint behaviour. A
 
 Independent practitioners are writing an article to help volunteer coordinators choose a model for staffing decisions. One proposes adding the hours each volunteer offers. Another objects that a total can hide who is available together. The group needs a way for readers to decide when each matters.
 
-The facilitator asks what the reader has to settle. To report the total hours pledged by distinct volunteers, the coordinator can add their hours for the same period. To promise a two-hour repair clinic, the coordinator needs a receptionist and a technician together. Keep the total at six hours. If both are available from 9 to 12, they can cover a clinic from 9 to 11. If only the receptionist is there from 9 to 12 and the technician from 12 to 15, they cannot. The first comparison explains what the total preserves. The two schedules expose what it loses for the joint service.
+The facilitator asks what the reader has to settle. To report the total hours offered by distinct volunteers, the coordinator adds their hours for the same period. To find a time for a two-hour repair clinic, the clinic needs a receptionist and a technician able to do their respective jobs at the same time with the necessary resources. Each offers three hours. If both are free from 9 to 12, the clinic could run from 9 to 11. If only the receptionist is free from 9 to 12 and the technician from 12 to 15, their six hours offer no common two-hour slot.
 
-The revised article asks the coordinator to start with the work being promised. Who must do what, and which performances have to coincide? Could the same summary allow one arrangement in which the promise can be kept and another in which it fails? For the clinic, a confirmed common slot with both required roles can answer the question directly. Full individual calendars are one way to establish that slot. A reader counting pledged hours can use the sum. The discussion has given readers a way to choose the distinction their own model needs.
+The article now asks which result the coordinator owes. For a proposed time, the common slot can suffice. To promise the volunteers’ work, establish that their undertakings cover the slot or that an operative arrangement lets the coordinator assign them. If they have only indicated free time and retain that choice, offer the slot for their decision. A service authorized to promise coverage can make its own commitment with qualified cover assured, even if it selects the individual volunteers later. The hours, the possible schedule and the commitment each answer a different staffing question.
 
 A contributor may accept that explanation and decline further editorial work. LDR.2 handles the commitment if it matters.
 

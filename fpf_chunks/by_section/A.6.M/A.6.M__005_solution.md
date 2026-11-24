@@ -6,12 +6,12 @@ section_id: "A.6.M:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:4 — Solution"
-line_start: 23950
-line_end: 24152
+line_start: 23966
+line_end: 24168
 dependencies:
   - "A.10"
   - "A.20"
@@ -211,7 +211,7 @@ OpenArchitectureClaim:
     the published rules do not establish that a particular replacement adapter has passed those tests
 ```
 
-The first slice makes the missing compatibility basis usable without requiring measurement. The second uses the supplied extension and replacement rules to identify the next action: test a proposed adapter under the two named tests before claiming its conformance. Publication of the rules supports planning; a test result would support a different claim.
+The first slice makes the missing compatibility basis usable for planning. The second identifies the two tests that bear on substitution. Use results that apply to this adapter in the proposed configuration, or perform the tests when the assessment requires evidence that is still missing. A commission for a fresh run requires that run. The published rules establish what must be checked.
 
 Supplier-diversity, procurement suitability, use-context compatibility, business constraint, policy authorization, and provider-selection claims are not module-interface fields. If those claims are being made, A.6.M names only the module-interface slice; non-module selection, procurement, work, role, evidence, assurance, gate, release, and mechanism claims are governed by the patterns named in `A.6.M:12`.
 

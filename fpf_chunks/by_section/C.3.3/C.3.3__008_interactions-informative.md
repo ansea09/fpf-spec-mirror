@@ -6,12 +6,12 @@ section_id: "C.3.3:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__008_interactions-informative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:7 — Interactions (informative)"
-line_start: 58379
-line_end: 58402
+line_start: 58410
+line_end: 58433
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -37,13 +37,13 @@ Open only the channels the receiving claim consumes. Keep their definedness, los
 
 #### C.3.3:7.2 - With Receiving Classification
 
-After same-kind reuse or an obtaining bridge, use the receiving `KindSignature` edition. Check candidate and slice admissibility. If admissible, evaluate the receiving judgment. If a mapping motivates another signature, author that declaration episteme separately. A source judgment can support a claim but never supplies receiving truth.
+After same-kind reuse or an obtaining bridge, use the receiving `KindSignature` edition. Check candidate and slice admissibility. If admissible, evaluate the receiving judgment. If a mapping motivates another signature, author that declaration episteme separately. Use KB-04 to decide whether the source judgment already settles the receiving question.
 
 #### C.3.3:7.3 - With Kind-use Adaptations
 
-For same-kind reuse, select the receiving C.3.4 declaration without a bridge; evaluate the receiving candidate afresh when that use is candidate-bearing. For distinct-kind use, recover the obtaining `KindBridge`, bridge assertion, receiving adaptation declaration, and any adaptation-correspondence declaration needed for differing constraints or bindings. Source adaptation results are not receiving truth.
+For the same kind, select the receiving C.3.4 declaration. When it is applied to a candidate, establish the result under its constraints using KB-04. For distinct kinds, recover the obtaining `KindBridge`, its assertion, the receiving adaptation declaration, and any correspondence needed for differences in constraints or bindings. Check what the source adaptation result warrants under those conditions.
 
 #### C.3.3:7.4 - With Guards
 
-A typed receiving guard first determines whether the same kind continues or a distinct-kind bridge is current. When the guard's use is candidate-bearing, it checks receiving admissibility and, when admissible, the fresh judgment. It independently checks any scope or sense relation the claim consumes and applies only justified consequences to R. `not-applicable`, `unknown`, absent bridge, and guard refusal remain different results.
+A typed receiving guard first determines whether the same kind continues or a distinct-kind bridge is current. When the guard's use is candidate-bearing, it checks receiving admissibility and, when admissible, the judgment under the receiving criterion. It independently checks any scope or sense relation the claim consumes and applies only justified consequences to R. `not-applicable`, `unknown`, absent bridge, and guard refusal remain different results.
 

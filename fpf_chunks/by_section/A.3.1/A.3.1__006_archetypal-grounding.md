@@ -6,12 +6,12 @@ section_id: "A.3.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:5 — Archetypal Grounding"
-line_start: 10106
-line_end: 10167
+line_start: 10119
+line_end: 10180
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -79,7 +79,7 @@ For another pair of instructions, compare their operative choices and constraint
 
 **Situation and reusable way.** `JS_Schedule_v4` applies when the jobs, eligible machines, durations, precedence constraints, feasibility rules, and optimization objective are all stated for the scheduling problem. A planner or solver system enacting it constructs candidate assignments under the declared search and stopping rules, rejects infeasible candidates, and compares the remainder by the declared objective. It records the selected schedule, `no feasible schedule` when infeasibility is established, or `no feasible schedule found within the stated search bounds`. Missing precedence data, an unstated objective, or incompatible machine eligibility is a stop rather than permission to guess a method variant.
 
-This identification lets a planner compare two solver packages as descriptions of the same scheduling method. The MILP formulation and solver configuration are `U.MethodDescription` or formal-substrate candidates according to the claim. The selected production schedule is a `U.WorkPlan`; the dated solver run is Work; and its decision record is a separate result episteme.
+This identification lets a planner compare two solver packages as descriptions of the same scheduling method. The MILP formulation and solver configuration are `U.MethodDescription` or formal-substrate candidates according to the claim. A feasible schedule can answer a question about what the machines could produce. It qualifies as a `U.WorkPlan` under A.15.2 when it specifies enough of the intended Work to coordinate it, such as the jobs a work centre is to run in each time window. Adoption of the plan may still be open. The dated solver run is Work, and its decision record is a separate result episteme. To establish production, use evidence of what was actually produced for the relevant jobs and period.
 
 #### A.3.1:5.3 - Proof or derivation
 

@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 114723
-line_end: 114903
+line_start: 114787
+line_end: 114967
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -148,7 +148,7 @@ The following are practitioner recognition and claim-shape cues, not embedded `S
 |---|---|---|
 | functional | System-engineering and architecture readers, product or capability owners, and reliability or performance readers inspecting capability envelopes | Look for service-capability and promise content, delivery or access and API descriptions, input/output signatures, and functional-port boundaries as separate claims about the holon. Ground bounded behavior in transformations, capabilities, or a selected transformation-flow structure. Keep service delivery Work, access relations, publications, and module interfaces separate, and do not mint `U.Function`. |
 | procedural | Operations and run-time owners, control and automation engineers, and safety readers | Look for operational subjects and admitted method, state-transition, and transformation-flow relations behind order, state, concurrency, failure, and recovery claims. Where step boundaries are current, make preconditions and postconditions explicit and type-checked. Open a safety-analysis basis or A.10 evidence path only when the current claim is safety-bearing or a named receiving decision relies on it. Otherwise stop at the operational relations and ordinary failure/recovery boundary. Within that triggered branch, use B.3 only when a named assurance claim for that use is current. Keep method, method description, work plan, dated Work, calendars, and selected state or flow structures distinct. |
-| allocation-responsibility | Organization and operations designers, safety or compliance readers concerned with segregation of duties, and device or system engineers | Look for the admitted System and local system-role kind. When the claim says that System counts under the kind, recover the separate four-input C.3.2 judgment. Look separately for any assignment occurrence, segregation and escalation constraints, capability and transformation claims, and responsibility relation or structure. A kind locator is neither a classification result nor an assignment. None of those claims proves responsibility, and allocation wording is not an obtaining relation. |
+| allocation-responsibility | Organization and operations designers, safety or compliance readers concerned with segregation of duties, and device or system engineers | Look for the admitted System and local system-role kind. When the claim says that System counts under the kind, recover the separate four-input C.3.2 judgment. Look separately for any assignment occurrence, segregation and escalation constraints, capability and transformation claims, and responsibility relation or structure. A kind locator is neither a classification result nor an assignment. For current responsibility, identify the duty and its holder under the applicable rule or decision. An assignment that satisfies a rule attaching that duty to its holder can establish it. An allocation label alone leaves this question open. |
 | module-interface | Hardware or software architects, integration and test engineers, and lifecycle or maintenance readers concerned with replaceable units | Look for module decomposition, protocols, schemas, physical connectors, APIs, interface and conformance expectations, version and change policies, dependency and allowed-coupling structures, replaceability and variation points, and explicit functional-to-module correspondence or allocation without identity by default. Ports or connector diagrams do not establish module/interface relations; state and test each direct relation separately, and use A.6.4 for any functional-to-module retargeting. |
 
 #### E.17.2:4.4 - Recognize holon-centered TEVB views by conformance
@@ -164,7 +164,7 @@ TEVB keeps two subjects explicit:
 
 For one current describing use, its use qualification carries a single `viewpointRef : U.ViewpointRef` resolving P under the effective reference scheme. Any reader-facing viewpoint name is only P's ordinary designator. The use qualification, designator, reference, and P remain distinct. Selection identifies neither E nor H, establishes no conformance, and adds no conformance participant or episteme-identity field.
 
-Recover H only as `EntityOfConcern(E)` from E's C.2.1 constitution. Do not import a legacy context tuple, generic bounded-context object, or model-use identity field into E, P, S, conformance, or selection. Another use may select another P while E remains unchanged. Several selected viewpoints require a C.13 collection of their references rather than one overloaded reference.
+Recover H only as `EntityOfConcern(E)` from E's C.2.1 constitution. Do not import a legacy context tuple, generic bounded-context object, or model-use identity field into E, P, S, conformance, or selection. Another use may select another P while E remains unchanged. For a combined reading, resolve each viewpoint separately and establish how the descriptions relate to the same H. Use C.13 when the question concerns the collection or its membership.
 
 If the required EntityOfConcern changes from H to one of its Methods, a local system-role kind, a system-role assignment, a transformation, a responsibility relation, or a structure, identify a candidate episteme about that subject. To use it as a view, choose a viewpoint that admits the subject and establish conformance. If H already is the required Method, the existing candidate can serve under either or both classifications established in §4.3.
 
@@ -198,15 +198,15 @@ A materialized local TEVB instance provides four project references. The templat
 4. use A.6.RCD when no existing direct or derived relation is sufficient;
 5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation transition, adding C.29 when a mathematical inference or transfer question requires it.
 
-If a separate receiving claim asserts dated `U.Work`, recover each actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Missing or failed F.6 alone leaves independently admitted Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
+If a receiving claim concerns dated `U.Work`, use A.15.1 for each Work, its Method, time and containing System. Identify actual performers under A.13 at the scale claimed. Several Systems may contribute to one Work, or results of separate Works may support the same cross-view conclusion. A claim that one of them performed a particular contribution under its assignment needs F.6 for that performer, Work, interval and obtaining assignment. The cross-view relation may be established independently of these performance claims.
 
-E.17 and E.24.PUB may publish a selected TEVB view edition through `PublicationExpressionRelation(selectedEdition,publicationExpression,boundedUseDeclaration)`, `PublicationExpressionBearingRelation(presentationCarrier,publicationExpression)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationExpression,presentationCarrier)`. Identify the expression and carrier independently under their own domains.
+A publisher authorized for the audience and use may make a selected TEVB view edition available. Establish the actual E.24.PUB publication through `PublicationExpressionRelation(selectedEdition,publicationExpression,boundedUseDeclaration)`, `PublicationExpressionBearingRelation(presentationCarrier,publicationExpression)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationExpression,presentationCarrier)`. Identify the expression and carrier independently under their own domains.
 
 When a reusable publication form is selected, establish `PublicationFormConformanceRelation(publicationExpression,publicationForm)`. The same expression witnesses the corresponding form-mediated expression and bearing relations.
 
 Each exact relation retains its own participant set and maximal continuous obtaining interval; changing a participant or restoring its predicate after a gap yields another occurrence without reidentifying unchanged E or P. Broader availability through permitted expressions or carriers can continue when an exact publication changes. For a team using different publications, check that the permitted routes together reach each required reader when needed under E.24.PUB:4.2.1.
 
-Rendering, printing, upload, or carrier manipulation is separate system-performed `U.Work`. A representation retains its correspondence to independently recovered objects or relations. C.29 adds the conditions for a mathematical inference or transfer.
+An existing expression and carrier may suffice. A claim that rendering, printing, upload or carrier manipulation took place requires grounds for that `U.Work`. A representation retains its correspondence to independently recovered objects or relations. C.29 adds the conditions for a mathematical inference or transfer.
 
 A publication-side viewpoint, when current, is another viewpoint episteme selected by reference—not a TEVB position label reused as a form or file name. View episteme, viewpoint episteme, construction, conformance, form, carrier, publication, rendering, and representation remain distinct. Publication and representation make no represented world-side relation obtain.
 

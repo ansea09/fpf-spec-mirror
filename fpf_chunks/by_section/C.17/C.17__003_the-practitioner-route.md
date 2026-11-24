@@ -6,12 +6,12 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"
-line_start: 63410
-line_end: 63439
+line_start: 63441
+line_end: 63470
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -74,7 +74,7 @@ Return only the missing premise that blocks the current coordinate or conclusion
 
 #### C.17:1.3 - Dated overall-assessment branch
 
-Use this branch when a statement deliberately asserts dated overall-assessment Work or the receiving use needs that occurrence established. Recover the evaluator System's A.13 core, including its obtaining A.2.1 assignment, and the admitted Method through A.3.1; then use A.15.1 to independently admit the dated Work that enacts that Method. Add F.6 only when the receiving use consumes precise assignment-bound attribution through that same assignment. A missing or failed F.6 attribution alone leaves independently admitted assessment Work intact; recheck any admission premise questioned by the same finding and the conclusions that depend on it. Only the evaluator System performs the Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
+Use this branch when the claim concerns the work of making an overall assessment. Establish which systems performed the relevant work and how their contributions produced the assessment under the admitted Method. A service can supply a coordinate measurement, two assessors can apply different criteria, and a board can adopt their combined judgment. Each attribution requires grounds for that contribution. For a particular dated `U.Work`, use A.13 and A.15.1 at the claimed scale, with the Method under A.3.1. Apply F.6 where attribution to a particular assignment matters. A requirement for independent assessments remains in force. A receiving question about the value alone may be settled by a reliable existing result.
 
-Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the C.17-local evaluator System, assignment, Method enactment, dated assessment Work, coordinate results, and aggregate result that the claim needs.
+Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the evaluator contributions, assignments, Method enactments, dated assessment Work and results that the claim needs.
 

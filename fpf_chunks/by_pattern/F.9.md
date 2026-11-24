@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
-line_start: 129996
-line_end: 130633
+line_start: 130060
+line_end: 130697
 dependencies:
   - "A.10"
   - "A.13"
@@ -64,7 +64,7 @@ keywords:
 **Normativity:** Normative.
 **Builds on:** F.17 for exact scheme-based `SchemeSenseCell` identity and `SenseCellAddressRef`; F.18 for designation selection; C.2.1 for assertion and description-episteme identity; F.0.1 for recovering each source-local meaning before proposing a relation between the two; F.7 and F.8 for downstream naming and reuse decisions.
 
-**Coordinates with:** A.6.REL for demand-driven occurrence individuation; C.2.1 for assertion, occurrence-description, and Card identity; E.24.PUB for publication occurrence, form, and carrier; A.10 for descriptive evidence-provenance paths citing independently established direct relations and for local reliance dispositions; B.3 for actual named assurance claims and their bounded `AssuranceResult` values; E.10.ROLE for claim-bearing source wording with *role*; A.2, C.3, F.4, F.5, and A.2.1 for local system-role kinds and assignments; A.13 and A.15.1 for exact actual performers and independently admitted Work; F.6 only for a Bridge use that explicitly relies on precise assignment-bound attribution; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
+**Coordinates with:** A.6.REL for demand-driven occurrence individuation; C.2.1 for assertion, occurrence-description, and Card identity; E.24.PUB for publication occurrence, form, and carrier; A.10 for descriptive evidence-provenance paths citing independently established direct relations and for local reliance dispositions; B.3 for actual named assurance claims and their bounded `AssuranceResult` values; E.10.ROLE for claim-bearing source wording with *role*; A.2, C.3, F.4, F.5, and A.2.1 for local system-role kinds and assignments; A.13 and A.15.1 for the performers credited at the claimed scale and the independently admitted Work; F.6 only for a Bridge use that explicitly relies on precise assignment-bound attribution; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
 
 **Plain entry cues (informative).** Context-to-context translator; sense bridge.
 
@@ -376,9 +376,9 @@ A work-facing classification requires an admitted System, one exact local system
 
 An assignment claim separately identifies an occurrence of a directly declared species under `U.SystemRoleAssignment` through A.2.1.
 
-If performed Work is also claimed, recover every exact actual performer through A.13 and use A.15.1 to identify the dated Work, exact Method, time, and containing System independently.
+If the use of a Bridge also depends on a claim about performed Work, identify the System or Systems whose performance the claim needs under A.13. Independently recover the dated Work, enacted Method, time and containing System under A.15.1. For an audit by a municipal service, the service's Work may suffice to interpret its protocol even when the author of a particular entry is unknown. A claim about that entry's author needs grounds for the member's own contribution.
 
-Use F.6 only when the Bridge account or receiving use explicitly represents precise assignment-bound attribution through the same obtaining assignment already established by A.13, and the direct case fact links that exact Work-assignment pair. Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. The Bridge, bounded-use claim, and reliance result establish none of these facts.
+Use F.6 only when the Bridge account or receiving use explicitly represents precise assignment-bound attribution of a particular contribution to its performer's obtaining A.13 assignment. Establish the case fact that links that Work–assignment pair. Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. The Bridge, bounded-use claim, and reliance result establish none of these facts.
 
 #### F.9:12.3 - Subtype notions in one structural row
 
@@ -512,7 +512,7 @@ The card concerns the admitted direct Bridge relation kind and places proposed e
 
 * **A.10.** Use it for the descriptive evidence-provenance path, the independently established direct relations it cites, and local `RelianceDisposition` for ordinary bounded evidence use.
 * **B.3.** Use B.3 only after an actual named assurance claim is current; it states the bounded `AssuranceResult` or non-positive disposition and does not create the claim, authorization, or use.
-* **E.10.ROLE, A.2, C.3, F.4, F.5, A.13, A.15.1, A.2.1, and F.6.** When source wording leaves *role* ambiguous, use E.10.ROLE first. Use A.2 and C.3 for the local system-role kind and any separate System-classification judgment. Use F.4 only when a description of that kind is current, and F.5 only when its durable naming is current. Recover each exact actual performer through A.13 and admit dated Work independently through A.15.1. A.2.1 governs the assignment species and obtaining occurrence already required by the A.13 core. Add F.6 only when the receiving Bridge use explicitly relies on precise assignment-bound attribution through that same assignment. A Bridge establishes none of these facts.
+* **E.10.ROLE, A.2, C.3, F.4, F.5, A.13, A.15.1, A.2.1, and F.6.** When source wording leaves *role* ambiguous, use E.10.ROLE first. Use A.2 and C.3 for the local system-role kind and any separate System-classification judgment. Use F.4 only when a description of that kind is current, and F.5 only when its durable naming is current. Use A.13 for the Systems credited at the scale of the Work and A.15.1 to admit the dated occurrence independently. A.2.1 governs the assignment species and obtaining occurrence already required by the A.13 core. Add F.6 only when the receiving Bridge use explicitly relies on precise assignment-bound attribution through that same assignment. A Bridge establishes none of these facts.
 * **F.8.** A mint-or-reuse decision may consume an obtaining Bridge plus a separately warranted bounded-use claim; it does not strengthen either.
 * **A.2.6.** Scope translation may use an obtaining Bridge only together with an affirmative claim naming the exact direction, scope-correspondence rule, and loss tolerance. Use A.2.6 for the translated scope and membership.
 * **A.6.1.** Use it to identify any actual operation application. The `u` designation in a Bridge claim names a proposed use and is not an application binding.

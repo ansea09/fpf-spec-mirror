@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 34988
-line_end: 35082
+line_start: 35005
+line_end: 35099
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -121,7 +121,7 @@ Some `formalize` and `operationalize` moves only re-express available content. O
 
 Next-use docking and a Work crossing do not by themselves establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, record it as a separate claim: the relation under its governing pattern; participants in that relation's own roles, including giving and receiving admitted systems when its predicate requires them; any `U.SystemRoleAssignment` occurrences through which they participate; its object or action, scope, and effective interval; and the assigning, instituting, revoking, or superseding act when its pattern requires one. A.2, A.2.1, and the applicable deontic or authority pattern establish and test that claim.
 
-Use `A.16.0` for such a handoff only when its legitimacy or interpretation depends on upstream move or lineage history. Otherwise the local account of the needed or performed action and the separately established relation are enough.
+Use `A.16.0` when deciding who retained or acquired responsibility depends on the sequence of earlier moves or editions. When local evidence settles the receiving question, use it directly.
 
 #### A.16:4.6 - Keep coordination claims separate
 
@@ -146,7 +146,7 @@ Local publication content is sufficient when the move or short chain is reconstr
 - derivation, supersession, fork, merge, or retirement structure;
 - a multi-move history whose compression would hide a change in the applicable pattern or rule;
 - loss notes or reopen conditions spanning more than one move; or
-- an actual responsibility handoff, Bridge entry, or viewpoint entry whose legitimacy or interpretation depends on upstream history.
+- a question about who held responsibility, or about the legitimacy or interpretation of a Bridge entry or viewpoint entry, whose answer depends on upstream history.
 
 A.16 defines move admissibility and A.16.0 packages the trajectory account. A graph representation alone does not establish a TransformationFlowStructure. Use E.18 only for an independently selected structure that meets its rules, and E.18.2 for a mathematical description of that structure. Publication faces and bounded audience availability remain under E.17 and E.24.PUB; use C.29 when mathematical-lens adequacy is the current question.
 

@@ -6,12 +6,12 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:4 — Solution"
-line_start: 85068
-line_end: 85092
+line_start: 85125
+line_end: 85149
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,7 +52,7 @@ keywords:
 
 ### C.33:4 - Solution
 
-Start with the decision the reader must make. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
+Start with the question the reader must answer or the decision this work must support. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
 
 Compare the result the recipient needs across the arrangements still consistent with the record. If one action is justified in every case, a request to choose that action can finish. To describe the actual arrangement, list all permitted alternatives or explain why an outcome occurs, preserve the distinctions that change that answer or its grounds. Look for the assignment, rule or observation that can resolve a consequential difference. It may already be in the record.
 

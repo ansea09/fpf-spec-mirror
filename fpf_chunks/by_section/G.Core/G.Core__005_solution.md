@@ -6,12 +6,12 @@ section_id: "G.Core:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:4 — Solution"
-line_start: 135773
-line_end: 136039
+line_start: 135837
+line_end: 136103
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -177,7 +177,7 @@ When more than one channel is used, retain every channel's independently require
   A local token string (e.g., `T4`) SHALL NOT silently change meaning across patterns; namespace is part of the alias (`G.11:T4` ≠ `A.20:T4`).
 
 * **Granularity discipline:**
-  If a local cause is narrower than an existing canonical kind, map it to that kind and keep the nuance as a local scope note. If the difference matters for planning/selection, add a new canonical kind.
+  Map a narrower local cause to the applicable canonical kind and retain the local distinction when it changes planning or selection. If a shared use needs a new canonical kind, propose it to the authority responsible for G.Core, or introduce it under the delegated change procedure. Use the new kind as canonical from the edition in which it takes effect.
 
 * **Multi-cause discipline:**
   When an event spans multiple canonical kinds, record multiple triggers (preferred) or map the alias to a set `{…}` and require emitting the full set.

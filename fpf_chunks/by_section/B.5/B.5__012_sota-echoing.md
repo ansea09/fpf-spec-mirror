@@ -6,12 +6,12 @@ section_id: "B.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__012_sota-echoing.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:11 — SoTA-Echoing"
-line_start: 48709
-line_end: 48726
+line_start: 48734
+line_end: 48751
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -36,7 +36,7 @@ keywords:
 
 Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification required.
 
-**What does exploring an intended use contribute?** In NASA's engineering process, working through a concept of operations can expose interactions that the initial expectations missed. Agreement on the resulting expectations is a distinct step. The design study by Parsons and Shukla documents how visualization designers developed new questions while exploring possible solutions. In §4.1, use this freedom where framing the question belongs to the inquiry. For a specified result, carry a proposed change back to the person or practice that determines the aim. The distinction is a methodological synthesis. Its application depends on the work entrusted to the practitioner. [NASA Systems Engineering Handbook, §§4.1.1.2.4 and 4.1.1.2.8–9](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/). [Parsons and Shukla, §§4–6](https://arxiv.org/html/2508.07058v1).
+**What does exploring an intended use contribute?** In NASA's engineering process, working through a concept of operations can expose interactions that the initial expectations missed. Agreement on the resulting expectations is a distinct step. The design study by Parsons and Shukla documents how visualization designers developed new questions while exploring possible solutions. In §4.1, use this freedom where framing the question belongs to the inquiry. For a specified result, take a proposed change to the party authorized under the commission to adopt it. The existing aim governs until the applicable terms change it. The distinction is a methodological synthesis. Its application depends on the work entrusted to the practitioner. [NASA Systems Engineering Handbook, §§4.1.1.2.4 and 4.1.1.2.8–9](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/). [Parsons and Shukla, §§4–6](https://arxiv.org/html/2508.07058v1).
 
 Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
 

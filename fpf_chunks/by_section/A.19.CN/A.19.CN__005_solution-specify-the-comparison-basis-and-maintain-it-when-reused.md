@@ -6,12 +6,12 @@ section_id: "A.19.CN:4"
 section_title: "Solution — Specify the comparison basis and maintain it when reused"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__005_solution-specify-the-comparison-basis-and-maintain-it-when-reused.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:4 — Solution — Specify the comparison basis and maintain it when reused"
-line_start: 38070
-line_end: 38161
+line_start: 38087
+line_end: 38178
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -94,14 +94,14 @@ The space reference selects the space itself. Add `characteristicSpaceDescriptio
 
 First identify whether the receiving claim or applicable control requires independent certification of this CN-Spec edition or admission basis. When it does, the holder certifying it must not have authored or materially selected that basis. Include relevant earlier authoring whose content the certified basis retains. Renaming an assignment or waiting until an authoring assignment ends does not satisfy this condition.
 
-Recover the holders, their relevant Work, the edition or basis and the applicable history under A.2.1 and A.2.7. Distinct assignments do not establish distinct holders. Missing history leaves independence unresolved. Different holders can satisfy this non-self-certification condition while their assignment windows overlap; any stronger organizational-independence or commissioning control still applies. The certifier's authority and adequacy of examination require their own grounds.
+Recover the relevant holders, Work, edition, grounds and history under A.2.1 and A.2.7. An overlapping appointment can satisfy a non-self-certification rule when different eligible holders did the work. Apply any additional independence rule to the judgement it requires. Who reached it, and could a supplied answer or prior selection have determined it? Grounds and routine calculations may be shared to the extent the rule allows. Separately establish who may issue the disposition and what was actually issued for this edition and scope. An applicable certificate can settle a question about the disposition already issued. A required fact about a participant’s work remains open when the evidence does not establish it.
 
 When no independent-certification claim or control applies, an adequately grounded one-person comparison can remain explicitly uncertified. Its measurement, comparison and reliance requirements still apply.
 
 One named registry edition may publish the CN-frame's names, editions, characteristic-space and bearer references, the maintenance assignment, and the deprecation relation. When certification affects the receiving use, it also makes the applicable control, relied-on edition, certification result and supporting references recoverable. Distinguish:
 
 * an adequate comparison for the named use with independent certification not required and no such claim made;
-* a certification condition satisfied for the edition, with the participation, authority and examination grounds;
+* a certification with an established disposition for the edition and scope, supported by the participation, independence, authority and examination conditions that the control requires;
 * a required condition that is unmet or unresolved, with its consequence for the dependent use under the applicable control.
 
 These are different conclusions, not interchangeable registry labels. The registry helps discovery and currentness; it supplies no missing comparison, independence or certification evidence. A changed comparison basis reopens only the certification and receiving conclusions that rely on that change. A display-only registry change does not reopen them.

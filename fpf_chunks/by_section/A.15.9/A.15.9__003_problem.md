@@ -6,12 +6,12 @@ section_id: "A.15.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__003_problem.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:2 — Problem"
-line_start: 33710
-line_end: 33717
+line_start: 33727
+line_end: 33734
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,5 +35,5 @@ A receiver often asks for *legal approval*, *a safety review*, *an architect sig
 
 The opposite failure is to rebuild an organization around a small question. A reversible exchange acquires a fixed role catalogue, responsibility matrix, approval workflow, supplier account, and mandatory record even though an existing qualified answer could have closed the issue. The administrative apparatus grows while the result remains vague.
 
-The missing move is small: start with the receiver's decision, inspect what already exists, preserve the useful answer and its limits, and select further acquisition only when its obtainable contribution warrants the work. Preserve the supplier's Method and authority and use the result inside its supported boundary. The request, planned or actual Work, communication, result, evidence, acceptance, reliance, authority, and receiving decision remain different facts.
+Start with the receiving decision and the available grounds. Reuse a sufficient result. Identify any separately owed examination, judgement or action. For a discretionary inquiry, compare the contribution it can obtain with its full burden. The agreement and applicable practice determine who chooses the Method, performs the work, issues a conclusion and may decide on its use. A request, a plan, actual Work, a communicated result, acceptance and the receiving decision each need their own grounds when claimed.
 

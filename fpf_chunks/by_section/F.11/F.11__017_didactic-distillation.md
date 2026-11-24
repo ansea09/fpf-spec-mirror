@@ -6,12 +6,12 @@ section_id: "F.11:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__017_didactic-distillation.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:16 — Didactic distillation"
-line_start: 131405
-line_end: 131408
+line_start: 131469
+line_end: 131472
 dependencies:
   - "A.13"
   - "A.15"
@@ -45,5 +45,5 @@ keywords:
 
 ### F.11:16 - Didactic distillation
 
-> “What does the reader need to establish? Use the relevant questions. What is the **Method**, the way of doing? Which **MethodDescription** has that one Method as its exact `EntityOfConcern`—plainly, describes it? What dated **Work** occurred? Which particular control or transformation output matters, if any? These are not four universal boxes. Work is the occurrence, not its record. MethodDescription membership adds no binary relation. Every admitted Work enacts at least one Method. Identify the Method or Methods supported by the performance history. Recover each performer's A.13 core before independent Work admission; add F.6 only for precise assignment-bound attribution. Use observations for outcome claims, and use F.9 only for a real relation between source-local meanings.”
+> “What does the reader need to establish? Use the relevant questions. What is the **Method**, the way of doing? Which **MethodDescription** has that one Method as its exact `EntityOfConcern`—plainly, describes it? What dated **Work** occurred? Which particular control or transformation output matters, if any? These are not four universal boxes. Work is the occurrence, not its record. MethodDescription membership adds no binary relation. Every admitted Work enacts at least one Method. Identify the Method or Methods supported by the performance history. Establish the A.13 performer at the scale claimed and independently admit the occurrence under A.15.1. A personal or joint contribution under a particular assignment needs its corresponding F.6 link. Use observations for outcome claims, and use F.9 only for a real relation between source-local meanings.”
 

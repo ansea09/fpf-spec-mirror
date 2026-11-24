@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CN.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
-line_start: 38023
-line_end: 38460
+line_start: 38040
+line_end: 38477
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -140,14 +140,14 @@ The space reference selects the space itself. Add `characteristicSpaceDescriptio
 
 First identify whether the receiving claim or applicable control requires independent certification of this CN-Spec edition or admission basis. When it does, the holder certifying it must not have authored or materially selected that basis. Include relevant earlier authoring whose content the certified basis retains. Renaming an assignment or waiting until an authoring assignment ends does not satisfy this condition.
 
-Recover the holders, their relevant Work, the edition or basis and the applicable history under A.2.1 and A.2.7. Distinct assignments do not establish distinct holders. Missing history leaves independence unresolved. Different holders can satisfy this non-self-certification condition while their assignment windows overlap; any stronger organizational-independence or commissioning control still applies. The certifier's authority and adequacy of examination require their own grounds.
+Recover the relevant holders, Work, edition, grounds and history under A.2.1 and A.2.7. An overlapping appointment can satisfy a non-self-certification rule when different eligible holders did the work. Apply any additional independence rule to the judgement it requires. Who reached it, and could a supplied answer or prior selection have determined it? Grounds and routine calculations may be shared to the extent the rule allows. Separately establish who may issue the disposition and what was actually issued for this edition and scope. An applicable certificate can settle a question about the disposition already issued. A required fact about a participant’s work remains open when the evidence does not establish it.
 
 When no independent-certification claim or control applies, an adequately grounded one-person comparison can remain explicitly uncertified. Its measurement, comparison and reliance requirements still apply.
 
 One named registry edition may publish the CN-frame's names, editions, characteristic-space and bearer references, the maintenance assignment, and the deprecation relation. When certification affects the receiving use, it also makes the applicable control, relied-on edition, certification result and supporting references recoverable. Distinguish:
 
 * an adequate comparison for the named use with independent certification not required and no such claim made;
-* a certification condition satisfied for the edition, with the participation, authority and examination grounds;
+* a certification with an established disposition for the edition and scope, supported by the participation, independence, authority and examination conditions that the control requires;
 * a required condition that is unmet or unresolved, with its consequence for the dependent use under the applicable control.
 
 These are different conclusions, not interchangeable registry labels. The registry helps discovery and currentness; it supplies no missing comparison, independence or certification evidence. A changed comparison basis reopens only the certification and receiving conclusions that rely on that change. A display-only registry change does not reopen them.
@@ -195,7 +195,7 @@ The Bridge is only the sense relation. The separate C.2.1 claim states whether i
 
 **CC‑A19.D1‑8 (Relation and use discipline).** When reuse depends on a semantic correspondence or difference between two F.17 local senses, test the F.9 predicate and cite a Bridge only when it obtains. To use an obtaining Bridge, the receiving C.2.1 claim **MUST** separately state the use, direction, correspondence rule, tolerated loss and polarity. Reliance on an affirmative claim requires the A.10 disposition under F.9:4.2; a named assurance use also requires its B.3 result. Missing or unresolved required correspondence blocks the dependent use. A coordinate mapping and any applicable plane relation retain their separate grounds.
 
-**CC‑A19.D1‑9 (Conditional non-self-certification).** When the receiving claim or control requires independent certification, the certifying holder **MUST NOT** have authored or materially selected the CN-Spec edition or admission basis being certified, including relevant retained earlier content. Apply §4.2 to holder/Work/history, required authority and examination. Unknown history is unresolved. An adequate use with no such requirement may remain explicitly uncertified.
+**CC‑A19.D1‑9 (Conditional non-self-certification).** When the receiving claim or control requires independent certification, the certifying holder **MUST NOT** have authored or materially selected the CN-Spec edition or admission basis being certified, including relevant retained earlier content. Apply §4.2 to the required independent judgement, relevant participation and history, authority to issue and the disposition actually issued for the edition and scope. Unknown history is unresolved. An adequate use with no such requirement may remain explicitly uncertified.
 
 **CC‑A19.D1‑10 (Maintenance, deprecation, and DRR).** A CN-Spec maintained for later reuse or as a shared edition **MUST** make its maintenance responsibility, applicable deprecation arrangement and consequential decisions recoverable. Use E.9 for decisions that need a DRR. A one-use comparison need not invent a maintenance assignment or retirement plan.
 
@@ -349,7 +349,7 @@ At least one enactable source state must correspond under the stated rule to an 
 
 For this worked case, the receiving comparison cites `CN-Spec E7`, and its commissioning control requires independent certification of E7's comparison basis. Alice authored that basis. After her stewardship assignment ends, she receives a certifier assignment and examines E7. The holder condition fails: the later assignment still certifies her own basis.
 
-Bob's certifier assignment instead overlaps Alice's stewardship assignment. When Bob neither authored nor materially selected E7's basis, this local holder condition is satisfied despite the overlap. The receiver must still establish Bob's authority for E7, the required examination and any stronger organizational-independence condition from the commissioning control. Missing evidence for one of these conditions leaves that dependent certification conclusion open; different names alone do not establish it.
+Bob's certifier assignment instead overlaps Alice's stewardship assignment. When Bob neither authored nor materially selected E7's basis, this local holder condition is satisfied despite the overlap. The receiver must still establish Bob's authority for E7, the required examination and any stronger organizational-independence condition from the commissioning control. Bob could examine E7 and decline to certify it, or certify it only for a limited scope. To report certification, use the disposition actually issued. To credit Bob with an independent judgement, establish his work when that is required. Forwarding Alice’s verdict alone leaves his own judgement open.
 
 In an ordinary comparison with no independent-certification requirement or claim, Alice may use a sufficiently supported E7 basis and publish the comparison as uncertified. If E8 later changes the compared population or normalization basis, reopen only uses and certification claims depending on that changed basis. Correcting E7's registry display while its content and evidence stay fixed does not have that effect.
 
@@ -387,7 +387,7 @@ In an ordinary comparison with no independent-certification requirement or claim
 * **SCR‑A19.4‑S02 (Normalization clarity).** When normalization is used, `normalization` identifies the admitted mechanism and provides the normalization references required by A.19.UNM (methods / invariants / fix, and instances when used). If instances are referenced in assurance logs, their evidence/backing and validity constraints are handled by C.16, not by A.19.CN.
 * **SCR‑A19.4‑S03 (Comparability test).** Provide one worked coordinatewise or normalization-based comparison and the source/evaluation basis needed for its result. Use an Evidence Graph reference when that is how the required basis is represented.
 * **SCR‑A19.4‑S04 (Γ‑fold audit).** When aggregation is used, the rule states the intended result, law and applicability basis, with only the required property claims; the reviewer reconstructs the result on a toy set under that model.
-* **SCR‑A19.4‑S05 (Required certification).** Identify the receiving claim/control and relied-on CN-Spec edition or admission basis. If independent certification is required, check the certifier against authoring/material-selection history, then the applicable authority and examination conditions. Replay both successive same-holder assignments and overlapping different-holder assignments. When neither an independent-certification claim nor a control applies, keep the sufficiently grounded comparison; add a certification status only when it matters to the receiving use.
+* **SCR‑A19.4‑S05 (Required certification).** Identify the receiving claim/control and relied-on CN-Spec edition or admission basis. If independent certification is required, apply the control to the actual participants, their work, the authority to issue and the disposition for this edition. When testing the separation rule itself, try successive same-holder assignments and overlapping different-holder assignments. When neither an independent-certification claim nor a control applies, keep the sufficiently grounded comparison; add a certification status only when it matters to the receiving use.
 * **SCR‑A19.4‑S06 (Bearer and basis recoverable).** For each CN-Spec characteristic used in the worked example, retain its bearer, Characteristic and Scale editions, reference/comparison basis, any qualifying scope/window, and the measurement, evaluation or other value-ascription grounds required for the reading. Shared frame-level values need not be repeated for every characteristic. Use A.10 when provenance or bounded reliance must remain replayable.
 
 #### A.19.CN:11.2 - **RSCR — Regression (on change)**

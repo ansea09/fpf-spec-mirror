@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_worked-examples.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 109387
-line_end: 109452
+line_start: 109448
+line_end: 109513
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -68,7 +68,7 @@ If work uses the description, state the exact premise, reference, decision-use, 
 
 An integration team needs to decide whether a service-interface description is fit to drive a conformance test. The exact interface is the EntityOfConcern of `PaymentInterfaceDescription`; its ClaimGraph states message, ordering, error, and tolerance claims under the effective interface scheme. Name the current integration-test use. Record an exact integration viewpoint only if it changes which interface claims are read or checked or what the team may conclude from the test; otherwise omit viewpoint selection.
 
-The team may call the episteme `PaymentInterfaceSpec` for this use only after the relevant claims are checkable and the exact conformance harness or validation relation is named. If viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
+The team may call the episteme `PaymentInterfaceSpec` for this use once the relevant claims are checkable and the exact harness or validation relation is named. If viewpoint selection affects reliance, preserve or explicitly update the selected viewpoint for the named describing use. The team can run the test against a proposed interface. If the tested behavior is required under the applicable agreement, a sound failing test can establish nonconformance. Apply the governing rule to that finding. It may settle acceptance directly or reserve rejection, acceptance or a waiver to a party with that authority.
 
 Formal notation or an approval signature can help interpret or constrain a neighboring claim, but neither substitutes for those conditions. A changed test result changes the result or reliance claim; it does not reidentify the interface or the episteme.
 

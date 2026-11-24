@@ -6,12 +6,12 @@ section_id: "E.16:6"
 section_title: "Conformance Checklist (SCR - E.16-CC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__007_conformance-checklist-scr-e-16-cc.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:6 — Conformance Checklist (SCR - E.16-CC)"
-line_start: 113564
-line_end: 113575
+line_start: 113628
+line_end: 113639
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,10 +53,10 @@ keywords:
 
 | ID            | Requirement |
 | ------------- | ----------- |
-| **E.16-CC-1** | Each autonomy claim cites a named/versioned budget with claim, consumer kind, situation, policy, scope/window, limits, override rule and exact A.2.7 species. Prospective budgets may omit actions/assignments; action-bound permission resolves the proposed action and real allocation/authority; enactment-bound adds independently admitted Work. |
-| **E.16-CC-2** | Green-Gate resolves the prospective action and its continuation, actual holders, assignments, required state, authority, scope, window, incompatibility and guards. For a shared limit, check the proposed commitment together with outstanding commitments that can draw on it under the policy. Recheck permission-relevant window changes. A new request identifier can still name the same action. |
-| **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` identifying the Work, performer System, assignment, budget edition, actual deltas and guard check-application results. Reconcile any reservation with the charge for that Work so the same consumption is counted once. |
-| **E.16-CC-4** | A proposed override passes its applicable A.2.7 species and independent authority check before performance. An existing target Work is distinct from that proposal. Only a performed, A.15.1-admitted override is recorded as overrideWork with the applicable delta and policy-supported match to prior permission. |
+| **E.16-CC-1** | Each autonomy claim cites a named/versioned budget with claim, consumer kind, situation, policy, scope/window, limits, override rule and exact A.2.7 species. Prospective budgets may omit actions/assignments; action-bound permission establishes who can admit the action and who can exercise each independent override under the governing terms. It resolves every required holder and allocation; enactment-bound adds independently admitted Work. |
+| **E.16-CC-2** | Green-Gate resolves the prospective action and its continuation, actual holders, assignments, required state, entry and override authority, scope, window, all applicable separation checks and guards. For a shared limit, check the proposed commitment together with outstanding commitments that can draw on it under the policy. Recheck permission-relevant window changes. A new request identifier can still name the same action. |
+| **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` identifying the Work, the actual performer and assignment or required contributions to joint Work, budget edition, actual deltas and guard check-application results. Reconcile any reservation with the charge for that Work so the same consumption is counted once. |
+| **E.16-CC-4** | A proposed override must meet its own authority rule, including any required joint exercise, and pass all applicable A.2.7 separation checks before performance. An existing target Work is distinct from that proposal. Only a performed, A.15.1-admitted override is recorded as overrideWork with the applicable delta and policy-supported match to prior permission. |
 | **E.16-CC-5** | Depletion **MUST** block ordinary autonomy-gated continuation until `ResumeAutonomy` passes the actual-assignment separation-of-duties check, independent authority check, and ordinary guards. A policy-permitted exception requires its exact bounded-action condition, current authority and remaining guards under S2; it does not resume other actions. |
 | **E.16-CC-6** | A UTS autonomy row carries the budget edition/state, guard policy, override protocol, scope/window, action/allocation refs when action-bound and actual Work refs when enactment-bound. |
 | **E.16-CC-7** | When bounded specialization scouting is in scope, scout budget, probe budget, and commit checkpoint **MUST** stay explicit, and a successful probe **SHALL NOT** count as automatic committed rollout. |

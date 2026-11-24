@@ -6,7 +6,7 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__010_conformance-checklist-normative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:7 — Conformance Checklist (normative)"
@@ -54,8 +54,8 @@ If the acceptance criteria mention measurable characteristics such as availabili
 When the promised use relies on a request-facing access Method, `accessSpec` **MUST** identify the A.3.2-admitted `U.MethodDescription` that describes it. Separately recover the endpoint, desk, manifold, or other exact bearer through A.6.P:4.11a. Apply A.1 or A.1.SCR only when a current claim depends on that bearer being an access-point `U.System`; otherwise keep the bearer without the stronger claim. If no access-method description is current because access is ambient, `accessSpec` may be omitted. In either branch, keep an eligibility predicate in the promise content when eligibility is promised; when eligibility depends on a separately obtaining admission relation, identify that relation and use the pattern that defines or tests it.
 
 **CC‑A2.3‑6 (Unit of delivery + counting rule).**
-For a receiving use that counts accepted delivery, use the default one-unit-per-fulfilment rule or declare `unitOfDelivery` with the intended unit (for example, one request, kWh, or case) and counting rule. Declare `unitOfDelivery` when the default does not define the intended counting boundary, including rework or a cross-promise aggregate. The resulting count may fill a declared quantity position in a separately governed charging relation; that charging relation does not determine the unit-of-delivery specification.
-When declared, `unitOfDelivery` includes the A.2.3:4.1.2 counting rule that maps fulfilment Work to unit counts without silent double counting. If omitted, the default is one unit per obtaining `PromiseContentFulfilmentRelation` occurrence.
+For a receiving use that counts or measures accepted service, derive the unit from the promise. Use the one-per-fulfilment default for a count of fulfilled delivery-work occurrences. For another unit or boundary, state the applicable `unitOfDelivery` rule, including how it treats rework or aggregation across promises. The resulting quantity may enter a separately governed charging relation.
+The rule identifies the instances that count under the agreed criterion and how their quantities combine. Several visits to one eligible site can establish one accepted site or several performed visits, depending on the promise. The counting rule must distinguish those uses when their quantities differ.
 
 **CC‑A2.3‑7 (No actuals on Promise Content).**
 Resource and time actuals belong to the performed `U.Work` occurrence under A.15.1. An incident-log episteme may describe that occurrence and may separately participate in an evidence relation for a stated claim; neither the log nor its participation in that evidence relation fills a `U.PromiseContent` slot.
@@ -107,8 +107,8 @@ For an acceptance judgement, select the evidence for the unit, interval and cond
 The actual operation application carries its argument and result bindings. Any durable verdict episteme, any identity-inception claim, and evidence-use relations remain separate. Independently established A.10 evidence relations support reliance on the fulfilment assertion; they do not constitute fulfilment.
 
 **CC-A2.3-19 (OutcomeSpec ↔ unitOfDelivery coherence).**
-If `unitOfDelivery` is present, its counting rule states a `selectorRef` that selects only work occurrences eligible to satisfy `SC.promisedOutcomeSpecRef` in the declared mode. For a cross-promise aggregate using one occurrence, the rule states either `dedupeKeyRef` or cites the counting-policy episteme that defines the counting rule. A selector may denote work occurrences filling `FulfilmentWorkOccurrenceSlot` in obtaining `PromiseContentFulfilmentRelation` occurrences; it does not count work for which fulfilment has not been established.
+When `unitOfDelivery` is present, its `selectorRef` identifies the agreed units that satisfy `SC.promisedOutcomeSpecRef` and the applicable acceptance criterion. For performed deliveries it may select the Work occurrences in `FulfilmentWorkOccurrenceSlot` of obtaining `PromiseContentFulfilmentRelation` occurrences. For a state promised of an entity or throughout an interval, it selects qualifying entities or intervals on the stated grounds. A cross-promise aggregate using the same unit requires a `dedupeKeyRef` or a counting policy specifying when to count it again.
 
-**CC-A2.3-20 (Unit-of-delivery is computable from work facts).**
+**CC-A2.3-20 (Unit of delivery is computable from the facts its criterion requires).**
 If `unitOfDelivery` is present, it follows A.2.3:4.1.2. For a pure count, identify its selector, quantity rule and any deduplication boundary. When the count depends on a measurement reading, identify its Method and required specification values; cite a MethodDescription only when the calculation or interpretation uses claims in that edition. Retain the evidence-admissibility conditions, evidence epistemes and evidence-use relations required for reliance on the count.
 

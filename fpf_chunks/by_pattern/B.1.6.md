@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
-line_start: 44954
-line_end: 45206
+line_start: 44979
+line_end: 45231
 dependencies:
   - "A.1"
   - "A.10"
@@ -180,7 +180,7 @@ Use `PortionOf` only for a resource portion with its A.14 measure and additivity
 
 **Typed resource basis.** Aggregate only values whose resource Characteristic, Scale, applicable Unit, subject and accounting boundary are compatible under the operative rule. Joules, hours, kilograms, currency, bytes and attention do not become one scalar by co-location.
 
-**Measurement before aggregation.** Each measured input points to C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
+**Measurement before aggregation.** Use an accepted measurement result to the extent that its subject, scope and the accounting rule warrant its inclusion. For a claim about how the measurement was performed, establish the C.16 measurement Work and its result. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
 **Included accounting subjects.** Establish which subjects the account covers, individually or through a rule that covers the whole requested scope. Identify an individual Work occurrence or phase when its resource use, identity or part relation is used in the inference or requested as a result. Parent–child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work` and other admitted Work-part relations must already obtain between independently admitted Work participants under A.15.1 or their subject patterns. A non-Work phase keeps its carrier's identity and `PhaseOf` grounds. For temporal overlap, recover the participants, temporal reference and interval facts under C.27.TA; establish resource-use or stock overlap under its accounting rule. A Method, plan, epoch or phase label, invoice period or dashboard grouping does not establish these subjects or relations.
 

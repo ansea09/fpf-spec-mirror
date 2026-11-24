@@ -6,12 +6,12 @@ section_id: "C.30.ILC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:3 — Forces"
-line_start: 78186
-line_end: 78195
+line_start: 78241
+line_end: 78250
 dependencies:
   - "A.10"
   - "A.22"
@@ -48,6 +48,6 @@ keywords:
 * Frustration language can be useful because it points to incompatible constraints or fitness contributions, but it can also implicitly introduce a physics, biology, psychology, or global-optimizer ontology into architecture prose.
 * Measurement is tempting because the residual feels numeric, but a measure before declared-scope and structure-kind recovery can hide the conflict.
 * Ethical conflict or mediation may be present, but not every cross-scope residual is an ethical conflict or mediation problem.
-* Architecture synthesis may be needed, but a small triage output often identifies a narrower move: split scope, add mediator, add interface grammar, change allocation, expose coupling, add evidence scope, accept bounded exception, or return to source.
+* Architecture synthesis may be needed, but a small triage output often identifies a narrower move: split scope, add mediator, add interface grammar, change allocation, expose coupling, add evidence scope, use an applicable exception, propose one for decision, or return to source.
 * The pattern is not a prescribed sequence of moves; architecture work is often case-managed through loops, checks, and dead ends.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.MV.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
-line_start: 60781
-line_end: 61048
+line_start: 60812
+line_end: 61079
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -93,12 +93,12 @@ Compare the feasible alternatives for the same receiving decision. Identify who 
 5. **Establish what the recipient can obtain from each feasible option.** Give the domain result and the grounds for expecting it. A record of Method completion, provision of support or a participant's assessment can answer a different part of the decision. Compare each attainable arrangement as a whole, including its benefits and burdens. When a decision concerns removing or replacing one element, work out what arrangements would then be possible and how their value would change, including effects on other elements (C.11.CRC). The change can have a different value in a different combination. Use C.28 wherever the comparison relies on a causal explanation.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
-8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Identify who will select the method in use and whether they can distinguish the relevant situations in time to act. For a guarantee, the course selected from the available information must work in every compatible situation covered by the commitment. For a risk-limited commitment, assess the resulting rule against its risk criterion. For an undertaking that covers concurrent work, also establish that the branch choices can be carried out together with the support actually available. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
+8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Identify who will select the method in use and whether they can distinguish the relevant situations in time to act. For a guarantee, the course selected from the available information must work in every compatible situation covered by the commitment. For a risk-limited commitment, assess the resulting rule against its risk criterion. For an undertaking that covers concurrent work, also establish that the branch choices can be carried out together with the support actually available. For a discretionary trial, use C.11.DUA to compare its attainable contribution with its full cost, including displaced Work and the time available. A choice may already be justified while a separately commissioned trial still has to be performed.
 9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and any unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves any unresolved trade-off and stopped use without inventing a correction owner.
 
     If the comparison exposes a possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction, return the bounded evidence to A.3.1.CC; A.3.1.CC identifies and rechecks the maintained correction owner. A worth result does not rewrite that owner automatically.
-11. **Return evidence to another Method-repertoire decision only when needed.** Supply the situated Method-worth evidence and limits needed for a compatible decision in engineering or another subject practice. This return transfers neither the C.11.MV action, authority, Method rank, causal claim, nor evidence beyond its source-use conditions.
+11. **Determine what the decision settles for another practice.** Supply the applicable worth evidence for a comparison there. When a decision by the same governing body is already binding on both practices, identify that mandate, decision and its terms. A recommendation to an independent practice leaves its choice with its own holder.
 12. **State refresh conditions.** Reopen when alternatives, domain consequences, capability or support demands, direct relations, evidence reach, costs, reversibility, situation fit, or the receiving decision window changes.
 
 #### C.11.MV:4.2 - Record the Result
@@ -209,10 +209,10 @@ Supply evidence to another Method-repertoire decision only when that receiving u
 | source decision | C.11.MV subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and action considered. |
 | evidence | Observations and credible estimates distinguished per alternative, with their sources, domain consequences, burdens, capability and System demands, side effects, opportunity costs, reversibility, reach and gaps. Actual Work, performers and direct relations retain their independently supported basis wherever claimed. |
 | supported statement | The smallest situated worth statement that bears on the receiving Method-repertoire decision. |
-| non-transfer | No transfer of the C.11.MV `keep`/`revise`/`replace`/`branch`/`stop` action, implementation authority, universal Method rank, causal claim, or evidence outside the stated source-use conditions. |
+| reach of the decision | Identify the practices, options and period the actual decision governs. Give the grounds for a common mandate or the decision still entrusted to the receiving practice. A favorable comparison by itself confers no authority. |
 | reopen | Changed Method or candidate status, situation in the receiving practice, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
 
-The receiving practice remains responsible for its Method repertoire and compatibility claims. The contribution supplies evidence for that decision; it does not direct the recipient to take the C.11.MV action.
+Each practice can use the evidence within its demonstrated reach. To establish what the receiving practice must do, identify the decision and the authority that makes it applicable there. Where the choice is still local, the receiver can use the comparison in making it.
 
 ### C.11.MV:6 - Bias-Annotation
 
@@ -236,7 +236,7 @@ The receiving practice remains responsible for its Method repertoire and compati
 - [ ] Missing evidence is not converted into inferiority, and one favourable occurrence is not converted into causality.
 - [ ] Trade-offs, non-dominated alternatives, branch discriminators, and non-compensable stops remain visible.
 - [ ] When requirement merits are disputed, the recommendation compares the protective contribution and burden, retains the threshold or evidence basis needed for that judgement, and separates it from current force and feasible amendment.
-- [ ] The result is a supported `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limit and any supported present course. A further probe is selected only for a useful obtainable answer worth its whole burden.
+- [ ] The result is a supported `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limit and any supported present course. A discretionary probe offers an attainable result worth its whole burden. Any separately commissioned inquiry remains accounted for.
 - [ ] A `revise`, `replace`, or `branch` result names the owning result under §4.1 step 10 and distinguishes a new situated choice from correction of an identified contradiction; `keep` adds no repair return; `stop` preserves any unresolved trade-off and stopped use.
 - [ ] A possible description, representation or support contradiction returns as bounded evidence to A.3.1.CC under §4.1 step 10 for the applicable owner-specific check.
 - [ ] Any evidence transferred to another repertoire decision states its source-use conditions and non-transfer boundary.
@@ -249,7 +249,7 @@ The receiving practice remains responsible for its Method repertoire and compati
 | “Users preferred it, so it is worth adopting.” | Preserve immediate self-report, alternative set, long-term gaps, and decision boundary. |
 | “The weighted score selected a winner.” | Expose characteristics, weights or order assumptions, incomparability, and non-compensable stops. |
 | “The candidate has no evidence, so the incumbent wins.” | Preserve the evidence asymmetry and retained alternatives. Return the supported present action or limitation; select a reversible probe when its attainable contribution warrants it. |
-| “Another practice must adopt the C.11.MV winner.” | Transfer only bounded evidence; the receiving practice makes its own repertoire decision. |
+| “Another practice must adopt the C.11.MV winner.” | Check which practices the authority’s decision covers. A recommendation alone leaves adoption open. |
 
 ### C.11.MV:9 - Consequences
 
@@ -284,7 +284,7 @@ None supplies implementation authority.
 - For `revise`, `replace`, or `branch`, C.39.RP owns repertoire choices, C.39.RQ requirements, C.32.MWA.PP architecture decisions, B.1.5.CM construction results, and A.3.1.MV maintained repertoire/applicability entries. Name the result to create or change; identify a contradicted claim only when one exists. `keep` adds no repair return; `stop` preserves any unresolved trade-off and stopped use.
 - A possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction returns as bounded evidence to A.3.1.CC, which identifies and rechecks the maintained correction owner.
 - `A.19.CPM` and `A.19.SelectorMechanism` govern non-trivial comparison and selected-set semantics. `A.2.2` governs capability inputs; `A.10` evidence use; `A.15.1` actual Work; direct governors remain authoritative for Systems, Agent-performed Work, relations, assignments, permissions, authority, access, and results.
-- A compatible Method-repertoire decision in another practice may use the bounded Method-worth evidence. This use transfers neither action nor authority and does not establish composition of the supplying and receiving disciplines.
+- A compatible Method-repertoire decision in another practice may use the bounded Method-worth evidence. Establish the mandate and scope for any decision that already governs both. An evidence contribution alone establishes neither that mandate nor composition of the disciplines.
 - A.3.1.MI may consume the resulting bounded decision when introducing or revising a Method in practice; later observations can reopen C.11.MV without retroactively changing the evidence used here.
 
 ### C.11.MV:End

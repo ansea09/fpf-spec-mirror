@@ -6,12 +6,12 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 71885
-line_end: 71905
+line_start: 71932
+line_end: 71952
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 8. Non-causal simulator reporting and simulation-supported causal use take different routes at first entry.
 9. A sampling-realizability result cites its decision Method, any derivation used, and the sampling construction or obstruction required by its status; `unclear` names the unresolved question. Counterfactual-quantity bounds remain in the separate identification result. A prospective result claims no Work or data.
 10. Performed counterfactual-sampling support cites independently admitted dated Work and resulting data or evidence; it cites exact assignment-bound attribution only when the receiving support claim uses it. A WorkPlan or `realizable` label cannot satisfy this branch.
-11. Before execution, evidence design cites a MethodDescription or WorkPlan only when used. When it cites performed Work, it identifies each precise performer under A.13 and the dated occurrence independently under A.15.1. Performed counterfactual sampling used as evidence also cites the resulting data through A.10. F.6 is required only when that account uses exact assignment-bound attribution.
+11. Before execution, evidence design cites a MethodDescription or WorkPlan only when used. When it cites performed Work, it establishes the dated occurrence under A.15.1. A claim attributing that Work to a particular performer establishes its A.13 basis. Performed counterfactual sampling used as evidence also cites the resulting data through A.10. F.6 is required only when that account uses exact assignment-bound attribution.
 12. Transport identifies every changed population/domain/environment/data-generating-regime endpoint separately from semantic schemes.
 13. A counterfactual-fairness escalation exposes its additional identification assumptions and, when an estimate is used, estimation consistency before D.5 consumes it.
 14. `CausalActionPolicyClass` identifies the specified rule or available family through :4.10's mechanism and information conditions; reductions, combinations and unresolved classifications stay explicit. Consumers use the same meaning and omit an unused field.

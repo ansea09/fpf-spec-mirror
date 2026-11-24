@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance Checklist"
-line_start: 123694
-line_end: 123715
+line_start: 123758
+line_end: 123779
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -35,7 +35,7 @@ keywords:
 | `CC-E23-1` | Name the exact object version, its evaluation and the settled evaluation question before claiming a changed evaluation result. Use `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when the receiving use needs their declarations. |
 | `CC-E23-2` | Reuse a question only while its object version, selected characteristic space, predicate or comparator, ClaimScope, result-consuming work or decision, purpose, qualification window, and any grounded non-use boundary remain applicable. Resolve missing or changed bindings through E.22; a separate frame is conditional on its receiving use, not on repetition alone. |
 | `CC-E23-3` | Represent returned repair possibilities as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified predicted evaluation-result changes, using `ExpectedEvaluationResultChange@Context` when the conditional §4.2a account is needed. A grouped memory summary does not discharge skipped rows, and proposal selection does not establish performance. |
-| `CC-E23-4` | For each evaluation or improvement pass asserted as `U.Work`, first identify every actual performer through A.13, then use A.15.1 to identify the occurrence, time, Method, and containing System independently. The obtaining A.13 assignment remains part of actual-performer admission. Add separate A.2.1 assignment-occurrence and F.6 references when the account expressly represents precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work intact, subject to the premise-recheck rule in section 4. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
+| `CC-E23-4` | For each evaluation or improvement pass asserted as `U.Work`, establish the A.13 basis of the performer at the scale claimed, including the grounds for each personal contribution actually attributed, then use A.15.1 to identify the occurrence, time, Method, and containing System independently. The obtaining A.13 assignment remains part of actual-performer admission. Add separate A.2.1 assignment-occurrence and F.6 references when the account expressly represents precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work intact, subject to the premise-recheck rule in section 4. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
 | `CC-E23-7` | Decide a local stop from the achieved aim, protected trade-offs and absence of a worthwhile feasible improvement under §4.3. All-`5`, exceptional or front-reaching results neither require nor suffice for that decision. |
@@ -47,6 +47,6 @@ keywords:
 | `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring subject pattern and stop the `E.23` overread. |
 | `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work under its own subject pattern, not implicit `E.23` scope. |
 | `CC-E23-13` | Keep the selected proposal, actual improvement Work governed by `CC-E23-4`, its result or change relation, changed object or Transformation, later evaluation pass, and result episteme distinct. When a required relation has no governor, retain those objects and the blocker; do not mint a generic Work-result relation. |
-| `CC-E23-14` | When §4.2a's receiving-use condition holds, represent current alternatives, exact guards, selected obtaining relations, selected continuation, stop, and subject-assertion reconsideration conditions in one admitted A.22 unfolding structure. When transformation-flow membership is current, E.18/E.18.3 recognizes that same selected `U.Structure`; do not mint a parallel loop object. A visible cycle, record, structure, decision value, or branch is not enduring Work, context, authorization, or performance. |
+| `CC-E23-14` | When §4.2a's receiving-use condition holds, represent current alternatives, exact guards, selected obtaining relations, selected continuation, stop, and subject-assertion reconsideration conditions in one admitted A.22 unfolding structure. When transformation-flow membership is current, E.18/E.18.3 recognizes that same selected `U.Structure`; do not mint a parallel loop object. A visible cycle, record, structure, value or branch can indicate a continuation. A decision may authorize a pass under the governing terms. Establish the effective decision for permission and the actual Work for performance. |
 | `CC-E23-15` | A low value, finding, floor miss, or improvement aim does not establish an actual Problem. Any actual Problem used by the loop resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

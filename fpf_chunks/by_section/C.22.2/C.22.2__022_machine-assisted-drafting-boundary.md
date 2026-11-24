@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 67417
-line_end: 67424
+line_start: 67456
+line_end: 67463
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
-Machine-assisted `ProblemCard` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any subject-pattern cues for claims outside `C.22.2`.
+A person, an automated service, or a team using such a service may formulate and maintain a `ProblemCard`. For P2W or selector-facing use, establish what the card says, what supports its claims and which subject-pattern cues bear on that use. For a claim about who recognized the problem, selected its subject, checked the evidence or issued the card, identify the contribution actually made. Retain personal review or approval when the commission calls for it.
 
-Check the Thin content in §2.1 against the available source material. A machine-generated field value is a proposal until its claim is supported; the same record budget applies as for a human draft.
+Check the Thin content in §2.1 against the available source material. A substantiated finding may be used directly regardless of who expressed it. Preserve unsupported candidates as proposals and apply the same record budget to human and machine contributions.
 
 Check problem-formulation follow-up reason, validation boundary, freshness or expiry, unknown handling, source-set reference, representation or retargeting relation, and outside-pattern cues only when that content is current for the chosen next use. Omit a non-current field; do not invent a value or write `unknown` merely because the drafting aid exposes that field.
 

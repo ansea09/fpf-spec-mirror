@@ -6,12 +6,12 @@ section_id: "A.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:4 — Solution"
-line_start: 29037
-line_end: 29150
+line_start: 29054
+line_end: 29167
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.12:4 - Solution
 
-Separate the acting participant from the subject claimed to change. Add the precise claims needed to explain the case.
+Distinguish the acting position from the subject of the change. Establish the relation their occupants have in this case. An observed change can be reported while its cause or performer remains open.
 
 #### A.12:4.1 - Acting-Side Externalization
 
@@ -63,7 +63,7 @@ ActingSideExternalization@Context:
   evidenceRelationRefs?
 ```
 
-Identify `actingEntityRef` and `changedSubjectRef` as distinct participants in the claim. `changedSubjectRef` is a question-local position, not a U-kind or union ValueKind: its value retains its independently admitted kind and identity rule. A presentation carrier does not become a `U.Holon` by filling it. Fill `transformationRef` only when A.3.4 establishes a bounded change of that same continuing referent.
+Identify the occupant of each position when the claim depends on it. At the scale of a choir, the same continuing System may organise its rehearsals and improve its coordination. To attribute the improvement to the rehearsals, establish that contribution. To say which singer acquired a capability, establish that singer’s change under the relevant conditions. An observation of the choir’s improvement alone can stand without using this acting-side outline. `changedSubjectRef` is a question-local position, not a U-kind or union ValueKind: its value retains its independently admitted kind and identity rule. A presentation carrier does not become a `U.Holon` by filling it. Fill `transformationRef` only when A.3.4 establishes a bounded change of that same continuing referent.
 
 Use the complete A.1 criterion or an applicable established A.1 result before classifying the acting entity as a `U.System`. When this account needs recognition and it is not established, retain the entity and its `recognized | rejected | unknown` disposition or blocker. Leave `actingSystemRef` unfilled until recognition is established; once recognized, it names the same entity under `U.System`. Tight coupling or membership in a larger holon does not merge the acting and changed positions.
 
@@ -123,7 +123,7 @@ The minimal rule is:
 actingPartOrSubsystemRef != changedPartOrSubsystemRef
 ```
 
-for the current change-bearing claim.
+for a Reflexive Split into two internal parts. A claim about what one continuing whole does to change its own condition can remain at that whole’s scale when the internal distinction does no work for the answer.
 
 For controlled self-change, this split supplies the internal acting and changed participants. Connect their action to the rule or intended result that selects the intervention, its effect on later operation and the consequences used to revise it. **C.43:4.1.2** develops that account.
 

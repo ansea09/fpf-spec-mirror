@@ -6,12 +6,12 @@ section_id: "E.17.1:14"
 section_title: "Import, Subset, and Multi-Bundle Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__015_import-subset-and-multi-bundle-coordination.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:14 — Import, Subset, and Multi-Bundle Coordination"
-line_start: 114480
-line_end: 114524
+line_start: 114544
+line_end: 114588
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -56,7 +56,7 @@ A local project often wants a small adaptation: one extra concern note, one narr
 A practical rule is:
 
 - if the local project selects a subset or adds only didactic/publication material, keep catalogue edition L and its declaration unchanged and declare the local subset or annex; do not treat the overlay as declaration content;
-- if the local project changes viewpoint membership or meaning, publish a new local catalogue edition carrying the revised or new family declaration.
+- if the project proposes or adopts a change to viewpoint membership or meaning, identify the proposed or adopted local catalogue edition and its revised family declaration. Issue it when the commission or standing duty calls for publication, through a party authorized for that audience and use.
 
 #### E.17.1:14.3 - Multi-bundle coordination: provenance first, comparison separately
 

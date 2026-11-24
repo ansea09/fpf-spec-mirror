@@ -6,12 +6,12 @@ section_id: "B.5.SD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:5 — Archetypal Grounding"
-line_start: 53303
-line_end: 53330
+line_start: 53328
+line_end: 53355
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -40,9 +40,9 @@ Suppose instead that a C6 result had established the required joint behaviour. A
 
 Independent practitioners are writing an article to help volunteer coordinators choose a model for staffing decisions. One proposes adding the hours each volunteer offers. Another objects that a total can hide who is available together. The group needs a way for readers to decide when each matters.
 
-The facilitator asks what the reader has to settle. To report the total hours pledged by distinct volunteers, the coordinator can add their hours for the same period. To promise a two-hour repair clinic, the coordinator needs a receptionist and a technician together. Keep the total at six hours. If both are available from 9 to 12, they can cover a clinic from 9 to 11. If only the receptionist is there from 9 to 12 and the technician from 12 to 15, they cannot. The first comparison explains what the total preserves. The two schedules expose what it loses for the joint service.
+The facilitator asks what the reader has to settle. To report the total hours offered by distinct volunteers, the coordinator adds their hours for the same period. To find a time for a two-hour repair clinic, the clinic needs a receptionist and a technician able to do their respective jobs at the same time with the necessary resources. Each offers three hours. If both are free from 9 to 12, the clinic could run from 9 to 11. If only the receptionist is free from 9 to 12 and the technician from 12 to 15, their six hours offer no common two-hour slot.
 
-The revised article asks the coordinator to start with the work being promised. Who must do what, and which performances have to coincide? Could the same summary allow one arrangement in which the promise can be kept and another in which it fails? For the clinic, a confirmed common slot with both required roles can answer the question directly. Full individual calendars are one way to establish that slot. A reader counting pledged hours can use the sum. The discussion has given readers a way to choose the distinction their own model needs.
+The article now asks which result the coordinator owes. For a proposed time, the common slot can suffice. To promise the volunteers’ work, establish that their undertakings cover the slot or that an operative arrangement lets the coordinator assign them. If they have only indicated free time and retain that choice, offer the slot for their decision. A service authorized to promise coverage can make its own commitment with qualified cover assured, even if it selects the individual volunteers later. The hours, the possible schedule and the commitment each answer a different staffing question.
 
 A contributor may accept that explanation and decline further editorial work. LDR.2 handles the commitment if it matters.
 

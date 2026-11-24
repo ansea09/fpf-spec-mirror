@@ -6,12 +6,12 @@ section_id: "C.28.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:4 — Solution"
-line_start: 72005
-line_end: 72085
+line_start: 72052
+line_end: 72132
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -92,7 +92,7 @@ Two graphs may entail the same observed independences. Two mechanisms may produc
 
 #### C.28.CM:4.6 - Challenge the consequence with available evidence
 
-Compare the consequence with a relevant observation, contrasting case, or argument about the modeled process. An intervention that could distinguish two explanations gives the team a test it can run. To use that test as empirical evidence, obtain its result or use a suitable result already available. First check that the observation concerns the modeled variable, cases and time. A contradiction can arise from the mechanism, measurement, implementation of a proposed action, or a changed operating condition.
+Compare the consequence with a relevant observation, contrasting case, or argument about the modeled process. Different predictions can suggest a test. To offer it as feasible here, establish who can authorize and perform the intervention, who can observe the response, and whether the necessary access, equipment and time are available. A suitable earlier observation can settle the comparison. A newly commissioned test requires its own result. First check that the observation concerns the modeled variable, cases and time. A contradiction can arise from the mechanism, measurement, implementation of a proposed action, or a changed operating condition.
 
 Distinguish a contradicted implication, an untested implication and compatibility with the inspected material. A graph with no relevant testable implication cannot acquire support merely from an absence of contradiction. Conversely, failure to reject an implied independence does not establish the graph. Deterministic constraints, measurement error, missing cases and sampling uncertainty can all change the interpretation.
 

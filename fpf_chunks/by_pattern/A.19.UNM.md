@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.UNM.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
-line_start: 39040
-line_end: 39497
+line_start: 39057
+line_end: 39514
 dependencies:
 keywords:
   - "CV→NCV"
@@ -339,7 +339,7 @@ Form classes only when their set-level result is useful. For an operation on cla
 #### A.19.UNM:4.5 - P2W and transformation-flow integration note (normative-by-reference)
 
 When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
-- UNM occurs **before** selection/decision steps.
+- Perform or reuse normalization before the comparison or decision that depends on its result. An earlier selection on an independent criterion can determine which values need normalization. Follow an expressly commissioned protocol in its required order.
 - If required measurements are **missing or stale**, apply the declared `abstain` or `degrade` rule and state the gap. The receiving practitioner first checks whether an adequate current basis is already available and whether obtaining new evidence is worth doing. Any chosen acquisition is separately planned and performed under its applicable method; UNM itself neither obtains measurements nor mandates new Work.
 - A receiving step cites the normalized values, method and CN-Spec editions, bearer, comparison basis, evidence, intended use and scope/window. Establish any relation and its receiving-use conditions under UNM-L5; an assurance penalty follows the applicable B.3 domain model.
 - Downstream consumers cite editioned method, basis and evidence anchors as refs and do not re-author them.

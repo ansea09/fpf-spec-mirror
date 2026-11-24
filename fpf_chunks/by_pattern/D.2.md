@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
-line_start: 96989
-line_end: 97153
+line_start: 97046
+line_end: 97210
 dependencies:
   - "A.1"
   - "A.15"
@@ -134,7 +134,7 @@ A product team wants to reduce service cost by making a medical device harder to
 
 This is a possible consequence of the restriction, with its likelihood and extent still to be established. The next question is which service restriction, if any, addresses the hazard without imposing avoidable access harm. That question and the connected sides complete the present `D.2` recognition; `D.3` can describe their tension from this account.
 
-Now suppose a release decision depends on whether a proposed servicing method can leave calibration outside the declared tolerance. A qualified test team can perform the discriminating check before the release window closes, and the release authority needs its result under the applicable rule. Preserve that investigation and the rule's force.
+Now suppose a release decision depends on whether a proposed servicing method can leave calibration outside the declared tolerance. The release authority needs evidence under the applicable rule. An earlier test can supply it when the conditions and terms for this release are covered. If the rule calls for a fresh test by the qualified team, or the material operating condition is untested, retain that investigation. Establish whether the team can perform it within the release window and return its result to the release authority.
 
 Use `C.11.DUA` to compare the restriction's protective contribution with access harm, feasible alternatives, delay, and displaced work. `D.4` carries the resulting decision, including the authority needed to change a requirement or accept a residual. If the required basis cannot be obtained, the proposed release remains unsupported; a narrower continuation must meet its conditions.
 

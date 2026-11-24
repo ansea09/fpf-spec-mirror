@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.12.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
-line_start: 112253
-line_end: 112419
+line_start: 112314
+line_end: 112480
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -108,13 +108,13 @@ Use this inquiry when the working result gives reason to examine what a passage 
 
 #### E.12:4.4 - A result-reuse passage examined at equal conditions
 
-E.11.PUR §4.2.1 asks whether an earlier result answers the present concern, using the direct result pattern to compare its EntityOfConcern/edition, question/use, source/dependency conditions and qualification/currentness boundary.
+Here the commission is to answer the same question from the available grounds. E.11.PUR §4.2.1 asks whether the earlier result still answers it, using the direct result pattern to compare its EntityOfConcern/edition, question/use, source/dependency conditions and qualification/currentness boundary.
 
 The reuse instruction reads: “When those values still match, cite and use the earlier result.” Its following instructions retain any needed A.10 reliance and G.11 currentness account, and reopen the smallest affected result question when a value changes.
 
 For the same task and prerequisites, compare that connected passage with this alternative sentence: “Cite and reuse the earlier result only when its subject and edition, question and use, relied sources and dependencies, and qualification/currentness still answer the present concern.” Keep the surrounding reliance and reopen rules in both versions. This makes the antecedent explicit without relaxing any assurance condition.
 
-An expert walkthrough can recover all four comparison duties from the actual passage's preceding list; on that basis alone, no change is required. No reader observation or workload measurement is asserted by this example.
+An expert can recover all four comparison duties from the preceding list. A separately commissioned independent performance would still be due even if the earlier answer sufficed for this question. No reader observation or workload measurement is asserted by this example.
 
 If an actual initial attempt instead misses the reuse condition, retain that response and examine whether the explicit alternative repairs that miss.
 
@@ -170,7 +170,7 @@ Its domain is service/interface research; it supplies neither a psychometric wor
 
 Use actual reading when the F.19 conditions require it, particularly when competing reconstructions or an observed miss can change the repair.
 
-In §4.4 the expert can recover the four reuse duties from the preceding list, so the shorter explicit sentence is not automatically a better instruction.
+In §4.4 the expert can recover the four conditions for using the earlier answer from the preceding list, so the shorter explicit sentence is not automatically a better instruction.
 
 If the intended reader's first attempt misses one duty, the task-bound comparison can distinguish a hidden antecedent from missing subject preparation.
 

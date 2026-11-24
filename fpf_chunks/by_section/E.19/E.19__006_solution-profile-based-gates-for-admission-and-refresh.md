@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 120864
-line_end: 121417
+line_start: 120928
+line_end: 121481
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -51,7 +51,7 @@ For an ordinary bounded review, keep the reviewed edition or subset, question, s
 1. the exact reviewed FPF pattern edition or bounded subset and the declared admission/refresh question;
 2. the review configuration: baseline and risk-selected PCP declarations, exact question scope, use, qualification window, and stop boundary;
 3. the semantic review `U.Method`, when that identity matters; call an episteme its `U.MethodDescription` only after it passes A.3.2;
-4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, recover every actual performer through A.13 and use A.15.1 to identify its time, Method, containing System, and Work independently. Add F.6 only when the review account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. That attribution must be independently grounded. Holder identity or timing does not establish it. A missing or failed F.6 link alone leaves independently admitted Work intact. Recheck any A.13 or A.15.1 premise invalidated by the same finding and its dependent conclusions;
+4. for an actual review, repair or verification asserted as dated `U.Work`, establish the A.13 basis of the performer or performers to which it is attributed at the claimed scale. Under A.15.1 establish the occurrence, its time, Method and containing System. A board can issue a joint review while the member who first recognized a defect remains unknown. For credit to a particular reviewer, an independence claim or a personally commissioned review, establish that reviewer’s judgement and the help available. Apply F.6 to the particular Work and obtaining assignment when precise assignment-bound attribution matters. If an attribution fails, recheck the occurrence claims that depended on that premise. A missing F.6 link alone leaves an independently established Work intact.
 5. each PCP check application and A.6.1 binding only when the receiving use must replay those bindings;
 6. any distinct authoring/repair work, changed pattern edition, and focused verification work/application in inspect-repair-verify form;
 7. actionable finding or blocker claims, focused-verification claims, and one C.2.1 aggregate E.19 review-result episteme when a durable conclusion is required;
@@ -379,7 +379,7 @@ public-facing with substantive entry risk, or retrieval-facing.
 
 When needed, the compact note names only the changed companion or projection function, the affected first-entry pattern-comparison set or pattern, the changed first-use recognition function or signature, and the entry or applicable projection function governing the claim or projection. Name the selected check if there is one.
 
-Empirical evidence is required only when the change is:
+For the ordinary entry-risk judgement, empirical evidence is called for when the change is:
 
 * high-risk;
 * disputed;
@@ -398,7 +398,7 @@ together with `PCP-ENTRY-E3` or `PCP-ENTRY-E4` when the failure is lexical or
 retrieval-facing.
 
 Select only evidence modes needed for the changed entry risk. An unselected
-mode requires no result row or durable disposition.
+mode needs no result row. Existing evidence can satisfy a selected mode when it covers the claim. Where the commission specifies a fresh observation or a new independent assessment, obtain that performance with the stipulated access and assistance.
 Selected evidence modes may include:
 
 1. **PCP-ENTRY-E1 — cold-reader recognition or pattern-selection task**
@@ -503,7 +503,7 @@ For `PCP-ENTRY`, the ordinary compact pattern-local change note remains enough w
 
 ##### E.19:4.3.3 - Pattern-Edition Use-Value Replay
 
-Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. Run it once on the stable candidate before acceptance or landing. Start with the bounded E.8 loop over the actual predecessor and proposed prose, then open only each affected prior-edition or candidate-only use whose result can differ, pinned to its exact basis and changed locus.
+Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. Use the replay on the stable candidate before acceptance or landing. An applicable replay already performed on that candidate can supply the result. Perform any new replay the commission expressly requires. Start with the bounded E.8 loop over the actual predecessor and proposed prose, then open only each affected prior-edition or candidate-only use whose result can differ, pinned to its exact basis and changed locus.
 
 Treat a change as mechanical only when the smallest relevant comparison shows that every materiality value named in `E.8:4.1.2` is preserved. A genuinely bounded local semantic edit opens only its affected use probe and changed wording group; the physical size of the rewrite does not establish its scope.
 

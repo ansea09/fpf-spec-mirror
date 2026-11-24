@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 19506
-line_end: 19700
+line_start: 19519
+line_end: 19713
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,18 +51,18 @@ keywords:
 
 #### A.6.3.RT:4.1 - Ordinary representation move
 
-Produce the useful target first:
+Work from the target the user needs. When a representation has already been supplied, compare it with the source and test the operation it is meant to support. Use the construction steps for the choices or repairs that the commission requires.
 
 1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate or replay. Identify the user's familiarity with the notation when that changes what they can do with it.
 2. Point to the source material. Recover the givens, constraints and partial construction, including the claims, commitments, uncertainty and source references that must survive. Keep unknowns identifiable as unknowns.
-3. Choose a target representation and a medium in which the user can perform the intended operation. When the target is an expression in a representation language, identify the formation and interpretation conventions it needs. A familiar notation may suffice. For a physical arrangement or a learned representation, establish how the user can obtain a reading or make a comparison and what warrants using it for this inquiry.
-4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions. A.6.3.RT.OE develops this construction when the expression's parts must be prepared for the intended operation.
+3. Use the supplied target and medium when adequate, or choose a representation and a medium in which the user can perform the intended operation. When the target is an expression in a representation language, identify the formation and interpretation conventions it needs. A familiar notation may suffice. For a physical arrangement or a learned representation, establish how the user can obtain a reading or make a comparison and what warrants using it for this inquiry.
+4. Construct or repair the target where the present one leaves the action unsupported. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions. A.6.3.RT.OE develops this construction when the expression's parts must be prepared for the intended operation.
 5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
 6. Try the intended operation when a short trial can decide whether the representation is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the representation.
 7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
 8. State the supported use. Add a non-admissible use or return condition when a source limitation, representation feature, observed misunderstanding or applicable risk gives a plausible reader a consequential reason to need it. Name the return destination when return is required.
 
-The first result is the target representation and its representation note. When work with the representation establishes a new claim, its construction, observation or argument supplies the grounds for that claim. Attribute preserved claims to the original givens and newly established claims to the work that supports them, even when both concern the same entity.
+A construction yields the target and its representation note. An assessment of a supplied target can end in the supported judgement about its use. When work with the representation establishes a new claim, its construction, observation or argument supplies the grounds for that claim. Attribute preserved claims to the original givens and newly established claims to the work that supports them, even when both concern the same entity.
 
 Choose another representation language when the current language cannot express a distinction that matters to the work. Developing new signs or formation rules is notational design. A.6.0 supports a reusable vocabulary and its laws, and A.6.1 the declaration of operations. Use the chosen conventions to construct the expression.
 
@@ -207,7 +207,7 @@ Check each target-side connective against the source or same-EntityOfConcern cor
 
 State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may remain useful under a reliability claim bounded by the source or with an explicitly narrowed admissible use. If the target is admissible only for a declared narrower use with source return, A.6.3.CSC is primary.
 
-If the target omits a condition, establish how the recipient is to interpret the omission. An extract that says nothing about joint operation may leave the reader to consult the source. A replacement model that expressly permits the settings of two controllers to be chosen independently can admit a combination the source ruled out, even when each controller still has exactly the same settings. Compare the permitted combinations for the same inquiry under B.5.MR. For a strict abstraction, establish a feasible source answer, show that every source answer remains permitted and identify an additional answer permitted by the replacement. When the target provides no answer to that inquiry, report the limit of the extract's use.
+If the target omits a condition, establish how the recipient is to interpret the omission. An extract that says nothing about joint operation may leave the reader to consult the source. A replacement model that expressly permits the settings of two controllers to be chosen independently can admit a combination the source ruled out, even when each controller still has exactly the same settings. Compare the permitted combinations for the same inquiry under B.5.MR. For a claim of strict abstraction, establish that the source admits at least one completion. Show how every admissible source completion, read in the replacement's terms for this inquiry, satisfies the replacement's assertions. Then identify an answer the replacement permits that no source completion can produce. Comparing the two lists of individual settings alone can miss a change in which settings may be used together. When the target provides no answer to that inquiry, report the limit of the extract's use.
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 

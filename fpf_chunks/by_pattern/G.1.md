@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
-line_start: 136538
-line_end: 137012
+line_start: 136602
+line_end: 137076
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -216,7 +216,7 @@ M2 binds the harvested set to the chassis. When a use relies on coverage, cite G
 **Governs (kit surface):**
 
 * `VariantPoolId` bound to `CG‑FrameContext`
-* per‑candidate minimal traceability fields (emitter identity, `EmitterPolicyRef` (policy‑id/ref; defined by the governing pattern), method/generator refs when declared, edition pins, provenance anchors)
+* source, applicable edition and grounds for including each candidate in the pool. For a candidate generated for this pool, also retain the actual emitter, `EmitterPolicyRef` and applicable method or generator references. For an imported proposal, distinguish its origin, where known, from the work of selecting it for this pool. Attribute a choice to a particular participant on evidence of that participant’s contribution.
 * optional, per‑candidate **assurance preview pointers** (e.g., `PathSliceId?` and/or `SCRId?` when early assurance is recorded) and optional **QD/Open‑Ended scaffolding stubs** (only when introduced by explicit `GPatternExtension` blocks)
 
 **Guardrails (via G.Core):**
@@ -271,7 +271,7 @@ M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define 
 | ------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | M1     | CG‑Frame brief + `entityOfConcern` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
 | M2     | discovery inputs + inclusion criteria *(via G.2)*                           | `SoTA_SetId` (+ provenance anchors; optional UTS stubs/rows)                           |
-| M3     | `SoTA_SetId` + local constraints + emitter policy pins *(via Extensions)*   | `VariantPoolId` (+ candidate trace/provenance; optional method payload via Extensions) |
+| M3 | `SoTA_SetId`, local constraints, sources of imported candidates and emitter policy pins for generated candidates *(via Extensions)* | `VariantPoolId` with candidate provenance and, where applicable, method payload via Extensions |
 | M4 | The applicable pool and eligibility rules for selection, or established members and their inclusion basis for a declaration | G.5 outcome in its own kind with the applicable references. Include `ShortlistId` for an identified shortlist. |
 | M5 | References to the result actually obtained and to the applicable CHR/CAL/LOG bundles and UTS names | `CGFrameLibraryId` for the published bindings. |
 | M6     | telemetry inputs + applicable freshness/decay policy pins + RSCR tests                 | `CGKitId` + `RefreshReadinessCardId` (wiring to `G.11`; no orchestration governance)    |
@@ -442,7 +442,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 
 * **M1:** define `CG‑FrameContext` for “R&D decision options”, pin `CNSpecRef/CGSpecRef` editions, and publish `entityOfConcern` + `ReferencePlane`.
 * **M2:** build `SoTA_SetId` via `G.2` using a living-review funnel with a declared update cadence and source-selection reporting (for example, PRISMA-style reporting) and publish UTS stubs for reusable constructs.
-* **M3:** emit a `VariantPoolId` where each candidate cites its emitter policy and provenance; if QD is used, wire `DescriptorMapRef.edition` and `DistanceDefRef.edition` via `G.1:Ext.NQD`.
+* **M3:** publish a `VariantPoolId` with provenance for each candidate. Cite the actual emitter policy for each generated candidate and the source and inclusion grounds for each imported one. If QD is used, wire `DescriptorMapRef.edition` and `DistanceDefRef.edition` via `G.1:Ext.NQD`.
 * **M4:** produce `ShortlistId` as a selected-set / shortlist surface via `G.5`, with acceptance predicates sourced from `G.4`.
 * **M5:** publish a `CGFrameLibraryId` indexing the chosen CHR/CAL/LOG bundles and UTS rows; register RSCR tests.
 * **M6:** declare refresh readiness (telemetry pins + canonical RSCR trigger kinds) and wire to `G.11`.
@@ -471,7 +471,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 | CC‑G1‑01 | The reusable kit has six identifiable cards `M1…M6` and a versioned manifest `CGKitId` that binds them. It identifies its `CG‑FrameContext`, `SoTAPaletteDescriptionId`, `SoTA_SetId`, `VariantPoolId`, `CGFrameLibraryId` and `RefreshReadinessCardId`. The connections must support the generation, selection or declaration actually commissioned. M4’s card identity identifies the design. Pin `ShortlistId` when publishing an identified shortlist, and carry any other G.5 outcome under its own kind. |
 | CC‑G1‑02          | `M1` MUST bind the kit to a single `CG‑FrameContext` and MUST expose the required pins from `GCorePinSetId.PartG.AuthoringMinimal` (including `entityOfConcern` and `CNSpecRef/CGSpecRef` editions). `M1` MUST also expose (or explicitly cite) a `ReferenceMap` surface and MUST NOT restate its semantics (cite `G.0:CG‑Spec.ReferenceMap`).  |
 | CC‑G1‑03          | `M2` MUST be wired to `G.2` (or explicitly cite the `G.2` artefacts governed by cited patterns) and MUST be reconstructible as a scoped set, including `SoTAPaletteDescriptionId` + `SoTA_SetId` (not free‑floating prose). Provenance MUST be anchored via `A.10` for the emitted set.  |
-| CC‑G1‑04          | `M3` MUST record emitter provenance as a wiring surface, including `EmitterPolicyRef` (policy‑id/ref), edition pins, and provenance anchors (via `A.10`). Any method‑specific fields MUST be introduced only via `GPatternExtension` blocks.   |
+| CC‑G1‑04 | `M3` MUST preserve candidate provenance via `A.10`. For an imported candidate, identify the source, applicable edition and reason for inclusion. For a generated candidate, record the emitter, `EmitterPolicyRef` (policy id/ref), edition pins and provenance anchors. Introduce method-specific fields only via `GPatternExtension` blocks. |
 | CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve the actual outcome and, for a set result, its family. When the use consumes a G.5 audit, `SCRId` MUST be present (or recoverable from an explicitly cited SCR record) so the G.5 audit references are addressable; assurance content is required only for an actual named assurance claim; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
 | CC‑G1‑06          | `M5` MUST publish a library/index surface that points to referenced CHR/CAL/LOG artefacts and to any minted public ids (`UTSRowId[]`, Name Cards) via the canonical governing definitions (Part F), without introducing shadow specs (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`).    |
 | CC‑G1‑07          | `M6` MUST publish `CGKitId` and expose refresh-readiness wiring: canonical `RSCRTriggerKindId[]` applicability, minimal payload pins and RSCR test ids. Planned baseline references MUST follow `G.1:4.2.6`, including the additional references required when `A.15.3` applies; orchestration semantics MUST be cited to `G.11`. |

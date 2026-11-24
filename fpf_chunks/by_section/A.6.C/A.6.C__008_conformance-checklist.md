@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 16378
-line_end: 16418
+line_start: 16391
+line_end: 16431
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,7 +84,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    MVPK faces **MUST NOT** add new boundary claims; they publish only the existing canonical L/A/D/E claims under E.17. Informative commentary may explain those claims without adding boundary semantics. An asserted `U.View` separately requires E.17.0 conformance.
 
 7. **CC‑A.6.C‑7 (RFC‑keyword discipline inside faces).**
-   Each MVPK face sentence containing a BCP-14 keyword **MUST** cite its classified claim ID or canonical location, direct object, and selected `A6-AW-*` row when permission-looking. Only norm/grant claims cite D; gate claims cite A; exercise and evaluated findings cite E.
+   Each MVPK face sentence containing a BCP-14 keyword **MUST** cite its classified claim ID or canonical location, direct object, and selected `A6-AW-*` row when permission-looking. A norm or grant claim cites D. A projection of an entry condition cites its A claim. A projection of an actual gate decision, exercise or evaluated finding cites its E claim.
 
 8. **CC‑A.6.C‑8 (Obtaining is not representation).**
    A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The obtaining predicate and cited context policy decide whether the relation obtains.

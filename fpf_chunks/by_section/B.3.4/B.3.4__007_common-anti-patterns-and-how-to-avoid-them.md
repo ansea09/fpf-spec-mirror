@@ -6,12 +6,12 @@ section_id: "B.3.4:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 47411
-line_end: 47420
+line_start: 47436
+line_end: 47445
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,5 +30,5 @@ keywords:
 | Unchanged file therefore safe | A newly relevant dependency vulnerability is ignored because the library bytes are unchanged. | Reopen the affected security claim and communicate its unsupported reach. |
 | Green therefore assured | Fresh reports or zero overdue reviews hide an unresolved performance failure. | Assess relevance and adverse results for the target claim; report dashboard meaning. |
 | Status as risk acceptance | Lowering a badge or obtaining a senior signature is treated as permission to expose others to harm. | Establish the rule, authority and permitted response; restrict unsupported use where needed. |
-| Maintenance by forced experiment | A repeat test consumes the only opportunity for a protective inspection without changing any relevant conclusion. | Compare marginal contribution and displaced cost; retain binding conditions while seeking any justified amendment. |
+| Maintenance by forced experiment | A repeat test consumes the only opportunity for a protective inspection without changing any relevant conclusion. | Compare the benefit of repetition with the work it would displace. Retain the binding condition in the plan. Seek or refer an amendment when the commission or an applicable duty calls for it. |
 

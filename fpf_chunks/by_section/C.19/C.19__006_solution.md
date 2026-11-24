@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 64355
-line_end: 64644
+line_start: 64386
+line_end: 64675
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -81,7 +81,7 @@ PoolPolicyResult.causalUseSpec?:
   unsupportedUse
 ```
 
-Omit this tail when the pool treatment makes no causal claim and consumes no causal-support result. Include it when effect, counterfactual replay, causal-policy support, or causal evidence changes the treatment. The C.28 result remains evidence support; it does not authorize ranking, retirement, deployment, or graduation. C.19 makes the pool-treatment decision under its own policy.
+Omit this tail when the pool treatment makes no causal claim and consumes no causal-support result. Include it when effect, counterfactual replay, causal-policy support, or causal evidence changes the treatment. The C.28 result remains evidence support; it does not authorize ranking, retirement, deployment, or graduation. Establish which person, service or authorized body made the pool-treatment decision under the applicable policy when the claim concerns an actual decision.
 
 **Policy fields.** `EmitterPolicy` is a context-local, versioned policy with canonical fields:
 `{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, graduationConditionRef?, assuranceResultRef?, epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
@@ -92,7 +92,7 @@ The pool policy separately states why active exploration or retention is worthwh
 
 `emitterPolicyId` is cited as `emitterPolicyRef`; the profile is not a U-kind, generation operator, staffing instruction, budget approval, or Work record.
 
-**Decision-subject clarification.** Attribute any later choice to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. Record measurement spaces and admissible policies in the semantic-frame epistemes that state them. Use LOG to describe lenses and policies; that description does not enact a choice.
+**Who decided.** For each choice, identify the `DecisionSubject` at the applicable `DecisionSubjectGranularity`. Where a joint outcome requires decisions by independent holders, establish their decisions and the rule connecting them. Use LOG to describe lenses and policies, and the semantic-frame epistemes for measurement spaces and admissible policies. Those descriptions can support a decision without identifying who made it.
 
 **EmitterPolicy use.** A C.18 generation or archive account cites this profile only when pool treatment, insertion or deduplication uses it.
 
@@ -181,7 +181,7 @@ A supported pool-treatment conclusion identifies the pool and its next treatment
 - Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without implying that one scalar winner has already been chosen.
 - Close as `sunset_line` when a line's prospective contribution, feasible continuation or retention no longer warrants its burden under the pool policy. Failure to graduate is not enough. Its archived result may still be retained under C.18 when that separate retention remains useful.
 
-For a decision about the present pool, apply both policies to the same candidate lines and evidence. Compare how the policies would treat these lines. With the same permitted actions they can still give different commitments, resource allocations or sampling probabilities. Retain the differences that matter to the present decision. For a comparison starting from this pool, hold its initial candidates and the external opportunity and resource conditions comparable. For performance across pools, establish a comparable basis across the population in question. Trace how each policy’s treatments would affect the candidates explored, the evidence obtained and the later choices available. Identify which differences follow from the policy and which depend on an external change. A prospective comparison can remain conditional on an outcome still to be observed.
+For the treatment of the present pool under its governing policy, apply that policy to the relevant candidates and evidence. When comparing two policies, apply them on a common basis and compare how each would treat those lines. With the same permitted actions they can still give different commitments, resource allocations or sampling probabilities. Retain the differences that matter to the present decision. For a comparison starting from this pool, hold its initial candidates and the external opportunity and resource conditions comparable. For performance across pools, establish a comparable basis across the population in question. Trace how each policy’s treatments would affect the candidates explored, the evidence obtained and the later choices available. Identify which differences follow from the policy and which depend on an external change. A prospective comparison can remain conditional on an outcome still to be observed.
 
 When the question has stopped being pool policy, carry the established result or qualified open question into the applicable handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
 

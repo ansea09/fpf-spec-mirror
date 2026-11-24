@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.CM.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
-line_start: 71971
-line_end: 72202
+line_start: 72018
+line_end: 72249
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -125,7 +125,7 @@ Two graphs may entail the same observed independences. Two mechanisms may produc
 
 #### C.28.CM:4.6 - Challenge the consequence with available evidence
 
-Compare the consequence with a relevant observation, contrasting case, or argument about the modeled process. An intervention that could distinguish two explanations gives the team a test it can run. To use that test as empirical evidence, obtain its result or use a suitable result already available. First check that the observation concerns the modeled variable, cases and time. A contradiction can arise from the mechanism, measurement, implementation of a proposed action, or a changed operating condition.
+Compare the consequence with a relevant observation, contrasting case, or argument about the modeled process. Different predictions can suggest a test. To offer it as feasible here, establish who can authorize and perform the intervention, who can observe the response, and whether the necessary access, equipment and time are available. A suitable earlier observation can settle the comparison. A newly commissioned test requires its own result. First check that the observation concerns the modeled variable, cases and time. A contradiction can arise from the mechanism, measurement, implementation of a proposed action, or a changed operating condition.
 
 Distinguish a contradicted implication, an untested implication and compatibility with the inspected material. A graph with no relevant testable implication cannot acquire support merely from an absence of contradiction. Conversely, failure to reject an implied independence does not establish the graph. Deterministic constraints, measurement error, missing cases and sampling uncertainty can all change the interpretation.
 
@@ -174,7 +174,7 @@ Construct separate variables for delivered voltage V, display D and current I. U
 
 Setting the displayed number to 12 replaces the display mechanism in either model. It leaves V and I unchanged. Changing C to 6 instead gives V=6, I=1 in the first model and V=8, I=4/3 in the second, if the stated offsets and load relation remain valid. The observation D=14 alone does not choose between the accounts.
 
-A separately qualified voltage or current observation can discriminate these idealized models. The need is a measurement of the physical quantity with a suitable independent basis, not another copy of the same display.
+A qualified voltage or current observation independent of the display can distinguish the models. If the team has access only to the display, it can still explain what a meter at the load would resolve. Before promising a new reading, establish that someone authorized to measure at the load has a suitable meter and can make the measurement in the relevant operating window.
 
 Change the situation: the displayed value is fed into an automatic controller for the next command. The earlier absence of a display-to-device path no longer applies over that horizon. Add D(t) → C(t+1) → V(t+1) and obtain the controller law before predicting the later current. The current instant and later controlled behavior are different questions. C.28.MR then performs the chosen replacement in the model constructed.
 
@@ -207,7 +207,7 @@ Narrative closure favors the first fluent explanation. Diagram authority favors 
 - The graph or equation class supports the rule used; DAG path inspection covers all relevant paths and conditioning, including selection.
 - A consequence follows from named premises, or the missing premise is returned.
 - Compatibility, contradiction and absent discrimination retain different meanings.
-- The returned use distinguishes recognition, model consequence, evidential support and action choice.
+- The returned use distinguishes recognition, model consequence, evidential support and action choice. A test offered as feasible has an available way to perform it and obtain the discriminating observation under the stated conditions.
 
 ### C.28.CM:8 - Common Anti-Patterns and How to Avoid Them
 

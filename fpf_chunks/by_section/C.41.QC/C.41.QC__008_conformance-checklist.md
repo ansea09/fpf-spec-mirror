@@ -6,12 +6,12 @@ section_id: "C.41.QC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:7 — Conformance Checklist"
-line_start: 95084
-line_end: 95093
+line_start: 95141
+line_end: 95150
 dependencies:
   - "A.10"
   - "C.41"
@@ -27,6 +27,6 @@ Inspect the qualification's claim and probes:
 - Are criterion, checking means, subject and receiving inference separately recoverable?
 - What grounded comparison, subject rule or counterexample warrants reliance over the intended cases?
 - Have false passes, false failures and unresolved observation been interpreted at their costs?
-- Does any independent contribution supply a different basis rather than repeated agreement?
+- Which contributions must be independent, and what establishes that independence for the observations, the evaluators’ judgements or both?
 - Is the resulting reliance bounded, with material change and counterexample triggers for reconsideration?
 

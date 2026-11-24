@@ -6,12 +6,12 @@ section_id: "C.33:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:5 — Archetypal Grounding"
-line_start: 85093
-line_end: 85114
+line_start: 85150
+line_end: 85171
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -68,7 +68,7 @@ C.33 separately names affected characteristics such as latency, compute, memory,
 
 Architecture narrative case. A team narrative says "we moved from candidate A to candidate B because data custody forced placement P and made latency trade-off T acceptable." C.33 records the structural content and decision context the narrative captures: the move from candidate A to candidate B, data-custody constraint, placement constraint, and trade-off.
 
-The statement gives the team's reason for changing candidates. To use B under a tighter latency limit, establish that its latency meets the new limit under the intended load. An existing validated bound can settle that question. If both A and B remain eligible and the commission calls for choosing between them, compare them under the criteria that decide this choice. To establish which placement was installed, check applicable as-built evidence. Use the evidence already in the account when it settles the question.
+The narrative gives the stated reason for the change. To identify who chose B, establish who selected it and, for a choice attributed to the team, why that act counts as the team's decision. To report the grounds they relied on, establish how the explanation relates to that decision. An authoritative account can supply both answers. To use B under a tighter latency limit, establish that its latency meets the new limit under the intended load. An existing validated bound can settle that question. If both A and B remain eligible and the commission calls for choosing between them, compare them under the criteria that decide this choice. To establish which placement was installed, check applicable as-built evidence. Use the evidence already in the account when it settles the question.
 
 The account is sufficient when it establishes what the carrier supports for the intended use. A further claim may need an architecture description, view, evaluation, evidence, decision or authorization under its own rule; C.33 identifies the missing structural contribution and returns that question to the applicable pattern.
 

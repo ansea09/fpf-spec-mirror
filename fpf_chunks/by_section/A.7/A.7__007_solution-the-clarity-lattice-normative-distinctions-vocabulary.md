@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_solution-the-clarity-lattice-normative-distinctions-vocabulary.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & vocabulary)"
-line_start: 26543
-line_end: 26687
+line_start: 26560
+line_end: 26704
 dependencies:
   - "A.1"
   - "A.10"
@@ -183,10 +183,10 @@ A.7 supplies only the distinction. The authoritative promise-facing `OutcomeSpec
 An `OutcomeSpec` is a specification-use episteme form, not a new U-kind, a Work occurrence, an affected entity, a post-work state, an operation-result binding, or a verdict episteme. Its mode says which facts the promise constrains:
 
 * `WorkOnly` constrains selected facts about one or more delivery Work occurrences;
-* `ResultOnly` constrains the affected referent and required post-work state, regardless of method; and
+* `ResultOnly` constrains the nominated referent and its required state under the conditions and at the time specified in the promise; and
 * `Composite` constrains both.
 
 **Example.** `The provider cuts and styles the client's hair within 20 minutes, and the resulting hairstyle meets the stated evening-style condition.` The first clause constrains delivery Work and may name the Method. The second constrains the client's post-work hairstyle state. Affected-referent, actual-change, production, delivery, acceptance, and evidence-use relations are stated only when the receiving claim needs them. No `U.Work.Delta` field or universal delta record is required; an optional mathematical change expression remains a separate lens when a named comparison uses it.
 
-Evidence supports assertions about the selected Work facts, affected referent, post-work state, and direct relations. Evidence and its carrier do not become any of those facts. Counting is also separate: A.2.3's `unitOfDelivery` says how accepted delivery is counted and how double counting is prevented; it is not part of `OutcomeSpec`.
+Evidence can support a claim about the required state, selected Work or a direct relation. A.2.3:4.1.2 identifies the agreed unit and how it is counted. A count of sites that met a condition can be established without a corresponding count of delivery jobs. Evidence, the facts it supports and the rule for counting accepted units have distinct uses.
 

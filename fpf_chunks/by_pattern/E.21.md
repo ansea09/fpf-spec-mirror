@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 122002
-line_end: 122676
+line_start: 122066
+line_end: 122740
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -97,7 +97,7 @@ For one pattern-quality evaluation, keep each object and relation asserted in th
 2. the declared `ClaimScope`, working reader, intended receiving use, qualification window, evidence basis, and evaluation configuration;
 3. the selected `U.CharacteristicSpace`, this E.21 evaluation-specification episteme, every coordinate/scale binding, and the local result-form and status-value rules;
 4. when exact Method identity or actual assessment Work is asserted, one separately identified semantic evaluation `U.Method`;
-5. when actual dated assessment `U.Work` is asserted, first recover every evaluator-performer's A.13 core for the assessment action. A.15.1 then independently admits the Work from its performance history, enacted Method, temporal extent, and one obtaining locally declared relation to the containing `U.System`, under the exact system boundary and qualification window. Add F.6 only when the evaluation account also needs precise assignment-bound attribution, using the same obtaining A.13 assignment. A compact account may omit an identifier unused by the receiving claim only when every relation it consumes remains recoverable;
+5. for an actual dated assessment `U.Work`, establish the A.13 basis of the System or Systems to which the work is attributed. A.15.1 independently admits that work at the stated scale from its history, enacted Method, temporal extent and obtaining relation to its containing System. A board can make an assessment even if the member who first found a defect remains unknown. For a claim of personal judgement, independence or performance under an assignment, establish that participant’s contribution and conditions. Apply F.6 to the particular attributed work and the obtaining assignment that covers it when that exact attribution is needed.
 6. every coordinate-result claim, their same-bearer non-arithmetic `PatternQualityQBundle` ClaimGraph payload, and one C.2.1 aggregate pattern-quality-result episteme when a durable result is needed;
 7. witnesses, comparator/source/case refs and actual support for the coordinate claims; A.10 source-to-use relations and bounded reliance results when the account is implicit or must remain replayable; and any B.3 result for an actual named assurance claim;
 8. an optional evaluation-record episteme that packages those refs;
@@ -173,20 +173,20 @@ PatternQualityEvaluationConfiguration:
 
 When dated assessment Work is asserted:
   AssessmentWorkRef: <PatternQualityAssessmentWorkRef: the dated assessment U.Work independently admitted under A.15.1>
-  EvaluatorSystemRefs: <every admitted U.System that performed AssessmentWorkRef>
-  EvaluatorA13CoreBasisRefs: <for every precise performer, exact local agential kind and
-    criterion, classification, same obtaining assignment, scope, working situation, window,
-    and adequate core evidence; add a characteristic profile only when separately consumed>
+  EvaluatorSystemRefs: <the System or Systems credited with this work at the stated scale>
+  EvaluatorA13CoreBasisRefs: <for each performance attributed to a System, its work or contribution,
+    local agential kind and criterion, classification, obtaining assignment, extent and grounds;
+    a characteristic profile only when the receiving claim uses one>
   AssessmentTemporalExtent: <exact extent of W>
   WorkToSystemRelationBasis: <name one locally declared Work-to-System predicate and its
     obtaining relation for AssessmentWorkRef, the exact containing U.System, system boundary,
     and qualification window>
   EnactedMethodRef: <the exact A.3.1 U.Method enacted by AssessmentWorkRef>
-  PreciseAssignmentAttributionRefs?: <only when the receiving claim needs exact
-    assignment-bound attribution; for every performer cite the direct case fact that it
-    performed AssessmentWorkRef under the same obtaining A.13 assignment, the declared
-    assignment species and participant values, holder equality, the obtaining assignment
-    predicate and interval, coverage of AssessmentTemporalExtent, and the resulting F.6 link>
+  PreciseAssignmentAttributionRefs?: <for each exact assignment-bound attribution the claim needs,
+    identify the System, the specific dated Work or separately established constituent Work,
+    and its extent. Cite this performer's obtaining assignment, its species, participants and
+    interval covering that Work, the grounds that the Work was performed under it and its F.6 link.
+    Distinct contributors to one assessment can have different assignments.>
   EvaluationConfigurationRef:
 When an exact declared-operation application is also asserted:
   ApplicationAndBindingAccount: <the separately admitted mechanism, exact declared operation and application occurrence, and actual declaration-local bindings required by the compact A.6.1 rule in E.21:4>
@@ -394,9 +394,9 @@ An all-`5` result is a local exceptional result under the declared scope and qua
 
 ##### E.21:4.5.1 - Consume Pattern-Edition Use-Value Evidence Noncompensatorily
 
-When an `E.19:4.3.3` replay is current, use that one stable-candidate replay as evidence for the E.21 assessment. During assessment, keep materially affected predecessor and candidate-only uses distinguishable whenever their action, result, boundary, necessity, or consequence can differ; do not copy clean per-use dispositions into the E.21 result.
+When an `E.19:4.3.3` replay is current, use the applicable stable-candidate replay as evidence for the E.21 assessment. During assessment, keep materially affected predecessor and candidate-only uses distinguishable whenever their action, result, boundary, necessity, or consequence can differ; do not copy clean per-use dispositions into the E.21 result.
 
-The evaluator applies every existing coordinate required by the declared scope once. The result names the replay loci in `EvaluationEvidenceBasis` and carries only distinctions, failures, or improvements that change a coordinate rationale or `PatternQualityStatus`; it does not replace the coordinate set with one use-value score, average replay results, or infer a coordinate value from an E.19 outcome.
+The declared assessment returns one supported result for each required coordinate. When the commission requires two independent judgements or a fresh assessment, obtain them and resolve any disagreement as the applicable terms prescribe. Preserve unresolved disagreement if those terms leave it open. The result names the replay loci in `EvaluationEvidenceBasis` and carries only distinctions, failures, or improvements that change a coordinate rationale or `PatternQualityStatus`; it does not replace the coordinate set with one use-value score, average replay results, or infer a coordinate value from an E.19 outcome.
 
 Apply these consequences:
 
@@ -611,7 +611,7 @@ Repair by moving the evidence to the `E.21` result, `E.19` run record, README, T
 
 | Check | Requirement |
 |---|---|
-| `CC-E21-0` | Keep the exact checked pattern edition, characteristic space and specification, evaluation configuration, evaluator and ordinary assessing action, coordinate-result claims, aggregate result episteme, and any admission or refresh decision distinct. Do not invent a system-role kind, assignment, Method, Work, or A.6.1 application for the ordinary form. When actual assessment `U.Work` is asserted, the dated-Work account in E.21:4 **MUST** hold: every precise evaluator-performer has an A.13 core, and A.15.1 independently admits the Work from its performance history, enacted Method, extent, and containing-System relation under the exact boundary and qualification window. F.6 **MUST** be added only when the evaluation account also needs precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work assertion alone establishes neither an application nor a result. Keep the Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme separate; connect them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that obtains. When an exact application is asserted, the compact A.6.1 rule in E.21:4 **MUST** hold and its required application-and-binding account **MUST** be recoverable. Keep witnesses or evidence use, optional record, status use, assurance, publication, currentness, and later repair separately recoverable when claimed. |
+| `CC-E21-0` | Keep the exact checked pattern edition, characteristic space and specification, evaluation configuration, evaluator and ordinary assessing action, coordinate-result claims, aggregate result episteme, and any admission or refresh decision distinct. Do not invent a system-role kind, assignment, Method, Work, or A.6.1 application for the ordinary form. When actual assessment `U.Work` is asserted, the dated-Work account in E.21:4 **MUST** hold: the A.13 basis of each System to which performance is attributed holds at the claimed scale, and A.15.1 independently admits the Work from its performance history, enacted Method, extent, and containing-System relation under the exact boundary and qualification window. F.6 **MUST** be added only when the evaluation account also needs precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work assertion alone establishes neither an application nor a result. Keep the Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme separate; connect them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that obtains. When an exact application is asserted, the compact A.6.1 rule in E.21:4 **MUST** hold and its required application-and-binding account **MUST** be recoverable. Keep witnesses or evidence use, optional record, status use, assurance, publication, currentness, and later repair separately recoverable when claimed. |
 | `CC-E21-0a` | Constitute each coordinate value as a quality ascription about the same exact checked pattern edition with recoverable ReferenceScheme, characteristic, scale value, evaluation rule or probe, scope, use, and window, ordinary assessing action or exact assessment application when asserted, rationale, and evidence locus. Keep all required coordinate claims in one non-arithmetic `PatternQualityQBundle` payload carried by a separate C.2.1 aggregate result episteme; evaluator identity, viewpoint, witness presence, record placement, or bundle membership supplies neither value nor grounding by itself. |
 | `CC-E21-1` | Recover `ClaimScope` from the governing evaluation question: the current request, an `E.22` frame, an accepted decision or content source named by value, a landing or release check, a review request, or another request to use the quality evaluation. For independent assessment, verify the question against the original commission and intended use under E.22:4.0. A proposed rubric can be retained when it covers that use. Then name `PatternOfConcernRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, `QualificationWindow`, and `EvaluationEvidenceBasis`. |
 | `CC-E21-2` | Evaluate the full `RequiredPatternQualityCoordinates` set. |
@@ -631,7 +631,7 @@ Repair by moving the evidence to the `E.21` result, `E.19` run record, README, T
 | `CC-E21-13` | Keep quality results within their declared receiving use; any further evidence, assurance, gate, work, safety, compliance, release, or publication claim requires its direct relation. |
 | `CC-E21-14` | Do not raise a pattern with a bad `PrecisionRestorationProfile` through related-pattern-boundary, projection, or quality-result praise. When the profile shows defects before the pattern of concern's primary subject action is recoverable, or enough volume to compete with the Solution, lower `EntityOfConcernPrimacyAndSemioBiasResistance` and the affected action and usability coordinates; do not offset that loss with generic related-pattern-boundary praise or correct corpus projection evidence. |
 | `CC-E21-15` | Keep ordinal values as ordinal content-evaluation result claims, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the pattern's own subject kind and positive action guidance. The aggregate no-proposal or stop disposition in E.21:4.7 must name checked loci and why no substantive content improvement remains. |
-| `CC-E21-16` | When `E.19:4.3.3` use-value replay evidence is current, evaluate the full existing coordinate set once and keep only materially affected uses whose outcomes can differ distinguishable during assessment. Carry into the durable result only replay distinctions that affect a coordinate rationale, cap, or status; do not create a second clean-use ledger. Apply the required-failure caps and `repairBeforeUse` effects in `E.21:4.5.1`; keep optional absence non-blocking by itself while denying unsupported breadth, transfer, or value-`5` claims. Do not average outcomes, substitute an E.19 label for an ordinal value or status, compensate a failed required use with unrelated strengths, or infer values from a successful label alone. |
+| `CC-E21-16` | When `E.19:4.3.3` use-value replay evidence is current, return a supported value for each coordinate in the declared scope, account for any independently commissioned assessment and keep only materially affected uses whose outcomes can differ distinguishable during assessment. Carry into the durable result only replay distinctions that affect a coordinate rationale, cap, or status; do not create a second clean-use ledger. Apply the required-failure caps and `repairBeforeUse` effects in `E.21:4.5.1`; keep optional absence non-blocking by itself while denying unsupported breadth, transfer, or value-`5` claims. Do not average outcomes, substitute an E.19 label for an ordinal value or status, compensate a failed required use with unrelated strengths, or infer values from a successful label alone. |
 
 ### E.21:7 - Common Anti-Patterns and How to Avoid Them
 
@@ -691,7 +691,7 @@ Screening narrows where to look. The complete, use-scoped evaluation constitutes
 | `E.8.ECSPF` | Guides an author in carrying an accepted evaluation characteristic-space specification into practitioner-facing FPF pattern content. It keeps the specification, its `CharacteristicSpace`, the authored pattern, a later evaluation, and its result distinct. |
 | `F.19` | Governs whole-span precise-language reading, repair, and local revalidation. E.21 consumes its compact quality effect through `PrecisionRestorationProfile` and lowers the affected existing coordinates. `E.10` supplies cues and unresolved word or kind routes. |
 | `E.8` | Governs authoring of the pattern body whose exact edition E.21 assessment work evaluates and owns the canonical SoTA definition and positive comparison contract. E.21 consumes one completed `E.8:11` comparison when it assigns `SoTABindingAndCurrentness = 4` or `5`; it does not redefine that contract. |
-| `A.13`, `A.15.1`, `A.3.1`, `F.6`, `A.2`, and `A.2.1` | Define or constrain the dated-assessment-Work account in E.21:4. A.13 supplies every precise evaluator-performer's core and same obtaining assignment; A.15.1 independently admits the Work from its performance history, temporal extent, enacted Method, and obtaining containing-System relation under the exact boundary and qualification window; F.6 adds only a current precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme stay distinct. An E.21 claim connects them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that obtains. An evaluator may ordinarily apply the questions without asserting dated Work. Route unresolved source *role* through `E.10.ROLE`. |
+| `A.13`, `A.15.1`, `A.3.1`, `F.6`, `A.2`, and `A.2.1` | Define or constrain the dated-assessment-Work account in E.21:4. A.13 supplies the performer basis at the scale of each attribution and, when relevant to F.6, the obtaining assignment of that performer for the particular Work; A.15.1 independently admits the Work from its performance history, temporal extent, enacted Method, and obtaining containing-System relation under the exact boundary and qualification window; F.6 adds only a current precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme stay distinct. An E.21 claim connects them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that obtains. An evaluator may ordinarily apply the questions without asserting dated Work. Route unresolved source *role* through `E.10.ROLE`. |
 | `A.6.1` | Constrains only the exact declared-operation application admitted under the compact conditional rule in E.21:4. |
 | `C.2.1` | Governs the constitution of the checked pattern episteme/version reference, per-coordinate result claims, aggregate pattern-quality-result episteme, and optional evaluation-record episteme independently. |
 | `A.10` and `B.3` | A.10 supplies an implicit or required-replayable source-to-use account for reliance on the result; B.3 governs an actual named assurance claim about it. Witness presence and a favorable value create neither relation. |

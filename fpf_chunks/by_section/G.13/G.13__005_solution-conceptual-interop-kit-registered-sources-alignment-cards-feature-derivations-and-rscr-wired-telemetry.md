@@ -6,12 +6,12 @@ section_id: "G.13:4"
 section_title: "Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__005_solution-conceptual-interop-kit-registered-sources-alignment-cards-feature-derivations-and-rscr-wired-telemetry.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:4 — Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
-line_start: 142290
-line_end: 142441
+line_start: 142354
+line_end: 142505
 dependencies:
   - "A.18"
   - "A.19"
@@ -148,7 +148,7 @@ Start with the input required by the receiving method and records from the exter
 
 1. **Recover the required output meaning.** Read the receiving operation’s input definition and conditions. For a G.2 ClaimSheet, this includes the claim, its subject, scope and source support; for a CHR feature, the subject, characteristic, scale, units and observation basis come from G.3/C.16. For a Bridge hint, preserve the two local meanings and the proposed relation for F.9 to examine. Select only the outputs needed by the receiving question.
 2. **Recover what the available source fields denote.** Inspect actual records together with the provider’s definitions for that edition: the counted or described object, population, inclusion rules, units, dates/windows, missing-value conventions and identifiers. Follow a record’s citation to the underlying source when its metadata does not contain the claim or conditions needed. Use the name to locate the field. Its definition and examples establish what a value represents. If more than one reading is supported, determine whether the difference changes the required output. Resolve it through the provider or the source passage when it does. If every supported reading gives the required answer, give that answer with its grounds. A separately commissioned account of exactly what the field means still requires the distinction to be settled.
-3. **Connect each required output to its basis.** Select the source passage or field that supplies the output, or define the operation that derives it. Direct copying requires compatible meanings. A count requires the population, inclusion predicate and identity/equivalence rule; a unit conversion requires a lawful scale conversion; a claim extraction retains the source’s subject, conditions and contrary evidence under G.2. For a semantic correspondence use F.9’s relation construction and its separate receiving-use test. For a measurement use C.16’s measurement model and G.3’s lawful operations. If those methods and the available domain methods leave a transformation unspecified, identify what is missing and the source or competent supplier needed to construct it.
+3. **Connect each required output to its basis.** Select the source passage or field that supplies the output, or define the operation that derives it. Direct copying requires compatible meanings. A count requires the population, inclusion predicate and identity/equivalence rule; a unit conversion requires a lawful scale conversion; a claim extraction retains the source’s subject, conditions and contrary evidence under G.2. For a semantic correspondence use F.9’s relation construction and its separate receiving-use test. For a measurement use C.16’s measurement model and G.3’s lawful operations. If those methods leave a transformation unspecified, identify the missing operation. A practitioner entrusted with constructing it can develop and justify it using the domain sources, or seek the contribution that requires another supplier.
 4. **Check the transformation at the reach claimed for it.** Use actual records to establish how the published definition applies and to notice conditions the recipe might have omitted. Vary a condition on which the derivation depends. For an answer about a single record, its source and the obtaining mapping can suffice. For a repeatable recipe, establish which records, editions and cases the rule covers and why its transformation preserves the required output there. A disagreement on one in-scope record can expose a fault. A matching value can illustrate the derivation. A general derivation may also be explained through that record. When a recipient must replay a delivered result, retain the source passage, record and relevant value or a reference that retrieves them, together with the derivation actually applied. Missing values support zero, false or a negative claim only where the source meaning and derivation warrant that result.
 5. **Return the input or identify what prevents obtaining it.** A mapped result carries its source edition, applicable scope and transformation basis. A failed compatibility condition supports rejection of that mapping. An unresolved field definition, relation, measurement procedure or source claim prevents only the outputs that depend on it. Identify what source, observation or method construction could settle the gap and what can already be used. When the receiving contract requires a complete bundle, retain that unmet condition rather than treating a partial mapping as the bundle.
 
@@ -164,9 +164,9 @@ If `year` means index ingestion year, the recipe must obtain publication dates t
 
 ##### G.13:4.3.2 - Publish and use the established recipe
 
-1. **Register source editions.** Author `ExternalIndexCard@Context` for each external source snapshot mapped through this kit, including `ExternalEdition` and the `entityOfConcern` plane anchor.
-2. **Author mapping recipes.** Create `ClaimMapperCard@Context` for the established transformation and its limits, identifying the produced artefacts and applicable policy/spec references. Include `PlaneMapRef` or `ScaleEmbeddingSpecRef` when the transformation uses them.
-3. **Produce FPF-native inputs.** Apply the recipe and route its obtained outputs to the receiving operation, for example:
+1. **Resolve the source editions.** Use the `ExternalIndexCard@Context` for each relevant external source snapshot, including its `ExternalEdition` and `entityOfConcern` plane anchor. Author or revise the card when the necessary source account is missing or has changed, or a new edition is commissioned.
+2. **Resolve the mapping recipe.** Use the applicable `ClaimMapperCard@Context` for the transformation and its limits. When authoring or revising it, identify the produced artefacts and applicable policy/spec references. Include `PlaneMapRef` or `ScaleEmbeddingSpecRef` when the transformation uses them.
+3. **Supply FPF-native inputs.** Reuse a mapped result whose source edition, scope and transformation answer the question. Apply the recipe when a new mapping is needed or its execution is separately commissioned. Route the resulting inputs to the receiving operation, for example:
 
    * `G.2` harvesting (ClaimSheets / operator & object inventories / candidate bridge hints),
    * `G.3` CHR typing (when numeric signals are formalized as CHR characteristics/scales/coordinates),
@@ -177,7 +177,7 @@ If `year` means index ingestion year, the recipe must obtain publication dates t
    * When selection or a selector-facing declaration is needed, `G.5` consumes the applicable grounded inputs and returns its declared outcome: a set result, narrowed handoff, abstain or escalation.
    * When a reproducible parity report is needed, `G.9` consumes the pinned editions and windows under its comparison plan.
    * When shipping is needed, `G.10` may include interop surfaces as cited publications or records.
-5. **Emit telemetry and refresh causes.** On any change in external editions, alignment policies, plane maps, or embedding specs, emit:
+5. **Emit telemetry and refresh causes.** When a change to an external edition, alignment policy, plane map or embedding spec affects a monitored use or activates a notification duty, emit the following for that scope. Keep earlier results tied to their source editions and conditions. State whether the earlier source can still be consulted when replay matters. Where continued access is due, establish who can provide it with the necessary rights and means. Report an unavailable prerequisite if it prevents delivery. Include:
 
    * a canonical `RSCRTriggerKindId` (per `G.Core`),
    * the affected scope (`PathSliceId[]`, `PathId[]` or `PatternScopeId`),

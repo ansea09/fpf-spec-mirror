@@ -6,12 +6,12 @@ section_id: "C.36.MC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__014_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:12 — Relations"
-line_start: 96749
-line_end: 96759
+line_start: 96806
+line_end: 96816
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.36.MC:12 - Relations
 
-- A.3.1.MV supplies either an admitted Method variant or a status-preserved candidate lineage. A.3.1.MI can supply bounded introduction and later-practice observations. An admitted-Method cultural claim needs independent A.15.1 enactment when its predicate relies on actual performance of that Method; the candidate branch preserves its candidate/source accounts and description epistemes under their own maintained results and asserts neither Method nor enactment. Neither input establishes a cultural predicate.
+- A.3.1.MV supplies either an admitted Method variant or a status-preserved candidate lineage. A.3.1.MI can supply bounded introduction and later-practice observations. Use A.15.1 to establish enactment when the claim identifies a particular Work that performed the admitted Method. A population claim requires evidence of the performances and units covered at its scale. The candidate branch preserves its source accounts and description epistemes under their own maintained results without asserting Method admission or enactment. Neither input establishes a cultural predicate.
 - `C.20` governs Discipline recognition and `C.36` the bounded cultural-evolution question. `A.6.RCD` derives the needed bounded relation-bearing claim and stops at the lightest disposition. `A.6.REL` supplies occurrence identity only when a later use must distinguish obtaining occurrences.
 - `A.3.1` governs Method admission, `A.3.2` `U.MethodDescription` membership, `A.13` precise Agent bases, `A.15.1` intervention and receiving Work plus a named `enactsMethod` occurrence, and `A.10` evidence and reliance. Candidate accounts, source labels, carriers, descriptions without that membership basis, and teaching events substitute for none of them.
 - `C.11.DUA` appraises a questionable inquiry or requirement and connects its receiving contribution to its whole burden and feasible continuation. It does not supply permission, domain experimental design, or performed Work.

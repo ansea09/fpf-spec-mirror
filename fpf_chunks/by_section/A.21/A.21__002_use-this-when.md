@@ -6,12 +6,12 @@ section_id: "A.21:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:0 — Use this when"
-line_start: 41521
-line_end: 41544
+line_start: 41538
+line_end: 41561
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -36,7 +36,7 @@ keywords:
 
 Use A.21 when a named gate must decide whether one bounded action or transition may proceed under an applicable profile rule. Identify every check that the rule requires, including the subject and criterion of each check.
 
-**First useful move.** Name the action being decided, the profile rule that applies, and every required check result. Map each check result under that rule, then let the worst mapped value win. For a decision to start the work, establish what the operating rule authorizes on passage of this gate and which other entry conditions apply.
+**First useful move.** Name the action being decided and identify each check the applicable profile requires. Apply its rule to each available result or to the absence of a required result. Use the worst mapped value. A `block` that already follows from one requirement settles the gate value even while another check is outstanding. For a decision to start the work, establish what the operating rule authorizes on passage of this gate and which other entry conditions apply.
 
 **Quick worked case.** `WorkshopEntryGate-4` decides whether `CalibrationCycle-17` may start before 16:00. `WorkshopEntryProfile-E5` requires two checks: `CalibrationCertificate-44` for `TorqueWrench-12` is current under `CalibrationRule-E3`, and `WorkshopEnclosure-2` is closed under `EnclosureRule-E2`. Both checks are evaluated and satisfied, so each maps to `pass`. The gate returns `pass` for this cycle before 16:00. If the operating rule already authorizes the operator to start the cycle on this pass and all its other conditions hold, the operator may start. An outstanding permit would leave the gate result usable while the start waits. Recheck if the instrument, certificate edition, enclosure state, profile edition, or time window changes.
 

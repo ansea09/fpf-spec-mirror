@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.DA.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
-line_start: 98086
-line_end: 98362
+line_start: 98143
+line_end: 98419
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -128,7 +128,7 @@ The values are ordinal content evaluations. They are not an aggregate scalar sco
 | Pillar coordinate | Evaluation question | Good state |
 |---|---|---|
 | `P1CognitiveEleganceAdequacy` | Does the object expose decisive structure without ornamental formalism? | The reader sees the smallest structure that changes the action. |
-| `P2DidacticPrimacyAdequacy` | Does human comprehension stay ahead of formal, tooling, or review purity? | Working situation, recognition reason, first move, and payoff stay visible. |
+| `P2DidacticPrimacyAdequacy` | Does human comprehension stay ahead of formal, tooling, or review purity? | The working situation, reason for acting, first move and payoff are intelligible to the intended human reader. A claim about what readers can do draws on their work with the support available in that use. |
 | `P3ScalableFormalityAdequacy` | Can formality strengthen as the use requires while preserving meaning and grounds, with an explicit rewrite or branch when meaning changes? | Staged strengthening is usable; a semantic change remains identifiable and its affected uses are reconsidered. |
 | `P4OpenEndedKernelAdequacy` | Do kernel concepts stay meta-level while domain knowledge stays in patterns? | New content extends FPF without smuggling domain doctrine into the kernel. |
 | `P5FPFLayeringAdequacy` | Do modular pattern layering and neighbour authority stay intact? | Patterns can be added, replaced, or removed without shadow authority. |
@@ -172,7 +172,7 @@ Common calibration points:
 
 | Pillar family | `3` | `4` | `5` |
 |---|---|---|---|
-| Entry, usability, and projection Pillars | The object can be used with visible limits, but projection or first-use evidence is partial. | Relevant defining, constraining, or testing content and projections are coherent enough for declared use. | The use is replayable across pattern content, the public-entry form selected under E.11, and cold-reader or retrieval evidence, with an explicit stop or return and any independently grounded non-use boundary. |
+| Entry, usability, and projection Pillars | The object can be used with visible limits, but projection or first-use evidence is partial. | Relevant defining, constraining, or testing content and projections are coherent enough for declared use. | The use is replayable across pattern content and the public entry selected under E.11, with its stop or return and any grounded non-use boundary. A retrieval test can establish that a service returns the relevant passage. For a claim of human comprehension, use evidence of people interpreting or applying it under the declared conditions. An adequate earlier observation can supply that evidence. |
 | Layering and semantic authority Pillars | Neighbours are plausible, but some shadow-spec risk remains. | The pattern content that defines, constrains, or tests each claim is named by value and distinguishable from source-linked projections. | Pattern bodies, relations, projection rows, and anti-fragmentation cases keep each concrete contribution recoverable without shadow semantics. |
 | Source and evolution Pillars | Source or reopen language exists, but currentness, contribution, or smallest-reopen basis is compact. | Source contribution, currentness window, and reopen condition are explicit for declared use. | Source-front movement and future reopen are replayable without freezing development after a local stop. |
 

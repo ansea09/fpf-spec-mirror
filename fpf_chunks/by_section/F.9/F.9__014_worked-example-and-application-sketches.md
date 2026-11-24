@@ -6,12 +6,12 @@ section_id: "F.9:12"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-example-and-application-sketches.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:12 — Worked example and application sketches"
-line_start: 130280
-line_end: 130333
+line_start: 130344
+line_end: 130397
 dependencies:
   - "A.10"
   - "A.13"
@@ -93,9 +93,9 @@ A work-facing classification requires an admitted System, one exact local system
 
 An assignment claim separately identifies an occurrence of a directly declared species under `U.SystemRoleAssignment` through A.2.1.
 
-If performed Work is also claimed, recover every exact actual performer through A.13 and use A.15.1 to identify the dated Work, exact Method, time, and containing System independently.
+If the use of a Bridge also depends on a claim about performed Work, identify the System or Systems whose performance the claim needs under A.13. Independently recover the dated Work, enacted Method, time and containing System under A.15.1. For an audit by a municipal service, the service's Work may suffice to interpret its protocol even when the author of a particular entry is unknown. A claim about that entry's author needs grounds for the member's own contribution.
 
-Use F.6 only when the Bridge account or receiving use explicitly represents precise assignment-bound attribution through the same obtaining assignment already established by A.13, and the direct case fact links that exact Work-assignment pair. Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. The Bridge, bounded-use claim, and reliance result establish none of these facts.
+Use F.6 only when the Bridge account or receiving use explicitly represents precise assignment-bound attribution of a particular contribution to its performer's obtaining A.13 assignment. Establish the case fact that links that Work–assignment pair. Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. The Bridge, bounded-use claim, and reliance result establish none of these facts.
 
 #### F.9:12.3 - Subtype notions in one structural row
 

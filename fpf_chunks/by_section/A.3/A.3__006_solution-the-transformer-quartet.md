@@ -6,12 +6,12 @@ section_id: "A.3:5"
 section_title: "Solution — The Transformer Quartet"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__006_solution-the-transformer-quartet.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:5 — Solution — The Transformer Quartet"
-line_start: 9624
-line_end: 9680
+line_start: 9637
+line_end: 9693
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -32,11 +32,11 @@ keywords:
 
 ### A.3:5 - Solution — The Transformer Quartet
 
-For work enactment, A.3 distinguishes four objects: the performer System with its needed assignment basis, a MethodDescription edition when the use relies on one, the enacted Method, and the dated Work. Another independently grounded actor-side claim uses only the participants and relations required by its direct governing pattern. These distinctions qualify that acting-side claim; they are not occurrence conditions for every `U.Transformation`.
+For work enactment, A.3 distinguishes four objects: the performer or performers at the scale of the work, with their assignment basis, a MethodDescription edition when the use relies on one, the enacted Method, and the dated Work. Another independently grounded actor-side claim uses only the participants and relations required by its direct governing pattern. These distinctions qualify that acting-side claim; they are not occurrence conditions for every `U.Transformation`.
 
 #### A.3:5.1 - The four anchors (terms & types)
 
-1. **Acting side:** for actual Work, use A.13 to recover each performer System and its obtaining assignment, then let A.15.1 admit the dated occurrence independently. If the current use also claims under which assignment the Work was performed, use F.6 `performedUnderAssignment(W, RA)` with that same assignment and its holder System. For another actor-side claim, its direct owner grounds the participants and decides whether a work-facing role assignment is current.
+1. **Acting side:** for actual Work, use A.13 to establish each System credited with performing it and its obtaining assignment, at the stated scale. A workshop may have made a part while the operator who finished its surface remains unknown. A claim about that operator requires evidence of the operator’s own contribution. Use A.15.1 for independent admission of the dated occurrence. If the current use also claims under which assignment the Work was performed, use F.6 `performedUnderAssignment(W, RA)` with that same assignment and its holder System. For another actor-side claim, its direct owner grounds the participants and decides whether a work-facing role assignment is current.
 
    *Canonical phrase when that assignment is grounded:* **system assigned to the locally defined `TransformerRole@Context` kind**. *Local shorthand:* after explicit binding in the **same subsection**, you MAY write **Transformer** for that same system; re-bind on context change and do not use the shorthand where the domain already has a conflicting transformer term. The shorthand neither identifies an actual transformation nor upgrades causal participation or broad physical agentivity into Work.
 
@@ -44,7 +44,7 @@ For work enactment, A.3 distinguishes four objects: the performer System with it
 
 3. **Method (run-independent semantic way of doing):** the exact `U.Method` that Work may enact. It is neither an occurrence nor a MethodDescription, role assignment, or holder capability. Order-sensitive composition belongs to B.1.5 only when that composition claim is current.
 
-4. **Work (world-side dated occurrence holon):** `U.Work` is the admitted kind; one Work individual is admitted under A.15.1 from independently grounded performance history, each performer System's A.13 basis, actual `enactsMethod` relations, its temporal extent, and at least one obtaining locally declared Work-to-System relation whose stated boundary contains the complete occurrence. Add F.6 `performedUnderAssignment`, affected-referent, binding, and resource-use relations only when their own facts obtain and the current use relies on them.
+4. **Work (world-side dated occurrence holon):** `U.Work` is the admitted kind; one Work individual is admitted under A.15.1 from independently grounded performance history, the A.13 basis of the System or Systems identified as performing that occurrence at its claimed scale, actual `enactsMethod` relations, its temporal extent, and at least one obtaining locally declared Work-to-System relation whose stated boundary contains the complete occurrence. Add F.6 `performedUnderAssignment`, affected-referent, binding, and resource-use relations only when their own facts obtain and the current use relies on them.
 
    A `U.Episteme` may assert or describe those facts and designate the occurrence; a ticket, log row, record, or carrier is not the Work. The occurrence neither requires one universal MethodDescription edition nor establishes an actual change, result, production, delivery, acceptance, or aggregate merely by occurring.
 
@@ -78,7 +78,7 @@ For work on oneself, use the A.12 reflexive split only after two distinct intern
 
 #### A.3:5.5 - Evidence Graph Referring
 
-An assertion or description episteme about one Work occurrence makes its performer Systems with their A.13 assignments and enacted Method recoverable. Cite an obtaining F.6 relation for a claimed assignment-bound attribution and a MethodDescription edition only when the receiving use depends on it. Logs, observations, provenance, evidence, and their carriers remain separately related under their direct owners; neither the assertion nor a carrier or output produced by the performer is the Work occurrence or self-certifying evidence for it or its effects.
+An assertion or description episteme about one Work occurrence makes recoverable the enacted Method and the A.13 basis of the System or Systems to which it attributes the performance. An account that identifies the service performing the Work can leave members’ contributions unresolved. Cite an obtaining F.6 relation for a claimed assignment-bound attribution and a MethodDescription edition only when the receiving use depends on it. Logs, observations, provenance, evidence, and their carriers remain separately related under their direct owners; neither the assertion nor a carrier or output produced by the performer is the Work occurrence or self-certifying evidence for it or its effects.
 
 #### A.3:5.6 - Didactic dictionary
 

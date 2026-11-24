@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — Declaration, Correspondence, and Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_solution-declaration-correspondence-and-judgment.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:5 — Solution — Declaration, Correspondence, and Judgment"
-line_start: 58539
-line_end: 58566
+line_start: 58570
+line_end: 58597
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -45,8 +45,8 @@ An optional pinned-edition representation may list admissible candidates judged 
 
 When a use moves to another practice, source, or team, compare the base-kind membership distinctions first:
 
-- if the same kind continues, use the declaration and signature edition selected for the receiving use and, when the receiving use is candidate-bearing, make a fresh receiving judgment; no `KindBridge` exists merely because locality changed;
-- if independently identified kinds are distinct and the use claims a directional correspondence, establish the C.3.3 `KindBridge`; use the receiving signature and adaptation declaration and, when the receiving use is candidate-bearing, make a fresh receiving judgment; and
+- if the same kind continues, select the declaration and signature edition for the receiving use. For a candidate, establish its classification under that declaration using the grounds that apply. The locality change alone creates no `KindBridge`.
+- if the kinds are distinct and the use relies on a directional correspondence, establish the C.3.3 `KindBridge`. For a candidate, apply the receiving signature and adaptation declaration. An earlier conclusion suffices where it entails the receiving result for that case.
 - if two adaptation declarations differ in constraints or bindings, a separate `KindUseAdaptationCorrespondenceDeclaration` may name source declaration as EntityOfConcern and state target, direction, deterministic rule, definedness, loss, and effective scheme. It creates no bridge or target truth.
 
 A recurring local test can distinguish members of a narrower kind. Identify that kind by its criterion, then use C.3.1 to establish its relation to the base kind. A declaration or catalogue row can record the result.

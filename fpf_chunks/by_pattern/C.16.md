@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 61318
-line_end: 61693
+line_start: 61349
+line_end: 61724
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,7 +84,7 @@ C.16 covers construction and use of measurement models. For a performed measurem
 - the entity or ordered tuple being measured and the quantity or other Characteristic attributed to it under the stated conditions;
 - one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;
 - the reusable measurement specification, `U.Method`, measurement model, calibration requirements, and uncertainty treatment;
-- dated measurement work with performer, actual bindings, resources, and time stance;
+- the measurement occasion and conditions needed to rely on the result, with its performer, actual bindings and resources when the claim depends on them.
 - the value or set of values attributed to the measurand together with relevant information, including uncertainty and interpretation basis; and
 - direct comparability within the declared basis.
 
@@ -108,7 +108,7 @@ The failure becomes visible when two readings are compared, when a detector outp
 
 To develop a measurement model, begin with §§5.1-5.4. A proposed relation can supply a conditional calculation or expose an ambiguity before any measurement is performed. An existing model that answers the question can be used directly.
 
-When interpreting a performed measurement, recover one ordinary sentence:
+For a claim about a particular performed measurement, recover the relevant facts from the following account. For a claim based on the reported value, establish the measurement conditions and provenance that affect that use.
 
 > Dated measurement work `W` applied method `M` to measurand `x`, using model `f`, calibration basis `K`, and actual input bindings `X`, and obtained output quantity value `y` with stated uncertainty `u`; episteme `E` states that measurement result under its declared Characteristic, Scale, unit, time stance, and interpretation basis.
 
@@ -146,7 +146,7 @@ Start writing before every choice is settled: identify the wanted distinction, p
 
 **M‑CAL‑1.** Name the calibration basis required for the use: reference standard or comparison basis, dated calibration work and result when required, calibration coefficients or corrections, applicable interval, and uncertainty contribution. A calibration certificate or ledger row cites these facts; it does not establish them by being stored.
 
-**M‑WORK‑1.** `MeasurementWork` is one dated `U.Work`. First recover every actual performer's A.13 core for the measurement action, including the same obtaining assignment; then independently admit the Work under A.15.1 from its performance history, at least one obtaining `enactsMethod` relation, temporal extent, and at least one obtaining locally declared containing-system relation. Add F.6 afterward only when the measurement claim also needs precise assignment-bound attribution. Name the measurand through its direct subject relation or an A.6.1 operation-application binding. Name another enacted Method, resource, or concrete participant only when the measurement claim uses its independently obtaining relation or binding. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual facts.
+**M‑WORK‑1.** A claim identifying `MeasurementWork` as one dated `U.Work` uses A.13 and A.15.1 at the claimed scale. Establish the actual performance, enacted Method, temporal extent and applicable containing-system relation. For a particular performer, establish its contribution to that action. Apply F.6 when attribution to its assignment matters. Identify the measurand through its direct subject relation or an A.6.1 operation-application binding. Use actual resource and participant bindings where the claim needs them. A reliable earlier result may already settle a question about the measured value. An order for another measurement, or for a specified party’s own measurement, requires grounds for that performance.
 
 ##### C.16:5.3.1 - Construct the measurement relation
 
@@ -170,7 +170,7 @@ Instrument resolution describes how small a change in the measured quantity can 
 
 #### C.16:5.5 - State one measurement result and one result episteme
 
-**M‑RES‑1.** `MeasurementResult` is the value or set of values attributed to the measurand together with relevant information needed to interpret them. At minimum, recover the measurand, Characteristic, Scale, attributed value or values, Unit when relevant, uncertainty, method, model, calibration basis, time stance, and measurement work.
+**M‑RES‑1.** `MeasurementResult` attributes a value or set of values to the measurand, together with the information needed to interpret that attribution. Establish the subject, Characteristic, Scale, value, Unit where applicable, uncertainty and time stance. For reliance, identify the measurement conditions, method, model, calibration and provenance to the extent that they affect this use. An authenticated result can settle a threshold question under the stated conditions even when the identity of the particular instrument or operator is open.
 
 **M‑RES‑2.** `MeasurementResultEpisteme` is one C.2.1 episteme. Its ClaimGraph states the C.16 result, subject, interpretation basis, polarity or domain status when applicable, and uncertainty. The episteme is not the measurand, actual subject state, raw output, indication, diagnosis, or criterion verdict.
 
@@ -222,7 +222,7 @@ A later comparison, diagnosis, criterion evaluation, acceptance action, or decis
 
 Use **measurand**, **measurement subject**, **Characteristic**, **Scale**, **Level**, **Coordinate**, **value**, **Unit**, **measurement method**, **measurement model**, **calibration**, **uncertainty**, **measurement work**, and **measurement-result episteme** with their defined meanings. Plain-register *metric*, *reading*, *score*, and *output* are acceptable after first-use mapping. Do not use *measurement result*, *evidence*, *validation*, or *verification* as umbrella terms for several governed objects.
 
-**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 for declaration-local positions and operation bindings; A.13 for each actual performer; A.15.1 for independent admission of the dated Work; and F.6 afterward only when precise assignment-bound attribution is needed. If claim-bearing source wording still says only “role,” use E.10.ROLE first, then use A.2 or A.2.1 only when an exact local system-role kind, classification, or assignment has been recovered. C.2.1 covers the result episteme; A.10/G.6 provenance; G.11 currentness; B.3 assurance; and the pattern for the next diagnosis, acceptance, causality, comparison, selection, or decision question.
+**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 for declaration-local positions and operation bindings; A.13 for a claim about a particular performer, A.15.1 for a dated Work occurrence, and F.6 for precise assignment-bound attribution. If claim-bearing source wording still says only “role,” use E.10.ROLE first, then use A.2 or A.2.1 only when an exact local system-role kind, classification, or assignment has been recovered. C.2.1 covers the result episteme; A.10/G.6 provenance; G.11 currentness; B.3 assurance; and the pattern for the next diagnosis, acceptance, causality, comparison, selection, or decision question.
 
 ### C.16:6 - Scale-type admissibility quick reference (Informative)
 
@@ -325,7 +325,7 @@ For a proposed model, apply the subject, scale, model and applicable calibration
 2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
 3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
-5. **Work:** every actual performer has the A.13 core; the dated `U.Work` is independently admitted under A.15.1; F.6 is added afterward only when precise assignment-bound attribution is needed. The measurand relation or A.6.1 binding is present; further enacted Methods, resources, or participant bindings are present only when the measurement claim uses them.
+5. **Measurement and performance.** Establish that the required subject was measured under the conditions the claim uses. For a particular dated `U.Work` or attribution, apply M‑WORK‑1 and establish the relevant measurand relation or A.6.1 binding.
 6. **Result:** one C.16 measurement result attributes value or values to the measurand with uncertainty and relevant information; one C.2.1 episteme states it.
 7. **Separation:** raw output, indication, actual subject state, result, result episteme, diagnosis, verdict, and decision are not collapsed.
 8. **Comparability:** direct or transformed comparison names its basis and does not upgrade the Scale or mint a common scale.
@@ -340,7 +340,7 @@ For a proposed model, apply the subject, scale, model and applicable calibration
 - **Scale drift.** A template id is reused as though changed Scale, model, unit, or calibration requirements preserved the same specification. Publish a successor and state the relation; do not mutate historical readings.
 - **Arithmetic on ordinal.** Encoded levels are averaged or ratio-compared. Stay with order-preserving operations or introduce a separately governed scoring method and Scale.
 - **Multi-Characteristic stuffing.** One reading carries a vector while pretending to be one measurement. Create separate results and declare any later aggregation.
-- **Result-to-verdict shortcut.** A value inside a tolerance is called accepted without performed criterion evaluation. Ground the separate evaluation work, exact clause application, verdict episteme, and later decision.
+- **From a reading to acceptance.** Compare the result and its uncertainty with the applicable criterion. If satisfying that criterion gives the result binding effect under the operative rule, establish those conditions. If an authorized party must also accept the item, establish that party’s decision before reporting acceptance.
 
 ### C.16:13 - Consequences
 
@@ -407,7 +407,7 @@ These sources contribute different parts of measurement interpretation. Their qu
 
 For a sensor indication, survey response, dashboard value, score or model coordinate, establish what the receiving question asks about it. A question about a proposed probe can be answered by a model of what the probe changes. A claim about an observed effect of probe order needs grounds for the performed comparison. For example, if the first survey item reveals information needed to answer the second, their wording and order show how the two administrations differ. Whether that information changed respondents' answers requires evidence about their responses.
 
-Use the ordinary subject or measurement account as far as this question requires. For an obtained measurement result, recover the measurand, subject, Scale, Unit where applicable, time, method, model, calibration, actual work and uncertainty that support its interpretation (§5). Distinguish the indication, attributed value and any later verdict. Carry the provenance needed for the specific reliance. For a model prediction, state what follows under its premises.
+Use the subject or measurement account as far as this question requires. For an obtained result, recover the measurand, subject, Scale, Unit where applicable, time and uncertainty, with the method, model, calibration and provenance that support the intended inference (§5). Name the particular performer or Work occurrence when that attribution matters. Distinguish the indication, attributed value and any verdict. For a model prediction, state what follows under its premises.
 
 When the ordinary account leaves a named contextual or probe-order obstruction that changes an inference or action, C.26 tests its mathematical and practical significance. For a performed measurement that needs an inspectable note, the following fields can record its basis.
 
@@ -416,7 +416,7 @@ When the ordinary account leaves a named contextual or probe-order obstruction t
 | Measurand and Characteristic | What subject quantity or characteristic is intended to be measured? |
 | Scale and time stance | On what Scale and Unit, at what time or window, is the value attributed? |
 | Method, model, calibration | What reusable method/model and applicable calibration basis govern the reading? |
-| Work and bindings | Which dated Work occurred, who performed it, and which resource or argument bindings does this measurement claim use? |
+| Work and bindings | Which facts about the measurement occasion does this use need? If the claim credits a particular performer or identifies a dated Work, what establishes it and the relevant bindings? |
 | Inputs, output, uncertainty | Which model inputs determine the output quantity, and how is uncertainty propagated? |
 | Result episteme | Which C.2.1 episteme states the attributed value and interpretation basis? |
 | Boundary | Which raw output, indication, subject state, diagnosis, verdict, or decision remains separate? |

@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 115038
-line_end: 115082
+line_start: 115102
+line_end: 115146
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -61,7 +61,7 @@ keywords:
 
 **First output.** One useful publication face, or the smallest necessary set, that names the source, intended reader/use, what it preserves or omits, and how to return to the source. No ClaimGraph, formal profile, viewpoint bundle, evidence package, or four-face completion is required for this ordinary result.
 
-**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Try the work each reader is meant to do using the face and the sources available in time. If the source supplies only part of the commissioned answer, identify the supported contribution and return the missing question to the source author or the person commissioning the work. Publish that contribution on its own when a permitted partial delivery serves the reader. For a commission on the complete set, keep the missing grounds visible before issuing it as complete. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
+**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Try the work each reader is meant to do using the face and the sources available in time. If the source supplies only part of the commissioned answer, identify the supported contribution and look for the missing grounds in the available records. If a further judgement is needed, make it when entrusted to do so and distinguish it from the source account, or seek it from a party with the necessary knowledge, access or authority. Publish that contribution on its own when a permitted partial delivery serves the reader. For a commission on the complete set, keep the missing grounds visible before issuing it as complete. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
 
 **Ordinary formality rule.** A source pointer, reader/use line, readable face and visible omissions can suffice for ordinary publication. For source-finding, test whether the reader can reach the source. For explanation, test whether the reader can recover the relation and grounds that answer the question. Add formal identities only when the use depends on them.
 

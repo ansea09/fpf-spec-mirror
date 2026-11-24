@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:4 — Solution"
-line_start: 21533
-line_end: 21591
+line_start: 21547
+line_end: 21605
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -29,7 +29,7 @@ Recover the source reference, establish the receiving purpose, then derive only 
 
 Start with the statement and the work it is meant to support. Identify a word or omitted participant whose interpretation changes the result: for example, whose account, whose left side, which location or which time.
 
-Use A.6.P to recover the relevant participants and relation. Read a quotation relative to its attributed speaker until the use calls for another interpretation. An imperative may leave the intended actor implicit; distinguish that actor from the person relaying the message.
+Use A.6.P to recover the relevant participants and relation. Read a quotation relative to its attributed speaker until the use calls for another interpretation. An imperative may leave the intended actor implicit; distinguish that actor from the participant or service relaying the message.
 
 Choose the smallest explicit account that removes the consequential ambiguity. A sentence such as “Dana means the cabinet to Dana's left” may suffice. If the source participant is unknown and the choice matters, retain that missing fact.
 
@@ -66,7 +66,7 @@ For a report of experience, retain who experienced and expressed it. B.5.EA supp
 
 #### A.6.P.RI:4.5 - Connect the recipient to the account and derive the action
 
-Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. A person may recognize their part in the working situation. An artificial agent uses the identifying information and, where needed, sensed conditions supplied by its configuration.
+Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. An assignment, an authenticated exchange, direct observation or other evidence can establish that link. A recipient can ask for identifying information when what is already available leaves the reference open.
 
 Then interpret the account or derive the instruction under the purpose selected in §4.3. Recompute relative descriptions when necessary. When a message is only being quoted, preserve its original attribution rather than making the quoting recipient its speaker.
 

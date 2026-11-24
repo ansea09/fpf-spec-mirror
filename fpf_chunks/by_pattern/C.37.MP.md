@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.MP.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
-line_start: 86489
-line_end: 86738
+line_start: 86546
+line_end: 86795
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -94,9 +94,9 @@ Existing claims and matching observations can suffice; new user Work is selected
 7. **Recover supporting subjects before relating their accounts.** Preserve WorkPlan, Work, Method, result, and other subject statuses. Use `A.15.6` when project, process, or case wording leaves the subject unclear. Accounts of one independently admitted Work retain that same subject; accounts of different subjects remain separate epistemes with only the needed correspondence relations.
 
     Each claimed view needs its own `E.17.0` conformance result. Either arrangement may inform the same action under `C.37`; common subject identity alone neither permits co-use nor creates a multi-view family. Another action belongs in another row.
-8. **Resolve the live user-action question.** Direct claim inspection or an already matching observation may suffice for the profile. Select a new probe only when a usability, interpretation or loss uncertainty can change the decision and its full design, reader, interpretation and displaced-Work burden is warranted and obtainable.
+8. **Resolve the live user-action question.** Direct inspection or an applicable earlier observation can settle the profile question. Carry out any separately commissioned user trial under its specified conditions. When deciding whether to add a trial, weigh the uncertainty it can resolve about use, interpretation or information loss against its design, participant time, interpretation and the work it would displace.
 
-    For a selected probe, the named receiver retrieves the claim, distinguishes status or alternatives, performs the bounded action and applies its stop; report the result of that probe, not observed success from a plan. Return a defect to A.3.2.DE, C.37, the direct subject or receiving-result owner, A.15.8.MS, or the owning Method decision.
+    For a commissioned trial, use the participant, task and conditions it specifies. For an additional probe, choose a participant and a task that can settle the open use question. Have the participant retrieve the claim, interpret a distinction, perform an action or apply a stop as relevant, with the support expected in use. Report what that participant did under those conditions. A representative reader can expose a lost distinction. To assess a designated receiver's own performance, establish what that receiver can do. Return a defect to A.3.2.DE, C.37, the direct subject or receiving-result owner, A.15.8.MS, or the owning Method decision.
 
 #### C.37.MP:4.2 - Record the Result
 
@@ -223,7 +223,7 @@ If the glossary had instead said only “current means valid”, with no recover
 - [ ] Project, process, and case accounts retain their recovered direct subjects; co-use for one action has its own complete C.37 basis, and every claimed view has its own conformance result.
 - [ ] A mathematical-use claim states the formal object, correspondence, intended use, and loss boundary under the applicable domain result; `C.29` addresses a remaining representation, transfer, or reliance question.
 - [ ] Failed or missing direct results return the lower episteme and named gap rather than borrowing support from another layer.
-- [ ] Current adequacy may be established by direct inspection or matching prior observations. A new user-action probe is selected only for a useful attainable question worth its whole burden; a claimed observed success or failure has supporting evidence and no wider capability, enactment, fit, transfer, worth or authority claim.
+- [ ] Current adequacy may be established by direct inspection or matching prior observations. A separately commissioned user trial is carried out under its stated conditions. An additional probe is chosen for an attainable use question worth its full cost; a claimed observed success or failure has supporting evidence and no wider capability, enactment, fit, transfer, worth or authority claim.
 
 ### C.37.MP:8 - Common Anti-Patterns and How to Avoid Them
 

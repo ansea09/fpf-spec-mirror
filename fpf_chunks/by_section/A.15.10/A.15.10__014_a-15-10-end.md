@@ -6,12 +6,12 @@ section_id: "A.15.10:End"
 section_title: "A.15.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__014_a-15-10-end.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.10 — Resume Work"
   - "A.15.10:End — A.15.10:End"
-line_start: 34087
-line_end: 34088
+line_start: 34104
+line_end: 34105
 dependencies:
   - "A.15"
   - "A.15.5"

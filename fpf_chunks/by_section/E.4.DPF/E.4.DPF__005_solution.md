@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 100357
-line_end: 100946
+line_start: 100414
+line_end: 101003
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -161,7 +161,7 @@ Several sources may describe related Methods, their performance, support and dev
 
 Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
 
-When the DPF promises professional Method coverage, consume one exact accepted `E.4.PFAD` answer before treating a source list or pattern list as the authoring boundary. The five connected claim groups are a projection of that compact eight-part answer. E.4.DPF uses the projection without creating a second input record. Keep the accepted answer, its accepting decision, the E.9 DRR, the later framework edition, and any publication carrier distinct.
+When the DPF promises professional Method coverage, consume one exact accepted `E.4.PFAD` answer before treating a source list or pattern list as the authoring boundary. The five connected claim groups are a projection of that compact eight-part answer. E.4.DPF uses the projection without creating a second input record. Establish how the selected answer took effect under the governing terms. One authorized decision can both select and adopt the answer. If another body holds acceptance, use its decision before authoring on that basis. Distinguish the accepted content, the act that gave it effect, the E.9 DRR, the later edition and its publication carrier.
 
 The five groups remain recoverable by value, filled only to the grain that changes the declared first use:
 

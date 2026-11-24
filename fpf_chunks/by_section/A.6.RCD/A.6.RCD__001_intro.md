@@ -6,12 +6,12 @@ section_id: "A.6.RCD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:intro — Intro"
-line_start: 22166
-line_end: 22173
+line_start: 22182
+line_end: 22189
 dependencies:
   - "A.11"
   - "A.6.0"

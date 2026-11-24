@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Archetypal Grounding (Worked Cases)"
-line_start: 75890
-line_end: 75911
+line_start: 75941
+line_end: 75964
 dependencies:
   - "A.1"
   - "A.10"
@@ -92,7 +92,9 @@ keywords:
 
 **Worked use: one subject, two descriptions, one changed placement.** Consider a constructed payment-system case. `PaymentFunctions1` describes the authorization and capture functions of `PaymentSystem1`; `PaymentDeployment1` describes its application instances and their host placements at time t1. Each description has its own ClaimGraph and effective reference scheme, with `PaymentSystem1` as its EntityOfConcern. The common subject is supported by those identifications. Suppose authorization can run on either of two application instances. If the current placement inventory locates both on `HostA` and these are the only eligible instances, the host is known even with no record of which instance served a call. If one is on each host, both answers fit these descriptions. A binding in force at the time can settle which hosts are permitted. If both hosts are permitted for that call, use evidence that locates it when it ran. Each claimed `U.View` also needs conformance to its selected viewpoint under E.17.0.
 
-For example, suppose the invocation record identifies instance `Auth1` as the handler for call Q at t1 and the deployment record places `Auth1` on `HostA` at that time. The records together locate Q on `HostA`. A short account citing both suffices. To move `Auth1` to `HostB`, the designer can specify the new placement now. Its available capacity, achieved latency and actual deployment are separate decisions with their own grounds.
+For example, suppose the invocation record identifies instance `Auth1` as the handler for call Q at t1 and the deployment record places `Auth1` on `HostA` at that time. The records together locate Q on `HostA`. A short account citing both suffices. Suppose instead Q ran both authorization and capture, the installed configuration pairs their handlers, and the only possible host pairs were (`HostA`, `HostA`) and (`HostB`, `HostB`). They ran on the same host. Which one remains open. If (`HostA`, `HostB`) was also possible for Q, that co-location no longer follows.
+
+For a proposed move of `Auth1`, an analysis service can check `HostB` against the capacity requirement. A designer can choose that placement if entrusted with the choice. Where the operator reserves approval, the design is a proposal until the operator adopts it. An authorized deployment service can then perform the move. A usable record of the resulting placement answers where `Auth1` now runs. Its achieved latency requires grounds about its behavior there.
 
 After an actual placement change at t2, the t1 deployment description can remain a true historical description but no longer answer the current-placement question. Return to the changed configuration and relevant facts to produce the revised deployment description and correspondence. Retain the functional description if its functions, claims and reference scheme are unaffected. A new rendering of the old deployment description would not supply this repair. The changed condition therefore selects the description and connection to revisit; it does not require rebuilding the whole view set or withdrawing the historical answer.
 

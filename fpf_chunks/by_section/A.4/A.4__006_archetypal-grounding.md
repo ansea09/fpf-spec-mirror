@@ -6,12 +6,12 @@ section_id: "A.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:5 — Archetypal Grounding"
-line_start: 14123
-line_end: 14146
+line_start: 14136
+line_end: 14159
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -46,7 +46,7 @@ Selecting D2 changes the comparison basis; it does not physically change Pump37.
 
 | Working situation | Correct exit |
 |---|---|
-| A pump circulates coolant while its CAD account is edited. | Use the continuing pump and the selected CAD account claim in the comparison. Operating Work and editing Work concern different subjects; the edit establishes no physical pump change. |
+| A pump circulates coolant while its CAD account is edited. | Compare the observed circulation of the continuing pump with the selected design claim. The CAD edit changes the account. If the question attributes the circulation to dated Work, establish that occurrence and its performer. |
 | An author cites an unchanged theorem. | Use the direct episteme-use rule for the citation; the cited theorem remains unchanged. |
 | An unused pump weathers. | A.3.4 can qualify the actual material change without invented Work. If later design conformance matters, compare the resulting condition with the selected criterion. |
 | A sensor measurement produces a new observation record. | Use the observation as warranted input to the comparison. Measurement and result do not by themselves establish target change. |

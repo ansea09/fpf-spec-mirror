@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.ECSPF.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
-line_start: 104413
-line_end: 104677
+line_start: 104472
+line_end: 104736
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -104,7 +104,7 @@ When an accepted `A.19.ECS` specification is selected for durable FPF publicatio
    The `PatternID` is enough for ordinary use. Identify an assertion, episteme edition, or `ClaimGraph` only when interpretation, migration, conflict, publication, or reuse depends on that identity. Treat guidance as a `U.Method`, a qualifying `U.MethodDescription`, or a Method use only after its own admission test passes and the current claim needs that identity.
 
    Use `F.19` for ordinary wording repair. When a repair can change an FPF-governed meaning, confirm that the evaluated object and its kind, relation or claim kind, live ontic slot, relation position, use relation, admissible use, and scope remain recoverable before and after the repair, as applicable to the changed claim.
-8. **Keep pattern-quality evaluation separate.** When a pattern-quality conclusion is required, a reviewer uses `E.21` to evaluate that pattern version. A later evaluator uses the guidance published in the pattern to evaluate the declared object kind.
+8. **Keep pattern-quality evaluation separate.** For a pattern-quality conclusion, use an adequate `E.21` result for the exact pattern version, declared use and relevant conditions. Assess what remains open. If the commission asks for a new assessment, carry it out under the specified conditions, including any required independence. A later evaluator uses the guidance published in the pattern to evaluate the declared object kind.
 
    The `E.21` result, corpus-projection evidence, README/ToC/E.11 alignment, retrieval or cold-reader evidence, monolith parity, landing evidence, and developer/reviewer/executor correspondence stay in the quality, review, projection, or release carriers unless the pattern's own `EntityOfConcern` and user-facing action are that evaluation or projection work.
 
@@ -215,7 +215,7 @@ When the evaluation claims broad use, establish why the accepted value meanings 
 | `CC-E8ECSPF-5b` | When one visible value improves, the evaluation use SHALL check whether an intended value or protected trade-off worsened and SHALL stop or reopen when the evaluation would reward that loss. | Blocks proxy improvement and Goodhart-style degradation. |
 | `CC-E8ECSPF-6` | When the publication form makes an outside claim, `Relations` SHALL cite the applicable `PatternID` and state its concrete contribution in ordinary language. The contribution is not limited to a fixed verb list. A pattern citation SHALL NOT be retyped as a Method or MethodDescription. Simple relations stay free of phrase apparatus; retain use-changing architectural reasons under `E.8:4.2.3` and keep current development correspondence outside the pattern. | Prevents a second ontology or apparatus-overwrapped publication form. |
 | `CC-E8ECSPF-6a` | Wording, naming, or precision-restoration repairs SHALL follow `F.19`. When a repair can change an FPF-governed meaning, it SHALL check the evaluated object and its kind, relation or claim kind, live ontic slot, relation position, use relation, admissible use, and scope before and after the repair, as applicable to the changed claim. For a claim outside this pattern, cite the applicable pattern id and state its concrete contribution. Require an assertion, episteme edition, `ClaimGraph`, `U.Method`, qualifying `U.MethodDescription`, or Method use only when its admission test passes and the receiving claim depends on that identity. | Prevents evaluation patterns from inheriting lexical cleanup as ontology drift or locator use as formal identity. |
-| `CC-E8ECSPF-7` | When a pattern-quality conclusion about the authored publication form is required, a reviewer SHALL use `E.21` to evaluate FPF pattern-version quality separately from the evaluation's evaluated object result. | Keeps pattern quality distinct from evaluated object quality. |
+| `CC-E8ECSPF-7` | When a pattern-quality conclusion about the authored publication form is required, its basis SHALL be an applicable `E.21` result for that pattern version and use. An existing result can suffice. A separately commissioned new assessment SHALL be performed under its stated conditions. Keep pattern quality distinct from the result of evaluating the object the pattern addresses. | Keeps pattern quality distinct from evaluated object quality. |
 | `CC-E8ECSPF-8` | An author SHALL NOT turn a local, temporary, or one-project evaluation specification into an FPF pattern unless its reuse scope is durable and the patterns used for outside claims are named with their concrete contributions. | Blocks needless pattern growth. |
 | `CC-E8ECSPF-9` | The publication form SHALL state what would lower, reopen, or retire the accepted specification or the guidance that carries it: changed object kind or object version, changed use, reader, or qualification window, changed use of a cited source, changed source adoption, adaptation, or rejection decision, missing contrast case, coordinate-value drift, missingness or comparison-rule change, or a correction to an exit or outside claim. | Makes maintenance of the pattern testable. |
 | `CC-E8ECSPF-10` | The publication form SHALL state the required result row shape and evidence basis. When a value needs external, comparator, projection, worked-case or currentness evidence, carry that basis and apply the accepted specification's missingness rule. A verified absence warrants a lower value when that coordinate measures the presence of the required item. If the evaluator has yet to check, the value remains open. When the coordinate measures whether an inspection took place, use evidence about that inspection. | Preserves evidence-dependent values and missingness without converting an unknown property into a poor property value. |

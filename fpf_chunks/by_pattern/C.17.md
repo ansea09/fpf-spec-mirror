@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.17.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
-line_start: 63382
-line_end: 63795
+line_start: 63413
+line_end: 63826
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -101,9 +101,9 @@ Return only the missing premise that blocks the current coordinate or conclusion
 
 #### C.17:1.3 - Dated overall-assessment branch
 
-Use this branch when a statement deliberately asserts dated overall-assessment Work or the receiving use needs that occurrence established. Recover the evaluator System's A.13 core, including its obtaining A.2.1 assignment, and the admitted Method through A.3.1; then use A.15.1 to independently admit the dated Work that enacts that Method. Add F.6 only when the receiving use consumes precise assignment-bound attribution through that same assignment. A missing or failed F.6 attribution alone leaves independently admitted assessment Work intact; recheck any admission premise questioned by the same finding and the conclusions that depend on it. Only the evaluator System performs the Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
+Use this branch when the claim concerns the work of making an overall assessment. Establish which systems performed the relevant work and how their contributions produced the assessment under the admitted Method. A service can supply a coordinate measurement, two assessors can apply different criteria, and a board can adopt their combined judgment. Each attribution requires grounds for that contribution. For a particular dated `U.Work`, use A.13 and A.15.1 at the claimed scale, with the Method under A.3.1. Apply F.6 where attribution to a particular assignment matters. A requirement for independent assessments remains in force. A receiving question about the value alone may be settled by a reliable existing result.
 
-Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the C.17-local evaluator System, assignment, Method enactment, dated assessment Work, coordinate results, and aggregate result that the claim needs.
+Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the evaluator contributions, assignments, Method enactments, dated assessment Work and results that the claim needs.
 
 ### C.17:2 - Keep the evaluation objects distinct
 
@@ -120,7 +120,7 @@ Do not infer an A.6.1 operation application from the Method, Work, configuration
 | Optional profile | `CreativityProfile` is a local, non-arithmetic payload containing selected coordinate-claim references, their declared arrangement, and any current frontier or incomparability annotation. |
 | Representation and publication | A table, chart, dashboard, or publication form represents or publishes the payload or result. It is not the payload or result. |
 | Optional record | A separate `CreativityEvaluationRecord` episteme may package references to the configuration, results, profile, evidence, rendering, and actual Work for a named receiver. |
-| Assessment occurrence | A claim of dated overall-assessment Work requires the actual occurrence and recoverable System, assignment, Method enactment, Work extent and evidence. Any claimed application of a Mechanism operation is a separate conditional fact under A.6.1. |
+| Assessment occurrence | To admit a dated overall assessment as `U.Work`, apply A.15.1:4.1, including the A.13 basis for each claimed actual performer. Use F.6 for a precise assignment-bound attribution when the use requires it. An asserted A.6.1 operation application also requires its own grounds. |
 
 Changing a space slot, corpus membership or inclusion rule, model claims or training basis, objective, criterion, constraint, Scale meaning, scope, or window reopens only the coordinate claims that depend on that change and any aggregate conclusion that uses them.
 
@@ -323,7 +323,7 @@ To use Novelty value `0.42`, cite `P22-NoveltyResult-4`, an already constituted 
 
 A `CreativityEvaluationResult` can now report the supported difference and the assembly comparison with P-11. To establish eligibility, check each applicable must-condition. To place P-22 on a non-dominated front, use the declared comparison over eligible rivals (§7). The two results about P-22 alone leave its front membership open.
 
-If an audit later asserts that an overall assessment occurred, identify the evaluator System, its exact assignment, `PumpCreativityAssessment-17` Work, and `PumpCreativityAssessmentMethod-2`; state that the Work enacts the Method. The MethodDescription explains the Method, the result states claims, and coordinate-measurement Work stays separate. Do not add an A.6.1 operation application merely because those values are recorded. If the audit separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application.
+If an audit asks who produced `PumpCreativityAssessment-17`, establish the work by which the participating evaluator or evaluators applied `PumpCreativityAssessmentMethod-2`. A supplier of one coordinate need not have made the overall assessment. State any required assignment or independent approval, and the grounds for it. The MethodDescription explains the Method, the result states claims, and an assertion of an exact operation application or binding requires its own A.6.1 grounds.
 
 #### C.17:9.2 - Software and algorithmic design
 
@@ -391,7 +391,7 @@ This brief is a representation of the selected configuration and results. It doe
 | `CC-C17-9` | Dominance names the characteristic subset, Scale compatibility, polarity, eligibility conditions, and comparison rule. Frontiers are computed from that rule; scalarization is explicit and primitive coordinates remain available. |
 | `CC-C17-10` | Every used retained-set or applied reading identifies its bearer or set, local rule and Scale, and evidence. A claim of change identifies both collections and the comparison its Scale admits. `Diversity_P`, Illumination, retained-set readings, and Work readings do not silently become selection rules or characteristics of a different bearer. |
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |
-| `CC-C17-12` | Dated overall-assessment Work is asserted only with its actual System, assignment, Method enactment, Work extent, and evidence. Do not infer an A.6.1 operation application from those facts. When an exact application or binding is separately claimed, satisfy the current A.6.1 application account and cite that application. Coordinate-measurement Work remains separate. |
+| `CC-C17-12` | Admit dated overall-assessment Work under A.15.1:4.1 with its Method enactment, extent, containing System and the A.13 basis for each claimed actual performer. Use F.6 when attributing the Work to an exact assignment. Do not infer an A.6.1 operation application from those facts. When an exact application or binding is separately claimed, satisfy the current A.6.1 application account and cite that application. Coordinate-measurement Work remains separate. |
 | `CC-C17-13` | Use C.17 to report characteristics and comparison results, C.18 for generation plus Archive and Front maintenance, C.19 for pool policy, G.5 for selector-facing declarations, and C.11 for choices. |
 | `CC-C17-14` | Earlier results retain their original editions and evaluation bases; an edition relation requires recoverable results and a recoverable continuity claim. |
 | `CC-C17-15` | A cold reader can tell what to inspect first, when to stop, and what additional evidence is required for the stronger branch. |
@@ -411,7 +411,7 @@ This brief is a representation of the selected configuration and results. It doe
 | Dashboard as evidence or result | Identify the result and evidence independently; treat the dashboard as a representation. |
 | Global or cross-scale novelty | Name the source and receiving bases, mapping, direction, loss, evidence, and use. |
 | Illumination or diversity silently drives selection | Keep it as telemetry unless a C.19 pool policy declares the use. |
-| Pattern, model, record, or assignment said to assess | Name the System and dated Work only when an assessment occurred; otherwise state the result claim directly. |
+| Pattern, model, record, or assignment said to assess | For a claim about performance, identify the actual performer or performers and their contributions. A question about the result can use the assessment already available. |
 
 ### C.17:13 - Consequences
 

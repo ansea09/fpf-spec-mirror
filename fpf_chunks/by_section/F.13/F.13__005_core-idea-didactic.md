@@ -6,12 +6,12 @@ section_id: "F.13:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__005_core-idea-didactic.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:4 — Core idea (didactic)"
-line_start: 131737
-line_end: 131753
+line_start: 131801
+line_end: 131817
 dependencies:
   - "F.1"
   - "F.17"
@@ -35,7 +35,7 @@ keywords:
 ### F.13:4 - Core idea (didactic)
 
 **Keep the named value, its meaning and its expression distinct.**
-Recover the old and proposed expression, effective ReferenceScheme, local-sense claim, intended use and any independently governed value being named. When only wording changes, record the rename or alias and retain a path for interpreting the old text.
+Recover the old and proposed expression, effective ReferenceScheme, local-sense claim, intended use and any independently governed value being named. Unchanged meaning can support a proposed rename or alias. To report which designation now governs, establish the decision or standing rule that makes it effective for this vocabulary and date. An author with that authority may change their own terminology. A historical inquiry can end with the reading supported by the old edition.
 
 An F.17 SchemeSenseCell is the exact coordinate `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. Changing `LocalExpression` creates another cell even when the `<ReferenceScheme, LocalSenseClaim>` projection stays the same. Retain both coordinates in the naming lineage as distinct cells.
 

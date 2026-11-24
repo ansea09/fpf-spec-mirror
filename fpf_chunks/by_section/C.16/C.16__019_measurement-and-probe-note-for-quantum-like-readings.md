@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__019_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 61669
-line_end: 61687
+line_start: 61700
+line_end: 61718
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 
 For a sensor indication, survey response, dashboard value, score or model coordinate, establish what the receiving question asks about it. A question about a proposed probe can be answered by a model of what the probe changes. A claim about an observed effect of probe order needs grounds for the performed comparison. For example, if the first survey item reveals information needed to answer the second, their wording and order show how the two administrations differ. Whether that information changed respondents' answers requires evidence about their responses.
 
-Use the ordinary subject or measurement account as far as this question requires. For an obtained measurement result, recover the measurand, subject, Scale, Unit where applicable, time, method, model, calibration, actual work and uncertainty that support its interpretation (§5). Distinguish the indication, attributed value and any later verdict. Carry the provenance needed for the specific reliance. For a model prediction, state what follows under its premises.
+Use the subject or measurement account as far as this question requires. For an obtained result, recover the measurand, subject, Scale, Unit where applicable, time and uncertainty, with the method, model, calibration and provenance that support the intended inference (§5). Name the particular performer or Work occurrence when that attribution matters. Distinguish the indication, attributed value and any verdict. For a model prediction, state what follows under its premises.
 
 When the ordinary account leaves a named contextual or probe-order obstruction that changes an inference or action, C.26 tests its mathematical and practical significance. For a performed measurement that needs an inspectable note, the following fields can record its basis.
 
@@ -66,7 +66,7 @@ When the ordinary account leaves a named contextual or probe-order obstruction t
 | Measurand and Characteristic | What subject quantity or characteristic is intended to be measured? |
 | Scale and time stance | On what Scale and Unit, at what time or window, is the value attributed? |
 | Method, model, calibration | What reusable method/model and applicable calibration basis govern the reading? |
-| Work and bindings | Which dated Work occurred, who performed it, and which resource or argument bindings does this measurement claim use? |
+| Work and bindings | Which facts about the measurement occasion does this use need? If the claim credits a particular performer or identifies a dated Work, what establishes it and the relevant bindings? |
 | Inputs, output, uncertainty | Which model inputs determine the output quantity, and how is uncertainty propagated? |
 | Result episteme | Which C.2.1 episteme states the attributed value and interpretation basis? |
 | Boundary | Which raw output, indication, subject state, diagnosis, verdict, or decision remains separate? |

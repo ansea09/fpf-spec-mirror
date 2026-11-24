@@ -6,12 +6,12 @@ section_id: "A.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:1 — Problem frame"
-line_start: 41817
-line_end: 41863
+line_start: 41834
+line_end: 41882
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -94,7 +94,9 @@ StructureQuestionCard@Project:
   admissible action:
   stop or non-admissible overread: stop or return condition
   grounded non-admissible overread, optional:
-  selecting system, method, and dated work, only when dated Work is asserted:
+  selecting participant and grounds, when the claim concerns who chose the arrangement:
+  selection Method, when the way of choosing matters:
+  dated selection Work and its grounds, when that occurrence is asserted:
   selection-result episteme, when a durable result is needed:
   claim scope or effective reference scheme of that claim, if current:
   reliance relation, if a neighboring reliance claim is being made:

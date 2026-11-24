@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 120038
-line_end: 120230
+line_start: 120102
+line_end: 120294
 dependencies:
   - "A.10"
   - "A.15"
@@ -208,7 +208,7 @@ If the selected occurrence changes, the A.22 relation discriminator changes and 
 
 **Connected-box proxy failure.** A team reports that every flow-card box is connected and adds low-value edges until path coverage reaches its target. The relation count rises, condition labels no longer distinguish applied claims, E.18 guard events, and actual relation occurrences, stale dependencies remain unrepaired, and unsupported neighboring connections increase.
 
-Edge count, labels, and path coverage describe the expression only. Remove edges without exact occurrences and predicate definitions, recover each continuation's actual condition branch, evaluate whether practitioners select the correct continuation and smallest repair, and use `E.13` when display coverage substitutes for those outcomes.
+Edge count, labels and path coverage describe the expression. For a review, identify unsupported claims about actual relations and explain which evidence or predicate is missing. A useful proposed link can remain as a proposal. When commissioned to repair the card, distinguish those proposals from established occurrences and recover each affected continuation's condition. To assess practitioners' choices, use applicable observations showing what each selected and what the card or another participant supplied. Use `E.13` when display coverage substitutes for these outcomes.
 
 **Architecture P2S projection.** A P2S flow card includes architecture-relevant problem pressure, unknown or selected structures, synthesis positions and actual-structure feedback. If one selected CGUS satisfies E.18.3, cite its exact E.18 positions and relations. `C.32.P2S` defines and constrains selected and expected epistemic structures and their exact use; realization Work and actual world-side structures remain separate.
 
@@ -220,7 +220,7 @@ Furnace loading and quenching must pass the applicable A.15 plan or dated-Work t
 
 **Clinical transformation planning.** A treatment-adjustment unfolding use concerns `Patient@Case-17`, independently admitted as a `U.System`, and selects assessment, intervention-candidate, contraindication, observed-state, and reconsideration positions. A contraindication condition remains an applied clinical claim with its test and current facts; a cited E.18 guard failure remains an event with its gate-assignment facts; and the observed-state relation changes admissibility only when its independently defined kind and occurrence obtain.
 
-The selected structure does not authorize treatment, show that evidence is sufficient, replace clinical judgement, admit a MethodDescription, or show that an intervention occurred; those claims require the applicable clinical DPF, permission, Work, evidence, and gate definitions or tests plus the current facts or evidence that satisfy them.
+A planning commission may end with a recommendation. Where proceeding requires the affected person's agreement or a designated professional's judgement, establish that contribution under the applicable rule. An existing agreement or assessment may suffice within its scope. The selected route by itself establishes neither contribution. For permission, evidence sufficiency, a MethodDescription, a gate or an actual intervention, use the applicable clinical DPF and the corresponding definitions, facts and tests.
 
 **Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve the dependency topology and a condition label plus the queried path, but it does not decide whether that condition is an applied claim, an E.18 guard event, or an independently defined relation occurrence.
 

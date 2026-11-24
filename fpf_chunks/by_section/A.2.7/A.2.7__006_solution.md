@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:4 — Solution"
-line_start: 8060
-line_end: 8279
+line_start: 8062
+line_end: 8281
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -169,7 +169,7 @@ RelationSignature:
 
 The predicate is identified by the order-insensitive set, joint-admission and holder-allocation rule, applicability, and only meaning-changing semantic-basis editions. The predicate states which assignments may have the same holder, which require distinct holders, and how the receiving window is tested.
 
-Current assignments and the receiving window remain inputs to the later check. The bundle specifies a joint condition over distinct system-role kinds. Use the applicable direct pattern when assignment, team, or Work identity is needed. A list of labels without a joint-admission and allocation rule is not a bundle relation.
+Current assignments and the receiving window remain inputs to the later check. The bundle specifies a joint condition over distinct system-role kinds. Repeating the same kind in a set cannot express a requirement for two independent holders. Establish their number, assignments and independence under the receiving rule. Use the applicable direct pattern when assignment, team, or Work identity is needed. A list of labels without a joint-admission and allocation rule is not a bundle relation.
 
 #### A.2.7:4.6 - Occurrence Identity and Continuity
 
@@ -221,7 +221,7 @@ When ordinary wording says *subrole*, *role part*, or *combined role*, start fro
 | Does one kind restrict another without monotonicity? | residual system-role-kind qualification relation |
 | Must assignments to two kinds not overlap under a condition? | symmetric incompatibility relation |
 | Must assignments to several kinds be present together under an allocation rule? | order-insensitive bundle relation |
-| Which system is assigned, and for which interval? | direct species under `U.SystemRoleAssignment`; use A.2.1 to recover it |
+| Which holders are needed, how many, and for which interval? | use A.2.1 for the assignments and the receiving rule for distinctness, coverage or independence |
 | Does an assignment satisfy a Work-admitting state condition? | `SystemRoleAssignmentStateRelation`; use A.2.5 to recover it |
 | Can the holder perform within an operating envelope? | the qualified ability claim and separate capability-fit predicate under A.2.2 |
 | Are ways of doing or Work occurrences composed? | Method composition under A.3 and B.1.5, or Work structure under A.15 |

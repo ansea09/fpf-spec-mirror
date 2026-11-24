@@ -6,12 +6,12 @@ section_id: "A.7.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:0 — Use this when"
-line_start: 27045
-line_end: 27058
+line_start: 27062
+line_end: 27075
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -42,7 +42,7 @@ First name the disputed claim and the use it must support. To test the rules, fi
 
 The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. The procedural content describes the reconciliation Method in §4. A `U.MethodDescription` assertion requires that admitted Method as the episteme's EntityOfConcern and A.3.2 membership.
 
-For any dated reconciliation `U.Work`, use A.13 to identify the performer System and let A.15.1 independently admit the occurrence. If the case or receiving result must also identify the assignment under which the reconciliation Work was performed, check that relation separately through F.6 against the assignment used by A.13. A short result may omit an assignment identifier it does not use; no unused assignment or attribution is presumed.
+For a claimed dated reconciliation `U.Work`, use A.13 for each actual performer and admit the occurrence under A.15.1. Apply F.6 to the relevant Work and assignment when attributing that Work under the assignment. A short result may omit an assignment identifier it does not use.
 
 The pattern episteme, described Method, reader, performing System, any separately established assignment species and occurrence, optional attribution check, Work, source uses, and returned FPF decision remain distinct.
 

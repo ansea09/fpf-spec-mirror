@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
-line_start: 133147
-line_end: 134310
+line_start: 133211
+line_end: 134374
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -357,7 +357,7 @@ A team proposes `BlockedReviewer` as a public label. In its local UI the label c
 
 A DPF or dashboard proposes one public `Learning` row, perhaps with `LearningProgress` as its value. Apply `E.10.LRN` first. Teaching or practice Work, a holder's capability, a fitted model edition, an inference result, acquired information, a representation relation, cultural change, and a course or other product are independently governed values and claims. Performance, capability evidence, information gain, model fit, prediction error, compression, and representation change are likewise different progress coordinates; shared spelling does not make them one governed value, one `SchemeSenseCell`, or an F.9 Bridge.
 
-F.17 therefore creates no umbrella `Learning` or `LearningProgress` row. If one recovered value later needs a durable public designation, apply F.14 and F.18 to that exact value and create at most one row for its admitted use; another recovered value receives another row only under its own gate. When the direct claim is already readable or durable reuse is absent, stop with no UTS row. For a question about what a participant can now do, recover the participant’s work and the assistance available for the action in question. To attribute a change in that ability to teaching, establish what would otherwise have happened. Naming practice Work and capability on separate rows supplies neither comparison.
+F.17 therefore creates no umbrella `Learning` or `LearningProgress` row. If one recovered value later needs a durable public designation, apply F.14 and F.18 to that exact value and create at most one row for its admitted use; another recovered value receives another row only under its own gate. When the direct claim is already readable or durable reuse is absent, stop with no UTS row. For a question about what a participant can now do, recover the participant’s work and the assistance available for the action in question. To establish a change, compare what the same holder could actually do earlier and later on comparable tasks, with the relevant assistance available and used on each occasion. The cause of the change may remain open. To attribute it to teaching, establish the contribution of that teaching against what would otherwise have happened. Naming practice Work and capability on separate rows supplies no such evidence.
 
 #### F.17:12.3 - Relation and slot names become reusable
 
@@ -367,7 +367,7 @@ An architecture pattern needs names for `interfaceSlot`, `providedPort` and `req
 
 A sheet has a row labelled `Evidence role`. Recover the governed object before choosing a name. For an episteme's evidence use, establish the direct relation under A.2.4 or its other subject rule; A.10 describes the evidence-provenance path and classifies the bounded reliance, and B.3 enters only for an actual named assurance claim.
 
-For dated evidence-producing Work, recover each precise performer's A.13 core, including the same obtaining assignment, and independently admit the Work under A.15.1. Add F.6 only when the row or receiving use needs precise assignment-bound attribution. A separately needed local-kind claim uses A.2 with C.3.
+For dated evidence-producing Work, identify the System or Systems credited with the contribution at the scale claimed under A.13, and independently admit the Work under A.15.1. To attribute a particular contribution under an assignment, apply F.6 using that performer's obtaining assignment. Use A.2 with C.3 for a separately needed local-kind claim.
 
 The UTS may expose selected names for these distinct values; it does not admit a generic evidence-role row that fuses them.
 
@@ -383,7 +383,7 @@ If either selected row edition must be made available, apply E.24.PUB separately
 
 A clinical publication proposes one row for `discharge` and `discharge-ready`. First separate the governed values. A patient-state classification uses A.19.SPR plus the clinical DPF pattern for its bearer, state frame, evidence, qualification window, and use. An accountable discharge decision remains a decision relation under the pattern that defines or tests that decision. A completed discharge is dated Work under A.15.1.
 
-If the naming use needs a row for a patient state, discharge decision or completed discharge, record that value separately. Connect rows only through relations established for the clinical use. A later publication operation uses E.24.PUB for each row edition that must be made available. One familiar label does not make state, decision, and Work interchangeable.
+If the naming use needs a row for a patient state, discharge decision or completed discharge, record that value separately. Connect rows only through relations established for the clinical use. For an audience that needs access, establish how it can obtain the selected row edition under E.24.PUB. An authorized entry in the audience’s register may supply that access upon admission. One familiar label does not make state, decision, and Work interchangeable.
 
 #### F.17:12.4c - Demonstrative walkthrough and bounded mantra
 
@@ -391,7 +391,7 @@ A.22.CGUS:4.4 permits a separate C.2.1 episteme that shows one traversal through
 
 Use *demonstrative walkthrough* as ordinary readable wording for a shown traversal when the sentence makes the exact slice clear. Keep *mantra* as bounded seminar or pattern-local recall wording when repetition and attention are the point. Neither expression creates a kind, episteme, scheme, cell, Bridge, row, or publication occurrence. `mantra move` remains E.10.MOVE Plain wording for an E.11.PUA practice-continuation description when such a description is shown; ordinary long and local mantras receive no F.17 row.
 
-If a later use needs a durable public name, first recover one exact slice episteme under C.2.1 from its claim content, the qualified CGUS it concerns, and its effective scheme. F.18 may then record one naming settlement and F.17 may record one row after the ordinary gate. A second cell and F.9 Bridge are justified only when another exact scheme-and-sense projection and a named current correspondence use both exist. Availability of any selected row edition still requires a separate exact E.24.PUB publication package.
+If a later use needs a durable public name, first recover one exact slice episteme under C.2.1 from its claim content, the qualified CGUS it concerns, and its effective scheme. F.18 may then record one naming settlement and F.17 may record one row after the ordinary gate. A second cell and F.9 Bridge are justified only when another exact scheme-and-sense projection and a named current correspondence use both exist. For a claim of availability, identify the E.24.PUB expression, carrier and audience access for the selected row edition. Admission through an authorized public register may already supply them. Follow any further issue requirements of the actual publication arrangement.
 
 #### F.17:12.4d - Bounded model-use structure public row
 
@@ -789,11 +789,11 @@ LocalSenseBasisRelationDescription.EpistemeViewpointConformanceRelation.FPFCore.
 
 Each row retains its C.2.1 episteme identity and refers separately to the governed value, naming decision and local sense. The displayed fields preserve the distinct designators, references and relation occurrences. When readers need access to a selected row edition, recover the E.24.PUB expression, bearing and publication occurrences outside the row; displaying this block alone does not establish them.
 
-#### F.17:12.4g - Make a settled row available only through a separate publication operation
+#### F.17:12.4g - Make a settled row available only through a separate publication operation?
 
-Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row.
+In a shared register, one authorized entry may both admit a term row under the naming rule and make it available to the group. If the register is private or a separate release is required, establish the additional access or issuance the audience needs.
 
-When availability is current, state how the selected row edition is available to its audience for the bounded use through an expression and carrier. E.24.PUB governs that claim at its required granularity; name reusable-form conformance only when it matters.
+For the settled row, establish the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended use under F.18 and the F.17 row gate. An unresolved input leaves naming work to do. For availability, establish under E.24.PUB how the selected edition reaches its audience through an expression and carrier. Identify conformance to a reusable form when the use relies on it.
 
 A NameCard, scheme-sense cell, basis relation, row reference, or E.24.PUB occurrence substitutes for none of those decisions. Keep predicate definition, actual use, basis analysis, naming settlement, row admission, and downstream availability separate.
 
@@ -1186,7 +1186,7 @@ For a reader who needs the settled naming decision and its source together, use 
 
 When morphology, translation, or machine lexicon exchange is the actual use, the core model and only its needed extensions may be the better carrier. No measured speed advantage, blanket cost superiority, or replacement of OntoLex is claimed.
 
-**Exact effect and countercases.** Steps 1–5 of section `4`, together with sections `6` and `14`, stop at ordinary wording, a local card, or a cell when no row is needed; steps 7–8 of section `4`, together with sections `5.1` and `7`, make the row's returns explicit and keep later publication separate.
+**Exact effect and countercases.** Steps 1–5 of section `4`, together with sections `6` and `14`, stop at ordinary wording, a local card, or a cell when no row is needed; steps 7–8 of section `4`, together with sections `5.1` and `7`, make the row's returns explicit and distinguish its admission from its availability to an audience. One authorized operation can establish both when the publication arrangement gives readers access on admission.
 
 The countercase in `12.2` prevents a state label from becoming a system-role kind, `12.4c` leaves ordinary mantra wording without rows, `12.4h` distinguishes a reusable structure kind from one selected instance, and `12.4i` returns the Reference name to its product-form rule without creating a product or lookup Work.
 

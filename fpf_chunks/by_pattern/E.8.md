@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 103121
-line_end: 104212
+line_start: 103180
+line_end: 104271
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -136,7 +136,7 @@ Call the pattern content a `U.MethodDescription` only when it describes one inde
 
 A `Solution` can guide future action or help choose a Method without establishing that any dated Work has happened. The intended reader, an actual performer System, local system-role classification, assignment, capability, responsibility, authority, result, and Transformation remain separate whenever those claims are current.
 
-When a pattern or worked case does assert dated `U.Work`, first recover every actual performer's A.13 core: the admitted `U.System`, local agential kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence. Add a characteristic profile only when its own receiving use consumes it.
+When a pattern or worked case does assert dated `U.Work`, identify the actual performer Systems at the scale of the Work being claimed. A library service can carry out a retrieval as a whole. To attribute a particular selection or check to a member of that service, establish that member’s action. For each performer named by the claim, recover the A.13 core, including its admitted `U.System`, local agential kind and criterion, classification, obtaining assignment, scope, working situation, window and adequate evidence. Add a characteristic profile only when its own receiving use consumes it.
 
 Then independently admit the Work under A.15.1 from its performance history, enacted Method, time, and containing System. Add F.6 afterward only when the pattern also needs precise assignment-bound attribution through that same assignment.
 
@@ -933,7 +933,7 @@ Apply §4.2.3 to place this edition's drafting, review and landing history in it
 
 If a pattern or example claims **autonomy**, name the admitted `U.System` whose freedom of action is being evaluated and use the current `E.16` pattern that defines or tests the claim. Add another relation only when it is current under its own governing pattern.
 
-Admit dated Work under the A.13-first and independent A.15.1 rule in `E.8:0.3`, adding `F.6` only for current assignment-bound attribution. Add autonomy apparatus or a vignette only when it helps the reader use that claim. Apply `F.19` after recovery; if the corpus supplies no direct governor, return `A.6.RCD missing-governor`.
+Admit dated Work under the A.13-first and independent A.15.1 rule in `E.8:0.3`. Use evidence about the organization when its performance as a whole is claimed. Trace an individual or joint contribution when the account attributes that part of the work. Add `F.6` only for precise assignment-bound attribution. Add autonomy apparatus or a vignette only when it helps the reader use that claim. Apply `F.19` after recovery; if the corpus supplies no direct governor, return `A.6.RCD missing-governor`.
 
 ### E.8:5 - Archetypal Grounding
 

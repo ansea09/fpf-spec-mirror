@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.RS.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
-line_start: 44572
-line_end: 44746
+line_start: 44597
+line_end: 44771
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -100,7 +100,7 @@ This is a directed conclusion. Replacing A by B in one use does not show that A 
 
 #### B.1.5.RS:4.5 - Adopt or retain alternatives
 
-If you are commissioned to recommend or choose an alternative, compare the compatible options at the supported scope, including adaptation, learning, operation and maintenance costs. Separate variants can be worthwhile when their different strengths justify their cost. The person with authority over adoption decides whether and when to introduce the chosen replacement.
+If you are commissioned to recommend or choose an alternative, compare the compatible options at the supported scope, including adaptation, learning, operation and maintenance costs. Separate variants can be worthwhile when their different strengths justify their cost. Return a commissioned recommendation to its intended recipient. For adoption, establish who may decide and whether an existing authorization already covers the replacement. A service acting under that authorization can introduce the change when its conditions hold.
 
 For an ongoing operation, use its ordinary rules for introducing change and retaining continuity. State the condition that would require reconsideration: changed inputs, another receiving whole, a tighter timing limit, lost support or a newly relevant result property.
 

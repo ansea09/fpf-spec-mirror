@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 19701
-line_end: 19818
+line_start: 19714
+line_end: 19831
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -71,7 +71,7 @@ For the RT use, the source consists of the construction instructions and interme
 
 #### A.6.3.RT:5.1.b - Syllables against a hand-cycle reference
 
-A.6.3.RT.OE:5.3 prepares given syllable-duration assignments against a learned three-beat hand cycle with four pulses per beat. Arithmetic and rhythmic composition determine the six-pulse preparation and the phrase's ending at the third cycle boundary.
+In Nelson’s exercise A.6.3.RT.OE:5.3 pairs given syllable durations with a three-beat hand cycle of four pulses per beat. The exercise supplies a six-pulse preparation. The durations then put the phrase’s end at pulse 36, the third cycle boundary. If a performer is to choose the preparation, specifying only an ending at some cycle boundary leaves several possible entries.
 
 RT's representation note retains duration assignments, pulse constancy and cycle position, identifies coordination with the hand reference as the gain, and returns to those conditions when the ending no longer aligns. The utterance and gestures can both represent rhythmic content and realize rhythm. Fluency or learning requires observation when either is the question.
 

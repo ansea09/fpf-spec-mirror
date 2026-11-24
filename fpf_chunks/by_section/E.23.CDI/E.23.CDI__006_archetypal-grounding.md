@@ -6,12 +6,12 @@ section_id: "E.23.CDI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:5 — Archetypal Grounding"
-line_start: 123926
-line_end: 123965
+line_start: 123990
+line_end: 124029
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -48,7 +48,7 @@ The next five comparable staffed incidents each meet the three-minute handover c
 
 The target is at least 97 percent detection, at most 5 percent false alerts, and at most 45 seconds per part while traceability and safety interlocks remain unchanged. The intervention changes optical calibration and the inspection Method with support from the sensor provider.
 
-The follow-up covers 300 identified parts over three shifts. Independent reference labels give 160 parts with one reportable crack each and 140 crack-free parts. The cell detects 157 cracks (98.125%) and wrongly flags six distinct parts among the 140 crack-free parts (about 4.29%). A 43-second mean is compatible with half the inspections taking 41 seconds and half 45, or with half taking 40 and half 46. Only the first timing record meets the 45-second limit on every part. With the first record, complete part coverage and qualified traceability and interlock operation, the engineer can accept this finite series under the stated criteria.
+The follow-up covers 300 identified parts over three shifts. Independent reference labels give 160 parts with one reportable crack each and 140 crack-free parts. The cell detects 157 cracks (98.125%) and wrongly flags six distinct parts among the 140 crack-free parts (about 4.29%). A 43-second mean is compatible with half the inspections taking 41 seconds and half 45, or with half taking 40 and half 46. Only the first timing record meets the 45-second limit on every part. With the first record, complete part coverage and qualified traceability and interlock operation, the records establish conformity of this finite series to the stated criteria. An engineer empowered to accept it can act on that finding. To report acceptance, establish how the governing terms give effect to the finding or to an authorized act.
 
 Did the cell improve? Suppose that in the original 200 parts there were 78 easy and 22 difficult cracks. Detecting all easy cracks and half the difficult ones gives 89 of 100. In the later series, 154 easy and six difficult cracks give 157 of 160 at exactly the same sensitivity within each grade. Compare the cell for a common part mix and operating envelope before claiming a change in capability. To attribute a change to optical calibration, the Method or provider Work, distinguish their effects from other changes that could explain the result.
 

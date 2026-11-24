@@ -6,12 +6,12 @@ section_id: "C.26.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:1 — Problem frame"
-line_start: 70029
-line_end: 70070
+line_start: 70076
+line_end: 70117
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.26.3:1 - Problem frame
 
-Use this pattern when protecting a function across boundaries depends on several conditions holding together under disturbance. Start with the work the recipient needs kept possible. Its requirements determine what state to assess, what a proposed method must preserve, and what the people running it will need to observe and do.
+Use this pattern when protecting a function across boundaries depends on several conditions holding together under disturbance. Start with the work the recipient needs kept possible. Its requirements determine what state to assess, what a proposed method must preserve, and which observations and actions the operating arrangement must provide.
 
 **What goes wrong if missed.** The team treats one dashboard value, stability slogan, or local metric as viability, while another envelope variable, intervention cost, boundary condition, or failure mode is already breaking the protected promise or function.
 

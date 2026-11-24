@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__013_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:12 — Relations"
-line_start: 21684
-line_end: 21692
+line_start: 21698
+line_end: 21706
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

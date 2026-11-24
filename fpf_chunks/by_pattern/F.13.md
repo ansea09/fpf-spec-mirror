@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.13.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
-line_start: 131698
-line_end: 132005
+line_start: 131762
+line_end: 132069
 dependencies:
   - "F.1"
   - "F.17"
@@ -73,7 +73,7 @@ Readers lose the connection between earlier and later claims when names or sense
 ### F.13:4 - Core idea (didactic)
 
 **Keep the named value, its meaning and its expression distinct.**
-Recover the old and proposed expression, effective ReferenceScheme, local-sense claim, intended use and any independently governed value being named. When only wording changes, record the rename or alias and retain a path for interpreting the old text.
+Recover the old and proposed expression, effective ReferenceScheme, local-sense claim, intended use and any independently governed value being named. Unchanged meaning can support a proposed rename or alias. To report which designation now governs, establish the decision or standing rule that makes it effective for this vocabulary and date. An author with that authority may change their own terminology. A historical inquiry can end with the reading supported by the old edition.
 
 An F.17 SchemeSenseCell is the exact coordinate `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. Changing `LocalExpression` creates another cell even when the `<ReferenceScheme, LocalSenseClaim>` projection stays the same. Retain both coordinates in the naming lineage as distinct cells.
 
@@ -148,9 +148,9 @@ A needed relation between different semantic projections is a separate F.9 quest
 #### F.13:9.1 - Pure rename inside a local service vocabulary
 
 *Constructed case:* Under the fixed `ServiceVocabulary-1` reference scheme, the local-sense claim is “a service indicator threshold together with its assessment window”. The old expression is **“SLO”**, the proposed expression is **“service-level objective”**, and both serve the same use of reading a service objective. No change to the objective or assessment rule is proposed.
-**Relation:** `renames("SLO" → "service-level objective")`.
+**Proposed relation.** The editor recommends `renames("SLO" → "service-level objective")` for this vocabulary.
 **Why.** The scheme, sense and use are unchanged. Spelling out the name lets readers see what the abbreviation stands for. A claim about improved recognition by this audience needs evidence of their reading.
-**Effect:** Retain the two exact cells `<ServiceVocabulary-1, "SLO", claim>` and `<ServiceVocabulary-1, "service-level objective", claim>` in the naming lineage. Old text retains its earlier expression and meaning; new writing uses the expansion. No Bridge is needed for these identical semantic projections.
+**Effect.** If the vocabulary's authorized maintainer adopts the expansion from 1 July, use it as the preferred designation from that date. Keep both exact cells `<ServiceVocabulary-1, "SLO", claim>` and `<ServiceVocabulary-1, "service-level objective", claim>` for historical reading. A recommendation alone leaves the current preference open. No Bridge is needed for the identical semantic projections.
 
 #### F.13:9.2 - Alias for a common legacy synonym (Sys‑CAL)
 
@@ -211,7 +211,7 @@ Temptation: “Let’s rename *process* to *activity*.”
 * **Temptation:** Rename **“task execution”** to **“actuation”** “to sound control‑ish”.
 * **Diagnosis:** Different Contexts; different SenseCells (program run vs control output).
 * **Move:** **No rename.** Keep the labels. Establish any actual Work-to-signal production or output relation under the pattern for that relation, following F.11. Add F.9 only when a separate semantic correspondence between the particular local senses is needed. Then keep the bounded-use claim and reliance separate.
-* **Pay‑off:** Plant narratives stop calling programs “actuators”; runtime vs control semantics stay crisp.
+* **Pay-off.** The reader can distinguish a running program from its control output. To claim that plant writers have changed their usage, compare what their earlier and later texts actually say.
 
 #### F.13:11.3 - Kind-CAL × method/work stack — false merge avoided
 
@@ -226,7 +226,7 @@ Temptation: “Let’s rename *process* to *activity*.”
 * **Context:** *BPMN 2.0 (design)*.
 * **Legacy:** Team jargon **“heartbeat”** used for a **timer event**. Newcomers confuse it with **sensor heartbeats** (KD‑CAL).
 * **Move:** `renames("heartbeat" → "timer event")` for the team’s unchanged BPMN timer-event meaning. Keep a local historical read-path; the sensor-liveness use remains a different local meaning.
-* **Pay‑off:** Two different ecosystems stop colliding on the same catchy word.
+* **Pay-off.** In the revised vocabulary the reader can tell a timer event from a sensor-liveness report. Whether teams have adopted the designation is a question about their actual usage.
 
 #### F.13:11.5 - Concept‑Set row refactor after duplicate comparison is established
 
@@ -317,7 +317,7 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 
 #### F.13:15.1 - Static conformance (SCR)
 
-* **SCR-F13-S01 (local continuity).** Every `renames/aliases` preserves the exact semantic projection, intended use and any independently governed value. An external row or description label resolves its target under the applicable rule.
+* **SCR-F13-S01 (local continuity).** Every `renames/aliases` preserves the exact semantic projection, intended use and any independently governed value. For a claim about the current preference, the effective naming decision or rule covers that use. An external row or description label resolves its target under the applicable rule.
 * **SCR-F13-S02 (Truthfulness).** Each rename retains its exact old and new expressions. A changed LocalExpression has a distinct F.17 cell even when meaning is unchanged. Any claim of governed-value or episteme continuity satisfies that subject's rule.
 * **SCR‑F13‑S03 (Alias purpose).** Every retained legacy alias serves an actual reading or retrieval need and resolves to its historical meaning; it is distinguished from the preferred current designation.
 * **SCR‑F13‑S04 (Non‑retroactivity).** No requirement or suggestion to rewrite past texts is present; continuity is expressed as **read‑paths**.

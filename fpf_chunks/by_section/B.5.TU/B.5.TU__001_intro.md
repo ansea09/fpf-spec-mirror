@@ -6,12 +6,12 @@ section_id: "B.5.TU:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:intro — Intro"
-line_start: 51086
-line_end: 51091
+line_start: 51111
+line_end: 51116
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

@@ -6,12 +6,12 @@ section_id: "F.13:11"
 section_title: "Extended examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__012_extended-examples.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:11 — Extended examples"
-line_start: 131862
-line_end: 131901
+line_start: 131926
+line_end: 131965
 dependencies:
   - "F.1"
   - "F.17"
@@ -48,7 +48,7 @@ keywords:
 * **Temptation:** Rename **“task execution”** to **“actuation”** “to sound control‑ish”.
 * **Diagnosis:** Different Contexts; different SenseCells (program run vs control output).
 * **Move:** **No rename.** Keep the labels. Establish any actual Work-to-signal production or output relation under the pattern for that relation, following F.11. Add F.9 only when a separate semantic correspondence between the particular local senses is needed. Then keep the bounded-use claim and reliance separate.
-* **Pay‑off:** Plant narratives stop calling programs “actuators”; runtime vs control semantics stay crisp.
+* **Pay-off.** The reader can distinguish a running program from its control output. To claim that plant writers have changed their usage, compare what their earlier and later texts actually say.
 
 #### F.13:11.3 - Kind-CAL × method/work stack — false merge avoided
 
@@ -63,7 +63,7 @@ keywords:
 * **Context:** *BPMN 2.0 (design)*.
 * **Legacy:** Team jargon **“heartbeat”** used for a **timer event**. Newcomers confuse it with **sensor heartbeats** (KD‑CAL).
 * **Move:** `renames("heartbeat" → "timer event")` for the team’s unchanged BPMN timer-event meaning. Keep a local historical read-path; the sensor-liveness use remains a different local meaning.
-* **Pay‑off:** Two different ecosystems stop colliding on the same catchy word.
+* **Pay-off.** In the revised vocabulary the reader can tell a timer event from a sensor-liveness report. Whether teams have adopted the designation is a question about their actual usage.
 
 #### F.13:11.5 - Concept‑Set row refactor after duplicate comparison is established
 

@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "Archetypal grounding: three examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-examples-informative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:12 — Archetypal grounding: three examples (informative)"
-line_start: 107100
-line_end: 107143
+line_start: 107161
+line_end: 107204
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,9 +80,9 @@ Any edition identity needed by the plan is selected through a separate `U.Episte
 
 #### E.10:12.2 - Manufacturing (assembly line)
 
-**Source sentence:** “The welding **function** provides air-tight seams; the **process** costs 3 min.” In this constructed case, the available capability assessment identifies Robot_SN789 and its qualified Weld_MIG_v3 conditions; the run observations identify WeldWork-SN789-4711, its three-minute duration and the affected joint.
+**Source sentence:** “The welding **function** provides air-tight seams; the **process** costs 3 min.” In this constructed case, the available capability assessment identifies Robot_SN789 and its qualified Weld_MIG_v3 conditions; the run observations identify this robot performing WeldWork-SN789-4711, its three-minute duration and the affected joint.
 
-**Repair:** “`Robot_SN789` can execute `Weld_MIG_v3` within envelope E at measures M. The run `WeldWork-SN789-4711` lasts three minutes and changes the workpiece joint. Use the recorded measurements to check the duration and the seam's air-tightness acceptance criterion.”
+**Repair:** “`Robot_SN789` can execute `Weld_MIG_v3` within envelope E at measures M. The run `WeldWork-SN789-4711` lasts three minutes and changes the workpiece joint. The run observation establishes the duration. To accept this seam as air-tight, obtain an applicable test result or other grounds allowed by its acceptance terms. Carry out a fresh or specified operator’s test when those terms require it.”
 
 For one run, recover `Robot_SN789` as the actual performer through A.13 and let A.15.1 independently admit `WeldWork-SN789-4711` from its performer, time, Method, and containing-System facts. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `WelderSystemRole` only when that classification matters.
 

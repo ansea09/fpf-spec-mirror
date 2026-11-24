@@ -6,12 +6,12 @@ section_id: "C.2.3:16"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__017_worked-examples.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:16 — Worked examples"
-line_start: 55915
-line_end: 55942
+line_start: 55946
+line_end: 55973
 dependencies:
   - "A.16"
   - "A.18"

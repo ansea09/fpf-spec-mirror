@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:5 — Archetypal Grounding"
-line_start: 126558
-line_end: 126630
+line_start: 126622
+line_end: 126694
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -46,7 +46,7 @@ Continue only for the next result you need:
 
 #### F.0.1:5.2 - Compact worked results and recognition cues
 
-A **worked result** below names the exact source, edition, passage, and meaning used. A **recognition cue** only marks a likely false friend; it establishes no local meaning until the practitioner supplies those four values. This distinction lets readers use examples from several fields while seeing which readings still need source work.
+A **worked result** below names the exact source, edition, passage, and meaning used. A **recognition cue** only marks a likely false friend; it establishes no local meaning until those four values and their connection are established. An archivist's reading of the cited clause may supply them. Reporting that reading and independently interpreting the clause are different contributions. This distinction lets readers use examples from several fields while seeing which readings still need source work.
 
 ##### F.0.1:5.2.1 - *process* and *activity*
 

@@ -6,12 +6,12 @@ section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:4 — Solution"
-line_start: 86242
-line_end: 86381
+line_start: 86299
+line_end: 86438
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -75,7 +75,7 @@ Open only the layers required by the attempted use.
 | --- | --- | --- |
 | Direct subject result | The candidate's independently governed kind or result, its subject, and any representation, conformance, correspondence, transition, structure, collection, mathematical, plan, Work, or domain relation on which the selected claim depends. | Intended evidence use, reliance, receiving decision, permission, gate passage, or authorization. |
 | Optional A.2.4 first-use classification | When the candidate episteme is being used as evidence or as a status carrier, the episteme, target claim or status, polarity or value, intended use, and any scope or window that changes that use. | Provenance, sufficiency, `RelianceDisposition`, assurance, permission, or receiving action. |
-| Bounded reliance and a needed A.10 account | The relied-on claim, source, actual use relation and support needed for that use. When the source-to-use account remains implicit or must be replayable, use A.10's path and `RelianceDisposition`. Retain currentness, a live challenge, a locally plausible unsupported use, and a reopen or stop condition when they affect this reliance. | Claim truth, selector outcome, gate result, approval, permission, assurance, or Work authorization. |
+| Bounded reliance and a needed A.10 account | For a proposed use, the claim, source and grounds that make it suitable. To say a receiver actually relied on it, establish the use relation. When the source-to-use account remains implicit or must be replayable, use A.10's path and `RelianceDisposition`. Retain currentness, a live challenge, a locally plausible unsupported use, and a reopen or stop condition when they affect this reliance. | Claim truth, selector outcome, gate result, approval, permission, assurance, or Work authorization. |
 | Receiving conditions and result | The entry conditions imposed by the rule governing this contribution, including any required gate, permission or authorization. Obtain the choice, acceptance, task or domain result when that result is itself required by the receiving work. Qualified inputs may be used to construct it. | Candidate identity or evidence merely by mentioning the row. |
 | Auxiliary facts | Lens, publication, form, carrier, repair, provenance, source, or rendering facts needed to interpret or recover the row. | Any missing positive subject result, reliance, or receiving result. |
 

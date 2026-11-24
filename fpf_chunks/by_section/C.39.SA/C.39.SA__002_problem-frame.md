@@ -6,12 +6,12 @@ section_id: "C.39.SA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:1 — Problem frame"
-line_start: 88243
-line_end: 88246
+line_start: 88300
+line_end: 88303
 dependencies:
   - "B.1"
   - "B.5.MR"

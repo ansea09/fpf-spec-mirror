@@ -6,12 +6,12 @@ section_id: "A.15.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:7 — Conformance Checklist"
-line_start: 32989
-line_end: 33000
+line_start: 33006
+line_end: 33017
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,7 +38,7 @@ keywords:
 - **CC-A15.7-3 — Action-guiding information.** Does every stated fact matter to the action, and is the observation, report, recommendation, or other information current enough when that matters?
 - **CC-A15.7-4 — Method relation.** Are domain and steering Methods distinct, with co-enactment or composition asserted only from its own basis?
 - **CC-A15.7-5 — Available actions.** Are mandatory action, recognition, comparison, generation, and tool-planning branches kept separate?
-- **CC-A15.7-6 — Chooser and performer.** Are the deciding System and, when an action is selected, its intended performer clear, with any authority or capability claim grounded separately?
+- **CC-A15.7-6 — Chooser and performer.** Does the account identify the deciding System and distinguish a named performer, a jointly allocated action or an authorized later choice according to what was decided? Do any claimed authority and capability have their own grounds?
 - **CC-A15.7-7 — First result.** Does the answer state the supported continuation or blocker and its grounds, with any stop or feedback condition needed for its use?
 - **CC-A15.7-8 — History and corrected claims.** Are later observations, plan changes, performed actions and Method changes kept at their actual times, with any refuted earlier claim corrected and its dependents rechecked?
 - **CC-A15.7-9 — Plain use.** Can a cold practitioner understand what to do before meeting the formal distinctions?

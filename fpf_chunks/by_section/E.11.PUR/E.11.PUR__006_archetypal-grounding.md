@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 111297
-line_end: 111376
+line_start: 111358
+line_end: 111437
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,7 +80,7 @@ A design team's comparison rule requires the exact evaluation coordinates for ca
 
 When the actual spec and its basis meet those receiving conditions, readiness can be supported. A named later reliance that needs addressable closure also requires the current PUA finding.
 
-If an earlier ECS result already meets them under §4.2.1, reuse that result without repeating ECS. A same-kind spec for another question is insufficient.
+If an earlier ECS result already meets them under §4.2.1, use it to supply the required spec. A separately commissioned new comparison is due even if the spec answers the technical question. A spec for a different question needs its own grounds.
 
 If the comparison rule no longer requires this content, the dependency fails; if the rule itself is missing, the dependency is unresolved. Neither result changes candidate inspection or supplies Work authorization.
 

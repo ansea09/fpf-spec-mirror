@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:7 — Conformance Checklist"
-line_start: 12386
-line_end: 12396
+line_start: 12399
+line_end: 12409
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -29,5 +29,5 @@ keywords:
 - [ ] Use coverage distinguishes exposed claims, deliberate omissions, unresolved gaps, and return conditions.
 - [ ] WorkPlan, dated Work, actual participants and results, operation declarations, evidence, capability, permission, authority, representation, publication, and carrier claims remain separate.
 - [ ] Representation choice does not decide MethodDescription membership.
-- [ ] The result says only whether this edition covers the named claim need; it does not infer Method fit, effectiveness, assurance, or actual use.
+- [ ] When a description is commissioned, deliver the account the recipient can use. A coverage judgement states which claims the edition supplies for that use. Method fit, effectiveness, assurance and actual use each require their own grounds.
 

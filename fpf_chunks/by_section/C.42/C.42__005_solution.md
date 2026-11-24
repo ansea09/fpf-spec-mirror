@@ -6,12 +6,12 @@ section_id: "C.42:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:4 — Solution"
-line_start: 95188
-line_end: 95346
+line_start: 95245
+line_end: 95403
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.42:4 - Solution
 
-Use a result-preserving comparison of whole obtaining ways. Recover what the work is for, locate a consequential avoidable demand, construct changes that address it, and compare those changes with continuing the present way. Introduce the selected change under adequate conditions and judge what happens in later work. Retain the present way or stop the improvement effort when a proposed reduction is not worthwhile.
+Use a result-preserving comparison of whole obtaining ways. Recover what the work is for, locate a consequential avoidable demand, construct changes that address it, and compare those changes with continuing the present way. Return the supported comparison or recommendation when that is what the recipient commissioned. When entrusted with introducing the change, establish the conditions it needs, then use later work to judge its effects. Retain the present way or stop the improvement effort when a proposed reduction is not worthwhile.
 
 A recall cue is:
 
@@ -38,7 +38,7 @@ Name the result in its receiving use: who or what will use it, for which action 
 
 Recover the conditions the recipient relies on. For a dataset, values may be insufficient without units and source identity. For a maintained service, ordinary output may be insufficient without recovery from a foreseeable failure. For learning, a correct answer from a helper may be insufficient when future independent performance is the purpose.
 
-Obtain the professional judgement that establishes those conditions; cost reduction does not establish them.
+Establish those conditions from the governing terms, the relevant professional judgement or the agreement the work requires. A projected saving alone supplies no ground for changing them.
 
 Follow a proposed deletion through its actual uses. Ask what would become unavailable, unreliable or more burdensome if this contribution ceased. Reuse a supplied contribution where it remains sufficient.
 
@@ -54,7 +54,7 @@ Separate three conclusions:
 
 A.11.OP supplies the contribution test for one proposed mandatory requirement. A positive contribution does not establish that its burden is worthwhile; C.11.DUA helps resolve that further question.
 
-An existing obligation remains binding until changed by its competent authority or agreement. A practitioner may propose its removal without being entitled to stop complying.
+Apply the obligation on its current terms, including any expiry, alternative or agreed condition that ends it. Where a further change needs a decision or agreement, establish who can make it and when it takes effect. A proposal on its merits can go to the recipient while the earlier obligation is still in force.
 
 
 #### C.42:4.2 - Recover where the effort and elapsed time arise
@@ -113,7 +113,7 @@ Construct a complete candidate only as far as the decision requires. Include an 
 
 A changed purpose requires a new comparison basis. Ending an unwanted report and producing the same report faster do not obtain the same result.
 
-First establish the remaining needed use and the authority to change the commitment; then compare ways that serve that use. Do not claim preservation by weakening the result.
+Establish the remaining use and the conditions now governing the commitment, including any authorized change the proposed reduction requires. Compare ways that satisfy those conditions.
 
 #### C.42:4.5 - Compare complete alternatives over the relevant horizon
 
@@ -143,7 +143,7 @@ Establish the needed reserve or capability from its use; do not preserve every i
 
 When one candidate preserves the same needed conditions and is no more burdensome on any relevant coordinate, with at least one strict reduction, it is preferable for this comparison.
 
-When gains conflict, make the trade-off explicit, such as accepting more setup effort for earlier availability, or retain alternatives until the person responsible for that choice can settle it. A binding safeguard is not converted into an optional cost by this comparison.
+When gains conflict, make the trade-off explicit, such as accepting more setup effort for earlier availability, or retain alternatives until the participants with authority for that choice can settle it. A binding safeguard is not converted into an optional cost by this comparison.
 
 Choose a supported change, a bounded trial, a narrower use, continued operation, or no further improvement work. A new safeguard can be part of the lighter whole. Worth is not equivalent to the fewest operations.
 

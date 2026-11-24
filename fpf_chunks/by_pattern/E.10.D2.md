@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
-line_start: 109139
-line_end: 109557
+line_start: 109200
+line_end: 109618
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -117,7 +117,7 @@ For one named describing use, state the exact viewpoint P it selects when that s
 
 ##### E.10.D2:4.1.3 - Specification-use admission
 
-Use a `...Spec` name only when the receiving use depends on specification force and satisfies the applicable conditions in C.2.1:6. That section supplies the exact episteme, checkable claims, checking means and reliance-relevant viewpoint conditions. When those conditions are absent, use description for the account and present proposed criteria as proposals. A suffix alone supplies no specification force.
+Use a `...Spec` name for a use that meets the conditions in C.2.1:6. Identify the episteme, the checkable claims, the means of checking them and any viewpoint on which reliance depends. A proposed specification can guide a trial. To rely on it as binding for a party, identify the agreement, rule or authorized act that makes those criteria apply to that party and use. If the checking conditions are absent, use description for the account and present proposed criteria as proposals.
 
 
 ##### E.10.D2:4.1.4 - Model-use structure
@@ -152,13 +152,13 @@ Open one exact occurrence of a directly declared `U.SystemRoleAssignment` specie
 
 **D2-2 (Entity-description distinction).** Recover the independently identified EntityOfConcern and the claim-bearing episteme without treating a description as its subject merely by appearance. They may be the same episteme in a C.2.1 self-description; different constitution triples identify different epistemes.
 
-**D2-3 (Specification is a use).** Specification force requires checkable claims and a named harness or validation relation. When viewpoint selection affects reliance, preserve or update the named describing use and its exact selection. Specification is not a peer class or label effect.
+**D2-3 (Specification is a use).** A specification use requires checkable claims and a named harness or validation relation. Preserve or update the selected viewpoint when the named describing use depends on it. Establish adoption under the applicable rule when claiming that these criteria govern acceptance.
 
 **D2-4 (Conditional neighbors).** Grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, publication, carrier, currentness, and representation enter only through their subject patterns when the receiving use depends on them.
 
 **D2-5 (Stable identity across use).** Changed description use, viewpoint selection, harness, evidence, publication, form, carrier, rendering, or representation does not by itself change episteme identity.
 
-**D2-6 (Work and authority separation).** An account of Work identifies its performing System under A.15.1. Epistemes carry claims and may be used in that Work under independently governed use relations. Permission, acceptance, assurance and world-side claims retain their direct governing rules; a description or display supplies none by label.
+**D2-6 (Work and authority separation).** For a claim that a particular Work occurred, establish its performer or performers at the scale claimed under A.15.1. A test result can settle the question about the subject even while the individual operator remains unidentified. Epistemes carry claims and may be used in that Work under independently governed use relations. Permission, acceptance, assurance and world-side claims retain their direct governing rules; a description or display supplies none by label.
 
 **D2-7 (No label-only sameness).** Identical labels across schemes, scopes, viewpoints, model-use structures, or contexts establish neither the same EntityOfConcern nor the same episteme. Use the governing identity and Bridge rules.
 
@@ -252,7 +252,7 @@ No branch follows from visual appearance, generation history, a heading, or a re
 
 #### E.10.D2:8.5 - Work, status, and authority
 
-Only admitted systems perform authoring, evaluation, revision, publication, viewing, query, rendering, and use work under the corresponding work relations. The resulting episteme, publication, carrier, trace, or evaluation result does not perform that work.
+Only admitted systems perform authoring, evaluation, revision, publication, viewing, query, rendering, and use work under the corresponding work relations. The episteme carries the claims. A carrier may also be a performing System. To attribute an action to it, establish its operation, such as a terminal recalculating a result while displaying its record.
 
 Epistemic and deontic statuses over epistemes are not `SystemRoleAssignmentStateRelation` occurrences, system states, or runtime facts about the EntityOfConcern. A gate verdict, permission, commitment, acceptance, requirement use, standard use, source use, or Work authorization needs the pattern that defines, constrains, or tests that claim. Neither a description nor its publication grants those effects by label, approval mark, or availability.
 
@@ -262,7 +262,7 @@ Epistemic and deontic statuses over epistemes are not `SystemRoleAssignmentState
 
 **Episteme case.** A DRR, pattern, safety case, source set, or model episteme can itself be the EntityOfConcern of another episteme. A review note about it uses ordinary C.2.1 recursion. Its dashboard, PDF, publication, evidence path, and review work remain separate regardless of which one the reader first encounters.
 
-**Card and diagram case.** A filled card or diagram can be a claim-bearing episteme when its C.2.1 constitution is recoverable. Its layout can separately be a publication form or representation, and its file can be a carrier. Filling or displaying it makes no subject relation obtain.
+**Card and diagram case.** A filled card or diagram can be a claim-bearing episteme when its C.2.1 constitution is recoverable. Its layout can separately be a publication form or representation, and its file can be a carrier. An entry or display can report a condition. Where the governing terms make an authorized entry operative, making that entry can change an assignment or put a decision into effect. To rely on that change, establish the act and the applicable terms.
 
 The dominant bias is substitution by the most visible object: a reader sees a file, diagram, dashboard, card, label, or status and lets it replace the independently governed entity, episteme, relation occurrence, or authority needed for the decision. Replacing the word leaves that substitution unresolved. Recover the exact object and direct relation for the named receiving use.
 
@@ -271,12 +271,12 @@ The dominant bias is substitution by the most visible object: a reader sees a fi
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
 | **Entity-description collapse** | “The method is the document”; “the architecture is the diagram”; “the role contains the checklist.” | Recover the exact EntityOfConcern and C.2.1 description episteme; handle every subject-side claim under its subject pattern. |
-| **Filled-card ontology** | A completed tuple, record, table, or schema is treated as what makes the episteme or relation exist. | Recover the governed object and obtaining relation first; treat the record as an episteme, form, carrier, or representation only when its own recognition conditions hold. |
+| **Filled-card ontology** | The form of a completed tuple, record, table or schema is taken as sufficient grounds for the existence of the episteme or an asserted relation. | Use the recognition conditions for the object being claimed. If an authorized entry institutes a relation, establish that act and the conditions that give it effect. For a record reporting an existing relation, establish what the record supports. |
 | **Spec by name** | Any detailed, approved, or formal-looking write-up is called `...Spec`. | Use `...Description` until the named receiving use, checkable claims, and an exact harness or validation relation are recoverable. Add an exact selected viewpoint only when it changes what that use reads or checks or what a relying use may conclude; otherwise omit it. |
 | **Context as identity** | A project, viewpoint selection, or model-use setting is copied into episteme identity. | Keep the C.2.1 identity triple fixed; state only the exact use qualification or neighboring relation the receiver needs. |
 | **Describing-use erasure** | A description is read as globally viewpoint-free, or a prior use's selected viewpoint is silently reused. | Name the current receiving use and its exact selected viewpoint when that selection affects the reading; changing the selection alone does not reidentify the episteme. |
 | **View by appearance or construction** | A generated table, diagram, query result, or published face is called a `U.View`. | Apply E.17.0 conformance for view membership; use A.6.3 for actual source-to-receiving construction, E.24.PUB for publication, and A.6.3.RT/A.6.3.RT.OE for expression construction and correspondence; add C.29 when the use needs a mathematical lens. |
-| **Publication as authority** | Availability, an approval mark, card, dashboard, or file is treated as permission, evidence, assurance, gate result, decision, or work. | Recover the exact publication occurrence, then apply the direct governor for the stronger claim. |
+| **Publication as authority** | A reader infers permission, evidence, assurance, a gate result, a decision or performed work from the mere presence of a mark, card, dashboard or file. | Use the rule governing the claimed result. Establish publication when the rule gives publication effect or the claim concerns publication. An authorized entry may itself institute the assignment or decision. |
 | **Carrier identity** | A file path, screen, sheet, or repository entry is treated as the episteme or EntityOfConcern. | Identify the exact carrier and bearing relation while keeping form, publication occurrence, episteme, and EntityOfConcern separate. |
 | **Status-state leakage** | Evidence, requirement, approval, or standard status becomes an assignment-state relation or runtime value. | Keep status claims on their exact epistemic or deontic subject; use A.2.5 only for one exact `U.SystemRoleAssignment` satisfying one `SystemRoleAssignmentStatePredicate`. |
 | **Episteme-role shortcut** | “The standard plays the compliance role”; “the evidence has the approval role”; “the source authorizes work.” | Recover the exact standard-use, evidence-use, source-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants; if no direct governor supplies the needed predicate and participants, return `missing-governor`. Reserve `U.SystemRoleAssignment` for exact assignments of independently admitted systems to local system-role kinds. |
@@ -315,7 +315,7 @@ If work uses the description, state the exact premise, reference, decision-use, 
 
 An integration team needs to decide whether a service-interface description is fit to drive a conformance test. The exact interface is the EntityOfConcern of `PaymentInterfaceDescription`; its ClaimGraph states message, ordering, error, and tolerance claims under the effective interface scheme. Name the current integration-test use. Record an exact integration viewpoint only if it changes which interface claims are read or checked or what the team may conclude from the test; otherwise omit viewpoint selection.
 
-The team may call the episteme `PaymentInterfaceSpec` for this use only after the relevant claims are checkable and the exact conformance harness or validation relation is named. If viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
+The team may call the episteme `PaymentInterfaceSpec` for this use once the relevant claims are checkable and the exact harness or validation relation is named. If viewpoint selection affects reliance, preserve or explicitly update the selected viewpoint for the named describing use. The team can run the test against a proposed interface. If the tested behavior is required under the applicable agreement, a sound failing test can establish nonconformance. Apply the governing rule to that finding. It may settle acceptance directly or reserve rejection, acceptance or a waiver to a party with that authority.
 
 Formal notation or an approval signature can help interpret or constrain a neighboring claim, but neither substitutes for those conditions. A changed test result changes the result or reliance claim; it does not reidentify the interface or the episteme.
 

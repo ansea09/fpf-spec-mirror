@@ -6,12 +6,12 @@ section_id: "A.16.2:15"
 section_title: "Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__015_migration-notes.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:15 — Migration Notes"
-line_start: 35818
-line_end: 35825
+line_start: 35835
+line_end: 35842
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,5 +39,5 @@ keywords:
 Older language often talks about "going backwards" or "regressing". The preferred migration is to name whether the change is reopen, sketch-backoff, respecify, or retire, and which route, endpoint, publication, current-use, or actual relation claim changes.
 
 #### A.16.2:15.2 - Integration reminder
-When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, update the affected subject result, recovered action claim or question, evaluation, Work hook, or current-use claim instead of leaving a stale downstream assertion.
+When retreat affects a subject result under `A.6.P`, `A.6.A`, `C.16.Q` or `A.15`, identify which action claim, question, evaluation, Work hook or current use relied on the withdrawn ground. Revise the conclusion you are authorized to maintain. Where another party controls the decision or publication, communicate the changed basis through the applicable route if that party needs it for the affected use. Preserve the earlier act as history and identify any new decision when made.
 

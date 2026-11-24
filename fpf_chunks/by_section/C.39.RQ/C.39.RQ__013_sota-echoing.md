@@ -6,12 +6,12 @@ section_id: "C.39.RQ:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__013_sota-echoing.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:11 — SoTA-Echoing"
-line_start: 89547
-line_end: 89557
+line_start: 89604
+line_end: 89614
 dependencies:
   - "A.3.1"
   - "C.11"

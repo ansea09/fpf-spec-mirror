@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 74833
-line_end: 74888
+line_start: 74884
+line_end: 74939
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ keywords:
 
 Use this pattern to establish how a holon (`U.Holon`) is organized, explain what that organization makes possible, or identify what a design would change. A description may show an existing arrangement, propose a different one or specify conditions that an arrangement has to meet.
 
-Begin with the work the architecture account must support. Which property, relationship or unrealized requirement does the recipient need to understand? For an actual arrangement, establish which subject relations hold and how the selected A.22 structure organizes the holon. For a proposal, show how its parts would work together under the stated conditions. Constitute a C.2.1 claim when its later use requires one.
+Begin with the work the architecture account must support. Which property, relationship or unrealized requirement does the recipient need to understand? For an actual arrangement, establish which subject relations hold and how the selected A.22 structure organizes the holon. A property may follow from the known topology even while the identity of a particular constituent remains open. For a proposal, show how its parts would work together under the stated conditions. Constitute a C.2.1 claim when its later use requires one.
 
 Select the structures the question turns on. Follow the constituent relation for each relevant kind of holon far enough to account for the property at issue. Where the result depends on several structures, trace the connections through which they contribute to the result under the same admissible conditions. Some connect constituents of one holon. Others connect independent holons through an exchange, a shared rule or an interaction. Establish composition where the explanation relies on it. Choose the detail of each model by asking what it would treat alike that the requested explanation or design needs to distinguish. A request to identify the next architecture action can end when that action and its grounds are clear.
 

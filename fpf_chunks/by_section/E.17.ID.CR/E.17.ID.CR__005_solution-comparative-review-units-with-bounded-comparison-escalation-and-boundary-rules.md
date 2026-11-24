@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:4"
 section_title: "Solution - comparative review units with bounded comparison, escalation, and boundary rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__005_solution-comparative-review-units-with-bounded-comparison-escalation-and-boundary-rules.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:4 — Solution - comparative review units with bounded comparison, escalation, and boundary rules"
-line_start: 116341
-line_end: 116658
+line_start: 116405
+line_end: 116722
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -49,7 +49,7 @@ Make one bounded comparison from the claims the reviewed sources support. Start 
 
 **Recover the question and its criterion.** Identify what the receiving review needs to distinguish and why: for example, the restoration time a release plan can guarantee, the populations covered by two studies, or the conditions under which two Methods can be used. Read the request, applicable requirement and surrounding review context for the object, situation and consequence that make a difference relevant.
 
-Turn that difference into an answerable question about each source. If the purpose is only to compare the accounts, the criterion can concern their coverage or emphasis; state that subject. If a necessary priority or requirement is missing, ask the receiving reviewer which consequence or condition the comparison must resolve. Meanwhile retain any useful source contrast whose basis is already clear.
+Turn that difference into an answerable question about each source. If the purpose is only to compare the accounts, the criterion can concern their coverage or emphasis; state that subject. If a necessary priority or requirement is missing, look for it in the applicable requirements. If the choice was delegated, select and justify the consequence that matters. If it remains reserved, obtain the priority from whoever can settle it or report the conditional answers. Meanwhile retain any useful source contrast whose basis is already clear.
 
 **Recover each source's answer.** Locate the passages bearing on that question, including definitions, qualifications and supporting results. For each alternative, recover what is asserted, about what, under which conditions and with what support. Keep the source return beside the extracted claim when it would otherwise be lost. Read enough surrounding argument to distinguish a stated result, an assumption, a proposed result and an unanswered question.
 
@@ -272,7 +272,7 @@ If the required source relation is missing, the repair request or source-gap not
 
 **Comparative-review-unit identity over revision.** A revised comparison table, regenerated comparison note, or updated guided review aid is not the same bounded comparison merely because the layout, title, or compared-source family stayed familiar.
 
-If new source input, revised source references, changed comparison criterion, changed shared review frame, or a change in the blocked downstream claim or effect changes the comparison identity or downstream use, publish the preserved comparative frame and the changed claims, or treat the result as a new comparative review unit before using it for a stronger crossed claim.
+If new source input, revised source references, changed comparison criterion, changed shared review frame, or a change in the blocked downstream claim or effect changes the comparison identity or downstream use, identify the preserved frame and the affected claims, or identify the new comparative review unit before using it for a stronger crossed claim.
 
 #### E.17.ID.CR:4.3.g - Representation ontology and modeling lens (informative)
 
@@ -301,7 +301,7 @@ A working reader can usually say, in one short paragraph:
 - which crossed claim is still outside this pattern and which neighboring pattern would govern that claim if it became primary;
 - and which boundary condition shows that the primary claim is no longer a bounded `ComparativeReviewUnit` claim.
 
-If the reader cannot tell what the comparison establishes, return to the receiving question. Clarify the source claim or the inference that bears on it. If the review unit supports only a narrower comparison, say what that comparison supplies and pursue the missing ground for the original question. The person who commissioned the work can agree to a different question.
+If the reader cannot tell what the comparison establishes, return to the receiving question. Clarify the source claim or the inference that bears on it. If the review unit supports only a narrower comparison, say what that comparison supplies and pursue the missing ground for the original question. A change to the commissioned question takes effect under the applicable agreement or the authority delegated for that choice.
 
 #### E.17.ID.CR:4.4 - Branch-discipline summary
 

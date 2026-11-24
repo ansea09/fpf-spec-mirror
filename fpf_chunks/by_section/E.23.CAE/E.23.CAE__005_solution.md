@@ -6,12 +6,12 @@ section_id: "E.23.CAE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:4 — Solution"
-line_start: 124112
-line_end: 124216
+line_start: 124176
+line_end: 124280
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -68,7 +68,7 @@ This optional form records the probe result; it introduces no new FPF kind.
 
    Select the scale of the observation from the demand that failed. If it concerns one performer's action, a record of that action may suffice. If it concerns a joint result, ask whether all the observed actions could succeed separately while their timing, handover or use defeats the result. Compare the arrangements that differ in the relevant relation. Keep the conditions in which each observation was made.
 3. **Hold development and updating fixed.** During the contrast, avoid new teaching, rehearsal, procedure rewrite, fine-tuning, parameter update, recalibration, or other development where safe and feasible. If the probe necessarily changes the holder, mark the affected distinction unresolved or narrow the claim.
-4. **Return to a qualified reference condition.** When the needed contrast is not already supported by matching observations, recreate a previously successful or separately qualified condition without further development. Prefer an `A → B → A` or equivalent return when order, recency, or transition history can matter. Reappearance rejects simple global loss under those tested conditions; it does not establish general transfer.
+4. **Return to a qualified reference condition.** Use matching observations for the diagnosis. For a fresh attempt or independent observation specified in the commission, establish who carried it out and under what conditions. When the diagnostic comparison is still open, recreate a previously successful or separately qualified condition without further development. Prefer an `A → B → A` or equivalent return when order, recency, or transition history can matter. Reappearance rejects simple global loss under those tested conditions; it does not establish general transfer.
 5. **Vary a decision-bearing condition.** For a remaining unresolved contrast, change the smallest condition that can distinguish live rivals: an overt cue, cue reliability, preceding decision state or uncertainty, role, record, authority, tool, task or context identifier, state feedback, blocked versus interleaved order, transition frequency, or another domain-relevant condition. A label or visible setting is not assumed to be the effective context.
 6. **Observe applicability separately.** Ask whether the relevant Method, response, routine, policy, or prior case is selected as applicable before judging execution. For a person this may involve recognition or choice; for an organization it may involve routing, role, record, or authorization; for AI or robotics it may involve task/context identification, policy routing, or function activation. These are different mechanisms occupying one observational position.
 
@@ -83,15 +83,15 @@ These steps organize observations, not a universal cognitive pipeline. A holder 
 
 | Differential disposition | Minimum useful observation | Candidate route | What the observation does not establish |
 | --- | --- | --- | --- |
-| `outsideClaimedEnvelope` | The current demand differs on an envelope coordinate excluded from or unsupported by the current capability claim. | Reframe the claim through `A.2.2`, or open development only through a separate next-action or choice result. | Loss or forgetting inside the old envelope. |
+| `outsideClaimedEnvelope` | The current demand differs on an envelope coordinate excluded from or unsupported by the current capability claim. | Reframe the claim through `A.2.2`. For development outside the old envelope, apply a governing instruction that covers the new demand or obtain a decision on the proposed change. | Loss or forgetting inside the old envelope. |
 | `configurationOrSupportUnavailable` | Performance changes with a controlled performer, role, record, tool, interface, authority, state, or environment contrast. | `A.15.8` and the direct owner of the failed relation. | Changed holder capability or a human-like memory in a collective. |
-| `responseAvailableUnderReferenceCondition` | The prior response or result reappears in a qualified reference condition without new development or update. | Probe applicability, transfer, adaptation, or enactment; then use the applicable steering or choice pattern. | Whole-envelope capability, a particular retrieval mechanism, or sufficient transfer. |
+| `responseAvailableUnderReferenceCondition` | The prior response or result reappears in a qualified reference condition without new development or update. | Investigate the applicability, transfer, adaptation or enactment that the receiving question depends on. Follow the applicable instruction when it settles the next action. Use steering or choice for a decision still open. | Whole-envelope capability, a particular retrieval mechanism, or sufficient transfer. |
 | `applicabilitySelectionFailureSupported` | The target demand fell within the envelope. Evidence distinguishes a response already available for that demand from an operation first supplied by a prompt, and shows that applicability was missed in the original condition. | Holder-specific HCD, organization, AI/robotics, or domain inquiry; `A.15.7` or `C.11` only under their own entry conditions. | A shared recognition mechanism, unassisted use after a cue that supplied the answer, or the intervention to choose. |
 | `accessOrActivationFailureSupported` | Applicability is established, yet access or activation changes under a controlled cue, task/context, or routing contrast before adaptation and enactment. | Holder-specific access, retrieval, activation, or routing inquiry. | Erased content, a universal latent context, or a sufficient repair. |
 | `contextDependentExpressionOrInterferenceSupported` | Expression changes systematically with a qualified context, cue-reliability, or transition-statistics contrast and can reappear without development. | Holder-specific explanation and development Method when separately selected. | The hidden context representation or memory architecture that caused the observation. |
 | `adaptationFailureSupported` | The response is selected and available, but cannot be transformed to the changed demand while enactment supports are adequate. | Direct adaptation or domain Method inquiry. | Loss of the original response or the correct adaptation Method. |
 | `enactmentFailureSupported` | The response or adapted Method is selected and available, but performer assignment, coordination, authority, body, actuator, interface, tool, or another condition prevents actual Work or its result. | `A.15.8`, performer/authority owners, and the direct domain Method. | Capability change when the necessary performer arrangement did not obtain. |
-| `capabilityClaimRevisionWarranted` | Qualified reference and target probes fail across relevant conditions, envelope and configuration rivals have been addressed, and holder-specific evidence supports changed ability in the stated window. | Reassess the `A.2.2` capability claim; use a separate steering or choice result before development. | A specific human, organizational, model, or controller memory mechanism. |
+| `capabilityClaimRevisionWarranted` | Qualified reference and target probes fail across relevant conditions, envelope and configuration rivals have been addressed, and holder-specific evidence supports changed ability in the stated window. | Reassess the `A.2.2` capability claim. For development, apply a governing instruction that covers this finding or obtain a decision where the choice remains open. | A specific human, organizational, model, or controller memory mechanism. |
 | `unresolvedDifferential` | Safety, missing reference evidence, concurrent updating, coupled changes, insufficient measures, or surviving rivals prevent a safe, adequately supported distinction among the remaining explanations. | Obtain the missing evidence, use a protected test, narrow the claim, or stop. | Permission to choose the most familiar explanation. |
 
 One case may support several dispositions, ordered where the observations support that order. Keep each observation and its limits visible. No disposition is a `ChoiceResult`, authorization, selected next Work, or performed Work.
@@ -127,5 +127,5 @@ Keep the first result compact; one useful shape is:
 >
 > **Candidate routes:** [patterns or domain Methods that could receive the result].
 
-During ongoing Work, `A.15.7` can use the disposition as current information while recovering a next action. Use `C.11` only when a current chooser and `OptionSet` already exist and comparison or another probe can change the choice. `E.23.CAE` supplies neither pattern's result. Use `E.23.CDI` only after a separate applicable steering or choice result selects capability development.
+During ongoing Work, `A.15.7` can use the disposition as current information while recovering a next action. Use `C.11` only when a current chooser and `OptionSet` already exist and comparison or another probe can change the choice. `E.23.CAE` supplies neither pattern's result. Use `E.23.CDI` when a governing instruction already selects development for this finding or the empowered participant now chooses it.
 

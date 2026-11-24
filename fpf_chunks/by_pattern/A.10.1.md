@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
-line_start: 28201
-line_end: 28547
+line_start: 28218
+line_end: 28564
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -82,7 +82,7 @@ Without a bounded search frame, “no affected use found” can silently mean �
 | --- | --- |
 | Unknown receiving uses vs bounded effort | Receiving uses cannot all be named before discovery, but a global corpus search is rarely justified. |
 | Source-outward trace vs receiver-side reality | Backlinks and lineage find declared uses; receiver inspection finds equivalent or undeclared premises. Neither direction alone is generally adequate. |
-| Automation vs judgment | Search, lineage, traces, and AI can find candidates; the practitioner tests actual reliance in the receiving content under the direct rule. |
+| Automation vs judgment | Search, lineage and traces can expose a candidate dependency. Test actual reliance in the receiving content under its rule. The same capable system can find and test a dependency, or the work can be divided. A separately commissioned judgement needs its own performer and grounds. |
 | Local closure vs hidden gaps | Independent resolved branches should finish, while inaccessible or unindexed surfaces must not become implicit evidence of no impact. |
 | Reuse vs changed grounds | Reuse an unaffected result directly; when a consumed premise changes, recheck the needed condition and retain the result if it remains justified. |
 | Common move vs subject authority | Source-to-use discovery is reusable; materiality remains specific to the subject, including any separate evidence, assurance, or release question. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
-line_start: 37600
-line_end: 38022
+line_start: 37617
+line_end: 38039
 dependencies:
   - "A.0"
   - "A.19"
@@ -107,9 +107,9 @@ Keep this token-status split explicit:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b - First-minute operator cue and confusion guide
 
-Use this pattern only after one substrate is already declared, either cited directly or kept recoverable through one declared source set or declared set result. The first-minute move here is not "write more about the same space". It is "decide what inspection question the reader needs answered without changing the EntityOfConcern".
+Start with a declared substrate, identified directly or recoverable through a declared source set or set result. If the supplied view or substrate already answers the inspection question, use its supported conclusion. Reading a ready-made view and choosing how to represent these relations are distinct contributions. Establish who made or independently recognized the distinction when the receiving claim depends on it.
 
-Do this in the first minute:
+When the commission calls for constructing or repairing the view, begin with these choices.
 
 1. Cite the base substrate or the source-set entry point or set-result entry point that stays recoverable with it.
 2. State the inspection question in one sentence.
@@ -117,7 +117,7 @@ Do this in the first minute:
 4. Keep the active source set and any active set result recoverable.
 5. Add only the qualifiers that truly discipline the reading.
 
-If you cannot name the base substrate or the recoverable source-set entry point or set-result entry point that carries it, or if the current prose would change the source-to-outcome relation or its posture, stop. You are either repairing the substrate, retargeting the object, or drifting into publication/policy.
+If the base substrate cannot be identified directly or through the source-set or set-result entry, establish it before interpreting the view. For a different source-to-outcome relation or different conditions on that relation, follow `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8`. That rule distinguishes a hypothetical alternative from a change to the shared declaration. For a different object, publication or policy, take up that question under its own pattern.
 
 | If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |
@@ -264,7 +264,7 @@ When declaring one interpretive view, proceed in this order:
 4. **Keep the base source/result recoverable.** Name the active source set, and if the view is over one declared front, archive, shortlist, palette, or other set result drawn from that source, keep that active set result recoverable too.
 5. **Recover derived-view and palette structure when it matters.** If the view depends on one derived tradition or palette reading, state `DerivedViewKind` and `BasePaletteRef`.
 6. **Add the actual qualifiers.** Add `TypedSetViews`, cited spaces, declared map refs, metrics, transition qualifiers, or distortion notes only when the current reading truly depends on them.
-7. **Run the preservation check.** If the interpretive prose would materially change the base source-to-outcome relation or the base distortion/uncertainty/error posture, stop and reopen the substrate declaration.
+7. **Check what the view preserves.** If the proposed view changes the underlying source-to-outcome relation or its distortion, uncertainty or error conditions, identify the different substrate the claim uses. Follow the source-set pattern’s §4.8 for an alternative mapping or for a change to a shared declaration.
 8. **Run the boundary check.** If the prose starts changing the EntityOfConcern, minting new generic view law, publishing selected sets, shipping outputs, or deciding policy, apply the pattern that governs that question.
 
 **Incomplete declaration.** Missing base recovery or an unresolved change to the underlying relation prevents the dependent interpretive-view claim. Preserve independently established content and resolve the missing basis. Split out any separate publication or policy decision and apply its governing pattern.
@@ -309,7 +309,7 @@ Use them when the current interpretive view genuinely needs them:
 - `TransitionRelationRef` when the current reading depends on explicit transition or cross-scale state-change qualifier;
 - `BridgeDistortionNote` when the reader must keep one declared loss or distortion visible near the current reading.
 
-If a new loss, uncertainty or other qualification changes the underlying source-to-outcome relation, revise the substrate declaration and recheck dependent uses. Reuse unaffected content. A view-only qualification does not by itself change that relation.
+When a different mapping is useful, qualify the alternative substrate and its intended use. When evidence changes the applicability of the current mapping, reassess the conclusions that depend on it. Apply A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8 for changes to the shared declaration. A loss introduced only by the displayed view can be stated there.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.10 - Publication, set-result, and pool-policy boundaries
 
@@ -347,7 +347,7 @@ Once the interpretation is sufficient, stop. Select a neighboring pattern only f
 - Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base interpretive view declaration.
 - Use the corresponding pattern in §4.10 when the remaining question concerns selector outcomes, shipping, publication, live-pool policy or action planning.
 
-If a neighboring passage would change the EntityOfConcern or the base substrate posture, this pattern is no longer the governing pattern for that sentence. Reopen the base line or apply the pattern that governs the new question.
+For a different EntityOfConcern, follow the pattern that governs the new question. For a different source-to-outcome relation or qualification, use `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8` to declare the alternative for the comparison or establish the applicable change to the shared declaration.
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5 - Archetypal Grounding
 
@@ -373,7 +373,7 @@ If a neighboring passage would change the EntityOfConcern or the base substrate 
 
 **Show.** The changed-relation and retention claims need their own governing patterns.
 
-**Cash-out.** Reopen the substrate if the base relation or posture changed. Use `C.19` for the claim about which candidate traditions remain live; `G.5` governs any declaration of a selector outcome.
+**Cash-out.** The author can compare a hypothetical mapping with the declared one under `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8`. A revision of the shared mapping belongs to its authorized maintainer. Use `C.19` for the claim about which candidate traditions remain live and `G.5` for a declaration of a selector outcome.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.4 - Use-situation spread
 
@@ -401,11 +401,11 @@ Apply these checks to the interpretation and claims actually made.
 | --- | --- | --- | --- |
 | `CC-A19IV-1` | Is one already-declared base substrate or source-set entry point or set-result entry point named explicitly? | The interpretive view floats free of the line it is supposed to help read. | Cite the base substrate or the recoverable source-set entry point or set-result entry point. |
 | `CC-A19IV-2` | When formal viewing is claimed, are the A.6.3 source and receiving epistemes recoverable, and is E.17.0 viewpoint conformance established separately for a `U.View` claim? | A pattern citation is treated as sufficient to establish either relation. | Recover the exact epistemes and viewing transformation; test the named viewpoint only when `U.View` qualification is needed. |
-| `CC-A19IV-3` | Does the line preserve the same EntityOfConcern and keep the base substrate as semantic center? | The interpretive prose retargets the EntityOfConcern or repairs the substrate in place. | Reopen under `A.19.SOURCE-SET-SPACE-SUBSTRATE`, `A.6.4`, or the appropriate neighboring pattern. |
+| `CC-A19IV-3` | Does the line preserve the same EntityOfConcern and keep the base substrate as semantic center? | The interpretive prose retargets the EntityOfConcern or repairs the substrate in place. | Use `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8` to qualify a proposed alternative or a change to the shared substrate. Use `A.6.4` for retargeting. |
 | `CC-A19IV-4` | Are the current source set, any active set result, and any active derived view or base palette recoverable? | The interpretive reading hides the base palette, base source/result, or active derived set result behind one fuller visible overlay. | Restore the missing recoverability fields. |
 | `CC-A19IV-5` | Is the active profile chosen honestly: thin interpretation or atlas interpretation? | Atlas language is used by reflex, or the line needs atlas interpretation but never says so. | State the profile and the inspection question it answers; explain the composite need when choosing atlas form. |
 | `CC-A19IV-6` | If atlas form is active, is the composite atlas-form interpretation declaration complete? | A source set/result, declared view, space, map reference, qualification, or connection needed to answer the composite inspection question remains hidden. | Supply the missing content needed by the inspection question; use thin interpretation only if it gives an adequate answer. |
-| `CC-A19IV-7` | Is each qualification attached to the relation it qualifies? | A view qualification silently changes the source-to-outcome relation, or a material substrate qualification disappears. | Preserve substrate qualifications; state any view-only loss separately. Revise the substrate if its underlying relation changes. |
+| `CC-A19IV-7` | Is each qualification attached to the relation it qualifies? | A view qualification silently changes the source-to-outcome relation, or a material substrate qualification disappears. | Preserve substrate qualifications; state any view-only loss separately. Identify an alternative substrate or the duly changed shared declaration when the claim uses a different relation. |
 | `CC-A19IV-8` | If `TraditionAtlasView` is used, is it kept as one `G.2` specialization rather than the common family head? | The local specialization is treated as if every interpretive case were already palette-first atlas work. | Restore the split between `DeclaredSubstrateAtlasView` and `TraditionAtlasView`. |
 | `CC-A19IV-9` | Does the line stay out of publication and policy work? | The prose starts deciding who survives, what is published, or what is shipped. | Separate the interpretation from the remaining decision and apply the corresponding pattern in §4.10. |
 | `CC-A19IV-10` | Could a cold reader choose thin interpretation versus atlas interpretation and fill one interpretive view declaration without hidden invention? | The reader still needs surrounding memo knowledge to know which head to use, what fields matter, or why atlas is or is not needed. | Use the content requirements in §4.2 and sequence in §4.5; show the composite inspection need if atlas form is necessary. |

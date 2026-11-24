@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 128973
-line_end: 129114
+line_start: 129037
+line_end: 129178
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -158,7 +158,7 @@ The assignment, system-role kind, capability, Method, and MethodDescription do n
 | Does the holder count under its system-role kind? | `A.2`, C.3.2 | Classification is not supplied by attribution. |
 | Does the assignment satisfy a state predicate? | `A.2.5` | State has its own predicate, relation, window, assertion, and evidence. |
 | Can the holder perform the Work? | `A.2.2` capability and fit | Ability is not actual performance. |
-| Which Systems actually performed a top-level or child Work occurrence? | Recover each exact performer through `A.13`, then let `A.15.1` independently admit that Work occurrence; add one F.6 check per exact performer–assignment pair only when the receiving question also asks under which assignment the Work was performed. | A team lead, coordinator, member relation, or covering assignment cannot substitute for the full actual-performer set. Every child Work keeps its own A.13 performer basis, A.15.1 admission, and Work-part relation; assignment and F.6 are added only for an expressly consumed attribution. Missing or failed attribution alone leaves independently admitted child Work intact; a finding that invalidates a consumed admission premise requires the separate recheck in section 4.2. |
+| Which Systems actually performed a top-level or child Work occurrence? | Use `A.13` for the Systems whose contributions the question asks you to identify, at the scale of the claimed Work. Use `A.15.1` for the actual occurrence and F.6 for each precise attribution to a performer's obtaining assignment. | A commission can ask about the team's Work as a whole or about each member's part. A lead's signature alone cannot establish which members supplied the findings. Every child Work keeps its own A.13 performer basis, A.15.1 admission, and Work-part relation; assignment and F.6 are added only for an expressly consumed attribution. Missing or failed attribution alone leaves independently admitted child Work intact; a finding that invalidates a consumed admission premise requires the separate recheck in section 4.2. |
 | Did a passive test article participate in Work? | the domain rule that defines passive participation; if no such rule is current, `A.6.RCD` returns `missing-governor` | Holding a test-subject assignment does not make the article a performer or establish passive participation. |
 | Which Method did the Work enact? | `A.15.1`, `A.3.1`, and A.3.2 only for a separate description-membership question | Method, description, and assignment do not become performers. |
 | What supports the attribution assertion? | `A.10` or the direct evidence relation | Support concerns knowledge or use, not relation obtaining. |
@@ -185,7 +185,7 @@ Expose declarations and occurrence keys only when a dependent use must distingui
 
 Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence.
 
-The combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment.
+For a combined claim, first establish under A.13 the actual System to which each relevant contribution is attributed at the scale claimed. Identify its agential kind and criterion, classification, obtaining assignment, applicable scope, situation, window and core evidence. A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, its extent and at least one obtaining locally declared Work-to-System containment relation. F.6 then tests each required Work–assignment pair against the obtaining assignment of the performer whose contribution is at issue. An established team performance can answer for the team while authorship of an individual finding remains open.
 
 The combined basis is not an A.15.1 membership test. A missing F.6 relation alone preserves independently admitted `W : U.Work` and leaves the precise attribution unresolved; section 4.2 governs a finding that also invalidates an admission premise. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
 

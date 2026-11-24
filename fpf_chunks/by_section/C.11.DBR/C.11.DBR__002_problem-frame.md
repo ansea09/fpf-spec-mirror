@@ -6,12 +6,12 @@ section_id: "C.11.DBR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:1 — Problem frame"
-line_start: 60334
-line_end: 60345
+line_start: 60365
+line_end: 60376
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -29,7 +29,7 @@ keywords:
 
 Use this pattern when an earlier choice, commitment or recommendation is known, and a later observation, outcome or changed condition may alter the basis for one use of that result. A team may have completed an intervention while its expected benefit failed to appear. A model may remain a correct account of its original observations while no longer supporting the next prediction. The question is: **what does this later result change about the earlier choice, and what can remain in use?**
 
-**First useful move.** Name the earlier result and the use now in question, then recover the premise that supported that use. Compare the later result with that premise under comparable conditions. A finding that nothing material changed can finish the work. A material difference supplies a bounded input to a separately made current decision.
+**First useful move.** Name the earlier result and the use now in question, then recover the premise that supported that use. Compare the later result with that premise under comparable conditions. A finding that nothing material changed can finish the work. For a material difference, apply the governing terms to find what follows. Where they leave a choice open, return the finding to whoever is authorized to decide it.
 
 The reader needs access to the earlier basis, the later result and the subject knowledge needed to interpret them. Ask the responsible contributor for an unavailable premise or interpretation; a decision log alone does not supply it. Ordinary prose in the existing discussion can carry the answer. Use a retained account only when another person or later action needs it.
 

@@ -6,12 +6,12 @@ section_id: "E.12:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__009_rationale.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:8 — Rationale"
-line_start: 112373
-line_end: 112410
+line_start: 112434
+line_end: 112471
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -51,7 +51,7 @@ Its domain is service/interface research; it supplies neither a psychometric wor
 
 Use actual reading when the F.19 conditions require it, particularly when competing reconstructions or an observed miss can change the repair.
 
-In §4.4 the expert can recover the four reuse duties from the preceding list, so the shorter explicit sentence is not automatically a better instruction.
+In §4.4 the expert can recover the four conditions for using the earlier answer from the preceding list, so the shorter explicit sentence is not automatically a better instruction.
 
 If the intended reader's first attempt misses one duty, the task-bound comparison can distinguish a hidden antecedent from missing subject preparation.
 

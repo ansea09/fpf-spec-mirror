@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:4 — Solution"
-line_start: 35227
-line_end: 35362
+line_start: 35244
+line_end: 35379
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -51,7 +51,7 @@ It answers the question: `when the history matters, which episteme edition is cu
 
 #### A.16.0:4.0a - Identify the account and its expression
 
-1. **Apply the history threshold.** Keep the local A.16 publication content when it answers the receiving question. Use the fuller account only when branch, loss, lineage or an actual responsibility history changes a later use.
+1. **Apply the history threshold.** Keep the local A.16 publication content when it answers the receiving question. Use the fuller account only when branch, loss, lineage or the history of responsibility changes what the recipient can establish.
 2. **Identify the account's subject.** For a source-centred history, name the source episteme as EntityOfConcern and state the relevant edition and relation claims in the account's ClaimGraph. For a relation-centred account, identify the independently obtaining relation it concerns. A negative or unresolved lineage claim remains about an independently identified source or other subject; it creates no relation occurrence.
 3. **Recover the relevant history claims.** Distinguish the source editions, position claims, actual lineage, moves, losses and next use needed here. Use their direct rules below. Distinguish an unknown link from a no-successor result supported by an applicable negative criterion or complete closure basis. Neither result establishes continuity.
 4. **Choose an adequate expression.** The `LanguageStateMoveTrajectory` form can express that account. Under E.24.PUB, publication form is a relation-defined participant meaning over an independently identified entity; using the form admits no subtype or second account individual. Recover its expression relation, carrier and any availability occurrence only when the receiving claim needs those distinctions.
@@ -87,13 +87,13 @@ The position read by this pattern is the slot-explicit claim defined in `C.2.2a`
 Early seam publications may leave some slots unknown or wide. That uncertainty is admissible only if it is explicit. A trajectory account therefore records the position claim for the current episteme edition and, when needed, for predecessor or sibling editions that justify the move reading.
 
 #### A.16.0:4.3 - Use threshold and core trajectory record
-Local `A.16` publication content is sufficient when no load-bearing branch, loss, or supersession structure needs publication and no actual responsibility handoff depends on upstream history. An existing version history can also supply the answer when the needed source-use, continuity and loss facts are already recoverable there; the form does not require copying them into another document.
+Local `A.16` publication content is sufficient when no load-bearing branch, loss, or supersession structure needs publication and the question about who held responsibility can be settled from local evidence or does not arise. An existing version history can also supply the answer when the needed source-use, continuity and loss facts are already recoverable there; the form does not require copying them into another document.
 
 Use the `LanguageStateMoveTrajectory` account form when at least one of the following changes the receiving use:
 
 - derivation, supersession, fork, merge, or retirement structure;
 - multi-step loss notes or reopen conditions that would be hidden by a compressed move note;
-- an actual responsibility handoff whose legitimacy or interpretation depends on upstream history;
+- a question about who held responsibility that depends on the sequence of earlier moves or editions;
 - bridge or viewpoint entry that depends on upstream route, loss, or lineage structure.
 
 An account using this form identifies its own subject, claim content and effective ReferenceScheme. It makes the following history content explicit to the extent needed by the selected use:
@@ -144,7 +144,7 @@ Typical next-use patterns include:
 
 Name the next pattern and what its content defines, constrains, or tests. The account already identifies the selected episteme edition; add a project record, publication form, or publication occurrence only when that distinction changes the next use. This is next-use docking, not a transfer of responsibility, and a pattern reference alone does not prove endpoint admission.
 
-**Separate responsibility-handoff branch.** Open this branch only when responsibility, commitment, permission, or authority changes. Name the relation before and after the change under its applicable pattern, then the participants in that relation's own roles. Include giving and receiving admitted systems when its predicate requires them and, when their system-role classification matters, the system-role kinds and assignments through which they participate. State its governed object or action, scope, effective interval, and any assigning, instituting, revoking, or superseding act that the relation requires. The trajectory account cites that relation and its history; episteme lineage, publication form, publication occurrence, endpoint admission, and next-use docking neither create nor prove it.
+**Separate responsibility-handoff branch.** Use this branch when the receiving decision depends on whether responsibility, commitment, permission or authority changed. Apply the rule governing that relation to the case. Where grounds suffice, state what changed or who still holds the responsibility. If the evidence leaves both readings possible, identify the missing fact. For an established transfer, identify the participants, governed object or action, scope, effective interval and any acts the rule requires. Include giving and receiving Systems or their specific assignments when the predicate uses them. The trajectory may cite the relation and its history. A delivery acknowledgement can establish receipt while the original participant retains responsibility.
 
 After docking to a next use, monitoring, maintenance, revisit, or later re-entry may continue through new lineage entries or later trajectories. Keep lineage continuity separate from the current endpoint use and from any separately established responsibility or authority relation.
 

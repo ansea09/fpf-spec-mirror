@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:5 — Archetypal Grounding"
-line_start: 21592
-line_end: 21627
+line_start: 21606
+line_end: 21641
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

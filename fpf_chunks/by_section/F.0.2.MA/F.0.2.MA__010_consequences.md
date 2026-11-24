@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__010_consequences.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:9 — Consequences"
-line_start: 127091
-line_end: 127096
+line_start: 127155
+line_end: 127160
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

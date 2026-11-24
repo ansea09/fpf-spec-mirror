@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:4 — Solution"
-line_start: 137061
-line_end: 137378
+line_start: 137125
+line_end: 137442
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -186,11 +186,11 @@ Apply the following operations to the declared source population. A conforming p
    Derive the search boundary from what the receiving practitioner must compare. Work back from the possible answers to the claims that could distinguish them. If one source describes a method, another reports an occasion when it was used and a third describes its result, identify what connects those claims in this use. To move from a constituent to the whole, look for evidence about how it was used in the encompassing arrangement. To draw on a more general model, establish which of its conclusions carries into the receiving conditions. These needs determine which source regions to seek and which can be omitted. Evidence already qualified for the whole question can settle a bounded inquiry.
 
 2. **Discover and triage sources (ledger‑first).**
-   Populate `CorpusLedger` via:
+   Identify the supplied or previously qualified corpus in `CorpusLedger` and use it when its coverage meets the commission. For a search entrusted to the practitioner, record the work actually done:
 
-   * adding seed sources,
-   * expansion via citation chaining and keyword family exploration,
-   * pruning using load‑bearing relevance tests tied to the declared CG‑Frame scope.
+   * record the seed sources and whether they were supplied or chosen by the searcher,
+   * extend the search through citation chaining or related terms where needed within its authorized boundary,
+   * apply the relevance criteria of the declared CG‑Frame when selecting the sources to retain. A synthesis restricted to a closed corpus can use that corpus directly. A separately commissioned fresh search requires a search on its specified occasion.
 
 3. **Distill claims per `Tradition`.**
    For each `Tradition`, author a Claim Sheet that preserves internal commitments and cites evidence anchors. Do not fuse cross‑`Tradition` claims at this stage.
@@ -202,7 +202,7 @@ Apply the following operations to the declared source population. A conforming p
    Where reuse across `Tradition` is desired, record the obtaining correspondence and its exact basis in `BridgeMatrix`: F.9 for sense correspondence, C.3.3 for kind correspondence, or the direct rule for a plane relation, as actually used. State preserved distinctions and losses for the receiving question. Consolidation requires explicit alignment proof. Add bundle or gate anchors only for an independently applicable E.18 flow crossing or A.21 gate, under `CC‑GCORE‑CROSS‑1`.
 
 6. **(Alias: G.2‑F) Construct a needed synthesis and record asserted fusion/substitution.**
-   Use B.1.3:4.4 to construct a joint conclusion from the source claims when the receiving question needs one. Recover their support and conflict relations, shared dependencies, subject and applicability before composing. A qualified synthesis with separately stated support can suffice when no common numerical model is justified.
+   Use B.1.3:4.4 to construct a joint conclusion from the source claims when the receiving question needs one. Recover their support and conflict relations, shared dependencies, subject and applicability before composing. A qualified synthesis with separately stated support can suffice when no common numerical model is justified. When the commission concerns authorship or independence, distinguish the source observations, the selection of the corpus and the inference that relates its claims. Establish the contribution of the participant credited with each. A bibliography can identify the source material even when the identity of its selector is unknown.
 
    Try the proposed synthesis on a situation the source accounts can distinguish. Two practices can agree on what to do today for different reasons. If every permitted reading leads to the same action, that agreement can settle today's choice. A common rule for later uses must also cover the conditions under which their recommendations diverge. Where the premises cannot be made compatible, give each conclusion with its conditions and identify what the receiver can still decide.
 
@@ -216,7 +216,7 @@ Apply the following operations to the declared source population. A conforming p
 
    * record the failed criterion, count and basis in `FlowRecord`, with the relevant corpus entries recoverable;
    * identify a missing relevant lineage, venue or source region that could change the result, and judge whether the available search or repair is worth undertaking for the receiving use;
-   * if it is, perform the search or repair and recount under the declared policy. Record what was done and the new result in `FlowRecord`, citing any affected `CorpusLedger` entries. Pin the new references for any justified change to the policy or criteria and keep the earlier judgement with its original basis;
+   * if the search or repair is warranted and covered by the commission or a standing duty, carry it out and recount under the declared policy. When only a coverage report is due, identify the useful further search and the gap it could resolve. Record what was done and the new result in `FlowRecord`, citing any affected `CorpusLedger` entries. Pin the new references for any justified change to the policy or criteria and keep the earlier judgement with its original basis;
    * otherwise return the scoped claims and failed or incomplete pack judgement, its receiving-use limit and any precise remaining inquiry. Preserve the failed gate rather than treating the partial result as a conforming pack.
 
    For example, an exhausted bounded population containing two method families fails a declared `k=3` method-only gate. A further report about either family does not change that count. A known unexamined source region may justify another search; without one, the count and coverage failure can be the completed bounded answer. Missing population or equivalence rules instead leave the count judgement unassessable.

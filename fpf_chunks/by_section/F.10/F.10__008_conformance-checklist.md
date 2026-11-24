@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:7 — Conformance checklist"
-line_start: 131097
-line_end: 131115
+line_start: 131161
+line_end: 131179
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 | `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status pattern? |
 | `CC-F10-03` Use occurrence | Are bearer, target, value, scheme, scope, window, intended use, and direct obtaining basis explicit? |
 | `CC-F10-04` Source | Are source assertion/register, edition/order rule, provenance path, and G.11 currentness result recovered when they decide use? |
-| `CC-F10-05` Assessment | Are each consumed rule application and evaluation-result claim separate, and is any claimed dated evaluation Work independently admitted with its actual enacted Method? |
+| `CC-F10-05` Assessment | Are the required evaluation results and rule applications identified? For independent judgements, distinct observations or a new run, do the actual Works and their conditions establish the particular claim? |
 | `CC-F10-06` Assertion/display | Is the C.2.1 status-assertion episteme distinct from publication occurrence, form, rendering, carrier, row, and dashboard cell? |
 | `CC-F10-07` Modality | Are evidence status, standard approval, requirement status, and every direct result kept distinct? |
 | `CC-F10-08` Bridge | When the use needs semantic correspondence between different local-sense projections, are the exact F.9 occurrence, separate bounded-use claim and required reliance recoverable, while Card/description remains separate? |

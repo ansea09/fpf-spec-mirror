@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_invariants.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 109252
-line_end: 109271
+line_start: 109313
+line_end: 109332
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -40,13 +40,13 @@ keywords:
 
 **D2-2 (Entity-description distinction).** Recover the independently identified EntityOfConcern and the claim-bearing episteme without treating a description as its subject merely by appearance. They may be the same episteme in a C.2.1 self-description; different constitution triples identify different epistemes.
 
-**D2-3 (Specification is a use).** Specification force requires checkable claims and a named harness or validation relation. When viewpoint selection affects reliance, preserve or update the named describing use and its exact selection. Specification is not a peer class or label effect.
+**D2-3 (Specification is a use).** A specification use requires checkable claims and a named harness or validation relation. Preserve or update the selected viewpoint when the named describing use depends on it. Establish adoption under the applicable rule when claiming that these criteria govern acceptance.
 
 **D2-4 (Conditional neighbors).** Grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, publication, carrier, currentness, and representation enter only through their subject patterns when the receiving use depends on them.
 
 **D2-5 (Stable identity across use).** Changed description use, viewpoint selection, harness, evidence, publication, form, carrier, rendering, or representation does not by itself change episteme identity.
 
-**D2-6 (Work and authority separation).** An account of Work identifies its performing System under A.15.1. Epistemes carry claims and may be used in that Work under independently governed use relations. Permission, acceptance, assurance and world-side claims retain their direct governing rules; a description or display supplies none by label.
+**D2-6 (Work and authority separation).** For a claim that a particular Work occurred, establish its performer or performers at the scale claimed under A.15.1. A test result can settle the question about the subject even while the individual operator remains unidentified. Epistemes carry claims and may be used in that Work under independently governed use relations. Permission, acceptance, assurance and world-side claims retain their direct governing rules; a description or display supplies none by label.
 
 **D2-7 (No label-only sameness).** Identical labels across schemes, scopes, viewpoints, model-use structures, or contexts establish neither the same EntityOfConcern nor the same episteme. Use the governing identity and Bridge rules.
 

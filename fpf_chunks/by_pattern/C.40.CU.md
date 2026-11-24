@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.CU.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
-line_start: 90941
-line_end: 91200
+line_start: 90998
+line_end: 91257
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -144,11 +144,11 @@ Recover what made the successful enactment possible: preparation, inputs, operat
 
 Decide which contributions the receiver must perform and which can remain obtainable from elsewhere. Restore access or activation when that is sufficient; develop capability when the receiver cannot perform a necessary operation. E.23.CAE distinguishes those gaps under grounded capability claims, E.23.CDI develops the named capability, and C.36.RP arranges acquisition, provision and continuing access.
 
-Check the operation the receiver is expected to perform with the help that will be available. An earlier performance by that receiver under comparable conditions may already answer the question. If adaptation to a changed condition is still in doubt, choose a task in which that change affects what the receiver must do. Identify which adjustment the receiver made and what a helper supplied. A successful joint performance can qualify the arrangement for the job. Credit the receiver with following an instruction when someone else selected the adjustment. To credit the receiver with adapting the method, establish which change in working conditions the receiver noticed, which adjustment the receiver chose and why, with the help that was actually available.
+Check the operation the receiver is expected to perform with the help that will be available. An earlier performance by that receiver under comparable conditions may already answer the question. If adaptation to a changed condition is still in doubt, choose a task in which that change affects what the receiver must do. Establish who noticed the change, who selected the adjustment and who carried it out. A helper may do all three. A successful joint performance can qualify the arrangement when that help will be available for the job. Credit the receiver with carrying out a supplied adjustment when there is evidence of that action. To credit the receiver with adapting the method, establish what they knew about the change, which adjustment they chose and why. A dispatcher can choose a new route after a colleague reports a road closure. To credit the dispatcher with discovering the closure as well, establish how they detected it.
 
 When a shared term matters, start with the decision the participants need to make together. For one handoff, check what the sender's classification tells the receiver to do with this item. People can understand the same term and take different actions because their jobs differ. Completing the handoff on the agreed terms can settle that joint task. If the item must also meet an acceptance criterion, check it against that criterion.
 
-If later work depends on several participants using the same criterion, compare their classifications under the same facts and for the same question. If their answers diverge, locate the fact, instruction or criterion that led them to act differently. Where the work requires agreement, resolve the difference with the person responsible, repair the handoff and try it again on the disputed item. To distinguish criteria still consistent with their answers, seek a case on which those criteria would give different answers. If both participants give the answer that one criterion predicts, that observation counts against a rival that predicted a different answer. Other criteria may still fit. To rely on agreement across a class of inputs, establish why the criteria used give the same decision throughout that class, or state the range and limits of the evidence for agreement. An agreed instruction can settle which criterion participants should use. Evidence of their work is needed when the question is which criterion they actually use.
+If later work depends on several participants using the same criterion, compare their classifications under the same facts and for the same question. If their answers diverge, locate the fact, instruction or criterion that led them to act differently. First apply any agreed rule to the known facts. A verified width of 58 cm settles whether this crate meets a limit of 60 cm. If a decision remains open, establish who has authority to make it. Obtain any signatures the acceptance terms require. Check what this changes for the disputed item. An already accepted delivery can stand when it meets the agreed terms. Repair and repeat a handoff when the discrepancy has left the delivery incomplete or incorrect. Repeat it also when another handoff is directly commissioned or needed to establish the receiving use. To distinguish criteria still consistent with their answers, seek a case on which those criteria would give different answers. If both participants give the answer that one criterion predicts, that observation counts against a rival that predicted a different answer. Other criteria may still fit. To rely on agreement across a class of inputs, establish why the criteria used give the same decision throughout that class, or state the range and limits of the evidence for agreement. An agreed instruction can settle which criterion participants should use. Evidence of their work is needed when the question is which criterion they actually use.
 
 Retain an obtainable explanation, executable material or demonstration suited to that receiver. A complete account does not require every participant to internalize every constituent operation. It does require the arrangement to supply them when they are needed.
 
@@ -242,7 +242,7 @@ Environmental redesign can hide burden transfers to installers, maintainers or o
 | Offloading means assigning the same operation elsewhere | Compare redistribution with redesign that removes the operation, including preparation and maintenance. |
 | The environment is a single agent | Identify the contributing systems and relations needed by the claim. |
 | Two valid endpoints guarantee a valid transition | Examine trigger detection, changeover and transient result conditions. |
-| Repeat the successful demonstration with its expert | Attempt the receiving use with its permitted support and changed conditions. |
+| Repeat the successful demonstration with its expert | Use evidence for the receiver’s actual conditions and permitted support. Obtain a new performance when it is owed or needed to establish the claim. |
 | Matching words prove shared meaning | Compare consequential actions and expectations on the same object. |
 
 ### C.40.CU:9 - Consequences

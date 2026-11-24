@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.MS.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
-line_start: 33308
-line_end: 33685
+line_start: 33325
+line_end: 33702
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -121,7 +121,7 @@ If the task set, a required comparison basis, or the task evidence needed to jud
 
    Claim one smallest sufficient route only when it covers every mandatory criterion, violates no stop, and the declared comparison and selection basis supports a singleton. If that comparative claim remains unsupported, retain the alternatives and missing priority or evidence, or split the arrangement by a stated task, user, confidentiality, authority, or maintenance boundary.
 7. **Configure the arrangement selected for use or testing.** Configure the functions and conditions needed by the declared tasks: retrieval and selection aids, status and provenance cues, tailoring rules, tool or automation behavior, provider and decision boundaries, feedback receiving use, and stops as applicable. Choosing a candidate for bounded testing is not an A.22 structure selection and does not erase other retained candidates.
-8. **Add a curated Method Base only when needed.** Identify the project or namespace, collection purpose, current entry-disposition rule, admitted entry kinds, return conditions, edition policy, and continuity. Institute membership only through the identified granted-permission occurrence, admitted Work, operation application, result binding, and belongs-to predicate required by the local declaration. A label, folder, record, result token, or publication occurrence creates no membership.
+8. **Add a curated Method Base only when needed.** Identify the project or namespace, collection purpose, current entry-disposition rule, admitted entry kinds, return conditions, edition policy, and continuity. Apply the collection’s membership rule. If admission requires an act by a curator, establish that act, its authority and the resulting membership under the applicable predicate. A standing rule can authorize the curator directly. Establish an instituted grant, operation application or result binding when the governing declaration requires it. Publication in the designated collection can itself admit an entry when the rule gives it that effect. A record can also attest that the admission conditions were met. Finding a copy elsewhere establishes membership only if the collection rule or other evidence supports that inference.
 9. **Select an A.22 structure only when organization changes the action.** Establish its four identity discriminators for the named use: independently identified constituents, the selected obtaining relation occurrences, constraints as applied, and the selection-use frame. Apply A.22's tests to an unresolved required value and return its qualified result or gap; retain the proposal where that basis does not support a selected-structure claim.
 
    Only if dated selection Work is asserted, identify the selecting System through A.13, independently admit that Work through A.15.1 with its Method enactment, and establish any claimed direct participation or operation binding. F.6 applies afterward when assignment-bound attribution is needed.

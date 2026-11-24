@@ -6,12 +6,12 @@ section_id: "C.17:2"
 section_title: "Keep the evaluation objects distinct"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__004_keep-the-evaluation-objects-distinct.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:2 — Keep the evaluation objects distinct"
-line_start: 63440
-line_end: 63462
+line_start: 63471
+line_end: 63493
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 | Optional profile | `CreativityProfile` is a local, non-arithmetic payload containing selected coordinate-claim references, their declared arrangement, and any current frontier or incomparability annotation. |
 | Representation and publication | A table, chart, dashboard, or publication form represents or publishes the payload or result. It is not the payload or result. |
 | Optional record | A separate `CreativityEvaluationRecord` episteme may package references to the configuration, results, profile, evidence, rendering, and actual Work for a named receiver. |
-| Assessment occurrence | A claim of dated overall-assessment Work requires the actual occurrence and recoverable System, assignment, Method enactment, Work extent and evidence. Any claimed application of a Mechanism operation is a separate conditional fact under A.6.1. |
+| Assessment occurrence | To admit a dated overall assessment as `U.Work`, apply A.15.1:4.1, including the A.13 basis for each claimed actual performer. Use F.6 for a precise assignment-bound attribution when the use requires it. An asserted A.6.1 operation application also requires its own grounds. |
 
 Changing a space slot, corpus membership or inclusion rule, model claims or training basis, objective, criterion, constraint, Scale meaning, scope, or window reopens only the coordinate claims that depend on that change and any aggregate conclusion that uses them.
 

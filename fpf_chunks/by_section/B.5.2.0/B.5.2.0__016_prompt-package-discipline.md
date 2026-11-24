@@ -6,12 +6,12 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__016_prompt-package-discipline.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 52469
-line_end: 52498
+line_start: 52494
+line_end: 52523
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -62,7 +62,7 @@ A prompt account states what is being asked and why, while leaving the answer op
 
 #### B.5.2.0:14.3 - Prompt provenance remains load-bearing
 
-The motivating provenance is part of prompt admission. Preserve the route, cue or witness basis used; a prompt with no routing history does not need an invented route.
+The motivating provenance is part of prompt admission. Preserve the cue, witness or route actually used. If access is restricted, a permitted summary or reference can supply the grounds the investigator needs. If neither makes those grounds available to that investigator, qualify that use.
 
 #### B.5.2.0:14.4 - Check prompt against silent promotion
 An assurance reader should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory. If the text already leans on one preferred answer as settled, either rewrite it back into an open question or explicitly apply the governing pattern that carries the asserted answer.

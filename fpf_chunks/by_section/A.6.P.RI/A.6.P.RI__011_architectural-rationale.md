@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__011_architectural-rationale.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:10 — Architectural Rationale"
-line_start: 21664
-line_end: 21671
+line_start: 21678
+line_end: 21685
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -27,5 +27,5 @@ Relational precision restoration recovers missing participants. Agent-relative u
 
 The construction therefore combines the source interpretation, receiving purpose and recipient's position. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the conversion or classification; this method exposes the premises they need and returns their result to the receiving action.
 
-The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. An artificial agent uses the identification, representations and signals its configuration supplies.
+The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. The performer may use prior configuration, evidence from the current situation or a fresh clarification to resolve which participant is meant.
 

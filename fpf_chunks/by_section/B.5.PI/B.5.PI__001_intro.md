@@ -6,12 +6,12 @@ section_id: "B.5.PI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:intro — Intro"
-line_start: 52962
-line_end: 52967
+line_start: 52987
+line_end: 52992
 dependencies:
   - "A.1.STM"
   - "A.15.11"

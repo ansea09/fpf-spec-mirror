@@ -6,7 +6,7 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:0 — Use This When"
@@ -39,7 +39,7 @@ Typical moments:
 
 - an SLA publication, service catalog, product offer, public API promise, utility offer, or government-service description contains a statement about what a consumer may rely on;
 - a team says "the service" but might mean promise content, provider organization, API, access point, delivery system, method, ticket, or performed work;
-- to judge fulfilment, apply the declared acceptance criteria to what the promise covers. For one delivery, examine its Work, outcome and any required delivery or acceptance relation. For a population or period, use records covering that population or state over the declared interval (§8.2). Establish a particular evaluation Work when the criterion requires that performance or the claim concerns it. Its operation result, any verdict episteme and A.10 evidence relations each have their own grounds;
+- to judge fulfilment, apply the declared acceptance criteria to what the promise covers. For an individual case, establish the Work, state or direct relation required by its criteria. For a population or period, use records covering that population or state over the declared interval (§8.2). Establish a particular evaluation Work when the criterion requires that performance or the claim concerns it. Its operation result, any verdict episteme and A.10 evidence relations each have their own grounds;
 
 **Primary EntityOfConcern.** The EntityOfConcern of this pattern is `U.PromiseContent`: a consumer-facing promise-content episteme. For each PromiseContent episteme, the exact C.2.1 EntityOfConcern is the A.2.3:4.1.1 `OutcomeSpec` episteme designated by `promisedOutcomeSpecRef`. Its claim graph states the promised outcome, any eligibility predicate, and acceptance claims; `accessSpec` separately describes the access method when that description is current.
 

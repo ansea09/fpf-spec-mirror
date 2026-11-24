@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 68834
-line_end: 69174
+line_start: 68881
+line_end: 69221
 dependencies:
   - "A.10"
   - "A.15"
@@ -144,7 +144,7 @@ Examples of the decision difference to recover, whether the ordinary account is 
 | False reading | Repair | Decision diff |
 | --- | --- | --- |
 | Dashboard passively shows release readiness. | The dashboard reports the recorded checks. Examine whether publication also changed how people performed or recorded the work. | Use checks that bear on the release decision. If reporting practices changed, establish which readings remain comparable. |
-| Workshop discovered the boundary. | The record identifies the boundary participants agreed to use. Its earlier use and the workshop’s effect on practice are separate claims. | Use the agreement for decisions it covers. Consult earlier work to determine whether people already used that boundary. |
+| Workshop discovered the boundary. | Establish whether the workshop record contains a proposal or a decision by participants authorized to settle the boundary for this use. | An agreement can govern the cases within its scope. To establish earlier use, or the workshop’s effect on practice, examine the relevant work. |
 | Service is healthy because latency is green. | The latency reading meets its bound. The service commitment also covers the currency of information shown to customers. | Check that condition before confirming the joint commitment. A verified breach already settles a decision requiring both. |
 | Summary preserves architecture state. | The summary omits distinctions from the source. | Use it where the retained distinctions support the receiving decision; consult or reconstruct omitted detail when that decision depends on it. |
 

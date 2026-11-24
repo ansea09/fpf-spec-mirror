@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 135550
-line_end: 135590
+line_start: 135614
+line_end: 135654
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,7 +39,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Case | Before | Repair or disposition |
 |---|---|---|
 | Pattern use, ordinary | "`A.15` handles the work-planning claim." | Retain ordinary pattern-use wording when its meaning is clear. If the claim specifically concerns a WorkPlan, cite `A.15.2`; no dated Work trace is needed merely to state which pattern governs that claim. |
-| Pattern use, identity-bearing | "The pattern performed the planning." | "Engineer E performed planning Work W. Point to W's basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution; use `A.3.2` only if a named episteme describes the enacted Method." |
+| Pattern use, identity-bearing | "The pattern performed the planning." | If the passage prescribes how to plan, recover the instruction. For a report of actual planning, identify the System and Work the evidence supports at the claimed scale, using A.13 and A.15.1. The planner might be a service or team. Leave the performer open when only the plan is known. Use F.6 for precise attribution under an assignment and A.3.2 for a claimed description of the enacted Method. |
 | Pattern and relation, ordinary | "The governing relation is `C.29`." | "Use `C.29` to test whether the mathematical lens is admissible for this task." |
 | Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
 | Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "Keep projection evidence about a pattern edition outside its practitioner explanation unless that projection is itself the subject of the pattern." |
@@ -47,7 +47,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Unsupported negative classification | "This Guide is not a seminar, not a transcript, but a learning route." No seminar-or-transcript confusion has been established. | "This Guide teaches the seminar's subject through explanations, examples, exercises, and checks." |
 | Ambiguous scale claim | "The platform owns scale." | Recover what *scale* denotes and which ownership, responsibility or comparison claim is intended. If the source establishes a comparison measure, name that measure and its alternatives; otherwise keep the missing meaning explicit. Do not invent platform-versus-non-platform comparison from this sentence alone. |
 | Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents the evidence. Recover the evidence-use claim under its direct subject rule; use `A.10` for its descriptive provenance and bounded reliance, and `A.21` for a separately current gate decision." |
-| Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
+| Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | For an instruction, write “Compare the predecessor and candidate expressions for the declared use.” Identify a particular performer when the commission requires one. For a report, identify the participant or team whose comparison the evidence establishes, or report the supported comparison while leaving its author open. Use `E.10:0.2c.17` for the separate claims about expression, bearing by a carrier and publication. |
 | A dispatch instruction travels separately | The print supervisor’s procedure says, “Release an edition once the proof approval and rights clearance both cover that edition.” Its detachable instruction says, “Confirm both approvals before release.” | Keep the procedure. With two editions awaiting dispatch, staff could follow the detachable instruction with a proof approved for one edition and rights cleared for another. Carry the edition condition onto that instruction. A separate clerk asked only to record each office’s reply can complete that task by recording the two replies. |
 | Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
 | Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again.” |

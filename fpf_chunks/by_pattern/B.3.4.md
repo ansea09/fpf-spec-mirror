@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.4.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
-line_start: 47302
-line_end: 47445
+line_start: 47327
+line_end: 47470
 dependencies:
   - "A.10"
   - "B.3"
@@ -114,9 +114,9 @@ In the paired case, proposed traffic exceeds the assessed envelope. The earlier 
 
 Suppose the available inspection team can either inspect a suspected load-bearing defect or repeat an adequate check whose relevant conditions remain established. Examine the protected harm and the basis of the inspection requirement, what each result could change, and the cost of delay. Where the defect inspection can prevent that harm and the repeat adds no useful information, preserve the inspection capacity.
 
-If a binding repeat requirement prevents that choice, seek an authorized amendment; the resource conflict does not itself remove the requirement.
+If a binding repeat requirement constrains that choice, account for it in the plan. When the commission or an applicable duty includes seeking a change, take the resource conflict to the authority that can amend the requirement.
 
-A commission to set the review policy starts a step earlier. Identify which changes in load, structural condition or inspection access could affect each promised use. A change reported after a crossing may help reconstruct that crossing. A policy intended to prevent an unsupported crossing must give the responsible person enough warning and a feasible response before entry. An existing load limit enforced at entry may already handle excess traffic. A change in structural condition can require a different signal.
+A commission to set the review policy starts a step earlier. Identify which changes in load, structural condition or inspection access could affect each promised use. A change reported after a crossing may help reconstruct that crossing. A policy intended to prevent an unsupported crossing needs an effective response before entry. An existing load limit enforced at entry may already handle excess traffic. If the response depends on an operator, establish that the warning can reach the operator in time for a feasible action. A change in structural condition can require a different signal.
 
 **Library.** The verified property of an unchanged library in its qualified configuration remains supported when the relevant assumptions and dependencies still hold. A new vulnerability affecting a dependency used by the security claim reopens that claim even before a review date. An unrelated vulnerability does not. Preserve unaffected functional results and any independently supported restricted service while addressing the security limitation.
 
@@ -138,7 +138,7 @@ A release recipient who would otherwise assume the affected security property ne
 | Unchanged file therefore safe | A newly relevant dependency vulnerability is ignored because the library bytes are unchanged. | Reopen the affected security claim and communicate its unsupported reach. |
 | Green therefore assured | Fresh reports or zero overdue reviews hide an unresolved performance failure. | Assess relevance and adverse results for the target claim; report dashboard meaning. |
 | Status as risk acceptance | Lowering a badge or obtaining a senior signature is treated as permission to expose others to harm. | Establish the rule, authority and permitted response; restrict unsupported use where needed. |
-| Maintenance by forced experiment | A repeat test consumes the only opportunity for a protective inspection without changing any relevant conclusion. | Compare marginal contribution and displaced cost; retain binding conditions while seeking any justified amendment. |
+| Maintenance by forced experiment | A repeat test consumes the only opportunity for a protective inspection without changing any relevant conclusion. | Compare the benefit of repetition with the work it would displace. Retain the binding condition in the plan. Seek or refer an amendment when the commission or an applicable duty calls for it. |
 
 ### B.3.4:7 - Consequences
 

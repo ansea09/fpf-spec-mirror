@@ -6,12 +6,12 @@ section_id: "A.11.OP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:4 — Solution"
-line_start: 28778
-line_end: 28841
+line_start: 28795
+line_end: 28858
 dependencies:
   - "A.10"
   - "A.11"
@@ -71,7 +71,7 @@ When the branches cannot be distinguished, name the claim and missing basis and 
 
 #### A.11.OP:4.4 - Return authority and claims to their direct owners
 
-Apply this screen only inside the space left by every applicable direct authority. The direct owner establishes the obligation or floor and resolves disputes about its basis or applicability.
+Apply this screen within the authority defined by the applicable rule or undertaking. Establish where the obligation and its evidence threshold come from. One body can set a requirement, another can apply it and a third can hear a dispute. Use a current rule or earlier decision when it settles the case. If a dispute remains, establish who may interpret, review, waive or amend the requirement under those terms.
 
 When the requirement itself is being appraised, use `C.11.DUA` to compare the protected bearer and interest, the threshold and horizon, the causal contribution claimed, and who bears the burden. Identify who can amend the requirement and whether that amendment is feasible in time. Keep its merits and present force distinct: neither a protective label nor a burdensome rule settles the merits, and an unfavorable appraisal supplies no unilateral waiver. The legal, ethical and domain claims remain with their direct owners.
 

@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 138045
-line_end: 138303
+line_start: 138109
+line_end: 138367
 dependencies:
   - "A.10"
   - "A.13"
@@ -230,11 +230,11 @@ When CAL authoring relies on SoTA coverage, consume G.2's pack `CoverageJudgemen
 
 #### G.4:4.4a - Declaration-to-runtime evaluation boundary (normative)
 
-A CAL pack is a reusable design-time declaration. A stored operator card, clause, flow, `TaskMap`, proof-ledger row, test, or evidence-profile reference establishes neither an actual participant nor performed evaluation. When a CAL declaration is applied, recover the following runtime chain:
+A CAL pack declares reusable operations and clauses. Its stored references describe how to evaluate. For a question about an existing verdict, first establish whether the verdict covers the subject, clause, inputs and use in question. A commission for a fresh application calls for that work. To establish or perform an application, recover the following runtime chain:
 
 1. Name one exact `EvaluationMethod` (`U.Method`). Its `U.MethodDescription` may state generic participants, parameters, effects, and evaluation conditions, but it carries no actual-participant slots and no intrinsic claim that a test, proof, or acceptance event occurred.
 2. Cite the exact `CAL.Operator`, `CAL.Flow`, and `CAL.Acceptance` declarations as `A.6.1` operation semantics. Resolve the clause's `resultInputDeclarationRef`, then bind the exact current C.16 measurement-result episteme in this application and test it against the declaration's Characteristic and admissible result shape. Use the exact `A.6.1` declaration and application bindings; do not infer them from a compatible signature, `TaskMap`, or stored reference.
-3. First recover every precise performer's A.13 core for the exact evaluation action, scope, working situation, and window, including the same obtaining assignment later used by any attribution. A.15.1 then independently admits one dated `EvaluationWork : U.Work` from its performance history, enacted Method, extent, and containing-System relation. Add F.6 afterward only when the receiving claim needs exact assignment-bound attribution through that same assignment. Recover the evaluated or affected referent, actual resources, and every concrete participant through its direct subject relation or an `A.6.1` application binding. A compact attribution account may omit only an assignment identifier unused by its receiving claim; it omits no consumed fact. Ordinary activity not claimed as `U.Work` does not enter this branch.
+3. For an actual application, use A.15.1 to establish the dated evaluation Work or Work occurrences on which the verdict depends, including the enacted Method, temporal extent, performance history and containing-System relation. When results of separate evaluations jointly support the verdict, explain that connection. Apply A.13 at the scale of each performance claim. A service can have evaluated a batch while the operator of a particular instrument remains unknown. To attribute a contribution under a particular assignment, establish that contribution and the obtaining assignment under F.6. Recover the relevant subject, resources, direct participation and A.6.1 application bindings. Retain the grounds consumed by the receiving claim. This Work account applies when evaluation is claimed as `U.Work`.
 4. State the local result under its direct predicate and pattern. A `CAL.Acceptance` application yields its exact `pass | fail | unknown` verdict; use A.19 for comparison and selection results, C.16 for measurement results, and C.11 for a decision result. No generic evaluation-result or work-result field substitutes for these objects.
 5. When a durable assertion is needed, constitute one `C.2.1` result episteme whose ClaimGraph states that local result, evaluated subject, interpretation basis, polarity or domain status, and uncertainty when current. The episteme is not the domain result and does not create it.
 6. Attach source recovery and provenance through A.10/G.6 and currentness through G.11. State the A.10 evidence-provenance account and local `RelianceDisposition` for the bounded use, citing the direct rule for any reliance relation. Enter B.3 when an actual named assurance claim is current; a consequential use without one retains its direct governing rule. A citation, ledger edge, evidence profile, disposition, or assurance record does not establish the work, participant, application, or local result it describes.

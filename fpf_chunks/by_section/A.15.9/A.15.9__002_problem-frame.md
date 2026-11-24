@@ -6,12 +6,12 @@ section_id: "A.15.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:1 — Problem frame"
-line_start: 33692
-line_end: 33709
+line_start: 33709
+line_end: 33726
 dependencies:
   - "A.10"
   - "A.13"
@@ -39,7 +39,7 @@ keywords:
 
 **First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. A conditional conclusion or an available action can settle a commission that calls for it. If a related action remains possible while the requested fact is unknown, give that distinction to the recipient.
 
-A missing result for a stronger claim does not itself select acquisition. Request the smallest additional contribution only when it is obtainable and worth its whole burden for this question. A simple answer can remain two ordinary sentences without a separate acquisition disposition.
+A missing result can limit an answer. If obtaining more is discretionary, request the smallest obtainable contribution worth its burden for the receiving use. If the commission requires a new examination or a particular supplier’s judgement, arrange it under that commission or report the actual obstacle. An adequate existing result can settle a question about the subject.
 
 **What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and establishes who may advise, decide or act under the order. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
 

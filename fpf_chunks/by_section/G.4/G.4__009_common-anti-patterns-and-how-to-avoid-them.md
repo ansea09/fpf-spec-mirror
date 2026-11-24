@@ -6,12 +6,12 @@ section_id: "G.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 138380
-line_end: 138405
+line_start: 138444
+line_end: 138469
 dependencies:
   - "A.10"
   - "A.13"
@@ -80,5 +80,5 @@ keywords:
 
 * **Declaration mistaken for execution.**
   Avoid: treating a CAL card, `TaskMap`, proof-ledger row, worked example, or evidence edge as proof that an operator ran or a verdict obtained.
-  Prefer: recover every precise performer's A.13 core, let A.15.1 independently admit the dated Work, and add F.6 only when the receiving claim needs to establish that the Work was performed under the same obtaining assignment; recover actual direct bindings separately. Compact wording may omit only an unused assignment identifier and no consumed fact. Keep the domain-local result and any result episteme separate from both.
+  Prefer: recover the actual bindings and evidence of the evaluation work under A.15.1. Identify the contributing Systems under A.13 at the scale claimed. Cite F.6 where the conclusion concerns a contribution under a particular obtaining assignment. State the domain result and the evidence supporting it, including any episteme that reports the result.
 

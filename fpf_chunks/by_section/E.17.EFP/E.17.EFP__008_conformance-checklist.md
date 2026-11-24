@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 116168
-line_end: 116207
+line_start: 116232
+line_end: 116271
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,5 +78,5 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 8. **CC-EF-12 — Derivative renderings keep source links operative.**
    A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or project record that evidences it and names that record's FPF kind when material. If these requirements are not met, restrict the rendering to reader help or apply `A.6.3.CSC` as appropriate.
 9. **CC-EF-13 — Generated explanation reliance boundary is explicit.**
-   A generated explanation used beyond ordinary reader help states its explanation class, source-finding state, operative claims, the FPF pattern used to test each relied-on claim, the source basis and any exact project record required by that use, and the supported use or specific gap. Evidence, assurance, approval, gate passage, release reliance and Work authority retain their direct grounds.
+   For any relied-on explanation, establish the operative claim and the grounds required by the receiving use. A correctly transcribed archival entry can supply the requested date whether a person or a generator extracted it. Identify the generation, editing or verification work when the conclusion depends on that contribution. To credit an author with an entrusted judgement, establish what was supplied and what the author chose or justified. Evidence, assurance, approval, gate passage, release reliance and Work authority retain their direct grounds.
 

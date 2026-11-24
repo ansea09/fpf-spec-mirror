@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 135281
-line_end: 135724
+line_start: 135345
+line_end: 135788
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -152,7 +152,7 @@ Read from the opening question to the decision, instruction or conclusion. What 
 
 If a second reading is plausible, try both on the work this reader has to do. Could a technician repair the wrong unit, a designer revise the product drawing when one unit needs repair, or a reviewer accept one successful check as grounds for every unit? Establish what the source actually supplies. State the missing identifier, criterion, condition or relation at the point where the readings diverge. If the evidence cannot decide between them, keep both readings open and obtain the particular fact the decision needs. Where the document already identifies the right unit or operation, use its ordinary name.
 
-Follow the method as well as the object. If the text promises to teach a way to check an item, recover the operation, the conditions under which it applies and what would count as success. When repeatability is in question, try the wording on another item to which the rule should apply. The very same case may admit two ways to do the work. If the passage says which method was chosen or prescribed, identify the separate grounds for that choice. An account of what the technician did on Monday supplies one performance. Recover what permits repeating the check and which choices must be made again. Conversely, a report that one item passed calls for the record of its test. General instructions alone cannot establish that occurrence. Keep the field's own rule in view when moving from a transdisciplinary distinction to a discipline, or from that rule to a local procedure or job.
+Follow the method as well as the object. If the text promises to teach a way to check an item, recover the operation, the conditions under which it applies and what would count as success. When repeatability is in question, try the wording on another item to which the rule should apply. The very same case may admit two ways to do the work. If the passage says which method was chosen or prescribed, identify the separate grounds for that choice. An account of what the technician did on Monday supplies one performance. Recover what permits repeating the check and which choices must be made again. To report that one item passed, obtain grounds for that test and its outcome. A direct observation or an adequately supported report from the tester may suffice. Obtain a particular record where the commission or applicable rule requires it. Keep the field's own rule in view when moving from a transdisciplinary distinction to a discipline, or from that rule to a local procedure or job.
 
 Write for the decision in front of the recipient. A furniture designer can write “Use drawing T, revision 4, for the seat joint.” The workshop order can read “Repair the loose joint on stool 17.” For an order to inspect the May lot, give the lot reference. If inspecting any available stool is sufficient, say so. One agent may need any of these forms. In “giraffes have long necks” the plural can express a characteristic of the kind. In “three giraffes came to the waterhole” it reports observed individuals. Singular wording can also speak of a kind or of one individual. Quantity, criterion and referent come from the statement in use. An explicit “all”, a particular set of items, or an exception belongs in the text when it changes what the reader may conclude or must do.
 
@@ -234,7 +234,7 @@ Limit a recovery conclusion to the natural text units and relations examined und
 
 A whole expert reading combined with local actual readings retains that mixed basis.
 
-Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. A local revalidation by a reader familiar with the earlier wording retains that qualification.
+Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. If the commission calls for a new response from a particular reader or a fresh independent check, obtain that performance under the specified conditions. A local revalidation by a reader familiar with the earlier wording retains that qualification.
 
 State a material limit in the receiving judgement or result already needed by the work. When a required reading is unavailable, identify the missing basis and leave only the dependent conclusion open.
 
@@ -307,7 +307,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Case | Before | Repair or disposition |
 |---|---|---|
 | Pattern use, ordinary | "`A.15` handles the work-planning claim." | Retain ordinary pattern-use wording when its meaning is clear. If the claim specifically concerns a WorkPlan, cite `A.15.2`; no dated Work trace is needed merely to state which pattern governs that claim. |
-| Pattern use, identity-bearing | "The pattern performed the planning." | "Engineer E performed planning Work W. Point to W's basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution; use `A.3.2` only if a named episteme describes the enacted Method." |
+| Pattern use, identity-bearing | "The pattern performed the planning." | If the passage prescribes how to plan, recover the instruction. For a report of actual planning, identify the System and Work the evidence supports at the claimed scale, using A.13 and A.15.1. The planner might be a service or team. Leave the performer open when only the plan is known. Use F.6 for precise attribution under an assignment and A.3.2 for a claimed description of the enacted Method. |
 | Pattern and relation, ordinary | "The governing relation is `C.29`." | "Use `C.29` to test whether the mathematical lens is admissible for this task." |
 | Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
 | Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "Keep projection evidence about a pattern edition outside its practitioner explanation unless that projection is itself the subject of the pattern." |
@@ -315,7 +315,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Unsupported negative classification | "This Guide is not a seminar, not a transcript, but a learning route." No seminar-or-transcript confusion has been established. | "This Guide teaches the seminar's subject through explanations, examples, exercises, and checks." |
 | Ambiguous scale claim | "The platform owns scale." | Recover what *scale* denotes and which ownership, responsibility or comparison claim is intended. If the source establishes a comparison measure, name that measure and its alternatives; otherwise keep the missing meaning explicit. Do not invent platform-versus-non-platform comparison from this sentence alone. |
 | Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents the evidence. Recover the evidence-use claim under its direct subject rule; use `A.10` for its descriptive provenance and bounded reliance, and `A.21` for a separately current gate decision." |
-| Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
+| Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | For an instruction, write “Compare the predecessor and candidate expressions for the declared use.” Identify a particular performer when the commission requires one. For a report, identify the participant or team whose comparison the evidence establishes, or report the supported comparison while leaving its author open. Use `E.10:0.2c.17` for the separate claims about expression, bearing by a carrier and publication. |
 | A dispatch instruction travels separately | The print supervisor’s procedure says, “Release an edition once the proof approval and rights clearance both cover that edition.” Its detachable instruction says, “Confirm both approvals before release.” | Keep the procedure. With two editions awaiting dispatch, staff could follow the detachable instruction with a proof approved for one edition and rights cleared for another. Carry the edition condition onto that instruction. A separate clerk asked only to record each office’s reply can complete that task by recording the two replies. |
 | Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
 | Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again.” |

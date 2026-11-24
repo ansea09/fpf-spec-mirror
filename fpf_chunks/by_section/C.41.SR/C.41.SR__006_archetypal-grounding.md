@@ -6,12 +6,12 @@ section_id: "C.41.SR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:5 — Archetypal Grounding"
-line_start: 94852
-line_end: 94897
+line_start: 94909
+line_end: 94954
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -40,7 +40,7 @@ If the venue moves W to room B, prior room-A observations remain historical. Roo
 
 If the facilitator instead revises one example, the content comparison and its display can reopen while room-specific equipment facts remain useful. If handling the cards changes the set, affected physical questions reopen too. The structure has several distinct dependencies, not one inevitable progression from “unprepared” to “ready.”
 
-No technician has been assigned in a third branch. That is an enabling gap. In a fourth branch, the technician is assigned but no one knows whether projection works. That is a missing observation. A shared “in progress” entry hides the difference and cannot select the right next action.
+In a third branch the organizer has promised technical support during the workshop. With no one assigned or otherwise committed to provide it, that coverage remains open. In a fourth branch a technician is assigned, but no one has established whether projection works. That is a missing observation. If the venue already holds an applicable test result, it can settle the equipment question even before a support shift is assigned. A shared “in progress” entry hides which work remains.
 
 For an importer, parser checks and storage checks can both pass locally while their integration mishandles an error. Reconciliation connects the supplied parser result, importer's response and resulting catalogue state. Whether the catalogue entries are suitable for publication remains a different question. A session restart preserves those distinctions so a new agent can reuse grounds or perform only the missing check.
 
@@ -62,7 +62,7 @@ The worked case below connects these moves to the room, materials and workshop. 
 
 **Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people authorized to select a feasible arrangement or report that the allowed arrangements cannot meet the terms before those contributions combine.
 
-**Changed premise and continuation.** Moving W from room A to B reopens the room-dependent observations. Revising the example reopens its content and display questions. Known unaffected card facts remain usable. An absent technician assignment returns to coordination; an assigned technician with an unknown projection result returns to observation. After an interruption, the shared account lets participants recover these different next moves.
+**Changed premise and continuation.** Moving W from room A to B reopens the room-dependent observations. Revising the example reopens its content and display questions. Known unaffected card facts remain usable. A gap in promised technical coverage returns to coordination. For a question about projection readiness, first look for a result applicable to this room and setup. Obtain a missing observation, or undertake a separately ordered fresh check, under the required conditions. After an interruption, the shared account lets participants recover these different next moves.
 
 The route uses all six Checklist Methods because this constructed case has uncertain criteria, local forms, an occasion, answers and shared reliance. A simpler workshop may need only a conversation and a check. The example explains the connections; it does not prescribe six phases for every session.
 

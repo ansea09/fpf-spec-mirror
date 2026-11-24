@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:3 — Forces"
-line_start: 126985
-line_end: 126994
+line_start: 127049
+line_end: 127058
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

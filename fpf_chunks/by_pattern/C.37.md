@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
-line_start: 86189
-line_end: 86488
+line_start: 86246
+line_end: 86545
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -127,7 +127,7 @@ Open only the layers required by the attempted use.
 | --- | --- | --- |
 | Direct subject result | The candidate's independently governed kind or result, its subject, and any representation, conformance, correspondence, transition, structure, collection, mathematical, plan, Work, or domain relation on which the selected claim depends. | Intended evidence use, reliance, receiving decision, permission, gate passage, or authorization. |
 | Optional A.2.4 first-use classification | When the candidate episteme is being used as evidence or as a status carrier, the episteme, target claim or status, polarity or value, intended use, and any scope or window that changes that use. | Provenance, sufficiency, `RelianceDisposition`, assurance, permission, or receiving action. |
-| Bounded reliance and a needed A.10 account | The relied-on claim, source, actual use relation and support needed for that use. When the source-to-use account remains implicit or must be replayable, use A.10's path and `RelianceDisposition`. Retain currentness, a live challenge, a locally plausible unsupported use, and a reopen or stop condition when they affect this reliance. | Claim truth, selector outcome, gate result, approval, permission, assurance, or Work authorization. |
+| Bounded reliance and a needed A.10 account | For a proposed use, the claim, source and grounds that make it suitable. To say a receiver actually relied on it, establish the use relation. When the source-to-use account remains implicit or must be replayable, use A.10's path and `RelianceDisposition`. Retain currentness, a live challenge, a locally plausible unsupported use, and a reopen or stop condition when they affect this reliance. | Claim truth, selector outcome, gate result, approval, permission, assurance, or Work authorization. |
 | Receiving conditions and result | The entry conditions imposed by the rule governing this contribution, including any required gate, permission or authorization. Obtain the choice, acceptance, task or domain result when that result is itself required by the receiving work. Qualified inputs may be used to construct it. | Candidate identity or evidence merely by mentioning the row. |
 | Auxiliary facts | Lens, publication, form, carrier, repair, provenance, source, or rendering facts needed to interpret or recover the row. | Any missing positive subject result, reliance, or receiving result. |
 
@@ -239,7 +239,7 @@ Under C.11 the result `CR7` is `choose now`: retain the current edition for WP4.
 | Source considered | What the source supports | Use in this decision |
 | --- | --- | --- |
 | The commissioning rule, the setup estimate for MC7 and the estimate for retaining the current edition | The applicable ceiling and the estimated time required by each option under the trial conditions. | `select` for the budget comparison. Reopen it if the rule, estimate, alternatives or trial conditions change. |
-| Trial item in `WorkPlan-WP4` | A.15.2 identifies a planned one-hour slot. A.10 path `P-WP4` supports that limited claim (`pass`). | `select` for estimating the full trial time. The four-hour setup estimate is already sufficient to exclude MC7. A claim that the trial took place would require a record of the Work. |
+| Trial item in `WorkPlan-WP4` | A.15.2 identifies a planned one-hour slot. A.10 path `P-WP4` supports that limited claim (`pass`). | `select` for estimating the full trial time. The four-hour setup estimate is already sufficient to exclude MC7. To report that the trial took place, use adequate grounds for the occurrence, such as direct observation or a reliable Work record. |
 | Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the MethodDescription and its proposed order of work. Path `P-MD5` supports reading that order (`pass`). | `decline` as a premise for choosing on budget. The engineer can use the diagram to prepare an eligible trial. Revisit the estimate if a change of order changes the work it covers. |
 | `WorkRecord-W19` about the earlier `Work-W19` | A.13 and A.15.1 establish the earlier assignments and Work. The record identified under C.2.1 reports rework in those conditions. Path `P-W19` supports that observation within its comparability limit (`degrade`). | `decline` for the budget comparison. The record explains why the change was proposed. It supplies neither the new setup estimate nor evidence that MC7 prevents the old breakdown. |
 
@@ -257,7 +257,7 @@ If the direct release gate or permission pattern instead returns a negative resu
 
 The engineer can finish the current comparison by giving the planning rule, the estimates and the resulting choice. The source of the four-hour estimate matters even though the workflow diagram and the earlier work record have identifiable editions. Neither supplies that estimate.
 
-A later reviewer may need to reconstruct the choice. Give them the estimates used, what each covered, the budget in force and the alternatives compared. If they also need to reconstruct why MC7 was proposed, give them the earlier rework record and its comparability limit. Keep this basis once in the existing decision account when it can serve those uses.
+A later reviewer can use the estimates, their coverage, the budget rule then in force and the alternatives to reconstruct which proposals were eligible. To establish the decision that took effect, apply the operative rule if it settled the outcome, or recover the decision that its authorized holder made. To say the holder chose on the basis of these estimates, establish that they used them. They might have received an independent estimate with the same result. If the question concerns why MC7 was proposed, recover the earlier rework evidence used for that proposal and its comparability limit. One decision record can already contain the grounds needed for several of these questions.
 
 ### C.37:6 - Bias-Annotation  *(informative)*
 

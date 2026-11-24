@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution - recover the whole from direct construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__006_solution-recover-the-whole-from-direct-construction.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:4 — Solution - recover the whole from direct construction"
-line_start: 65159
-line_end: 65325
+line_start: 65190
+line_end: 65360
 dependencies:
   - "A.1"
   - "A.14"
@@ -64,6 +64,8 @@ The predicate obtains throughout an interval exactly when all of the following a
 
 Eligibility, citation or participation alone does not establish the required contribution and whole-forming parthood.
 
+When the possible encompassing field is still unknown, follow a practice that uses the local field's work or a proposed practice that would need it. In an existing practice, ask practitioners which of their decisions change when the local knowledge or Method changes, and where their results go for examination. For a proposed field, use the intended work to design these connections and state what would put them into practice. Follow that connection in each direction. A team may simply buy an analysis and act on it. To establish that the local discipline itself forms part of a larger one, identify the wider field's assembly and show that it incorporates the local coupling of knowledge and practice under the conditions above. Sometimes the available grounds establish only that such an assembly is possible. A practical need discovered in an external user can still warrant development of the local field.
+
 One occurrence is identified by `<exact part entity, exact candidate, maximal continuous obtaining interval>`. If the same part leaves the assembly and later returns, the two episodes are distinct occurrences. A changed observation or evidence window does not split an ongoing occurrence; actual cessation and resumption under the direct predicate do. Reidentifying either participant also identifies another occurrence.
 
 Multiple contribution claims for the same part do not create several part occurrences during the same continuous interval. If typed declaration reuse is needed, the direct relation has only the two participant meanings above; other contribution claims and qualifications do not add participant slots. Qualifiers and whole-forming claims keep their subject patterns.
@@ -93,7 +95,9 @@ The discipline's identity is not the extensional part list. It is the exact cand
 
 The same discipline may continue through a permitted canon revision, method replacement, institutional change, publication change, or temporary part-relation change when the rule admits that variation and the field boundary, required contribution meanings, essential couplings, and whole characteristic remain within their declared continuity conditions. The rule must say which substitutions are permitted and how the replacement contribution reconnects to the assembly.
 
-To maintain a discipline, start with the work its practitioners must continue to do. Follow how relevant knowledge guides that work and how results reach the people who can test or revise the knowledge. Find which connections still work under present conditions and where the connection is at risk or has broken. Continuing a sound practice can be sufficient. If results have stopped reaching practitioners, restore that exchange. If the knowledge or method itself needs revision, establish how the revised contribution will work with the others. For a commission to sustain the field in operation, carry out the needed work and establish that the connections still serve it. For an inquiry about continuity, evidence of existing practice can already answer the question.
+To maintain a discipline, start with the work its practitioners must continue to do. Follow how the knowledge guides the work and how results reach whoever can test it. Identify who may revise the shared account when a test changes its grounds. A service can detect a discrepancy and bring it to an editor. The editor may confirm, qualify or revise the account on those grounds. Find which connections still work under present conditions and where the connection is at risk or has broken. Continuing a sound practice can be sufficient. If results have stopped reaching practitioners, restore that exchange. If the knowledge or method itself needs revision, establish how the revised contribution will work with the others. For a commission to sustain the field in operation, carry out the needed work and establish that the connections still serve it. For an inquiry about continuity, evidence of existing practice can already answer the question.
+
+Use what the receiving practice needs to choose the next work. If the existing explanation cannot distinguish outcomes that matter in that practice, formulate the unanswered question and determine how it could be investigated. If the explanation holds but the practice loses a needed distinction, compare what observation, recording, expression and interpretation each receive and supply. Restore the distinction where the loss occurs or choose an available Method that preserves it. Including an omitted field in an export can suffice when practitioners already interpret that field correctly. If the explanation and the Method already preserve what the practitioners need, the missing contribution may be access to observations, equipment, a capable practitioner or a way for another practitioner to learn. C.40.OD connects these contributions when their results depend on one another. C.32.MWA.PP and C.36.RP help arrange their joint performance and continued availability. Take the result back to the decision that exposed the difficulty. A trial may support continued use, require a narrower claim or reopen the original question. An error confined to the account of the discipline calls for correcting that account.
 
 A change outside those conditions identifies another candidate or leaves the stronger claim unresolved. When a receiving use asks whether the old whole can still explain the case, run B.2's existing-whole explanation check after the direct C.20 facts are recovered. Loss of evidence, another description edition, a renamed field, or a stale registry entry does not itself end or create a discipline.
 

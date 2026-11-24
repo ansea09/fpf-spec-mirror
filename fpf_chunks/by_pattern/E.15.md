@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
-line_start: 113090
-line_end: 113342
+line_start: 113151
+line_end: 113403
 dependencies:
   - "C.18"
   - "C.19"
@@ -37,19 +37,19 @@ keywords:
 
 **Normativity.** Normative unless a passage is marked informative.
 
-> Compare one predecessor pattern edition with its proposed successor, describe what changed before classifying it, repair only the uses that depend on it, and use a wider search only when a design choice remains.
+> Compare the predecessor and proposed edition to establish what changed and which uses depend on it. Repair those uses when implementation is commissioned. Widen the search when a design choice remains open.
 
 ### E.15:1 - Problem Frame
 
 Use this pattern when an existing FPF pattern is being corrected, clarified, reorganized, refreshed from current sources, split, merged, renamed, or changed semantically, and someone needs to know what may continue and what must be reconsidered.
 
-The primary `EntityOfConcern`—the thing being changed—is one existing FPF pattern edition. The candidate is its proposed successor. The useful result is that candidate plus a bounded account of what changed, which uses may be affected, which predecessor ideas remain, and which checks were rerun. Put that account in the decision, review, campaign, or landing result that needs it; this pattern does not require a separate trace object.
+The primary `EntityOfConcern`—the thing being changed—is one existing FPF pattern edition. The candidate is its proposed successor. For a proposed replacement, give the candidate with a bounded account of what changed, which uses it affects, which predecessor contributions remain and what has been checked. When asked to assess the effects of someone else’s candidate, return that account on the proposed editions. Put that account in the decision, review, campaign, or landing result that needs it; this pattern does not require a separate trace object.
 
 **First useful move.** Put the predecessor and candidate side by side and finish this sentence in ordinary language:
 
 > A reader or user who relied on `<predecessor passage>` may now read, do, check, or conclude `<difference>`.
 
-If the answer is “nothing”, test that claim against the affected passages and stop after the smallest adequate repair and check. If the answer is uncertain because several materially different repairs remain plausible, open the alternative-comparison branch.
+If the answer is “nothing”, test it against the affected passages. An impact assessment can end with that finding. When an editorial repair is commissioned, make and check the smallest adequate change. If the answer is uncertain because several materially different repairs remain plausible, open the alternative-comparison branch.
 
 For a first pattern seed with no predecessor, use E.8 and the patterns that govern the subject. Do not use E.15 merely to run a wording check, make a design decision, perform a quality review, publish a pattern, or land a candidate: F.19 with E.10 cues, E.9, E.19 or E.21, E.24.PUB, and the landing process own those distinct questions. Return here when one of those activities changes an existing pattern edition and edition continuity or affected use is in question.
 
@@ -96,7 +96,7 @@ For every plausible consumer, decide one of three things:
 * **mentions only:** it cites or describes the pattern but its current action remains valid;
 * **unresolved:** the dependency cannot yet be decided from recoverable content.
 
-Repair the exact dependent loci. Reuse an earlier result only when its conclusion and conditions remain unchanged and the changed premise lies outside its actual dependency. Reopen the smallest affected premise, consumer, example, check, or result; do not rerun an unrelated whole programme merely because an edition number changed.
+For an impact assessment, identify the affected uses and what would have to change. A known repair may await its authorized maintainer even though its need is settled. When the commission includes implementation, make or arrange the authorized repairs and verify their effects. Reuse an earlier result only when its conclusion and conditions remain unchanged and the changed premise lies outside its actual dependency. Reopen the smallest affected premise, consumer, example, check, or result; do not rerun an unrelated whole programme merely because an edition number changed.
 
 An undeclared consumer can depend on the changed premise, and a declared dependency can be unused in the current question. Check actual and declared reach when the distinction matters.
 
@@ -119,7 +119,7 @@ Refine, rephrase, split, merge, generalize, constrain, rename, add, and retire r
 
 **Alternative comparison.** Open this branch only when at least two materially plausible designs remain, a current SoTA choice can change the action, or a repeatable search is itself useful. State what the alternatives differ on and which intended use decides among non-dominated candidates. C.18 and C.19 may generate and retain alternatives when novelty or diversity is part of the question; E.22 and E.21 frame and evaluate pattern qualities.
 
-Keep hard constraints separate from quality comparisons. A failed identity rule, broken reference, missing required result, or unreadable first action is a defect to repair, not a low score to trade away. Compare readability, precision, assurance cost, breadth, or other qualities on their applicable scales. Select by the stated intended use and protected trade-offs; do not add heterogeneous values into an undeclared winner score.
+Keep hard constraints separate from quality comparisons. A failed identity rule, broken reference, missing required result, or unreadable first action is a defect to repair, not a low score to trade away. Compare readability, precision, assurance cost, breadth, or other qualities on their applicable scales. If the commission delegates selection, choose on the stated intended use and protected trade-offs. A commission to compare can end by reporting the alternatives those grounds leave open and what turns on the choice. Keep heterogeneous values on their declared scales.
 
 **Return a decision gap.** If the repair depends on an unresolved ontology, authority, source choice, or architecture decision, return that exact gap to its pattern or decision record. More variants do not compensate for a missing governing distinction.
 
@@ -169,7 +169,7 @@ These answers may live in a DRR, review package, campaign result, source-use acc
 
 Keep accepted historical editions immutable and recoverable. A successor does not rewrite what an earlier edition meant. A source-edition change reopens only claims and actions that relied on the changed source value; unchanged exact inputs and unaffected premises remain reusable.
 
-E.15 finishes when the candidate answers the change question, every in-scope locus that depends on the change is repaired or explicitly unresolved, material predecessor functions have dispositions, and the selected checks support the claimed Delta-Class and continuity. Publication, acceptance, registration, and landing remain separate later decisions.
+An impact assessment can finish with its conclusions about affected uses, required repairs, unresolved dependencies and material predecessor functions. When implementation is commissioned, finish when the candidate answers the change question, the repairs within scope have been made or their unresolved conditions reported, and the checks support the claimed Delta-Class and continuity. Identify any established change still awaiting the responsible maintainer. Publication, acceptance, registration and landing require their own grounds.
 
 Schedule a living refresh only for a high-value claim likely to change and only when someone will use the signal. Name the trigger and affected claim. Retain any review interval required by an applicable publication or maintenance obligation.
 
@@ -197,7 +197,7 @@ A current research edition revises a limitation used by one SoTA decision. The p
 
 #### E.15:5.5 - A choice among three architectures
 
-A pattern could model a new distinction as a local value, a direct relation, or a selected structure, and each choice changes downstream use. No single repair is yet selected. The author records the alternatives in the DRR, uses subject-specific criteria and E.21/E.22 qualities, and may use C.18/C.19 to broaden the candidate set. The comparison stops when the intended use supports one non-dominated architecture. Authors need this search only under the conditions in §4.4.
+A pattern could model a new distinction as a local value, a direct relation, or a selected structure, and each choice changes downstream use. No single repair is yet selected. The author records the alternatives in the DRR, uses subject-specific criteria and E.21/E.22 qualities, and may use C.18/C.19 to broaden the candidate set. For a commission to compare, the author can return competing non-dominated designs, their consequences and the conditions favouring each. If the commission also includes selection, the empowered participant chooses on those grounds. Authors need this search only under the conditions in §4.4.
 
 ### E.15:6 - Bias-Annotation
 
@@ -210,9 +210,9 @@ The method biases toward continuity and inspectability (**Arch**, **Onto/Epist**
 | **CC-E15-1 (Exact change basis).** | A conforming use **MUST** identify the exact predecessor and candidate editions, the change question, and the receiving use. | Makes continuity replayable without a universal context record. |
 | **CC-E15-2 (Actual delta first).** | Delta-Class **MUST** follow comparison of actual effects on recognition, inputs, actions, conditions, results, norms, ontology, consumers, and assurance; a label, version number, edit operator, or line count **MUST NOT** decide it. | Prevents small semantic changes and large harmless rewrites from being misclassified. |
 | **CC-E15-3 (Proportional route).** | An understood direct repair **MUST NOT** be forced through multiple-candidate generation, aggregate scoring, a SoTA harvest, or a new trace record. Alternative comparison **MUST** be used only when materially plausible alternatives or a consequential current-source choice remain. | Keeps ordinary changes cheap without deleting the stronger branch. |
-| **CC-E15-4 (Actual affected reach).** | Every in-scope locus whose action, interpretation, condition, result, check, or public reference depends on the changed premise **MUST** be repaired or explicitly unresolved. Mentions and declared links **MUST NOT** substitute for the actual dependency test. | Makes the repair dependency-closed. |
+| **CC-E15-4 (Actual affected reach).** | Identify each in-scope use whose action, interpretation, condition, result, check or public reference depends on the changed premise. For an impact assessment, distinguish a required change awaiting its maintainer from a dependency still unknown. For an implementation claim, establish which affected uses were repaired and verified and what remains unresolved. Mentions and declared links alone do not establish a dependency. | Keeps the claimed repair and the assessment of its reach verifiable. |
 | **CC-E15-5 (Independent predecessor preservation).** | A material rewrite **MUST** be checked against an independently derived inventory of predecessor functions and uses. Every intentional change, move, or retirement **MUST** be named by its successor decision; the author’s preservation map alone **MUST NOT** be accepted as proof that the inventory is complete. | Prevents compression or restructuring from silently deleting ideas. |
-| **CC-E15-6 (Valid selection).** | Hard constraints **MUST** remain separate from multi-scale qualities. When alternatives are compared, the selected candidate **MUST** be non-dominated for the stated intended use and protected trade-offs; an undeclared aggregate score **MUST NOT** choose it. | Makes “better” a replayable use-relative claim. |
+| **CC-E15-6 (Valid selection).** | Hard constraints **MUST** remain separate from multi-scale qualities. When a candidate is selected, it **MUST** be non-dominated for the stated use and protected trade-offs. A comparison can return several supported alternatives. An undeclared aggregate score **MUST NOT** choose among them. | Makes “better” a replayable use-relative claim. |
 | **CC-E15-7 (Record economy and object separation).** | The change account **MUST** reuse the receiving workflow's governed records by reference. A new episteme or publication **MUST NOT** be inferred solely from a form, file, self-log, or the fact that authoring occurred. | Avoids duplicate records and false work evidence. |
 | **CC-E15-8 (Proportionate verification).** | Checks **MUST** be selected from the actual change and claimed conclusion. After material formal or ontological repair, the whole changed pattern **MUST** receive a precise-plain-language and practitioner-use read in addition to focused semantic checks. | Prevents locally exact repairs from making the pattern unusable. |
 | **CC-E15-9 (Edition continuity).** | Historical editions **MUST** remain recoverable, and only affected premises or consumers **MUST** reopen. Publication, acceptance, registration, and landing **MUST NOT** be inferred from E.15 completion. | Separates semantic continuity from later lifecycle decisions. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 59404
-line_end: 60124
+line_start: 59435
+line_end: 60155
 dependencies:
   - "A.10"
   - "A.13"
@@ -72,7 +72,7 @@ When a choice is still open, give the recipient the comparison available now, th
 
 **First-minute questions.**
 
-- Who or what makes this choice? If several participants contributed, to whom is the decision attributed?
+- Who makes each choice the outcome depends on? If the outcome requires several decisions, how do they take effect together?
 - What options are already on the table now?
 - What current basis is being used to compare them?
 - What could a further observation or calculation change about the choice or what the recipient can rely on?
@@ -103,7 +103,7 @@ Without an explicit place for choice calculus, search, candidate-pool policy, an
 | Choice doctrine versus candidate formation and generation | `C.11` must govern choice among already-available options without taking over their formation or development. |
 | Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
 | Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
-| Individual and collective choice | A person, a technical system or a body acting jointly can make a choice. Participation in the comparison does not by itself establish who made the decision. |
+| Individual and collective choice | A person, a technical system or an authorized body may decide. An outcome may also depend on separate decisions by independent parties. Establish whose choices the governing arrangement requires. |
 | Minimal mathematical floor versus premature heavy formalism | The pattern needs a stable object stack for disciplined reasoning and inspection, but it should not treat a full quantum-like or geometry-heavy package as already settled. |
 
 ### C.11:4 - Solution
@@ -137,7 +137,7 @@ The OptionSet choice question begins only after an option set already exists. It
 Apply the `ChoiceRule` to the available `OptionSet`. A completed comparison yields one explicit `ChoiceResult` under that rule. If the basis still leaves the requested single choice open, §4.2.4 explains what to return to the holder now.
 
 1. **Identify the chooser.**
-   Name the `DecisionSubject`. Use `DecisionSubjectGranularity` to identify the unit to which the choice is attributed in this arrangement, for example a controller, a committee or an organization acting through a delegate. If attribution to a component or its containing system changes the result, establish their actual relation and which decision each makes.
+   Name the `DecisionSubject`. Use `DecisionSubjectGranularity` to identify the unit to which the choice is attributed in this arrangement, for example a controller, a committee or an organization acting through a delegate. If attribution to a component or its containing system changes the result, establish their actual relation and which decision each makes. If a concert requires two independently managed orchestras to agree, identify each orchestra’s decision and the condition that requires both. An agreement can be established without treating the orchestras as one chooser. A witnessed vote can establish a board’s decision when its rule gives that vote effect. A rule requiring a signed record adds that condition.
    Distinguish the chooser from participants who provide evidence, advice or execution. Use `A.13` for a disputed claim about agency and the applicable assignment or mandate for a claim about who can decide.
 
 2. **Freeze the current option set.**
@@ -185,7 +185,7 @@ When a later outcome must first be compared with an earlier decision's actual re
 
 Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states the following, subject to the stated condition on inquiry:
 
-- one `DecisionSubject` at one `DecisionSubjectGranularity`;
+- one `DecisionSubject` at one `DecisionSubjectGranularity` for the choice being represented. When the receiving outcome requires several independent choices, use the respective subjects and establish how their decisions combine.
 - one current `OptionSet`;
 - one current comparison basis through `PreferenceOrder` or `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`;
 - one active dependence layer for the current comparison, unless the record explicitly says that comparison is still being reopened;
@@ -528,7 +528,7 @@ This floor is enough to keep choice doctrine inspectable and stable. It does not
 
 ##### C.11:4.5.2 - Boundary on multilevel and social-expectation doctrine
 
-`DecisionSubject` and `DecisionSubjectGranularity` identify who makes the choice and whether it is an individual or collective decision. Several participants can contribute evidence or carry out the chosen course. Attribution to a larger system requires grounds for its decision, such as a collective rule or an authorized delegate acting within a mandate.
+`DecisionSubject` and `DecisionSubjectGranularity` identify who makes the choice and whether it is an individual or collective decision. Several participants can contribute evidence or carry out the chosen course. Attribution to a larger system requires grounds for its decision, such as a collective rule or an authorized delegate acting within a mandate. When the parties retain separate authority, report their individual decisions and what those decisions settle together. A recommendation or its circulation leaves open whether the parties accepted it.
 
 This minimal choice doctrine does not fully settle the broader questions that can accompany that chooser-bearing scope, including:
 

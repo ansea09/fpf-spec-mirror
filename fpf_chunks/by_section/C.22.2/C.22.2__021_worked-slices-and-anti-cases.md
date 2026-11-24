@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 67348
-line_end: 67416
+line_start: 67387
+line_end: 67455
 dependencies:
   - "A.10"
   - "A.15"
@@ -87,7 +87,7 @@ The first-line entry uses "complete" when a case is sent. The specialist entry u
 | Claim family | Descriptive claim about the two policy clauses and their different completion meanings. The prediction that reopened escalations will continue while this wording remains is an untested hypothesis, not an established forecast or causal result. No actual PFR is asserted. |
 | Ground for addressing the concern | For a sent case still awaiting acceptance, the two readings disagree on whether it belongs in the sender's queue. Identify which event governs removal. To establish who remains accountable for follow-up, consult the rule assigning that responsibility. |
 | Improvement check or acceptance probe | Apply the rule to a case sent but still awaiting acceptance. Does it remain on the sender's list? To investigate actual compliance, compare the required result with what the queue recorded in that case. |
-| Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the person authorized to settle it. |
+| Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the party authorized to settle it. |
 | Qualification window (current here) | Use the policy edition in force at the time in question. The two-week incident window concerns the report about reopened cases. |
 | Problem-formulation follow-up reason (current here) | Resolve which event the policy means by completion. Examine System, assignment, Method, Work or policy-boundary relations only if that clarification exposes a question that depends on them. |
 | Validation boundary (current here) | The answer about the rule depends on its authority, wording, effective period and interface. An answer about actual operation also depends on the coverage and meaning of the incident records. |

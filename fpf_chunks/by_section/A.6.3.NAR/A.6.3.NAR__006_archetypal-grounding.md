@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:5 — Archetypal Grounding"
-line_start: 20522
-line_end: 20579
+line_start: 20536
+line_end: 20593
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -89,7 +89,7 @@ For an exact same-entity continuity account, identify the source episteme descri
 
 #### A.6.3.NAR:5.5 - Homotopy-theory explanation boundary
 
-A teacher turns graph-heavy mathematical material into a didactic sequence of definitions, dependencies, examples, counterexamples, theorem prerequisites, and proof-status boundaries. The ordinary note records which structures a learner can reconstruct, which proof details or generalizations are deferred, and when to return to formal statements.
+A teacher turns graph-heavy mathematical material into a didactic sequence of definitions, dependencies, examples, counterexamples, theorem prerequisites, and proof-status boundaries. The note identifies the structures the sequence is intended to make recoverable, the prerequisites it assumes, the proof details or generalizations deferred and the route back to formal statements. For a claim about what a learner can reconstruct, consider that learner’s preparation and available help. Use the learner’s actual work for a claim of performance and a suitable comparison for a claim of changed capability.
 
 When a mathematical use needs exact preservation, identify `HomotopySource-X` and `HomotopyNarrative-Y` about the same mathematical EntityOfConcern and state the construction, ordering and loss. Mathematical-lens, proof, source-use, publication and teaching-evaluation claims retain their applicable tests.
 

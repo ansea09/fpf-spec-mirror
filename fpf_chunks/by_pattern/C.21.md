@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.21.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
-line_start: 65506
-line_end: 65775
+line_start: 65545
+line_end: 65814
 dependencies:
   - "A.10"
   - "A.17-A.18"

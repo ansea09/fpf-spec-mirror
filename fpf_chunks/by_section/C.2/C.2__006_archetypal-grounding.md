@@ -6,12 +6,12 @@ section_id: "C.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:5 — Archetypal Grounding"
-line_start: 53496
-line_end: 53503
+line_start: 53521
+line_end: 53528
 dependencies:
   - "A.1"
   - "A.10"

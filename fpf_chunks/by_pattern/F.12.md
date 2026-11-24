@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.12.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
-line_start: 131411
-line_end: 131697
+line_start: 131475
+line_end: 131761
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -141,7 +141,7 @@ Use E.13 only when the indicator is optimized or used as a target, incentive, ga
 **R4 — Perform the evaluation.**
 Select the delivery facts, affected-state references and measured values required by the acceptance rule. Apply its comparison or aggregation with the specified population, exclusions, uncertainty treatment and result scale, then state the supported result. For example, an incident rule can bind observed start and restoration times and compare their difference with the allowed duration. If an input is missing, establish that at least one history fits the evidence. If all such histories give the same result under the rule, use it. Incompatible premises may need correction, or independent sufficient grounds may settle the verdict directly. An established bound may settle a threshold. One failure can defeat a promise made to every member. When different results remain possible, state what is unresolved. A separately required observation or procedure keeps its own fulfilment condition.
 
-When the claim or receiving use consumes a dated evaluation occurrence, recover each evaluator's A.13 core and let A.15.1 independently admit that Work before asserting that it enacts the evaluation Method, as A.2.3:4.3 requires. Add F.6 only for precise assignment-bound attribution.
+When the claim or receiving use consumes a dated evaluation occurrence, establish the A.13 evaluator at the scale claimed and the Work that enacted the evaluation Method under A.15.1 and A.2.3:4.3. The committee's joint evaluation can answer for the committee. If the terms call for two separate expert judgements, establish both on those terms. Add F.6 only for precise assignment-bound attribution.
 
 Recover an exact A.6.1 application and its argument/result binding when claimed or required by the rule. Cite a particular MethodDescription edition when its content changes the evaluation or replay.
 

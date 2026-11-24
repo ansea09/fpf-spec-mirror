@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
-line_start: 73437
-line_end: 73866
+line_start: 73484
+line_end: 73913
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -180,7 +180,7 @@ A relaxation offers another useful transfer. Let S be the allowed source solutio
 min over T of receiving cost ≤ min over S of source cost.
 ~~~
 
-The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness. A budget decision may need less than an optimum. For minimization, any feasible source plan at or below budget establishes feasibility. A proven lower bound strictly above budget excludes every plan. If a lower bound equals the budget, establish that the source permits a plan at that cost before promising delivery. Even an infimum can be approached by feasible costs without being attained.
+The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness. If the plan must be usable in an actual operation, establish that the proposed performers can carry out its steps and handoffs with the access, capability and resources available to them. A budget decision may need less than an optimum. For minimization, any feasible source plan at or below budget establishes feasibility. A proven lower bound strictly above budget excludes every plan. If a lower bound equals the budget, establish that the source permits a plan at that cost before promising delivery. Even an infimum can be approached by feasible costs without being attained.
 
 Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Adding the errors of successive steps without accounting for amplification can understate the final error.
 
@@ -257,7 +257,7 @@ The arithmetic min(1,4)+2 = 3 still holds. Its use as the attainable minimum fai
 
 Repair the state at B by retaining whether the continuation permission remains. Let p arrive at (B,0) and q at (B,1). Only (B,1) has the r transition to C. Minimizing over the allowed complete routes in this expanded account yields 4 + 2 = 6. Returning q followed by r supplies an allowed source witness.
 
-There is also a useful result from the coarser account. With the permission restriction removed, every allowed source route remains available at the same cost. The relaxed minimum of 3 rules out a source route within a budget of 2. For a budget of 4, the lower bound alone is inconclusive. The permission rule and the stated complete list of routes show that the only permitted complete route costs 6. If the budget is 6, returning q followed by r gives the planner a route it can use.
+There is also a useful result from the coarser account. With the permission restriction removed, every allowed source route remains available at the same cost. The relaxed minimum of 3 rules out a source route within a budget of 2. For a budget of 4, the lower bound alone is inconclusive. The permission rule and the stated complete list of routes show that the only permitted complete route costs 6. At a budget of 6, q followed by r is feasible in the model. To offer it for an actual trip, check who can take each leg and whether the handoff at B preserves access to r. A courier authorized only as far as B can hand over to another authorized for r if both can do their part in time and the complete route stays within budget.
 
 **Returned result.** Endpoint reachability, the cost of a selected route and the minimum over compatible routes are different questions. Retain history only insofar as it changes future compatibility or cost. When a coarser account is cheaper to use, its lower bound may still answer the receiving question without constructing the optimal source route.
 
@@ -361,7 +361,7 @@ These checks concern a claimed use of mathematical transfer. Recognition of a pr
 | CC-C29.1-4 | An exact operation-transfer claim SHALL be supported by the comparison in C.29.1:4.3 over its stated domain. Include availability or return conditions when the receiving use depends on them. |
 | CC-C29.1-5 | For each reachable summary, an exact answer recovered from it SHALL equal the requested value in every source case it represents. For one guaranteed action, justify a choice that meets the requirement in every case compatible with the information available to its performer. A bound or a set of possibilities needs the corresponding coverage argument. |
 | CC-C29.1-6 | A bound or approximation claim SHALL explain why it covers the allowed cases, the direction of its inequality and the subsequent error propagation needed by the receiving use. |
-| CC-C29.1-7 | A returned receiving solution claimed to be feasible in the source SHALL identify an allowed source counterpart with the stated properties. A relaxation optimum alone supplies no such counterpart. |
+| CC-C29.1-7 | A returned receiving solution claimed to be feasible in the source SHALL identify an allowed source counterpart with the stated properties. For a route promised to actual performers, these include the access and capabilities its steps require. A relaxation optimum alone supplies no such counterpart. |
 | CC-C29.1-8 | The returned conclusion SHALL retain its answer-changing assumptions and distinguish the result obtained from the further work still needed. A physical application includes the physical premises; a changed premise reopens the dependent comparison. |
 
 A complete argument about a mathematical model establishes its stated conditional consequence. Confidence that an observed system satisfies the premises, or that an implementation performs the operation, comes from the corresponding subject work.

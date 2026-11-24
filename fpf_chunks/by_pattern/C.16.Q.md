@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.Q.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
-line_start: 62567
-line_end: 63381
+line_start: 62598
+line_end: 63412
 dependencies:
   - "A.10"
   - "A.16"
@@ -141,7 +141,7 @@ qualityTermAscription :=
   effectiveReferenceScheme: EpistemeInterpretationScheme,
   probeOrModelFrameRef: exact domain-local probe or model frame,
   comparisonFrameRef: exact A.19.CPM-governed comparison frame | none,
-  evaluatorRef: exact evaluator or policy ref | none,
+  evaluatorRef: exact assessing system ref | none,
   viewpointRef: U.ViewpointRef | none,
   referencePlane?,
   representationLanguageRef?: U.EntityRef with referent satisfying RepresentationLanguage (E.5.2.L:4.3),
@@ -181,17 +181,17 @@ For a use whose quality meaning remains consequentially ambiguous, “X has qual
 `QualitySense` is a slot value inside the transitional repair form; it is not a replacement for the endpoint FPF pattern or explicit endpoint source reference. The sense token refines the intended quality sense while the endpoint source, applicable pattern, or EntityOfConcern remains explicit.
 
 **Separation note.**
-`evaluatorRef` and `viewpointRef` are not synonyms. The evaluator is the observing, criticizing, or selecting party or policy. `viewpointRef` is a governed reference whose resolution yields one exact `U.Viewpoint` episteme; selecting or resolving it grants no membership, conformance, authority, or evaluation result.
+`evaluatorRef` identifies the person, service or organized body to which the assessment is attributed. State the assessment rule or policy in the `probeOrModelFrameRef` frame. A value can follow from the rule with the assessor unspecified. To say that a service calculated it or a board adopted it, establish the relevant act and, for adoption, the board’s authority. `viewpointRef` designates a `U.Viewpoint` episteme. Its resolution identifies the viewpoint used.
 
 The checked bearer, any dated assessment work, the resulting claim episteme, witness carriers, an A.10 evidence-provenance path, and an optional `EpistemeEmpiricalGroundingRelation` remain independently governed. A filled `qualityTermAscription(...)` may refer to each, but record completion, a result label, or stored witnesses makes none of the neighboring relations obtain.
 
 #### C.16.Q:4.1b - Polarity discipline (bearer-centred; no silent inverse)
 
 `qualityTermAscription` is bearer-centred.
-A transitional ascription SHALL keep the described or evaluated participant in the bearer position and SHALL publish `evaluatorRef` and governed `viewpointRef` separately, using `none` when either is absent. A known endpoint retains its own form and the same participant distinctions.
+Keep the subject of the evaluation in the bearer position. Publish `evaluatorRef` and `viewpointRef` separately, using `none` when the corresponding reference is absent. When an existing account names a policy as evaluator, establish whether the reference identifies a service acting in the case or the policy that supplies the rule. Put the rule in the assessment frame and identify an assessing system only on evidence for that attribution. A known endpoint retains its own form and the same participant distinctions.
 
 * When the evaluating architects are identified as `ArchitectureReviewBoard`, “Architects rate the system highly” rewrites to `qualityTermAscription(bearerTuple={System}, evaluatorRef=ArchitectureReviewBoard, viewpointRef=none, …)`.
-* When the benchmark's evaluation policy is identified as `BenchmarkPolicy`, “The benchmark says model quality is high” rewrites to `qualityTermAscription(bearerTuple={Model}, evaluatorRef=BenchmarkPolicy, viewpointRef=none, …)`.
+* When `BenchmarkPolicy` gives the scoring rule, “The benchmark says model quality is high” can mean that the model scores highly under that rule. Use `qualityTermAscription(bearerTuple={Model}, probeOrModelFrameRef=BenchmarkFrame, evaluatorRef=none, viewpointRef=none, …)` with `BenchmarkPolicy` identified in `BenchmarkFrame`. If an assessment service actually assigned the score, identify that service in `evaluatorRef` on the grounds for its work.
 
 There is no inverse token that silently makes the evaluator the bearer.
 If inverse wording is used in Plain prose, rewrite it into the bearer-centred form, or use the explicit inverse form supplied by the applicable pattern.
@@ -289,7 +289,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
    For a comparison of profiles under A.19.CPM, name the admitted profiles and the applicable comparator and comparison scope. If the claim needs such a comparison and an input is missing, say which conclusion is still open. For a domain comparison that uses a different operation, describe what was compared and on what grounds in the probe or model frame and in the claim. Use `comparisonFrameRef = none` whenever the claim uses no CPM comparison. When both operations are used, identify the grounds for each.
 
 6. **Evaluator and viewpoint reference.**
-   State the evaluator or policy and, independently, either one `U.ViewpointRef` or `none`. A non-`none` reference SHALL resolve to one exact viewpoint episteme under E.17.0; neither the reference nor its resolution is the evaluator.
+   Identify any attributed assessor and the rule used. Name the rule in the probe or model frame and the assessing system in `evaluatorRef`. Give the independent `U.ViewpointRef` or `none`. A non-`none` viewpoint reference resolves to one exact viewpoint episteme under E.17.0.
 
 7. **Normal form and result boundary.**
    State whether the ascription uses `SignalPack`, `Characteristic`, `Bundle`, or `Objective`. If separately performed assessment work produced a result claim, cite that exact C.2.1 episteme through `qualityResultClaimRef`; do not identify the work, result, bearer, or transitional record with one another.
@@ -322,7 +322,7 @@ A conforming `SignalPack` contains:
 
 * exemplar or contrast set or probe set,
 * articulation notes,
-* source episode, carrier, and observer,
+* the source episode and the signal, report or carrier that preserves it. For a claim about someone’s felt experience, distinguish the experiencer from anyone who reported or assessed it. A recorded model signal can be available before anyone examines it.
 * optional ordinal or thresholded summaries,
 * the signal use it supports and the additional declaration needed before treating a proxy as a `Characteristic`.
 
@@ -409,7 +409,7 @@ Changes to a transitional ascription SHALL preserve the distinctions in this cha
 * **`reScale(...)`** — change characteristic scale or scale type.
 * **`reProbeOrModelFrame(...)`** — change the exact domain-local probe or model frame.
 * **`reComparisonFrame(...)`** — change the independently governed A.19.CPM comparison configuration.
-* **`retargetEvaluator(...)`** — change the evaluator or policy ref without changing the viewpoint by implication.
+* **`retargetEvaluator(...)`** — change the system to which an assessment is attributed. Give any change in assessment policy in its probe or model frame. The viewpoint can remain the same.
 * **`retargetViewpointRef(...)`** — retarget the governed `U.ViewpointRef`; resolution yields another exact viewpoint episteme only when the new reference resolves.
 * **`reReferenceScheme(...)`** — change the effective ReferenceScheme explicitly; because that changes interpretation, re-check C.2.1 identity for any published claim episteme.
 * **`rescopeClaim(...)`** — change `U.ClaimScope` or its exact `U.ContextSlice` members.
@@ -463,7 +463,7 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 
 1. Select a **`QualitySense`** and retain rival candidates while the intended sense remains unresolved.
 2. Name the exact bearer, effective ReferenceScheme, `U.ClaimScope`, and any meaning-changing `Γ_time`, reference plane, language of the selected expression, or substrate.
-3. Name the probe or model frame and record any comparison it makes. Give the separate A.19.CPM frame when comparing admitted profiles under a declared comparator, or `none` otherwise; then name evaluator and `U.ViewpointRef` independently.
+3. Identify the rule or model frame for the assessment. Give a separate A.19.CPM frame for a comparison of admitted profiles under a declared comparator, or `none` otherwise. Name the assessing system when the claim identifies one, and the `U.ViewpointRef` independently.
 4. Choose an admissible **normal form** and identify any separately constituted quality-result claim.
 5. Add exemplars, probes, characteristic heads, bundle members, objective pins, witness refs, and exact A.10 evidence-provenance paths as needed. Cite empirical grounding only through an independently obtaining relation.
 6. If the use depends on cross-local correspondence, resolve exact F.17 cells, the obtaining F.9 Bridge, and the separate bounded-use claim. Add a Card only as optional packaging and an F.9.1 stance note only as optional reader help about that claim.
@@ -477,7 +477,7 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 
 **A completed ordinary repair.** An architecture team is deciding which edition of a description supplies the dependency information it needs. Its report says “architecture quality improved.” Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. If the commission instead concerns the system's availability or security, report this finding about the description and identify the evidence still needed for the system claim. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
-A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
+A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, the assessing system when attributed, a separate `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
@@ -664,7 +664,7 @@ qualityTermAscription(
   effectiveReferenceScheme = QDUseValueScheme_9,
   probeOrModelFrameRef = CG_Frame_9,
   comparisonFrameRef = none,
-  evaluatorRef = SelectorPolicy_P4,
+  evaluatorRef = none,
   viewpointRef = none,
   normalForm = Objective,
   claimScope = U.ClaimScope({QDSelectionSlice_9}),
@@ -678,7 +678,7 @@ qualityTermAscription(
 )
 ```
 
-`ObjectiveDefinitionSource_CG9` cites the objective definition supplied by CG_Frame_9. C.17 can characterize the candidate's value under that objective; it does not supply the objective's definition merely by being named.
+`ObjectiveDefinitionSource_CG9` cites the objective definition in `CG_Frame_9`. That frame identifies `SelectorPolicy_P4` as the rule for the supplied value. The record can be interpreted while the identity of the system that calculated it remains open. C.17 can characterize the candidate’s value under the stated objective.
 
 ### C.16.Q:6 - Bias-Annotation
 
@@ -701,7 +701,7 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
    Identify the domain procedure and the basis for any comparison made there. Give the A.19.CPM frame for a comparison of admitted profiles under its comparator, and `none` when that operation is absent. A missing profile or comparator leaves a claim that requires the operation unresolved.
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
-   The effective reference scheme is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
+   Identify the effective reference scheme, the assessment rule in its frame, and any system to which the work is attributed. A non-`none` `U.ViewpointRef` resolves to an exact viewpoint episteme. Its resolution alone supplies neither an assessment nor authority for one.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
     Cross-talk across articulation modes (including preconceptual), representation substrates (including latent-distributed and symbolic-local), or `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without explicit substrate and, when omission would change meaning, plane declarations.
 6. **CC-C16Q-6 - ClaimScope, slices, and `Γ_time` are explicit.**

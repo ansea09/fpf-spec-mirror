@@ -6,12 +6,12 @@ section_id: "C.41.UA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:7 — Conformance Checklist"
-line_start: 94725
-line_end: 94734
+line_start: 94782
+line_end: 94791
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,6 +29,6 @@ For the answers on this occasion, ask:
 - Is each answer bound to the subject, criterion and relevant conditions?
 - Do its grounds settle that question, including when an earlier result is reused?
 - Are No, unknown, not checked and inapplicability interpreted without changing the subject claim?
-- Are observation, entry, performed change and any decision kept distinguishable?
+- Which observations and decisions took place, what did the entry put into effect under the governing terms, and which actions were actually performed?
 - Did a changed premise reopen exactly the affected reliance while preserving historical and unaffected information?
 

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 116659
-line_end: 116898
+line_start: 116723
+line_end: 116962
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -179,14 +179,14 @@ Why it stays here:
 **Source slice.** An internal release-review comparison sheet already compares one control checklist and one vendor bulletin for the same declared release candidate and the same control scope.
 Mid-review, an external incident bulletin arrives and changes the rollback assumptions governing use of that same candidate.
 
-**Initial comparative review unit.** `Before the new bulletin, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal checklist foregrounds rollback evidence more than protocol conformance; this comparison frames the review, but it is not yet a release gate or equivalence claim.`
+**Initial comparative review unit.** The pinned vendor bulletin foregrounds protocol conformance over rollback evidence. The pinned internal checklist gives rollback evidence greater prominence. The contrast helps a reviewer see what each account covers. A release decision requires its own applicable grounds.
 
-**Working-boundary follow-through.** The initial comparison fits `E.17.ID.CR:5.4.6`, but the new observation changes its declared criterion. Stop and reopen the unit.
+**Working-boundary follow-through.** The new incident bulletin does not change what the two pinned texts foreground. Their contrast still answers the commissioned comparison. It can no longer establish whether an assumption about current rollback capability holds.
 
-**Why this stops and reopens.**
-- the new outside observation changes the declared comparison criterion;
-- the previous bounded comparison can remain traceable, but it cannot be used unchanged under the new review conditions;
-- the bounded next use is either to restate a fresh comparative review unit over the new declared criterion or to apply a neighboring governing pattern if downstream gate or authority question has now become primary.
+**What the new bulletin changes.**
+- Retain the comparison of the two texts for its declared purpose.
+- Reconsider any pending downstream judgement that relies on the changed rollback assumption. The bulletin may supply the answer to the existing question or leave further grounds to obtain.
+- Make a new comparison when the commission now concerns other sources, another criterion or an answer the first comparison cannot supply. If a release decision is entrusted to another party, report the comparison and the affected grounds to the intended recipient.
 
 ##### E.17.ID.CR:5.4.6.d - Lighter comparison note with source-return discipline
 

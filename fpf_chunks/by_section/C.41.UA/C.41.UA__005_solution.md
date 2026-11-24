@@ -6,12 +6,12 @@ section_id: "C.41.UA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:4 — Solution"
-line_start: 94659
-line_end: 94698
+line_start: 94716
+line_end: 94755
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,11 +30,11 @@ A.15.10 supplies changed-premise recovery. The operation here uses that boundary
 
 Identify what is being checked, which description or criterion applies, and the relevant time or condition. If every admissible reading warrants the same action on sufficient grounds, give that answer. Resolve any difference that still affects the work, including an order to identify the exact subject. A file name can refer to a different edition; “the cards” can refer to another box.
 
-Recover prior answers or competent results that might already settle the question. Administrative claim-checking Methods supply useful distinctions; apply the competent examination for the present domain. Record-maintenance Methods supply record-use distinctions when the answer is retained for later reliance. Decide whether the subject, criterion, observation and conditions supporting those results still apply. Current reliance can survive a new occasion without a new observation when nothing relevant has changed and the grounds are sufficient.
+Recover prior answers or competent results that might already settle the question. Administrative claim-checking Methods supply useful distinctions; apply the competent examination for the present domain. Record-maintenance Methods supply record-use distinctions when the answer is retained for later reliance. Decide whether the subject, criterion, observation and conditions supporting those results still apply. When those grounds still apply, the earlier result can answer the subject question now. If the terms also require a fresh check, a particular participant's own observation or an independent assessment, establish that work under the stated conditions.
 
 After an interruption, recover what the checks were to support and whether that work is still due. Resume the first unfinished operation that can change the remaining work, with the content already established. A marker at card seven helps only if the next person knows which cards were compared, with which description, and what remains unresolved. Reconsider any changed subject or basis before resuming. Retain only the context needed for that continuation; a position marker is neither a completed answer nor proof that earlier grounds still apply.
 
-Use a position cue alone when the performer can already recover the question, basis and unfinished work unambiguously. Otherwise retain the missing content alongside it. Compare the effort of recovering adequate prior grounds with obtaining a fresh observation. Observe again when the earlier basis no longer applies, or when recovering it would cost more than obtaining adequate current grounds. Do not repeat an observation merely to confirm a result already settled for this use.
+Use a position cue alone when the performer can already recover the question, basis and unfinished work unambiguously. Otherwise retain the missing content alongside it. Compare the effort of recovering adequate prior grounds with obtaining a fresh observation. Observe again when the earlier basis no longer applies, or when recovering it would cost more than obtaining adequate current grounds. A new observation can also be the commissioned work even when the earlier answer is sufficient. When only the answer is due and that answer is established, return it.
 
 A changed description can settle a new comparison immediately. It does not automatically make all prior facts unknown. A changed subject can instead remove the basis for a current answer while leaving the historical answer intact.
 
@@ -54,7 +54,7 @@ When the grounds are in a document or model, examine the relevant content using 
 
 #### C.41.UA:4.3 - Decide what the answer changes
 
-Ask what follows for the intended work. A mismatch can support changing the subject, revising a mistaken description, changing the intended use, obtaining more information, or choosing a bounded continuation. Recover the decision grounds and any separately applicable authority. The answer itself imposes no duty and grants no permission. If recording it also triggers an operational action, identify that coupling and establish the grounds for the action separately.
+Ask what follows for the intended work. A mismatch can support changing the subject, revising a mistaken description, changing the intended use, obtaining more information, or choosing a bounded continuation. Recover the decision grounds and any separately applicable authority. Under a standing rule, recording a particular answer can put an agreed consequence into effect. Establish that the rule applies and its conditions are met. Where the decision remains with a participant, establish their act before reporting the decision. To report that a subsequent operation ran, use evidence of that operation.
 
 If a change is selected, recover how it could produce the intended result: the suitable Method or alternative Methods, a capable performer, needed means and a useful occasion. Return missing Method knowledge to the domain practice; writing another question does not supply it. For a noisy workshop, closing a door, changing rooms and moving the discussion online are different possible interventions, with different conditions of use. An expected time for quiet is a planning judgement, not an observation that quiet has been achieved.
 

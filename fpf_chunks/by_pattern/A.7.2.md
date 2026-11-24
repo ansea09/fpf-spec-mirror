@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
-line_start: 27039
-line_end: 27277
+line_start: 27056
+line_end: 27294
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -47,7 +47,7 @@ First name the disputed claim and the use it must support. To test the rules, fi
 
 The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. The procedural content describes the reconciliation Method in §4. A `U.MethodDescription` assertion requires that admitted Method as the episteme's EntityOfConcern and A.3.2 membership.
 
-For any dated reconciliation `U.Work`, use A.13 to identify the performer System and let A.15.1 independently admit the occurrence. If the case or receiving result must also identify the assignment under which the reconciliation Work was performed, check that relation separately through F.6 against the assignment used by A.13. A short result may omit an assignment identifier it does not use; no unused assignment or attribution is presumed.
+For a claimed dated reconciliation `U.Work`, use A.13 for each actual performer and admit the occurrence under A.15.1. Apply F.6 to the relevant Work and assignment when attributing that Work under the assignment. A short result may omit an assignment identifier it does not use.
 
 The pattern episteme, described Method, reader, performing System, any separately established assignment species and occurrence, optional attribution check, Work, source uses, and returned FPF decision remain distinct.
 
@@ -162,7 +162,7 @@ OccurrenceIdentity:
 ```
 The source participant is the source episteme and edition consumed. The receiving participant is the ontology-claim episteme and edition being formulated, constrained, tested, interpreted, compared, or traced.
 
-For the Work participant, use A.13 to identify the performer and A.15.1 to admit the dated ontology-decision `U.Work` independently. If the case must also identify the assignment under which that Work was performed, F.6 checks the assignment used by A.13 and compares its holder with the already identified performer. The assignment relates the independently identified System to its assigned-kind value; that System performs the Work.
+For actual ontology-decision `U.Work`, use A.13 for each performer and admit the Work independently under A.15.1. A single jointly performed decision and the use of earlier results from others have different performance histories. For an assignment-bound claim use F.6, matching the holder of the relevant assignment to the participant who actually performed that contribution.
 
 The minimal occurrence needs only those three participants, `useFunction`, `sourceUseScope`, and the maximal continuous interval during which the named Work consumes content from that source episteme for that receiving claim. Citation, access, bibliography membership, prestige, publication status, or co-location alone is insufficient.
 
@@ -220,7 +220,7 @@ The dominant biases are prestige hierarchy, forced convergence, and formal-shape
 | `CC-A7.2-1` | For proposed joint use, the conflict follows from incompatible consequences of the applicable clauses under an admissible common condition. For reported disagreement in practice, it is grounded in the actual conclusions under the relevant editions, facts and scopes. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
 | `CC-A7.2-3` | Keep the reader, pattern episteme, described Method and result distinct. Any MethodDescription claim satisfies A.3.2. For an asserted dated reconciliation Work, retain the independent A.13/A.15.1 basis in §0, including the separately admitted assignment species and obtaining occurrence used by A.13; add F.6 only for the precise attribution consumed. A short result may omit unused identifiers without presuming their facts. |
-| `CC-A7.2-4` | Every load-bearing common claim is cited from `A.7.CP` through a reasoning-basis occurrence. |
+| `CC-A7.2-4` | Cite the common claim from `A.7.CP` on which the comparison depends. Establish a reasoning-basis occurrence when the conclusion concerns the use of that claim by particular Work. |
 | `CC-A7.2-5` | Every source-use occurrence has the three participants, source and receiving-claim editions, function, claim scope and maximal continuous actual-use interval. Corrected knowledge of that interval does not itself change occurrence identity. Include only qualifiers used or asserted in this reconciliation, with blocked-overread references satisfying §4.3's F.19 conditions. |
 | `CC-A7.2-6` | Evidence, publication, formal semantics, and currentness remain with subject patterns. |
 | `CC-A7.2-7` | The repair reopens the smallest decision set and preserves unrelated FPF decisions. |
@@ -262,7 +262,7 @@ A source contributes through its content and the receiving claim. A newer public
 ### A.7.2:12 - Relations
 
 - **Coordinates with:** `A.7.1`. `A.7.2` is neither its parent nor child; it handles material cross-pattern premise conflict and can return repaired subject-pattern decisions to it.
-- **Consumes:** claim contents from `A.7.CP` through `ClaimUsedAsReasoningBasisRelation@Context` occurrences; it does not copy or own the compact. Pattern epistemes and `U.MethodDescription` epistemes supply clauses or declared premises; their described Methods remain distinct, while dated application Work and its result claims supply the inputs when reconciling actual applications.
+- **Consumes:** claim contents from `A.7.CP` for comparisons. For claims of actual use, establish `ClaimUsedAsReasoningBasisRelation@Context` for the reasoning Work concerned. Pattern epistemes and `U.MethodDescription` epistemes supply clauses or declared premises; their described Methods remain distinct, while dated application Work and its result claims supply the inputs when reconciling actual applications.
 - **Defines:** `OntologyClaimSourceUseRelation@Context` and `OntologySourceUseConflictFinding@Context` for bounded ontology-decision and reconciliation source use only.
 - **Coordinates with:** `A.10` for evidence use, `G.11` for currentness, `C.29` and direct formal patterns for formal semantics, `C.2.1` for source epistemes, `E.24.PUB` for publication-occurrence, form, and carrier questions, `E.17` for multi-view publication, and subject patterns for the receiving ontology claim.
 - **Preserves:** current published FPF decisions as an internal basis, with grounded, claim-specific reconsideration. Use `E.9.DA` review or DRR discharge when that separately governed question is current.

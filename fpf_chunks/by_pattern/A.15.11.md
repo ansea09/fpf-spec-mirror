@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.11.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.11 — Make Methods Noticeable in Work"
-line_start: 34089
-line_end: 34340
+line_start: 34106
+line_end: 34357
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -114,7 +114,7 @@ Choose timing that preserves the work. An explanation during a difficult movemen
 
 Ensure that the recipient can interpret the cue and reach enough instruction to begin. A familiar pattern name may be sufficient for an experienced practitioner; another recipient may need a small contrast showing why the method fits.
 
-When the relation is not yet discernible to a person, obtain a suitable learning method and practice. When the relation is understood but execution is unavailable, identify the missing capability, resource or supporting participant. E.23.CDI frames capability development; obtain a teaching or training method suitable for the practice being learned.
+When a person cannot discern the relation, recover what the recipient needs. An adequate answer, a clearer cue or help from another participant may meet the immediate commission. Arrange practice when independent recognition is the learning objective or a capability the receiving work actually requires. Where recognition is established but execution is unavailable, identify the missing capability, resource or supporting contribution. E.23.CDI frames capability development for that work.
 
 Keep the action proportionate to the present need. Sometimes a colleague's answer is enough. Sometimes the recipient needs a reusable method or practice across changed conditions. Introducing a method does not by itself choose between those purposes.
 

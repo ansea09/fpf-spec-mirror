@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_worked-examples.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:10 — Worked Examples"
-line_start: 58635
-line_end: 58656
+line_start: 58666
+line_end: 58687
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -35,7 +35,7 @@ Surface, rig, and time conditions used only to bound the claim remain Scope. If 
 
 `FrontendAuthHeaderUse-2026` binds `authHeader` to local spelling `X-Auth` and adds no candidate condition. Its judgment therefore equals the admissible base judgment.
 
-Moving the same request kind to another team requires a fresh receiving evaluation when the receiving use applies the declaration to a request, but no `KindBridge` merely because the team or spelling changed. If two independently identified request kinds differ, establish any bridge separately.
+When another team uses the same request kind, establish the classification its declaration requires. The earlier result may still apply to the request. If the receiving rule requires another check, identify who must perform it and on which request. For independently identified distinct kinds, establish any required bridge separately.
 
 #### C.3.4:10.3 - `AdultPatient@Clinic` Composite Use
 
@@ -43,5 +43,5 @@ Moving the same request kind to another team requires a fresh receiving evaluati
 
 At an applicable slice, a person in the declared candidate domain is admissible; with a `true` base judgment, unavailable birth-date information needed to decide the age condition yields `unknown`.
 
-In Jurisdiction Y, first compare the exact patient-kind membership distinctions. If the same kind continues, use the Y declaration and evaluate afresh without a bridge. If the threshold or interpretation makes a distinct target kind and a directional correspondence is relied on, establish the `KindBridge`. A separate adaptation-correspondence declaration may then state how the two exact use declarations differ. Neither object transfers source truth.
+In Jurisdiction Y, first compare the exact patient-kind membership distinctions. If the same kind continues, use the Y declaration and establish whether the available classification covers the candidate under Y’s conditions. A separate examination required by Y remains due. If the threshold or interpretation makes a distinct target kind and a directional correspondence is relied on, establish the `KindBridge`. A separate adaptation-correspondence declaration may then state how the two exact use declarations differ. Neither object transfers source truth.
 

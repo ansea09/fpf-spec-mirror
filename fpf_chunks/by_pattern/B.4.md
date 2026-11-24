@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
-line_start: 47861
-line_end: 48062
+line_start: 47886
+line_end: 48087
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -87,7 +87,7 @@ State authority, responsibility, permission, acceptance, or admission through it
 
 #### B.4:4.3 - Keep the four phase claims distinct
 
-For a proposed feedback rule, work from the last time an authorized response could still affect the recipient’s result. Choose what can be observed by then, who can use it and which responses remain feasible, including retaining the current way. At an irreversible choice under a guarantee, the same information must allow a choice that meets the promise in all the cases still possible, with any later decisions based on information then available. If no such choice exists, identify the missing timely distinction or the limit of the promise. For a joint result, check that their respective responses can be carried out together with the shared resources and information actually available. For a recommendation, give its grounds to the person who may decide. To explain an actual adaptation, trace which observation or instruction was available and used, which response was chosen, and what that response changed wherever the conclusion depends on it. For a claim that the subject changed, compare the relevant property or relation before and after on a common basis. A new indicator, description or recording practice can change the account while the subject stays the same. Attributing an actual difference to the response also requires grounds for what would have happened otherwise. A new run cannot by itself recover a lost fact about an earlier one.
+For a proposed feedback rule, work from the last time an authorized response could still affect the recipient’s result. Choose what can be observed by then, who can use it and which responses remain feasible, including retaining the current way. At an irreversible choice under a guarantee, the same information must allow a choice that meets the promise in all the cases still possible, with any later decisions based on information then available. If no such choice exists, identify the missing timely distinction or the limit of the promise. For a joint result, check that their respective responses can be carried out together with the shared resources and information actually available. Deliver a commissioned recommendation and its grounds to the intended recipient. Obtain a decision or give notice to another party when the commission or an applicable duty requires it. To explain an actual adaptation, trace which observation or instruction was available and used, which response was chosen, and what that response changed wherever the conclusion depends on it. For a claim that the subject changed, compare the relevant property or relation before and after on a common basis. A new indicator, description or recording practice can change the account while the subject stays the same. Attributing an actual difference to the response also requires grounds for what would have happened otherwise. A new run cannot by itself recover a lost fact about an earlier one.
 
 The four phases distinguish questions and results. Operation and observation can overlap. Identify the activities and dependencies needed for the transitions in question. Qualify particular Work claims under B.4:4.2.
 

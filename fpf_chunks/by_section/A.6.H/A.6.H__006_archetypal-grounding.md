@@ -6,12 +6,12 @@ section_id: "A.6.H:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:5 — Archetypal Grounding"
-line_start: 26336
-line_end: 26380
+line_start: 26353
+line_end: 26397
 dependencies:
   - "A.1"
   - "A.10"
@@ -81,7 +81,7 @@ The repair separates the following claims and unresolved questions; `turnkey` an
 
 - the reusable procedure is one Method or composite Method under A.3.1/B.1.5, with joins and exposed interactions;
 - identify its procedure document as a separate episteme under C.2.1. It is a `U.MethodDescription` under A.3.2 only if its EntityOfConcern is an admitted Method and it makes a substantive claim about that Method as a way of doing;
-- “turnkey” becomes the specification, capability, Work, or evidence coverage claim needed by the receiving use;
+- for “turnkey”, establish the promised scope when the question is what the recipient may expect. Determine the specification, capability, Work or evidence coverage when the question concerns one of those instead;
 - treat *owns* as a local wording cue. First state the decision that depends on it and the proposed sentence. Candidate readings include, for example, property or title, possession or custody, operational control, decision authority, stewardship or responsibility, assignment, commitment, and permission; they have different participants and predicates. Apply the direct rule when one exists, or return A.6.RCD `missing-governor[...]` naming the participants, proposed predicate, affected use, and absent definition; and
 - identify any asserted dated laboratory run as Work using §4.2.
 

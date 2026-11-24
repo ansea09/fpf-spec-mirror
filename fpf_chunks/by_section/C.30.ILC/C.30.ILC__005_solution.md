@@ -6,12 +6,12 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 78196
-line_end: 78314
+line_start: 78251
+line_end: 78369
 dependencies:
   - "A.10"
   - "A.22"
@@ -43,7 +43,7 @@ keywords:
 
 ### C.30.ILC:4 - Solution
 
-When an architecture concern involves residuals across declared levels or scopes, identify the related structures, the conflicting conditions and the locus where the loss remains. Preserve an adequate ordinary account; use `CrossScopeArchitectureResidualTriageRecord@Context` when its fields help retain or compare those distinctions. The record does not itself establish the conflict.
+When an architecture concern involves residuals across declared levels or scopes, identify the related structures, the conflicting conditions and the locus where the loss remains. Preserve an adequate ordinary account; use `CrossScopeArchitectureResidualTriageRecord@Context` when its fields help retain or compare those distinctions. The record does not itself establish the conflict. When a bounded exception would address it, determine what makes that exception effective. A standing rule may already cover the case. If the decision is reserved, an architect can propose the exception and explain its scope. Giving it effect requires the decision entrusted to the named person, service or joint body. Where no exception is permitted, seek a design within the constraint.
 
 ```text
 CrossScopeArchitectureResidualTriageRecord@Context ::= {
@@ -144,13 +144,13 @@ Stop the C.30.ILC use at the residual and first admissible move. If the case is 
 | Cue | Admissible architecture move | Non-admissible overread |
 |---|---|---|
 | Component optimization breaks integration | expose hidden coupling; add interface grammar; change allocation | Treat local performance as whole-holon adequacy. |
-| Modularity reduces local work and increases exceptions | accept bounded exception; revise module boundary; add work scope or evidence scope | Average exceptions into a modularity score without declared scope, comparator, and measurement relation. |
+| Modularity reduces local work and increases exceptions | Use a covered exception, seek a decision about a proposed one, or revise the module boundary, work scope or evidence scope. | Treat a proposal as permission, or hide exceptions in an average with no declared scope, comparator and measurement basis. |
 | Local autonomy conflicts with control scope | add control layer; change allocation; apply `C.30.LCA` | Treat autonomy label as causal or safety proof. |
 | Evidence reuse hides source loss | add evidence scope; add source-return condition; use `A.10` for source recovery and bounded reliance, and `G.6` when the provenance path must remain addressable | Treat reused evidence as automatically valid in the wider scope. |
 | A scale window changes the residual | apply `C.31.ASAP`, with `C.29` when scale-lens use is being made | Treat two observations as a universal scale law. |
 | A frustration lens with recoverable level mapping or scale mapping makes candidate moves comparable | use `C.29` for lens adequacy; use `C.32.MLAO` and `C.32` when a residual-reducing candidate palette is current; use `G.5` only when selected-set result declaration is current | Treat an unassigned or same-scope structure conflict as RG mathematics or frustration mathematics, or treat an interlevel residual without recoverable mapping as a global optimizer, proof, or selected architecture. |
 
-**Worked slice A — clean module layout, bad flow.** A team redraws its module boundaries and reports more order-to-cash exceptions. For the proposed layout, trace one eligible order through the required handoffs and identify any new transfer the design imposes. For the current workflow, compare the handoffs actually used for comparable orders before and after the change. The redrawn boundaries may simply expose transfers that already occurred. A new transfer can justify inspecting its interface. Attributing the rise in exceptions to that transfer requires comparing its effects under the relevant conditions. Use C.30.TFS-REL for the flow and C.16 for the exception measure.
+**Worked slice A — clean module layout, bad flow.** A team redraws its module boundaries and reports more order-to-cash exceptions. For the proposed layout, trace one eligible order through the required handoffs and identify any new transfer the design imposes. For the current workflow, compare the handoffs actually used for comparable orders before and after the change. The redrawn boundaries may simply expose transfers that already occurred. A new transfer can justify inspecting its interface. Attributing the rise in exceptions to that transfer requires comparing its effects under the relevant conditions. Use C.30.TFS-REL for the flow and C.16 for the exception measure. Suppose an order specification permits an alternate handoff for returns under a stated amount. A qualifying return can use it under that rule. If another order requires the customer’s agreement to the change, the team can explain the delay and request the exception. The original handoff stays due until the agreement takes effect.
 
 **Worked slice B - AI agent control conflict.** A local agent optimizes its local objective and violates a supervisor's allowed-mode constraint. `C.30.ILC` names the agent scope, supervisor scope or control scope, control relation, local optimization claim, residual-bearing locus, and local repair attempted. The first move may be add control layer, change allocation, or apply `C.30.LCA`. Safety, causality, and gate claims use their subject patterns.
 

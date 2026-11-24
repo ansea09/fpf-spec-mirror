@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:4 — Solution"
-line_start: 117064
-line_end: 117178
+line_start: 117128
+line_end: 117242
 dependencies:
   - "A.16.0"
   - "A.7"
@@ -121,7 +121,7 @@ When a wider repair needs these distinctions, use the seven questions to recover
 - If the publication unit is stable enough and its move is bounded comparison over available source publications, apply `E.17.ID.CR ComparativeReviewUnit`.
 - If the main problem is explanation classification over an existing face, apply the neighboring explanation pattern.
 - If claim content, representation, coarsening, or the primary EntityOfConcern changes, apply the relevant `A.6.3` or `A.6.4` pattern before checking a later publication form here.
-- If wording alone suggests approval, repair the unit to say what its source warrants. If an authorized decision exists, identify its issuer, scope and outcome. If the reader needs a decision that is still owed, put the choice and grounds before the responsible authority. Check which act the governing rule makes decisive. An authorized publication can constitute the decision itself or bring an earlier decision into effect. Establish the issuer, act and form required for the particular claim.
+- If wording alone suggests approval, repair the unit to say what its source warrants. If an authorized decision exists, identify its issuer, scope and outcome. When a required decision is outstanding, tell the intended recipient what remains open and who can decide it. Refer the choice and grounds through an authorized route when the commission or a standing duty requires referral. Check which act the governing rule makes decisive. An authorized publication can constitute the decision itself or bring an earlier decision into effect. Establish the issuer, act and form required for the particular claim.
 - If the active problem concerns publication form, bridge or hypothesis work, or another downstream action, apply its direct pattern and identify the project object or record the work needs.
 
 #### E.17.AUD:4.7 - Local naming rule

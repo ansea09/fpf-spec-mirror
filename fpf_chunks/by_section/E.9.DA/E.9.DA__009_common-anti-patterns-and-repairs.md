@@ -6,12 +6,12 @@ section_id: "E.9.DA:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__009_common-anti-patterns-and-repairs.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:8 — Common anti-patterns and repairs"
-line_start: 105434
-line_end: 105454
+line_start: 105495
+line_end: 105515
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,7 +29,7 @@ keywords:
 
 | Anti-pattern | Repair |
 |---|---|
-| **Specification or record as evaluator.** A filled coordinate table, published record, or E.9.DA pattern is said to have assessed the DRR, issued assurance, accepted it, or authorized drafting. | Name the `U.System` that performed the evaluation. An evaluator-role label does not identify that System. Leave an ordinary review outside Work admission. Add Method, application, or Work identity only when the receiving claim uses it. If dated `U.Work` is asserted, use the complete branch in 4.2. An optional local system-role classification is a separate claim. |
+| **Specification or record as evaluator.** A filled coordinate table, published record, or E.9.DA pattern is said to have assessed the DRR, issued assurance, accepted it, or authorized drafting. | Identify who performed the assessment at the scale claimed. An organization can perform it as a whole. For several contributors, establish their respective actions and intervals in the joint assessment or identify the separate Works whose results were used. A role label alone leaves the actual performer open. Leave an ordinary review outside Work admission. Add Method, application, or Work identity only when the receiving claim uses it. If dated `U.Work` is asserted, use the complete branch in 4.2. An optional local system-role classification is a separate claim. |
 | **Conditional branch collapsed into Work.** A reusable result is said to require assessment Work, or a Method or A.6.1 application is described as Work because all three can occur in one case. | Keep Method, application, and Work independently conditional. The Work branch requires its enacted Method, every precise performer's A.13 core and independent A.15.1 admission. An application remains conditional on a claim using that independently established declared-operation application. Add F.6 only when precise assignment-bound attribution is also current. Neither Method nor application entails Work. A relation between application and Work must be separately defined and obtain. |
 | **Heading-complete DRR.** Headings exist but authors cannot tell what to write. | Return the missing selected answer, selected-locus obligation, and first drafting action for repair; in a complete reusable evaluation, lower the corresponding coordinates. |
 | **Question-complete around the wrong frame.** Every named question is answered, but the DRR omitted a question that changes the answer, architecture, source use, consumer obligation, first action, or stop. | Before closing the coordinates, run the bounded search for an omitted question. Return the question as a finding and reassess the coordinates whose claims it changes under their value rules; do not narrow the frame to preserve the values. |

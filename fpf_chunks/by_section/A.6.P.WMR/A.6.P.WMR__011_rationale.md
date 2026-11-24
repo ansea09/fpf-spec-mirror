@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__011_rationale.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:10 — Rationale"
-line_start: 22129
-line_end: 22136
+line_start: 22145
+line_end: 22152
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.6.P.WMR:10 - Rationale
 
-Boundary words describe a relation position only relative to an exact object. Treating them as entity kinds or universal relations erases the exact predicate, current facts, and subject assertion that determine obtaining. The three-question ordinary method restores the thing, related object, and direct verb or stop first; two conditional assurance questions expose claim dimensions and the formal predicate definition only when those distinctions can change or check the answer.
+Boundary words describe a relation position only relative to an exact object. Treating them as entity kinds or universal relations erases the exact predicate, current facts, and subject assertion that determine obtaining. The three-question ordinary method restores the thing, the other participants required by the claim, and the direct verb or warranted stop first; two conditional assurance questions expose claim dimensions and the formal predicate definition only when those distinctions can change or check the answer.
 
 The worked-case relation tokens have meaning under their supplied project declarations. They neither add those kinds to FPF nor establish any occurrence by being named. Durable naming under F.18 follows recovery of the object and its identity basis.
 

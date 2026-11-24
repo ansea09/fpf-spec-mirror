@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:4 — Solution"
-line_start: 126995
-line_end: 127035
+line_start: 127059
+line_end: 127099
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -32,7 +32,7 @@ Reconcile meanings before assigning destinations. Preserve every difference that
 #### F.0.2.MA:4.1 - Work one allocation
 
 1. **Name the receiving use and contribution.** Identify the description, Method question or pattern-language use being changed. Take the recovered source claim together with its difficulty or opportunity, proposed action, result, conditions and source location.
-2. **Keep the input roles distinct.** A documentary claim remains what that source asserts. A returned MR account keeps its candidate, rival and evidence limits. A current FPF/DPF result keeps its declared scope. A source's report that work occurred is not independent occurrence evidence.
+2. **Keep the input roles distinct.** A documentary claim remains what that source asserts. A returned MR account keeps its candidate, rival and evidence limits. A current FPF/DPF result keeps its declared scope. For a claim about an occurrence, ask what the reporter observed and where their information came from. An eyewitness account can supply evidence of the action witnessed. Two documents repeating one participant’s account give one underlying basis for that action. A second observer’s own observation can add a distinct basis for the part they witnessed.
 3. **Resolve only the meaning difference that matters.** Use F.0.1 when a source expression is ambiguous, F.1 when the source cut is insufficient, and F.0.2 when cross-source synthesis is needed. Use F.0.2’s provisional synthesis, contrast or unresolved-inquiry result, with its source edition, grounds and any disposition already made. Preserve a locator when later citation needs it; a similarity score does not replace the comparison.
 4. **Subtract the current answer by value.** Open the current FPF or DPF supplier that appears to cover the contribution. Compare the practitioner question, action, first result, applicability and stop. Use the supplier directly if it answers those positions. When a source adds a warranted Method-specific condition or move, retain that remainder and explain its receiving use.
 5. **Decide whether the contributions can share an account.** Compare reusable action, participant meanings, preconditions, result, variation and stop. Merge supported common content while retaining different conditions. Split incompatible actions or statuses. Keep an unresolved alternative when the evidence cannot distinguish them. If the reader must use several contributions together, explain where the outcome of each is used and which conditions must hold jointly. Independently produced contributions may have to refer to the same item or fit the same version. An account of the encompassing work can carry that explanation while each source retains its own method. Use A.3.1.QM and B.1.5.CM for an actual claim of Method identity or composition.

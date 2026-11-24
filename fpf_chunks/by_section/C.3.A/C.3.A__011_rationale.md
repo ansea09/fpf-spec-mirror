@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 59111
-line_end: 59401
+line_start: 59142
+line_end: 59432
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -98,7 +98,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 
 **Adult dosage across jurisdictions.** In this example the authority kind `AdultPerson@RegY` uses threshold 18 and the hospital kind `AdultPatient` uses 21. The obtaining KindBridge and its assertion state the boundary loss and `CL^k=1`. The hospital evaluates its target signature edition in the dated formulary slice. For candidate P-44, suppose the only age information is that P-44 met the authority threshold that day. Ages of 20 and 22 are both compatible. The target age condition remains `unknown`, and the guard refuses a use requiring positive classification. An attested bound of at least 21 would settle the hospital's age condition under these rules.
 
-**GDPR and CCPA.** Two source kinds relate to independently identified product-context kinds through separate bridges/assertions. Each policy has its own jurisdiction/time Scope. A data item is governed by a fresh target judgment; an alias table is support, not classification.
+**GDPR and CCPA.** Two source kinds relate to independently identified product-context kinds through separate bridges/assertions. Each policy has its own jurisdiction/time Scope. For the data item, establish classification under the applicable target criterion. A table of corresponding names leaves differences in membership conditions open.
 
 **Product classification and shipping.** Evaluate the product against its category in the target signature edition. The shipping policy uses that judgement together with the particular shipment, destination, intended use and date. Establish the kind correspondence or scope translation where each is needed. If the shipment exceeds the policy’s residual-risk threshold for automatic release, the policy may call for manual review even when the product classification is settled.
 
@@ -124,7 +124,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 
 - **Where and when?** Claim scope over exact context slices.
 - **About what?** Exact local kind and signature declaration; KindBridge relation/assertion for a required correspondence between distinct kinds.
-- **Which exact thing?** Fresh target `J(candidate, kind, signatureEdition, slice)`.
+- **Which exact thing?** The supported target judgment `J(candidate, kind, signatureEdition, slice)`.
 - **Can we act?** A separate guard disposition after scope, judgment, bridge, freshness, and policy checks.
 
 #### C.3.A:Annex B - Assurance lanes and evidence design [A/I]
@@ -149,7 +149,7 @@ Verification (VA) can establish a consequence for all members of the declared ki
 
 **EA-4 (Independent unions).** SpanUnion SHALL include a support-line independence account and preserve per-line candidate judgments and bridge consequences.
 
-**EA-5 (Bridges).** Cross-context evidence use SHALL recover a Scope Bridge when the receiving claim requires Scope translation and a KindBridge relation/assertion when it relies on a correspondence between distinct kinds. It SHALL use the independently identified target declaration and, when the receiving use is candidate-bearing, evaluate the target candidates afresh. Consequences affect R only.
+**EA-5 (Bridges).** Cross-context evidence use SHALL recover a Scope Bridge when the receiving claim requires Scope translation and a KindBridge relation/assertion when it relies on a correspondence between distinct kinds. It SHALL use the independently identified target declaration and, when the receiving use is candidate-bearing, establish the target candidates' status under C.3.3 KB-04. Reuse earlier evaluations within the receiving conditions they cover. A requirement for a fresh evaluation still calls for that work. Consequences affect R only.
 
 **EA-6 (Freshness).** Evidence windows and tool/declaration editions SHALL be explicit and tied to the governed slice. Expiry causes refusal or `unknown` at the predicate it disables; it does not widen Scope.
 
@@ -223,7 +223,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 | a matrix row is treated as classification | name exact candidates and judgments in candidate-bearing cells |
 | “latest data” | pin freshness and time policy |
 | trusted tool substitutes for content support | recover the proof and premises or other support for the claim, including candidate facts when the claim concerns an individual candidate |
-| bridge presence substitutes for target evaluation | use the independent target declaration and, for a candidate-bearing use, a fresh target judgment |
+| bridge presence substitutes for target evaluation | use the independent target declaration and, for a candidate-bearing use, the judgment that the available grounds support for the target case |
 
 
 
@@ -232,7 +232,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 
 A two-plant braking claim pins the `PassengerCar` declaration and Plant-A scope. VA proves the quantified claim over that declaration. LA tests exact VINs in dry/wet slices and records their judgments. The test record identifies the tool version used and which measurements its qualification covers. Comparing the meanings of the measured quantities at the two plants requires its own evidence.
 
-Plant-B reuse recovers the target declaration and any required bridges with their loss and R consequences; each Plant-B candidate is evaluated afresh before evidence is attached.
+Plant-B reuse recovers the target declaration and any required bridges with their loss and R consequences; before attaching the evidence, establish for each Plant-B candidate what the available grounds warrant under the target criterion.
 
 #### C.3.A:Annex C - ESG and Method–Work guards
 
@@ -320,5 +320,5 @@ After execution, actual `W = RiskScoreRun-2026-07-22T10:03Z-884 : U.Work` is ind
 | treating a log or result row as W | keep it distinct from W; when it is a claim-bearing episteme, its content designates W |
 | omitting the exact candidate or signature edition | pin all four judgment inputs |
 | converting unavailable support to `false` | retain `unknown` and refuse separately |
-| treating bridge or adapter records as target truth | recover target declarations and evaluate candidates afresh |
+| treating bridge or adapter records as target truth | use the target declarations and establish any required candidate judgments on their applicable grounds |
 

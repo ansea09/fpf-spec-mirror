@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:4"
 section_title: "Quick worked-slice starter"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__005_quick-worked-slice-starter.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:4 — Quick worked-slice starter"
-line_start: 117453
-line_end: 117464
+line_start: 117517
+line_end: 117528
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,5 +45,5 @@ When you need a starting sentence, choose an example that fits the working situa
 | Operations review | `This review unit is about the incident episode and its timing contrast, not yet about action approval.` |
 | Semio-heavy paragraph | `This paragraph is about the comparative review unit, not the wider architecture strategy.` |
 
-Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can claim, reopen the question using the governing FPF pattern or the project-side FPF kind and reference named by value. The starter does not set the first step of a fixed flow.
+Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can claim, reassess the affected claim under the applicable FPF pattern or project-side basis. A new answer can still address the same question. The starter does not set the first step of a fixed flow.
 

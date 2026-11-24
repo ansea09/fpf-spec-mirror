@@ -6,12 +6,12 @@ section_id: "A.6.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:4 — Solution"
-line_start: 25579
-line_end: 25733
+line_start: 25595
+line_end: 25749
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -81,7 +81,7 @@ If the dispatch leaves a semantic-correspondence question, resolve the local sen
 
 Pin the endpoint reference-scheme and local-sense-claim editions, or an as-of basis, when the correspondence can change with a canon or model edition. `Γ_time` may be used as a compact card label for that basis. It is not a participant. It contributes to profile identity only when it states the profile's applicability or as-of basis.
 
-Before testing a Bridge, check ontological strata. C.3.3 establishes only the `KindBridge` between source and target local kinds. C.3.2 makes a fresh target classification judgment under the target `KindSignature` edition and slice. Use the pattern that defines the measurement claim for value normalization, A.2.1 for system-role assignment, A.13 and independent A.15.1 admission for actual Work, with F.6 only for precise assignment-bound attribution, E.24.PUB for publication occurrence, form, and carrier, and A.6.3.RT for representation transition. F.9 can supply a semantic premise needed by one of those claims; each neighboring claim obtains only under its named subject pattern.
+Before testing a Bridge, check ontological strata. C.3.3 establishes only the `KindBridge` between source and target local kinds. For target classification, use a C.3.2 judgement established under the target `KindSignature` edition for this candidate and slice. Reuse an applicable result or make the target judgement if it is still needed. The source classification and bridge alone leave target membership open. Use the pattern that defines the measurement claim for value normalization, A.2.1 for system-role assignment, A.13 and independent A.15.1 admission for actual Work, with F.6 only for precise assignment-bound attribution, E.24.PUB for publication occurrence, form, and carrier, and A.6.3.RT for representation transition. F.9 can supply a semantic premise needed by one of those claims; each neighboring claim obtains only under its named subject pattern.
 
 #### A.6.9:4.1 - Stable lens: relation, use claim, reliance, and receiving object
 

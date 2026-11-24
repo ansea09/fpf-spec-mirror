@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 76045
-line_end: 76210
+line_start: 76098
+line_end: 76263
 dependencies:
   - "A.1"
   - "A.10"
@@ -159,7 +159,7 @@ An IFC exchange or another machine-readable model is a representation and public
 3. record the source-to-use path into the architecture description or view episteme;
 4. state the admissible architecture use and any lost, inferred, unknown, stale, or unavailable relation content.
 
-An exchange checker can establish which records satisfy a computer-interpretable information specification. State the population it actually checks. If each exported equipment occurrence carries a maintenance identifier, a receiver may accept that property of the delivered records. For coverage of the installation, use an established correspondence to all equipment in scope. A verified complete export of a current asset register may already provide it. Otherwise reconcile the export with a grounded inventory and check for omitted units or multiple records for one unit. A shared equipment type may suffice to select maintenance instructions. Establishing which unit was serviced requires a correspondence to the individual unit. Use the relevant architecture, characteristic, evidence or assurance method for conclusions about the asset.
+An exchange checker can establish which records satisfy a computer-interpretable information specification. State the population it actually checks. If each exported equipment occurrence carries a maintenance identifier, the receiver can report that property from the checker’s result. To accept the delivery, use the agreement governing acceptance (§2.4). For coverage of the installation, use an established correspondence to all equipment in scope. A verified complete export of a current asset register may already provide it. Otherwise reconcile the export with a grounded inventory and check for omitted units or multiple records for one unit. A shared equipment type may suffice to select maintenance instructions. Establishing which unit was serviced requires a correspondence to the individual unit. Use the relevant architecture, characteristic, evidence or assurance method for conclusions about the asset.
 
 #### C.30.AD.BA:2.4 - Keep a digital-twin description coupled without merging its objects
 
@@ -201,9 +201,9 @@ When a required side identity, source path, claimed Work occurrence, currentness
 | Design/run collapse | A design description, realized asset description, telemetry episteme, operation or maintenance Work, and physical change are treated as one because a platform links or displays them together. | Recover the side-specific descriptions, sources, currentness and any claimed Work; use `BuiltAssetDesignRunSeparationUse` if helpful. Cite correspondence, coupling, or transformation only under its subject pattern; narrow or block only the use whose needed relation remains unsupported. |
 | Lifecycle view merge | Original design, as-built model, operation record, maintenance Work, and an alleged transformation are merged because one dashboard presents them as one lifecycle view. | Keep each existing object and relation reference explicit; actual change enters only through A.3.4, and identity, parthood, evidence, assurance, or architecture adequacy is never inferred from co-display. |
 
-The twin's coupling to the asset establishes neither parthood nor identity between the digital and physical objects. Connection, synchronization, rendering, bundling, and publication also establish neither architecture relation, selected structure, description truth, empirical grounding, view membership, evidence sufficiency, assurance, gate passage, Work, nor project-use relation.
+The twin's coupling to the asset establishes neither parthood nor identity between the digital and physical objects. Connection, synchronization, rendering, bundling and publication on their own establish none of the subject relations, conformance, assurance, decisions or Work that the display reports.
 
-A green twin, dashboard, exchange result, or release screen is therefore a cue, not gate passage. Use `A.21` when a named gate must decide a bounded action or when its decision result is being relied on. Establish or recover the `GateDecisionResult` episteme, its applicable profile application and check-application results. Publication and the optional `DecisionLog` follow A.21:4.10 when publication, audit, or reuse is needed; an ordinary one-time decision can stop at its result and rationale. If no named gate decision is current, keep the display as a cue and handle any evidence, work-entry readiness, assurance, Work, or neighboring claim under `A.10`, `A.15.5`, `B.3`, `A.15.1`, or its direct governor. Even a `GateDecisionResult` with `decisionValue=pass` establishes neither release, readiness, permission, authorization, nor performed Work.
+A green indicator invites inspection. A trustworthy display of the effective decision for the identified gate, subject and action can establish that the gate passed. Use `A.21` when a named gate must decide a bounded action or when its decision result is being relied on. Establish or recover the `GateDecisionResult` episteme, its applicable profile application and check-application results. Publication and the optional `DecisionLog` follow A.21:4.10 when publication, audit, or reuse is needed; an ordinary one-time decision can stop at its result and rationale. Where the display reports another result, establish what it supports about evidence, work-entry readiness, assurance, Work or the neighboring claim under `A.10`, `A.15.5`, `B.3`, `A.15.1`, or its direct governor. For a `GateDecisionResult` with `decisionValue=pass`, check the terms in force for the particular action. An asset-information exchange agreement may admit a delivery as soon as its specified checks pass. If it reserves acceptance to the asset custodian, the same result supports the custodian’s decision. Establish the named person’s assent when the terms require it personally, or the service or joint body’s decision when the terms entrust it to them. Whether the recipient received the delivery or the proposed equipment was installed calls for grounds about those events.
 
 Recover the release-looking claim before routing it. An actual release action is one `A.15.1` `U.Work` occurrence. Use `A.15.5` for work-entry readiness, `A.2.8.PER` for a non-prohibition, granted permission, permission exercise, non-violation, or permission conflict, and `A.2.9` for an instituting or revoking grant act. A further claim that a subject was released needs its named subject predicate and participants. Keep the display as a cue while either is unresolved; return `A.6.RCD missing-governor` only when the predicate cannot be recovered, and state any missing participant information separately. No current model, source, gate result, dashboard, or the word *authorized* supplies one of these relations by appearance.
 

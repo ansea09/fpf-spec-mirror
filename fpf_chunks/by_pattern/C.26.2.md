@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 69675
-line_end: 70022
+line_start: 69722
+line_end: 70069
 dependencies:
   - "A.10"
   - "A.15"
@@ -269,7 +269,7 @@ A survey operation probes; its response records carry outputs. A policy claim ca
 | Incident release freeze | Teams stop releases, prepare rollback evidence, redirect support work and change escalation. | A clear command can explain the freeze. It changes what may be inferred about spontaneous agreement, not whether the observed freeze occurred. |
 | Service-mesh throttling regime | Route changes, saturation traces, retry patterns and on-call routines show a coordinated throttling state under policy P. | A controller rule may adequately explain the same state; reuse that account when it answers the receiving question. |
 | Market expectation shift | Pricing, support inquiries, partner messages and risk notes move together after a public signal. | A shared stimulus can account for parallel movement without establishing changed expectations or coordination among participants. Preserve only the supported claim and the bearer's established kind. |
-| Team "already decided" posture | Backlog changes, review comments, and role assignments show that the team is acting under an unstated decision. | If the claim is only a vibe or a few statements, do not use EDSE; gather carriers or keep it as informal observation. |
+| Team "already decided" posture | Backlog changes, review comments and assignments can establish what the team is doing. The same pattern may follow a standing rule or a newly adopted decision. | For a claim about the practice, use the traces covering it. For a claim that the team made a decision, establish who could decide and what they did, or leave that history open. |
 | Survey of culture | Survey answers conflict, but work traces show a stable escalation habit. | Treat the survey as a probe and state any export loss in its answers; do not make those answers the state itself. |
 | Dashboard-following organization | Teams coordinate around the public metric after it becomes visible. | The induced pattern can still be an enacted-state claim. Use `C.26.1` when the metric's output is being taken to describe an unaffected state. |
 

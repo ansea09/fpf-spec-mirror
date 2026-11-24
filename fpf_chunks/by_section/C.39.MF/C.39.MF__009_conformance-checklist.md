@@ -6,12 +6,12 @@ section_id: "C.39.MF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:7 — Conformance Checklist"
-line_start: 88658
-line_end: 88668
+line_start: 88715
+line_end: 88725
 dependencies:
   - "A.15.6"
   - "A.3.1"

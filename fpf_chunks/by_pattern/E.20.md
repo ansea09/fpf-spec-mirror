@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.20.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
-line_start: 121604
-line_end: 122001
+line_start: 121668
+line_end: 122065
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -265,9 +265,9 @@ The WorkPlan states the planned fillers. Enactment supplies witnesses for the ac
 For a method, comparator, selector or other SoTA-sensitive choice, retain the relevant source contributions and the editions used. A sufficient direct source reference can support the choice.
 
 1. Use a G.2 synthesis pack when the receiving synthesis or Part-G use needs that result. Its handoffs reach the subject definitions used for the choice: G.3 for CHR, G.4 for CAL and G.5 for registry/dispatch. The pack preserves grounds and references; those definitions and admission conditions remain applicable.
-2. If a WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values. It must not override those values without making the change visible.
+2. If a WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; the executing System consumes the values fixed by the plan. Record a change to such a value under the applicable change rule.
 3. When flow/task binding or dispatch is current, put that logic in wiring modules (`GPatternExtension`) with an explicit `PatternScopeId` and declared subject pattern.
-4. Wiring may bind, select, dispatch or cite method packs. It may not redefine the mechanism's identity-bearing A.6.1 content. When wiring names a bridge, realization, evaluation, evidence-use or publication claim, apply the pattern governing that relation.
+4. A wiring rule can specify how to bind, select, dispatch or cite a method pack. The executing System can use a value fixed in the plan. When attribution matters, establish who made that choice or which binding rule settled it. The planner may have recorded a choice made by the requester. For a choice left open, identify the alternatives available at the time and which participant or participants selected the method. The wiring rule may not redefine the mechanism's identity-bearing A.6.1 content. When wiring names a bridge, realization, evaluation, evidence-use or publication claim, apply the pattern governing that relation.
 5. If a source update changes the mechanism's signature or laws, the author SHALL change the mechanism-subject pattern under the A.6.1 definition template and SHALL emit the affected RSCR triggers under E.20:4.10.
 
 #### E.20:4.9 - Step 9: Terminology continuity (alias docking)
@@ -347,7 +347,7 @@ A reviewed MIP-run SHALL be closed as one of:
 | **Resolvable target first** | No suite treats a dangling designator or reservation stub as an introduced mechanism. | Create the reservation stub or introduced mechanism target first; add only an introduced mechanism to admitted suite membership. | Create each mechanism target first; then publish suite membership by designator. |
 | **Suite discipline** | Suites are descriptive: membership, obligations, pins, protocols; not mechanisms and not gates. | The variant’s `suite_protocols` names the new stage; publish/telemetry remains outside the suite. | The new suite defines shared obligations and allowed pipelines without embedding mechanism semantics. |
 | **P2W planning-to-work boundary** | One exact WorkPlan is the planning record; §4.7 governs its declaration-local rows, while enactment witnesses actual runs. | The WorkPlan pins the chosen suite variant and any method or specification references; use declaration-local rows only for existing members under A.15.3. No row carries launch values or decision logs. | Declaration-local rows for existing members under A.15.3 state planned fillers and pins that downstream flows cite through the exact WorkPlan edition. |
-| **SoTA updates** | Methods change faster than kernel meaning; wiring is where choices are governed. | A `GPatternExtension` selects a scoring method by edition‑pinned ref; no kernel mutation required. | The family ships method packs and wiring modules; the identity-bearing content of each introduced `U.Mechanism` remains at its mechanism-subject pattern. |
+| **SoTA updates** | Methods change faster than kernel meaning; wiring is where choices are governed. | The plan fixes the scoring method by an edition-pinned reference. The `GPatternExtension` binds that method for execution. The kernel definition still applies. | The family ships method packs and wiring modules; the identity-bearing content of each introduced `U.Mechanism` remains at its mechanism-subject pattern. |
 
 ### E.20:6 - Bias-Annotation
 

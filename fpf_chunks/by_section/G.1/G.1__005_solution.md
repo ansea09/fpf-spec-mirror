@@ -6,12 +6,12 @@ section_id: "G.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:4 — Solution"
-line_start: 136596
-line_end: 136920
+line_start: 136660
+line_end: 136984
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -159,7 +159,7 @@ M2 binds the harvested set to the chassis. When a use relies on coverage, cite G
 **Governs (kit surface):**
 
 * `VariantPoolId` bound to `CG‑FrameContext`
-* per‑candidate minimal traceability fields (emitter identity, `EmitterPolicyRef` (policy‑id/ref; defined by the governing pattern), method/generator refs when declared, edition pins, provenance anchors)
+* source, applicable edition and grounds for including each candidate in the pool. For a candidate generated for this pool, also retain the actual emitter, `EmitterPolicyRef` and applicable method or generator references. For an imported proposal, distinguish its origin, where known, from the work of selecting it for this pool. Attribute a choice to a particular participant on evidence of that participant’s contribution.
 * optional, per‑candidate **assurance preview pointers** (e.g., `PathSliceId?` and/or `SCRId?` when early assurance is recorded) and optional **QD/Open‑Ended scaffolding stubs** (only when introduced by explicit `GPatternExtension` blocks)
 
 **Guardrails (via G.Core):**
@@ -214,7 +214,7 @@ M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define 
 | ------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | M1     | CG‑Frame brief + `entityOfConcern` + `CNSpecRef/CGSpecRef` (edition‑pinned) | `CG‑FrameContext` + context pins                                                       |
 | M2     | discovery inputs + inclusion criteria *(via G.2)*                           | `SoTA_SetId` (+ provenance anchors; optional UTS stubs/rows)                           |
-| M3     | `SoTA_SetId` + local constraints + emitter policy pins *(via Extensions)*   | `VariantPoolId` (+ candidate trace/provenance; optional method payload via Extensions) |
+| M3 | `SoTA_SetId`, local constraints, sources of imported candidates and emitter policy pins for generated candidates *(via Extensions)* | `VariantPoolId` with candidate provenance and, where applicable, method payload via Extensions |
 | M4 | The applicable pool and eligibility rules for selection, or established members and their inclusion basis for a declaration | G.5 outcome in its own kind with the applicable references. Include `ShortlistId` for an identified shortlist. |
 | M5 | References to the result actually obtained and to the applicable CHR/CAL/LOG bundles and UTS names | `CGFrameLibraryId` for the published bindings. |
 | M6     | telemetry inputs + applicable freshness/decay policy pins + RSCR tests                 | `CGKitId` + `RefreshReadinessCardId` (wiring to `G.11`; no orchestration governance)    |

@@ -6,12 +6,12 @@ section_id: "E.5:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__007_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:6 — Conformance Checklist"
-line_start: 102475
-line_end: 102486
+line_start: 102534
+line_end: 102545
 dependencies:
   - "E.2"
   - "E.3"
@@ -32,5 +32,5 @@ keywords:
 | **CC‑GR.4** | The aggregate of guard‑rail rules **MUST** remain internally consistent and acyclic. No guard‑rail may override another without explicit precedence edges. | Preserves deterministic governance. |
 | **CC‑GR.5** | Every Core pattern **MUST** make its primary EntityOfConcern or primary relation recoverable at first mention. Declare **CHR:ReferencePlane** (`world | concept | episteme`) when the defining rule or receiving use requires that distinction. | Preserves the intended referent and any plane-dependent interpretation. |
 
-*All CC‑GR duties are **conceptual**. Any automated checks are **informative only** and live in Tooling/Pedagogy.*
+*The guard-rails and their interpretation are defined in Core. A reliable check can establish the particular property it tests in a submitted instance. A word scan can flag a passage for examination. The meaning of the passage and the authority to accept a change follow from the applicable rule and practice. Executable checks belong in Tooling or Pedagogy.*
 

@@ -6,12 +6,12 @@ section_id: "F.11:12"
 section_title: "Reasoning with the four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_reasoning-with-the-four-questions.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:12 — Reasoning with the four questions"
-line_start: 131349
-line_end: 131361
+line_start: 131413
+line_end: 131425
 dependencies:
   - "A.13"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 4. **State enactment only when supported.** Name the Work, Method, and basis for the enactment claim.
 5. **State description use separately.** Say whether and how the Work or performing System used, followed, deviated from, or conformed to the versioned description, and cite the rule that defines or tests that claim; otherwise return the bounded missing-governor result.
 6. **Locate outputs.** Relate a signal or changed value to the Work through its direct pattern.
-7. **Bind agency exactly.** Recover the A.13 core for each performer before independent A.15.1 Work admission; add F.6 only for precise assignment-bound attribution through the same obtaining assignment.
+7. **Bind agency at the scale claimed.** Use A.13 for the performer of the job or the contributors whose work is in question and A.15.1 for the actual Work. To credit a participant with choosing the Method, determine which options or advice were supplied and what that participant chose. Use F.6 for a precise attribution of a contribution under its performer's obtaining assignment.
 8. **Use evidence of the outcome in question.** An authenticated command or approval can establish that the authorized act took place. Follow it to a changed state, completed work or usable result only where the records or governing relation support that further conclusion.
 9. **Preserve history.** A new description does not alter past Work or its evidence.
 10. **Recover words locally.** Use F.9 only when a relation between local meanings is part of the question.

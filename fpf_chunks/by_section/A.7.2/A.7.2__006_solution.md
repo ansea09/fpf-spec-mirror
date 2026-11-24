@@ -6,12 +6,12 @@ section_id: "A.7.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:4 — Solution"
-line_start: 27081
-line_end: 27195
+line_start: 27098
+line_end: 27212
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -121,7 +121,7 @@ OccurrenceIdentity:
 ```
 The source participant is the source episteme and edition consumed. The receiving participant is the ontology-claim episteme and edition being formulated, constrained, tested, interpreted, compared, or traced.
 
-For the Work participant, use A.13 to identify the performer and A.15.1 to admit the dated ontology-decision `U.Work` independently. If the case must also identify the assignment under which that Work was performed, F.6 checks the assignment used by A.13 and compares its holder with the already identified performer. The assignment relates the independently identified System to its assigned-kind value; that System performs the Work.
+For actual ontology-decision `U.Work`, use A.13 for each performer and admit the Work independently under A.15.1. A single jointly performed decision and the use of earlier results from others have different performance histories. For an assignment-bound claim use F.6, matching the holder of the relevant assignment to the participant who actually performed that contribution.
 
 The minimal occurrence needs only those three participants, `useFunction`, `sourceUseScope`, and the maximal continuous interval during which the named Work consumes content from that source episteme for that receiving claim. Citation, access, bibliography membership, prestige, publication status, or co-location alone is insufficient.
 

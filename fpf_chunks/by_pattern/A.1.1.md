@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
 line_start: 3144
@@ -50,10 +50,10 @@ keywords:
 
 **First useful move — take the smallest branch.**
 
-1. Identify the model edition and the subject of the decision. For a proposed application, state the intended use and conditions. For a claim of actual use, identify the Work for which use is asserted.
+1. Identify the model edition and the subject of the decision. For a proposed application, state the intended use and conditions. For a claim of actual use, identify where the model entered the activity in question.
 2. Ask what the present decision needs.
    - If applicability alone answers it, recover `ModelApplicabilityRelation` and stop.
-   - If actual use is current, recover the performer through A.13 and let A.15.1 independently admit the performed Work; because `ModelUseRelation` expressly represents assignment-bound use, then establish F.6 through the same obtaining A.13 assignment and recover `ModelUseRelation`, then stop.
+   - If the question is whether the model was actually used, look for its contribution to that activity. A calculation trace can establish which model the program applied even if the commissioning assignment is unknown. For a claim of assignment-bound use, recover the performer under A.13, admit the Work under A.15.1 and establish F.6 for the assignment. These grounds and actual use concerning the named holon support `ModelUseRelation`.
    - If maintained expression content is current, recover the fixed model content, fixed expression content, declared coherence predicate, and comparison scheme, then decide `ModelExpressionCoherenceRelation` and stop.
 3. Recover the remaining direct relations only when their joint organization matters to the decision. To select `BoundedModelUseStructure`, establish all its constituents, obtaining relations, applied constraints and selection-use frame. To decide whether that selection is available, check whether the grounds exclude any required relation or their coexistence in the same selection-use frame. Either finding rules out the structure. If joint satisfaction remains open, a decision requiring positive grounds can still be deferred.
 4. Keep every boundary crossing separate. A proposed source, target, direction, required fit, permitted loss, and claim scope is useful planning content, but it is not an occurrence and cannot identify either endpoint structure.

@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 30519
-line_end: 30602
+line_start: 30536
+line_end: 30619
 dependencies:
   - "A.1"
   - "A.10"
@@ -99,7 +99,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 A timetable, workflow row or architecture table can help locate candidate Work and may contain evidence. Its presence or layout alone establishes no Work occurrence, part, overlap or order. Before relying on its content in an architecture decision:
 
-1. identify each Work occurrence under the full §4.1 test from its A.1:4.2 construction, every actual performer's A.13 basis, independently grounded performance history, enacted Method, actual interval, and an obtaining relation to a containing System; when precise assignment-bound attribution is current, apply F.6 separately after admission;
+1. identify each Work occurrence under the full §4.1 test from its A.1:4.2 construction, the A.13 performer basis for that occurrence at its own scale, independently grounded performance history, enacted Method, actual interval, and an obtaining relation to a containing System; when precise assignment-bound attribution is current, apply F.6 separately after admission;
 2. if several rows are claimed as parts of one Work whole, identify that whole and every part independently, then state the exact Work-part relation that holds;
 3. if two occurrences are claimed to overlap or follow one another, state their actual intervals and the exact C.27.TA temporal relation; and
 4. state coordination, participation, resource use, result, or acceptance only through its own obtaining relation when the architecture decision needs it.
@@ -111,7 +111,7 @@ Two activities with similar names or one planned time window can still be distin
 Two descriptions, assertions, records, or traces resolve to the same Work occurrence only when they designate the same actual world-side performance history, not merely the same name, policy label, similar policy content, or later date. First compare the direct facts at the selected grain:
 
 * the same actual work-entry or start and compatible occupied spatiotemporal extent;
-* the same performance history, with each actual performer System's A.13 basis, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains; any separately asserted F.6 relation remains an attribution fact rather than a Work-identity discriminator;
+* the same performance history, with the §4.0 basis for the participants credited in that history, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains; any separately asserted F.6 relation remains an attribution fact rather than a Work-identity discriminator;
 * compatible work-part and temporal relations; and
 * no fact that already identifies distinct individuals: a proper part versus its parent, independently grounded concurrent performances, or a later work-entry after the first occurrence's established completion or termination.
 

@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:0 — Use This When"
-line_start: 12256
-line_end: 12274
+line_start: 12269
+line_end: 12287
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -22,9 +22,9 @@ keywords:
 
 ### A.3.2.DE:0 - Use This When
 
-Use this pattern when people need usable claims about an identified Method or a candidate account of a proposed way of working. The receiving use may concern planning, enactment, comparison, review, revision, publication or teaching; retain the claims' status. Start from one named use: who needs to do or decide what, which Method claims that use consumes, and what can remain outside the edition.
+Use this pattern when a reader or a system that uses the description needs usable claims about an identified Method or a candidate account of a proposed way of working. The receiving use may concern planning, enactment, comparison, review, revision, publication or teaching; retain the claims' status. Start from one named use: who needs to do or decide what, which Method claims that use consumes, and what can remain outside the edition.
 
-The first useful result is a short use-coverage account. It names the Method or candidate account, the receiving use, the claims needed now, the claims deliberately omitted, and the stop. That account prevents a documentation project from expanding before its practical question is clear.
+A short use-coverage account names the Method or candidate account, the receiving use, the claims needed now, any deliberate omissions and the stop. That can answer a request to plan the description. When the description itself is due, develop the claims and connections its recipient needs to act or decide. A dispatch service can use the stated conditions to select an operation. An operator learning the same Method may also need an explanation of how to recognize those conditions.
 
 Do not use this pattern merely to publish, diagram, approve, schedule, or record Work. A `U.MethodDescription` is the claim-bearing episteme whose `EntityOfConcern` is one Method already admitted under `A.3.1`; its representations, carriers, and dated enactments remain separate objects. Planning and approval have their own claim conditions; the same episteme may also meet A.15.2 as a `U.WorkPlan`. If the proposed whole is still a candidate account, improve that account without classifying it as a `U.MethodDescription` for the whole.
 

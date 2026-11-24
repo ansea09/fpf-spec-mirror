@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 117465
-line_end: 117584
+line_start: 117529
+line_end: 117648
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ Local repair first:
 - carried move = make one boundary visible;
 - outside work = responsibility assignment.
 
-If the request was to report the service boundary, the note can end with that boundary. If the same commission also calls for assigning responsibility, identify who can make the assignment and how the boundary bears on that choice. The authorized assignment has its own grounds. A proposal to change the job belongs with the person who commissioned it.
+If the request was to report the service boundary, the note can end with that boundary. If the same commission also calls for assigning responsibility, identify who can make the assignment and how the boundary bears on that choice. The authorized assignment has its own grounds. For a proposal to change the agreed scope, follow the applicable agreement. It may entrust the change to a service or require several parties to agree.
 
 #### E.17.AUD.LHR:5.2 - A published text is mistaken for the policy it describes
 
@@ -151,7 +151,7 @@ Local repair can still clarify the current sentence:
 - carried move = capture the rollback state visible on the current evidence slice;
 - outside work = any new approval, adjudication, or widened authority step.
 
-Outside observation has changed what this local unit can claim. Appending the new pressure to the old repair would conceal that change. Stop, reopen with a newly declared question, or use the governing pattern if approval, rollout, release, gate, policy, assurance, adjudication, or publication-unit stabilization has become primary.
+The new bulletin can change the answer to the same question about the current rollback state. Keep the restored meaning of `note` and update the finding if the evidence warrants it. When the question concerns the earlier snapshot, the earlier finding may still answer it.
 
-**Recovery reading.** The outside observation has changed what the unit can claim. Stop and reopen or apply the neighboring governing pattern. Another local qualifier will not settle the new question.
+**Recovery reading.** Establish which state and date the reader needs. Open a new approval or a wider review question when the commission or an applicable rule calls for that work. The change in evidence by itself grants no authority to approve.
 

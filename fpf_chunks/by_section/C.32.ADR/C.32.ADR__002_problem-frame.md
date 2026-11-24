@@ -6,12 +6,12 @@ section_id: "C.32.ADR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:1 — Problem frame"
-line_start: 84446
-line_end: 84508
+line_start: 84503
+line_end: 84565
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.32.ADR:1 - Problem frame
 
-Use this pattern to publish a project architecture proposal for discussion or an effective project architecture decision for people who will act on it. A team can use an ADR, a decision memo, a trade-study record or a certification rationale. For a decision in force, identify the `ArchitectureDecisionRelation@Project` or the equivalent decision under the project’s governing practice.
+Use this pattern to publish a project architecture proposal for discussion or an effective project architecture decision for those who will act on it. A team can use an ADR, a decision memo, a trade-study record or a certification rationale. For a decision in force, identify the `ArchitectureDecisionRelation@Project` or the equivalent decision under the project’s governing practice.
 
 Primary working reader: an architect or architecture-responsible practitioner preparing a decision record for developers, reviewers, maintainers, operators, certifiers, or future architects.
 

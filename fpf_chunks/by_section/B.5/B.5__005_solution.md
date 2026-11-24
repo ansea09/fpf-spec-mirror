@@ -6,12 +6,12 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:4 — Solution"
-line_start: 48351
-line_end: 48535
+line_start: 48376
+line_end: 48560
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -50,7 +50,7 @@ When the formulation is inadequate, vary a consequential element. Useful operati
 
 Before adopting the new wording, work out what an answer to it would let the recipient conclude. An equivalent formulation can serve directly if its answer carries back to the original subject, conditions and required grounds. A narrower question can also settle the whole one, for example when an admissible counterexample refutes a universal claim. If the narrower answer supplies one premise, pursue the remaining inference. C.39.QR explains this return.
 
-A useful new question can also have a genuinely different answer. When choosing the research direction is part of your work, weigh what the change makes possible and pursue it on those grounds. When someone has specified the result, use the new question to help obtain it, offer it for their decision, or explain the limit on what you can obtain. An interesting answer in a nearby field or at another composition scale can leave the specified result entirely open.
+A useful new question can also have a genuinely different answer. When choosing the research direction is part of your work, weigh what the change makes possible and pursue it on those grounds. When the commission specifies the result, use the new question to help obtain it or explain the limit on the answer. Take a proposed change of aim to whoever can adopt it under the commission. An interesting answer in a nearby field or at another composition scale can leave the specified result entirely open.
 
 C.22.2 helps make a problem-side claim and its next use inspectable. C.29 helps when choosing a mathematical lens or its mapping is the live question. Use their supplied actions at those boundaries; an ordinary mathematical problem need not acquire a separate card.
 
@@ -113,7 +113,7 @@ For open research, the attainable contribution may be a new description, candida
 
 A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable contributor. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
 
-Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry depends on unavailable help, try another way to obtain the needed contribution or explain which part remains open. An unexpected possibility can justify a new direction when choosing the research question is part of your task. A sufficient answer ends the present inquiry.
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry depends on unavailable help, try another way to obtain the needed contribution or explain which part remains open. An unexpected possibility can justify a new direction when choosing the research question is part of your task. Stop when the answer and any work expressly commissioned with it have been supplied. If the answer is already established and an ordered performance is still due, return the answer and carry that obligation forward.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -187,7 +187,7 @@ Return the result at its supported scope. Stop when it answers the use. Continue
 When the result exposes a limitation, identify what must change:
 
 - **The answer or construction for the same question:** repair it or investigate a serious alternative.
-- **The formulation:** identify what changed in the target, assumptions or boundary. Return any usable result to the question already asked. If the result now sought is different, establish whether selecting that new direction belongs to you or whether the recipient still needs the earlier answer.
+- **The formulation:** identify what changed in the target, assumptions or boundary. Return any usable result to the question already asked. If a different result is now sought, establish who may adopt the change and which parts of the earlier commission are still due.
 - **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
 - **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
 
@@ -203,7 +203,7 @@ For calculation, conjecture, proof, explanation, criticism and question formatio
 
 When the question depends on a result from another practice, use [A.15.9][fpf-a15-9-ref] to use the available answer or select a worthwhile missing contribution. State the working question, available inputs, result needed and intended use in terms the receiver can check. When requesting a formal formulation, ask the provider to show how it corresponds to the working question.
 
-Derive a participant's required capability from their later work. What must this person understand, ask, construct, criticize or arrange with the assistance then available? For example, an engineer may need to interpret the main idea of a proof or recognize that a measured proxy omits the intended quantity, even when a tool performs most calculations. Constructing or modifying the theory calls for a different depth of mathematical study.
+Derive the required capability from the holder’s later work. What must the team, service or individual be able to understand, ask, construct, criticize or arrange with the assistance then available? A service can supply a checked proof through a specialist and a checking tool. An engineer asked to explain a proof needs to interpret its main idea. An engineer using a calculated mean to advise on overheating may need to recognize that it leaves the maximum temperature open. Constructing or modifying the theory calls for a different depth of mathematical study.
 
-When assessing that capability, use representative work under the declared support and inspect the engineer's contribution. A completed AI-assisted report alone leaves that contribution underdetermined.
+Assess the capability at the scale the commission names. Examine how the service obtains the result with its available people, tools and access. To assess a learner’s own judgement, leave the relevant choice to the learner with the permitted help and examine how they made it. An AI-assisted report can satisfy the delivery while leaving the author of a particular inference unknown.
 

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 13971
-line_end: 14013
+line_start: 13984
+line_end: 14026
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -90,12 +90,12 @@ TransformationWordingRepair:
   WorkingConcern: the design reader needs to locate the four stages in the supplied schematic and follow their connections.
   RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
   ActualTransformationDisposition: no actual occurrence claim is made; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`.
-  NeighboringClaimAndExactRelation: the arrows in the supplied schematic connect the four named loci in refrigerant-flow order. The operator’s question also requires evidence about the interval of operation.
+  NeighboringClaimAndExactRelation: the arrows in the supplied schematic connect the four named loci in refrigerant-flow order. The operator’s question also requires evidence of heat leaving the compartment during the specified interval.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; use `A.3.4` when a claim about an actual component occurrence needs its basis established.
   RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1`; the source's heat-transfer claim remains unresolved.
   StopOrReturnCondition: use the selected structure for the recovered structural question; if the receiving use needs the heat-transfer claim, recover its participants and relation under the relevant subject rules. A later actual-occurrence claim still needs the A.3.4 occurrence basis.
   RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open the applicable subject pattern when an additional claim is needed.
 ```
 
-For the designer, the repaired caption reads “Follow the refrigerant from the compressor to the condenser, through the expansion device to the evaporator, and back to the compressor.” If the supplied drawing shows only the four positions, identify them and obtain the connections before claiming a path. To determine whether heat left the compartment during the operator’s interval, use evidence of operation during that interval.
+For the designer, the repaired caption reads “Follow the refrigerant from the compressor to the condenser, through the expansion device to the evaporator, and back to the compressor.” If the supplied drawing shows only the four positions, identify them and obtain the connections before claiming a path. To determine whether heat left the compartment during the operator’s interval, use observations of heat transfer or an applicable account relating the observed conditions to heat transfer. A compressor can run with the evaporator out of thermal contact with the compartment. Its motor log alone leaves the operator’s question open.
 

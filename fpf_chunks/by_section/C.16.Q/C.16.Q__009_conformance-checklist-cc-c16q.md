@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 63219
-line_end: 63261
+line_start: 63250
+line_end: 63292
 dependencies:
   - "A.10"
   - "A.16"
@@ -50,7 +50,7 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
    Identify the domain procedure and the basis for any comparison made there. Give the A.19.CPM frame for a comparison of admitted profiles under its comparator, and `none` when that operation is absent. A missing profile or comparator leaves a claim that requires the operation unresolved.
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
-   The effective reference scheme is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
+   Identify the effective reference scheme, the assessment rule in its frame, and any system to which the work is attributed. A non-`none` `U.ViewpointRef` resolves to an exact viewpoint episteme. Its resolution alone supplies neither an assessment nor authority for one.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
     Cross-talk across articulation modes (including preconceptual), representation substrates (including latent-distributed and symbolic-local), or `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without explicit substrate and, when omission would change meaning, plane declarations.
 6. **CC-C16Q-6 - ClaimScope, slices, and `Γ_time` are explicit.**

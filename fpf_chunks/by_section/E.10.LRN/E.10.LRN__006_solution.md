@@ -6,12 +6,12 @@ section_id: "E.10.LRN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:4 — Solution"
-line_start: 107325
-line_end: 107386
+line_start: 107386
+line_end: 107447
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ Recover the current claim from its participants, subject, operation, result, and
 
 | Recovered current claim | Required route and boundary |
 | --- | --- |
-| A person or other System acquired or changed a capability for later Work | Use `A.2.2` and the direct capability-development/evaluation patterns. Name holder, target Work, conditions, support arrangement, performance evidence, transfer horizon, and uncertainty. Practice, teaching, a score, or one successful performance does not by itself establish the capability. |
+| A person or other System acquired or changed a capability for later Work | Use `A.2.2` and the direct capability-development/evaluation patterns. Name holder, target Work, conditions, support arrangement, performance evidence, transfer horizon, and uncertainty. One observed performance can settle a bounded current-capability question when the work, conditions and support match. To establish acquisition or change, also identify what that performer could do before. Extend the conclusion to other work only on grounds for that transfer. |
 | A teacher, coach, peer, tool-using System or other admitted System performed teaching, demonstration, feedback, or practice-support Work | Use A.13 and A.15.1 for the independently admitted performer and dated Work, A.3.1 for the enacted Method, and direct responsibility/authority relations when current. Environmental conditions keep their own causal or support relations unless an actual performer is independently established. The occurrence and intended result do not entail capability acquisition by the recipient. |
 | An agent investigated a claim or revised an episteme, or a person reports noticing, remembering or understanding something | Recover the episteme or claim change and the representation, source use or inquiry Work asserted or required for the receiving use, using `C.2.1` and the direct subject pattern. Use `A.6.3.RT` for a representation transition and A.10 when the source-to-use account is implicit or must be replayable. A claim that the holder acquired the ability to understand, explain, or reason in later Work uses the capability branch above, with its conditions and evidence. |
 | A statistical or machine-learning system was trained or fitted | Identify target function, distribution, or policy; data and data-generating assumptions; model family; objective or estimator; training/optimization Work; and resulting model edition. Recover the evaluation and deployment conditions required by the claim being made. Parameter change, a low training loss, a generated sample, and deployed-system capability remain different claims. |
@@ -77,8 +77,8 @@ Recover the current claim from its participants, subject, operation, result, and
 | Wording | What it foregrounds | What remains unresolved |
 | --- | --- | --- |
 | “The teacher taught Mira to swim.” | Teaching Work, participants, and an intended capability result. | Whether Mira acquired, retained, or transferred the swimming capability; the exact causal contribution of the teaching. |
-| “Mira learned to swim.” | A change in Mira's ability to do the specified swimming Work. | What she could do before and now, under what conditions, and what warrants attributing the change to practice, coaching or another source. |
-| “Mira learned from the manual.” | A source-use or inquiry route may be claimed. | The exact episteme change, capability result, evidence, and whether the manual was merely available or actually used. |
+| “Mira learned to swim.” | A change in Mira's ability to do the specified swimming Work. | What she could do before and now, under what conditions and with what support. If the claim also credits a coach, practice or another source, what supports that attribution? |
+| “Mira learned from the manual.” | A source-use or inquiry route may be claimed. | What did Mira obtain from using the manual, and what establishes that use? A passage can answer a question about its contents. For a claim that Mira’s understanding or capability changed, establish the change concerned. |
 | “The GAN learned the distribution.” | Source-local shorthand for adversarial training and a resulting model. | What distributional relation was established, which model edition, evaluation/generalization basis, and deployed capability. |
 | “Learning progress increased.” | Some change over a window. | Whether the coordinate is performance, capability evidence, prediction error, information gain, model fit, compression, representation, or something else. |
 

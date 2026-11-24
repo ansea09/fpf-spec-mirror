@@ -6,12 +6,12 @@ section_id: "A.6.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__013_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:12 — Relations"
-line_start: 25871
-line_end: 25877
+line_start: 25887
+line_end: 25893
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,6 +59,6 @@ keywords:
 
 * **Specialises:** A.6.P by restoring the concrete object and action hidden by cross-context sameness wording.
 * **Uses:** F.17 `SchemeSenseCell` identity; F.9 Bridge participants, relation-only profile, obtaining, occurrence identity, bounded-use boundary, and card boundary; C.2.1 claim identity and polarity; A.10 or B.3 for reliance.
-* **Coordinates with:** F.18 and F.5 for designators; A.6.6 for an identification or indexing relation whose meaning or participants remain hidden; C.2.1 for effective reference scheme, episteme edition, and empirical grounding; A.2.6 for scope operations; A.15.6/A.15.1 for composite project Work; the patterns that define the temporal and direct predicates for their qualification windows; E.17.0 for viewpoint conformance and View membership; E.24.PUB for publication occurrence, form, and carrier; C.29 for an unresolved mathematical-lens choice, correspondence, or transfer question; A.6.3.RT for the ordinary same-concern representation note, triggered construction, and occurrence only when actual Work is current; C.3.3 for the cross-local `KindBridge` and C.3.2 for the fresh target judgment; A.1.1/A.22 and the pattern that defines each selected structure crossing; A.2.8.PER for the permission result and any direct pattern needed for a separate authority relation.
+* **Coordinates with:** F.18 and F.5 for designators; A.6.6 for an identification or indexing relation whose meaning or participants remain hidden; C.2.1 for effective reference scheme, episteme edition, and empirical grounding; A.2.6 for scope operations; A.15.6/A.15.1 for composite project Work; the patterns that define the temporal and direct predicates for their qualification windows; E.17.0 for viewpoint conformance and View membership; E.24.PUB for publication occurrence, form, and carrier; C.29 for an unresolved mathematical-lens choice, correspondence, or transfer question; A.6.3.RT for the ordinary same-concern representation note, triggered construction, and occurrence only when actual Work is current; C.3.3 for the cross-local `KindBridge` and C.3.2 for the judgment grounded under the target kind definition; A.1.1/A.22 and the pattern that defines each selected structure crossing; A.2.8.PER for the permission result and any direct pattern needed for a separate authority relation.
 * **Constrains:** every proposed use of an obtaining Bridge to cite an obtaining Bridge, state a separate C.2.1 claim for its direction, rule, tolerance, and polarity, recover current reliance when someone will rely on that claim, and state any claim about the actual receiving object using the rule that defines its predicate.
 

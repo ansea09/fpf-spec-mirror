@@ -6,12 +6,12 @@ section_id: "C.3.3:5"
 section_title: "Solution — Compare Identity, Then Relate Distinct Kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__006_solution-compare-identity-then-relate-distinct-kinds.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:5 — Solution — Compare Identity, Then Relate Distinct Kinds"
-line_start: 58319
-line_end: 58331
+line_start: 58350
+line_end: 58362
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -26,7 +26,7 @@ keywords:
 ### C.3.3:5 - Solution — Compare Identity, Then Relate Distinct Kinds
 
 1. **Compare kind definitions.** Recover source and receiving candidate domains, membership distinctions, and continuity rules. A changed locality or scheme prompts this check; it does not decide it.
-2. **Stop on same-kind reuse.** If the same kind continues, use the declaration edition selected for the receiving use. When that use is candidate-bearing, check admissibility and evaluate the candidate afresh. No `KindBridge` obtains merely because source, practice, team, wording, or scheme changed.
+2. **Stop on same-kind reuse.** If the same kind continues, use the declaration edition selected for the receiving use. When that use is candidate-bearing, establish admissibility and the judgment for that candidate, criterion and slice. Use an applicable judgment or other sufficient grounds. A separate requirement for an independent or current examination governs the work to be done. No `KindBridge` obtains merely because source, practice, team, wording, or scheme changed.
 3. **Open a bridge only for two distinct kinds.** A `KindBridge` occurrence is an obtaining direct relation between one source kind and one target kind. Its directional predicate states the correspondence and definedness required by the named receiving use. Identify each kind independently under C.3.1.
 4. **Keep the assertion separate.** A C.2.1 bridge-assertion episteme designates the relation when needed and carries paired `KindSignature` editions, mapping rule, selected order-preservation results, loss notes, evidence, and admitted use. Include `CL^k` when the consumed assurance or calibration account requires it. A card, row, F.9 relation, or publication does not make the bridge obtain.
 5. **For candidate-bearing use, evaluate the receiving candidate.** First check admissibility under the receiving signature and slice. For an admissible request, return `true`, `false`, or `unknown` from the target criterion. A supported source fact can determine that answer if its implication for this candidate, criterion and slice is established. Reuse those grounds. Where the mapping loses a difference the target criterion needs, retain the uncertainty or obtain the missing fact.

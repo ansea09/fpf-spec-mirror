@@ -6,12 +6,12 @@ section_id: "C.3.A:3"
 section_title: "Shared outcome model"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__004_shared-outcome-model.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:3 — Shared outcome model"
-line_start: 58897
-line_end: 58912
+line_start: 58928
+line_end: 58943
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,6 +44,6 @@ All guards obey these invariants.
    The Scope Bridge shorthand below denotes the obtaining F.9 Bridge, while a separate affirmative C.2.1 claim states this translation's direction, rule, and permitted loss. Reliance uses the current A.10 disposition or, when a named assurance claim is current, a B.3 result supporting this same use.
 6. **Bridge separation.** An obtaining KindBridge relation connects exact, independently identified distinct source and target kinds when its directional correspondence predicate holds under C.3.3. Its separate bridge assertion supplies mapping, loss, evidence, definedness, admitted use, and any `CL^k` required by the consumed assurance or calibration account; neither object creates a target kind, signature, or judgment.
 
-   A locality change alone supplies no such relation. Same-kind reuse selects the receiving declaration edition and, when the receiving use is candidate-bearing, a fresh receiving judgment.
+   A locality change alone supplies no such relation. Same-kind reuse selects the receiving declaration edition and, when the receiving use is candidate-bearing, the judgment warranted under that declaration for the candidate and slice. An earlier assessment can supply it under C.3.3 KB-04.
 7. **R-only consequences.** Justified scope- and kind-bridge consequences affect R only. They do not change F, G, or classification truth.
 

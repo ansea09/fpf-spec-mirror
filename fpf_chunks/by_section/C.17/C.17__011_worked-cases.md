@@ -6,12 +6,12 @@ section_id: "C.17:9"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__011_worked-cases.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:9 — Worked cases"
-line_start: 63648
-line_end: 63687
+line_start: 63679
+line_end: 63718
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ To use Novelty value `0.42`, cite `P22-NoveltyResult-4`, an already constituted 
 
 A `CreativityEvaluationResult` can now report the supported difference and the assembly comparison with P-11. To establish eligibility, check each applicable must-condition. To place P-22 on a non-dominated front, use the declared comparison over eligible rivals (§7). The two results about P-22 alone leave its front membership open.
 
-If an audit later asserts that an overall assessment occurred, identify the evaluator System, its exact assignment, `PumpCreativityAssessment-17` Work, and `PumpCreativityAssessmentMethod-2`; state that the Work enacts the Method. The MethodDescription explains the Method, the result states claims, and coordinate-measurement Work stays separate. Do not add an A.6.1 operation application merely because those values are recorded. If the audit separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application.
+If an audit asks who produced `PumpCreativityAssessment-17`, establish the work by which the participating evaluator or evaluators applied `PumpCreativityAssessmentMethod-2`. A supplier of one coordinate need not have made the overall assessment. State any required assignment or independent approval, and the grounds for it. The MethodDescription explains the Method, the result states claims, and an assertion of an exact operation application or binding requires its own A.6.1 grounds.
 
 #### C.17:9.2 - Software and algorithmic design
 

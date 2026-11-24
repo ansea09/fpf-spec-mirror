@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.33.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
-line_start: 84969
-line_end: 85188
+line_start: 85026
+line_end: 85245
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -150,7 +150,7 @@ Common failures:
 
 ### C.33:4 - Solution
 
-Start with the decision the reader must make. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
+Start with the question the reader must answer or the decision this work must support. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
 
 Compare the result the recipient needs across the arrangements still consistent with the record. If one action is justified in every case, a request to choose that action can finish. To describe the actual arrangement, list all permitted alternatives or explain why an outcome occurs, preserve the distinctions that change that answer or its grounds. Look for the assignment, rule or observation that can resolve a consequential difference. It may already be in the record.
 
@@ -191,7 +191,7 @@ C.33 separately names affected characteristics such as latency, compute, memory,
 
 Architecture narrative case. A team narrative says "we moved from candidate A to candidate B because data custody forced placement P and made latency trade-off T acceptable." C.33 records the structural content and decision context the narrative captures: the move from candidate A to candidate B, data-custody constraint, placement constraint, and trade-off.
 
-The statement gives the team's reason for changing candidates. To use B under a tighter latency limit, establish that its latency meets the new limit under the intended load. An existing validated bound can settle that question. If both A and B remain eligible and the commission calls for choosing between them, compare them under the criteria that decide this choice. To establish which placement was installed, check applicable as-built evidence. Use the evidence already in the account when it settles the question.
+The narrative gives the stated reason for the change. To identify who chose B, establish who selected it and, for a choice attributed to the team, why that act counts as the team's decision. To report the grounds they relied on, establish how the explanation relates to that decision. An authoritative account can supply both answers. To use B under a tighter latency limit, establish that its latency meets the new limit under the intended load. An existing validated bound can settle that question. If both A and B remain eligible and the commission calls for choosing between them, compare them under the criteria that decide this choice. To establish which placement was installed, check applicable as-built evidence. Use the evidence already in the account when it settles the question.
 
 The account is sufficient when it establishes what the carrier supports for the intended use. A further claim may need an architecture description, view, evaluation, evidence, decision or authorization under its own rule; C.33 identifies the missing structural contribution and returns that question to the applicable pattern.
 

@@ -6,12 +6,12 @@ section_id: "D.4:4"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__007_archetypal-grounding-worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:4 — Archetypal Grounding (Worked Slices)"
-line_start: 97534
-line_end: 97566
+line_start: 97591
+line_end: 97623
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -34,7 +34,7 @@ keywords:
 
 ### D.4:4 - Archetypal Grounding (Worked Slices)
 
-**Fair-share case.** A service outage plan can protect hospitals, households, or industrial customers, but not all at once. The `D.3` conflict description connects each affected scope and value concern to its consequence and horizon. To develop a recommendation, trace how each feasible allocation would protect people and who would bear the remaining loss. Compare those consequences under the applicable commitments. Consider a changed allocation when it could provide protection that the stated options leave out. Give the recommendation and its grounds to the person entitled to decide. For a request about a decision already made, the authorized decision and its terms can supply the answer. No assignment or Work is asserted merely because the plan names intended action. If the account reports execution, add the Work occurrence and its performer; add assignment-bound attribution when that further claim is made. A mathematical allocation Method may have a separate C.29 representation or lens-use assertion, but the allocation formula is not the ethical decision, assignment, or responsibility relation.
+**Fair-share case.** A service outage plan can protect hospitals, households, or industrial customers, but not all at once. The `D.3` conflict description connects each affected scope and value concern to its consequence and horizon. To develop a recommendation, trace how each feasible allocation would protect people and who would bear the remaining loss. Compare those consequences under the applicable commitments. Consider a changed allocation when it could provide protection that the stated options leave out. Return the recommendation and its grounds to its intended recipient. Apply a standing rule when it settles the allocation. Where a choice remains, identify the individual or body entitled to decide. A request about a decision already made can use the authoritative account and its effective terms. No assignment or Work is asserted merely because the plan names intended action. If the account reports execution, establish the Work occurrence and its performers at the scale reported. Add an assignment-bound attribution when that further claim is made. A mathematical allocation Method may have a separate C.29 representation or lens-use assertion, but the allocation formula is not the ethical decision, assignment, or responsibility relation.
 
 **Override case.** An assurance review says a release has the required technical assurance relation, but the `D.3` description shows unresolved harm for a subgroup. Determine which protection the technical review establishes, whose interests remain affected and who can authorize the proposed terms. Ask whether a feasible change would avoid the harm and what evidence would distinguish that change from proceeding as proposed. Use C.28 if the comparison depends on a causal claim. These grounds can support refusal, a condition, further inquiry or an authorized release with a stated residual. An unresolved required condition leaves that release unsupported.
 

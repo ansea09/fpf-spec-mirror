@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:intro — Intro"
-line_start: 30297
-line_end: 30339
+line_start: 30314
+line_end: 30356
 dependencies:
   - "A.1"
   - "A.10"
@@ -74,7 +74,7 @@ Use the following route:
 2. Identify the candidate performer as a System under A.1 without using the candidate Work to prove systemhood.
 3. For every precise Agent claim, recover the A.13 core in §4.0 under independently stated criteria. Observed behavior may supply evidence; assuming that the candidate is already Work may not supply the proof. Open the characteristic-profile branch only under its stated receiving-use condition.
 4. Apply the full §4.1 test, including the occurrence's A.1:4.2 construction and its Work-specific factual premises. Follow its candidate-facts-to-claims explanation to admit `W : U.Work` and then assert its obtaining typed relations.
-5. Only after admission, and only when precise assignment-bound attribution is current, use F.6 with the same obtaining A.13 assignment for each performer.
+5. After admission, use F.6 when the receiving claim depends on which assignment covered a performer’s contribution. Use the obtaining A.13 assignment for that performer and Work.
 6. Add direct Work-to-referent, operation-binding, resource-use, result, change, production, delivery, evaluation, or acceptance claims only when their own predicates and case facts obtain.
 
 **Compact positive example.** On 27 July 2026, Robot-7 performed the 09:00–09:20 inspection in InspectionService-A, following TurbineInspectionMethod under InspectionAssignment-17.

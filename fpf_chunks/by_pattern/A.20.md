@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
-line_start: 41258
-line_end: 41510
+line_start: 41275
+line_end: 41527
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ keywords:
 
 Use A.20 when one transformation or one operation application is current in a transformation-flow structure and the question is whether that subject satisfies one named internal constraint for one stated case. It also applies when an A.6.4 bounded-use assertion q is current there and q's proposition is the named internal constraint. A.6.4 retains the separate current-case judgement.
 
-**First useful move.** Recover the subject, constraint and case from the existing description. Determine applicability; if it remains unresolved, state the missing fact and deciding rule. Once applicability is established, report its value, the evaluation state and any test outcome, with the evaluation window and witness or reason.
+**First useful move.** Recover the subject, constraint and case. Establish which requirement applies, which facts decide its satisfaction and what evidence is available for any claimed evaluation. A question about a past check can remain open even when its result was required. Give the supported outcome or the missing ground and its consequence for the receiving use.
 
 **Quick worked case.** `TemperatureConversion-7` must add 273.15 to a Celsius input and must not return a value below 0 K. For input 25 °C, the test returns 298.15 K, so both required conditions are `satisfied`; the witness records the formula edition, input, output, and test result for this evaluation window. The practitioner may reuse this result for that case and window, or pass it to a current gate or assurance use; changed input, formula edition, assumptions, or window requires reassessing affected grounds and establishing whether this result still covers the receiving case and use. If the output were 297.15 K, the formula condition would be `violated`; if the exact output were lost but a certified interval excluded 298.15 K, the formula condition would still be `violated`. If the available facts allowed both equality and inequality it would be `unknown`; if the test had not run, its evaluation state would be `notRun`.
 
@@ -100,7 +100,7 @@ The constrained subject is normally:
 
 Another subject is admissible only when its own pattern defines a named internal constraint and states why this result form applies. An E.18 locus label alone supplies neither the subject nor the constraint.
 
-When a fact needed to determine applicability is missing, state the unresolved question, the missing fact, and the rule that will decide it. Assign `applicabilityValue` and construct the result below once applicability is established.
+If applicability depends on a missing fact, state the question and the deciding rule. Once established, retain the applicable requirement for this case. Use the result below for a supported evaluation state. If a past evaluation was required but its occurrence is unestablished, keep the requirement and missing evidence visible without claiming a result from that occasion. A new assessment has its own occasion and can answer a question about the constraint now.
 
 Minimum result content:
 
@@ -122,7 +122,7 @@ ConstraintValidityResult:
   evaluationWorkRef?:
 ```
 
-`outcome` is present only when `evaluationState=evaluated` and `applicabilityValue` is `required` or `optional`. A not-applicable constraint records the reason it is outside this case. A not-run constraint records that evaluation work has not produced a result. Neither is `unknown` and neither counts as success.
+`outcome` belongs to an evaluated applicable constraint. For `notApplicable`, state the reason the constraint is outside the case. Use `notRun` when there is a basis for saying that the named evaluation did not take place. A missing report can leave both earlier performance and nonperformance possible. It then supplies no past evaluation state or outcome. An assessment that actually took place can itself return `unknown` under the constraint’s rule. The missing or inconclusive result does not support satisfaction.
 
 If a dated evaluation Work occurrence is asserted, first establish its A.13 core: the performing System, local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for assignment-bound attribution. The optional `evaluationWorkRef` cites that Work separately from the result episteme.
 
@@ -147,7 +147,7 @@ The summary rule is:
 
 1. `notApplicable` only when the declared required set is empty because no required A.20 internal constraint applies to this subject and use; any optional results remain separately available;
 2. `violated` when at least one required result is `violated`;
-3. `unresolved` when no required result is violated but at least one required constraint is `notRun`, `unknown`, or `error`; and
+3. `unresolved` when no required result is known to violate the constraint but a required result is missing, `notRun`, `unknown`, or `error`; and
 4. `satisfied` only when the required set is nonempty and every member has an evaluated `satisfied` result.
 
 Optional results do not change the summary unless a separately accepted use decision moves their constraints into the required set. A missing required result can therefore never disappear beside a satisfied result.
@@ -227,7 +227,7 @@ For an ordinary A.20 use, check only these five points:
 
 1. **Subject and constraint (`CC-A20-1`).** Name the subject and the constraint and edition being applied.
 2. **Case and applicability (`CC-A20-2`).** State the assumptions, case facts, scope, evaluation window, and why the constraint is `required`, `optional`, or `notApplicable`.
-3. **Evaluation and outcome (`CC-A20-2`).** Record `evaluated` or `notRun`. For an evaluated applicable constraint, record `satisfied`, `violated`, `unknown`, or `error` under the constraint's own outcome rule.
+3. **Evaluation and outcome (`CC-A20-2`).** Report `evaluated` or `notRun` for an established evaluation state. Keep a required check whose performance or result is unestablished visible as a missing ground. Give `satisfied`, `violated`, `unknown` or `error` for an evaluated applicable constraint according to its own outcome rule.
 4. **Support (`CC-A20-1`).** Give the witness, counterexample, missing-information reason, or error reason that supports that result.
 5. **Complete summary (`CC-A20-3`).** Use `ConstraintValiditySummary=satisfied` only when the complete declared required set is nonempty and every member was evaluated and satisfied.
 

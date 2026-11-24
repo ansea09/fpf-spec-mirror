@@ -6,12 +6,12 @@ section_id: "E.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:1 — Problem frame"
-line_start: 97839
-line_end: 97844
+line_start: 97896
+line_end: 97901
 dependencies:
   - "E.2"
 keywords:
@@ -28,7 +28,7 @@ keywords:
 
 ### E.1:1 - Problem frame
 
-Use this charter when proposing an FPF rule or artifact and deciding whether it serves the framework's purpose. Name the reader's task, show which core invariant the rule supports, and state a measurable stakeholder benefit or justify its omission. Use §4's short route and §5.2's worked decision. When the claim also proposes a material realization or physical intervention, apply the separate feasibility branch in §5.1.
+Use this charter when proposing an FPF rule or artifact and deciding whether it serves the framework's purpose. Identify the work the proposal would affect, show which core invariant the rule supports, and state a measurable stakeholder benefit or justify its omission. Use §4's short route and §5.2's worked decision. When the claim also proposes a material realization or physical intervention, apply the separate feasibility branch in §5.1.
 
-FPF aims to give engineers, researchers and learners a reusable scaffold for carrying ideas through comparison, decision and implementation. A shared vocabulary is useful only where it helps a named use; the charter does not by itself demonstrate improvement over a domain's existing practice.
+Engineers, researchers and learners can use FPF to compare claims, reach a decision or implement a change. An organization may use the same grounds to answer a question or act as a whole. A shared vocabulary is useful only where it helps a named use; the charter does not by itself demonstrate improvement over a domain's existing practice.
 

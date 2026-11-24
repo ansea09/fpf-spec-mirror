@@ -6,12 +6,12 @@ section_id: "C.41:0"
 section_title: "Use and combine the checklist Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__002_use-and-combine-the-checklist-methods.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:0 — Use and combine the checklist Methods"
-line_start: 94098
-line_end: 94164
+line_start: 94155
+line_end: 94221
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -78,7 +78,7 @@ Across this family, ask whether the important work questions are covered, their 
 
 Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the questions, observations, mappings, counterexamples and consequences in the later sections.
 
-**What does a filled checklist establish?** Read the existing answers and their grounds before asking for another check. If they meet the acceptance conditions for this delivery, the recipient can act on them. A completed checklist can express a model of one delivery (L0). Its template may embody the team's model of a repeatable local check (L1). When the commission is to develop a disciplinary model of what to check (L2) using the transdisciplinary model of question selection here (L3), show which conditions of the discipline's work matter to the decision and how the chosen questions reveal them. A filled form can also carry that reasoning if its author records the design choice. When the assignment is to use an approved question set, the performer can take it as given. To credit the performer with applying the checklist, trace the answers to the checks they made or the prior results they chose to reuse. To credit them with selecting the questions, identify which choices the brief, form or helper supplied and which the performer made and justified. An earlier selection or a change the performer made to the form can supply that evidence.
+**What does a filled checklist establish?** Read the existing answers and their grounds before asking for another check. If they meet the acceptance conditions for this delivery, the recipient can act on them. A completed checklist can express a model of one delivery (L0). Its template may embody the team's model of a repeatable local check (L1). When the commission is to develop a disciplinary model of what to check (L2) using the transdisciplinary model of question selection here (L3), show which conditions of the discipline's work matter to the decision and how the chosen questions reveal them. A filled form can also carry that reasoning if its author records the design choice. When the assignment is to use an approved question set, the performer can take it as given. To credit the performer with applying the checklist, establish what they interpreted, checked or decided. A supplied measurement can support the performer's own judgement about whether this delivery meets the limit. Credit source selection when the performer made that choice. To credit them with selecting the questions, identify which choices the brief, form or helper supplied and which the performer made and justified. An earlier selection or a change the performer made to the form can supply that evidence.
 
 The constructed examples here illustrate reasoning and possible use. They do not report measured effectiveness. Human-use studies and AI evaluation studies inform the Methods under the limits in [C.41:11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4111---sota-echoing) and the supplying patterns' SoTA-Echoing sections. Practical adoption depends on capabilities, access, working conditions and the result people value.
 

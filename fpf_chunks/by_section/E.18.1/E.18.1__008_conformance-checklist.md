@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 119358
-line_end: 119384
+line_start: 119422
+line_end: 119448
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -58,7 +58,7 @@ keywords:
 - `CC-E18.1-1a` The accepted ProblemCard as the note's EntityOfConcern, the note's ClaimGraph and effective ReferenceScheme, any separately identified `U.Viewpoint` or `BoundedModelUseStructure` designated by that ClaimGraph, each cited pattern's subject EntityOfConcern, and every supporting compact note, diagram, plan, trace, or publication remain distinct. Note completeness does not prove a P2W relation occurrence, subject change, performed work, evidence, acceptance, or result.
 - `CC-E18.1-1b` Every materialized carry-through episteme identifies one accepted ProblemCard as EntityOfConcern, carries one ClaimContent for the receiving use, names its effective ReferenceScheme, and designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim uses that object and its organization changes how the receiving claim is interpreted. It cites the carried ProblemCard slice, `applicablePatternRef`, returned value kind and ref or a justified stop, and rationale. It introduces no reusable P2W predicate, `RelationSignature`, relation kind, local note kind or occurrence.
 - `CC-E18.1-1c` When external naming or publication is current, F.8/F.18/F.17 apply only to the already identified value and receiving use. The pattern label and local positive/stop/replay phrases create no NameCard, U-kind, relation, Method or MethodDescription. Any MethodDescription claim separately passes the A.3.2 EntityOfConcern and substantive-claim threshold.
-- `CC-E18.1-2` A positive carry-through ClaimContent cites one returned result and one or more separate continuation descriptions. A stopped ClaimContent instead states the reduced-use cue or blocker and stop without fabricating a relation. Local non-overread and return conditions appear when relied on; absent fields are not filled by generic unions.
+- `CC-E18.1-2` A positive carry-through ClaimContent identifies the returned result and what it settles. Describe further continuations when distinct questions remain or the receiving use requires an account of how the result was obtained. A stopped ClaimContent instead states the reduced-use cue or blocker and stop without fabricating a relation. Local non-overread and return conditions appear when relied on; absent fields are not filled by generic unions.
 - `CC-E18.1-3` The stable core works without a separate carry-through episteme or explicit structure: accepted claim, receiving use, concrete question, applicable pattern contribution, returned result or a justified stop, split, and smallest local return. When explicit structure is needed, A.22.CGUS and E.18.3 select the exact structure; E.18 keeps several valuations or one internal `SubflowRef` on one TFS; E.18.NET keeps independently selected flows or nested networks and exact cross-member occurrences. E.18.1 adds no hybrid schema.
 - `CC-E18.1-4` One wording span from an admitted source may split into several FPF applications; the record does not compress them into one generic token.
 - `CC-E18.1-5` Result wording is unpacked into concrete result-related relations; a generic `WorkResult` kind is not admitted.

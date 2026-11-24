@@ -6,12 +6,12 @@ section_id: "A.15.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:4 — Solution"
-line_start: 33730
-line_end: 33776
+line_start: 33747
+line_end: 33793
 dependencies:
   - "A.10"
   - "A.13"
@@ -43,7 +43,7 @@ Begin with one receiving decision or piece of Work and one result that could cha
 
    For a discretionary inquiry, ask how its return could change what the recipient may decide, do or justify. Weigh that gain against the burden. Frame the request around the contribution required. A supported answer, a bounded objection or a stated obstacle may each guide the next move. A second independent opinion can still be owed when its conclusion is already known.
 4. **Bound the subject and use.** Specify the situation, relevant interval and what counts as fulfilling the order. Is the supplier to report a fact, recommend a choice, or decide within a mandate? Establish who holds the choice at the point an action becomes binding and which decisions remain with the client.
-5. **Preserve the supplier's practice and Method.** Name the supplying practice and applicable Method, source, or inquiry status when known. The request may state needed inputs and evidence, but it does not replace the supplier's Method. If no applicable Method or source is known, state the missing basis. Inquiry into that basis is further acquisition subject to step 3; naming the gap creates no assigned Work.
+5. **Recover what the supplying practice is to choose or perform.** Apply the agreed or mandated Method when the commission specifies it. When the supplier is entrusted with the choice, preserve its discretion within the stated conditions. Establish what conclusion or disposition the supplier is authorized to give and who owns the decision that uses it. If a required Method or source is unknown, identify what is missing. Use step 3 for discretionary further inquiry.
 6. **Recover performer and authority only when reliance needs them.** A small exchange may not need either. When they matter, establish capability, access, conflict, assignment, permission, authority, responsibility, and commitment under the patterns governing them.
 
    When the receiving claim identifies a dated supplier Work, recover each performer through `A.13`, let `A.15.1` independently admit the dated Work, and use `F.6` afterward only if the receiving use also needs to say under which assignment the Work was performed.

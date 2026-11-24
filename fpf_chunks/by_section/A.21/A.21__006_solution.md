@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 41572
-line_end: 41720
+line_start: 41589
+line_end: 41737
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -36,7 +36,7 @@ keywords:
 
 #### A.21:4.1 - The decision result
 
-`GateDecisionResult` is a C.2.1 result episteme. Its EntityOfConcern is the bounded action or transition being decided. Its ClaimGraph says that one identified profile application maps one complete effective set of check-application results to one decision and action consequence.
+`GateDecisionResult` is a C.2.1 result episteme. Its EntityOfConcern is the bounded action or transition being decided. Its ClaimGraph identifies the applicable profile and complete effective set of requirements, accounts for available and missing results, and gives the grounds for the decision value and its action consequence.
 
 Minimum content:
 
@@ -47,9 +47,9 @@ GateDecisionResult:
   decisionSubjectRef
   boundedActionRef
   profileApplicationRef
-  requiredCheckApplicationIds[]
+  requiredCheckApplicationIds[]  // identifies each application required by the profile, including separately required evaluations
   optionalCheckApplicationIds[]
-  checkApplicationResultRefs[]
+  checkApplicationResultRefs[]   // the available results; retain each missing required result in the rationale
   scope
   qualificationWindow
   decisionValue: abstain | pass | degrade | block
@@ -62,7 +62,7 @@ GateDecisionResult:
 
 One result is identified by the tuple containing the gate, decision subject, bounded action, profile application, canonical required and optional check-application identity sets, the consumed check-application result refs, scope, and qualification window. A changed rule edition, checked subject, criterion, case, result, scope, or window requires another result. The decision value and rationale are the content derived for that fixed tuple; a contradictory value for the same tuple is an error, not another result to merge.
 
-The rationale links every check-application result to its mapping rule and then to the aggregate and action consequence. A `GateDecisionExplanation` may restate the rationale and decision value in ordinary language. It is optional and creates no additional decision; the identified result remains the basis for its explanation.
+The rationale identifies how each relevant result or absence bears on the decision under the profile. Retain each outstanding check and show why any unresolved mapping cannot change a value already decided. A `GateDecisionExplanation` may restate this rationale and its action consequence in ordinary language. The explanation is optional and refers to the same decision.
 
 #### A.21:4.2 - One check application
 
@@ -89,9 +89,9 @@ GateCheckApplicationResult:
   witnessOrReasonRefs[]
 ```
 
-The pattern that defines or tests the source claim determines `sourceOutcome`; A.21 only applies the cited mapping rule. A not-applicable application states why the criterion does not apply. A not-run application states that evaluation work did not produce a result. Unknown, error, violation, and success keep the meanings supplied by their source patterns.
+The pattern governing the source claim defines `sourceOutcome`. A.21 applies the profile’s mapping rule. State the reason for `notApplicable`. Use `notRun` when it is established that the named evaluation did not run. If its past performance is unestablished, retain the requirement and the missing source evidence. A gate-facing assessment made now can establish that a required report is unavailable without assigning an outcome or a performer to an earlier evaluation. An evaluated source can return `unknown` or `error` under its own rule.
 
-The application identity includes the checked subject, criterion and edition, applicable rule application, case facts, scope, and window. Two `SystemRoleFit` applications for different Systems and two `RegulatedConformance(X)` applications for different regulators or rule editions are different applications. Deduplicate only identical application results under these identity conditions. If two copies claim different source outcomes for the same identity, stop and resolve the contradiction; do not join them by `checkKind`.
+Identify a check application by its subject, criterion and edition, relevant rule application, case facts, scope and window. Include the occasion or result identity for an actual evaluation. Where the profile requires separate performances, identify each required contribution and establish who performed it, under what authority and with what independence the profile requires. Two copies of the same result supply one performance. Two independent assessors can legitimately disagree on the same subject and criterion. Apply the profile’s rule for their findings. If copies of one and the same result contradict one another, resolve the discrepancy before relying on it. Checks of different Systems or under different regulators or rule editions also retain their separate identity.
 
 When a publication or selected structure needs a short `GateCheckRef`, that value refers to one identified `GateCheckApplicationResult`. It is not the old `{aspect, kind, edition, scope}` record and cannot omit the checked subject, criterion or rule application, case, scope, or window needed to resolve that result.
 
@@ -111,7 +111,7 @@ A.21 has no implicit default profile. A branch name, `PathSlice`, sentinel, publ
 
 #### A.21:4.4 - Complete check set and independent results
 
-Before aggregation, recover the complete effective required set from the profile application. Every required application is present even when it is `notRun`, `unknown`, `error`, or failed.
+Before aggregation, recover every required check from the profile application. Identify each by the requirement and the case, including each separately required occasion. Link an established result for that check when one is available. For a missing required result, retain its place in the required set and apply the profile’s missing-result rule. A required position can be known even when the past evaluation, its performer or its result cannot be established.
 
 - `notApplicable` is allowed only when the application gives its scope or applicability reason.
 - `notRun` never becomes `abstain` or `pass`.
@@ -123,7 +123,7 @@ If a profile deliberately accepts known uncertainty, its mapping rule names the 
 
 #### A.21:4.5 - Aggregate and action meaning
 
-In ordinary language: **the worst mapped result wins**. Only after every required application is present and its mapping is known, the technical aggregation is the order-independent join:
+**The worst mapped value wins.** Account for every required check. Map each result or its absence under the applicable profile. If every completion consistent with the known facts and that profile gives the same worst value, that value is established. An established `block` therefore settles the value even with an outstanding check. Where possible completions give different values, leave the aggregate open. Record the unresolved checks and honor any separate duty to complete or report them. The order-independent join uses the order below.
 
 `abstain <= pass <= degrade <= block`.
 

@@ -6,12 +6,12 @@ section_id: "B.5.QD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__003_problem.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:2 — Problem"
-line_start: 51508
-line_end: 51513
+line_start: 51533
+line_end: 51538
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "A.16.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:4 — Solution"
-line_start: 35518
-line_end: 35574
+line_start: 35535
+line_end: 35591
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -68,7 +68,7 @@ PreArticulationCuePack names the publication form defined here; it is not an adm
 - `scope?`
 - `GammaTime?`
 
-`cueNucleus` names what is being kept visible. When several sources contribute, state what unifies their traces, tensions or contrasts into this cue; a collection of unrelated fragments supplies no common nucleus.
+`cueNucleus` names what is being kept visible. When several sources contribute, state what unifies their traces, tensions or contrasts into this cue; a collection of unrelated fragments supplies no common nucleus. Distinguish supplying the observation, recognizing its significance and passing on the cue. Identify the contributions that the requested attribution depends on. A participant’s own response can establish recognition even when the later intermediary is unknown. To credit independent recognition, use grounds from an occasion when the choice of distinction was left to the participant.
 
 When the nucleus is still unclear, try arranging the available material as in [the operator example](#a161131---operator-cue-pack).
 

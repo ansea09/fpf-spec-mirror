@@ -6,12 +6,12 @@ section_id: "F.16:15"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__016_migration-notes.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:15 — Migration notes"
-line_start: 133111
-line_end: 133119
+line_start: 133175
+line_end: 133183
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,5 +55,5 @@ keywords:
 3. **Replace cell subjects.** Name actual kinds, Systems, Work, claims, observations, values, and evidence; leave cells as optional wording addresses.
 4. **Split generic Bridges.** Restore MethodDescription membership, description use, enactment, performed-Work, measurement, evidence, reliance, fulfilment, kind, assignment, publication, or transformation claims as applicable. Add an indicator relation only when a defining or testing pattern supplies it; otherwise retain the blocker.
 5. **Repair trigger words.** Recover what *role*, *function*, *process*, *service*, or *context* denotes in each sentence before rewriting it.
-6. **Keep the gain.** After every ontological repair, reread the page as a cold practitioner and simplify any wording that became harder without gaining precision.
+6. **Keep the gain.** Reread the repaired passage for the intended practitioner. Simplify wording that became harder without adding precision. When the conclusion depends on what an unbriefed reader recognizes, use an applicable reading by someone who did not receive the intended answer, or obtain one under those conditions.
 

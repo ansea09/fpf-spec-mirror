@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ACS.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
-line_start: 81766
-line_end: 82057
+line_start: 81823
+line_end: 82114
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -117,7 +117,7 @@ ArchitectureCharacteristicCriteriaSet@Project:
 
 For `ArchitectureCharacteristicCriteriaSet@Project` and `ArchitectureCharacteristicImprovementRow@Project`, `@Project` is a compatibility and retrieval cue only; it establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. A criteria set or improvement row local to one project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct use relation for that exact record in `architectureCriteriaProjectUseRelationRef`; either field alone is insufficient, and a relation occurrence about the set is not reused for a distinct row. Otherwise the record remains retrieval-only and no project locality is asserted.
 
-If precise Work is asserted, recover each performer System's A.13 core, then independently admit the dated occurrence under A.15.1 from its performance history, Method followed, temporal extent and required containing-System relation. Add F.6 only when the receiving use consumes precise assignment-bound attribution through the same obtaining A.13 assignment and its declared species. F.6 identifies neither assignment nor performer; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds hold.
+If precise Work is asserted, establish the A.13 basis for the System or Systems credited with performance at the stated scale. Independently admit the dated occurrence under A.15.1 from its performance history, Method followed, temporal extent and required containing-System relation. Add F.6 only when the receiving use consumes precise assignment-bound attribution through the same obtaining A.13 assignment and its declared species. F.6 identifies neither assignment nor performer; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds hold.
 
 `draftProjectCriteriaRows` are draft project criteria rows. They are not candidate architectures, selected architectures, or a selected set returned by `A.19.SelectorMechanism`.
 

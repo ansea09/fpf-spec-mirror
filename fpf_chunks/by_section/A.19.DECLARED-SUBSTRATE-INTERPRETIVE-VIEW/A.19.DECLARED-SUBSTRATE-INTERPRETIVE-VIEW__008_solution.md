@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__008_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4 — Solution"
-line_start: 37728
-line_end: 37911
+line_start: 37745
+line_end: 37928
 dependencies:
   - "A.0"
   - "A.19"
@@ -137,7 +137,7 @@ When declaring one interpretive view, proceed in this order:
 4. **Keep the base source/result recoverable.** Name the active source set, and if the view is over one declared front, archive, shortlist, palette, or other set result drawn from that source, keep that active set result recoverable too.
 5. **Recover derived-view and palette structure when it matters.** If the view depends on one derived tradition or palette reading, state `DerivedViewKind` and `BasePaletteRef`.
 6. **Add the actual qualifiers.** Add `TypedSetViews`, cited spaces, declared map refs, metrics, transition qualifiers, or distortion notes only when the current reading truly depends on them.
-7. **Run the preservation check.** If the interpretive prose would materially change the base source-to-outcome relation or the base distortion/uncertainty/error posture, stop and reopen the substrate declaration.
+7. **Check what the view preserves.** If the proposed view changes the underlying source-to-outcome relation or its distortion, uncertainty or error conditions, identify the different substrate the claim uses. Follow the source-set pattern’s §4.8 for an alternative mapping or for a change to a shared declaration.
 8. **Run the boundary check.** If the prose starts changing the EntityOfConcern, minting new generic view law, publishing selected sets, shipping outputs, or deciding policy, apply the pattern that governs that question.
 
 **Incomplete declaration.** Missing base recovery or an unresolved change to the underlying relation prevents the dependent interpretive-view claim. Preserve independently established content and resolve the missing basis. Split out any separate publication or policy decision and apply its governing pattern.
@@ -182,7 +182,7 @@ Use them when the current interpretive view genuinely needs them:
 - `TransitionRelationRef` when the current reading depends on explicit transition or cross-scale state-change qualifier;
 - `BridgeDistortionNote` when the reader must keep one declared loss or distortion visible near the current reading.
 
-If a new loss, uncertainty or other qualification changes the underlying source-to-outcome relation, revise the substrate declaration and recheck dependent uses. Reuse unaffected content. A view-only qualification does not by itself change that relation.
+When a different mapping is useful, qualify the alternative substrate and its intended use. When evidence changes the applicability of the current mapping, reassess the conclusions that depend on it. Apply A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8 for changes to the shared declaration. A loss introduced only by the displayed view can be stated there.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.10 - Publication, set-result, and pool-policy boundaries
 
@@ -220,5 +220,5 @@ Once the interpretation is sufficient, stop. Select a neighboring pattern only f
 - Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base interpretive view declaration.
 - Use the corresponding pattern in §4.10 when the remaining question concerns selector outcomes, shipping, publication, live-pool policy or action planning.
 
-If a neighboring passage would change the EntityOfConcern or the base substrate posture, this pattern is no longer the governing pattern for that sentence. Reopen the base line or apply the pattern that governs the new question.
+For a different EntityOfConcern, follow the pattern that governs the new question. For a different source-to-outcome relation or qualification, use `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8` to declare the alternative for the comparison or establish the applicable change to the shared declaration.
 

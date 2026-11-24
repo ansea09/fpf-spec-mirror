@@ -6,12 +6,12 @@ section_id: "D.4:3"
 section_title: "Mediation Moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__006_mediation-moves.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:3 — Mediation Moves"
-line_start: 97521
-line_end: 97533
+line_start: 97578
+line_end: 97590
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -41,7 +41,7 @@ keywords:
 | Evidence is too weak or outdated for the proposed use. | Name the affected claim and use. Use `C.11.DUA` to compare a feasible evidence request with a narrower use, explicit residual acceptance or refusal; obtain stronger or fresher evidence when the selected use needs it. | `C.11.DUA`; the evidence's subject pattern for support, `A.10` when its source-to-use relation is implicit or must be replayable, and `C.27` when temporal adequacy changes that use |
 | Assurance claim is being used as ethical permission. | Keep assurance as an assurance or evidence relation, not moral authorization. | `B.3`, `D.5` |
 | Architecture move reduces one residual but creates ethical conflict elsewhere. | Return the architecture residual and keep the ethical conflict distinct. | `C.30.ILC`, `D.3` |
-| A decision must proceed with residual harm. | Keep the accepted residual, affected parties, decision basis and material evidence limits recoverable. Include the authority, responsibility, plan, commitment, permission, assignment requirement or return condition that this decision relies on, preserving each claim's status and any unresolved condition. If Work has occurred, recover each performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when the decision account also needs assignment-bound attribution. | `C.11`, `B.3`, `D.5`, A.2.1, A.13, A.15.1, and F.6 as applicable |
+| A decision must proceed with residual harm. | Keep the accepted residual, affected parties, decision basis and material evidence limits recoverable. Include the authority, responsibility, plan, commitment, permission, assignment requirement or return condition that this decision relies on, preserving each claim's status and any unresolved condition. For a claim about a particular Work, establish its occurrence under A.15.1 and its performers under A.13 at the scale the claim requires. Use F.6 for an attribution to a precise assignment. | `C.11`, `B.3`, `D.5`, A.2.1, A.13, A.15.1, and F.6 as applicable |
 
 When the basis required for a particular claim cannot be obtained, that claim remains unsupported. A narrower recommendation or decision must satisfy its evidence, ethical and authority conditions. Preserve an accepted residual where it changes the use.
 

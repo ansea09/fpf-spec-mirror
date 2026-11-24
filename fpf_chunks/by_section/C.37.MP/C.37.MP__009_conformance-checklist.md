@@ -6,12 +6,12 @@ section_id: "C.37.MP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:7 — Conformance Checklist"
-line_start: 86680
-line_end: 86692
+line_start: 86737
+line_end: 86749
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -33,5 +33,5 @@ keywords:
 - [ ] Project, process, and case accounts retain their recovered direct subjects; co-use for one action has its own complete C.37 basis, and every claimed view has its own conformance result.
 - [ ] A mathematical-use claim states the formal object, correspondence, intended use, and loss boundary under the applicable domain result; `C.29` addresses a remaining representation, transfer, or reliance question.
 - [ ] Failed or missing direct results return the lower episteme and named gap rather than borrowing support from another layer.
-- [ ] Current adequacy may be established by direct inspection or matching prior observations. A new user-action probe is selected only for a useful attainable question worth its whole burden; a claimed observed success or failure has supporting evidence and no wider capability, enactment, fit, transfer, worth or authority claim.
+- [ ] Current adequacy may be established by direct inspection or matching prior observations. A separately commissioned user trial is carried out under its stated conditions. An additional probe is chosen for an attainable use question worth its full cost; a claimed observed success or failure has supporting evidence and no wider capability, enactment, fit, transfer, worth or authority claim.
 

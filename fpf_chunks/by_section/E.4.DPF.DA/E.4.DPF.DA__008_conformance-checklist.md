@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:7 — Conformance Checklist"
-line_start: 101565
-line_end: 101584
+line_start: 101624
+line_end: 101643
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| CC-DPFDA.0 Evaluation objects separated | Framework episteme edition, package architecture, PFAD decisions, pattern set, relation records, edition dependencies, publication units and occurrences, publication forms, exact presentation carriers, access-facing presentation carriers, access routes, actual access or use relations, characteristic space and specification, semantic Method, ordinary evaluator action, an optional A.6.1 application only when an exact operation declared by a separately admitted Mechanism is used, coordinate claims, aggregate result episteme, witnesses and evidence use, optional record, local status, F.10 status use, E.19 admission or refresh, assurance, publication, and later repair remain separately recoverable. When dated assessment `U.Work` is asserted, the actual evaluator System is recoverable through A.13 and one independently valid A.15.1 Work account is cited. Assignment and F.6 references appear only when the result expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, missing or failed F.6 alone leaves independent Work admission intact, and the assignment never acts as evaluator. |
+| CC-DPFDA.0 Evaluation objects separated | Framework episteme edition, package architecture, PFAD decisions, pattern set, relation records, edition dependencies, publication units and occurrences, publication forms, exact presentation carriers, access-facing presentation carriers, access routes, actual access or use relations, characteristic space and specification, semantic Method, ordinary evaluator action, an optional A.6.1 application only when an exact operation declared by a separately admitted Mechanism is used, coordinate claims, aggregate result episteme, witnesses and evidence use, optional record, local status, F.10 status use, E.19 admission or refresh, assurance, publication, and later repair remain separately recoverable. Each claimed assessment Work is admitted under A.15.1 with its actual evaluator Systems grounded under A.13. The account distinguishes several contributions to one performance from the use of results of separate performances. For each precise assignment-bound attribution, F.6 links the particular Work to its actual performer’s obtaining A.13 assignment over the Work’s extent. Different contributors may have different assignments. A missing or failed F.6 link alone leaves independently admitted Work intact. |
 | CC-DPFDA.0a Coordinate results constituted | Every D1-D12 value is an ordinal content-evaluation quality ascription about the same framework edition with recoverable ReferenceScheme, characteristic, scale value, evaluation rule/probe, ClaimScope/use/window, assessment account and any asserted Mechanism-operation application, rationale, evidence locus, and repair/no-proposal. The aggregate C.2.1 result episteme carries the complete set; a table, record, witness, or evaluator identity creates no value. |
 | CC-DPFDA.1 Object and use declared | Exact authored framework episteme edition of concern, open plain description of the visible form or use, package architecture and selected package refs, effective ReferenceScheme, ClaimScope, intended reader, declared use, qualification window, next usable action, and stop or return are named. Add a non-use boundary only for an independently grounded competing use. No file, manifest, list, or package boundary supplies identity, kind, or membership. |
 | CC-DPFDA.2 All coordinates evaluated | All twelve coordinates receive ordinal value, short rationale, evidence locus, and repair or no-proposal disposition inside the aggregate result episteme. |

@@ -6,12 +6,12 @@ section_id: "A.15.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__004_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:3 — Forces"
-line_start: 33718
-line_end: 33729
+line_start: 33735
+line_end: 33746
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,7 +35,7 @@ keywords:
 | --- | --- |
 | Reuse versus fresh Work | A current qualified result can be cheaper and safer than a new request; a narrower answer can remain useful when a stronger one is unsupported. Acquisition must earn its cost without treating a stale or wrong-configuration answer as adequate. |
 | Small request versus useful boundary | The receiver needs a short request without omitting the subject, situation, use, and stop that make the answer meaningful. |
-| Supplier judgement versus receiver authority | The supplier governs its Method and professional conclusion; the receiver owns the decision that consumes it unless a separate authority relation says otherwise. |
+| Supplier judgement and receiver authority | The commission and applicable rules determine who selects the Method, who must reach a judgement, and who can make the resulting decision. An agreed Method can still call for an independent examination and conclusion. |
 | Informal exchange versus recoverability | Two sentences may be enough for a reversible choice; consequential reliance may require exact sources, Work, evidence, authority, dissent, and currentness. |
 | Named specialist versus supported performer | A title, department, credential, provider label, or tool name can help find a candidate but does not establish capability, assignment, authority, or performed Work. |
 | Recognition versus assurance | A vague outside-practice dependency is enough to open the pattern; high-consequence use requires stronger direct evidence, assurance, and stop rules. |

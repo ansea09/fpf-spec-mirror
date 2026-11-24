@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:4 — Archetypal Grounding"
-line_start: 70588
-line_end: 70709
+line_start: 70635
+line_end: 70756
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -135,7 +135,7 @@ interventionWindow:
 resistanceOrCost:
   fatigue, attention drift, task novelty, or habit formation
 reasonForReading:
-  the drill schedule for planning, actual drill times and durations for practice performed, and dated starts of comparable work sessions for observed work rhythm
+  the draft schedule for planned time, records of who practised, when, for how long and with what help, and dated starts of comparable work sessions for observed work rhythm
 supportedUse:
   organize the proposed drills and compare regularity where session observations cover the comparison
 unsupportedUse:
@@ -144,7 +144,7 @@ reopenTrigger:
   retention falls, task family changes, or the rhythm proxy stops matching performance
 ~~~
 
-To judge regularity, specify which sessions count, how start-to-start intervals will be compared, and what timing matters to the work. The same number of starts per week can come at evenly spaced times or in a cluster. Comparable records before and during the scheduled period can establish a change in the observed spacing even if every drill was cancelled. To assess the effect of doing the drills, establish which drills took place and for how long. Compare the observed rhythm with what the learner’s work schedule and other conditions support in the absence of those drills. A new duty roster could itself fix session starts. If all that is needed today is the drill plan, its prescribed cadence suffices. For replication, state what timing and effort the learner has to reproduce.
+To judge regularity, specify which sessions count, how start-to-start intervals will be compared, and what timing matters to the work. The same number of starts per week can come at evenly spaced times or in a cluster. Comparable records before and during the scheduled period can establish a change in the observed spacing even if every drill was cancelled. To assess the effect of doing the drills, establish which drills took place and for how long. Compare the observed rhythm with what the learner’s work schedule and other conditions support in the absence of those drills. A new duty roster could itself fix session starts. The draft schedule alone gives 560 minutes of proposed practice over 28 days. To repeat the practice, establish what the learner did, which cues or feedback an instructor or device supplied and whether that help will be available. If a reminder prompted each work session, the observations show the rhythm under that condition. To judge whether the learner starts sessions unaided, use evidence that distinguishes the learner’s own initiation from a prompted start.
 
 #### C.27:4.4 - Compact Case Bank
 

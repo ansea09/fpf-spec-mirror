@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 101212
-line_end: 101473
+line_start: 101269
+line_end: 101532
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -91,7 +91,7 @@ Keep the evaluation objects separate:
 3. the effective interpretation rules (`ReferenceScheme`) for the package-adequacy claims, A.2.6 `ClaimScope`, working reader, intended use, qualification window, any independently grounded non-use boundary, and an optional independently selected `BoundedModelUseStructure` only when its organization changes interpretation;
 4. this E.4.DPF.DA characteristic space and evaluation specification;
 5. one exact semantic package-adequacy-evaluation `U.Method`;
-6. an ordinary evaluator action outside Work admission or, when dated assessment `U.Work` is asserted, references to the actual evaluator System identified through A.13 and one independently valid A.15.1 Work account. Only when the result expressly represents precise assignment-bound attribution does it also cite the same obtaining A.13 assignment and applicable F.6 relation occurrences. Independently, cite an A.6.1 application only when the assessment uses an identified operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings;
+6. an ordinary evaluator action outside Work admission or, when dated assessment `U.Work` is asserted, an independently valid A.15.1 account for each claimed occurrence and its actual evaluator Systems under A.13 at the scale asserted. For joint Work, establish what the participants did together. For separate assessments, show how their results support the answer. Where precise assignment-bound attribution is claimed, identify whose Work is attributed, its extent and the obtaining A.13 assignment linked to that Work under F.6. Independently, cite an A.6.1 application only when the assessment uses an identified operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings;
 7. twelve ordinal coordinate-result claims about the same framework edition;
 8. one aggregate C.2.1 result episteme carrying those claims, the local package-adequacy status, protected trade-offs, first repair or no-proposal disposition, reopen condition, and any grounded non-use boundary;
 9. witnesses, independently established direct evidence-use relations, and any A.10 account that represents their source and bounded-reliance basis, plus an optional evaluation record that packages references without performing the assessment or granting authority; and
@@ -139,12 +139,14 @@ DPFPackageAdequacyEvaluationConfiguration:
   MechanismOperationApplicationRef?: <one exact A.6.1 application only when the assessment
     uses an operation declared by a separately admitted U.Mechanism and the receiving
     claim depends on its actual input and result bindings>
-  AssessmentWorkAdmission?: <omit for an ordinary judgement or action not admitted as U.Work;
-    when present, cite the A.13 actual-performer basis and independently valid A.15.1 Work account rather than redeclaring them; add assignment-bound attribution references only when this result expressly represents that attribution>
-    AssessmentWorkAccountRef: <one independently valid A.15.1 Work account>
+  AssessmentWorkAdmission?: <one dated assessment Work in the form below. For several distinct Works use AssessmentWorkAdmissions[] with one such entry per occurrence.
+    Omit this part for an ordinary judgement outside Work admission. Each entry identifies the actual performers under A.13, its A.15.1 account and any expressly claimed assignment-bound attribution.>
+    AssessmentWorkAccountRef: <the independently valid A.15.1 account for this occurrence>
     AssessmentWorkRef: <the dated U.Work used by this result>
-    EvaluatorSystemRef: <the actual evaluator U.System already recovered through A.13>
-    PerformedUnderAssignmentRefs?: <the applicable obtaining F.6 relation occurrences through the same A.13 assignment, only when this result expressly represents precise assignment-bound attribution; omit otherwise; missing or failed F.6 alone leaves independent Work admission intact>
+    EvaluatorSystemRef?: <for one evaluator, the actual U.System established under A.13>
+    EvaluatorContributions[]?: <for joint Work, give the actual evaluator Systems, what each contributed and the interval of each contribution in place of the single EvaluatorSystemRef>
+    ResultContribution?: <for distinct assessment Works, the result relied on here and how it supports the overall answer>
+    PerformedUnderAssignmentRefs?: <for each precise attribution, the F.6 link between the dated Work attributed to this System and its obtaining A.13 assignment. Use the independently admitted constituent Work and its interval when only that contribution is attributed. Omit this field when no precise assignment-bound attribution is claimed>
 DPFPackageAdequacyResultEpisteme:
   EntityOfConcern: <same FrameworkEpistemeEditionOfConcernRef>
   EffectiveReferenceScheme:
@@ -176,11 +178,11 @@ The characteristic table and this specification describe how to evaluate; the se
 
 Such an application exists here only when the evaluator uses an identified operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings. Work admission neither creates nor requires it.
 
-If the account instead claims dated assessment Work, recover the actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Only when the result expressly represents precise assignment-bound attribution does it also cite the same obtaining A.13 assignment and applicable F.6 relation occurrences.
+For each dated assessment Work claimed, establish its A.15.1 account and the actual evaluator Systems under A.13 at the claimed scale. For joint Work, identify what the participants did in that performance. When separate assessments contribute results, give the grounds on which those results support this answer together. An evaluator can also rely on an earlier finding from someone who took no part in the present assessment. For a precise attribution, establish which System performed the specified Work under which obtaining assignment. The assignment must cover the full interval of the particular Work attributed through it. If that Work is a constituent check, use the check’s own occurrence and interval. Another contributor can act under a different assignment. Matching the holder and interval helps test the link. Establish the direct fact that the System performed this Work under that assignment.
 
 F.6 identifies neither assignment nor performer. Missing or failed F.6 alone leaves independent Work admission intact. If the same finding invalidates a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent conclusions.
 
-The evaluator System acts. A local evaluator system-role classification is an optional neighboring claim. The local account exposes assignment or F.6 references only for that attribution branch. Constitute the coordinate claims and aggregate result under §4.3, and establish each later receiving use through its own relation under §4.5.
+The Systems that carry out the evaluation act at the stated scale. An assessment made by a service as a whole may be attributed to that service when its grounds establish that contribution. A local evaluator system-role classification is an optional neighboring claim. The local account exposes assignment or F.6 references only for that attribution branch. Constitute the coordinate claims and aggregate result under §4.3, and establish each later receiving use through its own relation under §4.5.
 
 Each coordinate value is an ordinal content-evaluation quality ascription about the same framework episteme edition under the declared ReferenceScheme, ClaimScope, use, and qualification window. It is not a C.16 measurement result, measurement output, average, vote, maturity stage, or status use.
 

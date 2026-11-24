@@ -6,12 +6,12 @@ section_id: "C.39.SA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.SA/C.39.SA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.SA — Choose Composition Scales and Model Abstraction for the Task"
   - "C.39.SA:4 — Solution"
-line_start: 88255
-line_end: 88269
+line_start: 88312
+line_end: 88326
 dependencies:
   - "B.1"
   - "B.5.MR"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.39.SA:4 - Solution
 
-**Start with the work and its criterion.** Who will use the result, to do or explain what, with which choices still theirs? To find the subject, ask where the property or change to be explained could arise. For example, in a practice that produces and reviews instructions, a Method can prescribe a choice, a particular performance can make it, and a review practice can repeatedly admit the resulting work. One passage from that practice may give access to several inquiries. In your own work, choose the subject that can answer the commission. Connect other subjects only as far as their contributions matter to the explanation. Recover the permissible conditions and the information available for that work. Supplying one workable design allows the designer to choose its arrangement. Teaching someone to design for several settings requires a way for that person to choose. Deciding whether a threshold is met and giving an exact value can also require different evidence.
+**Start with the work and its criterion.** Who will use the result, to do or explain what, with which choices still theirs? To find the subject, ask where the property or change to be explained could arise. For example, a Method for preparing instructions can prescribe which choice the author must make. An individual or a team makes the choice when writing the instruction. An authorized editor or editorial board can accept the result. An operative rule can also give the result effect when its conditions hold. One passage from that practice may give access to several inquiries. Choose a subject that can answer the commission. You may investigate a narrower question to obtain a premise. To adopt it as the whole deliverable, establish that the commission gives you that choice or obtain agreement from whoever can change it. When acceptance matters, establish what makes it effective under those terms and whose decision, if any, they require. Connect other subjects only as far as their contributions matter to the explanation. Recover the permissible conditions and the information available for that work. Supplying one workable design allows the designer to choose its arrangement. Teaching someone to design for several settings requires a way for that person to choose. Deciding whether a threshold is met and giving an exact value can also require different evidence.
 
 1. **Follow the composition needed for that work.** Start where the recipient’s question starts. It may name a constituent, a whole or a connection between them. If you must choose where to begin, ask which difference in their arrangement would change the decision or its grounds. Could the same part serve a different enclosing whole? Could the same reported outcome come from different arrangements of the parts? Follow the relation in the direction the answer requires. A fact about one part can settle the question when you can give the inference to the requested conclusion.
 

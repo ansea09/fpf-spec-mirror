@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
-line_start: 35702
-line_end: 35887
+line_start: 35719
+line_end: 35904
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -88,7 +88,7 @@ Make the following content recoverable for each retreat or retirement move; add 
 - and successor information when the receiving use needs it. Identify a successor only under its applicable relation; distinguish a no-successor result supported by a negative criterion or complete closure basis from an unresolved successor question.
 
 #### A.16.2:4.3 - Status and relation discipline
-Reconsider each route selection, endpoint or gate conclusion, publication availability, current-use or retirement claim that depends on the changed basis. Revise those no longer supported and preserve unaffected claims. A past test result remains a historical fact; distinguish it from whether its conclusion still applies to the current use. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, establish the change under its direct predicate, with its participants and the scope, interval, or instituting or ending act the rule requires.
+Reconsider each route selection, endpoint or gate conclusion, publication availability, current-use or retirement claim that depends on the changed basis. Revise the affected claims you are authorized to maintain. If another party controls a dependent decision, use §15.2 to bring the changed grounds to that party when its decision requires them. Preserve unaffected claims. A past test result remains a historical fact; distinguish it from whether its conclusion still applies to the current use. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, establish the change under its direct predicate, with its participants and the scope, interval, or instituting or ending act the rule requires.
 
 If only one route claim, scope assumption or operational use fails, retain the surviving content. Follow its dependencies under §20 instead of resetting the entire publication.
 
@@ -154,7 +154,7 @@ A route-bearing branch may later become obsolete because another branch now carr
 Older language often talks about "going backwards" or "regressing". The preferred migration is to name whether the change is reopen, sketch-backoff, respecify, or retire, and which route, endpoint, publication, current-use, or actual relation claim changes.
 
 #### A.16.2:15.2 - Integration reminder
-When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, update the affected subject result, recovered action claim or question, evaluation, Work hook, or current-use claim instead of leaving a stale downstream assertion.
+When retreat affects a subject result under `A.6.P`, `A.6.A`, `C.16.Q` or `A.15`, identify which action claim, question, evaluation, Work hook or current use relied on the withdrawn ground. Revise the conclusion you are authorized to maintain. Where another party controls the decision or publication, communicate the changed basis through the applicable route if that party needs it for the affected use. Preserve the earlier act as history and identify any new decision when made.
 
 ### A.16.2:17 - What each retreat preserves and withdraws
 
@@ -189,7 +189,7 @@ A route-bearing branch may later be withdrawn because better-supported grounds, 
 A reviewer can test retreat integrity with five questions:
 
 1. **Was the trigger explicit?** If not, the retreat risks becoming retrospective narrative repair.
-2. **Were the affected claims updated?** If the earlier route selection, endpoint admission, gate result, publication availability, current-use claim, evidence-use basis, or actual authority relation no longer applies, revise that dependent claim under its direct pattern.
+2. **What changed for each dependent claim?** Establish which route selection, endpoint admission, gate result, publication availability, current use, evidence-use basis or authority relation the retreat affects. Revise claims within your remit under their direct pattern. Where another party must decide, identify the consequence and how it reaches that party. An earlier decision can remain an established historical fact even as its grounds for present use change.
 3. **Did valid witnesses survive?** If all earlier grounding disappeared without reason, the retreat probably became erasure.
 4. **Was the move kind correctly named?** Reopen, sketch-backoff, respecify, and retire solve different problems; confusing them obscures what changed.
 5. **If the next use needs successor information, is its basis clear?** Distinguish an obtaining successor relation, a supported no-successor result and an unresolved question.

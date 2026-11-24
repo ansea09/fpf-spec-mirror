@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:4 — Solution"
-line_start: 41316
-line_end: 41427
+line_start: 41333
+line_end: 41444
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ The constrained subject is normally:
 
 Another subject is admissible only when its own pattern defines a named internal constraint and states why this result form applies. An E.18 locus label alone supplies neither the subject nor the constraint.
 
-When a fact needed to determine applicability is missing, state the unresolved question, the missing fact, and the rule that will decide it. Assign `applicabilityValue` and construct the result below once applicability is established.
+If applicability depends on a missing fact, state the question and the deciding rule. Once established, retain the applicable requirement for this case. Use the result below for a supported evaluation state. If a past evaluation was required but its occurrence is unestablished, keep the requirement and missing evidence visible without claiming a result from that occasion. A new assessment has its own occasion and can answer a question about the constraint now.
 
 Minimum result content:
 
@@ -65,7 +65,7 @@ ConstraintValidityResult:
   evaluationWorkRef?:
 ```
 
-`outcome` is present only when `evaluationState=evaluated` and `applicabilityValue` is `required` or `optional`. A not-applicable constraint records the reason it is outside this case. A not-run constraint records that evaluation work has not produced a result. Neither is `unknown` and neither counts as success.
+`outcome` belongs to an evaluated applicable constraint. For `notApplicable`, state the reason the constraint is outside the case. Use `notRun` when there is a basis for saying that the named evaluation did not take place. A missing report can leave both earlier performance and nonperformance possible. It then supplies no past evaluation state or outcome. An assessment that actually took place can itself return `unknown` under the constraint’s rule. The missing or inconclusive result does not support satisfaction.
 
 If a dated evaluation Work occurrence is asserted, first establish its A.13 core: the performing System, local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for assignment-bound attribution. The optional `evaluationWorkRef` cites that Work separately from the result episteme.
 
@@ -90,7 +90,7 @@ The summary rule is:
 
 1. `notApplicable` only when the declared required set is empty because no required A.20 internal constraint applies to this subject and use; any optional results remain separately available;
 2. `violated` when at least one required result is `violated`;
-3. `unresolved` when no required result is violated but at least one required constraint is `notRun`, `unknown`, or `error`; and
+3. `unresolved` when no required result is known to violate the constraint but a required result is missing, `notRun`, `unknown`, or `error`; and
 4. `satisfied` only when the required set is nonempty and every member has an evaluated `satisfied` result.
 
 Optional results do not change the summary unless a separately accepted use decision moves their constraints into the required set. A missing required result can therefore never disappear beside a satisfied result.

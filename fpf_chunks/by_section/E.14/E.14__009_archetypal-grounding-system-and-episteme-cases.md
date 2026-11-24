@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System and Episteme cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-and-episteme-cases.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:6 — Archetypal Grounding (System and Episteme cases)"
-line_start: 112882
-line_end: 112935
+line_start: 112943
+line_end: 112996
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -60,7 +60,7 @@ keywords:
 
 The measurement domain declares `PumpVibrationMeasurementAssignment` as the assignment species for this work. `RA-ConditionMonitoring-7-E4` is its occurrence, is held by `ConditionMonitoringSystem-7`, and covers the measurement interval.
 
-That System performed the admitted Work `Pump37VibrationMeasurement-2026-07-31T0900` under the assignment, and the Work enacted `PumpVibrationMeasurementMethod-E2`. Check the Work and enacted Method with A.15.1, and the Work-assignment attribution with F.6.
+During this run, the station checked its calibration, acquired the sensor indication and applied the specified coefficients. Its time-stamped acquisition and processing records connect those actions to `ConditionMonitoringSystem-7`, the pump and the interval. They support attributing `Pump37VibrationMeasurement-2026-07-31T0900` and its enactment of `PumpVibrationMeasurementMethod-E2` to the station under A.13 and A.15.1. For the claim that it performed this Work under the stated assignment, check F.6. A display that relayed the same value could answer the reader’s question about the reading while leaving the performer of the measurement unknown.
 
 The applicable A.6.1 bindings identify `Pump-37`, the sensor indication, calibration coefficients, and returned measurement value. Classification of the System under `PumpVibrationMeasurementSystemRole` is a separate claim.
 

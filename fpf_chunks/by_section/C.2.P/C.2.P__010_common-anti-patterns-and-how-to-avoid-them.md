@@ -6,12 +6,12 @@ section_id: "C.2.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54954
-line_end: 54966
+line_start: 54985
+line_end: 54997
 dependencies:
   - "A.10"
   - "A.15"

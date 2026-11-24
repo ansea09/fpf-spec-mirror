@@ -6,12 +6,12 @@ section_id: "E.19:5"
 section_title: "Archetypal Grounding — perform the selected review"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__007_archetypal-grounding-perform-the-selected-review.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:5 — Archetypal Grounding — perform the selected review"
-line_start: 121418
-line_end: 121445
+line_start: 121482
+line_end: 121509
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -60,7 +60,7 @@ A different candidate adds this claim to its otherwise developed review guidance
 
 PCP-BASE identifies a change from the quality of guidance to permission for a particular operation. PCP-NORM is selected because the new sentence asserts authority. The reviewer locates no project decision or authorization relation in the candidate's grounds: the supplied conclusion concerns the pattern edition. The claim therefore lacks the contribution that would permit the asserted deployment.
 
-Under independent findings, the reviewer leaves the candidate unchanged and returns the exact repair: state that the admitted pattern supplies guidance for the deployment work, and identify the project's governing authorization before claiming permission to perform that work. The author replaces the sentence with: "Use the admitted pattern as guidance for preparing deployment. The project's responsible authority decides whether this deployment may proceed under its governing conditions." Focused rereading preserves the useful Method guidance and separates the permission decision and its needed basis.
+Under independent findings, the reviewer leaves the candidate unchanged and returns the exact repair: state that the admitted pattern supplies guidance for the deployment work, and identify the project's governing authorization before claiming permission to perform that work. The author replaces the sentence with: "Use the admitted pattern as guidance for preparing deployment. Establish whether the applicable terms already permit this deployment or require a decision by the responsible authority." Focused rereading preserves the useful Method guidance and separates the permission decision and its needed basis.
 
 This defect requires a different comparison from section 5.1. There the relation from source change to decision grounds selected the refresh; here the subject and authority of the returned conclusion select its permissible use. Both reviews choose their depth from an actual claim, carry out the selected comparison and complete a repair or findings return. Their reasoning is available for analogous questions under the applicable profiles; observation of transfer by other reviewers requires those actual uses.
 

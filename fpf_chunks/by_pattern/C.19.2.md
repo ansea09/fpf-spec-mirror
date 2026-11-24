@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
-line_start: 64914
-line_end: 65087
+line_start: 64945
+line_end: 65118
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -43,7 +43,7 @@ keywords:
 
 Use this pattern when one practical result matters and a relevant method, model, formalism, assurance technique, ontology, or other direct-kind apparatus is available, but the work needed to configure and apply it may cost more than the result warrants. Start here whether one apparatus is already selected or a real choice among available alternatives has become current.
 
-The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether the next adaptation and application work can reach a useful result within the available budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
+The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether available results already meet those conditions. If the recipient needs more work, determine whether the next adaptation or application can supply it within the budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
 
 **Not this pattern when.** If an adequate way to obtain the result is still unexplained, use `C.39`. If usable material needs feasible variation and examination, use `C.40`. Use `C.18` when the question concerns the generation account or archive/front stewardship. If the live question is a local choice over an existing option set, use `C.11`. If the blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 
@@ -87,7 +87,7 @@ A person or an AI system can read these instructions and also perform the work. 
 
 #### C.19.2:4.2 - Select the application branch
 
-**One current apparatus.** For an already selected method, recover its required operations, the inputs and settings it accepts, and the result and guarantee it supports. Check the conditions of this application and supply its inputs. The existing configuration may already suffice. If extra setup is needed, establish what it will enable and whether its cost fits the budget and the expected use. The single-apparatus path needs no `OptionSet` or `ChoiceResult`.
+**One current apparatus.** For an already selected method, recover its required operations, the inputs and settings it accepts, and the result and guarantee it supports. Check whether an existing result already covers the inputs, use and required guarantee. If another application is needed or specifically commissioned, supply its inputs and perform it. The existing configuration may already suffice. If extra setup is needed, establish what it will enable and whether its cost fits the budget and the expected use. The single-apparatus path needs no `OptionSet` or `ChoiceResult`.
 
 **Candidate generation or reframing.** If no adequate current object is available, use `C.39` to develop a missing explanation of how to obtain the result, or `C.40` to vary usable material and examine the difference. Use `C.18` when generation-account or archive/front claims are needed. The declared use and eligibility basis can guide that work.
 
@@ -118,7 +118,7 @@ These four dispositions form the complete current `C.11` result set. “Configur
 4. For each current path, identify what must be learned, supplied, integrated or checked to meet the required guarantee. Estimate the work still needed. An existing configuration that meets the requirements can be used immediately.
 5. Compare only the dimensions that can change the current path for the declared use and horizon. These may include time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside and reversibility; use their subject-pattern values when needed. Do not compress them into an undeclared scalar.
 6. Use the current comparison at the strength it supports (§4.3). If the choice remains open, give the holder the supported alternatives and the premise or priority needed to decide. A completed `C.11 ChoiceResult` may identify a worthwhile probe or another decision. A rejected set leaves no selected application. When a set is accepted, distinguish ties from incomparability and establish who may choose a member for use.
-7. When one apparatus is selected for use, carry out its application. Use A.15.2 when a plan is needed and C.24 when tool-call planning is the question. A precise dated-Work claim uses the performer and admission conditions in §4.1.
+7. Return a sufficient existing result when it meets the commission. When a new application is required, perform it with the selected apparatus. Use A.15.2 when a plan is needed and C.24 when tool-call planning is the question. A precise dated-Work claim uses the performer and admission conditions in §4.1.
 8. Inspect the result against the criterion for this use. For another application, check that the accepted method, inputs and assumptions cover its conditions. To establish that the recipient can apply the method with a stated degree of help, examine that recipient’s own performance under those conditions. Keep an application or configuration note when reuse, dispute, automation or consequence makes it useful.
 
 #### C.19.2:4.5 - Stop and reopen

@@ -6,12 +6,12 @@ section_id: "C.29.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:5 — Archetypal Grounding"
-line_start: 73620
-line_end: 73754
+line_start: 73667
+line_end: 73801
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -75,7 +75,7 @@ The arithmetic min(1,4)+2 = 3 still holds. Its use as the attainable minimum fai
 
 Repair the state at B by retaining whether the continuation permission remains. Let p arrive at (B,0) and q at (B,1). Only (B,1) has the r transition to C. Minimizing over the allowed complete routes in this expanded account yields 4 + 2 = 6. Returning q followed by r supplies an allowed source witness.
 
-There is also a useful result from the coarser account. With the permission restriction removed, every allowed source route remains available at the same cost. The relaxed minimum of 3 rules out a source route within a budget of 2. For a budget of 4, the lower bound alone is inconclusive. The permission rule and the stated complete list of routes show that the only permitted complete route costs 6. If the budget is 6, returning q followed by r gives the planner a route it can use.
+There is also a useful result from the coarser account. With the permission restriction removed, every allowed source route remains available at the same cost. The relaxed minimum of 3 rules out a source route within a budget of 2. For a budget of 4, the lower bound alone is inconclusive. The permission rule and the stated complete list of routes show that the only permitted complete route costs 6. At a budget of 6, q followed by r is feasible in the model. To offer it for an actual trip, check who can take each leg and whether the handoff at B preserves access to r. A courier authorized only as far as B can hand over to another authorized for r if both can do their part in time and the complete route stays within budget.
 
 **Returned result.** Endpoint reachability, the cost of a selected route and the minimum over compatible routes are different questions. Retain history only insofar as it changes future compatibility or cost. When a coarser account is cheaper to use, its lower bound may still answer the receiving question without constructing the optimal source route.
 

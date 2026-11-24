@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 79756
-line_end: 79817
+line_start: 79813
+line_end: 79874
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -78,7 +78,7 @@ Ordinary use starts by naming:
 - the alternatives and described holon;
 - the `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership;
 - the scale variable and scale window;
-- the claimed preference under scale;
+- the claimed preference under scale and whose price, effort or other outcome the commission asks you to compare;
 - the observations or derivation supporting the proposed scale behavior, or what remains open in their absence;
 - the structural feature or exception behavior on which that preference depends, when it calls for either.
 

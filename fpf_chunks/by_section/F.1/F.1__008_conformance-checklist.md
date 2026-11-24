@@ -6,12 +6,12 @@ section_id: "F.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:7 — Conformance Checklist"
-line_start: 127668
-line_end: 127702
+line_start: 127732
+line_end: 127766
 dependencies:
   - "A.10"
   - "A.7"
@@ -48,7 +48,7 @@ Checks that refer to a cut or `SourceCutNote` apply when the work calls for sour
 - **SCR-F1-S07 (Temporal honesty).** Designed and performed source claims remain distinct when the difference affects the answer.
 - **SCR-F1-S08 (Family neutrality).** No meaning, relation, or membership decision relies on a domain-family label.
 - **SCR-F1-S09 (Named search policy).** Any material search aid has a recoverable policy, corpus, method or model edition, and interpretation.
-- **SCR-F1-S10 (No algorithmic gate).** A search reading changes the cut only after inspection of source claims.
+- **SCR-F1-S10 (Grounds for selection).** A source choice rests on inspected claims and their contribution. If the use credits a particular party with independent selection, the material supplied and that party's actual choices are distinguishable.
 - **SCR-F1-S11 (Reopen conditions).** The result says which question, use, edition, rival, counterexample, or transfer-boundary change reopens it.
 - **SCR-F1-S12 (Domain-method boundary).** A required systematic or appraisal-bearing review remains with its domain method.
 - **SCR-F1-S13 (SoTA source roles).** A cut used for a SoTA claim assigns every retained source one of the comparison roles defined in `E.8:11`, records it in plain wording, and says which retained contributions can change the answer. F.1 does not restate or supersede the E.8 definition.

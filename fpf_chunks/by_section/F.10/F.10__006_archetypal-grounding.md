@@ -6,12 +6,12 @@ section_id: "F.10:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:5 — Archetypal grounding"
-line_start: 131055
-line_end: 131082
+line_start: 131119
+line_end: 131146
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ For a different July clause, suppose the service is available whenever either of
 
 #### F.10:5.2 - Approved method description
 
-One exact safety-controller MethodDescription is `StandardStatus=Approved` only under the named standard/profile edition, source relation, scheme, scope, window, and selection use. That status neither creates the MethodDescription nor proves an approval speech act, permission, method enactment, or response-time satisfaction.
+One exact safety-controller MethodDescription has `StandardStatus=Approved` under the named standard/profile edition, source relation, scheme, scope, window and selection use. If the effective policy permits use of approved editions, check that this one qualifies. A requirement for a particular approver's act, a controller run or response-time satisfaction needs grounds for that further claim. Status presupposes the identified MethodDescription.
 
 For a controller run independently admitted as `U.Work` under A.15.1, keep that occurrence separate from its response-time measurement result. That result and its evidence-use relation can enter direct clause evaluation. A separate requirement status may follow from the evaluation; it does not inherit `Approved` by label or family edge.
 

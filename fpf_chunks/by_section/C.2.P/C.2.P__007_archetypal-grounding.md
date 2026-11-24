@@ -6,12 +6,12 @@ section_id: "C.2.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:5 — Archetypal Grounding"
-line_start: 54881
-line_end: 54920
+line_start: 54912
+line_end: 54951
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,11 +66,11 @@ keywords:
 
 **Starting sentence:** “The dashboard approves launch.”
 
-**Questions:** Is the dashboard the decision, or does it display one? Which exact project object carries the approval claim?
+**Questions.** What did the service display, who or what made the decision, and what does the applicable rule authorize on that outcome?
 
-**Result when a passing gate decision is established:** “The dashboard shows `GateDecisionResult GD-17` for release candidate R; the decision, not the display, records that the gate passed.” E.24.PUB separates publication form, carrier, and occurrence; use E.17 when publishing a reader-facing account of the accepted decision. A.21 supplies the gate-decision meaning. The reader may find and cite GD-17, but must use the direct release or permission rule for launch. Stop.
+**When a decision is available.** The service may display an authorized board’s `GateDecisionResult GD-17` for candidate R, or the service may itself have applied the gate rule under its mandate and displayed its own result. Cite the decision for its actual disposition, including refusal or conditional passage. A reliable display can supply the needed evidence. Under A.21, establish what passage of this gate authorizes for this candidate, actor and time. A standing rule can make it the final condition for launch. Use E.24.PUB for the occurrence and carrier of publication and E.17 for a reader-facing account when those questions arise.
 
-**Result when no decision resolves:** “The dashboard is only a cue; launch approval is unresolved.” Block approval-bearing use until the required decision is recoverable under the direct approval rule.
+**When the outcome is open.** A status indicator with no established meaning for launch leaves approval unresolved. Establish its connection to the applicable decision or rule before relying on it to launch. If the question concerns only what appeared on the screen, an adequate observation of the screen can settle it.
 
 #### C.2.P:5.1 - Boundary and Anti-Cases
 | Boundary case | C.2.P result | Why this protects use |

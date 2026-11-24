@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__013_sota-echoing.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:11 — SoTA-Echoing"
-line_start: 10841
-line_end: 10850
+line_start: 10854
+line_end: 10863
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

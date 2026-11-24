@@ -6,12 +6,12 @@ section_id: "A.16.2:19"
 section_title: "Review Matrix for Retreat Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__018_review-matrix-for-retreat-integrity.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:19 — Review Matrix for Retreat Integrity"
-line_start: 35854
-line_end: 35863
+line_start: 35871
+line_end: 35880
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,7 @@ keywords:
 A reviewer can test retreat integrity with five questions:
 
 1. **Was the trigger explicit?** If not, the retreat risks becoming retrospective narrative repair.
-2. **Were the affected claims updated?** If the earlier route selection, endpoint admission, gate result, publication availability, current-use claim, evidence-use basis, or actual authority relation no longer applies, revise that dependent claim under its direct pattern.
+2. **What changed for each dependent claim?** Establish which route selection, endpoint admission, gate result, publication availability, current use, evidence-use basis or authority relation the retreat affects. Revise claims within your remit under their direct pattern. Where another party must decide, identify the consequence and how it reaches that party. An earlier decision can remain an established historical fact even as its grounds for present use change.
 3. **Did valid witnesses survive?** If all earlier grounding disappeared without reason, the retreat probably became erasure.
 4. **Was the move kind correctly named?** Reopen, sketch-backoff, respecify, and retire solve different problems; confusing them obscures what changed.
 5. **If the next use needs successor information, is its basis clear?** Distinguish an obtaining successor relation, a supported no-successor result and an unresolved question.

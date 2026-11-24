@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:5 — Archetypal Grounding"
-line_start: 65326
-line_end: 65383
+line_start: 65361
+line_end: 65422
 dependencies:
   - "A.1"
   - "A.14"
@@ -72,6 +72,10 @@ The reidentification rule permits a compatible canon revision or replacement Met
 `Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and a published discipline card remain separately governed. This example establishes no C.20 part predicate for them, so their parthood remains unresolved. A positive or negative part claim needs the corresponding C.20 grounds.
 
 For A.1's larger-assembly test, the separately identified rule episteme `EngineeringFieldAssemblyRule-v3` describes a governed larger-field construction whose applicability requires one constituent field to expose stable hazard-constraint meanings, analysis-result meanings, and identity-preserving interfaces to design and verification practices. `SafetyEngineering-SE` has those interfaces and its reidentification rule preserves them, so it is compatible with that possible assembly while remaining the same candidate. The rule episteme does not create the compatibility facts, and this result asserts no actual `disciplinePartOf(SafetyEngineering-SE, Engineering-E)` occurrence.
+
+Consider a verification team that uses the incident reports. Its safety argument now depends on whether an intervention preceded an incident. Sites that transmit reports in batches have been recording when each report arrived. Ask an incident investigator what the source records actually date. If they already identify the events on a comparable time basis, the verification team can recover the order without changing the investigation Method. If only receipt times survive and either order is possible, the earlier case remains unresolved. For subsequent cases, the two practices can agree which events must be distinguishable, arrange observations with sufficient timing resolution and test whether investigators can recover the order. The hazard guidance must say which comparisons the results support, and verification teams must be able to apply that guidance to the next case. If the timing is still too coarse, the field now has grounds to limit its inference. A verification team can make use of this improvement as an external customer.
+
+A stronger conclusion is possible if a verification discipline actually incorporates the safety field. Suppose its operative assembly requires the safety field to maintain the hazard assumptions used across design comparisons, and its verification findings feed the safety field's incident-learning practice. Establish that the assembly admits the identified safety discipline in that role, that both connections operate in the interval being examined and that the field's continuity rule retains this contribution. Those facts can warrant the particular inclusion under §4.2. A contract for individual reports establishes only the contribution the contract specifies.
 
 A C.13 `Gamma_m.sum` trace may report the candidate, three parts, three part-relation occurrences, whole-forming claims, assembly, reidentification rule, and whole characteristic. Writing or publishing that trace does not construct `SafetyEngineering-SE`.
 

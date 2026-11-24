@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:7 — Conformance Checklist"
-line_start: 80072
-line_end: 80088
+line_start: 80129
+line_end: 80145
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 | `CC-C31.ASAP-2` | Identify what the observations or applicable derivation establish for the stated alternatives and scale window. State an unsupported extension as a hypothesis. | A price schedule can settle a quoted cost over the whole window. A reason for skipping a test supplies no measured slope. |
 | `CC-C31.ASAP-3` | Identify the structure expected to remain stable or change, and the relevant exceptions, when the preference depends on that behavior. | Applicable price bounds can order two offers while leaving their internal engineering effort unknown. |
 | `CC-C31.ASAP-4` | Source-return condition is present when a compressed, coarse, extracted, indexed or accounting representation drops distinctions on which the receiving action depends. | Prevents unsafe coarse descriptions. |
-| `CC-C31.ASAP-5` | Waiver reason is one of deontic constraint, safety or law-domain boundary, scale-probe overturn, assurance infeasibility, or context-specific bounded exception. | Prevents false debt labels. |
+| `CC-C31.ASAP-5` | Classify the reason for departure under §4.6. When an effective waiver is claimed, identify the rule that covers this case or the decision made under the authority it delegates. A justified request can complete an advisory commission. | Prevents false debt labels. |
 | `CC-C31.ASAP-6` | `ArchitectureHeuristicDebt` remains report-only unless a decision, risk, work, evidence, assurance, or selected-set record is being used under its governing pattern. | Prevents shadow project authority. |
 | `CC-C31.ASAP-7` | Platform, product-line, modularity, reuse, open-interface, RG, and coarse-graining labels do not establish scale preference by themselves. | Blocks source-label overread. |
 | `CC-C31.ASAP-8` | Mathematical inferences retain their model, correspondence and use conditions. Use C.29 for unresolved representation choice, transfer or reliance; C.31.ASAP governs the distinct scale preference. | Keeps the mathematical and preference grounds explicit without requiring a separate lens output for an adequate domain treatment. |

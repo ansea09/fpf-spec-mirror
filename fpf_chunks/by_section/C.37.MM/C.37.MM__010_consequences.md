@@ -6,12 +6,12 @@ section_id: "C.37.MM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__010_consequences.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:9 — Consequences"
-line_start: 87061
-line_end: 87064
+line_start: 87118
+line_end: 87121
 dependencies:
   - "B.5.MR"
   - "C.2.1"

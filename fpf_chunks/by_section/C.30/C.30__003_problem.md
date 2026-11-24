@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 74889
-line_end: 74911
+line_start: 74940
+line_end: 74962
 dependencies:
   - "A.1"
   - "A.10"

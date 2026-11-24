@@ -6,12 +6,12 @@ section_id: "C.3.3:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__005_forces.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:4 — Forces"
-line_start: 58309
-line_end: 58318
+line_start: 58340
+line_end: 58349
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -31,5 +31,5 @@ keywords:
 | Minimal disclosure vs precision | State only what the receiving use consumes while keeping direction, definedness, and loss inspectable. |
 | Local autonomy vs reuse | Receiving kinds keep their membership distinctions; correspondence does not merge them. |
 | Separate channels vs workload | Scope, sense, and kind correspondence remain separate without forcing all three into every use. |
-| Fresh truth vs useful support | Source results may support reliance but never substitute for receiving admissibility or judgment. |
+| Receiving classification and source evidence | A prior judgment can settle the receiving case if its conditions apply or a justified implication gives the receiving answer. An independently commissioned evaluation also requires the specified performance. |
 

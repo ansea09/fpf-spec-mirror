@@ -6,12 +6,12 @@ section_id: "A.3.4.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:4 — Solution"
-line_start: 13884
-line_end: 13970
+line_start: 13897
+line_end: 13983
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -132,7 +132,7 @@ When change-situation wording includes `function`, `functional`, `functioning`, 
 
 - Is one actual bounded `U.Transformation` established by changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification?
 - Is a selected `TransformationFlowStructure` at issue without being treated as the acting system or the change occurrence?
-- Is performed Work being attributed to a System? Recover each performer's A.13 core and independently admit the Work under A.15.1. Add F.6 only when assignment-bound attribution is being made, then state separately the realization, causal, production, or other Work-to-change relation required by the claim. An assignment occurrence, Work record, common timestamp, or generic transformation-participant fact does not prove performance.
+- Is performed Work being attributed to a System? Recover each performer's A.13 core and independently admit the Work under A.15.1. Add F.6 only when assignment-bound attribution is being made, then state separately the realization, causal, production, or other Work-to-change relation required by the claim. A Work record can establish the occurrence and performer to the extent its contents and provenance support them. A record naming only the intended performer, a shared timestamp or evidence of generic participation in the change leaves that attribution open.
 - Is a non-work functional or physical actor-side claim being made? Recover the system and the participant, operation-application, functioning, causal, or other actor-side relation supplied by its governor. If no actor-side governor is recoverable, leave the actor claim unresolved.
 - Is a distinct influence source claimed? Recover its kind and influence relation. An organization can be an admitted System, a selected structure remains a structure, and a Method or Method family is not made a holon by its label. Use the architecture, Work, communication, constraint or candidate-synthesis relation the claim needs. System membership and action require their own bases when those claims are made.
 - Does the passage concern participant, port, operation-application, relation-signature, or functioning relations at the boundary? Keep them under their governors; a transformation input or output requires its own relation.

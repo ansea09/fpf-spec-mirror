@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
-line_start: 18973
-line_end: 19016
+line_start: 18986
+line_end: 19029
 dependencies:
   - "A.15"
   - "A.20"
@@ -54,7 +54,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | **CC-CSC-8 (Optional branch/named-use split).** | The concrete narrower-use boundary and return are stated once; optional `coarseningBranch` appears only when it selects a branch-specific rule, and no duplicate disposition or mandatory loss tag repeats them. | Keeps compact aids action-selecting rather than authority-looking. |
 | **CC-CSC-9 (Loss/recoverability).** | Exact reuse or reliance cases state every concrete decision-relevant loss. When a proposed use needs recovery, identify its recovery requirements and the selected next move. | Preserves multiple losses while making the next move unambiguous. |
 | **CC-CSC-10 (Chain continuity).** | Every coarsening chain keeps original source episteme, each intermediate episteme, each construction, accumulated loss, and return; otherwise reopen `X`. | Prevents summarization from resetting source identity. |
-| **CC-CSC-11 (Privacy).** | Redaction cases name sharing boundary, withheld claims, risk rationale, blocked accountability/gate uses, and source review path. | Prevents redaction-as-closure. |
+| **CC-CSC-11 (Privacy).** | State who may see the redacted account, which conclusions it supports and which uses require withheld distinctions. Give entitled reviewers a permitted route to the details their review needs. Keep any required inventory of withheld claims within its authorised audience. | Prevents redaction-as-closure. |
 | **CC-CSC-12 (Interop).** | Interop simplification names the operative relation and supports its bounded use under that relation's governing pattern. When that relation is a Bridge between local senses with different interpretation bases, name the F.9 Bridge and separate bounded-use claim; an optional F.9.1 stance note stays separate. | Prevents simplified wording or a stance word from asserting correspondence. |
 | **CC-CSC-13 (No authority by repetition).** | Fluency, citation, repetition, publication visibility, or a more convenient carrier cannot widen use. | Keeps `Y` within its declared use. |
 

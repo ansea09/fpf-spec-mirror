@@ -6,12 +6,12 @@ section_id: "A.15.9:8"
 section_title: "Anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__009_anti-patterns.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:8 — Anti-patterns"
-line_start: 33838
-line_end: 33848
+line_start: 33855
+line_end: 33865
 dependencies:
   - "A.10"
   - "A.13"
@@ -34,7 +34,7 @@ keywords:
 - **Request the artifact.** “Send a report” replaces the question and receiving use.
 - **Mandatory fresh work.** A current qualified result is ignored because the workflow expects a new review, or a useful narrower answer is withheld until every gap becomes a request.
 - **Approval by appearance.** A title, logo, signature, provider label, dashboard state, or *verified* tag is treated as authority or acceptance.
-- **Receiver takeover.** The request dictates the supplier's Method or rewrites the professional conclusion to fit the desired decision.
+- **Receiver takeover.** The receiver decides a Method choice entrusted to the supplier or supplies the conclusion the supplier was commissioned to reach. Where the agreement specifies a Method, the supplier can perform it and reach its own professional judgement.
 - **Supplier takeover.** Supplying one result is treated as making the receiver's decision.
 - **One contribution account as ontology.** Request, assignment, Work, communication, result, evidence, acceptance, and authority become fields of one invented world-side object.
 - **Tool exceptionalism.** AI output is either accepted by fluency or rejected by species rather than assessed under the same result, evidence, Work, and authority rules.

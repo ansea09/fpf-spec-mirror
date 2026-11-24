@@ -6,12 +6,12 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:intro — Intro"
-line_start: 58273
-line_end: 58291
+line_start: 58304
+line_end: 58322
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -35,7 +35,7 @@ keywords:
 **Depends on.**
 
 - **C.3.1 — U.Kind and U.SubkindOf:** kind identity follows candidate domain and membership distinction; subkind facts form a preorder; locality and scheme editions are not identity keys.
-- **C.3.2 — Kind intent, admissibility, judgment, and extension:** check `admissible | not-applicable` before a fresh `true | false | unknown` receiving judgment.
+- **C.3.2 — Kind intent, admissibility, judgment, and extension:** check `admissible | not-applicable` before establishing the `true | false | unknown` receiving judgment.
 - **A.2.6 — USM:** Claim scope and selected context slices remain separate from kind identity and kind correspondence.
 - **C.2.2 — F–G–R:** justified bridge penalties affect reliance R, not F or G.
 - **C.2.3 — Formality assessment:** the assessed expression properties belong to the declaration or assertion episteme.

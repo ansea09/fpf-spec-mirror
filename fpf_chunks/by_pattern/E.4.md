@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
-line_start: 98544
-line_end: 98950
+line_start: 98601
+line_end: 99007
 dependencies:
   - "C.20"
   - "C.33"
@@ -276,11 +276,11 @@ For a release or reproducible use, identify the Suite edition and the constituen
 
 When a use needs continuity across releases, a **framework product series** is a continuing collection of edition epistemes. A constitution decision starts it by identifying at least one existing edition, its intended readers and use, content-selection and edition-admission rules, a reidentification rule, and later-review and retirement conditions. When that decision takes effect, the series begins and the first edition is admitted. The decision Work and its record remain separate from the series and the edition's belonging to it. Publication, maintenance and future availability require their own claims.
 
-A later edition joins only when its source-edition relation and the series rule hold and a further admission decision takes effect. A fork or translation is not admitted by provenance alone.
+To decide whether a later edition belongs, establish its source-edition relation and apply the series rule in force. That rule may admit every edition meeting its stated conditions. If it reserves admission to an editor or board, establish that their decision took effect for this edition. A fork or translation qualifies when the rule covers that relation and its other conditions hold.
 
 The series need not have one total version order. Supersession, unavailability, non-currentness or edition retirement does not end the edition's belonging while the same series continues, and a return to availability does not create a new occurrence.
 
-If the series ends or is reidentified as another series, current belonging to the old series ends; the past fact remains. Another series needs its own admission decision. If a claimed earlier admission never satisfied the rule, correct the false claim instead of preserving it as historical truth.
+If the series ends or is reidentified as another series, current belonging to the old series ends; the past fact remains. Establish belonging to any other series under that series’ constitution and admission rules. If a claimed earlier admission never satisfied the rule, correct the false claim instead of preserving it as historical truth.
 
 The same publishing arrangement can be used for a constituent DPF, a Suite framework or an independently managed Reference. It describes their publication continuity, not `DisciplinePartOfRelation`. A series may end while the described discipline continues, and a revised Suite edition may correct its account of that discipline. Establish publication, availability and maintenance separately through E.17, E.24.PUB, C.2.P and G.11 when those claims matter. Do not make a routine reader reconstruct admission decisions merely to use a current Method.
 

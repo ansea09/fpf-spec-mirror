@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
 line_start: 6657
@@ -189,7 +189,7 @@ A.2.5 defines the assignment-state relation and guides recognition of its occurr
 
 Start from the decision or operation that uses the state. Separate the authority needed to reserve or assign work now from the condition a performer must satisfy when the operation takes place. A warranted conditional reservation can leave that later condition open.
 
-1. Identify the holder and the exact `U.SystemRoleAssignment` required for each operation. Establish when that assignment must obtain. The same holder may be required at two distinct actions even when the intervening period is free.
+1. Establish what assignment each operation requires and when it must obtain. For a future shift, the applicable rule can allow reservation now and selection of a qualified holder later. Establish who may arrange that coverage and the terms on which it can be assured or confirmed. Identify the exact holder and `U.SystemRoleAssignment` when the decision needs them. A rule can require a named holder in advance or the same holder at two distinct actions even when the intervening period is free.
 2. Select the exact `SystemRoleAssignmentStatePredicate` and use its temporal reading. Does the rule require truth at one instant, at several actions, throughout an interval or for a stated portion of it? For a proportion, use the receiving rule's measure and interval.
 3. For an account of actual performance, establish coverage from the extents of the relevant state occurrences. For a proposed assignment, establish what can be assured for the required times or make admission conditional on the outstanding state check. Each occurrence retains its own assignment, predicate and uninterrupted extent. For continuous service, cover the required interval. If service relies on a handover, establish who takes over, what must reach them and whether service is maintained across the transition. A permitted substitution can remain unused.
 4. Use the evidence and currency required for the decision and establish the other admission conditions under their direct patterns. An adequate ground for a decision about future work can support admission on stated terms. A later claim that the predicate actually held at the required times needs grounds for those times.

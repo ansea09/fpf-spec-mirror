@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5"
 section_title: "Implementation & Binding into B.5.2 (two injection points)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__006_implementation-binding-into-b-5-2-two-injection-points.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:5 — Implementation & Binding into B.5.2 (two injection points)"
-line_start: 52601
-line_end: 52632
+line_start: 52626
+line_end: 52657
 dependencies:
   - "A.17"
   - "A.18"
@@ -31,7 +31,7 @@ keywords:
 **Step 2 — Generate candidates.**
 **Before generation.** Establish the Method’s applicable input/seed conditions. For actual generation Work, satisfy its independently applicable authority, assignment, scope, window, budget and permission conditions, including USM coverage and an enactable RSG state when the governing use requires them. A theoretical candidate comparison does not acquire a fictional performer or permission gate. A generated candidate’s ConstraintFit is assessed after construction and controls its admission to the specified comparison.
 
-When the pattern is imported, use NQD-Generate for the selected generation contribution. Its candidate package carries conjectural content and the constituted coordinate results and provenance used. Report diversity to the extent supported by its declared reading; generation assigns no assurance level.
+For a generation task, use NQD-Generate or a declared equivalent. A service can run the generator and a different team can assess the resulting candidates. To assess an existing package, recover the population, measurements and provenance needed for that comparison. A fresh run remains due when separately commissioned. Attribute generation and assessment to the contributors whose work supports each claim. Report diversity within the declared reading. An assurance claim needs its own grounds.
 
 **Step 3 — Plausibility filters.** Compare the candidates whose predictions or mechanisms could answer the explanatory question. A candidate dominated on the chosen coordinates can predict an observation the front leaves unexplained. Restrict this comparison to the front when the exclusions preserve the answers needed here. Apply B.5.2’s plausibility criteria:
 

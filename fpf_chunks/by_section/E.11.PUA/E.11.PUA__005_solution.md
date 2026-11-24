@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PUA — Apply a Selected Pattern and Use Its Result in the Original Work"
   - "E.11.PUA:4 — Solution"
-line_start: 110382
-line_end: 110857
+line_start: 110443
+line_end: 110918
 dependencies:
   - "A.13"
   - "A.15"
@@ -65,11 +65,11 @@ Open these distinctions only when candidate retention, selection, result declara
 Before making any pattern-use record, ask what the recipient needs to decide, explain or do. What can this use of the pattern establish for that work? Stop when the commissioned result is available. If this result is one premise, carry it back to the outstanding question.
 
 1. **Recognize the working situation.** Name the subject or relation in ordinary domain language and ask the current practical question. State an exact kind now only when a nearby kind difference can change the pattern or result.
-2. **Inspect one direct pattern.** Read its Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and nearest stronger neighbor. Do not select from its title or one trigger word alone.
+2. **Establish why this pattern fits.** Use an adequate understanding of the selected edition, its Solution and the conditions under which it applies. If the title is all you know, read the problem and Solution. Inspect the forces, consequences, limits or a neighbouring pattern where they could change the choice. Carry out a separately commissioned reading or comparison.
 3. **Say what useful result would answer the question.** Name the entity, obtaining relation, honest interim entity, or blocker plainly enough to distinguish it from a plan, description, recommendation, work occurrence, or nearby value. Name the Method, plan, dated Work, Transformation, evaluation, decision, or later-use object relative to which it is a result only when the phrase depends on that object. Add an exact kind, predicate, pattern locator, `ClaimGraph`, or category-correct basis only when ambiguity or replay makes it necessary.
 4. **Use the pattern's `Solution`.** The agent follows the guidance under its stated conditions. Name a system-role classification or assignment only when that claim matters; it necessarily matters for a precise Agent or actual-Work performer claim because A.13 requires both in the performer core.
 
-   If actual Work is current, first recover every precise performer's A.13 core; A.15.1 then independently admits the dated Work from the exact performance history, enacted Method, extent, and containing-System relation. Add F.6 afterward only when this use needs precise assignment-bound attribution through the same obtaining A.13 assignment; otherwise the Work-only account stops after A.15.1.
+   If actual Work is current, apply A.15.1 to the dated performance, its enacted Method, extent and containing System. Establish the A.13 basis of the System or Systems to which you attribute work at that extent. To attribute a particular contribution under an assignment, apply F.6 to that performer’s Work and its obtaining assignment.
 
    Identify a Method, authority, responsibility, or another independent value only when its own claim is current. A responsibility claim names its predicate and participants, or the A.6.RCD missing governor; routine pattern use needs no such expansion.
 
@@ -257,7 +257,7 @@ In a boundary record, `return`, `wrongTurnRecovery`, `strongerNeighbor`, and `re
 
 #### E.11.PUA:4.4 - Candidate basis under named reliance
 
-Construct a durable candidate only after inspecting the direct pattern's Problem frame, Problem, Forces, Solution, Consequences and ordinary boundary. When a named reliance needs its basis addressable, state one ordinary C.2.1 claim whose EntityOfConcern is that exact CandidatePatternUse episteme. Say which direct Solution content and case facts support using the pattern for this practical question and expected result, with their applicability and unresolved or contradicted premises. Ordinary conversational use need not materialize this account.
+Base a durable candidate on the relevant edition’s problem, Solution, conditions, consequences and ordinary boundary. Reuse an applicable examination of that content. Inspect what still needs to be established or examined afresh under the commission. When a named reliance needs its basis addressable, state one ordinary C.2.1 claim whose EntityOfConcern is that exact CandidatePatternUse episteme. Say which direct Solution content and case facts support using the pattern for this practical question and expected result, with their applicability and unresolved or contradicted premises. Ordinary conversational use need not materialize this account.
 
 An optional representation of the basis claim is:
 

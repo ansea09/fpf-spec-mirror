@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 53600
-line_end: 54237
+line_start: 53625
+line_end: 54268
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,7 +53,7 @@ If the account and its use are already clear, perform the subject work directly.
 
 ##### C.2.1:4.0.2 - Knowledge work: claims, grounds and what recipients can do
 
-When a team develops knowledge about a subject, it can obtain several connected results. It articulates claims that can be examined, establishes grounds for relying on them, and learns to use the relevant distinctions in its work. Developing an account, supporting its claims and acquiring that ability can require different actions.
+Developing knowledge can involve writing an account, establishing grounds for its claims and learning to use its distinctions. Different participants can do these things. A team may deliver a well-supported conclusion that its recipient can use immediately. To establish that the recipient acquired an ability, examine the recipient’s own work.
 
 An **episteme**, E of kind `U.Episteme`, is an organized claim-bearing whole about an identified subject. A condition can qualify an assertion, a premise can support a conclusion, and an exception can limit a rule. These connections make it possible to examine and use the claims together. In FPF, the exact claims G, their subject T and their effective interpretation R identify E. The next section explains those constituents and participants.
 
@@ -65,7 +65,7 @@ Knowledge engineering can retain hypotheses, disputed assertions, known errors a
 
 For a requirement, distinguish the assertion that a requirement has been imposed from the requirement it expresses. “The drawing requires a clearance of at least 0.4 mm” reports something about the drawing. “The clearance shall be at least 0.4 mm” states a condition on the intended assembly. The first can be checked against the drawing; relying on the second involves the applicable requirement and checking practice. A plan similarly preserves its intended coordination claims from the planning perspective, including after the planned time.
 
-When the receiving question is whether a performer can apply the knowledge, name the work they must perform and the conditions of that performance. A.2.2 supplies the ability-and-fit comparison. For example, a technician may be able to explain a pressure limit while still needing help to select the correct limit for a changed operating condition. Qualify each claim by its actual evidence.
+For a claim about ability, identify the work, whose performance is at issue and the conditions under which they must perform it. A technician who can explain a pressure limit may rely on a colleague to select the limit for a changed condition. Their combined performance can meet a team’s commission. To assess the technician’s independent selection, use evidence from occasions on which that choice was theirs. A.2.2 supplies the ability-and-fit comparison.
 
 The common work is to maintain the connections: observation and reasoning inform the claims; an expression makes those claims recoverable; a person or system uses them in a particular operation; the operation and its consequences can expose a need to revise the account or its use. The following sections explain how to follow those returns.
 
@@ -106,6 +106,10 @@ An **evidence account** is an episteme whose claims report a result, observation
 Grounding makes a designated empirical claim inspectable through its actual connection with the world. The empirical result can support or refute that claim. Evidence use explains the direction and scope of support; an assurance judgement answers the particular reliance question that requires it. C.2.6 connects these contributions with the receiving work. Keep an ordinary adequate explanation when it supplies the needed connection.
 
 For a formal derivation, recover the interpreted premises and inference that establish the conclusion. When that conclusion is applied to a real system, also recover the model-to-subject correspondence and empirical premises of that application. For a normative account, recover the rule or decision that gives the requirement its force; empirical inspection can then establish whether the subject meets it. These connections allow formal and normative content to inform practice while retaining their actual grounds.
+
+**From a supplied claim to a possible larger account.** Start with the finding and identify who might have relied on it and for which question. Look for the reasoning in a calculation, explanation or record of a decision. Read what that account actually asserts about which subject, how it interprets the finding and what conclusion follows from it. It might adopt the finding as a premise, cite it as grounds for a separately stated premise, or simply report that someone made the claim. A reference can help locate any of these connections. A credible reconstruction of an inference establishes what the evidence could support. If the question concerns how a particular author reached the conclusion, establish which grounds the author actually used.
+
+Work back from the required conclusion to the contribution it needs. If a premise is missing, specify what observation, argument or clarification could settle it. Its result may require restricting or revising the larger conclusion. If the recipient asks you to construct that account, give the assembled reasoning in a form they can interpret and use. If the supplied claim answers their question directly, it can complete the work on its own.
 
 When several accounts contribute to a conclusion, give each its contribution: for example, a necessary premise, an independently sufficient argument or evidence that limits applicability. Preserve a material conflict and distinguish repeated reports of one observation from additional observations. B.1.3 supplies the corresponding synthesis and target-scheme compilation methods. Use C.2.1 to identify the resulting account and the original accounts on which it relies.
 
@@ -219,6 +223,8 @@ A warehouse team maintains an account of passages used by a robot. A dispatcher 
 The account's subject is the selected warehouse arrangement. Its claims include each attributed length and width. The interpretation fixes the endpoints, measurement meanings and units. The viewpoint chosen for this route table calls for a length and width for each passage under consideration and a recoverable admissibility condition. A request for one admissible route can already be answered from the passages that establish it.
 
 The table is an expression of the relevant claims. A graph representing the same passages allows a shortest-path calculation after inadmissible edges have been removed. Under the stated correspondence and route assumptions, A–B–D has length 7 m and A–C–D has length 10 m. A robot-readable record and a diagram for a meeting can express the same route result while supporting different recipient operations. A publication provides a particular expression through an identified carrier under the applicable access conditions.
+
+To find where one survey entry was incorporated, start with the width of B–D. The dispatch justification quotes the width as 1.1 m and compares it with the 1.0 m limit to admit B–D on the 7 m route. The maintenance register records receipt of the same survey and links the file. A correction to the width calls for a new route judgement while the register can still give the right receipt date. If the dispatch record said only “route approved”, enquire how the decision was reached before attributing the width comparison to that dispatcher.
 
 A check of the survey identifies a transcription error: the observation for B–D recorded 0.8 m, while the table copied it as 1.1 m. Recover the passage, measurement meaning and relevant conditions of that observation. Here the warehouse system participating in the inspection is the grounding holon; the survey report is an evidence account for the width claim. First repair the warehouse claim and its expression. Then return to the route operation: B–D is excluded, so the earlier 7 m route conclusion loses its premise and the remaining shown route is A–C–D. The route viewpoint can remain unchanged. The table layout can remain unchanged. A previous calculation that used only the lengths for a different, explicitly width-independent question may remain valid.
 
@@ -579,7 +585,7 @@ Names ending in `Slot` are admissible here only as SlotKinds inside the exact `R
 The relation obtains only when all of these conditions hold:
 
 1. the two epistemes have different C.2.1 identities;
-2. the later episteme actually uses the earlier episteme as the source for the claimed revision;
+2. the authoring of the later episteme actually used the earlier episteme as the source for this revision, whether the authoring was individual or distributed;
 3. one applicable edition-continuity policy or rule states which claim, EntityOfConcern, and effective-reference-scheme features must be preserved, which may deliberately change, and what counts as continuation for this episteme family;
 4. the exact preserved and deliberately changed features satisfy that rule;
 5. no failure condition in that rule classifies the case as a fork, translation, retargeting, or independent reconstruction instead.
@@ -638,7 +644,7 @@ An episteme used as a description is admitted for specification use only when th
 
 **Shared identity-inception boundary.** Work or transformation can explain how an entity came about, but C.2.1 by itself establishes neither when that entity first existed nor that the work caused its inception. Open this boundary only when a current receiving claim asks whether a new entity began. Then use the subject's direct inception rule: its pattern defines the predicate and identity rule, and current case facts must satisfy them. If no such rule is recoverable, return one `missing-governor` blocker naming the entity or candidate basis, available case facts, required inception predicate, and receiving use. When the current question is only changed episteme identity, form, representation, view, or publication, do not open this boundary.
 
-When inception is attributed to Work, apply **A.15.PROD:4.5**. Begin with the subject's exact `productIdentitySpecification` and its named applicability predicate or filled local claim for the candidate basis, subject context, and boundary. Then recover actual Work effects and the declared Work-to-change and change-to-identity bases, locate the earliest satisfying `inceptionBoundary`, and identify exact `identityClosingWork`. Designate the resulting entity only on the after-side of that boundary and retain the exact specification and applicability basis used for the claim. A missing required basis stops the positive claim; missing recoverable Work granularity for `identityClosingWork` returns that section's work-granularity blocker.
+When inception is attributed to Work, apply **A.15.PROD:4.5**. Begin with the subject's exact `productIdentitySpecification` and its named applicability predicate or filled local claim for the candidate basis, subject context, and boundary. Then recover actual Work effects and the declared Work-to-change and change-to-identity bases, locate the earliest satisfying `inceptionBoundary` and identify the Work whose effects first met the rule. When several independently admitted occurrences jointly did so, establish their individual and combined contributions to the same edition. Designate the resulting entity only on the after-side of that boundary and retain the exact specification and applicability basis used for the claim. For attribution to a single `identityClosingWork`, establish that occurrence and, if it is composite, its work-part relations. Missing work-part grounds limit that composite attribution.
 
 A.6.2-A.6.4 define episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When a possible Bridge between exact F.17 cells is at issue, use F.9 to test whether that relation obtains. If the morphism relies on that Bridge for a proposed use, state a separate C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity in its ClaimGraph, then recover the A.10 evidence-provenance path and RelianceDisposition for that same bounded use, adding B.3 only when a named assurance claim is at issue; none of those facts makes the morphism application occur. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
 

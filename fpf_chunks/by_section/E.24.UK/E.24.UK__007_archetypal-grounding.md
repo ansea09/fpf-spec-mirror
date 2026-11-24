@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 126268
-line_end: 126353
+line_start: 126332
+line_end: 126417
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -95,9 +95,9 @@ In each closed replay, the `E24UK-*` reference identifies the admission-result e
 
 **Rejected near-miss — a separate `U.Capability` individual.**
 
-1. **Subject and use.** The source construct proposes `Pump37MaintenanceCapability_2026` as an individual distinct from holder `Pump37`. Recover what planning, promise, work-fit and development uses need: what the pump can do under stated conditions and bounds, with the warrant required for the receiving use.
+1. **Subject and use.** The source construct proposes a separate individual named `Pump37MaintenanceCapability_2026`. Start from the capability the user needs. To plan throughput, establish what `Pump37` can pump under the operating conditions. To plan servicing, identify the workshop, contractor or other System expected to carry out the required maintenance, and what it can do with the available support. For a claim of self-maintenance, establish which operation the pump itself can perform.
 2. **Coverage.** The holder retains `U.System` identity. An identified ability assertion uses C.2.1 `U.Episteme` identity. The proposition, its assertion, support and demand-fit result need no second capability individual; no additional local classification is needed for those uses.
-3. **Discriminating cases.** New evidence can change support without performance change. A stricter throughput demand can change fit. Calibration can change actual ability with unchanged paperwork. Loss and recovery change the qualified predicate at the stated times; replacing the holder changes the assertion's subject. None requires reidentifying a second individual.
+3. **Discriminating cases.** New evidence can change support without performance change. A stricter throughput demand can change fit for the pumping question. A different maintenance operation or loss of access to the necessary equipment can change the workshop’s ability to carry out the service. Calibration can change actual performance with the paperwork unchanged. Loss and recovery change the qualified predicate at the stated times; replacing the holder changes the assertion's subject. None requires reidentifying a second individual.
 4. **Tests and result.** No additional classificatory distinction survives recovery, so `E24UK-NAR-U-CAPABILITY-01` records `reject`. This rejects the new kind commitment, not the reality of the holder's ability. A holder-indexed tuple cannot substitute for an independently needed subject and identity rule.
 5. **Reopening condition.** Reopen only when a concrete receiving use depends on continuity of a separate object and the available evidence supplies its required identity facts, including any obtaining dependence relation and its identity effect. A new record, evidence window, ability label or local-kind declaration alone does not supply that need.
 

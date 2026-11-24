@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 122712
-line_end: 122996
+line_start: 122776
+line_end: 123060
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -47,7 +47,7 @@ Test the rubric against that use. Could a work which answers a different questio
 
 When several contributions are needed, retain what their available evaluations establish and ask about the necessary connection still unanswered. A good explanation, a supported source claim and a correct constituent operation can all remain valid while their combined use is unestablished. Evaluate that connection for its own object and use. Combining unlike scores cannot establish quality for the whole.
 
-Read the request in the words the evaluator will receive. If the requester supplies the criterion, a model or the relation between two contributions, what can the assigned work establish about using it? If the judgement concerns the practitioner's ability to choose or construct it, identify where the practitioner made that choice under the conditions being evaluated. An observation, the design itself or an earlier record can already establish it. Ask for the reasoning when the judgement requires it and the available work leaves it open. Where a narrower assessment supplies a premise, keep the wider evaluation question with the person responsible for its conclusion.
+Read the request in the words the evaluator will receive. If the requester supplies the criterion, a model or the relation between two contributions, what can the assigned work establish about using it? If the judgement concerns the practitioner's ability to choose or construct it, identify where the practitioner made that choice under the conditions being evaluated. An observation, the design itself or an earlier record can already establish it. Ask for the reasoning when the judgement requires it and the available work leaves it open. Where a narrower assessment supplies a premise, keep the wider evaluation question with whoever is responsible for its conclusion.
 
 Write the request in ordinary language with these bindings recoverable, as in section 5. The local names and schemas below specify their exact meanings when the question is represented as a `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration`. Reuse the selected evaluation's adequate descriptions and defaults. Add an intended evaluator's identity or a dated-Work account only when the receiving question requires it.
 
@@ -71,7 +71,7 @@ The local support names ending in `@Context` serve only compatibility and retrie
 | Local name | Kind and use in this pattern |
 |---|---|
 | `QualityEvaluationQuestionFrame` | `U.Episteme` whose EntityOfConcern is the exact object version under evaluation; its ClaimGraph carries the requested quality-evaluation question about that version and its exact use bindings. |
-| `QualityEvaluationUseDeclaration` | `U.Episteme` whose EntityOfConcern is the same object version. It describes how evaluation of that version is intended to be performed and interpreted, referring separately to the evaluation pattern, optional semantic Method, selected characteristic space, predicate and any comparator, ClaimScope, quality-model descriptions, expected evidence basis, result form, and qualification window. It may state an eligibility, independence, capability or planned condition for the evaluator when that condition changes the question or admissibility of the result. It may name an intended evaluator only when that identity is part of the question. It contains no actual performer, assignment, or Work occurrence. |
+| `QualityEvaluationUseDeclaration` | `U.Episteme` whose EntityOfConcern is the same object version. It describes how evaluation of that version is intended to be performed and interpreted, referring separately to the evaluation pattern, optional semantic Method, selected characteristic space, predicate and any comparator, ClaimScope, quality-model descriptions, expected evidence basis, result form, and qualification window. It may state an eligibility, independence, capability or planned condition for the evaluator when that condition changes the question or admissibility of the result. It may name a particular evaluator, or specify distinct contributors and their relationship, when the question depends on their identity or independence. It contains no actual performer, assignment, or Work occurrence. |
 | `ObjectVersionUnderQualityEvaluation` | Exact `U.Entity` version being evaluated, paired with its exact `U.Kind`. |
 | `EvaluationCharacteristicSpaceSelection` | One exact `U.CharacteristicSpace` selected for this evaluation use. The episteme that specifies the space has its own identity. |
 | `EvaluationCriterionSelection` | The exact by-value `CharacteristicSpacePredicate`, exact admitted `ComparatorSpecRef`, or both, required by the governing evaluation pattern and, when declared, its separately identified semantic evaluation Method. At least one is present. |
@@ -100,8 +100,8 @@ QualityEvaluationUseDeclaration <: U.Episteme:
   claimGraph: NonemptyClaimContent by value
   referenceScheme: EpistemeInterpretationScheme by value
   editionId
-  evaluatorConditionRef?: U.EpistemeRef, referencing an eligibility, independence, capability, or planned condition only when it changes the evaluation question or admissibility of the result
-  intendedEvaluatorSystemRef?: U.EntityRef, referencing one admitted U.System only when that identity is part of the declared question; it asserts neither assignment nor performance
+  evaluatorConditionRef?: U.EpistemeRef, referencing an eligibility, independence, capability, or planned condition including a required combination of evaluators, their distinct contributions and terms of independence, when this changes the question or result admissibility
+  intendedEvaluatorSystemRef?: U.EntityRef, referencing one admitted U.System when that identity is part of the question. For several required evaluators use evaluatorConditionRef to specify them and their respective contributions. Neither reference asserts performance
   evaluationPatternLocator: U.EntityRef, locating the exact FPF pattern description that contains the defining or constraining ClaimGraph
   semanticEvaluationMethodRef?: U.MethodRef, referencing the separately identified U.Method used for the evaluation
   selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing one exact U.CharacteristicSpace
@@ -139,15 +139,15 @@ Construct the expected basis from those values, the expected evidence positions 
 
 At least one of `selectedEvaluationPredicate` and `selectedComparatorSpecRef` is present. Both may be present. A label such as *review*, *quality*, or *current context* supplies neither. A.19 defines the predicate by value. For comparator admission, use A.19.CPM or the rule of the consumer that directly admits the comparator. Identify any actual comparison application separately. Selecting the predicate or comparator does not by itself establish the evaluation scope, evidence, time, Work, or result.
 
-`evaluatorConditionRef` states only a condition that changes the evaluation question or admissibility of its result. `intendedEvaluatorSystemRef` is present only when the declared question depends on that exact intended System. Neither field establishes assignment or performance.
+`evaluatorConditionRef` states only a condition that changes the evaluation question or admissibility of its result. `intendedEvaluatorSystemRef` is present only when the declared question depends on that exact intended System. An evaluation requiring separate personal judgements can specify each participant and the required relationship in `evaluatorConditionRef`. An evaluation assigned to a board can call for one joint conclusion. Neither field establishes that an assignment or performance occurred.
 
-The actual evaluator System, every obtaining assignment, and dated evaluation Work belong to the separately identified evaluation application or result account. Keep any local evaluator system-role classification separate and route unresolved *role* wording through `E.10.ROLE`.
+Establish actual performance at the claimed scale in the evaluation application or result account. Identify a particular participant or obtaining assignment where that attribution matters. A board’s verdict by itself leaves open which member found a defect. Keep any local evaluator system-role classification separate and route unresolved *role* wording through `E.10.ROLE`.
 
 `evaluationPatternLocator` locates the pattern that defines or constrains the evaluation; it is not the Method, performer, Work, or result. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it. Characteristic-space, Q-Bundle, rubric, profile, evidence-basis, and result-form references identify separate descriptions.
 
 None of these declaration fields is dated evaluation Work or an evaluation result. A pre-evaluation frame does not assert that the future assessment has occurred. It may reference independently obtaining Work as the checked object, consumer or prior basis, retaining that Work’s admission and temporal conditions. An ordinary result that asserts no actual Work needs no Work identifier.
 
-If a compact projection does assert dated evaluation Work, recover every exact actual performer through A.13 and follow A.15.1 for independent Work admission. The performer, Method, time, containing System, Work identity, and the result relation remain recoverable. Add assignment and F.6 refs only when the projection or receiving use expressly represents precise assignment-bound attribution. Missing or failed F.6 alone leaves independently admitted Work intact. Recheck any admission premise invalidated by the same finding and its dependent conclusions under A.15.1.
+If a compact projection does assert dated evaluation Work, establish the A.13 basis of each System to which work is attributed at the stated scale and follow A.15.1 for independent Work admission. The performer, Method, time, containing System, Work identity, and the result relation remain recoverable. Add assignment and F.6 refs only when the projection or receiving use expressly represents precise assignment-bound attribution. Missing or failed F.6 alone leaves independently admitted Work intact. Recheck any admission premise invalidated by the same finding and its dependent conclusions under A.15.1.
 
 Keep any durable result episteme, evidence use, provenance, currentness, viewpoint, grounding, and Work-to-result or decision-use relation under their own patterns. A frame, declaration, description, assignment, dashboard, or carrier establishes none of them.
 
@@ -202,7 +202,7 @@ QualityEvaluationQuestionFrame <: U.Episteme:
   nonUseBoundaryDescriptionRef?: U.EpistemeRef, referencing a non-use-boundary description only when the grounded condition in CC-E22-6 holds
 ```
 
-The frame's exact object version, characteristic space, predicate/comparator binding, ClaimScope, and qualification window equal those of its use declaration and expected evidence basis. These bindings let another evaluator replay the question. The space, predicate, comparator, scope, method and consuming object retain their own identities. A changed binding creates a changed frame edition and requires a newly evaluated result.
+The frame's exact object version, characteristic space, predicate/comparator binding, ClaimScope, and qualification window equal those of its use declaration and expected evidence basis. These bindings let another evaluator replay the question. The space, predicate, comparator, scope, method and consuming object retain their own identities. A changed binding creates a changed frame edition. Use an existing result to the extent its evidence and scope answer the changed question. Obtain the missing judgement and perform a new assessment when one is commissioned.
 
 `resultConsumingUseRef` is not a generic *use* placeholder. Before the intended work or decision occurs, the reference may resolve to one A.15.2 `U.WorkPlan` that names the intended Work, or to the decision question or decision-governing object under its directly governing pattern. It may resolve to `U.Work` only when that dated Work already obtains under A.15.1. The frame neither creates the consuming Work or decision nor authorizes it.
 
@@ -220,7 +220,7 @@ These instructions use the frame's existing `claimGraph`, the declaration's `exp
 
 For landing-input, corpus-facing, `Stable`, release, external-review or another stated use, evaluate the object under the scope for which the floor was requested. If another use is to be evaluated, open a new `QualityEvaluationQuestionFrame`. An easier scope cannot make the current request pass.
 
-The frame and declaration state the evaluation's intended use. Naming an intended evaluator or planned condition establishes neither a current assignment nor Work. When dated evaluation Work is asserted, recover the exact evaluator through A.13 and use A.15.1 to admit the Work independently. Keep evidence use, typed result binding or direct result relation, and optional result episteme separate. Add F.6 only when the evaluation account expressly consumes precise assignment-bound attribution. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
+The frame and declaration state the evaluation's intended use. Naming an intended evaluator or planned condition establishes neither a current assignment nor Work. When dated evaluation Work is asserted, establish the A.13 basis of the evaluator or evaluators at the scale asserted and use A.15.1 to admit the Work independently. Keep evidence use, typed result binding or direct result relation, and optional result episteme separate. Add F.6 only when the evaluation account expressly consumes precise assignment-bound attribution. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
 
 #### E.22:4.4 - Finding and proposal rows
 

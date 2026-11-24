@@ -6,12 +6,12 @@ section_id: "A.6.H:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:4 — Solution"
-line_start: 26235
-line_end: 26335
+line_start: 26251
+line_end: 26352
 dependencies:
   - "A.1"
   - "A.10"
@@ -104,7 +104,7 @@ The word `integrity` never chooses mereology by itself.
 | “The assembled pump remains an integral whole.” | pump, direct identity rule, boundary, independently identified parts, direct assembly or parthood relations, any current selected structure, and the whole-recognition or reidentification question | `A.14`, `C.13`, `A.22`, `A.1`, or `B.2` as selected by the claim | The adjective *integral* or presence of a BoM or assembly record does not establish the whole or relations; relevant recorded facts may support the claim under its rule. |
 | “Data integrity” or another defined term of art | bearer, defined Characteristic or constraint, threat/assumption or qualification basis, and receiving use | the characteristic, constraint, security, measurement, or evaluation pattern | Do not reinterpret the term as structural wholeness unless the sentence separately makes that claim. |
 
-If the source leaves these readings open, preserve the alternatives and block the named use until evidence discriminates them.
+If several readings remain possible, compare what each supports for the current decision. Give the warranted answer when it holds across them. Seek a distinguishing fact when the answer, its required explanation or the action depends on the reading.
 
 #### A.6.H:4.4 - Select the direct relation, not a generic part edge
 
@@ -127,6 +127,7 @@ Ask what the claim of completeness allows the next reader to do.
 | --- | --- | --- |
 | Complete whole or assembly | candidate whole, identity, boundary, required parts, direct relations, construction rule when current, and completion predicate | `A.1`, `A.14`, `C.13`, `A.22`, or the construction/completion pattern |
 | Specification coverage | claim-bearing episteme, described EntityOfConcern, effective ReferenceScheme, required content or criterion set, coverage predicate, scope, and gaps | `C.2.1` and the coverage/evaluation pattern; `A.3.2` only when the episteme is classified or used as a MethodDescription under its membership rule |
+| Promised coverage | the work or outcome offered to the recipient, applicable conditions, exclusions and acceptance criteria. For an obligation, establish which party undertook it and on what terms. | `A.2.3` for promise content and `A.2.8` for an actual commitment |
 | Capability coverage | holder, capabilities, required actions or conditions, scope, and direct coverage criterion | `A.2.2` and the capability/coverage pattern |
 | Work coverage or completion | Work occurrence(s) admitted under §4.2, temporal extent, performed parts or episodes when needed, completion or production predicate, acceptance boundary, and evidence | `A.15.1`, `A.15.PROD`, or the applicable completion/acceptance pattern |
 | Evidence coverage | claim set, evidence-bearing objects, evidence-use relations, scope, limitations, and receiving use | the applicable coverage rule; `A.2.4` for evidence-use classification, `A.10` when a replayable source-to-use account is needed; `B.3` for an assurance claim |

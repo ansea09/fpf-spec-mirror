@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:5 — Archetypal Grounding"
-line_start: 12332
-line_end: 12375
+line_start: 12345
+line_end: 12388
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -47,7 +47,7 @@ The author recovers the rule's inputs and dependencies. For one item, unit and i
 
 With opening stock 48, receipts 12, issues 17 and a closing physical count of 41, the expected count is 43 and the discrepancy is -2. The description now supplies an operation, its operands, their origins, the reason for their combination and a useful return. Its authoring result is the instruction, not evidence that a storekeeper performed it.
 
-The receiving-use check asks the reader to recover that calculation and return from the description. If the opening figure is in boxes while movements are in individual units and the conversion is unknown, a numerical balance remains unavailable. A comparison-only description could legitimately omit this enactment detail; this edition promises the storekeeper a way to perform the reconciliation. If the intended use is instead to design the reconciliation, a reviewer who is handed that formula has tested application. Give the decision about stock and the available records first. Have the reader choose the unit, interval and movements from what could alter that decision, justify how those quantities should combine, and return the result the storekeeper needs. A declared unit or boundary can be reused where the commission fixes it.
+The receiving-use check asks the reader to recover that calculation and return from the description. If the opening figure is in boxes while movements are in individual units and the conversion is unknown, a numerical balance remains unavailable. A comparison-only description could legitimately omit this enactment detail; this edition promises the storekeeper a way to perform the reconciliation. For a reader asked to design a reconciliation, give the stock decision and available records before supplying a formula. Let the reader decide what discrepancy matters, what to compare and why the comparison answers the storekeeper's question. Equal counts can conceal the replacement of one item by another. If the decision concerns which individual items are present, comparing their identities can settle it. If the commission specifies a movement balance, the design choices left open may concern the unit, interval and movements to include.
 
 #### A.3.2.DE:5.4 - Explain the Basis of a Professional Judgment
 

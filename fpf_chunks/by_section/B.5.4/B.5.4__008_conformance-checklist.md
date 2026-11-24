@@ -6,12 +6,12 @@ section_id: "B.5.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:7 — Conformance Checklist"
-line_start: 52899
-line_end: 52907
+line_start: 52924
+line_end: 52932
 dependencies:
   - "A.7.1"
   - "B.5"

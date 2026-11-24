@@ -6,12 +6,12 @@ section_id: "G.13:14"
 section_title: "Author’s quick checklist (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__015_author-s-quick-checklist-informative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:14 — Author’s quick checklist (informative)"
-line_start: 142619
-line_end: 142627
+line_start: 142683
+line_end: 142691
 dependencies:
   - "A.18"
   - "A.19"
@@ -50,6 +50,6 @@ keywords:
 2. Author a `ClaimMapperCard@Context` with the `MappingPolicyRef` and required edition pins.
 3. If you derive SoS features, declare a `SoSFeatureTransform@Context` and cite CHR typing refs and provenance hooks.
 4. Publish an `InteropSurface@Context` that cites all active `…Ref.edition` values and UTS rows.
-5. On any external edition or policy change, emit canonical RSCR trigger causes with the affected scope and payload pins.
+5. For external edition or policy changes covered by a monitoring or notification duty, emit canonical RSCR trigger causes with the affected scope and payload pins.
 6. Keep provider and method conditions with the applicable extension and its cited procedure.
 

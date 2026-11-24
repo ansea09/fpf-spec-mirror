@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative guard macros"
-line_start: 58913
-line_end: 59016
+line_start: 58944
+line_end: 59047
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -133,5 +133,5 @@ If lines quantify over different kinds, normalize through separately justified k
 6. apply only justified scope- and kind-bridge consequences to R and complete required freshness and policy checks; and
 7. make the separate allow/refuse decision.
 
-A source judgment may support reliance but MUST NOT be copied as target truth. For declaration-level use, omit step 5 and complete the use without forming a candidate judgment.
+Use an earlier judgment for the target only when its conditions apply or its result entails the answer under the receiving criterion. Carry out any separately required assessment. For declaration-level use, omit step 5 and complete the use without forming a candidate judgment.
 

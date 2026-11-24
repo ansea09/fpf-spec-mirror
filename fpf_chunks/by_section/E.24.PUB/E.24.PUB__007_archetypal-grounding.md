@@ -6,12 +6,12 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 125763
-line_end: 125808
+line_start: 125827
+line_end: 125872
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -74,9 +74,9 @@ An E.24 pattern host contains an expression X of an ontic-description episteme a
 
 One instruction edition is available to a training group for studying a method. That `EpistemePublicationRelation` occurrence establishes availability to the declared audience for that bounded use; it establishes neither that anyone read the instruction nor that adjustment, inspection, acceptance, or release work occurred. The same availability alone does not support an acceptance commission's choice about releasing one named lot.
 
-If a commission later makes a release choice and that stronger claim is current, recover each actual choice-work performer through A.13 and let A.15.1 independently admit any dated choice Work.
+If a commission decides on a release, establish the body’s authority and action under its applicable rule. A record of the joint decision can suffice even if individual votes are unknown. To claim personal assent, unanimity, independent judgements or a particular member’s choice, establish the corresponding contributions. For dated choice Work use A.13 and A.15.1 at the scale claimed.
 
-For that choice Work, add F.6 only when the choice account or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independently admitted choice Work intact.
+For that choice Work, add F.6 only when the choice account or receiving use expressly consumes precise assignment-bound attribution through the obtaining A.13 assignment for the particular performer and Work; F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independently admitted choice Work intact.
 
 Identify the resulting `ChoiceResult` separately under C.11. Keep both Work and result separate from the publication occurrence; the publication statement need not carry their identity, staffing, or omission rules.
 

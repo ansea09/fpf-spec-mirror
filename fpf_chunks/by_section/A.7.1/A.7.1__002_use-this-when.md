@@ -6,12 +6,12 @@ section_id: "A.7.1:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:0 — Use this when"
-line_start: 26861
-line_end: 26874
+line_start: 26878
+line_end: 26891
 dependencies:
   - "A.11"
   - "A.7"
@@ -41,7 +41,7 @@ The first useful move is to state the affected engineering result and the smalle
 
 The primary reader is a domain engineer or ontology analyst responsible for the affected use. The procedural content describes the consequence-guided ontology-analysis Method developed in §4. To assert `U.MethodDescription` membership for a pattern episteme, identify that admitted Method as its EntityOfConcern and satisfy A.3.2.
 
-When ontology-analysis Work is claimed, recover the performing `U.System` through A.13 and let A.15.1 independently admit the dated `U.Work` and enacted Method. Add F.6 only when the analysis result also consumes assignment-bound attribution through the same obtaining A.13 assignment; missing or failed attribution alone leaves independently admitted Work intact. Recheck any admission premise invalidated by the same finding and its dependent conclusions under A.15.1.
+When ontology-analysis Work is claimed, recover its actual performer or performers through A.13. Admit the dated `U.Work` and enacted Method under A.15.1. Use F.6 for any assignment-bound attribution on which the claim depends. Failure of that attribution alone leaves independently admitted Work intact. Recheck an admission premise if the same finding defeats it.
 
 The reader, performer System, description episteme, Method, any assignment and attribution, Work, and returned engineering result remain separate.
 

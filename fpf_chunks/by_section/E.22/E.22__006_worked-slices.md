@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 122997
-line_end: 123037
+line_start: 123061
+line_end: 123101
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -61,7 +61,7 @@ When the ground for one later application changes, retain the source-fidelity ju
 
 **Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the vibration `CharacteristicSpace`, RMS-vibration predicate and any comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result.
 
-This case asserts dated test-bench evaluation Work. First recover the exact evaluator through A.13. A.15.1 independently identifies the Work, Method, time and containing System. If this test-bench account also needs the exact assignment under which the evaluator acted, add F.6 through the same obtaining A.13 assignment. Missing or failed F.6 alone leaves independently admitted Work and its independently grounded result route intact.
+This case asserts dated test-bench evaluation Work. The bench is the evaluating System at the scale claimed here. Establish its A.13 basis for the test. A.15.1 independently identifies the Work, Method, time and containing System. If this test-bench account also needs the exact assignment under which the evaluator acted, add F.6 through the same obtaining A.13 assignment. Missing or failed F.6 alone leaves independently admitted Work and its independently grounded result route intact.
 
 An exact application of the declared vibration-evaluation operation returns the finding of excessive RMS vibration at one operating point under its result declaration. The result binding connects that application to the finding. The frame, subject-pattern reference, assignment, expected evidence basis, and result-form description remain separate.
 

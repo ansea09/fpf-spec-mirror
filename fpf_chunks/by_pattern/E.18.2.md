@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 119470
-line_end: 119749
+line_start: 119534
+line_end: 119813
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ A single diagram can present several of the five values below. Identify which va
 | one selected network of independently identified TFS or nested-network members and cross-member relations | E.18.NET defines membership, boundary, and cross-member relation requirements; apply those rules to select the network and identify its obtaining cross-member relation occurrences | not a graph, record, view, or publication, and not several valuations or one internal subflow |
 | mathematical description of exactly one selected TFS or network | `E.18.2` | records represented subject, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
 | declared mathematical-lens use and its adequacy | C.29 defines the bounded adequacy test and returned lens-use result; apply it when adequacy, payoff, preserved/lost structure, or a stop condition is claim-bearing | Use the C.29 result here. E.18.2 does not define another adequacy test. |
-| rendered graph, table, equation, diagram, or other publication face | `E.17` publishes the face; the applicable view or architecture-description pattern supplies its membership or adequacy result when that claim is current | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
+| rendered graph, table, equation, diagram, or other publication face | an authorized publisher can make the description available through an `E.17` face. For actual availability, identify the `E.24.PUB` occurrence and the recipient's access. Use the applicable view or architecture-description pattern for membership or adequacy | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
 
 When the described selected structure is one A.22-selected CGUS qualified under `E.18.3` through an independently identified E.18 substrate, E.18.2 defines only the mathematical description.
 
@@ -166,10 +166,10 @@ For a guaranteed limit, an upper bound on all outcomes of a nonempty admissible 
 
 | Expression family | Use when it describes | Required boundary |
 |---|---|---|
-| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, selected internal relation, cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | Select the subject separately using E.18's one-TFS identity and selection constraints or E.18.NET's membership, boundary, and cross-member relation rules. E.18.2 defines the description. This description is not a work occurrence, gate passage, or evidence. |
+| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, selected internal relation, cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | Select the subject separately using E.18's one-TFS identity and selection constraints or E.18.NET's membership, boundary, and cross-member relation rules. E.18.2 defines the description. The mapping can support conclusions about the represented relations. A claim that a particular Work or gate decision occurred needs grounds for that occurrence. |
 | mathematical path or path slice | reachability, carried relation, currentness slice, refresh locality, or crossing-local replay | not a project procedure or performed sequence |
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
-| morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
+| morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | use the mapping and grounded premises about interfaces, capacity, access and timing to establish the compatibility or feasibility they support. Actual execution has its own occurrence |
 | quotient, fold, coarsening, refinement, or factorization | coarser or finer partitions, aggregation, retained or lost structure, and alternative decomposition | Compare the answer before and after this operation using §4.1. To claim strict model refinement under B.5.MR:4.2, hold the inquiry and interpretation fixed, show a feasible completion, establish preservation by all new completions and identify a previously admissible answer now excluded. |
 | algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | Apply A.6.0 for a separately needed formal-substrate declaration, A.6.1 for a reusable law-governed operation declaration and its application or realization claims, and the relevant subject and evidence patterns for any empirical-law claim. The mathematical expression alone establishes none of those claims. |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow structure | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
@@ -223,7 +223,7 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 | functional structure or unsettled function-like wording | Use `C.30.ASV` for the functional structural view; use `A.6.F` to recover the object or claim from unsettled function-like wording, then apply its subject pattern. |
 | module interface | `A.6.M` supplies the module-interface relation |
 | reusable-structure characteristics | `C.31` carries the reusable-structure claim |
-| publication face or explanation-faithfulness use | `E.17` supplies the publication face; `E.17.EFP` returns the explanation-faithfulness result |
+| publication face or explanation-faithfulness use | use `E.17` to construct the face if needed. For actual publication, identify the authorized issue and access under `E.24.PUB`. Use `E.17.EFP` for the explanation-faithfulness result |
 
 ### E.18.2:4.5 - Archetypal Grounding (Worked Slices)
 
@@ -241,7 +241,7 @@ With an interlock allowing at most one high branch, the possible totals are 2 an
 
 If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes one such already selected subject, use E.18.2.
 
-For benchmark superiority, apply the relevant comparison test. For training Work, apply A.15.1's occurrence and identity rules. For an evidence claim, recover its subject-support grounds and use A.10 when the source-to-use account is implicit or must remain replayable. For release, test the release action as Work and any separate subject-release predicate. For causality, apply the causal predicate and test for that claim. The diagram supplies none of those project results.
+For benchmark superiority, apply the relevant comparison test. For training Work, apply A.15.1's occurrence and identity rules. For an evidence claim, recover its subject-support grounds and use A.10 when the source-to-use account is implicit or must remain replayable. For release, test the release action as Work and any separate subject-release predicate. For causality, apply the causal predicate and test for that claim. Use any grounds the diagram or an accompanying record actually carries for those conclusions. A wiring arrow cannot supply a missing observation of training or release.
 
 **Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred. Take a drawing that partitions a fixed set of gates into disjoint, nonempty blocks covering the set. Splitting one block into two such blocks while retaining the others strictly refines the partition. Each new block lies inside an earlier one, and the same gates are covered. An extra label can leave all the blocks unchanged. If the truth table and the expanded circuit allow exactly the same Boolean output for every admitted input, the input–output answers stay the same. Timing at the output would require a timing model and its own correspondence.
 

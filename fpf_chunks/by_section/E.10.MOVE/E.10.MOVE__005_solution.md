@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:4 — Solution"
-line_start: 107937
-line_end: 108086
+line_start: 107998
+line_end: 108147
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -71,7 +71,7 @@ Restore the governed target before choosing replacement wording:
 
    For a Plain long mantra, recover the intended connected reasoning and the particular question now at issue. State the answer or blocker, the subject pattern that supplies it, and the other answers whose use depends on its conditions. A whole-account question may require comparing those answers rather than finding one final result or one missing map location. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
-5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
+5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation that obtains, name its admitted direct predicate and actual participants at the stated scope. For a proposed assignment or required coverage, state the condition and any known participants. The position may still be unfilled. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
 6. Distinguish the governed claims carried by one phrase and retain the connection the reader needs. For readiness to work together, identify the performances to be combined and the conditions they must satisfy together. Two crews can each be ready for a lift while their simultaneous lifts require the same crane. For a question confined to permission, a single authorization covering both crews can suffice.
 7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
 
@@ -98,7 +98,7 @@ MoveAndReadinessWordingRepairNote:
   ReopenCondition:
 ```
 
-The governed-value ref and kind ref are both present or both absent. `BlockedOverread?` states a rejected reading and appears only when independent local evidence makes the exact rival reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. The relation-signature ref is present only when an admitted reusable typed declaration is current and the receiving use needs that declaration. Otherwise a relation claim names the admitted direct predicate and actual participants without a signature ref.
+The governed-value ref and kind ref are both present or both absent. `BlockedOverread?` states a rejected reading and appears only when independent local evidence makes the exact rival reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. The relation-signature ref is present only when an admitted reusable typed declaration is current and the receiving use needs that declaration. A claim that the relation obtains can give the admitted predicate and actual participants directly. For required or proposed coverage, state the condition and distinguish any participant already identified from an open position.
 
 A governed use has a non-semantic `SubjectPatternLocator`: an ordinary PatternID that identifies the pattern whose content defines, constrains, or tests the recovered value. Where the receiving claim needs a Method or MethodDescription, use the independent `A.3.1` and `A.3.2` conditions; admit any Method-use relation under its direct relation owner.
 
@@ -138,7 +138,7 @@ If the direct pattern and value were already clear, bypass this table and use th
 
 Recover the governed value and its subject pattern before closing a synonym replacement. Ordinary-prose or quote-only use closes when no FPF-governed value is claimed.
 
-If responsibility is the remaining claim, name the admitted System, direct domain predicate, actual participants, and applicability, or identify the missing governor under A.6.RCD. An assignment is not a responsibility result. Individuate the responsibility-relation occurrence separately only when a named receiving use needs to distinguish that occurrence.
+For an existing responsibility, identify its holder, direct domain predicate, participants and applicability. For a proposed or still unfilled responsibility, state what it covers and what would make it effective. Use A.6.RCD if the governing relation still needs definition. An assignment is not a responsibility result. Individuate the responsibility-relation occurrence separately only when a named receiving use needs to distinguish that occurrence.
 
 #### E.10.MOVE:4.2b - Trajectory wording recovery
 
@@ -179,7 +179,7 @@ If the bearer and development claim are already clear and only path posture is u
 | --- | --- |
 | `boundedDemonstratedContinuation` | One E.11.PUA `PatternUsePracticeContinuationDescription@Context` shown inside a post-qualification demonstrative slice. A.22.CGUS supplies the structure and slice boundary, not a wrapper-row kind. Retain the complete bounded use and route any separate FPF-governed claim to its direct pattern. |
 | `evaluationResultChangePrediction` | An E.23 prediction about a later evaluation result, with evaluation pattern, coordinate, scale, current result, one expected value, range, or closed direction, proposal basis, and protected tradeoffs. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. |
-| `directGovernedUse` | The exact governed value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants; include a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. The wording disposition itself contributes no project ontology. |
+| `directGovernedUse` | The exact governed value or relation, its kind, and its subject pattern. For a relation that obtains, name its predicate and actual participants. For a required relation, give its condition and known participants, leaving open any unfilled position. Include a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. The wording disposition itself contributes no project ontology. |
 | `importedSourceWording` | Preserve the source expression only as source wording; recover every FPF use under its direct pattern. |
 | `ordinaryProse` | Keep or lightly rewrite when no FPF-governed value is being asserted. |
 | `quoteOnly` | Preserve the quotation and its source-licensed use. State a grounded project-side non-use boundary only when that boundary changes the receiving use. |

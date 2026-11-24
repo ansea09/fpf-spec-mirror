@@ -6,12 +6,12 @@ section_id: "C.17:12"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__014_common-failures-and-repairs.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:12 — Common failures and repairs"
-line_start: 63731
-line_end: 63747
+line_start: 63762
+line_end: 63778
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,5 +63,5 @@ keywords:
 | Dashboard as evidence or result | Identify the result and evidence independently; treat the dashboard as a representation. |
 | Global or cross-scale novelty | Name the source and receiving bases, mapping, direction, loss, evidence, and use. |
 | Illumination or diversity silently drives selection | Keep it as telemetry unless a C.19 pool policy declares the use. |
-| Pattern, model, record, or assignment said to assess | Name the System and dated Work only when an assessment occurred; otherwise state the result claim directly. |
+| Pattern, model, record, or assignment said to assess | For a claim about performance, identify the actual performer or performers and their contributions. A question about the result can use the assessment already available. |
 

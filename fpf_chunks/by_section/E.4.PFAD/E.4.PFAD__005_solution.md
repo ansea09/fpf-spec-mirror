@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 99852
-line_end: 100086
+line_start: 99909
+line_end: 100143
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -74,7 +74,7 @@ For connected Methods, establish the supplied whole use through E.4.CM:4.4 befor
 
 Keep the architecture question open when exact ownership remains unresolved, a coherent action-bearing remainder survives, or closure would erase a material relation or field or refresh responsibility that changes a later use. Use carrier form, role label, shared topic, names, PatternID status, and counts to locate candidate contributions. The four dispositions and later-used consequence determine whether to close or select an outcome.
 
-If none of these decisions and no receiving use are present, take the exploratory result as the answer. If a decision for later use is present, the decision-maker selects a framework, non-framework product, thinner route, existing-framework contribution, or stop during decision Work. One `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes.
+If none of these decisions and no receiving use are present, take the exploratory result as the answer. For a boundary that later work needs, compare the applicable alternatives and record the resulting answer and rationale in one `E.9` DRR. Give a commissioned recommendation to its recipient. To treat an answer as adopted, establish the governing decision under §4.4. The cheap exit and the architecture decision are alternative entry outcomes.
 
 Start a comparison of products from the work the recipient needs. Establish the direct subject of each alternative, such as a service arrangement, a Method, a framework or the carrier a person must receive. Hold the receiving question and conditions fixed. For each alternative, retain the distinctions needed to establish its result and the choices the recipient would still have to make. Where the alternatives concern different kinds of thing or composition scales, show how each bears on the same decision.
 
@@ -205,7 +205,7 @@ Incumbent-practice and actual trial-Work claims remain independently grounded; c
 
 For every selected question, name its receiving pattern and the exact bounded practice claim or claims whose values change first use. If a required group or claim-to-question binding is absent at that grain, return a bounded PFAD gap to the architecture decision for completion before DPF authoring. A completed `C.32.MWA` synthesis is used only when several selected structures do not line up one-for-one, and `E.23.CDI` only when capability development changes the answer.
 
-The answer is one identified claim-bearing episteme under C.2.1 and is recorded, with its rationale, in one ordinary E.9 DRR. The decision-maker selects that answer during decision Work. An authorized decision-maker accepts, redirects, rejects, or reopens it through a separately identified acceptance decision. Record the acceptance decision separately and give E.4.DPF the answer it accepted.
+The answer is one identified claim-bearing episteme under C.2.1 and is recorded, with its rationale, in one ordinary E.9 DRR. Establish which decision under the governing terms made that answer effective. A choice by the authorized body may itself adopt it. If the choice was advisory, preserve the recommendation as such and identify the decision still due. Give E.4.DPF the exact accepted answer when development relies on it.
 
 Common practice questions include:
 
@@ -274,7 +274,7 @@ In the architecture answer, state what relation holds between the named particip
 
 #### E.4.PFAD:4.4 - Keep the answer, DRR, authoring, and publication distinct
 
-The decision-maker selects the answer during decision Work. The `E.9` DRR records that answer and its rationale. An authorized decision-maker accepts, redirects, rejects, or reopens it through a separately identified acceptance decision. Later authoring follows an accepted answer.
+Keep the answer and rationale in the `E.9` DRR. A committee empowered to set the framework boundary can settle it by selecting the answer in a valid vote. Where its remit is to advise, delivery of the reasoned recommendation completes that commission. The body holding acceptance may then adopt, redirect or reject it. Later authoring follows the answer that has taken effect. Reopening a settled boundary requires the authority its governing terms prescribe.
 
 A framework edition is the pattern-language episteme assembled from accepted sources. Any maintenance relation obtains separately. Publish or project claims about these objects in the selected form—for example, an ADR-like document, site, or PDF—and identify its presentation carrier separately when needed.
 

@@ -6,12 +6,12 @@ section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:intro — Intro"
-line_start: 43366
-line_end: 43382
+line_start: 43385
+line_end: 43401
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 
 **Not this pattern when.** Use C.2.1 for episteme identity and edition continuity, A.14 for a proper temporal restriction of one unchanged episteme, A.15.1 for Work parts or occurrences, B.1.4 for a bounded aggregation of already recovered order or temporal relations, and B.3 for the assurance claim that consumes the aggregate.
 
-**What changes in practice.** Identify the claim the recipient needs. Use a sufficient existing argument directly when the commission asks for that conclusion. When asked to construct a synthesis, work back from its required conclusion to the premises, sources and dependencies to combine. Return a justified calculation or a reasoned synthesis with its limitations; preserve provenance and conflicts. Return identity, edition, temporal restriction, Work, publication, and assurance questions to their subject patterns.
+**What changes in practice.** Identify the claim the recipient needs. Use a sufficient existing argument directly when the commission asks for that conclusion. When asked to construct a synthesis, work back from its required conclusion to the premises, sources and dependencies to combine. Return a justified calculation or a reasoned synthesis with its limitations; preserve provenance and conflicts. For a claim of authorship, establish who did the work being credited. Supplying the sources, choosing a mapping, justifying a proposed mapping and applying it can be different contributions. A researcher can demonstrate how they chose and used a mapping with records supplied anonymously. Forwarding a sound synthesis can give the recipient the answer while leaving its authorship open. Return identity, edition, temporal restriction, Work, publication, and assurance questions to their subject patterns.
 
 **Mereology and identity (A.14/C.2.1).** Use **ConstituentOf** for semantic parts. Measure a text or data split on its selected expression or carrier under C.2.1 and E.24.PUB; use **PortionOf** only when those measured entities independently meet A.14:5.1. Use `PhaseOf` only for a proper interval of one unchanged C.2.1 episteme. When a MethodDescription or document episteme's claim content, EntityOfConcern, or effective ReferenceScheme changes, identify another episteme and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Work segmentation uses A.15.1; no **ComponentOf** is used here.
 

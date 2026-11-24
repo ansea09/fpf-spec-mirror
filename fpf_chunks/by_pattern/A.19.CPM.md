@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CPM.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
-line_start: 40438
-line_end: 40827
+line_start: 40455
+line_end: 40844
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:4 — Solution"
-line_start: 34420
-line_end: 34630
+line_start: 34437
+line_end: 34647
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ One branch neither inherits facts from another nor turns the common method into 
 | Question | Claim content | Ordinary stopping result | What it does not establish |
 | --- | --- | --- | --- |
 | Production-work participation | `currentWork` is `productionWork`, or `currentWork` is a declared proper work part of `productionWork` | one local positive or negative compound claim, or a work-grounding blocker | entity inception, completion, delivery, acceptance, or a universal production-work kind |
-| Entity-identity inception | `producedEntity` first satisfied the applicable `productIdentitySpecification` at `inceptionBoundary`. Attribution also identifies the governed effects of `identityClosingWork` | the first time or a supported bound on it. When attributing inception, the supported Work claim or claims, or the missing ground | production completion, later persistence, acceptance, or a reusable binary relation kind |
+| Entity-identity inception | `producedEntity` first satisfied the applicable `productIdentitySpecification` at `inceptionBoundary`. Attribution identifies the governed effects of the Work that first satisfied the rule, including the joint effects of separate Work occurrences where applicable | the first time or a supported bound on it. When attributing inception, the supported Work claim or claims, or the missing ground | production completion, later persistence, acceptance, or a reusable binary relation kind |
 | Production completion | `completionSubject` satisfies applicable `productionCompletionCriterion` at `completionBoundary`, and a separate declared closure predicate or local claim connects that satisfaction to `productionWork` | one state-satisfaction claim plus, when asserted, one historically indexed Work-completion claim; otherwise the closure blocker | entity inception, delivery, acceptance, release, publication, or availability |
 
 The three claims may cite overlapping facts. They remain different claims because they answer different receiving questions and can have different boundaries, criteria, and truthful C.2.1 `EntityOfConcern` values.
@@ -125,8 +125,8 @@ For a question about time, recover the applicable identity rule, its candidate b
    Before inception, the governed question remains about work, method, effects, that specification episteme, and its candidate basis; no future `producedEntity` participant exists;
 2. recover the named applicability predicate or filled local claim that applies that specification episteme to the candidate basis, subject context, and candidate `inceptionBoundary`, together with the effects of work and the declared links by which those effects bear on that rule;
 3. find the earliest `inceptionBoundary` at which the rule in that applicable specification episteme becomes true and designate the resulting `producedEntity` only on the after-side of that boundary; the pre-inception candidate basis remains distinct from that entity;
-4. identify `identityClosingWork`, using the one closing work occurrence when it exists or, for jointly necessary concurrent or nested work parts, their composite work under A.15.1 and its declared work-part relations; and
-5. state a positive local inception claim only after `producedEntity` exists and the claim names `productIdentitySpecification`, its named applicability predicate or filled local claim, `identityClosingWork`, `inceptionBoundary`, and all declared Work-to-change and change-to-identity predicates or compound bases.
+4. identify the Work contribution or contributions whose effects brought about first satisfaction. Name one `identityClosingWork` when its identity as a single occurrence is grounded. Several independently admitted Work occurrences can establish jointly necessary conditions. Relate their effects to the same candidate and boundary. If the claim concerns one composite Work, establish its A.15.1 admission and the required work-part relations; and
+5. once `producedEntity` exists, state the applicable `productIdentitySpecification`, `inceptionBoundary`, contributing Work and the governed Work-to-change and change-to-identity grounds. Explain why their effects first satisfied the rule at that boundary. A time-only conclusion uses the first-satisfaction grounds in the opening paragraph.
 
    Identify its C.2.1 episteme when a receiving use needs the separately referable claim. Add an E.24.PUB occurrence only when a receiving use also needs that episteme to be available through a named form or carrier.
 
@@ -138,7 +138,7 @@ When that relation is unestablished, leave continuity unresolved and evaluate th
 
 Changed applicability yields either a separately qualified claim under its new basis or a blocker; it does not move the earlier indexed boundary.
 
-Supporting material, whether a representation, plan, record, rule episteme, or observation, enters one of the five steps only through its declared relation to that step; it does not replace the required Work, applicability, effect, or boundary predicate. Absence of recoverable work granularity for `identityClosingWork` yields a **work-granularity blocker**. Several incomparable minimal work composites yield several local inception claims and remain plural unless a separate selection rule applies.
+Supporting material enters the account through the claim it supports. For instance, if a bilingual issue first exists when its two approved language versions are available for the same edition, separately attributed releases by two publishers can jointly establish its first availability. Establish the contribution of each release, the edition match and the earliest time the two required conditions held together. A claim that the publishers’ works were parts of one production Work needs its own work-part grounds. Missing granularity blocks attribution to that composite. Preserve independently established contributions and inception time. Several incomparable minimal work composites remain separate unless a selection rule applies.
 
 **Regulated-identification boundary.** Identifier allocation and entity inception are separate claims. If the applicable subject-identity rule makes allocation constitutive, apply that rule. When a practice keeps allocation at build or registration separate from entity status, the identifier supplies designation and continuity only. First existence then requires a separate applicable identity rule; its absence yields the identity-governor blocker.
 

@@ -6,12 +6,12 @@ section_id: "E.23.CDI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__013_relations.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:12 — Relations"
-line_start: 124031
-line_end: 124047
+line_start: 124095
+line_end: 124111
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -31,7 +31,7 @@ keywords:
 | `A.1`, `A.2.2` | Admit the holder System and govern qualified ability claims, their work conditions and attained bounds, support, qualification and fit. A.2.2:2.1 supplies the Method-relative profile when a missing operation or join changes development. |
 | `C.2.8` | Supplies recovery of selected structure from an expressed account. That result can help locate a missing explanation while capability, acquisition and transfer keep their own evidence. |
 | `A.3.1`, `A.3.2` | Govern the domain Methods and their descriptions used by the development account. |
-| `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern identification of each actual performer and independent admission of performed development and transfer Work. The obtaining A.13 assignment remains part of actual-performer admission; expose separate assignment and F.6 references when precise assignment-bound attribution is consumed. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
+| `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern the attribution of contributions at the scale claimed and independent admission of performed development and transfer Work. The obtaining A.13 assignment remains part of actual-performer admission; expose separate assignment and F.6 references when precise assignment-bound attribution is consumed. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
 | `A.3.4`, `A.6.RCD` | Govern an independently identified actual Transformation and the obtaining direct Work-to-change predicate or supported local claim needed when development Work is said to have caused that change. Keep Work and Transformation separate until that relation is supported. Return the missing predicate or governing condition, missing case evidence, or supported negative/inapplicable result according to which requirement failed. |
 | `A.19`, `C.2.1`, `A.10`, `B.3` | Govern comparison of declared measures, capability statements, and the evidence, ordinary reliance, or assurance relations that support their use. These epistemes and relations are not the holder's actual ability, an actual Transformation, or a causal Work-to-change claim. |
 | `E.22` | Frames the capability or transfer evaluation when that question needs an explicit evaluation use. |

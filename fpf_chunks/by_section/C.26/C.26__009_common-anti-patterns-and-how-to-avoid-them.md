@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69241
-line_end: 69307
+line_start: 69288
+line_end: 69354
 dependencies:
   - "A.10"
   - "A.15"
@@ -115,5 +115,5 @@ LLM-mediated work cycles can involve false passive reads, overused summaries, un
 | LLM summary of an architecture record | `A.6.3.CSC`, `A.6.3.RT`, and `A.10` as applicable; overuse of a summary alone does not activate QL coarsening. |
 | Prompted model evaluation changes model or prompt behavior | `C.16` / `B.3` first; `C.26.1` only if the eval output is treated as a passive model-state read. |
 | Agent work cycle "discovers" requirements | `A.15` / `A.10` / `A.6` first; `C.26.1` only if the interaction created the requirement framing. |
-| Synthetic personas "represent market state" | `A.10` / `B.3` first; `C.26.2` only if a low-recoverability state-reading claim is bounded with non-admissible use visible. |
+| Synthetic personas "represent market state" | A simulation establishes what the model produced. A claim about actual customers needs evidence or a warranted model relation covering that population. An order to hear from particular respondents calls for their own responses. Use `A.10` or `B.3` for the evidential use and `C.26.2` where a bounded, low-recoverability state reading is at issue. |
 

@@ -6,12 +6,12 @@ section_id: "E.11.PUR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:7 — Conformance Checklist"
-line_start: 111386
-line_end: 111401
+line_start: 111447
+line_end: 111462
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,5 +46,5 @@ keywords:
 | `PUR-8` | Boundary | Recommendation or coordination asserts no plan, work, gate, decision, authorization, actual Problem, Transformation, or subject result. |
 | `PUR-9` | Problem actuality | A Problem-frame fit or ProblemCard is not an actual Problem; a relied-on actual Problem resolves to one C.22.PFR occurrence, while any supporting episteme and the adverse episode keep separate identities. |
 | `PUR-10` | Plain move | *Next move* names only a recommendation or conditional continuation, without asserting a Move identity, performed Work, or actual Transformation. |
-| `PUR-11` | Earlier-result reuse | An earlier result is reused only after the pattern that defines or tests it establishes that its EntityOfConcern and edition, question and use, relied source and dependency conditions, and qualification or currentness boundary still answer the present concern. Any later A.10 reliance and G.11 currentness assertion remain separate. |
+| `PUR-11` | Earlier-result reuse | An earlier result is reused only after the pattern that defines or tests it establishes that its EntityOfConcern and edition, question and use, relied source and dependency conditions, and qualification or currentness boundary still answer the present concern. Any separately commissioned application or independent judgement is accounted for on its own terms. Any later A.10 reliance and G.11 currentness assertion remain separate. |
 

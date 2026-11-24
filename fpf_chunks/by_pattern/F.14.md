@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.14.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
-line_start: 132006
-line_end: 132345
+line_start: 132070
+line_end: 132409
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -82,7 +82,7 @@ F.8 receives only an unresolved naming disposition for an already recovered valu
 
 **Not this pattern when.** Use F.8 to make the final naming disposition for one candidate expression only after its governed value or relation, exact kind, direct pattern, and proposed use have been recovered; F.14 supplies the preceding anti-explosion stop rather than a second decision record.
 
-Assignment claims go to A.2.1. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the dated occurrence; F.6 is added only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Status, evidence, authorization, publication, and other relation claims require exact predicates in their direct patterns.
+Assignment claims go to A.2.1. For a claim about performed Work, identify its A.13 performer at the claimed scale and its dated occurrence under A.15.1. A specific contribution under an assignment requires an F.6 link for that contributor's Work and obtaining assignment. Status, evidence, authorization, publication, and other relation claims require exact predicates in their direct patterns.
 
 Add a reader-facing F.17 row only after kind recovery, the F.14 stop, any needed F.8 or F.18 naming decision, and satisfaction of the public-row threshold; treat publication availability as a separate E.24.PUB question.
 
@@ -122,7 +122,7 @@ Use this sequence before minting a durable name or any supporting naming object:
 4. **Create only the next object that pays for itself.** A local `SchemeSenseCell` is useful only when the exact local sense needs a stable address. A NameCard is useful only when the naming settlement itself must endure. Create an F.17 row only for public, Core-facing, durable, or cross-local reuse. Use E.24.PUB only when the selected row edition must actually be made available. None implies the next.
 5. **Use exact relations instead of fused names.** Bundles and incompatibilities among system-role kinds remain A.2.7 relations; assignment claims remain A.2.1.
 
-   For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the dated occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
+   A review panel may have performed the review even when the author of an individual observation is unknown. Use A.13 and A.15.1 for the performance being named. If a naming use attributes that observation to a particular member under an assignment, establish the member's contribution and the F.6 link.
 
    Status families and windows remain F.10; qualifiers remain with their direct patterns.
 6. **Treat cross-local wording as a relation question only when one is current.** Resolve the exact local senses first. Same spelling proves nothing; different local-sense projections only open F.9. Cite a Bridge only when its predicate obtains, then state the proposed use and reliance separately. A Bridge does not merge governed values or require a public row.
@@ -362,7 +362,7 @@ Reopen only the affected naming use when candidate expressions grow faster than 
 
 * **A.2, A.2.1, A.2.5, and A.2.7** define or constrain system-role kinds, assignments, assignment-state predicates and direct state relations, and relations among system-role kinds.
 
-  For precise performed Work, **A.13** first recovers each exact actual performer and **A.15.1** independently admits the dated occurrence; **F.6** defines only the later assignment-bound attribution when that relation is expressly consumed. F.14 only blocks names that hide these distinctions.
+  For a dated performance, **A.13** identifies the performer at the scale claimed and **A.15.1** admits the actual occurrence. **F.6** supplies the link to an assignment when that attribution matters. A fused name establishes none of these facts.
 * Use **F.8** to make one candidate's smallest mint-or-reuse disposition after the F.14 stop test.
 * **F.9** defines only an actual relation between exact local senses. Shared spelling and cell presence establish none.
 * **F.17** defines the public term-row form and its entry threshold; **F.18** defines the durable naming-settlement NameCard form; neither defines the governed value.

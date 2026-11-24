@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:4 — Solution"
-line_start: 79837
-line_end: 80013
+line_start: 79894
+line_end: 80070
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -107,7 +107,7 @@ Retaining or publishing the bounded answer preserves its limits. A stronger comp
 
 When the commission values stable reusable structure, compare how well the alternatives preserve it over the declared scale window, subject to safety, law-domain and assurance requirements. If the question concerns another characteristic, carry the alternatives through the permitted operating conditions and compare them on that characteristic. Select the functional, flow, control, interface, work-template or evidence structure and any learning-transfer characteristic relevant to that comparison.
 
-Define the advantage that would change the recommendation. Compare both alternatives for the same deliveries under the conditions that affect that advantage. Separate a one-time investment from work repeated at each installation or each new interface type. When deciding whether to commission a shared design, count the preparation it requires. When deciding whether to keep using one already built, compare future costs and commitments that the choice can still change. The original expense remains part of the investment history. More deployments at an established site may require none of the qualification work that a first deployment in a new jurisdiction requires. Check where the two alternatives tie or change order. When different admissible mixes of sites give different recommendations, state which mix supports each and what is known about the proposed rollout.
+Define the advantage that would change the recommendation and for whom. A supplier’s engineering effort, the purchaser’s price and the installer’s work can change independently. For a combined cost, include the work the arrangement transfers to others within the stated scope and count shared work once. Compare both alternatives for the same deliveries under the conditions that affect that advantage. Separate a one-time investment from work repeated at each installation or each new interface type. When deciding whether to commission a shared design, count the preparation it requires. When deciding whether to keep using one already built, compare future costs and commitments that the choice can still change. The original expense remains part of the investment history. More deployments at an established site may require none of the qualification work that a first deployment in a new jurisdiction requires. Check where the two alternatives tie or change order. When different admissible mixes of sites give different recommendations, state which mix supports each and what is known about the proposed rollout.
 
 Observations can support a comparison for the conditions examined. A binding rate, an engineering bound or a supported construction can also establish an answer for the entire stated range under its assumptions. Record the observations or the applicable derivation and its assumptions. A quotation or bound that orders the alternatives throughout a window can be cited in `comparisonBasisRef` even when neither slope is known. An advantage in price throughout a window establishes which quote is cheaper. To claim its price grows more slowly, compare the changes in price. When an untested premise could reverse the preference, state what depends on it. A reason for skipping a probe supplies no evidence about its outcome. An applicable derivation can already settle the question. Conflicting characteristics need the preference or decision rule for the work in question.
 
@@ -203,7 +203,7 @@ ASAPWaiverReason:
   context-specific bounded exception
 ```
 
-A deontic constraint, safety boundary, law-domain boundary, mission constraint, assurance infeasibility, or scale-probe overturn can justify a bounded exception without creating `ArchitectureHeuristicDebt`.
+A deontic constraint, safety boundary, law-domain boundary, mission constraint, assurance infeasibility or scale-probe result can justify departing from the scale preference. If the baseline is a recommendation, a different choice may already be within the decision maker’s authority. For a binding condition, establish whether the operative rule permits a departure in this case and scope. Where it reserves a decision, identify who may grant it and whether the required decision took effect. An analyst can establish the case for requesting that decision. A binding constraint that admits no waiver continues to apply.
 
 `ArchitectureHeuristicDebt` remains report-only unless tied to a decision, risk, work, evidence, assurance, or selected-set record through its governing pattern.
 

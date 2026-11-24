@@ -6,12 +6,12 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 67830
-line_end: 67932
+line_start: 67869
+line_end: 67977
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 Use `A.15.7` first when ongoing Work still needs the next action to be chosen from current facts within a domain Method. Enter `C.24` only after that action is fixed and tool or service calls must be planned. A call plan is neither the situation-responsive decision nor proof that the chosen action was performed.
 
 
-Use `C.24` when an applicable domain prescription or a completed decision has fixed the action or option and the practical question is now:
+Use `C.24` when an operative instruction, commitment, domain prescription or decision has fixed the action or option and the practical question is now:
 
 - which admitted Methods to call, in what order;
 - which applicable time, compute, cost or risk budget to reserve;
@@ -65,11 +65,11 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 - one small, tool-neutral plan that cites the accepted action basis;
 - visible budgets, stop conditions, and replan triggers before calls are made;
 - recoverable call facts and provenance when later use needs an execution account; and
-- one bounded checkpoint stating whether to probe again or seek a decision to adopt the proposed route.
+- a checkpoint explaining whether to probe again, stop or proceed along an applicable route, and who still needs to decide.
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Establish which required results are already available and what still has to be done with them. If a usable result can be delivered as ordered, plan its delivery. If the order requires a fresh performance, include it. Reuse an adequate known route for the remaining work.
+**First useful move.** Recover what fixes the action and its completion conditions. An accepted one-off commission may already name the required result and recipient while leaving the route for the planner to choose. Establish which required results are already available and what still has to be done with them. If a usable result can be delivered as ordered, plan its delivery. If the order requires a fresh performance, include it. Reuse an adequate known route for the remaining work.
 
 Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1.
 
@@ -79,7 +79,7 @@ Return the supported ordered calls, applicable budget and stop or replan conditi
 
 #### C.24:0.3 - First-minute questions
 
-1. Which applicable domain prescription, A.15.7 decision or C.11 choose-now result fixes the action or option now being planned?
+1. What fixes the action or option, who can change it, and which choices about the route remain yours?
 2. What still has to reach the recipient? Work back to the available inputs and choose the admitted Methods whose results can supply the missing contributions.
 3. Which budget is current: a still-upstream probe budget or an enactment/call budget?
 4. What event stops or replans the route?
@@ -92,6 +92,9 @@ The first useful output is one of these:
 ```text
 CallPlan:
   actionBasis:
+    commissionedAction?:
+      operativeInstructionOrCommitmentRef
+      actionAndCompletionConditions
     domainPrescribedAction?:
       methodRef
       prescriptionRef
@@ -115,6 +118,9 @@ CallPlan:
 ```text
 CheckpointReturn:
   actionBasis:
+    commissionedAction?:
+      operativeInstructionOrCommitmentRef
+      actionAndCompletionConditions
     domainPrescribedAction?:
       methodRef
       prescriptionRef
@@ -134,11 +140,11 @@ CheckpointReturn:
 ```
 
 
-`nextPlannedAction` and `recommendedNextAction` are local fields. Exactly one action-basis branch is present.
+`nextPlannedAction` and `recommendedNextAction` are local fields. Cite the grounds sufficient to fix this action. Where an instruction fixes the deliverable and a binding prescription fixes a further condition, retain both. One sufficient ground can stand on its own.
 
 Add one of the branch-specific refs in C.24:4.4 only when that constraint still affects the plan. A plan with no current policy branch needs no policy placeholder.
 
 If neither output can cite its accepted action basis and state what happens next, the C.24 work is unfinished.
 
-If the domain prescription, its applicability or the action it requires changes, reopen that domain basis before revising the plan. If the A.15.7 decision changes, is withdrawn, or no longer fixes the action, reopen the plan and return to A.15.7. If the C.11 `ChoiceResult` changes or no longer says `choose now`, return to C.11. A changed live-pool branch returns separately to C.19. Do not revise the call plan as though its action basis were still settled.
+When an instruction, prescription or decision changes, establish what still fixes this action under the governing terms. Another sufficient ground can keep the action fixed. A withdrawal that cancels the work calls for stopping it. If a choice reopens, return it to the holder of the commission, the domain Method, A.15.7 or C.11 as appropriate. A changed live-pool branch returns to C.19.
 

@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:0 — Use this when"
-line_start: 8844
-line_end: 8859
+line_start: 8847
+line_end: 8862
 dependencies:
   - "A.10"
   - "A.13"
@@ -43,7 +43,7 @@ Use this pattern when a policy, approval, permit, system-role rule, boundary cla
 - whether checked actual work supports a `NonViolationFinding@Context`; and
 - whether an incompatible current grant and norm require `PermissionNormConflictFinding@Context`.
 
-First select the result needed now. Recover the inputs required by its declaration in §§4.2–4.6 and establish that result under its own rule. Do not infer a different result from the selected one.
+First establish what makes the action permissible for this beneficiary, scope and time. A standing rule may permit the action directly when its conditions hold. Apply that rule to the case. For a grant already issued to a class of beneficiaries, identify that grant and establish that the present beneficiary qualifies. A positive answer by either route can settle the practical question without issuing a fresh permit. Use §§4.2–4.6 for the particular grant, exercise or finding the commission needs.
 
 **Not this pattern when.** Use `A.2.8` for one actual bearer's obligation, recommendation-as-duty, or prohibition; `A.2.9` for the communicative work that institutes or revokes a grant; `A.6.B` for L/A/D/E classification; `A.15.5` for work-entry readiness; `A.21` for gate decisions; and `A.15.1` for the identity and result of performed work.
 

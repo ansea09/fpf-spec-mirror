@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.LCA.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
-line_start: 80620
-line_end: 81042
+line_start: 80677
+line_end: 81099
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -212,7 +212,7 @@ For example, two otherwise parallel branches each require ten minutes from the s
 
 Retain a timing summary only when the receiving answer follows from what it keeps. Total free time can conceal incompatible windows; an average rate can conceal a late individual response. Derive the response time or useful bound from the retained dependencies, availability and occupation conditions. If two allowed arrangements share the proposed summary but give different answers, retain the distinguishing condition, derive a bound that covers both, or restrict the claim.
 
-Identify the end event the recipient relies on. Completion of an intervention and receipt of its confirmation may have different deadlines. If the receiving decision needs confirmation, include how the observer can establish completion and when the report reaches the person who must act. If only the physical completion has a deadline, later evidence can establish that the intervention met it.
+Identify the end event the recipient relies on. Completion of an intervention and receipt of its confirmation may have different deadlines. If the receiving decision needs confirmation, establish how completion is detected and when the signal or report reaches the controller, team or individual responsible for acting on it. Where a particular person must acknowledge it, establish that acknowledgement. If only the physical completion has a deadline, later evidence can establish that the intervention met it.
 
 Failure to find such a pair does not establish sufficiency. The timing-summary test specializes the information question in :4.3 to the time and capacity needed by the control decision. An average duration does not establish a worst-case deadline.
 

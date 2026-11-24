@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
-line_start: 48063
-line_end: 48314
+line_start: 48088
+line_end: 48339
 dependencies:
   - "A.15"
   - "A.16"
@@ -77,7 +77,7 @@ The route publication should identify:
 - any **conditions that would change the candidate set or its selection**,
 - and any published **typed downstream publication**.
 
-An existing publication can serve the receiving question when its content, form and availability meet the publication requirements. A reasoned choice by the operator, a recommendation to the person authorized to choose, a publication available to its recipients, and an intervention that actually took place each have their own grounds.
+An existing publication can serve the receiving question when its content, form and availability meet the publication requirements. A reasoned choice by the authorized operator or body, a recommendation delivered to its intended recipient, a publication available to its recipients, and an intervention that actually took place each have their own grounds.
 
 For specialization-sensitive routes, state the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 

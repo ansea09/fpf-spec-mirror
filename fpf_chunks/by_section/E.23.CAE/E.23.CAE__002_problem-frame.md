@@ -6,12 +6,12 @@ section_id: "E.23.CAE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__002_problem-frame.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:1 — Problem frame"
-line_start: 124058
-line_end: 124089
+line_start: 124122
+line_end: 124153
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -39,11 +39,11 @@ keywords:
 
 **First useful move.** State the case in ordinary language:
 
-> This holder has a qualified capability claim or prior result for this Work family under these conditions. The present demand is not met. Before choosing more development, compare available observations under a qualified reference condition and under the present demand. Reuse them when the holder, relevant conditions, update state and evidence requirements match the receiving question. Obtain only the missing safe contrast, without further development, and identify what it distinguishes. Report which failure came first when the observations establish an order. If that reference cannot be obtained, return the missing basis or an unresolved disposition.
+> This holder has a qualified capability claim or prior result for this Work family under these conditions. The present demand is not met. Before choosing more development, compare available observations under a qualified reference condition and under the present demand. Reuse them when the holder, relevant conditions, update state and evidence requirements match the receiving question. A separately commissioned fresh attempt or independent observation is due on its own terms. For the diagnostic conclusion, obtain the missing safe contrast, without further development, and identify what it distinguishes. Report which failure came first when the observations establish an order. If that reference cannot be obtained, return the missing basis or an unresolved disposition.
 
 **First useful result.** Return the controlled observations, one or more qualified differential dispositions, the strongest surviving rival (if any), the limits of the result, and candidate routes to the patterns or domain Methods that could receive it. The disposition can inform a later choice. It does not choose or authorize the next Work or establish that the Work was performed. The probe result alone does not establish hidden memory or a causal mechanism. Either claim needs further grounds specific to this holder.
 
-**What changes in practice.** One failed performance alone does not show that the capability or memory disappeared. Ask whether the claimed demand, configuration, cue or routing, applicability selection, response access, adaptation, and enactment can be separated by a safe contrast. Development or redesign begins only after a separate steering or choice result uses that evidence.
+**What changes in practice.** One failed performance alone does not show that the capability or memory disappeared. Ask whether the claimed demand, configuration, cue or routing, applicability selection, response access, adaptation, and enactment can be separated by a safe contrast. If an existing instruction selects development or redesign when the observed condition obtains, apply it within its terms. Where the choice remains open, obtain the authorized steering decision. Establish separately what was carried out.
 
 **What this buys.** The probe can recover a still-available response, avoid unnecessary redevelopment, locate an observed failure in a contribution or in its coordination with others, and return a smaller next question to the applicable pattern or domain Method. It works across unlike holders because the common part is the contrast and disposition, not one theory of memory, organization, learning, or model internals.
 

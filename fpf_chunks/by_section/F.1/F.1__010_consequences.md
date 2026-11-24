@@ -6,12 +6,12 @@ section_id: "F.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__010_consequences.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:9 — Consequences"
-line_start: 127723
-line_end: 127743
+line_start: 127787
+line_end: 127807
 dependencies:
   - "A.10"
   - "A.7"
@@ -39,7 +39,7 @@ An unfamiliar name or incomplete search view need no longer end finding silently
 
 The source cut becomes small enough to inspect, while a decisive rival, counterexample, or transfer limit cannot be discarded merely to satisfy a count. Later work can recover why each source was present, which edition was used, what the cut deliberately omitted, and what change reopens it.
 
-The cost is explicit judgment. The author must say what each source can change and disclose a load-bearing gap instead of treating absence as evidence against a claim. Unknown rivals can still be missed, so citation chasing, expert leads, search aids, or a domain review method may remain necessary. Their outputs are candidates until source claims are inspected.
+Selection needs an explicit judgement about what each source can change and which gaps could matter. The judgement may come from a capable search service, an author or a team with access to the relevant passages. Unknown rivals can still be missed, so citation chasing, expert leads, search aids, or a domain review method may remain necessary. A lead supplies a candidate. A reasoned cut from such a contributor can already meet the request when it identifies the inspected claims and why they matter.
 
 The cut is not evidence that its sources are true, sufficient, representative, mutually compatible, or safe to rely on. Those conclusions belong to the receiving synthesis, domain evidence method, F.9 relation, A.10 reliance account, or B.3 assurance claim.
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 44008
-line_end: 44230
+line_start: 44027
+line_end: 44253
 dependencies:
   - "A.1"
   - "A.15"
@@ -122,6 +122,10 @@ One `methodPartOf` occurrence is determined by the ordered pair `<part Method, w
 If the construction rule changes so that a part is newly admitted or no longer admitted, the composite Method must be reidentified or the claim remains unresolved; reidentifying either participant gives another pair. This is why the participant pair is sufficient for the family defined in B.1.5 even when enactments vary.
 
 The same part Method may also stand in `methodPartOf` relations to several whole Methods. Test every pair against the construction rule of its whole. Each whole keeps its reusable action, applicability, boundary, constraints, interfaces, accepted variations, and reidentification rule. One supported pair says nothing about another and creates no unique containing Method, discipline-wide whole, kind inheritance, transitivity, fusion, or common-whole closure.
+
+**From a known operation to its possible wholes.** Find which larger tasks use or require the operation and what it contributes to them. An instruction can require it before the first run. A service can call it under a standing rule. Examine the rule, ask a practitioner or trace how a result was obtained. An observed performance can suggest a candidate whole. Its stable rule can establish an inclusion even before the first performance. For each candidate, ask what contribution its reusable action requires and whether this operation is required or admitted for that contribution. A recipient who can take a result already in hand may use the result with no requirement to perform the operation that produced it.
+
+Work back from the uses relevant to the decision. For each established inclusion, what does the larger Method require the part to preserve? An external user can also require a result with particular properties, and a proposed whole can impose design constraints before anyone uses it. Preserve the basis of each requirement when deciding how the operation should work and which choices remain open. A common operation may meet all those requirements. Incompatible requirements may call for different variants or a change to an encompassing Method. B.1.5.CM helps construct a workable combination, and B.1.5.RS compares a proposed replacement across its affected uses. If nobody knows how to obtain the required contribution, C.39 helps develop a way. If the way is understood, find out whether the next performer needs its description, access to a suitable implement or coordination with another participant. C.32.MWA.PP develops the performance arrangement when that is the task. Return a resulting constraint to each use it affects. For an inquiry confined to whether one Method includes another, the construction rule can settle the question.
 
 A source label, list membership, diagram containment, shared name, registry entry, description membership, plan position, or work decomposition does not make `methodPartOf` obtain. When the test fails, keep the apparent step under its subject pattern and do not add a negative part merely to complete a diagram.
 

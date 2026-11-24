@@ -6,12 +6,12 @@ section_id: "E.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:4 — Solution"
-line_start: 97970
-line_end: 97990
+line_start: 98027
+line_end: 98047
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 ---
 
 ### E.2:4 - Solution
-FPF rests on **eleven binding pillars**. Follow the proposed change through the work of the people who would use it. Which decisions, explanations or obligations would change, and under which conditions? Use those consequences to identify the applicable pillar constraints below. Where several uses are claimed, establish which grounds extend to them together and where their conditions differ. E.3 resolves conflicting provisions. A DRR for a normative change records its impact on the pillars. E.2.DA serves the broader commission to evaluate how FPF realizes them.
+FPF rests on **eleven binding pillars**. Follow the proposed change through the work it would affect. An organization may use a rule to decide, and a service may use it to route a request. When people are to understand or apply that rule, examine what it enables them to do with the support available to them. P‑2 governs human comprehension in that use. Which decisions, explanations or obligations would change, and under which conditions? Use those consequences to identify the applicable pillar constraints below. Where several uses are claimed, establish which grounds extend to them together and where their conditions differ. E.3 resolves conflicting provisions. A DRR for a normative change records its impact on the pillars. E.2.DA serves the broader commission to evaluate how FPF realizes them.
 
 | ID       | Pillar                         | Essence                                                                                                                   |
 | -------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |

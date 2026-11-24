@@ -6,12 +6,12 @@ section_id: "C.30:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:7 — Conformance Checklist"
-line_start: 75463
-line_end: 75477
+line_start: 75514
+line_end: 75528
 dependencies:
   - "A.1"
   - "A.10"
@@ -80,7 +80,7 @@ keywords:
 | --- | --- | --- |
 | **CC-C30-1 Architecture name.** | A conforming use distinguishes actual subject relations and selected A.22 structure from candidate or expected content, identifies an obtaining `ArchitectureRelation` only when its predicate is satisfied, and gives every `ArchitectureClaim` one EntityOfConcern and effective reference scheme. It also names concern, admissible-use frame, and the source, description, view, representation, publication form, or other use of inspected material. | Recover the direct relation for an actual claim, retain modal content at its supported scope, or keep a recognition cue. Ordinary prose can suffice; use the question card when its organization helps. |
 | **CC-C30-2 No `U.Architecture`.** | The pattern use does not mint or rely on a root `U.Architecture`. | Recover the A.22 structure and `ArchitectureRelation`, or keep candidate or expected content in a claim and use the pattern that defines or tests any other claim. |
-| **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Actual subject relation, selected structure, `ArchitectureRelation`, claim, description, view, representation, publication occurrence, publication form, carrier, decision, evidence, and Work stay distinct. | Recover the object doing each job; a description, specification use, diagram, list, file, or publication creates no subject-side architecture fact. |
+| **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Actual subject relation, selected structure, `ArchitectureRelation`, claim, description, view, representation, publication occurrence, publication form, carrier, decision, evidence, and Work stay distinct. | Recover the object doing each job; when a declaration or its publication institutes a relation, establish the operative rule and the act that took effect. For installed relations, establish the relevant configuration. |
 | **CC-C30-4 Description subject.** | Every architecture description has one C.2.1 EntityOfConcern—holon, obtaining `ArchitectureRelation`, or selected structure—and effective reference scheme; architecture-claim refs remain optional content or trace. | Recover the subject and scheme, or split the description from the bounded architecture claim. |
 | **CC-C30-5 View and publication boundary.** | The same description episteme is `U.View` only through an independently obtaining E.17.0 conformance relation to one viewpoint; representation, publication occurrence, form, carrier, and publication currentness remain separate. | Apply C.30.AD, E.17.0 or E.24.PUB to the respective description, view or publication question; use C.29 only for a remaining mathematical representation issue. Remove view membership inferred solely from authoring or presentation. |
 | **CC-C30-6 Fit the account to the commission.** | An ordinary account can establish an actual relation, explain a structural consequence, or name the next investigation. Check which of these the reader needs and whether the grounds for it are present. | Supply the missing relation or contribution. Use the question card when its organization helps the reader. |

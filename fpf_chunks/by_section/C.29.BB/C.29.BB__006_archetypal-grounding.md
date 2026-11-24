@@ -6,12 +6,12 @@ section_id: "C.29.BB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:5 — Archetypal Grounding"
-line_start: 74707
-line_end: 74762
+line_start: 74756
+line_end: 74813
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -56,6 +56,8 @@ During an interval, 12 new jobs arrive at A, 9 move from A to B, and 7 are compl
     A at end = 6 + 12 - 9 = 9
     B at end = 4 + 9 - 7 = 6
     unfinished total at end = 10 + 12 - 7 = 15.
+
+The two stages can report 15 unfinished jobs from the starting total, arrivals and completions before comparing their handover records. If A logged nine departures and B logged eight receipts, the total still answers the question about unfinished jobs under the stated counting rule. To reconcile the records, compare job identities and times. The difference of one alone leaves open whether either record needs correction and, if so, where.
 
 A limit of 12 unfinished jobs is therefore exceeded at the endpoint. Determining whether the limit was exceeded earlier requires the event history or a bound on its prefixes.
 

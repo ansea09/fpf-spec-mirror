@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADR.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
-line_start: 84440
-line_end: 84663
+line_start: 84497
+line_end: 84720
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 ### C.32.ADR:1 - Problem frame
 
-Use this pattern to publish a project architecture proposal for discussion or an effective project architecture decision for people who will act on it. A team can use an ADR, a decision memo, a trade-study record or a certification rationale. For a decision in force, identify the `ArchitectureDecisionRelation@Project` or the equivalent decision under the project’s governing practice.
+Use this pattern to publish a project architecture proposal for discussion or an effective project architecture decision for those who will act on it. A team can use an ADR, a decision memo, a trade-study record or a certification rationale. For a decision in force, identify the `ArchitectureDecisionRelation@Project` or the equivalent decision under the project’s governing practice.
 
 Primary working reader: an architect or architecture-responsible practitioner preparing a decision record for developers, reviewers, maintainers, operators, certifiers, or future architects.
 
@@ -116,7 +116,7 @@ ADR practice is useful because it makes architectural decisions small enough to 
 
 C.32.ADR treats ADR as a publication projection. The project decision relation belongs to `C.32.PAD`. The architecture description belongs to `C.30.AD` and related view patterns. The method description or pattern-use recommendation belongs to `A.15`, `E.8`, and `E.11.PUR` when those claims are live. The ADR-like record publishes a decision description for a declared reader and use.
 
-For a principle framework, use C.32.ADR only in the exceptional case where the accepted framework-architecture answer is also a project architecture decision with the `ArchitectureDecisionRelation@Project` and `ArchitectureDecisionDescription@Project` required by this pattern. Its prior basis may then cite the accepted answer and the exact `E.9` DRR that records it; acceptance remains a separate decision, and `E.4.PFAD` only profiles the framework-specific content. An ADR-like publication may project the question, selected answer, alternatives, rationale, consequences, status, links, and supersession conditions for declared readers. That projection remains separate from the answer, its acceptance, the DRR, framework realization, pattern quality, and publication adequacy. When the principle-framework answer is not a project architecture decision, publish the selected decision episteme or reader-specific projection through `E.24.PUB`, with `E.17` when its face/source-return conditions apply; do not use C.32.ADR.
+For a principle framework, use C.32.ADR only in the exceptional case where the accepted framework-architecture answer is also a project architecture decision with the `ArchitectureDecisionRelation@Project` and `ArchitectureDecisionDescription@Project` required by this pattern. Its prior basis may then cite the accepted answer and the exact `E.9` DRR that records it. Apply the governing terms to establish whether the authorized selection also gave the answer effect or a further decision was required. `E.4.PFAD` profiles the framework-specific content. An ADR-like publication may project the question, selected answer, alternatives, rationale, consequences, status, links, and supersession conditions for declared readers. That projection remains separate from the answer, its acceptance, the DRR, framework realization, pattern quality, and publication adequacy. When the principle-framework answer is not a project architecture decision, publish the selected decision episteme or reader-specific projection through `E.24.PUB`, with `E.17` when its face/source-return conditions apply; do not use C.32.ADR.
 
 The section question is therefore not "which headings are allowed?" The section question is "which decision functions must a reader recover?" Headings can vary by organization or industry. Preserve the decision question, outcome, rationale, material consequences, status and update conditions; include options, Method/work instructions, confirmation and source return when they are needed for the declared use.
 

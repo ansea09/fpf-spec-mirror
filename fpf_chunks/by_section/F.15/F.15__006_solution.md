@@ -6,12 +6,12 @@ section_id: "F.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__006_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:4 — Solution"
-line_start: 132422
-line_end: 132436
+line_start: 132486
+line_end: 132500
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ The harness has two rule families:
 
 Both families are F.15-local check declarations over already defined objects. A practitioner may apply their questions and obtain a local result without naming the checking activity as Tech `U.Work`. An exact rule application, when its identity is needed, uses A.6.1.
 
-If a replayable result or example asserts dated assessment `U.Work`, recover each actual performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the result also needs precise assignment-bound attribution.
+If the result or example reports dated assessment `U.Work`, establish the A.13 basis of the System credited for that assessment at the stated scale and independently admit the Work under A.15.1. If the terms require several independent examinations, establish each one's actual performer and conditions. Add F.6 only when the result requires precise attribution of a contribution under its performer's obtaining assignment.
 
 A short record may omit an assignment identifier unused by its receiving claim only when every relation it consumes remains recoverable. Name the A.6.1 application and bindings when that application is also asserted.
 

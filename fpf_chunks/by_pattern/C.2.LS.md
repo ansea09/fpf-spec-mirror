@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.LS.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
-line_start: 55982
-line_end: 56255
+line_start: 56013
+line_end: 56286
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -222,9 +222,9 @@ Two notes may supply the same required expression properties and still differ sh
 
 In :13.1, the facet definitions and record form remain available after the reference-gauge reading arrives. The closure assessment changes from `CD1` to `CD2`; retain the assessed alert edition and the new grounds in the updated assessment. This is reuse of the facet selection with changed claim content, not reuse of the earlier closure reading.
 
-Now consider two stipulated receiving rules for that same assessment. A diagnostic-comparison meeting requires an explicit question and contrasting alternatives; it can use the available `AE4` reading. An action-selection rule additionally requires a selected diagnostic route. `CD2` still leaves two alternatives live, so that rule's condition is not met.
+Consider two uses of that assessment. A diagnostic meeting needs an explicit question and contrasting explanations. The `AE4` reading meets that condition. A dispatcher asks which check the operator chose next. At `CD2`, low supply and an open bypass are both still possible. If the protocol prescribes a check of upstream pressure, it establishes what the operator was required to do. A record of the operator’s choice can answer the dispatcher. Without evidence for that choice, it remains open.
 
-The same readings support these different conclusions because the receiving conditions differ. If both assessments publish their threshold conditions, their full contents differ; the common readings may be cited once. Neither rule changes what `AE4` or `CD2` means, and each applies only to the stated receiving use.
+The same facet readings can therefore support the diagnostic meeting while leaving the dispatcher’s question open. Cite the common readings once if both accounts use them. The receiving purpose determines which additional grounds matter.
 
 ### C.2.LS:14 - Authoring and Review Guidance
 

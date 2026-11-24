@@ -6,12 +6,12 @@ section_id: "C.32.ACE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:4 — Solution"
-line_start: 82165
-line_end: 82185
+line_start: 82222
+line_end: 82242
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ Work in this order:
 3. Name the candidates, bearers, and selected structures being evaluated.
 4. Establish the exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership and effective reference scheme. Retain every declared selector and the plane, time stance or window, input projection, resource budget, applicable units, admissible inputs and missing-data treatment required by the chosen operation and receiving inference. Establish parity when that inference depends on comparable conditions; `parityFrameRef` can retain it but does not replace the underlying facts. An atemporal structural judgement needs no invented temporal window; actual measurement and dated Work retain their own conditions.
 5. Choose the evaluation scope that can answer the question. If the same separate readings could occur in a configuration that fails the joint requirement, identify and evaluate the relation that distinguishes it. An applicable result for the whole can already cover several criteria.
-6. Choose eval operations. An evaluation can derive a consequence from qualified premises, measure performance or examine an existing result for applicability. Choose measurement, simulation, benchmark, walkthrough, monitoring, review or evidence audit according to what remains open. Name the derivation and its premises when relying on a calculated bound. An existing result can settle the criterion directly. Use `test` only when the intended operation checks an expectation or hard constraint. When a particular evaluation Work occurrence is claimed, recover each evaluator's A.13 core and let A.15.1 independently admit the occurrence from its history, Method followed, extent and containing-System relation. Add `evaluationWorkAttributionRefs` only when the record or receiving use represents precise assignment-bound attribution. Add an operation-application relation only when that claim is needed and its predicate obtains. Establish the typed result separately; the program record does not run.
+6. Choose eval operations. An evaluation can derive a consequence from qualified premises, measure performance or examine an existing result for applicability. Choose measurement, simulation, benchmark, walkthrough, monitoring, review or evidence audit according to what remains open. Name the derivation and its premises when relying on a calculated bound. An existing result can settle the criterion directly. Use `test` only when the intended operation checks an expectation or hard constraint. When claiming a dated evaluation Work, identify the evaluating System or Systems at the scale the claim requires. Establish the A.13 basis for each and admit the occurrence under A.15.1 from its history, Method, extent and containing-System relation. A commissioned personal test or independent series of assessments requires grounds for the particular contributions and conditions specified. Add `evaluationWorkAttributionRefs` only when the record or receiving use represents precise assignment-bound attribution. Add an operation-application relation only when that claim is needed and its predicate obtains. Establish the typed result separately; the program record does not run.
 7. Declare the result form. Examples include a reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding; use the definition and test for the result kind.
 8. Examine material proxy risk before the eval result drives work, and protect the characteristics or constraints it could compromise. If no material risk is found, retain that basis. Optimize only the chosen indicators; keep binding constraints and other necessary safeguards visible.
 9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for a selected-set result declared under `G.5`, or architecture-decision input for `C.32.PAD`. For publication input, distinguish `E.17` source-backed face and source return from the `E.24.PUB` publication occurrence and audience availability.

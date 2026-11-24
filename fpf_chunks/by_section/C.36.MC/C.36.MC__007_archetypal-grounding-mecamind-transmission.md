@@ -6,12 +6,12 @@ section_id: "C.36.MC:5"
 section_title: "Archetypal Grounding - MeCaMinD Transmission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__007_archetypal-grounding-mecamind-transmission.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:5 — Archetypal Grounding - MeCaMinD Transmission"
-line_start: 96602
-line_end: 96665
+line_start: 96659
+line_end: 96722
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -40,7 +40,7 @@ Two explanations can matter to a later choice. H-MEC-1 says the revised cards an
 
 Return `branch`. All five facilitators prepared and ran sessions with the support available at the school. That result supports retaining the arrangement for a comparable course. Credit particular materials or teachers with the choices that the study traces to them. How the same facilitators would have planned using the cards alone remains open. If a later course needs less tutoring, name the planning or adaptation the facilitator must undertake with the reduced support and examine that work under the changed conditions. Seek a comparison that accounts for prior practice and differences between tasks if the decision turns on the effect of tutoring.
 
-A useful new adaptation need not contradict the earlier description. When a receiving repertoire or future support use warrants keeping it, recover the changed operation and conditions, then use A.3.1.MV for a proposed reusable difference or A.3.2.DE, C.37.MP, A.15.8.MS for an explanation, representation or support contribution. A future card intervention stops at `missing-change-authorization` until the needed authorization is recovered. Neither this account nor a proposed inquiry establishes Method admission, independent capability, long-term retention, wider recognition or selection, adoption beyond the five facilitators, or causality; causal reliance opens C.28.
+A useful new adaptation need not contradict the earlier description. When a receiving repertoire or future support use warrants keeping it, recover the changed operation and conditions, then use A.3.1.MV for a proposed reusable difference or A.3.2.DE, C.37.MP, A.15.8.MS for an explanation, representation or support contribution. The warranted proposal can go to the owner of the issued card. Before changing that card, establish the authority for the change. If it is missing, return `missing-change-authorization` for that intervention. Neither this account nor a proposed inquiry establishes Method admission, independent capability, long-term retention, wider recognition or selection, adoption beyond the five facilitators, or causality; causal reliance opens C.28.
 
 #### C.36.MC:5.1 - Separate Organizational-Selection Replay
 

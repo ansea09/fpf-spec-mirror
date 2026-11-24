@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:2 — Solution"
-line_start: 97191
-line_end: 97274
+line_start: 97248
+line_end: 97331
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,7 +49,7 @@ Identify the sides needed to explain the conflict. At least two claims are invol
 5. the expected benefit, harm, or constraint and its consequence horizon; and
 6. the evidence use or uncertainty only when the side relies on it.
 
-Explain which claims can hold together and what makes them incompatible or leaves the answer open. When several arrangements meet the constraints, explain what each would preserve or sacrifice under the competing value premises, or why their priority remains unsettled. Three claims can be jointly incompatible although each pair can be met. For one agreed combination, a feasible arrangement can establish compatibility. If the parties retain choices about future work, identify who decides, what each can know in time and which combinations the arrangement must accommodate. A plan for one combination establishes that combination. A constraint covering every permitted arrangement can establish impossibility. Give the conclusion this supports for the original decision and the alternatives that still matter.
+An analyst can describe a concern under an explicit value premise. Report a representative’s act with its mandate and its effect for the represented party. To attribute words, personal endorsement or an act reserved to the affected party, establish that party’s own contribution. Explain which claims can hold together and what makes them incompatible or leaves the answer open. When several arrangements meet the constraints, explain what each would preserve or sacrifice under the competing value premises, or why their priority remains unsettled. Three claims can be jointly incompatible although each pair can be met. For one agreed combination, a feasible arrangement can establish compatibility. If the parties retain choices about future work, identify who decides, what each can know in time and which combinations the arrangement must accommodate. A plan for one combination establishes that combination. A constraint covering every permitted arrangement can establish impossibility. Give the conclusion this supports for the original decision and the alternatives that still matter.
 
 A short working note can be sufficient. Develop a more elaborate description only when its intended use requires the additional content.
 
@@ -106,7 +106,7 @@ The `plainStatement` must name the incompatibility, trade-off, parity, or other 
 | Open this branch when... | Add... | Keep separate... |
 | --- | --- | --- |
 | A Method is part of a side's claim. | the exact `U.Method` under A.3.1 and, when cited, its MethodDescription under A.3.2 | Method identity from any dated performance |
-| Performance occurred. | use A.13 to identify the performer System; use A.15.1 to admit the exact dated `U.Work` independently from its history, Method, extent, and containing System; if the conflict account must also identify the assignment under which the Work was performed, check that relation separately through F.6 | keep a plan, intention, assignment, capability, permission, authority, and responsibility separate from performed Work |
+| The account relies on a particular performance. | For a dated `U.Work`, establish the acting System or Systems at the scale claimed under A.13 and admit the occurrence under A.15.1 from its history, Method, extent and containing System. Use F.6 for an expressly claimed assignment-bound attribution. | A result relevant to the affected parties can already be established while an individual contribution remains unknown. An intention, permission or capability can also precede the Work. |
 | Assignment matters. | the exact assignment species and the claim with its case basis under A.2.1; cite an obtaining occurrence when the account relies on one | assignment from performance, responsibility, permission, or authority |
 | Role wording or classification needs clarification. | use E.10.ROLE to recover the meaning; when System classification is claimed, identify the local kind and the separate C.2.1 classification assertion under C.3.2 with its candidate-admissibility basis | ordinary wording, classification, assignment, and the acting System from one another |
 | Evidence changes a side or its uncertainty. | identify the supporting content and the grounds for this use; apply A.10 when the source-to-use relation is implicit or must be replayable | available or stored evidence from what it warrants for this side |

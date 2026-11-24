@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
-line_start: 117021
-line_end: 117291
+line_start: 117085
+line_end: 117355
 dependencies:
   - "A.16.0"
   - "A.7"
@@ -163,7 +163,7 @@ When a wider repair needs these distinctions, use the seven questions to recover
 - If the publication unit is stable enough and its move is bounded comparison over available source publications, apply `E.17.ID.CR ComparativeReviewUnit`.
 - If the main problem is explanation classification over an existing face, apply the neighboring explanation pattern.
 - If claim content, representation, coarsening, or the primary EntityOfConcern changes, apply the relevant `A.6.3` or `A.6.4` pattern before checking a later publication form here.
-- If wording alone suggests approval, repair the unit to say what its source warrants. If an authorized decision exists, identify its issuer, scope and outcome. If the reader needs a decision that is still owed, put the choice and grounds before the responsible authority. Check which act the governing rule makes decisive. An authorized publication can constitute the decision itself or bring an earlier decision into effect. Establish the issuer, act and form required for the particular claim.
+- If wording alone suggests approval, repair the unit to say what its source warrants. If an authorized decision exists, identify its issuer, scope and outcome. When a required decision is outstanding, tell the intended recipient what remains open and who can decide it. Refer the choice and grounds through an authorized route when the commission or a standing duty requires referral. Check which act the governing rule makes decisive. An authorized publication can constitute the decision itself or bring an earlier decision into effect. Establish the issuer, act and form required for the particular claim.
 - If the active problem concerns publication form, bridge or hypothesis work, or another downstream action, apply its direct pattern and identify the project object or record the work needs.
 
 #### E.17.AUD:4.7 - Local naming rule
@@ -208,7 +208,7 @@ An onboarding explainer starts from one stable source-pinned note, but then the 
 
 #### E.17.AUD:5.5 - Downstream decision and reliance case
 
-A progress card headed “Ready to roll out” reports that the tests passed. If its job is to communicate progress, a heading that states which tests passed can finish the repair. To report a release decision already made, cite the authorized outcome, including rejection or deferral, and the scope it covers. If release approval is owed and still open, send the test results and the outstanding choice to the responsible authority. Suppose the owner approved release on Monday and the rule makes that approval effective when the signed notice is issued. Monday’s decision establishes adoption. Issuing the notice on Tuesday establishes when that decision took effect. Under a different rule the owner decides by issuing the signed notice. There, the authorized issuance itself constitutes adoption. Check the rule and the act it names for the conclusion the reader needs.
+A progress card headed “Ready to roll out” reports that the tests passed. If its job is to communicate progress, a heading that states which tests passed can finish the repair. To report a release decision already made, cite the authorized outcome, including rejection or deferral, and the scope it covers. If release approval is owed, the progress card can report whose decision is outstanding. When the existing duty includes seeking that decision, submit the test results by the route open to its issuer. Suppose the owner approved release on Monday and the rule makes that approval effective when the signed notice is issued. Monday’s decision establishes adoption. Issuing the notice on Tuesday establishes when that decision took effect. Under a different rule the owner decides by issuing the signed notice. There, the authorized issuance itself constitutes adoption. Check the rule and the act it names for the conclusion the reader needs.
 
 #### E.17.AUD:5.6 - Quick contrasting cases
 
@@ -219,7 +219,7 @@ Use this quick contrast set when the initial interpretation is unclear:
 | `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the publication unit under review otherwise stays stable | apply `Local Head Restoration` |
 | `whole-unit interpretation shift` | the publication unit under review changes its primary subject or carried publication move without marking the change | apply `PublicationUnit Primary-Subject Discipline` |
 | `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReviewUnit` |
-| `downstream claim or effect overread` | readers take the progress card as approval, assignment or a go/no-go decision | clarify a communication-only card, cite the applicable decision already made, or put the outstanding choice before its authority. Check the issuer, act and governing rule if this publication itself constitutes adoption or brings an earlier decision into effect |
+| `downstream claim or effect overread` | readers take the progress card as approval, assignment or a go/no-go decision | clarify a communication-only card, cite the applicable decision already made, or identify the outstanding choice and its authority. Refer it when that further work is due. Check the issuer, act and governing rule if this publication itself constitutes adoption or brings an earlier decision into effect |
 | `modeling-lens hidden` | the unit only makes sense because of one unpublished model, formal substrate, or rationale | publish that substrate or rationale briefly or use a heavier publication form or neighboring pattern |
 
 ### E.17.AUD:6 - Common Anti-Patterns and How to Avoid Them

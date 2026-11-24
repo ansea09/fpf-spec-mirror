@@ -6,12 +6,12 @@ section_id: "A.15.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:4 — Solution"
-line_start: 32873
-line_end: 32950
+line_start: 32890
+line_end: 32967
 dependencies:
   - "A.10"
   - "A.13"
@@ -74,12 +74,12 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
    An unfamiliar or consequential case may require diagnosis, adaptation, or a quick mental or physical forecast.
 
    When several live alternatives require comparison, pass the chooser, current `OptionSet` and comparison basis to `C.11`. Include an inquiry question only when it is live under C.11's conditions; an already supported choice needs no invented probe or omission account.
-6. **Keep choosing, authority, and acting separate.** Identify the deciding System and, for a selected action, the intended performer. If the choice depends on permission, responsibility, commitment, capability, or authority, establish that relation instead of inferring it from a system-role label or recommendation score.
+6. **Keep choosing, authority, and acting separate.** Identify who makes the decision. For the selected action, establish any constraints on who may or can perform it. A decision can appoint a performer, authorize joint performance or leave allocation to a later choice. If timely availability is part of the promise, give grounds that such an allocation can work in time. If the choice depends on permission, responsibility, commitment, capability, or authority, establish that relation instead of inferring it from a system-role label or recommendation score.
 
    If its factual basis is unknown, seek the needed information from an appropriate source, use a supported alternative, or stop.
 
    If the required relation is known not to obtain, choose an admissible alternative, repair the relevant conditions under their governing rule, or stop. An obligation for another System to supply information or make the repair needs its own ground.
-7. **Return the supported answer and its continuation conditions.** When an action is selected, state it and its grounds, the intended performer, and any stop, fallback, observation or return condition needed for that use. If no action can yet be supported, state the blocker and the supported return or stop.
+7. **Return the supported answer and its continuation conditions.** When an action is selected, state the action, its grounds, any performer already chosen and any allocation still to be made under the decision. Include the stop, fallback, observation or return conditions the receiving use needs. If no action can yet be supported, state the blocker and the supported return or stop.
 
    If the choice revises a `U.WorkPlan`'s intended-work content, update that plan separately under `A.15.2`.
 
@@ -92,7 +92,7 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
 | Situation | What to use now | Result and stop |
 | --- | --- | --- |
 | The domain Method already requires one action | Follow the Method or its selected description. | The required action and its existing stop; no steering or decision wrapper. |
-| One familiar live cue points to one response and a quick consequence check passes | Use the recognition branch in this pattern. | One decision, intended performer, live cue, and any stop or feedback condition needed for the continuation. |
+| One familiar live cue points to one response and a quick consequence check passes | Use the recognition branch in this pattern. | The decision, its live cue, any performer condition and any stop or feedback condition needed for the continuation. |
 | Several admissible actions remain and comparison can change the choice | Use `C.11`; add `A.19` kernels only when their comparison or selection result matters. | A `ChoiceResult` under the applicable constraints. Return a fixed action here for performer and feedback; keep any retained tie-set explicit, and follow a `reject current set`, `probe again`, or `reroute` result to its stated next question. |
 | Adequate action candidates need to be developed | Use a subject-specific generation Method; use `C.18` only for an open-ended archive/front question. | New candidates or a failure to generate; no premature choice. |
 | The action is fixed but calls to tools or services must be planned | Use `C.24`. | A call plan and checkpoint return; the call plan is not the underlying choice. |

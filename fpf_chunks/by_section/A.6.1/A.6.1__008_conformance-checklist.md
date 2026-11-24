@@ -6,12 +6,12 @@ section_id: "A.6.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:7 — Conformance Checklist"
-line_start: 17925
-line_end: 17948
+line_start: 17938
+line_end: 17961
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -57,7 +57,7 @@ keywords:
 3. **Signature dependence and family-level anchors.** The mechanism uses A.6.0 signature content and adds operation and admission semantics without becoming a second root beside `U.Episteme`. One truthful family-level `SubjectKind` and `RangedValueKind` pair is connected to the argument or result meanings that realize those declarations; optional `ResultKind` is present only for one distinct family-level result kind. Additional operation-local ValueKinds remain local. If no common pair exists, split the declaration or stop instead of using a union or generic input or output list.
 4. **Typed operation declarations.** Every reused operation has declaration-local argument and result meanings, ValueKinds, binding designation rules, and semantic cardinalities when needed. None is an A.6.5 SlotSpec.
 5. **Application semantics.** Every claimed application has an application predicate, identity rule, extent rule, and recoverable occurrence boundary.
-6. **Actual bindings.** Every claimed actual argument or returned result has an obtaining declaration-local binding with the application and bound value; type compatibility, description, plan, record, or token match is insufficient.
+6. **Actual bindings.** Every claimed actual argument or returned result has an obtaining declaration-local binding with the application and bound value; a record can establish the binding when it identifies this application and the argument used or value returned under the declaration. A planned filling, compatible type or matching token alone leaves the actual binding open.
 7. **Binding identity.** The application, mechanism episteme, operation designator, argument or result designator, bound value, and maximal continuous binding extent distinguish the binding occurrence.
 8. **Recognition result.** A recognition-evaluation declaration uses `true | false | unknown` with the A.1 meanings; `unknown` records that the governed evaluation determined neither satisfaction nor failure. The application and candidate facts remain separately governed; candidate state, evidence status, episteme currentness, and receiving-work disposition use their direct kinds.
 9. **Law and admission split.** Reusable laws, proposed-application admission predicates, and the operation's own returned value remain distinct.

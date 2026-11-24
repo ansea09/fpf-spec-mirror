@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 101474
-line_end: 101542
+line_start: 101533
+line_end: 101601
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 
 A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. The evaluator can make an ordinary package-adequacy judgement without asserting `U.Work`.
 
-If a dated evaluation is instead admitted as Work, recover the actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Add the same obtaining A.13 assignment and applicable F.6 relation occurrences only when this result expressly represents precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independent Work admission intact.
+Suppose a subject expert checks the coverage of the proposed framework and an instructor examines its first-use explanations. If together they conduct one assessment, an A.15.1 Work account can identify both contributions under A.13. If they complete separate assessments, retain each occurrence and show how its result supports the package judgement. A later evaluator who cites the instructor’s result can use that evidence without attributing the later assessment to the instructor. The expert may act under an appointment to check coverage and the instructor under a separate appointment to test first use. To attribute either check through its appointment, identify that evaluator’s dated check, the assignment that covered it and the fact linking the two under F.6. An unresolved attribution can leave the independently established assessment intact.
 
 Separately cite an A.6.1 application only if the evaluation uses one exact operation declared by a separately admitted Mechanism and the result depends on its bindings; Work admission does not supply that application.
 

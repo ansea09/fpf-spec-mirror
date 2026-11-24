@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:4 — Solution"
-line_start: 102170
-line_end: 102309
+line_start: 102229
+line_end: 102368
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -29,7 +29,7 @@ keywords:
 
 ### E.4.PFIP:4 - Solution
 
-A full edition with a predecessor requires both comparisons below. For a bounded commission, perform the comparison that answers it and give the corresponding conclusion. An incorporation judgment about one approved change can stand on its own. An edition-wide preservation judgment requires the predecessor comparison.
+A full edition with a predecessor requires both comparisons below. For a bounded commission, establish the comparison result that answers it and give the corresponding conclusion. An incorporation judgment about one approved change can stand on its own. An edition-wide preservation judgment requires the predecessor comparison.
 
 - **accepted source to candidate:** whether each accepted source contribution was incorporated into the named part of a candidate publication-form expression without changing its accepted meaning or use; and
 - **predecessor to candidate:** whether the candidate preserves the complete predecessor publication outside accepted content changes.
@@ -128,7 +128,7 @@ If no applicable FPF pattern or accepted comparison basis makes a complete inven
 
 An accepted publication-form addition, retirement, split, merge, or use-change decision names the affected predecessor and candidate expression occurrences and any narrower one-to-one continuity that survives. It authorizes the form change. Predecessor content needs its own disposition.
 
-Run a separate allocation comparison for every accepted form change that leaves an affected predecessor expression outside an eligible one-to-one pair, and for every split or merge even when narrower pairs survive.
+Establish a separate allocation result for every accepted form change that leaves an affected predecessor expression outside an eligible one-to-one pair, and for every split or merge even when narrower pairs survive.
 
 1. Select a complete inventory for every predecessor expression named by the form-change decision.
 2. For each named item of predecessor content or selected structure, use the receiving subject and publication function established in section 4.1, then record one or more corresponding candidate expression parts, an accepted content-change or content-retirement decision, an accidental-loss result, or a blocker. A textual match locates the inherited words. Follow the instruction from the intended reader’s entry with the premises, help and other parts then available. For a preservation claim, compare the candidate with the work entrusted to the predecessor’s readers. Can they still make the same choice and obtain the promised result? If a different audience has been given a different job, assess its use on its own terms. When continued service to both audiences was promised, establish both results. A reused task placed after a figure that supplies its answer can now serve a different use. Give the architectural grounds from section 4.1.
@@ -148,7 +148,7 @@ Without an outcome for any named item of predecessor content or selected structu
 
 Identify every affected occurrence of the exact expression relation and its selected reusable form where applicable. Include any form-mediated relation whose continuity is claimed. If carrier or publication identity affects the comparison, include its bearing and publication relations.
 
-Run every applicable eligible-pair and allocation comparison. Check each shared public entry or direct consumer once across these comparisons and keep the separate expression results that depend on it.
+Establish the grounds for every applicable pair and for the allocation across expressions. Use an earlier comparison if it covers the same editions, expressions, receiving conditions and acceptance question. An earlier pair result can settle that pair while leaving a split or merge unresolved. Perform the comparisons that remain open and carry out any separately commissioned repeat or independent examination under its stated conditions. One check of a shared entry or direct consumer can serve several comparisons when the receiving conditions and question match. Retain the separate expression results that depend on it.
 
 Return a bounded preservation conclusion with:
 

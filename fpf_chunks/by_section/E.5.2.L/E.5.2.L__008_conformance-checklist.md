@@ -6,12 +6,12 @@ section_id: "E.5.2.L:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2.L/E.5.2.L__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.5.2.L — Languages, Expressions and Interpretation"
   - "E.5.2.L:7 — Conformance Checklist"
-line_start: 102801
-line_end: 102807
+line_start: 102860
+line_end: 102866
 dependencies:
   - "A.6.3.RT"
   - "C.2.1"

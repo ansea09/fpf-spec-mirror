@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 118122
-line_end: 118500
+line_start: 118186
+line_end: 118564
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -266,7 +266,7 @@ The recipient may read the needed input or output declarations in the identified
 
 **Lean publish-mode (AssuranceLane-Lite).** Lean changes publication faces only, not policy or checks. A current face cites the `profileApplicationRef`, identified `GateCheckApplicationResult` refs, and `GateDecisionResultRef`; it cites a `DecisionLogRef` only when an audit, history, replay, or reuse record is current. The underlying check-application results remain unchanged.
 
-**Decision stability and idempotency (gate-local).** A gate decision is recomputed when an input named by A.21 changes. An equivalence witness is needed only for a current reuse, cacheability, or stability claim covering the inputs whose equality that claim relies on; an optional `DecisionLog` may cite it. Use G.6 for evidence-provenance path visibility and G.11 for refresh implications. E.18 does not prescribe storage formats, key shapes, or hashing schemes.
+**Decision stability and idempotency (gate-local).** When an input named by A.21 changes, reconsider the affected conclusion under the effective profile. One established blocking check may settle whether work can proceed for every admissible outcome of another check. Preserve each actual check state and any outstanding restrictions. A new gate application still has to be performed when the profile or commission requires it. An assertion of reuse, cacheability or stability needs a witness covering the conditions on which that assertion depends. An optional `DecisionLog` may cite it. Use G.6 for evidence-provenance visibility and G.11 for refresh implications.
 
 **Retargeting and semantic-Bridge boundary.**
 
@@ -316,7 +316,7 @@ For current selector, archive, pool, selected-set result-declaration, comparator
 
   A publication that states a calibration target cites the calibration reference and any applicable transport-conversion rule. A penalty requires its own current policy, applicability, rule application, and any authority relation actually used; calibration, conversion, registry publication, or a report supplies no penalty by itself.
 * **Work-entry claim and actual Work stay distinct.** `workEntryClaimRef` designates one `U.WorkPlan`, A.15.5 readiness relation, or other prospective claim consumed by `LaunchGate`. If Work later occurs, each actual launch value is established only through an independently obtaining direct relation or A.6.1 application binding of that Work individual. A separate `FinalizeLaunchValues` episteme may then designate the Work occurrence and those facts; it neither performs Work nor fills slots in the occurrence.
-> **Refresh orchestration.** Telemetry records and publications that designate an identified Work occurrence are **slice-scoped**, editions re-pinned, and faces **re-emitted**. Telemetry remains a separate episteme and does not constitute the occurrence.
+> **Refresh orchestration.** Scope telemetry and publication claims to the relevant Work occurrence and slice. Keep earlier editions associated with the Work they describe. Update pins that the current use requires and reissue an affected face when its claim or required publication status changes, through a publisher with authority to issue it. Telemetry remains a separate episteme.
 
 #### E.18:5.7 - S7 - Selector semantics (G.5) and parity harness (G.9)
 For a selector-facing outcome, keep the selection, its result binding when one exists, the declared outcome and any exploration archive identifiable along the path. Use `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9` and `G.11` for their selector, archive, dominance, comparison and refresh rules.
@@ -405,14 +405,14 @@ Start with the exact changed source, binding, calibration edition, rule or resul
 
 Apply G.11 to obtain the least closed set containing those direct uses and every further use whose result or admissibility depends on them. Include both dependent branches and their join, and further gate or publication uses.
 
-At an n-ary use, recover every operand so that reconsideration is complete; an independently supported operand may be reused. Stop expanding only when no such unresolved dependency remains. A known dependence on an unavailable new value remains in the affected set with its governed unknown or stop.
+For a full n-ary application, establish every operand the applicable rule requires. An independently supported operand may be reused. For an inquiry about its outcome, a known operand may determine the answer for every admissible value of the remaining inputs. Report that finding with any outstanding checks or conditions. Follow each unresolved dependency that could change the required conclusion or performance.
 
 Use PathSlice identifiers to address the work, and extend the set of addressed slices until it covers that closure. A changed source shared by two slices reopens both and their join. A cross-member dependency follows the exact E.18.NET relation and retains each member's local state. “Slice-local” means that each action is addressed to the affected portion; it does not confine refresh to the slice that first detected the change.
 
-For each affected use, decide whether its direct rule permits current reliance on the old result, requires a new assessment, requires a new application, or stops continuation.
+For each affected use, decide whether its direct rule permits current reliance on the old result, requires a new assessment, requires a new application, or stops continuation. A finding that the outcome is fixed does not itself supply the new application.
 
 A stale judgement does not erase an actual historical occurrence. A new application has its own bindings; selecting those instead of the old occurrences reopens A.22 identity. Reconsidering a use does not always require rerunning it.
 
-Join the refreshed branches only when all the inputs required by the join rule are available and compatible, including their relevant editions. When a new gate decision is required, publish it separately under A.21. Re-emit a face when its current claim or required publication status changes. Preserve unaffected results and independently supported uses.
+Join the refreshed branches only when all the inputs required by the join rule are available and compatible, including their relevant editions. When the profile or commission requires a new gate application, establish its own inputs, check states and A.21 result. An authorized publisher reissues the face when the current claim or an applicable publication obligation requires it. Preserve unaffected results and independently supported uses.
 
 

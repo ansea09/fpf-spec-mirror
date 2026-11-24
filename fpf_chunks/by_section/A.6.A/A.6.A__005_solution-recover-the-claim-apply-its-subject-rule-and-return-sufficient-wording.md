@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Recover the claim, apply its subject rule and return sufficient wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-recover-the-claim-apply-its-subject-rule-and-return-sufficient-wording.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Recover the claim, apply its subject rule and return sufficient wording"
-line_start: 22917
-line_end: 23217
+line_start: 22933
+line_end: 23233
 dependencies:
   - "A.15"
   - "A.16"
@@ -166,7 +166,7 @@ Use the following questions where their answer changes the recovered meaning or 
    Site tuple members: named EntityOfConcern, scene, interface element or front-end element, Description episteme, episode, control state, or non-claim-bearing site kind - with publication or carrier participation stated separately when live.
 
 2. **Invited enactor tuple.**
-   Which System, including a qualified collective system, would act; an assignment may help identify its holder when that attribution matters.
+   Identify the prospective performer or performers to the extent needed for the option. For joint action, state which contributions must be compatible. A qualified collective System may itself act. A future option can state who would qualify while the choice of performer is still open.
 
 3. **Candidate action tuple.**
    What action or inquiry the phrase concerns. If the result selects a Method for enactment, identify its `U.Method`; keep any MethodDescription, WorkPlan and actual Work separate under their direct rules.
@@ -218,7 +218,7 @@ Use when one candidate action tuple is explicit.
 A conforming `ActionOption` publishes:
 
 * one candidate action tuple,
-* the would-be acting System and any assignment that the receiving claim needs,
+* the prospective performer or the conditions on who can act, including any jointly required contributions and assignments on which the option depends,
 * local guard sketch,
 * expected near-field effect,
 * a `U.Method` ref when the option selects that Method for enactment, plus a separate optional `U.MethodDescription` ref or `U.WorkPlan` ref only when that independently existing object is current,

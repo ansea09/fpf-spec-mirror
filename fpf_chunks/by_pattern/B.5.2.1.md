@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.1.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
-line_start: 52534
-line_end: 52732
+line_start: 52559
+line_end: 52757
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,13 +38,13 @@ keywords:
 ### B.5.2.1:1 - **Problem Frame**
 * **Conceptual binding:** **B.5.2 Abductive Loop** (this pattern specifies the *how* for Steps 2–3).
 * **Characteristics and records:** use **Creativity‑CHR** under **C.17** for the Characteristics in §3, **C.18** for generation/archive/front records and **C.19 E/E-LOG** for EmitterPolicy.
-* **Manager’s mental model (informative):** Choose measurable characteristics for the quality, newness and spread used by the exploration. Identify which generated candidates were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or the commission.
+* **Reading the result (informative).** For an existing front, recover the characteristics actually measured, how they were measured and which ones governed admission and dominance. When designing an exploration, choose the measures of quality, novelty and diversity needed for its intended use. Identify which generated candidates were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or the commission.
 * **Further work:** generated hypotheses may contribute to **B.4 Canonical Evolution Loop** when adaptation is needed. **B.5 Canonical Reasoning Cycle** selects the reasoning contribution needed by the question.
-* **Decision-subject note.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. The **Context** supplies the measurement spaces and admissible policies that frame the decision.
+* **Who decides.** Attribute each choice to its `DecisionSubject` at the `DecisionSubjectGranularity` that applies. A committee or service may make one choice under its decision rule. If the outcome requires several independent decisions, establish who holds each and how they combine. A chooser may select a combination of candidates or actions when the options and their joint constraints permit it. The **Context** supplies the measurement spaces and admissible policies that frame the comparison.
 
 ### B.5.2.1:2 - Intent & Problem
 
-**Intent.** Use this pattern when the explanatory question needs instrumented exploration of candidate quality and variety. Declare the generation Method, comparison Characteristics and exploration policy; construct candidates and identify those worth pursuing. A declared equivalent generator may supply the construction. Use B.5.2 directly when ordinary generation and plausibility comparison suffice.
+**Intent.** Use this pattern when an explanatory question needs instrumented exploration of candidate quality and variety, or an appraisal of its results. For an appraisal, use an available candidate package when its population, criteria and evidence cover the question. When new generation is needed or a fresh run is commissioned, use NQD-Generate or a declared equivalent under the applicable exploration policy. Use B.5.2 directly when ordinary generation and plausibility comparison suffice.
 
 **Problem.** Candidate generation can produce too little variety to expose meaningful rivals, or candidates without interpretable implications. **B.5.2** addresses these failures; this method makes candidate construction and comparison explicit through declared operations and Characteristics.
 
@@ -97,7 +97,7 @@ The coordinate entries cite the constituted results used. For an addition score,
 **Step 2 — Generate candidates.**
 **Before generation.** Establish the Method’s applicable input/seed conditions. For actual generation Work, satisfy its independently applicable authority, assignment, scope, window, budget and permission conditions, including USM coverage and an enactable RSG state when the governing use requires them. A theoretical candidate comparison does not acquire a fictional performer or permission gate. A generated candidate’s ConstraintFit is assessed after construction and controls its admission to the specified comparison.
 
-When the pattern is imported, use NQD-Generate for the selected generation contribution. Its candidate package carries conjectural content and the constituted coordinate results and provenance used. Report diversity to the extent supported by its declared reading; generation assigns no assurance level.
+For a generation task, use NQD-Generate or a declared equivalent. A service can run the generator and a different team can assess the resulting candidates. To assess an existing package, recover the population, measurements and provenance needed for that comparison. A fresh run remains due when separately commissioned. Attribute generation and assessment to the contributors whose work supports each claim. Report diversity within the declared reading. An assurance claim needs its own grounds.
 
 **Step 3 — Plausibility filters.** Compare the candidates whose predictions or mechanisms could answer the explanatory question. A candidate dominated on the chosen coordinates can predict an observation the front leaves unexplained. Restrict this comparison to the front when the exclusions preserve the answers needed here. Apply B.5.2’s plausibility criteria:
 
@@ -129,7 +129,7 @@ Identify the population used for the front, the coordinates in the `DominanceSet
 
 **CC‑B.5.2.1‑1 (CHR discipline).** If this pattern is applied in a Context, that Context **SHALL** declare the Creativity‑CHR **Characteristics** used by the generation and comparison with **A.18**‑style templates (type, unit/range, polarity).
 
-**CC‑B.5.2.1‑2 (Instrumented generation).** Step 2 of **B.5.2** **SHALL** either (a) invoke *NQD‑Generate* or (b) justify a Context‑specific generator of equivalent effect (diversity + quality + novelty with measurable **Characteristics**).
+**CC‑B.5.2.1‑2 (Instrumented generation).** When Step 2 calls for new generation, the performer **SHALL** invoke *NQD‑Generate* or use a Context-specific generator justified as equivalent for the required measurable Characteristics. A matching existing package may supply a commission to assess the returned candidates. A commission to perform a new run requires that execution.
 
 **CC-B.5.2.1-3 (Diversity coupling).** An addition score `D` SHALL identify the candidate and retained baseline to which its `ΔDiversity_P` applies, with the common measurement basis required by C.17:5.1. For the score used in a past decision, recover the baseline used then. For a claim about the net change from several admissions or a replacement, account for the resulting membership on both sides of that comparison.
 
@@ -159,11 +159,11 @@ For a dominance exclusion, identify the eligible rival and decisive coordinates 
 
 ### B.5.2.1:7 - Effort and first use
 
-**For engineers/managers (user cognitive load).**
+**Preparing or using a search.**
 
 * *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Use the front for the requested coordinate comparison. For an explanatory question, include any candidate whose specific prediction or mechanism could change the answer.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer-manager):* (1) Recover what the recipient wants compared and which choices are yours. Use the agreed inputs or construct the needed hypothesis space, descriptors and Q characteristics as in §4. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate. Inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria to the original explanatory question.
+* *First use.* Recover what the recipient wants compared and which choices are yours. For a returned search, inspect the front over its assessed population and any required archive under the applicable policy. For a new search, use agreed inputs or construct the required spaces and characteristics under §4, declare the generator, policy, budget and stop, then run it. Apply B.5.2’s plausibility criteria when the work calls for an explanatory judgement.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 
@@ -200,7 +200,7 @@ The declared DominanceSet is exactly the two Q coordinates, with ε=0. Novelty i
 
 D’s scheduler cell is retained under the stated stepping-stone policy even though D is dominated. No D, Surprise or IlluminationSummary reading is needed in this example.
 
-Of the four eligible hypotheses assessed here, A, B and C form the complete front. Each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
+Of the four eligible hypotheses assessed here, A, B and C form the complete front. Each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied. A reviewer can reconstruct this front from the four supplied rows. A request to repeat the enumeration also requires another execution under the requested conditions.
 
 To see what these two counts preserve, consider a possible rival predicting O1, O3 and O4 with one unverified assumption. Its Q vector would equal A's. The coordinates suffice to locate that vector in the stated ordering. A recipient asking about blocked threads in O2 needs to know which observations each candidate explains. Preserve the prediction for O2 and the proposed mechanism for that comparison. This hypothetical rival tests the choice of coordinates and contributes no new assessed candidate to the four-hypothesis run.
 

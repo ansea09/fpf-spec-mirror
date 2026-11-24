@@ -6,12 +6,12 @@ section_id: "C.41.SR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:4 — Solution"
-line_start: 94802
-line_end: 94851
+line_start: 94859
+line_end: 94908
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -32,7 +32,7 @@ Keep the operating subject, its condition, an observation and a record of it dis
 
 A work assignment does not establish capability or completed work. A request sent, an accepted assignment, performed work, reported completion and a result examined by its recipient answer different questions. Recover which event a local status reports; where waiting matters, include the needed coordination as well as performance.
 
-If the technician declines the requested check, the request remains unfulfilled without establishing that the equipment failed. Recover another capable contribution, revise the arrangement or choose a bounded continuation. Similarly, unreceived completion news can leave another participant uninformed even though the check was performed. Make the consequential handover and its recovery clear without requiring a formal coordination protocol for every exchange.
+If the technician declines, recover what the organizer commissioned. An applicable venue record can settle whether projection works. A commitment to provide technical support during the session requires someone who can cover it then. A personal check commissioned from this technician remains outstanding until it is performed or the order changes. Similarly, unreceived completion news can leave another participant uninformed even though the check was performed. Make the consequential handover and its recovery clear without requiring a formal coordination protocol for every exchange.
 
 Preserve a small connection rather than merging all local lists. It may be enough to identify the session, room and materials edition once, with the local claims that bear on them. A richer shared account is useful only where readers need it. Put the current account where those participants can find and interpret it in time. Where their work arrangement allows it, they can choose a next contribution from that information: the technician sees that the materials are available and starts the comparison when the room is free. A dashboard helps only if its subjects, grounds and freshness support that decision; visible colours alone cannot replace them.
 

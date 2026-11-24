@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 124355
-line_end: 124404
+line_start: 124419
+line_end: 124468
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -74,7 +74,7 @@ If a separate `U.MethodDescription` claim matters, apply A.3.1 and A.3.2 to iden
 
 **First useful move.** Recover the receiving question from the work that prompted it. Which subjects have to be distinguished or related for someone to answer it? For the introduction decision, identify one candidate entity, proposal episteme or source construct before judging it. State its identity rule and keep it as that decision episteme’s EntityOfConcern. Record source provenance when the decision relies on a source.
 
-Then run Checks 1–4: reuse existing exact predicates and `ClaimGraph` sources, test exact identity, recover the needed direct relations or constitution, and test dependent reuse without duplicate ontology. Fill the typed disposition result from those tests alone. Its direct, bounded, durable, or unresolved payload never replaces the decision subject. If no exact candidate or source construct can be identified, keep inquiry material and do not fabricate a decision episteme.
+Then run Checks 1–4: reuse existing exact predicates and `ClaimGraph` sources, test exact identity, recover the needed direct relations or constitution, and test dependent reuse without duplicate ontology. Use a supported existing distinction or assessment when it already answers the receiving question. Derive the typed disposition from the tests that apply. To establish authorship, independent judgement or formal admission, identify who supplied the distinction, who evaluated it and which act or rule made the decision effective, as each claim requires. One System may have made several contributions. The disposition’s direct, bounded, durable, or unresolved payload never replaces the decision subject. If no exact candidate or source construct can be identified, keep inquiry material and do not fabricate a decision episteme.
 
 **What goes wrong if missed.** FPF grows shadow ontology. The same project concern becomes a method in one place, a mechanism in another, a record in a third, and a local checklist in a fourth. Later uses then repair visible symptoms instead of settling the underlying kind, slot, and subject-pattern question.
 

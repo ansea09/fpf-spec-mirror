@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__004_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b — First-minute operator cue and confusion guide"
-line_start: 37668
-line_end: 37690
+line_start: 37685
+line_end: 37707
 dependencies:
   - "A.0"
   - "A.19"
@@ -40,9 +40,9 @@ keywords:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b - First-minute operator cue and confusion guide
 
-Use this pattern only after one substrate is already declared, either cited directly or kept recoverable through one declared source set or declared set result. The first-minute move here is not "write more about the same space". It is "decide what inspection question the reader needs answered without changing the EntityOfConcern".
+Start with a declared substrate, identified directly or recoverable through a declared source set or set result. If the supplied view or substrate already answers the inspection question, use its supported conclusion. Reading a ready-made view and choosing how to represent these relations are distinct contributions. Establish who made or independently recognized the distinction when the receiving claim depends on it.
 
-Do this in the first minute:
+When the commission calls for constructing or repairing the view, begin with these choices.
 
 1. Cite the base substrate or the source-set entry point or set-result entry point that stays recoverable with it.
 2. State the inspection question in one sentence.
@@ -50,7 +50,7 @@ Do this in the first minute:
 4. Keep the active source set and any active set result recoverable.
 5. Add only the qualifiers that truly discipline the reading.
 
-If you cannot name the base substrate or the recoverable source-set entry point or set-result entry point that carries it, or if the current prose would change the source-to-outcome relation or its posture, stop. You are either repairing the substrate, retargeting the object, or drifting into publication/policy.
+If the base substrate cannot be identified directly or through the source-set or set-result entry, establish it before interpreting the view. For a different source-to-outcome relation or different conditions on that relation, follow `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.8`. That rule distinguishes a hypothetical alternative from a change to the shared declaration. For a different object, publication or policy, take up that question under its own pattern.
 
 | If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |

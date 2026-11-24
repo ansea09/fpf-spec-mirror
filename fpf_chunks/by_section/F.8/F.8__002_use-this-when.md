@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:0 — Use This When"
-line_start: 129542
-line_end: 129574
+line_start: 129606
+line_end: 129638
 dependencies:
   - "A.11"
   - "A.15"
@@ -88,7 +88,7 @@ Typical triggers include:
 
 - For one-off wording repair, use F.19; use E.10, E.10.ARCH, A.6.P, or the subject pattern when a meaning still needs recovery.
 - If the governed subject or relation is not yet known, recover it first. For an unsettled U-kind proposal, use E.24.CD when the object is unclear and E.24.UK for admission.
-- To constitute a `SystemRoleKindDescription`, use F.4. To assign a system, use A.2.1. For precise performed Work, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated occurrence; add F.6 only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
+- To constitute a `SystemRoleKindDescription`, use F.4. To assign a system, use A.2.1. A name for performed Work refers to the dated occurrence admitted under A.15.1. Establish the A.13 performer at the scale claimed. For precise attribution to an assignment, apply F.6 to the particular performer's contribution and its obtaining assignment.
 - For an obtaining relation between different local-sense projections, use F.9. Use F.17 when a public, Core-facing, durable, or cross-local row is needed.
 - For a status, evidence use, policy, Method, Work, publication, or any other governed subject, use its subject pattern before naming it.
 - After F.8 has selected a name family, use F.5 for its naming discipline and F.18 only for a durable naming settlement.

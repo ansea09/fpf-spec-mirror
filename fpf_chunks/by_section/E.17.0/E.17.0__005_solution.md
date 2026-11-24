@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:4 — Solution"
-line_start: 113692
-line_end: 114105
+line_start: 113756
+line_end: 114169
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -220,8 +220,8 @@ The fixed `E17ViewpointSemanticsSlice@FPFEdition` selects the exact FPF and E.17
 
 | Local ValueKind | Exact extension | Admit an explicit value only when |
 |---|---|---|
-| `KS.ViewpointConformanceValue.E17`, carrying `KindSignature(ViewpointConformanceValue@E17)` | the two values designated `conforms` and `doesNotConform` | separately performed conformance-evaluation work emits the value and a named A.21 gate or C.11 comparison/selection decision consumes it |
-| `KS.ViewpointOrganizationSatisfactionValue.E17`, carrying `KindSignature(ViewpointOrganizationSatisfactionValue@E17)` | the two values designated `satisfiesOrganization` and `doesNotSatisfyOrganization` | separately performed candidate-structure evaluation emits the value and a named C.11 comparison or selection decision consumes it |
+| `KS.ViewpointConformanceValue.E17`, carrying `KindSignature(ViewpointConformanceValue@E17)` | the two values designated `conforms` and `doesNotConform` | an actual conformance evaluation, on its own or within other Work, supplies this value and a named A.21 gate or C.11 comparison/selection decision consumes it |
+| `KS.ViewpointOrganizationSatisfactionValue.E17`, carrying `KindSignature(ViewpointOrganizationSatisfactionValue@E17)` | the two values designated `satisfiesOrganization` and `doesNotSatisfyOrganization` | an actual candidate-structure evaluation, on its own or within other Work, supplies this value and a named C.11 comparison or selection decision consumes it |
 
 The four values remain distinct from their designators. Each KindSignature declaration states its admitted value domain and exact-equality predicate with a fixed interpretation under C.2.3. That predicate determines membership. The kinds have no `SubkindOf`, and definedness fails closed. Incomplete evidence or interpretation leaves the optional evaluation unsupported or undefined; it supplies neither a negative result nor a third `unknown` member.
 
@@ -328,14 +328,14 @@ Add `U.ClaimScope` or a time qualification to G only when it changes the represe
 When J is present, keep separate conclusion nodes for the two claims and at least these distinct premises when the justification relies on them:
 
 1. `E_base` under `S_base` carries the criterion, law, public name, or method claim used to interpret or replay `E_dependent`;
-2. an identified System in the interpretation or replay Work, enacting an admitted method, resolves and applies that base content to `E_dependent` under `S_dep`; and
+2. the System or Systems performing the interpretation or replay resolve and apply that base content by the admitted Method to `E_dependent` under `S_dep`; and
 3. replacing base edition `E_base` or making the base content used by `E_dependent` unavailable can change interpretation or replay of fixed `E_dependent`.
 
-Designation, citation, graph location, co-membership, scheme compatibility, version difference alone, or a failed lookup supplies none of those premises. If the interpretation is method-dependent, cite the exact `U.MethodDescription`, but identify the acting system, admitted method, and work occurrence separately.
+Designation, citation, graph location, co-membership, scheme compatibility, version difference alone, or a failed lookup supplies none of those premises. If the interpretation is method-dependent, cite the exact `U.MethodDescription`, but identify the contributing Systems, enacted Method and Work occurrences needed for the claim separately.
 
 ##### E.17.0:4.7.3 - Keep empirical and formal evaluation local
 
-When empirical interpretation or replay testing is current, identify separately:
+For an empirical conclusion, establish which observations, test conditions and interpretation support the dependency claim. An applicable earlier result may answer the question. A request for a fresh replay still calls for that performance. When reporting a test as performed, identify its actual Work and enacted Method. A service may perform the whole test, or several Systems may contribute to one test under a joint arrangement. If different tests support the conclusion, identify what each established and why their results together warrant it. The following is the single-performer case:
 
 - `H_dependencyEvaluator : U.System` under A.1 as performer;
 - `RA_dependencyEvaluator : DependencyEvaluationWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with `H_dependencyEvaluator` in `HolderSystemSlot`, declaration-local assigned-kind domain `DependencyEvaluatorSystemRoleKindDomain`, and `DependencyEvaluatorSystemRole` as RA's assigned-kind value admitted by that domain; the value, assignment, holder System, and Work remain distinct, and neither the value nor assignment acts;
@@ -364,7 +364,7 @@ Keep these three cases distinct:
 
 For historical reliance on a claim or result, recover its obtaining premise, decision-use, reference-use, or operation-argument relation for the named bounded use. Use `A.10` when the source-to-use account is implicit or must remain replayable.
 
-Recover the Work and its enacted Method only when the current claim concerns that dated Work or the expressly selected empirical evaluation branch above requires them. Retain that branch's A.13 performer basis, independent A.15.1 Work admission, and F.6 when precise assignment-bound attribution is consumed.
+Recover the Work and its enacted Method for a claim about a dated test, a commissioned replay or a conclusion that depends on how the observations were made. Use A.13 for the Systems to which you attribute contributions, A.15.1 for each actual Work and F.6 for a claim about a particular performer's contribution under its obtaining assignment. An independently warranted result remains available for conclusions within its scope.
 
 Storage, inspection, citation, attachment, production, graph membership, or adjacency alone does not establish that use. Keep empirical and formal algebras distinct; keep provenance and assurance with A.10, G.6, and B.3. Retain a missing-governor blocker instead of inventing a generic evidence, use, or acceptance relation.
 
@@ -390,7 +390,7 @@ For one current describing use, name the question the reader must answer. When y
 
 One description may supply the entire answer. When it takes several, trace each needed conclusion to what the descriptions establish for the original question. Identify what relates their subjects and conditions. If their claims must hold together, establish that they concern compatible objects or situations. If the descriptions express alternative readings, check what follows on each. In a question about joint work, a change in one participant’s choice can alter what another must do for the common result. Follow that dependence through the descriptions the participants can use. A similar label on both pages can leave it invisible. Use C.37.MM:4.1.1 where the inference needs a correspondence. If the commission asks only whether E conforms to a specified P, §§4.1–4.5 give the complete test. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
 
-When the viewpoint matters, select P only for that describing use. The selection does not establish conformance or `U.View` membership, give E a new C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. A use needing several viewpoints first identifies the C.13 collection and its exact membership; it does not overload `viewpointRef` with a collection value.
+When the viewpoint matters, select P only for that describing use. The selection does not establish conformance or `U.View` membership, give E a new C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. When a question requires two viewpoints, identify each by its own reference and establish how their descriptions bear on the same subject. Use C.13 when the collection, its membership or its edition matters to the answer.
 
 The architecture therefore keeps exactly two positive dependent-kind rules—P as `U.Viewpoint` by its fixed self-contained content about an exact target kind or, conditionally, by fixed content about selected S; and E as `U.View` by obtaining conformance—and two direct relation kinds: viewpoint-convention dependence and E/P conformance.
 

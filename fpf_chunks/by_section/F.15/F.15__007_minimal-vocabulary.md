@@ -6,12 +6,12 @@ section_id: "F.15:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_minimal-vocabulary.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:5 — Minimal vocabulary"
-line_start: 132437
-line_end: 132448
+line_start: 132501
+line_end: 132512
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 * **Static Conformance Rule (SCR)** - an F.15-local declared predicate over exact current inputs.
 * **Regression and Stability Conformance Rule (RSCR)** - an F.15-local declared predicate over exact earlier/later inputs plus the continuity or change claim and receiving use.
 * **Check application** - an actual A.6.1 operation application with exact rule and object bindings, when current.
-* **Dated assessment Work** - a specific `U.Work` occurrence used only for a replayable performance claim. Each performer must already have the A.13 core and the Work must already be independently admitted under A.15.1. F.6 is additionally required only when the receiving claim needs precise assignment-bound attribution.
+* **Dated assessment Work** - a specific `U.Work` occurrence relevant to a performance claim. A service can perform the assessment as a whole. For a claim about one examiner, identify that examiner's own work. Both use A.13 at the claimed scale and A.15.1 for the actual Work. F.6 supplies a further assignment-specific attribution when the use needs it.
 * **Result claim** - one C.2.1 episteme asserting `pass`, `fail`, or `undetermined` for one exact rule application, scope version, and use; not a general status value.
 * **Witness** - an exact example, counterexample, invariant, trace, or edition note cited by the result claim; its presence is not the result or an evidence-use relation.
 * **Conformance record** - an optional C.2.1 episteme that packages refs to the scope, applications/work, result claims, witnesses/evidence paths, non-admitted uses, and reopen conditions; it performs no check.

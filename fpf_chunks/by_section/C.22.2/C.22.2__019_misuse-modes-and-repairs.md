@@ -6,12 +6,12 @@ section_id: "C.22.2:18"
 section_title: "Misuse Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__019_misuse-modes-and-repairs.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:18 — Misuse Modes and Repairs"
-line_start: 67326
-line_end: 67335
+line_start: 67365
+line_end: 67374
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 | Misuse mode | Symptom | Repair |
 |---|---|---|
-| A proposed solution is mistaken for the problem, or an agreed order for a suggestion. | The same words can request an examination of a difficulty or commission a specified deliverable. | Establish what was agreed with the person entitled to commission the work. When the means remain open, use §2.1 to formulate the problem from the receiving work. For an agreed deliverable, use an adequate formulation directly to do the work. Refer a proposed change to the person entitled to alter the order. |
+| A proposed solution is mistaken for the problem, or an agreed order for a suggestion. | The same words can request an examination of a difficulty or commission a specified deliverable. | Establish what the operative agreement or instruction requires and who holds the decision about its scope. When the means remain open, use §2.1 to formulate the problem from the receiving work. For an agreed deliverable, use an adequate formulation directly. Refer a proposed change to the party entitled to alter the order. |
 | Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that defines or constrains the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording is reduced to a score without its declared characteristic, scale, scope and policy basis. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and declared next use. |
 | Silent retargeting | A changed EntityOfConcern, representation language, diagram, functional description, or transformation-flow path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |

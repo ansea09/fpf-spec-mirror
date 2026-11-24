@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CDI.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
-line_start: 123807
-line_end: 124049
+line_start: 123871
+line_end: 124113
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -95,7 +95,7 @@ Decide whose capability to develop from the work that will be entrusted. Follow 
 4. Find the contribution that is missing, limiting, or poorly coordinated. When the issue is which organization of a particular Method the holder can use, apply A.2.2:2.1 at the grain that exposes the missing relation; use :4.2.1 below to choose how it will become usable.
 5. Choose an intervention directed at that limitation, and name any provider System on which the intervention relies. The intervention may use, for example, practice, coaching, adaptation, tooling, changed support, or a changed Method; the receiving domain supplies the choice.
 6. Carry the protected conditions into the chosen intervention. Keep the selected intervention or plan separate from any development Work that is later performed.
-7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. Exercise completion, attendance or provider delivery alone does not establish transfer. Reuse evidence from an exercise or another check when it tests the declared target in representative Work under the receiving conditions and satisfies its evidence requirements.
+7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. Exercise completion, attendance or provider delivery alone does not establish transfer. Reuse evidence from an exercise or another check when it tests the declared target in representative Work under the receiving conditions and satisfies its evidence requirements. If a fresh performance by the holder is itself commissioned, obtain that performance under the specified support conditions.
 
    Build the transfer task from the choices the holder will have to make. When the next job supplies a procedure, representative work can ask the holder to carry it out. When the holder must devise a procedure, start with the problem and the resources available on that job. Identify the choices the holder made in constructing it. Where the outcome depends on several parts working together, establish what joins them under the receiving conditions. A worked solution or a heading that supplies the decisive relation narrows what the performance establishes. An earlier work product can already show the required choice under the relevant conditions.
 8. Reopen the Method account, holder boundary, baseline, target, intervention, protected conditions, or currentness claim when the transfer evidence shows that the earlier account was wrong, incomplete, or no longer current.
@@ -136,7 +136,7 @@ The holder, its qualified `A.2.2` ability claim and the basis for relying on the
 
 Keep the selected intervention or plan, performed development Work, performed transfer Work, transfer evidence and result, pre- and post-intervention capability statements, a comparison claiming capability change, and any actual Transformation claim separate. A plan remains prospective.
 
-For performed Work, identify every actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only when the record or receiving use expressly consumes precise assignment-bound attribution.
+For performed Work, establish the A.13 basis of the System or Systems credited at the scale of the claimed performance and let A.15.1 independently admit the occurrence; add F.6 only when the record or receiving use expressly consumes precise assignment-bound attribution.
 
 A capability-change comparison needs commensurable measures, envelopes, windows, and current support; it does not by itself say that the development Work caused a world-side change.
 
@@ -166,7 +166,7 @@ The next five comparable staffed incidents each meet the three-minute handover c
 
 The target is at least 97 percent detection, at most 5 percent false alerts, and at most 45 seconds per part while traceability and safety interlocks remain unchanged. The intervention changes optical calibration and the inspection Method with support from the sensor provider.
 
-The follow-up covers 300 identified parts over three shifts. Independent reference labels give 160 parts with one reportable crack each and 140 crack-free parts. The cell detects 157 cracks (98.125%) and wrongly flags six distinct parts among the 140 crack-free parts (about 4.29%). A 43-second mean is compatible with half the inspections taking 41 seconds and half 45, or with half taking 40 and half 46. Only the first timing record meets the 45-second limit on every part. With the first record, complete part coverage and qualified traceability and interlock operation, the engineer can accept this finite series under the stated criteria.
+The follow-up covers 300 identified parts over three shifts. Independent reference labels give 160 parts with one reportable crack each and 140 crack-free parts. The cell detects 157 cracks (98.125%) and wrongly flags six distinct parts among the 140 crack-free parts (about 4.29%). A 43-second mean is compatible with half the inspections taking 41 seconds and half 45, or with half taking 40 and half 46. Only the first timing record meets the 45-second limit on every part. With the first record, complete part coverage and qualified traceability and interlock operation, the records establish conformity of this finite series to the stated criteria. An engineer empowered to accept it can act on that finding. To report acceptance, establish how the governing terms give effect to the finding or to an authorized act.
 
 Did the cell improve? Suppose that in the original 200 parts there were 78 easy and 22 difficult cracks. Detecting all easy cracks and half the difficult ones gives 89 of 100. In the later series, 154 easy and six difficult cracks give 157 of 160 at exactly the same sensitivity within each grade. Compare the cell for a common part mix and operating envelope before claiming a change in capability. To attribute a change to optical calibration, the Method or provider Work, distinguish their effects from other changes that could explain the result.
 
@@ -254,7 +254,7 @@ The comparison below asks which current practice changes the capability-developm
 | `A.1`, `A.2.2` | Admit the holder System and govern qualified ability claims, their work conditions and attained bounds, support, qualification and fit. A.2.2:2.1 supplies the Method-relative profile when a missing operation or join changes development. |
 | `C.2.8` | Supplies recovery of selected structure from an expressed account. That result can help locate a missing explanation while capability, acquisition and transfer keep their own evidence. |
 | `A.3.1`, `A.3.2` | Govern the domain Methods and their descriptions used by the development account. |
-| `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern identification of each actual performer and independent admission of performed development and transfer Work. The obtaining A.13 assignment remains part of actual-performer admission; expose separate assignment and F.6 references when precise assignment-bound attribution is consumed. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
+| `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern the attribution of contributions at the scale claimed and independent admission of performed development and transfer Work. The obtaining A.13 assignment remains part of actual-performer admission; expose separate assignment and F.6 references when precise assignment-bound attribution is consumed. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
 | `A.3.4`, `A.6.RCD` | Govern an independently identified actual Transformation and the obtaining direct Work-to-change predicate or supported local claim needed when development Work is said to have caused that change. Keep Work and Transformation separate until that relation is supported. Return the missing predicate or governing condition, missing case evidence, or supported negative/inapplicable result according to which requirement failed. |
 | `A.19`, `C.2.1`, `A.10`, `B.3` | Govern comparison of declared measures, capability statements, and the evidence, ordinary reliance, or assurance relations that support their use. These epistemes and relations are not the holder's actual ability, an actual Transformation, or a causal Work-to-change claim. |
 | `E.22` | Frames the capability or transfer evaluation when that question needs an explicit evaluation use. |

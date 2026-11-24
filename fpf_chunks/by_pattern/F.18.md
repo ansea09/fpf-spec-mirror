@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
-line_start: 134311
-line_end: 135280
+line_start: 134375
+line_end: 135344
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -539,7 +539,7 @@ The full title, filename, declared publication-unit key and stable `SectionRef` 
 
 #### F.18:4.3 - Candidate Selection
 
-Find a sentence in which this reader will have to use the name. Form a candidate from the distinction that matters in that sentence. Change a participant, a condition or the organization of the parts within the allowed use. Does the word still pick out the intended value where it should, and does it distinguish a neighbouring value where the reader needs to tell them apart? Try another head term or qualifier where that answer changes. Build the smallest set that covers the resulting alternatives. A cited external standard may fix the label under §4.1. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
+Find a sentence in which this reader will have to use the name. Start with the candidates the commission or applicable standard supplies. Where developing candidates is part of the job, form a candidate from the distinction that matters in that sentence. Change a participant, a condition or the organization of the parts within the allowed use. Does the word still pick out the intended value where it should, and does it distinguish a neighbouring value where the reader needs to tell them apart? Try another head term or qualifier where that answer changes. When the set is yours to develop, keep enough alternatives to cover the distinctions that change the choice. A cited external standard may fix the label under §4.1. If the commission credits someone with choosing, establish who selected the designation and what the standard, another participant or a tool had already fixed or supplied. Choosing from a supplied pair can be an independent decision. A participant may instead develop a pair of candidates and entrust the choice to a committee. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
 
 Judge candidates on:
 
@@ -758,9 +758,9 @@ Recovered values:
 - `ShipbuildingMethod` or a method family under A.3.1; if a separately identified `ShipbuildingMethodDescription : U.MethodDescription` episteme is current, name it separately under A.3.2 only when its exact `EntityOfConcern` is that Method;
 - `HullAssemblyWork` under the Work patterns.
 
-Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy.
+Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work when the System credited with assembly at the stated scale has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. The established assembly Work of a crew may be named even when authorship of one weld remains open.
 
-If the naming record also expressly represents which assignment covered that Work, it cites that same obtaining A.13 assignment and adds the F.6 attribution relation; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3.
+If the naming record also expressly represents which assignment covered that Work, identify the relevant performer's contribution and its obtaining A.13 assignment, and add that F.6 link. Missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3.
 
 A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
 
@@ -957,8 +957,8 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | Bridge and bounded use | Apply the F.9 predicate only to exact local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ. Same projection plus another expression is designation; same scheme plus another claim can open the F.9 question; scheme difference opens only the question; no current correspondence use creates no Bridge or use claim. A separate C.2.1 claim says whether an obtaining Bridge suits the named naming use, and A.10 or B.3 supplies the reliance rule. None authorizes or proves that reuse occurred. |
 | Local-plain non-use | A one-off claim about whether an exact Bridge suits a named use stays in ordinary wording. No `NameCard`, public claim kind, or durable CamelCase name is created unless an independent later reuse need reopens F.18. |
 | Lineage and reopen | Rename, alias, split, merge, and retirement history is recorded under `F.13`, and the card names the change or repeated reader error that reopens this settlement. |
-| Reader use | In the text where the designation will be used, a practitioner can identify its referent, apply the relevant limits and reach the subject method when a decision about the referent is required. If a task calls for an independently chosen name, the evidence shows which alternatives or distinctions the practitioner supplied. |
-| Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through A.6.F, while an already recovered value is named under its direct pattern. A WBS or Work Package label remains plan- or assignment-episteme content. A performed-Work name is accepted only for one occurrence whose exact actual performers have A.13 cores and which A.15.1 independently grounds. Add assignment and F.6 refs only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3. Neighbouring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct patterns. |
+| Reader use | In the text where the designation will be used, a practitioner can identify its referent, apply the relevant limits and reach the subject method when a decision about the referent is required. If a task calls for an independently chosen name, the evidence shows who selected it and what was fixed or supplied. Attribute development of the alternatives or of their distinguishing criteria separately when that contribution is in question. |
+| Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through A.6.F, while an already recovered value is named under its direct pattern. A WBS or Work Package label remains plan- or assignment-episteme content. A performed-Work name is accepted only for one independently grounded A.15.1 occurrence with the A.13 performer basis needed at the claimed scale. Add assignment and F.6 refs only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3. Neighbouring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct patterns. |
 
 Regression checks:
 

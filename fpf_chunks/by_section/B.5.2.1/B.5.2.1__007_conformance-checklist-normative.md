@@ -6,12 +6,12 @@ section_id: "B.5.2.1:6"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__007_conformance-checklist-normative.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:6 — Conformance Checklist (normative)"
-line_start: 52633
-line_end: 52665
+line_start: 52658
+line_end: 52690
 dependencies:
   - "A.17"
   - "A.18"
@@ -31,7 +31,7 @@ keywords:
 
 **CC‑B.5.2.1‑1 (CHR discipline).** If this pattern is applied in a Context, that Context **SHALL** declare the Creativity‑CHR **Characteristics** used by the generation and comparison with **A.18**‑style templates (type, unit/range, polarity).
 
-**CC‑B.5.2.1‑2 (Instrumented generation).** Step 2 of **B.5.2** **SHALL** either (a) invoke *NQD‑Generate* or (b) justify a Context‑specific generator of equivalent effect (diversity + quality + novelty with measurable **Characteristics**).
+**CC‑B.5.2.1‑2 (Instrumented generation).** When Step 2 calls for new generation, the performer **SHALL** invoke *NQD‑Generate* or use a Context-specific generator justified as equivalent for the required measurable Characteristics. A matching existing package may supply a commission to assess the returned candidates. A commission to perform a new run requires that execution.
 
 **CC-B.5.2.1-3 (Diversity coupling).** An addition score `D` SHALL identify the candidate and retained baseline to which its `ΔDiversity_P` applies, with the common measurement basis required by C.17:5.1. For the score used in a past decision, recover the baseline used then. For a claim about the net change from several admissions or a replacement, account for the resulting membership on both sides of that comparison.
 

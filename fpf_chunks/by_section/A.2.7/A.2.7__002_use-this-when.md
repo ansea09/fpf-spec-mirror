@@ -6,12 +6,12 @@ section_id: "A.2.7:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__002_use-this-when.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:0 — Use This When"
 line_start: 7996
-line_end: 8025
+line_end: 8027
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -38,8 +38,10 @@ Use this pattern when several context-local system-role kinds are already admitt
 
 - an assignment to one system-role kind may satisfy a condition written for another kind;
 - two system-role kinds are incompatible under a stated holder rule, actual-Work or proposed-action identity condition, and temporal test;
-- several independently obtaining assignments are required together under one allocation rule; or
+- assignments to several distinct kinds are required together under one allocation rule; or
 - one system-role kind narrows another, and the practitioner must decide whether that narrowing is monotonic `U.SubkindOf` or a different residual relation.
+
+When a rule requires two independent reviewers of the same kind, the question concerns their number, distinct holders and the required independence. Use the assignments and actual reviews that the question calls for. The kind can stay the same for both.
 
 Typical working moments include these:
 

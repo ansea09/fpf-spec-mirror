@@ -6,12 +6,12 @@ section_id: "E.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__001_intro.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:intro — Intro"
-line_start: 113090
-line_end: 113099
+line_start: 113151
+line_end: 113160
 dependencies:
   - "C.18"
   - "C.19"
@@ -38,5 +38,5 @@ keywords:
 
 **Normativity.** Normative unless a passage is marked informative.
 
-> Compare one predecessor pattern edition with its proposed successor, describe what changed before classifying it, repair only the uses that depend on it, and use a wider search only when a design choice remains.
+> Compare the predecessor and proposed edition to establish what changed and which uses depend on it. Repair those uses when implementation is commissioned. Widen the search when a design choice remains open.
 

@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__008_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:4 — Solution"
-line_start: 37266
-line_end: 37447
+line_start: 37283
+line_end: 37464
 dependencies:
   - "A.0"
   - "A.15.7"
@@ -139,7 +139,7 @@ Use one of these ordinary profiles:
 When declaring one substrate-bearing line, proceed in this order:
 
 0. **Entry test.** Confirm that the line needs source-set plus search/outcome-space plus relation/posture discipline. If it only needs `CharacteristicSpace` typing, use `A.19`. If it only needs publication or policy, apply the governing pattern that carries that publication or policy question.
-1. **Choose or recover the source basis.** Derive the eligible members and necessary coverage from the question. If the work prescribes an archive, use its identity and membership for the stated edition. If several sets contribute, use `SourceSetComposition` to identify them, their families and how their members contribute, including overlaps where they alter the answer. Designate a primary source when the receiving use singles one out. Add `SourceSetRef` or a citation where needed to fix the identity.
+1. **Choose or recover the source basis.** Derive the eligible members and necessary coverage from the question. If the work prescribes an archive, use its identity and membership for the stated edition. If several sets contribute, use `SourceSetComposition` to identify them, their families and how their members contribute, including overlaps where they alter the answer. Designate a primary source when the receiving use singles one out. Add `SourceSetRef` or a citation where needed to fix the identity. If the question concerns who chose the coverage, distinguish a prescribed archive from a set or inclusion rule the investigator selected. Use grounds for that choice. A member list can establish the composition regardless of who chose it.
 2. **Recover the space refs.** Point `SearchSpaceRef` and `OutcomeSpaceRef` to already-declared `CharacteristicSpace`.
 3. **Choose the ref-to-ref relation kind.** Declare `sameDeclaredSpaceAs` when both references resolve to the same A.19 space by value, and `distinctDeclaredSpaceFrom` when their defining contents establish distinct values. If that identity question is unresolved, retain the uncertainty rather than inferring difference from two declarations.
 4. **State the source-to-outcome relation.** Give direction, mode, and carrier. If one named `OutcomeMapRef` or another declared interpretive qualifier carries the relation, cite that qualifier. Otherwise state the relation definition or supplying operation in prose.
@@ -178,7 +178,7 @@ Use them when:
 
 These qualifiers help explain the relation. They do not replace the recoverable source basis, the search-side and outcome-side spaces, or the declared relation and its applicable limitations. The source basis may be one set or the composition described in §4.7.
 
-The substrate cites the qualifier definition on which it relies. A later view may introduce its own representational qualification; distinguish that view claim from a change to the source-to-outcome relation. If the underlying relation changes, revise its declaration and recheck dependent uses.
+The substrate cites the qualifier definition on which it relies. A view can introduce a qualification that concerns only its representation. To compare an alternative source-to-outcome mapping, declare a separate substrate or mark the alternative as hypothetical. When evidence changes where an existing mapping applies, reconsider the conclusions you control. A change to a shared declaration belongs to its authorized maintainer. Follow the mapping actually in force for the use and retain earlier grounds where they still apply.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.9 - Descriptor maps and distance definitions dock here, but do not replace the space refs
 
@@ -218,5 +218,5 @@ Once the substrate is declared, select the neighboring pattern for the remaining
 - Use `F.18` when the problem is label choice or naming-side comparison around this declaration. Naming notes may explain why one head is better named; they do not settle the substrate relation.
 - Use `A.0` when the task is cold-reader glossing of these tokens. Glosses explain the terms; the source, spaces, relation and limitations required by §4.2 must still be recoverable from the account.
 
-If a neighboring use needs a changed source-to-outcome relation or qualification, revise the declaration and reconsider the conclusions that depend on the change. Reuse unaffected content.
+For another mapping or qualification, distinguish trying an alternative from changing the declaration that governs other users. Apply §4.8 to the affected conclusions and to the maintainer’s decision. Reuse unaffected content.
 

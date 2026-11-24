@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — Shared Grounds and Reusable Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-shared-grounds-and-reusable-methods.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:4 — Solution — Shared Grounds and Reusable Methods"
-line_start: 97866
-line_end: 97889
+line_start: 97923
+line_end: 97946
 dependencies:
   - "E.2"
 keywords:
@@ -45,7 +45,7 @@ FPF expresses these shared grounds and reusable contributions through:
 
 For a proposed rule or artifact, take one affected use through these steps:
 
-1. State the intended user, decision or action, and the failure the proposal addresses.
+1. Identify whose work the proposal would change, the decision or action at issue, and the failure it addresses. If the intended benefit is a capability, say who could then do what, with which support.
 2. For a normative rule, name at least one core invariant and explain the rule's contribution in that use. A copied invariant label is insufficient; if the contribution is unresolved, retain the proposal and return the missing argument or case before treating it as charter-conformant.
 3. State the artifact's intended measurable benefit, its comparison basis and how it could be checked, or the reason a benefit statement is inapplicable. Distinguish an aim or supported prediction from an observed result. Withdraw an unsupported outcome claim or obtain the evidence needed by that claim; do not substitute conformance for benefit.
 4. Apply only the additional feasibility and lexical conditions that the claim activates. State any remaining gap and the next useful action. A changed benefit basis or invariant argument reopens the affected claim, not unrelated conclusions.

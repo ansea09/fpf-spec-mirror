@@ -6,12 +6,12 @@ section_id: "B.5.SD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:4 — Solution"
-line_start: 53228
-line_end: 53302
+line_start: 53253
+line_end: 53327
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -53,7 +53,7 @@ Begin with the objects, claims and conditions the answer concerns. Recover ambig
 
 Then connect the claims. Use B.5.RA:4.4a to recover an argument implicit in prose or dialogue, or to examine an already clear argument and the support an objection challenges. For each important conclusion, ask what supplies its ground and what relation permits the next inference. For a proposed action, ask how its contributions produce the receiving result. Trace dependencies in both directions: from the result to what it needs, and from a supplied finding to what it warrants.
 
-In a multi-component system, distinguish the claim that each component works from the claim that they work together. Recover interfaces, interactions, loads and shared conditions that can defeat composition. In an organizational proposal, distinguish one participant's spare time from joint availability at the moment of handover. In a learning design, distinguish exposure to instruction from the operation the learner will later perform.
+In a multi-component system, distinguish the claim that each component works from the claim that they work together. Recover interfaces, interactions, loads and shared conditions that can defeat composition. For a proposed joint service, establish when the needed contributions can coincide. When the group is asked to commit to that service, also establish whose undertaking or scheduling authority can secure those contributions. In a learning design, distinguish exposure to instruction from the operation the learner will later perform.
 
 Use the form best suited to the subject: a calculation, diagram, connected prose, prototype, table with explained relations or another working product. Choose a form that exposes the reasoning. A canvas or checklist can also help notice an omitted concern.
 

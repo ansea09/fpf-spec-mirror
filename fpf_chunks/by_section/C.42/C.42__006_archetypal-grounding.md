@@ -6,12 +6,12 @@ section_id: "C.42:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__006_archetypal-grounding.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:5 — Archetypal Grounding"
-line_start: 95347
-line_end: 95422
+line_start: 95404
+line_end: 95479
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -90,7 +90,7 @@ The service can introduce a supported scheduling change while studying why the q
 
 A learner practices interpreting unfamiliar statistical results. A tool can produce a correct explanation of today's example.
 
-If the needed result is only that explanation, suitable tool use and checking can be an adequate obtaining way. If the need is later independent interpretation, the supplied explanation does not establish the learner's capability.
+If the needed result is only that explanation, suitable tool use and checking can be an adequate obtaining way. If the later job permits help, identify what that help can supply and what the learner must decide. A tool might give an estimate while the learner identifies a misleading comparison and justifies the correction. For a claim about unaided interpretation, examine the learner's judgement with the permitted information and without that assistance.
 
 The practitioner separates practice that develops the missing operation from clerical copying that serves neither learning nor later use. A competent teacher can replace the copying with supplied material while retaining the learner's interpretation, feedback and a consequential variation.
 

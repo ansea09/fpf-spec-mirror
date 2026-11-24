@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.22 — Structure and Structural Views"
-line_start: 41811
-line_end: 42331
+line_start: 41828
+line_end: 42350
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -99,7 +99,9 @@ StructureQuestionCard@Project:
   admissible action:
   stop or non-admissible overread: stop or return condition
   grounded non-admissible overread, optional:
-  selecting system, method, and dated work, only when dated Work is asserted:
+  selecting participant and grounds, when the claim concerns who chose the arrangement:
+  selection Method, when the way of choosing matters:
+  dated selection Work and its grounds, when that occurrence is asserted:
   selection-result episteme, when a durable result is needed:
   claim scope or effective reference scheme of that claim, if current:
   reliance relation, if a neighboring reliance claim is being made:

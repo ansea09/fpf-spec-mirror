@@ -6,12 +6,12 @@ section_id: "E.24.PUB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__009_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:7 — Conformance Checklist"
-line_start: 125820
-line_end: 125834
+line_start: 125884
+line_end: 125898
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -40,14 +40,14 @@ keywords:
 
 | Check | Observable conformance condition |
 | --- | --- |
-| `CC-E24PUB-1` | The bounded-use declaration names the intended receiving use. A separate plan, decision question, or `U.WorkPlan` is cited only when it independently exists and changes the publication claim. The publication statement names the selected edition, audience, bounded use, expression and carrier; it establishes no actual access, reliance, use, Work, or result. Any independently current stronger claim is routed to its direct pattern without reproducing that pattern's test here. |
+| `CC-E24PUB-1` | The bounded-use declaration names the intended receiving use. A separate plan, decision question, or `U.WorkPlan` is cited only when it independently exists and changes the publication claim. The publication statement names the selected edition, audience, bounded use, expression and carrier; establishing availability can complete a commission for that result. For any claimed constitutive effect, establish the authorized act and applicable rule. Ground actual access, reliance or subsequent Work separately. Any independently current stronger claim is routed to its direct pattern without reproducing that pattern's test here. |
 | `CC-E24PUB-2` | The selected episteme edition, audience declaration, bounded-use declaration, particular expression and carrier are independently identified; an optional reusable form has its own rules and conformance predicate. |
 | `CC-E24PUB-3` | `EpistemePublicationRelation` has the five exact participant meanings, the availability predicate, and the maximal-continuous-occurrence identity rule stated in section 4.1. |
 | `CC-E24PUB-4` | Exact expression and bearing predicates are recoverable when the receiving use depends on them. A selected form has its conformance predicate. Form-mediated availability uses the same X as witness for expression, bearing and conformance; for a broader claim, the permitted routes cover the promised readers, times and work under §4.2.1. |
 | `CC-E24PUB-5` | Plain `published episteme` states publication participation. A receiving classification use has its C.3.2 basis; public-kind admission follows E.24.UK. The availability-only use retains the rejection `E24UK-NAR-EPUB-01`. |
 | `CC-E24PUB-6` | A `U.View` remains a same-individual dependent specialization of `U.Episteme` under an obtaining E.17.0 conformance relation; graphical appearance and A.6.3 construction alone supply no membership. |
 | `CC-E24PUB-7` | Representation correspondence is stated for the applicable operation; C.29 is used for its mathematical branch. Expression elements, reusable-form rules and subject-side objects retain their own identities. |
-| `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, performed Work, operation binding, and result remain under their direct patterns. E.24.PUB checks only that publication availability is not used as proof of those stronger claims. |
+| `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, performed Work, operation binding, and result remain under their direct patterns. An authorized publication can perform the notification or put a decision into effect when the governing terms so provide. For stronger claims about personal assent, actual access, reliance or execution, establish the additional grounds they require. |
 | `CC-E24PUB-9` | A changed episteme, expression, form, carrier, audience, or bounded use leads to the smallest affected object or relation rather than a whole-stack rewrite. |
 | `CC-E24PUB-10` | The account answers the publication question at the scope asked. One supported statement can suffice. A design for a wider use gives the grounds for the reader's access to and recovery of the needed content under those conditions. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.23.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
-line_start: 67503
-line_end: 67803
+line_start: 67542
+line_end: 67842
 dependencies:
   - "A.10"
   - "B.3"
@@ -199,7 +199,7 @@ Do not embed acceptance thresholds here; an admission floor remains a G.4 Accept
 
 * **L0 — Anecdotal.** Claims exist; lanes sparse; examples ad‑hoc.
 * **L1 — Worked‑Examples.** Multiple **worked examples** with lane tags and **Scope slices** declared; *no replication yet*.
-* **L2 — Replicated.** Independent replications identify their distinct bearers or operating conditions and declare the claim scope and selected slices, source and method editions, and qualification windows used; lane separation is observed and decay windows are explicit.
+* **L2 — Replicated.** Identify the independent repetitions and the claim each tests. Two independent evaluators can repeat the procedure on the same material under the same conditions. A claim about transfer to other bearers or conditions needs evidence covering that variation. State the claim scope, slices, source and method editions, qualification and decay windows, and the applicable lane separation.
 * **L3 — Benchmark‑Severe.** Repeated wins or parity on **community baselines** or **severe tests**. Declare any F.9 Bridge on which this comparison relies, with its loss notes.
 
 *Optional rung (for QD/OEE‑heavy families; ordinal, closed enum):*
@@ -271,7 +271,7 @@ The following are constructed branch examples. For each later branch, stipulate 
 - `Constraint‑Programming`: **MaturityCard**=`L2`; the ordinal `service_level≥B` Acceptance predicate is met. Baseline parity is an additional CAL condition, not a missing R0 minimum in this example. Its declared failure behavior permits `Degrade(scope-narrow)` while parity is unresolved, after R0 and eligibility pass for the narrowed use. If that parity basis were required by R0, the result would be `Abstain`.
 - `Heuristic meta‑search`: **MaturityCard**=`L1`. The applicable AcceptanceClause and family failure policy decide between a permitted `Degrade(sandbox)` branch and `Abstain`; L1 alone supplies neither outcome.
 
-*Using these results.* Hand the dispatcher the admission decision and permitted conditions for each family. A family admitted for a sandbox trial can enter that trial. Before selecting it for ordinary work, establish its eligibility for that use. A shortlist can retain alternatives eligible for the same intended use. To claim that a member is non-dominated, compare performance on cost and service under the stated order and common conditions (C.18:4.4). The admission results above provide no such comparison.
+*Using these results.* Hand the dispatcher the admission decision and permitted conditions for each family. `Degrade(sandbox)` establishes eligibility under the stated trial conditions. Establish the authorization and resources the trial needs before committing to run it. To report that the trial occurred, use evidence of its actual performance. Before selecting it for ordinary work, establish its eligibility for that use. A shortlist can retain alternatives eligible for the same intended use. To claim that a member is non-dominated, compare performance on cost and service under the stated order and common conditions (C.18:4.4). The admission results above provide no such comparison.
 
 > Dunning, Huchette and Lubin (2017) describe **JuMP** as a modeling language that separates model expression from optimization-solver choice. This supplies a concrete software example of preserving a problem description while considering different solvers. ([SIAM Review][18])
 

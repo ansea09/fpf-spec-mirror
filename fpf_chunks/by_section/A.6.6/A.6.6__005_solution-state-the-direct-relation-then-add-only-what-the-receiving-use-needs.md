@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution - State the direct relation, then add only what the receiving use needs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-state-the-direct-relation-then-add-only-what-the-receiving-use-needs.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:4 — Solution - State the direct relation, then add only what the receiving use needs"
-line_start: 24721
-line_end: 24893
+line_start: 24737
+line_end: 24909
 dependencies:
   - "A.10"
   - "A.14"
@@ -178,7 +178,7 @@ When umbrella wording leaves the relation unclear, recover the direct meaning th
 | “This description is about X” | **Ordinary aboutness** under A.7/C.2.1 | description episteme and its EntityOfConcern X; aboutness alone does not establish a source-to-receiving construction | the source or describing relation required by the use |
 | “Construct a view of the same entity” | **Viewing arrow** under A.6.3 | separately identified source and receiving epistemes, the same EntityOfConcern, and the construction rule | viewing pins |
 | “Retarget a description to another entity” | **Retargeting arrow** under A.6.4 | separately identified source and receiving epistemes with different EntitiesOfConcern, and the retargeting arrow `r` | `r`; a separate assertion `q` for a named receiving use, and a current-case judgement when that case is evaluated |
-| “Allowed only under policy P” | **Constraint / policy** (`constrainedBy`, `permittedUnder`) | dependent: work-step / publication item; base: policy/rule | policy pin, waiver/work ref |
+| “Allowed only under policy P” | **Constraint or affirmative permission** (`constrainedBy`, `permittedUnder`) | Identify the proposed use and the condition the rule imposes. For permission, establish which beneficiary may do what, in which scope and when. | the applicable rule and facts that satisfy it, including a current grant or the required party’s assent when the rule calls for it (`A.2.8.PER`) |
 | “Property belongs to object” | **Attribution / aboutness** (`attributedTo`, `aboutEntity`, `characterises`) | dependent: property/abstraction; base: object | observation/derivation witnesses |
 | “This expression means … in this source” | **Source-local meaning lane** (F.0.1; F.17 only when a durable address or basis relation is needed) | local expression and local-sense claim | source passage and, when current, an obtaining basis relation |
 

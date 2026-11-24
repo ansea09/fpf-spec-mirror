@@ -6,12 +6,12 @@ section_id: "C.2.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:4 — Solution"
-line_start: 56725
-line_end: 56765
+line_start: 56756
+line_end: 56796
 dependencies:
   - "A.10"
   - "A.16"
@@ -69,7 +69,7 @@ The following are recurring examples of questions to resolve, not a closed taxon
 1. Identify the episteme edition, the claim or cue being used and the receiving judgement or action. Keep a source episteme and an analyst's resulting account distinct under C.2.P when their contents or concerns differ.
 2. Ask which facts the receiving work needs: for example, the source of a reading when diagnosing a calculation, the relevant observation when checking a pressure claim, or an acknowledgement condition when arranging an operator's next check. Obtain only the relations that can change that work. The table in :4.1 helps locate common questions; the subject of the work determines the answer and can require another relation.
 3. State each needed relation with its participants, applicable scope and grounds. When a trace is used as evidence, establish its relation to the target claim as well as its provenance. When an action is claimed, establish the interaction or governing condition and the relevant performer. Preserve a consequential unknown instead of filling it from a neighbouring fact.
-4. Compare what the source and recipient can observe, obtain or do. Which claims or actions still have the conditions they require? For a blocked check, identify what is missing. An instrument, a calibration reference, access to a record or authority to act each calls for a different response. For an event that cannot be repeated, seek a contemporaneous record or limit the conclusion to what the surviving evidence supports. Another performer can supply a present check. If the intended result is the recipient’s ability to perform it, examine what the recipient can do on a further occasion under the stated assistance conditions.
+4. Compare what the source and recipient can observe, obtain or do. Which claims or actions still have the conditions they require? For a blocked check, identify what is missing. An instrument, a calibration reference, access to a record or authority to act each calls for a different response. For an event that cannot be repeated, seek a contemporaneous record or limit the conclusion to what the surviving evidence supports. Another performer can supply a present check. For the recipient’s ability, use evidence of the recipient’s own work under the assistance and access conditions at issue. A further occasion can establish a still-open question about independent choice, transfer or retention. A separately commissioned check calls for its own performance.
 
 For example, an alert can be computed from a measurement, delivered in a report and acknowledged by an operator. Replacing the report file while preserving the accessible assertions can leave the derivation and evidence unchanged. Discovering that the measurement concerned another pump changes its evidential use for the pressure claim. Disabling an acknowledgement channel changes the interaction available to the operator. These changes call for different continuations, so the account must keep their predicates distinct.
 

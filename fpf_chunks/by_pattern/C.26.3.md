@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.3.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
-line_start: 70023
-line_end: 70422
+line_start: 70070
+line_end: 70469
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 
 ### C.26.3:1 - Problem frame
 
-Use this pattern when protecting a function across boundaries depends on several conditions holding together under disturbance. Start with the work the recipient needs kept possible. Its requirements determine what state to assess, what a proposed method must preserve, and what the people running it will need to observe and do.
+Use this pattern when protecting a function across boundaries depends on several conditions holding together under disturbance. Start with the work the recipient needs kept possible. Its requirements determine what state to assess, what a proposed method must preserve, and which observations and actions the operating arrangement must provide.
 
 **What goes wrong if missed.** The team treats one dashboard value, stability slogan, or local metric as viability, while another envelope variable, intervention cost, boundary condition, or failure mode is already breaking the protected promise or function.
 
@@ -305,7 +305,7 @@ Use the translated source contribution to explain an envelope constraint or choo
 
 In this constructed case, a platform team must preserve checkout service during a traffic spike. The receiving service requirement specifies both timely responses and sufficiently current payment-failure status. The team traces a proposed increase in cache duration: serving more requests from cache may reduce delay, while retaining old status longer can mislead customers and increase support contacts.
 
-`CheckoutSystem-1` is independently recognized under A.1 as the deployed System. `CheckoutPromiseContent-1` separately states the checkout outcome and reliability on which customers may rely. For this example, the receiving requirement sets the latency limit at 250 ms for the highest five-minute p95 in the incident hour and the stale-status limit at 1% of statuses in that hour. The support limit is derived from the provision reserved for this incident: four available specialists can each handle up to five comparable contacts within the hour under the stipulated workload, giving reserved capacity for 20. These are constructed requirement and capacity premises, not limits inferred from the observed averages.
+`CheckoutSystem-1` is independently recognized under A.1 as the deployed System. `CheckoutPromiseContent-1` states the checkout outcome and reliability on which customers may rely. The receiving requirement sets the latency limit at 250 ms for the highest five-minute p95 in the incident hour and the stale-status limit at 1% of statuses in that hour. Four specialists can each handle up to five comparable contacts during the hour, so total handling cannot exceed 20. For the example, suppose they can each handle five concurrently with the reserved equipment, access and time. This makes 20 jointly attainable and establishes the support bound used below. A shared resource could lower the attainable capacity while leaving the upper bound valid.
 
 Compare two matched one-hour windows under the stipulated spike condition, before and after the cache-setting change:
 
@@ -319,7 +319,7 @@ In this constructed case the highest five-minute p95 falls from 350 to 180 ms. I
 
 The decision combines properties of CheckoutSystem-1 with demand on the incident-support team. The support figure counts contacts requiring handling; a count of completed handling would concern actual support Work. Operator attention, if added, would concern the people handling those contacts. Fulfillment of CheckoutPromiseContent-1 still needs its own evaluation.
 
-Suppose the acceptable stale-status bound is missing. Demand of 45 contacts already exceeds capacity for 20, so the joint requirement failed in this hour. Keep the observed stale-status rate of 3%. Recover the freshness requirement if deciding whether that rate also fails or which remedy to pursue.
+Suppose the acceptable stale-status bound is missing. Demand of 45 already exceeds even the upper bound of 20 contacts the specialists could handle. That is enough to rule out serving all demand that hour, even if their exact attainable capacity is unknown. Keep the observed stale-status rate of 3% and recover its governing requirement when deciding whether that rate also fails or which remedy to pursue.
 
 A dashboard query is an observation operation unless a behavior-changing effect is separately established.
 

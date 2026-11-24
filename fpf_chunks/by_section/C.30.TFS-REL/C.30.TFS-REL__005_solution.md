@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 78525
-line_end: 78775
+line_start: 78580
+line_end: 78830
 dependencies:
   - "A.10"
   - "A.15"
@@ -274,7 +274,7 @@ The account names the plant architecture locus, selected E.18 path or crossing, 
 
 **Neural-network dataflow change.** Source labels such as attention block, SSM block, convolution block, memory mechanism, cache mechanism, and MoE expert-selection go through `C.30.STRAT` unless the changed value is already recovered. C.30.TFS-REL applies only when the changed structure kind and transformation-flow relation are named. A benchmark, ablation, or pruning result may bear on a non-architecture claim named by value, but it does not make the flow relation an architecture decision, actual transformation, or evidence sufficiency by itself.
 
-**Extracted relation graph.** In a generated graph distinguish an import present in a source edition, a call permitted in a configuration and a call actually observed. An allowed path with jointly compatible conditions establishes a possible route in the model. A response marked `authorized` could have come from a cached decision or an invoked payment service. Matching send and receive records can establish contact with the handler. To identify the source of the issued response, establish which decision the responding branch used. A background refresh can contact the service while the caller receives the cached decision. A verified bypass refutes a claim that every request took the service route. To conclude that no bypass exists, account for the permitted alternatives, including any paths outside the extraction. Retain the edition, extraction locus and relation semantics needed to repeat that judgement.
+**Extracted relation graph.** In a generated graph distinguish an import present in a source edition, a call permitted in a configuration and a call actually observed. An allowed path with jointly compatible conditions establishes a possible route in the model. A response marked `authorized` could have come from a cached decision or an invoked payment service. Matching send and receive records can establish contact with the handler. To identify the source of the issued response, establish which decision the responding branch used. A background refresh can contact the service while the caller receives the cached decision. One response known to have used the cached decision refutes the claim that every response used a fresh decision from the service. To refute the claim that every request contacted the service, establish a completed request with no such contact. A feasible path that completes without contacting the service can refute a claim that the architecture requires contact, while leaving the history of particular requests open. To conclude that no bypass exists, account for the permitted alternatives, including any paths outside the extraction. Retain the edition, extraction locus and relation semantics needed to repeat that judgement. If a generator supplied both branches and an analyst verified which decision Q used, the analyst established which branch supplied Q’s response. Any other calls made while handling Q remain a separate question. To credit the analyst with discovering the bypass, recover how they identified it and what the generator had already supplied.
 
 #### C.30.TFS-REL:4.6 - Lowering and currentness conditions
 

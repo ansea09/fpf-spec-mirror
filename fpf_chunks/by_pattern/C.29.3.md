@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.3.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.29.3 — Computational Realization"
-line_start: 74256
-line_end: 74604
+line_start: 74303
+line_end: 74651
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -28,7 +28,7 @@ keywords:
 
 ### C.29.3:1 - Problem frame
 
-**Use this when** a computation is available, but the proposed executing arrangement has not yet been connected to its inputs, operations and interpretable results. A motor interface may accept a different number from the one calculated. A circuit may produce a voltage whose scale differs from the input scale. A material admission procedure may preserve a count only while several people share the same stock of cards.
+**Use this when** a computation is available, but the proposed executing arrangement has not yet been connected to its inputs, operations and interpretable results. A motor interface may accept a different number from the one calculated. A circuit may produce a voltage whose scale differs from the input scale. At a second entrance, issuing copies of the original passes can defeat a room's admission limit.
 
 Start with the result the arrangement must deliver. For an input or history covered by the order, explain how the system is prepared, which actions perform the computation and how its result is read. Compare that result with what the recipient needs. An operating law can establish the comparison over its whole range. A particular input can expose a failure, such as a command outside the interface's range.
 
@@ -103,7 +103,7 @@ For each operation whose realization is unresolved, identify what the system doe
 
 When one logical operation spans several physical actions, examine the intervening states. Reserving a card, crossing a room boundary and returning the card are separate events. A visitor can be outside while the card is unavailable. Either show that the intervening behavior preserves the needed result, or change the model or the arrangement.
 
-For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. Independent copies of an available-card count require a different coordination mechanism. The engineering or administrative method supplies that mechanism.
+For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. One shared stock or disjoint allocations of a limited stock can secure exclusive use. Establish why two overlapping admissions cannot obtain the same card. The engineering or administrative method supplies that mechanism.
 
 For repeated or timed operation, include completion, reset and ordering where they affect the result. Two relative increments add only when both are executed under the intended rule. Repeating an absolute target ordinarily asks for the same target again. An ongoing physical process can require a temporal model rather than a sequence of instantaneous assignments.
 
@@ -249,7 +249,7 @@ Every operation moves one existing card between states. Entry requires its exclu
 
 After two cards have been issued, one visitor may be inside and the other waiting outside. Then F = 1, R = 1, I = 1 and E = 0. The count of unavailable cards is 2, while occupancy is 1. Reading occupancy as 3 − F would be wrong. That count is an upper bound and equals occupancy when R = E = 0.
 
-At the shared issuing point, a free card can be exclusively reserved for the next admission under this procedure. If all three cards are issued and none is free, another reservation must wait. The room itself could be empty with all three cardholders still outside, or full with all three inside. The free-stock count settles whether another card can be issued now. With all three cards free, the room is known to be empty. When several occupancies fit the available count and the exact number matters, count the visitors inside or reconcile entries and exits to the same instant.
+An entrance with access to a free card can reserve it for one visitor. If all three cards are issued and none is free, another reservation must wait. The room itself could be empty with all three cardholders still outside, or full with all three inside. The total free-stock count tells whether any card remains to be issued. To issue one at a given entrance, that entrance needs access to it. With all three cards free, the room is known to be empty. When several occupancies fit the available count and the exact number matters, count the visitors inside or reconcile entries and exits to the same instant.
 
 A second entrance can share the same stock or receive a partition of it, such as two cards at one entrance and one at the other. Both preserve the total of three. Giving the second entrance three copied cards instead permits six simultaneous admissions, despite each attendant following their local procedure.
 

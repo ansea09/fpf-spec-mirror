@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 60923
-line_end: 60973
+line_start: 60954
+line_end: 61004
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -68,8 +68,8 @@ Supply evidence to another Method-repertoire decision only when that receiving u
 | source decision | C.11.MV subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and action considered. |
 | evidence | Observations and credible estimates distinguished per alternative, with their sources, domain consequences, burdens, capability and System demands, side effects, opportunity costs, reversibility, reach and gaps. Actual Work, performers and direct relations retain their independently supported basis wherever claimed. |
 | supported statement | The smallest situated worth statement that bears on the receiving Method-repertoire decision. |
-| non-transfer | No transfer of the C.11.MV `keep`/`revise`/`replace`/`branch`/`stop` action, implementation authority, universal Method rank, causal claim, or evidence outside the stated source-use conditions. |
+| reach of the decision | Identify the practices, options and period the actual decision governs. Give the grounds for a common mandate or the decision still entrusted to the receiving practice. A favorable comparison by itself confers no authority. |
 | reopen | Changed Method or candidate status, situation in the receiving practice, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
 
-The receiving practice remains responsible for its Method repertoire and compatibility claims. The contribution supplies evidence for that decision; it does not direct the recipient to take the C.11.MV action.
+Each practice can use the evidence within its demonstrated reach. To establish what the receiving practice must do, identify the decision and the authority that makes it applicable there. Where the choice is still local, the receiver can use the comparison in making it.
 

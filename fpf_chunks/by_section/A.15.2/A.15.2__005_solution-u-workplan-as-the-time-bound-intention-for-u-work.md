@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 31004
-line_end: 31102
+line_start: 31021
+line_end: 31119
 dependencies:
   - "A.10"
   - "A.15"
@@ -152,7 +152,7 @@ A variance question is handled in the same economy. Use a separate local compari
 * **method variance:** actual `enactsMethod` against the intended method, including a substitution claim when the comparison asserts substitution;
 * **description-selection variance:** the method-description episteme cited by a named assertion about a Work occurrence or by a separately governed instruction-use claim, compared with the description reference planned earlier; call either object an edition only when the C.2.1 `EpistemeEditionRelation` predicate obtains, and do not treat that episteme as enacted;
 * **acceptance-target variance:** a separately governed measurement, evaluation, or acceptance verdict against the planned target; and
-* **assignment variance:** for every actual performer, compare the obtaining assignment occurrence used by F.6 with the corresponding intended performer and local system-role-kind conditions in the plan. Check the occurrence's directly declared species, actual holder System, assigned local system-role-kind value, every additional participant that the plan constrains, and the part of its covering interval constrained by the plan. Report a **species mismatch** when the actual occurrence instantiates a different assignment species; when the species matches, report an **occurrence-value mismatch** only for a holder, assigned-kind value, plan-relevant additional participant, or interval value that differs from the plan. Do not collapse either comparison into a label match.
+* **assignment variance:** for each attribution the plan constrains and the conformance question uses, compare the obtaining assignment occurrence used by F.6 with the plan’s conditions for that performer or contribution. A plan requiring every co-performer to hold a qualifying assignment requires grounds for every one of them. Check the occurrence's directly declared species, actual holder System, assigned local system-role-kind value, every additional participant that the plan constrains, and the part of its covering interval constrained by the plan. Report a **species mismatch** when the actual occurrence instantiates a different assignment species; when the species matches, report an **occurrence-value mismatch** only for a holder, assigned-kind value, plan-relevant additional participant, or interval value that differs from the plan. Do not collapse either comparison into a label match.
 
 > **Manager's view:** A usable coordination plan can stop before later comparison. If a receiving question needs fulfilment or variance, recover the relevant baseline and policy under §4.5; missing comparison grounds limit that use rather than cancelling the plan's membership.
 

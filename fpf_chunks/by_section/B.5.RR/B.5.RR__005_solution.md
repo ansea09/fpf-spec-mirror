@@ -6,12 +6,12 @@ section_id: "B.5.RR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:4 — Solution"
-line_start: 50538
-line_end: 50595
+line_start: 50563
+line_end: 50620
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -31,7 +31,7 @@ Start with the receiving question, follow the affected reasoning and derive the 
 
 Compare the earlier question with the present one. State the result needed and the changed condition in terms that can be used in the reasoning. For a calculation, that may be a new range or an input that is now an unknown. For an empirical conclusion, it may be an observation, a changed population or an operating condition.
 
-Establish who has changed the question. A recipient may commission a new result. You may also try a different question as a way into the one still assigned. Could two situations give the same answer to your question and different answers to the recipient's? If so, recover what distinguishes them for the assigned use. In an inquiry whose direction is yours to choose, you can pursue a newly interesting question on its own terms.
+Use the current commission to establish which question governs the work. A recipient or investigator can suggest a new question. To replace the agreed result, establish who may adopt the change and whether the governing terms or a decision give it effect. Within a direction entrusted to you, you can pursue a new question on its merits. You can also try a different working question while the original result is still due. Could two situations give the same answer to yours and different answers to the one assigned? If so, recover what distinguishes them.
 
 Distinguish a change in the situation from a correction to your account of it. A measurement taken yesterday can remain a sound report of yesterday while being insufficient for today's operation. A proposed condition can be explored without replacing the account of what has happened.
 
@@ -67,13 +67,13 @@ Relate the revised conclusion to the result requested in §4.1. It may supply th
 
 For a mathematical argument, carry the domain and assumptions into its conclusion. For an empirical application, examine the changed observation or applicability premise using the relevant subject method. Recomputing a model can establish its new consequence while leaving its correspondence with the physical situation unresolved.
 
-If the question asks whether a result is attainable under fixed conditions, a proof of impossibility answers it. If the recipient still needs a usable object or arrangement, explain what the obstruction rules out. You can propose a change to a condition the recipient has authority to revise. Carry the answer under the original conditions with the proposal so the recipient can decide whether to commission the changed work.
+If the question asks whether a result is attainable under fixed conditions, a proof of impossibility answers it. If the recipient still needs a usable object or arrangement, explain what the obstruction rules out. You can propose a change to the obstructing condition. Give the recipient the answer under the original terms. If the proposal needs a decision, direct it through the agreed channel to whoever can change the condition.
 
 Obtain further evidence or checking when its possible outcomes can change this use. C.11.DUA helps compare that contribution with its cost. The method can finish with a conditional result when conditional use is sufficient.
 
 #### B.5.RR:4.5 - Apply the result and carry the change to its users
 
-Perform the receiving use, or give its next contributor the revised conclusion and the condition that governs it. When others rely on the earlier result, tell the affected users what changed and which application must change with it. Their unchanged uses need no new argument merely because a nearby result was revised.
+Give the commissioning party the conclusion and the conditions needed to use it. Delivery can complete the inquiry. Apply the result when implementation is yours. If the commission or a standing duty calls for further notice, establish who must give it and what each recipient may receive. A designated intermediary can convey an authorized conclusion or a change of status while protected premises stay with their custodian. If a required notice cannot reach its recipient on those terms, report that gap through the authorized channel. Unaffected uses can retain their earlier grounds.
 
 Check the changed transition by the method appropriate to its claim. A small instance can reveal a substitution error; a proof establishes its stated general conclusion; an observation can test a physical consequence. Choose the check for the result being relied on.
 

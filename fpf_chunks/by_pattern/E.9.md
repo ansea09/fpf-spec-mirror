@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
-line_start: 104678
-line_end: 105043
+line_start: 104737
+line_end: 105102
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -103,7 +103,7 @@ Either a direct edit to Core or a DRR that documents the apparatus but leaves th
 
 ### E.9:4 - Solution — state the decision before distributing it
 
-Recover the decision the receiving practice commissioned. Who will use it, which alternatives can they choose, and what changes for them if those alternatives differ? Where the choice concerns several wholes, identify the relevant parts of each and the connections on which the result depends. Where it concerns alternative models, identify what their differences allow the practitioner to decide about the same subject. A decision about how to describe an architecture can contribute to a decision about that architecture. State that contribution and what the architect still needs to settle.
+Recover what the receiving practice commissioned. Who will use the comparison, what differences matter to them, and who holds any choice still to be made? The governing terms may give that choice to a group acting together. Where the choice concerns several wholes, identify the relevant parts of each and the connections on which the result depends. Where it concerns alternative models, identify what their differences allow the practitioner to decide about the same subject. A decision about how to describe an architecture can contribute to a decision about that architecture. State that contribution and what the architect still needs to settle.
 
 Present the `Decision` first in plain language. Before introducing the DRR schema, a Method or Work account, or a catalogue of alternatives, let the reader recover the following:
 
@@ -248,7 +248,7 @@ If the answer is unknown, start with the difficulty and the material available. 
 
 Use a provisional expression to bring a consequential relation into view: juxtapose two cases, arrange competing explanations, trace a dependency, or compare an intended use with the result currently available. E.8:4.2.1.2 and A.6.3.RT.OE supply the expression construction. Identify what the arrangement lets you infer and what remains unsupported. A question mark can make an unresolved interpretation visible; it supplies no premise for choosing one answer.
 
-When the evidence reveals several questions inside the original commission, distinguish them and show how their answers bear on the recipient's decision. Return any open choice to the person entitled to make it. For example, agreeing where a decision will be recorded settles its publication only. If the commission also assigns a choice between architectures, compare their consequences for the work they must support. Retain a working table while its distinctions help make or explain that choice.
+When the evidence reveals several questions inside the original commission, distinguish them and show how their answers bear on the recipient's decision. If the commission calls for a decision, establish who can make it and under what conditions. Where the charter reserves the choice to a board, bring the alternatives and their grounds to the board when that referral is yours. A researcher commissioned only to compare their consequences can give the comparison to its recipient and finish there. For example, agreeing where a decision will be recorded settles its publication only. If the commission also assigns a choice between architectures, compare their consequences for the work they must support. Retain a working table while its distinctions help make or explain that choice.
 
 Before another author relies on the selected answer, resolve each premise that can change its selected obligation, or bound the result so that the remaining uncertainty does not defeat that obligation. If neither is possible, state where the decision must stop. Use the four kernel components and the applicable inspection content in §4.1 to inspect that closure. Material already recoverable in the account need not be copied into another answer column. A source pointer without the needed substantive contribution is not recoverable decision content.
 

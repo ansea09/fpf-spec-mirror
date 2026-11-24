@@ -6,12 +6,12 @@ section_id: "C.41.QC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:4 — Solution"
-line_start: 94982
-line_end: 95041
+line_start: 95039
+line_end: 95098
 dependencies:
   - "A.10"
   - "C.41"
@@ -60,9 +60,9 @@ Start cheaply. One counterexample can defeat an overbroad claim. Use a direct ex
 
 A selective rubric or pairwise judgement can help with an interpretive or relative question, but choosing the better of two results does not establish that either meets an absolute condition.
 
-Qualify that judging arrangement on cases whose consequential answers have adequate independent grounds. Compare false passes, false failures and obtaining those grounds as well as the cost per judgement.
+Qualify that judging arrangement on cases whose consequential answers have adequate grounds independent of the checker being evaluated. Compare false passes, false failures and obtaining those grounds as well as the cost per judgement.
 
-Broader reliance may call for representative cases, independent judgement, executable observation or a field trial through [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial). Choose another reader or agent when it supplies a materially different basis, expertise or observation. Mere duplication of the same unsupported inference does not establish independence.
+Broader reliance may call for representative cases, independent judgement, executable observation or a field trial through [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial). Recover what must be independent. Two evaluators can make independent judgements about the same drawing against the same tolerance. Establish how each reached their answer under the required conditions. Their agreement supplies two assessments and still only one drawing. A requirement for a second source observation calls for that observation.
 
 When work is repeatedly optimized against a score, compare earlier and later work results on consequential characteristics and suitable new cases. A rising score can reward surface changes while the intended result deteriorates. For the importer, a more persuasive success report leaves identifier loss unchanged. Inspect the proposed shortcut and obtain evidence beyond the optimized signal.
 

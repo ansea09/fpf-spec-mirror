@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:4 — Solution"
-line_start: 113134
-line_end: 113233
+line_start: 113195
+line_end: 113294
 dependencies:
   - "C.18"
   - "C.19"
@@ -53,7 +53,7 @@ For every plausible consumer, decide one of three things:
 * **mentions only:** it cites or describes the pattern but its current action remains valid;
 * **unresolved:** the dependency cannot yet be decided from recoverable content.
 
-Repair the exact dependent loci. Reuse an earlier result only when its conclusion and conditions remain unchanged and the changed premise lies outside its actual dependency. Reopen the smallest affected premise, consumer, example, check, or result; do not rerun an unrelated whole programme merely because an edition number changed.
+For an impact assessment, identify the affected uses and what would have to change. A known repair may await its authorized maintainer even though its need is settled. When the commission includes implementation, make or arrange the authorized repairs and verify their effects. Reuse an earlier result only when its conclusion and conditions remain unchanged and the changed premise lies outside its actual dependency. Reopen the smallest affected premise, consumer, example, check, or result; do not rerun an unrelated whole programme merely because an edition number changed.
 
 An undeclared consumer can depend on the changed premise, and a declared dependency can be unused in the current question. Check actual and declared reach when the distinction matters.
 
@@ -76,7 +76,7 @@ Refine, rephrase, split, merge, generalize, constrain, rename, add, and retire r
 
 **Alternative comparison.** Open this branch only when at least two materially plausible designs remain, a current SoTA choice can change the action, or a repeatable search is itself useful. State what the alternatives differ on and which intended use decides among non-dominated candidates. C.18 and C.19 may generate and retain alternatives when novelty or diversity is part of the question; E.22 and E.21 frame and evaluate pattern qualities.
 
-Keep hard constraints separate from quality comparisons. A failed identity rule, broken reference, missing required result, or unreadable first action is a defect to repair, not a low score to trade away. Compare readability, precision, assurance cost, breadth, or other qualities on their applicable scales. Select by the stated intended use and protected trade-offs; do not add heterogeneous values into an undeclared winner score.
+Keep hard constraints separate from quality comparisons. A failed identity rule, broken reference, missing required result, or unreadable first action is a defect to repair, not a low score to trade away. Compare readability, precision, assurance cost, breadth, or other qualities on their applicable scales. If the commission delegates selection, choose on the stated intended use and protected trade-offs. A commission to compare can end by reporting the alternatives those grounds leave open and what turns on the choice. Keep heterogeneous values on their declared scales.
 
 **Return a decision gap.** If the repair depends on an unresolved ontology, authority, source choice, or architecture decision, return that exact gap to its pattern or decision record. More variants do not compensate for a missing governing distinction.
 
@@ -126,7 +126,7 @@ These answers may live in a DRR, review package, campaign result, source-use acc
 
 Keep accepted historical editions immutable and recoverable. A successor does not rewrite what an earlier edition meant. A source-edition change reopens only claims and actions that relied on the changed source value; unchanged exact inputs and unaffected premises remain reusable.
 
-E.15 finishes when the candidate answers the change question, every in-scope locus that depends on the change is repaired or explicitly unresolved, material predecessor functions have dispositions, and the selected checks support the claimed Delta-Class and continuity. Publication, acceptance, registration, and landing remain separate later decisions.
+An impact assessment can finish with its conclusions about affected uses, required repairs, unresolved dependencies and material predecessor functions. When implementation is commissioned, finish when the candidate answers the change question, the repairs within scope have been made or their unresolved conditions reported, and the checks support the claimed Delta-Class and continuity. Identify any established change still awaiting the responsible maintainer. Publication, acceptance, registration and landing require their own grounds.
 
 Schedule a living refresh only for a high-value claim likely to change and only when someone will use the signal. Name the trigger and affected claim. Retain any review interval required by an applicable publication or maintenance obligation.
 

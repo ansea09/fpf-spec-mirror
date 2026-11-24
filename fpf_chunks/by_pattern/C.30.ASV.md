@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 76797
-line_end: 77739
+line_start: 76850
+line_end: 77794
 dependencies:
   - "A.1"
   - "A.10"
@@ -72,7 +72,7 @@ keywords:
 
 Use this pattern when you have a structural description of one selected architecture-relevant `U.Structure` and need to decide whether that same description is also a `U.View` under one viewpoint.
 
-Name the described holon or `ArchitectureRelation` when known and the structures whose relations matter to the audience. A question about information lost in a diagram can end with the consequential omission. To establish that the description conforms to a particular viewpoint, apply its coverage and omission rules under §4.1 and report the outcome.
+Name the described holon or `ArchitectureRelation` when known and the structures whose relations matter to the audience. A question about information lost in a diagram can end with the consequential omission. A grounded dependency map can answer an architecture question even if its author is unknown. To assess a designer’s own work, recover which relations were supplied by the brief or the extraction tool and which the designer selected, discovered or justified. To establish that the description conforms to a particular viewpoint, apply its coverage and omission rules under §4.1 and report the outcome.
 
 For example: “The failover diagram describes runtime-interaction and control structures, but it hides the failover relation. Recover that relation before relying on the diagram to decide whether failover works.” This is a usable triage result. An adequate sentence can be retained, compared, or handed on. Use `ArchitectureStructureKindTriage@Project` when its fields help that work.
 
@@ -838,7 +838,7 @@ Organization service architecture first recovery:
 ```text
 AI-agent architecture first recovery:
   RuntimeInteractionStructure:
-    model-tool-memory-planner-evaluator-human topology
+    interactions among the model, tools, memory, planner, evaluator and any other participants in the configuration under study
   InformationDataStructure:
     memory scopes, data custody, provenance, retention,
     context-window relation and source-return relation
@@ -849,7 +849,7 @@ AI-agent architecture first recovery:
   ModuleInterfaceStructure:
     tool specs, API specs, and interface specs and substitutability limits
   EvidenceAssuranceStructure:
-    eval harness, human approval, evidence decay, incident feedback
+    evaluation results, any approval required for this use, evidence decay, incident feedback
 admissibleArchitectureMove:
   split runtime interaction, information, security boundary, module-interface, and evidence-assurance claims before relying on the diagram
 correspondenceOrLossLine:
@@ -865,9 +865,11 @@ stop condition:
   ASV contains only the structural-view record; evidence sufficiency, assurance, gate, autonomy, and tool-call authority claims use their applicable patterns
 ```
 
+A catalogue team might entrust a service with publishing entries once specified checks pass. A different agreement can reserve the publication decision to the collections editor, or require decisions by two collections acting jointly. Recover the governing terms and the acts they require before crediting a participant with admission. A permitted publication can still be awaiting execution.
+
 Structural AI-agent security is architecture structure when these structure kinds change the next architecture move. When the claim is instead about latent representation, decoding, or effect adequacy, keep the phrase as a reduced-use source cue and use the applicable representation, decoding, or effect-adequacy pattern.
 
-**Generated code-agent relation graph.** A probe output can supply a diagnostic description or representation. To claim an architecture structural view, establish its description identity, selected-structure subject and E.17.0 conformance. Recover relation meanings and the source basis for the claims being made; distinguish observed, inferred or unknown relations and unexplored regions where that distinction changes the use. Add a source-return condition when hidden distinctions matter. Claims about an agent's internal belief or the safety of a code change need their own grounds.
+**Generated code-agent relation graph.** A probe output can supply a diagnostic description or representation. To claim an architecture structural view, establish its description identity, selected-structure subject and E.17.0 conformance. Recover relation meanings and the source basis for the claims being made. Distinguish observed, inferred or unknown relations and unexplored regions where that distinction changes the use. If the extractor found calls and the designer identified a missing dependency on shared data, the completed map can support a change review. The designer’s contribution is the dependency they identified and supported. Verifying supplied edges is a different contribution. Add a source-return condition when hidden distinctions matter. Claims about an agent's internal belief or the safety of a code change need their own grounds.
 
 **Neural-network block replacement.** For a neural-network modification, such as substituting an attention block or changing MoE path selection, recover which selected structure or relation changes and use `C.30` for its architecture relevance. Identify flow, module-interface, preserved or lost structure, characteristic and source-use claims when they matter to that change. Establish any separate decision or evidence conclusion under its own rule; a modification need not assert every one of these claims.
 

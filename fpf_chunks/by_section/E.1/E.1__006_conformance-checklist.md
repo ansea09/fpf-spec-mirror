@@ -6,12 +6,12 @@ section_id: "E.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__006_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:5 — Conformance Checklist"
-line_start: 97890
-line_end: 97924
+line_start: 97947
+line_end: 97981
 dependencies:
   - "E.2"
 keywords:
@@ -33,7 +33,7 @@ keywords:
 | **CC‑Vision.1** | A claim proposing practical material realization or a physical intervention **MUST** name the action, relevant resources, conditions and constraints, and a feasibility basis sufficient for the intended decision. | Keeps practical proposals materially grounded at the point where realization is claimed. |
 | **CC‑Vision.2** | Every normative rule **MUST** demonstrably support at least one core invariant (*Evolvability, Cross‑Scale Coherence, Didactic Transparency*).       | Keeps the Canon lean and purpose‑driven.        |
 | **CC‑Vision.3** | Abstract Core definitions **MUST** exclude incidental implementation dependence under E.5.1. Exact syntax **MAY** remain when necessary to state the conformance condition of the named publication form, protocol or grammar, with its edition/use boundary. | Preserves portable concepts and usable rules about concrete forms. |
-| **CC‑Vision.4** | A conformant artefact **MUST** state a measurable benefit for at least one of the three roles (*Engineer, Researcher, Learner*) or justify omission. | Aligns success with stakeholder trajectories.   |
+| **CC‑Vision.4** | A conformant artefact **MUST** state an intended measurable benefit for an affected participant or group, or justify omission. Identify the beneficiary in the work at issue, such as an engineer, a research service or a group of learners. A claim about capability identifies whose capability would change. | Aligns success with stakeholder trajectories.   |
 
 Mathematical constructions retain their validity and composition conditions. Material feasibility becomes an additional question when a claim proposes realizing a construction materially or intervening in a physical system. A missing manufacturing method, resource or constraint basis leaves that proposed action unresolved; a physical expression of a mathematical object establishes no realization of its elements.
 

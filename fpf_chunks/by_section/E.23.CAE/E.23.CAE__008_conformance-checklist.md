@@ -6,12 +6,12 @@ section_id: "E.23.CAE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__008_conformance-checklist.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:7 — Conformance Checklist"
-line_start: 124261
-line_end: 124277
+line_start: 124325
+line_end: 124341
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -33,7 +33,7 @@ keywords:
 | `CC-E23CAE-3` | The current demand is checked against the claimed envelope before loss, forgetting, or transfer failure is asserted. |
 | `CC-E23CAE-4` | Relevant performer and support configuration is stated, with `A.15.8` used when the question concerns that configuration. |
 | `CC-E23CAE-5` | Development, rehearsal, procedure change, parameter update, calibration, or another holder-changing operation is controlled where safe; contamination narrows or blocks the disposition. |
-| `CC-E23CAE-6` | For a supported differential distinction, compare a qualified reference and at least one decision-bearing condition, using matching existing observations when sufficient. Include cue reliability, order, and transition history when they can change the observation. Leave surviving alternatives unresolved. |
+| `CC-E23CAE-6` | For a supported differential distinction, compare a qualified reference and at least one decision-bearing condition, using matching existing observations when sufficient for that question. A separately commissioned performance or observation has its own conditions. Include cue reliability, order, and transition history when they can change the observation. Leave surviving alternatives unresolved. |
 | `CC-E23CAE-7` | Applicability selection, response access or activation, adaptation, enactment, and obtained result are not inferred from one undifferentiated success or failure. |
 | `CC-E23CAE-8` | The disposition names its observation, conditions, claim limit, the strongest surviving rival (if any) and any materially unsupported use at issue. If none of the tested rivals remains, state that bounded result rather than inventing another explanation. |
 | `CC-E23CAE-9` | Human, organizational, AI, robotic, collective, or hybrid explanations and interventions remain with their direct owners; no common hidden mechanism is asserted. |

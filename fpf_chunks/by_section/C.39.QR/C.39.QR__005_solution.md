@@ -6,12 +6,12 @@ section_id: "C.39.QR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__005_solution.md"
-commit_sha: "55ef163f91d42b48785bd297b50322e072d0a950"
+commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:4 — Solution"
-line_start: 87649
-line_end: 87760
+line_start: 87706
+line_end: 87817
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -85,7 +85,7 @@ Carry a conclusion to the original subject only through the applicable relation 
 
 Ask what could have produced the same result. To accept a model for use, check its assertions against the intended use. To credit someone with developing it, compare the original assignment, models and help available with that person's or agent's actual choices. A correct submission may reproduce a completed form. It can pass a content check while its authorship and even who applied the rule remain open. A calculation trace can show application. A dated design decision can show who selected and justified a rule. Credit the choices the evidence identifies. The distinction matters when commissioning a design, assigning work or assessing what someone has learned.
 
-A single feasible design can establish that the specified performance is possible in the model. One verified occurrence under the stated conditions can establish that it was achieved. If the claim says every permitted design has a property, a single feasible design lacking it refutes the claim. One verified late delivery likewise refutes “every delivery arrived on time.” For a claim that at least 95 percent arrived on time, count it against the specified population and period. For a requirement that every delivery arrive on time, record the breach. The requirement continues to govern until the responsible authority changes it. A simulated failure can expose a defect in a design argument. Reporting a failure at an installation calls for evidence from that installation. In each case the next decision depends on which assertion the result bears on.
+A single feasible design can establish that the specified performance is possible in the model. One verified occurrence under the stated conditions can establish that it was achieved. If the claim says every permitted design has a property, a single feasible design lacking it refutes the claim. One verified late delivery likewise refutes “every delivery arrived on time.” For a claim that at least 95 percent arrived on time, count it against the specified population and period. For a requirement that every delivery arrive on time, record the breach and apply the terms in force then. They may preserve later deadlines, make a credit due or end an obligation on that breach. If they leave a remedy to a later decision, establish who may choose it and whether they did. To report that a credit was paid, establish the payment. A simulated failure can expose a defect in a design argument. Reporting a failure at an installation calls for evidence from that installation. In each case the next decision depends on which assertion the result bears on.
 
 Then make the distinct comparison with the original task. Ask whether the result now available supplies the required answer, explanation or ability to continue. For example, a valid estimate of a system's load can support sizing while leaving a requested operating arrangement undeveloped. Conversely, an adequately supported narrow estimate may fully answer a request for that estimate.
 
