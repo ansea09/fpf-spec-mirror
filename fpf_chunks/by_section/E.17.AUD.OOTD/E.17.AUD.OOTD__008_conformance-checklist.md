@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:7 — Conformance Checklist"
-line_start: 118000
-line_end: 118022
+line_start: 118017
+line_end: 118039
 dependencies:
   - "A.10"
   - "A.15"

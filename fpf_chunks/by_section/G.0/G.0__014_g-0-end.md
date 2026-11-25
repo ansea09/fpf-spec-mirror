@@ -6,12 +6,12 @@ section_id: "G.0:End"
 section_title: "G.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__014_g-0-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:End — G.0:End"
-line_start: 136600
-line_end: 136601
+line_start: 136619
+line_end: 136620
 dependencies:
   - "A.10"
   - "A.17"

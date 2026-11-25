@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 41589
-line_end: 41737
+line_start: 41596
+line_end: 41744
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -145,7 +145,7 @@ An optional application affects the aggregate only when the cited profile rule s
 Compose check sets only through the profile applications that cover the decision subject and scope. A more specific application may add, replace, or remove a check only when its policy rule and applicability fact say so. Preserve parameterized identities such as regulator X and its rule edition.
 
 `lane`, `locus`, `subflow`, and `profile` may be used as scope values only when the selected structure or policy defines the corresponding boundary for this application. A scope label alone neither selects a profile nor merges check applications.
-Recompute the result when the decision subject, bounded action, profile application, required set, check application identity or result, scope, or window changes. A refresh, edition bump, expired evidence window, changed crossing, or changed path slice matters only when it changes one of those inputs under its own pattern.
+When the decision subject, bounded action, profile application, required set, check application identity or result, scope, or window changes, establish what the effective profile implies for the current action. A decisive condition can determine that disposition across all still possible outcomes of the other checks. Retain their actual states, including deferred checks. Perform a new gate application when the profile or commission requires one. A refresh, edition bump, expired evidence window, changed crossing, or changed path slice matters here when it changes an input under its own pattern.
 
 #### A.21:4.7 - Optional LaunchGate use
 

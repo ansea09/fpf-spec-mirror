@@ -6,12 +6,12 @@ section_id: "C.28.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:4 — Solution"
-line_start: 72284
-line_end: 72345
+line_start: 72294
+line_end: 72355
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

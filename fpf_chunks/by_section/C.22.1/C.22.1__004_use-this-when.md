@@ -6,12 +6,12 @@ section_id: "C.22.1:3"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__004_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:3 — Use this when"
-line_start: 66298
-line_end: 66303
+line_start: 66307
+line_end: 66312
 dependencies:
   - "A.15"
   - "C.19.1"

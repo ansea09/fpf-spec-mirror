@@ -6,12 +6,12 @@ section_id: "E.24.PUB:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__003_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:1 — Problem Frame"
-line_start: 125593
-line_end: 125604
+line_start: 125610
+line_end: 125621
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"

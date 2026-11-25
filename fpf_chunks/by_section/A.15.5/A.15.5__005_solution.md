@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 32151
-line_end: 32234
+line_start: 32158
+line_end: 32241
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ State readiness as a domain-local result about the identified plan content. When
 
 #### A.15.5:4.1 - One work-entry readiness claim
 
-Start with one ordinary sentence:
+For a verdict on a particular plan item, start with this sentence:
 
 > At evaluation time T, criterion C applied to intended performance I in PlanItem J of WorkPlan P yields readiness value R for use through window V; stop or recheck when Q occurs.
 
@@ -78,7 +78,7 @@ Start from the decision about entry. If the question is whether the item passes 
 
 For example, a workshop is to issue one replacement cartridge to each of two crews on the same day. It has one cartridge and can obtain another only the following morning. Each issue considered alone fits the stock. The first issue exhausts it before the second crew can be served. Under an agreement for just one issue to whichever crew claims it first, that same stock covers the quantity due. These terms determine which stock condition belongs in the criterion.
 
-State:
+For a reusable criterion, specify the work it covers, the conditions that would permit or prevent entry and the time at which each condition must be met. Show how the rule treats the combinations of demands and later choices within the agreement. When applying it to a proposed start, state:
 
 - the exact WorkPlan and its present EntityOfConcern, PlanItem, intended-performance designator, any exact intended-work target and intended outcome or value claim current in the plan, any current intended-work kind or work-family classification, target `U.Method`, evaluation time, and applicability window it judges;
 - each required positive or negative predicate, the allowed named gaps if any, and the rule for `ready`, `readyWithKnownGaps`, `notReady`, and `unknown`;

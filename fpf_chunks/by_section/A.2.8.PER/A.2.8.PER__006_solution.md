@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:4 — Solution"
-line_start: 8886
-line_end: 9092
+line_start: 8888
+line_end: 9094
 dependencies:
   - "A.10"
   - "A.13"
@@ -238,5 +238,5 @@ If no policy rule decides and no such current result exists, the disposition rem
 | Boundary claim or entry predicate | `A.6.B` classifies the claim; an `A-*` predicate may consume a separately established current permission result. |
 | Work plan and readiness | `A.15.2` is the pattern for the `U.WorkPlan`; `A.15.5` may cite a separately established permission/conflict result as one readiness input. |
 | Gate decision | Use `A.21` for a gate outcome, citing the separate current grant or conflict result whenever its profile requires one. |
-| Work and result | identify the dated Work under `A.15.1`. Exercise requires the direct relation above. Claims of capability, readiness, safety, success, or result quality need their own predicates. |
+| Work and result | Identify the dated Work under `A.15.1`. For an entitlement under a standing rule, establish who qualifies and whether the action met the rule. For a right conferred by an instrument, apply its scope, interval and conditions to what the named beneficiary or joint beneficiaries did. Use the §4.5 exercise relation for a grant represented under §4.4. Capability, readiness, safety, success and result quality require their own grounds. |
 

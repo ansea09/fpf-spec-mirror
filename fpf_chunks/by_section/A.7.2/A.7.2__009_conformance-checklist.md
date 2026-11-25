@@ -6,12 +6,12 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
-line_start: 27238
-line_end: 27251
+line_start: 27245
+line_end: 27258
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -36,7 +36,7 @@ keywords:
 
 | ID | Check |
 |---|---|
-| `CC-A7.2-1` | For proposed joint use, the conflict follows from incompatible consequences of the applicable clauses under an admissible common condition. For reported disagreement in practice, it is grounded in the actual conclusions under the relevant editions, facts and scopes. |
+| `CC-A7.2-1` | For comparison of rules, show the consequences of the applicable clauses under common admissible conditions. When the claim concerns a procedure that can meet them throughout a range, include the information and choices available when the procedure must act. It can fail even when a different choice in hindsight would work in each history. For reported disagreement, establish the actual conclusions under the relevant editions, facts and scopes. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
 | `CC-A7.2-3` | Keep the reader, pattern episteme, described Method and result distinct. Any MethodDescription claim satisfies A.3.2. For an asserted dated reconciliation Work, retain the independent A.13/A.15.1 basis in §0, including the separately admitted assignment species and obtaining occurrence used by A.13; add F.6 only for the precise attribution consumed. A short result may omit unused identifiers without presuming their facts. |
 | `CC-A7.2-4` | Cite the common claim from `A.7.CP` on which the comparison depends. Establish a reasoning-basis occurrence when the conclusion concerns the use of that claim by particular Work. |

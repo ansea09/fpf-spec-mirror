@@ -6,12 +6,12 @@ section_id: "G.12:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__010_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:8 — Consequences"
-line_start: 142279
-line_end: 142286
+line_start: 142298
+line_end: 142305
 dependencies:
   - "A.19"
   - "A.2.6"

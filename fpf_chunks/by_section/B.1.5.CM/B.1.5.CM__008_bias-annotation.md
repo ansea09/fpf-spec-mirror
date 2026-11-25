@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__008_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:6 — Bias-Annotation"
-line_start: 44916
-line_end: 44925
+line_start: 44925
+line_end: 44934
 dependencies:
   - "A.3.1"
   - "B.1.5"

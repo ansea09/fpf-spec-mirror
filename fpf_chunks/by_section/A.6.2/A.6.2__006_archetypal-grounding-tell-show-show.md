@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 18327
-line_end: 18414
+line_start: 18331
+line_end: 18418
 dependencies:
   - "A.6.0"
   - "A.6.1"

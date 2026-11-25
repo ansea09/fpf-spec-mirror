@@ -6,7 +6,7 @@ section_id: "A.2.3:8"
 section_title: "Promise-content use, delivery, evaluation, and evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_promise-content-use-delivery-evaluation-and-evidence.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:8 — Promise-content use, delivery, evaluation, and evidence"

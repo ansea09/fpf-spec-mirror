@@ -6,12 +6,12 @@ section_id: "E.15:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:7 — Conformance Checklist"
-line_start: 113325
-line_end: 113339
+line_start: 113340
+line_end: 113354
 dependencies:
   - "C.18"
   - "C.19"
@@ -34,7 +34,7 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-E15-1 (Exact change basis).** | A conforming use **MUST** identify the exact predecessor and candidate editions, the change question, and the receiving use. | Makes continuity replayable without a universal context record. |
+| **CC-E15-1 (Exact change basis).** | A conforming use **MUST** identify the change question, receiving use and predecessor. A claim about the actual difference or continuity **MUST** identify the exact predecessor and candidate editions. A design in development identifies the change sought and which choices remain open. | Makes continuity replayable without a universal context record. |
 | **CC-E15-2 (Actual delta first).** | Delta-Class **MUST** follow comparison of actual effects on recognition, inputs, actions, conditions, results, norms, ontology, consumers, and assurance; a label, version number, edit operator, or line count **MUST NOT** decide it. | Prevents small semantic changes and large harmless rewrites from being misclassified. |
 | **CC-E15-3 (Proportional route).** | An understood direct repair **MUST NOT** be forced through multiple-candidate generation, aggregate scoring, a SoTA harvest, or a new trace record. Alternative comparison **MUST** be used only when materially plausible alternatives or a consequential current-source choice remain. | Keeps ordinary changes cheap without deleting the stronger branch. |
 | **CC-E15-4 (Actual affected reach).** | Identify each in-scope use whose action, interpretation, condition, result, check or public reference depends on the changed premise. For an impact assessment, distinguish a required change awaiting its maintainer from a dependency still unknown. For an implementation claim, establish which affected uses were repaired and verified and what remains unresolved. Mentions and declared links alone do not establish a dependency. | Keeps the claimed repair and the assessment of its reach verifiable. |

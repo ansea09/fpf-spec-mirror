@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:intro — Intro"
-line_start: 83244
-line_end: 83249
+line_start: 83254
+line_end: 83259
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -25,5 +25,5 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-> **Primary working result:** a **Method-architecture decision episteme** explaining how related Methods would be performed and supported together: the decision-changing structures and direct relations, their truth statuses, serious alternatives, joint demands and moved burdens, the selected or rejected arrangement, and the conditions for its realization or reconsideration. Co-used Methods can remain plural; this result need not establish a composite Method.
+> **Primary working result:** an account of how related Methods would be performed and supported together. For a comparison, set out the serious alternatives, the structures and direct relations that distinguish them, what is established or proposed, their joint demands and where each burden falls. A **Method-architecture decision episteme** also records the authorized choice and the conditions for realizing or reconsidering it. Co-used Methods can remain plural; this result need not establish a composite Method.
 

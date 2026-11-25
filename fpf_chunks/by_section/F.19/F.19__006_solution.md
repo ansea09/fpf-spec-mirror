@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 135429
-line_end: 135613
+line_start: 135446
+line_end: 135630
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -125,7 +125,7 @@ Retain a negative alternative, denied consequence, warning, or non-use statement
 
 An earlier or source claim, an observed recurring mistake, a serious competing position, a visible representation feature, or an applicable safety risk can supply the ground. The guard itself cannot.
 
-Use the smallest clear correction for a grounded guard. When actor allocation is the useful content, state it positively: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When currentness is the useful content, state the direct use: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes, and safety stops when their polarity or boundary is itself the claim.
+Use the smallest clear correction for a grounded guard. When actor allocation matters, name the decision: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When the seminar record confirms that the session took place on 1 February 2026 and a reader needs a rule for use today, preserve both facts: “This guide covers the seminar held on 1 February 2026. For current practice, consult the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes and safety stops when their polarity or boundary is itself the claim.
 
 
 

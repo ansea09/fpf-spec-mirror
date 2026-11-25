@@ -6,12 +6,12 @@ section_id: "E.17.2:7"
 section_title: "Provisional local design rationale and source status"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__008_provisional-local-design-rationale-and-source-status.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:7 — Provisional local design rationale and source status"
-line_start: 115044
-line_end: 115070
+line_start: 115061
+line_end: 115087
 dependencies:
   - "A.22"
   - "A.6.3"

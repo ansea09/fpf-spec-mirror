@@ -6,12 +6,12 @@ section_id: "F.15:7"
 section_title: "Finite scope and conformance record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__009_finite-scope-and-conformance-record.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:7 — Finite scope and conformance record"
-line_start: 132530
-line_end: 132580
+line_start: 132547
+line_end: 132597
 dependencies:
   - "A.1.1"
   - "A.10"

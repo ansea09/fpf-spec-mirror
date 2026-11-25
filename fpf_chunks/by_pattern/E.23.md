@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 123217
-line_end: 123870
+line_start: 123234
+line_end: 123887
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -46,9 +46,9 @@ When the intended improvement concerns **how further improvements are obtained**
 
 When the evaluation could report improvement without the claimed change, §4.1.1 constructs that absence through the same evaluation. An already adequate comparison needs no additional control merely because another improvement pass occurs.
 
-Use `E.23.CAE` first when the apparent object to improve remains ambiguous because a holder's capability may be outside its claimed envelope, unavailable through the current configuration, not selected as applicable, inaccessible or inactive, context-dependently unexpressed, unadapted, unenacted, or actually changed. That separate probe returns observations, a qualified disposition, surviving rivals, and candidate routes; it does not choose the object under improvement.
+Use `E.23.CAE` when the distinction between possible explanations is itself commissioned or would change what to improve. The apparent gap can concern the claimed range of capability, configuration, recognition of applicability, access, expression under these conditions, adaptation, enactment or an actual change in capability. That separate probe returns observations, a qualified disposition, surviving rivals, and candidate routes; it does not choose the object under improvement.
 
-Use `E.23.CDI` instead when a separate applicable steering or choice result has made capability development current for one admitted holder System and named Work family, and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
+Use `E.23.CDI` instead when an applicable instruction or an authorized choice calls for capability development for one admitted holder System and named Work family, and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
 
 What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop merely because every value is `5`, or treat a review recommendation as a decision, work, evidence, a selected-set result declaration, actual publication, parity, or refresh.
 
@@ -542,7 +542,7 @@ A better exercise is the first result. A different result occurs when the second
 
 Before calling this an expansion of possibilities, identify what the earlier way could obtain. If it already supported constructing and justifying cases about any relevant condition, the new example may be ordinary adaptation. If obtaining and using a non-numerical decision basis required a previously unavailable operation, demonstrate the work that the changed way now makes feasible. Use `C.18:4.3a` for that stronger comparison. A new project, a novel exercise or a higher score alone does not establish an expanded space. Better means may enable harder work that takes longer; acceleration is not required.
 
-**Make continuation possible for the next participant.** Use `C.36.RP:4.3–4.6` to decide whether the recipient needs to execute, adapt or develop the preparation. For development, give access to the construction, its reasons and conditions, relevant cases and the means or assistance for obtaining a missing contribution. Observe the recipient using these means on changed conditions and making the resulting construction usable in another preparation episode. Merely circulating the exercise set leaves this result untested. If a methodologist leaves, a surviving document may no longer be sufficient: recover the missing support or revise the arrangement before relying on the old success.
+**Make continuation possible for the next participant.** Use `C.36.RP:4.3–4.6` to decide whether the recipient needs to execute, adapt or develop the preparation. For development, give access to the construction, its reasons and conditions, relevant cases and the means or assistance for obtaining a missing contribution. For a handover of the means, establish receipt and working access to the construction and the help agreed. To establish that the successor actually used it to improve a later preparation, follow their contribution into that work under the support then available. If a methodologist leaves, a surviving document may no longer be sufficient: recover the missing support or revise the arrangement before relying on the old success.
 
 An independent participant outside the organization can continue this work without becoming its component. If the question now concerns transmission, retention or change across a cultural population, use `C.36`; count actual receiving and developing episodes for the declared question rather than treating popularity as the result. Changing those transmission conditions is itself a proposal to test.
 

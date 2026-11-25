@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-005"
 section_title: "<ordinary-entry key> — <plain title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__006_ordinary-entry-key-plain-title.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-005 — <ordinary-entry key> — <plain title>"
-line_start: 111646
-line_end: 111657
+line_start: 111661
+line_end: 111672
 dependencies:
   - "A.3.2"
   - "C.29"

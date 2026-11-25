@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
-line_start: 47886
-line_end: 48087
+line_start: 47895
+line_end: 48096
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -77,11 +77,11 @@ Use the branch for each subject whose identity bears on the decision. To design 
 
 #### B.4:4.2 - Separate the changed subject from the acting side
 
-Name the acting participant separately from the subject being changed. A System performs each piece of Work. The changed subject, performing System, dated Work, Method enacted by that Work, and result remain distinct. Practitioner prose can say "the engineer refined the design" or "the controller adjusted the valve" when that recognizable actor and action are enough. If that ordinary sentence is all the receiver needs, do not open a technical Work account.
+Identify what changed and who performed the relevant work. One System may occupy both positions. A choir can organize its own rehearsals and improve its coordination. The change in the choir, the rehearsal it performed, the Method it used and the resulting performance support different conclusions. Practitioner prose can say "the engineer refined the design" or "the controller adjusted the valve" when that recognizable actor and action are enough. If that ordinary sentence is all the receiver needs, do not open a technical Work account.
 
-If B.4 identifies one dated `U.Work` occurrence, first recover every performer's A.13 core and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 only when the receiving claim also needs assignment-bound attribution. A short B.4 account may omit an unused assignment identifier or classification only when every relation it consumes remains recoverable.
+If B.4 identifies one dated `U.Work` occurrence, first recover the A.13 basis for each System credited at the scale of the claim and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 only when the receiving claim also needs assignment-bound attribution. A short B.4 account may omit an unused assignment identifier or classification only when every relation it consumes remains recoverable.
 
-The performing System need not be external to the larger holon. For internal adaptation, apply the `A.12` reflexive split: identify the changed subsystem or part and the acting subsystem or part as distinct participants, and establish their parthood in the containing holon independently. Use an external System when the case has one. Apply the same Work-admission and conditional attribution rules above to either acting side.
+Identify the contributions on which the whole result depends. Two sections of a choir can adjust their entries and improve the joint performance. Use the `A.12` reflexive split when the claim is that one established part of the System acted on a different established part. Establish their parthood and the interaction that matters. If help came from outside, establish the contribution at issue. Providing a rehearsal room can resolve an access problem. Attributing the choir’s improved coordination to the room requires grounds for that further claim.
 
 State authority, responsibility, permission, acceptance, or admission through its predicate, participants, and applicability basis; neither a phase label nor Work supplies them.
 
@@ -170,7 +170,7 @@ The phase names can be shared, but each subject branch keeps its identity and re
 
 | Bias | Symptom | Correction |
 | :--- | :--- | :--- |
-| Self-evolution bias | The subject is said to observe, refine, or deploy itself, so the acting participant and activity disappear. | Name the changed subject and distinct acting side. Ordinary actor wording can remain short. When one dated `U.Work` is identified, recover each performer's A.13 core and independently admit the occurrence under A.15.1; add F.6 only when the claim needs assignment-bound attribution. A short account may omit an unused assignment identifier only when every relation it consumes remains recoverable. The acting side may be external, or it may be a distinct subsystem or part established through the `A.12` reflexive split. |
+| Self-evolution bias | The subject is said to observe, refine, or deploy itself, so the acting participant and activity disappear. | Name the changed subject, the work and its performer at the scale needed to explain the change. Ordinary actor wording can remain short. When one dated `U.Work` is identified, recover the A.13 basis for each System credited at the scale of the claim and independently admit the occurrence under A.15.1; add F.6 only when the claim needs assignment-bound attribution. A short account may omit an unused assignment identifier only when every relation it consumes remains recoverable. The same System may organize and perform its own practice. Use the `A.12` split when a claim attributes a change in one part to the action of another. |
 | Design-time/run-time smear | A live operational change is treated as if it had updated the design-time episteme, or a design-time edit as if it had changed the System in operation. | Keep the design-time episteme, run-time System or use, deployment activity, evidence relation, and renewed use distinct. |
 | Method/description smear | A MethodDescription edit is called a Method change, or a changed Method is hidden as a documentation update. | Test Method identity under `A.3.1` and composition under `B.1.5`; identify MethodDescription editions separately under `A.3.2` and `C.2.1`. |
 
@@ -178,7 +178,7 @@ The phase names can be shared, but each subject branch keeps its identity and re
 
 * **CC-B4.1 (Proportional loop integrity):** The result **MUST** answer the receiving question about the specified subjects and uses. For a commissioned design, justify how the chosen observations and timely feasible responses support the required result over the admitted conditions, including any shared constraint. A supplied indicator or rule can be applied as given. When the design itself is owed, give the choices and grounds that make it fit the use. For an assessment, give the supported conclusion and any consequential uncertainty. For a history, connect the observations, decisions, changes and renewed uses actually relied on. Supply any separately commissioned work or trace. An adequate common ground can support the required range without another run.
 * **CC-B4.2 (Subject identity):** Where the answer relies on identity or succession, name the subject kind and apply its continuity rule: System continuity or transformation; episteme predecessor, successor, or edition; Method identity, refinement, substitution, or successor; MethodDescription edition; or separate dated Work occurrences.
-* **CC-B4.3 (Acting-side distinction):** Work that observes or changes a subject **MUST** have an identified performing System distinct from the changed subject in that Work account. Internal adaptation is permitted when `A.12` establishes distinct subsystems or parts and their independently obtaining parthood. Every dated `U.Work` reuses each performer's A.13 core and is independently admitted under A.15.1; F.6 is added afterward only for assignment-bound attribution. Its short B.4 account may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
+* **CC-B4.3 (Acting-side distinction):** A claim about who observed or changed a subject **MUST** identify the performing System at the scale of that claim. It may be the changed System itself. A `ReflexiveSplit` claim under `A.12` requires distinct internal participants and independently established parthood. A dated `U.Work` uses the A.13 basis for the Systems credited at the scale of the claim and is independently admitted under A.15.1; F.6 is added afterward only for assignment-bound attribution. Its short B.4 account may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
 * **CC-B4.4 (Adaptive-specialization anchoring):** A bounded task-family specialization claim **MUST** identify its bearer, declared `TaskFamily` or `TaskSignature`, work target, claimed result and grounds. When a `C.22.1` adaptation signature is selected, retain its threshold target, `timeToThreshold`, `budgetToThreshold` and `priorExposureDeclaration`, including a not-reached or unresolved result when the history warrants it.
 * **CC-B4.5 (Adaptive-specialization boundary):** Claimed transfer, retention, post-threshold efficiency, corridor entry and downside **MUST** retain the targets, baselines, windows and evidence required by the claim or receiving comparison. `C.22.1` defines the selected adaptation-signature meanings; `G.5` and `G.9` retain their selector and parity rules when consuming that result.
 * **CC-B4.6 (Phase and transition separation):** Each claimed phase and transition **MUST** retain its question, result and conditions from B.4:4.3. Evidence can be used across phases, and cue preservation or routing can contribute within Observe without requiring another phase.
@@ -189,7 +189,7 @@ The phase names can be shared, but each subject branch keeps its identity and re
 | Anti-pattern | Observable symptom | Repair |
 | :--- | :--- | :--- |
 | **Change without a basis** | A feature or design appears without grounds for changing the relevant use. | **CC-B4.1** and **CC-B4.2** connect the proposal or actual change to the relevant observation, commitment or other sufficient ground and to any identity decision the use requires. |
-| **Unidentified internal adaptation** | "The system automatically improves itself" hides who or what performed the activity. | Identify who or what changes which subject. Use **CC-B4.3** for a Work claim. For an internal acting side, recover the distinct participants and their parthood under `A.12`, together with the Work, Method and phase facts the receiving claim consumes; physical externality is not required. |
+| **Unidentified internal adaptation** | "The system automatically improves itself" hides who or what performed the activity. | Identify who or what changes which subject. Use **CC-B4.3** for a Work claim. If one internal part is said to have acted on another, recover those participants, their parthood and the relevant action under `A.12`. For a claim about the whole changing its own conduct, explain the work and change at that scale. |
 | **Incomplete hotfix account** | A quick run-time repair is reported as a complete successful loop, although design repair, evidence, or renewed-use confirmation did not occur. | State only the urgent observation, change activity, deployment and immediate result that occurred. Later description repair, testing, assurance and follow-up operation are subsequent activities and may reopen the loop; qualify any Work occurrences under B.4:4.2. |
 
 ### B.4:9 - **Consequences**
@@ -215,7 +215,7 @@ The four questions recur in repeated adaptation. Which ones need answers, at whi
 ### B.4:11 - **Relations**
 
 * **Operationalizes:** `P-10 Open-Ended Evolution`.
-* **Uses:** `A.4` when Observe needs a comparison of a System's intended design with its actual operating conditions; `A.12` for external or reflexively split acting sides; `A.15.1` for dated Work; and the subject patterns named in B.4:4.1 for identity and continuity.
+* **Uses:** `A.4` when Observe needs a comparison of a System's intended design with its actual operating conditions; `A.12` for who acts on what, including a System acting on itself and a supported split between internal parts; `A.15.1` for dated Work; and the subject patterns named in B.4:4.1 for identity and continuity.
 * **Coordinates with:** `B.5 Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)`, `B.5.1` development states, and `B.3 Is This Claim Supported for This Use? — Trust and Assurance Calculus`. B.4 does not implement the B.5.1 states one-for-one, and evidence is not a B.4 phase.
 * **Is detailed by:** `B.4.1 Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)` for optional early cue routing. The subject patterns in B.4:4.1 supply each subject's identity and continuity rules.
 

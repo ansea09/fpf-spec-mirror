@@ -6,12 +6,12 @@ section_id: "A.19.CN:12"
 section_title: "Interaction summary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__013_interaction-summary.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:12 — Interaction summary"
-line_start: 38404
-line_end: 38410
+line_start: 38411
+line_end: 38417
 dependencies:
   - "A.19"
   - "A.6.1"

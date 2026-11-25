@@ -6,12 +6,12 @@ section_id: "C.39.RQ:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__005_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:3 — Forces"
-line_start: 89418
-line_end: 89428
+line_start: 89428
+line_end: 89438
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -26,7 +26,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Comparability | Shared questions help compare alternatives, while different subjects need different criteria and evidence. |
-| Situation specificity | Local constraints change the decision, while a one-project list may overfit and block reuse. |
+| Situation specificity | The conditions of one project can settle its decision. A requirement intended for reuse must also cover the variations that matter in its declared range. |
 | Candidate neutrality | Criteria should expose viable alternatives, while familiar candidates can be smuggled into the wording. |
 | Flexibility | Professional Work must adapt, while non-negotiable safety, evidence, authority, and burden bounds must hold. |
 | Clarity | Source-side content prompts reveal omissions, while they can be mistaken for universal Method parts. |

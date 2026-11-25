@@ -6,12 +6,12 @@ section_id: "C.36.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:4 — Solution"
-line_start: 96177
-line_end: 96216
+line_start: 96187
+line_end: 96226
 dependencies:
   - "A.1"
   - "A.1.1"

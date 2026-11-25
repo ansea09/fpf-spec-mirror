@@ -6,12 +6,12 @@ section_id: "A.7.CP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__012_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:10 — Rationale"
-line_start: 27480
-line_end: 27485
+line_start: 27487
+line_end: 27492
 dependencies:
   - "A.7"
   - "A.7.1"

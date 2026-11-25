@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:7 — Conformance Checklist"
-line_start: 11026
-line_end: 11038
+line_start: 11028
+line_end: 11040
 dependencies:
   - "A.10"
   - "A.15.1"

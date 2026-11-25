@@ -6,12 +6,12 @@ section_id: "C.24:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:7 — Conformance Checklist"
-line_start: 68256
-line_end: 68269
+line_start: 68265
+line_end: 68278
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ keywords:
 ### C.24:7 - Conformance Checklist
 
 1. Each result states what fixes the planned action under the conditions of use. Cite the operative instruction or commitment, applicable domain prescription, A.15.7 decision or C.11 choose-now `ChoiceResult`, including their combination where needed. A WorkPlan alone supplies no permission or authority. A directly commissioned or prescribed action requires no intervening decision wrapper.
-2. Every planned step names an A.3.1-admitted Method that realizes or supports the fixed action. The action basis fixes the action or option; selecting it does not establish Method identity. Route-description refs remain separate and optional.
+2. Every planned step names an A.3.1-admitted Method that realizes or supports the fixed action. The plan shows how the contributions can supply the whole promised result under the applicable conditions. The action basis fixes the action or option; selecting it does not establish Method identity. Route-description refs remain separate and optional.
 3. The plan records its applicable time, compute, cost or risk ceilings and stop or replan conditions.
 4. C.18 candidates or front material and C.19 live-pool treatment may inform the action basis but do not admit Methods; C.24 owns only planning and replanning results.
 5. A scale branch first cites one C.19.1 probe result, then any selected comparison or Scale-Audit result; a `BLP-waiver` remains separate from evidence.

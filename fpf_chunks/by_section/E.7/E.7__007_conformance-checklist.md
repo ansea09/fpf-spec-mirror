@@ -6,12 +6,12 @@ section_id: "E.7:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__007_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.7 — Archetypal Grounding: Show How a Practitioner Can Apply an Architectural Rule"
   - "E.7:6 — Conformance Checklist"
-line_start: 103154
-line_end: 103162
+line_start: 103165
+line_end: 103173
 dependencies:
   - "E.6"
 keywords:

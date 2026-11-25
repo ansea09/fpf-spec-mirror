@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 103186
-line_end: 103287
+line_start: 103197
+line_end: 103298
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -78,7 +78,7 @@ The result is a formally neat text that authors can defend but practitioners can
 
 `E.8` gives FPF authors a shared pattern shape and authoring discipline: recognition text first, assurance text second, canonical sections present, terminology kept stable, SoTA used as current practice grounding rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
 
-**First useful move.** Recover the practitioner’s question, its scope and the work it calls for from the initiating material and the practice itself. Do this as you choose the governing question and working title. Develop the contribution that would answer it. For a Method, show how a practitioner can make the choice entrusted to them and why the operation works under the stated conditions. For a definition, boundary or relation, establish what it distinguishes and which judgement depends on the distinction. An incident that suggested the pattern may carry the full argument. Apply §4.2.1.3 while the choice of subject is still open to determine how its grounds reach the promised use. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
+**First useful move.** Recover the practitioner’s question, its scope and the work it calls for from the initiating material and the practice itself. Do this as you choose the governing question and working title. When the same subject gives rise to different commissions, use [§4.2.1](#e8421---recognition-text-and-assurance-text) to choose the starting materials and sufficient result for each. Develop the contribution that would answer it. For a Method, show how a practitioner can make the choice entrusted to them and why the operation works under the stated conditions. For a definition, boundary or relation, establish what it distinguishes and which judgement depends on the distinction. An incident that suggested the pattern may carry the full argument. Apply §4.2.1.3 while the choice of subject is still open to determine how its grounds reach the promised use. Choose the first operation by the contribution it makes to that work. Put the working situation, that operation, its practical payoff, the ordinary boundary and the nearest heavier assurance condition into the recognition text.
 
 **Solution and working move.** `Solution` gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`: what the reader should do or decide, under which conditions, what result to seek, and when to stop or return.
 

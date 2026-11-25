@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
-line_start: 129358
-line_end: 129599
+line_start: 129375
+line_end: 129616
 dependencies:
   - "A.6.9"
   - "B.3"

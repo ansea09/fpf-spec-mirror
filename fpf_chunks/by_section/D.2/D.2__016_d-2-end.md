@@ -6,12 +6,12 @@ section_id: "D.2:End"
 section_title: "D.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__016_d-2-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:End — D.2:End"
-line_start: 97209
-line_end: 97210
+line_start: 97217
+line_end: 97218
 dependencies:
   - "A.1"
   - "A.15"

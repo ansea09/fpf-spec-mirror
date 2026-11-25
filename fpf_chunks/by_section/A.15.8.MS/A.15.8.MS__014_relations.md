@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__014_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:12 — Relations"
-line_start: 33689
-line_end: 33700
+line_start: 33696
+line_end: 33707
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -24,7 +24,7 @@ keywords:
 
 - A.3.2.DE supplies use-bounded MethodDescription or candidate-account content. The direct branch uses the complete one-result/one-use answer and retains its full applicable C.37 basis only for a later receiving need, without a C.37.MP row or duplicate account. The profile branch consumes C.37.MP's complete action selections and Method-specific cross-use result. A.15.8.MS owns its separate support-configuration comparison.
 - `C.37` governs use-bounded representation selection and co-use. It does not select the support configuration, establish Method status, publication or access, capability, authority, Work, task result, or arrangement adequacy.
-- `A.15.8` governs generic actual-Work or present-WorkPlan performer-support configuration and recovery probes. A.15.8.MS supplies Method-material-specific users, tasks, supports, criteria, and repair returns.
+- `A.15.8` covers the design of recoverable service and assessment of particular Work or WorkPlans. A.15.8.MS supplies the users of Method material, their tasks, support, criteria and repair decisions.
 - `A.19.CPM` governs non-trivial comparison results; `A.19.SelectorMechanism` governs set-valued selection. A.15.8.MS does not turn a configuration pass into a forced winner.
 - `A.22` defines selected structures and their discriminators; a retained candidate, proposal label, colocation, or selected test route establishes none of them.
 - `A.2.2` defines capability; `A.2.8.PER` defines granted permission and exercise; `A.13`, `A.15.1`, and `F.6` define or constrain performer, Work admission, and assignment-bound attribution claims.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.12.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
-line_start: 28998
-line_end: 29325
+line_start: 29005
+line_end: 29332
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -55,7 +55,7 @@ Typical moments:
 - "the system verifies that its own change succeeded";
 - "the lathe makes the workpiece, therefore the workpiece is part of the lathe during manufacturing".
 
-**First useful move.** Name the proposed acting participant and the subject claimed to change, then state the relation between them that matters to your question. For the robot below, the calibration controller acts on the sensor suite. Keep ordinary wording when those participants and their relation are already clear. Use §4.1 when their identities or a System, change, Work or evidence claim need the precise account.
+**First useful move.** Identify the subject that may have changed and what you need to establish about it. Observations of the same subject before and after can establish a change while its cause remains open. If someone attributes the change to a participant, identify the proposed actor and the relation that would support the attribution. In the robot case below that question leads from the sensor suite to the calibration controller. Keep ordinary wording when the answer is clear. Use §4.1 for a precise account of a System, change, Work or evidence claim.
 
 **What goes wrong if missed.** A controller and controlled part can collapse into one object, an automated publication update can hide its performer, and the performer’s output can be mistaken for sufficient evidence of success. Changing another holon can also be mistaken for containing it.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.PFAD.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
-line_start: 99851
-line_end: 100380
+line_start: 99859
+line_end: 100388
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -456,7 +456,7 @@ Now a teaching example proves unsuitable for beginners. With B, revise that comp
 
 If the rule for deciding which reasons warrant a revision changes, inspect all dependent forms. A common publication may still need a release, but unchanged subject content need not acquire a pedagogical exception. This change probe explains the selected boundary. Separate file names alone would not explain it.
 
-An AI does not teach a participant to evaluate reasons merely by supplying a polished case answer. If independent human judgement is the promised result, add the needed practice and feedback and test it. If obtaining a competent case answer is the promised result, direct AI or human provision can instead be compared on that result and its costs.
+An AI does not teach a participant to evaluate reasons merely by supplying a polished case answer. If this participant’s independent judgement is promised, preserve the decision for them and obtain their judgement. If developing that ability is part of the undertaking, provide the learning opportunity they need and establish what they can do under the intended conditions. If obtaining a competent case answer is the promised result, direct AI or human provision can instead be compared on that result and its costs.
 
 **Cheap exit.** A prepared participant repeatedly overlooks one already understood question, and an available checklist prompts it at the right occasion. Keep that route unless a consequential defect appears. No new pattern, companion, audience survey or cost table is needed.
 

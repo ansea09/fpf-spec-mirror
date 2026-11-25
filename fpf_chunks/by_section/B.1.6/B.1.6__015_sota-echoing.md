@@ -6,12 +6,12 @@ section_id: "B.1.6:9.2"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__015_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:9.2 — SoTA-Echoing"
-line_start: 45209
-line_end: 45219
+line_start: 45218
+line_end: 45228
 dependencies:
   - "A.1"
   - "A.10"

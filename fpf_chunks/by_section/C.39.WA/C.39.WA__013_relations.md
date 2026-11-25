@@ -6,12 +6,12 @@ section_id: "C.39.WA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:12 — Relations"
-line_start: 88214
-line_end: 88226
+line_start: 88224
+line_end: 88236
 dependencies:
   - "C.20"
   - "C.39.QR"

@@ -6,12 +6,12 @@ section_id: "C.39.WI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:5 — Archetypal Grounding"
-line_start: 88980
-line_end: 89077
+line_start: 88990
+line_end: 89087
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -49,7 +49,7 @@ Now change one premise. The twenty hours would instead displace a committed cont
 
 Relative to retaining that contribution, the preparation proposal changes net cash by 1,800 − 4,000 = −2,200.
 
-Compare another qualified performer, a later implementation window or deferral. Do not count the foregone contribution twice or turn this changed scheduling result into a claim that nonconstraint savings are always useless.
+Compare another qualified performer, a later implementation window or deferral. If the performer is booked after the committed work ends and the service remains available on the agreed terms, recalculate the saving over the period the change would serve. If that booking is still open, its advantages describe a conditional option. Charge the foregone contribution once, to the arrangement in which it would actually be lost. Savings on a nonconstraint activity still count when that arrangement avoids an actual payment.
 
 Consider instead a different starting situation: the incumbent regeneration service already charges zero. Continuing the incumbent arrangement and introducing the preparation change both keep that price. If the only operating gain is freed salaried preparation time and the salary stays unchanged, that gain supplies no cash saving by itself.
 
@@ -113,7 +113,7 @@ Whether later releases require less rework remains a further question for ordina
 
 **Change the source-use relation.** Suppose the maintained template already agrees with the rule, but a pinned link opens an obsolete copy. The same visible demand for generic cautions calls for repairing that access route and following the uses of the obsolete copy. Rewriting the correct source criterion would leave the failed relation unchanged. The affected set now follows use of that copy, so the earlier five-guide boundary must be reconsidered.
 
-**Change the performer's preparation.** A new editor reaches the current criterion, but the editor's comparison of two instructions treats every imaginable misunderstanding as credible misuse. A qualified helper uses that comparison to locate the missing distinction. If learning is the promised result, the HCD route supplies practice, feedback and assessment of the editor's own operation. If the immediate undertaking only needs a corrected guide, expert provision may suffice. The receiving promise selects between those contributions.
+**Change the performer's preparation.** A new editor reaches the current criterion, but the editor's comparison of two instructions treats every imaginable misunderstanding as credible misuse. A qualified helper uses that comparison to locate the missing distinction. If learning is the promised result, a clear explanation may let the editor recognize the difference in their next comparison. Where it remains difficult, arrange practice and feedback. Use the editor’s own judgements to establish what they have learned. If the immediate undertaking only needs a corrected guide, expert provision may suffice. The receiving promise selects between those contributions.
 
 For an AI-assisted review, inspect the instructions and evaluation material supplied. A corrected context can support an adequate review under that configuration. Performance after that context is replaced requires its own basis; the observed review establishes no parameter update.
 

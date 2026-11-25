@@ -6,12 +6,12 @@ section_id: "C.36.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:7 — Conformance Checklist"
-line_start: 96736
-line_end: 96754
+line_start: 96746
+line_end: 96764
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -32,12 +32,12 @@ keywords:
 - [ ] The account distinguishes the subjects and relations on which the cultural claim or receiving decision relies. It gives the grounds for any decision, teaching act or authorization attributed to a particular participant.
 - [ ] A.22 is used only for one selected structure and C.30 only for a current architecture question.
 - [ ] When the intended action requires authorization, its assignment, permission, or authority predicate, participants, permitted action, scope, positive basis, and protected conditions are explicit.
-- [ ] The supported current account or continuation can finish without a fixed hypothesis count or new intervention. Credible action-changing rivals and relevant uncertainty remain; a selected inquiry has an attainable contribution worth its whole burden, including design effort, and feasible participants, access, resources, and window.
+- [ ] The supported current account or continuation can finish without a fixed hypothesis count or new intervention. Credible rivals bearing on the requested explanation or decision and the relevant uncertainty remain; a selected inquiry has an attainable contribution worth its whole burden, including design effort, and feasible participants, access, resources, and window.
 - [ ] C.27 is used only for a temporal adequacy claim, A.3.3 only for a transition law, C.28 only for causal reliance, A.15.7 only during ongoing Work, and C.11 only after a chooser and OptionSet exist.
 - [ ] A claim of tested change or later retention uses the Work and interval observations it asserts, without automatically reidentifying one occurrence across intervals. Missing later evidence withholds only the dependent claim.
 - [ ] Practitioner or constructed-Method consequences, non-use, burden, adaptation, and rejection remain separate from the cultural predicate.
 - [ ] A transmission claim identifies what reached the recipient from the claimed source and establishes receipt, retention or subsequent use to the extent claimed. A capability or authorship claim identifies the decisions supplied and those the recipient made. The observed result can support continued joint work with the available help.
 - [ ] An unresolved explanation remains `unknown` where relevant without erasing an independently supported continuation, narrower claim, or stop.
-- [ ] Separate cases, populations, organizational Systems, histories, predicates, and effects are not joined.
-- [ ] A return names either the particular defeated claim or edition, or a useful new contribution and its receiving use. A.3.1.MV preserves candidate status for a proposed reusable semantic difference; explanation content, a one-action representation, a multi-use profile and support retain their respective A.3.2.DE, C.37, C.37.MP and A.15.8.MS results. Origin, changed content and evidence limits remain visible. Mere novelty or population spread establishes none of these needs.
+- [ ] A conclusion involving different cases, populations, organizations, histories, predicates or effects establishes the connection it needs. For a transmission between two schools, identify the respective practices and the route by which a particular variant reached the other school.
+- [ ] A historical or descriptive inquiry returns the supported finding. When the task is to correct or develop a practice, name the claim or edition to revise, or the new contribution and its receiving use. A.3.1.MV preserves candidate status for a proposed reusable semantic difference; explanation content, a one-action representation, a multi-use profile and support retain their respective A.3.2.DE, C.37, C.37.MP and A.15.8.MS results. Origin, changed content and evidence limits remain visible. Mere novelty or population spread establishes none of these needs.
 

@@ -6,12 +6,12 @@ section_id: "A.6.C:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:4 — Solution"
-line_start: 16117
-line_end: 16254
+line_start: 16119
+line_end: 16256
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -107,7 +107,7 @@ When unpacking contract-like wording or deciding what the terms and acts togethe
    * A commitment is not “the spec text”: an utterance description carries the statement, while `U.Commitment` is the separately obtaining relation described by that statement (A.7 and A.2.8).
 4. **What happened, what followed, and what supports reliance?**
 
-   * **Work:** For one dated `W : U.Work`, recover each actual performer through A.13 and let A.15.1 independently admit the occurrence from that performer, enacted Method, extent, and containing System.
+   * **Work:** For one dated `W : U.Work`, recover through A.13 the Systems credited at the scale claimed. Use A.15.1 to admit that occurrence from the performance, enacted Method, extent and containing System. Evidence of timely delivery may settle the receiving question while the individual who made it remains unknown.
 
      Add an A.2.1 assignment reference and F.6 only when this account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer.
 

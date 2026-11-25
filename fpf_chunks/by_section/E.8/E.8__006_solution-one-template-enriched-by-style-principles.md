@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 103321
-line_end: 104059
+line_start: 103332
+line_end: 104072
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -70,7 +70,7 @@ Authors **MAY** add sections. Prefer expressing them as subsections under the ne
 * Canonical sections **1–13** are mandatory in every pattern.
 * Canonical sections carry content. Authors must not use omission placeholders as section substitutes. When a section is intrinsically small, write the smallest content-bearing grounding, misuse, boundary, or reduced-case statement that preserves the section's function.
 * **First substantive authoring seed.** The first non-empty authored body of a pattern **SHALL** already instantiate the canonical section frame by value: title line, header block, canonical sections **1–13**, and the footer marker.
-* **Seed is not maturity.** The canonical frame is a minimum authoring seed, not a mature pattern claim. Before a pattern is used for public, teaching, enterprise, reliance-bearing, landing-input, release-input, or ordinary practitioner guidance, each canonical section must carry enough recognition, action guidance, worked material, source/SoTA use, boundary, consequence, and relation content for the declared use.
+* **Pattern maturity.** The canonical frame establishes where to write each contribution. Each content-bearing section serves its declared function. Before a pattern is used for publication, teaching, enterprise or ordinary practice, or relied on for admission, integration or release, the connected pattern must let the reader recognize the situation, perform the promised work, recover the necessary grounds and boundaries, and understand the consequences and relations that affect that use. Ground the account under E.7 and explain source contributions where they bear on it. Keep the footer as the specified end marker.
 
   A maturity or overall pattern-quality claim needs an independent complete `E.21` result for its declared use; an author-side provisional pass or focused repair check does not supply that result. A bounded repair or publication-preservation conclusion uses the checks required for its own question.
 
@@ -306,7 +306,7 @@ The `Solution` explains the organization and use of the described Methods: their
 
 `Architectural Rationale` explains why that organization and those choices serve the declared use, which alternatives were considered, their trade-offs, and the conditions under which another choice becomes preferable. Preserve shared source explanations there when users need them to understand or adapt several patterns together.
 
-The same explanation must make recoverable how constituent actions perform encompassing work where that connection matters to learning, performance or change. Show what larger work is already being done through the selected action, what constituents make that action possible, and which conditions of the whole constrain it. Preserve genuine result-before-use dependencies alongside the constituent–whole relations of the relevant Method and Work structures.
+The same explanation must make recoverable how constituent actions perform encompassing work where that connection matters to learning, performance or change. In a proposed Method, show how its constituents could produce the overall result under conditions they can satisfy together. To explain work under way, show what larger work is being done through the selected action, which constituents make it possible and how conditions of the whole constrain it. Preserve genuine result-before-use dependencies alongside the constituent–whole relations of the relevant Method and Work structures.
 
 A representative case should let the reader change the action when a relevant condition of the whole changes. Use B.1.5.EW for recovery and B.1.5.RS for a constituent replacement. Do not require a separate level diagram or exhaustive decomposition when the connection is already understood.
 
@@ -363,6 +363,8 @@ Give readers the working question by the point at which they need it to interpre
 
 ##### E.8:4.2.1 - Recognition text and assurance text
 Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern governs. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must identify which are presentation forms of the same primary EntityOfConcern, relation, or claim and which name a different act, process, work-result record, or governing companion.
+
+Distinguish what the pattern governs from what the reader must already have at entry. To design a rule for admitting work, a reader can start from the result owed, derive the conditions for entry and explain which jobs the rule covers. A verdict on a particular planned job needs the applicable rule and the facts about that job. When a pattern offers both uses, give the starting materials and sufficient result for each. Carry the conditions for the particular verdict into checks of that verdict. Judge the rule design by the work it must cover.
 
 Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
 
@@ -442,7 +444,7 @@ Construct the reading from the work the reader needs to accomplish:
 
    If the required content cannot be used reliably within the present budget, change the support, work decomposition, reader allocation or budget. Leave the original unmet use explicit until it is supported. A lower-cost answer to a different question does not satisfy it.
 
-**Develop a missing instruction.** Work through the promised use with a concrete input and the reader's stated preparation. At every consequential inference, choice or action, ask what the reader has at that point and what the next result requires.
+**Develop a missing instruction.** Start from the result the reader needs and the preparation the text assumes. For a decision about one job, use its actual or stipulated inputs. For a claim about every admissible input, a derivation with an arbitrary input may supply the whole argument. At each consequential inference, choice or action, ask what the reader has at that point and what grounds the next step.
 
 Follow an unexplained requirement backward to its producer, then attempt the connection forward. Include a branch or a change of scale when the promised use depends on it. A jump from a source result to a conclusion, or from a constituent's success to the whole's success, is a candidate gap even when each sentence is clear.
 
@@ -456,7 +458,7 @@ If the operation itself is unknown or its necessary evidence, means or capabilit
 
 The instruction “adapt the method” does not supply an adaptation being promised to the reader. If the complete explanation already exists but is lost in the reading arrangement, restore access and the conditions needed to choose it.
 
-Recover the recurring problem–conditions–remedy relationship from the case. Separate what the reader must preserve from values or choices that change with another instance. Work through a consequential variation to expose that distinction, especially when the pattern promises adaptation or combination.
+If a case supplies the reasoning, recover from it the connection between the recurring problem, the conditions of use and the remedy. Identify which particulars can vary. Where adaptation or combination is promised, show what remains justified and how to reconsider a choice that depends on a changed condition. A general argument can cover that variation directly. Work through a different circumstance when it reveals a distinction the reader would otherwise have to invent.
 
 Repeatable use need not give an identical output: changing valid inputs can rightly change the result. Where the claim is reproduction of a particular research result, specify the intended comparison and agreement conditions rather than substituting successful use of the general Method.
 
@@ -477,7 +479,7 @@ A companion may explain prerequisites, add analogies and more examples, arrange 
 
 A new pedagogical Method is content in its own right, not merely a different publication form of the subject pattern. E.11.PFP:4.4 selects a support publication unit or a separately identified product when that boundary matters. Different audiences need not receive independent authoritative copies of the subject Method.
 
-To choose the division, follow one intended use and one consequential variation. Identify the missing competence or explanation, then decide whether the repair supplies an unexpressed subject-method connection, a learning activity, or a better presentation of an existing explanation.
+To choose the division, follow the work this audience must be able to do. If the promised use includes adaptation, examine what must still hold or be reconsidered when a consequential condition changes. Identify the missing competence or explanation and decide whether the repair supplies a subject-method connection, a learning activity, or a better presentation of an existing explanation.
 
 Place the missing subject-method connection with its Method owner or the public source that supplies it. Give audience-specific learning activities and their pedagogical grounds to the companion. Repair presentation where the content already exists.
 
@@ -485,7 +487,7 @@ Keep an action-changing condition visible at the point where a user needs it. Th
 
 When the division is uncertain, ask a suitably prepared reader who lacks the author's private context to construct a small piece of instruction for a named audience from only the published method account and its declared suppliers.
 
-The result should identify what the learner must be able to do, connect a worked case and practice task to those operations, and state how a consequential mistake or changed condition would be handled. Trace a consequential instruction back to its method grounds, an explicit pedagogical choice, or an acknowledged gap.
+Judge the instruction the reader actually constructs against the work promised to the learner. For an explanation, can the learner recover the conclusion and what warrants it? For practice in choosing a method, where will the learner make that choice, from which materials, and on what grounds can it be judged? A worked case belongs when it supplies part of the promised understanding or practice. Trace a consequential instruction to its subject-method grounds, an explicit pedagogical choice or a remaining gap.
 
 Inspect any necessary invention. Choosing a motivating example or a teaching sequence is normal pedagogical design. Inventing the method's missing selection criterion, inference, transformation or coordination shows that the method account or its supplying explanation is insufficient for that use. Repair that omission at its owner; do not conceal it in a privately generated course.
 
@@ -598,7 +600,7 @@ When an author uses a case to test an independent choice, identify the choice th
 
 **Keep the explained subject and its example distinguishable.** When teaching a Method, identify the reusable way, the actual or stipulated performance that illustrates it, and the material on which that performance works. Show which choice or action in the example enacts which operation and why its result is usable next.
 
-An explanation designer wants an analyst to see why equal weight per person and equal weight per group can give different overall means. The designer chooses two nonempty groups that partition the people and have different counts and different means. The conditions make the results differ. In this example the calculation supplies the mathematical result. The choice of conditions, and what the analyst can now distinguish, explain the designer’s Method.
+An explanation designer wants an analyst to see why equal weight per person and equal weight per group can give different overall means. Take two nonempty groups partitioning the people, with sizes $n,m$ and group means $a,b$. Equal weight per person gives $(na+mb)/(n+m)$. Equal weight per group gives $(a+b)/2$. Subtracting the second from the first gives $(n-m)(a-b)/(2(n+m))$. The means differ exactly when both the sizes and the group means differ. The designer can now choose a case that makes the difference visible, or use the derivation itself for an audience that can read it. If the analyst must choose the weighting in a new commission, they still need to decide whether the receiving question gives one vote to each person or one to each group.
 
 Make the common claim, its scope and its grounds available in the explanation. It may be expressed alongside cases, through a derivation or through a named accessible supplier. State what may vary and which conditions make the relation or operation applicable.
 
@@ -630,9 +632,9 @@ Keep the general reasoning connected while examples change. Retain the varied ca
 
 Inspect the correspondence back to the Method or principle being taught as well as the correctness of the example's domain result. Supply a missing general operation, explanation or accessible supplier; add or revise cases when the required correspondence or variation remains hard to recover. Use F.19's evidence and coverage conditions for a reader-recovery conclusion.
 
-For example, a continuing transaction can show why a later update must use the state produced by an earlier one: retaining the same transaction makes that dependency visible. In an account of resource use across Methods, show the different relations of a consumable specimen and reusable information. Explain consumption and reuse, then show how each changes the receiving operation.
+Two reservations against one inventory show why a later decision can depend on the result of an earlier one. If the first reservation uses the last available unit, the second cannot be promised from that stock. When the purpose changes to explaining what two methods can share, follow the relevant resource instead. A paper specimen destroyed in the first strength test is unavailable for the second. Its recorded dimensions can inform both analyses if the record applies to the specimens and conditions each analysis concerns.
 
-The author's reusable move is to select and connect cases by the relations owed to the reader; the transaction, specimen and information are the material used to perform that move. A reader who already understands a short algebraic derivation may need no narrative case for that inference. These are choices about the contribution required, not a fixed allocation of examples.
+The first example earns its place because the changed state determines what the second reservation can promise. The second brings out a different question: what remains available after use? Select the account that makes the required relation recoverable. For a reader who can already follow the algebraic derivation above, that derivation can complete the explanation of weighting.
 
 ##### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
@@ -787,7 +789,7 @@ First admissible action-guiding result: one `A.6.B`-governed atomic claim set or
 
 ##### E.8:4.2.5 - Design-time and run-time referents stay separated in pattern prose
 
-Pattern prose keeps the referents needed by its declared subject and use recoverable. Authoring, review and publication are valid governed subjects; state their actions and rules directly. Distinguish design-time, run-time and normative-publication referents when that distinction changes the claim.
+Pattern prose keeps the referents needed by its declared subject and use recoverable. Authoring, review and publication are valid governed subjects; state their actions and rules directly. Distinguish design-time, run-time and normative-publication referents when that distinction changes the claim. Where readers will both design a practice and investigate its operation, use [§4.2.1](#e8421---recognition-text-and-assurance-text) to determine what each can have when the work begins.
 
 Apply §4.2.3 to place this edition's drafting, review and landing history in its development carrier. Retain any durable reason that changes the user's action, choice or boundary in the public explanation.
 

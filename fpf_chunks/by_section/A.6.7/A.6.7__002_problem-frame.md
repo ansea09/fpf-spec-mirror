@@ -6,12 +6,12 @@ section_id: "A.6.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:1 — Problem frame"
-line_start: 25119
-line_end: 25126
+line_start: 25126
+line_end: 25133
 dependencies:
   - "A.21"
   - "A.6.1"

@@ -6,12 +6,12 @@ section_id: "C.39.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:4 — Solution"
-line_start: 89429
-line_end: 89490
+line_start: 89439
+line_end: 89500
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -31,7 +31,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 
 #### C.39.RQ:4.1 - Pattern-Use Unfolding
 
-1. **Bound the situation family.** Name representative Work, receiving result, affected subjects, decision window, recurrence expected, important variants, and ordinary exclusions. Use `A.15.6` when a project, process or case claim leaves its subject unclear; attach a criterion to the plan, Method, Work, result, or other subject it constrains. Several accounts concern one Work only when their claims support that reading.
+1. **Bound the use of the criteria.** For one occasion, identify the intended or actual Work, the result due, who is affected and when the choice must be made. For several uses, establish their range and which differences could change a requirement. A commission to plan a method for repeated use needs grounds for that wider applicability. Use `A.15.6` when a project, process or case claim leaves its subject unclear. Attach a criterion to the plan, Method, Work, result or other subject it constrains. Several accounts concern one Work only when their claims support that reading.
 2. **Recover required contributions before assigning candidates.** Start from the professional result, available plans or instructions, and a relevant performed or anticipated case. Follow the receiving operation backward: what input, intermediate result or preserved condition must be available for it to succeed?
 
    Then follow an available way forward to find where it supplies that contribution, needs support, or fails. C.39:4.2–4.3 develops this source recovery and backward/forward construction when the connection is missing. State the resulting requirement without prescribing a familiar candidate's procedure unless that feature is independently non-negotiable.
@@ -43,7 +43,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
    If the allowed deadline, protection or allocation is unknown, retain that criterion question and identify the agreement, authority or professional basis needed to settle it. Reuse an adequate existing criterion; seek additional information only when its attainable contribution warrants the burden.
 3. **Use source prompts without importing kinds.** Ask what goal, procedure, rationale, framing, mindset, intended use, representation, tool, scope, and adaptation conditions a source makes visible. Place the answer with its subject. A stated mindset may be description content; an obtaining capability or cultural relation needs separate evidence.
 4. **Recover conditions around enactment.** State performer capabilities, technical and organizational conditions, inputs, support/provider access, responsibility, covering Work assignments, permission and decision-authority relations, evidence timing, reversibility, and other Work or result constraints. Keep these conditions distinct from one another and from the performed Work and its decision result.
-5. **Separate variation from invariants.** Name lawful branches, substitutions, timing ranges, and local adaptations. Mark non-negotiable result, safety, confidentiality, authority, or evidence conditions.
+5. **Separate fixed conditions from choices the work leaves open.** Retain the non-negotiable conditions needed for this result and the permitted branches, substitutions, timing ranges or adaptations that affect its use. One occasion can itself admit several ways to proceed. A fully specified case may require only its fixed conditions.
 
    If a criterion's justification is the question, use §4.4 to appraise it while retaining its current force. An already justified criterion needs no new appraisal.
 6. **Identify who bears each burden and when.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
@@ -57,7 +57,7 @@ Use the rows that carry the present result. For a disputed criterion, retain the
 
 | Result position | Content for the present use |
 | --- | --- |
-| use and situation family | Receiving Work and result, decision to be made, scope, window, representative variations, and exclusions. |
+| receiving use | The Work and result, decision, scope and window. For a family of uses, include the variations and exclusions that determine where the criteria apply. |
 | required contributions | Candidate-neutral Method contributions and the result or preserved condition each must support. |
 | criterion rows | Criterion ID, subject/relation, requirement or bound, allowed variation, non-negotiable status, and decision that uses the criterion. |
 | capability, assignment, permission, and authority | Required performer capabilities; separate responsibility and access conditions; covering Work assignments; permission and decision-authority relations; and evidence for each. |

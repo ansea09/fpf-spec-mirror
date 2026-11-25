@@ -6,12 +6,12 @@ section_id: "A.6.S:End"
 section_title: "A.6.S:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__015_a-6-s-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:End — A.6.S:End"
-line_start: 26187
-line_end: 26188
+line_start: 26194
+line_end: 26195
 dependencies:
   - "A.15"
   - "A.15.1"

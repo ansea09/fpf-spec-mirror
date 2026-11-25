@@ -6,12 +6,12 @@ section_id: "C.37.MM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MM/C.37.MM__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
   - "C.37.MM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87114
-line_end: 87117
+line_start: 87124
+line_end: 87127
 dependencies:
   - "B.5.MR"
   - "C.2.1"

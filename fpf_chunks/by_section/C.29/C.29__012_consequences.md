@@ -6,12 +6,12 @@ section_id: "C.29:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__012_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11 — Consequences"
-line_start: 73346
-line_end: 73353
+line_start: 73356
+line_end: 73363
 dependencies:
   - "A.1.1"
   - "A.10"

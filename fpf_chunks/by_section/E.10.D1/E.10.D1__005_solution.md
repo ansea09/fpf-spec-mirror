@@ -6,12 +6,12 @@ section_id: "E.10.D1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:4 — Solution"
-line_start: 109057
-line_end: 109102
+line_start: 109072
+line_end: 109117
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -39,7 +39,7 @@ keywords:
 
 Start with the sentence and the practical use that makes it matter.
 
-1. Mark the phrase containing *context* and state what a reader would do differently under another interpretation.
+1. Mark the phrase containing *context*. State which answer, explanation or action depends on its interpretation.
 2. Use the smallest branch in `E.10.D1:4.1` that settles the receiving question. If a phrase combines different conditions, recover the ones needed together. For example, restarting a pump may require both the authorized procedure for this site and the operating conditions that procedure permits.
 3. Apply the named subject pattern and recover its value, relation, claim, or situation. For source-local meaning, reuse an adequate current `F.0.1` result or apply `F.0.1` only when that meaning remains unclear. Do not create a generic Context participant as an intermediate step.
 4. Rewrite the sentence with the recovered content and state the next action or stop.
@@ -57,7 +57,7 @@ The result is the repaired statement. Create a separate record only when a named
 | Working situation, project use, or reader use | The named situation; intended reader; use; decision; non-use boundary; and the participants, Work, and claims whose change would alter that use or decision. `Problem frame` remains a readable pattern heading rather than a formal Context value. | Write the situation and use directly. Introduce a formal value only when a named later use needs its identity. |
 | Design-time or run-time wording | The design artifact, plan, description, or model edition, or the performed Work, world-side occurrence, or state on which the sentence relies. | Keep design-time descriptions and plans separate from run-time holons, states, relations, and Work. Apply the pattern for the recovered object; the labels *design* and *run* create no shared Context or time-tag object. |
 | Architecture relation or claim | The described holon, actual subject relations, selected `U.Structure`, and an obtaining `ArchitectureRelation` only when the C.30 predicate holds. Otherwise recover an `ArchitectureClaim` whose content says that the relation does not obtain, remains unresolved, or concerns a candidate or expected structure. | Apply `C.30`. State the actual relation and selected structure when they obtain. If the described holon, selected structure, architecture concern, or actual-versus-candidate distinction is still missing, stop with C.30's `concernCueOnly` or `problemCardReady` result. |
-| Viewpoint or view | One identified candidate episteme, one identified `U.Viewpoint` edition with fixed rules, and the `EpistemeViewpointConformanceRelation` question between them. The same candidate episteme is a `U.View` relative to that viewpoint only when the relation obtains. | Apply `E.17.0` and return its readable positive, negative, or unresolved result. Stop there unless a named receiving use needs occurrence identity, warrant, new-viewpoint authoring, multi-view organization, or publication detail. |
+| Viewpoint or view | For a standpoint governing future descriptions, recover the viewpoint, the subject and the rules it fixes. For a claim that a particular description is a `U.View`, identify that episteme E and the viewpoint edition P whose rules apply. | Use E.17.0:4.8 to select a viewpoint or :4.6 to develop one. For a view claim, test E against P and return the supported positive, negative or unresolved judgment. Add occurrence, warrant, organization or publication detail when the receiving use needs it. |
 | Environment, operating region, or operating condition | The subject claim and the actual holon, relation, state, spatial or temporal qualifier, constraint, or condition whose change affects that claim or the next action. An environmental label remains source wording until the practitioner uses the subject pattern's definitions or constraints to identify the content used by the statement. | Apply the pattern that defines or constrains the subject claim. If the statement still cannot name which environmental fact or operating condition changes the claim or action, return an unresolved wording result; do not infer an architecture or viewpoint claim. |
 | DPF, domain, or local-practice boundary | The domain subject, intended audience and use, effective scheme, source basis and qualifications that bound the claim, including a temporal window when needed. | Keep domain or local meaning in its DPF or LPF. The word *domain* is neither restricted to a catalogue mark nor promoted to a U-kind by this pattern. |
 

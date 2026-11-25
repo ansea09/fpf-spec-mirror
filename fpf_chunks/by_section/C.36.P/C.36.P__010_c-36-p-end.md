@@ -6,12 +6,12 @@ section_id: "C.36.P:End"
 section_title: "C.36.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__010_c-36-p-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:End — C.36.P:End"
-line_start: 96268
-line_end: 96269
+line_start: 96278
+line_end: 96279
 dependencies:
   - "A.1"
   - "A.1.1"

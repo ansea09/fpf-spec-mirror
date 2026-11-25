@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__007_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:6 — Bias-Annotation"
-line_start: 78839
-line_end: 78849
+line_start: 78849
+line_end: 78859
 dependencies:
   - "A.10"
   - "A.15"

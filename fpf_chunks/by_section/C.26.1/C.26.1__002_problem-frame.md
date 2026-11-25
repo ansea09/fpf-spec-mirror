@@ -6,12 +6,12 @@ section_id: "C.26.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:1 — Problem frame"
-line_start: 69438
-line_end: 69457
+line_start: 69447
+line_end: 69466
 dependencies:
   - "A.1.1"
   - "A.10"

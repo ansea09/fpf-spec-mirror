@@ -6,12 +6,12 @@ section_id: "G.3:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 138021
-line_end: 138029
+line_start: 138040
+line_end: 138048
 dependencies:
   - "A.10"
   - "A.15.2"

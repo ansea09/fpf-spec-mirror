@@ -6,7 +6,7 @@ section_id: "A.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:0 — Use This When"
@@ -36,9 +36,9 @@ keywords:
 
 **Plain designations.** Say “this assignment to a system role satisfies this state condition” for the relation and “state condition for an assignment to a system role” for the predicate.
 
-Use this pattern when one assignment to a system role already obtains, but a method step, Work occurrence, incompatibility check, or operational gate depends on that assignment satisfying a particular condition during a particular window.
+Use this pattern to work out which condition an assignment to a system role must satisfy for a given operation, or to determine whether a particular assignment satisfies that condition when required. The terms may permit reserving work before its holder is named.
 
-Start with the practical question. **Which assignment must satisfy which state condition, and when does the receiving work require it?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence. An unresolved determination can be returned with the evidence still needed. Add an assertion and evidence-use relation when a later decision must rely on that result.
+**When must the condition hold, and what decision is due now?** For a prospective arrangement, derive the holder, state and timing requirements from the receiving work. State what can be arranged now and when the outstanding conditions must be secured or checked (§4.5). For a claim about an actual assignment, identify it and establish whether the specified `SystemRoleAssignmentStateRelation` obtains in the relevant window. An unresolved determination can identify the evidence still needed. Add an assertion and evidence-use relation when a later decision must rely on that result.
 
 Typical working moments include these:
 

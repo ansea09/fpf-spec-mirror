@@ -6,12 +6,12 @@ section_id: "E.2:9"
 section_title: "Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__010_definitions.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:9 — Definitions"
-line_start: 98111
-line_end: 98113
+line_start: 98119
+line_end: 98121
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.9.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
-line_start: 33703
-line_end: 33892
+line_start: 33710
+line_end: 33899
 dependencies:
   - "A.10"
   - "A.13"
@@ -44,11 +44,11 @@ keywords:
 
 **First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. A conditional conclusion or an available action can settle a commission that calls for it. If a related action remains possible while the requested fact is unknown, give that distinction to the recipient.
 
-A missing result can limit an answer. If obtaining more is discretionary, request the smallest obtainable contribution worth its burden for the receiving use. If the commission requires a new examination or a particular supplier’s judgement, arrange it under that commission or report the actual obstacle. An adequate existing result can settle a question about the subject.
+A missing result can limit an answer. When further inquiry is discretionary, choose the contribution by what it would enable and what it would take the supplier and recipient to obtain and use it. A more complete return may spare them a second inquiry or substantial reconstruction. If the commission requires a new examination or a particular supplier’s judgement, arrange it under that commission or report the actual obstacle. An adequate existing result can settle a question about the subject.
 
-**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and establishes who may advise, decide or act under the order. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
+**What changes in practice.** The receiver establishes what an existing result supports and who may advise, decide or act under the order. It can finish a question about the subject or supply grounds for part of the work. If a second opinion is owed, arrange it on the agreed terms even where the recipient's next action is already settled.
 
-**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
+**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits and its permitted use already settle the receiving work, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
 
 **Not this pattern when.** Use the supplier's domain Method for the specialist answer itself; `A.2.2` for capability; `A.13` for agency; `A.15.1` for dated Work; `A.2.9` for communication; `C.11` for a live choice among an existing `OptionSet`; and `C.38` only when the question has changed from one bounded contribution to several complete ways of obtaining the same receiving result.
 
@@ -74,12 +74,12 @@ Start with the receiving decision and the available grounds. Reuse a sufficient 
 
 ### A.15.9:4 - Solution
 
-Begin with one receiving decision or piece of Work and one result that could change its next action. Inspect an available result before commissioning anything new. Return what it supports now, including a stop where required. For an outstanding obligation or a further contribution worth obtaining, bound the request, identify who may determine the result and who may act on it, then use the return within those powers.
+Begin with the result the recipient is owed or the decision the outside contribution would support. An independent judgement may itself be the deliverable. Where several contributions are needed together, establish what makes them jointly sufficient under the receiving rule. Determine what the available grounds already settle, then obtain the outstanding commissioned work or the further contribution worth its cost. Identify who may give each judgement and what decision the recipient can make with it.
 
 #### A.15.9:4.1 - Follow the nine-step bounded-result sequence
 
-1. **Name the receiving decision or Work.** State who will use the result, what action can change, and the consequence of delay or error. Do not begin with a department, profession, meeting, or document.
-2. **Inspect an already-available result first.** Identify the result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance needed. Use the result where adequate and retain the limit that matters.
+1. **Name the receiving decision or Work.** Who needs the result, for which action, explanation or commissioned assessment, and by when? If its use depends on another contribution, identify the condition they must satisfy together.
+2. **Establish who can use the available result and when.** Establish what must be independent and which material the assessor may use. For a blind or unprompted judgement, withhold the earlier conclusion until the assessor has made their own. An assessor may also know that conclusion and be commissioned to reach a judgement on their own grounds. When the task is to examine the first assessor’s reasoning, supply the argument itself. Identify the result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance needed. Use the result where adequate and retain the limit that matters.
 
    Check whether the result applies to this claim and configuration. A narrower result can settle the use when the receiving decision only needs that result. If the requested answer could still differ, state what remains unresolved. If the order also requires a new performance, delivery or signed decision, an existing answer may supply a premise. Complete the outstanding work under the agreement.
 3. **Determine what must be obtained.** For a new contribution owed under the agreement, identify the required work, performer, independence and timing as applicable. When a further inquiry is discretionary, use `C.11.DUA` to compare an obtainable calculation, interpretation, limit, objection, observation, decision, or other contribution with the present answer, narrower action, alternative, deferral, or stop. Include formulation, qualification, delivery, supplier Work, interpretation and use, delay, displaced work, and downside within the receiving horizon.
@@ -152,7 +152,7 @@ A dated legal-result request becomes a continuation only if the obtainable contr
 | Source phrase | Recover before relying on it | Do not infer |
 | --- | --- | --- |
 | *professional result* or *specialist return* | The governed result kind, subject, conditions, supplier practice, and receiving use. | A new FPF result kind or universal profession ontology. |
-| *ask legal / safety / architecture / finance* | The smallest result question and the decision it can change. | A department, title, or field name already identifies the answer. |
+| *ask legal / safety / architecture / finance* | The question the supplying practice can settle at the scope the receiving decision needs. | A department, title, or field name already identifies the answer. |
 | *review* | The reusable Method, planned Work, dated review Work, communication, and returned result that are claimed. | Scheduling or delivery proves Work, acceptance, or adequacy. |
 | *approved* or *signed off* | The result plus any separately supported authority, permission, acceptance, or gate relation. | A word, signature image, or provider status transfers decision authority. |
 | *specialist* | The practitioner or other supplying System relevant to the result. If an Agent claim is needed, recover its A.13 local-kind classification and obtaining assignment. Add capability, access, conflict and authority only when consumed by the use. | Title, credential, organization, species, or tool label establishes those relations. |
@@ -165,8 +165,8 @@ A dated legal-result request becomes a continuation only if the obtainable contr
 
 A use conforms only when the checks needed by its claimed result pass:
 
-1. The receiving decision or Work, receiver, and action that can change are recognizable to a cold reader.
-2. An already-available result is inspected before new supplier Work is requested, unless none can reasonably be found at the required cost.
+1. A reader can identify the recipient, the work or decision and the contribution it requires. When that contribution can have its intended effect only together with another result, the account explains the relevant condition.
+2. An accessible, adequate result is used when the commission permits. For an independent judgement, the assessor receives only the material permitted before that judgement. A further discretionary inquiry has a reason that warrants its cost.
 3. The first result gives the useful supported answer and its material limit or blocker. For an outstanding commitment, the request covers the contribution owed. A discretionary request is justified by its obtainable value against the whole acquisition burden under `C.11.DUA`.
 4. Subject, configuration or situation, interval, assumptions, intended use, and non-use boundary are present at the grain that can change the answer.
 5. The supplier uses the applicable Method and evidence standards. Any recommendation, binding decision or further action falls within the powers actually assigned to the supplier or client.

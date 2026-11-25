@@ -6,12 +6,12 @@ section_id: "F.13:7"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__008_invariants-normative.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:7 — Invariants (normative)"
-line_start: 131856
-line_end: 131865
+line_start: 131873
+line_end: 131882
 dependencies:
   - "F.1"
   - "F.17"

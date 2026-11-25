@@ -6,12 +6,12 @@ section_id: "B.2.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__011_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:8 — Consequences"
-line_start: 46099
-line_end: 46112
+line_start: 46108
+line_end: 46121
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.TC.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
-line_start: 51313
-line_end: 51516
+line_start: 51322
+line_end: 51525
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -60,7 +60,7 @@ A comparison must recover enough of each application to distinguish these situat
 
 ### B.5.TC:4 - Solution
 
-**Fix the question → construct each account's application → align the case and the meaning of its answer → locate the consequential difference → use what the comparison establishes, or pursue the difference that matters.**
+**Fix the question → establish what each applicable account can contribute → align competing answers or connect complementary grounds → derive what follows for the original question.** An unavailable contribution may leave the answer open or make another account the sufficient choice.
 
 The sequence is revisable. Reuse an established application or correspondence. Return to the question when the accounts reveal that it combines different needs. Stop when the available result suffices for the intended use.
 
@@ -82,9 +82,9 @@ An account may need information the work lacks. Separate a supplied premise, a p
 
 A collaborator or tool can supply a calculation or proof. Recover the interpretation and conditions needed to compare its contribution. Learn or request the missing operation when you cannot follow the decisive step; a broad study of both theories is unnecessary when a smaller contribution settles the use.
 
-#### B.5.TC:4.3 - Work the same case and align the answers
+#### B.5.TC:4.3 - Relate the contributions to the same question
 
-Work with the actual situation or a smaller case that retains the disputed operation or distinction. Give each account the corresponding inputs, derive its answer and express it in the terms of the question. Explain the correspondence when the inputs or outputs take different forms.
+For competing answers to the same question, use the actual situation or a case that retains the disputed operation or distinction. Give each applicable account its corresponding inputs and interpret its result in the terms of the question. If a required input is unavailable, say what it prevents you from deriving and what the other account can already establish. For complementary contributions, check that their premises hold together and derive the answer their combination supports.
 
 For a mathematical application, compare the retained distinctions and operations. C.29.1 supplies the preservation argument when a result is to be transferred. For a physical application, keep the phenomenon, operating conditions and meaning of the predicted quantity aligned. For a computation, separate the mathematical formulation from approximation, numerical tolerance and execution.
 
@@ -172,8 +172,8 @@ The cases use small formal constructions so their decisive steps can be inspecte
 ### B.5.TC:7 - Conformance Checklist
 
 - The comparison names a question and explains what its answer changes.
-- Each application has recoverable meanings, inputs, premises, decisive operations and an interpreted answer.
-- The shared case corresponds across accounts; a missing correspondence remains visible.
+- The meanings, inputs, premises, decisive operations and interpreted result of each application used in the conclusion can be recovered. An unavailable contribution and its effect on the commissioned comparison remain visible.
+- For a direct comparison the case corresponds across the accounts. For combined contributions the connections and their compatibility justify the joint result.
 - Agreement or disagreement is traced to the relevant question, premise, operation, inference, implementation or physical account.
 - The conclusion has the scope established by its derivation, cases and applicable evidence.
 - A sufficient cheaper account, complementary use or useful conditional result remains selectable.

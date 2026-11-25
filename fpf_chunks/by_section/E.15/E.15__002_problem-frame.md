@@ -6,12 +6,12 @@ section_id: "E.15:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:1 — Problem Frame"
-line_start: 113161
-line_end: 113174
+line_start: 113176
+line_end: 113189
 dependencies:
   - "C.18"
   - "C.19"
@@ -36,7 +36,7 @@ Use this pattern when an existing FPF pattern is being corrected, clarified, reo
 
 The primary `EntityOfConcern`—the thing being changed—is one existing FPF pattern edition. The candidate is its proposed successor. For a proposed replacement, give the candidate with a bounded account of what changed, which uses it affects, which predecessor contributions remain and what has been checked. When asked to assess the effects of someone else’s candidate, return that account on the proposed editions. Put that account in the decision, review, campaign, or landing result that needs it; this pattern does not require a separate trace object.
 
-**First useful move.** Put the predecessor and candidate side by side and finish this sentence in ordinary language:
+**First useful move.** For a replacement still to be developed, identify what the recipient needs to retain or gain from the change and use that to construct the candidate. Where there are consequentially different possible repairs, compare them for that use. When assessing an actual candidate, put it beside its predecessor and state what changes for the reader.
 
 > A reader or user who relied on `<predecessor passage>` may now read, do, check, or conclude `<difference>`.
 

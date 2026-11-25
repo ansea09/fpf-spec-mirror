@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 135345
-line_end: 135788
+line_start: 135362
+line_end: 135805
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -208,7 +208,7 @@ Retain a negative alternative, denied consequence, warning, or non-use statement
 
 An earlier or source claim, an observed recurring mistake, a serious competing position, a visible representation feature, or an applicable safety risk can supply the ground. The guard itself cannot.
 
-Use the smallest clear correction for a grounded guard. When actor allocation is the useful content, state it positively: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When currentness is the useful content, state the direct use: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes, and safety stops when their polarity or boundary is itself the claim.
+Use the smallest clear correction for a grounded guard. When actor allocation matters, name the decision: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When the seminar record confirms that the session took place on 1 February 2026 and a reader needs a rule for use today, preserve both facts: “This guide covers the seminar held on 1 February 2026. For current practice, consult the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes and safety stops when their polarity or boundary is itself the claim.
 
 
 
@@ -312,15 +312,15 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
 | Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "Keep projection evidence about a pattern edition outside its practitioner explanation unless that projection is itself the subject of the pattern." |
 | Evaluation scope | "The evaluation has pre-landing host-set use." | "This is a host-only evaluation; corpus-entry values need corpus-projection evidence." |
-| Unsupported negative classification | "This Guide is not a seminar, not a transcript, but a learning route." No seminar-or-transcript confusion has been established. | "This Guide teaches the seminar's subject through explanations, examples, exercises, and checks." |
+| Unsupported negative classification | “This guide is not a seminar, not a transcript, but a learning route.” No seminar-or-transcript confusion has been established. | “This guide sets out a learning sequence.” If the commission or the guide establishes what readers will learn or do, name that result. |
 | Ambiguous scale claim | "The platform owns scale." | Recover what *scale* denotes and which ownership, responsibility or comparison claim is intended. If the source establishes a comparison measure, name that measure and its alternatives; otherwise keep the missing meaning explicit. Do not invent platform-versus-non-platform comparison from this sentence alone. |
-| Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents the evidence. Recover the evidence-use claim under its direct subject rule; use `A.10` for its descriptive provenance and bounded reliance, and `A.21` for a separately current gate decision." |
+| Publication and evidence mix | “The dashboard is the evidence gate.” | Inspect what the display supplies. If it displays the decision alone, say “The dashboard reports the decision.” If the reader can inspect the supporting evidence there, say so and identify it. Use `A.10` for provenance and bounded reliance and `A.21` for a current gate decision when those claims matter. |
 | Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | For an instruction, write “Compare the predecessor and candidate expressions for the declared use.” Identify a particular performer when the commission requires one. For a report, identify the participant or team whose comparison the evidence establishes, or report the supported comparison while leaving its author open. Use `E.10:0.2c.17` for the separate claims about expression, bearing by a carrier and publication. |
 | A dispatch instruction travels separately | The print supervisor’s procedure says, “Release an edition once the proof approval and rights clearance both cover that edition.” Its detachable instruction says, “Confirm both approvals before release.” | Keep the procedure. With two editions awaiting dispatch, staff could follow the detachable instruction with a proof approved for one edition and rights cleared for another. Carry the edition condition onto that instruction. A separate clerk asked only to record each office’s reply can complete that task by recording the two replies. |
 | Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
 | Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again.” |
 | Denied impossible agency | “The evidence does not notice the error and does not begin a new cycle.” | Evidence supplies grounds; a reader or capable system evaluates them. If the surrounding passage already tells the reader to check or revise the first distinction on receiving new evidence, keep that instruction and delete the denial. Otherwise recover the intended response before naming it. |
-| Unsupported currentness guard | “Historical modality does not turn the seminar claims into the current FPF norm.” | State the dated source and current-use action: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” |
+| Unsupported currentness guard | “Historical modality does not turn the seminar claims into the current FPF norm.” | “For the rule in force today, consult the current FPF edition.” If the reader needs to place the seminar account in time, obtain its date from the cited seminar material. |
 | Missing operation operand | “Take the mixture and then pour.” | Recover the missing object or destination from the procedure. If it specifies the flask, write “Pour the mixture into the flask.” If the destination is unknown, resolve it before issuing the instruction. |
 | Incomplete relational noun | “Give the bearer to the next stage.” | Name what is borne and the transfer relation, or use the ordinary domain noun. |
 | False common head | “The method selects, publishes, and evaluates the alternatives,” where the text combines unrelated activities and supplies no common Method or capable participant. | Recover the separate claims and participants. When the context instead supplies one Method and its capable executor, the same wording may be ordinary metonymy; the verb list alone is not a defect. |

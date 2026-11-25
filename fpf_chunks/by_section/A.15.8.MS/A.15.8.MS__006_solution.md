@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:4 — Solution"
-line_start: 33378
-line_end: 33465
+line_start: 33385
+line_end: 33472
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.15.8.MS:4 - Solution
 
-A.15.8 configures and tests continuation of one actual Work or present WorkPlan. Here the design question is how performers obtain and apply methodological material across the named tasks; it can return a small arrangement or a justified shared Method Base. Use A.15.8 for the effect of an interruption or loss on actual Work or on the service a present WorkPlan must support.
+A.15.8 develops an arrangement that can maintain or recover a service and tests it for the required disruptions. Here the design question is how performers obtain and apply methodological material across the named tasks. It can return a small arrangement or a justified shared Method Base. Use A.15.8 when interruption or loss could keep that support from reaching its users, including when the arrangement must be designed before individual work is scheduled.
 
 Build a bounded set of named-user task criteria and assess the available configuration. For a small reversible task, a configuration with acceptable burden that meets every mandatory criterion and respects every stop can be the sufficient result.
 
@@ -30,7 +30,7 @@ Use the grounds the claim needs. A rule about access or shared capacity can deci
 
 Return several candidates, a stated split boundary, or a missing priority or test when that choice remains unresolved.
 
-Use a cheap ordinary task-and-gap account for a small reversible case. When an unresolved Work or WorkPlan configuration or recovery question can change the needed result, use the applicable `A.15.8` branch, deriving the conditions from the service due and using the evidence that covers them. When several criteria, missing evidence, or incomparability make the configuration choice non-trivial, consume current `A.19.CPM` comparison results and `A.19.SelectorMechanism` selected-set semantics rather than forcing one route. A.15.8.MS specializes these patterns for Method material through two content branches.
+Use a cheap ordinary task-and-gap account for a small reversible case. When the support that a service needs under disruption is unresolved, use `A.15.8` to design for the promised service or to assess a particular Work or WorkPlan. Derive the conditions from what performers must be able to obtain in time. When several criteria, missing evidence, or incomparability make the configuration choice non-trivial, consume current `A.19.CPM` comparison results and `A.19.SelectorMechanism` selected-set semantics rather than forcing one route. A.15.8.MS specializes these patterns for Method material through two content branches.
 
 In the direct branch, take the `C.37` direct exit when one owning result already supplies the complete one-result/one-use selection and limits. When the A.15.8.MS task row owns that use, keep the same logical basis: receiver/action, subject result, claim, applicable reliance, receiving task result, exposure and loss, disposition and return.
 
@@ -78,7 +78,7 @@ If the task set, a required comparison basis, or the task evidence needed to jud
 
     For a simple case, observing the user performing the task can be enough. Identify a dated task Work only when the receiving claim needs that occurrence; then supply A.13 and independent A.15.1 admission, with F.6 only for needed assignment-bound attribution.
 
-    When an interruption, handoff, stale state or support loss could affect delivery, apply the actual-Work or present-WorkPlan branch of `A.15.8` to its own focus. Derive the separate or combined disruptions to cover from the promised support. For example, two editing teams each have a local adviser. Both must be able to obtain a separate half-hour consultation in the same half-hour, including during an absence. The sole standby adviser is qualified and authorized for either team, is free in that window and learns the assignment in time. This arrangement covers loss of either local adviser alone. If both may be absent together and both teams may call then, the standby adviser would owe an hour in half an hour. Separate successful trials leave that common limit in place. Use the applicable rule, records or a discriminating probe. Admit a distinct probe Work when its occurrence is claimed.
+    When an interruption, handoff, stale state or support loss could affect delivery, use `A.15.8` to design for the promised service or assess the arrangement of the particular Work or WorkPlan. Derive the separate or combined disruptions to cover from the promised support. For example, two editing teams each have a local adviser. Both must be able to obtain a separate half-hour consultation in the same half-hour, including during an absence. The sole standby adviser is qualified and authorized for either team, is free in that window and learns the assignment in time. This arrangement covers loss of either local adviser alone. If both may be absent together and both teams may call then, the standby adviser would owe an hour in half an hour. Separate successful trials leave that common limit in place. Use the applicable rule, records or a discriminating probe. Admit a distinct probe Work when its occurrence is claimed.
 12. **Repair, recompare, and rerun only the affected position.** Change the material, System, relation, constraint, access condition, assignment, permission, authority, capability input, edition fact, provider boundary, feedback path, or user step that defeated a criterion. Preserve unaffected collection, proposal, candidate, and task facts. Rerun the same criterion. If the bounded task set, candidate universe, criteria, scope, evidence status, or window changes, make a new comparison or selection use rather than reusing the prior minimum.
 13. **Return the bounded result and any needed continuation.** Report the applicable per-task evidence status, supported configuration, retained candidate set, split boundary, failed task, changed position, rerun result, or named missing premise. When a receiving use needs a continuation, state what the result supports—for example, a representative Method trial, a description or representation correction, a collection or user-task repair, or later capability development. Reopen only the affected task, configuration comparison, or result.
 
@@ -97,7 +97,7 @@ Use the following positions when they are needed to compare configurations or re
 | configured route | The needed retrieval, comparison, tailoring, tool or automation, provider, feedback, and decision functions or conditions chosen for testing or supported for the bounded task set. |
 | optional collection | Collection identity and purpose, entry rule, identified membership occurrences, edition, publication, and any construction account, each separately identified. |
 | optional structure | The four A.22 identity discriminators and the judgement they support for the named use, or a proposal with any required unresolved value qualified under A.22. Add the selection-performance basis only for a claimed dated selection Work. |
-| observations and needed tests | Coverage of the materially different mandatory tasks and decision-changing conditions, using rules, bounds, existing observations or needed new probes as the claim requires. A new probe has pass and failure criteria and conditions selected before performance; earlier observations are assessed against the current criteria at their actual coverage. Use an A.15.8 actual-Work or WorkPlan branch when its configuration or recovery question remains. |
+| observations and needed tests | Coverage of the materially different mandatory tasks and decision-changing conditions, using rules, bounds, existing observations or needed new probes as the claim requires. A new probe has pass and failure criteria and conditions selected before performance; earlier observations are assessed against the current criteria at their actual coverage. When a configuration or recovery question remains, use A.15.8 to design for the required support or assess the Work or WorkPlan at issue. |
 | observed performance | The user action, direct System interaction, observation, task result, evidence status and gap. Each claimed dated Work has its own A.13 and independent A.15.1 basis; add F.6 only for needed assignment-bound attribution. |
 | repair and rerun | Failed criterion, smallest changed position, preserved facts, rerun result, and any new comparison required by a changed task set or basis. |
 | return | The supported configuration, retained candidates, split boundary, bounded task result, defect or missing priority/test, with material limits and any next use or reconsideration condition needed by the receiver. |

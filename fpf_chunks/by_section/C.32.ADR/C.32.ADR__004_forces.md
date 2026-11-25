@@ -6,12 +6,12 @@ section_id: "C.32.ADR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:3 — Forces"
-line_start: 84578
-line_end: 84588
+line_start: 84588
+line_end: 84598
 dependencies:
   - "A.10"
   - "A.15"

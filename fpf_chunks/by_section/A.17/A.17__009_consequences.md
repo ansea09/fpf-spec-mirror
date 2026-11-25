@@ -6,12 +6,12 @@ section_id: "A.17:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__009_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:8 — Consequences"
-line_start: 36005
-line_end: 36020
+line_start: 36012
+line_end: 36027
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "E.8.ML:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__011_architectural-rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:10 — Architectural Rationale"
-line_start: 104443
-line_end: 104450
+line_start: 104458
+line_end: 104465
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

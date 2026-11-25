@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 64386
-line_end: 64675
+line_start: 64395
+line_end: 64684
 dependencies:
   - "A.10"
   - "A.19.CPM"

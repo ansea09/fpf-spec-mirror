@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__011_architectural-rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:10 — Architectural Rationale"
-line_start: 21678
-line_end: 21685
+line_start: 21684
+line_end: 21691
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -23,9 +23,9 @@ keywords:
 
 ### A.6.P.RI:10 - Architectural Rationale
 
-Relational precision restoration recovers missing participants. Agent-relative use additionally requires a link between the receiving agent and the described participants, together with a decision about what the transfer preserves. Neither a complete participant list nor a change of notation supplies these by itself.
+Relational precision restoration recovers missing participants. Agent-relative use adds the question of what the transfer must preserve. To report an earlier utterance, the source participant and reference conditions may suffice. To act relative to a position, the recipient must also establish whose position governs the action and how to locate it.
 
-The construction therefore combines the source interpretation, receiving purpose and recipient's position. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the conversion or classification; this method exposes the premises they need and returns their result to the receiving action.
+The construction connects source interpretation to the receiving purpose. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the conversion or classification when one is needed.
 
-The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. The performer may use prior configuration, evidence from the current situation or a fresh clarification to resolve which participant is meant.
+An interpreter can resolve a reference from the earlier situation, evidence about it or a fresh clarification. First-person experience remains available through the experiencing person's account and correction.
 

@@ -6,12 +6,12 @@ section_id: "A.6.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:1 — Problem frame"
-line_start: 20959
-line_end: 20982
+line_start: 20965
+line_end: 20988
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

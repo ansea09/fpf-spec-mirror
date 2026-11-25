@@ -6,12 +6,12 @@ section_id: "C.39.RP:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:0 — Use This When"
-line_start: 89181
-line_end: 89205
+line_start: 89191
+line_end: 89215
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

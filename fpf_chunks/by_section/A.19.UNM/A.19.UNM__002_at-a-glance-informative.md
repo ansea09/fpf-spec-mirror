@@ -6,12 +6,12 @@ section_id: "A.19.UNM:0"
 section_title: "At a glance — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__002_at-a-glance-informative.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:0 — At a glance — informative"
-line_start: 39073
-line_end: 39099
+line_start: 39080
+line_end: 39106
 dependencies:
 keywords:
   - "CV→NCV"
@@ -36,7 +36,7 @@ keywords:
 **Key outputs.**
 - `NCV` (NormalizedCharacteristicValue) values for coordinates.
 - When requested for a function `n:D→N`, the equality-of-output relation `x ≡_UNM y` iff `n(x)=n(y)` on its domain D. Its classes form a set quotient; preserving further operations or answers needs the additional tests below.
-- An inverse only on the stated image of an invertible transformation; an operational quotient only for compatible operations and recoverable queries; a `NormalizationFixSpec` only when a representative of an established class is needed.
+- An inverse only on the stated image of an invertible transformation; operations on classes where those operations are compatible, and answers to queries that are constant on each class; a `NormalizationFixSpec` only when a representative of an established class is needed.
 
 **Declaration and configured-method identifiers.**
 - `UNM_id?` identifies the selected UNM declaration episteme and its edition under A.6.1; it is distinct from the configured method and from an operation application.

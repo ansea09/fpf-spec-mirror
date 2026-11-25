@@ -6,12 +6,12 @@ section_id: "C.28.MR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 72405
-line_end: 72415
+line_start: 72415
+line_end: 72425
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

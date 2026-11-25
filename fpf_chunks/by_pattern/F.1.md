@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
-line_start: 127368
-line_end: 127851
+line_start: 127385
+line_end: 127868
 dependencies:
   - "A.10"
   - "A.7"
@@ -382,7 +382,7 @@ The catalogue points to a note about equipment labels. Reading it reveals that a
 
 The equipment register explains how current identifiers distinguish the pumps. Further guides found through different terms give more identification examples, but leave the preparation-state question unanswered. A reference in the register gives a route to H-2. The next search opens its completion condition in section 5, with the definition of the reported state and interval. The new contribution is that condition, not merely a new document.
 
-The reader now returns R-4:2 for the equipment-identification basis and H-2:5 for the condition on reporting completed preparation. These supply the current requirement question. Stop searching and use them to examine the proposed handover. Choosing a course still requires judging the learning need. Identifying the handover requirements did not settle that question. If the available operations do not explain how to produce the required handover, use C.39 to develop the missing connection, with those passages as inputs.
+The reader now returns R-4:2 for the equipment-identification basis and H-2:5 for the condition on reporting completed preparation. These supply the current requirement question. Use those passages to examine the proposed handover. If the receiver has no way to distinguish the two pumps on shift, repeating the same label in a course will leave that problem open. A guide that maps an observable difference or a fixed location to the correct pump can itself supply the missing information. Distinct identifiers at the pumps or working access to a register that resolves the difference can also help. If the identifiers are available and the task is for staff to learn to use them, R-4 and H-2 show what the training material must let them distinguish. Complete any search for suitable material that the reader separately commissioned. If the available operations do not explain how to produce the required handover, use C.39 to develop the missing connection, with those passages as inputs.
 
 If the procedure is inaccessible, return the inspected identification passage and the missing preparation-condition source. More identification guides do not close that gap. If both passages were already known and sufficient, open them directly. No additional route or SourceCutNote is needed for that use.
 

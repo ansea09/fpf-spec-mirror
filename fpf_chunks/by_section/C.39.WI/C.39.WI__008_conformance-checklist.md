@@ -6,12 +6,12 @@ section_id: "C.39.WI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:7 — Conformance Checklist"
-line_start: 89084
-line_end: 89096
+line_start: 89094
+line_end: 89106
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -30,7 +30,7 @@ keywords:
 - The remedy distinguishes a missing Method or connection, explanation, access, provision and execution as the evidence warrants.
 - When a failure survives correction, the repair addresses the supported conditions of production, checking and the earlier intervention, reaches the working forms, and restores the established dependent set while retaining independent grounds.
 - A source-based adequacy conclusion covers the assigned source and practitioner scope; successful examples do not redefine it.
-- Selection includes the full change and continuing burden, feasible alternatives, an attainable next action and a reconsideration condition.
+- The decision follows from a comparison of feasible alternatives, including their implementation and continuing burdens. A selected undertaking has an attainable next action. A deferred decision identifies when to reconsider. A conclusive appraisal gives the recipient the grounds for closing the question.
 - Recognition, execution and useful effect receive their own supported conclusions.
 - The search returns from changed conditions without manufacturing another mandatory intervention.
 

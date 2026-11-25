@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.OF.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
-line_start: 94550
-line_end: 94685
+line_start: 94560
+line_end: 94695
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -121,8 +121,8 @@ Inspect the arrangement at an actual or representative occasion:
 
 | Failure | Repair |
 | --- | --- |
-| Training is repeated while the description or tool remains inaccessible. | Supply the missing access and then test the arrangement in use. |
-| A person fills the list before a shared conversation. | Put the question at the conversation and distinguish prior observations from the shared result. |
+| Training is repeated while the description or tool remains inaccessible. | Supply the missing access. If the question also concerns use, draw on a matching observation. Arrange a trial when the grounds are insufficient or a new trial is commissioned. |
+| A prior entry is presented as the outcome of a discussion or judgement still owed. | Keep valid preparatory observations. Leave the open question to the participants entrusted with it and distinguish their answer from what was known beforehand. |
 | A new dashboard creates a neglected second workplace. | Use the existing work environment or supply a worthwhile, maintained connection. |
 | AI uncertainty is addressed only with stronger prompting. | Inspect criteria, tools, observations and retained context; repair the missing contribution. |
 

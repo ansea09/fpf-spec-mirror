@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 48292
-line_end: 48321
+line_start: 48301
+line_end: 48330
 dependencies:
   - "A.15"
   - "A.16"

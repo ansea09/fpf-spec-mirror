@@ -6,12 +6,12 @@ section_id: "C.40.OI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__010_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:9 — Consequences"
-line_start: 91788
-line_end: 91793
+line_start: 91798
+line_end: 91803
 dependencies:
   - "A.15.9"
   - "B.5.PI"

@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 105472
-line_end: 105494
+line_start: 105487
+line_end: 105509
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,13 +29,13 @@ keywords:
 
 | Check | Requirement |
 |---|---|
-| `CC-E9DA-0` | Make the semantic judgement first. For an ordinary bounded review, name the exact DRR, required authoring use and source, effective floor and source, substantive findings, repaired text or unchanged checked DRR when clean, first action or repair, stop or return, and reopen. Add a non-use boundary only when an independently grounded competing reading is plausible and action-changing; do not require a formal dossier. |
+| `CC-E9DA-0` | Make the semantic judgment first. Name the exact DRR, the use against which it is being judged and its source. Return what the record establishes for that use, with the grounds for a finding, any revision needed and when to stop or reopen. A comparison can establish the consequences of the alternatives while the decision stays with its owner. For authoring readiness identify the first drafting action or the repair or decision still needed. Add a non-use boundary when an independently grounded competing reading could affect the conclusion. |
 | `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. For a wider claim, examine the grounds for carrying the result beyond that use. |
 | `CC-E9DA-0b` | Before coordinate closure, make one bounded search of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and direct consumers for an important question the DRR omitted. Return an answer-changing question as a substantive finding and reassess every affected coordinate under its value rule. A clean ordinary review needs no separate search ledger; a reusable result records only the basis its receiving reliance needs. |
-| `CC-E9DA-1` | Keep the exact DRR, required authoring use and its source, selected-locus map, qualification window, and effective floor recoverable. Method, A.6.1 application, and dated Work are independently conditional. Add each identity only when the receiving claim uses it. If dated `U.Work` is asserted, establish the enacted Method, every precise performer's A.13 core and independent A.15.1 admission in 4.2. Add the application and its relation to Work only when independently established and used by the receiving claim; add F.6 only for precise assignment-bound attribution. |
+| `CC-E9DA-1` | Keep the exact DRR, required use and its source recoverable. For a judgment about authoring readiness, include the selected-locus map, qualification window, effective floor and its source. Method, A.6.1 application, and dated Work are independently conditional. Add each identity only when the receiving claim uses it. If dated `U.Work` is asserted, establish the enacted Method, every precise performer's A.13 core and independent A.15.1 admission in 4.2. Add the application and its relation to Work only when independently established and used by the receiving claim; add F.6 only for precise assignment-bound attribution. |
 | `CC-E9DA-2` | When a complete reusable coordinate evaluation is explicitly required, evaluate every coordinate with value, adjacent-value rationale, and evidence locus. Otherwise perform the focused content review requested and return its findings or repairs without creating unused coordinate records. |
 | `CC-E9DA-3` | Justify values from `DRR` decision content, accepted source-use payload, and the bounded omitted-question search, not administrative state, source reputation, official status, recency alone, or popularity. |
-| `CC-E9DA-4` | Derive the local status noncompensatorily from the required use, effective floor, coordinate values, and architecture or split blockers. Constitute an aggregate result episteme only when the requested reusable result or named later reliance requires it; keep any receiving status use or authority separate. |
+| `CC-E9DA-4` | When a local authoring-readiness status is requested, derive it noncompensatorily from the required use, effective floor, coordinate values, and architecture or split blockers. Constitute an aggregate result episteme only when the requested reusable result or named later reliance requires it; keep any receiving status use or authority separate. |
 | `CC-E9DA-5` | Keep the adequacy judgement distinct from the checked DRR, pattern quality, E.19 admission, review or release state, assurance, gate, project work, and later repair. In the reliance-bearing branch, also keep Method, assessment application, Work, witnesses, evidence use, result episteme, and optional record distinct. When assessment `U.Work` is admitted, keep every precise performer's A.13 core and the independent A.15.1 Work account in 4.2 distinct and recoverable; keep any current F.6 attribution as a separate later relation. |
 | `CC-E9DA-6` | Apply `F.19` to decision-governing wording introduced or repaired by the evaluation, including names, coordinates, status values, examples, stop conditions, and findings. Use `E.10` for cues and routes to an unresolved meaning's defining or constraining pattern. |
 | `CC-E9DA-6a` | Check the precision-restoration effect before accepting values: ordinary meaning and first action, word-use precision, phrase apparatus, repetition/distribution, ontic-slot clarity, description/publication/source separation, and pattern-use wording. Record a profile only when the requested reusable result or named reliance consumes it. |

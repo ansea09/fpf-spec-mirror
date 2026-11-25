@@ -6,12 +6,12 @@ section_id: "A.15.9:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__007_precision-restoration.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:6 — Precision restoration"
-line_start: 33822
-line_end: 33835
+line_start: 33829
+line_end: 33842
 dependencies:
   - "A.10"
   - "A.13"
@@ -34,7 +34,7 @@ keywords:
 | Source phrase | Recover before relying on it | Do not infer |
 | --- | --- | --- |
 | *professional result* or *specialist return* | The governed result kind, subject, conditions, supplier practice, and receiving use. | A new FPF result kind or universal profession ontology. |
-| *ask legal / safety / architecture / finance* | The smallest result question and the decision it can change. | A department, title, or field name already identifies the answer. |
+| *ask legal / safety / architecture / finance* | The question the supplying practice can settle at the scope the receiving decision needs. | A department, title, or field name already identifies the answer. |
 | *review* | The reusable Method, planned Work, dated review Work, communication, and returned result that are claimed. | Scheduling or delivery proves Work, acceptance, or adequacy. |
 | *approved* or *signed off* | The result plus any separately supported authority, permission, acceptance, or gate relation. | A word, signature image, or provider status transfers decision authority. |
 | *specialist* | The practitioner or other supplying System relevant to the result. If an Agent claim is needed, recover its A.13 local-kind classification and obtaining assignment. Add capability, access, conflict and authority only when consumed by the use. | Title, credential, organization, species, or tool label establishes those relations. |

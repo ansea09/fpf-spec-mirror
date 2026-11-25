@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 106968
-line_end: 107125
+line_start: 106983
+line_end: 107140
 dependencies:
   - "A.10"
   - "A.15"

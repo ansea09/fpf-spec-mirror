@@ -6,12 +6,12 @@ section_id: "E.23.CDI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:12 — Relations"
-line_start: 124095
-line_end: 124111
+line_start: 124112
+line_end: 124128
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -36,7 +36,7 @@ keywords:
 | `A.19`, `C.2.1`, `A.10`, `B.3` | Govern comparison of declared measures, capability statements, and the evidence, ordinary reliance, or assurance relations that support their use. These epistemes and relations are not the holder's actual ability, an actual Transformation, or a causal Work-to-change claim. |
 | `E.22` | Frames the capability or transfer evaluation when that question needs an explicit evaluation use. |
 | `E.23` | Supplies the general improvement boundary and routes here when capability development for named Work is the live question. |
-| `E.23.CAE` | Supplies an observation-qualified differential and candidate routes when apparent loss or failed transfer remains ambiguous. Capability development enters this pattern only after a separate applicable steering or choice result selects it. |
+| `E.23.CAE` | Supplies an observation-qualified differential and candidate routes when apparent loss or failed transfer remains ambiguous. Use the finding here when an applicable instruction already selects capability development for that condition or a participant with authority now chooses it. The finding establishes the observed condition. |
 | `C.32.MWA` | Supplies a practice-architecture result only when the target-practice Method architecture must first be recovered or compared. |
 | `C.36` | Governs distributed cultural generation, transmission, recognition, selection, retention, and loss; use `A.2.2` for a capability claim about an independently admitted population holder System. |
 | `E.13` | Tests proxy-to-value alignment when attendance, scores, credentials, or another visible measure begins to replace the intended capability and transfer result. |

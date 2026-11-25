@@ -6,12 +6,12 @@ section_id: "C.38:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:1 — Problem frame"
-line_start: 87142
-line_end: 87166
+line_start: 87152
+line_end: 87176
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -37,7 +37,7 @@ keywords:
 
 **Reader.** The practitioner preparing decision-ready alternatives for one receiver. The pattern forms candidates; it neither chooses for the receiver nor realizes a retained way.
 
-**First useful result.** A comparison establishes what the proposed ways can supply against the same receiving terms, which differences are material, and which premises remain open. Two labels can describe the same way. If only one or none of the named ways meets the terms, that finding can complete their appraisal. An order to construct additional ways stays open until supplied or their impossibility within the permitted range is established. If a choice is due under `C.11`, pass the resulting `OptionSet` to its chooser. A `ChoiceResult` identifies what that chooser decided. For a retained way, name any first unsupported realization branch; if none remains, use the direct realization Method.
+**First useful result.** A comparison establishes what the proposed ways can supply on the same receiving terms, which differences matter and which premises remain open. Two labels can describe the same way. A finding that one or none of the named ways meets the terms can finish their appraisal. An order to construct additional ways remains open until they are supplied or their impossibility within the permitted range is established. Where `C.11` applies, use the resulting `OptionSet` to derive a supported disposition. Its `ChoiceResult` may be advice to the chooser. To report an effective decision, establish the act or delegated procedure that gave it effect. Where realization is due, return the retained way to the direct realization Method. Identify the first unsupported branch if it prevents the work.
 
 **What changes in practice.** Instead of comparing *buy* against *AI* or *internal* as if the labels were peer kinds, the practitioner asks how each whole way could make the same accepted result available. Duplicate labels merge, materially different ways under one label split, and omitted integration, evidence, support, capability, custody, resource, consequence, and exit burdens become visible before commitment.
 

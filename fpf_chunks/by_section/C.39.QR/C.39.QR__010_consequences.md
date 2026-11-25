@@ -6,12 +6,12 @@ section_id: "C.39.QR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__010_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:9 — Consequences"
-line_start: 87886
-line_end: 87891
+line_start: 87896
+line_end: 87901
 dependencies:
   - "C.11.DUA"
   - "C.39"

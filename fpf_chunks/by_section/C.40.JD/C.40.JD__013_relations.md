@@ -6,12 +6,12 @@ section_id: "C.40.JD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:12 — Relations"
-line_start: 93993
-line_end: 93996
+line_start: 94003
+line_end: 94006
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

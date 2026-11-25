@@ -6,12 +6,12 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 16255
-line_end: 16382
+line_start: 16257
+line_end: 16384
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,7 +58,7 @@ keywords:
 
 #### A.6.C:5.1 — Tell
 
-When boundary contract-language leaves a consequential ambiguity, recover the claim and referent, then answer only the live questions below. Keep ordinary metonymy when its capable participant and relation are locally recoverable; a literal act or individual commitment needs that participant and the governing conditions.
+When boundary contract-language leaves a consequential ambiguity, recover the claim and referent, then answer only the live questions below. Keep ordinary metonymy when its participant and relation are clear. When attributing a dated act, establish who performed it at the scale claimed. A supported outcome may already settle a question about fulfilment. For an individual duty, identify its bearer and what put it in force. Investigate the bearer’s ability, access and available help when the question concerns fulfilment or the governing rule makes them a condition.
 
 1. **What was promised?** State the promise-content claim if one exists.
 2. **What was said, published, or instituted?** Identify only the asserted speech act, description/publication objects and institutional effects, under the conditions in §4.1.
@@ -102,7 +102,7 @@ For the extended case below, assume the `PaymentsAPI` description/publication, d
 
 **Source requirements and additional illustrative premises:**
 
-The draft leaves open whether “Devices must not exceed 20V” is a device-behavior constraint or an obligation on a capable bearer, and it does not identify the safe-operation predicate. Preserve the 20V upper bound and the requirement that negotiation succeed before power is applied. The additional gate and test below do not resolve the bearer or safety choices.
+The draft leaves open whether “Devices must not exceed 20V” is a device-behavior constraint or an obligation on a bearer covered by the governing rule, and it does not identify the safe-operation predicate. Preserve the 20V upper bound and the requirement that negotiation succeed before power is applied. The additional gate and test below do not resolve the bearer or safety choices.
 
 * **Description/publication — additional case premise:** assume a published interface spec supplying the pinout, electrical ranges, handshake procedure, and the test declaration used below.
 * **L:** electrical invariants and allowable ranges are definitions and invariants (truth-conditional).

@@ -6,12 +6,12 @@ section_id: "A.15.8:12"
 section_title: "Didactic quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__013_didactic-quick-card.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:12 — Didactic quick card"
-line_start: 33314
-line_end: 33322
+line_start: 33321
+line_end: 33329
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,8 +41,8 @@ keywords:
 
 ### A.15.8:12 - Didactic quick card
 
-- **Which branch?** Actual dated Work, or a present WorkPlan with intended performance only as plan content.
-- **Who performs?** Independently identified actual performer Systems; add assignment-bound attribution only when needed. Keep intended performers within plan content.
+- **What is the commission?** Design for a service and its allowed disruptions, assess actual dated Work, or assess the intended performance described by a present WorkPlan.
+- **Who can do the work?** In a design, choose how to provide the contributions the service needs. For a particular plan, identify its intended performers. For actual Work, establish the performers and any assignment-bound attribution on which the conclusion depends.
 - **What supports?** Separately identified Systems and values through relations.
 - **What must survive?** The minimum state and the bearer, carrier, update/use, currentness and return conditions needed for continuation.
 - **What would settle the recovery question?** Derive the allowed individual and combined changes from the service required. Use applicable rules, records or a trial to establish its limits. Carry out any separately ordered trial and identify a distinct dated probe Work under A.13 and A.15.1 when the occurrence is claimed.

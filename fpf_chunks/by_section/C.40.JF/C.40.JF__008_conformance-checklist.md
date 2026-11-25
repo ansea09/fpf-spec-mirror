@@ -6,12 +6,12 @@ section_id: "C.40.JF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:7 — Conformance Checklist"
-line_start: 92925
-line_end: 92937
+line_start: 92935
+line_end: 92947
 dependencies:
   - "A.10"
   - "A.15.9"

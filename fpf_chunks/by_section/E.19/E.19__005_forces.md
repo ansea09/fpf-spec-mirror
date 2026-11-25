@@ -6,12 +6,12 @@ section_id: "E.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__005_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:3 — Forces"
-line_start: 120917
-line_end: 120927
+line_start: 120934
+line_end: 120944
 dependencies:
   - "A.15.1"
   - "A.6.1"

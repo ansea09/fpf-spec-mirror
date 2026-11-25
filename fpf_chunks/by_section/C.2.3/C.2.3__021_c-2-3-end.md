@@ -6,12 +6,12 @@ section_id: "C.2.3:End"
 section_title: "C.2.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__021_c-2-3-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:End — C.2.3:End"
-line_start: 56011
-line_end: 56012
+line_start: 56020
+line_end: 56021
 dependencies:
   - "A.16"
   - "A.18"

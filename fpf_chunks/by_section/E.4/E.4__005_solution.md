@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:4 — Solution"
-line_start: 98639
-line_end: 98885
+line_start: 98647
+line_end: 98893
 dependencies:
   - "C.20"
   - "C.33"
@@ -108,7 +108,7 @@ A domain or local framework identifies the Core content and edition on which it 
 | --- | --- | --- |
 | Conceptual Core | Core FPF distinctions, rules, and patterns that other FPF-grounded frameworks depend on. | `E.4`, `E.5.3`, and the subject patterns containing the defining ClaimGraphs |
 | Tooling Reference | Optional tools, schemas, scripts, machine checks, or helper publications that inspect or support FPF use. | Use `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability, and relevant tool patterns for their declared tool functions; use `G.5` only for a selector-facing selected-tool-set result declaration. |
-| Pedagogical Companion | Tutorials, playbooks, worked examples, and learning material that teach FPF without changing Core meaning. | `E.17`, didactic patterns |
+| Pedagogical Companion | Tutorials, playbooks and other learning material that teach FPF. The companion selects what to explain, demonstrate or leave for the learner to do. Core remains the source for the meaning it teaches. | `E.8:4.2.1.1` and `E.8:4.2.1.3` for teaching, `E.17` for a publication face |
 | Foundational principle pattern set | Foundational threshold material or principle patterns that may support FPF-grounded use but need settled names and dependency boundaries. | `F.18`, `E.4.PFR` |
 | First Principles Framework edition | The scoped FPF framework edition as a transdisciplinary first-principles framework with Core pattern set, publication and access-facing presentation carriers, access routes, relation records, and whole-FPF adequacy route. | `E.4.FPF`, `E.2.DA`, `E.4.PFR`, `E.11`, `E.17`, `G.11` |
 | FPF Core pattern set | The selected Core subject patterns in a named FPF edition. Framework dependencies identify that FPF edition and the relied-on Core claims. | `E.4.FPF:4`, `E.4.PFR:3.4`, `E.5.3`, and the cited Core subject-pattern claims |
@@ -284,7 +284,7 @@ Use this routing table when a proposed change is ambiguous. Its rows are common 
 | A registry, guide, evidence package, service, programme, or other result has an independently useful identity or state, users and use, content rule, access, or later-review and retirement rule. | Name its direct subject and the relevant relation, keep it as a separate product, and point to the edition or current state being used; any embedded snapshot returns to that source. State maintenance only when it separately obtains. | Keep direct subjects separate under shared use, co-location, or one outer carrier; an unresolved kind remains a proposed product and an open question. |
 | One carrier exposes several managed products. | Keep the outer carrier neutral and retain each subject's form, identity, access, change rule, and any separately established maintenance relation. Use `E.11.PFP` only for FPF, DPF, or LPF constituents. | The neutral carrier exposes those subjects; framework-family fields apply only to framework constituents. |
 | Several fields appear to form one larger discipline. | Use `C.20` and `E.4:4.2` to distinguish constituent subdisciplines from specialization, external use and publication grouping. Use `E.4.PFAD` to decide the framework architecture and `E.4.DPF` to develop the composite pattern language. | A Suite describes the established disciplinary composition. Its edition assembles constituent DPF descriptions; a Reference supports use, and neither a folder nor an inclusion decision establishes disciplinary parthood. |
-| Existing material is hard to find, teach, or publish. | Use `E.11` for discovery, the relevant didactic pattern for teaching, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Use `G.5` only when the missing value is a selected-set result declaration. | Treat findability, teaching, and publication as their repair questions; architecture repair requires an architecture claim. |
+| Existing material is hard to find, teach, or publish. | Use `E.11` for discovery, `E.8:4.2.1.1` to recover the subject method and design the instruction, `E.8:4.2.1.3` to choose the work an example does for the learner, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Use `G.5` only when the missing value is a selected-set result declaration. | Treat findability, teaching, and publication as their repair questions; architecture repair requires an architecture claim. |
 | A cross-reference claims use, specialization, dependency, publication, source reuse, preservation, quality, deprecation, or supersession. | State the relation function and edition effect; open `E.4.PFR` only for its named maintenance consumer. | The link label remains a locator; the predicate states the relation meaning. |
 | A framework split, dependency boundary, presentation-carrier or access-route choice, or adoption consequence must be decided. | Record one selected answer in an `E.9` DRR, using `E.4.PFAD` for its framework-specific content. Use `C.32.PAD` only when the decision is a project architecture decision and `C.32.ADR` only to project such a decision into an ADR-like publication. | The DRR carries the selected answer; diagrams, folders, manifests, PFAD relations, and project-specific projections may expose only what each of them directly states or shows. |
 | A source, search result, transformed view, or generated carrier supplies candidate material. | `G.2`, `C.33`, `C.34`, or `C.35` before architecture use. | Use the admitted source or preservation claim as authority for the declared contribution. |

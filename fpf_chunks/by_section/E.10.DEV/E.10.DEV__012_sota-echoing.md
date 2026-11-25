@@ -6,12 +6,12 @@ section_id: "E.10.DEV:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__012_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:11 — SoTA Echoing"
-line_start: 107925
-line_end: 107946
+line_start: 107940
+line_end: 107961
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -52,7 +52,7 @@ keywords:
 | `A.3.4.P` | Recover the object or claim hidden by change wording. |
 | `E.10.LRN` | Recover meaning still hidden by learning-related wording. |
 | `C.36.P` | Recover cultural-evolution wording that remains unclear. |
-| E.23.CAE, when the capability branch needs a differential | Use its qualified capability-access/expression differential result: controlled observations, dispositions, surviving rivals and limits. Development Work requires a separate applicable steering or choice result. |
+| E.23.CAE, when the capability branch needs a differential | Use its qualified capability-access/expression differential result: controlled observations, dispositions, surviving rivals and limits. An existing instruction may already call for development under the observed condition. If the choice remains open, use the finding in the authorized decision about what to do next. |
 
 Reopen only the affected route when its supplying pattern changes the entry, result or boundary used here.
 

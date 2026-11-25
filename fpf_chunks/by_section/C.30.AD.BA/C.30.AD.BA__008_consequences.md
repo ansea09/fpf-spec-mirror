@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__008_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:5 — Consequences"
-line_start: 76305
-line_end: 76310
+line_start: 76315
+line_end: 76320
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-007"
 section_title: "<FrameworkCode>.Reference:<n>.<m> - <Title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__008_frameworkcode-reference-n-m-title.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-007 — <FrameworkCode>.Reference:<n>.<m> - <Title>"
-line_start: 111798
-line_end: 111848
+line_start: 111813
+line_end: 111863
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -81,5 +81,5 @@ Treat a compact order as a teaching unfolding of the connected reasoning. Explai
 
 Check what the reader can reconstruct from the publication. Can the reader explain the needed grounds, recognize locally plausible but jointly incompatible answers, and determine which answers a consequential change reopens? Use materially different circumstances when they expose a hidden restriction.
 
-These are questions about recoverable explanation and application; fluent recitation, one completed example and a mnemonic advantage do not answer them. Conversely, a source-grounded explanation can be useful without a measured recall advantage. Claims of improved learning, memory or field performance require their own evidence.
+A worked example can answer these questions when its reasoning covers the choices and conditions promised to the reader. If it shows what happened on one occasion, identify what the reader would still need in order to use the method elsewhere. For a mnemonic, recalling the sequence with the stated cues supports a claim about recall under those conditions. Reading a displayed sequence supplies different evidence. Claims about improved learning, memory or field performance require evidence of the particular gain.
 

@@ -6,12 +6,12 @@ section_id: "F.15:15.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__021_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:15.2 — Rationale"
-line_start: 132878
-line_end: 132881
+line_start: 132895
+line_end: 132898
 dependencies:
   - "A.1.1"
   - "A.10"

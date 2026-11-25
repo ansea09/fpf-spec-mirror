@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_bridge-kinds.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:6 — Bridge kinds"
-line_start: 130223
-line_end: 130245
+line_start: 130240
+line_end: 130262
 dependencies:
   - "A.10"
   - "A.13"

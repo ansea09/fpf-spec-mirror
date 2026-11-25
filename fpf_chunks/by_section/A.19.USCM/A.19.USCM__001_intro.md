@@ -6,12 +6,12 @@ section_id: "A.19.USCM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:intro — Intro"
-line_start: 39816
-line_end: 39825
+line_start: 39823
+line_end: 39832
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

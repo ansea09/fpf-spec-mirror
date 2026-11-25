@@ -6,12 +6,12 @@ section_id: "E.2.DA:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__009_common-anti-patterns-and-repairs.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:8 — Common anti-patterns and repairs"
-line_start: 98360
-line_end: 98372
+line_start: 98368
+line_end: 98380
 dependencies:
   - "A.19.ECS"
   - "E.10"

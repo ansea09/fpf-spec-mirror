@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution - State the direct relation, then add only what the receiving use needs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-state-the-direct-relation-then-add-only-what-the-receiving-use-needs.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:4 — Solution - State the direct relation, then add only what the receiving use needs"
-line_start: 24737
-line_end: 24909
+line_start: 24743
+line_end: 24916
 dependencies:
   - "A.10"
   - "A.14"
@@ -206,7 +206,8 @@ If the sentence is not basedness, use the matching ontology:
 | a claim is acceptable for material reliance | A.10 for the bounded-reliance basis; B.3 only for a separately identified assurance claim, with the evidence-use relations kept separate |
 | a causal, intervention, counterfactual, or simulation-only use is admissible | C.28 |
 | a mathematical lens exposes preserved or lost structure | C.29 for that lens; C.26 only for its quantum-like/contextual-model case; F.9 only for a separately obtaining correspondence between local sense cells; the direct mathematical pattern for the mathematical object or rule |
-| one thing helps or enables work | the work, resource, capability, or action relation, or ordinary Plain help |
+| a condition enables work | identify the condition and the action it makes possible |
+| a participant offers or provides help | say whose intended result the offer or contribution serves, what the participant proposes or provides, and what remains with the recipient if they have a choice or work to do. Ordinary wording can convey the whole relation. |
 | a file, section, packet, or companion helps a reader | E.17, E.11, or ordinary orientation |
 | a source, model, diagram, or view describes something | A.7, C.2.1, E.17, and the direct describing or source-use relation |
 

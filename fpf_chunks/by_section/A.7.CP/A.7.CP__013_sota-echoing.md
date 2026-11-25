@@ -6,12 +6,12 @@ section_id: "A.7.CP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__013_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:11 — SoTA-Echoing"
-line_start: 27486
-line_end: 27495
+line_start: 27493
+line_end: 27502
 dependencies:
   - "A.7"
   - "A.7.1"

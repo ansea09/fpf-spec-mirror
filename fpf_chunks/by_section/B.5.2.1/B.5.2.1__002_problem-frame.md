@@ -6,12 +6,12 @@ section_id: "B.5.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:1 — Problem Frame"
-line_start: 52569
-line_end: 52575
+line_start: 52578
+line_end: 52584
 dependencies:
   - "A.17"
   - "A.18"
@@ -29,7 +29,7 @@ keywords:
 ### B.5.2.1:1 - **Problem Frame**
 * **Conceptual binding:** **B.5.2 Abductive Loop** (this pattern specifies the *how* for Steps 2–3).
 * **Characteristics and records:** use **Creativity‑CHR** under **C.17** for the Characteristics in §3, **C.18** for generation/archive/front records and **C.19 E/E-LOG** for EmitterPolicy.
-* **Reading the result (informative).** For an existing front, recover the characteristics actually measured, how they were measured and which ones governed admission and dominance. When designing an exploration, choose the measures of quality, novelty and diversity needed for its intended use. Identify which generated candidates were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or the commission.
+* **Reading the result (informative).** For an existing front, recover the characteristics actually measured, how they were measured and which ones governed admission and dominance. When designing an exploration, choose the measures of quality, novelty and diversity needed for its intended use. Give the search executor the distinctions, operators and conditions needed to generate and assess candidates. For a commissioned run, identify the generated candidates that were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or commission.
 * **Further work:** generated hypotheses may contribute to **B.4 Canonical Evolution Loop** when adaptation is needed. **B.5 Canonical Reasoning Cycle** selects the reasoning contribution needed by the question.
 * **Who decides.** Attribute each choice to its `DecisionSubject` at the `DecisionSubjectGranularity` that applies. A committee or service may make one choice under its decision rule. If the outcome requires several independent decisions, establish who holds each and how they combine. A chooser may select a combination of candidates or actions when the options and their joint constraints permit it. The **Context** supplies the measurement spaces and admissible policies that frame the comparison.
 

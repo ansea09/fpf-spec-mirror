@@ -6,12 +6,12 @@ section_id: "E.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:0 — Use this when"
-line_start: 104743
-line_end: 104777
+line_start: 104758
+line_end: 104792
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 - Four components keep the Problem frame, Decision, Rationale, and Consequences available for later review and replay.
 - For a distributed change, the record holds the selected answer while authors draft the enduring Core text at the selected loci.
 
-**First useful move.** State the working FPF problem, selected answer, practical change, selected loci, first substantive drafting action, and nearest boundary in plain, precise language before drafting or landing Core text.
+**First useful move.** Identify the working FPF problem, who needs the result, and what is still open. When someone needs a comparison before deciding, use §4.2 to show the feasible alternatives and their different consequences. When the record is to guide drafting from an adopted decision, state the selected answer, practical change, loci, first substantive drafting action and nearest boundary.
 
 **Cheap stop.** If local wording repair, application of an accepted pattern, or editorial cleanup preserves FPF semantics, obligations, boundaries, names, admissible uses, and normative force, it needs no full DRR.
 

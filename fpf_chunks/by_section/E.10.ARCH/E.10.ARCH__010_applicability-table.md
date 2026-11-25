@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:4"
 section_title: "Applicability table"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__010_applicability-table.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:4 — Applicability table"
-line_start: 108549
-line_end: 108577
+line_start: 108564
+line_end: 108592
 dependencies:
   - "A.10"
   - "A.15.1"

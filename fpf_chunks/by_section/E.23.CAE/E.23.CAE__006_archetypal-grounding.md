@@ -6,12 +6,12 @@ section_id: "E.23.CAE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:5 — Archetypal Grounding"
-line_start: 124281
-line_end: 124312
+line_start: 124298
+line_end: 124329
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -34,7 +34,7 @@ keywords:
 
 If a structural comparison makes the principle recognizable and the practitioner can then adapt it, the observations show reference availability and successful prompted use. They support applicability-selection failure under the uncued condition only if the comparison made an already available relation recognizable without supplying missing guidance. If new guidance remains a possible explanation, retain that rival and leave the stronger distinction unresolved. Neither observation proves one universal retrieval mechanism or complete workplace capability.
 
-Human Capability Development or a direct domain Method can receive the result only after a separate next-action decision.
+When an existing instruction selects the follow-up, use the result under the conditions of that instruction. If a consequential choice between changed support, further learning and another response remains open, take it to the person or body entitled to decide.
 
 The case keeps the first probe small while retaining the distinction between prompted use and the stronger applicability diagnosis.
 

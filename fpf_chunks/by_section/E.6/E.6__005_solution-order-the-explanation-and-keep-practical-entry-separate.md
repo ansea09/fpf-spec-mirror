@@ -6,12 +6,12 @@ section_id: "E.6:4"
 section_title: "Solution — Order the explanation and keep practical entry separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-order-the-explanation-and-keep-practical-entry-separate.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:4 — Solution — Order the explanation and keep practical entry separate"
-line_start: 103058
-line_end: 103082
+line_start: 103066
+line_end: 103090
 dependencies:
   - "E.2"
 keywords:
@@ -29,7 +29,7 @@ Choose the opening from the reader’s question. What are they trying to underst
 
 Keep the main explanatory sequence recoverable:
 
-1. **Readme and Architectural Reference.** The Readme helps a reader find a first useful result. The Architectural Reference explains the connected language and its rationale. Its introductory System and Episteme stories build intuition before the kernel exposition.
+1. **Readme and Architectural Reference.** The Readme helps the reader find a first useful result. The Architectural Reference shows how to connect contributions when the reader needs a conclusion about a whole arrangement. In FPF.Reference:16.1, a promising result for one review activity leads to a question about the feasibility of the complete review.
 2. **Part A — Kernel Architecture.** Introduce the holonic ontology and acting-side externalization in A.12.
 3. **Part B — Trans-disciplinary Reasoning.** Explain the reasoning moves and their grounds for the kinds of things each question concerns. Use E.7 to show how the reasoning applies.
 4. **Part C — Kernel Extension Specifications.** Develop the calculi and extension patterns whose questions use those foundations.

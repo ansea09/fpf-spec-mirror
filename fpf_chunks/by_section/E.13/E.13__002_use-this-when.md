@@ -6,12 +6,12 @@ section_id: "E.13:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:0 — Use This When"
-line_start: 112487
-line_end: 112512
+line_start: 112502
+line_end: 112527
 dependencies:
   - "A.10"
   - "A.21"

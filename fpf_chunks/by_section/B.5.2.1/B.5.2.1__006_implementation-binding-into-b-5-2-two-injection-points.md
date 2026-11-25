@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5"
 section_title: "Implementation & Binding into B.5.2 (two injection points)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__006_implementation-binding-into-b-5-2-two-injection-points.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:5 — Implementation & Binding into B.5.2 (two injection points)"
-line_start: 52626
-line_end: 52657
+line_start: 52635
+line_end: 52666
 dependencies:
   - "A.17"
   - "A.18"

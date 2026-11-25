@@ -6,12 +6,12 @@ section_id: "C.39.GA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:1 — Problem frame"
-line_start: 88235
-line_end: 88238
+line_start: 88245
+line_end: 88248
 dependencies:
   - "C.39.RO"
   - "C.39.SA"

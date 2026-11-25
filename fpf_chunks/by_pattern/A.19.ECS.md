@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ECS.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
-line_start: 36626
-line_end: 36904
+line_start: 36633
+line_end: 36911
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -132,7 +132,7 @@ Use these moves when constructing or repairing an evaluation. They are not a man
 2. **Build the discriminating cases.** Show how the evaluation distinguishes a passing object, a below-floor object and an input outside the admitted kind when those cases are possible. If membership or the operating conditions entail one outcome for the whole admitted domain, show why. Identify an empty domain separately. An excluded input calls for evaluation selection or, when already submitted, the declared kind-fit result.
 3. **Choose candidate characteristics.** Draw candidates from the object kind's failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and FPF neighbouring patterns named by value.
 4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or a content evaluation. Keep the property value, object-kind fit, and missing observation distinct. An observed absence of required support can justify a low value; an unperformed check cannot establish that absence. A local diagnostic code such as `0` may represent missing basis only when declared as a code, without the arithmetic or comparison rights of a measured zero. Preserve supported values while leaving dependent conclusions open.
-5. **Remove false coordinates.** Drop coordinates that do not change admissible action, do not discriminate the evaluated object, duplicate another coordinate without a different repair action, or belong to another evaluation.
+5. **Retain what the evaluation must establish.** For each proposed coordinate ask what distinction, conclusion, explanation or separately required report would be lost if it were removed. Drop a duplicate when the remaining account supports every such use. When a property follows from the kind or operating conditions, a general argument may establish its value throughout the admitted range. Preserve that value and its grounds wherever the recipient needs them.
 6. **Split compound coordinates.** If a coordinate mixes two repair actions, two object kinds, or two incompatible scales, split it or assign one part to the neighboring pattern that governs that claim.
 7. **State preferred movement and trade-offs.** For each declared coordinate, state the preferred direction or explain why no simple direction exists. Name the protected trade-offs that must be checked when the coordinate improves.
 8. **Define result form, evidence basis, and calibration.** State the required result content, evidence basis, Scale-appropriate rationale rule, calibration cases for common disagreements, and any coordinate-specific payload needed for high or floor-reaching values.

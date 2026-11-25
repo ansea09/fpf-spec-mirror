@@ -6,12 +6,12 @@ section_id: "A.15.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:4 — Solution"
-line_start: 33747
-line_end: 33793
+line_start: 33754
+line_end: 33800
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,12 +31,12 @@ keywords:
 
 ### A.15.9:4 - Solution
 
-Begin with one receiving decision or piece of Work and one result that could change its next action. Inspect an available result before commissioning anything new. Return what it supports now, including a stop where required. For an outstanding obligation or a further contribution worth obtaining, bound the request, identify who may determine the result and who may act on it, then use the return within those powers.
+Begin with the result the recipient is owed or the decision the outside contribution would support. An independent judgement may itself be the deliverable. Where several contributions are needed together, establish what makes them jointly sufficient under the receiving rule. Determine what the available grounds already settle, then obtain the outstanding commissioned work or the further contribution worth its cost. Identify who may give each judgement and what decision the recipient can make with it.
 
 #### A.15.9:4.1 - Follow the nine-step bounded-result sequence
 
-1. **Name the receiving decision or Work.** State who will use the result, what action can change, and the consequence of delay or error. Do not begin with a department, profession, meeting, or document.
-2. **Inspect an already-available result first.** Identify the result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance needed. Use the result where adequate and retain the limit that matters.
+1. **Name the receiving decision or Work.** Who needs the result, for which action, explanation or commissioned assessment, and by when? If its use depends on another contribution, identify the condition they must satisfy together.
+2. **Establish who can use the available result and when.** Establish what must be independent and which material the assessor may use. For a blind or unprompted judgement, withhold the earlier conclusion until the assessor has made their own. An assessor may also know that conclusion and be commissioned to reach a judgement on their own grounds. When the task is to examine the first assessor’s reasoning, supply the argument itself. Identify the result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance needed. Use the result where adequate and retain the limit that matters.
 
    Check whether the result applies to this claim and configuration. A narrower result can settle the use when the receiving decision only needs that result. If the requested answer could still differ, state what remains unresolved. If the order also requires a new performance, delivery or signed decision, an existing answer may supply a premise. Complete the outstanding work under the agreement.
 3. **Determine what must be obtained.** For a new contribution owed under the agreement, identify the required work, performer, independence and timing as applicable. When a further inquiry is discretionary, use `C.11.DUA` to compare an obtainable calculation, interpretation, limit, objection, observation, decision, or other contribution with the present answer, narrower action, alternative, deferral, or stop. Include formulation, qualification, delivery, supplier Work, interpretation and use, delay, displaced work, and downside within the receiving horizon.

@@ -6,12 +6,12 @@ section_id: "E.11.PUR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:1 — Problem frame"
-line_start: 111079
-line_end: 111096
+line_start: 111094
+line_end: 111111
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,7 @@ keywords:
 
 #### E.11.PUR:1.1 - Use this when
 
-Use `E.11.PUR` after one or more candidate pattern uses have been inspected and an agent needs to decide whether each use fits, which use to recommend, how several uses should be coordinated, or whether an earlier result already answers the current concern.
+Use `E.11.PUR` after inspecting candidate pattern uses when you need to judge their fit, recommend a way to obtain a result, coordinate their contributions or decide whether an earlier result already answers the question.
 
 The candidates may remain conversational in ordinary bounded use; addressable `CandidatePatternUse@Context` values are required only when a named later reliance needs them.
 

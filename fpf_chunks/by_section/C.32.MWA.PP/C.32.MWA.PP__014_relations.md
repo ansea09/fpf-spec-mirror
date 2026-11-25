@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__014_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:12 — Relations"
-line_start: 83872
-line_end: 83901
+line_start: 83882
+line_end: 83911
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -28,7 +28,7 @@ The Core contributions below support the general construction. The domain entrie
 | Related contribution | General construction or separate subject use |
 | --- | --- |
 | A.3.1.QM | Supplies individually qualified Methods/accounts and whole-independent local connections, not whole compatibility. Preserve their statuses. |
-| B.1.5 and B.1.5.CM | Establish Method composition or resolve a proposed whole. Co-use can remain plural; a relation-only clarification can finish without B.1.5.CM or a C.32.MWA.PP comparison. |
+| A.3.1, B.1.5.CM and B.1.5 | A.3.1 supplies the grounds for identifying a reusable Method. B.1.5.CM constructs a prospective account of a composite Method from the required result or condition. B.1.5 tests whether identified Methods constitute the identified whole. Establishing a single result-use or support relation can finish an inquiry about that relation. |
 | C.32.MWA, *Synthesize an Architecture Account of Methods and Their Use*, :4.1–4.4 | Provides actual/prospective entry, separation of structures, comparison of changed arrangements and moved burden. C.32.MWA.PP supplies the Method-arrangement question, including performance and support, and returns the architecture consequence to the decider. |
 | C.30.ASV, *Architecture Structural View Adequacy*, :4.5a | Distinguishes composition, result use, order, variation, replacement and separate performance/support structures. Use it when “method architecture” hides the relation being changed. |
 | E.18 and E.18.NET; C.30.TFS-REL:4.4–4.4a | Supply a qualified transformation-flow structure or network and its bounded architecture use. Retain member-local identities and relations; a network is neither the performer nor an automatic containing organization. |

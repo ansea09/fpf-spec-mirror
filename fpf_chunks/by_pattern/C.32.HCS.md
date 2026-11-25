@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.HCS.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
-line_start: 81611
-line_end: 81822
+line_start: 81621
+line_end: 81832
 dependencies:
   - "A.19"
   - "C.11"
@@ -179,7 +179,7 @@ Before ACS criteria-row use, ask whether improving a visible catalogue, benchmar
 
 **Method and Work.** A reusable review Method connects source recovery, comparison, judgement and correction. Evidence reuse and change reach are plausible starter heads because changing how a dependent claim is found can alter both missed defects and repeated reading. A completed review has a separate Work question: were the required comparisons performed, and what delay or rework occurred? Improving the next Method version cannot retroactively change that Work. If the issue is reviewer staffing, select the performing organization and its contributions instead. Local system-role-kind substitution uses A.2.7; assignment continuity and Work coverage retain their own bearers.
 
-**Same bearer, different domain.** An instructional Method also has parts, order and feedback, but its receiving result concerns what a learner can do under specified support. Removing corrective feedback may simplify the description while weakening the Method. Carry the learner result and help conditions into ACS; do not reuse software throughput or readability as if either measured learning. Teachability is composite and uses C.25.
+**Same bearer, different domain.** An instructional Method also has parts, order and feedback, but its receiving result concerns what a learner can do under specified support. Removing corrective feedback may simplify the description while weakening the Method. Carry the learner result and help conditions into ACS; do not reuse software throughput or readability as if either measured learning. With the task, preparation and permitted help fixed, time to the first correct unprompted performance can answer a question about that time. A broader judgement of teachability can also depend on the instructor’s effort and on what the learner can still do later. Use C.25 to keep those contributions distinct.
 
 For example, a correct architecture diagram may reproduce the solution included in an exercise. To assess the learner’s design work, recover the decisions the task left open, the help available, what the learner actually designed and the grounds they supplied. A learner who set and justified a timeout can receive credit for that choice. Credit for the complete design also requires the structural decisions the assignment placed with its designer. Earlier project work can already provide that evidence. If the purpose is to apply an approved design, supplying it is appropriate.
 
@@ -209,7 +209,7 @@ Use C.32.HCS only to build architecture-bearing family starter packs. For work b
 | `CatalogueAsStarterPack` | Hundreds of terms are copied into the project. | Choose the architecture-bearing family and keep only first heads that can change the next narrowing into project criteria rows. |
 | `SoftwarePackOverfit` | Code-module terms are used for a method, role, practice, culture, or tradition without resolving the source label and rebinding bearer and scale. | Recover the described holon or the source-bearing episteme or publication context for a description-side family; name any recovery pattern used, then rebind bearer and scale or demote the head to source catalogue wording. |
 | `FunctionalHeadAsArchitectureHead` | A domain function is used as the starter architecture characteristic. | Keep the function as functional demand; name the architecture characteristic that makes it sustainable. |
-| `QBundleHeadAsScalar` | Maintainability, trustworthiness, or teachability is treated as one scalar without a composition rule. | Use C.25 to recover the composite quality and its components before treating the head as one scalar; carry the unresolved boundary as a question to ACS. |
+| `QBundleHeadAsScalar` | Maintainability, trustworthiness, or teachability is treated as one scalar without a composition rule. | If one specified measure answers the question, state its meaning and conditions. For a wider quality, use C.25 to recover its components and the grounds for any combination. Pass an unresolved boundary to ACS. |
 | `CatalogueCueAsStarterHead` | Catalogue maturity, benchmark performance, or dashboard cleanliness is used to admit a starter head without a recoverable architecture concern, likely bearer or first ACS question. | Recover the architecture concern and likely bearer. Carry a plausible head with its first ACS question, including an unresolved scale or composite boundary; keep decorative vocabulary as source wording. |
 
 ### C.32.HCS:9 - Consequences

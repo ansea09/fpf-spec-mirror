@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:5"
 section_title: "Worked Build and Test Replays"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__007_worked-build-and-test-replays.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:5 — Worked Build and Test Replays"
-line_start: 33466
-line_end: 33614
+line_start: 33473
+line_end: 33621
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -56,7 +56,7 @@ Extend the constructed calibration setting with a different task: prepare a plan
 
 Assume the following domain facts are supplied with the admitted v4 description: the planner may select an approved fixture whose working interval contains the sensor's required interval, but must retain the prescribed test points, acceptance rule, and unknown-serial stop. The current fixture register already establishes approval and intervals; matching numbers alone would not establish approval. The user's assignment, permission and required preparation are also assumed independently established for this bounded planning task.
 
-The input is sensor B-17 with a required interval of 0–10 V, description v4, and two current approved fixture entries: F10 covers 0–10 V and F5 covers 0–5 V. The output criterion is a plan naming B-17, the v4 edition and a covering fixture, with the unchanged test points, acceptance rule and serial-class stop. Unknown sensor class, absent approval, incompatible units, or an interval not covered by any available fixture must return the missing premise before a plan is released for use. This does not authorize actual calibration.
+The input is sensor B-17 with a required interval of 0–10 V, description v4 and two currently approved fixtures in the register. F10 covers 0–10 V and F5 covers 0–5 V. A valid plan names B-17, the v4 edition and a fixture whose approved interval covers the requirement. It retains the prescribed test points, acceptance rule and serial-class stop. If the sensor class, approval or interval cannot be established, identify what prevents a decision. When the register is complete and current, its entries can show that no permitted fixture covers the required interval in compatible units. Then the planner can report that the available fixtures do not permit a plan under v4. The planning result carries no authorization to perform the calibration.
 
 Configure one local planning worksheet to consume those inputs. Its tailoring rule is: establish sensor class and the register's currentness; check the supplied approval relation and compatible units; require `fixture lower bound <= required lower bound` and `required upper bound <= fixture upper bound`; copy the allowed selection into the plan while retaining v4's fixed operations and stops.
 
@@ -64,7 +64,7 @@ Selecting a parameter within these declared options creates a plan for this case
 
 In the first constructed planning attempt, the worksheet lists both fixtures but checks approval only. The user chooses F5 and obtains a plan labelled ready. The task fails: 5 V does not cover the required upper bound of 10 V. The register and v4 rule are correct, so the repair belongs to the worksheet's omitted interval check. Add that check before export.
 
-In a separate repeat of the same task, F5 is rejected with the uncovered 5–10 V interval, F10 is accepted, and the resulting plan retains the prescribed operations and stops. A further changed-input probe with an unknown serial class stops before fixture selection.
+In a separate repeat of the same task the worksheet rejects F5. It covers 5 V, but values above 5 V through 10 V lie outside its working interval. F10 covers the full requirement, and its plan retains the prescribed operations and stops. With an unknown serial class the planner stops before fixture selection. If B-17 instead requires 0–12 V and these two entries exhaust the current approved register, both fixtures fall short. The planner can give that definite answer from the available evidence.
 
 These are stipulated observations in the constructed replay. A receiving claim that distinguishes dated Work occurrences must supply each occurrence's A.13 and A.15.1 basis.
 

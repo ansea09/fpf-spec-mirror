@@ -6,12 +6,12 @@ section_id: "C.16:15"
 section_title: "Relations - Placement (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__018_relations-placement-informative.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15 — Relations - Placement (Informative)"
-line_start: 61669
-line_end: 61699
+line_start: 61678
+line_end: 61708
 dependencies:
   - "A.10"
   - "A.15.1"

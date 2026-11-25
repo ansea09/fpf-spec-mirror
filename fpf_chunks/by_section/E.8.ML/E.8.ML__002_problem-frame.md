@@ -6,12 +6,12 @@ section_id: "E.8.ML:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:1 — Problem frame"
-line_start: 104278
-line_end: 104287
+line_start: 104293
+line_end: 104302
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

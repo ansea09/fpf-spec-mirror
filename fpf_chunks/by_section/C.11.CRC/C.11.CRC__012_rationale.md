@@ -6,12 +6,12 @@ section_id: "C.11.CRC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__012_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:10 — Rationale"
-line_start: 60337
-line_end: 60340
+line_start: 60346
+line_end: 60349
 dependencies:
   - "A.1.CSD"
   - "A.10"

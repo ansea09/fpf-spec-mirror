@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:End"
 section_title: "E.10.MOVE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__014_e-10-move-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:End — E.10.MOVE:End"
-line_start: 108339
-line_end: 108340
+line_start: 108354
+line_end: 108355
 dependencies:
   - "A.1.STM"
   - "A.10"

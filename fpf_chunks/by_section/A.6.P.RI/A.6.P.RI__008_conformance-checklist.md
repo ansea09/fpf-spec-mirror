@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:7 — Conformance Checklist"
-line_start: 21648
-line_end: 21661
+line_start: 21654
+line_end: 21667
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -28,7 +28,7 @@ For a consequential interpretation or transfer, ask:
 - Which expression depends on its speaker, user or situation?
 - Are the source participant and action-changing reference conditions recoverable?
 - What does the receiving use preserve?
-- Can the recipient identify its own relevant position in the account?
+- Where the receiving use depends on the recipient's position, can the recipient establish that position?
 - Does the derived action still satisfy that purpose when the consequential condition changes?
 - Are missing information, authority, capability and support distinguished?
 - Does any change of EntityOfConcern use A.6.4 rather than being assumed from new notation?

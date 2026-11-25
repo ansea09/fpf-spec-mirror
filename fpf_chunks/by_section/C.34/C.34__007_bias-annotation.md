@@ -6,12 +6,12 @@ section_id: "C.34:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__007_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:6 — Bias-Annotation"
-line_start: 85384
-line_end: 85393
+line_start: 85394
+line_end: 85403
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,5 +52,5 @@ keywords:
 | Formal vocabulary mistaken for adequacy | Keep graph isomorphism, morphism, functor, entropy, or simulation wording as lens or mapping support until the architecture use, preserved structure, and loss are declared. |
 | Symmetric-equivalence overclaim | Require directionality and scope. A projection, abstraction, simulation relation, or coarsening often licenses one direction only. |
 | Semantic-loss hiding | Make lost control authority, allocation, bearer semantics, placement, timing, confidence, or source-tradition meaning explicit before the mapping is reused. |
-| Bridge-bypass bias | Handle cross-context substitution, source-tradition transfer, and later conformance strengthening under `F.9` or `F.15` instead of letting C.34 authorize the transfer alone. |
+| Bridge-bypass bias | When the transferred result depends on a correspondence between different local senses, establish it under `F.9`. Apply `F.15` where the receiving use requires a conformance test. |
 

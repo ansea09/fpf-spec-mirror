@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__010_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:9 — Consequences"
-line_start: 22138
-line_end: 22144
+line_start: 22144
+line_end: 22150
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44551
-line_end: 44560
+line_start: 44560
+line_end: 44569
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -30,5 +30,5 @@ keywords:
 | A stage list conceals current constitution. | Explain both what is done through the action now and which result must become available later. |
 | Every description creates another Work and another time charge. | Use the performed history and the receiving accounting question to identify occurrences and parts. |
 | All constituents must run at once. | Identify the active constituent and preserve the other constituents' timing conditions. |
-| Successful isolated practice is treated as mastery of the combination. | Practise the relevant whole and vary a condition that changes coordination. |
+| Successful isolated practice is treated as mastery of the combination. | Use evidence of the combined performance under the intended support. Arrange practice or a new trial when needed or commissioned. Vary the coordination conditions when the intended claim spans them. |
 

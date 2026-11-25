@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
-line_start: 111519
-line_end: 111971
+line_start: 111534
+line_end: 111986
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -255,7 +255,7 @@ E.8:4.2.1.3 governs the choice and continuation of examples: a connected account
 
 At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
 
-Distinguish a shorter account of the same Method, an account of a constituent method and a more abstract model that admits additional ways to do the work. A profile may make any of these moves. Show what the practitioner can still decide and which relationships or distinctions the promised use requires.
+A profile can shorten the account of a Method, describe one of its constituents, or leave open some of the choices about how to carry it out. For the third move, which new answer does the less constrained model allow for the practitioner's question? Allowing a second report format, for instance, changes the answer about formats. It may leave intact both the required check and the answer about when it has passed. Keep the relationships and distinctions the promised use requires.
 
 Develop a missing instruction in the underlying account through E.8:4.2.1.1 before choosing how to present it. Then follow the promised use through the resulting publication, including any return to a supplying explanation. The reader must still obtain the input meanings, necessary operation, intermediate result and action-changing conditions that make the continuation possible.
 
@@ -269,18 +269,18 @@ Restore missing content at its source or repair its presentation and return, the
 | Problem | Which inquiry, intended transformation, opportunity, or recurring difficulty needs an answer? What remains unresolved with the available approach? |
 | Forces | Which competing requirements, resource limits, evidence conditions, or values shape the choice of Methods? |
 | Solution | Which Methods and pattern contributions answer the problem? How do their results connect, which choices change the route, and where can the reader enter directly? |
-| Archetypal Grounding | Which actual or minimally viable worked cases make the needed connections and a consequential branch or limit inspectable? What does each contribute to the declared scope? |
+| Archetypal Grounding | How can the practitioner use the rule to draw the required conclusion or make the choice entrusted to them? A direct argument, a comparison or a worked case can show how. If a branch or limit matters to that work, what lets the practitioner recognize it? |
 | Bias-Annotation | Which assumptions, perspectives, exclusions, or access conditions affect whose work the language serves and where its claims travel? |
 | Conformance Checklist | Which substantive questions establish correct use at this scope? Which answers can be inherited, and which changed conditions need their own judgement? |
 | Common Anti-Patterns and How to Avoid Them | Which documented failures, text-invited misreadings, or consequential neighbouring cases need a practical correction? Apply the grounded-guard rule in E.8 and F.19. |
-| Consequences | For the practitioners using this language, what changes in the work named in its commission? Which conditions support that gain, what does it cost, and where does it end? Relate an outcome in a worked case to the range for which you claim it. |
+| Consequences | For the practitioners using this language, what changes in the work named in its commission? Which conditions support that gain, what does it cost, and where does it end? When a claim draws on a worked case, what warrants its application across the claimed range? |
 | Architectural Rationale | Why does this organization of Methods serve the declared use? Which serious alternatives and trade-offs explain its boundaries, profiles, composition, and reuse, and when should a different choice be made? |
 | SoTA-Echoing | Which current answers and source contributions shaped the Methods and their shared architecture? What was adopted, adapted, or rejected against a serious alternative, and what would reopen that choice? |
 | Relations | Which specialization, bounded-use projection, composition, reuse, dependence, or publication-grouping relations actually hold, and where does each named contribution become useful? |
 
 When a condition governs a whole combination of Methods, give it one public statement at the scope where that combination is used. State the quantities, assumptions, or other conditions needed to apply it, and return to that statement from affected profiles and patterns. Pairwise relations remain useful, but a condition on the whole set may require a different decision. A change to that condition reopens the combinations that rely on it; unchanged local contributions remain available.
 
-Also explain the relevant Method-composition structure and how its constituents are enacted in ongoing Work. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement.
+For a proposed composition, show how its contributions would produce the required result under common conditions. For an account of ongoing work, show what participants actually do and how their contributions produce or sustain that result. A constituent action can be part of a larger activity under way at the same time. If a condition of the whole changes that action, trace its effect. State the intermediate capability or shared resource the combination requires. To judge a particular deployment, establish whether it will be available where and when needed. A feasible combination can be justified directly. B.1.5.EW recovers the connection to ongoing work and B.1.5.RS examines a constituent replacement.
 
 A DPF can describe only some of the needed constituent–whole connections: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Keep dependencies on earlier results where later work relies on them.
 
@@ -296,7 +296,7 @@ A reader can start from the general treatment of Methods, enter the Method-devel
 
 Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
 
-When two entries compare models of the same subject for the same inquiry, use B.5.MR. A stricter model has at least one admissible completion, preserves everything the earlier model required of its completions, and excludes at least one earlier possibility for that inquiry. Selecting another member of a family, restricting the audience of a profile or starting a different task can be useful while leaving that modelling question unchanged.
+When two entries compare models of the same subject for the same inquiry, use B.5.MR. A stricter model has at least one admissible completion, preserves everything the earlier model required of its completions, and excludes an answer to that inquiry that the earlier model allowed. Selecting another member of a family, restricting the audience of a profile or starting a different task can be useful while leaving that modelling question unchanged.
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold.
 
@@ -359,7 +359,7 @@ Treat a compact order as a teaching unfolding of the connected reasoning. Explai
 
 Check what the reader can reconstruct from the publication. Can the reader explain the needed grounds, recognize locally plausible but jointly incompatible answers, and determine which answers a consequential change reopens? Use materially different circumstances when they expose a hidden restriction.
 
-These are questions about recoverable explanation and application; fluent recitation, one completed example and a mnemonic advantage do not answer them. Conversely, a source-grounded explanation can be useful without a measured recall advantage. Claims of improved learning, memory or field performance require their own evidence.
+A worked example can answer these questions when its reasoning covers the choices and conditions promised to the reader. If it shows what happened on one occasion, identify what the reader would still need in order to use the method elsewhere. For a mnemonic, recalling the sequence with the stated cues supports a claim about recall under those conditions. Reading a displayed sequence supplies different evidence. Claims about improved learning, memory or field performance require evidence of the particular gain.
 
 ### E.11.PFP:5 - Archetypal Grounding
 

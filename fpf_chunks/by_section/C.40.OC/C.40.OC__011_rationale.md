@@ -6,12 +6,12 @@ section_id: "C.40.OC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__011_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:10 — Rationale"
-line_start: 92088
-line_end: 92093
+line_start: 92098
+line_end: 92103
 dependencies:
   - "C.11.CRC"
   - "C.16"

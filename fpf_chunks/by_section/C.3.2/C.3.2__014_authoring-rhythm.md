@@ -6,12 +6,12 @@ section_id: "C.3.2:12"
 section_title: "Authoring Rhythm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__014_authoring-rhythm.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:12 — Authoring Rhythm"
-line_start: 58241
-line_end: 58250
+line_start: 58250
+line_end: 58259
 dependencies:
   - "A.14"
   - "A.2.6"

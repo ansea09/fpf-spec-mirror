@@ -6,12 +6,12 @@ section_id: "C.32.PAD:End"
 section_title: "C.32.PAD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__014_c-32-pad-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:End — C.32.PAD:End"
-line_start: 84495
-line_end: 84496
+line_start: 84505
+line_end: 84506
 dependencies:
   - "A.1.STM"
   - "A.10"

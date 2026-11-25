@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 141172
-line_end: 141455
+line_start: 141191
+line_end: 141474
 dependencies:
   - "A.10"
   - "A.15.3"

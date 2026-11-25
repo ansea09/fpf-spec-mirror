@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:7 — Conformance Checklist"
-line_start: 109127
-line_end: 109143
+line_start: 109142
+line_end: 109158
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -47,7 +47,7 @@ A use of `E.10.D1` conforms when it meets these conditions.
 6. a claim boundary states the applicability conditions and grounds needed by its use, applying A.2.6 scope and membership facts when the receiving rule requires them;
 7. an F.9 Bridge is opened only between different semantic-context projections, and its bounded-use claim remains separate;
 8. architecture wording distinguishes an actual selected structure and obtaining `ArchitectureRelation` from a negative, unresolved, candidate, or expected `ArchitectureClaim`;
-9. viewpoint or view wording identifies the candidate episteme and viewpoint edition and uses the E.17.0 positive, negative, or unresolved conformance result;
+9. wording about a viewpoint identifies the convention selected or to be developed, while wording that claims a description is a view identifies the candidate episteme, viewpoint edition and E.17.0 conformance result;
 10. environment, operating-region, or operating-condition wording returns to the subject claim and names the fact or condition that changes it, or returns an unresolved wording result;
 11. quoted source wording and already precise ordinary wording remain available; and
 12. the result gives the reader a practical next move or a truthful stop without creating a universal Context kind, field set, or card.

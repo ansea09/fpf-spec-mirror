@@ -6,12 +6,12 @@ section_id: "E.17:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 115668
-line_end: 115680
+line_start: 115685
+line_end: 115697
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -55,5 +55,5 @@ keywords:
 4. **Face presented as a view without conformance.**
     *Fix:* Resolve the viewpoint episteme and apply E.17.0 to the candidate episteme; redesign or re-emit the face only after the semantic repair.
 5. **`InteropCard` equivalent to `TechCard` duplication.**
-    *Fix:* `InteropCard` can refine typing or shape but cannot contradict `TechCard` (reindexing monotone).
+    *Fix:* When `InteropCard` adds a type or shape to `TechCard`, check which source values, claims and answers the consuming interface must carry. An integer field can represent counts exactly. If the source admits fractional measurements, establish a conversion that preserves the required answer, change the field, or tell the recipient which use the projection can support.
 

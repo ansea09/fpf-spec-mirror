@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:1 — Problem frame"
-line_start: 78477
-line_end: 78562
+line_start: 78487
+line_end: 78572
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 Use this pattern when an architecture discussion depends on one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description of the selected flow structure.
 
-First identify the architecture locus, the selected E.18 TFS or E.18.NET network, and what this use lets the practitioner inspect or decide. A supported path in an existing map can answer where the flow can pass, even when its author is unknown. If the commission asks a designer to construct the map or identify dependencies independently, establish what the designer was given and what connections they had to find or choose. `ArchitectureTransformationFlowStructureRelation` is an optional record for retaining those distinctions.
+Begin with what the architecture account must explain or help someone decide. If an existing flow map establishes the required path, use it even if its author is unknown. To construct a missing account, work back from the required effect to the participating transformations and the relations that could change it. Use E.18:5.1–5.2 to identify a flow structure and assess the path through it. For several such structures use E.18.NET:4.1 and :4.5 to establish how their connections matter. Show what the selected structure establishes for the architecture in question. To assess the designer's own contribution, distinguish the dependencies they identified from those already supplied. `ArchitectureTransformationFlowStructureRelation` can retain the resulting architecture-to-flow account.
 
 The locus can be an `ArchitectureRelation` occurrence, selected architecture structure, architecture-description or structural-view episteme, or bounded architecture claim. For a network, distinguish an actual containing-holon relation, a bounded claim about one named holon, and a use spanning several named holons.
 

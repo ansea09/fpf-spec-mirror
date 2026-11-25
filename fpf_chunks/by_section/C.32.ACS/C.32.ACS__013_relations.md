@@ -6,12 +6,12 @@ section_id: "C.32.ACS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:12 — Relations"
-line_start: 82099
-line_end: 82112
+line_start: 82109
+line_end: 82122
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 129962
-line_end: 129977
+line_start: 129979
+line_end: 129994
 dependencies:
   - "A.11"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.32:End"
 section_title: "C.32:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__014_c-32-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:End — C.32:End"
-line_start: 80675
-line_end: 80676
+line_start: 80685
+line_end: 80686
 dependencies:
   - "A.10"
   - "A.15"

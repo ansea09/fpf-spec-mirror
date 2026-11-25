@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.11.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.11 — Make Methods Noticeable in Work"
-line_start: 34106
-line_end: 34357
+line_start: 34113
+line_end: 34364
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -114,7 +114,7 @@ Choose timing that preserves the work. An explanation during a difficult movemen
 
 Ensure that the recipient can interpret the cue and reach enough instruction to begin. A familiar pattern name may be sufficient for an experienced practitioner; another recipient may need a small contrast showing why the method fits.
 
-When a person cannot discern the relation, recover what the recipient needs. An adequate answer, a clearer cue or help from another participant may meet the immediate commission. Arrange practice when independent recognition is the learning objective or a capability the receiving work actually requires. Where recognition is established but execution is unavailable, identify the missing capability, resource or supporting contribution. E.23.CDI frames capability development for that work.
+When a person cannot discern the relation, recover what the recipient needs. An adequate answer, a clearer cue or help from another participant may meet the immediate commission. When the recipient needs to recognize the relation themselves, establish whether they can do so with the information and aids permitted in their work. If the distinguishing feature is missing from their view, make it accessible. If the ability needs developing, choose the kind of learning the person needs. An explanation may supply a missing distinction. A demonstration may show what to look for. Arrange practice when needed or commissioned. Where recognition is established but execution is unavailable, identify the missing capability, resource or supporting contribution. E.23.CDI frames capability development for that work.
 
 Keep the action proportionate to the present need. Sometimes a colleague's answer is enough. Sometimes the recipient needs a reusable method or practice across changed conditions. Introducing a method does not by itself choose between those purposes.
 
@@ -146,7 +146,7 @@ Where an accountability requirement applies, use its existing record rather than
 
 Repeated false matches can reveal a poor occasion, an overbroad relevance relation or a different recipient need. Repeated recognition followed by inability calls for a capability or support change. Advice that has become familiar and adds no value can be shortened or removed.
 
-Retain aids that remain useful in the intended configuration. If independent performance is the goal, arrange a separate transition and assess it under the relevant learning method. Removing every aid is not a universal measure of mastery.
+Retain aids that remain useful in the intended configuration. For a claim of independent performance, use grounds that match the information and aids allowed in the intended work. Arrange a transition, practice or new assessment when needed or commissioned. Removing every aid is not a universal measure of mastery.
 
 ### A.15.11:5 - Archetypal Grounding
 

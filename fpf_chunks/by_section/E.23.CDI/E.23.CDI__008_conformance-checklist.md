@@ -6,12 +6,12 @@ section_id: "E.23.CDI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:7 — Conformance Checklist"
-line_start: 124042
-line_end: 124055
+line_start: 124059
+line_end: 124072
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -29,7 +29,7 @@ keywords:
 | Check | Passing condition |
 | --- | --- |
 | `CC-E23CDI-1` | One admitted holder System and one named Work family are explicit. |
-| `CC-E23CDI-2` | Before intervention selection, the current capability baseline names its operating envelope, decision-bearing measures and evidence, qualification window or currentness condition, and limiting contribution. |
+| `CC-E23CDI-2` | The grounds for selecting the intervention include the operating envelope, the decision-bearing measures and evidence, their currentness, and what is known about the limitation. If rival explanations remain, the chosen response has adequate grounds across them or the intervention is a warranted way to distinguish them. |
 | `CC-E23CDI-3` | Before intervention selection, the desired measures or success predicate and protected conditions are explicit; the desired result is not presented as an established current ability or actual change. |
 | `CC-E23CDI-4` | The intervention addresses the limitation; any provider System and provider contribution remain distinct from the holder's capability, and a selected plan remains distinct from performed development Work. |
 | `CC-E23CDI-5` | Transfer tests the declared target in representative Work under the relevant envelope and window, with the contributions and choices that will belong to the holder there; attendance, exercise completion, description, publication, or provider delivery is not substituted. |

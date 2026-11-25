@@ -6,12 +6,12 @@ section_id: "E.17.1:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__017_authoring-and-review-guidance.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:16 — Authoring and Review Guidance"
-line_start: 114621
-line_end: 114652
+line_start: 114638
+line_end: 114669
 dependencies:
   - "A.16.0"
   - "A.22"

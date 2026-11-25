@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
-line_start: 9871
-line_end: 10118
+line_start: 9873
+line_end: 10120
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "C.40.OC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__010_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:9 — Consequences"
-line_start: 92080
-line_end: 92087
+line_start: 92090
+line_end: 92097
 dependencies:
   - "C.11.CRC"
   - "C.16"

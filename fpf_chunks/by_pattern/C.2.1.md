@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
-line_start: 53565
-line_end: 54558
+line_start: 53574
+line_end: 54567
 dependencies:
   - "A.1"
   - "A.10"
@@ -601,7 +601,7 @@ Applying the declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelationSigna
 
 `EpistemeEmpiricalGroundingRelation` over participants `(E,H)`, with `covered=C`, obtains exactly while exact covered claim subgraph `C` contains at least one empirical claim and every empirical claim in `C` has a current claim-to-world mapping to the required independently governed direct observation, intervention, measurement, or test relation structure involving `H` under E's effective ReferenceScheme. Every mapped relation required by that coverage must obtain. An exact direct evaluation relation counts as part of the empirical test only when the mapping states its concrete use in that test; otherwise evaluation and evidence can support or challenge an assertion about grounding but are not its world-side base.
 
-One occurrence is identified by `<episteme, exact covered claim subgraph, grounding holon, maximal continuous interval during which the complete coverage predicate is true>`. Closing the open end of that interval refines the description of the same occurrence. Demonstrated failure of any required mapping followed by restored complete coverage yields another occurrence.
+One occurrence is identified by `<episteme, exact covered claim subgraph, grounding holon, maximal continuous interval during which the complete coverage predicate is true>`. Evidence of when coverage ended can refine a description that left its end open. If the earlier description asserted coverage beyond that date, revise the assertion. Demonstrated failure of any required mapping followed by restored complete coverage yields another occurrence.
 
 Evidence or evaluation availability alone establishes neither obtaining nor nonobtaining and proves no temporal gap.
 

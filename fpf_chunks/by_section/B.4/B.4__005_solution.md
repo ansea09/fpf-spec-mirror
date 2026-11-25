@@ -6,12 +6,12 @@ section_id: "B.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:4 — Solution"
-line_start: 47918
-line_end: 47988
+line_start: 47927
+line_end: 47997
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -46,11 +46,11 @@ Use the branch for each subject whose identity bears on the decision. To design 
 
 #### B.4:4.2 - Separate the changed subject from the acting side
 
-Name the acting participant separately from the subject being changed. A System performs each piece of Work. The changed subject, performing System, dated Work, Method enacted by that Work, and result remain distinct. Practitioner prose can say "the engineer refined the design" or "the controller adjusted the valve" when that recognizable actor and action are enough. If that ordinary sentence is all the receiver needs, do not open a technical Work account.
+Identify what changed and who performed the relevant work. One System may occupy both positions. A choir can organize its own rehearsals and improve its coordination. The change in the choir, the rehearsal it performed, the Method it used and the resulting performance support different conclusions. Practitioner prose can say "the engineer refined the design" or "the controller adjusted the valve" when that recognizable actor and action are enough. If that ordinary sentence is all the receiver needs, do not open a technical Work account.
 
-If B.4 identifies one dated `U.Work` occurrence, first recover every performer's A.13 core and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 only when the receiving claim also needs assignment-bound attribution. A short B.4 account may omit an unused assignment identifier or classification only when every relation it consumes remains recoverable.
+If B.4 identifies one dated `U.Work` occurrence, first recover the A.13 basis for each System credited at the scale of the claim and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 only when the receiving claim also needs assignment-bound attribution. A short B.4 account may omit an unused assignment identifier or classification only when every relation it consumes remains recoverable.
 
-The performing System need not be external to the larger holon. For internal adaptation, apply the `A.12` reflexive split: identify the changed subsystem or part and the acting subsystem or part as distinct participants, and establish their parthood in the containing holon independently. Use an external System when the case has one. Apply the same Work-admission and conditional attribution rules above to either acting side.
+Identify the contributions on which the whole result depends. Two sections of a choir can adjust their entries and improve the joint performance. Use the `A.12` reflexive split when the claim is that one established part of the System acted on a different established part. Establish their parthood and the interaction that matters. If help came from outside, establish the contribution at issue. Providing a rehearsal room can resolve an access problem. Attributing the choir’s improved coordination to the room requires grounds for that further claim.
 
 State authority, responsibility, permission, acceptance, or admission through its predicate, participants, and applicability basis; neither a phase label nor Work supplies them.
 

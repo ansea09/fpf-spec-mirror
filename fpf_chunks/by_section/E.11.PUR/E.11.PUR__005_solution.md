@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 111117
-line_end: 111357
+line_start: 111132
+line_end: 111372
 dependencies:
   - "A.10"
   - "A.15"
@@ -88,13 +88,13 @@ When an actual Problem is relied on, cite one current C.22.PFR `ProblematicForRe
 
 #### E.11.PUR:4.2 - Recommendation
 
-Before recommending a new pattern use, compare its full receiving value and burden with the other serious continuations, including continuing the present work without it. Use C.11.DUA when the worth of the advice, its presentation or its interaction with other proposed changes is unclear.
+Recover the result the recipient needs and the decision for which advice is due. Compare what the present work can already supply, a sufficient single use, and combinations that could meet that need. For a combination, establish that the contributions can be obtained and used together under the receiving conditions. Include shared work once and count demands that compete for the same time, evidence or people. C.11.DUA helps when the worth of the advice or its interaction with other changes is unclear. C.11.CRC supports a comparison when the contribution of a use depends on what else is available.
 
 Applicability can coexist with no worthwhile recommendation now. In that case, finish without selecting a pattern use or materializing a positive recommendation; give a short reason only when the current question or later reliance needs it.
 
 Continuing without optional advice does not remove an existing obligation.
 
-When the comparison supports a recommendation, state which candidate is applicable, why its expected first result warrants its full burden for the current concern, and where to stop or return. If the judgement is local, reversible, and has no named later reliance, that readable statement is sufficient.
+Match the scope of the reasons to the scope of the recommendation. For advice about a first inquiry, ask what its possible answers would settle or enable and what that inquiry costs. For advice to undertake the whole job, compare what each feasible way delivers by the time it is needed and what it takes to get there. Two ways can produce the same early answer and leave different prospects for finishing. Recommend the single use or combination that the comparison supports. A short explanation of the decisive grounds and any remaining conditions suffices for a reversible choice with no named later reliance.
 
 When the recommendation must remain addressable, use the schema below. `ordinaryCompact` keeps one compact rationale and no five-finding dossier; `relianceBearing` adds the current applicability finding only because a named later use needs independent replay.
 
@@ -116,7 +116,7 @@ PatternUseRecommendation@Context <: U.Episteme:
   recommendationBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-A recommendation selects one applicable candidate whose expected receiving value warrants its full burden compared with the other serious continuations, including continuing without a new use. When a receiving use is current, the rationale explains how the recommendation supports it. A conversational judgement needs no record.
+One addressable recommendation selects one applicable candidate. When its value depends on another use, include that dependency in the rationale and show how the contributions together warrant the advice. A joint recommendation can be given in ordinary prose. Use a coordination account under §4.3 when someone needs to refer back to the relation among the uses.
 
 In an addressable `ordinaryCompact` recommendation, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent.
 
@@ -236,18 +236,18 @@ A changed closure can change readiness without changing the prospective dependen
    If the aggregate is `insufficientBasis`, obtain missing information only when an attainable answer can change a worthwhile continuation; otherwise return the missing-basis boundary.
 
    State the aggregate separately when the current question needs it. If step 5 supports a recommendation, include it there; when a reliance-bearing applicability finding exists, the two result values agree.
-5. Compare an applicable candidate with the other serious continuations, including continuing the present work without a new pattern use. Recommend it only when its expected receiving value warrants its full burden; use C.11.DUA when that judgement is unclear. Finish without a positive recommendation when no candidate warrants one. The expectation is not an achieved result.
+5. Compare continuing with the available results, a sufficient single use and any feasible combination that could make a difference to the receiving decision. For advice about the whole undertaking, compare the value and burden of each complete way. Use C.11.DUA when the comparison is unclear. If continuing as at present serves best, finish without a positive recommendation. An expected result still has to be obtained.
 6. Compare any earlier result under `4.2.1`. Use it for what it already settles. Identify any outstanding result question and any fresh or independent work required by the commission.
 7. Establish the ordering the receiving work needs under §4.4. When the commission concerns a combined result, use the rationale to explain how the contributions fit that result, including any joint condition the ordering leaves open.
 
    For prerequisiteResult, name exact required content, the selected supplier-use basis and its expectation.
 
    Assess readiness separately from precedence. When a continuation depends on a prerequisite result, check whether an actual result and its basis satisfy the receiving conditions. Reuse an adequate earlier result before requiring another use.
-8. Stop at the applicability answer or missing-basis boundary, recommendation, matching earlier result, coordination result, or conclusion that no new use is worth recommending now.
+8. Return the applicability judgement, recommendation, reused result or coordination to the person who needs it. When that is what they asked for, the work can finish here. If a wider commission remains, apply the result in that work and obtain the remaining contributions. When a premise is missing, distinguish the work it prevents from work that can proceed.
 
-   The last outcome selects no candidate and requires no refusal document; it leaves existing obligations in force.
+   If proceeding without a new use serves best, existing obligations remain in force. A separate refusal document is unnecessary.
 
-   A Plain *next move*, when one is useful, names only the recommended pattern use or conditional continuation. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
+   A Plain *next move* names the recommended use or conditional continuation. Apply PUA, P2W, planning, gate or decision guidance where it supplies an outstanding part of the commission.
 
 #### E.11.PUR:4.6 - Replay and currentness
 
@@ -255,7 +255,7 @@ Replay an ordinary conversational or addressable compact recommendation from the
 
 Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings.
 
-Replay coordination from its inspected candidate uses, question, ordering mode, any pairwise precedence and bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation, required content and selected supplier-use basis.
+Replay coordination from the receiving question, the inspected uses and the rationale for using them together. Recover the common conditions on which the conclusion relied, including compatibility of the subject, edition or time window where relevant. Recover the ordering mode, any pairwise precedence and its basis, and the stop boundary. For `prerequisiteResult`, include the exact expectation, required content and basis for selecting the supplier use.
 
 Replay readiness separately from precedence, using the actual result, its category-correct basis, receiving conditions and any earlier-result reuse; recover an addressable closure finding only when that reliance needs it.
 

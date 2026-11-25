@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:4 — Solution"
-line_start: 8062
-line_end: 8281
+line_start: 8064
+line_end: 8283
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -177,7 +177,7 @@ For substitution and residual qualification, one occurrence begins when fixed or
 
 When a declaration, scheme, `KindSignature`, Bridge or other cited semantic-basis edition changes, compare the rule, orientation or set semantics, applicability, system-role-kind identities and meaning-bearing semantic basis. If these identity-bearing values remain unchanged, predicate identity is preserved. If a value changes, identify the changed predicate and establish whether it obtains for its participants; a new relation occurrence begins only when it does. If the comparison is unresolved, leave predicate continuity unresolved. Equal displayed labels establish no continuity.
 
-An affirmative assertion or occurrence description may state the known `systemRoleKindRelationExtent` only after current facts or accepted constituting history satisfy the predicate and the identity rule recovers the occurrence. Closing an open extent refines the same occurrence when obtaining was uninterrupted. A demonstrated predicate-false gap ends it; later truth begins another. Missing evidence leaves reliance unresolved and does not demonstrate a truth gap.
+An affirmative assertion or occurrence description may state the known `systemRoleKindRelationExtent` only after current facts or accepted constituting history satisfy the predicate and the identity rule recovers the occurrence. Evidence that fixes a previously unknown endpoint can refine the description of an uninterrupted occurrence. If the evidence contradicts an interval that the description already asserted, correct that assertion. A demonstrated predicate-false gap ends it; later truth begins another. Missing evidence leaves reliance unresolved and does not demonstrate a truth gap.
 
 `systemRoleKindRelationExtent` is content of an affirmative assertion or occurrence description, not a temporal SlotSpec. A target `declaredSystemRoleKindRelationEvaluationWindow` belongs to the receiving assertion or check and is not part of the direct relation signature or occurrence identity.
 

@@ -6,12 +6,12 @@ section_id: "A.6.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:intro — Intro"
-line_start: 25083
-line_end: 25118
+line_start: 25090
+line_end: 25125
 dependencies:
   - "A.21"
   - "A.6.1"

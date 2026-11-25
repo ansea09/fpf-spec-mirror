@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.H.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
-line_start: 26189
-line_end: 26504
+line_start: 26196
+line_end: 26511
 dependencies:
   - "A.1"
   - "A.10"
@@ -240,10 +240,10 @@ Source sentence: “After seal replacement, the assembled pump remains an integr
 
 Source sentence: “The whole chromatography pipeline is turnkey, and the chemist owns the whole thing.”
 
-The repair separates the following claims and unresolved questions; `turnkey` and `owns` still need the receiving decision and discriminating facts:
+Ask which result the recipient is to obtain and what decision depends on “owns”. The supplier could be offering installed equipment, completed work or a reusable procedure. The terms and facts that distinguish these readings determine which of the following questions matters.
 
-- the reusable procedure is one Method or composite Method under A.3.1/B.1.5, with joins and exposed interactions;
-- identify its procedure document as a separate episteme under C.2.1. It is a `U.MethodDescription` under A.3.2 only if its EntityOfConcern is an admitted Method and it makes a substantive claim about that Method as a way of doing;
+- for an offered procedure, establish its reusable action under A.3.1. If its composition matters, use B.1.5 to establish which contributions have to work together and what their combination supplies to the recipient.
+- if a document is offered, identify the episteme under C.2.1. It is a `U.MethodDescription` under A.3.2 when its EntityOfConcern is an admitted Method and it makes a substantive claim about that Method as a way of doing.
 - for “turnkey”, establish the promised scope when the question is what the recipient may expect. Determine the specification, capability, Work or evidence coverage when the question concerns one of those instead;
 - treat *owns* as a local wording cue. First state the decision that depends on it and the proposed sentence. Candidate readings include, for example, property or title, possession or custody, operational control, decision authority, stewardship or responsibility, assignment, commitment, and permission; they have different participants and predicates. Apply the direct rule when one exists, or return A.6.RCD `missing-governor[...]` naming the participants, proposed predicate, affected use, and absent definition; and
 - identify any asserted dated laboratory run as Work using §4.2.

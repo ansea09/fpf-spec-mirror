@@ -6,12 +6,12 @@ section_id: "E.14:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 113082
-line_end: 113091
+line_start: 113097
+line_end: 113106
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -30,5 +30,5 @@ keywords:
 | Assurance leakage upward | Mapping, proof, or empirical records rename the public working vocabulary. | Preserve downward grounding: Working-Model terms are not back-defined by assurance publications. |
 | Slash-label compromise | Several source labels are displayed because no model value was chosen. | Use Mapping to record source labels and show one chosen Working-Model label. |
 | Structure-time collapse | Sequence, phase labels, or temporal coverage are treated as sufficient grounds for parthood. | Recover the Work-part or proper-phase relation under A.15.1 or A.14 respectively, and keep order and temporal claims separate. |
-| Forever-light prose | Human-facing prose becomes so small that the reader cannot recover the problem, payoff, or assurance boundary. | Keep recognition text concise but still include problem framing, rationale, and worked slices. |
+| Forever-light prose | The reader cannot tell which problem the working model resolves or what further evidence its use requires. | Restore what the reader needs to draw the conclusion and recognize its grounds. The statement of a reading in E.14:6.3 can carry this distinction directly. Use a worked case when it makes a necessary relation accessible. |
 

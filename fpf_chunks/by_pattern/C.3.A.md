@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.A.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
-line_start: 58885
-line_end: 59434
+line_start: 58894
+line_end: 59443
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:4 — Solution"
-line_start: 142083
-line_end: 142247
+line_start: 142102
+line_end: 142266
 dependencies:
   - "A.19"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "F.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__003_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:2 — Problem frame"
-line_start: 129380
-line_end: 129388
+line_start: 129397
+line_end: 129405
 dependencies:
   - "A.6.9"
   - "B.3"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.MS.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
-line_start: 33325
-line_end: 33702
+line_start: 33332
+line_end: 33709
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -74,7 +74,7 @@ These shortcuts hide which task or condition needs attention. Users cannot tell 
 
 ### A.15.8.MS:4 - Solution
 
-A.15.8 configures and tests continuation of one actual Work or present WorkPlan. Here the design question is how performers obtain and apply methodological material across the named tasks; it can return a small arrangement or a justified shared Method Base. Use A.15.8 for the effect of an interruption or loss on actual Work or on the service a present WorkPlan must support.
+A.15.8 develops an arrangement that can maintain or recover a service and tests it for the required disruptions. Here the design question is how performers obtain and apply methodological material across the named tasks. It can return a small arrangement or a justified shared Method Base. Use A.15.8 when interruption or loss could keep that support from reaching its users, including when the arrangement must be designed before individual work is scheduled.
 
 Build a bounded set of named-user task criteria and assess the available configuration. For a small reversible task, a configuration with acceptable burden that meets every mandatory criterion and respects every stop can be the sufficient result.
 
@@ -82,7 +82,7 @@ Use the grounds the claim needs. A rule about access or shared capacity can deci
 
 Return several candidates, a stated split boundary, or a missing priority or test when that choice remains unresolved.
 
-Use a cheap ordinary task-and-gap account for a small reversible case. When an unresolved Work or WorkPlan configuration or recovery question can change the needed result, use the applicable `A.15.8` branch, deriving the conditions from the service due and using the evidence that covers them. When several criteria, missing evidence, or incomparability make the configuration choice non-trivial, consume current `A.19.CPM` comparison results and `A.19.SelectorMechanism` selected-set semantics rather than forcing one route. A.15.8.MS specializes these patterns for Method material through two content branches.
+Use a cheap ordinary task-and-gap account for a small reversible case. When the support that a service needs under disruption is unresolved, use `A.15.8` to design for the promised service or to assess a particular Work or WorkPlan. Derive the conditions from what performers must be able to obtain in time. When several criteria, missing evidence, or incomparability make the configuration choice non-trivial, consume current `A.19.CPM` comparison results and `A.19.SelectorMechanism` selected-set semantics rather than forcing one route. A.15.8.MS specializes these patterns for Method material through two content branches.
 
 In the direct branch, take the `C.37` direct exit when one owning result already supplies the complete one-result/one-use selection and limits. When the A.15.8.MS task row owns that use, keep the same logical basis: receiver/action, subject result, claim, applicable reliance, receiving task result, exposure and loss, disposition and return.
 
@@ -130,7 +130,7 @@ If the task set, a required comparison basis, or the task evidence needed to jud
 
     For a simple case, observing the user performing the task can be enough. Identify a dated task Work only when the receiving claim needs that occurrence; then supply A.13 and independent A.15.1 admission, with F.6 only for needed assignment-bound attribution.
 
-    When an interruption, handoff, stale state or support loss could affect delivery, apply the actual-Work or present-WorkPlan branch of `A.15.8` to its own focus. Derive the separate or combined disruptions to cover from the promised support. For example, two editing teams each have a local adviser. Both must be able to obtain a separate half-hour consultation in the same half-hour, including during an absence. The sole standby adviser is qualified and authorized for either team, is free in that window and learns the assignment in time. This arrangement covers loss of either local adviser alone. If both may be absent together and both teams may call then, the standby adviser would owe an hour in half an hour. Separate successful trials leave that common limit in place. Use the applicable rule, records or a discriminating probe. Admit a distinct probe Work when its occurrence is claimed.
+    When an interruption, handoff, stale state or support loss could affect delivery, use `A.15.8` to design for the promised service or assess the arrangement of the particular Work or WorkPlan. Derive the separate or combined disruptions to cover from the promised support. For example, two editing teams each have a local adviser. Both must be able to obtain a separate half-hour consultation in the same half-hour, including during an absence. The sole standby adviser is qualified and authorized for either team, is free in that window and learns the assignment in time. This arrangement covers loss of either local adviser alone. If both may be absent together and both teams may call then, the standby adviser would owe an hour in half an hour. Separate successful trials leave that common limit in place. Use the applicable rule, records or a discriminating probe. Admit a distinct probe Work when its occurrence is claimed.
 12. **Repair, recompare, and rerun only the affected position.** Change the material, System, relation, constraint, access condition, assignment, permission, authority, capability input, edition fact, provider boundary, feedback path, or user step that defeated a criterion. Preserve unaffected collection, proposal, candidate, and task facts. Rerun the same criterion. If the bounded task set, candidate universe, criteria, scope, evidence status, or window changes, make a new comparison or selection use rather than reusing the prior minimum.
 13. **Return the bounded result and any needed continuation.** Report the applicable per-task evidence status, supported configuration, retained candidate set, split boundary, failed task, changed position, rerun result, or named missing premise. When a receiving use needs a continuation, state what the result supports—for example, a representative Method trial, a description or representation correction, a collection or user-task repair, or later capability development. Reopen only the affected task, configuration comparison, or result.
 
@@ -149,7 +149,7 @@ Use the following positions when they are needed to compare configurations or re
 | configured route | The needed retrieval, comparison, tailoring, tool or automation, provider, feedback, and decision functions or conditions chosen for testing or supported for the bounded task set. |
 | optional collection | Collection identity and purpose, entry rule, identified membership occurrences, edition, publication, and any construction account, each separately identified. |
 | optional structure | The four A.22 identity discriminators and the judgement they support for the named use, or a proposal with any required unresolved value qualified under A.22. Add the selection-performance basis only for a claimed dated selection Work. |
-| observations and needed tests | Coverage of the materially different mandatory tasks and decision-changing conditions, using rules, bounds, existing observations or needed new probes as the claim requires. A new probe has pass and failure criteria and conditions selected before performance; earlier observations are assessed against the current criteria at their actual coverage. Use an A.15.8 actual-Work or WorkPlan branch when its configuration or recovery question remains. |
+| observations and needed tests | Coverage of the materially different mandatory tasks and decision-changing conditions, using rules, bounds, existing observations or needed new probes as the claim requires. A new probe has pass and failure criteria and conditions selected before performance; earlier observations are assessed against the current criteria at their actual coverage. When a configuration or recovery question remains, use A.15.8 to design for the required support or assess the Work or WorkPlan at issue. |
 | observed performance | The user action, direct System interaction, observation, task result, evidence status and gap. Each claimed dated Work has its own A.13 and independent A.15.1 basis; add F.6 only for needed assignment-bound attribution. |
 | repair and rerun | Failed criterion, smallest changed position, preserved facts, rerun result, and any new comparison required by a changed task set or basis. |
 | return | The supported configuration, retained candidates, split boundary, bounded task result, defect or missing priority/test, with material limits and any next use or reconsideration condition needed by the receiver. |
@@ -196,7 +196,7 @@ Extend the constructed calibration setting with a different task: prepare a plan
 
 Assume the following domain facts are supplied with the admitted v4 description: the planner may select an approved fixture whose working interval contains the sensor's required interval, but must retain the prescribed test points, acceptance rule, and unknown-serial stop. The current fixture register already establishes approval and intervals; matching numbers alone would not establish approval. The user's assignment, permission and required preparation are also assumed independently established for this bounded planning task.
 
-The input is sensor B-17 with a required interval of 0–10 V, description v4, and two current approved fixture entries: F10 covers 0–10 V and F5 covers 0–5 V. The output criterion is a plan naming B-17, the v4 edition and a covering fixture, with the unchanged test points, acceptance rule and serial-class stop. Unknown sensor class, absent approval, incompatible units, or an interval not covered by any available fixture must return the missing premise before a plan is released for use. This does not authorize actual calibration.
+The input is sensor B-17 with a required interval of 0–10 V, description v4 and two currently approved fixtures in the register. F10 covers 0–10 V and F5 covers 0–5 V. A valid plan names B-17, the v4 edition and a fixture whose approved interval covers the requirement. It retains the prescribed test points, acceptance rule and serial-class stop. If the sensor class, approval or interval cannot be established, identify what prevents a decision. When the register is complete and current, its entries can show that no permitted fixture covers the required interval in compatible units. Then the planner can report that the available fixtures do not permit a plan under v4. The planning result carries no authorization to perform the calibration.
 
 Configure one local planning worksheet to consume those inputs. Its tailoring rule is: establish sensor class and the register's currentness; check the supplied approval relation and compatible units; require `fixture lower bound <= required lower bound` and `required upper bound <= fixture upper bound`; copy the allowed selection into the plan while retaining v4's fixed operations and stops.
 
@@ -204,7 +204,7 @@ Selecting a parameter within these declared options creates a plan for this case
 
 In the first constructed planning attempt, the worksheet lists both fixtures but checks approval only. The user chooses F5 and obtains a plan labelled ready. The task fails: 5 V does not cover the required upper bound of 10 V. The register and v4 rule are correct, so the repair belongs to the worksheet's omitted interval check. Add that check before export.
 
-In a separate repeat of the same task, F5 is rejected with the uncovered 5–10 V interval, F10 is accepted, and the resulting plan retains the prescribed operations and stops. A further changed-input probe with an unknown serial class stops before fixture selection.
+In a separate repeat of the same task the worksheet rejects F5. It covers 5 V, but values above 5 V through 10 V lie outside its working interval. F10 covers the full requirement, and its plan retains the prescribed operations and stops. With an unknown serial class the planner stops before fixture selection. If B-17 instead requires 0–12 V and these two entries exhaust the current approved register, both fixtures fall short. The planner can give that definite answer from the available evidence.
 
 These are stipulated observations in the constructed replay. A receiving claim that distinguishes dated Work occurrences must supply each occurrence's A.13 and A.15.1 basis.
 
@@ -387,7 +387,7 @@ A.15.8.MS brings these contributions together for Method-material tasks: identif
 
 - A.3.2.DE supplies use-bounded MethodDescription or candidate-account content. The direct branch uses the complete one-result/one-use answer and retains its full applicable C.37 basis only for a later receiving need, without a C.37.MP row or duplicate account. The profile branch consumes C.37.MP's complete action selections and Method-specific cross-use result. A.15.8.MS owns its separate support-configuration comparison.
 - `C.37` governs use-bounded representation selection and co-use. It does not select the support configuration, establish Method status, publication or access, capability, authority, Work, task result, or arrangement adequacy.
-- `A.15.8` governs generic actual-Work or present-WorkPlan performer-support configuration and recovery probes. A.15.8.MS supplies Method-material-specific users, tasks, supports, criteria, and repair returns.
+- `A.15.8` covers the design of recoverable service and assessment of particular Work or WorkPlans. A.15.8.MS supplies the users of Method material, their tasks, support, criteria and repair decisions.
 - `A.19.CPM` governs non-trivial comparison results; `A.19.SelectorMechanism` governs set-valued selection. A.15.8.MS does not turn a configuration pass into a forced winner.
 - `A.22` defines selected structures and their discriminators; a retained candidate, proposal label, colocation, or selected test route establishes none of them.
 - `A.2.2` defines capability; `A.2.8.PER` defines granted permission and exercise; `A.13`, `A.15.1`, and `F.6` define or constrain performer, Work admission, and assignment-bound attribution claims.

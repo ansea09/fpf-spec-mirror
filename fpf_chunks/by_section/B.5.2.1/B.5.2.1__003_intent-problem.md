@@ -6,12 +6,12 @@ section_id: "B.5.2.1:2"
 section_title: "Intent & Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__003_intent-problem.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:2 — Intent & Problem"
-line_start: 52576
-line_end: 52581
+line_start: 52585
+line_end: 52590
 dependencies:
   - "A.17"
   - "A.18"

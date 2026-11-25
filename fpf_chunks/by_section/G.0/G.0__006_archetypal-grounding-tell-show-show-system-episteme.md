@@ -6,12 +6,12 @@ section_id: "G.0:5"
 section_title: "Archetypal Grounding — Tell–Show–Show; System / Episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:5 — Archetypal Grounding — Tell–Show–Show; System / Episteme"
-line_start: 136500
-line_end: 136528
+line_start: 136517
+line_end: 136547
 dependencies:
   - "A.10"
   - "A.17"
@@ -56,13 +56,15 @@ keywords:
 
 #### G.0:5.1 - Archetype 1: System comparability under mixed evidence and unit constraints
 
-**Tell.** Two labs compare energy efficiency results of a physical system where measurements use different rigs and units, and some evidence is missing.
+**Tell.** Two laboratories each test a candidate electric drive on the same specified duty cycle. They want to rank the two drives by energy efficiency. One reports electrical energy in kWh, the other in MJ. The useful output for this comparison is mechanical work delivered at the shaft. Some records are incomplete.
 
 **Show (failure without CG‑Spec).** The team averages an ordinal safety rating, mixes units (“kWh” vs “MJ”), and silently treats missing lanes as zeros. Cross-lab reuse also leaves any differences in measurement meaning and their effects unexplained.
 
-**Show (repair with CG‑Spec).** A conformant `CG‑Spec`:
+**Show (repair with CG‑Spec).** Start with the efficiency question. At the agreed input and shaft boundaries, express useful work and positive electrical input in compatible energy units and compare their ratios over the specified duty cycle. If both drives delivered the same positive useful work, smaller input suffices to rank them. If only input is known, equal consumption is compatible with different useful outputs. A ranking by efficiency then needs another ground.
 
-* pins the lawful comparator(s) (e.g., unit-aligned ratio comparisons only; ordinal comparisons are order-only),
+A conformant `CG‑Spec`:
+
+* specifies the comparator justified for each characteristic, including order comparisons for ordinal safety ratings,
 * declares the `MinimalEvidence` lanes and carriers for each characteristic, together with the freshness windows used in this lab comparison,
 * declares explicit failure behavior wiring (tri-state semantics delegated to `G.Core`),
 * exposes Bridge and bounded-use pins when reuse projects between different local meanings under A.19.CN/F.9; unit conversion within the declared comparison basis follows CN-Spec and SCP,
@@ -76,7 +78,7 @@ keywords:
 
 **Show (repair with CG‑Spec).** A conformant `CG‑Spec`:
 
-* defines a comparator bundle (e.g., Pareto dominance + explicit lexicographic tiebreaks where lawful),
+* defines a comparator bundle for the decision. If safety assurance sets an eligibility condition, apply the declared policy before comparing eligible sets on cost and readiness. When one eligible set is cheaper and another readier, Pareto comparison alone can leave both available. Use a priority between the characteristics only when the decision policy gives it. Otherwise, return the trade-off to the chooser,
 * pins `CNSpecRef.edition` and the editioned segments (`ComparatorSetRef.edition`, `SCPRef.edition`, `MinimalEvidenceRef.edition`),
 * makes `AcceptanceStubs` explicit as templates while locating thresholds in CAL (G.4),
 * ensures RSCR triggers are emitted when comparator or policy pins change.

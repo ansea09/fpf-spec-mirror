@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 96217
-line_end: 96251
+line_start: 96227
+line_end: 96261
 dependencies:
   - "A.1"
   - "A.1.1"

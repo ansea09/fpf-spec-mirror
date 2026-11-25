@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:4 — Solution"
-line_start: 10927
-line_end: 10985
+line_start: 10929
+line_end: 10987
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.39.WI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:4 — Solution"
-line_start: 88802
-line_end: 88979
+line_start: 88812
+line_end: 88989
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -151,7 +151,7 @@ A correct criterion that cannot be performed may instead need different provisio
 
 When the remedy changes the Method, identify and qualify that change. A.3.1.MI connects introduction with the comparison of delivery, mechanism and context; IS.2 and IS.3 supply diagnosis and strategy within a helping undertaking. Their adequate results can enter this repair without repeating their work.
 
-Choose how to obtain the needed contribution. Qualified provision can supply an immediate result. When human mastery is promised, preserve the learner's own required operation and use the applicable HCD practice, feedback and assessment.
+Choose how to obtain the needed contribution. Qualified provision can supply an immediate result. When human mastery is promised, identify the operation the learner needs to acquire. Choose how this person can learn it and use suitable evidence of their own performance under the intended support. Practice with feedback is one such arrangement.
 
 For an AI system, distinguish changes to instructions, retrieval, external state, tools, an evaluation criterion and model parameters, and obtain the corresponding technical method. E.10.LRN explains why those changes support different learning claims.
 
@@ -185,7 +185,7 @@ Estimate the whole burden of reaching and sustaining the useful result: discover
 
 Compare expected and adverse consequences at the strength the evidence permits. Where ranges reverse the choice, identify the uncertainty and ask which affordable observation could discriminate it. Where the same choice survives the plausible range, avoid a measurement exercise that cannot change it. For noncommensurable gains, state the trade-off and the responsible decision instead of hiding it in an arbitrary score.
 
-Select a contribution whose obtaining conditions can be supplied now. State what it should make possible, who will perform the needed work and use its result, what must remain protected, and what observation would change or stop the undertaking. Use the existing programme or decision account when continuity requires one. A priority label without an attainable next action is not an implemented selection.
+When a change is worthwhile, choose one whose required conditions can be met when the work needs them. A decision today can secure a later window if there are grounds for relying on the people, means and permissions by the relevant dates. Identify who will do the work, who will use its result, what must remain protected and which commitments still depend on confirmation. If the choice is deferred, carry the date or event that calls for a decision in the existing programme or decision account. A comparison can also settle the commission now, for example when the only remaining use ends before the change could repay its cost. Give the recipient the grounds for that conclusion.
 
 #### C.39.WI:4.6 - Follow the change into use and renew the search
 

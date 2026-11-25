@@ -6,12 +6,12 @@ section_id: "C.41:0"
 section_title: "Use and combine the checklist Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__002_use-and-combine-the-checklist-methods.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:0 — Use and combine the checklist Methods"
-line_start: 94155
-line_end: 94221
+line_start: 94165
+line_end: 94231
 dependencies:
   - "A.3.1"
   - "A.3.2"

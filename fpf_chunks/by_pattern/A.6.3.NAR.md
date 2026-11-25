@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.NAR.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
-line_start: 20289
-line_end: 20695
+line_start: 20293
+line_end: 20701
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -311,9 +311,9 @@ When the receiver needs exact claim identity, `ArchitectureTradeoff-X` and `Arch
 
 ##### A.6.3.NAR:5.2.1 - Architecture narrative repair after source change
 
-Later, a rejected candidate gains a new measurement basis and a placement constraint changes. The old story remains coherent but no longer preserves the live candidate set. Lower it to historical orientation, update the selected structures and ordering, state the changed loss and residual, and restore return to the current architecture description or decision material. In an exact case, reidentify only source epistemes whose C.2.1 identity changed, and restate the affected construction `n` under A.6.3.
+Later, C2 has a new measurement and the placement rule changes. For an account of decision D, keep the rule and measurements on which D was made. For a choice today, read the new rule first. If it still excludes R for system S, a faster result at R gives no ground for selecting C2. If it permits R, C2 now meets that placement condition. Compare its new measurement with C1’s under a common workload and check the other selection criteria before reporting a preference. Both candidates can remain in the comparison throughout. To report a new selection, identify the decision actually made. For implementation, identify the decision or other current mandate that authorizes that work.
 
-C.33 carries captured and lost architecture-relevant structures: preserve the old rejected-candidate relation as history, capture the new candidate-set relation, and mark the obsolete measurement basis lost for current decision use. C.34 carries only a correspondence that remains. Implementation or decision use stays non-admissible until the architecture claim, decision result, or synthesis result and any required use relation are current.
+Use C.33 to identify which relation the new narrative captures and what its representation leaves out. An earlier measurement can remain relevant to the history of D even when it no longer supports a comparison under the current workload. Use C.34 where a correspondence matters across the two accounts. Update the affected claims and links to their sources. In an exact case, reidentify only source epistemes whose C.2.1 identity changed and restate the affected construction `n` under A.6.3.
 
 #### A.6.3.NAR:5.2.2 - Live unfolding event narrative
 
@@ -323,7 +323,9 @@ Later analysis, statistics, rule disputes, injuries or official-result use retur
 
 #### A.6.3.NAR:5.3 - FPF seminar-route boundary
 
-A team orders selected FPF claims for learners: EntityOfConcern discipline, problem frames, pattern use, relation records, source return, framework authoring, and improvement loops. The first result is a teachable route whose note records prerequisite order, deferred detail, reconstruction tasks, and return to exact FPF passages.
+A seminar team selects a decision record, a method account and the records of performed work. It orders the material by what the learners will need next. In the decision from §5.2, ask first which system the decision concerns and which candidate D selected. A learner can now use the mandatory placement rule and the two sites to explain that choice. Give the class a different question about the same project: “Which candidate did the team actually put into service?” The earlier answer identifies what to look for and in which system. D leaves the outcome open. To answer, the learner needs evidence showing which candidate, if any, actually entered service. An installation record alone can leave entry into service open. Report what the available evidence establishes. The connection matters even if the installation later turns out to be C1. The selection recorded in D and evidence of entry into service answer different questions.
+
+This route connects the entity of concern, the question, the relevant relation and the return to its source. The seminar note names what learners must already know, where they will make these distinctions and where the source can be checked. Framework authoring or an improvement loop can follow when the seminar calls for that work. The design supplies a route a learner can try. An observation of the learner's own response would support a further conclusion about its use.
 
 A separate E.24.PUB occurrence may make a selected narrative episteme available through a teaching form and carrier; publication neither constitutes the narrative episteme nor establishes the NAR construction.
 

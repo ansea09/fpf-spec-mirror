@@ -6,12 +6,12 @@ section_id: "E.17:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__004_problem.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:3 — Problem"
-line_start: 115162
-line_end: 115168
+line_start: 115179
+line_end: 115185
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -48,6 +48,6 @@ keywords:
 
 1. **Semantic drift in publication.** Unchecked presentations introduce claims not present in the C.2.1 source epistemes, including those about the arrow in the optional morphism profile. Each such episteme, including one admitted for specification use, keeps its claim content, EntityOfConcern, and effective `ReferenceScheme`. Publication form, viewpoint reference, scope, or carrier supplies none of those identity discriminators.
 2. **Non‑compositionality in the morphism profile.** Publishing `g∘f` yields faces that do not match composing the faces of `f` and `g`.
-3. **View, viewpoint, and face confusion.** A template or face is treated as the view or viewpoint, without conformance between the selected claim-bearing episteme and the viewpoint episteme.
+3. **View, viewpoint, and face confusion.** A template or publication face is called a viewpoint although its subject, concerns or conformance rules have yet to be fixed. A rendered description is called a view even though its conformance to the selected viewpoint has yet to be established.
 4. **Unpinned numbers.** Numeric claims lack unit, scale, reference‑plane, and **edition pins** from Part F or Part G, undermining auditability.
 

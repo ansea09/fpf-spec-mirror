@@ -6,12 +6,12 @@ section_id: "C.39.RP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:7 — Conformance Checklist"
-line_start: 89318
-line_end: 89329
+line_start: 89328
+line_end: 89339
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

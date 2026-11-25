@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:4 — Solution"
-line_start: 113756
-line_end: 114169
+line_start: 113773
+line_end: 114186
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -386,7 +386,7 @@ Changing only J, an assertion or occurrence description, evaluation result, basi
 
 #### E.17.0:4.8 - Keep selection for one describing use separate
 
-For one current describing use, name the question the reader must answer. When you are to choose the viewpoint, start with a difference that could change the reader’s action or its explanation. For each kind of holon whose composition matters, identify the whole and constituents on which that difference depends. At each needed scale, ask which cases the description may treat alike. Choose a viewpoint whose concerns require the necessary distinctions (C.39.SA:4). For a claim that model C strictly refines model A, fix the inquiry and interpretation. Establish that C has an admissible completion and that every such completion, read in A’s terms, satisfies A’s assertions. Also identify an answer admitted by A that no completion of C can give (B.5.MR:4.2).
+For one current describing use, name the question the reader must answer. When you are to choose the viewpoint, start with a difference that could change the answer to the reader’s question, the grounds for it or the action to take. For each kind of holon whose composition matters, identify the whole and constituents on which that difference depends. At each needed scale, ask which cases the description may treat alike. Choose a viewpoint whose concerns require the necessary distinctions (C.39.SA:4). For a claim that model C strictly refines model A, fix the inquiry and interpretation. Establish that C has an admissible completion and that every such completion, read in A’s terms, satisfies A’s assertions. Also identify an answer admitted by A that no completion of C can give (B.5.MR:4.2).
 
 One description may supply the entire answer. When it takes several, trace each needed conclusion to what the descriptions establish for the original question. Identify what relates their subjects and conditions. If their claims must hold together, establish that they concern compatible objects or situations. If the descriptions express alternative readings, check what follows on each. In a question about joint work, a change in one participant’s choice can alter what another must do for the common result. Follow that dependence through the descriptions the participants can use. A similar label on both pages can leave it invisible. Use C.37.MM:4.1.1 where the inference needs a correspondence. If the commission asks only whether E conforms to a specified P, §§4.1–4.5 give the complete test. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
 

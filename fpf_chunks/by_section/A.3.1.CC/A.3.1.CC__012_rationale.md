@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__012_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:10 — Rationale"
-line_start: 11258
-line_end: 11263
+line_start: 11260
+line_end: 11265
 dependencies:
   - "A.10"
   - "A.15.8.MS"

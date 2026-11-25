@@ -6,12 +6,12 @@ section_id: "E.23.CAE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__010_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:9 — Consequences"
-line_start: 124355
-line_end: 124369
+line_start: 124372
+line_end: 124386
 dependencies:
   - "A.15.7"
   - "A.15.8"

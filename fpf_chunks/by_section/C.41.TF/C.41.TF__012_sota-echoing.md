@@ -6,12 +6,12 @@ section_id: "C.41.TF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__012_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:11 — SoTA-Echoing"
-line_start: 94532
-line_end: 94541
+line_start: 94542
+line_end: 94551
 dependencies:
   - "C.37"
   - "C.41"

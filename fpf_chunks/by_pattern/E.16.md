@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.16.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
-line_start: 113404
-line_end: 113692
+line_start: 113419
+line_end: 113709
 dependencies:
   - "A.10"
   - "A.13"
@@ -52,9 +52,9 @@ keywords:
 
 > **Status:** Stable
 
-**Use this when.** A claim about a local system-role kind, Method or Service gives a System discretion to decide or act within a delegated remit. Identify which System can make the effective choice or perform the bounded action. Start by publishing the claimed autonomy and its limits in an `AutonomyBudgetDecl`, stating whether it is prospective, action-bound or enactment-bound. The rules below govern permission, override, actual Work accounting and publication.
+**Use this when.** A claim about a local system-role kind, Method or Service gives a System discretion to decide or act within a delegated remit. For a proposed remit, determine which kind of System may receive it, which choices it covers, its limits and who can independently override it. Publish the claim and its limits in an `AutonomyBudgetDecl` as prospective, action-bound or enactment-bound. To answer what an existing declaration allows, use its applicable edition. For permission to perform a particular action, identify the actual holders and test their assignments and authority under that declaration. The rules below govern permission, override, actual Work accounting and publication.
 
-A tool can propose a time while a person or a separate authorized scheduling service decides whether to allocate it. Apply the budget to the System that holds the delegated autonomy. Preserve personal confirmation at every point where the governing terms require it.
+A tool can propose a time while a person or a separate authorized scheduling service decides whether to allocate it. In a design, allocate the budget to the kind of holder entrusted with the choice. In an application, establish which System holds that discretion. Preserve personal confirmation at every point where the governing terms require it.
 
 **Builds on:** A.2 / A.2.1 / A.2.5 / A.2.7 / A.15 / A.21; B.3; C.16; E.8; E.10; E.18; F.4; F.6; F.8; F.15; F.17.
 **Coordinates with:** A.13 (Agential Role) and A.17/A.18/A.19/C.16/A.10 for current agency characterization, measurement, and evidence; planned C.9 (Agency Characteristic Profile) only as future consolidation; C.24 (Agent-Tools-CAL) where applicable; G.4, G.5, G.8, G.9, and G.10 (method authoring, selection, and shipping).
@@ -326,7 +326,9 @@ At comparable operational effort, the selected line wins only when an action-sen
 
 ### E.16:9 - Mini conformance checklist (cross-E-F; author's quick use)
 
-1. **Declare the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and A.2.7 incompatibility relation.
+Use the steps for the result commissioned. A prospective declaration can be completed before the first action. Permission, accounting for Work performed and exercising an override each depend on their own grounds.
+
+1. **Declare or recover the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and A.2.7 incompatibility relation.
 2. **Identify the proposed action:** keep an unscheduled budget prospective; use action-bound for a scheduled action, its work-entry claim, real assignments/holders and independent authority. Apply the declared action identity and continuation rule.
 3. **Gate permission to start.** Check the bounded action against the prospective allocation, guards and budget still available after overlapping commitments. Recheck permission-relevant changes and state any condition that must still hold before use.
 4. **Record actual Work:** after independent A.15.1 admission, emit the Work-anchored ledger entry, attribution and actual delta; relate it to prior permission through the policy-supported action match.

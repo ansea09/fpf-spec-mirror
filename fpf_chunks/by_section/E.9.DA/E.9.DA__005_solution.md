@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:4 — Solution"
-line_start: 105146
-line_end: 105445
+line_start: 105161
+line_end: 105460
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,14 +27,14 @@ keywords:
 
 ### E.9.DA:4 - Solution
 
-Read the commissioning problem beside the proposed DRR. Establish who needs the result and whether the commission calls for a comparison or a decision. Identify who has the power to choose when that authority affects the declared use. A board can decide through its applicable rule. A researcher can complete a commissioned comparison before that decision. If a later author needs an adopted answer, identify the effective decision or the choice that remains open. Follow the record to its conclusion, including what it settles about the relevant wholes, parts or model alternatives. Would a clear record of a different decision also pass the stated test? Restore the question or the missing reasoning where the answers diverge. Then establish whether an author can draft from the selected answer, consequences, loci, first action and boundary.
+Read the commissioning problem beside the proposed DRR. Establish who needs the result and whether the commission calls for a comparison or a decision. Identify who has the power to choose when that authority affects the declared use. A board can decide through its applicable rule. A researcher can complete a commissioned comparison before that decision. If a later author needs an adopted answer, identify the effective decision or the choice that remains open. Follow the record to its conclusion, including what it settles about the relevant wholes, parts or model alternatives. Would a clear record of a different decision also pass the stated test? Restore the question or the missing reasoning where the answers diverge. If an author is to draft from the decision, establish whether the record supplies the selected answer, consequences, loci, first action and boundary.
 
-The following result suffices for an ordinary bounded review.
+A bounded review can conclude that a completed comparison supplies the alternatives, consequences and grounds a board needs for its reserved decision. Report that result directly. Use the authoring-readiness coordinates and status below when the receiving question is whether someone can draft or act on an adopted choice. The following information suffices for an ordinary review.
 
-- the exact DRR and declared authoring use;
+- the exact DRR and the use for which its adequacy was questioned;
 - substantive findings, repaired DRR text, or the unchanged checked DRR when the review is clean;
 - the actual predecessor/proposed host evidence when the DRR selects a broad language, ontology, or authoring rule;
-- the first drafting action or first repair; and
+- the next substantive use the record supports, including the choice and its holder where a decision is reserved, or the first drafting action or repair where an author is to act; and
 - the stop or reopen condition.
 
 Plain prose can carry this result. Reserve an assessment-work record, application object, aggregate result episteme, precision-profile record, witness package, or evidence-use package for a use that needs it.
@@ -78,7 +78,7 @@ The names below are for a complete reusable result. Ordinary bounded review can 
 | `DRRKindRestorationCheck` | Pre-repair and post-repair check required when a wording, naming, or precision-restoration proposal can change an FPF-governed meaning. Compare the relevant object kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. A receiving form may use `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with loci when it needs an explicit disposition. |
 | `DRROnticCandidateDisposition` | If the DRR selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
 | `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and concrete-pattern or relation map added or changed, any independently grounded overread that a plausible intended reader could make, and residue that must move from DRR or README into patterns or unfolding structures. |
-| `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, effective floor and source, coordinate-result claims, bounded omitted-question-search disposition, local status, first drafting action or repair, stop or return, reopen, and any grounded non-use boundary. Method, application, Work, witnesses, records, and later authority use remain separate objects or relations. |
+| `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, applicable floor and source, coordinate-result claims, bounded omitted-question-search disposition, supported conclusion, stop or return, reopen and any grounded non-use boundary. For authoring readiness include the local status and the corresponding first drafting action, repair or decision still needed. Method, application, Work, witnesses, records, and later authority use remain separate objects or relations. |
 | `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
 | `DRRDecisionAdequacyEvidenceUseRefs` | References to the independently established relations that support reliance on result claims. Reuse their adequate source and use grounds. Use A.10 when the source-to-use account is still implicit or its provenance, currentness or bounded reliance must remain replayable. |
 | `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages refs to the configuration and the applicable Method, application, Work admission, result, witness, evidence-use, reopen, and grounded non-use values. Status and authority require their direct receiving relations. |
@@ -212,7 +212,7 @@ A correct list of suppliers, a suitable carrier, closed alternative rows, or suc
 | `SelectedLocusObligationClosure` | Are selected content responsibilities and explicit non-responsibilities assigned to selected loci named by value without unclassified selected loci, hidden ontic-candidate decisions, or precision-restoration profile defects that would become pasteable pattern prose? |
 | `FPFContentArchitectureSelectionAdequacy` | Is the selected architecture adequate at the scale of the actual question: contribution or pattern, connected Method family, practice field and DPF, several fields and Suite, or publication/access arrangement? Are retention, addition, split, merge and redistribution of existing content compared where they can change that answer, with the concrete patterns and relations needed for outside claims and boundaries? |
 | `ArchitectureSourceAndViewLossClosure` | Are affected structures, structure kinds, structural views, view losses, missing-structure return conditions, source-use relations, and splits among architecture decision, architecture description, publication, and ontic description decided when the decision uses them? |
-| `DraftingActionability` | Does the DRR state the working problem, positive selected answer, practical change, selected-locus obligation, first drafting action, and nearest boundary plainly? For a broad authoring rule, does the actual predecessor/proposed host replay show that entry, action, result, and effort remain at least as usable? |
+| `DraftingActionability` | When readiness to draft is at issue, does the DRR state the working problem, positive selected answer, practical change, selected-locus obligation, first drafting action, and nearest boundary plainly? For a broad authoring rule, does the actual predecessor/proposed host replay show that entry, action, result, and effort remain at least as usable? |
 | `LexicalAndNamingClosure` | Does actual proposed wording preserve the live kind, claim, relation, ordinary meaning, and first action under E.8 and F.19, using E.10, F.18, A.6.P, C.2.P, or the concrete defining or constraining pattern only where needed? |
 | `SoTAAndEvidenceUseInDecision` | Does each decision-governing source change a decision payload, and are non-SoTA source uses bounded? |
 | `ScopeBoundaryAndNonOverread` | Are the selected decision scope, action-changing outside items, source-use or missing-structure return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? When a specific competing reading is independently grounded and plausible, is the smallest needed correction stated? |
@@ -250,7 +250,7 @@ Common calibration points:
 
 #### E.9.DA:4.5 - Local result status and stop condition
 
-Each status below applies to the DRR under review, required use, effective floor, and qualification window. An ordinary bounded review may state it. Create a C.2.1 aggregate result episteme only when a named later reliance needs that reusable object. A local status neither decides a review nor establishes a gate result, permission, assurance level, or work state.
+For an inquiry confined to the adequacy of a comparison, state what the comparison enables the recipient to decide and where its grounds end. Such a finding can complete the inquiry while the board's decision is still open. Each authoring-readiness status below applies to the DRR under review, required use, effective floor, and qualification window. An ordinary bounded review may state it. Create a C.2.1 aggregate result episteme only when a named later reliance needs that reusable object. A local status neither decides a review nor establishes a gate result, permission, assurance level, or work state.
 
 | Status | Meaning |
 |---|---|
@@ -273,12 +273,12 @@ Keep an ordinary bounded result short. One possible form follows.
 ```text
 E.9.DA bounded review:
   Exact DRR:
-  Required authoring use and its source:
-  Effective floor and source: <E.9.DA default 3 | predeclared higher floor and exact raising source>
+  Required use and its source:
+  Effective floor and source, if a coordinate result is required:
   Actual-host evidence: <required only when a broad authoring rule is selected>
   Substantive result: <findings, including any answer-changing omitted question | repaired text | unchanged checked DRR when clean>
-  Status:
-  First drafting action or first repair: <include the applicable stop or return condition>
+  Authoring-readiness status, if sought:
+  What the recipient can do on these grounds: <use the comparison or identify the remaining choice; for an authoring decision, give the first drafting action or repair; include the applicable stop or return condition>
   Most expansive non-admissible overread?: <only when one is locally warranted>
   Reopen if:
 ```

@@ -6,12 +6,12 @@ section_id: "F.9.1:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__009_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:8 — Consequences"
-line_start: 130864
-line_end: 130871
+line_start: 130881
+line_end: 130888
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

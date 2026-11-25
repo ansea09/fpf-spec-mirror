@@ -6,12 +6,12 @@ section_id: "F.9.1:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__010_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:9 — Rationale"
-line_start: 130872
-line_end: 130877
+line_start: 130889
+line_end: 130894
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

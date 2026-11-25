@@ -6,12 +6,12 @@ section_id: "B.4.1:End"
 section_title: "B.4.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__018_b-4-1-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:End — B.4.1:End"
-line_start: 48338
-line_end: 48339
+line_start: 48347
+line_end: 48348
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 42558
-line_end: 42645
+line_start: 42565
+line_end: 42654
 dependencies:
   - "A.10"
   - "A.15"
@@ -117,6 +117,8 @@ The structure has two potential continuations although this case enables only re
 If the proposal-to-design relation cannot be established, this formal structure claim remains provisional. The ordinary explanation can still report repair as unknown. Do not treat an unknown identity-bearing relation as an established constituent of a qualified CGUS.
 
 A later passing thermal check is a different result episteme and supplies a new case input. With service still satisfied, acceptance becomes enabled and repair becomes disabled. The selected design, proposal, continuation candidates, proposal-to-design relation, constraints, use frame, loci and potential topology are unchanged, so the same CGUS remains available for that new case.
+
+Now hold the original facts fixed and change the review rule. In the second edition acceptance still requires both checks to pass. Under its remit the repair branch can take a targeted proposal only when the service check is violated. In DR-27 the thermal check failed and the service check passed. The first edition therefore makes repair available. The second makes neither acceptance nor repair available for this case. The applied repair constraint has changed. The second structure binds its four loci to the same design, proposal, acceptance continuation and repair continuation respectively. It keeps the proposal-to-design relation and the selection use. Its potential repair continuation now takes the service-violation constraint. The unavailable repair in this case remains a potential branch for a case with a service violation and a targeted proposal. A new printed edition that merely rephrased the original rule while preserving the selected constituents, relations, applied constraints, use frame, bindings and potential branches could still describe the same structure.
 
 #### A.22.CGUS:5.1 - A missing intermediate capability changes the continuation
 

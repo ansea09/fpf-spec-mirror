@@ -6,12 +6,12 @@ section_id: "F.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__005_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:3 — Forces"
-line_start: 134435
-line_end: 134444
+line_start: 134452
+line_end: 134461
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.9.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:1 — Problem frame"
-line_start: 105107
-line_end: 105118
+line_start: 105122
+line_end: 105133
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,7 +31,7 @@ Use `E.9.DA` to judge whether a particular version of a `DRR` can support a decl
 
 For other questions, use `E.21` to judge an authored pattern version, `E.19` to review an FPF pattern edition or bounded subset for admission or refresh, and `F.19` to repair wording, with `E.10` for cues and unresolved meanings. Use `C.16`, `A.17`, `A.18`, and `A.19` for measurement law.
 
-First read the DRR in its declared use and state the working problem, selected answer, practical change, first drafting action, and boundary. If the DRR selects a broad authoring rule, inspect the effect on the actual host by comparing its predecessor and proposed versions before preparing any optional assessment or result materials.
+Read the DRR against the commissioning problem. If the recipient must choose, establish which alternatives and consequences the record lets them distinguish and who has the decision. For drafting from an adopted answer, establish the practical change, first drafting action and boundary. If the DRR selects a broad authoring rule, inspect the effect on the actual host by comparing its predecessor and proposed versions before preparing any optional assessment or result materials.
 
 A formally valid `DRR` can leave the author unable to draft. It may summarize sources without deciding, name neighbors without assigning obligations, hide rejected alternatives, leave trigger words unresolved, or omit the first drafting action.
 

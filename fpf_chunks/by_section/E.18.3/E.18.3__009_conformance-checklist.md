@@ -6,12 +6,12 @@ section_id: "E.18.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:7 — Conformance Checklist"
-line_start: 120306
-line_end: 120322
+line_start: 120323
+line_end: 120339
 dependencies:
   - "A.10"
   - "A.15"

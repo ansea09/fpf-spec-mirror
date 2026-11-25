@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__011_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:10 — Rationale"
-line_start: 80165
-line_end: 80170
+line_start: 80175
+line_end: 80180
 dependencies:
   - "A.1.1"
   - "A.10"

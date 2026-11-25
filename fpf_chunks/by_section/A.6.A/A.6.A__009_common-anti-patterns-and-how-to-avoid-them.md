@@ -6,12 +6,12 @@ section_id: "A.6.A:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23368
-line_end: 23381
+line_start: 23374
+line_end: 23387
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,7 +6,7 @@ section_id: "A.1.STM:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__010_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:8 — Conformance checklist"
@@ -43,7 +43,7 @@ keywords:
 | `CC-A1-STM-4` | Project Work, an admitted project-level network selection or Plain provisional map, and one minimal case placement retain their own identities. |
 | `CC-A1-STM-5` | The point where attention starts is connected to the order of project justification. A noticed difficulty and proactive use of the mantra can reach the same consequential question; an independent non-project inquiry keeps its own scope. Inquiry returns, Work order and obtaining subject relations retain their different meanings. |
 | `CC-A1-STM-6` | Each local answer states the claims and conditions needed by its receiving use, retaining the subject predicates that govern those claims and any unresolved stop. A cited pattern locates the governing content. |
-| `CC-A1-STM-7` | When a local closure claim is needed, the case states four things in ordinary language: the exact subject or claim; the bounded references and direct claims needed to answer this closure question; the separately governed closure basis; and one named downstream receiving use that remains outside the closed case. Ordinary design inquiry keeps its question, supported answers, joint conditions and next useful action without requiring that closure claim. |
+| `CC-A1-STM-7` | Can the recipient tell which subject or claim the closure covers, which facts and references support the conclusion, and which rule makes them sufficient? Where a use matters to the question, does the account distinguish its part in the closure decision from the grounds for an answer about the use itself? For an ordinary design inquiry, keep the question, supported answers, joint conditions and next useful action visible. |
 | `CC-A1-STM-8` | An admitted network has independently identified members, exact obtaining cross-member relations, applied constraints, a use frame, and complete endpoint bindings; otherwise that network proposal stays provisional. A shared systemic account does not by itself require this stronger claim. |
 | `CC-A1-STM-9` | Expected environmental effect, actual runtime transformation and system participation, production, identity inception, completion, later change, and use are separately grounded; required behaviour is not actuality, and no not-yet-existing system is transformed. |
 | `CC-A1-STM-10` | Evidence is bound to its claim, assurance is limited to a named reliance use, and changed grounds reopen only the smallest affected answer. |

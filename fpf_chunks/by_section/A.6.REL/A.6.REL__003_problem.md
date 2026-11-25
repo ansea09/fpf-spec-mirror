@@ -6,12 +6,12 @@ section_id: "A.6.REL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__003_problem.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:2 — Problem"
-line_start: 16520
-line_end: 16537
+line_start: 16522
+line_end: 16539
 dependencies:
   - "A.6.0"
   - "A.6.5"

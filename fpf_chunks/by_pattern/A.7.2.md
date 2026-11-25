@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.2.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
-line_start: 27056
-line_end: 27294
+line_start: 27063
+line_end: 27301
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -80,7 +80,7 @@ Reconciliation follows each disputed conclusion to its grounds. When the dispute
 1. Name the disputed receiving claim or decision. Recover the wording, edition, scope and intended force of each clause. Are they alternatives under consideration, or must they govern the same decision together?
 2. To compare rules, choose a situation in their common scope that the shared background conditions allow. Follow each clause under the same facts and interpretation to what it requires, permits, rules out or leaves open. One admissible case that would require incompatible answers establishes a conflict for joint use over the proposed range. Agreement in one case settles only that case unless the reason for agreement covers the range.
 3. When the question concerns actual applications, recover the result claim or decision, the facts, the clause or premise applied and the practical consequence for each. Recover dated Work and source-use occurrences to the extent the historical claim needs them. Use A.7.CP reasoning-basis occurrences for claims actually used.
-4. Compare the consequences for the same receiving use. One clause can leave a choice open that the other settles. Check whether both can be honored, including any right each would grant. Where differing scopes remove the conflict, explain the split. A decision that both clauses support in one case can be returned for that case even if their consequences differ elsewhere. A conclusion about compatibility across their shared domain needs grounds covering that domain.
+4. Compare the consequences for the same receiving use. One clause can leave a choice open that the other settles. Check whether both can be honored, including any right each would grant. Where differing scopes remove the conflict, explain the split. A decision that both clauses support in one case can be returned for that case even if their consequences differ elsewhere. A conclusion about compatibility across their shared domain needs grounds covering that domain. If the commission asks whether a procedure can honor both rules in operation, consider what the performer can know when each commitment falls due. Among the histories still possible on the information then available, is there a permitted move with a workable continuation in every one? A later observation may allow those continuations to differ. If no move works before an irreversible deadline, identify the incompatible demands on that decision and what earlier information, available action or changed timing could resolve them. The two rules can still be in force.
 5. Compare source content through direct evidence, formal-semantics, domain, scope, and currentness patterns. Do not rank source labels.
 6. Translate candidate distinctions into FPF objects and constructive consequences. Test them against subject evidence and only the `A7CP-*` claims used by the reconciliation work.
 7. When the comparison establishes a defective clause or subject-pattern decision, repair the smallest affected decision set. Follow the changed rule through the disputed case and check its consequences over the range for which compatible use is claimed. Re-evaluate the affected recorded conclusions under the repaired clauses when the receiving decision relies on them. Where the grounds warrant neither correction, use the appropriate `doNotCompose` or `unresolvedEscalation` result under §4.2.
@@ -217,7 +217,7 @@ The dominant biases are prestige hierarchy, forced convergence, and formal-shape
 
 | ID | Check |
 |---|---|
-| `CC-A7.2-1` | For proposed joint use, the conflict follows from incompatible consequences of the applicable clauses under an admissible common condition. For reported disagreement in practice, it is grounded in the actual conclusions under the relevant editions, facts and scopes. |
+| `CC-A7.2-1` | For comparison of rules, show the consequences of the applicable clauses under common admissible conditions. When the claim concerns a procedure that can meet them throughout a range, include the information and choices available when the procedure must act. It can fail even when a different choice in hindsight would work in each history. For reported disagreement, establish the actual conclusions under the relevant editions, facts and scopes. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
 | `CC-A7.2-3` | Keep the reader, pattern episteme, described Method and result distinct. Any MethodDescription claim satisfies A.3.2. For an asserted dated reconciliation Work, retain the independent A.13/A.15.1 basis in §0, including the separately admitted assignment species and obtaining occurrence used by A.13; add F.6 only for the precise attribution consumed. A short result may omit unused identifiers without presuming their facts. |
 | `CC-A7.2-4` | Cite the common claim from `A.7.CP` on which the comparison depends. Establish a reasoning-basis occurrence when the conclusion concerns the use of that claim by particular Work. |

@@ -6,12 +6,12 @@ section_id: "A.15.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:5 — Archetypal Grounding"
-line_start: 32646
-line_end: 32712
+line_start: 32653
+line_end: 32719
 dependencies:
   - "A.1"
   - "A.1.STM"

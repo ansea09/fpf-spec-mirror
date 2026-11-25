@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__004_problem.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:2 — Problem"
-line_start: 83292
-line_end: 83303
+line_start: 83302
+line_end: 83313
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -29,7 +29,7 @@ For example, a box for “development” can stand for a Method, a team, a propo
 
 Separately plausible arrangements can conflict when combined. The same leader may be needed to run current work, help others and develop their own capability in the same hour. A local incentive to finish quickly can prevent the examination and revision the culture requires. A provider can complete its contracted activity without leaving a client able to continue. More capable AI can invalidate a human bottleneck assumption while leaving permissions, physical access or the learner's own practice unchanged.
 
-The recurring problem is to construct and compare complete arrangements across these relations and scales, then supply a decision and requirements for a feasible local enactment. The comparison must be allowed to change the allocation, grouping, means, Method connection or intended remit. Otherwise architecture becomes justification of the first office proposal.
+The recurring problem is to construct an arrangement whose contributions fit together across these relations and scales. When the commission requires a comparison, identify the allocations, groupings, means and Method connections that can vary. Trace the effect of those differences on the result. A change of remit goes to whoever can authorize it. A commission to decide or to put the arrangement into operation also requires the corresponding authority and conditions.
 
 A one-stack account also mistakes Method composition for Work order and description layers. Different views of the same relations can be mistaken for architecture alternatives. The resulting decision can assert obtaining architecture before its relations exist or miss a first–then guard because everything is described as concurrent.
 

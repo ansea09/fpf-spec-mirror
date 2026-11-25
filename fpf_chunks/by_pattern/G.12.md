@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.12.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
-line_start: 142037
-line_end: 142309
+line_start: 142056
+line_end: 142328
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -315,7 +315,7 @@ G.12 counters screen-first, “latest”-by-default, scalar-winner, and publicat
 
 ### G.12:11 — Worked Micro-examples
 
-**Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. A row showing 60% adoption among respondents gives the number who replied, the number eligible and the period. The portfolio owner asks whether at least half of all eligible units adopted the practice. Show the C.21 result for that population. If every admissible count reaches the threshold, it is met. If every count falls short, it is missed. Two admissible counts on opposite sides leave the answer open. If only an outer bound crosses the threshold, report the limit of that calculation. A tighter calculation with the existing observations may settle the question. The owner decides what to do. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
+**Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. A row showing 60% adoption among respondents gives the number who replied, the number eligible and the period. The portfolio owner asks whether at least half of all eligible units adopted the practice. Use an established C.21 result for that population. When deriving the verdict from incomplete counts, first establish that at least one assignment of statuses fits the population and the evidence used. If the records are jointly inconsistent, report that conflict. If feasibility is unresolved, say what the records still establish. For a nonempty set of admissible counts, if every count reaches the threshold, it is met. If every count falls short, it is missed. Two admissible counts on opposite sides leave the answer open. If only an outer bound crosses the threshold, report the limit of that calculation. A tighter calculation with the existing observations may settle the question. The owner decides what to do. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
 
 **Evolutionary architecture dashboard.** A `DHCSeries` episteme orders exact reproducibility and DisruptionBalance results over declared windows. An optional open-ended panel shows transfer events as telemetry. A later E.24.PUB occurrence makes the selected series edition available to a named audience in dashboard form; that occurrence neither changes the series content nor turns the rendering Work into the health result.
 

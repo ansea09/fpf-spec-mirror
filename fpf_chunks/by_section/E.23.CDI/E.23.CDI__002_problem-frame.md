@@ -6,12 +6,12 @@ section_id: "E.23.CDI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:1 — Problem frame"
-line_start: 123879
-line_end: 123901
+line_start: 123896
+line_end: 123918
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -30,7 +30,7 @@ Use this pattern when one named System must become more capable of performing a 
 
 **First useful move.** Distinguish the current capability account from the target.
 
-`Current:` name the holder, the named Work family, operating envelope, measures and evidence for the baseline, the contribution that limits performance, and how long that account remains current.
+`Current:` name the holder, the named Work family, operating envelope, measures and evidence for the baseline, what is known about the limit on performance, and how long that account remains current.
 
 `Target:` name the desired measures or success predicate, representative Work that will test them, intervention and any provider, and trade-offs that must remain protected. In both accounts, use only values that can change the development decision. If the holder or Work family cannot be named, stop before choosing training, tooling, or another intervention.
 
@@ -41,7 +41,7 @@ Use this pattern when one named System must become more capable of performing a 
 **Not this pattern when.**
 
 - Use `A.2.2` when the question concerns only the holder's identity, qualified ability, measures, support or current reliance on that ability. If the present result can be obtained from an already capable provider and no change to the named holder is needed, arrange that provision using its qualified ability and the applicable work or commitment method.
-- Use `E.23.CAE` first when previous performance or failed transfer leaves it unclear whether the live issue is envelope, configuration, applicability selection, access or activation, context-dependent expression, adaptation, enactment, or actual capability change. Its disposition is a premise, not selection of development Work.
+- Use `E.23.CAE` when the commission asks for a diagnosis or when distinguishing the surviving explanations would change what to do next. Earlier performance or failed transfer can raise questions about the claimed range, configuration, applicability, access, expression, adaptation, enactment or actual capability change. The finding can trigger an existing conditional instruction or inform a choice that remains open.
 - Run the direct evaluation when that is enough; use E.22 only when its question needs framing.
 - Use base `E.23` for repeated improvement of an arbitrary object version.
 - Use `C.32.MWA` first only when the target-practice architecture must itself be recovered or compared.

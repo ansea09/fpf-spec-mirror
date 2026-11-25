@@ -6,12 +6,12 @@ section_id: "B.2.5:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__008_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:5.4 — Bias-Annotation"
-line_start: 46780
-line_end: 46788
+line_start: 46789
+line_end: 46797
 dependencies:
   - "A.1"
   - "A.10"

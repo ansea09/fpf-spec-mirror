@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__004_problem.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:0.2 — Problem"
-line_start: 108373
-line_end: 108376
+line_start: 108388
+line_end: 108391
 dependencies:
   - "A.10"
   - "A.15.1"

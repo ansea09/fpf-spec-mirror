@@ -6,12 +6,12 @@ section_id: "E.14:8"
 section_title: "Conformance Checklist (normative author duties in reasoning and writing)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-duties-in-reasoning-and-writing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:8 — Conformance Checklist (normative author duties in reasoning and writing)"
-line_start: 113011
-line_end: 113081
+line_start: 113026
+line_end: 113096
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -38,8 +38,8 @@ keywords:
 | **CC-E14-10 (Structural grounding handshake).** | When a publication elects `B.3.5` for a structural parthood or collection-belonging assertion, the author **SHALL** keep the readable claim first, declare `validationMode=axiomatic`, and link through `tv:groundedBy` to exactly one current C.2.1 construction-trace episteme in the applicable C.13 form: `sum` or `slice` for structural parthood, or `set` for collection belonging. Another named current assurance requirement governs its own obligations. Outside those conditions, a direct structural claim has no E.14 mode, link, or trace obligation. In every case, the direct relation pattern and the candidate's identity or reidentification rule decide occurrence and continuity; a trace and mode create neither. | Makes selected construction assurance inspectable while keeping ordinary use, ontology, identity, and currentness separate. |
 | **CC‑E14‑11 (Postulate and empirical-result bindings).** | Authors **SHALL** retain the elected profile's actual support obligations. A permitted B.3.5 `postulate` states scope, links an admissible evidence object and gives empirical challenge cues. Reliance on an evaluation or measurement result **SHALL** preserve its necessary subject, result, scope, interpretation and source grounds. Where consumed, dated Work has its A.13 performer basis and independent A.15.1 admission, enacted Method and applicable bindings; F.6 supplies assignment-bound attribution. MethodDescription, classification, result-episteme identity and temporal qualification are retained when required by the claim or profile. Use A.10 when the source-to-use account needs explicit recovery or replay and B.3 for a current assurance claim. | Keeps empirical support and selected obligations recoverable without creating unused identities or a universal provenance route. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model epistemes **SHALL** make the expression conditions needed for their intended use recoverable under C.2.3. Use stable terms and explicit conditions where ambiguity would change that use; a separate profile or local score is needed only when a receiving comparison or check consumes it. Readability remains a separate Working-Model duty. Any composite-F cap applies to the assessed expression and its essential content or inference under C.2.3, not automatically to external evidence. An assurance use consumes F only when its own argument needs it. | Makes required expression properties recoverable without a universal formality rank. |
-| **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
-| **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep recognition-first working text distinct from the heavier assurance text. The assurance text **MAY** refine and justify the working text, but it **SHALL NOT** silently change the recognition-text claim. If the pattern claims broad or transdisciplinary reach, the working text **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
+| **CC‑E14‑13 (Self-contained working explanation).** | Readers **MUST** be able to understand the problem, use the working model and find the grounds it supplies without access to nearby project notes. Keep a detail, argument or worked passage when its removal would cost the reader that ability. | Keeps the working explanation usable on its own. |
+| **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** give the reader the working account and identify what further assurance can justify. The assurance account **SHALL** preserve the meaning of the working claim. For a claimed use across disciplines, the working account **SHOULD** show early how the common relation applies in the relevant disciplines and where the correspondence holds. An `F.16` comparison or a direct account of those interpretations can serve this purpose. | Makes the claimed reach and the grounds needed for reliance intelligible to the reader. |
 
 
 

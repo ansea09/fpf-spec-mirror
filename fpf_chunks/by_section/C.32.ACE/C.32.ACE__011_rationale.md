@@ -6,12 +6,12 @@ section_id: "C.32.ACE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__011_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:10 — Rationale"
-line_start: 82299
-line_end: 82304
+line_start: 82309
+line_end: 82314
 dependencies:
   - "A.10"
   - "A.15.1"

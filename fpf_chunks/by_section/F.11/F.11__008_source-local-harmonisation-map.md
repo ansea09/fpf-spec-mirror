@@ -6,12 +6,12 @@ section_id: "F.11:7"
 section_title: "Source-local harmonisation map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__008_source-local-harmonisation-map.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:7 — Source-local harmonisation map"
-line_start: 131334
-line_end: 131345
+line_start: 131351
+line_end: 131362
 dependencies:
   - "A.13"
   - "A.15"

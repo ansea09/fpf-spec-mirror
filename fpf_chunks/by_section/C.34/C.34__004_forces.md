@@ -6,12 +6,12 @@ section_id: "C.34:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:3 — Forces"
-line_start: 85313
-line_end: 85322
+line_start: 85323
+line_end: 85332
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,5 +52,5 @@ keywords:
 | Formal rigor vs practitioner action | Formal mapping modes help only when preserved and lost structure are named in architecture terms. |
 | Shape vs semantics | Two graphs, views, or diagrams can have the same shape while their relation types differ. |
 | Compression and loss | Identify which relation the receiving work has to recover through a projection, model or narrative. Test the links used in its derivation. A supported end-to-end correspondence can resolve an end-to-end question. Establish the individual links when the answer relies on them or the commission asks about them. |
-| Cross-context reach | A mapping across teams, source traditions, tool models, or holon levels needs the Bridge predicate and conformance test when substitution or transfer is claimed. |
+| Cross-context reach | A change of team, tool or composition scale can preserve the relevant meanings or change them. Establish the structural correspondence needed in the claimed direction. A transfer between different local senses also needs its semantic Bridge. |
 

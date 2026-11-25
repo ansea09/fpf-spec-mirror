@@ -6,12 +6,12 @@ section_id: "C.3.A:End"
 section_title: "C.3.A:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__012_c-3-a-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:End — C.3.A:End"
-line_start: 59433
-line_end: 59434
+line_start: 59442
+line_end: 59443
 dependencies:
   - "A.15"
   - "A.15.1"

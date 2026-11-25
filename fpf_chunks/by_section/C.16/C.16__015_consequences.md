@@ -6,12 +6,12 @@ section_id: "C.16:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__015_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:13 — Consequences"
-line_start: 61639
-line_end: 61646
+line_start: 61648
+line_end: 61655
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "B.5.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:3 — Forces"
-line_start: 52878
-line_end: 52884
+line_start: 52887
+line_end: 52893
 dependencies:
   - "A.7.1"
   - "B.5"

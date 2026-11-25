@@ -6,12 +6,12 @@ section_id: "G.3:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__007_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:6 — Bias‑Annotation"
-line_start: 137987
-line_end: 137996
+line_start: 138006
+line_end: 138015
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -62,7 +62,7 @@ keywords:
 
 CHR authoring is where many biases become “baked in” as measurement choices. Typical risks:
 
-* **Proxy bias:** a convenient observation can depend on several participants’ contributions. Establish how the observable bears on the stated property of this bearer in these conditions. A shorter time to prepare a book may support a claim about the service after it acquired a faster scanner. To attribute the improvement to the operator’s newly acquired skill, establish the operator’s performance under comparable conditions. Retain `ObservableOf`, the `ReferencePlane` and examples that make the measurement interpretable.
+* **Proxy bias:** a convenient observation can depend on several participants’ contributions. Establish how the observable bears on the stated property of this bearer in these conditions. A shorter time to prepare a book may support a claim about the service after it acquired a faster scanner. To establish a gain in the operator’s skill, compare the operator’s own work under comparable support. To attribute a change in service time to that gain, establish how the changed operation affected completion of the service. If scanning still determines the completion time, quicker sorting can improve the operator’s performance without shortening the service. Retain `ObservableOf`, the `ReferencePlane` and examples that make the measurement interpretable.
 * **Population and protocol shift:** a change in sampling or protocol can alter the interpretation or applicability of a reported value, or the characteristic’s meaning when that procedure is part of its definition. Retain the population, protocol edition and use conditions, including any applicable validity or freshness window. Reconsider dependent claims when those conditions change. Use the corresponding RSCR trigger for a freshness/decay event or a change to the supporting evidence.
 * **Ordinal misuse bias:** ordinal ratings treated as interval/ratio by convenience. Mitigation: publish scale type + admissible transforms; legality matrix + guard macros; reject coordinate upgrades without proof hooks.
 * **Cross-tradition meaning bias:** an imported expression erases its source-local meaning or makes a changed bearer, scope, window, reference plane, evidence basis, or intended use disappear. Mitigation: name those values, cite exact `F.17` cells and an `F.9` relation only when it obtains, and keep any downstream bounded-use claim explicit under `C.2.1` and `F.9`, with evidence-bearing reliance governed by `A.10` and any applicable `B.3` assurance requirement. Retain any mapping limitation and any justified penalty under the applicable `G.Core` rule.

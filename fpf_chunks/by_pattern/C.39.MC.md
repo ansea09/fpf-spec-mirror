@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.MC.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
-line_start: 89626
-line_end: 89844
+line_start: 89636
+line_end: 89854
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

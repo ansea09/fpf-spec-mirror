@@ -6,12 +6,12 @@ section_id: "G.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:9 — Consequences"
-line_start: 139260
-line_end: 139267
+line_start: 139279
+line_end: 139286
 dependencies:
   - "C.11"
   - "C.18"

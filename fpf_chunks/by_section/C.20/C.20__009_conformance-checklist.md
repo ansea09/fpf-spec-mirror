@@ -6,12 +6,12 @@ section_id: "C.20:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7 — Conformance Checklist"
-line_start: 65447
-line_end: 65467
+line_start: 65456
+line_end: 65476
 dependencies:
   - "A.1"
   - "A.14"
@@ -45,7 +45,7 @@ keywords:
 | `CC-C20-4` | Contribution claims and other whole-forming facts are stated in ordinary domain language and retain their direct predicate, local-claim, or reusable-definition disposition. |
 | `CC-C20-5` | The assembly names exact parts, relations, required contributions, alternatives, incompatibilities, boundary, stop conditions, and substitution conditions. A card or trace is not its cause. |
 | `CC-C20-6` | The direct reidentification rule says which part, relation, coupling, boundary, and characteristic changes preserve or end the whole. |
-| `CC-C20-7` | At least one exact A.17 Characteristic is composition-grounded and not reducible to one constituent, count, label, or external health score; A.18 governs its Scale and C.16 opens only for an actual measurement. |
+| `CC-C20-7` | At least one exact A.17 Characteristic is composition-grounded and not reducible to one constituent, count, label, or external health score; A.18 governs its Scale. C.16 governs the design of a measurement and the interpretation of a measured value when either is required. |
 | `CC-C20-8` | Candidate-side interfaces and identity-preservation conditions fit at least one governed possible larger field assembly; an actual larger-discipline part claim still needs its own obtaining occurrence. |
 | `CC-C20-9` | Domain names, epistemes, Methods, systems, Work, structures, Bridges, comparisons, publications, evidence, and decisions remain with subject patterns unless the separate C.20 part predicate obtains. |
 | `CC-C20-10` | Any selected bounded-model-use structure is optional, independently identified, tied to one named receiving use, and creates no part, holon, subkind, viewpoint count, breadth, or identity. |

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:5 — Archetypal Grounding"
-line_start: 18952
-line_end: 18979
+line_start: 18956
+line_end: 18983
 dependencies:
   - "A.15"
   - "A.20"
@@ -44,7 +44,7 @@ keywords:
 
 A variant that keeps all three conditions but adds `therefore release is approved` is rejected at the same comparison: the source states preconditions and an exception rule, not current approval status.
 
-The faithful candidate remains with its linked source, and the invented-status variant is discarded; the local comparison needs no separate card or C.2.1 dossier. If the faithful candidate will be cited in a release decision, the exact branch identifies `X`, `Y`, and `c` and adds only the source, work, evidence, gate, or assurance relations that decision needs.
+Keep the faithful candidate with its linked source and discard the invented approval. The local comparison gives the team the release conditions. If the decision also requires a trace to the exact source edition, identify `X`, `Y`, and `c` and add the source, work, evidence, gate, or assurance relations required for that decision.
 
 **Manager orientation summary.** Source episteme `IR-42-X` states trace, confidence-band, alternative-branch, and incident claims about incident `IR-42` under its effective incident-analysis scheme. Coarsened episteme `IR-42-Manager-Y` states the narrower cache-failover orientation claim about the same incident under its effective briefing scheme. `ManagerCoarsening : X -> Y` preserves the leading-concern claim, drops confidence bands and alternatives, and returns to `X`. A dashboard tile and its carrier expose `Y`.
 
@@ -52,7 +52,7 @@ The faithful candidate remains with its linked source, and the invented-status v
 
 **Redacted functional-description publication.** Source episteme `FunctionalArchitecture-X` states flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception claims about one system. Partner episteme `FunctionalPartner-Y` concerns the same system; `PartnerFunctionalCoarsening : X -> Y` preserves the main flow claim, removes exceptions and measurement detail, permits bounded coordination orientation, and returns to `X`. A partner table and carrier expose `Y` through E.24.PUB.
 
-**Coarsened narrative briefing.** Source episteme `ArchitectureCandidates-X` states three candidate, two trade-off, and one unresolved-constraint claims about one system. Briefing episteme `CandidateBriefing-Y` concerns the same system. NAR supplies the narrative-ordering account; CSC supplies the declared omission of alternatives, orientation-only use, and return to `X`. The briefing form is neither endpoint.
+**Coarsened narrative briefing.** Use the decision record in A.6.3.NAR:5.2. For the question “Which candidate did D select for system S?”, the briefing can say “D selected C1.” It omits the sites, the measurements and the reason. A listener who asks why the team passed over C2 needs the reason back: the rule required processing at Plant P, and C2 would process at R, outside Plant P. C2 had lower measured median latency under the same workload W. Neither its speed nor the selection recorded in D supplies authorization to implement. For a choice under a new placement rule, return to the current rule and comparable measurements. NAR orders the explanation, while CSC establishes what the shorter answer can preserve for the stated use.
 
 **Exceptional interop-facing simplification.** Source episteme `ExchangeComparison-X` states the bounded source-local claims and comparison or Bridge dependencies. Orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; establish the operative relation and support its bounded use under its governing pattern, or return to `X`. When the claim needs a Bridge between local senses with different interpretation bases, use F.9 and a separate bounded-use claim. An F.9.1 stance note may explain that claim but cannot replace it.
 

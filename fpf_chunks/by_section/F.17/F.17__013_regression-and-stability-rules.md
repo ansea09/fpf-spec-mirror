@@ -6,12 +6,12 @@ section_id: "F.17:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__013_regression-and-stability-rules.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:11 — Regression and stability rules"
-line_start: 133491
-line_end: 133503
+line_start: 133508
+line_end: 133520
 dependencies:
   - "A.1.1"
   - "A.10"

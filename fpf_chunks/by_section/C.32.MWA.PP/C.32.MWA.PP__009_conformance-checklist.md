@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:7 — Conformance Checklist"
-line_start: 83770
-line_end: 83792
+line_start: 83780
+line_end: 83802
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -31,8 +31,8 @@ Use these questions on the arrangement being constructed; they do not require a 
 - [ ] Each Method and candidate account keeps its prior status. A missing subject Method or join is named in the return, not replaced with a role or office label.
 - [ ] A consequential result can be followed through its subject, applicable Method, intended Work, capable performer, means, authority and receiving condition.
 - [ ] Each selected structure can change the decision. Method composition or unfolding, Work parthood, overlap and first–then guards, allocation, support, description and cultural relations retain their meanings.
-- [ ] Serious alternatives differ in direct relations, not view or format; they retain the feasible incumbent and applicable ordinary-workplace, common, specialized, federated, external or AI-based provision without requiring a new office.
-- [ ] The comparison exposes the interaction or moved burden that can reverse the choice, including qualified shared resources, recurring work, windows, continuing obligations and the transition.
+- [ ] When a comparison is required, the serious alternatives differ in operative relations. Include a feasible incumbent and other forms of provision when they matter to the choice.
+- [ ] The account shows how the contributions can be obtained together. For a comparison it also identifies interactions or transfers of burden that can reverse the choice, including demands on shared resources, recurring work, deadlines, continuing obligations and transition costs.
 - [ ] Commitments distinguish who can assess, assign, authorize, supply and accept. Agreements or changed authority remain conditional until effective.
 - [ ] A sufficient current arrangement or realization is preserved. Additional implementation or trial has a worthwhile contribution, feasible conditions, observations, stop and recovery.
 - [ ] The realization receives the remaining contribution and return condition; it distinguishes a supplied result, Method enactment, supported capability and unpromised rescue.

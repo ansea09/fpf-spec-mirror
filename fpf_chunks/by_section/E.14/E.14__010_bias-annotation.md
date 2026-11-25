@@ -6,12 +6,12 @@ section_id: "E.14:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__010_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:7 — Bias-Annotation"
-line_start: 112997
-line_end: 113010
+line_start: 113012
+line_end: 113025
 dependencies:
   - "B.3.5"
   - "C.13"

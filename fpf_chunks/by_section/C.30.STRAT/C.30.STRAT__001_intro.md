@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:intro — Intro"
-line_start: 76576
-line_end: 76591
+line_start: 76586
+line_end: 76601
 dependencies:
   - "A.10"
   - "A.15"

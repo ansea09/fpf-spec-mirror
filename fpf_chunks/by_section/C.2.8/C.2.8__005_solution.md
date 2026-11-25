@@ -6,12 +6,12 @@ section_id: "C.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:4 — Solution"
-line_start: 57147
-line_end: 57242
+line_start: 57156
+line_end: 57251
 dependencies:
   - "A.17"
   - "A.18"
@@ -94,7 +94,7 @@ A design walkthrough, an actual reading and a formal-model estimate can concern 
 
 An observed response establishes the structure recovered in that trial and can ground an estimate of what is extractable. One success does not establish a maximum or reliability for a population; one failure does not establish impossibility. A computational procedure can support an exact bounded result when its operation and selected structure make that result derivable.
 
-Repeat or perturb a reading when the receiving use needs a claim about robustness or transfer. Preserve the first response before giving a changed condition or further help. Success under the new condition strengthens the corresponding changed-condition claim; it does not add structure to the original result by itself.
+For robustness or transfer, use a pertinent earlier comparison or a derivation that covers the claimed variation. Obtain another reading when the available grounds leave the question open or a new performance is commissioned. Preserve the first response before a change or further help when the claim depends on what the reader could discern unaided. Success under the new condition strengthens the corresponding changed-condition claim; it does not add structure to the original result by itself.
 
 For a cold-reader check, obtain the instruction from the publication, its declared prerequisites and the knowledge presupposed for the intended reader. The task may supply case facts. A prompt can name a relation and ask readers to find where it holds or apply it to a decision. To assess whether readers can select the relevant relation, leave that choice to them. If the prompt supplies an explanation missing from the publication, the response shows what readers could do with that additional help. Use F.19 to repair the publication before claiming that the publication itself supplied the action.
 

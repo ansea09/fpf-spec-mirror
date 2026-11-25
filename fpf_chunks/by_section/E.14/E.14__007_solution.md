@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:4 — Solution"
-line_start: 112768
-line_end: 112846
+line_start: 112783
+line_end: 112861
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -98,6 +98,6 @@ An ordinary result may omit identifiers it does not consume while keeping all fa
 >
 > Use A.10 when the source-to-use relationship must be made explicit or replayable, retaining already sufficient direct support; use F.6 for consumed assignment-bound attribution and B.3 for a current assurance claim. Each remains governed by its own conditions.
 
-> **E.14‑P.8 – Working-model-first is not explanation-thin.**
-> Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.
+> **E.14‑P.8 – Explain what the working model lets the reader decide.**
+> When a pattern claims a Working‑Model benefit, it **SHALL** state the problem and give the grounds the reader needs to recognize it, use the model’s distinctions and know when the decision also needs assurance. A direct account, a comparison or a worked case can supply those grounds under E.7. Preserve the part of the explanation on which the reader’s judgement depends.
 

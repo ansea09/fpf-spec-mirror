@@ -6,12 +6,12 @@ section_id: "G.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__007_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:6 — Bias-Annotation"
-line_start: 136529
-line_end: 136537
+line_start: 136548
+line_end: 136556
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "C.32.HCS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:3 — Forces"
-line_start: 81683
-line_end: 81692
+line_start: 81693
+line_end: 81702
 dependencies:
   - "A.19"
   - "C.11"

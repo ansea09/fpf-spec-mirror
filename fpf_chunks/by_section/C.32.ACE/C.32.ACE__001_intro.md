@@ -6,12 +6,12 @@ section_id: "C.32.ACE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:intro — Intro"
-line_start: 82115
-line_end: 82120
+line_start: 82125
+line_end: 82130
 dependencies:
   - "A.10"
   - "A.15.1"

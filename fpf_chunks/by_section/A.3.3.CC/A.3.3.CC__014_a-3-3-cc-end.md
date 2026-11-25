@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:End"
 section_title: "A.3.3.CC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__014_a-3-3-cc-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:End — A.3.3.CC:End"
-line_start: 13011
-line_end: 13012
+line_start: 13013
+line_end: 13014
 dependencies:
   - "A.17"
   - "A.18"

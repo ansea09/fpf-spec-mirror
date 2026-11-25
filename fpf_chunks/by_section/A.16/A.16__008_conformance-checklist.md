@@ -6,12 +6,12 @@ section_id: "A.16:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:7 — Conformance checklist"
-line_start: 35150
-line_end: 35168
+line_start: 35157
+line_end: 35175
 dependencies:
   - "A.13"
   - "A.15.1"

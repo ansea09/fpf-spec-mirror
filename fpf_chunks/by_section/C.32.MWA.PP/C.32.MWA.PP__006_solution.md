@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:4 — Solution"
-line_start: 83320
-line_end: 83569
+line_start: 83330
+line_end: 83579
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -25,9 +25,9 @@ keywords:
 
 C.32.MWA recovers the several structures and their actual or prospective status. The construction here uses that account to design and compare realizable performance and provision: connect each needed result to a Method, make the receiving joins work, and obtain a feasible allocation of capability, time, means and authority. An already adequate architecture account is reused; the detailed comparison below is needed only for the arrangement question it leaves open.
 
-Connect the supplied practice to possible and actual performance, construct materially different arrangements, compare their interactions on one bounded basis, and return an explained decision with realization or reconsideration conditions. C.32.MWA supplies the several-structure synthesis, C.30.ASV:4.5a the choice of questions and relations, C.11.CRC the finite comparison, and C.11 or a sufficient domain decision Method the choice.
+Connect the supplied practice to possible or actual performance and show how the contributions would produce the required result together. For a choice among alternatives, take the proposed arrangements or construct materially different ones when development is part of the commission. Establish missing interactions that matter to the comparison, compare the arrangements on a common basis and explain the choice and its conditions. C.32.MWA supplies the synthesis across structures, C.30.ASV:4.5a the choice of questions and relations, C.11.CRC the finite comparison, and C.11 or a sufficient domain decision Method the choice.
 
-The sections below explain connected questions, not a fixed production pipeline. An adequate existing result can settle a question. A changed premise can return the work to an earlier question, and independent contributions can proceed separately. The supplied practice retains its dependencies; paragraph order adds none. In a familiar case, follow the result, locate the decisive interaction, compare complete alternatives and retain the necessary continuation. Open the fuller explanation where a connection is unfamiliar or its premise changes.
+Use these questions where the arrangement leaves something to establish. An adequate existing result can settle a question. A changed premise can reopen an earlier one, and independent contributions can proceed separately. The supplied practice determines their dependencies. In a familiar case, follow the result to the interaction that matters and show how the proposed arrangement handles it. Continue through a comparison or into realization when the recipient's work requires it.
 
 #### C.32.MWA.PP:4.1 - Recover the supplied network and the result this local arrangement must obtain
 
@@ -55,7 +55,7 @@ Bring in the identified Methods, candidate accounts and individually supported l
 
 For each decision-changing contribution, inspect the explanation or demonstration, not its name. Identify what material or situation it works on, what a competent performer does, why the action could obtain the result, which conditions are preserved, and where the Method stops.
 
-Try the operation on one representative input or a sufficiently explicit prospective case. The purpose is to locate the first unsupported connection. Different findings require different work:
+Follow the contribution through to the decision that will rely on it. A derivation can show that it holds throughout the intended conditions. When a particular input could expose a missing connection, try the operation on that input or follow it through a sufficiently explicit prospective case. Use what this establishes to choose the next action.
 
 | Finding in the attempted use | Obtain this contribution before relying on the proposed arrangement |
 | --- | --- |
@@ -74,7 +74,7 @@ Retain distinct sources of change. Revising a Method can change what future perf
 
 Explain the important joins in ordinary language. For example: “The domain review must return the condition under which the proposed experiment is interpretable before the participant runs it. A general coach can help formulate the question, but cannot substitute for that domain judgement.” This tells the architect what kind of performer and timing are required. “Coach, expert, learner” alone does not.
 
-Do not force every result-use or support relation into Method composition. Use B.1.5 for a proposed whole; B.1.5.CM can resolve its identity. When that is the only unresolved question, finish with the relation or composition result. A materially different way to obtain the receiving result, rather than a larger Method name, creates the architecture comparison here.
+Several Methods can keep their separate identities while an arrangement connects their performance. When the commission calls for designing one reusable Method from constituent Methods, use B.1.5.CM:4.1. Work back from the result or condition the whole must provide. Decide which contributions belong to it, how they fit and which inputs or support a caller or outside provider can supply. A prospective account can settle that design question. When the question is whether identified Methods constitute one identified whole, A.3.1 supplies the grounds for identifying a Method and B.1.5 tests the composition. An inquiry about one existing relation can end with the supported finding. Compare provision arrangements here when changing how the contributions are obtained could change the receiving decision.
 
 #### C.32.MWA.PP:4.3 - Keep the necessary structures distinct and connect their claims
 
@@ -215,9 +215,9 @@ Implementation and trial are separate Work choices. Retaining an adequate incumb
 
 #### C.32.MWA.PP:4.9 - Give the selected realization its contribution and conditions
 
-The architecture result explains what would need to hold and why the arrangement was selected. It can finish the current work without a new implementation or trial. When further realization is selected, give its practitioner a complete receiving contribution and the conditions that remain to obtain. An organization chart or a request to "implement the architecture" does not carry that requirement.
+The architecture comparison explains what would have to hold for each serious option. A recommendation can identify which one fits the stated conditions. When a decision has been made, explain the grounds for the actual choice. It can finish the current work without a new implementation or trial. When further realization is selected, give its practitioner a complete receiving contribution and the conditions that remain to obtain. An organization chart or a request to "implement the architecture" does not carry that requirement.
 
-Begin with the useful result and its receiver. Explain which Methods and local actions must contribute, what each receives and returns, the important exception path, permitted variations, ordinary support, protected continuing work, and the decision and authority for the attempt. Include the decisive rejected alternative, accepted trade-off and condition for reconsideration. Keep current evidence beside unestablished relations so the receiving practitioner can reuse what is sufficient.
+Begin with the result and its receiver. Explain which Methods and local actions contribute, what each receives and returns, and the conditions that matter for using the arrangement. Include significant exceptions, permitted variations, continuing work and support, and who may authorize a proposed attempt. Carry forward a rejected alternative or an accepted trade-off when it affects how the practitioner should proceed. Explain what would warrant reconsideration. Distinguish established conditions from those still to be secured.
 
 Before assuming a contribution, establish that it can be provided under the proposed conditions. Give those who must assess or agree to the arrangement enough information to understand and challenge the relevant proposal. A provider can reveal an unavailable window; a recipient can expose an unusable intermediate result; a practitioner can show that a suggested action changes the Method's criterion. Return the challenge to the affected comparison. Explanation, discussion, negotiation, facilitation and leadership use their own sufficient Methods where needed. C.32.MWA.PP supplies the arrangement and unresolved question; it does not make all those practices architecture steps. Voluntary participation needs agreement. An employer's allocation authority has a scope and does not create missing competence or make a subject claim true.
 
@@ -225,7 +225,7 @@ Select the receiving Method from the result still missing.
 
 **For a separately selected organizational realization, use the applicable organization-change Method.** Give its practitioner the selected design or duly authorized bounded attempt, receiving use, participants and configuration, acceptance basis, ordinary and exception paths, support and service consequences. A first comparison can find that an existing implementation or introduction already supplies the required capability; then use that result without another exercise. Otherwise have the practitioner trace crossings with participants, obtain missing conditions through their owners, exercise the complete contribution, repair the defeated crossing and return a bounded capability result. C.32.MWA.PP explains which joint capability is needed; the organization-change Method supplies realization, including an unresolved return. An isolated tool or learning question without an organization-change difficulty uses its professional Method.
 
-**For an account or tool that performers cannot use, use A.15.8.MS.** Give it the intended user, task, input, point of failure, required operation and support condition. Request material or tool use that lets the performer recognize the situation, choose a branch, obtain the input, perform the operation, interpret the result and return a failure. A short local instruction can suffice when it preserves the condition that changes the action and gives access to fuller explanation when needed. A.15.8.MS's result concerns use of the Method account and support; it does not establish mastery or continuing organization capability. A changed criterion or missing subject operation returns to its Method owner rather than being hidden inside instructional editing.
+**To design or repair access to Method material and its use in work, use A.15.8.MS.** Give the practitioner the intended users, the tasks they must perform, the inputs, the result they owe and the help available to them. Include an observed difficulty when it bears on the design. For someone who only needs to find the current instruction, access to the qualified edition and a way to recognize it can suffice. Where users must choose or adapt a Method, provide the distinctions, materials and help that make that choice possible. Include a stop or failure response where the task requires one. A.15.8.MS establishes what the support can provide under its conditions. Claims about individual mastery or continuing organizational capability require their own grounds. A missing subject operation or a changed criterion returns to the owner of that Method.
 
 **For help with introducing, using and revising a practice, use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) in FPF Core.** Supply the target Method or candidate account and its status, actual receiving practice, observed difficulty or explicit proposed condition, current introduction/support results, those who can supply and receive help, available means, authority, protected work and intended later use. Keep the target practice distinct from the strategy used to help it become usable. The support practitioner chooses and adapts that strategy to the determinant; training is one possible contribution, not the default remedy. Use [A.3.1.MI:4.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi41---pattern-use-unfolding) to perform the selected introduction, examine later actual use and non-use, and return `keep`, `revise`, `branch`, `replace` or `stop` for the target or introduction strategy. Use [A.3.1.MI:4.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi45---explain-a-changed-result-before-selecting-an-adaptation) when a changed result or proposed adaptation leaves explanations that would change the next action.
 
@@ -253,7 +253,7 @@ When a local repair repeatedly moves the difficulty elsewhere, reopen the encomp
 
 Keep deliberate change separate from distributed cultural change. Participants may ignore, adapt or replace what was introduced. Examine that behavior for its effect on the intended practice and for useful new possibilities. Do not equate disagreement with a capability defect or declare cultural success from formal compliance.
 
-Finish when the current recipient has an explained arrangement they can put into use, a warranted selected attempt, or the unresolved contribution that changes the decision. A compact result can state the supplied network and local use, proposed or obtaining performers and relations, the decisive interaction, the chosen commitment and the next observation. Maintain only records that are needed for performance, accountability, later change or justified reliance.
+Finish with the result the recipient needs to act. This can be a supported comparison for someone advising the decision holder, an explained arrangement ready to use, a warranted choice of trial, or the unresolved contribution on which the choice depends. A compact result can state the supplied network and local use, proposed or obtaining performers and relations, the decisive interaction, the chosen commitment and the next observation. Maintain only records that are needed for performance, accountability, later change or justified reliance.
 
 #### C.32.MWA.PP:4.11 - Return the architecture decision
 
@@ -264,9 +264,9 @@ Keep the description proportional to the receiving use. A compact decision can s
 | decision boundary | Obtaining or possible-future practice, result, situation, configuration, window, authority, and use. |
 | retained subjects | Methods, candidate accounts, supplied network, qualified local connections, unchanged statuses and missing contributions. |
 | selected structures | Structure names, direct relations, truth statuses, correspondences, losses, and evidence. |
-| alternatives | At least two serious syntheses and the named relations by which they differ. |
-| comparison | Shared and recurring work, qualification, combined peak and total demand, simultaneous and first–then conditions, allocation, capacity, provider/access, authority, failure routes, evidence, moved burdens, and causal-use limits as applicable. |
-| decision | Selected/rejected synthesis, basis and rule, accepted losses, preserved constraints, and remaining rivals. |
+| feasible arrangement or alternatives | For one feasible arrangement, show how its contributions jointly meet the stated need. For a comparison, give at least two serious arrangements and the operative relations by which they differ. |
+| grounds for the arrangement or comparison | Explain the joint demands that affect feasibility or choice, including shared work, peak demand, dependencies, capacity, access, authority and provision when something fails. In a comparison, follow any burden moved elsewhere and respect the limits of causal evidence. |
+| recommendation or decision, when commissioned | For advice, give the supported option or trade-off and the conditions on which it depends. For a decision, give the authorized choice, its grounds, accepted losses, constraints and alternatives still open. |
 | continuation, where it changes the use | Conditions for relying on or reconsidering the decision; selected implementation or trial Work, receiving contribution and sufficient supplier, observations, stopped dependent actions and history-preserving recovery. |
 
 Practitioners choose which direct relations should hold for one result, which structures expose the conflict, and who carries the burden. Co-used Methods can remain plural; a proposed architecture can guide a trial without being reported as already real.

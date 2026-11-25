@@ -6,12 +6,12 @@ section_id: "F.17:End"
 section_title: "F.17:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__024_f-17-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:End — F.17:End"
-line_start: 134373
-line_end: 134374
+line_start: 134390
+line_end: 134391
 dependencies:
   - "A.1.1"
   - "A.10"

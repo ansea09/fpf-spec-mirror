@@ -6,12 +6,12 @@ section_id: "C.39.RP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__012_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:10 — Rationale"
-line_start: 89346
-line_end: 89351
+line_start: 89356
+line_end: 89361
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

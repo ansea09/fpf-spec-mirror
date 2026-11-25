@@ -6,12 +6,12 @@ section_id: "A.19.ECS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:1 — Problem frame"
-line_start: 36634
-line_end: 36661
+line_start: 36641
+line_end: 36668
 dependencies:
   - "A.17-A.19"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-claim classification note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-claim-classification-note.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:12a — Quantum-like boundary-claim classification note"
-line_start: 14805
-line_end: 14837
+line_start: 14807
+line_end: 14839
 dependencies:
   - "A.10"
   - "A.15"

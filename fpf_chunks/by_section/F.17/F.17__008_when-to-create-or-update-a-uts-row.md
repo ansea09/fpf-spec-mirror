@@ -6,12 +6,12 @@ section_id: "F.17:6"
 section_title: "When to create or update a UTS row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_when-to-create-or-update-a-uts-row.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:6 — When to create or update a UTS row"
-line_start: 133391
-line_end: 133402
+line_start: 133408
+line_end: 133419
 dependencies:
   - "A.1.1"
   - "A.10"

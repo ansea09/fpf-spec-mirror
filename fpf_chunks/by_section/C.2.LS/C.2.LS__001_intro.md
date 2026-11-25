@@ -6,12 +6,12 @@ section_id: "C.2.LS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:intro — Intro"
-line_start: 56013
-line_end: 56030
+line_start: 56022
+line_end: 56039
 dependencies:
   - "A.16"
   - "A.16.0"

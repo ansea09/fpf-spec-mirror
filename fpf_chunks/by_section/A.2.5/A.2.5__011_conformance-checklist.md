@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:8 — Conformance Checklist"
 line_start: 6928
-line_end: 6944
+line_end: 6946
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -33,6 +33,8 @@ keywords:
 ---
 
 ### A.2.5:8 - Conformance Checklist
+
+For a prospective arrangement, check which operation needs the assignment, which state must hold by when and what remains to be secured or verified. If a reservation or commitment is proposed now, establish whether its terms permit it. For a claim about an actual assignment, a state episode or a recorded assertion, apply the corresponding checks below to that claim.
 
 | Check | Question |
 |---|---|

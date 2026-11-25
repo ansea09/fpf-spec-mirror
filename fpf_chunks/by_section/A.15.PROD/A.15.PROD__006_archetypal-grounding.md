@@ -6,12 +6,12 @@ section_id: "A.15.PROD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:5 — Archetypal Grounding"
-line_start: 34648
-line_end: 34832
+line_start: 34655
+line_end: 34839
 dependencies:
   - "A.1"
   - "A.10"

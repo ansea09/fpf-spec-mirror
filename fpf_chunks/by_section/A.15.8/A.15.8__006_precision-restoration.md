@@ -6,12 +6,12 @@ section_id: "A.15.8:5"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__006_precision-restoration.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:5 — Precision restoration"
-line_start: 33189
-line_end: 33205
+line_start: 33196
+line_end: 33212
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,8 +45,8 @@ Recover the object or relation before relying on the umbrella word.
 
 | Source phrase | Recover before relying on it | Do not infer |
 | --- | --- | --- |
-| *extended performer* | Select the branch first. For actual Work, name admitted performer Systems and obtaining assignments or attribution only through the rules governing those claims. For a WorkPlan, keep intended performers in declaration-local plan content. In both branches name supports, relations, and the boundary selected for the use. | Coupled things form one System, Agent, mind, performer, or capability holder. |
-| *attention* | After branch selection, recover the observation, sensing, selection, prioritization, monitoring, search, checking, or capability claim whose obtaining, loss, or change affects the named Work or current WorkPlan. | One scalar resource or mechanism is shared by a person, model, robot, organization, and collective. |
+| *extended performer* | For a service design, establish which contributions would let it operate and under what conditions they can work together. For actual Work, establish the performer Systems and claims of assignment or attribution under their governing rules. For a WorkPlan, identify its intended performers in the declaration-local plan content. In each use, distinguish the supporting Systems and relations on which the result depends. | Coupled things form one System, Agent, mind, performer, or capability holder. |
+| *attention* | Identify the observation, sensing, selection, prioritization, monitoring, search, checking, or capability claim on which the proposed service, specified Work or current WorkPlan depends. | One scalar resource or mechanism is shared by a person, model, robot, organization, and collective. |
 | *memory* | Recover the holder capability, internal state, model state, record or episteme, persistent runtime state, cultural-continuation claim, or retrieval, update, and forgetting relation that is current. | Storage, retrieval, capability, knowledge, model state, and cultural continuation are one value. |
 | *computation* | Recover the operation, Method, performed Work, performing System, inputs, outputs, and resource relation when each is current. | A model, calculator, or service performs the containing Work merely because it computes. |
 | *checking* | Recover the observation, monitoring, evaluation, verification, validation, assurance, or decision and its separately governed result. Identify dated Work only when that occurrence is part of the claim. | A checklist or score performs checking, supplies authority, or proves fitness. |
@@ -54,5 +54,5 @@ Recover the object or relation before relying on the umbrella word.
 | *cue* or *return point* | Recover the sign, representation, event, location, state condition, or source-finding aid; who or what interprets it; and the observation that it changes recovery. Use `A.2.4` for a claim used as evidence, `A.10` when its source-to-use account must remain replayable, and `A.15.4` when appearance-based reliance hides its owner. | A cue is evidence of correctness, a universal trigger, or an obtaining recovery relation by appearance alone. |
 | *configuration* or *arrangement* | Recover the Systems, values, and obtaining or proposed relations needed by the branch. Use `A.22` or `C.30` only when a selected Structure or architecture claim is required. | A support list is already one Structure, architecture, whole, or performer. |
 
-**Bias check.** Human-centered cognitive vocabulary and anthropomorphic AI vocabulary are easy to recognize and therefore easy to overgeneralize. Begin with the Work or WorkPlan and recover the participants, values and relations needed for its result.
+**Bias check.** Human-centered cognitive vocabulary and anthropomorphic AI vocabulary are easy to recognize and therefore easy to overgeneralize. Start with the service, Work or WorkPlan at issue and recover the participants, values and relations needed for the result.
 

@@ -6,12 +6,12 @@ section_id: "C.20:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__014_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:10 — Relations"
-line_start: 65514
-line_end: 65542
+line_start: 65523
+line_end: 65551
 dependencies:
   - "A.1"
   - "A.14"
@@ -37,7 +37,7 @@ keywords:
 
 ### C.20:10 - Relations
 
-**Builds on.** A.1 for constructive holon recognition; A.6.REL for relation-occurrence discipline; A.14 and direct part patterns for mereological meaning; C.13 for an optional construction trace; A.17 and A.18 for the composition-grounded Characteristic and Scale, with C.16 only for an actual measurement chain; E.24.UK for public-kind admission.
+**Builds on.** A.1 for constructive holon recognition; A.6.REL for relation-occurrence discipline; A.14 and direct part patterns for mereological meaning; C.13 for an optional construction trace; A.17 and A.18 for the composition-grounded Characteristic and Scale, with C.16 for designing a measurement or interpreting its result; E.24.UK for public-kind admission.
 
 **Coordinates with.**
 

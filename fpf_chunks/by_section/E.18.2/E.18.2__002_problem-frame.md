@@ -6,12 +6,12 @@ section_id: "E.18.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:1 — Problem frame"
-line_start: 119545
-line_end: 119593
+line_start: 119562
+line_end: 119610
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ A single diagram can present several of the five values below. Identify which va
 | one selected network of independently identified TFS or nested-network members and cross-member relations | E.18.NET defines membership, boundary, and cross-member relation requirements; apply those rules to select the network and identify its obtaining cross-member relation occurrences | not a graph, record, view, or publication, and not several valuations or one internal subflow |
 | mathematical description of exactly one selected TFS or network | `E.18.2` | records represented subject, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
 | declared mathematical-lens use and its adequacy | C.29 defines the bounded adequacy test and returned lens-use result; apply it when adequacy, payoff, preserved/lost structure, or a stop condition is claim-bearing | Use the C.29 result here. E.18.2 does not define another adequacy test. |
-| rendered graph, table, equation, diagram, or other publication face | an authorized publisher can make the description available through an `E.17` face. For actual availability, identify the `E.24.PUB` occurrence and the recipient's access. Use the applicable view or architecture-description pattern for membership or adequacy | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
+| graph, table, equation or diagram as rendered | to check what can be read, inspect the expression on its carrier. Use `E.17` to construct or assess a publication face. For availability under `E.24.PUB`, establish that the intended audience can obtain the expression and recover the required content. Use the applicable view or architecture-description pattern when its membership or adequacy is at issue | the expression can convey the mathematical description. The selected TFS or network has its own identity |
 
 When the described selected structure is one A.22-selected CGUS qualified under `E.18.3` through an independently identified E.18 substrate, E.18.2 defines only the mathematical description.
 

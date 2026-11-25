@@ -6,12 +6,12 @@ section_id: "C.29.BB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:4 — Solution"
-line_start: 74686
-line_end: 74755
+line_start: 74696
+line_end: 74765
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -53,7 +53,7 @@ Write each included part's change using the terms. Sum those equations. Matching
         = total inward transfer - total outward transfer
           + internal production - internal removal.
 
-Where both local balances use the same internal transfer, its two terms cancel even while its value is unknown. Two independently kept records can disagree about that value. An order to reconcile the records requires checking which entries describe the same transfer and what difference remains.
+Where both local balances use the same internal transfer, its two terms cancel even while its value is unknown. Two independently kept records can disagree about that value. For a reconciliation, establish what should agree across the boundary. The order can concern totals for the same quantity and interval, a particular batch, or individual handovers. Use evidence that resolves the requested difference.
 
 The transfer terms are amounts over the interval. A rate must be integrated over that interval, or multiplied by its duration when the rate is constant. The signs follow the boundary.
 

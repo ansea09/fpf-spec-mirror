@@ -6,12 +6,12 @@ section_id: "A.9:End"
 section_title: "A.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__013_a-9-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:End — A.9:End"
-line_start: 27802
-line_end: 27803
+line_start: 27809
+line_end: 27810
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

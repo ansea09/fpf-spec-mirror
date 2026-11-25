@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 120928
-line_end: 121481
+line_start: 120945
+line_end: 121498
 dependencies:
   - "A.15.1"
   - "A.6.1"
@@ -125,7 +125,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 4. **Cross-pattern compatibility & impact radius**
    Relations are consistent with declared dependencies and dependents. Declared scope and impact are compatible or explicitly limited.
 5. **Didactic grounding**
-   Apply E.8:4.2.1.3 to the connected explanation and its cases. Recover the common relation or Method being taught, its grounds, and the correspondence to the example. For a Method example, distinguish the reusable way, the depicted performance and its subject material. Inspect whether the cases make the material variation of the declared use intelligible; a correct result in the example's domain answers only that part of the review.
+   Apply E.8:4.2.1.3 to the connected explanation. Recover the relation or method promised to the reader and follow its grounds over the required range. If a case carries part of the argument, identify which part. For an example of a method, distinguish the reusable operation, its depicted performance and the material it acts on. Use a sufficient direct argument when it establishes the promised conclusion. If the reader has to choose, determine which choices the text or case has already made and what grounds remain for the reader’s own choice.
 6. **Reader-fit**
    The pattern body addresses the intended FPF user in the working role governed by that pattern. FPF developers, package architects, reviewers, and evaluators are appropriate readers when they occupy that role. FPF-governed sections explain in user terms admissible use, costs, boundaries, the concrete definitions, constraints, tests, or other contributions used from FPF patterns named by value, and the project-side FPF kinds, references and related relations also named by value. Architecture placement, freeze or merge state, package-boundary rationale, reference boilerplate, quality or projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` findings, README, ToC, `E.11`, cards, retrieval or projection carriers, release or landing evidence carriers, companions, or ordinary references unless they change the working reader's first admissible move.
 7. **Template & section integrity**
@@ -178,7 +178,7 @@ When E.21 is active, its `PrecisionRestorationProfile` carries the quality resul
 Check these connected uses:
 
 * **Recognition and first action:** an early `Use this when` or equivalent, a recognizable working situation, the cost of missing it, practical gain, first admissible action and ordinary non-use boundary.
-* **Performable guidance:** a worked application that makes the Method's own choices, intermediate results and continuation recoverable; useful Consequences and Anti-Patterns; and a clear adoption test. Select additional materially different applications when the declared use requires them.
+* **Performable guidance:** use the supplied account to obtain the result the practitioner needs. Identify the choices and intermediate results on which it depends, how to continue, and how to judge use of the method. A direct construction can supply these grounds. Work through a case when its conditions make a material choice, consequence or failure visible. Examine other conditions when the claimed use reaches beyond what the evidence covers.
 * **Subject and reader:** a short account of the primary EntityOfConcern, relation or claim record and any minimal modeling lens needed by typed declaration content. Give early technical terms nearby plain glosses. When several reader situations are served, state the primary working reader, concern and viewpoint.
 * **Recognition and assurance:** put first-use guidance before the declaration, modeling and review/check material needed for assurance. Keep its scope consistent with the recognition claim.
 * **Grounding and breadth.** Connect explanatory SoTA rows to the working decisions they inform. Locate the grounds for the claimed range, including a general argument made within one example. Use materially different recognition situations when the intended readers must recognize a use under differences the available cases leave unresolved. F.16 supplies a compact worked-example format.

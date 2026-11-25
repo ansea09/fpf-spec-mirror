@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:7 — Conformance Checklist"
-line_start: 49891
-line_end: 49900
+line_start: 49900
+line_end: 49909
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -32,7 +32,7 @@ keywords:
 - The contribution supplied at the disagreement has an interpretable meaning and receiving operation.
 - The repair distinguishes a located incompatibility from an unresolved diagnosis.
 - Shared premises remain visible across calculations, simulations and observations.
-- The repair changes the responsible relation, procedure, realization or requested result.
-- Its dependent consequences are reworked and returned at the supported scope.
+- A diagnosis establishes where the connection fails or what the available evidence can distinguish. A commissioned repair changes the responsible connection, procedure or realization, or obtains agreement to a revised result.
+- The recipient can tell what follows for the original question. Where a repair changes dependent conclusions, they are reworked and returned at the supported scope.
 - The receiver can perform the next action or identify the contribution needed.
 

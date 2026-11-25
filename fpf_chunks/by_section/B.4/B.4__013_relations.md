@@ -6,12 +6,12 @@ section_id: "B.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:11 — Relations"
-line_start: 48075
-line_end: 48085
+line_start: 48084
+line_end: 48094
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -27,7 +27,7 @@ keywords:
 ### B.4:11 - **Relations**
 
 * **Operationalizes:** `P-10 Open-Ended Evolution`.
-* **Uses:** `A.4` when Observe needs a comparison of a System's intended design with its actual operating conditions; `A.12` for external or reflexively split acting sides; `A.15.1` for dated Work; and the subject patterns named in B.4:4.1 for identity and continuity.
+* **Uses:** `A.4` when Observe needs a comparison of a System's intended design with its actual operating conditions; `A.12` for who acts on what, including a System acting on itself and a supported split between internal parts; `A.15.1` for dated Work; and the subject patterns named in B.4:4.1 for identity and continuity.
 * **Coordinates with:** `B.5 Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)`, `B.5.1` development states, and `B.3 Is This Claim Supported for This Use? — Trust and Assurance Calculus`. B.4 does not implement the B.5.1 states one-for-one, and evidence is not a B.4 phase.
 * **Is detailed by:** `B.4.1 Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)` for optional early cue routing. The subject patterns in B.4:4.1 supply each subject's identity and continuity rules.
 

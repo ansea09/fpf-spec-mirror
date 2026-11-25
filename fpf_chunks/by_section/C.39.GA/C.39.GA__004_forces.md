@@ -6,12 +6,12 @@ section_id: "C.39.GA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.GA/C.39.GA__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.GA — Restore a Missing General Argument"
   - "C.39.GA:3 — Forces"
-line_start: 88243
-line_end: 88246
+line_start: 88253
+line_end: 88256
 dependencies:
   - "C.39.RO"
   - "C.39.SA"

@@ -6,12 +6,12 @@ section_id: "A.6.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:3 — Forces"
-line_start: 18551
-line_end: 18561
+line_start: 18555
+line_end: 18565
 dependencies:
   - "A.13"
   - "A.15.1"

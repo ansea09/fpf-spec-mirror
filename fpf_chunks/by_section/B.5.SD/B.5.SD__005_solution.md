@@ -6,12 +6,12 @@ section_id: "B.5.SD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:4 — Solution"
-line_start: 53253
-line_end: 53327
+line_start: 53262
+line_end: 53336
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -30,7 +30,7 @@ Distinguish the result required. An explanation relates what is known and why; a
 
 Set a completion condition. For a configuration review, the receiver may need to know which claim is supported for the configuration, which remains unsupported and which observation would settle the gap. “Everyone understands the issue” is not enough if the receiver still cannot distinguish those claims.
 
-Recover an adequate existing answer before assembling new work. If the relevant model already supplies the needed explanation under current conditions, explain its application and stop. If the receiving use differs, identify the difference that changes the inference instead of rejecting the whole earlier result.
+Recover an adequate existing answer before assembling new work. Use the explanation the model already supplies under current conditions. That can complete an order for an answer. If the commission also promises someone an opportunity to question the result, a new discussion or an authorized decision, put the existing reasoning to use in that work. If the receiving use differs, identify the difference that changes the inference instead of rejecting the whole earlier result.
 
 #### B.5.SD:4.2 - Select the construction and its capable performers
 
@@ -61,11 +61,11 @@ At intervals, have the receiver or another capable participant trace a consequen
 
 #### B.5.SD:4.4 - Work with objections as contributions to the answer
 
-Invite a participant to state the claim, relation or consequence they challenge and why it matters to the receiving use. Restate the objection in terms they recognize before trying to answer it. Preserve an unfamiliar but potentially consequential objection long enough for a qualified contributor to examine it.
+Give participants the agreed opportunity to question the result. They may find the explanation adequate as it stands. When someone raises an objection, ask which claim, relation or consequence it challenges and why it matters to the receiving use. Restate the objection in terms they recognize before trying to answer it. Preserve an unfamiliar but potentially consequential objection long enough for a qualified contributor to examine it.
 
 Distinguish several responses. A misunderstanding can need explanation. A factual conflict can need source comparison or observation. An unsupported inference can need a model, test or narrower conclusion. A disadvantage can require another proposal. A value conflict can need D.4 or a governing decision. An incompatible contribution belongs with LDR.2. These are different continuations, not labels for dismissing the objector.
 
-Connect the answer back to the objection. Show which premise, relation, result or limitation changes. If the answer resolves only part, retain the rest. A participant's changed view may help the group act, but persuasion is not the test of technical truth. Conversely, an accurate explanation can leave a legitimate refusal unchanged.
+Connect the answer back to the objection. Show why the existing grounds resolve it or which premise, relation, result or limitation needs revision. If the answer resolves only part, retain the rest. A participant's changed view may help the group act, but persuasion is not the test of technical truth. Conversely, an accurate explanation can leave a legitimate refusal unchanged.
 
 Where confidentiality prevents full inspection, obtain a permitted qualified judgement and state its usable scope, or narrow the reliance. Do not invent a transparent basis. If a required independent judgement would be compromised by the discussion arrangement, obtain it through its proper method.
 
@@ -81,7 +81,7 @@ A useful result can be an open question with a feasible next construction. State
 
 #### B.5.SD:4.6 - Return the answer and test a consequential change
 
-Give the receiver the connected result in a usable form, with the decisive grounds, unresolved matters and conditions that change its use. Let the receiver perform the intended interpretation or next action, rather than merely approve the meeting summary.
+Give the receiver the connected result in a usable form, with the decisive grounds, unresolved matters and conditions that change its use. Delivery of the supported answer can complete the undertaking. If the receiver is to interpret it, choose or authorize the next action, preserve their opportunity and means to do so.
 
 When a proposed explanation will be used under varying conditions, try a change that could affect its warrant. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? Follow that connection. An existing argument that covers the variation can answer directly. For a decision confined to this occasion, return the sufficient grounds for it.
 

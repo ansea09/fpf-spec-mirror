@@ -6,12 +6,12 @@ section_id: "E.16:9"
 section_title: "Mini conformance checklist (cross-E-F; author's quick use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__010_mini-conformance-checklist-cross-e-f-author-s-quick-use.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:9 — Mini conformance checklist (cross-E-F; author's quick use)"
-line_start: 113680
-line_end: 113690
+line_start: 113695
+line_end: 113707
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,7 +51,9 @@ keywords:
 
 ### E.16:9 - Mini conformance checklist (cross-E-F; author's quick use)
 
-1. **Declare the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and A.2.7 incompatibility relation.
+Use the steps for the result commissioned. A prospective declaration can be completed before the first action. Permission, accounting for Work performed and exercising an override each depend on their own grounds.
+
+1. **Declare or recover the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and A.2.7 incompatibility relation.
 2. **Identify the proposed action:** keep an unscheduled budget prospective; use action-bound for a scheduled action, its work-entry claim, real assignments/holders and independent authority. Apply the declared action identity and continuation rule.
 3. **Gate permission to start.** Check the bounded action against the prospective allocation, guards and budget still available after overlapping commitments. Recheck permission-relevant changes and state any condition that must still hold before use.
 4. **Record actual Work:** after independent A.15.1 admission, emit the Work-anchored ledger entry, attribution and actual delta; relate it to prior permission through the policy-supported action match.

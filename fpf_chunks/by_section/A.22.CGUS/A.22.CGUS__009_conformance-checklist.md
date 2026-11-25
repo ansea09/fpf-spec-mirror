@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:7 — Conformance Checklist"
-line_start: 42656
-line_end: 42667
+line_start: 42665
+line_end: 42676
 dependencies:
   - "A.10"
   - "A.15"

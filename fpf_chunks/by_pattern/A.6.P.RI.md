@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.RI.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
-line_start: 21513
-line_end: 21708
+line_start: 21519
+line_end: 21714
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -30,7 +30,7 @@ keywords:
 
 Use this pattern when an instruction or account depends on who says, reads or acts on it, and copying its words could change the intended object or action. “My left”, “our account”, “here”, “now” and an omitted actor can remain understandable to their originator while becoming ambiguous or misleading for another participant.
 
-The subject is the interpretation and use of such an expression. Recover what it refers to at its source, decide what the receiving use must preserve, and connect the recipient to the relevant participant or position before deriving an action.
+The subject is the interpretation and use of such an expression. Recover what it refers to at its source and what the recipient needs to preserve. When the recipient must act from their own position, establish the correspondence before deriving the instruction.
 
 The first useful result is an interpretable account or instruction for the receiving work, or a specific missing reference or transfer condition. Sometimes it is enough to preserve an attributed report; sometimes another performer needs a different instruction to obtain the same result.
 
@@ -99,7 +99,7 @@ For a report of experience, retain who experienced and expressed it. B.5.EA supp
 
 #### A.6.P.RI:4.5 - Connect the recipient to the account and derive the action
 
-Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. An assignment, an authenticated exchange, direct observation or other evidence can establish that link. A recipient can ask for identifying information when what is already available leaves the reference open.
+If the interpretation or action depends on the recipient's position, establish how that position relates to the participants described. An assignment, an authenticated exchange, direct observation or other evidence can supply the link. To explain what an earlier speaker meant, recover the speaker and the reference conditions for that utterance. A reader outside the reported situation can give that account.
 
 Then interpret the account or derive the instruction under the purpose selected in §4.3. Recompute relative descriptions when necessary. When a message is only being quoted, preserve its original attribution rather than making the quoting recipient its speaker.
 
@@ -162,7 +162,7 @@ For a consequential interpretation or transfer, ask:
 - Which expression depends on its speaker, user or situation?
 - Are the source participant and action-changing reference conditions recoverable?
 - What does the receiving use preserve?
-- Can the recipient identify its own relevant position in the account?
+- Where the receiving use depends on the recipient's position, can the recipient establish that position?
 - Does the derived action still satisfy that purpose when the consequential condition changes?
 - Are missing information, authority, capability and support distinguished?
 - Does any change of EntityOfConcern use A.6.4 rather than being assumed from new notation?
@@ -187,11 +187,11 @@ The method can expose missing information and thereby postpone an action that pr
 
 ### A.6.P.RI:10 - Architectural Rationale
 
-Relational precision restoration recovers missing participants. Agent-relative use additionally requires a link between the receiving agent and the described participants, together with a decision about what the transfer preserves. Neither a complete participant list nor a change of notation supplies these by itself.
+Relational precision restoration recovers missing participants. Agent-relative use adds the question of what the transfer must preserve. To report an earlier utterance, the source participant and reference conditions may suffice. To act relative to a position, the recipient must also establish whose position governs the action and how to locate it.
 
-The construction therefore combines the source interpretation, receiving purpose and recipient's position. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the conversion or classification; this method exposes the premises they need and returns their result to the receiving action.
+The construction connects source interpretation to the receiving purpose. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the conversion or classification when one is needed.
 
-The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. The performer may use prior configuration, evidence from the current situation or a fresh clarification to resolve which participant is meant.
+An interpreter can resolve a reference from the earlier situation, evidence about it or a fresh clarification. First-person experience remains available through the experiencing person's account and correction.
 
 ### A.6.P.RI:11 - SoTA-Echoing
 

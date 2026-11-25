@@ -6,12 +6,12 @@ section_id: "C.2.7:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__016_extension-and-migration-notes.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:15 — Extension and Migration Notes"
-line_start: 57058
-line_end: 57067
+line_start: 57067
+line_end: 57076
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.40.OD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:4 — Solution"
-line_start: 93477
-line_end: 93648
+line_start: 93487
+line_end: 93658
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -180,7 +180,7 @@ Keep the decisions needed to operate the arrangement available at their point of
 
 A local framework is justified when recurrent local practice needs a coherent language of Methods and their relations. Use E.4.DPF to construct it from the local problems and supplier results; identify variation, authority and the conditions that reopen an adaptation. Do not copy whole DPFs into every project. A contract or resource allocation is not replaced by an LPF, and a single project may need only a few adequately explained local instructions.
 
-Carry a proposed Method into an actual work occasion with sufficient explanation, capability and means. Observe both conformity where it matters and the receiving result. When local adaptation works, distinguish what can be reused from what depends on local facts. When it fails, return to the responsible Method or architecture decision rather than treating failure as disobedience by default.
+For a design or handover, make the Method and its conditions for the next use available to the intended performer. When actual performance, adoption or learning is at issue, use adequate evidence of that work. Arrange the observation or first use when still needed or specifically commissioned. When local adaptation works, distinguish what can be reused from what depends on local facts. When it fails, return to the responsible Method or architecture decision rather than treating failure as disobedience by default.
 
 The typical network thus remains an aid to constructing and revising concrete practice. Its useful invariant is the recoverable connection among developing subjects, consequential problems, viable transformations, means and further development. Its layout and allocation can change.
 

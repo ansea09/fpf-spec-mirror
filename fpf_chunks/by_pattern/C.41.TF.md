@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.TF.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
-line_start: 94392
-line_end: 94549
+line_start: 94402
+line_end: 94559
 dependencies:
   - "C.37"
   - "C.41"
@@ -29,7 +29,7 @@ keywords:
 
 **Use this when** selected questions are becoming a reusable form, or an existing checklist is being transposed, split, translated or moved into another tool. A row of green cells is easy to scan, but its user can no longer tell which set, description edition or observation each cell concerns.
 
-This Method constructs a checklist template: a reusable description of the questions, their interpretation and how answers can be expressed. A filled instance records answers for an identified occasion. Start by carrying one selected question from its wording to a plausible filled answer.
+This Method constructs a checklist template: a reusable description of the questions, their interpretation and how answers can be expressed. A filled instance records answers for an identified occasion. Start with the questions users must be able to answer and what each answer will mean on its occasion of use. Where an association is in doubt, follow one question through a possible entry to see what the recipient could infer.
 
 The result is a form that preserves the selected distinctions in its intended use. If the difficulty is missing or unjustified questions, return to C.41 or C.41.QC. If the existing representation already works, retain it.
 
@@ -57,9 +57,9 @@ C.37 selects a representation for one receiving use. Here the construction binds
 
 Take the selected questions and coverage from C.41 or another adequate source. Identify information shared across the list, such as the physical set and comparison description. Place it where users can see its scope. Keep question-specific conditions with the question.
 
-Phrase the questions in the language practitioners use for their work: the card set, print run or catalogue import. If adaptation changes what counts as satisfactory, reconsider the criterion before relying on equivalent answers from the forms. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with a real case and the recipient's way of working. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
+Phrase the questions in the language practitioners use for their work: the card set, print run or catalogue import. If adaptation changes what counts as satisfactory, reconsider the criterion before relying on equivalent answers from the forms. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with the work the recipient will do. Use a relevant case where it helps establish how they would interpret the question. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
 
-Resolve an ambiguous heading from the work and its governing description. Consult a knowledgeable participant when those grounds leave its meaning open. Obtain agreement or a particular participant’s interpretation when the commission calls for it. For a printing checklist, identify who or what prepared the comparison description, who approved it if approval matters, which system was assigned to checking, and which one performed this check. One participant can hold several of these positions. A name under “Responsible” still leaves the relation open. A system's role kind and assignment, its capability and its performed work remain distinct; an applicable organizational Method helps when the assignment or enabling arrangement itself needs repair. For a file or description, name the relation, such as input to printing or basis of comparison. Use the resulting practitioner wording in the form and retain further explanation only where it helps interpretation.
+Resolve an ambiguous heading from the work and its governing description. Consult a knowledgeable participant when those grounds leave its meaning open. Obtain agreement or a particular participant’s interpretation when the commission calls for it. In a printing template, ask what the recipient needs a name for. To ask who can approve a proof, name the relevant authority. To ask who checked a particular run, leave a place for the checker to be identified when the work takes place. One participant can hold both positions. A field headed “Responsible” leaves their relation to the job open. A system's role kind and assignment, its capability and its performed work remain distinct; an applicable organizational Method helps when the assignment or enabling arrangement itself needs repair. For a file or description, name the relation, such as input to printing or basis of comparison. Use the resulting practitioner wording in the form and retain further explanation only where it helps interpretation.
 
 For each answer, make recoverable what is being asked, what counts as an answer and what grounds could support it. An instruction may name the observation; a more complex judgement may point to a domain procedure. [A.3.2.DE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32de---describe-a-method-for-its-intended-use) supplies the broader description of how to carry out the Method. A short checklist can refer to that description without trying to replace it.
 
@@ -135,7 +135,7 @@ Recorded evidence privileges what can be captured. Allow a relevant conversation
 For a particular handover, inspect what the recipient can recover from that record. For a reusable form, follow how its fields and transfers carry the necessary distinctions over the allowed inputs. A filled case can resolve an uncertainty about the mapping or about how a recipient reads it.
 
 - Can the intended recipient recover the subject, question, comparison basis, answer and sufficient grounds?
-- Can the form represent a negative answer and an unresolved one without conflating them?
+- Can the form distinguish the answers its question admits? When a negative answer or an unresolved value is meaningful, can the recipient tell it from the other possible answers?
 - Is any inapplicability reason about the question's scope rather than missing evidence?
 - Do shared references and answer meanings survive the actual transpose, split or tool transfer?
 - Does every retained field help the intended use, and is nearby help enough for the expected user?

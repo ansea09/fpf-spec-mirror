@@ -6,12 +6,12 @@ section_id: "C.16.IR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:4 — Solution"
-line_start: 61973
-line_end: 62039
+line_start: 61982
+line_end: 62048
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -80,7 +80,7 @@ To establish that the readings leave two answers possible, find two cases that s
 
 Separate a proved empty compatible set from a search that has not found a case. An empty set shows that the combined readings, model and conditions are inconsistent. Locate a consequential conflict; the cause may be a recording error, a changed subject, an unsuitable error bound or an inadequate measurement relation. A failed search instead limits the computational result.
 
-A point result under ideal data can broaden when input uncertainty is restored. Recompute the relevant range when a reading, calibration coefficient or domain changes. Numerical sensitivity and branch ambiguity can require different remedies.
+A point result under ideal data can broaden when input uncertainty is restored. After a reading, calibration coefficient or domain changes, compare the revised compatible cases with the grounds for the earlier answer. If the revised cases form a nonempty subset of the earlier admissible cases, the earlier bound still holds throughout that subset and may settle the same threshold question. If additional cases are admitted, establish the required conclusion for those cases too. Recalculate when the change affects the needed conclusion or the commission requires the revised range itself. Numerical sensitivity and branch ambiguity can require different remedies.
 
 #### C.16.IR:4.5 - Choose the useful return
 

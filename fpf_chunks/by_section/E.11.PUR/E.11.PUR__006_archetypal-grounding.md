@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 111358
-line_end: 111437
+line_start: 111373
+line_end: 111452
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,11 +36,11 @@ keywords:
 
 #### E.11.PUR:5.1 - Applicable but not recommended
 
-A team considering a high-cost pump test has candidate uses of `C.28` causal triage and `A.21` gate discipline. Both may be applicable. The immediate uncertainty is whether a causal model output may support intervention, so `C.28` offers the more useful first result. That uncertainty and the recommendation are epistemic; neither asserts an actual C.22.PFR Problem.
+A team considering a high-cost pump test is asked whether its causal model gives it grounds to expect the proposed intervention to work. C.28 can supply that assessment. A separate decision concerns Friday's use of the rig. A.21 can assess the test against an applicable gate profile. Permission to use the rig depends on the governing rule, who is authorized and when the permission is effective. The causal question can arise before anyone has established an actual C.22.PFR Problem.
 
-Recommend `C.28` without claiming that the test is authorized. The later gate use remains a separate candidate whose applicability can be reconsidered after the causal-use result exists.
+For advice on the model, recommend C.28 and give its qualified result. For a decision about running the test, even a favourable model assessment and a passed gate are compatible with the operator's permission taking effect on Thursday or only on Monday. Establish the assessment and permission required for the same test and whether each applies by Friday. A standing rule may already authorize the operator without a separate gate. If an authority must decide and can check the test arrangements while the model is being assessed, the inquiries can overlap. If the decision requires the assessment, allow time to act on it.
 
-Because this local recommendation is reversible and no named later use relies on it, the team states the applicability result and one compact rationale over all five aspects in the working conversation; it materializes no recommendation episteme or support profile.
+For a local, reversible recommendation with no later reliance, the team can explain the fit and its decision in the working conversation. A recommendation to obtain both results gives the team a way to proceed. The decision to run the test depends on the results it actually obtains.
 
 If a later gate review needs to replay each aspect independently, that review may create current fit findings and a current applicability finding from the then-current basis.
 
@@ -48,7 +48,7 @@ Do not backdate the later findings. If the original readable rationale was retai
 
 ##### E.11.PUR:5.1.1 - An earlier result still answers the concern
 
-The same team already has a C.28 causal-use result for the same pump model, intervention question, declared use, sources, assumptions, and qualification window. The team uses C.28 to compare that result episteme and edition with the present concern. Every comparison value still matches, so the team cites the result and stops instead of performing the C.28 use again.
+The team already has a C.28 causal-use result for the same pump model, intervention question, declared use, sources, assumptions and qualification window. The result still answers the model question. Cite it and finish that inquiry. For the Friday decision, use the assessment wherever the governing test conditions require it and settle any outstanding question about permission to use the rig.
 
 If the team uses the result as a premise in a project discussion and the source-to-use account is still implicit, it uses A.10 to make the source → result → claim connection explicit for that bounded use.
 

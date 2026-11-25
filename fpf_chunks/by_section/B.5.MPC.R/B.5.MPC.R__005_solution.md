@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:4 — Solution"
-line_start: 49729
-line_end: 49806
+line_start: 49738
+line_end: 49815
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -30,9 +30,9 @@ keywords:
 
 Keep the receiving physical question in view while tracing the failed connection:
 
-**State the changed result or disagreement → recover the contributing relations → locate the incompatible use → construct a sufficient repair → carry it through the affected contributions → use the revised physical consequence.**
+**State the result or disagreement → recover the contributing relations → locate the incompatible use or limit of inference → answer the physical question on those grounds.** If the commission calls for a repair, construct it and carry its consequences back through the affected contributions.
 
-These are dependencies of the repair. A known physical change, a failed calculation or an observation can each be the starting point.
+A known physical change, a failed calculation or an observation can each be the starting point.
 
 #### B.5.MPC.R:4.1 - Compare results for the same physical question
 

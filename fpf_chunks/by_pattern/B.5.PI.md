@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.PI.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
-line_start: 52987
-line_end: 53222
+line_start: 52996
+line_end: 53231
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -34,7 +34,7 @@ keywords:
 
 Use this pattern to make room for a useful question in work that people or agents treat as ordinary. Reports arrive, calculations run, repairs succeed, and nobody asks whether the way of obtaining or using those results needs examination. Use it also when someone says that an explanation misses something but cannot yet say what. A known error, an anomaly label and a request for help are not prerequisites.
 
-Start at a small occasion connected with the work: preparing a handover, demonstrating a result, explaining a consequential choice, or resuming work after a change. Recover what the result is supposed to enable and examine one available episode of obtaining and using it, including the adjustments that made it succeed. A performer can do this while preparing their work; a colleague or team can arrange the occasion. It takes access and attention, even if only briefly.
+Start where a question about the work could arise. What is its result supposed to enable? In ongoing work, examine a handover, demonstration or resumption and the adjustments the people involved actually made. When the work is being designed, follow a relevant case allowed by the design. What would a participant need to know or do there? The proposed arrangement may already expose a missing connection before anyone uses it. A performer, colleague or team can make time for that inquiry.
 
 A suitable long mantra can give that occasion a connected set of questions before a difficulty is felt. Section 4.2.1 explains how to choose it and use it to find a question, while keeping the substantive Method and its conditions. The useful result is a question with an attainable next move, an early cue retained for further consideration, or a reasoned continuation without change. Here, **inquiry** includes a short question to a colleague or consultation of an existing explanation; it need not become a research project. The method helps bring an unexamined part of work into consideration.
 
@@ -65,7 +65,7 @@ The difficulty is to let ordinary work generate a question without requiring a p
 
 #### B.5.PI:4.1 - Give the work an occasion to become a question
 
-Select a bounded occasion that does not depend on someone first reporting trouble. At an ordinary handover, for example, ask the producer to show one result and how its recipient will use it. Recover what the producer had to do, including work that the official account omits. In preparing your work, follow one result through its intended use instead of merely checking that you have produced it.
+Select a bounded occasion for inquiry before anyone has to report trouble. At a handover, ask the producer to show what the recipient needed and how they obtained it, including useful work omitted from the official account. In preparing a handover, trace the intended result into its next use. A drawing or description can let you locate a question that would change the proposed work.
 
 Choose an occasion with some prospect of a useful comparison: a consequential decision, a result passed to another person, a recurrent activity whose effort is poorly understood, or an available contrasting case. A small agreed sample can expose something that reviewing only failures would miss. Do not require every occurrence to undergo this examination. Keep the immediate work and its constraints in view.
 
@@ -133,7 +133,7 @@ If no worthwhile improvement is available, retain the adaptation with its releva
 
 After use, examine whether this occasion brought something consequential into consideration and whether the result justified its burden. Change an unhelpful question, move a disruptive occasion, obtain a missing response, or remove a ritual that produces only ticks. Passing an execution checklist can support selected claims; it does not close concerns outside those claims. A known-condition checklist is designed through A.15.11, while the present method keeps a way to question what that list leaves unexamined.
 
-Make it possible to respond. A worker with no access to receiving outcomes cannot inspect them. A request that nobody can answer does not supply assistance. When raising a concern is punished, changing the conditions of joint work may be necessary; asking for greater personal vigilance does not repair those conditions. Use the smallest attainable support that answers the need, without assuming a permanent observer.
+Make it possible to respond. A worker with no access to receiving outcomes cannot inspect them. A request that nobody can answer does not supply assistance. When raising a concern is punished, changing the conditions of joint work may be necessary; asking for greater personal vigilance does not repair those conditions. Choose support the participants can use when the question arises. Weigh what the observer would supply against the effort of observing, asking and following up. A continuing arrangement can be worthwhile when the need recurs.
 
 Producing a result, keeping it usable and learning from the attempt can be enacted together in an action. B.1.5 and B.1.5.EW help recover the relevant Method composition and how those actions enact encompassing work, including the constituent capabilities and receiving use.
 
@@ -194,7 +194,7 @@ An expert can mistake the absence of their preferred method for a defect. A fami
 For guidance or an application claiming this method, examine the consequential conditions:
 
 - The entry can occur without a recognized error, a diagnostic term or a request for an audit; its occasion, access and attentional demand are recoverable.
-- The comparison retains the receiving use and what it took to obtain the result, including successful adaptations when they matter.
+- The inquiry follows the result into its intended use. An account of actual work identifies the actions and adaptations on which its conclusion depends. An inquiry using a possible case states what the case reveals about the proposed work or claim.
 - When a mantra guides the comparison, its Method fits the question; its connections and justification order are applied to a recoverable case. A found gap becomes a qualified question or cue, while adequate answers and irrelevant conditions permit a stop.
 - A proposed interpretation is tested on the original case; the participant is not required to invent a diagnosis before their concern can be examined.
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.

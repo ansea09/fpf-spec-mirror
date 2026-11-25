@@ -6,12 +6,12 @@ section_id: "C.30.P:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__009_worked-cases.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:6 — Worked cases"
-line_start: 76505
-line_end: 76522
+line_start: 76515
+line_end: 76532
 dependencies:
   - "A.10"
   - "A.15"

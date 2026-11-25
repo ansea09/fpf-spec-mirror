@@ -6,12 +6,12 @@ section_id: "B.1.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__015_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:9 — Relations"
-line_start: 43940
-line_end: 43947
+line_start: 43949
+line_end: 43956
 dependencies:
   - "A.1.1"
   - "A.14"

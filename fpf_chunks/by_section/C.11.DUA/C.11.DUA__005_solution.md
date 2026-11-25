@@ -6,12 +6,12 @@ section_id: "C.11.DUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:4 — Solution"
-line_start: 60592
-line_end: 60673
+line_start: 60601
+line_end: 60682
 dependencies:
   - "A.10"
   - "C.11"
@@ -94,7 +94,7 @@ When applying apparatus under `C.19.2`, compare eligible applications under the 
 
 Give the supported answer and available continuation in language the recipient can use. Retain uncertainty, attribution, a reason or a return condition when it changes that use. Where a substantive decision record is needed, put this content in the same result.
 
-For an external-text review, return a concrete repair: identify the demanded work, the consequence or burden that makes it defective, and the smallest replacement that reaches a warranted result. Keep a useful evidence demand when the comparison supports it. A finding for another author can be durable without becoming a per-sentence ledger.
+In a review, explain what the instruction would have its reader do and how that affects the reader’s purpose. A finding can suffice when the author is to devise the repair. If replacement wording is due, supply enough of the passage for the reader to carry out the intended work. A short local change may do this. A fuller replacement may save the author or reader from having to reconstruct the missing reasoning. Keep an evidence demand whose contribution warrants its burden.
 
 Follow the selected method through its completion requirements. Keep the recommendation or decision and its useful basis. An inactive inquiry creates no empty field, no waiver and no requirement to explain why checking was omitted. If a later recipient would otherwise overgeneralize the result, infer fresh evidence or miss a material limitation, retain the minimum explanation in that result. A short useful explanation alone need not instantiate a complete probe account.
 

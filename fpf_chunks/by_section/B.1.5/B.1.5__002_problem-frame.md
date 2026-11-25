@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:1 — Problem Frame"
-line_start: 43956
-line_end: 44001
+line_start: 43965
+line_end: 44010
 dependencies:
   - "A.1"
   - "A.15"
@@ -70,13 +70,13 @@ Typical moments:
 - assurance needs to know which joins, adapters, cutsets, or exposed interfaces make the composite method reliable enough to enact.
 - a source presents Methods as a first–then list even though representative Work may also require several of them to contribute at the same time.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one candidate or composite `U.Method`, already identified under A.3.1. The proposition that part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the candidate Method as its EntityOfConcern under its effective ReferenceScheme.
+**Primary EntityOfConcern.** When qualifying a proposed composition, take one candidate `U.Method` identified under A.3.1. Whether its part Methods and whole-forming facts qualify it as composite is a further claim. A C.2.1 episteme can carry that claim in its ClaimGraph with the candidate Method as its EntityOfConcern under the effective ReferenceScheme. An inquiry that starts with a known operation takes its search range from the question. Within that range it can identify several encompassing Methods or establish that none includes the operation.
 
-**First useful move.** Identify the reusable result or condition the recipient needs and whether the task is to qualify a proposed arrangement or to construct one. For each apparent step or branch, distinguish the object it denotes: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
+**First useful move.** Establish whether the recipient wants to test a proposed composition, construct a way to obtain a whole result, or find which larger Methods include an operation already known. For construction use B.1.5.CM. For the upward inquiry start at §4.1 with the known operation and the uses whose rules matter. A step, plan item, dated action, diagram position or registry entry can lead to relevant evidence. Determine what it denotes before using it as a Method or a part of one.
 
 **What goes wrong if missed.** A flowchart becomes the method, a plan item becomes a submethod, an event log becomes proof that a method was enacted, an order edge becomes a part, or a registry of alternatives is treated as one composed method. Then work starts from a description or label whose method identity, joins, interfaces, and failure conditions were never recovered.
 
-**What this buys.** The project can test whether an already identified candidate `U.Method` is composite and state the part, order, join, interface, and identity facts needed for that claim. If qualification fails, another useful result may remain, such as a description, plan, selected structure, or selector result, under its pattern. Use `A.15.4` when the failed qualification reveals reliance on appearance.
+**What this buys.** A practitioner can qualify a proposed composite Method or establish which of the larger Methods under consideration actually include an operation. A description, plan, identified structure or selector result can remain useful when the composition claim lacks grounds. Use `A.15.4` when the claim depends on appearances.
 
 **Not this pattern when.**
 

@@ -6,12 +6,12 @@ section_id: "B.5.MR:End"
 section_title: "B.5.MR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__014_b-5-mr-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:End — B.5.MR:End"
-line_start: 51109
-line_end: 51110
+line_start: 51118
+line_end: 51119
 dependencies:
   - "B.1"
   - "B.5.FM"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
-line_start: 113693
-line_end: 114256
+line_start: 113710
+line_end: 114273
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -34,15 +34,15 @@ keywords:
 
 **At a glance.** A viewpoint specifies what descriptions made for a purpose must cover. To choose one, start from what the reader needs to decide or explain (§4.8). To recognize an existing view, test the identified account against the specified viewpoint’s rules (§§4.1–4.5). Its label, layout, generation history or place in a bundle can help locate the account.
 
-**Use this when.** A description, model slice, query result, diagram, or other claim-bearing episteme is being called a functional, safety, maintenance, architecture, or other view, and the next reading, comparison, construction, or publication depends on whether that claim is warranted.
+**Use this when.** Someone needs to choose or construct a viewpoint for a description, or needs to know whether a particular description, model slice, query result, diagram or other claim-bearing episteme qualifies as a view under a given viewpoint.
 
 **What goes wrong if missed.** A `viewpointRef`, familiar face name, generated table, or readable diagram is accepted as a view without testing the viewpoint's concerns and rules. The opposite failure is to rebuild a viewpoint convention, bundle, evaluation package, and publication dossier before an ordinary reuse can proceed.
 
-**What this buys.** One stable test works for directly authored and derived epistemes. Identify the candidate E, resolve the viewpoint edition P, and test P's fixed conformance predicate. Both epistemes retain their identities.
+**What this buys.** A description can be planned before its first instance exists. The author can select an adequate viewpoint or fix the concerns and rules for a new one. Once an episteme E is proposed as a view, the same fixed conformance test applies to a directly authored or derived E. The viewpoint and description retain their own identities.
 
-**First action.** For selection, identify an alternative that changes the reader's action or the grounds for it, then use §4.8 to choose the distinctions the description must preserve. Use §4.6 if a needed convention must be authored or revised. For recognition, recover candidate E through C.2.1, resolve the existing `U.ViewpointRef` to P, and read the rules fixed by P. The first result of that test is the conformance judgment below.
+**First action.** For selection, identify what the reader must be able to distinguish for the question, explanation or decision at hand, then use §4.8 to choose the distinctions the description must preserve. Use §4.6 if a needed convention must be authored or revised. For recognition, recover candidate E through C.2.1, resolve the existing `U.ViewpointRef` to P, and read the rules fixed by P. The first result of that test is the conformance judgment below.
 
-**First useful result.** State one readable judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
+**Result for the commission.** For selection, identify the existing viewpoint whose distinctions serve the describing use. If the question can be answered directly from an adequate description, that answer may suffice. For construction, supply the viewpoint and its reference with a fixed test a later author can apply to a description. For recognition, state the judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
 
 **Ordinary stop.** If the next work needs only view recognition, stop after that judgment. Add an occurrence designator, explicit result ValueKind, evaluation package, source-viewing relation, correspondence model, collection or structure, publication occurrence, form, or carrier only when a named receiving use depends on it.
 
@@ -448,7 +448,7 @@ Changing only J, an assertion or occurrence description, evaluation result, basi
 
 #### E.17.0:4.8 - Keep selection for one describing use separate
 
-For one current describing use, name the question the reader must answer. When you are to choose the viewpoint, start with a difference that could change the reader’s action or its explanation. For each kind of holon whose composition matters, identify the whole and constituents on which that difference depends. At each needed scale, ask which cases the description may treat alike. Choose a viewpoint whose concerns require the necessary distinctions (C.39.SA:4). For a claim that model C strictly refines model A, fix the inquiry and interpretation. Establish that C has an admissible completion and that every such completion, read in A’s terms, satisfies A’s assertions. Also identify an answer admitted by A that no completion of C can give (B.5.MR:4.2).
+For one current describing use, name the question the reader must answer. When you are to choose the viewpoint, start with a difference that could change the answer to the reader’s question, the grounds for it or the action to take. For each kind of holon whose composition matters, identify the whole and constituents on which that difference depends. At each needed scale, ask which cases the description may treat alike. Choose a viewpoint whose concerns require the necessary distinctions (C.39.SA:4). For a claim that model C strictly refines model A, fix the inquiry and interpretation. Establish that C has an admissible completion and that every such completion, read in A’s terms, satisfies A’s assertions. Also identify an answer admitted by A that no completion of C can give (B.5.MR:4.2).
 
 One description may supply the entire answer. When it takes several, trace each needed conclusion to what the descriptions establish for the original question. Identify what relates their subjects and conditions. If their claims must hold together, establish that they concern compatible objects or situations. If the descriptions express alternative readings, check what follows on each. In a question about joint work, a change in one participant’s choice can alter what another must do for the common result. Follow that dependence through the descriptions the participants can use. A similar label on both pages can leave it invisible. Use C.37.MM:4.1.1 where the inference needs a correspondence. If the commission asks only whether E conforms to a specified P, §§4.1–4.5 give the complete test. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
 
@@ -579,8 +579,8 @@ ISO 42010 supplies vocabulary lineage. The remaining rows explain FPF design cho
 
 ### E.17.0:9 - Conformance checklist
 
-1. Candidate E has recoverable C.2.1 claim content, EntityOfConcern, and effective reference scheme.
-2. `U.ViewpointRef` resolves to one viewpoint episteme P; designator, reference, P, P's exact target-kind or structured EntityOfConcern, and any catalogue position remain distinct.
+1. For a claim that a particular E is a view, E has recoverable C.2.1 claim content, EntityOfConcern, and effective reference scheme.
+2. When a viewpoint is selected, constructed for reference or used for a conformance judgment, its `U.ViewpointRef` resolves to one viewpoint episteme P; designator, reference, P, P's exact target-kind or structured EntityOfConcern, and any catalogue position remain distinct.
 3. Self-contained P has the exact admitted target kind or exact local-kind subject as EntityOfConcern and carries the complete fixed conformance test in its ClaimGraph. Only the action-changing structured branch uses an A.22-selected `S_viewpoint` over least-powerful exact constituent editions and obtaining relations, with Q carrying the eight organization constraints.
 4. Every dependency occurrence has only the identified dependent and base epistemes as participants; assertion, description, D, J, evaluation, work, scope, time, scheme, representation, publication, and use remain conditional neighbors.
 5. `EpistemeViewpointConformanceRelation` has exactly E and P as participants, the fixed five-condition semantic predicate, and pair-determined positive-occurrence identity.
@@ -589,7 +589,7 @@ ISO 42010 supplies vocabulary lineage. The remaining rows explain FPF design cho
 8. Optional local result values, evaluation, evidence, occurrence designation, decision-use D, and J exist only for a named receiving work or decision need; unsupported evaluation is not a third or negative value.
 9. For every multi-view collection, selected structure, or cross-view relation, apply the pattern that defines its identity or obtaining test; a table, graph, matrix, or shared subject proves none.
 10. Exact expression, carrier bearing, optional form conformance, five-participant publication availability and recurrence, rendering work, and mathematical representation under C.29 remain distinct from E, P, view membership, and every represented world-side relation.
-11. Ordinary use stops at a readable direct judgment unless a named consumer needs more structure; authoring stops at the shortest progressive path that produces P and its reference.
+11. Selection returns a viewpoint fit for the describing use. Authoring returns P and its reference with its conformance rules fixed. Recognition returns the supported judgment about E and P. Add further structure when the receiving use depends on it.
 
 ### E.17.0:End
 

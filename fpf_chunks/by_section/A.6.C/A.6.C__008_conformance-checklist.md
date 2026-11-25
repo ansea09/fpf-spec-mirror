@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 16391
-line_end: 16431
+line_start: 16393
+line_end: 16433
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    When contract-like wording leaves a consequential ambiguity, the text **SHALL** answer only the applicable four-question branches with atomic claims. Each asserted object and its subject predicate **SHALL** remain separately recoverable. Classify each claim through A.6.B and identify the defining pattern when its rules govern that claim. Where a conclusion about an order depends on several undertakings or acts, the account states which connection the governing terms require and the grounds for applying it, or identifies the connection that remains open.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
-   When a dated act or individual commitment is claimed, the text **MUST** identify its capable actual participant and **MUST NOT** substitute an API/interface label, description, publication carrier, kind, or assignment for that participant's basis. Ordinary metonymy may remain when its participant and relation are locally recoverable.
+   When attributing a dated act, the text **MUST** establish the performer at the scale claimed. A question about whether an eligible act occurred can be settled while the individual actor remains unknown. Establish the designated actor when the governing rule or commission requires one. For an individual commitment it **MUST** identify the actual bearer and the basis that puts the commitment in force. An API label, description, publication carrier, kind or assignment alone establishes neither participation nor the undertaking. Ordinary metonymy may remain when its participant and relation are locally recoverable.
 
    A generic prescription **SHALL** name its normative source and applicable content without inventing an individual bearer.
 

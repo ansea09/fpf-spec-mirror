@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SelectorMechanism.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
-line_start: 40845
-line_end: 41274
+line_start: 40852
+line_end: 41281
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

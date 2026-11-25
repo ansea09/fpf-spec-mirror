@@ -6,12 +6,12 @@ section_id: "B.1.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:1 — Problem Frame"
-line_start: 43723
-line_end: 43728
+line_start: 43732
+line_end: 43737
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -36,7 +36,7 @@ keywords:
 
 ### B.1.4:1 - Problem Frame
 
-Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine or another enduring individual with a stated identity rule may be considered across proper temporal restrictions. An unchanged paper or dataset episteme may also be restricted to a proper interval only while its complete C.2.1 identity triple remains fixed; changed claim content, EntityOfConcern, or effective ReferenceScheme identifies another episteme, with edition continuity tested separately. In these cases the aggregation concerns order or temporal coverage over already recovered relations.
+Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine or another enduring individual with a stated identity rule may be considered across proper temporal restrictions. An unchanged paper or dataset episteme may also be restricted to a proper interval only while its complete C.2.1 identity triple remains fixed; changed claim content, EntityOfConcern, or effective ReferenceScheme identifies another episteme, with edition continuity tested separately. To define the operation, establish which relations enter and how order or temporal coverage affects the answer. To apply it to a history, establish the relevant relations in that history.
 
 `B.1.4` asks what result the receiving use needs, which inputs and independently established relations it uses, and which operation combines them. Order, temporal reference, window, coverage and overlap qualify that operation when they affect its result. A stronger claim keeps its subject grounds.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RO.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
-line_start: 88371
-line_end: 88588
+line_start: 88381
+line_end: 88598
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -114,7 +114,7 @@ A worked changed case can expose a defect in the proposed operation. The scope o
 
 What will the next practitioner do with the operation? To apply it, the practitioner needs to know what the inputs mean, which conditions to check, how to obtain the output and what decision the output supports. Sometimes a justified bound or an impossibility result already settles that decision. Give the practitioner the grounds and the conditions under which they hold.
 
-To adapt the operation, the practitioner also needs to know why it works, which assumptions the new use affects and which parts can still be used. If the assignment is to develop a reusable operation independently, identify which construction choices the practitioner made and what was already supplied by the example, a tool or a colleague. Observing the practitioner correctly apply a supplied operation supports a claim about that performance. A claim about independent construction needs evidence of the practitioner's own choices and their grounds.
+To adapt the operation, the practitioner also needs to know why it works, which assumptions the new use affects and which parts can still be used. To establish who constructed it, identify which choices the practitioner made and which an example, tool or colleague supplied. Seeing a practitioner apply a supplied operation establishes that performance. Evidence of the practitioner independently making the construction choices can establish authorship. Another practitioner's proof can establish that the operation works over the required range. If the commission also asks the author to justify those choices, obtain the author's reasoning.
 
 ### C.39.RO:5 - Archetypal Grounding
 

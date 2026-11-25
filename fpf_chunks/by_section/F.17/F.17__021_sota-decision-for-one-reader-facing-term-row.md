@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA Decision for One Reader-Facing Term Row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-decision-for-one-reader-facing-term-row.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:16 — SoTA Decision for One Reader-Facing Term Row"
-line_start: 134333
-line_end: 134358
+line_start: 134350
+line_end: 134375
 dependencies:
   - "A.1.1"
   - "A.10"

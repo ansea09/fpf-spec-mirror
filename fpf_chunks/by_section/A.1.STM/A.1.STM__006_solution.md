@@ -6,7 +6,7 @@ section_id: "A.1.STM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:4 — Solution"
@@ -182,7 +182,7 @@ Use this narrower mode when the shared SoI and intended-use basis is already suf
 1. **Choose by the result needed now.** Name the decision or question and its connection to the common project SoI: for example, choosing a boundary, comparing constructions, obtaining a missing capability or deciding whether a result is ready for its next use. If a local result is current, say what it is about and what receiving work needs from it. If another long mantra better answers the local question, use it while retaining the shared SoI basis.
 2. **Place supported answers and the current scope.** Keep the answers already available, their grounds and the conditions for using them together. Distinguish a prospective hypothesis from a fact and make an important unknown or disagreement visible. An ordinary explanation or existing project note is enough. Use the conditional network branch in section 3 only when that stronger claim is needed; the network is not project Work.
 
-   **If the receiving question is whether a local case can be closed,** state four things in ordinary language: the exact subject or claim; the bounded references and direct claims needed to answer this closure question; the separately governed closure basis; and one named downstream receiving use that remains outside the closed case. A.15.6 supplies any technical reference form that this question needs. A design inquiry can end with a supported proposal or a next inquiry without making a production-completion claim.
+   **If the receiving question is whether a local case can be closed,** identify the exact subject or claim, the references and facts on which the answer depends, and the rule that determines closure. Apply any requirement in that rule for evidence from use. The resulting answer may settle the entire commission. When the question also concerns a subsequent use, explain what the closure establishes for it. Use evidence of the actual operation for a question about what happened, and establish the conditions still needed for a proposed use. A.15.6 supplies any technical reference form this inquiry needs. A design inquiry can end with a supported proposal or a next inquiry.
 3. **Find the first unsupported dependency.** Work backward from the answer needed now to the missing, stale, disputed or unsupported answer that prevents the next justified move. *First* means first on that logical dependency, not earliest in the calendar.
 4. **Use the subject pattern.** Obtain the missing answer through the Method whose `Use this when` fits the question. Retain the answer with its conditions, or the named stop.
 5. **Return what the next use needs.** Reconsider the affected combination using the returned answer. Individual answers can suffice. Select an E.18.NET network only with its independently identified members, obtaining relations, constraints, use frame and complete endpoint bindings. Select another A.22 structure only when one named use needs their organization and all four identity discriminators pass. Otherwise retain the direct plurality or Plain provisional map.

@@ -6,12 +6,12 @@ section_id: "C.2.LS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__007_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:6 — Bias-Annotation"
-line_start: 56110
-line_end: 56112
+line_start: 56119
+line_end: 56121
 dependencies:
   - "A.16"
   - "A.16.0"

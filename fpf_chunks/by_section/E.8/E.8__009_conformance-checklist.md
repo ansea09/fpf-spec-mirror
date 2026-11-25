@@ -6,12 +6,12 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 104100
-line_end: 104149
+line_start: 104113
+line_end: 104164
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -66,6 +66,8 @@ A CC clause of the form “X SHALL …” is to be read as “In a conforming pa
 Passing a Conformance Checklist supports the selected conformance claims, not a claim that all anomalies were excluded or that the result answers every receiving use. A.15.11 explains how relevant checks can become an execution aid with an actual occasion, inspectable conditions and a continuation for unresolved items. Preserve the difference between that aid, the method's Solution and inquiry into a concern that the list does not cover.
 
 **Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors …”, “Reviewers …”, “A conforming implementation …”, “A validator …”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well-formedness constraint:` block) rather than restating the predicate as “X MUST …”.
+
+Follow each offered use from its ordinary entry, including any short working card, to its result and read the applicable criteria together (§4.2.1). Could a sound result for that use be rejected because a different use needs an extra fact? State which claim makes the requirement applicable. A rule can be ready for use before there is a particular occurrence to record.
 
 For boundary/interface/protocol/declaration patterns, prefer A.6.B-scoped claim IDs (L/A/D/E) or cite an existing Claim Register (A.6.B:7) instead of restating mixed prose.
 

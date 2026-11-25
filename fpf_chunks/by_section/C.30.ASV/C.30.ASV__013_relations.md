@@ -6,12 +6,12 @@ section_id: "C.30.ASV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:12 — Relations"
-line_start: 77755
-line_end: 77792
+line_start: 77765
+line_end: 77802
 dependencies:
   - "A.1"
   - "A.10"

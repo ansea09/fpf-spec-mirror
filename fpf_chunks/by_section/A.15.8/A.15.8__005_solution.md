@@ -6,12 +6,12 @@ section_id: "A.15.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:4 — Solution"
-line_start: 33118
-line_end: 33188
+line_start: 33125
+line_end: 33195
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,11 +41,11 @@ keywords:
 
 ### A.15.8:4 - Solution
 
-Choose the actual-Work or present-WorkPlan branch. Identify separately the performers, supports and continuation state on which the required service depends. Establish which losses the configuration can withstand and why. Use the domain evidence suited to that claim and return the result to the decision that needs it.
+Start from the service the recipient must be able to use and the changes the arrangement has to withstand. To construct an arrangement, choose performers, supports and a way to recover or maintain the state. To assess a particular arrangement, take those facts from the actual Work or proposed WorkPlan. Follow the relevant dependencies through the disruption to the service the recipient obtains.
 
 #### A.15.8:4.1 - Keep the focus and participating objects explicit
 
-In the actual branch, the governed world-side focus is one admitted `U.Work` occurrence. In the prospective branch, it is one present `U.WorkPlan`; proposed performance stays declaration-local content of that episteme.
+For a recurring service, the design describes proposed arrangements and the conditions under which they would work. The practitioner can compare them before choosing or scheduling a particular performance. For an assessment of actual Work the focus is one admitted `U.Work` occurrence. For an assessment of a particular plan it is the present `U.WorkPlan`, whose declaration-local content identifies the proposed performance.
 
 Supporting Systems and values may be inside or outside a selected containing-System boundary. Their contribution, dependency, access, update, control, or other relations must be declared and supported when the result relies on them.
 
@@ -53,8 +53,8 @@ An arrangement remains ordinary prose unless another use needs a `U.Structure` a
 
 #### A.15.8:4.2 - Follow the seven-step configuration-and-recovery sequence
 
-1. **Choose the branch and name its focus, required result, and receiving decision.** For an actual case identify one dated `U.Work` occurrence under `A.15.1`. For a prospective case identify one present `U.WorkPlan` under `A.15.2` and the declaration-local intended-performance content used by the configuration claim. Use `A.15.5` only when entry readiness is current. Do not call intended performance a future Work entity.
-2. **Keep performers, intended performers, supports, and values separate.** In the actual branch identify the admitted Systems that performed the Work, with assignments and attribution only where their predicates pass. In the prospective branch name intended performers only inside the WorkPlan's claim content. For a design, trace each contribution back from what the recipient must still receive. Choose who or what can perform it and how a successor could get the required state in time. For an assessment, inspect those relations in the actual or proposed configuration. Several Systems can contribute without forming one whole.
+1. **Identify the required service, the decision and its scope.** For a design, establish what must continue, for whom, in what circumstances and by when. For an actual occurrence use `A.15.1`. For a particular plan identify the present `U.WorkPlan` under `A.15.2` and the intended performance it describes. Use `A.15.5` when entry readiness is at issue.
+2. **Choose or recover the performing arrangement.** In a design, work back from the promised service to the contributions it needs and how each will be supplied under the allowed disruptions. One performer may continue using local support. Where the design depends on another performer taking over, establish how that performer will obtain the necessary state and access in time. Several Systems can contribute without forming one whole. For an actual occurrence, distinguish performers from supporting Systems and establish the assignments or attributions the claim requires. For a particular plan, identify the intended performers in the WorkPlan's declaration-local content.
 3. **Recover contributions and dependencies.** Translate words such as *attention*, *memory*, *computation*, and *checking* into sensing, selection, monitoring, operation, record, state, evaluation, communication, access, update, control, or other relations. For actual Work, retain only relations whose obtaining, loss, or change can alter continuation, result, or recovery of that occurrence. For a WorkPlan, retain only relations whose obtaining, loss, or change can alter the current plan, proposed configuration, or intended-performance content.
 
    For every attempted relation claim, name the participants and receiving use. When a current predicate definition, applicability condition, occurrence rule, or other governor can state or test it, apply that governor and preserve its result: use `factually unsupported` only when the available case basis is sufficient and the positive test fails, `missing-information` when a needed fact is unavailable, and an inapplicable or negative result only under the governor's own rule.
@@ -71,7 +71,7 @@ An arrangement remains ordinary prose unless another use needs a `U.Structure` a
    When the probe remains prospective, keep it as a condition in the WorkPlan or probe claim.
 
    In a trial, observe whether the service resumes correctly within the required time, how the fallback works and where the protected conditions require a stop. Use the observed result beyond that trial only where the relevant mechanism and conditions carry over. This pattern supplies no universal cue, timeout, checkpoint algorithm, intervention, or safety threshold.
-7. **Return one branch-specific account for the affected claims.** State which Work occurrence or present WorkPlan is the focus, what configuration is supported for which occurrence or intended-performance content and window, what failed or remains unknown, and the warranted continuation, repair or stop.
+7. **Return the conclusion to the receiving decision.** A design identifies a proposed arrangement, the covered service and disruptions, what makes recovery possible and its limits. Plans for particular performances can apply that design. An assessment identifies the Work occurrence or WorkPlan examined, the relations the grounds establish, the window for that conclusion and what remains unresolved. State the continuation, repair or stop that follows for this use.
 
    Return System recognition to `A.1` and comparison with an established prior whole to `B.2`; Structure to `A.22`; architecture to `C.30`; capability to `A.2.2`; actual Work and resumption identity to `A.15.1`; plan content and plan change to `A.15.2`; representations to their governing patterns; first evidence-use classification to `A.2.4` and a needed replayable source-to-use account to `A.10`; a receiving choice to `C.11`; and next-action selection during current Work to `A.15.7`.
 
@@ -79,11 +79,11 @@ An arrangement remains ordinary prose unless another use needs a `U.Structure` a
 
 The following prompts can help state the account; omit those the receiving decision does not need:
 
-> **Focus:** actual `U.Work` occurrence … / present `U.WorkPlan` … and its declaration-local intended-performance designator …
+> **Focus:** service and range to design for … / actual `U.Work` occurrence … / present `U.WorkPlan` … and its declaration-local intended-performance designator …
 >
 > **Required result and receiving decision:** …
 >
-> **Actual performers for the Work / intended performers in the plan, plus supports:** …
+> **Performers and supports:** contributions and proposed sources for the design … / actual performers and supports of the Work … / intended performers and supports in the plan …
 >
 > **State needed to continue and where it is recovered:** …
 >
@@ -98,7 +98,7 @@ For a small reversible use, this ordinary prose is enough. Its conclusion is lim
 When a current or later use needs an identified account, reuse a sufficient episteme or identify one under C.2.1. Arrange durable access when later reliance requires it.
 
 - An actual-branch account selects the `U.Work` occurrence as its one truthful EntityOfConcern.
-- A prospective-branch account selects the present `U.WorkPlan` as its one truthful EntityOfConcern. Its ClaimGraph may designate the declaration-local intended-performance content; that designation alone establishes no dated Work occurrence.
+- For an account assessing a particular plan, select the present `U.WorkPlan`. Its ClaimGraph can designate the intended performance. For a separately identified reusable design account use C.2.1 to identify what its claims concern under the chosen reference scheme. A proposal can be grounded before it has been enacted.
 - The ClaimGraph may also designate independently governed actual or intended performers, supports, state bearers, relation claims, and the governor's result. It may record the ordinary A.6.RCD blocker `factually unsupported`, `missing-information`, or `missing-governor` only under that pattern's three-way split; these phrases are not new kinds or relation values. Probe observations, uncertainty, and the warranted next action or stop remain separate claim content.
 - The effective reference scheme always supplies the designation and interpretation rules needed by those claims and adds only the measurement, comparison, or evaluation rules used. Any actual measurement, comparison, or evaluation occurrence remains under the pattern governing it.
 - If one focus cannot truthfully carry the combined claims, keep claims local or use several epistemes. Do not invent a plural focus.

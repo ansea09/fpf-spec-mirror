@@ -6,12 +6,12 @@ section_id: "C.39:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:5 — Archetypal Grounding"
-line_start: 87528
-line_end: 87600
+line_start: 87538
+line_end: 87610
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -41,7 +41,7 @@ Following that Method on the permitted local records reveals that timestamps alo
 
 The resulting candidate is: recover setup-linked cases, compare eligible error/non-error cases under the specialist Method, and return what the comparison supports and leaves unresolved. Result checking can use an existing qualified operation. The remaining question is whether the permitted records can recover enough comparable setups.
 
-That one explained candidate and its gap suffice to decide whether a bounded records inquiry is worthwhile. There is no diagnosis yet. A separate delivery or service comparison can later consider who could perform the investigation and its full burden; this search neither grants data reuse nor establishes that investigator's availability.
+The comparison identifies the next question and why its answer matters to the explanation. If the team can recover the links within the permitted effort and the resulting comparison would distinguish the explanations, it has grounds to pursue that inquiry. Where recovery would take weeks or a different available record already provides the needed link, compare those continuations before committing the work. On the facts given, the cause of the errors and the value of investing in recovery remain open. Any subsequent investigation still requires permitted access and a capable performer.
 
 #### C.39:5.2 - Preserve a performance's timing relation
 

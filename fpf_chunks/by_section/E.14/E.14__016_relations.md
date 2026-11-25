@@ -6,12 +6,12 @@ section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:13 — Relations"
-line_start: 113127
-line_end: 113148
+line_start: 113142
+line_end: 113163
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 **Builds on:**
 
 * **E.8 Authoring Conventions & Style Guide** — section order, style principles, and mandatory safety subsections used here.
-* **E.7 Archetypal Grounding** — the Tell‑Show‑Show rule applied in this pattern’s own Grounding section.
+* **E.7 Archetypal Grounding** — grounds a claim in the relation that warrants its use. In E.14:6.1 an installed configuration supports a claim about this skid. In E.14:6.2 the asserted knowledge relation determines which mapping, argument or observation the reader needs.
 * **C.2.3 Formality of an Episteme (F)** — governs assessment of expression properties and any local ordered summary. The assessment establishes neither readability nor assurance; a notation change preserves it when the relied-on properties and interpretation remain unchanged.
 
 **Coordinates with.**

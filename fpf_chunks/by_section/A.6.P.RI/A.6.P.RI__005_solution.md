@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:4 — Solution"
-line_start: 21547
-line_end: 21605
+line_start: 21553
+line_end: 21611
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -66,7 +66,7 @@ For a report of experience, retain who experienced and expressed it. B.5.EA supp
 
 #### A.6.P.RI:4.5 - Connect the recipient to the account and derive the action
 
-Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. An assignment, an authenticated exchange, direct observation or other evidence can establish that link. A recipient can ask for identifying information when what is already available leaves the reference open.
+If the interpretation or action depends on the recipient's position, establish how that position relates to the participants described. An assignment, an authenticated exchange, direct observation or other evidence can supply the link. To explain what an earlier speaker meant, recover the speaker and the reference conditions for that utterance. A reader outside the reported situation can give that account.
 
 Then interpret the account or derive the instruction under the purpose selected in §4.3. Recompute relative descriptions when necessary. When a message is only being quoted, preserve its original attribution rather than making the quoting recipient its speaker.
 

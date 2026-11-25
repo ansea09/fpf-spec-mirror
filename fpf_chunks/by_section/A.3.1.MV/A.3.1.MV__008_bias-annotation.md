@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__008_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:6 — Bias-Annotation"
-line_start: 11612
-line_end: 11623
+line_start: 11614
+line_end: 11625
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

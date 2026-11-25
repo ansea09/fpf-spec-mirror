@@ -6,12 +6,12 @@ section_id: "E.18.2:4.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__007_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4.6 — Bias-Annotation"
-line_start: 119744
-line_end: 119753
+line_start: 119761
+line_end: 119770
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,5 +44,5 @@ keywords:
 | Path-as-procedure bias | A mathematical path or path slice can express reachability or locality; method and work-plan claims stay with method and work-plan patterns. |
 | Diagram-as-architecture bias | Architecture adequacy stays with `C.30`, `C.30.ASV`, and related architecture patterns; E.18.2 records only the mathematical-description relation. |
 | Math-as-authority bias | No mathematical expression authorizes work, passes a gate, settles evidence, grants release, or proves assurance by itself. |
-| Publication-as-description bias | Publication faces and rendered diagrams stay with `E.17` unless the current EntityOfConcern is the mathematical description. |
+| Publication-as-description bias | Distinguish the mathematical description, a visible expression on its carrier and any publication face constructed for readers. Use `E.17` for the publication face. |
 

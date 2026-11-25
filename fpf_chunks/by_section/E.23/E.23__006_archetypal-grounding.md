@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal Grounding"
-line_start: 123691
-line_end: 123741
+line_start: 123708
+line_end: 123758
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -69,7 +69,7 @@ A better exercise is the first result. A different result occurs when the second
 
 Before calling this an expansion of possibilities, identify what the earlier way could obtain. If it already supported constructing and justifying cases about any relevant condition, the new example may be ordinary adaptation. If obtaining and using a non-numerical decision basis required a previously unavailable operation, demonstrate the work that the changed way now makes feasible. Use `C.18:4.3a` for that stronger comparison. A new project, a novel exercise or a higher score alone does not establish an expanded space. Better means may enable harder work that takes longer; acceleration is not required.
 
-**Make continuation possible for the next participant.** Use `C.36.RP:4.3–4.6` to decide whether the recipient needs to execute, adapt or develop the preparation. For development, give access to the construction, its reasons and conditions, relevant cases and the means or assistance for obtaining a missing contribution. Observe the recipient using these means on changed conditions and making the resulting construction usable in another preparation episode. Merely circulating the exercise set leaves this result untested. If a methodologist leaves, a surviving document may no longer be sufficient: recover the missing support or revise the arrangement before relying on the old success.
+**Make continuation possible for the next participant.** Use `C.36.RP:4.3–4.6` to decide whether the recipient needs to execute, adapt or develop the preparation. For development, give access to the construction, its reasons and conditions, relevant cases and the means or assistance for obtaining a missing contribution. For a handover of the means, establish receipt and working access to the construction and the help agreed. To establish that the successor actually used it to improve a later preparation, follow their contribution into that work under the support then available. If a methodologist leaves, a surviving document may no longer be sufficient: recover the missing support or revise the arrangement before relying on the old success.
 
 An independent participant outside the organization can continue this work without becoming its component. If the question now concerns transmission, retention or change across a cultural population, use `C.36`; count actual receiving and developing episodes for the declared question rather than treating popularity as the result. Changing those transmission conditions is itself a proposal to test.
 

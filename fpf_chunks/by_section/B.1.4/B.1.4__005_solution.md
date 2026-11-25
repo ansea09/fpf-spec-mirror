@@ -6,12 +6,12 @@ section_id: "B.1.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:2 — Solution"
-line_start: 43745
-line_end: 43819
+line_start: 43754
+line_end: 43828
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -38,12 +38,12 @@ keywords:
 
 Start with the receiving question and the result it needs. An already adequate aggregation rule and ordinary explanation can be used directly.
 
-1. **Recover the inputs and relations.** Identify the included positions, values, intervals or phases and the objects they concern. Keep their identity and relations grounded in the subject facts and applicable rules. For a temporal input, recover its bearer, temporal reference and interval; relate different references only through a justified conversion.
+1. **Identify what enters the aggregate.** When designing a rule, specify which positions, values, intervals or phases will qualify, how to identify their bearers and what establishes inclusion. For a temporal rule, specify the reference and how the window will be set. When applying the rule, recover the inputs for this use and ground their identity and relations in the relevant facts. Use a justified conversion when relating different time references.
 2. **Choose the combining rule and result.** State the operation and what it returns: for example, an ordered relation structure, a combined value, the union of covered intervals or their elapsed span. When the rule is yours to design, change a possible history while holding the proposed summary fixed. Moving a gap can preserve total coverage while moving the last completion beyond a deadline. Use the events, intervals or joint conditions that distinguish the answers the recipient needs. Supply the order, join, independence, coverage and overlap conditions that this operation uses. If the rule needed by the question is missing, retain that gap rather than naming an unsupported aggregate.
 3. **Obtain the requested result.** A specification can be sufficient when the task asks how the aggregation is to be performed. When a computed result is needed, apply the selected operation and interpret its result under those conditions. Distinguish an order structure from the result of applying the operations it represents. Section :5 shows why the same inputs can support different warranted results.
 4. **Bound the use and stop.** State the supported use and any condition whose failure or uncertainty changes it. Narrow the result or leave the affected conclusion unresolved when its required basis is missing. Use another pattern when a distinct claim needs that pattern's contribution. Stop with the sufficient ordinary answer.
 
-When the receiving use needs an inspectable account, reuse an adequate account or materialize a `ContextTemporalAggregation@Context` record. It describes the independently established inputs, rule and result; it does not establish their subject facts:
+When the receiving use needs an inspectable account, reuse an adequate account or materialize a `ContextTemporalAggregation@Context` record. It can state the input conditions and result specification for a proposed rule, or the independently established inputs and result of an application; it does not establish their subject facts:
 
 ```text
 ContextTemporalAggregation@Context:
@@ -87,8 +87,8 @@ The aggregation concern is the receiving question; the EntityOfConcern is the in
 
 | Mode | Object | Required relation discipline | Typical use |
 | --- | --- | --- | --- |
-| Contextual order aggregation | Positions and relation facts whose order, partial order or join structure matters to the stated use. | Included inputs, combining rule and required result, `OrderSpec`, ordered relation refs, join or independence conditions when used, and ClaimScope when needed. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
-| Temporal aggregation | Interval or time-indexed facts about named bearers or occurrences. | Input identities and temporal relations, temporal reference or justified conversion, `TimeWindow`, combining rule, coverage and overlap policy. The proper-phase profile additionally requires one continuing carrier and the phase relation. | Work-interval union or elapsed span, asset phases, observation windows, or chronology over episteme identities. For proper phases of one episteme, its complete C.2.1 identity triple stays fixed; distinct editions require their identities and any claimed edition relation. |
+| Contextual order aggregation | Positions and relation facts whose order, partial order or join structure matters to the stated use. | Specify how inputs and their relations qualify, the combining rule, required result, `OrderSpec`, applicable join or independence conditions and ClaimScope. For an actual aggregate, identify the inputs and relations used. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
+| Temporal aggregation | Interval or time-indexed facts about named bearers or occurrences. | Specify which bearers and intervals qualify, how to place them on a common time reference and select the `TimeWindow`, and how to combine them with coverage and overlap accounted for. A claim about an occurrence identifies the actual inputs and their temporal relations. The proper-phase profile additionally requires one continuing carrier and the phase relation. | Work-interval union or elapsed span, asset phases, observation windows, or chronology over episteme identities. For proper phases of one episteme, its complete C.2.1 identity triple stays fixed; distinct editions require their identities and any claimed edition relation. |
 
 When a use combines order and temporal claims, distinguish what each contributes and state the correspondence on which the joint result relies; one sufficient account may contain both. A Method may have an ordered relation structure. Work that enacts it may have A.15.1 temporal parts, episodes, operational parts or separate occurrences, while C.27.TA supplies any independently declared overlap or other interval relation. Aggregate those inputs under the chosen rule. Use `PhaseOf` only for the proper-phase profile of one enduring carrier, not as a substitute for Work or temporal relations.
 

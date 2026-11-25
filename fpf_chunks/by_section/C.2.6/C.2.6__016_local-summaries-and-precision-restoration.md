@@ -6,12 +6,12 @@ section_id: "C.2.6:15"
 section_title: "Local Summaries and Precision Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__016_local-summaries-and-precision-restoration.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:15 — Local Summaries and Precision Restoration"
-line_start: 56867
-line_end: 56880
+line_start: 56876
+line_end: 56889
 dependencies:
   - "A.10"
   - "A.16"

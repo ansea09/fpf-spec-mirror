@@ -6,7 +6,7 @@ section_id: "A.2.5:7"
 section_title: "Archetypal Grounding and Bias Control"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__010_archetypal-grounding-and-bias-control.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:7 — Archetypal Grounding and Bias Control"
@@ -42,5 +42,5 @@ keywords:
 
 **Episteme boundary.** A representation or evidence episteme can describe or support a state claim.
 
-The main bias risk is label-first reasoning. A familiar state word invites the reader to skip predicate recovery. Repair it by recovering the assignment, predicate by value, actual state extent, and only the assertion and evidence-use relation needed by the receiving use.
+A familiar state label can obscure which condition the receiving work needs. For a planned operation, recover the predicate and when it must hold. To judge an actual assignment, recover its holder, predicate and actual state extent. Add the assertion and evidence-use relation needed for the receiving decision.
 

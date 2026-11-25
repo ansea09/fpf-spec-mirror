@@ -6,12 +6,12 @@ section_id: "A.6.M:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:intro — Intro"
-line_start: 23871
-line_end: 23876
+line_start: 23877
+line_end: 23882
 dependencies:
   - "A.10"
   - "A.20"

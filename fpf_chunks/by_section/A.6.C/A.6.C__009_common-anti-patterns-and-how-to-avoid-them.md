@@ -6,12 +6,12 @@ section_id: "A.6.C:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16432
-line_end: 16444
+line_start: 16434
+line_end: 16446
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,7 +58,7 @@ keywords:
 
 | Anti-pattern                                        | Why it fails                                                   | Repair                                                                                      |
 | --------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Literal commitment assigned to a description** | An interface label does not select a description or an actual bearer; a carrier bears a publication form and is not thereby a description episteme. | Recover the claim and referent. Keep a semantic guarantee or clear policy metonymy. For a literal commitment, name the capable bearer, current policy and separately obtaining `U.Commitment`; keep any assignment as rule ground. Distinguish description, represented interface/access object, form and carrier only when the claim needs them. |
+| **Literal commitment assigned to a description** | An interface label does not select a description or an actual bearer; a carrier bears a publication form and is not thereby a description episteme. | Recover the claim and referent. Keep a semantic guarantee or clear policy metonymy. For a literal commitment, name its actual bearer, the applicable policy and the facts establishing the `U.Commitment`. Retain any assignment on which the governing rule relies. Distinguish description, represented interface/access object, form and carrier only when the claim needs them. |
 | **Guarantee-without-substrate** | The word hides whether the claim is semantic, deontic, an entry condition, or an operational claim such as an actual gate result or an observed or evaluated result | Classify semantic law as L, a generic prescription or claim about an individual commitment or current grant as D, an admission predicate as A, and an actual occurrence, condition or result as E; examples include an A.21 `GateDecisionResult` and other observed or evaluated results. Use `A6-AW-*` for permission-looking wording. |
 | **SLA smuggled into laws** | Mixes governance with semantics; breaks substitution reasoning | State the target as a generic D prescription or an individual commitment, reference its L-defined metric and A conditions, and cite the E evaluated result plus A.10 support when current |
 | **Gate written as obligation** | Confuses admissibility predicates with deontic claims | Write the predicate as A; write a generic prescription or separately instituted individual duty as a D→A reference. |

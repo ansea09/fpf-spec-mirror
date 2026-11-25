@@ -6,12 +6,12 @@ section_id: "F.14:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_invariants.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:8 — Invariants"
-line_start: 132236
-line_end: 132248
+line_start: 132253
+line_end: 132265
 dependencies:
   - "A.10"
   - "A.15.1"

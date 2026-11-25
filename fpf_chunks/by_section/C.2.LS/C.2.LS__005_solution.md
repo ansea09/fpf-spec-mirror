@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:4 — Solution"
-line_start: 56044
-line_end: 56102
+line_start: 56053
+line_end: 56111
 dependencies:
   - "A.16"
   - "A.16.0"

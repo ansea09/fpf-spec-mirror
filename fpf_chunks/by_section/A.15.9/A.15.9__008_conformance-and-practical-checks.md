@@ -6,12 +6,12 @@ section_id: "A.15.9:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__008_conformance-and-practical-checks.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:7 — Conformance and practical checks"
-line_start: 33836
-line_end: 33854
+line_start: 33843
+line_end: 33861
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,8 +33,8 @@ keywords:
 
 A use conforms only when the checks needed by its claimed result pass:
 
-1. The receiving decision or Work, receiver, and action that can change are recognizable to a cold reader.
-2. An already-available result is inspected before new supplier Work is requested, unless none can reasonably be found at the required cost.
+1. A reader can identify the recipient, the work or decision and the contribution it requires. When that contribution can have its intended effect only together with another result, the account explains the relevant condition.
+2. An accessible, adequate result is used when the commission permits. For an independent judgement, the assessor receives only the material permitted before that judgement. A further discretionary inquiry has a reason that warrants its cost.
 3. The first result gives the useful supported answer and its material limit or blocker. For an outstanding commitment, the request covers the contribution owed. A discretionary request is justified by its obtainable value against the whole acquisition burden under `C.11.DUA`.
 4. Subject, configuration or situation, interval, assumptions, intended use, and non-use boundary are present at the grain that can change the answer.
 5. The supplier uses the applicable Method and evidence standards. Any recommendation, binding decision or further action falls within the powers actually assigned to the supplier or client.

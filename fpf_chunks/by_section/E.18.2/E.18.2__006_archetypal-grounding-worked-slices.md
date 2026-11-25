@@ -6,12 +6,12 @@ section_id: "E.18.2:4.5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__006_archetypal-grounding-worked-slices.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4.5 — Archetypal Grounding (Worked Slices)"
-line_start: 119724
-line_end: 119743
+line_start: 119741
+line_end: 119760
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ keywords:
 
 **Refrigerator principle scheme.** A vapor-compression diagram can be a publication face. The cooling cycle can be a selected `TransformationFlowStructure`. The thermodynamic laws are mechanism or formal-substrate claims. The graph or equation set that describes the cycle is an E.18.2 mathematical description. It may preserve transformation order, heat-transfer constraints, and cycle closure while losing maintenance work, sensor uncertainty, and installation context. It does not prove the refrigerator works or authorize a repair.
 
-**Two descriptions of one build-the-builder network.** A nested wiring description can preserve finite member paths and exposed positions while hiding an n-ary relation's qualification. A hypergraph description of the same E.18.NET value can preserve relation arity and endpoints while flattening recursive member boundaries. Both E.18.2 records cite the same network ref and state different preserved and lost structure; neither graph creates or reidentifies the network. A rendered diagram is a further E.17 publication value.
+**Two descriptions of one build-the-builder network.** A nested wiring description can preserve finite member paths and exposed positions while hiding an n-ary relation's qualification. A hypergraph description of the same E.18.NET value can preserve relation arity and endpoints while flattening recursive member boundaries. Both E.18.2 records cite the same network ref and state different preserved and lost structure; neither graph creates or reidentifies the network. If a diagram presents the result to readers as a publication face, E.17 governs that further value.
 
 **Two branches on one supply.** At one instant each branch may draw 1 A or 3 A. Their currents add at the common boundary and the model has no other load there. An interlock allows exactly the pairs (1,3) and (3,1). Compose under that rule first: either pair gives 4 A. Now keep just the two individual sets of currents and combine them independently. The full list of pairs is (1,1), (1,3), (3,1), (3,3), giving totals of 2, 4 and 6 A. Both calculations establish compliance with a 6 A limit. The 6 A pair in the second calculation has no realization with this interlock. To decide a 4 A limit for this installation or report its exact total, retain the interlock or obtain an independent sufficient bound or measurement for the same use. A bound of 4 A alone settles the limit, while an exact total requires bounds or evidence that determine the value.
 

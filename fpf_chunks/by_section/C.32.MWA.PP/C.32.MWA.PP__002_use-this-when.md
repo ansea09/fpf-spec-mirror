@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:0 — Use This When"
-line_start: 83250
-line_end: 83281
+line_start: 83260
+line_end: 83291
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -23,11 +23,11 @@ keywords:
 
 ### C.32.MWA.PP:0 - Use This When
 
-Use this pattern when individually plausible Methods or candidate accounts could be combined or co-used in materially different ways, and the receiving result depends on their composition, Work overlap or order, allocation, relations among the affected Systems and means, descriptions, provider access or cultural relations. A typical practice or development network can supply the intended transformations while leaving their local performance and support unresolved.
+Use this pattern when a result depends on how several Methods can be performed and supported together. The work may depend on their composition, on overlap or order in actual Work, on allocation, on relations among Systems and means, on descriptions, on provider access or on cultural relations. A practice or development network can specify the intended transformations while leaving their local performance and support unresolved.
 
 The practical question is how the related contributions can become obtainable together. A Method may need a qualified judgement before work begins, while the proposed expert is available only later. A common service may save preparation but delay local decisions. Learning may consume the only expert time needed for current delivery. Assigning names to boxes does not settle these interactions.
 
-Begin with the obtaining or possible-future practice and one result at risk. Follow that result from its subject through the Method that could obtain it to the person, AI or other System that would perform the work. Recover one condition that can defeat the connection: missing competence, time, equipment, evidence, permission, a usable incoming result or an available receiving action. Construct alternatives by changing that connection and completing its consequences through the receiving result.
+Start with what the practice must enable its recipients to obtain or maintain. If several outcomes are due, establish which must hold together and when. Follow the needed contributions to the Methods, performers and support that could provide them. Consider competence, time, equipment, evidence, permission and access where they affect this work. For one feasible arrangement, show how the contributions can meet those conditions together. To compare proposed arrangements, trace their differences through to the recipients. If the commission also asks you to develop another arrangement, change a relevant connection and examine its consequences.
 
 A comparison uses at least two serious arrangements, including the feasible incumbent where applicable, and exposes local gains and burdens moved across participants, scopes, Systems or times. It can retain an incumbent, select a conditional future arrangement, warrant a bounded attempt, return one missing contribution or reject an unavailable promise. It does not itself make proposed relations actual or provide every subject Method needed to realize them.
 

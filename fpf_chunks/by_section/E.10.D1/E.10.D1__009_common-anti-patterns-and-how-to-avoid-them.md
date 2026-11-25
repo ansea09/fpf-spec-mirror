@@ -6,12 +6,12 @@ section_id: "E.10.D1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 109144
-line_end: 109154
+line_start: 109159
+line_end: 109169
 dependencies:
   - "A.1.1"
   - "A.2.6"

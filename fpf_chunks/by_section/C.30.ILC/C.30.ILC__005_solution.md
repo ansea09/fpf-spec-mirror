@@ -6,12 +6,12 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 78251
-line_end: 78369
+line_start: 78261
+line_end: 78379
 dependencies:
   - "A.10"
   - "A.22"
@@ -102,7 +102,7 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
 }
 ```
 
-**Layer, level, tier, stack, and declared-scope labels.** `Declared holon level` is the general level-bearing recovery field for this pattern; system level and episteme level are special cases when the described holon or selected structure makes them relevant to the claim. `System level` may remain as ordinary recognition language when a practitioner would naturally use it, but the record recovers the project-side scope references through `declaredHolonLevelRefs` or `declaredScopeRefs`; a system level is not the default architecture level.
+**Layer, level, tier, stack, and declared-scope labels.** Use `declaredHolonLevelRefs` for levels in the established composition of the holon kind at issue. A mismatch between a particular work occurrence and its constituent actions, for instance, can matter to a handover. For control functions, ranges of operation and other scopes, recover the relation the claim actually uses (C.30.STRAT:4.2). `System level` may remain as ordinary recognition language when a practitioner would naturally use it, but the record recovers the project-side scope references through `declaredHolonLevelRefs` or `declaredScopeRefs`; a system level is not the default architecture level.
 
 When the source says layer, level, tier, or stack, recover one or more of: `declaredHolonLevelRef`, `controlLayerRef`, `declaredSystemLevelRef`, `aggregationScopeRef`, `rateBandRef`, `organizationLevelRef`, `workEvidenceScopeRef`, `scaleWindowRef`, or `publicationSectionRef` when the wording only names a document layer.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.27.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
-line_start: 70470
-line_end: 70944
+line_start: 70479
+line_end: 70954
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -129,7 +129,7 @@ Establish the temporal conclusion the recipient needs. An explanation of the obs
 1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
 2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.
 3. Classify the claim as Dyn0, Dyn1 or Dyn2. For timing specified by a proposed schedule, derive the interval from the scheduled events. To establish when the events occurred, use observations that cover them. Two dated counts of the same stock under the same counting rule can establish its net change. If duplicate entries were removed between counts, establish how much of the recorded change came from the correction before crediting it to completed work. The same endpoints can follow a steady decline or a rise followed by a sharper fall. To judge the path between them, use records or a supported model of the intervening period. To attribute a change to an action, compare what the relevant quantity would do under that action and under its alternative.
-4. If it is Dyn0 or Dyn1 and no intervention-sensitive question remains, stop or use C.16 for the unresolved measurement question.
+4. For Dyn0 or Dyn1, return an adequately grounded snapshot, duration or rate when that answers the question. An agreed start and finish time can settle whether one completed case met its deadline. When a shared window or end-to-end guarantee must be derived from the activities, use C.27.TA to relate their timings and handovers to the time promised for the whole. Use C.16 when the measurement is still in question.
 5. For Dyn2, connect the proposed input to the claimed temporal effect. Recover the baseline, relevant window and resistance or cost; identify whether the basis is observation, a planning assumption, a model consequence or a causal result. Reuse adequate grounds. When the effect is the unresolved causal question, use C.28 and its construction or mechanism-replacement method as needed.
 6. Return the supported conclusion and only the neighboring result on which it depends. Unknown resistance or another missing premise can justify a narrower or unresolved result.
 7. Add more detail only when it can resolve a remaining receiving question; an incomplete form is not itself a reason to open a larger profile.
@@ -315,7 +315,8 @@ To judge regularity, specify which sessions count, how start-to-start intervals 
 | Case | What C.27 preserves | Direct next pattern or stop |
 | --- | --- | --- |
 | “Backlog is 120 items today.” | Dyn0 snapshot | stop; C.16 only when the measurement construction matters |
-| “Backlog fell by 20 items per week.” | Dyn1 rate | stop or C.16; no intervention claim |
+| “Backlog fell by 20 items per week.” | Dyn1 rate | return the supported rate when asked for it; use C.16 if the measurement needs examination |
+| “Each review takes at most two days. Can the applicant expect a reply within two days?” | durations, their start and end events, and whether the reviews can overlap | Use C.27.TA:5.4. Two successive reviews can consume four days before any additional handover delay. For concurrent reviews, check when both can start and when their results can be used together. |
 | “More tool calls will speed debugging.” | outcome rate, System actor only when Work is claimed, input, resistance, evaluation evidence, stop or replan, and unsupported reasoning-quality inference | C.24, A.15.1, F.6, evaluation, and evidence as applicable |
 | “Method A improves faster than Method B.” | Dyn1 versus Dyn2 comparison, baseline and other windows, effort parity, hidden costs, and no causal or universal superiority | G.9 and C.16; C.28 only for causal use |
 | Equal final scores | adaptation window, effort parity, rework, validity, and recovery may still differ | G.9 |

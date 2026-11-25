@@ -6,7 +6,7 @@ section_id: "A.0:QF.2b"
 section_title: "Practitioner-facing reading cue"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__017_practitioner-facing-reading-cue.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2b — Practitioner-facing reading cue"

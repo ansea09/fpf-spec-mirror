@@ -6,12 +6,12 @@ section_id: "E.10.LRN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__005_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:3 — Forces"
-line_start: 107375
-line_end: 107385
+line_start: 107390
+line_end: 107400
 dependencies:
   - "A.10"
   - "A.15"

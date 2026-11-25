@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:5"
 section_title: "Archetypal Grounding (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__007_archetypal-grounding-informative.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:5 — Archetypal Grounding (informative)"
-line_start: 39674
-line_end: 39711
+line_start: 39681
+line_end: 39718
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

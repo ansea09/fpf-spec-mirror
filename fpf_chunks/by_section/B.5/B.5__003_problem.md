@@ -6,12 +6,12 @@ section_id: "B.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__003_problem.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:2 — Problem"
-line_start: 48360
-line_end: 48365
+line_start: 48369
+line_end: 48374
 dependencies:
   - "A.10"
   - "B.5.1"

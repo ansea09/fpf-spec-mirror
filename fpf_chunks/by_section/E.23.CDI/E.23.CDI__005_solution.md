@@ -6,12 +6,12 @@ section_id: "E.23.CDI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:4 — Solution"
-line_start: 123919
-line_end: 123989
+line_start: 123936
+line_end: 124006
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -45,8 +45,8 @@ Decide whose capability to develop from the work that will be entrusted. Follow 
 1. Start from an evidence-backed account of the domain Methods needed for the named Work and how their contributions relate.
 2. Name the operating envelope and the qualification window or currentness condition that can change whether the Work succeeds.
 3. State the current capability baseline and desired result before choosing an intervention: the decision-bearing current measures and evidence, the desired measures or success predicate, and the trade-offs that must remain protected. The desired result is a target for later evaluation, not an established current ability or an actual change.
-4. Find the contribution that is missing, limiting, or poorly coordinated. When the issue is which organization of a particular Method the holder can use, apply A.2.2:2.1 at the grain that exposes the missing relation; use :4.2.1 below to choose how it will become usable.
-5. Choose an intervention directed at that limitation, and name any provider System on which the intervention relies. The intervention may use, for example, practice, coaching, adaptation, tooling, changed support, or a changed Method; the receiving domain supplies the choice.
+4. Establish what prevents the required result far enough to choose the next contribution. If several explanations call for the same useful response, explain why it fits them and keep their causes open. If the explanations lead to different choices, obtain the distinction that matters. When the issue is which organization of a particular Method the holder can use, apply A.2.2:2.1 at the grain that exposes the missing relation; use :4.2.1 below to choose how it will become usable.
+5. Choose an intervention grounded in that assessment and identify any provider on whom it depends. The intervention may use, for example, practice, coaching, adaptation, tooling, changed support, or a changed Method; the receiving domain supplies the choice.
 6. Carry the protected conditions into the chosen intervention. Keep the selected intervention or plan separate from any development Work that is later performed.
 7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. Exercise completion, attendance or provider delivery alone does not establish transfer. Reuse evidence from an exercise or another check when it tests the declared target in representative Work under the receiving conditions and satisfies its evidence requirements. If a fresh performance by the holder is itself commissioned, obtain that performance under the specified support conditions.
 
@@ -81,7 +81,7 @@ When learning one contribution damages another required contribution, compare th
 
 #### E.23.CDI:4.3 - Return the first useful result
 
-The first useful result names the admitted holder System and target Work family. Describe the current capability baseline, operating envelope, measures and evidence that matter to the decision, qualification window or currentness condition, and the contribution that limits performance.
+The first useful result names the admitted holder System and target Work family. Describe the current capability baseline, operating envelope, measures and evidence that matter to the decision, qualification window or currentness condition, and the limitation established or the alternatives that still matter.
 
 State the desired measures or success predicate, selected intervention and any provider dependency, protected conditions, representative transfer check and reopen condition. If member distributions or cultural propagation are also at issue, return their separate assessment or C.36 result. A population can be the capability holder only when that whole is independently admitted as the System.
 

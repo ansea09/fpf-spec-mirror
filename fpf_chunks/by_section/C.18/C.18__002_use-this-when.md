@@ -6,12 +6,12 @@ section_id: "C.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:0 — Use This When"
-line_start: 63836
-line_end: 63853
+line_start: 63845
+line_end: 63862
 dependencies:
   - "A.15"
   - "A.19"

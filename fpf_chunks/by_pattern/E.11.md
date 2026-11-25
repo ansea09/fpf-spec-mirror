@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 109619
-line_end: 110396
+line_start: 109634
+line_end: 110411
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -263,7 +263,7 @@ Keep the entry short enough to consult in the work. Give the situation, the dist
 
   Use `C.22.2` when the useful object is a reviewable problem-side card or formulation rather than the world-side relation. One `ProblemCard` may describe no actual PFR; selecting or discovering a method changes only the current solvability or continuation claim, not PFR participants, obtaining, identity, or the adverse condition.
 
-- **The present work succeeds, but another useful continuation may be possible.** The framework Readme's `WORK-OPPORTUNITY` entry connects bounded exploration, needed method contributions and the worth of advice. Begin with the available material or action; a changed constraint is not required. Select `C.40`, `C.39` or `C.11.DUA` by the first missing result, then stop at that result or its exact blocker. Continuing the present work without a new recommendation is a normal outcome.
+- **The present work succeeds, but another useful continuation may be possible.** The framework Readme's `WORK-OPPORTUNITY` entry connects bounded exploration, needed method contributions and the worth of advice. Begin with the available material or action; a changed constraint is not required. Select `C.40`, `C.39` or `C.11.DUA` by the contribution the decision needs. A supported possibility can settle a request for an idea. For a decision about the proposed change, apply that finding to its value, burden and outstanding conditions. Continuing the present work without a new recommendation is a normal outcome.
 
 #### E.11:4.2 - Public helper epistemes
 These helper epistemes are optional authoring or named-reliance support. Do not open them when the short public entry and direct pattern already make the result and boundary truthful. A pattern reference locates the FPF pattern episteme whose content is needed; classify it as a `U.MethodDescription` only when the A.3.2 criterion passes and the current use depends on that classification.

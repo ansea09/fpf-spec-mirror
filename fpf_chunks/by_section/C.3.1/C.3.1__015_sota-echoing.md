@@ -6,12 +6,12 @@ section_id: "C.3.1:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__015_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:13 — SoTA-Echoing"
-line_start: 58049
-line_end: 58052
+line_start: 58058
+line_end: 58061
 dependencies:
   - "A.1"
   - "A.11"

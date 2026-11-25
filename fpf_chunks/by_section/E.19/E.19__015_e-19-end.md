@@ -6,12 +6,12 @@ section_id: "E.19:End"
 section_title: "E.19:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__015_e-19-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:End — E.19:End"
-line_start: 121666
-line_end: 121667
+line_start: 121683
+line_end: 121684
 dependencies:
   - "A.15.1"
   - "A.6.1"

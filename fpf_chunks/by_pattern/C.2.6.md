@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
-line_start: 56727
-line_end: 56915
+line_start: 56736
+line_end: 56924
 dependencies:
   - "A.10"
   - "A.16"

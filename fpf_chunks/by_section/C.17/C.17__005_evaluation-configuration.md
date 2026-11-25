@@ -6,12 +6,12 @@ section_id: "C.17:3"
 section_title: "Evaluation configuration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__005_evaluation-configuration.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:3 — Evaluation configuration"
-line_start: 63494
-line_end: 63510
+line_start: 63503
+line_end: 63519
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__008_bias-annotation.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:6 — Bias-Annotation"
-line_start: 11861
-line_end: 11873
+line_start: 11863
+line_end: 11875
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

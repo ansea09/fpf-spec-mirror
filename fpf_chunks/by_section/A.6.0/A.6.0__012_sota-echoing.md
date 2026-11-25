@@ -6,12 +6,12 @@ section_id: "A.6.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__012_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:11 — SoTA-Echoing"
-line_start: 17429
-line_end: 17448
+line_start: 17431
+line_end: 17450
 dependencies:
   - "A.15.1"
   - "A.17"

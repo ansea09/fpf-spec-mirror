@@ -6,12 +6,12 @@ section_id: "C.41.TF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:4 — Solution"
-line_start: 94422
-line_end: 94467
+line_start: 94432
+line_end: 94477
 dependencies:
   - "C.37"
   - "C.41"
@@ -28,9 +28,9 @@ C.37 selects a representation for one receiving use. Here the construction binds
 
 Take the selected questions and coverage from C.41 or another adequate source. Identify information shared across the list, such as the physical set and comparison description. Place it where users can see its scope. Keep question-specific conditions with the question.
 
-Phrase the questions in the language practitioners use for their work: the card set, print run or catalogue import. If adaptation changes what counts as satisfactory, reconsider the criterion before relying on equivalent answers from the forms. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with a real case and the recipient's way of working. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
+Phrase the questions in the language practitioners use for their work: the card set, print run or catalogue import. If adaptation changes what counts as satisfactory, reconsider the criterion before relying on equivalent answers from the forms. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with the work the recipient will do. Use a relevant case where it helps establish how they would interpret the question. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
 
-Resolve an ambiguous heading from the work and its governing description. Consult a knowledgeable participant when those grounds leave its meaning open. Obtain agreement or a particular participant’s interpretation when the commission calls for it. For a printing checklist, identify who or what prepared the comparison description, who approved it if approval matters, which system was assigned to checking, and which one performed this check. One participant can hold several of these positions. A name under “Responsible” still leaves the relation open. A system's role kind and assignment, its capability and its performed work remain distinct; an applicable organizational Method helps when the assignment or enabling arrangement itself needs repair. For a file or description, name the relation, such as input to printing or basis of comparison. Use the resulting practitioner wording in the form and retain further explanation only where it helps interpretation.
+Resolve an ambiguous heading from the work and its governing description. Consult a knowledgeable participant when those grounds leave its meaning open. Obtain agreement or a particular participant’s interpretation when the commission calls for it. In a printing template, ask what the recipient needs a name for. To ask who can approve a proof, name the relevant authority. To ask who checked a particular run, leave a place for the checker to be identified when the work takes place. One participant can hold both positions. A field headed “Responsible” leaves their relation to the job open. A system's role kind and assignment, its capability and its performed work remain distinct; an applicable organizational Method helps when the assignment or enabling arrangement itself needs repair. For a file or description, name the relation, such as input to printing or basis of comparison. Use the resulting practitioner wording in the form and retain further explanation only where it helps interpretation.
 
 For each answer, make recoverable what is being asked, what counts as an answer and what grounds could support it. An instruction may name the observation; a more complex judgement may point to a domain procedure. [A.3.2.DE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32de---describe-a-method-for-its-intended-use) supplies the broader description of how to carry out the Method. A short checklist can refer to that description without trying to replace it.
 

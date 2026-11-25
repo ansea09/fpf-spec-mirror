@@ -6,12 +6,12 @@ section_id: "A.15.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:1 — Problem frame"
-line_start: 33709
-line_end: 33726
+line_start: 33716
+line_end: 33733
 dependencies:
   - "A.10"
   - "A.13"
@@ -39,11 +39,11 @@ keywords:
 
 **First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. A conditional conclusion or an available action can settle a commission that calls for it. If a related action remains possible while the requested fact is unknown, give that distinction to the recipient.
 
-A missing result can limit an answer. If obtaining more is discretionary, request the smallest obtainable contribution worth its burden for the receiving use. If the commission requires a new examination or a particular supplier’s judgement, arrange it under that commission or report the actual obstacle. An adequate existing result can settle a question about the subject.
+A missing result can limit an answer. When further inquiry is discretionary, choose the contribution by what it would enable and what it would take the supplier and recipient to obtain and use it. A more complete return may spare them a second inquiry or substantial reconstruction. If the commission requires a new examination or a particular supplier’s judgement, arrange it under that commission or report the actual obstacle. An adequate existing result can settle a question about the subject.
 
-**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and establishes who may advise, decide or act under the order. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
+**What changes in practice.** The receiver establishes what an existing result supports and who may advise, decide or act under the order. It can finish a question about the subject or supply grounds for part of the work. If a second opinion is owed, arrange it on the agreed terms even where the recipient's next action is already settled.
 
-**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
+**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits and its permitted use already settle the receiving work, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
 
 **Not this pattern when.** Use the supplier's domain Method for the specialist answer itself; `A.2.2` for capability; `A.13` for agency; `A.15.1` for dated Work; `A.2.9` for communication; `C.11` for a live choice among an existing `OptionSet`; and `C.38` only when the question has changed from one bounded contribution to several complete ways of obtaining the same receiving result.
 

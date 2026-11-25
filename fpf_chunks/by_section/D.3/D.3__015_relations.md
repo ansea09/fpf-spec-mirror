@@ -6,12 +6,12 @@ section_id: "D.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__015_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:11 — Relations"
-line_start: 97459
-line_end: 97469
+line_start: 97467
+line_end: 97477
 dependencies:
   - "A.1"
   - "A.10"

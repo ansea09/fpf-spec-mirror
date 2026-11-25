@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
-line_start: 18986
-line_end: 19029
+line_start: 18990
+line_end: 19033
 dependencies:
   - "A.15"
   - "A.20"
@@ -43,9 +43,9 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | **CC-CSC-2 (Exact construction when material).** | The same trigger requires `c : X -> Y` with same EntityOfConcern, claim construction, endpoint-scheme relation, preservation, controlled loss, prohibited strengthening, applicability, and return. | Makes a load-bearing coarsening claim testable without making the formal account the ordinary entrance. |
 | **CC-CSC-3 (Admissible use).** | The ordinary candidate names its present use; `Y` has one stated narrower admissible use. | Keeps convenience from becoming broad authority. |
 | **CC-CSC-4 (Non-admissible use).** | The use boundary is clear. Where a proposed stronger use needs lost distinctions or additional support, its limiting condition remains explicit; express the boundary under `F.19:4`. | Blocks authority laundering. |
-| **CC-CSC-5 (Return).** | Ordinary return resolves to the directly linked source; an exact account resolves to `X`, an established source relation, an authority source, or the concrete neighboring contribution needed by the stronger claim. | Prevents provenance reset and fictive routing. |
+| **CC-CSC-5 (Return).** | For ordinary use, a person who needs to verify the comparison can recover its source directly or through an authorized route under the applicable access and timing conditions. An exact account resolves to `X`, an established source relation, an authority source or the particular contribution needed by a stronger claim. | Preserves the means of verification for the use at issue. |
 | **CC-CSC-6 (Neighbor separation).** | Work, additional source epistemes, correspondence, representation, mathematical-lens use under C.29, viewpoint/`U.View`, grounding, publication occurrence, form, carrier, audience, and bounded use remain separate and use their own definitions, tests, or methods when current. | Prevents a filled coarsening card from becoming an omnibus ontology. |
-| **CC-CSC-7 (Ordinary economy).** | Ordinary cases return the shorter candidate with its directly reachable source after comparison; a separate six-row note is optional. Exact endpoint and construction identity open only when independent transfer or the receiving use makes them material. | Preserves usability without deleting the exact branch. |
+| **CC-CSC-7 (Ordinary economy).** | Ordinary cases return the shorter candidate with the source return required for the receiving use (§4.2, §4.4) after comparison; a separate six-row note is optional. Exact endpoint and construction identity open only when independent transfer or the receiving use makes them material. | Preserves usability without deleting the exact branch. |
 
 #### A.6.3.CSC:7.2 - Exact reuse or reliance conditions
 

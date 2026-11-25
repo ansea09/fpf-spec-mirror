@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 119612
-line_end: 119723
+line_start: 119629
+line_end: 119740
 dependencies:
   - "A.10"
   - "A.15"
@@ -115,7 +115,7 @@ The same visible source may require several records, but each E.18.2 description
 
 A refrigerator principle scheme may include an E.17 publication face, a functional-architecture view, one selected E.18 TFS, a thermodynamic mechanism claim, and an E.18.2 graph or equation description. A network diagram may similarly publish an E.18.2 description of one already selected E.18.NET network.
 
-If the expression is evaluated as a lens, apply the C.29 adequacy test; if it is rendered or published, identify the E.17 publication face and any current view or architecture-description membership. Neither record reidentifies the TFS or network.
+To assess the expression as a lens, apply C.29. To check what a rendering shows, inspect the expression as it appears on its carrier. If the commission calls for a publication face, use E.17 to relate that face to the source and the intended reader's use. Establish membership in a view or architecture description when the claim depends on it. These representations retain the selected TFS or network as their subject.
 
 
 #### E.18.2:4.4 - Related claims
@@ -146,5 +146,5 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 | functional structure or unsettled function-like wording | Use `C.30.ASV` for the functional structural view; use `A.6.F` to recover the object or claim from unsettled function-like wording, then apply its subject pattern. |
 | module interface | `A.6.M` supplies the module-interface relation |
 | reusable-structure characteristics | `C.31` carries the reusable-structure claim |
-| publication face or explanation-faithfulness use | use `E.17` to construct the face if needed. For actual publication, identify the authorized issue and access under `E.24.PUB`. Use `E.17.EFP` for the explanation-faithfulness result |
+| publication face or explanation-faithfulness use | use `E.17` to construct or assess a face and `E.24.PUB` to establish availability to the intended audience. For an official issue, establish the issuing act under the applicable terms. If its effect matters, establish when and under which rule that issue takes effect. For actual receipt, establish what reached the recipient. Use `E.17.EFP` for explanation faithfulness. |
 

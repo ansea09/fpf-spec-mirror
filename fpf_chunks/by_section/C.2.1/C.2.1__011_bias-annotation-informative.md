@@ -6,12 +6,12 @@ section_id: "C.2.1:10"
 section_title: "Bias-Annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__011_bias-annotation-informative.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:10 — Bias-Annotation  (informative)"
-line_start: 54446
-line_end: 54454
+line_start: 54455
+line_end: 54463
 dependencies:
   - "A.1"
   - "A.10"

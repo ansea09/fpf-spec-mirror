@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.24.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
-line_start: 67843
-line_end: 68316
+line_start: 67852
+line_end: 68325
 dependencies:
   - "A.10"
   - "A.15"
@@ -248,8 +248,8 @@ A.15.1 governs the actual call or observation Work; `G.6` provides a trace repre
 To construct the route, use the backward construction and forward check in `OPS.11.1:4.2–4.3` for this fixed action:
 
 1. **Recover usable contributions.** Read the available Methods and any needed route descriptions for the results they supply, required inputs, preconditions, relevant effects and limits. Resolve missing interface meaning from the maintained description or provider. Begin with the action's receiving completion conditions.
-2. **Work backwards from the required result.** Choose an admitted Method that can supply it. For each input not already available, find a qualified preceding Method or an available source that supplies it. Continue until the route reaches available inputs. Keep required joins and enabling conditions. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
-3. **Check forwards from the available inputs.** Follow the proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate. Compare the final output with the result promised to the recipient. If a call only prepares the input for delivery or acceptance, include the work still needed and its time and entry conditions in the plan.
+2. **Work backwards from the required result.** Establish what must hold for the recipient, including conditions that several services must provide together. Choose admitted Methods for the required contributions. For a missing input, trace it to an available source or a qualified supplying Method. For concurrent provision, establish whether all necessary contributions can be available together for the required interval. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
+3. **Check forwards from the available inputs.** Follow a proposed output to the operation that uses it, and follow jointly required contributions to the condition they establish. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate. Check whether the proposed calls and their connections supply the entire result promised to the recipient. If a call only prepares the input for delivery or acceptance, include the work still needed and its time and entry conditions in the plan.
 4. **Return the route or the unresolved question.** State the calls, useful intermediate results, required ordering or safe parallelism, shared resources and stop or replan conditions. When a later call depends on an earlier result, specify what the person or system making that choice will know in time and what it can then do. For a guaranteed result, check the remaining budget and completion conditions on every reachable branch. If the deciding information arrives after an irreversible choice, establish a route that works across the cases still possible then, or report the missing condition. Use §4.2 for a bounded scout when its result could resolve that question at justified cost. If the action changes, use §0.4 to establish what still fixes it. Stop the work the cancellation ends. If another operative requirement still fixes a remaining action, continue or revise its route on that basis. Refer an open choice to whoever may settle it.
 
 
@@ -342,7 +342,7 @@ An ordinary written plan can supply this content; the schemas above are optional
 
 - the operative grounds fixing the action, its objective, and the ordered Method refs. These grounds may come from a commission, a domain prescription, an A.15.7 decision or a C.11 `choose now` result;
 - route-description refs only when needed, with their source scheme, exact edition, intended use, and selected Method binding;
-- dependencies, safe parallelism and any earlier result that governs which later call can be made, when these change the route;
+- dependencies, the simultaneous availability of jointly required services, safe parallelism and any earlier result that governs which later call can be made, when these change the route;
 - applicable time, compute, cost or risk budgets, with stop and replan conditions;
 - next planned action; and
 - an exact C.19 or C.19.1 result, B.3 assurance result, causal-use result, provenance ref, or named domain-constraint result only when that branch is current.
@@ -454,7 +454,7 @@ Keep notation and vendors out of the conceptual contract. Do not average unlike 
 ### C.24:7 - Conformance Checklist
 
 1. Each result states what fixes the planned action under the conditions of use. Cite the operative instruction or commitment, applicable domain prescription, A.15.7 decision or C.11 choose-now `ChoiceResult`, including their combination where needed. A WorkPlan alone supplies no permission or authority. A directly commissioned or prescribed action requires no intervening decision wrapper.
-2. Every planned step names an A.3.1-admitted Method that realizes or supports the fixed action. The action basis fixes the action or option; selecting it does not establish Method identity. Route-description refs remain separate and optional.
+2. Every planned step names an A.3.1-admitted Method that realizes or supports the fixed action. The plan shows how the contributions can supply the whole promised result under the applicable conditions. The action basis fixes the action or option; selecting it does not establish Method identity. Route-description refs remain separate and optional.
 3. The plan records its applicable time, compute, cost or risk ceilings and stop or replan conditions.
 4. C.18 candidates or front material and C.19 live-pool treatment may inform the action basis but do not admit Methods; C.24 owns only planning and replanning results.
 5. A scale branch first cites one C.19.1 probe result, then any selected comparison or Scale-Audit result; a `BLP-waiver` remains separate from evidence.

@@ -6,12 +6,12 @@ section_id: "B.3.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__010_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:9 — Relations"
-line_start: 47460
-line_end: 47468
+line_start: 47469
+line_end: 47477
 dependencies:
   - "A.10"
   - "B.3"

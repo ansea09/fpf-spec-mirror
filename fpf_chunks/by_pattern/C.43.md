@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 95561
-line_end: 96094
+line_start: 95571
+line_end: 96104
 dependencies:
   - "A.12"
   - "C.11"
@@ -425,7 +425,7 @@ Consider a constructed case. A team produces sound diagnoses with one expert's h
 
 The recommender recovers the connection: the team can calculate and can obtain a judgement about a failed assumption from the expert today. To secure that judgement after the expert leaves, establish who must then make it and what help will still be available. It constructs three proposals to examine against the team’s aims and commitments. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
 
-Continuing the service can secure delivery if another qualified contributor will be available when needed. If the team itself must learn to recognize a failed assumption, use practice and feedback, then examine a judgement it makes with the support permitted after the expert leaves. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
+Continuing the service can secure delivery if another qualified contributor will be available when needed. Under the practice proposal the team tries contrasting cases and receives feedback. For a claim about its resulting capability, examine a judgement it makes with the support permitted after the expert leaves. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
 
 Compare the alternatives from the team's present repertoire and commitments. Practice consumes time that could deliver existing work; the expert must have time to give the proposed feedback; continuing external help remains part of the result where required. Choose the combination only if its additional attainable capability and future uses warrant that burden. An AI assistant can supply contrasts or perform calculation, but the comparison asks which consequential judgement the resulting team can obtain and under what continuing help.
 

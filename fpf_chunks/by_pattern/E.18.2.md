@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 119534
-line_end: 119813
+line_start: 119551
+line_end: 119830
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ A single diagram can present several of the five values below. Identify which va
 | one selected network of independently identified TFS or nested-network members and cross-member relations | E.18.NET defines membership, boundary, and cross-member relation requirements; apply those rules to select the network and identify its obtaining cross-member relation occurrences | not a graph, record, view, or publication, and not several valuations or one internal subflow |
 | mathematical description of exactly one selected TFS or network | `E.18.2` | records represented subject, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
 | declared mathematical-lens use and its adequacy | C.29 defines the bounded adequacy test and returned lens-use result; apply it when adequacy, payoff, preserved/lost structure, or a stop condition is claim-bearing | Use the C.29 result here. E.18.2 does not define another adequacy test. |
-| rendered graph, table, equation, diagram, or other publication face | an authorized publisher can make the description available through an `E.17` face. For actual availability, identify the `E.24.PUB` occurrence and the recipient's access. Use the applicable view or architecture-description pattern for membership or adequacy | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
+| graph, table, equation or diagram as rendered | to check what can be read, inspect the expression on its carrier. Use `E.17` to construct or assess a publication face. For availability under `E.24.PUB`, establish that the intended audience can obtain the expression and recover the required content. Use the applicable view or architecture-description pattern when its membership or adequacy is at issue | the expression can convey the mathematical description. The selected TFS or network has its own identity |
 
 When the described selected structure is one A.22-selected CGUS qualified under `E.18.3` through an independently identified E.18 substrate, E.18.2 defines only the mathematical description.
 
@@ -192,7 +192,7 @@ The same visible source may require several records, but each E.18.2 description
 
 A refrigerator principle scheme may include an E.17 publication face, a functional-architecture view, one selected E.18 TFS, a thermodynamic mechanism claim, and an E.18.2 graph or equation description. A network diagram may similarly publish an E.18.2 description of one already selected E.18.NET network.
 
-If the expression is evaluated as a lens, apply the C.29 adequacy test; if it is rendered or published, identify the E.17 publication face and any current view or architecture-description membership. Neither record reidentifies the TFS or network.
+To assess the expression as a lens, apply C.29. To check what a rendering shows, inspect the expression as it appears on its carrier. If the commission calls for a publication face, use E.17 to relate that face to the source and the intended reader's use. Establish membership in a view or architecture description when the claim depends on it. These representations retain the selected TFS or network as their subject.
 
 
 #### E.18.2:4.4 - Related claims
@@ -223,13 +223,13 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 | functional structure or unsettled function-like wording | Use `C.30.ASV` for the functional structural view; use `A.6.F` to recover the object or claim from unsettled function-like wording, then apply its subject pattern. |
 | module interface | `A.6.M` supplies the module-interface relation |
 | reusable-structure characteristics | `C.31` carries the reusable-structure claim |
-| publication face or explanation-faithfulness use | use `E.17` to construct the face if needed. For actual publication, identify the authorized issue and access under `E.24.PUB`. Use `E.17.EFP` for the explanation-faithfulness result |
+| publication face or explanation-faithfulness use | use `E.17` to construct or assess a face and `E.24.PUB` to establish availability to the intended audience. For an official issue, establish the issuing act under the applicable terms. If its effect matters, establish when and under which rule that issue takes effect. For actual receipt, establish what reached the recipient. Use `E.17.EFP` for explanation faithfulness. |
 
 ### E.18.2:4.5 - Archetypal Grounding (Worked Slices)
 
 **Refrigerator principle scheme.** A vapor-compression diagram can be a publication face. The cooling cycle can be a selected `TransformationFlowStructure`. The thermodynamic laws are mechanism or formal-substrate claims. The graph or equation set that describes the cycle is an E.18.2 mathematical description. It may preserve transformation order, heat-transfer constraints, and cycle closure while losing maintenance work, sensor uncertainty, and installation context. It does not prove the refrigerator works or authorize a repair.
 
-**Two descriptions of one build-the-builder network.** A nested wiring description can preserve finite member paths and exposed positions while hiding an n-ary relation's qualification. A hypergraph description of the same E.18.NET value can preserve relation arity and endpoints while flattening recursive member boundaries. Both E.18.2 records cite the same network ref and state different preserved and lost structure; neither graph creates or reidentifies the network. A rendered diagram is a further E.17 publication value.
+**Two descriptions of one build-the-builder network.** A nested wiring description can preserve finite member paths and exposed positions while hiding an n-ary relation's qualification. A hypergraph description of the same E.18.NET value can preserve relation arity and endpoints while flattening recursive member boundaries. Both E.18.2 records cite the same network ref and state different preserved and lost structure; neither graph creates or reidentifies the network. If a diagram presents the result to readers as a publication face, E.17 governs that further value.
 
 **Two branches on one supply.** At one instant each branch may draw 1 A or 3 A. Their currents add at the common boundary and the model has no other load there. An interlock allows exactly the pairs (1,3) and (3,1). Compose under that rule first: either pair gives 4 A. Now keep just the two individual sets of currents and combine them independently. The full list of pairs is (1,1), (1,3), (3,1), (3,3), giving totals of 2, 4 and 6 A. Both calculations establish compliance with a 6 A limit. The 6 A pair in the second calculation has no realization with this interlock. To decide a 4 A limit for this installation or report its exact total, retain the interlock or obtain an independent sufficient bound or measurement for the same use. A bound of 4 A alone settles the limit, while an exact total requires bounds or evidence that determine the value.
 
@@ -253,7 +253,7 @@ For benchmark superiority, apply the relevant comparison test. For training Work
 | Path-as-procedure bias | A mathematical path or path slice can express reachability or locality; method and work-plan claims stay with method and work-plan patterns. |
 | Diagram-as-architecture bias | Architecture adequacy stays with `C.30`, `C.30.ASV`, and related architecture patterns; E.18.2 records only the mathematical-description relation. |
 | Math-as-authority bias | No mathematical expression authorizes work, passes a gate, settles evidence, grants release, or proves assurance by itself. |
-| Publication-as-description bias | Publication faces and rendered diagrams stay with `E.17` unless the current EntityOfConcern is the mathematical description. |
+| Publication-as-description bias | Distinguish the mathematical description, a visible expression on its carrier and any publication face constructed for readers. Use `E.17` for the publication face. |
 
 ### E.18.2:5 - Conformance checklist
 
@@ -264,7 +264,7 @@ For benchmark superiority, apply the relevant comparison test. For training Work
 - `CC-E18.2-5` C.29 is used when mathematical-lens adequacy, payoff, obstruction, preserved/lost structure, or stop condition is being evaluated beyond the local description relation.
 - `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, wiring, and network-expression language can describe the selected subject mathematically. To assert which ontic structure or network is selected, identify it independently using E.18 or E.18.NET.
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.
-- `CC-E18.2-8` A rendered graph, table, equation, diagram, or other publication face remains separate from the mathematical description and is handled through `E.17`; changing it alone reidentifies neither the description nor its selected TFS or network subject.
+- `CC-E18.2-8` A claim about what a rendering shows identifies the expression on its carrier. Use `E.17` for a publication face and `E.24.PUB` for availability to the intended audience. Changing the layout alone leaves the mathematical description and its selected TFS or network identifiable on their own grounds.
 - `CC-E18.2-9` When selected TFS, selected network, work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the contribution named for that claim in §4.4 and keep the result it returns. E.18.2 records only the mathematical-description relation for one already selected ontic subject.
 - `CC-E18.2-10` Distinguish the claims carried by a source expression or publication face by their current EntityOfConcern and relation position. Keep separate records when the receiving use needs their independent identity or reconstruction.
 

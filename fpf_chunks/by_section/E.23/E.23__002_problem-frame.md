@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 123223
-line_end: 123245
+line_start: 123240
+line_end: 123262
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -41,9 +41,9 @@ When the intended improvement concerns **how further improvements are obtained**
 
 When the evaluation could report improvement without the claimed change, §4.1.1 constructs that absence through the same evaluation. An already adequate comparison needs no additional control merely because another improvement pass occurs.
 
-Use `E.23.CAE` first when the apparent object to improve remains ambiguous because a holder's capability may be outside its claimed envelope, unavailable through the current configuration, not selected as applicable, inaccessible or inactive, context-dependently unexpressed, unadapted, unenacted, or actually changed. That separate probe returns observations, a qualified disposition, surviving rivals, and candidate routes; it does not choose the object under improvement.
+Use `E.23.CAE` when the distinction between possible explanations is itself commissioned or would change what to improve. The apparent gap can concern the claimed range of capability, configuration, recognition of applicability, access, expression under these conditions, adaptation, enactment or an actual change in capability. That separate probe returns observations, a qualified disposition, surviving rivals, and candidate routes; it does not choose the object under improvement.
 
-Use `E.23.CDI` instead when a separate applicable steering or choice result has made capability development current for one admitted holder System and named Work family, and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
+Use `E.23.CDI` instead when an applicable instruction or an authorized choice calls for capability development for one admitted holder System and named Work family, and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
 
 What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop merely because every value is `5`, or treat a review recommendation as a decision, work, evidence, a selected-set result declaration, actual publication, parity, or refresh.
 

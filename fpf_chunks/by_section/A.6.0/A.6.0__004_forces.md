@@ -6,12 +6,12 @@ section_id: "A.6.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:3 — Forces"
-line_start: 16970
-line_end: 16979
+line_start: 16972
+line_end: 16981
 dependencies:
   - "A.15.1"
   - "A.17"

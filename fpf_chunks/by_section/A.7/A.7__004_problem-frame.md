@@ -6,12 +6,12 @@ section_id: "A.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__004_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:2 — Problem frame"
-line_start: 26533
-line_end: 26543
+line_start: 26540
+line_end: 26550
 dependencies:
   - "A.1"
   - "A.10"

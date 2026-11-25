@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
-line_start: 113151
-line_end: 113403
+line_start: 113166
+line_end: 113418
 dependencies:
   - "C.18"
   - "C.19"
@@ -45,7 +45,7 @@ Use this pattern when an existing FPF pattern is being corrected, clarified, reo
 
 The primary `EntityOfConcern`—the thing being changed—is one existing FPF pattern edition. The candidate is its proposed successor. For a proposed replacement, give the candidate with a bounded account of what changed, which uses it affects, which predecessor contributions remain and what has been checked. When asked to assess the effects of someone else’s candidate, return that account on the proposed editions. Put that account in the decision, review, campaign, or landing result that needs it; this pattern does not require a separate trace object.
 
-**First useful move.** Put the predecessor and candidate side by side and finish this sentence in ordinary language:
+**First useful move.** For a replacement still to be developed, identify what the recipient needs to retain or gain from the change and use that to construct the candidate. Where there are consequentially different possible repairs, compare them for that use. When assessing an actual candidate, put it beside its predecessor and state what changes for the reader.
 
 > A reader or user who relied on `<predecessor passage>` may now read, do, check, or conclude `<difference>`.
 
@@ -77,8 +77,8 @@ Labels do not solve the problem. Calling an edit “lexical”, “minor”, “
 
 #### E.15:4.1 - Recover the actual change
 
-1. **Name the predecessor, candidate, question, and receiving use.** Use exact editions or recoverable source values. Add a ClaimScope, ReferenceScheme, model-use structure, or other qualifier only when the receiving use depends on it.
-2. **Read the changed passage in both wholes.** Inspect enough of each pattern to understand what the passage does in each edition.
+1. **Name the change question and receiving use.** For design, identify the predecessor and the change the new edition must achieve. Work through material alternatives when their consequences differ. To determine an actual change or establish continuity, identify both exact editions or recoverable source values. Add a ClaimScope, ReferenceScheme, model-use structure, or other qualifier when the receiving use depends on it.
+2. **When a candidate exists, read the changed passage in both wholes.** Inspect enough of each pattern to understand what the passage does in each edition.
 3. **Describe what changes for the practitioner.** Ask separately whether the change alters recognition or entry, required inputs, the first or later action, applicability or stop conditions, returned result, normative claims, ontology, dependent uses, or assurance needed for reliance.
 4. **Classify only after that comparison.** Choose the smallest Delta-Class in §4.3 that matches the observed effect. The planned label, commit subject, or amount of changed text is evidence to inspect, not the answer.
 
@@ -104,10 +104,10 @@ An undeclared consumer can depend on the changed premise, and a declared depende
 
 | Class | Actual effect | Ordinary response |
 | --- | --- | --- |
-| **Δ-0 — editorial repair** | Spelling, punctuation, formatting, or wording changes while recognition, meaning, actions, conditions, results, checks, and dependent uses remain the same. | Make the direct repair; run the focused wording or structural check that could fail. |
+| **Δ-0 — editorial repair** | Spelling, punctuation, formatting, or wording changes while recognition, meaning, actions, conditions, results, checks, and dependent uses remain the same. | For a candidate, verify the affected wording or structure and that the reader can still make the same inference or move. If correction is commissioned, make and check the direct repair. |
 | **Δ-1 — didactic re-expression** | Order, examples, or explanation changes while the same practitioner situation, action, normative conditions, result, and ontology remain recoverable. | Verify idea preservation and read the whole changed pattern for recognition, plain language, and action continuity. |
 | **Δ-2 — normative clarification or refinement** | A previously intended rule becomes more explicit, bounded, or checkable, and semantic continuity is claimed, but affected instructions, checks, or consumers may need repair. | State the continuity claim, inspect the affected reach, and supply the equivalence or preservation evidence that the claim needs. Use a DRR when the refinement selects a material content decision. |
-| **Δ-3 — semantic change** | Admissible inputs, actions, conditions, results, normative meaning, ontology, public identity, or dependency claims change. | Make the content decision explicit, repair the dependency-closed reach, and recheck every conclusion that relied on the changed premise. |
+| **Δ-3 — semantic change** | Admissible inputs, actions, conditions, results, normative meaning, ontology, public identity, or dependency claims change. | Identify the semantic decision, affected dependencies and conclusions that rely on the changed premise. An impact assessment can return these consequences and the work they require. When implementing the change, repair that reach and recheck the dependent conclusions. |
 
 These are impact classes, not mandatory version-number syntax. If a publication uses SemVer or another version policy, map the already justified compatibility decision into that policy. Do not infer the class from `major`, `minor`, or `patch`.
 
@@ -115,7 +115,7 @@ Refine, rephrase, split, merge, generalize, constrain, rename, add, and retire r
 
 #### E.15:4.4 - Choose the least costly adequate route
 
-**Direct bounded repair.** Use this ordinary route when the defect and one non-dominated repair are understood. Make the repair, inspect its actual consumers, perform the selected focused checks, and stop. Do not generate dummy alternatives or a search record.
+**Direct bounded repair.** Use this route when a correction is commissioned and the defect and one non-dominated repair are understood. Make the repair, inspect its actual consumers, perform the selected focused checks, and stop. Do not generate dummy alternatives or a search record.
 
 **Alternative comparison.** Open this branch only when at least two materially plausible designs remain, a current SoTA choice can change the action, or a repeatable search is itself useful. State what the alternatives differ on and which intended use decides among non-dominated candidates. C.18 and C.19 may generate and retain alternatives when novelty or diversity is part of the question; E.22 and E.21 frame and evaluate pattern qualities.
 
@@ -207,7 +207,7 @@ The method biases toward continuity and inspectability (**Arch**, **Onto/Epist**
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-E15-1 (Exact change basis).** | A conforming use **MUST** identify the exact predecessor and candidate editions, the change question, and the receiving use. | Makes continuity replayable without a universal context record. |
+| **CC-E15-1 (Exact change basis).** | A conforming use **MUST** identify the change question, receiving use and predecessor. A claim about the actual difference or continuity **MUST** identify the exact predecessor and candidate editions. A design in development identifies the change sought and which choices remain open. | Makes continuity replayable without a universal context record. |
 | **CC-E15-2 (Actual delta first).** | Delta-Class **MUST** follow comparison of actual effects on recognition, inputs, actions, conditions, results, norms, ontology, consumers, and assurance; a label, version number, edit operator, or line count **MUST NOT** decide it. | Prevents small semantic changes and large harmless rewrites from being misclassified. |
 | **CC-E15-3 (Proportional route).** | An understood direct repair **MUST NOT** be forced through multiple-candidate generation, aggregate scoring, a SoTA harvest, or a new trace record. Alternative comparison **MUST** be used only when materially plausible alternatives or a consequential current-source choice remain. | Keeps ordinary changes cheap without deleting the stronger branch. |
 | **CC-E15-4 (Actual affected reach).** | Identify each in-scope use whose action, interpretation, condition, result, check or public reference depends on the changed premise. For an impact assessment, distinguish a required change awaiting its maintainer from a dependency still unknown. For an implementation claim, establish which affected uses were repaired and verified and what remains unresolved. Mentions and declared links alone do not establish a dependency. | Keeps the claimed repair and the assessment of its reach verifiable. |

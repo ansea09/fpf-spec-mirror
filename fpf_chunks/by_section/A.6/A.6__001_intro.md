@@ -6,12 +6,12 @@ section_id: "A.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:intro — Intro"
-line_start: 14250
-line_end: 14309
+line_start: 14252
+line_end: 14311
 dependencies:
   - "A.10"
   - "A.15"

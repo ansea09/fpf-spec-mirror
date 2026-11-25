@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.C.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
-line_start: 16057
-line_end: 16493
+line_start: 16059
+line_end: 16495
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -166,7 +166,7 @@ When unpacking contract-like wording or deciding what the terms and acts togethe
    * A commitment is not “the spec text”: an utterance description carries the statement, while `U.Commitment` is the separately obtaining relation described by that statement (A.7 and A.2.8).
 4. **What happened, what followed, and what supports reliance?**
 
-   * **Work:** For one dated `W : U.Work`, recover each actual performer through A.13 and let A.15.1 independently admit the occurrence from that performer, enacted Method, extent, and containing System.
+   * **Work:** For one dated `W : U.Work`, recover through A.13 the Systems credited at the scale claimed. Use A.15.1 to admit that occurrence from the performance, enacted Method, extent and containing System. Evidence of timely delivery may settle the receiving question while the individual who made it remains unknown.
 
      Add an A.2.1 assignment reference and F.6 only when this account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer.
 
@@ -255,7 +255,7 @@ Each row uses the A.6.B fields for one statement, claim ID, quadrant, and canoni
 
 #### A.6.C:5.1 — Tell
 
-When boundary contract-language leaves a consequential ambiguity, recover the claim and referent, then answer only the live questions below. Keep ordinary metonymy when its capable participant and relation are locally recoverable; a literal act or individual commitment needs that participant and the governing conditions.
+When boundary contract-language leaves a consequential ambiguity, recover the claim and referent, then answer only the live questions below. Keep ordinary metonymy when its participant and relation are clear. When attributing a dated act, establish who performed it at the scale claimed. A supported outcome may already settle a question about fulfilment. For an individual duty, identify its bearer and what put it in force. Investigate the bearer’s ability, access and available help when the question concerns fulfilment or the governing rule makes them a condition.
 
 1. **What was promised?** State the promise-content claim if one exists.
 2. **What was said, published, or instituted?** Identify only the asserted speech act, description/publication objects and institutional effects, under the conditions in §4.1.
@@ -299,7 +299,7 @@ For the extended case below, assume the `PaymentsAPI` description/publication, d
 
 **Source requirements and additional illustrative premises:**
 
-The draft leaves open whether “Devices must not exceed 20V” is a device-behavior constraint or an obligation on a capable bearer, and it does not identify the safe-operation predicate. Preserve the 20V upper bound and the requirement that negotiation succeed before power is applied. The additional gate and test below do not resolve the bearer or safety choices.
+The draft leaves open whether “Devices must not exceed 20V” is a device-behavior constraint or an obligation on a bearer covered by the governing rule, and it does not identify the safe-operation predicate. Preserve the 20V upper bound and the requirement that negotiation succeed before power is applied. The additional gate and test below do not resolve the bearer or safety choices.
 
 * **Description/publication — additional case premise:** assume a published interface spec supplying the pinout, electrical ranges, handshake procedure, and the test declaration used below.
 * **L:** electrical invariants and allowable ranges are definitions and invariants (truth-conditional).
@@ -395,7 +395,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    When contract-like wording leaves a consequential ambiguity, the text **SHALL** answer only the applicable four-question branches with atomic claims. Each asserted object and its subject predicate **SHALL** remain separately recoverable. Classify each claim through A.6.B and identify the defining pattern when its rules govern that claim. Where a conclusion about an order depends on several undertakings or acts, the account states which connection the governing terms require and the grounds for applying it, or identifies the connection that remains open.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
-   When a dated act or individual commitment is claimed, the text **MUST** identify its capable actual participant and **MUST NOT** substitute an API/interface label, description, publication carrier, kind, or assignment for that participant's basis. Ordinary metonymy may remain when its participant and relation are locally recoverable.
+   When attributing a dated act, the text **MUST** establish the performer at the scale claimed. A question about whether an eligible act occurred can be settled while the individual actor remains unknown. Establish the designated actor when the governing rule or commission requires one. For an individual commitment it **MUST** identify the actual bearer and the basis that puts the commitment in force. An API label, description, publication carrier, kind or assignment alone establishes neither participation nor the undertaking. Ordinary metonymy may remain when its participant and relation are locally recoverable.
 
    A generic prescription **SHALL** name its normative source and applicable content without inventing an individual bearer.
 
@@ -432,7 +432,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
 
 | Anti-pattern                                        | Why it fails                                                   | Repair                                                                                      |
 | --------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Literal commitment assigned to a description** | An interface label does not select a description or an actual bearer; a carrier bears a publication form and is not thereby a description episteme. | Recover the claim and referent. Keep a semantic guarantee or clear policy metonymy. For a literal commitment, name the capable bearer, current policy and separately obtaining `U.Commitment`; keep any assignment as rule ground. Distinguish description, represented interface/access object, form and carrier only when the claim needs them. |
+| **Literal commitment assigned to a description** | An interface label does not select a description or an actual bearer; a carrier bears a publication form and is not thereby a description episteme. | Recover the claim and referent. Keep a semantic guarantee or clear policy metonymy. For a literal commitment, name its actual bearer, the applicable policy and the facts establishing the `U.Commitment`. Retain any assignment on which the governing rule relies. Distinguish description, represented interface/access object, form and carrier only when the claim needs them. |
 | **Guarantee-without-substrate** | The word hides whether the claim is semantic, deontic, an entry condition, or an operational claim such as an actual gate result or an observed or evaluated result | Classify semantic law as L, a generic prescription or claim about an individual commitment or current grant as D, an admission predicate as A, and an actual occurrence, condition or result as E; examples include an A.21 `GateDecisionResult` and other observed or evaluated results. Use `A6-AW-*` for permission-looking wording. |
 | **SLA smuggled into laws** | Mixes governance with semantics; breaks substitution reasoning | State the target as a generic D prescription or an individual commitment, reference its L-defined metric and A conditions, and cite the E evaluated result plus A.10 support when current |
 | **Gate written as obligation** | Confuses admissibility predicates with deontic claims | Write the predicate as A; write a generic prescription or separately instituted individual duty as a D→A reference. |

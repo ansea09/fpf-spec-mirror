@@ -6,12 +6,12 @@ section_id: "C.39.RQ:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:0 — Use This When"
-line_start: 89379
-line_end: 89405
+line_start: 89389
+line_end: 89415
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when a Method, an established-family or project-local grouping choice, or a proposed Method/Work/support structure may fail in the project's situation. Enter when the practical question concerns the receiving result, performer capabilities, technical or organizational conditions, variability, evidence, authority, or acceptable burden and those conditions are not yet explicit enough for individual qualification or architecture comparison.
 
-Begin with the recurring situation, the intended or actual Work and the result its recipient needs. Identify the decision that the criteria will serve. Selecting one Method and arranging several Methods to run together can impose different conditions on the same work. State what must be achieved before selecting a candidate. Attach each criterion to what it constrains, such as the Method, a performer's capability, an assignment, permission to act, the authority to decide, the support available or the result delivered.
+Begin with the intended or actual Work and the result its recipient needs. The criteria may concern one occasion, several specified uses, or a family of recurring situations. Establish which of these the decision must cover. Identify the decision that the criteria will serve. Selecting one Method and arranging several Methods to run together can impose different conditions on the same work. State what must be achieved before selecting a candidate. Attach each criterion to what it constrains, such as the Method, a performer's capability, an assignment, permission to act, the authority to decide, the support available or the result delivered.
 
 The first useful result is a bounded set of criteria with subjects, allowed variation, evidence needs, satisfaction observations, and stops. A criterion can be ready for later use even when no candidate currently meets it. Enter also when the present question concerns the justification of a criterion. That use can finish with a supported requirement recommendation and the criterion's current force or amendment limit, without selecting a Method.
 
@@ -35,7 +35,7 @@ Do not use this pattern as a generic product-requirements template. Criteria do 
 
 | Name used here | Meaning |
 | --- | --- |
-| situation family | The recurring class of receiving Work and conditions for which criteria are intended, with important variation and exclusions explicit. |
+| situation family | The class of receiving Work and conditions to which criteria for repeated use apply, including consequential variations and exclusions. Criteria for a single occasion can identify that occasion and its conditions directly. |
 | receiving Work and result | The dated Work occurrence or intended occurrence and the professional result it must produce or preserve. They are not the Method. |
 | required Method contribution | A reusable action, result, or preserved condition needed from one Method or from named Method relations, stated before assigning it to a candidate. |
 | criterion subject | The object or relation constrained by a criterion: Method/account content, MethodDescription, performer capability, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, support/access, responsibility, cultural relation, or another domain subject. |

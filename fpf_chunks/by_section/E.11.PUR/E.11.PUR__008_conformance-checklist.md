@@ -6,12 +6,12 @@ section_id: "E.11.PUR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:7 — Conformance Checklist"
-line_start: 111447
-line_end: 111462
+line_start: 111462
+line_end: 111477
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,8 +39,8 @@ keywords:
 | `PUR-1` | Candidate basis | Every evaluated candidate has an inspected `Solution` and a recoverable expected first result or honest blocker; an exact PUA expectation is required only for an addressable recommendation or result-based precedence. |
 | `PUR-2` | Five aspects | Ordinary judgement considers all five fit aspects in one rationale; reliance-bearing applicability has exactly one finding for each aspect. |
 | `PUR-3` | Aggregate | A recommendation follows the aggregate applicability judgement under `4.1`. If an addressable applicability finding exists, its result agrees and carries a missing-basis boundary when needed. |
-| `PUR-4` | Recommendation | The recommended candidate is applicable and its expected receiving value warrants its full burden compared with the serious continuations, including continuing without a new use. If none warrants recommendation, no candidate is selected and existing obligations remain in force. An addressable `ordinaryCompact` recommendation has no applicability-finding ref; `relianceBearing` has one current applicability finding with five fit findings. |
-| `PUR-5` | Coordination | All members concern the same bounded coordination question and remain distinct candidate uses. |
+| `PUR-4` | Recommendation | The advice compares serious continuations on the result for which the decision is due. The available result may suffice. Where several uses together warrant the effort, the rationale identifies their contributions, the conditions for obtaining the joint result and its full burden. If none warrants a change, existing obligations remain in force. An addressable `ordinaryCompact` recommendation has no applicability-finding ref. A `relianceBearing` recommendation has one current applicability finding with five fit findings. |
+| `PUR-5` | Coordination | Members remain distinct uses. Their relations explain how they can support the same bounded receiving decision, including common conditions that timing or pairwise order alone leaves open. |
 | `PUR-6` | Ordering mode | Unordered has no pairwise relations. Partial and total order contain only justified pairwise precedence, whose transitive closure is irreflexive; total order also compares every pair of distinct members. A cycle or unresolved required pair blocks that ordering claim. |
 | `PUR-7` | Precedence and readiness | Each directed relation satisfies its §4.4 branch predicate. prerequisiteResult cites the exact required content, selected supplier-use basis and expectation; readiness separately requires the actual result and its basis, including an adequate earlier result, with an addressable PUA closure finding only when named later reliance needs it. Description or witness changes alone do not change dependency identity. |
 | `PUR-8` | Boundary | Recommendation or coordination asserts no plan, work, gate, decision, authorization, actual Problem, Transformation, or subject result. |

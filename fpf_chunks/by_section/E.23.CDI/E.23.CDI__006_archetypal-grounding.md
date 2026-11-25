@@ -6,12 +6,12 @@ section_id: "E.23.CDI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:5 — Archetypal Grounding"
-line_start: 123990
-line_end: 124029
+line_start: 124007
+line_end: 124046
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.23.CDI:5 - Archetypal Grounding
 
-**Working rule.** Begin with a current, bounded capability account and a desired result; choose an intervention only after the limiting contribution is known; then test that same target in representative Work. Completion of an intervention or exercise alone is activity evidence; a transfer claim needs the representative performance and support specified above.
+**Working rule.** Start from what the holder can do now and the desired result. An ensemble that loses coordination at a change of tempo may benefit from the same short joint rehearsal whether the cue comes late or the players respond on different beats. The rehearsal can supply a worthwhile next step under both explanations. To judge a gain in ensemble capability, examine the target performance under the intended support. Completion of an intervention or exercise alone is activity evidence; a transfer claim needs the representative performance and support specified above.
 
 The compact range table below is a recognition aid: it shows where the Method can be filled differently.
 

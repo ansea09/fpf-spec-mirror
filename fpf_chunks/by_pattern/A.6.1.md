@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.1.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
-line_start: 17461
-line_end: 18053
+line_start: 17463
+line_end: 18057
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -356,6 +356,8 @@ State a mechanism-declaration comparison only when its predicate is defined and 
 | equivalence | Supplies an explicit mapping that preserves and reflects the selected operation declarations, argument and result meanings, binding meanings, application predicates, identity and extent rules, and law and admission structure. |
 
 These rows test declaration content; they do not admit a relation kind or occurrence.
+
+If the declarations serve as models of possible applications, a strengthened condition can leave no admissible application at all. For model refinement, establish a feasible application of the later declaration and why each application it admits satisfies the earlier assertions under the selected interpretation. Which answer to the practitioner's question does the changed condition exclude? It may exclude a binding while leaving all answers to that question available. The distinction matters when deciding what the declared mechanism can still be used for. See B.5.MR:4.2.
 
 If the corpus already admits the comparison relation, use its direct pattern. If one case-specific comparison claim is enough, use A.6.RCD disposition 2 only after its claim subject, constructor, endpoint facts, and preservation facts are recoverable; otherwise preserve the applicable A.6.RCD result, distinguishing missing case information from a missing governor or derivation substrate and from a factually unsupported claim.
 

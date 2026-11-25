@@ -6,12 +6,12 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 30114
-line_end: 30161
+line_start: 30121
+line_end: 30168
 dependencies:
   - "A.10"
   - "A.13"
@@ -105,9 +105,9 @@ This publication can guide Method inspection and planning. Keep the selected Met
 
 #### A.15:5.1.c - Scenario guides method selection, not performed work
 
-**Source set.** A method-selection scenario says that material X is below threshold T, resource window W is available, and the fabrication cell is under setup condition S. The scenario is admitted source material; a publication form or carrier may expose that source material for choosing between method families but does not become the selected method or plan.
+**Source set.** A fabrication cell has an accepted qualification for a cold-forming method family, MF-2. It permits this material below a stated thickness on the installed tooling and requires a continuous 30-minute setup and forming window. The proposed batch has material below that thickness, the qualified tooling in place and a 40-minute window. The planner can use the qualification and these batch conditions to test the family's applicability.
 
-**Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
+**Published slice.** For this batch the material and tooling meet the qualification and both operations fit the available window, so MF-2 is admissible for planning. If the available window were 20 minutes, this qualification would give no basis for scheduling MF-2 there. Another qualified family might still fit. When the commission calls for a plan, select an applicable Method and arrange the Work. A claim about what actually ran requires evidence of that occurrence.
 
 The scenario can guide Method-family selection and planning. Identify a selected Method or resulting WorkPlan in the account where that result is needed. Ground any later dated Work independently under A.15.1; a record may designate it but is not that occurrence. For evidence, gate or engineering-justification reliance, establish the required claim, relation or decision under its direct rule, such as A.20 for internal-constraint results, A.21 for gate decisions or B.3 for assurance. Use A.10 when that reliance needs a replayable source-to-use account. If a required basis is unavailable, narrow the use and keep the needed gap or continuation in the receiving account.
 

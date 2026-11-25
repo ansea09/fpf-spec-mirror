@@ -6,12 +6,12 @@ section_id: "A.15.8:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__008_conformance-and-practical-checks.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:7 — Conformance and practical checks"
-line_start: 33250
-line_end: 33268
+line_start: 33257
+line_end: 33275
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 A use conforms to this pattern only when it passes the checks that its claimed result needs:
 
 1. A cold reader can obtain the first result without deciding whether cognition or mind is extended.
-2. The selected focus is one admitted actual `U.Work` occurrence or one present `U.WorkPlan`; intended performance remains declaration-local plan content.
+2. A service-design claim states the promised result, proposed arrangement, recovery conditions and scope. A claim about a particular performance or plan identifies the admitted `U.Work` or present `U.WorkPlan` it concerns. Intended performance in the plan remains declaration-local content.
 3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names participants and the receiving use, applies a current governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other result; `missing-governor` is used only when no rule can state or test that claim.
 4. No arrangement becomes a System, performer, Agent, capability holder, Structure, architecture, or evidence merely by inclusion or wording.
 5. Continuation-critical state names its concern, bearer or carrier, update and use relations, currentness or consistency condition, and return condition when each matters.

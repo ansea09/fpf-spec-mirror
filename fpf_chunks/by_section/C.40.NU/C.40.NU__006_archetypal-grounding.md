@@ -6,12 +6,12 @@ section_id: "C.40.NU:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:5 — Archetypal Grounding"
-line_start: 92222
-line_end: 92251
+line_start: 92232
+line_end: 92261
 dependencies:
   - "C.17"
   - "C.18"

@@ -6,12 +6,12 @@ section_id: "A.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__006_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:4 — Solution"
-line_start: 13561
-line_end: 13722
+line_start: 13563
+line_end: 13724
 dependencies:
   - "A.1"
   - "A.10"
@@ -100,7 +100,7 @@ Identify every proposed component change and the proposed whole-configuration ch
 
 The neighboring general patterns do not by themselves settle the composition question. `A.22` can identify a selected structure whose relation organization changes; `C.27.TA` can identify temporal aspects; `A.14` and `C.13` define structural mereology and a `Γ_m` construction trace. None of those results by itself says that several actual changes compose one actual change. A materialized `Γ_m.sum` trace is a C.2.1 episteme about identified entity-part relations, assembly, and direct identity or reidentification conditions.
 
-One independently identified change of a selected configuration can therefore remain a valid configuration transformation. If the use needs no positive composition or transformation-holon claim, continue with that transformation and the neighboring-object guidance in `4.3`-`4.8`. If it does need such a claim, retain the identified changes and stop with **missing transformation-composition governor**; a proposed local compound claim also stops with **missing derivation substrate** when no admitted constructor semantics supplies it. Neither stop says that composition is false or that any change is partless.
+A change of a selected configuration can be identified in its own right. If that answers the question, continue at §4.3. For a claim about composition, apply the governing construction to the proposed component changes and the identified change of the whole. Report the composition it establishes, the condition its facts fail or the facts still needed for its test. If the construction rule is missing, keep the independently identified changes and return **missing transformation-composition governor**. A proposed local compound claim also requires an admitted derivation substrate. Return **missing derivation substrate** when that basis is absent. Either gap leaves the composition question open.
 
 ##### A.3.4:4.2.3 - Apply A.1 only after composition is independently established
 

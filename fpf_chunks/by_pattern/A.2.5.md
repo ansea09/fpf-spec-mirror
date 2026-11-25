@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
 line_start: 6657
-line_end: 7014
+line_end: 7016
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -41,9 +41,9 @@ keywords:
 
 **Plain designations.** Say “this assignment to a system role satisfies this state condition” for the relation and “state condition for an assignment to a system role” for the predicate.
 
-Use this pattern when one assignment to a system role already obtains, but a method step, Work occurrence, incompatibility check, or operational gate depends on that assignment satisfying a particular condition during a particular window.
+Use this pattern to work out which condition an assignment to a system role must satisfy for a given operation, or to determine whether a particular assignment satisfies that condition when required. The terms may permit reserving work before its holder is named.
 
-Start with the practical question. **Which assignment must satisfy which state condition, and when does the receiving work require it?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence. An unresolved determination can be returned with the evidence still needed. Add an assertion and evidence-use relation when a later decision must rely on that result.
+**When must the condition hold, and what decision is due now?** For a prospective arrangement, derive the holder, state and timing requirements from the receiving work. State what can be arranged now and when the outstanding conditions must be secured or checked (§4.5). For a claim about an actual assignment, identify it and establish whether the specified `SystemRoleAssignmentStateRelation` obtains in the relevant window. An unresolved determination can identify the evidence still needed. Add an assertion and evidence-use relation when a later decision must rely on that result.
 
 Typical working moments include these:
 
@@ -300,9 +300,11 @@ Likewise, a dataset or report that “plays a role” remains an episteme used t
 
 **Episteme boundary.** A representation or evidence episteme can describe or support a state claim.
 
-The main bias risk is label-first reasoning. A familiar state word invites the reader to skip predicate recovery. Repair it by recovering the assignment, predicate by value, actual state extent, and only the assertion and evidence-use relation needed by the receiving use.
+A familiar state label can obscure which condition the receiving work needs. For a planned operation, recover the predicate and when it must hold. To judge an actual assignment, recover its holder, predicate and actual state extent. Add the assertion and evidence-use relation needed for the receiving decision.
 
 ### A.2.5:8 - Conformance Checklist
+
+For a prospective arrangement, check which operation needs the assignment, which state must hold by when and what remains to be secured or verified. If a reservation or commitment is proposed now, establish whether its terms permit it. For a claim about an actual assignment, a state episode or a recorded assertion, apply the corresponding checks below to that claim.
 
 | Check | Question |
 |---|---|

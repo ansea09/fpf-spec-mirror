@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 122066
-line_end: 122740
+line_start: 122083
+line_end: 122757
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -511,9 +511,9 @@ The final sentence is deliberately defective: an unrelated editorial revision wo
 **Configuration and evidence basis.**
 
 - `PatternOfConcernRef`: the complete quoted `EX.1@source-pin-1` edition.
-- `ClaimScope`: first-use assessments of the quoted edition from its supplied text under the conditions of this rehearsal. The declared floor is `3 sufficientlyExpressedForDeclaredUse` for this rehearsal.
-- `WorkingReaderScope`: a new evaluator who has E.21 and the quoted text but no campaign history.
-- `IntendedUse`: learn whether this edition is coherent enough for the diagnostic rehearsal and identify the first repair; if EX.1 is later proposed for publication or ordinary authoring use, that receiving use requires its own admission decision.
+- `ClaimScope`: first use of the quoted instruction to pin a source rule to one decision and determine whether a new edition requires reopening it. The instructor sets a floor of `3 sufficientlyExpressedForDeclaredUse` for judging that use in this exercise.
+- `WorkingReaderScope`: the evaluator has E.21 and the quoted text. The person using EX.1 has the inspection decision and the cited edition of the rule.
+- `IntendedUse`: decide whether a person relying on rule 7 could follow EX.1 through a change of edition. The instructor gives the quotation with its defect intact so a new evaluator can learn how to locate and justify a repair.
 - `QualificationWindow`: until the quoted edition, E.21 scale, or named comparison evidence changes.
 - `EvaluationEvidenceBasis`: all seven sentences of the quoted edition; its filled `Cooling Guide` case; its background-reading non-use boundary; the absent material-change test in the last sentence; E.2.DA's pinned source-use discipline and G.11's bounded currentness contribution as mature comparators; no README, ToC, retrieval, external SoTA, observed-use, or corpus-projection evidence.
 - Ordinary path only: the evaluator reads and judges the text; this diagnostic use needs no additional reliance-bearing identity or receiving decision.
@@ -529,17 +529,17 @@ PrecisionRestorationProfile:
 |---|---:|---|
 | `WorkingSituationAndUseBoundaryRecognizability` | `3` | The edition states the rule-reuse situation, first move, stop, and grounded background-reading boundary, so `2` understates recognition; `4` would require the missed harm and practical payoff to be early and explicit rather than inferred from the later case. |
 | `EntityOfConcernAndClaimScopeStability` | `4` | Every sentence stays on a source rule reused by one decision, so `3` understates stability; `5` would overstate one simple case that does not exercise a changed or competing source. |
-| `PatternApplicationGuidance` | `4` | The reader can record the four items and knows when to stop, so `3` understates executability; `5` would overstate guidance demonstrated in one case without exercising the missing-source or changed-rule branches. |
+| `PatternApplicationGuidance` | `2` | The reader can pin the edition and recover rule 7, so `1` would miss a usable operation. When an editorial update leaves rule 7 untouched, the final instruction still reopens the schedule. Following it cannot yield the required choice in that case, which rules out `3`. |
 | `ClosureAndBoundedNonUseRecoverability` | `3` | Stop, return, the grounded background-reading boundary, and reopen are explicit, so `2` is too low; `4` would hide that the reopen condition is materially overbroad. |
 | `SemanticKindAndNameRecoverability` | `4` | Source, edition, rule, decision, and pin remain distinct, so `3` understates the text; `5` lacks a hard ambiguity countercase. |
 | `NeighborAuthorityAndBoundedUseFit` | `4` | The pin supplies a recoverable source return for the relying decision; the text asks the reader to record reliance and keeps the decision itself separate, so `3` understates the boundary; `5` lacks a replay of these boundaries when the relied-on edition or rule changes. |
 | `EntityOfConcernPrimacyAndSemioBiasResistance` | `4` | The pattern opens with the working rule-reuse problem and action, not source apparatus, so `3` is too low; `5` would overstate primacy shown in one simple case without a competing source or publication claim. |
 | `PracticalUseDeltaAndHarmPrevention` | `4` | The case shows how a decision stays traceable to rule 7 and the stop prevents unsupported reuse, so `3` understates the gain; `5` lacks a worked change showing how recovering the used rule changes the relying decision. |
 | `UseAffordabilityAndApparatusProportionality` | `4` | First use asks for four nearby facts and opens no optional apparatus, so `3` understates affordability; `5` would overstate affordability demonstrated only for an already available citation, without exercising recovery of a missing edition or detection of a material change. |
-| `RepairLocalityAndChangeImpactPredictability` | `4` | One last-sentence condition is the repair locus and its effect is predictable, so `3` understates locality; `5` lacks a replay through several dependent decisions. |
+| `RepairLocalityAndChangeImpactPredictability` | `4` | The last sentence gives a clear repair location and a single relying decision, enough to predict the effect. The quoted edition has yet to show how the repaired instruction handles an editorial change that leaves the interval valid and a change to rule 7 that makes the chosen interval invalid. Such a comparison could justify `5` for this dependency. |
 | `ProxyForValueSubstitutionResistance` | `3` | The source pin has a stated traceability use, so `2` understates proxy resistance; `4` would require a near-miss where a visible pin is wrongly treated as approval. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | `4` | Title, edition, rule, effect, decision, and stop are recoverable, so `3` understates replayability; `5` lacks a worked replay across two source editions. |
-| `CaseCountercaseAndTransferCoverage` | `4` | The filled inspection-interval case and background-reading boundary support the declared diagnostic use, so `3` understates coverage. A worked comparison of changed source wording with unchanged reliance, and unchanged rule wording with changed applicability, could make the difficult material-change judgement easier within this same scope; the present edition supplies no such discriminating comparison to support `5`. |
+| `CaseCountercaseAndTransferCoverage` | `3` | The schedule and background-reading contrast make a genuine boundary of source reuse recoverable, so `2` would miss what the cases explain. For `4` they would also need to distinguish between changes that affect the pinned decision and those that leave it justified. The examples do not supply that correspondence. |
 | `MaturePatternParityAndSelectedContentSufficiency` | `3` | `comparator=E.2.DA and G.11; selectedIngredient=pinned source use plus bounded currentness; currentLocus=sentences 2-3 and 7; missingOrLowering=sentence 7 lacks a material-change test`; this makes `2` too low, while the missing selected ingredient prevents `4`. |
 | `SoTABindingAndCurrentness` | `3` | The edition makes no positive SoTA claim and supplies no `E.8:11` comparison, so its source pin and currentness rule cannot raise this coordinate; `2` would understate the explicit source-use scope, while `4` requires one complete comparison result that this diagnostic example expressly lacks. |
 | `FormalClaimAdmissibilityAndLensFit` | `4` | The edition makes no measurement, scalar, causal, or formal-model claim and assigns the pin only its traceability use, so `3` understates the fit; `5` lacks a formal near-miss. |
@@ -547,17 +547,17 @@ PrecisionRestorationProfile:
 | `CorpusEntryProjectionAndEcologyFit` | `4` | The whole quoted edition is the entry for this diagnostic rehearsal, and the evaluation keeps its source and neighboring-pattern grounds outside the checked text. These inspected conditions support a clear bounded fit, so `3` understates it. Only this supplied expression is examined; no reinforcing in-scope projection or changed-edition case supports `5`. A later corpus-facing use needs its own evidence. |
 | `EvolutionFrontAndRefreshDiscipline` | `2` | The edition states a refresh trigger, so `1` understates it; any new edition triggers refresh without testing whether the used rule changed, so `3` would overstate usable evolution discipline. |
 
-The profile, complete table, status, stop and reopen, plus the quoted pattern's grounded background-reading boundary, constitute this example's non-arithmetic `PatternQualityQBundle`. The single value of `2` is the one below-floor defect, not an arithmetic penalty or a reason to lower unrelated qualities.
+The profile, complete table, status, stop and reopen condition, together with the quotation’s background-reading boundary, constitute the non-arithmetic `PatternQualityQBundle`. The same final sentence compromises two distinct uses: making the correct decision on a changed edition and maintaining an appropriate refresh rule. Both judgements fall below the rehearsal floor for identifiable reasons.
 
 ```text
 E.21 result:
   Pattern of concern: EX.1@source-pin-1, exactly as quoted
-  Declared scope, use, reader, and window: diagnostic rehearsal; teach one new evaluator; floor 3; current until the quoted edition, E.21 scale, or evidence basis changes
+  Declared scope, use, reader, and window: follow a pinned rule into the decision about reopening one inspection schedule. A new evaluator judges that use from the quoted edition at the rehearsal floor of 3. Reassess if the edition, scale or evidence changes.
   Evidence basis checked: seven quoted sentences, filled case, background-reading near-miss, absent material-change test, E.2.DA and G.11 comparators, and the explicitly absent corpus, observed-use, and external-source evidence
   Status: repairBeforeUse
 
-First repair: narrow the final sentence to a change in the used rule, its applicability, or a stated limitation.
-Receiving use: if EX.1 is proposed for admission or publication, use a separate receiving decision; this diagnostic result supplies its quality finding and repair.
+First repair for operational use: narrow the final sentence to a change in the used rule, its applicability or a stated limitation that could affect the relying decision.
+Receiving use: the instructor can use the original quotation and this finding for the diagnostic exercise. Repair the quoted instruction before relying on it for a schedule. Admission or publication of an edition calls for its own decision.
 Reopen if: EX.1's exact text, E.21's scale, the stated floor, or any named evidence locus changes.
 BoundedNonUse: EX.1's evaluated use excludes background reading on which no claim or decision relies.
 ```
@@ -565,18 +565,18 @@ BoundedNonUse: EX.1's evaluated use excludes background reading on which no clai
 ```text
 E.21 finding:
   Pattern of concern: EX.1@source-pin-1
-  Coordinate or status affected: EvolutionFrontAndRefreshDiscipline; repairBeforeUse
+  Coordinate or status affected: PatternApplicationGuidance and EvolutionFrontAndRefreshDiscipline, repairBeforeUse for the operational instruction
   Pattern locus: final sentence
-  Value or status effect: EvolutionFrontAndRefreshDiscipline = 2 below the declared floor 3
-  Correction direction: reopen only for a material change to the used rule, its applicability, or a stated limitation
-  Closure test: an unrelated new-edition change no longer triggers work, while a changed rule 7 still reopens the relying decision
+  Value or status effect: both coordinates are 2 at a declared floor of 3
+  Correction direction: check whether a change in the used rule, its applicability or its stated limits can affect the chosen inspection interval
+  Closure test: an editorial amendment or a change confined to a different class of equipment leaves this schedule justified. Shortening the applicable maximum below the scheduled interval reopens it.
 ```
 
-This is the ordinary path. The evaluator needed no dated-Work account or operation-application record to produce a complete result.
+The worked evaluation establishes what must change before someone follows EX.1 to decide whether to reopen an inspection schedule. Its deliberate defect serves the instructor’s exercise. To find out what a new evaluator has learned, examine that evaluator’s own judgement on the assigned material.
 
 **Precise names without a first move.** A pattern has precise Tech names and current source rows but no first user-facing action. `WorkingSituation...`, `PatternApplicationGuidance` and `PracticalUseDelta...` fall. Current source rows cannot establish ordinary usability.
 
-**Short architecture pattern.** A compact pattern has a triage form but no worked slice and no mature-pattern comparison. It can be useful as local expert reference material, but `MaturePatternParity...` and `CaseCountercase...` stay below exceptional until selected mature content is present.
+**Short architecture pattern.** A compact triage form can serve as a local expert reference. If no comparison with a mature pattern was made, that comparison cannot support an exceptional `MaturePatternParity...` judgement. For `CaseCountercase...` inspect the form itself. It may show which change of conditions calls for a different decision, or it may leave the reader to invent that distinction. The evidence for that coordinate comes from the choices its explanation covers.
 
 **Precision-restoration profile in a non-semio pattern.** A pattern tries to introduce a non-semio `EntityOfConcern` through a catalog of other claim kinds or objects outside its own subject. Its membership rule—outside this pattern's subject—does not explain which distinctions the reader needs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true.
 

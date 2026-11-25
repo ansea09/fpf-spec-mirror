@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:4 — Archetypal Grounding"
-line_start: 70635
-line_end: 70756
+line_start: 70644
+line_end: 70766
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -151,7 +151,8 @@ To judge regularity, specify which sessions count, how start-to-start intervals 
 | Case | What C.27 preserves | Direct next pattern or stop |
 | --- | --- | --- |
 | “Backlog is 120 items today.” | Dyn0 snapshot | stop; C.16 only when the measurement construction matters |
-| “Backlog fell by 20 items per week.” | Dyn1 rate | stop or C.16; no intervention claim |
+| “Backlog fell by 20 items per week.” | Dyn1 rate | return the supported rate when asked for it; use C.16 if the measurement needs examination |
+| “Each review takes at most two days. Can the applicant expect a reply within two days?” | durations, their start and end events, and whether the reviews can overlap | Use C.27.TA:5.4. Two successive reviews can consume four days before any additional handover delay. For concurrent reviews, check when both can start and when their results can be used together. |
 | “More tool calls will speed debugging.” | outcome rate, System actor only when Work is claimed, input, resistance, evaluation evidence, stop or replan, and unsupported reasoning-quality inference | C.24, A.15.1, F.6, evaluation, and evidence as applicable |
 | “Method A improves faster than Method B.” | Dyn1 versus Dyn2 comparison, baseline and other windows, effort parity, hidden costs, and no causal or universal superiority | G.9 and C.16; C.28 only for causal use |
 | Equal final scores | adaptation window, effort parity, rework, validity, and recovery may still differ | G.9 |

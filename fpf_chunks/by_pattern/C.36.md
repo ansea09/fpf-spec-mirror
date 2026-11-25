@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-line_start: 85774
-line_end: 86245
+line_start: 85784
+line_end: 86255
 dependencies:
   - "A.1"
   - "A.10"
@@ -89,7 +89,7 @@ The practitioner gets one small statement of the cultural relations now supporte
 
 #### C.36:1.3 - First useful move
 
-State what someone needs to decide about the practice. A school choosing whether to keep an archive for its next class can use evidence that a teacher and learners retrieved a variant and performed it under the conditions that class will have. If the teacher was to pass on an amended score, establish that the learners received that amendment from the teacher. A claim about what they learned requires evidence of the retained distinction or capability. To credit the teacher with a change in later playing, trace what the learners used in that performance to what the teacher supplied. To estimate how widely the change spread, identify the eligible classes and how their use was observed. Use the smallest of these inquiries that answers the decision.
+What change in the practice is the recipient trying to understand or bring about? A school choosing whether to keep an archive for its next class can use evidence that a teacher and learners retrieved a variant and performed it under the conditions that class will have. If the teacher was to pass on an amended score, establish that the learners received that amendment from the teacher. A claim about what they learned requires evidence of the retained distinction or capability. To credit the teacher with a change in later playing, trace what the learners used in that performance to what the teacher supplied. To estimate how widely the change spread, identify the eligible classes and how their use was observed. A question about the history of a change can require distinguishing two sources even when the school plans to teach the same score next term. Pursue the connections that settle the question asked.
 
 When a card helps retain or share the result, use:
 

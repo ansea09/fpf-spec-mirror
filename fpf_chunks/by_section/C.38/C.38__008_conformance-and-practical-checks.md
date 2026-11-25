@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 87290
-line_end: 87308
+line_start: 87300
+line_end: 87318
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -39,7 +39,7 @@ A use conforms only when the checks needed by its claimed comparison pass:
 4. The same decision-changing parity questions are applied to every way; an omitted group is justified by irrelevance to this choice.
 5. A decision-reversing unknown remains a gap or probe. Protected conditions are not hidden inside one unexplained scalar.
 6. `A.19.CPM` or `A.19.SelectorMechanism` is used only when its evidence-gating, incomparability, abstention, or set-return contribution is needed.
-7. Include only complete-enough whole ways in a finite `OptionSet`. When a choice is due, the chooser makes it under the applicable decision method. A choice under `C.11` yields its `ChoiceResult`. The commissioned appraisal can finish when it establishes what the proposed ways would deliver.
+7. Include only complete-enough whole ways in a finite `OptionSet`. The commissioned appraisal can finish when it establishes what the proposed ways would deliver. When a decision is due, follow it to the holder or procedure empowered to make it. An adviser can already deliver the comparison and the disposition supported by `C.11` while adoption is pending.
 8. The rule for retaining the comparison prevents a duplicate episteme when an owning domain result already carries the complete comparison.
 9. A retained way names any first unsupported realization branch or the direct Method that can proceed; the comparison itself claims no realization or later Work.
 10. The reopen condition names a changed premise or result that can alter the comparison or choice.

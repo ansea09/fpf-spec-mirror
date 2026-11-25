@@ -6,12 +6,12 @@ section_id: "B.5.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:7 — Conformance Checklist"
-line_start: 53152
-line_end: 53164
+line_start: 53161
+line_end: 53173
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -30,7 +30,7 @@ keywords:
 For guidance or an application claiming this method, examine the consequential conditions:
 
 - The entry can occur without a recognized error, a diagnostic term or a request for an audit; its occasion, access and attentional demand are recoverable.
-- The comparison retains the receiving use and what it took to obtain the result, including successful adaptations when they matter.
+- The inquiry follows the result into its intended use. An account of actual work identifies the actions and adaptations on which its conclusion depends. An inquiry using a possible case states what the case reveals about the proposed work or claim.
 - When a mantra guides the comparison, its Method fits the question; its connections and justification order are applied to a recoverable case. A found gap becomes a qualified question or cue, while adequate answers and irrelevant conditions permit a stop.
 - A proposed interpretation is tested on the original case; the participant is not required to invent a diagnosis before their concern can be examined.
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.

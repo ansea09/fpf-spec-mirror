@@ -6,12 +6,12 @@ section_id: "E.17.0:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__010_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:9 — Conformance checklist"
-line_start: 114241
-line_end: 114254
+line_start: 114258
+line_end: 114271
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -32,8 +32,8 @@ keywords:
 
 ### E.17.0:9 - Conformance checklist
 
-1. Candidate E has recoverable C.2.1 claim content, EntityOfConcern, and effective reference scheme.
-2. `U.ViewpointRef` resolves to one viewpoint episteme P; designator, reference, P, P's exact target-kind or structured EntityOfConcern, and any catalogue position remain distinct.
+1. For a claim that a particular E is a view, E has recoverable C.2.1 claim content, EntityOfConcern, and effective reference scheme.
+2. When a viewpoint is selected, constructed for reference or used for a conformance judgment, its `U.ViewpointRef` resolves to one viewpoint episteme P; designator, reference, P, P's exact target-kind or structured EntityOfConcern, and any catalogue position remain distinct.
 3. Self-contained P has the exact admitted target kind or exact local-kind subject as EntityOfConcern and carries the complete fixed conformance test in its ClaimGraph. Only the action-changing structured branch uses an A.22-selected `S_viewpoint` over least-powerful exact constituent editions and obtaining relations, with Q carrying the eight organization constraints.
 4. Every dependency occurrence has only the identified dependent and base epistemes as participants; assertion, description, D, J, evaluation, work, scope, time, scheme, representation, publication, and use remain conditional neighbors.
 5. `EpistemeViewpointConformanceRelation` has exactly E and P as participants, the fixed five-condition semantic predicate, and pair-determined positive-occurrence identity.
@@ -42,5 +42,5 @@ keywords:
 8. Optional local result values, evaluation, evidence, occurrence designation, decision-use D, and J exist only for a named receiving work or decision need; unsupported evaluation is not a third or negative value.
 9. For every multi-view collection, selected structure, or cross-view relation, apply the pattern that defines its identity or obtaining test; a table, graph, matrix, or shared subject proves none.
 10. Exact expression, carrier bearing, optional form conformance, five-participant publication availability and recurrence, rendering work, and mathematical representation under C.29 remain distinct from E, P, view membership, and every represented world-side relation.
-11. Ordinary use stops at a readable direct judgment unless a named consumer needs more structure; authoring stops at the shortest progressive path that produces P and its reference.
+11. Selection returns a viewpoint fit for the describing use. Authoring returns P and its reference with its conformance rules fixed. Recognition returns the supported judgment about E and P. Add further structure when the receiving use depends on it.
 

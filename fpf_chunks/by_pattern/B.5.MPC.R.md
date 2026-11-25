@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.MPC.R.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
-line_start: 49695
-line_end: 49951
+line_start: 49704
+line_end: 49960
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -63,9 +63,9 @@ The difficulty is to locate which connection fails and change the contribution t
 
 Keep the receiving physical question in view while tracing the failed connection:
 
-**State the changed result or disagreement → recover the contributing relations → locate the incompatible use → construct a sufficient repair → carry it through the affected contributions → use the revised physical consequence.**
+**State the result or disagreement → recover the contributing relations → locate the incompatible use or limit of inference → answer the physical question on those grounds.** If the commission calls for a repair, construct it and carry its consequences back through the affected contributions.
 
-These are dependencies of the repair. A known physical change, a failed calculation or an observation can each be the starting point.
+A known physical change, a failed calculation or an observation can each be the starting point.
 
 #### B.5.MPC.R:4.1 - Compare results for the same physical question
 
@@ -227,8 +227,8 @@ A visible software failure can attract attention even when the computation is co
 - The contribution supplied at the disagreement has an interpretable meaning and receiving operation.
 - The repair distinguishes a located incompatibility from an unresolved diagnosis.
 - Shared premises remain visible across calculations, simulations and observations.
-- The repair changes the responsible relation, procedure, realization or requested result.
-- Its dependent consequences are reworked and returned at the supported scope.
+- A diagnosis establishes where the connection fails or what the available evidence can distinguish. A commissioned repair changes the responsible connection, procedure or realization, or obtains agreement to a revised result.
+- The recipient can tell what follows for the original question. Where a repair changes dependent conclusions, they are reworked and returned at the supported scope.
 - The receiver can perform the next action or identify the contribution needed.
 
 ### B.5.MPC.R:8 - Common Anti-Patterns and How to Avoid Them

@@ -6,12 +6,12 @@ section_id: "C.18.1:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__012_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:11 — Consequences"
-line_start: 64277
-line_end: 64284
+line_start: 64286
+line_end: 64293
 dependencies:
   - "C.16"
   - "C.17"

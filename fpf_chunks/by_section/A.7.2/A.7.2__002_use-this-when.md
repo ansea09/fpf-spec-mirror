@@ -6,12 +6,12 @@ section_id: "A.7.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__002_use-this-when.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:0 — Use this when"
-line_start: 27062
-line_end: 27075
+line_start: 27069
+line_end: 27082
 dependencies:
   - "A.10"
   - "A.7.1"

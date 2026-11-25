@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.PER.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
-line_start: 8841
-line_end: 9178
+line_start: 8843
+line_end: 9180
 dependencies:
   - "A.10"
   - "A.13"
@@ -48,7 +48,7 @@ Use this pattern when a policy, approval, permit, system-role rule, boundary cla
 - whether checked actual work supports a `NonViolationFinding@Context`; and
 - whether an incompatible current grant and norm require `PermissionNormConflictFinding@Context`.
 
-First establish what makes the action permissible for this beneficiary, scope and time. A standing rule may permit the action directly when its conditions hold. Apply that rule to the case. For a grant already issued to a class of beneficiaries, identify that grant and establish that the present beneficiary qualifies. A positive answer by either route can settle the practical question without issuing a fresh permit. Use §§4.2–4.6 for the particular grant, exercise or finding the commission needs.
+First establish what makes the action permissible for this beneficiary, scope and time. A standing rule may permit the action directly when its conditions hold. Apply that rule to the case. For a grant already issued to a class of beneficiaries, identify that grant and establish that the present beneficiary qualifies. A positive answer by either route can settle the practical question without issuing a fresh permit. An instrument can also grant one right to several named parties together. Apply its terms to their joint action (§4.2). Use §§4.3–4.6 for a grant, exercise or finding that satisfies the corresponding declaration.
 
 **Not this pattern when.** Use `A.2.8` for one actual bearer's obligation, recommendation-as-duty, or prohibition; `A.2.9` for the communicative work that institutes or revokes a grant; `A.6.B` for L/A/D/E classification; `A.15.5` for work-entry readiness; `A.21` for gate decisions; and `A.15.1` for the identity and result of performed work.
 
@@ -282,7 +282,7 @@ If no policy rule decides and no such current result exists, the disposition rem
 | Boundary claim or entry predicate | `A.6.B` classifies the claim; an `A-*` predicate may consume a separately established current permission result. |
 | Work plan and readiness | `A.15.2` is the pattern for the `U.WorkPlan`; `A.15.5` may cite a separately established permission/conflict result as one readiness input. |
 | Gate decision | Use `A.21` for a gate outcome, citing the separate current grant or conflict result whenever its profile requires one. |
-| Work and result | identify the dated Work under `A.15.1`. Exercise requires the direct relation above. Claims of capability, readiness, safety, success, or result quality need their own predicates. |
+| Work and result | Identify the dated Work under `A.15.1`. For an entitlement under a standing rule, establish who qualifies and whether the action met the rule. For a right conferred by an instrument, apply its scope, interval and conditions to what the named beneficiary or joint beneficiaries did. Use the §4.5 exercise relation for a grant represented under §4.4. Capability, readiness, safety, success and result quality require their own grounds. |
 
 ### A.2.8.PER:5 - Archetypal Grounding
 
@@ -319,11 +319,11 @@ The chief bias is document-and-display authority: a readable permit, badge, poli
 
 | ID | Check |
 |---|---|
-| `CC-A2.8.PER-1` | A rule-based entitlement is supported by the applicable affirmative rule and case facts. For an instituted grant, its exercise, a weak finding, a non-violation finding or a permission–norm conflict finding, use the corresponding declaration in §§4.3–4.6 and its obtaining conditions. |
-| `CC-A2.8.PER-2` | Beneficiary selects exactly one of `beneficiarySystemRoleKindRef : U.KindRef`, `beneficiarySystemRoleAssignmentRef : U.RelationRef constrained to U.SystemRoleAssignment`, or `beneficiaryPartyRef : PartyRef`, with its branch-specific eligibility test. The branch record is not a new beneficiary U-kind. |
+| `CC-A2.8.PER-1` | Support a rule-based entitlement by the applicable affirmative rule and case facts. For a right granted to several parties jointly, use the instrument and the conditions on their joint action in §4.2. When reporting a `GrantedPermissionRelation@Context`, its §4.5 exercise relation, or a finding declared in §§4.3–4.6, establish the conditions of the corresponding declaration. |
+| `CC-A2.8.PER-2` | For a single beneficiary within the §4.2 reference union, select exactly one of `beneficiarySystemRoleKindRef : U.KindRef`, `beneficiarySystemRoleAssignmentRef : U.RelationRef constrained to U.SystemRoleAssignment`, or `beneficiaryPartyRef : PartyRef`, with its branch-specific eligibility test. For an entitlement held jointly, apply the instrument to the participants and their required action together (§4.2). The branch record introduces no beneficiary U-kind. |
 | `CC-A2.8.PER-3` | A strong grant identifies its participants, effective scope and interval, current policy and the act or combination that instituted this occurrence. Each grant-making contribution meets the authority and assignment conditions that the rule requires. Several contributors to one act and several required acts remain distinguishable. |
 | `CC-A2.8.PER-4` | Weak findings require a current frame explicitly complete enough for the intended use; incompleteness returns `unresolved`. |
-| `CC-A2.8.PER-5` | Exercise identifies the dated Work, exact current grant occurrence, scope and interval. Establish the action match and the eligibility of each contribution required to exercise that grant. Keep supporting work distinct when a support provider need not hold the entitlement. |
+| `CC-A2.8.PER-5` | For exercise of a right conferred by an instrument, identify the dated Work and establish the match to the beneficiary or joint beneficiaries, authorized action, scope and time. The exercise relation in §4.5 identifies the exact §4.4 grant occurrence. Establish the eligibility of the contributions required by the instrument. A support provider may contribute without holding the right. |
 | `CC-A2.8.PER-6` | Neither exercise nor non-exercise establishes `NonViolationFinding@Context`; non-exercise does not violate the grant, exercise alone does not establish obligation satisfaction, and exercise does not consume a grant without an explicit policy. |
 | `CC-A2.8.PER-7` | A same-scope conflict is settled when a current applicable rule selects the outcome, or when decision Work supplies the result the precedence policy requires. In the decision branch, each required deciding contribution and its authority are established for this issue, scope and time. A named office with authority leaves its actual decision open. |
 | `CC-A2.8.PER-8` | Permit episteme, carrier, evidence, admissibility, readiness, gate, capability, Work, and result remain distinct and are handled under their respective subject patterns. |

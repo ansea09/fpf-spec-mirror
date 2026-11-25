@@ -6,12 +6,12 @@ section_id: "C.24:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__003_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:1 — Problem frame"
-line_start: 67978
-line_end: 67987
+line_start: 67987
+line_end: 67996
 dependencies:
   - "A.10"
   - "A.15"

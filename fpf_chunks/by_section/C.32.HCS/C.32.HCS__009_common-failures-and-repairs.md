@@ -6,12 +6,12 @@ section_id: "C.32.HCS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__009_common-failures-and-repairs.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:8 — Common failures and repairs"
-line_start: 81778
-line_end: 81787
+line_start: 81788
+line_end: 81797
 dependencies:
   - "A.19"
   - "C.11"
@@ -43,6 +43,6 @@ keywords:
 | `CatalogueAsStarterPack` | Hundreds of terms are copied into the project. | Choose the architecture-bearing family and keep only first heads that can change the next narrowing into project criteria rows. |
 | `SoftwarePackOverfit` | Code-module terms are used for a method, role, practice, culture, or tradition without resolving the source label and rebinding bearer and scale. | Recover the described holon or the source-bearing episteme or publication context for a description-side family; name any recovery pattern used, then rebind bearer and scale or demote the head to source catalogue wording. |
 | `FunctionalHeadAsArchitectureHead` | A domain function is used as the starter architecture characteristic. | Keep the function as functional demand; name the architecture characteristic that makes it sustainable. |
-| `QBundleHeadAsScalar` | Maintainability, trustworthiness, or teachability is treated as one scalar without a composition rule. | Use C.25 to recover the composite quality and its components before treating the head as one scalar; carry the unresolved boundary as a question to ACS. |
+| `QBundleHeadAsScalar` | Maintainability, trustworthiness, or teachability is treated as one scalar without a composition rule. | If one specified measure answers the question, state its meaning and conditions. For a wider quality, use C.25 to recover its components and the grounds for any combination. Pass an unresolved boundary to ACS. |
 | `CatalogueCueAsStarterHead` | Catalogue maturity, benchmark performance, or dashboard cleanliness is used to admit a starter head without a recoverable architecture concern, likely bearer or first ACS question. | Recover the architecture concern and likely bearer. Carry a plausible head with its first ACS question, including an unresolved scale or composite boundary; keep decorative vocabulary as source wording. |
 

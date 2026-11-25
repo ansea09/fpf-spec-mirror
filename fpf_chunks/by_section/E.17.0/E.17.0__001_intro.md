@@ -6,12 +6,12 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:intro — Intro"
-line_start: 113693
-line_end: 113718
+line_start: 113710
+line_end: 113735
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -35,15 +35,15 @@ keywords:
 
 **At a glance.** A viewpoint specifies what descriptions made for a purpose must cover. To choose one, start from what the reader needs to decide or explain (§4.8). To recognize an existing view, test the identified account against the specified viewpoint’s rules (§§4.1–4.5). Its label, layout, generation history or place in a bundle can help locate the account.
 
-**Use this when.** A description, model slice, query result, diagram, or other claim-bearing episteme is being called a functional, safety, maintenance, architecture, or other view, and the next reading, comparison, construction, or publication depends on whether that claim is warranted.
+**Use this when.** Someone needs to choose or construct a viewpoint for a description, or needs to know whether a particular description, model slice, query result, diagram or other claim-bearing episteme qualifies as a view under a given viewpoint.
 
 **What goes wrong if missed.** A `viewpointRef`, familiar face name, generated table, or readable diagram is accepted as a view without testing the viewpoint's concerns and rules. The opposite failure is to rebuild a viewpoint convention, bundle, evaluation package, and publication dossier before an ordinary reuse can proceed.
 
-**What this buys.** One stable test works for directly authored and derived epistemes. Identify the candidate E, resolve the viewpoint edition P, and test P's fixed conformance predicate. Both epistemes retain their identities.
+**What this buys.** A description can be planned before its first instance exists. The author can select an adequate viewpoint or fix the concerns and rules for a new one. Once an episteme E is proposed as a view, the same fixed conformance test applies to a directly authored or derived E. The viewpoint and description retain their own identities.
 
-**First action.** For selection, identify an alternative that changes the reader's action or the grounds for it, then use §4.8 to choose the distinctions the description must preserve. Use §4.6 if a needed convention must be authored or revised. For recognition, recover candidate E through C.2.1, resolve the existing `U.ViewpointRef` to P, and read the rules fixed by P. The first result of that test is the conformance judgment below.
+**First action.** For selection, identify what the reader must be able to distinguish for the question, explanation or decision at hand, then use §4.8 to choose the distinctions the description must preserve. Use §4.6 if a needed convention must be authored or revised. For recognition, recover candidate E through C.2.1, resolve the existing `U.ViewpointRef` to P, and read the rules fixed by P. The first result of that test is the conformance judgment below.
 
-**First useful result.** State one readable judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
+**Result for the commission.** For selection, identify the existing viewpoint whose distinctions serve the describing use. If the question can be answered directly from an adequate description, that answer may suffice. For construction, supply the viewpoint and its reference with a fixed test a later author can apply to a description. For recognition, state the judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
 
 **Ordinary stop.** If the next work needs only view recognition, stop after that judgment. Add an occurrence designator, explicit result ValueKind, evaluation package, source-viewing relation, correspondence model, collection or structure, publication occurrence, form, or carrier only when a named receiving use depends on it.
 

@@ -6,12 +6,12 @@ section_id: "E.23.CAE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__001_intro.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:intro — Intro"
-line_start: 124114
-line_end: 124121
+line_start: 124131
+line_end: 124138
 dependencies:
   - "A.15.7"
   - "A.15.8"

@@ -6,12 +6,12 @@ section_id: "B.5.PI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:1 — Problem frame"
-line_start: 52993
-line_end: 53002
+line_start: 53002
+line_end: 53011
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -29,7 +29,7 @@ keywords:
 
 Use this pattern to make room for a useful question in work that people or agents treat as ordinary. Reports arrive, calculations run, repairs succeed, and nobody asks whether the way of obtaining or using those results needs examination. Use it also when someone says that an explanation misses something but cannot yet say what. A known error, an anomaly label and a request for help are not prerequisites.
 
-Start at a small occasion connected with the work: preparing a handover, demonstrating a result, explaining a consequential choice, or resuming work after a change. Recover what the result is supposed to enable and examine one available episode of obtaining and using it, including the adjustments that made it succeed. A performer can do this while preparing their work; a colleague or team can arrange the occasion. It takes access and attention, even if only briefly.
+Start where a question about the work could arise. What is its result supposed to enable? In ongoing work, examine a handover, demonstration or resumption and the adjustments the people involved actually made. When the work is being designed, follow a relevant case allowed by the design. What would a participant need to know or do there? The proposed arrangement may already expose a missing connection before anyone uses it. A performer, colleague or team can make time for that inquiry.
 
 A suitable long mantra can give that occasion a connected set of questions before a difficulty is felt. Section 4.2.1 explains how to choose it and use it to find a question, while keeping the substantive Method and its conditions. The useful result is a question with an attainable next move, an early cue retained for further consideration, or a reasoned continuation without change. Here, **inquiry** includes a short question to a colleague or consultation of an existing explanation; it need not become a research project. The method helps bring an unexamined part of work into consideration.
 

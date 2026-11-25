@@ -6,12 +6,12 @@ section_id: "C.32:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:3 — Forces"
-line_start: 80374
-line_end: 80383
+line_start: 80384
+line_end: 80393
 dependencies:
   - "A.10"
   - "A.15"

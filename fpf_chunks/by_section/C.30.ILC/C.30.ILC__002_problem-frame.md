@@ -6,12 +6,12 @@ section_id: "C.30.ILC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:1 — Problem frame"
-line_start: 78170
-line_end: 78224
+line_start: 78180
+line_end: 78234
 dependencies:
   - "A.10"
   - "A.22"
@@ -92,7 +92,7 @@ What this buys: the practitioner can keep conflict or frustration language as an
 
 `Interlevel conflict` and `frustration` may appear in ordinary project descriptions, but the conforming record describes the residual through declared holon levels or declared scopes, the selected structure that carries them, and a residual-bearing locus. The pattern does not create a generic level scale or `U.Frustration`.
 
-It asks which declared holon level, declared scope, aggregation scope, control layer, organizational scope, work scope, evidence scope, system scope, environment scope, scale window, interface grammar, allocation boundary, publication section, or source-return condition bears the residual. A system level or episteme level is a special case of a declared holon level.
+It asks which declared holon level, declared scope, aggregation scope, control layer, organizational scope, work scope, evidence scope, system scope, environment scope, scale window, interface grammar, allocation boundary, publication section, or source-return condition bears the residual. When a level concerns holon composition, identify the kind of whole involved, its constituents and the relation the residual depends on. A system, a body of knowledge or an occurrence of Work can each have relevant constituents. Comparing a service model with a less detailed model of the same service raises a different question. Which relevant distinctions does the second model still carry? Use B.5.MR if the comparison is one of refinement.
 
 Use the subject pattern when the issue under repair is only ethical value framing, interlevel ethical conflict structure, ethical mediation or decision use, measurement, scale relation, coarse-graining relation, mathematical-lens validation, candidate generation, residual-reducing candidate-set work, final selection, causal outcome, evidence, or assurance. Use C.30.ILC only for the architecture residual-bearing locus.
 

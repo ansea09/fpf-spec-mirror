@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:4"
 section_title: "Solution - comparative review units with bounded comparison, escalation, and boundary rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__005_solution-comparative-review-units-with-bounded-comparison-escalation-and-boundary-rules.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:4 — Solution - comparative review units with bounded comparison, escalation, and boundary rules"
-line_start: 116405
-line_end: 116722
+line_start: 116422
+line_end: 116739
 dependencies:
   - "A.15"
   - "A.15.2"

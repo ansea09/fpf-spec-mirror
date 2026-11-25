@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__008_conformance-checklist.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:7 — Conformance Checklist"
-line_start: 44714
-line_end: 44722
+line_start: 44723
+line_end: 44731
 dependencies:
   - "A.3.1"
   - "B.1.5"

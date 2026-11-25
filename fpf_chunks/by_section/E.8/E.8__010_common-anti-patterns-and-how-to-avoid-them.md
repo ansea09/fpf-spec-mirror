@@ -6,12 +6,12 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 104150
-line_end: 104172
+line_start: 104165
+line_end: 104187
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -66,9 +66,9 @@ keywords:
 | **Currentness laundering** | An official registry entry, publication date, maintained status, latest release, citation count, or widespread default is verified and then reported as evidence that the source is SoTA. | The check establishes source identity, availability, or currentness, not the best-known answer or its advantage over a serious alternative. | Classify the source as official/popular comparator or identity/currentness only. It contributes to SoTA only through an explicit comparison whose defect and pattern mutation are independently shown. |
 | **Incidental tool-bound normativity** | A rule about an abstract subject requires an unrelated vendor tool, file format or execution command. | Introduces an implementation dependency into the concept. | Move that machinery to Tooling/project profiles. Retain exact syntax only when the rule governs that publication form, protocol or grammar and names its edition/use boundary under E.5.1. |
 | **Hidden trade-offs** | A material cost or limitation is omitted from Consequences. | Hides information needed to judge adoption or applicability. | State the decision-relevant cost or limitation and a mitigation when available. Consequences may state only gains when no such cost or limitation is known. |
-| **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add didactic content: local decomposition, concrete slices, reviewer cues, and guidance that identifies the neighboring pattern or gives the project-side FPF kind and reference by value. |
+| **Skeleton-only pattern** | The template is present, but the pattern gives only a compressed definition and scenario labels. | The reader lacks the grounds to proceed in the situation the pattern addresses. | Work through the intended use from the reader’s starting material. Supply the missing distinction, inference or method of making a choice. Point to a neighbouring contribution if it already gives the reader that ground. |
 | **PatternID read as definition or order** | A numeric or mnemonic segment is treated as the pattern's meaning, title, current position, dependency, Method relation, or semantic parent. | The address becomes a hidden claim and ordinary reordering threatens reference continuity. | Use the PatternID only as an address together with surrounding text that identifies the framework. Show title and current position separately, state relations directly, and use the applicable product-authoring rule to decide continuity across editions. |
-| **Project-context leakage** | A reader needs architecture memos or planning notes to understand the pattern. | The monolith stops being self-sufficient. | Move the essential problem framing, worked slices, and rationale into the pattern itself; keep project reviews informative only. |
+| **Project-context leakage** | A reader needs architecture memos or planning notes to understand the pattern. | The publication leaves essential reasoning in material the reader cannot obtain. | Restore the premise or decision those notes supplied to the accessible explanation. If a worked account in the notes is what makes that decision intelligible, carry its relevant reasoning into the pattern. |
 | **Repeated content, reference, and architecture boilerplate leakage** | The body repeats a guard, definition, reference, or placement rationale without adding a local action, case, evidence value, or recognition need. | Repetition hides the positive `Solution` and turns the pattern into an architecture note. | Cite the existing source or use the proper discovery or architecture carrier; keep one local boundary only when it changes use. |
 | **Quality-carrier leakage** | The pattern body reports development, review, projection, assembly, or landing evidence as if it were practitioner guidance. | The reader sees why the text was processed rather than what to do. | Keep the evidence in its own carrier and retain only the user action or boundary that it supports. |
 | **Apparatus overwrap** | Process, status, role, carrier, or quality language displaces the pattern's object and move, or a polished caveat introduces an unsupported relation. | The prose can be true and still force the reader to solve the wrong problem. | Apply the connected `F.19` reading, return the positive practitioner path, and route only an unresolved FPF value to the pattern that governs it. |

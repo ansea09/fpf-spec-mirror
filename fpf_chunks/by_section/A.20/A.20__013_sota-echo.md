@@ -6,12 +6,12 @@ section_id: "A.20:11"
 section_title: "SoTA echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__013_sota-echo.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:11 — SoTA echo"
-line_start: 41507
-line_end: 41515
+line_start: 41514
+line_end: 41522
 dependencies:
   - "A.10"
   - "A.15"

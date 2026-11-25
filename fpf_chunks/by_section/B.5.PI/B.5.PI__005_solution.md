@@ -6,12 +6,12 @@ section_id: "B.5.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__005_solution.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:4 — Solution"
-line_start: 53022
-line_end: 53101
+line_start: 53031
+line_end: 53110
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -31,7 +31,7 @@ keywords:
 
 #### B.5.PI:4.1 - Give the work an occasion to become a question
 
-Select a bounded occasion that does not depend on someone first reporting trouble. At an ordinary handover, for example, ask the producer to show one result and how its recipient will use it. Recover what the producer had to do, including work that the official account omits. In preparing your work, follow one result through its intended use instead of merely checking that you have produced it.
+Select a bounded occasion for inquiry before anyone has to report trouble. At a handover, ask the producer to show what the recipient needed and how they obtained it, including useful work omitted from the official account. In preparing a handover, trace the intended result into its next use. A drawing or description can let you locate a question that would change the proposed work.
 
 Choose an occasion with some prospect of a useful comparison: a consequential decision, a result passed to another person, a recurrent activity whose effort is poorly understood, or an available contrasting case. A small agreed sample can expose something that reviewing only failures would miss. Do not require every occurrence to undergo this examination. Keep the immediate work and its constraints in view.
 
@@ -99,7 +99,7 @@ If no worthwhile improvement is available, retain the adaptation with its releva
 
 After use, examine whether this occasion brought something consequential into consideration and whether the result justified its burden. Change an unhelpful question, move a disruptive occasion, obtain a missing response, or remove a ritual that produces only ticks. Passing an execution checklist can support selected claims; it does not close concerns outside those claims. A known-condition checklist is designed through A.15.11, while the present method keeps a way to question what that list leaves unexamined.
 
-Make it possible to respond. A worker with no access to receiving outcomes cannot inspect them. A request that nobody can answer does not supply assistance. When raising a concern is punished, changing the conditions of joint work may be necessary; asking for greater personal vigilance does not repair those conditions. Use the smallest attainable support that answers the need, without assuming a permanent observer.
+Make it possible to respond. A worker with no access to receiving outcomes cannot inspect them. A request that nobody can answer does not supply assistance. When raising a concern is punished, changing the conditions of joint work may be necessary; asking for greater personal vigilance does not repair those conditions. Choose support the participants can use when the question arises. Weigh what the observer would supply against the effort of observing, asking and following up. A continuing arrangement can be worthwhile when the need recurs.
 
 Producing a result, keeping it usable and learning from the attempt can be enacted together in an action. B.1.5 and B.1.5.EW help recover the relevant Method composition and how those actions enact encompassing work, including the constituent capabilities and receiving use.
 

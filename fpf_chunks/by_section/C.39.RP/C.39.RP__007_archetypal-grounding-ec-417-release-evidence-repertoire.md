@@ -6,12 +6,12 @@ section_id: "C.39.RP:5"
 section_title: "Archetypal Grounding — EC-417 Release-Evidence Repertoire"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__007_archetypal-grounding-ec-417-release-evidence-repertoire.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:5 — Archetypal Grounding — EC-417 Release-Evidence Repertoire"
-line_start: 89270
-line_end: 89307
+line_start: 89280
+line_end: 89317
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -56,7 +56,7 @@ The two reconciliation records and the AI review record remain candidate account
 
 Proposed-whole account `C-EC-Release-v2` is recorded outside the repertoire membership table as an architecture subject. It cites contributions from the four Methods and three accounts, but that source relation establishes neither a whole Method nor `methodPartOf`.
 
-The repertoire stops with four missing positions: no established Method family covers the local grouping; no source establishes a Method-lineage relation among the four identified Methods; the same-Method or distinct-Method relation between the two reconciliation accounts is unresolved; and the AI account lacks transfer and effectiveness evidence.
+The cited sources leave four questions open. They establish neither an encompassing Method family for all four identified Methods nor a Method-lineage relation among them. The two reconciliation accounts could describe the same Method or different Methods. Transfer and effectiveness of the AI account also remain open.
 
 Those gaps do not prevent A.3.1.QM from qualifying individual subjects or C.32.MWA.PP from comparing named structures. The repertoire alone does not support family, ancestry, superiority or composite claims; a claim needed by the receiving use requires its basis.
 

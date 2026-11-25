@@ -6,12 +6,12 @@ section_id: "G.Core:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__002_problem-frame.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:1 — Problem frame"
-line_start: 135804
-line_end: 135813
+line_start: 135821
+line_end: 135830
 dependencies:
   - "A.15.3"
   - "A.19"

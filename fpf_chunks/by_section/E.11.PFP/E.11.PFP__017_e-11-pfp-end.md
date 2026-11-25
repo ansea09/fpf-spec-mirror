@@ -6,12 +6,12 @@ section_id: "E.11.PFP:End"
 section_title: "E.11.PFP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__017_e-11-pfp-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:End — E.11.PFP:End"
-line_start: 111970
-line_end: 111971
+line_start: 111985
+line_end: 111986
 dependencies:
   - "A.3.2"
   - "C.29"

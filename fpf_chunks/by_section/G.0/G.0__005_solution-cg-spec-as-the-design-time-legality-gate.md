@@ -6,12 +6,12 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 136264
-line_end: 136499
+line_start: 136281
+line_end: 136516
 dependencies:
   - "A.10"
   - "A.17"

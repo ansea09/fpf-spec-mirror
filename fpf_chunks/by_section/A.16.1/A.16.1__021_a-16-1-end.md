@@ -6,12 +6,12 @@ section_id: "A.16.1:End"
 section_title: "A.16.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__021_a-16-1-end.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:End — A.16.1:End"
-line_start: 35717
-line_end: 35718
+line_start: 35724
+line_end: 35725
 dependencies:
   - "A.16"
   - "A.16.0"

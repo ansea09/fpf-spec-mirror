@@ -6,12 +6,12 @@ section_id: "A.6.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__012_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:11 — SoTA-Echoing"
-line_start: 25035
-line_end: 25056
+line_start: 25042
+line_end: 25063
 dependencies:
   - "A.10"
   - "A.14"

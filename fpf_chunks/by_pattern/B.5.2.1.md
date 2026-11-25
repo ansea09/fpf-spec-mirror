@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.1.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
-line_start: 52559
-line_end: 52757
+line_start: 52568
+line_end: 52766
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,7 +38,7 @@ keywords:
 ### B.5.2.1:1 - **Problem Frame**
 * **Conceptual binding:** **B.5.2 Abductive Loop** (this pattern specifies the *how* for Steps 2–3).
 * **Characteristics and records:** use **Creativity‑CHR** under **C.17** for the Characteristics in §3, **C.18** for generation/archive/front records and **C.19 E/E-LOG** for EmitterPolicy.
-* **Reading the result (informative).** For an existing front, recover the characteristics actually measured, how they were measured and which ones governed admission and dominance. When designing an exploration, choose the measures of quality, novelty and diversity needed for its intended use. Identify which generated candidates were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or the commission.
+* **Reading the result (informative).** For an existing front, recover the characteristics actually measured, how they were measured and which ones governed admission and dominance. When designing an exploration, choose the measures of quality, novelty and diversity needed for its intended use. Give the search executor the distinctions, operators and conditions needed to generate and assess candidates. For a commissioned run, identify the generated candidates that were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or commission.
 * **Further work:** generated hypotheses may contribute to **B.4 Canonical Evolution Loop** when adaptation is needed. **B.5 Canonical Reasoning Cycle** selects the reasoning contribution needed by the question.
 * **Who decides.** Attribute each choice to its `DecisionSubject` at the `DecisionSubjectGranularity` that applies. A committee or service may make one choice under its decision rule. If the outcome requires several independent decisions, establish who holds each and how they combine. A chooser may select a combination of candidates or actions when the options and their joint constraints permit it. The **Context** supplies the measurement spaces and admissible policies that frame the comparison.
 
@@ -163,7 +163,7 @@ For a dominance exclusion, identify the eligible rival and decisive coordinates 
 
 * *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Use the front for the requested coordinate comparison. For an explanatory question, include any candidate whose specific prediction or mechanism could change the answer.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *First use.* Recover what the recipient wants compared and which choices are yours. For a returned search, inspect the front over its assessed population and any required archive under the applicable policy. For a new search, use agreed inputs or construct the required spaces and characteristics under §4, declare the generator, policy, budget and stop, then run it. Apply B.5.2’s plausibility criteria when the work calls for an explanatory judgement.
+* *First use.* Recover what the recipient wants compared and which choices are yours. For a returned search, inspect the front over its assessed population and any required archive under the applicable policy. For a new search, use agreed inputs or construct the required spaces and characteristics under §4, declare the generator, policy, budget and stopping condition. A design is usable when its executor can perform the search and interpret what its results would establish. When execution is commissioned, run it and return the results obtained. Apply B.5.2’s plausibility criteria when the work calls for an explanatory judgement.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:6"
 section_title: "Boundary dispositions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__007_boundary-dispositions.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:6 — Boundary dispositions"
-line_start: 117649
-line_end: 117672
+line_start: 117666
+line_end: 117689
 dependencies:
   - "A.10"
   - "A.15"

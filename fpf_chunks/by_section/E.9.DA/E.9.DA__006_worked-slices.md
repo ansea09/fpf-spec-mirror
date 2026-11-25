@@ -6,12 +6,12 @@ section_id: "E.9.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__006_worked-slices.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:5 — Worked slices"
-line_start: 105446
-line_end: 105465
+line_start: 105461
+line_end: 105480
 dependencies:
   - "A.19.ECS"
   - "E.10"

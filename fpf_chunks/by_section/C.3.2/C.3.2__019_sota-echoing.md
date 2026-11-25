@@ -6,12 +6,12 @@ section_id: "C.3.2:17"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__019_sota-echoing.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:17 — SoTA-Echoing"
-line_start: 58292
-line_end: 58295
+line_start: 58301
+line_end: 58304
 dependencies:
   - "A.14"
   - "A.2.6"

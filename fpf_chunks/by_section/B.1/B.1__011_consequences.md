@@ -6,12 +6,12 @@ section_id: "B.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__011_consequences.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:9 — Consequences"
-line_start: 42924
-line_end: 42937
+line_start: 42933
+line_end: 42946
 dependencies:
   - "A.1"
   - "A.14"

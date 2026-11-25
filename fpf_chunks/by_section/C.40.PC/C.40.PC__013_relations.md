@@ -6,12 +6,12 @@ section_id: "C.40.PC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__013_relations.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:12 — Relations"
-line_start: 92509
-line_end: 92519
+line_start: 92519
+line_end: 92529
 dependencies:
   - "A.15.9"
   - "A.2.3"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.MM.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
-line_start: 87036
-line_end: 87135
+line_start: 87046
+line_end: 87145
 dependencies:
   - "B.5.MR"
   - "C.2.1"
@@ -79,7 +79,7 @@ To **act on the result**, the recipient may additionally need the resources, cap
 
 #### C.37.MM:4.4 - Reopen only the dependent conclusions
 
-When an observation, model edition or interpretation changes, follow the consequential relations to the conclusions and actions that used it. Tell their users what changed and which use must be reconsidered. Test the revised result under the conditions that made the change relevant. If an earlier model is retained as evidence of a past decision, keep its effective edition identifiable.
+When an observation, model edition or interpretation changes, follow the consequential relations to the conclusions and actions that used it. Return the changed answer and the affected uses to the intended recipient. Inform other users when the undertaking or a standing duty calls for it. Establish the revised answer under the conditions that matter, using the available grounds or obtaining a new check when needed or commissioned. If an earlier model is retained as evidence of a past decision, keep its effective edition identifiable.
 
 ### C.37.MM:5 - Archetypal Grounding
 

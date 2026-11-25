@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CAE.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
-line_start: 124114
-line_end: 124412
+line_start: 124131
+line_end: 124429
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -200,7 +200,7 @@ During ongoing Work, `A.15.7` can use the disposition as current information whi
 
 If a structural comparison makes the principle recognizable and the practitioner can then adapt it, the observations show reference availability and successful prompted use. They support applicability-selection failure under the uncued condition only if the comparison made an already available relation recognizable without supplying missing guidance. If new guidance remains a possible explanation, retain that rival and leave the stronger distinction unresolved. Neither observation proves one universal retrieval mechanism or complete workplace capability.
 
-Human Capability Development or a direct domain Method can receive the result only after a separate next-action decision.
+When an existing instruction selects the follow-up, use the result under the conditions of that instruction. If a consequential choice between changed support, further learning and another response remains open, take it to the person or body entitled to decide.
 
 The case keeps the first probe small while retaining the distinction between prompted use and the stronger applicability diagnosis.
 

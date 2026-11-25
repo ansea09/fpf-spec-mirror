@@ -6,7 +6,7 @@ section_id: "A.0:QF.1a"
 section_title: "Helper declarations for set-result language"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__014_helper-declarations-for-set-result-language.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1a — Helper declarations for set-result language"

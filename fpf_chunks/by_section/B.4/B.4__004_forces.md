@@ -6,12 +6,12 @@ section_id: "B.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__004_forces.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:3 — Forces"
-line_start: 47910
-line_end: 47917
+line_start: 47919
+line_end: 47926
 dependencies:
   - "A.12"
   - "A.15.1"

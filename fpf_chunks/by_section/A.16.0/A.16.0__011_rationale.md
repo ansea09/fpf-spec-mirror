@@ -6,12 +6,12 @@ section_id: "A.16.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__011_rationale.md"
-commit_sha: "cadc8eb15721be464193af85206e345f34a64b04"
+commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:10 — Rationale"
-line_start: 35425
-line_end: 35427
+line_start: 35432
+line_end: 35434
 dependencies:
   - "A.16"
   - "A.16.1"
