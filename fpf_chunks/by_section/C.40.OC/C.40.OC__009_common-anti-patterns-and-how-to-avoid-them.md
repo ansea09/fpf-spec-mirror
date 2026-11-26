@@ -6,7 +6,7 @@ section_id: "C.40.OC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:8 — Common Anti-Patterns and How to Avoid Them"

@@ -6,7 +6,7 @@ section_id: "A.6.REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__002_problem-frame.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:1 — Problem frame"
@@ -33,7 +33,7 @@ keywords:
 
 **Working concern and viewpoint.** Preserve the readable direct relation assertion. Add explicit occurrence identity when reidentification, comparison or another dependent use needs it, keeping the world-side occurrence distinct from its description, designation and representation.
 
-**Use this when.** Use this pattern when a receiving use needs to reidentify one obtaining relation occurrence, distinguish it from another or use that occurrence as a participant or argument. A report that only needs to say `Robot-7 is assigned as inspector through InspectionAssignment-17` can keep that direct sentence and stop. A history distinguishing two `MaintenanceInspectionAssignment` episodes with the same `Robot-7` and `InspectorSystemRole` needs the identity branch. So does a dependent relation that requires one already distinguished occurrence as its participant; a second episode need not already have occurred.
+**Use this when.** Use this pattern when reporting that a relation holds or when later work depends on which occurrence it was. A report may need only a supported direct assertion. To compare occurrences or use one as a participant or argument, the receiver must be able to distinguish it. This can matter even for the first known occurrence.
 
 **First useful move.** State the direct relation and participants using the subject pattern's meanings and obtaining predicate. Apply that test to the relevant facts or constituting history and state the supported result. Ask whether the receiving use needs to reidentify or distinguish this occurrence. If not, keep the direct sentence and stop; otherwise apply the identity and receiving-use steps in section 4.2.
 

@@ -6,7 +6,7 @@ section_id: "A.6.REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__005_solution.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:4 — Solution"
@@ -25,7 +25,7 @@ keywords:
 
 ### A.6.REL:4 - Solution
 
-**Local relation-occurrence mantra.** *State the direct relation. Ask whether the receiving use needs occurrence identity. If no, stop. If yes, apply the direct identity rule and add only the receiving object that use needs.*
+**Local relation-occurrence mantra.** *Which entities does the claim concern? What establishes or rules out the relation for them under the stated conditions? If it holds, does the receiver need to know which occurrence? Apply the subject's identity rule when that distinction matters.*
 
 Use `A.22.CGUS` when a receiving use needs a reusable constraint-governed unfolding structure for these continuations and stops.
 
@@ -33,9 +33,9 @@ Use `A.22.CGUS` when a receiving use needs a reusable constraint-governed unfold
 
 **Relation-object architecture discipline** names the rule set in this subsection. Conforming prose keeps the objects around one direct relation distinct, names the direct relation between adjacent objects, and uses a recoverable name for each current object. `A.6.5` specializes only the `SlotSpec` part of this rule set.
 
-**Short use rule.** State the world-side relation and its actual participants first. Add another named object from the relation-object architecture only when the current receiving use depends on that object, and state its direct relation to the object already in view. The tables below help select that additional object and relation; they are not a mandatory form for ordinary relation prose.
+**Short use rule.** Start with the direct relation in question and the entities the statement concerns under each participant meaning. To report actual participation, establish that the direct predicate holds in this case. Add another named object from the relation-object architecture only when the current receiving use depends on that object, and state its direct relation to the object already in view. The tables below help select that additional object and relation; they are not a mandatory form for ordinary relation prose.
 
-The world-side relation comes first. An **actual relation participant** is one `U.Entity` participating in one obtaining relation occurrence under one relation-participant meaning. Participation leaves the entity under its independently governed intrinsic kind. A **relation occurrence** is the obtaining `U.Relation` occurrence itself. The direct relation obtains when the actual participants satisfy the obtaining predicate; the occurrence-identity rule provides the criteria for reidentification, continuity, and distinction from another occurrence. Signatures, assertions, names, references, and representations retain their separate identities.
+The world-side relation comes first. An **actual relation participant** is one `U.Entity` participating in one obtaining relation occurrence under one relation-participant meaning. Participation leaves the entity under its independently governed intrinsic kind. A **relation occurrence** is the obtaining `U.Relation` occurrence itself. The direct relation obtains when the entities in question satisfy its predicate within its applicability. The occurrence-identity rule provides the criteria for reidentification, continuity, and distinction from another occurrence. Signatures, assertions, names, references, and representations retain their separate identities.
 
 ##### A.6.REL:4.1.1 - World-side objects
 
@@ -44,7 +44,7 @@ The world-side relation comes first. An **actual relation participant** is one `
 | **actual relation participant** | one `U.Entity`; this is a relation-qualified use of the entity, not a new kind | the entity participates in this relation occurrence under one relation-participant meaning | use the entity's direct kind and current name; use a governed designator only when naming or reference is current; in relation prose add the domain participant meaning, as in `Robot-7 as the holder system` | the participant's direct pattern and the direct relation pattern |
 | **relation occurrence** | one obtaining occurrence admitted under `U.Relation` | the occurrence has the actual participants and is classified by the direct relation kind; it obtains when those participants satisfy the relation obtaining predicate within its applicability | use the readable direct relation sentence until stable occurrence reference is needed; then use a relation-occurrence designator assigned after the identity rule is applicable | the direct relation pattern and `A.6.REL` |
 
-The phrase **actual relation participant** therefore never replaces the entity's own name. It says how that entity participates in this occurrence. Likewise, the readable sentence `Robot-7 is assigned as inspector through InspectionAssignment-17` can state the direct assignment without first creating a relation-occurrence description episteme.
+The phrase **actual relation participant** says how the entity participates in this occurrence. The entity retains its own name. A separate description episteme is optional.
 
 ##### A.6.REL:4.1.2 - Relation-kind settlement
 
@@ -53,8 +53,8 @@ The relation kind is a classificatory distinction over relation occurrences. Eve
 | Canonical FPF name | What this object is | Direct relation to preserve | Naming rule | Subject pattern |
 |---|---|---|---|---|
 | **relation kind** | a classificatory distinction whose individuals are relation occurrences; `E.24.UK` admits a durable U-kind only when the direct relation pattern supplies the required witness, while a narrower relation distinction remains governed without automatic `U.*` admission | classifies relation occurrences governed by one obtaining predicate and one occurrence-identity rule | use the accepted domain relation name; a new durable Tech name follows `E.24.UK` admission and `F.18` naming, while morphology alone establishes neither | the direct relation pattern and `A.6.REL`; `E.24.UK` when durable U-kind admission is current |
-| **relation-participant meaning** | relation-local semantic content specifying one domain contribution to the obtaining predicate | says how one actual participant contributes to the obtaining predicate while that participant retains its intrinsic kind | use the domain meaning declared by the direct pattern, such as `holder System` or `assigned local system-role kind` in an A.2.1 direct species; keep it local to that relation kind | the direct relation pattern |
-| **relation obtaining predicate** | truth-valued rule content over the actual participants considered under their relation-participant meanings | satisfaction of this predicate is the stated criterion for the direct relation obtaining | use the condition from the subject pattern, such as the predicate of one directly declared species under `U.SystemRoleAssignment`; notation used to express it keeps its source name; use `C.29` for a declared mathematical-lens use | the direct relation pattern |
+| **relation-participant meaning** | relation-local semantic content specifying one domain contribution to the obtaining predicate | specifies how an entity figures in the obtaining predicate while retaining its intrinsic kind | use the domain meaning declared by the direct pattern, such as `holder System` or `assigned local system-role kind` in an A.2.1 direct species; keep it local to that relation kind | the direct relation pattern |
+| **relation obtaining predicate** | truth-valued rule content evaluated on entities under their respective relation-participant meanings | satisfaction of this predicate is the stated criterion for the direct relation obtaining | use the condition from the subject pattern, such as the predicate of one directly declared species under `U.SystemRoleAssignment`; notation used to express it keeps its source name; use `C.29` for a declared mathematical-lens use | the direct relation pattern |
 | **relation occurrence-identity rule** | rule content for reidentifying one occurrence and distinguishing it from another | a system applies this rule only after relevant current-case facts or constituting history satisfy the direct obtaining predicate and later work needs occurrence identity | name the world-side discriminator supplied by the direct relation pattern, such as participant-determined identity or maximal continuous obtaining interval | the direct relation pattern and `A.6.REL` |
 
 **Public name.** `U.Relation` denotes the admitted root occurrence kind. A direct relation kind keeps its own governed name, participant meanings, obtaining predicate and occurrence-identity rule.
@@ -84,21 +84,21 @@ In the world-side relation, the actual entities participate directly under the r
 | Canonical FPF name | What this object is | Direct relation to preserve | Naming rule | Subject pattern |
 |---|---|---|---|---|
 | **`RelationSignature`** | a `U.Signature` declaration episteme whose EntityOfConcern is the direct relation kind | its content states a reusable declaration of the relation-participant meanings, obtaining predicate, applicability, occurrence-identity rule, and only the SlotSpecs needed by receiving typed uses | name the declaration episteme from its accepted direct relation species, for example the `RelationSignature` for `MaintenanceInspectionAssignment`; the name denotes the declaration episteme, not the relation kind or an occurrence | `A.6.0` |
-| **`SlotSpec`** | a declaration-content component identified inside one `RelationSignature` by its declaration-local `SlotKind` | corresponds to one relation-participant meaning and states the actual participant `ValueKind` plus the receiving-episteme designation mode | use the declaration-local name supplied by the subject pattern, such as `HolderSystemSlot` in the `MaintenanceInspectionAssignment` signature; refer to the complete component as that SlotSpec in the named `RelationSignature` | `A.6.5` |
+| **`SlotSpec`** | a declaration-content component identified inside one `RelationSignature` by its declaration-local `SlotKind` | corresponds to one relation-participant meaning and states the required `ValueKind` of the entity under that meaning and the designation mode in a receiving episteme | use the declaration-local name supplied by the subject pattern, such as `HolderSystemSlot` in the `MaintenanceInspectionAssignment` signature; refer to the complete component as that SlotSpec in the named `RelationSignature` | `A.6.5` |
 
-`SlotKind`, `ValueKind`, and `refMode` answer different questions. `SlotKind` identifies the declaration component locally. `ValueKind` is the independently governed kind of the actual relation participant. `refMode` states how a receiving episteme designates that participant. Together they specify one declaration component; world-side entities and occurrences keep their independently governed identities.
+`SlotKind`, `ValueKind`, and `refMode` answer different questions. `SlotKind` identifies the declaration component locally. `ValueKind` specifies the independently governed kind the designated entity must satisfy. `refMode` states how a receiving episteme designates that entity. Together they specify one declaration component; world-side entities and occurrences keep their independently governed identities.
 
 ##### A.6.REL:4.1.4 - Claim and description epistemes
 
 | Canonical FPF name | What this object is | Direct relation to preserve | Naming rule | Subject pattern |
 |---|---|---|---|---|
-| **relation-participant designation** | a value or governed reference in a receiving episteme; it retains its own value kind or RefKind | denotes the actual relation participant through the content position corresponding to one declared SlotSpec | name the value or reference under its own governor and effective reference scheme; if a concrete representation field carries it, keep that field's source name and state the explicit declaration or representation correspondence to the SlotKind; equal spelling is only a representation choice, never object identity | `C.2.1`, `A.6.5`, and `F.18` when durable naming is current |
+| **relation-participant designation** | a value or governed reference in a receiving episteme; it retains its own value kind or RefKind | identifies the entity under one relation-participant meaning through the content position corresponding to its declared `SlotSpec` | name the value or reference under its own governor and effective reference scheme; if a concrete representation field carries it, keep that field's source name and state the explicit declaration or representation correspondence to the SlotKind; equal spelling is only a representation choice, never object identity | `C.2.1`, `A.6.5`, and `F.18` when durable naming is current |
 | **relational assertion** | a claim-bearing `U.Episteme` | its content states affirmative or negative assertion polarity for the direct obtaining predicate with relation-participant designations; an affirmative assertion may designate an already individuated occurrence only after current case facts or constituting history satisfy that predicate and the direct identity rule has been applied; the assertion states that result; assertion form alone does not establish or constitute the occurrence; a forecast, scenario, counterfactual, permission, or other claim family keeps its own direct semantics, while supported, refuted, or unresolved reliance belongs to `A.10` or the receiving evaluation | name the asserted direct relation and its polarity; name the direct claim family whenever ordinary affirmation or denial is insufficient | `C.2.1`, the direct claim pattern, and `A.10` or the receiving evaluation for reliance |
 | **relation-occurrence description episteme** | a `U.Episteme` whose EntityOfConcern is one explicitly individuated relation occurrence | describes that occurrence without replacing it; description form alone does not supply occurrence identity | use `description of <relation-occurrence designator>` in readable prose; give a reusable description-episteme kind its own governed name only when another use depends on that kind | `C.2.1` |
 
 A receiving episteme contains a relation-participant designation in a content position corresponding to one declared SlotSpec. A concrete representation may carry that designation in a field, but the field keeps its source name and corresponds to the declaration-local SlotKind only through an explicit declaration or representation correspondence. Reusing the SlotKind spelling for convenience does not identify the field, SlotKind, designation, or participant.
 
-The designation denotes the actual participant; the participant remains a `U.Entity`, the obtaining occurrence remains a `U.Relation`, and the receiving episteme keeps its own C.2.1 identity.
+A designation can identify a `U.Entity` correctly in a negative assertion or while a claim remains unresolved. The entity is an actual participant when the direct relation predicate holds for the entities in question within its applicability. An obtaining occurrence is a `U.Relation`. The receiving episteme retains its own `C.2.1` identity.
 
 ##### A.6.REL:4.1.5 - Naming, reference, and representation
 
@@ -129,7 +129,7 @@ The relation-object architecture organizes the distinct objects that may become 
 
 | Current use | Minimum sufficient text | Add another object only when |
 |---|---|---|
-| ordinary direct relation assertion | one readable direct relation sentence naming the actual participants | predicate interpretation or occurrence identity changes the next engineering move |
+| ordinary direct relation assertion | one readable sentence affirming or denying the direct relation for the entities in question under their respective participant meanings | predicate interpretation or occurrence identity changes the next engineering move |
 | repeated typed assertion or description episteme | cite the direct `RelationSignature`; carry relation-participant designations in content positions corresponding to its SlotSpecs; if a concrete representation field carries one, keep its source name and state the explicit declaration or representation correspondence | the declaration, ValueKind, RefKind, designation, or correspondence itself is under examination |
 | occurrence-dependent assertion or description episteme | use the relation-occurrence designator or reference and cite the direct occurrence-identity rule | participant meaning, obtaining, continuity, or repeated-occurrence identity is disputed |
 | representation-dependent use | name the source representation element, the represented FPF object or claim content, and their explicit correspondence | representation preservation or loss is current under its applicable pattern, structural equivalence is current under `C.34`, or cross-context sameness is current under `A.6.9` |
@@ -147,7 +147,7 @@ Here **receiving use** is ordinary wording. First state the readable relation an
 2. Immediately ask: **Does the receiving use need to reidentify this occurrence or distinguish it from another, including another episode with the same participants?**
 3. Apply the contrast. A current report that needs only the relation sentence answers no. A history distinguishing repeated episodes answers yes. A later comparison that must establish that two reports concern the same occurrence, or a dependent relation that takes this occurrence as a participant, also answers yes.
 4. If no, keep the readable direct sentence and stop this pattern. Do not create a relation-occurrence description episteme for completeness.
-5. If yes, recover the participant meanings, applicability, and obtaining predicate from the subject pattern. Use the current-case grounds from step 1 for the facts they already establish. Only when the current-case facts satisfy the predicate is there an obtaining occurrence to individuate. Otherwise keep the result as a `C.2.1` claim under the direct predicate; use `A.6.P` only while the predicate or participants remain unclear. A claim-bearing episteme records the claim family and polarity; evidence and reliance stay with their direct governors.
+5. Carry forward the judgement from step 1. If the predicate is false for these entities under these conditions, there is no such occurrence. If the grounds leave its truth open, individuation lacks a premise. To distinguish an occurrence that the grounds establish, recover the direct identity rule. Use `A.6.P` when the claim itself is unclear and `A.10` when the grounds for reliance are in question.
 6. Recover and apply the subject pattern's same-versus-new-occurrence rule. Explicitly individuate one occurrence; assign an identifier only when stable reference is needed.
 7. Only now name the receiving object and subject pattern, then use the corresponding branch:
 
@@ -159,7 +159,7 @@ Occurrence existence depends on the direct relation obtaining. Reidentification 
 
 #### A.6.REL:4.3 - Select an identity rule that survives repetition
 
-Use participant-determined identity only when the direct ontology establishes that two distinct occurrences of this relation kind cannot have the same participant identities. The `RelationSignature` SlotSpecs declare how assertion or description episteme content designates those participants.
+Two assertions about the same entities can refer to different occurrences of the same kind. The entities alone identify the occurrence only if the subject rule excludes that possibility. The `RelationSignature` SlotSpecs govern how an assertion or description designates the entities.
 
 SlotKinds identify declaration components; database-row and representation keys identify representation elements. Neither function supplies the world-side occurrence-identity rule; apply any constitutive-participant contribution declared by that rule.
 
@@ -187,7 +187,7 @@ A changed episteme contributes to occurrence identity only when that episteme it
 
 #### A.6.REL:4.4 - Separate occurrence, assertion, reifier, relator, description, and publication
 
-A relational assertion is an episteme whose content affirms or denies the direct obtaining predicate for the designated participants. Keep forecasts, scenarios, counterfactuals, permissions, and other claim families under their direct governors. Record supported, refuted, or unresolved reliance separately under `A.10` or the receiving evaluation. The assertion and its reliance posture can be revised or superseded while the world-side relation remains unchanged.
+A relational assertion is an episteme whose content affirms or denies the direct obtaining predicate for the designated entities under their respective participant meanings. Keep forecasts, scenarios, counterfactuals, permissions, and other claim families under their direct governors. Record supported, refuted, or unresolved reliance separately under `A.10` or the receiving evaluation. The assertion and its reliance posture can be revised or superseded while the world-side relation remains unchanged.
 
 A reifier is a representation-side term or node. A system may use it to represent statements about a proposition, assertion episteme, or relation-occurrence description episteme. Its presence does not make the direct relation obtain and is not a world-side occurrence-identity rule.
 

@@ -6,7 +6,7 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
@@ -406,9 +406,9 @@ Retest dependent bindings and conclusions when the resolved value or a used rule
 
 ##### C.2.1:4.2.1 - Participants and the shared reusable-declaration rule
 
-The constitution predicate uses three actual participants, each a `U.Entity`. The content and rule collection have the independent semantic identities given in :4.1.1; the EntityOfConcern has its own subject-governed identity. Recover each before judging whether the relation obtains:
+To test the constitution predicate, identify three entities of kind `U.Entity`, one under each participant meaning. The content and rule collection have the independent semantic identities given in :4.1.1; the EntityOfConcern has its own subject-governed identity. Recover each before judging whether the relation obtains:
 
-| Relation-participant meaning | What identifies the participant for this constitution |
+| Relation-participant meaning | What identifies the entity under that meaning |
 | --- | --- |
 | constitutive claim content | the abstract content entity identified by its complete semantic content and organization under :4.1.1; a selected graph representation supplies an expression, not its identity by itself |
 | EntityOfConcern | one entity independently identified under its subject's rule |
@@ -605,7 +605,7 @@ The organized claims expressed by a filled card can constitute an episteme when 
 
 When a card or other form designates the participants of one direct relation, its field labels may correspond to SlotKinds in that relation's `RelationSignature`, and its field values may be by-value designations or references of the declared refModes. The form is not a filled direct relation occurrence; supplying fields does not make the predicate obtain or provide occurrence identity.
 
-In a relational assertion, the claim graph designates the actual participants and states affirmative or negative polarity for the direct predicate. The direct pattern defines that predicate and the occurrence-identity rule; current case facts determine whether the predicate is satisfied or failed. For a forecast, scenario, counterfactual, permission, or another claim family, name its governing pattern rather than using one common catch-all field. When explicit evaluation is needed, judge support for or refutation of the assertion under its direct rule or receiving evaluation. Use `A.10` when the declared use needs a replayable source-to-use account and bounded reliance judgment. An affirmative assertion may designate an occurrence only after the case facts satisfy the predicate and the direct identity rule individuates that occurrence; a negative assertion creates no failed world-side occurrence. In a relation-occurrence description episteme, the EntityOfConcern is that exact already individuated occurrence. The assertion and description retain their own C.2.1 identities. Their forms do not by themselves supply case facts or the occurrence-identity rule, or establish obtaining; evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
+In a relational assertion, the claim graph designates the entities under their respective participant meanings and affirms or denies the direct predicate. The direct pattern defines that predicate and the occurrence-identity rule; current case facts determine whether the predicate is satisfied or failed. For a forecast, scenario, counterfactual, permission, or another claim family, name its governing pattern rather than using one common catch-all field. When explicit evaluation is needed, judge support for or refutation of the assertion under its direct rule or receiving evaluation. Use `A.10` when the declared use needs a replayable source-to-use account and bounded reliance judgment. An affirmative assertion may designate an occurrence only after the case facts satisfy the predicate and the direct identity rule individuates that occurrence; a negative assertion creates no failed world-side occurrence. In a relation-occurrence description episteme, the EntityOfConcern is that exact already individuated occurrence. The assertion and description retain their own C.2.1 identities. Their forms do not by themselves supply case facts or the occurrence-identity rule, or establish obtaining; evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
 A designator designates an already recoverable referent. A governed reference resolves to that referent under an effective reference scheme.
 

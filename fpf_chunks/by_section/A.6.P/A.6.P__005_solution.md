@@ -6,7 +6,7 @@ section_id: "A.6.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_solution.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:4 — Solution"
@@ -167,10 +167,10 @@ Apply A.6.REL when a receiving use needs to identify or reidentify the occurrenc
 | Current reading | Actual object | Next move |
 |---|---|---|
 | world-side participation | one entity participates directly in an obtaining relation under one relation-participant meaning and retains its independently governed kind | use the direct relation pattern; add no `SlotSpec` unless reusable typed declaration is separately current |
-| assertion- or description-side designation | a claim-bearing assertion or occurrence-description episteme designates an actual participant, or an already recoverable occurrence when identity is current | use `C.2.1` plus the direct claim or description pattern; use A.6.5 only when a compatible `RelationSignature` supplies typed reuse |
+| assertion- or description-side designation | a relational assertion identifies the entities it concerns under their respective participant meanings. When reporting an already distinguished occurrence, the assertion or a description of the occurrence may designate that occurrence | use `C.2.1` plus the direct claim or description pattern; use A.6.5 only when a compatible `RelationSignature` supplies typed reuse |
 | local kind used for participation-based reasoning | one local kind recovered through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule, whose later typed claim quantifies over entities participating under one designated participant meaning and a declared extent rule; a practice or source reference may locate or prompt comparison of the definition but does not identify the kind | use `C.3` and `C.3.1` only for typed membership, quantification, substitution, or kind-order reasoning |
 
-A readable word such as `result`, `input`, `problem bearer`, or `next continuation` can remain in Plain prose when the direct relation or claim is recoverable. Naming that reading creates neither a kind nor an occurrence. The world-side participant never becomes a declaration-local `SlotSpec`; the receiving episteme's designation denotes the participant without replacing it.
+A readable word such as `result`, `input`, `problem bearer`, or `next continuation` can remain in Plain prose when the direct relation or claim is recoverable. Naming that reading creates neither a kind nor an occurrence. The world-side participant never becomes a declaration-local `SlotSpec`; the designation identifies the entity that the receiving episteme refers to under that meaning.
 
 #### A.6.P:4.7 - Name change by the object that changes
 

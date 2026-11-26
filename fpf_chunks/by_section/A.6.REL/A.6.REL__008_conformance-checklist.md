@@ -6,7 +6,7 @@ section_id: "A.6.REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__008_conformance-checklist.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:7 — Conformance Checklist"
@@ -25,7 +25,7 @@ keywords:
 
 ### A.6.REL:7 - Conformance Checklist
 
-1. Across the subject pattern and the current use, the relation kind, relation-participant meanings, relation obtaining predicate, actual relation participants, applicability, relation occurrence-identity rule, and any currently needed `RelationSignature` SlotSpecs are recoverable. An ordinary relation sentence remains complete without repeating that settlement.
+1. Across the subject pattern and the current use, the relation kind, participant meanings, obtaining predicate, applicability, occurrence-identity rule and any needed `RelationSignature` SlotSpecs are recoverable. For an assertion about particular entities, identify which entity is meant under each participant meaning. For a report of actual participation, the case facts or constituting history establish that the predicate holds. An ordinary relation sentence remains complete without repeating that settlement.
 2. The text does not conflate relation obtaining, predicate satisfaction, root-kind admission, explicit-individuation work, identifier assignment, and reference use.
 3. Root `U.Relation` admission is governed by `E.24.UK` from the common `A.6.REL` discipline and the relation-specific witness supplied by each direct relation pattern; project use does not repeat the admission decision.
 4. After the readable direct relation, ask whether the receiving use needs to reidentify this occurrence or distinguish it from another. A simple current report can stop; a history, same-occurrence comparison or dependent relation can require the identity branch.

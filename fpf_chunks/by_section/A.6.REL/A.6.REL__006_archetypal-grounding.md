@@ -6,7 +6,7 @@ section_id: "A.6.REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__006_archetypal-grounding.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:5 — Archetypal Grounding"
@@ -27,12 +27,12 @@ keywords:
 
 #### A.6.REL:5.1 - Repeated occurrence of one direct system-role-assignment species
 
-Start with `Robot-7 is assigned as inspector through InspectionAssignment-17` and trace only the objects needed by the current use.
+Suppose a maintenance practice has declared a species of `U.SystemRoleAssignment`. The question is whether matching the complete participant set identifies one assignment across two observations.
 
 1. **World-side participants and occurrence.** `Robot-7` remains an admitted `U.System`; `InspectorSystemRole` remains one local C.3 kind. `InspectionAssignment-17` is an occurrence of directly declared `MaintenanceInspectionAssignment <: U.SystemRoleAssignment`. `Robot-7` participates as the holder system and `InspectorSystemRole` as the assigned local system-role kind. Those two values are the complete participant set of this direct species.
-2. **Direct settlement.** A.2.1 supplies the species' participant meanings, direct predicate, applicability, and same-versus-new-occurrence rule. The occurrence continues while that predicate obtains without interruption for the same complete participant set. A demonstrated predicate-false gap ends it; later resumption starts another occurrence. An evidence gap by itself does neither.
+2. **Direct settlement.** The maintenance domain declares the participant meanings, predicate and applicability of `MaintenanceInspectionAssignment`. This example assumes that the shift facts satisfy that predicate for the two entities. Under `A.2.1:4.3`, the occurrence continues while the predicate holds without interruption for the same complete participant set. A demonstrated predicate-false gap ends it; later resumption starts another occurrence. An evidence gap by itself does neither.
 3. **Reusable declaration.** For typed reuse, the `MaintenanceInspectionAssignment` `RelationSignature` contains `HolderSystemSlot : U.System / U.EntityRef` and the declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as ValueKind and `ByValue` as refMode. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value. A stronger direct species adds only its identity-bearing participants. `assignmentInterval` remains assertion or occurrence-description content, not another participant SlotSpec.
-4. **Assertion and participant designations.** An `InspectionAssignmentAssertion` carries designations corresponding to the species' declared SlotSpecs and states the currently known `assignmentInterval` separately. Its claim may say that `Robot-7` is currently assigned as inspector through `InspectionAssignment-17`. If the receiving use needs only that current report, keep the assertion and stop without adding a separate occurrence-description episteme.
+4. **Assertion and participant designations.** An `InspectionAssignmentAssertion` carries designations corresponding to the species' declared SlotSpecs and states the currently known `assignmentInterval` separately. For a staffing report, the assertion can simply state who is assigned as inspector during the shift. A receiver who needs to cite the particular assignment can use `InspectionAssignment-17` for the occurrence identified in this example.
 5. **Occurrence identity, designator, and reference.** Suppose two episodes of the same direct species have the same complete participant values but occur in inspection shifts separated by a demonstrated predicate-false period. To prepare a history or Work-attribution claim that must distinguish the episodes, a practitioner applies the A.2.1 continuity rule, distinguishes the second occurrence, and assigns a designator only if stable reference is needed. A roster-row identifier, copied field set, taxonomy edition, reference scheme, or reused source key cannot collapse or split the two episodes.
 6. **Representation.** A roster row or diagram edge may represent the assignment assertion or an occurrence-description episteme. A roster row's fields and key retain their representation-side meanings; the source elements of a diagram edge retain their representation-side meanings.
 
@@ -64,5 +64,5 @@ Let `R1` be the already individuated second `MaintenanceInspectionAssignment` oc
 
 A system performing revision work can establish another edition of `E1` or `E2`; a system performing publication work can establish another publication-relation occurrence for a selected edition.
 
-`R1` continues or ceases only as the A.2.1 obtaining predicate and occurrence-identity rule determine from the assignment facts. This recursive case preserves the distinction: a description episteme can itself become the actual participant or EntityOfConcern of another relation without becoming the relation occurrence it describes.
+`R1` continues or ceases as the facts of the assignment satisfy or cease to satisfy the species' predicate under the continuity rule of `A.2.1`. The description episteme can itself participate in another relation or be the EntityOfConcern of another episteme while the assignment retains its own identity.
 

@@ -6,7 +6,7 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "423f9d3fef92bafec7b092b910e8ce056a0f607d"
+commit_sha: "9d38fbfe4ce5b72d8fe05e839cbca0025a5b31cf"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
@@ -144,7 +144,7 @@ refMode := ByValue | RefKind
 |---|---|
 | `SlotKind` | The declaration-local name by which this `RelationSignature` distinguishes one participant meaning of its EntityOfConcern relation kind. It is not a participant, system-role kind, or mathematical operand. |
 | `ValueKind` | The world-side kind admitted for the relation participant. |
-| `refMode` | How a receiving episteme, such as an assertion, description, or occurrence record, carries a participant designation: by value or through one governed RefKind. That designation denotes the participant. The occurrence record and the relation occurrence are distinct. |
+| `refMode` | How a receiving episteme, such as an assertion, description, or occurrence record, carries a participant designation: by value or through one governed RefKind. The designation identifies the entity meant under that participant meaning. The occurrence record and the relation occurrence are distinct. |
 
 Use A.6.5 to declare these participant meanings. In the simple `MaintenanceInspectionAssignment` species, use `HolderSystemSlot` and one declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as its ValueKind and `ByValue` as its refMode. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value.
 
